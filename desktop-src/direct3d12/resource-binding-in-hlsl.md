@@ -5,26 +5,16 @@ ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 749fed319f9ffe840f2b06512e337efa28081e24
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 01039550f07de57fb7b2f1e815bced02e549c741
+ms.sourcegitcommit: 60120d10c957815d79af566c72e5f4bcfaca4025
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548566"
+ms.lasthandoff: 03/23/2021
+ms.locfileid: "104837487"
 ---
 # <a name="resource-binding-in-hlsl"></a>Liaison de ressources en HLSL
 
 Cette rubrique décrit certaines fonctionnalités spécifiques à l’utilisation du [modèle de nuanceur](/windows/desktop/direct3dhlsl/shader-model-5-1) HLSL (High Level Shader Language) 5,1 avec Direct3D 12. Tout le matériel Direct3D 12 prend en charge le modèle de nuanceur 5,1. par conséquent, la prise en charge de ce modèle ne dépend pas du niveau de fonctionnalité matérielle.
-
--   [Types de ressources et tableaux](#resource-types-and-arrays)
--   [Tableaux de descripteurs et tableaux de texture](#descriptor-arrays-and-texture-arrays)
--   [Alias des ressources](#resource-aliasing)
--   [Divergence et dérivées](#divergence-and-derivatives)
--   [UAVs dans les nuanceurs de pixels](#uavs-in-pixel-shaders)
--   [Mémoires tampons constantes](#constant-buffers)
--   [Changements de bytecode dans SM 5.1](#bytecode-changes-in-sm51)
--   [Exemples de déclarations HLSL](#example-hlsl-declarations)
--   [Rubriques connexes](#related-topics)
 
 ## <a name="resource-types-and-arrays"></a>Types de ressources et tableaux
 
@@ -103,6 +93,7 @@ Sur un matériel, l’utilisation de ce qualificateur génère du code suppléme
 Les tableaux de textures sont disponibles depuis DirectX 10. Les tableaux de textures requièrent un descripteur, mais tous les secteurs de tableau doivent partager les mêmes format, largeur, hauteur et compte MIP. En outre, le tableau doit occuper une plage contiguë dans l’espace d’adressage virtuel. Le code suivant montre un exemple d’accès à un tableau de texture à partir d’un nuanceur.
 
 ``` syntax
+Texture2DArray<float4> myTex2DArray : register(t0); // t0
 float3 myCoord(1.0f,1.4f,2.2f); // 2.2f is array index (rounded to int)
 color = myTex2DArray.Sample(mySampler, myCoord);
 ```
@@ -112,17 +103,17 @@ Dans un tableau de textures, l’index peut être librement modifié, sans néce
 Le tableau de descripteurs équivalent serait :
 
 ``` syntax
-Texture2D<float4> myTex2DArray[] : register(t0); // t0+
+Texture2D<float4> myArrayOfTex2D[] : register(t0); // t0+
 float2 myCoord(1.0f, 1.4f);
-color = myTex2D[2].Sample(mySampler,myCoord); // 2 is index
+color = myArrayOfTex2D[2].Sample(mySampler,myCoord); // 2 is index
 ```
 
-Remarque l’utilisation maladroite d’un float pour l’index de tableau est remplacée par `myTex2D[2]` . En outre, les tableaux de descripteurs offrent davantage de flexibilité avec les dimensions. Le type `Texture2D` est cet exemple, ne peut pas varier, mais le format, la largeur, la hauteur et le nombre MIP peuvent varier avec chaque descripteur.
+Remarque l’utilisation maladroite d’un float pour l’index de tableau est remplacée par `myArrayOfTex2D[2]` . En outre, les tableaux de descripteurs offrent davantage de flexibilité avec les dimensions. Le type `Texture2D` est cet exemple, ne peut pas varier, mais le format, la largeur, la hauteur et le nombre MIP peuvent varier avec chaque descripteur.
 
 Il est légitime d’avoir un tableau de descripteurs de tableaux de textures :
 
 ``` syntax
-Texture2DArray<float4> myTex2DArrayOfArrays[2] : register(t0);
+Texture2DArray<float4> myArrayOfTex2DArrays[2] : register(t0);
 ```
 
 Il n’est pas possible de déclarer un tableau de structures, chaque structure contenant des descripteurs, par exemple le code suivant n’est pas pris en charge.
@@ -148,7 +139,7 @@ Pour obtenir la disposition **abcabcabc....** Memory, utilisez une table de desc
 
 ## <a name="resource-aliasing"></a>Alias des ressources
 
-Les plages de ressources spécifiées dans les nuanceurs HLSL sont des plages logiques. Elles sont liées à des plages de tas concrètes au moment de l’exécution via le mécanisme de signature racine. Normalement, une plage logique est mappée à une plage de tas qui ne se chevauche pas avec d’autres plages de tas. Toutefois, le mécanisme de signature racine permet d’effectuer un alias (chevauchement) des plages de tas de types compatibles. Par exemple, `tex2` les `tex3` plages de l’exemple ci-dessus peuvent être mappées à la même plage de tas (ou chevauchement), ce qui a pour effet d’affecter des textures à des textures dans le programme HLSL. Si de tels alias sont souhaités, le nuanceur doit être compilé avec les \_ ressources de nuanceur D3D10 peuvent être définies à l' \_ \_ \_ aide de l’option d' *\_ \_ alias/res peut* être définie pour l' [outil Effect-compiler Tool](/windows/desktop/direct3dtools/fxc) (fxc). L’option permet au compilateur de générer un code correct en empêchant certaines optimisations de charge/stockage en supposant que les ressources peuvent créer un alias.
+Les plages de ressources spécifiées dans les nuanceurs HLSL sont des plages logiques. Elles sont liées à des plages de tas concrètes au moment de l’exécution via le mécanisme de signature racine. Normalement, une plage logique est mappée à une plage de tas qui ne se chevauche pas avec d’autres plages de tas. Toutefois, le mécanisme de signature racine permet d’effectuer un alias (chevauchement) des plages de tas de types compatibles. Par exemple, `tex2` les `tex3` plages de l’exemple ci-dessus peuvent être mappées à la même plage de tas (ou chevauchement), ce qui a pour effet d’affecter des textures à des textures dans le programme HLSL. Si de tels alias sont souhaités, le nuanceur doit être compilé avec les \_ ressources de nuanceur D3D10 peuvent être définies à l' \_ \_ \_ aide de l’option d' *\_ \_ alias/res peut* être définie pour l' [outil Effect-compiler Tool](/windows/win32/direct3dtools/fxc) (fxc). L’option permet au compilateur de générer un code correct en empêchant certaines optimisations de charge/stockage en supposant que les ressources peuvent créer un alias.
 
 ## <a name="divergence-and-derivatives"></a>Divergence et dérivées
 
@@ -324,35 +315,12 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-<dl> <dt>
-
-[Indexation dynamique à l’aide de HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
-</dt> <dt>
-
-[Effect-Tool du compilateur](/windows/desktop/direct3dtools/fxc)
-</dt> <dt>
-
-[Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
-</dt> <dt>
-
-[Affichages ordonnés du rastériseur](rasterizer-order-views.md)
-</dt> <dt>
-
-[Liaison de ressource](resource-binding.md)
-</dt> <dt>
-
-[Signatures racines](root-signatures.md)
-</dt> <dt>
-
-[Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
-</dt> <dt>
-
-[Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md)
-</dt> <dt>
-
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
-</dt> </dl>
-
- 
-
- 
+* [Indexation dynamique à l’aide de HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
+* [Effect-Tool du compilateur](/windows/win32/direct3dtools/fxc)
+* [Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+* [Affichages ordonnés du rastériseur](rasterizer-order-views.md)
+* [Liaison de ressource](resource-binding.md)
+* [Signatures racines](root-signatures.md)
+* [Modèle de nuanceur 5,1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md)
+* [Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
