@@ -1,0 +1,170 @@
+- name: Communications interprocessus
+  href: interprocess-communications.md
+  items:
+    - name: Boîtes
+      href: mailslots.md
+      items:
+        - name: À propos des mailslots
+          href: about-mailslots.md
+          items:
+            - name: Noms des mailslot
+              href: mailslot-names.md
+            - name: Opérations mailslot
+              href: mailslot-operations.md
+        - name: Utilisation de mailslots
+          href: using-mailslots.md
+          items:
+            - name: Création d’un mailslot
+              href: creating-a-mailslot.md
+            - name: Écriture sur un mailslot
+              href: writing-to-a-mailslot.md
+            - name: Lire à partir d’un mailslot
+              href: reading-from-a-mailslot.md
+        - name: Référence mailslot
+          href: mailslot-reference.md
+          items:
+            - name: Fonctions mailslot
+              href: mailslot-functions.md
+              items:
+                - name: CreateMailslot
+                  href: /windows/desktop/api/Winbase/nf-winbase-createmailslota
+                - name: GetMailslotInfo
+                  href: /windows/desktop/api/Winbase/nf-winbase-getmailslotinfo
+                - name: SetMailslotInfo
+                  href: /windows/desktop/api/Winbase/nf-winbase-setmailslotinfo
+    - name: échange dynamique de données réseau
+      href: network-dynamic-data-exchange.md
+      items:
+        - name: À propos de DDE réseau
+          href: about-network-dde.md
+          items:
+            - name: Agent DDE réseau
+              href: network-dde-agent.md
+            - name: Partages DDE
+              href: dde-shares.md
+            - name: Partages et sécurité approuvés
+              href: trusted-shares-and-security.md
+            - name: Gestion des partages DDE
+              href: managing-dde-shares.md
+        - name: Référence DDE réseau
+          href: network-dde-reference.md
+          items:
+            - name: Fonctions DDE réseau
+              href: network-dde-functions.md
+              items:
+                - name: NDdeGetErrorString
+                  href: nddegeterrorstring.md
+                - name: NDdeGetShareSecurity
+                  href: nddegetsharesecurity.md
+                - name: NDdeGetTrustedShare
+                  href: nddegettrustedshare.md
+                - name: NDdeIsValidAppTopicList
+                  href: nddeisvalidapptopiclist.md
+                - name: NDdeIsValidShareName
+                  href: nddeisvalidsharename.md
+                - name: NDdeSetShareSecurity
+                  href: nddesetsharesecurity.md
+                - name: NDdeSetTrustedShare
+                  href: nddesettrustedshare.md
+                - name: NDdeShareAdd
+                  href: nddeshareadd.md
+                - name: NDdeShareDel
+                  href: nddesharedel.md
+                - name: NDdeShareEnum
+                  href: nddeshareenum.md
+                - name: NDdeShareGetInfo
+                  href: nddesharegetinfo.md
+                - name: NDdeShareSetInfo
+                  href: nddesharesetinfo.md
+                - name: NDdeTrustedShareEnum
+                  href: nddetrustedshareenum.md
+            - name: Structures DDE réseau
+              href: network-dde-structures.md
+              items:
+                - name: NDDESHAREINFO
+                  href: nddeshareinfo-str.md
+    - name: Canaux
+      href: pipes.md
+      items:
+        - name: À propos des canaux
+          href: about-pipes.md
+          items:
+            - name: Canaux anonymes
+              href: anonymous-pipes.md
+              items:
+                - name: Opérations de canal anonyme
+                  href: anonymous-pipe-operations.md
+                - name: Héritage de handle de canal
+                  href: pipe-handle-inheritance.md
+                - name: Sécurité des canaux anonymes et droits d’accès
+                  href: anonymous-pipe-security-and-access-rights.md
+            - name: Canaux nommés
+              href: named-pipes.md
+              items:
+                - name: Noms de canaux
+                  href: pipe-names.md
+                - name: Modes ouverts du canal nommé
+                  href: named-pipe-open-modes.md
+                - name: 'Modes de type canal nommé, lecture et attente'
+                  href: named-pipe-type-read-and-wait-modes.md
+                - name: Instances de canal nommé
+                  href: named-pipe-instances.md
+                - name: Opérations de canal nommé
+                  href: named-pipe-operations.md
+                - name: E/s de canal synchrones et avec chevauchement
+                  href: synchronous-and-overlapped-input-and-output.md
+                - name: Sécurité des canaux nommés et droits d’accès
+                  href: named-pipe-security-and-access-rights.md
+                - name: Emprunt de l’identité d’un client de canal nommé
+                  href: impersonating-a-named-pipe-client.md
+        - name: Utilisation de canaux
+          href: using-pipes.md
+          items:
+            - name: Serveur de canaux multithread
+              href: multithreaded-pipe-server.md
+            - name: Serveur de canaux nommés utilisant des e/s avec chevauchement
+              href: named-pipe-server-using-overlapped-i-o.md
+            - name: Serveur de canaux nommés utilisant les routines de saisie semi-automatique
+              href: named-pipe-server-using-completion-routines.md
+            - name: Client de canal nommé
+              href: named-pipe-client.md
+            - name: Transactions sur les canaux nommés
+              href: transactions-on-named-pipes.md
+        - name: Référence du canal
+          href: pipe-reference.md
+          items:
+            - name: Fonctions de canal
+              href: pipe-functions.md
+              items:
+                - name: CallNamedPipe
+                  href: /windows/desktop/api/Winbase/nf-winbase-callnamedpipea
+                - name: ConnectNamedPipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe
+                - name: CreateNamedPipe
+                  href: /windows/desktop/api/Winbase/nf-winbase-createnamedpipea
+                - name: CreatePipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-createpipe
+                - name: DisconnectNamedPipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-disconnectnamedpipe
+                - name: GetNamedPipeClientComputerName
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientcomputernamea
+                - name: GetNamedPipeClientProcessId
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientprocessid
+                - name: GetNamedPipeClientSessionId
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeclientsessionid
+                - name: GetNamedPipeHandleState
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipehandlestatea
+                - name: GetNamedPipeInfo
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-getnamedpipeinfo
+                - name: GetNamedPipeServerProcessId
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserverprocessid
+                - name: GetNamedPipeServerSessionId
+                  href: /windows/desktop/api/Winbase/nf-winbase-getnamedpipeserversessionid
+                - name: PeekNamedPipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-peeknamedpipe
+                - name: SetNamedPipeHandleState
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-setnamedpipehandlestate
+                - name: TransactNamedPipe
+                  href: /windows/desktop/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe
+                - name: WaitNamedPipe
+                  href: /windows/desktop/api/Winbase/nf-winbase-waitnamedpipea

@@ -1,0 +1,22 @@
+- name: Identification de la source d’entrée
+  href: input-source-identification-portal.md
+  items:
+    - name: Référence d’identification de la source d’entrée
+      href: input-source-identification-reference.md
+      items:
+        - name: Énumérations
+          href: enumerations.md
+          items:
+            - name: INPUT_MESSAGE_DEVICE_TYPE
+              href: /windows/win32/api/winuser/ne-winuser-input_message_device_type
+            - name: INPUT_MESSAGE_ORIGIN_ID
+              href: /windows/win32/api/winuser/ne-winuser-input_message_origin_id
+        - name: Fonctions
+          href: functions.md
+          items:
+            - name: GetCIMSSM
+              href: /windows/win32/api/winuser/nf-winuser-getcimssm
+            - name: GetCurrentInputMessageSource
+              href: /windows/win32/api/winuser/nf-winuser-getcurrentinputmessagesource
+        - name: INPUT_MESSAGE_SOURCE
+          href: /windows/win32/api/winuser/ns-winuser-input_message_source
