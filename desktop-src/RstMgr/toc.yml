@@ -1,0 +1,83 @@
+- name: Gestionnaire de redémarrage
+  href: restart-manager-portal.md
+  items:
+    - name: À propos du gestionnaire de redémarrage
+      href: about-restart-manager.md
+      items:
+        - name: Instructions pour les applications et les services
+          href: guidelines-for-applications-and-services.md
+          items:
+            - name: Instructions pour les applications
+              href: guidelines-for-applications.md
+            - name: Instructions pour les services
+              href: guidelines-for-services.md
+            - name: Services système critiques
+              href: critical-system-services.md
+    - name: Utilisation du gestionnaire de redémarrage
+      href: using-restart-manager.md
+      items:
+        - name: Utilisation du gestionnaire de redémarrage avec un programme d’installation principal
+          href: using-restart-manager-with-a-primary-installer.md
+        - name: Utilisation du gestionnaire de redémarrage avec un programme d’installation secondaire
+          href: using-restart-manager-with-a-secondary-installer.md
+        - name: Obtention de l’état d’une opération du gestionnaire de redémarrage
+          href: getting-the-status-of-a-restart-manager-operation.md
+        - name: Annulation de l’opération de redémarrage du gestionnaire en cours
+          href: canceling-the-current-restart-manager-operation.md
+    - name: Référence du gestionnaire de redémarrage
+      href: restart-manager-reference.md
+      items:
+        - name: Fonctions de rappel du gestionnaire de redémarrage
+          href: callback-functions.md
+          items:
+            - name: RM_WRITE_STATUS_CALLBACK
+              href: /windows/desktop/api/restartmanager/nc-restartmanager-rm_write_status_callback
+        - name: Énumérations du gestionnaire de redémarrage
+          href: enumerations.md
+          items:
+            - name: RM_APP_STATUS
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_status
+            - name: RM_APP_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_app_type
+            - name: RM_FILTER_ACTION
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_action
+            - name: RM_FILTER_TRIGGER
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_filter_trigger
+            - name: RM_REBOOT_REASON
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_reboot_reason
+            - name: RM_SHUTDOWN_TYPE
+              href: /windows/win32/api/RestartManager/ne-restartmanager-rm_shutdown_type
+        - name: Fonctions du gestionnaire de redémarrage
+          href: functions.md
+          items:
+            - name: RmAddFilter
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmaddfilter
+            - name: RmCancelCurrentTask
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmcancelcurrenttask
+            - name: RmEndSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmendsession
+            - name: RmGetFilterList
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetfilterlist
+            - name: RmGetList
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist
+            - name: RmJoinSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmjoinsession
+            - name: RmRegisterResources
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmregisterresources
+            - name: RmRemoveFilter
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmremovefilter
+            - name: RmRestart
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmrestart
+            - name: RmShutdown
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown
+            - name: RmStartSession
+              href: /windows/desktop/api/RestartManager/nf-restartmanager-rmstartsession
+        - name: Structures du gestionnaire de redémarrage
+          href: structures.md
+          items:
+            - name: RM_FILTER_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_filter_info
+            - name: RM_PROCESS_INFO
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_process_info
+            - name: RM_UNIQUE_PROCESS
+              href: /windows/win32/api/RestartManager/ns-restartmanager-rm_unique_process
