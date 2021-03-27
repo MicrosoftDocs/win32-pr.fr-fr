@@ -1,0 +1,97 @@
+- name: Collecteur d'événements de Windows
+  href: windows-event-collector.md
+  items:
+    - name: Utilisation du collecteur d’événements Windows
+      href: using-windows-event-collector.md
+      items:
+        - name: Création d’un abonnement initié par le collecteur
+          href: creating-an-event-collector-subscription.md
+        - name: Configuration d’un abonnement initié par la source
+          href: setting-up-a-source-initiated-subscription.md
+          items:
+            - name: Création d’un abonnement initié par la source
+              href: creating-a-source-initiated-subscription.md
+        - name: Ajout d’une source d’événement à un abonnement initié par le collecteur
+          href: adding-an-event-source-to-an-event-collector-subscription.md
+        - name: Création d’abonnements aux événements matériels
+          href: creating-hardware-event-subscriptions.md
+        - name: Suppression d’un abonnement à un collecteur d’événements
+          href: deleting-an-event-collector-subscription.md
+        - name: Afficher les propriétés de l’abonnement du collecteur d’événements
+          href: displaying-the-properties-of-an-event-collector-subscription.md
+        - name: Affichage de l’état d’un abonnement au collecteur d’événements
+          href: displaying-the-status-of-an-event-collector-subscription.md
+        - name: Liste des abonnements du collecteur d’événements
+          href: listing-event-collector-subscriptions.md
+        - name: Suppression d’une source d’événement d’un abonnement initié par le collecteur
+          href: removing-an-event-source-from-an-event-collector-subscription.md
+        - name: Nouvelle tentative d’abonnement au collecteur d’événements
+          href: retrying-an-event-collector-subscription.md
+    - name: Informations de référence sur le collecteur d’événements Windows
+      href: windows-event-collector-reference.md
+      items:
+        - name: Constantes du collecteur d’événements Windows
+          href: windows-event-collector-constants.md
+        - name: Types de données du collecteur d’événements Windows
+          href: windows-event-collector-data-types.md
+        - name: Énumérations du collecteur d’événements Windows
+          href: windows-event-collector-enumerations.md
+          items:
+            - name: EC_SUBSCRIPTION_CONFIGURATION_MODE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_configuration_mode
+            - name: EC_SUBSCRIPTION_CONTENT_FORMAT
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_content_format
+            - name: EC_SUBSCRIPTION_CREDENTIALS_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_credentials_type
+            - name: EC_SUBSCRIPTION_DELIVERY_MODE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_delivery_mode
+            - name: EC_SUBSCRIPTION_PROPERTY_ID
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_property_id
+            - name: EC_SUBSCRIPTION_RUNTIME_STATUS_ACTIVE_STATUS
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_active_status
+            - name: EC_SUBSCRIPTION_RUNTIME_STATUS_INFO_ID
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_runtime_status_info_id
+            - name: EC_SUBSCRIPTION_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_subscription_type
+            - name: EC_VARIANT_TYPE
+              href: /windows/win32/api/Evcoll/ne-evcoll-ec_variant_type
+        - name: Fonctions du collecteur d’événements Windows
+          href: windows-event-collector-functions.md
+          items:
+            - name: EcClose
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecclose
+            - name: EcDeleteSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecdeletesubscription
+            - name: EcEnumNextSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecenumnextsubscription
+            - name: EcGetObjectArrayProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarrayproperty
+            - name: EcGetObjectArraySize
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetobjectarraysize
+            - name: EcGetSubscriptionProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionproperty
+            - name: EcGetSubscriptionRunTimeStatus
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecgetsubscriptionruntimestatus
+            - name: EcInsertObjectArrayElement
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecinsertobjectarrayelement
+            - name: EcOpenSubscriptionEnum
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecopensubscriptionenum
+            - name: EcOpenSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecopensubscription
+            - name: EcSaveSubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsavesubscription
+            - name: EcSetObjectArrayProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsetobjectarrayproperty
+            - name: EcSetSubscriptionProperty
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecsetsubscriptionproperty
+            - name: EcRemoveObjectArrayElement
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecremoveobjectarrayelement
+            - name: EcRetrySubscription
+              href: /windows/desktop/api/Evcoll/nf-evcoll-ecretrysubscription
+        - name: Structures du collecteur d’événements Windows
+          href: windows-event-collector-structures.md
+          items:
+            - name: EC_VARIANT
+              href: /windows/win32/api/Evcoll/ns-evcoll-ec_variant
+        - name: Wecutil.exe
+          href: wecutil.md
