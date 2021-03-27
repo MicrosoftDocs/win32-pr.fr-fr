@@ -1,0 +1,102 @@
+---
+title: RCP (SM5-ASM)
+description: Réciproque au niveau du composant.
+ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: abbaa2ffc29a4c3373009d9dec1b895710186e67
+ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "104507731"
+---
+# <a name="rcp-sm5---asm"></a>RCP (SM5-ASM)
+
+Réciproque au niveau du composant.
+
+
+
+| RCP \[ \_ SAT \] dest \[ . Mask \] , \[ - \] src0 \[ \_ ABS \] \[ . Swizzle\] |
+|------------------------------------------------------------|
+
+
+
+ 
+
+
+
+| Élément                                                            | Description                                                                         |
+|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| <span id="dest"></span><span id="DEST"></span>*dest*<br/> | \[dans \] l’adresse des résultats<br/> *dest*  =  . **1.0 f**  /  *src0*.<br/> |
+| <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[dans \] le nombre à prendre la réciproque de.<br/>                             |
+
+
+
+ 
+
+## <a name="remarks"></a>Notes
+
+Utilisez cette instruction pour réduire la précision réciproque, indépendamment des exigences strictes pour la Division.
+
+L’erreur relative maximale est 2-21. (La tolérance d’erreur correspond simplement à rsq)
+
+Le tableau suivant présente les résultats obtenus lors de l’exécution de l’instruction avec différentes classes de nombres.
+
+
+
+|        |          |        |             |        |        |             |        |          |         |
+|--------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
+| *src*  | **-INF** | **-F** | **-dénorme** | **-0** | **+0** | **+ dénorme** | **+ F** | **+ INF** | **NaN** |
+| *dest* | -0       | -F     | -inf        | -inf   | +inf   | +inf        | + F     | +0       | NaN     |
+
+
+
+ 
+
+Cette instruction s’applique aux étapes suivantes du nuanceur :
+
+
+
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
+| X      | X    | X      | X        | X     | X       |
+
+
+
+ 
+
+## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
+
+Cette instruction est prise en charge dans les modèles de nuanceur suivants :
+
+
+
+| Modèle de nuanceur                                              | Prise en charge |
+|-----------------------------------------------------------|-----------|
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Assembly modèle 5 du nuanceur (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
