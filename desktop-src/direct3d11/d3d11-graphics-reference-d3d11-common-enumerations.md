@@ -1,0 +1,59 @@
+---
+title: Énumérations de version courantes
+description: Cette section contient des informations sur les énumérations de version courantes.
+ms.assetid: 002154d5-74a6-48fb-b55f-8687e4505fc7
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4f77a952413584ccdd582626b8c7c000fa6f8996
+ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "103734981"
+---
+# <a name="common-version-enumerations"></a>Énumérations de version courantes
+
+Cette section contient des informations sur les énumérations de version courantes.
+
+
+## <a name="in-this-section"></a>Contenu de cette section
+
+
+
+| Rubrique                                                                                      | Description                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**\_Type de CBUFFER D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_cbuffer_type)<br/>                                  | Valeurs qui identifient l’utilisation prévue des données de mémoire tampon constante. <br/>                                                                                                                                                                                                                                                                 |
+| [**\_Type de pilote D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_driver_type)<br/>                                    | Options de type de pilote.<br/>                                                                                                                                                                                                                                                                                                            |
+| [**\_Niveau de fonctionnalité D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_feature_level)<br/>                                | Décrit l’ensemble des fonctionnalités ciblées par un périphérique Direct3D. <br/>                                                                                                                                                                                                                                                                   |
+| [**\_Type d’inclusion D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_include_type)<br/>                                  | Valeurs qui indiquent l’emplacement d’un \# fichier include de nuanceur. <br/>                                                                                                                                                                                                                                                                  |
+| [**\_Mode d’interpolation \_ D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_interpolation_mode)<br/>                      | Spécifie le mode d’interpolation, qui affecte la façon dont les valeurs sont calculées lors de la pixellisation.<br/>                                                                                                                                                                                                                                     |
+| [**\_Précision minimale \_ D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_min_precision)<br/>                                | Valeurs qui indiquent la précision d’interpolation minimale souhaitée.<br/>                                                                                                                                                                                                                                                               |
+| [**\_Nom D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_name)<br/>                                                   | Valeurs qui identifient les paramètres du nuanceur qui utilisent la sémantique de valeur système.<br/>                                                                                                                                                                                                                                                         |
+| [**D3D ( \_ primitive)**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive)<br/>                                         | Valeurs qui indiquent comment le pipeline interprète les primitives Geometry ou d’entrée du nuanceur de coque.<br/>                                                                                                                                                                                                                                      |
+| [**TOPOLOGIE de la \_ primitive D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_primitive_topology)<br/>                      | Valeurs qui indiquent comment le pipeline interprète les données de vertex qui sont liées à l' [étape assembleur d’entrée](d3d10-graphics-programming-guide-input-assembler-stage.md). Ces [valeurs de topologie primitives](/windows/desktop/direct3d11/d3d10-graphics-programming-guide-primitive-topologies) déterminent la façon dont les données de vertex sont restituées à l’écran.<br/> |
+| [**\_Type de \_ composant de Registre D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_register_component_type)<br/>           | Valeurs qui identifient les types de données qui peuvent être stockés dans un registre.<br/>                                                                                                                                                                                                                                                           |
+| [**\_Type de \_ retour de ressource D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_resource_return_type)<br/>                 | Valeurs qui identifient le type de retour d’une ressource.<br/>                                                                                                                                                                                                                                                                             |
+| [**\_Indicateurs CBUFFER du nuanceur D3D \_ \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_cbuffer_flags)<br/>                 | Valeurs qui identifient l’utilisation indended d’une mémoire tampon de données constantes.<br/>                                                                                                                                                                                                                                                                |
+| [**\_ \_ Indicateurs d’entrée du NUANCEur D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_input_flags)<br/>                     | Valeurs qui identifient les options d’entrée de nuanceur.<br/>                                                                                                                                                                                                                                                                                      |
+| [**\_ \_ Type d’entrée du NUANCEur D3D \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_input_type)<br/>                       | Valeurs qui identifient les types de ressources qui peuvent être liés à un nuanceur et qui sont reflétés dans le cadre de la description de la ressource pour le nuanceur.<br/>                                                                                                                                                                                    |
+| [**\_Classe de variable de nuanceur D3D \_ \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_class)<br/>               | Valeurs qui identifient la classe d’une variable de nuanceur.<br/>                                                                                                                                                                                                                                                                            |
+| [**\_Indicateurs de variable de nuanceur D3D \_ \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_flags)<br/>               | Valeurs qui identifient des informations sur une variable de nuanceur.<br/>                                                                                                                                                                                                                                                                       |
+| [**\_Type de variable de nuanceur D3D \_ \_**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_shader_variable_type)<br/>                 | Valeurs qui identifient différentes données, textures et types de mémoires tampons qui peuvent être assignés à une variable de nuanceur.<br/>                                                                                                                                                                                                                         |
+| [**\_Dimension SRV \_ D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_srv_dimension)<br/>                                | Valeurs qui identifient le type de ressource à afficher en tant que ressource de nuanceur.<br/>                                                                                                                                                                                                                                                    |
+| [**\_Domaine du PAVEUR \_ D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_domain)<br/>                      | Valeurs qui identifient les options de domaine pour les données du paveur.<br/>                                                                                                                                                                                                                                                                       |
+| [**\_Primitive de \_ sortie \_ du paveur D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_output_primitive)<br/> | Valeurs qui identifient les types primitifs de sortie.<br/>                                                                                                                                                                                                                                                                                    |
+| [**\_ \_ Partitionnement du paveur D3D**](/windows/desktop/api/D3DCommon/ne-d3dcommon-d3d_tessellator_partitioning)<br/>          | Valeurs qui identifient les options de partitionnement.<br/>                                                                                                                                                                                                                                                                                      |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Référence de version commune](d3d11-graphics-reference-d3d11-common.md)
+</dt> </dl>
+
+ 
+
