@@ -1,0 +1,45 @@
+---
+title: Pourquoi les ressources en mosaïque sont-elles nécessaires ?
+description: Les ressources en mosaïque sont nécessaires afin que la mémoire de l’unité de traitement graphique (GPU) soit gaspillée pour stocker des régions de surfaces inaccessibles par l’application, et le matériel peut comprendre comment filtrer sur des vignettes adjacentes.
+ms.assetid: E2179D65-56D3-481F-A5F3-B9C45A11A179
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d42ccccf66a73d224d8bab9a9d10c87cc330be43
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104971699"
+---
+# <a name="why-are-tiled-resources-needed"></a>Pourquoi les ressources en mosaïque sont-elles nécessaires ?
+
+Les ressources en mosaïque sont nécessaires afin que la mémoire de l’unité de traitement graphique (GPU) soit gaspillée pour stocker des régions de surfaces inaccessibles par l’application, et le matériel peut comprendre comment filtrer sur des vignettes adjacentes.
+
+Dans un système graphique (autrement dit, le système d’exploitation, le pilote d’affichage et le matériel graphique) sans prise en charge des ressources en mosaïque, le système graphique gère toutes les allocations de mémoire Direct3D à la granularité des sous-ressources. Pour une [mémoire tampon](overviews-direct3d-11-resources-buffers.md), la mémoire tampon entière est la sous-ressource. Pour une [texture](overviews-direct3d-11-resources-textures.md) (par exemple, [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d)), chaque niveau MIP est une sous-ressource ; pour un tableau de textures (par exemple, [**Texture2DArray**](/windows/desktop/direct3dhlsl/sm5-object-texture2darray)), chaque niveau MIP d’une tranche de tableau donnée est une sous-ressource. Le système graphique expose uniquement la possibilité de gérer le mappage des allocations à cette granularité des sous-ressources. Dans le contexte des ressources en mosaïque, le terme « mappage » fait référence à l’affichage des données dans le GPU.
+
+Supposons qu’une application sait qu’une opération de rendu particulière a uniquement besoin d’accéder à une petite partie d’une chaîne mipmap d’image (peut-être pas même la zone complète d’un mipmap donné). Dans l’idéal, l’application peut informer le système graphique de ce besoin. Le système graphique se détournerait alors uniquement pour s’assurer que la mémoire nécessaire est mappée sur le GPU sans pagination dans une mémoire trop importante. En réalité, sans prise en charge des ressources en mosaïque, le système graphique ne peut être informé que de la mémoire qui doit être mappée sur le GPU à la granularité des sous-ressources (par exemple, une plage de niveaux de mipmap complets accessibles). Il n’existe aucune erreur de demande dans le système graphique. par conséquent, il est possible d’utiliser un grand nombre de mémoire GPU excédentaire pour mettre en correspondance des sous-ressources complètes avant qu’une commande de rendu faisant référence à une partie de la mémoire ne soit exécutée. Il s’agit simplement d’un problème qui rend l’utilisation des allocations de mémoire volumineuses difficile dans Direct3D sans prise en charge des ressources en mosaïque.
+
+Direct3D 11 prend en charge les surfaces [**Texture2D**](/windows/desktop/direct3dhlsl/sm5-object-texture2d) avec jusqu’à 16384 pixels sur un côté donné. Une image de 16384 de largeur de 16384 de haut et de 4 octets par pixel consomme 1 Go de mémoire vidéo (et l’ajout de des mipmaps aurait doublé cette quantité). Dans la pratique, il est rare que tous les Go soient référencés dans une seule opération de rendu.
+
+Certains développeurs de jeux modélisent des surfaces de terrain aussi grandes que 128K de 128K. La façon dont ils peuvent travailler sur les GPU existants consiste à scinder la surface en mosaïques suffisamment petites pour gérer le matériel. L’application doit déterminer les vignettes qui peuvent être nécessaires et les charger dans un cache de textures sur le GPU-a Software Paging System. L’un des inconvénients majeurs de cette approche vient du fait que le matériel ne connaît rien sur la pagination qui se passe : quand une partie d’une image doit être affichée sur l’écran qui chevauche les vignettes, le matériel ne sait pas comment effectuer un filtrage de fonction fixe (c’est-à-dire efficace) sur les vignettes. Cela signifie que l’application gérant sa propre mosaïque logicielle doit recourir à un filtrage manuel de la texture dans le code du nuanceur (ce qui devient très onéreux si un filtre anisotrope de bonne qualité est souhaité) et/ou gaspiller de la mémoire des marges autour des vignettes qui contiennent des données provenant de vignettes voisines afin que le filtrage matériel des fonctions fixes puisse continuer à fournir de l'
+
+Si une représentation en mosaïque des allocations de surface peut être une fonctionnalité de première classe dans le système graphique, l’application peut indiquer au matériel les vignettes à rendre disponibles. De cette façon, moins de mémoire GPU est gaspillée le stockage des régions de surfaces que l’application sait n’est pas accessible, et le matériel peut comprendre comment filtrer les vignettes adjacentes, en éliminant une partie des difficultés rencontrées par les développeurs qui effectuent des mosaïques de logiciels de manière autonome.
+
+Mais pour fournir une solution complète, il est nécessaire de faire ce qu’il faut faire pour traiter le fait que, indépendamment de la prise en charge de l’affichage en mosaïque dans une surface, la dimension surface maximale est actuellement de 16384-nulle près du 128 Ko + que les applications souhaitent déjà. Il suffit d’une approche qui nécessite le matériel pour prendre en charge des tailles de texture plus volumineuses. Toutefois, il existe des coûts et/ou des compromis significatifs pour passer à cet itinéraire. Le chemin de filtre de texture et le chemin d’accès de rendu de Direct3D 11 sont déjà saturés en termes de précision dans la prise en charge de 16 000 textures avec les autres exigences, telles que la prise en charge des étendues de Viewport en dehors de la surface pendant le rendu, ou la prise en charge de la texture de la surface pendant le filtrage. Une possibilité consiste à définir un compromis de telle sorte que la taille de la texture augmente au-delà de 16 Ko, la fonctionnalité/précision est indiquée d’une certaine manière. Toutefois, même avec cette concession, des coûts matériels supplémentaires peuvent être nécessaires en termes d’adressage dans l’ensemble du système matériel pour atteindre des tailles de texture plus volumineuses.
+
+L’un des problèmes qui entrent dans la lecture des textures est très élevé, c’est que les coordonnées de la texture à virgule flottante simple précision (et les interpolateurs associés pour prendre en charge la pixellisation) sont à court de précision pour spécifier des emplacements sur la surface avec précision. Le filtrage de texture instable s’ensuit. Une option coûteuse serait d’exiger la prise en charge de l’interpolateur double précision, bien que cela puisse être excessif en raison d’une alternative raisonnable.
+
+Un autre nom pour les ressources en mosaïque est « texture fragmentée ». « Épars » véhicule à la fois la nature en mosaïque des ressources, et peut-être la raison principale de les faire apparaître en mosaïque, ce qui n’est pas censé tous être mappés à la fois. En fait, une application peut créer de manière concevable une ressource en mosaïque dans laquelle aucune donnée n’est créée pour toutes les régions et les mips de la ressource, intentionnellement. Ainsi, le contenu lui-même peut être fragmenté, et le mappage du contenu dans la mémoire du GPU à un moment donné est un sous-ensemble de celui-ci (encore plus fragmenté).
+
+Un autre scénario pouvant être fourni par des ressources en mosaïque permet à plusieurs ressources de différents formats/Dimensions de partager la même mémoire. Parfois, les applications ont des ensembles exclusifs de ressources qui ne doivent pas être utilisés en même temps, ou des ressources qui sont créées uniquement pour une utilisation très courte, puis détruites, suivies de la création d’autres ressources. Une forme de général qui peut se trouver sur des « ressources en mosaïque » est qu’il est possible d’autoriser l’utilisateur à pointer plusieurs ressources différentes au même (chevauchement) de la mémoire. En d’autres termes, la création et la destruction des « ressources » (qui définissent une dimension/format, etc.) peuvent être découplées à partir de la gestion de la mémoire sous-jacente des ressources du point de vue de l’application.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Ressources en mosaïque](tiled-resources.md)
+</dt> </dl>
+
+ 
+
+ 
