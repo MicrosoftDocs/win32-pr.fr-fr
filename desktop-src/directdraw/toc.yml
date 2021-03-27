@@ -1,0 +1,262 @@
+- name: DirectDraw
+  href: directdraw.md
+  items:
+    - name: Référence DirectDraw
+      href: directdraw-reference.md
+      items:
+        - name: Interfaces DirectDraw
+          href: directdraw-interfaces.md
+          items:
+            - name: IDirectDraw7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdraw7
+              items:
+                - name: Méthode compact
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-compact
+                - name: Méthode CreateClipper
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createclipper
+                - name: Méthode CreatePalette
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createpalette
+                - name: Méthode CreateSurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-createsurface
+                - name: Méthode DuplicateSurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-duplicatesurface
+                - name: Méthode EnumDisplayModes
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumdisplaymodes
+                - name: Méthode EnumSurfaces
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-enumsurfaces
+                - name: Méthode EvaluateMode
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-evaluatemode
+                - name: Méthode FlipToGDISurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-fliptogdisurface
+                - name: Méthode GetAvailableVidMem
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getavailablevidmem
+                - name: Méthode GetCaps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getcaps
+                - name: Méthode GetDeviceIdentifier
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdeviceidentifier
+                - name: Méthode GetDisplayMode
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getdisplaymode
+                - name: Méthode GetFourCCCodes
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getfourcccodes
+                - name: Méthode GetGDISurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getgdisurface
+                - name: Méthode GetMonitorFrequency
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getmonitorfrequency
+                - name: Méthode GetScanLine
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getscanline
+                - name: Méthode GetSurfaceFromDC
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getsurfacefromdc
+                - name: Méthode GetVerticalBlankStatus
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-getverticalblankstatus
+                - name: 'Initialize, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-initialize
+                - name: Méthode RestoreAllSurfaces
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoreallsurfaces
+                - name: Méthode RestoreDisplayMode
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-restoredisplaymode
+                - name: Méthode SetCooperativeLevel
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setcooperativelevel
+                - name: Méthode SetDisplayMode
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-setdisplaymode
+                - name: Méthode StartModeTest
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-startmodetest
+                - name: Méthode TestCooperativeLevel
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-testcooperativelevel
+                - name: Méthode WaitForVerticalBlank
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdraw7-waitforverticalblank
+            - name: IDirectDrawClipper
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawclipper
+              items:
+                - name: Méthode GetClipList
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-getcliplist
+                - name: Méthode GetHWnd
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-gethwnd
+                - name: 'Initialize, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-initialize
+                - name: Méthode IsClipListChanged
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-iscliplistchanged
+                - name: Méthode SetClipList
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-setcliplist
+                - name: Méthode SetHWnd
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawclipper-sethwnd
+            - name: IDirectDrawColorControl
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawcolorcontrol
+              items:
+                - name: Méthode GetColorControls
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-getcolorcontrols
+                - name: Méthode SetColorControls
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawcolorcontrol-setcolorcontrols
+            - name: IDirectDrawGammaControl
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawgammacontrol
+              items:
+                - name: Méthode GetGammaRamp
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-getgammaramp
+                - name: Méthode SetGammaRamp
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawgammacontrol-setgammaramp
+            - name: IDirectDrawPalette
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawpalette
+              items:
+                - name: Méthode GetCaps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getcaps
+                - name: Méthode GetEntries
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-getentries
+                - name: 'Initialize, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-initialize
+                - name: Méthode SetEntries
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawpalette-setentries
+            - name: IDirectDrawSurface7
+              href: /windows/desktop/api/Ddraw/nn-ddraw-idirectdrawsurface7
+              items:
+                - name: Méthode AddAttachedSurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addattachedsurface
+                - name: Méthode AddOverlayDirtyRect
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-addoverlaydirtyrect
+                - name: 'BLT, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-blt
+                - name: Méthode BltBatch
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltbatch
+                - name: Méthode BltFast
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-bltfast
+                - name: Méthode ChangeUniquenessValue
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-changeuniquenessvalue
+                - name: Méthode DeleteAttachedSurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-deleteattachedsurface
+                - name: Méthode EnumAttachedSurfaces
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumattachedsurfaces
+                - name: Méthode EnumOverlayZOrders
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-enumoverlayzorders
+                - name: 'Flip, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-flip
+                - name: Méthode FreePrivateData
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-freeprivatedata
+                - name: Méthode GetAttachedSurface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getattachedsurface
+                - name: Méthode GetBltStatus
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getbltstatus
+                - name: Méthode GetCaps
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcaps
+                - name: Méthode GetClipper
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getclipper
+                - name: Méthode GetColorKey
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getcolorkey
+                - name: Méthode GetDC
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getdc
+                - name: Méthode GetDDInterface
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getddinterface
+                - name: Méthode GetFlipStatus
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getflipstatus
+                - name: Méthode GetLOD
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getlod
+                - name: Méthode GetOverlayPosition
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getoverlayposition
+                - name: Méthode GetPalette
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpalette
+                - name: Méthode GetPixelFormat
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpixelformat
+                - name: 'GetPriority, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getpriority
+                - name: Méthode GetPrivateData
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getprivatedata
+                - name: Méthode GetSurfaceDesc
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getsurfacedesc
+                - name: Méthode GetUniquenessValue
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-getuniquenessvalue
+                - name: 'Initialize, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-initialize
+                - name: Méthode IsLost
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-islost
+                - name: 'Lock, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-lock
+                - name: Méthode PageLock
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pagelock
+                - name: Méthode PageUnlock
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-pageunlock
+                - name: Méthode ReleaseDC
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-releasedc
+                - name: Méthode Restore
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-restore
+                - name: Méthode SetClipper
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setclipper
+                - name: Méthode SetColorKey
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setcolorkey
+                - name: Méthode SetLOD
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setlod
+                - name: Méthode SetOverlayPosition
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setoverlayposition
+                - name: Méthode SetPalette
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpalette
+                - name: 'SetPriority, méthode'
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setpriority
+                - name: Méthode SetPrivateData
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setprivatedata
+                - name: Méthode SetSurfaceDesc
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-setsurfacedesc
+                - name: Unlock (méthode)
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-unlock
+                - name: Méthode UpdateOverlay
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlay
+                - name: Méthode UpdateOverlayDisplay
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlaydisplay
+                - name: Méthode UpdateOverlayZOrder
+                  href: /windows/desktop/api/Ddraw/nf-ddraw-idirectdrawsurface7-updateoverlayzorder
+        - name: Fonctions DirectDraw
+          href: directdraw-functions.md
+          items:
+            - name: DirectDrawCreate
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreate
+            - name: DirectDrawCreateClipper
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateclipper
+            - name: DirectDrawCreateEx
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawcreateex
+            - name: DirectDrawEnumerate
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumeratew
+            - name: DirectDrawEnumerateEx
+              href: /windows/desktop/api/Ddraw/nf-ddraw-directdrawenumerateexa
+        - name: Fonctions de rappel DirectDraw
+          href: directdraw-callback-functions.md
+          items:
+            - name: LPDDENUMCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbacka
+            - name: LPDDENUMCALLBACKEX
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumcallbackexa
+            - name: LPDDENUMMODESCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback
+            - name: LPDDENUMMODESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenummodescallback2
+            - name: LPDDENUMSURFACESCALLBACK
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback
+            - name: LPDDENUMSURFACESCALLBACK2
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback2
+            - name: LPDDENUMSURFACESCALLBACK7
+              href: /windows/desktop/api/Ddraw/nc-ddraw-lpddenumsurfacescallback7
+        - name: Structures DirectDraw
+          href: directdraw-structures.md
+          items:
+            - name: DDBLTBATCH
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltbatch
+            - name: DDBLTFX
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddbltfx
+            - name: DDCAPS
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcaps_dx3
+            - name: DDCOLORCONTROL
+              href: /previous-versions/windows/hardware/drivers/ff549237(v=vs.85)
+            - name: DDCOLORKEY
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddcolorkey
+            - name: DDDEVICEIDENTIFIER2
+              href: /windows/win32/api/Ddraw/ns-ddraw-dddeviceidentifier2
+            - name: DDGAMMARAMP
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddgammaramp
+            - name: DDOVERLAYFX
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddoverlayfx
+            - name: DDPIXELFORMAT
+              href: /windows/win32/api/Ddraw/ns-ddraw-ddpixelformat
+            - name: DDSCAPS
+              href: /previous-versions/windows/hardware/drivers/ff550286(v=vs.85)
+            - name: DDSCAPS2
+              href: /previous-versions/windows/hardware/drivers/ff550292(v=vs.85)
+            - name: DDSURFACEDESC
+              href: /previous-versions/windows/hardware/drivers/ff550339(v=vs.85)
+            - name: DDSURFACEDESC2
+              href: /previous-versions/windows/hardware/drivers/ff550340(v=vs.85)
+        - name: Codes de retour DirectDraw
+          href: directdraw-return-codes.md
