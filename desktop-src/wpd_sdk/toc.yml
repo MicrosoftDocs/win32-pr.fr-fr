@@ -1,0 +1,891 @@
+- name: Interface de programmation d’applications WPD
+  href: wpd-application-programming-interface.md
+  items:
+    - name: Exigences générales pour le développement d’applications
+      href: general-requirements-for-application-development.md
+      items:
+        - name: Systèmes d’exploitation pris en charge
+          href: supported-operating-systems.md
+          items:
+            - name: Prise en charge dans Windows 7 et Windows Vista
+              href: support-in-windows-vista.md
+            - name: Prise en charge dans Windows XP
+              href: support-in-windows-xp.md
+    - name: Configuration requise pour les applications Windows Media DRM-Enabled
+      href: requirements-for-windows-media-drm-enabled-applications.md
+    - name: Exemples
+      href: sample.md
+      items:
+        - name: Application WpdApiSample
+          href: wpdapisample-sample-application.md
+        - name: Application WpdServicesApiSample
+          href: wpdapisample-sample-service-application.md
+    - name: Vue d’ensemble de l’application
+      href: application-overview.md
+      items:
+        - name: Tâches prises en charge dans les applications WPD
+          href: supported-tasks-in-wpd-applications.md
+        - name: WPD et technologies antérieures
+          href: wpd-and-earlier-technologies.md
+        - name: Présentation de l'architecture
+          href: architecture-overview.md
+        - name: Contrôle d’accès
+          href: access-control.md
+        - name: Modèle conceptuel
+          href: the-conceptual-model.md
+        - name: Représentation de l’appareil
+          href: device-representation.md
+        - name: Représentation des fonctionnalités
+          href: representing-functionality.md
+        - name: Conditions requises pour les objets
+          href: requirements-for-objects.md
+          items:
+            - name: Objet appareil
+              href: device-object.md
+        - name: PROPERTYKEYs et GUID dans les appareils mobiles Windows
+          href: propertykeys-and-guids-in-windows-portable-devices.md
+    - name: Guide de programmation
+      href: programming-guide.md
+      items:
+        - name: Énumération des appareils
+          href: enumerating-devices.md
+        - name: Sélection d’un appareil
+          href: selecting-a-device.md
+          items:
+            - name: Établissement d’une connexion
+              href: establishing-a-connection.md
+              items:
+                - name: Spécification des informations sur le client
+                  href: specifying-client-information.md
+        - name: Énumération du contenu
+          href: enumerating-content.md
+        - name: Récupération des propriétés de l’objet
+          href: retrieving-object-properties.md
+          items:
+            - name: Récupération des propriétés d’un objet unique
+              href: retrieving-properties-for-a-single-object.md
+        - name: Définition des propriétés d’un objet
+          href: setting-object-properties.md
+          items:
+            - name: Définition des propriétés d’un objet unique
+              href: setting-properties-for-a-single-object.md
+        - name: Récupération des informations de l’appareil
+          href: retrieving-device-information.md
+          items:
+            - name: Récupération des catégories fonctionnelles prises en charge par un appareil
+              href: retrieving-the-functional-categories-supported-by-a-device.md
+            - name: Récupération des types de contenu pris en charge par un appareil
+              href: retrieving-the-content-types-supported-by-a-device.md
+            - name: Récupération des événements pris en charge par un appareil
+              href: retrieving-the-events-supported-by-a-device.md
+        - name: Récupération des informations sur les objets
+          href: retrieving-object-information.md
+          items:
+            - name: Récupération d’un ID d’objet à partir d’un ID unique persistant
+              href: retrieving-an-object-identifier-from-a-persistent-unique-identifier.md
+            - name: Récupération des identificateurs d’objets fonctionnels pour un appareil
+              href: retrieving-the-functional-object-identifiers-for-a-device.md
+        - name: Fonctionnement sur le contenu de l’appareil
+          href: operating-on-device-content.md
+          items:
+            - name: Transfert d’une image ou d’un fichier musical vers l’appareil
+              href: transferring-an-image-or-music-file-to-the-device.md
+            - name: Transfert d’un objet Properties-Only sur l’appareil
+              href: transferring-a-properties-only-object-to-the-device.md
+            - name: Transfert de contenu de l’appareil à un PC
+              href: transferring-content-from-the-device-to-a-pc.md
+            - name: Suppression du contenu de l’appareil
+              href: deleting-content-from-the-device.md
+        - name: Tâches du service d’appareil
+          href: device-service-tasks.md
+          items:
+            - name: Ouverture d’un service
+              href: opening-a-service.md
+            - name: Énumération du contenu du service
+              href: enumerating-service-content.md
+            - name: Énumération des services
+              href: enumerating-services.md
+            - name: Récupération des événements de service pris en charge
+              href: retrieving-supported-events.md
+            - name: Récupération des formats de service pris en charge
+              href: retrieving-supported-formats.md
+            - name: Récupération des méthodes de service prises en charge
+              href: retrieving-supported-methods.md
+            - name: Accès aux propriétés de l’objet de service
+              href: accessing-service-object-properties.md
+              items:
+                - name: Récupération des propriétés Content-Object
+                  href: retrieving-content-object-properties.md
+                - name: Écriture de propriétés Content-Object
+                  href: writing-content-object-properties.md
+            - name: Appel de méthodes de service
+              href: invoking-methods-synchronously.md
+            - name: Appel des méthodes de service de façon asynchrone
+              href: invoking-methods-asynchronously.md
+        - name: Tâches avancées
+          href: advanced-tasks.md
+          items:
+            - name: Récupération des propriétés de plusieurs objets
+              href: retrieving-properties-for-multiple-objects.md
+            - name: Récupération des propriétés de plusieurs objets par format d’objet
+              href: retrieving-properties-for-multiple-objects-by-object-format.md
+            - name: Définition des propriétés de plusieurs objets
+              href: setting-properties-for-multiple-objects.md
+            - name: Récupération des fonctionnalités de rendu prises en charge par un appareil
+              href: retrieving-the-rendering-capabilities-supported-by-a-device.md
+            - name: Ajout d’une ressource à un objet
+              href: adding-a-resource-to-an-object.md
+            - name: Déplacement du contenu sur l’appareil
+              href: moving-content-on-the-device.md
+            - name: Gestion des événements à partir de l’appareil
+              href: handling-events-from-the-device.md
+            - name: Implémentation des extensions de menu contextuel
+              href: implementing-context-menu-extensions.md
+              items:
+                - name: Inscription de votre gestionnaire de menu contextuel
+                  href: registering-your-context-menu-handler.md
+                - name: Prise en charge du contenu Device-Side
+                  href: supporting-device-side-content-context-menu.md
+            - name: Implémentation des extensions de feuille de propriétés
+              href: implementing-property-sheet-extensions.md
+              items:
+                - name: Inscription de votre gestionnaire de feuille de propriétés
+                  href: registering-your-property-sheet-handler.md
+                - name: Prise en charge du contenu Device-Side
+                  href: supporting-device-side-content-property-sheet.md
+            - name: Prise en charge de l’exécution automatique
+              href: supporting-autoplay.md
+            - name: Prise en charge des extensions MTP
+              href: supporting-mtp-extensions.md
+              items:
+                - name: Émission de la commande GetNumObjects
+                  href: issuing-the-getdevicepropvalue-command.md
+                - name: Émission de la commande GetDevicePropValue
+                  href: issuing-the-getnumobjects-command.md
+                - name: Émission de la commande SetDevicePropValue
+                  href: issuing-the-setdevicepropvalue-command.md
+    - name: Guide de référence de programmation
+      href: programming-reference.md
+      items:
+        - name: Constantes
+          href: constants.md
+          items:
+            - name: GUID de l’interface de l’appareil
+              href: device-interface-guids.md
+            - name: Constantes générales
+              href: general-constants.md
+            - name: Constantes d’erreur
+              href: error-constants.md
+            - name: Constantes d’événement
+              href: event-constants.md
+            - name: GUID de type d’objet
+              href: object-type-guids.md
+            - name: GUID de format d’objet
+              href: object-format-guids.md
+            - name: GUID de type de ressource
+              href: resource-type-guids.md
+        - name: Interfaces du pilote
+          href: driver-interfaces.md
+          items:
+            - name: IWpdSerializer
+              href: iwpdserializer.md
+              items:
+                - name: GetBufferFromIPortableDeviceValues
+                  href: iwpdserializer-getbufferfromiportabledevicevalues.md
+                - name: GetIPortableDeviceValuesFromBuffer
+                  href: iwpdserializer-getiportabledevicevaluesfrombuffer.md
+                - name: GetSerializedSize
+                  href: iwpdserializer-getserializedsize.md
+                - name: WriteIPortableDeviceValuesToBuffer
+                  href: iwpdserializer-writeiportabledevicevaluestobuffer.md
+        - name: Interfaces de collection
+          href: collection-interfaces.md
+          items:
+            - name: IPortableDeviceKeyCollection
+              href: iportabledevicekeycollection.md
+              items:
+                - name: Ajouter
+                  href: iportabledevicekeycollection-add.md
+                - name: Effacer
+                  href: iportabledevicekeycollection-clear.md
+                - name: GetAt
+                  href: iportabledevicekeycollection-getat.md
+                - name: GetCount
+                  href: iportabledevicekeycollection-getcount.md
+                - name: RemoveAt
+                  href: iportabledevicekeycollection-removeat.md
+            - name: IPortableDevicePropVariantCollection
+              href: iportabledevicepropvariantcollection.md
+              items:
+                - name: Ajouter
+                  href: iportabledevicepropvariantcollection-add.md
+                - name: ChangeType
+                  href: iportabledevicepropvariantcollection-changetype.md
+                - name: Effacer
+                  href: iportabledevicepropvariantcollection-clear.md
+                - name: GetAt
+                  href: iportabledevicepropvariantcollection-getat.md
+                - name: GetCount
+                  href: iportabledevicepropvariantcollection-getcount.md
+                - name: GetType
+                  href: iportabledevicepropvariantcollection-gettype.md
+                - name: RemoveAt
+                  href: iportabledevicepropvariantcollection-removeat.md
+            - name: IPortableDeviceValues
+              href: iportabledevicevalues.md
+              items:
+                - name: Effacer
+                  href: iportabledevicevalues-clear.md
+                - name: CopyValuesFromPropertyStore
+                  href: iportabledevicevalues-copyvaluesfrompropertystore.md
+                - name: CopyValuesToPropertyStore
+                  href: iportabledevicevalues-copyvaluestopropertystore.md
+                - name: GetAt
+                  href: iportabledevicevalues-getat.md
+                - name: GetBoolValue
+                  href: iportabledevicevalues-getboolvalue.md
+                - name: GetBufferValue
+                  href: iportabledevicevalues-getbuffervalue.md
+                - name: GetCount
+                  href: iportabledevicevalues-getcount.md
+                - name: GetErrorValue
+                  href: iportabledevicevalues-geterrorvalue.md
+                - name: GetFloatValue
+                  href: iportabledevicevalues-getfloatvalue.md
+                - name: GetGuidValue
+                  href: iportabledevicevalues-getguidvalue.md
+                - name: GetIPortableDeviceKeyCollectionValue
+                  href: iportabledevicevalues-getiportabledevicekeycollectionvalue.md
+                - name: GetIPortableDevicePropVariantCollectionValue
+                  href: iportabledevicevalues-getiportabledevicepropvariantcollectionvalue.md
+                - name: GetIPortableDeviceValuesCollectionValue
+                  href: iportabledevicevalues-getiportabledevicevaluescollectionvalue.md
+                - name: GetIPortableDeviceValuesValue
+                  href: iportabledevicevalues-getiportabledevicevaluesvalue.md
+                - name: GetIUnknownValue
+                  href: iportabledevicevalues-getiunknownvalue.md
+                - name: GetKeyValue
+                  href: iportabledevicevalues-getkeyvalue.md
+                - name: GetSignedIntegerValue
+                  href: iportabledevicevalues-getsignedintegervalue.md
+                - name: GetSignedLargeIntegerValue
+                  href: iportabledevicevalues-getsignedlargeintegervalue.md
+                - name: GetStringValue
+                  href: iportabledevicevalues-getstringvalue.md
+                - name: GetUnsignedIntegerValue
+                  href: iportabledevicevalues-getunsignedintegervalue.md
+                - name: GetUnsignedLargeIntegerValue
+                  href: iportabledevicevalues-getunsignedlargeintegervalue.md
+                - name: GetValue
+                  href: iportabledevicevalues-getvalue.md
+                - name: RemoveValue
+                  href: iportabledevicevalues-removevalue.md
+                - name: 'SetBoolValue,'
+                  href: iportabledevicevalues-setboolvalue.md
+                - name: SetBufferValue
+                  href: iportabledevicevalues-setbuffervalue.md
+                - name: SetErrorValue
+                  href: iportabledevicevalues-seterrorvalue.md
+                - name: SetFloatValue
+                  href: iportabledevicevalues-setfloatvalue.md
+                - name: SetGuidValue
+                  href: iportabledevicevalues-setguidvalue.md
+                - name: SetIPortableDeviceKeyCollectionValue
+                  href: iportabledevicevalues-setiportabledevicekeycollectionvalue.md
+                - name: SetIPortableDevicePropVariantCollectionValue
+                  href: iportabledevicevalues-setiportabledevicepropvariantcollectionvalue.md
+                - name: SetIPortableDeviceValuesCollectionValue
+                  href: iportabledevicevalues-setiportabledevicevaluescollectionvalue.md
+                - name: SetIPortableDeviceValuesValue
+                  href: iportabledevicevalues-setiportabledevicevaluesvalue.md
+                - name: SetIUnknownValue
+                  href: iportabledevicevalues-setiunknownvalue.md
+                - name: SetKeyValue
+                  href: iportabledevicevalues-setkeyvalue.md
+                - name: SetSignedIntegerValue
+                  href: iportabledevicevalues-setsignedintegervalue.md
+                - name: SetSignedLargeIntegerValue
+                  href: iportabledevicevalues-setsignedlargeintegervalue.md
+                - name: SetStringValue
+                  href: iportabledevicevalues-setstringvalue.md
+                - name: SetUnsignedIntegerValue
+                  href: iportabledevicevalues-setunsignedintegervalue.md
+                - name: SetUnsignedLargeIntegerValue
+                  href: iportabledevicevalues-setunsignedlargeintegervalue.md
+                - name: SetValue
+                  href: iportabledevicevalues-setvalue.md
+            - name: IPortableDeviceValuesCollection
+              href: iportabledevicevaluescollection.md
+              items:
+                - name: Ajouter
+                  href: iportabledevicevaluescollection-add.md
+                - name: Effacer
+                  href: iportabledevicevaluescollection-clear.md
+                - name: GetAt
+                  href: iportabledevicevaluescollection-getat.md
+                - name: GetCount
+                  href: iportabledevicevaluescollection-getcount.md
+                - name: RemoveAt
+                  href: iportabledevicevaluescollection-removeat.md
+        - name: Interfaces clientes
+          href: client-interfaces.md
+          items:
+            - name: IEnumPortableDeviceObjectIDs
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-cancel
+                - name: Clone
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-clone
+                - name: Suivant
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-next
+                - name: Réinitialiser
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-reset
+                - name: Ignorer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-ienumportabledeviceobjectids-skip
+            - name: IPortableDevice
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevice
+              items:
+                - name: Lui
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-advise
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-cancel
+                - name: Fonctions
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-capabilities
+                - name: Fermer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-close
+                - name: Content
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-content
+                - name: GetPnPDeviceID
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-getpnpdeviceid
+                - name: Ouvrir
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-open
+                - name: SendCommand
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-sendcommand
+                - name: Arrêter
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevice-unadvise
+            - name: IPortableDeviceCapabilities
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecapabilities
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-cancel
+                - name: GetCommandOptions
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getcommandoptions
+                - name: GetEventOptions
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-geteventoptions
+                - name: GetFixedPropertyAttributes
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfixedpropertyattributes
+                - name: GetFunctionalCategories
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalcategories
+                - name: GetFunctionalObjects
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getfunctionalobjects
+                - name: GetSupportedCommands
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcommands
+                - name: GetSupportedContentTypes
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedcontenttypes
+                - name: GetSupportedEvents
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedevents
+                - name: GetSupportedFormatProperties
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformatproperties
+                - name: GetSupportedFormats
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecapabilities-getsupportedformats
+            - name: IPortableDeviceContent
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledevicecontent
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-cancel
+                - name: Copier
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-copy
+                - name: CreateObjectWithPropertiesAndData
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesanddata
+                - name: CreateObjectWithPropertiesOnly
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-createobjectwithpropertiesonly
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-delete
+                - name: EnumObjects
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-enumobjects
+                - name: GetObjectIDsFromPersistentUniqueIDs
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-getobjectidsfrompersistentuniqueids
+                - name: Déplacer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-move
+                - name: Propriétés
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-properties
+                - name: Transférer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicecontent-transfer
+            - name: IPortableDeviceContent2
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2
+              items:
+                - name: UpdateObjectWithPropertiesAndData
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledevicecontent2-updateobjectwithpropertiesanddata
+            - name: IPortableDeviceDataStream
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicedatastream
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicedatastream-cancel
+                - name: GetObjectID
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicedatastream-getobjectid
+            - name: IPortableDeviceEventCallback
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceeventcallback
+              items:
+                - name: OnEvent
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceeventcallback-onevent
+            - name: IPortableDeviceManager
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicemanager
+              items:
+                - name: GetDeviceDescription
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicedescription
+                - name: GetDeviceFriendlyName
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicefriendlyname
+                - name: GetDeviceManufacturer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevicemanufacturer
+                - name: GetDeviceProperty
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdeviceproperty
+                - name: GetDevices
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getdevices
+                - name: GetPrivateDevices
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-getprivatedevices
+                - name: RefreshDeviceList
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicemanager-refreshdevicelist
+            - name: IPortableDeviceProperties
+              href: /windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-cancel
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-delete
+                - name: GetPropertyAttributes
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getpropertyattributes
+                - name: GetSupportedProperties
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getsupportedproperties
+                - name: GetValues
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-getvalues
+                - name: DéfinirValeur
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceproperties-setvalues
+            - name: IPortableDevicePropertiesBulk
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulk
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-cancel
+                - name: QueueGetValuesByObjectFormat
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectformat
+                - name: QueueGetValuesByObjectList
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuegetvaluesbyobjectlist
+                - name: QueueSetValuesByObjectList
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-queuesetvaluesbyobjectlist
+                - name: Démarrer
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulk-start
+            - name: IPortableDevicePropertiesBulkCallback
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledevicepropertiesbulkcallback
+              items:
+                - name: OnEnd
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onend
+                - name: OnProgress
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onprogress
+                - name: OnStart
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledevicepropertiesbulkcallback-onstart
+            - name: IPortableDeviceResources
+              href: /windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-iportabledeviceresources
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-cancel
+                - name: CreateResource
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-createresource
+                - name: DELETE
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-delete
+                - name: GetResourceAttributes
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getresourceattributes
+                - name: GetStream
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getstream
+                - name: GetSupportedResources
+                  href: /windows/desktop/api/PortableDeviceApi/nf-portabledeviceapi-iportabledeviceresources-getsupportedresources
+            - name: IPortableDeviceService
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice
+              items:
+                - name: Lui
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-advise
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-cancel
+                - name: Fonctions
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-capabilities
+                - name: Fermer
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-close
+                - name: Content
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content
+                - name: GetPnPServiceId
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-getpnpserviceid
+                - name: GetServiceObjectId
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-getserviceobjectid
+                - name: Méthodes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-methods
+                - name: Ouvrir
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open
+                - name: SendCommand
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-sendcommand
+                - name: Arrêter
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-unadvise
+            - name: IPortableDeviceServiceCapabilities
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-cancel
+                - name: GetCommandOptions
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getcommandoptions
+                - name: GetEventAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventattributes
+                - name: GetEventParameterAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-geteventparameterattributes
+                - name: GetFormatAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatattributes
+                - name: GetFormatPropertyAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatpropertyattributes
+                - name: GetFormatRenderingProfiles
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getformatrenderingprofiles
+                - name: GetInheritedServices
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getinheritedservices
+                - name: GetMethodAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodattributes
+                - name: GetMethodParameterAttributes
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getmethodparameterattributes
+                - name: GetSupportedCommands
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedcommands
+                - name: GetSupportedEvents
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedevents
+                - name: GetSupportedFormatProperties
+                  href: /windows/desktop/api/portabledeviceapi/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformatproperties
+                - name: GetSupportedFormats
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedformats
+                - name: GetSupportedMethods
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethods
+                - name: GetSupportedMethodsByFormat
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicecapabilities-getsupportedmethodsbyformat
+            - name: IPortableDeviceServiceManager
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager
+              items:
+                - name: GetDeviceForService
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceforservice
+                - name: GetDeviceServices
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemanager-getdeviceservices
+            - name: IPortableDeviceServiceMethodCallback
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethodcallback
+              items:
+                - name: OnComplete
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethodcallback-oncomplete
+            - name: IPortableDeviceServiceMethods
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-cancel
+                - name: Appeler
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invoke
+                - name: InvokeAsync
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservicemethods-invokeasync
+            - name: IPortableDeviceUnitsStream
+              href: /windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceunitsstream
+              items:
+                - name: SeekInUnits
+                  href: /windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceunitsstream-seekinunits
+        - name: Interfaces de connexion
+          href: connection-interfaces.md
+          items:
+            - name: IConnectionRequestCallback
+              href: iconnectionrequestcallback.md
+              items:
+                - name: OnComplete
+                  href: iconnectionrequestcallback-oncomplete.md
+            - name: IEnumPortableDeviceConnectors
+              href: ienumportabledeviceconnectors.md
+              items:
+                - name: Clone
+                  href: ienumportabledeviceconnectors-clone.md
+                - name: Suivant
+                  href: ienumportabledeviceconnectors-next.md
+                - name: Réinitialiser
+                  href: ienumportabledeviceconnectors-reset.md
+                - name: Ignorer
+                  href: ienumportabledeviceconnectors-skip.md
+            - name: IPortableDeviceConnector
+              href: /windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector
+              items:
+                - name: Annuler
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-cancel
+                - name: Connecter
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-connect
+                - name: Déconnecter
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-disconnect
+                - name: GetPnPID
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getpnpid
+                - name: GetProperty
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-getproperty
+                - name: SetProperty
+                  href: /windows/desktop/api/portabledeviceconnectapi/nf-portabledeviceconnectapi-iportabledeviceconnector-setproperty
+        - name: Fonctions d’assistance
+          href: helper-functions.md
+          items:
+            - name: FreePortableDevicePnPIDs
+              href: freeportabledevicepnpids.md
+        - name: Propriétés et attributs
+          href: properties-and-attributes.md
+          items:
+            - name: Attributs d'événement
+              href: wpd-event-attributes.md
+            - name: Attributs de format
+              href: wpd-format-attributes.md
+            - name: Attributs de méthode
+              href: wpd-method-attributes.md
+            - name: Attributs de propriété
+              href: attributes.md
+            - name: Attributs de ressource
+              href: resource-attributes.md
+            - name: Attributs de paramètre
+              href: wpd-attributes.md
+            - name: Propriétés du rendez-vous
+              href: appointment-properties.md
+            - name: Propriétés audio
+              href: audio-properties.md
+            - name: Propriétés d’extension de classe
+              href: class-extension-properties.md
+            - name: Propriétés du client
+              href: client-properties.md
+            - name: Propriétés des informations communes
+              href: common-information-properties.md
+            - name: Propriétés du contact
+              href: contact-properties.md
+            - name: Propriétés de l’appareil
+              href: device-properties.md
+            - name: Propriétés de l’e-mail
+              href: email-properties.md
+            - name: Propriétés de l’événement
+              href: event-properties.md
+            - name: Propriétés de l’image
+              href: image-properties.md
+            - name: Propriétés du média
+              href: media-properties.md
+            - name: Propriétés diverses
+              href: miscellaneous-properties.md
+            - name: Propriétés de la musique
+              href: music-properties.md
+            - name: Propriétés de l’Association réseau
+              href: network-association-properties.md
+            - name: Propriétés des objets
+              href: object-properties.md
+            - name: Propriétés d’attribut de ressource
+              href: resource-attribute-properties.md
+            - name: Propriétés de l’attribut de section
+              href: section-attribute-properties.md
+            - name: Propriétés SMS
+              href: sms-properties.md
+            - name: Propriétés de l’image continue
+              href: still-image-properties.md
+            - name: Propriétés de stockage
+              href: storage-properties.md
+            - name: Propriétés de la tâche
+              href: task-properties.md
+            - name: Propriétés de la vidéo
+              href: video-properties.md
+        - name: Structures et types énumération
+          href: structures-and-enumeration-types.md
+          items:
+            - name: DELETE_OBJECT_OPTIONS
+              href: delete-object-options.md
+            - name: SMS_MESSAGE_TYPES
+              href: sms-message-types.md
+            - name: WPD_BITRATE_TYPES
+              href: wpd-bitrate-types.md
+            - name: WPD_CAPTURE_MODES
+              href: wpd-capture-modes.md
+            - name: WPD_COLOR_CORRECTED_STATUS_VALUES
+              href: wpd-color-corrected-status-values.md
+            - name: WPD_CROPPED_STATUS_VALUES
+              href: wpd-cropped-status-values.md
+            - name: WPD_DEVICE_TRANSPORTS
+              href: wpd-device-transports.md
+            - name: WPD_EFFECT_MODES
+              href: wpd-effect-modes.md
+            - name: WPD_EXPOSURE_METERING_MODES
+              href: wpd-exposure-metering-modes.md
+            - name: WPD_EXPOSURE_PROGRAM_MODES
+              href: wpd-exposure-program-modes.md
+            - name: WPD_FLASH_MODES
+              href: wpd-flash-modes.md
+            - name: WPD_FOCUS_METERING_MODES
+              href: wpd-focus-metering-modes.md
+            - name: WPD_FOCUS_MODES
+              href: wpd-focus-modes.md
+            - name: WPD_META_GENRES
+              href: wpd-meta-genres.md
+            - name: WPD_PARAMETER_ATTRIBUTE_FORM
+              href: wpd-parameter-attribute-form.md
+            - name: WPD_PARAMETER_USAGE_TYPES
+              href: wpd-parameter-usage-types.md
+            - name: WPD_POWER_SOURCES
+              href: wpd-power-sources.md
+            - name: WPD_RENDERING_INFORMATION_PROFILE_ENTRY_TYPES
+              href: wpd-rendering-information-profile-entry-types.md
+            - name: WPD_SECTION_DATA_UNITS_VALUES
+              href: wpd-section-data-units-values.md
+            - name: WPD_SERVICE_INHERITANCE_TYPES
+              href: wpd-service-inheritance-types2.md
+            - name: WPD_SMS_ENCODING_TYPES
+              href: wpd-sms-encoding-types.md
+            - name: WPD_STREAM_UNITS
+              href: wpd-stream-units.md
+            - name: WPD_VIDEO_SCAN_TYPES
+              href: wpd-video-scan-types.md
+            - name: WPD_WHITE_BALANCE_SETTINGS
+              href: wpd-white-balance-settings.md
+            - name: WpdAttributeForm
+              href: wpdattributeform.md
+            - name: WPD_DEVICE_TYPES
+              href: wpd-device-types.md
+            - name: WPD_OPERATION_STATES
+              href: wpd-operation-states.md
+            - name: WPD_STORAGE_TYPE_VALUES
+              href: wpd-storage-type-values.md
+        - name: Commandes
+          href: commands.md
+          items:
+            - name: Paramètres de commande
+              href: common-properties.md
+            - name: Commande WPD_COMMAND_COMMON_RESET_DEVICE
+              href: wpd-command-common-reset-device-command.md
+            - name: Commande WPD_COMMAND_DEVICE_HINTS_GET_CONTENT_LOCATION
+              href: wpd-command-device-hints-get-content-location-command.md
+            - name: Commande WPD_COMMAND_OBJECT_PROPERTIES_GET_SUPPORTED
+              href: wpd-command-object-properties-get-supported2.md
+            - name: Commande WPD_COMMAND_SMS_SEND
+              href: wpd-command-sms-send-command.md
+            - name: Commande WPD_COMMAND_STORAGE_EJECT
+              href: wpd-command-storage-eject-command.md
+            - name: Commande WPD_COMMAND_STORAGE_FORMAT
+              href: wpd-command-storage-format-command.md
+            - name: Commande WPD_COMMAND_STILL_IMAGE_CAPTURE_INITIATE
+              href: wpd-command-still-image-capture-initiate-command.md
+        - name: Types de contenu
+          href: content-types.md
+          items:
+            - name: WPD_CONTENT_TYPE_ALL
+              href: wpd-content-type-all.md
+            - name: WPD_CONTENT_TYPE_APPOINTMENT
+              href: wpd-content-type-appointment.md
+            - name: WPD_CONTENT_TYPE_AUDIO
+              href: wpd-content-type-audio.md
+            - name: WPD_CONTENT_TYPE_AUDIO_ALBUM
+              href: wpd-content-type-audio-album.md
+            - name: WPD_CONTENT_TYPE_CALENDAR
+              href: wpd-content-type-calendar.md
+            - name: WPD_CONTENT_TYPE_CERTIFICATE
+              href: wpd-content-type-certificate.md
+            - name: WPD_CONTENT_TYPE_CONTACT_GROUP
+              href: wpd-content-type-contact-group.md
+            - name: WPD_CONTENT_TYPE_CONTACT
+              href: wpd-content-type-contact.md
+            - name: WPD_CONTENT_TYPE_DOCUMENT
+              href: wpd-content-type-document.md
+            - name: WPD_CONTENT_TYPE_EMAIL
+              href: wpd-content-type-email.md
+            - name: WPD_CONTENT_TYPE_FOLDER
+              href: wpd-content-type-folder.md
+            - name: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
+              href: wpd-content-type-functional-object.md
+              items:
+                - name: WPD_FUNCTIONAL_CATEGORY_ALL
+                  href: wpd-functional-category-all.md
+                - name: WPD_FUNCTIONAL_CATEGORY_AUDIO_CAPTURE
+                  href: wpd-functional-category-audio-capture.md
+                - name: WPD_FUNCTIONAL_CATEGORY_DEVICE
+                  href: wpd-functional-category-device.md
+                - name: WPD_FUNCTIONAL_CATEGORY_NETWORK_CONFIGURATION
+                  href: wpd-functional-category-network-configuration.md
+                - name: WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION
+                  href: wpd-functional-category-rendering-information.md
+                - name: WPD_FUNCTIONAL_CATEGORY_SMS
+                  href: wpd-functional-category-sms.md
+                - name: WPD_FUNCTIONAL_CATEGORY_STILL_IMAGE_CAPTURE
+                  href: wpd-functional-category-still-image-capture.md
+                - name: WPD_FUNCTIONAL_CATEGORY_STORAGE
+                  href: wpd-functional-category-storage.md
+                - name: WPD_FUNCTIONAL_CATEGORY_VIDEO_CAPTURE
+                  href: wpd-functional-category-video-capture.md
+            - name: WPD_CONTENT_TYPE_GENERIC_FILE
+              href: wpd-content-type-generic-file.md
+            - name: WPD_CONTENT_TYPE_GENERIC_MESSAGE
+              href: wpd-content-type-generic-message.md
+            - name: WPD_CONTENT_TYPE_IMAGE
+              href: wpd-content-type-image.md
+            - name: WPD_CONTENT_TYPE_IMAGE_ALBUM
+              href: wpd-content-type-image-album.md
+            - name: WPD_CONTENT_TYPE_MEMO
+              href: wpd-content-type-memo.md
+            - name: WPD_CONTENT_TYPE_MEDIA_CAST
+              href: wpd-content-type-media-cast.md
+            - name: WPD_CONTENT_TYPE_MIXED_CONTENT_ALBUM
+              href: wpd-content-type-mixed-content-album.md
+            - name: WPD_CONTENT_TYPE_PLAYLIST
+              href: wpd-content-type-playlist.md
+            - name: WPD_CONTENT_TYPE_PROGRAM
+              href: wpd-content-type-program.md
+            - name: WPD_CONTENT_TYPE_SECTION
+              href: wpd-content-type-section.md
+            - name: WPD_CONTENT_TYPE_SERVICE
+              href: wpd-content-type-service.md
+            - name: WPD_CONTENT_TYPE_TASK
+              href: wpd-content-type-task.md
+            - name: WPD_CONTENT_TYPE_TELEVISION
+              href: wpd-content-type-television.md
+            - name: WPD_CONTENT_TYPE_UNSPECIFIED
+              href: wpd-content-type-unspecified.md
+            - name: WPD_CONTENT_TYPE_VIDEO
+              href: wpd-content-type-video.md
+            - name: WPD_CONTENT_TYPE_VIDEO_ALBUM
+              href: wpd-content-type-video-album.md
+            - name: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
+              href: wpd-content-type-network-association.md
+            - name: WPD_CONTENT_TYPE_WIRELESS_PROFILE
+              href: wpd-content-type-wireless-profile.md
+            - name: Objet Service
+              href: service-object.md
+        - name: Conditions requises pour les ressources
+          href: requirements-for-resources.md
+          items:
+            - name: WPD_RESOURCE_ALBUM_ART
+              href: wpd-resource-album-art.md
+            - name: WPD_RESOURCE_AUDIO_CLIP
+              href: wpd-resource-audio-clip.md
+            - name: WPD_RESOURCE_CONTACT_PHOTO
+              href: wpd-resource-contact-photo.md
+            - name: WPD_RESOURCE_DEFAULT
+              href: wpd-resource-default.md
+            - name: WPD_RESOURCE_GENERIC
+              href: wpd-resource-generic.md
+            - name: WPD_RESOURCE_ICON
+              href: wpd-resource-icon.md
+            - name: WPD_RESOURCE_THUMBNAIL
+              href: wpd-resource-thumbnail.md
+        - name: Extensions MTP
+          href: mtp-extensions.md
+          items:
+            - name: Événements d’extension MTP
+              href: mtp-extension-events.md
+            - name: Formats d’extension MTP
+              href: mtp-extension-formats.md
+            - name: Propriétés d’extension MTP
+              href: mtp-extension-properties.md
+            - name: Commandes d’extension MTP
+              href: mtp-extension-commands.md
+              items:
+                - name: Commande WPD_COMMAND_MTP_EXT_END_DATA_TRANSFER
+                  href: wpd-command-mtp-ext-end-data-transfer.md
+                - name: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_READ
+                  href: wpd-command-mtp-ext-execute-command-with-data-to-read.md
+                - name: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITH_DATA_TO_WRITE
+                  href: wpd-command-mtp-ext-execute-command-with-data-to-write.md
+                - name: Commande WPD_COMMAND_MTP_EXT_EXECUTE_COMMAND_WITHOUT_DATA_PHASE
+                  href: wpd-command-mtp-ext-execute-command-without-data-phase.md
+                - name: Commande WPD_COMMAND_MTP_EXT_GET_SUPPORTED_VENDOR_OPCODES
+                  href: wpd-command-mtp-ext-get-supported-vendor-opcodes.md
+                - name: Commande WPD_COMMAND_MTP_EXT_GET_VENDOR_EXTENSION_DESCRIPTION
+                  href: wpd-command-mtp-ext-get-vendor-extension-description.md
+                - name: Commande WPD_COMMAND_MTP_EXT_READ_DATA
+                  href: wpd-command-mtp-ext-read-data.md
+                - name: Commande WPD_COMMAND_MTP_EXT_WRITE_DATA
+                  href: wpd-command-mtp-ext-write-data.md
