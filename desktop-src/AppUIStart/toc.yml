@@ -1,0 +1,29 @@
+- name: Prise en main développement d’interfaces utilisateur pour les applications Windows
+  href: getting-started-developing-user-interfaces-portal.md
+  items:
+    - name: Vue d’ensemble du processus de développement de l’interface utilisateur
+      href: the-process.md
+    - name: Conception d’une interface utilisateur
+      href: designing-a-user-interface.md
+      items:
+        - name: Facilité d’utilisation dans la conception de logiciels
+          href: usability-in-software-design.md
+        - name: Principes de l’interface utilisateur
+          href: '-user-interface-principles.md'
+        - name: Instructions d’interface utilisateur suivantes
+          href: following-guidelines.md
+        - name: Interface utilisateur inductive
+          href: inductive-user-interface.md
+    - name: Implémentation d’une interface utilisateur
+      href: implementing-a-user-interface.md
+      items:
+        - name: Prototypage d’une interface utilisateur
+          href: prototyping-a-user-interface.md
+        - name: Technologies de l’interface utilisateur
+          href: user-interface-technologies-for-windows-applications.md
+    - name: Test d’une interface utilisateur
+      href: testing-a-user-interface.md
+    - name: "Considérations relatives à la sécurité\_: interface utilisateur Windows"
+      href: sec-ui.md
+    - name: Autres ressources
+      href: other-resources.md
