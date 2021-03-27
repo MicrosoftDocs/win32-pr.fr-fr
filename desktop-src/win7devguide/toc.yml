@@ -1,0 +1,50 @@
+- name: Guide du développeur Windows 7
+  href: windows-7-developer-guide.md
+  items:
+    - name: Introduction
+      href: introduction.md
+    - name: Fondation solide
+      href: solid-foundation.md
+      items:
+        - name: Compatibilité et fiabilité
+          href: compatibility-and-reliability.md
+        - name: Gestion et déploiement
+          href: management-and-deployment.md
+        - name: Sécurité
+          href: security.md
+        - name: Performances
+          href: performance.md
+        - name: Documents et périphériques de document
+          href: documents-and-document-peripherals.md
+        - name: Accessibilité et support global
+          href: accessibility-and-global-support.md
+    - name: Expériences d’applications plus riches
+      href: richer-application-experiences.md
+      items:
+        - name: Expérience utilisateur intuitive
+          href: intuitive-user-experience.md
+        - name: Écriture manuscrite et encre
+          href: handwriting-and-ink.md
+        - name: Expérience utilisateur
+          href: the-desktop-experience.md
+        - name: Gestion des fichiers et des données
+          href: managing-files-and-data.md
+        - name: Haute résolution
+          href: high-dpi.md
+        - name: Graphiques haute fidélité avec DirectX
+          href: high-fidelity-graphics-with-directx.md
+        - name: Plateforme multimédia
+          href: media-platform.md
+        - name: Périphériques
+          href: devices.md
+    - name: Le meilleur de Windows et du Web
+      href: the-best-of-windows-and-the-web.md
+      items:
+        - name: Services
+          href: services.md
+        - name: Recherche fédérée
+          href: federated-search.md
+        - name: Plateforme de capteur
+          href: sensor-platform.md
+        - name: Internet Explorer 8
+          href: internet-explorer-8.md

@@ -1,0 +1,62 @@
+---
+title: Registres-vs_5_0
+description: Les registres d’entrée et de sortie suivants sont implémentés dans le nuanceur de sommets version 5 \_ 0.
+ms.assetid: 475753C7-C055-4DB7-9DC3-6C734413A92B
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6eb1dc211f5f3dd8819577c796849dcb86012cc0
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104971439"
+---
+# <a name="registers---vs_5_0"></a><span data-ttu-id="50d1d-103">Registres-vs \_ 5 \_ 0</span><span class="sxs-lookup"><span data-stu-id="50d1d-103">Registers - vs\_5\_0</span></span>
+
+<span data-ttu-id="50d1d-104">Les registres d’entrée et de sortie suivants sont implémentés dans le nuanceur de sommets version 5 \_ 0.</span><span class="sxs-lookup"><span data-stu-id="50d1d-104">The following input and output registers are implemented in the vertex shader version 5\_0.</span></span>
+
+## <a name="input-registers"></a><span data-ttu-id="50d1d-105">Registres d’entrée</span><span class="sxs-lookup"><span data-stu-id="50d1d-105">Input Registers</span></span>
+
+
+
+| <span data-ttu-id="50d1d-106">Type de Registre</span><span class="sxs-lookup"><span data-stu-id="50d1d-106">Register Type</span></span>                                      | <span data-ttu-id="50d1d-107">Count</span><span class="sxs-lookup"><span data-stu-id="50d1d-107">Count</span></span>              | <span data-ttu-id="50d1d-108">R/W (Lecture/écriture)</span><span class="sxs-lookup"><span data-stu-id="50d1d-108">R/W</span></span> | <span data-ttu-id="50d1d-109">Dimension</span><span class="sxs-lookup"><span data-stu-id="50d1d-109">Dimension</span></span> | <span data-ttu-id="50d1d-110">Indexable par r\#</span><span class="sxs-lookup"><span data-stu-id="50d1d-110">Indexable by r\#</span></span> | <span data-ttu-id="50d1d-111">Valeurs par défaut</span><span class="sxs-lookup"><span data-stu-id="50d1d-111">Defaults</span></span> | <span data-ttu-id="50d1d-112">DCL obligatoire</span><span class="sxs-lookup"><span data-stu-id="50d1d-112">Requires DCL</span></span> |
+|----------------------------------------------------|--------------------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="50d1d-113">Temp 32 bits (r \# )</span><span class="sxs-lookup"><span data-stu-id="50d1d-113">32-bit Temp (r\#)</span></span>                                  | <span data-ttu-id="50d1d-114">4096 (r \# + x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="50d1d-114">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="50d1d-115">R/W (Lecture/écriture)</span><span class="sxs-lookup"><span data-stu-id="50d1d-115">R/W</span></span> | <span data-ttu-id="50d1d-116">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-116">4</span></span>         | <span data-ttu-id="50d1d-117">Non</span><span class="sxs-lookup"><span data-stu-id="50d1d-117">No</span></span>               | <span data-ttu-id="50d1d-118">None</span><span class="sxs-lookup"><span data-stu-id="50d1d-118">None</span></span>     | <span data-ttu-id="50d1d-119">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-119">Yes</span></span>          |
+| <span data-ttu-id="50d1d-120">Tableau Temp indexable 32 bits (x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="50d1d-120">32-bit indexable Temp Array (x\#\[n\])</span></span>             | <span data-ttu-id="50d1d-121">4096 (r \# + x \# \[ n \] )</span><span class="sxs-lookup"><span data-stu-id="50d1d-121">4096(r\#+x\#\[n\])</span></span> | <span data-ttu-id="50d1d-122">R/W (Lecture/écriture)</span><span class="sxs-lookup"><span data-stu-id="50d1d-122">R/W</span></span> | <span data-ttu-id="50d1d-123">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-123">4</span></span>         | <span data-ttu-id="50d1d-124">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-124">Yes</span></span>              | <span data-ttu-id="50d1d-125">None</span><span class="sxs-lookup"><span data-stu-id="50d1d-125">None</span></span>     | <span data-ttu-id="50d1d-126">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-126">Yes</span></span>          |
+| <span data-ttu-id="50d1d-127">entrée 32 bits (v \# )</span><span class="sxs-lookup"><span data-stu-id="50d1d-127">32-bit input (v\#)</span></span>                                 | <span data-ttu-id="50d1d-128">32</span><span class="sxs-lookup"><span data-stu-id="50d1d-128">32</span></span>                 | <span data-ttu-id="50d1d-129">R</span><span class="sxs-lookup"><span data-stu-id="50d1d-129">R</span></span>   | <span data-ttu-id="50d1d-130">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-130">4</span></span>         | <span data-ttu-id="50d1d-131">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-131">Yes</span></span>              | <span data-ttu-id="50d1d-132">None</span><span class="sxs-lookup"><span data-stu-id="50d1d-132">None</span></span>     | <span data-ttu-id="50d1d-133">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-133">Yes</span></span>          |
+| <span data-ttu-id="50d1d-134">Élément dans une ressource d’entrée (t \# )</span><span class="sxs-lookup"><span data-stu-id="50d1d-134">Element in an input resource (t\#)</span></span>                 | <span data-ttu-id="50d1d-135">128</span><span class="sxs-lookup"><span data-stu-id="50d1d-135">128</span></span>                | <span data-ttu-id="50d1d-136">R</span><span class="sxs-lookup"><span data-stu-id="50d1d-136">R</span></span>   | <span data-ttu-id="50d1d-137">1</span><span class="sxs-lookup"><span data-stu-id="50d1d-137">1</span></span>         | <span data-ttu-id="50d1d-138">Non</span><span class="sxs-lookup"><span data-stu-id="50d1d-138">No</span></span>               | <span data-ttu-id="50d1d-139">None</span><span class="sxs-lookup"><span data-stu-id="50d1d-139">None</span></span>     | <span data-ttu-id="50d1d-140">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-140">Yes</span></span>          |
+| <span data-ttu-id="50d1d-141">Échantillonneur (s \# )</span><span class="sxs-lookup"><span data-stu-id="50d1d-141">Sampler (s\#)</span></span>                                      | <span data-ttu-id="50d1d-142">16</span><span class="sxs-lookup"><span data-stu-id="50d1d-142">16</span></span>                 | <span data-ttu-id="50d1d-143">R</span><span class="sxs-lookup"><span data-stu-id="50d1d-143">R</span></span>   | <span data-ttu-id="50d1d-144">1</span><span class="sxs-lookup"><span data-stu-id="50d1d-144">1</span></span>         | <span data-ttu-id="50d1d-145">Non</span><span class="sxs-lookup"><span data-stu-id="50d1d-145">No</span></span>               | <span data-ttu-id="50d1d-146">None</span><span class="sxs-lookup"><span data-stu-id="50d1d-146">None</span></span>     | <span data-ttu-id="50d1d-147">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-147">Yes</span></span>          |
+| <span data-ttu-id="50d1d-148">Référence ConstantBuffer ( \# \[ index CB \] )</span><span class="sxs-lookup"><span data-stu-id="50d1d-148">ConstantBuffer reference (cb\#\[index\])</span></span>           | <span data-ttu-id="50d1d-149">15</span><span class="sxs-lookup"><span data-stu-id="50d1d-149">15</span></span>                 | <span data-ttu-id="50d1d-150">R</span><span class="sxs-lookup"><span data-stu-id="50d1d-150">R</span></span>   | <span data-ttu-id="50d1d-151">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-151">4</span></span>         | <span data-ttu-id="50d1d-152">Oui (contenu)</span><span class="sxs-lookup"><span data-stu-id="50d1d-152">Yes(contents)</span></span>    | <span data-ttu-id="50d1d-153">Aucun</span><span class="sxs-lookup"><span data-stu-id="50d1d-153">None</span></span>     | <span data-ttu-id="50d1d-154">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-154">Yes</span></span>          |
+| <span data-ttu-id="50d1d-155">iImmediate ConstantBuffer Reference ( \[ index ICB \] )</span><span class="sxs-lookup"><span data-stu-id="50d1d-155">iImmediate ConstantBuffer reference (icb\[index\])</span></span> | <span data-ttu-id="50d1d-156">1</span><span class="sxs-lookup"><span data-stu-id="50d1d-156">1</span></span>                  | <span data-ttu-id="50d1d-157">R</span><span class="sxs-lookup"><span data-stu-id="50d1d-157">R</span></span>   | <span data-ttu-id="50d1d-158">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-158">4</span></span>         | <span data-ttu-id="50d1d-159">Oui (contenu)</span><span class="sxs-lookup"><span data-stu-id="50d1d-159">Yes(contents)</span></span>    | <span data-ttu-id="50d1d-160">Aucun</span><span class="sxs-lookup"><span data-stu-id="50d1d-160">None</span></span>     | <span data-ttu-id="50d1d-161">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-161">Yes</span></span>          |
+
+
+
+ 
+
+## <a name="output-registers"></a><span data-ttu-id="50d1d-162">Registres de sortie</span><span class="sxs-lookup"><span data-stu-id="50d1d-162">Output Registers</span></span>
+
+
+
+| <span data-ttu-id="50d1d-163">Type de Registre</span><span class="sxs-lookup"><span data-stu-id="50d1d-163">Register Type</span></span>                                                      | <span data-ttu-id="50d1d-164">Count</span><span class="sxs-lookup"><span data-stu-id="50d1d-164">Count</span></span> | <span data-ttu-id="50d1d-165">R/W (Lecture/écriture)</span><span class="sxs-lookup"><span data-stu-id="50d1d-165">R/W</span></span> | <span data-ttu-id="50d1d-166">Dimension</span><span class="sxs-lookup"><span data-stu-id="50d1d-166">Dimension</span></span> | <span data-ttu-id="50d1d-167">Indexable par r\#</span><span class="sxs-lookup"><span data-stu-id="50d1d-167">Indexable by r\#</span></span> | <span data-ttu-id="50d1d-168">Valeurs par défaut</span><span class="sxs-lookup"><span data-stu-id="50d1d-168">Defaults</span></span> | <span data-ttu-id="50d1d-169">DCL obligatoire</span><span class="sxs-lookup"><span data-stu-id="50d1d-169">Requires DCL</span></span> |
+|--------------------------------------------------------------------|-------|-----|-----------|------------------|----------|--------------|
+| <span data-ttu-id="50d1d-170">NULL (ignorer le résultat, utile pour les opérations avec plusieurs résultats)</span><span class="sxs-lookup"><span data-stu-id="50d1d-170">NULL (discard result, useful for operations with multiple results)</span></span> | <span data-ttu-id="50d1d-171">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-171">N/A</span></span>   | <span data-ttu-id="50d1d-172">W</span><span class="sxs-lookup"><span data-stu-id="50d1d-172">W</span></span>   | <span data-ttu-id="50d1d-173">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-173">N/A</span></span>       | <span data-ttu-id="50d1d-174">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-174">N/A</span></span>              | <span data-ttu-id="50d1d-175">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-175">N/A</span></span>      | <span data-ttu-id="50d1d-176">Non</span><span class="sxs-lookup"><span data-stu-id="50d1d-176">No</span></span>           |
+| <span data-ttu-id="50d1d-177">Élément de données de vertex de sortie 32 bits (o \# )</span><span class="sxs-lookup"><span data-stu-id="50d1d-177">32-bit output Vertex Data Element (o\#)</span></span>                            | <span data-ttu-id="50d1d-178">32</span><span class="sxs-lookup"><span data-stu-id="50d1d-178">32</span></span>    | <span data-ttu-id="50d1d-179">W</span><span class="sxs-lookup"><span data-stu-id="50d1d-179">W</span></span>   | <span data-ttu-id="50d1d-180">4</span><span class="sxs-lookup"><span data-stu-id="50d1d-180">4</span></span>         | <span data-ttu-id="50d1d-181">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-181">N/A</span></span>              | <span data-ttu-id="50d1d-182">N/A</span><span class="sxs-lookup"><span data-stu-id="50d1d-182">N/A</span></span>      | <span data-ttu-id="50d1d-183">Oui</span><span class="sxs-lookup"><span data-stu-id="50d1d-183">Yes</span></span>          |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="50d1d-184">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="50d1d-184">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="50d1d-185">Shader, modèle 5</span><span class="sxs-lookup"><span data-stu-id="50d1d-185">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
