@@ -1,0 +1,397 @@
+- name: Gestion de la sécurité
+  href: management-portal.md
+  items:
+    - name: À propos de la gestion de la sécurité
+      href: about-management.md
+      items:
+        - name: Stratégie LSA
+          href: lsa-policy.md
+          items:
+            - name: Stratégie de sécurité locale
+              href: local-security-policy.md
+            - name: Domaines intégrés et comptes de comptes
+              href: built-in-and-account-domains.md
+            - name: Domaines principaux et approuvés
+              href: primary-and-trusted-domains.md
+            - name: Objets de stratégie LSA
+              href: lsa-policy-objects.md
+              items:
+                - name: Objet de stratégie
+                  href: policy-object.md
+                - name: Objet TrustedDomain
+                  href: trusteddomain-object.md
+                - name: Objet Account
+                  href: account-object.md
+                - name: Objet de données privées
+                  href: private-data-object.md
+        - name: Filtres de mot de passe
+          href: password-filters.md
+          items:
+            - name: Considérations sur la programmation du filtre de mot de passe
+              href: password-filter-programming-considerations.md
+            - name: Mise en œuvre des mots de passe forts et Passfilt.dll
+              href: strong-password-enforcement-and-passfilt-dll.md
+        - name: Plus sûr
+          href: safer.md
+        - name: Pièces jointes de sécurité de service
+          href: service-security-attachments.md
+          items:
+            - name: Extensions du composant logiciel enfichable pièce jointe
+              href: attachment-snap-in-extensions.md
+            - name: Moteurs d’attachement
+              href: attachment-engines.md
+            - name: Modèles de sécurité
+              href: security-templates.md
+            - name: Configuration et analyse de la sécurité
+              href: security-configuration-and-analysis.md
+    - name: Utilisation de la gestion de la sécurité
+      href: using-management.md
+      items:
+        - name: Utilisation de la stratégie LSA
+          href: using-lsa-policy.md
+          items:
+            - name: Utilisation de chaînes Unicode LSA
+              href: using-lsa-unicode-strings.md
+            - name: Ouverture d’un handle d’objet de stratégie
+              href: opening-a-policy-object-handle.md
+            - name: Gestion des informations de stratégie
+              href: managing-policy-information.md
+            - name: Réception des événements de modification de stratégie
+              href: receiving-policy-change-events.md
+            - name: Gestion des autorisations de compte
+              href: managing-account-permissions.md
+            - name: Gestion des informations de domaine approuvé
+              href: managing-trusted-domain-information.md
+            - name: Conversion entre les noms et les sid
+              href: translating-between-names-and-sids.md
+            - name: Mappage d’identificateurs POSIX
+              href: mapping-posix-identifiers.md
+            - name: Stockage des données privées
+              href: storing-private-data.md
+        - name: Utilisation de filtres de mot de passe
+          href: using-password-filters.md
+          items:
+            - name: Installation et inscription d’une DLL de filtre de mot de passe
+              href: installing-and-registering-a-password-filter-dll.md
+        - name: Utilisation des pièces jointes de sécurité de service
+          href: using-service-security-attachments.md
+          items:
+            - name: Création d’une extension de composant logiciel enfichable pièce jointe
+              href: creating-an-attachment-snap-in-extension.md
+              items:
+                - name: Implémentation de ISceSvcAttachmentPersistInfo
+                  href: implementing-iscesvcattachmentpersistinfo.md
+                - name: Affichage des informations de configuration et d’analyse
+                  href: displaying-configuration-and-analysis-information.md
+                - name: Ajout d’un nœud d’extension de composant logiciel enfichable pièce jointe
+                  href: adding-an-attachment-snap-in-extension-node.md
+                - name: Établissement de la communication avec les composants logiciels enfichables de configuration
+                  href: establishing-communication-with-configuration-snap-ins.md
+                - name: Obtention de données à partir des composants logiciels enfichables de configuration
+                  href: getting-data-from-the-configuration-snap-ins.md
+                - name: Modification des informations de configuration dans l’interface utilisateur
+                  href: modifying-configuration-information-in-the-user-interface.md
+                - name: Modification des informations de configuration dans la base de données
+                  href: modifying-configuration-information-in-the-database.md
+            - name: Inscription d’une extension de composant logiciel enfichable pièce jointe
+              href: registering-an-attachment-snap-in-extension.md
+            - name: Création d’un moteur de pièce jointe
+              href: creating-an-attachment-engine.md
+              items:
+                - name: Implémentation de SceSvcAttachmentAnalyze
+                  href: implementing-scesvcattachmentanalyze.md
+                - name: Implémentation de SceSvcAttachmentConfig
+                  href: implementing-scesvcattachmentconfig.md
+                - name: Implémentation de SceSvcAttachmentUpdate
+                  href: implementing-scesvcattachmentupdate.md
+            - name: Inscription d’un moteur de pièce jointe
+              href: registering-an-attachment-engine.md
+    - name: Informations de référence sur la gestion de la sécurité
+      href: management-reference.md
+      items:
+        - name: Types de données de gestion de la sécurité
+          href: management-data-types.md
+          items:
+            - name: LSA_ENUMERATION_HANDLE
+              href: lsa-enumeration-handle.md
+            - name: LSA_HANDLE
+              href: lsa-handle.md
+            - name: SCE_ENUMERATION_CONTEXT
+              href: sce-enumeration-context.md
+            - name: SCE_HANDLE
+              href: sce-handle.md
+            - name: SCESTATUS
+              href: scestatus.md
+            - name: SCESVC_HANDLE
+              href: scesvc-handle.md
+            - name: SCESVC_INFO_TYPE
+              href: /windows/win32/api/Scesvc/ne-scesvc-scesvc_info_type
+        - name: Énumérations de la gestion de la sécurité
+          href: management-enumerations.md
+          items:
+            - name: CRED_FETCH
+              href: cred-fetch.md
+            - name: MSA_INFO_LEVEL
+              href: /windows/win32/api/Lmaccess/ne-lmaccess-msa_info_level
+            - name: MSA_INFO_STATE
+              href: /windows/win32/api/Lmaccess/ne-lmaccess-msa_info_state
+            - name: POLICY_AUDIT_EVENT_TYPE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_audit_event_type
+            - name: POLICY_INFORMATION_CLASS
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_information_class
+            - name: POLICY_LSA_SERVER_ROLE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_lsa_server_role
+            - name: POLICY_NOTIFICATION_INFORMATION_CLASS
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_notification_information_class
+            - name: POLICY_SERVER_ENABLE_STATE
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-policy_server_enable_state
+            - name: SAFER_IDENTIFICATION_TYPES
+              href: /windows/win32/api/WinSafer/ne-winsafer-safer_identification_types
+            - name: SAFER_OBJECT_INFO_CLASS
+              href: /windows/win32/api/WinSafer/ne-winsafer-safer_object_info_class
+            - name: SAFER_POLICY_INFO_CLASS
+              href: /windows/win32/api/WinSafer/ne-winsafer-safer_policy_info_class
+            - name: TRUSTED_INFORMATION_CLASS
+              href: /windows/win32/api/Ntsecapi/ne-ntsecapi-trusted_information_class
+        - name: Fonctions de gestion de la sécurité
+          href: management-functions.md
+          items:
+            - name: GetServiceAccountPassword
+              href: getserviceaccountpassword.md
+            - name: PSAM_INIT_NOTIFICATION_ROUTINE
+              href: /windows/desktop/api/Ntsecapi/nc-ntsecapi-psam_init_notification_routine
+            - name: LsaAddAccountRights
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaaddaccountrights
+            - name: LsaClose
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaclose
+            - name: LsaCreateTrustedDomainEx
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsacreatetrusteddomainex
+            - name: LsaDeleteTrustedDomain
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsadeletetrusteddomain
+            - name: LsaEnumerateAccountRights
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountrights
+            - name: LsaEnumerateAccountsWithUserRight
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumerateaccountswithuserright
+            - name: LsaEnumerateTrustedDomains
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomains
+            - name: LsaEnumerateTrustedDomainsEx
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaenumeratetrusteddomainsex
+            - name: LsaFreeMemory
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsafreememory
+            - name: LsaLookupNames
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames
+            - name: LsaLookupNames2
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupnames2
+            - name: LsaLookupPrivilegeValue
+              href: /windows/desktop/api/ntlsa/nf-ntlsa-lsalookupprivilegevalue
+            - name: LsaLookupSids
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids
+            - name: LsaLookupSids2
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsalookupsids2
+            - name: LsaNtStatusToWinError
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror
+            - name: LsaOpenTrustedDomainByName
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaopentrusteddomainbyname
+            - name: LsaQueryTrustedDomainInfo
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfo
+            - name: LsaQueryTrustedDomainInfoByName
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaquerytrusteddomaininfobyname
+            - name: LsaRegisterPolicyChangeNotification
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaregisterpolicychangenotification
+            - name: LsaRemoveAccountRights
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaremoveaccountrights
+            - name: LsaRetrievePrivateData
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaretrieveprivatedata
+            - name: LsaSetTrustedDomainInfoByName
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasettrusteddomaininfobyname
+            - name: LsaSetTrustedDomainInformation
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsasettrusteddomaininformation
+            - name: LsaStorePrivateData
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsastoreprivatedata
+            - name: LsaUnregisterPolicyChangeNotification
+              href: /windows/desktop/api/Ntsecapi/nf-ntsecapi-lsaunregisterpolicychangenotification
+            - name: NetAddServiceAccount
+              href: /windows/desktop/api/Lmaccess/nf-lmaccess-netaddserviceaccount
+            - name: NetEnumerateServiceAccounts
+              href: /windows/desktop/api/Lmaccess/nf-lmaccess-netenumerateserviceaccounts
+            - name: NetIsServiceAccount
+              href: /windows/desktop/api/Lmaccess/nf-lmaccess-netisserviceaccount
+            - name: NetQueryServiceAccount
+              href: /windows/desktop/api/Lmaccess/nf-lmaccess-netqueryserviceaccount
+            - name: NetRemoveServiceAccount
+              href: /windows/desktop/api/Lmaccess/nf-lmaccess-netremoveserviceaccount
+            - name: PSAM_PASSWORD_NOTIFICATION_ROUTINE
+              href: /windows/desktop/api/Ntsecapi/nc-ntsecapi-psam_password_notification_routine
+            - name: PSAM_PASSWORD_FILTER_ROUTINE
+              href: /windows/desktop/api/Ntsecapi/nc-ntsecapi-psam_password_filter_routine
+            - name: PFSCE_FREE_INFO
+              href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_free_info
+            - name: PFSCE_LOG_INFO
+              href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_log_info
+            - name: PFSCE_QUERY_INFO
+              href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_query_info
+            - name: PFSCE_SET_INFO
+              href: /windows/desktop/api/scesvc/nc-scesvc-pfsce_set_info
+            - name: SaferCloseLevel
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safercloselevel
+            - name: SaferComputeTokenFromLevel
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safercomputetokenfromlevel
+            - name: SaferCreateLevel
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safercreatelevel
+            - name: SaferGetLevelInformation
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safergetlevelinformation
+            - name: SaferGetPolicyInformation
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safergetpolicyinformation
+            - name: SaferIdentifyLevel
+              href: /windows/desktop/api/WinSafer/nf-winsafer-saferidentifylevel
+            - name: SaferiIsExecutableFileType
+              href: /windows/desktop/api/WinSafer/nf-winsafer-saferiisexecutablefiletype
+            - name: SaferRecordEventLogEntry
+              href: /windows/desktop/api/WinSafer/nf-winsafer-saferrecordeventlogentry
+            - name: SaferSetLevelInformation
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safersetlevelinformation
+            - name: SaferSetPolicyInformation
+              href: /windows/desktop/api/WinSafer/nf-winsafer-safersetpolicyinformation
+            - name: SceSvcAttachmentAnalyze
+              href: scesvcattachmentanalyze.md
+            - name: SceSvcAttachmentConfig
+              href: scesvcattachmentconfig.md
+            - name: SceSvcAttachmentUpdate
+              href: scesvcattachmentupdate.md
+            - name: srpInheritOriginClaim
+              href: srpinheritoriginclaim.md
+        - name: Interfaces de gestion de la sécurité
+          href: management-interfaces.md
+          items:
+            - name: ISceSvcAttachmentData
+              href: /windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentdata
+              items:
+                - name: Méthodes ISceSvcAttachmentData
+                  href: iscesvcattachmentdata-methods.md
+                  items:
+                    - name: 'CloseHandle, méthode'
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-closehandle
+                    - name: Méthode FreeBuffer
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-freebuffer
+                    - name: 'GetData, méthode'
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-getdata
+                    - name: 'Initialize, méthode'
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentdata-initialize
+            - name: ISceSvcAttachmentPersistInfo
+              href: /windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo
+              items:
+                - name: Méthodes ISceSvcAttachmentPersistInfo
+                  href: iscesvcattachmentpersistinfo-methods.md
+                  items:
+                    - name: Méthode FreeBuffer
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentpersistinfo-freebuffer
+                    - name: Méthode IsDirty
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentpersistinfo-isdirty
+                    - name: 'Save, méthode'
+                      href: /windows/desktop/api/Scesvc/nf-scesvc-iscesvcattachmentpersistinfo-save
+        - name: Objets de gestion de la sécurité
+          href: management-objects.md
+          items:
+            - name: Type d’objet de stratégie
+              href: the-policy-object-type.md
+              items:
+                - name: Droits d’accès à l’objet de stratégie
+                  href: policy-object-access-rights.md
+                - name: Protection des objets de stratégie
+                  href: policy-object-protection.md
+            - name: Type d’objet TrustedDomain
+              href: the-trusteddomain-object-type.md
+              items:
+                - name: Droits d’accès à l’objet TrustedDomain
+                  href: trusteddomain-object-access-rights.md
+                - name: Protection des objets TrustedDomain
+                  href: trusteddomain-object-protection.md
+            - name: Type d’objet de compte
+              href: the-account-object-type.md
+              items:
+                - name: Droits d’accès à l’objet de compte
+                  href: account-object-access-rights.md
+                - name: Protection des objets de compte
+                  href: account-object-protection.md
+            - name: Type d’objet de données privé
+              href: the-private-data-object-type.md
+              items:
+                - name: Droits d’accès à un objet de données privées
+                  href: private-data-object-access-rights.md
+                - name: Protection initiale de l’objet de données privé
+                  href: private-data-object-initial-protection.md
+        - name: Valeurs de retour de la gestion de la sécurité
+          href: management-return-values.md
+        - name: Structures de gestion de la sécurité
+          href: management-structures.md
+          items:
+            - name: LSA_AUTH_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_auth_information
+            - name: LSA_ENUMERATION_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_enumeration_information
+            - name: LSA_OBJECT_ATTRIBUTES
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_object_attributes
+            - name: LSA_REFERENCED_DOMAIN_LIST
+              href: /windows/desktop/api/lsalookup/ns-lsalookup-lsa_referenced_domain_list
+            - name: LSA_TRANSLATED_NAME
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_translated_name
+            - name: LSA_TRANSLATED_SID
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-lsa_translated_sid
+            - name: LSA_TRANSLATED_SID2
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-lsa_translated_sid2
+            - name: LSA_TRUST_INFORMATION
+              href: /windows/win32/api/lsalookup/ns-lsalookup-lsa_trust_information
+            - name: LSA_UNICODE_STRING
+              href: /windows/win32/api/lsalookup/ns-lsalookup-lsa_unicode_string
+            - name: MSA_INFO_0
+              href: /windows/win32/api/Lmaccess/ns-lmaccess-msa_info_0
+            - name: POLICY_ACCOUNT_DOMAIN_INFO
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-policy_account_domain_info
+            - name: POLICY_AUDIT_EVENTS_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_audit_events_info
+            - name: POLICY_DNS_DOMAIN_INFO
+              href: /windows/win32/api/LsaLookup/ns-lsalookup-policy_dns_domain_info
+            - name: POLICY_LSA_SERVER_ROLE_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_lsa_server_role_info
+            - name: POLICY_MODIFICATION_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_modification_info
+            - name: POLICY_PD_ACCOUNT_INFO
+              href: policy-pd-account-info.md
+            - name: POLICY_PRIMARY_DOMAIN_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-policy_primary_domain_info
+            - name: SAFER_CODE_PROPERTIES
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_code_properties_v2
+            - name: SAFER_CODE_PROPERTIES_V1
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_code_properties_v1
+            - name: SAFER_HASH_IDENTIFICATION
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_hash_identification
+            - name: SAFER_IDENTIFICATION_HEADER
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_identification_header
+            - name: SAFER_PATHNAME_IDENTIFICATION
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_pathname_identification
+            - name: SAFER_URLZONE_IDENTIFICATION
+              href: /windows/win32/api/WinSafer/ns-winsafer-safer_urlzone_identification
+            - name: SCESVC_ANALYSIS_INFO
+              href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_info
+            - name: SCESVC_ANALYSIS_LINE
+              href: /windows/win32/api/scesvc/ns-scesvc-scesvc_analysis_line
+            - name: SCESVC_CALLBACK_INFO
+              href: /windows/win32/api/scesvc/ns-scesvc-scesvc_callback_info
+            - name: SCESVC_CONFIGURATION_INFO
+              href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_info
+            - name: SCESVC_CONFIGURATION_LINE
+              href: /windows/win32/api/scesvc/ns-scesvc-scesvc_configuration_line
+            - name: TRUSTED_DOMAIN_AUTH_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_auth_information
+            - name: TRUSTED_DOMAIN_FULL_INFORMATION
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_full_information
+            - name: TRUSTED_DOMAIN_INFORMATION_BASIC
+              href: /previous-versions/windows/desktop/legacy/ms722475(v=vs.85)
+            - name: TRUSTED_DOMAIN_INFORMATION_EX
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_information_ex
+            - name: TRUSTED_DOMAIN_NAME_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_domain_name_info
+            - name: TRUSTED_PASSWORD_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_password_info
+            - name: TRUSTED_POSIX_OFFSET_INFO
+              href: /windows/win32/api/Ntsecapi/ns-ntsecapi-trusted_posix_offset_info
