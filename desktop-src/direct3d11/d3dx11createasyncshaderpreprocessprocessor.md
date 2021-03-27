@@ -1,0 +1,141 @@
+---
+title: D3DX11CreateAsyncShaderPreprocessProcessor, fonction (D3DX11async. h)
+description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes. Créer un processeur de données pour un nuanceur de manière asynchrone.'
+ms.assetid: a7e9754b-acc1-49d0-bd8e-b116bc3c7e3a
+keywords:
+- Fonction D3DX11CreateAsyncShaderPreprocessProcessor Direct3D 11
+topic_type:
+- apiref
+api_name:
+- D3DX11CreateAsyncShaderPreprocessProcessor
+api_location:
+- D3DX11.lib
+- D3DX11.dll
+api_type:
+- LibDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 46e58b267f186e5fd0104b10e9f9423f407aaf13
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "103953932"
+---
+# <a name="d3dx11createasyncshaderpreprocessprocessor-function"></a>D3DX11CreateAsyncShaderPreprocessProcessor fonction)
+
+> [!Note]  
+> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Consultez la section Notes.
+
+ 
+
+Créer un processeur de données pour un nuanceur de manière asynchrone.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT D3DX11CreateAsyncShaderPreprocessProcessor(
+  _In_        LPCSTR               pFileName,
+  _In_  const D3D11_SHADER_MACRO   *pDefines,
+  _In_        LPD3D10INCLUDE       pInclude,
+  _Out_       ID3D10Blob           **ppShaderText,
+  _Out_       ID3D10Blob           **ppErrorBuffer,
+  _Out_       ID3DX11DataProcessor **ppDataProcessor
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*pFileName* \[ dans\]
+</dt> <dd>
+
+Type : **[ **LPCSTR**](/windows/desktop/WinProg/windows-data-types)**
+
+Chaîne qui contient le nom de fichier du nuanceur.
+
+</dd> <dt>
+
+*pDefines* \[ dans\]
+</dt> <dd>
+
+Type : **const d3d11 \_ Shader \_ macro \***
+
+Tableau de macros de nuanceur se terminant par un caractère NULL ; Affectez-lui la valeur **null** pour ne spécifier aucune macro.
+
+</dd> <dt>
+
+*pInclude* \[ dans\]
+</dt> <dd>
+
+Type : **[ **LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
+
+Pointeur vers une interface include ; Affectez-lui la valeur **null** pour spécifier qu’il n’y a aucun fichier include.
+
+</dd> <dt>
+
+*ppShaderText* \[ à\]
+</dt> <dd>
+
+Type : **[ **ID3D10Blob**](/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
+
+Adresse d’un pointeur vers une mémoire tampon qui contient le texte ASCII du nuanceur.
+
+</dd> <dt>
+
+*ppErrorBuffer* \[ à\]
+</dt> <dd>
+
+Type : **[ **ID3D10Blob**](/windows/desktop/api/d3dcommon/nn-d3dcommon-id3d10blob)\*\***
+
+Adresse d’un pointeur vers une mémoire tampon qui contient des erreurs de compilation.
+
+</dd> <dt>
+
+*ppDataProcessor* \[ à\]
+</dt> <dd>
+
+Type : **[ **ID3DX11DataProcessor**](id3dx11dataprocessor.md)\*\***
+
+Adresse d’un pointeur vers une mémoire tampon qui contient le processeur de données créé (voir [**interface ID3DX11DataProcessor**](id3dx11dataprocessor.md)).
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
+
+La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 11](d3d11-graphics-reference-returnvalues.md).
+
+## <a name="remarks"></a>Notes
+
+Il n’y a aucune implémentation du chargeur asynchrone en dehors de D3DX 10 et D3DX 11.
+
+Pour les applications du Windows Store, les exemples DirectX (par exemple, l' [exemple de didacticiel Direct3D](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct3D%20tutorial%20sample)) incluent le module **BasicLoader** qui utilise le modèle de programmation asynchrone Windows Runtime ([**AsyncBase**](/previous-versions/visualstudio/visual-studio-2012/br244878(v=vs.110))).
+
+Pour les applications de bureau Win32, vous pouvez utiliser le [Runtime d’accès concurrentiel](/previous-versions/visualstudio/visual-studio-2010/ee207192(v=vs.100)) pour implémenter un modèle semblable au Windows Runtime modèle de programmation asynchrone.
+
+## <a name="requirements"></a>Spécifications
+
+
+
+| Condition requise | Valeur |
+|--------------------|------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>D3DX11async. h</dt> </dl> |
+| Bibliothèque<br/> | <dl> <dt>D3DX11. lib</dt> </dl>    |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[D3DX, fonctions](d3d11-graphics-reference-d3dx11-functions.md)
+</dt> </dl>
+
+ 
+
