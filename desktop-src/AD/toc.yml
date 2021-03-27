@@ -1,0 +1,1592 @@
+- name: Services de domaine Active Directory
+  href: active-directory-domain-services.md
+  items:
+    - name: À propos de Active Directory Domain Services
+      href: about-active-directory-domain-services.md
+      items:
+        - name: Concepts de base de Active Directory Domain Services
+          href: core-concepts-of-active-directory-domain-services.md
+          items:
+            - name: Attributs
+              href: attributes.md
+            - name: Conteneurs et feuilles
+              href: containers-and-leaves.md
+            - name: Noms d’objets et identités
+              href: object-names-and-identities.md
+            - name: Nommage des contextes et des partitions d’annuaire
+              href: naming-contexts-and-partitions.md
+              items:
+                - name: À propos des partitions de l’annuaire d’applications
+                  href: about-application-directory-partitions.md
+            - name: Arborescences de domaines
+              href: domain-trees.md
+            - name: Forêts
+              href: forests.md
+            - name: Serveurs Active Directory et DNS dynamique
+              href: active-directory-servers-and-dynamic-dns.md
+            - name: Réplication et intégrité des données
+              href: replication-and-data-integrity.md
+              items:
+                - name: Modèle de réplication dans Active Directory Domain Services
+                  href: replication-model-in-active-directory-domain-services.md
+                  items:
+                    - name: Fonctionnalités du modèle de réplication pour Active Directory Domain Services
+                      href: features-of-the-replication-model-for-active-directory-domain-services.md
+                    - name: Pourquoi Active Directory Domain Services utilise ce modèle de réplication
+                      href: why-active-directory-domain-services-uses-this-replication-model.md
+                    - name: Modèle de réplication du programmeur dans Active Directory Domain Services
+                      href: a-programmerampaposs-model-of-replication-in-active-directory-domain-services.md
+                - name: Comportement de réplication dans Active Directory Domain Services
+                  href: replication-behavior-in-active-directory-domain-services.md
+                  items:
+                    - name: Impact sur les applications Directory-Enabled
+                      href: impact-on-directory-enabled-applications.md
+                - name: Détection et prévention de la latence de réplication
+                  href: detecting-and-avoiding-replication-latency.md
+                  items:
+                    - name: "Que pouvez-vous savoir, et quand pouvez-vous le savoir\_?"
+                      href: what-can-you-know-and-when-can-you-know-it.md
+                    - name: Localité temporelle
+                      href: temporal-locality.md
+                    - name: Signalisation hors bande
+                      href: out-of-band-signaling.md
+                    - name: Date et heure d’effet
+                      href: effective-date-and-time.md
+                    - name: Sommes de contrôle et nombre d’objets
+                      href: checksums-and-object-counts.md
+                    - name: GUID de cohérence
+                      href: consistency-guids.md
+                    - name: Contrôle de version et stratégies de secours
+                      href: versioning-and-fallback-strategies.md
+        - name: Architecture Active Directory Domain Services
+          href: active-directory-domain-services-architecture.md
+          items:
+            - name: Agent de système d’annuaire
+              href: directory-system-agent.md
+            - name: Modèle de données
+              href: data-model.md
+            - name: schéma
+              href: schema.md
+            - name: Modèle d’administration
+              href: administration-model.md
+            - name: Catalogue global
+              href: global-catalog.md
+        - name: Sécurité dans Active Directory Domain Services
+          href: security-in-active-directory-domain-services.md
+          items:
+            - name: Protection des objets et des attributs
+              href: object-and-attribute-protection.md
+            - name: La délégation
+              href: delegation.md
+            - name: Héritage
+              href: inheritance.md
+        - name: Schéma Active Directory
+          href: active-directory-schema.md
+          items:
+            - name: À propos du schéma Active Directory
+              href: about-the-active-directory-schema.md
+            - name: Read-Only les contrôleurs de schéma et le schéma de Active Directory
+              href: rodc-and-active-directory-schema.md
+            - name: Implémentation du schéma
+              href: schema-implementation.md
+              items:
+                - name: Identificateurs d'objet
+                  href: object-identifiers.md
+            - name: Caractéristiques des classes d’objets
+              href: characteristics-of-object-classes.md
+              items:
+                - name: 'Classes structurelles, abstraites et auxiliaires'
+                  href: structural-abstract-and-auxiliary-classes.md
+                - name: Héritage de classes dans le schéma Active Directory
+                  href: class-inheritance-in-the-active-directory-schema.md
+                - name: Classe d’objet et catégorie d’objet
+                  href: object-class-and-object-category.md
+            - name: Caractéristiques des attributs
+              href: characteristics-of-attributes.md
+              items:
+                - name: Syntaxes pour les attributs dans Active Directory Domain Services
+                  href: syntaxes-for-attributes-in-active-directory-domain-services.md
+                - name: Attributs indexés
+                  href: indexed-attributes.md
+                - name: Inclusion d’attributs dans le catalogue global
+                  href: attributes-included-in-the-global-catalog.md
+                - name: Attributs liés
+                  href: linked-attributes.md
+            - name: Schéma abstrait
+              href: the-abstract-schema.md
+    - name: Utilisation des services de domaine Active Directory
+      href: using-active-directory-domain-services.md
+      items:
+        - name: Liaison à Active Directory Domain Services
+          href: binding-to-active-directory-domain-services.md
+          items:
+            - name: Liaison sans serveur et RootDSE
+              href: serverless-binding-and-rootdse.md
+              items:
+                - name: Exemple de code pour obtenir le nom unique du domaine
+                  href: example-code-for-getting-the-distinguished-name-of-the-domain.md
+            - name: Liaison au catalogue global
+              href: binding-to-the-global-catalog.md
+              items:
+                - name: Exemple de code pour la recherche d’une forêt
+                  href: example-code-for-searching-a-forest.md
+            - name: Utilisation d’objectGUID pour la liaison à un objet
+              href: using-objectguid-to-bind-to-an-object.md
+              items:
+                - name: Exemple de code pour la création d’une représentation sous forme de chaîne pouvant être liée d’un GUID
+                  href: example-code-for-creating-a-bindable-string-representation-of-a-guid.md
+                - name: Lecture de l’objectGUID d’un objet et création d’une représentation sous forme de chaîne du GUID
+                  href: reading-an-objectampaposs-objectguid-and-creating-a-string-representation-of-the-guid.md
+            - name: Liaison à des objets Well-Known à l’aide de WKGUID
+              href: binding-to-well-known-objects-using-wkguid.md
+              items:
+                - name: Exemple de code pour la liaison à des objets bien connus
+                  href: example-code-for-binding-to-well-known-objects.md
+            - name: Liaison à un objet à l’aide d’un SID
+              href: binding-to-an-object-using-a-sid.md
+            - name: Activation de la liaison de Rename-Safe avec la propriété otherWellKnownObjects
+              href: enabling-rename-safe-binding-with-the-otherwellknownobjects-property.md
+              items:
+                - name: Exemple de code pour la création d’un objet conteneur
+                  href: example-code-for-creating-a-container-object.md
+            - name: Authentification
+              href: authentication.md
+        - name: Recherche dans Active Directory Domain Services
+          href: searching-in-active-directory-domain-services.md
+          items:
+            - name: Choix des éléments à rechercher
+              href: deciding-what-to-find.md
+              items:
+                - name: Exemple de code pour la recherche d’utilisateurs
+                  href: example-code-for-searching-for-users.md
+            - name: Choix de l’emplacement de recherche
+              href: where-to-search.md
+              items:
+                - name: Recherche de contenu de domaine
+                  href: searching-domain-contents.md
+                - name: Recherche dans le catalogue global
+                  href: searching-global-catalog-contents.md
+            - name: Choix de la technologie de recherche
+              href: choosing-the-search-technology.md
+            - name: Création d’un filtre de requête
+              href: creating-a-query-filter.md
+              items:
+                - name: Rechercher des objets par classe
+                  href: finding-objects-by-class.md
+                - name: Recherche d’objets par nom
+                  href: finding-objects-by-name.md
+                - name: Recherche d’une liste d’attributs à interroger
+                  href: finding-a-list-of-attributes-to-query.md
+                - name: Vérification de la syntaxe du filtre de requête
+                  href: checking-the-query-filter-syntax.md
+                - name: Comment spécifier des valeurs de comparaison
+                  href: how-to-specify-comparison-values.md
+            - name: Choix des attributs à récupérer pour chaque objet trouvé
+              href: listing-properties-to-retrieve-for-each-object-found.md
+              items:
+                - name: Récupération de l’attribut objectClass
+                  href: retrieving-the-objectclass-property.md
+            - name: Liaison au point de départ de la recherche
+              href: binding-to-a-search-start-point.md
+            - name: Spécification de l’étendue de recherche
+              href: search-scope.md
+            - name: Spécification d’autres options de recherche
+              href: specifying-other-search-options.md
+            - name: Traitement des résultats de la recherche
+              href: processing-query-results.md
+            - name: Effets de la sécurité sur la recherche
+              href: effects-of-security-on-queries.md
+            - name: Création de requêtes efficaces
+              href: creating-efficient-queries.md
+            - name: Fonctionnement de l’indexation des tuples
+              href: how-tuple-indexing-works.md
+            - name: 'Chaînes de recherche initiale, médiane et finale'
+              href: search-string-types.md
+            - name: Références
+              href: referrals.md
+              items:
+                - name: Quand des références sont générées
+                  href: when-referrals-are-generated.md
+                - name: Création d’une référence externe
+                  href: creating-an-external-referral.md
+                  items:
+                    - name: Exemple de code pour la création d’un objet crossRef externe
+                      href: example-code-for-creating-an-external-crossref-object.md
+            - name: Énumération des contrôleurs de domaine
+              href: enumerating-domain-controllers.md
+        - name: Création et suppression d’objets dans Active Directory Domain Services
+          href: creating-and-deleting-objects-in-active-directory-domain-services.md
+          items:
+            - name: Récupération des objets supprimés
+              href: retrieving-deleted-objects.md
+            - name: Restauration des objets supprimés
+              href: restoring-deleted-objects.md
+        - name: Déplacement d’objets
+          href: moving-objects.md
+          items:
+            - name: Exemple de code pour déplacer un objet
+              href: example-code-for-moving-an-object.md
+        - name: Lecture et écriture des attributs d’objets dans Active Directory Domain Services
+          href: reading-and-writing-attributes-of-objects-in-active-directory-domain-services.md
+          items:
+            - name: Détermination d’un type d’attribut
+              href: determining-an-attribute-type.md
+        - name: Contrôle de l’accès aux objets dans Active Directory Domain Services
+          href: controlling-access-to-objects-in-active-directory-domain-services.md
+          items:
+            - name: Fonctionnement de Access Control dans Active Directory Domain Services
+              href: how-access-control-works-in-active-directory-domain-services.md
+              items:
+                - name: Contrôle de l’accès aux objets et à leurs propriétés
+                  href: controlling-access-to-objects-and-their-properties.md
+                - name: Droits d’accès pour les objets Active Directory Domain Services
+                  href: access-rights-for-active-directory-domain-services-objects.md
+                - name: Contextes de sécurité et Active Directory Domain Services
+                  href: security-contexts-and-active-directory-domain-services.md
+            - name: Impact de la sécurité sur les opérations dans Active Directory Domain Services
+              href: how-security-affects-operations-in-active-directory-domain-services.md
+              items:
+                - name: Opérations de Access Control et de lecture
+                  href: access-control-and-read-operations.md
+                - name: Opérations d’Access Control et d’écriture
+                  href: access-control-and-write-operations.md
+                - name: Access Control et création d’objets
+                  href: access-control-and-object-creation.md
+                - name: Access Control et suppression d’objets
+                  href: access-control-and-object-deletion.md
+            - name: API pour l’utilisation des descripteurs de sécurité
+              href: apis-for-working-with-security-descriptors.md
+              items:
+                - name: Utilisation de IADs pour obtenir un descripteur de sécurité
+                  href: using-iads-to-get-a-security-descriptor.md
+                - name: Utilisation de IDirectoryObject pour obtenir un descripteur de sécurité
+                  href: using-idirectoryobject-to-get-a-security-descriptor.md
+                - name: Composants du descripteur de sécurité
+                  href: security-descriptor-components.md
+                - name: Récupération de la liste DACL d’un objet
+                  href: retrieving-an-objectampaposs-dacl.md
+                - name: Récupération de la liste SACL d’un objet
+                  href: retrieving-an-objectampaposs-sacl.md
+                - name: Lecture du descripteur de sécurité d’un objet
+                  href: reading-an-objectampaposs-security-descriptor.md
+                - name: Exemple de code pour la création d’un descripteur de sécurité
+                  href: example-code-for-creating-a-security-descriptor.md
+                - name: Exemple de code pour l’énumération de la liste de contrôle d’accès d’un objet dans Active Directory Domain Services
+                  href: example-code-for-enumerating-the-acl-of-an-active-directory-object.md
+            - name: Définition des droits d’accès sur un objet
+              href: setting-access-rights-on-an-object.md
+              items:
+                - name: Exemple de code pour la définition d’une entrée du contrôle d’accès sur un objet d’annuaire
+                  href: example-code-for-setting-an-ace-on-a-directory-object.md
+                - name: Définition des droits d’accès sur l’objet entier
+                  href: setting-access-rights-on-the-entire-object.md
+                  items:
+                    - name: Exemple de code pour définir des droits de propriété de lecture sur un objet
+                      href: example-code-for-setting-read-property-rights-on-an-object.md
+                - name: Définition des autorisations sur une propriété spécifique
+                  href: setting-permissions-to-a-specific-property.md
+                - name: Définition des autorisations sur un groupe de propriétés
+                  href: setting-permissions-on-a-group-of-properties.md
+                  items:
+                    - name: Exemple de code pour définir des autorisations sur un groupe de propriétés
+                      href: example-code-for-setting-permissions-on-a-group-of-properties.md
+                - name: Définition des autorisations sur les opérations sur les objets enfants
+                  href: setting-permissions-on-child-object-operations.md
+                  items:
+                    - name: Exemple de code pour la définition d’autorisations sur les opérations d’objets enfants
+                      href: example-code-for-setting-permissions-on-child-object-operations.md
+            - name: Définition des descripteurs de sécurité sur les nouveaux objets d’annuaire
+              href: how-security-descriptors-are-set-on-new-directory-objects.md
+            - name: Création d’un descripteur de sécurité pour un nouvel objet d’annuaire
+              href: creating-a-security-descriptor-for-a-new-directory-object.md
+            - name: Héritage et délégation de l’administration
+              href: inheritance-and-delegation-of-administration.md
+              items:
+                - name: Héritage de Access Control
+                  href: access-control-inheritance.md
+                - name: Définition de droits sur des types d’objets spécifiques
+                  href: setting-rights-to-specific-types-of-objects.md
+                  items:
+                    - name: Exemple de code pour définir des droits sur des types d’objets spécifiques
+                      href: example-code-for-setting-rights-to-specific-types-of-objects.md
+                - name: Définition de droits sur des propriétés spécifiques de types spécifiques d’objets
+                  href: setting-rights-to-specific-properties-of-specific-types-of-objects.md
+                - name: Protection des objets contre les effets des droits hérités
+                  href: protecting-objects-from-the-effects-of-inherited-rights.md
+                  items:
+                    - name: Exemple de code pour la définition et la suppression de la protection SACL et DACL
+                      href: example-code-for-setting-and-removing-sacl-and-dacl-protection.md
+            - name: Descripteur de sécurité par défaut
+              href: default-security-descriptor.md
+              items:
+                - name: Lecture du defaultSecurityDescriptor pour une classe d’objet
+                  href: reading-the-defaultsecuritydescriptor-for-an-object-class.md
+                  items:
+                    - name: Exemple de code pour la lecture de defaultSecurityDescriptor
+                      href: example-code-for-reading-defaultsecuritydescriptor.md
+                - name: Modification du defaultSecurityDescriptor pour une classe d’objet
+                  href: modifying-the-defaultsecuritydescriptor-for-an-object-class.md
+            - name: Contrôler les droits d’accès
+              href: control-access-rights.md
+              items:
+                - name: Création d’un droit d’accès au contrôle
+                  href: creating-a-control-access-right.md
+                  items:
+                    - name: Exemple de code pour la création d’un droit d’accès de contrôle
+                      href: example-code-for-creating-a-control-access-right.md
+                - name: Définition d’une entrée de contrôle d’accès de droit de contrôle dans l’ACL d’un objet
+                  href: setting-a-control-access-right-ace-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Exemple de code pour la définition d’un ACE droit d’accès au contrôle
+                      href: example-code-for-setting-a-control-access-right-ace.md
+                - name: Vérification d’un droit d’accès de contrôle dans la liste de contrôle d’accès d’un objet
+                  href: checking-a-control-access-right-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Exemple de code pour la vérification d’un droit d’accès de contrôle dans l’ACL d’un objet
+                      href: example-code-for-checking-a-control-access-right-in-an-objectampaposs-acl.md
+                - name: Lecture d’un droit d’accès de contrôle défini dans l’ACL d’un objet
+                  href: reading-a-control-access-right-set-in-an-objectampaposs-acl.md
+                  items:
+                    - name: Exemple de code pour la vérification d’un droit d’accès aux contrôles dans une entrée du contrôle d’accès
+                      href: example-code-for-checking-for-a-control-access-right-in-an-ace.md
+            - name: Utilisation de DsAddSidHistory
+              href: using-dsaddsidhistory.md
+            - name: Contrôle de la visibilité des objets
+              href: controlling-object-visibility.md
+            - name: DACL null et DACL vides
+              href: null-dacls-and-empty-dacls.md
+        - name: Extension du schéma
+          href: extending-the-schema.md
+          items:
+            - name: Instructions relatives à la liaison au schéma
+              href: guidelines-for-binding-to-the-schema.md
+            - name: Lecture du schéma abstrait
+              href: reading-the-abstract-schema.md
+              items:
+                - name: 'Exemple de code pour l’énumération des classes de schéma, des attributs et des syntaxes'
+                  href: example-code-for-enumerating-schema-classes-attributes-and-syntaxes.md
+            - name: Lecture des objets attributeSchema et classSchema
+              href: reading-attributeschema-and-classschema-objects.md
+              items:
+                - name: Exemple de code pour la recherche d’objets de schéma
+                  href: example-code-for-searching-for-schema-objects.md
+            - name: Ce que vous devez savoir avant d’étendre le schéma
+              href: what-you-must-know-before-extending-the-schema.md
+              items:
+                - name: Impact des modifications de schéma
+                  href: impact-of-schema-changes.md
+                - name: Quand étendre le schéma
+                  href: when-to-extend-the-schema.md
+                - name: Restrictions sur l’extension de schéma
+                  href: restrictions-on-schema-extension.md
+                  items:
+                    - name: Interrogation des objets de schéma de catégorie 1 ou 2
+                      href: querying-for-category-1-or-2-schema-objects.md
+            - name: Comment étendre le schéma
+              href: how-to-extend-the-schema.md
+              items:
+                - name: Nommer des classes et des attributs
+                  href: naming-attributes-and-classes.md
+                - name: Désactivation des classes et attributs existants
+                  href: disabling-existing-classes-and-attributes.md
+                - name: Obtention d’un ID de lien
+                  href: obtaining-a-link-id.md
+                - name: Obtention d’un identificateur d’objet
+                  href: obtaining-an-object-identifier.md
+                  items:
+                    - name: Obtention d’un OID racine auprès d’une autorité d’inscription de noms ISO
+                      href: obtaining-a-root-oid-from-an-iso-name-registration-authority.md
+                    - name: Obtention d’un identificateur d’objet de Microsoft
+                      href: obtaining-an-object-identifier-from-microsoft.md
+                - name: Intégration des extensions de schéma avec l’interface utilisateur
+                  href: integrating-schema-extensions-with-the-user-interface.md
+                - name: Définition d’un nouvel attribut
+                  href: defining-a-new-attribute.md
+                  items:
+                    - name: Exemple de code pour la création d’un attribut
+                      href: example-code-for-creating-an-attribute.md
+                    - name: Choix d’une syntaxe
+                      href: choosing-a-syntax.md
+                - name: Définition d’une nouvelle classe
+                  href: defining-a-new-class.md
+                  items:
+                    - name: Exemple de code pour la création d’une classe
+                      href: example-code-for-creating-a-class.md
+                - name: Installation des extensions de schéma
+                  href: installing-schema-extensions.md
+                  items:
+                    - name: Documentation des extensions de schéma
+                      href: documenting-schema-extensions.md
+                    - name: Ce que l’installation doit faire
+                      href: what-the-installation-must-do.md
+                      items:
+                        - name: Mise à jour du cache de schéma
+                          href: updating-the-schema-cache.md
+                    - name: Conditions préalables à l’installation d’une extension de schéma
+                      href: prerequisites-for-installing-a-schema-extension.md
+                      items:
+                        - name: Détection du contrôleur de schéma
+                          href: detecting-the-schema-master.md
+                        - name: Activation des modifications de schéma au niveau du contrôleur de schéma
+                          href: enabling-schema-changes-at-the-schema-master.md
+                    - name: Recommandations pour les applications d’extension de schéma
+                      href: recommendations-for-schema-extension-applications.md
+                      items:
+                        - name: Exemple de code pour la vérification des droits de création d’objets de schéma
+                          href: example-code-for-checking-for-rights-to-create-schema-objects.md
+                        - name: Exemple de code pour la mise à jour du cache de schéma
+                          href: example-code-for-updating-the-schema-cache.md
+                        - name: Exemple de code pour la détection des collisions de noms de schéma
+                          href: example-code-for-detecting-schema-naming-collisions.md
+                    - name: Mécanismes d’installation pris en charge
+                      href: supported-installation-mechanisms.md
+                      items:
+                        - name: Scripts LDIF
+                          href: ldif-scripts.md
+                        - name: Scripts de valeurs séparées par des virgules (CSV)
+                          href: comma-separated-value-csv-scripts.md
+                        - name: Extension de programmation
+                          href: programmatic-extension.md
+                          items:
+                            - name: Exemple de code pour étendre le schéma par programme
+                              href: example-code-for-extending-the-schema-programmatically.md
+        - name: Extension de l’interface utilisateur pour les objets d’annuaire
+          href: extending-the-user-interface-for-directory-objects.md
+          items:
+            - name: À propos des interfaces utilisateur de Active Directory Domain Services
+              href: about-the-user-interfaces-of-active-directory-domain-services.md
+            - name: Spécificateurs d’affichage
+              href: display-specifiers.md
+              items:
+                - name: Conteneur DisplaySpecifiers
+                  href: displayspecifiers-container.md
+            - name: Noms complets des classes et des attributs
+              href: class-and-attribute-display-names.md
+            - name: Icônes de classe
+              href: class-icons.md
+            - name: Affichage des conteneurs en tant que nœuds terminaux
+              href: viewing-containers-as-leaf-nodes.md
+            - name: Modification des interfaces utilisateur existantes
+              href: modifying-existing-user-interfaces.md
+            - name: Extension de l’interface utilisateur pour les nouvelles classes d’objets
+              href: user-interface-extension-for-new-object-classes.md
+            - name: Pages de propriétés à utiliser avec les spécificateurs d’affichage
+              href: property-pages-for-use-with-display-specifiers.md
+              items:
+                - name: Implémentation de l’objet COM de la page de propriétés
+                  href: implementing-the-property-page-com-object.md
+                  items:
+                    - name: Exemple de code pour l’implémentation de l’objet COM de la feuille de propriétés
+                      href: example-code-for-implementation-of-the-property-sheet-com-object.md
+                - name: Inscription de l’objet COM de la page de propriétés dans un spécificateur d’affichage
+                  href: registering-the-property-page-com-object-in-a-display-specifier.md
+            - name: Menus contextuels à utiliser avec les spécificateurs d’affichage
+              href: context-menus-for-use-with-display-specifiers.md
+              items:
+                - name: Implémentation de l’objet COM du menu contextuel
+                  href: implementing-the-context-menu-com-object.md
+                  items:
+                    - name: Exemple de code pour l’implémentation de l’objet COM du menu contextuel
+                      href: example-code-for-implementation-of-the-context-menu-com-object.md
+                - name: Inscription de l’objet COM du menu contextuel dans un spécificateur d’affichage
+                  href: registering-the-context-menu-com-object-in-a-display-specifier.md
+                - name: Inscription d’un élément de menu contextuel statique
+                  href: registering-a-static-context-menu-item.md
+                  items:
+                    - name: Exemple de code pour l’installation d’un élément de menu contextuel statique
+                      href: example-code-for-installing-a-static-context-menu-item.md
+            - name: Assistants de création d’objets
+              href: object-creation-wizards.md
+              items:
+                - name: Implémentation de l’objet COM d’extension de création d’objet
+                  href: implementing-the-object-creation-extension-com-object.md
+                - name: Inscription de l’extension de création d’objet
+                  href: registering-the-object-creation-extension.md
+                - name: Appel d’assistants de création à partir de votre application
+                  href: invoking-creation-wizards-from-your-application.md
+            - name: Utilisation de boîtes de dialogue standard pour gérer des objets dans Active Directory Domain Services
+              href: using-standard-dialog-boxes-to-handle-objects-in-active-directory-domain-services.md
+              items:
+                - name: Sélecteur d’objets d’annuaire
+                  href: directory-object-picker.md
+                - name: Explorateur de domaines
+                  href: domain-browser.md
+                - name: Navigateur de conteneurs
+                  href: container-browser.md
+                - name: Active Directory les utilisateurs et les feuilles de propriétés des ordinateurs
+                  href: active-directory-users-and-computers-property-sheets.md
+            - name: Gestionnaires de notifications d’administration
+              href: administrative-notification-handlers.md
+            - name: Distribution des composants de l’interface utilisateur
+              href: distributing-user-interface-components.md
+            - name: Comment les applications doivent utiliser des spécificateurs d’affichage
+              href: how-applications-should-use-display-specifiers.md
+            - name: Débogage d’une extension de Active Directory
+              href: debugging-an-active-directory-extension.md
+        - name: Gestion des utilisateurs
+          href: managing-users.md
+          items:
+            - name: Utilisateurs dans Active Directory Domain Services
+              href: users-in-active-directory-domain-services.md
+            - name: Principaux de sécurité
+              href: security-principals.md
+            - name: "Qu’est-ce qu’un utilisateur\_?"
+              href: what-is-a-user.md
+            - name: Exemple de code pour la liaison au conteneur de l’utilisateur
+              href: example-code-for-binding-to-the-users-container.md
+            - name: Attributs d’objet utilisateur
+              href: user-object-attributes.md
+              items:
+                - name: Attributs de nom d’utilisateur
+                  href: naming-properties.md
+                - name: Attributs de sécurité utilisateur
+                  href: security-properties.md
+                - name: Attributs du carnet d’adresses utilisateur
+                  href: address-book-properties.md
+            - name: Création d’un utilisateur
+              href: creating-a-user.md
+              items:
+                - name: Exemple de code pour la création d’un utilisateur
+                  href: example-code-for-creating-a-user.md
+            - name: Énumération des utilisateurs
+              href: enumerating-users.md
+            - name: Interrogation des utilisateurs
+              href: querying-for-users.md
+              items:
+                - name: Exemple de code pour l’utilisation du catalogue global pour rechercher des utilisateurs dans une forêt
+                  href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
+            - name: Gestion des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+              href: managing-users-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: Énumération des utilisateurs sur les serveurs membres et Windows 2000 professionnel
+                  href: enumerating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Exemple de code pour l’énumération des utilisateurs sur un serveur membre
+                      href: example-code-for-enumerating-users-on-a-member-server.md
+                - name: Création d’utilisateurs sur des serveurs membres et Windows 2000 professionnel
+                  href: creating-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Exemple de code pour la création d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+                      href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
+                - name: Suppression d’utilisateurs sur les serveurs membres et Windows 2000 professionnel
+                  href: deleting-users-on-member-servers-and-windows-2000-professional.md
+                  items:
+                    - name: Exemple de code pour la suppression d’utilisateurs sur un serveur membre ou Windows 2000 professionnel
+                      href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
+            - name: Valeurs pour les propriétés countryCode et c
+              href: values-for-the-countrycode-and-c-properties.md
+        - name: Gestion des groupes
+          href: managing-groups.md
+          items:
+            - name: Objets de groupe
+              href: group-objects.md
+            - name: Utilisation des groupes de sécurité dans les Access Control
+              href: how-security-groups-are-used-in-access-control.md
+            - name: Création de groupes dans un domaine
+              href: creating-groups-in-a-domain.md
+              items:
+                - name: Exemple de code pour la création d’un groupe
+                  href: example-code-for-creating-a-group.md
+            - name: Ajout de membres à des groupes dans un domaine
+              href: adding-members-to-groups-in-a-domain.md
+              items:
+                - name: Exemple de code pour l’ajout d’un membre à un groupe
+                  href: example-code-for-adding-a-member-to-a-group.md
+                - name: Exemple de code pour la conversion d’un objectSid en chaîne pouvant être liée
+                  href: example-code-for-converting-an-objectsid-into-a-bindable-string-.md
+            - name: Suppression de membres de groupes dans un domaine
+              href: removing-members-from-groups-in-a-domain.md
+              items:
+                - name: Exemple de code pour la suppression d’un membre d’un groupe
+                  href: example-code-for-removing-a-member-from-a-group.md
+            - name: Imbrication d’un groupe dans un autre groupe
+              href: nesting-a-group-in-another-group.md
+              items:
+                - name: Imbrication en mode natif
+                  href: nesting-in-native-mode.md
+                - name: Imbrication en mode mixte
+                  href: nesting-in-mixed-mode.md
+                - name: Erreurs courantes
+                  href: common-errors.md
+            - name: Détermination de l’appartenance d’un utilisateur ou d’un groupe à un groupe
+              href: determining-a-userampaposs-or-groupampaposs-membership-in-a-group.md
+              items:
+                - name: Exemple de code pour la vérification de l’appartenance à un groupe
+                  href: example-code-for-checking-for-membership-in-a-group.md
+            - name: Énumération des groupes
+              href: enumerating-groups.md
+              items:
+                - name: Énumération des groupes dans un domaine
+                  href: enumerating-groups-in-a-domain.md
+                - name: Recherche de groupes par portée ou par type dans un domaine
+                  href: searching-for-groups-by-scope-or-type-in-a-domain.md
+                - name: Énumération des membres d’un groupe
+                  href: enumerating-members-in-a-group.md
+                  items:
+                    - name: Exemple de code pour afficher les membres d’un groupe
+                      href: example-code-for-displaying-members-of-a-group.md
+                - name: Énumération des groupes qui contiennent de nombreux membres
+                  href: enumerating-groups-that-contain-many-members.md
+            - name: Interrogation de groupes dans un domaine
+              href: querying-for-groups-in-a-domain.md
+              items:
+                - name: Exemple de code pour la recherche de groupes dans un domaine
+                  href: example-code-for-performing-a-query-in-a-domain.md
+            - name: Modification de l’étendue ou du type d’un groupe
+              href: changing-a-groupampaposs-scope-or-type.md
+              items:
+                - name: Exemple de code pour la modification de l’étendue d’un groupe
+                  href: example-code-for-changing-the-scope-of-a-group.md
+            - name: Obtention du nom de domaine Account-Style d’un groupe
+              href: getting-the-domain-account-style-name-of-a-group.md
+            - name: Groupes sur les serveurs membres et Windows 2000 professionnel
+              href: groups-on-member-servers-and-windows-2000-professional.md
+              items:
+                - name: Énumération des groupes locaux
+                  href: enumerating-local-groups.md
+                  items:
+                    - name: Exemple de code pour l’énumération des groupes locaux
+                      href: example-code-for-enumerating-local-groups.md
+                - name: Création de groupes locaux
+                  href: creating-local-groups.md
+                  items:
+                    - name: Exemple de code pour la création d’un groupe local
+                      href: example-code-for-creating-a-local-group.md
+                - name: Suppression de groupes locaux
+                  href: deleting-local-groups.md
+                  items:
+                    - name: Exemple de code pour la suppression d’un groupe local
+                      href: example-code-for-deleting-a-local-group.md
+                - name: Ajout d’objets de domaine aux groupes locaux
+                  href: adding-domain-objects-to-local-groups.md
+                  items:
+                    - name: Exemple de code pour l’ajout d’un groupe ou d’un utilisateur de domaine à un groupe local
+                      href: example-code-for-adding-a-domain-user-or-group-to-a-local-group.md
+            - name: Ce que les développeurs d’applications et de services doivent savoir sur les groupes
+              href: what-application-and-service-developers-need-to-know-about-groups.md
+        - name: Suivi des modifications
+          href: tracking-changes.md
+          items:
+            - name: Vue d’ensemble des techniques de Change Tracking
+              href: overview-of-change-tracking-techniques.md
+            - name: Notifications de modifications dans Active Directory Domain Services
+              href: change-notifications-in-active-directory-domain-services.md
+              items:
+                - name: Exemple de code pour recevoir des notifications de modification
+                  href: example-code-for-receiving-change-notifications.md
+            - name: Interrogation des modifications à l’aide du contrôle DirSync
+              href: polling-for-changes-using-the-dirsync-control.md
+              items:
+                - name: Exemple de code utilisant ADS_SEARCHPREF_DIRSYNC
+                  href: example-code-using-ads-searchpref-dirsync.md
+            - name: Interrogation des modifications à l’aide de USNChanged
+              href: polling-for-changes-using-usnchanged.md
+              items:
+                - name: Exemple de code pour récupérer des modifications à l’aide de USNChanged
+                  href: example-code-to-retrieve-changes-using-usnchanged.md
+        - name: Publication de service
+          href: service-publication.md
+          items:
+            - name: À propos de la publication de service
+              href: about-service-publication.md
+              items:
+                - name: Problèmes de sécurité pour la publication de service
+                  href: security-issues-for-service-publication.md
+                - name: Points de connexion
+                  href: connection-points.md
+            - name: Publication avec des points de connexion de service
+              href: publishing-with-service-connection-points.md
+              items:
+                - name: Où créer un point de connexion de service
+                  href: where-to-create-a-service-connection-point.md
+                  items:
+                    - name: Publication sous un objet ordinateur
+                      href: publishing-under-a-computer-object.md
+                    - name: Publication dans un conteneur de système de domaine
+                      href: publishing-in-a-domain-system-container.md
+                - name: 'Points de connexion de service pour les services répliqués, basés sur l’hôte et sur la base de données'
+                  href: service-connection-points-for-replicated-host-based-and-database-services.md
+                - name: Propriétés du point de connexion de service
+                  href: service-connection-point-properties.md
+                - name: Création et gestion d’un point de connexion de service
+                  href: creating-and-maintaining-a-service-connection-point.md
+                  items:
+                    - name: Exemples de scripts pour la gestion des points de connexion de service
+                      href: script-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: Macros Excel pour la gestion des points de connexion de service
+                          href: excel-macros-for-managing-service-connection-points.md
+                        - name: Script VB répertoriant tous les points de connexion de service
+                          href: vb-script-listing-all-service-connection-points.md
+                    - name: Exemples de code pour la gestion des points de connexion de service
+                      href: code-samples-for-managing-service-connection-points.md
+                      items:
+                        - name: Création d’un point de connexion de service
+                          href: creating-a-service-connection-point.md
+                        - name: Mise à jour d’un point de connexion de service
+                          href: updating-a-service-connection-point.md
+                        - name: Comment les clients recherchent et utilisent un point de connexion de service
+                          href: how-clients-find-and-use-a-service-connection-point.md
+            - name: Publication avec le service de noms RPC (RpcNs)
+              href: publishing-with-the-rpc-name-service-rpcns.md
+            - name: Publication avec l’inscription et la résolution de Windows Sockets
+              href: publishing-with-windows-sockets-registration-and-resolution.md
+              items:
+                - name: Exemple de code pour l’installation d’une classe de service RnR
+                  href: example-code-for-installing-an-rnr-service-class.md
+                - name: Exemple de code pour l’implémentation d’un service Winsock avec une publication RnR
+                  href: example-code-for-implementing-a-winsock-service-with-an-rnr-publication.md
+                - name: Exemple de code pour la publication du point de connexion RnR
+                  href: example-code-for-publishing-the-rnr-connection-point.md
+                - name: Exemple de code pour la suppression du point de connexion RnR
+                  href: example-code-for-removing-the-rnr-connection-point.md
+                - name: Exemple de code pour la localisation d’un service à l’aide d’une requête RnR
+                  href: example-code-for-a-winsock-client-locating-a-service-using-an-rnr-query.md
+            - name: Publication des services COM+
+              href: publishing-com-services.md
+        - name: Comptes d’ouverture de session du service
+          href: service-logon-accounts.md
+          items:
+            - name: À propos des comptes d’ouverture de session de service
+              href: about-service-logon-accounts.md
+            - name: Instructions pour la sélection d’un compte d’ouverture de session de service
+              href: guidelines-for-selecting-a-service-logon-account.md
+              items:
+                - name: Utilisation d’un compte d’utilisateur local en tant que compte d’ouverture de session de service
+                  href: local-user-accounts.md
+                - name: Utilisation d’un compte d’utilisateur de domaine en tant que compte d’ouverture de session de service
+                  href: domain-user-accounts.md
+                - name: Utilisation du compte LocalSystem en tant que compte d’ouverture de session du service
+                  href: the-localsystem-account.md
+            - name: Configuration du compte d’utilisateur d’un service
+              href: setting-up-a-serviceampaposs-user-account.md
+            - name: Installation d’un service sur un ordinateur hôte
+              href: installing-a-service-on-a-host-computer.md
+              items:
+                - name: Octroi du droit d’ouverture de session en tant que service sur l’ordinateur hôte
+                  href: granting-logon-as-service-right-on-the-host-computer.md
+                - name: Test de l’exécution sur un contrôleur de domaine
+                  href: testing-whether-running-on-a-domain-controller.md
+            - name: Octroi de droits d’accès au compte d’ouverture de session du service
+              href: granting-access-rights-to-the-service-logon-account.md
+              items:
+                - name: Activation du compte de service pour l’accès aux propriétés SCP
+                  href: enabling-service-account-to-access-scp-properties.md
+            - name: Tâches de maintenance du compte d’ouverture de session
+              href: logon-account-maintenance-tasks.md
+              items:
+                - name: Modification du mot de passe sur le compte d’utilisateur d’un service
+                  href: changing-the-password-on-a-serviceampaposs-user-account.md
+                - name: Énumération des réplicas d’un service
+                  href: enumerating-the-replicas-of-a-service.md
+            - name: Conversion des formats de nom de compte de domaine
+              href: converting-domain-account-name-formats.md
+        - name: Authentification mutuelle à l'aide de Kerberos
+          href: mutual-authentication-using-kerberos.md
+          items:
+            - name: À propos de l’authentification mutuelle à l’aide de Kerberos
+              href: about-mutual-authentication-using-kerberos.md
+              items:
+                - name: Fournisseurs de sécurité
+                  href: security-providers.md
+                - name: Intégrité et confidentialité
+                  href: integrity-and-privacy.md
+                - name: Limitations de l’authentification mutuelle avec Kerberos
+                  href: limitations-of-mutual-authentication-with-kerberos.md
+            - name: Noms des principaux du service
+              href: service-principal-names.md
+              items:
+                - name: Formats de noms pour les SPN uniques
+                  href: name-formats-for-unique-spns.md
+                - name: Comment un service compose ses SPN
+                  href: how-a-service-composes-its-spns.md
+                - name: Comment un service enregistre ses SPN
+                  href: how-a-service-registers-its-spns.md
+                - name: Comment les clients composent le SPN d’un service
+                  href: how-clients-compose-a-serviceampaposs-spn.md
+            - name: Authentification mutuelle dans un service Windows Sockets avec SCP
+              href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
+              items:
+                - name: Comment un client authentifie un service Windows Sockets SCP
+                  href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
+                - name: Composition et inscription de SPN pour un service Windows Sockets SCP
+                  href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
+                  items:
+                    - name: Composition des noms de principal du service pour un service avec SCP
+                      href: composing-the-spns-for-a-service-with-an-scp.md
+                    - name: Inscription des noms de principal du service pour un service
+                      href: registering-the-spns-for-a-service.md
+                - name: Comment un service Windows Sockets authentifie un client
+                  href: how-a-windows-sockets-service-authenticates-a-client.md
+            - name: Authentification mutuelle dans les applications RPC
+              href: mutual-authentication-in-rpc-applications.md
+              items:
+                - name: Composition de SPN pour un service de RpcNs
+                  href: composing-spns-for-an-rpcns-service.md
+            - name: Authentification mutuelle dans les applications Windows Sockets
+              href: mutual-authentication-in-windows-sockets-applications.md
+        - name: Sauvegarde et restauration d’un serveur Active Directory
+          href: backing-up-and-restoring-an-active-directory-server.md
+          items:
+            - name: Considérations relatives à la sauvegarde Active Directory Domain Services
+              href: considerations-for-active-directory-domain-services-backup.md
+            - name: Sauvegarde d’un serveur de Active Directory
+              href: backing-up-an-active-directory-server.md
+            - name: Restauration d’un serveur Active Directory
+              href: restoring-an-active-directory-server.md
+        - name: Stockage des Dynamic Data
+          href: storing-dynamic-data.md
+          items:
+            - name: Objets dynamiques
+              href: dynamic-objects.md
+              items:
+                - name: Création d’objets dynamiques
+                  href: creating-dynamic-objects.md
+                - name: Actualisation d’un objet dynamique
+                  href: refreshing-a-dynamic-object.md
+                - name: Configuration des limites de durée de vie
+                  href: configuration-of-ttl-limits.md
+            - name: Classes auxiliaires dynamiques
+              href: dynamic-auxiliary-classes.md
+              items:
+                - name: Classes auxiliaires liées de manière dynamique
+                  href: dynamically-linked-auxiliary-classes.md
+                - name: Classes auxiliaires liées statiquement
+                  href: statically-linked-auxiliary-classes.md
+                - name: Détermination des classes associées à une instance d’objet
+                  href: determining-the-classes-associated-with-an-object-instance.md
+                - name: Ajout d’une classe auxiliaire à une instance d’objet
+                  href: adding-an-auxiliary-class-to-an-object-instance.md
+        - name: Partitions de l’annuaire d’applications
+          href: application-directory-partitions.md
+          items:
+            - name: Réplication de la partition de l’annuaire d’applications
+              href: application-directory-partition-replication.md
+            - name: Sécurité de la partition de l’annuaire d’applications
+              href: application-directory-partition-security.md
+            - name: Création d’une partition d’annuaire d’applications
+              href: creating-an-application-directory-partition.md
+              items:
+                - name: Exemple de code pour la création d’une partition d’annuaire d’applications
+                  href: example-code-for-creating-an-application-directory-partition.md
+                - name: Exemple de code pour localiser le conteneur partitions
+                  href: example-code-for-locating-the-partitions-container.md
+            - name: Suppression d’une partition d’annuaire d’applications
+              href: deleting-an-application-directory-partition.md
+              items:
+                - name: Exemple de code pour la suppression d’une partition d’annuaire d’applications
+                  href: example-code-for-deleting-an-application-directory-partition.md
+            - name: Énumération des partitions d’annuaire d’applications dans une forêt
+              href: enumerating-application-directory-partitions-in-a-forest.md
+            - name: Localisation d’un serveur hôte de partition d’annuaire d’applications
+              href: locating-an-application-directory-partition-host-server.md
+              items:
+                - name: Exemple de code pour la localisation d’un serveur hôte de partition d’annuaire d’applications
+                  href: example-code-for-locating-an-application-directory-partition-host-server.md
+            - name: Ajout ou suppression d’un réplica de partition d’annuaire d’applications
+              href: adding-or-deleting-an-application-directory-partition-replica.md
+            - name: Énumération des réplicas d’une partition d’annuaire d’applications
+              href: enumerating-replicas-of-an-application-directory-partition.md
+            - name: Modification de la configuration de la partition d’annuaire d’applications
+              href: modifying-application-directory-partition-configuration.md
+        - name: Détection du mode d’opération d’un domaine
+          href: detecting-the-operation-mode-of-a-domain.md
+          items:
+            - name: Exemple de code pour déterminer le mode d’opération
+              href: example-code-for-determining-the-operation-mode.md
+    - name: Référence Active Directory Domain Services
+      href: active-directory-domain-services-reference.md
+      items:
+        - name: Constantes dans Active Directory Domain Services
+          href: constants-in-active-directory-domain-services.md
+          items:
+            - name: GUID des éléments d’interface utilisateur
+              href: guids-of-user-interface-elements.md
+            - name: Messages communiqués par le biais des interfaces utilisateur
+              href: messages-communicated-through-user-interfaces.md
+              items:
+                - name: CQPM_CLEARFORM
+                  href: cqpm-clearform.md
+                - name: CQPM_ENABLE
+                  href: cqpm-enable.md
+                - name: CQPM_GETPARAMETERS
+                  href: cqpm-getparameters.md
+                - name: CQPM_HANDLERSPECIFIC
+                  href: cqpm-handlerspecific.md
+                - name: CQPM_HELP
+                  href: cqpm-help.md
+                - name: CQPM_INITIALIZE
+                  href: cqpm-initialize.md
+                - name: CQPM_PERSIST
+                  href: cqpm-persist.md
+                - name: CQPM_RELEASE
+                  href: cqpm-release.md
+                - name: CQPM_SETDEFAULTPARAMETERS
+                  href: cqpm-setdefaultparameters.md
+            - name: CFSTR_DS_DISPLAY_SPEC_OPTIONS
+              href: cfstr-ds-display-spec-options.md
+            - name: CFSTR_DS_MULTISELECTPROPPAGE
+              href: cfstr-ds-multiselectproppage.md
+            - name: CFSTR_DS_PARENTHWND
+              href: cfstr-ds-parenthwnd.md
+            - name: CFSTR_DS_PROPSHEETCONFIG
+              href: cfstr-ds-propsheetconfig.md
+            - name: CFSTR_DSOBJECTNAMES
+              href: cfstr-dsobjectnames.md
+            - name: CFSTR_DSOP_DS_SELECTION_LIST
+              href: cfstr-dsop-ds-selection-list.md
+            - name: CFSTR_DSPROPERTYPAGEINFO
+              href: cfstr-dspropertypageinfo.md
+            - name: CFSTR_DSQUERYPARAMS
+              href: cfstr-dsqueryparams.md
+            - name: CFSTR_DSQUERYSCOPE
+              href: cfstr-dsqueryscope.md
+            - name: Constantes BFT
+              href: bft-constants.md
+        - name: Structures dans Active Directory Domain Services
+          href: structures-in-active-directory-domain-services.md
+          items:
+            - name: Structures d’administration dans Active Directory Domain Services
+              href: admin-structures-in-active-directory-domain-services.md
+              items:
+                - name: 'DSA_NEWOBJ_DISPINFO '
+                  href: /windows/desktop/api/DSAdmin/ns-dsadmin-dsa_newobj_dispinfo
+            - name: Afficher les structures dans Active Directory Domain Services
+              href: display-structures-in-active-directory-domain-services.md
+              items:
+                - name: CQFORM
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-cqform
+                - name: CQPAGE
+                  href: /windows/win32/api/Cmnquery/ns-cmnquery-cqpage
+                - name: DSA_SEC_PAGE_INFO
+                  href: dsa-sec-page-info.md
+                - name: DOMAINDESC
+                  href: /windows/win32/api/Dsclient/ns-dsclient-domaindesc
+                - name: DOMAINTREE
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-domain_tree
+                - name: DSBITEM
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbitema
+                - name: DSBROWSEINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsbrowseinfoa
+                - name: DSCLASSCREATIONINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsclasscreationinfo
+                - name: DSCOLUMN
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dscolumn
+                - name: DSDISPLAYSPECOPTIONS
+                  href: /windows/win32/api/Dsclient/ns-dsclient-dsdisplayspecoptions
+                - name: DSOBJECT
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobject
+                - name: DSOBJECTNAMES
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames
+                - name: DSPROPERTYPAGEINFO
+                  href: /windows/desktop/api/Dsclient/ns-dsclient-dspropertypageinfo
+                - name: DSQUERYCLASSLIST
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryclasslist
+                - name: DSQUERYINITPARAMS
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryinitparams
+                - name: DSQUERYPARAMS
+                  href: /windows/desktop/api/Dsquery/ns-dsquery-dsqueryparams
+                - name: OPENQUERYWINDOW
+                  href: /windows/desktop/api/Cmnquery/ns-cmnquery-openquerywindow
+                - name: PROPSHEETCFG
+                  href: propsheetcfg.md
+            - name: Structures de la page de propriétés MMC dans Active Directory Domain Services
+              href: mmc-property-page-structures-in-active-directory-domain-services.md
+              items:
+                - name: ADSPROPERROR
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adsproperror
+                - name: ADSPROPINITPARAMS
+                  href: /windows/win32/api/Adsprop/ns-adsprop-adspropinitparams
+            - name: Structures de contrôleur de domaine et de gestion de la réplication
+              href: domain-controller-and-replication-management-structures.md
+              items:
+                - name: DS_DOMAIN_CONTROLLER_INFO_1
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_1a
+                - name: DS_DOMAIN_CONTROLLER_INFO_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_2a
+                - name: DS_DOMAIN_CONTROLLER_INFO_3
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_domain_controller_info_3a
+                - name: DS_NAME_RESULT
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_resulta
+                - name: DS_NAME_RESULT_ITEM
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_name_result_itema
+                - name: DS_REPL_ATTR_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data
+                - name: DS_REPL_ATTR_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_2
+                - name: DS_REPL_ATTR_META_DATA_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_meta_data_blob
+                - name: DS_REPL_ATTR_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data
+                - name: DS_REPL_ATTR_VALUE_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_2
+                - name: DS_REPL_ATTR_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_attr_value_meta_data_ext
+                - name: DS_REPL_CURSOR
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor
+                - name: DS_REPL_CURSOR_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_2
+                - name: DS_REPL_CURSOR_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_3w
+                - name: DS_REPL_CURSOR_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursor_blob
+                - name: DS_REPL_CURSORS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors
+                - name: DS_REPL_CURSORS_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_2
+                - name: DS_REPL_CURSORS_3
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_cursors_3w
+                - name: DS_REPL_KCC_DSA_FAILURE
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew
+                - name: DS_REPL_KCC_DSA_FAILURES
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failuresw
+                - name: DS_REPL_KCC_DSA_FAILUREW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_kcc_dsa_failurew_blob
+                - name: DS_REPL_NEIGHBOR
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw
+                - name: DS_REPL_NEIGHBORS
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborsw
+                - name: DS_REPL_NEIGHBORW_BLOB
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_neighborw_blob
+                - name: DS_REPL_OBJ_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data
+                - name: DS_REPL_OBJ_META_DATA_2
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_obj_meta_data_2
+                - name: DS_REPL_OP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw
+                - name: DS_REPL_OPW_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_opw_blob
+                - name: DS_REPL_PENDING_OPS
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_pending_opsw
+                - name: DS_REPL_QUEUE_STATISTICSW
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_queue_statisticsw
+                - name: DS_REPL_VALUE_META_DATA
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data
+                - name: DS_REPL_VALUE_META_DATA_2
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_2
+                - name: DS_REPL_VALUE_META_DATA_BLOB
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-_ds_repl_value_meta_data_blob
+                - name: DS_REPL_VALUE_META_DATA_BLOB_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_blob_ext
+                - name: DS_REPL_VALUE_META_DATA_EXT
+                  href: /windows/win32/api/Ntdsapi/ns-ntdsapi-ds_repl_value_meta_data_ext
+                - name: DS_REPSYNCALL_ERRINFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_errinfoa
+                - name: DS_REPSYNCALL_SYNC
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_synca
+                - name: DS_REPSYNCALL_UPDATE
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_repsyncall_updatea
+                - name: DS_SCHEMA_GUID_MAP
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_schema_guid_mapa
+                - name: DS_SITE_COST_INFO
+                  href: /windows/desktop/api/Ntdsapi/ns-ntdsapi-ds_site_cost_info
+                - name: SCHEDULE
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule
+                - name: SCHEDULE_HEADER
+                  href: /windows/win32/api/Schedule/ns-schedule-schedule_header
+            - name: Structures de service d’annuaire
+              href: directory-service-structures.md
+              items:
+                - name: DOMAIN_CONTROLLER_INFO
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-domain_controller_infoa
+                - name: DS_DOMAIN_TRUSTS
+                  href: /windows/win32/api/Dsgetdc/ns-dsgetdc-ds_domain_trustsa
+                - name: DSROLE_OPERATION_STATE_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_operation_state_info
+                - name: DSROLE_PRIMARY_DOMAIN_INFO_BASIC
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_primary_domain_info_basic
+                - name: DSROLE_UPGRADE_STATUS_INFO
+                  href: /windows/win32/api/Dsrole/ns-dsrole-dsrole_upgrade_status_info
+            - name: Structures de sauvegarde d’annuaire
+              href: directory-backup-structures.md
+              items:
+                - name: EDB_RSTMAP
+                  href: edb-rstmap.md
+            - name: Structure de la boîte de dialogue Sélecteur d’objets
+              href: object-picker-dialog-box-structures.md
+              items:
+                - name: DS_SELECTION
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection
+                - name: DS_SELECTION_LIST
+                  href: /windows/win32/api/Objsel/ns-objsel-ds_selection_list
+                - name: DSOP_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_filter_flags
+                - name: DSOP_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_init_info
+                - name: DSOP_SCOPE_INIT_INFO
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_scope_init_info
+                - name: DSOP_UPLEVEL_FILTER_FLAGS
+                  href: /windows/win32/api/Objsel/ns-objsel-dsop_uplevel_filter_flags
+        - name: Énumérations dans Active Directory Domain Services
+          href: enumerations-in-active-directory-domain-services.md
+          items:
+            - name: DS_KCC_TASKID
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_kcc_taskid
+            - name: DS_MANGLE_FOR
+              href: /windows/win32/api/Dsparse/ne-dsparse-ds_mangle_for
+            - name: DS_NAME_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_error
+            - name: DS_NAME_FLAGS
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_flags
+            - name: DS_NAME_FORMAT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_name_format
+            - name: DS_REPL_INFO_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_info_type
+            - name: DS_REPL_OP_TYPE
+              href: /windows/win32/api/Ntdsapi/ne-ntdsapi-ds_repl_op_type
+            - name: DS_REPSYNCALL_ERROR
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_error
+            - name: DS_REPSYNCALL_EVENT
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_repsyncall_event
+            - name: DS_SPN_NAME_TYPE
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_name_type
+            - name: DS_SPN_WRITE_OP
+              href: /windows/desktop/api/Ntdsapi/ne-ntdsapi-ds_spn_write_op
+            - name: DSROLE_MACHINE_ROLE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_machine_role
+            - name: DSROLE_OPERATION_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_operation_state
+            - name: DSROLE_PRIMARY_DOMAIN_INFO_LEVEL
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_primary_domain_info_level
+            - name: DSROLE_SERVER_STATE
+              href: /windows/win32/api/Dsrole/ne-dsrole-dsrole_server_state
+        - name: Fonctions dans Active Directory Domain Services
+          href: functions-in-active-directory-domain-services.md
+          items:
+            - name: Afficher les fonctions dans Active Directory Domain Services
+              href: display-functions-in-active-directory-domain-services.md
+              items:
+                - name: BFFCallBack
+                  href: /windows/desktop/api/shlobj_core/nc-shlobj_core-bffcallback
+                - name: CQAddFormsProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddformsproc
+                - name: CQAddPagesProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqaddpagesproc
+                - name: CQPageProc
+                  href: /windows/desktop/api/Cmnquery/nc-cmnquery-lpcqpageproc
+                - name: DsBrowseForContainer
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsbrowseforcontainera
+                - name: DSEnumAttributesCallback
+                  href: /windows/desktop/api/Dsclient/nc-dsclient-lpdsenumattributes
+                - name: DsGetFriendlyClassName
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgetfriendlyclassname
+                - name: DsGetIcon
+                  href: /windows/desktop/api/Dsclient/nf-dsclient-dsgeticon
+            - name: Fonctions de la page de propriétés MMC dans Active Directory Domain Services
+              href: mmc-property-page-functions-in-active-directory-domain-services.md
+              items:
+                - name: ADsPropCheckIfWritable
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcheckifwritable
+                - name: ADsPropCreateNotifyObj
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj
+                - name: ADsPropGetInitInfo
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo
+                - name: ADsPropSendErrorMessage
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage
+                - name: ADsPropSetHwnd
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd
+                - name: ADsPropSetHwndWithTitle
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle
+                - name: ADsPropShowErrorDialog
+                  href: /windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog
+            - name: Fonctions de gestion de la réplication et du contrôleur de domaine
+              href: dc-and-replication-management-functions.md
+              items:
+                - name: DsAddSidHistory
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya
+                - name: DsBind
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbinda
+                - name: DsBindingSetTimeout
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindingsettimeout
+                - name: DsBindToISTG
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindtoistga
+                - name: DsBindWithCred
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithcreda
+                - name: DsBindWithSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspna
+                - name: DsBindWithSpnEx
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsbindwithspnexa
+                - name: DsClientMakeSpnForTargetServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsclientmakespnfortargetservera
+                - name: DsCrackNames
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dscracknamesa
+                - name: DsCrackSpn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackspna
+                - name: DsCrackUnquotedMangledRdn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dscrackunquotedmangledrdna
+                - name: DsFreeDomainControllerInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreedomaincontrollerinfoa
+                - name: DsFreeNameResult
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreenameresulta
+                - name: DsFreePasswordCredentials
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreepasswordcredentials
+                - name: DsFreeSchemaGuidMap
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreeschemaguidmapa
+                - name: DsFreeSpnArray
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsfreespnarraya
+                - name: DsGetDomainControllerInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetdomaincontrollerinfoa
+                - name: DsGetRdnW
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsgetrdnw
+                - name: DsGetSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsgetspna
+                - name: DsInheritSecurityIdentity
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsinheritsecurityidentitya
+                - name: DsIsMangledDn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangleddna
+                - name: DsIsMangledRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsismangledrdnvaluea
+                - name: DsListDomainsInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistdomainsinsitea
+                - name: DsListInfoForServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistinfoforservera
+                - name: DsListRoles
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistrolesa
+                - name: DsListServersForDomainInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversfordomaininsitea
+                - name: DsListServersInSite
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistserversinsitea
+                - name: DsListSites
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dslistsitesa
+                - name: DsMakePasswordCredentials
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmakepasswordcredentialsa
+                - name: DsMakeSpn
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsmakespna
+                - name: DsMapSchemaGuids
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsmapschemaguidsa
+                - name: DsQuerySitesByCost
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesbycosta
+                - name: DsQuerySitesFree
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsquerysitesfree
+                - name: DsQuoteRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsquoterdnvaluea
+                - name: DsRemoveDsDomain
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsdomaina
+                - name: DsRemoveDsServer
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsremovedsservera
+                - name: DsReplicaAdd
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaadda
+                - name: DsReplicaConsistencyCheck
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaconsistencycheck
+                - name: DsReplicaDel
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicadela
+                - name: DsReplicaFreeInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicafreeinfo
+                - name: DsReplicaGetInfo
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfow
+                - name: DsReplicaGetInfo2
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicagetinfo2w
+                - name: DsReplicaModify
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicamodifya
+                - name: DsReplicaSync
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasynca
+                - name: DsReplicaSyncAll
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicasyncalla
+                - name: DsReplicaUpdateRefs
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaupdaterefsa
+                - name: DsReplicaVerifyObjects
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsreplicaverifyobjectsa
+                - name: DsServerRegisterSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsserverregisterspna
+                - name: DsUnBind
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dsunbinda
+                - name: DsUnquoteRdnValue
+                  href: /windows/desktop/api/Dsparse/nf-dsparse-dsunquoterdnvaluea
+                - name: DsWriteAccountSpn
+                  href: /windows/desktop/api/Ntdsapi/nf-ntdsapi-dswriteaccountspna
+                - name: SyncUpdateProc
+                  href: /previous-versions/windows/desktop/legacy/ms677968(v=vs.85)
+            - name: Fonctions du service d’annuaire
+              href: directory-service-functions.md
+              items:
+                - name: DsAddressToSiteNames
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesa
+                - name: DsAddressToSiteNamesEx
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsaddresstositenamesexa
+                - name: DsDeregisterDnsHostRecords
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsderegisterdnshostrecordsa
+                - name: DsEnumerateDomainTrusts
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsenumeratedomaintrustsa
+                - name: DsGetDcClose
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcclosew
+                - name: DsGetDcName
+                  href: /windows/desktop/api/DsGetDC/nf-dsgetdc-dsgetdcnamea
+                - name: DsGetDcNext
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcnexta
+                - name: DsGetDcOpen
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcopena
+                - name: DsGetDcSiteCoverage
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetdcsitecoveragea
+                - name: DsGetForestTrustInformationW
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetforesttrustinformationw
+                - name: DsGetSiteName
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsgetsitenamea
+                - name: DsMergeForestTrustInformationW
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsmergeforesttrustinformationw
+                - name: DsRoleFreeMemory
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolefreememory
+                - name: DsRoleGetPrimaryDomainInformation
+                  href: /windows/desktop/api/Dsrole/nf-dsrole-dsrolegetprimarydomaininformation
+                - name: DsValidateSubnetName
+                  href: /windows/desktop/api/Dsgetdc/nf-dsgetdc-dsvalidatesubnetnamea
+            - name: Fonctions de sauvegarde d’annuaire
+              href: directory-backup-functions.md
+              items:
+                - name: DsBackupClose
+                  href: dsbackupclose.md
+                - name: DsBackupEnd
+                  href: dsbackupend.md
+                - name: DsBackupFree
+                  href: dsbackupfree.md
+                - name: DsBackupGetBackupLogs
+                  href: dsbackupgetbackuplogs.md
+                - name: DsBackupGetDatabaseNames
+                  href: dsbackupgetdatabasenames.md
+                - name: DsBackupOpenFile
+                  href: dsbackupopenfile.md
+                - name: DsBackupPrepare
+                  href: dsbackupprepare.md
+                - name: DsBackupRead
+                  href: dsbackupread.md
+                - name: DsBackupTruncateLogs
+                  href: dsbackuptruncatelogs.md
+                - name: DsIsNTDSOnline
+                  href: dsisntdsonline.md
+                - name: DsRestoreEnd
+                  href: dsrestoreend.md
+                - name: DsRestoreGetDatabaseLocations
+                  href: dsrestoregetdatabaselocations.md
+                - name: DsRestorePrepare
+                  href: dsrestoreprepare.md
+                - name: DsRestoreRegister
+                  href: dsrestoreregister.md
+                - name: DsRestoreRegisterComplete
+                  href: dsrestoreregistercomplete.md
+                - name: DsSetAuthIdentity
+                  href: dssetauthidentity.md
+                - name: DsSetCurrentBackupLog
+                  href: dssetcurrentbackuplog.md
+        - name: Interfaces pour Active Directory Domain Services
+          href: interfaces-for-active-directory-domain-services.md
+          items:
+            - name: Interfaces d’administration dans Active Directory Domain Services
+              href: admin-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: IDsAdminCreateObj
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj
+                  items:
+                    - name: 'IDsAdminCreateObj::CreateModal'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal
+                    - name: "IDsAdminCreateObj\_:: Initialize"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize
+                - name: IDsAdminNewObj
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobj
+                  items:
+                    - name: 'IDsAdminNewObj::GetPageCounts'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-getpagecounts
+                    - name: 'IDsAdminNewObj::SetButtons'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobj-setbuttons
+                - name: IDsAdminNewObjPrimarySite
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjprimarysite
+                  items:
+                    - name: "IDsAdminNewObjPrimarySite\_:: Commit"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit
+                    - name: "IDsAdminNewObjPrimarySite\_:: CreateNew"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-createnew
+                - name: IDsAdminNewObjExt
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnewobjext
+                  items:
+                    - name: 'IDsAdminNewObjExt::AddPages'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-addpages
+                    - name: 'IDsAdminNewObjExt::GetSummaryInfo'
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-getsummaryinfo
+                    - name: "IDsAdminNewObjExt\_:: Initialize"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-initialize
+                    - name: "IDsAdminNewObjExt\_:: OnError"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-onerror
+                    - name: "IDsAdminNewObjExt\_:: SetObject"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-setobject
+                    - name: "IDsAdminNewObjExt\_:: WriteData"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjext-writedata
+                - name: IDsAdminNotifyHandler
+                  href: /windows/desktop/api/DSAdmin/nn-dsadmin-idsadminnotifyhandler
+                  items:
+                    - name: "IDsAdminNotifyHandler\_:: Begin"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-begin
+                    - name: "IDsAdminNotifyHandler\_:: fin"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-end
+                    - name: "IDsAdminNotifyHandler\_:: Initialize"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-initialize
+                    - name: "IDsAdminNotifyHandler\_:: Notify"
+                      href: /windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnotifyhandler-notify
+            - name: Afficher les interfaces dans Active Directory Domain Services
+              href: display-interfaces-in-active-directory-domain-services.md
+              items:
+                - name: ICommonQuery
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-icommonquery
+                  items:
+                    - name: 'ICommonQuery::OpenQueryWindow'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-icommonquery-openquerywindow
+                - name: IDsBrowseDomainTree
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsbrowsedomaintree
+                  items:
+                    - name: "IDsBrowseDomainTree\_:: consulter"
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-browseto
+                    - name: 'IDsBrowseDomainTree::FlushCachedDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-flushcacheddomains
+                    - name: 'IDsBrowseDomainTree::FreeDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-freedomains
+                    - name: 'IDsBrowseDomainTree::GetDomains'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-getdomains
+                    - name: 'IDsBrowseDomainTree::SetComputer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsbrowsedomaintree-setcomputer
+                - name: IDsDisplaySpecifier
+                  href: /windows/desktop/api/dsclient/nn-dsclient-idsdisplayspecifier
+                  items:
+                    - name: 'IDsDisplaySpecifier::EnumClassAttributes'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-enumclassattributes
+                    - name: 'IDsDisplaySpecifier::GetAttributeADsType'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getattributeadstype
+                    - name: 'IDsDisplaySpecifier::GetClassCreationInfo'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getclasscreationinfo
+                    - name: 'IDsDisplaySpecifier::GetDisplaySpecifier'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getdisplayspecifier
+                    - name: 'IDsDisplaySpecifier::GetFriendlyAttributeName'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyattributename
+                    - name: 'IDsDisplaySpecifier::GetFriendlyClassName'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-getfriendlyclassname
+                    - name: 'IDsDisplaySpecifier::GetIcon'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticon
+                    - name: 'IDsDisplaySpecifier::GetIconLocation'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-geticonlocation
+                    - name: 'IDsDisplaySpecifier::IsClassContainer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-isclasscontainer
+                    - name: 'IDsDisplaySpecifier::SetLanguageID'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setlanguageid
+                    - name: 'IDsDisplaySpecifier::SetServer'
+                      href: /windows/desktop/api/dsclient/nf-dsclient-idsdisplayspecifier-setserver
+                - name: IPersistQuery
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-ipersistquery
+                  items:
+                    - name: "IPersistQuery\_:: Clear"
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-clear
+                    - name: "IPersistQuery\_:: ReadInt"
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readint
+                    - name: "IPersistQuery\_:: ReadString"
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstring
+                    - name: 'IPersistQuery::ReadStruct'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-readstruct
+                    - name: 'IPersistQuery::WriteInt'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writeint
+                    - name: "IPersistQuery\_:: WriteString"
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestring
+                    - name: 'IPersistQuery::WriteStruct'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-ipersistquery-writestruct
+                - name: IQueryForm
+                  href: /windows/desktop/api/cmnquery/nn-cmnquery-iqueryform
+                  items:
+                    - name: 'IQueryForm::AddForms'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addforms
+                    - name: 'IQueryForm::AddPages'
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-addpages
+                    - name: "IQueryForm\_:: Initialize"
+                      href: /windows/desktop/api/cmnquery/nf-cmnquery-iqueryform-initialize
+            - name: 'Boîte de dialogue Sélecteur d’objets, interfaces'
+              href: object-picker-dialog-box-interfaces.md
+              items:
+                - name: IDsObjectPickerCredentials
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpickercredentials
+                  items:
+                    - name: "IDsObjectPickerCredentials\_:: SetCredentials, méthode"
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpickercredentials-setcredentials
+                - name: IDsObjectPicker
+                  href: /windows/desktop/api/Objsel/nn-objsel-idsobjectpicker
+                  items:
+                    - name: "IDsObjectPicker\_:: Initialize"
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-initialize
+                    - name: 'IDsObjectPicker::InvokeDialog'
+                      href: /windows/desktop/api/Objsel/nf-objsel-idsobjectpicker-invokedialog
+        - name: Messages dans Active Directory Domain Services
+          href: messages-in-active-directory-domain-services.md
+          items:
+            - name: WM_ADSPROP_NOTIFY_APPLY
+              href: wm-adsprop-notify-apply.md
+            - name: WM_ADSPROP_NOTIFY_CHANGE
+              href: wm-adsprop-notify-change.md
+            - name: WM_ADSPROP_NOTIFY_ERROR
+              href: wm-adsprop-notify-error.md
+            - name: WM_ADSPROP_NOTIFY_EXIT
+              href: wm-adsprop-notify-exit.md
+            - name: WM_ADSPROP_NOTIFY_FOREGROUND
+              href: wm-adsprop-notify-foreground.md
+            - name: WM_ADSPROP_NOTIFY_PAGEHWND
+              href: wm-adsprop-notify-pagehwnd.md
+            - name: WM_ADSPROP_NOTIFY_PAGEINIT
+              href: wm-adsprop-notify-pageinit.md
+            - name: WM_ADSPROP_NOTIFY_SETFOCUS
+              href: wm-adsprop-notify-setfocus.md
+            - name: WM_ADSPROP_SHEET_CREATE
+              href: wm-adsprop-sheet-create.md
+            - name: WM_DSA_SHEET_CLOSE_NOTIFY
+              href: wm-dsa-sheet-close-notify.md
+            - name: WM_DSA_SHEET_CREATE_NOTIFY
+              href: wm-dsa-sheet-create-notify.md
+        - name: Valeurs de retour pour les fonctions dans Active Directory Domain Services
+          href: return-values-for-functions-in-active-directory-domain-services.md
+          items:
+            - name: Succès
+              href: success.md
+            - name: Erreurs de sauvegarde dans Active Directory Domain Services
+              href: backup-errors-in-active-directory-domain-services.md
+            - name: Erreurs système dans Active Directory Domain Services
+              href: system-errors-in-active-directory-domain-services.md
+            - name: Erreurs du gestionnaire de répertoires
+              href: directory-manager-errors.md
+            - name: Erreurs de journalisation et de récupération dans les fonctions de Active Directory Domain Services
+              href: logging-and-recovery-errors-in-functions-in-active-directory-domain-services.md
+        - name: Mappages de l’interface utilisateur dans Active Directory Domain Services
+          href: user-interface-mappings-in-active-directory-domain-services.md
+          items:
+            - name: Mappages pour le composant logiciel enfichable utilisateurs et ordinateurs Active Directory
+              href: mappings-for-the-active-directory-users-and-computers-snap-in.md
+              items:
+                - name: Mappage de l’interface utilisateur de l’objet ordinateur
+                  href: computer-object-user-interface-mapping.md
+                - name: Mappage de l’interface utilisateur de l’objet de domaine
+                  href: domain-object-user-interface-mapping.md
+                - name: Mappage de l’interface utilisateur de l’objet de groupe
+                  href: group-object-user-interface-mapping.md
+                - name: Feuille de propriétés de l’objet
+                  href: object-property-sheet.md
+                - name: Mappage de l’interface utilisateur de l’unité d’organisation
+                  href: organizational-unit-user-interface-mapping.md
+                - name: Mappage de l’interface utilisateur de l’objet Printer
+                  href: printer-object-user-interface-mapping.md
+                - name: Mappage de l’interface utilisateur des objets dossiers partagés
+                  href: shared-folder-object-user-interface-mapping.md
+                - name: Mappage de l’interface utilisateur Objet utilisateur
+                  href: user-object-user-interface-mapping.md
+        - name: Référence du fournisseur WMI pour Active Directory Domain Services
+          href: wmi-provider-reference-for-active-directory-domain-services.md
+          items:
+            - name: Classes du fournisseur WMI dans Active Directory Domain Services
+              href: wmi-provider-classes-in-active-directory-domain-services.md
+              items:
+                - name: ReplicationProvider1
+                  href: replicationprovider1.md
+                - name: MSAD_DomainController
+                  href: msad-domaincontroller.md
+                  items:
+                    - name: Méthode ExecuteKCC de la classe MSAD_DomainController
+                      href: executekcc-msad-domaincontroller.md
+                - name: MSAD_NamingContext
+                  href: msad-namingcontext.md
+                - name: MSAD_ReplCursor
+                  href: msad-replcursor.md
+                - name: MSAD_ReplNeighbor
+                  href: msad-replneighbor.md
+                  items:
+                    - name: Méthode SyncNamingContext de la classe MSAD_ReplNeighbor
+                      href: syncnamingcontext-msad-replneighbor.md
+                - name: MSAD_ReplPendingOp
+                  href: msad-replpendingop.md
