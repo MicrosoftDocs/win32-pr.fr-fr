@@ -1,0 +1,128 @@
+- name: système de fichiers DFS
+  href: distributed-file-system.md
+  items:
+    - name: Fonctions de système de fichiers DFS (DFS)
+      href: distributed-file-system-dfs-functions.md
+    - name: Fonctions de sécurité
+      href: security-functions.md
+    - name: Définition de la priorité cible du serveur DFS
+      href: dfs-server-target-prioritization.md
+    - name: Référence système de fichiers DFS
+      href: distributed-file-system-reference.md
+      items:
+        - name: Codes de contrôle système de fichiers DFS
+          href: distributed-file-system-control-codes.md
+          items:
+            - name: FSCTL_DFS_GET_PKT_ENTRY_STATE
+              href: fsctl-dfs-get-pkt-entry-state.md
+        - name: Énumérations de système de fichiers DFS
+          href: distributed-file-system-enumeration-types.md
+          items:
+            - name: DFS_NAMESPACE_VERSION_ORIGIN
+              href: /windows/desktop/api/lmdfs/ne-lmdfs-dfs_namespace_version_origin
+            - name: DFS_TARGET_PRIORITY_CLASS
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1
+        - name: Fonctions système de fichiers DFS
+          href: distributed-file-system-functions.md
+          items:
+            - name: NetDfsAdd fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsadd
+            - name: NetDfsAddFtRoot fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddftroot
+            - name: NetDfsAddRootTarget fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddroottarget
+            - name: NetDfsAddStdRoot fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsaddstdroot
+            - name: NetDfsEnum fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsenum
+            - name: NetDfsGetClientInfo fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetclientinfo
+            - name: NetDfsGetFtContainerSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetftcontainersecurity
+            - name: NetDfsGetInfo fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetinfo
+            - name: NetDfsGetSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsecurity
+            - name: NetDfsGetStdContainerSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetstdcontainersecurity
+            - name: NetDfsGetSupportedNamespaceVersion fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsgetsupportednamespaceversion
+            - name: NetDfsMove fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsmove
+            - name: NetDfsRemove fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremove
+            - name: NetDfsRemoveFtRoot fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftroot
+            - name: NetDfsRemoveFtRootForced fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveftrootforced
+            - name: NetDfsRemoveRootTarget fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremoveroottarget
+            - name: NetDfsRemoveStdRoot fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfsremovestdroot
+            - name: NetDfsSetClientInfo fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetclientinfo
+            - name: NetDfsSetFtContainerSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetftcontainersecurity
+            - name: NetDfsSetInfo fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetinfo
+            - name: NetDfsSetSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetsecurity
+            - name: NetDfsSetStdContainerSecurity fonction)
+              href: /windows/desktop/api/lmdfs/nf-lmdfs-netdfssetstdcontainersecurity
+        - name: Structures de système de fichiers DFS
+          href: distributed-file-system-structures.md
+          items:
+            - name: DFS_GET_PKT_ENTRY_STATE_ARG
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_get_pkt_entry_state_arg
+            - name: Structure _DFS_INFO_1
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_1
+            - name: Structure _DFS_INFO_2
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_2
+            - name: Structure _DFS_INFO_3
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_3
+            - name: Structure _DFS_INFO_4
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_4
+            - name: Structure _DFS_INFO_5
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_5
+            - name: Structure _DFS_INFO_6
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_6
+            - name: Structure _DFS_INFO_7
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_7
+            - name: Structure _DFS_INFO_8
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_8
+            - name: Structure _DFS_INFO_9
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_9
+            - name: Structure _DFS_INFO_50
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_50
+            - name: Structure _DFS_INFO_100
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_100
+            - name: Structure _DFS_INFO_101
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_101
+            - name: Structure _DFS_INFO_102
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_102
+            - name: Structure _DFS_INFO_103
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_103
+            - name: Structure _DFS_INFO_104
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_104
+            - name: Structure _DFS_INFO_105
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_105
+            - name: Structure _DFS_INFO_106
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_106
+            - name: Structure _DFS_INFO_107
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_107
+            - name: Structure _DFS_INFO_150
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_150
+            - name: Structure _DFS_INFO_200
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_200
+            - name: Structure _DFS_INFO_300
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_info_300
+            - name: Structure _DFS_STORAGE_INFO
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info
+            - name: Structure _DFS_STORAGE_INFO_1
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_storage_info_1
+            - name: Structure _DFS_SUPPORTED_NAMESPACE_VERSION_INFO
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_supported_namespace_version_info
+            - name: Structure _DFS_TARGET_PRIORITY
+              href: /windows/win32/api/lmdfs/ns-lmdfs-dfs_target_priority
+            - name: Énumération _DFS_TARGET_PRIORITY_CLASS
+              href: /windows/win32/api/lmdfs/ne-lmdfs-dfs_target_priority_class~r1
