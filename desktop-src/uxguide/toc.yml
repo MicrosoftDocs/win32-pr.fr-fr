@@ -1,0 +1,157 @@
+- name: Notions de base de la conception
+  href: designprinciples.md
+  items:
+    - name: Conception d’une expérience utilisateur de qualité
+      href: how-to-design-desktop-ux.md
+    - name: Liste de contrôle d’expérience utilisateur
+      href: top-violations.md
+- name: Consignes
+  href: guidelines.md
+  items:
+    - name: Contrôles
+      href: controls.md
+      items:
+        - name: Bulles
+          href: ctrl-balloons.md
+        - name: Cases à cocher
+          href: ctrl-check-boxes.md
+        - name: Boutons de commande
+          href: ctrl-command-buttons.md
+        - name: Liens de commande
+          href: ctrl-command-links.md
+        - name: Listes déroulantes & zones de liste déroulante
+          href: ctrl-drop.md
+        - name: Zones de groupe
+          href: ctrl-group-boxes.md
+        - name: Liens
+          href: ctrl-links.md
+        - name: Zones de liste
+          href: ctrl-list-boxes.md
+        - name: Affichages de liste
+          href: ctrl-list-views.md
+        - name: Barres de progression
+          href: progress-bars.md
+        - name: Contrôles de divulgation progressive
+          href: ctrl-progressive-disclosure-controls.md
+        - name: Cases d’option
+          href: ctrl-radio-buttons.md
+        - name: Zones de recherche
+          href: ctrl-search-boxes.md
+        - name: Curseurs
+          href: ctrl-sliders.md
+        - name: Contrôles spin
+          href: ctrl-spin-controls.md
+        - name: Barres d'état
+          href: ctrl-status-bars.md
+        - name: Tabulations
+          href: ctrl-tabs.md
+        - name: Zones de texte
+          href: ctrl-text-boxes.md
+        - name: Info-bulles et info-bulles
+          href: ctrl-tooltips-and-infotips.md
+        - name: Arborescences
+          href: ctrl-tree-views.md
+    - name: Commandes
+      href: commands.md
+      items:
+        - name: Menus
+          href: cmd-menus.md
+        - name: Rubans
+          href: cmd-ribbons.md
+        - name: Barres d'outils
+          href: cmd-toolbars.md
+    - name: Texte
+      href: text.md
+      items:
+        - name: Texte de l’interface utilisateur
+          href: text-ui.md
+        - name: Style et ton
+          href: text-style-tone.md
+    - name: Messages
+      href: messages.md
+      items:
+        - name: Messages d'erreur
+          href: mess-error.md
+        - name: Messages d'avertissement
+          href: mess-warn.md
+        - name: Confirmations
+          href: mess-confirm.md
+        - name: Notifications
+          href: mess-notif.md
+    - name: Interaction
+      href: interaction.md
+      items:
+        - name: Toucher
+          href: inter-touch.md
+        - name: Clavier
+          href: inter-keyboard.md
+        - name: Souris et pointeurs
+          href: inter-mouse.md
+        - name: Stylet
+          href: inter-pen.md
+        - name: Accessibilité
+          href: inter-accessibility.md
+    - name: Windows
+      href: windows.md
+      items:
+        - name: Gestion des fenêtres
+          href: win-window-mgt.md
+        - name: Frames de fenêtre
+          href: win-window-frames.md
+        - name: Boîtes de dialogue
+          href: win-dialog-box.md
+        - name: Boîtes de dialogue courantes
+          href: win-common-dlg.md
+        - name: Assistants
+          href: win-wizards.md
+        - name: Fenêtres de propriétés
+          href: win-property-win.md
+    - name: Objets visuels
+      href: visuals.md
+      items:
+        - name: Disposition
+          href: vis-layout.md
+        - name: Polices
+          href: vis-fonts.md
+        - name: Couleur
+          href: vis-color.md
+        - name: Icônes
+          href: vis-icons.md
+        - name: Icônes standard
+          href: vis-std-icons.md
+        - name: Animations et transitions
+          href: vis-animations.md
+        - name: Éléments graphiques
+          href: vis-graphic.md
+        - name: Son
+          href: vis-sound.md
+    - name: Expériences
+      href: experiences.md
+      items:
+        - name: Personnalisation des logiciels
+          href: exper-branding.md
+        - name: Programme d’installation
+          href: exper-setup.md
+        - name: Première expérience
+          href: exper-first-exper.md
+        - name: Impression
+          href: exper-printing.md
+    - name: Environnement Windows
+      href: windows-environment.md
+      items:
+        - name: Bureau
+          href: winenv-desktop.md
+        - name: Barre des tâches
+          href: winenv-taskbar.md
+        - name: Zone de notification
+          href: winenv-notification.md
+        - name: Panneaux de contrôle
+          href: winenv-ctrl-panels.md
+        - name: Aide
+          href: winenv-help.md
+        - name: Contrôle de compte d'utilisateur
+          href: winenv-uac.md
+- name: Index visuel
+  href: visual-index.md
+- name: Glossaire
+  href: glossary.md

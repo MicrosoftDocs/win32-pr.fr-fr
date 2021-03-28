@@ -1,0 +1,18 @@
+- name: Créer votre première application Windows à l’aide de DirectX
+  href: building-your-first-directx-app.md
+  items:
+    - name: Conditions préalables pour le développement avec DirectX
+      href: pre-requisites-for-developing-a-tailored-c---with-directx-app.md
+    - name: Prise en main de DirectX pour Windows
+      href: getting-started-with-a-directx-game.md
+      items:
+        - name: Utiliser les ressources de l’appareil DirectX
+          href: work-with-dxgi.md
+        - name: Comprendre le pipeline de rendu Direct3D 11
+          href: understand-the-directx-11-2-graphics-pipeline.md
+        - name: Utiliser des nuanceurs et des ressources de nuanceur
+          href: work-with-shaders-and-shader-resources.md
+        - name: Code complet pour une infrastructure DirectX
+          href: complete-code-sample-for-using-a-corewindow-with-directx.md
+    - name: Feuille de route pour les applications de bureau DirectX
+      href: roadmap-for-metro-style-apps-using-directx.md
