@@ -1,0 +1,71 @@
+---
+title: DSX-PS
+description: Calcule le taux de modification de l’axe x de la cible de rendu.
+ms.assetid: 3358ddca-97a3-421d-8e5d-6b425903e683
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- apiref
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 701dbe0125d10850760e6a1f08a2f84a50c55fe2
+ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "103940575"
+---
+# <a name="dsx---ps"></a>DSX-PS
+
+Calcule le taux de modification de l’axe x de la cible de rendu.
+
+## <a name="syntax"></a>Syntaxe
+
+
+
+| DSX DST, SRC |
+|--------------|
+
+
+
+ 
+
+Où :
+
+-   l’heure d’été est un registre de destination.
+-   SRC est un registre de source d’entrée.
+
+## <a name="remarks"></a>Notes
+
+
+
+| Versions de nuanceur de pixels | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 | 2 \_ 0 | 2 \_ x | 2 \_ logiciels | 3 \_ 0 | 3 \_ logiciels |
+|-----------------------|------|------|------|------|------|------|-------|------|-------|
+| dsx                   |      |      |      |      |      | x    | x     | x    | x     |
+
+
+
+ 
+
+Le taux de modification calculé à partir du Registre source est une approximation sur le contenu du même registre dans le ou les pixels adjacents qui exécutent le nuanceur de pixels dans l’étape de verrouillage avec le pixel actuel.
+
+Les instructions DSX et [DSY](dsy---ps.md) calculent leur résultat en examinant le contenu actuel du Registre source (par composant) pour les différents pixels de la zone locale s’exécutant dans l’étape de verrouillage. La formule exacte utilisée pour calculer le dégradé varie en fonction du matériel, mais doit être cohérente avec la manière dont le matériel effectue les mêmes opérations dans le cadre du processus de calcul du niveau de détail pour l’échantillonnage de texture.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
+</dt> <dt>
+
+[texldd-PS](texldd---ps.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
