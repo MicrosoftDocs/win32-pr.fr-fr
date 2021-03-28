@@ -1,0 +1,36 @@
+---
+description: Cette section décrit les classes de shell Windows.
+ms.assetid: 3b9d876c-32a9-429f-9605-efcc4a1c1570
+title: Classes de Shell
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 24bc306215d6ecdc9c60ff6aa5bc70e85ad27b2a
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104991089"
+---
+# <a name="shell-classes"></a><span data-ttu-id="5cd1f-103">Classes de Shell</span><span class="sxs-lookup"><span data-stu-id="5cd1f-103">Shell Classes</span></span>
+
+<span data-ttu-id="5cd1f-104">Cette section décrit les classes de shell Windows.</span><span class="sxs-lookup"><span data-stu-id="5cd1f-104">This section describes the Windows Shell classes.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="5cd1f-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="5cd1f-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="5cd1f-106">Rubrique</span><span class="sxs-lookup"><span data-stu-id="5cd1f-106">Topic</span></span>                                                               | <span data-ttu-id="5cd1f-107">Description</span><span class="sxs-lookup"><span data-stu-id="5cd1f-107">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                  |
+|---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="5cd1f-108">[**CCscSearchApiInterface**](/previous-versions/windows/desktop/legacy/cc448312(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="5cd1f-108">[**CCscSearchApiInterface**](/previous-versions/windows/desktop/legacy/cc448312(v=vs.85))</span></span><br/> | <span data-ttu-id="5cd1f-109">Expose des méthodes pour interagir avec le CSC (mise en cache côté client, également appelée Fichiers hors connexion) de la bibliothèque d’API de recherche.</span><span class="sxs-lookup"><span data-stu-id="5cd1f-109">Exposes methods for interacting with the CSC (Client Side Caching, also known as Offline Files) search API library.</span></span><br/>                                                                                                                                                                                                                                                                               |
+| [<span data-ttu-id="5cd1f-110">**CFolderItems**</span><span class="sxs-lookup"><span data-stu-id="5cd1f-110">**CFolderItems**</span></span>](class-cfolderitems-class.md)<br/>         | <span data-ttu-id="5cd1f-111">[**CFolderItems**](class-cfolderitems-class.md) est une collection de [**FolderItems**](folderitems.md).</span><span class="sxs-lookup"><span data-stu-id="5cd1f-111">[**CFolderItems**](class-cfolderitems-class.md) is a collection of [**FolderItems**](folderitems.md).</span></span> <span data-ttu-id="5cd1f-112">Il implémente les interfaces suivantes : [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768224(v=vs.85)), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).</span><span class="sxs-lookup"><span data-stu-id="5cd1f-112">It implements the following interfaces: [**IPersistFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ipersistfolder), [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite), [**FolderItems3**](folderitems3-object.md), [**IObjectSafety**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768224(v=vs.85)), [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch).</span></span><br/> |
+| [<span data-ttu-id="5cd1f-113">**CFolderItemsFDF**</span><span class="sxs-lookup"><span data-stu-id="5cd1f-113">**CFolderItemsFDF**</span></span>](class-cfolderitemsfdf-class.md)<br/>   | <span data-ttu-id="5cd1f-114">[**CFolderItemsFDF**](class-cfolderitemsfdf-class.md) est une collection de [**FolderItems**](folderitems.md).</span><span class="sxs-lookup"><span data-stu-id="5cd1f-114">[**CFolderItemsFDF**](class-cfolderitemsfdf-class.md) is a collection of [**FolderItems**](folderitems.md).</span></span> <span data-ttu-id="5cd1f-115">Il implémente l’interface [**IInsertItem**](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem) .</span><span class="sxs-lookup"><span data-stu-id="5cd1f-115">It implements the [**IInsertItem**](/windows/desktop/api/Shobjidl/nn-shobjidl-iinsertitem) interface.</span></span><br/>                                                                                                                                                                                                                     |
+| [<span data-ttu-id="5cd1f-116">**CItemIDFactory**</span><span class="sxs-lookup"><span data-stu-id="5cd1f-116">**CItemIDFactory**</span></span>](/windows/desktop/api/shidfact/nl-shidfact-citemidfactory)<br/>                 | <span data-ttu-id="5cd1f-117">Expose des méthodes pour interagir avec des sources de données Shell.</span><span class="sxs-lookup"><span data-stu-id="5cd1f-117">Exposes methods for interacting with Shell data sources.</span></span><br/>                                                                                                                                                                                                                                                                                                                                          |
+| [<span data-ttu-id="5cd1f-118">**VirtualDesktopManager**</span><span class="sxs-lookup"><span data-stu-id="5cd1f-118">**VirtualDesktopManager**</span></span>](virtualdesktopmanager.md)<br/>   | <span data-ttu-id="5cd1f-119">[**VirtualDesktopManager**](virtualdesktopmanager.md) implémente l’interface [**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager) .</span><span class="sxs-lookup"><span data-stu-id="5cd1f-119">[**VirtualDesktopManager**](virtualdesktopmanager.md) implements the [**IVirtualDesktopManager**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ivirtualdesktopmanager) interface.</span></span><br/>                                                                                                                                                                                                                                                         |
+
+
+
+ 
+
+ 
+
+ 

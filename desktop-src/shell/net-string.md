@@ -1,0 +1,93 @@
+---
+description: Représente les types d’adresses réseau. Utilisez une ou plusieurs (combinaison d’opérations de bits) des constantes suivantes pour créer un masque d’adresse réseau à utiliser avec la macro NETADDR \_ SetAllowType.
+title: NET_STRING (iphlpapi. h)
+ms.topic: reference
+ms.date: 05/31/2018
+ms.assetid: 4144dac9-772c-49cb-b924-e852fb4c81c7
+api_name:
+- NET_STRING_IPV4_ADDRESS
+- NET_STRING_IPV4_SERVICE
+- NET_STRING_IPV4_NETWORK
+- NET_STRING_IPV6_ADDRESS
+- NET_STRING_IPV6_ADDRESS_NO_SCOPE
+- NET_STRING_IPV6_SERVICE
+- NET_STRING_IPV6_SERVICE_NO_SCOPE
+- NET_STRING_IPV6_NETWORK
+- NET_STRING_NAMED_ADDRESS
+- NET_STRING_NAMED_SERVICE
+- NET_STRING_IP_ADDRESS
+- NET_STRING_IP_ADDRESS_NO_SCOPE
+- NET_STRING_IP_SERVICE
+- NET_STRING_IP_SERVICE_NO_SCOPE
+- NET_STRING_IP_NETWORK
+- NET_STRING_ANY_ADDRESS
+- NET_STRING_ANY_ADDRESS_NO_SCOPE
+- NET_STRING_ANY_SERVICE
+- NET_STRING_ANY_SERVICE_NO_SCOPE
+api_type:
+- HeaderDef
+api_location:
+- Iphlpapi.h
+topic_type:
+- APIRef
+- kbSyntax
+ms.openlocfilehash: 41ebe1cb844ec36ef13c8f8fe143d46dd9ac51b5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104991109"
+---
+# <a name="net_string"></a><span data-ttu-id="96826-104">\_chaîne net</span><span class="sxs-lookup"><span data-stu-id="96826-104">NET\_STRING</span></span>
+
+<span data-ttu-id="96826-105">Représente les types d’adresses réseau.</span><span class="sxs-lookup"><span data-stu-id="96826-105">Represent network address types.</span></span> <span data-ttu-id="96826-106">Utilisez une ou plusieurs (combinaison d’opérations de bits) des constantes suivantes pour créer un masque d’adresse réseau à utiliser avec la macro [**NETADDR \_ SetAllowType**](/windows/desktop/api/Shellapi/nf-shellapi-netaddr_setallowtype).</span><span class="sxs-lookup"><span data-stu-id="96826-106">Use one or more (as a bitwise combination) of the following constants to create a network address mask to use with the macro [**NetAddr\_SetAllowType**](/windows/desktop/api/Shellapi/nf-shellapi-netaddr_setallowtype).</span></span>
+
+
+
+| <span data-ttu-id="96826-107">Constante</span><span class="sxs-lookup"><span data-stu-id="96826-107">Constant</span></span>                                                                                                                                                                                                                   | <span data-ttu-id="96826-108">Description</span><span class="sxs-lookup"><span data-stu-id="96826-108">Description</span></span>                                                                                                                                                                    |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span id="NET_STRING_IPV4_ADDRESS"></span><span id="net_string_ipv4_address"></span><dl> <span data-ttu-id="96826-109"><dt>**\_ \_ Adresse IPv4 de chaîne réseau \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-109"><dt>**NET\_STRING\_IPV4\_ADDRESS**</dt></span></span> </dl>                              | <span data-ttu-id="96826-110">La chaîne identifie un hôte/routeur IPv4 à l’aide d’une adresse littérale (port ou préfixe non autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-110">The string identifies an IPv4 host/router using literal address (port or prefix not allowed).</span></span><br/>                                                                       |
+| <span id="NET_STRING_IPV4_SERVICE"></span><span id="net_string_ipv4_service"></span><dl> <span data-ttu-id="96826-111"><dt>**\_ \_ Service IPv4 de chaîne .NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-111"><dt>**NET\_STRING\_IPV4\_SERVICE**</dt></span></span> </dl>                              | <span data-ttu-id="96826-112">La chaîne identifie un service IPv4 à l’aide d’une adresse littérale (port requis ; le préfixe n’est pas autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-112">The string identifies an IPv4 service using literal address (port required; prefix not allowed).</span></span><br/>                                                                    |
+| <span id="NET_STRING_IPV4_NETWORK"></span><span id="net_string_ipv4_network"></span><dl> <span data-ttu-id="96826-113"><dt>**\_ \_ Réseau IPv4 de chaîne NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-113"><dt>**NET\_STRING\_IPV4\_NETWORK**</dt></span></span> </dl>                              | <span data-ttu-id="96826-114">La chaîne identifie un réseau IPv4 (préfixe requis ; port non autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-114">The string identifies an IPv4 network (prefix required; port not allowed).</span></span><br/>                                                                                          |
+| <span id="NET_STRING_IPV6_ADDRESS"></span><span id="net_string_ipv6_address"></span><dl> <span data-ttu-id="96826-115"><dt>**\_ \_ Adresse IPv6 de chaîne NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-115"><dt>**NET\_STRING\_IPV6\_ADDRESS**</dt></span></span> </dl>                              | <span data-ttu-id="96826-116">La chaîne identifie un hôte/routeur IPv6 à l’aide d’une adresse littérale (le port ou le préfixe n’est pas autorisé ; ID d’étendue autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-116">The string identifies an IPv6 Host/router using literal address (port or prefix not allowed; scope-id allowed.)</span></span><br/>                                                     |
+| <span id="NET_STRING_IPV6_ADDRESS_NO_SCOPE"></span><span id="net_string_ipv6_address_no_scope"></span><dl> <span data-ttu-id="96826-117"><dt>**L' \_ étendue de l' \_ \_ adresse IPv6 \_ \_ de la chaîne net**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-117"><dt>**NET\_STRING\_IPV6\_ADDRESS\_NO\_SCOPE**</dt></span></span> </dl> | <span data-ttu-id="96826-118">La chaîne identifie un hôte/routeur IPv6 utilisant une adresse littérale où le contexte de l’interface est déjà connu (port ou préfixe non autorisé ; ID d’étendue non autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-118">The string identifies an IPv6 Host/router using literal address where the interface context is already known (port or prefix not allowed; scope-id not allowed).</span></span><br/>    |
+| <span id="NET_STRING_IPV6_SERVICE"></span><span id="net_string_ipv6_service"></span><dl> <span data-ttu-id="96826-119"><dt>**\_ \_ Service IPv6 de chaîne NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-119"><dt>**NET\_STRING\_IPV6\_SERVICE**</dt></span></span> </dl>                              | <span data-ttu-id="96826-120">La chaîne identifie un service IPv6 à l’aide d’une adresse littérale (port requis ; le préfixe n’est pas autorisé ; ID d’étendue autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-120">The string identifies an IPv6 service using literal address (port required; prefix not allowed; scope-id allowed).</span></span><br/>                                                  |
+| <span id="NET_STRING_IPV6_SERVICE_NO_SCOPE"></span><span id="net_string_ipv6_service_no_scope"></span><dl> <span data-ttu-id="96826-121"><dt>**\_Service IPv6 de chaîne NET \_ \_ \_ sans \_ étendue**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-121"><dt>**NET\_STRING\_IPV6\_SERVICE\_NO\_SCOPE**</dt></span></span> </dl> | <span data-ttu-id="96826-122">La chaîne identifie un service IPv6 à l’aide d’une adresse littérale où le contexte de l’interface est déjà connu (port requis ; prefix non autorisé ; Scope-ID non autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-122">The string identifies an IPv6 service using literal address where the interface context is already known (port required; prefix not allowed; scope-id not allowed).</span></span><br/> |
+| <span id="NET_STRING_IPV6_NETWORK"></span><span id="net_string_ipv6_network"></span><dl> <span data-ttu-id="96826-123"><dt>**\_ \_ Réseau IPv6 de chaîne NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-123"><dt>**NET\_STRING\_IPV6\_NETWORK**</dt></span></span> </dl>                              | <span data-ttu-id="96826-124">La chaîne identifie un réseau IPv6 (préfixe requis ; port ou étendue-ID non autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-124">The string identifies an IPv6 network (prefix required; port or scope-id not allowed).</span></span><br/>                                                                              |
+| <span id="NET_STRING_NAMED_ADDRESS"></span><span id="net_string_named_address"></span><dl> <span data-ttu-id="96826-125"><dt>**\_chaîne réseau \_ nommée \_ Address**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-125"><dt>**NET\_STRING\_NAMED\_ADDRESS**</dt></span></span> </dl>                           | <span data-ttu-id="96826-126">La chaîne identifie un hôte Internet utilisant le DNS (le port ou le préfixe ou l’ID d’étendue n’est pas autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-126">The string identifies an Internet Host using the DNS(port or prefix or scope-id not allowed).</span></span><br/>                                                                       |
+| <span id="NET_STRING_NAMED_SERVICE"></span><span id="net_string_named_service"></span><dl> <span data-ttu-id="96826-127"><dt>**\_chaîne réseau \_ nommée \_ service**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-127"><dt>**NET\_STRING\_NAMED\_SERVICE**</dt></span></span> </dl>                           | <span data-ttu-id="96826-128">La chaîne identifie un service Internet utilisant DNS (port requis ; le préfixe ou l’ID d’étendue n’est pas autorisé).</span><span class="sxs-lookup"><span data-stu-id="96826-128">The string identifies an Internet service using DNS (port required; prefix or scope-id not allowed).</span></span><br/>                                                                |
+| <span id="NET_STRING_IP_ADDRESS"></span><span id="net_string_ip_address"></span><dl> <span data-ttu-id="96826-129"><dt>**\_ \_ adresse IP de la chaîne NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-129"><dt>**NET\_STRING\_IP\_ADDRESS**</dt></span></span> </dl>                                    | <span data-ttu-id="96826-130">Adresse IPv6 de la chaîne .net de l' \_ \_ \_ adresse IPv4 \| \_ \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="96826-130">NET\_STRING\_IPV4\_ADDRESS \| NET\_STRING\_IPV6\_ADDRESS.</span></span><br/>                                                                                                           |
+| <span id="NET_STRING_IP_ADDRESS_NO_SCOPE"></span><span id="net_string_ip_address_no_scope"></span><dl> <span data-ttu-id="96826-131"><dt>**l' \_ étendue de l' \_ \_ adresse IP \_ \_ de la chaîne net**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-131"><dt>**NET\_STRING\_IP\_ADDRESS\_NO\_SCOPE**</dt></span></span> </dl>       | <span data-ttu-id="96826-132">L’adresse IPv6 de la chaîne net de l’adresse IPv6 de la chaîne NET \_ \_ n’est pas une \_ \| \_ \_ \_ \_ \_ étendue.</span><span class="sxs-lookup"><span data-stu-id="96826-132">NET\_STRING\_IPV4\_ADDRESS \| NET\_STRING\_IPV6\_ADDRESS\_NO\_SCOPE.</span></span> <br/>                                                                                               |
+| <span id="NET_STRING_IP_SERVICE"></span><span id="net_string_ip_service"></span><dl> <span data-ttu-id="96826-133"><dt>**\_ \_ service IP de chaîne .NET \_**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-133"><dt>**NET\_STRING\_IP\_SERVICE**</dt></span></span> </dl>                                    | <span data-ttu-id="96826-134">Le \_ service IPv6 de chaîne net de \_ service IPv4 de chaîne NET \_ \| \_ \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="96826-134">NET\_STRING\_IPV4\_SERVICE \| NET\_STRING\_IPV6\_SERVICE.</span></span><br/>                                                                                                           |
+| <span id="NET_STRING_IP_SERVICE_NO_SCOPE"></span><span id="net_string_ip_service_no_scope"></span><dl> <span data-ttu-id="96826-135"><dt>**\_service IP de chaîne .NET \_ \_ \_ sans \_ étendue**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-135"><dt>**NET\_STRING\_IP\_SERVICE\_NO\_SCOPE**</dt></span></span> </dl>       | <span data-ttu-id="96826-136">\_chaîne réseau \_ nommée \_ address \| NET \_ String \_ \_ adresse IP \_ no \_ Scope.</span><span class="sxs-lookup"><span data-stu-id="96826-136">NET\_STRING\_NAMED\_ADDRESS \| NET\_STRING\_IP\_ADDRESS\_NO\_SCOPE.</span></span><br/>                                                                                                 |
+| <span id="NET_STRING_IP_NETWORK"></span><span id="net_string_ip_network"></span><dl> <span data-ttu-id="96826-137"><dt>**\_ \_ réseau IP de chaînes \_ réseau**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-137"><dt>**NET\_STRING\_IP\_NETWORK**</dt></span></span> </dl>                                    | <span data-ttu-id="96826-138">\_Réseau IPv6 de chaîne \_ réseau IPv4 \_ réseau IPv4 \| \_ \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="96826-138">NET\_STRING\_IPV4\_NETWORK \| NET\_STRING\_IPV6\_NETWORK.</span></span><br/>                                                                                                           |
+| <span id="NET_STRING_ANY_ADDRESS"></span><span id="net_string_any_address"></span><dl> <span data-ttu-id="96826-139"><dt>**\_chaîne NET \_ n’importe quelle \_ adresse**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-139"><dt>**NET\_STRING\_ANY\_ADDRESS**</dt></span></span> </dl>                                 | <span data-ttu-id="96826-140">\_chaîne réseau \_ nommée \_ address \| NET \_ String \_ \_ adresse IP.</span><span class="sxs-lookup"><span data-stu-id="96826-140">NET\_STRING\_NAMED\_ADDRESS \| NET\_STRING\_IP\_ADDRESS.</span></span><br/>                                                                                                            |
+| <span id="NET_STRING_ANY_ADDRESS_NO_SCOPE"></span><span id="net_string_any_address_no_scope"></span><dl> <span data-ttu-id="96826-141"><dt>**\_chaîne NET \_ any n' \_ adresse \_ aucune \_ étendue**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-141"><dt>**NET\_STRING\_ANY\_ADDRESS\_NO\_SCOPE**</dt></span></span> </dl>    | <span data-ttu-id="96826-142">\_chaîne réseau \_ nommée \_ address \| NET \_ String \_ \_ adresse IP \_ no \_ Scope.</span><span class="sxs-lookup"><span data-stu-id="96826-142">NET\_STRING\_NAMED\_ADDRESS \| NET\_STRING\_IP\_ADDRESS\_NO\_SCOPE.</span></span><br/>                                                                                                 |
+| <span id="NET_STRING_ANY_SERVICE"></span><span id="net_string_any_service"></span><dl> <span data-ttu-id="96826-143"><dt>**\_chaîne NET \_ Any \_ service**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-143"><dt>**NET\_STRING\_ANY\_SERVICE**</dt></span></span> </dl>                                 | <span data-ttu-id="96826-144">\_chaîne .NET \_ nommée \_ service \| NET \_ String \_ IP \_ service.</span><span class="sxs-lookup"><span data-stu-id="96826-144">NET\_STRING\_NAMED\_SERVICE \| NET\_STRING\_IP\_SERVICE.</span></span><br/>                                                                                                            |
+| <span id="NET_STRING_ANY_SERVICE_NO_SCOPE"></span><span id="net_string_any_service_no_scope"></span><dl> <span data-ttu-id="96826-145"><dt>**\_chaîne NET \_ Any \_ service \_ sans \_ étendue**</dt></span><span class="sxs-lookup"><span data-stu-id="96826-145"><dt>**NET\_STRING\_ANY\_SERVICE\_NO\_SCOPE**</dt></span></span> </dl>    | <span data-ttu-id="96826-146">\_chaîne réseau \_ nommée \_ address \| NET \_ String \_ \_ adresse IP \_ no \_ Scope.</span><span class="sxs-lookup"><span data-stu-id="96826-146">NET\_STRING\_NAMED\_ADDRESS \| NET\_STRING\_IP\_ADDRESS\_NO\_SCOPE.</span></span><br/>                                                                                                 |
+
+
+
+## <a name="remarks"></a><span data-ttu-id="96826-147">Notes</span><span class="sxs-lookup"><span data-stu-id="96826-147">Remarks</span></span>
+
+<span data-ttu-id="96826-148">Ces valeurs sont définies dans iphlpapi. h.</span><span class="sxs-lookup"><span data-stu-id="96826-148">These values are defined in Iphlpapi.h.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="96826-149">Spécifications</span><span class="sxs-lookup"><span data-stu-id="96826-149">Requirements</span></span>
+
+
+
+| <span data-ttu-id="96826-150">Condition requise</span><span class="sxs-lookup"><span data-stu-id="96826-150">Requirement</span></span> | <span data-ttu-id="96826-151">Valeur</span><span class="sxs-lookup"><span data-stu-id="96826-151">Value</span></span> |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| <span data-ttu-id="96826-152">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="96826-152">Minimum supported client</span></span><br/> | <span data-ttu-id="96826-153">Applications de \[ Bureau Windows Vista uniquement\]</span><span class="sxs-lookup"><span data-stu-id="96826-153">Windows Vista \[desktop apps only\]</span></span><br/>                                        |
+| <span data-ttu-id="96826-154">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="96826-154">Minimum supported server</span></span><br/> | <span data-ttu-id="96826-155">Applications de bureau Windows Server 2008 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="96826-155">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                  |
+| <span data-ttu-id="96826-156">En-tête</span><span class="sxs-lookup"><span data-stu-id="96826-156">Header</span></span><br/>                   | <dl> <span data-ttu-id="96826-157"><dt>Iphlpapi. h</dt></span><span class="sxs-lookup"><span data-stu-id="96826-157"><dt>Iphlpapi.h</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
