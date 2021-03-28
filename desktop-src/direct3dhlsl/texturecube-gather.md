@@ -1,0 +1,47 @@
+---
+title: 'TextureCube :: TextureCube, méthodes de regroupement'
+description: 'Retourne les quatre valeurs de Texel qui seraient utilisées dans une opération de filtrage bilinéaire. | TextureCube :: TextureCube, méthodes de regroupement'
+ms.assetid: 4891A62A-9D54-4F7E-92C2-9CDDF1453671
+keywords:
+- Méthodes de collecte HLSL
+topic_type:
+- apiref
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_name: ''
+api_location: ''
+ms.openlocfilehash: ce58acc01ef87e6d53d829a5c84e7c9c0ff6afb9
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "104974098"
+---
+# <a name="texturecubegather-methods"></a>TextureCube :: Gather, méthodes
+
+Retourne les quatre valeurs de Texel qui seraient utilisées dans une opération de filtrage bilinéaire.
+
+Pour plus d’informations sur la description de l’instruction DXBC sous-jacente, consultez la documentation sur [gather4](./gather4--sm5---asm-.md) .
+
+### <a name="overload-list"></a>Liste de surcharge
+
+
+
+| Méthode                                                     | Description                                                                                                              |
+|:-----------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------|
+| [**Regroupement (S, float)**](dx-graphics-hlsl-to-gather.md)      | Échantillonne une texture et retourne les quatre échantillons (composant rouge uniquement) qui sont utilisés pour l’interpolation bilinéaire.<br/> |
+| [**Gather (S, float, uint)**](tcube-gather-s-float-uint-.md) | Échantillonne une texture et retourne les quatre composants, ainsi que l’état de l’opération.<br/>                      |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**TextureCube**](texturecube.md)
+</dt> </dl>
+
+ 
+
