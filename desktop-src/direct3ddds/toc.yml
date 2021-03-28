@@ -1,0 +1,23 @@
+- name: DDS
+  href: dx-graphics-dds.md
+  items:
+    - name: Guide de programmation pour DDS
+      href: dx-graphics-dds-pguide.md
+      items:
+        - name: Exemple de texture DDS
+          href: dds-file-layout-for-textures.md
+        - name: Exemple de mappage de cube DDS
+          href: dds-file-layout-for-cubic-environment-maps.md
+        - name: Exemple de texture de volume DDS
+          href: dds-file-layout-for-volume-textures.md
+        - name: Valeurs d’indicateur de bit DDS
+          href: dds-bit-flag-values.md
+    - name: Référence pour DDS
+      href: dx-graphics-dds-reference.md
+      items:
+        - name: DDS_HEADER
+          href: dds-header.md
+        - name: DDS_HEADER_DXT10
+          href: dds-header-dxt10.md
+        - name: DDS_PIXELFORMAT
+          href: dds-pixelformat.md

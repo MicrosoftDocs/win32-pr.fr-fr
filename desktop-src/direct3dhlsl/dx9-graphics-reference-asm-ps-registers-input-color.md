@@ -1,0 +1,67 @@
+---
+title: Registre des couleurs d’entrée
+description: Registre d’entrée de nuanceur de pixels contenant la couleur du vertex.
+ms.assetid: d2e21f87-000e-410a-aaba-172000ed1c5f
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 73ea16c5aa6b49bce59fe51905734344e4e1cffb
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104380426"
+---
+# <a name="input-color-register"></a>Registre des couleurs d’entrée
+
+Registre d’entrée de nuanceur de pixels contenant la couleur du vertex.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```
+dcl v#.writeMask
+```
+
+
+
+où :
+
+-   [DCL-(SM2, SM3-PS ASM)](dcl---ps.md) est une instruction de déclaration de registre.
+-   v est un registre d’entrée et \# est le numéro du Registre. Le nombre de registres autorisés est déterminé par la version du nuanceur.
+-   writeMask détermine les composants (jusqu’à quatre) qui sont écrits. Les composants valides sont : (x, y, z, w) ou (r, g, b, a).
+
+## <a name="remarks"></a>Notes
+
+Les registres de couleurs sont des registres en lecture seule. Chaque registre contient des valeurs RVBA à quatre composants itérées à partir des vertex d’entrée. Ils ont une précision inférieure à la plupart des registres, garanti qu’ils disposent de 8 bits de données non signées dans la plage (0, + 1). Vous ne pouvez pas en utiliser plusieurs dans une seule instruction.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Inscrit](dx9-graphics-reference-asm-ps-registers.md)
+</dt> <dt>
+
+[registres PS 1 \_ \_ 1 PS 1 2 PS 1 \_ \_ \_ \_ \_ \_ \_ \_ 3 PS 1 \_ \_ \_ \_ 4](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)
+</dt> <dt>
+
+[\_registres PS 2 \_ 0](dx9-graphics-reference-asm-ps-registers-ps-2-0.md)
+</dt> <dt>
+
+[\_registres PS 2 \_ x](dx9-graphics-reference-asm-ps-registers-ps-2-x.md)
+</dt> <dt>
+
+[\_registres PS 3 \_ 0](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
