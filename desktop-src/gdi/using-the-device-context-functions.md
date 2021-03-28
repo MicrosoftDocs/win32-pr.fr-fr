@@ -1,0 +1,28 @@
+---
+description: Utilisation des fonctions de contexte de périphérique
+ms.assetid: 50a66d66-07e5-4cde-ae0b-13f626644719
+title: Utilisation des fonctions de contexte de périphérique
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6aea10a5c93938280781e957c77c0a59f4b16bce
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104034371"
+---
+# <a name="using-the-device-context-functions"></a>Utilisation des fonctions de contexte de périphérique
+
+-   [Obtention d’un contexte de périphérique d’affichage privé](obtaining-a-private-display-device-context.md)
+-   [Récupération des fonctionnalités d’une imprimante](retrieving-the-capabilities-of-a-printer.md)
+-   [Récupération des attributs de Graphic-Object et sélection de nouveaux objets graphiques](retrieving-graphic-object-attributes-and-selecting-new-graphic-objects.md)
+-   [Définition et récupération de la valeur de couleur du pinceau de contexte de périphérique](setting-and-retrieving-the-device-context-brush-color-value.md)
+-   [Définition de la couleur du stylet ou du pinceau](setting-the-pen-or-brush-color.md)
+-   [Obtention d’informations sur un moniteur d’affichage](getting-information-on-a-display-monitor.md)
+
+ 
+
+ 
+
+
+

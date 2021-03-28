@@ -1,0 +1,47 @@
+- name: API de compression
+  href: '-compression-portal.md'
+  items:
+    - name: Utilisation de l’API de compression
+      href: using-the-compression-api.md
+      items:
+        - name: Utilisation de l’API de compression en mode mémoire tampon
+          href: using-the-compression-api-in-buffer-mode.md
+        - name: Utilisation de l’API de compression en mode bloc
+          href: using-the-compression-api-in-block-mode.md
+    - name: Fonctions de l’API de compression
+      href: compression-api-functions.md
+      items:
+        - name: CloseCompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-closecompressor
+        - name: CloseDecompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-closedecompressor
+        - name: Compresser
+          href: /windows/desktop/api/compressapi/nf-compressapi-compress
+        - name: CreateCompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-createcompressor
+        - name: CreateDecompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-createdecompressor
+        - name: Décompresser
+          href: /windows/desktop/api/compressapi/nf-compressapi-decompress
+        - name: QueryCompressorInformation
+          href: /windows/desktop/api/compressapi/nf-compressapi-querycompressorinformation
+        - name: QueryDecompressorInformation
+          href: /windows/desktop/api/compressapi/nf-compressapi-querydecompressorinformation
+        - name: ResetCompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-resetcompressor
+        - name: ResetDecompressor
+          href: /windows/desktop/api/compressapi/nf-compressapi-resetdecompressor
+        - name: SetCompressorInformation
+          href: /windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation
+        - name: SetDecompressorInformation
+          href: /windows/desktop/api/compressapi/nf-compressapi-setdecompressorinformation
+    - name: Structures de l’API de compression
+      href: compression-api-structures.md
+      items:
+        - name: COMPRESS_ALLOCATION_ROUTINES
+          href: /windows/win32/api/compressapi/ns-compressapi-compress_allocation_routines
+    - name: Énumérations de l’API de compression
+      href: compression-api-enumerations.md
+      items:
+        - name: COMPRESS_INFORMATION_CLASS
+          href: /windows/desktop/api/compressapi/ne-compressapi-compress_information_class
