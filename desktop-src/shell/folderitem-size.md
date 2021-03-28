@@ -1,0 +1,165 @@
+---
+description: Contient la taille de l’élément.
+ms.assetid: 0eda405e-d54f-48d2-a060-a1fdcdb23785
+title: FolderItem. Size, propriété (shldisp. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- FolderItem.Size
+api_type:
+- COM
+api_location:
+- Shell32.dll
+ms.openlocfilehash: 5d44d1c1ddd9b46f768f218250802562f9a36312
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104524468"
+---
+# <a name="folderitemsize-property"></a>FolderItem. Size, propriété
+
+Contient la taille de l’élément.
+
+Cette propriété est en lecture seule.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```JScript
+iSize = FolderItem.Size
+```
+
+
+
+## <a name="property-value"></a>Valeur de la propriété
+
+**Entier** qui reçoit la taille de l’élément.
+
+## <a name="examples"></a>Exemples
+
+L’exemple suivant utilise **Size** pour récupérer la taille du fichier exécutable du bloc-notes. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+
+Langage
+
+
+```JScript
+<script language="JScript">
+    function fnFolderItemSizeJ()
+    {
+        var objShell = new ActiveXObject("shell.application");
+        var objFolder2;
+        var ssfWINDOWS = 36;
+        
+        objFolder2 = objShell.NameSpace(ssfWINDOWS);
+        if (objFolder2 != null)
+        {
+            var objFolderItem;
+            
+            objFolderItem = objFolder2.ParseName("NOTEPAD.EXE");
+            if (objFolderItem != null)
+            {
+                var szReturn;
+                
+                szReturn = objFolderItem.Size;
+            }
+        }
+    }
+</script>
+```
+
+
+
+VBScript
+
+
+```VB
+ <script language="VBScript">
+    function fnFolderItemSizeVB()
+        dim objShell
+        
+        set objShell = CreateObject("shell.application")
+        if (not objShell is nothing) then
+            dim objFolder2
+            dim ssfWINDOWS
+                
+            ssfWINDOWS = 36
+            set objFolder2 = objShell.NameSpace(ssfWINDOWS)
+            if (not objFolder2 is nothing) then
+                dim objFolderItem
+                        
+                set objFolderItem = objFolder2.ParseName("NOTEPAD.EXE")
+                if (not objFolderItem is nothing) then
+                    dim szReturn
+                                
+                    szReturn = objFolderItem.Size
+                end if
+                set objFolderItem = nothing
+            end if
+            set objFolder2 = nothing
+        end if
+        set objShell = nothing
+    end function
+ </script>
+```
+
+
+
+Visual Basic :
+
+
+```VB
+Private Sub fnFolderItemSizeVB()
+    Dim objShell   As Shell
+    Dim objFolder2 As Folder2
+    Dim ssfWINDOWS As Long
+    
+    ssfWINDOWS = 36
+    Set objShell = New Shell
+    Set objFolder2 = objShell.NameSpace(ssfWINDOWS)
+        If (Not objFolder2 Is Nothing) Then
+            Dim objFolderItem As FolderItem
+            
+            Set objFolderItem = objFolder2.ParseName("NOTEPAD.EXE")
+                If (Not objFolderItem Is Nothing) Then
+                    Dim szReturn As String
+                    
+                    szReturn = objFolderItem.Size
+                Else
+                    'FolderItem object returned nothing.
+                End If
+            Set objFolderItem = Nothing
+        Else
+            'Folder object returned nothing.
+        End If
+    Set objFolder2 = Nothing
+    Set objShell = Nothing
+End Sub
+```
+
+
+
+## <a name="requirements"></a>Spécifications
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
+| En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
+| MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |
+| DLL<br/>                      | <dl> <dt>Shell32.dll (version 4,71 ou ultérieure)</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
