@@ -1,0 +1,1570 @@
+- name: Appel de procédure distante (RPC)
+  href: rpc-start-page.md
+  items:
+    - name: Meilleures pratiques de programmation RPC
+      href: best-rpc-programming-practices.md
+      items:
+        - name: Appels de fonction RPC
+          href: making-rpc-function-calls.md
+          items:
+            - name: Utilisation de handles de liaison et exécution d’appels RPC
+              href: using-binding-handles-and-making-rpc-calls.md
+            - name: Choix du type de descripteurs de liaison à utiliser
+              href: choosing-the-type-of-binding-handles-to-use.md
+            - name: Choix d’une séquence de protocole
+              href: choosing-a-protocol-sequence.md
+            - name: Utiliser des handles de contexte pour conserver l’État sur le serveur
+              href: use-context-handles-for-keeping-state-on-the-server.md
+            - name: Indiquer les erreurs par exceptions
+              href: indicate-errors-by-exceptions.md
+        - name: Utilisation de handles de contexte
+          href: using-context-handles.md
+          items:
+            - name: Conservation de l’État sur le serveur entre les appels
+              href: maintaining-state-on-the-server-between-calls.md
+            - name: Déchargement d’un serveur avec des handles de contexte en attente
+              href: unloading-a-server-with-outstanding-context-handles.md
+            - name: Utilisation de plusieurs handles de contexte par appel
+              href: using-more-than-one-context-handle-per-call.md
+            - name: Sémantique d’échec pour les handles de contexte
+              href: failure-semantics-for-context-handles.md
+        - name: RPC et le réseau
+          href: rpc-and-the-network.md
+          items:
+            - name: Développement et déploiement sur le réseau
+              href: development-versus-deployment-in-the-network.md
+            - name: Prévention des blocages côté client
+              href: preventing-client-side-hangs.md
+            - name: Gestion des groupes de connexions réseau (associations)
+              href: managing-network-connection-sets-associations-.md
+            - name: Nettoyage des connexions inactives
+              href: idle-connection-cleanup.md
+            - name: Gestion de la perte de connectivité
+              href: dealing-with-loss-of-connectivity.md
+            - name: Nettoyage côté serveur
+              href: server-side-cleanup.md
+        - name: Écriture de clients et de serveurs à compatibilité descendante
+          href: writing-backward-compatible-clients-and-servers.md
+          items:
+            - name: La théorie de la gestion des versions pour RPC et COM
+              href: the-versioning-theory-for-rpc-and-com.md
+            - name: Modification des interfaces d’une manière à compatibilité descendante
+              href: changing-interfaces-in-a-backward-compatible-manner.md
+            - name: Exemples de modifications incompatibles
+              href: examples-of-incompatible-changes.md
+        - name: Écriture d’un client ou d’un serveur RPC sécurisé
+          href: writing-a-secure-rpc-client-or-server.md
+          items:
+            - name: Le fournisseur de sécurité à utiliser
+              href: which-security-provider-to-use.md
+            - name: Contrôle de l’authentification du client
+              href: controlling-client-authentication.md
+            - name: Choix d’un niveau d’authentification
+              href: choosing-an-authentication-level.md
+            - name: Choix des options de QOS de sécurité
+              href: choosing-security-qos-options.md
+            - name: "Erreur courante\_: en supposant que RpcServerRegisterAuthInfo empêche les utilisateurs non autorisés d’appeler votre serveur"
+              href: common-mistake-assuming-rpcserverregisterauthinfo-prevents-unauthorized-users-from-calling-your-server.md
+            - name: Rappels
+              href: callbacks.md
+            - name: Sessions null
+              href: null-sessions.md
+            - name: Utiliser l’indicateur/Robust
+              href: use-the-robust-flag.md
+            - name: Handles de contexte strict et strict
+              href: strict-and-type-strict-context-handles.md
+            - name: Ne pas faire confiance à votre homologue
+              href: do-not-trust-your-peer.md
+            - name: Ne pas utiliser la sécurité du point de terminaison
+              href: do-not-use-endpoint-security.md
+            - name: Méfiez-vous des autres points de terminaison RPC s’exécutant dans le même processus
+              href: be-wary-of-other-rpc-endpoints-running-in-the-same-process.md
+            - name: Vérifier que le serveur est bien celui qu’il prétend être
+              href: verify-the-server-is-who-it-claims-to-be.md
+            - name: Utiliser des séquences de protocole courantes
+              href: use-mainstream-protocol-sequences.md
+            - name: "Quelle est la sécurité de mon serveur RPC maintenant\_?"
+              href: how-secure-is-my-rpc-server-now.md
+            - name: Techniques IDL pour une meilleure conception d’interface et de méthode
+              href: idl-techniques-for-better-interface-and-method-design.md
+        - name: Développement d’un serveur RPC à hautes performances
+          href: developing-a-high-performance-rpc-server.md
+          items:
+            - name: Latence et débit du réseau
+              href: network-latency-and-throughput.md
+            - name: Extensibilité
+              href: scalability.md
+            - name: Conseils sur les performances des appels RPC divers
+              href: miscellaneous-rpc-performance-tips.md
+        - name: Obtention d’informations sur les erreurs RPC étendues
+          href: obtaining-extended-rpc-error-information.md
+          items:
+            - name: Besoin d’informations d’erreur étendues
+              href: the-need-for-extended-error-information.md
+            - name: Sécurité et informations d’erreur étendues
+              href: security-and-extended-error-information.md
+            - name: Activation des informations d’erreur étendues
+              href: enabling-extended-error-information.md
+            - name: Description des informations d’erreur étendues
+              href: understanding-extended-error-information.md
+            - name: Fiabilité des informations d’erreur étendues
+              href: reliability-of-extended-error-information.md
+            - name: Indépendance par rapport aux autres composants
+              href: independence-from-other-components.md
+            - name: Informations d’erreur étendues pour l’utilisateur
+              href: extended-error-information-for-the-user.md
+            - name: Informations d’erreur étendues pour le serveur ou l’application
+              href: extended-error-information-for-the-server-or-application.md
+              items:
+                - name: Génération des informations d’erreur
+                  href: generating-error-information.md
+                - name: Propagation des informations d’erreur
+                  href: propagating-error-information.md
+                - name: Mise à disposition des informations d’erreur pour l’utilisateur
+                  href: making-error-information-available-to-the-user.md
+            - name: Emplacements de détection des informations d’erreur étendues
+              href: extended-error-information-detection-locations.md
+    - name: Vues d'ensemble
+      href: overviews.md
+      items:
+        - name: Modèle Microsoft RPC
+          href: microsoft-rpc-model.md
+          items:
+            - name: Le modèle de programmation
+              href: the-programming-model.md
+            - name: Modèle pour les systèmes distribués
+              href: the-model-for-distributed-systems.md
+              items:
+                - name: Implémentation d’un système distribué
+                  href: implementing-a-distributed-system.md
+            - name: Fonctionnement de RPC
+              href: how-rpc-works.md
+            - name: Composants Microsoft RPC
+              href: microsoft-rpc-components.md
+        - name: Installation de l’environnement de programmation RPC
+          href: installing-the-rpc-programming-environment.md
+          items:
+            - name: Développement d’applications Windows RPC
+              href: developing-32-bit-windows-applications.md
+        - name: Génération d’applications RPC
+          href: building-rpc-applications.md
+          items:
+            - name: Procédure de génération générale
+              href: general-build-procedure.md
+              items:
+                - name: Développement de l’interface
+                  href: developing-the-interface.md
+                  items:
+                    - name: Génération d’UUID d’interface
+                      href: generating-interface-uuids.md
+                    - name: Utilisation de MIDL
+                      href: using-midl.md
+                - name: Développement du serveur
+                  href: developing-the-server.md
+                - name: Développement du client
+                  href: developing-the-client.md
+            - name: Gestion des exceptions
+              href: exception-handling.md
+        - name: Connexion du client et du serveur
+          href: connecting-the-client-and-the-server.md
+          items:
+            - name: Terminologie des liaisons RPC essentielles
+              href: essential-rpc-binding-terminology.md
+            - name: Préparation d’une connexion par le serveur
+              href: how-the-server-prepares-for-a-connection.md
+              items:
+                - name: Inscription de l’interface
+                  href: registering-the-interface.md
+                - name: Mise à disposition du serveur sur le réseau
+                  href: making-the-server-available-on-the-network.md
+                - name: Inscription des points de terminaison
+                  href: registering-endpoints.md
+                - name: Écoute des appels clients
+                  href: listening-for-client-calls.md
+            - name: Comment le client établit une connexion
+              href: how-the-client-establishes-a-connection.md
+              items:
+                - name: Création d’un handle de liaison
+                  href: creating-a-binding-handle.md
+                - name: Exécution d’un appel de procédure distante
+                  href: making-a-remote-procedure-call.md
+                - name: Recherche du programme serveur
+                  href: finding-the-server-program.md
+                - name: Envoi de l’appel au programme serveur
+                  href: sending-the-call-to-the-server-program.md
+        - name: Didacticiel
+          href: tutorial.md
+          items:
+            - name: Application autonome
+              href: the-standalone-application.md
+            - name: Définition de l’interface
+              href: defining-the-interface.md
+            - name: Génération de l’UUID
+              href: generating-the-uuid.md
+            - name: Fichier IDL
+              href: the-idl-file.md
+            - name: Fichier ACF
+              href: the-acf-file.md
+            - name: Génération des fichiers stub
+              href: generating-the-stub-files.md
+            - name: L'application cliente
+              href: the-client-application.md
+            - name: Application serveur
+              href: the-server-application.md
+            - name: Arrêt de l’application serveur
+              href: stopping-the-server-application.md
+            - name: Compilation et liaison
+              href: compiling-and-linking.md
+            - name: Exécution de l'application
+              href: running-the-application.md
+        - name: Fichiers IDL et ACF
+          href: the-idl-and-acf-files.md
+          items:
+            - name: Fichier IDL (Interface Definition Language)
+              href: the-interface-definition-language-idl-file.md
+              items:
+                - name: En-tête d’interface IDL
+                  href: the-idl-interface-header.md
+                - name: Corps de l’interface IDL
+                  href: the-idl-interface-body.md
+            - name: Fichier de configuration de l’application (ACF)
+              href: the-application-configuration-file-acf-.md
+              items:
+                - name: En-tête ACF
+                  href: the-acf-header.md
+                - name: Corps ACF
+                  href: the-acf-body.md
+            - name: Sortie du compilateur MIDL
+              href: midl-compiler-output.md
+        - name: Fonctionnalités de langage et de données
+          href: data-and-language-features.md
+          items:
+            - name: Typage fort
+              href: strong-typing.md
+              items:
+                - name: Types de base
+                  href: base-types.md
+                - name: Types signés et non signés
+                  href: signed-and-unsigned-types.md
+                - name: Types de Wide-Character
+                  href: wide-character-types.md
+                - name: Structures
+                  href: structures.md
+                - name: Unions
+                  href: unions.md
+                - name: Types énumérés
+                  href: enumerated-types.md
+                - name: Tableaux
+                  href: arrays.md
+                - name: Attributs de fonctions
+                  href: function-attributes.md
+                - name: Attributs de champ
+                  href: field-attributes.md
+                - name: Trois types pointeur
+                  href: three-pointer-types.md
+                - name: Attributs de type
+                  href: type-attributes.md
+            - name: Attributs directionnels (paramètre)
+              href: directional-parameter-attributes.md
+            - name: Représentation des données
+              href: data-representation.md
+              items:
+                - name: Attributs transmit_as et represent_as
+                  href: the-transmit-as-and-represent-as-attributes.md
+                  items:
+                    - name: Attribut transmit_as
+                      href: the-transmit-as-attribute.md
+                    - name: Fonction type_to_xmit
+                      href: the-type-to-xmit-function.md
+                    - name: Fonction type_from_xmit
+                      href: the-type-from-xmit-function.md
+                    - name: Fonction type_free_xmit
+                      href: the-type-free-xmit-function.md
+                    - name: Fonction type_free_inst
+                      href: the-type-free-inst-function.md
+                    - name: Attribut represent_as
+                      href: the-represent-as-attribute.md
+                    - name: Fonction named_type_from_local
+                      href: the-named-type-from-local-function.md
+                    - name: Fonction named_type_to_local
+                      href: the-named-type-to-local-function.md
+                    - name: Fonction named_type_free_local
+                      href: the-named-type-free-local-function.md
+                    - name: Fonction named_type_free_inst
+                      href: the-named-type-free-inst-function.md
+                - name: Attributs wire_marshal et user_marshal
+                  href: the-wire-marshal-and-user-marshal-attributes.md
+                  items:
+                    - name: Attribut wire_marshal
+                      href: the-wire-marshal-attribute.md
+                    - name: Attribut user_marshal
+                      href: the-user-marshal-attribute.md
+                    - name: Fonction type_UserSize
+                      href: the-type-usersize-function.md
+                    - name: Fonction type_UserMarshal
+                      href: the-type-usermarshal-function.md
+                    - name: Fonction type_UserUnmarshal
+                      href: the-type-userunmarshal-function.md
+                    - name: Fonction type_UserFree
+                      href: the-type-userfree-function.md
+                    - name: Règles de marshaling pour user_marshal et wire_marshal
+                      href: marshaling-rules-for-user-marshal-and-wire-marshal.md
+        - name: Tableaux et pointeurs
+          href: arrays-and-pointers.md
+          items:
+            - name: Tableaux et RPC
+              href: arrays-and-rpc.md
+              items:
+                - name: Genres de tableaux
+                  href: kinds-of-arrays.md
+                  items:
+                    - name: Tableaux fixes
+                      href: fixed-arrays.md
+                    - name: Tableaux variables
+                      href: varying-arrays.md
+                    - name: Tableaux conformes
+                      href: conformant-arrays.md
+                - name: Attributs de tableau
+                  href: array-attributes.md
+                  items:
+                    - name: Attributs de tableau MIDL utilisés dans RPC
+                      href: midl-array-attributes-used-in-rpc.md
+                    - name: 'Le [size_is'
+                      href: the-size-is-attribute.md
+                    - name: 'Le [length_is'
+                      href: the-length-is-attribute.md
+                    - name: 'Le [first_is'
+                      href: the-first-is-and-last-is-attributes.md
+                    - name: 'Le [max_is'
+                      href: the-max-is-attribute.md
+                    - name: Combinaison d’attributs de tableau
+                      href: combining-array-attributes.md
+                    - name: '[Chaîne'
+                      href: the-string-attribute-in-arrays.md
+                - name: Tableaux multidimensionnels
+                  href: multidimensional-arrays.md
+            - name: Pointeurs et RPC
+              href: pointers-and-rpc.md
+              items:
+                - name: Genres de pointeurs
+                  href: kinds-of-pointers.md
+                  items:
+                    - name: Pointeurs de référence
+                      href: reference-pointers.md
+                    - name: Pointeurs uniques
+                      href: unique-pointers.md
+                    - name: Pointeurs complets
+                      href: full-pointers.md
+                - name: Pointeurs et allocation de mémoire
+                  href: pointers-and-memory-allocation.md
+                - name: Types de pointeurs par défaut
+                  href: default-pointer-types.md
+                - name: Héritage de type de Pointer-Attribute
+                  href: pointer-attribute-type-inheritance.md
+            - name: 'Utilisation de tableaux, de chaînes et de pointeurs'
+              href: using-arrays-strings-and-pointers.md
+              items:
+                - name: Tableaux de caractères comptés
+                  href: counted-character-arrays.md
+                  items:
+                    - name: '[in, out, size_is'
+                      href: '-in-out-size-is-prototype.md'
+                    - name: '[in, size_is et out, size_is'
+                      href: '-in-size-is-and-out-size-is-prototype.md'
+                - name: Chaînes
+                  href: strings.md
+                  items:
+                    - name: '[in, out, chaîne'
+                      href: '-in-out-string-prototype.md'
+                    - name: '[in, chaîne'
+                      href: '-in-string-and-out-string-prototype.md'
+                - name: Plusieurs niveaux de pointeurs
+                  href: multiple-levels-of-pointers.md
+        - name: Canaux
+          href: pipes.md
+          items:
+            - name: Terminologie des canaux essentiels
+              href: essential-pipe-terminology.md
+            - name: État du canal
+              href: the-pipe-state.md
+            - name: Définition de canaux dans des fichiers IDL
+              href: defining-pipes-in-idl-files.md
+            - name: Implémentation du canal Client-Side
+              href: client-side-pipe-implementation.md
+              items:
+                - name: Implémentation de canaux d’entrée sur le client
+                  href: implementing-input-pipes-on-the-client.md
+                - name: Implémentation de canaux de sortie sur le client
+                  href: implementing-output-pipes-on-the-client.md
+            - name: Implémentation du canal Server-Side
+              href: server-side-pipe-implementation.md
+              items:
+                - name: Implémentation de canaux d’entrée sur le serveur
+                  href: implementing-input-pipes-on-the-server.md
+                - name: Implémentation de canaux de sortie sur le serveur
+                  href: implementing-output-pipes-on-the-server.md
+            - name: Règles pour plusieurs canaux
+              href: rules-for-multiple-pipes.md
+            - name: Combinaison de paramètres de canal et de pas de canal
+              href: combining-pipe-and-nonpipe-parameters.md
+        - name: Liaison et Handles
+          href: binding-and-handles.md
+          items:
+            - name: Handles de liaison
+              href: binding-handles.md
+              items:
+                - name: Types de handles de liaison
+                  href: types-of-binding-handles.md
+                  items:
+                    - name: Handles de liaison automatiques
+                      href: automatic-binding-handles.md
+                    - name: Handles de liaison implicites
+                      href: implicit-binding-handles.md
+                    - name: Handles de liaison explicites
+                      href: explicit-binding-handles.md
+                    - name: Handles de liaison primitifs et personnalisés
+                      href: primitive-and-custom-binding-handles.md
+                - name: Liaison côté client
+                  href: client-side-binding.md
+                  items:
+                    - name: Sélection d’une séquence de protocole
+                      href: selecting-a-protocol-sequence.md
+                    - name: Recherche de systèmes hôtes serveur
+                      href: finding-server-host-systems.md
+                    - name: Recherche de points de terminaison
+                      href: finding-endpoints.md
+                - name: Liaison côté serveur
+                  href: server-side-binding.md
+                  items:
+                    - name: Inscription des interfaces
+                      href: registering-interfaces.md
+                    - name: Spécification de séquences de protocole
+                      href: specifying-protocol-sequences.md
+                    - name: Spécification des points de terminaison
+                      href: specifying-endpoints.md
+                    - name: Interfaces de serveur de publicité
+                      href: advertising-server-interfaces.md
+                    - name: Écoute des appels de procédure distante
+                      href: listening-for-remote-procedure-calls.md
+                - name: Handles entièrement et partiellement liés
+                  href: fully-and-partially-bound-handles.md
+                - name: Interprétation des informations de liaison
+                  href: interpreting-binding-information.md
+                - name: Extensions de Binding-Handle Microsoft RPC
+                  href: microsoft-rpc-binding-handle-extensions.md
+                - name: Fonctions de handle de liaison
+                  href: binding-handle-functions.md
+                - name: Base de données Name-Service RPC
+                  href: the-rpc-name-service-database.md
+                  items:
+                    - name: Instructions pour les applications Name-Service
+                      href: name-service-application-guidelines.md
+                    - name: Vue d’ensemble de l’entrée Service Name
+                      href: an-overview-of-the-name-service-entry.md
+                    - name: Critères pour les entrées de service de nom
+                      href: criteria-for-name-service-entries.md
+                    - name: Nettoyage de l’entrée du service de noms
+                      href: name-service-entry-cleanup.md
+                    - name: Ce qui se passe lors d’une requête
+                      href: what-happens-during-a-query.md
+                    - name: Utilisation de Microsoft Locator
+                      href: using-microsoft-locator.md
+                    - name: Utilisation des service d’annuaire de cellules/service d’annuaires de cellules (CDS)
+                      href: using-the-cell-directory-service-cds-.md
+                    - name: Syntaxe de nom
+                      href: name-syntax.md
+            - name: Handles de contexte
+              href: context-handles.md
+              items:
+                - name: Développement d’interface à l’aide de handles de contexte
+                  href: interface-development-using-context-handles.md
+                - name: Développement de serveurs à l’aide de handles de contexte
+                  href: server-development-using-context-handles.md
+                - name: Développement de clients à l’aide de handles de contexte
+                  href: client-development-using-context-handles.md
+                - name: Routine d’exécution du contexte de serveur
+                  href: server-context-run-down-routine.md
+                - name: Réinitialisation du contexte client
+                  href: client-context-reset.md
+                - name: Clients multithread et handles de contexte
+                  href: multithreaded-clients-and-context-handles.md
+        - name: Gestion de la mémoire
+          href: memory-management.md
+          items:
+            - name: Présentation de la gestion de la mémoire RPC
+              href: introduction-to-rpc-memory-management.md
+            - name: Comment la mémoire est allouée et désallouée
+              href: how-memory-is-allocated-and-deallocated.md
+              items:
+                - name: Fonction midl_user_allocate
+                  href: the-midl-user-allocate-function.md
+                - name: Fonction midl_user_free
+                  href: the-midl-user-free-function.md
+                - name: Package de gestion de mémoire RpcSs
+                  href: rpcss-memory-management-package.md
+            - name: Modèles de Memory-Management
+              href: memory-management-models.md
+              items:
+                - name: Allocation et désallocation de nœud par nœud
+                  href: node-by-node-allocation-and-deallocation.md
+                - name: Mémoires tampons de Stub-Allocated
+                  href: stub-allocated-buffers.md
+                - name: Gestion de la mémoire stub serveur
+                  href: server-stub-memory-management.md
+                - name: Mémoire tampon de Application-Allocated
+                  href: application-allocated-buffer.md
+                - name: Stockage persistant sur le serveur
+                  href: persistent-storage-on-the-server.md
+            - name: "Qui gère la mémoire\_?"
+              href: who-manages-memory-.md
+              items:
+                - name: Pointeurs Top-Level et incorporés
+                  href: top-level-and-embedded-pointers.md
+                - name: Attributs directionnels appliqués au paramètre
+                  href: directional-attributes-applied-to-the-parameter.md
+                - name: 'Attributs de longueur, de taille et d’orientation'
+                  href: length-size-and-directional-attributes.md
+                - name: Attributs de pointeur appliqués au paramètre
+                  href: pointer-attributes-applied-to-the-parameter.md
+                - name: Combinaison d’attributs pointeur et directionnel
+                  href: combining-pointer-and-directional-attributes.md
+                  items:
+                    - name: Pointeurs de référence Out-Only incorporés
+                      href: embedded-out-only-reference-pointers.md
+                    - name: Out-Only paramètres de pointeur unique ou complet non acceptés
+                      href: out-only-unique-or-full-pointer-parameters-not-accepted.md
+                - name: Protection de la mémoire tampon MCCP
+                  href: mccp-buffer-protection.md
+                - name: Valeurs de retour de fonction
+                  href: function-return-values.md
+            - name: Mémoire orpheline
+              href: memory-orphaning.md
+            - name: Résumé des règles d’allocation de mémoire
+              href: summary-of-memory-allocation-rules.md
+        - name: Services de sérialisation
+          href: serialization-services.md
+          items:
+            - name: Utilisation des services de sérialisation
+              href: using-serialization-services.md
+            - name: Sérialisation de procédure
+              href: procedure-serialization.md
+            - name: Sérialisation de type
+              href: type-serialization.md
+            - name: Handles de sérialisation
+              href: serialization-handles.md
+              items:
+                - name: Descripteurs implicites et explicites
+                  href: implicit-versus-explicit-handles.md
+                - name: Styles de sérialisation
+                  href: serialization-styles.md
+                  items:
+                    - name: Sérialisation de mémoire tampon fixe
+                      href: fixed-buffer-serialization.md
+                    - name: Sérialisation de mémoire tampon dynamique
+                      href: dynamic-buffer-serialization.md
+                    - name: Sérialisation incrémentielle
+                      href: incremental-serialization.md
+                      items:
+                        - name: Exemples d’encodage incrémentiel
+                          href: examples-of-incremental-encoding.md
+                - name: Obtention d’une identité d’encodage
+                  href: obtaining-an-encoding-identity.md
+        - name: Sécurité
+          href: security.md
+          items:
+            - name: Notions fondamentales de la sécurité RPC
+              href: rpc-security-essentials.md
+              items:
+                - name: Noms principaux
+                  href: principal-names.md
+                - name: Niveaux d’authentification
+                  href: authentication-levels.md
+                - name: Services d'authentification
+                  href: authentication-services.md
+                - name: Informations d’identification d’authentification du client
+                  href: client-authentication-credentials.md
+                - name: Services d’autorisation
+                  href: authorization-services.md
+                - name: Qualité de service
+                  href: quality-of-service.md
+                - name: Fonctions d’autorisation
+                  href: authorization-functions.md
+                - name: Fonctions d’acquisition de clé
+                  href: key-acquisition-functions.md
+                - name: Emprunt d'identité de client
+                  href: client-impersonation.md
+            - name: Méthodes de sécurité
+              href: security-methods.md
+              items:
+                - name: interface du fournisseur de la prise en charge de la sécurité (Security Support Provider Interface ou SSPI)
+                  href: security-support-provider-interface-sspi-.md
+                  items:
+                    - name: Vue d’ensemble de l’architecture SSPI
+                      href: sspi-architectural-overview.md
+                    - name: Fournisseurs de support de sécurité (SSP)
+                      href: security-support-providers-ssps-.md
+                    - name: Écriture d’un client SSPI authentifié
+                      href: writing-an-authenticated-sspi-client.md
+                    - name: Écriture d’un serveur SSPI authentifié
+                      href: writing-an-authenticated-sspi-server.md
+                - name: Sécurité de transport
+                  href: transport-security.md
+                  items:
+                    - name: Utilisation de la sécurité au niveau du transport sur le serveur
+                      href: using-transport-level-security-on-the-server.md
+                    - name: Utilisation de Transport-Level sécurité sur le client
+                      href: using-transport-level-security-on-the-client.md
+        - name: Installation et configuration des applications RPC
+          href: installing-and-configuring-rpc-applications.md
+          items:
+            - name: Configuration du fournisseur de services de noms
+              href: configuring-the-name-service-provider.md
+              items:
+                - name: Configuration du service de noms
+                  href: configuring-the-name-service-for-windows-xp-windows-2000-or-windows-nt.md
+                - name: Configuration du service de noms pour Windows 95
+                  href: configuring-the-name-service-for-windows-95.md
+                  items:
+                    - name: Modification du registre de Windows 95
+                      href: editing-the-windows-95-registry.md
+                - name: Configuration du service de noms pour Windows 3. x ou MS-DOS
+                  href: configuring-the-name-service-for-windows-3-x-or-ms-dos.md
+                  items:
+                    - name: Configuration du fournisseur de services Microsoft Locator Name
+                      href: configuring-the-microsoft-locator-name-service-provider.md
+                    - name: Configuration du fournisseur de Name-Service CDS DCE
+                      href: configuring-the-dce-cds-name-service-provider.md
+                - name: Démarrage et arrêt de Microsoft Locator
+                  href: starting-and-stopping-microsoft-locator.md
+            - name: Informations de Registre
+              href: registry-information.md
+              items:
+                - name: Configuration du Registre pour les allocations de port et la liaison sélective
+                  href: configuring-the-windows-xp-2000-nt-registry-for-port-allocations-and-selective-binding.md
+            - name: Utilisation de RPC avec le proxy Winsock
+              href: using-rpc-with-winsock-proxy.md
+            - name: Installation de SPX/IPX
+              href: spx-ipx-installation.md
+              items:
+                - name: Configuration de RPC pour SPX/IPX
+                  href: configuring-rpc-for-spx-ipx.md
+                - name: Configuration de SAP et RPC
+                  href: configuring-sap-and-rpc.md
+            - name: Configuration du serveur de sécurité
+              href: configuring-the-security-server.md
+        - name: RPC asynchrone
+          href: asynchronous-rpc.md
+          items:
+            - name: État de l’appel asynchrone
+              href: asynchronous-call-state.md
+            - name: Déclaration de fonctions asynchrones
+              href: declaring-asynchronous-functions.md
+            - name: RPC asynchrone côté client
+              href: client-side-asynchronous-rpc.md
+              items:
+                - name: Exécution de l’appel asynchrone
+                  href: making-the-asynchronous-call.md
+                - name: En attente de la réponse asynchrone
+                  href: waiting-for-the-asynchronous-reply.md
+                - name: Réception de la réponse asynchrone
+                  href: receiving-the-asynchronous-reply.md
+            - name: RPC asynchrone côté serveur
+              href: server-side-asynchronous-rpc.md
+              items:
+                - name: Gestion des appels asynchrones
+                  href: handling-asynchronous-calls.md
+                - name: Réception des annulations
+                  href: receiving-cancellations.md
+                - name: Envoi de la réponse asynchrone
+                  href: sending-the-asynchronous-reply.md
+                - name: E/s asynchrones et RPC asynchrone
+                  href: asynchronous-i-o-and-asynchronous-rpc.md
+            - name: Ordre de causalité des appels asynchrones
+              href: causal-ordering-of-asynchronous-calls.md
+            - name: Gestion des erreurs
+              href: error-handling.md
+            - name: RPC asynchrone sur le protocole Named-Pipe
+              href: asynchronous-rpc-over-the-named-pipe-protocol.md
+            - name: Utilisation de RPC asynchrone avec les canaux DCE
+              href: using-asynchronous-rpc-with-dce-pipes.md
+              items:
+                - name: Canaux asynchrones
+                  href: asynchronous-pipes.md
+                - name: Déclaration de canaux asynchrones
+                  href: declaring-asynchronous-pipes.md
+                - name: Gestion de canal asynchrone côté client
+                  href: client-side-asynchronous-pipe-handling.md
+                - name: Gestion de canal asynchrone côté serveur
+                  href: server-side-asynchronous-pipe-handling.md
+                - name: État du canal asynchrone
+                  href: asynchronous-pipe-state.md
+            - name: DCOM asynchrone
+              href: asynchronous-dcom.md
+        - name: Message Queuing RPC
+          href: rpc-message-queuing.md
+          items:
+            - name: Vue d’ensemble de l’architecture des services Message Queuing
+              href: overview-of-message-queuing-services-architecture.md
+            - name: Propriétés des messages et des files d’attente de messages
+              href: message-and-message-queue-properties.md
+            - name: Utilisation de MSMQ en tant que transport RPC
+              href: using-msmq-as-an-rpc-transport.md
+            - name: Configuration système requise pour les applications RPC-Message Queuing
+              href: system-requirements-for-rpc-message-queuing-applications.md
+            - name: Développement d’applications de mise en file d’attente RPC-Message
+              href: developing-rpc-message-queuing-applications.md
+            - name: Services de sécurité MSMQ
+              href: msmq-security-services.md
+        - name: Appels de procédure distante à l’aide de RPC sur HTTP
+          href: remote-procedure-calls-using-rpc-over-http.md
+          items:
+            - name: Utilisation de HTTP comme transport RPC
+              href: using-http-as-an-rpc-transport.md
+            - name: Sécurité RPC sur HTTP
+              href: rpc-over-http-security.md
+            - name: 'Configuration système requise pour RPC sur HTTP, interopérabilité'
+              href: system-requirements-and-interoperability-for-rpc-over-http.md
+            - name: Configuration des ordinateurs pour RPC sur HTTP
+              href: configuring-computers-for-rpc-over-http.md
+            - name: Recommandations relatives au déploiement de RPC sur HTTP
+              href: rpc-over-http-deployment-recommendations.md
+        - name: Équilibrage de charge RPC
+          href: rpc-load-balancing.md
+          items:
+            - name: Déploiement de l’équilibrage de charge
+              href: deploying-load-balancing.md
+            - name: Configuration de l’équilibrage de charge
+              href: configuring-load-balancing.md
+            - name: Meilleures pratiques relatives à l’équilibrage de charge
+              href: load-balancing-best-practices.md
+        - name: Exemples
+          href: examples.md
+    - name: Référence
+      href: reference.md
+      items:
+        - name: 'Types de données, structures et constantes RPC'
+          href: rpc-data-types-structures-and-constants.md
+          items:
+            - name: Structures RPC
+              href: rpc-structures.md
+              items:
+                - name: NDR_SCONTEXT
+                  href: /previous-versions/aa374336(v=vs.80)
+                - name: GUID
+                  href: /windows/win32/api/guiddef/ns-guiddef-guid
+                - name: NDR_USER_MARSHAL_INFO
+                  href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info
+                - name: NDR_USER_MARSHAL_INFO_LEVEL1
+                  href: /windows/win32/api/Rpcndr/ns-rpcndr-ndr_user_marshal_info_level1
+                - name: RPC_ASYNC_NOTIFICATION_INFO
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_notification_info
+                - name: RPC_ASYNC_STATE
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_async_state
+                - name: RPC_BINDING_HANDLE_OPTIONS_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_options_v1
+                - name: RPC_BINDING_HANDLE_SECURITY_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_security_v1_a
+                - name: RPC_BINDING_HANDLE_TEMPLATE_V1
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_handle_template_v1_a
+                - name: RPC_BINDING_VECTOR
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_binding_vector
+                - name: RPC_C_OPT_COOKIE_AUTH_DESCRIPTOR
+                  href: /windows/win32/api/Rpcdcep/ns-rpcdcep-rpc_c_opt_cookie_auth_descriptor
+                - name: RPC_CALL_ATTRIBUTES_V1
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v1_a
+                - name: RPC_CALL_ATTRIBUTES_V2
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_attributes_v2_a
+                - name: RPC_CALL_LOCAL_ADDRESS_V1
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_call_local_address_v1
+                - name: RPC_CLIENT_INTERFACE
+                  href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_client_interface
+                - name: RPC_DISPATCH_TABLE
+                  href: /windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_dispatch_table
+                - name: RPC_EE_INFO_PARAM
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_ee_info_param
+                - name: RPC_ERROR_ENUM_HANDLE
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_error_enum_handle
+                - name: RPC_ENDPOINT_TEMPLATE
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_endpoint_template
+                - name: RPC_EXTENDED_ERROR_INFO
+                  href: /windows/win32/api/Rpcasync/ns-rpcasync-rpc_extended_error_info
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_a
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS_V2
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v2_a
+                - name: RPC_HTTP_TRANSPORT_CREDENTIALS_V3
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_http_transport_credentials_v3_a
+                - name: RPC_IF_ID
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_if_id
+                - name: RPC_IF_ID_VECTOR
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_if_id_vector
+                - name: RPC_INTERFACE_TEMPLATE
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_interface_template
+                - name: RPC_POLICY
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_policy
+                - name: RPC_PROTSEQ_VECTOR
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_protseq_vector
+                - name: RPC_SECURITY_QOS
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos
+                - name: RPC_SECURITY_QOS_V2
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v2_a
+                - name: RPC_SECURITY_QOS_V3
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v3_a
+                - name: RPC_SECURITY_QOS_V4
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v4_a
+                - name: RPC_SECURITY_QOS_V5
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-rpc_security_qos_v5_a
+                - name: RPC_STATS_VECTOR
+                  href: /windows/desktop/api/Rpcdce/ns-rpcdce-rpc_stats_vector
+                - name: SEC_WINNT_AUTH_IDENTITY
+                  href: /windows/win32/api/Rpcdce/ns-rpcdce-sec_winnt_auth_identity_a
+                - name: UUID
+                  href: ./rpcdce/ns-rpcdce-uuid.md
+                - name: UUID_VECTOR
+                  href: /windows/win32/api/rpcdce/ns-rpcdce-uuid_vector
+            - name: Types énumérés RPC
+              href: rpc-enumerated-types.md
+              items:
+                - name: RPC_ASYNC_EVENT
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_async_event
+                - name: RPC_NOTIFICATION_TYPES
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notification_types
+                - name: RPC_NOTIFICATIONS
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpc_notifications
+                - name: RpcCallClientLocality
+                  href: /windows/win32/api/RpcAsync/ne-rpcasync-rpccallclientlocality
+                - name: RpcCallType
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpccalltype
+                - name: RpcLocalAddressFormat
+                  href: /windows/win32/api/Rpcasync/ne-rpcasync-rpclocaladdressformat
+            - name: Autres types RPC
+              href: other-rpc-types.md
+              items:
+                - name: RPC_AUTH_IDENTITY_HANDLE
+                  href: rpc-auth-identity-handle.md
+                - name: RPC_AUTHZ_HANDLE
+                  href: rpc-authz-handle.md
+                - name: RPC_BINDING_HANDLE
+                  href: rpc-binding-handle.md
+                - name: RPC_EP_INQ_HANDLE
+                  href: rpc-ep-inq-handle.md
+                - name: RPC_IF_HANDLE
+                  href: rpc-if-handle.md
+                - name: RPC_MGR_EPV
+                  href: rpc-mgr-epv.md
+                - name: RPC_NS_HANDLE
+                  href: rpc-ns-handle.md
+                - name: RPC_STATUS
+                  href: rpc-status.md
+                - name: Liaison de chaîne
+                  href: string-binding.md
+                - name: UUID de chaîne
+                  href: string-uuid.md
+            - name: Constantes RPC
+              href: rpc-constants.md
+              items:
+                - name: Constantes au niveau de l’authentification
+                  href: authentication-level-constants.md
+                - name: Constantes Authentication-Service
+                  href: authentication-service-constants.md
+                - name: Constantes Authorization-Service
+                  href: authorization-service-constants.md
+                - name: Constantes de délai d’attente de liaison
+                  href: binding-time-out-constants.md
+                - name: Constantes d’option de liaison
+                  href: binding-option-constants.md
+                - name: DCE_C_ERROR_STRING_LEN
+                  href: dce-c-error-string-len.md
+                - name: Indicateurs d’inscription de l’interface
+                  href: interface-registration-flags.md
+                - name: Constantes de niveau de protection
+                  href: protection-level-constants.md
+                - name: Constantes de séquence de protocole
+                  href: protocol-sequence-constants.md
+            - name: Valeurs de retour RPC
+              href: rpc-return-values.md
+        - name: Référence de fonction
+          href: function-reference.md
+          items:
+            - name: Fonctions RPC
+              href: rpc-functions.md
+              items:
+                - name: I_RpcBindingInqLocalClientPID
+                  href: /windows/desktop/api/Rpcdcep/nf-rpcdcep-i_rpcbindinginqlocalclientpid
+                - name: DceErrorInqText
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-dceerrorinqtext
+                - name: MesBufferHandleReset
+                  href: /windows/desktop/api/Midles/nf-midles-mesbufferhandlereset
+                - name: MesDecodeBufferHandleCreate
+                  href: /windows/desktop/api/Midles/nf-midles-mesdecodebufferhandlecreate
+                - name: MesDecodeIncrementalHandleCreate
+                  href: /windows/desktop/api/Midles/nf-midles-mesdecodeincrementalhandlecreate
+                - name: MesEncodeDynBufferHandleCreate
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodedynbufferhandlecreate
+                - name: MesEncodeFixedBufferHandleCreate
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodefixedbufferhandlecreate
+                - name: MesEncodeIncrementalHandleCreate
+                  href: /windows/desktop/api/Midles/nf-midles-mesencodeincrementalhandlecreate
+                - name: MesHandleFree
+                  href: /windows/desktop/api/Midles/nf-midles-meshandlefree
+                - name: MesIncrementalHandleReset
+                  href: /windows/desktop/api/Midles/nf-midles-mesincrementalhandlereset
+                - name: MesInqProcEncodingId
+                  href: /windows/desktop/api/Midles/nf-midles-mesinqprocencodingid
+                - name: RpcAbnormalTermination
+                  href: /previous-versions/
+                - name: RpcAsyncAbortCall
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncabortcall
+                - name: RpcAsyncCancelCall
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccancelcall
+                - name: RpcAsyncCompleteCall
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasynccompletecall
+                - name: RpcAsyncGetCallStatus
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallstatus
+                - name: RpcAsyncInitializeHandle
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncinitializehandle
+                - name: RpcAsyncRegisterInfo
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncregisterinfo
+                - name: RpcBindingBind
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcbindingbind
+                - name: RpcBindingCopy
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingcopy
+                - name: RpcBindingCreate
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingcreatea
+                - name: RpcBindingFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfree
+                - name: RpcBindingFromStringBinding
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding
+                - name: RpcBindingInqAuthClient
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient
+                - name: RpcBindingInqAuthClientEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclientex
+                - name: RpcBindingInqAuthInfo
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthinfo
+                - name: RpcBindingInqAuthInfoEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthinfoexa
+                - name: RpcBindingInqObject
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqobject
+                - name: RpcBindingInqOption
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqoption
+                - name: RpcBindingReset
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingreset
+                - name: RpcBindingServerFromClient
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingserverfromclient
+                - name: RpcBindingSetAuthInfo
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo
+                - name: RpcBindingSetAuthInfoEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfoexa
+                - name: RpcBindingSetObject
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject
+                - name: RpcBindingSetOption
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetoption
+                - name: RpcBindingToStringBinding
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingtostringbinding
+                - name: RpcBindingUnbind
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcbindingunbind
+                - name: RpcBindingVectorFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingvectorfree
+                - name: RpcCancelThread
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthread
+                - name: RpcCancelThreadEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpccancelthreadex
+                - name: RpcCertGeneratePrincipalName
+                  href: /windows/desktop/api/Rpcssl/nf-rpcssl-rpccertgenerateprincipalname
+                - name: RpcDiagnoseError
+                  href: /previous-versions/aa375627(v=vs.80)
+                - name: RpcEpRegister
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregister
+                - name: RpcEpRegisterNoReplace
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepregisternoreplace
+                - name: RpcEpResolveBinding
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepresolvebinding
+                - name: RpcEpUnregister
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcepunregister
+                - name: RpcErrorAddRecord
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerroraddrecord
+                - name: RpcErrorClearInformation
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorclearinformation
+                - name: RpcErrorEndEnumeration
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorendenumeration
+                - name: RpcErrorGetNextRecord
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorgetnextrecord
+                - name: RpcErrorGetNumberOfRecords
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorgetnumberofrecords
+                - name: RpcErrorLoadErrorInfo
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorloaderrorinfo
+                - name: RpcErrorResetEnumeration
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorresetenumeration
+                - name: RpcErrorSaveErrorInfo
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorsaveerrorinfo
+                - name: RpcErrorStartEnumeration
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcerrorstartenumeration
+                - name: RpcExceptionFilter
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter
+                - name: RpcFreeAuthorizationContext
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcfreeauthorizationcontext
+                - name: RpcGetAuthorizationContextForClient
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient
+                - name: RpcIfInqId
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifinqid
+                - name: RpcImpersonateClient
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient
+                - name: RpcImpersonateClientContainer
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclientcontainer
+                - name: RpcMgmtEnableIdleCleanup
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtenableidlecleanup
+                - name: RpcMgmtEpEltInqBegin
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqbegin
+                - name: RpcIfIdVectorFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcifidvectorfree
+                - name: RpcMgmtEpEltInqDone
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqdone
+                - name: RpcMgmtEpEltInqNext
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepeltinqnext
+                - name: RpcMgmtEpUnregister
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtepunregister
+                - name: RpcMgmtInqComTimeout
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqcomtimeout
+                - name: RpcMgmtInqDefaultProtectLevel
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqdefaultprotectlevel
+                - name: RpcMgmtInqIfIds
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqifids
+                - name: RpcMgmtInqServerPrincName
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqserverprincname
+                - name: RpcMgmtInqStats
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtinqstats
+                - name: RpcMgmtIsServerListening
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtisserverlistening
+                - name: RpcMgmtSetAuthorizationFn
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetauthorizationfn
+                - name: RpcMgmtSetCancelTimeout
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcanceltimeout
+                - name: RpcMgmtSetComTimeout
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetcomtimeout
+                - name: RpcMgmtSetServerStackSize
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtsetserverstacksize
+                - name: RpcMgmtStatsVectorFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtstatsvectorfree
+                - name: RpcMgmtStopServerListening
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtstopserverlistening
+                - name: RpcMgmtWaitServerListen
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcmgmtwaitserverlisten
+                - name: RpcNetworkInqProtseqs
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkinqprotseqs
+                - name: RpcNetworkIsProtseqValid
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnetworkisprotseqvalid
+                - name: RpcNsBindingExport
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexporta
+                - name: RpcNsBindingExportPnP
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa
+                - name: RpcNsBindingImportBegin
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportbegina
+                - name: RpcNsBindingImportDone
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportdone
+                - name: RpcNsBindingImportNext
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingimportnext
+                - name: RpcNsBindingInqEntryName
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcnsbindinginqentryname
+                - name: RpcNsBindingLookupBegin
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupbegina
+                - name: RpcNsBindingLookupDone
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupdone
+                - name: RpcNsBindingLookupNext
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindinglookupnext
+                - name: RpcNsBindingSelect
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingselect
+                - name: RpcNsBindingUnexport
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexporta
+                - name: RpcNsBindingUnexportPnP
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa
+                - name: RpcNsEntryExpandName
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryexpandnamea
+                - name: RpcNsEntryObjectInqBegin
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqbegina
+                - name: RpcNsEntryObjectInqDone
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqdone
+                - name: RpcNsEntryObjectInqNext
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsentryobjectinqnext
+                - name: RpcNsGroupDelete
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupdeletea
+                - name: RpcNsGroupMbrAdd
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbradda
+                - name: RpcNsGroupMbrInqBegin
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqbegina
+                - name: RpcNsGroupMbrInqDone
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqdone
+                - name: RpcNsGroupMbrInqNext
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrinqnexta
+                - name: RpcNsGroupMbrRemove
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsgroupmbrremovea
+                - name: RpcNsMgmtBindingUnexport
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtbindingunexporta
+                - name: RpcNsMgmtEntryCreate
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentrycreatea
+                - name: RpcNsMgmtEntryDelete
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentrydeletea
+                - name: RpcNsMgmtEntryInqIfIds
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtentryinqifidsa
+                - name: RpcNsMgmtHandleSetExpAge
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmthandlesetexpage
+                - name: RpcNsMgmtInqExpAge
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtinqexpage
+                - name: RpcNsMgmtSetExpAge
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsmgmtsetexpage
+                - name: RpcNsProfileDelete
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofiledeletea
+                - name: RpcNsProfileEltAdd
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltadda
+                - name: RpcNsProfileEltInqBegin
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqbegina
+                - name: RpcNsProfileEltInqDone
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqdone
+                - name: RpcNsProfileEltInqNext
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltinqnexta
+                - name: RpcNsProfileEltRemove
+                  href: /windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsprofileeltremovea
+                - name: RpcObjectInqType
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectinqtype
+                - name: RpcObjectSetInqFn
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectsetinqfn
+                - name: RpcObjectSetType
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcobjectsettype
+                - name: RpcProtseqVectorFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcprotseqvectorfree
+                - name: RpcRaiseException
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcraiseexception
+                - name: RpcRevertContainerImpersonation
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcrevertcontainerimpersonation
+                - name: RpcRevertToSelf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoself
+                - name: RpcRevertToSelfEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcreverttoselfex
+                - name: RpcServerCompleteSecurityCallback
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcservercompletesecuritycallback
+                - name: RpcServerInqBindingHandle
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindinghandle
+                - name: RpcServerInqBindings
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqbindings
+                - name: RpcServerInqCallAttributes
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverinqcallattributesa
+                - name: RpcServerInqDefaultPrincName
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqdefaultprincname
+                - name: RpcServerInqIf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinqif
+                - name: RpcServerInterfaceGroupActivate
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupactivate
+                - name: RpcServerInterfaceGroupClose
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupclose
+                - name: RpcServerInterfaceGroupCreate
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupcreate
+                - name: RpcServerInterfaceGroupDeactivate
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupdeactivate
+                - name: RpcServerInterfaceGroupInqBindings
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverinterfacegroupinqbindings
+                - name: RpcServerListen
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverlisten
+                - name: RpcServerRegisterAuthInfo
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterauthinfo
+                - name: RpcServerRegisterIf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif
+                - name: RpcServerRegisterIf2
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif2
+                - name: RpcServerRegisterIf3
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterif3
+                - name: RpcServerRegisterIfEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverregisterifex
+                - name: RpcServerSubscribeForNotification
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserversubscribefornotification
+                - name: RpcServerTestCancel
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcservertestcancel
+                - name: RpcServerUnregisterIf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverunregisterif
+                - name: RpcServerUnregisterIfEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserverunregisterifex
+                - name: RpcServerUnsubscribeForNotification
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcserverunsubscribefornotification
+                - name: RpcServerUseAllProtseqs
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqs
+                - name: RpcServerUseAllProtseqsEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsex
+                - name: RpcServerUseAllProtseqsIf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsif
+                - name: RpcServerUseAllProtseqsIfEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseallprotseqsifex
+                - name: RpcServerUseProtseq
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseq
+                - name: RpcServerUseProtseqEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqex
+                - name: RpcServerUseProtseqEp
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqep
+                - name: RpcServerUseProtseqEpEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqepex
+                - name: RpcServerUseProtseqIf
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqif
+                - name: RpcServerUseProtseqIfEx
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcserveruseprotseqifex
+                - name: RpcSmAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmallocate
+                - name: RpcSmClientFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmclientfree
+                - name: RpcSmDestroyClientContext
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmdestroyclientcontext
+                - name: RpcSmDisableAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmdisableallocate
+                - name: RpcSmEnableAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmenableallocate
+                - name: RpcSmFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmfree
+                - name: RpcSmGetThreadHandle
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmgetthreadhandle
+                - name: RpcSmSetClientAllocFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmsetclientallocfree
+                - name: RpcSmSetThreadHandle
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmsetthreadhandle
+                - name: RpcSmSwapClientAllocFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsmswapclientallocfree
+                - name: RpcSsAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssallocate
+                - name: RpcSsContextLockExclusive
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockexclusive
+                - name: RpcSsContextLockShared
+                  href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcsscontextlockshared
+                - name: RpcSsDestroyClientContext
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdestroyclientcontext
+                - name: RpcSsDisableAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssdisableallocate
+                - name: RpcSsDontSerializeContext
+                  href: /previous-versions/aa378473(v=vs.80)
+                - name: RpcSsEnableAllocate
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssenableallocate
+                - name: RpcSsFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssfree
+                - name: RpcSsGetThreadHandle
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssgetthreadhandle
+                - name: RpcSsSetClientAllocFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsssetclientallocfree
+                - name: RpcSsSetThreadHandle
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcsssetthreadhandle
+                - name: RpcSsSwapClientAllocFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcssswapclientallocfree
+                - name: RpcStringBindingCompose
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingcompose
+                - name: RpcStringBindingParse
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringbindingparse
+                - name: RpcStringFree
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpcstringfree
+                - name: RpcTestCancel
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-rpctestcancel
+                - name: RpcUserFree
+                  href: /windows/desktop/api/Rpcndr/nf-rpcndr-rpcuserfree
+                - name: UuidCompare
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcompare
+                - name: UuidCreate
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreate
+                - name: UuidCreateNil
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreatenil
+                - name: UuidCreateSequential
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidcreatesequential
+                - name: UuidEqual
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidequal
+                - name: UuidFromString
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidfromstring
+                - name: UuidHash
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidhash
+                - name: UuidIsNil
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidisnil
+                - name: UuidToString
+                  href: /windows/desktop/api/Rpcdce/nf-rpcdce-uuidtostring
+            - name: Fonctions de rappel et de notification RPC
+              href: rpc-callback-and-notification-functions.md
+              items:
+                - name: RPC_AUTH_KEY_RETRIEVAL_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_auth_key_retrieval_fn
+                - name: RPC_IF_CALLBACK_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_if_callback_fn
+                - name: RPC_MGMT_AUTHORIZATION_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_mgmt_authorization_fn
+                - name: RPC_OBJECT_INQ_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_object_inq_fn
+                - name: RPC_INTERFACE_GROUP_IDLE_CALLBACK_FN
+                  href: /windows/desktop/api/Rpcdce/nc-rpcdce-rpc_interface_group_idle_callback_fn
+                - name: RPCNOTIFICATION_ROUTINE
+                  href: /previous-versions/aa375808(v=vs.80)
+        - name: Macros RPC
+          href: rpc-macros.md
+          items:
+            - name: Macros de portabilité
+              href: portability-macros.md
+            - name: RpcAsyncGetCallHandle
+              href: /windows/desktop/api/Rpcasync/nf-rpcasync-rpcasyncgetcallhandle
+            - name: RpcEndExcept
+              href: /previous-versions/aa375629(v=vs.80)
+            - name: RpcEndFinally
+              href: /previous-versions/aa375634(v=vs.80)
+            - name: RpcExcept
+              href: /windows/desktop/api/Rpc/nf-rpc-rpcexcept
+            - name: RpcExceptionCode
+              href: /previous-versions/aa375695(v=vs.80)
+            - name: RpcFinally
+              href: /previous-versions/aa375699(v=vs.80)
+            - name: RpcTryExcept
+              href: rpctryexcept.md
+            - name: RpcTryFinally
+              href: rpctryfinally.md
+    - name: Moteur de rapport de non-remise RPC
+      href: rpc-ndr-engine.md
+      items:
+        - name: Syntaxe de transfert et NDR64
+          href: transfer-syntax-and-ndr64.md
+        - name: Chaînes de format de NDR RPC
+          href: rpc-ndr-format-strings.md
+          items:
+            - name: Chaînes de format
+              href: format-strings.md
+            - name: Chaînes de format de procédure
+              href: procedure-format-strings.md
+            - name: Descripteur d’en-tête de procédure
+              href: procedure-header-descriptor.md
+            - name: Poignées
+              href: handles.md
+            - name: L’en-tête
+              href: the-header.md
+            - name: Descripteurs de paramètre
+              href: parameter-descriptors.md
+            - name: Chaînes de format de type
+              href: type-format-strings.md
+              items:
+                - name: Types simples
+                  href: simple-types-tfs.md
+                - name: Pointeurs
+                  href: pointers-tfs.md
+                - name: Tableaux
+                  href: arrays-tfs.md
+                - name: Chaînes
+                  href: strings-tfs.md
+                - name: Descripteurs de corrélation
+                  href: correlation-descriptors-tfs.md
+                - name: Structures
+                  href: structures-tfs.md
+                - name: Disposition du pointeur
+                  href: pointer-layout-tfs.md
+                - name: Unions
+                  href: unions-tfs.md
+                - name: Transmit_as et Represent_as
+                  href: transmit-as-and-represent-as-tfs.md
+                - name: Marshal d’utilisateur
+                  href: user-marshal-tfs.md
+        - name: Référence de l’interface de NDR RPC
+          href: rpc-ndr-interface-reference.md
+          items:
+            - name: CStdAsyncStubBuffer_AddRef
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_addref
+            - name: CStdAsyncStubBuffer_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_connect
+            - name: CStdAsyncStubBuffer_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_disconnect
+            - name: CStdAsyncStubBuffer_Invoke
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_invoke
+            - name: CStdAsyncStubBuffer_QueryInterface
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_queryinterface
+            - name: CStdAsyncStubBuffer_Release
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer_release
+            - name: CStdAsyncStubBuffer2_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_connect
+            - name: CStdAsyncStubBuffer2_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_disconnect
+            - name: CStdAsyncStubBuffer2_Release
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdasyncstubbuffer2_release
+            - name: CStdStubBuffer_AddRef
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_addref
+            - name: CStdStubBuffer_Connect
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_connect
+            - name: CStdStubBuffer_CountRefs
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_countrefs
+            - name: CStdStubBuffer_DebugServerQueryInterface
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverqueryinterface
+            - name: CStdStubBuffer_DebugServerRelease
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_debugserverrelease
+            - name: CStdStubBuffer_Disconnect
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_disconnect
+            - name: CStdStubBuffer_Invoke
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_invoke
+            - name: CStdStubBuffer_IsIIDSupported
+              href: /windows/desktop/api/RpcProxy/nf-rpcproxy-cstdstubbuffer_isiidsupported
+            - name: CStdStubBuffer_QueryInterface
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-cstdstubbuffer_queryinterface
+            - name: CStdStubBuffer2_Connect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_connect
+            - name: CStdStubBuffer2_CountRefs
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_countrefs
+            - name: CStdStubBuffer2_Disconnect
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_disconnect
+            - name: CStdStubBuffer2_QueryInterface
+              href: /windows/desktop/api/rpcproxy/nf-rpcproxy-cstdstubbuffer2_queryinterface
+            - name: IUnknown_AddRef_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_addref_proxy
+            - name: IUnknown_QueryInterface_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_queryinterface_proxy
+            - name: IUnknown_Release_Proxy
+              href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iunknown_release_proxy
+            - name: NdrAsyncClientCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncclientcall
+            - name: NdrAsyncClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncclientcall2
+            - name: NdrAsyncServerCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrasyncservercall
+            - name: NdrClearOutParameters
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclearoutparameters
+            - name: NdrClientCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall
+            - name: NdrClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall2
+            - name: NdrClientCall3
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall3
+            - name: NdrClientCall4
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrclientcall4
+            - name: NdrConformantArrayUnmarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantarrayunmarshall
+            - name: NdrConformantStringBufferSize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringbuffersize
+            - name: NdrConformantStringMarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringmarshall
+            - name: NdrConformantStringUnmarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconformantstringunmarshall
+            - name: NdrContextHandleInitialize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandleinitialize
+            - name: NdrContextHandleSize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlesize
+            - name: NdrContextHandleMemorySize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrcontexthandlememorysize
+            - name: NdrConvert
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrconvert
+            - name: NdrCStdStubBuffer_Release
+              href: /previous-versions/aa374242(v=vs.80)
+            - name: NdrCStdStubBuffer2_Release
+              href: /previous-versions/aa374240(v=vs.80)
+            - name: NdrDcomAsyncClientCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrdcomasyncclientcall
+            - name: NdrDcomAsyncClientCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrdcomasyncclientcall2
+            - name: NdrDllCanUnloadNow
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllcanunloadnow
+            - name: NdrDllGetClassObject
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllgetclassobject
+            - name: NdrDllRegisterProxy
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllregisterproxy
+            - name: NdrDllUnregisterProxy
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrdllunregisterproxy
+            - name: NdrGetUserMarshalInfo
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo
+            - name: NdrInterfacePointerBufferSize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerbuffersize
+            - name: NdrInterfacePointerFree
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerfree
+            - name: NdrInterfacePointerMarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointermarshall
+            - name: NdrInterfacePointerUnmarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrinterfacepointerunmarshall
+            - name: NdrMesProcEncodeDecode2
+              href: /windows/desktop/api/midles/nf-midles-ndrmesprocencodedecode2
+            - name: NdrMesProcEncodeDecode4
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrmesprocencodedecode4
+            - name: NdrOleAllocate
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndroleallocate
+            - name: NdrOleFree
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrolefree
+            - name: NdrPointerBufferSize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerbuffersize
+            - name: NdrPointerFree
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerfree
+            - name: NdrPointerMarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointermarshall
+            - name: NdrPointerUnmarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrpointerunmarshall
+            - name: NdrProxyErrorHandler
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyerrorhandler
+            - name: NdrProxyFreeBuffer
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyfreebuffer
+            - name: NdrProxyGetBuffer
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxygetbuffer
+            - name: NdrProxyInitialize
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxyinitialize
+            - name: NdrProxySendReceive
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrproxysendreceive
+            - name: NdrServerCallAll
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrservercallall
+            - name: NdrServerCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrservercall2
+            - name: NdrSimpleTypeMarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimpletypemarshall
+            - name: NdrSimpleTypeUnmarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrsimpletypeunmarshall
+            - name: Ndr64AsyncClientCall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndr64asyncclientcall
+            - name: Ndr64AsyncServerCallAll
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndr64asyncservercallall
+            - name: NdrStubCall2
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrstubcall2
+            - name: NdrStubCall3
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrstubcall3
+            - name: NdrStubForwardingFunction
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubforwardingfunction
+            - name: NdrStubGetBuffer
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubgetbuffer
+            - name: NdrStubInitialize
+              href: /windows/desktop/api/Rpcproxy/nf-rpcproxy-ndrstubinitialize
+            - name: NdrUserMarshalBufferSize
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalbuffersize
+            - name: NdrUserMarshalFree
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalfree
+            - name: NdrUserMarshalMarshall
+              href: /windows/desktop/api/Rpcndr/nf-rpcndr-ndrusermarshalmarshall
+            - name: MIDL_STUB_DESC
+              href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_desc
+            - name: MIDL_STUB_MESSAGE
+              href: /windows/win32/api/Rpcndr/ns-rpcndr-midl_stub_message
+            - name: ProxyFileInfo
+              href: /windows/win32/api/Rpcproxy/ns-rpcproxy-proxyfileinfo
+            - name: RPC_MESSAGE
+              href: /windows/win32/api/RpcdceP/ns-rpcdcep-rpc_message
+    - name: Glossaire
+      href: glossary.md
+      items:
+        - name: Un
+          href: a-glos.md
+        - name: B
+          href: b-glos.md
+        - name: C
+          href: c-glos.md
+        - name: D
+          href: d-glos.md
+        - name: E
+          href: e-glos.md
+        - name: F
+          href: f-glos.md
+        - name: I
+          href: i-glos.md
+        - name: L
+          href: l-glos.md
+        - name: M
+          href: m-glos.md
+        - name: 'N'
+          href: n-glos.md
+        - name: O
+          href: o-glos.md
+        - name: P
+          href: p-glos.md
+        - name: Q
+          href: q.md
+        - name: R
+          href: r-glos.md
+        - name: S
+          href: s-glos.md
+        - name: T
+          href: t-glos.md
+        - name: U
+          href: u-glos.md
+        - name: V
+          href: v-glos.md
+        - name: W
+          href: w-glos.md
