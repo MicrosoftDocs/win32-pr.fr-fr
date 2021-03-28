@@ -1,0 +1,505 @@
+- name: API de serveur HTTP
+  href: http-api-start-page.md
+  items:
+    - name: À propos de l’API du serveur HTTP
+      href: about-http-server-api.md
+      items:
+        - name: Fonctionnalités de l’API du serveur HTTP
+          href: http-server-api-features.md
+        - name: 'Fonctionnalités de la version HTTP 2,0'
+          href: http-version-2-0-features.md
+        - name: Nouveautés de Windows Server 2003 SP1
+          href: what-s-new-for-windows-server-2003-sp1.md
+        - name: 'Nouveautés de l’API du serveur HTTP version 2,0'
+          href: what-s-new-for-http-version-2-0-api.md
+    - name: Utilisation de l’API du serveur HTTP
+      href: using-http-server-api.md
+      items:
+        - name: 'Utilisation de l’API du serveur HTTP version 2,0'
+          href: using-the-http-server-version-2-0-api.md
+          items:
+            - name: Architecture
+              href: http-version-2-0-architecture.md
+            - name: Modèle de programmation
+              href: http-server-api-programming-model.md
+              items:
+                - name: Configuration de l’installation
+                  href: setup-configuration.md
+                - name: Configuration de Run-Time
+                  href: run-time-configuration.md
+                - name: Création et liaison à une file d’attente de demandes
+                  href: creating-and-binding-to-a-request-queue.md
+                - name: Traitement des requêtes
+                  href: processing-requests.md
+                - name: Arrêt et nettoyage
+                  href: shutdown-and-cleanup.md
+            - name: Contrôle de version
+              href: versioning-in-http-2-0.md
+            - name: Isolement des processus
+              href: process-isolation.md
+              items:
+                - name: File d’attente des demandes nommées
+                  href: named-request-queue.md
+                  items:
+                    - name: Configuration de la file d’attente des demandes
+                      href: configuring-the-request-queue.md
+                    - name: 'Démarrage de la demande sur la version 2,0 files d’attente de demandes'
+                      href: demand-start-on-version-2-0-request-queues.md
+            - name: Journalisation Server-Side
+              href: server-side-logging-in-http-version-2-0.md
+              items:
+                - name: Configuration et activation de la journalisation côté serveur
+                  href: configuring-and-enabling-server-side-logging.md
+                - name: Journalisation W3C
+                  href: w3c-logging.md
+                - name: Journalisation NCSA
+                  href: ncsa-logging.md
+                - name: Journalisation IIS
+                  href: iis-logging.md
+                - name: Journalisation binaire centralisée
+                  href: centralized-binary-logging.md
+            - name: Authentification
+              href: authentication-in-http-version-2-0.md
+              items:
+                - name: Configuration de l’authentification dynamique
+                  href: dynamic-authentication-configuration.md
+                - name: Authentification avec plusieurs en-têtes connus
+                  href: authentication-with-multiple-known-headers.md
+                - name: Mise en cache des informations d'identification
+                  href: credential-caching.md
+            - name: Configuration des propriétés
+              href: configuring-properties-in-http-version-2-0.md
+              items:
+                - name: Configuration de la session serveur
+                  href: configuring-the-server-session.md
+                - name: Configuration du groupe d’URL
+                  href: configuring-the-url-group.md
+                - name: Configuration des timers larges de l’API du serveur HTTP
+                  href: configuring-the-http-server-api-wide-timers.md
+            - name: Propriété de délai d’attente du serveur
+              href: server-timeouts-property.md
+              items:
+                - name: Configuration des délais d’attente spécifiques à l’application
+                  href: configuring-the-application-specific-timeouts.md
+            - name: Cache en mode noyau
+              href: kernel-mode-cache-in-http-2-0.md
+        - name: Tâches du serveur HTTP
+          href: http-server-tasks.md
+        - name: Vue d’ensemble de l’API serveur HTTP
+          href: http-server-api-overview.md
+        - name: Routines de saisie semi-automatique HTTP
+          href: http-completion-routines.md
+        - name: Cache de fragments
+          href: fragment-cache.md
+        - name: Chaînes UrlPrefix
+          href: urlprefix-strings.md
+        - name: API de configuration
+          href: configuration-apis.md
+        - name: HttpCfg.exe
+          href: httpcfg-exe.md
+        - name: Liste d’écoutes IP
+          href: ip-listen-list.md
+        - name: Certificats SSL
+          href: ssl-certificates.md
+        - name: SSL en mode noyau
+          href: kernel-mode-ssl.md
+        - name: Analyse des exceptions
+          href: parsing-exceptions.md
+        - name: Améliorations de l’analyseur
+          href: parser-enhancements.md
+        - name: Enregistrement des erreurs dans l'API du serveur HTTP
+          href: error-logging-in-the-http-server-api.md
+          items:
+            - name: Configuration de la journalisation des erreurs de l’API du serveur HTTP
+              href: configuring-http-server-api-error-logging.md
+            - name: Format des journaux d’erreurs de l’API du serveur HTTP
+              href: format-of-the-http-server-api-error-logs.md
+            - name: Types d’erreurs consignées par l’API du serveur HTTP
+              href: types-of-errors-logged-by-the-http-server-api.md
+            - name: Journalisation des erreurs dans Windows Server 2003 SP1
+              href: error-logging-in-windows-server-2003-sp1.md
+        - name: 'Réservations d’espaces de noms, inscriptions et routage'
+          href: namespace-reservations-registrations-and-routing.md
+          items:
+            - name: Accès au magasin de réservations
+              href: accessing-the-reservation-store.md
+            - name: Routage des demandes entrantes
+              href: routing-incoming-requests.md
+            - name: Traitement des inscriptions
+              href: processing-registrations.md
+            - name: Traitement des réservations
+              href: processing-reservations.md
+              items:
+                - name: Ajout d’une réservation
+                  href: adding-a-reservation.md
+                - name: Suppression d’une réservation
+                  href: deleting-a-reservation.md
+        - name: HTTP.sys de la facilité de gestion dans Windows Vista et Windows Server 2008
+          href: http-sys-manageability-in-windows-vista-and-windows-server-2008.md
+          items:
+            - name: Scénarios de facilité de gestion HTTP.sys
+              href: http-sys-manageability-scenarios.md
+              items:
+                - name: "Scénario 1\_: exemple de délai d’expiration HTTP utilisant le suivi ETW et les commandes netsh"
+                  href: scenario-1--http-timeout-example-using-etw-tracing-and-netsh-commands.md
+                - name: "Scénario 2\_: exemple d’analyseur utilisant le suivi ETW"
+                  href: scenario-2--parser-example-using-etw-tracing.md
+                - name: "Scénario 3\_: compteurs de performances"
+                  href: scenario-3--performance-counters.md
+            - name: Commandes netsh pour HTTP
+              href: netsh-commands-for-http.md
+              items:
+                - name: add iplisten
+                  href: add-iplisten.md
+                - name: add sslcert
+                  href: add-sslcert.md
+                - name: add timeout
+                  href: add-timeout.md
+                - name: add urlacl
+                  href: add-urlacl.md
+                - name: delete cache
+                  href: delete-cache.md
+                - name: delete iplisten
+                  href: delete-iplisten.md
+                - name: delete sslcert
+                  href: delete-sslcert.md
+                - name: delete timeout
+                  href: delete-timeout.md
+                - name: delete urlacl
+                  href: delete-urlacl.md
+                - name: flush logbuffer
+                  href: flush-logbuffer.md
+                - name: show cachestate
+                  href: show-cachestate.md
+                - name: show iplisten
+                  href: show-iplisten.md
+                - name: show servicestate
+                  href: show-servicestate.md
+                - name: show sslcert
+                  href: show-sslcert.md
+                - name: show timeout
+                  href: show-timeout.md
+                - name: show urlacl
+                  href: show-urlacl.md
+            - name: Légende de mise en forme
+              href: formatting-legend.md
+    - name: Référence de l’API du serveur HTTP
+      href: http-server-api-reference.md
+      items:
+        - name: 'Référence de l’API du serveur HTTP 1,0'
+          href: http-server-api-version-1-0-reference.md
+          items:
+            - name: 'Types de données de l’API du serveur HTTP 1,0'
+              href: http-server-api-version-1-0-data-types.md
+            - name: 'API serveur HTTP version 1,0, fonctions'
+              href: http-server-api-version-1-0-functions.md
+              items:
+                - name: HttpAddFragmentToCache
+                  href: /windows/desktop/api/Http/nf-http-httpaddfragmenttocache
+                - name: HttpAddUrl
+                  href: /windows/desktop/api/Http/nf-http-httpaddurl
+                - name: HttpCreateHttpHandle
+                  href: /windows/desktop/api/Http/nf-http-httpcreatehttphandle
+                - name: HttpDeleteServiceConfiguration
+                  href: /windows/desktop/api/Http/nf-http-httpdeleteserviceconfiguration
+                - name: HttpFlushResponseCache
+                  href: /windows/desktop/api/Http/nf-http-httpflushresponsecache
+                - name: HttpInitialize
+                  href: /windows/desktop/api/Http/nf-http-httpinitialize
+                - name: HttpPrepareUrl
+                  href: /windows/desktop/api/Http/nf-http-httpprepareurl
+                - name: HttpQueryServiceConfiguration
+                  href: /windows/desktop/api/Http/nf-http-httpqueryserviceconfiguration
+                - name: HttpReadFragmentFromCache
+                  href: /windows/desktop/api/Http/nf-http-httpreadfragmentfromcache
+                - name: HttpReceiveClientCertificate
+                  href: /windows/desktop/api/Http/nf-http-httpreceiveclientcertificate
+                - name: HttpReceiveHttpRequest
+                  href: /windows/desktop/api/Http/nf-http-httpreceivehttprequest
+                - name: HttpReceiveRequestEntityBody
+                  href: /windows/desktop/api/Http/nf-http-httpreceiverequestentitybody
+                - name: HttpRemoveUrl
+                  href: /windows/desktop/api/Http/nf-http-httpremoveurl
+                - name: HttpSendHttpResponse
+                  href: /windows/desktop/api/Http/nf-http-httpsendhttpresponse
+                - name: HttpSendResponseEntityBody
+                  href: /windows/desktop/api/Http/nf-http-httpsendresponseentitybody
+                - name: HttpSetServiceConfiguration
+                  href: /windows/desktop/api/Http/nf-http-httpsetserviceconfiguration
+                - name: HttpTerminate
+                  href: /windows/desktop/api/Http/nf-http-httpterminate
+                - name: HttpUpdateServiceConfiguration
+                  href: /windows/desktop/api/http/nf-http-httpupdateserviceconfiguration
+                - name: HttpWaitForDisconnect
+                  href: /windows/desktop/api/Http/nf-http-httpwaitfordisconnect
+            - name: 'Structures de la version 1,0 de l’API du serveur HTTP'
+              href: http-server-api-version-1-0-structures.md
+              items:
+                - name: HTTPAPI_VERSION
+                  href: /windows/win32/api/Http/ns-http-httpapi_version
+                - name: HTTP_BYTE_RANGE
+                  href: /windows/win32/api/Http/ns-http-http_byte_range
+                - name: HTTP_CACHE_POLICY
+                  href: /windows/win32/api/Http/ns-http-http_cache_policy
+                - name: HTTP_COOKED_URL
+                  href: /windows/win32/api/Http/ns-http-http_cooked_url
+                - name: HTTP_DATA_CHUNK
+                  href: /windows/win32/api/Http/ns-http-http_data_chunk
+                - name: HTTP_KNOWN_HEADER
+                  href: /windows/win32/api/Http/ns-http-http_known_header
+                - name: HTTP_REQUEST
+                  href: /previous-versions/windows/desktop/legacy/aa364545(v=vs.85)
+                - name: HTTP_RESPONSE
+                  href: http-response.md
+                - name: HTTP_REQUEST_HEADERS
+                  href: /windows/win32/api/Http/ns-http-http_request_headers
+                - name: HTTP_RESPONSE_HEADERS
+                  href: /windows/win32/api/Http/ns-http-http_response_headers
+                - name: HTTP_SERVICE_CONFIG_IP_LISTEN_PARAM
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ip_listen_param
+                - name: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ip_listen_query
+                - name: HTTP_SERVICE_CONFIG_SSL_CCS_KEY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_key
+                - name: HTTP_SERVICE_CONFIG_SSL_CCS_QUERY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_query
+                - name: HTTP_SERVICE_CONFIG_SSL_CCS_SET
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_ccs_set
+                - name: HTTP_SERVICE_CONFIG_SSL_KEY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_key
+                - name: HTTP_SERVICE_CONFIG_SSL_PARAM
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_param
+                - name: HTTP_SERVICE_CONFIG_SSL_QUERY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_query
+                - name: HTTP_SERVICE_CONFIG_SSL_SET
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_set
+                - name: HTTP_SERVICE_CONFIG_SSL_SNI_KEY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_key
+                - name: HTTP_SERVICE_CONFIG_SSL_SNI_SET
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_set
+                - name: HTTP_SERVICE_CONFIG_SSL_SNI_QUERY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_ssl_sni_query
+                - name: HTTP_SERVICE_CONFIG_URLACL_KEY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_key
+                - name: HTTP_SERVICE_CONFIG_URLACL_PARAM
+                  href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_param
+                - name: HTTP_SERVICE_CONFIG_URLACL_QUERY
+                  href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_query
+                - name: HTTP_SERVICE_CONFIG_URLACL_SET
+                  href: /windows/win32/api/Http/ns-http-http_service_config_urlacl_set
+                - name: HTTP_SSL_CLIENT_CERT_INFO
+                  href: /windows/win32/api/Http/ns-http-http_ssl_client_cert_info
+                - name: HTTP_SSL_INFO
+                  href: /windows/win32/api/Http/ns-http-http_ssl_info
+                - name: HTTP_TRANSPORT_ADDRESS
+                  href: /windows/win32/api/Http/ns-http-http_transport_address
+                - name: HTTP_UNKNOWN_HEADER
+                  href: /windows/win32/api/Http/ns-http-http_unknown_header
+                - name: HTTP_VERSION
+                  href: /windows/win32/api/Http/ns-http-http_version
+            - name: 'Macros de la version 1,0 de l’API du serveur HTTP'
+              href: http-server-api-version-1-0-macros.md
+              items:
+                - name: HTTPAPI_EQUAL_VERSION
+                  href: /windows/desktop/api/http/nf-http-httpapi_equal_version
+                - name: HTTPAPI_GREATER_VERSION
+                  href: /windows/desktop/api/http/nf-http-httpapi_greater_version
+                - name: HTTPAPI_LESS_VERSION
+                  href: /windows/desktop/api/http/nf-http-httpapi_less_version
+                - name: HTTPAPI_VERSION_GREATER_OR_EQUAL
+                  href: /windows/desktop/api/http/nf-http-httpapi_version_greater_or_equal
+                - name: HTTP_EQUAL_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_equal_version
+                - name: HTTP_GREATER_EQUAL_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_greater_equal_version
+                - name: HTTP_GREATER_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_greater_version
+                - name: HTTP_LESS_EQUAL_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_less_equal_version
+                - name: HTTP_LESS_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_less_version
+                - name: HTTP_NOT_EQUAL_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_not_equal_version
+                - name: HTTP_SET_VERSION
+                  href: /windows/desktop/api/Http/nf-http-http_set_version
+            - name: 'Types d’énumération de l’API du serveur HTTP 1,0'
+              href: http-server-api-version-1-0-enumeration-types.md
+              items:
+                - name: HTTP_CACHE_POLICY_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_cache_policy_type
+                - name: HTTP_DATA_CHUNK_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_data_chunk_type
+                - name: HTTP_HEADER_ID
+                  href: /windows/win32/api/Http/ne-http-http_header_id
+                - name: HTTP_SERVICE_CONFIG_ID
+                  href: /windows/win32/api/Http/ne-http-http_service_config_id
+                - name: HTTP_SERVICE_CONFIG_QUERY_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_service_config_query_type
+                - name: HTTP_VERB
+                  href: /windows/win32/api/Http/ne-http-http_verb
+        - name: 'Référence de l’API du serveur HTTP 2,0'
+          href: http-server-api-version-2-0-reference.md
+          items:
+            - name: 'Types de données de l’API du serveur HTTP 2,0'
+              href: http-server-api-version-2-0-data-types.md
+            - name: 'API serveur HTTP version 2,0, fonctions'
+              href: http-server-api-version-2-0-functions.md
+              items:
+                - name: HttpAddUrlToUrlGroup
+                  href: /windows/desktop/api/Http/nf-http-httpaddurltourlgroup
+                - name: HttpCancelHttpRequest
+                  href: /windows/desktop/api/Http/nf-http-httpcancelhttprequest
+                - name: HttpCloseRequestQueue
+                  href: /windows/desktop/api/Http/nf-http-httpcloserequestqueue
+                - name: HttpCloseServerSession
+                  href: /windows/desktop/api/Http/nf-http-httpcloseserversession
+                - name: HttpCloseUrlGroup
+                  href: /windows/desktop/api/Http/nf-http-httpcloseurlgroup
+                - name: HttpCreateRequestQueue
+                  href: /windows/desktop/api/Http/nf-http-httpcreaterequestqueue
+                - name: HttpCreateServerSession
+                  href: /windows/desktop/api/Http/nf-http-httpcreateserversession
+                - name: HttpCreateUrlGroup
+                  href: /windows/desktop/api/Http/nf-http-httpcreateurlgroup
+                - name: HttpControlService
+                  href: /previous-versions/windows/desktop/legacy/mt797780(v=vs.85)
+                - name: HttpDeclarePush
+                  href: /windows/desktop/api/http/nf-http-httpdeclarepush
+                - name: HttpQueryServerSessionProperty
+                  href: /windows/desktop/api/Http/nf-http-httpqueryserversessionproperty
+                - name: HttpQueryRequestQueueProperty
+                  href: /windows/desktop/api/Http/nf-http-httpqueryrequestqueueproperty
+                - name: HttpQueryUrlGroupProperty
+                  href: /windows/desktop/api/Http/nf-http-httpqueryurlgroupproperty
+                - name: HttpRemoveUrlFromUrlGroup
+                  href: /windows/desktop/api/Http/nf-http-httpremoveurlfromurlgroup
+                - name: HttpSetRequestQueueProperty
+                  href: /windows/desktop/api/Http/nf-http-httpsetrequestqueueproperty
+                - name: HttpSetServerSessionProperty
+                  href: /windows/desktop/api/Http/nf-http-httpsetserversessionproperty
+                - name: HttpSetUrlGroupProperty
+                  href: /windows/desktop/api/Http/nf-http-httpseturlgroupproperty
+                - name: HttpShutdownRequestQueue
+                  href: /windows/desktop/api/Http/nf-http-httpshutdownrequestqueue
+                - name: HttpWaitForDemandStart
+                  href: /windows/desktop/api/Http/nf-http-httpwaitfordemandstart
+                - name: HttpWaitForDisconnectEx
+                  href: /windows/desktop/api/Http/nf-http-httpwaitfordisconnectex
+            - name: 'Structures de la version 2,0 de l’API du serveur HTTP'
+              href: http-server-api-version-2-0-structures.md
+              items:
+                - name: HTTP_BANDWIDTH_LIMIT_INFO
+                  href: /windows/win32/api/Http/ns-http-http_bandwidth_limit_info
+                - name: HTTP_BINDING_INFO
+                  href: /windows/win32/api/Http/ns-http-http_binding_info
+                - name: HTTP_CHANNEL_BIND_INFO
+                  href: /windows/win32/api/Http/ns-http-http_channel_bind_info
+                - name: HTTP_CONNECTION_LIMIT_INFO
+                  href: /windows/win32/api/Http/ns-http-http_connection_limit_info
+                - name: HTTP_FLOWRATE_INFO
+                  href: /windows/win32/api/Http/ns-http-http_flowrate_info
+                - name: HTTP_LISTEN_ENDPOINT_INFO
+                  href: /windows/win32/api/Http/ns-http-http_listen_endpoint_info
+                - name: HTTP_LOG_DATA
+                  href: /windows/win32/api/Http/ns-http-http_log_data
+                - name: HTTP_LOG_FIELDS_DATA
+                  href: /windows/win32/api/Http/ns-http-http_log_fields_data
+                - name: HTTP_LOGGING_INFO
+                  href: /windows/win32/api/Http/ns-http-http_logging_info
+                - name: HTTP_MULTIPLE_KNOWN_HEADERS
+                  href: /windows/win32/api/Http/ns-http-http_multiple_known_headers
+                - name: HTTP_PROPERTY_FLAGS
+                  href: /windows/win32/api/Http/ns-http-http_property_flags
+                - name: HTTP_QOS_SETTING_INFO
+                  href: /windows/win32/api/Http/ns-http-http_qos_setting_info
+                - name: HTTP_REQUEST_AUTH_INFO
+                  href: /windows/win32/api/Http/ns-http-http_request_auth_info
+                - name: HTTP_REQUEST_CHANNEL_BIND_STATUS
+                  href: /windows/win32/api/Http/ns-http-http_request_channel_bind_status
+                - name: HTTP_REQUEST_INFO
+                  href: /windows/win32/api/Http/ns-http-http_request_info
+                - name: HTTP_REQUEST_V1
+                  href: /windows/win32/api/Http/ns-http-http_request_v1
+                - name: HTTP_REQUEST_V2
+                  href: /windows/win32/api/Http/ns-http-http_request_v2
+                - name: HTTP_RESPONSE_INFO
+                  href: /windows/win32/api/Http/ns-http-http_response_info
+                - name: HTTP_RESPONSE_V1
+                  href: /windows/win32/api/Http/ns-http-http_response_v1
+                - name: HTTP_RESPONSE_V2
+                  href: /windows/win32/api/Http/ns-http-http_response_v2
+                - name: HTTP_SERVER_AUTHENTICATION_BASIC_PARAMS
+                  href: /windows/win32/api/Http/ns-http-http_server_authentication_basic_params
+                - name: HTTP_SERVER_AUTHENTICATION_DIGEST_PARAMS
+                  href: /windows/win32/api/Http/ns-http-http_server_authentication_digest_params
+                - name: HTTP_SERVER_AUTHENTICATION_INFO
+                  href: /windows/win32/api/Http/ns-http-http_server_authentication_info
+                - name: HTTP_SERVICE_BINDING_A
+                  href: /windows/win32/api/Http/ns-http-http_service_binding_a
+                - name: HTTP_SERVICE_BINDING_W
+                  href: /windows/win32/api/Http/ns-http-http_service_binding_w
+                - name: HTTP_SERVICE_BINDING_BASE
+                  href: /windows/win32/api/Http/ns-http-http_service_binding_base
+                - name: HTTP_SERVICE_BINDING_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_service_binding_type
+                - name: HTTP_SERVICE_CONFIG_CACHE_SET
+                  href: /windows/desktop/api/Http/ns-http-http_service_config_cache_set
+                - name: HTTP_SERVICE_CONFIG_TIMEOUT_SET
+                  href: /windows/win32/api/Http/ns-http-http_service_config_timeout_set
+                - name: HTTP_STATE_INFO
+                  href: /windows/win32/api/Http/ns-http-http_state_info
+                - name: HTTP_TIMEOUT_LIMIT_INFO
+                  href: /windows/win32/api/Http/ns-http-http_timeout_limit_info
+            - name: 'Macros de la version 2,0 de l’API du serveur HTTP'
+              href: http-server-api-version-2-0-macros.md
+              items:
+                - name: HTTP_IS_NULL_ID
+                  href: /windows/desktop/api/http/nf-http-http_is_null_id
+                - name: HTTP_NULL_ID
+                  href: /previous-versions/windows/desktop/legacy/aa364541(v=vs.85)
+                - name: HTTP_SET_NULL_ID
+                  href: /windows/desktop/api/http/nf-http-http_set_null_id
+            - name: 'Constantes de la version 2,0 de l’API du serveur HTTP'
+              href: http-server-api-version-2-0-constants.md
+              items:
+                - name: Constantes HTTP_AUTH_ENABLE_
+                  href: http-auth-enable--constants.md
+                - name: Constantes HTTP_LOG_FIELD_
+                  href: http-log-field--constants.md
+                - name: Constantes HTTP_LOGGING_FLAG_
+                  href: http-logging-flag--constants.md
+                - name: Constantes HTTP_RESPONSE_FLAG_
+                  href: http-response-flag--constants.md
+            - name: 'Types d’énumération de l’API du serveur HTTP 2,0'
+              href: http-server-api-version-2-0-enumeration-types.md
+              items:
+                - name: HTTP_503_RESPONSE_VERBOSITY
+                  href: /windows/win32/api/Http/ne-http-http_503_response_verbosity
+                - name: HTTP_AUTH_STATUS
+                  href: /windows/win32/api/Http/ne-http-http_auth_status
+                - name: HTTP_AUTHENTICATION_HARDENING_LEVELS
+                  href: /windows/win32/api/Http/ne-http-http_authentication_hardening_levels
+                - name: HTTP_ENABLED_STATE
+                  href: /windows/win32/api/Http/ne-http-http_enabled_state
+                - name: HTTP_LOG_DATA_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_log_data_type
+                - name: HTTP_LOGGING_ROLLOVER_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_logging_rollover_type
+                - name: HTTP_LOGGING_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_logging_type
+                - name: HTTP_QOS_SETTING_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_qos_setting_type
+                - name: HTTP_REQUEST_AUTH_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_request_auth_type
+                - name: HTTP_REQUEST_INFO_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_request_info_type
+                - name: HTTP_RESPONSE_INFO_TYPE
+                  href: /windows/win32/api/Http/ne-http-http_response_info_type
+                - name: HTTP_SERVER_PROPERTY
+                  href: /windows/win32/api/Http/ne-http-http_server_property
+                - name: HTTP_SERVICE_CONFIG_CACHE_KEY
+                  href: /windows/win32/api/Http/ne-http-http_service_config_cache_key
+                - name: HTTP_SERVICE_CONFIG_TIMEOUT_KEY
+                  href: /windows/win32/api/Http/ne-http-http_service_config_timeout_key
+    - name: Exemple d’application de serveur HTTP
+      href: http-server-sample-application.md
