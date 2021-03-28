@@ -1,0 +1,28 @@
+---
+description: Interface IPrivateIdentityManager
+title: Interface IPrivateIdentityManager
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- kbSyntax
+api_name: ''
+api_type: ''
+api_location: ''
+ms.assetid: 9c49759d-b4ae-40be-a1b5-606fda38583b
+ms.openlocfilehash: 748535315356f54ac5a5d18cec96e4455081e912
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104113991"
+---
+# <a name="iprivateidentitymanager-interface"></a><span data-ttu-id="7aa56-103">Interface IPrivateIdentityManager</span><span class="sxs-lookup"><span data-stu-id="7aa56-103">IPrivateIdentityManager interface</span></span>
+
+<span data-ttu-id="7aa56-104">Cette interface n’est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="7aa56-104">This interface is not supported.</span></span>
+
+ 
+
+ 
+
+
+
