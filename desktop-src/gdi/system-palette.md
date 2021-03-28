@@ -1,0 +1,32 @@
+---
+description: Le système gère une palette système pour chaque périphérique qui utilise des palettes.
+ms.assetid: 4c93ce8c-6b3a-4016-bb47-786c25b93374
+title: Palette système
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6d8738cf63eef0b77f2d184f2cf95b6550b81053
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104991512"
+---
+# <a name="system-palette"></a>Palette système
+
+Le système gère une *palette système* pour chaque périphérique qui utilise des palettes. La palette système contient les valeurs de couleur pour toutes les couleurs qui peuvent actuellement être affichées ou dessinées par l’appareil. En dehors de l’affichage du contenu de la palette système, les applications ne peuvent pas accéder directement à la palette du système. Au lieu de cela, le système dispose d’un contrôle total sur la palette du système et n’autorise l’accès qu’à l’aide de palettes logiques.
+
+Une application peut afficher le contenu de la palette système à l’aide de la fonction [**GetSystemPaletteEntries**](/windows/desktop/api/Wingdi/nf-wingdi-getsystempaletteentries) . Cette fonction récupère le contenu d’une ou plusieurs entrées, jusqu’au nombre total d’entrées dans la palette système. Le total est toujours égal au nombre retourné pour la valeur SIZEPALETTE par la fonction [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) et est identique à la taille maximale d’une palette logique donnée.
+
+Bien que les applications ne puissent pas modifier directement les couleurs de la palette système, elles peuvent entraîner des modifications lors de la réalisation de palettes logiques. Pour réaliser une palette, le système examine chaque couleur demandée et tente de trouver une entrée dans la palette du système qui contient une correspondance exacte. Si le système trouve une couleur correspondante, il mappe l’index de palette logique à l’index de palette système correspondant. Si le système ne trouve pas de correspondance exacte, il copie la couleur demandée dans une entrée de palette système inutilisée avant de mapper les index. Si toutes les entrées de palette système sont en cours d’utilisation, le système mappe l’index de palette logique à l’entrée de la palette système dont la couleur correspond le mieux à la couleur demandée. Une fois ce mappage défini, les applications ne peuvent pas le remplacer. Par exemple, les applications ne peuvent pas utiliser d’index de palette système pour spécifier des couleurs ; Seuls les index de palette logique sont autorisés.
+
+Les applications peuvent modifier la façon dont les index sont mappés en définissant le membre **peFlags** de la structure [**PaletteEntry**](/previous-versions//dd162769(v=vs.85)) sur les valeurs sélectionnées lors de la création de la palette logique. Par exemple, l' \_ indicateur NOcollaps du PC indique au système de copier immédiatement la couleur demandée dans une entrée de la palette système inutilisé, qu’une entrée de la palette système contienne déjà cette couleur ou non. En outre, l' \_ indicateur PC Explicit indique au système de mapper l’index de palette logique à un index de palette système donné explicitement. (L’application fournit l’index de palette système dans le mot de poids faible de la structure **PaletteEntry** .)
+
+Les palettes peuvent être réalisées sous la forme d’une palette d’arrière-plan ou d’une palette de premier plan en spécifiant respectivement la **valeur true** ou **false** pour le paramètre *bForceBackground* dans la fonction [**SelectPalette**](/windows/desktop/api/Wingdi/nf-wingdi-selectpalette) . Le système ne peut contenir qu’une seule palette de premier plan à la fois. Si la fenêtre est la fenêtre actuellement active ou un descendant de la fenêtre actuellement active, elle peut réaliser une palette de premier plan. Dans le cas contraire, la palette est obtenue comme une palette d’arrière-plan, quelle que soit la valeur du paramètre *bForceBackground* . La propriété critique d’une palette de premier plan est que, si elle est réalisée, elle peut remplacer toutes les entrées (à l’exception des entrées statiques) dans la palette système. Pour ce faire, le système marque toutes les entrées qui ne sont pas statiques dans la palette système comme inutilisées avant la réalisation d’une palette de premier plan, éliminant ainsi toutes les entrées utilisées. Aucun prétraitement ne se produit sur la palette système pour la réalisation d’une palette d’arrière-plan. La palette de premier plan définit toutes les couleurs non statiques possibles. Les palettes d’arrière-plan ne peuvent définir que ce qui reste ouvert et sont hiérarchisées selon un premier arrivé, premier servi. En règle générale, les applications utilisent des palettes d’arrière-plan pour les fenêtres enfants qui réalisent leurs propres palettes. Cela permet de réduire le nombre de modifications apportées à la palette du système.
+
+Une entrée de palette système non utilisée est une entrée qui n’est pas réservée et qui ne contient pas de couleur statique. Les entrées réservées sont marquées explicitement avec la \_ valeur réservée du PC. Ces entrées sont créées lorsqu’une application réalise une palette logique pour l’animation de la palette. Les entrées de couleur statiques sont créées par le système et correspondent aux couleurs de la palette par défaut. La fonction [**GetDeviceCaps**](/windows/desktop/api/Wingdi/nf-wingdi-getdevicecaps) peut être utilisée pour récupérer la valeur NUMRESERVED, qui spécifie le nombre d’entrées de palettes système réservées aux couleurs statiques.
+
+Étant donné que la palette système comporte un nombre limité d’entrées, la sélection et la réalisation d’une palette logique pour un appareil donné peuvent affecter les couleurs associées à d’autres palettes logiques pour le même appareil. Ces changements de couleur sont particulièrement spectaculaires lorsqu’ils se produisent à l’écran. Une application peut s’assurer que des couleurs raisonnables sont utilisées pour la palette logique actuellement sélectionnée en réinitialisant la palette avant chaque utilisation. Une application réinitialise la palette en appelant les fonctions [**UnrealizeObject**](/windows/desktop/api/Wingdi/nf-wingdi-unrealizeobject) et [**RealizePalette**](/windows/desktop/api/Wingdi/nf-wingdi-realizepalette) . L’utilisation de ces fonctions amène le système à remapper les couleurs de la palette logique à des couleurs raisonnables dans la palette du système.
+
+ 
+
+ 

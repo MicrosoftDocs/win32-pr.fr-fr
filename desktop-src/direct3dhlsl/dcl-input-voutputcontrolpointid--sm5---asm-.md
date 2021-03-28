@@ -1,0 +1,84 @@
+---
+title: dcl_input vOutputControlPointID (SM5-ASM)
+description: Déclarez l’ID du point de contrôle de sortie dans une phase du point de contrôle de nuanceur de coque.
+ms.assetid: 376ECA4F-DD71-4466-8A9D-E92A536832BC
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 9cee49a8a825f25b0fbbccff027d5ad1b9ade514
+ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "104030622"
+---
+# <a name="dcl_input-voutputcontrolpointid-sm5---asm"></a>\_vOutputControlPointID d’entrée DCL (SM5-ASM)
+
+Déclarez l’ID du point de contrôle de sortie dans une phase du point de contrôle de nuanceur de coque.
+
+
+
+| \_vOutputControlPointID d’entrée DCL |
+|----------------------------------|
+
+
+
+ 
+
+
+
+| Élément                                                                                                                                                       | Description                                    |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| <span id="vOutputControlPointID"></span><span id="voutputcontrolpointid"></span><span id="VOUTPUTCONTROLPOINTID"></span>*vOutputControlPointID*<br/> | \[dans \] l’ID du point de contrôle de sortie.<br/> |
+
+
+
+ 
+
+## <a name="remarks"></a>Notes
+
+Cette instruction s’applique aux étapes suivantes du nuanceur :
+
+
+
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+|--------|------|--------|----------|-------|---------|
+|        | X    |        |          |       |         |
+
+
+
+ 
+
+## <a name="minimum-shader-model"></a>Modèle de nuanceur minimal
+
+Cette instruction est prise en charge dans les modèles de nuanceur suivants :
+
+
+
+| Modèle de nuanceur                                              | Prise en charge |
+|-----------------------------------------------------------|-----------|
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Assembly modèle 5 du nuanceur (DirectX HLSL)](shader-model-5-assembly--directx-hlsl-.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

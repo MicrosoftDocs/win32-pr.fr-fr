@@ -1,0 +1,477 @@
+- name: Compteurs de performances
+  href: performance-counters-portal.md
+  items:
+    - name: What's New
+      href: performance-counters-what-s-new.md
+    - name: À propos des compteurs de performance
+      href: about-performance-counters.md
+      items:
+        - name: Support 64 bits
+          href: 64-bit-support.md
+        - name: Prise en charge limitée de l’accès utilisateur
+          href: limited-user-access-support.md
+        - name: Accès aux données des compteurs distants
+          href: accessing-remote-counter-data.md
+    - name: Using Performance Counters
+      href: using-performance-counters.md
+      items:
+        - name: Consommation de données de compteur
+          href: consuming-counter-data.md
+          items:
+            - name: Utilisation des fonctions PDH pour consommer des données de compteur
+              href: using-the-pdh-functions-to-consume-counter-data.md
+              items:
+                - name: Création d'une requête
+                  href: creating-a-query.md
+                  items:
+                    - name: Spécification d’un chemin d’accès au compteur
+                      href: specifying-a-counter-path.md
+                    - name: Obtention d’éléments de chemin d’accès de compteur à partir d’un chemin de compteur
+                      href: obtaining-counter-path-elements-from-a-counter-path.md
+                    - name: Exploration des compteurs
+                      href: browsing-counters.md
+                    - name: Détermination de l’emplacement d’un compteur sur un ordinateur
+                      href: determining-whether-a-counter-is-located-on-a-machine.md
+                - name: Collecte des données de performances
+                  href: collecting-performance-data.md
+                - name: Affichage des données de performances
+                  href: displaying-performance-data.md
+                - name: Utilisation des fichiers journaux
+                  href: working-with-log-files.md
+                  items:
+                    - name: Définition d’une plage de temps pour une requête
+                      href: setting-a-time-range-for-a-query.md
+                    - name: Obtention de la taille d’un fichier journal
+                      href: getting-the-size-of-a-log-file.md
+                - name: Vérification des valeurs de retour de l’interface PDH
+                  href: checking-pdh-interface-return-values.md
+                - name: Obtention d’informations sur les compteurs
+                  href: getting-counter-information.md
+                - name: Exemples PDH
+                  href: examples.md
+                  items:
+                    - name: Énumération des objets de processus
+                      href: enumerating-process-objects.md
+                    - name: Exploration des compteurs de performances
+                      href: browsing-performance-counters.md
+                    - name: Écriture de données de performances dans un fichier journal
+                      href: writing-performance-data-to-a-log-file.md
+                    - name: Lecture des données de performances à partir d’un fichier journal
+                      href: reading-performance-data-from-a-log-file.md
+                    - name: Conversion de données à partir d’un fichier journal au format binaire en fichier journal au format CSV
+                      href: transferring-data-from-a-perfmon-format-log-file-to-a-csv-format-log-file.md
+            - name: Utilisation des fonctions de Registre pour consommer des données de compteur
+              href: using-the-registry-functions-to-consume-counter-data.md
+              items:
+                - name: Récupération des noms de compteur et du texte d’aide
+                  href: retrieving-counter-names-and-help-text.md
+                - name: 'Affichage des noms d’objet, d’instance et de compteur'
+                  href: displaying-object-instance-and-counter-names.md
+                - name: Récupération de données de compteur
+                  href: retrieving-counter-data.md
+                - name: Calcul des valeurs de compteurs
+                  href: calculating-counter-values.md
+                - name: Gestion des noms d’instance en double
+                  href: handling-duplicate-instance-names.md
+                - name: Format des données de performances
+                  href: performance-data-format.md
+            - name: Utilisation des fonctions PerfLib pour consommer des données de compteurs
+              href: using-the-perflib-functions-to-consume-counter-data.md
+        - name: Fourniture de données de compteur
+          href: providing-counter-data.md
+          items:
+            - name: 'Fourniture de données de compteurs à l’aide de la version 2,0'
+              href: providing-counter-data-using-version-2-0.md
+            - name: Fourniture de données de compteur à l’aide d’une DLL de performance
+              href: providing-counter-data-using-a-performance-dll.md
+              items:
+                - name: Ajout de compteurs de performances
+                  href: adding-performance-counters.md
+                  items:
+                    - name: Conception d’objets et de compteurs
+                      href: object-and-counter-design.md
+                    - name: Ajout de noms de compteurs et de descriptions au Registre
+                      href: adding-counter-names-and-descriptions-to-the-registry.md
+                    - name: Création de la clé de performance de l’application
+                      href: creating-the-applications-performance-key.md
+                    - name: Création d’autres entrées de Registre
+                      href: creating-other-registry-entries.md
+                - name: Suppression de compteurs de performances
+                  href: deleting-performance-counters.md
+                  items:
+                    - name: Suppression des noms et des descriptions des compteurs du Registre
+                      href: removing-counter-names-and-descriptions-from-the-registry.md
+                - name: Création d’une DLL d’extension de performance
+                  href: creating-a-performance-extension-dll.md
+                  items:
+                    - name: Implémentation de OpenPerformanceData
+                      href: implementing-openperformancedata.md
+                    - name: Implémentation de CollectPerformanceData
+                      href: implementing-collectperformancedata.md
+                    - name: Communication avec votre application
+                      href: communicating-with-your-application.md
+                    - name: Gestion des erreurs dans la DLL
+                      href: error-handling-in-the-dll.md
+                    - name: Restriction de l’accès aux DLL d’extension de performance
+                      href: restricting-access-to-performance-extension--dlls.md
+                    - name: Exemples de DLL de performance
+                      href: performance-dll-samples.md
+    - name: Référence des compteurs de performance
+      href: performance-counters-reference.md
+      items:
+        - name: Fonctions des compteurs de performances pour Visual Basic
+          href: performance-counters-functions-for-visual-basic.md
+          items:
+            - name: PdhVbAddCounter
+              href: pdhvbaddcounter.md
+            - name: PdhVbCreateCounterPathList
+              href: pdhvbcreatecounterpathlist.md
+            - name: PdhVbGetCounterPathElements
+              href: pdhvbgetcounterpathelements.md
+            - name: PdhVbGetCounterPathFromList
+              href: pdhvbgetcounterpathfromlist.md
+            - name: PdhVbGetDoubleCounterValue
+              href: pdhvbgetdoublecountervalue.md
+            - name: PdhVbGetLogFileSize
+              href: pdhvbgetlogfilesize.md
+            - name: PdhVbGetOneCounterPath
+              href: pdhvbgetonecounterpath.md
+            - name: PdhVbIsGoodStatus
+              href: pdhvbisgoodstatus.md
+            - name: PdhVbOpenLog
+              href: pdhvbopenlog.md
+            - name: PdhVbOpenQuery
+              href: pdhvbopenquery.md
+            - name: PdhVbUpdateLog
+              href: pdhvbupdatelog.md
+        - name: Schéma des compteurs de performance
+          href: performance-counters-schema.md
+          items:
+            - name: Éléments des compteurs de performance
+              href: performance-counters-elements.md
+              items:
+                - name: Élément Counter (counterSet)
+                  href: performance-counters-counter--counterset--element.md
+                - name: Élément counterAttribute (counterAttributes)
+                  href: performance-counters-counterattribute--counterattributes--element.md
+                - name: Élément counterAttributes (Counter)
+                  href: performance-counters-counterattributes--counter--element.md
+                - name: 'Counters, élément'
+                  href: performance-counters-counters-element.md
+                - name: Élément counterSet (Provider)
+                  href: performance-counters-counterset--provider--element.md
+                - name: Provider (compteurs) (élément)
+                  href: performance-counters-provider--counters--element.md
+                - name: 'struct (structs), élément'
+                  href: performance-counters-struct--structs--element.md
+                - name: Élément structs (counterSet)
+                  href: performance-counters-structs--counterset--element.md
+            - name: Compteurs de performances-types simples
+              href: performance-counters-simple-types.md
+              items:
+                - name: Type simple CSymbolType
+                  href: performance-counters-csymboltype-simple-type.md
+                - name: Type simple GUIDType
+                  href: performance-counters-guidtype-simple-type.md
+                - name: Type simple HexInt32Type
+                  href: performance-counters-hexint32type-simple-type.md
+                - name: Type simple UInt32Type
+                  href: performance-counters-uint32type-simple-type.md
+            - name: 'Compteurs de performances, types complexes'
+              href: performance-counters-complex-types.md
+              items:
+                - name: Type complexe de compteur
+                  href: performance-counters-counter-complex-type.md
+                - name: Type complexe counterAttribute
+                  href: performance-counters-counterattribute-complex-type.md
+                - name: Type complexe counterAttributes
+                  href: performance-counters-counterattributes-complex-type.md
+                - name: Type complexe des compteurs
+                  href: performance-counters-counters-complex-type.md
+                - name: Type complexe counterSet
+                  href: performance-counters-counterset-complex-type.md
+                - name: Type complexe du fournisseur
+                  href: performance-counters-provider-complex-type.md
+                - name: Type complexe struct
+                  href: performance-counters-struct-complex-type.md
+                - name: Type complexe structs
+                  href: performance-counters-structs-complex-type.md
+        - name: Énumérations de compteur de performance
+          href: performance-counter-enumerations.md
+          items:
+            - name: PerfCounterDataType
+              href: /windows/win32/api/Perflib/ne-perflib-perfcounterdatatype
+            - name: PerfRegInfoType
+              href: /windows/win32/api/Perflib/ne-perflib-perfreginfotype
+        - name: Structures des compteurs de performance
+          href: performance-counters-structures.md
+          items:
+            - name: PDH_BROWSE_DLG_CONFIG
+              href: /windows/desktop/api/Pdh/ns-pdh-pdh_browse_dlg_config_a
+            - name: PDH_BROWSE_DLG_CONFIG_H
+              href: /windows/desktop/api/Pdh/ns-pdh-pdh_browse_dlg_config_ha
+            - name: PDH_COUNTER_INFO
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_counter_info_a
+            - name: PDH_COUNTER_PATH_ELEMENTS
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_counter_path_elements_a
+            - name: PDH_DATA_ITEM_PATH_ELEMENTS
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_data_item_path_elements_a
+            - name: PDH_FMT_COUNTERVALUE
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_fmt_countervalue
+            - name: PDH_FMT_COUNTERVALUE_ITEM
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_fmt_countervalue_item_a
+            - name: PDH_RAW_COUNTER
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_raw_counter
+            - name: PDH_RAW_COUNTER_ITEM
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_raw_counter_item_a
+            - name: PDH_RAW_LOG_RECORD
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_raw_log_record
+            - name: PDH_STATISTICS
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_statistics
+            - name: PDH_TIME_INFO
+              href: /windows/win32/api/Pdh/ns-pdh-pdh_time_info
+            - name: PERF_COUNTER_BLOCK
+              href: /windows/win32/api/Winperf/ns-winperf-perf_counter_block
+            - name: PERF_COUNTER_DATA
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_data
+            - name: PERF_COUNTER_DEFINITION
+              href: /windows/win32/api/Winperf/ns-winperf-perf_counter_definition
+            - name: PERF_COUNTER_HEADER
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_header
+            - name: PERF_COUNTER_IDENTIFIER
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_identifier
+            - name: PERF_COUNTER_IDENTITY
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_identity
+            - name: PERF_COUNTER_INFO
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_info
+            - name: PERF_COUNTER_REG_INFO
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counter_reg_info
+            - name: PERF_COUNTERSET_INFO
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counterset_info
+            - name: PERF_COUNTERSET_INSTANCE
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counterset_instance
+            - name: PERF_COUNTERSET_REG_INFO
+              href: /windows/win32/api/Perflib/ns-perflib-perf_counterset_reg_info
+            - name: PERF_DATA_BLOCK
+              href: /windows/win32/api/Winperf/ns-winperf-perf_data_block
+            - name: PERF_DATA_HEADER
+              href: /windows/win32/api/Perflib/ns-perflib-perf_data_header
+            - name: PERF_INSTANCE_DEFINITION
+              href: /windows/win32/api/Winperf/ns-winperf-perf_instance_definition
+            - name: PERF_INSTANCE_HEADER
+              href: /windows/win32/api/Perflib/ns-perflib-perf_instance_header
+            - name: PERF_MULTI_COUNTERS
+              href: /windows/win32/api/Perflib/ns-perflib-perf_multi_counters
+            - name: PERF_MULTI_INSTANCES
+              href: /windows/win32/api/Perflib/ns-perflib-perf_multi_instances
+            - name: PERF_OBJECT_TYPE
+              href: /windows/win32/api/Winperf/ns-winperf-perf_object_type
+            - name: PERF_PROVIDER_CONTEXT
+              href: /windows/win32/api/perflib/ns-perflib-perf_provider_context
+            - name: PERF_STRING_BUFFER_HEADER
+              href: /windows/win32/api/perflib/ns-perflib-perf_string_buffer_header
+            - name: PERF_STRING_COUNTER_HEADER
+              href: /windows/win32/api/perflib/ns-perflib-perf_string_counter_header
+        - name: Outils des compteurs de performances
+          href: performance-counters-tools.md
+          items:
+            - name: CTRPP
+              href: ctrpp.md
+        - name: Types de données des compteurs de performances
+          href: performance-counters-types.md
+        - name: Codes d’erreur de l’application d’assistance pour les données de performances
+          href: pdh-error-codes.md
+        - name: Schéma du fichier journal SQL
+          href: sql-log-file-schema.md
+          items:
+            - name: CounterData
+              href: counterdata.md
+            - name: CounterDetails
+              href: counterdetails.md
+            - name: DisplayToID
+              href: displaytoid.md
+        - name: Fonctions des compteurs de performance
+          href: performance-counters-functions.md
+          items:
+            - name: PERF_MEM_ALLOC
+              href: /windows/desktop/api/Perflib/nc-perflib-perf_mem_alloc
+            - name: PERF_MEM_FREE
+              href: /windows/desktop/api/Perflib/nc-perflib-perf_mem_free
+            - name: PM_CLOSE_PROC
+              href: /windows/desktop/api/winperf/nc-winperf-pm_close_proc
+            - name: PM_COLLECT_PROC
+              href: /windows/desktop/api/winperf/nc-winperf-pm_collect_proc
+            - name: PERFLIBREQUEST
+              href: /windows/desktop/api/Perflib/nc-perflib-perflibrequest
+            - name: CounterCleanup
+              href: countercleanup.md
+            - name: CounterInitialize
+              href: counterinitialize.md
+            - name: CounterPathCallBack
+              href: /windows/desktop/api/Pdh/nc-pdh-counterpathcallback
+            - name: LoadPerfCounterTextStrings
+              href: /windows/desktop/api/Loadperf/nf-loadperf-loadperfcountertextstringsa
+            - name: PM_OPEN_PROC
+              href: /previous-versions/windows/desktop/legacy/aa372200(v=vs.85)
+            - name: PdhAddCounter
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhaddcountera
+            - name: PdhAddEnglishCounter
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhaddenglishcountera
+            - name: PdhBindInputDataSource
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhbindinputdatasourcea
+            - name: PdhBrowseCounters
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhbrowsecountersa
+            - name: PdhBrowseCountersH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhbrowsecountersha
+            - name: PdhCalculateCounterFromRawValue
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcalculatecounterfromrawvalue
+            - name: PdhCloseLog
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcloselog
+            - name: PdhCloseQuery
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhclosequery
+            - name: PdhCollectQueryData
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcollectquerydata
+            - name: PdhCollectQueryDataEx
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcollectquerydataex
+            - name: PdhCollectQueryDataWithTime
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcollectquerydatawithtime
+            - name: PdhComputeCounterStatistics
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhcomputecounterstatistics
+            - name: PdhConnectMachine
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhconnectmachinea
+            - name: PdhEnumLogSetNames
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenumlogsetnamesa
+            - name: PdhEnumMachines
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenummachinesa
+            - name: PdhEnumMachinesH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenummachinesha
+            - name: PdhEnumObjectItems
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenumobjectitemsa
+            - name: PdhEnumObjectItemsH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenumobjectitemsha
+            - name: PdhEnumObjects
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenumobjectsa
+            - name: PdhEnumObjectsH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhenumobjectsha
+            - name: PdhExpandCounterPath
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhexpandcounterpatha
+            - name: PdhExpandWildCardPath
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhexpandwildcardpatha
+            - name: PdhExpandWildCardPathH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhexpandwildcardpathha
+            - name: PdhFormatFromRawValue
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhformatfromrawvalue
+            - name: PdhGetCounterInfo
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetcounterinfoa
+            - name: PdhGetCounterTimeBase
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetcountertimebase
+            - name: PdhGetDataSourceTimeRange
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdatasourcetimerangea
+            - name: PdhGetDataSourceTimeRangeH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdatasourcetimerangeh
+            - name: PdhGetDefaultPerfCounter
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdefaultperfcountera
+            - name: PdhGetDefaultPerfCounterH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdefaultperfcounterha
+            - name: PdhGetDefaultPerfObject
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdefaultperfobjecta
+            - name: PdhGetDefaultPerfObjectH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdefaultperfobjectha
+            - name: PdhGetDllVersion
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetdllversion
+            - name: PdhGetFormattedCounterArray
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcounterarraya
+            - name: PdhGetFormattedCounterValue
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetformattedcountervalue
+            - name: PdhGetLogFileSize
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetlogfilesize
+            - name: PdhGetRawCounterArray
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetrawcounterarraya
+            - name: PdhGetRawCounterValue
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhgetrawcountervalue
+            - name: PdhIsRealTimeQuery
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhisrealtimequery
+            - name: PdhLookupPerfIndexByName
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhlookupperfindexbynamea
+            - name: PdhLookupPerfNameByIndex
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhlookupperfnamebyindexa
+            - name: PdhMakeCounterPath
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhmakecounterpatha
+            - name: PdhOpenLog
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhopenloga
+            - name: PdhOpenQuery
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhopenquerya
+            - name: PdhOpenQueryH
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhopenqueryh
+            - name: PdhParseCounterPath
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhparsecounterpatha
+            - name: PdhParseInstanceName
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhparseinstancenamea
+            - name: PdhReadRawLogRecord
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhreadrawlogrecord
+            - name: PdhRemoveCounter
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhremovecounter
+            - name: PdhSelectDataSource
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhselectdatasourcea
+            - name: PdhSetCounterScaleFactor
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhsetcounterscalefactor
+            - name: PdhSetDefaultRealTimeDataSource
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhsetdefaultrealtimedatasource
+            - name: PdhSetQueryTimeRange
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhsetquerytimerange
+            - name: PdhUpdateLog
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhupdateloga
+            - name: PdhUpdateLogFileCatalog
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhupdatelogfilecatalog
+            - name: PdhValidatePath
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhvalidatepatha
+            - name: PdhValidatePathEx
+              href: /windows/desktop/api/Pdh/nf-pdh-pdhvalidatepathexa
+            - name: PerfAddCounters
+              href: /windows/desktop/api/Perflib/nf-perflib-perfaddcounters
+            - name: PerfCloseQueryHandle
+              href: /windows/desktop/api/Perflib/nf-perflib-perfclosequeryhandle
+            - name: PerfCreateInstance
+              href: /windows/desktop/api/Perflib/nf-perflib-perfcreateinstance
+            - name: PerfDecrementULongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfdecrementulongcountervalue
+            - name: PerfDecrementULongLongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfdecrementulonglongcountervalue
+            - name: PerfDeleteCounters
+              href: /windows/desktop/api/Perflib/nf-perflib-perfdeletecounters
+            - name: PerfDeleteInstance
+              href: /windows/desktop/api/Perflib/nf-perflib-perfdeleteinstance
+            - name: PerfEnumerateCounterSet
+              href: /windows/desktop/api/Perflib/nf-perflib-perfenumeratecounterset
+            - name: PerfEnumerateCounterSetInstances
+              href: /windows/desktop/api/Perflib/nf-perflib-perfenumeratecountersetinstances
+            - name: PerfIncrementULongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfincrementulongcountervalue
+            - name: PerfIncrementULongLongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfincrementulonglongcountervalue
+            - name: PerfOpenQueryHandle
+              href: /windows/desktop/api/Perflib/nf-perflib-perfopenqueryhandle
+            - name: PerfQueryCounterData
+              href: /windows/desktop/api/Perflib/nf-perflib-perfquerycounterdata
+            - name: PerfQueryCounterInfo
+              href: /windows/desktop/api/Perflib/nf-perflib-perfquerycounterinfo
+            - name: PerfQueryCounterSetRegistrationInfo
+              href: /windows/desktop/api/Perflib/nf-perflib-perfquerycountersetregistrationinfo
+            - name: PerfQueryInstance
+              href: /windows/desktop/api/Perflib/nf-perflib-perfqueryinstance
+            - name: PerfSetCounterRefValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfsetcounterrefvalue
+            - name: PerfSetCounterSetInfo
+              href: /windows/desktop/api/Perflib/nf-perflib-perfsetcountersetinfo
+            - name: PerfSetULongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfsetulongcountervalue
+            - name: PerfSetULongLongCounterValue
+              href: /windows/desktop/api/Perflib/nf-perflib-perfsetulonglongcountervalue
+            - name: PerfStartProvider
+              href: /windows/desktop/api/Perflib/nf-perflib-perfstartprovider
+            - name: PerfStartProviderEx
+              href: /windows/desktop/api/Perflib/nf-perflib-perfstartproviderex
+            - name: PerfStopProvider
+              href: /windows/desktop/api/Perflib/nf-perflib-perfstopprovider
+            - name: UnloadPerfCounterTextStrings
+              href: /windows/desktop/api/Loadperf/nf-loadperf-unloadperfcountertextstringsa

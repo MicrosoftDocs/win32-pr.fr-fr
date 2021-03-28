@@ -1,0 +1,79 @@
+---
+title: Registres-vs_2_0
+description: Cette section contient des informations de référence pour les registres d’entrée et de sortie implémentés par le nuanceur de sommets version 2 \_ 0.
+ms.assetid: e5ef015e-1e4d-41b3-95da-3b44ef0bd73e
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 156367ec08a5f1ecd94181be56558f4ba07005b4
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104029057"
+---
+# <a name="registers---vs_2_0"></a>Registres-vs \_ 2 \_ 0
+
+Cette section contient des informations de référence pour les registres d’entrée et de sortie implémentés par le nuanceur de sommets version 2 \_ 0.
+
+## <a name="input-registers"></a>Registres d’entrée
+
+
+
+| S’inscrire | Nom                                                                                      | Count      | R/W (Lecture/écriture) | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut     | DCL obligatoire |
+|----------|-------------------------------------------------------------------------------------------|------------|-----|---------------|-----------------|-----------|---------|--------------|--------------|
+| v\#      | [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md)                       | 16         | R   | 1             | Illimité       | 4         | Non      | Voir la remarque 1   | Oui          |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-vs-registers-temporary.md)               | 12         | R/W (Lecture/écriture) | 3             | Illimité       | 4         | Non      | None         | Non           |
+| c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-vs-registers-constant-float.md)     | Voir la remarque 2 | R   | 1             | 2               | 4         | a0/aL | (0, 0, 0, 0) | Non           |
+| a0       | [Registre d’adresses](dx9-graphics-reference-asm-vs-registers-address.md)                   | 1          | R/W (Lecture/écriture) | 1             | 2               | 4         | Non      | None         | Non           |
+| p\#      | [Registre booléen constant](dx9-graphics-reference-asm-vs-registers-constant-boolean.md) | 16         | R   | 1             | 1               | 1         | Non      | FALSE        | Non           |
+| cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-vs-registers-constant-integer.md) | 16         | R   | 1             | 1               | 4         | Non      | (0, 0, 0, 0) | Non           |
+| &       | [Registre de compteur de boucle](dx9-graphics-reference-asm-vs-registers-loop-counter.md)         | 1          | R   | 1             | 2               | 1         | Non      | None         | Non           |
+
+
+
+ 
+
+Remarques :
+
+1.  Partial (0, 0, 0, 1) : si seul un sous-ensemble de canaux est mis à jour, les autres canaux ont par défaut la valeur (0, 0, 0, 1).
+2.  Égal à D3DCAPS9. MaxVertexShaderConst (au moins 256 pour vs \_ 2 \_ 0).
+
+## <a name="output-registers"></a>Registres de sortie
+
+
+
+| S’inscrire | Nom                                                                                          | Count | R/W (Lecture/écriture) | Dimension | RelAddr | Valeurs par défaut | DCL obligatoire |
+|----------|-----------------------------------------------------------------------------------------------|-------|-----|-----------|---------|----------|--------------|
+| oPos     | [Registre de position](dx9-graphics-reference-asm-vs-registers-position.md)                     | 1     | W   | 4         | Non      | None     | Non           |
+| oFog     | [Registre de brouillard](dx9-graphics-reference-asm-vs-registers-fog.md)                               | 1     | W   | 1         | Non      | None     | Non           |
+| Décide     | [Registre de la taille du point](dx9-graphics-reference-asm-vs-registers-point-size.md)                 | 1     | W   | 1         | Non      | None     | Non           |
+| Diamètre\#     | [Registre des couleurs](dx9-graphics-reference-asm-vs-registers-color.md); Voir la remarque 1               | 2     | W   | 4         | Non      | None     | Non           |
+| oT\#     | [Registre de coordonnées de texture](dx9-graphics-reference-asm-vs-registers-texture-coordinate.md) | 8     | W   | 4         | Non      | None     | Non           |
+
+
+
+ 
+
+Remarques :
+
+-   oD0 est la sortie de couleur diffuse ; oD1 est la sortie de couleur spéculaire.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
