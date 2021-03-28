@@ -1,0 +1,77 @@
+- name: Service de notification d’événements système
+  href: system-event-notification-service-portal.md
+  items:
+    - name: À propos du service de notification d’événements système
+      href: about-system-event-notification-service.md
+      items:
+        - name: Configurations de l’informatique mobile pour SENS
+          href: mobile-computing-configurations-for-sens.md
+        - name: Scénarios d’application pour SENS
+          href: application-scenarios-for-sens.md
+        - name: Notifications
+          href: notifications.md
+        - name: Architecture SENSe
+          href: sens-architecture.md
+    - name: Référence SENSée
+      href: sens-reference.md
+      items:
+        - name: IsDestinationReachable
+          href: /windows/desktop/api/Sensapi/nf-sensapi-isdestinationreachablea
+          items:
+            - name: QOCINFO
+              href: /windows/win32/api/Sensapi/ns-sensapi-qocinfo
+        - name: IsNetworkAlive
+          href: /windows/desktop/api/Sensapi/nf-sensapi-isnetworkalive
+        - name: Objet SENS
+          href: sens-object.md
+          items:
+            - name: ISensLogon
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isenslogon
+              items:
+                - name: Méthode DisplayLock
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-displaylock
+                - name: Méthode DisplayUnLock
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-displayunlock
+                - name: Méthode Logoff
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-logoff
+                - name: Méthode d’ouverture de session
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-logon
+                - name: Méthode StartScreenSaver
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-startscreensaver
+                - name: Méthode StartShell
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-startshell
+                - name: Méthode StopScreenSaver
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon-stopscreensaver
+            - name: ISensLogon2
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isenslogon2
+              items:
+                - name: Méthode Logoff
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-logoff
+                - name: Méthode d’ouverture de session
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-logon
+                - name: Méthode SessionDisconnect
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-sessiondisconnect
+                - name: Méthode SessionReconnect
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-sessionreconnect
+                - name: Méthode PostShell
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isenslogon2-postshell
+            - name: ISensNetwork
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isensnetwork
+              items:
+                - name: Méthode ConnectionLost
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionlost
+                - name: Méthode ConnectionMade
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionmade
+                - name: Méthode ConnectionMadeNoQOCInfo
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensnetwork-connectionmadenoqocinfo
+                - name: SENS_QOCINFO
+                  href: /windows/desktop/api/Sensevts/ns-sensevts-sens_qocinfo
+            - name: ISensOnNow
+              href: /windows/desktop/api/Sensevts/nn-sensevts-isensonnow
+              items:
+                - name: Méthode BatteryLow
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-batterylow
+                - name: Méthode OnACPower
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-onacpower
+                - name: Méthode OnBatteryPower
+                  href: /windows/desktop/api/Sensevts/nf-sensevts-isensonnow-onbatterypower
