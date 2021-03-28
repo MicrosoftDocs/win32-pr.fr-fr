@@ -1,0 +1,102 @@
+- name: API process Status (PSAPI)
+  href: process-status-helper.md
+  items:
+    - name: À propos de PSAPIi
+      href: about-psapi.md
+      items:
+        - name: Informations sur le processus
+          href: process-information.md
+        - name: Informations sur le module
+          href: module-information.md
+        - name: Informations sur le pilote de périphérique
+          href: device-driver-information.md
+        - name: Informations sur l’utilisation de la mémoire du processus
+          href: process-memory-usage-information.md
+        - name: Informations sur la plage de travail
+          href: working-set-information.md
+        - name: Informations sur le fichier Memory-Mapped
+          href: memory-mapped-file-information.md
+    - name: À l’aide de PSAPI
+      href: using-psapi.md
+      items:
+        - name: Énumération de tous les processus
+          href: enumerating-all-processes.md
+        - name: Énumération de tous les modules d’un processus
+          href: enumerating-all-modules-for-a-process.md
+        - name: Énumération de tous les pilotes de périphérique dans le système
+          href: enumerating-all-device-drivers-in-the-system.md
+        - name: Collecte des informations d’utilisation de la mémoire pour un processus
+          href: collecting-memory-usage-information-for-a-process.md
+    - name: Référence PSAPI
+      href: psapi-reference.md
+      items:
+        - name: Fonctions PSAPI
+          href: psapi-functions.md
+          items:
+            - name: EmptyWorkingSet
+              href: /windows/desktop/api/Psapi/nf-psapi-emptyworkingset
+            - name: EnumDeviceDrivers
+              href: /windows/desktop/api/Psapi/nf-psapi-enumdevicedrivers
+            - name: EnumPageFiles
+              href: /windows/desktop/api/Psapi/nf-psapi-enumpagefilesa
+            - name: EnumPageFilesProc
+              href: /windows/desktop/api/Psapi/nc-psapi-penum_page_file_callbacka
+            - name: EnumProcesses
+              href: /windows/desktop/api/Psapi/nf-psapi-enumprocesses
+            - name: EnumProcessModules
+              href: /windows/desktop/api/Psapi/nf-psapi-enumprocessmodules
+            - name: EnumProcessModulesEx
+              href: /windows/desktop/api/Psapi/nf-psapi-enumprocessmodulesex
+            - name: GetDeviceDriverBaseName
+              href: /windows/desktop/api/Psapi/nf-psapi-getdevicedriverbasenamea
+            - name: GetDeviceDriverFileName
+              href: /windows/desktop/api/Psapi/nf-psapi-getdevicedriverfilenamea
+            - name: GetMappedFileName
+              href: /windows/desktop/api/Psapi/nf-psapi-getmappedfilenamea
+            - name: GetModuleBaseName
+              href: /windows/desktop/api/Psapi/nf-psapi-getmodulebasenamea
+            - name: GetModuleFileNameEx
+              href: /windows/desktop/api/Psapi/nf-psapi-getmodulefilenameexa
+            - name: GetModuleInformation
+              href: /windows/desktop/api/Psapi/nf-psapi-getmoduleinformation
+            - name: GetPerformanceInfo
+              href: /windows/desktop/api/Psapi/nf-psapi-getperformanceinfo
+            - name: GetProcessImageFileName
+              href: /windows/desktop/api/Psapi/nf-psapi-getprocessimagefilenamea
+            - name: GetProcessMemoryInfo
+              href: /windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo
+            - name: GetWsChanges
+              href: /windows/desktop/api/Psapi/nf-psapi-getwschanges
+            - name: GetWsChangesEx
+              href: /windows/desktop/api/Psapi/nf-psapi-getwschangesex
+            - name: InitializeProcessForWsWatch
+              href: /windows/desktop/api/Psapi/nf-psapi-initializeprocessforwswatch
+            - name: QueryWorkingSet
+              href: /windows/desktop/api/Psapi/nf-psapi-queryworkingset
+            - name: QueryWorkingSetEx
+              href: /windows/desktop/api/Psapi/nf-psapi-queryworkingsetex
+        - name: Structures PSAPIi
+          href: psapi-structures.md
+          items:
+            - name: ENUM_PAGE_FILE_INFORMATION
+              href: /windows/win32/api/Psapi/ns-psapi-enum_page_file_information
+            - name: MODULEINFO
+              href: /windows/win32/api/Psapi/ns-psapi-moduleinfo
+            - name: PERFORMANCE_INFORMATION
+              href: /windows/win32/api/Psapi/ns-psapi-performance_information
+            - name: PROCESS_MEMORY_COUNTERS
+              href: /windows/win32/api/Psapi/ns-psapi-process_memory_counters
+            - name: PROCESS_MEMORY_COUNTERS_EX
+              href: /windows/win32/api/Psapi/ns-psapi-process_memory_counters_ex
+            - name: PSAPI_WORKING_SET_BLOCK
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_block
+            - name: PSAPI_WORKING_SET_EX_BLOCK
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_ex_block
+            - name: PSAPI_WORKING_SET_EX_INFORMATION
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_ex_information
+            - name: PSAPI_WORKING_SET_INFORMATION
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_working_set_information
+            - name: PSAPI_WS_WATCH_INFORMATION
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_ws_watch_information
+            - name: PSAPI_WS_WATCH_INFORMATION_EX
+              href: /windows/win32/api/Psapi/ns-psapi-psapi_ws_watch_information_ex
