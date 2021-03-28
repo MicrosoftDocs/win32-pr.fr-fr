@@ -1,0 +1,38 @@
+- name: Teredo
+  href: portal.md
+  items:
+    - name: À propos de Teredo
+      href: about-teredo.md
+      items:
+        - name: Composants Teredo
+          href: teredo-components.md
+        - name: Adresses Teredo
+          href: teredo-addresses.md
+        - name: Connectivité IPv6 et Teredo
+          href: ipv6-connectivity-and-teredo.md
+        - name: Résolution de noms pour Teredo
+          href: name-resolution-for-teredo.md
+        - name: Modèle de sécurité Teredo
+          href: the-teredo-security-model.md
+    - name: Utilisation de Teredo
+      href: using-teredo.md
+      items:
+        - name: Implémentation de Teredo
+          href: implementing-teredo.md
+        - name: Implémentation du modèle de sécurité Teredo
+          href: implementing-the-teredo-security-model.md
+          items:
+            - name: Implémentation de filtres de pare-feu pour Teredo
+              href: implementing-firewall-filters-for-teredo.md
+            - name: Exceptions de pare-feu requises pour Teredo
+              href: required-firewall-exceptions-for-teredo.md
+            - name: Exceptions de la plateforme de filtrage Windows pour Teredo
+              href: required-windows-filtering-platform-exceptions-for-teredo.md
+        - name: Réception du trafic sollicité sur Teredo
+          href: receiving-solicited-traffic-over-teredo.md
+        - name: Réception de trafic non sollicité sur Teredo
+          href: receiving-unsolicited-traffic-over-teredo.md
+        - name: Utilisation de Teredo avec l’assistance IP
+          href: using-teredo-with-ip-helper.md
+        - name: Utilisation de Teredo dans Windows XP
+          href: using-teredo-in-windows-xp.md
