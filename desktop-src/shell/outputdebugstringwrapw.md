@@ -1,0 +1,92 @@
+---
+description: Envoie une chaîne Unicode au débogueur pour l’affichage.
+ms.assetid: 26cf4750-8ca1-4a9a-8378-d65ed288b358
+title: OutputDebugStringWrapW, fonction (Shlwapip. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- OutputDebugStringWrapW
+api_type:
+- DllExport
+api_location:
+- Shlwapi.dll
+ms.openlocfilehash: e8213aee48a90a816e2968aac115159472ed7b8a
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: HT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104991633"
+---
+# <a name="outputdebugstringwrapw-function"></a>OutputDebugStringWrapW fonction)
+
+\[Cette fonction peut être utilisée dans Windows XP. Elle n’est peut-être pas disponible dans les versions ultérieures. Utilisez [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) à la place.\]
+
+Envoie une chaîne Unicode au débogueur pour l’affichage.
+
+> [!Note]  
+> **OutputDebugStringWrapW** est un wrapper pour la fonction **OutputDebugStringW** . Pour plus d’informations sur les remarques d’utilisation, consultez la page [**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) .
+
+ 
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+void OutputDebugStringWrapW(
+  _In_ LPCWSTR lpOutputString
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*lpOutputString* \[ dans\]
+</dt> <dd>
+
+Type : **LPCWSTR**
+
+Pointeur vers la chaîne Unicode terminée par le caractère null à afficher.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur renvoyée
+
+Cette fonction ne retourne pas de valeur.
+
+## <a name="remarks"></a>Notes
+
+**OutputDebugStringWrapW** offre la possibilité d’utiliser des chaînes Unicode dans les systèmes d’exploitation antérieurs à Windows XP. La méthode recommandée consiste à utiliser [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) conjointement avec la couche Microsoft pour Unicode (MSLU).
+
+**OutputDebugStringWrapW** doit être appelé directement à partir de Shlwapi.dll, à l’aide de l’ordinal 115.
+
+Si l’application n’a pas de débogueur, le débogueur système affiche la chaîne. Si l’application n’a pas de débogueur et que le débogueur système n’est pas actif, **OutputDebugStringWrapW** ne fait rien.
+
+## <a name="requirements"></a>Spécifications
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| En-tête<br/>                   | <dl> <dt>Shlwapip. h</dt> </dl>                         |
+| DLL<br/>                      | <dl> <dt>Shlwapi.dll (version 5,0 ou ultérieure)</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**OutputDebugString**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa)
+</dt> </dl>
+
+ 
+
+ 

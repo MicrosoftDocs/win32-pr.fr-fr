@@ -1,0 +1,226 @@
+- name: Fournisseurs WMI de sécurité
+  href: secprov-portal.md
+  items:
+    - name: À propos des fournisseurs WMI de sécurité
+      href: about-security-wmi-providers.md
+    - name: Informations de référence sur les fournisseurs WMI de sécurité
+      href: security-wmi-providers-reference.md
+      items:
+        - name: Fournisseur du chiffrement de lecteur BitLocker
+          href: bitlocker-drive-encryption-provider.md
+          items:
+            - name: Win32_EncryptableVolume
+              href: win32-encryptablevolume.md
+              items:
+                - name: Méthodes Win32_EncryptableVolume
+                  href: win32-encryptablevolume-methods.md
+                  items:
+                    - name: Méthode BackupRecoveryInformationToActiveDirectory
+                      href: backuprecoveryinformationtoactivedirectory-win32-encryptablevolume.md
+                    - name: Méthode ChangeExternalKey
+                      href: changeexternalkey-win32-encryptablevolume.md
+                    - name: Méthode ChangePassphrase
+                      href: changepassphrase-win32-encryptablevolume.md
+                    - name: Méthode ChangePIN
+                      href: changepin-win32-encryptablevolume.md
+                    - name: Méthode ClearAllAutoUnlockKeys
+                      href: clearallautounlockkeys-win32-encryptablevolume.md
+                    - name: Méthode Decrypt
+                      href: decrypt-win32-encryptablevolume.md
+                    - name: Méthode DeleteKeyProtector
+                      href: deletekeyprotector-win32-encryptablevolume.md
+                    - name: Méthode DeleteKeyProtectors
+                      href: deletekeyprotectors-win32-encryptablevolume.md
+                    - name: Méthode DisableAutoUnlock
+                      href: disableautounlock-win32-encryptablevolume.md
+                    - name: Méthode DisableKeyProtectors
+                      href: disablekeyprotectors-win32-encryptablevolume.md
+                    - name: Méthode EnableAutoUnlock
+                      href: enableautounlock-win32-encryptablevolume.md
+                    - name: Méthode EnableKeyProtectors
+                      href: enablekeyprotectors-win32-encryptablevolume.md
+                    - name: Méthode Encrypt
+                      href: encrypt-win32-encryptablevolume.md
+                    - name: Méthode EncryptAfterHardwareTest
+                      href: encryptafterhardwaretest-win32-encryptablevolume.md
+                    - name: Méthode FindValidCertificates
+                      href: findvalidcertificates-win32-encryptablevolume.md
+                    - name: Méthode GetConversionStatus
+                      href: getconversionstatus-win32-encryptablevolume.md
+                    - name: Méthode GetEncryptionMethod
+                      href: getencryptionmethod-win32-encryptablevolume.md
+                    - name: Méthode GetExternalKeyFileName
+                      href: getexternalkeyfilename-win32-encryptablevolume.md
+                    - name: Méthode GetExternalKeyFromFile
+                      href: getexternalkeyfromfile-win32-encryptablevolume.md
+                    - name: Méthode GetHardwareEncryptionStatus
+                      href: gethardwareencryptionstatus-win32-encryptablevolume.md
+                    - name: Méthode GetHardwareTestStatus
+                      href: gethardwareteststatus-win32-encryptablevolume.md
+                    - name: Méthode GetIdentificationField
+                      href: getidentificationfield-win32-encryptablevolume.md
+                    - name: Méthode GetKeyPackage
+                      href: getkeypackage-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorAdSidInformation
+                      href: getkeyprotectoradsidinformation-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorCertificate
+                      href: getkeyprotectorcertificate-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorExternalKey
+                      href: getkeyprotectorexternalkey-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorFriendlyName
+                      href: getkeyprotectorfriendlyname-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorNumericalPassword
+                      href: getkeyprotectornumericalpassword-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorPlatformValidationProfile
+                      href: getkeyprotectorplatformvalidationprofile-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectors
+                      href: getkeyprotectors-win32-encryptablevolume.md
+                    - name: Méthode GetKeyProtectorType
+                      href: getkeyprotectortype-win32-encryptablevolume.md
+                    - name: Méthode GetLockStatus
+                      href: getlockstatus-win32-encryptablevolume.md
+                    - name: Méthode GetProtectionStatus
+                      href: getprotectionstatus-win32-encryptablevolume.md
+                    - name: Méthode GetSuspendCount
+                      href: getsuspendcount-win32-encryptablevolume.md
+                    - name: 'GetVersion, méthode'
+                      href: getversion-win32-encryptablevolume.md
+                    - name: Méthode IsAutoUnlockEnabled
+                      href: isautounlockenabled-win32-encryptablevolume.md
+                    - name: Méthode IsAutoUnlockKeyStored
+                      href: isautounlockkeystored-win32-encryptablevolume.md
+                    - name: Méthode IsKeyProtectorAvailable
+                      href: iskeyprotectoravailable-win32-encryptablevolume.md
+                    - name: Méthode IsNumericalPasswordValid
+                      href: isnumericalpasswordvalid-win32-encryptablevolume.md
+                    - name: 'Lock, méthode'
+                      href: lock-win32-encryptablevolume.md
+                    - name: Méthode PauseConversion
+                      href: pauseconversion-win32-encryptablevolume.md
+                    - name: Méthode PrepareVolume
+                      href: preparevolume-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithAdSid
+                      href: protectkeywithadsid-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithCertificateFile
+                      href: protectkeywithcertificatefile-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithCertificateThumbprint
+                      href: protectkeywithcertificatethumbprint-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithExternalKey
+                      href: protectkeywithexternalkey-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithNumericalPassword
+                      href: protectkeywithnumericalpassword-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithPassphrase
+                      href: protectkeywithpassphrase-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithTPM
+                      href: protectkeywithtpm-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithTPMAndPIN
+                      href: protectkeywithtpmandpin-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithTPMAndPINAndStartupKey
+                      href: protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md
+                    - name: Méthode ProtectKeyWithTPMAndStartupKey
+                      href: protectkeywithtpmandstartupkey-win32-encryptablevolume.md
+                    - name: Méthode ResumeConversion
+                      href: resumeconversion-win32-encryptablevolume.md
+                    - name: Méthode SaveExternalKeyToFile
+                      href: saveexternalkeytofile-win32-encryptablevolume.md
+                    - name: Méthode SetIdentificationField
+                      href: setidentificationfield-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithAdSid
+                      href: unlockwithadsid-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithCertificateFile
+                      href: unlockwithcertificatefile-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithCertificateThumbprint
+                      href: unlockwithcertificatethumbprint-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithExternalKey
+                      href: unlockwithexternalkey-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithNumericalPassword
+                      href: unlockwithnumericalpassword-win32-encryptablevolume.md
+                    - name: Méthode UnlockWithPassphrase
+                      href: unlockwithpassphrase-win32-encryptablevolume.md
+                    - name: Méthode UpgradeVolume
+                      href: upgradevolume-win32-encryptablevolume.md
+        - name: Fournisseur Module de plateforme sécurisée (TPM)
+          href: trusted-platform-module-provider.md
+          items:
+            - name: Win32_Tpm
+              href: win32-tpm.md
+              items:
+                - name: Méthodes Win32_Tpm
+                  href: win32-tpm-methods.md
+                  items:
+                    - name: Méthode AddBlockedCommand
+                      href: addblockedcommand-win32-tpm.md
+                    - name: Méthode ChangeOwnerAuth
+                      href: changeownerauth-win32-tpm.md
+                    - name: 'Clear, méthode'
+                      href: clear-win32-tpm.md
+                    - name: Méthode ConvertToOwnerAuth
+                      href: converttoownerauth-win32-tpm.md
+                    - name: Méthode CreateEndorsementKeyPair
+                      href: createendorsementkeypair-win32-tpm.md
+                    - name: 'Disable, méthode'
+                      href: disable-win32-tpm.md
+                    - name: Méthode DisableAutoProvisioning
+                      href: win32-tpm-disableautoprovisioning.md
+                    - name: Activer la méthode
+                      href: enable-win32-tpm.md
+                    - name: Méthode EnableAutoProvisioning
+                      href: win32-tpm-enableautoprovisioning.md
+                    - name: Méthode GetOwnerAuth
+                      href: win32-tpm-getownerauth.md
+                    - name: Méthode GetPhysicalPresenceConfirmationStatus
+                      href: win32-tpm-getphysicalpresenceconfirmationstatus.md
+                    - name: Méthode GetPhysicalPresenceRequest
+                      href: getphysicalpresencerequest-win32-tpm.md
+                    - name: Méthode GetPhysicalPresenceResponse
+                      href: getphysicalpresenceresponse-win32-tpm.md
+                    - name: Méthode GetPhysicalPresenceTransition
+                      href: getphysicalpresencetransition-win32-tpm.md
+                    - name: Méthode GetSrkADThumbprint
+                      href: win32-tpm-getsrkadthumbprint.md
+                    - name: Méthode GetSrkPublicKeyModulus
+                      href: win32-tpm-getsrkpublickeymodulus.md
+                    - name: Méthode ImportOwnerAuth
+                      href: win32-tpm-importownerauth.md
+                    - name: Méthode IsActivated
+                      href: isactivated-win32-tpm.md
+                    - name: Méthode IsAutoProvisioningEnabled
+                      href: win32-tpm-isautoprovisioningenabled.md
+                    - name: Méthode IsCommandBlocked
+                      href: iscommandblocked-win32-tpm.md
+                    - name: Méthode IsCommandPresent
+                      href: iscommandpresent-win32-tpm.md
+                    - name: 'IsEnabled, méthode'
+                      href: isenabled-win32-tpm.md
+                    - name: Méthode IsEndorsementKeyPairPresent
+                      href: isendorsementkeypairpresent-win32-tpm.md
+                    - name: Méthode IsOwned
+                      href: isowned-win32-tpm.md
+                    - name: Méthode IsOwnerClearDisabled
+                      href: isownercleardisabled-win32-tpm.md
+                    - name: Méthode IsOwnershipAllowed
+                      href: isownershipallowed-win32-tpm.md
+                    - name: Méthode IsPhysicalClearDisabled
+                      href: isphysicalcleardisabled-win32-tpm.md
+                    - name: Méthode IsPhysicalPresenceHardwareEnabled
+                      href: isphysicalpresencehardwareenabled-win32-tpm.md
+                    - name: Méthode IsReady
+                      href: win32-tpm-isready.md
+                    - name: Méthode IsReadyInformation
+                      href: win32-tpm-isreadyinformation.md
+                    - name: Méthode IsSrkAuthCompatible
+                      href: issrkauthcompatible-win32-tpm.md
+                    - name: Méthode d’approvisionnement
+                      href: win32-tpm-provision.md
+                    - name: Méthode RemoveBlockedCommand
+                      href: removeblockedcommand-win32-tpm.md
+                    - name: Méthode ResetAuthLockOut
+                      href: resetauthlockout-win32-tpm.md
+                    - name: Méthode ResetSrkAuth
+                      href: resetsrkauth-win32-tpm.md
+                    - name: Méthode SelfTest
+                      href: selftest-win32-tpm.md
+                    - name: Méthode SetPhysicalPresenceRequest
+                      href: setphysicalpresencerequest-win32-tpm.md
+                    - name: Méthode TakeOwnership
+                      href: takeownership-win32-tpm.md
