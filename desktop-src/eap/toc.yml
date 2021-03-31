@@ -1,0 +1,110 @@
+- name: Protocole EAP (Extensible Authentication Protocol)
+  href: eap-start-page.md
+  items:
+    - name: À propos d’EAP et d’EAPHost
+      href: about-extenstible-authentication-protocol-and-eaphhost.md
+      items:
+        - name: À propos d’EAP
+          href: about-extensible-authentication-protocol.md
+        - name: À propos d’EAPHost
+          href: about-eaphost.md
+    - name: Utilisation du protocole EAP (Extensible Authentication Protocol)
+      href: using-extenstible-authentication-protocol.md
+      items:
+        - name: Forum aux questions sur EAP
+          href: eap-frequently-asked-questions.md
+        - name: Installation d’EAP
+          href: eap-installation.md
+          items:
+            - name: Valeurs de Registre du protocole d’authentification
+              href: authentication-protocol-registry-values.md
+            - name: Exemple de valeurs de Registre
+              href: registry-values-example.md
+        - name: Authentification utilisateur
+          href: user-authentication.md
+        - name: Détails de l’implémentation EAP
+          href: eap-implementation-details.md
+          items:
+            - name: Initialisation du point d’accès du protocole EAP
+              href: ras-initialization-of-eap.md
+            - name: Initialisation du protocole d’authentification
+              href: authentication-protocol-initialization.md
+            - name: Interaction du point d’accès et du protocole d’authentification pendant l’authentification
+              href: ras-and-authentication-protocol-interaction-during-authentication.md
+            - name: Fin de la session d’authentification
+              href: completion-of-the-authentication-session.md
+        - name: Interface utilisateur de configuration
+          href: configuration-user-interface.md
+          items:
+            - name: Interface utilisateur de configuration de Server-Side
+              href: server-side-configuration-user-interface.md
+            - name: Interface utilisateur de configuration de Client-Side
+              href: client-side-configuration-user-interface.md
+        - name: Obtention des informations d’identité
+          href: obtaining-identity-information.md
+        - name: Interface utilisateur interactive
+          href: interactive-user-interface.md
+        - name: Connexions à liaisons multiples et rappels
+          href: multilink-and-callback-connections.md
+        - name: Instructions pour l’écriture de dll EAP
+          href: guidelines-for-writing-eap-plug-ins.md
+    - name: Référence du protocole EAP (Extensible Authentication Protocol)
+      href: extensible-authentication-protocol-reference.md
+      items:
+        - name: Énumérations EAP
+          href: eap-enumerations.md
+          items:
+            - name: PPP_EAP_ACTION
+              href: /windows/win32/api/raseapif/ne-raseapif-ppp_eap_action
+            - name: RAS_AUTH_ATTRIBUTE_TYPE
+              href: /windows/desktop/api/raseapif/ne-raseapif-ras_auth_attribute_type
+        - name: Fonctions EAP
+          href: eap-functions.md
+          items:
+            - name: RasEapBegin
+              href: /previous-versions/windows/desktop/legacy/aa363520(v=vs.85)
+            - name: RasEapEnd
+              href: /previous-versions/windows/desktop/legacy/aa363521(v=vs.85)
+            - name: RasEapFreeMemory
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory
+            - name: RasEapGetIdentity
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapgetidentity
+            - name: RasEapGetInfo
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapgetinfo
+            - name: RasEapInitialize
+              href: /previous-versions/windows/desktop/legacy/aa363527(v=vs.85)
+            - name: RasEapInvokeConfigUI
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeconfigui
+            - name: RasEapInvokeInteractiveUI
+              href: /windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui
+            - name: RasEapMakeMessage
+              href: /previous-versions/windows/desktop/legacy/aa363532(v=vs.85)
+        - name: Interfaces EAP
+          href: eap-interfaces.md
+          items:
+            - name: IEAPProviderConfig
+              href: /windows/desktop/api/Rrascfg/nn-rrascfg-ieapproviderconfig
+              items:
+                - name: 'Initialize, méthode'
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-initialize
+                - name: Méthode RouterInvokeConfigUI
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokeconfigui
+                - name: Méthode RouterInvokeCredentialsUI
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-routerinvokecredentialsui
+                - name: Méthode ServerInvokeConfigUI
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-serverinvokeconfigui
+                - name: Uninitialize (méthode)
+                  href: /windows/desktop/api/Rrascfg/nf-rrascfg-ieapproviderconfig-uninitialize
+        - name: Structures EAP
+          href: eap-structures.md
+          items:
+            - name: PPP_EAP_INFO
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_info
+            - name: PPP_EAP_INPUT
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_input
+            - name: PPP_EAP_OUTPUT
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_output
+            - name: PPP_EAP_PACKET
+              href: /windows/win32/api/Raseapif/ns-raseapif-ppp_eap_packet
+            - name: RAS_AUTH_ATTRIBUTE
+              href: /windows/win32/api/Raseapif/ns-raseapif-ras_auth_attribute
