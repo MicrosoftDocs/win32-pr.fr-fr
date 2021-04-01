@@ -1,0 +1,179 @@
+- name: Guide de compatibilité pour Windows
+  href: windows-8-and-windows-server-8-compatibility-cookbook-portal.md
+  items:
+    - name: Introduction
+      href: introduction.md
+    - name: Windows 10
+      href: windows-10.md
+      items:
+        - name: Modifications clés depuis Windows 7 pour garantir la compatibilité
+          href: key-changes-since-windows-7-to-ensure-compatibility.md
+        - name: Comment nous pouvons garantir la compatibilité de l’écosystème combiné
+          href: how-we-can-ensure-compatibility-of-the-combined-ecosystem.md
+          items:
+            - name: Vérification de la version de Windows
+              href: windows-version-check.md
+            - name: API non documentées
+              href: undocumented-apis.md
+            - name: Développer des applications plateforme Windows universelle (UWP)
+              href: develop-universal-windows-platform-apps.md
+            - name: Les fonctionnalités des applications de bureau sont affectées si elles ne sont pas exécutées en mode fenêtre
+              href: modern-desktop-app-functionality-is-impacted-if-not-run-in-windowed-mode.md
+            - name: Disponibilité des pilotes graphiques applicables sur Windows Update
+              href: availability-of-applicable-graphics-drivers-on-windows-update.md
+            - name: Migration des pilotes Graphics vers Windows 10
+              href: graphics-driver-migration-to-windows-10.md
+            - name: Pilotes Bluetooth
+              href: bluetooth-drivers.md
+            - name: Les appels distants au protocole SAM RPC sont limités aux seuls administrateurs locaux
+              href: remote-calls-to-the-sam-rpc-protocol-are-restricted-to-only-local-administrators.md
+            - name: Vérifications du noyau pour les pilotes non signés WHQL
+              href: kernel-checks-for-non-whql-signed-drivers.md
+            - name: Fournisseurs de support de sécurité tiers avec Credential Guard
+              href: third-party-security-support-providers-with-credential-guard.md
+    - name: "Windows\_8.1"
+      href: windows-8-1.md
+      items:
+        - name: Applications du Windows Store
+          href: windows-store-apps.md
+        - name: Compatibilité du client et du serveur
+          href: windows-8-1-and-windows-server-2012-client-and-server-compatibility.md
+          items:
+            - name: Modifications apportées à la version du système d’exploitation dans Windows 8.1
+              href: operating-system-version-changes-in-windows-8-1.md
+            - name: Composants Windows installés à la demande
+              href: windows-components-installed-on-demand.md
+            - name: Comportement de substitution de la police HTML
+              href: html-font-fallback-behavior.md
+            - name: 'Windows 8.1 autorise uniquement les URI https, pas les URI http'
+              href: windows-8-1-allows-only-https-uris--not-http-uris.md
+            - name: Entrée MouseWheel pour Windows 8.1
+              href: mousewheel-input-for-windows-8-1.md
+            - name: Périphériques Windows Precision Touchpad
+              href: windows-precision-touchpad-devices.md
+            - name: Haute résolution pour les applications de bureau dans Windows 8.1
+              href: high-dpi-for-desktop-apps-in-windows-8-1.md
+            - name: "L’interface utilisateur Edge est supprimée dans les scénarios «\_in-out-in\_» et «\_inertie\_»"
+              href: edge-ui-is-suppressed-in--in-out-in--and--inertia--scenarios.md
+            - name: L’appel de ImmSetConversionStatus () ou ImmGetConversionStatus () à partir d’applications du Windows Store n’est pas pris en charge
+              href: calling-immsetconversionstatus---or-immgetconversionstatus---from-windows-store-apps-is-not-supported.md
+            - name: Modèle mode IME remplacé par utilisateur par thread
+              href: ime-mode-model-changed-from-per-user-to-per-thread.md
+            - name: Les API du gestionnaire de méthode d’entrée ne sont pas prises en charge par l’éditeur IME chinois simplifié
+              href: input-method-manager-apis-are-not-supported-by-simplified-chinese-ime.md
+            - name: Certains panneaux de saisie de logiciel IME pour l’Asie de l’est envoient désormais vKey
+              href: some-east-asian-ime-software-input-panels-now-send-vkey.md
+        - name: Nouvelles fonctionnalités et améliorations
+          href: new-features-and-enhancement-in-windows-8-1-and-windows-server-2012-r2.md
+          items:
+            - name: Démarrage du fichier image Windows (WimBoot)
+              href: windows-image-file-boot--wimboot-.md
+            - name: Proxy d'application web
+              href: web-application-proxy.md
+            - name: Suivi des plages modifiées d’un fichier
+              href: tracking-modified-ranges-of-a-file.md
+            - name: Fichiers d’espace réservé
+              href: placeholder-files.md
+        - name: 'Outils, meilleures pratiques et conseils'
+          href: tools--best-practices--and-guidance-for-windows-8-1-preview-and-windows-server-2012-r2.md
+          items:
+            - name: 'Outil de test de compatibilité avec la plateforme Microsoft (MPR, Microsoft Platform Ready)'
+              href: windows-server-app-certification-kit--sck-.md
+            - name: Aide sur le texte et les polices internationaux
+              href: international-text-and-font-guidance.md
+            - name: Kit de certification des applications Windows
+              href: windows-app-certification-kit-for-windows-8-1-preview.md
+    - name: "Windows\_8"
+      href: windows-8.md
+      items:
+        - name: Compatibilité du client et du serveur
+          href: windows-8-and-windows-server-2012-client-and-server-compatibility.md
+          items:
+            - name: Mise à jour des règles de détection des applications de sécurité
+              href: security-app-detection-rules-update.md
+            - name: Détermination de l’état des shims
+              href: determining-shim-status.md
+            - name: Les applications serveur doivent pouvoir s’exécuter sans l’interpréteur de commandes graphique de serveur
+              href: server-apps-must-be-able-to-run-without-the-server-graphical-shell.md
+            - name: Les composants du serveur de services de données distants sont supprimés de Windows 8
+              href: remote-data-service-server-components-are-removed-in-windows-8.md
+            - name: Modèle d’association de type de fichier et d’URI
+              href: file-type-and-protocol-associations-model.md
+            - name: Modérateur de l’activité du Bureau
+              href: desktop-activity-moderator.md
+            - name: '.NET Framework 4,5 est la valeur par défaut et .NET Framework 3,5 est facultatif'
+              href: '-net-framework-4-5-is-default-and--net-framework-3-5-is-optional.md'
+            - name: Les applications de bureau peuvent ne pas être visibles après le lancement du navigateur Web par défaut ou des applications du Windows Store
+              href: desktop-apps-may-not-be-visible-after-launching-the-default-web-browser.md
+            - name: Mode de contraste élevé
+              href: high-contrast-mode.md
+            - name: Manifeste de l’application (exécutable)
+              href: application--executable--manifest.md
+            - name: Le modèle actuel mis en file d’attente est déconseillé
+              href: queued-present-model-is-being-deprecated.md
+            - name: Scénarios PCA pour Windows 8
+              href: pca-scenarios-for-windows-8.md
+            - name: Gadgets du Bureau supprimés
+              href: desktop-gadgets-removed.md
+            - name: Mise à jour de compatibilité des disques au format avancé (4K)
+              href: advanced-format--4k--disk-compatibility-update.md
+            - name: Allocation dynamique de numéros d’unités logiques
+              href: thin-provisioning-of-luns.md
+            - name: Le stockage étendu est maintenant facultatif pour WINPE et la référence de serveur
+              href: enhanced-storage-is-now-optional-for-winpe-and-server-sku.md
+            - name: VDS passe à l’API de gestion de stockage Windows
+              href: vds-is-transitioning-to-wmiv2-based-windows-storage-management-api.md
+            - name: Interface utilisateur des versions précédentes supprimées pour les volumes locaux
+              href: volume-shadow-copy-service-ui-removed.md
+            - name: StorAHCI remplace MSAHCI
+              href: storahci-replaces-msahci.md
+            - name: Sauvegarde et restauration de Windows 7 déconseillées
+              href: windows-7-backup-and-restore-deprecated.md
+            - name: Transferts de données déchargées
+              href: offloaded-data-transfers.md
+            - name: Gestionnaire de fenêtrage est Always On
+              href: desktop-window-manager-is-always-on.md
+            - name: Direct2D ne prend pas en charge le rendu des sous-fichiers enrichis dans Internet Explorer 9
+              href: direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9.md
+            - name: Modifications apportées à la prise en charge matérielle héritée virtuel DX9
+              href: changes-in-dx9-legacy-hardware-support.md
+            - name: MSAA n’est pas disponible pour les applications du Windows Store
+              href: msaa-is-not-available-to-appcontainer-apps.md
+            - name: 'Le port 3 est déconseillé pour les pilotes NDIS 6,30'
+              href: port-3-is-deprecated-for-ndis-6-30-drivers.md
+        - name: Nouvelles fonctionnalités et améliorations
+          href: new-features-and-enhancements.md
+          items:
+            - name: Logiciel anti-programme malveillant à lancement anticipé (ELAM)
+              href: secured-boot.md
+            - name: Conditions requises pour la signature de la fonctionnalité de démarrage sécurisé pour les pilotes en mode noyau
+              href: secured-boot-signing-requirements-for-kernel-mode-drivers.md
+            - name: Démarrage mesuré
+              href: measured-boot.md
+            - name: Applications de démarrage
+              href: startup-apps.md
+            - name: Maintenance automatique
+              href: automatic-maintenance.md
+            - name: Éditeurs de méthode d’entrée tiers
+              href: third-party-input-method-editors.md
+            - name: La nouvelle API permet aux applications d’envoyer &quot; des indicateurs de suppression et de démappage &quot; au support de stockage
+              href: new-api-allows-apps-to-send--trim-and-unmap--hints-to-storage-media.md
+            - name: MPIO (Multipath I/O) prend désormais en charge les SRBs étendus
+              href: multipath-i-o-now-supports-extended-srbs.md
+            - name: Système de fichiers résilient (ReFS)
+              href: resilient-file-system--refs-.md
+            - name: Prise en charge des API du serveur de fichiers
+              href: file-server-api-support.md
+            - name: Nouvelle fonctionnalité historique des fichiers
+              href: new-file-history-feature.md
+            - name: Le système d’exploitation contrôle désormais les lecteurs de disque optique
+              href: operating-system-now-controls-power-to-optical-disk-drives.md
+            - name: 'Prise en charge de la norme USB 3,0'
+              href: support-for-usb-3-0.md
+        - name: 'Outils, meilleures pratiques et conseils'
+          href: tools--best-practices--and-guidance.md
+          items:
+            - name: "Kit d’évaluation\_Windows"
+              href: windows-assessment-toolkit.md
+            - name: Kit de certification matérielle Windows
+              href: windows-hardware-certification-kit.md
