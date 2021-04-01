@@ -1,0 +1,181 @@
+- name: Windows 7 et Windows Server 2008 R2-Guide pratique sur la qualité des applications
+  href: windows-7-application-quality-cookbook.md
+  items:
+    - name: Compatibilité
+      href: compatibility.md
+      items:
+        - name: Compatibilité générale
+          href: general-compatibility.md
+          items:
+            - name: "Mise à jour de la compatibilité des disques Émulation 512\_octets (512e)"
+              href: 512-byte-emulation--512e--disk-compatibility-update.md
+            - name: Contrôle de version du système d’exploitation
+              href: operating-system-versioning.md
+            - name: Suppression de Windows Mail
+              href: removal-of-windows-mail.md
+            - name: Suppression de Windows Movie Maker
+              href: removal-of-windows-movie-maker.md
+            - name: Modifications de tri NLS
+              href: nls-sorting-changes.md
+            - name: Internet Explorer 8-chaîne de l’agent utilisateur
+              href: internet-explorer-8---user-agent-string.md
+            - name: Protection des ressources Windows supplémentaires sur les clés de Registre
+              href: additional-windows-resource-protection-on-registry-keys.md
+            - name: Suppression de Microsoft Agent
+              href: removal-of-microsoft-agent.md
+            - name: Utilisation de .NET Framework 4 avec des applications basées sur des versions antérieures
+              href: using--net-framework-4-with-applications-built-on-earlier-versions.md
+            - name: AppInit_DLLs dans Windows 7 et Windows Server 2008 R2
+              href: appinit-dlls-in-windows-7-and-windows-server-2008-r2.md
+            - name: Suppression de la réflexion du Registre Windows
+              href: removal-of-windows-registry-reflection.md
+            - name: Suppression du pilote de WPDUSB.SYS pour les appareils mobiles Windows
+              href: removal-of-wpdusb-sys-driver-for-windows-portable-devices.md
+            - name: Microsoft Message Queuing (MSMQ)-SHA 2 est l’algorithme de hachage par défaut
+              href: microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md
+        - name: "Problèmes de compatibilité des applications lors de la migration vers Internet Explorer\_8"
+          href: addressing-application-compatibility-when-migrating-to-internet-explorer-8.md
+          items:
+            - name: Introduction
+              href: introduction.md
+            - name: Présentation du défi de la compatibilité des applications
+              href: understanding-the-application-compatibility-challenge.md
+            - name: Normes Web et compatibilité des applications
+              href: web-standards-and-application-compatibility.md
+            - name: Concevoir des mises à jour qui ont un impact sur la compatibilité entre les navigateurs
+              href: design-updates-that-impact-compatibility-between-browsers.md
+              items:
+                - name: Contrôle de version
+                  href: versioning.md
+                - name: Standards
+                  href: standards.md
+                - name: Sécurité
+                  href: security.md
+                - name: Architecture
+                  href: architecture.md
+            - name: Résolution des problèmes de compatibilité dans les applications Web et les Add-Ons
+              href: remediating-web-applications-and-add-ons.md
+              items:
+                - name: Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité
+                  href: remediating-web-applications-with-compatibility-view.md
+                  items:
+                    - name: "Qu’est-ce que l’affichage de compatibilité\_?"
+                      href: what-is-compatibility-view-.md
+                    - name: "Pourquoi avez-vous besoin d’un affichage de compatibilité\_?"
+                      href: why-do-you-need-compatibility-view-.md
+                    - name: Utiliser la balise meta pour garantir la compatibilité future
+                      href: use-the-meta-tag-to-ensure-future-compatibility.md
+                - name: Résolution des problèmes de compatibilité de l’installation ActiveX pour les utilisateurs standard
+                  href: remediating-activex-installation-for-standard-users.md
+                - name: Modifications de rendu et de disposition
+                  href: rendering-and-layout-changes.md
+                - name: Vecteurs de version
+                  href: version-vectors.md
+                - name: Chaîne de l’agent utilisateur
+                  href: user-agent-string.md
+                - name: Protection DEP/NX
+                  href: dep-nx-protection.md
+                - name: Compatibilité
+                  href: remediating-compatibility.md
+                - name: AJAX
+                  href: ajax.md
+                - name: Mode protégé
+                  href: protected-mode.md
+                - name: JSON (JavaScript Object Notation)
+                  href: javascript-object-notation--json-.md
+            - name: Outils de débogage d’applications et de Add-Ons Web
+              href: tools-for-debugging-web-applications-and-add-ons.md
+              items:
+                - name: Microsoft Expression Web SuperPreview
+                  href: microsoft-expression-web-superpreview.md
+                - name: Outil de test de compatibilité d'Internet Explorer (IECTT)
+                  href: inernet-explorer-compatibility-test-tool--iectt-.md
+                - name: "Outils de développement Internet Explorer\_8"
+                  href: internet-explorer-8-developer-tools.md
+                - name: Assistant Compatibilité Internet Explorer 8 (Aggiorno)
+                  href: inernet-explorer-8-compatibility-wizard--aggiorno-.md
+                - name: Outil de débogage Web Fiddler
+                  href: fiddler-web-debugger-tool.md
+                - name: "Test de compatibilité des applications à l'aide d'images Virtual\_PC"
+                  href: application-compatibility-testing-using-virtual-pc-images.md
+            - name: "Annexe 1\_: modifications apportées à Internet Explorer 6 et au navigateur Internet Explorer 8"
+              href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
+            - name: "Annexe 2\_: scénarios de script de test"
+              href: appendix-2--test-script-scenarios.md
+        - name: Compatibilité Windows Server 2008 R2
+          href: windows-server-2008-r2-compatibility.md
+          items:
+            - name: Le service de réplication de fichiers (FRS) est déconseillé dans Windows Server 2008 R2
+              href: file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md
+            - name: Microsoft Message Queuing (MSMQ)-suppression du service de support client Windows 2000
+              href: microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md
+            - name: Nouveaux binaires de Low-Level
+              href: new-low-level-binaries.md
+            - name: Suppression des services UDDI du système d’exploitation serveur
+              href: removal-of-uddi-services-from-server-os.md
+            - name: 64 bits uniquement
+              href: 64-bit-only.md
+            - name: WoW64 est désormais une fonctionnalité facultative pour Server Core
+              href: wow64-is-now-an-optional-feature-for-server-core.md
+            - name: 'Sous-ensemble de .NET 2,0 maintenant sur Server Core'
+              href: subset-of--net-2-0-now-on-server-core.md
+            - name: '.Net 3,0 et 3,5 maintenant sur Server Core'
+              href: '-net-3-0-and-3-5-now-on-server-core.md'
+    - name: Nouvelles fonctionnalités et améliorations
+      href: new-features-and-enhancements.md
+      items:
+        - name: La bibliothèque de fichiers remplace le dossier de documents
+          href: file-library-replaces-document-folder.md
+        - name: Interface utilisateur - Prise en charge de la haute résolution
+          href: user-interface---high-dpi-awareness.md
+        - name: Segment de mémoire à tolérance de panne
+          href: fault-tolerant-heap.md
+        - name: Internet Explorer 8-protection de l’exécution des données/NX
+          href: internet-explorer-8---data-execution-protection-nx.md
+        - name: Mémoire dynamique
+          href: dynamic-memory.md
+        - name: Interface utilisateur-mises à jour de la boîte de dialogue contrôle de compte d’utilisateur
+          href: user-interface---user-account-control-dialog-updates.md
+        - name: ChooseFont () boîte de dialogue commune Win32
+          href: choosefont-win32-common-dialog.md
+        - name: Manifeste d’application
+          href: compatibility---application-manifest.md
+        - name: Serveur Hyper-V
+          href: server-hyper-v.md
+        - name: Activer la prise en charge de Windows 7 pour Intel AVX
+          href: enable-windows-7-support-for-intel-avx.md
+        - name: Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente
+          href: microsoft-message-queuing--msmq----improved-queue-handling.md
+        - name: Services Bureau à distance
+          href: terminal-services.md
+    - name: 'Outils, meilleures pratiques et conseils'
+      href: tools--resources--and-guidance.md
+      items:
+        - name: Outils d'analyse de compatibilité des applications (ACT)
+          href: application-compatibility-toolkit--act-.md
+        - name: Administrateur de compatibilité
+          href: compatibility-administrator.md
+        - name: Outil SUA (Standard User Analyzer) et Assistant SUA (Standard User Analyzer)
+          href: standard-user-analyzer--sua--tool-and-standard-user-analyzer-wizard--sua-wizard-.md
+        - name: "Application\_Verifier"
+          href: application-verifier.md
+        - name: Meilleures pratiques pour les performances d’activation/de désactivation
+          href: best-practices-for-on-off-performance.md
+        - name: Prévention des fuites de mémoire dans les applications Windows
+          href: preventing-memory-leaks-in-windows-applications.md
+        - name: Prévention des blocages dans les applications Windows
+          href: preventing-hangs-in-windows-applications.md
+        - name: 'Gestion et maintenance des images de déploiement (DISM, Deployment Image Servicing and Management)'
+          href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
+        - name: Résolution des problèmes Windows
+          href: compatibility---windows-troubleshooting.md
+        - name: Rapport d’erreurs Windows l’enregistreur des étapes du problème
+          href: windows-error-reporting-problem-steps-recorder.md
+        - name: Meilleures pratiques pour l’efficacité énergétique
+          href: energy-efficiency-best-practices.md
+        - name: Meilleures pratiques pour réduire les services qui ne répondent pas
+          href: performance-improvement---minimizing-unresponsive-services.md
+        - name: Programme du logo du logiciel client Windows 7
+          href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
+        - name: Programme de logo Windows Server 2008 R2 pour les logiciels
+          href: windows-server-2008-r2-logo-program-for-software.md
