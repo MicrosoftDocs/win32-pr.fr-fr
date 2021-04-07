@@ -1,0 +1,42 @@
+---
+title: Recherche dans le catalogue global
+description: Active Directory Domain Services également avoir un catalogue global (GC), qui contient un réplica partiel de tous les objets de l’annuaire.
+ms.assetid: 83970563-1a56-4671-b264-56e29939e369
+ms.tgt_platform: multiple
+keywords:
+- recherche dans le catalogue global Active Directory
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a057330309c12df6d18a209fc3d2adaf42b03005
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103671238"
+---
+# <a name="searching-the-global-catalog"></a><span data-ttu-id="aab0e-104">Recherche dans le catalogue global</span><span class="sxs-lookup"><span data-stu-id="aab0e-104">Searching the Global Catalog</span></span>
+
+<span data-ttu-id="aab0e-105">Active Directory Domain Services également avoir un catalogue global (GC), qui contient un réplica partiel de tous les objets de l’annuaire.</span><span class="sxs-lookup"><span data-stu-id="aab0e-105">Active Directory Domain Services also have a global catalog (GC), which contains a partial replica of all objects in the directory.</span></span> <span data-ttu-id="aab0e-106">Il contient également des réplicas partiels des conteneurs de schéma et de configuration.</span><span class="sxs-lookup"><span data-stu-id="aab0e-106">It also contains partial replicas of the schema and configuration containers.</span></span> <span data-ttu-id="aab0e-107">Un ou plusieurs contrôleurs de domaine dans un domaine peuvent contenir une copie du catalogue global.</span><span class="sxs-lookup"><span data-stu-id="aab0e-107">One or more domain controllers in a domain can hold a copy of the global catalog.</span></span> <span data-ttu-id="aab0e-108">Pour plus d’informations sur la liaison à un catalogue global, consultez [liaison au catalogue global](binding-to-the-global-catalog.md).</span><span class="sxs-lookup"><span data-stu-id="aab0e-108">For more information about binding to a global catalog, see [Binding to the Global Catalog](binding-to-the-global-catalog.md).</span></span>
+
+<span data-ttu-id="aab0e-109">Le catalogue global contient un réplica de chaque objet dans Active Directory Domain Services, mais avec seulement un petit nombre de leurs attributs.</span><span class="sxs-lookup"><span data-stu-id="aab0e-109">The global catalog holds a replica of every object in Active Directory Domain Services, but with only a small number of their attributes.</span></span> <span data-ttu-id="aab0e-110">Les attributs du catalogue global sont ceux qui sont utilisés le plus fréquemment dans les opérations de recherche, comme le prénom et le nom d’un utilisateur, les noms de connexion, etc.</span><span class="sxs-lookup"><span data-stu-id="aab0e-110">The attributes in the global catalog are those most frequently used in search operations, such as a user's first and last names, login names, and so on.</span></span> <span data-ttu-id="aab0e-111">Les attributs de catalogue global incluent également ceux qui sont requis pour localiser un réplica complet de l’objet.</span><span class="sxs-lookup"><span data-stu-id="aab0e-111">The global catalog attributes also include those required to locate a full replica of the object.</span></span> <span data-ttu-id="aab0e-112">Le catalogue global permet aux utilisateurs de trouver rapidement des objets intéressants sans savoir quel domaine les détient et sans avoir besoin d’un espace de noms étendu contigu dans l’entreprise. autrement dit, vous pouvez effectuer une recherche dans l’ensemble de la forêt.</span><span class="sxs-lookup"><span data-stu-id="aab0e-112">The global catalog allows users to quickly find objects of interest without knowing what domain holds them and without requiring a contiguous extended namespace in the enterprise; that is, you can search the entire forest.</span></span>
+
+<span data-ttu-id="aab0e-113">Par conséquent, si vous établissez une liaison à un objet dans le catalogue global, vous allez Rechercher cet objet et la hiérarchie entière en dessous, sans avoir à accéder à un autre serveur.</span><span class="sxs-lookup"><span data-stu-id="aab0e-113">So, if you bind to an object in the global catalog, you will search that object and the entire hierarchy below it — without having to go to any other server.</span></span> <span data-ttu-id="aab0e-114">Toutefois, la recherche ne peut utiliser qu’un filtre de requête contenant des propriétés dans le catalogue global et ne peut récupérer que des propriétés dans le catalogue global.</span><span class="sxs-lookup"><span data-stu-id="aab0e-114">However, the search can only use a query filter containing properties in the global catalog and can retrieve only properties in the global catalog.</span></span>
+
+<span data-ttu-id="aab0e-115">La recherche dans le catalogue global présente les avantages suivants :</span><span class="sxs-lookup"><span data-stu-id="aab0e-115">Searching the global catalog has the following benefits:</span></span>
+
+-   <span data-ttu-id="aab0e-116">Le catalogue global vous permet d’effectuer une recherche dans l’ensemble de la forêt ou dans une partie de la forêt, ainsi que dans les conteneurs de schéma et de configuration.</span><span class="sxs-lookup"><span data-stu-id="aab0e-116">Global catalog enables you to search the entire forest or any part of the forest as well as the schema and configuration containers.</span></span>
+-   <span data-ttu-id="aab0e-117">Le catalogue global vous permet d’effectuer une recherche complète sur un serveur unique.</span><span class="sxs-lookup"><span data-stu-id="aab0e-117">Global catalog enables you to perform a complete search on a single server.</span></span> <span data-ttu-id="aab0e-118">Aucune référence ou aucun repérage de références n’est requis.</span><span class="sxs-lookup"><span data-stu-id="aab0e-118">No referrals or referral chasing is required.</span></span>
+
+<span data-ttu-id="aab0e-119">La recherche dans le catalogue global présente les inconvénients suivants :</span><span class="sxs-lookup"><span data-stu-id="aab0e-119">Searching the global catalog has the following disadvantages:</span></span>
+
+-   <span data-ttu-id="aab0e-120">Le catalogue global contient un petit sous-ensemble des propriétés de chaque objet.</span><span class="sxs-lookup"><span data-stu-id="aab0e-120">Global catalog contains a small subset of the properties on each object.</span></span> <span data-ttu-id="aab0e-121">Si votre filtre de requête comprend des propriétés qui ne se trouvent pas dans le catalogue global, la requête évaluera les expressions contenant ces propriétés comme fausses.</span><span class="sxs-lookup"><span data-stu-id="aab0e-121">If your query filter includes properties that are not in the global catalog, the query will evaluate the expressions containing those properties as false.</span></span> <span data-ttu-id="aab0e-122">Si vous spécifiez des propriétés de catalogue non global dans la liste des propriétés à retourner, ces propriétés ne sont pas récupérées.</span><span class="sxs-lookup"><span data-stu-id="aab0e-122">If you specify non-global catalog properties in the list of properties to return, those properties are not retrieved.</span></span>
+-   <span data-ttu-id="aab0e-123">Pour effectuer une recherche dans le catalogue global, vous devez disposer d’un contrôleur de domaine qui contient un catalogue global.</span><span class="sxs-lookup"><span data-stu-id="aab0e-123">To search the global catalog, a domain controller that contains a global catalog must be available.</span></span> <span data-ttu-id="aab0e-124">Si aucun n’est disponible, vous ne pouvez pas effectuer une recherche dans le catalogue global.</span><span class="sxs-lookup"><span data-stu-id="aab0e-124">If one is not available, you cannot perform a global catalog search.</span></span>
+-   <span data-ttu-id="aab0e-125">Le catalogue global est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="aab0e-125">The global catalog is read-only.</span></span> <span data-ttu-id="aab0e-126">Cela signifie que vous ne pouvez pas effectuer une liaison à un objet dans le catalogue global pour créer, modifier ou supprimer des objets.</span><span class="sxs-lookup"><span data-stu-id="aab0e-126">This means you cannot bind to an object in the global catalog to create, modify, or delete objects.</span></span>
+
+ 
+
+ 
+
+
+
+
