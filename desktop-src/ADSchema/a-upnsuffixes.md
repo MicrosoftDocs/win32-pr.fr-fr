@@ -1,0 +1,207 @@
+---
+title: Attribut UPN-Suffixes
+description: Liste des suffixes de nom d’utilisateur principal d’un domaine.
+ms.assetid: ad861d2d-b643-468c-a346-36ad6a828359
+ms.tgt_platform: multiple
+keywords:
+- Schéma AD d’attribut UPN-Suffixes
+- Schéma AD de l’attribut uPNSuffixes
+topic_type:
+- apiref
+api_name:
+- UPN-Suffixes
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: e4aa5fb9398478e4b91fb8f36b8cf96a244935fd
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "103845270"
+---
+# <a name="upn-suffixes-attribute"></a>Attribut UPN-Suffixes
+
+Liste des suffixes de nom d’utilisateur principal d’un domaine.
+
+
+
+| Entrée | Valeur |
+|-------------------|---------------------------------------------|
+| CN                | UPN-Suffixes                                |
+| LDAP-Display-Name | uPNSuffixes                                 |
+| Taille              | \-                                          |
+| Mettre à jour le privilège  | Administrateur de domaine                        |
+| Fréquence des mises à jour  | \-                                          |
+| Attribute-Id      | 1.2.840.113556.1.4.890                      |
+| System-ID-GUID    | 032160bf-9824-11d1-aec0-0000f80367c1        |
+| Syntaxe            | [**String(Unicode)**](s-string-unicode.md) |
+
+
+
+## <a name="implementations"></a>Implémentations
+
+-   [**Windows 2000 Server**](#windows-2000-server)
+-   [**Windows Server 2003**](#windows-server-2003)
+-   [**ADAM**](#adam)
+-   [**Windows Server 2003 R2**](#windows-server-2003-r2)
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-2000-server"></a>Windows 2000 Server
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="windows-server-2003"></a>Windows Server 2003
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="adam"></a>ADAM
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="windows-server-2003-r2"></a>Windows Server 2003 R2
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="windows-server-2008"></a>Windows Server 2008
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| Entrée | Valeur |
+|------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| ID de lien                | \-                                                                                                                           |
+| MAPI-Id                | \-                                                                                                                           |
+| System-Only            | Faux                                                                                                                        |
+| Est de valeur unique       | Faux                                                                                                                        |
+| Est indexé             | Faux                                                                                                                        |
+| Dans le catalogue global      | Faux                                                                                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                 |
+| Range-Lower            | \-                                                                                                                           |
+| Range-Upper            | \-                                                                                                                           |
+| Search-Flags           | 0x00000000                                                                                                                   |
+| System-Flags           | 0x00000010                                                                                                                   |
+| Classes utilisées dans        | [**Cross-Ref-Container**](c-crossrefcontainer.md)<br/> [**Unité d’organisation**](c-organizationalunit.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
