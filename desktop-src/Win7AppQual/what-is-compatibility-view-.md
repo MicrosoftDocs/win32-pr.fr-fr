@@ -1,0 +1,35 @@
+---
+description: .
+ms.assetid: 1EAC5799-7943-40AB-A67E-F6D6888C4B7D
+title: Qu’est-ce que l’affichage de compatibilité ?
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7eac72fc5afa0e2946a4f904cbcea3c7b0af723c
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103760785"
+---
+# <a name="what-is-compatibility-view"></a><span data-ttu-id="40c39-103">Qu’est-ce que l’affichage de compatibilité ?</span><span class="sxs-lookup"><span data-stu-id="40c39-103">What Is Compatibility View?</span></span>
+
+<span data-ttu-id="40c39-104">L' *affichage de compatibilité* est une fonctionnalité de Windows Internet Explorer 8 qui permet au navigateur de restituer une page Web presque de la même façon que Windows Internet Explorer 7 le rendrait.</span><span class="sxs-lookup"><span data-stu-id="40c39-104">*Compatibility View* is a feature of Windows Internet Explorer 8 that enables the browser to render a webpage nearly identically to the way that Windows Internet Explorer 7 would render it.</span></span>
+
+<span data-ttu-id="40c39-105">Dans Internet Explorer 8, l’affichage de compatibilité modifie la façon dont le navigateur interprète le code écrit en CSS, HTML et le Document Object Model (DOM) pour essayer de correspondre à Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="40c39-105">In Internet Explorer 8, Compatibility View changes how the browser interprets code that is written in CSS, HTML, and the Document Object Model (DOM) to try to match Internet Explorer 7.</span></span> <span data-ttu-id="40c39-106">Un site qu’un utilisateur consulte dans l’affichage de compatibilité Internet Explorer 8 est presque identique à un site que l’utilisateur affiche dans Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="40c39-106">A site that a user views in Internet Explorer 8 Compatibility View is almost identical to a site that the user views in Internet Explorer 7.</span></span> <span data-ttu-id="40c39-107">Toutefois, l’affichage de compatibilité ne change pas la manière dont le navigateur interprète tout le code.</span><span class="sxs-lookup"><span data-stu-id="40c39-107">However, Compatibility View does not change how the browser interprets all code.</span></span> <span data-ttu-id="40c39-108">Par exemple, les modifications apportées à Internet Explorer 8 quant à la façon dont le navigateur gère ActiveX, l’analyseur, AJAX, JavaScript, la mise en réseau et la sécurité peuvent toujours provoquer des problèmes de compatibilité.</span><span class="sxs-lookup"><span data-stu-id="40c39-108">For example, the changes in Internet Explorer 8 for how the browser handles ActiveX, the parser, AJAX, JavaScript, networking, and security might still cause compatibility issues.</span></span> <span data-ttu-id="40c39-109">L’affichage de compatibilité ne modifie pas ces comportements.</span><span class="sxs-lookup"><span data-stu-id="40c39-109">Compatibility View does not change these behaviors.</span></span>
+
+<span data-ttu-id="40c39-110">Dans un environnement d'entreprise, certains domaines présentent un risque de problèmes de compatibilité plus faible.</span><span class="sxs-lookup"><span data-stu-id="40c39-110">In an enterprise environment, some areas have lower risk for compatibility issues.</span></span> <span data-ttu-id="40c39-111">Par exemple, les sites Web de la zone intranet utilisent par défaut l'affichage de compatibilité.</span><span class="sxs-lookup"><span data-stu-id="40c39-111">For example, Intranet Zone websites use Compatibility View by default.</span></span> <span data-ttu-id="40c39-112">Les applications Web clientes qui s’affichent à l’aide du contrôle de navigateur Web, ou le moteur de rendu WebOC (Internet Explorer), présentent également un risque faible pour les problèmes de compatibilité, car Internet Explorer 8 utilise par défaut un mode de compatibilité pour le WebOC.</span><span class="sxs-lookup"><span data-stu-id="40c39-112">Client web applications that render by using the Web Browser Control, or the WebOC (Internet Explorer rendering engine), also have a low risk for compatibility issues because Internet Explorer 8 defaults to a compatibility mode for the WebOC.</span></span> <span data-ttu-id="40c39-113">Toutefois, les paramètres de configuration par défaut de l’affichage de compatibilité peuvent ne pas garantir une compatibilité complète.</span><span class="sxs-lookup"><span data-stu-id="40c39-113">However, the default configuration settings for Compatibility View might not ensure complete compatibility.</span></span> <span data-ttu-id="40c39-114">Pour déterminer si un site Web ou une application Web est compatible avec Internet Explorer 8, vous devez tester le site Web ou l’application Web.</span><span class="sxs-lookup"><span data-stu-id="40c39-114">To determine if a website or web application is compatible with Internet Explorer 8, you should test the website or web application.</span></span>
+
+<span data-ttu-id="40c39-115">Pour plus d’informations sur les différences entre l’affichage de compatibilité d’Internet Explorer 8 et Internet Explorer 7, consultez le [blog compatibilité avec le site et Internet Explorer 8](/archive/blogs/ie/site-compatibility-and-ie8).</span><span class="sxs-lookup"><span data-stu-id="40c39-115">For more information about the differences between Internet Explorer 8 Compatibility View and Internet Explorer 7, see the [Site Compatibility and Internet Explorer 8 blog](/archive/blogs/ie/site-compatibility-and-ie8).</span></span> <span data-ttu-id="40c39-116">Pour obtenir la liste des éléments à vérifier lorsque vous effectuez une mise à niveau vers Internet Explorer 8, consultez [Internet Explorer 8 Readiness Toolkit](https://www.microsoft.com/windows/internet-explorer/readiness/developers.aspx).</span><span class="sxs-lookup"><span data-stu-id="40c39-116">For a list of what to check when you upgrade to Internet Explorer 8, see the [Internet Explorer 8 Readiness Toolkit](https://www.microsoft.com/windows/internet-explorer/readiness/developers.aspx).</span></span>
+
+<span data-ttu-id="40c39-117">Pour plus d’informations sur l’affichage de compatibilité, consultez le blog de l' [équipe Internet Explorer](/archive/blogs/ie/).</span><span class="sxs-lookup"><span data-stu-id="40c39-117">For more information about Compatibility View, see the [Internet Explorer Team Blog](/archive/blogs/ie/).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="40c39-118">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="40c39-118">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="40c39-119">Résolution des problèmes de compatibilité dans les applications Web à l’aide de l’affichage de compatibilité</span><span class="sxs-lookup"><span data-stu-id="40c39-119">Fixing Compatibility Issues in Web Applications by Using Compatibility View</span></span>](remediating-web-applications-and-add-ons.md)
+</dt> </dl>
+
+ 
+
+ 
