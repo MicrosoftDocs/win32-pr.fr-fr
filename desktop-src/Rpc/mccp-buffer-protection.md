@@ -1,0 +1,34 @@
+---
+title: Protection de la mémoire tampon MCCP
+description: À compter de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées. Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).
+ms.assetid: 37fe743b-c64e-469d-b8f4-abab9f05c813
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a70d04de57974bd9665d659129590d72513eb83e
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103729797"
+---
+# <a name="mccp-buffer-protection"></a><span data-ttu-id="17bd4-104">Protection de la mémoire tampon MCCP</span><span class="sxs-lookup"><span data-stu-id="17bd4-104">MCCP Buffer Protection</span></span>
+
+<span data-ttu-id="17bd4-105">À compter de Windows Vista, le moteur de marshaling RPC prend d’autres mesures pour empêcher les dépassements de mémoire tampon côté client en raison des données renvoyées.</span><span class="sxs-lookup"><span data-stu-id="17bd4-105">Starting with Windows Vista, the RPC Marshalling Engine takes further steps to try to prevent client-side buffer overruns due to returned data.</span></span> <span data-ttu-id="17bd4-106">Cette fonctionnalité est appelée « protection de la conformité de la mini-calcul » (MCCP).</span><span class="sxs-lookup"><span data-stu-id="17bd4-106">This facility is called Mini Compute Conformance Protection (MCCP).</span></span>
+
+<span data-ttu-id="17bd4-107">Lorsque le client passe un pointeur vers une mémoire tampon existante à un \[ paramètre [**out**](/windows/desktop/Midl/out-idl) \] ou \[ [**in**](/windows/desktop/Midl/in),**out** , les \] données retournées pour ce paramètre sont copiées dans la mémoire tampon existante.</span><span class="sxs-lookup"><span data-stu-id="17bd4-107">When the client passes a pointer to an existing buffer to an \[[**out**](/windows/desktop/Midl/out-idl)\] or \[[**in**](/windows/desktop/Midl/in),**out**\] parameter, returned data for that parameter is copied into the existing buffer.</span></span> <span data-ttu-id="17bd4-108">Si les données retournées sont plus volumineuses que la mémoire tampon passée, un dépassement de mémoire tampon peut se produire lorsque RPC copie les données renvoyées dans la mémoire tampon trop petite.</span><span class="sxs-lookup"><span data-stu-id="17bd4-108">If the returned data is larger than the passed buffer, a buffer overrun can occur when RPC copies the returned data into the too-small buffer.</span></span> <span data-ttu-id="17bd4-109">Consultez [les pointeurs de niveau supérieur et incorporé](top-level-and-embedded-pointers.md).</span><span class="sxs-lookup"><span data-stu-id="17bd4-109">See [Top-Level and Embedded Pointers](top-level-and-embedded-pointers.md).</span></span>
+
+<span data-ttu-id="17bd4-110">Avec MCCP, RPC tente de détecter cette condition et de rejeter l’appel si elle est détectée.</span><span class="sxs-lookup"><span data-stu-id="17bd4-110">With MCCP, RPC attempts to detect this condition and reject the call if it is detected.</span></span> <span data-ttu-id="17bd4-111">Pour les mémoires tampons avec une valeur de corrélation, telle que \[ la [**taille \_**](/windows/desktop/Midl/size-is) \] , si les données retournées ne tiennent pas dans la taille de mémoire tampon spécifiée, l’appel est rejeté et l' \_ exception RPC X \_ Data stub incorrecte \_ \_ est levée.</span><span class="sxs-lookup"><span data-stu-id="17bd4-111">For buffers with a correlation value, such as \[[**size\_is**](/windows/desktop/Midl/size-is)\], if the returned data does not fit in the specified buffer size, the call is rejected and RPC\_X\_BAD\_STUB\_DATA exception is raised.</span></span> <span data-ttu-id="17bd4-112">Pour les chaînes non dimensionnées, l’appel est rejeté si la taille de chaîne existante (longueur jusqu’à la marque de fin **null** ) est insuffisante pour contenir la chaîne retournée, l’appel est rejeté.</span><span class="sxs-lookup"><span data-stu-id="17bd4-112">For unsized strings, the call is rejected if the existing string size (length until the **null** terminator) is insufficient to hold the returned string, the call is rejected.</span></span> <span data-ttu-id="17bd4-113">RPC ne peut pas détecter les dépassements de mémoire tampon dans toutes les conditions. il est donc recommandé au développeur de continuer à prendre des précautions normales contre les dépassements de mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="17bd4-113">RPC cannot detect buffer overruns in all conditions, so the developer is advised to continue to take normal precautions against buffer overruns.</span></span>
+
+<span data-ttu-id="17bd4-114">Si le client ne passe pas de mémoire tampon existante pour un paramètre de \[ [**sortie**](/windows/desktop/Midl/out-idl) \] , mais passe un pointeur déréférencé à la **valeur null**, RPC suit les règles normales pour allouer une nouvelle mémoire tampon au nom du client.</span><span class="sxs-lookup"><span data-stu-id="17bd4-114">If the client does not pass an existing buffer for an \[[**out**](/windows/desktop/Midl/out-idl)\] parameter, but instead passes a dereferenced pointer to **NULL**, RPC will follow normal rules to allocate a new buffer on the client’s behalf.</span></span> <span data-ttu-id="17bd4-115">Cette mémoire tampon sera allouée avec un espace suffisant pour contenir les données retournées.</span><span class="sxs-lookup"><span data-stu-id="17bd4-115">This buffer will be allocated with sufficient space to hold the returned data.</span></span>
+
+<span data-ttu-id="17bd4-116">Une deuxième protection est que pour les paramètres corrélés, RPC s’impose qu’une mémoire tampon non **null** est transmise lorsque la variable de nombre de corrélations est non **null**.</span><span class="sxs-lookup"><span data-stu-id="17bd4-116">A second protection is that for correlated parameters, RPC will enforce that a non-**null** buffer is passed when the correlation count variable is non-**null**.</span></span>
+
+``` syntax
+HRESULT PassString( [in] DWORD Length, [in, unique, string, size_is( Length )]LPWSTR MyString );
+```
+
+<span data-ttu-id="17bd4-117">Si *myString* a la **valeur null**, RPC rejette l’appel, sauf si *Length* a la valeur 0.</span><span class="sxs-lookup"><span data-stu-id="17bd4-117">If *MyString* is **NULL**, RPC will reject the call unless *Length* is set to 0.</span></span> <span data-ttu-id="17bd4-118">Notez que RPC autorise la *longueur* à être égale à 0 alors que *myString* est non **null** et que RPC traite *myString* comme une allocation de mémoire tampon de longueur 0.</span><span class="sxs-lookup"><span data-stu-id="17bd4-118">Note that RPC will allow *Length* to be 0 while *MyString* is non-**NULL**, and RPC will treat *MyString* as a 0-length buffer allocation.</span></span>
+
+ 
+
+ 

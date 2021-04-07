@@ -1,0 +1,25 @@
+---
+title: Utilisation de mémoires tampons de chaîne
+description: Les fonctions qui retournent des chaînes contiennent un paramètre d’entrée, Lpszbuffer a été et un paramètre de taille, lpdwBufferLength. Bien que Lpszbuffer a été puisse avoir la valeur NULL, lpdwBufferLength doit être un pointeur valide vers une variable DWORD.
+ms.assetid: ae7f84ba-15d4-483b-bdda-0042854f9e1b
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 309d887458521b99069b381f8bf6650ebeda488a
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103728764"
+---
+# <a name="using-string-buffers"></a><span data-ttu-id="921f0-104">Utilisation de mémoires tampons de chaîne</span><span class="sxs-lookup"><span data-stu-id="921f0-104">Using String Buffers</span></span>
+
+<span data-ttu-id="921f0-105">Les fonctions qui retournent des chaînes contiennent un paramètre d’entrée, *lpszbuffer a été* et un paramètre de taille, *lpdwBufferLength*.</span><span class="sxs-lookup"><span data-stu-id="921f0-105">Functions that return strings contain an input parameter, *lpszBuffer*, and a size parameter, *lpdwBufferLength*.</span></span> <span data-ttu-id="921f0-106">Bien que *lpszbuffer a été* puisse avoir la **valeur null**, *lpdwBufferLength* doit être un pointeur valide vers une variable **DWORD** .</span><span class="sxs-lookup"><span data-stu-id="921f0-106">Although *lpszBuffer* can be **NULL**, *lpdwBufferLength* must be a valid pointer to a **DWORD** variable.</span></span> <span data-ttu-id="921f0-107">Si la mémoire tampon d’entrée vers laquelle pointe *lpszbuffer a été* a la **valeur null** ou est trop petite pour contenir la chaîne de sortie, la fonction échoue et [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne l' **erreur \_ \_ mémoire tampon insuffisante**.</span><span class="sxs-lookup"><span data-stu-id="921f0-107">If the input buffer pointed to by *lpszBuffer* is **NULL** or too small to hold the output string, the function fails and [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) returns **ERROR\_INSUFFICIENT\_BUFFER**.</span></span> <span data-ttu-id="921f0-108">La variable vers laquelle pointe *lpdwBufferLength* contient un nombre qui représente le nombre d’octets requis par la fonction pour retourner la chaîne demandée, y compris la marque de fin **null** .</span><span class="sxs-lookup"><span data-stu-id="921f0-108">The variable pointed to by *lpdwBufferLength* contains a number that represents the number of bytes the function requires to return the requested string, including the **null** terminator.</span></span> <span data-ttu-id="921f0-109">L’application doit allouer une mémoire tampon de cette taille, définir la variable vers laquelle pointe *lpdwBufferLength* et soumettre à nouveau la demande.</span><span class="sxs-lookup"><span data-stu-id="921f0-109">The application should allocate a buffer of this size, set the variable pointed to by *lpdwBufferLength* to this value, and resubmit the request.</span></span> <span data-ttu-id="921f0-110">Si la taille de la mémoire tampon est suffisante pour recevoir la chaîne demandée, la chaîne est copiée dans la mémoire tampon de sortie avec une marque de fin **null** et la fonction retourne un indicateur de réussite.</span><span class="sxs-lookup"><span data-stu-id="921f0-110">If the buffer size is sufficient to receive the requested string, the string is copied to the output buffer with a **null** terminator and the function returns a success indication.</span></span> <span data-ttu-id="921f0-111">La variable vers laquelle pointe *lpdwBufferLength* contient maintenant le nombre de caractères stockés dans la mémoire tampon, à l’exclusion de la marque de fin **null** .</span><span class="sxs-lookup"><span data-stu-id="921f0-111">The variable pointed to by *lpdwBufferLength* now contains the number of characters stored in the buffer, excluding the **null** terminator.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="921f0-112">WinINet ne prend pas en charge les implémentations de serveur.</span><span class="sxs-lookup"><span data-stu-id="921f0-112">WinINet does not support server implementations.</span></span> <span data-ttu-id="921f0-113">En outre, il ne doit pas être utilisé à partir d’un service.</span><span class="sxs-lookup"><span data-stu-id="921f0-113">In addition, it should not be used from a service.</span></span> <span data-ttu-id="921f0-114">Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).</span><span class="sxs-lookup"><span data-stu-id="921f0-114">For server implementations or services use [Microsoft Windows HTTP Services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).</span></span>
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,36 @@
+---
+title: Protocole de routage
+description: Un protocole de routage est un type de client qui s’inscrit auprès du gestionnaire de tables de routage. Les routeurs utilisent des protocoles de routage pour échanger des informations relatives aux itinéraires vers une destination.
+ms.assetid: 957ec896-94e3-4bdb-801a-12b861460fff
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8e64d12912494d0d6c20f484eba588b47670a808
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104029115"
+---
+# <a name="routing-protocol"></a><span data-ttu-id="56cb9-104">Protocole de routage</span><span class="sxs-lookup"><span data-stu-id="56cb9-104">Routing Protocol</span></span>
+
+<span data-ttu-id="56cb9-105">Un protocole de routage est un type de client qui s’inscrit auprès du gestionnaire de tables de routage.</span><span class="sxs-lookup"><span data-stu-id="56cb9-105">A routing protocol is a type of client that registers with the routing table manager.</span></span> <span data-ttu-id="56cb9-106">Les routeurs utilisent des protocoles de routage pour échanger des informations relatives aux itinéraires vers une destination.</span><span class="sxs-lookup"><span data-stu-id="56cb9-106">Routers use routing protocols to exchange information regarding routes to a destination.</span></span>
+
+<span data-ttu-id="56cb9-107">Les protocoles de routage sont monodiffusion ou multidiffusion.</span><span class="sxs-lookup"><span data-stu-id="56cb9-107">Routing protocols are either unicast or multicast.</span></span> <span data-ttu-id="56cb9-108">Les protocoles de routage publient les itinéraires vers une destination.</span><span class="sxs-lookup"><span data-stu-id="56cb9-108">Routing protocols advertise routes to a destination.</span></span>
+
+<span data-ttu-id="56cb9-109">Un itinéraire de monodiffusion vers une destination est utilisé par un protocole de routage monodiffusion pour transmettre les données de monodiffusion à cette destination.</span><span class="sxs-lookup"><span data-stu-id="56cb9-109">A unicast route to a destination is used by a unicast routing protocol to forward unicast data to that destination.</span></span> <span data-ttu-id="56cb9-110">Voici des exemples de protocoles de routage monodiffusion : RIP (Routing Information Protocol), OSPF (Open Shortest Path First) et Border Gateway Protocol (BGP).</span><span class="sxs-lookup"><span data-stu-id="56cb9-110">Examples of unicast routing protocols include: Routing Information Protocol (RIP), Open Shortest Path First (OSPF), and Border Gateway Protocol (BGP).</span></span>
+
+<span data-ttu-id="56cb9-111">Un itinéraire de multidiffusion vers une destination est utilisé par certains protocoles de routage de multidiffusion pour créer les informations utilisées pour transférer des données de multidiffusion à partir d’hôtes sur le réseau de destination de l’itinéraire (appelé transfert de chemin inverse). Voici des exemples de protocoles de routage de multidiffusion : MOSPF (multicast Open Shortest Path First), DVMRP (distance Vector Multicast Routing Protocol) et PIM (Protocol Independent multicast).</span><span class="sxs-lookup"><span data-stu-id="56cb9-111">A multicast route to a destination is used by some multicast routing protocols to create the information that is used to forward multicast data from hosts on the destination network of the route (known as reverse path forwarding).Examples of multicast routing protocols include: Multicast Open Shortest Path First (MOSPF), Distance Vector Multicast Routing Protocol (DVMRP), and Protocol Independent Multicast (PIM).</span></span>
+
+<span data-ttu-id="56cb9-112">Le gestionnaire de tables de routage prend en charge plusieurs instances du même protocole (telles que l’implémentation de OSPF par Microsoft et un protocole OSPF tiers) exécuté sur le routeur.</span><span class="sxs-lookup"><span data-stu-id="56cb9-112">The routing table manager supports multiple instances of the same protocol (such as Microsoft's implementation of OSPF and a third-party OSPF) running on the router.</span></span> <span data-ttu-id="56cb9-113">Cela permet aux routeurs d’utiliser les différentes fonctionnalités de chaque version.</span><span class="sxs-lookup"><span data-stu-id="56cb9-113">This allows routers to use the different capabilities of each version.</span></span> <span data-ttu-id="56cb9-114">Ces protocoles ont des identificateurs de protocole différents.</span><span class="sxs-lookup"><span data-stu-id="56cb9-114">These protocols have different protocol identifiers.</span></span>
+
+<span data-ttu-id="56cb9-115">Les identificateurs de protocole sont constitués d’un identificateur de fournisseur et d’un identificateur spécifique au protocole.</span><span class="sxs-lookup"><span data-stu-id="56cb9-115">Protocol identifiers are comprised of a vendor identifier and a protocol-specific identifier.</span></span> <span data-ttu-id="56cb9-116">L’identificateur propre au protocole est le même pour les différentes implémentations du protocole, telles que l’implémentation de OSPF par Microsoft et une implémentation tierce de OSPF.</span><span class="sxs-lookup"><span data-stu-id="56cb9-116">The protocol-specific identifier is the same for different implementations of the protocol, such as Microsoft's implementation of OSPF and a third-party implementation of OSPF.</span></span> <span data-ttu-id="56cb9-117">Un identificateur unique est associé à un protocole de routage uniquement lorsque les identificateurs spécifiques au fournisseur et au protocole sont combinés.</span><span class="sxs-lookup"><span data-stu-id="56cb9-117">Only when the vendor and protocol-specific identifiers are combined is there a unique identifier for a routing protocol.</span></span>
+
+<span data-ttu-id="56cb9-118">Un protocole avec le même identificateur de protocole (autrement dit, un identificateur de fournisseur et un identificateur propre au protocole) peut s’inscrire plusieurs fois auprès du gestionnaire de tables de routage.</span><span class="sxs-lookup"><span data-stu-id="56cb9-118">A protocol with the same protocol identifier (that is, the same vendor identifier and protocol-specific identifier) can register with the routing table manager multiple times.</span></span> <span data-ttu-id="56cb9-119">Chaque fois, le protocole s’inscrit à l’aide d’un identificateur d’instance de protocole différent.</span><span class="sxs-lookup"><span data-stu-id="56cb9-119">Each time, the protocol registers using a different protocol instance identifier.</span></span> <span data-ttu-id="56cb9-120">Par exemple, une implémentation de OSPF à partir d’un fournisseur particulier peut s’inscrire en tant que Vendor-OSPF-1 et Vendor-OSPF-2.</span><span class="sxs-lookup"><span data-stu-id="56cb9-120">For example, an implementation of OSPF from a particular vendor can register as Vendor-OSPF-1 and Vendor-OSPF-2.</span></span> <span data-ttu-id="56cb9-121">Cela permet à une implémentation de protocole spécifique de partitionner les informations qu’elle conserve dans la table de routage.</span><span class="sxs-lookup"><span data-stu-id="56cb9-121">This enables a specific protocol implementation to partition the information that it keeps in the routing table.</span></span>
+
+ 
+
+ 
+
+
+
+

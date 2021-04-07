@@ -1,0 +1,59 @@
+---
+title: Contrôles Windows
+description: Un contrôle est une fenêtre enfant qu’une application utilise conjointement à une autre fenêtre pour permettre l’interaction de l’utilisateur.
+ms.assetid: 0a6eb481-d94e-40c5-afec-46354520f08f
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 814bf14f3c93f6f38ba787cba463977a4dca9eda
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104028815"
+---
+# <a name="windows-controls"></a><span data-ttu-id="a0138-103">Contrôles Windows</span><span class="sxs-lookup"><span data-stu-id="a0138-103">Windows Controls</span></span>
+
+## <a name="purpose"></a><span data-ttu-id="a0138-104">Objectif</span><span class="sxs-lookup"><span data-stu-id="a0138-104">Purpose</span></span>
+
+<span data-ttu-id="a0138-105">Un contrôle est une fenêtre enfant qu’une application utilise conjointement à une autre fenêtre pour permettre l’interaction de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="a0138-105">A control is a child window that an application uses in conjunction with another window to enable user interaction.</span></span> <span data-ttu-id="a0138-106">Les contrôles sont souvent utilisés dans les boîtes de dialogue, mais ils peuvent également être utilisés dans d’autres fenêtres.</span><span class="sxs-lookup"><span data-stu-id="a0138-106">Controls are most often used within dialog boxes, but they can also be used in other windows.</span></span> <span data-ttu-id="a0138-107">Les contrôles dans les boîtes de dialogue offrent à l’utilisateur un moyen de taper du texte, de choisir des options et d’initier des actions.</span><span class="sxs-lookup"><span data-stu-id="a0138-107">Controls within dialog boxes provide the user with a way to type text, choose options, and initiate actions.</span></span> <span data-ttu-id="a0138-108">Les contrôles dans d’autres fenêtres fournissent un large éventail de services, tels que la possibilité pour l’utilisateur de choisir des commandes, d’afficher l’État et d’afficher et de modifier du texte.</span><span class="sxs-lookup"><span data-stu-id="a0138-108">Controls in other windows provide a variety of services, such as letting the user choose commands, view status, and view and edit text.</span></span> <span data-ttu-id="a0138-109">Cette documentation décrit les contrôles fournis par Windows et les éléments de programmation utilisés pour les créer et les manipuler.</span><span class="sxs-lookup"><span data-stu-id="a0138-109">This documentation describes the controls provided by Windows and the programming elements used to create and manipulate them.</span></span>
+
+<span data-ttu-id="a0138-110">Pour obtenir la liste de tous les contrôles Windows, y compris un lien vers une vue d’ensemble complète et des informations de référence pour chaque contrôle, consultez [bibliothèque de contrôles](individual-control-info.md).</span><span class="sxs-lookup"><span data-stu-id="a0138-110">For a list of all Windows controls, including a link to comprehensive overview and reference information for each control, see [Control Library](individual-control-info.md).</span></span>
+
+## <a name="developer-audience"></a><span data-ttu-id="a0138-111">Développeurs concernés</span><span class="sxs-lookup"><span data-stu-id="a0138-111">Developer audience</span></span>
+
+<span data-ttu-id="a0138-112">Les contrôles sont conçus pour être utilisés par les développeurs C/C++ et les concepteurs d’interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="a0138-112">Controls are designed for use by C/C++ developers and UI designers.</span></span> <span data-ttu-id="a0138-113">En général, les développeurs ont besoin d’un niveau modéré de compréhension des concepts de programmation d’interface utilisateur, de la programmation d’API Windows et d’Unicode.</span><span class="sxs-lookup"><span data-stu-id="a0138-113">In general, developers need a moderate level of understanding about UI programming concepts, Windows API programming, and Unicode.</span></span>
+
+## <a name="run-time-requirements"></a><span data-ttu-id="a0138-114">Conditions d’exécution</span><span class="sxs-lookup"><span data-stu-id="a0138-114">Run-time requirements</span></span>
+
+<span data-ttu-id="a0138-115">La prise en charge des contrôles est assurée par User32.dll et Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="a0138-115">Support for controls is provided by User32.dll and Comctl32.dll.</span></span> <span data-ttu-id="a0138-116">Pour plus d’informations, consultez [versions de contrôle courantes](common-control-versions.md).</span><span class="sxs-lookup"><span data-stu-id="a0138-116">For more information, see [Common Control Versions](common-control-versions.md).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="a0138-117">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="a0138-117">In this section</span></span>
+
+
+
+| <span data-ttu-id="a0138-118">Rubrique</span><span class="sxs-lookup"><span data-stu-id="a0138-118">Topic</span></span>                                                                             | <span data-ttu-id="a0138-119">Description</span><span class="sxs-lookup"><span data-stu-id="a0138-119">Description</span></span>                                                                                                                                     |
+|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="a0138-120">À propos des contrôles communs</span><span class="sxs-lookup"><span data-stu-id="a0138-120">About Common Controls</span></span>](common-controls-intro.md)<br/>                     | <span data-ttu-id="a0138-121">Fournit des informations générales qui sont communes à tous les contrôles pris en charge par Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="a0138-121">Provides general information that is common to all controls that are supported by Comctl32.dll.</span></span><br/>                                      |
+| [<span data-ttu-id="a0138-122">Messages de contrôle</span><span class="sxs-lookup"><span data-stu-id="a0138-122">Control Messages</span></span>](control-messages.md)<br/>                               | <span data-ttu-id="a0138-123">Explique comment les messages Windows sont utilisés pour communiquer avec les contrôles.</span><span class="sxs-lookup"><span data-stu-id="a0138-123">Explains how Windows messages are used to communicate with controls.</span></span><br/>                                                                 |
+| [<span data-ttu-id="a0138-124">Contrôles personnalisés</span><span class="sxs-lookup"><span data-stu-id="a0138-124">Custom Controls</span></span>](user-controls-intro.md)<br/>                             | <span data-ttu-id="a0138-125">Décrit les différentes façons de créer des contrôles personnalisés.</span><span class="sxs-lookup"><span data-stu-id="a0138-125">Describes various ways of creating custom controls.</span></span> <br/>                                                                                 |
+| [<span data-ttu-id="a0138-126">Contrôles de sous-classe</span><span class="sxs-lookup"><span data-stu-id="a0138-126">Subclassing Controls</span></span>](subclassing-overview.md)<br/>                       | <span data-ttu-id="a0138-127">Décrit un moyen de personnaliser un contrôle en modifiant ses fonctionnalités ou en en ajoutant de nouveaux.</span><span class="sxs-lookup"><span data-stu-id="a0138-127">Describes a way to customize a control by changing its features or adding new ones.</span></span> <br/>                                                 |
+| [<span data-ttu-id="a0138-128">Dessin personnalisé</span><span class="sxs-lookup"><span data-stu-id="a0138-128">Custom Draw</span></span>](custom-draw.md)<br/>                                         | <span data-ttu-id="a0138-129">Décrit un service, fourni par certains contrôles, que les applications peuvent utiliser pour personnaliser divers aspects de l’apparence du contrôle.</span><span class="sxs-lookup"><span data-stu-id="a0138-129">Describes a service, provided by some controls, that applications can use to customize various aspects of the control's appearance.</span></span> <br/> |
+| [<span data-ttu-id="a0138-130">Considérations relatives à la sécurité : contrôles Microsoft Windows</span><span class="sxs-lookup"><span data-stu-id="a0138-130">Security Considerations: Microsoft Windows Controls</span></span>](sec-comctls.md)<br/> | <span data-ttu-id="a0138-131">Fournit des informations sur les considérations de sécurité liées aux contrôles Windows.</span><span class="sxs-lookup"><span data-stu-id="a0138-131">Provides information about security considerations related to the Windows controls.</span></span> <br/>                                                 |
+| [<span data-ttu-id="a0138-132">Bibliothèque de contrôles</span><span class="sxs-lookup"><span data-stu-id="a0138-132">Control Library</span></span>](individual-control-info.md)<br/>                         | <span data-ttu-id="a0138-133">Fournit des vues d’ensemble et des informations de référence sur chaque contrôle pris en charge par User32.dll et Comctl32.dll.</span><span class="sxs-lookup"><span data-stu-id="a0138-133">Provides overviews and reference information about each control supported by User32.dll and Comctl32.dll.</span></span><br/>                            |
+| [<span data-ttu-id="a0138-134">Référence de contrôle générale</span><span class="sxs-lookup"><span data-stu-id="a0138-134">General Control Reference</span></span>](common-control-reference.md)<br/>              | <span data-ttu-id="a0138-135">Fournit des informations de référence sur les éléments de programmation qui s’appliquent à plusieurs contrôles, et pas uniquement à un contrôle spécifique.</span><span class="sxs-lookup"><span data-stu-id="a0138-135">Provides reference information about programming elements that apply to multiple controls, not just to a specific control.</span></span><br/>           |
+| [<span data-ttu-id="a0138-136">Contrôler Spy v 2.0</span><span class="sxs-lookup"><span data-stu-id="a0138-136">Control Spy v2.0</span></span>](control-spy.md)<br/>                                    | <span data-ttu-id="a0138-137">Décrit le contrôle Spy, un outil qui aide les développeurs à comprendre les contrôles communs.</span><span class="sxs-lookup"><span data-stu-id="a0138-137">Describes Control Spy, a tool that helps developers understand common controls.</span></span> <br/>                                                     |
+| [<span data-ttu-id="a0138-138">Styles visuels</span><span class="sxs-lookup"><span data-stu-id="a0138-138">Visual Styles</span></span>](themes-overview.md)<br/>                                   | <span data-ttu-id="a0138-139">Décrit comment l’apparence des contrôles peut varier selon le style visuel choisi par l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="a0138-139">Describes how the appearance of controls can change depending on the visual style chosen by the user.</span></span> <br/>                               |
+| [<span data-ttu-id="a0138-140">Format du fichier de thème</span><span class="sxs-lookup"><span data-stu-id="a0138-140">Theme File Format</span></span>](themesfileformat-overview.md)<br/>                     | <span data-ttu-id="a0138-141">Décrit le format des fichiers de thème (. Theme) utilisés dans Windows 7 et Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="a0138-141">Discusses the format of Theme (.theme) files used in Windows 7 and Windows Vista.</span></span><br/>                                                    |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+

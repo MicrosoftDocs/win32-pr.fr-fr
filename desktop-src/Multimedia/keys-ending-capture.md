@@ -1,0 +1,28 @@
+---
+title: Capture de fin de clé
+description: Capture de fin de clé
+ms.assetid: 932ed4ee-0928-41f7-a242-8b7435313647
+keywords:
+- Message WM_CAP_GET_SEQUENCE_SETUP
+- capCaptureGetSetup macro)
+- CAPTUREPARMS, structure
+- Message WM_CAP_SET_SEQUENCE_SETUP
+- capCaptureSetSetup macro)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a91d6ee7d07ed36c11cce7e888c9a9710f403cf9
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "103725116"
+---
+# <a name="keys-ending-capture"></a><span data-ttu-id="45b2c-108">Capture de fin de clé</span><span class="sxs-lookup"><span data-stu-id="45b2c-108">Keys Ending Capture</span></span>
+
+<span data-ttu-id="45b2c-109">Vous pouvez autoriser l’utilisateur à abandonner une session de capture en appuyant sur une touche ou une combinaison de touches du clavier, ou en appuyant sur le bouton droit ou gauche de la souris.</span><span class="sxs-lookup"><span data-stu-id="45b2c-109">You can allow the user to abort a capture session by pressing a key or keystroke combination from the keyboard, or by pressing the right or left mouse button.</span></span> <span data-ttu-id="45b2c-110">Si l’utilisateur abandonne une session de capture en temps réel, le contenu du fichier de capture est ignoré.</span><span class="sxs-lookup"><span data-stu-id="45b2c-110">If the user aborts a real-time capture session, the contents of the capture file are discarded.</span></span> <span data-ttu-id="45b2c-111">Si l’utilisateur abandonne une session de capture d’image pas à pas, le contenu du fichier de capture jusqu’au point d’abandon de la capture est enregistré.</span><span class="sxs-lookup"><span data-stu-id="45b2c-111">If the user aborts a step-frame capture session, the contents of the capture file up to the point of aborting the capture are saved.</span></span>
+
+<span data-ttu-id="45b2c-112">Vous pouvez récupérer les paramètres de l’abandon d’une session de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-get-sequence-setup.md) de la séquence de l’embout de la connexion WM (ou de la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ).</span><span class="sxs-lookup"><span data-stu-id="45b2c-112">You can retrieve the settings for aborting a capture session by using the [**WM\_CAP\_GET\_SEQUENCE\_SETUP**](wm-cap-get-sequence-setup.md) message (or the [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) macro).</span></span> <span data-ttu-id="45b2c-113">Le paramètre de séquence de touches actuel est stocké dans le membre **vKeyAbort** de la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) ; les paramètres de la souris actuels sont stockés dans les membres **fAbortLeftMouse** et **fAbortRightMouse** .</span><span class="sxs-lookup"><span data-stu-id="45b2c-113">The current keystroke setting is stored in the **vKeyAbort** member of the [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) structure; the current mouse settings are stored in the **fAbortLeftMouse** and **fAbortRightMouse** members.</span></span> <span data-ttu-id="45b2c-114">Vous pouvez définir une nouvelle clé ou une combinaison de touches en spécifiant la combinaison keycode ou keycode (comme dans une combinaison de touches CTRL ou Maj) comme valeur de **vKeyAbort**, ou définir le bouton gauche ou droit de la souris comme touche abandonner en spécifiant le membre **fAbortLeftMouse** ou **fAbortRightMouse** .</span><span class="sxs-lookup"><span data-stu-id="45b2c-114">You can set a new key or keystroke combination by specifying the keycode or keycode combination (as in a CTRL or SHIFT key combination) as the value of **vKeyAbort**, or set the left or right mouse button as the abort key by specifying the **fAbortLeftMouse** or **fAbortRightMouse** member.</span></span> <span data-ttu-id="45b2c-115">Après avoir défini ces membres, envoyez la structure **CAPTUREPARMS** mise à jour à la fenêtre de capture à l’aide du message [**\_ \_ \_ \_ d’installation**](wm-cap-set-sequence-setup.md) de la séquence de la définition de l’embout WM (ou de la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ).</span><span class="sxs-lookup"><span data-stu-id="45b2c-115">After you set these members, send the updated **CAPTUREPARMS** structure to the capture window by using the [**WM\_CAP\_SET\_SEQUENCE\_SETUP**](wm-cap-set-sequence-setup.md) message (or the [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) macro).</span></span> <span data-ttu-id="45b2c-116">La valeur par défaut de **vKeyAbort** est VK \_ Escape.</span><span class="sxs-lookup"><span data-stu-id="45b2c-116">The default value of **vKeyAbort** is VK\_ESCAPE.</span></span> <span data-ttu-id="45b2c-117">Vous devez appeler la fonction [RegisterHotKey](/windows/win32/api/winuser/nf-winuser-registerhotkey) avant de spécifier une touche qui peut abandonner une session de capture.</span><span class="sxs-lookup"><span data-stu-id="45b2c-117">You must call the [RegisterHotKey](/windows/win32/api/winuser/nf-winuser-registerhotkey) function before specifying a keystroke that can abort a capture session.</span></span> <span data-ttu-id="45b2c-118">Les valeurs par défaut de **fAbortLeftMouse** et **fAbortRightMouse** sont **true**.</span><span class="sxs-lookup"><span data-stu-id="45b2c-118">The default values of **fAbortLeftMouse** and **fAbortRightMouse** are **TRUE**.</span></span>
+
+ 
+
+ 

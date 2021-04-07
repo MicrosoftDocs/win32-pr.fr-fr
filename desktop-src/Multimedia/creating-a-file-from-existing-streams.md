@@ -1,0 +1,44 @@
+---
+title: Création d’un fichier à partir de flux existants
+description: Création d’un fichier à partir de flux existants
+ms.assetid: 5149a766-7809-42b7-8e5c-b67b847b9218
+keywords:
+- AVISave fonction)
+- AVISaveV fonction)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2bc422d2170ccd49b8a9746666db7ebbcd7dff14
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103939885"
+---
+# <a name="creating-a-file-from-existing-streams"></a><span data-ttu-id="3ff8b-105">Création d’un fichier à partir de flux existants</span><span class="sxs-lookup"><span data-stu-id="3ff8b-105">Creating a File from Existing Streams</span></span>
+
+<span data-ttu-id="3ff8b-106">Une façon de créer un fichier contenant des flux de données consiste à combiner des flux existants dans un nouveau fichier.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-106">One way to create a file that contains data streams is to combine existing streams into a new file.</span></span> <span data-ttu-id="3ff8b-107">Les flux qui fournissent des données pour le nouveau fichier peuvent résider dans la mémoire ou dans un ou plusieurs fichiers.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-107">The streams that provide data for the new file can reside in memory or in one or more files.</span></span>
+
+<span data-ttu-id="3ff8b-108">Vous pouvez générer un fichier à partir de plusieurs flux à l’aide de la fonction [**AVISave**](/windows/desktop/api/Vfw/nf-vfw-avisavea) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-108">You can build a file from several streams by using the [**AVISave**](/windows/desktop/api/Vfw/nf-vfw-avisavea) function.</span></span> <span data-ttu-id="3ff8b-109">Cette fonction crée un fichier et écrit les flux de données spécifiés dans sa séquence d’appel dans le fichier.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-109">This function creates a file and writes the data streams specified in its calling sequence to the file.</span></span> <span data-ttu-id="3ff8b-110">La séquence d’appel pour **AVISave** utilise un nombre variable d’arguments qui incluent des interfaces pour les flux combinés dans le nouveau fichier.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-110">The calling sequence for **AVISave** uses a variable number of arguments that include interfaces for the streams combined in the new file.</span></span>
+
+<span data-ttu-id="3ff8b-111">Vous pouvez également combiner des flux de données dans un nouveau fichier à l’aide de la fonction [**AVISaveV**](/windows/desktop/api/Vfw/nf-vfw-avisaveva) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-111">You can also combine data streams in a new file by using the [**AVISaveV**](/windows/desktop/api/Vfw/nf-vfw-avisaveva) function.</span></span> <span data-ttu-id="3ff8b-112">Cette fonction fournit les mêmes fonctionnalités que **AVISave**, mais quand vous utilisez **AVISaveV**, votre application spécifie les flux de données sous forme de tableau, et non comme un nombre variable d’arguments.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-112">This function provides the same functionality as **AVISave**, but when you use **AVISaveV**, your application specifies the data streams as an array, not as a variable number of arguments.</span></span>
+
+<span data-ttu-id="3ff8b-113">Vous pouvez créer une boîte de dialogue dans laquelle l’utilisateur peut sélectionner des paramètres de compression pour le nouveau fichier à l’aide de la fonction [**AVISaveOptions**](/windows/desktop/api/Vfw/nf-vfw-avisaveoptions) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-113">You can create a dialog box in which the user can select compression settings for the new file by using the [**AVISaveOptions**](/windows/desktop/api/Vfw/nf-vfw-avisaveoptions) function.</span></span> <span data-ttu-id="3ff8b-114">La boîte de dialogue affiche les paramètres de compression actuels et permet à l’utilisateur de les modifier.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-114">The dialog box displays the current compression settings and lets the user edit them.</span></span> <span data-ttu-id="3ff8b-115">Les modifications des paramètres de compression sont stockées dans une structure [**AVICOMPRESSOPTIONS**](/windows/desktop/api/Vfw/ns-vfw-avicompressoptions) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-115">Compression setting changes are stored in an [**AVICOMPRESSOPTIONS**](/windows/desktop/api/Vfw/ns-vfw-avicompressoptions) structure.</span></span>
+
+<span data-ttu-id="3ff8b-116">Vous pouvez également inclure une fonction de rappel avec [**AVISave**](/windows/desktop/api/Vfw/nf-vfw-avisavea) et [**AVISaveV**](/windows/desktop/api/Vfw/nf-vfw-avisaveva) que votre application peut utiliser pour afficher la progression de l’écriture du fichier et, si nécessaire, permettre à l’utilisateur d’annuler l’opération d’enregistrement.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-116">You can also include a callback function with [**AVISave**](/windows/desktop/api/Vfw/nf-vfw-avisavea) and [**AVISaveV**](/windows/desktop/api/Vfw/nf-vfw-avisaveva) that your application can use to display the progress of writing the file and, if needed, let the user cancel the save operation.</span></span> <span data-ttu-id="3ff8b-117">Vous pouvez inclure l’adresse de la fonction de rappel dans la séquence d’appel de **AVISave** ou **AVISaveV**.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-117">You can include the address of the callback function in the calling sequence of **AVISave** or **AVISaveV**.</span></span>
+
+<span data-ttu-id="3ff8b-118">Vous pouvez laisser l’utilisateur sélectionner un nom de fichier pour le nouveau fichier à l’aide de la fonction [**GetSaveFileNamePreview**](/windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-118">You can let the user select a filename for the new file by using the [**GetSaveFileNamePreview**](/windows/desktop/api/Vfw/nf-vfw-getsavefilenamepreviewa) function.</span></span> <span data-ttu-id="3ff8b-119">Cette fonction affiche la boîte de dialogue Enregistrer sous dans laquelle l’utilisateur peut afficher un aperçu du premier flux (normalement le flux vidéo) d’un fichier AVI.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-119">This function displays the Save As dialog box in which the user can preview the first stream (normally the video stream) of an AVI file.</span></span>
+
+<span data-ttu-id="3ff8b-120">Vous pouvez créer un pointeur d’interface de fichier (et un fichier virtuel) pour un groupe de flux à l’aide de la fonction [**AVIMakeFileFromStreams**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-120">You can create a file interface pointer (and a virtual file) for a group of streams by using the [**AVIMakeFileFromStreams**](/windows/desktop/api/Vfw/nf-vfw-avimakefilefromstreams) function.</span></span> <span data-ttu-id="3ff8b-121">D’autres fonctions AVIFile peuvent utiliser le pointeur d’interface de fichier retourné par cette fonction pour accéder aux flux dans le fichier virtuel.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-121">Other AVIFile functions can use the file interface pointer returned by this function to access the streams in the virtual file.</span></span> <span data-ttu-id="3ff8b-122">Une fois que vous avez fini d’utiliser le fichier virtuel, supprimez le pointeur d’interface de fichier à l’aide de la fonction [**AVIFileRelease**](/windows/desktop/api/Vfw/nf-vfw-avifilerelease) .</span><span class="sxs-lookup"><span data-stu-id="3ff8b-122">After you finish using the virtual file, delete the file interface pointer by using the [**AVIFileRelease**](/windows/desktop/api/Vfw/nf-vfw-avifilerelease) function.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="3ff8b-123">Pour réduire la dégradation des images et du son, évitez de compresser un fichier AVI plusieurs fois.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-123">To minimize image and audio degradation, avoid compressing an AVI file more than once.</span></span> <span data-ttu-id="3ff8b-124">Combinez des éléments vidéo non compressés dans votre système de montage, puis compressez le produit final.</span><span class="sxs-lookup"><span data-stu-id="3ff8b-124">Combine uncompressed pieces of video in your editing system and then compress the final product.</span></span> <span data-ttu-id="3ff8b-125">Pour plus d’informations sur les options de compression, consultez [Video Compression Manager](video-compression-manager.md).</span><span class="sxs-lookup"><span data-stu-id="3ff8b-125">For information about compression options, see [Video Compression Manager](video-compression-manager.md).</span></span>
+
+ 
+
+ 
+
+ 
+
+
+
+

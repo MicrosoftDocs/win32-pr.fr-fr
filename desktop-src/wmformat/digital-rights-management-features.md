@@ -1,0 +1,63 @@
+---
+title: Fonctionnalités de Rights Management numérique
+description: Fonctionnalités de Rights Management numérique
+ms.assetid: c3c1e59f-8ff9-496c-8e63-0c1cf4ce7092
+keywords:
+- Kit de développement logiciel (SDK) Windows Media format, fonctionnalités DRM
+- gestion des droits numériques (DRM), fonctionnalités
+- DRM (gestion des droits numériques), fonctionnalités
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9bd9c30b350fdf430d5b20bbe112c5309ac9da4f
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103728012"
+---
+# <a name="digital-rights-management-features"></a><span data-ttu-id="9ae9c-106">Fonctionnalités de Rights Management numérique</span><span class="sxs-lookup"><span data-stu-id="9ae9c-106">Digital Rights Management Features</span></span>
+
+<span data-ttu-id="9ae9c-107">\[La fonctionnalité Windows Media DRM est déconseillée et ne doit pas être utilisée.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-107">\[The Windows Media DRM feature is deprecated and should not be used.</span></span> <span data-ttu-id="9ae9c-108">Utilisez plutôt [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) .\]</span><span class="sxs-lookup"><span data-stu-id="9ae9c-108">Use [Microsoft PlayReady](/windows/uwp/audio-video-camera/playready-client-sdk) instead.\]</span></span>
+
+<span data-ttu-id="9ae9c-109">La gestion des droits numériques (DRM) est une technologie que les propriétaires de contenu peuvent utiliser pour protéger des fichiers multimédias numériques en les chiffrant à l’aide d’une clé (un élément de données qui verrouille et déverrouille le contenu).</span><span class="sxs-lookup"><span data-stu-id="9ae9c-109">Digital rights management (DRM) is a technology that content owners can use to protect digital media files by encrypting them with a key (a piece of data that locks and unlocks the content).</span></span> <span data-ttu-id="9ae9c-110">Pour lire un fichier ASF protégé, un consommateur doit obtenir une licence distincte contenant la clé.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-110">To play a protected ASF file, a consumer must obtain a separate license containing the key.</span></span> <span data-ttu-id="9ae9c-111">Chaque licence contient également des droits, déterminés par le propriétaire du contenu ou l’émetteur de la licence, qui spécifient comment le consommateur peut utiliser le fichier.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-111">Each license also contains rights, determined by the content owner or license issuer, which specify how the consumer can use the file.</span></span> <span data-ttu-id="9ae9c-112">Grâce à la technologie DRM, les propriétaires de contenu peuvent diffuser des chansons, des vidéos et d’autres fichiers multimédias numériques sur Internet dans un format de fichier protégé et contrôler l’utilisation de leur contenu numérique.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-112">Using DRM technology, content owners can deliver songs, videos, and other digital media files over the Internet in a protected file format and control the use of their digital content.</span></span> <span data-ttu-id="9ae9c-113">La technologie Microsoft DRM est également prise en charge par Windows Media Rights Manager, Windows Media Encoder et Windows Media Player.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-113">Microsoft DRM technology is also supported by the Windows Media Rights Manager, the Windows Media Encoder, and Windows Media Player.</span></span> <span data-ttu-id="9ae9c-114">Pour plus d’informations générales sur la technologie DRM de Microsoft, consultez le [site Web Microsoft Windows Media](https://support.microsoft.com/help/17946/windows-media).</span><span class="sxs-lookup"><span data-stu-id="9ae9c-114">For more background information on Microsoft's DRM technology, see the [Microsoft Windows Media Web site](https://support.microsoft.com/help/17946/windows-media).</span></span>
+
+> [!Note]  
+> <span data-ttu-id="9ae9c-115">DRM n’est pas pris en charge par la version x64 de ce kit de développement logiciel (SDK).</span><span class="sxs-lookup"><span data-stu-id="9ae9c-115">DRM is not supported by the x64-based version of this SDK.</span></span>
+
+ 
+
+<span data-ttu-id="9ae9c-116">Les sections suivantes décrivent les principales fonctionnalités DRM du kit de développement logiciel (SDK) de format Windows Media.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-116">The following sections discuss the main DRM-related features of the Windows Media Format SDK.</span></span>
+
+
+
+| <span data-ttu-id="9ae9c-117">Section</span><span class="sxs-lookup"><span data-stu-id="9ae9c-117">Section</span></span>                                                                                            | <span data-ttu-id="9ae9c-118">Description</span><span class="sxs-lookup"><span data-stu-id="9ae9c-118">Description</span></span>                                                                                                                          |
+|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="9ae9c-119">Notions de base de DRM</span><span class="sxs-lookup"><span data-stu-id="9ae9c-119">DRM Basics</span></span>](drm-basics.md)                                                                       | <span data-ttu-id="9ae9c-120">Fournit une brève vue d’ensemble des fonctionnalités DRM fournies par le kit de développement logiciel (SDK) de format Windows Media.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-120">Provides a brief overview of the DRM functionality provided by the Windows Media Format SDK.</span></span>                                         |
+| [<span data-ttu-id="9ae9c-121">Versions DRM</span><span class="sxs-lookup"><span data-stu-id="9ae9c-121">DRM Versions</span></span>](drm-versions.md)                                                                   | <span data-ttu-id="9ae9c-122">Décrit les principales différences entre les versions de la protection DRM disponibles pour les applications.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-122">Describes the main differences between the versions of DRM protection available to applications.</span></span>                                     |
+| [<span data-ttu-id="9ae9c-123">DRM en direct</span><span class="sxs-lookup"><span data-stu-id="9ae9c-123">Live DRM</span></span>](live-drm.md)                                                                           | <span data-ttu-id="9ae9c-124">Décrit les scénarios rendus possibles par la protection DRM « à la volée ».</span><span class="sxs-lookup"><span data-stu-id="9ae9c-124">Describes the scenarios made possible by "on the fly" DRM protection.</span></span>                                                                |
+| [<span data-ttu-id="9ae9c-125">Individualisation DRM</span><span class="sxs-lookup"><span data-stu-id="9ae9c-125">DRM Individualization</span></span>](drm-individualization.md)                                                 | <span data-ttu-id="9ae9c-126">Décrit la mise à niveau de sécurité de l’application que les propriétaires de contenu DRM ou les émetteurs de licence peuvent exiger.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-126">Describes the application security upgrade that DRM content owners or license issuers can require.</span></span>                                   |
+| [<span data-ttu-id="9ae9c-127">Sauvegarde et restauration de licences DRM</span><span class="sxs-lookup"><span data-stu-id="9ae9c-127">Backing Up and Restoring of DRM Licenses</span></span>](backing-up-and-restoring-of-drm-licenses.md)           | <span data-ttu-id="9ae9c-128">Décrit les avantages et les inconvénients de l’autorisation des utilisateurs à sauvegarder et restaurer leurs licences de contenu.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-128">Describes the pros and cons of permitting users to back up and restore their content licenses.</span></span>                                       |
+| [<span data-ttu-id="9ae9c-129">Affichage des attributs DRM dans l’éditeur de métadonnées</span><span class="sxs-lookup"><span data-stu-id="9ae9c-129">Viewing DRM Attributes in the Metadata Editor</span></span>](viewing-drm-attributes-in-the-metadata-editor.md) | <span data-ttu-id="9ae9c-130">Décrit les fonctionnalités de cet objet d’assistance DRM et les scénarios qu’il a été conçu pour prendre en charge.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-130">Describes the capabilities of this DRM helper object and the scenarios it was designed to support.</span></span>                                   |
+| [<span data-ttu-id="9ae9c-131">Niveaux de protection de sortie</span><span class="sxs-lookup"><span data-stu-id="9ae9c-131">Output Protection Levels</span></span>](output-protection-levels.md)                                           | <span data-ttu-id="9ae9c-132">Décrit comment les niveaux de protection de sortie rendent les licences DRM version 10 plus flexibles.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-132">Describes how Output Protection Levels make DRM version 10 licenses more flexible.</span></span>                                                   |
+| [<span data-ttu-id="9ae9c-133">Révocation de licence</span><span class="sxs-lookup"><span data-stu-id="9ae9c-133">License Revocation</span></span>](license-revocation.md)                                                       | <span data-ttu-id="9ae9c-134">Décrit la révocation de licence.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-134">Describes license revocation.</span></span>                                                                                                        |
+| [<span data-ttu-id="9ae9c-135">Windows Media DRM 10 pour les périphériques réseau</span><span class="sxs-lookup"><span data-stu-id="9ae9c-135">Windows Media DRM 10 for Network Devices</span></span>](windows-media-drm-10-for-network-devices.md)           | <span data-ttu-id="9ae9c-136">Présente Windows Media DRM 10 pour les périphériques réseau et son implémentation dans ce kit de développement logiciel (SDK).</span><span class="sxs-lookup"><span data-stu-id="9ae9c-136">Introduces Windows Media DRM 10 for Network Devices and its implementation in this SDK.</span></span>                                              |
+| [<span data-ttu-id="9ae9c-137">Chemin d’accès audio sécurisé Microsoft</span><span class="sxs-lookup"><span data-stu-id="9ae9c-137">Microsoft Secure Audio Path</span></span>](microsoft-secure-audio-path--deprecated.md)                         | <span data-ttu-id="9ae9c-138">Décrit l’architecture du chemin d’accès audio sécurisé de Microsoft, qui offre le degré de protection le plus élevé pour le contenu audio protégé.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-138">Describes the Microsoft Secure Audio Path architecture, which provides the highest degree of protection for protected audio content.</span></span> |
+| [<span data-ttu-id="9ae9c-139">Gravure de playlist</span><span class="sxs-lookup"><span data-stu-id="9ae9c-139">Playlist Burning</span></span>](playlist-burning.md)                                                           | <span data-ttu-id="9ae9c-140">Décrit la fonctionnalité de gravure de liste de réécoutes DRM et la façon dont elle est prise en charge dans le kit de développement logiciel (SDK) Windows Media format.</span><span class="sxs-lookup"><span data-stu-id="9ae9c-140">Describes the playlist-burning feature of DRM and how it is supported in the Windows Media Format SDK.</span></span>                               |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="9ae9c-141">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="9ae9c-141">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="9ae9c-142">**Activation de la prise en charge de DRM**</span><span class="sxs-lookup"><span data-stu-id="9ae9c-142">**Enabling DRM Support**</span></span>](enabling-drm-support.md)
+</dt> <dt>
+
+[<span data-ttu-id="9ae9c-143">**Fonctionnalités**</span><span class="sxs-lookup"><span data-stu-id="9ae9c-143">**Features**</span></span>](features.md)
+</dt> </dl>
+
+ 
+
+ 
