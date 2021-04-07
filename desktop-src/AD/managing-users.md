@@ -1,0 +1,41 @@
+---
+title: Gestion des utilisateurs
+description: Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Active Directory Domain Services.
+ms.assetid: 57c83e4d-2d9f-4f22-97e2-27e2d277f014
+ms.tgt_platform: multiple
+keywords:
+- Active Directory, utilisation, gestion des utilisateurs
+- utilisateurs AD
+- utilisateurs Active Directory, gestion des utilisateurs
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8d1105132c6836e108a416331b2f4a6ad666c03d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103839297"
+---
+# <a name="managing-users"></a>Gestion des utilisateurs
+
+Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Active Directory Domain Services. Ces objets utilisateur représentent les utilisateurs et les ordinateurs. Cette section définit ce que sont les utilisateurs et comment ils sont utilisés, et explique comment gérer par programmation les utilisateurs dans Active Directory Domain Services. Cette section aborde les sujets suivants :
+
+-   [Utilisateurs dans Active Directory Domain Services](users-in-active-directory-domain-services.md)
+-   [Principaux de sécurité](security-principals.md)
+-   [Qu’est-ce qu’un utilisateur ?](what-is-a-user.md)
+-   [Exemple de code pour la liaison au conteneur Users](example-code-for-binding-to-the-users-container.md)
+-   [Attributs d’objet utilisateur](user-object-attributes.md)
+-   [Création d’un utilisateur](creating-a-user.md)
+-   Suppression d’un utilisateur. Un utilisateur est supprimé de la même façon que tout autre objet dans Active Directory Domain Services. Pour plus d’informations sur la suppression d’objets, consultez [création et suppression d’objets dans Active Directory Domain Services](creating-and-deleting-objects-in-active-directory-domain-services.md).
+-   [Énumération des utilisateurs](enumerating-users.md)
+-   [Interrogation des utilisateurs](querying-for-users.md)
+-   Déplacement des utilisateurs. Un utilisateur est déplacé de la même façon que tout autre objet Active Directory. Pour plus d’informations sur le déplacement d’objets Active Directory, consultez [déplacement d’objets](moving-objects.md).
+-   [Gestion des utilisateurs sur les serveurs membres et Windows 2000 professionnel](managing-users-on-member-servers-and-windows-2000-professional.md)
+
+ 
+
+ 
+
+
+
+
