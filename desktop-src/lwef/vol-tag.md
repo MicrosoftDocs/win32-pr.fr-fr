@@ -1,0 +1,54 @@
+---
+title: Indicateur vol
+description: Indicateur vol
+ms.assetid: a6444eb2-79c2-4c86-8474-846d908479df
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7979278b2eb89c352b9e53f6141cb585fb0ed134
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104028764"
+---
+# <a name="vol-tag"></a>Indicateur vol
+
+\[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
+
+<dl> <dt>
+
+<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Descriptive**
+</dt> <dd>
+
+Définit le volume de base de la sortie vocale.
+
+</dd> <dt>
+
+<span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
+</dt> <dd>
+
+**\\Vol =***nombre***\\**
+
+
+
+| Partie     | Description                                                         |
+|----------|---------------------------------------------------------------------|
+| *number* | Volume de base de référence : 0 correspond au silence et 65535 au volume maximal. |
+
+
+
+ 
+
+</dd> </dl>
+
+### <a name="remarks"></a>Notes
+
+Le paramètre de volume affecte les canaux gauche et droit. Vous ne pouvez pas définir le volume de chaque canal séparément. Cette balise est prise en charge uniquement pour la sortie générée par TTS.
+
+ 
+
+ 
+
+
+
+
