@@ -1,0 +1,49 @@
+---
+title: Configuration d’extensions d’unité de données
+description: Configuration d’extensions d’unité de données
+ms.assetid: 5dc0a596-68ae-409a-9abc-15ca507d6ec7
+keywords:
+- flux, configuration des extensions d’unités de données
+- flux, extensions d’unité de données
+- extensions d’unité de données, configuration
+- profils, extensions d’unité de données
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: dc7e6794b95128d180bc3922f9bf03a15a2749df
+ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "103724047"
+---
+# <a name="configuring-data-unit-extensions"></a><span data-ttu-id="81ed7-107">Configuration d’extensions d’unité de données</span><span class="sxs-lookup"><span data-stu-id="81ed7-107">Configuring Data Unit Extensions</span></span>
+
+<span data-ttu-id="81ed7-108">Les exemples écrits dans des fichiers ASF peuvent contenir des informations supplémentaires, à l’exception des exemples de supports eux-mêmes.</span><span class="sxs-lookup"><span data-stu-id="81ed7-108">Samples written to ASF files can contain additional information apart from the media samples themselves.</span></span> <span data-ttu-id="81ed7-109">Ces informations sont incluses à l’aide d’extensions d’unité de données.</span><span class="sxs-lookup"><span data-stu-id="81ed7-109">This information is included using data unit extensions.</span></span> <span data-ttu-id="81ed7-110">Pour plus d’informations sur les extensions d’unité de données, consultez [extensions d’unité de données](data-unit-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="81ed7-110">For more information about data unit extensions, see [Data Unit Extensions](data-unit-extensions.md).</span></span>
+
+<span data-ttu-id="81ed7-111">Pour utiliser les extensions d’unité de données, vous devez configurer le flux de données dans le profil pour les accepter.</span><span class="sxs-lookup"><span data-stu-id="81ed7-111">To use data unit extensions, you must configure the stream in the profile to accept them.</span></span> <span data-ttu-id="81ed7-112">Pour configurer une extension d’unité de données pour un flux, procédez comme suit.</span><span class="sxs-lookup"><span data-stu-id="81ed7-112">To configure a data unit extension for a stream, perform the following steps.</span></span>
+
+1.  <span data-ttu-id="81ed7-113">Obtenez un pointeur vers l’interface [**IWMStreamConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) en appelant la méthode **QueryInterface** de [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig).</span><span class="sxs-lookup"><span data-stu-id="81ed7-113">Obtain a pointer to the [**IWMStreamConfig2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig2) interface by calling the **QueryInterface** method of [**IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig).</span></span>
+2.  <span data-ttu-id="81ed7-114">Appelez [**IWMStreamConfig2 :: AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) pour inscrire un type d’extension d’unité de données pour le flux.</span><span class="sxs-lookup"><span data-stu-id="81ed7-114">Call [**IWMStreamConfig2::AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) to register a type of data unit extension for the stream.</span></span>
+
+<span data-ttu-id="81ed7-115">Vous pouvez examiner tous les types d’extension d’unité de données actuellement inscrits pour un flux en appelant [**IWMStreamConfig2 :: GetDataUnitExtensionCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount) pour récupérer le nombre de types d’extension d’unité de données inscrits.</span><span class="sxs-lookup"><span data-stu-id="81ed7-115">You can examine all of the data unit extension types currently registered for a stream by calling [**IWMStreamConfig2::GetDataUnitExtensionCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextensioncount) to retrieve the number of registered data unit extension types.</span></span> <span data-ttu-id="81ed7-116">Vous pouvez ensuite effectuer une boucle sur tous les types à l’aide d’appels à [**IWMStreamConfig2 :: GetDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension) pour chacun d’entre eux.</span><span class="sxs-lookup"><span data-stu-id="81ed7-116">Then you can loop through all of the types using calls to [**IWMStreamConfig2::GetDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-getdataunitextension) for each.</span></span>
+
+<span data-ttu-id="81ed7-117">Une taille est attribuée aux extensions d’unité de données lorsqu’elles sont configurées pour un flux.</span><span class="sxs-lookup"><span data-stu-id="81ed7-117">Data unit extensions are assigned a size when configured for a stream.</span></span> <span data-ttu-id="81ed7-118">De nombreux systèmes d’extension d’unité de données utilisent des données d’une taille constante (généralement une structure).</span><span class="sxs-lookup"><span data-stu-id="81ed7-118">Many data unit extension systems use data that is a constant size (usually a structure).</span></span> <span data-ttu-id="81ed7-119">Toutefois, vous pouvez également configurer vos extensions d’unité de données pour qu’elles soient de taille variable en définissant la taille sur 0xFFFF.</span><span class="sxs-lookup"><span data-stu-id="81ed7-119">However, you can also configure your data unit extensions to be of variable size by setting the size to 0xFFFF.</span></span> <span data-ttu-id="81ed7-120">Chaque extension d’unité de données affectée au moment de l’encodage peut être d’une taille quelconque comprise entre 1 octet et 65534 octets.</span><span class="sxs-lookup"><span data-stu-id="81ed7-120">Each data unit extension assigned at encoding time can then be of any size between 1 byte and 65534 bytes.</span></span> <span data-ttu-id="81ed7-121">Les extensions d’unité de données de taille variable sont également appelées extensions d’unité de données dynamiques.</span><span class="sxs-lookup"><span data-stu-id="81ed7-121">Variably sized data unit extensions are also called dynamic data unit extensions.</span></span>
+
+<span data-ttu-id="81ed7-122">L’avantage de l’utilisation des extensions d’unités de données dynamiques est que vous pouvez joindre des données d’extension en fonction des besoins.</span><span class="sxs-lookup"><span data-stu-id="81ed7-122">The advantage of using dynamic data unit extensions is that you can attach extension data as needed.</span></span> <span data-ttu-id="81ed7-123">Si vous définissez une extension d’unité de données avec une taille définie, chaque échantillon du flux de données doit contenir des données d’extension de cette taille, même si vous n’avez pas de données pour certains exemples.</span><span class="sxs-lookup"><span data-stu-id="81ed7-123">If you define a data unit extension with a set size, every sample for the stream must contain extension data of that size, even if you have no data for some samples.</span></span> <span data-ttu-id="81ed7-124">Avec les extensions Dynamic Data Unit, vous pouvez omettre des extensions d’unité de données de certains exemples, ce qui économise de l’espace et réduit les besoins en bande passante.</span><span class="sxs-lookup"><span data-stu-id="81ed7-124">With dynamic data unit extensions, you can omit data unit extensions from some samples, which saves space and reduces bandwidth requirements.</span></span> <span data-ttu-id="81ed7-125">Toutefois, si les extensions d’unité de données sont de taille variable, l’objet de lecture ne peut pas vérifier les données d’extension reçues par rapport à une taille statique.</span><span class="sxs-lookup"><span data-stu-id="81ed7-125">However, if data unit extensions are of variable size, the reading object cannot verify the received extension data against a static size.</span></span> <span data-ttu-id="81ed7-126">Vous devez vérifier que les données d’extension que vous recevez sont valides, et qu’il ne s’agit pas d’une distorsion malveillante du flux de bits.</span><span class="sxs-lookup"><span data-stu-id="81ed7-126">You must verify that the extension data that you receive is valid, and not malicious distortion of the bit stream.</span></span>
+
+<span data-ttu-id="81ed7-127">Les extensions d’unité de données individuelles doivent être définies sur des exemples à l’aide de la méthode [**INSSBuffer3 :: SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) .</span><span class="sxs-lookup"><span data-stu-id="81ed7-127">Individual data unit extensions must be set on samples by using the [**INSSBuffer3::SetProperty**](/previous-versions/windows/desktop/api/Wmsbuffer/nf-wmsbuffer-inssbuffer3-setproperty) method.</span></span> <span data-ttu-id="81ed7-128">Pour plus d’informations, consultez [définition des extensions d’unités de données](setting-data-unit-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="81ed7-128">For more information, see [Setting Data Unit Extensions](setting-data-unit-extensions.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="81ed7-129">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="81ed7-129">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="81ed7-130">**Configuration de flux**</span><span class="sxs-lookup"><span data-stu-id="81ed7-130">**Configuring Streams**</span></span>](configuring-streams.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
