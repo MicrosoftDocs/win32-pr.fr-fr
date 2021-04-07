@@ -1,0 +1,104 @@
+---
+title: Utilisation des fenêtres d’amis
+description: En définissant d’autres contrôles en tant que fenêtres d’amis pour un TrackBar, vous pouvez positionner automatiquement ces contrôles aux extrémités du TrackBar en tant qu’étiquettes.
+ms.assetid: 5797AA55-BD8D-407A-8896-08EE0DDC7E30
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8eca9a4e3b3049f8d4cf7515879d91a096f5a9e3
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104029044"
+---
+# <a name="how-to-use-buddy-windows"></a>Utilisation des fenêtres d’amis
+
+En définissant d’autres contrôles en tant que fenêtres d’amis pour un TrackBar, vous pouvez positionner automatiquement ces contrôles aux extrémités du TrackBar en tant qu’étiquettes.
+
+L’illustration suivante montre un TrackBar horizontal et vertical, tous deux avec des contrôles statiques comme fenêtres associées.
+
+![capture d’écran montrant une boîte de dialogue avec un TrackBar horizontal et un TrackBar vertical](images/tkb-buddy.png)
+
+## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+
+### <a name="technologies"></a>Technologies
+
+-   [Contrôles Windows](window-controls.md)
+
+### <a name="prerequisites"></a>Prérequis
+
+-   C/C++
+-   Programmation de l’interface utilisateur Windows
+
+## <a name="instructions"></a>Instructions
+
+### <a name="use-buddy-windows"></a>Utiliser les fenêtres d’amis
+
+L’exemple de code suivant crée les fenêtres d’amis présentées dans l’illustration.
+
+
+```
+void LabelTrackbarsWithBuddies(HWND hDlg)
+{
+    HWND hwndTrackbar;
+    HWND hwndBuddy;
+    
+    const int staticWidth   = 50;
+    const int staticHeight  = 20;
+
+//======================================================
+// For horizontal Trackbar.
+
+    hwndTrackbar = GetDlgItem(hDlg, IDC_SLIDER1);
+
+    hwndBuddy = CreateWindowEx(0, L"STATIC", L"Left", SS_RIGHT | WS_CHILD | WS_VISIBLE, 
+                                    0, 0, staticWidth, staticHeight, hDlg, NULL, g_hInst, NULL);
+                                    
+    SendMessage(hwndTrackbar, TBM_SETBUDDY, (WPARAM)TRUE, (LPARAM)hwndBuddy);
+    
+    //-------------------------------------------------
+
+    hwndBuddy = CreateWindowEx(0, L"STATIC", L"Right", SS_LEFT | WS_CHILD | WS_VISIBLE, 
+                               0, 0, staticWidth, staticHeight, hDlg, NULL, g_hInst, NULL);
+                                
+    SendMessage(hwndTrackbar, TBM_SETBUDDY, (WPARAM)FALSE, (LPARAM)hwndBuddy);
+    
+//======================================================    
+// For vertical Trackbar.
+    
+    hwndTrackbar = GetDlgItem(hDlg, IDC_SLIDER2);
+
+    hwndBuddy = CreateWindowEx(0, L"STATIC", L"Top", SS_CENTER | WS_CHILD | WS_VISIBLE, 
+                               0, 0, staticWidth, staticHeight, hDlg, NULL, g_hInst, NULL);
+                               
+    SendMessage(hwndTrackbar, TBM_SETBUDDY, (WPARAM)TRUE, (LPARAM)hwndBuddy);
+
+    //-------------------------------------------------
+
+    hwndBuddy = CreateWindowEx(0, L"STATIC", L"Bottom", SS_CENTER | WS_CHILD | WS_VISIBLE, 
+                               0, 0, staticWidth, staticHeight, hDlg, NULL, g_hInst, NULL);
+                               
+    SendMessage(hwndTrackbar, TBM_SETBUDDY, (WPARAM)FALSE, (LPARAM)hwndBuddy);
+}
+```
+
+
+
+## <a name="remarks"></a>Notes
+
+**IDC \_ SLIDER1** et **IDC \_ SLIDER2** sont trackbars créés dans l’éditeur de ressources.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Utilisation des contrôles TrackBar](using-trackbar-controls.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
