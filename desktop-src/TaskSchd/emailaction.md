@@ -1,0 +1,88 @@
+---
+title: EmailAction, objet
+description: Objet de script qui représente une action qui envoie un message électronique.
+ms.assetid: edc0dc4d-eda0-47e0-981f-8521ac4678eb
+keywords:
+- Objet EmailAction Planificateur de tâches
+- Planificateur de tâches d’objets EmailAction, Description
+topic_type:
+- apiref
+api_name:
+- EmailAction
+api_location:
+- taskschd.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: a339a1549b76f61499b7192a48edc7c1b86a6c67
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103844157"
+---
+# <a name="emailaction-object"></a>EmailAction, objet
+
+\[Cet objet n’est plus pris en charge. Utilisez IExecAction avec l’applet de commande PowerShell [**Send-MailMessage**](/powershell/module/microsoft.powershell.utility/send-mailmessage) comme solution de contournement.\]
+
+Objet de script qui représente une action qui envoie un message électronique.
+
+## <a name="members"></a>Membres
+
+L’objet **EmailAction** possède les types de membres suivants :
+
+-   [Propriétés](#properties)
+
+### <a name="properties"></a>Propriétés
+
+L’objet **EmailAction** a ces propriétés.
+
+
+
+| Propriété                                                    | Type d’accès           | Description                                                                                               |
+|:------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
+| [**Pièces jointes**](emailaction-attachments.md)<br/>   | Lecture/écriture<br/> | Obtient ou définit un tableau des pièces jointes qui sont envoyées avec le message électronique.<br/>                      |
+| [**Cci**](emailaction-bcc.md)<br/>                   | Lecture/écriture<br/> | Obtient ou définit l’adresse ou les adresses de messagerie que vous souhaitez CCI dans le message électronique.<br/>         |
+| [**body**](emailaction-body.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit le corps de l’e-mail qui contient le message électronique.<br/>                            |
+| [**CC**](emailaction-cc.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit l’adresse ou les adresses de messagerie que vous souhaitez envoyer en copie dans le message électronique.<br/>          |
+| [**De**](emailaction-from.md)<br/>                 | Lecture/écriture<br/> | Obtient ou définit l’adresse de messagerie à partir de laquelle vous souhaitez envoyer le message électronique.<br/>                           |
+| [**HeaderFields**](emailaction-headerfields.md)<br/> | Lecture/écriture<br/> | Obtient ou définit les informations d’en-tête dans le message électronique que vous souhaitez envoyer.<br/>                        |
+| [**Identifi**](action-id.md)<br/>                          | Lecture/écriture<br/> | Hérité de l’objet d' [**action**](action.md) . Obtient ou définit l’identificateur de l’action.<br/> |
+| [**ReplyTo**](emailaction-replyto.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’adresse de messagerie à laquelle vous souhaitez répondre.<br/>                                      |
+| [**Serveur**](emailaction-server.md)<br/>             | Lecture/écriture<br/> | Obtient ou définit le nom du serveur que vous utilisez pour envoyer des messages électroniques.<br/>                           |
+| [**Objet**](emailaction-subject.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’objet du message électronique.<br/>                                                 |
+| [**Pour**](emailaction-to.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit l’adresse e-mail à laquelle vous souhaitez envoyer le message électronique.<br/>                |
+| [**Entrer**](/windows/win32/api/taskschd/nf-taskschd-iaction-get_type)<br/>                     | Lecture seule<br/>  | Hérité de l’objet d' [**action**](action.md) . Obtient le type d'action.<br/>                   |
+
+
+
+ 
+
+## <a name="remarks"></a>Notes
+
+L’action de messagerie doit avoir une valeur valide pour les propriétés [**Server**](emailaction-server.md), [**from**](emailaction-from.md)et [**to**](emailaction-to.md) ou [**CC**](emailaction-cc.md) pour que la tâche s’inscrive et s’exécute correctement.
+
+Lors de la lecture ou de l’écriture de votre propre XML pour une tâche, une action de messagerie est spécifiée à l’aide de l’élément [**SendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) du schéma planificateur de tâches.
+
+## <a name="examples"></a>Exemples
+
+Pour plus d’informations et pour obtenir un exemple de code pour cet objet de script, consultez [exemple de déclencheur d’événements (script)](/previous-versions//aa446887(v=vs.85)).
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                    |
+| Fin de la prise en charge des serveurs<br/>    | Windows Server 2008 R2<br/>                                                       |
+| Bibliothèque de types<br/>             | <dl> <dt>Taskschd. tlb</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
+
+
+
+ 
+

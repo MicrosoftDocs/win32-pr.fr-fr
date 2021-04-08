@@ -1,0 +1,78 @@
+---
+title: Éléments du schéma d’événement
+description: Voici les éléments définis par le schéma d’événement.
+ms.assetid: 972c0a78-32d5-45b3-bcc3-6423b60bfa6f
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 34149fae8ac273565f98c3f39adb31b61b406ade
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103727740"
+---
+# <a name="event-schema-elements"></a>Éléments du schéma d’événement
+
+Voici les éléments définis par le schéma d’événement. Cette section contient les noms des éléments que vous trouveriez dans un événement enregistré. Toutefois, pour obtenir les détails de chaque élément, consultez le type complexe qui contient l’élément.
+
+
+
+| Élément                                                                                                    | Description                                                                                                                                                                                            |
+|------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**BinaryEventData (EventType)**](eventschema-binaryeventdata-eventtype-element.md)                       | Contient les données d’événement sous la forme d’un objet blob binaire.<br/>                                                                                                                                                   |
+| [**Binaire (EventDataType)**](eventschema-binary-eventdatatype-element.md)                                 | Objet blob de données binaires pour les événements écrits à l’aide de la [journalisation des événements](/windows/desktop/EventLog/event-logging).<br/>                                                                                                   |
+| [**Canal (RenderingInfoType)**](eventschema-channel-renderinginfotype-element.md)                       | Chaîne de message rendue du canal spécifié dans l’événement.<br/>                                                                                                                          |
+| [**Canal (SystemPropertiesType)**](eventschema-channel-systempropertiestype-element.md)                 | Canal dans lequel l’événement a été enregistré.<br/>                                                                                                                                                  |
+| [**ComplexData (EventDataType)**](eventschema-complexdata-eventdatatype-element.md)                       | Structure définie dans le modèle pour l’événement.<br/>                                                                                                                                  |
+| [**Composant (DebugDataType)**](eventschema-component-debugdatatype-element.md)                           | Nom du composant qui a consigné le message de trace.<br/>                                                                                                                                    |
+| [**Ordinateur (SystemPropertiesType)**](eventschema-computer-systempropertiestype-element.md)               | nom de l'ordinateur sur lequel l'événement s'est produit.<br/>                                                                                                                                       |
+| [**Corrélation (SystemPropertiesType)**](eventschema-correlation-systempropertiestype-element.md)         | Identificateurs d’activité que les consommateurs peuvent utiliser pour regrouper des événements connexes.<br/>                                                                                                           |
+| [**Nom (ProcessingErrorDataType)**](eventschema-dataitemname-processingerrordatatype-element.md) | Contient le nom de l’élément de données d’événement qui a provoqué une erreur lors du traitement des données d’événement.<br/>                                                                                            |
+| [**Données (ComplexDataType)**](eventschema-data-complexdatatype-element.md)                                 | Liste des éléments de données de la structure. La liste des éléments se trouve dans le même ordre que celui défini dans le modèle.<br/>                                                                                |
+| [**Données (EventDataType)**](eventschema-data-eventdatatype-element.md)                                     | Élément de données de niveau supérieur défini dans le modèle pour l’événement.<br/>                                                                                                                        |
+| [**DebugData (EventType)**](eventschema-debugdata-eventtype-element.md)                                   | Contient les données qui peuvent être journalisées pour les événements du préprocesseur de trace logiciel Windows (WPP).<br/>                                                                                                  |
+| [**ErrorCode (ProcessingErrorDataType)**](eventschema-errorcode-processingerrordatatype-element.md)       | Contient le code d’erreur qui a été déclenché lorsqu’une erreur s’est produite lors du traitement des données d’événement. <br/>                                                                                                     |
+| [**Événement**](eventschema-event-element.md)                                                                 | Il s’agit du nœud racine des données d’événement rendues.<br/>                                                                                                                                           |
+| [**EventData (EventType)**](eventschema-eventdata-eventtype-element.md)                                   | Contient les données d'événement.<br/>                                                                                                                                                                    |
+| [**EventID (SystemPropertiesType)**](eventschema-eventid-systempropertiestype-element.md)                 | Identificateur que le fournisseur a utilisé pour identifier l’événement.<br/>                                                                                                                                |
+| [**EventPayload (ProcessingErrorDataType)**](eventschema-eventpayload-processingerrordatatype-element.md) | Contient des données d’événement binaires pour l’événement qui a provoqué une erreur lors du traitement des données d’événement. <br/>                                                                                           |
+| [**EventRecordID (SystemPropertiesType)**](eventschema-eventrecordid-systempropertiestype-element.md)     | Numéro d’enregistrement affecté à l’événement lorsqu’il a été enregistré.<br/>                                                                                                                                 |
+| [**Exécution (SystemPropertiesType)**](eventschema-execution-systempropertiestype-element.md)             | Contient des informations sur le processus et le thread qui a consigné l’événement.<br/>                                                                                                                    |
+| [**FileLine (DebugDataType)**](eventschema-fileline-debugdatatype-element.md)                             | Nom du fichier source et ligne dans le fichier source qui a consigné le message de trace.<br/>                                                                                              |
+| [**FlagName (DebugDataType)**](eventschema-flagname-debugdatatype-element.md)                             | Valeur d’indicateur passée au fournisseur lorsqu’il a été activé.<br/>                                                                                                                                  |
+| [**Fonction (DebugDataType)**](eventschema-function-debugdatatype-element.md)                             | Nom de la fonction qui a consigné le message de trace.<br/>                                                                                                                                     |
+| [**Mot clé (Mots clés)**](eventschema-keyword-keywords-element.md)                                         | Contient un mot clé rendu.<br/>                                                                                                                                                                |
+| [**Mots clés (RenderingInfoType)**](eventschema-keywords-renderingtype-element.md)                         | Liste de mots clés rendus.<br/>                                                                                                                                                                |
+| [**Mots clés (SystemPropertiesType)**](eventschema-keywords-systempropertiestype-element.md)               | Masque de masque des mots clés définis dans l’événement.<br/>                                                                                                                                             |
+| [**LevelName (DebugDataType)**](eventschema-levelname-debugdatatype-element.md)                           | Valeur de niveau passée au fournisseur lorsqu’il a été activé.<br/>                                                                                                                                 |
+| [**Niveau (RenderingInfoType)**](eventschema-level-renderingtype-element.md)                               | Chaîne de message rendue du niveau spécifié dans l’événement.<br/>                                                                                                                            |
+| [**Niveau (SystemPropertiesType)**](eventschema-level-systempropertiestype-element.md)                     | Contient le niveau de gravité de l’événement.<br/>                                                                                                                                                   |
+| [**Message (DebugDataType)**](eventschema-message-debugdatatype-element.md)                               | Chaîne du message. Le code XML contient cet élément si l’événement WPP a spécifié le champ FormattedString.<br/>                                                                                     |
+| [**Message (RenderingInfoType)**](eventschema-message-renderingtype-element.md)                           | Contient le message d’événement qui est rendu pour l’événement.<br/>                                                                                                                                  |
+| [**Opcode (RenderingInfoType)**](eventschema-opcode-renderingtype-element.md)                             | Chaîne de message rendue de l’opcode spécifié dans l’événement.<br/>                                                                                                                           |
+| [**Opcode (SystemPropertiesType)**](eventschema-opcode-systempropertiestype-element.md)                   | Opcode défini dans l’événement.<br/>                                                                                                                                                            |
+| [**ProcessingErrorData (EventType)**](eventschema-processingerrordata-eventtype-element.md)               | Contient les détails de l’erreur qui s’est produite lors de la tentative de rendu de l’événement.<br/>                                                                                                               |
+| [**Fournisseur (SystemPropertiesType)**](eventschema-provider-systempropertiestype-element.md)               | Identifie le fournisseur qui a consigné l’événement.<br/>                                                                                                                                              |
+| [**Fournisseur (RenderingInfoType)**](eventschema-publisher-renderinginfotype-element.md)                    | Chaîne de message rendue pour le fournisseur.<br/>                                                                                                                                               |
+| [**RenderingInfo (EventType)**](eventschema-renderinginfo-eventtype-element.md)                           | Contient les chaînes de message rendues pour l’événement (inclut la chaîne de message de l’événement et les chaînes de message pour l’une des propriétés de l’événement, telles que le niveau, la tâche et l’opcode).<br/>        |
+| [**Sécurité (SystemPropertiesType)**](eventschema-security-systempropertiestype-element.md)               | Identifie l’utilisateur qui a enregistré l’événement.<br/>                                                                                                                                                  |
+| [**DebugDataType**](eventschema-sequencenumber-debugdatatype-element.md)                 | Numéro de séquence local ou global du message de trace.<br/>                                                                                                                                   |
+| [**Sous-composant (DebugDataType)**](eventschema-subcomponent-debugdatatype-element.md)                     | Spécifie le champ de suivi de débogage SubComponentName WPP utilisé dans les événements de débogage des canaux de débogage.                                                                                                 |
+| [**Système (EventType)**](eventschema-system-eventtype-element.md)                                         | Contient des informations qui identifient le fournisseur et comment il a été activé, l’événement, le canal vers lequel l’événement a été écrit et des informations système telles que les ID de processus et de thread.<br/> |
+| [**Tâche (RenderingInfoType)**](eventschema-task-renderingtype-element.md)                                 | Chaîne de message rendue de la tâche spécifiée dans l’événement.<br/>                                                                                                                             |
+| [**Tâche (SystemPropertiesType)**](eventschema-task-systempropertiestype-element.md)                       | Tâche définie dans l’événement.<br/>                                                                                                                                                              |
+| [**TimeCreated (SystemPropertiesType)**](eventschema-timecreated-systempropertiestype-element.md)         | Horodatage qui identifie le moment où l’événement a été enregistré.<br/>                                                                                                                                   |
+| [**UserData (EventType)**](eventschema-userdata-eventtype-element.md)                                     | Contient les données d'événement.<br/>                                                                                                                                                                    |
+| [**Version (SystemPropertiesType)**](schema-version-systempropertiestype-element.md)                      | Contient le numéro de version de la définition de l’événement.<br/>                                                                                                                                      |
+
+
+
+ 
+
+ 
+
