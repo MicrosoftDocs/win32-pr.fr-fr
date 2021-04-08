@@ -1,0 +1,34 @@
+---
+description: Types de médias (DirectShow)
+ms.assetid: c8efe9e6-7d1d-4ec2-ab1b-70ee0798a6a3
+title: Types de médias
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 931b1242f5651e80aa15809f22cec4442f2feae1
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "103953387"
+---
+# <a name="media-types-directshow"></a>Types de médias (DirectShow)
+
+Microsoft® DirectShow® utilise la structure de [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) pour décrire les exemples de supports. Cette structure comprend des membres **GUID** pour le type, le sous-type et le type de format principaux. Cette section résume les GUID de type et de sous-type principaux qui sont définis pour DirectShow. Les filtres tiers peuvent définir leurs propres GUID de type de média.
+
+-   [**Types principaux**](major-types.md)
+-   [**Sous-types audio**](audio-subtypes.md)
+-   [**Types de média BDA**](bda-media-types.md)
+-   [**Types de supports DVD**](dvd-media-types.md)
+-   [**Types de média de ligne 21**](line-21-media-types.md)
+-   [**Types de média MPEG-1**](mpeg-1-media-types.md)
+-   [Types de média MPEG-2](mpeg-2-media-types.md)
+-   [**Sous-types de flux**](stream-subtypes.md)
+-   [Types de médias VBI](vbi-media-types.md)
+-   [Sous-types de vidéos](video-subtypes.md)
+
+ 
+
+ 
+
+
+

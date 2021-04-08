@@ -1,0 +1,417 @@
+---
+title: Dépannage des applications
+description: Cette section fournit des solutions aux problèmes courants.
+ms.assetid: dfdc5a97-aa0a-4011-8f61-6e405e28b6f8
+keywords:
+- Applications tactiles Windows, résolution des problèmes
+- Tactile Windows, rejet de Palm
+- rejet de Palm
+- Tactile Windows, support hérité
+- Dépannage de Windows Touch
+- inertie, dépannage des applications
+- manipulations, résolution des problèmes des applications
+- mouvements, dépannage des applications
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cf1aeb37f139ea9063c07dd7d629ac5579229863
+ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "103953522"
+---
+# <a name="troubleshooting-applications"></a>Dépannage des applications
+
+Cette section fournit des solutions aux problèmes courants.
+
+## <a name="general-troubleshooting"></a>Résolution de problèmes générale
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                    |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | J’exécute Windows Server 2008 et les fonctionnalités tactiles de Windows ne fonctionnent pas.                                                                                                                                                                                                                                       |
+| Cause    | Vous n’avez pas activé l’expérience utilisateur.                                                                                                                                                                                                                                                                        |
+| Solution | Ouvrez l’outil d’administration Gestionnaire de serveur : cliquez sur **Démarrer**, pointez sur **Outils d’administration**, puis cliquez sur **Gestionnaire de serveur**. Cliquez sur l’élément **fonctionnalités** dans la colonne de gauche. Cliquez sur **Ajouter des fonctionnalités** dans la section **fonctionnalités** . Sélectionnez **expérience utilisateur**, cliquez sur **suivant**, puis sur **installer**. |
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                    |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Chaque fois que je déplace mon doigt rapidement sur mon application, une flèche s’affiche et mon geste ou manipulation ne s’inscrit pas correctement.                                                             |
+| Cause    | Les raccourcis sont activés lorsque vous n’en avez pas besoin.                                                                                                                                                      |
+| Solution | Les raccourcis sont activés lorsque vous souhaitez qu’ils soient désactivés. Pour plus d’informations sur la désactivation des raccourcis stylet, consultez [prise en charge héritée du panorama avec des barres de défilement](legacy-support-for-panning-with-scrollbars.md) . |
+
+
+
+ 
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Problème</td>
+<td>Je ne peux pas discerner les entrées de souris et les entrées tactiles Windows.</td>
+</tr>
+<tr class="even">
+<td>Cause</td>
+<td>Windows génère des messages de souris pour la prise en charge héritée lorsqu’un utilisateur clique sur l’écran.</td>
+</tr>
+<tr class="odd">
+<td>Solution</td>
+<td>Vous pouvez appeler <a href="/windows/win32/api/winuser/nf-winuser-getmessageextrainfo">GetMessageExtraInfo</a> pour les messages <strong>WM_LBUTTONDOWN</strong> et <strong>WM_LBUTTONUP</strong> afin de déterminer la source. Le code suivant illustre cette opération. <span data-codelanguage="ManagedCPlusPlus"></span>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>C++</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><pre><code>#define MOUSEEVENTF_FROMTOUCH 0xFF515700
+
+if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) { 
+    // Click was generated by wisptis / Windows Touch
+}else{ 
+    // Click was generated by the mouse.
+}
+</code></pre></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+
+
+|          |                                                                                    |
+|----------|------------------------------------------------------------------------------------|
+| Problème    | Comment faire exécuter des applications Microsoft PixelSense sur Windows 7 ?                       |
+| Cause    | Windows Touch et Microsoft PixelSense sont incompatibles.                           |
+| Solution | Vous devez soit cibler la plateforme Windows 7, soit la plate-forme Microsoft PixelSense. |
+
+
+
+ 
+
+## <a name="troubleshooting-manipulations-and-inertia"></a>Dépannage des manipulations et de l’inertie
+
+
+
+|          |                                                                                                                                                                                                                                                          |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Mon application est figée sans raison. J’obtiens des violations d’accès quand j’Initialise mes interfaces d’objet.                                                                                                                                          |
+| Cause    | Appel à **CoInitialize** manquant lors de l’utilisation des interfaces [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) ou [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) .                                                                                 |
+| Solution | Cela peut être dû à l’instanciation des objets COM (Component Object Model) Windows sans appeler CoInitialize. Cela se produit parfois quand vous convertissez des projets à l’aide de gestes à l’aide des manipulations ou des interfaces d’inertie. |
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                                                                                         |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Mon objet est incorrectement pivoté lorsqu’il est en cours de traduction. La rotation à un seul doigt ne fonctionne pas correctement.                                                                                                                                                                                                                                                                           |
+| Cause    | Paramétrage incorrect des pivots sur un objet.                                                                                                                                                                                                                                                                                                                                                 |
+| Solution | Vous ne configurez pas correctement les points pivot de manipulation. Définissez les propriétés [**PivotPointX**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointx) et [**PivotPointY**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotpointy) au centre de l’objet ou du point autour duquel vous souhaitez faire pivoter et définissez la propriété [**PivotRadius**](/windows/desktop/api/manipulations/nf-manipulations-imanipulationprocessor-get_pivotradius) sur le rayon de votre objet. |
+
+
+
+ 
+
+## <a name="troubleshooting-windows-touch-input"></a>Dépannage des entrées tactiles Windows
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                                        |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Après avoir traité le message [**WM \_ Touch**](wm-touchdown.md) , je cesse d’obtenir des commentaires sur les limites.                                                                                                                                                                                                                                        |
+| Cause    | Consommation du message [**WM \_ Touch**](wm-touchdown.md) sans le gérer.                                                                                                                                                                                                                                                           |
+| Solution | Vous consommerez probablement un message tactile Windows sans le transférer à **DefWindowProc**, ce qui entraînera un comportement inattendu. Pour plus d’informations sur la façon de gérer correctement les messages [**WM \_ Touch**](wm-touchdown.md) , consultez [prise en main avec des messages tactiles Windows](getting-started-with-multi-touch-messages.md) . |
+
+
+
+ 
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Problème</td>
+<td>J’inclut Windows. h, mais il dit toujours que <a href="wm-touchdown.md"><strong>WM_TOUCH</strong></a> n’est pas défini.</td>
+</tr>
+<tr class="even">
+<td>Cause</td>
+<td>La version de Windows dans Targetver. h est incorrecte.</td>
+</tr>
+<tr class="odd">
+<td>Solution</td>
+<td>Vous n’avez pas défini la version correcte de Windows dans votre projet. Le code suivant illustre les versions Windows correctement définies pour Windows Touch dans Windows 7. <span data-codelanguage="ManagedCPlusPlus"></span>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>C++</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><pre><code>#ifndef WINVER                  // Specify that the minimum required platform is Windows 7.
+#define WINVER 0x0601           
+#endif</code></pre></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Problème</td>
+<td>Les coordonnées x et y de mes entrées tactiles semblent non valides. Il s’agit de valeurs supérieures à celles attendues ou de valeurs négatives.</td>
+</tr>
+<tr class="even">
+<td>Cause</td>
+<td>Vous devrez peut-être convertir vos points tactiles en pixels, ou vous devrez peut-être convertir les coordonnées d’écran.</td>
+</tr>
+<tr class="odd">
+<td>Solution</td>
+<td>Assurez-vous que vous appelez <a href="/windows/desktop/api/winuser/nf-winuser-touch_coord_to_pixel"><strong>TOUCH_COORD_TO_PIXEL</strong></a> et <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a>. Le code suivant montre comment procéder. <span data-codelanguage="ManagedCPlusPlus"></span>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>C++</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><pre><code>      POINT ptInput;
+      if (GetTouchInputInfo((HTOUCHINPUT)lParam, cInputs, pInputs, sizeof(TOUCHINPUT))){
+        for (int i=0; i < static_cast<INT>(cInputs); i++){
+          TOUCHINPUT ti = pInputs[i];                       
+          if (ti.dwID != 0){                
+            // Do something with your touch input handle.
+            ptInput.x = TOUCH_COORD_TO_PIXEL(ti.x);
+            ptInput.y = TOUCH_COORD_TO_PIXEL(ti.y);
+            ScreenToClient(hWnd, &ptInput);
+            points[ti.dwID][0] = ptInput.x;
+            points[ti.dwID][1] = ptInput.y;
+          }
+        }
+      }</code></pre></td>
+</tr>
+</tbody>
+</table>
+
+<div class="alert">
+<blockquote>
+[!Note]<br />
+Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winuser-screentoclient"><strong>ScreenToClient</strong></a> , vous devez disposer d’une prise en charge des résolutions élevées dans votre application. Pour plus d’informations sur la prise en charge des résolutions élevées, visitez la section <a href=" /windows/win32/hidpi/high-dpi-desktop-application-development-on-windows">haute résolution</a> de MSDN.
+</blockquote>
+</div>
+<div>
+ 
+</div></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                                |
+|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Je ne vois pas les messages [**WM \_ Touch**](wm-touchdown.md) , mais je sais que la touche Windows fonctionne parce que je vois les messages de [**\_ mouvement WM**](wm-gesture.md) .                                                             |
+| Cause    | Appel à [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)manquant.                                                                                                                                                          |
+| Solution | [**WM \_**](wm-touchdown.md) Les messages [**de \_ mouvement**](wm-gesture.md) tactile et WM s’excluent mutuellement. Si vous n’appelez pas [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), vous recevrez uniquement les messages de **\_ mouvement WM** . |
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                                                       |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Je remarque des petits retards à partir du moment où je touche mon doigt jusqu’au moment où j’obtiens une entrée dans mon application.                                                                                                                                                                                                                                         |
+| Cause    | Le rejet de Palm entraîne des retards dans l’entrée.                                                                                                                                                                                                                                                                                                            |
+| Solution | Si **TWF \_ WANTPALM** est défini dans les appels à [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), le rejet de Palm est activé. Cela provoque un petit délai (de 100 ms) tandis que le logiciel teste si l’entrée provient d’un doigt, d’un stylet ou de la paume de l’utilisateur. Désactivez le rejet de Palm en appelant **RegisterTouchWindow** avec l’indicateur **TWF \_ WANTPALM** effacé. |
+
+
+
+ 
+
+## <a name="troubleshooting-windows-touch-gestures"></a>Dépannage des gestes tactiles Windows
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                                                                                 |
+|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Une fois le message de [**\_ mouvement WM**](wm-gesture.md) géré, je cesse d’obtenir des commentaires sur les limites. Ou bien, un geste qui fonctionnait précédemment ne fonctionne pas maintenant.                                                                                                                                                                                                                         |
+| Cause    | Consommation du message [**de \_ mouvement WM**](wm-gesture.md) sans le gérer.                                                                                                                                                                                                                                                                                                    |
+| Solution | Vous consommerez probablement un message tactile Windows sans le transférer à [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca), ce qui entraînera un comportement inattendu. Pour plus d’informations sur la façon de gérer correctement les messages de [**\_ mouvement WM**](wm-gesture.md) , consultez [prise en main avec les gestes Windows](getting-started-with-multi-touch-gestures.md) . |
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                         |
+|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Je ne vois pas les messages de [**\_ mouvement WM**](wm-gesture.md) , mais je sais que la touche Windows fonctionne, car je vois des messages [**WM \_ Touch**](wm-touchdown.md) .                                                      |
+| Cause    | Appel de [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow).                                                                                                                                                             |
+| Solution | [**WM \_**](wm-touchdown.md) Les messages [**de \_ mouvement**](wm-gesture.md) tactile et WM s’excluent mutuellement. Si vous appelez [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow), vous ne recevrez pas de messages de **\_ mouvement WM** . |
+
+
+
+ 
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Problème</td>
+<td>Je ne vois pas tous les mouvements que je m’attend à voir. Par exemple, je vois des gestes avec l’identificateur <strong>GID_PAN</strong> mais pas <strong>GID_ROTATE</strong>.</td>
+</tr>
+<tr class="even">
+<td>Cause</td>
+<td>Certains mouvements, tels que le mouvement de rotation, ne sont pas activés par défaut.</td>
+</tr>
+<tr class="odd">
+<td>Solution</td>
+<td>Vous devez appeler <a href="/windows/desktop/api/winuser/nf-winuser-setgestureconfig"><strong>SetGestureConfig</strong></a> quand vous recevez un message de <a href="wm-gesturenotify.md"><strong>WM_GESTURENOTIFY</strong></a> comme décrit dans la référence <strong>WM_GESTURENOTIFY</strong> , ou vous devez ajouter un gestionnaire pour le message <strong>WM_GESTURENOTIFY</strong> . Le code suivant montre comment implémenter un gestionnaire pour activer la prise en charge de la rotation. <span data-codelanguage="ManagedCPlusPlus"></span>
+<table>
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>C++</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><pre><code>// The message map.
+BEGIN_MESSAGE_MAP()
+    ON_WM_CREATE()
+     ... ... ...
+    ON_MESSAGE(WM_GESTURENOTIFY, OnWindowsGestureNotify)
+END_MESSAGE_MAP()  
+
+LRESULT CTestWndApp::OnWindowsGestureNotify(
+    UINT    uMsg,
+    WPARAM  wParam,
+    LPARAM  lParam,
+    BOOL&   bHandled
+    ){
+    GESTURECONFIG gc;
+    gc.dwID    = GID_ROTATE; // The gesture identifier.
+    gc.dwWant  = GC_ROTATE;  // The gesture command you are enabling for GID_ROTATE.
+    gc.dwBlock = 0;          // Don&#39;t block anything.
+    UINT uiGcs = 1;          // The number of gestures being set.
+
+  BOOL bResult = SetGestureConfig(g_hMainWnd, 0, uiGcs, &gc, sizeof(GESTURECONFIG));
+    if(!bResult) {
+        // Something went wrong, report the error using your preferred logging.
+    }
+
+  return 0;
+}  </code></pre></td>
+</tr>
+</tbody>
+</table>
+
+Pour obtenir plus d’exemples de configurations de mouvements typiques, consultez <strong>SetGestureConfig</strong>.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                                                                                                                                                                                                    |
+|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | Les barres de défilement personnalisées dans mon application ne défilent pas lorsque j’effectue le mouvement panoramique.                                                                                                                                                                                                                                                                                                         |
+| Cause    | Gestionnaires manquants pour les messages de défilement WM corrects \_ \* .                                                                                                                                                                                                                                                                                                                                            |
+| Solution | Vous ne gérez pas tous les messages de \_ \* défilement WM dans vos barres de défilement personnalisées. Il est recommandé de gérer le message [**de \_ mouvement WM**](wm-gesture.md) plutôt que de conserver les fonctionnalités de la barre de défilement personnalisée via la prise en charge héritée. Vous devez prendre en charge les messages comme détaillé dans la section [prise en charge héritée du panorama avec les barres de défilement](legacy-support-for-panning-with-scrollbars.md). |
+
+
+
+ 
+
+
+
+|          |                                                                                                                                                                                                                                                                 |
+|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Problème    | J’obtiens des retards pour les gestes.                                                                                                                                                                                                                               |
+| Cause    | Les raccourcis peuvent entraîner des retards pour les gestes.                                                                                                                                                                                                                      |
+| Solution | Les raccourcis peuvent entraîner des retards pendant le temps nécessaire à votre application pour recevoir des messages de [**\_ mouvement WM**](wm-gesture.md) . Pour plus d’informations sur la désactivation des raccourcis, consultez [prise en charge de l’héritage pour le panoramique avec les barres de défilement](legacy-support-for-panning-with-scrollbars.md) . |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Guide de programmation](programming-guide.md)
+</dt> </dl>
+
+ 
+
+ 

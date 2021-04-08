@@ -1,0 +1,44 @@
+---
+title: Services de sérialisation
+description: Microsoft RPC prend en charge deux méthodes d’encodage et de décodage des données, collectivement appelées sérialisation de données.
+ms.assetid: 36d6ea16-7d01-436e-ac32-610c3ddb8b8d
+keywords:
+- Appel de procédure distante RPC, description, sérialisation
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3fc5b877e29f7a7f6cd102663017f64bebfdff04
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103675229"
+---
+# <a name="serialization-services"></a>Services de sérialisation
+
+Microsoft RPC prend en charge deux méthodes d’encodage et de décodage des données, collectivement appelées *sérialisation de données*. La sérialisation signifie que les données sont marshalées vers et démarshalées à partir des mémoires tampons que vous contrôlez. Cela diffère de l’utilisation traditionnelle de RPC, dans laquelle les stubs et la bibliothèque Runtime RPC disposent d’un contrôle total sur les mémoires tampons de marshaling et le processus est transparent. Vous pouvez utiliser la mémoire tampon pour le stockage sur un support permanent, le chiffrement, etc. Lorsque vous encodez des données, les stubs RPC marshalent les données dans une mémoire tampon et la transmettent à votre mémoire tampon. Lorsque vous décodez des données, vous fournissez une mémoire tampon de marshaling avec des données, et les données sont démarshalées de la mémoire tampon en mémoire. Vous pouvez sérialiser sur une base de procédure ou de type.
+
+> [!Note]  
+> Le terme « *picking* » est couramment utilisé parmi les développeurs pour décrire la sérialisation. En fait, les exemples de SDK Windows contiennent un répertoire appelé *Pickle* qui conserve les exemples de programmes de sérialisation RPC.
+
+ 
+
+La sérialisation utilise les mécanismes RPC pour le marshaling et le démarshaling des données à d’autres fins. Par exemple, au lieu d’utiliser plusieurs opérations d’e/s pour sérialiser un groupe d’objets dans un flux, une application peut optimiser les performances en sérialisant plusieurs objets de types différents dans une mémoire tampon, puis en écrivant l’intégralité de la mémoire tampon en une seule opération. Les fonctions qui manipulent des handles de sérialisation sont indépendantes du type de sérialisation que vous utilisez.
+
+Autre exemple, si vous avez besoin d’utiliser un mécanisme de transport réseau autre que RPC, tel que Microsoft Windows Sockets (Winsock). Avec la sérialisation RPC, votre programme peut effectuer des appels à des fonctions qui marshalent vos données dans des mémoires tampons et transmettent ces données à l’aide de Winsock. Lorsque votre application reçoit des données, elle peut utiliser le mécanisme de sérialisation RPC pour démarshaler les données des mémoires tampons remplies par les routines Winsock. Cela vous offre de nombreux avantages des applications de style RPC et, en même temps, vous permet d’utiliser des mécanismes de transport non-RPC.
+
+Vous pouvez également utiliser la sérialisation à des fins non liées aux communications réseau. Par exemple, une fois que vous utilisez les fonctions d’encodage RPC pour marshaler des données dans une mémoire tampon, vous pouvez les stocker dans un fichier pour une utilisation par une autre application. Vous pouvez également la chiffrer. Vous pouvez même l’utiliser pour stocker une représentation indépendante du matériel et du système d’exploitation des données dans une base de données.
+
+Les rubriques suivantes présentent une discussion sur les services de sérialisation pris en charge par Microsoft RPC :
+
+-   [Utilisation des services de sérialisation](using-serialization-services.md)
+-   [Sérialisation de procédure](procedure-serialization.md)
+-   [Sérialisation de type](type-serialization.md)
+-   [Handles de sérialisation](serialization-handles.md)
+
+ 
+
+ 
+
+
+
+
