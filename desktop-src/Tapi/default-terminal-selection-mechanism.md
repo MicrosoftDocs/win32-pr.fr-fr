@@ -1,0 +1,40 @@
+---
+description: Le concept de terminal multipiste est encore plus souhaitable pour TAPI de fournir une méthode simplifiée de sélection d’un terminal sur un flux ou des flux. Le mécanisme de sélection par défaut des terminaux est conçu pour résoudre ce.
+ms.assetid: fbdc7359-b44e-4605-baea-eef5155340c7
+title: Mécanisme de sélection par défaut des terminaux
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5512797434fac028e91bf64a88bb9a22b8968c87
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103862254"
+---
+# <a name="default-terminal-selection-mechanism"></a><span data-ttu-id="3a96b-104">Mécanisme de sélection par défaut des terminaux</span><span class="sxs-lookup"><span data-stu-id="3a96b-104">Default Terminal Selection Mechanism</span></span>
+
+<span data-ttu-id="3a96b-105">Le concept de [Terminal multipiste](multitrack-terminals.md) est encore plus souhaitable pour TAPI de fournir une méthode simplifiée de sélection d’un terminal sur un flux ou des flux.</span><span class="sxs-lookup"><span data-stu-id="3a96b-105">The concept of [multitrack terminal](multitrack-terminals.md) makes it even more desirable for TAPI to provide a simplified method of selecting a terminal on a stream or streams.</span></span> <span data-ttu-id="3a96b-106">Le mécanisme de sélection par défaut des terminaux est conçu pour résoudre ce.</span><span class="sxs-lookup"><span data-stu-id="3a96b-106">The Default Terminal Selection mechanism is designed to address this.</span></span>
+
+## <a name="selecting-a-terminal-on-a-call"></a><span data-ttu-id="3a96b-107">Sélection d’un terminal sur un appel</span><span class="sxs-lookup"><span data-stu-id="3a96b-107">Selecting a Terminal on a Call</span></span>
+
+<span data-ttu-id="3a96b-108">La fonctionnalité de sélection par défaut des terminaux est fournie via la possibilité de sélectionner un terminal sur un appel.</span><span class="sxs-lookup"><span data-stu-id="3a96b-108">The Default Terminal Selection feature is provided via the ability to select a terminal on a call.</span></span>
+
+<span data-ttu-id="3a96b-109">L' [objet Call](call-object.md) expose une nouvelle interface, [**ITBasicCallControl2**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2).</span><span class="sxs-lookup"><span data-stu-id="3a96b-109">The [call object](call-object.md) exposes a new interface, [**ITBasicCallControl2**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2).</span></span> <span data-ttu-id="3a96b-110">L’interface expose les mêmes méthodes que [**ITBasicCallControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol), ainsi que trois nouvelles méthodes : [**RequestTerminal**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal), [**SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall)et [**UnselectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall).</span><span class="sxs-lookup"><span data-stu-id="3a96b-110">The interface exposes the same methods as [**ITBasicCallControl**](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol), plus three new methods: [**RequestTerminal**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-requestterminal), [**SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall), and [**UnselectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall).</span></span>
+
+<span data-ttu-id="3a96b-111">**ITBasicCallControl2 :: RequestTerminal** crée un terminal, en fonction de la classe terminal, de l’orientation et du type de média.</span><span class="sxs-lookup"><span data-stu-id="3a96b-111">**ITBasicCallControl2::RequestTerminal** creates a terminal, given the terminal class, direction, and media type.</span></span> <span data-ttu-id="3a96b-112">Il examine les listes de terminaux statiques et dynamiques pris en charge pour rechercher et créer le terminal demandé.</span><span class="sxs-lookup"><span data-stu-id="3a96b-112">It looks through the lists of supported static and dynamic terminals to find and create the requested terminal.</span></span>
+
+<span data-ttu-id="3a96b-113">[**ITBasicCallControl2 :: SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall) sélectionne le terminal (ou, dans le cas d’un terminal multipiste, énumère, crée si nécessaire et sélectionne les terminaux de suivi) sur le flux (ou les flux) disponibles sur l’appel.</span><span class="sxs-lookup"><span data-stu-id="3a96b-113">[**ITBasicCallControl2::SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall) selects the terminal (or, in the case of a multitrack terminal, enumerates, creates if needed, and selects the track terminals) on the stream (or streams) available on the call.</span></span>
+
+<span data-ttu-id="3a96b-114">L’algorithme de correspondance des flux d’appels avec le terminal (ou les pistes disponibles sur le terminal) est décrit dans la documentation de [**ITBasicCallControl2 :: SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall).</span><span class="sxs-lookup"><span data-stu-id="3a96b-114">The algorithm for matching call streams to the terminal (or tracks available on the terminal) is described in the documentation for [**ITBasicCallControl2::SelectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-selectterminaloncall).</span></span>
+
+<span data-ttu-id="3a96b-115">L’appel de [**ITBasicCallControl2 :: UnselectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall) provoque la désélection du terminal (une seule piste ou multipiste) de l’appel.</span><span class="sxs-lookup"><span data-stu-id="3a96b-115">Calling [**ITBasicCallControl2::UnselectTerminalOnCall**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol2-unselectterminaloncall) causes the terminal (single-track or multitrack) to be unselected from the call.</span></span> <span data-ttu-id="3a96b-116">Pour plus d’informations, consultez la documentation de la méthode.</span><span class="sxs-lookup"><span data-stu-id="3a96b-116">See the method's documentation for more details.</span></span>
+
+## <a name="selecting-a-terminal-on-itstream"></a><span data-ttu-id="3a96b-117">Sélection d’un terminal sur ITStream</span><span class="sxs-lookup"><span data-stu-id="3a96b-117">Selecting a Terminal on ITStream</span></span>
+
+<span data-ttu-id="3a96b-118">La sélection d’un terminal à simple suivi sur [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) (en appelant [**ITStream :: SelectTerminal**](/windows/win32/api/tapi3if/nf-tapi3if-itstream-selectterminal)) sélectionne le terminal sur le flux.</span><span class="sxs-lookup"><span data-stu-id="3a96b-118">Selecting a single-track terminal on [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream) (by calling [**ITStream::SelectTerminal**](/windows/win32/api/tapi3if/nf-tapi3if-itstream-selectterminal)) selects the terminal on the stream.</span></span> <span data-ttu-id="3a96b-119">Il s’agit de la procédure de sélection de terminal TAPI 3 habituelle.</span><span class="sxs-lookup"><span data-stu-id="3a96b-119">This is the usual TAPI 3 terminal selection procedure.</span></span>
+
+<span data-ttu-id="3a96b-120">Seuls les terminaux à simple suivi peuvent être sélectionnés sur un flux.</span><span class="sxs-lookup"><span data-stu-id="3a96b-120">Only single-tracks terminals can be selected on a stream.</span></span> <span data-ttu-id="3a96b-121">La sélection d’un terminal multipiste sur un flux échoue, car le flux ne reconnaît pas le type et la direction du média.</span><span class="sxs-lookup"><span data-stu-id="3a96b-121">Selecting a multitrack terminal on a stream will fail, because the stream will not recognize the media type and direction.</span></span>
+
+ 
+
+ 

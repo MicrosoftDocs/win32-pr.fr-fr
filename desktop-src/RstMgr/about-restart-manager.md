@@ -1,0 +1,41 @@
+---
+title: À propos du gestionnaire de redémarrage
+description: La raison principale pour laquelle l’installation et les mises à jour du logiciel nécessitent un redémarrage du système est que certains des fichiers en cours de mise à jour sont actuellement utilisés par une application ou un service en cours d’exécution.
+ms.assetid: 9a1166d7-a0e1-4948-9077-278c84afccac
+keywords:
+- Restart Manager restart Mgr, à propos de
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ec1cfd300d554e311ab43cc0a9413514b6b60081
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103729573"
+---
+# <a name="about-restart-manager"></a><span data-ttu-id="8447d-104">À propos du gestionnaire de redémarrage</span><span class="sxs-lookup"><span data-stu-id="8447d-104">About Restart Manager</span></span>
+
+<span data-ttu-id="8447d-105">La raison principale pour laquelle l’installation et les mises à jour du logiciel nécessitent un redémarrage du système est que certains des fichiers en cours de mise à jour sont actuellement utilisés par une application ou un service en cours d’exécution.</span><span class="sxs-lookup"><span data-stu-id="8447d-105">The primary reason software installation and updates require a system restart is that some of the files that are being updated are currently being used by a running application or service.</span></span> <span data-ttu-id="8447d-106">Le gestionnaire de redémarrage permet l’arrêt et le redémarrage de tous les services et applications critiques.</span><span class="sxs-lookup"><span data-stu-id="8447d-106">Restart Manager enables all but the critical applications and services to be shut down and restarted .</span></span> <span data-ttu-id="8447d-107">Cela libère les fichiers en cours d’utilisation et permet d’effectuer les opérations d’installation.</span><span class="sxs-lookup"><span data-stu-id="8447d-107">This frees the files that are in use and allows installation operations to complete.</span></span> <span data-ttu-id="8447d-108">Il peut également éliminer ou réduire le nombre de redémarrages système nécessaires à l’exécution d’une installation ou d’une mise à jour.</span><span class="sxs-lookup"><span data-stu-id="8447d-108">It can also eliminate or reduce the number of system restarts that are required to complete an installation or update.</span></span>
+
+<span data-ttu-id="8447d-109">Le gestionnaire de redémarrage arrête les applications dans l’ordre suivant, et une fois que les applications ont été mises à jour, redémarre les applications qui ont été inscrites pour le redémarrage dans l’ordre inverse.</span><span class="sxs-lookup"><span data-stu-id="8447d-109">The Restart Manager stops applications in the following order, and after the applications have been updated, restarts applications that have been registered for restart in the reverse order.</span></span>
+
+1.  <span data-ttu-id="8447d-110">Applications GUI</span><span class="sxs-lookup"><span data-stu-id="8447d-110">GUI applications</span></span>
+2.  <span data-ttu-id="8447d-111">Applications console</span><span class="sxs-lookup"><span data-stu-id="8447d-111">Console applications</span></span>
+3.  <span data-ttu-id="8447d-112">Services Windows</span><span class="sxs-lookup"><span data-stu-id="8447d-112">Windows services</span></span>
+4.  <span data-ttu-id="8447d-113">Explorateur Windows</span><span class="sxs-lookup"><span data-stu-id="8447d-113">Windows explorer</span></span>
+
+<span data-ttu-id="8447d-114">Le gestionnaire de démarrage arrête l’application ou les services uniquement si l’appelant est autorisé à le faire.</span><span class="sxs-lookup"><span data-stu-id="8447d-114">Restart Manager shuts down application or services only if the caller has permission to do so.</span></span> <span data-ttu-id="8447d-115">Notez que l’arrêt entre sessions n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="8447d-115">Note that shutdown across sessions is not supported.</span></span>
+
+<span data-ttu-id="8447d-116">Les applications qui utilisent la version 4,0 de [Windows Installer](/windows/desktop/Msi/windows-installer-portal) pour l’installation et la maintenance utilisent automatiquement le gestionnaire de redémarrage pour réduire les redémarrages du système.</span><span class="sxs-lookup"><span data-stu-id="8447d-116">Applications that use the [Windows Installer](/windows/desktop/Msi/windows-installer-portal) version 4.0 for installation and servicing automatically use the Restart Manager to reduce system restarts.</span></span> <span data-ttu-id="8447d-117">Les programmes d’installation personnalisés peuvent également être conçus pour appeler l’API du gestionnaire de redémarrage pour arrêter et redémarrer les applications et les services.</span><span class="sxs-lookup"><span data-stu-id="8447d-117">Custom installers can also be designed to call the Restart Manager API to shut down and restart applications and services.</span></span> <span data-ttu-id="8447d-118">Dans les cas où un redémarrage du système est inévitable, les programmes d’installation peuvent utiliser l’API du gestionnaire de redémarrage pour planifier les redémarrages de manière à réduire au minimum l’interruption du processus de travail de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="8447d-118">In cases where a system restart is unavoidable, installers can use the Restart Manager API to schedule restarts in such a way that it minimizes the disruption of the user's work flow.</span></span>
+
+<span data-ttu-id="8447d-119">Pour plus d’informations sur l’utilisation de l’API du gestionnaire de redémarrage pendant l’installation et les mises à jour, consultez [utilisation du gestionnaire de redémarrage](using-restart-manager.md).</span><span class="sxs-lookup"><span data-stu-id="8447d-119">For information about using the Restart Manager API during installation and updates, see [Using Restart Manager](using-restart-manager.md).</span></span>
+
+<span data-ttu-id="8447d-120">Les services système critiques ne peuvent pas être arrêtés et redémarrés par le gestionnaire de redémarrage sans redémarrage du système.</span><span class="sxs-lookup"><span data-stu-id="8447d-120">Critical system services cannot be stopped and restarted by the Restart Manager without a system restart.</span></span> <span data-ttu-id="8447d-121">Pour plus d’informations sur l’identification des services système critiques, consultez [services système critiques](critical-system-services.md).</span><span class="sxs-lookup"><span data-stu-id="8447d-121">For more information about identifying critical system services, see [Critical System Services](critical-system-services.md).</span></span>
+
+<span data-ttu-id="8447d-122">Vos applications et services doivent être prêts à être arrêtés par le gestionnaire de redémarrage et enregistrer les données utilisateur et les informations d’État nécessaires pour un redémarrage propre.</span><span class="sxs-lookup"><span data-stu-id="8447d-122">Your applications and services should be prepared to be shut down by the Restart Manager and save user data and state information that are needed for a clean restart.</span></span> <span data-ttu-id="8447d-123">Pour plus d’informations sur la façon de préparer vos applications et services pour qu’ils fonctionnent avec le gestionnaire de redémarrage, consultez [instructions pour les applications et les services](guidelines-for-applications-and-services.md).</span><span class="sxs-lookup"><span data-stu-id="8447d-123">For more information about how to prepare your applications and services to work with the Restart Manager, see [Guidelines for Applications and Services](guidelines-for-applications-and-services.md).</span></span>
+
+<span data-ttu-id="8447d-124">Pour obtenir des informations de référence sur les énumérations, les structures et les fonctions de l’API du gestionnaire de redémarrage, consultez la section [Référence du gestionnaire de redémarrage](restart-manager-reference.md) .</span><span class="sxs-lookup"><span data-stu-id="8447d-124">For reference information about the enumerations, structures, and functions of the Restart Manager API, see the [Restart Manager Reference](restart-manager-reference.md) section</span></span>
+
+ 
+
+ 
