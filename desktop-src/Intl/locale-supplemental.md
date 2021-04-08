@@ -1,0 +1,23 @@
+---
+description: paramètres régionaux \_ supplémentaires
+ms.assetid: 288026bc-4d73-45a7-809a-0385fc678c8d
+title: LOCALE_SUPPLEMENTAL
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f671b6fb8b725dd8c6f9fd6144c12a1cc6aee056
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103753541"
+---
+# <a name="locale_supplemental"></a>paramètres régionaux \_ supplémentaires
+
+**Windows Vista et versions ultérieures :** Énumérer les [paramètres régionaux supplémentaires](custom-locales.md).
+
+ 
+
+ 
+
+
+
