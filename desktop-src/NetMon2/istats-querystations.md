@@ -1,0 +1,106 @@
+---
+description: La méthode QueryStations fournit la liste de tous les ordinateurs qui capturent actuellement des données à l’aide de Moniteur réseau.
+ms.assetid: feebcb28-914b-450e-95d4-10a60cbf1438
+title: 'IStats :: QueryStations, méthode (NetMon. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IStats.QueryStations
+api_type:
+- COM
+api_location:
+- Ndisnpp.dll
+- Rmtnpp.dll
+ms.openlocfilehash: 99c3be3926191c27ad038034373e411b5c22d9fc
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104034952"
+---
+# <a name="istatsquerystations-method"></a>IStats :: QueryStations, méthode
+
+La méthode **QueryStations** fournit la liste de tous les ordinateurs qui capturent actuellement des données à l’aide de moniteur réseau.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT STDMETHODCALLTYPE QueryStations(
+  [in, out] QUERYTABLE *lpQueryTable
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*lpQueryTable* \[ in, out\]
+</dt> <dd>
+
+Pointeur vers une structure [QUERYTABLE](querytable.md) . En entrée, cette structure doit contenir le nombre maximal d’ordinateurs que vous souhaitez Moniteur réseau retourner et un tableau de structures [STATIONQUERY](stationquery.md) .
+
+Lors de la sortie, cette structure retourne le nombre d’ordinateurs qui capturent des données et une structure [STATIONQUERY](stationquery.md) pour chaque ordinateur trouvé. Notez que ces informations peuvent inclure des ordinateurs utilisant des versions de Moniteur réseau qui prédatent la version 2,0.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Si la méthode réussit, la valeur de retour est NMERR \_ Success.
+
+Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
+
+
+
+| Code de retour                                                                                           | Description                                                           |
+|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| <dl> <dt>**NMERR \_ \_ de \_ mémoire insuffisante**</dt> </dl> | La mémoire requise pour traiter cette requête n’était pas disponible.<br/> |
+
+
+
+ 
+
+## <a name="remarks"></a>Notes
+
+Cette méthode peut être appelée à tout moment après l’appel de [CreateNPPInterface](createnppinterface.md) . Un appel à cette méthode est un appel synchrone, qui peut prendre plusieurs secondes pour s’exécuter Moniteur réseau attend que les ordinateurs distants répondent à la requête. Seuls les ordinateurs sur le sous-réseau local peuvent être interrogés.
+
+Il vous incombe d’allouer la mémoire pour la structure [QUERYTABLE](querytable.md) et de libérer de la mémoire une fois que la table n’est plus nécessaire. Cette exigence comprend la mémoire nécessaire pour le tableau [STATIONQUERY](stationquery.md) utilisé dans QUERYTABLE.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                                                               |
+| Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                                                                     |
+| En-tête<br/>                   | <dl> <dt>Netmon. h</dt> </dl>                                                                      |
+| DLL<br/>                      | <dl> <dt>Ndisnpp.dll ; </dt> <dt>Rmtnpp.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[IStats](istats.md)
+</dt> <dt>
+
+[QUERYTABLE](querytable.md)
+</dt> <dt>
+
+[STATIONQUERY](stationquery.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
