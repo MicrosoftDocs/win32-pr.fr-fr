@@ -1,0 +1,30 @@
+---
+title: Syntaxes pour les attributs dans Active Directory Domain Services
+description: Active Directory Domain Services définir un ensemble de syntaxes d’attributs pour spécifier le type de données contenues dans un attribut.
+ms.assetid: 79d27d47-5d03-4ad6-bf97-c387c34fa454
+ms.tgt_platform: multiple
+keywords:
+- Syntaxes pour les attributs de Active Directory Domain Services Active Directory
+- Attributs Active Directory, syntaxes pour
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 04386e1b4981a81585fe208afa4cca6ed02d4c3c
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104101413"
+---
+# <a name="syntaxes-for-attributes-in-active-directory-domain-services"></a><span data-ttu-id="30e80-105">Syntaxes pour les attributs dans Active Directory Domain Services</span><span class="sxs-lookup"><span data-stu-id="30e80-105">Syntaxes for Attributes in Active Directory Domain Services</span></span>
+
+<span data-ttu-id="30e80-106">Active Directory Domain Services définir un ensemble de syntaxes d’attributs pour spécifier le type de données contenues dans un attribut.</span><span class="sxs-lookup"><span data-stu-id="30e80-106">Active Directory Domain Services define a set of attribute syntaxes for specifying the type of data contained by an attribute.</span></span> <span data-ttu-id="30e80-107">Les syntaxes prédéfinies n’apparaissent pas réellement dans le répertoire et vous ne pouvez pas ajouter de nouvelles syntaxes.</span><span class="sxs-lookup"><span data-stu-id="30e80-107">The predefined syntaxes do not actually appear in the directory, and you cannot add new syntaxes.</span></span> <span data-ttu-id="30e80-108">Plusieurs méthodes peuvent être utilisées pour identifier la syntaxe d’une classe d’attributs :</span><span class="sxs-lookup"><span data-stu-id="30e80-108">Several methods can be used to identify the syntax of an attribute class:</span></span>
+
+-   <span data-ttu-id="30e80-109">Les méthodes [**IADs. obten**](/windows/desktop/api/iads/nf-iads-iads-get), [**IADs. GETEX**](/windows/desktop/api/iads/nf-iads-iads-getex), [**IADs. put**](/windows/desktop/api/iads/nf-iads-iads-put)et [**IADs.**](/windows/desktop/api/iads/nf-iads-iads-putex) biais utilisent la structure [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) pour récupérer et définir les valeurs des attributs d’un objet.</span><span class="sxs-lookup"><span data-stu-id="30e80-109">The [**IADs.Get**](/windows/desktop/api/iads/nf-iads-iads-get), [**IADs.GetEx**](/windows/desktop/api/iads/nf-iads-iads-getex), [**IADs.Put**](/windows/desktop/api/iads/nf-iads-iads-put), and [**IADs.PutEx**](/windows/desktop/api/iads/nf-iads-iads-putex) methods use the [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant) structure to get and set the values of an object's attributes.</span></span> <span data-ttu-id="30e80-110">Le membre **VT** de cette structure est une valeur **VarType** qui identifie le type de données.</span><span class="sxs-lookup"><span data-stu-id="30e80-110">The **vt** member of this structure is a **VARTYPE** value that identifies the data type.</span></span>
+-   <span data-ttu-id="30e80-111">Les méthodes des interfaces [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) et [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) utilisent une valeur de l’énumération [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) pour spécifier le type de données.</span><span class="sxs-lookup"><span data-stu-id="30e80-111">The methods of the [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) and [**IDirectorySearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) interfaces use a value from the [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) enumeration to specify the data type.</span></span>
+-   <span data-ttu-id="30e80-112">Pour spécifier la syntaxe d’une nouvelle classe d’attributs, définissez les attributs [**attributeSyntax**](/windows/desktop/ADSchema/a-attributesyntax) et [**oMSyntax**](/windows/desktop/ADSchema/a-omsyntax) d’un objet [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) .</span><span class="sxs-lookup"><span data-stu-id="30e80-112">To specify the syntax of a new attribute class, set the [**attributeSyntax**](/windows/desktop/ADSchema/a-attributesyntax) and [**oMSyntax**](/windows/desktop/ADSchema/a-omsyntax) attributes of an [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) object.</span></span> <span data-ttu-id="30e80-113">Si la valeur de **oMSyntax** est 127, vous devez également définir l’attribut [**oMObjectClass**](/windows/desktop/ADSchema/a-omobjectclass) .</span><span class="sxs-lookup"><span data-stu-id="30e80-113">If the value of **oMSyntax** is 127, you must also set the [**oMObjectClass**](/windows/desktop/ADSchema/a-omobjectclass) attribute.</span></span> <span data-ttu-id="30e80-114">Pour plus d’informations, consultez [choix d’une syntaxe](choosing-a-syntax.md).</span><span class="sxs-lookup"><span data-stu-id="30e80-114">For more information, see [Choosing a Syntax](choosing-a-syntax.md).</span></span>
+
+<span data-ttu-id="30e80-115">Pour obtenir la liste complète des syntaxes fournies par Active Directory Domain Services, y compris les valeurs **VarType** et [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) correspondantes de chaque syntaxe, consultez [syntaxes](/windows/desktop/ADSchema/syntaxes).</span><span class="sxs-lookup"><span data-stu-id="30e80-115">For a complete list of the syntaxes provided by Active Directory Domain Services, including each syntax's corresponding **VARTYPE** and [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) value, see [Syntaxes](/windows/desktop/ADSchema/syntaxes).</span></span>
+
+ 
+
+ 
