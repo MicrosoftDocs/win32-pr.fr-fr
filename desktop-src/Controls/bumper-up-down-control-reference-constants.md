@@ -1,0 +1,26 @@
+---
+title: Constantes Up-Down
+description: Constantes Up-Down
+ms.assetid: e6fc73f6-47ea-4be8-9478-a8174faf6e45
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: fa13760e2618daedbcd391209577a834d2fd02cf
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "103761773"
+---
+# <a name="up-down-constants"></a><span data-ttu-id="2e622-103">Constantes Up-Down</span><span class="sxs-lookup"><span data-stu-id="2e622-103">Up-Down Constants</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="2e622-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="2e622-104">In This Section</span></span>
+
+-   [<span data-ttu-id="2e622-105">Styles de contrôle up-up</span><span class="sxs-lookup"><span data-stu-id="2e622-105">Up-Down Control Styles</span></span>](up-down-control-styles.md)
+
+ 
+
+ 
+
+
+
+

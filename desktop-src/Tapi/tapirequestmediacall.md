@@ -1,0 +1,30 @@
+---
+description: Jamais implémenté dans n’importe quelle version de TAPI. Cette fonction est obsolète et ne doit pas être utilisée.
+ms.assetid: 51db5bf7-debc-4a76-ba55-283fb30ba3ae
+title: tapiRequestMediaCall
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c6e1c3ce83b64ecf2a9346161a6e87d60f18d56c
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "103761498"
+---
+# <a name="tapirequestmediacall"></a><span data-ttu-id="b73a7-104">tapiRequestMediaCall</span><span class="sxs-lookup"><span data-stu-id="b73a7-104">tapiRequestMediaCall</span></span>
+
+<span data-ttu-id="b73a7-105">La fonction **tapiRequestMediaCall** n’a jamais été implémentée dans une version TAPI.</span><span class="sxs-lookup"><span data-stu-id="b73a7-105">The **tapiRequestMediaCall** function was never implemented in any version of TAPI.</span></span> <span data-ttu-id="b73a7-106">Cette fonction est obsolète et ne doit pas être utilisée.</span><span class="sxs-lookup"><span data-stu-id="b73a7-106">This function is obsolete and should not be used.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b73a7-107">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b73a7-107">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b73a7-108">Vue d’ensemble de la référence TAPI 2,2</span><span class="sxs-lookup"><span data-stu-id="b73a7-108">TAPI 2.2 Reference Overview</span></span>](tapi-2-2-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
