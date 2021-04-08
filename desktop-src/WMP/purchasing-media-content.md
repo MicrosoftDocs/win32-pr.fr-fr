@@ -1,0 +1,48 @@
+---
+title: Achat de contenu multimédia
+description: Achat de contenu multimédia
+ms.assetid: df4a3152-f9e3-4a97-b021-6d5e8de9c184
+keywords:
+- Magasins en ligne du lecteur Windows Media, achat de contenu multimédia
+- magasins en ligne, achat de contenu multimédia
+- tapez 1 magasins en ligne, achat de contenu multimédia
+- Magasins en ligne du lecteur Windows Media, achats de contenu multimédia
+- magasins en ligne, achats de contenu multimédia
+- tapez 1 magasins en ligne, achats de contenu multimédia
+- contenu multimédia, achat
+- achat de contenu multimédia
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e420f1dce607e1c596c48490d10bbe8a2a5a5f61
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "103940665"
+---
+# <a name="purchasing-media-content"></a><span data-ttu-id="9bd32-111">Achat de contenu multimédia</span><span class="sxs-lookup"><span data-stu-id="9bd32-111">Purchasing Media Content</span></span>
+
+<span data-ttu-id="9bd32-112">Lorsque le lecteur Windows Media affiche du contenu musical dans l’arborescence de la bibliothèque, l’interface utilisateur comprend des éléments sur lesquels l’utilisateur peut cliquer pour acheter le contenu.</span><span class="sxs-lookup"><span data-stu-id="9bd32-112">When Windows Media Player displays music content in the library tree view, the user interface includes elements that the user can click to buy the content.</span></span> <span data-ttu-id="9bd32-113">Par exemple, l’utilisateur peut cliquer sur un bouton pour acheter une chanson individuelle ou acheter un album entier.</span><span class="sxs-lookup"><span data-stu-id="9bd32-113">For example, the user might click a button to buy an individual song or to buy an entire album.</span></span>
+
+<span data-ttu-id="9bd32-114">Si le magasin en ligne actif est un magasin de type 1, le lecteur Windows Media a accès aux tarifs de suivi, d’album et de liste dans le catalogue du magasin en ligne.</span><span class="sxs-lookup"><span data-stu-id="9bd32-114">If the active online store is a Type 1 store, Windows Media Player has access to track, album, and list prices in the online store's catalog.</span></span> <span data-ttu-id="9bd32-115">Ces prix dans le catalogue sont des chaînes qui ont un format compris uniquement par le magasin en ligne.</span><span class="sxs-lookup"><span data-stu-id="9bd32-115">Those prices in the catalog are strings that have a format understood only by the online store.</span></span> <span data-ttu-id="9bd32-116">Le lecteur Windows Media n’interprète pas les chaînes de prix ; elle les affiche simplement dans des éléments d’interface utilisateur tels que des boutons Acheter.</span><span class="sxs-lookup"><span data-stu-id="9bd32-116">Windows Media Player does not interpret price strings; it merely displays them in user interface elements like Buy buttons.</span></span>
+
+<span data-ttu-id="9bd32-117">Lorsque le lecteur Windows Media configure un achat pour un ensemble d’éléments multimédias, il transmet les ID et les prix des éléments multimédias au plug-in du partenaire de contenu en appelant [IWMPContentPartner :: CanBuySilent](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent).</span><span class="sxs-lookup"><span data-stu-id="9bd32-117">When Windows Media Player sets up a purchase for a set of media items, it passes the IDs and prices of the media items to the content partner plug-in by calling [IWMPContentPartner::CanBuySilent](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-canbuysilent).</span></span> <span data-ttu-id="9bd32-118">À ce stade, le plug-in peut inspecter les prix fournis par le joueur.</span><span class="sxs-lookup"><span data-stu-id="9bd32-118">At that point, the plug-in can inspect the prices provided by the Player.</span></span> <span data-ttu-id="9bd32-119">Il s’agit des prix que l’utilisateur s’attend à payer ; autrement dit, les prix que le joueur affichait à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="9bd32-119">These are the prices that the user expects to pay; that is, the prices that the Player displayed to the user.</span></span> <span data-ttu-id="9bd32-120">En fonction des ID de support et des prix fournis par le joueur, le plug-in calcule un prix total, qu’il renvoie au joueur dans le paramètre *bstrTotalPrice* .</span><span class="sxs-lookup"><span data-stu-id="9bd32-120">Based on the media IDs and prices provided by the Player, the plug-in calculates a total price, which it returns to the Player in the *bstrTotalPrice* parameter.</span></span> <span data-ttu-id="9bd32-121">Les prix que le joueur transmet à **CanBuySilent** fournissent le plug-in avec les informations, mais ils n’obligent pas le plug-in à retourner un prix total donné.</span><span class="sxs-lookup"><span data-stu-id="9bd32-121">The prices that the Player passes to **CanBuySilent** provide the plug-in with information, but they do not obligate the plug-in to return a certain total price.</span></span> <span data-ttu-id="9bd32-122">Le plug-in peut calculer le prix total tel qu’il convient.</span><span class="sxs-lookup"><span data-stu-id="9bd32-122">The plug-in can calculate the total price as it sees fit.</span></span>
+
+<span data-ttu-id="9bd32-123">En plus de calculer le prix total d’un achat, **CanBuySilent** détermine si le purchace peut se poursuivre en mode silencieux. autrement dit, sans afficher de boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="9bd32-123">In addition to calculating the total price of a purchase, **CanBuySilent** determines whether the purchace can proceed silently; that is, without displaying a dialog box.</span></span> <span data-ttu-id="9bd32-124">Si **CanBuySilent** retourne la **valeur true**, le lecteur Windows Media change simplement le texte sur le bouton acheter pour inviter l’utilisateur à confirmer l’achat.</span><span class="sxs-lookup"><span data-stu-id="9bd32-124">If **CanBuySilent** returns **True**, Windows Media Player simply changes the text on the Buy button to prompt the user to confirm the purchase.</span></span> <span data-ttu-id="9bd32-125">Si **CanBuySilent** retourne la **valeur false**, le lecteur Windows Media affiche une boîte de dialogue qui invite l’utilisateur à confirmer l’achat.</span><span class="sxs-lookup"><span data-stu-id="9bd32-125">If **CanBuySilent** returns **False**, Windows Media Player displays a dialog box that prompts the user to confirm the purchase.</span></span> <span data-ttu-id="9bd32-126">La boîte de dialogue fournit à l’utilisateur des informations qui résument le nombre d’albums, le nombre de pistes individuelles et le prix total (tel qu’il est retourné par le plug-in).</span><span class="sxs-lookup"><span data-stu-id="9bd32-126">The dialog box provides the user with information that summarizes the purchase like number of albums, number of individual tracks, and the total price (as returned by the plug-in).</span></span>
+
+<span data-ttu-id="9bd32-127">Une fois que l’utilisateur a confirmé l’achat, le lecteur appelle [IWMPContentPartner :: Buy](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy).</span><span class="sxs-lookup"><span data-stu-id="9bd32-127">After the user confirms the purchase, the Player calls [IWMPContentPartner::Buy](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-buy).</span></span> <span data-ttu-id="9bd32-128">Cet appel de méthode fournit le plug-in avec la même liste de conteneurs de contenu que **CanBuySilent**.</span><span class="sxs-lookup"><span data-stu-id="9bd32-128">This method call provides the plug-in with the same content container list as **CanBuySilent**.</span></span> <span data-ttu-id="9bd32-129">Lors de l’appel de l' **option Acheter**, le lecteur Windows Media fournit également un cookie (simplement une valeur **DWORD** , unique pour la session) que le plug-in peut utiliser pour identifier la transaction.</span><span class="sxs-lookup"><span data-stu-id="9bd32-129">When calling **Buy**, Windows Media Player also provides a cookie (simply a **DWORD** value, unique for the session) that the plug-in can use to identify the transaction.</span></span> <span data-ttu-id="9bd32-130">Une fois la transaction terminée, le plug-in doit appeler [IWMPContentPartnerCallback :: BuyComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete), en passant la valeur de cookie d’origine pour le paramètre *dwBuyCookie* , afin d’informer le lecteur que la transaction est terminée.</span><span class="sxs-lookup"><span data-stu-id="9bd32-130">When the transaction is completed, the plug-in must call [IWMPContentPartnerCallback::BuyComplete](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartnercallback-buycomplete), passing the original cookie value for the *dwBuyCookie* parameter, to notify the Player that the transaction is finished.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="9bd32-131">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="9bd32-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="9bd32-132">**Guide de programmation pour les magasins de type 1 en ligne**</span><span class="sxs-lookup"><span data-stu-id="9bd32-132">**Programming Guide for Type 1 Online Stores**</span></span>](programming-guide-for-type-1-online-stores.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
