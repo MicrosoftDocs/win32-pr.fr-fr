@@ -1,0 +1,85 @@
+---
+title: DDCCISaveCurrentSettings fonction)
+description: Enregistre les paramètres actuels du moniteur dans le stockage non volatile de l’affichage.
+ms.assetid: 293b61d4-36d8-43f4-8800-4dbac3ab11b0
+keywords:
+- Configuration de l’analyse de fonction DDCCISaveCurrentSettings
+topic_type:
+- apiref
+api_name:
+- DDCCISaveCurrentSettings
+api_location:
+- gdi32.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 2de590f63acc11ed49dfcdfab6505733da07b508
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103941929"
+---
+# <a name="ddccisavecurrentsettings-function"></a><span data-ttu-id="87fe3-104">DDCCISaveCurrentSettings fonction)</span><span class="sxs-lookup"><span data-stu-id="87fe3-104">DDCCISaveCurrentSettings function</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="87fe3-105">Cette fonction est utilisée par l’API de configuration de l’analyse pour accéder aux fonctionnalités dans le pilote d’affichage.</span><span class="sxs-lookup"><span data-stu-id="87fe3-105">This function is used by the monitor configuration API to access functionality in the display driver.</span></span> <span data-ttu-id="87fe3-106">Les applications ne doivent pas appeler cette fonction.</span><span class="sxs-lookup"><span data-stu-id="87fe3-106">Applications should not call this function.</span></span>
+
+ 
+
+<span data-ttu-id="87fe3-107">Enregistre les paramètres actuels du moniteur dans le stockage non volatile de l’affichage.</span><span class="sxs-lookup"><span data-stu-id="87fe3-107">Saves the current monitor settings to the display's nonvolatile storage.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="87fe3-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="87fe3-108">Syntax</span></span>
+
+
+```C++
+NTSTATUS WINAPI DDCCISaveCurrentSettings(
+   HANDLE hMonitor
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="87fe3-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="87fe3-109">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="87fe3-110">*hMonitor*</span><span class="sxs-lookup"><span data-stu-id="87fe3-110">*hMonitor*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="87fe3-111">Handle d’une analyse physique.</span><span class="sxs-lookup"><span data-stu-id="87fe3-111">A handle to a physical monitor.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="87fe3-112">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="87fe3-112">Return value</span></span>
+
+<span data-ttu-id="87fe3-113">Si la méthode réussit, elle retourne l' **état \_ Success**.</span><span class="sxs-lookup"><span data-stu-id="87fe3-113">If the method succeeds, it returns **STATUS\_SUCCESS**.</span></span> <span data-ttu-id="87fe3-114">Sinon, elle retourne un code d’erreur **NTSTATUS** .</span><span class="sxs-lookup"><span data-stu-id="87fe3-114">Otherwise, it returns an **NTSTATUS** error code.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="87fe3-115">Notes</span><span class="sxs-lookup"><span data-stu-id="87fe3-115">Remarks</span></span>
+
+<span data-ttu-id="87fe3-116">Les applications doivent appeler [**SaveCurrentSettings**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-savecurrentsettings) au lieu d’appeler cette fonction.</span><span class="sxs-lookup"><span data-stu-id="87fe3-116">Applications should call [**SaveCurrentSettings**](/windows/desktop/api/LowLevelMonitorConfigurationAPI/nf-lowlevelmonitorconfigurationapi-savecurrentsettings) instead of calling this function.</span></span>
+
+<span data-ttu-id="87fe3-117">Cette fonction n’a pas de bibliothèque d’importation associée.</span><span class="sxs-lookup"><span data-stu-id="87fe3-117">This function has no associated import library.</span></span> <span data-ttu-id="87fe3-118">Pour appeler cette fonction, vous devez utiliser les fonctions [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Gdi32.dll.</span><span class="sxs-lookup"><span data-stu-id="87fe3-118">To call this function, you must use the [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) and [**GetProcAddress**](/windows/desktop/api/libloaderapi/nf-libloaderapi-getprocaddress) functions to dynamically link to Gdi32.dll.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="87fe3-119">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="87fe3-119">Requirements</span></span>
+
+
+
+| <span data-ttu-id="87fe3-120">Condition requise</span><span class="sxs-lookup"><span data-stu-id="87fe3-120">Requirement</span></span> | <span data-ttu-id="87fe3-121">Valeur</span><span class="sxs-lookup"><span data-stu-id="87fe3-121">Value</span></span> |
+|-------------------------------------|--------------------------------------------------------------------------------------|
+| <span data-ttu-id="87fe3-122">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="87fe3-122">Minimum supported client</span></span><br/> | <span data-ttu-id="87fe3-123">Applications de \[ Bureau Windows Vista uniquement\]</span><span class="sxs-lookup"><span data-stu-id="87fe3-123">Windows Vista \[desktop apps only\]</span></span><br/>                                       |
+| <span data-ttu-id="87fe3-124">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="87fe3-124">Minimum supported server</span></span><br/> | <span data-ttu-id="87fe3-125">Applications de bureau Windows Server 2008 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="87fe3-125">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                 |
+| <span data-ttu-id="87fe3-126">DLL</span><span class="sxs-lookup"><span data-stu-id="87fe3-126">DLL</span></span><br/>                      | <dl> <span data-ttu-id="87fe3-127"><dt>Gdi32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="87fe3-127"><dt>Gdi32.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="87fe3-128">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="87fe3-128">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="87fe3-129">Surveiller les fonctions de configuration</span><span class="sxs-lookup"><span data-stu-id="87fe3-129">Monitor Configuration Functions</span></span>](monitor-configuration-functions.md)
+</dt> </dl>
+
+ 
+
