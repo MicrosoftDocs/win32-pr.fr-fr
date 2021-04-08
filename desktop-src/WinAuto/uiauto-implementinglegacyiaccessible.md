@@ -1,0 +1,93 @@
+---
+title: Modèle de contrôle LegacyIAccessible
+description: Fournit des instructions et des conventions pour l’utilisation de ILegacyIAccessibleProvider, notamment des informations sur les propriétés, les méthodes et les événements.
+ms.assetid: 4d66b9b8-ddbe-4bbc-b475-72dad1fe9393
+keywords:
+- UI Automation, implémentation du modèle de contrôle LegacyIAccessible
+- UI Automation, modèle de contrôle LegacyIAccessible
+- UI Automation, ILegacyIAccessibleProvider
+- ILegacyIAccessibleProvider
+- implémentation des modèles de contrôle LegacyIAccessible d’UI Automation
+- Modèles de contrôle LegacyIAccessible
+- modèles de contrôle, ILegacyIAccessibleProvider
+- modèles de contrôle, implémenter des LegacyIAccessible UI Automation
+- modèles de contrôle, LegacyIAccessible
+- interfaces, ILegacyIAccessibleProvider
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2cffbd205b072f6f900ea5b5eb5a9f6ddfb5ddc5
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103674317"
+---
+# <a name="legacyiaccessible-control-pattern"></a><span data-ttu-id="43e7f-113">Modèle de contrôle LegacyIAccessible</span><span class="sxs-lookup"><span data-stu-id="43e7f-113">LegacyIAccessible Control Pattern</span></span>
+
+<span data-ttu-id="43e7f-114">Fournit des instructions et des conventions pour l’utilisation de [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider), notamment des informations sur les propriétés, les méthodes et les événements.</span><span class="sxs-lookup"><span data-stu-id="43e7f-114">Describes guidelines and conventions for using [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider), including information about properties, methods, and events.</span></span> <span data-ttu-id="43e7f-115">Le modèle de contrôle **LegacyIAccessible** est pris en charge par Microsoft Active Accessibility au proxy Microsoft UI Automation.</span><span class="sxs-lookup"><span data-stu-id="43e7f-115">The **LegacyIAccessible** control pattern is supported by the Microsoft Active Accessibility to Microsoft UI Automation Proxy.</span></span>
+
+<span data-ttu-id="43e7f-116">Les fournisseurs d’applications et de contrôles n’implémentent jamais l’interface [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider) .</span><span class="sxs-lookup"><span data-stu-id="43e7f-116">Application and control providers never implement the [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider) interface.</span></span>
+
+<span data-ttu-id="43e7f-117">Le modèle de contrôle **LegacyIAccessible** expose l’interface [**IUIAUTOMATIONLEGACYIACCESSIBLEPATTERN**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern) aux clients UI Automation, ce qui leur permet d’accéder à l’implémentation [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) sous-jacente de certains éléments d’interface utilisateur.</span><span class="sxs-lookup"><span data-stu-id="43e7f-117">The **LegacyIAccessible** control pattern exposes the [**IUIAutomationLegacyIAccessiblePattern**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationlegacyiaccessiblepattern) interface to UI Automation clients, enabling them to access the underlying [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) implementation for certain UI elements.</span></span> <span data-ttu-id="43e7f-118">Toutefois, **IUIAutomationLegacyIAccessiblePattern** ne prend pas en charge les méthodes obsolètes ou redondantes avec les fonctionnalités d’UI Automation.</span><span class="sxs-lookup"><span data-stu-id="43e7f-118">However, **IUIAutomationLegacyIAccessiblePattern** does not support methods that are obsolete or that are redundant with the UI Automation features.</span></span>
+
+<span data-ttu-id="43e7f-119">Cette rubrique contient les sections suivantes :</span><span class="sxs-lookup"><span data-stu-id="43e7f-119">This topic contains the following sections:</span></span>
+
+-   [<span data-ttu-id="43e7f-120">Conventions et directives d'implémentation</span><span class="sxs-lookup"><span data-stu-id="43e7f-120">Implementation Guidelines and Conventions</span></span>](#implementation-guidelines-and-conventions)
+-   [<span data-ttu-id="43e7f-121">Membres du modèle de contrôle **LegacyIAccessible**</span><span class="sxs-lookup"><span data-stu-id="43e7f-121">Members of the **LegacyIAccessible** Control Pattern</span></span>](#members-of-the-legacyiaccessible-control-pattern)
+-   [<span data-ttu-id="43e7f-122">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="43e7f-122">Related topics</span></span>](#related-topics)
+
+## <a name="implementation-guidelines-and-conventions"></a><span data-ttu-id="43e7f-123">Conventions et directives d'implémentation</span><span class="sxs-lookup"><span data-stu-id="43e7f-123">Implementation Guidelines and Conventions</span></span>
+
+<span data-ttu-id="43e7f-124">Aucune application ou aucun contrôle n’implémente [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider).</span><span class="sxs-lookup"><span data-stu-id="43e7f-124">No application or control implements [**ILegacyIAccessibleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-ilegacyiaccessibleprovider).</span></span> <span data-ttu-id="43e7f-125">L’infrastructure UI Automation fournit automatiquement l’implémentation du fournisseur pour un serveur Microsoft Active Accessibility natif.</span><span class="sxs-lookup"><span data-stu-id="43e7f-125">The UI Automation framework automatically supplies the provider implementation for a native Microsoft Active Accessibility server.</span></span>
+
+<span data-ttu-id="43e7f-126">Le modèle de contrôle **LegacyIAccessible** n’est pas disponible pour les contrôles basés sur UI Automation.</span><span class="sxs-lookup"><span data-stu-id="43e7f-126">The **LegacyIAccessible** control pattern is not available for controls based on UI Automation.</span></span>
+
+## <a name="members-of-the-legacyiaccessible-control-pattern"></a><span data-ttu-id="43e7f-127">Membres du modèle de contrôle **LegacyIAccessible**</span><span class="sxs-lookup"><span data-stu-id="43e7f-127">Members of the **LegacyIAccessible** Control Pattern</span></span>
+
+<span data-ttu-id="43e7f-128">Les propriétés, méthodes et événements suivants sont des membres du modèle de contrôle **LegacyIAccessible** .</span><span class="sxs-lookup"><span data-stu-id="43e7f-128">The following properties, methods, and events are members of the **LegacyIAccessible** control pattern.</span></span> <span data-ttu-id="43e7f-129">Les notes sont destinées aux clients UI Automation.</span><span class="sxs-lookup"><span data-stu-id="43e7f-129">The notes are for UI Automation clients.</span></span>
+
+
+
+| <span data-ttu-id="43e7f-130">Membres</span><span class="sxs-lookup"><span data-stu-id="43e7f-130">Members</span></span>                                                                        | <span data-ttu-id="43e7f-131">Type de membre</span><span class="sxs-lookup"><span data-stu-id="43e7f-131">Member type</span></span> | <span data-ttu-id="43e7f-132">Notes</span><span class="sxs-lookup"><span data-stu-id="43e7f-132">Notes</span></span>                                                                                                                                |
+|--------------------------------------------------------------------------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="43e7f-133">**ChildId**</span><span class="sxs-lookup"><span data-stu-id="43e7f-133">**ChildId**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_childid)                   | <span data-ttu-id="43e7f-134">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-134">Property</span></span>    | <span data-ttu-id="43e7f-135">Retourne **CHILDID \_ Self** (0) pour un objet non enfant.</span><span class="sxs-lookup"><span data-stu-id="43e7f-135">Returns **CHILDID\_SELF** (0) for a non-child object.</span></span>                                                                                |
+| [<span data-ttu-id="43e7f-136">**Nœud**</span><span class="sxs-lookup"><span data-stu-id="43e7f-136">**DefaultAction**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_defaultaction)       | <span data-ttu-id="43e7f-137">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-137">Property</span></span>    | <span data-ttu-id="43e7f-138">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-138">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-139">**Description**</span><span class="sxs-lookup"><span data-stu-id="43e7f-139">**Description**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_description)           | <span data-ttu-id="43e7f-140">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-140">Property</span></span>    | <span data-ttu-id="43e7f-141">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-141">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-142">**Aide**</span><span class="sxs-lookup"><span data-stu-id="43e7f-142">**Help**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_help)                         | <span data-ttu-id="43e7f-143">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-143">Property</span></span>    | <span data-ttu-id="43e7f-144">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-144">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-145">**KeyboardShortcut**</span><span class="sxs-lookup"><span data-stu-id="43e7f-145">**KeyboardShortcut**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_keyboardshortcut) | <span data-ttu-id="43e7f-146">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-146">Property</span></span>    | <span data-ttu-id="43e7f-147">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-147">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-148">**Nomme**</span><span class="sxs-lookup"><span data-stu-id="43e7f-148">**Name**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_name)                         | <span data-ttu-id="43e7f-149">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-149">Property</span></span>    | <span data-ttu-id="43e7f-150">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-150">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-151">**Rôle**</span><span class="sxs-lookup"><span data-stu-id="43e7f-151">**Role**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_role)                         | <span data-ttu-id="43e7f-152">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-152">Property</span></span>    | <span data-ttu-id="43e7f-153">Utilisez la fonction [**GetRoleText**](/windows/desktop/api/Oleacc/nf-oleacc-getroletexta) pour récupérer une chaîne localisée.</span><span class="sxs-lookup"><span data-stu-id="43e7f-153">Use the [**GetRoleText**](/windows/desktop/api/Oleacc/nf-oleacc-getroletexta) function to retrieve localized string.</span></span>                                                    |
+| [<span data-ttu-id="43e7f-154">**GetSelection**</span><span class="sxs-lookup"><span data-stu-id="43e7f-154">**GetSelection**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-getselection)         | <span data-ttu-id="43e7f-155">Méthode</span><span class="sxs-lookup"><span data-stu-id="43e7f-155">Method</span></span>      | <span data-ttu-id="43e7f-156">Récupère un pointeur d’interface [**IUIAutomationElementArray**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray) .</span><span class="sxs-lookup"><span data-stu-id="43e7f-156">Retrieves an [**IUIAutomationElementArray**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationelementarray) interface pointer.</span></span>                                |
+| [<span data-ttu-id="43e7f-157">**État**</span><span class="sxs-lookup"><span data-stu-id="43e7f-157">**State**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_state)                       | <span data-ttu-id="43e7f-158">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-158">Property</span></span>    | <span data-ttu-id="43e7f-159">Utilisez la fonction [**GetStateText**](/windows/desktop/api/Oleacc/nf-oleacc-getstatetexta) pour récupérer une chaîne localisée.</span><span class="sxs-lookup"><span data-stu-id="43e7f-159">Use the [**GetStateText**](/windows/desktop/api/Oleacc/nf-oleacc-getstatetexta) function to retrieve localized string.</span></span>                                                  |
+| [<span data-ttu-id="43e7f-160">**Valeur**</span><span class="sxs-lookup"><span data-stu-id="43e7f-160">**Value**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-get_value)                       | <span data-ttu-id="43e7f-161">Propriété</span><span class="sxs-lookup"><span data-stu-id="43e7f-161">Property</span></span>    | <span data-ttu-id="43e7f-162">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-162">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-163">**DoDefaultAction**</span><span class="sxs-lookup"><span data-stu-id="43e7f-163">**DoDefaultAction**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-dodefaultaction)   | <span data-ttu-id="43e7f-164">Méthode</span><span class="sxs-lookup"><span data-stu-id="43e7f-164">Method</span></span>      | <span data-ttu-id="43e7f-165">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-165">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-166">**GetIAccessible**</span><span class="sxs-lookup"><span data-stu-id="43e7f-166">**GetIAccessible**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-getiaccessible)     | <span data-ttu-id="43e7f-167">Méthode</span><span class="sxs-lookup"><span data-stu-id="43e7f-167">Method</span></span>      | <span data-ttu-id="43e7f-168">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-168">None</span></span>                                                                                                                                 |
+| [<span data-ttu-id="43e7f-169">**Sélectionner**</span><span class="sxs-lookup"><span data-stu-id="43e7f-169">**Select**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-select)                     | <span data-ttu-id="43e7f-170">Méthode</span><span class="sxs-lookup"><span data-stu-id="43e7f-170">Method</span></span>      | <span data-ttu-id="43e7f-171">L’indicateur de sélection est une valeur Microsoft Active Accessibility **SELFLAG** .</span><span class="sxs-lookup"><span data-stu-id="43e7f-171">The selection flag is a Microsoft Active Accessibility **SELFLAG** value.</span></span> <span data-ttu-id="43e7f-172">Pour plus d’informations, consultez [constantes SELFLAG](selflag.md).</span><span class="sxs-lookup"><span data-stu-id="43e7f-172">For more information, see [SELFLAG Constants](selflag.md).</span></span> |
+| [<span data-ttu-id="43e7f-173">**SetValue**</span><span class="sxs-lookup"><span data-stu-id="43e7f-173">**SetValue**</span></span>](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-ilegacyiaccessibleprovider-setvalue)                 | <span data-ttu-id="43e7f-174">Méthode</span><span class="sxs-lookup"><span data-stu-id="43e7f-174">Method</span></span>      | <span data-ttu-id="43e7f-175">Aucun</span><span class="sxs-lookup"><span data-stu-id="43e7f-175">None</span></span>                                                                                                                                 |
+
+
+
+ 
+
+<span data-ttu-id="43e7f-176">Ce modèle de contrôle n’est associé aucun événement.</span><span class="sxs-lookup"><span data-stu-id="43e7f-176">This control pattern has no associated events.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="43e7f-177">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="43e7f-177">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="43e7f-178">Types de contrôle et leurs modèles de contrôle pris en charge</span><span class="sxs-lookup"><span data-stu-id="43e7f-178">Control Types and Their Supported Control Patterns</span></span>](uiauto-controlpatternmapping.md)
+</dt> <dt>
+
+[<span data-ttu-id="43e7f-179">Vue d'ensemble des modèles de contrôle UI Automation</span><span class="sxs-lookup"><span data-stu-id="43e7f-179">UI Automation Control Patterns Overview</span></span>](uiauto-controlpatternsoverview.md)
+</dt> <dt>
+
+[<span data-ttu-id="43e7f-180">Vue d’ensemble de l’arborescence UI Automation</span><span class="sxs-lookup"><span data-stu-id="43e7f-180">UI Automation Tree Overview</span></span>](uiauto-treeoverview.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
