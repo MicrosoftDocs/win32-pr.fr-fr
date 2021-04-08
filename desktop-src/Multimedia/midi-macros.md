@@ -1,0 +1,38 @@
+---
+title: Macros MIDI
+description: Macros MIDI
+ms.assetid: 64b23c16-cf4e-4b62-bbfc-c81ea4131bfa
+keywords:
+- audio multimédia, macros MIDI
+- audio, macros MIDI
+- MIDI (Musical Instrument Digital Interface), macros
+- MIDI (Musical Instrument Digital Interface), macros
+- référence pour MIDI, macros
+- Référence MIDI, macros
+- Macros MIDI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 359fbbbfff8e3d8003c72fb999c7a55105c608b6
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "103842245"
+---
+# <a name="midi-macros"></a><span data-ttu-id="b5e06-110">Macros MIDI</span><span class="sxs-lookup"><span data-stu-id="b5e06-110">MIDI Macros</span></span>
+
+<span data-ttu-id="b5e06-111">Les macros suivantes sont utilisées avec MIDI.</span><span class="sxs-lookup"><span data-stu-id="b5e06-111">The following macros are used with MIDI.</span></span>
+
+-   [<span data-ttu-id="b5e06-112">**MEVT \_ EVENTPARM**</span><span class="sxs-lookup"><span data-stu-id="b5e06-112">**MEVT\_EVENTPARM**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventparm)
+-   [<span data-ttu-id="b5e06-113">**\_eventType MEVT**</span><span class="sxs-lookup"><span data-stu-id="b5e06-113">**MEVT\_EVENTTYPE**</span></span>](/windows/win32/api/mmeapi/nf-mmeapi-mevt_eventtype)
+
+## <a name="related-topics"></a><span data-ttu-id="b5e06-114">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b5e06-114">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b5e06-115">Informations de référence MIDI</span><span class="sxs-lookup"><span data-stu-id="b5e06-115">MIDI Reference</span></span>](midi-reference.md)
+</dt> </dl>
+
+ 
+
+ 

@@ -1,0 +1,20 @@
+---
+description: Neuf opérations asynchrones sont liées aux téléphones.
+ms.assetid: b255bdde-1677-401f-b02d-4850e0e98dc4
+title: Opérations de téléphone asynchrones
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ba4a70a1d980c4f0d42d5160ee020531b538f488
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103866598"
+---
+# <a name="asynchronous-phone-operations"></a><span data-ttu-id="b18c9-103">Opérations de téléphone asynchrones</span><span class="sxs-lookup"><span data-stu-id="b18c9-103">Asynchronous Phone Operations</span></span>
+
+<span data-ttu-id="b18c9-104">Neuf opérations asynchrones sont liées aux téléphones.</span><span class="sxs-lookup"><span data-stu-id="b18c9-104">There are nine asynchronous operations related to phones.</span></span> <span data-ttu-id="b18c9-105">Celles-ci sont initiées par les fonctions [**TSPI \_ phoneDevSpecific**](/windows/win32/api/tspi/nf-tspi-tspi_phonedevspecific), [**TSPI \_ phoneSetButtonInfo**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetbuttoninfo), [**TSPI \_ phoneSetData**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetdata), [**TSPI \_ phoneSetDisplay**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetdisplay), [**TSPI \_ phoneSetGain**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetgain), [**TSPI \_ phoneSetHookSwitch**](/windows/win32/api/tspi/nf-tspi-tspi_phonesethookswitch), [**TSPI \_ phoneSetLamp**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetlamp), [**TSPI \_ phoneSetRing**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetring)et [**TSPI \_ phoneSetVolume**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetvolume) .</span><span class="sxs-lookup"><span data-stu-id="b18c9-105">These are initiated by the [**TSPI\_phoneDevSpecific**](/windows/win32/api/tspi/nf-tspi-tspi_phonedevspecific), [**TSPI\_phoneSetButtonInfo**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetbuttoninfo), [**TSPI\_phoneSetData**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetdata), [**TSPI\_phoneSetDisplay**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetdisplay), [**TSPI\_phoneSetGain**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetgain), [**TSPI\_phoneSetHookSwitch**](/windows/win32/api/tspi/nf-tspi-tspi_phonesethookswitch), [**TSPI\_phoneSetLamp**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetlamp), [**TSPI\_phoneSetRing**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetring), and [**TSPI\_phoneSetVolume**](/windows/win32/api/tspi/nf-tspi-tspi_phonesetvolume) functions.</span></span> <span data-ttu-id="b18c9-106">Si une application appelle la fonction TAPI [**phoneClose**](/windows/win32/api/tapi/nf-tapi-phoneclose) et a le seul descripteur au téléphone, TAPI appelle la fonction [**TSPI \_ phoneClose**](/windows/win32/api/tspi/nf-tspi-tspi_phoneclose) pour indiquer au fournisseur de services de mettre fin aux opérations asynchrones et appeler la fonction de rappel de la [*\_ procédure d’achèvement*](/windows/win32/api/tspi/nc-tspi-async_completion) .</span><span class="sxs-lookup"><span data-stu-id="b18c9-106">If an application calls the TAPI [**phoneClose**](/windows/win32/api/tapi/nf-tapi-phoneclose) function and has the only handle to the phone, TAPI calls the [**TSPI\_phoneClose**](/windows/win32/api/tspi/nf-tspi-tspi_phoneclose) function to direct the service provider to terminate the asynchronous operations and call the [*Completion\_Proc*](/windows/win32/api/tspi/nc-tspi-async_completion) callback function as appropriate.</span></span> <span data-ttu-id="b18c9-107">Si l’application n’a pas le seul handle vers le téléphone, le fournisseur de services ne reçoit aucune notification de la demande et toutes les opérations asynchrones en suspens restent actives.</span><span class="sxs-lookup"><span data-stu-id="b18c9-107">If the application does not have the only handle to the phone, the service provider receives no notification of the request and any outstanding asynchronous operations remain active.</span></span>
+
+ 
+
+ 
