@@ -1,0 +1,31 @@
+---
+description: Requête de nom de service dans Windows Sockets (Winsock).
+ms.assetid: 94d77f7b-824a-4686-b270-9c662976bbc0
+title: Requête de service
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 951ad1950c0f1d97ab0ca6d06f79ed6ff0180d96
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104034314"
+---
+# <a name="service-query"></a><span data-ttu-id="7b187-103">Requête de service</span><span class="sxs-lookup"><span data-stu-id="7b187-103">Service Query</span></span>
+
+-   [<span data-ttu-id="7b187-104">**NSPLookupServiceBegin**</span><span class="sxs-lookup"><span data-stu-id="7b187-104">**NSPLookupServiceBegin**</span></span>](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicebegin)
+-   [<span data-ttu-id="7b187-105">**NSPLookupServiceNext**</span><span class="sxs-lookup"><span data-stu-id="7b187-105">**NSPLookupServiceNext**</span></span>](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicenext)
+-   [<span data-ttu-id="7b187-106">**NSPLookupServiceEnd**</span><span class="sxs-lookup"><span data-stu-id="7b187-106">**NSPLookupServiceEnd**</span></span>](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupserviceend)
+
+<span data-ttu-id="7b187-107">Une requête de service de nom implique une série d’appels : [**NSPLookupServiceBegin**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicebegin), suivie d’un ou plusieurs appels à [**NSPLookupServiceNext**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicenext) et se terminant par un appel à [**NSPLookupServiceEnd**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupserviceend).</span><span class="sxs-lookup"><span data-stu-id="7b187-107">A name service query involves a series of calls: [**NSPLookupServiceBegin**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicebegin), followed by one or more calls to [**NSPLookupServiceNext**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicenext) and ending with a call to [**NSPLookupServiceEnd**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupserviceend).</span></span> <span data-ttu-id="7b187-108">[**NSPLookupServiceBegin**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicebegin) prend une structure [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) comme entrée afin de définir les paramètres de requête avec un ensemble d’indicateurs pour fournir un contrôle supplémentaire sur l’opération de recherche.</span><span class="sxs-lookup"><span data-stu-id="7b187-108">[**NSPLookupServiceBegin**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicebegin) takes a [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) structure as input in order to define the query parameters along with a set of flags to provide additional control over the search operation.</span></span> <span data-ttu-id="7b187-109">Elle retourne un handle de requête qui est utilisé dans les appels suivants à **NSPLookupServiceNext** et **NSPLookupServiceEnd**.</span><span class="sxs-lookup"><span data-stu-id="7b187-109">It returns a query handle which is used in the subsequent calls to **NSPLookupServiceNext** and **NSPLookupServiceEnd**.</span></span>
+
+<span data-ttu-id="7b187-110">Le client SPI d’espace de noms appelle [**NSPLookupServiceNext**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicenext) pour obtenir les résultats de la requête, avec les résultats fournis dans une mémoire tampon [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) fournie par le client.</span><span class="sxs-lookup"><span data-stu-id="7b187-110">The namespace SPI client invokes [**NSPLookupServiceNext**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupservicenext) to obtain query results, with results supplied in an client-supplied [**WSAQUERYSET**](/windows/desktop/api/Winsock2/ns-winsock2-wsaquerysetw) buffer.</span></span> <span data-ttu-id="7b187-111">Le client continue d’appeler **NSPLookupServiceNext** jusqu’à ce que le code d’erreur « wsa \_ E » \_ \_ soit retourné, indiquant que tous les résultats ont été récupérés.</span><span class="sxs-lookup"><span data-stu-id="7b187-111">The client continues to call **NSPLookupServiceNext** until the error code WSA\_E\_NO\_MORE is returned indicating that all results have been retrieved.</span></span> <span data-ttu-id="7b187-112">La recherche est ensuite terminée par un appel à [**NSPLookupServiceEnd**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupserviceend).</span><span class="sxs-lookup"><span data-stu-id="7b187-112">The search is then terminated by a call to [**NSPLookupServiceEnd**](/windows/desktop/api/Ws2spi/nc-ws2spi-lpnsplookupserviceend).</span></span> <span data-ttu-id="7b187-113">La fonction **NSPLookupServiceEnd** peut également être utilisée pour annuler un **NSPLookupServiceNext** actuellement en attente en cas d’appel à partir d’un autre thread.</span><span class="sxs-lookup"><span data-stu-id="7b187-113">The **NSPLookupServiceEnd** function can also be used to cancel a currently pending **NSPLookupServiceNext** when called from another thread.</span></span>
+
+<span data-ttu-id="7b187-114">Dans Windows Sockets 2, les codes d’erreur en conflit sont définis pour WSAENOMORE (10102) et WSA \_ E \_ \_ (10110).</span><span class="sxs-lookup"><span data-stu-id="7b187-114">In Windows Sockets 2, conflicting error codes are defined for WSAENOMORE (10102) and WSA\_E\_NO\_MORE (10110).</span></span> <span data-ttu-id="7b187-115">Le code d’erreur WSAENOMORE sera supprimé dans une version ultérieure et seul le WSA \_ E ne \_ \_ sera pas conservé.</span><span class="sxs-lookup"><span data-stu-id="7b187-115">The error code WSAENOMORE will be removed in a future version and only WSA\_E\_NO\_MORE will remain.</span></span> <span data-ttu-id="7b187-116">Les fournisseurs d’espaces de noms doivent passer à l’utilisation du WSA \_ E \_ \_ plus de code d’erreur dès que possible pour maintenir la compatibilité avec la plus grande plage possible d’applications.</span><span class="sxs-lookup"><span data-stu-id="7b187-116">Namespace providers should switch to using the WSA\_E\_NO\_MORE error code as soon as possible to maintain compatibility with the widest possible range of applications.</span></span>
+
+ 
+
+ 
+
+
+
