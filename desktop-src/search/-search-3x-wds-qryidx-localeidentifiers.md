@@ -1,0 +1,56 @@
+---
+description: Les identificateurs InputLocale et keywordlocale aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des requêtes entrées par l’utilisateur et la langue des mots clés de syntaxe de requête avancée.
+ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
+title: Arguments de l’identificateur de paramètres régionaux (Windows Search)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cea1549a550e4bf6b8099241a6f3d2275860a983
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103862181"
+---
+# <a name="locale-identifier-arguments-windows-search"></a>Arguments de l’identificateur de paramètres régionaux (Windows Search)
+
+Les `inputlocale` `keywordlocale` identificateurs et aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des requêtes entrées par l’utilisateur et la langue des mots clés de syntaxe de requête avancée. Ce ne sont pas toujours les mêmes identificateurs de code de langue (LCID), car la recherche Windows est proposée dans plusieurs versions internationales et comprend également des packs MUI pour d’autres langues. La fonction InputLocale identifie le LCID pour le langage que les utilisateurs saisissent dans la requête de recherche, tandis que le keywordlocale identifie le LCID que le moteur de recherche utilise pour les mots clés.
+
+Cette rubrique est organisée comme suit :
+
+-   [Exemple](#example)
+-   [Rubriques connexes](#related-topics)
+
+## <a name="example"></a>Exemple
+
+
+```
+ search-ms:query=matthew&inputlocale=2072&keywordlocale=1033
+```
+
+
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Prise en main avec des arguments Parameter-Value](getting-started-with-parameter-value-arguments.md)
+</dt> <dt>
+
+[Argument de navigation](-search-3x-wds-qryidx-crumb.md)
+</dt> <dt>
+
+[Argument de syntaxe](-search-3x-wds-qryidx-syntaxargument.md)
+</dt> <dt>
+
+[Argument STACKEDBY](-search-3x-wds-qryidx-stackedby.md)
+</dt> <dt>
+
+[Argument de sous-requête](-search-3x-wds-qryidx-subquery.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
