@@ -1,0 +1,97 @@
+---
+title: String. Symbol, propriété
+description: Représente le nom d’une ressource de type chaîne.
+ms.assetid: 7c1d0197-2c9b-4f42-afba-73fd1c366deb
+keywords:
+- Propriété String. Symbol, ruban Windows
+topic_type:
+- apiref
+api_name:
+- String.Symbol
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: e7bf7d30ddd8677b1c5ff0a5e55d4b9c119795ab
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "103843173"
+---
+# <a name="stringsymbol-property"></a>String. Symbol, propriété
+
+Représente le nom d’une ressource de type chaîne.
+
+## <a name="usage"></a>Utilisation
+
+``` syntax
+<String.Symbol/>
+```
+
+## <a name="attributes"></a>Attributs
+
+Il n’y a pas d’attributs.
+
+## <a name="child-elements"></a>Éléments enfants
+
+Il n’y a pas d’éléments enfants.
+
+## <a name="parent-elements"></a>Éléments parents
+
+
+
+| Élément                                                   |
+|-----------------------------------------------------------|
+| [**String**](windowsribbon-element-string.md)<br/> |
+
+
+
+## <a name="remarks"></a>Notes
+
+Optionnel.
+
+Peut se produire au plus une fois pour chaque élément de [**chaîne**](windowsribbon-element-string.md) .
+
+Le symbole est associé à une définition de chaîne dans le fichier d’en-tête du ruban, par exemple `#define strSave 59999` .
+
+Cet élément contient une valeur de type *XS : String*. La valeur est conformée en une chaîne composée d’une lettre ou d’un trait de soulignement suivi d’une séquence de lettres, de chiffres ou de traits de soulignement.
+
+La longueur maximale est de 100 caractères.
+
+## <a name="examples"></a>Exemples
+
+L’exemple suivant illustre le balisage pour un élément [**Command. LabelTitle**](windowsribbon-element-command-labeltitle.md) avec une déclaration **String. Symbol** .
+
+
+```XML
+<Command.LabelTitle>
+  <String>
+    <String.Content>Label for Save</String.Content>
+    <String.Id>59999</String.Id>
+    <String.Symbol>strSave</String.Symbol>
+  </String>
+</Command.LabelTitle>
+```
+
+
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
