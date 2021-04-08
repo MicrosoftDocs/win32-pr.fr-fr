@@ -1,0 +1,46 @@
+---
+title: Fonctions du gestionnaire de redémarrage
+description: L’API du gestionnaire de redémarrage utilise les fonctions identifiées dans le tableau suivant.
+ms.assetid: ed39695a-1eb6-42fe-87a0-bd690bbce028
+keywords:
+- Restart Manager restart Mgr, référence, fonctions
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 33187bff8522bfa347dc852f2cac157c2c3966a5
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103839850"
+---
+# <a name="restart-manager-functions"></a><span data-ttu-id="48cf7-104">Fonctions du gestionnaire de redémarrage</span><span class="sxs-lookup"><span data-stu-id="48cf7-104">Restart Manager Functions</span></span>
+
+<span data-ttu-id="48cf7-105">L’API du gestionnaire de redémarrage utilise les fonctions identifiées dans le tableau suivant.</span><span class="sxs-lookup"><span data-stu-id="48cf7-105">The Restart Manager API uses the functions identified in the following table.</span></span>
+
+
+
+| <span data-ttu-id="48cf7-106">Fonction</span><span class="sxs-lookup"><span data-stu-id="48cf7-106">Function</span></span>                                           | <span data-ttu-id="48cf7-107">Description</span><span class="sxs-lookup"><span data-stu-id="48cf7-107">Description</span></span>                                                                                                                                                                                  |
+|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="48cf7-108">**RmAddFilter**</span><span class="sxs-lookup"><span data-stu-id="48cf7-108">**RmAddFilter**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmaddfilter)                 | <span data-ttu-id="48cf7-109">Modifie les actions d’arrêt ou de redémarrage.</span><span class="sxs-lookup"><span data-stu-id="48cf7-109">Modifies shutdown or restart actions.</span></span>                                                                                                                                                        |
+| [<span data-ttu-id="48cf7-110">**RmStartSession**</span><span class="sxs-lookup"><span data-stu-id="48cf7-110">**RmStartSession**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmstartsession)           | <span data-ttu-id="48cf7-111">Démarre une nouvelle session du gestionnaire de redémarrage.</span><span class="sxs-lookup"><span data-stu-id="48cf7-111">Starts a new Restart Manager session.</span></span>                                                                                                                                                        |
+| [<span data-ttu-id="48cf7-112">**RmJoinSession**</span><span class="sxs-lookup"><span data-stu-id="48cf7-112">**RmJoinSession**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmjoinsession)             | <span data-ttu-id="48cf7-113">Joint le processus d’une application à une session de gestionnaire de redémarrage existante.</span><span class="sxs-lookup"><span data-stu-id="48cf7-113">Joins the process of an application to an existing Restart Manager session.</span></span>                                                                                                                  |
+| [<span data-ttu-id="48cf7-114">**RmEndSession**</span><span class="sxs-lookup"><span data-stu-id="48cf7-114">**RmEndSession**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmendsession)               | <span data-ttu-id="48cf7-115">Met fin à la session du gestionnaire de redémarrage.</span><span class="sxs-lookup"><span data-stu-id="48cf7-115">Ends the Restart Manager session.</span></span>                                                                                                                                                            |
+| [<span data-ttu-id="48cf7-116">**RmRegisterResources**</span><span class="sxs-lookup"><span data-stu-id="48cf7-116">**RmRegisterResources**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmregisterresources) | <span data-ttu-id="48cf7-117">Inscrit des ressources, telles que des noms de fichiers, des noms courts de service ou des structures de [**\_ \_ processus uniques RM**](/windows/desktop/api/RestartManager/ns-restartmanager-rm_unique_process) , dans une session du gestionnaire de redémarrage.</span><span class="sxs-lookup"><span data-stu-id="48cf7-117">Registers resources, such as filenames, service short names, or [**RM\_UNIQUE\_PROCESS**](/windows/desktop/api/RestartManager/ns-restartmanager-rm_unique_process) structures, to a Restart Manager session.</span></span>                                   |
+| [<span data-ttu-id="48cf7-118">**RmGetList**</span><span class="sxs-lookup"><span data-stu-id="48cf7-118">**RmGetList**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist)                     | <span data-ttu-id="48cf7-119">Utilisé par les programmes d’installation pour obtenir la liste de toutes les applications affectées par les ressources inscrites et leur état actuel.</span><span class="sxs-lookup"><span data-stu-id="48cf7-119">Used by installers to get a list of all applications affected by registered resources and their current status.</span></span>                                                                              |
+| [<span data-ttu-id="48cf7-120">**RmGetFilterList**</span><span class="sxs-lookup"><span data-stu-id="48cf7-120">**RmGetFilterList**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmgetfilterlist)         | <span data-ttu-id="48cf7-121">Interroge l’état des modifications d’arrêt et de redémarrage qui ont déjà été appliquées.</span><span class="sxs-lookup"><span data-stu-id="48cf7-121">Queries the status of shutdown and restart modifications that have already been applied.</span></span>                                                                                                     |
+| [<span data-ttu-id="48cf7-122">**RmShutdown**</span><span class="sxs-lookup"><span data-stu-id="48cf7-122">**RmShutdown**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown)                   | <span data-ttu-id="48cf7-123">Lance l’arrêt des applications et des services.</span><span class="sxs-lookup"><span data-stu-id="48cf7-123">Initiates the shut down of applications and services.</span></span>                                                                                                                                        |
+| [<span data-ttu-id="48cf7-124">**RmRemoveFilter**</span><span class="sxs-lookup"><span data-stu-id="48cf7-124">**RmRemoveFilter**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmremovefilter)           | <span data-ttu-id="48cf7-125">Supprime les modifications d’arrêt et de redémarrage qui ont déjà été appliquées.</span><span class="sxs-lookup"><span data-stu-id="48cf7-125">Removes shutdown and restart modifications that have already been applied.</span></span>                                                                                                                   |
+| [<span data-ttu-id="48cf7-126">**RmRestart**</span><span class="sxs-lookup"><span data-stu-id="48cf7-126">**RmRestart**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart)                     | <span data-ttu-id="48cf7-127">Redémarre les applications et les services qui ont été arrêtés par la fonction [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown) et qui ont été inscrits pour le redémarrage à l’aide de **RegisterApplicationRestart**.</span><span class="sxs-lookup"><span data-stu-id="48cf7-127">Restarts applications and services that have been shut down by the [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown) function and that have been registered for restart using **RegisterApplicationRestart**.</span></span> |
+| [<span data-ttu-id="48cf7-128">**RmCancelCurrentTask**</span><span class="sxs-lookup"><span data-stu-id="48cf7-128">**RmCancelCurrentTask**</span></span>](/windows/desktop/api/RestartManager/nf-restartmanager-rmcancelcurrenttask) | <span data-ttu-id="48cf7-129">Annule la fonction [**RmGetList**](/windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist), [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown)ou [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart) actuelle.</span><span class="sxs-lookup"><span data-stu-id="48cf7-129">Cancels the current [**RmGetList**](/windows/desktop/api/RestartManager/nf-restartmanager-rmgetlist), [**RmShutdown**](/windows/desktop/api/RestartManager/nf-restartmanager-rmshutdown), or [**RmRestart**](/windows/desktop/api/RestartManager/nf-restartmanager-rmrestart) function.</span></span>                                                            |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
