@@ -1,0 +1,84 @@
+---
+description: Arrêter la capture des modifications d’état des paramètres d’effet.
+ms.assetid: b6ca2917-2df0-4f3a-9ee3-23e9d2501ff4
+title: 'ID3DXEffect :: EndParameterBlock, méthode (D3DX9Effect. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ID3DXEffect.EndParameterBlock
+api_type:
+- COM
+api_location:
+- D3dx9.lib
+- D3dx9.dll
+ms.openlocfilehash: 3359e3b923d05e003ffbda18791e497d18ba627e
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "103953870"
+---
+# <a name="id3dxeffectendparameterblock-method"></a>ID3DXEffect :: EndParameterBlock, méthode
+
+Arrêter la capture des modifications d’état des paramètres d’effet.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+D3DXHANDLE EndParameterBlock();
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+Cette méthode n’a aucun paramètre.
+
+## <a name="return-value"></a>Valeur retournée
+
+Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
+
+Retourne un handle vers le bloc d’État du paramètre.
+
+## <a name="remarks"></a>Notes
+
+Tous les paramètres d’effet qui changent d’État (après l’appel de BeginParameterBlock et avant l’appel de EndParameterBlock) sont enregistrés dans un bloc d’état de paramètre d’effet. Utilisez ApplyParameterBlock pour appliquer ce bloc de modifications d’État au système d’effet. Une fois que vous avez fini d’utiliser un bloc d’État, utilisez DeleteParameterBlock pour libérer de la mémoire.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>D3DX9Effect. h</dt> </dl> |
+| Bibliothèque<br/> | <dl> <dt>D3dx9. lib</dt> </dl>     |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[ID3DXEffect](id3dxeffect.md)
+</dt> <dt>
+
+[**ID3DXEffect::BeginParameterBlock**](id3dxeffect--beginparameterblock.md)
+</dt> <dt>
+
+[**ID3DXEffect::ApplyParameterBlock**](id3dxeffect--applyparameterblock.md)
+</dt> <dt>
+
+[**ID3DXEffect ::D eleteParameterBlock**](id3dxeffect--deleteparameterblock.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,27 @@
+---
+description: L’interface IX509EnrollmentPolicyServer expose les propriétés suivantes.
+ms.assetid: 09488403-1186-4E3C-8D1F-8A4DEC132129
+title: Propriétés IX509EnrollmentPolicyServer
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 4f357fe8f44dcd4f92f7047677d0038054a0f5e0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103952999"
+---
+# <a name="ix509enrollmentpolicyserver-properties"></a>Propriétés IX509EnrollmentPolicyServer
+
+L’interface [**IX509EnrollmentPolicyServer**](/windows/desktop/api/Certenroll/nn-certenroll-ix509enrollmentpolicyserver) expose les propriétés suivantes.
+
+## <a name="in-this-section"></a>Dans cette section
+
+-   [**Cost, propriété**](/windows/desktop/api/Certenroll/nf-certenroll-ix509enrollmentpolicyserver-get_cost)
+
+ 
+
+ 
+
+
+
