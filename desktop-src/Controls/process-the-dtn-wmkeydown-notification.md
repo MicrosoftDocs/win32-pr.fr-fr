@@ -1,0 +1,85 @@
+---
+title: Comment traiter la notification de DTN_WMKEYDOWN
+description: Cette rubrique montre comment traiter une notification DTN \_ WMKEYDOWN. La gestion de ce code de notification permet au propriétaire du contrôle de fournir des réponses spécifiques aux séquences de touches dans les champs de rappel du contrôle.
+ms.assetid: CD521C62-CF52-4FFF-A598-E5EBA34471FB
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cec97ffc5853743c357081b974d155ee0e0977d1
+ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/04/2020
+ms.locfileid: "103842909"
+---
+# <a name="how-to-process-the-dtn_wmkeydown-notification"></a>Comment traiter la notification DTN \_ WMKEYDOWN
+
+Cette rubrique montre comment traiter une notification [DTN \_ WMKEYDOWN](dtn-wmkeydown.md) . La gestion de ce code de notification permet au propriétaire du contrôle de fournir des réponses spécifiques aux séquences de touches dans les champs de rappel du contrôle.
+
+## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+
+### <a name="technologies"></a>Technologies
+
+-   [Contrôles Windows](window-controls.md)
+
+### <a name="prerequisites"></a>Prérequis
+
+-   C/C++
+-   Programmation de l’interface utilisateur Windows
+
+## <a name="instructions"></a>Instructions
+
+
+Les contrôles de sélecteur de date et d’heure (PAO) envoient le message [DTN \_ WMKEYDOWN](dtn-wmkeydown.md) pour signaler que l’utilisateur a entré une entrée dans un champ de rappel. Si vous souhaitez émuler les mêmes réponses de clavier que celles prises en charge pour les champs de PAO standard ou fournir des réponses personnalisées, votre application doit inclure du code pour gérer cette notification.
+
+L’exemple de code C++ suivant est une fonction définie par l’application qui traite la notification [ \_ WMKEYDOWN DTN](dtn-wmkeydown.md) .
+
+**Avertissement de sécurité :** L’utilisation incorrecte de **lstrcmp** peut compromettre la sécurité de votre application. Par exemple, avant d’appeler **lstrcmp** dans l’exemple de code suivant, vous devez vous assurer que les deux chaînes se terminent par un caractère null. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
+
+
+
+```C++
+//  DoWMKeydown increments or decrements the day of month according 
+//  to user keyboard input.
+
+void WINAPI DoWMKeydown(
+ HWND hwndDP,
+ LPNMDATETIMEWMKEYDOWN lpDTKeystroke)
+{
+    int delta =1;
+    if(!lstrcmp(lpDTKeystroke->pszFormat,L"XX")){
+        switch(lpDTKeystroke->nVirtKey){
+            case VK_DOWN:
+            case VK_SUBTRACT:
+                delta = -1;  // fall through
+
+            case VK_UP:
+            case VK_ADD:
+                lpDTKeystroke->st.wDay += (WORD) delta;
+                break;
+        }
+    }
+}
+```
+
+
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Utilisation des contrôles de sélecteur de date et heure](using-date-and-time-picker.md)
+</dt> <dt>
+
+[Référence de contrôle de sélecteur de date et heure](bumper-date-and-time-picker-date-and-time-picker-control-reference.md)
+</dt> <dt>
+
+[Sélecteur de date et heure](date-and-time-picker-control-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
