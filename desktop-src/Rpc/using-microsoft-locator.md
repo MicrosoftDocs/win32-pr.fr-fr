@@ -1,0 +1,44 @@
+---
+title: Utilisation de Microsoft Locator
+description: Le localisateur Microsoft est le service de nom par défaut. La bibliothèque Runtime RPC l’utilise pour rechercher des programmes serveur sur les systèmes hôtes serveur.
+ms.assetid: 8481de50-4e72-432d-aef7-524f18f5c9c4
+keywords:
+- Appel de procédure distante RPC, tâches, à l’aide de Microsoft Locator
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 236dce18b9286150581af925935222f3c9b3f862
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103840021"
+---
+# <a name="using-microsoft-locator"></a><span data-ttu-id="3ca59-105">Utilisation de Microsoft Locator</span><span class="sxs-lookup"><span data-stu-id="3ca59-105">Using Microsoft Locator</span></span>
+
+<span data-ttu-id="3ca59-106">Le localisateur Microsoft est le service de nom par défaut.</span><span class="sxs-lookup"><span data-stu-id="3ca59-106">Microsoft Locator is the default name service.</span></span> <span data-ttu-id="3ca59-107">La bibliothèque Runtime RPC l’utilise pour rechercher des programmes serveur sur les systèmes hôtes serveur.</span><span class="sxs-lookup"><span data-stu-id="3ca59-107">The RPC run-time library uses it to find server programs on server host systems.</span></span>
+
+<span data-ttu-id="3ca59-108">**Remarque**    Le localisateur Microsoft RPC n’est pas pris en charge dans Windows Vista et les systèmes d’exploitation ultérieurs.</span><span class="sxs-lookup"><span data-stu-id="3ca59-108">**Note**  Microsoft RPC locator is not supported in Windows Vista and later operating systems.</span></span>
+
+<span data-ttu-id="3ca59-109">Avant Windows 2000, le localisateur Microsoft ne fournissait pas d’entrées de service de noms persistantes.</span><span class="sxs-lookup"><span data-stu-id="3ca59-109">Prior to Windows 2000, Microsoft Locator did not provide persistent name service entries.</span></span> <span data-ttu-id="3ca59-110">Toutes les entrées dans le service de noms ont été stockées dans un cache mémoire sur l’ordinateur hôte du programme serveur.</span><span class="sxs-lookup"><span data-stu-id="3ca59-110">All entries in the name service were stored in a memory cache on the server program's host computer.</span></span> <span data-ttu-id="3ca59-111">Le localisateur a utilisé un mécanisme de diffusion pour découvrir l’emplacement des serveurs demandés par les clients.</span><span class="sxs-lookup"><span data-stu-id="3ca59-111">The locator used a broadcast mechanism to discover the location of servers as requested by clients.</span></span> <span data-ttu-id="3ca59-112">Chaque fois que le système hôte s’arrête, toutes les entrées de service de noms ont été perdues.</span><span class="sxs-lookup"><span data-stu-id="3ca59-112">Whenever the host system shut down, all name service entries were lost.</span></span>
+
+<span data-ttu-id="3ca59-113">Depuis la sortie de Windows 2000, Microsoft Locator prend désormais en charge les entrées de service de noms persistantes.</span><span class="sxs-lookup"><span data-stu-id="3ca59-113">Beginning with the release of Windows 2000, Microsoft Locator now supports persistent name service entries.</span></span> <span data-ttu-id="3ca59-114">Pour ce faire, le système utilise un service d’annuaire distribué pour stocker les entrées de service de noms.</span><span class="sxs-lookup"><span data-stu-id="3ca59-114">To accomplish this, the system employs a distributed directory service to store name service entries.</span></span> <span data-ttu-id="3ca59-115">Ce mécanisme présente plusieurs avantages :</span><span class="sxs-lookup"><span data-stu-id="3ca59-115">This mechanism has several advantages:</span></span>
+
+-   <span data-ttu-id="3ca59-116">**Persistance.**</span><span class="sxs-lookup"><span data-stu-id="3ca59-116">**Persistence.**</span></span> <span data-ttu-id="3ca59-117">Les programmes serveur ne sont plus nécessaires pour exporter leurs informations de liaison vers le service de noms à chaque démarrage.</span><span class="sxs-lookup"><span data-stu-id="3ca59-117">Server programs are no longer required to export their binding information to the name service each time they start up.</span></span> <span data-ttu-id="3ca59-118">Le service de noms stocke désormais les informations jusqu’à ce que le programme serveur de l’administrateur réseau le supprime explicitement.</span><span class="sxs-lookup"><span data-stu-id="3ca59-118">The name service now stores the information until the server program on the network administrator explicitly removes it.</span></span>
+-   <span data-ttu-id="3ca59-119">**Performance.**</span><span class="sxs-lookup"><span data-stu-id="3ca59-119">**Efficiency.**</span></span> <span data-ttu-id="3ca59-120">En éliminant la majorité de la diffusion pour les entrées de service de nom, le localisateur réduit le trafic réseau.</span><span class="sxs-lookup"><span data-stu-id="3ca59-120">By eliminating the majority of broadcasting for name service entries, the locator reduces network traffic.</span></span> <span data-ttu-id="3ca59-121">Il recherche également les entrées de service de nom plus rapidement.</span><span class="sxs-lookup"><span data-stu-id="3ca59-121">It also finds name service entries more rapidly.</span></span>
+-   <span data-ttu-id="3ca59-122">**Interopérabilité inter-domaines.**</span><span class="sxs-lookup"><span data-stu-id="3ca59-122">**Cross-Domain Interoperability.**</span></span> <span data-ttu-id="3ca59-123">Les clients sont désormais en mesure d’effectuer des requêtes de service de noms sur plusieurs domaines.</span><span class="sxs-lookup"><span data-stu-id="3ca59-123">Clients are now able to make name service requests across multiple domains.</span></span>
+
+<span data-ttu-id="3ca59-124">Les versions actuelles de Microsoft Locator sont à compatibilité descendante.</span><span class="sxs-lookup"><span data-stu-id="3ca59-124">Current versions of Microsoft Locator are backward compatible.</span></span> <span data-ttu-id="3ca59-125">Par exemple, un système hôte serveur exécutant le localisateur fourni avec Windows 2000 peut fonctionner correctement sur un réseau qui contient des systèmes hôtes serveur exécutant le localisateur fourni avec Windows NT 4,0.</span><span class="sxs-lookup"><span data-stu-id="3ca59-125">For instance, a server host system running the locator that ships with Windows 2000 can operate correctly on a network that contains server host systems running the locator that ships with Windows NT 4.0.</span></span>
+
+<span data-ttu-id="3ca59-126">Avec la sortie de Windows 2000, Microsoft Locator prend désormais en charge les entrées de service de nom pour les groupes d’utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="3ca59-126">With the release of Windows 2000, Microsoft Locator now supports name service entries for groups of users.</span></span> <span data-ttu-id="3ca59-127">Il offre également la possibilité de créer des profils utilisateur.</span><span class="sxs-lookup"><span data-stu-id="3ca59-127">It also provides the ability for you to create user profiles.</span></span>
+
+<span data-ttu-id="3ca59-128">En outre, la version actuelle de Microsoft Locator prend en charge l’utilisation de listes de Access Control dans les entrées de service de nom.</span><span class="sxs-lookup"><span data-stu-id="3ca59-128">In addition, the current version of Microsoft Locator supports the use of Access Control Lists in name service entries.</span></span> <span data-ttu-id="3ca59-129">Cette capacité améliore la sécurité du réseau.</span><span class="sxs-lookup"><span data-stu-id="3ca59-129">This ability enhances the security of the network.</span></span>
+
+<span data-ttu-id="3ca59-130">La prise en charge de Plug-and-Play est désormais incluse dans le localisateur Microsoft.</span><span class="sxs-lookup"><span data-stu-id="3ca59-130">Plug and Play support is now included in Microsoft Locator.</span></span> <span data-ttu-id="3ca59-131">Par conséquent, il peut gérer en toute transparence les événements de Plug-and-Play, tels que les modifications de domaine.</span><span class="sxs-lookup"><span data-stu-id="3ca59-131">Therefore, it can transparently handle Plug and Play events such as domain changes.</span></span> <span data-ttu-id="3ca59-132">Pour plus d’informations, consultez [**RpcNsBindingExportPnP**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa) et [**RpcNsBindingUnexportPnP**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa).</span><span class="sxs-lookup"><span data-stu-id="3ca59-132">For more information, see [**RpcNsBindingExportPnP**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingexportpnpa) and [**RpcNsBindingUnexportPnP**](/windows/desktop/api/Rpcnsi/nf-rpcnsi-rpcnsbindingunexportpnpa).</span></span>
+
+ 
+
+ 
+
+
+
+
