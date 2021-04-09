@@ -1,0 +1,433 @@
+---
+description: Renomme un ordinateur.
+ms.assetid: 9d338ebe-caf0-42c4-995f-fd750e5664df
+ms.tgt_platform: multiple
+title: Renommer la méthode de la classe Win32_ComputerSystem
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_ComputerSystem.Rename
+api_type:
+- COM
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: 2ca60021c921e47de3c7afd5b8ee0bb2ea5e6d12
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104033591"
+---
+# <a name="rename-method-of-the-win32_computersystem-class"></a>Renommer la méthode de la \_ classe Win32 ComputerSystem
+
+La méthode **Rename** renomme un ordinateur.
+
+Cette rubrique utilise la syntaxe format MOF (MOF). Pour plus d’informations sur l’utilisation de cette méthode, consultez [appel d’une méthode](/windows/desktop/WmiSdk/calling-a-method).
+
+## <a name="syntax"></a>Syntaxe
+
+
+```mof
+uint32 Rename(
+  [in] string Name,
+  [in] string Password,
+  [in] string UserName
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*Nom* \[ dans\]
+</dt> <dd>
+
+Nouveau nom d’ordinateur. La valeur de ce paramètre ne peut pas inclure des caractères de contrôle, des espaces de début ou de fin, ou l’un des caractères suivants:/ \\ \\ \[ \] .
+
+</dd> <dt>
+
+*Mot de passe* \[ dans\]
+</dt> <dd>
+
+Mot de passe à utiliser lors de la connexion au contrôleur de domaine si le paramètre de *nom d’utilisateur* spécifie un nom de compte. Dans le cas contraire, ce paramètre doit avoir la **valeur null**. Pour plus d’informations sur les paramètres de *nom d’utilisateur* et de *mot de passe* , consultez la section Remarques de cette rubrique.
+
+</dd> <dt>
+
+*Nom d’utilisateur* \[ dans\]
+</dt> <dd>
+
+Chaîne qui spécifie le nom du compte à utiliser lors de la connexion au contrôleur de domaine. La chaîne doit se terminer par un caractère **null** et doit spécifier un nom de domaine NetBIOS et un compte d’utilisateur, par exemple, « nom_domaine \\ nom_utilisateur » ou « someone@domainname.com », qui est un nom d’utilisateur principal (UPN). Si le paramètre **username** a la **valeur null**, WMI utilise le contexte de l’appelant. Pour plus d’informations sur les paramètres de *nom d’utilisateur* et de *mot de passe* , consultez la section Remarques de cette rubrique.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Retourne une valeur 0 (zéro) en cas de réussite. Une valeur de retour différente de zéro indique une erreur. En cas de réussite, un redémarrage est nécessaire. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
+
+<dl> <dt>
+
+**Opération réussie** (0)
+</dt> <dt>
+
+**Autre** (1 4294967295)
+</dt> </dl>
+
+## <a name="remarks"></a>Notes
+
+Vous pouvez utiliser la méthode **Rename** pour renommer un ordinateur si vous êtes membre du groupe Administrateurs local. Toutefois, vous ne pouvez pas utiliser la méthode à distance pour les ordinateurs du domaine.
+
+Si les paramètres du *mot de passe* et du *nom d’utilisateur* sont spécifiés, la connexion à WMI doit utiliser le niveau d’authentification de la confidentialité (**wbemAuthenticationLevelPktPrivacy** pour script et Visual Basic (VB)) du niveau d’authentification **RPC \_ C \_ \_ \_ \_** .
+
+Pour vous connecter à un ordinateur distant et spécifier des informations d’identification, utilisez la connexion à l’objet localisateur, qui est IWbemLocator pour C++ et SWbemLocator pour script et VB. N’utilisez pas la connexion du moniker.
+
+Pour vous connecter à un ordinateur local, vous ne pouvez pas spécifier un mot de passe ou une autorité d’authentification, tel que Kerberos. Vous pouvez uniquement spécifier le mot de passe et l’autorité dans connexions aux ordinateurs distants.
+
+Si le niveau d’authentification est trop faible lorsqu’un *mot de passe* et un *nom d’utilisateur* sont spécifiés, WMI renvoie l’erreur de **\_ \_ connexion chiffrée WBEM \_ \_ requise** pour C/C++ et **wbemErrEncryptedConnectionRequired** pour script et VB.
+
+Pour plus d’informations, consultez [**SWbemLocator \_ ConnectServer,**](/windows/desktop/WmiSdk/swbemlocator-connectserver)[**IWbemLocator :: ConnectServer**](/windows/desktop/api/wbemcli/nf-wbemcli-iwbemlocator-connectserver)et [construction d’une chaîne de moniker](/windows/desktop/WmiSdk/constructing-a-moniker-string).
+
+## <a name="examples"></a>Exemples
+
+Le script suivant vous montre comment renommer un ordinateur local.
+
+
+```VB
+Name = "name"
+Password = "password"
+Username = "username"
+
+Set objWMIService = GetObject("Winmgmts:root\cimv2")
+
+' Call always gets only one Win32_ComputerSystem object.
+For Each objComputer in _
+    objWMIService.InstancesOf("Win32_ComputerSystem")
+
+        Return = objComputer.rename(Name,Password,Username)
+        If Return <> 0 Then
+           WScript.Echo "Rename failed. Error = " & Err.Number
+        Else
+           WScript.Echo "Rename succeeded." & _
+               " Reboot for new name to go into effect"
+        End If
+
+Next
+```
+
+
+
+L’exemple de code C++ suivant renomme un système informatique.
+
+
+```C++
+int set_computer_name(const string &newname/*, const string &username, const string &password*/)
+{
+ HRESULT hres;
+
+
+// Step 1: --------------------------------------------------
+ // Initialize COM. ------------------------------------------
+
+
+hres = CoInitializeEx(0, COINIT_MULTITHREADED); 
+ if (FAILED(hres))
+ {
+ cout << "Failed to initialize COM library. Error code = 0x" 
+ << hex << hres << endl;
+ return 1; // Program has failed.
+ }
+
+
+// Step 2: --------------------------------------------------
+ // Set general COM security levels --------------------------
+ // Note: If you are using Windows 2000, you need to specify -
+ // the default authentication credentials for a user by using
+ // a SOLE_AUTHENTICATION_LIST structure in the pAuthList ----
+ // parameter of CoInitializeSecurity ------------------------
+
+
+hres = CoInitializeSecurity(
+ NULL, 
+ -1, // COM authentication
+ NULL, // Authentication services
+ NULL, // Reserved
+ RPC_C_AUTHN_LEVEL_DEFAULT, // Default authentication 
+ RPC_C_IMP_LEVEL_IMPERSONATE, // Default Impersonation 
+ NULL, // Authentication info
+ EOAC_NONE, // Additional capabilities 
+ NULL // Reserved
+ );
+
+
+
+
+ if (FAILED(hres))
+ {
+ cout << "Failed to initialize security. Error code = 0x" 
+ << hex << hres << endl;
+ CoUninitialize();
+ return 1; // Program has failed.
+ }
+
+ // Step 3: ---------------------------------------------------
+ // Obtain the initial locator to WMI -------------------------
+
+
+IWbemLocator *pLoc = NULL;
+
+
+hres = CoCreateInstance(
+ CLSID_WbemLocator, 
+ 0, 
+ CLSCTX_INPROC_SERVER, 
+ IID_IWbemLocator, (LPVOID *) &pLoc);
+
+ if (FAILED(hres))
+ {
+ cout << "Failed to create IWbemLocator object."
+ << " Err code = 0x"
+ << hex << hres << endl;
+ CoUninitialize();
+ return 1; // Program has failed.
+ }
+
+
+// Step 4: -----------------------------------------------------
+ // Connect to WMI through the IWbemLocator::ConnectServer method
+
+
+IWbemServices *pSvc = NULL;
+
+ // Connect to the root\cimv2 namespace with
+ // the current user and obtain pointer pSvc
+ // to make IWbemServices calls.
+ hres = pLoc->ConnectServer(
+ _bstr_t(L"ROOT\\CIMV2"), // Object path of WMI namespace
+ NULL, // User name. NULL = current user
+ NULL, // User password. NULL = current
+ 0, // Locale. NULL indicates current
+ NULL, // Security flags.
+ 0, // Authority (e.g. Kerberos)
+ 0, // Context object 
+ &pSvc // pointer to IWbemServices proxy
+ );
+
+ if (FAILED(hres))
+ {
+ cout << "Could not connect. Error code = 0x" 
+ << hex << hres << endl;
+ pLoc->Release(); 
+ CoUninitialize();
+ return 1; // Program has failed.
+ }
+
+
+/*cout << "Connected to ROOT\\CIMV2 WMI namespace" << endl;*/
+
+
+
+
+ // Step 5: --------------------------------------------------
+ // Set security levels on the proxy -------------------------
+
+
+hres = CoSetProxyBlanket(
+ pSvc, // Indicates the proxy to set
+ RPC_C_AUTHN_WINNT, // RPC_C_AUTHN_xxx
+ RPC_C_AUTHZ_NONE, // RPC_C_AUTHZ_xxx
+ NULL, // Server principal name 
+ RPC_C_AUTHN_LEVEL_CALL, // RPC_C_AUTHN_LEVEL_xxx 
+ RPC_C_IMP_LEVEL_IMPERSONATE, // RPC_C_IMP_LEVEL_xxx
+ NULL, // client identity
+ EOAC_NONE // proxy capabilities 
+ );
+
+
+if (FAILED(hres))
+ {
+ cout << "Could not set proxy blanket. Error code = 0x" 
+ << hex << hres << endl;
+ pSvc->Release();
+ pLoc->Release(); 
+ CoUninitialize();
+ return 1; // Program has failed.
+ }
+
+
+// Step 6: --------------------------------------------------
+ // Use the IWbemServices pointer to make requests of WMI ----
+
+
+// For example, get the name of the operating system
+ IEnumWbemClassObject* pEnumerator = NULL;
+ hres = pSvc->ExecQuery(
+ bstr_t("WQL"), 
+ bstr_t("SELECT * FROM Win32_ComputerSystem"),
+ WBEM_FLAG_FORWARD_ONLY | WBEM_FLAG_RETURN_IMMEDIATELY, 
+ NULL,
+ &pEnumerator);
+
+ if (FAILED(hres))
+ {
+ cout << "Query for operating system name failed."
+ << " Error code = 0x" 
+ << hex << hres << endl;
+ pSvc->Release();
+ pLoc->Release();
+ CoUninitialize();
+ return 1; // Program has failed.
+ }
+
+
+// Step 7: -------------------------------------------------
+ // Get the data from the query in step 6 -------------------
+
+ IWbemClassObject *pclsObj;
+ ULONG uReturn = 0;
+
+ while (pEnumerator)
+ {
+ HRESULT hr = pEnumerator->Next(WBEM_INFINITE, 1, 
+ &pclsObj, &uReturn);
+
+
+if(0 == uReturn)
+ {
+ break;
+ }
+
+
+// set up to call the Win32_ComputerSystem::Rename method
+ BSTR MethodName = SysAllocString(L"Rename");
+ BSTR ClassName = SysAllocString(L"Win32_ComputerSystem");
+
+
+IWbemClassObject* pClass = NULL;
+ hres = pSvc->GetObject(ClassName, 0, NULL, &pClass, NULL);
+
+
+IWbemClassObject* pInParamsDefinition = NULL;
+ hres = pClass->GetMethod(MethodName, 0, 
+ &pInParamsDefinition, NULL);
+
+
+IWbemClassObject* pClassInstance = NULL;
+ hres = pInParamsDefinition->SpawnInstance(0, &pClassInstance);
+
+
+// Create the values for the in parameters
+ wstring val;
+ BSTR NewName;
+ val.assign(newname.begin(), newname.end());
+ NewName = SysAllocString(val.c_str());
+
+
+VARIANT varName;
+ varName.vt = VT_BSTR;
+ varName.bstrVal = NewName;
+
+
+// Store the value for the in parameters
+ hres = pClassInstance->Put(L"Name", 0,
+ &varName, 0);
+ wprintf(L"Set computer name to %s\n", V_BSTR(&varName));
+
+
+VARIANT var;
+ CIMTYPE pType;
+ LONG pFlavor;
+ pclsObj->Get(L"__PATH",0,&var,&pType,&pFlavor);
+
+
+// Execute Method
+ IWbemClassObject* pOutParams = NULL;
+ hres = pSvc->ExecMethod(var.bstrVal, MethodName, 0,
+ NULL, pClassInstance, &pOutParams, NULL);
+
+
+if (FAILED(hres))
+ {
+ cout << "Could not execute method. Error code = 0x" 
+ << hex << hres << endl;
+ VariantClear(&varName);
+ SysFreeString(ClassName);
+ SysFreeString(MethodName);
+ SysFreeString(NewName);
+ pClass->Release();
+ pInParamsDefinition->Release();
+ pOutParams->Release();
+ return 1; // Program has failed.
+ }
+
+
+// To see what the method returned,
+ // use the following code. The return value will
+ // be in &varReturnValue
+ VARIANT varReturnValue;
+ hres = pOutParams->Get(_bstr_t(L"ReturnValue"), 0, 
+ &varReturnValue, NULL, 0);
+
+
+
+
+ // Clean up
+ //--------------------------
+ VariantClear(&varName);
+ VariantClear(&varReturnValue);
+ SysFreeString(ClassName);
+ SysFreeString(MethodName);
+ SysFreeString(NewName);
+ pClass->Release();
+ pInParamsDefinition->Release();
+ pOutParams->Release();
+ return 0;
+
+
+}
+
+
+// Cleanup
+ // ========
+
+ pSvc->Release();
+ pLoc->Release();
+ pEnumerator->Release();
+ pclsObj->Release();
+ CoUninitialize();
+
+
+return 0; // Program successfully completed.
+```
+
+
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
+| MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**\_ComputerSystem Win32**](win32-computersystem.md)
+</dt> <dt>
+
+[Tâches WMI : comptes et domaines](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
+</dt> </dl>
+
+ 
+
