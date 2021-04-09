@@ -1,0 +1,46 @@
+---
+title: Gestion des fichiers et des données
+description: Les utilisateurs ont un accès plus facile aux fichiers et aux données dans Windows 7.
+ms.assetid: 44756220-1cd0-4c7e-a49e-5786a6220f8f
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5617d7746746186933bce022aa2202175fb994e0
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103941145"
+---
+# <a name="managing-files-and-data"></a><span data-ttu-id="64a59-103">Gestion des fichiers et des données</span><span class="sxs-lookup"><span data-stu-id="64a59-103">Managing Files and Data</span></span>
+
+<span data-ttu-id="64a59-104">Les utilisateurs ont un accès plus facile aux fichiers et aux données dans Windows 7.</span><span class="sxs-lookup"><span data-stu-id="64a59-104">Users have easier access to files and data in Windows 7.</span></span> <span data-ttu-id="64a59-105">Les nouvelles API rendent les fichiers et les affichages plus instructifs, ce qui permet aux applications de fournir des informations pertinentes et distinctives à l’Explorateur Windows.</span><span class="sxs-lookup"><span data-stu-id="64a59-105">New APIs make files and views more informative, enabling applications to deliver relevant and distinctive information to Windows Explorer.</span></span> <span data-ttu-id="64a59-106">En outre, les applications tirent parti du nouveau modèle de *bibliothèque* , une notion utile et plus abstraite de l’espace de stockage utilisateur par rapport aux dossiers, et peuvent également participer à des bibliothèques communes de types de fichiers similaires partagés par différentes applications.</span><span class="sxs-lookup"><span data-stu-id="64a59-106">In addition, applications benefit from the new *Libraries* model, a useful, more abstract notion of user storage space than folders, and can also participate in common libraries of similar file types that are shared by different applications.</span></span>
+
+## <a name="libraries"></a><span data-ttu-id="64a59-107">Bibliothèques</span><span class="sxs-lookup"><span data-stu-id="64a59-107">Libraries</span></span>
+
+<span data-ttu-id="64a59-108">Windows 7 introduit le concept de *bibliothèques* comme des destinations où les développeurs et les utilisateurs finaux peuvent rechercher et organiser leurs données sous la forme de regroupements d’éléments qui peuvent s’étendre sur plusieurs emplacements sur l’ordinateur local et sur des ordinateurs distants.</span><span class="sxs-lookup"><span data-stu-id="64a59-108">Windows 7 introduces the concept of *Libraries* as destinations where developers and end-users can find and organize their data as collections of items that can span multiple locations on the local computer as well as on remote computers.</span></span>
+
+<span data-ttu-id="64a59-109">Les API de *bibliothèque* permettent aux développeurs de créer facilement des applications qui créent, interagissent avec et prennent en charge les *bibliothèques* en tant qu’éléments de première classe dans les applications.</span><span class="sxs-lookup"><span data-stu-id="64a59-109">The *Library* APIs provide a straightforward way for developers to create applications that create, interact with, and support *Libraries* as first-class items within applications.</span></span> <span data-ttu-id="64a59-110">Vous pouvez également sélectionner des *bibliothèques* à l’aide de la boîte de dialogue Sélecteur de dossiers.</span><span class="sxs-lookup"><span data-stu-id="64a59-110">*Libraries* can also be selected by using the folder picker dialog box.</span></span> <span data-ttu-id="64a59-111">Les applications peuvent énumérer les étendues de bibliothèque pertinentes, ou elles peuvent utiliser la bibliothèque directement en tant que dossier.</span><span class="sxs-lookup"><span data-stu-id="64a59-111">Applications can enumerate relevant library scopes, or they can use the library directly as a folder.</span></span> <span data-ttu-id="64a59-112">(Voir [bibliothèques Windows](/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)) et [bibliothèques Windows 7 : ressources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/dataaccess)pour les développeurs).</span><span class="sxs-lookup"><span data-stu-id="64a59-112">(See [Windows Libraries](/previous-versions/windows/desktop/legacy/dd758096(v=vs.85)) and [Windows 7 Libraries: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/dataaccess)).</span></span>
+
+![bibliothèque d’images Windows 7](images/windows7-10.jpg)
+
+<span data-ttu-id="64a59-114">La *bibliothèque d’images* affiche vos images, quel que soit l’endroit où elles sont stockées</span><span class="sxs-lookup"><span data-stu-id="64a59-114">*Pictures Library* shows your pictures no matter where they are stored</span></span>
+
+## <a name="file-formats-and-data-stores"></a><span data-ttu-id="64a59-115">Formats de fichiers et banques de données</span><span class="sxs-lookup"><span data-stu-id="64a59-115">File Formats and Data Stores</span></span>
+
+<span data-ttu-id="64a59-116">Dans Windows 7, l’Explorateur Windows facilite la gestion et la manipulation des fichiers pour l’utilisateur de plusieurs façons :</span><span class="sxs-lookup"><span data-stu-id="64a59-116">In Windows 7, Windows Explorer makes file management and manipulation easier for the user in several ways:</span></span>
+
+-   <span data-ttu-id="64a59-117">La version préliminaire du type de fichier de votre application est plus accessible à l’aide d’un nouveau bouton qui permet aux utilisateurs d’afficher et de masquer le volet de visualisation.</span><span class="sxs-lookup"><span data-stu-id="64a59-117">The preview for your application's file type is more accessible with a new button that lets users show and hide the preview pane.</span></span>
+-   <span data-ttu-id="64a59-118">Les piles visuelles immersifs agrègent les images miniatures pour les types de fichiers dans une vue.</span><span class="sxs-lookup"><span data-stu-id="64a59-118">Immersive visual stacks aggregate thumbnail images for file types in a view.</span></span>
+-   <span data-ttu-id="64a59-119">Les vues de l’Explorateur Windows affichent des informations utiles basées sur les propriétés écrites avec votre gestionnaire de propriétés.</span><span class="sxs-lookup"><span data-stu-id="64a59-119">Windows Explorer views show useful information based on properties written with your property handler.</span></span>
+-   <span data-ttu-id="64a59-120">Les extraits de document et la mise en surbrillance utilisent votre implémentation d’interface **IFilter** pour faciliter la recherche et la recherche de fichiers.</span><span class="sxs-lookup"><span data-stu-id="64a59-120">Document snippets and hit highlighting use your **IFilter** interface implementation to make searching and finding files easier.</span></span>
+-   <span data-ttu-id="64a59-121">Les verbes et les commandes de menu contextuel sont plus faciles à implémenter.</span><span class="sxs-lookup"><span data-stu-id="64a59-121">Context-menu verbs and commands are easier than ever to implement.</span></span>
+
+<span data-ttu-id="64a59-122">En implémentant tous les gestionnaires de format appropriés pour les éléments retournés à partir de votre gestionnaire de protocole, les résultats de la recherche à partir de votre magasin de données personnalisé peuvent être aussi riches que les résultats de recherche de fichiers.</span><span class="sxs-lookup"><span data-stu-id="64a59-122">By implementing all of the appropriate format handlers for the items returned from your protocol handler, search results from your custom data store can be as rich as search results from files.</span></span> <span data-ttu-id="64a59-123">Les *bibliothèques* sont automatiquement créées pour vos gestionnaires de protocole afin que les utilisateurs puissent facilement étendre leurs recherches.</span><span class="sxs-lookup"><span data-stu-id="64a59-123">*Libraries* are automatically created for your protocol handlers so users can scope their searches easily.</span></span> <span data-ttu-id="64a59-124">La logique de création de *bibliothèques* peut être facilement personnalisée via le registre.</span><span class="sxs-lookup"><span data-stu-id="64a59-124">And the logic for creating *Libraries* can be easily customized through the registry.</span></span> <span data-ttu-id="64a59-125">(Voir [développement de filtres pour Windows Search](../search/-search-3x-wds-extidx-filters.md).)</span><span class="sxs-lookup"><span data-stu-id="64a59-125">(See [Developing Filters for Windows Search](../search/-search-3x-wds-extidx-filters.md).)</span></span>
+
+![bibliothèque de documents Windows 7](images/windows7-11.jpg)
+
+<span data-ttu-id="64a59-127">Dans Windows 7, l’Explorateur Windows facilite la gestion et la manipulation des fichiers</span><span class="sxs-lookup"><span data-stu-id="64a59-127">In Windows 7, Windows Explorer makes file management and manipulation easier</span></span>
+
+ 
+
+ 

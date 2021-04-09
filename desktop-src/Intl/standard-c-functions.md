@@ -1,0 +1,52 @@
+---
+description: Les bibliothèques Runtime C standard contiennent des versions Unicode UTF-16 (caractères larges) de fonctions de chaîne qui peuvent être utilisées avec des versions Unicode et octet des fonctions de chaîne qui peuvent être utilisées avec des caractères provenant de jeux de caractères codés sur un octet (SBCSs). Le type de données Unicode WCHAR est compatible avec le type de données WCHAR \_ t en ANSI C, et autorise l’accès aux fonctions de chaîne Unicode. Les versions Unicode des fonctions commencent par les lettres &\# 0034 ; wcs&\# 0034 ; (ou parfois &\# 0034 ; \_ WCS&\# 0034 ;). Le type de données CHAR utilisé pour les pages de codes est compatible avec le type de données character en C ANSI, afin d’autoriser l’accès aux fonctions de chaîne de caractères. Les versions caractère des fonctions commencent par les lettres &\# 0034 ; str&\# 0034 ;. Il existe également des versions spéciales pour les jeux de caractères codés sur deux octets (DBCS) qui commencent par les lettres &\# 0034 ; \_ MBS&\# 0034 ;.
+ms.assetid: a86626c1-7f90-4924-bfdd-384729bd0cc5
+title: Fonctions C standard
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f6247b3707f96908ef16d887462ba06573fd8dd7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103868905"
+---
+# <a name="standard-c-functions"></a><span data-ttu-id="b11c8-108">Fonctions C standard</span><span class="sxs-lookup"><span data-stu-id="b11c8-108">Standard C Functions</span></span>
+
+<span data-ttu-id="b11c8-109">Les bibliothèques Runtime C standard contiennent des versions Unicode UTF-16 (caractères larges) de fonctions de chaîne qui peuvent être utilisées avec des versions [Unicode](unicode.md) et octet des fonctions de chaîne qui peuvent être utilisées avec des caractères provenant de jeux de caractères codés sur [un octet](single-byte-character-sets.md) (SBCSs).</span><span class="sxs-lookup"><span data-stu-id="b11c8-109">The standard C runtime libraries contain both Unicode UTF-16 (wide character) versions of string functions that can be used with [Unicode](unicode.md) and byte-oriented versions of string functions that can be used with characters from [single-byte character sets](single-byte-character-sets.md) (SBCSs).</span></span> <span data-ttu-id="b11c8-110">Le type de données Unicode WCHAR est compatible avec le type de données WCHAR \_ t en ANSI C, et autorise l’accès aux fonctions de chaîne Unicode.</span><span class="sxs-lookup"><span data-stu-id="b11c8-110">The Unicode data type WCHAR is compatible with the data type wchar\_t in ANSI C, and allows access to the Unicode string functions.</span></span> <span data-ttu-id="b11c8-111">Les versions Unicode des fonctions commencent par les lettres « WCS » (ou parfois « \_ WCS »).</span><span class="sxs-lookup"><span data-stu-id="b11c8-111">The Unicode versions of the functions start with the letters "wcs" (or sometimes "\_wcs").</span></span> <span data-ttu-id="b11c8-112">Le type de données CHAR utilisé pour les pages de codes est compatible avec le type de données character en C ANSI, afin d’autoriser l’accès aux fonctions de chaîne de caractères.</span><span class="sxs-lookup"><span data-stu-id="b11c8-112">The data type CHAR used for code pages is compatible with the character data type char in ANSI C, to allow access to the character string functions.</span></span> <span data-ttu-id="b11c8-113">Les versions caractère des fonctions commencent par les lettres « Str ».</span><span class="sxs-lookup"><span data-stu-id="b11c8-113">The character versions of the functions start with the letters "str".</span></span> <span data-ttu-id="b11c8-114">Il existe également des versions spéciales pour les [jeux de caractères codés sur deux octets](double-byte-character-sets.md) (DBCS) qui commencent par les lettres « \_ MBS ».</span><span class="sxs-lookup"><span data-stu-id="b11c8-114">There are also special versions for [double-byte character sets](double-byte-character-sets.md) (DBCSs) that start with the letters "\_mbs".</span></span>
+
+<span data-ttu-id="b11c8-115">Les bibliothèques Runtime C standard incluent des fonctions génériques pour toutes les fonctions de chaîne C standard.</span><span class="sxs-lookup"><span data-stu-id="b11c8-115">The standard C runtime libraries include generic functions for all standard C string functions.</span></span> <span data-ttu-id="b11c8-116">Ils commencent par « \_ TCS » et sont répertoriés dans le fichier d’en-tête Tchar. h.</span><span class="sxs-lookup"><span data-stu-id="b11c8-116">They start with "\_tcs" and are listed in the Tchar.h header file.</span></span> <span data-ttu-id="b11c8-117">Ces fonctions utilisent le type de données TCHAR générique.</span><span class="sxs-lookup"><span data-stu-id="b11c8-117">These functions use the generic TCHAR data type.</span></span>
+
+<span data-ttu-id="b11c8-118">Une application doit ajouter les lignes suivantes pour utiliser les fonctions génériques et compiler pour Unicode.</span><span class="sxs-lookup"><span data-stu-id="b11c8-118">An application must add the following lines to use the generic functions and compile for Unicode.</span></span>
+
+
+```C++
+#define _UNICODE
+
+#include <tchar.h>
+#include <wchar.h>
+```
+
+
+
+<span data-ttu-id="b11c8-119">Notez que les fichiers Tchar. h et WCHAR. h sont tous les deux requis et que le trait de soulignement de début de la \_ variable Unicode est également requis.</span><span class="sxs-lookup"><span data-stu-id="b11c8-119">Note that both the Tchar.h and Wchar.h files are required, and that the leading underscore on the \_UNICODE variable is also required.</span></span> <span data-ttu-id="b11c8-120">Cette nomenclature est spécifique à la bibliothèque C standard.</span><span class="sxs-lookup"><span data-stu-id="b11c8-120">This nomenclature is specific to the standard C library.</span></span> <span data-ttu-id="b11c8-121">« UNICODE » s’affiche sans le trait de soulignement pour Microsoft Windows Runtime.</span><span class="sxs-lookup"><span data-stu-id="b11c8-121">"UNICODE" rendered without the underscore is for the Microsoft Windows runtimes.</span></span>
+
+<span data-ttu-id="b11c8-122">Les fonctions [wcstombs](/cpp/c-runtime-library/reference/wcstombs-wcstombs-l) et [mbstowcs](/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l) peuvent convertir le jeu de caractères pris en charge par la bibliothèque C standard en Unicode et inversement, avec certaines limitations.</span><span class="sxs-lookup"><span data-stu-id="b11c8-122">The [wcstombs](/cpp/c-runtime-library/reference/wcstombs-wcstombs-l) and [mbstowcs](/cpp/c-runtime-library/reference/mbstowcs-s-mbstowcs-s-l) functions can convert from the character set supported by the standard C library to Unicode and back, with some limitations.</span></span> <span data-ttu-id="b11c8-123">Pour plus d’informations sur la traduction de chaînes vers et à partir d’Unicode, consultez [translation between types String](translation-between-string-types.md).</span><span class="sxs-lookup"><span data-stu-id="b11c8-123">For more information about translating strings to and from Unicode, see [Translation Between String Types](translation-between-string-types.md).</span></span>
+
+<span data-ttu-id="b11c8-124">La fonction [printf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) définie dans Tchar. h prend en charge les mêmes spécifications de format que les fonctions d’impression strsafe. h, par exemple [**StringCbPrintf**](/windows/win32/api/strsafe/nf-strsafe-stringcbprintfa).</span><span class="sxs-lookup"><span data-stu-id="b11c8-124">The [printf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) function defined in Tchar.h supports the same format specifications as the Strsafe.h print functions, for example [**StringCbPrintf**](/windows/win32/api/strsafe/nf-strsafe-stringcbprintfa).</span></span> <span data-ttu-id="b11c8-125">De même, Tchar. h définit une fonction [wprintf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) , dans laquelle la chaîne de format elle-même est une chaîne Unicode.</span><span class="sxs-lookup"><span data-stu-id="b11c8-125">Similarly, Tchar.h defines a [wprintf](/cpp/c-runtime-library/reference/printf-printf-l-wprintf-wprintf-l) function, in which the format string itself is a Unicode string.</span></span>
+
+> [!Caution]  
+> <span data-ttu-id="b11c8-126">Une mauvaise gestion de la mémoire tampon est impliquée dans de nombreux problèmes de sécurité qui impliquent des dépassements de mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="b11c8-126">Poor buffer handling is implicated in many security issues that involve buffer overruns.</span></span> <span data-ttu-id="b11c8-127">Consultez [référence de strsafe. h](../menurc/strsafe-ovw.md).</span><span class="sxs-lookup"><span data-stu-id="b11c8-127">See [Strsafe.h Reference](../menurc/strsafe-ovw.md).</span></span> <span data-ttu-id="b11c8-128">Les fonctions définies dans strsafe. h fournissent un traitement supplémentaire pour la gestion correcte de la mémoire tampon dans votre code.</span><span class="sxs-lookup"><span data-stu-id="b11c8-128">The functions defined in Strsafe.h provide additional processing for proper buffer handling in your code.</span></span> <span data-ttu-id="b11c8-129">Ils sont destinés à remplacer leurs équivalents C/C++ intégrés, ainsi que les implémentations spécifiques de Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="b11c8-129">They are intended to replace their built-in C/C++ counterparts as well as specific Microsoft Windows implementations.</span></span> <span data-ttu-id="b11c8-130">Pour plus d’informations, consultez [Considérations sur la sécurité : fonctionnalités internationales](security-considerations--international-features.md).</span><span class="sxs-lookup"><span data-stu-id="b11c8-130">For more information, see [Security Considerations: International Features](security-considerations--international-features.md).</span></span>
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="b11c8-131">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b11c8-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b11c8-132">Unicode dans l'API Windows</span><span class="sxs-lookup"><span data-stu-id="b11c8-132">Unicode in the Windows API</span></span>](unicode-in-the-windows-api.md)
+</dt> </dl>
+
+ 
+
+ 
