@@ -1,0 +1,44 @@
+---
+description: L’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances.
+ms.assetid: b627f3da-3545-4c1a-85b0-d8845fdac621
+title: Validation de la String-Pool
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: ecb544b5c76026846f7e8b8f6f331195426ab55c
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104114162"
+---
+# <a name="string-pool-validation"></a><span data-ttu-id="58bf7-103">Validation de la String-Pool</span><span class="sxs-lookup"><span data-stu-id="58bf7-103">String-Pool Validation</span></span>
+
+<span data-ttu-id="58bf7-104">L’Windows Installer stocke toutes les chaînes de base de données dans un seul pool de chaînes partagé pour réduire la taille de la base de données et améliorer les performances.</span><span class="sxs-lookup"><span data-stu-id="58bf7-104">The Windows Installer stores all database strings in a single shared string pool to reduce the size of the database and to improve performance.</span></span> <span data-ttu-id="58bf7-105">Le seul moyen de valider le pool de chaînes consiste à utiliser l’outil MsiInfo disponible dans le kit de développement logiciel (SDK) Windows Installer.</span><span class="sxs-lookup"><span data-stu-id="58bf7-105">The only means of validating the string pool is to use the MsiInfo tool found in the Windows Installer SDK.</span></span>
+
+<span data-ttu-id="58bf7-106">La vérification du pool de chaînes se compose de deux vérifications principales :</span><span class="sxs-lookup"><span data-stu-id="58bf7-106">String pool verification consists of two main checks:</span></span>
+
+-   [<span data-ttu-id="58bf7-107">Tests de chaîne DBCS</span><span class="sxs-lookup"><span data-stu-id="58bf7-107">DBCS string tests</span></span>](#dbcs-string-tests)
+-   [<span data-ttu-id="58bf7-108">Vérification du nombre de références</span><span class="sxs-lookup"><span data-stu-id="58bf7-108">Reference count verification</span></span>](#reference-count-verification)
+
+## <a name="dbcs-string-tests"></a><span data-ttu-id="58bf7-109">Tests de chaîne DBCS</span><span class="sxs-lookup"><span data-stu-id="58bf7-109">DBCS String Tests</span></span>
+
+<span data-ttu-id="58bf7-110">Les tests de chaîne DBCS analysent chaque chaîne dans la base de données à la recherche de deux critères : pour les packages avec une page de codes neutre marquée, si un caractère est un caractère étendu (supérieur à 127), la chaîne est marquée et un message indiquant que la page de codes de la base de données n’est pas valide, car ces caractères requièrent une page de codes spécifique pour être</span><span class="sxs-lookup"><span data-stu-id="58bf7-110">The DBCS string tests scan each string in the database for two criteria: For packages with a neutral code page marked, if any character is an extended character (greater than 127), the string is flagged and a message is displayed saying that the code page of the database is invalid because these characters require a specific code page to be rendered consistently on all systems.</span></span>
+
+<span data-ttu-id="58bf7-111">Si la base de données comporte une page de codes, chaque chaîne est analysée pour rechercher un indicateur DBCS non valide.</span><span class="sxs-lookup"><span data-stu-id="58bf7-111">If the database has a code page, each string is scanned for an invalid DBCS indicator.</span></span> <span data-ttu-id="58bf7-112">Si une chaîne non neutre n’a pas été correctement marquée, les caractères ne sont pas restitués correctement.</span><span class="sxs-lookup"><span data-stu-id="58bf7-112">If a non-neutral string has been improperly marked, the characters will not render correctly.</span></span> <span data-ttu-id="58bf7-113">(Cela est généralement dû au fait que la page de codes est forcée à une valeur particulière à l’aide de la \_ Table ForceCodepage avec des chaînes non neutres déjà présentes dans la base de données.) Notez que cette vérification requiert que la page de codes de la base de données soit installée sur le système.</span><span class="sxs-lookup"><span data-stu-id="58bf7-113">(This is most commonly caused by forcing the code page to a particular value using the \_ForceCodepage table with non-neutral strings already in the database.) Note that this check requires that the code page of the database be installed on the system.</span></span>
+
+<span data-ttu-id="58bf7-114">En cas de problème de page de codes, l’utilisateur peut corriger l’erreur en utilisant la \_ table ForceCodepage pour forcer la page de codes de la base de données à la valeur appropriée.</span><span class="sxs-lookup"><span data-stu-id="58bf7-114">If there is a code page problem, the user may fix the error by using the \_ForceCodepage table to force the code page of the database to the appropriate value.</span></span> <span data-ttu-id="58bf7-115">Pour plus d’informations, consultez [gestion des pages de codes](code-page-handling-windows-installer-.md).</span><span class="sxs-lookup"><span data-stu-id="58bf7-115">For more information, see [Code Page Handling](code-page-handling-windows-installer-.md).</span></span>
+
+## <a name="reference-count-verification"></a><span data-ttu-id="58bf7-116">Vérification du nombre de références</span><span class="sxs-lookup"><span data-stu-id="58bf7-116">Reference Count Verification</span></span>
+
+<span data-ttu-id="58bf7-117">Pour vérifier le nombre de références de toutes les chaînes, chaque table est analysée pour rechercher les valeurs de chaîne, le nombre de chaque chaîne distincte est conservé et le résultat est comparé au décompte de références stocké dans le pool de chaînes de base de données.</span><span class="sxs-lookup"><span data-stu-id="58bf7-117">To verify the reference counts of all strings, every table is scanned for string values, a count of each distinct string is kept, and the result is compared to the stored reference count in the database string pool.</span></span>
+
+<span data-ttu-id="58bf7-118">En cas de problème de nombre de références de chaîne, l’utilisateur doit immédiatement exporter chaque table de la base de données à l’aide de [**MsiDatabaseExport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta), créer une nouvelle base de données et importer les tables dans la nouvelle base de données à l’aide de [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta).</span><span class="sxs-lookup"><span data-stu-id="58bf7-118">If there is a string reference count problem, the user should immediately export each table of the database using [**MsiDatabaseExport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseexporta), create a new database, and import the tables into the new database using [**MsiDatabaseImport**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseimporta).</span></span> <span data-ttu-id="58bf7-119">La nouvelle base de données a ensuite le même contenu que l’ancienne, mais les nombres de références de chaîne sont corrects.</span><span class="sxs-lookup"><span data-stu-id="58bf7-119">The new database then has the same content as the old database, but the string reference counts are correct.</span></span> <span data-ttu-id="58bf7-120">L’ajout ou la suppression de données d’une base de données avec un pool de chaînes endommagé peut augmenter la corruption de la base de données et la perte de données. par conséquent, il est important de suivre ces étapes rapidement pour éviter toute perte de données.</span><span class="sxs-lookup"><span data-stu-id="58bf7-120">Adding or deleting data from a database with a corrupt string pool can increase corruption of the database and loss of data, so taking these steps quickly is important to prevent further data loss.</span></span>
+
+<span data-ttu-id="58bf7-121">Lorsque vous reconstruisez des bases de données, n’oubliez pas d’incorporer les stockages et les flux nécessaires dans la nouvelle base de données (consultez table [ \_ Streams](-streams-table.md) and [ \_ Storage table](-storages-table.md)) et tenez compte des problèmes de page de code.</span><span class="sxs-lookup"><span data-stu-id="58bf7-121">When rebuilding databases, remember to embed any necessary storages and streams in the new database (see [\_Streams Table](-streams-table.md) and [\_Storages Table](-storages-table.md)) and be aware of code page issues.</span></span> <span data-ttu-id="58bf7-122">N’oubliez pas également de définir chacune des propriétés de [flux d’informations de résumé](summary-information-stream.md) nécessaires.</span><span class="sxs-lookup"><span data-stu-id="58bf7-122">Also remember to set each of the necessary [Summary Information Stream](summary-information-stream.md) properties.</span></span>
+
+ 
+
+ 
+
+
+
