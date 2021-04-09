@@ -1,0 +1,40 @@
+---
+title: Type-Conversion et marshaling des attributs ACF
+description: Utilisez ces attributs pour contrôler la façon dont vos données sont transmises sur le réseau.
+ms.assetid: 6af635f6-eeee-4fa6-85db-5d60434a1235
+keywords:
+- ACF MIDL, attributs, conversion de type et marshaling
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 14367be3df97cc1185fca64e46aafe1d342f3526
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103940211"
+---
+# <a name="type-conversion-and-marshaling-acf-attributes"></a>Type-Conversion et marshaling des attributs ACF
+
+Utilisez ces attributs pour contrôler la façon dont vos données sont transmises sur le réseau.
+
+
+
+| Attribut                                        | Utilisation                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**coder**](encode.md)le [**décode**](decode.md) | Ordonne à MIDL d’exposer les routines de sérialisation de type ou de procédure qu’il génère pour les stubs. Votre application cliente peut appeler ces routines pour marshaler les données par valeur.                                                                                                                                                                                                                                                                                  |
+| [**représenter \_ comme**](represent-as.md)            | Spécifie la manière dont un type de données est représenté sur le câble, lorsque la nature exacte du type de données d’un client n’a pas d’importance pour le serveur (parce qu’il n’a besoin que des données elles-mêmes et non de la structure réelle), ou que le type de client réel est inconnu de MIDL au moment de la compilation. Par exemple, si votre application cliente utilise une liste liée de nombres à virgule flottante, vous pouvez spécifier que la représentation filaire de cette liste soit un tableau de type [**float**](float.md). |
+| [**Marshal d’utilisateur \_**](user-marshal.md)            | Contrôle la façon dont les données sont transmises sur le réseau en implémentant vos propres routines de marshaling. Cet attribut est utile si vous avez un type de données inconnu pour MIDL ou si vous transmettez des informations entre des plateformes Big-endian et Little-endian.                                                                                                                                                                                                                 |
+
+
+
+ 
+
+Les attributs de marshaling DCE [**en \_ ligne**](in-line.md) et [**hors \_ \_ ligne**](out-of-line.md) ne sont pas implémentés dans Microsoft RPC. Le compilateur MIDL marshale automatiquement les types de données complexes hors ligne.
+
+ 
+
+ 
+
+
+
+
