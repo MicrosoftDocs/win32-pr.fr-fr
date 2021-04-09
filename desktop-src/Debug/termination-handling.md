@@ -1,0 +1,29 @@
+---
+description: Un gestionnaire de terminaisons garantit qu’un bloc de code spécifique est exécuté chaque fois que le contrôle de workflow quitte un corps de code protégé particulier. Un gestionnaire de terminaisons se compose des éléments suivants.
+ms.assetid: 899e2939-e028-4be1-9f08-9a79bf97eb37
+title: Gestion des arrêts
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e926a47a3c0bb4f2cb8a8df350807aee89b49bab
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103861145"
+---
+# <a name="termination-handling"></a><span data-ttu-id="7d0ac-104">Gestion des arrêts</span><span class="sxs-lookup"><span data-stu-id="7d0ac-104">Termination Handling</span></span>
+
+<span data-ttu-id="7d0ac-105">Un *Gestionnaire de terminaisons* garantit qu’un bloc de code spécifique est exécuté chaque fois que le contrôle de workflow quitte un corps de code protégé particulier.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-105">A *termination handler* ensures that a specific block of code is executed whenever flow of control leaves a particular guarded body of code.</span></span> <span data-ttu-id="7d0ac-106">Un gestionnaire de terminaisons se compose des éléments suivants.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-106">A termination handler consists of the following elements.</span></span>
+
+-   <span data-ttu-id="7d0ac-107">Corps protégé du code</span><span class="sxs-lookup"><span data-stu-id="7d0ac-107">A guarded body of code</span></span>
+-   <span data-ttu-id="7d0ac-108">Bloc de code d’arrêt à exécuter lorsque le workflow de contrôle quitte le corps protégé</span><span class="sxs-lookup"><span data-stu-id="7d0ac-108">A block of termination code to be executed when the flow of control leaves the guarded body</span></span>
+
+<span data-ttu-id="7d0ac-109">Les gestionnaires de terminaisons sont déclarés dans une syntaxe spécifique au langage.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-109">Termination handlers are declared in language-specific syntax.</span></span> <span data-ttu-id="7d0ac-110">À l’aide du compilateur d’optimisation Microsoft C/C++, elles sont implémentées à l’aide de **\_ \_ try** et **\_ \_ enfin**.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-110">Using the Microsoft C/C++ Optimizing Compiler, they are implemented using **\_\_try** and **\_\_finally**.</span></span> <span data-ttu-id="7d0ac-111">Pour plus d’informations, consultez [syntaxe du gestionnaire](handler-syntax.md).</span><span class="sxs-lookup"><span data-stu-id="7d0ac-111">For more information, see [Handler Syntax](handler-syntax.md).</span></span>
+
+<span data-ttu-id="7d0ac-112">Le corps de code gardé peut être un bloc de code, un ensemble de blocs imbriqués ou une procédure ou une fonction entière.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-112">The guarded body of code can be a block of code, a set of nested blocks, or an entire procedure or function.</span></span> <span data-ttu-id="7d0ac-113">Chaque fois que le corps protégé est exécuté, le bloc de code d’arrêt est exécuté.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-113">Whenever the guarded body is executed, the block of termination code will be executed.</span></span> <span data-ttu-id="7d0ac-114">La seule exception est lorsque le thread se termine pendant l’exécution du corps gardé (par exemple, si la fonction [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) ou [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) est appelée à partir du corps protégé).</span><span class="sxs-lookup"><span data-stu-id="7d0ac-114">The only exception to this is when the thread terminates during execution of the guarded body (for example, if the [**ExitThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread) or [**ExitProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitprocess) function is called from within the guarded body).</span></span>
+
+<span data-ttu-id="7d0ac-115">Le bloc de fin est exécuté lorsque le déroulement du contrôle quitte le corps protégé, que le corps protégé soit arrêté normalement ou anormalement.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-115">The termination block is executed when the flow of control leaves the guarded body, regardless of whether the guarded body terminated normally or abnormally.</span></span> <span data-ttu-id="7d0ac-116">Le corps protégé est considéré comme terminé normalement lorsque la dernière instruction du bloc est exécutée et que le contrôle se poursuit de façon séquentielle dans le bloc de fin.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-116">The guarded body is considered to have terminated normally when the last statement in the block is executed and control proceeds sequentially into the termination block.</span></span> <span data-ttu-id="7d0ac-117">Un arrêt anormal se produit lorsque le workflow de contrôle quitte le corps protégé en raison d’une exception ou en raison d’une instruction de contrôle telle que **Return**, **goto**, **break** ou **continue**.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-117">Abnormal termination occurs when the flow of control leaves the guarded body due to an exception, or due to a control statement such as **return**, **goto**, **break**, or **continue**.</span></span> <span data-ttu-id="7d0ac-118">La fonction [**AbnormalTermination**](abnormaltermination.md) peut être appelée à partir du bloc de fin pour déterminer si le corps protégé s’est arrêté normalement.</span><span class="sxs-lookup"><span data-stu-id="7d0ac-118">The [**AbnormalTermination**](abnormaltermination.md) function can be called from within the termination block to determine whether the guarded body terminated normally.</span></span>
+
+ 
+
+ 
