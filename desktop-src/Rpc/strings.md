@@ -1,0 +1,31 @@
+---
+title: attribut de chaîne (RPC)
+description: L’attribut \ String \ et l’appel de procédure distante (RPC).
+ms.assetid: 794e03f2-b1e9-42dc-8536-9ced5c0e3dad
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e413c0b3b8f5a379dc3448f07aed4a5a7a6aba07
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103941267"
+---
+# <a name="string-attribute-rpc"></a><span data-ttu-id="6f6e6-103">attribut de chaîne (RPC)</span><span class="sxs-lookup"><span data-stu-id="6f6e6-103">string attribute (RPC)</span></span>
+
+<span data-ttu-id="6f6e6-104">L' \[ [](/windows/desktop/Midl/string) \] attribut String indique que le paramètre est un pointeur vers un tableau de type [char](/windows/desktop/Midl/char-idl), [Byte](/windows/desktop/Midl/byte)ou **w \_ char**.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-104">The \[ [string](/windows/desktop/Midl/string)\] attribute indicates that the parameter is a pointer to an array of type [char](/windows/desktop/Midl/char-idl), [byte](/windows/desktop/Midl/byte), or **w\_char**.</span></span> <span data-ttu-id="6f6e6-105">Comme avec un tableau conforme, la taille d’un paramètre de **\[ chaîne \]** est déterminée au moment de l’exécution.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-105">As with a conformant array, the size of a **\[string\]** parameter is determined at run time.</span></span> <span data-ttu-id="6f6e6-106">Contrairement à un tableau conforme, le développeur n’a pas besoin de fournir la longueur associée au tableau. l’attribut de **\[ \] chaîne** indique au stub de déterminer la taille du tableau en appelant **strlen**.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-106">Unlike a conformant array, the developer does not have to provide the length associated with the array—the **\[string\]** attribute tells the stub to determine the array size by calling **strlen**.</span></span> <span data-ttu-id="6f6e6-107">Un attribut de **\[ \] chaîne** ne peut pas être utilisé en même temps que la \[ [longueur \_](/windows/desktop/Midl/length-is) ou est le \] \[ [dernier \_](/windows/desktop/Midl/last-is) \] attribut.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-107">A **\[string\]** attribute cannot be used at the same time as the \[ [length\_is](/windows/desktop/Midl/length-is)\] or \[ [last\_is](/windows/desktop/Midl/last-is)\] attributes.</span></span>
+
+<span data-ttu-id="6f6e6-108">Dans, la combinaison d’attributs **\[ de chaîne \]** indique au stub de passer la chaîne du client au serveur uniquement.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-108">The **\[in, string\]** attribute combination directs the stub to pass the string from client to server only.</span></span> <span data-ttu-id="6f6e6-109">La quantité de mémoire allouée sur le serveur est identique à la taille de chaîne transmise plus un.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-109">The amount of memory allocated on the server is the same as the transmitted string size plus one.</span></span>
+
+<span data-ttu-id="6f6e6-110">Les \[ attributs de **chaîne** [out](/windows/desktop/Midl/out-idl) \] indiquent au stub de passer la chaîne du serveur au client uniquement.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-110">The \[ [out](/windows/desktop/Midl/out-idl), **string**\] attributes direct the stub to pass the string from server to client only.</span></span> <span data-ttu-id="6f6e6-111">La conception appel par valeur du langage C insiste sur le faire que tous les paramètres de **\[ sortie \]** doivent être des pointeurs.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-111">The call-by-value design of the C language insists that all **\[out\]** parameters must be pointers.</span></span>
+
+<span data-ttu-id="6f6e6-112">Le paramètre de **\[ sortie \]** doit être un pointeur et, par défaut, tous les paramètres de pointeur sont des pointeurs de référence.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-112">The **\[out\]** parameter must be a pointer and, by default, all pointer parameters are reference pointers.</span></span> <span data-ttu-id="6f6e6-113">Le pointeur de référence ne change pas pendant l’appel, il pointe vers la même mémoire que celle avant l’appel.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-113">The reference pointer does not change during the call—it points to the same memory as before the call.</span></span> <span data-ttu-id="6f6e6-114">Pour les pointeurs de chaîne, la contrainte supplémentaire du pointeur de référence signifie que le client doit allouer suffisamment de mémoire valide avant d’effectuer l’appel de procédure distante.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-114">For string pointers, the additional constraint of the reference pointer means the client must allocate sufficient valid memory before making the remote procedure call.</span></span> <span data-ttu-id="6f6e6-115">Les stubs transmettent la chaîne que les attributs **\[ out, String \]** indiquent dans la mémoire déjà allouée côté client.</span><span class="sxs-lookup"><span data-stu-id="6f6e6-115">The stubs transmit the string that the **\[out, string\]** attributes indicate into the memory already allocated on the client side.</span></span>
+
+<span data-ttu-id="6f6e6-116">Les rubriques suivantes décrivent les prototypes de paramètre de procédure distante pour les chaînes :</span><span class="sxs-lookup"><span data-stu-id="6f6e6-116">The following topics describe the remote procedure parameter prototypes for strings:</span></span>
+
+-   <span data-ttu-id="6f6e6-117">[\[in, out, prototype de chaîne \]](-in-out-string-prototype.md)</span><span class="sxs-lookup"><span data-stu-id="6f6e6-117">[\[in, out, string\] Prototype](-in-out-string-prototype.md)</span></span>
+-   <span data-ttu-id="6f6e6-118">[\[in, String \] et \[ out, prototype de chaîne \]](-in-string-and-out-string-prototype.md)</span><span class="sxs-lookup"><span data-stu-id="6f6e6-118">[\[in, string\] and \[out, string\] Prototype](-in-string-and-out-string-prototype.md)</span></span>
+
+ 
+
+ 
