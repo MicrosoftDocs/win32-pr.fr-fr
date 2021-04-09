@@ -1,0 +1,108 @@
+---
+description: Les extensions de socket sécurisé de Winsock permettent à une application de socket de contrôler la sécurité de leur trafic sur un réseau.
+ms.assetid: 023a9f96-814f-40c3-a186-ae0a0c9baef2
+title: Extensions Winsock Secure Socket
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4b62ee593b3abbb3bb0f8dbf27b79d6868f04fc0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104033972"
+---
+# <a name="winsock-secure-socket-extensions"></a><span data-ttu-id="bd419-103">Extensions Winsock Secure Socket</span><span class="sxs-lookup"><span data-stu-id="bd419-103">Winsock Secure Socket Extensions</span></span>
+
+<span data-ttu-id="bd419-104">Les extensions de socket sécurisé de Winsock permettent à une application de socket de contrôler la sécurité de leur trafic sur un réseau.</span><span class="sxs-lookup"><span data-stu-id="bd419-104">The secure socket extensions to Winsock allow a socket application to control the security of their traffic over a network.</span></span> <span data-ttu-id="bd419-105">Ces extensions permettent à une application de fournir la stratégie de sécurité et les exigences de son trafic réseau, et d’interroger les paramètres de sécurité appliqués.</span><span class="sxs-lookup"><span data-stu-id="bd419-105">These extensions allow an application to provide security policy and requirements for their network traffic, and query the security settings applied.</span></span> <span data-ttu-id="bd419-106">Par exemple, une application peut utiliser ces extensions pour interroger le jeton de sécurité d’homologue qui peut être utilisé pour effectuer des vérifications d’accès au niveau de l’application.</span><span class="sxs-lookup"><span data-stu-id="bd419-106">For example, an application can use these extensions to query the peer security token that can be used to perform application level access checks.</span></span>
+
+<span data-ttu-id="bd419-107">Les extensions de socket sécurisé sont conçues pour intégrer les services fournis par IPsec et d’autres protocoles de sécurité à l’aide de Winsock Framework.</span><span class="sxs-lookup"><span data-stu-id="bd419-107">The secure socket extensions are intended to integrate the services provided by IPsec and other security protocols with the Winsock framework.</span></span> <span data-ttu-id="bd419-108">Avant Windows Vista, sur Windows Server 2003 et Windows XP, IPsec a été configuré par un administrateur via des stratégies locales et de domaine.</span><span class="sxs-lookup"><span data-stu-id="bd419-108">Prior to Windows Vista, on Windows Server 2003 and Windows XP, IPsec has been configured by an administrator via local and domain policies.</span></span> <span data-ttu-id="bd419-109">Sur Windows Vista, les extensions Secure Socket permettent à la place des applications de configurer et de contrôler entièrement ou partiellement la sécurité de leur trafic réseau au niveau du Socket.</span><span class="sxs-lookup"><span data-stu-id="bd419-109">On Windows Vista, the secure socket extensions instead allow applications to entirely or partially configure and control the security of their network traffic at the socket level.</span></span>
+
+<span data-ttu-id="bd419-110">Les applications peuvent déjà sécuriser le trafic réseau à l’aide d’API publiques, telles que la gestion IPsec, la plateforme de filtrage Windows et l’interface SSPI (Security Support Provider Interface).</span><span class="sxs-lookup"><span data-stu-id="bd419-110">Applications can already secure network traffic by using public APIs, such as IPsec management, Windows Filtering Platform and Security Support Provider Interface (SSPI).</span></span> <span data-ttu-id="bd419-111">Toutefois, l’utilisation de ces API peut rendre l’application plus difficile à développer et peut compliquer la configuration et le déploiement de.</span><span class="sxs-lookup"><span data-stu-id="bd419-111">However, using these APIs may make the application more difficult to develop, and may make it more difficult to configure and deploy.</span></span> <span data-ttu-id="bd419-112">Les extensions Winsock Secure Socket ont été conçues pour simplifier le développement d’applications réseau qui nécessitent un trafic réseau sécurisé en laissant Winsock gérer la plus grande partie de la complexité.</span><span class="sxs-lookup"><span data-stu-id="bd419-112">The Winsock secure socket extensions have been designed to simplify the development of network applications that require secure network traffic by letting Winsock handle most of the complexity.</span></span>
+
+<span data-ttu-id="bd419-113">Ces extensions de socket sécurisé sont disponibles sur Windows Vista et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="bd419-113">These secure socket extensions are available on Windows Vista and later.</span></span>
+
+## <a name="secure-socket-functions"></a><span data-ttu-id="bd419-114">Fonctions de socket sécurisé</span><span class="sxs-lookup"><span data-stu-id="bd419-114">Secure Socket Functions</span></span>
+
+<span data-ttu-id="bd419-115">Les fonctions d’extension de socket sécurisé sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="bd419-115">The secure socket extension functions are as follows:</span></span>
+
+-   [<span data-ttu-id="bd419-116">**WSADeleteSocketPeerTargetName**</span><span class="sxs-lookup"><span data-stu-id="bd419-116">**WSADeleteSocketPeerTargetName**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname)
+-   [<span data-ttu-id="bd419-117">**WSAImpersonateSocketPeer**</span><span class="sxs-lookup"><span data-stu-id="bd419-117">**WSAImpersonateSocketPeer**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer)
+-   [<span data-ttu-id="bd419-118">**WSAQuerySocketSecurity**</span><span class="sxs-lookup"><span data-stu-id="bd419-118">**WSAQuerySocketSecurity**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity)
+-   [<span data-ttu-id="bd419-119">**WSARevertImpersonation**</span><span class="sxs-lookup"><span data-stu-id="bd419-119">**WSARevertImpersonation**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation)
+-   [<span data-ttu-id="bd419-120">**WSASetSocketPeerTargetName**</span><span class="sxs-lookup"><span data-stu-id="bd419-120">**WSASetSocketPeerTargetName**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname)
+-   [<span data-ttu-id="bd419-121">**WSASetSocketSecurity**</span><span class="sxs-lookup"><span data-stu-id="bd419-121">**WSASetSocketSecurity**</span></span>](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity)
+
+> [!Note]  
+> <span data-ttu-id="bd419-122">Les fonctions de socket sécurisé ne prennent actuellement en charge que le protocole IPsec et sont disponibles sur Windows Vista et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="bd419-122">The secure socket functions currently support only the IPsec protocol and are available on Windows Vista and later.</span></span>
+
+ 
+
+<span data-ttu-id="bd419-123">Les structures et les énumérations utilisées par les fonctions de socket sécurisé sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="bd419-123">The structures and enumerations used by the secure socket functions are as follows:</span></span>
+
+-   [<span data-ttu-id="bd419-124">**nom de la cible de l' \_ homologue du socket \_ \_**</span><span class="sxs-lookup"><span data-stu-id="bd419-124">**SOCKET\_PEER\_TARGET\_NAME**</span></span>](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_peer_target_name)
+-   [<span data-ttu-id="bd419-125">**\_protocole de sécurité de socket \_**</span><span class="sxs-lookup"><span data-stu-id="bd419-125">**SOCKET\_SECURITY\_PROTOCOL**</span></span>](/windows/desktop/api/Mstcpip/ne-mstcpip-socket_security_protocol)
+-   [<span data-ttu-id="bd419-126">**\_ \_ informations sur la requête de sécurité de socket \_**</span><span class="sxs-lookup"><span data-stu-id="bd419-126">**SOCKET\_SECURITY\_QUERY\_INFO**</span></span>](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_info)
+-   [<span data-ttu-id="bd419-127">**\_modèle de \_ requête de sécurité de socket \_**</span><span class="sxs-lookup"><span data-stu-id="bd419-127">**SOCKET\_SECURITY\_QUERY\_TEMPLATE**</span></span>](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_query_template)
+-   [<span data-ttu-id="bd419-128">**\_paramètres de sécurité du socket \_**</span><span class="sxs-lookup"><span data-stu-id="bd419-128">**SOCKET\_SECURITY\_SETTINGS**</span></span>](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings)
+-   [<span data-ttu-id="bd419-129">**paramètres de sécurité du SOCKET \_ \_ \_ IPSec**</span><span class="sxs-lookup"><span data-stu-id="bd419-129">**SOCKET\_SECURITY\_SETTINGS\_IPSEC**</span></span>](/windows/desktop/api/Mstcpip/ns-mstcpip-socket_security_settings_ipsec)
+
+<span data-ttu-id="bd419-130">Les fonctions de socket sécurisé sont simples à utiliser pour les applications normales et sont suffisamment flexibles pour les applications qui ont besoin d’un niveau de contrôle élevé sur leur sécurité.</span><span class="sxs-lookup"><span data-stu-id="bd419-130">The secure socket functions are simple to use for normal applications and are flexible enough for applications that need a high degree of control over their security.</span></span> <span data-ttu-id="bd419-131">Ces fonctions permettent de garder le mécanisme de sécurité sous-jacent masqué de l’application.</span><span class="sxs-lookup"><span data-stu-id="bd419-131">These functions make it possible to keep the underlying security mechanism hidden from the application.</span></span> <span data-ttu-id="bd419-132">Une application peut spécifier des exigences de sécurité génériques et permettre à l’administrateur de contrôler le protocole de sécurité utilisé pour prendre en charge les exigences.</span><span class="sxs-lookup"><span data-stu-id="bd419-132">An application can specify generic security requirements and let the administrator control the security protocol that is used to support the requirements.</span></span> <span data-ttu-id="bd419-133">Bien qu’il soit possible d’étendre ces fonctions pour ajouter d’autres protocoles de sécurité, actuellement, seul IPsec s’intègre aux fonctions de socket sécurisé.</span><span class="sxs-lookup"><span data-stu-id="bd419-133">While it is possible to extend these functions to add other security protocols, currently only IPsec integrates with the secure socket functions.</span></span>
+
+<span data-ttu-id="bd419-134">La fonction [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) permet à une application d’activer la sécurité et d’appliquer des paramètres de sécurité avant qu’une connexion soit établie.</span><span class="sxs-lookup"><span data-stu-id="bd419-134">The [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) function allows an application to enable security and apply security settings before a connection is established.</span></span>
+
+<span data-ttu-id="bd419-135">La fonction [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) permet à une application de spécifier le nom cible correspondant à une entité homologue.</span><span class="sxs-lookup"><span data-stu-id="bd419-135">The [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname) function allows an application to specify the target name corresponding to a peer entity.</span></span> <span data-ttu-id="bd419-136">Le protocole de sécurité sélectionné utilisera ces informations lors de l’authentification de l’homologue.</span><span class="sxs-lookup"><span data-stu-id="bd419-136">The selected security protocol will use this information when authenticating the peer.</span></span> <span data-ttu-id="bd419-137">Cette fonctionnalité résout les problèmes liés aux attaques de l’intercepteur approuvé.</span><span class="sxs-lookup"><span data-stu-id="bd419-137">This feature addresses concerns about trusted man-in-the-middle attacks.</span></span>
+
+<span data-ttu-id="bd419-138">La fonction [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname) est utilisée pour supprimer un nom d’homologue précédemment spécifié pour un Socket.</span><span class="sxs-lookup"><span data-stu-id="bd419-138">The [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname) function is used to delete a previously specified peer name for a socket.</span></span>
+
+<span data-ttu-id="bd419-139">Une fois qu’une connexion est établie, la fonction [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) permet à une application d’interroger les propriétés de sécurité de la connexion, ce qui peut inclure le jeton d’accès d’ordinateur ou d’accès à l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="bd419-139">After a connection is established, the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function allows an application to query the security properties of the connection, which can include the peer access or computer access token.</span></span>
+
+<span data-ttu-id="bd419-140">Après l’établissement d’une connexion, la fonction [**WSAImpersonateSocketPeer**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer) permet à une application d’emprunter l’identité de l’entité de sécurité correspondant à un homologue de socket afin d’effectuer une autorisation au niveau de l’application.</span><span class="sxs-lookup"><span data-stu-id="bd419-140">After a connection is established, the [**WSAImpersonateSocketPeer**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaimpersonatesocketpeer) function allows an application to impersonate the security principal corresponding to a socket peer in order to perform application-level authorization.</span></span>
+
+<span data-ttu-id="bd419-141">Le [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation) permet à une application de mettre fin à l’emprunt d’identité d’un homologue de Socket.</span><span class="sxs-lookup"><span data-stu-id="bd419-141">The [**WSARevertImpersonation**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsarevertimpersonation) allows an application to terminate the impersonation of a socket peer.</span></span>
+
+## <a name="secure-socket-architecture"></a><span data-ttu-id="bd419-142">Architecture du socket sécurisé</span><span class="sxs-lookup"><span data-stu-id="bd419-142">Secure Socket Architecture</span></span>
+
+![architecture de base des extensions Winsock Secure Socket](images/ss-arch.png)
+
+-   <span data-ttu-id="bd419-144">Une application appelle les fonctions de socket sécurisé pour définir ou interroger les paramètres de sécurité d’un Socket.</span><span class="sxs-lookup"><span data-stu-id="bd419-144">An application calls the secure socket functions to set or query security settings for a socket.</span></span>
+-   <span data-ttu-id="bd419-145">Les fonctions de socket sécurisé sont un ensemble de fonctions d’extension de type sécurisé qui encapsulent les appels à la fonction [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) à l’aide de valeurs nouvellement définies pour le paramètre *DwIoControlCode* disponible sur Windows Vista et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="bd419-145">The secure socket functions are a set of type-safe extension functions that wrap calls to the [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl) function using newly-defined values for the *dwIoControlCode* parameter available on Windows Vista and later.</span></span> <span data-ttu-id="bd419-146">Ces IOCTL sont gérées par la pile réseau.</span><span class="sxs-lookup"><span data-stu-id="bd419-146">These IOCTLs are handled by the network stack.</span></span>
+-   <span data-ttu-id="bd419-147">La pile réseau dirigera l’appel vers l’application de la [couche application (ALE)](../fwp/application-layer-enforcement--ale-.md) avec le descripteur du point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="bd419-147">The network stack will direct the call to [Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md) along with the endpoint handle.</span></span> <span data-ttu-id="bd419-148">Pour les fonctions [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname)et [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) , ALE configure les paramètres de l’application sur le point de terminaison local.</span><span class="sxs-lookup"><span data-stu-id="bd419-148">For the [**WSADeleteSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsadeletesocketpeertargetname), [**WSASetSocketPeerTargetName**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketpeertargetname), and [**WSASetSocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsasetsocketsecurity) functions, ALE will configure the application's settings on the local endpoint.</span></span> <span data-ttu-id="bd419-149">Pour la fonction [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) , ALE lira les informations demandées à partir des points de terminaison locaux et distants applicables.</span><span class="sxs-lookup"><span data-stu-id="bd419-149">For the [**WSAQuerySocketSecurity**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-wsaquerysocketsecurity) function, ALE will read the requested information from applicable local and remote endpoints.</span></span>
+-   <span data-ttu-id="bd419-150">En fonction des événements de socket, l’application de la couche application (ALE) applique des stratégies pour l’architecture du socket sécurisé à l’aide de la plateforme de filtrage Windows.</span><span class="sxs-lookup"><span data-stu-id="bd419-150">Based on socket events, Application Layer Enforcement (ALE) enforces policies for the secure socket architecture using the Windows Filtering Platform.</span></span> <span data-ttu-id="bd419-151">Pour plus d’informations, consultez [à propos de la plateforme de filtrage Windows](../fwp/about-windows-filtering-platform.md) et de l' [application de la couche application (ALE)](../fwp/application-layer-enforcement--ale-.md).</span><span class="sxs-lookup"><span data-stu-id="bd419-151">For more information, see [About Windows Filtering Platform](../fwp/about-windows-filtering-platform.md) and [Application Layer Enforcement (ALE)](../fwp/application-layer-enforcement--ale-.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="bd419-152">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="bd419-152">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="bd419-153">À propos de la plateforme de filtrage Windows</span><span class="sxs-lookup"><span data-stu-id="bd419-153">About Windows Filtering Platform</span></span>](../fwp/about-windows-filtering-platform.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-154">Exemples de Winsock avancés utilisant Secure Socket extensions</span><span class="sxs-lookup"><span data-stu-id="bd419-154">Advanced Winsock Samples Using Secure Socket Extensions</span></span>](advanced-winsock-samples-using-secure-socket-extensions.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-155">Application de la couche application (ALE)</span><span class="sxs-lookup"><span data-stu-id="bd419-155">Application Layer Enforcement (ALE)</span></span>](../fwp/application-layer-enforcement--ale-.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-156">Configuration IPsec</span><span class="sxs-lookup"><span data-stu-id="bd419-156">IPsec Configuration</span></span>](../fwp/ipsec-configuration.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-157">Fonctions IPsec</span><span class="sxs-lookup"><span data-stu-id="bd419-157">IPsec Functions</span></span>](../fwp/fwp-ipsec-functions.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-158">Programmation Winsock sécurisée</span><span class="sxs-lookup"><span data-stu-id="bd419-158">Secure Winsock Programming</span></span>](secure-winsock-programming.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-159">interface du fournisseur de la prise en charge de la sécurité (Security Support Provider Interface ou SSPI)</span><span class="sxs-lookup"><span data-stu-id="bd419-159">Security Support Provider Interface (SSPI)</span></span>](../rpc/security-support-provider-interface-sspi-.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-160">Utilisation des extensions de socket sécurisé</span><span class="sxs-lookup"><span data-stu-id="bd419-160">Using Secure Socket Extensions</span></span>](using-secure-socket-extensions.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-161">Plateforme de filtrage Windows</span><span class="sxs-lookup"><span data-stu-id="bd419-161">Windows Filtering Platform</span></span>](../fwp/windows-filtering-platform-start-page.md)
+</dt> <dt>
+
+[<span data-ttu-id="bd419-162">Fonctions de l’API de la plateforme de filtrage Windows</span><span class="sxs-lookup"><span data-stu-id="bd419-162">Windows Filtering Platform API Functions</span></span>](../fwp/fwp-functions.md)
+</dt> </dl>
+
+ 
+
+ 
