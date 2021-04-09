@@ -1,0 +1,30 @@
+---
+description: La boîte de dialogue MsiRMFilesInUse peut être créée pour afficher une liste des processus en cours d’exécution des fichiers qui doivent être remplacés ou supprimés par l’installation.
+ms.assetid: e8d93310-388e-4a08-9bce-04c31c33a665
+title: Boîte de dialogue MsiRMFilesInUse
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 72bba73cab51f4b3d8321b15001dbb72c638176b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "103953009"
+---
+# <a name="msirmfilesinuse-dialog"></a><span data-ttu-id="e6213-103">Boîte de dialogue MsiRMFilesInUse</span><span class="sxs-lookup"><span data-stu-id="e6213-103">MsiRMFilesInUse Dialog</span></span>
+
+<span data-ttu-id="e6213-104">La boîte de dialogue MsiRMFilesInUse peut être créée pour afficher une liste des processus en cours d’exécution des fichiers qui doivent être remplacés ou supprimés par l’installation.</span><span class="sxs-lookup"><span data-stu-id="e6213-104">The MsiRMFilesInUse Dialog box can be authored to display a list of processes that are currently running files that need to be overwritten or deleted by the installation.</span></span> <span data-ttu-id="e6213-105">L’utilisateur peut choisir entre les options « fermer automatiquement les applications et les redémarrer » ou «ne pas fermer les applications.</span><span class="sxs-lookup"><span data-stu-id="e6213-105">The user can select between options to "Automatically close applications and restart them" or "Do not close applications.</span></span> <span data-ttu-id="e6213-106">(Un redémarrage sera nécessaire.)» Si l’utilisateur sélectionne l’option « fermer automatiquement les applications et les redémarrer », un contrôle de bouton de commande dans cette boîte de dialogue peut être créé pour publier l’événement de contrôle RMShutdownAndRestart et le [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) peut fermer les applications et les redémarrer à la fin de l’installation.</span><span class="sxs-lookup"><span data-stu-id="e6213-106">(A reboot will be required.)" If the user selects the "Automatically close applications and restart them" option, a push button control on this dialog box can be authored to publish the RMShutdownAndRestart control event and the [Restart Manager](../rstmgr/restart-manager-portal.md) can close the applications and restart them at the end of the installation.</span></span> <span data-ttu-id="e6213-107">Cela permet d’éliminer ou de réduire la nécessité de redémarrer l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="e6213-107">This can eliminate or reduce the need to restart the computer.</span></span> <span data-ttu-id="e6213-108">Pour plus d’informations, consultez [redémarrages du système](system-reboots.md).</span><span class="sxs-lookup"><span data-stu-id="e6213-108">For more information, see [System Reboots](system-reboots.md).</span></span>
+
+<span data-ttu-id="e6213-109">La boîte de dialogue **MsiRMFilesInUse** s’affiche au cours d’une installation uniquement si tous les éléments suivants sont vrais.</span><span class="sxs-lookup"><span data-stu-id="e6213-109">The **MsiRMFilesInUse** dialog box is displayed during an installation only if all the following are true.</span></span> <span data-ttu-id="e6213-110">Lorsque l’un de ces deux est false, la Windows Installer ignore la boîte de dialogue **MsiRMFilesInUse** .</span><span class="sxs-lookup"><span data-stu-id="e6213-110">When any of these are false, the Windows Installer ignores the **MsiRMFilesInUse** dialog box.</span></span>
+
+-   <span data-ttu-id="e6213-111">Une version de Windows Installer qui n’est pas antérieure à la version 4,0 et un système d’exploitation qui n’est pas antérieur à Windows Vista ou Windows Server 2008 exécute l’installation.</span><span class="sxs-lookup"><span data-stu-id="e6213-111">A Windows Installer version that is not earlier than version 4.0 and an operating system that is not earlier than Windows Vista or Windows Server 2008 is running the installation.</span></span>
+-   <span data-ttu-id="e6213-112">Le niveau complet de l' [interface utilisateur](user-interface-levels.md) de l’interface utilisateur est utilisé.</span><span class="sxs-lookup"><span data-stu-id="e6213-112">The Full UI [user interface level](user-interface-levels.md) is used.</span></span>
+-   <span data-ttu-id="e6213-113">Les interactions avec le [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) n’ont pas été désactivées par la propriété [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) ou la stratégie [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) .</span><span class="sxs-lookup"><span data-stu-id="e6213-113">Interactions with the [Restart Manager](../rstmgr/restart-manager-portal.md) have not been disabled by the [**MSIRESTARTMANAGERCONTROL**](msirestartmanagercontrol.md) property or the [DisableAutomaticApplicationShutdown](disableautomaticapplicationshutdown.md) policy.</span></span>
+-   <span data-ttu-id="e6213-114">La boîte de dialogue **MsiRMFilesInUse** est présente dans le package d’installation.</span><span class="sxs-lookup"><span data-stu-id="e6213-114">The **MsiRMFilesInUse** dialog box is present in the installation package.</span></span>
+-   <span data-ttu-id="e6213-115">Tous les appels de la Windows Installer au [Gestionnaire de redémarrage](../rstmgr/restart-manager-portal.md) réussissent.</span><span class="sxs-lookup"><span data-stu-id="e6213-115">All calls from the Windows Installer to the [Restart Manager](../rstmgr/restart-manager-portal.md) are successful.</span></span>
+
+<span data-ttu-id="e6213-116">Cette boîte de dialogue est créée comme requis par l' [action InstallValidate](installvalidate-action.md).</span><span class="sxs-lookup"><span data-stu-id="e6213-116">This dialog box will be created as required by the [InstallValidate action](installvalidate-action.md).</span></span>
+
+ 
+
+ 
