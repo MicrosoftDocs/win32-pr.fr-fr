@@ -1,0 +1,48 @@
+---
+description: Vecteur 3D avec des composants X et Y stockés sous la forme d’un nombre à virgule flottante 11 bits et un composant Z stocké sous la forme d’une valeur à virgule flottante de 10 bits.
+ms.assetid: cca32fd6-9f41-49c2-8e2a-247bbf78edca
+title: Extensions XMFLOAT3PK
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: a5afc12c7e481253363da599c53e993d8a3f6584
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104201932"
+---
+# <a name="xmfloat3pk-extensions"></a>Extensions XMFLOAT3PK
+
+Vecteur 3D avec des composants X et Y stockés sous la forme d’un nombre à virgule flottante 11 bits et un composant Z stocké sous la forme d’une valeur à virgule flottante de 10 bits.
+
+> [!Note]  
+> Les fonctionnalités répertoriées ici sont disponibles uniquement lors du développement avec C++.
+
+ 
+
+## <a name="in-this-section"></a>Contenu de cette section
+
+
+
+| Rubrique                                                           | Description                                      |
+|-----------------------------------------------------------------|--------------------------------------------------|
+| [**Constructeurs XMFLOAT3PK**](xmfloat3pk-ctor.md)<br/>   | Constructeurs exposés par `XMFLOAT3PK` .<br/> |
+| [XMFLOAT3PK, opérateurs](ovw-xmfloat3pk-operators.md)<br/> | Opérateurs exposés par `XMFLOAT3PK` .<br/>    |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+**Informations de référence**
+</dt> <dt>
+
+[**XMFLOAT3PK**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmfloat3pk)
+</dt> </dl>
+
+ 
+
+ 
