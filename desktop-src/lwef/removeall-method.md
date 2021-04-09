@@ -1,0 +1,45 @@
+---
+title: RemoveAll, méthode
+description: RemoveAll, méthode
+ms.assetid: 233f8d65-36ec-4c83-8c91-59d406edd70a
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e56a22536d2d481f9da0073265e529b9a73a4088
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "103940996"
+---
+# <a name="removeall-method"></a>RemoveAll, méthode
+
+\[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
+
+<dl> <dt>
+
+<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Descriptive**
+</dt> <dd>
+
+Supprime tous les objets [**Command**](/windows/desktop/lwef/the-command-object) de la collection [**Commands**](/windows/desktop/lwef/the-commands-collection-object) .
+
+</dd> <dt>
+
+<span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
+</dt> <dd>
+
+*agent ***. Caractères («*** CharacterID * * * »). Commands. RemoveAll**
+
+</dd> </dl>
+
+## <a name="remarks"></a>Notes
+
+Lorsqu’un objet [**Command**](/windows/desktop/lwef/the-command-object) est supprimé de la collection, il n’apparaît plus lorsque le menu contextuel du caractère s’affiche ou dans la fenêtre commandes lorsque votre application cliente est en entrée active.
+
+## <a name="see-also"></a>Voir aussi
+
+[**Remove (méthode)**](remove-method.md)
+
+
+ 
+
+ 
