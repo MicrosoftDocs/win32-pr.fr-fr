@@ -1,0 +1,41 @@
+---
+title: Fonctions et messages des pilotes installables
+description: Fonctions et messages des pilotes installables
+ms.assetid: f487705a-ae8e-4ea8-bfd5-9b0f6087ddbb
+keywords:
+- pilotes installables, fonctions
+- pilotes installables, messages
+- pilotes installables, fonction OpenDriver
+- OpenDriver fonction)
+- pilotes installables, messages personnalisés
+- messages du pilote
+- messages de pilote personnalisés
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c66e6ebaac73bf8eb779119750cb390481152c3f
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "103940951"
+---
+# <a name="installable-driver-functions-and-messages"></a><span data-ttu-id="3db3c-110">Fonctions et messages des pilotes installables</span><span class="sxs-lookup"><span data-stu-id="3db3c-110">Installable Driver Functions and Messages</span></span>
+
+<span data-ttu-id="3db3c-111">Vous pouvez ouvrir un pilote installable à partir d’une application à l’aide de la fonction [**OpenDriver**](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) .</span><span class="sxs-lookup"><span data-stu-id="3db3c-111">You can open an installable driver from an application by using the [**OpenDriver**](/windows/win32/api/mmiscapi/nf-mmiscapi-opendriver) function.</span></span> <span data-ttu-id="3db3c-112">Cette fonction crée une instance du pilote, en chargeant le pilote en mémoire si aucune autre instance n’existe et retourne le handle de la nouvelle instance.</span><span class="sxs-lookup"><span data-stu-id="3db3c-112">This function creates an instance of the driver, loading the driver into memory if no other instance exists, and returns the handle of the new instance.</span></span> <span data-ttu-id="3db3c-113">Lors de l’ouverture d’un pilote installable, vous devez fournir le chemin d’accès complet du pilote ou les noms de la clé de Registre et la valeur associée au pilote.</span><span class="sxs-lookup"><span data-stu-id="3db3c-113">When opening an installable driver, you must supply either the full path of the driver or the names of the registry key and value associated with the driver.</span></span>
+
+<span data-ttu-id="3db3c-114">Une fois qu’un pilote est ouvert, vous pouvez le diriger pour effectuer des tâches à l’aide de la fonction [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) pour envoyer des messages de pilote au pilote.</span><span class="sxs-lookup"><span data-stu-id="3db3c-114">Once a driver is open, you can direct it to carry out tasks by using the [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) function to send driver messages to the driver.</span></span> <span data-ttu-id="3db3c-115">Par exemple, vous pouvez indiquer au pilote d’afficher sa boîte de dialogue de configuration en envoyant le message de configuration du [**DRV \_**](drv-configure.md) .</span><span class="sxs-lookup"><span data-stu-id="3db3c-115">For example, you can direct the driver to display its configuration dialog box by sending the [**DRV\_CONFIGURE**](drv-configure.md) message.</span></span> <span data-ttu-id="3db3c-116">Avant d’envoyer ce message, vous devez déterminer si le pilote a une boîte de dialogue de configuration en envoyant le message [**\_ QUERYCONFIGURE du DRV**](drv-queryconfigure.md) et en vérifiant une valeur de retour différente de zéro.</span><span class="sxs-lookup"><span data-stu-id="3db3c-116">Before sending this message, you must determine whether the driver has a configuration dialog box by sending the [**DRV\_QUERYCONFIGURE**](drv-queryconfigure.md) message and checking for a nonzero return value.</span></span> <span data-ttu-id="3db3c-117">De nombreux pilotes fournissent un ensemble de messages personnalisés que vous pouvez envoyer pour diriger les opérations du pilote.</span><span class="sxs-lookup"><span data-stu-id="3db3c-117">Many drivers provide a set of custom messages that you can send to direct the operations of the driver.</span></span>
+
+<span data-ttu-id="3db3c-118">Si vous avez besoin d’un accès spécial à un pilote pouvant être installé, tel que l’accès à ses ressources, vous pouvez récupérer le descripteur de module du pilote à l’aide de la fonction [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) .</span><span class="sxs-lookup"><span data-stu-id="3db3c-118">If you need special access to an installable driver, such as access to its resources, you can retrieve the module handle of the driver by using the [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) function.</span></span>
+
+<span data-ttu-id="3db3c-119">Lorsque vous n’avez plus besoin du pilote installable, vous pouvez le fermer à l’aide de la fonction [**CloseDriver**](/windows/win32/api/mmiscapi/nf-mmiscapi-closedriver) .</span><span class="sxs-lookup"><span data-stu-id="3db3c-119">When you no longer need the installable driver, you can close it by using the [**CloseDriver**](/windows/win32/api/mmiscapi/nf-mmiscapi-closedriver) function.</span></span>
+
+<span data-ttu-id="3db3c-120">Vous pouvez utiliser les fonctions et messages des pilotes installables pour ouvrir et gérer n’importe quel pilote pouvant être installé.</span><span class="sxs-lookup"><span data-stu-id="3db3c-120">You can use the installable driver functions and messages to open and manage any installable driver.</span></span> <span data-ttu-id="3db3c-121">Toutefois, il est recommandé d’utiliser d’abord des services standard (tels que [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen), [**waveOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage)et [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) pour les périphériques de sortie Waveform), le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="3db3c-121">However, the recommended course of action for opening and managing multimedia devices is to first use standard services (such as [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen), [**waveOutMessage**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutmessage), and [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) for waveform output devices), if they exist.</span></span> <span data-ttu-id="3db3c-122">S’il n’existe pas de services standard pour un pilote multimédia, ouvrez et gérez le pilote à l’aide des fonctions et des messages du pilote installable.</span><span class="sxs-lookup"><span data-stu-id="3db3c-122">If standard services do not exist for a multimedia driver, then open and manage the driver using the installable driver functions and messages.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="3db3c-123">Les fonctions [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) et [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) sont les fonctions préférées à utiliser pour envoyer des messages à un pilote et pour obtenir un descripteur d’une instance de module.</span><span class="sxs-lookup"><span data-stu-id="3db3c-123">The [**SendDriverMessage**](/windows/win32/api/mmiscapi/nf-mmiscapi-senddrivermessage) and [**GetDriverModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-getdrivermodulehandle) functions are the preferred functions to use to send messages to a driver and to obtain a handle to a module instance.</span></span> <span data-ttu-id="3db3c-124">Toutefois, l’ancienne fonction [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle) a été incluse pour assurer la compatibilité avec les versions précédentes du système d’exploitation Windows.</span><span class="sxs-lookup"><span data-stu-id="3db3c-124">The older [**DrvGetModuleHandle**](/windows/win32/api/mmiscapi/nf-mmiscapi-drvgetmodulehandle) function, however, has been included to maintain compatibility with previous versions of the Windows operating system.</span></span>
+
+ 
+
+ 
+
+ 
