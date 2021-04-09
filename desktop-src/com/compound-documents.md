@@ -1,0 +1,71 @@
+---
+title: Documents composés
+description: Les documents composés OLE permettent aux utilisateurs qui travaillent au sein d’une même application de manipuler des données écrites dans différents formats et dérivées de plusieurs sources.
+ms.assetid: d17dc0dd-3115-4830-8c6b-694a8d1accaa
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 76f12e0228b7c8c1d74e4ec33d8069490351f77f
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "104102448"
+---
+# <a name="compound-documents"></a><span data-ttu-id="ab96a-103">Documents composés</span><span class="sxs-lookup"><span data-stu-id="ab96a-103">Compound Documents</span></span>
+
+<span data-ttu-id="ab96a-104">Les documents composés OLE permettent aux utilisateurs qui travaillent au sein d’une même application de manipuler des données écrites dans différents formats et dérivées de plusieurs sources.</span><span class="sxs-lookup"><span data-stu-id="ab96a-104">OLE compound documents enable users working within a single application to manipulate data written in various formats and derived from multiple sources.</span></span> <span data-ttu-id="ab96a-105">Par exemple, un utilisateur peut insérer dans un document de traitement de texte un graphique créé dans une deuxième application et un objet son créé dans une troisième application.</span><span class="sxs-lookup"><span data-stu-id="ab96a-105">For example, a user might insert into a word processing document a graph created in a second application and a sound object created in a third application.</span></span> <span data-ttu-id="ab96a-106">L’activation du graphique entraîne le chargement de l’interface utilisateur de la deuxième application, ou au moins de la partie contenant les outils nécessaires à la modification de l’objet.</span><span class="sxs-lookup"><span data-stu-id="ab96a-106">Activating the graph causes the second application to load its user interface, or at least that part containing tools necessary to edit the object.</span></span> <span data-ttu-id="ab96a-107">L’activation de l’objet Sound entraîne la lecture de la troisième application.</span><span class="sxs-lookup"><span data-stu-id="ab96a-107">Activating the sound object causes the third application to play it.</span></span> <span data-ttu-id="ab96a-108">Dans les deux cas, un utilisateur est en mesure de manipuler des données à partir de sources externes à partir du contexte d’un document unique.</span><span class="sxs-lookup"><span data-stu-id="ab96a-108">In both cases, a user is able to manipulate data from external sources from within the context of a single document.</span></span>
+
+<span data-ttu-id="ab96a-109">La technologie OLE Compound document repose sur une Fondation composée de COM, de stockage structuré et de transfert de données uniforme.</span><span class="sxs-lookup"><span data-stu-id="ab96a-109">OLE compound document technology rests on a foundation consisting of COM, structured storage, and uniform data transfer.</span></span> <span data-ttu-id="ab96a-110">Comme résumé ci-dessous, chacune de ces technologies de base joue un rôle essentiel dans les documents composés OLE :</span><span class="sxs-lookup"><span data-stu-id="ab96a-110">As summarized below, each of these core technologies plays a critical role in OLE compound documents:</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="ab96a-111"><span id="COM"></span><span id="com"></span>COM</span><span class="sxs-lookup"><span data-stu-id="ab96a-111"><span id="COM"></span><span id="com"></span>COM</span></span>
+</dt> <dd>
+
+<span data-ttu-id="ab96a-112">Un objet de document composé est essentiellement un objet COM qui peut être incorporé dans un document existant ou lié à celui-ci.</span><span class="sxs-lookup"><span data-stu-id="ab96a-112">A compound document object is essentially a COM object that can be embedded in, or linked to, an existing document.</span></span> <span data-ttu-id="ab96a-113">En tant qu’objet COM, un objet de document composé expose l’interface [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) , par l’intermédiaire de laquelle les clients peuvent obtenir des pointeurs vers ses autres interfaces, y compris plusieurs, telles que [**IOleObject**](/windows/desktop/api/OleIdl/nn-oleidl-ioleobject), [**IOleLink**](/windows/desktop/api/OleIdl/nn-oleidl-iolelink)et [**IViewObject2**](/windows/desktop/api/OleIdl/nn-oleidl-iviewobject2), qui fournissent des fonctionnalités spéciales propres aux objets de document composés.</span><span class="sxs-lookup"><span data-stu-id="ab96a-113">As a COM object, a compound document object exposes the [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) interface, through which clients can obtain pointers to its other interfaces, including several, such as [**IOleObject**](/windows/desktop/api/OleIdl/nn-oleidl-ioleobject), [**IOleLink**](/windows/desktop/api/OleIdl/nn-oleidl-iolelink), and [**IViewObject2**](/windows/desktop/api/OleIdl/nn-oleidl-iviewobject2), that provide special features unique to compound document objects.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="ab96a-114"><span id="Structured_Storage"></span><span id="structured_storage"></span><span id="STRUCTURED_STORAGE"></span>Stockage structuré</span><span class="sxs-lookup"><span data-stu-id="ab96a-114"><span id="Structured_Storage"></span><span id="structured_storage"></span><span id="STRUCTURED_STORAGE"></span>Structured Storage</span></span>
+</dt> <dd>
+
+<span data-ttu-id="ab96a-115">Un objet de document composé doit implémenter les interfaces [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage) ou, éventuellement, [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) pour gérer son propre stockage.</span><span class="sxs-lookup"><span data-stu-id="ab96a-115">A compound document object must implement the [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage) or, optionally, [**IPersistStream**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststream) interfaces to manage its own storage.</span></span> <span data-ttu-id="ab96a-116">Un conteneur utilisé pour créer des documents composés doit fournir l’interface [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) , par l’intermédiaire de laquelle les objets stockent et récupèrent les données.</span><span class="sxs-lookup"><span data-stu-id="ab96a-116">A container used to create compound documents must supply the [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) interface, through which objects store and retrieve data.</span></span> <span data-ttu-id="ab96a-117">Les conteneurs fournissent presque toujours des instances de **IStorage** obtenues à partir de l’implémentation des fichiers composés d’OLE.</span><span class="sxs-lookup"><span data-stu-id="ab96a-117">Containers almost always provide instances of **IStorage** obtained from OLE's Compound Files implementation.</span></span> <span data-ttu-id="ab96a-118">Les conteneurs doivent également utiliser les interfaces **IPersistStorage** et/ou **IPersistStream** d’un objet.</span><span class="sxs-lookup"><span data-stu-id="ab96a-118">Containers must also use an object's **IPersistStorage** and/or **IPersistStream** interfaces.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="ab96a-119"><span id="Uniform_Data_Transfer"></span><span id="uniform_data_transfer"></span><span id="UNIFORM_DATA_TRANSFER"></span>Uniform Data Transfer</span><span class="sxs-lookup"><span data-stu-id="ab96a-119"><span id="Uniform_Data_Transfer"></span><span id="uniform_data_transfer"></span><span id="UNIFORM_DATA_TRANSFER"></span>Uniform Data Transfer</span></span>
+</dt> <dd>
+
+<span data-ttu-id="ab96a-120">Les applications qui prennent en charge les documents composés doivent implémenter [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) , car les objets incorporés et les objets liés commencent comme des données qui ont été transférées à l’aide de formats de presse-papiers OLE spéciaux, plutôt que des formats de presse-papiers Microsoft Windows standard</span><span class="sxs-lookup"><span data-stu-id="ab96a-120">Applications that support compound documents must implement [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject) because embedded objects and linked objects begin as data that has been transferred using special OLE clipboard formats, rather than standard Microsoft Windows clipboard formats.</span></span> <span data-ttu-id="ab96a-121">En d’autres termes, la mise en forme des données en tant qu’objet incorporé ou lié est simplement une option supplémentaire fournie par le modèle de transfert de données uniforme d’OLE.</span><span class="sxs-lookup"><span data-stu-id="ab96a-121">In other words, formatting data as an embedded or linked object is simply one more option provided by OLE's uniform data transfer model.</span></span>
+
+</dd> </dl>
+
+<span data-ttu-id="ab96a-122">La technologie des documents composés d’OLE tire parti des développeurs de logiciels et des utilisateurs.</span><span class="sxs-lookup"><span data-stu-id="ab96a-122">OLE's compound document technology benefits both software developers and users alike.</span></span> <span data-ttu-id="ab96a-123">Au lieu de vous sentir obligé de récolter chaque fonctionnalité concevable dans une seule application, les développeurs de logiciels sont désormais gratuits, s’ils le souhaitent, pour développer des applications plus petites et plus ciblées qui reposent sur d’autres applications pour fournir des fonctionnalités supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="ab96a-123">Instead of feeling obligated to cram every conceivable feature into a single application, software developers are now free, if they like, to develop smaller, more focused applications that rely on other applications to supply additional features.</span></span> <span data-ttu-id="ab96a-124">Dans les cas où un développeur de logiciels décide de fournir une application avec des fonctionnalités au-delà de ses fonctionnalités de base, le développeur peut implémenter ces services supplémentaires comme des dll distinctes, qui sont chargées dans la mémoire uniquement lorsque leurs services sont requis.</span><span class="sxs-lookup"><span data-stu-id="ab96a-124">In cases where a software developer decides to provide an application with capabilities beyond its core features, the developer can implement these additional services as separate DLLs, which are loaded into memory only when their services are required.</span></span> <span data-ttu-id="ab96a-125">Les utilisateurs bénéficient de logiciels plus petits, plus rapides et plus efficaces qu’ils peuvent mélanger et faire correspondre en fonction des besoins, en manipulant tous les composants requis à partir d’un seul document maître.</span><span class="sxs-lookup"><span data-stu-id="ab96a-125">Users benefit from smaller, faster, more capable software that they can mix and match as needed, manipulating all required components from within a single master document.</span></span>
+
+<span data-ttu-id="ab96a-126">Pour plus d'informations, voir les rubriques suivantes :</span><span class="sxs-lookup"><span data-stu-id="ab96a-126">For more information, see the following topics:</span></span>
+
+-   [<span data-ttu-id="ab96a-127">Conteneurs et serveurs</span><span class="sxs-lookup"><span data-stu-id="ab96a-127">Containers and Servers</span></span>](containers-and-servers.md)
+-   [<span data-ttu-id="ab96a-128">Liaison et incorporation</span><span class="sxs-lookup"><span data-stu-id="ab96a-128">Linking and Embedding</span></span>](linking-and-embedding.md)
+-   [<span data-ttu-id="ab96a-129">Gestionnaires d’objets</span><span class="sxs-lookup"><span data-stu-id="ab96a-129">Object Handlers</span></span>](object-handlers.md)
+-   [<span data-ttu-id="ab96a-130">Serveurs in-process</span><span class="sxs-lookup"><span data-stu-id="ab96a-130">In-Process Servers</span></span>](in-process-servers.md)
+-   [<span data-ttu-id="ab96a-131">Objets liés et monikers</span><span class="sxs-lookup"><span data-stu-id="ab96a-131">Linked Objects and Monikers</span></span>](linked-objects-and-monikers.md)
+-   [<span data-ttu-id="ab96a-132">Notifications</span><span class="sxs-lookup"><span data-stu-id="ab96a-132">Notifications</span></span>](notifications.md)
+-   [<span data-ttu-id="ab96a-133">Interfaces de document composé</span><span class="sxs-lookup"><span data-stu-id="ab96a-133">Compound Document Interfaces</span></span>](compound-document-interfaces.md)
+-   [<span data-ttu-id="ab96a-134">États des objets</span><span class="sxs-lookup"><span data-stu-id="ab96a-134">Object States</span></span>](object-states.md)
+-   [<span data-ttu-id="ab96a-135">Implémentation de l’activation In-Place</span><span class="sxs-lookup"><span data-stu-id="ab96a-135">Implementing In-Place Activation</span></span>](implementing-in-place-activation.md)
+-   [<span data-ttu-id="ab96a-136">Création d’objets liés et incorporés à partir de données existantes</span><span class="sxs-lookup"><span data-stu-id="ab96a-136">Creating Linked and Embedded Objects from Existing Data</span></span>](creating-linked-and-embedded-objects-from-existing-data.md)
+-   [<span data-ttu-id="ab96a-137">Afficher la mise en cache</span><span class="sxs-lookup"><span data-stu-id="ab96a-137">View Caching</span></span>](view-caching.md)
+
+## <a name="related-topics"></a><span data-ttu-id="ab96a-138">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="ab96a-138">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="ab96a-139">Transfert de données</span><span class="sxs-lookup"><span data-stu-id="ab96a-139">Data Transfer</span></span>](data-transfer.md)
+</dt> <dt>
+
+[<span data-ttu-id="ab96a-140">Stockage structuré</span><span class="sxs-lookup"><span data-stu-id="ab96a-140">Structured Storage</span></span>](/windows/desktop/Stg/structured-storage-start-page)
+</dt> </dl>
+
+ 
+
+ 
