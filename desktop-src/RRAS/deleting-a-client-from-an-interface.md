@@ -1,0 +1,26 @@
+---
+title: Suppression d’un client d’une interface
+description: Pour supprimer un client, tel qu’un protocole de routage, d’une interface particulière, utilisez MprAdminInterfaceTransportGetInfo ou MprConfigInterfaceTransportGetInfo pour récupérer toutes les informations client pour l’interface.
+ms.assetid: 22fd7233-a242-49c2-8c26-59b415c73af2
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 585a37920b59f47a0c933427d7218d08a61bed9d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103940125"
+---
+# <a name="deleting-a-client-from-an-interface"></a><span data-ttu-id="a6a35-103">Suppression d’un client d’une interface</span><span class="sxs-lookup"><span data-stu-id="a6a35-103">Deleting a Client from an Interface</span></span>
+
+<span data-ttu-id="a6a35-104">Pour supprimer un client, tel qu’un protocole de routage, d’une interface particulière, utilisez [**MprAdminInterfaceTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportgetinfo) ou [**MprConfigInterfaceTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mprconfiginterfacetransportgetinfo) pour récupérer toutes les informations client pour l’interface.</span><span class="sxs-lookup"><span data-stu-id="a6a35-104">To delete a client, such as a routing protocol, from a particular interface, use either [**MprAdminInterfaceTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportgetinfo) or [**MprConfigInterfaceTransportGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mprconfiginterfacetransportgetinfo) to retrieve all the client information for the interface.</span></span> <span data-ttu-id="a6a35-105">Utilisez [**MprInfoBlockRemove**](/windows/desktop/api/Mprapi/nf-mprapi-mprinfoblockremove) pour supprimer le bloc d’informations du client à supprimer.</span><span class="sxs-lookup"><span data-stu-id="a6a35-105">Use [**MprInfoBlockRemove**](/windows/desktop/api/Mprapi/nf-mprapi-mprinfoblockremove) to remove the information block for the client to be deleted.</span></span> <span data-ttu-id="a6a35-106">Utilisez ensuite [**MprInfoBlockAdd**](/windows/desktop/api/Mprapi/nf-mprapi-mprinfoblockadd) pour ajouter un bloc de longueur zéro pour le client à supprimer.</span><span class="sxs-lookup"><span data-stu-id="a6a35-106">Then use [**MprInfoBlockAdd**](/windows/desktop/api/Mprapi/nf-mprapi-mprinfoblockadd) to add a zero-length block for the client to be deleted.</span></span> <span data-ttu-id="a6a35-107">Enfin, utilisez [**MprAdminInterfaceTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportsetinfo) ou [**MprConfigInterfaceTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mprconfiginterfacetransportsetinfo) pour enregistrer les informations sur le routeur ou le registre en cours d’exécution.</span><span class="sxs-lookup"><span data-stu-id="a6a35-107">Finally, use [**MprAdminInterfaceTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmininterfacetransportsetinfo) or [**MprConfigInterfaceTransportSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mprconfiginterfacetransportsetinfo) to save the information back to either the running router or the registry.</span></span>
+
+<span data-ttu-id="a6a35-108">Si le gestionnaire de routeur reçoit un bloc d’informations d’interface de longueur nulle pour un client, il sait supprimer ce client de l’interface.</span><span class="sxs-lookup"><span data-stu-id="a6a35-108">If the router manager receives a zero-length interface information block for a client, it knows to delete that client from the interface.</span></span> <span data-ttu-id="a6a35-109">Le gestionnaire de routeur supprime le client en appelant l’implémentation du client de [**DeleteInterface**](/windows/desktop/api/Routprot/nc-routprot-pdelete_interface).</span><span class="sxs-lookup"><span data-stu-id="a6a35-109">The router manager deletes the client by calling the client's implementation of [**DeleteInterface**](/windows/desktop/api/Routprot/nc-routprot-pdelete_interface).</span></span> <span data-ttu-id="a6a35-110">Notez la différence importante entre le passage d’un en-tête d’informations qui ne contient pas de bloc d’informations pour un client et le passage d’un en-tête d’informations qui contient un bloc d’informations de longueur nulle pour le client.</span><span class="sxs-lookup"><span data-stu-id="a6a35-110">Note the important distinction between passing an information header that does not contain an information block for a client, and passing an information header that contains a zero-length information block for the client.</span></span> <span data-ttu-id="a6a35-111">Dans le premier cas, le gestionnaire de routage n’entreprend aucune action en ce qui concerne le client.</span><span class="sxs-lookup"><span data-stu-id="a6a35-111">In the first case, the router manager takes no action with respect to the client.</span></span> <span data-ttu-id="a6a35-112">Dans le deuxième cas, le gestionnaire de routeur supprime le client de l’interface.</span><span class="sxs-lookup"><span data-stu-id="a6a35-112">In the second case, the router manager deletes the client from the interface.</span></span>
+
+ 
+
+ 
+
+
+
+
