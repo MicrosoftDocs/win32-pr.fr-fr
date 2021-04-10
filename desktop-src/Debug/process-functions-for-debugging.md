@@ -1,0 +1,26 @@
+---
+description: La fonction CreateProcess permet à un débogueur de démarrer un processus et de le déboguer.
+ms.assetid: 7056e181-9bc5-4530-a7b8-d5ff1e345eef
+title: Traiter les fonctions pour le débogage
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d31378a4115acfdd5a4a1836199b7387adeb6e3f
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103950548"
+---
+# <a name="process-functions-for-debugging"></a><span data-ttu-id="da8be-103">Traiter les fonctions pour le débogage</span><span class="sxs-lookup"><span data-stu-id="da8be-103">Process Functions for Debugging</span></span>
+
+<span data-ttu-id="da8be-104">La fonction [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) permet à un débogueur de démarrer un processus et de le déboguer.</span><span class="sxs-lookup"><span data-stu-id="da8be-104">The [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) function enables a debugger to start a process and debug it.</span></span> <span data-ttu-id="da8be-105">Le paramètre *fdwCreate* de **CreateProcess** est utilisé pour spécifier le type d’opération de débogage.</span><span class="sxs-lookup"><span data-stu-id="da8be-105">The *fdwCreate* parameter of **CreateProcess** is used to specify the type of debugging operation.</span></span> <span data-ttu-id="da8be-106">Si l' \_ indicateur de processus de débogage est spécifié pour le paramètre, un débogueur débogue le nouveau processus et tous les descendants du processus, à condition que les descendants soient créés sans l’indicateur de processus de débogage \_ .</span><span class="sxs-lookup"><span data-stu-id="da8be-106">If the DEBUG\_PROCESS flag is specified for the parameter, a debugger debugs the new process and all of the process's descendants, provided that the descendants are created without the DEBUG\_PROCESS flag.</span></span>
+
+<span data-ttu-id="da8be-107">Si le processus de débogage \_ et DÉboguer \_ uniquement \_ ces \_ indicateurs de processus sont spécifiés pour *fdwCreate*, un débogueur débogue le nouveau processus, mais aucun de ses descendants.</span><span class="sxs-lookup"><span data-stu-id="da8be-107">If the DEBUG\_PROCESS and DEBUG\_ONLY\_THIS\_PROCESS flags are specified for *fdwCreate*, a debugger debugs the new process but none of its descendants.</span></span>
+
+<span data-ttu-id="da8be-108">Un débogueur peut déboguer un autre en créant un processus avec l’indicateur de processus de débogage \_ .</span><span class="sxs-lookup"><span data-stu-id="da8be-108">One debugger can debug another by creating a process with the DEBUG\_PROCESS flag.</span></span> <span data-ttu-id="da8be-109">Le nouveau processus (le débogueur en cours de débogage) doit ensuite créer un processus avec l’indicateur de processus de débogage \_ .</span><span class="sxs-lookup"><span data-stu-id="da8be-109">The new process (the debugger being debugged) must then create a process with the DEBUG\_PROCESS flag.</span></span>
+
+<span data-ttu-id="da8be-110">La fonction [**OpenProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) permet à un débogueur d’obtenir l’identificateur d’un processus existant.</span><span class="sxs-lookup"><span data-stu-id="da8be-110">The [**OpenProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openprocess) function enables a debugger to obtain the identifier of an existing process.</span></span> <span data-ttu-id="da8be-111">(La fonction [**DebugActiveProcess**](/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess) utilise cet identificateur pour attacher le débogueur au processus.) En règle générale, les débogueurs ouvrent un processus avec les \_ \_ indicateurs de lecture et de traitement des ordinateurs \_ virtuels \_ .</span><span class="sxs-lookup"><span data-stu-id="da8be-111">(The [**DebugActiveProcess**](/windows/win32/api/debugapi/nf-debugapi-debugactiveprocess) function uses this identifier to attach the debugger to the process.) Typically, debuggers open a process with the PROCESS\_VM\_READ and PROCESS\_VM\_WRITE flags.</span></span> <span data-ttu-id="da8be-112">L’utilisation de ces indicateurs permet au débogueur de lire et d’écrire dans la mémoire virtuelle du processus à l’aide des fonctions [**ReadProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory) et [**WriteProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory) .</span><span class="sxs-lookup"><span data-stu-id="da8be-112">Using these flags enables the debugger to read from and write to the virtual memory of the process by using the [**ReadProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory) and [**WriteProcessMemory**](/windows/win32/api/memoryapi/nf-memoryapi-writeprocessmemory) functions.</span></span> <span data-ttu-id="da8be-113">Pour plus d’informations, consultez [**processus et threads**](../procthread/processes-and-threads.md).</span><span class="sxs-lookup"><span data-stu-id="da8be-113">For more information, see [**Processes and Threads**](../procthread/processes-and-threads.md).</span></span>
+
+ 
+
+ 
