@@ -1,0 +1,113 @@
+---
+title: propput (attribut)
+description: L’attribut \ propput \ spécifie une fonction de définition de propriété. La propriété doit avoir le même nom que la fonction.
+ms.assetid: ffd8af15-42a4-4852-a29b-1fc66f673978
+keywords:
+- propput, attribut MIDL
+topic_type:
+- apiref
+api_name:
+- propput
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 79bf5520a3f4f4872801145064f49a8108cf602a
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "104101501"
+---
+# <a name="propput-attribute"></a>propput (attribut)
+
+L’attribut **\[ propput \]** spécifie une fonction de définition de propriété. La propriété doit avoir le même nom que la fonction *.*
+
+``` syntax
+[propput [,optional-property-attributes]] return-type function-name( parameters);
+```
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*attributs facultatifs* 
+</dt> <dd>
+
+Zéro, un ou plusieurs attributs de propriété.
+
+</dd> <dt>
+
+*type de retour* 
+</dt> <dd>
+
+Type des données retournées par la procédure distante.
+
+</dd> <dt>
+
+*nom de fonction* 
+</dt> <dd>
+
+Nom de la procédure distante.
+
+</dd> <dt>
+
+*parameters* 
+</dt> <dd>
+
+Zéro, un ou plusieurs paramètres à la procédure distante.
+
+</dd> </dl>
+
+## <a name="remarks"></a>Notes
+
+Une fonction qui a l’attribut **\[ propput \]** doit également avoir, en tant que dernier paramètre, un paramètre qui a l' **\[** attribut [**in**](in.md) **\]** .
+
+Au maximum, vous **\[** [](propget.md) **\]** pouvez spécifier un propget, **\[ propput \]** et **\[** [**PROPPUTREF**](propputref.md) **\]** pour une fonction.
+
+Si l' **\[** attribut [**LCID**](lcid.md) **\]** est utilisé dans la liste des paramètres d’une fonction qui contient un paramètre avec l’attribut **\[ propput \]** , le paramètre **\[ LCID \]** doit être le dernier de la dernière.
+
+### <a name="flags"></a>Indicateurs
+
+APPELER \_ PROPERTYPUT
+
+## <a name="examples"></a>Exemples
+
+``` syntax
+interface InMyFace : IDispatch                         
+{
+    [propget, 
+     helpstring("A meaningful comment.")] HRESULT Method1(
+         [out, retval] int* ReturnVal); 
+
+    [propput, 
+     helpstring("Another meaningful comment.")] HRESULT Method1(
+         [in] int Value);
+}
+```
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[Différences entre MIDL et MKTYPLIB](differences-between-midl-and-mktyplib.md)
+</dt> <dt>
+
+[Exemple de fichier ODL](/previous-versions/windows/desktop/automat/odl-file-example)
+</dt> <dt>
+
+[Syntaxe du fichier ODL](/previous-versions/windows/desktop/automat/odl-file-syntax)
+</dt> <dt>
+
+[**propget**](propget.md)
+</dt> <dt>
+
+[**propputref**](propputref.md)
+</dt> <dt>
+
+[**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
+</dt> </dl>
+
+ 
+
+ 
