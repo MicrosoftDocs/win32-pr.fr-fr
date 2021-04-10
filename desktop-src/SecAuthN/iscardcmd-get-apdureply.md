@@ -1,0 +1,145 @@
+---
+description: Récupère les APDU de réponse, en les plaçant dans une mémoire tampon d’octets spécifique.
+ms.assetid: ab349e7a-350f-4e72-98b4-4c6431b6e380
+title: 'ISCardCmd :: get_ApduReply, méthode (Scarddat. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ISCardCmd.get_ApduReply
+api_type:
+- COM
+api_location:
+- Scardssp.dll
+ms.openlocfilehash: 2ce11ec2d3d8202574ab23074531c393c9fecb98
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104042812"
+---
+# <a name="iscardcmdget_apdureply-method"></a>ISCardCmd :: \_ ApduReply, méthode
+
+\[La méthode **obtenir \_ ApduReply** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+
+La méthode **obtenir \_ ApduReply** récupère les [*APDU de réponse*](../secgloss/r-gly.md), en les plaçant dans une mémoire tampon d’octets spécifique. La réponse peut être **null** si aucune [*transaction*](../secgloss/t-gly.md) n’a été effectuée sur la commande APDU.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT get_ApduReply(
+  [out] LPBYTEBUFFER *ppReplyApdu
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*ppReplyApdu* \[ à\]
+</dt> <dd>
+
+Pointeur vers la mémoire tampon d’octets (mappée via un objet **IStream** ) qui contient le message de réponse APDU au retour.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+La méthode retourne l’une des valeurs possibles suivantes.
+
+
+
+| Code de retour                                                                                   | Description                                           |
+|-----------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| <dl> <dt>**\_OK**</dt> </dl>          | Opération exécutée avec succès.<br/>          |
+| <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | Le paramètre *ppReplyApdu* n’est pas valide.<br/>  |
+| <dl> <dt>**\_pointeur E**</dt> </dl>     | Un pointeur incorrect a été passé dans *ppReplyApdu*.<br/> |
+| <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>                             |
+
+
+
+ 
+
+## <a name="remarks"></a>Notes
+
+Pour déterminer la longueur de la réponse APDU, appelez [**obtenir \_ ApduReplyLength**](iscardcmd-get-apdureplylength.md).
+
+Pour définir une nouvelle valeur APDU de réponse, appelez [**put \_ ApduReply**](iscardcmd-put-apdureply.md).
+
+Pour obtenir la liste de toutes les méthodes fournies par cette interface, consultez [**ISCardCmd**](iscardcmd.md).
+
+Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de [*carte*](../secgloss/s-gly.md) à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
+
+## <a name="examples"></a>Exemples
+
+L’exemple suivant montre comment récupérer des données de réponse. L’exemple suppose que lLe est une variable de type **long** dont la valeur a été définie par un appel précédent à la méthode [**ISCardCmd :: obtenir \_ ApduReplyLength**](iscardcmd-get-apdureplylength.md) , que pIByteReply est un pointeur valide vers une instance de l’interface [**IByteBuffer**](ibytebuffer.md) et que pISCardCmd est un pointeur valide vers une instance de l’interface [**ISCardCmd**](iscardcmd.md) .
+
+
+```C++
+HRESULT      hr;
+
+if (lLe > 0)
+{
+    // Get reply data if available.
+    hr = pISCardCmd->get_ApduReply(&pIByteReply);
+    if (FAILED(hr)) 
+    {
+        printf("Failed ISCardCmd::get_ApduReply.\n");
+        // Take other error handling action as needed.
+    }
+    else
+    {
+        BYTE byReplyBytes[256];
+        LONG lBytesRead;
+
+        hr = pIByteReply->Read(byReplyBytes, lLe, &lBytesRead);
+        if (FAILED(hr))
+        {
+            printf("Failed IByteBuffer::Read.\n");
+            // Take other error handling action as needed.
+        }
+        // Use the bytes in byReplyBytes as needed.
+    }
+}
+```
+
+
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
+| Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
+| En-tête<br/>                   | <dl> <dt>Scarddat. h</dt> </dl>   |
+| Bibliothèque de types<br/>             | <dl> <dt>Scarddat. tlb</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Scardssp.dll</dt> </dl> |
+| IID<br/>                      | IID \_ ISCardCmd est défini en tant que D5778AE3-43DE-11D0-9171-00AA00C18068<br/>            |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**Obtient \_ ApduReplyLength**](iscardcmd-get-apdureplylength.md)
+</dt> <dt>
+
+[**ISCardCmd**](iscardcmd.md)
+</dt> <dt>
+
+[**put \_ ApduReply**](iscardcmd-put-apdureply.md)
+</dt> </dl>
+
+ 
+
+ 
