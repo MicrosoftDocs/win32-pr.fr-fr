@@ -1,0 +1,77 @@
+---
+title: IMsRdpClientNonScriptable5 propriété RemoteMonitorLayoutMatchesLocal
+description: Spécifie si la disposition du moniteur distant est identique à la disposition du moniteur local.
+ms.assetid: 8F3C6650-870C-417C-82FC-E145FC360012
+ms.tgt_platform: multiple
+keywords:
+- Services Bureau à distance de la propriété RemoteMonitorLayoutMatchesLocal
+- Services Bureau à distance de la propriété RemoteMonitorLayoutMatchesLocal, interface IMsRdpClientNonScriptable5
+- Services Bureau à distance de l’interface IMsRdpClientNonScriptable5, propriété RemoteMonitorLayoutMatchesLocal
+topic_type:
+- apiref
+api_name:
+- IMsRdpClientNonScriptable5.RemoteMonitorLayoutMatchesLocal
+- IMsRdpClientNonScriptable5.get_RemoteMonitorLayoutMatchesLocal
+api_location:
+- MsTscAx.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: c5018b22865cc683fc9231c857a1b99b8acbfeca
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104104620"
+---
+# <a name="imsrdpclientnonscriptable5remotemonitorlayoutmatcheslocal-property"></a>IMsRdpClientNonScriptable5 :: RemoteMonitorLayoutMatchesLocal, propriété
+
+Spécifie si la disposition du moniteur distant est identique à la disposition du moniteur local. Si cette propriété contient **la \_ valeur true**, la disposition du moniteur distant est identique à la disposition du moniteur local. Si cette propriété contient **la \_ valeur false**, les analyses locales et distantes ont des dispositions différentes.
+
+Cette propriété est en lecture seule.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT get_RemoteMonitorLayoutMatchesLocal(
+  [out, retval] VARIANT_BOOL *pfRemoteMatchesLocal
+);
+```
+
+
+
+## <a name="property-value"></a>Valeur de la propriété
+
+Reçoit la valeur de la propriété.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 7<br/>                                                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/>                                                             |
+| Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>        |
+| DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>        |
+| IID<br/>                      | IID \_ IMsRdpClientNonScriptable5 est défini en tant que 4f6996d5-d7b1-412c-b0ff-063718566907<br/> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
