@@ -1,0 +1,50 @@
+---
+description: .
+ms.assetid: D721167E-B04B-4B06-A9EE-56711A7A1942
+title: Outils de développement Internet Explorer 8
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a184b513717655ee0a738be6318b4c8f2515ca3f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104115711"
+---
+# <a name="internet-explorer-8-developer-tools"></a>Outils de développement Internet Explorer 8
+
+Windows Internet Explorer 8 comprend la fonctionnalité Outils de développement. Cette fonctionnalité vous permet de déboguer rapidement Microsoft JScript, d’examiner un comportement spécifique à Windows Internet Explorer ou d’effectuer des itérations rapides pour créer un prototype ou tester une nouvelle solution de conception.
+
+Les sections suivantes décrivent les caractéristiques importantes de la Outils de développement dans Internet Explorer 8.
+
+## <a name="integrated-and-simple-to-use"></a>Intégré et simple à utiliser
+
+Les Outils de développement sont inclus avec chaque installation d’Internet Explorer 8, ce qui vous permet de déboguer les problèmes sur tout ordinateur qui exécute Internet Explorer 8. En outre, les outils se chargent uniquement lorsque vous en avez besoin pour limiter la manière dont ils ont un impact sur les performances du navigateur. À l’aide de l’Outils de développement, vous pouvez rapidement déboguer le processus Internet Explorer actuel au lieu de déboguer tous les services Internet Explorer.
+
+## <a name="provide-a-visual-interface-to-the-platform"></a>Fournir une interface visuelle à la plateforme
+
+Au lieu d’inverser le fonctionnement de votre site Web ou de modifier votre site pour générer des informations de débogage, les Outils de développement vous permettent de consulter la représentation de votre site dans Internet Explorer. Cette vue réduit le temps que vous consacrez au débogage de sites dynamiques, où l’inspection de la source n’est pas utile, ou l’examen d’un comportement spécifique à Internet Explorer, où un outil générique de création ne peut pas vous aider.
+
+## <a name="enable-fast-experimentation"></a>Activer l’expérimentation rapide
+
+Lorsque vous prototypagez une nouvelle conception ou des correctifs de test dans les versions précédentes d’Internet Explorer, vous modifiez probablement votre source, vous l’enregistrez, actualisez votre page dans le navigateur, puis répétez la procédure. La Outils de développement simplifier ce scénario en vous permettant de modifier votre site dans le navigateur et d’afficher immédiatement les modifications.
+
+## <a name="optimize-application-performance"></a>Optimiser les performances de l’application
+
+Pour identifier et résoudre les problèmes de performances, vous devez probablement vous concentrer sur un scénario à la fois. En utilisant le profileur de script dans le Outils de développement, vous pouvez collecter des statistiques, notamment la durée d’exécution et le nombre de fois qu’une fonction JavaScript est appelée. Vous pouvez utiliser ces informations lorsque vous testez votre application et utilisez le rapport de profil pour identifier et résoudre rapidement les goulots d’étranglement des performances.
+
+Pour accéder à la Outils de développement, appuyez sur F12 pendant que vous affichez une page Web ou cliquez sur **outils de développement** dans le menu **Outils** .
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Outils de débogage d’applications Web et de modules complémentaires](tools-for-debugging-web-applications-and-add-ons.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
