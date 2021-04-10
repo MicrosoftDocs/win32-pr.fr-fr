@@ -1,0 +1,77 @@
+---
+title: Texte (kit de développement logiciel (SDK) Windows Media Player)
+description: Texte
+ms.assetid: 8c10cefb-d0d0-4214-8712-d171a76de95d
+keywords:
+- Windows Media Player Mobile Skins, Text
+- apparences, texte
+- informations de référence sur les apparences, le texte
+- texte dans les enveloppes, à propos de
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c801d93698bc7a17eea34df71514dd88b485f0d9
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "103843013"
+---
+# <a name="text-windows-media-player-sdk"></a>Texte (kit de développement logiciel (SDK) Windows Media Player)
+
+Vous souhaiterez peut-être utiliser une ou plusieurs zones d’affichage de texte dans votre apparence. Chaque zone d’affichage de texte que vous utilisez doit être définie dans le fichier de définition d’apparence. Si vous ne définissez pas de zone d’affichage de texte dans cette section, votre apparence ne sera pas en mesure de l’utiliser.
+
+La section de texte du fichier de définition d’apparence commence par cette ligne :
+
+
+```C++
+[ Text ]
+
+```
+
+
+
+Vous devez ensuite ajouter une ou plusieurs lignes qui contiennent des informations sur chacune des zones d’affichage de texte dans votre apparence.
+
+
+```C++
+    Time         180,46,50,30   Right    Tahoma,16,N     255,255,255
+
+```
+
+
+
+Vous pouvez utiliser le modèle suivant pour la section de texte de votre fichier de définition d’apparence :
+
+
+```C++
+//  <Type>       <Location>     <Align> <Font>          <Color>
+//  ------       ----------     ------- ------          -------
+
+```
+
+
+
+Vous devez utiliser l’ordre indiqué dans le modèle précédent pour obtenir des informations sur la zone d’affichage de texte pour chaque ligne de la section de texte. Chaque partie de la ligne est requise. Les sections suivantes décrivent chaque élément en détail.
+
+1.  [Type de texte](text-type.md)
+2.  [Emplacement du texte](text-location.md)
+3.  [Alignement du texte](text-alignment.md)
+4.  [Police du texte](text-font.md)
+5.  [Couleur du texte](text-color.md)
+
+Pour obtenir un exemple de code de texte, consultez la [section exemple de texte](sample-text-section.md).
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[**Référence d’apparence**](skin-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
