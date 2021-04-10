@@ -1,0 +1,31 @@
+---
+title: API windowsnumerics. h
+description: Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans l’espace de noms Windows. Foundation. Numerics. Il étend les structs de Windows. Foundation. Numerics à une plage d’opérateurs et de fonctions mathématiques.
+ms.assetid: 7aa15f80-c440-4dcb-a9a6-f1000a3a95da
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 268caf0a0215c3d25a86a22fb51204472af481fe
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "103729596"
+---
+# <a name="windowsnumericsh-apis"></a><span data-ttu-id="660a7-104">API windowsnumerics. h</span><span class="sxs-lookup"><span data-stu-id="660a7-104">windowsnumerics.h APIs</span></span>
+
+<span data-ttu-id="660a7-105">Le fichier d’en-tête windowsnumerics. h définit les types de vecteurs et de matrices C++ dans l’espace de noms [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) .</span><span class="sxs-lookup"><span data-stu-id="660a7-105">The windowsnumerics.h header file defines C++ vector and matrix types in the [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) namespace.</span></span> <span data-ttu-id="660a7-106">Il étend les structs de **Windows. Foundation. Numerics** à une plage d’opérateurs et de fonctions mathématiques.</span><span class="sxs-lookup"><span data-stu-id="660a7-106">It extends the structs from **Windows.Foundation.Numerics** with a range of mathematical operators and functions.</span></span>
+
+<span data-ttu-id="660a7-107">Cet espace de noms est disponible uniquement en C++.</span><span class="sxs-lookup"><span data-stu-id="660a7-107">This namespace is available only in C++.</span></span> <span data-ttu-id="660a7-108">Son équivalent .NET est [System. Numerics](/dotnet/api/system.numerics?view=netframework-4.8).</span><span class="sxs-lookup"><span data-stu-id="660a7-108">Its .NET equivalent is [System.Numerics](/dotnet/api/system.numerics?view=netframework-4.8).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="660a7-109">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="660a7-109">In this section</span></span>
+
+| <span data-ttu-id="660a7-110">Rubrique</span><span class="sxs-lookup"><span data-stu-id="660a7-110">Topic</span></span> | <span data-ttu-id="660a7-111">Description</span><span class="sxs-lookup"><span data-stu-id="660a7-111">Description</span></span> |
+|-|-|
+| [<span data-ttu-id="660a7-112">**float2, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-112">**float2 structure**</span></span>](float2-structure.md) | <span data-ttu-id="660a7-113">Vecteur avec deux composants.</span><span class="sxs-lookup"><span data-stu-id="660a7-113">A vector with two components.</span></span> |
+| [<span data-ttu-id="660a7-114">**float3, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-114">**float3 structure**</span></span>](float3-structure.md) | <span data-ttu-id="660a7-115">Vecteur avec trois composants.</span><span class="sxs-lookup"><span data-stu-id="660a7-115">A vector with three components.</span></span> |
+| [<span data-ttu-id="660a7-116">**float3x2, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-116">**float3x2 structure**</span></span>](float3x2-structure.md) | <span data-ttu-id="660a7-117">Matrice matrice, utilisée pour les transformations 2D.</span><span class="sxs-lookup"><span data-stu-id="660a7-117">A 3x2 matrix, used for 2D transforms.</span></span> |
+| [<span data-ttu-id="660a7-118">**float4, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-118">**float4 structure**</span></span>](float4-structure.md) | <span data-ttu-id="660a7-119">Vecteur avec quatre composants.</span><span class="sxs-lookup"><span data-stu-id="660a7-119">A vector with four components.</span></span> |
+| [<span data-ttu-id="660a7-120">**float4x4, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-120">**float4x4 structure**</span></span>](float4x4-structure.md) | <span data-ttu-id="660a7-121">Matrice 4x4, utilisée pour les transformations 3D.</span><span class="sxs-lookup"><span data-stu-id="660a7-121">A 4x4 matrix, used for 3D transforms.</span></span> |
+| [<span data-ttu-id="660a7-122">**structure du plan**</span><span class="sxs-lookup"><span data-stu-id="660a7-122">**plane structure**</span></span>](plane-structure.md) | <span data-ttu-id="660a7-123">Cette structure représente un plan à l’aide d’une valeur normale de vecteur 3D et d’une distance.</span><span class="sxs-lookup"><span data-stu-id="660a7-123">This structure represents a plane using a 3D vector normal and a distance value.</span></span> |
+| [<span data-ttu-id="660a7-124">**Quaternion, structure**</span><span class="sxs-lookup"><span data-stu-id="660a7-124">**quaternion structure**</span></span>](quaternion-structure.md) | <span data-ttu-id="660a7-125">Vecteur à quatre dimensions, utilisé pour représenter une rotation.</span><span class="sxs-lookup"><span data-stu-id="660a7-125">A four dimensional vector, used to represent a rotation.</span></span> |
+| [<span data-ttu-id="660a7-126">**API d’interopérabilité numériques et DirectXMath Windows**</span><span class="sxs-lookup"><span data-stu-id="660a7-126">**Windows numerics and DirectXMath interop APIs**</span></span>](windows-numerics-and-directxmath-interop-apis.md) | <span data-ttu-id="660a7-127">Ces fonctions convertissent les types [**Windows. Foundation. Numerics**](/uwp/api/Windows.Foundation.Numerics) vers et à partir des types DirectXMath SIMD [XMVECTOR](../dxmath/xmvector-data-type.md) et [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).</span><span class="sxs-lookup"><span data-stu-id="660a7-127">These functions convert [**Windows.Foundation.Numerics**](/uwp/api/Windows.Foundation.Numerics) types to and from the DirectXMath SIMD types [XMVECTOR](../dxmath/xmvector-data-type.md) and [XMMATRIX](/windows/win32/api/directxmath/ns-directxmath-xmmatrix).</span></span> |
