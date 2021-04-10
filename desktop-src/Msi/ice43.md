@@ -1,0 +1,82 @@
+---
+description: ICE43 vérifie que les raccourcis qui ne font pas référence à une fonctionnalité en tant que cible (raccourcis non publiés) se trouvent dans des composants dont l’entrée de Registre HKCU est le chemin de leur clé.
+ms.assetid: 7e58e303-e512-4707-a0bf-2095ec8ec502
+title: ICE43
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5c9df4a6051557fca3e185f56ca3ad7978c2c0b7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104115754"
+---
+# <a name="ice43"></a><span data-ttu-id="3d2e0-103">ICE43</span><span class="sxs-lookup"><span data-stu-id="3d2e0-103">ICE43</span></span>
+
+<span data-ttu-id="3d2e0-104">ICE43 vérifie que les raccourcis qui ne font pas référence à une fonctionnalité en tant que cible (raccourcis non publiés) se trouvent dans des composants dont l’entrée de Registre HKCU est le chemin de leur clé.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-104">ICE43 validates that shortcuts that do not reference a feature as their Target (non-advertised shortcuts) are in components having a HKCU registry entry as their key path.</span></span>
+
+## <a name="result"></a><span data-ttu-id="3d2e0-105">Résultats</span><span class="sxs-lookup"><span data-stu-id="3d2e0-105">Result</span></span>
+
+<span data-ttu-id="3d2e0-106">ICE43 publie un message d’erreur si un raccourci non publié se trouve dans un composant qui n’a pas d’entrée de Registre HKCU comme chemin d’accès de clé.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-106">ICE43 posts an error message if a non-advertised shortcut is in a component that does not have a HKCU registry entry as its key path.</span></span>
+
+## <a name="example"></a><span data-ttu-id="3d2e0-107">Exemple</span><span class="sxs-lookup"><span data-stu-id="3d2e0-107">Example</span></span>
+
+<span data-ttu-id="3d2e0-108">ICE43 signale les erreurs suivantes pour l’exemple indiqué.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-108">ICE43 would report the following errors for the example shown.</span></span>
+
+
+
+| <span data-ttu-id="3d2e0-109">Erreur ICE43</span><span class="sxs-lookup"><span data-stu-id="3d2e0-109">ICE43 error</span></span>                                                                                                                             | <span data-ttu-id="3d2e0-110">Description</span><span class="sxs-lookup"><span data-stu-id="3d2e0-110">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="3d2e0-111">Le composant Composant1 a des raccourcis non publiés.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-111">Component Component1 has non-advertised shortcuts.</span></span> <span data-ttu-id="3d2e0-112">Il doit utiliser une clé de Registre sous HKCU comme keyPath, et non un fichier.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-112">It must use a registry key under HKCU as its KeyPath, not a file.</span></span>                    | <span data-ttu-id="3d2e0-113">La colonne Attributes de Composant1 a la valeur 0, ce qui signifie que le composant utilise un fichier comme keyPath.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-113">The attributes column of Component1 is 0, meaning that the component uses a file as its KeyPath.</span></span> <span data-ttu-id="3d2e0-114">Cela entraîne l’installation de raccourcis non publiés dans ce composant pour le premier utilisateur sur l’ordinateur uniquement.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-114">This causes non-advertised shortcuts in this component to be installed for the first user on the computer ONLY.</span></span> <span data-ttu-id="3d2e0-115">Les utilisateurs qui installent le composant ultérieurement ne voient pas les raccourcis, car le composant s’affiche sur le programme d’installation comme déjà existant sur l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-115">Users who install the component later do not see the shortcuts because the component appear to the installer as already existing on the computer.</span></span> <span data-ttu-id="3d2e0-116">Pour corriger cette erreur, définissez le bit RegistryKeyPath des attributs pour basculer le composant vers une entrée du Registre, puis modifiez la valeur keyPath en spécifiant une entrée valide dans la table Registry.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-116">To fix this error, set the RegistryKeyPath bit of the attributes to switch the Component to a Registry entry, then change the KeyPath value to a valid entry in the Registry table.</span></span><br/> |
+| <span data-ttu-id="3d2e0-117">Le composant COMPONENT2 a des raccourcis non publiés.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-117">Component Component2 has non-advertised shortcuts.</span></span> <span data-ttu-id="3d2e0-118">Il doit utiliser une clé de Registre sous HKCU comme keyPath.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-118">It must use a registry key under HKCU as its KeyPath.</span></span> <span data-ttu-id="3d2e0-119">KeyPath est actuellement null.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-119">The KeyPath is currently null.</span></span> | <span data-ttu-id="3d2e0-120">La colonne attributs est définie pour utiliser le registre, mais le keyPath a la valeur null.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-120">The Attributes column is set to use the registry, but the KeyPath is null.</span></span> <span data-ttu-id="3d2e0-121">Le keyPath doit faire référence à une entrée dans la table du Registre.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-121">The KeyPath must refer to an entry in the Registry Table.</span></span> <span data-ttu-id="3d2e0-122">Pour corriger cette erreur, remplacez la valeur keyPath par une entrée valide dans la table Registry.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-122">To fix this error, change the KeyPath value to a valid entry in the Registry table.</span></span><br/>                                                                                                                                                                                                                                                                                                                               |
+| <span data-ttu-id="3d2e0-123">Le composant Component3 a des raccourcis non publiés.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-123">Component Component3 has non-advertised shortcuts.</span></span> <span data-ttu-id="3d2e0-124">Sa clé de Registre keyPath doit être sous HKCU.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-124">Its KeyPath registry key must fall under HKCU.</span></span>                                       | <span data-ttu-id="3d2e0-125">La colonne attributs est définie pour utiliser le registre, mais l’entrée de Registre référencée n’est pas sous HKCU.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-125">The Attributes column is set to use the registry, but the referenced registry entry is not under HKCU.</span></span> <span data-ttu-id="3d2e0-126">Pour corriger cette erreur, vous pouvez soit basculer vers une autre entrée de registre que le chemin d’accès de clé de ce composant, soit modifier la valeur racine de l’entrée de registre en-1 ou 1.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-126">To fix this error, either switch to a different registry entry as the KeyPath for this component, or change the Root value of the Registry entry to either -1 or 1.</span></span><br/>                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="3d2e0-127">L’entrée de Registre keyPath pour le composant Component4 n’existe pas.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-127">The KeyPath registry entry for component Component4 does not exist.</span></span>                                                                     | <span data-ttu-id="3d2e0-128">L’entrée de Registre référencée dans la colonne keyPath du composant ne figure pas dans la table du Registre.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-128">The Registry entry referenced in the KeyPath column of the component is not in the Registry Table.</span></span> <span data-ttu-id="3d2e0-129">Pour corriger cette erreur, créez une entrée.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-129">To fix this error, create an entry.</span></span><br/>                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| <span data-ttu-id="3d2e0-130">L’entrée de Registre Reg5 est définie comme le chemin d’accès du composant Component5, mais cette entrée de Registre n’appartient pas à Component5.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-130">The Registry Entry Reg5 is set as the KeyPath for component Component5, but that registry entry does not belong to Component5.</span></span>          | <span data-ttu-id="3d2e0-131">Une entrée de Registre est référencée dans la colonne keyPath du composant qui se trouve sous l’arborescence HKCU, mais la colonne Component de l’entrée de Registre \_ ne fait pas référence au même composant que celui qui l’a indiquée comme keyPath.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-131">There is a Registry entry referenced in the KeyPath column of the component that lies under the HKCU tree, but the registry entry's Component\_ column does not refer back to the same component that listed it as the KeyPath.</span></span> <span data-ttu-id="3d2e0-132">Cela signifie que l’entrée de Registre utilisée comme chemin d’accès de clé du composant est créée uniquement si un autre composant a été installé.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-132">This means that the registry entry used as the KeyPath of the component is only created if some other component was installed.</span></span> <span data-ttu-id="3d2e0-133">Pour corriger cette erreur, modifiez la valeur keyPath pour qu’elle fasse référence à une entrée de Registre qui appartient au composant ou modifiez l’entrée du registre de façon à ce qu’elle appartienne au composant en l’utilisant comme chemin d’accès de clé.</span><span class="sxs-lookup"><span data-stu-id="3d2e0-133">To fix this error, change the KeyPath value to refer to a registry entry that belongs to the component or change the registry entry to belong to the component using it as a KeyPath.</span></span><br/>   |
+
+
+
+ 
+
+<span data-ttu-id="3d2e0-134">[Table des composants](component-table.md) (partielle)</span><span class="sxs-lookup"><span data-stu-id="3d2e0-134">[Component Table](component-table.md) (partial)</span></span>
+
+
+
+| <span data-ttu-id="3d2e0-135">Composant</span><span class="sxs-lookup"><span data-stu-id="3d2e0-135">Component</span></span>  | <span data-ttu-id="3d2e0-136">Attributs</span><span class="sxs-lookup"><span data-stu-id="3d2e0-136">Attributes</span></span> | <span data-ttu-id="3d2e0-137">KeyPath</span><span class="sxs-lookup"><span data-stu-id="3d2e0-137">KeyPath</span></span> |
+|------------|------------|---------|
+| <span data-ttu-id="3d2e0-138">Composant1</span><span class="sxs-lookup"><span data-stu-id="3d2e0-138">Component1</span></span> | <span data-ttu-id="3d2e0-139">0</span><span class="sxs-lookup"><span data-stu-id="3d2e0-139">0</span></span>          | <span data-ttu-id="3d2e0-140">Fichier1</span><span class="sxs-lookup"><span data-stu-id="3d2e0-140">File1</span></span>   |
+| <span data-ttu-id="3d2e0-141">Component2</span><span class="sxs-lookup"><span data-stu-id="3d2e0-141">Component2</span></span> | <span data-ttu-id="3d2e0-142">4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-142">4</span></span>          |         |
+| <span data-ttu-id="3d2e0-143">Component3</span><span class="sxs-lookup"><span data-stu-id="3d2e0-143">Component3</span></span> | <span data-ttu-id="3d2e0-144">4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-144">4</span></span>          | <span data-ttu-id="3d2e0-145">Reg3</span><span class="sxs-lookup"><span data-stu-id="3d2e0-145">Reg3</span></span>    |
+| <span data-ttu-id="3d2e0-146">Component4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-146">Component4</span></span> | <span data-ttu-id="3d2e0-147">4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-147">4</span></span>          | <span data-ttu-id="3d2e0-148">Reg4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-148">Reg4</span></span>    |
+| <span data-ttu-id="3d2e0-149">Component5</span><span class="sxs-lookup"><span data-stu-id="3d2e0-149">Component5</span></span> | <span data-ttu-id="3d2e0-150">4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-150">4</span></span>          | <span data-ttu-id="3d2e0-151">Reg5</span><span class="sxs-lookup"><span data-stu-id="3d2e0-151">Reg5</span></span>    |
+
+
+
+ 
+
+<span data-ttu-id="3d2e0-152">[Table du Registre](registry-table.md) (partielle)</span><span class="sxs-lookup"><span data-stu-id="3d2e0-152">[Registry Table](registry-table.md) (partial)</span></span>
+
+
+
+| <span data-ttu-id="3d2e0-153">Registre</span><span class="sxs-lookup"><span data-stu-id="3d2e0-153">Registry</span></span> | <span data-ttu-id="3d2e0-154">Root</span><span class="sxs-lookup"><span data-stu-id="3d2e0-154">Root</span></span> | <span data-ttu-id="3d2e0-155">Valeur</span><span class="sxs-lookup"><span data-stu-id="3d2e0-155">Value</span></span> | <span data-ttu-id="3d2e0-156">-\_</span><span class="sxs-lookup"><span data-stu-id="3d2e0-156">Component\_</span></span> |
+|----------|------|-------|-------------|
+| <span data-ttu-id="3d2e0-157">Reg3</span><span class="sxs-lookup"><span data-stu-id="3d2e0-157">Reg3</span></span>     | <span data-ttu-id="3d2e0-158">2</span><span class="sxs-lookup"><span data-stu-id="3d2e0-158">2</span></span>    |       | <span data-ttu-id="3d2e0-159">Component3</span><span class="sxs-lookup"><span data-stu-id="3d2e0-159">Component3</span></span>  |
+| <span data-ttu-id="3d2e0-160">Reg5</span><span class="sxs-lookup"><span data-stu-id="3d2e0-160">Reg5</span></span>     | <span data-ttu-id="3d2e0-161">0</span><span class="sxs-lookup"><span data-stu-id="3d2e0-161">0</span></span>    |       | <span data-ttu-id="3d2e0-162">Component4</span><span class="sxs-lookup"><span data-stu-id="3d2e0-162">Component4</span></span>  |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="3d2e0-163">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3d2e0-163">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="3d2e0-164">Référence ICE</span><span class="sxs-lookup"><span data-stu-id="3d2e0-164">ICE Reference</span></span>](ice-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
