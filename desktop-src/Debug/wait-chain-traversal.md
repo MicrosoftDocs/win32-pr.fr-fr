@@ -1,0 +1,48 @@
+---
+description: Le parcours de chaîne d’attente (WCT) permet aux débogueurs de diagnostiquer les blocages et les blocages d’application.
+ms.assetid: d266a663-b101-4936-9574-f6ce223419ae
+title: Wait Chain Traversal
+ms.topic: article
+ms.date: 08/10/2020
+ms.custom: contperf-fy21q1
+ms.openlocfilehash: 842beb7d5470bc2b3e6e9c7c1150ff2aa1a4cf76
+ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/04/2021
+ms.locfileid: "103845662"
+---
+# <a name="wait-chain-traversal"></a><span data-ttu-id="3efd6-103">Wait Chain Traversal</span><span class="sxs-lookup"><span data-stu-id="3efd6-103">Wait Chain Traversal</span></span>
+
+<span data-ttu-id="3efd6-104">Le parcours de chaîne d’attente (WCT) permet aux débogueurs de diagnostiquer les blocages et les blocages d’application.</span><span class="sxs-lookup"><span data-stu-id="3efd6-104">Wait Chain Traversal (WCT) enables debuggers to diagnose application hangs and deadlocks.</span></span>
+
+<span data-ttu-id="3efd6-105">Une *chaîne d’attente* est une séquence alternative de threads et d’objets de synchronisation dans laquelle chaque thread attend l’objet qui suit.</span><span class="sxs-lookup"><span data-stu-id="3efd6-105">A *wait chain* is an alternating sequence of threads and synchronization objects where each thread waits for the object that follows.</span></span> <span data-ttu-id="3efd6-106">Chaque objet qui suit est, à son tour, détenu par le thread suivant dans la chaîne.</span><span class="sxs-lookup"><span data-stu-id="3efd6-106">Each object that follows is, in turn, owned by the subsequent thread in the chain.</span></span>
+
+<span data-ttu-id="3efd6-107">Un thread attend un objet de synchronisation à partir du moment où le thread demande l’objet jusqu’à ce que le thread l’ait obtenu.</span><span class="sxs-lookup"><span data-stu-id="3efd6-107">A thread waits for a synchronization object from the time the thread requests the object until the thread has acquired it.</span></span> <span data-ttu-id="3efd6-108">Ce « verrou » est détenu par un thread à partir du moment où le thread l’acquiert, jusqu’à ce que le thread le libère.</span><span class="sxs-lookup"><span data-stu-id="3efd6-108">This "lock" is owned by a thread from the time the thread acquires it, until the thread releases it.</span></span> <span data-ttu-id="3efd6-109">En d’autres termes, lorsque le thread 1 attend un verrou détenu par le thread 2, le thread 1 est en attente de thread 2.</span><span class="sxs-lookup"><span data-stu-id="3efd6-109">In other words, when thread 1 is waiting for a lock that is owned by thread 2, thread 1 is "waiting" for thread 2.</span></span>
+
+<span data-ttu-id="3efd6-110">WCT prend en charge les primitives de synchronisation suivantes :</span><span class="sxs-lookup"><span data-stu-id="3efd6-110">WCT supports the following synchronization primitives:</span></span>
+
+- [<span data-ttu-id="3efd6-111">Appel de procédure locale avancée (ALPC)</span><span class="sxs-lookup"><span data-stu-id="3efd6-111">Advanced Local Procedure Call (ALPC)</span></span>](../etw/alpc.md)
+- [<span data-ttu-id="3efd6-112">COM (Component Object Model)</span><span class="sxs-lookup"><span data-stu-id="3efd6-112">Component Object Model (COM)</span></span>](../com/the-component-object-model.md)
+- [<span data-ttu-id="3efd6-113">Sections critiques</span><span class="sxs-lookup"><span data-stu-id="3efd6-113">Critical sections</span></span>](../sync/critical-section-objects.md)
+- [<span data-ttu-id="3efd6-114">Mutex</span><span class="sxs-lookup"><span data-stu-id="3efd6-114">Mutexes</span></span>](../sync/mutex-objects.md)
+- [<span data-ttu-id="3efd6-115">SendMessage</span><span class="sxs-lookup"><span data-stu-id="3efd6-115">SendMessage</span></span>](/windows/win32/api/winuser/nf-winuser-sendmessage)
+- <span data-ttu-id="3efd6-116">Opérations d' [attente](../sync/wait-functions.md) sur [les processus et les threads](../procthread/processes-and-threads.md)</span><span class="sxs-lookup"><span data-stu-id="3efd6-116">[Wait](../sync/wait-functions.md) operations on [processes and threads](../procthread/processes-and-threads.md)</span></span>
+
+<span data-ttu-id="3efd6-117">Pour récupérer la chaîne d’attente pour un ou plusieurs threads, créez une session WCT à l’aide des fonctions [OpenThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) et [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) .</span><span class="sxs-lookup"><span data-stu-id="3efd6-117">To retrieve the wait chain for one or more threads, create a WCT session using the [OpenThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-openthreadwaitchainsession) and [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) functions.</span></span> <span data-ttu-id="3efd6-118">Les sessions WCT sont représentées par un handle de type **HWCT**.</span><span class="sxs-lookup"><span data-stu-id="3efd6-118">WCT sessions are represented by a handle of type **HWCT**.</span></span>
+
+## <a name="sessions-can-be-synchronous-or-asynchronous"></a><span data-ttu-id="3efd6-119">Les sessions peuvent être synchrones ou asynchrones.</span><span class="sxs-lookup"><span data-stu-id="3efd6-119">Sessions can be synchronous or asynchronous</span></span>
+
+<span data-ttu-id="3efd6-120">Les sessions synchrones ne peuvent pas être annulées et bloquent le thread appelant, jusqu’à ce qu’une chaîne d’attente ait été récupérée.</span><span class="sxs-lookup"><span data-stu-id="3efd6-120">Synchronous sessions cannot be canceled, and block the calling thread, until a wait chain has been retrieved.</span></span>
+
+<span data-ttu-id="3efd6-121">Les sessions asynchrones ne bloquent pas le thread appelant et peuvent être annulées par l’application à l’aide de la fonction [CloseThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession) .</span><span class="sxs-lookup"><span data-stu-id="3efd6-121">Asynchronous sessions do not block the calling thread, and can be canceled by the application using the [CloseThreadWaitChainSession](/windows/desktop/api/Wct/nf-wct-closethreadwaitchainsession) function.</span></span> <span data-ttu-id="3efd6-122">Les résultats des opérations asynchrones sont rendus disponibles par le biais d’une fonction de rappel [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) fournie par l’application.</span><span class="sxs-lookup"><span data-stu-id="3efd6-122">Results from asynchronous operations are made available through a [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function provided by the application.</span></span>
+
+<span data-ttu-id="3efd6-123">Pour les sessions asynchrones, l’appelant peut spécifier un pointeur vers une structure de données de contexte via [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) (ce même pointeur est passé à la fonction de rappel [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) ).</span><span class="sxs-lookup"><span data-stu-id="3efd6-123">For asynchronous sessions, the caller can specify a pointer to a context data structure through [GetThreadWaitChain](/windows/desktop/api/Wct/nf-wct-getthreadwaitchain) (this same pointer is passed to the [WaitChainCallback](/windows/win32/api/wct/nc-wct-pwaitchaincallback) callback function).</span></span>
+
+<span data-ttu-id="3efd6-124">La structure des données de contexte est définie par l’utilisateur et opaque à WCT.</span><span class="sxs-lookup"><span data-stu-id="3efd6-124">The context data structure is user-defined and opaque to WCT.</span></span> <span data-ttu-id="3efd6-125">Il peut être utilisé par l’application pour communiquer le contexte entre une requête WCT et une fonction de rappel.</span><span class="sxs-lookup"><span data-stu-id="3efd6-125">It can be used by the application to communicate context between a WCT query and a callback function.</span></span> <span data-ttu-id="3efd6-126">En général, vous transmettez un handle d’événement via cette structure et, lorsque le rappel est exécuté, cet événement est signalé et un thread d’analyse est informé que la requête a été effectuée.</span><span class="sxs-lookup"><span data-stu-id="3efd6-126">Typically, you pass an event handle through this structure and, when the callback is executed, this event is signalled and a monitoring thread is informed that the query has been completed.</span></span>
+
+<span data-ttu-id="3efd6-127">Pour obtenir un exemple de parcours de chaîne d’attente, consultez [utilisation de WCT](using-wct.md) .</span><span class="sxs-lookup"><span data-stu-id="3efd6-127">See [Using WCT](using-wct.md) for an example of wait chain traversal.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="3efd6-128">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3efd6-128">Related topics</span></span>
+
+<span data-ttu-id="3efd6-129">[Utilisation de WCT](using-wct.md), [référence WCT](wct-reference.md), [MSDN Magazine 2007 juillet-Bugslayer : wait chaîne Traversal](/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal)</span><span class="sxs-lookup"><span data-stu-id="3efd6-129">[Using WCT](using-wct.md), [WCT Reference](wct-reference.md), [MSDN Magazine 2007 July - Bugslayer: Wait Chain Traversal](/archive/msdn-magazine/2007/july/bugslayer-wait-chain-traversal)</span></span>

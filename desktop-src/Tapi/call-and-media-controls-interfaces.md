@@ -1,0 +1,128 @@
+---
+description: Voici les interfaces TAPI 3. x et les interfaces de contrôles multimédias. Pour obtenir la liste de ces interfaces par fonctionnalité, consultez la page de référence rapide sur les contrôles Call et Media.
+ms.assetid: aa43013d-826e-487b-b0a3-2d890f93a512
+title: Interfaces d’appel et de contrôles multimédias
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d9e80ea4ae8abcdad4c3629249faeaf30a1472d3
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "103953394"
+---
+# <a name="call-and-media-controls-interfaces"></a><span data-ttu-id="51c86-104">Interfaces d’appel et de contrôles multimédias</span><span class="sxs-lookup"><span data-stu-id="51c86-104">Call and Media Controls Interfaces</span></span>
+
+<span data-ttu-id="51c86-105">Voici les interfaces TAPI 3. x et les interfaces de contrôles multimédias.</span><span class="sxs-lookup"><span data-stu-id="51c86-105">The following are the TAPI 3.x call and media controls interfaces.</span></span> <span data-ttu-id="51c86-106">Pour obtenir la liste de ces interfaces par fonctionnalité, consultez la page de [référence rapide sur les contrôles Call et Media](call-and-media-controls-quick-reference.md).</span><span class="sxs-lookup"><span data-stu-id="51c86-106">For a listing of these interfaces by functionality, see [Call and Media Controls Quick Reference](call-and-media-controls-quick-reference.md).</span></span>
+
+-   [<span data-ttu-id="51c86-107">**IEnumAddress**</span><span class="sxs-lookup"><span data-stu-id="51c86-107">**IEnumAddress**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumaddress)
+-   [<span data-ttu-id="51c86-108">**IEnumBstr**</span><span class="sxs-lookup"><span data-stu-id="51c86-108">**IEnumBstr**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumbstr)
+-   [<span data-ttu-id="51c86-109">**IEnumCall**</span><span class="sxs-lookup"><span data-stu-id="51c86-109">**IEnumCall**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcall)
+-   [<span data-ttu-id="51c86-110">**IEnumCallHub**</span><span class="sxs-lookup"><span data-stu-id="51c86-110">**IEnumCallHub**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallhub)
+-   [<span data-ttu-id="51c86-111">**IEnumCallingCard**</span><span class="sxs-lookup"><span data-stu-id="51c86-111">**IEnumCallingCard**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumcallingcard)
+-   [<span data-ttu-id="51c86-112">**IEnumLocation**</span><span class="sxs-lookup"><span data-stu-id="51c86-112">**IEnumLocation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumlocation)
+-   [<span data-ttu-id="51c86-113">**IEnumParticipant**</span><span class="sxs-lookup"><span data-stu-id="51c86-113">**IEnumParticipant**</span></span>](ienumparticipant.md)
+-   [<span data-ttu-id="51c86-114">**IEnumPhone**</span><span class="sxs-lookup"><span data-stu-id="51c86-114">**IEnumPhone**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumphone)
+-   [<span data-ttu-id="51c86-115">**IEnumPluggableSuperclassInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-115">**IEnumPluggableSuperclassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggablesuperclassinfo)
+-   [<span data-ttu-id="51c86-116">**IEnumPluggableTerminalClassInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-116">**IEnumPluggableTerminalClassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumpluggableterminalclassinfo)
+-   [<span data-ttu-id="51c86-117">**IEnumTerminal**</span><span class="sxs-lookup"><span data-stu-id="51c86-117">**IEnumTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminal)
+-   [<span data-ttu-id="51c86-118">**IEnumTerminalClass**</span><span class="sxs-lookup"><span data-stu-id="51c86-118">**IEnumTerminalClass**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ienumterminalclass)
+-   [<span data-ttu-id="51c86-119">**IH323LineEx**</span><span class="sxs-lookup"><span data-stu-id="51c86-119">**IH323LineEx**</span></span>](ih323lineex.md)
+-   [<span data-ttu-id="51c86-120">**IKeyFrameControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-120">**IKeyFrameControl**</span></span>](ikeyframecontrol.md)
+-   [<span data-ttu-id="51c86-121">**IMulticastControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-121">**IMulticastControl**</span></span>](imulticastcontrol.md)
+-   [<span data-ttu-id="51c86-122">**ITAddress**</span><span class="sxs-lookup"><span data-stu-id="51c86-122">**ITAddress**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress)
+-   [<span data-ttu-id="51c86-123">**ITAddress2**</span><span class="sxs-lookup"><span data-stu-id="51c86-123">**ITAddress2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddress2)
+-   [<span data-ttu-id="51c86-124">**ITAddressCapabilities**</span><span class="sxs-lookup"><span data-stu-id="51c86-124">**ITAddressCapabilities**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresscapabilities)
+-   [<span data-ttu-id="51c86-125">**ITAddressDeviceSpecificEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-125">**ITAddressDeviceSpecificEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itaddressdevicespecificevent)
+-   [<span data-ttu-id="51c86-126">**ITAddressEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-126">**ITAddressEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddressevent)
+-   [<span data-ttu-id="51c86-127">**ITAddressTranslation**</span><span class="sxs-lookup"><span data-stu-id="51c86-127">**ITAddressTranslation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslation)
+-   [<span data-ttu-id="51c86-128">**ITAddressTranslationInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-128">**ITAddressTranslationInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itaddresstranslationinfo)
+-   [<span data-ttu-id="51c86-129">**ITAllocatorProperties**</span><span class="sxs-lookup"><span data-stu-id="51c86-129">**ITAllocatorProperties**</span></span>](/windows/win32/api/tapi3/nn-tapi3-itallocatorproperties)
+-   [<span data-ttu-id="51c86-130">**ITAMMediaFormat**</span><span class="sxs-lookup"><span data-stu-id="51c86-130">**ITAMMediaFormat**</span></span>](/windows/win32/api/tapi3/nn-tapi3-itammediaformat)
+-   [<span data-ttu-id="51c86-131">**ITASRTerminalEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-131">**ITASRTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itasrterminalevent)
+-   [<span data-ttu-id="51c86-132">**ITAudioDeviceControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-132">**ITAudioDeviceControl**</span></span>](itaudiodevicecontrol.md)
+-   [<span data-ttu-id="51c86-133">**ITAudioSettings**</span><span class="sxs-lookup"><span data-stu-id="51c86-133">**ITAudioSettings**</span></span>](itaudiosettings.md)
+-   [<span data-ttu-id="51c86-134">**ITAutomatedPhoneControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-134">**ITAutomatedPhoneControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itautomatedphonecontrol)
+-   [<span data-ttu-id="51c86-135">**ITBasicAudioTerminal**</span><span class="sxs-lookup"><span data-stu-id="51c86-135">**ITBasicAudioTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasicaudioterminal)
+-   [<span data-ttu-id="51c86-136">**ITBasicCallControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-136">**ITBasicCallControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol)
+-   [<span data-ttu-id="51c86-137">**ITBasicCallControl2**</span><span class="sxs-lookup"><span data-stu-id="51c86-137">**ITBasicCallControl2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itbasiccallcontrol2)
+-   [<span data-ttu-id="51c86-138">**ITCallHub**</span><span class="sxs-lookup"><span data-stu-id="51c86-138">**ITCallHub**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhub)
+-   [<span data-ttu-id="51c86-139">**ITCallHubEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-139">**ITCallHubEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallhubevent)
+-   [<span data-ttu-id="51c86-140">**ITCallInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-140">**ITCallInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo)
+-   [<span data-ttu-id="51c86-141">**ITCallInfo2**</span><span class="sxs-lookup"><span data-stu-id="51c86-141">**ITCallInfo2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfo2)
+-   [<span data-ttu-id="51c86-142">**ITCallInfoChangeEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-142">**ITCallInfoChangeEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallinfochangeevent)
+-   [<span data-ttu-id="51c86-143">**ITCallingCard**</span><span class="sxs-lookup"><span data-stu-id="51c86-143">**ITCallingCard**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallingcard)
+-   [<span data-ttu-id="51c86-144">**ITCallMediaEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-144">**ITCallMediaEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallmediaevent)
+-   [<span data-ttu-id="51c86-145">**ITCallNotificationEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-145">**ITCallNotificationEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallnotificationevent)
+-   [<span data-ttu-id="51c86-146">**ITCallQualityControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-146">**ITCallQualityControl**</span></span>](itcallqualitycontrol.md)
+-   [<span data-ttu-id="51c86-147">**ITCallStateEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-147">**ITCallStateEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcallstateevent)
+-   [<span data-ttu-id="51c86-148">**ITCollection**</span><span class="sxs-lookup"><span data-stu-id="51c86-148">**ITCollection**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itcollection)
+-   [<span data-ttu-id="51c86-149">**ITCollection2**</span><span class="sxs-lookup"><span data-stu-id="51c86-149">**ITCollection2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itcollection2)
+-   [<span data-ttu-id="51c86-150">**ITCustomTone**</span><span class="sxs-lookup"><span data-stu-id="51c86-150">**ITCustomTone**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itcustomtone)
+-   [<span data-ttu-id="51c86-151">**ITDetectTone**</span><span class="sxs-lookup"><span data-stu-id="51c86-151">**ITDetectTone**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itdetecttone)
+-   [<span data-ttu-id="51c86-152">**ITDigitDetectionEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-152">**ITDigitDetectionEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitdetectionevent)
+-   [<span data-ttu-id="51c86-153">**ITDigitGenerationEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-153">**ITDigitGenerationEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdigitgenerationevent)
+-   [<span data-ttu-id="51c86-154">**ITDigitsGatheredEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-154">**ITDigitsGatheredEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itdigitsgatheredevent)
+-   [<span data-ttu-id="51c86-155">**ITDispatchMapper**</span><span class="sxs-lookup"><span data-stu-id="51c86-155">**ITDispatchMapper**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itdispatchmapper)
+-   [<span data-ttu-id="51c86-156">**ITFileTerminalEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-156">**ITFileTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itfileterminalevent)
+-   [<span data-ttu-id="51c86-157">**ITFileTrack**</span><span class="sxs-lookup"><span data-stu-id="51c86-157">**ITFileTrack**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itfiletrack)
+-   [<span data-ttu-id="51c86-158">**ITFormatControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-158">**ITFormatControl**</span></span>](itformatcontrol.md)
+-   [<span data-ttu-id="51c86-159">**ITForwardInformation**</span><span class="sxs-lookup"><span data-stu-id="51c86-159">**ITForwardInformation**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itforwardinformation)
+-   [<span data-ttu-id="51c86-160">**ITForwardInformation2**</span><span class="sxs-lookup"><span data-stu-id="51c86-160">**ITForwardInformation2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itforwardinformation2)
+-   [<span data-ttu-id="51c86-161">**ITLegacyAddressMediaControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-161">**ITLegacyAddressMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacyaddressmediacontrol)
+-   [<span data-ttu-id="51c86-162">**ITLegacyAddressMediaControl2**</span><span class="sxs-lookup"><span data-stu-id="51c86-162">**ITLegacyAddressMediaControl2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacyaddressmediacontrol2)
+-   [<span data-ttu-id="51c86-163">**ITLegacyCallMediaControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-163">**ITLegacyCallMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacycallmediacontrol)
+-   [<span data-ttu-id="51c86-164">**ITLegacyCallMediaControl2**</span><span class="sxs-lookup"><span data-stu-id="51c86-164">**ITLegacyCallMediaControl2**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itlegacycallmediacontrol2)
+-   [<span data-ttu-id="51c86-165">**ITLegacyWaveSupport**</span><span class="sxs-lookup"><span data-stu-id="51c86-165">**ITLegacyWaveSupport**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlegacywavesupport)
+-   [<span data-ttu-id="51c86-166">**ITLocalParticipant**</span><span class="sxs-lookup"><span data-stu-id="51c86-166">**ITLocalParticipant**</span></span>](itlocalparticipant.md)
+-   [<span data-ttu-id="51c86-167">**ITLocationInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-167">**ITLocationInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itlocationinfo)
+-   [<span data-ttu-id="51c86-168">**ITMediaControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-168">**ITMediaControl**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediacontrol)
+-   [<span data-ttu-id="51c86-169">**ITMediaPlayback**</span><span class="sxs-lookup"><span data-stu-id="51c86-169">**ITMediaPlayback**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediaplayback)
+-   [<span data-ttu-id="51c86-170">**ITMediaRecord**</span><span class="sxs-lookup"><span data-stu-id="51c86-170">**ITMediaRecord**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediarecord)
+-   [<span data-ttu-id="51c86-171">**ITMediaSupport**</span><span class="sxs-lookup"><span data-stu-id="51c86-171">**ITMediaSupport**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmediasupport)
+-   [<span data-ttu-id="51c86-172">**ITMultiTrackTerminal**</span><span class="sxs-lookup"><span data-stu-id="51c86-172">**ITMultiTrackTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itmultitrackterminal)
+-   [<span data-ttu-id="51c86-173">**ITParticipant**</span><span class="sxs-lookup"><span data-stu-id="51c86-173">**ITParticipant**</span></span>](itparticipant.md)
+-   [<span data-ttu-id="51c86-174">**ITParticipantControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-174">**ITParticipantControl**</span></span>](itparticipantcontrol.md)
+-   [<span data-ttu-id="51c86-175">**ITParticipantEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-175">**ITParticipantEvent**</span></span>](itparticipantevent.md)
+-   [<span data-ttu-id="51c86-176">**ITParticipantSubStreamControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-176">**ITParticipantSubStreamControl**</span></span>](itparticipantsubstreamcontrol.md)
+-   [<span data-ttu-id="51c86-177">**ITPhone**</span><span class="sxs-lookup"><span data-stu-id="51c86-177">**ITPhone**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itphone)
+-   [<span data-ttu-id="51c86-178">**ITPhoneDeviceSpecificEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-178">**ITPhoneDeviceSpecificEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-itphonedevicespecificevent)
+-   [<span data-ttu-id="51c86-179">**ITPhoneEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-179">**ITPhoneEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itphoneevent)
+-   [<span data-ttu-id="51c86-180">**ITPluggableTerminalClassInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-180">**ITPluggableTerminalClassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalclassinfo)
+-   [<span data-ttu-id="51c86-181">**ITPluggableTerminalClassRegistration**</span><span class="sxs-lookup"><span data-stu-id="51c86-181">**ITPluggableTerminalClassRegistration**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalclassregistration)
+-   [<span data-ttu-id="51c86-182">**ITPluggableTerminalEventSink**</span><span class="sxs-lookup"><span data-stu-id="51c86-182">**ITPluggableTerminalEventSink**</span></span>](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsink)
+-   [<span data-ttu-id="51c86-183">**ITPluggableTerminalEventSinkRegistration**</span><span class="sxs-lookup"><span data-stu-id="51c86-183">**ITPluggableTerminalEventSinkRegistration**</span></span>](/windows/desktop/api/msp/nn-msp-itpluggableterminaleventsinkregistration)
+-   [<span data-ttu-id="51c86-184">**ITPluggableTerminalInitialization**</span><span class="sxs-lookup"><span data-stu-id="51c86-184">**ITPluggableTerminalInitialization**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalinitialization)
+-   [<span data-ttu-id="51c86-185">**ITPluggableTerminalSuperclassInfo**</span><span class="sxs-lookup"><span data-stu-id="51c86-185">**ITPluggableTerminalSuperclassInfo**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itpluggableterminalsuperclassinfo)
+-   [<span data-ttu-id="51c86-186">**ITPluggableTerminalSuperclassRegistration**</span><span class="sxs-lookup"><span data-stu-id="51c86-186">**ITPluggableTerminalSuperclassRegistration**</span></span>](/windows/desktop/api/Termmgr/nn-termmgr-itpluggableterminalsuperclassregistration)
+-   [<span data-ttu-id="51c86-187">**ITPrivateEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-187">**ITPrivateEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itprivateevent)
+-   [<span data-ttu-id="51c86-188">**ITQOSApplicationID**</span><span class="sxs-lookup"><span data-stu-id="51c86-188">**ITQOSApplicationID**</span></span>](itqosapplicationid.md)
+-   [<span data-ttu-id="51c86-189">**ITQOSEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-189">**ITQOSEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itqosevent)
+-   [<span data-ttu-id="51c86-190">**ITRequest**</span><span class="sxs-lookup"><span data-stu-id="51c86-190">**ITRequest**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itrequest)
+-   [<span data-ttu-id="51c86-191">**ITRequestEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-191">**ITRequestEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itrequestevent)
+-   [<span data-ttu-id="51c86-192">**ITScriptableAudioFormat**</span><span class="sxs-lookup"><span data-stu-id="51c86-192">**ITScriptableAudioFormat**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itscriptableaudioformat)
+-   [<span data-ttu-id="51c86-193">**ITStaticAudioTerminal**</span><span class="sxs-lookup"><span data-stu-id="51c86-193">**ITStaticAudioTerminal**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itstaticaudioterminal)
+-   [<span data-ttu-id="51c86-194">**ITStreamQualityControl**</span><span class="sxs-lookup"><span data-stu-id="51c86-194">**ITStreamQualityControl**</span></span>](itstreamqualitycontrol.md)
+-   [<span data-ttu-id="51c86-195">**ITTAPI**</span><span class="sxs-lookup"><span data-stu-id="51c86-195">**ITTAPI**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi)
+-   [<span data-ttu-id="51c86-196">**ITTAPI2**</span><span class="sxs-lookup"><span data-stu-id="51c86-196">**ITTAPI2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapi2)
+-   [<span data-ttu-id="51c86-197">**ITTAPICallCenter**</span><span class="sxs-lookup"><span data-stu-id="51c86-197">**ITTAPICallCenter**</span></span>](/windows/win32/api/tapi3cc/nn-tapi3cc-ittapicallcenter)
+-   [<span data-ttu-id="51c86-198">**ITTAPIEventNotification**</span><span class="sxs-lookup"><span data-stu-id="51c86-198">**ITTAPIEventNotification**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-ittapieventnotification)
+-   [<span data-ttu-id="51c86-199">**ITTAPIObjectEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-199">**ITTAPIObjectEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent)
+-   [<span data-ttu-id="51c86-200">**ITTAPIObjectEvent2**</span><span class="sxs-lookup"><span data-stu-id="51c86-200">**ITTAPIObjectEvent2**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittapiobjectevent2)
+-   [<span data-ttu-id="51c86-201">**ITToneDetectionEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-201">**ITToneDetectionEvent**</span></span>](/windows/desktop/api/Tapi3if/nn-tapi3if-ittonedetectionevent)
+-   [<span data-ttu-id="51c86-202">**ITToneTerminalEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-202">**ITToneTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-ittoneterminalevent)
+-   [<span data-ttu-id="51c86-203">**ITTTSTerminalEvent**</span><span class="sxs-lookup"><span data-stu-id="51c86-203">**ITTTSTerminalEvent**</span></span>](/windows/desktop/api/tapi3if/nn-tapi3if-itttsterminalevent)
+
+<span data-ttu-id="51c86-204">Les interfaces suivantes sont disponibles si un MSP est associé à l’appel.</span><span class="sxs-lookup"><span data-stu-id="51c86-204">The following interfaces are available if an MSP is associated with the call.</span></span> <span data-ttu-id="51c86-205">Les interfaces MSP contrôlent la diffusion multimédia en continu et les terminaux pour l’appel.</span><span class="sxs-lookup"><span data-stu-id="51c86-205">The MSP interfaces control media streaming and terminals for the call.</span></span>
+
+-   [<span data-ttu-id="51c86-206">**ITStream (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-206">**ITStream (MSPI)**</span></span>](itstream-mspi-.md)
+-   [<span data-ttu-id="51c86-207">**ITStreamControl (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-207">**ITStreamControl (MSPI)**</span></span>](itstreamcontrol-mspi-.md)
+-   [<span data-ttu-id="51c86-208">**ITSubStream (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-208">**ITSubStream (MSPI)**</span></span>](itsubstream-mspi-.md)
+-   [<span data-ttu-id="51c86-209">**ITSubStreamControl (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-209">**ITSubStreamControl (MSPI)**</span></span>](itsubstreamcontrol-mspi-.md)
+-   [<span data-ttu-id="51c86-210">**ITTerminal (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-210">**ITTerminal (MSPI)**</span></span>](itterminal-mspi-.md)
+-   [<span data-ttu-id="51c86-211">**ITTerminalEvent (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-211">**ITTerminalEvent (MSPI)**</span></span>](itterminalevent-mspi-.md)
+-   [<span data-ttu-id="51c86-212">**ITTerminalSupport (MSPI)**</span><span class="sxs-lookup"><span data-stu-id="51c86-212">**ITTerminalSupport (MSPI)**</span></span>](itterminalsupport-mspi-.md)
+
+ 
+
+ 
