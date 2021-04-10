@@ -1,0 +1,31 @@
+---
+description: Les fonctions CertAddCertificateLinkToStore, CertAddCRLLinkToStore et CertAddCTLLinkToStore ajoutent des liens vers des contextes existants dans des magasins de certificats, plutôt que d’ajouter des copies de ces contextes.
+ms.assetid: 482fb11e-eb59-4de2-a2ad-c1960617e64b
+title: Liens de certificat
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2954c52bcc7b2d98ab5ebb8d732abcbc8f0dea81
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104115330"
+---
+# <a name="certificate-links"></a><span data-ttu-id="186c7-103">Liens de certificat</span><span class="sxs-lookup"><span data-stu-id="186c7-103">Certificate Links</span></span>
+
+<span data-ttu-id="186c7-104">Les fonctions [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), [**CertAddCRLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcrllinktostore)et [**CertAddCTLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddctllinktostore) ajoutent des liens vers des contextes existants dans des [*magasins de certificats*](../secgloss/c-gly.md) , plutôt que d’ajouter des copies de ces contextes.</span><span class="sxs-lookup"><span data-stu-id="186c7-104">The functions [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), [**CertAddCRLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcrllinktostore), and [**CertAddCTLLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddctllinktostore) add links to existing contexts into [*certificate stores*](../secgloss/c-gly.md) rather than adding copies of those contexts.</span></span> <span data-ttu-id="186c7-105">L’ajout de liens aux magasins rend le même [*certificat*](../secgloss/c-gly.md)physique, la même [*liste de révocation de certificats*](../secgloss/c-gly.md)ou la liste [*CTL*](../secgloss/c-gly.md) disponible via plusieurs magasins différents.</span><span class="sxs-lookup"><span data-stu-id="186c7-105">Adding links to stores makes the same physical [*certificate*](../secgloss/c-gly.md), [*CRL*](../secgloss/c-gly.md), or [*CTL*](../secgloss/c-gly.md) available through several different stores.</span></span> <span data-ttu-id="186c7-106">Les modifications apportées aux propriétés étendues d’un [*contexte*](../secgloss/c-gly.md) à partir du magasin du contexte d’origine, ou à partir d’un magasin où un lien vers ce contexte est stocké, sont disponibles dans le magasin qui contient le contexte d’origine et dans tous les autres magasins qui possèdent des liens vers ce contexte.</span><span class="sxs-lookup"><span data-stu-id="186c7-106">Changes made to the extended properties of a [*context*](../secgloss/c-gly.md) from the store of the original context, or from a store where a link to that context is stored, are available in the store that holds the original context and in all other stores that have links to that context.</span></span>
+
+<span data-ttu-id="186c7-107">Pour obtenir un exemple qui utilise [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), consultez [exemple de programme C : opérations du magasin de certificats](example-c-program-certificate-store-operations.md).</span><span class="sxs-lookup"><span data-stu-id="186c7-107">For an example that uses [**CertAddCertificateLinkToStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certaddcertificatelinktostore), see [Example C Program: Certificate Store Operations](example-c-program-certificate-store-operations.md).</span></span>
+
+![Liens de certificat](images/mancert1.png)
+
+<span data-ttu-id="186c7-109">Supposons que les certificats A. 1, A. 2, A. 3 et A. 4 se trouvent à l’origine dans le magasin A, et que les certificats B. 1, B. 2, B. 3 et B. 4 sont à l’origine dans le magasin B.</span><span class="sxs-lookup"><span data-stu-id="186c7-109">Assume that certificates A.1, A.2, A.3, and A.4 are originally in store A, and certificates B.1, B.2, B.3, and B.4 are originally in store B.</span></span>
+
+-   <span data-ttu-id="186c7-110">Le diagramme montre un lien ajouté dans le magasin B vers le certificat A. 2 et un lien ajouté dans le magasin A au certificat B. 2.</span><span class="sxs-lookup"><span data-stu-id="186c7-110">The diagram shows a link added in store B to certificate A.2 and a link added in store A to certificate B.2.</span></span>
+-   <span data-ttu-id="186c7-111">L’original du certificat A. 2 se trouve toujours dans le magasin A. L’original de B. 2 est toujours dans le magasin B.</span><span class="sxs-lookup"><span data-stu-id="186c7-111">The original of certificate A.2 is still in store A. The original of B.2 is still in store B.</span></span>
+-   <span data-ttu-id="186c7-112">Toutes les modifications apportées aux propriétés étendues du certificat A. 2 ou du certificat B. 2 de l’un ou l’autre magasin A ou magasin B sont disponibles pour les deux magasins.</span><span class="sxs-lookup"><span data-stu-id="186c7-112">Any changes made to the extended properties of certificate A.2 or certificate B.2 from either store A or store B will be available to both stores.</span></span>
+-   <span data-ttu-id="186c7-113">Si une copie du certificat A. 3 a été effectuée et stockée dans le magasin B, toute modification apportée aux propriétés étendues du certificat A. 3 d’origine à partir du magasin A n’est pas visible dans la nouvelle copie du magasin B. Si des modifications ont été apportées aux propriétés étendues de la copie du certificat A. 3 dans le magasin B, ces modifications n’affectent pas le contenu du certificat A. 3 d’origine et ne sont pas visibles à partir du magasin A.</span><span class="sxs-lookup"><span data-stu-id="186c7-113">If a copy of certificate A.3 were made and stored in store B, any changes to the extended properties of the original A.3 certificate made from store A would not be visible in the new copy in store B. If changes were made to the extended properties of the copy of certificate A.3 in store B, those changes would not affect the contents of the original A.3 certificate and would not be visible from store A.</span></span>
+
+ 
+
+ 
