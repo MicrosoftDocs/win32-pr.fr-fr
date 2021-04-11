@@ -1,0 +1,39 @@
+---
+title: attribut de forme
+description: La forme de mot clé IDL DCE n’est pas prise en charge dans Microsoft RPC.
+ms.assetid: 7d64889f-37f4-4ca3-81ea-97db697a046a
+keywords:
+- attribut Shape MIDL
+topic_type:
+- apiref
+api_name:
+- shape
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 568623c62d1228b56ee76f3514653d78e60c3838
+ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 10/25/2019
+ms.locfileid: "104030268"
+---
+# <a name="shape-attribute"></a>attribut de forme
+
+La **forme** de mot clé IDL DCE n’est pas prise en charge dans Microsoft RPC.
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[Fichier de définition d’interface (IDL)](interface-definition-idl-file.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
