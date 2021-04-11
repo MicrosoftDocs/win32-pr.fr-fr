@@ -1,0 +1,141 @@
+---
+description: Une classe de fenêtre est prise en charge par une procédure de fenêtre. Votre application peut inscrire une classe de fenêtre à l’aide de RegisterClassA ou RegisterClassW. Les nouvelles applications doivent généralement utiliser RegisterClassW.
+ms.assetid: 016296ce-6151-4673-ad59-c69a2138a05a
+title: Inscription de classes de fenêtre
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 57c82e9daead566e5bcb5419fccc234014005f6f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104115926"
+---
+# <a name="registering-window-classes"></a><span data-ttu-id="7111d-105">Inscription de classes de fenêtre</span><span class="sxs-lookup"><span data-stu-id="7111d-105">Registering Window Classes</span></span>
+
+<span data-ttu-id="7111d-106">Une classe de fenêtre est prise en charge par une procédure de fenêtre.</span><span class="sxs-lookup"><span data-stu-id="7111d-106">A window class is supported by a window procedure.</span></span> <span data-ttu-id="7111d-107">Votre application peut inscrire une classe de fenêtre à l’aide de [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa) ou [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa).</span><span class="sxs-lookup"><span data-stu-id="7111d-107">Your application can register a window class by using either [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa) or [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa).</span></span> <span data-ttu-id="7111d-108">Les nouvelles applications doivent généralement utiliser **RegisterClassW**.</span><span class="sxs-lookup"><span data-stu-id="7111d-108">New applications should typically use **RegisterClassW**.</span></span>
+
+<span data-ttu-id="7111d-109">Si l’application inscrit la classe de fenêtre à l’aide de [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa), la fonction informe le système d’exploitation que les fenêtres de la classe créée attendent des messages avec des paramètres texte ou caractère d’utiliser un jeu de caractères de [page de codes Windows (ANSI)](code-pages.md) .</span><span class="sxs-lookup"><span data-stu-id="7111d-109">If the application registers the window class using [**RegisterClassA**](/windows/win32/api/winuser/nf-winuser-registerclassa), the function informs the operating system that the windows of the created class expect messages with text or character parameters to use a [Windows (ANSI) code page](code-pages.md) character set.</span></span> <span data-ttu-id="7111d-110">L’inscription à l’aide de [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa) permet à l’application de demander au système d’exploitation de passer les paramètres de texte des messages au format [Unicode](unicode.md).</span><span class="sxs-lookup"><span data-stu-id="7111d-110">Registration using [**RegisterClassW**](/windows/win32/api/winuser/nf-winuser-registerclassa) allows the application to request the operating system to pass text parameters of messages as [Unicode](unicode.md).</span></span> <span data-ttu-id="7111d-111">La fonction [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) permet à une application d’interroger la nature de chaque fenêtre.</span><span class="sxs-lookup"><span data-stu-id="7111d-111">The [**IsWindowUnicode**](/windows/win32/api/winuser/nf-winuser-iswindowunicode) function enables an application to query the nature of each window.</span></span>
+
+<span data-ttu-id="7111d-112">L’exemple suivant montre comment inscrire une classe de fenêtre de page de codes Windows et une classe de fenêtre Unicode, et comment écrire les procédures de fenêtre dans les deux cas.</span><span class="sxs-lookup"><span data-stu-id="7111d-112">The following example shows how to register a Windows code page window class and a Unicode window class and how to write the window procedures for both cases.</span></span> <span data-ttu-id="7111d-113">Dans le cadre de cet exemple, toutes les fonctions et structures sont affichées avec les types de données « A » (ANSI) ou « W » (larges, Unicode) spécifiques.</span><span class="sxs-lookup"><span data-stu-id="7111d-113">For the purposes of this example, all functions and structures are shown with the specific "A" (ANSI) or "W" (wide, Unicode) data types.</span></span> <span data-ttu-id="7111d-114">À l’aide des techniques expliquées dans [utilisation des types de données génériques](using-generic-data-types.md), vous pouvez également écrire cet exemple pour utiliser des types de données génériques, afin qu’il puisse être compilé pour utiliser des pages de codes Windows ou Unicode, selon que « Unicode » est défini ou non.</span><span class="sxs-lookup"><span data-stu-id="7111d-114">Using the techniques explained in [Using Generic Data Types](using-generic-data-types.md), you can alternatively write this example to use generic data types, so that it can be compiled to use either Windows code pages or Unicode, depending on whether "UNICODE" is defined.</span></span>
+
+
+```C++
+// Register a Windows code page window class.
+
+WNDCLASSA AnsiWndCls;
+
+AnsiWndCls.style         = CS_DBLCLKS | CS_PARENTDC;
+AnsiWndCls.lpfnWndProc   = (WNDPROC)AnsiWndProc;
+AnsiWndCls.cbClsExtra    = 0;
+AnsiWndCls.cbWndExtra    = 0;
+AnsiWndCls.hInstance     = hInstance;
+AnsiWndCls.hIcon         = NULL;
+AnsiWndCls.hCursor       = LoadCursor(NULL, (LPTSTR)IDC_IBEAM);
+AnsiWndCls.hbrBackground = NULL;
+AnsiWndCls.lpszMenuName  = NULL;
+AnsiWndCls.lpszClassName = "TestAnsi";
+
+RegisterClassA(&AnsiWndCls);
+
+// Register a Unicode window class.
+
+WNDCLASSW UnicodeWndCls;
+
+UnicodeWndCls.style         = CS_DBLCLKS | CS_PARENTDC;
+UnicodeWndCls.lpfnWndProc   = (WNDPROC)UniWndProc;
+UnicodeWndCls.cbClsExtra    = 0;
+UnicodeWndCls.cbWndExtra    = 0;
+UnicodeWndCls.hInstance     = hInstance;
+UnicodeWndCls.hIcon         = NULL;
+UnicodeWndCls.hCursor       = LoadCursor(NULL,(LPTSTR)IDC_IBEAM);
+UnicodeWndCls.hbrBackground = NULL;
+UnicodeWndCls.lpszMenuName  = NULL;
+UnicodeWndCls.lpszClassName = L"TestUnicode";
+
+RegisterClassW(&UnicodeWndCls);
+```
+
+
+
+<span data-ttu-id="7111d-115">L’exemple suivant illustre la différence entre la gestion du message [**WM \_ char**](../inputdev/wm-char.md) dans une procédure de fenêtre de page de codes Windows et une procédure de fenêtre Unicode.</span><span class="sxs-lookup"><span data-stu-id="7111d-115">The following example shows the difference between handling the [**WM\_CHAR**](../inputdev/wm-char.md) message in a Windows code page window procedure and a Unicode window procedure.</span></span>
+
+
+```C++
+// "ANSI" Window Procedure
+
+LRESULT CALLBACK AnsiWndProc(HWND hWnd, UINT message,
+                             WPARAM wParam, LPARAM lParam)
+{
+
+    // Dispatch the messages that can be received.
+
+    switch (message)
+    {
+        case WM_CHAR:
+
+            // wParam - the value of the key
+            // lParam - (not used in this example)
+
+            if (lstrcmpA("Q", (LPCSTR) wParam))
+            {
+                // ...
+            }
+            else
+            {
+                // ...
+            }
+            break;
+        // Process other messages.
+    default:
+        return DefWindowProc(hWnd, message, wParam, lParam);
+    }
+    return 0;
+}
+
+// Unicode Window Procedure
+
+LRESULT CALLBACK UniWndProc(HWND hWnd, UINT message,
+                            WPARAM wParam, LPARAM lParam)
+{
+
+    // Dispatch the messages that can be received.
+
+    switch (message)
+    {
+        case WM_CHAR:
+
+            // wParam - the value of the key
+            // lParam - (not used in this example)
+
+            if (lstrcmpW(L"Q", (LPCWSTR) wParam))
+            {
+                // ...
+            }
+            else
+            {
+                // ...
+            }
+            break;
+        // Process other messages.
+    default:
+        return DefWindowProc(hWnd, message, wParam, lParam);
+    }
+    return 0;
+}
+```
+
+
+
+<span data-ttu-id="7111d-116">Tout le texte des messages reçus par **AnsiWndProc** est composé de caractères de page de codes Windows.</span><span class="sxs-lookup"><span data-stu-id="7111d-116">All text in messages received by **AnsiWndProc** is composed of Windows code page characters.</span></span> <span data-ttu-id="7111d-117">Tout le texte des messages reçus par **UniWndProc** est composé de caractères Unicode.</span><span class="sxs-lookup"><span data-stu-id="7111d-117">All text in messages received by **UniWndProc** is composed of Unicode characters.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="7111d-118">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="7111d-118">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="7111d-119">Utilisation d’Unicode et de jeux de caractères</span><span class="sxs-lookup"><span data-stu-id="7111d-119">Using Unicode and Character Sets</span></span>](using-unicode-and-character-sets.md)
+</dt> </dl>
+
+ 
+
+ 
