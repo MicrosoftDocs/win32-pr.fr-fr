@@ -1,0 +1,26 @@
+---
+description: 'Windows Sockets 2 intègre le concept de protocole en couches : un qui implémente uniquement les fonctions de communication de niveau supérieur tout en s’appuyant sur une pile de transport sous-jacente pour l’échange de données réel avec un point de terminaison distant.'
+ms.assetid: 80e0b229-ebdc-4ac1-8e8e-9e5b7cfc3ab5
+title: Protocoles et chaînes de protocole en couches
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bacf74a11dffca9d8c49c61af82132857f5510e1
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104113047"
+---
+# <a name="layered-protocols-and-protocol-chains"></a><span data-ttu-id="342a5-103">Protocoles et chaînes de protocole en couches</span><span class="sxs-lookup"><span data-stu-id="342a5-103">Layered Protocols and Protocol Chains</span></span>
+
+<span data-ttu-id="342a5-104">Windows Sockets 2 intègre le concept de protocole en couches : un qui implémente uniquement les fonctions de communication de niveau supérieur tout en s’appuyant sur une pile de transport sous-jacente pour l’échange de données réel avec un point de terminaison distant.</span><span class="sxs-lookup"><span data-stu-id="342a5-104">Windows Sockets 2 incorporates the concept of a layered protocol: one that implements only higher-level communications functions while relying on an underlying transport stack for the actual exchange of data with a remote endpoint.</span></span> <span data-ttu-id="342a5-105">Un exemple de ce type de protocole superposé est une couche de sécurité qui ajoute un protocole au processus de connexion de socket afin d’effectuer l’authentification et d’établir un schéma de chiffrement.</span><span class="sxs-lookup"><span data-stu-id="342a5-105">An example of this type of layered protocol is a security layer that adds a protocol to the socket connection process in order to perform authentication and establish an encryption scheme.</span></span> <span data-ttu-id="342a5-106">Un tel protocole de sécurité nécessite généralement les services d’un protocole de transport sous-jacent et fiable, tel que TCP ou SPX.</span><span class="sxs-lookup"><span data-stu-id="342a5-106">Such a security protocol generally requires the services of an underlying and reliable transport protocol such as TCP or SPX.</span></span>
+
+<span data-ttu-id="342a5-107">Le terme *protocole de base* fait référence à un protocole, tel que TCP ou SPX, qui est entièrement capable d’effectuer des communications de données avec un point de terminaison distant.</span><span class="sxs-lookup"><span data-stu-id="342a5-107">The term *base protocol* refers to a protocol, such as TCP or SPX, that is fully capable of performing data communications with a remote endpoint.</span></span> <span data-ttu-id="342a5-108">Un *protocole en couches* est un protocole qui ne peut pas être autonome, tandis qu’une *chaîne de protocole* est un ou plusieurs protocoles en couche chaînées et ancrés par un protocole de base.</span><span class="sxs-lookup"><span data-stu-id="342a5-108">A *layered protocol* is a protocol that cannot stand alone, while a *protocol chain* is one or more layered protocols strung together and anchored by a base protocol.</span></span>
+
+<span data-ttu-id="342a5-109">Vous pouvez créer une chaîne de protocole si vous concevez les protocoles superposés pour prendre en charge le SPI Windows Sockets 2 à la fois sur leurs bords supérieurs et inférieurs.</span><span class="sxs-lookup"><span data-stu-id="342a5-109">You can create a protocol chain if you design the layered protocols to support the Windows Sockets 2 SPI at both their upper and lower edges.</span></span> <span data-ttu-id="342a5-110">Une structure [**spéciale \_ info WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) fait référence à la chaîne de protocole dans son ensemble et décrit l’ordre explicite dans lequel les protocoles en couches sont joints.</span><span class="sxs-lookup"><span data-stu-id="342a5-110">A special [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) structure refers to the protocol chain as a whole and describes the explicit order in which the layered protocols are joined.</span></span> <span data-ttu-id="342a5-111">Cela est illustré dans la figure ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="342a5-111">This is illustrated in the figure below.</span></span> <span data-ttu-id="342a5-112">Étant donné que seuls les protocoles de base et les chaînes de protocole sont directement utilisables par les applications, ils sont les seuls répertoriés lorsque les protocoles installés sont énumérés avec la fonction [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) .</span><span class="sxs-lookup"><span data-stu-id="342a5-112">Since only base protocols and protocol chains are directly usable by applications, they are the only ones listed when the installed protocols are enumerated with the [**WSAEnumProtocols**](/windows/desktop/api/Winsock2/nf-winsock2-wsaenumprotocolsa) function.</span></span>
+
+![architecture de protocole en couches](images/ovrvw2-3.png)
+
+ 
+
+ 
