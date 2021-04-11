@@ -1,0 +1,42 @@
+---
+description: Les services sont généralement écrits sous forme d’applications console.
+ms.assetid: ed6945fc-ac08-4776-8d75-d33e8df3882a
+title: Point d’entrée de service
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: de9e2683c4a69949b6f51c7d000c0ee3571fe118
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "103951112"
+---
+# <a name="service-entry-point"></a><span data-ttu-id="20050-103">Point d’entrée de service</span><span class="sxs-lookup"><span data-stu-id="20050-103">Service Entry Point</span></span>
+
+<span data-ttu-id="20050-104">Les services sont généralement écrits sous forme d’applications console.</span><span class="sxs-lookup"><span data-stu-id="20050-104">Services are generally written as console applications.</span></span> <span data-ttu-id="20050-105">Le point d’entrée d’une application console est sa fonction **principale** .</span><span class="sxs-lookup"><span data-stu-id="20050-105">The entry point of a console application is its **main** function.</span></span> <span data-ttu-id="20050-106">La fonction **main** reçoit des arguments de la valeur **ImagePath** de la clé de Registre pour le service.</span><span class="sxs-lookup"><span data-stu-id="20050-106">The **main** function receives arguments from the **ImagePath** value from the registry key for the service.</span></span> <span data-ttu-id="20050-107">Pour plus d’informations, consultez la section Notes de la fonction [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) .</span><span class="sxs-lookup"><span data-stu-id="20050-107">For more information, see the Remarks section of the [**CreateService**](/windows/desktop/api/Winsvc/nf-winsvc-createservicea) function.</span></span>
+
+<span data-ttu-id="20050-108">Lorsque le SCM démarre un programme de service, il attend qu’il appelle la fonction [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) .</span><span class="sxs-lookup"><span data-stu-id="20050-108">When the SCM starts a service program, it waits for it to call the [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) function.</span></span> <span data-ttu-id="20050-109">Suivez les instructions ci-dessous.</span><span class="sxs-lookup"><span data-stu-id="20050-109">Use the following guidelines.</span></span>
+
+-   <span data-ttu-id="20050-110">Un service de type SERVICE \_ Win32 \_ propre \_ doit appeler [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) immédiatement, à partir de son thread principal.</span><span class="sxs-lookup"><span data-stu-id="20050-110">A service of type SERVICE\_WIN32\_OWN\_PROCESS should call [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) immediately, from its main thread.</span></span> <span data-ttu-id="20050-111">Vous pouvez effectuer n’importe quelle initialisation après le démarrage du service, comme décrit dans [fonction service ServiceMain](service-servicemain-function.md).</span><span class="sxs-lookup"><span data-stu-id="20050-111">You can perform any initialization after the service starts, as described in [Service ServiceMain Function](service-servicemain-function.md).</span></span>
+-   <span data-ttu-id="20050-112">Si le type de service est \_ service \_ de partage Win32 de service \_ et qu’il y a une initialisation commune pour tous les services dans le programme, vous pouvez effectuer l’initialisation dans le thread principal avant d’appeler [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera), à condition qu’il prenne moins de 30 secondes.</span><span class="sxs-lookup"><span data-stu-id="20050-112">If the service type is SERVICE\_WIN32\_SHARE\_PROCESS and there is common initialization for all services in the program, you can perform the initialization in the main thread before calling [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera), as long as it takes less than 30 seconds.</span></span> <span data-ttu-id="20050-113">Dans le cas contraire, vous devez créer un autre thread pour effectuer l’initialisation commune, tandis que le thread principal appelle **StartServiceCtrlDispatcher**.</span><span class="sxs-lookup"><span data-stu-id="20050-113">Otherwise, you must create another thread to do the common initialization, while the main thread calls **StartServiceCtrlDispatcher**.</span></span> <span data-ttu-id="20050-114">Vous devez toujours effectuer toute initialisation spécifique au service après le démarrage du service.</span><span class="sxs-lookup"><span data-stu-id="20050-114">You should still perform any service-specific initialization after the service starts.</span></span>
+
+<span data-ttu-id="20050-115">La fonction [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) prend une structure d' [**\_ \_ entrée de table de service**](/windows/desktop/api/Winsvc/ns-winsvc-service_table_entrya) pour chaque service contenu dans le processus.</span><span class="sxs-lookup"><span data-stu-id="20050-115">The [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) function takes a [**SERVICE\_TABLE\_ENTRY**](/windows/desktop/api/Winsvc/ns-winsvc-service_table_entrya) structure for each service contained in the process.</span></span> <span data-ttu-id="20050-116">Chaque structure spécifie le nom du service et le point d’entrée du service.</span><span class="sxs-lookup"><span data-stu-id="20050-116">Each structure specifies the service name and the entry point for the service.</span></span> <span data-ttu-id="20050-117">Pour obtenir un exemple, consultez [écriture de la fonction principale d’un programme de service](writing-a-service-program-s-main-function.md).</span><span class="sxs-lookup"><span data-stu-id="20050-117">For an example, see [Writing a Service Program's main Function](writing-a-service-program-s-main-function.md).</span></span>
+
+<span data-ttu-id="20050-118">Si [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) s’effectue correctement, le thread appelant n’est pas retourné tant que tous les services en cours d’exécution du processus n’ont pas entré l’état d’arrêt du service \_ .</span><span class="sxs-lookup"><span data-stu-id="20050-118">If [**StartServiceCtrlDispatcher**](/windows/desktop/api/Winsvc/nf-winsvc-startservicectrldispatchera) succeeds, the calling thread does not return until all running services in the process have entered the SERVICE\_STOPPED state.</span></span> <span data-ttu-id="20050-119">Le SCM envoie des demandes de contrôle à ce thread via un canal nommé.</span><span class="sxs-lookup"><span data-stu-id="20050-119">The SCM sends control requests to this thread through a named pipe.</span></span> <span data-ttu-id="20050-120">Le thread joue le rôle de répartiteur de contrôle, en effectuant les tâches suivantes :</span><span class="sxs-lookup"><span data-stu-id="20050-120">The thread acts as a control dispatcher, performing the following tasks:</span></span>
+
+-   <span data-ttu-id="20050-121">Créez un nouveau thread pour appeler le point d’entrée approprié lorsqu’un nouveau service est démarré.</span><span class="sxs-lookup"><span data-stu-id="20050-121">Create a new thread to call the appropriate entry point when a new service is started.</span></span>
+-   <span data-ttu-id="20050-122">Appelez la [fonction de gestionnaire](service-control-handler-function.md) appropriée pour gérer les demandes de contrôle de service.</span><span class="sxs-lookup"><span data-stu-id="20050-122">Call the appropriate [handler function](service-control-handler-function.md) to handle service control requests.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="20050-123">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="20050-123">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="20050-124">Écriture de la fonction principale d’un programme de service</span><span class="sxs-lookup"><span data-stu-id="20050-124">Writing a Service Program's main Function</span></span>](writing-a-service-program-s-main-function.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
