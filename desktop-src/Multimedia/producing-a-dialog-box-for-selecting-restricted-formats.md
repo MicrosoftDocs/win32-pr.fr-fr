@@ -1,0 +1,34 @@
+---
+title: Génération d’une boîte de dialogue pour la sélection de formats restreints
+description: Génération d’une boîte de dialogue pour la sélection de formats restreints
+ms.assetid: 486ba928-e06d-4ab0-a642-ba0fe16c8291
+keywords:
+- Gestionnaire de compression audio (ACM), génération de boîtes de dialogue
+- ACM (gestionnaire de compression audio), génération de boîtes de dialogue
+- Exemples ACM, génération de boîtes de dialogue
+- génération de boîtes de dialogue
+- acmFormatChoose fonction)
+- Gestionnaire de compression audio (ACM), sélection de formats restreints
+- ACM (gestionnaire de compression audio), sélection de formats restreints
+- Exemples ACM, sélection de formats restreints
+- sélection de formats restreints
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 800945f4003c0fbe47d7916e0a1bf707745ff6d8
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104029343"
+---
+# <a name="producing-a-dialog-box-for-selecting-restricted-formats"></a><span data-ttu-id="7d226-112">Génération d’une boîte de dialogue pour la sélection de formats restreints</span><span class="sxs-lookup"><span data-stu-id="7d226-112">Producing a Dialog Box for Selecting Restricted Formats</span></span>
+
+<span data-ttu-id="7d226-113">Vous pouvez utiliser la boîte de dialogue créée par la fonction [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) , mais limiter ou contrôler les formats dans la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7d226-113">You might want to use the dialog box created by the [**acmFormatChoose**](/windows/desktop/api/Msacm/nf-msacm-acmformatchoose) function, but limit or control the formats in the dialog box.</span></span> <span data-ttu-id="7d226-114">Pour ce faire, vous pouvez utiliser l' \_ indicateur ACMFORMATCHOOSE STYLEF \_ ENABLEHOOK pour raccorder la procédure de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7d226-114">You can do this by using the ACMFORMATCHOOSE\_STYLEF\_ENABLEHOOK flag to hook the dialog procedure.</span></span> <span data-ttu-id="7d226-115">L’application peut ensuite filtrer les formats en répondant au message [**mm \_ ACM \_ FORMATCHOOSE**](mm-acm-formatchoose.md) dans la procédure de message de la boîte de dialogue.</span><span class="sxs-lookup"><span data-stu-id="7d226-115">The application can then filter the formats by responding to the [**MM\_ACM\_FORMATCHOOSE**](mm-acm-formatchoose.md) message in the message procedure for the dialog box.</span></span>
+
+ 
+
+ 
+
+
+
+

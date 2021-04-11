@@ -1,0 +1,31 @@
+---
+description: La liste suivante contient les fonctionnalités prises en charge par le MSP TAPI.
+ms.assetid: e36bba94-1fa7-4514-9f8a-bcd690b04d73
+title: Fonctionnalités prises en charge
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 00d10fd9ac787483b8dfa6e15046a733992adb97
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104201462"
+---
+# <a name="features-supported"></a><span data-ttu-id="1027e-103">Fonctionnalités prises en charge</span><span class="sxs-lookup"><span data-stu-id="1027e-103">Features Supported</span></span>
+
+<span data-ttu-id="1027e-104">La liste suivante contient les fonctionnalités prises en charge par le MSP TAPI.</span><span class="sxs-lookup"><span data-stu-id="1027e-104">The following list contains the TAPI MSP supported features.</span></span>
+
+-   <span data-ttu-id="1027e-105">Implémente un MSP qui gère une seule adresse par instance du MSP.</span><span class="sxs-lookup"><span data-stu-id="1027e-105">Implements an MSP that handles a single address per instance of the MSP.</span></span> <span data-ttu-id="1027e-106">Plusieurs adresses similaires sont gérées en instanciant le MSP plusieurs fois.</span><span class="sxs-lookup"><span data-stu-id="1027e-106">Multiple like addresses are handled by instantiating the MSP multiple times.</span></span> <span data-ttu-id="1027e-107">Cela simplifie grandement l’implémentation du MSP et des classes de base.</span><span class="sxs-lookup"><span data-stu-id="1027e-107">This greatly simplifies the implementation of the MSP and the base classes.</span></span>
+-   <span data-ttu-id="1027e-108">Implémente toutes les interfaces MSPI, y compris [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport), [**ITStreamControl**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol)et [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream).</span><span class="sxs-lookup"><span data-stu-id="1027e-108">Implements all the MSPI interfaces, including [**ITMSPAddress**](/windows/desktop/api/msp/nn-msp-itmspaddress), [**ITTerminalSupport**](/windows/win32/api/tapi3if/nn-tapi3if-itterminalsupport), [**ITStreamControl**](/windows/win32/api/tapi3if/nn-tapi3if-itstreamcontrol), and [**ITStream**](/windows/win32/api/tapi3if/nn-tapi3if-itstream).</span></span>
+-   <span data-ttu-id="1027e-109">Implémente des terminaux statiques prêts à l’emploi pour l’audio et la vidéo.</span><span class="sxs-lookup"><span data-stu-id="1027e-109">Implements ready-to-use static terminals for both audio and video.</span></span>
+-   <span data-ttu-id="1027e-110">Implémente les classes de base de terminal génériques.</span><span class="sxs-lookup"><span data-stu-id="1027e-110">Implements generic terminal base classes.</span></span> <span data-ttu-id="1027e-111">Ces classes de base de terminal sont utilisées par les implémentations de terminal statique mentionnées ci-dessus et les implémentations de terminaux dynamiques qui se trouvent dans Termmgr.dll.</span><span class="sxs-lookup"><span data-stu-id="1027e-111">These terminal base classes are used by both the above-mentioned static terminal implementations and the implementations of dynamic terminals that are found in Termmgr.dll.</span></span> <span data-ttu-id="1027e-112">Le MSP peut également les utiliser pour implémenter des terminaux supplémentaires.</span><span class="sxs-lookup"><span data-stu-id="1027e-112">The MSP can also use them to implement additional terminals.</span></span>
+-   <span data-ttu-id="1027e-113">Utilise le gestionnaire de terminal pour gérer les terminaux dynamiques.</span><span class="sxs-lookup"><span data-stu-id="1027e-113">Uses the Terminal Manager to handle dynamic terminals.</span></span> <span data-ttu-id="1027e-114">Crée des terminaux dynamiques sur un thread de travail avec une pompe de messages (pour empêcher les applications de console de traiter les messages de fenêtre pour les terminaux de rendu vidéo et simplifier les problèmes de synchronisation).</span><span class="sxs-lookup"><span data-stu-id="1027e-114">Creates dynamic terminals on a worker thread with a message pump (to free console applications from having to process window messages for video render terminals and to simplify synchronization issues).</span></span>
+-   <span data-ttu-id="1027e-115">Prend en charge les appels qui utilisent un graphique de filtre par flux.</span><span class="sxs-lookup"><span data-stu-id="1027e-115">Supports calls that use a filter graph per stream.</span></span>
+-   <span data-ttu-id="1027e-116">Implémente la gestion des événements de graphique.</span><span class="sxs-lookup"><span data-stu-id="1027e-116">Implements handling of graph events.</span></span>
+-   <span data-ttu-id="1027e-117">Utilise les API de regroupement de threads, conjointement avec un thread de travail qui lui est propre, pour gérer les événements.</span><span class="sxs-lookup"><span data-stu-id="1027e-117">Uses the thread pooling APIs, in conjunction with a worker thread of its own, to handle events.</span></span>
+-   <span data-ttu-id="1027e-118">Utilise les API de suivi de Windows 2000 (développée à l’origine pour le projet de routage) ainsi que la logique supplémentaire pour fournir un mécanisme de journalisation générique et flexible qui peut simultanément se connecter à n’importe quelle combinaison des éléments suivants : un débogueur en mode utilisateur ou en mode noyau ; fenêtre de console distincte avec des messages de journal séparés par un composant ; un fichier journal.</span><span class="sxs-lookup"><span data-stu-id="1027e-118">Uses the tracing APIs of Windows 2000 (originally developed for the Routing project) along with additional logic to provide a flexible, generic logging mechanism that can simultaneously log to any combination of the following: a user or kernel-mode debugger; a separate console window with log messages separated by component; a log file.</span></span>
+-   <span data-ttu-id="1027e-119">Exécute un thread libre.</span><span class="sxs-lookup"><span data-stu-id="1027e-119">Runs free-threaded.</span></span>
+
+ 
+
+ 
