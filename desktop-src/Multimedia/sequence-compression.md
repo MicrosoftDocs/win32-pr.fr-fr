@@ -1,0 +1,31 @@
+---
+title: Compression de séquence
+description: Compression de séquence
+ms.assetid: ea24088d-6a52-4d4e-8496-5b6a6616f684
+keywords:
+- Gestionnaire de compression vidéo (VCM), compression de séquence
+- VCM (gestionnaire de compression vidéo), compression de séquence
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8485c31361540ae0e0e9569453bc610d10d88d3d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "103939912"
+---
+# <a name="sequence-compression"></a><span data-ttu-id="16cac-105">Compression de séquence</span><span class="sxs-lookup"><span data-stu-id="16cac-105">Sequence Compression</span></span>
+
+<span data-ttu-id="16cac-106">Votre application peut utiliser les fonctions [**ICSeqCompressFrame**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframe), [**ICSeqCompressFrameStart**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframestart)et [**ICSeqCompressFrameEnd**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframeend) pour compresser une séquence de frames.</span><span class="sxs-lookup"><span data-stu-id="16cac-106">Your application can use the [**ICSeqCompressFrame**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframe), [**ICSeqCompressFrameStart**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframestart), and [**ICSeqCompressFrameEnd**](/windows/desktop/api/Vfw/nf-vfw-icseqcompressframeend) functions to compress a sequence of frames.</span></span> <span data-ttu-id="16cac-107">Ces fonctions utilisent les données stockées dans la structure [**COMPVARS**](/windows/desktop/api/Vfw/ns-vfw-compvars) .</span><span class="sxs-lookup"><span data-stu-id="16cac-107">These functions use the data stored in the [**COMPVARS**](/windows/desktop/api/Vfw/ns-vfw-compvars) structure.</span></span> <span data-ttu-id="16cac-108">Les applications utilisent la fonction [**ICCompressorChoose**](/windows/desktop/api/Vfw/nf-vfw-iccompressorchoose) pour permettre à l’utilisateur de sélectionner un compresseur, de l’ouvrir et de définir les paramètres de compression dans la structure **COMPVARS** . Toutefois, les applications peuvent définir manuellement les paramètres dans la structure.</span><span class="sxs-lookup"><span data-stu-id="16cac-108">Applications use the [**ICCompressorChoose**](/windows/desktop/api/Vfw/nf-vfw-iccompressorchoose) function to allow the user to select a compressor, open it, and set the compression parameters in the **COMPVARS** structure; however, applications can set the parameters in the structure manually.</span></span>
+
+<span data-ttu-id="16cac-109">Avant qu’une application puisse commencer à compresser une séquence de frames, elle doit utiliser **ICSeqCompressFrameStart** pour allouer les ressources nécessaires.</span><span class="sxs-lookup"><span data-stu-id="16cac-109">Before an application can begin compressing a sequence of frames, it must use **ICSeqCompressFrameStart** to allocate the necessary resources.</span></span> <span data-ttu-id="16cac-110">Une fois les ressources allouées, l’application peut utiliser **ICSeqCompressFrame** pour compresser chaque frame individuellement.</span><span class="sxs-lookup"><span data-stu-id="16cac-110">After the resources are allocated, the application can use **ICSeqCompressFrame** to compress each frame individually.</span></span> <span data-ttu-id="16cac-111">La fréquence d’images et la fréquence d’image clé utilisée pour compresser la séquence sont spécifiées dans les membres de la structure **COMPVARS** .</span><span class="sxs-lookup"><span data-stu-id="16cac-111">The frame rate and key-frame frequency used in compressing the sequence are specified in members of the **COMPVARS** structure.</span></span> <span data-ttu-id="16cac-112">La valeur de retour pour **ICSeqCompressFrame** pointe vers les données compressées.</span><span class="sxs-lookup"><span data-stu-id="16cac-112">The return value for **ICSeqCompressFrame** points to the compressed data.</span></span>
+
+<span data-ttu-id="16cac-113">Quand une application finit de compresser une séquence, elle peut utiliser **ICSeqCompressFrameEnd** pour libérer des ressources système allouées pour **ICSeqCompressFrameStart**.</span><span class="sxs-lookup"><span data-stu-id="16cac-113">When an application finishes compressing a sequence, it can use **ICSeqCompressFrameEnd** to free system resources allocated for **ICSeqCompressFrameStart**.</span></span> <span data-ttu-id="16cac-114">Pour libérer les ressources allouées pour la structure **COMPVARS** , l’application peut utiliser la fonction [**ICCompressorFree**](/windows/desktop/api/Vfw/nf-vfw-iccompressorfree) .</span><span class="sxs-lookup"><span data-stu-id="16cac-114">To free the resources allocated for the **COMPVARS** structure, the application can use the [**ICCompressorFree**](/windows/desktop/api/Vfw/nf-vfw-iccompressorfree) function.</span></span>
+
+ 
+
+ 
+
+
+
+
