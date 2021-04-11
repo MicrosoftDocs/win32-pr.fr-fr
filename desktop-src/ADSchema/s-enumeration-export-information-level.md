@@ -1,0 +1,54 @@
+---
+title: Syntaxe d’énumération (export-information-Level)
+description: Syntaxe d’énumération (export-information-Level).
+ms.assetid: 961aeccd-26ca-430d-90a1-d688d4c405e8
+ms.tgt_platform: multiple
+keywords:
+- Syntaxe Active Directory d’énumération (export-information-Level)
+topic_type:
+- apiref
+api_name:
+- Enumeration(Export-Information-Level)
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 8327fbf9488eef3296f6b4f432e9723210b7b503
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "104106957"
+---
+# <a name="enumerationexport-information-level-syntax"></a>Syntaxe d’énumération (export-information-Level)
+
+Syntaxe d’énumération (export-information-Level).
+
+
+
+| Entrée | Valeur |
+|--------------|---------------------------------------------------------------------------|
+| Nom         | Énumération (export-information-Level)                                     |
+| ID de syntaxe    | 2.5.5.9                                                                   |
+| ID OM        | 10                                                                        |
+| Type MAPI    | LONG                                                                      |
+| Type ADS     | \_entier ADSTYPE                                                          |
+| Type de variante | VT \_                                                                    |
+| SDS, type     | [System.Int32](/dotnet/api/system.int32) |
+
+
+
+## <a name="remarks"></a>Notes
+
+Défini par l’ITU. Active Directory traite cela comme un entier.
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[System.Int32](/dotnet/api/system.int32)
+</dt> </dl>
+
+ 
+
+ 
