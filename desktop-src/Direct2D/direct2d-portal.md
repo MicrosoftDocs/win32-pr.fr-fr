@@ -1,0 +1,66 @@
+---
+title: Direct2D
+description: .
+ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e2eae62ba2d6ff44920d6b6d4890a8c48bc3c0f8
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104031525"
+---
+# <a name="direct2d"></a>Direct2D
+
+## <a name="purpose"></a>Objectif
+
+Direct2D est une API graphique 2D à accélération matérielle et en mode immédiat, qui offre des performances élevées et un rendu de grande qualité pour les éléments géométriques, bitmaps et textes 2D. L’API Direct2D est conçue pour interagir correctement avec GDI, GDI+ et Direct3D.
+
+## <a name="developer-audience"></a>Développeurs concernés
+
+Direct2D est principalement conçu pour être utilisé par les classes de développeurs suivantes :
+
+-   Développeurs de grandes applications natives à l’échelle de l’entreprise.
+-   Les développeurs qui créent des outils de contrôle et des bibliothèques pour la consommation par les développeurs en aval.
+-   Développeurs qui ont besoin d’un rendu côté serveur d’un graphique 2D.
+-   Les développeurs qui utilisent les graphiques Direct3D et ont besoin d’un rendu de texte et de langage 2D simple et hautes performances pour les menus, les éléments d’interface utilisateur et les affichages des têtes (HUDs).
+
+## <a name="run-time-requirements"></a>Conditions d’exécution
+
+-   Windows 7 ou Windows Vista avec Service Pack 2 (SP2) et mise à jour de la plateforme pour Windows Vista et versions ultérieures.
+-   Windows Server 2008 R2 ou Windows Server 2008 avec Service Pack 2 (SP2) et la mise à jour de la plateforme pour Windows Server 2008 et versions ultérieures.
+
+> [!Note]
+>
+> La mise à jour de plateforme pour Windows Vista et la mise à jour de la plateforme pour Windows Server 2008 sont un ensemble de bibliothèques d’exécution qui permet aux développeurs de cibler des applications sur Windows 7, Windows Vista, Windows Server 2008 R2 et Windows Server 2008. Ces mises à jour seront disponibles pour tous les clients Windows Vista et Windows Server 2008 via Windows Update. Les applications tierces qui requièrent une mise à jour de plateforme pour Windows Vista ou une mise à jour de plateforme pour Windows Server 2008 peuvent avoir Windows Update détecter si la mise à jour requise est installée ; Si ce n’est pas le cas, Windows Update le télécharge et l’installe en arrière-plan. Pour plus d’informations sur les deux mises à jour, consultez [mise à jour de la plateforme pour Windows Vista](https://support.microsoft.com/kb/971644).
+
+ 
+
+## <a name="in-this-section"></a>Contenu de cette section
+
+
+
+| Rubrique                                                                                          | Description                                                                                                                                                                   |
+|------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Nouveautés de Direct2D](what-s-new-in-direct2d-for-windows-8-consumer-preview.md)<br/> | Voici quelques-uns des nouveaux ajouts à Direct2D. <br/>                                                                                                                   |
+| [À propos de Direct2D](direct2d-overview.md)<br/>                                             | Introduit Direct2D, une API qui fournit aux développeurs Win32 la possibilité d’effectuer des tâches de rendu graphiques 2D avec des performances et une qualité visuel supérieures. <br/> |
+| [Démarrage rapide de Direct2D pour Windows 8](direct2d-quickstart-with-device-context.md)<br/>    | Résume les étapes requises pour dessiner avec Direct2D et fournit un exemple de code.<br/>                                                                                     |
+| [Prise en main avec Direct2D](getting-started-with-direct2d-nav.md)<br/>              | Décrit comment prendre en main la création d’applications Direct2D et fournit un exemple de code.<br/>                                                                             |
+| [Guide de programmation](programming-guide.md)<br/>                                          | Cette section contient des rubriques de programmation conceptuelle qui décrivent comment utiliser l’API Direct2D. <br/>                                                                    |
+| [Référence Direct2D](reference.md)<br/>                                                      | Décrit en détail l’API Direct2D.<br/>                                                                                                                              |
+| [Outils et utilitaires](tools-and-utilities.md)<br/>                                      | Outils et utilitaires fournis pour Direct2D.<br/>                                                                                                                         |
+| [Exemples](d2d-samples.md)<br/>                                                          | Exemples d’applications qui illustrent l’API Direct2D.<br/>                                                                                                             |
+| [Glossaire Direct2D](direct2d-glossary.md)<br/>                                          | Décrit les termes couramment utilisés par la documentation Direct2D. <br/>                                                                                                      |
+
+
+
+ 
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+-   [**Graphiques et jeux DirectX**](/windows/desktop/directx)
+-   [DirectWrite](/windows/desktop/DirectWrite/direct-write-portal)
+
+ 
+
