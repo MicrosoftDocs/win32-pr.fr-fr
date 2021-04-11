@@ -1,0 +1,24 @@
+---
+description: Dans un protocole simple utilisant l’authentification par clé secrète, un client présente un message d’authentificateur sous la forme d’une information chiffrée dans la clé de session.
+ms.assetid: 984c84db-96d5-479e-8917-25a0270b3b59
+title: Messages de l’authentificateur
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7e76cf171d163ac2f1d0d4a7fcaab53a7fa0ace0
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104203378"
+---
+# <a name="authenticator-messages"></a><span data-ttu-id="d45aa-103">Messages de l’authentificateur</span><span class="sxs-lookup"><span data-stu-id="d45aa-103">Authenticator Messages</span></span>
+
+<span data-ttu-id="d45aa-104">Dans un protocole simple utilisant l’authentification par clé secrète, un client présente un message d’authentificateur sous la forme d’une information chiffrée dans la [*clé de session*](/windows/desktop/SecGloss/s-gly).</span><span class="sxs-lookup"><span data-stu-id="d45aa-104">In a simple protocol using secret key authentication, a client presents an authenticator message in the form of a piece of information encrypted in the [*session key*](/windows/desktop/SecGloss/s-gly).</span></span> <span data-ttu-id="d45aa-105">Les informations contenues dans le message de l’authentificateur doivent être différentes chaque fois que le protocole d’authentification est exécuté, ou un message d’authentificateur chiffré peut être réutilisé par une entité non autorisée.</span><span class="sxs-lookup"><span data-stu-id="d45aa-105">The information in the authenticator message must be different each time the authentication protocol is executed, or an encrypted authenticator message could be reused by an unauthorized entity.</span></span>
+
+<span data-ttu-id="d45aa-106">Lors de la réception du message de l’authentificateur, le serveur le déchiffre et peut déterminer à partir du contenu du message déchiffré si le déchiffrement a réussi.</span><span class="sxs-lookup"><span data-stu-id="d45aa-106">On receiving the authenticator message, the server decrypts it and can tell from the contents of the decrypted message whether decryption was successful.</span></span> <span data-ttu-id="d45aa-107">Si le message déchiffré n’est pas incompréhensible, le serveur sait que le client qui présente le message de l’authentificateur a utilisé la clé correcte pour chiffrer le message.</span><span class="sxs-lookup"><span data-stu-id="d45aa-107">If the decrypted message is not gibberish, the server knows that the client presenting the authenticator message used the correct key to encrypt the message.</span></span> <span data-ttu-id="d45aa-108">Seules deux entités ont accès à la [*clé de session*](/windows/desktop/SecGloss/s-gly) et si le serveur est l’un de ceux-ci, le client qui a chiffré le message de l’authentificateur doit être l’autre.</span><span class="sxs-lookup"><span data-stu-id="d45aa-108">Only two entities have access to the [*session key*](/windows/desktop/SecGloss/s-gly) and if the server is one of those, the client who encrypted the authenticator message must be the other.</span></span>
+
+<span data-ttu-id="d45aa-109">Pour l’authentification mutuelle, un protocole similaire est exécuté.</span><span class="sxs-lookup"><span data-stu-id="d45aa-109">For mutual authentication, a similar protocol is executed.</span></span> <span data-ttu-id="d45aa-110">Le serveur extrait une partie des informations du message d’authentificateur d’origine déchiffré, le chiffre avec la clé de session partagée et envoie le message chiffré au client.</span><span class="sxs-lookup"><span data-stu-id="d45aa-110">The server extracts part of the information from the decrypted, original authenticator message, encrypts it with the shared session key, and sends the encrypted message to the client.</span></span> <span data-ttu-id="d45aa-111">Le client déchiffre le message et compare le résultat avec le d’origine.</span><span class="sxs-lookup"><span data-stu-id="d45aa-111">The client decrypts the message and compares the result with the original.</span></span> <span data-ttu-id="d45aa-112">Si le message déchiffré correspond à la partie correcte du message d’origine, le client sait que le serveur a pu déchiffrer le message d’origine avec la clé de session de secret partagé et a pu rechiffrer une partie de ce message avec cette même [*clé de session*](/windows/desktop/SecGloss/s-gly)secrète partagée.</span><span class="sxs-lookup"><span data-stu-id="d45aa-112">If the decrypted message matches the correct part of the original message, the client knows that the server was able to decrypt the original message with the shared secret session key and was able to re-encrypt a portion of that message with that same shared secret [*session key*](/windows/desktop/SecGloss/s-gly).</span></span>
+
+ 
+
+ 
