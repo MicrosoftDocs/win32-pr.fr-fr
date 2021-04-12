@@ -1,0 +1,53 @@
+---
+title: Héritage et délégation de l’administration
+description: Décrit AD DS la prise en charge de l’héritage des autorisations dans l’arborescence d’objets, ainsi que l’héritage spécifique aux objets.
+ms.assetid: db9cf8d9-6831-4456-b2a5-9f5b4f3e9100
+ms.tgt_platform: multiple
+keywords:
+- héritage et délégation d’administration Active Directory
+- Active Directory Active Directory, héritage des autorisations
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1d76db80497b54e71c806f3ccff9df549f9b2c1a
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104190758"
+---
+# <a name="inheritance-and-delegation-of-administration"></a><span data-ttu-id="f95e1-105">Héritage et délégation de l’administration</span><span class="sxs-lookup"><span data-stu-id="f95e1-105">Inheritance and Delegation of Administration</span></span>
+
+<span data-ttu-id="f95e1-106">Active Directory Domain Services prend en charge l’héritage des autorisations dans l’arborescence des objets pour permettre l’exécution des tâches d’administration à des niveaux supérieurs de l’arborescence.</span><span class="sxs-lookup"><span data-stu-id="f95e1-106">Active Directory Domain Services supports the inheritance of permissions down the object tree to allow administration tasks to be performed at higher levels in the tree.</span></span> <span data-ttu-id="f95e1-107">Cela permet aux administrateurs de définir des autorisations pouvant être héritées sur des objets proches de la racine, tels que des unités de domaine et d’organisation, et de faire en sorte que ces autorisations soient distribuées à différents objets dans l’arborescence.</span><span class="sxs-lookup"><span data-stu-id="f95e1-107">This enables administrators to set up inheritable permissions on objects near the root, such as domain and organizational units, and have those permissions distributed to various objects in the tree.</span></span>
+
+<span data-ttu-id="f95e1-108">L’héritage peut être défini sur une base par ACE.</span><span class="sxs-lookup"><span data-stu-id="f95e1-108">Inheritance can be set on a per-ACE basis.</span></span> <span data-ttu-id="f95e1-109">Le tableau suivant répertorie les indicateurs qui peuvent être spécifiés dans le **AceFlags** pour contrôler l’héritage de l’entrée du contrôle d’accès.</span><span class="sxs-lookup"><span data-stu-id="f95e1-109">The following table lists flags that can be specified in the **AceFlags** to control inheritance of the ACE.</span></span>
+
+
+
+| <span data-ttu-id="f95e1-110">Indicateur</span><span class="sxs-lookup"><span data-stu-id="f95e1-110">Flag</span></span>                                                     | <span data-ttu-id="f95e1-111">Description</span><span class="sxs-lookup"><span data-stu-id="f95e1-111">Description</span></span>                                                                                                                                     |
+|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="f95e1-112">**\_ACE ACEFLAG \_ hériter des publicités \_**</span><span class="sxs-lookup"><span data-stu-id="f95e1-112">**ADS\_ACEFLAG\_INHERIT\_ACE**</span></span><br/>                | <span data-ttu-id="f95e1-113">Entraîne l’héritage de l’entrée du contrôle d’accès dans l’arborescence.</span><span class="sxs-lookup"><span data-stu-id="f95e1-113">Causes the ACE to be inherited down in the tree.</span></span><br/>                                                                                     |
+| <span data-ttu-id="f95e1-114">**AD \_ ACEFLAG \_ non \_ propager \_ hériter \_ ACE**</span><span class="sxs-lookup"><span data-stu-id="f95e1-114">**ADS\_ACEFLAG\_NO\_PROPAGATE\_INHERIT\_ACE**</span></span><br/> | <span data-ttu-id="f95e1-115">Fait en sorte que l’entrée du contrôle d’accès soit héritée d’un seul niveau dans l’arborescence.</span><span class="sxs-lookup"><span data-stu-id="f95e1-115">Causes the ACE to be inherited down only one level in the tree.</span></span><br/>                                                                      |
+| <span data-ttu-id="f95e1-116">**\_ACEFLAG ADS \_ hériter \_ uniquement \_ ACE**</span><span class="sxs-lookup"><span data-stu-id="f95e1-116">**ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE**</span></span><br/>          | <span data-ttu-id="f95e1-117">Fait en sorte que l’entrée du contrôle d’accès soit ignorée sur l’objet sur lequel elle est spécifiée, elle ne peut être héritée et être effective où elle a été héritée.</span><span class="sxs-lookup"><span data-stu-id="f95e1-117">Causes the ACE to be ignored on the object it is specified on, only be inherited down, and be effective where it has been inherited.</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="f95e1-118">Outre la définition de l’héritage, Active Directory Domain Services prend en charge l’héritage spécifique aux objets.</span><span class="sxs-lookup"><span data-stu-id="f95e1-118">In addition to setting inheritance, Active Directory Domain Services supports object-specific inheritance.</span></span> <span data-ttu-id="f95e1-119">Cela permet aux ACE pouvant être héritées d’être héritées de l’arborescence, mais uniquement applicables à un type spécifique d’objet.</span><span class="sxs-lookup"><span data-stu-id="f95e1-119">This allows the inheritable ACEs to be inherited down the tree, but be effective only on a specific type of object.</span></span> <span data-ttu-id="f95e1-120">Cela est extrêmement utile pour déléguer l’administration.</span><span class="sxs-lookup"><span data-stu-id="f95e1-120">This is extremely useful in delegating administration.</span></span> <span data-ttu-id="f95e1-121">Par exemple, il peut être utilisé pour définir une entrée de contrôle d’accès (ACE) héritable spécifique à un objet au niveau d’une unité d’organisation qui permet à un groupe d’avoir un contrôle total sur tous les objets utilisateur de l’unité d’organisation, mais rien d’autre.</span><span class="sxs-lookup"><span data-stu-id="f95e1-121">For example, this can be used to set an object-specific inheritable ACE at an organizational unit that enables a group to have full control on all user objects in the organizational unit, but nothing else.</span></span> <span data-ttu-id="f95e1-122">Ainsi, la gestion des utilisateurs dans cette unité d’organisation est déléguée aux utilisateurs de ce groupe.</span><span class="sxs-lookup"><span data-stu-id="f95e1-122">Thereby, the management of users in that organizational unit gets delegated to the users in that group.</span></span>
+
+### <a name="delegating-service-administration-with-security-groups"></a><span data-ttu-id="f95e1-123">Délégation de l’administration de service à des groupes de sécurité</span><span class="sxs-lookup"><span data-stu-id="f95e1-123">Delegating Service Administration with Security Groups</span></span>
+
+<span data-ttu-id="f95e1-124">Utilisez des groupes de sécurité pour définir et déléguer des rôles d’administration associés à votre serveur d’applications.</span><span class="sxs-lookup"><span data-stu-id="f95e1-124">Use Security groups to define and delegate administrative roles associated with your application server.</span></span> <span data-ttu-id="f95e1-125">Par exemple, votre service peut être associé à un groupe d’administrateurs MyService.</span><span class="sxs-lookup"><span data-stu-id="f95e1-125">For example, your service may be associated with a group MyService Administrators.</span></span> <span data-ttu-id="f95e1-126">Les utilisateurs identifiés comme administrateurs MyService seront ajoutés au groupe d’administrateurs MyService.</span><span class="sxs-lookup"><span data-stu-id="f95e1-126">Users who are identified as the MyService administrators will be added to MyService Administrators group.</span></span> <span data-ttu-id="f95e1-127">Le programme d’installation de MyService peut définir des listes de contrôle d’accès sur l’annuaire pour permettre aux administrateurs MyService d’avoir des autorisations suffisantes pour lire/écrire des attributs liés à MyService ou créer des objets spécifiques au fichier MyService, par exemple.</span><span class="sxs-lookup"><span data-stu-id="f95e1-127">The setup program for MyService can set ACLs on the directory to enable MyService Administrators sufficient permissions to read/write MyService-related attributes or create MyService-specific objects for example.</span></span>
+
+### <a name="roles-in-security-groups-for-computers-running-your-service"></a><span data-ttu-id="f95e1-128">Rôles dans des groupes de sécurité pour les ordinateurs qui exécutent votre service</span><span class="sxs-lookup"><span data-stu-id="f95e1-128">Roles in Security Groups for Computers Running Your Service</span></span>
+
+<span data-ttu-id="f95e1-129">Utilisez des groupes de sécurité pour définir l’ensemble des ordinateurs qui sont autorisés à accéder aux objets de votre service dans l’annuaire.</span><span class="sxs-lookup"><span data-stu-id="f95e1-129">Use security groups to define the set of computers that are granted access to your service's objects in the directory.</span></span> <span data-ttu-id="f95e1-130">Par exemple, votre service peut être associé à un groupe de serveurs MyService.</span><span class="sxs-lookup"><span data-stu-id="f95e1-130">For example, your service may be associated with a group MyService Servers.</span></span> <span data-ttu-id="f95e1-131">Tous les ordinateurs qui exécutent le serveur MyService sont ajoutés au groupe de serveurs MyService et ce groupe peut ensuite accéder aux parties du répertoire où les serveurs MyService doivent lire/écrire des données.</span><span class="sxs-lookup"><span data-stu-id="f95e1-131">All computers running the MyService server are added to MyService Servers group and this group can then be given access to parts of the directory where MyService servers need to read/write data.</span></span> <span data-ttu-id="f95e1-132">Le programme d’installation de MyService peut définir des listes de contrôle d’accès sur l’annuaire pour permettre aux serveurs MyService d’accéder à des autorisations suffisantes pour lire/écrire des attributs liés à MyService ou créer des objets spécifiques au fichier MyService, par exemple.</span><span class="sxs-lookup"><span data-stu-id="f95e1-132">The setup program for MyService can set ACLs on the directory to enable MyService Servers sufficient permissions to read/write MyService-related attributes or create MyService-specific objects for example.</span></span>
+
+ 
+
+ 
+
+
+
+
+
