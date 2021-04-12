@@ -1,0 +1,30 @@
+---
+title: Fichiers générés pour une interface RPC
+description: Le compilateur MIDL génère le stub du langage C et les fichiers d’en-tête nécessaires pour créer l’interface entre l’application cliente et l’application serveur.
+ms.assetid: 1088c2e0-f3b2-49f4-9fda-1d71409344fd
+keywords:
+- MIDL du compilateur MIDL, MIDL et RPC MIDL, fichiers générés pour RPC
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 76e6725d50bd4ccffdfb85ffc283e3f74d0f1628
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104311143"
+---
+# <a name="files-generated-for-an-rpc-interface"></a>Fichiers générés pour une interface RPC
+
+Le compilateur MIDL génère le stub du langage C et les fichiers d’en-tête nécessaires pour créer l’interface entre l’application cliente et l’application serveur. Les rubriques suivantes décrivent chacun des fichiers générés pour une interface RPC :
+
+-   [Stub client](the-client-stub.md)
+-   [Stub serveur](the-server-stub.md)
+-   [Fichier d’en-tête](the-header-file.md)
+
+ 
+
+ 
+
+
+
+
