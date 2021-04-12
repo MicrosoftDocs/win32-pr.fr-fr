@@ -1,0 +1,81 @@
+---
+title: TVN_ITEMCHANGING le code de notification (commctrl. h)
+description: Avertit une fenêtre parente d’un contrôle Tree-View que les attributs d’élément sont sur le point de changer. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
+ms.assetid: c997871c-8eca-46c0-999d-2f6d7e3e6c96
+keywords:
+- Contrôles Windows de code de notification TVN_ITEMCHANGING
+topic_type:
+- apiref
+api_name:
+- TVN_ITEMCHANGING
+- TVN_ITEMCHANGINGA
+- TVN_ITEMCHANGINGW
+api_location:
+- Commctrl.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 1d258b7bf9f03b0e721e61c5da56bc915518069b
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104508606"
+---
+# <a name="tvn_itemchanging-notification-code"></a>\_Code de notification TVN ITEMCHANGING
+
+Avertit une fenêtre parente d’un contrôle Tree-View que les attributs d’élément sont sur le point de changer. Ce code de notification est envoyé sous la forme d’un message [**WM \_ Notify**](wm-notify.md) .
+
+
+```C++
+TVN_ITEMCHANGING
+        
+    pnm = (NMTVITEMCHANGE *) lParam; 
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*lParam* 
+</dt> <dd>
+
+Pointeur vers une structure [**NMTVITEMCHANGE**](/windows/win32/api/commctrl/ns-commctrl-nmtvitemchange) décrivant l’élément qui change. Le membre **uChanged** est défini sur l' \_ État TVIF.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Retourne **false** pour accepter la modification, ou **true** pour empêcher la modification.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
+| Noms Unicode et ANSI<br/>   | **TVN \_ ITEMCHANGINGW** (Unicode) et **TVN \_ ITEMCHANGINGA** (ANSI)<br/>         |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[TVN \_ ITEMCHANGED](tvn-itemchanged.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
