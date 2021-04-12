@@ -1,0 +1,185 @@
+---
+title: Nouveautés de la plateforme de filtrage Windows
+description: Windows 8 et Windows Server 2012 introduisent de nouveaux éléments de programmation de plateforme de filtrage Windows.
+ms.assetid: 7529F155-3DBC-4C22-A780-B6311C455E85
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 85b5e441eff3242b530401235b085a1486527b98
+ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "104316926"
+---
+# <a name="whats-new-in-windows-filtering-platform"></a><span data-ttu-id="5458c-103">Nouveautés de la plateforme de filtrage Windows</span><span class="sxs-lookup"><span data-stu-id="5458c-103">What's New in Windows Filtering Platform</span></span>
+
+<span data-ttu-id="5458c-104">Windows 8 et Windows Server 2012 introduisent de nouveaux éléments de programmation de plateforme de filtrage Windows.</span><span class="sxs-lookup"><span data-stu-id="5458c-104">Windows 8 and Windows Server 2012 introduce new Windows Filtering Platform programming elements.</span></span> <span data-ttu-id="5458c-105">Les nouvelles fonctionnalités incluent les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="5458c-105">New functionality includes the following:</span></span>
+
+-   <span data-ttu-id="5458c-106">*Filtrage de couche 2*: permet d’accéder à la couche L2 (Mac), ce qui permet de filtrer le trafic au niveau de cette couche.</span><span class="sxs-lookup"><span data-stu-id="5458c-106">*Layer 2 filtering*: Provides access to the L2 (MAC) layer, allowing filtering of traffic at that layer.</span></span>
+-   <span data-ttu-id="5458c-107">*filtrage vswitch*: autorise l’inspection et/ou la modification des paquets traversant un vswitch.</span><span class="sxs-lookup"><span data-stu-id="5458c-107">*vSwitch filtering*: Allows packets traversing a vSwitch to be inspected and/or modified.</span></span> <span data-ttu-id="5458c-108">Des filtres ou des légendes WFP peuvent être utilisés au niveau de l’entrée et de la sortie du vSwitch.</span><span class="sxs-lookup"><span data-stu-id="5458c-108">WFP filters or callouts can be used at the vSwitch ingress and egress.</span></span>
+-   <span data-ttu-id="5458c-109">*Gestion* des conteneurs d’applications : permet d’accéder aux informations sur les conteneurs d’applications et les problèmes de connectivité d’isolement réseau.</span><span class="sxs-lookup"><span data-stu-id="5458c-109">*App container management*: Allows access to information about app containers and network isolation connectivity issues.</span></span>
+-   <span data-ttu-id="5458c-110">*Mises à jour IPSec*: fonctionnalités IPSec étendues, notamment la surveillance de l’état de connexion, la sélection des certificats et la gestion des clés.</span><span class="sxs-lookup"><span data-stu-id="5458c-110">*IPsec updates*: Extended IPsec functionality including connection state monitoring, certificate selection, and key management.</span></span>
+
+<span data-ttu-id="5458c-111">Le kit de pilotes Windows comprend également des informations sur [les modifications de WFP pour Windows 8](/windows-hardware/drivers/network/wfp-changes-for-windows-8).</span><span class="sxs-lookup"><span data-stu-id="5458c-111">The Windows Driver Kit also includes information on [WFP Changes for Windows 8](/windows-hardware/drivers/network/wfp-changes-for-windows-8).</span></span>
+
+## <a name="windows-8-api-updates"></a><span data-ttu-id="5458c-112">Mises à jour de l’API Windows 8</span><span class="sxs-lookup"><span data-stu-id="5458c-112">Windows 8 API updates</span></span>
+
+<span data-ttu-id="5458c-113">De nombreuses nouvelles API ont été ajoutées pour Windows 8 et Windows Server 2012.</span><span class="sxs-lookup"><span data-stu-id="5458c-113">Many new APIs have been added for Windows 8 and Windows Server 2012.</span></span>
+
+## <a name="new-functions"></a><span data-ttu-id="5458c-114">Nouvelles fonctions</span><span class="sxs-lookup"><span data-stu-id="5458c-114">New functions</span></span>
+
+-   [<span data-ttu-id="5458c-115">**FWPM \_ net, \_ événement \_ CALLBACK1**</span><span class="sxs-lookup"><span data-stu-id="5458c-115">**FWPM\_NET\_EVENT\_CALLBACK1**</span></span>](/windows/desktop/api/fwpmu/nc-fwpmu-fwpm_net_event_callback1)
+-   [<span data-ttu-id="5458c-116">**FwpmConnectionCreateEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="5458c-116">**FwpmConnectionCreateEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectioncreateenumhandle0)
+-   [<span data-ttu-id="5458c-117">**FwpmConnectionDestroyEnumHandle0**</span><span class="sxs-lookup"><span data-stu-id="5458c-117">**FwpmConnectionDestroyEnumHandle0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectiondestroyenumhandle0)
+-   [<span data-ttu-id="5458c-118">**FwpmConnectionEnum0**</span><span class="sxs-lookup"><span data-stu-id="5458c-118">**FwpmConnectionEnum0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionenum0)
+-   [<span data-ttu-id="5458c-119">**FwpmConnectionGetById0**</span><span class="sxs-lookup"><span data-stu-id="5458c-119">**FwpmConnectionGetById0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectiongetbyid0)
+-   [<span data-ttu-id="5458c-120">**FwpmConnectionGetSecurityInfo0**</span><span class="sxs-lookup"><span data-stu-id="5458c-120">**FwpmConnectionGetSecurityInfo0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectiongetsecurityinfo0)
+-   [<span data-ttu-id="5458c-121">**FwpmConnectionSetSecurityInfo0**</span><span class="sxs-lookup"><span data-stu-id="5458c-121">**FwpmConnectionSetSecurityInfo0**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmconnectionsetsecurityinfo0)
+-   [<span data-ttu-id="5458c-122">**FwpmConnectionSubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-122">**FwpmConnectionSubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionsubscribe0)
+-   [<span data-ttu-id="5458c-123">**FwpmConnectionSubscriptionsGet0**</span><span class="sxs-lookup"><span data-stu-id="5458c-123">**FwpmConnectionSubscriptionsGet0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionsubscriptionsget0)
+-   [<span data-ttu-id="5458c-124">**FwpmConnectionUnsubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-124">**FwpmConnectionUnsubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmconnectionunsubscribe0)
+-   [<span data-ttu-id="5458c-125">**FwpmIPsecTunnelAdd2**</span><span class="sxs-lookup"><span data-stu-id="5458c-125">**FwpmIPsecTunnelAdd2**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmipsectunneladd2)
+-   [<span data-ttu-id="5458c-126">**FwpmNetEventEnum2**</span><span class="sxs-lookup"><span data-stu-id="5458c-126">**FwpmNetEventEnum2**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmneteventenum2)
+-   [<span data-ttu-id="5458c-127">**FwpmNetEventSubscribe1**</span><span class="sxs-lookup"><span data-stu-id="5458c-127">**FwpmNetEventSubscribe1**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmneteventsubscribe1)
+-   [<span data-ttu-id="5458c-128">**FwpmProviderContextAdd2**</span><span class="sxs-lookup"><span data-stu-id="5458c-128">**FwpmProviderContextAdd2**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextadd2)
+-   [<span data-ttu-id="5458c-129">**FwpmProviderContextEnum2**</span><span class="sxs-lookup"><span data-stu-id="5458c-129">**FwpmProviderContextEnum2**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextenum2)
+-   [<span data-ttu-id="5458c-130">**FwpmProviderContextGetById2**</span><span class="sxs-lookup"><span data-stu-id="5458c-130">**FwpmProviderContextGetById2**</span></span>](/windows/desktop/api/fwpmu/nf-fwpmu-fwpmprovidercontextgetbyid2)
+-   [<span data-ttu-id="5458c-131">**FwpmProviderContextGetByKey2**</span><span class="sxs-lookup"><span data-stu-id="5458c-131">**FwpmProviderContextGetByKey2**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidercontextgetbykey2)
+-   [<span data-ttu-id="5458c-132">**FwpmvSwitchEventsGetSecurityInfo0**</span><span class="sxs-lookup"><span data-stu-id="5458c-132">**FwpmvSwitchEventsGetSecurityInfo0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsgetsecurityinfo0)
+-   [<span data-ttu-id="5458c-133">**FwpmvSwitchEventsSetSecurityInfo0**</span><span class="sxs-lookup"><span data-stu-id="5458c-133">**FwpmvSwitchEventsSetSecurityInfo0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventssetsecurityinfo0)
+-   [<span data-ttu-id="5458c-134">**FwpmvSwitchEventSubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-134">**FwpmvSwitchEventSubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventsubscribe0)
+-   [<span data-ttu-id="5458c-135">**FwpmvSwitchEventUnsubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-135">**FwpmvSwitchEventUnsubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmvswitcheventunsubscribe0)
+-   [<span data-ttu-id="5458c-136">**IkeextSaEnum2**</span><span class="sxs-lookup"><span data-stu-id="5458c-136">**IkeextSaEnum2**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsaenum2)
+-   [<span data-ttu-id="5458c-137">**IkeextSaGetById2**</span><span class="sxs-lookup"><span data-stu-id="5458c-137">**IkeextSaGetById2**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ikeextsagetbyid2)
+-   [<span data-ttu-id="5458c-138">**\_Dictée de clé du gestionnaire de clés IPSec \_ \_ \_ \_ CHECK0**</span><span class="sxs-lookup"><span data-stu-id="5458c-138">**IPSEC\_KEY\_MANAGER\_KEY\_DICTATION\_CHECK0**</span></span>](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_key_dictation_check0)
+-   [<span data-ttu-id="5458c-139">**Le \_ Gestionnaire de clés IPSec \_ \_ dicte \_ Key0**</span><span class="sxs-lookup"><span data-stu-id="5458c-139">**IPSEC\_KEY\_MANAGER\_DICTATE\_KEY0**</span></span>](/windows/desktop/api/Fwpmu/nc-fwpmu-ipsec_key_manager_dictate_key0)
+-   [<span data-ttu-id="5458c-140">**Gestionnaire de clés IPSEC- \_ \_ \_ notifier \_ Key0**</span><span class="sxs-lookup"><span data-stu-id="5458c-140">**IPSEC\_KEY\_MANAGER\_NOTIFY\_KEY0**</span></span>](/windows/desktop/api/fwpmu/nc-fwpmu-ipsec_key_manager_notify_key0)
+-   [<span data-ttu-id="5458c-141">**\_CALLBACK0 de \_ contexte \_ sa IPSec**</span><span class="sxs-lookup"><span data-stu-id="5458c-141">**IPSEC\_SA\_CONTEXT\_CALLBACK0**</span></span>](/windows/win32/api/fwpmu/nc-fwpmu-ipsec_sa_context_callback0)
+-   [<span data-ttu-id="5458c-142">**IPsecKeyManagerAddAndRegister0**</span><span class="sxs-lookup"><span data-stu-id="5458c-142">**IPsecKeyManagerAddAndRegister0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanageraddandregister0)
+-   [<span data-ttu-id="5458c-143">**IPsecKeyManagerGetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="5458c-143">**IPsecKeyManagerGetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagergetsecurityinfobykey0)
+-   [<span data-ttu-id="5458c-144">**IPsecKeyManagerSetSecurityInfoByKey0**</span><span class="sxs-lookup"><span data-stu-id="5458c-144">**IPsecKeyManagerSetSecurityInfoByKey0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagersetsecurityinfobykey0)
+-   [<span data-ttu-id="5458c-145">**IPsecKeyManagersGet0**</span><span class="sxs-lookup"><span data-stu-id="5458c-145">**IPsecKeyManagersGet0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagersget0)
+-   [<span data-ttu-id="5458c-146">**IPsecKeyManagerUnregisterAndDelete0**</span><span class="sxs-lookup"><span data-stu-id="5458c-146">**IPsecKeyManagerUnregisterAndDelete0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipseckeymanagerunregisteranddelete0)
+-   [<span data-ttu-id="5458c-147">**IPsecSaContextSubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-147">**IPsecSaContextSubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextsubscribe0)
+-   [<span data-ttu-id="5458c-148">**IPsecSaContextSubscriptionsGet0**</span><span class="sxs-lookup"><span data-stu-id="5458c-148">**IPsecSaContextSubscriptionsGet0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextsubscriptionsget0)
+-   [<span data-ttu-id="5458c-149">**IPsecSaContextUnsubscribe0**</span><span class="sxs-lookup"><span data-stu-id="5458c-149">**IPsecSaContextUnsubscribe0**</span></span>](/windows/desktop/api/Fwpmu/nf-fwpmu-ipsecsacontextunsubscribe0)
+-   [<span data-ttu-id="5458c-150">**NetworkIsolationDiagnoseConnectFailureAndGetInfo**</span><span class="sxs-lookup"><span data-stu-id="5458c-150">**NetworkIsolationDiagnoseConnectFailureAndGetInfo**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationdiagnoseconnectfailureandgetinfo)
+-   [<span data-ttu-id="5458c-151">**NetworkIsolationEnumAppContainers**</span><span class="sxs-lookup"><span data-stu-id="5458c-151">**NetworkIsolationEnumAppContainers**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumappcontainers)
+-   [<span data-ttu-id="5458c-152">**NetworkIsolationEnumerateAppContainerRules**</span><span class="sxs-lookup"><span data-stu-id="5458c-152">**NetworkIsolationEnumerateAppContainerRules**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationenumerateappcontainerrules)
+-   [<span data-ttu-id="5458c-153">**NetworkIsolationFreeAppContainers**</span><span class="sxs-lookup"><span data-stu-id="5458c-153">**NetworkIsolationFreeAppContainers**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationfreeappcontainers)
+-   [<span data-ttu-id="5458c-154">**NetworkIsolationGetAppContainerConfig**</span><span class="sxs-lookup"><span data-stu-id="5458c-154">**NetworkIsolationGetAppContainerConfig**</span></span>](/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationgetappcontainerconfig)
+-   [<span data-ttu-id="5458c-155">**NetworkIsolationRegisterForAppContainerChanges**</span><span class="sxs-lookup"><span data-stu-id="5458c-155">**NetworkIsolationRegisterForAppContainerChanges**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationregisterforappcontainerchanges)
+-   [<span data-ttu-id="5458c-156">**NetworkIsolationSetAppContainerConfig**</span><span class="sxs-lookup"><span data-stu-id="5458c-156">**NetworkIsolationSetAppContainerConfig**</span></span>](/previous-versions/windows/desktop/api/netfw/nf-netfw-networkisolationsetappcontainerconfig)
+-   [<span data-ttu-id="5458c-157">**NetworkIsolationSetupAppContainerBinaries**</span><span class="sxs-lookup"><span data-stu-id="5458c-157">**NetworkIsolationSetupAppContainerBinaries**</span></span>](/windows/desktop/api/networkisolation/nf-networkisolation-networkisolationsetupappcontainerbinaries)
+-   [<span data-ttu-id="5458c-158">**rappel des modifications du PAC \_ \_ \_ FN**</span><span class="sxs-lookup"><span data-stu-id="5458c-158">**PAC\_CHANGES\_CALLBACK\_FN**</span></span>](/windows/desktop/api/networkisolation/nc-networkisolation-pac_changes_callback_fn)
+
+## <a name="new-structures"></a><span data-ttu-id="5458c-159">Nouvelles structures</span><span class="sxs-lookup"><span data-stu-id="5458c-159">New structures</span></span>
+
+-   [<span data-ttu-id="5458c-160">**\_Authentification IKEEXT \_ méthode2**</span><span class="sxs-lookup"><span data-stu-id="5458c-160">**IKEEXT\_AUTHENTICATION\_METHOD2**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_authentication_method2)
+-   [<span data-ttu-id="5458c-161">**\_EKUS0 de certificat IKEEXT \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-161">**IKEEXT\_CERT\_EKUS0**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_cert_ekus0)
+-   [<span data-ttu-id="5458c-162">**\_NAME0 de certificat IKEEXT \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-162">**IKEEXT\_CERT\_NAME0**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_cert_name0)
+-   [<span data-ttu-id="5458c-163">**\_AUTHENTICATION2 de certificat IKEEXT \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-163">**IKEEXT\_CERTIFICATE\_AUTHENTICATION2**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_authentication2)
+-   [<span data-ttu-id="5458c-164">**\_CRITERIA0 de certificat IKEEXT \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-164">**IKEEXT\_CERTIFICATE\_CRITERIA0**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_certificate_criteria0)
+-   [<span data-ttu-id="5458c-165">**POLICY2 de l’EM de la IKEEXT \_ \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-165">**IKEEXT\_EM\_POLICY2**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_em_policy2)
+-   [<span data-ttu-id="5458c-166">**\_AUTHENTICATION1 Kerberos \_ IKEEXT**</span><span class="sxs-lookup"><span data-stu-id="5458c-166">**IKEEXT\_KERBEROS\_AUTHENTICATION1**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_kerberos_authentication1)
+-   [<span data-ttu-id="5458c-167">**\_POLICY2 IKEEXT**</span><span class="sxs-lookup"><span data-stu-id="5458c-167">**IKEEXT\_POLICY2**</span></span>](/windows/win32/api/iketypes/ns-iketypes-ikeext_policy2)
+-   [<span data-ttu-id="5458c-168">**\_Clé IPSec \_ MANAGER0**</span><span class="sxs-lookup"><span data-stu-id="5458c-168">**IPSEC\_KEY\_MANAGER0**</span></span>](/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_key_manager0)
+-   [<span data-ttu-id="5458c-169">**\_Gestionnaire de clés IPSec \_ \_ CALLBACKS0**</span><span class="sxs-lookup"><span data-stu-id="5458c-169">**IPSEC\_KEY\_MANAGER\_CALLBACKS0**</span></span>](/windows/desktop/api/fwpmu/ns-fwpmu-ipsec_key_manager_callbacks0)
+-   [<span data-ttu-id="5458c-170">**\_Génération de clés IPSec \_ Stratégie1**</span><span class="sxs-lookup"><span data-stu-id="5458c-170">**IPSEC\_KEYING\_POLICY1**</span></span>](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_keying_policy1)
+-   [<span data-ttu-id="5458c-171">**\_CHANGE0 de \_ contexte \_ sa IPSec**</span><span class="sxs-lookup"><span data-stu-id="5458c-171">**IPSEC\_SA\_CONTEXT\_CHANGE0**</span></span>](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_change0)
+-   [<span data-ttu-id="5458c-172">**\_SUBSCRIPTION0 de \_ contexte \_ sa IPSec**</span><span class="sxs-lookup"><span data-stu-id="5458c-172">**IPSEC\_SA\_CONTEXT\_SUBSCRIPTION0**</span></span>](/windows/desktop/api/Ipsectypes/ns-ipsectypes-ipsec_sa_context_subscription0)
+-   [<span data-ttu-id="5458c-173">**\_POLICY2 de transport IPSec \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-173">**IPSEC\_TRANSPORT\_POLICY2**</span></span>](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_transport_policy2)
+-   [<span data-ttu-id="5458c-174">**\_Tunnel IPSec \_ ENDPOINT0**</span><span class="sxs-lookup"><span data-stu-id="5458c-174">**IPSEC\_TUNNEL\_ENDPOINT0**</span></span>](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoint0)
+-   [<span data-ttu-id="5458c-175">**\_Tunnel IPSec \_ ENDPOINTS2**</span><span class="sxs-lookup"><span data-stu-id="5458c-175">**IPSEC\_TUNNEL\_ENDPOINTS2**</span></span>](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_endpoints2)
+-   [<span data-ttu-id="5458c-176">**\_Tunnel IPSec \_ POLICY2**</span><span class="sxs-lookup"><span data-stu-id="5458c-176">**IPSEC\_TUNNEL\_POLICY2**</span></span>](/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_tunnel_policy2)
+-   [<span data-ttu-id="5458c-177">**FWPM \_ CONNECTION0**</span><span class="sxs-lookup"><span data-stu-id="5458c-177">**FWPM\_CONNECTION0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection0)
+-   [<span data-ttu-id="5458c-178">**FWPM \_ énumération de la connexion \_ \_ TEMPLATE0**</span><span class="sxs-lookup"><span data-stu-id="5458c-178">**FWPM\_CONNECTION\_ENUM\_TEMPLATE0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection_enum_template0)
+-   [<span data-ttu-id="5458c-179">**FWPM de \_ connexion \_ SUBSCRIPTION0**</span><span class="sxs-lookup"><span data-stu-id="5458c-179">**FWPM\_CONNECTION\_SUBSCRIPTION0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_connection_subscription0)
+-   [<span data-ttu-id="5458c-180">**FWPM \_ NET \_ EVENT2**</span><span class="sxs-lookup"><span data-stu-id="5458c-180">**FWPM\_NET\_EVENT2**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event2)
+-   [<span data-ttu-id="5458c-181">**FWPM \_ NET \_ Event \_ Capability \_ ALLOW0**</span><span class="sxs-lookup"><span data-stu-id="5458c-181">**FWPM\_NET\_EVENT\_CAPABILITY\_ALLOW0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_allow0)
+-   [<span data-ttu-id="5458c-182">**FWPM \_ NET \_ Event \_ Capability \_ DROP0**</span><span class="sxs-lookup"><span data-stu-id="5458c-182">**FWPM\_NET\_EVENT\_CAPABILITY\_DROP0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0)
+-   [<span data-ttu-id="5458c-183">**FWPM \_ NET \_ Event \_ classifier \_ ALLOW0**</span><span class="sxs-lookup"><span data-stu-id="5458c-183">**FWPM\_NET\_EVENT\_CLASSIFY\_ALLOW0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_allow0)
+-   [<span data-ttu-id="5458c-184">**FWPM \_ NET \_ Event \_ classifier \_ DROP2**</span><span class="sxs-lookup"><span data-stu-id="5458c-184">**FWPM\_NET\_EVENT\_CLASSIFY\_DROP2**</span></span>](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop2)
+-   [<span data-ttu-id="5458c-185">**FWPM \_ NET \_ Event \_ classification \_ DROP \_ Mac0**</span><span class="sxs-lookup"><span data-stu-id="5458c-185">**FWPM\_NET\_EVENT\_CLASSIFY\_DROP\_MAC0**</span></span>](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_classify_drop_mac0)
+-   [<span data-ttu-id="5458c-186">**FWPM \_ net, \_ événement \_ HEADER2**</span><span class="sxs-lookup"><span data-stu-id="5458c-186">**FWPM\_NET\_EVENT\_HEADER2**</span></span>](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_header2)
+-   [<span data-ttu-id="5458c-187">**\_Fournisseur FWPM \_ CONTEXT2**</span><span class="sxs-lookup"><span data-stu-id="5458c-187">**FWPM\_PROVIDER\_CONTEXT2**</span></span>](/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context2)
+-   [<span data-ttu-id="5458c-188">**FWPM \_ VSWITCH \_ EVENT0**</span><span class="sxs-lookup"><span data-stu-id="5458c-188">**FWPM\_VSWITCH\_EVENT0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event0)
+-   [<span data-ttu-id="5458c-189">**\_Événement FWPM \_ VSWITCH \_ SUBSCRIPTION0**</span><span class="sxs-lookup"><span data-stu-id="5458c-189">**FWPM\_VSWITCH\_EVENT\_SUBSCRIPTION0**</span></span>](/windows/desktop/api/Fwpmtypes/ns-fwpmtypes-fwpm_vswitch_event_subscription0)
+
+## <a name="new-enumerated-types"></a><span data-ttu-id="5458c-190">Nouveaux types énumérés</span><span class="sxs-lookup"><span data-stu-id="5458c-190">New enumerated types</span></span>
+
+-   [<span data-ttu-id="5458c-191">**\_type de \_ réseau \_ VSWITCH fwp**</span><span class="sxs-lookup"><span data-stu-id="5458c-191">**FWP\_VSWITCH\_NETWORK\_TYPE**</span></span>](/windows/win32/api/fwptypes/ne-fwptypes-fwp_vswitch_network_type)
+-   [<span data-ttu-id="5458c-192">**\_type de \_ \_ capacité réseau APPC FWPM \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-192">**FWPM\_APPC\_NETWORK\_CAPABILITY\_TYPE**</span></span>](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type)
+-   [<span data-ttu-id="5458c-193">**\_type d' \_ événement de connexion FWPM \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-193">**FWPM\_CONNECTION\_EVENT\_TYPE**</span></span>](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_connection_event_type)
+-   [<span data-ttu-id="5458c-194">**\_type d' \_ événement FWPM VSWITCH \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-194">**FWPM\_VSWITCH\_EVENT\_TYPE**</span></span>](/windows/desktop/api/Fwpmtypes/ne-fwpmtypes-fwpm_vswitch_event_type)
+-   [<span data-ttu-id="5458c-195">**\_type de \_ nom des critères de certificat IKEEXT \_ \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-195">**IKEEXT\_CERT\_CRITERIA\_NAME\_TYPE**</span></span>](/windows/win32/api/iketypes/ne-iketypes-ikeext_cert_criteria_name_type)
+-   [<span data-ttu-id="5458c-196">**\_TYPE0 d' \_ événement de contexte sa \_ IPSec \_**</span><span class="sxs-lookup"><span data-stu-id="5458c-196">**IPSEC\_SA\_CONTEXT\_EVENT\_TYPE0**</span></span>](/windows/desktop/api/Ipsectypes/ne-ipsectypes-ipsec_sa_context_event_type0)
+
+## <a name="new-filtering-layer-identifiers"></a><span data-ttu-id="5458c-197">Nouveaux identificateurs de couche de filtrage</span><span class="sxs-lookup"><span data-stu-id="5458c-197">New filtering layer identifiers</span></span>
+
+[<span data-ttu-id="5458c-198">**Filtrage des identificateurs de couche :**</span><span class="sxs-lookup"><span data-stu-id="5458c-198">**Filtering Layer Identifiers:**</span></span>](management-filtering-layer-identifiers-.md)
+
+-   <span data-ttu-id="5458c-199">couche FWPM de \_ \_ \_ TRAMe Mac entrante \_ \_ Ethernet</span><span class="sxs-lookup"><span data-stu-id="5458c-199">FWPM\_LAYER\_INBOUND\_MAC\_FRAME\_ETHERNET</span></span>
+-   <span data-ttu-id="5458c-200">couche FWPM de \_ \_ \_ \_ trame Mac sortante de la couche \_</span><span class="sxs-lookup"><span data-stu-id="5458c-200">FWPM\_LAYER\_OUTBOUND\_MAC\_FRAME\_ETHERNET</span></span>
+-   <span data-ttu-id="5458c-201">couche FWPM- \_ \_ \_ Frame Mac \_ entrant \_ natif</span><span class="sxs-lookup"><span data-stu-id="5458c-201">FWPM\_LAYER\_INBOUND\_MAC\_FRAME\_NATIVE</span></span>
+-   <span data-ttu-id="5458c-202">\_ \_ trame Mac sortante de la couche FWPM \_ \_ \_ Native</span><span class="sxs-lookup"><span data-stu-id="5458c-202">FWPM\_LAYER\_OUTBOUND\_MAC\_FRAME\_NATIVE</span></span>
+-   <span data-ttu-id="5458c-203">entrée de \_ couche FWPM \_ \_ vswitch \_ Ethernet</span><span class="sxs-lookup"><span data-stu-id="5458c-203">FWPM\_LAYER\_INGRESS\_VSWITCH\_ETHERNET</span></span>
+-   <span data-ttu-id="5458c-204">FWPM de sortie de la \_ couche de \_ sortie \_ \_ Ethernet</span><span class="sxs-lookup"><span data-stu-id="5458c-204">FWPM\_LAYER\_EGRESS\_VSWITCH\_ETHERNET</span></span>
+-   <span data-ttu-id="5458c-205">Entrée de \_ couche FWPM \_ -entrée \_ vswitch \_ transport \_ v4/FWPM couche d’entrée de \_ \_ \_ \_ transport vswitch \_ V6</span><span class="sxs-lookup"><span data-stu-id="5458c-205">FWPM\_LAYER\_INGRESS\_VSWITCH\_TRANSPORT\_V4 / FWPM\_LAYER\_INGRESS\_VSWITCH\_TRANSPORT\_V6</span></span>
+-   <span data-ttu-id="5458c-206">Sortie de la couche FWPM \_ \_ sortie de \_ \_ transport vswitch \_ v4/FWPM de \_ sortie de la couche de sortie \_ \_ vswitch \_ \_ V6</span><span class="sxs-lookup"><span data-stu-id="5458c-206">FWPM\_LAYER\_EGRESS\_VSWITCH\_TRANSPORT\_V4 / FWPM\_LAYER\_EGRESS\_VSWITCH\_TRANSPORT\_V6</span></span>
+
+## <a name="new-filtering-condition-identifiers"></a><span data-ttu-id="5458c-207">Nouveaux identificateurs de condition de filtrage</span><span class="sxs-lookup"><span data-stu-id="5458c-207">New filtering condition identifiers</span></span>
+
+[<span data-ttu-id="5458c-208">**Filtrage des identificateurs de condition :**</span><span class="sxs-lookup"><span data-stu-id="5458c-208">**Filtering Condition Identifiers:**</span></span>](filtering-condition-identifiers-.md)
+
+-   <span data-ttu-id="5458c-209">\_ \_ \_ adresse MAC de l’interface de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-209">FWPM\_CONDITION\_INTERFACE\_MAC\_ADDRESS</span></span>
+-   <span data-ttu-id="5458c-210">\_ \_ \_ adresse locale Mac de la condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-210">FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS</span></span>
+-   <span data-ttu-id="5458c-211">\_ \_ \_ adresse distante Mac de la condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-211">FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS</span></span>
+-   <span data-ttu-id="5458c-212">\_type d' \_ éther de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-212">FWPM\_CONDITION\_ETHER\_TYPE</span></span>
+-   <span data-ttu-id="5458c-213">\_ \_ ID VLAN de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-213">FWPM\_CONDITION\_VLAN\_ID</span></span>
+-   <span data-ttu-id="5458c-214">\_ \_ port NDIS de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-214">FWPM\_CONDITION\_NDIS\_PORT</span></span>
+-   <span data-ttu-id="5458c-215">\_type de \_ \_ média NDIS de condition \_ FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-215">FWPM\_CONDITION\_NDIS\_MEDIA\_TYPE</span></span>
+-   <span data-ttu-id="5458c-216">\_type de \_ \_ média physique \_ NDIS \_ condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-216">FWPM\_CONDITION\_NDIS\_PHYSICAL\_MEDIA\_TYPE</span></span>
+-   <span data-ttu-id="5458c-217">\_ \_ Indicateurs L2 de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-217">FWPM\_CONDITION\_L2\_FLAGS</span></span>
+-   <span data-ttu-id="5458c-218">\_type d' \_ \_ adresse locale \_ Mac \_ de condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-218">FWPM\_CONDITION\_MAC\_LOCAL\_ADDRESS\_TYPE</span></span>
+-   <span data-ttu-id="5458c-219">FWPM \_ condition \_ Mac \_ \_ type d’adresse distante \_</span><span class="sxs-lookup"><span data-stu-id="5458c-219">FWPM\_CONDITION\_MAC\_REMOTE\_ADDRESS\_TYPE</span></span>
+-   <span data-ttu-id="5458c-220">\_ID de \_ \_ package ALE de condition \_ FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-220">FWPM\_CONDITION\_ALE\_PACKAGE\_ID</span></span>
+-   <span data-ttu-id="5458c-221">\_ \_ \_ adresse source Mac de la condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-221">FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS</span></span>
+-   <span data-ttu-id="5458c-222">\_adresse de \_ \_ destination Mac \_ de la condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-222">FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS</span></span>
+-   <span data-ttu-id="5458c-223">\_type d' \_ \_ adresse source \_ Mac \_ de la condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-223">FWPM\_CONDITION\_MAC\_SOURCE\_ADDRESS\_TYPE</span></span>
+-   <span data-ttu-id="5458c-224">\_type d' \_ \_ adresse de destination Mac \_ \_ de la condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-224">FWPM\_CONDITION\_MAC\_DESTINATION\_ADDRESS\_TYPE</span></span>
+-   <span data-ttu-id="5458c-225">\_port de \_ \_ source IP \_ de la condition FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-225">FWPM\_CONDITION\_IP\_SOURCE\_PORT</span></span>
+-   <span data-ttu-id="5458c-226">\_port de \_ \_ destination IP de condition \_ FWPM</span><span class="sxs-lookup"><span data-stu-id="5458c-226">FWPM\_CONDITION\_IP\_DESTINATION\_PORT</span></span>
+-   <span data-ttu-id="5458c-227">\_ \_ ID VSWITCH de condition FWPM \_</span><span class="sxs-lookup"><span data-stu-id="5458c-227">FWPM\_CONDITION\_VSWITCH\_ID</span></span>
+-   <span data-ttu-id="5458c-228">FWPM \_ condition \_ \_ type de réseau VSWITCH \_</span><span class="sxs-lookup"><span data-stu-id="5458c-228">FWPM\_CONDITION\_VSWITCH\_NETWORK\_TYPE</span></span>
+-   <span data-ttu-id="5458c-229">\_condition FWPM \_ \_ ID d' \_ interface source VSWITCH \_</span><span class="sxs-lookup"><span data-stu-id="5458c-229">FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_ID</span></span>
+-   <span data-ttu-id="5458c-230">\_condition FWPM \_ \_ ID d’interface de destination VSWITCH \_ \_</span><span class="sxs-lookup"><span data-stu-id="5458c-230">FWPM\_CONDITION\_VSWITCH\_DESTINATION\_INTERFACE\_ID</span></span>
+-   <span data-ttu-id="5458c-231">FWPM \_ condition \_ VSWITCH \_ ID de la \_ machine virtuelle source \_</span><span class="sxs-lookup"><span data-stu-id="5458c-231">FWPM\_CONDITION\_VSWITCH\_SOURCE\_VM\_ID</span></span>
+-   <span data-ttu-id="5458c-232">FWPM \_ condition \_ VSWITCH \_ ID de la \_ machine virtuelle de destination \_</span><span class="sxs-lookup"><span data-stu-id="5458c-232">FWPM\_CONDITION\_VSWITCH\_DESTINATION\_VM\_ID</span></span>
+-   <span data-ttu-id="5458c-233">FWPM \_ condition \_ \_ type d' \_ interface \_ source VSWITCH</span><span class="sxs-lookup"><span data-stu-id="5458c-233">FWPM\_CONDITION\_VSWITCH\_SOURCE\_INTERFACE\_TYPE</span></span>
+-   <span data-ttu-id="5458c-234">FWPM \_ état \_ \_ réseau du locataire VSWITCH \_ \_</span><span class="sxs-lookup"><span data-stu-id="5458c-234">FWPM\_CONDITION\_VSWITCH\_TENANT\_NETWORK\_ID</span></span>
+
+## <a name="new-filtering-condition-flags"></a><span data-ttu-id="5458c-235">Nouveaux indicateurs de condition de filtrage</span><span class="sxs-lookup"><span data-stu-id="5458c-235">New filtering condition flags</span></span>
+
+[<span data-ttu-id="5458c-236">**Indicateurs de condition de filtrage :**</span><span class="sxs-lookup"><span data-stu-id="5458c-236">**Filtering Condition Flags:**</span></span>](filtering-condition-flags-.md)
+
+-   <span data-ttu-id="5458c-237">l' \_ indicateur de condition fwp \_ est une \_ \_ \_ connexion proxy</span><span class="sxs-lookup"><span data-stu-id="5458c-237">FWP\_CONDITION\_FLAG\_IS\_PROXY\_CONNECTION</span></span>
+-   <span data-ttu-id="5458c-238">l' \_ indicateur de condition fwp \_ est un \_ \_ \_ bouclage APPCONTAINER</span><span class="sxs-lookup"><span data-stu-id="5458c-238">FWP\_CONDITION\_FLAG\_IS\_APPCONTAINER\_LOOPBACK</span></span>
+-   <span data-ttu-id="5458c-239">l' \_ indicateur de condition fwp \_ est un \_ \_ \_ bouclage non APPCONTAINER \_</span><span class="sxs-lookup"><span data-stu-id="5458c-239">FWP\_CONDITION\_FLAG\_IS\_NON\_APPCONTAINER\_LOOPBACK</span></span>
+-   <span data-ttu-id="5458c-240">l’indicateur de condition FWP respecte l' \_ \_ \_ autorisation de \_ \_ stratégie \_</span><span class="sxs-lookup"><span data-stu-id="5458c-240">FWP\_CONDITION\_FLAG\_IS\_HONORING\_POLICY\_AUTHORIZE</span></span>
+-   <span data-ttu-id="5458c-241">La \_ condition fwp \_ L2 \_ est \_ native \_ Ethernet</span><span class="sxs-lookup"><span data-stu-id="5458c-241">FWP\_CONDITION\_L2\_IS\_NATIVE\_ETHERNET</span></span>
+-   <span data-ttu-id="5458c-242">La \_ condition fwp \_ L2 \_ est \_ WiFi</span><span class="sxs-lookup"><span data-stu-id="5458c-242">FWP\_CONDITION\_L2\_IS\_WIFI</span></span>
+-   <span data-ttu-id="5458c-243">La \_ condition fwp \_ L2 \_ est \_ Mobile \_ Broadband</span><span class="sxs-lookup"><span data-stu-id="5458c-243">FWP\_CONDITION\_L2\_IS\_MOBILE\_BROADBAND</span></span>
+-   <span data-ttu-id="5458c-244">\_La condition fwp \_ L2 \_ est \_ WiFi \_ direct \_ Data</span><span class="sxs-lookup"><span data-stu-id="5458c-244">FWP\_CONDITION\_L2\_IS\_WIFI\_DIRECT\_DATA</span></span>
+-   <span data-ttu-id="5458c-245">La \_ condition fwp \_ L2 \_ est \_ VM2VM</span><span class="sxs-lookup"><span data-stu-id="5458c-245">FWP\_CONDITION\_L2\_IS\_VM2VM</span></span>
+-   <span data-ttu-id="5458c-246">La \_ condition fwp \_ L2 \_ est un \_ paquet mal formé \_</span><span class="sxs-lookup"><span data-stu-id="5458c-246">FWP\_CONDITION\_L2\_IS\_MALFORMED\_PACKET</span></span>
+-   <span data-ttu-id="5458c-247">La \_ condition fwp \_ L2 \_ est un \_ \_ groupe de fragments IP \_</span><span class="sxs-lookup"><span data-stu-id="5458c-247">FWP\_CONDITION\_L2\_IS\_IP\_FRAGMENT\_GROUP</span></span>
+-   <span data-ttu-id="5458c-248">\_Condition fwp \_ L2 \_ si le \_ connecteur est \_ présent</span><span class="sxs-lookup"><span data-stu-id="5458c-248">FWP\_CONDITION\_L2\_IF\_CONNECTOR\_PRESENT</span></span>
+
+## <a name="windows-7-updates-to-the-windows-filtering-platform"></a><span data-ttu-id="5458c-249">Mises à jour de Windows 7 sur la plateforme de filtrage Windows</span><span class="sxs-lookup"><span data-stu-id="5458c-249">Windows 7 updates to the Windows Filtering Platform</span></span>
+
+<span data-ttu-id="5458c-250">Le document [Nouveautés de la plateforme de filtrage Windows]() détaille la plupart des mises à jour apportées à Windows 7.</span><span class="sxs-lookup"><span data-stu-id="5458c-250">The document [What's New in Windows Filtering Platform]() details many of the updates made for Windows 7.</span></span> <span data-ttu-id="5458c-251">Les informations sont également disponibles dans le kit de pilotes Windows sur [les modifications de WFP pour Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).</span><span class="sxs-lookup"><span data-stu-id="5458c-251">Information is also available in the Windows Driver Kit on [WFP Changes for Windows 7](/windows-hardware/drivers/network/wfp-changes-for-windows-7).</span></span>
+
+ 
+
+ 

@@ -1,0 +1,22 @@
+---
+description: Considérations relatives aux threads
+ms.assetid: 4d27f0b3-3e30-4e88-b2b2-d57218da4ffa
+title: Considérations relatives aux threads
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8acde9a06802a867cb6a93e7c52be8066ad483c3
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104033774"
+---
+# <a name="threading-considerations"></a><span data-ttu-id="191df-103">Considérations relatives aux threads</span><span class="sxs-lookup"><span data-stu-id="191df-103">Threading Considerations</span></span>
+
+<span data-ttu-id="191df-104">L’enregistreur de composants en file d’attente COM+ peut s’exécuter dans le cloisonnement multithread (MTA) du processus ou dans un thread cloisonné (STA).</span><span class="sxs-lookup"><span data-stu-id="191df-104">The COM+ queued components recorder is capable of running in the process's multithreaded apartment (MTA) or in a single-threaded apartment (STA).</span></span> <span data-ttu-id="191df-105">Lorsque l’enregistreur est exécuté dans le STA, COM+ requiert que chaque cloisonnement contenant des objets doive avoir une file d’attente [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) pour gérer les appels d’autres processus et Apartments au sein du même processus.</span><span class="sxs-lookup"><span data-stu-id="191df-105">When the recorder is run in the STA, COM+ requires that each apartment containing objects must have a [Message Queuing](/previous-versions/windows/desktop/legacy/ms711472(v=vs.85)) queue to handle calls from other processes and apartments within the same process.</span></span> <span data-ttu-id="191df-106">Cela signifie que la fonction de travail du thread doit avoir une boucle de message.</span><span class="sxs-lookup"><span data-stu-id="191df-106">This means that the thread's work function must have a message loop.</span></span> <span data-ttu-id="191df-107">Quand un composant mis en file d’attente est instancié, le pointeur d’interface retourné est toujours un pointeur d’interface proxy plutôt qu’un pointeur d’interface directe.</span><span class="sxs-lookup"><span data-stu-id="191df-107">When a queued component is instantiated, the interface pointer returned is always a proxy interface pointer rather than a direct interface pointer.</span></span> <span data-ttu-id="191df-108">Le pointeur est en fait une référence à une instance de l’enregistreur.</span><span class="sxs-lookup"><span data-stu-id="191df-108">The pointer is actually a reference to an instance of the recorder.</span></span> <span data-ttu-id="191df-109">Si cette référence d’interface d’enregistreur est passée à un autre thread, le thread d’origine doit toujours exécuter la boucle de message Windows pour que le thread de réception puisse démarshaler l’interface.</span><span class="sxs-lookup"><span data-stu-id="191df-109">If this recorder interface reference is passed to another thread, the original thread must still be running the Windows message loop so that the receiving thread can unmarshal the interface.</span></span> <span data-ttu-id="191df-110">Si ce n’est pas le cas, le thread de réception se bloque lors d’un appel à [**CoUnmarshalInterface**](/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface).</span><span class="sxs-lookup"><span data-stu-id="191df-110">If this is not the case, the receiving thread hangs in a call to [**CoUnmarshalInterface**](/windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface).</span></span>
+
+<span data-ttu-id="191df-111">Si vous utilisez des primitives pour synchroniser les threads, envisagez d’utiliser [**MsgWaitForMultipleObjects**](/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) au lieu d’autres fonctions de synchronisation.</span><span class="sxs-lookup"><span data-stu-id="191df-111">If you are using primitives to synchronize the threads, consider using [**MsgWaitForMultipleObjects**](/windows/desktop/api/winuser/nf-winuser-msgwaitformultipleobjects) instead of other synchronization functions.</span></span> <span data-ttu-id="191df-112">Cela recherche les messages dans la file d’attente, ainsi que l’état de l’objet de synchronisation.</span><span class="sxs-lookup"><span data-stu-id="191df-112">This checks for messages in the queue as well as the state of the synchronization object.</span></span>
+
+ 
+
+ 
