@@ -1,0 +1,110 @@
+---
+title: Structure MPENDOFLIFE_DATA (MpClient. h)
+description: '\ 0034 ; Fin de vie \ 0034 ; données de notification.'
+ms.assetid: 00C2E707-9034-4BBC-99CF-3DFA4B8C08D9
+keywords:
+- Fonctionnalités d’environnement Windows héritées de la structure MPENDOFLIFE_DATA
+- PMPENDOFLIFE_DATA des fonctionnalités d’environnement Windows héritées du pointeur de structure
+topic_type:
+- apiref
+api_name:
+- MPENDOFLIFE_DATA
+api_location:
+- MpClient.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 5e209b9b35a089523815c353e8a750152bf4af75
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104104851"
+---
+# <a name="mpendoflife_data-structure"></a>\_Structure de données MPENDOFLIFE
+
+Données de notification de « fin de vie ».
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+typedef struct tagMPENDOFLIFE_DATA {
+  FILETIME ftSignatureExpiry;
+  FILETIME ftPlatformExpiry;
+  BOOL     fAdminControlled;
+  BOOL     fEndOfLifeImpendingOrPast;
+} MPENDOFLIFE_DATA, *PMPENDOFLIFE_DATA;
+```
+
+
+
+## <a name="members"></a>Membres
+
+<dl> <dt>
+
+**ftSignatureExpiry**
+</dt> <dd>
+
+Type : **fileTime**
+
+</dd> <dd>
+
+Heure d’expiration de la signature.
+
+</dd> <dt>
+
+**ftPlatformExpiry**
+</dt> <dd>
+
+Type : **fileTime**
+
+</dd> <dd>
+
+Heure d’expiration de la plateforme.
+
+</dd> <dt>
+
+**fAdminControlled**
+</dt> <dd>
+
+Type : **bool**
+
+</dd> <dd>
+
+True si l’administrateur contrôlant la stratégie pour l’indication de la notification. Si cette option est définie, l’interface utilisateur n’affiche pas la notification de fin de vie.
+
+</dd> <dt>
+
+**fEndOfLifeImpendingOrPast**
+</dt> <dd>
+
+Type : **bool**
+
+</dd> <dd>
+
+True si la « fin de vie » est en attente ou passée. Si la valeur est false, l’interface utilisateur et les clients peuvent effacer tout État lié à la EOL.
+
+</dd> </dl>
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
+
