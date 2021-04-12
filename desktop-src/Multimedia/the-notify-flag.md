@@ -1,0 +1,24 @@
+---
+title: Indicateur Notify
+description: Indicateur Notify
+ms.assetid: ed5dbb0b-ce4d-4bda-8daa-c62cfda717d1
+keywords:
+- Indicateur de MCI_NOTIFY
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9093e539becb4ba2f09b48d628a57d8243bd837c
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "104381915"
+---
+# <a name="the-notify-flag"></a>Indicateur Notify
+
+L’indicateur « Notify » (MCI \_ Notify) indique à l’appareil de poster un message [**MCINOTIFY mm**](mm-mcinotify.md) lorsque l’appareil termine une action. Votre application doit avoir une procédure de fenêtre pour traiter le \_ message mm MCINOTIFY pour que la notification ait un effet. Un \_ message mm MCINOTIFY indique que le traitement d’une commande est terminé, mais il n’indique pas si la commande a été exécutée correctement, a échoué ou a été remplacée ou abandonnée.
+
+L’application spécifie le handle vers la fenêtre de destination pour le message lorsqu’il émet une commande. Dans l’interface de chaîne de commande, ce descripteur est le dernier paramètre de la fonction [**mciSendString**](/previous-versions//dd757161(v=vs.85)) . Dans l’interface de message de commande, le descripteur est spécifié dans le mot de poids faible du membre **dwCallBack** de la structure envoyée avec le message de commande. (Chaque structure associée à un message de commande contient ce membre.)
+
+ 
+
+ 
