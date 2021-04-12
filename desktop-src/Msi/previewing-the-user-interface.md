@@ -1,0 +1,29 @@
+---
+description: Le programme d’installation stocke toutes les informations relatives à l’interface utilisateur dans les tables de la base de données d’installation.
+ms.assetid: 56d8ecb4-6c95-46c6-98dc-3118d2061101
+title: Aperçu de l’interface utilisateur
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c8c58f30dcd797064ef9b01217927fda96a758f9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104203195"
+---
+# <a name="previewing-the-user-interface"></a>Aperçu de l’interface utilisateur
+
+Le programme d’installation stocke toutes les informations relatives à l' [interface utilisateur](user-interface.md) dans les tables de la base de données d’installation. Pour faciliter la conception de l’interface utilisateur, le programme d’installation fournit également un mode d’aperçu pour afficher ces informations. La procédure suivante décrit comment activer le mode aperçu de l’interface utilisateur et afficher l’apparence actuelle des boîtes de dialogue et des panneaux.
+
+**Pour afficher l’interface utilisateur en mode aperçu**
+
+1.  Activez le mode aperçu en appelant la fonction [**MsiEnableUIPreview**](/windows/desktop/api/Msiquery/nf-msiquery-msienableuipreview) .
+2.  Affichez les boîtes de dialogue particulières en appelant la fonction [**MsiPreviewDialog**](/windows/desktop/api/Msiquery/nf-msiquery-msipreviewdialoga) .
+3.  Affichez des panneaux d’affichage particuliers en appelant la fonction [**MsiPreviewBillboard**](/windows/desktop/api/Msiquery/nf-msiquery-msipreviewbillboarda) .
+
+ 
+
+ 
+
+
+
