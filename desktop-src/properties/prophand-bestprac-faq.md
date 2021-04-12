@@ -1,0 +1,158 @@
+---
+description: Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
+title: Meilleures pratiques pour le gestionnaire de propriétés et FAQ
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f5188e66f08f3c6cf449f8bc61feb6aac829d37c
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104210351"
+---
+# <a name="property-handler-best-practices-and-faq"></a>Meilleures pratiques pour le gestionnaire de propriétés et FAQ
+
+Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+
+Cette rubrique est organisée comme suit :
+
+-   [Bonnes pratiques](#property-handler-best-practices-and-faq)
+    -   [Remplacement des propriétés du système de fichiers](#overriding-file-system-properties)
+    -   [Stockage des propriétés dans des formats de fichier XML](#storing-properties-in-xml-based-file-formats)
+    -   [Propriétés calculées](#computed-properties)
+-   [Questions fréquentes (FAQ)](#property-handler-best-practices-and-faq)
+-   [Rubriques connexes](#related-topics)
+
+## <a name="best-practices"></a>Bonnes pratiques
+
+Les meilleures pratiques présentées ici fournissent des conseils d’implémentation utiles.
+
+### <a name="overriding-file-system-properties"></a>Remplacement des propriétés du système de fichiers
+
+Certaines propriétés des fichiers sont fournies par la source de données du système de fichiers, par exemple :
+
+-   \_Nom du fichier
+-   Extension de la de la de la \_
+-   ModifiedTime de la \_
+
+En général, les gestionnaires de propriétés ne peuvent pas fournir de valeurs pour ces propriétés. Toutefois, dans certains cas, ces propriétés peuvent être remplacées en fonction des informations d’inscription fournies par le gestionnaire de propriétés. Les gestionnaires de propriétés remplissent les **\_ classes HKEY \_ racine** \\ **CLSID** \\ *{handler CLSID}* \\ **OverrideFileSystemProperties** avec les noms des propriétés qu’ils souhaitent substituer. Cela se limite à un ensemble fixe de propriétés présentées dans la liste suivante, dont le système a connaissance.
+
+La substitution est prise en charge pour les valeurs de propriétés suivantes :
+
+-   [System. Kind](./props-system-kind.md)
+-   [System. FileName](./props-system-filename.md)
+-   [System. IsPinnedToNameSpaceTree](./props-system-ispinnedtonamespacetree.md)
+-   [System.ItemNameDisplay](./props-system-itemnamedisplay.md)
+-   [System. SFGAOFlags](./props-system-sfgaoflags.md)
+-   [System. ItemPathDisplay](./props-system-itempathdisplay.md)
+-   [System. ItemPathDisplayNarrow](./props-system-itempathdisplaynarrow.md)
+-   [System. ItemFolderNameDisplay](./props-system-itemfoldernamedisplay.md)
+-   [System. ItemFolderPathDisplay](./props-system-itemfolderpathdisplay.md)
+-   [System. ItemFolderPathDisplayNarrow](./props-system-itemfolderpathdisplaynarrow.md)
+
+Pour obtenir la liste complète de toutes les propriétés de l’interpréteur de commandes, consultez Propriétés de l' [interpréteur](./props.md).
+
+> [!IMPORTANT]
+> Les valeurs de propriété remplacées sont utilisées uniquement lorsque les fichiers sont indexés. Ainsi, l’exploration des fichiers à partir de la source de données du système de fichiers ne révèle pas les valeurs substituées.
+
+ 
+
+### <a name="storing-properties-in-xml-based-file-formats"></a>Stockage des propriétés dans des formats de fichier XML
+
+Deux options de base sont disponibles pour le stockage des propriétés dans des formats de fichier XML :
+
+-   Stockez chaque propriété à l’aide d’éléments et d’attributs XML en fonction du schéma XML du document. Cette approche est plus « XML convivial ».
+-   Sérialisez l’ensemble de la Banque de propriétés dans un objet BLOB (Binary Large Object) de mémoire, convertissez l’objet BLOB en une chaîne encodée en base64, puis stockez cette chaîne dans le fichier XML. C’est le plus simple des deux approches et peut être utilisé pour offrir un support à des métadonnées ouvertes de façon triviale.
+
+Certains gestionnaires peuvent combiner ces approches, en stockant des valeurs importantes au format XML standard et en stockant le reste dans un objet BLOB, par exemple.
+
+### <a name="computed-properties"></a>Propriétés calculées
+
+Certaines propriétés sont dérivées d’attributs spécifiques d’un fichier. Par exemple, la propriété [System. image. Dimensions](./props-system-image-dimensions.md) est déterminée par les dimensions réelles de l’image dans un fichier image. Comme ces valeurs de propriété ne peuvent pas être modifiées par le gestionnaire de propriétés, elles sont donc marquées `isInnate="true"` dans la description de la propriété. D’autres propriétés sont calculées à partir d’une partie d’une propriété spécifique ou en agrégeant les valeurs de plusieurs propriétés. Étant donné que les mises à jour de ces propriétés « calculées » créeraient une ambiguïté quant à la façon dont les valeurs « sources » doivent être modifiées, les propriétés calculées doivent être marquées `isInnate="true"` dans la description de la propriété ou signalées comme étant en lecture seule. Cette dernière option est disponible en demandant au gestionnaire de retourner S \_ false à partir de [**IPropertyStoreCapabilities :: IsPropertyWritable**](/windows/win32/api/propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable).
+
+## <a name="frequently-asked-questions"></a>Forum Aux Questions (FAQ)
+
+Cette section fournit des réponses aux questions fréquemment posées sur les propriétés et les gestionnaires de propriétés, ainsi que les réponses qui l’accompagnent.
+
+-   **Question :** Pourquoi le gestionnaire de propriétés n’est-il pas chargé par l’indexeur de recherche Windows ?
+
+    L’indexeur de recherche Windows s’exécute en tant que service système et ne peut pas charger les dll stockées dans le répertoire du profil utilisateur. Si vous générez et déboguez à l’aide de Microsoft Visual Studio, le fichier DLL est placé dans votre profil utilisateur (et par conséquent, il n’est pas chargé par l’indexeur). Pour contourner ce contournement, copiez votre DLL en dehors de votre dossier de profil (par exemple, dans **C : \\ Program Files \\ nomapp**) et inscrivez-la à cet emplacement.
+
+    Pour obtenir des conseils plus spécifiques sur le développement de gestionnaires de propriétés pour travailler avec l’indexeur de recherche Windows, consultez [développement de gestionnaires de propriétés pour Windows Search](../search/-search-3x-wds-extidx-propertyhandlers.md).
+
+-   **Question :** Quelles sont les propriétés qui doivent être détectables via les méthodes d’énumération [**IPropertyStore :: GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) et [**IPropertyStore :: GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) ?
+
+    Les clients des objets de la Banque de propriétés n’utilisent pas ces méthodes. Certains clients connaissent les propriétés qu’ils envisagent de demander directement (par nom de la société) ou reçoivent des informations sur les propriétés via une liste de description de propriété. Les méthodes de découverte des propriétés prise en charge plusieurs autres scénarios. Si une propriété n’a pas besoin de participer à ces scénarios, elle n’a pas besoin d’être énumérée. Par conséquent, un gestionnaire de propriétés peut produire une valeur non VT \_ vide pour les propriétés qui ne sont pas découvertes par le biais des méthodes [**IPropertyStore :: GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) et [**IPropertyStore :: GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) .
+
+    Toutefois, les propriétés doivent être visibles par le biais de ces méthodes si l’une des conditions suivantes est remplie :
+
+    -   **Si la propriété est indexée pour pouvoir faire l'** objet d’une recherche : Cela signifie qu’il est inclus dans le magasin de propriétés de recherche Windows (indiqué par `isColumn = "true"` dans le schéma de description de propriété) ou disponible pour les recherches en texte intégral ( `inInvertedIndex = "true"` ). En l’absence de ces indicateurs ou de l’absence d’une description de propriété, les propriétés de type « String » sont ajoutées automatiquement à l’index inversé pour permettre la recherche. Étant donné que la liste des propriétés connues (celles avec les descriptions de propriétés installées) dans le système de propriétés est très volumineuse (plus de 800 propriétés), il est peu pratique de demander chaque gestionnaire de propriétés pour chaque propriété enregistrée dans le système de propriétés. Au lieu de cela, le processus d’indexation énumère les propriétés pertinentes du gestionnaire de propriétés pour chaque élément qu’il indexe, et il utilise les valeurs des propriétés énumérées pour créer l’index de recherche en texte intégral.
+    -   **Si la propriété doit être copiée lorsque le jeu de propriétés de l’élément est dupliqué :** Pour implémenter une fonction « copier un jeu de propriétés », l’élément source rend les propriétés qui doivent être copiées à l’aide des méthodes [**IPropertyStore :: GetCount**](/previous-versions/windows/desktop/legacy/bb761472(v=vs.85)) et [**IPropertyStore :: GetAt**](/previous-versions/windows/desktop/legacy/bb761471(v=vs.85)) . Les propriétés qui n’ont pas besoin d’être copiées ou qui ne sont pas logiquement copiées ne doivent pas être incluses.
+    -   **Si la valeur de la propriété n’est pas vide (VT \_ vide) : les** valeurs de propriété qui sont vides ne sont pas utiles pour les clients. Lorsque les clients tentent de retourner des valeurs de propriété vides, la valeur VT \_ vide est retournée. Par conséquent, les propriétés avec des valeurs vides ne doivent pas être énumérées.
+    -   **Si la propriété doit être supprimée lors de l’appel de la fonction « Remove Properties » :** Cette fonctionnalité existe pour protéger la confidentialité. il découvre toutes les valeurs du gestionnaire de propriétés par le biais de l’énumération et supprime chaque valeur sélectionnée pour la suppression par l’utilisateur.
+        > [!Note]  
+        > L’énumération des propriétés ne communique pas l’ensemble des propriétés prises en charge par un gestionnaire de propriétés particulier si le gestionnaire prend en charge un schéma fixe (et non des métadonnées ouvertes). Au lieu de cela, ces gestionnaires doivent documenter l’ensemble de propriétés qu’ils prennent en charge.
+
+         
+
+-   **Question :** Comment faire savez quels formats de fichiers prennent en charge les métadonnées ouvertes ?
+
+    Pour plus d’informations sur la prise en charge des métadonnées ouvertes, consultez « types de fichiers prenant en charge les métadonnées ouvertes » dans [types de fichiers](../shell/fa-file-types.md).
+
+-   **Question :** Les valeurs VT null peuvent- \_ elles être stockées à l’aide d’un gestionnaire de propriétés ?
+
+    Non. \_Les valeurs VT null seront converties en VT \_ vide lors des appels à [**IPropertyStore :: GetValue**](/previous-versions/windows/desktop/legacy/bb761473(v=vs.85)) et [**IPropertyStore :: SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
+
+-   **Question :** Quels formats de chaîne de date sont pris en charge par la fonction [**PropVariantChangeType**](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) ?
+
+    En règle générale, les propriétés qui représentent des valeurs de date/heure doivent être représentées à l’aide de VT \_ FILETIME. Toutefois, de nombreuses sources de données fournissent ces informations sous forme de chaîne. L’API d’assistance [**PropVariantChangeType**](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype) prend en charge la conversion de certains formats de date de chaîne en valeurs [**fileTime**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) , comme indiqué dans le tableau suivant.
+
+    
+
+    | Format                  | Windows Vista, Windows XP et Microsoft Windows Desktop Search (WDS) | Windows 7 | Notes                                                                                                                                                                                                 |
+    |-------------------------|-----------------------------------------------------------------------|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | yyyy/mm/jj : HH : mm : SS. uuu | Oui                                                                   | Oui       | UNIVERSEL y = année, m = mois, d = date, h = heures (24 heures), m = minutes, s = secondes, u = microsecondes                                                                                                           |
+    | yyyy-mm-ddThh : mm : ssZ    | Non                                                                    | Oui       | **Spécification de format ISO8601** UTC (indiqué par l’indicateur de fuseau horaire’Z'); y = année, m = mois, d = date, h = heures (24 heures), m = minutes, s = secondes ; 'T’est un délimiteur pour la partie heure.<br/> |
+
+    
+
+     
+
+-   **Question :** Est-il possible de créer un gestionnaire de propriétés en lecture seule ?
+
+    Oui. Certaines implémentations de gestionnaire de propriétés ne prennent pas en charge l’écriture de valeurs de propriété. Ces gestionnaires de propriétés doivent retourner STGM \_ E \_ ACCESSDENIED sur les appels à **IInitializeXXX :: Initialize** qui passent STGM \_ ReadWrite, ou à tout appel à [**IPropertyStore :: SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
+
+    Tous les gestionnaires de propriétés ouverts en \_ mode lecture STGM doivent retourner STGM \_ E \_ ACCESSDENIED sur les appels à [**IPropertyStore :: SetValue**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85)).
+
+-   **Question :** Un gestionnaire de propriétés peut-il traiter une propriété en lecture seule, même si le schéma indique que la propriété est accessible en écriture ?
+
+    Oui. Dans le système de schéma, les propriétés sont annotées en lecture seule (y compris celles avec `isInnate = "true"` ) ou en lecture/écriture. Les gestionnaires de propriétés qui ne prennent pas en charge l’écriture d’une propriété particulière indiquée par le schéma doivent être inscriptibles doivent implémenter [**IPropertyStoreCapabilities**](/windows/win32/api/propsys/nn-propsys-ipropertystorecapabilities) et retourner la \_ valeur false sur les appels à [**IPropertyStoreCapabilities :: IsPropertyWritable**](/windows/win32/api/propsys/nf-propsys-ipropertystorecapabilities-ispropertywritable) pour cette propriété. Cela indique que dans le contexte de ce gestionnaire et de ce fichier, la propriété n’est pas accessible en écriture.
+
+    > [!Note]  
+    > L’action inversée n’est pas possible. Vous ne pouvez pas autoriser un gestionnaire de propriétés à écrire une propriété qui est marquée en lecture seule dans le schéma
+
+     
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Fonctionnement des gestionnaires de propriétés](./building-property-handlers-properties.md)
+</dt> <dt>
+
+[Utilisation des noms de genres](./building-property-handlers-user-friendly-kind-names.md)
+</dt> <dt>
+
+[Utilisation des listes de propriétés](./building-property-handlers-property-lists.md)
+</dt> <dt>
+
+[Initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md)
+</dt> <dt>
+
+[Inscription et distribution des gestionnaires de propriétés](./prophand-reg-dist.md)
+</dt> </dl>
+
+ 
+
+ 
