@@ -1,0 +1,68 @@
+---
+title: Fonctions de partage
+description: Les fonctions de partage de gestion de réseau contrôlent les ressources partagées. Une ressource partagée est une ressource locale sur un serveur (par exemple, un répertoire de disque, un périphérique d’impression ou un canal nommé) accessible par les utilisateurs et les applications sur le réseau.
+ms.assetid: 3764c667-2290-48e6-ba3a-c74eee2c27f9
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5034d46e233ebb7ed4de691bd79942a3ecdf5263
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104382572"
+---
+# <a name="share-functions"></a>Fonctions de partage
+
+Les fonctions de partage de gestion de réseau contrôlent les ressources partagées. Une ressource partagée est une ressource locale sur un serveur (par exemple, un répertoire de disque, un périphérique d’impression ou un canal nommé) accessible par les utilisateurs et les applications sur le réseau.
+
+Les fonctions de partage sont répertoriées ci-dessous.
+
+
+
+| Fonction                                  | Description                                                          |
+|-------------------------------------------|----------------------------------------------------------------------|
+| [**NetShareAdd**](/windows/desktop/api/lmshare/nf-lmshare-netshareadd)         | Partage une ressource sur un serveur.                                       |
+| [**NetShareCheck**](/windows/desktop/api/lmshare/nf-lmshare-netsharecheck)     | Demande si un serveur partage un appareil.                        |
+| [**NetShareDel**](/windows/desktop/api/lmshare/nf-lmshare-netsharedel)         | Supprime un nom de partage de la liste des ressources partagées d’un serveur.       |
+| [**NetShareEnum**](/windows/desktop/api/lmshare/nf-lmshare-netshareenum)       | Récupère des informations de partage sur chaque ressource partagée sur un serveur.  |
+| [**NetShareGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo) | Récupère des informations sur une ressource partagée spécifiée sur un serveur. |
+| [**NetShareSetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo) | Définit les paramètres d’une ressource partagée.                                 |
+
+
+
+ 
+
+Ces fonctions de partage s’appliquent uniquement aux partages sur un serveur de bloc de message serveur (LAN Manager). Ces fonctions de partage ne prennent pas en charge les partages système de fichiers DFS (DFS). Par exemple, la fonction [**NetShareGetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharegetinfo) peut uniquement récupérer des informations pour une ressource de partage spécifiée sur un serveur SMB. Pour récupérer les informations d’un partage à l’aide d’un fournisseur de réseau différent (WebDAV ou partage DFS, par exemple), utilisez la fonction [**WNetGetConnection**](/windows/desktop/api/winnetwk/nf-winnetwk-wnetgetconnectiona) .
+
+La fonction [**NetShareAdd**](/windows/desktop/api/lmshare/nf-lmshare-netshareadd) permet à un utilisateur ou une application de partager une ressource d’un type spécifique à l’aide du nom de partage spécifié. La fonction **NetShareAdd** requiert le nom de partage et le nom de l’appareil local pour partager la ressource. Un utilisateur ou une application doit avoir un compte sur le serveur pour accéder à la ressource.
+
+Vous pouvez également spécifier un descripteur de sécurité à associer à un partage. Les descripteurs de sécurité spécifient les utilisateurs autorisés à accéder aux fichiers via le partage, ainsi que le type d’accès. Spécifiez [**un \_ descripteur de sécurité**](/windows/desktop/api/winnt/ns-winnt-security_descriptor) avec le niveau d’informations [**share \_ info \_ 502**](/windows/desktop/api/lmshare/ns-lmshare-share_info_502) lors de l’appel de **NetShareAdd** ou [**NetShareSetInfo**](/windows/desktop/api/lmshare/nf-lmshare-netsharesetinfo). **NetShareSetInfo** prend en charge le niveau d’informations [**share \_ info \_ 1501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1501) . Pour plus d’informations sur les descripteurs de sécurité, consultez [Access Control](/windows/desktop/SecAuthZ/access-control).
+
+Les fonctions de gestion de réseau utilisent les noms de partage spéciaux suivants pour la communication interprocessus (IPC) et l’administration à distance du serveur :
+
+-   IPC $, réservé à la communication entre processus
+-   ADMIN $, réservé à l’administration à distance
+-   $, B $, C $ (et d’autres noms de disque local suivis d’un signe dollar), affectés aux périphériques de disque local
+
+Pour répertorier toutes les connexions établies avec une ressource partagée sur un serveur, ou pour répertorier toutes les connexions établies à partir d’un ordinateur particulier, appelez la fonction [**NetConnectionEnum**](/windows/desktop/api/lmshare/nf-lmshare-netconnectionenum) . Vous pouvez appeler **NetConnectionEnum** sur les niveaux d’information [**Connection \_ info \_ 0**](/windows/desktop/api/lmshare/ns-lmshare-connection_info_0) et [**Connection \_ info \_ 1**](/windows/desktop/api/lmshare/ns-lmshare-connection_info_1) .
+
+Les fonctions de partage sont disponibles aux niveaux d’informations suivants, bien que certains niveaux de partage ne s’appliquent qu’à certaines fonctions de partage :
+
+-   [**Informations de partage \_ \_ 0**](/windows/desktop/api/lmshare/ns-lmshare-share_info_0)
+-   [**Informations de partage \_ \_ 1**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1)
+-   [**Informations de partage \_ \_ 2**](/windows/desktop/api/lmshare/ns-lmshare-share_info_2)
+-   [**PARTAGER des \_ informations \_ 501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_501)
+-   [**PARTAGER des \_ informations \_ 502**](/windows/desktop/api/lmshare/ns-lmshare-share_info_502)
+-   [**PARTAGER des \_ informations \_ 503**](/windows/desktop/api/lmshare/ns-lmshare-share_info_503)
+-   [**PARTAGER des \_ informations \_ 1004**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1004)
+-   [**PARTAGER des \_ informations \_ 1005**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1005)
+-   [**PARTAGER des \_ informations \_ 1006**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1006)
+-   [**PARTAGER des \_ informations \_ 1501**](/windows/desktop/api/lmshare/ns-lmshare-share_info_1501)
+
+Pour plus d’informations, consultez la documentation relative à une fonction de partage spécifique.
+
+Si vous programmez pour Active Directory, vous pourrez peut-être appeler certaines méthodes d’interface de service d’Active Directory (ADSI) pour obtenir les mêmes fonctionnalités que celles que vous pouvez obtenir en appelant les fonctions de partage de gestion de réseau. Pour plus d’informations, consultez [**IADsFileShare**](/windows/desktop/api/iads/nn-iads-iadsfileshare).
+
+ 
+
+ 
