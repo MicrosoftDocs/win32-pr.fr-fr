@@ -1,0 +1,43 @@
+---
+title: Minutage (Windows Multimedia)
+description: Minutage
+ms.assetid: 9ab284c7-eebc-4b44-b9e1-cc95efde22c1
+keywords:
+- DrawDib, minutage
+- DrawDibTime fonction)
+- DrawDib, débogage
+- débogage DrawDib
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: adddd43ff5067d08334a40f2e52e79109c8a8bb7
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104464071"
+---
+# <a name="timing-windows-multimedia"></a>Minutage (Windows Multimedia)
+
+Dans le cadre du débogage d’une application, vous pouvez obtenir des informations sur la durée nécessaire pour effectuer des opérations DrawDib répétitives. La fonction [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) retourne des informations de temporisation pour les opérations suivantes :
+
+-   Dessin d’une image bitmap
+-   Décompression d’une image bitmap
+-   Tramage d’une image bitmap
+-   Étirement d’une image bitmap
+-   Transfert d’une bitmap à l’aide de la fonction [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt)
+-   Transfert d’une bitmap à l’aide de la fonction [**StretchDIBits**](/windows/desktop/api/wingdi/nf-wingdi-stretchdibits)
+
+Après avoir récupéré un ensemble de valeurs, [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) réinitialise le nombre et la valeur pour chaque opération.
+
+La fonction [**DrawDibTime**](/windows/desktop/api/Vfw/nf-vfw-drawdibtime) est disponible uniquement dans la version Debug des fonctions DrawDib.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Rendu d’image](image-rendering.md)
+</dt> </dl>
+
+ 
+
+ 
