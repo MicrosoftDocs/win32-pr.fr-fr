@@ -1,0 +1,250 @@
+---
+title: Button (Contrôles Windows)
+description: Cette section contient des informations sur les éléments de programmation utilisés avec les contrôles Button. Un bouton est un contrôle sur lequel l’utilisateur peut cliquer pour fournir une entrée à une application.
+ms.assetid: vs|controls|~\controls\buttons\buttons.htm
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: babe31ec9f11ee445167e57394da0fa88fd781dd
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104464050"
+---
+# <a name="button-windows-controls"></a>Button (Contrôles Windows)
+
+Cette section contient des informations sur les éléments de programmation utilisés avec les contrôles Button. Un *bouton* est un contrôle sur lequel l’utilisateur peut cliquer pour fournir une entrée à une application.
+
+### <a name="overviews"></a>Vues d'ensemble
+
+
+
+| Rubrique                                       | Contenu                                                                                                           |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
+| [Messages de bouton](button-messages.md)      | Cette rubrique décrit les messages utilisés avec les boutons.<br/>                                               |
+| [États du bouton](button-states.md)          | Cette section explique comment la sélection d’un bouton modifie son état et comment l’application doit répondre.<br/> |
+| [Types de bouton](button-types-and-styles.md) | Cette rubrique présente les différents types de boutons.<br/>                                                    |
+| [Utilisation des boutons](using-buttons.md)          | Cette section explique comment effectuer certaines tâches associées aux boutons.<br/>                            |
+
+
+
+ 
+
+### <a name="functions"></a>Fonctions
+
+
+
+| Rubrique                                            | Contenu                                                                                                                                                                                                  |
+|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**CheckDlgButton**](/windows/desktop/api/Winuser/nf-winuser-checkdlgbutton)         | Modifie l’état d’activation d’un contrôle bouton.<br/>                                                                                                                                                   |
+| [**CheckRadioButton**](/windows/desktop/api/Winuser/nf-winuser-checkradiobutton)     | Ajoute une coche à (vérifie) une case d’option spécifiée dans un groupe et supprime une coche (efface) de toutes les autres cases d’option du groupe. <br/>                                                |
+| [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) | La fonction [**IsDlgButtonChecked**](/windows/desktop/api/Winuser/nf-winuser-isdlgbuttonchecked) détermine si un contrôle bouton est activé ou si un contrôle bouton à trois États est activé, désactivé ou indéterminé. <br/> |
+
+
+
+ 
+
+### <a name="macros"></a>Macros
+
+
+
+| Rubrique                                                                         | Contenu                                                                                                                                                                                                                                          |
+|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**Bouton \_ activer**](/windows/desktop/api/Windowsx/nf-windowsx-button_enable)                                       | Active ou désactive un bouton.<br/>                                                                                                                                                                                                          |
+| [**Bouton \_ GetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_getcheck)                                   | Obtient l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETCHECK BM**](bm-getcheck.md) de manière explicite. <br/>                                                                                       |
+| [**Bouton \_ GetIdealSize**](/windows/desktop/api/Commctrl/nf-commctrl-button_getidealsize)                           | Obtient la taille du bouton qui correspond le mieux au texte et à l’image, si une liste d’images est présente. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETIDEALSIZE BCM**](bcm-getidealsize.md) de manière explicite. <br/>                                      |
+| [**Bouton \_ GetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_getimagelist)                           | Obtient la [**structure \_ IMAGELIST du bouton**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) qui décrit la liste d’images définie pour un contrôle bouton. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETIMAGELIST BCM**](bcm-getimagelist.md) de manière explicite. <br/> |
+| [**Bouton \_ GetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnote)                                     | Obtient le texte de la note associée à un bouton de lien de commande. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETNOTE BCM**](bcm-getnote.md) de manière explicite.<br/>                                                                            |
+| [**Bouton \_ GetNoteLength**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnotelength)                         | Obtient la longueur du texte de la note qui peut s’afficher dans la description d’un lien de commande. Utilisez cette macro ou envoyez le [**message \_ GETNOTELENGTH BCM**](bcm-getnotelength.md) de manière explicite.<br/>                                           |
+| [**Bouton \_ GetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_getsplitinfo)                           | Obtient des informations pour un contrôle bouton partagé spécifié. Utilisez cette macro ou envoyez le [**message \_ GETSPLITINFO BCM**](bcm-getsplitinfo.md) de manière explicite.<br/>                                                                                    |
+| [**Bouton \_ GetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_getstate)                                   | Obtient l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETSTATE BM**](bm-getstate.md) de manière explicite. <br/>                                                                                       |
+| [**Bouton \_ gettext**](/windows/desktop/api/Windowsx/nf-windowsx-button_gettext)                                     | Obtient le texte d’un bouton.<br/>                                                                                                                                                                                                             |
+| [**Bouton \_ GetTextLength**](/windows/desktop/api/Windowsx/nf-windowsx-button_gettextlength)                         | Obtient le nombre de caractères contenus dans le texte d’un bouton.<br/>                                                                                                                                                                                 |
+| [**Bouton \_ GetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin)                         | Obtient les marges utilisées pour dessiner du texte dans un contrôle bouton. Vous pouvez utiliser cette macro ou envoyer le [**message \_ GETTEXTMARGIN BCM**](bcm-gettextmargin.md) de manière explicite. <br/>                                                                        |
+| [**Bouton \_ SetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_setcheck)                                   | Définit l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez utiliser cette macro ou envoyer le [**message \_ SETCHECK BM**](bm-setcheck.md) de manière explicite. <br/>                                                                                       |
+| [**Bouton \_ SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate)                   | Définit l’État déroulant d’un bouton spécifié avec le style de [**BS \_ SPLITBUTTON**](button-styles.md). Utilisez cette macro ou envoyez le [**message \_ SETDROPDOWNSTATE BCM**](bcm-setdropdownstate.md) de manière explicite. <br/>           |
+| [**Bouton \_ SetElevationRequiredState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) | Définit l’état d’élévation requis pour un bouton ou un lien de commande spécifié pour afficher une icône avec élévation de privilèges. Utilisez cette macro ou envoyez le [**message \_ SETSHIELD BCM**](bcm-setshield.md) de manière explicite. <br/>                                          |
+| [**Bouton \_ SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist)                           | Assigne une liste d’images à un contrôle bouton. Vous pouvez utiliser cette macro ou envoyer le [**message \_ SETIMAGELIST BCM**](bcm-setimagelist.md) de manière explicite. <br/>                                                                                       |
+| [**Bouton \_ SetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote)                                     | Définit le texte de la note associée à un bouton de lien de commande spécifié. Vous pouvez utiliser cette macro ou envoyer le [**message \_ SETNOTE BCM**](bcm-setnote.md) de manière explicite.<br/>                                                                  |
+| [**Bouton \_ SetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo)                           | Définit des informations pour un contrôle de bouton partagé spécifié. Utilisez cette macro ou envoyez le [**message \_ SETSPLITINFO BCM**](bcm-setsplitinfo.md) de manière explicite.<br/>                                                                                    |
+| [**Bouton \_ SetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstate)                                   | Définit l’état de surbrillance d’un bouton. L’état de mise en surbrillance indique si le bouton est mis en surbrillance comme si l’utilisateur l’avait poussé. Vous pouvez utiliser cette macro ou envoyer le message de [**BM \_ SETSTATE**](bm-setstate.md) de manière explicite. <br/>        |
+| [**Bouton \_ SetStyle**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstyle)                                   | Définit le style d’un bouton. Vous pouvez utiliser cette macro ou envoyer explicitement le message [**BM \_ SETSTYLE**](bm-setstyle.md) . <br/>                                                                                                                |
+| [**Bouton \_ SetText**](/windows/desktop/api/Windowsx/nf-windowsx-button_settext)                                     | Définit le texte d’un bouton.<br/>                                                                                                                                                                                                             |
+| [**Bouton \_ SetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_settextmargin)                         | Définit les marges de dessin du texte dans un contrôle bouton. Vous pouvez utiliser cette macro ou envoyer le [**message \_ SETTEXTMARGIN BCM**](bcm-settextmargin.md) de manière explicite. <br/>                                                                         |
+
+
+
+ 
+
+### <a name="messages"></a>Messages
+
+
+
+| Rubrique                                                 | Contenu                                                                                                                                                                                                                                                                                            |
+|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**\_GETIDEALSIZE BCM**](bcm-getidealsize.md)         | Obtient la taille du bouton qui correspond le mieux à son texte et à son image, si une liste d’images est présente. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetIdealSize**](/windows/desktop/api/Commctrl/nf-commctrl-button_getidealsize) macro.<br/>                                                                                   |
+| [**\_GETIMAGELIST BCM**](bcm-getimagelist.md)         | Obtient la [**structure \_ IMAGELIST du bouton**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) qui décrit la liste d’images assignée à un contrôle bouton. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_getimagelist) macro.<br/>                                                  |
+| [**\_GETNOTE BCM**](bcm-getnote.md)                   | Obtient le texte de la note associée à un bouton de lien de commande. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnote) macro.<br/>                                                                                                                        |
+| [**\_GETNOTELENGTH BCM**](bcm-getnotelength.md)       | Obtient la longueur du texte de la note qui peut s’afficher dans la description d’un bouton de lien de commande. Envoyez ce message explicitement ou à l’aide de la macro [**Button \_ GetNoteLength**](/windows/desktop/api/Commctrl/nf-commctrl-button_getnotelength) .<br/>                                                                           |
+| [**\_GETSPLITINFO BCM**](bcm-getsplitinfo.md)         | Obtient des informations pour un contrôle bouton partagé. Envoyez ce message explicitement ou à l’aide de la macro [**Button \_ GetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_getsplitinfo) . <br/>                                                                                                                                    |
+| [**\_GETTEXTMARGIN BCM**](bcm-gettextmargin.md)       | Obtient les marges utilisées pour dessiner du texte dans un contrôle bouton. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetTextMargin**](/windows/desktop/api/Commctrl/nf-commctrl-button_gettextmargin) macro.<br/>                                                                                                                     |
+| [**\_SETDROPDOWNSTATE BCM**](bcm-setdropdownstate.md) | Définit l’État déroulant d’un bouton avec la [**\_ liste déroulante style TBSTYLE**](toolbar-control-and-button-styles.md). Envoyez ce message explicitement ou à l’aide de la macro [**Button \_ SetDropDownState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setdropdownstate) .<br/>                                        |
+| [**\_SETIMAGELIST BCM**](bcm-setimagelist.md)         | Assigne une liste d’images à un contrôle bouton. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ SetImageList**](/windows/desktop/api/Commctrl/nf-commctrl-button_setimagelist) macro.<br/>                                                                                                                                    |
+| [**\_SETNOTE BCM**](bcm-setnote.md)                   | Définit le texte de la note associée à un bouton de lien de commande. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ SetNote**](/windows/desktop/api/Commctrl/nf-commctrl-button_setnote) macro.<br/>                                                                                                                        |
+| [**\_SETSHIELD BCM**](bcm-setshield.md)               | Définit l’état d’élévation requis pour un bouton ou un lien de commande spécifié pour afficher une icône avec élévation de privilèges. Envoyez ce message explicitement ou à l’aide de la macro [**Button \_ SetElevationRequiredState**](/windows/desktop/api/Commctrl/nf-commctrl-button_setelevationrequiredstate) .<br/>                                                  |
+| [**\_SETSPLITINFO BCM**](bcm-setsplitinfo.md)         | Définit des informations pour un contrôle bouton partagé. Envoyez ce message explicitement ou à l’aide de la macro [**Button \_ SetSplitInfo**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo) .<br/>                                                                                                                                     |
+| [**\_SETTEXTMARGIN BCM**](bcm-settextmargin.md)       | Le message [**BCM \_ SETTEXTMARGIN**](bcm-settextmargin.md) définit les marges de dessin du texte dans un contrôle Button. <br/>                                                                                                                                                                      |
+| [**\_clic sur BM**](bm-click.md)                         | Simule l’utilisateur qui clique sur un bouton. Ce message force le bouton à recevoir les messages [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) et [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) , ainsi que la fenêtre parente du bouton pour recevoir un code de notification sur lequel un clic a été [ \_ effectué](bn-clicked.md) .<br/> |
+| [**\_GETCHECK BM**](bm-getcheck.md)                   | Obtient l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_getcheck) macro.<br/>                                                                                                                                  |
+| [**GETIMAGE de BM \_**](bm-getimage.md)                   | Récupère un handle vers l’image (icône ou bitmap) associée au bouton.<br/>                                                                                                                                                                                                             |
+| [**\_GETSTATE BM**](bm-getstate.md)                   | Récupère l’état d’un bouton ou d’une case à cocher. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton \_ GetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_getstate) macro.<br/>                                                                                                                                         |
+| [**\_SETCHECK BM**](bm-setcheck.md)                   | Définit l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**Button \_ SetCheck**](/windows/desktop/api/Windowsx/nf-windowsx-button_setcheck) .<br/>                                                                                                                             |
+| [**\_SETDONTCLICK BM**](bm-setdontclick.md)           | Définit un indicateur sur une case d’option qui contrôle la génération de messages [ \_ sur lesquels un clic a été effectué](bn-clicked.md) lorsque le bouton reçoit le focus.<br/>                                                                                                                                                     |
+| [**\_SETIMAGE BM**](bm-setimage.md)                   | Associe une nouvelle image (icône ou bitmap) au bouton.<br/>                                                                                                                                                                                                                                 |
+| [**BM \_ SETSTATE**](bm-setstate.md)                   | Définit l’état de surbrillance d’un bouton. L’état de mise en surbrillance indique si le bouton est mis en surbrillance comme si l’utilisateur l’avait poussé. Vous pouvez envoyer ce message de manière explicite ou utiliser le [**bouton macro \_ SetState**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstate) .<br/>                                                   |
+| [**BM \_ SETSTYLE**](bm-setstyle.md)                   | Définit le style d’un bouton. Vous pouvez envoyer ce message explicitement ou utiliser la macro [**Button \_ SetStyle**](/windows/desktop/api/Windowsx/nf-windowsx-button_setstyle) .<br/>                                                                                                                                                           |
+
+
+
+ 
+
+### <a name="notifications"></a>Notifications
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rubrique</th>
+<th>Contenu</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="bcn-dropdown.md">BCN_DROPDOWN</a></td>
+<td>Envoyé lorsque l’utilisateur clique sur une flèche de déroulement sur un bouton. La fenêtre parente du contrôle reçoit ce code de notification sous la forme d’un message <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bcn-hotitemchange.md">BCN_HOTITEMCHANGE</a></td>
+<td>Notifie le propriétaire du contrôle de bouton que la souris entre dans la zone cliente du contrôle bouton. Le contrôle Button envoie ce code de notification sous la forme d’un message <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-clicked.md">BN_CLICKED</a></td>
+<td>Envoyé lorsque l’utilisateur clique sur un bouton. <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-clicked.md">BN_CLICKED</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-dblclk.md">BN_DBLCLK</a></td>
+<td>Envoyé lorsque l’utilisateur double-clique sur un bouton. Ce code de notification est envoyé automatiquement pour les boutons <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>et <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Les autres types de boutons envoient <a href="bn-dblclk.md">BN_DBLCLK</a> uniquement s’ils ont le style <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-dblclk.md">BN_DBLCLK</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-disable.md">BN_DISABLE</a></td>
+<td>Envoyé lorsqu’un bouton est désactivé.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-disable.md">BN_DISABLE</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a></td>
+<td>Envoyé lorsque l’utilisateur double-clique sur un bouton. Ce code de notification est envoyé automatiquement pour les boutons <a href="button-styles.md"><strong>BS_USERBUTTON</strong></a>, <a href="button-styles.md"><strong>BS_RADIOBUTTON</strong></a>et <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> . Les autres types de boutons envoient <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> uniquement s’ils ont le style <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> .<br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-doubleclicked.md">BN_DOUBLECLICKED</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-hilite.md">BN_HILITE</a></td>
+<td>Envoyé lorsque l’utilisateur sélectionne un bouton.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-hilite.md">BN_HILITE</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-killfocus.md">BN_KILLFOCUS</a></td>
+<td>Envoyé lorsqu’un bouton perd le focus clavier. Le bouton doit avoir le style <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> pour envoyer ce code de notification. <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-killfocus.md">BN_KILLFOCUS</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-paint.md">BN_PAINT</a></td>
+<td>Envoyé lorsqu’un bouton doit être peint.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-paint.md">BN_PAINT</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> . <br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-pushed.md">BN_PUSHED</a></td>
+<td>Envoyé lorsque l’état de transmission d’un bouton est défini sur Push.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-pushed.md">BN_PUSHED</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-setfocus.md">BN_SETFOCUS</a></td>
+<td>Envoyé lorsqu’un bouton reçoit le focus clavier. Le bouton doit avoir le style <a href="button-styles.md"><strong>BS_NOTIFY</strong></a> pour envoyer ce code de notification. <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-setfocus.md">BN_SETFOCUS</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="bn-unhilite.md">BN_UNHILITE</a></td>
+<td>Envoyé lorsque la sélection doit être supprimée d’un bouton.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-unhilite.md">BN_UNHILITE</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="bn-unpushed.md">BN_UNPUSHED</a></td>
+<td>Envoyé lorsque l’état de transmission d’un bouton a la valeur unpushd.
+<blockquote>
+[!Note]<br />
+Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton <a href="button-styles.md"><strong>BS_OWNERDRAW</strong></a> et la structure <a href="/windows/win32/api/winuser/ns-winuser-drawitemstruct"><strong>drawitemstruct,</strong></a> pour cette tâche.
+</blockquote>
+<br/> <br/> La fenêtre parente du bouton reçoit le code de notification <a href="bn-unpushed.md">BN_UNPUSHED</a> via le message <a href="/windows/desktop/menurc/wm-command"><strong>WM_COMMAND</strong></a> .<br/></td>
+</tr>
+<tr class="even">
+<td><a href="nm-customdraw-button.md">NM_CUSTOMDRAW (bouton)</a></td>
+<td>Notifie la fenêtre parente d’un contrôle bouton sur les opérations de dessin personnalisées sur le bouton. <br/> Le contrôle Button envoie ce code de notification sous la forme d’un message <a href="wm-notify.md"><strong>WM_NOTIFY</strong></a> .<br/></td>
+</tr>
+<tr class="odd">
+<td><a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a></td>
+<td>Le message <a href="wm-ctlcolorbtn.md"><strong>WM_CTLCOLORBTN</strong></a> est envoyé à la fenêtre parente d’un bouton avant de dessiner le bouton. La fenêtre parente peut modifier le texte du bouton et les couleurs d’arrière-plan. Toutefois, seuls les boutons owner-drawn répondent à la fenêtre parente qui traite ce message. <br/></td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+### <a name="structures"></a>Structures
+
+
+
+| Rubrique                                         | Contenu                                                                                                                                                                                                                                                                                                                |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**\_IMAGELIST Button**](/windows/desktop/api/Commctrl/ns-commctrl-button_imagelist) | Contient des informations sur une liste d’images qui est utilisée avec un contrôle bouton.<br/>                                                                                                                                                                                                                                 |
+| [**BOUTON \_ SPLITINFO**](/windows/win32/api/commctrl/ns-commctrl-button_splitinfo) | Contient des informations qui définissent un bouton partagé (les styles [**BS \_ SPLITBUTTON**](button-styles.md) et [**BS \_ DEFSPLITBUTTON**](button-styles.md) ). Utilisé avec les messages [**BCM \_ GETSPLITINFO**](bcm-getsplitinfo.md) et [**BCM \_ SETSPLITINFO**](bcm-setsplitinfo.md) .<br/> |
+| [**NMBCDROPDOWN**](/windows/win32/api/commctrl/ns-commctrl-nmbcdropdown)          | Contient des informations sur une notification de [ \_ liste déroulante BCN](bcn-dropdown.md) .<br/>                                                                                                                                                                                                                                 |
+| [**NMBCHOTITEM**](/windows/win32/api/commctrl/ns-commctrl-nmbchotitem)            | Contient des informations sur le déplacement de la souris sur un contrôle bouton.<br/>                                                                                                                                                                                                                                  |
+
+
+
+ 
+
+### <a name="constants"></a>Constantes
+
+
+
+| Rubrique                              | Contenu                                                                                                                                                                                                                                                            |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Styles de bouton](button-styles.md) | Spécifie une combinaison de styles de bouton. Si vous créez un bouton à l’aide de la classe BUTTON avec la fonction [**CreateWindow**](/windows/desktop/api/winuser/nf-winuser-createwindowa) ou [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) , vous pouvez spécifier n’importe quel style de bouton listé ci-dessous.<br/> |
+
+
+
+ 
+
