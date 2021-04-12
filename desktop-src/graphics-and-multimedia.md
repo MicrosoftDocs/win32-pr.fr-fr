@@ -1,0 +1,35 @@
+---
+description: Windows fournit des API et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
+ms.assetid: 516c969c-9f31-4f00-ac8c-140fdded72e1
+title: 'Graphismes et jeux '
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: b46cc79c489864c5299bf524b6447c43f45124b1
+ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "104321545"
+---
+# <a name="graphics-and-gaming"></a>Graphismes et jeux 
+
+Windows fournit des API et des composants qui prennent en charge les graphiques, les jeux et la création d’images.
+
+## <a name="in-this-section"></a>Contenu de cette section
+
+| Rubrique | Description |
+|-|-|
+| [Graphiques et jeux DirectX](./directx.md)<br/> | DirectX Graphics fournit un ensemble d’API que vous pouvez utiliser pour créer des jeux et d’autres applications multimédias à hautes performances. <br/> |
+| [DirectComposition](./directcomp/directcomposition-portal.md)<br/> | DirectComposition permet la composition d’une bitmap haute performance avec des transformations, des effets et des animations. Vous pouvez utiliser l’API DirectComposition pour créer des interfaces utilisateur visuellement attrayantes qui commesurent des transitions animées riches et fluides d’un visuel à un autre.<br/> |
+| [Mode jeu](/previous-versions/windows/desktop/gamemode/game-mode-portal)<br/> | Les API Mode Jeu pour la plateforme Windows universelle (UWP) vous permettent de créer une expérience de jeu optimale, en tirant parti du mode jeu de Windows 10.<br/> |
+| [Informations sur l’appareil de jeu](/previous-versions/windows/desktop/gamingdvcinfo/gaming-device-information-portal)<br/> | Les API de jeux d’informations sur les appareils permettent aux développeurs de jeux UWP de déterminer le type de console sur lequel le jeu s’exécute, afin d’effectuer des choix au moment de l’exécution pour utiliser au mieux le matériel.<br/> |
+| [Composant Imagerie Windows (WIC)](./wic/-wic-lh.md)<br/> | Le composant WIC (Windows Imaging Component) est une plateforme extensible qui fournit une API de bas niveau pour les images numériques. WIC prend en charge les formats d’image Web standard, les images de plage dynamique élevée et les données d’appareil photo brutes.<br/> |
+| [Win2D (site externe)](https://github.com/Microsoft/Win2D)<br/> | Win2D est une API Windows Runtime facile à utiliser pour le rendu d’éléments graphiques 2D en mode immédiat, avec accélération GPU. Elle est disponible pour \# les développeurs C et C++ qui écrivent des applications Windows pour Windows 8.1, Windows Phone 8,1 et Windows 10. Il utilise la puissance de Direct2D et s’intègre de façon transparente avec XAML et CoreWindow.<br/> |
+| [ANGLE pour le Windows Store (site externe)](https://github.com/microsoft/angle/wiki)<br/> | L’ANGLE pour le Windows Store est un projet open source qui permet aux développeurs d’exécuter du contenu OpenGL ES sur Windows en traduisant les appels de l’API ES OpenGL en appels d’API DirectX 11. L’ANGLE pour le Windows Store prend en charge Windows 8.1, Windows Phone 8,1 et Windows 10.<br/> |
+
+> [!NOTE]
+> Depuis Windows 10 version 1809 (10.0 build 17763), TruePlay a été supprimé de Windows. La documentation TruePlay n’est pas publiée.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+* [Audio et vidéo](./audio-and-video.md)
