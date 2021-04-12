@@ -1,0 +1,142 @@
+---
+description: Cette rubrique contient des exemples d’effets spéciaux réalisés avec le traitement des coordonnées de texture.
+ms.assetid: 8a120ff4-1252-4c4f-93fc-ea59bb7a1168
+title: Effets spéciaux (Direct3D 9)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6c853193e5cf34bfedb4eb7e01b5e89dc8467d99
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104317657"
+---
+# <a name="special-effects-direct3d-9"></a><span data-ttu-id="ad415-103">Effets spéciaux (Direct3D 9)</span><span class="sxs-lookup"><span data-stu-id="ad415-103">Special Effects (Direct3D 9)</span></span>
+
+<span data-ttu-id="ad415-104">Cette rubrique contient des exemples d’effets spéciaux réalisés avec le traitement des coordonnées de texture.</span><span class="sxs-lookup"><span data-stu-id="ad415-104">This topic contains examples of special effects accomplished with texture coordinate processing.</span></span>
+
+-   [<span data-ttu-id="ad415-105">Animation de textures (par translation ou rotation) sur un modèle</span><span class="sxs-lookup"><span data-stu-id="ad415-105">Animating textures (by translation or rotation) on a model</span></span>](#animating-textures-by-translation-or-rotation-on-a-model)
+-   [<span data-ttu-id="ad415-106">Création de coordonnées de texture comme fonction linéaire de la position de l’espace de caméra d’un modèle</span><span class="sxs-lookup"><span data-stu-id="ad415-106">Creating texture coordinates as a linear function of a model's camera-space position</span></span>](#creating-texture-coordinates-as-a-linear-function-of-a-models-camera-space-position)
+-   [<span data-ttu-id="ad415-107">Exécution d’un mappage d’environnement avec une carte d’environnement cubique</span><span class="sxs-lookup"><span data-stu-id="ad415-107">Performing environment mapping with a cubic environment map</span></span>](#performing-environment-mapping-with-a-cubic-environment-map)
+-   [<span data-ttu-id="ad415-108">Exécution de la texturation projective</span><span class="sxs-lookup"><span data-stu-id="ad415-108">Performing projective texturing</span></span>](#performing-projective-texturing)
+
+## <a name="animating-textures-by-translation-or-rotation-on-a-model"></a><span data-ttu-id="ad415-109">Animation de textures (par translation ou rotation) sur un modèle</span><span class="sxs-lookup"><span data-stu-id="ad415-109">Animating textures (by translation or rotation) on a model</span></span>
+
+-   <span data-ttu-id="ad415-110">Définissez des coordonnées de texture 2D dans votre format de vertex.</span><span class="sxs-lookup"><span data-stu-id="ad415-110">Define 2D texture coordinates in your vertex format.</span></span>
+    ```
+    // Use a single texture, with 2D texture coordinates. This
+    // bit-pattern should be expanded to include position, normal, 
+    // and color information as needed.
+    DWORD dwFVFTex = D3FVF_TEX1 | D3DFVF_TEXCOORDSIZE2(0);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-111">Configurez le rastériseur pour utiliser des coordonnées de texture 2D.</span><span class="sxs-lookup"><span data-stu-id="ad415-111">Configure the rasterizer to use 2D texture coordinates.</span></span>
+    ```
+    SetTextureStageState(0, D3DTSS_TEXTURETRANSFORMFLAGS, D3DTTFF_COUNT2);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-112">Définissez et définissez une matrice de transformation de coordonnée de texture appropriée.</span><span class="sxs-lookup"><span data-stu-id="ad415-112">Define and set an appropriate texture coordinate transformation matrix.</span></span>
+    ```
+    // M is a D3DMATRIX being set to translate texture
+    // coordinates in the U and V directions.
+    //      1   0  0  0
+    //      0   1  0  0
+    //      du dv  1  0 (du and dv change each frame)
+    //      0   0  0  1
+
+    D3DMATRIX M = D3DXMatrixIdentity(); // declared in d3dutil.h
+    M._31 = du; 
+    M._32 = dv; 
+    ```
+
+    
+
+## <a name="creating-texture-coordinates-as-a-linear-function-of-a-models-camera-space-position"></a><span data-ttu-id="ad415-113">Création de coordonnées de texture comme fonction linéaire de la position de l’espace de caméra d’un modèle</span><span class="sxs-lookup"><span data-stu-id="ad415-113">Creating texture coordinates as a linear function of a model's camera-space position</span></span>
+
+-   <span data-ttu-id="ad415-114">Utilisez l' \_ indicateur D3DTSS TCI \_ CAMERASPACEPOSITION pour indiquer au système de passer la position du vertex, dans l’espace de l’appareil photo, en tant qu’entrée d’une transformation de texture.</span><span class="sxs-lookup"><span data-stu-id="ad415-114">Use the D3DTSS\_TCI\_CAMERASPACEPOSITION flag to instruct the system to pass the vertex position, in camera space, as input to a texture transformation.</span></span>
+    ```
+    // The input vertices have no texture coordinates, saving 
+    // bandwidth. Three texture coordinates are generated by 
+    // using vertex position in camera space (x, y, z).
+    SetTextureStageState(0, D3DTSS_TEXCOORDINDEX, D3DTSS_TCI_CAMERASPACEPOSITION);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-115">Demandez au rastériseur d’attendre des coordonnées de texture 2D.</span><span class="sxs-lookup"><span data-stu-id="ad415-115">Instruct the rasterizer to expect 2D texture coordinates.</span></span>
+    ```
+    // Two output coordinates are used.
+    SetTextureStageState(0, D3DTSS_TEXTURETRANSFORMFLAGS, D3DTTFF_COUNT2);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-116">Définissez et définissez une matrice qui applique une fonction linéaire.</span><span class="sxs-lookup"><span data-stu-id="ad415-116">Define and set a matrix that applies a linear function.</span></span>
+    ```
+    // Generate texture coordinates as linear functions 
+    // so that:
+    //      u = Ux*x + Uy*y + Uz*z + Uw 
+    //      v = Vx*x + Vy*y + Vz*z + Vw
+    // The matrix M for this case is:
+    //      Ux  Vx  0  0 
+    //      Uy  Vy  0  0 
+    //      Uz  Vz  0  0 
+    //      Uw  Vw  0  0 
+
+    SetTransform(D3DTS_TEXTURE0, &M);
+    ```
+
+    
+
+## <a name="performing-environment-mapping-with-a-cubic-environment-map"></a><span data-ttu-id="ad415-117">Exécution d’un mappage d’environnement avec une carte d’environnement cubique</span><span class="sxs-lookup"><span data-stu-id="ad415-117">Performing environment mapping with a cubic environment map</span></span>
+
+-   <span data-ttu-id="ad415-118">Utilisez l' \_ indicateur D3DTSS TCI \_ CAMERASPACEREFLECTIONVECTOR pour indiquer au système de générer automatiquement des coordonnées de texture comme vecteurs de réflexion pour le mappage cubique.</span><span class="sxs-lookup"><span data-stu-id="ad415-118">Use the D3DTSS\_TCI\_CAMERASPACEREFLECTIONVECTOR flag to instruct the system to automatically generate texture coordinates as reflection vectors for cubic mapping.</span></span>
+    ```
+    SetTextureStageState(0, D3DTSS_TEXCOORDINDEX, D3DTSS_TCI_CAMERASPACEREFLECTIONVECTOR);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-119">Demandez au rastériseur d’attendre des coordonnées de texture avec trois éléments.</span><span class="sxs-lookup"><span data-stu-id="ad415-119">Instruct the rasterizer to expect texture coordinates with three elements.</span></span>
+    ```
+    SetTextureStageState(0, D3DTSS_TEXTURETRANSFORMFLAGS, D3DTTFF_COUNT3);
+    ```
+
+    
+
+## <a name="performing-projective-texturing"></a><span data-ttu-id="ad415-120">Exécution de la texturation projective</span><span class="sxs-lookup"><span data-stu-id="ad415-120">Performing projective texturing</span></span>
+
+-   <span data-ttu-id="ad415-121">Utilisez l' \_ indicateur D3DTSS TCI \_ CAMERASPACEPOSITION pour indiquer au système de passer la position du vertex comme entrée à une matrice de transformation de texture.</span><span class="sxs-lookup"><span data-stu-id="ad415-121">Use the D3DTSS\_TCI\_CAMERASPACEPOSITION flag to instruct the system to pass the vertex position as input to a texture transformation matrix.</span></span>
+    ```
+    SetTextureStageState(0, D3DTSS_TEXCOORDINDEX, D3DTSS_TCI_CAMERASPACEPOSITION);
+    ```
+
+    
+
+-   <span data-ttu-id="ad415-122">Créez et appliquez la matrice de projection de texture.</span><span class="sxs-lookup"><span data-stu-id="ad415-122">Create and apply the texture projection matrix.</span></span> <span data-ttu-id="ad415-123">Cela dépasse le cadre de cette documentation et est le sujet de plusieurs articles du secteur.</span><span class="sxs-lookup"><span data-stu-id="ad415-123">This is beyond the scope of this documentation, and is the topic of several industry articles.</span></span>
+-   <span data-ttu-id="ad415-124">Ordonne au rastériseur d’attendre des coordonnées de texture projetées à trois éléments.</span><span class="sxs-lookup"><span data-stu-id="ad415-124">Instruct the rasterizer to expect three-element projected texture coordinates.</span></span>
+    ```
+    // Two output coordinates are used.
+
+    SetTextureStageState(0, D3DTSS_TEXTURETRANSFORMFLAGS, D3DTTF_PROJECTED | D3DTTFF_COUNT3);
+    ```
+
+    
+
+## <a name="related-topics"></a><span data-ttu-id="ad415-125">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="ad415-125">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="ad415-126">Traitement des coordonnées de texture</span><span class="sxs-lookup"><span data-stu-id="ad415-126">Texture Coordinate Processing</span></span>](texture-coordinate-processing.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
