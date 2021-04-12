@@ -1,0 +1,34 @@
+---
+title: Sous-entrées et connexions à liaisons multiples
+description: Windows NT Server 4,0 fournit la prise en charge des sous-entrées de l’annuaire téléphonique, qui activent les connexions à liaisons multiples. Une connexion multilien combine la bande passante de plusieurs connexions pour fournir une seule connexion avec une bande passante plus élevée.
+ms.assetid: 19cf6e1a-cdba-47e4-8d8f-d6030ed6f9e3
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c1970e2e2ad668b376b1097aa20cd18986fb605a
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104316079"
+---
+# <a name="subentries-and-multilink-connections"></a>Sous-entrées et connexions à liaisons multiples
+
+Windows NT Server 4,0 fournit la prise en charge des sous-entrées de l’annuaire téléphonique, qui activent les connexions à liaisons multiples. Une connexion multilien combine la bande passante de plusieurs connexions pour fournir une seule connexion avec une bande passante plus élevée.
+
+Une entrée de l’annuaire RAS peut comporter zéro ou plusieurs sous-entrées. La fonction [**RasGetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetentrypropertiesa) récupère une structure [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) qui contient des informations sur les sous-entrées d’une entrée d’annuaire téléphonique. Le membre **dwSubEntries** de la structure **RASENTRY** indique le nombre de sous-entrées. Les entrées de l’annuaire téléphonique ne comportent aucune sous-entrée. Pour ajouter des sous-entrées à une entrée d’annuaire téléphonique, utilisez la fonction [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) .
+
+Les propriétés de chaque sous-entrée incluent un numéro de téléphone et le nom et le type de l’appareil TAPI à utiliser lors de la composition de la sous-entrée. En outre, une sous-entrée peut inclure une liste de numéros de téléphone de substitution à composer si RAS ne peut pas établir une connexion à l’aide du numéro principal. Les fonctions [**RasSetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetsubentrypropertiesa) et [**RasGetSubEntryProperties**](/windows/desktop/api/Ras/nf-ras-rasgetsubentrypropertiesa) utilisent la structure [**RASSUBENTRY**](/previous-versions/windows/desktop/legacy/aa377839(v=vs.85)) pour définir et récupérer les propriétés d’une entrée de l’annuaire téléphonique spécifiée. Les sous-entrées sont identifiées par un index de base un.
+
+Vous pouvez appeler la fonction [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) pour configurer une entrée RAS multilien pour connecter toutes les sous-entrées lorsqu’elle est numérotée pour la première fois. Vous pouvez également configurer une entrée pour fournir une bande passante variable. Dans ce cas, RAS connecte initialement une seule sous-entrée, puis connecte ou déconnecte des sous-entrées supplémentaires si nécessaire. Pour une connexion multilien à bande passante variable, vous pouvez utiliser la structure [**RASDIALPARAMS**](/previous-versions/windows/desktop/legacy/aa377238(v=vs.85)) pour spécifier la sous-entrée initiale à connecter lorsque vous appelez la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) . Lorsque vous utilisez la fonction [**RasDialDlg**](/windows/desktop/api/Rasdlg/nf-rasdlg-rasdialdlga) pour connecter une entrée de liaisons multiples, vous pouvez utiliser la structure [**RasDialDlg**](/previous-versions/windows/desktop/legacy/aa377023(v=vs.85)) pour spécifier la sous-entrée initiale à connecter.
+
+Pour une connexion multilien à bande passante variable, utilisez la structure [**RASENTRY**](/previous-versions/windows/desktop/legacy/aa377274(v=vs.85)) avec la fonction [**RasSetEntryProperties**](/windows/desktop/api/Ras/nf-ras-rassetentrypropertiesa) pour spécifier les paramètres de connexion et de déconnexion des sous-entrées individuelles. RAS connecte une sous-entrée supplémentaire lorsque la bande passante utilisée dépasse un pourcentage spécifié de la bande passante disponible pour un intervalle spécifié.
+
+Si vous appelez la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) pour établir une connexion multilien, vous pouvez spécifier une fonction de rappel [**RasDialFunc2**](/windows/desktop/api/Ras/nc-ras-rasdialfunc2) pour recevoir des notifications sur la connexion. **RasDialFunc2** est similaire à la fonction de rappel [**RasDialFunc1**](/windows/desktop/api/Ras/nc-ras-rasdialfunc1) , à ceci près qu’elle fournit des informations supplémentaires pour une connexion multilien, telles que l’index de la sous-entrée qui a provoqué la notification. RAS appelle votre fonction **RasDialFunc2** lorsqu’il se connecte ou déconnecte une sous-entrée.
+
+Vous pouvez utiliser un handle de connexion **HRASCONN** pour raccrocher ou récupérer des informations sur une connexion à liaisons multiples. Vous pouvez obtenir un descripteur de connexion pour chacune des connexions de sous-entrée qui composent la liaison multilien, ainsi que pour la connexion multilien combinée. Quand vous appelez la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) pour établir une connexion multilien, **rasdial** retourne un handle à la connexion multilien combinée. De même, [**RasEnumConnections**](/windows/desktop/api/Ras/nf-ras-rasenumconnectionsa) retourne le descripteur multilien combiné quand vous énumérez des connexions. Pour obtenir un handle vers l’une des connexions de sous-entrée dans une connexion multilien, appelez la fonction [**RasGetSubEntryHandle**](/windows/desktop/api/Ras/nf-ras-rasgetsubentryhandlea) .
+
+Vous pouvez utiliser le handle de connexion multilien combiné et les handles de connexion de sous-entrée dans les fonctions [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa), [**RasGetConnectStatus**](/windows/desktop/api/Ras/nf-ras-rasgetconnectstatusa)et [**RasGetProjectionInfo**](/previous-versions/windows/embedded/ms897107(v=msdn.10)) . L’appel de **RasHangUp** avec un handle combiné de liaisons multiples met fin à la connexion entière ; l’appel de celle-ci avec un handle de sous-entrée bloque uniquement cette connexion de sous-entrée. De même, **RasGetConnectStatus** retourne des informations pour la connexion combinée ou individuelle, en fonction du handle spécifié. Les informations de projection retournées par **RasGetProjectionInfo** pour une entrée à liaisons multiples sont les mêmes pour chacun des handles de connexion de sous-entrée, comme c’est le cas pour le handle de connexion principal.
+
+ 
+
+ 
