@@ -1,0 +1,86 @@
+---
+title: Paramètres de l’appareil
+description: Paramètres de l’appareil
+ms.assetid: d8774c85-b5c0-4d9e-8a8e-d60ffdf59549
+keywords:
+- Windows Media Gestionnaire de périphériques, paramètres de l’appareil
+- Gestionnaire de périphériques, paramètres de l’appareil
+- Guide de programmation, paramètres de l’appareil
+- fournisseurs de services, paramètres de l’appareil
+- création de fournisseurs de services, paramètres d’appareil
+- paramètres de l’appareil
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bb3ad1a1bfc6a24736fdad8385e6cc03e0b20be2
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104309769"
+---
+# <a name="device-parameters"></a><span data-ttu-id="7344b-109">Paramètres de l’appareil</span><span class="sxs-lookup"><span data-stu-id="7344b-109">Device Parameters</span></span>
+
+<span data-ttu-id="7344b-110">Windows Media Gestionnaire de périphériques utilise des paramètres d’appareil pour contrôler le comportement d’un appareil.</span><span class="sxs-lookup"><span data-stu-id="7344b-110">Windows Media Device Manager uses device parameters to control the behavior of a device.</span></span> <span data-ttu-id="7344b-111">Ces paramètres sont ajoutés au registre comme indiqué dans le fichier d’installation de l’appareil (fichier INF).</span><span class="sxs-lookup"><span data-stu-id="7344b-111">These parameters are added to the registry as specified in the device's installation file (INF file).</span></span> <span data-ttu-id="7344b-112">Le tableau suivant répertorie les paramètres de l’appareil que Windows Media Gestionnaire de périphériques requêtes.</span><span class="sxs-lookup"><span data-stu-id="7344b-112">The following table lists the device parameters that Windows Media Device Manager queries.</span></span>
+
+
+
+| <span data-ttu-id="7344b-113">Nom du paramètre d’appareil</span><span class="sxs-lookup"><span data-stu-id="7344b-113">Device parameter name</span></span> | <span data-ttu-id="7344b-114">Type de données de Registre</span><span class="sxs-lookup"><span data-stu-id="7344b-114">Registry data type</span></span> | <span data-ttu-id="7344b-115">Description</span><span class="sxs-lookup"><span data-stu-id="7344b-115">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|-----------------------|--------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="7344b-116">*WMDMSPCLSID*</span><span class="sxs-lookup"><span data-stu-id="7344b-116">*WMDMSPCLSID*</span></span>         | <span data-ttu-id="7344b-117">**SZ de REG \_**</span><span class="sxs-lookup"><span data-stu-id="7344b-117">**REG\_SZ**</span></span>        | <span data-ttu-id="7344b-118">Valeur qui spécifie le CLSID du fournisseur de services contrôlant cet appareil.</span><span class="sxs-lookup"><span data-stu-id="7344b-118">Value that specifies the CLSID of the service provider controlling this device.</span></span> <span data-ttu-id="7344b-119">Ce paramètre est obligatoire pour la prise en charge PnP.</span><span class="sxs-lookup"><span data-stu-id="7344b-119">This parameter is mandatory for PnP support.</span></span><br/> <span data-ttu-id="7344b-120">La valeur du paramètre doit être le CLSID, et non le ProgID du fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="7344b-120">The parameter value must be the CLSID, not the ProgID of the service provider.</span></span> <span data-ttu-id="7344b-121">Ce paramètre est obligatoire pour prendre en charge Plug-and-Play (PnP) sous Windows Media Gestionnaire de périphériques.</span><span class="sxs-lookup"><span data-stu-id="7344b-121">This parameter is mandatory to support Plug and Play (PnP) under Windows Media Device Manager.</span></span> <span data-ttu-id="7344b-122">Pour plus d’informations, consultez [activation de PNP pour les appareils](enabling-pnp-for-devices.md).</span><span class="sxs-lookup"><span data-stu-id="7344b-122">For more information, see [Enabling PnP for Devices](enabling-pnp-for-devices.md).</span></span><br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| <span data-ttu-id="7344b-123">*OptimalTransferSize*</span><span class="sxs-lookup"><span data-stu-id="7344b-123">*OptimalTransferSize*</span></span> | <span data-ttu-id="7344b-124">**\_valeur DWORD reg**</span><span class="sxs-lookup"><span data-stu-id="7344b-124">**REG\_DWORD**</span></span>     | <span data-ttu-id="7344b-125">Valeur facultative qui spécifie la taille de transfert préférée que Windows Media Gestionnaire de périphériques utilise pendant les opérations de lecture et d’écriture.</span><span class="sxs-lookup"><span data-stu-id="7344b-125">Optional value that specifies the preferred transfer size that Windows Media Device Manager uses during read and write operations.</span></span> <span data-ttu-id="7344b-126">Si elle n’est pas fournie, une taille de transfert par défaut est utilisée.</span><span class="sxs-lookup"><span data-stu-id="7344b-126">If it is not supplied, a default transfer size is used.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| <span data-ttu-id="7344b-127">*UseMetadataViews*</span><span class="sxs-lookup"><span data-stu-id="7344b-127">*UseMetadataViews*</span></span>    | <span data-ttu-id="7344b-128">**\_valeur DWORD reg**</span><span class="sxs-lookup"><span data-stu-id="7344b-128">**REG\_DWORD**</span></span>     | <span data-ttu-id="7344b-129">Paramètre facultatif qui spécifie si Windows Media Gestionnaire de périphériques organise le contenu par métadonnées tout en présentant le contenu de l’appareil aux applications.</span><span class="sxs-lookup"><span data-stu-id="7344b-129">Optional parameter that specifies whether Windows Media Device Manager organizes the content by metadata while presenting device content to applications.</span></span> <span data-ttu-id="7344b-130">En l'absence de spécification, la valeur par défaut est 0.</span><span class="sxs-lookup"><span data-stu-id="7344b-130">If not specified, the default value is 0.</span></span><br/> <span data-ttu-id="7344b-131">Lorsque les applications énumèrent le contenu sur les stockages d’un lecteur audio portable, Windows Media Gestionnaire de périphériques peut présenter le contenu organisé par métadonnées.</span><span class="sxs-lookup"><span data-stu-id="7344b-131">When applications enumerate the content on the storages of a portable audio player, Windows Media Device Manager can present the content organized by metadata.</span></span> <span data-ttu-id="7344b-132">Cela s’avère particulièrement utile pour les appareils avec une capacité de stockage importante.</span><span class="sxs-lookup"><span data-stu-id="7344b-132">This is especially useful for devices with large storage capacity.</span></span><br/> <span data-ttu-id="7344b-133">Les applications et les appareils ont la possibilité de contrôler ce comportement.</span><span class="sxs-lookup"><span data-stu-id="7344b-133">Applications and devices have the ability to control this behavior.</span></span> <span data-ttu-id="7344b-134">Les appareils indiquent leur préférence par le biais du paramètre d’appareil *UseMetadataViews*.</span><span class="sxs-lookup"><span data-stu-id="7344b-134">Devices indicate their preference through the device parameter *UseMetadataViews*.</span></span><br/> <span data-ttu-id="7344b-135">Les deux valeurs entières suivantes sont prises en charge :</span><span class="sxs-lookup"><span data-stu-id="7344b-135">The following two integer values are supported:</span></span><br/> <span data-ttu-id="7344b-136">Demande que le contenu soit présenté aux applications exactement telles qu’elles sont organisées sur le système de fichiers de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="7344b-136">Requests that content be presented to the applications exactly as organized on the file system of the device.</span></span><br/> <span data-ttu-id="7344b-137">Demande que le contenu soit présenté aux applications organisées par métadonnées.</span><span class="sxs-lookup"><span data-stu-id="7344b-137">Requests that the content be presented to the applications organized by metadata.</span></span><br/> |
+| <span data-ttu-id="7344b-138">*ShowInShell*</span><span class="sxs-lookup"><span data-stu-id="7344b-138">*ShowInShell*</span></span>         | <span data-ttu-id="7344b-139">**\_valeur DWORD reg**</span><span class="sxs-lookup"><span data-stu-id="7344b-139">**REG\_DWORD**</span></span>     | <span data-ttu-id="7344b-140">Paramètre facultatif qui spécifie si l’appareil doit apparaître dans l’Explorateur Windows.</span><span class="sxs-lookup"><span data-stu-id="7344b-140">Optional parameter that specifies whether the device should appear in Windows Explorer.</span></span> <span data-ttu-id="7344b-141">La valeur 1 indique que l’appareil doit apparaître dans l’Explorateur Windows.</span><span class="sxs-lookup"><span data-stu-id="7344b-141">The value 1 indicates that the device should appear in Windows Explorer.</span></span> <span data-ttu-id="7344b-142">Pour plus d’informations, consultez [Configuration requise pour que les lecteurs audio portables s’affichent dans l’Explorateur Windows](requirements-for-portable-audio-players-to-appear-in-windows-explorer.md).</span><span class="sxs-lookup"><span data-stu-id="7344b-142">For more information, see [Requirements for Portable Audio Players to Appear in Windows Explorer](requirements-for-portable-audio-players-to-appear-in-windows-explorer.md).</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| <span data-ttu-id="7344b-143">*UseExtendedWmdm*</span><span class="sxs-lookup"><span data-stu-id="7344b-143">*UseExtendedWmdm*</span></span>     | <span data-ttu-id="7344b-144">**\_valeur DWORD reg**</span><span class="sxs-lookup"><span data-stu-id="7344b-144">**REG\_DWORD**</span></span>     | <span data-ttu-id="7344b-145">Paramètre facultatif qui signale à Windows Media Gestionnaire de périphériques que le fournisseur de services prend en charge **IMDSPDevice3**, **IMDSPObject2** et **IMDSPStorage4**.</span><span class="sxs-lookup"><span data-stu-id="7344b-145">Optional parameter that alerts Windows Media Device Manager that the service provider supports **IMDSPDevice3**, **IMDSPObject2**, and **IMDSPStorage4**.</span></span> <span data-ttu-id="7344b-146">Sans cet indicateur, Windows Media Gestionnaire de périphériques n’appellera jamais ces interfaces.</span><span class="sxs-lookup"><span data-stu-id="7344b-146">Without this flag, Windows Media Device Manager will never call these interfaces.</span></span> <span data-ttu-id="7344b-147">La valeur 1 indique que ces interfaces sont prises en charge.</span><span class="sxs-lookup"><span data-stu-id="7344b-147">The value 1 indicates that these interfaces are supported.</span></span><br/> <span data-ttu-id="7344b-148">Cet indicateur est requis pour les fournisseurs de services qui se synchronisent avec le lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="7344b-148">This flag is required for service providers that synchronize with Windows Media Player.</span></span> <span data-ttu-id="7344b-149">(Voir [activation de la synchronisation avec le lecteur Windows Media](enabling-synchronization-with-windows-media-player.md)).</span><span class="sxs-lookup"><span data-stu-id="7344b-149">(See [Enabling Synchronization with Windows Media Player](enabling-synchronization-with-windows-media-player.md)).</span></span><br/>                                                                                                                                                                                                                                                                                                                                                                        |
+
+
+
+ 
+
+<span data-ttu-id="7344b-150">**Codage du fichier INF**</span><span class="sxs-lookup"><span data-stu-id="7344b-150">**Coding the INF file**</span></span>
+
+<span data-ttu-id="7344b-151">L’exemple de code suivant à partir du fichier INF d’un appareil montre comment définir certains paramètres d’appareil lors de l’installation de l’appareil.</span><span class="sxs-lookup"><span data-stu-id="7344b-151">The following example code from a device's INF file demonstrates setting some device parameters during device installation.</span></span>
+
+
+```C++
+; Set parameters on Windows 95 and Windows 98 operating systems.
+[DriverInstall.hw]
+AddReg=DriverHwPropReg
+
+; Set parameters on Windows NT-based operating systems.
+[DriverInstall.NT.hw]
+AddReg=DriverHwPropReg
+
+; Related section that specifies the device parameters.
+[DriverHwPropReg]
+; Add your own CLSID here.
+HKR,,WMDMSPCLSID,,"{00000000-0000-0000-0000-000000000000}"
+HKR,,OptimalTransferSize,0x10001,0x10000
+HKR,,UseMetadataViews,0x10001,0x1
+```
+
+
+
+## <a name="related-topics"></a><span data-ttu-id="7344b-152">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="7344b-152">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="7344b-153">**Création d’un fournisseur de services**</span><span class="sxs-lookup"><span data-stu-id="7344b-153">**Creating a Service Provider**</span></span>](creating-a-service-provider.md)
+</dt> <dt>
+
+[<span data-ttu-id="7344b-154">**Interface IMDServiceProvider2**</span><span class="sxs-lookup"><span data-stu-id="7344b-154">**IMDServiceProvider2 Interface**</span></span>](/windows/desktop/api/mswmdm/nn-mswmdm-imdserviceprovider2)
+</dt> <dt>
+
+[<span data-ttu-id="7344b-155">**IMDServiceProvider2::CreateDevice**</span><span class="sxs-lookup"><span data-stu-id="7344b-155">**IMDServiceProvider2::CreateDevice**</span></span>](/windows/desktop/api/mswmdm/nf-mswmdm-imdserviceprovider2-createdevice)
+</dt> <dt>
+
+[<span data-ttu-id="7344b-156">**Interface IWMDMDevice**</span><span class="sxs-lookup"><span data-stu-id="7344b-156">**IWMDMDevice Interface**</span></span>](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmdevice)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

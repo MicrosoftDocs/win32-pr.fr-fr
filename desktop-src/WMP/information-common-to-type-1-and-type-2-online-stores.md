@@ -1,0 +1,71 @@
+---
+title: Informations communes aux magasins en ligne de type 1 et de type 2
+description: Informations communes aux magasins en ligne de type 1 et de type 2
+ms.assetid: 20463d9a-bf10-4b68-b13d-452c788ce21b
+keywords:
+- Windows Media Player Online stores, tapez 1 magasins en ligne
+- magasins en ligne, type 1 magasins en ligne
+- tapez 1 magasins en ligne, à propos de
+- Windows Media Player, type 1 magasins en ligne
+- Windows Media Player Online stores, tapez 2 magasins en ligne
+- magasins en ligne, type 2 magasins en ligne
+- tapez 2 magasins en ligne, à propos de
+- Windows Media Player, type 2 magasins en ligne
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8210a52e0c531f5043d75ff66a5c7eb46cc3e416
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104310405"
+---
+# <a name="information-common-to-type-1-and-type-2-online-stores"></a><span data-ttu-id="f6f89-111">Informations communes aux magasins en ligne de type 1 et de type 2</span><span class="sxs-lookup"><span data-stu-id="f6f89-111">Information Common to Type 1 and Type 2 Online Stores</span></span>
+
+> [!Note]  
+> <span data-ttu-id="f6f89-112">Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne.</span><span class="sxs-lookup"><span data-stu-id="f6f89-112">This section describes functionality designed for use by online stores.</span></span> <span data-ttu-id="f6f89-113">L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="f6f89-113">Use of this functionality outside the context of an online store is not supported.</span></span>
+
+ 
+
+<span data-ttu-id="f6f89-114">Le lecteur Windows Media prend en charge deux types de magasins en ligne : type 1 et type 2.</span><span class="sxs-lookup"><span data-stu-id="f6f89-114">Windows Media Player supports two kinds of online stores: type 1 and type 2.</span></span> <span data-ttu-id="f6f89-115">Les magasins de type 1 sont pris en charge par le lecteur Windows Media 11.</span><span class="sxs-lookup"><span data-stu-id="f6f89-115">Type 1 stores are supported by Windows Media Player 11.</span></span> <span data-ttu-id="f6f89-116">Les magasins de type 2 sont pris en charge par le lecteur Windows Media 10 et le lecteur Windows Media 11.</span><span class="sxs-lookup"><span data-stu-id="f6f89-116">Type 2 stores are supported by Windows Media Player 10 and Windows Media Player 11.</span></span> <span data-ttu-id="f6f89-117">Les magasins de type 2 fournissent un niveau d’intégration de base avec l’interface utilisateur du joueur, et les magasins de type 1 offrent une intégration plus poussée.</span><span class="sxs-lookup"><span data-stu-id="f6f89-117">Type 2 stores provide a basic level of integration with the Player's user interface, and Type 1 stores provide a deeper integration.</span></span> <span data-ttu-id="f6f89-118">Pour plus d’informations sur la différence entre les magasins de type 1 et de type 2, consultez [Windows Media Player Online stores](windows-media-player-online-stores.md).</span><span class="sxs-lookup"><span data-stu-id="f6f89-118">For more information about the difference between type 1 and type 2 stores, see [Windows Media Player Online Stores](windows-media-player-online-stores.md).</span></span>
+
+<span data-ttu-id="f6f89-119">Les sections suivantes fournissent des informations qui s’appliquent aux magasins en ligne de type 1 et de type 2.</span><span class="sxs-lookup"><span data-stu-id="f6f89-119">The following sections provide information that applies to both type 1 and type 2 online stores.</span></span>
+
+
+
+| <span data-ttu-id="f6f89-120">Section</span><span class="sxs-lookup"><span data-stu-id="f6f89-120">Section</span></span>                                                                                                                | <span data-ttu-id="f6f89-121">Description</span><span class="sxs-lookup"><span data-stu-id="f6f89-121">Description</span></span>                                                                                                                   |
+|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="f6f89-122">Ajout de l’attribut ContentDistributor</span><span class="sxs-lookup"><span data-stu-id="f6f89-122">Adding the ContentDistributor Attribute</span></span>](adding-the-contentdistributor-attribute.md)                                 | <span data-ttu-id="f6f89-123">Décrit comment spécifier une valeur d’attribut qui identifie le contenu que vous avez fourni.</span><span class="sxs-lookup"><span data-stu-id="f6f89-123">Describes how to specify an attribute value that identifies content that you provided.</span></span>                                        |
+| [<span data-ttu-id="f6f89-124">Création du document ServiceInfo de manière dynamique</span><span class="sxs-lookup"><span data-stu-id="f6f89-124">Creating the ServiceInfo Document Dynamically</span></span>](creating-the-serviceinfo-document-dynamically.md)                     | <span data-ttu-id="f6f89-125">Décrit comment utiliser ASP pour créer votre document ServiceInfo.</span><span class="sxs-lookup"><span data-stu-id="f6f89-125">Describes how to use ASP to create your ServiceInfo document.</span></span>                                                                 |
+| [<span data-ttu-id="f6f89-126">Diffusion de contenus multimédias numériques à partir de pages Web de boutique en ligne</span><span class="sxs-lookup"><span data-stu-id="f6f89-126">Playing Digital Media from Online Store Web Pages</span></span>](playing-digital-media-from-online-store-web-pages.md)             | <span data-ttu-id="f6f89-127">Décrit comment lire du contenu multimédia numérique dans les volets des tâches du service de magasin en ligne.</span><span class="sxs-lookup"><span data-stu-id="f6f89-127">Describes how to play digital media content in online store service task panes.</span></span>                                               |
+| [<span data-ttu-id="f6f89-128">Utilisation de HTMLView avec des magasins en ligne</span><span class="sxs-lookup"><span data-stu-id="f6f89-128">Using HTMLView with Online Stores</span></span>](using-htmlview-with-online-stores.md)                                             | <span data-ttu-id="f6f89-129">Décrit comment les fournisseurs de magasins en ligne peuvent ignorer la boîte de dialogue qui invite l’utilisateur à autoriser l’affichage du contenu HTMLView.</span><span class="sxs-lookup"><span data-stu-id="f6f89-129">Describes how online store providers can bypass the dialog box that prompts users for permission to display HTMLView content.</span></span> |
+| [<span data-ttu-id="f6f89-130">Intégration de la fonctionnalité d’affichage du centre d’informations</span><span class="sxs-lookup"><span data-stu-id="f6f89-130">Integrating the Info Center View Feature</span></span>](integrating-the-info-center-view-feature.md)                               | <span data-ttu-id="f6f89-131">Décrit comment les magasins en ligne fournissent la fonctionnalité d’affichage du centre d’informations.</span><span class="sxs-lookup"><span data-stu-id="f6f89-131">Describes how online stores provide the Info Center View feature.</span></span>                                                             |
+| [<span data-ttu-id="f6f89-132">Correspondance des couleurs du lecteur Windows Media</span><span class="sxs-lookup"><span data-stu-id="f6f89-132">Matching the Windows Media Player Colors</span></span>](matching-the-windows-media-player-colors.md)                               | <span data-ttu-id="f6f89-133">Décrit comment faire correspondre les couleurs de vos pages Web avec les couleurs du lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="f6f89-133">Describes how to match your webpage colors to Windows Media Player colors.</span></span>                                                    |
+| [<span data-ttu-id="f6f89-134">Utilisation de sélections automatiques pour organiser le contenu de la bibliothèque</span><span class="sxs-lookup"><span data-stu-id="f6f89-134">Using Auto Playlists to Organize Content in the Library</span></span>](using-auto-playlists-to-organize-content-in-the-library.md) | <span data-ttu-id="f6f89-135">Décrit comment les fournisseurs de magasins en ligne peuvent ajouter des sélections automatiques du lecteur Windows Media à leur nœud nommé dans la **bibliothèque multimédia**.</span><span class="sxs-lookup"><span data-stu-id="f6f89-135">Describes how online store providers can add Windows Media Player auto playlists to their named node in **Media Library**.</span></span>    |
+| [<span data-ttu-id="f6f89-136">Détection du lecteur</span><span class="sxs-lookup"><span data-stu-id="f6f89-136">Detecting the Player</span></span>](detecting-the-player.md)                                                                       | <span data-ttu-id="f6f89-137">Décrit comment déterminer la version du lecteur Windows Media dans laquelle une page Web de magasin en ligne est hébergée.</span><span class="sxs-lookup"><span data-stu-id="f6f89-137">Describes how to determine the version of Windows Media Player in which an online store webpage is hosted.</span></span>                    |
+| [<span data-ttu-id="f6f89-138">Définition de la boutique en ligne initiale</span><span class="sxs-lookup"><span data-stu-id="f6f89-138">Setting the Initial Online Store</span></span>](setting-the-initial-online-store.md)                                               | <span data-ttu-id="f6f89-139">Décrit les fonctionnalités disponibles pour spécifier le premier magasin en ligne que l’utilisateur voit après l’installation du lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="f6f89-139">Describes the features available to specify the first online store that the user sees after installing Windows Media Player.</span></span>  |
+| [<span data-ttu-id="f6f89-140">Co-personnalisation des magasins en ligne</span><span class="sxs-lookup"><span data-stu-id="f6f89-140">Co-Branding Online Stores</span></span>](co-branding-online-stores.md)                                                             | <span data-ttu-id="f6f89-141">Décrit comment les fabricants d’ordinateurs peuvent cohabiter avec les fournisseurs de magasins en ligne.</span><span class="sxs-lookup"><span data-stu-id="f6f89-141">Describes how computer manufacturers can co-brand with online store providers.</span></span>                                                |
+| [<span data-ttu-id="f6f89-142">Considérations relatives aux marchés internationaux</span><span class="sxs-lookup"><span data-stu-id="f6f89-142">Considerations for International Markets</span></span>](considerations-for-international-markets.md)                               | <span data-ttu-id="f6f89-143">Décrit les considérations relatives aux magasins en ligne qui servent les marchés internationaux.</span><span class="sxs-lookup"><span data-stu-id="f6f89-143">Discusses considerations for online stores that serve international markets.</span></span>                                                  |
+| [<span data-ttu-id="f6f89-144">Paramètres de ligne de commande d’installation pour les magasins en ligne</span><span class="sxs-lookup"><span data-stu-id="f6f89-144">Setup Command-line Parameters for Online Stores</span></span>](setup-command-line-parameters-for-online-stores.md)                 | <span data-ttu-id="f6f89-145">Contient des informations sur les paramètres de ligne de commande pour le programme d’installation du lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="f6f89-145">Provides information about command-line parameters for Windows Media Player setup.</span></span>                                            |
+| [<span data-ttu-id="f6f89-146">Magasins en ligne exclusifs</span><span class="sxs-lookup"><span data-stu-id="f6f89-146">Exclusive Online Stores</span></span>](exclusive-online-stores.md)                                                                 | <span data-ttu-id="f6f89-147">Décrit comment incorporer le contrôle du lecteur dans une application et qu’un seul magasin en ligne est disponible pour l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="f6f89-147">Describes how to embed the Player control in an application and have only one online store available to the user.</span></span>             |
+| [<span data-ttu-id="f6f89-148">Magasins en ligne privés</span><span class="sxs-lookup"><span data-stu-id="f6f89-148">Private Online Stores</span></span>](private-online-stores.md)                                                                     | <span data-ttu-id="f6f89-149">Fournit des informations sur les entrées de Registre requises pour les magasins en ligne privés.</span><span class="sxs-lookup"><span data-stu-id="f6f89-149">Provides information about the registry entries required for private online stores.</span></span>                                           |
+| [<span data-ttu-id="f6f89-150">Document ServiceInfo</span><span class="sxs-lookup"><span data-stu-id="f6f89-150">ServiceInfo Document</span></span>](serviceinfo-document.md)                                                                       | <span data-ttu-id="f6f89-151">Fournit des informations sur un document XML que les magasins en ligne doivent fournir.</span><span class="sxs-lookup"><span data-stu-id="f6f89-151">Provides information about an XML document that online stores must provide.</span></span>                                                   |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="f6f89-152">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="f6f89-152">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="f6f89-153">**Windows Media Player Online stores**</span><span class="sxs-lookup"><span data-stu-id="f6f89-153">**Windows Media Player Online Stores**</span></span>](windows-media-player-online-stores.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
