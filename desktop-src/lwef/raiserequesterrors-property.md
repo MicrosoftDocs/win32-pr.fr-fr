@@ -1,0 +1,51 @@
+---
+title: Propriété RaiseRequestErrors
+description: Propriété RaiseRequestErrors
+ms.assetid: 60eb4478-526e-492a-8fb3-d1e54eff9868
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bf9e559f999db663a8a9f5874f6d16a10e1e78ac
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "104199203"
+---
+# <a name="raiserequesterrors-property"></a>Propriété RaiseRequestErrors
+
+\[Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.\]
+
+<dl> <dt>
+
+<span id="Description"></span><span id="description"></span><span id="DESCRIPTION"></span>**Descriptive**
+</dt> <dd>
+
+Retourne ou définit une valeur indiquant si les erreurs pour les demandes sont déclenchées.
+
+</dd> <dt>
+
+<span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
+</dt> <dd>
+
+*agent * * *. RaiseRequestErrors* *  \[  =  *booléen*\]
+
+
+
+| Partie      | Description                                                                                                                                                                                            |
+|-----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| *boolean* | Valeur booléenne qui détermine si les erreurs dans les demandes sont déclenchées.<br/> **True**    (valeur par défaut) les erreurs de requête sont générées. <br/> **Valeur false**     Les erreurs de demande ne sont pas déclenchées.<br/> |
+
+
+
+ 
+
+</dd> </dl>
+
+## <a name="remarks"></a>Notes
+
+Cette propriété vous permet de déterminer si le serveur génère des erreurs qui se produisent avec les méthodes qui prennent en charge les objets de [**requête**](/windows/desktop/lwef/the-request-object) . Par exemple, si vous spécifiez un nom d’animation qui n’existe pas dans une méthode [**Play**](play-method.md), le serveur génère une erreur (en affichant le message d’erreur), sauf si vous affectez la valeur **false** à cette propriété.
+
+Il peut être utile pour les langages de programmation qui ne fournissent pas de récupération lorsqu’une erreur est générée. Toutefois, soyez vigilant lorsque vous affectez à cette propriété la **valeur false**, car il peut être plus difficile de trouver des erreurs dans votre code.
+
+ 
+
