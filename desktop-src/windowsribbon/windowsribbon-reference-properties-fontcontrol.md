@@ -1,0 +1,49 @@
+---
+title: Propriétés du contrôle de police
+description: Documentation de référence sur les clés de propriété pour le contrôle de police de l’infrastructure du ruban.
+ms.assetid: fe0f4255-c429-4821-a180-38a3bdbf0623
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 987b2bfda06a56df0cfe31eed9a3bc2f22241dc0
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104199300"
+---
+# <a name="font-control-properties"></a><span data-ttu-id="14551-103">Propriétés du contrôle de police</span><span class="sxs-lookup"><span data-stu-id="14551-103">Font Control Properties</span></span>
+
+<span data-ttu-id="14551-104">Documentation de référence sur les clés de propriété pour le [contrôle de police](windowsribbon-controls-fontcontrol.md)de l’infrastructure du ruban.</span><span class="sxs-lookup"><span data-stu-id="14551-104">Reference documentation on property keys for the Ribbon framework [Font Control](windowsribbon-controls-fontcontrol.md).</span></span>
+
+
+
+| <span data-ttu-id="14551-105">Rubrique</span><span class="sxs-lookup"><span data-stu-id="14551-105">Topic</span></span>                                                                                                                               | <span data-ttu-id="14551-106">Contenu</span><span class="sxs-lookup"><span data-stu-id="14551-106">Contents</span></span>                                                                          |
+|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| [<span data-ttu-id="14551-107">IU \_ \_ FontProperties</span><span class="sxs-lookup"><span data-stu-id="14551-107">UI\_PKEY\_FontProperties</span></span>](windowsribbon-reference-properties-uipkey-fontproperties.md)                                            | <span data-ttu-id="14551-108">Identifie la propriété FontProperties de l’interface utilisateur \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-108">Identifies the UI\_PKEY\_FontProperties property.</span></span><br/>                      |
+| [<span data-ttu-id="14551-109">IU \_ \_ FontProperties \_ backgroundColor</span><span class="sxs-lookup"><span data-stu-id="14551-109">UI\_PKEY\_FontProperties\_BackgroundColor</span></span>](/windows/desktop/windowsribbon/windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolor) | <span data-ttu-id="14551-110">Identifie la \_ \_ propriété FontProperties BackgroundColor de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-110">Identifies the UI\_PKEY\_FontProperties\_BackgroundColor property.</span></span><br/>     |
+| [<span data-ttu-id="14551-111">IU \_ \_ FontProperties \_ BackgroundColorType</span><span class="sxs-lookup"><span data-stu-id="14551-111">UI\_PKEY\_FontProperties\_BackgroundColorType</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-backgroundcolortype.md)   | <span data-ttu-id="14551-112">Identifie la \_ \_ propriété FontProperties BackgroundColorType de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-112">Identifies the UI\_PKEY\_FontProperties\_BackgroundColorType property.</span></span><br/> |
+| [<span data-ttu-id="14551-113">IU \_ \_ FontProperties \_ gras</span><span class="sxs-lookup"><span data-stu-id="14551-113">UI\_PKEY\_FontProperties\_Bold</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-bold.md)                                 | <span data-ttu-id="14551-114">Identifie la \_ \_ propriété FontProperties gras de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-114">Identifies the UI\_PKEY\_FontProperties\_Bold property.</span></span><br/>                |
+| [<span data-ttu-id="14551-115">IU \_ \_ FontProperties \_ ChangedProperties</span><span class="sxs-lookup"><span data-stu-id="14551-115">UI\_PKEY\_FontProperties\_ChangedProperties</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-changedproperties.md)       | <span data-ttu-id="14551-116">Identifie la \_ \_ propriété FontProperties ChangedProperties de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-116">Identifies the UI\_PKEY\_FontProperties\_ChangedProperties property.</span></span><br/>   |
+| [<span data-ttu-id="14551-117">FontProperties de l’IU \_ \_ \_</span><span class="sxs-lookup"><span data-stu-id="14551-117">UI\_PKEY\_FontProperties\_DeltaSize</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-deltasize.md)                       | <span data-ttu-id="14551-118">Identifie la propriété de l’interface utilisateur FontProperties de l’interface utilisateur \_ \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-118">Identifies the UI\_PKEY\_FontProperties\_DeltaSize property.</span></span><br/>           |
+| [<span data-ttu-id="14551-119">\_Famille de \_ FontProperties de l’interface utilisateur \_</span><span class="sxs-lookup"><span data-stu-id="14551-119">UI\_PKEY\_FontProperties\_Family</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-family.md)                             | <span data-ttu-id="14551-120">Identifie la propriété de la famille FontProperties de l’interface utilisateur \_ \_ \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-120">Identifies the UI\_PKEY\_FontProperties\_Family property.</span></span><br/>              |
+| [<span data-ttu-id="14551-121">IU \_ \_ FontProperties \_ ForegroundColor</span><span class="sxs-lookup"><span data-stu-id="14551-121">UI\_PKEY\_FontProperties\_ForegroundColor</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md)           | <span data-ttu-id="14551-122">Identifie la \_ \_ propriété FontProperties ForegroundColor de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-122">Identifies the UI\_PKEY\_FontProperties\_ForegroundColor property.</span></span><br/>     |
+| [<span data-ttu-id="14551-123">IU \_ \_ FontProperties \_ ForegroundColorType</span><span class="sxs-lookup"><span data-stu-id="14551-123">UI\_PKEY\_FontProperties\_ForegroundColorType</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolortype.md)   | <span data-ttu-id="14551-124">Identifie la \_ \_ propriété FontProperties ForegroundColorType de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-124">Identifies the UI\_PKEY\_FontProperties\_ForegroundColorType property.</span></span><br/> |
+| [<span data-ttu-id="14551-125">IU \_ \_ FontProperties \_ italique</span><span class="sxs-lookup"><span data-stu-id="14551-125">UI\_PKEY\_FontProperties\_Italic</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-italic.md)                             | <span data-ttu-id="14551-126">Identifie la \_ \_ propriété FontProperties italique de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-126">Identifies the UI\_PKEY\_FontProperties\_Italic property.</span></span><br/>              |
+| [<span data-ttu-id="14551-127">\_Taille de \_ FontProperties de l’interface utilisateur \_</span><span class="sxs-lookup"><span data-stu-id="14551-127">UI\_PKEY\_FontProperties\_Size</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-size.md)                                 | <span data-ttu-id="14551-128">Identifie la \_ propriété de \_ taille FontProperties de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-128">Identifies the UI\_PKEY\_FontProperties\_Size property.</span></span><br/>                |
+| [<span data-ttu-id="14551-129">IU \_ \_ FontProperties \_ barré</span><span class="sxs-lookup"><span data-stu-id="14551-129">UI\_PKEY\_FontProperties\_Strikethrough</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-strikethrough.md)               | <span data-ttu-id="14551-130">Identifie la \_ \_ propriété Strikethrough FontProperties barré de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-130">Identifies the UI\_PKEY\_FontProperties\_Strikethrough property.</span></span><br/>       |
+| [<span data-ttu-id="14551-131">IU \_ \_ FontProperties \_ souligné</span><span class="sxs-lookup"><span data-stu-id="14551-131">UI\_PKEY\_FontProperties\_Underline</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-underline.md)                       | <span data-ttu-id="14551-132">Identifie la \_ propriété de \_ soulignement FontProperties de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-132">Identifies the UI\_PKEY\_FontProperties\_Underline property.</span></span><br/>           |
+| [<span data-ttu-id="14551-133">IU \_ \_ FontProperties \_ VerticalPositioning</span><span class="sxs-lookup"><span data-stu-id="14551-133">UI\_PKEY\_FontProperties\_VerticalPositioning</span></span>](windowsribbon-reference-properties-uipkey-fontproperties-verticalpositioning.md)   | <span data-ttu-id="14551-134">Identifie la \_ \_ propriété FontProperties VerticalPositioning de l’interface utilisateur \_ .</span><span class="sxs-lookup"><span data-stu-id="14551-134">Identifies the UI\_PKEY\_FontProperties\_VerticalPositioning property.</span></span><br/> |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="14551-135">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="14551-135">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="14551-136">Clés de propriété</span><span class="sxs-lookup"><span data-stu-id="14551-136">Property Keys</span></span>](windowsribbon-reference-properties.md)
+</dt> </dl>
+
+ 
+
