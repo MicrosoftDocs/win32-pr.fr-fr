@@ -1,0 +1,66 @@
+---
+title: Informations de référence sur les éléments de métafichier Windows Media
+description: Informations de référence sur les éléments de métafichier Windows Media
+ms.assetid: 6f85e488-53f6-4fb0-ba48-55c3d7e59f1c
+keywords:
+- Fichiers Windows Media, référence
+- sous-fichiers, référence
+- référence pour les fichiers Windows Media
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 20e024c97e9bf8d0f8877eb3f68002702cc1a76f
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104380095"
+---
+# <a name="windows-media-metafile-elements-reference"></a><span data-ttu-id="ddb5d-106">Informations de référence sur les éléments de métafichier Windows Media</span><span class="sxs-lookup"><span data-stu-id="ddb5d-106">Windows Media Metafile Elements Reference</span></span>
+
+<span data-ttu-id="ddb5d-107">Cette section contient la documentation de référence pour tous les éléments de métafichier Windows Media pour les applications côté client.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-107">This section contains reference documentation for all Windows Media metafile elements for client-side applications.</span></span> <span data-ttu-id="ddb5d-108">Les entrées de référence incluent les définitions des éléments, leurs attributs et leurs valeurs, ainsi que les conditions spéciales associées à chaque élément.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-108">Reference entries include definitions of the elements, their attributes and values, and special conditions related to each element.</span></span>
+
+<span data-ttu-id="ddb5d-109">Les éléments de métafichier suivants sont pris en charge pour les applications côté client.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-109">The following metafile elements are supported for client-side applications.</span></span>
+
+
+
+| <span data-ttu-id="ddb5d-110">Élément</span><span class="sxs-lookup"><span data-stu-id="ddb5d-110">Element</span></span>                                           | <span data-ttu-id="ddb5d-111">Description</span><span class="sxs-lookup"><span data-stu-id="ddb5d-111">Description</span></span>                                                                                                            |
+|---------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="ddb5d-112">ABSTRACTION</span><span class="sxs-lookup"><span data-stu-id="ddb5d-112">ABSTRACT</span></span>](abstract-element.md)                  | <span data-ttu-id="ddb5d-113">Contient le texte qui décrit l’élément **ASX**, **Banner** ou **entry** associé.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-113">Contains text that describes the associated **ASX**, **BANNER**, or **ENTRY** element.</span></span>                                 |
+| [<span data-ttu-id="ddb5d-114">ASX</span><span class="sxs-lookup"><span data-stu-id="ddb5d-114">ASX</span></span>](asx-element.md)                            | <span data-ttu-id="ddb5d-115">Définit un fichier en tant que métafichier Windows Media.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-115">Defines a file as a Windows Media metafile.</span></span>                                                                            |
+| [<span data-ttu-id="ddb5d-116">AUTEUR</span><span class="sxs-lookup"><span data-stu-id="ddb5d-116">AUTHOR</span></span>](author-element.md)                      | <span data-ttu-id="ddb5d-117">Contient le nom de l’auteur d’un clip multimédia ou d’un métafichier Windows Media.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-117">Contains the name of the author of a media clip or a Windows Media metafile.</span></span>                                           |
+| [<span data-ttu-id="ddb5d-118">ENCART</span><span class="sxs-lookup"><span data-stu-id="ddb5d-118">BANNER</span></span>](banner-element.md)                      | <span data-ttu-id="ddb5d-119">Spécifie l’URL d’un graphique qui s’affiche dans le panneau d’affichage du lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-119">Specifies a URL for a graphic that appears in the display panel of Windows Media Player.</span></span>                               |
+| [<span data-ttu-id="ddb5d-120">BASE</span><span class="sxs-lookup"><span data-stu-id="ddb5d-120">BASE</span></span>](base-element.md)                          | <span data-ttu-id="ddb5d-121">Spécifie une chaîne qui est ajoutée au début des URL envoyées au lecteur Windows Media.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-121">Specifies a string that is appended to the front of URLs sent to Windows Media Player.</span></span>                                 |
+| [<span data-ttu-id="ddb5d-122">Commentaires</span><span class="sxs-lookup"><span data-stu-id="ddb5d-122">Comments</span></span>](comments.md)                          | <span data-ttu-id="ddb5d-123">Spécifie la syntaxe XML pour les commentaires (</span><span class="sxs-lookup"><span data-stu-id="ddb5d-123">Specifies the XML syntax for comments (</span></span> <!--...--> <span data-ttu-id="ddb5d-124">).</span><span class="sxs-lookup"><span data-stu-id="ddb5d-124">).</span></span>                                                            |
+| [<span data-ttu-id="ddb5d-125">INTELLECTUELLE</span><span class="sxs-lookup"><span data-stu-id="ddb5d-125">COPYRIGHT</span></span>](copyright-element.md)                | <span data-ttu-id="ddb5d-126">Contient les informations de copyright pour un élément **ASX** ou **entry** .</span><span class="sxs-lookup"><span data-stu-id="ddb5d-126">Contains the copyright information for an **ASX** or **ENTRY** element.</span></span>                                                |
+| [<span data-ttu-id="ddb5d-127">DURATION</span><span class="sxs-lookup"><span data-stu-id="ddb5d-127">DURATION</span></span>](duration-element.md)                  | <span data-ttu-id="ddb5d-128">Spécifie la durée pendant laquelle le lecteur Windows Media effectue le rendu d’un flux.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-128">Specifies the length of time Windows Media Player renders a stream.</span></span>                                                    |
+| [<span data-ttu-id="ddb5d-129">ENDMARKER</span><span class="sxs-lookup"><span data-stu-id="ddb5d-129">ENDMARKER</span></span>](endmarker-element.md)                | <span data-ttu-id="ddb5d-130">Spécifie un marqueur auquel le lecteur Windows Media cesse de restituer le flux.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-130">Specifies a marker at which Windows Media Player stops rendering the stream.</span></span>                                           |
+| [<span data-ttu-id="ddb5d-131">MENTION</span><span class="sxs-lookup"><span data-stu-id="ddb5d-131">ENTRY</span></span>](entry-element.md)                        | <span data-ttu-id="ddb5d-132">Spécifie le chemin d’accès d’un clip multimédia.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-132">Specifies the path for a media clip.</span></span>                                                                                   |
+| [<span data-ttu-id="ddb5d-133">ENTRYREF</span><span class="sxs-lookup"><span data-stu-id="ddb5d-133">ENTRYREF</span></span>](entryref-element.md)                  | <span data-ttu-id="ddb5d-134">Liens vers les éléments d' **entrée** dans un métafichier Windows Media externe qui a une extension. asx,. Wax,. wvx ou. WMX.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-134">Links to the **ENTRY** elements in an external Windows Media metafile that has an .asx, .wax, .wvx, or .wmx extension.</span></span> |
+| [<span data-ttu-id="ddb5d-135">ÉVÉNEMENT</span><span class="sxs-lookup"><span data-stu-id="ddb5d-135">EVENT</span></span>](event-element.md)                        | <span data-ttu-id="ddb5d-136">Définit un comportement ou une action entreprise par le lecteur Windows Media lorsqu’il reçoit une commande de script appelée comme un événement.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-136">Defines a behavior or action taken by Windows Media Player when it receives a script command labeled as an event.</span></span>      |
+| [<span data-ttu-id="ddb5d-137">LOGURL</span><span class="sxs-lookup"><span data-stu-id="ddb5d-137">LOGURL</span></span>](logurl-element.md)                      | <span data-ttu-id="ddb5d-138">Indique au lecteur Windows Media d’envoyer toutes les données de journal à l’URL spécifiée.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-138">Instructs Windows Media Player to submit any log data to the specified URL.</span></span>                                            |
+| [<span data-ttu-id="ddb5d-139">MOREINFO</span><span class="sxs-lookup"><span data-stu-id="ddb5d-139">MOREINFO</span></span>](moreinfo-element.md)                  | <span data-ttu-id="ddb5d-140">Spécifie l’URL d’un site Web, d’une adresse de messagerie ou d’une commande de script associée à un affichage, un clip ou une bannière.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-140">Specifies a URL for a website, email address, or script command associated with a show, clip, or banner.</span></span>               |
+| [<span data-ttu-id="ddb5d-141">ENVOYÉS</span><span class="sxs-lookup"><span data-stu-id="ddb5d-141">PARAM</span></span>](param-element.md)                        | <span data-ttu-id="ddb5d-142">Spécifie la valeur d’un paramètre personnalisé associé à une sélection ou à un élément d’une sélection.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-142">Specifies the value of a custom parameter associated with a playlist or an element of a playlist.</span></span>                      |
+| [<span data-ttu-id="ddb5d-143">PREVIEWDURATION</span><span class="sxs-lookup"><span data-stu-id="ddb5d-143">PREVIEWDURATION</span></span>](previewduration-element.md)    | <span data-ttu-id="ddb5d-144">Spécifie la durée pendant laquelle un clip est lu en mode aperçu.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-144">Specifies the length of time a clip is played in preview mode.</span></span>                                                         |
+| [<span data-ttu-id="ddb5d-145">Réf</span><span class="sxs-lookup"><span data-stu-id="ddb5d-145">REF</span></span>](ref-element.md)                            | <span data-ttu-id="ddb5d-146">Spécifie une URL pour un élément de contenu multimédia numérique.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-146">Specifies a URL for a piece of digital media content.</span></span>                                                                  |
+| [<span data-ttu-id="ddb5d-147">Tab</span><span class="sxs-lookup"><span data-stu-id="ddb5d-147">REPEAT</span></span>](repeat-element.md)                      | <span data-ttu-id="ddb5d-148">Spécifie le nombre de fois que le lecteur Windows Media a répété un ou plusieurs éléments d' **entrée** ou de **ENTRYREF** .</span><span class="sxs-lookup"><span data-stu-id="ddb5d-148">Specifies the number of times Windows Media Player repeats one or more **ENTRY** or **ENTRYREF** elements.</span></span>             |
+| [<span data-ttu-id="ddb5d-149">APPARENCE (déconseillée)</span><span class="sxs-lookup"><span data-stu-id="ddb5d-149">SKIN (deprecated)</span></span>](skin-element--deprecated.md) | <span data-ttu-id="ddb5d-150">Spécifie une URL vers une apparence incorporée.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-150">Specifies a URL to an embedded skin.</span></span>                                                                                   |
+| [<span data-ttu-id="ddb5d-151">STARTMARKER</span><span class="sxs-lookup"><span data-stu-id="ddb5d-151">STARTMARKER</span></span>](startmarker-element.md)            | <span data-ttu-id="ddb5d-152">Spécifie un marqueur auquel le lecteur Windows Media démarre le rendu du flux.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-152">Specifies a marker at which Windows Media Player starts rendering the stream.</span></span>                                          |
+| [<span data-ttu-id="ddb5d-153">HEURE</span><span class="sxs-lookup"><span data-stu-id="ddb5d-153">STARTTIME</span></span>](starttime-element.md)                | <span data-ttu-id="ddb5d-154">Spécifie l’heure à laquelle le lecteur Windows Media va démarrer le rendu du flux.</span><span class="sxs-lookup"><span data-stu-id="ddb5d-154">Specifies a time at which Windows Media Player will start rendering the stream.</span></span>                                        |
+| [<span data-ttu-id="ddb5d-155">BONHOMME</span><span class="sxs-lookup"><span data-stu-id="ddb5d-155">TITLE</span></span>](title-element--metafile.md)              | <span data-ttu-id="ddb5d-156">Contient le titre d’un élément **ASX** ou d’un élément d' **entrée** .</span><span class="sxs-lookup"><span data-stu-id="ddb5d-156">Contains the title of an **ASX** or **ENTRY** element.</span></span>                                                                 |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
