@@ -1,0 +1,76 @@
+---
+title: Message LB_GETANCHORINDEX (winuser. h)
+description: Obtient l’index de l’élément d’ancrage \ 8212 ; autrement dit, l’élément à partir duquel commence une sélection multiple. Une sélection multiple s’étend sur tous les éléments de l’élément d’ancrage à l’élément du signe insertion.
+ms.assetid: vs|controls|~\controls\listboxes\listboxreference\listboxmessages\lb_getanchorindex.htm
+keywords:
+- LB_GETANCHORINDEX les contrôles de message Windows
+topic_type:
+- apiref
+api_name:
+- LB_GETANCHORINDEX
+api_location:
+- Winuser.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 5502a234424b818bb46e9c4326839b5aff2f83d0
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104509302"
+---
+# <a name="lb_getanchorindex-message"></a>\_Message GETANCHORINDEX lb
+
+Obtient l’index de l’élément d’ancrage qui est, l’élément à partir duquel une sélection multiple démarre. Une sélection multiple s’étend sur tous les éléments de l’élément d’ancrage à l’élément du signe insertion.
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*wParam* 
+</dt> <dd>
+
+Non utilisé ; doit être égal à zéro.
+
+</dd> <dt>
+
+*lParam* 
+</dt> <dd>
+
+Non utilisé ; doit être égal à zéro.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+La valeur de retour est l’index de l’élément d’ancrage.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**\_SETANCHORINDEX lb**](lb-setanchorindex.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
