@@ -1,0 +1,40 @@
+---
+title: Interfaces ADSI
+description: Cette rubrique décrit les catégories utilisées pour les interfaces ADSI.
+ms.assetid: 8c735dbf-41d7-4fbb-b372-9abe4e1b8fdd
+ms.tgt_platform: multiple
+keywords:
+- ADSI des interfaces ADSI
+- ADSI ADSI, référence, interfaces
+- interfaces ADSI
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 2930292defa99301fb74f37c933a9af24b73f1fd
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104379605"
+---
+# <a name="adsi-interfaces"></a><span data-ttu-id="74932-106">Interfaces ADSI</span><span class="sxs-lookup"><span data-stu-id="74932-106">ADSI Interfaces</span></span>
+
+<span data-ttu-id="74932-107">Les interfaces de service Active Directory (ADSI) prennent en charge un ensemble complet d’interfaces qui peuvent être classées en fonction des catégories suivantes :</span><span class="sxs-lookup"><span data-stu-id="74932-107">Active Directory Service Interfaces (ADSI) supports a rich set of interfaces that can be classified according to the following categories:</span></span>
+
+-   <span data-ttu-id="74932-108">[Cœur](core-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-108">[Core](core-interfaces.md).</span></span> <span data-ttu-id="74932-109">Ces interfaces fournissent les fonctions de base de gestion des objets ADSI.</span><span class="sxs-lookup"><span data-stu-id="74932-109">These interfaces provide the basic object management functions of ADSI objects.</span></span> <span data-ttu-id="74932-110">Les fonctions principales incluent la fourniture d’un point d’entrée dans un magasin d’annuaires, le chargement des propriétés dans le cache de propriétés et la validation des modifications dans l’annuaire sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="74932-110">The core functions include providing an entry point into a directory store, loading properties into the property cache, and committing changes to the underlying directory.</span></span>
+-   <span data-ttu-id="74932-111">[Schéma](schema-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-111">[Schema](schema-interfaces.md).</span></span> <span data-ttu-id="74932-112">Ces interfaces fournissent des méthodes pour la gestion et l’extension du schéma d’annuaire.</span><span class="sxs-lookup"><span data-stu-id="74932-112">These interfaces provide methods for managing and extending the directory schema.</span></span>
+-   <span data-ttu-id="74932-113">[Cache de propriétés](property-cache-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-113">[Property Cache](property-cache-interfaces.md).</span></span> <span data-ttu-id="74932-114">Ces interfaces définissent des méthodes de manipulation des propriétés dans le cache de propriétés.</span><span class="sxs-lookup"><span data-stu-id="74932-114">These interfaces define methods for manipulating properties in the property cache.</span></span>
+-   <span data-ttu-id="74932-115">[Objet persistant](persistent-object-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-115">[Persistent Object](persistent-object-interfaces.md).</span></span> <span data-ttu-id="74932-116">Ces interfaces manipulent les données persistantes dans l’espace de noms du service d’annuaire sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="74932-116">These interfaces manipulate persistent data in the namespace of the underlying directory service.</span></span> <span data-ttu-id="74932-117">Les objets ADSI implémentent ces types d’interfaces pour permettre l’accès à leurs données persistantes, y compris les comptes d’utilisateur, les partages de fichiers, les hiérarchies organisationnelles et les listes de travaux dans une file d’attente à l’impression.</span><span class="sxs-lookup"><span data-stu-id="74932-117">ADSI objects implement these types of interfaces to provide access to their persistent data, including user accounts, file shares, organizational hierarchies, and job listings in a print queue.</span></span>
+-   <span data-ttu-id="74932-118">[Objet dynamique](dynamic-object-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-118">[Dynamic Object](dynamic-object-interfaces.md).</span></span> <span data-ttu-id="74932-119">Ces interfaces fonctionnent avec Dynamic Data dans un service d’annuaire.</span><span class="sxs-lookup"><span data-stu-id="74932-119">These interfaces work with dynamic data in a directory service.</span></span> <span data-ttu-id="74932-120">Les objets d’annuaire non représentés dans le service d’annuaire sous-jacent implémentent ces interfaces.</span><span class="sxs-lookup"><span data-stu-id="74932-120">Directory objects not represented in the underlying directory service implement such interfaces.</span></span> <span data-ttu-id="74932-121">Les commandes émises sur un réseau sont des exemples de données dynamiques.</span><span class="sxs-lookup"><span data-stu-id="74932-121">Examples of dynamic data include commands issued over a network.</span></span>
+-   <span data-ttu-id="74932-122">[Sécurité](security-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-122">[Security](security-interfaces.md).</span></span> <span data-ttu-id="74932-123">Ces interfaces permettent à un client ADSI d’établir ses informations d’identification sur un serveur et d’utiliser les fonctionnalités de sécurité prises en charge par le service d’annuaire, telles que la liste de contrôle d’accès ou les descripteurs de sécurité.</span><span class="sxs-lookup"><span data-stu-id="74932-123">These interfaces enable an ADSI client to establish its credentials to a server and use security features that the directory service supports, such as the access control list or security descriptors.</span></span>
+-   <span data-ttu-id="74932-124">[Non Automation](non-automation-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-124">[Non-Automation](non-automation-interfaces.md).</span></span> <span data-ttu-id="74932-125">Ces interfaces permettent aux clients non-Automation (par exemple, les applications C/C++) un accès à faible charge aux objets d’annuaire en fournissant un accès vtable aux méthodes de gestion et de recherche d’objets de service d’annuaire.</span><span class="sxs-lookup"><span data-stu-id="74932-125">These interfaces allow non-Automation clients (for example, C/C++ applications) low-overhead access to directory objects by providing Vtable access to methods for managing and searching directory service objects.</span></span>
+-   <span data-ttu-id="74932-126">[Extension](extension-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-126">[Extension](extension-interfaces.md).</span></span> <span data-ttu-id="74932-127">Ces interfaces permettent aux clients ADSI d’étendre les fonctionnalités des classes ADSI existantes pour offrir des solutions personnalisées aux services d’annuaire.</span><span class="sxs-lookup"><span data-stu-id="74932-127">These interfaces allow ADSI clients to extend the features of existing ADSI classes to offer customized solutions to directory services.</span></span>
+-   <span data-ttu-id="74932-128">[Utilitaire](utility-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-128">[Utility](utility-interfaces.md).</span></span> <span data-ttu-id="74932-129">Ces interfaces fournissent des fonctions d’assistance avancées pour la gestion des objets ADSI.</span><span class="sxs-lookup"><span data-stu-id="74932-129">These interfaces provide advanced helper functions for managing ADSI objects.</span></span>
+-   <span data-ttu-id="74932-130">[Type de données](data-type-interfaces.md).</span><span class="sxs-lookup"><span data-stu-id="74932-130">[Data Type](data-type-interfaces.md).</span></span> <span data-ttu-id="74932-131">Ces interfaces fournissent des méthodes pour accéder aux types de données ADSI.</span><span class="sxs-lookup"><span data-stu-id="74932-131">These interfaces provide methods to access ADSI data types.</span></span>
+
+ 
+
+ 
+
+
+
+
