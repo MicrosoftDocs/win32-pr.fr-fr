@@ -1,0 +1,42 @@
+---
+title: Menus contextuels
+description: Menus contextuels
+ms.assetid: d1ea899a-9087-4502-8825-5cef1a87ef03
+keywords:
+- Windows Media Player Online stores, menus contextuels
+- magasins en ligne, menus contextuels
+- types 1 magasins en ligne, menus contextuels
+- Windows Media Player Online stores, menus contextuels personnalisés
+- magasins en ligne, menus contextuels personnalisés
+- types 1 magasins en ligne, menus contextuels personnalisés
+- menus contextuels
+- menus contextuels personnalisés
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1ba3ed52b408651607cb1f6dab1a04f53282d3ef
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "104381473"
+---
+# <a name="context-menus"></a>Menus contextuels
+
+Les magasins en ligne peuvent fournir des menus contextuels personnalisés. Pour ce faire, le plug-in du magasin en ligne implémente la méthode [IWMPContentPartner :: GetCommands](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-getcommands) . Le lecteur Windows Media appelle cette méthode pour fournir des informations sur l’emplacement dans l’interface utilisateur où le menu contextuel s’affiche (où l’utilisateur a cliqué avec le bouton droit). Le plug-in retourne un tableau de structures [WMPContextMenuInfo](/previous-versions/windows/desktop/api/contentpartner/ns-contentpartner-wmpcontextmenuinfo) qui décrivent chaque élément de menu contextuel, y compris un ID de commande pour chacun.
+
+Une fois que le lecteur Windows Media a récupéré le tableau, le lecteur utilise le tableau pour générer le menu contextuel que l’utilisateur voit. Quand l’utilisateur clique sur un élément dans le menu contextuel, le lecteur appelle [IWMPContentPartner :: commande InvokeCommand](/previous-versions/windows/desktop/api/contentpartner/nf-contentpartner-iwmpcontentpartner-invokecommand), en passant l’ID de commande associé à l’élément de menu par le biais du paramètre *dwCommandID* . Le lecteur passe également une valeur d’emplacement de bibliothèque et un tableau d’ID qui représente les éléments sur lesquels le menu a été appelé, tel qu’un tableau d’ID de suivi. À l’aide de ces informations, le plug-in peut démarrer tout processus approprié en réponse au clic de la souris de l’utilisateur.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[**À propos des magasins en ligne de type 1**](about-type-1-online-stores.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
