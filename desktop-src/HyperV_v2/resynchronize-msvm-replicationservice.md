@@ -1,0 +1,137 @@
+---
+description: Effectue une opération de resynchronisation sur l’ordinateur virtuel spécifié.
+ms.assetid: a3d06780-f43b-45c4-a186-a3544f9c7963
+title: Resynchroniser la méthode de la classe Msvm_ReplicationService
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_ReplicationService.Resynchronize
+api_type:
+- COM
+api_location:
+- vmms.exe
+ms.openlocfilehash: dcd4865d110843de27f0a242b31253310439e1c9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104319518"
+---
+# <a name="resynchronize-method-of-the-msvm_replicationservice-class"></a>Resynchroniser la méthode de la \_ classe MSVM ReplicationService
+
+Effectue une opération de resynchronisation sur l’ordinateur virtuel spécifié. Lorsqu’un client appelle cette méthode pour un ordinateur virtuel de réplication, il se resynchronise avec le réplica étendu.
+
+Cette méthode compare les disques de réplication activés sur les ordinateurs virtuels principaux et de récupération et résout les problèmes d’intégrité des données de réplication en répliquant les différents blocs du serveur principal vers la récupération.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```mof
+uint32 Resynchronize(
+  [in]  CIM_ComputerSystem REF ComputerSystem,
+  [in]  datetime               StartTime,
+  [out] CIM_ConcreteJob    REF Job
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*ComputerSystem* \[ dans\]
+</dt> <dd>
+
+Référence à une instance [**\_ ComputerSystem CIM**](/windows/desktop/CIMWin32Prov/cim-computersystem) qui représente l’ordinateur virtuel à resynchroniser.
+
+</dd> <dt>
+
+*StartTime* \[ dans\]
+</dt> <dd>
+
+Heure de début planifiée pour le début de l’opération de resynchronisation. Si ce paramètre a la **valeur null**, l’opération de resynchronisation démarre immédiatement.
+
+</dd> <dt>
+
+*Travail* \[ à\]
+</dt> <dd>
+
+Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4096 et ce paramètre contient une référence à un objet dérivé de [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Cette méthode retourne l’une des valeurs suivantes.
+
+<dl> <dt>
+
+**Terminé sans erreur** (0)
+</dt> <dt>
+
+**Paramètres de méthode activés-tâche démarrée** (4096)
+</dt> <dt>
+
+**Échec** (32768)
+</dt> <dt>
+
+**Accès refusé** (32769)
+</dt> <dt>
+
+**Non pris en charge** (32770)
+</dt> <dt>
+
+**État inconnu** (32771)
+</dt> <dt>
+
+**Délai d’expiration** (32772)
+</dt> <dt>
+
+**Paramètre non valide** (32773)
+</dt> <dt>
+
+Le **système est en cours d’utilisation** (32774)
+</dt> <dt>
+
+**État non valide pour cette opération** (32775)
+</dt> <dt>
+
+**Type de données incorrect** (32776)
+</dt> <dt>
+
+Le **système n’est pas disponible** (32777)
+</dt> <dt>
+
+**Mémoire insuffisante** (32778)
+</dt> <dt>
+
+**Fichier introuvable** (32779)
+</dt> </dl>
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**MSVM \_ ReplicationService**](msvm-replicationservice.md)
+</dt> </dl>
+
+ 
+
