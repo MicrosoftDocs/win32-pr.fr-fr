@@ -1,0 +1,75 @@
+- name: Articles techniques
+  href: dx9-technical-articles.md
+  items:
+    - name: programmation 64 bits pour les développeurs de jeux
+      href: sixty-four-bit-programming-for-game-developers.md
+    - name: Signature Authenticode pour les développeurs de jeux
+      href: authenticode-signing-for-game-developers.md
+    - name: Bonnes pratiques de sécurité dans le développement de jeux
+      href: best-security-practices-in-game-development.md
+    - name: Mappages d’ombres en cascade (CSM)
+      href: cascaded-shadow-maps.md
+    - name: "Programmation pour le multicœur sur Xbox\_360 et Windows"
+      href: coding-for-multiple-cores.md
+    - name: Techniques courantes pour améliorer les mappages de profondeur d’ombre
+      href: common-techniques-to-improve-shadow-depth-maps.md
+    - name: 'Analyse de vidage sur plantage '
+      href: crash-dump-analysis.md
+    - name: Débogage avec des symboles
+      href: debugging-with-symbols.md
+    - name: 'Direct3D 10 : Forum Aux Questions'
+      href: direct3d10-frequently-asked-questions.md
+    - name: Forum aux questions DirectX
+      href: directx-9-frequently-asked-questions.md
+    - name: Installation de DirectX pour les développeurs de jeux
+      href: directx-setup-for-game-developers.md
+    - name: Désactivation des touches de raccourci dans les jeux
+      href: disabling-shortcut-keys-in-games.md
+    - name: Minutage des jeux et processeurs multicœurs.
+      href: game-timing-and-multicore-processors.md
+    - name: Jeux pour les exigences techniques de Windows
+      href: games-for-windows-technical-requirements-1-1-0006.md
+    - name: Jeux pour les cas de test Windows
+      href: games-for-windows-test-requirements-1-0-0006.md
+    - name: Jeux avec Least-Privileged comptes d’utilisateur
+      href: gaming-with-least-privileged-user-accounts.md
+    - name: Installation à la demande pour les jeux
+      href: install-on-demand-for-games.md
+    - name: Installation et maintenance des jeux
+      href: installation-and-maintenance-of-games.md
+    - name: "Considérations sur la programmation sans verrou pour Xbox\_360 et Microsoft Windows"
+      href: lockless-programming.md
+    - name: Meilleures pratiques pour l’installation de jeux en ligne massivement multijoueurs
+      href: mmo-installation-best-practices.md
+    - name: Installation et utilisation des éditeurs de méthode d’entrée
+      href: installing-and-using-input-method-editors.md
+    - name: Présentation de l’expérience de 10 pieds pour les développeurs de jeux Windows
+      href: introduction-to-the-10-foot-experience-for-windows-game-developers.md
+    - name: "Rendre les jeux vidéo accessibles\_: justifications et considérations relatives à la conception"
+      href: accessibility-best-practices.md
+    - name: Optimisation des performances des DVD pour les jeux Windows
+      href: optimizing-dvd-performance-for-windows-games.md
+    - name: 'Mise à jour corrective des logiciels de jeu dans Windows XP, Windows Vista et Windows 7'
+      href: patching-methods-in-windows-xp-and-vista.md
+    - name: Meilleures pratiques pour la gestion des ressources
+      href: resource-management-best-practices.md
+    - name: Simplification de l’installation du jeu
+      href: simplifying-game-installation.md
+    - name: Tirer parti du High-Definition mouvement de la souris
+      href: taking-advantage-of-high-dpi-mouse-movement.md
+    - name: Pipeline de transformation Direct3D
+      href: the-direct3d-transformation-pipeline.md
+    - name: Principaux problèmes pour les titres Windows
+      href: top-issues-for-windows-titles.md
+    - name: Principaux outils et techniques pour créer des jeux Windows plus robustes
+      href: top-tools-and-techniques-for-making-more-robust-windows-games.md
+    - name: Contrôle de compte d’utilisateur pour les développeurs de jeux
+      href: user-account-control-for-game-developers.md
+    - name: Utilisation d’un éditeur de méthode d’entrée dans un jeu
+      href: using-an-input-method-editor-in-a-game.md
+    - name: Pare-feu Windows pour les développeurs de jeux
+      href: games-and-firewalls.md
+    - name: Explorateur de jeux Windows pour les développeurs de jeux
+      href: windows-game-explorer-integration.md
+    - name: Windows Installer pour les développeurs de jeux
+      href: windows-installer-for-game-developers.md
