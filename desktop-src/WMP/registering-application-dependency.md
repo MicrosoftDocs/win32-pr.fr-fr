@@ -1,0 +1,88 @@
+---
+title: Inscription de la dépendance d’application (kit de développement logiciel Windows Media Player)
+description: Inscription de la dépendance d’application
+ms.assetid: 966683d6-e082-448d-8473-baae2311c082
+keywords:
+- Lecteur Windows Media, paramètres du registre de dépendances des applications
+- Windows Media Player, paramètres du registre de dépendances
+- Lecteur Windows Media, registre
+- Registre, paramètres de dépendance d’application
+- Registre, paramètres de dépendance
+- Registre, paramètres pour le lecteur Windows Media
+- paramètres du registre des dépendances
+- paramètres du registre de dépendances d’application
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 67aac78417f5ec8e4347b97a5c2b5f37db20183e
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "104464154"
+---
+# <a name="registering-application-dependency-windows-media-player-sdk"></a>Inscription de la dépendance d’application (kit de développement logiciel Windows Media Player)
+
+Les applications qui utilisent des API fournies par le kit de développement logiciel (SDK) du lecteur Windows Media ou le kit de développement logiciel (SDK) Windows Media format dépendent des composants d’exécution de ces technologies. Vous pouvez inscrire votre application comme étant dépendante de ces composants dans le cadre de la configuration de votre application.
+
+Lorsque vous inscrivez votre application, vous pouvez choisir l’un des deux niveaux de dépendance : blocage ou dépendant. Quand une ou plusieurs applications sont inscrites avec une dépendance de blocage sur l’un des composants du runtime, le composant est bloqué d’une restauration vers une version antérieure. Les applications dépendantes qui ne sont pas inscrites comme bloquantes ne bloquent pas la restauration. Au lieu de cela, avant d’effectuer la restauration, l’utilisateur affiche un message indiquant que les applications dépendent du composant.
+
+Pour inscrire votre application, vous devez définir une valeur dans le Registre qui identifie votre application. La valeur de Registre à définir dépend du composant dont dépend votre application. Vous pouvez également définir deux valeurs supplémentaires par dépendance pour fournir des informations supplémentaires sur votre application.
+
+Les valeurs de Registre suivantes sont utilisées pour inscrire la dépendance au runtime du kit de développement logiciel (SDK) du lecteur Windows Media :
+
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ MediaPlayer \\ installation \\ *\_ type référence* \\ application, «*application*», «*\_ chaîne d’application*»
+-   HKEY \_ classes \_ root \\ Software racine \\ Microsoft \\ MediaPlayer \\ programme d’installation \\ descripteur de *\_ type REF* \\ , "*app*", "*Ref \_ Descriptor*"
+-   HKEY \_ classes \_ root \\ Software racine \\ Microsoft \\ MediaPlayer \\ Setup \\ *\_ type REF* \\ , "*app*", "*WMP \_ version*"
+
+Les valeurs de Registre suivantes sont utilisées pour inscrire la dépendance au runtime du SDK Windows Media Format :
+
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ installation \\ *\_ type de référence* \\ application, «*application*»,*« \_ chaîne d’application*»
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ - \\ *\_* \\ descripteur de type de référence, "*application*", "*\_ descripteur de référence*"
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ windowsmedia \\ installation \\ *\_ type de référence* \\ version,*application*, «*\_ version WMF*»
+
+Les variables suivantes sont utilisées dans les valeurs de Registre répertoriées ci-dessus :
+
+*TYPE de référence \_*
+
+Remplacez par BlockingRefCounts pour le blocage de la dépendance ou par DependentRefCounts pour une dépendance non bloquante.
+
+*APP*
+
+Nom ou descripteur abrégé de votre application. Cette chaîne ne sera pas utilisée dans les messages affichés pour l’utilisateur. Cette valeur est l’identificateur utilisé dans les trois valeurs de Registre associées à chacun des composants du Runtime.
+
+*chaîne d’application \_*
+
+Descripteur de votre application. Cette chaîne peut être utilisée dans les messages affichés pour l’utilisateur.
+
+*descripteur de référence \_*
+
+Description de la façon dont votre application utilise le composant. Cette valeur peut inclure un maximum de 256 caractères.
+
+*VERSION de WMP \_*
+
+Version du lecteur Windows Media requise par votre application. Si aucune version n’est spécifiée, la valeur par défaut est supposée être 9.0.0.0.
+
+*\_version WMF*
+
+Version du kit de développement logiciel (SDK) du format Windows Media requis par votre application.
+
+Les trois exemples de valeurs de registre suivants montrent comment configurer les valeurs de votre application :
+
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ MediaPlayer \\ programme d’installation \\ DependentRefCounts \\ , « southridgevideo », « lecteur vidéo Southridge »
+-   HKEY \_ classes \_ root \\ Software racine \\ Microsoft \\ MediaPlayer \\ Setup \\ DependentRefCounts \\ Descriptor, « southridgevideo », « Southridge Video Player utilise le kit de développement logiciel (SDK) Windows Media format pour lire des fichiers vidéo. »
+-   HKEY \_ classes \_ racine \\ logiciel \\ Microsoft \\ MediaPlayer \\ programme d’installation \\ DependentRefCounts \\ , « southridgevideo », « 9.0.0.2600 »
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[**Paramètres du Registre**](registry-settings.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
