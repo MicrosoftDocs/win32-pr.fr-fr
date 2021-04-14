@@ -1,0 +1,109 @@
+---
+title: Gestes tactiles Windows dans l’exemple C (MTGesturesCS)
+description: Cette section décrit l’exemple de gestes tactiles Windows dans C \.
+ms.assetid: 4b2d70bb-47e4-4448-97e2-6f6e29d1dfdf
+keywords:
+- Windows Touch, exemples de code
+- Tactile Windows, exemple de code
+- Tactile Windows, gestes
+- Tactile Windows, exemples de mouvements
+- Exemples de mouvements
+- gestes, exemple de code
+- mouvements, exemples de code
+ms.topic: article
+ms.date: 02/18/2020
+ms.openlocfilehash: e6ffc0e8caf63807d4df80a1b96229f2fa7b5ff9
+ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "104381495"
+---
+# <a name="windows-touch-gestures-in-c-sample-mtgesturescs"></a>Exemples de saisie tactile Windows en C# (MTGesturesCS)
+
+Cette section décrit l’exemple de gestes tactiles Windows en C#.
+
+Cet exemple de gestes tactiles Windows montre comment utiliser des messages de mouvement pour translater, faire pivoter et mettre à l’échelle une zone rendue par le Graphics Device Interface (GDI) en gérant le message [**WM_GESTURE**](wm-gesture.md) . La capture d’écran suivante montre comment l’exemple apparaît lorsqu’il est en cours d’exécution.
+
+![capture d’écran montrant les gestes tactiles Windows dans l’échantillon net Sharp lorsqu’il est en cours d’exécution, avec un rectangle blanc avec contour noir centré à l’écran](images/mtgesturescs.png)
+
+Pour cet exemple, les messages de mouvement sont passés à un moteur de mouvement qui appelle ensuite des méthodes sur des objets de dessin pour translater, faire pivoter et mettre à l’échelle un objet qui a des méthodes pour gérer ces commandes. Pour que cela soit possible en C#, une forme spéciale, TouchableForm, est créée pour gérer les messages de mouvement. Ce formulaire utilise ensuite les messages pour apporter des modifications à un objet de dessin, DrawingObject, pour modifier le rendu de l’objet dans la méthode Paint.
+
+Pour vous aider à voir comment fonctionne l’exemple, examinez les étapes d’utilisation de la commande PAN pour traduire la zone rendue. Un utilisateur effectue le mouvement de panoramique qui génère un message de [**WM_GESTURE**](wm-gesture.md) avec l’identificateur de mouvement GID_PAN. Le TouchableForm gère ces messages et met à jour la position de l’objet de dessin, et l’objet est ensuite rendu traduit.
+
+Le code suivant montre comment le gestionnaire de mouvements récupère les paramètres du message [**WM_GESTURE**](wm-gesture.md) , puis effectue la traduction sur la zone rendue via un appel à la méthode Move de l’objet Drawing.
+
+```CSharp
+            switch (gi.dwID)
+            {
+                case GID_BEGIN:
+                case GID_END:
+                    break;
+               (...)
+                case GID_PAN:
+                    switch (gi.dwFlags)
+                    {
+                        case GF_BEGIN:
+                            _ptFirst.X = gi.ptsLocation.x;
+                            _ptFirst.Y = gi.ptsLocation.y;
+                            _ptFirst = PointToClient(_ptFirst);
+                            break;
+
+                        default:
+                            // We read the second point of this gesture. It is a
+                            // middle point between fingers in this new position
+                            _ptSecond.X = gi.ptsLocation.x;
+                            _ptSecond.Y = gi.ptsLocation.y;
+                            _ptSecond = PointToClient(_ptSecond);
+
+                            // We apply move operation of the object
+                            _dwo.Move(_ptSecond.X - _ptFirst.X, _ptSecond.Y - _ptFirst.Y);
+
+                            Invalidate();
+
+                            // We have to copy second point into first one to
+                            // prepare for the next step of this gesture.
+                            _ptFirst = _ptSecond;
+                            break;
+                    }
+                    break;
+```
+
+Le code suivant montre comment la méthode Move de l’objet de dessin met à jour les variables de position internes.
+
+```CSharp
+        public void Move(int deltaX,int deltaY)
+        {
+            _ptCenter.X += deltaX;
+            _ptCenter.Y += deltaY;
+        }
+```
+
+Le code suivant montre comment la position est utilisée dans la méthode Paint de l’objet Drawing.
+
+```CSharp
+public void Paint(Graphics graphics)
+        {
+(...)
+            for (int j = 0; j < 5; j++)
+            {
+                int idx = arrPts[j].X;
+                int idy = arrPts[j].Y;
+
+                // rotation
+                arrPts[j].X = (int)(idx * dCos + idy * dSin);
+                arrPts[j].Y = (int)(idy * dCos - idx * dSin);
+
+                // translation
+                arrPts[j].X += _ptCenter.X;
+                arrPts[j].Y += _ptCenter.Y;
+            }
+(...)
+        }
+```
+
+Les gestes panoramiques entraînent le rendu de la zone dessinée.
+
+## <a name="related-topics"></a>Rubriques connexes
+
+[Application de mouvements tactiles multiples (C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/CS), [application de gestes multipoint (C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTGestures/cpp), exemples de [fonctions tactiles Windows](windows-touch-samples.md)
