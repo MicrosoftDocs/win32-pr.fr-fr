@@ -1,0 +1,97 @@
+- name: Journalisation des événements
+  href: event-logging.md
+  items:
+    - name: À propos de la journalisation des événements
+      href: about-event-logging.md
+      items:
+        - name: Types d’événements
+          href: event-types.md
+        - name: Instructions de journalisation
+          href: logging-guidelines.md
+        - name: Éléments de journalisation des événements
+          href: event-logging-elements.md
+          items:
+            - name: Clé EventLog
+              href: eventlog-key.md
+            - name: Sources de l’événement
+              href: event-sources.md
+            - name: Catégories d’événements
+              href: event-categories.md
+            - name: Identificateurs d’événements
+              href: event-identifiers.md
+            - name: Fichiers de messages
+              href: message-files.md
+              items:
+                - name: Fichiers texte du message
+                  href: message-text-files.md
+                - name: Exemple de fichier texte de message
+                  href: sample-message-text-file.md
+            - name: Enregistrements du journal des événements
+              href: event-log-records.md
+            - name: Données d'événements
+              href: event-data.md
+        - name: Opérations de journalisation des événements
+          href: event-logging-operations.md
+        - name: Modèle de journalisation des événements
+          href: event-logging-model.md
+          items:
+            - name: Format du fichier journal des événements
+              href: event-log-file-format.md
+            - name: Lecture à partir du journal des événements
+              href: reading-from-the-event-log.md
+            - name: Affichage du journal des événements
+              href: viewing-the-event-log.md
+        - name: Sécurité de la journalisation des événements
+          href: event-logging-security.md
+    - name: Utilisation de la journalisation des événements
+      href: using-event-logging.md
+      items:
+        - name: Interrogation des informations sur les événements
+          href: querying-for-event-source-messages.md
+        - name: Rapports d'événements
+          href: reporting-an-event.md
+        - name: Réception des notifications d’événements
+          href: receiving-event-notification.md
+    - name: Référence de journalisation des événements
+      href: event-logging-reference.md
+      items:
+        - name: Fonctions de journalisation des événements
+          href: event-logging-functions.md
+          items:
+            - name: BackupEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-backupeventloga
+            - name: ClearEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-cleareventloga
+            - name: CloseEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-closeeventlog
+            - name: DeregisterEventSource
+              href: /windows/desktop/api/Winbase/nf-winbase-deregistereventsource
+            - name: GetEventLogInformation
+              href: /windows/desktop/api/Winbase/nf-winbase-geteventloginformation
+            - name: GetNumberOfEventLogRecords
+              href: /windows/desktop/api/Winbase/nf-winbase-getnumberofeventlogrecords
+            - name: GetOldestEventLogRecord
+              href: /windows/desktop/api/Winbase/nf-winbase-getoldesteventlogrecord
+            - name: NotifyChangeEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-notifychangeeventlog
+            - name: OpenBackupEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-openbackupeventloga
+            - name: OpenEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-openeventloga
+            - name: ReadEventLog
+              href: /windows/desktop/api/Winbase/nf-winbase-readeventloga
+            - name: RegisterEventSource
+              href: /windows/desktop/api/Winbase/nf-winbase-registereventsourcea
+            - name: ReportEvent
+              href: /windows/desktop/api/Winbase/nf-winbase-reporteventa
+        - name: Structures de journalisation des événements
+          href: event-logging-structures.md
+          items:
+            - name: ELF_EOF_RECORD
+              href: /previous-versions/windows/desktop/legacy/bb309022(v=vs.85)
+            - name: ELF_LOGFILE_HEADER
+              href: /previous-versions/windows/desktop/legacy/bb309024(v=vs.85)
+            - name: EVENTLOG_FULL_INFORMATION
+              href: /windows/win32/api/Winbase/ns-winbase-eventlog_full_information
+            - name: EVENTLOGRECORD
+              href: /windows/win32/api/Winnt/ns-winnt-eventlogrecord
