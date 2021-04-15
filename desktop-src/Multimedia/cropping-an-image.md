@@ -1,0 +1,60 @@
+---
+title: Rognage d’une image
+description: Rognage d’une image
+ms.assetid: 6600751c-d4b6-481d-bf69-be2d34244c05
+keywords:
+- MCIWndGetSource macro)
+- MCIWndPutSource macro)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b2d73eb37792c124ad907f660d4b906ca80e715d
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104462182"
+---
+# <a name="cropping-an-image"></a><span data-ttu-id="49446-105">Rognage d’une image</span><span class="sxs-lookup"><span data-stu-id="49446-105">Cropping an Image</span></span>
+
+<span data-ttu-id="49446-106">L’exemple suivant crée une fenêtre MCIWnd et charge un fichier AVI.</span><span class="sxs-lookup"><span data-stu-id="49446-106">The following example creates an MCIWnd window and loads an AVI file.</span></span> <span data-ttu-id="49446-107">La fenêtre comprend une commande Rogner dans le menu, qui rogne un quart de la hauteur ou de la largeur de chacun des quatre côtés du cadre.</span><span class="sxs-lookup"><span data-stu-id="49446-107">The window includes a crop command in the menu, which crops one-quarter of the height or width from each of the four sides of the frame.</span></span> <span data-ttu-id="49446-108">L’exemple récupère les dimensions actuelles (initiales) du rectangle source à l’aide de la macro [**MCIWndGetSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetsource) .</span><span class="sxs-lookup"><span data-stu-id="49446-108">The example retrieves the current (initial) dimensions of the source rectangle by using the [**MCIWndGetSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetsource) macro.</span></span> <span data-ttu-id="49446-109">Le rectangle source modifié est la moitié de la hauteur et de la largeur d’origine et est centré dans le frame d’origine.</span><span class="sxs-lookup"><span data-stu-id="49446-109">The modified source rectangle is half the original height and width and is centered in the original frame.</span></span> <span data-ttu-id="49446-110">L’appel de la macro [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) redéfinit les coordonnées du rectangle source.</span><span class="sxs-lookup"><span data-stu-id="49446-110">The call to the [**MCIWndPutSource**](/windows/desktop/api/Vfw/nf-vfw-mciwndputsource) macro redefines the coordinates of the source rectangle.</span></span>
+
+
+```C++
+// extern RECT rSource, rDest; 
+ 
+case WM_COMMAND: 
+    switch (wParam) 
+    { 
+        case IDM_CREATEMCIWND: 
+            g_hwndMCIWnd = MCIWndCreate( hwnd, 
+                g_hinst, 
+                WS_CHILD | WS_VISIBLE, 
+                "sample.avi" ); 
+            break; 
+        case IDM_CROPIMAGE:                          // crops image 
+            MCIWndGetSource(g_hwndMCIWnd, &rSource); // source rectangle
+            rDest.left = rSource.left +              // new boundaries
+                ((rSource.right - rSource.left) / 4); 
+            rDest.right = rSource.right - 
+                ((rSource.right - rSource.left) / 4); 
+            rDest.top = rSource.top + 
+                ((rSource.bottom - rSource.top) / 4); 
+            rDest.bottom = rSource.bottom - 
+                ((rSource.bottom - rSource.top) / 4); 
+ 
+            MCIWndPutSource(g_hwndMCIWnd, &rDest);   // new source rectangle 
+    } 
+    break; 
+
+    // Handle other messages here. 
+```
+
+
+
+ 
+
+ 
+
+
+
+
