@@ -1,0 +1,39 @@
+---
+title: Définition de droits sur des propriétés spécifiques de types spécifiques d’objets
+description: Les autorisations spécifiques à une propriété peuvent être utilisées en association avec l’héritage spécifique à l’objet pour fournir la délégation d’administration puissante et détaillée.
+ms.assetid: d2ebbe3a-78f7-4bb5-bac0-13236031b7b1
+ms.tgt_platform: multiple
+keywords:
+- définition de droits sur des propriétés spécifiques de types spécifiques d’objets Active Directory
+- Active Directory, utilisation de, sécurité, définition de droits sur des propriétés spécifiques
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 79bfa24b574639e64fbb17c33fabee1185cc014c
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104462815"
+---
+# <a name="setting-rights-to-specific-properties-of-specific-types-of-objects"></a><span data-ttu-id="7af23-105">Définition de droits sur des propriétés spécifiques de types spécifiques d’objets</span><span class="sxs-lookup"><span data-stu-id="7af23-105">Setting Rights to Specific Properties of Specific Types of Objects</span></span>
+
+<span data-ttu-id="7af23-106">Les autorisations spécifiques à une propriété peuvent être utilisées en association avec l’héritage spécifique à l’objet pour fournir la délégation d’administration puissante et détaillée.</span><span class="sxs-lookup"><span data-stu-id="7af23-106">Property-specific permissions can be used in combination with object specific inheritance to provide the powerful and detailed delegation of administration.</span></span> <span data-ttu-id="7af23-107">Vous pouvez définir une entrée de contrôle d’accès héritable d’un objet spécifique à une propriété pour permettre à un utilisateur ou un groupe spécifié de lire et/ou d’écrire un attribut spécifique sur une classe spécifiée d’objets enfants dans un conteneur.</span><span class="sxs-lookup"><span data-stu-id="7af23-107">You can set a property-specific object-inheritable ACE to allow a specified user or group to read and/or write a specific attribute on a specified class of child objects in a container.</span></span> <span data-ttu-id="7af23-108">Par exemple, vous pouvez définir une entrée du contrôle d’accès sur une unité d’organisation pour permettre à un groupe de lire et d’écrire l’attribut de numéro de téléphone de tous les objets utilisateur dans l’unité d’organisation.</span><span class="sxs-lookup"><span data-stu-id="7af23-108">For example, you can set an ACE on an organizational unit (OU) to enable a group to read and write the telephone number attribute of all user objects in the OU.</span></span>
+
+<span data-ttu-id="7af23-109">**Pour définir des ACE qui héritent d’un objet spécifique aux propriétés**</span><span class="sxs-lookup"><span data-stu-id="7af23-109">**To set property-specific object-inheritable ACEs**</span></span>
+
+1.  <span data-ttu-id="7af23-110">Définissez [**IADsAccessControlEntry. AceType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) sur **ADS \_ AceType \_ Access \_ allowed \_ Object** ou **ADS \_ AceType \_ accès \_ refusé \_ Object**.</span><span class="sxs-lookup"><span data-stu-id="7af23-110">Set [**IADsAccessControlEntry.AceType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to **ADS\_ACETYPE\_ACCESS\_ALLOWED\_OBJECT** or **ADS\_ACETYPE\_ACCESS\_DENIED\_OBJECT**.</span></span>
+2.  <span data-ttu-id="7af23-111">Définissez [**IADsAccessControlEntry. ObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) sur le **schemaIDGUID** de l’attribut.</span><span class="sxs-lookup"><span data-stu-id="7af23-111">Set [**IADsAccessControlEntry.ObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to the **schemaIDGUID** of the attribute.</span></span> <span data-ttu-id="7af23-112">Par exemple, le **schemaIDGUID** de l’attribut **telephoneNumber** est {bf967a49-0de6-11D0-A285-00aa003049e2}.</span><span class="sxs-lookup"><span data-stu-id="7af23-112">For example, the **schemaIDGUID** of the **telephoneNumber** attribute is {bf967a49-0de6-11d0-a285-00aa003049e2}.</span></span>
+3.  <span data-ttu-id="7af23-113">Définir [**IADsAccessControlEntry. AceFlags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) sur **ADS \_ ACEFLAG \_ hériter \_** de l’entrée du contrôle d’accès.</span><span class="sxs-lookup"><span data-stu-id="7af23-113">Set [**IADsAccessControlEntry.AceFlags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to **ADS\_ACEFLAG\_INHERIT\_ACE**.</span></span>
+4.  <span data-ttu-id="7af23-114">Définissez [**IADsAccessControlEntry. InheritedObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) sur le **schemaIDGUID** de la classe d’objet qui peut hériter de l’entrée du contrôle d’accès.</span><span class="sxs-lookup"><span data-stu-id="7af23-114">Set [**IADsAccessControlEntry.InheritedObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to the **schemaIDGUID** of the object class that can inherit the ACE.</span></span> <span data-ttu-id="7af23-115">Par exemple, le **schemaIDGUID** de la classe d' **utilisateur** est {bf967aba-0de6-11D0-A285-00aa003049e2}.</span><span class="sxs-lookup"><span data-stu-id="7af23-115">For example, the **schemaIDGUID** of the **user** class is {bf967aba-0de6-11d0-a285-00aa003049e2}.</span></span>
+5.  <span data-ttu-id="7af23-116">Définissez [**IADsAccessControlEntry. Flags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) sur le **\_ type d’objet indicateur ADS \_ \_ \_ présent** et le **type d' \_ objet hérité de l’indicateur ADS est \_ \_ \_ \_ présent**.</span><span class="sxs-lookup"><span data-stu-id="7af23-116">Set [**IADsAccessControlEntry.Flags**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) to **ADS\_FLAG\_OBJECT\_TYPE\_PRESENT** and **ADS\_FLAG\_INHERITED\_OBJECT\_TYPE\_PRESENT**.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="7af23-117">Définissez ad \_ ACEFLAG \_ inherit \_ ACE pour que l’entrée du contrôle d’accès soit héritée.</span><span class="sxs-lookup"><span data-stu-id="7af23-117">Set ADS\_ACEFLAG\_INHERIT\_ACE to cause the ACE to be inherited.</span></span> <span data-ttu-id="7af23-118">En outre, Set ad \_ ACEFLAG \_ inherit \_ only \_ ACE si le type d’objet auquel s’applique cette entrée du contrôle d’accès ne correspond pas au type d’objet du conteneur dans lequel l’entrée du contrôle d’accès est spécifiée.</span><span class="sxs-lookup"><span data-stu-id="7af23-118">In addition, set ADS\_ACEFLAG\_INHERIT\_ONLY\_ACE if the object type this ACE applies to does not match the object type of the container where the ACE is specified.</span></span> <span data-ttu-id="7af23-119">Si ce n’est pas le cas, l’entrée du contrôle d’accès prendra également effet sur le conteneur et peut accorder des droits inattendus.</span><span class="sxs-lookup"><span data-stu-id="7af23-119">If this is not done, the ACE will also become effective on the container and can grant unexpected rights.</span></span>
+
+ 
+
+<span data-ttu-id="7af23-120">Pour plus d’informations et d’exemples de code qui peuvent être utilisés pour définir ce type d’entrée du contrôle d’accès, consultez [exemple de code pour la définition d’une entrée](example-code-for-setting-an-ace-on-a-directory-object.md)du contrôle d’accès sur un objet d’annuaire.</span><span class="sxs-lookup"><span data-stu-id="7af23-120">For more information and code examples that can be used to set this kind of ACE, see [Example Code for Setting an ACE on a Directory Object](example-code-for-setting-an-ace-on-a-directory-object.md).</span></span>
+
+ 
+
+ 
