@@ -1,0 +1,31 @@
+---
+title: Sérialisation de procédure
+description: Lorsque vous utilisez la sérialisation de procédure, une procédure est étiquetée avec l’attribut \ encode \ ou \ Decode \. Au lieu de générer le stub distant habituel, le compilateur génère un stub de sérialisation pour la routine.
+ms.assetid: 98367b00-696b-44c4-a747-92ecac34ba1e
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 77696761a9aa5fe1471e9ebf24a57303b15d0ff3
+ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "104393876"
+---
+# <a name="procedure-serialization"></a><span data-ttu-id="e261d-104">Sérialisation de procédure</span><span class="sxs-lookup"><span data-stu-id="e261d-104">Procedure Serialization</span></span>
+
+<span data-ttu-id="e261d-105">Lorsque vous utilisez la sérialisation de procédure, une procédure est étiquetée avec l' \[ attribut [**encode**](/windows/desktop/Midl/encode) \] ou \[ [**Decode**](/windows/desktop/Midl/decode) \] .</span><span class="sxs-lookup"><span data-stu-id="e261d-105">When you use procedure serialization, a procedure is labeled with the \[[**encode**](/windows/desktop/Midl/encode)\] or \[[**decode**](/windows/desktop/Midl/decode)\] attribute.</span></span> <span data-ttu-id="e261d-106">Au lieu de générer le stub distant habituel, le compilateur génère un stub de sérialisation pour la routine.</span><span class="sxs-lookup"><span data-stu-id="e261d-106">Instead of generating the usual remote stub, the compiler generates a serialization stub for the routine.</span></span>
+
+<span data-ttu-id="e261d-107">Tout comme une procédure distante doit utiliser un handle de liaison pour effectuer un appel distant, une procédure de sérialisation doit utiliser un handle de sérialisation pour utiliser les services de sérialisation.</span><span class="sxs-lookup"><span data-stu-id="e261d-107">Just as a remote procedure must use a binding handle to make a remote call, a serialization procedure must use a serialization handle to use serialization services.</span></span> <span data-ttu-id="e261d-108">Si aucun handle de sérialisation n’est spécifié, un handle implicite par défaut est utilisé pour diriger l’appel.</span><span class="sxs-lookup"><span data-stu-id="e261d-108">If a serialization handle is not specified, a default implicit handle is used to direct the call.</span></span> <span data-ttu-id="e261d-109">En revanche, si le handle de sérialisation est spécifié en tant qu’argument [**handle \_ t**](/windows/desktop/Midl/handle-t) explicite de la routine ou en utilisant l' \[ attribut [**\_ handle explicite**](/windows/desktop/Midl/explicit-handle) \] , vous devez passer un handle valide comme argument de l’appel.</span><span class="sxs-lookup"><span data-stu-id="e261d-109">On the other hand, if the serialization handle is specified, either as an explicit [**handle\_t**](/windows/desktop/Midl/handle-t) argument of the routine or by using the \[[**explicit\_handle**](/windows/desktop/Midl/explicit-handle)\] attribute, you must pass a valid handle as an argument of the call.</span></span> <span data-ttu-id="e261d-110">Pour plus d’informations sur la création d’un handle de sérialisation valide, consultez [Handles descripteurs](serialization-handles.md), [exemples d’encodage de mémoire tampon fixe](fixed-buffer-serialization.md)et [exemples d’encodage incrémentiel](examples-of-incremental-encoding.md).</span><span class="sxs-lookup"><span data-stu-id="e261d-110">For additional information on how to create a valid serialization handle, see [Serialization Handles](serialization-handles.md), [Examples of Fixed Buffer Encoding](fixed-buffer-serialization.md), and [Examples of Incremental Encoding](examples-of-incremental-encoding.md).</span></span>
+
+> [!Note]
+> <span data-ttu-id="e261d-111">Microsoft RPC permet le mélange des procédures distantes et de sérialisation dans une interface.</span><span class="sxs-lookup"><span data-stu-id="e261d-111">Microsoft RPC allows remote and serialization procedures to be mixed in one interface.</span></span> <span data-ttu-id="e261d-112">Toutefois, soyez prudent quand vous le faites.</span><span class="sxs-lookup"><span data-stu-id="e261d-112">However, use caution when doing so.</span></span>
+> 
+> <span data-ttu-id="e261d-113">Pour les procédures distantes avec des handles de liaison implicites, le compilateur MIDL génère une variable de handle globale de type [**handle \_ t**](/windows/desktop/Midl/handle-t).</span><span class="sxs-lookup"><span data-stu-id="e261d-113">For remote procedures with implicit binding handles, the MIDL compiler generates a global handle variable of type [**handle\_t**](/windows/desktop/Midl/handle-t).</span></span> <span data-ttu-id="e261d-114">Les procédures et les types avec des handles de sérialisation implicites utilisent cette même variable de handle global.</span><span class="sxs-lookup"><span data-stu-id="e261d-114">Procedures and types with implicit serialization handles use this same global handle variable.</span></span>
+> 
+> <span data-ttu-id="e261d-115">Pour les handles implicites, le handle global implicite doit être défini sur un handle de liaison valide avant un appel distant.</span><span class="sxs-lookup"><span data-stu-id="e261d-115">For implicit handles, the global implicit handle must be set to a valid binding handle before a remote call.</span></span> <span data-ttu-id="e261d-116">Le handle implicite doit être défini sur un handle de sérialisation valide avant un appel de sérialisation.</span><span class="sxs-lookup"><span data-stu-id="e261d-116">The implicit handle must be set to a valid serialization handle before a serialization call.</span></span> <span data-ttu-id="e261d-117">Par conséquent, une procédure ne peut pas être à la fois à distance et sérialisée.</span><span class="sxs-lookup"><span data-stu-id="e261d-117">Therefore, a procedure cannot be both remote and serialized.</span></span> <span data-ttu-id="e261d-118">Il doit s’agir de l’un ou de l’autre.</span><span class="sxs-lookup"><span data-stu-id="e261d-118">It must be one or the other.</span></span>
+
+ 
+
+ 
+
+ 
