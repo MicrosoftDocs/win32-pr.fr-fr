@@ -1,0 +1,51 @@
+---
+description: L’API CNG fournit un ensemble de fonctions qui effectuent des opérations de chiffrement de base telles que la création de hachages ou le chiffrement et le déchiffrement de données. Pour plus d’informations sur ces fonctions, consultez fonctions primitives de chiffrement CNG.
+ms.assetid: 925848ae-9f4f-444a-81ff-14a1997434b2
+title: Primitives de chiffrement
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bd0f390b36bc500bf80b5b2ef0065651cf99f5e5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104524867"
+---
+# <a name="cryptographic-primitives"></a><span data-ttu-id="6d763-104">Primitives de chiffrement</span><span class="sxs-lookup"><span data-stu-id="6d763-104">Cryptographic Primitives</span></span>
+
+<span data-ttu-id="6d763-105">L’API CNG fournit un ensemble de fonctions qui effectuent des opérations de chiffrement de base telles que la création de hachages ou le chiffrement et le déchiffrement de données.</span><span class="sxs-lookup"><span data-stu-id="6d763-105">The CNG API provides a set of functions that perform basic cryptographic operations such as creating hashes or encrypting and decrypting data.</span></span> <span data-ttu-id="6d763-106">Pour plus d’informations sur ces fonctions, consultez [fonctions primitives de chiffrement CNG](cng-cryptographic-primitive-functions.md).</span><span class="sxs-lookup"><span data-stu-id="6d763-106">For more information about these functions, see [CNG Cryptographic Primitive Functions](cng-cryptographic-primitive-functions.md).</span></span>
+
+<span data-ttu-id="6d763-107">CNG implémente de nombreux algorithmes de chiffrement.</span><span class="sxs-lookup"><span data-stu-id="6d763-107">CNG implements numerous cryptographic algorithms.</span></span> <span data-ttu-id="6d763-108">Chaque algorithme ou classe d’algorithmes expose sa propre API primitive.</span><span class="sxs-lookup"><span data-stu-id="6d763-108">Each algorithm or class of algorithms exposes its own primitive API.</span></span> <span data-ttu-id="6d763-109">Plusieurs implémentations d’un algorithme donné peuvent être installées en même temps. Toutefois, une seule implémentation sera la valeur par défaut à un moment donné.</span><span class="sxs-lookup"><span data-stu-id="6d763-109">Multiple implementations of a given algorithm can be installed at the same time; however, only one implementation will be the default at any given time.</span></span>
+
+<span data-ttu-id="6d763-110">Chaque classe d’algorithme dans CNG est représentée par un routeur primitif.</span><span class="sxs-lookup"><span data-stu-id="6d763-110">Each algorithm class in CNG is represented by a primitive router.</span></span> <span data-ttu-id="6d763-111">Les applications qui utilisent les fonctions primitives CNG sont liées au fichier binaire de routeur Bcrypt.dll en mode utilisateur, ou Ksecdd.sys en mode noyau avant d’appeler les fonctions.</span><span class="sxs-lookup"><span data-stu-id="6d763-111">Applications using the CNG primitive functions will link to the router binary file Bcrypt.dll in user mode, or Ksecdd.sys in kernel mode before calling the functions.</span></span> <span data-ttu-id="6d763-112">Diverses routines de routeur gèrent toutes les primitives d’algorithme.</span><span class="sxs-lookup"><span data-stu-id="6d763-112">Various router routines manage all of the algorithm primitives.</span></span> <span data-ttu-id="6d763-113">Ces routeurs suivent chaque implémentation d’algorithme installée sur le système et acheminent chaque appel de fonction vers le module de fournisseur primitif approprié.</span><span class="sxs-lookup"><span data-stu-id="6d763-113">These routers track each algorithm implementation installed on the system and route each function call to the appropriate primitive provider module.</span></span>
+
+<span data-ttu-id="6d763-114">CNG fournit des primitives pour les classes d’algorithmes suivantes.</span><span class="sxs-lookup"><span data-stu-id="6d763-114">CNG provides primitives for the following classes of algorithms.</span></span>
+
+
+
+| <span data-ttu-id="6d763-115">Classe d’algorithme</span><span class="sxs-lookup"><span data-stu-id="6d763-115">Algorithm class</span></span>                                                                                                                                                  | <span data-ttu-id="6d763-116">Description</span><span class="sxs-lookup"><span data-stu-id="6d763-116">Description</span></span>                                                                                                  |
+|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="6d763-117"><span id="Random_number_generator"></span><span id="random_number_generator"></span><span id="RANDOM_NUMBER_GENERATOR"></span>Générateur de nombres aléatoires</span><span class="sxs-lookup"><span data-stu-id="6d763-117"><span id="Random_number_generator"></span><span id="random_number_generator"></span><span id="RANDOM_NUMBER_GENERATOR"></span>Random number generator</span></span><br/> | <span data-ttu-id="6d763-118">Génération de nombres aléatoires enfichables (RNG).</span><span class="sxs-lookup"><span data-stu-id="6d763-118">Pluggable random number generation (RNG).</span></span><br/>                                                         |
+| <span data-ttu-id="6d763-119"><span id="Hashing"></span><span id="hashing"></span><span id="HASHING"></span>Hachage</span><span class="sxs-lookup"><span data-stu-id="6d763-119"><span id="Hashing"></span><span id="hashing"></span><span id="HASHING"></span>Hashing</span></span><br/>                                                                 | <span data-ttu-id="6d763-120">Algorithmes utilisés pour le hachage, tels que SHA1 et SHA2.</span><span class="sxs-lookup"><span data-stu-id="6d763-120">Algorithms used for hashing, such as SHA1 and SHA2.</span></span><br/>                                               |
+| <span data-ttu-id="6d763-121"><span id="Symmetric_encryption"></span><span id="symmetric_encryption"></span><span id="SYMMETRIC_ENCRYPTION"></span>Chiffrement symétrique</span><span class="sxs-lookup"><span data-stu-id="6d763-121"><span id="Symmetric_encryption"></span><span id="symmetric_encryption"></span><span id="SYMMETRIC_ENCRYPTION"></span>Symmetric encryption</span></span><br/>             | <span data-ttu-id="6d763-122">Algorithmes utilisés pour le chiffrement symétrique, tels que AES, 3DES et RC4.</span><span class="sxs-lookup"><span data-stu-id="6d763-122">Algorithms used for symmetric encryption, such as AES, 3DES, and RC4.</span></span><br/>                             |
+| <span data-ttu-id="6d763-123"><span id="Asymmetric_encryption"></span><span id="asymmetric_encryption"></span><span id="ASYMMETRIC_ENCRYPTION"></span>Chiffrement asymétrique</span><span class="sxs-lookup"><span data-stu-id="6d763-123"><span id="Asymmetric_encryption"></span><span id="asymmetric_encryption"></span><span id="ASYMMETRIC_ENCRYPTION"></span>Asymmetric encryption</span></span><br/>         | <span data-ttu-id="6d763-124">Les algorithmes asymétriques (clé publique) qui prennent en charge le chiffrement, tels que RSA.</span><span class="sxs-lookup"><span data-stu-id="6d763-124">Asymmetric (public key) algorithms that support encryption, such as RSA.</span></span><br/>                          |
+| <span data-ttu-id="6d763-125"><span id="Signature"></span><span id="signature"></span><span id="SIGNATURE"></span>Signature</span><span class="sxs-lookup"><span data-stu-id="6d763-125"><span id="Signature"></span><span id="signature"></span><span id="SIGNATURE"></span>Signature</span></span><br/>                                                         | <span data-ttu-id="6d763-126">Algorithmes de signature tels que DSA et ECDSA.</span><span class="sxs-lookup"><span data-stu-id="6d763-126">Signature algorithms such as DSA and ECDSA.</span></span> <span data-ttu-id="6d763-127">Cette classe peut également être utilisée avec RSA.</span><span class="sxs-lookup"><span data-stu-id="6d763-127">This class can also be used with RSA.</span></span><br/>                 |
+| <span data-ttu-id="6d763-128"><span id="Secret_agreement"></span><span id="secret_agreement"></span><span id="SECRET_AGREEMENT"></span>Accord secret</span><span class="sxs-lookup"><span data-stu-id="6d763-128"><span id="Secret_agreement"></span><span id="secret_agreement"></span><span id="SECRET_AGREEMENT"></span>Secret agreement</span></span><br/>                             | <span data-ttu-id="6d763-129">Les algorithmes d’accord secret tels que Diffie-Hellman (DH) et ECDH (Elliptic Curve Diffie-Hellman).</span><span class="sxs-lookup"><span data-stu-id="6d763-129">Secret agreement algorithms such as Diffie-Hellman (DH) and elliptic curve Diffie-Hellman (ECDH).</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="6d763-130">L’illustration suivante montre la conception et la fonction des primitives de chiffrement CNG.</span><span class="sxs-lookup"><span data-stu-id="6d763-130">The following illustration shows the design and function of the CNG cryptographic primitives.</span></span>
+
+![conception et fonction des primitives de chiffrement CNG](images/ssdk-cng1c.png)
+
+<span data-ttu-id="6d763-132">Le fichier d’en-tête bcrypt. h définit la constante du **\_ \_ fournisseur de la primitive MS** comme « fournisseur primitif Microsoft ».</span><span class="sxs-lookup"><span data-stu-id="6d763-132">The header file Bcrypt.h defines the **MS\_PRIMITIVE\_PROVIDER** constant as "Microsoft Primitive Provider".</span></span> <span data-ttu-id="6d763-133">Pour utiliser le fournisseur primitif Microsoft, transmettez cette valeur à [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider).</span><span class="sxs-lookup"><span data-stu-id="6d763-133">To use the Microsoft Primitive Provider, pass this value to [**BCryptOpenAlgorithmProvider**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptopenalgorithmprovider).</span></span>
+
+ 
+
+ 
+
+
+
+
