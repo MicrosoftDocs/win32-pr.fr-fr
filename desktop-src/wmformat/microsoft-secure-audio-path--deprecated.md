@@ -1,0 +1,41 @@
+---
+title: Chemin d’accès audio sécurisé Microsoft (déconseillé)
+description: Chemin d’accès audio sécurisé Microsoft (déconseillé)
+ms.assetid: 55833ca4-b25b-408c-af66-f89e9b6110c9
+keywords:
+- Windows Media Format SDK, Microsoft Secure audio Path (SAP)
+- gestion des droits numériques (DRM), Microsoft Secure audio Path (SAP)
+- DRM (gestion des droits numériques), Microsoft Secure audio Path (SAP)
+- Windows Media Format SDK, Secure audio Path (SAP)
+- gestion des droits numériques (DRM), chemin audio sécurisé (SAP)
+- DRM (gestion des droits numériques), chemin d’accès audio sécurisé (SAP)
+- Microsoft Secure audio Path (SAP), à propos de
+- Chemin audio sécurisé (SAP), à propos de
+- SAP (chemin d’accès audio sécurisé), à propos de
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 149f57111aaa9b020c4efbd1635c602f9c917d02
+ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "104321393"
+---
+# <a name="microsoft-secure-audio-path-deprecated"></a>Chemin d’accès audio sécurisé Microsoft (déconseillé)
+
+Cette page documente une fonctionnalité qui sera prise en charge avec une autre solution technique dans les futures versions de Windows.
+
+Les créateurs et les serveurs de distribution de contenu peuvent spécifier, dans une licence DRM, qu’un fichier audio ne peut être lu que sur un système avec des composants SAP (Secure audio Path) de Microsoft. Le chemin d’accès audio sécurisé fournit un degré de protection plus élevé du contenu audio en rendant pratiquement impossible aux applications non fiables ou aux pilotes audio d’accéder aux bits audio non chiffrés. Le chemin d’accès audio sécurisé est pris en charge sur Microsoft Windows® me et Windows XP. Il sécurise la musique numérique dans le noyau du système d’exploitation. En outre, le copyright de Digital Millennium fait de contourner les mesures antipiratages dans les logiciels d’un crime.
+
+Le chemin d’accès audio sécurisé est activé et implémenté entièrement automatiquement par le composant Microsoft DRM quand une licence DRM requiert SAP. Pour les applications qui s’exécutent sur Windows® XP Service Pack 1, vous pouvez activer le chiffrement SAP pour tout contenu audio, en dehors du contexte de la solution DRM Microsoft, à l’aide du kit de développement logiciel (SDK) Secure audio Path. Pour plus d’informations sur le kit de développement logiciel (SDK) Secure audio Path, consultez le [site Web Microsoft](/documentation/).
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[**Fonctionnalités de Rights Management numérique**](digital-rights-management-features.md)
+</dt> </dl>
+
+ 
+
+ 
