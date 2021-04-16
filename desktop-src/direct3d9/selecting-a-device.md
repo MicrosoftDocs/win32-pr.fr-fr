@@ -1,0 +1,77 @@
+---
+description: Les applications peuvent interroger le matériel pour détecter les types de périphériques Direct3D pris en charge. Cette section contient des informations sur les tâches principales impliquées dans l’énumération des adaptateurs d’affichage et la sélection des périphériques Direct3D.
+ms.assetid: d140b90c-3a20-49f4-883b-662b6c05dcea
+title: Sélection d’un appareil (Direct3D 9)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: cfdfa1faf38007f00959ac7263b4538954044688
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104522764"
+---
+# <a name="selecting-a-device-direct3d-9"></a><span data-ttu-id="c47c6-104">Sélection d’un appareil (Direct3D 9)</span><span class="sxs-lookup"><span data-stu-id="c47c6-104">Selecting a Device (Direct3D 9)</span></span>
+
+<span data-ttu-id="c47c6-105">Les applications peuvent interroger le matériel pour détecter les types de périphériques Direct3D pris en charge.</span><span class="sxs-lookup"><span data-stu-id="c47c6-105">Applications can query hardware to detect the supported Direct3D device types.</span></span> <span data-ttu-id="c47c6-106">Cette section contient des informations sur les tâches principales impliquées dans l’énumération des adaptateurs d’affichage et la sélection des périphériques Direct3D.</span><span class="sxs-lookup"><span data-stu-id="c47c6-106">This section contains information about the primary tasks involved in enumerating display adapters and selecting Direct3D devices.</span></span>
+
+<span data-ttu-id="c47c6-107">Une application doit effectuer une série de tâches pour sélectionner un appareil Direct3D approprié.</span><span class="sxs-lookup"><span data-stu-id="c47c6-107">An application must perform a series of tasks to select an appropriate Direct3D device.</span></span> <span data-ttu-id="c47c6-108">Notez que les étapes suivantes sont destinées à une application en plein écran et que, dans la plupart des cas, une application avec fenêtres peut ignorer la plupart de ces étapes.</span><span class="sxs-lookup"><span data-stu-id="c47c6-108">Note that the following steps are intended for a full-screen application and that, in most cases, a windowed application can skip most of these steps.</span></span>
+
+1.  <span data-ttu-id="c47c6-109">Au départ, l’application doit énumérer les adaptateurs d’affichage sur le système.</span><span class="sxs-lookup"><span data-stu-id="c47c6-109">Initially, the application must enumerate the display adapters on the system.</span></span> <span data-ttu-id="c47c6-110">Un adaptateur est un élément physique du matériel.</span><span class="sxs-lookup"><span data-stu-id="c47c6-110">An adapter is a physical piece of hardware.</span></span> <span data-ttu-id="c47c6-111">Notez que la carte graphique peut contenir plusieurs adaptateurs, comme c’est le cas avec un affichage à deux pointes.</span><span class="sxs-lookup"><span data-stu-id="c47c6-111">Note that the graphics card might contain more than a single adapter, as is the case with a dual-headed display.</span></span> <span data-ttu-id="c47c6-112">Les applications qui ne sont pas concernées par la prise en charge de plusieurs moniteurs peuvent ignorer cette étape et passer D3DADAPTER \_ par défaut à la méthode [**IDirect3D9 :: EnumAdapterModes**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes) à l’étape 2.</span><span class="sxs-lookup"><span data-stu-id="c47c6-112">Applications that are not concerned with multi-monitor support can disregard this step, and pass D3DADAPTER\_DEFAULT to the [**IDirect3D9::EnumAdapterModes**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes) method in step 2.</span></span>
+2.  <span data-ttu-id="c47c6-113">Pour chaque adaptateur, l’application énumère les modes d’affichage pris en charge en appelant [**IDirect3D9 :: EnumAdapterModes**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes).</span><span class="sxs-lookup"><span data-stu-id="c47c6-113">For each adapter, the application enumerates the supported display modes by calling [**IDirect3D9::EnumAdapterModes**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-enumadaptermodes).</span></span>
+3.  <span data-ttu-id="c47c6-114">Si nécessaire, l’application vérifie la présence de l’accélération matérielle dans chaque mode d’affichage énuméré en appelant [**IDirect3D9 :: CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype), comme indiqué dans l’exemple de code suivant.</span><span class="sxs-lookup"><span data-stu-id="c47c6-114">If required, the application checks for the presence of hardware acceleration in each enumerated display mode by calling [**IDirect3D9::CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype), as shown in the following code example.</span></span> <span data-ttu-id="c47c6-115">Notez qu’il ne s’agit que d’une des utilisations possibles de **IDirect3D9 :: CheckDeviceType**; Pour plus d’informations, consultez Détermination de la [prise en charge matérielle (Direct3D 9)](determining-hardware-support.md).</span><span class="sxs-lookup"><span data-stu-id="c47c6-115">Note that this is only one of the possible uses for **IDirect3D9::CheckDeviceType**; for details, see [Determining Hardware Support (Direct3D 9)](determining-hardware-support.md).</span></span>
+    ```
+    D3DPRESENT_PARAMETERS Params;
+    // Initialize values for D3DPRESENT_PARAMETERS members. 
+
+    Params.BackBufferFormat = D3DFMT_X1R5G5B5; 
+
+    if(FAILED(m_pD3D->CheckDeviceType(Device.m_uAdapter, 
+                      Device.m_DevType, 
+                      Params.BackBufferFormat, Params.BackBufferFormat, 
+                      FALSE))) 
+        return E_FAIL;
+    ```
+
+    
+
+4.  <span data-ttu-id="c47c6-116">L’application vérifie le niveau de fonctionnalité souhaité pour l’appareil sur cet adaptateur en appelant la méthode [**IDirect3D9 :: GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3d9-getdevicecaps) .</span><span class="sxs-lookup"><span data-stu-id="c47c6-116">The application checks for the desired level of functionality for the device on this adapter by calling the [**IDirect3D9::GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3d9-getdevicecaps) method.</span></span> <span data-ttu-id="c47c6-117">La fonctionnalité retournée par cette méthode est toujours constante pour un appareil dans tous les modes d’affichage, vérifiée par [**IDirect3D9 :: CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype).</span><span class="sxs-lookup"><span data-stu-id="c47c6-117">The capability returned by this method is guaranteed to be constant for a device across all display modes, verified by [**IDirect3D9::CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype).</span></span>
+5.  <span data-ttu-id="c47c6-118">Les appareils peuvent toujours effectuer un rendu sur des surfaces du format d’un mode d’affichage énuméré qui est pris en charge par l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c47c6-118">Devices can always render to surfaces of the format of an enumerated display mode that is supported by the device.</span></span> <span data-ttu-id="c47c6-119">Si l’application doit effectuer un rendu sur une surface d’un autre format, elle peut appeler [**IDirect3D9 :: CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat).</span><span class="sxs-lookup"><span data-stu-id="c47c6-119">If the application is required to render to a surface of a different format, it can call [**IDirect3D9::CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat).</span></span> <span data-ttu-id="c47c6-120">Si l’appareil peut effectuer un rendu au format, il est garanti que toutes les fonctionnalités retournées par [**IDirect3D9 :: GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3d9-getdevicecaps) sont applicables.</span><span class="sxs-lookup"><span data-stu-id="c47c6-120">If the device can render to the format, then it is guaranteed that all capabilities returned by [**IDirect3D9::GetDeviceCaps**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3d9-getdevicecaps) are applicable.</span></span>
+6.  <span data-ttu-id="c47c6-121">Enfin, l’application peut déterminer si les techniques d’échantillonnage multiple, telles que l’anticrénelage de scène complète, sont prises en charge pour un format de rendu à l’aide de la méthode [**IDirect3D9 :: CheckDeviceMultiSampleType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicemultisampletype) .</span><span class="sxs-lookup"><span data-stu-id="c47c6-121">Lastly, the application can determine if multisampling techniques, such as full-scene antialiasing, are supported for a render format by using the [**IDirect3D9::CheckDeviceMultiSampleType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicemultisampletype) method.</span></span>
+
+<span data-ttu-id="c47c6-122">Une fois les étapes précédentes terminées, l’application doit disposer d’une liste de modes d’affichage dans laquelle elle peut fonctionner.</span><span class="sxs-lookup"><span data-stu-id="c47c6-122">After completing the preceding steps, the application should have a list of display modes in which it can operate.</span></span> <span data-ttu-id="c47c6-123">La dernière étape consiste à vérifier que suffisamment de mémoire accessible par l’appareil est disponible pour prendre en charge le nombre requis de mémoires tampons et l’anticrénelage.</span><span class="sxs-lookup"><span data-stu-id="c47c6-123">The final step is to verify that enough device-accessible memory is available to accommodate the required number of buffers and antialiasing.</span></span> <span data-ttu-id="c47c6-124">Ce test est nécessaire car la consommation de mémoire pour le mode et la combinaison d’exemples est impossible à prédire sans le vérifier.</span><span class="sxs-lookup"><span data-stu-id="c47c6-124">This test is necessary because the memory consumption for the mode and multisample combination is impossible to predict without verifying it.</span></span> <span data-ttu-id="c47c6-125">De plus, certaines architectures d’adaptateur d’affichage peuvent ne pas disposer d’une quantité constante de mémoire accessible à l’appareil.</span><span class="sxs-lookup"><span data-stu-id="c47c6-125">Moreover, some display adapter architectures might not have a constant amount of device-accessible memory.</span></span> <span data-ttu-id="c47c6-126">Cela signifie qu’une application doit être en mesure de signaler des échecs de mémoire non vidéo lors du passage en mode plein écran.</span><span class="sxs-lookup"><span data-stu-id="c47c6-126">This means that an application should be able to report out-of-video-memory failures when going into full-screen mode.</span></span> <span data-ttu-id="c47c6-127">En règle générale, une application doit supprimer le mode plein écran de la liste des modes qu’elle offre à un utilisateur, ou elle doit tenter de consommer moins de mémoire en réduisant le nombre de mémoires tampons d’arrière-plan ou en utilisant une technique d’échantillonnage multiple moins complexe.</span><span class="sxs-lookup"><span data-stu-id="c47c6-127">Typically, an application should remove full-screen mode from the list of modes that it offers to a user, or it should attempt to consume less memory by reducing the number of back buffers or by using a less complex multisampling technique.</span></span>
+
+<span data-ttu-id="c47c6-128">Une application avec fenêtres exécute un ensemble de tâches similaire.</span><span class="sxs-lookup"><span data-stu-id="c47c6-128">A windowed application performs a similar set of tasks.</span></span>
+
+1.  <span data-ttu-id="c47c6-129">Elle détermine le rectangle du bureau couvert par la zone cliente de la fenêtre.</span><span class="sxs-lookup"><span data-stu-id="c47c6-129">It determines the desktop rectangle covered by the client area of the window.</span></span>
+2.  <span data-ttu-id="c47c6-130">Il énumère les adaptateurs, en recherchant l’adaptateur dont le moniteur couvre la zone cliente.</span><span class="sxs-lookup"><span data-stu-id="c47c6-130">It enumerates adapters, looking for the adapter whose monitor covers the client area.</span></span> <span data-ttu-id="c47c6-131">Si la zone cliente appartient à plusieurs adaptateurs, l’application peut choisir de piloter chaque carte indépendamment, ou de piloter une seule carte et de transférer Direct3D des pixels d’un appareil à l’autre lors de la présentation.</span><span class="sxs-lookup"><span data-stu-id="c47c6-131">If the client area is owned by more than one adapter, then the application can choose to drive each adapter independently, or to drive a single adapter and have Direct3D transfer pixels from one device to another at presentation.</span></span> <span data-ttu-id="c47c6-132">L’application peut également ignorer deux étapes précédentes et utiliser l' \_ adaptateur par défaut D3DADAPTER.</span><span class="sxs-lookup"><span data-stu-id="c47c6-132">The application can also disregard two preceding steps and use the D3DADAPTER\_DEFAULT adapter.</span></span> <span data-ttu-id="c47c6-133">Notez que cela peut entraîner une opération plus lente lorsque la fenêtre est placée sur un moniteur secondaire.</span><span class="sxs-lookup"><span data-stu-id="c47c6-133">Note that this might result in slower operation when the window is placed on a secondary monitor.</span></span>
+3.  <span data-ttu-id="c47c6-134">L’application doit appeler [**IDirect3D9 :: CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype) pour déterminer si l’appareil peut prendre en charge le rendu d’une mémoire tampon d’arrière-plan au format spécifié en mode Bureau.</span><span class="sxs-lookup"><span data-stu-id="c47c6-134">The application should call [**IDirect3D9::CheckDeviceType**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdevicetype) to determine if the device can support rendering to a back buffer of the specified format while in desktop mode.</span></span> <span data-ttu-id="c47c6-135">[**IDirect3D9 :: GetAdapterDisplayMode**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapterdisplaymode) peut être utilisé pour déterminer le format d’affichage du bureau, comme indiqué dans l’exemple de code suivant.</span><span class="sxs-lookup"><span data-stu-id="c47c6-135">[**IDirect3D9::GetAdapterDisplayMode**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-getadapterdisplaymode) can be used to determine the desktop display format, as shown in the following code example.</span></span>
+    ```
+    D3DPRESENT_PARAMETERS Params;
+    // Initialize values for D3DPRESENT_PARAMETERS members. 
+
+    // Use the current display mode.
+    D3DDISPLAYMODE mode;
+
+    if(FAILED(m_pD3D->GetAdapterDisplayMode(Device.m_uAdapter , &mode)))
+        return E_FAIL;
+
+    Params.BackBufferFormat = mode.Format;
+
+    if(FAILED(m_pD3D->CheckDeviceType(Device.m_uAdapter, Device.m_DevType, 
+    Params.BackBufferFormat, Params.BackBufferFormat, FALSE)))
+        return E_FAIL;
+    ```
+
+    
+
+## <a name="related-topics"></a><span data-ttu-id="c47c6-136">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="c47c6-136">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="c47c6-137">Périphériques Direct3D</span><span class="sxs-lookup"><span data-stu-id="c47c6-137">Direct3D Devices</span></span>](direct3d-devices.md)
+</dt> </dl>
+
+ 
+
+ 
