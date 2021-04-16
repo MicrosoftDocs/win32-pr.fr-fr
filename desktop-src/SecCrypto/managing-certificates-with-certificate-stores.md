@@ -1,0 +1,77 @@
+---
+description: Utilisation des fonctions CryptoAPI pour gérer les magasins de certificats et les certificats, les listes de révocation de certificats et les listes de certificats de confiance dans ces banques.
+ms.assetid: 6a56c355-8f24-41cc-88d9-2a02d9863ccf
+title: Gestion des certificats avec des magasins de certificats
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 98abb2b612f77db3f1c59e53fb9c7bf0f34cefb3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104567391"
+---
+# <a name="managing-certificates-with-certificate-stores"></a><span data-ttu-id="88af8-103">Gestion des certificats avec des magasins de certificats</span><span class="sxs-lookup"><span data-stu-id="88af8-103">Managing Certificates with Certificate Stores</span></span>
+
+<span data-ttu-id="88af8-104">Sur une période donnée, les [*certificats*](../secgloss/c-gly.md) s’accumulent sur l’ordinateur d’un utilisateur.</span><span class="sxs-lookup"><span data-stu-id="88af8-104">Over a period of time, [*certificates*](../secgloss/c-gly.md) will accumulate on a user's computer.</span></span> <span data-ttu-id="88af8-105">Les outils sont requis pour gérer ces certificats.</span><span class="sxs-lookup"><span data-stu-id="88af8-105">Tools are required to manage these certificates.</span></span> <span data-ttu-id="88af8-106">[*CryptoAPI*](../secgloss/c-gly.md) fournit ces outils comme fonctions pour stocker, récupérer, supprimer, répertorier (énumérer) et vérifier des certificats.</span><span class="sxs-lookup"><span data-stu-id="88af8-106">[*CryptoAPI*](../secgloss/c-gly.md) provides those tools as functions to store, retrieve, delete, list (enumerate), and verify certificates.</span></span> <span data-ttu-id="88af8-107">CryptoAPI offre également la possibilité de joindre des certificats aux messages.</span><span class="sxs-lookup"><span data-stu-id="88af8-107">CryptoAPI also provides the means to attach certificates to messages.</span></span>
+
+<span data-ttu-id="88af8-108">CryptoAPI offre deux catégories principales de fonctions pour la gestion des certificats : les fonctions qui gèrent les [*magasins de certificats*](../secgloss/c-gly.md)et les fonctions qui fonctionnent avec les certificats, les [*listes de révocation de certificats*](../secgloss/c-gly.md) (CRL) et les listes de certificats de [*confiance*](../secgloss/c-gly.md) (CTL) au sein de ces banques.</span><span class="sxs-lookup"><span data-stu-id="88af8-108">CryptoAPI offers two main categories of functions for managing certificates: functions that manage [*certificate stores*](../secgloss/c-gly.md), and functions that work with the certificates, [*certificate revocation lists*](../secgloss/c-gly.md) (CRLs), and [*certificate trust lists*](../secgloss/c-gly.md) (CTLs) within those stores.</span></span>
+
+<span data-ttu-id="88af8-109">Les fonctions qui gèrent [*les magasins de certificats*](../secgloss/c-gly.md) incluent des fonctions permettant de travailler avec des magasins logiques ou [*virtuels*](../secgloss/v-gly.md), des magasins [*distants*](../secgloss/r-gly.md), des [*magasins externes*](../secgloss/e-gly.md)et des magasins qui peuvent être déplacés.</span><span class="sxs-lookup"><span data-stu-id="88af8-109">The functions that manage [*certificate stores*](../secgloss/c-gly.md) include functions for working with logical or [*virtual stores*](../secgloss/v-gly.md), [*remote stores*](../secgloss/r-gly.md), [*external stores*](../secgloss/e-gly.md), and stores that can be relocated.</span></span>
+
+<span data-ttu-id="88af8-110">Les certificats, les [*listes de révocation*](../secgloss/c-gly.md)de certificats et les [*listes CTL*](../secgloss/c-gly.md) peuvent être conservés et gérés dans les [*magasins de certificats*](../secgloss/c-gly.md).</span><span class="sxs-lookup"><span data-stu-id="88af8-110">Certificates, [*CRLs*](../secgloss/c-gly.md), and [*CTLs*](../secgloss/c-gly.md) can be kept and maintained in [*certificate stores*](../secgloss/c-gly.md).</span></span> <span data-ttu-id="88af8-111">Ils peuvent être récupérés à partir d’un magasin dans lequel ils ont été rendus persistants pour une utilisation dans les processus d’authentification.</span><span class="sxs-lookup"><span data-stu-id="88af8-111">They can be retrieved from a store where they have been persisted for use in authentication processes.</span></span>
+
+<span data-ttu-id="88af8-112">Le [*magasin de certificats*](../secgloss/c-gly.md) est central pour toutes les fonctionnalités de certificat.</span><span class="sxs-lookup"><span data-stu-id="88af8-112">The [*certificate store*](../secgloss/c-gly.md) is central to all certificate functionality.</span></span> <span data-ttu-id="88af8-113">Les certificats sont gérés dans le magasin à l’aide de fonctions avec un préfixe « CERT ».</span><span class="sxs-lookup"><span data-stu-id="88af8-113">The certificates are managed in the store using functions with a "Cert" prefix.</span></span> <span data-ttu-id="88af8-114">Un magasin de certificats standard est une liste liée de [*certificats*](../secgloss/c-gly.md) , comme indiqué dans l’illustration suivante.</span><span class="sxs-lookup"><span data-stu-id="88af8-114">A typical certificate store is a linked list of [*certificates*](../secgloss/c-gly.md) as shown in the following illustration.</span></span>
+
+![magasin de certificats](images/certstore1.png)
+
+<span data-ttu-id="88af8-116">L’illustration précédente présente :</span><span class="sxs-lookup"><span data-stu-id="88af8-116">The preceding illustration shows:</span></span>
+
+-   <span data-ttu-id="88af8-117">Chaque [*magasin de certificats*](../secgloss/c-gly.md) a un pointeur vers le premier bloc de certificat de ce magasin.</span><span class="sxs-lookup"><span data-stu-id="88af8-117">Each [*certificate store*](../secgloss/c-gly.md) has a pointer to the first certificate block in that store.</span></span>
+-   <span data-ttu-id="88af8-118">Un bloc de certificat comprend un pointeur vers les données de ce certificat et un pointeur « suivant » vers le bloc de certificat suivant dans le magasin.</span><span class="sxs-lookup"><span data-stu-id="88af8-118">A certificate block includes a pointer to that certificate's data and a "next" pointer to the next certificate block in the store.</span></span>
+-   <span data-ttu-id="88af8-119">Le pointeur « suivant » dans le dernier bloc de certificat est défini sur **null**.</span><span class="sxs-lookup"><span data-stu-id="88af8-119">The "next" pointer in the last certificate block is set to **NULL**.</span></span>
+-   <span data-ttu-id="88af8-120">Le bloc de données d’un certificat contient le contexte de certificat en lecture seule et toutes les propriétés étendues du certificat.</span><span class="sxs-lookup"><span data-stu-id="88af8-120">The data block of a certificate contains the read-only certificate context and any extended properties of the certificate.</span></span>
+-   <span data-ttu-id="88af8-121">Le bloc de données de chaque certificat contient un [*nombre de références*](../secgloss/r-gly.md) qui effectue le suivi du nombre de pointeurs vers le certificat qui existe.</span><span class="sxs-lookup"><span data-stu-id="88af8-121">The data block of each certificate contains a [*reference count*](../secgloss/r-gly.md) that keeps track of the number of pointers to the certificate that exist.</span></span>
+
+<span data-ttu-id="88af8-122">Les certificats dans un [*magasin de certificats*](../secgloss/c-gly.md) sont normalement conservés dans un certain type de stockage permanent, tel qu’un fichier de disque ou le registre système.</span><span class="sxs-lookup"><span data-stu-id="88af8-122">Certificates in a [*certificate store*](../secgloss/c-gly.md) are normally kept in some kind of permanent storage such as a disk file or the system registry.</span></span> <span data-ttu-id="88af8-123">Les magasins de certificats peuvent également être créés et ouverts strictement en mémoire.</span><span class="sxs-lookup"><span data-stu-id="88af8-123">Certificate stores can also be created and opened strictly in memory.</span></span> <span data-ttu-id="88af8-124">Un magasin de mémoire fournit un stockage de certificats temporaire pour l’utilisation de certificats qui n’ont pas besoin d’être conservés.</span><span class="sxs-lookup"><span data-stu-id="88af8-124">A memory store provides temporary certificate storage for working with certificates that do not need to be kept.</span></span>
+
+<span data-ttu-id="88af8-125">Les emplacements de magasin supplémentaires permettent de conserver et de rechercher des magasins dans différentes parties du registre d’un ordinateur local ou, avec les autorisations appropriées définies, dans le registre d’un ordinateur distant.</span><span class="sxs-lookup"><span data-stu-id="88af8-125">Additional store locations allow stores to be kept and searched in various parts of a local computer's registry or, with proper permissions set, in the registry on a remote computer.</span></span>
+
+<span data-ttu-id="88af8-126">Chaque utilisateur a un mon magasin personnel dans lequel les certificats de cet utilisateur sont stockés.</span><span class="sxs-lookup"><span data-stu-id="88af8-126">Each user has a personal My store where that user's certificates are stored.</span></span> <span data-ttu-id="88af8-127">Mon magasin peut se trouver dans n’importe quel autre emplacement physique, y compris le registre sur un ordinateur local ou distant, un fichier disque, une base de données, un service d’annuaire, une [*carte à puce*](../secgloss/s-gly.md)ou un autre emplacement.</span><span class="sxs-lookup"><span data-stu-id="88af8-127">The My store can be at any one of many physical locations, including the registry on a local or remote computer, a disk file, a database, directory service, a [*smart card*](../secgloss/s-gly.md), or another location.</span></span> <span data-ttu-id="88af8-128">Si un certificat peut être stocké dans le magasin My, ce magasin doit être réservé pour les certificats personnels d’un utilisateur : les certificats utilisés pour signer et déchiffrer les messages de cet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="88af8-128">While any certificate can be stored in the My store, this store should be reserved for a user's personal certificates: those certificates used for signing and decrypting that user's messages.</span></span>
+
+<span data-ttu-id="88af8-129">L’utilisation de certificats pour l’authentification dépend de l’émission de certificats émis par un émetteur de certificat approuvé.</span><span class="sxs-lookup"><span data-stu-id="88af8-129">Using certificates for authentication depends on having certificates issued by some trusted certificate issuer.</span></span> <span data-ttu-id="88af8-130">Les certificats pour les émetteurs de certificats approuvés sont généralement conservés dans le magasin racine, qui est actuellement conservé dans une sous-clé de registre.</span><span class="sxs-lookup"><span data-stu-id="88af8-130">Certificates for trusted certificate issuers are typically kept in the Root store, which is currently persisted to a registry subkey.</span></span> <span data-ttu-id="88af8-131">Dans le contexte CryptoAPI, le magasin racine est protégé et les boîtes de dialogue de l’interface utilisateur rappellent à l’utilisateur de placer uniquement les certificats approuvés dans ce magasin.</span><span class="sxs-lookup"><span data-stu-id="88af8-131">In the CryptoAPI context, the Root store is protected, and user interface dialog boxes remind the user to place only trusted certificates into that store.</span></span> <span data-ttu-id="88af8-132">Dans les situations de réseau d’entreprise, les certificats peuvent être envoyés (copiés) par un administrateur système à partir de l’ordinateur contrôleur de domaine vers les magasins racine sur les ordinateurs clients.</span><span class="sxs-lookup"><span data-stu-id="88af8-132">In enterprise network situations, certificates might be pushed (copied) by a system administrator from the domain controller computer to the Root stores on client computers.</span></span> <span data-ttu-id="88af8-133">Ce processus fournit à tous les membres d’un domaine des listes de confiance similaires.</span><span class="sxs-lookup"><span data-stu-id="88af8-133">This process provides all members of a domain with similar trust lists.</span></span>
+
+<span data-ttu-id="88af8-134">D’autres certificats peuvent être stockés dans le magasin système de l' [*autorité de certification*](../secgloss/c-gly.md) ou dans des magasins de fichiers créés par l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="88af8-134">Other certificates can be stored in the [*certification authority*](../secgloss/c-gly.md) (CA) system store or in user-created, file-based stores.</span></span>
+
+<span data-ttu-id="88af8-135">Pour obtenir la liste des fonctions permettant d’utiliser et de gérer des magasins de certificats, consultez [fonctions du magasin de certificats](cryptography-functions.md).</span><span class="sxs-lookup"><span data-stu-id="88af8-135">For lists of functions for using and maintaining certificate stores, see [Certificate Store Functions](cryptography-functions.md).</span></span>
+
+<span data-ttu-id="88af8-136">Pour obtenir un exemple d’utilisation de certaines de ces fonctions, consultez [exemple de programme C : opérations du magasin de certificats](example-c-program-certificate-store-operations.md).</span><span class="sxs-lookup"><span data-stu-id="88af8-136">For an example that uses some of these functions, see [Example C Program: Certificate Store Operations](example-c-program-certificate-store-operations.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="88af8-137">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="88af8-137">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="88af8-138">Gestion de l’état d’un magasin de certificats</span><span class="sxs-lookup"><span data-stu-id="88af8-138">Managing a Certificate Store State</span></span>](managing-a-certificate-store-state.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-139">Utilisation de certificats dans les magasins de certificats</span><span class="sxs-lookup"><span data-stu-id="88af8-139">Working with Certificates in Certificate Stores</span></span>](working-with-certificates-in-certificate-stores.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-140">Liens de certificat</span><span class="sxs-lookup"><span data-stu-id="88af8-140">Certificate Links</span></span>](certificate-links.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-141">Magasins de collection</span><span class="sxs-lookup"><span data-stu-id="88af8-141">Collection Stores</span></span>](collection-stores.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-142">Magasins logiques et physiques</span><span class="sxs-lookup"><span data-stu-id="88af8-142">Logical and Physical Stores</span></span>](logical-and-physical-stores.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-143">Emplacements du magasin système</span><span class="sxs-lookup"><span data-stu-id="88af8-143">System Store Locations</span></span>](system-store-locations.md)
+</dt> <dt>
+
+[<span data-ttu-id="88af8-144">Migration du magasin de certificats</span><span class="sxs-lookup"><span data-stu-id="88af8-144">Certificate Store Migration</span></span>](certificate-store-migration.md)
+</dt> </dl>
+
+ 
+
+ 
