@@ -1,0 +1,92 @@
+---
+description: Cette section contient des informations sur les interfaces et les classes utilisées dans l’analyse de l’encre. Les classes et les interfaces d’analyse de l’encre ne sont pas conformes à Automation.
+ms.assetid: 712908e1-2d1d-4e42-8c80-71354b03d318
+title: Classes et interfaces d’analyse de l’encre
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 95d1c157a08a4b7366c20a712c120265320ab4f9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104524934"
+---
+# <a name="ink-analysis-classes-and-interfaces"></a><span data-ttu-id="09f86-104">Classes et interfaces d’analyse de l’encre</span><span class="sxs-lookup"><span data-stu-id="09f86-104">Ink Analysis Classes and Interfaces</span></span>
+
+<span data-ttu-id="09f86-105">Cette section contient des informations sur les interfaces et les classes utilisées dans l’analyse de l’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-105">This section contains information about the interfaces and classes used in ink analysis.</span></span> <span data-ttu-id="09f86-106">Les classes et les interfaces d’analyse de l’encre ne sont pas conformes à Automation.</span><span class="sxs-lookup"><span data-stu-id="09f86-106">The ink analysis classes and interfaces are not Automation-compliant.</span></span>
+
+## <a name="classes"></a><span data-ttu-id="09f86-107">Classes</span><span class="sxs-lookup"><span data-stu-id="09f86-107">Classes</span></span>
+
+
+
+| <span data-ttu-id="09f86-108">Classe</span><span class="sxs-lookup"><span data-stu-id="09f86-108">Class</span></span>                                    | <span data-ttu-id="09f86-109">Description</span><span class="sxs-lookup"><span data-stu-id="09f86-109">Description</span></span>                                                                     |
+|------------------------------------------|---------------------------------------------------------------------------------|
+| [<span data-ttu-id="09f86-110">**AnalysisRegion**</span><span class="sxs-lookup"><span data-stu-id="09f86-110">**AnalysisRegion**</span></span>](analysisregion.md) | <span data-ttu-id="09f86-111">Implémente l’interface [**IAnalysisRegion**](ianalysisregion.md) .</span><span class="sxs-lookup"><span data-stu-id="09f86-111">Implements the [**IAnalysisRegion**](ianalysisregion.md) interface.</span></span><br/> |
+| [<span data-ttu-id="09f86-112">**InkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="09f86-112">**InkAnalyzer**</span></span>](inkanalyzer.md)       | <span data-ttu-id="09f86-113">Implémente l’interface [**IInkAnalyzer**](iinkanalyzer.md) .</span><span class="sxs-lookup"><span data-stu-id="09f86-113">Implements the [**IInkAnalyzer**](iinkanalyzer.md) interface.</span></span><br/>       |
+
+
+
+ 
+
+## <a name="interfaces"></a><span data-ttu-id="09f86-114">Interfaces</span><span class="sxs-lookup"><span data-stu-id="09f86-114">Interfaces</span></span>
+
+
+
+| <span data-ttu-id="09f86-115">Interface</span><span class="sxs-lookup"><span data-stu-id="09f86-115">Interface</span></span>                                                    | <span data-ttu-id="09f86-116">Description</span><span class="sxs-lookup"><span data-stu-id="09f86-116">Description</span></span>                                                                                                                                                                                                      |
+|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="09f86-117">**IAnalysisAlternate**</span><span class="sxs-lookup"><span data-stu-id="09f86-117">**IAnalysisAlternate**</span></span>](ianalysisalternate.md)             | <span data-ttu-id="09f86-118">Représente les correspondances possibles pour les mots de reconnaissance de l’écriture manuscrite pour les objets [**IContextNode**](icontextnode.md) .</span><span class="sxs-lookup"><span data-stu-id="09f86-118">Represents the possible handwriting recognition word matches for [**IContextNode**](icontextnode.md) objects.</span></span><br/>                                                                                        |
+| [<span data-ttu-id="09f86-119">**IAnalysisAlternates**</span><span class="sxs-lookup"><span data-stu-id="09f86-119">**IAnalysisAlternates**</span></span>](ianalysisalternates.md)           | <span data-ttu-id="09f86-120">Contient une collection d’objets qui implémentent l’interface [**IAnalysisAlternate**](ianalysisalternate.md) et qui sont le résultat de l’analyse de l’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-120">Contains a collection of objects that implement the [**IAnalysisAlternate**](ianalysisalternate.md) interface and that are the result of ink analysis.</span></span><br/>                                               |
+| [<span data-ttu-id="09f86-121">**IAnalysisRegion**</span><span class="sxs-lookup"><span data-stu-id="09f86-121">**IAnalysisRegion**</span></span>](ianalysisregion.md)                   | <span data-ttu-id="09f86-122">Expose des méthodes et des propriétés pour une zone qui représente une zone d’un document.</span><span class="sxs-lookup"><span data-stu-id="09f86-122">Exposes methods and properties for a region that represents an area of a document.</span></span><br/>                                                                                                                    |
+| [<span data-ttu-id="09f86-123">**IAnalysisStatus**</span><span class="sxs-lookup"><span data-stu-id="09f86-123">**IAnalysisStatus**</span></span>](ianalysisstatus.md)                   | <span data-ttu-id="09f86-124">Représente l’état de l’opération d’analyse de l’encre en décrivant si l’analyse a été effectuée avec succès et si des avertissements se sont produits.</span><span class="sxs-lookup"><span data-stu-id="09f86-124">Represents the status of the ink analysis operation by describing whether the analysis was completed successfully and whether any warnings occurred.</span></span><br/>                                                  |
+| [<span data-ttu-id="09f86-125">**IAnalysisWarning**</span><span class="sxs-lookup"><span data-stu-id="09f86-125">**IAnalysisWarning**</span></span>](ianalysiswarning.md)                 | <span data-ttu-id="09f86-126">Représente un avertissement ou une erreur qui se produit pendant une opération d’analyse d’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-126">Represents a warning or error that occurs during an ink analysis operation.</span></span><br/>                                                                                                                           |
+| [<span data-ttu-id="09f86-127">**IAnalysisWarnings**</span><span class="sxs-lookup"><span data-stu-id="09f86-127">**IAnalysisWarnings**</span></span>](ianalysiswarnings.md)               | <span data-ttu-id="09f86-128">Contient une collection d’objets qui implémentent l’interface [**IAnalysisWarning**](ianalysiswarning.md) et qui sont le résultat d’une opération d’analyse d’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-128">Contains a collection of objects that implement the [**IAnalysisWarning**](ianalysiswarning.md) interface and that are the result of an ink analysis operation.</span></span><br/>                                      |
+| [<span data-ttu-id="09f86-129">**IContextLink**</span><span class="sxs-lookup"><span data-stu-id="09f86-129">**IContextLink**</span></span>](icontextlink.md)                         | <span data-ttu-id="09f86-130">Représente une relation entre deux objets [**IContextNode**](icontextnode.md) .</span><span class="sxs-lookup"><span data-stu-id="09f86-130">Represents a relationship between two [**IContextNode**](icontextnode.md) objects.</span></span><br/>                                                                                                                   |
+| [<span data-ttu-id="09f86-131">**IContextLinks**</span><span class="sxs-lookup"><span data-stu-id="09f86-131">**IContextLinks**</span></span>](icontextlinks.md)                       | <span data-ttu-id="09f86-132">Contient une collection d’objets qui implémentent l’interface [**IContextLink**](icontextlink.md) .</span><span class="sxs-lookup"><span data-stu-id="09f86-132">Contains a collection of objects that implement the [**IContextLink**](icontextlink.md) interface.</span></span><br/>                                                                                                   |
+| [<span data-ttu-id="09f86-133">**IContextNode**</span><span class="sxs-lookup"><span data-stu-id="09f86-133">**IContextNode**</span></span>](icontextnode.md)                         | <span data-ttu-id="09f86-134">Représente un nœud dans une arborescence d’objets qui sont créés dans le cadre de l’analyse de l’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-134">Represents a node in a tree of objects that are created as part of ink analysis.</span></span><br/>                                                                                                                      |
+| [<span data-ttu-id="09f86-135">**IContextNodes**</span><span class="sxs-lookup"><span data-stu-id="09f86-135">**IContextNodes**</span></span>](icontextnodes.md)                       | <span data-ttu-id="09f86-136">Contient une collection d’objets qui implémentent l’interface [**IContextNode**](icontextnode.md) et qui sont le résultat d’une opération d’analyse d’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-136">Contains a collection of objects that implement the [**IContextNode**](icontextnode.md) interface and that are the result of an ink analysis operation.</span></span><br/>                                              |
+| [<span data-ttu-id="09f86-137">**IInkAnalysisRecognizer**</span><span class="sxs-lookup"><span data-stu-id="09f86-137">**IInkAnalysisRecognizer**</span></span>](iinkanalysisrecognizer.md)     | <span data-ttu-id="09f86-138">Donne accès aux reconnaissance de l’écriture manuscrite pour une utilisation avec l’analyse de l’encre.</span><span class="sxs-lookup"><span data-stu-id="09f86-138">Provides access to handwriting recognizers for use with ink analysis.</span></span><br/>                                                                                                                                 |
+| [<span data-ttu-id="09f86-139">**IInkAnalysisRecognizers**</span><span class="sxs-lookup"><span data-stu-id="09f86-139">**IInkAnalysisRecognizers**</span></span>](iinkanalysisrecognizers.md)   | <span data-ttu-id="09f86-140">Contient une collection d’objets qui implémentent l’interface [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) et qui représentent la capacité de reconnaître l’écriture manuscrite, les objets ou les gestes.</span><span class="sxs-lookup"><span data-stu-id="09f86-140">Contains a collection of objects that implement the [**IInkAnalysisRecognizer**](iinkanalysisrecognizer.md) interface and that represent the ability to recognize handwriting, objects, or gestures.</span></span><br/> |
+| [<span data-ttu-id="09f86-141">**IInkAnalyzer**</span><span class="sxs-lookup"><span data-stu-id="09f86-141">**IInkAnalyzer**</span></span>](iinkanalyzer.md)                         | <span data-ttu-id="09f86-142">Donne accès à l’analyse de la disposition, à l’écriture et au dessin de la classification et à la reconnaissance de l’écriture manuscrite</span><span class="sxs-lookup"><span data-stu-id="09f86-142">Provides access to layout analysis, writing and drawing classification, and handwriting recognition.</span></span><br/>                                                                                                  |
+| [<span data-ttu-id="09f86-143">**IMatchesCriteriaCallBack**</span><span class="sxs-lookup"><span data-stu-id="09f86-143">**IMatchesCriteriaCallBack**</span></span>](imatchescriteriacallback.md) | <span data-ttu-id="09f86-144">Expose une méthode pour évaluer si un objet [**IContextNode**](icontextnode.md) satisfait ou échoue à un critère spécifié.</span><span class="sxs-lookup"><span data-stu-id="09f86-144">Exposes a method to evaluate whether an [**IContextNode**](icontextnode.md) object meets or fails a specified criteria.</span></span><br/>                                                                              |
+
+
+
+ 
+
+## <a name="return-values"></a><span data-ttu-id="09f86-145">Valeurs de retour</span><span class="sxs-lookup"><span data-stu-id="09f86-145">Return Values</span></span>
+
+<span data-ttu-id="09f86-146">Les méthodes de la bibliothèque COM Tablet PC retournent des valeurs de **HRESULT**.</span><span class="sxs-lookup"><span data-stu-id="09f86-146">Methods in the Tablet PC COM Library return values of **HRESULT**.</span></span> <span data-ttu-id="09f86-147">Sauf indication contraire, les significations des valeurs **HRESULT** sont décrites dans ce tableau.</span><span class="sxs-lookup"><span data-stu-id="09f86-147">Unless otherwise noted, the meanings of the **HRESULT** values are described in this table.</span></span>
+
+
+
+| <span data-ttu-id="09f86-148">Valeur HRESULT</span><span class="sxs-lookup"><span data-stu-id="09f86-148">HRESULT value</span></span>                                   | <span data-ttu-id="09f86-149">Description</span><span class="sxs-lookup"><span data-stu-id="09f86-149">Description</span></span>                                                                              |
+|-------------------------------------------------|------------------------------------------------------------------------------------------|
+| <span data-ttu-id="09f86-150">\_OK</span><span class="sxs-lookup"><span data-stu-id="09f86-150">S\_OK</span></span><br/>                                | <span data-ttu-id="09f86-151">Opération réussie.</span><span class="sxs-lookup"><span data-stu-id="09f86-151">Success.</span></span><br/>                                                                      |
+| <span data-ttu-id="09f86-152">\_pointeur E</span><span class="sxs-lookup"><span data-stu-id="09f86-152">E\_POINTER</span></span><br/>                           | <span data-ttu-id="09f86-153">Au moins un pointeur (pour un paramètre d’entrée ou de sortie) n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-153">At least one pointer (for either an input or an output parameter) is invalid.</span></span><br/> |
+| <span data-ttu-id="09f86-154">E \_ INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="09f86-154">E\_INVALIDARG</span></span><br/>                        | <span data-ttu-id="09f86-155">Le membre a tenté de passer un argument non valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-155">Member attempted to pass in an invalid argument.</span></span><br/>                              |
+| <span data-ttu-id="09f86-156">\_exception encre \_ E</span><span class="sxs-lookup"><span data-stu-id="09f86-156">E\_INK\_EXCEPTION</span></span><br/>                    | <span data-ttu-id="09f86-157">Une exception s’est produite.</span><span class="sxs-lookup"><span data-stu-id="09f86-157">Exception occurred.</span></span><br/>                                                           |
+| <span data-ttu-id="09f86-158">\_OUTOFMEMORY E</span><span class="sxs-lookup"><span data-stu-id="09f86-158">E\_OUTOFMEMORY</span></span><br/>                       | <span data-ttu-id="09f86-159">Le système ne peut pas allouer de mémoire pour terminer l’opération.</span><span class="sxs-lookup"><span data-stu-id="09f86-159">System cannot allocate memory to complete the operation.</span></span><br/>                      |
+| <span data-ttu-id="09f86-160">E \_ échec</span><span class="sxs-lookup"><span data-stu-id="09f86-160">E\_FAIL</span></span><br/>                              | <span data-ttu-id="09f86-161">Une erreur non spécifiée s’est produite.</span><span class="sxs-lookup"><span data-stu-id="09f86-161">Unspecified failure occurred.</span></span><br/>                                                 |
+| <span data-ttu-id="09f86-162">E \_ INVALIDOPERATION</span><span class="sxs-lookup"><span data-stu-id="09f86-162">E\_INVALIDOPERATION</span></span><br/>                  | <span data-ttu-id="09f86-163">Le membre a tenté d’utiliser une opération non valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-163">Member attempted to use an invalid operation.</span></span><br/>                                 |
+| <span data-ttu-id="09f86-164">TPC \_ E \_ mode non valide \_</span><span class="sxs-lookup"><span data-stu-id="09f86-164">TPC\_E\_INVALID\_MODE</span></span><br/>                | <span data-ttu-id="09f86-165">Le membre a tenté d’utiliser un mode non valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-165">Member attempted to use an invalid mode.</span></span><br/>                                      |
+| <span data-ttu-id="09f86-166">\_configuration TPC E \_ non valide \_</span><span class="sxs-lookup"><span data-stu-id="09f86-166">TPC\_E\_INVALID\_CONFIGURATION</span></span><br/>       | <span data-ttu-id="09f86-167">Le membre a tenté d’utiliser une configuration non valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-167">Member attempted to use an invalid configuration.</span></span><br/>                             |
+| <span data-ttu-id="09f86-168">\_Description du paquet TPC E \_ non valide \_ \_</span><span class="sxs-lookup"><span data-stu-id="09f86-168">TPC\_E\_INVALID\_PACKET\_DESCRIPTION</span></span><br/> | <span data-ttu-id="09f86-169">Le membre a tenté d’utiliser une description de paquet non valide.</span><span class="sxs-lookup"><span data-stu-id="09f86-169">Member attempted to use an invalid packet description.</span></span><br/>                        |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="09f86-170">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="09f86-170">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="09f86-171">Référence de l’analyse de l’encre</span><span class="sxs-lookup"><span data-stu-id="09f86-171">Ink Analysis Reference</span></span>](ink-analysis-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
