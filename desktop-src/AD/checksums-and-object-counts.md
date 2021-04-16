@@ -1,0 +1,34 @@
+---
+title: Sommes de contrôle et nombre d’objets
+description: Les sommes de contrôle et le nombre d’objets sont des stratégies de détection qui permettent à une application de détecter un état de mise à jour partielle.
+ms.assetid: 14829a74-c186-4250-beac-036c5ecc5913
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bc643ec7cd896a7c73df0be5738887a330392140
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "104461963"
+---
+# <a name="checksums-and-object-counts"></a><span data-ttu-id="0c470-103">Sommes de contrôle et nombre d’objets</span><span class="sxs-lookup"><span data-stu-id="0c470-103">Checksums and Object Counts</span></span>
+
+<span data-ttu-id="0c470-104">Les sommes de contrôle et le nombre d’objets sont des stratégies de détection qui permettent à une application de détecter un état de mise à jour partielle.</span><span class="sxs-lookup"><span data-stu-id="0c470-104">Checksums and object counts are detection strategies that allow an application to detect a partial update state.</span></span> <span data-ttu-id="0c470-105">Les sommes de contrôle peuvent également être utilisées pour détecter les incohérences introduites par la résolution des collisions.</span><span class="sxs-lookup"><span data-stu-id="0c470-105">Checksums can also be used to detect inconsistencies introduced by collision resolution.</span></span> <span data-ttu-id="0c470-106">Les sommes de contrôle et les nombres d’objets nécessitent un emplacement pour stocker la valeur utilisée pour vérifier un total de contrôle ou un nombre d’objets.</span><span class="sxs-lookup"><span data-stu-id="0c470-106">Both checksums and object counts require a place to store the value used for verifying a checksum or object count.</span></span> <span data-ttu-id="0c470-107">Il peut s’agir d’un objet « maître » choisi parmi ceux qui sont impliqués dans la relation spécifique à l’application ou sur un objet parent sous lequel les objets connexes sont stockés.</span><span class="sxs-lookup"><span data-stu-id="0c470-107">This can be on a "master" object chosen from among those involved in the application-specific relationship or on a parent object under which the related objects are stored.</span></span>
+
+<span data-ttu-id="0c470-108">Pour les sommes de contrôle, les applications qui lisent les objets connexes vérifient la somme de contrôle en calculant un résultat local et en le comparant à la valeur stockée.</span><span class="sxs-lookup"><span data-stu-id="0c470-108">For checksums, applications reading the related objects verify the checksum by calculating a local result and comparing it with the stored value.</span></span> <span data-ttu-id="0c470-109">Si les valeurs ne correspondent pas, le réplica est dans un état de mise à jour partielle et les objets ne peuvent pas être utilisés.</span><span class="sxs-lookup"><span data-stu-id="0c470-109">If the values do not match, the replica is in a partial update state and the objects cannot be used.</span></span>
+
+<span data-ttu-id="0c470-110">Pour le nombre d’objets, les applications dénombrent les objets connexes (généralement les enfants d’un seul parent) et comparent le nombre à la valeur stockée.</span><span class="sxs-lookup"><span data-stu-id="0c470-110">For object counts, applications count the related objects (typically children of a single parent) and compare the count with the stored value.</span></span> <span data-ttu-id="0c470-111">Si les nombres ne correspondent pas, le réplica est dans un état de mise à jour partielle et les objets ne peuvent pas être utilisés.</span><span class="sxs-lookup"><span data-stu-id="0c470-111">If the counts do not match, the replica is in a partial update state and the objects cannot be used.</span></span>
+
+<span data-ttu-id="0c470-112">Quelques points importants à prendre en compte :</span><span class="sxs-lookup"><span data-stu-id="0c470-112">Some important considerations:</span></span>
+
+-   <span data-ttu-id="0c470-113">Pour que l’approche checksum fonctionne, vous devez mettre à jour un ou plusieurs attributs utilisés dans le calcul de la somme de contrôle.</span><span class="sxs-lookup"><span data-stu-id="0c470-113">For the checksum approach to work, the one or more attributes used in computing the checksum must be updated.</span></span> <span data-ttu-id="0c470-114">L’algorithme utilisé pour calculer la somme de contrôle doit refléter de manière fiable les différences d’entrée.</span><span class="sxs-lookup"><span data-stu-id="0c470-114">The algorithm used to compute the checksum must reliably reflect differences in input.</span></span> <span data-ttu-id="0c470-115">Si de nombreuses entrées différentes produit le même Checksum, l’algorithme ne détecte pas de manière fiable les mises à jour partielles.</span><span class="sxs-lookup"><span data-stu-id="0c470-115">If many different inputs product the same checksum, the algorithm will not reliably detect partial updates.</span></span> <span data-ttu-id="0c470-116">« Salage » l’entrée avec des valeurs telles que l' **objectGUID** de l’ordinateur source et la date et l’heure de la mise à jour sont également utiles.</span><span class="sxs-lookup"><span data-stu-id="0c470-116">"Salting" the input with values like the **objectGUID** of the source computer and the date and time of the update is also helpful.</span></span>
+-   <span data-ttu-id="0c470-117">Le nombre d’objets fonctionne mieux lorsqu’il est utilisé avec de nouveaux ensembles d’objets ou en combinaison avec des GUID de cohérence (pour plus d’informations, consultez la section suivante).</span><span class="sxs-lookup"><span data-stu-id="0c470-117">Object counts work best when used with new sets of objects, or in combination with consistency GUIDs (see the next section for more information).</span></span> <span data-ttu-id="0c470-118">L’application effectuant la mise à jour doit soit savoir, à l’avance, le nombre d’objets qui se trouveront dans le conteneur lorsque la mise à jour est terminée, soit utiliser d’autres moyens pour marquer le conteneur comme étant non valide pendant la mise à jour (par exemple, en définissant le nombre à zéro).</span><span class="sxs-lookup"><span data-stu-id="0c470-118">The application performing the update must either know, in advance, the number of objects that will be in the container when the update is completed or use some other means of marking the container invalid while the update proceeds (for example, setting the count to zero).</span></span> <span data-ttu-id="0c470-119">À la fin de la mise à jour, l’application source marque le conteneur avec le nombre d’objets contenus.</span><span class="sxs-lookup"><span data-stu-id="0c470-119">After completing the update the source application marks the container with the count of objects contained.</span></span>
+
+ 
+
+ 
+
+
+
+
