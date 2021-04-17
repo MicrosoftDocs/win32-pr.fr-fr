@@ -530,7 +530,7 @@
                       href: usecustompalette-dialog-style-bit.md
                     - name: Bit de style de boîte de dialogue visible
                       href: visible-dialog-style-bit.md
-                - name: Contrôles
+                - name: Commandes
                   href: controls.md
                   items:
                     - name: Contrôle de tableau blanc
@@ -1517,7 +1517,7 @@
                   href: windowsvolume.md
             - name: Valeurs de propriété du système d’exploitation
               href: operating-system-property-values.md
-            - name: Désinstaller la clé de Registre
+            - name: Propriétés de la clé de Registre Uninstall
               href: uninstall-registry-key.md
         - name: Flux d’informations de synthèse
           href: summary-information-stream.md
@@ -2578,7 +2578,7 @@
                       href: componentinfo-path.md
                     - name: Propriété State
                       href: componentinfo-state.md
-                - name: Components
+                - name: Composants
                   href: components.md
                   items:
                     - name: Propriété ComponentCode
@@ -3411,7 +3411,7 @@
                           href: filename.md
                         - name: WildCardFilename
                           href: wildcardfilename.md
-                        - name: Path
+                        - name: Chemin d’accès
                           href: path.md
                         - name: Chemins
                           href: paths.md
