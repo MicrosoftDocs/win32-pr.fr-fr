@@ -1,0 +1,91 @@
+---
+title: Méthode WSMan. SessionFlagUseNoAuthentication (WSManDisp. h)
+description: Retourne la valeur de l’indicateur d’authentification WSManFlagUseNoAuthentication à utiliser dans le paramètre flags de la méthode WSMan. CreateSession.
+ms.assetid: 22a8107a-8e5e-4636-bf7d-a261f885e074
+ms.tgt_platform: multiple
+keywords:
+- Windows Remote Management de la méthode SessionFlagUseNoAuthentication
+- Méthode SessionFlagUseNoAuthentication Windows Remote Management, objet WSMan
+- Objet WSMan Windows Remote Management, méthode SessionFlagUseNoAuthentication
+topic_type:
+- apiref
+api_name:
+- WSMan.SessionFlagUseNoAuthentication
+api_location:
+- WSMAuto.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 6b9676d3baa9a18ae8a3feb5eb4092c63586a94b
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "104466682"
+---
+# <a name="wsmansessionflagusenoauthentication-method"></a>Méthode WSMan. SessionFlagUseNoAuthentication
+
+La méthode **WSMan. SessionFlagUseNoAuthentication** retourne la valeur de l’indicateur d’authentification **WSManFlagUseNoAuthentication** à utiliser dans le paramètre *Flags* de la méthode [**WSMan. CreateSession**](wsman-createsession.md) . Cette méthode fournit une syntaxe plus efficace pour l’utilisation de la constante afin que les scripts ne soient pas requis pour définir une valeur de constante. Pour plus d’informations sur l’appel de cette méthode, consultez [sessions, constantes](session-constants.md).
+
+**WSManFlagUseNoAuthentication** est une constante dans l’énumération **\_ \_ WSManSessionFlags** . Pour plus d’informations, consultez//[constantes d’authentification](authentication-constants.md).
+
+## <a name="syntax"></a>Syntaxe
+
+
+```VB
+WSMan.SessionFlagUseNoAuthentication( _
+  ByRef flags _
+)
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*indicateurs* \[ à\]
+</dt> <dd>
+
+Valeur de la constante.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows Vista<br/>                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                           |
+| En-tête<br/>                   | <dl> <dt>WSManDisp. h</dt> </dl>   |
+| MIDL<br/>                      | <dl> <dt>WSManDisp. idl</dt> </dl> |
+| Bibliothèque<br/>                  | <dl> <dt>WSManDisp. tlb</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**WSMan**](wsman.md)
+</dt> <dt>
+
+[**session**](session.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
