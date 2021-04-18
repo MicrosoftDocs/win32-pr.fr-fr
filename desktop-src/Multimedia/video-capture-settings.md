@@ -1,0 +1,40 @@
+---
+title: Paramètres de capture vidéo
+description: Paramètres de capture vidéo
+ms.assetid: f5c887ca-9430-4221-8748-5b389247b7a4
+keywords:
+- CAPTUREPARMS, structure
+- Message WM_CAP_GET_SEQUENCE_SETUP
+- capCaptureGetSetup macro)
+- Message WM_CAP_SET_SEQUENCE_SETUP
+- capCaptureSetSetup macro)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 990868502226a5c76867261d06e0dd538e165f93
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "106512025"
+---
+# <a name="video-capture-settings"></a>Paramètres de capture vidéo
+
+La structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) contient les paramètres de contrôle pour la capture vidéo en continu. Cette structure contrôle plusieurs aspects du processus de capture et vous permet d’effectuer les tâches suivantes :
+
+-   Spécifiez la fréquence d’images.
+-   Spécifiez le nombre de mémoires tampons vidéo allouées.
+-   Désactivez et activez la capture audio.
+-   Spécifiez l’intervalle de temps pour la capture.
+-   Spécifiez si un périphérique MCI (VCR ou videodisc) est utilisé lors de la capture.
+-   Spécifiez le contrôle du clavier ou de la souris pour terminer la diffusion en continu.
+-   Spécifiez le type de moyenne vidéo appliqué pendant la capture.
+
+Vous pouvez récupérer les paramètres de capture actuels dans la structure [**CAPTUREPARMS**](/windows/win32/api/vfw/ns-vfw-captureparms) en envoyant le message [**\_ \_ \_ \_ d’installation de la séquence WM**](wm-cap-get-sequence-setup.md) (ou la macro [**capCaptureGetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturegetsetup) ) à une fenêtre de capture. Vous pouvez définir un ou plusieurs paramètres de capture actuels en mettant à jour les membres appropriés de la structure **CAPTUREPARMS** , puis en envoyant le message [**\_ \_ \_ \_ d’installation de la séquence de l’ensemble WM Cap**](wm-cap-set-sequence-setup.md) (ou la macro [**capCaptureSetSetup**](/windows/desktop/api/Vfw/nf-vfw-capcapturesetsetup) ) et **CAPTUREPARMS** à une fenêtre de capture.
+
+ 
+
+ 
+
+
+
+
