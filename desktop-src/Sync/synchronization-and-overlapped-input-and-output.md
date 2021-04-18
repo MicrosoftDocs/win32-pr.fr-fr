@@ -1,0 +1,54 @@
+---
+description: Vous pouvez effectuer des opérations d’e/s synchrones ou asynchrones (également appelées « superposées ») sur des fichiers, des canaux nommés et des appareils de communication série.
+ms.assetid: db44990e-5a0f-4153-8ff6-79dd7cda48af
+title: Synchronisation et entrée et sortie avec chevauchement
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: e263bb39badc7cbfadd67d80eb169dc1fe6d6c35
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106526257"
+---
+# <a name="synchronization-and-overlapped-input-and-output"></a>Synchronisation et entrée et sortie avec chevauchement
+
+Vous pouvez effectuer des opérations d’e/s synchrones ou asynchrones (également appelées « superposées ») sur des fichiers, des canaux nommés et des appareils de communication série. Les fonctions [**WriteFile**](/windows/win32/api/fileapi/nf-fileapi-writefile), [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile), [**DeviceIoControl**](/windows/win32/api/ioapiset/nf-ioapiset-deviceiocontrol), [**WaitCommEvent**](/windows/win32/api/winbase/nf-winbase-waitcommevent), [**ConnectNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-connectnamedpipe)et [**TransactNamedPipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-transactnamedpipe) peuvent être exécutées de façon synchrone ou asynchrone. Les fonctions [**ReadFileEx**](/windows/win32/api/fileapi/nf-fileapi-readfileex) et [**WriteFileEx**](/windows/win32/api/fileapi/nf-fileapi-writefileex) peuvent être exécutées uniquement de façon asynchrone.
+
+Lorsqu’une fonction est exécutée de façon synchrone, elle n’est pas retournée tant que l’opération n’est pas terminée. Cela signifie que l’exécution du thread appelant peut être bloquée pendant une période indéterminée pendant qu’elle attend la fin d’une opération longue. Les fonctions appelées pour une opération avec chevauchement peuvent être retournées immédiatement, même si l’opération n’a pas été effectuée. Cela permet l’exécution d’une opération d’e/s qui prend du temps en arrière-plan pendant que le thread appelant est libre d’effectuer d’autres tâches. Par exemple, un thread unique peut effectuer des opérations d’e/s simultanées sur des handles différents ou même des opérations de lecture et d’écriture simultanées sur le même handle.
+
+Pour synchroniser son exécution avec la fin de l’opération Overlapped, le thread appelant utilise la fonction [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) , la fonction [**GetOverlappedResultEx**](/windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex) ou l’une des [fonctions Wait](wait-functions.md) pour déterminer à quel moment l’opération Overlapped est terminée. Vous pouvez également utiliser la macro [**HasOverlappedIoCompleted**](/windows/desktop/api/WinBase/nf-winbase-hasoverlappediocompleted) pour interroger l’achèvement.
+
+Pour annuler toutes les opérations d’e/s asynchrones en attente, utilisez la fonction [**CancelIoEx**](/windows/win32/api/ioapiset/nf-ioapiset-cancelioex) et fournissez une structure [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) qui spécifie la demande d’annulation. Utilisez la fonction [**CancelIo**](/windows/win32/api/ioapiset/nf-ioapiset-cancelio) pour annuler les opérations d’e/s asynchrones en attente émises par le thread appelant pour le handle de fichier spécifié.
+
+Les opérations avec chevauchement requièrent un fichier, un canal nommé ou un appareil de communication qui a été créé avec l’indicateur **fichier \_ indicateur de \_ chevauchement** . Quand un thread appelle une fonction (telle que la fonction [**ReadFile**](/windows/win32/api/fileapi/nf-fileapi-readfile) ) pour effectuer une opération avec chevauchement, le thread appelant doit spécifier un pointeur vers une structure [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . (Si ce pointeur est **null**, la valeur de retour de la fonction peut indiquer de manière incorrecte que l’opération est terminée.) Tous les membres de la structure **OVERLAPPED** doivent être initialisés à zéro, sauf si un événement est utilisé pour signaler la fin d’une opération d’e/s. Si un événement est utilisé, le membre **hEvent** de la structure **OVERLAPPED** spécifie un handle vers l’objet d’événement alloué. Le système définit l’état de l’objet d’événement comme étant non signalé lorsqu’un appel à la fonction d’e/s retourne une valeur avant que l’opération ne soit terminée. Le système définit l’état de l’objet d’événement comme étant signalé lorsque l’opération est terminée. Un événement est nécessaire uniquement s’il y a plus d’une opération d’e/s en suspens en même temps. Si un événement n’est pas utilisé, chaque opération d’e/s terminée signale le fichier, le canal nommé ou l’appareil de communication.
+
+Lorsqu’une fonction est appelée pour effectuer une opération avec chevauchement, l’opération peut être effectuée avant le retour de la fonction. Dans ce cas, les résultats sont traités comme si l’opération avait été exécutée de façon synchrone. Toutefois, si l’opération n’a pas été effectuée, la valeur de retour de la fonction est **false** et la fonction [**GetLastError**](/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) retourne les **\_ e/s d’erreur \_ en attente**.
+
+Un thread peut gérer des opérations superposées à l’aide de l’une des deux méthodes suivantes :
+
+-   Utilisez la fonction [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) ou [**GetOverlappedResultEx**](/windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex) pour attendre la fin de l’opération avec chevauchement. Si **GetOverlappedResultEx** est utilisé, le thread appelant peut spécifier un délai d’attente pour l’opération Overlapped ou exécuter une attente alertable.
+-   Spécifiez un handle pour l’objet d’événement de réinitialisation manuelle de la structure [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) dans l’une des [fonctions Wait](wait-functions.md) , puis, après le retour de la fonction Wait, appelez [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) ou [**GetOverlappedResultEx**](/windows/desktop/api/Ioapiset/nf-ioapiset-getoverlappedresultex). La fonction retourne les résultats de l’opération Overlapped terminée et, pour les fonctions dans lesquelles ces informations sont appropriées, elle signale le nombre réel d’octets qui ont été transférés.
+
+Lors de l’exécution de plusieurs opérations simultanées avec chevauchement sur un seul thread, le thread appelant doit spécifier une structure [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) pour chaque opération. Chaque structure **OVERLAPPED** doit spécifier un handle vers un objet d’événement de réinitialisation manuelle différent. Pour attendre la fin de l’une des opérations avec chevauchement, le thread spécifie tous les descripteurs d’événement de réinitialisation manuelle comme critères d’attente dans l’une des [fonctions d’attente](wait-functions.md)à plusieurs objets. La valeur de retour de la fonction d’attente d’objets multiples indique l’objet d’événement de réinitialisation manuelle qui a été signalé, de sorte que le thread peut déterminer quelle opération avec chevauchement a provoqué l’exécution de l’opération d’attente.
+
+Il est plus sûr d’utiliser un objet d’événement distinct pour chaque opération avec chevauchement, au lieu de ne pas spécifier d’objet d’événement ou de réutiliser le même objet d’événement pour plusieurs opérations. Si aucun objet d’événement n’est spécifié dans la structure [**OVERLAPPED**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) , le système signale l’état du fichier, du canal nommé ou du périphérique de communication lorsque l’opération Overlapped est terminée. Ainsi, vous pouvez spécifier ces handles en tant qu’objets de synchronisation dans une fonction Wait, bien que leur utilisation à cet effet puisse être difficile à gérer car, lors de l’exécution simultanée d’opérations avec chevauchement sur le même fichier, le canal nommé ou le périphérique de communication, il n’existe aucun moyen de savoir quelle opération a provoqué le signalement de l’état de l’objet.
+
+Un thread ne doit pas réutiliser un événement en partant du principe que l’événement est signalé uniquement par l’opération Overlapped de ce thread. Un événement est signalé sur le même thread que l’opération Overlapped qui se termine. L’utilisation du même événement sur plusieurs threads peut aboutir à une condition de concurrence dans laquelle l’événement est signalé correctement pour le thread dont l’opération se termine en premier et prématurément pour d’autres threads utilisant cet événement. Ensuite, lorsque l’opération Overlapped suivante est terminée, l’événement est de nouveau signalé pour tous les threads qui utilisent cet événement, et ainsi de suite jusqu’à ce que toutes les opérations avec chevauchement soient terminées.
+
+Pour obtenir des exemples qui illustrent l’utilisation d’opérations avec chevauchement, les routines de saisie semi-automatique et la fonction [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) , consultez [utilisation de canaux](../ipc/using-pipes.md).
+
+* * Windows Vista, Windows Server 2003 et Windows XP : * *
+
+Soyez vigilant lorsque vous réutilisez des structures avec [**chevauchement**](/windows/win32/api/minwinbase/ns-minwinbase-overlapped) . Si les structures avec **chevauchement** sont réutilisées sur plusieurs threads et que [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult) est appelé avec le paramètre *bWait* défini sur **true**, le thread appelant doit s’assurer que l’événement associé est signalé avant de réutiliser la structure. Pour ce faire, vous pouvez utiliser la fonction [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) après avoir appelé **GetOverlappedResult** pour forcer le thread à attendre la fin de l’opération. Notez que l’objet d’événement doit être un objet d’événement de réinitialisation manuelle. Si un objet d’événement de réinitialisation est utilisé, l’appel à **GetOverlappedResult** avec le paramètre *BWait* défini sur **true** entraîne le blocage indéfiniment de la fonction. Ce comportement a été modifié à partir de Windows 7 et de Windows Server 2008 R2 pour les applications qui spécifient Windows 7 comme système d’exploitation pris en charge dans le manifeste de l’application. Pour plus d’informations, consultez [manifestes d’application](/previous-versions/windows/desktop/adrms_sdk/application-manifests).
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Concepts d’e/s](../fileio/i-o-concepts.md)
+</dt> </dl>
+
+ 
+
+ 
