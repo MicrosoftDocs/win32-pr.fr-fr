@@ -1,0 +1,103 @@
+---
+title: Méthode MediaCollection. getByAttributeAndMediaType
+description: La méthode getByAttributeAndMediaType récupère un objet de sélection contenant des objets multimédias avec l’attribut et le type de média spécifiés.
+ms.assetid: 75241b38-ae0e-4216-b405-af9a9c71f5ec
+keywords:
+- méthode getByAttributeAndMediaType lecteur Windows Media
+- méthode getByAttributeAndMediaType lecteur Windows Media, classe MediaCollection
+- Classe MediaCollection lecteur Windows Media, méthode getByAttributeAndMediaType
+topic_type:
+- apiref
+api_name:
+- MediaCollection.getByAttributeAndMediaType
+api_location:
+- wmp.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 7e26abbf2f19d50ec6a10ebbafe12afae8576f34
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106528906"
+---
+# <a name="mediacollectiongetbyattributeandmediatype-method"></a>Méthode MediaCollection. getByAttributeAndMediaType
+
+La méthode **getByAttributeAndMediaType** récupère un objet de **sélection** contenant des objets **multimédias** avec l’attribut et le type de média spécifiés.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```JScript
+retVal = MediaCollection.getByAttributeAndMediaType(
+  attribute,
+  value,
+  mediaType
+)
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*attribut* \[ dans\]
+</dt> <dd>
+
+**Chaîne** contenant l’attribut.
+
+</dd> <dt>
+
+*valeur* \[ dans\]
+</dt> <dd>
+
+**Chaîne** contenant la valeur.
+
+</dd> <dt>
+
+*MediaType* \[ dans\]
+</dt> <dd>
+
+**Chaîne** contenant le type de média. Doit contenir l’une des valeurs suivantes : « audio », « Video », « photo », « playlist » ou « other ».
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Cette méthode retourne un objet **playlist**
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|------------------------------------------------------------------------------------|
+| Version<br/> | Lecteur Windows Media 11.<br/>                                                |
+| DLL<br/>     | <dl> <dt>Wmp.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**Référence d’attribut**](attribute-reference.md)
+</dt> <dt>
+
+[**Objet MediaCollection**](mediacollection-object.md)
+</dt> <dt>
+
+[**Objet playlist**](playlist-object.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
