@@ -1,0 +1,108 @@
+---
+description: Méthode de constructeur.
+ms.assetid: f0d30125-5d16-470c-a5fb-a7df96814dad
+title: Constructeur CTransInPlaceFilter. CTransInPlaceFilter (Transip. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CTransInPlaceFilter.CTransInPlaceFilter
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 091ea6e6a52d4cc9221ddb29db34b4823111a395
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106526458"
+---
+# <a name="ctransinplacefilterctransinplacefilter-constructor"></a>Constructeur CTransInPlaceFilter. CTransInPlaceFilter
+
+Méthode de constructeur.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+CTransInPlaceFilter(
+   TCHAR     *pObjectName,
+   LPUNKNOWN lpUnk,
+   REFCLSID  clsid,
+   HRESULT   *phr,
+   bool      bModifiesData = TRUE
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*pObjectName* 
+</dt> <dd>
+
+Chaîne contenant le nom de débogage du filtre. Pour plus d’informations, consultez [**CBaseObject**](cbaseobject.md).
+
+</dd> <dt>
+
+*lpUnk* 
+</dt> <dd>
+
+Pointeur vers le propriétaire de cet objet. Si l’objet est agrégé, passer un pointeur vers l’interface **IUnknown** de l’objet d’agrégation. Sinon, affectez la valeur **null** à ce paramètre.
+
+</dd> <dt>
+
+*identificateur* 
+</dt> <dd>
+
+Identificateur de classe du filtre.
+
+</dd> <dt>
+
+*phr* 
+</dt> <dd>
+
+Ignoré.
+
+</dd> <dt>
+
+*bModifiesData* 
+</dt> <dd>
+
+Valeur booléenne qui spécifie si le filtre modifie les données d’entrée. Si la **valeur est true**, le filtre modifie les données. Dans le cas contraire, le filtre passe les données en aval inchangées.
+
+</dd> </dl>
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**CTransInPlaceFilter, classe**](ctransinplacefilter.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
