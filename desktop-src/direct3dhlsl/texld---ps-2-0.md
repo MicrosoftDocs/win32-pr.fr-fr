@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b71990e230290403bca2a5af11eeca11b093402f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 47f47a937123ce252189aac57e922b10c2a015fc
+ms.sourcegitcommit: 8737f32d64e5f01c1d38aab92736e4088d6c446e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507981"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106540738"
 ---
 # <a name="texld---ps_2_0-and-up"></a>texld-PS \_ 2 \_ 0 et haut
 
@@ -29,7 +29,7 @@ ms.locfileid: "104507981"
 
 
 
- 
+ 
 
 Où :
 
@@ -54,7 +54,7 @@ Une instruction de texture dépendante d’une seconde commande est définie com
 
 ### <a name="ps_3_0"></a>PS \_ 3 \_ 0
 
-src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) , sans \# modificateur. Swizzle est autorisé sur src0 ou src1. Swizzle est appliqué à la texture coordintates avant la recherche de texture.
+src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) , sans \# modificateur. Swizzle est autorisé sur src0 ou src1. Le Swizzle est appliqué aux coordonnées de texture avant la recherche de texture.
 
 ## <a name="remarks"></a>Notes
 
@@ -68,7 +68,7 @@ Cette instruction est prise en charge dans les versions suivantes :
 
 
 
- 
+ 
 
 Le nombre de coordonnées nécessaires à l’exécution de l’exemple de texture par src0 dépend de la manière dont src1 a été déclaré, plus le composant. w. Les types d’échantillonneur sont déclarés avec le [ \_ samplerType DCL (SM2, SM3-PS ASM)](dcl-samplertype---ps.md). Si src1 est déclaré en tant qu’échantillonneur 2D, src0 doit contenir des coordonnées. XY ; Si src1 est déclaré comme un échantillonneur de cube ou un échantillonneur de volume, src0 doit contenir des coordonnées. xyz. L’échantillonnage d’une texture avec moins de dimensions que celles présentes dans la coordonnée de texture est autorisé, car le ou les composants de coordonnée de texture supplémentaires sont ignorés.
 
@@ -86,7 +86,7 @@ Si la texture source contient moins de quatre composants, les valeurs par défau
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -95,6 +95,6 @@ Si la texture source contient moins de quatre composants, les valeurs par défau
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
