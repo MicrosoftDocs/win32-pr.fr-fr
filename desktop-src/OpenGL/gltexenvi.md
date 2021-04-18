@@ -1,0 +1,212 @@
+---
+title: fonction glTexEnvi (GL. h)
+description: La fonction glTexEnvi définit un paramètre d’environnement de texture.
+ms.assetid: 3f4c10c4-524c-4cce-b42b-bc72fc3b9f31
+keywords:
+- glTexEnvi fonction OpenGL
+topic_type:
+- apiref
+api_name:
+- glTexEnvi
+api_location:
+- opengl32.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: c013b0e4805042ed0967e02df83f143d8bcfd991
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "106512357"
+---
+# <a name="gltexenvi-function"></a>glTexEnvi fonction)
+
+La fonction **glTexEnvi** définit un paramètre d’environnement de texture.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+void WINAPI glTexEnvi(
+   GLenum target,
+   GLenum pname,
+   GLint  param
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*cible* 
+</dt> <dd>
+
+Environnement de texture. Doit être une \_ texture GL \_ env.
+
+</dd> <dt>
+
+*pname* 
+</dt> <dd>
+
+Nom symbolique d’un paramètre d’environnement de texture à valeur unique. Doit être le \_ mode env de la texture GL \_ \_ .
+
+</dd> <dt>
+
+*param* 
+</dt> <dd>
+
+Une constante symbolique unique, l’une des \_ modules comptabilité GL, \_ décalque GL, \_ mélange GL ou \_ remplacement GL.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur renvoyée
+
+Cette fonction ne retourne pas de valeur.
+
+## <a name="error-codes"></a>Codes d’erreur
+
+Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGetError**](glgeterror.md) .
+
+
+
+| Nom                                                                                                  | Signification                                                                                                                                                                           |
+|-------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <dl> <dt>**\_enum GL non valide \_**</dt> </dl>      | *target* ou *pname* ne faisait pas partie des valeurs définies acceptées, ou lorsque les *paramètres* devaient avoir une valeur de constante définie (basée sur la valeur de *pname*) et ne l’a pas fait.<br/> |
+| <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/>                                             |
+
+
+
+## <a name="remarks"></a>Notes
+
+Un environnement de texture spécifie la manière dont les valeurs de texture sont interprétées lorsqu’un fragment est texturé. Le paramètre *cible* doit être de la \_ texture GL \_ env. Le paramètre *pname* est le \_ mode de texture GL \_ env \_ . Trois fonctions de texture sont définies : \_ module de comptabilité GL, \_ décalque GL et fusion du GL \_ .
+
+Une fonction de texture agit sur le fragment pour être texturée à l’aide de la valeur d’image de texture qui s’applique au fragment (voir [**glTexParameter**](gltexparameter-functions.md)) et produit une couleur RVBA pour ce fragment. Le tableau suivant montre comment la couleur RVBA est produite pour chacune des trois fonctions de texture qui peuvent être choisies. *C* est une triple des valeurs de couleur (RGB) et *a* est la valeur alpha associée. Les valeurs RVBA extraites d’une image de texture sont comprises dans la plage \[ 0, 1 \] . L’indice *f* fait référence au fragment entrant, l’indice *t* à l’image de texture, l’indice *c* à la couleur de l’environnement de texture et l’indice *v* indique une valeur produite par la fonction de texture.
+
+Une image de texture peut avoir jusqu’à quatre composants par élément de texture (consultez [**glTexImage1D**](glteximage1d.md) et [**glTexImage2D**](glteximage2d.md)). Dans une image à un composant, lt indique que seul un composant. Une image à deux composants utilise *L ?*  et *un ?* . Une image à trois composants a uniquement une valeur de couleur, *C ?* . Une image à quatre composants a-t-elle une valeur de couleur *C ?*  et une valeur alpha *A ?* .
+
+
+
+<table>
+<thead>
+<tr class="header">
+<th>Nombre de composants</th>
+<th>GL_MODULATE</th>
+<th>GL_DECAL</th>
+<th>GL_BLEND</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="2">1 $ {REMOVE} $<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>L ?</em> <em>C<sub>f</sub></em></td>
+<td rowspan="2">$ {REMOVE} $ non défini<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>(1</em> - <em>L ?</em> <em>) C<sub>f</sub> </em> + <em></em> <em>C<sub>c</sub></em></td>
+</tr>
+<tr class="even">
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+
+
+</tr>
+<tr class="odd">
+<td rowspan="2">2 $ {REMOVE} $<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>L ?</em> <em>C<sub>f</sub></em></td>
+<td rowspan="2">$ {REMOVE} $ non défini<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>(1</em> - <em>L ?</em> <em>) C<sub>f</sub> </em> + <em></em> <em>C<sub>c</sub></em></td>
+</tr>
+<tr class="even">
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+
+
+</tr>
+<tr class="odd">
+<td rowspan="2">3 $ {REMOVE} $<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>C ?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub> </em>  =  <em>C ?</em></td>
+<td rowspan="2">$ {REMOVE} $ non défini<br />
+</td>
+</tr>
+<tr class="even">
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em> </td>
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+
+
+</tr>
+<tr class="odd">
+<td rowspan="2">4 $ {REMOVE} $<br />
+</td>
+<td><em>C<sub>v</sub> </em>  =  <em>C ?</em> <em>C<sub>f</sub></em></td>
+<td><em>C<sub>v</sub> </em> = (1- <em>A ?</em> <em>) C<sub>f</sub> </em> + <em>A ?</em> <em>Secteur?</em></td>
+<td rowspan="2">$ {REMOVE} $ non défini<br />
+</td>
+</tr>
+<tr class="even">
+<td><em>Un<sub>v</sub> </em>  =  <em>R ?</em> <em>Un<sub>f</sub></em> </td>
+<td><em>Un<sub>v</sub> </em>  =  <em>Un<sub>f</sub> </em></td>
+
+
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+Le \_ mode de la texture GL \_ env \_ est défini par défaut sur le module comptabilité GL \_ .
+
+La fonction suivante récupère des informations relatives à **glTexEnvi**:
+
+[**glTexGetEnviv**](glgettexenviv.md)
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
+| En-tête<br/>                   | <dl> <dt>GL. h</dt> </dl>         |
+| Bibliothèque<br/>                  | <dl> <dt>Opengl32. lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**glBegin**](glbegin.md)
+</dt> <dt>
+
+[**glEnd**](glend.md)
+</dt> <dt>
+
+[**glTexImage1D**](glteximage1d.md)
+</dt> <dt>
+
+[**glTexImage2D**](glteximage2d.md)
+</dt> <dt>
+
+[**glTexParameter**](gltexparameter-functions.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

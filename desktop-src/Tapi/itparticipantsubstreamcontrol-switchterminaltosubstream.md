@@ -1,0 +1,98 @@
+---
+description: La méthode SwitchTerminalToSubStream définit un terminal sur le sous-flux du participant.
+ms.assetid: 39e1d4b9-2e39-4b36-9a6a-89e41cd59153
+title: 'ITParticipantSubStreamControl :: SwitchTerminalToSubStream, méthode (Confpriv. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 00f10401b2cf1598c76537ebd3a7049d67bf0657
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106540098"
+---
+# <a name="itparticipantsubstreamcontrolswitchterminaltosubstream-method"></a>ITParticipantSubStreamControl :: SwitchTerminalToSubStream, méthode
+
+\[**SwitchTerminalToSubStream** n’est pas disponible pour une utilisation dans Windows Vista, windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+
+La méthode **SwitchTerminalToSubStream** définit un terminal sur le sous-flux du participant.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT SwitchTerminalToSubStream(
+  [in] ITTerminal  *pITTerminal,
+  [in] ITSubStream *pITSubStream
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*pITTerminal* \[ dans\]
+</dt> <dd>
+
+Pointeur vers l’interface [**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal) .
+
+</dd> <dt>
+
+*pITSubStream* \[ dans\]
+</dt> <dd>
+
+Pointeur vers l’interface [**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream) .
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Cette méthode peut retourner l’une de ces valeurs.
+
+
+
+| Code de retour                                                                                     | Description                                                                                        |
+|-------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+| <dl> <dt>**\_OK**</dt> </dl>            | La méthode a réussi.<br/>                                                                       |
+| <dl> <dt>**E \_ inattendu**</dt> </dl>    | Impossible d’accéder aux informations sur le participant pour le flux.<br/>                           |
+| <dl> <dt>**E \_ INVALIDARG**</dt> </dl>    | Le paramètre *pParticipant* ou *pITSubStream* ne pointe pas vers une interface valide.<br/> |
+| <dl> <dt>**\_NOitems TAPI E \_**</dt> </dl> | Le sous-flux n’est pas prêt.<br/>                                                             |
+| <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>   | La mémoire disponible est insuffisante pour effectuer l’opération.<br/>                                    |
+
+
+
+ 
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------|---------------------------------------------------------------------------------------|
+| Version TAPI<br/> | Nécessite TAPI 3,0 ou une version ultérieure<br/>                                                 |
+| En-tête<br/>       | <dl> <dt>Confpriv. h</dt> </dl> |
+| Bibliothèque<br/>      | <dl> <dt>UUID. lib</dt> </dl>   |
+| DLL<br/>          | <dl> <dt>Tapi3.dll</dt> </dl>  |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**ITParticipantSubStreamControl**](itparticipantsubstreamcontrol.md)
+</dt> <dt>
+
+[**ITParticipant**](itparticipant.md)
+</dt> <dt>
+
+[**ITSubStream**](/windows/win32/api/tapi3if/nn-tapi3if-itsubstream)
+</dt> <dt>
+
+[**ITTerminal**](/windows/win32/api/tapi3if/nn-tapi3if-itterminal)
+</dt> </dl>
+
+ 
+
