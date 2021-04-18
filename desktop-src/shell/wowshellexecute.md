@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 841c30be827ddabc40bd8af50423c844ce927e6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae50ad570211303cdfb7aa8e86908593ab48537d
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524428"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106533529"
 ---
 # <a name="wowshellexecute-function"></a>WOWShellExecute fonction)
 
@@ -165,148 +165,16 @@ Pointeur vers une chaîne se terminant par un caractère **null** qui spécifie 
 
 Type : **int**
 
-Indicateurs qui spécifient comment une application doit être affichée lorsqu’elle est ouverte. Si *lpFile* spécifie un fichier de document, l’indicateur est simplement passé à l’application associée. C’est à l’application de décider comment la gérer.
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**\_masquage logiciel**
-
-
-</dt> <dd>
-
-Masque la fenêtre et active une autre fenêtre.
+Indicateurs qui spécifient comment une application doit être affichée lorsqu’elle est ouverte. Si *lpFile* spécifie un fichier de document, l’indicateur est simplement passé à l’application associée. C’est à l’application de décider comment la gérer. Il peut s’agir de l’une des valeurs qui peuvent être spécifiées dans le paramètre *nCmdShow* pour la fonction [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow) .
 
 </dd> <dt>
-
-<span id="SW_MAXIMIZE"></span><span id="sw_maximize"></span>
-
-<span id="SW_MAXIMIZE"></span><span id="sw_maximize"></span>**\_optimisation logicielle**
-
-
-</dt> <dd>
-
-Agrandit la fenêtre spécifiée.
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**\_réduction logicielle**
-
-
-</dt> <dd>
-
-Réduit la fenêtre spécifiée et active la fenêtre de niveau supérieur suivante dans l’ordre de plan.
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**\_restauration logicielle**
-
-
-</dt> <dd>
-
-Active et affiche la fenêtre. Si la fenêtre est réduite ou agrandie, Windows la restaure à sa taille et à sa position d’origine. Une application doit spécifier cet indicateur lors de la restauration d’une fenêtre réduite.
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**\_affichage logiciel**
-
-
-</dt> <dd>
-
-Active la fenêtre et l’affiche à sa taille et à sa position actuelles.
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**\_SHOWDEFAULT SW**
-
-
-</dt> <dd>
-
-Définit l’état d’affichage basé sur l' \_ indicateur SW spécifié dans la structure [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) transmise à la fonction [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) par le programme qui a démarré l’application. Une application doit appeler [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) avec cet indicateur pour définir l’état d’affichage initial de sa fenêtre principale.
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**\_SHOWMAXIMIZED SW**
-
-
-</dt> <dd>
-
-Active la fenêtre et l’affiche sous la forme d’une fenêtre agrandie.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**\_SHOWMINIMIZED SW**
-
-
-</dt> <dd>
-
-Active la fenêtre et l’affiche sous forme de fenêtre réduite.
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**\_SHOWMINNOACTIVE SW**
-
-
-</dt> <dd>
-
-Affiche la fenêtre sous la forme d’une fenêtre réduite. La fenêtre active reste active.
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW \_ présenté**
-
-
-</dt> <dd>
-
-Affiche la fenêtre dans son état actuel. La fenêtre active reste active.
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**\_SHOWNOACTIVATE SW**
-
-
-</dt> <dd>
-
-Affiche une fenêtre à sa taille et à sa position les plus récentes. La fenêtre active reste active.
-
-</dd> <dt>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>**\_SHOWNORMAL SW**
-
-
-</dt> <dd>
-
-Active et affiche une fenêtre. Si la fenêtre est réduite ou agrandie, Windows la restaure à sa taille et à sa position d’origine. Une application doit spécifier cet indicateur lors de l’affichage de la fenêtre pour la première fois.
-
-</dd> </dl> </dd> <dt>
 
 *lpfnCBWinExec* 
 </dt> <dd>
 
-Type : **void \** _
+Type : **void \***
 
-Fonction de rappel utilisée pour appeler [_ *CreateProcess* *](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) dans le noyau 16 bits.
+Fonction de rappel utilisée pour appeler [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) dans le noyau 16 bits.
 
 </dd> </dl>
 
@@ -355,7 +223,7 @@ Pour obtenir des informations sur l’application qui est lancée suite à l’a
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
