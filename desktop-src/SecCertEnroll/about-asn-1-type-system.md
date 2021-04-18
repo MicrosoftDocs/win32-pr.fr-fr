@@ -1,0 +1,132 @@
+---
+description: Le concept de type de données est fondamental pour la norme ASN. 1 (Abstract Syntax Notation One).
+ms.assetid: 85e88e0b-057b-42c7-a3c8-017a30195d1e
+title: Système de type ASN. 1
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: abbf60bf61e32c5fca882f2e40c946c043ef93e3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106523056"
+---
+# <a name="asn1-type-system"></a><span data-ttu-id="160a5-103">Système de type ASN. 1</span><span class="sxs-lookup"><span data-stu-id="160a5-103">ASN.1 Type System</span></span>
+
+<span data-ttu-id="160a5-104">Le concept de type de données est fondamental pour la norme ASN. 1 (Abstract Syntax Notation One).</span><span class="sxs-lookup"><span data-stu-id="160a5-104">The concept of a data type is fundamental to the Abstract Syntax Notation One (ASN.1) standard.</span></span> <span data-ttu-id="160a5-105">Chaque champ d’une structure de demande de certificat est associé à un type.</span><span class="sxs-lookup"><span data-stu-id="160a5-105">Every field of a certificate request structure is associated with a type.</span></span> <span data-ttu-id="160a5-106">Considérons, par exemple, la \# syntaxe de certificat PKCS 10 ASN. 1 indiquée dans l’exemple suivant.</span><span class="sxs-lookup"><span data-stu-id="160a5-106">Consider, for example, the PKCS \#10 ASN.1 certificate syntax shown in the following example.</span></span>
+
+``` syntax
+--------------------------------------------------------------------
+-- PKCS #10 Certificate request.
+--------------------------------------------------------------------
+CertificationRequestInfo ::= SEQUENCE 
+{
+   version                 CertificationRequestInfoVersion,
+   subject                 Name,
+   subjectPublicKeyInfo    SubjectPublicKeyInfo,
+   attributes              [0] IMPLICIT Attributes
+}
+
+--------------------------------------------------------------------
+-- Version number.
+--------------------------------------------------------------------
+CertificationRequestInfoVersion ::= INTEGER
+
+--------------------------------------------------------------------
+-- Subject distinguished name (DN).
+--------------------------------------------------------------------
+Name ::= SEQUENCE OF RelativeDistinguishedName
+
+RelativeDistinguishedName ::= SET OF AttributeTypeValue
+
+AttributeTypeValue ::= SEQUENCE 
+{
+   type               OBJECT IDENTIFIER,
+   value              ANY 
+}
+
+--------------------------------------------------------------------
+-- Public key information.
+--------------------------------------------------------------------
+SubjectPublicKeyInfo ::= SEQUENCE 
+{
+   algorithm           AlgorithmIdentifier,
+   subjectPublicKey    BITSTRING
+}
+
+AlgorithmIdentifier ::= SEQUENCE 
+{
+  algorithm           OBJECT IDENTIFIER,
+  parameters          ANY OPTIONAL    
+} 
+
+--------------------------------------------------------------------
+-- Attributes.
+--------------------------------------------------------------------
+Attributes ::= SET OF Attribute
+
+Attribute ::= SEQUENCE 
+{
+   type               OBJECT IDENTIFIER,
+   values             AttributeSetValue
+}
+
+AttributeSetValue ::= SET OF ANY
+```
+
+<span data-ttu-id="160a5-107">La structure de requête de haut niveau, **CertificationRequestInfo**, est un type qui est constitué d’une séquence d’autres types.</span><span class="sxs-lookup"><span data-stu-id="160a5-107">The high-level request structure, **CertificationRequestInfo**, is a type that is made up from a sequence of other types.</span></span> <span data-ttu-id="160a5-108">Lorsqu’un type est ou contient uniquement des types de base, des types de chaînes ou **un de ces** types, il ne peut pas être décomposé.</span><span class="sxs-lookup"><span data-stu-id="160a5-108">When a type is or contains only basic types, string types, or **ANY**, it cannot be broken down further.</span></span> <span data-ttu-id="160a5-109">Par exemple, le champ **version** est un type **CertificationRequestInfoVersion** qui est, à son tour, un type **entier** , un type ASN. 1 de base qui n’est pas composé d’autres types.</span><span class="sxs-lookup"><span data-stu-id="160a5-109">For example, the **version** field is a **CertificationRequestInfoVersion** type which is, in turn, an **INTEGER** type, a basic ASN.1 type that is not composed from other types.</span></span>
+
+<span data-ttu-id="160a5-110">Un système de type permet à la syntaxe d’une demande d’être présentée visuellement de manière compréhensible par les développeurs, et elle permet à la requête d’être encodée de manière cohérente pour la transmission sur un réseau.</span><span class="sxs-lookup"><span data-stu-id="160a5-110">A type system enables the syntax of a request to be presented visually in a manner readily understood by developers, and it enables the request to be consistently encoded for transmission across a network.</span></span> <span data-ttu-id="160a5-111">Pour plus d’informations sur l’encodage, consultez [Distinguished Encoding Rules](distinguished-encoding-rules.md).</span><span class="sxs-lookup"><span data-stu-id="160a5-111">For more information about encoding, see [Distinguished Encoding Rules](distinguished-encoding-rules.md).</span></span> <span data-ttu-id="160a5-112">Pour plus d’informations sur les types ASN. 1, consultez les rubriques suivantes.</span><span class="sxs-lookup"><span data-stu-id="160a5-112">For more information about ASN.1 types, see the following topics.</span></span>
+
+[<span data-ttu-id="160a5-113">Types de base</span><span class="sxs-lookup"><span data-stu-id="160a5-113">Basic Types</span></span>](about-basic-types.md)
+
+<span data-ttu-id="160a5-114">Présente les types de données suivants :</span><span class="sxs-lookup"><span data-stu-id="160a5-114">Discusses the following data types:</span></span>
+
+* <span data-ttu-id="160a5-115">**CHAÎNE DE BITS**</span><span class="sxs-lookup"><span data-stu-id="160a5-115">**BIT STRING**</span></span>
+* <span data-ttu-id="160a5-116">**EXPRESSION**</span><span class="sxs-lookup"><span data-stu-id="160a5-116">**BOOLEAN**</span></span>
+* <span data-ttu-id="160a5-117">**INTEGER**</span><span class="sxs-lookup"><span data-stu-id="160a5-117">**INTEGER**</span></span>
+* <span data-ttu-id="160a5-118">**NULL**</span><span class="sxs-lookup"><span data-stu-id="160a5-118">**NULL**</span></span>
+* <span data-ttu-id="160a5-119">**IDENTIFICATEUR D’OBJET**</span><span class="sxs-lookup"><span data-stu-id="160a5-119">**OBJECT IDENTIFIER**</span></span>
+* <span data-ttu-id="160a5-120">**CHAÎNE D’OCTETS**</span><span class="sxs-lookup"><span data-stu-id="160a5-120">**OCTET STRING**</span></span>
+
+[<span data-ttu-id="160a5-121">Types chaîne</span><span class="sxs-lookup"><span data-stu-id="160a5-121">String Types</span></span>](about-string-types.md)
+
+<span data-ttu-id="160a5-122">Présente les types de chaînes suivants :</span><span class="sxs-lookup"><span data-stu-id="160a5-122">Discusses the following string types:</span></span>
+
+* <span data-ttu-id="160a5-123">**BMPString**</span><span class="sxs-lookup"><span data-stu-id="160a5-123">**BMPString**</span></span>
+* <span data-ttu-id="160a5-124">**IA5String**</span><span class="sxs-lookup"><span data-stu-id="160a5-124">**IA5String**</span></span>
+* <span data-ttu-id="160a5-125">**PrintableString**</span><span class="sxs-lookup"><span data-stu-id="160a5-125">**PrintableString**</span></span>
+* <span data-ttu-id="160a5-126">**TeletexString**</span><span class="sxs-lookup"><span data-stu-id="160a5-126">**TeletexString**</span></span>
+* <span data-ttu-id="160a5-127">**UTF8String**</span><span class="sxs-lookup"><span data-stu-id="160a5-127">**UTF8String**</span></span>
+
+[<span data-ttu-id="160a5-128">Types construits</span><span class="sxs-lookup"><span data-stu-id="160a5-128">Constructed Types</span></span>](about-constructed-types.md)
+
+<span data-ttu-id="160a5-129">Présente les types de données ASN. 1 qui peuvent contenir des types de base, des types de chaînes ou d’autres types construits.</span><span class="sxs-lookup"><span data-stu-id="160a5-129">Discusses ASN.1 data types that can contain basic types, string types, or other constructed types.</span></span>
+
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="160a5-130">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="160a5-130">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="160a5-131">Encodage de demande de certificat</span><span class="sxs-lookup"><span data-stu-id="160a5-131">Certificate Request Encoding</span></span>](about-certificate-request-encoding.md)
+</dt> <dt>
+
+[<span data-ttu-id="160a5-132">Codage DER des types ASN. 1</span><span class="sxs-lookup"><span data-stu-id="160a5-132">DER Encoding of ASN.1 Types</span></span>](about-der-encoding-of-asn-1-types.md)
+</dt> <dt>
+
+[<span data-ttu-id="160a5-133">Distinguished Encoding Rules</span><span class="sxs-lookup"><span data-stu-id="160a5-133">Distinguished Encoding Rules</span></span>](distinguished-encoding-rules.md)
+</dt> <dt>
+
+[<span data-ttu-id="160a5-134">Présentation de la syntaxe et de l’encodage ASN. 1</span><span class="sxs-lookup"><span data-stu-id="160a5-134">Introduction to ASN.1 Syntax and Encoding</span></span>](about-introduction-to-asn-1-syntax-and-encoding.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
