@@ -1,0 +1,50 @@
+---
+description: Les volumes sont implémentés par un pilote de périphérique appelé gestionnaire de volume.
+ms.assetid: 424ddbd9-5692-45ef-95fb-7b00b09e3205
+title: À propos de la gestion des volumes
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 0767d137eeecaa4ded060382b689b5ea3780dcbc
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106536204"
+---
+# <a name="about-volume-management"></a><span data-ttu-id="91cd0-103">À propos de la gestion des volumes</span><span class="sxs-lookup"><span data-stu-id="91cd0-103">About Volume Management</span></span>
+
+<span data-ttu-id="91cd0-104">Les volumes sont implémentés par un pilote de périphérique appelé gestionnaire de volume.</span><span class="sxs-lookup"><span data-stu-id="91cd0-104">Volumes are implemented by a device driver called a volume manager.</span></span> <span data-ttu-id="91cd0-105">Les exemples incluent le gestionnaire FtDisk, le gestionnaire de disque logique (LDM) et le gestionnaire de volumes logiques (LVM) VERITAS.</span><span class="sxs-lookup"><span data-stu-id="91cd0-105">Examples include the FtDisk Manager, the Logical Disk Manager (LDM), and the VERITAS Logical Volume Manager (LVM).</span></span> <span data-ttu-id="91cd0-106">Les gestionnaires de volume fournissent une couche d’abstraction physique, de protection des données (à l’aide d’une forme de RAID) et de performances.</span><span class="sxs-lookup"><span data-stu-id="91cd0-106">Volume managers provide a layer of physical abstraction, data protection (using some form of RAID), and performance.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="91cd0-107">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="91cd0-107">In this section</span></span>
+
+
+
+| <span data-ttu-id="91cd0-108">Rubrique</span><span class="sxs-lookup"><span data-stu-id="91cd0-108">Topic</span></span>                                                                       | <span data-ttu-id="91cd0-109">Description</span><span class="sxs-lookup"><span data-stu-id="91cd0-109">Description</span></span>                                                                                                                                                                                                                                                                             |
+|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="91cd0-110">Reconnaissance du système de fichiers</span><span class="sxs-lookup"><span data-stu-id="91cd0-110">File System Recognition</span></span>](file-system-recognition.md)<br/>           | <span data-ttu-id="91cd0-111">L’objectif de la reconnaissance du système de fichiers est de permettre au système d’exploitation Windows d’avoir une option supplémentaire pour un système de fichiers valide mais non reconnu autre que « RAW ».</span><span class="sxs-lookup"><span data-stu-id="91cd0-111">The goal of file system recognition is to allow the Windows operating system to have an additional option for a valid but unrecognized file system other than "RAW".</span></span><br/>                                                                                                         |
+| [<span data-ttu-id="91cd0-112">Attribution d’un nom à un volume</span><span class="sxs-lookup"><span data-stu-id="91cd0-112">Naming a Volume</span></span>](naming-a-volume.md)<br/>                           | <span data-ttu-id="91cd0-113">Une étiquette est un nom convivial qui est affecté à un volume, généralement par un utilisateur final, pour faciliter sa reconnaissance.</span><span class="sxs-lookup"><span data-stu-id="91cd0-113">A label is a user-friendly name that is assigned to a volume, usually by an end user, to make it easier to recognize.</span></span> <span data-ttu-id="91cd0-114">Un volume peut avoir une étiquette, une lettre de lecteur, les deux ou aucune des deux.</span><span class="sxs-lookup"><span data-stu-id="91cd0-114">A volume can have a label, a drive letter, both, or neither.</span></span> <span data-ttu-id="91cd0-115">Pour définir l’étiquette d’un volume, utilisez la fonction [**SetVolumeLabel**](/windows/desktop/api/WinBase/nf-winbase-setvolumelabela) .</span><span class="sxs-lookup"><span data-stu-id="91cd0-115">To set the label for a volume, use the [**SetVolumeLabel**](/windows/desktop/api/WinBase/nf-winbase-setvolumelabela) function.</span></span><br/> |
+| [<span data-ttu-id="91cd0-116">Énumération des volumes</span><span class="sxs-lookup"><span data-stu-id="91cd0-116">Enumerating Volumes</span></span>](enumerating-volumes.md)<br/>                   | <span data-ttu-id="91cd0-117">Pour obtenir une liste complète des volumes sur un ordinateur, ou pour manipuler chaque volume, vous pouvez énumérer les volumes.</span><span class="sxs-lookup"><span data-stu-id="91cd0-117">To make a complete list of the volumes on a computer, or to manipulate each volume in turn, you can enumerate volumes.</span></span><br/>                                                                                                                                                       |
+| [<span data-ttu-id="91cd0-118">Obtention d’informations sur le volume</span><span class="sxs-lookup"><span data-stu-id="91cd0-118">Obtaining Volume Information</span></span>](obtaining-volume-information.md)<br/> | <span data-ttu-id="91cd0-119">Avant d’accéder aux fichiers et aux répertoires d’un volume donné, vous devez déterminer les fonctionnalités du système de fichiers à l’aide de la fonction [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) .</span><span class="sxs-lookup"><span data-stu-id="91cd0-119">Before you access files and directories on a given volume, you should determine the capabilities of the file system by using the [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) function.</span></span><br/>                                                                              |
+| [<span data-ttu-id="91cd0-120">Journaux des modifications</span><span class="sxs-lookup"><span data-stu-id="91cd0-120">Change Journals</span></span>](change-journals.md)<br/>                           | <span data-ttu-id="91cd0-121">Quand une modification est apportée à un fichier ou à un répertoire dans un volume, le journal des modifications USN pour ce volume est mis à jour avec une description de la modification et le nom du fichier ou du répertoire.</span><span class="sxs-lookup"><span data-stu-id="91cd0-121">When any change is made to a file or directory in a volume, the USN change journal for that volume is updated with a description of the change and the name of the file or directory.</span></span><br/>                                                                                        |
+| [<span data-ttu-id="91cd0-122">Dossiers montés</span><span class="sxs-lookup"><span data-stu-id="91cd0-122">Mounted Folders</span></span>](volume-mount-points.md)<br/>                       | <span data-ttu-id="91cd0-123">À l’aide de dossiers montés, vous pouvez unifier des systèmes de fichiers disparates, tels que le système de fichiers NTFS, un système de fichiers FAT 16 bits et un système de fichiers ISO-9660 sur un lecteur de CD-ROM, dans un système de fichiers logique sur un volume NTFS unique.</span><span class="sxs-lookup"><span data-stu-id="91cd0-123">Using mounted folders, you can unify disparate file systems such as the NTFS file system, a 16-bit FAT file system, and an ISO-9660 file system on a CD-ROM drive into one logical file system on a single NTFS volume.</span></span><br/>                                                      |
+| [<span data-ttu-id="91cd0-124">Table de fichiers maîtres</span><span class="sxs-lookup"><span data-stu-id="91cd0-124">Master File Table</span></span>](master-file-table.md)<br/>                       | <span data-ttu-id="91cd0-125">Toutes les informations relatives à un fichier, y compris sa taille, son horodatage, ses autorisations et son contenu, sont stockées dans des entrées de table de fichiers maîtres (MFT) ou dans un espace en dehors de la MFT qui est décrit par les entrées MFT.</span><span class="sxs-lookup"><span data-stu-id="91cd0-125">All information about a file, including its size, time and date stamps, permissions, and data content, is stored either in master file table (MFT) entries, or in space outside the MFT that is described by MFT entries.</span></span><br/>                                                    |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="91cd0-126">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="91cd0-126">Related topics</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="91cd0-127">[Informations techniques de référence sur les disques et les volumes de base](/previous-versions/windows/it-pro/windows-server-2003/cc784732(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="91cd0-127">[Basic Disks and Volumes Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc784732(v=ws.10))</span></span>
+</dt> <dt>
+
+<span data-ttu-id="91cd0-128">[Informations techniques de référence sur les disques et les volumes dynamiques](/previous-versions/windows/it-pro/windows-server-2003/cc785638(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="91cd0-128">[Dynamic Disks and Volumes Technical Reference](/previous-versions/windows/it-pro/windows-server-2003/cc785638(v=ws.10))</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="91cd0-129">Référence sur la gestion des volumes</span><span class="sxs-lookup"><span data-stu-id="91cd0-129">Volume Management Reference</span></span>](volume-management-reference.md)
+</dt> </dl>
+
+ 
+

@@ -1,0 +1,78 @@
+---
+description: '\_ \_ fichier générique du type de contenu wpd \_ \_'
+ms.assetid: e652bebc-fb3d-48cd-af59-3ad97a79711d
+title: WPD_CONTENT_TYPE_GENERIC_FILE
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f8575eba29f5b4b92570f6ee8e39a4ad6405ebf3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106536190"
+---
+# <a name="wpd_content_type_generic_file"></a><span data-ttu-id="91d0e-103">\_ \_ fichier générique du type de contenu wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-103">WPD\_CONTENT\_TYPE\_GENERIC\_FILE</span></span>
+
+<span data-ttu-id="91d0e-104">Objet qui décrit son type en tant que \_ fichier générique de type de contenu wpd \_ \_ \_ représente un objet générique avec un fichier physique sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="91d0e-104">An object that describes its type as WPD\_CONTENT\_TYPE\_GENERIC\_FILE represents a generic object with an underlying physical file.</span></span> <span data-ttu-id="91d0e-105">La différence entre ce type et le \_ type de contenu wpd non \_ \_ spécifié est qu’un objet non spécifié est plus générique et qu’il n’est pas nécessaire d’avoir un fichier sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="91d0e-105">The difference between this type and WPD\_CONTENT\_TYPE\_UNSPECIFIED is that an UNSPECIFIED object is more generic and is not required to have an underlying file.</span></span> <span data-ttu-id="91d0e-106">Ce type d’objet peut être créé pour contenir les données d’un type non spécifié que l’appareil n’est pas censé consommer.</span><span class="sxs-lookup"><span data-stu-id="91d0e-106">This type of object might be created to hold data of an unspecified type that the device is not meant to consume.</span></span>
+
+<span data-ttu-id="91d0e-107">Ce type d’objet prend en charge les propriétés suivantes.</span><span class="sxs-lookup"><span data-stu-id="91d0e-107">This type of object supports the following properties.</span></span>
+
+
+
+| <span data-ttu-id="91d0e-108">Nom de la propriété</span><span class="sxs-lookup"><span data-stu-id="91d0e-108">Property Name</span></span>                                                                                                         | <span data-ttu-id="91d0e-109">Obligatoire ou facultatif</span><span class="sxs-lookup"><span data-stu-id="91d0e-109">Required or Optional</span></span>                                                           |
+|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| [<span data-ttu-id="91d0e-110">\_ID d’objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-110">WPD\_OBJECT\_ID</span></span>](object-properties.md)                                                                | <span data-ttu-id="91d0e-111">Obligatoire, en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="91d0e-111">Required, read-only.</span></span> <span data-ttu-id="91d0e-112">Un client ne peut pas définir cette propriété, même au moment de la création.</span><span class="sxs-lookup"><span data-stu-id="91d0e-112">A client cannot set this property, even at creation time.</span></span> |
+| [<span data-ttu-id="91d0e-113">\_ \_ ID parent de l’objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-113">WPD\_OBJECT\_PARENT\_ID</span></span>](object-properties.md)                                                 | <span data-ttu-id="91d0e-114">Obligatoire.</span><span class="sxs-lookup"><span data-stu-id="91d0e-114">Required.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-115">nom de l' \_ objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-115">WPD\_OBJECT\_NAME</span></span>](object-properties.md)                                                            | <span data-ttu-id="91d0e-116">Obligatoire si l’objet représente un fichier.</span><span class="sxs-lookup"><span data-stu-id="91d0e-116">Required if the object represents a file.</span></span>                                      |
+| [<span data-ttu-id="91d0e-117">\_ \_ \_ ID unique persistant de l’objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-117">WPD\_OBJECT\_PERSISTENT\_UNIQUE\_ID</span></span>](object-properties.md)                          | <span data-ttu-id="91d0e-118">Obligatoire, en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="91d0e-118">Required, read-only.</span></span> <span data-ttu-id="91d0e-119">Un client ne peut pas définir cette propriété, même au moment de la création.</span><span class="sxs-lookup"><span data-stu-id="91d0e-119">A client cannot set this property, even at creation time.</span></span> |
+| [<span data-ttu-id="91d0e-120">\_format d’objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-120">WPD\_OBJECT\_FORMAT</span></span>](object-properties.md)                                                        | <span data-ttu-id="91d0e-121">Obligatoire.</span><span class="sxs-lookup"><span data-stu-id="91d0e-121">Required.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-122">TYPE de contenu de l' \_ objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-122">WPD\_OBJECT\_CONTENT\_TYPE</span></span>](object-properties.md)                                           | <span data-ttu-id="91d0e-123">Obligatoire.</span><span class="sxs-lookup"><span data-stu-id="91d0e-123">Required.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-124">WPD, \_ objet \_ ISHIDDEN</span><span class="sxs-lookup"><span data-stu-id="91d0e-124">WPD\_OBJECT\_ISHIDDEN</span></span>](object-properties.md)                                                    | <span data-ttu-id="91d0e-125">Obligatoire si l’objet est masqué.</span><span class="sxs-lookup"><span data-stu-id="91d0e-125">Required if the object is hidden.</span></span>                                              |
+| [<span data-ttu-id="91d0e-126">WPD, \_ objet \_ ISSYSTEM</span><span class="sxs-lookup"><span data-stu-id="91d0e-126">WPD\_OBJECT\_ISSYSTEM</span></span>](object-properties.md)                                                    | <span data-ttu-id="91d0e-127">Obligatoire si l’objet est un objet système (représente un fichier système).</span><span class="sxs-lookup"><span data-stu-id="91d0e-127">Required if the object is a system object (represents a system file).</span></span>          |
+| [<span data-ttu-id="91d0e-128">taille de l' \_ objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-128">WPD\_OBJECT\_SIZE</span></span>](object-properties.md)                                                            | <span data-ttu-id="91d0e-129">Obligatoire si l’objet a au moins une ressource.</span><span class="sxs-lookup"><span data-stu-id="91d0e-129">Required if the object has at least one resource.</span></span>                              |
+| [<span data-ttu-id="91d0e-130">\_nom du \_ fichier d’origine de l’objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-130">WPD\_OBJECT\_ORIGINAL\_FILE\_NAME</span></span>](object-properties.md)                              | <span data-ttu-id="91d0e-131">Obligatoire si l’objet représente un fichier.</span><span class="sxs-lookup"><span data-stu-id="91d0e-131">Required if the object represents a file.</span></span>                                      |
+| [<span data-ttu-id="91d0e-132">\_objet wpd \_ non \_ utilisable</span><span class="sxs-lookup"><span data-stu-id="91d0e-132">WPD\_OBJECT\_NON\_CONSUMABLE</span></span>](object-properties.md)                                       | <span data-ttu-id="91d0e-133">Recommandé si l’objet n’est pas destiné à être consommé par l’appareil.</span><span class="sxs-lookup"><span data-stu-id="91d0e-133">Recommended if the object is not meant for consumption by the device.</span></span>          |
+| [<span data-ttu-id="91d0e-134">\_références d’objets wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-134">WPD\_OBJECT\_REFERENCES</span></span>](object-properties.md)                                                | <span data-ttu-id="91d0e-135">Obligatoire si l’objet a des références à d’autres objets.</span><span class="sxs-lookup"><span data-stu-id="91d0e-135">Required if the object has references to other objects.</span></span>                        |
+| [<span data-ttu-id="91d0e-136">\_Mots clés d’objet wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-136">WPD\_OBJECT\_KEYWORDS</span></span>](object-properties.md)                                                    | <span data-ttu-id="91d0e-137">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-137">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-138">ID de synchronisation de l' \_ objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-138">WPD\_OBJECT\_SYNC\_ID</span></span>](object-properties.md)                                                     | <span data-ttu-id="91d0e-139">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-139">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-140">l' \_ objet \_ wpd \_ est \_ protégé par DRM</span><span class="sxs-lookup"><span data-stu-id="91d0e-140">WPD\_OBJECT\_IS\_DRM\_PROTECTED</span></span>](object-properties.md)                                  | <span data-ttu-id="91d0e-141">Obligatoire si l’objet est protégé par la technologie DRM.</span><span class="sxs-lookup"><span data-stu-id="91d0e-141">Required if the object is protected by DRM technology.</span></span>                         |
+| [<span data-ttu-id="91d0e-142">Date de création de l' \_ objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-142">WPD\_OBJECT\_DATE\_CREATED</span></span>](object-properties.md)                                           | <span data-ttu-id="91d0e-143">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-143">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-144">Date de modification de l' \_ objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-144">WPD\_OBJECT\_DATE\_MODIFIED</span></span>](object-properties.md)                                         | <span data-ttu-id="91d0e-145">Recommandé.</span><span class="sxs-lookup"><span data-stu-id="91d0e-145">Recommended.</span></span>                                                                   |
+| [<span data-ttu-id="91d0e-146">Date de création de l' \_ objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-146">WPD\_OBJECT\_DATE\_AUTHORED</span></span>](object-properties.md)                                         | <span data-ttu-id="91d0e-147">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-147">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-148">\_ \_ références arrière des objets wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-148">WPD\_OBJECT\_BACK\_REFERENCES</span></span>](object-properties.md)                                                                | <span data-ttu-id="91d0e-149">Recommandé si l’objet est référencé par un autre objet.</span><span class="sxs-lookup"><span data-stu-id="91d0e-149">Recommended if the object is referenced by another object.</span></span>                     |
+| [<span data-ttu-id="91d0e-150">\_ID d' \_ \_ objet fonctionnel \_ du conteneur d’objets wpd \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-150">WPD\_OBJECT\_CONTAINER\_FUNCTIONAL\_OBJECT\_ID</span></span>](object-properties.md)     | <span data-ttu-id="91d0e-151">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-151">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-152">\_objet wpd \_ générer une \_ miniature \_ à partir de la \_ ressource</span><span class="sxs-lookup"><span data-stu-id="91d0e-152">WPD\_OBJECT\_GENERATE\_THUMBNAIL\_FROM\_RESOURCE</span></span>](object-properties.md) | <span data-ttu-id="91d0e-153">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-153">Optional.</span></span>                                                                      |
+| [<span data-ttu-id="91d0e-154">l' \_ objet wpd \_ peut \_ Supprimer</span><span class="sxs-lookup"><span data-stu-id="91d0e-154">WPD\_OBJECT\_CAN\_DELETE</span></span>](object-properties.md)                                                                     | <span data-ttu-id="91d0e-155">Obligatoire si l’objet ne peut pas être supprimé.</span><span class="sxs-lookup"><span data-stu-id="91d0e-155">Required if the object cannot be deleted.</span></span>                                      |
+| [<span data-ttu-id="91d0e-156">\_paramètres régionaux de la langue de l’objet wpd \_ \_</span><span class="sxs-lookup"><span data-stu-id="91d0e-156">WPD\_OBJECT\_LANGUAGE\_LOCALE</span></span>](object-properties.md)                                                                | <span data-ttu-id="91d0e-157">Optionnel.</span><span class="sxs-lookup"><span data-stu-id="91d0e-157">Optional.</span></span>                                                                      |
+
+
+
+ 
+
+## <a name="typical-resources"></a><span data-ttu-id="91d0e-158">Ressources standard</span><span class="sxs-lookup"><span data-stu-id="91d0e-158">Typical Resources</span></span>
+
+<span data-ttu-id="91d0e-159">Ces objets incluent généralement les ressources suivantes.</span><span class="sxs-lookup"><span data-stu-id="91d0e-159">These objects typically include the following resources.</span></span>
+
+
+
+| <span data-ttu-id="91d0e-160">Nom de la ressource</span><span class="sxs-lookup"><span data-stu-id="91d0e-160">Resource Name</span></span>                                          | <span data-ttu-id="91d0e-161">Obligatoire ou facultatif</span><span class="sxs-lookup"><span data-stu-id="91d0e-161">Required or Optional</span></span> | <span data-ttu-id="91d0e-162">Description</span><span class="sxs-lookup"><span data-stu-id="91d0e-162">Description</span></span>             |
+|--------------------------------------------------------|----------------------|-------------------------|
+| [<span data-ttu-id="91d0e-163">**\_ressource wpd \_ par défaut**</span><span class="sxs-lookup"><span data-stu-id="91d0e-163">**WPD\_RESOURCE\_DEFAULT**</span></span>](wpd-resource-default.md) | <span data-ttu-id="91d0e-164">Obligatoire.</span><span class="sxs-lookup"><span data-stu-id="91d0e-164">Required.</span></span>            | <span data-ttu-id="91d0e-165">Contient les données du fichier.</span><span class="sxs-lookup"><span data-stu-id="91d0e-165">Contains the file data.</span></span> |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="91d0e-166">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="91d0e-166">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="91d0e-167">**Conditions requises pour les objets**</span><span class="sxs-lookup"><span data-stu-id="91d0e-167">**Requirements for Objects**</span></span>](requirements-for-objects.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
