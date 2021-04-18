@@ -1,0 +1,33 @@
+---
+description: Chaque ligne possède un ou plusieurs canaux. Les fournisseurs de services gèrent normalement la manière dont les canaux sont exposés en tant qu’adresses à une application, et l’utilisateur final ou le serveur n’a pas besoin d’une connaissance spécifique des canaux.
+ms.assetid: 8c7d38e0-1863-461f-9225-7a0b419532a3
+title: Canal (API de téléphonie)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b793a23c945cad79c9e2401ab6944302e908fd73
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "104527237"
+---
+# <a name="channel-telephony-api"></a><span data-ttu-id="b912e-104">Canal (API de téléphonie)</span><span class="sxs-lookup"><span data-stu-id="b912e-104">Channel (Telephony API)</span></span>
+
+<span data-ttu-id="b912e-105">Chaque ligne possède un ou plusieurs canaux.</span><span class="sxs-lookup"><span data-stu-id="b912e-105">Each line has one or more channels.</span></span> <span data-ttu-id="b912e-106">Les fournisseurs de services gèrent normalement la manière dont les canaux sont exposés en tant qu’adresses à une application, et l’utilisateur final ou le serveur n’a pas besoin d’une connaissance spécifique des canaux.</span><span class="sxs-lookup"><span data-stu-id="b912e-106">The service providers normally handle how channels are exposed as addresses to an application, and the end user or server does not require specific knowledge of channels.</span></span>
+
+<span data-ttu-id="b912e-107">Les canaux sont identiques et sont donc interchangeables.</span><span class="sxs-lookup"><span data-stu-id="b912e-107">Channels are identical and therefore interchangeable.</span></span> <span data-ttu-id="b912e-108">Dans les POTS (Plain Old Telephone Service), il existe exactement un canal sur une ligne, et le canal est utilisé exclusivement pour la voix.</span><span class="sxs-lookup"><span data-stu-id="b912e-108">In POTS (Plain Old Telephone Service), exactly one channel exists on a line, and the channel is used exclusively for voice.</span></span> <span data-ttu-id="b912e-109">Avec RNIS, au moins trois canaux (et plus de 30) canaux peuvent exister simultanément sur une ligne.</span><span class="sxs-lookup"><span data-stu-id="b912e-109">With ISDN, at least three (and as many as 30 or more) channels can exist on a line simultaneously.</span></span>
+
+<span data-ttu-id="b912e-110">Chaque canal peut avoir sa propre adresse, ce qui signifie qu’une ligne peut avoir autant d’adresses qu’il y a de canaux.</span><span class="sxs-lookup"><span data-stu-id="b912e-110">Each channel can have its own address, which means a line could have as many addresses as it has channels.</span></span> <span data-ttu-id="b912e-111">La relation exacte entre les canaux et les adresses exposées à une application dépend de l’implémentation d’un fournisseur de services.</span><span class="sxs-lookup"><span data-stu-id="b912e-111">The precise relationship between channels and addresses exposed to an application is dependent on a service provider's implementation.</span></span>
+
+<span data-ttu-id="b912e-112">Certains fournisseurs de services prennent en charge l’attribution de plusieurs adresses à un seul canal.</span><span class="sxs-lookup"><span data-stu-id="b912e-112">Some service providers support the assignment of more than one address to a single channel.</span></span> <span data-ttu-id="b912e-113">Sur les lignes de POTS, plusieurs adresses sont rendues possibles par différents systèmes, tels que la numérotation directe (DID) ou la sonnerie distinctive, qui sont des services supplémentaires fournis par l’entreprise téléphonique.</span><span class="sxs-lookup"><span data-stu-id="b912e-113">On POTS lines, multiple addresses are made possible by various systems, such as direct inward dialing (DID) or distinctive ringing, which are extra-fee services that the telephone company provides.</span></span>
+
+<span data-ttu-id="b912e-114">De nombreuses grandes entreprises utilisent des appels entrants.</span><span class="sxs-lookup"><span data-stu-id="b912e-114">Many large corporations use DID for incoming calls.</span></span> <span data-ttu-id="b912e-115">Avant qu’un appel ne soit connecté, son numéro d’extension de destination est signalé au PBX, ce qui provoque l’appel de l’extension au lieu du téléphone de l’opérateur.</span><span class="sxs-lookup"><span data-stu-id="b912e-115">Before a call is connected, its destination extension number is signaled to the PBX, which causes the extension to ring instead of the operator's phone.</span></span> <span data-ttu-id="b912e-116">Un exemple de sonneries distinctives dans une page d’hébergement privée serait si les parents utilisaient une adresse, les enfants une autre et un troisième pour le télécopieur.</span><span class="sxs-lookup"><span data-stu-id="b912e-116">An example of distinctive ringing in a private home would be if the parents used one address, the children another, and a fax machine a third.</span></span> <span data-ttu-id="b912e-117">Étant donné qu’une seule ligne connecte la maison au réseau téléphonique, tous les téléphones sonnent lorsqu’un appel s’affiche, mais le modèle de sonnerie est différent selon le nombre que le tiers appelant a composé.</span><span class="sxs-lookup"><span data-stu-id="b912e-117">Because only one line connects the house to the telephone network, all phones ring when a call appears, but the ring pattern is different depending on the number that the calling party dialed.</span></span> <span data-ttu-id="b912e-118">Avec la sonnerie distinctive, les gens savent qui est l’appel entrant et l’ordinateur de télécopie répond à ses appels en reconnaissant son propre style de sonnerie.</span><span class="sxs-lookup"><span data-stu-id="b912e-118">With distinctive ringing, the people know who the incoming call is for, and the fax machine answers its calls by recognizing its own ringing style.</span></span>
+
+<span data-ttu-id="b912e-119">Dans RNIS, les différents canaux B n’ont peut-être pas d’adresses distinctes.</span><span class="sxs-lookup"><span data-stu-id="b912e-119">In ISDN, the various B channels might not have separate addresses.</span></span> <span data-ttu-id="b912e-120">Étant donné que ces canaux B peuvent se trouver sur la même adresse, il s’agit du fournisseur de services (et non de l’application ou d’une personne qui a composé le numéro) qui attribue des appels à ces canaux.</span><span class="sxs-lookup"><span data-stu-id="b912e-120">Because these B channels might be on the same address, it is the service provider (and not the application or a person who has dialed the number) that assigns calls to these channels.</span></span>
+
+ 
+
+ 
+
+
+
