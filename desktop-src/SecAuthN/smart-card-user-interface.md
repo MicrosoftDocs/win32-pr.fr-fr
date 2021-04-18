@@ -1,0 +1,48 @@
+---
+description: L’interface utilisateur de la carte à puce est une boîte de dialogue commune unique qui permet à l’utilisateur de spécifier ou de rechercher une carte à puce pour l’ouvrir (c’est-à-dire, se connecter à une application et l’utiliser dans une application).
+ms.assetid: a64a617a-b2ae-471f-a88f-a73f0fc3a791
+title: Interface utilisateur de carte à puce
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: fc558446516149529e9a98d28aa9fe94f80b2777
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106536396"
+---
+# <a name="smart-card-user-interface"></a><span data-ttu-id="bae10-103">Interface utilisateur de carte à puce</span><span class="sxs-lookup"><span data-stu-id="bae10-103">Smart Card User Interface</span></span>
+
+<span data-ttu-id="bae10-104">L' [*interface utilisateur*](../secgloss/u-gly.md) de la carte à puce est une [*boîte de dialogue commune*](../secgloss/s-gly.md) unique qui permet à l’utilisateur de spécifier ou de rechercher une carte à puce pour l’ouvrir (c’est-à-dire, se connecter à une application et l’utiliser dans une application).</span><span class="sxs-lookup"><span data-stu-id="bae10-104">The smart card [*user interface*](../secgloss/u-gly.md) (UI) is a single [*common dialog box*](../secgloss/s-gly.md) that lets the user specify or search for a smart card to open (that is, connect to and use in an application).</span></span>
+
+<span data-ttu-id="bae10-105">Voici deux façons d’utiliser la boîte de dialogue commune.</span><span class="sxs-lookup"><span data-stu-id="bae10-105">Following are two ways you can use the common dialog box.</span></span> <span data-ttu-id="bae10-106">Les deux partent du principe que l’interface utilisateur de la boîte de dialogue s’affiche.</span><span class="sxs-lookup"><span data-stu-id="bae10-106">Both assume that the dialog box UI will be displayed.</span></span> <span data-ttu-id="bae10-107">Pour plus d’informations, consultez [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea).</span><span class="sxs-lookup"><span data-stu-id="bae10-107">For more information, see [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea).</span></span>
+
+<span data-ttu-id="bae10-108">**Pour sélectionner une carte à puce à ouvrir**</span><span class="sxs-lookup"><span data-stu-id="bae10-108">**To select a smart card to open**</span></span>
+
+1.  <span data-ttu-id="bae10-109">Déclarez une variable de type **OPENCARDNAME**.</span><span class="sxs-lookup"><span data-stu-id="bae10-109">Declare a variable of type **OPENCARDNAME**.</span></span>
+2.  <span data-ttu-id="bae10-110">Fournissez suffisamment d’informations dans la boîte de dialogue commune pour affiner la recherche d’une carte à puce recherchée par l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="bae10-110">Provide enough information in the common dialog box to narrow the search for a smart card that the calling application is looking for.</span></span> <span data-ttu-id="bae10-111">Cela comprend la spécification de **lpstrGroupNames**, **lpstrCardNames** et **rgguidInterfaces**.</span><span class="sxs-lookup"><span data-stu-id="bae10-111">This includes specifying **lpstrGroupNames**, **lpstrCardNames**, and **rgguidInterfaces**.</span></span> <span data-ttu-id="bae10-112">Cela implique également la spécification d’un mode de partage et d’un protocole préférés à utiliser lorsque la boîte de dialogue commune se connecte à la carte à l’aide des membres **dwShareMode** et **dwPreferredProtocols** de la structure [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea) .</span><span class="sxs-lookup"><span data-stu-id="bae10-112">This also includes specifying a preferred share mode and protocol to use when the common dialog box connects to the card by using the **dwShareMode** and **dwPreferredProtocols** members of the [**OPENCARDNAME**](/windows/desktop/api/Winscard/ns-winscard-opencardnamea) structure.</span></span>
+3.  <span data-ttu-id="bae10-113">Appelez la fonction [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) pour afficher la boîte de dialogue commune à l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="bae10-113">Call the [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) function to display the common dialog box to the user.</span></span> <span data-ttu-id="bae10-114">Une ligne d’informations d’aide simple s’affiche, et si l’une des cartes demandées est trouvée, la carte est mise en surbrillance dans l’affichage.</span><span class="sxs-lookup"><span data-stu-id="bae10-114">A simple help information line will be displayed, and if one of the cards being requested is found, the card will be highlighted in the display.</span></span> <span data-ttu-id="bae10-115">Pour les recherches sur plusieurs noms de carte, le premier lecteur qui contient l’une des cartes préférées est mis en surbrillance.</span><span class="sxs-lookup"><span data-stu-id="bae10-115">For multiple card name searches, the first reader that contains one of the preferred cards will be highlighted.</span></span>
+4.  <span data-ttu-id="bae10-116">L’utilisateur sélectionne ensuite une carte, clique sur **OK** et se connecte à la carte à puce.</span><span class="sxs-lookup"><span data-stu-id="bae10-116">The user then selects a card, clicks **OK**, and connects to the smart card.</span></span>
+
+<span data-ttu-id="bae10-117">**Pour rechercher une carte spécifique**</span><span class="sxs-lookup"><span data-stu-id="bae10-117">**To search for a specific card**</span></span>
+
+1.  <span data-ttu-id="bae10-118">Déclarez une variable de type **OPENCARDNAME**.</span><span class="sxs-lookup"><span data-stu-id="bae10-118">Declare a variable of type **OPENCARDNAME**.</span></span>
+2.  <span data-ttu-id="bae10-119">Fournissez suffisamment d’informations dans la boîte de dialogue commune pour affiner la recherche d’une carte à puce recherchée par l’application appelante.</span><span class="sxs-lookup"><span data-stu-id="bae10-119">Provide enough information in the common dialog box to narrow the search for a smart card that the calling application is looking for.</span></span> <span data-ttu-id="bae10-120">Cela comprend la spécification de **lpstrGroupNames**, **lpstrCardNames** et **rgguidInterfaces**.</span><span class="sxs-lookup"><span data-stu-id="bae10-120">This includes specifying **lpstrGroupNames**, **lpstrCardNames**, and **rgguidInterfaces**.</span></span>
+3.  <span data-ttu-id="bae10-121">Créez les fonctions de rappel **Connect**, **Check** et **Disconnect** , puis définissez les membres de données **lpfnConnect**, **lpfnCheck** et **lpfnDisconnect** de manière appropriée.</span><span class="sxs-lookup"><span data-stu-id="bae10-121">Create the **Connect**, **Check**, and **Disconnect** callback functions, and set the **lpfnConnect**, **lpfnCheck**, and **lpfnDisconnect** data members appropriately.</span></span>
+    > [!Note]  
+    > <span data-ttu-id="bae10-122">Les trois fonctions et membres doivent être disponibles lors de l’utilisation de la boîte de dialogue commune de cette façon.</span><span class="sxs-lookup"><span data-stu-id="bae10-122">All three functions and members must be available when using the common dialog box in this way.</span></span>
+
+     
+
+4.  <span data-ttu-id="bae10-123">Appelez la fonction de boîte de dialogue commune [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) .</span><span class="sxs-lookup"><span data-stu-id="bae10-123">Call the [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) common dialog box function.</span></span>
+5.  <span data-ttu-id="bae10-124">La boîte de dialogue commune recherche les cartes demandées.</span><span class="sxs-lookup"><span data-stu-id="bae10-124">The common dialog box will then search for the requested cards.</span></span> <span data-ttu-id="bae10-125">Si un nom de carte ou une [*chaîne rar*](../secgloss/a-gly.md) correspondante est trouvé, les fonctions de rappel de **connexion**, de **vérification** et de **déconnexion** seront appelées dans l’ordre.</span><span class="sxs-lookup"><span data-stu-id="bae10-125">If a matching card name or [*ATR string*](../secgloss/a-gly.md) is found, the **Connect**, **Check**, and **Disconnect** callback functions will be called in sequence.</span></span> <span data-ttu-id="bae10-126">Si une carte transmet la routine de **vérification** (c’est-à-dire que le rappel de **vérification** retourne la **valeur true**), cette carte est mise en surbrillance dans l’affichage de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="bae10-126">If a card passes the **Check** routine (that is, the **Check** callback returns **TRUE**), this card is highlighted in the display to the user.</span></span>
+    > [!Note]  
+    > <span data-ttu-id="bae10-127">Si plusieurs noms de carte sont fournis, le premier lecteur qui contient l’une des cartes demandées et transmet la routine **Check** sera la carte sélectionnée.</span><span class="sxs-lookup"><span data-stu-id="bae10-127">If multiple card names are given, the first reader that contains one of the requested cards and passes the **Check** routine will be the selected card.</span></span>
+
+     
+
+6.  <span data-ttu-id="bae10-128">Si aucune correspondance n’est trouvée, une boîte de dialogue commune s’affiche.</span><span class="sxs-lookup"><span data-stu-id="bae10-128">If no matches are found, a common dialog box will appear.</span></span>
+
+ 
+
+ 
