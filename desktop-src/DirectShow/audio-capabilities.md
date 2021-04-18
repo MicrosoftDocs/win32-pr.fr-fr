@@ -1,0 +1,33 @@
+---
+description: Fonctionnalités audio
+ms.assetid: de96f6ee-b526-4ac2-93ac-a731f86ef5d5
+title: Fonctionnalités audio
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9c2cf02927b69d807f400c4185a7d4ddbdd14322
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "104522527"
+---
+# <a name="audio-capabilities"></a><span data-ttu-id="3c5fe-103">Fonctionnalités audio</span><span class="sxs-lookup"><span data-stu-id="3c5fe-103">Audio Capabilities</span></span>
+
+<span data-ttu-id="3c5fe-104">Pour les fonctionnalités audio, [**IAMStreamConfig :: GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) retourne un tableau de paires de structures de [**\_ \_ type de média am**](/windows/win32/api/strmif/ns-strmif-am_media_type) et d' [**\_ \_ \_ embouts de configuration de flux audio**](/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps) .</span><span class="sxs-lookup"><span data-stu-id="3c5fe-104">For audio capabilities, [**IAMStreamConfig::GetStreamCaps**](/windows/desktop/api/Strmif/nf-strmif-iamstreamconfig-getstreamcaps) returns an array of pairs of [**AM\_MEDIA\_TYPE**](/windows/win32/api/strmif/ns-strmif-am_media_type) and [**AUDIO\_STREAM\_CONFIG\_CAPS**](/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps) structures.</span></span> <span data-ttu-id="3c5fe-105">Comme avec la vidéo, vous pouvez l’utiliser pour exposer toutes sortes de fonctionnalités audio sur le code confidentiel, telles que le débit de données et la prise en charge de mono ou stéréo.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-105">As with video, you can use this to expose all kinds of audio capabilities on the pin, such as data rate and whether it supports mono or stereo.</span></span>
+
+<span data-ttu-id="3c5fe-106">Pour obtenir des exemples relatifs à la vidéo relatifs à GetStreamCaps, consultez [Video Capabilities](video-capabilities.md).</span><span class="sxs-lookup"><span data-stu-id="3c5fe-106">For video-related examples relating to GetStreamCaps, see [Video Capabilities](video-capabilities.md).</span></span>
+
+<span data-ttu-id="3c5fe-107">Supposons que vous prenez en charge le format Wave PCM (Pulse Code Modulation) (tel que représenté par la structure [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) ) aux taux d’échantillonnage de 11 025, 22 050 et 44 100 échantillons par seconde, tous à 8 ou 16 bits mono ou stéréo.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-107">Suppose you support pulse code modulation (PCM) wave format (as represented by the [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) structure) at sampling rates of 11,025, 22,050, and 44,100 samples per second, all at 8- or 16-bit mono or stereo.</span></span> <span data-ttu-id="3c5fe-108">Dans ce cas, vous pouvez proposer deux paires de structures.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-108">In this case, you would offer two pairs of structures.</span></span> <span data-ttu-id="3c5fe-109">La première paire aurait une structure de capacité de **\_ configuration de flux \_ \_ audio** , indiquant que vous pouvez prendre en charge un minimum de 11 025 à 22 050 par seconde avec une granularité de 11 025 échantillons par seconde (la granularité est la différence entre les valeurs prises en charge); un minimum de 8 bits à un nombre maximal de bits de 16 bits par échantillon, avec une granularité de 8 bits par échantillon et une valeur minimale de 1 canal et un maximum de deux canaux.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-109">The first pair would have an **AUDIO\_STREAM\_CONFIG\_CAPS** capability structure saying you support a minimum of 11,025 to a maximum of 22,050 samples per second with a granularity of 11,025 samples per second (granularity is the difference between supported values); an 8-bit minimum to a 16-bit maximum bits per sample with a granularity of 8 bits per sample; and one-channel minimum and two-channel maximum.</span></span> <span data-ttu-id="3c5fe-110">Le type de média de la première paire correspond à votre format PCM par défaut dans cette plage, peut-être 22 kilohertz (kHz), stéréo 16 bits.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-110">The first pair's media type would be your default PCM format in that range, perhaps 22 kilohertz (kHz), 16-bit stereo.</span></span> <span data-ttu-id="3c5fe-111">Votre deuxième paire est une fonctionnalité qui indique 44 100 pour les échantillons minimaux et maximaux par seconde. 8 bits (minimum) et 16 bits (maximum) bits par échantillon, avec une granularité de 8 bits par échantillon ; et les valeurs minimale et maximale à un canal.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-111">Your second pair would be a capability showing 44,100 for both minimum and maximum samples per second; 8-bit (minimum) and 16-bit (maximum) bits per sample, with a granularity of 8 bits per sample; and one-channel minimum and two-channel maximum.</span></span> <span data-ttu-id="3c5fe-112">Le type de média est le format 44 kHz par défaut, peut-être une stéréo de 44 kHz 16 bits.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-112">The media type would be your default 44 kHz format, perhaps 44 kHz 16-bit stereo.</span></span>
+
+<span data-ttu-id="3c5fe-113">Si vous prenez en charge des formats wave non-PCM, le type de média renvoyé par cette méthode peut indiquer les formats non-PCM que vous prenez en charge (avec un taux d’échantillonnage, une vitesse de transmission et des canaux par défaut) et la structure des fonctionnalités accompagnant ce type de média peut décrire les autres taux d’échantillonnage, les vitesses de transmission et les canaux pris en charge.</span><span class="sxs-lookup"><span data-stu-id="3c5fe-113">If you support non-PCM wave formats, the media type returned by this method can show which non-PCM formats you support (with a default sample rate, bit rate, and channels) and the capabilities structure accompanying that media type can describe which other sample rates, bit rates, and channels you support.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="3c5fe-114">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="3c5fe-114">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="3c5fe-115">Exposition des formats de capture et de compression</span><span class="sxs-lookup"><span data-stu-id="3c5fe-115">Exposing Capture and Compression Formats</span></span>](exposing-capture-and-compression-formats.md)
+</dt> </dl>
+
+ 
+
+ 
