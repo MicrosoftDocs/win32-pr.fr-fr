@@ -1,0 +1,496 @@
+---
+title: À propos des contrôles RichEdit
+description: Cette section présente les contrôles RichEdit.
+ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d95f6dc1cc1f37bf604e6c0a891f92cd20bb7af6
+ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "106512345"
+---
+# <a name="about-rich-edit-controls"></a>À propos des contrôles RichEdit
+
+Les rubriques suivantes sont présentées dans cette section.
+
+-   [Versions de Rich Edit](#versions-of-rich-edit)
+    -   [Version Rich Edit 1,0](#rich-edit-version-10)
+    -   [Version Rich Edit 2,0](#rich-edit-version-20)
+    -   [Version Rich Edit 3,0](#rich-edit-version-30)
+    -   [Version Rich Edit 4,1](#rich-edit-version-41)
+-   [Fonctionnalité de contrôle d’édition non prise en charge](#unsupported-edit-control-functionality)
+-   [Touches de raccourci d’édition enrichie](#rich-edit-shortcut-keys)
+-   [Rubriques connexes](#related-topics)
+
+## <a name="versions-of-rich-edit"></a>Versions de Rich Edit
+
+La spécification d’origine pour les contrôles RichEdit est Microsoft Rich Edit 1,0 ; la spécification actuelle est Microsoft Rich Edit 4,1. Chaque version de Rich Edit est un sur-ensemble de la précédente, sauf que seules les versions asiatiques de Microsoft Rich Edit 1,0 ont une option de texte vertical. Avant de créer un contrôle RichEdit, vous devez appeler la fonction [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) pour vérifier quelle version de Microsoft Rich Edit est installée.
+
+Le tableau suivant indique la DLL qui correspond à la version RichEdit. Notez que le nom du fichier n’a pas changé depuis la version 2,0 vers la version 3,0. Cela permet de mettre à niveau la version 2,0 vers la version 3,0 sans rompre le code existant.
+
+
+
+| Version RichEdit | DLL          | Classe de fenêtre    |
+|-------------------|--------------|-----------------|
+| 1.0               | Riched32.dll | RICHEDIT ( \_ classe) |
+| 2.0               | Riched20.dll | RICHEDIT ( \_ classe) |
+| 3.0               | Riched20.dll | RICHEDIT ( \_ classe) |
+| 4,1               | Msftedit.dll | QUE dans MSFTEDIT, \_ classe |
+
+
+
+ 
+
+### <a name="rich-edit-version-10"></a>Version Rich Edit 1,0
+
+Microsoft Rich Edit 1,0 comprend les fonctionnalités suivantes.
+
+
+
+|                                                                                    |                                                                                                                                                                                                                                                                                           |
+|------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Entrée et sélection de texte                                                           | La sélection et l’entrée de texte principalement standard (contrôle d’édition système). Prise en charge de la barre de sélection (la barre de sélection est une zone non marquée à gauche de chaque paragraphe qui, lorsque vous cliquez dessus, sélectionne la ligne). Options de sélection automatique de mot et de retour automatique à la ligne. Sélection simple, double et triple-clic. |
+| Modification du jeu de caractères codés sur un octet (SBCS) et du jeu de caractères multioctets (MBCS)) | Toutefois, il n’y a pas d’édition Unicode.                                                                                                                                                                                                                                                     |
+| Ensemble de base de propriétés de mise en forme des caractères/paragraphes                             | Consultez [**Charformat**](/windows/win32/api/richedit/ns-richedit-charformata) et [**PARAFORMAT**](/windows/desktop/api/Richedit/ns-richedit-paraformat).                                                                                                                                                                                                                |
+| Propriétés de mise en forme des caractères                                                    | Nom et taille de la police, gras, italique, souligné plein, barré, protégé, lien, décalage et couleur du texte.                                                                                                                                                                                   |
+| Propriétés de mise en forme des paragraphes                                                    | Retrait de début, retrait à droite, décalage de ligne suivant, puce, alignement (gauche, Centre, droite) et tabulations.                                                                                                                                                                                    |
+| Rechercher vers l’avant                                                                       | Comprend les options non sensibles à la casse et mot entier.                                                                                                                                                                                                                                   |
+| Interface basée sur les messages                                                            | Presque un sur-ensemble du jeu de messages de contrôle de modification système plus deux interfaces, [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) et [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-richole-iricheditolecallback).                                                                                                              |
+| Objets incorporés                                                                   | Nécessite la collaboration cliente basée sur les interfaces [**IRichEditOle**](/windows/desktop/api/Richole/nn-richole-iricheditole) et [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-richole-iricheditolecallback) .                                                                                                                                          |
+| Prise en charge du menu du bouton droit                                                          | Utilise l’interface [**IRichEditOleCallback**](/windows/desktop/api/Richole/nn-richole-iricheditolecallback) .                                                                                                                                                                                                                      |
+| Modification par glisser-déplacer                                                              | La modification par glisser-déplacer est prise en charge.                                                                                                                                                                                                                                                       |
+| Notifications                                                                      | [**WM \_**](/windows/desktop/menurc/wm-command) Messages de commande envoyés au client, ainsi que plusieurs autres. Il s’agit d’un sur-ensemble de notifications de contrôle commun.                                                                                                                                                 |
+| Annulation/rétablissement d’un seul niveau                                                             | Se comporte de la même façon que le contrôle d’édition système. La sélection de l’option **Annuler** inverse la dernière action et cette action devient alors la nouvelle action **rétablir** .                                                                                                                                          |
+| Texte vertical simple                                                               | (Versions asiatiques uniquement).                                                                                                                                                                                                                                                                      |
+| Prise en charge de l’éditeur de méthode d’entrée (IME)                                                  | (Versions asiatiques uniquement).                                                                                                                                                                                                                                                                      |
+| Modification WYSIWYG à l’aide des métriques d’imprimante                                              | Cette fonctionnalité est nécessaire pour Microsoft WordPad, en particulier.                                                                                                                                                                                                                              |
+| Couper/copier/coller/diffuser/StreamOut                                                  | Avec texte brut (**CF \_ Text**) ou RTF (Rich Text Format) avec et sans objets.                                                                                                                                                                                                        |
+| Base de code C                                                                        | Le code est écrit en C, ce qui fournit une base solide et polyvalente.                                                                                                                                                                                                                |
+| Différentes builds pour différents scripts                                             | Microsoft Rich Edit 1,0 résout les problèmes de localisation avec différentes builds.                                                                                                                                                                                                              |
+
+
+
+ 
+
+### <a name="rich-edit-version-20"></a>Version Rich Edit 2,0
+
+Microsoft Rich Edit 2,0 incorporé plusieurs fonctionnalités supplémentaires, telles que la prise en charge des langues Unicode et asiatiques, l’annulation à plusieurs niveaux, les interfaces COM (Component Object Model) et de nombreuses améliorations de l’interface utilisateur.
+
+Microsoft Rich Edit 2,0 comprend les fonctionnalités suivantes en plus des fonctionnalités fournies par [Microsoft Rich edit 1,0](#rich-edit-version-10).
+
+
+
+|                                               |                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Unicode                                       | Unicode facilite le traitement du texte international. Toutefois, l’effort est nécessaire pour maintenir la compatibilité avec les documents non-Unicode existants, c’est-à-dire la possibilité de convertir vers ou à partir de texte brut et enrichi non-Unicode.                                                                                                                                                             |
+| Support international général                 | Algorithme de saut de ligne général (extension des règles Kinsoku), liaison de police simple, changement de police du clavier.                                                                                                                                                                                                                                                                          |
+| Support asiatique                                 | Le niveau 2 (boîte de dialogue) et le 3 (Inline) sont pris en charge dans les éditeurs IME.                                                                                                                                                                                                                                                                                                                            |
+| En savoir plus sur le support                     | La recherche vers l’avant et vers l’arrière est prise en charge.                                                                                                                                                                                                                                                                                                                                         |
+| Prise en charge bidirectionnelle                         | Cela est inclus dans Microsoft Rich Edit 2,1                                                                                                                                                                                                                                                                                                                                          |
+| Annulation à plusieurs niveaux                               | Une architecture d’annulation extensible permet au client de participer au modèle d’annulation à l’ensemble de l’application.                                                                                                                                                                                                                                                                                         |
+| Prise en charge de la souris Magellan                        | Il s’agit de la souris avec un rouleau pour le défilement.                                                                                                                                                                                                                                                                                                                                       |
+| Prise en charge des polices doubles                             | Le clavier peut basculer automatiquement les polices lorsque la police active n’est pas appropriée pour le clavier actuel, par exemple, les caractères Kanji dans Times New Roman.                                                                                                                                                                                                                            |
+| Police intelligente appliquer                              | La demande de modification de police n’applique pas les polices occidentales aux caractères asiatiques.                                                                                                                                                                                                                                                                                                                |
+| Affichage amélioré                              | Une image bitmap hors écran est utilisée lorsque plusieurs polices se produisent sur la même ligne. Cela permet, par exemple, que la dernière lettre du mot cool ne soit pas coupée.                                                                                                                                                                                                                           |
+| Prise en charge de la transparence                          | Également en mode sans fenêtre.                                                                                                                                                                                                                                                                                                                                                             |
+| Couleurs de sélection du système                       | Utilisé pour la sélection de texte.                                                                                                                                                                                                                                                                                                                                                             |
+| Reconnaissance automatique des URL                     | Peut rechercher un certain nombre de formats d’URL (par exemple, http :)                                                                                                                                                                                                                                                                                                                           |
+| Compatibilité de l’interface utilisateur de modification de Microsoft Word          | Sélection, sémantique du pavé numérique.                                                                                                                                                                                                                                                                                                                                                  |
+| EOP standard Word                             | La marque de fin de paragraphe (CR) peut également gérer le retour chariot/saut de ligne (CR/LF) (retour chariot, saut de ligne).                                                                                                                                                                                                                                                                       |
+| Fonctionnalités de texte brut et de texte enrichi | Format à caractère unique et format à un seul paragraphe.                                                                                                                                                                                                                                                                                                                                 |
+| Contrôles à une seule ligne et multiligne            | Tronquer à la première fin de paragraphe et aucune WordWrap.                                                                                                                                                                                                                                                                                                                                  |
+| Touches d’accélérateur                              | Les touches accélérateur sont prises en charge.                                                                                                                                                                                                                                                                                                                                                      |
+| Style de la fenêtre de mot de passe                         | Les contrôles de modification de mot de passe sont fournis par [**em \_ GETPASSWORDCHAR**](em-getpasswordchar.md) et [**em \_ SETPASSWORDCHAR**](em-setpasswordchar.md).                                                                                                                                                                                                                                 |
+| Architecture évolutive                         | Pour réduire la taille de l’instance.                                                                                                                                                                                                                                                                                                                                                             |
+| Interfaces et opérations sans fenêtre           | Elle est fournie par le biais des interfaces [**ITextHost**](/windows/desktop/api/Textserv/nl-textserv-itexthost) et [**ITextServices**](/windows/desktop/api/Textserv/nl-textserv-itextservices) .                                                                                                                                                                                                                                                                   |
+| Interfaces COM doubles                           | Interfaces TOM (Text Object Model).                                                                                                                                                                                                                                                                                                                                                  |
+| CHARFORMAT2                                   | Ajout de l’épaisseur de police, de la couleur d’arrière-plan, de l’identificateur de paramètres régionaux, du type de soulignement, de l’exposant et de l’indice (en plus du décalage), effet désactivé. Pour les roundtripping RTF uniquement, la quantité est ajoutée à l’espacement entre les lettres, à la taille en twips au-dessus de laquelle il faut créner la paire de caractères, le type de texte animé, divers effets : ombre/contour de police, majuscules, petites majuscules, masqué, relief, empreinte et modifié. |
+| PARAFORMAT2                                   | Espace ajouté avant et après et espacement des lignes de mot. Pour le format RTF roundtripping uniquement, ajout de poids/style d’ombrage, numérotation de début/de style/tabulation, espace de bordure/largeur/côtés, alignement des tabulations/dirigeants, divers effets de paragraphes Word : paragraphe RTL, conserver, Keep-Next, page-pause-Before, no-line-Control, do-not-hyphenation, côte à côte.                                         |
+| Plus de roundtripping RTF                        | Toutes les propriétés Word FormatFont et FormatParagraph.                                                                                                                                                                                                                                                                                                                           |
+| Stabilité et stabilisation du code              | Exemples : validation des paramètres et des objets, invariants de fonction, protecteurs de réentrance, stabilisation d’objet.                                                                                                                                                                                                                                                                             |
+| Infrastructure de test robuste                 | Y compris les tests de régressions complexes.                                                                                                                                                                                                                                                                                                                                               |
+| performances améliorées                          | Une plus petite plage de travail, des temps de chargement et de réaffichage plus rapides, etc.                                                                                                                                                                                                                                                                                                                     |
+| Base de code C++                                 | Le code est écrit en C++, qui fournit une base solide sur laquelle générer la modification riche Microsoft 3,0.                                                                                                                                                                                                                                                                             |
+
+
+
+ 
+
+À quelques exceptions près, Microsoft Rich Edit 2,0 utilise les mêmes fonctions, structures et messages que Microsoft Rich Edit 1,0. Notez, toutefois, les différences suivantes :
+
+-   Le nom de la classe de fenêtre Microsoft Rich Edit 1,0 est **RichEdit**. La modification riche Microsoft 2,0 a des classes de fenêtre ANSI et Unicode **RichEdit20A** et **RichEdit20W,** respectivement. Pour spécifier la classe de fenêtre d’édition complète appropriée, utilisez la \_ constante de classe RichEdit, définie par le fichier RichEdit. h, en fonction de la définition de l’indicateur de compilation Unicode.
+-   Dans Microsoft Rich Edit 2,0, si vous créez un contrôle Rich Edit Unicode (un qui attend les messages texte Unicode), vous devez spécifier uniquement des données Unicode dans tous les messages de fenêtre envoyés au contrôle. De même, si vous créez un contrôle Rich Edit ANSI, envoyez uniquement des données de jeu de caractères ANSI ou codés sur deux octets (DBCS). Vous pouvez utiliser la fonction [**IsWindowUnicode**](/windows/desktop/api/winuser/nf-winuser-iswindowunicode) pour déterminer si un contrôle RichEdit utilise des messages texte Unicode. Notez que les interfaces COM RichEdit utilisent du texte Unicode, sauf si elles rencontrent un argument de page de codes.
+-   Microsoft Rich Edit 1,0 utilise des combinaisons de caractères CR/LF pour les marqueurs de paragraphe. La modification riche Microsoft 2,0 n’a utilisé qu’un caractère de retour chariot (' \\ r'). Microsoft Rich Edit 3,0 utilise uniquement un retour chariot, mais peut émuler Microsoft Rich Edit 1,0 à cet égard.
+-   Microsoft Rich Edit 2,0 a introduit les nouveaux messages suivants. 
+
+    | Message                                           | Description                                                             |
+    |---------------------------------------------------|-------------------------------------------------------------------------|
+    | [**\_AUTOURLDETECT em**](em-autourldetect.md)     | Active ou désactive la détection automatique d’URL.                            |
+    | [**EM- \_ CANREDO**](em-canredo.md)                 | Détermine s’il existe des actions dans la file d’attente de restauration par progression.             |
+    | [**\_GETIMECOMPMODE em**](em-getimecompmode.md)   | Récupère le mode de l’éditeur de méthode d’entrée (IME) actuel.                   |
+    | [**\_GETLANGOPTIONS em**](em-getlangoptions.md)   | Récupère les options d’IME et de prise en charge des langues asiatiques.                   |
+    | [**\_GETREDONAME em**](em-getredoname.md)         | Récupère le nom de type de l’action suivante dans la file d’attente de restauration par progression.           |
+    | [**\_GETTEXTMODE em**](em-gettextmode.md)         | Récupère le mode texte ou le niveau d’annulation.                                  |
+    | [**\_GETUNDONAME em**](em-getundoname.md)         | Récupère le nom de type de l’action suivante dans la file d’attente d’annulation.           |
+    | [**\_rétablissement em**](em-redo.md)                       | Répète l’action suivante dans la file d’attente de restauration par progression.                               |
+    | [**\_SETLANGOPTIONS em**](em-setlangoptions.md)   | Définit des options pour la prise en charge des langues asiatiques et IME.                        |
+    | [**\_SETTEXTMODE em**](em-settextmode.md)         | Définit le mode texte ou le niveau d’annulation.                                       |
+    | [**\_SETUNDOLIMIT em**](em-setundolimit.md)       | Définit le nombre maximal d’actions dans la file d’attente d’annulation.                   |
+    | [**\_STOPGROUPTYPING em**](em-stopgrouptyping.md) | Arrête le regroupement des actions de frappe consécutives dans l’action d’annulation actuelle. |
+
+    
+
+     
+
+-   Microsoft Rich Edit 2,0 a introduit les nouvelles structures suivantes. 
+
+    | Structure                          | Description                                      |
+    |------------------------------------|--------------------------------------------------|
+    | [**CHARFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-charformat2a) | Contient des informations sur la mise en forme des caractères. |
+    | [**PARAFORMAT2**](/windows/desktop/api/Richedit/ns-richedit-paraformat2) | Contient des informations sur la mise en forme des paragraphes. |
+
+    
+
+     
+
+-   Les messages suivants sont pris en charge uniquement dans les versions en langue asiatique de Microsoft Rich Edit 1,0. Ils ne sont pas pris en charge dans les versions ultérieures de la modification enrichie.
+
+    [**\_CONVPOSITION em**](em-convposition.md)
+
+    [**\_GETIMECOLOR em**](em-getimecolor.md)
+
+    [**\_GETIMEOPTIONS em**](em-getimeoptions.md)
+
+    [**\_GETPUNCTUATION em**](em-getpunctuation.md)
+
+    [**\_GETWORDWRAPMODE em**](em-getwordwrapmode.md)
+
+    [**\_SETIMECOLOR em**](em-setimecolor.md)
+
+    [**\_SETIMEOPTIONS em**](em-setimeoptions.md)
+
+    [**\_SETPUNCTUATION em**](em-setpunctuation.md)
+
+    [**\_SETWORDWRAPMODE em**](em-setwordwrapmode.md)
+
+### <a name="rich-edit-version-30"></a>Version Rich Edit 3,0
+
+Microsoft Rich Edit 3,0 est une DLL unique, évolutive et à l’échelle mondiale qui offre des performances et une compatibilité élevées avec Word dans un petit package. Les nouvelles fonctionnalités de Microsoft Rich Edit 3,0 incluent du texte enrichi, un zoom, une liaison de police, une prise en charge d’IME plus puissante et une prise en charge des scripts complexes riches (bidirectionnel, Indo-aryen et thaï).
+
+Microsoft Rich Edit 3,0 comprend les fonctionnalités suivantes en plus des fonctionnalités fournies par la [version d’édition complète 2,0](#rich-edit-version-20).
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Zoom</td>
+<td>Le facteur de zoom est donné par un ratio.</td>
+</tr>
+<tr class="even">
+<td>Numérotation des paragraphes (niveau simple)</td>
+<td>Numériques, majuscules et minuscules alphabétiques, ou chiffres romains.</td>
+</tr>
+<tr class="odd">
+<td>Tables simples</td>
+<td>La suppression et l’insertion de lignes sont possibles, mais ne sont pas redimensionnées ni encapsulées dans les cellules. Une fois la typographie avancée activée (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>), Microsoft Rich Edit 3,0 peut aligner les colonnes centrées ou alignées à droite, et inclure des décimales. Les cellules sont simulées par des tabulations, de sorte que les onglets de texte et les retours chariot sont remplacés par des espaces.</td>
+</tr>
+<tr class="even">
+<td>Styles de titre et normal</td>
+<td>Le style normal intégré et les styles d’en-tête 1 à 9 sont pris en charge par les interfaces <a href="em-setparaformat.md"><strong>EM_SETPARAFORMAT</strong></a> et Tom ( <a href="text-object-model.md">Text Object Model</a> ).</td>
+</tr>
+<tr class="odd">
+<td>Autres types de soulignement</td>
+<td>Les tirets, tiret-point, tiret-point-point et point souligné ont été ajoutés.</td>
+</tr>
+<tr class="even">
+<td>Souligner les couleurs</td>
+<td>Le texte souligné peut être balisé avec l’un des 15 choix de documents pour les couleurs de soulignement.</td>
+</tr>
+<tr class="odd">
+<td>Texte masqué</td>
+<td>Marqué par l’attribut CHARFORMAT2. Pratique pour les roundtripping (écriture dans un fichier qui a été lu) des informations qui ne devraient normalement pas être affichées.</td>
+</tr>
+<tr class="even">
+<td>Autres touches d’accès rapide par défaut</td>
+<td>Ces touches d’accès rapide fonctionnent de la même façon que dans Word. Par exemple, les clés d’accentuation européenne (claviers américains uniquement). Nombre de touches d’accès rapide (CTRL + L) parcourt les options de numérotation disponibles, en commençant par la puce.</td>
+</tr>
+<tr class="odd">
+<td>IME HexToUnicode</td>
+<td>Permet à un utilisateur d’effectuer une conversion entre des valeurs hexadécimales et Unicode à l’aide de touches d’accès rapide.</td>
+</tr>
+<tr class="even">
+<td>Guillemets typographiques</td>
+<td>Cette fonctionnalité est activée et désactivée en appuyant sur CTRL + ALT + 'pour les claviers américains.</td>
+</tr>
+<tr class="odd">
+<td>Traits d’union conditionnels</td>
+<td>Pour le texte brut, utilisez 0xAD. Pour RTF, utilisez \- .</td>
+</tr>
+<tr class="even">
+<td>Curseur italique</td>
+<td>En outre, le curseur de la souris prend la forme d’une main au-dessus des URL.</td>
+</tr>
+<tr class="odd">
+<td>Option de typographie avancée</td>
+<td>Microsoft Rich Edit 3,0 peut utiliser une option de typographie avancée pour l’affichage et le saut de ligne (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). Cette option élégante a été ajoutée principalement pour faciliter la gestion des scripts complexes (bidirectionnel, Indo-aryen et thaï). En outre, un certain nombre d’améliorations ont été apportées aux scripts simples. Voici quelques exemples :
+<ul>
+<li>Tabulations au centre, à droite, décimales</li>
+<li>Texte entièrement justifié</li>
+<li>Moyenne soulignée, qui fournit un soulignement uniforme même lorsque des séquences de texte adjacentes ont des tailles de police différentes.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td> Prise en charge des scripts complexes</td>
+<td>Microsoft Rich Edit 3,0 prend en charge bidirectionnel (texte avec l’arabe et/ou l’hébreu mélangé à d’autres scripts), Indo-aryen (scripts Indiens comme Devangari) et le texte thaï. Pour la prise en charge de ces scripts complexes, la typographie avancée et les composants Uniscribe sont utilisés.</td>
+</tr>
+<tr class="odd">
+<td>Liaison de police</td>
+<td>Microsoft Rich Edit 3,0 choisit automatiquement une police appropriée pour les caractères qui n’appartiennent pas clairement à l’horodatage du jeu de caractères actuel. Pour ce faire, vous pouvez affecter des jeux de caractères à des séquences de texte et associer des polices à ces jeux de caractères. Pour plus d’informations, consultez <a href="using-rich-edit-controls.md">liaison de polices</a>.</td>
+</tr>
+<tr class="even">
+<td>Options de lecture/écriture de texte brut spécifiques aux jeux de caractères</td>
+<td>Cela permet de lire un fichier à l’aide d’un jeu de caractères et d’écrire avec un jeu de caractères différent.</td>
+</tr>
+<tr class="odd">
+<td>FORMAT RTF UTF-8</td>
+<td>Cela est recommandé pour couper, copier et coller des opérations. Ce format de fichier est plus compact que le format RTF ordinaire, plus rapide et compatible avec Unicode.</td>
+</tr>
+<tr class="even">
+<td>Prise en charge d’IME Microsoft Office 9 (IME98)</td>
+<td>Cette fonctionnalité IME plus puissante a été divisée en un module indépendant. Voici quelques fonctionnalités :
+<ul>
+<li>Reconversion dans les versions antérieures, l’utilisateur devait d’abord supprimer la chaîne finale, puis taper une nouvelle chaîne pour accéder au candidat correct. Cette nouvelle fonctionnalité permet à l’utilisateur de reconvertir la chaîne finale en mode composition, ce qui permet de sélectionner facilement une chaîne candidate différente.<br/></li>
+<li>Flux de document cette fonctionnalité fournit à IME98 le texte du paragraphe actuel, ce qui aide IME98 à effectuer une conversion plus précise pendant la saisie.<br/></li>
+<li>Opération de la souris cette fonctionnalité fournit un meilleur contrôle sur les fenêtres candidates et d’interface utilisateur lors de la saisie.<br/></li>
+<li>Position du signe insertion cette fonctionnalité fournit le signe insertion et les informations de ligne actuelles, que IME98 utilise pour positionner les fenêtres d’interface utilisateur (par exemple, une liste de candidats).<br/></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Prise en charge du gestionnaire des méthodes d’entrée (IMM) active</td>
+<td>Les utilisateurs peuvent appeler l’objet IMM actif, qui permet aux utilisateurs d’entrer des caractères asiatiques sur les systèmes américains.</td>
+</tr>
+<tr class="even">
+<td>Support HexToUnicode</td>
+<td>Les utilisateurs peuvent effectuer une conversion entre la notation hexadécimale et Unicode à l’aide de touches d’accès rapide.</td>
+</tr>
+<tr class="odd">
+<td>Plus de roundtripping RTF</td>
+<td>Le texte RTF lu à partir d’un fichier est écrit de façon inchangée.</td>
+</tr>
+<tr class="even">
+<td>Mode de compatibilité 1,0 amélioré</td>
+<td>Microsoft Rich Edit 3,0 peut émuler le comportement de Microsoft Rich Edit 1,0. Par exemple, il est possible de changer entre les mappages MBCS et les mappages de position de caractère Unicode (CP).</td>
+</tr>
+<tr class="odd">
+<td>Contrôle de blocage accru</td>
+<td>L’affichage peut être figé sur plusieurs appels d’API, puis non figé pour afficher les mises à jour.</td>
+</tr>
+<tr class="even">
+<td>Contrôle d’annulation accru</td>
+<td>L’annulation peut être suspendue et reprise (une condition requise pour l’IME).</td>
+</tr>
+<tr class="odd">
+<td>Augmenter/diminuer la taille de police</td>
+<td>Augmente ou réduit la taille de police à l’une des six valeurs standard (12, 28, 36, 48, 72 et 80 points).</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+### <a name="rich-edit-version-41"></a>Version Rich Edit 4,1
+
+La classe de fenêtre pour Microsoft Rich Edit 4,1 est que dans MSFTEDIT \_ . Les nouvelles fonctionnalités de Microsoft Rich Edit 4,1 incluent la prise en charge de la césure, de la rotation de page et de Text Services Framework (TSF).
+
+Microsoft Rich Edit 4,1 comprend les fonctionnalités suivantes en plus des fonctionnalités fournies par la [version d’édition complète 3,0](#rich-edit-version-30).
+
+
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td>Coupure</td>
+<td>La césure est prise en charge via les API suivantes : <a href="/windows/desktop/api/Richedit/nf-richedit-hyphenateproc"><em>HyphenateProc</em></a>, <a href="em-sethyphenateinfo.md"><strong>EM_SETHYPHENATEINFO</strong></a>et <a href="em-gethyphenateinfo.md"><strong>EM_GETHYPHENATEINFO</strong></a>.</td>
+</tr>
+<tr class="even">
+<td>Rotation de page</td>
+<td>La disposition de haut en bas et de bas en haut est prise en charge via <a href="em-setpagerotate.md"><strong>EM_SETPAGEROTATE</strong></a> et <a href="em-getpagerotate.md"><strong>EM_GETPAGEROTATE</strong></a>.</td>
+</tr>
+<tr class="odd">
+<td>Prise en charge de Text Services Framework</td>
+<td><ul>
+<li>Pour activer TSF et certaines fonctionnalités TSF, utilisez les styles suivants dans <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a>: SES_USECTF, SES_CTFALLOWEMBED, SES_CTFALLOWPROOFING et SES_CTFALLOWSMARTTAG.</li>
+<li>Pour définir et récupérer le biais du mode TSF, utilisez <a href="em-setctfmodebias.md"><strong>EM_SETCTFMODEBIAS</strong></a> et <a href="em-getctfmodebias.md"><strong>EM_GETCTFMODEBIAS</strong></a>.</li>
+<li>Pour définir et afficher l’état du clavier TSF, utilisez <a href="em-setctfopenstatus.md"><strong>EM_SETCTFOPENSTATUS</strong></a> et <a href="em-getctfopenstatus.md"><strong>EM_GETCTFOPENSTATUS</strong></a>.</li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>Prise en charge des IME supplémentaires</td>
+<td><ul>
+<li>Pour définir et récupérer le biais du mode IME, utilisez <a href="em-setimemodebias.md"><strong>EM_SETIMEMODEBIAS</strong></a> et <a href="em-getimemodebias.md"><strong>EM_GETIMEMODEBIAS</strong></a>.</li>
+<li>Pour afficher les propriétés et les fonctionnalités de l’IME, utilisez <a href="em-getimeproperty.md"><strong>EM_GETIMEPROPERTY</strong></a>.</li>
+<li>Pour afficher le texte de composition IME, utilisez <a href="em-getimecomptext.md"><strong>EM_GETIMECOMPTEXT</strong></a>.</li>
+<li>Pour déterminer si les paramètres régionaux sont des paramètres régionaux d’Extrême-Orient, utilisez <a href="em-isime.md"><strong>EM_ISIME</strong></a>.</li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>Paramètres de <a href="em-seteditstyle.md"><strong>EM_SETEDITSTYLE</strong></a> supplémentaires</td>
+<td>Outre les paramètres TSF, de nouveaux paramètres excluent les IME, définissent le texte bidirectionnel, utilisent des polices draftmode et bien plus encore.</td>
+</tr>
+<tr class="even">
+<td>Paramètres de <a href="em-setcharformat.md"><strong>EM_SETCHARFORMAT</strong></a> supplémentaires</td>
+<td>Les nouveaux indicateurs permettent au client de définir la police et la taille de police par défaut pour un LCID ou un jeu de caractères donné, de définir la police par défaut pour le contrôle, d’empêcher la mise en correspondance de la police par le clavier, et bien plus encore.</td>
+</tr>
+<tr class="odd">
+<td>Restriction de l’entrée au texte ANSI</td>
+<td>L’utilisation de <a href="/windows/win32/api/richedit/ne-richedit-textmode"><strong>TM_SINGLECODEPAGE</strong></a> dans <a href="em-settextmode.md"><strong>EM_SETTEXTMODE</strong></a> empêche l’entrée Unicode d’entrer dans un contrôle RichEdit.</td>
+</tr>
+<tr class="even">
+<td>Notification de mot clé RTF non prise en charge</td>
+<td><a href="en-lowfirtf.md">EN_LOWFIRTF</a> avertit une application lorsqu’il existe un mot clé RTF non pris en charge.</td>
+</tr>
+<tr class="odd">
+<td>Prise en charge de langages supplémentaires</td>
+<td>Les autres langages sont les suivants : arménien, maldivien, télougou, etc.</td>
+</tr>
+<tr class="even">
+<td>Prise en charge améliorée des tables</td>
+<td>Les fonctionnalités incluent : l’habillage dans les cellules, la gestion améliorée via RTF et la navigation améliorée.</td>
+</tr>
+<tr class="odd">
+<td>ES_VERTICAL</td>
+<td>Le style de fenêtre <a href="rich-edit-control-styles.md"><strong>ES_VERTICAL</strong></a> est pris en charge.</td>
+</tr>
+<tr class="even">
+<td>Support <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a></td>
+<td>Pour envoyer ou poster des caractères Unicode vers des fenêtres ANSI, utilisez <a href="/windows/desktop/inputdev/wm-unichar"><strong>WM_UNICHAR</strong></a>. Elle est équivalente à <a href="/windows/desktop/inputdev/wm-char"><strong>WM_CHAR</strong></a>, mais elle utilise (UTF)-32.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="unsupported-edit-control-functionality"></a>Fonctionnalité de contrôle d’édition non prise en charge
+
+Les contrôles RichEdit prennent en charge la plupart des fonctionnalités, mais pas toutes, pour les contrôles d’édition multiligne. Cette section répertorie les messages de contrôle d’édition et les styles de fenêtre qui ne sont *pas* pris en charge par les contrôles RichEdit.
+
+Les messages suivants sont traités par les contrôles d’édition, mais *pas* par les contrôles RichEdit.
+
+
+
+| Message non pris en charge                         | Commentaires                                                                                                                    |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| [**\_FMTLINES em**](em-fmtlines.md)         | Non pris en charge.                                                                                                              |
+| [**EM \_ GETHANDLE**](em-gethandle.md)       | Les contrôles RichEdit ne stockent pas de texte sous la forme d’un simple tableau de caractères.                                                       |
+| [**\_GETIMESTATUS em**](em-getimestatus.md) | Non pris en charge.                                                                                                              |
+| [**\_GETMARGINS em**](em-getmargins.md)     | Non pris en charge.                                                                                                              |
+| [**\_SETHANDLE em**](em-sethandle.md)       | Les contrôles RichEdit ne stockent pas de texte sous la forme d’un simple tableau de caractères.                                                       |
+| [**\_SETIMESTATUS em**](em-setimestatus.md) | Non pris en charge.                                                                                                              |
+| [**\_setMargins em**](em-setmargins.md)     | Pris en charge dans Microsoft Rich Edit 3,0.                                                                                       |
+| [**\_SETRECTNP em**](em-setrectnp.md)       | Non pris en charge.                                                                                                              |
+| [**\_SETTABSTOPS em**](em-settabstops.md)   | Le [**message \_ SETPARAFORMAT em**](em-setparaformat.md) est utilisé à la place. Pris en charge dans Microsoft Rich Edit 3,0.<br/> |
+| [**\_CTLCOLOR WM**](/windows/desktop/DevNotes/wm-ctlcolor-)    | Le [**message \_ SETBKGNDCOLOR em**](em-setbkgndcolor.md) est utilisé à la place.                                                  |
+| [**WM \_ GETFONT**](/windows/desktop/winmsg/wm-getfont)        | Le [**message \_ GETCHARFORMAT em**](em-getcharformat.md) est utilisé à la place.                                                  |
+
+
+
+ 
+
+Les styles de fenêtre suivants sont utilisés avec les contrôles d’édition multiligne, mais pas avec les contrôles RichEdit : [**es \_ minuscules**](edit-control-styles.md), [**es \_ majuscules**](edit-control-styles.md)et [**es \_ OEMCONVERT**](edit-control-styles.md).
+
+## <a name="rich-edit-shortcut-keys"></a>Touches de raccourci d’édition enrichie
+
+Les contrôles RichEdit prennent en charge les touches de raccourci suivantes.
+
+
+
+| Keys                      | Opérations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
+|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Maj + Retour arrière           | Générer un LRM/LRM sur un clavier bidirectionnel                                                                                                    | Spécifique à BiDi                                                                                                                                                                                                                  |
+| Ctrl+Tab                  | Onglet                                                                                                                                      |                                                                                                                                                                                                                                |
+| Ctrl + effacer                | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl + pavé numérique 5         | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl+A                    | Sélectionner tout                                                                                                                               |                                                                                                                                                                                                                                |
+| Ctrl+E                    | Alignement centré                                                                                                                         |                                                                                                                                                                                                                                |
+| Ctrl+J                    | Justifier l’alignement                                                                                                                        |                                                                                                                                                                                                                                |
+| Ctrl+R                    | Alignement à droite                                                                                                                          |                                                                                                                                                                                                                                |
+| Ctrl+L                    | Alignement à gauche                                                                                                                           |                                                                                                                                                                                                                                |
+| Ctrl+C                    | Copier                                                                                                                                     |                                                                                                                                                                                                                                |
+| Ctrl+V                    | Coller                                                                                                                                    |                                                                                                                                                                                                                                |
+| Ctrl+X                    | Couper                                                                                                                                      |                                                                                                                                                                                                                                |
+| Ctrl+Z                    | Annuler                                                                                                                                     |                                                                                                                                                                                                                                |
+| Ctrl+Y                    | Rétablir                                                                                                                                     |                                                                                                                                                                                                                                |
+| Ctrl + « + » (Ctrl + Maj + « = ») | Exposant                                                                                                                              |                                                                                                                                                                                                                                |
+| Ctrl + « = »                  | Indice                                                                                                                                |                                                                                                                                                                                                                                |
+| Ctrl+1                    | Interligne = 1 ligne.                                                                                                                   |                                                                                                                                                                                                                                |
+| Ctrl+2                    | Interligne = 2 lignes.                                                                                                                  |                                                                                                                                                                                                                                |
+| Ctrl+5                    | Interligne = 1,5 lignes.                                                                                                                |                                                                                                                                                                                                                                |
+| Ctrl + ' (apostrophe)       | Accent aigu                                                                                                                             | Après avoir appuyé sur la touche raccourcie, appuyez sur la lettre appropriée (par exemple, a, e ou u). Cela s’applique uniquement aux claviers anglais, français, allemand, italien et espagnol.                                                         |
+| Ctrl + \` (grave)           | Accent grave                                                                                                                             | Consultez Ctrl + 'commentaires.                                                                                                                                                                                                           |
+| Ctrl + ~ (tilde)            | Accent tilde                                                                                                                             | Consultez Ctrl + 'commentaires.                                                                                                                                                                                                           |
+| Ctrl +; virgule        | Tréma accentué                                                                                                                            | Consultez Ctrl + 'commentaires.                                                                                                                                                                                                           |
+| CTRL + MAJ + 6              | Accent circonflexe (circonflexe)                                                                                                                | Consultez Ctrl + 'commentaires.                                                                                                                                                                                                           |
+| CTRL +, (virgule)            | Accent cédille                                                                                                                           | Consultez Ctrl + 'commentaires.                                                                                                                                                                                                           |
+| Ctrl + Maj + ' (apostrophe) | Activer les guillemets typographiques                                                                                                                    |                                                                                                                                                                                                                                |
+| Retour arrière                 | Si le texte est protégé, émettez un bip sonore et ne le supprimez pas. Dans le cas contraire, supprimez le caractère précédent.                                                   |                                                                                                                                                                                                                                |
+| Ctrl+Retour arrière            | Supprimer le mot précédent. Cela génère un \_ code VK touche F16.                                                                                     |                                                                                                                                                                                                                                |
+| Touche F16                       | Identique au retour arrière.                                                                                                                       |                                                                                                                                                                                                                                |
+| Ctrl+Inser               | Copier                                                                                                                                     |                                                                                                                                                                                                                                |
+| Maj+Inser              | Coller                                                                                                                                    |                                                                                                                                                                                                                                |
+| Insérer                    | Remplacer                                                                                                                                | DBCS ne remplace pas.                                                                                                                                                                                                       |
+| Ctrl+Gauche           | Déplacer le curseur d’un mot vers la gauche.                                                                                                        | Sur le clavier bidi, cela dépend de la direction du texte.                                                                                                                                                                   |
+| Ctrl+Droite          | Déplacer le curseur d’un mot vers la droite.                                                                                                       | Consultez Ctrl + commentaires des flèches gauches.                                                                                                                                                                                                  |
+| CTRL + MAJ gauche           | Alignement à gauche                                                                                                                           | Dans les documents BiDi, il s’agit de l’ordre de lecture de gauche à droite.                                                                                                                                                                    |
+| Ctrl + Maj droite          | Alignement à droite                                                                                                                          | Dans les documents BiDi, il s’agit de l’ordre de lecture de droite à gauche.                                                                                                                                                                    |
+| Ctrl+Haut             | Accédez à la ligne ci-dessus.                                                                                                                  |                                                                                                                                                                                                                                |
+| Ctrl+Bas           | Accédez à la ligne ci-dessous.                                                                                                                  |                                                                                                                                                                                                                                |
+| Ctrl+Accueil                 | Atteindre le début du document.                                                                                                   |                                                                                                                                                                                                                                |
+| Ctrl+Fin                  | Accéder à la fin du document.                                                                                                         |                                                                                                                                                                                                                                |
+| Ctrl + PG. haut              | Déplacer une page vers le haut.                                                                                                                        | Dans le cas d’SystemEditMode et d’un contrôle à ligne unique, ne rien faire.                                                                                                                                                                      |
+| Ctrl + PG. suiv.            | Déplacer une page vers le dessous.                                                                                                                      | Consultez les commentaires Ctrl + PG.                                                                                                                                                                                                     |
+| Ctrl+Suppr               | Supprimer le mot suivant ou les caractères sélectionnés.                                                                                             |                                                                                                                                                                                                                                |
+| Maj+Suppr              | Coupez les caractères sélectionnés.                                                                                                             |                                                                                                                                                                                                                                |
+| Échap                       | Arrêter le glisser-déplacer.                                                                                                                          | Lors d’une opération glisser-déplacer de texte.                                                                                                                                                                                               |
+| ALT + ÉCHAP                   | Modifiez l’application active.                                                                                                           |                                                                                                                                                                                                                                |
+| Alt+X                     | Convertit la valeur hexadécimale Unicode qui précède le point d’insertion au caractère Unicode correspondant.                             |                                                                                                                                                                                                                                |
+| Alt + Maj + X               | Convertit le caractère Unicode précédant le point d’insertion en la valeur hexadécimale Unicode correspondante.                             |                                                                                                                                                                                                                                |
+| Alt + 0xxx (pavé numérique)     | Insère des valeurs Unicode si xxx est supérieur à 255. Lorsque xxx est inférieur à 256, le texte de la plage ASCI est inséré en fonction du clavier actuel. | Doit entrer des valeurs décimales.                                                                                                                                                                                                     |
+| Alt + Maj + Ctrl + F12        | Hexadécimal en Unicode.                                                                                                                          | Dans le cas où ALT + X est déjà utilisé pour une autre utilisation.                                                                                                                                                                                |
+| Alt + Maj + Ctrl + F11        | Le texte sélectionné sera généré dans la fenêtre du débogueur et enregistré dans% Temp% \\DumpFontInfo.txt.                                               | Pour le débogage uniquement (définition de l’indicateur = 8 dans Win.ini)                                                                                                                                                                                 |
+| Ctrl+Maj+A              | Définir toutes les majuscules.                                                                                                                            |                                                                                                                                                                                                                                |
+| Ctrl+Maj+L              | Style de puces.                                                                                                                     |                                                                                                                                                                                                                                |
+| Ctrl+Maj+Droite    | Augmentez la taille de police.                                                                                                                      | La taille de la police change de 1 point dans la plage 4PT-11pt ; par 2Points pour 12 pt-28pt ; Il passe de 28pt-> 36pt-> 48pt-> 72pt-> 80pt ; elle change de 10 points dans la plage 80pt-1630pt ; la valeur maximale est 1638. |
+| Ctrl+Maj+Gauche     | Réduire la taille de la police.                                                                                                                      | Consultez Ctrl + Maj + commentaires des flèches droite.                                                                                                                                                                                           |
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+**Méthodologique**
+</dt> <dt>
+
+[Utilisation de contrôles RichEdit](using-rich-edit-controls.md)
+</dt> <dt>
+
+[Contrôles RichEdit sans fenêtre](windowless-rich-edit-controls.md)
+</dt> </dl>
+
