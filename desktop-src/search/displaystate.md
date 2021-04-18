@@ -1,0 +1,28 @@
+---
+description: Cette énumération est destinée à un usage interne uniquement.
+ms.assetid: 316C5E9D-A566-45CD-A62F-54251DF25360
+title: DISPLAYSTATE, énumération
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- kbSyntax
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 030511a6715b52629189ac6b09e11286a2efb866
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106515982"
+---
+# <a name="displaystate-enumeration"></a>DISPLAYSTATE, énumération
+
+Cette énumération n’est pas prise en charge.
+
+ 
+
+ 
+
+
+
