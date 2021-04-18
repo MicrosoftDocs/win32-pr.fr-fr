@@ -1,0 +1,29 @@
+---
+title: Nom du fichier de capture
+description: Nom du fichier de capture
+ms.assetid: b17ecdd4-899e-4e94-98f2-496f93491e06
+keywords:
+- Message WM_CAP_FILE_SET_CAPTURE_FILE
+- capFileSetCaptureFile macro)
+- Message WM_CAP_FILE_GET_CAPTURE_FILE
+- capFileGetCaptureFile macro)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4856649906e09f212d2f8992c9d4fb9b8f4c37d4
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "106522623"
+---
+# <a name="capture-filename"></a>Nom du fichier de capture
+
+AVICap, par défaut, achemine les données de flux vidéo et audio d’une fenêtre de capture vers un fichier nommé CAPTURE.AVI dans le répertoire racine du lecteur actif. Vous pouvez spécifier un autre nom de fichier en envoyant le message du fichier de capture du jeu de fichiers de l' [**\_ embout \_ \_ \_ \_ WM**](wm-cap-file-set-capture-file.md) (ou la macro [**capFileSetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilesetcapturefile) ) à une fenêtre de capture. Ce message spécifie le nom de fichier ; il ne crée pas, n’alloue pas ou n’ouvre pas le fichier. Vous pouvez récupérer le nom de fichier de capture en cours en envoyant le message [**WM \_ Cap \_ file \_ obtenir un \_ \_ fichier de capture**](wm-cap-file-get-capture-file.md) (ou la macro [**capFileGetCaptureFile**](/windows/desktop/api/Vfw/nf-vfw-capfilegetcapturefile) ) à une fenêtre de capture.
+
+ 
+
+ 
+
+
+
+
