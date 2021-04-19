@@ -1,0 +1,25 @@
+---
+description: Une fois qu’un appel est à l’état connecté, les informations peuvent être transmises sur celui-ci.
+ms.assetid: a2afa7e9-c625-48ec-920b-0ae8c3e1b395
+title: Génération de chiffres et de tonalités inbande
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8325087882f90ae175edfd27a9f75aab492969af
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106516435"
+---
+# <a name="generating-inband-digits-and-tones"></a><span data-ttu-id="397ad-103">Génération de chiffres et de tonalités inbande</span><span class="sxs-lookup"><span data-stu-id="397ad-103">Generating Inband Digits and Tones</span></span>
+
+<span data-ttu-id="397ad-104">Une fois qu’un appel est à l’état *connecté* , les informations peuvent être transmises sur celui-ci.</span><span class="sxs-lookup"><span data-stu-id="397ad-104">After a call is in the *connected* state, information can be transmitted over it.</span></span> <span data-ttu-id="397ad-105">Deux fonctions sont fournies pour permettre la signalisation inbande de bout en bout entre l’application et l’équipement de station à distance, comme un ordinateur de réponse.</span><span class="sxs-lookup"><span data-stu-id="397ad-105">Two functions are provided that allow end-to-end inband signaling between the application and remote station equipment such as an answering machine.</span></span> <span data-ttu-id="397ad-106">Une fonction est [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits), qui génère des chiffres inbandes sur un appel, en les signalant sur le canal vocal.</span><span class="sxs-lookup"><span data-stu-id="397ad-106">One function is [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits), which generates inband digits on a call, signaling them over the voice channel.</span></span> <span data-ttu-id="397ad-107">Les chiffres peuvent être signalés sous la forme de séquences de type rotation/impulsion ou de tonalités DTMF.</span><span class="sxs-lookup"><span data-stu-id="397ad-107">Digits can be signaled as either rotary/pulse sequences or as DTMF tones.</span></span> <span data-ttu-id="397ad-108">L’autre fonction est [**lineGenerateTone**](/windows/desktop/api/Tapi/nf-tapi-linegeneratetone), ce qui permet à l’application de générer une série de tonalités multifréquences (sur le flux multimédia).</span><span class="sxs-lookup"><span data-stu-id="397ad-108">The other function is [**lineGenerateTone**](/windows/desktop/api/Tapi/nf-tapi-linegeneratetone), which enables the application to generate one of a variety of multifrequency tones inband (over the media stream).</span></span> <span data-ttu-id="397ad-109">Cela génère des tonalités téléphoniques, telles que le rappel, le signal sonore et le temps d’activité, ainsi que des tonalités multifréquences arbitraires.</span><span class="sxs-lookup"><span data-stu-id="397ad-109">This generates telephony tones, such as ringback, beep, and busy, as well as arbitrary multifrequency, multicadenced tones.</span></span>
+
+<span data-ttu-id="397ad-110">Une seule génération de chiffres ou de tonalités peut être en cours sur un appel à un moment donné.</span><span class="sxs-lookup"><span data-stu-id="397ad-110">Only one digit or tone generation can be in progress on a call at any one time.</span></span> <span data-ttu-id="397ad-111">Lorsque la génération d’un chiffre ou d’un ton est terminée, un message de génération de [**ligne \_**](line-generate.md) est envoyé à l’application qui a demandé la génération.</span><span class="sxs-lookup"><span data-stu-id="397ad-111">When digit or tone generation completes, a [**LINE\_GENERATE**](line-generate.md) message is sent to the application that requested the generation.</span></span> <span data-ttu-id="397ad-112">Dans le cas où plusieurs chiffres sont générés, un seul message est renvoyé après la génération de tous les chiffres.</span><span class="sxs-lookup"><span data-stu-id="397ad-112">In the case where multiple digits are generated, only a single message is sent back after all digits have been generated.</span></span> <span data-ttu-id="397ad-113">L’appel de [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits) ou [**lineGenerateTone**](/windows/desktop/api/Tapi/nf-tapi-linegeneratetone) lorsque la génération de chiffres ou de tonalités est en cours, annule la génération en cours et envoie le message de génération de la ligne \_ à l’application dont la génération a été abandonnée avec une indication d’annulation.</span><span class="sxs-lookup"><span data-stu-id="397ad-113">Calling [**lineGenerateDigits**](/windows/desktop/api/Tapi/nf-tapi-linegeneratedigits) or [**lineGenerateTone**](/windows/desktop/api/Tapi/nf-tapi-linegeneratetone) while digit or tone generation is in progress will abort the generation currently in progress and send the LINE\_GENERATE message to the application whose generation was aborted with a cancel indication.</span></span>
+
+ 
+
+ 
+
+
+
