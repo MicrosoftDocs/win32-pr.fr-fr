@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c23c17280ad1156e35f7e0f503816c07645cf4f6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79535b66cff62ad0f9d3fd298fdd76bfc9123a3d
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466150"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590666"
 ---
 # <a name="sharevistring-message"></a>Message SHAREVISTRING
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie le message **SHAREVISTRING** Registered à votre procédure de Hook, [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc), si une violation de partage se produit pour le fichier sélectionné quand l’utilisateur clique sur le bouton **OK** .
 
@@ -54,7 +54,7 @@ Pointeur vers une structure [**OpenFileName**](/windows/win32/api/commdlg/ns-com
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La procédure de raccordement doit retourner l’une des valeurs suivantes pour indiquer comment la boîte de dialogue doit gérer la violation de partage.
 
@@ -70,7 +70,7 @@ La procédure de raccordement doit retourner l’une des valeurs suivantes pour 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure de hook doit spécifier la constante **SHAREVISTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
@@ -78,7 +78,7 @@ La boîte de dialogue envoie le message **SHAREVISTRING** Registered uniquement 
 
 Si la procédure de raccordement retourne une valeur non définie, la boîte de dialogue répond comme si **OFN \_ SHAREWARN** était retourné.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -107,7 +107,7 @@ Si la procédure de raccordement retourne une valeur non définie, la boîte de 
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
