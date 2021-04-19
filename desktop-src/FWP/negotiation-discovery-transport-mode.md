@@ -4,12 +4,12 @@ description: Le scénario de stratégie IPsec de mode de transport de la découv
 ms.assetid: c08d9d03-7d77-43c2-8468-964b498b45f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9477d18f2fe478f5c885c071f47d0bf2baaad8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 216fec869eca28dc0661a37d44cce3a1fd05b80a
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842126"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314812"
 ---
 # <a name="negotiation-discovery-transport-mode"></a>Mode de transport de la découverte de négociation
 
@@ -37,6 +37,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
      
 
 2.  Pour chacun des contextes ajoutés à l’étape 1, ajoutez un filtre avec les propriétés suivantes. 
+
     | Filter (propriété)        | Valeur                                            |
     |------------------------|--------------------------------------------------|
     | Conditions de filtrage   | Vide. Tout le trafic correspond au filtre.        |
@@ -56,6 +57,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
      
 
 2.  Pour chacun des contextes ajoutés à l’étape 1, ajoutez un filtre avec les propriétés suivantes. 
+
     | Filter (propriété)        | Valeur                                            |
     |------------------------|--------------------------------------------------|
     | Conditions de filtrage   | Vide. Tout le trafic correspond au filtre.        |
@@ -66,6 +68,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau du \_ transport entrant de la couche FWPM \_ \_ \_ V {4 \| 6} configurer les règles de filtrage par paquet entrant**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes. 
+
     | Filter (propriété)                                                   | Valeur                                                                                              |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | [NlatUnicast](/windows/win32/api/nldef/ne-nldef-nl_address_type)                                      |
@@ -75,6 +78,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |
@@ -87,6 +91,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau du \_ transport sortant de la couche FWPM \_ \_ \_ V {4 \| 6} configurer les règles de filtrage par paquets sortants**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                                     |
     |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                               |
@@ -96,6 +101,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |
@@ -108,6 +114,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau de FWPM \_ couche \_ ALE \_ auth \_ recv \_ Accept \_ V {4 \| 6} configurer les règles de filtrage par connexion entrantes**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes. Ce filtre n’autorise que les tentatives de connexion entrante s’ils sont sécurisés par IPsec. 
+
     | Filter (propriété)                                                   | Valeur                                                        |
     |-------------------------------------------------------------------|--------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                  |
@@ -116,6 +123,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |

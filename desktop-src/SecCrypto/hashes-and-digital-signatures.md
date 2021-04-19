@@ -1,0 +1,24 @@
+---
+description: Avec les fonctions de hachage et de signature numérique, un utilisateur peut signer numériquement des données afin que n’importe quel autre utilisateur puisse vérifier que les données n’ont pas été modifiées depuis qu’il a été signé. L’identité de l’utilisateur qui a signé les données peut également être vérifiée.
+ms.assetid: dbe70506-f0d9-4239-a3af-8494fd6d4149
+title: Hachages et signatures numériques
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9dc2894cbf53834551afef375fb5056df89675a9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106521111"
+---
+# <a name="hashes-and-digital-signatures"></a>Hachages et signatures numériques
+
+Avec les [fonctions de hachage et de signature numérique](cryptography-functions.md), un utilisateur peut signer numériquement des données afin que n’importe quel autre utilisateur puisse vérifier que les données n’ont pas été modifiées depuis qu’il a été signé. L’identité de l’utilisateur qui a signé les données peut également être vérifiée.
+
+Une [*signature numérique*](../secgloss/d-gly.md) est constituée d’une petite quantité de données binaires, en général moins de 256 octets. Cette signature peut être regroupée avec le message signé ou stockée séparément, en fonction de la façon dont une application particulière a été implémentée.
+
+Le fournisseur de services de chiffrement fort Microsoft crée des signatures numériques conformes aux [*normes de chiffrement de clé publique*](../secgloss/p-gly.md) RSA (PKCS) \# 1.
+
+ 
+
+ 
