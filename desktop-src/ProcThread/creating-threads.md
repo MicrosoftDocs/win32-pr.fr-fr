@@ -1,0 +1,204 @@
+---
+description: La fonction CreateThread crée un nouveau thread pour un processus.
+ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
+title: Création de threads
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 545088779bdaff665a8079296014535ab244e821
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106537016"
+---
+# <a name="creating-threads"></a><span data-ttu-id="10af2-103">Création de threads</span><span class="sxs-lookup"><span data-stu-id="10af2-103">Creating Threads</span></span>
+
+<span data-ttu-id="10af2-104">La fonction [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) crée un nouveau thread pour un processus.</span><span class="sxs-lookup"><span data-stu-id="10af2-104">The [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) function creates a new thread for a process.</span></span> <span data-ttu-id="10af2-105">Le thread de création doit spécifier l’adresse de début du code que le nouveau thread doit exécuter.</span><span class="sxs-lookup"><span data-stu-id="10af2-105">The creating thread must specify the starting address of the code that the new thread is to execute.</span></span> <span data-ttu-id="10af2-106">En règle générale, l’adresse de départ est le nom d’une fonction définie dans le code du programme (pour plus d’informations, consultez [*ThreadProc*](/previous-versions/windows/desktop/legacy/ms686736(v=vs.85))).</span><span class="sxs-lookup"><span data-stu-id="10af2-106">Typically, the starting address is the name of a function defined in the program code (for more information, see [*ThreadProc*](/previous-versions/windows/desktop/legacy/ms686736(v=vs.85))).</span></span> <span data-ttu-id="10af2-107">Cette fonction accepte un seul paramètre et retourne une valeur **DWORD** .</span><span class="sxs-lookup"><span data-stu-id="10af2-107">This function takes a single parameter and returns a **DWORD** value.</span></span> <span data-ttu-id="10af2-108">Un processus peut avoir plusieurs threads qui exécutent simultanément la même fonction.</span><span class="sxs-lookup"><span data-stu-id="10af2-108">A process can have multiple threads simultaneously executing the same function.</span></span>
+
+<span data-ttu-id="10af2-109">Voici un exemple simple qui montre comment créer un nouveau thread qui exécute la fonction définie localement, `MyThreadFunction` .</span><span class="sxs-lookup"><span data-stu-id="10af2-109">The following is a simple example that demonstrates how to create a new thread that executes the locally defined function, `MyThreadFunction`.</span></span>
+
+<span data-ttu-id="10af2-110">Le thread appelant utilise la fonction [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) pour rendre persistante jusqu’à ce que tous les threads de travail soient terminés.</span><span class="sxs-lookup"><span data-stu-id="10af2-110">The calling thread uses the [**WaitForMultipleObjects**](/windows/desktop/api/synchapi/nf-synchapi-waitformultipleobjects) function to persist until all worker threads have terminated.</span></span> <span data-ttu-id="10af2-111">Le thread appelant se bloque pendant qu’il attend ; pour continuer le traitement, un thread appelant utilise [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) et attend que chaque thread de travail signale son objet Wait.</span><span class="sxs-lookup"><span data-stu-id="10af2-111">The calling thread blocks while it is waiting; to continue processing, a calling thread would use [**WaitForSingleObject**](/windows/desktop/api/synchapi/nf-synchapi-waitforsingleobject) and wait for each worker thread to signal its wait object.</span></span> <span data-ttu-id="10af2-112">Notez que, si vous deviez fermer le descripteur d’un thread de travail avant qu’il ne se termine, le thread de travail ne se termine pas.</span><span class="sxs-lookup"><span data-stu-id="10af2-112">Note that if you were to close the handle to a worker thread before it terminated, this does not terminate the worker thread.</span></span> <span data-ttu-id="10af2-113">Toutefois, le handle ne peut pas être utilisé dans les appels de fonction suivants.</span><span class="sxs-lookup"><span data-stu-id="10af2-113">However, the handle will be unavailable for use in subsequent function calls.</span></span>
+
+
+```C++
+#include <windows.h>
+#include <tchar.h>
+#include <strsafe.h>
+
+#define MAX_THREADS 3
+#define BUF_SIZE 255
+
+DWORD WINAPI MyThreadFunction( LPVOID lpParam );
+void ErrorHandler(LPTSTR lpszFunction);
+
+// Sample custom data structure for threads to use.
+// This is passed by void pointer so it can be any data type
+// that can be passed using a single void pointer (LPVOID).
+typedef struct MyData {
+    int val1;
+    int val2;
+} MYDATA, *PMYDATA;
+
+
+int _tmain()
+{
+    PMYDATA pDataArray[MAX_THREADS];
+    DWORD   dwThreadIdArray[MAX_THREADS];
+    HANDLE  hThreadArray[MAX_THREADS]; 
+
+    // Create MAX_THREADS worker threads.
+
+    for( int i=0; i<MAX_THREADS; i++ )
+    {
+        // Allocate memory for thread data.
+
+        pDataArray[i] = (PMYDATA) HeapAlloc(GetProcessHeap(), HEAP_ZERO_MEMORY,
+                sizeof(MYDATA));
+
+        if( pDataArray[i] == NULL )
+        {
+           // If the array allocation fails, the system is out of memory
+           // so there is no point in trying to print an error message.
+           // Just terminate execution.
+            ExitProcess(2);
+        }
+
+        // Generate unique data for each thread to work with.
+
+        pDataArray[i]->val1 = i;
+        pDataArray[i]->val2 = i+100;
+
+        // Create the thread to begin execution on its own.
+
+        hThreadArray[i] = CreateThread( 
+            NULL,                   // default security attributes
+            0,                      // use default stack size  
+            MyThreadFunction,       // thread function name
+            pDataArray[i],          // argument to thread function 
+            0,                      // use default creation flags 
+            &dwThreadIdArray[i]);   // returns the thread identifier 
+
+
+        // Check the return value for success.
+        // If CreateThread fails, terminate execution. 
+        // This will automatically clean up threads and memory. 
+
+        if (hThreadArray[i] == NULL) 
+        {
+           ErrorHandler(TEXT("CreateThread"));
+           ExitProcess(3);
+        }
+    } // End of main thread creation loop.
+
+    // Wait until all threads have terminated.
+
+    WaitForMultipleObjects(MAX_THREADS, hThreadArray, TRUE, INFINITE);
+
+    // Close all thread handles and free memory allocations.
+
+    for(int i=0; i<MAX_THREADS; i++)
+    {
+        CloseHandle(hThreadArray[i]);
+        if(pDataArray[i] != NULL)
+        {
+            HeapFree(GetProcessHeap(), 0, pDataArray[i]);
+            pDataArray[i] = NULL;    // Ensure address is not reused.
+        }
+    }
+
+    return 0;
+}
+
+
+DWORD WINAPI MyThreadFunction( LPVOID lpParam ) 
+{ 
+    HANDLE hStdout;
+    PMYDATA pDataArray;
+
+    TCHAR msgBuf[BUF_SIZE];
+    size_t cchStringSize;
+    DWORD dwChars;
+
+    // Make sure there is a console to receive output results. 
+
+    hStdout = GetStdHandle(STD_OUTPUT_HANDLE);
+    if( hStdout == INVALID_HANDLE_VALUE )
+        return 1;
+
+    // Cast the parameter to the correct data type.
+    // The pointer is known to be valid because 
+    // it was checked for NULL before the thread was created.
+ 
+    pDataArray = (PMYDATA)lpParam;
+
+    // Print the parameter values using thread-safe functions.
+
+    StringCchPrintf(msgBuf, BUF_SIZE, TEXT("Parameters = %d, %d\n"), 
+        pDataArray->val1, pDataArray->val2); 
+    StringCchLength(msgBuf, BUF_SIZE, &cchStringSize);
+    WriteConsole(hStdout, msgBuf, (DWORD)cchStringSize, &dwChars, NULL);
+
+    return 0; 
+} 
+
+
+
+void ErrorHandler(LPTSTR lpszFunction) 
+{ 
+    // Retrieve the system error message for the last-error code.
+
+    LPVOID lpMsgBuf;
+    LPVOID lpDisplayBuf;
+    DWORD dw = GetLastError(); 
+
+    FormatMessage(
+        FORMAT_MESSAGE_ALLOCATE_BUFFER | 
+        FORMAT_MESSAGE_FROM_SYSTEM |
+        FORMAT_MESSAGE_IGNORE_INSERTS,
+        NULL,
+        dw,
+        MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
+        (LPTSTR) &lpMsgBuf,
+        0, NULL );
+
+    // Display the error message.
+
+    lpDisplayBuf = (LPVOID)LocalAlloc(LMEM_ZEROINIT, 
+        (lstrlen((LPCTSTR) lpMsgBuf) + lstrlen((LPCTSTR) lpszFunction) + 40) * sizeof(TCHAR)); 
+    StringCchPrintf((LPTSTR)lpDisplayBuf, 
+        LocalSize(lpDisplayBuf) / sizeof(TCHAR),
+        TEXT("%s failed with error %d: %s"), 
+        lpszFunction, dw, lpMsgBuf); 
+    MessageBox(NULL, (LPCTSTR) lpDisplayBuf, TEXT("Error"), MB_OK); 
+
+    // Free error-handling buffer allocations.
+
+    LocalFree(lpMsgBuf);
+    LocalFree(lpDisplayBuf);
+}
+```
+
+
+
+<span data-ttu-id="10af2-114">La `MyThreadFunction` fonction évite l’utilisation de la bibliothèque Runtime C (CRT), car la plupart de ses fonctions ne sont pas thread-safe, en particulier si vous n’utilisez pas le CRT multithread.</span><span class="sxs-lookup"><span data-stu-id="10af2-114">The `MyThreadFunction` function avoids the use of the C run-time library (CRT), as many of its functions are not thread-safe, particularly if you are not using the multithreaded CRT.</span></span> <span data-ttu-id="10af2-115">Si vous souhaitez utiliser le CRT dans une `ThreadProc` fonction, utilisez la fonction **\_ beginthreadex** à la place.</span><span class="sxs-lookup"><span data-stu-id="10af2-115">If you would like to use the CRT in a `ThreadProc` function, use the **\_beginthreadex** function instead.</span></span>
+
+<span data-ttu-id="10af2-116">Il est risqué de passer l’adresse d’une variable locale si le thread de création se termine avant le nouveau thread, car le pointeur devient non valide.</span><span class="sxs-lookup"><span data-stu-id="10af2-116">It is risky to pass the address of a local variable if the creating thread exits before the new thread, because the pointer becomes invalid.</span></span> <span data-ttu-id="10af2-117">Au lieu de cela, vous pouvez soit passer un pointeur vers la mémoire allouée dynamiquement, soit faire en sorte que le thread de création attende la fin du nouveau thread.</span><span class="sxs-lookup"><span data-stu-id="10af2-117">Instead, either pass a pointer to dynamically allocated memory or make the creating thread wait for the new thread to terminate.</span></span> <span data-ttu-id="10af2-118">Les données peuvent également être passées du thread de création au nouveau thread à l’aide de variables globales.</span><span class="sxs-lookup"><span data-stu-id="10af2-118">Data can also be passed from the creating thread to the new thread using global variables.</span></span> <span data-ttu-id="10af2-119">Avec les variables globales, il est généralement nécessaire de synchroniser l’accès par plusieurs threads.</span><span class="sxs-lookup"><span data-stu-id="10af2-119">With global variables, it is usually necessary to synchronize access by multiple threads.</span></span> <span data-ttu-id="10af2-120">Pour plus d’informations sur la synchronisation, consultez [synchronisation de plusieurs threads](synchronizing-execution-of-multiple-threads.md).</span><span class="sxs-lookup"><span data-stu-id="10af2-120">For more information about synchronization, see [Synchronizing Execution of Multiple Threads](synchronizing-execution-of-multiple-threads.md).</span></span>
+
+<span data-ttu-id="10af2-121">Le thread de création peut utiliser les arguments de [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) pour spécifier les éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="10af2-121">The creating thread can use the arguments to [**CreateThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createthread) to specify the following:</span></span>
+
+-   <span data-ttu-id="10af2-122">Attributs de sécurité pour le descripteur du nouveau thread.</span><span class="sxs-lookup"><span data-stu-id="10af2-122">The security attributes for the handle to the new thread.</span></span> <span data-ttu-id="10af2-123">Ces attributs de sécurité incluent un indicateur d’héritage qui détermine si le handle peut être hérité par les processus enfants.</span><span class="sxs-lookup"><span data-stu-id="10af2-123">These security attributes include an inheritance flag that determines whether the handle can be inherited by child processes.</span></span> <span data-ttu-id="10af2-124">Les attributs de sécurité incluent également un descripteur de sécurité, que le système utilise pour effectuer des vérifications d’accès sur toutes les utilisations suivantes du handle du thread avant d’accorder l’accès.</span><span class="sxs-lookup"><span data-stu-id="10af2-124">The security attributes also include a security descriptor, which the system uses to perform access checks on all subsequent uses of the thread's handle before access is granted.</span></span>
+-   <span data-ttu-id="10af2-125">Taille initiale de la pile du nouveau thread.</span><span class="sxs-lookup"><span data-stu-id="10af2-125">The initial stack size of the new thread.</span></span> <span data-ttu-id="10af2-126">La pile du thread est allouée automatiquement dans l’espace mémoire du processus. le système augmente la pile en fonction des besoins et la libère lorsque le thread se termine.</span><span class="sxs-lookup"><span data-stu-id="10af2-126">The thread's stack is allocated automatically in the memory space of the process; the system increases the stack as needed and frees it when the thread terminates.</span></span> <span data-ttu-id="10af2-127">Pour plus d’informations, consultez [taille de pile des threads](thread-stack-size.md).</span><span class="sxs-lookup"><span data-stu-id="10af2-127">For more information, see [Thread Stack Size](thread-stack-size.md).</span></span>
+-   <span data-ttu-id="10af2-128">Indicateur de création qui vous permet de créer le thread dans un état suspendu.</span><span class="sxs-lookup"><span data-stu-id="10af2-128">A creation flag that enables you to create the thread in a suspended state.</span></span> <span data-ttu-id="10af2-129">Lorsqu’il est suspendu, le thread ne s’exécute pas tant que la fonction [**ResumeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) n’est pas appelée.</span><span class="sxs-lookup"><span data-stu-id="10af2-129">When suspended, the thread does not run until the [**ResumeThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-resumethread) function is called.</span></span>
+
+<span data-ttu-id="10af2-130">Vous pouvez également créer un thread en appelant la fonction [**CreateRemoteThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread) .</span><span class="sxs-lookup"><span data-stu-id="10af2-130">You can also create a thread by calling the [**CreateRemoteThread**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createremotethread) function.</span></span> <span data-ttu-id="10af2-131">Cette fonction est utilisée par les processus du débogueur pour créer un thread qui s’exécute dans l’espace d’adressage du processus en cours de débogage.</span><span class="sxs-lookup"><span data-stu-id="10af2-131">This function is used by debugger processes to create a thread that runs in the address space of the process being debugged.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="10af2-132">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="10af2-132">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="10af2-133">Arrêt d’un thread</span><span class="sxs-lookup"><span data-stu-id="10af2-133">Terminating a Thread</span></span>](terminating-a-thread.md)
+</dt> </dl>
+
+ 
+
+ 

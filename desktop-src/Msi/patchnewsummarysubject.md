@@ -1,0 +1,45 @@
+---
+description: La propriété PATCHNEWSUMMARYSUBJECT met à jour la propriété Résumé de l’objet d’une image administrative lors de la mise à jour corrective.
+ms.assetid: 8aee1905-59a4-4818-b073-4bc401a6963d
+title: Propriété PATCHNEWSUMMARYSUBJECT
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 8b5916d5ed63e792a3b1ae2a69b4ac09999475b5
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106523513"
+---
+# <a name="patchnewsummarysubject-property"></a><span data-ttu-id="11a03-103">Propriété PATCHNEWSUMMARYSUBJECT</span><span class="sxs-lookup"><span data-stu-id="11a03-103">PATCHNEWSUMMARYSUBJECT property</span></span>
+
+<span data-ttu-id="11a03-104">La propriété **PATCHNEWSUMMARYSUBJECT** met à jour la propriété Résumé de l' [**objet**](subject-summary.md) d’une image administrative lors de la mise à jour corrective.</span><span class="sxs-lookup"><span data-stu-id="11a03-104">The **PATCHNEWSUMMARYSUBJECT** property updates the [**Subject Summary**](subject-summary.md) property of an administrative image during patching.</span></span> <span data-ttu-id="11a03-105">Cette propriété est définie uniquement par une transformation dans un fichier. msp.</span><span class="sxs-lookup"><span data-stu-id="11a03-105">This property is only set by a transform in a .msp file.</span></span> <span data-ttu-id="11a03-106">Le fichier. msp doit inclure une transformation qui ajoute cette propriété à la [table de propriétés](property-table.md) et définit sa valeur.</span><span class="sxs-lookup"><span data-stu-id="11a03-106">The .msp file must include a transform that adds this property to the [Property table](property-table.md) and sets its value.</span></span> <span data-ttu-id="11a03-107">Le programme d’installation écrit ensuite la valeur de **PATCHNEWSUMMARYSUBJECT** dans la propriété [**Résumé du numéro de révision**](revision-number-summary.md) .</span><span class="sxs-lookup"><span data-stu-id="11a03-107">The installer then writes the value of **PATCHNEWSUMMARYSUBJECT** to the [**Revision Number Summary**](revision-number-summary.md) property.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="11a03-108">Notes</span><span class="sxs-lookup"><span data-stu-id="11a03-108">Remarks</span></span>
+
+<span data-ttu-id="11a03-109">Les propriétés [**PATCHNEWPACKAGECODE**](patchnewpackagecode.md), [**PATCHNEWSUMMARYCOMMENTS**](patchnewsummarycomments.md)et **PATCHNEWSUMMARYSUBJECT** sont utilisées pour mettre à jour les informations de résumé lorsqu’un correctif est installé sur une image administrative.</span><span class="sxs-lookup"><span data-stu-id="11a03-109">The [**PATCHNEWPACKAGECODE**](patchnewpackagecode.md), [**PATCHNEWSUMMARYCOMMENTS**](patchnewsummarycomments.md), and **PATCHNEWSUMMARYSUBJECT** properties are used to update the summary information when a patch is installed to an administrative image.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="11a03-110">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="11a03-110">Requirements</span></span>
+
+
+
+| <span data-ttu-id="11a03-111">Condition requise</span><span class="sxs-lookup"><span data-stu-id="11a03-111">Requirement</span></span> | <span data-ttu-id="11a03-112">Valeur</span><span class="sxs-lookup"><span data-stu-id="11a03-112">Value</span></span> |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="11a03-113">Version</span><span class="sxs-lookup"><span data-stu-id="11a03-113">Version</span></span><br/> | <span data-ttu-id="11a03-114">Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7.</span><span class="sxs-lookup"><span data-stu-id="11a03-114">Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7.</span></span> <span data-ttu-id="11a03-115">Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="11a03-115">Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista.</span></span> <span data-ttu-id="11a03-116">Windows Installer sur Windows Server 2003 ou Windows XP.</span><span class="sxs-lookup"><span data-stu-id="11a03-116">Windows Installer on Windows Server 2003 or Windows XP.</span></span> <span data-ttu-id="11a03-117">Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .</span><span class="sxs-lookup"><span data-stu-id="11a03-117">See the [Windows Installer Run-Time Requirements](windows-installer-portal.md) for information about the minimum Windows service pack that is required by a Windows Installer version.</span></span><br/> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="11a03-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="11a03-118">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="11a03-119">Propriétés</span><span class="sxs-lookup"><span data-stu-id="11a03-119">Properties</span></span>](properties.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
