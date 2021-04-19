@@ -1,0 +1,33 @@
+---
+description: Pour modifier les attributs d’une connexion, tels que la suite de chiffrement ou l’authentification du client, vous pouvez demander une &\# 0034 ; rétablir&\# 0034 ; ou la renégociation de la connexion.
+ms.assetid: 681b607d-66d8-4012-9a84-d202c9778a26
+title: Renégociation d’une connexion Schannel
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 9fbcd25dad39ab7f35e77277eee9275004cd8a26
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106544833"
+---
+# <a name="renegotiating-an-schannel-connection"></a><span data-ttu-id="9afe9-103">Renégociation d’une connexion Schannel</span><span class="sxs-lookup"><span data-stu-id="9afe9-103">Renegotiating an Schannel Connection</span></span>
+
+<span data-ttu-id="9afe9-104">Pour modifier les attributs d’une connexion, tels que la suite de chiffrement ou l’authentification du client, vous pouvez demander un « rétablissement » ou une renégociation de la connexion.</span><span class="sxs-lookup"><span data-stu-id="9afe9-104">To change a connection's attributes, such as the cipher suite or client authentication, you can request a "redo" or renegotiation of the connection.</span></span>
+
+<span data-ttu-id="9afe9-105">Si les attributs que vous souhaitez modifier sont contrôlés par des informations d’identification, vous devez obtenir de nouvelles informations d’identification avant de renégocier la connexion.</span><span class="sxs-lookup"><span data-stu-id="9afe9-105">If the attributes you want to change are controlled by credentials, you must obtain new credentials before you renegotiate the connection.</span></span> <span data-ttu-id="9afe9-106">Pour plus d’informations, consultez [obtention d’informations d’identification Schannel](obtaining-schannel-credentials.md).</span><span class="sxs-lookup"><span data-stu-id="9afe9-106">For more information, see [Obtaining Schannel Credentials](obtaining-schannel-credentials.md).</span></span>
+
+<span data-ttu-id="9afe9-107">Pour demander une restauration par progression à partir d’une application cliente, appelez la fonction [**InitializeSecurityContext (SChannel)**](./initializesecuritycontext--schannel.md) .</span><span class="sxs-lookup"><span data-stu-id="9afe9-107">To request a redo from a client application, call the [**InitializeSecurityContext (Schannel)**](./initializesecuritycontext--schannel.md) function.</span></span> <span data-ttu-id="9afe9-108">Les applications serveur appellent la fonction [**AcceptSecurityContext (SChannel)**](acceptsecuritycontext--schannel.md) .</span><span class="sxs-lookup"><span data-stu-id="9afe9-108">Server applications call the [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) function.</span></span> <span data-ttu-id="9afe9-109">Définissez les paramètres de la façon suivante :</span><span class="sxs-lookup"><span data-stu-id="9afe9-109">Set the parameters as follows:</span></span>
+
+-   <span data-ttu-id="9afe9-110">Spécifiez le [*contexte de sécurité*](../secgloss/s-gly.md#_SECURITY_SECURITY_CONTEXT_GLY) existant dans le paramètre *phContext* .</span><span class="sxs-lookup"><span data-stu-id="9afe9-110">Specify the existing [*security context*](../secgloss/s-gly.md#_SECURITY_SECURITY_CONTEXT_GLY) in the *phContext* parameter.</span></span>
+-   <span data-ttu-id="9afe9-111">(Clients uniquement) Spécifiez le même nom de serveur (dans le paramètre *pszTargetName* ) comme spécifié lors de l’établissement du contexte.</span><span class="sxs-lookup"><span data-stu-id="9afe9-111">(Clients only) Specify the same server name (in the *pszTargetName* parameter) as specified when establishing the context.</span></span>
+-   <span data-ttu-id="9afe9-112">Spécifiez de nouvelles informations d’identification à l’aide du paramètre *phCredential* , le cas échéant.</span><span class="sxs-lookup"><span data-stu-id="9afe9-112">Specify new credentials, using the *phCredential* parameter, if applicable.</span></span>
+-   <span data-ttu-id="9afe9-113">Si vous souhaitez modifier les attributs de contexte qui ne sont pas liés aux informations d’identification, spécifiez ces attributs à l’aide du paramètre *fContextReq* .</span><span class="sxs-lookup"><span data-stu-id="9afe9-113">If you want to change context attributes unrelated to the credentials, specify these attributes using the *fContextReq* parameter.</span></span>
+
+<span data-ttu-id="9afe9-114">Après avoir appelé la fonction appropriée, votre application doit envoyer les résultats au client et continuer à traiter les messages entrants à l’aide de la fonction [**DecryptMessage (SChannel)**](decryptmessage--schannel.md) .</span><span class="sxs-lookup"><span data-stu-id="9afe9-114">After calling the appropriate function, your application should send the results to the client and continue processing incoming messages using the [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) function.</span></span>
+
+<span data-ttu-id="9afe9-115">La fonction [**DecryptMessage (SChannel)**](decryptmessage--schannel.md) renvoie les secondes \_ que je \_ renégocie lorsque Schannel est prêt pour que votre application continue.</span><span class="sxs-lookup"><span data-stu-id="9afe9-115">The [**DecryptMessage (Schannel)**](decryptmessage--schannel.md) function will return SEC\_I\_RENEGOTIATE when Schannel is ready for your application to proceed.</span></span> <span data-ttu-id="9afe9-116">Lorsque vous recevez le \_ \_ Code de retour sec I renégocier, votre application doit appeler [**AcceptSecurityContext (SChannel)**](acceptsecuritycontext--schannel.md) (Servers) ou [**InitializeSecurityContext (SChannel)**](./initializesecuritycontext--schannel.md) (clients) et transmettre le contenu de SECBUFFER_EXTRA retourné à partir de DecryptMessage dans le SECBUFFER_TOKEN.</span><span class="sxs-lookup"><span data-stu-id="9afe9-116">When you receive the SEC\_I\_RENEGOTIATE return code, your application must call [**AcceptSecurityContext (Schannel)**](acceptsecuritycontext--schannel.md) (servers) or [**InitializeSecurityContext (Schannel)**](./initializesecuritycontext--schannel.md) (clients), and pass the contents of SECBUFFER_EXTRA returned from DecryptMessage in the SECBUFFER_TOKEN.</span></span> <span data-ttu-id="9afe9-117">Après que cet appel a retourné une valeur, procédez comme si votre application était en train de créer une nouvelle connexion.</span><span class="sxs-lookup"><span data-stu-id="9afe9-117">After this call returns a value, proceed as though your application were creating a new connection.</span></span>
+
+ 
+
+ 
