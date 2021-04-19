@@ -1,0 +1,53 @@
+---
+description: Si vous utilisez plusieurs module de reconnaissance, vous pouvez utiliser la collection de regroupements pour répertorier les module de reconnaissance disponibles et permettre à un utilisateur de sélectionner parmi ceux-ci.
+ms.assetid: 1b89def0-3491-42da-9138-5280002e447a
+title: Utilisation de la collection Recognizers
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b6d38625b3c6d4b8ed2475393ba45ae97b5bdc47
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106516649"
+---
+# <a name="using-the-recognizers-collection"></a>Utilisation de la collection Recognizers
+
+Si vous utilisez plusieurs module de reconnaissance, vous pouvez utiliser [**la collection**](/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)) de regroupements pour répertorier les module de reconnaissance disponibles et permettre à un utilisateur de sélectionner parmi ceux-ci. Une collection de **détecteurs** vérifie les regroupements installés, interroge les attributs des objets de module de [**reconnaissance**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) et stocke les résultats. Les applications peuvent utiliser la collection **Recognizers** pour afficher une liste des module de reconnaissance disponibles sans charger chaque dll de module de reconnaissance.
+
+> [!Note]  
+> La collection d’éléments de [**reconnaissance**](/previous-versions/windows/desktop/legacy/ms702438(v=vs.85)) utilise le registre système pour vérifier à la fois les identifiants Microsoft et les fournisseurs tiers.
+
+ 
+
+Le tableau suivant indique les valeurs des identificateurs de langue que chaque module de reconnaissance Microsoft prend en charge.
+
+> [!Note]  
+> Aucun identificateur de langue n’est associé à la reconnaissance de mouvement Microsoft.
+
+ 
+
+
+
+| Nom du module de reconnaissance                                                      | ID de langue primaire, ID de sous-langue (dans l’ordre pris en charge)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Module de reconnaissance de mouvement Microsoft<br/>                              | Aucun<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Reconnaissance de l’écriture manuscrite Microsoft English (Royaume-Uni)<br/> | langue \_ anglais, sous-lang \_ anglais (Royaume- \_ Uni)<br/> langue \_ anglais, sous-lang \_ anglais \_ Eire<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Reconnaissance de l’écriture manuscrite Microsoft English (États-Unis)<br/>  | langue \_ anglais, sous \_ -langue Anglais ( \_ États-Unis)<br/> langue \_ anglais, sous-lang \_ anglais \_ unités Analytics<br/> langue \_ anglais, sous-langue \_ anglais \_ Belize<br/> langue \_ anglaise, sous-langue \_ anglais \_ peut<br/> langue \_ anglaise, sous-lang- \_ \_ Caraïbes américaines<br/> langue \_ anglais, sous-langue \_ anglais ( \_ Jamaïque)<br/> langue \_ anglais, sous-lang- \_ anglais \_ NZ<br/> LANG \_ anglais, sous-langue \_ anglais ( \_ Philippines)<br/> langue \_ anglais, sous- \_ lang \_ anglais \_ Afrique du Sud<br/> LANG \_ anglais, sublang \_ anglais \_ Trinidad<br/> LANG \_ anglais, sublang \_ anglais \_ Zimbabwe<br/> langue \_ anglais, sous-langue \_ neutre<br/> |
+| Reconnaissance de l’écriture manuscrite Microsoft français<br/>                   | LANGUE \_ français, sous-langue \_ français<br/> LANGUE \_ français, sous-langue \_ français \_ belge<br/> LANGUE \_ français, sous-langue \_ français \_ canadien<br/> LANG \_ français, sublang \_ français \_ Luxembourg<br/> LANG \_ français, sublang \_ français \_ Monaco<br/> LANG \_ français, sublang \_ français \_ Suisse<br/> LANGUE \_ française, sous-langue \_ neutre<br/>                                                                                                                                                                                                                                                                                     |
+| Reconnaissance de l’écriture manuscrite Microsoft allemand<br/>                   | LANG \_ allemand, sublang \_ allemand<br/> LANG \_ allemand, sublang \_ allemand \_ autrichien<br/> LANG \_ allemand, sublang \_ allemand \_ Liechtenstein<br/> LANG \_ allemand, SUBlang \_ - \_ Luxembourg allemand<br/> LANG \_ allemand, sublang \_ allemand \_ Suisse<br/> LANGUE \_ allemande, sous-langue \_ neutre<br/>                                                                                                                                                                                                                                                                                                                                |
+| Reconnaissance de l’écriture manuscrite Microsoft espagnole<br/>                  | LANGUE \_ espagnole, sous-lang \_ espagnol<br/> LANGUE \_ espagnole, sous-langue \_ neutre<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Reconnaissance de l’écriture manuscrite Microsoft Japanese<br/>                 | LANGUE \_ japonaise, sous-langue \_ neutre<br/> LANGUE \_ japonaise, sous-langue \_ par défaut<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Reconnaissance de l’écriture manuscrite Microsoft coréen<br/>                   | LANGUE \_ coréenne, sous-langue \_ neutre<br/> LANGUE \_ coréenne, sous-langue \_ par défaut<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Reconnaissance de l’écriture manuscrite Microsoft en chinois (simplifié)<br/>     | LANGUE \_ chinoise, sous-langue \_ chinois \_ simplifié<br/> LANGUE \_ chinoise, sous-langue \_ chinois \_ Singapour<br/> LANGUE \_ chinoise, sous-langue \_ neutre<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Reconnaissance de l’écriture manuscrite Microsoft en chinois (traditionnel)<br/>    | LANGUE \_ chinoise, sous-langue \_ chinois \_ traditionnel<br/> LANG \_ chinois, SUBlang- \_ chinois \_ Hong Kong<br/> LANGUE \_ chinoise, SUBlang- \_ chinois \_ Macao<br/> LANGUE \_ chinoise, sous-langue \_ neutre<br/>                                                                                                                                                                                                                                                                                                                                                                                                                         |
+
+
+
+ 
+
+Pour plus d’informations sur les identificateurs de langue, consultez [constantes et chaînes d’identificateur de langue](../intl/language-identifier-constants-and-strings.md).
+
+ 
+
+ 
