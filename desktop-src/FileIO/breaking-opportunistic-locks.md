@@ -1,0 +1,26 @@
+---
+description: La rupture d’un verrou opportuniste est le processus qui consiste à dégrader le verrou d’un client sur un fichier de sorte qu’un autre client puisse ouvrir le fichier, avec ou sans verrou opportuniste.
+ms.assetid: 0356c167-2973-4820-85a9-bc14abcbf163
+title: Interruption des verrous opportunistes
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1a29b6bd36d8c000b5288ea2408897415547c802
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106534102"
+---
+# <a name="breaking-opportunistic-locks"></a><span data-ttu-id="38f85-103">Interruption des verrous opportunistes</span><span class="sxs-lookup"><span data-stu-id="38f85-103">Breaking Opportunistic Locks</span></span>
+
+<span data-ttu-id="38f85-104">La rupture d’un verrou opportuniste est le processus qui consiste à dégrader le verrou d’un client sur un fichier de sorte qu’un autre client puisse ouvrir le fichier, avec ou sans verrou opportuniste.</span><span class="sxs-lookup"><span data-stu-id="38f85-104">Breaking an opportunistic lock is the process of degrading the lock that one client has on a file so that another client can open the file, with or without an opportunistic lock.</span></span> <span data-ttu-id="38f85-105">Lorsque l’autre client demande l’opération d’ouverture, le serveur retarde l’opération d’ouverture et avertit le client qui détient le verrou opportuniste.</span><span class="sxs-lookup"><span data-stu-id="38f85-105">When the other client requests the open operation, the server delays the open operation and notifies the client holding the opportunistic lock.</span></span>
+
+<span data-ttu-id="38f85-106">Le client qui détient le verrou prend ensuite les mesures appropriées pour le type de verrou, par exemple en abandonnant les tampons de lecture, en fermant le fichier, etc.</span><span class="sxs-lookup"><span data-stu-id="38f85-106">The client holding the lock then takes actions appropriate to the type of lock, for example abandoning read buffers, closing the file, and so on.</span></span> <span data-ttu-id="38f85-107">Uniquement lorsque le client qui détient le verrou opportuniste notifie le serveur qu’il est terminé, le serveur ouvre le fichier pour le client qui demande l’opération d’ouverture.</span><span class="sxs-lookup"><span data-stu-id="38f85-107">Only when the client holding the opportunistic lock notifies the server that it is done does the server open the file for the client requesting the open operation.</span></span> <span data-ttu-id="38f85-108">Toutefois, lorsqu’un verrou de niveau 2 est endommagé, le serveur signale au client qu’il a été interrompu, mais n’attend pas d’accusé de réception, car il n’existe aucune donnée en cache à vider sur le serveur.</span><span class="sxs-lookup"><span data-stu-id="38f85-108">However, when a level 2 lock is broken, the server reports to the client that it has been broken but does not wait for any acknowledgment, as there is no cached data to be flushed to the server.</span></span>
+
+<span data-ttu-id="38f85-109">Lors de la réception d’une interruption d’un verrou exclusif (filtre, niveau 1 ou lot), le détenteur d’un verrou cassé ne peut pas demander un autre verrou exclusif.</span><span class="sxs-lookup"><span data-stu-id="38f85-109">In acknowledging a break of any exclusive lock (filter, level 1, or batch), the holder of a broken lock cannot request another exclusive lock.</span></span> <span data-ttu-id="38f85-110">Il peut dégrader un verrou exclusif à un verrou de niveau 2 ou aucun verrou.</span><span class="sxs-lookup"><span data-stu-id="38f85-110">It can degrade an exclusive lock to a level 2 lock or no lock at all.</span></span> <span data-ttu-id="38f85-111">Le détenteur libère généralement le verrou et ferme le fichier lorsqu’il est sur le le même de fermer le fichier.</span><span class="sxs-lookup"><span data-stu-id="38f85-111">The holder typically releases the lock and closes the file when it is about to close the file anyway.</span></span>
+
+<span data-ttu-id="38f85-112">Les applications sont averties qu’un verrou opportuniste est interrompu à l’aide du membre **hEvent** de la structure [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) associée au fichier sur lequel le verrou est interrompu.</span><span class="sxs-lookup"><span data-stu-id="38f85-112">Applications are notified that an opportunistic lock is broken by using the **hEvent** member of the [**OVERLAPPED**](/windows/desktop/api/minwinbase/ns-minwinbase-overlapped) structure associated with the file on which the lock is broken.</span></span> <span data-ttu-id="38f85-113">Les applications peuvent également utiliser des fonctions telles que [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) et [**HasOverlappedIoCompleted**](/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted).</span><span class="sxs-lookup"><span data-stu-id="38f85-113">Applications may also use functions such as [**GetOverlappedResult**](/windows/desktop/api/ioapiset/nf-ioapiset-getoverlappedresult) and [**HasOverlappedIoCompleted**](/windows/desktop/api/winbase/nf-winbase-hasoverlappediocompleted).</span></span>
+
+ 
+
+ 
