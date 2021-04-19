@@ -1,0 +1,53 @@
+---
+description: Pour un type de média vidéo, spécifie la manière dont les images vidéo 3D sont stockées en mémoire.
+ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
+title: Attribut MF_MT_VIDEO_3D_FORMAT (Mfapi. h)
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 66f2b12f907edb2875b3b121607509288787c8e3
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106524388"
+---
+# <a name="mf_mt_video_3d_format-attribute"></a>\_Attribut de \_ \_ format vidéo 3D \_ MF MT
+
+Pour un type de média vidéo, spécifie la manière dont les images vidéo 3D sont stockées en mémoire.
+
+## <a name="data-type"></a>Type de données
+
+**MFVideo3DFormat** stocké en tant que **UInt32**
+
+## <a name="remarks"></a>Notes
+
+La valeur de cet attribut est un membre de l’énumération [**MFVideo3DFormat**](/windows/desktop/api/mfapi/ne-mfapi-mfvideo3dformat) . L’attribut s’applique uniquement si l’attribut [ \_ \_ \_ 3D MF MT Video](mf-mt-video-3d.md) a la **valeur true**.
+
+Cet attribut est requis pour les formats vidéo 3D non compressés. Elle est facultative pour la vidéo 3D compressée. Une source de média qui fournit des frames encodés peut être en mesure de définir l’attribut, en fonction des informations contenues dans le conteneur de fichiers. Dans le cas contraire, l’attribut doit être défini par le décodeur dans le type de média de sortie du décodeur.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                        |
+| En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[Liste alphabétique des attributs Media Foundation](alphabetical-list-of-media-foundation-attributes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
