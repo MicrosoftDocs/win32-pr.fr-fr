@@ -1,0 +1,65 @@
+---
+title: Message TCM_SETMINTABWIDTH (commctrl. h)
+description: Définit la largeur minimale des éléments dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TabCtrl SetMinTabWidth.
+ms.assetid: c0be3d4e-774c-4233-820f-01ffbb69ecf0
+keywords:
+- TCM_SETMINTABWIDTH les contrôles de message Windows
+topic_type:
+- apiref
+api_name:
+- TCM_SETMINTABWIDTH
+api_location:
+- Commctrl.h
+api_type:
+- HeaderDef
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 87208275ed52c638751352761961ce1f42e6944a
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "106518056"
+---
+# <a name="tcm_setmintabwidth-message"></a>\_Message SETMINTABWIDTH TCM
+
+Définit la largeur minimale des éléments dans un contrôle onglet. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro [**TabCtrl \_ SetMinTabWidth**](/windows/desktop/api/Commctrl/nf-commctrl-tabctrl_setmintabwidth) .
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*wParam* 
+</dt> <dd>Doit être zéro.</dd> <dt>
+
+*lParam* 
+</dt> <dd>
+
+Largeur minimale à définir pour un élément de contrôle d’onglet. Si ce paramètre a la valeur-1, le contrôle utilise la largeur d’onglet par défaut.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Retourne une valeur INT qui représente la largeur d’onglet minimale précédente.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
+

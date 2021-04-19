@@ -1,0 +1,167 @@
+---
+description: Message WS-Transfer utilisé pour demander des métadonnées.
+ms.assetid: 18bf27aa-6ae5-4419-ae68-6df9eda10cd4
+title: Obtenir (échange de métadonnées) une requête et un message HTTP
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d8ad240a51fdbabf4184b8769f4e3cca6daa4244
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106518412"
+---
+# <a name="get-metadata-exchange-http-request-and-message"></a>Obtenir (échange de métadonnées) une requête et un message HTTP
+
+Un message d’extraction est un message WS-Transfer utilisé pour demander des métadonnées. Pour plus d’informations sur la récupération des messages, consultez la section 3,1 de la [spécification WS-Transfer](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf). Étant donné que l’échange de métadonnées s’effectue via HTTP, un message d’extraction est la charge utile d’une requête HTTP.
+
+Les clients DPWS envoient des messages d’extraction. Les clients de détection de fonction, les clients WSDAPI appelant [**WSDCreateDeviceProxy**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxy)et les clients wsdapi appelant [**WSDCreateDeviceProxyAdvanced**](/windows/desktop/api/WsdClient/nf-wsdclient-wsdcreatedeviceproxyadvanced) envoient ce message.
+
+> [!Note]  
+> Cette rubrique montre un exemple de message DPWS généré par les hôtes et les clients WSDAPI. WSDAPI analyse et accepte d’autres messages conformes à DPWS qui ne sont pas conformes à cet exemple. N’utilisez pas cet exemple pour vérifier l’interopérabilité DPWS. Utilisez à la place l' [outil wsdapi Basic Interoperability Tool (WSDBIT)](https://msdn.microsoft.com/library/cc264250.aspx) .
+
+ 
+
+L’exemple suivant montre un exemple d’extraction de requête HTTP.
+
+``` syntax
+POST /37f86d35-e6ac-4241-964f-1d9ae46fb366
+HTTP/1.1
+Content-Type: application/soap+xml
+User-Agent: WSDAPI
+Host: 192.168.0.2:5357
+Content-Length: 658
+Connection: Keep-Alive
+Cache-Control: no-cache
+Pragma: no-cache
+```
+
+Une requête HTTP obtenir a les points de focus suivants.
+
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Point de focus</th>
+<th>Ligne d’en-tête</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chemin d’URL</td>
+<td><pre class="syntax" data-space="preserve"><code>POST /37f86d35-e6ac-4241-964f-1d9ae46fb366</code></pre></td>
+<td>Chemin d’accès de l’URL où la requête obtenir HTTP a été publiée.</td>
+</tr>
+<tr class="even">
+<td>Hôte et port</td>
+<td><pre class="syntax" data-space="preserve"><code>Host: 192.168.0.2:5357</code></pre></td>
+<td>Hôte et port où la requête HTTP obtenir a été dirigée.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+Le message SOAP suivant montre un exemple d’extraction de message.
+
+``` syntax
+<?xml version="1.0" encoding="utf-8" ?>
+<soap:Envelope
+    xmlns:soap="https://www.w3.org/2003/05/soap-envelope"
+    xmlns:wsa="https://schemas.xmlsoap.org/ws/2004/08/addressing">
+<soap:Header>
+    <wsa:To>
+        urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
+    </wsa:To>
+    <wsa:Action>
+        https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
+    </wsa:Action>
+    <wsa:MessageID>
+        urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
+    </wsa:MessageID>
+    <wsa:ReplyTo>
+        <wsa:Address>
+            https://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous
+        </wsa:Address>
+    </wsa:ReplyTo>
+    <wsa:From>
+        <wsa:Address>
+            urn:uuid:49e131df-351a-4ece-9a6f-6a862d31cffa
+        </wsa:Address>
+    </wsa:From>
+</soap:Header>
+<soap:Body>
+</soap:Body>
+```
+
+Un message d’extraction a les points de focalisation suivants.
+
+
+
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Point de focus</th>
+<th>XML</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>À</td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:To>
+    urn:uuid:37f86d35-e6ac-4241-964f-1d9ae46fb366
+</wsa:To></code></pre></td>
+<td>Identificateur de l’appareil demandé pour les métadonnées.</td>
+</tr>
+<tr class="even">
+<td>Obtenir</td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:Action>
+    https://schemas.xmlsoap.org/ws/2004/09/transfer/Get
+</wsa:Action</code></pre></td>
+<td>L’action obtenir un SOAP identifie le message en tant que message d’extraction.</td>
+</tr>
+<tr class="odd">
+<td>MessageID</td>
+<td><pre class="syntax" data-space="preserve"><code><wsa:MessageID>
+    urn:uuid:027bec45-c37c-466c-936c-68f648abe2bb
+</wsa:MessageID></code></pre></td>
+<td>Contient l’identificateur de message, qui est référencé dans un message <a href="getresponse--metadata-exchange--message.md">GetResponse</a> .</td>
+</tr>
+</tbody>
+</table>
+
+
+
+ 
+
+## <a name="related-topics"></a>Rubriques connexes
+
+<dl> <dt>
+
+[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+</dt> <dt>
+
+[Message GetResponse](getresponse--metadata-exchange--message.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
