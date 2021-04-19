@@ -11,12 +11,12 @@ keywords:
 - Interface IDWriteTextLayout
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30fcf884c15015af2645c32e217d3b4a6b433554
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9e5790742a3d3caf7f962a6b5e2b3111c626f28
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104199346"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380753"
 ---
 # <a name="text-formatting-and-layout"></a>Mise en forme et disposition du texte
 
@@ -43,7 +43,7 @@ Pour créer un objet [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite
 
 Une fois qu’une interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) est créée, certaines valeurs ne peuvent pas être modifiées : la famille de polices, la collection, le poids et la taille, ainsi que le nom des paramètres régionaux. Pour modifier ces valeurs, vous devez créer un nouvel objet **IDWriteTextFormat** .
 
-[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) vous permet de modifier les propriétés ci-dessus sans recréer d’autres éléments. [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) vous permet d’apporter des modifications de format qui s’appliquent à l’intégralité du texte, par exemple l’alignement du texte. Si vous souhaitez appliquer une mise en forme à des plages de caractères spécifiques, vous devez le faire à l’aide d’un **IDWriteTextLayout**.
+[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) vous permet de modifier les propriétés ci-dessus sans avoir à recréer quoi que ce soit. [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) vous permet d’apporter des modifications de format qui s’appliquent à l’intégralité du texte, par exemple l’alignement du texte. Si vous souhaitez appliquer une mise en forme à des plages de caractères spécifiques, vous devez le faire à l’aide d’un **IDWriteTextLayout**.
 
 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) fournit des méthodes permettant de définir l’alignement du texte, le sens du déroulement, le taquet de tabulation incrémentiel, l’interligne, l’alignement des paragraphes, le rognage et le retour automatique à la ligne. Ces propriétés peuvent être modifiées à tout moment après la création de l’objet **IDWriteTextFormat** .
 
@@ -107,6 +107,6 @@ La chaîne décrite par un objet [**IDWriteTextLayout**](/windows/win32/api/dwri
 2.  [Rendu à l’aide d’un convertisseur de texte personnalisé](how-to-implement-a-custom-text-renderer.md).
 3.  [Rendre sur une surface GDI](render-to-a-gdi-surface.md).
 
- 
+ 
 
- 
+ 
