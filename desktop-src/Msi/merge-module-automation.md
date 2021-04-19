@@ -1,0 +1,30 @@
+---
+description: Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. L’objet principal implémente des interfaces pour les programmes C/C++ et les clients Automation, y compris Visual Basic et VBScript.
+ms.assetid: 877d3691-948f-4aea-89d8-0ff008126ccc
+title: Automatisation des modules de fusion
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d8ae27370b2ad898cf9413567285afc41d117815
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106524709"
+---
+# <a name="merge-module-automation"></a>Automatisation des modules de fusion
+
+Mergemod.dll fournit un objet COM qui implémente les opérations de fusion et la génération d’image source pour les modules de fusion. L’objet principal implémente des interfaces pour les programmes C/C++ et les clients Automation, y compris Visual Basic et VBScript.
+
+La méthode recommandée pour installer Mergemod.dll consiste à utiliser l’Windows Installer. L’ID du composant contenant l’interface COM Mergemod.dll est {FD153241-37EC-11D2-8892-00A0C981B015}. Le même binaire peut être utilisé sur tous les systèmes Windows et la dll s’inscrit automatiquement par le biais de regsvr32 sur les systèmes antérieurs.
+
+Notez que Mergemod.dll exige que le Msvcrt.dll soit installé sur le système.
+
+Notez que Mergemod.dll 2,0 est requis pour créer des [modules de fusion configurables](configurable-merge-modules.md). Mergemod.dll version 2,0 fournit des fonctionnalités étendues au moment de la génération par le biais de l’interface [**IMsmMerge2**](/windows/desktop/api/Mergemod/nn-mergemod-imsmmerge2) . Ce CLSID prend en charge toutes les fonctionnalités existantes de l’interface [**IMsmMerge**](/windows/win32/api/mergemod/nn-mergemod-imsmmerge) fournie par Mergemod.dll version 1,0. L’interface par défaut sur l’objet [**Merge**](merge-object.md) de Mergemod.dll 2,0 est l’interface **IMsmMerge2** au lieu de l’interface **IMsmMerge** .
+
+[Modèle objet pour Mergemod.dll version 1,0](object-model-for-mergemod-dll-version-1-0.md)
+
+[Modèle objet pour Mergemod.dll version 2,0](object-model-for-mergemod-dll-version-2-0.md)
+
+ 
+
+ 
