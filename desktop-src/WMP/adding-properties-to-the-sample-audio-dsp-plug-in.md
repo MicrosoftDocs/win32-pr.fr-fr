@@ -1,0 +1,66 @@
+---
+title: Ajout de propriétés à l’exemple de plug-in DSP audio
+description: Ajout de propriétés à l’exemple de plug-in DSP audio
+ms.assetid: 9c6c2a34-4844-476b-8814-a95a236e75bb
+keywords:
+- Plug-ins du lecteur Windows Media, DSP audio
+- plug-ins, DSP audio
+- plug-ins de traitement de signal numérique, propriétés audio
+- Plug-ins DSP, propriétés audio
+- plug-ins DSP audio, propriétés
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d180ab1054631b09997ac986529a641e6ff05ec3
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "106511628"
+---
+# <a name="adding-properties-to-the-sample-audio-dsp-plug-in"></a><span data-ttu-id="19299-108">Ajout de propriétés à l’exemple de plug-in DSP audio</span><span class="sxs-lookup"><span data-stu-id="19299-108">Adding Properties to the Sample Audio DSP Plug-in</span></span>
+
+<span data-ttu-id="19299-109">L’exemple de code DSP audio généré par l’Assistant de plug-in du lecteur Windows Media utilise une propriété unique qui représente le facteur d’échelle du volume audio.</span><span class="sxs-lookup"><span data-stu-id="19299-109">The audio DSP sample code that the Windows Media Player Plug-in Wizard generates uses a single property that represents the scale factor for the audio volume.</span></span> <span data-ttu-id="19299-110">Votre plug-in peut nécessiter plus d’une propriété.</span><span class="sxs-lookup"><span data-stu-id="19299-110">Your plug-in may require more than one property.</span></span> <span data-ttu-id="19299-111">Vous pouvez facilement ajouter des propriétés à votre plug-in DSP dans Visual Studio en procédant comme suit :</span><span class="sxs-lookup"><span data-stu-id="19299-111">You can easily add properties to your DSP plug-in in Visual Studio using the following steps:</span></span>
+
+-   <span data-ttu-id="19299-112">Définissez les méthodes dans le code de définition d’interface dans le fichier IDL qui fait partie du projet proxy-stub.</span><span class="sxs-lookup"><span data-stu-id="19299-112">Define the methods in the interface definition code in the IDL file that is part of the proxy-stub project.</span></span>
+    -   <span data-ttu-id="19299-113">Ajoutez les implémentations de méthode au fichier CPP principal du projet :</span><span class="sxs-lookup"><span data-stu-id="19299-113">Add the method implementations to the project's main CPP file:</span></span>
+
+    ```C++
+    STDMETHODIMP CYourProject::get_color(COLORREF *pColor)
+    {
+        if ( NULL == pColor )
+        {
+            return E_POINTER;
+        }
+
+        *pColor = m_Color;
+
+        return S_OK;
+    }
+
+    STDMETHODIMP CYourProject::put_color(COLORREF newColor)
+    {
+        m_Color = newColor;
+        
+        return S_OK;
+    }
+    
+    ```
+
+    
+
+<span data-ttu-id="19299-114">Enfin, pour rendre les propriétés accessibles à l’utilisateur, vous devez apporter des modifications à l’implémentation de la page de propriétés.</span><span class="sxs-lookup"><span data-stu-id="19299-114">Finally, to make the properties accessible to the user, you'll want to make changes to the property page implementation.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="19299-115">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="19299-115">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="19299-116">**Implémentation d’un plug-in DSP audio**</span><span class="sxs-lookup"><span data-stu-id="19299-116">**Implementing an Audio DSP Plug-in**</span></span>](implementing-an-audio-dsp-plug-in.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

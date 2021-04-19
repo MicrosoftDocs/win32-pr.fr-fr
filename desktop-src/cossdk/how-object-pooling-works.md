@@ -1,0 +1,57 @@
+---
+description: Quand vous configurez un composant à regrouper, COM+ gère les instances de celui-ci dans un pool, prêt à être activé pour n’importe quel client demandant le composant. Toute demande de création d’objet sera gérée par le gestionnaire de pool.
+ms.assetid: 34978b50-cd20-42fd-ad46-410190478ef8
+title: Fonctionnement du regroupement d’objets
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f78784fc0e5362c14ceb598b404976c6ca494a19
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106513319"
+---
+# <a name="how-object-pooling-works"></a><span data-ttu-id="1cd2b-104">Fonctionnement du regroupement d’objets</span><span class="sxs-lookup"><span data-stu-id="1cd2b-104">How Object Pooling Works</span></span>
+
+<span data-ttu-id="1cd2b-105">Quand vous configurez un composant à regrouper, COM+ gère les instances de celui-ci dans un pool, prêt à être activé pour n’importe quel client demandant le composant.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-105">When you configure a component to be pooled, COM+ will maintain instances of it in a pool, ready to be activated for any client requesting the component.</span></span> <span data-ttu-id="1cd2b-106">Toute demande de création d’objet sera gérée par le gestionnaire de pool.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-106">Any object creation requests will be handled through the pool manager.</span></span>
+
+<span data-ttu-id="1cd2b-107">Les pools sont configurés et gérés pour chaque composant.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-107">Pools are configured and maintained on a per-component basis.</span></span> <span data-ttu-id="1cd2b-108">Un pool se compose d’objets homogènes qui partagent le même CLSID.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-108">A pool consists of homogeneous objects that share the same CLSID.</span></span> <span data-ttu-id="1cd2b-109">La seule exception concerne les objets transactionnels, pour lesquels les sous-pools sont conservés et qui contiennent des objets qui ont une affinité de transaction alors qu’une transaction est en attente.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-109">The only exception is for transactional objects, for which subpools are maintained containing objects that have transaction affinity while a transaction is pending.</span></span>
+
+<span data-ttu-id="1cd2b-110">Lorsque l’application démarre, le pool est rempli au niveau minimal que vous avez spécifié de manière administrative, à condition que la création de l’objet aboutisse.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-110">When the application starts, the pool will be populated up to the minimum level that you have administratively specified, as long as object creation succeeds.</span></span> <span data-ttu-id="1cd2b-111">À mesure que les demandes des clients du composant arrivent, elles sont satisfaites sur la base du premier arrivé, premier servi.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-111">As client requests for the component come in, they are satisfied on a first-come first-served basis from the pool.</span></span> <span data-ttu-id="1cd2b-112">Si aucun objet regroupé n’est disponible et que le pool n’est pas encore à son niveau maximal spécifié, un nouvel objet est créé et activé pour le client.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-112">If no pooled objects are available and the pool is not yet at its specified maximum level, a new object is created and activated for the client.</span></span>
+
+<span data-ttu-id="1cd2b-113">Lorsque le pool atteint son niveau maximal, les demandes des clients sont mises en file d’attente et reçoivent le premier objet disponible du pool.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-113">When the pool reaches its maximum level, client requests are queued and will receive the first available object from the pool.</span></span> <span data-ttu-id="1cd2b-114">Le nombre d’objets, y compris activés et désactivés, ne dépassera jamais la valeur maximale du pool.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-114">The number of objects, including both activated and deactivated, will never exceed the maximum pool value.</span></span> <span data-ttu-id="1cd2b-115">Les demandes de création d’objet expirent après une période spécifiée administrativement, ce qui vous permet de contrôler la durée pendant laquelle les clients attendent la création de l’objet.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-115">Object creation requests will time out after an administratively specified period so that you can control how long clients will wait for object creation.</span></span> <span data-ttu-id="1cd2b-116">En cas de dépassement du délai d’attente, le client renvoie l’erreur E \_ Timeout de [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).</span><span class="sxs-lookup"><span data-stu-id="1cd2b-116">Upon a time-out failure, the client will get back the error E\_TIMEOUT from [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance).</span></span>
+
+<span data-ttu-id="1cd2b-117">Chaque fois que cela est possible, COM+ tente de réutiliser un objet une fois qu’il a été libéré par un client, jusqu’à ce que le pool atteigne son niveau maximal.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-117">Whenever possible, COM+ will attempt to reuse an object after a client releases it, until the pool reaches its maximum level.</span></span> <span data-ttu-id="1cd2b-118">L’objet est chargé de surveiller son état afin de déterminer s’il peut être réutilisé et doit retourner une valeur appropriée pour [**IObjectControl :: CanBePooled**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled).</span><span class="sxs-lookup"><span data-stu-id="1cd2b-118">The object is responsible for monitoring its state to determine whether it can be reused and should return an appropriate value for [**IObjectControl::CanBePooled**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled).</span></span>
+
+<span data-ttu-id="1cd2b-119">Lorsqu’un objet regroupé est créé, il est agrégé dans un objet plus grand qui gère la durée de vie de l’objet.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-119">When a pooled object is created, it is aggregated into a larger object that will manage the object's lifetime.</span></span> <span data-ttu-id="1cd2b-120">L’objet externe appelle les méthodes sur [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol) aux moments opportuns dans le cycle de vie de l’objet, comme suit :</span><span class="sxs-lookup"><span data-stu-id="1cd2b-120">The outer object calls methods on [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol) at appropriate times in the object's life cycle, as follows:</span></span>
+
+-   <span data-ttu-id="1cd2b-121">La méthode [**Activate**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-activate) est appelée chaque fois que l’objet est retourné à un client, activé dans un contexte spécifique.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-121">The [**Activate**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-activate) method is called whenever the object is returned to a client, activated in a specific context.</span></span>
+-   <span data-ttu-id="1cd2b-122">La méthode [**Deactivate**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate) est appelée chaque fois qu’un objet est libéré par le client ou, dans le cas d’un objet activé juste-à-temps, lorsqu’il est désactivé.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-122">The [**Deactivate**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-deactivate) method is called whenever an object is released by the client or, in the case of a JIT-activated object, when it is deactivated.</span></span>
+-   <span data-ttu-id="1cd2b-123">La méthode [**CanBePooled**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled) est appelée chaque fois qu’un objet doit être retourné au pool général.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-123">The [**CanBePooled**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontrol-canbepooled) method is called whenever an object is to be returned to the general pool.</span></span> <span data-ttu-id="1cd2b-124">Si l’objet détecte qu’une ressource réutilisable est dans un état incorrect, il doit retourner la **valeur false** pour cette méthode et le gestionnaire de pool ignore l’objet.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-124">If the object detects that some reusable resource is in a bad state, it should return **FALSE** for this method and the pool manager will discard the object.</span></span>
+
+<span data-ttu-id="1cd2b-125">Un objet n’a pas nécessairement besoin d’implémenter [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol).</span><span class="sxs-lookup"><span data-stu-id="1cd2b-125">An object does not necessarily need to implement [**IObjectControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-iobjectcontrol).</span></span> <span data-ttu-id="1cd2b-126">Si ce n’est pas le cas, les instances sont toujours réutilisées jusqu’à ce que le niveau maximal du pool soit atteint.</span><span class="sxs-lookup"><span data-stu-id="1cd2b-126">If it does not, instances will always be reused, until the pool maximum level is reached.</span></span>
+
+<span data-ttu-id="1cd2b-127">Pour plus d’informations sur la façon de configurer les composants à regrouper, consultez [configuration d’un composant à regrouper](configuring-a-component-to-be-pooled.md).</span><span class="sxs-lookup"><span data-stu-id="1cd2b-127">For details about how to configure components to be pooled, see [Configuring a Component to Be Pooled](configuring-a-component-to-be-pooled.md).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="1cd2b-128">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="1cd2b-128">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="1cd2b-129">Chaînes du constructeur d’objet COM+</span><span class="sxs-lookup"><span data-stu-id="1cd2b-129">COM+ Object Constructor Strings</span></span>](com--object-constructor-strings.md)
+</dt> <dt>
+
+[<span data-ttu-id="1cd2b-130">Contrôle de la durée de vie et de l’état des objets</span><span class="sxs-lookup"><span data-stu-id="1cd2b-130">Controlling Object Lifetime and State</span></span>](controlling-object-lifetime-and-state.md)
+</dt> <dt>
+
+[<span data-ttu-id="1cd2b-131">Amélioration des performances avec la mise en pool d’objets</span><span class="sxs-lookup"><span data-stu-id="1cd2b-131">Improving Performance with Object Pooling</span></span>](improving-performance-with-object-pooling.md)
+</dt> <dt>
+
+[<span data-ttu-id="1cd2b-132">Regroupement d’objets transactionnels</span><span class="sxs-lookup"><span data-stu-id="1cd2b-132">Pooling Transactional Objects</span></span>](pooling-transactional-objects.md)
+</dt> <dt>
+
+[<span data-ttu-id="1cd2b-133">Conditions requises pour les objets regroupables</span><span class="sxs-lookup"><span data-stu-id="1cd2b-133">Requirements for Poolable Objects</span></span>](requirements-for-poolable-objects.md)
+</dt> </dl>
+
+ 
+
+ 
