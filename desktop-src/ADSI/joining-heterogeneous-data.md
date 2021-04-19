@@ -5,12 +5,12 @@ ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6d0303ee933b81f0c8553b6b0adae64db7f48d
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7e1099028bc85dc6492eade0315b7308b4c6aaa9
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103841918"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314612"
 ---
 # <a name="joining-heterogeneous-data"></a>Jointure de données hétérogènes
 
@@ -69,7 +69,7 @@ Avec, SQL Server 7,0, ADSI et le fournisseur OLE DB, il est possible de joindre 
 
     Dans l’exemple précédent, la requête LDAP se compose de quatre parties :
 
-    -   " <LDAP://DC=Fabrikam,DC=COM> " est le nom unique du serveur d’annuaire à rechercher.
+    -   " \<LDAP://DC=Fabrikam,DC=COM> " est le nom unique du serveur d’annuaire à rechercher.
     -   « (& (objectCategory = person) (objectClass = user)) » est le filtre de recherche LDAP (voir la [syntaxe du filtre de recherche](search-filter-syntax.md)).
     -   « Name, ADsPath » sont les noms (à l’aide du format de nom complet LDAP) des attributs à récupérer.
     -   « sous-arborescence » indique l' [étendue](scope-of-query.md) de la recherche.
@@ -81,9 +81,9 @@ Avec, SQL Server 7,0, ADSI et le fournisseur OLE DB, il est possible de joindre 
 [Création et exécution d’une vue](creating-and-executing-a-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
