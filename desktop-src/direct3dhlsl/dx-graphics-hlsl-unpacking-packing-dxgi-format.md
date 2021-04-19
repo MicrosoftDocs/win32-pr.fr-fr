@@ -9,16 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c613a3f0068537733961b58a8a4c2b4528d21f25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04f3729bbeda5b0677da9d52e595e621523ff2d1
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309577"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106537736"
 ---
 # <a name="unpacking-and-packing-dxgi_format-for-in-place-image-editing"></a>Décompresser et compresser le \_ format DXGI pour la modification des images In-Place
 
 Le \_ fichier D3DX DXGIFormatConvert. inl contient des fonctions de conversion de format Inline que vous pouvez utiliser dans le nuanceur de calcul ou le nuanceur de pixels sur du matériel Direct3D 11. Vous pouvez utiliser ces fonctions dans votre application pour lire et écrire simultanément dans une texture. Autrement dit, vous pouvez effectuer une modification d’image sur place. Pour utiliser ces fonctions de conversion de format Inline, incluez le \_ fichier D3DX DXGIFormatConvert. inl dans votre application.
+
+> L' \_ en-tête D3DX DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité. Il est également inclus dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) .
 
 La vue d’accès non ordonnée (UAV) de Direct3D 11 d’une ressource Texture1D, Texture2D ou Texture3D prend en charge les lectures et écritures d’accès aléatoires dans la mémoire à partir d’un nuanceur de calcul ou d’un nuanceur de pixels. Toutefois, Direct3D 11 prend en charge simultanément la lecture et l’écriture dans uniquement le \_ format de texture dxgi format \_ R32 \_ uint. Par exemple, Direct3D 11 ne prend pas en charge simultanément la lecture et l’écriture dans d’autres formats plus utiles, tels que le \_ format dxgi \_ R8G8B8A8 \_ UNORM. Vous pouvez utiliser uniquement un UAV pour l’accès aléatoire en écriture dans de tels formats, ou vous pouvez utiliser uniquement un nuanceur Affichage des ressources (SRV) pour accéder de manière aléatoire à la lecture à partir d’autres formats. Le matériel de conversion de format n’est pas disponible pour la lecture et l’écriture simultanées dans d’autres formats.
 
@@ -63,7 +65,7 @@ Par exemple, le format \_ dxgi \_ R10G10B10A2 \_ UNORM est un descendant du form
 > [!Note]  
 > Si le nuanceur doit écrire uniquement dans un UAV ou être lu en tant que SRV, aucune de ces tâches de conversion n’est nécessaire, car vous pouvez utiliser UAVs ou SRVs entièrement typé. Les fonctions de conversion de format fournies dans D3DX \_ DXGIFormatConvert. inl sont potentiellement utiles uniquement si vous souhaitez effectuer des opérations de lecture et d’écriture simultanées dans le UAV d’une texture.
 
- 
+ 
 
 La liste suivante répertorie les fonctions de conversion de format incluses dans le \_ fichier D3DX DXGIFormatConvert. inl. Ces fonctions sont classées par le \_ format dxgi qu’elles décompressent et compressent. Chacun des formats pris en charge descend de l’un des formats non TYPÉs listés dans le scénario précédent et prend en charge le casting au \_ format dxgi \_ R32 \_ uint en tant que UAV.
 
@@ -123,7 +125,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 > [!Note]  
 > La \_ fonction inexact-type utilise des instructions de nuanceur qui n’ont pas une précision suffisamment élevée pour fournir la réponse exacte. La fonction alternative utilise une table de recherche stockée dans le nuanceur pour fournir une conversion de virgule flottante en SRGB >exacte.
 
- 
+ 
 
 </dd> <dt>
 
@@ -194,7 +196,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 > [!Note]  
 > La \_ fonction inexact-type utilise des instructions de nuanceur qui n’ont pas une précision suffisamment élevée pour fournir la réponse exacte. La fonction alternative utilise une table de recherche stockée dans le nuanceur pour fournir une conversion de virgule flottante en SRGB >exacte.
 
- 
+ 
 
 </dd> <dt>
 
@@ -226,7 +228,7 @@ UINT     D3DX_FLOAT3_to_B8G8R8X8_UNORM_SRGB(hlsl_precise XMFLOAT3 unpackedInput)
 > [!Note]  
 > La \_ fonction inexact-type utilise des instructions de nuanceur qui n’ont pas une précision suffisamment élevée pour fournir la réponse exacte. La fonction alternative utilise une table de recherche stockée dans le nuanceur pour fournir une conversion de virgule flottante en SRGB >exacte.
 
- 
+ 
 
 </dd> <dt>
 
@@ -307,9 +309,9 @@ UINT   D3DX_INT2_to_R16G16_SINT(XMINT2 unpackedInput)
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
