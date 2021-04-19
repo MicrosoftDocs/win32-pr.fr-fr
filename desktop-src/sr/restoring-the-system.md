@@ -1,0 +1,32 @@
+---
+title: Restauration du système
+description: À mesure que l’ordinateur est utilisé au fil du temps, les points de restauration sont collectés dans l’archive de données sans aucune gestion ou intervention requise de la part de l’utilisateur.
+ms.assetid: 9581eff5-44d0-407e-b7cb-d3e13910a936
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: c4c5ff4aef88ec9eca591ee3c1afb1ad570689a1
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "106527136"
+---
+# <a name="restoring-the-system"></a><span data-ttu-id="ab2b9-103">Restauration du système</span><span class="sxs-lookup"><span data-stu-id="ab2b9-103">Restoring the System</span></span>
+
+<span data-ttu-id="ab2b9-104">À mesure que l’ordinateur est utilisé au fil du temps, les points de restauration sont collectés dans l’archive de données sans aucune gestion ou intervention requise de la part de l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-104">As the computer is used over time, restore points are collected in the data archive without any management or intervention required by the user.</span></span> <span data-ttu-id="ab2b9-105">Si l’utilisateur doit restaurer le système à un état antérieur, les points de restauration disponibles sont rendus visibles à l’utilisateur par le biais de l’interface utilisateur de la restauration du système.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-105">If the user ever needs to restore the system to a previous state, the available restore points are made visible to the user through the System Restore user interface.</span></span> <span data-ttu-id="ab2b9-106">L’utilisateur peut choisir n’importe lequel de ces points de restauration.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-106">The user can choose any of these restore points.</span></span> <span data-ttu-id="ab2b9-107">La seule façon d’accéder à cette archive des points de restauration consiste à utiliser l’interface utilisateur de la restauration du système et l’API de restauration du système. Cela permet de protéger l’intégrité des données et d’empêcher les modifications accidentelles apportées par l’utilisateur, les applications ou d’autres agents.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-107">The only way to access this archive of restore points is through the System Restore user interface and the System Restore API; this is to protect data integrity and prevent accidental changes made by the user, applications, or other agents.</span></span>
+
+<span data-ttu-id="ab2b9-108">Pour restaurer un système, la restauration du système annule les modifications apportées aux fichiers surveillés, en recapturant l’état du fichier au moment du point de restauration sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-108">To restore a system, System Restore undoes file changes made to monitored files, recapturing the file state at the time of the selected restore point.</span></span> <span data-ttu-id="ab2b9-109">Il remplace ensuite le registre actuel par celui enregistré pour le point de restauration sélectionné.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-109">It then replaces the current registry with the one saved for the selected restore point.</span></span>
+
+<span data-ttu-id="ab2b9-110">Pour vous assurer que votre application a le comportement souhaité après une restauration, procédez comme suit :</span><span class="sxs-lookup"><span data-stu-id="ab2b9-110">To ensure that your application has the desired behavior after a restore, do the following:</span></span>
+
+-   <span data-ttu-id="ab2b9-111">Ne stockez pas d’informations dans le Registre qui empêche l’accès des utilisateurs aux fichiers de données personnels ou aux applications lors de la restauration du système.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-111">Do not store information in the registry that prevents user access to personal data files or applications on system restore.</span></span> <span data-ttu-id="ab2b9-112">Dans le cas contraire, vous devez fournir un mécanisme permettant à l’utilisateur de télécharger et de réinstaller les applications sans avoir à les payer à nouveau.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-112">Otherwise, you must provide a mechanism by which the user can download and reinstall the applications without having to pay for them again.</span></span>
+-   <span data-ttu-id="ab2b9-113">Utilisez l' [API de restauration du système](system-restore-api.md) pour créer des points de restauration significatifs lors de l’installation et de la désinstallation.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-113">Use the [System Restore API](system-restore-api.md) to create meaningful restore points at install and uninstall.</span></span>
+-   <span data-ttu-id="ab2b9-114">Dans Windows XP, les binaires d’application clés à protéger doivent utiliser des extensions conformes à celles utilisées dans Filelist.xml.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-114">In Windows XP, the key application binaries to be protected must use extensions consistent with those used in Filelist.xml.</span></span> <span data-ttu-id="ab2b9-115">Pour plus d’informations, consultez [extensions de nom de fichier surveillées](monitored-file-extensions.md).</span><span class="sxs-lookup"><span data-stu-id="ab2b9-115">For more information, see [Monitored File Name Extensions](monitored-file-extensions.md).</span></span> <span data-ttu-id="ab2b9-116">Ce fichier n’est pas utilisé par Windows 7 et Windows Vista.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-116">This file is not used by Windows 7 and Windows Vista.</span></span> <span data-ttu-id="ab2b9-117">N’utilisez pas de types d’extension analysés pour les fichiers modifiables par l’utilisateur.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-117">Do not use monitored extension types for user-editable files.</span></span> <span data-ttu-id="ab2b9-118">Par exemple, si vous nommez le fichier de données personnel d’un utilisateur à l’aide de l’extension. ini, l’utilisateur peut perdre son travail suite à une restauration du système.</span><span class="sxs-lookup"><span data-stu-id="ab2b9-118">For example, if you name a user's personal data file using the extension .ini, the user may lose work as a result of a system restore.</span></span>
+
+ 
+
+ 
+
+
+
+
