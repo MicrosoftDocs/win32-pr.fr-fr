@@ -1,0 +1,79 @@
+---
+title: Méthode MediaRenderer. PauseAsync
+description: Ordonne à DMR de suspendre de manière asynchrone la diffusion du contenu actuel. | Méthode MediaRenderer. PauseAsync
+ms.assetid: 1bd36349-0551-44e8-9550-3fd80900de9a
+keywords:
+- API de diffusion multimédia en continu de méthode PauseAsync
+- API de diffusion multimédia en continu de méthode PauseAsync, interface MediaRenderer
+- API de diffusion multimédia en continu de l’interface MediaRenderer, méthode PauseAsync
+topic_type:
+- apiref
+api_name:
+- MediaRenderer.PauseAsync
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 2bbbc55931c7cc7fc5e2e5ec39ba63fe7a064478
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "106531301"
+---
+# <a name="mediarendererpauseasync-method"></a>Méthode MediaRenderer. PauseAsync
+
+Ordonne à DMR de suspendre de manière asynchrone la diffusion du contenu actuel.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT PauseAsync(
+  [out] PlaybackOperation **value
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*valeur* \[ à\]
+</dt> <dd>
+
+Reçoit une référence à un objet [**PlaybackOperation**](playbackoperation.md) qui est utilisé pour obtenir les résultats de l’opération asynchrone.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+
+
+
+| Code de retour                                                                          | Description                      |
+|--------------------------------------------------------------------------------------|----------------------------------|
+| <dl> <dt>**\_OK**</dt> </dl> | S_OK<br/> |
+
+
+
+ 
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**MediaRenderer**](mediarenderer.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
