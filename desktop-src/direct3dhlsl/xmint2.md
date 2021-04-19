@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e71eb1470ddef65b73523ef904274d0e490c7188
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1e93e26933ad6b3829848e7e826d8d9685e9f141
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974447"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222857"
 ---
 # <a name="xmint2-structure"></a>XMINT2, structure
 
@@ -55,7 +55,15 @@ composant y du vecteur.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+
+
+## <a name="remarks"></a>Remarques
+
+Cette structure est définie dans l' ``D3DX\_DXGIFormatConvert.inl`` en-tête dans le kit de développement logiciel (SDK) DirectX (juin 2010) pour une utilisation à partir de C++. La dernière version de cet en-tête dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) ne le définit plus et s’appuie sur [DirectX :: XMINT2](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmint2) dans DirectXMath à la place.
+
+
+
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -74,12 +82,3 @@ composant y du vecteur.
 
 [Décompresser et compresser le \_ format DXGI pour la modification des images In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-

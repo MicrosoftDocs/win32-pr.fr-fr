@@ -62,12 +62,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 510f718608363c547c8333279826cc8bac141358
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e8979b4e4842a4c84317b456802ed8f1beefea35
+ms.sourcegitcommit: 1d3c59a7066a75facc0565027251cad1ca1dd9c9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211303"
+ms.lasthandoff: 04/18/2021
+ms.locfileid: "107594164"
 ---
 # <a name="semantics"></a>Sémantique
 
@@ -98,7 +98,9 @@ Cette sémantique a un sens lorsqu’elle est attachée à un paramètre de nuan
 | PSIZE \[ n\] | Taille du point | float |
 | TANGENT \[ n\] | Tangente | float4 |
 | TEXCOORD \[ n\] | Coordonnées de texture | float4 |
+
 | Output | Description | Type |
+|-|-|-|
 | COULEUR \[ n\] | Couleur diffuse ou spéculaire | float4 |
 | VONT | Brouillard du vertex | float |
 | POSITION \[ n\] | Position d’un vertex dans un espace homogène. Placez la position dans l’espace à l’écran en divisant (x, y, z) par w. Chaque nuanceur vertex doit écrire un paramètre avec cette sémantique. | float4 |
@@ -150,22 +152,22 @@ Cette sémantique est disponible dans le <a href="dx-graphics-hlsl-sm3.md">modè
 <td>Emplacement de pixel (x, y) dans l’espace à l’écran. Pour convertir un nuanceur Direct3D 9 (qui utilise cette sémantique) en un nuanceur Direct3D 10 et versions ultérieures, consultez <a href="#direct3d-9-vpos-and-direct3d-10-sv_position">Direct3D 9 VPOS et Direct3D 10 SV_Position</a>)</td>
 <td>float2</td>
 </tr>
-<tr class="odd">
-<td>Output</td>
-<td>Description</td>
-<td>Type</td>
+</tbody>
+</table>
+
+<table>
+<th>Output</th>
+<th>Description</th>
+<th>Type</th>
 </tr>
-<tr class="even">
 <td>COULEUR [n]</td>
 <td>Couleur de sortie</td>
 <td>float4</td>
 </tr>
-<tr class="odd">
 <td>PROFONDEUR [n]</td>
 <td>Profondeur de sortie</td>
 <td>float</td>
 </tr>
-</tbody>
 </table>
 
 `n` est un entier facultatif compris entre 0 et le nombre de ressources prises en charge. Par exemple, PSIZE0, COLOR1, etc.
