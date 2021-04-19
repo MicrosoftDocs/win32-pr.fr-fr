@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2842236bfd0a2875576af7235aefa5dce2db8bd6
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
-ms.translationtype: HT
+ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104990868"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222877"
 ---
 # <a name="format-conversion-functions-hlsl-reference"></a>Fonctions de conversion de format (référence HLSL)
 
@@ -22,6 +22,8 @@ La section contient les fonctions de conversion de format utilisées dans les nu
 
 -   [Fonctions de convertisseur](#converter-functions)
 -   [Rubriques connexes](#related-topics)
+
+> L’en-tête D3DX_DXGIFormatConvert. inl est fourni dans le SDK DirectX hérité et s’appuyait sur XNAMath pour la prise en charge de C++. Il est également inclus dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) . La dernière version utilise DirectXMath pour la prise en charge de C++, et toutes les fonctions sont définies dans l’espace de noms **DirectX** C++.
 
 ## <a name="converter-functions"></a>Fonctions de convertisseur
 
@@ -166,10 +168,6 @@ La section contient les fonctions de conversion de format utilisées dans les nu
 [Décompresser et compresser le \_ format DXGI pour la modification des images In-Place](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
-
-
+ 
