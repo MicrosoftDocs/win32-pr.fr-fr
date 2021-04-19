@@ -1,0 +1,111 @@
+---
+title: Type complexe LocalizationType
+description: Définit un groupe de ressources localisées que vous référencez dans votre manifeste. | Type complexe LocalizationType
+ms.assetid: fecab4e0-7136-4b13-8c24-bebbad0812e6
+keywords:
+- LocalizationType type complexe EventLog
+topic_type:
+- apiref
+api_name:
+- LocalizationType
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: cbb6911ea606ea30d8e656f20b4c566d4f6d0e08
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "106531483"
+---
+# <a name="localizationtype-complex-type"></a>Type complexe LocalizationType
+
+Définit un groupe de ressources localisées que vous référencez dans votre manifeste.
+
+``` syntax
+<xs:complexType name="LocalizationType">
+    <xs:choice
+        minOccurs="0"
+        maxOccurs="unbounded"
+    >
+        <xs:element name="resources">
+            <xs:complexType>
+                <xs:choice
+                    minOccurs="0"
+                    maxOccurs="unbounded"
+                >
+                    <xs:element name="stringTable"
+                        type="StringTableType"
+                     />
+                </xs:choice>
+                <xs:attribute name="culture"
+                    type="string"
+                    use="required"
+                 />
+                <xs:anyAttribute
+                    processContents="lax"
+                    namespace="##other"
+                 />
+            </xs:complexType>
+        </xs:element>
+        <xs:any
+            processContents="lax"
+            minOccurs="0"
+            namespace="##other"
+         />
+    </xs:choice>
+    <xs:attribute name="fallbackCulture"
+        type="string"
+        default="en-us"
+        use="optional"
+     />
+    <xs:anyAttribute
+        processContents="lax"
+        namespace="##other"
+     />
+</xs:complexType>
+```
+
+## <a name="child-elements"></a>Éléments enfants
+
+
+
+| Élément                                                                         | Type                                                                       | Description                                                                                                         |
+|---------------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| [**situées**](eventmanifestschema-resources-localizationtype-element.md)     |                                                                            | Définit un groupe de tables de chaînes qui contiennent les chaînes localisées que vous référencez dans votre manifeste.<br/> |
+| [**stringTable**](eventmanifestschema-stringtable-localizationtype-element.md) | [**StringTableType**](eventmanifestschema-stringtabletype-complextype.md) | Définit une liste de chaînes localisées que vous pouvez référencer dans votre manifeste.<br/>                             |
+
+
+
+## <a name="attributes"></a>Attributs
+
+
+
+| Nom            | Type   | Description                                                                                                                                            |
+|-----------------|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| culture         | string | Nom de langage qui identifie la culture des chaînes localisées dans la table de chaînes. Par exemple, « en-US » pour l’anglais (États-Unis).<br/> |
+| fallbackCulture | string | Non utilisé.<br/>                                                                                                                                   |
+
+
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
