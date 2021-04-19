@@ -4,12 +4,12 @@ description: Certains proxys et serveurs requièrent une authentification avant 
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36a8eaa38f61f0d97f1f543e0623313aa196aab7
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: e82d8cd93f1010c71560d856793ad06d8bc5d9d5
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104032022"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380853"
 ---
 # <a name="handling-authentication"></a>Gestion de l’authentification
 
@@ -21,7 +21,7 @@ Si l’authentification est requise, l’application cliente reçoit un code d�
 
 Chaque en-tête de réponse Authenticate contient un schéma d’authentification disponible et un domaine. Si plusieurs schémas d’authentification sont pris en charge, le serveur retourne plusieurs en-têtes de réponse d’authentification. La valeur de domaine est sensible à la casse et définit un espace de protection sur le proxy ou le serveur. Par exemple, l’en-tête « WWW-Authenticate : Basic Realm = » exemple «» est un exemple d’en-tête retourné lorsque l’authentification du serveur est requise.
 
-L’application cliente qui a envoyé la demande peut s’authentifier en incluant un champ d’en-tête d’autorisation avec la requête. L’en-tête Authorization contient le schéma d’authentification et la réponse appropriée requis par ce schéma. Par exemple, l’en-tête « Authorization : Basic <username : password> » est ajouté à la demande et renvoyé au serveur si le client a reçu l’en-tête de réponse Authenticate « WWW-Authenticate : Basic Realm = » example «».
+L’application cliente qui a envoyé la demande peut s’authentifier en incluant un champ d’en-tête d’autorisation avec la requête. L’en-tête Authorization contient le schéma d’authentification et la réponse appropriée requis par ce schéma. Par exemple, l’en-tête « Authorization : Basic \<username:password> » est ajouté à la demande et renvoyé au serveur si le client a reçu l’en-tête de réponse d’authentification « www-Authenticate : Basic Realm = » example «».
 
 Il existe deux types généraux de schémas d’authentification :
 
@@ -47,7 +47,7 @@ Le tableau suivant répertorie les schémas d’authentification, le type d’au
 
 
 
- 
+ 
 
 Pour tout autre chose que l’authentification de base, les clés de Registre doivent être configurées en plus de l’installation de la DLL appropriée.
 
@@ -244,8 +244,8 @@ switch (dwStatus)
 > [!Note]  
 > WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,18 +4,18 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: Indicateurs d’informations de requête (WinHTTP. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9ffc8f4ba4a947fe6fb277617c99460c43ffb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
+ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034731"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107385887"
 ---
 # <a name="query-info-flags-winhttph"></a>Indicateurs d’informations de requête (WinHTTP. h)
 
-Ces attributs et modificateurs sont utilisés par [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+Ces attributs et modificateurs sont utilisés par [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
-Les indicateurs d’attribut sont utilisés par [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) pour indiquer les informations à récupérer. La plupart des indicateurs d’attribut sont directement mappés à un en-tête HTTP spécifique. Il existe également des indicateurs spéciaux, tels que \_ \_ les en-têtes de requête WinHTTP bruts \_ , qui ne sont pas associés à un en-tête spécifique.
+Les indicateurs d’attribut sont utilisés par [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) pour indiquer les informations à récupérer. La plupart des indicateurs d’attribut sont directement mappés à un en-tête HTTP spécifique. Il existe également des indicateurs spéciaux, tels que \_ \_ les en-têtes de requête WinHTTP bruts \_ , qui ne sont pas associés à un en-tête spécifique.
 
 <dl> <dt>
 
@@ -84,7 +84,7 @@ Récupère le champ d’en-tête de réponse d’âge, qui contient l’estimati
 
 
 
-Reçoit le [*verbe http*](glossary.md)s pris en charge par le serveur.
+Reçoit les [**verbes HTTP**](glossary.md) pris en charge par le serveur.
 
 
 </dt> </dl> </dd> <dt>
@@ -274,7 +274,7 @@ Non pris en charge.
 
 
 
-Fait en sorte que [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) recherche le nom d’en-tête spécifié dans le paramètre *pwszName* et stocke les informations d’en-tête dans *lpBuffer*. Une application peut utiliser **l' \_ option WinHTTP \_ recevoir le \_ \_ délai de réponse** pour limiter la durée maximale pendant laquelle cette requête attend que tous les en-têtes soient reçus.
+Fait en sorte que [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) recherche le nom d’en-tête spécifié dans le paramètre *pwszName* et stocke les informations d’en-tête dans *lpBuffer*. Une application peut utiliser **l' \_ option WinHTTP \_ recevoir le \_ \_ délai de réponse** pour limiter la durée maximale pendant laquelle cette requête attend que tous les en-têtes soient reçus.
 
 
 </dt> </dl> </dd> <dt>
@@ -769,7 +769,7 @@ Récupère le schéma et le domaine d’authentification retournés par le serve
 
 </dt> </dl> </dd> </dl>
 
-Les indicateurs de modificateur sont utilisés conjointement avec un indicateur d’attribut pour modifier la requête. Les indicateurs de modificateur modifient le format des données retournées ou indiquent où la fonction [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) doit rechercher les informations.
+Les indicateurs de modificateur sont utilisés conjointement avec un indicateur d’attribut pour modifier la requête. Les indicateurs de modificateur modifient le format des données retournées ou indiquent où la fonction [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) doit rechercher les informations.
 
 <dl> <dt>
 
@@ -798,29 +798,19 @@ Interroge uniquement les en-têtes de demande.
 
 
 
-Retourne la valeur d’en-tête en tant que structure [**SystemTime**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) , ce qui ne nécessite pas que l’application analyse les données. Utilisez pour les en-têtes dont la valeur est une chaîne de date/heure, telle que « Last-modified-Time ».
+Retourne la valeur d’en-tête en tant que structure [**SystemTime**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , ce qui ne nécessite pas que l’application analyse les données. Utilisez pour les en-têtes dont la valeur est une chaîne de date/heure, telle que « Last-modified-Time ».
 
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
-
-
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>      |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>   |
-| En-tête<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
-
-
+| Client minimal pris en charge | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]      |
+| Serveur minimal pris en charge | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]   |
+| En-tête                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi
 
-<dl> <dt>
-
-[Versions de WinHTTP](winhttp-versions.md)
-</dt> </dl>
-
- 
-
+* [Versions de WinHTTP](winhttp-versions.md)
