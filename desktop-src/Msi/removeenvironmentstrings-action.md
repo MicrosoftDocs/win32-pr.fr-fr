@@ -1,0 +1,72 @@
+---
+description: L’action RemoveEnvironmentStrings modifie les valeurs des variables d’environnement.
+ms.assetid: 024a734a-2e40-45b6-9dec-73def89a417f
+title: Action RemoveEnvironmentStrings
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5c958f2095d2b8562bbd7518ef691634186a9128
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106538226"
+---
+# <a name="removeenvironmentstrings-action"></a>Action RemoveEnvironmentStrings
+
+L’action RemoveEnvironmentStrings modifie les valeurs des variables d’environnement.
+
+Notez que les variables d’environnement ne changent pas pour l’installation en cours lors de l’exécution de l’action [WriteEnvironmentStrings](writeenvironmentstrings-action.md) ou RemoveEnvironmentStrings. Sur Windows 2000, ces informations sont stockées dans le registre et un message est envoyé pour notifier le système de modifications une fois l’installation terminée. Un nouveau processus, ou un autre processus qui vérifie ces messages, utilisera les nouvelles variables d’environnement.
+
+Le programme d’installation exécute l' [action WriteEnvironmentStrings](writeenvironmentstrings-action.md) uniquement lors de l’installation ou de la réinstallation d’un composant, et exécute l’action RemoveEnvironmentStrings uniquement pendant la suppression d’un composant.
+
+Les valeurs sont écrites ou supprimées en fonction de la sélection d’actions et de modificateurs principaux. Celles-ci sont décrites dans la section messages ActionData suivants. Notez que, selon l’action spécifiée, WriteEnvironmentStrings peut supprimer des variables et RemoveEnvironmentStrings peut les ajouter en fonction de la création de la [table d’environnement](environment-table.md).
+
+## <a name="sequence-restrictions"></a>Restrictions de séquence
+
+L' [action InstallValidate](installvalidate-action.md) doit être exécutée avant l’action RemoveEnvironmentStrings. Étant donné que les actions WriteEnvironmentStrings et RemoveEnvironmentStrings ne sont jamais appliquées au cours de l’installation ou de la suppression d’un composant, leur séquence relative n’est pas restreinte.
+
+## <a name="actiondata-messages"></a>Messages ActionData
+
+
+
+| Champ | Description des données d’action                                                                                                                                                                                                |
+|-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| \[1\] | Nom de la variable d’environnement à modifier.                                                                                                                                                                               |
+| \[2\] | Valeur de la variable d’environnement.                                                                                                                                                                                           |
+| \[3\] | Il s’agit d’un champ d’indicateurs binaires qui spécifient l’action à exécuter. N’incluez qu’un seul bit pour une action principale. Il peut y avoir plusieurs bits de modificateur inclus dans ce champ. Consultez les descriptions des indicateurs de bits suivantes. |
+
+
+
+ 
+
+
+
+| Valeur en bits | Description des actions principales                                                                                                                                                                                      |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x1       | Prêts ? Définit la valeur de la variable d’environnement dans tous les cas.<br/> Si ce bit est combiné avec un bit de modificateur d’ajout ou de préfixe, l’action ajoute la valeur à toute valeur existante dans la variable.<br/> |
+| 0x2       | Prêts ? Définit la valeur si la variable est absente.<br/> Si ce bit est combiné avec un bit de modificateur d’ajout ou de préfixe, l’action ajoute la valeur à toute valeur existante dans la variable.<br/>                |
+| 0x4       | Supprimer. Supprime la valeur de la variable.<br/> Si ce bit est combiné avec un bit de modificateur d’ajout ou de préfixe, la valeur est supprimée de la chaîne existante, si la valeur existe.<br/>               |
+
+
+
+ 
+
+
+
+| Valeur en bits  | Description du modificateur                                                                                                                                                              |
+|------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 0x20000000 | Si ce bit est défini, les actions sont appliquées aux variables d’environnement de l’ordinateur.<br/> Si ce bit n’est pas défini, des actions sont appliquées aux variables d’environnement de l’utilisateur.<br/> |
+| 0x40000000 | Ajouter : Ce bit est facultatif. Ne définissez pas à la fois les modificateurs Append et prefix.<br/>                                                                                            |
+| 0x80000000 | Céder. Ce bit est facultatif. Ne définissez pas à la fois les modificateurs Append et prefix.<br/>                                                                                            |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
