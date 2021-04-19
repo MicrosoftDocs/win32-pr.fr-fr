@@ -1,0 +1,25 @@
+---
+description: Le type RTF du type sémantique est l’un des types de format texte.
+ms.assetid: 91fc47c1-520a-4002-9dbe-4ee2b56f84b3
+title: Type RTF
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a81c708183596d794f20e38bf89c073472e3affb
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106534313"
+---
+# <a name="rtf-type"></a>Type RTF
+
+Le type RTF du [type sémantique](semantic-types.md) est l’un des [types de format texte](text-format-types.md). Ce type est constitué d’une chaîne de texte arbitraire au format RTF (Rich Text Format), quelle que soit la longueur fournie par l’utilisateur. L’outil de fusion remplace cette chaîne dans les modèles spécifiés dans la colonne valeur de la [table ModuleSubstitution](modulesubstitution-table.md).
+
+Pour spécifier un élément configurable de ce type, les auteurs du module doivent entrer le nom de la chaîne de texte dans la colonne nom, entrer « 0 » dans la colonne format, entrer « RTF » dans la colonne type et laisser vide la colonne ContextData de la [table ModuleConfiguration](moduleconfiguration-table.md). La chaîne peut être dans n’importe quel langage compatible avec la page de codes de la base de données. Consultez [gestion des pages de codes (Windows Installer)](code-page-handling-windows-installer-.md). NULL est une valeur valide pour la chaîne de texte, sauf si msmConfigItemNonNullable a été inclus dans le champ Attributes de la table ModuleConfiguration.
+
+ 
+
+ 
+
+
+
