@@ -1,0 +1,63 @@
+---
+title: FitShape VML (attribut)
+description: FitShape VML (attribut)
+ms.assetid: a6e5a198-1478-4256-a4f2-b9ae6db6d7fb
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: dd2b05d7bc31afc52c664217ff21d14b40fd0c27
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106518032"
+---
+# <a name="vml-fitshape-attribute"></a>FitShape VML (attribut)
+
+Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+
+> [!Note]  
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+
+ 
+
+Définit si le texte est ajusté au cadre englobant d’une forme. En lecture/écriture. **VgTriState**.
+
+**S’applique à**
+
+[TextPath](msdn-online-vml-textpath-element.md)
+
+**Syntaxe de balise**
+
+<v : *Element* fitshape = " *expression* " >
+
+**Syntaxe du script**
+
+*Element* . fitshape = "*expression*"
+
+*expression* = *élément*. fitshape
+
+**Remarques**
+
+Si la **valeur est true**, étire le texte vers les bords de la zone qui définit la forme entière. La valeur par défaut est **False**.
+
+*Attribut standard VML*
+
+**Exemple**
+
+Le texte est étiré pour s’ajuster à la forme.
+
+
+```HTML
+   <v:line from="50 100" to="400 100">
+   <v:fill on="True" color="red"/>
+   <v:path textpathok="True"/>
+   <v:textpath on="True" string="VML Text" fitshape="True"
+   style="font:normal normal normal 36pt Arial"/>
+   </v:line>
+```
+
+
+
+ 
+
+ 
