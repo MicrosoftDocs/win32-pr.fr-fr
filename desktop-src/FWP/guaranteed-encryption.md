@@ -4,12 +4,12 @@ description: Le scénario de stratégie IPsec de chiffrement garanti requiert le
 ms.assetid: 68758f0c-f134-4b7a-820a-313e2a82f280
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7120e9cb794b6010e16dd5f61accb07ca0ab9cb8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dbffa3d78a9e178850f3afaa4d6b7fa9831be875
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381907"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314642"
 ---
 # <a name="guaranteed-encryption"></a>Chiffrement garanti
 
@@ -35,6 +35,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
      
 
 2.  Pour chacun des contextes ajoutés à l’étape 1, ajoutez un filtre avec les propriétés suivantes.
+
     | Filter (propriété)        | Valeur                                            |
     |------------------------|--------------------------------------------------|
     | Conditions de filtrage   | Vide. Tout le trafic correspond au filtre.        |
@@ -54,6 +55,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
      
 
 2.  Pour chacun des contextes ajoutés à l’étape 1, ajoutez un filtre avec les propriétés suivantes.
+
     | Filter (propriété)        | Valeur                                            |
     |------------------------|--------------------------------------------------|
     | Conditions de filtrage   | Vide. Tout le trafic correspond au filtre.        |
@@ -64,6 +66,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau de la \_ couche FWPM \_ \_ transport entrant \_ V {4 \| 6} configurer les règles de filtrage par paquet entrantes**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes. 
+
     | Filter (propriété)                                               | Valeur                                                                                              |
     |---------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
     | \_Condition de \_ filtrage \_ de \_ type d’adresse locale IP de condition FWPM \_ | [NlatUnicast](/windows/win32/api/nldef/ne-nldef-nl_address_type)                                      |
@@ -73,6 +76,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |
@@ -85,6 +89,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau \_ du \_ transport sortant de couche FWPM \_ \_ V {4 \| 6} configurer les règles de filtrage par paquet sortantes**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                                     |
     |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                               |
@@ -94,6 +99,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |
@@ -106,6 +112,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau de FWPM \_ \_ , l’authentification ALE de la couche ALE \_ \_ recv \_ accepte \_ \| les règles de filtrage par connexion entrantes V {4 6}**  
 
 1.  Ajoutez un filtre avec les propriétés suivantes. Ce filtre n’autorise que les tentatives de connexion entrante s’ils sont sécurisés par IPsec. 
+
     | Filter (propriété)                                                   | Valeur                                                        |
     |-------------------------------------------------------------------|--------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                  |
@@ -114,6 +121,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 2.  Exempter le trafic ICMP d’IPsec en ajoutant un filtre avec les propriétés suivantes.
+
     | Filter (propriété)                                                   | Valeur                                                                      |
     |-------------------------------------------------------------------|----------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                |
@@ -123,6 +131,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 
         
 3.  Ajoutez un filtre avec les propriétés suivantes. Ce filtre autorise uniquement les connexions entrantes vers le port TCP 5555 s’ils sont chiffrés.
+
     | Filter (propriété)                                                   | Valeur                                                                                                 |
     |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                                           |
@@ -137,6 +146,7 @@ Pour implémenter cet exemple par programme, utilisez la configuration WFP suiva
 **Au niveau de FWPM \_ couche \_ ALE \_ auth \_ Connect connexion \_ V {4 \| 6} configurer les règles de filtrage par connexion sortantes**
 
 -   Ajoutez un filtre avec les propriétés suivantes. Ce filtre autorise uniquement les connexions sortantes à partir du port TCP 5555 s’ils sont chiffrés.
+
     | Filter (propriété)                                                   | Valeur                                                                                                 |
     |-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
     | **FWPM \_ Condition de filtrage du \_ \_ \_ \_ type d’adresse locale IP de condition** | NlatUnicast                                                                                           |
