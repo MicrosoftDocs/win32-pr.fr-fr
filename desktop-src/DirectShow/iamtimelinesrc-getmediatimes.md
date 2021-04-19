@@ -1,0 +1,108 @@
+---
+description: La méthode GetMediaTimes récupère les heures de début et de fin des médias.
+ms.assetid: c6a7d992-ceb5-4378-aee2-f2d778b41516
+title: 'IAMTimelineSrc :: GetMediaTimes, méthode (qedit. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IAMTimelineSrc.GetMediaTimes
+api_type:
+- COM
+api_location:
+- strmiids.lib
+- strmiids.dll
+ms.openlocfilehash: fa6e9cbb69da504a929e23722068583489063b9d
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106544049"
+---
+# <a name="iamtimelinesrcgetmediatimes-method"></a><span data-ttu-id="e434e-103">IAMTimelineSrc :: GetMediaTimes, méthode</span><span class="sxs-lookup"><span data-stu-id="e434e-103">IAMTimelineSrc::GetMediaTimes method</span></span>
+
+> [!Note]  
+> <span data-ttu-id="e434e-104">\[Action déconseillée.</span><span class="sxs-lookup"><span data-stu-id="e434e-104">\[Deprecated.</span></span> <span data-ttu-id="e434e-105">Cette API peut être supprimée dans les versions futures de Windows.\]</span><span class="sxs-lookup"><span data-stu-id="e434e-105">This API may be removed from future releases of Windows.\]</span></span>
+
+ 
+
+<span data-ttu-id="e434e-106">La `GetMediaTimes` méthode récupère les heures de démarrage et d’arrêt du média.</span><span class="sxs-lookup"><span data-stu-id="e434e-106">The `GetMediaTimes` method retrieves the media start and stop times.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="e434e-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="e434e-107">Syntax</span></span>
+
+
+```C++
+HRESULT GetMediaTimes(
+   REFERENCE_TIME *pStart,
+   REFERENCE_TIME *pStop
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="e434e-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="e434e-108">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="e434e-109">*pStart*</span><span class="sxs-lookup"><span data-stu-id="e434e-109">*pStart*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="e434e-110">Reçoit l’heure de début du média, en unités de 100 nanosecondes.</span><span class="sxs-lookup"><span data-stu-id="e434e-110">Receives the media start time, in 100-nanosecond units.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="e434e-111">*pStop*</span><span class="sxs-lookup"><span data-stu-id="e434e-111">*pStop*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="e434e-112">Reçoit l’heure d’arrêt du support, en unités de 100 nanosecondes.</span><span class="sxs-lookup"><span data-stu-id="e434e-112">Receives the media stop time, in 100-nanosecond units.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="e434e-113">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="e434e-113">Return value</span></span>
+
+<span data-ttu-id="e434e-114">Si cette méthode est réussie, elle retourne la valeur **\_ OK**.</span><span class="sxs-lookup"><span data-stu-id="e434e-114">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="e434e-115">Sinon, elle retourne un code d’erreur **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="e434e-115">Otherwise, it returns an **HRESULT** error code.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="e434e-116">Notes</span><span class="sxs-lookup"><span data-stu-id="e434e-116">Remarks</span></span>
+
+<span data-ttu-id="e434e-117">Les temps de support sont relatifs au fichier multimédia d’origine.</span><span class="sxs-lookup"><span data-stu-id="e434e-117">The media times are relative to the original media file.</span></span> <span data-ttu-id="e434e-118">Pour plus d’informations, consultez [heure dans les services de modification DirectShow](time-in-directshow-editing-services.md).</span><span class="sxs-lookup"><span data-stu-id="e434e-118">For more information, see [Time in DirectShow Editing Services](time-in-directshow-editing-services.md).</span></span>
+
+> [!Note]  
+> <span data-ttu-id="e434e-119">Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.</span><span class="sxs-lookup"><span data-stu-id="e434e-119">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
+
+ 
+
+> [!Note]  
+> <span data-ttu-id="e434e-120">Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span><span class="sxs-lookup"><span data-stu-id="e434e-120">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="e434e-121">Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.</span><span class="sxs-lookup"><span data-stu-id="e434e-121">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
+
+ 
+
+## <a name="requirements"></a><span data-ttu-id="e434e-122">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="e434e-122">Requirements</span></span>
+
+
+
+| <span data-ttu-id="e434e-123">Condition requise</span><span class="sxs-lookup"><span data-stu-id="e434e-123">Requirement</span></span> | <span data-ttu-id="e434e-124">Valeur</span><span class="sxs-lookup"><span data-stu-id="e434e-124">Value</span></span> |
+|--------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="e434e-125">En-tête</span><span class="sxs-lookup"><span data-stu-id="e434e-125">Header</span></span><br/>  | <dl> <span data-ttu-id="e434e-126"><dt>Qedit. h</dt></span><span class="sxs-lookup"><span data-stu-id="e434e-126"><dt>Qedit.h</dt></span></span> </dl>      |
+| <span data-ttu-id="e434e-127">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="e434e-127">Library</span></span><br/> | <dl> <span data-ttu-id="e434e-128"><dt>Strmiids. lib</dt></span><span class="sxs-lookup"><span data-stu-id="e434e-128"><dt>Strmiids.lib</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="e434e-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="e434e-129">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="e434e-130">**Interface IAMTimelineSrc**</span><span class="sxs-lookup"><span data-stu-id="e434e-130">**IAMTimelineSrc Interface**</span></span>](iamtimelinesrc.md)
+</dt> <dt>
+
+[<span data-ttu-id="e434e-131">Codes d’erreur et de réussite</span><span class="sxs-lookup"><span data-stu-id="e434e-131">Error and Success Codes</span></span>](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
