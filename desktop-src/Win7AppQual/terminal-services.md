@@ -1,0 +1,82 @@
+---
+description: .
+ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
+title: Services Bureau à distance (Windows 7 et Windows Server 2008 R2-Guide pratique de la qualité des applications)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 46bd39785526b11ac2e4c0ede26bbb9971aadc9a
+ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "106529549"
+---
+# <a name="remote-desktop-services-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a><span data-ttu-id="bd462-103">Services Bureau à distance (Windows 7 et Windows Server 2008 R2-Guide pratique de la qualité des applications)</span><span class="sxs-lookup"><span data-stu-id="bd462-103">Remote Desktop Services (Windows 7 and Windows Server 2008 R2 Application Quality Cookbook)</span></span>
+
+## <a name="affected-platforms"></a><span data-ttu-id="bd462-104">Plateformes affectées</span><span class="sxs-lookup"><span data-stu-id="bd462-104">Affected Platforms</span></span>
+
+<span data-ttu-id="bd462-105">**Serveurs** – windows Server 2008 \| Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="bd462-105">**Servers** – Windows Server 2008 \| Windows Server 2008 R2</span></span>  
+
+## <a name="description"></a><span data-ttu-id="bd462-106">Description</span><span class="sxs-lookup"><span data-stu-id="bd462-106">Description</span></span>
+
+<span data-ttu-id="bd462-107">Services Bureau à distance (anciennement services Terminal Server) permet à plusieurs utilisateurs simultanés d’accéder à Windows Server afin de fournir des services d’hébergement d’applications et de données à l’aide de la technologie Microsoft « Presentation Virtualization ».</span><span class="sxs-lookup"><span data-stu-id="bd462-107">Remote Desktop Services (formerly known as Terminal Services) allows multiple concurrent users to access Windows Server in order to provide application and data hosting services using Microsoft "Presentation Virtualization" technology.</span></span>
+
+<span data-ttu-id="bd462-108">Alors que la plupart des applications 32 bits et 64 bits s’exécutent comme sur Windows Services Bureau à distance, plusieurs autres ne fonctionnent pas comme prévu en raison de la différence dans la plateforme (environnement multi-utilisateur, accès simultané par plusieurs utilisateurs, etc.).</span><span class="sxs-lookup"><span data-stu-id="bd462-108">While most 32-bit and 64-bit applications run as is on Windows Remote Desktop Services, several others do not perform as expected due to the difference in the platform (multi-user environment, concurrent access by multiple users, and so on).</span></span>
+
+<span data-ttu-id="bd462-109">Pour plus d’informations sur la qualité des applications, consultez le livre blanc *sur la préparation des applications pour les services Terminal Server* .</span><span class="sxs-lookup"><span data-stu-id="bd462-109">For further information regarding application quality, please read the *Application Readiness for Terminal Services* white paper.</span></span> <span data-ttu-id="bd462-110">Pour en savoir plus sur Services Bureau à distance, consultez la page Services Bureau à distance Product et les sites Web TS TechNet.</span><span class="sxs-lookup"><span data-stu-id="bd462-110">Visit the Remote Desktop Services product page and the TS TechNet websites learn more about Remote Desktop Services.</span></span> <span data-ttu-id="bd462-111">Pour en savoir plus sur le développement d’applications pour Services Bureau à distance, consultez les *instructions de programmation des services Terminal Server*.</span><span class="sxs-lookup"><span data-stu-id="bd462-111">To learn more about developing applications for Remote Desktop Services, review the *Terminal Services Programming Guidelines*.</span></span> <span data-ttu-id="bd462-112">(Ces ressources peuvent ne pas être disponibles dans certaines langues et pays/régions.)</span><span class="sxs-lookup"><span data-stu-id="bd462-112">(These resources may not be available in some languages and countries/regions.)</span></span>
+
+## <a name="manifestation-of-impacts-and-their-mitigations"></a><span data-ttu-id="bd462-113">La manifestation des impacts et leurs atténuations</span><span class="sxs-lookup"><span data-stu-id="bd462-113">Manifestation of Impacts and Their Mitigations</span></span>
+
+<span data-ttu-id="bd462-114">Trois modifications apportées à Windows 7 affectent les applications sur Services Bureau à distance :</span><span class="sxs-lookup"><span data-stu-id="bd462-114">Three changes in Windows 7 affect applications on Remote Desktop Services:</span></span>
+
+-   <span data-ttu-id="bd462-115">Windows Server 2008 R2 est 64 bits uniquement</span><span class="sxs-lookup"><span data-stu-id="bd462-115">Windows Server 2008 R2 is 64-bit only</span></span>
+-   <span data-ttu-id="bd462-116">Virtualisation IP par session</span><span class="sxs-lookup"><span data-stu-id="bd462-116">Per-session IP Virtualization</span></span>
+-   <span data-ttu-id="bd462-117">Déploiements basés sur MSI – clés spécifiques à l’utilisateur</span><span class="sxs-lookup"><span data-stu-id="bd462-117">MSI-based deployments – User-specific keys</span></span>
+
+<span data-ttu-id="bd462-118">**64 bits uniquement Windows Server 2008 R2**</span><span class="sxs-lookup"><span data-stu-id="bd462-118">**64-bit Only Windows Server 2008 R2**</span></span>
+
+<span data-ttu-id="bd462-119">Les applications écrites pour le serveur 32 bits s’exécuteront en mode WoW et non en mode natif sur Windows Server 2008 R2 ou, par conséquent, sur Services Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="bd462-119">Applications written for 32-bit server will run in WoW mode and not natively on the Windows Server 2008 R2 or, hence, on Remote Desktop Services.</span></span> <span data-ttu-id="bd462-120">Pour plus d’informations, consultez la rubrique Windows 7 64 bits uniquement.</span><span class="sxs-lookup"><span data-stu-id="bd462-120">See the Windows 7 64-Bit Only topic for details.</span></span>
+
+<span data-ttu-id="bd462-121">*Atténuations pour Windows Server 2008 uniquement 64 bits*</span><span class="sxs-lookup"><span data-stu-id="bd462-121">*Mitigations for 64-bit only Windows Server 2008 R2*</span></span>
+
+<span data-ttu-id="bd462-122">La plupart des applications écrites pour 32 bits continuent de fonctionner normalement en mode WoW.</span><span class="sxs-lookup"><span data-stu-id="bd462-122">Most applications written for 32-bit will continue to work as normal in WoW mode.</span></span> <span data-ttu-id="bd462-123">Toutes les nouvelles applications écrites pour Windows 7 Services Bureau à distance doivent être développées et testées pour le déploiement sur les plateformes 64 bits.</span><span class="sxs-lookup"><span data-stu-id="bd462-123">Any new applications written for Windows 7 Remote Desktop Services should be developed and tested for deployment on 64-bit platforms.</span></span>
+
+<span data-ttu-id="bd462-124">**Virtualisation IP**</span><span class="sxs-lookup"><span data-stu-id="bd462-124">**IP Virtualization**</span></span>
+
+<span data-ttu-id="bd462-125">Virtualisation IP des services Bureau à distance permet à l’utilisateur d’attribuer des adresses IP à des connexions Bureau à distance par session ou par programme :</span><span class="sxs-lookup"><span data-stu-id="bd462-125">Remote Desktop IP Virtualization allows the user to assign IP addresses to remote desktop connections on a per-session or per-program basis:</span></span>
+
+-   <span data-ttu-id="bd462-126">Si vous attribuez des adresses IP par session, toutes les applications utilisent l’adresse IP de la session.</span><span class="sxs-lookup"><span data-stu-id="bd462-126">If you assign IP addresses on a per-session basis, all of the applications will use the session IP address.</span></span>
+-   <span data-ttu-id="bd462-127">Si vous attribuez des adresses IP par programme, seules les applications spécifiées utiliseront l’adresse IP de session et les applications restantes de la session ne seront pas affectées.</span><span class="sxs-lookup"><span data-stu-id="bd462-127">If you assign IP addresses on a per-program basis, only the specified applications will use the session IP address and the remaining applications in the session will not be affected.</span></span>
+-   <span data-ttu-id="bd462-128">Si vous attribuez des adresses IP à plusieurs programmes, elles partagent une adresse IP de session.</span><span class="sxs-lookup"><span data-stu-id="bd462-128">If you assign IP addresses for multiple programs, they will share a session IP address.</span></span>
+-   <span data-ttu-id="bd462-129">Si vous avez plusieurs cartes réseau sur l’ordinateur, vous devez également en choisir une pour Virtualisation IP des services Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="bd462-129">If you have more than one network adapter on the computer, you must also choose one of them for Remote Desktop IP Virtualization.</span></span>
+
+<span data-ttu-id="bd462-130">*Solutions de contournement pour la virtualisation IP*</span><span class="sxs-lookup"><span data-stu-id="bd462-130">*Mitigations for IP Virtualization*</span></span>
+
+<span data-ttu-id="bd462-131">Certains programmes requièrent une adresse IP unique pour chaque instance de l’application.</span><span class="sxs-lookup"><span data-stu-id="bd462-131">Some programs require a unique IP address for each instance of the application.</span></span> <span data-ttu-id="bd462-132">Avant Windows Server 2008 R2, chaque session sur un serveur de bureau à distance partageait la même adresse IP, provoquant des problèmes de compatibilité pour ces applications.</span><span class="sxs-lookup"><span data-stu-id="bd462-132">Prior to Windows Server 2008 R2, every session on a remote desktop server shared the same IP address, resulting in compatibility issues for these applications.</span></span> <span data-ttu-id="bd462-133">Virtualisation IP des services Bureau à distance permet à ces applications de s’exécuter sur un serveur Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="bd462-133">Remote Desktop IP Virtualization allows these applications to run on a Remote Desktop Server.</span></span>
+
+<span data-ttu-id="bd462-134">**Déploiements basés sur MSI**</span><span class="sxs-lookup"><span data-stu-id="bd462-134">**MSI-based Deployments**</span></span>
+
+<span data-ttu-id="bd462-135">La compatibilité des services Bureau à distance de Microsoft est une nouvelle fonctionnalité incluse dans Services Bureau à distance dans Windows Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="bd462-135">Microsoft Installer RDS Compatibility is a new feature included with Remote Desktop Services in Windows Server 2008 R2.</span></span> <span data-ttu-id="bd462-136">Avec Services Bureau à distance dans Windows Server 2008 R2, les installations d’applications par utilisateur sont mises en file d’attente par le serveur Bureau à distance, puis gérées par le programme d’installation de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="bd462-136">With Remote Desktop Services in Windows Server 2008 R2, per-user application installations are queued by the Remote Desktop Server and then handled by the Microsoft Installer.</span></span>
+
+<span data-ttu-id="bd462-137">Dans Windows Server 2008 R2, vous pouvez installer un programme sur le serveur Bureau à distance de la même façon que vous installez le programme sur un bureau local.</span><span class="sxs-lookup"><span data-stu-id="bd462-137">In Windows Server 2008 R2, you can install a program on the Remote Desktop Server just as you would install the program on a local desktop.</span></span> <span data-ttu-id="bd462-138">Toutefois, veillez à installer le programme pour tous les utilisateurs et à installer tous les composants du programme localement sur le serveur de Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="bd462-138">Ensure, however, that you install the program for all users and install all components of the program locally on the Remote Desktop Server.</span></span>
+
+<span data-ttu-id="bd462-139">*Solutions de contournement pour les déploiements basés sur MSI*</span><span class="sxs-lookup"><span data-stu-id="bd462-139">*Mitigations for MSI based Deployments*</span></span>
+
+<span data-ttu-id="bd462-140">Avant la version Windows Server 2008 R2 de Services Bureau à distance, Windows ne prenait en charge qu’une seule installation Windows Installer à la fois.</span><span class="sxs-lookup"><span data-stu-id="bd462-140">Prior to the Windows Server 2008 R2 version of Remote Desktop Services, Windows supported only one Windows Installer installation at a time.</span></span> <span data-ttu-id="bd462-141">Pour les applications nécessitant des configurations par utilisateur, telles que Microsoft Office Word, un administrateur qui devait préinstaller l’application, et les développeurs d’applications devaient tester ces applications à la fois sur le client Bureau à distance et l’hôte de session Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="bd462-141">For applications that required per-user configurations, such as Microsoft Office Word, an administrator needed to pre-install the application, and application developers needed to test these applications on both the remote desktop client and the Remote Desktop Session Host.</span></span> <span data-ttu-id="bd462-142">Windows Installer fonctionnalité de compatibilité RDS permet d’identifier et d’installer des configurations par utilisateur manquantes simultanément pour plusieurs utilisateurs et de rendre l’installation de l’application sur Bureau à distance serveur similaire à celle sur un bureau local.</span><span class="sxs-lookup"><span data-stu-id="bd462-142">Windows Installer RDS Compatibility feature allows identifying and installing missing per-user configurations for multiple users simultaneously and makes the application installation experience on Remote Desktop Server similar to that on a local desktop.</span></span>
+
+<span data-ttu-id="bd462-143">**Windows Server 2008 R2 avec le rôle [services Bureau à distance](../termserv/terminal-services-portal.md) activé :** Non pris en charge.</span><span class="sxs-lookup"><span data-stu-id="bd462-143">**Windows Server 2008 R2 with the [Remote Desktop Services](../termserv/terminal-services-portal.md) role enabled:** Not supported.</span></span> <span data-ttu-id="bd462-144">L’installation de plusieurs packages à l’aide de la [table MsiEmbeddedChainer](../msi/msiembeddedchainer-table.md) échoue si le rôle [services Bureau à distance](../termserv/terminal-services-portal.md) est activé.</span><span class="sxs-lookup"><span data-stu-id="bd462-144">A multiple package installation using the [MsiEmbeddedChainer table](../msi/msiembeddedchainer-table.md) fails if the [Remote Desktop Services](../termserv/terminal-services-portal.md) role is enabled.</span></span>
+
+## <a name="links-to-other-resources"></a><span data-ttu-id="bd462-145">Liens vers d’autres ressources</span><span class="sxs-lookup"><span data-stu-id="bd462-145">Links to Other Resources</span></span>
+
+-   [<span data-ttu-id="bd462-146">Instructions de programmation des services Terminal Server</span><span class="sxs-lookup"><span data-stu-id="bd462-146">Terminal Services Programming Guidelines</span></span>](../termserv/terminal-services-programming-guidelines.md)
+-   [<span data-ttu-id="bd462-147">Page d’hébergement du produit des services Terminal Server</span><span class="sxs-lookup"><span data-stu-id="bd462-147">Terminal Services product home page</span></span>](https://www.microsoft.com/windowsserver2008/en/us/rds-product-home.aspx)
+-   [<span data-ttu-id="bd462-148">Livre blanc sur la préparation des applications pour les services Terminal Server</span><span class="sxs-lookup"><span data-stu-id="bd462-148">Application Readiness for Terminal Services white paper</span></span>](/collaborate/connect-redirect)
+
+> [!Note]  
+> <span data-ttu-id="bd462-149">Ces ressources peuvent ne pas être disponibles dans certaines langues et pays/régions.</span><span class="sxs-lookup"><span data-stu-id="bd462-149">These resources may not be available in some languages and countries/regions.</span></span>
+
+ 
+
+ 
+
+ 

@@ -1,0 +1,91 @@
+---
+description: Cet article contient des conseils pour générer des histogrammes lors du décodage de vidéos à l’aide des API vidéo Direct3D 11 ou 12.
+ms.assetid: ''
+title: Histogrammes de décodage vidéo Direct3D
+ms.topic: article
+ms.date: 08/19/2019
+ms.openlocfilehash: 6e25abd39ba95b669c2d76ced5f825ea80c4e3c6
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106516592"
+---
+# <a name="direct3d-video-decode-histograms"></a><span data-ttu-id="b55ce-103">Histogrammes de décodage vidéo Direct3D</span><span class="sxs-lookup"><span data-stu-id="b55ce-103">Direct3D video decode histograms</span></span>
+
+<span data-ttu-id="b55ce-104">Cet article contient des conseils pour générer des histogrammes lors du décodage de vidéos à l’aide des API vidéo Direct3D 11 ou 12.</span><span class="sxs-lookup"><span data-stu-id="b55ce-104">This article contains guidance for generating histograms while decoding video using Direct3D 11 or 12 video APIs.</span></span>
+
+## <a name="checking-the-video-device-for-histogram-capabilities"></a><span data-ttu-id="b55ce-105">Vérification des capacités de l’histogramme dans le périphérique vidéo</span><span class="sxs-lookup"><span data-stu-id="b55ce-105">Checking the video device for histogram capabilities</span></span>
+
+<span data-ttu-id="b55ce-106">Avant de tenter de générer des histogrammes, vous devez vérifier si le périphérique vidéo actuel prend en charge la fonctionnalité d’histogramme décodage vidéo.</span><span class="sxs-lookup"><span data-stu-id="b55ce-106">Before attempting to generated histograms, you must check to see if the current video device supports the video decode histogram feature.</span></span>
+
+### <a name="direct3d-12"></a><span data-ttu-id="b55ce-107">Direct3D 12</span><span class="sxs-lookup"><span data-stu-id="b55ce-107">Direct3D 12</span></span>
+
+<span data-ttu-id="b55ce-108">Appelez [ID3D12VideoDevice :: CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) pour vérifier les détails de prise en charge des opérations de décodage vidéo Direct3D 12.</span><span class="sxs-lookup"><span data-stu-id="b55ce-108">Call [ID3D12VideoDevice::CheckFeatureSupport](/windows/desktop/api/d3d12video/nf-d3d12video-id3d12videodevice-checkfeaturesupport) to check for the support details for Direct3D 12 video decoding operations.</span></span> <span data-ttu-id="b55ce-109">Transmettez la valeur **D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM** à partir de l’énumération [D3D12_FEATURE_VIDEO](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video) pour spécifier que vous demandez la prise en charge des histogrammes de décodage vidéo.</span><span class="sxs-lookup"><span data-stu-id="b55ce-109">Pass the **D3D12_FEATURE_VIDEO_DECODE_HISTOGRAM** value from the [D3D12_FEATURE_VIDEO](/windows/desktop/api/d3d12video/ne-d3d12video-d3d12_feature_video) enumeration to specify that you are requesting support for video decode histograms.</span></span>
+
+### <a name="direct3d-11"></a><span data-ttu-id="b55ce-110">Direct3D 11</span><span class="sxs-lookup"><span data-stu-id="b55ce-110">Direct3D 11</span></span>
+
+<span data-ttu-id="b55ce-111">Appelez [ID3D11VideoDevice2 :: CheckFeatureSupport](/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport) et transmettez la valeur **D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM** du [D3D11_FEATURE_VIDEO](/windows/win32/api/d3d11_4/ne-d3d11_4-d3d11_feature_video) pour déterminer si les histogrammes sont pris en charge pour l’appareil actuel.</span><span class="sxs-lookup"><span data-stu-id="b55ce-111">Call [ID3D11VideoDevice2::CheckFeatureSupport](/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11videodevice2-checkfeaturesupport) and pass in the **D3D11_FEATURE_VIDEO_DECODER_HISTOGRAM** value of the [D3D11_FEATURE_VIDEO](/windows/win32/api/d3d11_4/ne-d3d11_4-d3d11_feature_video) to determine if histograms are supported for the current device.</span></span>
+
+## <a name="enabling-histogram-during-decode"></a><span data-ttu-id="b55ce-112">Activation de l’histogramme durant le décodage</span><span class="sxs-lookup"><span data-stu-id="b55ce-112">Enabling histogram during decode</span></span>
+
+<span data-ttu-id="b55ce-113">La collection de données d’histogramme est activée par l’appelant en fournissant les mémoires tampons dans lesquelles les données de l’histogramme sont stockées.</span><span class="sxs-lookup"><span data-stu-id="b55ce-113">The collection of histogram data is enabled by the caller providing the buffers in which the histogram data is stored.</span></span>  <span data-ttu-id="b55ce-114">Une mémoire tampon de sortie de l’histogramme null pour un composant donné indique que la collection d’histogrammes est désactivée.</span><span class="sxs-lookup"><span data-stu-id="b55ce-114">A null histogram output buffer for a given component indicates that histogram collection is disabled.</span></span>
+
+### <a name="direct3d-12"></a><span data-ttu-id="b55ce-115">Direct3D 12</span><span class="sxs-lookup"><span data-stu-id="b55ce-115">Direct3D 12</span></span>
+
+<span data-ttu-id="b55ce-116">Pour fournir des tampons de sortie afin de recevoir des données d’histogramme à l’aide de Direct3D 12, vous devez créer votre liste de commandes de décodage à l’aide de la méthode [ID3D12VideoDecodeCommandList1 ::D ecodeframe1](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1) .</span><span class="sxs-lookup"><span data-stu-id="b55ce-116">In order to provide output buffers to receive histogram data using Direct3D 12, you should create your decode command list using the [ID3D12VideoDecodeCommandList1::DecodeFrame1](/windows/win32/api/d3d12video/nf-d3d12video-id3d12videodecodecommandlist1-decodeframe1) method.</span></span> <span data-ttu-id="b55ce-117">Cette méthode prend une structure [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1) comme argument.</span><span class="sxs-lookup"><span data-stu-id="b55ce-117">This method takes a [D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_stream_arguments1) structure as an argument.</span></span> <span data-ttu-id="b55ce-118">**D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1** a un champ de type [D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_histogram), qui vous permet de spécifier un [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) dans lequel les données de l’histogramme sont générées.</span><span class="sxs-lookup"><span data-stu-id="b55ce-118">**D3D12_VIDEO_DECODE_OUTPUT_STREAM_ARGUMENTS1** has a field of type [D3D12_VIDEO_DECODE_OUTPUT_HISTOGRAM](/windows/win32/api/d3d12video/ns-d3d12video-d3d12_video_decode_output_histogram), which allows you to specify an [ID3D12Resource](/windows/win32/api/d3d12/nn-d3d12-id3d12resource) into which histogram data is output.</span></span>
+
+### <a name="direct3d-11"></a><span data-ttu-id="b55ce-119">Direct3D 11</span><span class="sxs-lookup"><span data-stu-id="b55ce-119">Direct3D 11</span></span>
+
+<span data-ttu-id="b55ce-120">L’interface [ID3D11VideoContext3](/windows/win32/api/d3d11_4/nn-d3d11_4-id3d11videocontext3) fournit la méthode [DecoderBeginFrame1](/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1) , qui vous permet de fournir une ou plusieurs interfaces [ID3D11Buffer](/windows/win32/api/d3d11/nn-d3d11-id3d11buffer) dans lesquelles les données de l’histogramme seront générées.</span><span class="sxs-lookup"><span data-stu-id="b55ce-120">The [ID3D11VideoContext3](/windows/win32/api/d3d11_4/nn-d3d11_4-id3d11videocontext3) interface provides the [DecoderBeginFrame1](/windows/win32/api/d3d11_4/nf-d3d11_4-id3d11videocontext3-decoderbeginframe1) method, which allows you to provide one or more [ID3D11Buffer](/windows/win32/api/d3d11/nn-d3d11-id3d11buffer) interfaces into which the histogram data will be output.</span></span> <span data-ttu-id="b55ce-121">[D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT](/windows/win32/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component) pour spécifier les composants pour lesquels vous souhaitez que les données de l’histogramme soient générées.</span><span class="sxs-lookup"><span data-stu-id="b55ce-121">The [D3D11_VIDEO_DECODER_HISTOGRAM_COMPONENT](/windows/win32/api/d3d11_4/ne-d3d11_4-d3d11_video_decoder_histogram_component) to specify the components for which you want histogram data to be generated.</span></span>
+
+
+## <a name="buffer-format"></a><span data-ttu-id="b55ce-122">Format de la mémoire tampon</span><span class="sxs-lookup"><span data-stu-id="b55ce-122">Buffer format</span></span>
+
+<span data-ttu-id="b55ce-123">La sortie de l’histogramme Decoder est écrite dans une mémoire tampon sous la forme d’un compteur entier par composant.</span><span class="sxs-lookup"><span data-stu-id="b55ce-123">The decode histogram output is written to a buffer as an integer counter per component.</span></span>  <span data-ttu-id="b55ce-124">Le format de la mémoire tampon est une valeur 32 bits par emplacement.</span><span class="sxs-lookup"><span data-stu-id="b55ce-124">The buffer format is a 32-bit value per bin.</span></span>  <span data-ttu-id="b55ce-125">Un appareil peut utiliser une profondeur de bit de compteur entier inférieure à 32 bits, mais doit être de 16, 24 ou 32 bits.</span><span class="sxs-lookup"><span data-stu-id="b55ce-125">A device may use an integer counter bit depth that is smaller than 32 bits, but must be 16, 24, or 32 bits.</span></span>  <span data-ttu-id="b55ce-126">Si c’est le cas, la valeur du compteur est stockée dans les bits inférieurs et les bits inutilisés supérieurs sont nuls.</span><span class="sxs-lookup"><span data-stu-id="b55ce-126">If so, the counter value is stored in the lower bits and the upper unused bits are zero.</span></span>  <span data-ttu-id="b55ce-127">Lorsque le nombre d’un emplacement dépasse la valeur maximale, l’appareil définit la valeur Max à la place.</span><span class="sxs-lookup"><span data-stu-id="b55ce-127">When the count for a bin would exceed the max value, the device sets the max value instead.</span></span> <span data-ttu-id="b55ce-128">Les appareils indiquent le nombre d’emplacements pris en charge, qui doit être une valeur de puissance de 2.</span><span class="sxs-lookup"><span data-stu-id="b55ce-128">Devices report the number of bins supported, which must be a value that is a power of 2.</span></span>  <span data-ttu-id="b55ce-129">Le nombre minimal de casiers requis pour les appareils qui prennent en charge cette fonctionnalité est 64.</span><span class="sxs-lookup"><span data-stu-id="b55ce-129">The minimum number of bins required for devices that support this feature is 64.</span></span> 
+
+<span data-ttu-id="b55ce-130">Vous devez fournir une mémoire tampon avec un décalage aligné sur 256 octets et une taille correspondant au nombre d’emplacements pris en charge multiplié par la taille de l’emplacement (4 octets) pour chaque composant demandé.</span><span class="sxs-lookup"><span data-stu-id="b55ce-130">You must supply a buffer with a 256-byte aligned offset and a size that is the supported number of bins multiplied by the bin size (4 bytes) for each component requested.</span></span>  <span data-ttu-id="b55ce-131">Le placement des emplacements est déterminé par :</span><span class="sxs-lookup"><span data-stu-id="b55ce-131">Bin placement is determined by:</span></span>
+
+`binIndex = floor(value / [max value of channel + 1] * (countBins))`
+
+
+<span data-ttu-id="b55ce-132">Quand un format définit les bits utiles d’un composant comme étant inférieurs au nombre de bits de stockage (par exemple, P010 utilise les 10 premiers bits de 16 bits de stockage de composant), seuls les bits utiles sont pris en compte (P010 est traité comme une valeur de 10 bits).</span><span class="sxs-lookup"><span data-stu-id="b55ce-132">When a format defines the useful bits of a component as less than the number of storage bits (for example, P010 uses the top 10 bits of 16 bits of component storage), only the useful bits are considered (P010 is treated as a 10 bit value).</span></span> 
+
+<span data-ttu-id="b55ce-133">Le périphérique vidéo signale les composants pris en charge.</span><span class="sxs-lookup"><span data-stu-id="b55ce-133">The video device reports which components are supported.</span></span>  <span data-ttu-id="b55ce-134">Si l’appelant ne souhaite pas un histogramme pour un composant donné, il spécifie nullptr.</span><span class="sxs-lookup"><span data-stu-id="b55ce-134">If the caller does not want a histogram for a given component, they specify nullptr.</span></span>  <span data-ttu-id="b55ce-135">Si le pilote ne prend pas en charge un histogramme pour un composant donné, le tampon d’histogramme de ce composant doit être nullptr.</span><span class="sxs-lookup"><span data-stu-id="b55ce-135">If the driver does not support a histogram for a given component, that component's histogram buffer must be nullptr.</span></span>
+
+<span data-ttu-id="b55ce-136">Lorsque plusieurs composants sont pris en charge, l’application peut demander n’importe quelle combinaison de composants par décodage de trame.</span><span class="sxs-lookup"><span data-stu-id="b55ce-136">When multiple components are supported, the application may request any combination of components per frame decode.</span></span>  <span data-ttu-id="b55ce-137">Par exemple, si le matériel signale la prise en charge des composants Y, U et V, l’application peut demander l’histogramme Y uniquement pour le frame 1, l’histogramme U uniquement pour le frame 2 et l’histogramme V uniquement pour le frame 3.</span><span class="sxs-lookup"><span data-stu-id="b55ce-137">For example,if the hardware reports support for Y, U, and V components, the application may request the Y histogram only for frame one, the U histogram only for frame two, and the V histogram only for frame 3.</span></span>  <span data-ttu-id="b55ce-138">Ils peuvent également demander une combinaison de deux composants ou des trois composants.</span><span class="sxs-lookup"><span data-stu-id="b55ce-138">They may also request any combination of two components or all three components.</span></span>
+
+<span data-ttu-id="b55ce-139">Les applications fournissent un décalage et un pointeur de mémoire tampon distincts pour chaque composant demandé.</span><span class="sxs-lookup"><span data-stu-id="b55ce-139">Applications supply a separate offset and buffer pointer/handle for each component requested.</span></span>  <span data-ttu-id="b55ce-140">Ce pointeur peut pointer vers la même ressource qu’un autre composant ou une ressource distincte.</span><span class="sxs-lookup"><span data-stu-id="b55ce-140">This pointer may point to the same resource as another component or a separate resource.</span></span>  <span data-ttu-id="b55ce-141">Le décalage permet de placer plusieurs composants dans la même mémoire tampon, mais la région de sortie spécifiée par le décalage et la taille de l’histogramme ne doit pas chevaucher une autre sortie de composant d’histogramme.</span><span class="sxs-lookup"><span data-stu-id="b55ce-141">The offset allows placing multiple components in the same buffer, but the output region specified by the offset and the histogram size must not overlap another histogram component output.</span></span>  <span data-ttu-id="b55ce-142">L’histogramme peut également être écrit dans la même mémoire tampon que d’autres contenus non liés, par exemple en cas d’utilisation dans une stratégie de sous-allocation de ressources.</span><span class="sxs-lookup"><span data-stu-id="b55ce-142">The histogram may also be written to the same buffer as other unrelated content such as when being used in a resource sub-allocation strategy.</span></span>
+
+
+<span data-ttu-id="b55ce-143">Le runtime D3D vérifie que les appelants activent uniquement l’histogramme pour les composants pris en charge, que l’offset de la mémoire tampon est aligné et que la taille de la mémoire tampon est suffisante pour le nombre d’emplacements signalés.</span><span class="sxs-lookup"><span data-stu-id="b55ce-143">The D3D runtime validates that callers only enable histogram for supported components, that the buffer offset is aligned, and that buffer size is sufficient for the reported number of bins.</span></span>
+
+
+## <a name="protected-content"></a><span data-ttu-id="b55ce-144">Contenu protégé</span><span class="sxs-lookup"><span data-stu-id="b55ce-144">Protected content</span></span>
+
+<span data-ttu-id="b55ce-145">Les tampons d’histogramme doivent avoir la même protection de surface que la surface de sortie décode.</span><span class="sxs-lookup"><span data-stu-id="b55ce-145">The Histogram buffers are required to have the same surface protection as the decode output surface.</span></span> <span data-ttu-id="b55ce-146">Si la surface de sortie Decode n’est pas une ressource protégée, le tampon d’histogramme ne doit pas être une ressource protégée.</span><span class="sxs-lookup"><span data-stu-id="b55ce-146">If the decode output surface is not a protected resource, the histogram buffer must not be a protected resource.</span></span> <span data-ttu-id="b55ce-147">Si la surface de sortie Decode est une ressource protégée, l’histogramme doit être une ressource protégée.</span><span class="sxs-lookup"><span data-stu-id="b55ce-147">If the decode output surface is protected resource, the histogram must be a protected resource.</span></span>
+
+
+
+
+
+
+
+
+## <a name="related-topics"></a><span data-ttu-id="b55ce-148">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b55ce-148">Related topics</span></span>
+
+<dl> <span data-ttu-id="b55ce-149"><dt>API vidéo Direct3D 
+[12](direct3d-12-video-apis.md) 
+ [Guide de programmation Media Foundation](media-foundation-programming-guide.md)
+</dt> </span><span class="sxs-lookup"><span data-stu-id="b55ce-149"><dt>
+[Direct3D 12 Video APIs](direct3d-12-video-apis.md)
+[Media Foundation Programming Guide](media-foundation-programming-guide.md)
+</dt> </span></span></dl>
+
+ 
+
+ 
+
+
+
+

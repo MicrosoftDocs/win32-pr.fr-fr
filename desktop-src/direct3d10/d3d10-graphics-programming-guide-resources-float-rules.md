@@ -1,0 +1,121 @@
+---
+description: Direct3D 10 prend en charge plusieurs représentations à virgule flottante différentes. Tous les calculs à virgule flottante fonctionnent sous un sous-ensemble défini du comportement à virgule flottante simple précision IEEE 754 32 bits.
+ms.assetid: 57221d13-8993-4db3-b1a0-88bdcf6f0167
+title: Règles de point FFloating (Direct3D 10)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6909d037b11f9098bb3e0dbad0f1846b79b513e8
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106513315"
+---
+# <a name="floating-point-rules-direct3d-10"></a><span data-ttu-id="b8869-104">Règles à virgule flottante (Direct3D 10)</span><span class="sxs-lookup"><span data-stu-id="b8869-104">Floating-point rules (Direct3D 10)</span></span>
+
+<span data-ttu-id="b8869-105">Direct3D 10 prend en charge plusieurs représentations à virgule flottante différentes.</span><span class="sxs-lookup"><span data-stu-id="b8869-105">Direct3D 10 supports several different floating-point representations.</span></span> <span data-ttu-id="b8869-106">Tous les calculs à virgule flottante fonctionnent sous un sous-ensemble défini du comportement à virgule flottante simple précision IEEE 754 32 bits.</span><span class="sxs-lookup"><span data-stu-id="b8869-106">All floating-point computations operate under a defined subset of the IEEE 754 32-bit single precision floating-point behavior.</span></span>
+
+-   [<span data-ttu-id="b8869-107">Règles de Floating-Point bits 32</span><span class="sxs-lookup"><span data-stu-id="b8869-107">32-bit Floating-Point Rules</span></span>](#32-bit-floating-point-rules)
+    -   [<span data-ttu-id="b8869-108">Règles IEEE-754 honorées</span><span class="sxs-lookup"><span data-stu-id="b8869-108">Honored IEEE-754 Rules</span></span>](#honored-ieee-754-rules)
+    -   [<span data-ttu-id="b8869-109">Écarts ou exigences supplémentaires des règles IEEE-754</span><span class="sxs-lookup"><span data-stu-id="b8869-109">Deviations or Additional Requirements from IEEE-754 Rules</span></span>](#deviations-or-additional-requirements-from-ieee-754-rules)
+-   [<span data-ttu-id="b8869-110">Règles de Floating-Point 16 bits</span><span class="sxs-lookup"><span data-stu-id="b8869-110">16-bit Floating-Point Rules</span></span>](#16-bit-floating-point-rules)
+-   [<span data-ttu-id="b8869-111">Règles de Floating-Point 11 bits et 10 bits</span><span class="sxs-lookup"><span data-stu-id="b8869-111">11-bit and 10-bit Floating-Point Rules</span></span>](#11-bit-and-10-bit-floating-point-rules)
+-   [<span data-ttu-id="b8869-112">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b8869-112">Related topics</span></span>](#related-topics)
+
+## <a name="32-bit-floating-point-rules"></a><span data-ttu-id="b8869-113">Règles de Floating-Point bits 32</span><span class="sxs-lookup"><span data-stu-id="b8869-113">32-bit Floating-Point Rules</span></span>
+
+<span data-ttu-id="b8869-114">Il existe deux ensembles de règles : ceux qui se conforment à IEEE-754 et ceux qui s’écartent de la norme.</span><span class="sxs-lookup"><span data-stu-id="b8869-114">There are two sets of rules: those that conform to IEEE-754, and those that deviate from the standard.</span></span>
+
+### <a name="honored-ieee-754-rules"></a><span data-ttu-id="b8869-115">Règles IEEE-754 honorées</span><span class="sxs-lookup"><span data-stu-id="b8869-115">Honored IEEE-754 Rules</span></span>
+
+<span data-ttu-id="b8869-116">Certaines de ces règles sont une option unique où IEEE-754 offre des choix.</span><span class="sxs-lookup"><span data-stu-id="b8869-116">Some of these rules are a single option where IEEE-754 offers choices.</span></span>
+
+-   <span data-ttu-id="b8869-117">La division par 0 produit +/-INF, à l’exception de 0/0, ce qui donne NaN.</span><span class="sxs-lookup"><span data-stu-id="b8869-117">Divide by 0 produces +/- INF, except 0/0 which results in NaN.</span></span>
+-   <span data-ttu-id="b8869-118">le journal de (+/-) 0 produit-INF.</span><span class="sxs-lookup"><span data-stu-id="b8869-118">log of (+/-) 0 produces -INF.</span></span> <span data-ttu-id="b8869-119">le journal d’une valeur négative (autre que-0) produit une valeur NaN.</span><span class="sxs-lookup"><span data-stu-id="b8869-119">log of a negative value (other than -0) produces NaN.</span></span>
+-   <span data-ttu-id="b8869-120">La racine carrée réciproque (rsq) ou la racine carrée (sqrt) d’un nombre négatif produit une valeur NaN.</span><span class="sxs-lookup"><span data-stu-id="b8869-120">Reciprocal square root (rsq) or square root (sqrt) of a negative number produces NaN.</span></span> <span data-ttu-id="b8869-121">L’exception est-0 ; sqrt (-0) génère-0, et rsq (-0) produit-INF.</span><span class="sxs-lookup"><span data-stu-id="b8869-121">The exception is -0; sqrt(-0) produces -0, and rsq(-0) produces -INF.</span></span>
+-   <span data-ttu-id="b8869-122">INF-INF = NaN</span><span class="sxs-lookup"><span data-stu-id="b8869-122">INF - INF = NaN</span></span>
+-   <span data-ttu-id="b8869-123">(+/-) INF/(+/-) INF = NaN</span><span class="sxs-lookup"><span data-stu-id="b8869-123">(+/-)INF / (+/-)INF = NaN</span></span>
+-   <span data-ttu-id="b8869-124">(+/-) INF \* 0 = Nan</span><span class="sxs-lookup"><span data-stu-id="b8869-124">(+/-)INF \* 0 = NaN</span></span>
+-   <span data-ttu-id="b8869-125">NaN (any OP) any-value = NaN</span><span class="sxs-lookup"><span data-stu-id="b8869-125">NaN (any OP) any-value = NaN</span></span>
+-   <span data-ttu-id="b8869-126">Les comparaisons EQ, GT, GE, LT et LE, lorsque l’un ou l’autre ou les deux opérandes sont NaN, retourne **false**.</span><span class="sxs-lookup"><span data-stu-id="b8869-126">The comparisons EQ, GT, GE, LT, and LE, when either or both operands is NaN returns **FALSE**.</span></span>
+-   <span data-ttu-id="b8869-127">Les comparaisons ignorent le signe 0 (par conséquent + 0 est égal à-0).</span><span class="sxs-lookup"><span data-stu-id="b8869-127">Comparisons ignore the sign of 0 (so +0 equals -0).</span></span>
+-   <span data-ttu-id="b8869-128">La comparaison ne, lorsque l’un des opérandes ou les deux, est NaN retourne la **valeur true**.</span><span class="sxs-lookup"><span data-stu-id="b8869-128">The comparison NE, when either or both operands is NaN returns **TRUE**.</span></span>
+-   <span data-ttu-id="b8869-129">Les comparaisons de toute valeur non NaN par rapport à +/-INF renvoient le résultat correct.</span><span class="sxs-lookup"><span data-stu-id="b8869-129">Comparisons of any non-NaN value against +/- INF return the correct result.</span></span>
+
+### <a name="deviations-or-additional-requirements-from-ieee-754-rules"></a><span data-ttu-id="b8869-130">Écarts ou exigences supplémentaires des règles IEEE-754</span><span class="sxs-lookup"><span data-stu-id="b8869-130">Deviations or Additional Requirements from IEEE-754 Rules</span></span>
+
+-   <span data-ttu-id="b8869-131">IEEE-754 nécessite des opérations à virgule flottante pour produire un résultat qui est la valeur représentable la plus proche d’un résultat à précision infinie, connu sous le nom d’arrondi à le plus proche, même.</span><span class="sxs-lookup"><span data-stu-id="b8869-131">IEEE-754 requires floating-point operations to produce a result that is the nearest representable value to an infinitely-precise result, known as round-to-nearest-even.</span></span> <span data-ttu-id="b8869-132">Direct3D 10, cependant, définit une exigence plus faible : les opérations à virgule flottante 32 bits produisent un résultat qui se trouve dans une unité-Last-place (1 ULP) du résultat infini.</span><span class="sxs-lookup"><span data-stu-id="b8869-132">Direct3D 10, however, defines a looser requirement: 32-bit floating-point operations produce a result that is within one unit-last-place (1 ULP) of the infinitely-precise result.</span></span> <span data-ttu-id="b8869-133">Cela signifie que, par exemple, le matériel est autorisé à tronquer les résultats à 32 bits plutôt qu’à effectuer un arrondi vers le plus proche, même si cela entraînerait une erreur d’au plus un ULP.</span><span class="sxs-lookup"><span data-stu-id="b8869-133">This means that, for example, hardware is allowed to truncate results to 32-bit rather than perform round-to-nearest-even, as that would result in error of at most one ULP.</span></span>
+-   <span data-ttu-id="b8869-134">Il n’existe aucune prise en charge des exceptions à virgule flottante, des bits d’État ou des interruptions.</span><span class="sxs-lookup"><span data-stu-id="b8869-134">There is no support for floating-point exceptions, status bits or traps.</span></span>
+-   <span data-ttu-id="b8869-135">Les dénormes sont vidées du zéro protégé contre la signature lors de l’entrée et de la sortie d’une opération mathématique à virgule flottante.</span><span class="sxs-lookup"><span data-stu-id="b8869-135">Denorms are flushed to sign-preserved zero on input and output of any floating-point mathematical operation.</span></span> <span data-ttu-id="b8869-136">Des exceptions sont faites pour toute opération de déplacement de données ou d’e/s qui ne manipule pas les données.</span><span class="sxs-lookup"><span data-stu-id="b8869-136">Exceptions are made for any I/O or data movement operation that does not manipulate the data.</span></span>
+-   <span data-ttu-id="b8869-137">Les États qui contiennent des valeurs à virgule flottante, telles que Viewport MinDepth/MaxDepth, BorderColor Values, etc., peuvent être fournis comme valeurs de dénorme et peuvent ou non être vidés avant d’être utilisés par le matériel.</span><span class="sxs-lookup"><span data-stu-id="b8869-137">States that contain floating-point values, such as Viewport MinDepth/MaxDepth, BorderColor values etc., may be provided as denorm values and may or may not be flushed before use by the hardware.</span></span>
+-   <span data-ttu-id="b8869-138">Les opérations min ou Max vident les dénormes pour la comparaison, mais le résultat peut ou non être vidé de la norme.</span><span class="sxs-lookup"><span data-stu-id="b8869-138">Min or max operations flush denorms for comparison, but the result may or may not be denorm flushed.</span></span>
+-   <span data-ttu-id="b8869-139">L’entrée NaN d’une opération produit toujours une valeur NaN à la sortie, mais le modèle binaire exact de la valeur NaN n’est pas requis pour rester le même (sauf si l’opération est une instruction Move brute, qui ne modifie pas les données du tout.)</span><span class="sxs-lookup"><span data-stu-id="b8869-139">NaN input to an operation always produces NaN on output, however the exact bit pattern of the NaN is not required to stay the same (unless the operation is a raw move instruction - which does not alter data at all.)</span></span>
+-   <span data-ttu-id="b8869-140">Les opérations min ou Max pour lesquelles un seul opérande est NaN retournent l’autre opérande en tant que résultat (contrairement aux règles de comparaison ci-dessus).</span><span class="sxs-lookup"><span data-stu-id="b8869-140">Min or max operations for which only one operand is NaN return the other operand as the result (contrary to comparison rules above).</span></span> <span data-ttu-id="b8869-141">Il s’agit d’une nouvelle règle IEEE (IEEE 754R), requise dans Direct3D 10.</span><span class="sxs-lookup"><span data-stu-id="b8869-141">This is a new IEEE rule (IEEE 754R), required in Direct3D 10.</span></span>
+-   <span data-ttu-id="b8869-142">Une autre nouvelle règle IEEE 754R est que min (-0, + 0) = = min (+ 0,-0) = =-0, et Max (-0, + 0) = = max (+ 0,-0) = = + 0, ce qui respecte le signe, contrairement aux règles de comparaison pour le zéro signé (indiqué ci-dessus).</span><span class="sxs-lookup"><span data-stu-id="b8869-142">Another new IEEE 754R rule is that min(-0,+0) == min(+0,-0) == -0, and max(-0,+0) == max(+0,-0) == +0, which honor the sign, in contrast to the comparison rules for signed zero (stated above).</span></span> <span data-ttu-id="b8869-143">Direct3D 10 recommande le comportement IEEE 754R, mais il ne sera pas appliqué. Il est possible que le résultat de la comparaison des zéros dépende de l’ordre des paramètres, à l’aide d’une comparaison qui ignore les signes.</span><span class="sxs-lookup"><span data-stu-id="b8869-143">Direct3D 10 recommends the IEEE 754R behavior here, but it will not be enforced; it is permissible for the result of comparing zeros to be dependent on the order of parameters, using a comparison that ignores the signs.</span></span>
+-   <span data-ttu-id="b8869-144">x \* 1.0 f aboutit toujours à x (sauf denorme Flush).</span><span class="sxs-lookup"><span data-stu-id="b8869-144">x\*1.0f always results in x (except denorm flushed).</span></span>
+-   <span data-ttu-id="b8869-145">x/1.0 a toujours pour résultat x (à l’exception de la dénorme Flush).</span><span class="sxs-lookup"><span data-stu-id="b8869-145">x/1.0f always results in x (except denorm flushed).</span></span>
+-   <span data-ttu-id="b8869-146">x +/-0.0 f produit toujours x (à l’exception de la dénorme Flush).</span><span class="sxs-lookup"><span data-stu-id="b8869-146">x +/- 0.0f always results in x (except denorm flushed).</span></span> <span data-ttu-id="b8869-147">Mais-0 + 0 = + 0.</span><span class="sxs-lookup"><span data-stu-id="b8869-147">But -0 + 0 = +0.</span></span>
+-   <span data-ttu-id="b8869-148">Les opérations fusionnées (par exemple, Mad, DP3) produisent des résultats qui ne sont pas moins précis que le plus mauvais ordonnancement en série de l’évaluation de l’expansion déroutée de l’opération.</span><span class="sxs-lookup"><span data-stu-id="b8869-148">Fused operations (such as mad, dp3) produce results that are no less accurate than the worst possible serial ordering of evaluation of the unfused expansion of the operation.</span></span> <span data-ttu-id="b8869-149">Notez que la définition du pire ordonnancement possible, pour des raisons de tolérance, n’est pas une définition fixe pour une opération fusionnée donnée. elle dépend des valeurs particulières des entrées.</span><span class="sxs-lookup"><span data-stu-id="b8869-149">Note that the definition of the worst possible ordering, for the purpose of tolerance, is not a fixed definition for a given fused operation; it depends on the particular values of the inputs.</span></span> <span data-ttu-id="b8869-150">Les étapes individuelles de l’expansion sans fusible sont chacune autorisées 1 tolérance ULP (ou pour toutes les instructions Direct3D 10 appelle avec une tolérance plus Lax que 1 ULP, la tolérance la plus LAX est autorisée).</span><span class="sxs-lookup"><span data-stu-id="b8869-150">The individual steps in the unfused expansion are each allowed 1 ULP tolerance (or for any instructions Direct3D 10 calls out with a more lax tolerance than 1 ULP, the more lax tolerance is allowed).</span></span>
+-   <span data-ttu-id="b8869-151">Les opérations fusionnées adhèrent aux mêmes règles NaN que les opérations non fusionnées.</span><span class="sxs-lookup"><span data-stu-id="b8869-151">Fused operations adhere to the same NaN rules as non-fused operations.</span></span>
+-   <span data-ttu-id="b8869-152">Multiplier et diviser chaque fonctionnent au niveau de précision à virgule flottante 32 bits (précision à 1 ULP).</span><span class="sxs-lookup"><span data-stu-id="b8869-152">Multiply and divide each operate at the 32-bit floating-point precision level (accuracy to 1 ULP).</span></span>
+
+## <a name="16-bit-floating-point-rules"></a><span data-ttu-id="b8869-153">Règles de Floating-Point 16 bits</span><span class="sxs-lookup"><span data-stu-id="b8869-153">16-bit Floating-Point Rules</span></span>
+
+<span data-ttu-id="b8869-154">Direct3D 10 prend également en charge les représentations 16 bits des nombres à virgule flottante.</span><span class="sxs-lookup"><span data-stu-id="b8869-154">Direct3D 10 also supports 16-bit representations of floating-point numbers.</span></span>
+
+<span data-ttu-id="b8869-155">Format:</span><span class="sxs-lookup"><span data-stu-id="b8869-155">Format:</span></span>
+
+-   <span data-ttu-id="b8869-156">1 bit (s) de signe dans la position de bit du MSB</span><span class="sxs-lookup"><span data-stu-id="b8869-156">1 sign bit (s)in the MSB bit position</span></span>
+-   <span data-ttu-id="b8869-157">5 bits d’exposant biaisé (e)</span><span class="sxs-lookup"><span data-stu-id="b8869-157">5 bits of biased exponent (e)</span></span>
+-   <span data-ttu-id="b8869-158">10 bits de fraction (f), avec un bit masqué supplémentaire</span><span class="sxs-lookup"><span data-stu-id="b8869-158">10 bits of fraction (f), with an additional hidden bit</span></span>
+
+<span data-ttu-id="b8869-159">Une valeur float16 (v) respecte les règles suivantes :</span><span class="sxs-lookup"><span data-stu-id="b8869-159">A float16 value (v) follows the following rules:</span></span>
+
+-   <span data-ttu-id="b8869-160">Si e = = 31 et f ! = 0, alors v est NaN indépendamment de s</span><span class="sxs-lookup"><span data-stu-id="b8869-160">if e == 31 and f != 0, then v is NaN regardless of s</span></span>
+-   <span data-ttu-id="b8869-161">Si e = = 31 et f = = 0, v = (-1) s \* infini (infini signé)</span><span class="sxs-lookup"><span data-stu-id="b8869-161">if e == 31 and f == 0, then v = (-1)s\*infinity (signed infinity)</span></span>
+-   <span data-ttu-id="b8869-162">Si e est compris entre 0 et 31, v = (-1) s \* 2 (e-15) \* (1. f)</span><span class="sxs-lookup"><span data-stu-id="b8869-162">if e is between 0 and 31, then v = (-1)s\*2(e-15)\*(1.f)</span></span>
+-   <span data-ttu-id="b8869-163">Si e = = 0 et f ! = 0, alors v = (-1) s \* 2 (e-14) \* (0. f) (nombres dénormalisés)</span><span class="sxs-lookup"><span data-stu-id="b8869-163">if e == 0 and f != 0, then v = (-1)s\*2(e-14)\*(0.f) (denormalized numbers)</span></span>
+-   <span data-ttu-id="b8869-164">Si e = = 0 et f = = 0, v = (-1) s \* 0 (zéro signé)</span><span class="sxs-lookup"><span data-stu-id="b8869-164">if e == 0 and f == 0, then v = (-1)s\*0 (signed zero)</span></span>
+
+<span data-ttu-id="b8869-165">les règles à virgule flottante 32 bits sont également conservées pour les nombres à virgule flottante 16 bits, ajustées pour la disposition en bits décrite ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="b8869-165">32-bit floating-point rules also hold for 16-bit floating-point numbers, adjusted for the bit layout described above.</span></span> <span data-ttu-id="b8869-166">Les exceptions à cette règle sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="b8869-166">Exceptions to this include:</span></span>
+
+-   <span data-ttu-id="b8869-167">Précision : les opérations non ancrées sur les nombres à virgule flottante 16 bits produisent un résultat qui est la valeur représentable la plus proche d’un résultat à précision infinie (arrondi au plus proche pair, par IEEE-754, appliqué aux valeurs 16 bits).</span><span class="sxs-lookup"><span data-stu-id="b8869-167">Precision: Unfused operations on 16-bit floating-point numbers produce a result that is the nearest representable value to an infinitely-precise result (round to nearest even, per IEEE-754, applied to 16-bit values).</span></span> <span data-ttu-id="b8869-168">les règles à virgule flottante 32 bits adhèrent à 1 tolérance ULP, les règles à virgule flottante de 16 bits adhèrent à 0,5 ULP pour les opérations non fusionnées et 0,6 ULP pour les opérations fusionnées.</span><span class="sxs-lookup"><span data-stu-id="b8869-168">32-bit floating-point rules adhere to 1 ULP tolerance, 16-bit floating-point rules adhere to 0.5 ULP for unfused operations, and 0.6 ULP for fused operations.</span></span>
+-   <span data-ttu-id="b8869-169">les nombres à virgule flottante 16 bits préservent les dénormes.</span><span class="sxs-lookup"><span data-stu-id="b8869-169">16-bit floating-point numbers preserve denorms.</span></span>
+
+## <a name="11-bit-and-10-bit-floating-point-rules"></a><span data-ttu-id="b8869-170">Règles de Floating-Point 11 bits et 10 bits</span><span class="sxs-lookup"><span data-stu-id="b8869-170">11-bit and 10-bit Floating-Point Rules</span></span>
+
+<span data-ttu-id="b8869-171">Direct3D 10 prend également en charge les formats à virgule flottante 11 bits et 10 bits.</span><span class="sxs-lookup"><span data-stu-id="b8869-171">Direct3D 10 also supports 11-bit and 10-bit floating-point formats.</span></span>
+
+<span data-ttu-id="b8869-172">Format:</span><span class="sxs-lookup"><span data-stu-id="b8869-172">Format:</span></span>
+
+-   <span data-ttu-id="b8869-173">Aucun bit de signe</span><span class="sxs-lookup"><span data-stu-id="b8869-173">No sign bit</span></span>
+-   <span data-ttu-id="b8869-174">5 bits d’exposant biaisé (e)</span><span class="sxs-lookup"><span data-stu-id="b8869-174">5 bits of biased exponent (e)</span></span>
+-   <span data-ttu-id="b8869-175">6 bits de fraction (f) pour un format 11 bits, 5 bits de fraction (f) pour un format 10 bits, avec un bit masqué supplémentaire dans les deux cas.</span><span class="sxs-lookup"><span data-stu-id="b8869-175">6 bits of fraction (f) for an 11-bit format, 5 bits of fraction (f) for a 10-bit format, with an additional hidden bit in either case.</span></span>
+
+<span data-ttu-id="b8869-176">Une valeur float11/float10 (v) respecte les règles suivantes :</span><span class="sxs-lookup"><span data-stu-id="b8869-176">A float11/float10 value (v) follows the following rules:</span></span>
+
+-   <span data-ttu-id="b8869-177">Si e = = 31 et f ! = 0, alors v est NaN</span><span class="sxs-lookup"><span data-stu-id="b8869-177">if e == 31 and f != 0, then v is NaN</span></span>
+-   <span data-ttu-id="b8869-178">Si e = = 31 et f = = 0, alors v = + Infinity</span><span class="sxs-lookup"><span data-stu-id="b8869-178">if e == 31 and f == 0, then v = +infinity</span></span>
+-   <span data-ttu-id="b8869-179">Si e est compris entre 0 et 31, v = 2 (e-15) \* (1. f)</span><span class="sxs-lookup"><span data-stu-id="b8869-179">if e is between 0 and 31, then v = 2(e-15)\*(1.f)</span></span>
+-   <span data-ttu-id="b8869-180">Si e = = 0 et f ! = 0, alors v = \* 2 (e-14) \* (0. f) (nombres dénormalisés)</span><span class="sxs-lookup"><span data-stu-id="b8869-180">if e == 0 and f != 0, then v = \*2(e-14)\*(0.f) (denormalized numbers)</span></span>
+-   <span data-ttu-id="b8869-181">Si e = = 0 et f = = 0, alors v = 0 (zéro)</span><span class="sxs-lookup"><span data-stu-id="b8869-181">if e == 0 and f == 0, then v = 0 (zero)</span></span>
+
+<span data-ttu-id="b8869-182">les règles à virgule flottante 32 bits contiennent également des nombres à virgule flottante de 11 et 10 bits, ajustés pour la disposition en bits décrite ci-dessus.</span><span class="sxs-lookup"><span data-stu-id="b8869-182">32-bit floating-point rules also hold for 11-bit and 10-bit floating-point numbers, adjusted for the bit layout described above.</span></span> <span data-ttu-id="b8869-183">Voici certaines exceptions :</span><span class="sxs-lookup"><span data-stu-id="b8869-183">Exceptions include:</span></span>
+
+-   <span data-ttu-id="b8869-184">Précision : les règles à virgule flottante 32 bits adhèrent à 0,5 ULP.</span><span class="sxs-lookup"><span data-stu-id="b8869-184">Precision: 32-bit floating-point rules adhere to 0.5 ULP.</span></span>
+-   <span data-ttu-id="b8869-185">les nombres à virgule flottante 10/11 bits préservent les dénormes.</span><span class="sxs-lookup"><span data-stu-id="b8869-185">10/11-bit floating-point numbers preserve denorms.</span></span>
+-   <span data-ttu-id="b8869-186">Toute opération qui aboutirait à un nombre inférieur à zéro est ancrée à zéro.</span><span class="sxs-lookup"><span data-stu-id="b8869-186">Any operation that would result in a number less than zero, is clamped to zero.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="b8869-187">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="b8869-187">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="b8869-188">Ressources (Direct3D 10)</span><span class="sxs-lookup"><span data-stu-id="b8869-188">Resources (Direct3D 10)</span></span>](d3d10-graphics-programming-guide-resources.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
