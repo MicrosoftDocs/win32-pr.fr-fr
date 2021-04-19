@@ -1,0 +1,218 @@
+---
+UID: NS:directml.DML_GATHER_ND1_OPERATOR_DESC
+title: DML_GATHER_ND1_OPERATOR_DESC
+description: Recueille des éléments à partir du tenseur d’entrée, en utilisant les index tenseur pour remapper les index à des sous-blocs complets de l’entrée. | DML_GATHER_ND1_OPERATOR_DESC
+helpviewer_keywords:
+- DML_GATHER_ND1_OPERATOR_DESC
+- DML_GATHER_ND1_OPERATOR_DESC structure
+- direct3d12.dml_convolution_integer_operator_desc
+- directml/DML_GATHER_ND1_OPERATOR_DESC
+ms.topic: reference
+tech.root: directml
+ms.date: 11/09/2020
+ms.keywords: DML_GATHER_ND1_OPERATOR_DESC, DML_GATHER_ND1_OPERATOR_DESC structure, direct3d12.dml_convolution_integer_operator_desc, directml/DML_GATHER_ND1_OPERATOR_DESC
+req.header: directml.h
+req.include-header: ''
+req.target-type: Windows
+req.target-min-winverclnt: ''
+req.target-min-winversvr: ''
+req.kmdf-ver: ''
+req.umdf-ver: ''
+req.ddi-compliance: ''
+req.unicode-ansi: ''
+req.idl: ''
+req.max-support: ''
+req.namespace: ''
+req.assembly: ''
+req.type-library: ''
+req.lib: ''
+req.dll: ''
+req.irql: ''
+targetos: Windows
+req.typenames: ''
+req.redist: ''
+f1_keywords:
+- DML_GATHER_ND1_OPERATOR_DESC
+- directml/DML_GATHER_ND1_OPERATOR_DESC
+dev_langs:
+- c++
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- DirectML.h
+api_name:
+- DML_GATHER_ND1_OPERATOR_DESC
+ms.openlocfilehash: dc7f33f50fa6a0c1cd2850b8e02aad30d75afeb1
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "106531298"
+---
+# <a name="dml_gather_nd1_operator_desc-structure-directmlh"></a><span data-ttu-id="80ae6-104">Structure DML_GATHER_ND1_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="80ae6-104">DML_GATHER_ND1_OPERATOR_DESC structure (directml.h)</span></span>
+
+<span data-ttu-id="80ae6-105">Recueille des éléments à partir du tenseur d’entrée, en utilisant les index tenseur pour remapper les index à des sous-blocs complets de l’entrée.</span><span class="sxs-lookup"><span data-stu-id="80ae6-105">Gathers elements from the input tensor, using the indices tensor to remap indices to entire subblocks of the input.</span></span> <span data-ttu-id="80ae6-106">Cet opérateur effectue le pseudocode suivant, où « ... » représente une série de coordonnées, avec le comportement exact qui dépend du nombre de dimensions du lot, de l’entrée et des index.</span><span class="sxs-lookup"><span data-stu-id="80ae6-106">This operator performs the following pseudocode, where "..." represents a series of coordinates, with the exact behavior dependent on the batch, input, and indices dimension count.</span></span>
+
+```
+output[batch, ...] = input[batch, indices[batch, ...], ...]
+```
+
+> [!IMPORTANT]
+> <span data-ttu-id="80ae6-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="80ae6-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="80ae6-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="80ae6-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="80ae6-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="80ae6-109">Syntax</span></span>
+
+```cpp
+struct DML_GATHER_ND1_OPERATOR_DESC
+{
+  const DML_TENSOR_DESC* InputTensor;
+  const DML_TENSOR_DESC* IndicesTensor;
+  const DML_TENSOR_DESC* OutputTensor;
+  UINT InputDimensionCount;
+  UINT IndicesDimensionCount;
+  UINT BatchDimensionCount;
+};
+```
+
+## <a name="members"></a><span data-ttu-id="80ae6-110">Membres</span><span class="sxs-lookup"><span data-stu-id="80ae6-110">Members</span></span>
+
+`InputTensor`
+
+<span data-ttu-id="80ae6-111">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="80ae6-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="80ae6-112">Tenseur à partir duquel effectuer la lecture.</span><span class="sxs-lookup"><span data-stu-id="80ae6-112">The tensor to read from.</span></span>
+
+`IndicesTensor`
+
+<span data-ttu-id="80ae6-113">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="80ae6-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="80ae6-114">Tenseur contenant les index.</span><span class="sxs-lookup"><span data-stu-id="80ae6-114">The tensor containing the indices.</span></span> <span data-ttu-id="80ae6-115">Le *DimensionCount* de ce tenseur doit correspondre à *InputTensor. DimensionCount*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-115">The *DimensionCount* of this tensor must match *InputTensor.DimensionCount*.</span></span> <span data-ttu-id="80ae6-116">La dernière dimension du *IndicesTensor* est en fait le nombre de coordonnées par tuple d’index et ne peut pas dépasser *InputTensor. DimensionCount*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-116">The last dimension of the *IndicesTensor* is actually the number of coordinates per index tuple, and it cannot exceed *InputTensor.DimensionCount*.</span></span> <span data-ttu-id="80ae6-117">Par exemple, un tenseur d’index de *tailles* `{1,4,5,2}` avec *IndicesDimensionCount* = 3 représente un tableau à de tuples à 2 coordonnées qui sont indexés dans *InputTensor*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-117">For example, an indices tensor of *Sizes* `{1,4,5,2}` with *IndicesDimensionCount* = 3 means a 4x5 array of 2-coordinate tuples that index into *InputTensor*.</span></span>
+
+<span data-ttu-id="80ae6-118">À compter de `DML_FEATURE_LEVEL_3_0` , cet opérateur prend en charge les valeurs d’index négatives lors de l’utilisation d’un type intégral signé avec ce tenseur.</span><span class="sxs-lookup"><span data-stu-id="80ae6-118">Starting with `DML_FEATURE_LEVEL_3_0`, this operator supports negative index values when using a signed integral type with this tensor.</span></span> <span data-ttu-id="80ae6-119">Les indices négatifs sont interprétés comme étant relatifs à la fin de la dimension respective.</span><span class="sxs-lookup"><span data-stu-id="80ae6-119">Negative indices are interpreted as being relative to the end of the respective dimension.</span></span> <span data-ttu-id="80ae6-120">Par exemple, un index de-1 fait référence au dernier élément de cette dimension.</span><span class="sxs-lookup"><span data-stu-id="80ae6-120">For example, an index of -1 refers to the last element along that dimension.</span></span>
+
+`OutputTensor`
+
+<span data-ttu-id="80ae6-121">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="80ae6-121">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="80ae6-122">Tenseur dans lequel écrire les résultats.</span><span class="sxs-lookup"><span data-stu-id="80ae6-122">The tensor to write the results to.</span></span> <span data-ttu-id="80ae6-123">Le *DimensionCount* et le *type de données* de ce tenseur doivent correspondre à *InputTensor. DimensionCount*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-123">The *DimensionCount* and *DataType* of this tensor must match *InputTensor.DimensionCount*.</span></span> <span data-ttu-id="80ae6-124">Les *OutputTensor. Sizes* attendues sont la concaténation des segments de début *IndicesTensor. Sizes* et *InputTensor. Sizes* , qui produit les éléments suivants.</span><span class="sxs-lookup"><span data-stu-id="80ae6-124">The expected *OutputTensor.Sizes* are the concatenation of the *IndicesTensor.Sizes* leading segments and *InputTensor.Sizes* trailing segment, which yields the following.</span></span>
+
+```
+indexTupleSize = IndicesTensor.Sizes[IndicesTensor.DimensionCount - 1]
+OutputTensor.Sizes = {
+    1...,
+    IndicesTensor.Sizes[(IndicesTensor.DimensionCount - IndicesDimensionCount) .. (IndicesTensor.DimensionCount - 1)],
+    InputTensor.Sizes[(InputTensor.DimensionCount - indexTupleSize) .. InputTensor.DimensionCount]
+}
+```
+
+<span data-ttu-id="80ae6-125">Les dimensions sont alignées à droite, avec 1 valeur ajoutée au début si nécessaire pour satisfaire *OutputTensor. DimensionCount*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-125">The dimensions are right-aligned, with leading 1 values prepended if needed to satisfy *OutputTensor.DimensionCount*.</span></span>
+
+<span data-ttu-id="80ae6-126">Voici un exemple.</span><span class="sxs-lookup"><span data-stu-id="80ae6-126">Here's an example.</span></span>
+
+```
+InputTensor.Sizes = {3,4,5,6,7}
+InputDimensionCount = 5
+IndicesTensor.Sizes = {1,1, 1,2,3}
+IndicesDimensionCount = 3 // can be thought of as a {1,2} array of 3-coordinate tuples
+
+// The {1,2} comes from the indices tensor (ignoring last dimension which is the tuple size),
+// and the {6,7} comes from input tensor, ignoring the first 3 dimensions
+// since the index tuples are 3 elements (from the indices tensor last dimension).
+OutputTensor.Sizes = {1, 1,2,6,7}
+```
+
+`InputDimensionCount`
+
+<span data-ttu-id="80ae6-127">Type : [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="80ae6-127">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+
+<span data-ttu-id="80ae6-128">Nombre de dimensions d’entrée réelles dans le *InputTensor* après avoir ignoré les éléments de début non significatifs, à partir de `[1, *InputTensor.DimensionCount*]` .</span><span class="sxs-lookup"><span data-stu-id="80ae6-128">The number of actual input dimensions within the *InputTensor* after ignoring any irrelevant leading ones, ranging `[1, *InputTensor.DimensionCount*]`.</span></span> <span data-ttu-id="80ae6-129">Par exemple, étant donné *InputTensor. Sizes*  =  `{1,1,4,6}` et `InputDimensionCount` = 3, les index significatifs réels sont `{1,4,6}` .</span><span class="sxs-lookup"><span data-stu-id="80ae6-129">For example, given *InputTensor.Sizes* = `{1,1,4,6}` and `InputDimensionCount` = 3, the actual meaningful indices are `{1,4,6}`.</span></span>
+
+`IndicesDimensionCount`
+
+<span data-ttu-id="80ae6-130">Type : [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="80ae6-130">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+
+<span data-ttu-id="80ae6-131">Nombre de dimensions d’index réelles dans le *IndicesTensor* après avoir ignoré les éléments de début non significatifs, à partir de [1, *IndicesTensor. DimensionCount*].</span><span class="sxs-lookup"><span data-stu-id="80ae6-131">The number of actual index dimensions within the *IndicesTensor* after ignoring any irrelevant leading ones, ranging [1, *IndicesTensor.DimensionCount*].</span></span> <span data-ttu-id="80ae6-132">Par exemple, étant donné *IndicesTensor. Sizes*  =  `{1,1,4,6}` et *IndicesDimensionCount* = 3, les index significatifs réels sont `{1,4,6}` .</span><span class="sxs-lookup"><span data-stu-id="80ae6-132">For example, given *IndicesTensor.Sizes* = `{1,1,4,6}`, and *IndicesDimensionCount* = 3, the actual meaningful indices are `{1,4,6}`.</span></span>
+
+`BatchDimensionCount`
+
+<span data-ttu-id="80ae6-133">Type : [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="80ae6-133">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+
+<span data-ttu-id="80ae6-134">Nombre de dimensions au sein de chaque tenseur (*InputTensor*, *IndicesTensor*, *OutputTensor*) qui sont considérées comme des lots indépendants, à la fois dans [0, *InputTensor. DimensionCount*) et dans [0, *IndicesTensor. DimensionCount*).</span><span class="sxs-lookup"><span data-stu-id="80ae6-134">The number of dimensions within each tensor (*InputTensor*, *IndicesTensor*, *OutputTensor*) that are considered independent batches, ranging within both [0, *InputTensor.DimensionCount*) and [0, *IndicesTensor.DimensionCount*).</span></span> <span data-ttu-id="80ae6-135">Le nombre de lots peut être égal à 0, ce qui implique un seul lot.</span><span class="sxs-lookup"><span data-stu-id="80ae6-135">The batch count can be 0, implying a single batch.</span></span> <span data-ttu-id="80ae6-136">Par exemple, étant donné *IndicesTensor. Sizes*  =  `{1,3,4,5,6,7}` et *IndicesDimensionCount* = 5 et `BatchDimensionCount` = 2, il existe des lots `{3,4}` et des index significatifs `{5,6,7}` .</span><span class="sxs-lookup"><span data-stu-id="80ae6-136">For example, given *IndicesTensor.Sizes* = `{1,3,4,5,6,7}`, and *IndicesDimensionCount* = 5 and `BatchDimensionCount` = 2, there are batches `{3,4}` and meaningful indices `{5,6,7}`.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="80ae6-137">Notes</span><span class="sxs-lookup"><span data-stu-id="80ae6-137">Remarks</span></span>
+<span data-ttu-id="80ae6-138">**DML_GATHER_ND1_OPERATOR_DESC** ajoute *BatchDimensionCount* et équivaut à [DML_GATHER_ND_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_gather_nd_operator_desc) lorsque *BatchDimensionCount* = 0.</span><span class="sxs-lookup"><span data-stu-id="80ae6-138">**DML_GATHER_ND1_OPERATOR_DESC** adds *BatchDimensionCount*, and is equivalent to [DML_GATHER_ND_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_gather_nd_operator_desc) when *BatchDimensionCount* = 0.</span></span>
+
+## <a name="examples"></a><span data-ttu-id="80ae6-139">Exemples</span><span class="sxs-lookup"><span data-stu-id="80ae6-139">Examples</span></span>
+
+### <a name="example-1-1d-remapping"></a><span data-ttu-id="80ae6-140">Exemple 1.</span><span class="sxs-lookup"><span data-stu-id="80ae6-140">Example 1.</span></span> <span data-ttu-id="80ae6-141">remappage 1D</span><span class="sxs-lookup"><span data-stu-id="80ae6-141">1D remapping</span></span>
+
+```
+InputDimensionCount: 2
+IndicesDimensionCount: 2
+BatchDimensionCount: 0
+
+InputTensor: (Sizes:{2,2}, DataType:FLOAT32)
+    [[0,1],[2,3]]
+
+IndicesTensor: (Sizes:{2,1}, DataType:UINT32)
+    [[1],[0]]
+
+// output[y, x] = input[indices[y], x]
+OutputTensor: (Sizes:{2,2}, DataType:FLOAT32)
+    [[2,3],[0,1]]
+```
+
+### <a name="example-2-2d-remapping-with-batch-count"></a><span data-ttu-id="80ae6-142">Exemple 2.</span><span class="sxs-lookup"><span data-stu-id="80ae6-142">Example 2.</span></span> <span data-ttu-id="80ae6-143">remappage 2D avec le nombre de lots</span><span class="sxs-lookup"><span data-stu-id="80ae6-143">2D remapping with batch count</span></span>
+
+```
+InputDimensionCount: 3
+IndicesDimensionCount: 3
+BatchDimensionCount: 1
+
+// 3 batches.
+InputTensor: (Sizes:{1, 3,2,2}, DataType:FLOAT32)
+    [
+        [[[0,1],[2,3]],   // batch 0
+         [[4,5],[6,7]],   // batch 1
+         [[8,9],[10,11]]] // batch 2
+    ]
+
+// A 3x2 array of 2D tuples indexing into InputTensor.
+// e.g. a tuple of <1,0> in batch 1 corresponds to input value 6.
+IndicesTensor: (Sizes:{1, 3,2,2}, DataType:UINT32)
+    [
+        [[[0,0],[1,1]],
+         [[1,1],[0,0]],
+         [[0,1],[1,0]]]
+    ]
+
+// output[batch, x] = input[batch, indices[batch, x, 0], indices[batch, x, 1]]
+OutputTensor: (Sizes:{1,1, 3,2}, DataType:FLOAT32)
+    [[
+        [[0,3],
+         [7,4],
+         [9,10]]
+    ]]
+```
+
+## <a name="availability"></a><span data-ttu-id="80ae6-144">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="80ae6-144">Availability</span></span>
+<span data-ttu-id="80ae6-145">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .</span><span class="sxs-lookup"><span data-stu-id="80ae6-145">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
+
+## <a name="tensor-constraints"></a><span data-ttu-id="80ae6-146">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="80ae6-146">Tensor constraints</span></span>
+* <span data-ttu-id="80ae6-147">*IndicesTensor*, *InputTensor* et *OutputTensor* doivent avoir le même *DimensionCount*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-147">*IndicesTensor*, *InputTensor*, and *OutputTensor* must have the same *DimensionCount*.</span></span>
+* <span data-ttu-id="80ae6-148">*InputTensor* et *OutputTensor* doivent avoir le même *type de données*.</span><span class="sxs-lookup"><span data-stu-id="80ae6-148">*InputTensor* and *OutputTensor* must have the same *DataType*.</span></span>
+
+## <a name="tensor-support"></a><span data-ttu-id="80ae6-149">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="80ae6-149">Tensor support</span></span>
+| <span data-ttu-id="80ae6-150">Tenseur</span><span class="sxs-lookup"><span data-stu-id="80ae6-150">Tensor</span></span> | <span data-ttu-id="80ae6-151">Type</span><span class="sxs-lookup"><span data-stu-id="80ae6-151">Kind</span></span> | <span data-ttu-id="80ae6-152">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="80ae6-152">Supported dimension counts</span></span> | <span data-ttu-id="80ae6-153">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="80ae6-153">Supported data types</span></span> |
+| ------ | ---- | -------------------------- | -------------------- |
+| <span data-ttu-id="80ae6-154">InputTensor</span><span class="sxs-lookup"><span data-stu-id="80ae6-154">InputTensor</span></span> | <span data-ttu-id="80ae6-155">Entrée</span><span class="sxs-lookup"><span data-stu-id="80ae6-155">Input</span></span> | <span data-ttu-id="80ae6-156">1 à 8</span><span class="sxs-lookup"><span data-stu-id="80ae6-156">1 to 8</span></span> | <span data-ttu-id="80ae6-157">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="80ae6-157">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="80ae6-158">IndicesTensor</span><span class="sxs-lookup"><span data-stu-id="80ae6-158">IndicesTensor</span></span> | <span data-ttu-id="80ae6-159">Entrée</span><span class="sxs-lookup"><span data-stu-id="80ae6-159">Input</span></span> | <span data-ttu-id="80ae6-160">1 à 8</span><span class="sxs-lookup"><span data-stu-id="80ae6-160">1 to 8</span></span> | <span data-ttu-id="80ae6-161">INT64, INT32, UINT64, UINT32</span><span class="sxs-lookup"><span data-stu-id="80ae6-161">INT64, INT32, UINT64, UINT32</span></span> |
+| <span data-ttu-id="80ae6-162">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="80ae6-162">OutputTensor</span></span> | <span data-ttu-id="80ae6-163">Output</span><span class="sxs-lookup"><span data-stu-id="80ae6-163">Output</span></span> | <span data-ttu-id="80ae6-164">1 à 8</span><span class="sxs-lookup"><span data-stu-id="80ae6-164">1 to 8</span></span> | <span data-ttu-id="80ae6-165">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="80ae6-165">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+
+## <a name="requirements"></a><span data-ttu-id="80ae6-166">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="80ae6-166">Requirements</span></span>
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| <span data-ttu-id="80ae6-167">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="80ae6-167">**Header**</span></span> | <span data-ttu-id="80ae6-168">directml. h</span><span class="sxs-lookup"><span data-stu-id="80ae6-168">directml.h</span></span> |

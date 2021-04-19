@@ -1,0 +1,165 @@
+---
+description: La méthode Delete WMI Class supprime le fichier de raccourci logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.
+ms.assetid: 4059eca3-44d9-48a7-b69f-e9598f939266
+ms.tgt_platform: multiple
+title: Méthode Delete de la classe Win32_ShortcutFile
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_ShortcutFile.Delete
+api_type:
+- COM
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: 46ad2ffcd768603d90c86a8d4751e76268a9e919
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106517405"
+---
+# <a name="delete-method-of-the-win32_shortcutfile-class"></a><span data-ttu-id="19dc7-103">Méthode Delete de la \_ classe ShortcutFile Win32</span><span class="sxs-lookup"><span data-stu-id="19dc7-103">Delete method of the Win32\_ShortcutFile class</span></span>
+
+<span data-ttu-id="19dc7-104">La méthode **Delete** [WMI Class](/windows/desktop/WmiSdk/retrieving-a-class) supprime le fichier de raccourci logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.</span><span class="sxs-lookup"><span data-stu-id="19dc7-104">The **Delete** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method deletes the logical shortcut file (or directory) specified in the object path.</span></span>
+
+<span data-ttu-id="19dc7-105">Cette rubrique utilise la syntaxe format MOF (MOF).</span><span class="sxs-lookup"><span data-stu-id="19dc7-105">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="19dc7-106">Pour plus d’informations sur l’utilisation de cette méthode, consultez [appel d’une méthode](/windows/desktop/WmiSdk/calling-a-method).</span><span class="sxs-lookup"><span data-stu-id="19dc7-106">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="19dc7-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="19dc7-107">Syntax</span></span>
+
+
+```mof
+uint32 Delete();
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="19dc7-108">Paramètres</span><span class="sxs-lookup"><span data-stu-id="19dc7-108">Parameters</span></span>
+
+<span data-ttu-id="19dc7-109">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="19dc7-109">This method has no parameters.</span></span>
+
+## <a name="return-value"></a><span data-ttu-id="19dc7-110">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="19dc7-110">Return value</span></span>
+
+<span data-ttu-id="19dc7-111">Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.</span><span class="sxs-lookup"><span data-stu-id="19dc7-111">Returns a value of 0 (zero) if the file was successfully deleted, and any other number to indicate an error.</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="19dc7-112">**0**</span><span class="sxs-lookup"><span data-stu-id="19dc7-112">**0**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-113">La demande a abouti.</span><span class="sxs-lookup"><span data-stu-id="19dc7-113">The request was successful.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-114">**2**</span><span class="sxs-lookup"><span data-stu-id="19dc7-114">**2**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-115">L’accès a été refusé.</span><span class="sxs-lookup"><span data-stu-id="19dc7-115">Access was denied.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-116">**8**</span><span class="sxs-lookup"><span data-stu-id="19dc7-116">**8**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-117">Une erreur non spécifiée s’est produite.</span><span class="sxs-lookup"><span data-stu-id="19dc7-117">An unspecified failure occurred.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-118">**9**</span><span class="sxs-lookup"><span data-stu-id="19dc7-118">**9**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-119">Le nom spécifié n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="19dc7-119">The name specified was not valid.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-120">**10**</span><span class="sxs-lookup"><span data-stu-id="19dc7-120">**10**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-121">L’objet spécifié existe déjà.</span><span class="sxs-lookup"><span data-stu-id="19dc7-121">The object specified already exists.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-122">**11**</span><span class="sxs-lookup"><span data-stu-id="19dc7-122">**11**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-123">Le système de fichiers n’est pas NTFS.</span><span class="sxs-lookup"><span data-stu-id="19dc7-123">The file system is not NTFS.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-124">**12**</span><span class="sxs-lookup"><span data-stu-id="19dc7-124">**12**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-125">La plateforme n’est pas Windows.</span><span class="sxs-lookup"><span data-stu-id="19dc7-125">The platform is not Windows.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-126">**13**</span><span class="sxs-lookup"><span data-stu-id="19dc7-126">**13**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-127">Le lecteur n’est pas le même.</span><span class="sxs-lookup"><span data-stu-id="19dc7-127">The drive is not the same.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-128">**14**</span><span class="sxs-lookup"><span data-stu-id="19dc7-128">**14**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-129">Le répertoire n'est pas vide.</span><span class="sxs-lookup"><span data-stu-id="19dc7-129">The directory is not empty.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-130">**15**</span><span class="sxs-lookup"><span data-stu-id="19dc7-130">**15**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-131">Une violation de partage s’est produite.</span><span class="sxs-lookup"><span data-stu-id="19dc7-131">There has been a sharing violation.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-132">**16**</span><span class="sxs-lookup"><span data-stu-id="19dc7-132">**16**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-133">Le fichier de démarrage spécifié n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="19dc7-133">The start file specified was not valid.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-134">**17**</span><span class="sxs-lookup"><span data-stu-id="19dc7-134">**17**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-135">Un privilège requis pour l’opération n’est pas conservé.</span><span class="sxs-lookup"><span data-stu-id="19dc7-135">A privilege required for the operation is not held.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="19dc7-136">**21**</span><span class="sxs-lookup"><span data-stu-id="19dc7-136">**21**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="19dc7-137">Un paramètre spécifié n’est pas valide.</span><span class="sxs-lookup"><span data-stu-id="19dc7-137">A parameter specified is not valid.</span></span>
+
+</dd> </dl>
+
+## <a name="requirements"></a><span data-ttu-id="19dc7-138">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="19dc7-138">Requirements</span></span>
+
+
+
+| <span data-ttu-id="19dc7-139">Condition requise</span><span class="sxs-lookup"><span data-stu-id="19dc7-139">Requirement</span></span> | <span data-ttu-id="19dc7-140">Valeur</span><span class="sxs-lookup"><span data-stu-id="19dc7-140">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="19dc7-141">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="19dc7-141">Minimum supported client</span></span><br/> | <span data-ttu-id="19dc7-142">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="19dc7-142">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="19dc7-143">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="19dc7-143">Minimum supported server</span></span><br/> | <span data-ttu-id="19dc7-144">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="19dc7-144">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="19dc7-145">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="19dc7-145">Namespace</span></span><br/>                | <span data-ttu-id="19dc7-146">\\Cimv2 racine</span><span class="sxs-lookup"><span data-stu-id="19dc7-146">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="19dc7-147">MOF</span><span class="sxs-lookup"><span data-stu-id="19dc7-147">MOF</span></span><br/>                      | <dl> <span data-ttu-id="19dc7-148"><dt>CIMWin32. mof</dt></span><span class="sxs-lookup"><span data-stu-id="19dc7-148"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="19dc7-149">DLL</span><span class="sxs-lookup"><span data-stu-id="19dc7-149">DLL</span></span><br/>                      | <dl> <span data-ttu-id="19dc7-150"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="19dc7-150"><dt>CIMWin32.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="19dc7-151">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="19dc7-151">See also</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="19dc7-152">[Classes du système d’exploitation](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="19dc7-152">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="19dc7-153">**\_ShortcutFile Win32**</span><span class="sxs-lookup"><span data-stu-id="19dc7-153">**Win32\_ShortcutFile**</span></span>](win32-shortcutfile.md)
+</dt> </dl>
+
+ 
+
