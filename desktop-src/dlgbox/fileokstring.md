@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61208ddebc63f1186c2947416e451231f0bea24e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a6fddbb3460f15e1efb946b9bd17f1c85fd031a8
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466818"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590786"
 ---
 # <a name="fileokstring-message"></a>Message FILEOKSTRING
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie le message **FILEOKSTRING** Registered à votre procédure de Hook, [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc), lorsque l’utilisateur spécifie un nom de fichier et clique sur le bouton **OK** . La procédure de raccordement peut accepter le nom de fichier et autoriser la fermeture de la boîte de dialogue, ou refuser le nom de fichier et forcer la boîte de dialogue à rester ouverte.
 
@@ -54,17 +54,17 @@ Pointeur vers une structure [**OpenFileName**](/windows/win32/api/commdlg/ns-com
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la procédure de raccordement retourne la valeur zéro, la boîte de dialogue **ouvrir** ou **Enregistrer sous** accepte le nom de fichier spécifié et se ferme.
 
 Si la procédure de raccordement retourne une valeur différente de zéro, la boîte de dialogue **ouvrir** ou **Enregistrer sous** rejette le nom de fichier spécifié et reste ouverte.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure de hook doit spécifier la constante **FILEOKSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -93,7 +93,7 @@ La procédure de hook doit spécifier la constante **FILEOKSTRING** dans un appe
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
