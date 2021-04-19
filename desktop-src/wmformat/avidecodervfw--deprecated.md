@@ -1,0 +1,28 @@
+---
+title: AVIDecoderVFW
+description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | AVIDecoderVFW
+ms.assetid: e499acff-96a3-44d5-8948-6057a0dac40f
+keywords:
+- Format Windows Media AVIDecoderVFW
+topic_type:
+- apiref
+api_name:
+- AVIDecoderVFW
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 5e78d2b1712ab497ad6095fe25508b0a44aa6907
+ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "106524833"
+---
+# <a name="avidecodervfw"></a>AVIDecoderVFW
+
+Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+
+ 
+
+ 
