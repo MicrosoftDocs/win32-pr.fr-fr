@@ -1,0 +1,79 @@
+---
+description: Spécifie si le DSP de capture vocale effectue un remplissage de bruit.
+ms.assetid: 8bb64686-8f02-4e0d-a664-aeee1744fc8e
+title: MFPKEY_WMAAECMA_FEATR_NOISE_FILL, propriété (Wmcodecdsp. h)
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: ea0c0af2b47767a7798d9b583ac55ad5112ddf1f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106527785"
+---
+# <a name="mfpkey_wmaaecma_featr_noise_fill-property"></a>\_Propriété de \_ remplissage du \_ bruit \_ de MFPKEY WMAAECMA
+
+Spécifie si le DSP de capture vocale effectue un remplissage de bruit.
+
+## <a name="constant-for-ipropertybag"></a>Constante pour IPropertyBag
+
+Disponible uniquement à l’aide de [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore).
+
+## <a name="data-type"></a>Type de données
+
+VT \_ bool
+
+## <a name="default-value"></a>Valeur par défaut
+
+VARIANTE \_ true
+
+## <a name="applies-to"></a>S'applique à
+
+-   [DSP de capture vocale](voicecapturedmo.md)
+
+## <a name="remarks"></a>Notes
+
+Le remplissage du bruit ajoute une petite quantité de bruit aux portions du signal où le découpage de centre a supprimé les échos résiduels. Cela permet à l’utilisateur d’obtenir une meilleure expérience que de laisser des trous silencieux dans le signal.
+
+Cette propriété peut avoir les valeurs suivantes.
+
+
+
+| Valeur          | Description            |
+|----------------|------------------------|
+| VARIANTE \_ true  | Activez le remplissage de bruit.  |
+| VARIANTE \_ false | Désactivez le remplissage de bruit. |
+
+
+
+ 
+
+La valeur par défaut de cette propriété est \_ true (activé). Avant de définir cette propriété, vous devez affecter à la propriété [ \_ mode de \_ fonctionnalité \_ MFPKEY WMAAECMA](mfpkey-wmaaecma-feature-modeproperty.md) la \_ valeur variant true.
+
+Le DSP utilise cette propriété uniquement lorsque le traitement AEC est activé.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |
+| En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[Propriétés de la Media Foundation](media-foundation-properties.md)
+</dt> <dt>
+
+[DSP de capture vocale](voicecapturedmo.md)
+</dt> </dl>
+
+ 
+
+ 

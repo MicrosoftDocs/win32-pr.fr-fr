@@ -1,0 +1,106 @@
+---
+title: IMsRdpClientNonScriptable4 propriété AllowCredentialSaving
+description: Spécifie si la boîte de dialogue informations d’identification affiche une case à cocher qui active l’enregistrement des informations d’identification.
+ms.assetid: c5148ff0-0d7f-413d-b2a8-ff942668bee6
+ms.tgt_platform: multiple
+keywords:
+- Services Bureau à distance de la propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, interface IMsRdpClientNonScriptable4
+- Services Bureau à distance de l’interface IMsRdpClientNonScriptable4, propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, interface IMsRdpClientNonScriptable5
+- Services Bureau à distance de l’interface IMsRdpClientNonScriptable5, propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, objet MsRdpClient6
+- Services Bureau à distance objet MsRdpClient6, propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, objet MsRdpClient7
+- Services Bureau à distance objet MsRdpClient7, propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, objet MsRdpClient8
+- Services Bureau à distance objet MsRdpClient8, propriété AllowCredentialSaving
+- Services Bureau à distance de la propriété AllowCredentialSaving, objet MsRdpClient9
+- Services Bureau à distance objet MsRdpClient9, propriété AllowCredentialSaving
+topic_type:
+- apiref
+api_name:
+- IMsRdpClientNonScriptable4.AllowCredentialSaving
+- IMsRdpClientNonScriptable4.get_AllowCredentialSaving
+- IMsRdpClientNonScriptable4.put_AllowCredentialSaving
+- IMsRdpClientNonScriptable5.AllowCredentialSaving
+- IMsRdpClientNonScriptable5.get_AllowCredentialSaving
+- IMsRdpClientNonScriptable5.put_AllowCredentialSaving
+- MsRdpClient6.AllowCredentialSaving
+- MsRdpClient7.AllowCredentialSaving
+- MsRdpClient8.AllowCredentialSaving
+- MsRdpClient9.AllowCredentialSaving
+api_location:
+- MsTscAx.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 240e2eb8e80209ee5c90d63f2996231cf84bb2dc
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "106513797"
+---
+# <a name="imsrdpclientnonscriptable4allowcredentialsaving-property"></a>IMsRdpClientNonScriptable4 :: AllowCredentialSaving, propriété
+
+Spécifie si la boîte de dialogue informations d’identification affiche une case à cocher qui active l’enregistrement des informations d’identification.
+
+Cette propriété est en lecture/écriture.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT put_AllowCredentialSaving(
+  [in]  VARIANT_BOOL fAllowSave
+);
+
+HRESULT get_AllowCredentialSaving(
+  [out] VARIANT_BOOL *pfAllowSave
+);
+```
+
+
+
+## <a name="property-value"></a>Valeur de la propriété
+
+Définit si la boîte de dialogue informations d’identification affiche une case à cocher qui active l’enregistrement des informations d’identification.
+
+## <a name="error-codes"></a>Codes d’erreur
+
+Retourne **S \_ OK** en cas de réussite.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows Vista<br/>                                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                           |
+| Bibliothèque de types<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>   |
+| DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>   |
+| IID<br/>                      | IMsRdpClientNonScriptable4 est défini en tant que f50fa8aa-1c7d-4f59-B15C-a90cacae1fcb<br/> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
+</dt> <dt>
+
+[**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
