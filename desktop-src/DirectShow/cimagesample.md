@@ -1,0 +1,64 @@
+---
+description: La classe CImageSample implémente un exemple de média qui gère une image bitmap indépendante du périphérique (DIB) GDI.
+ms.assetid: 620ea791-458e-441e-8f0c-2184c44c742e
+title: CImageSample, classe (Winutil. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CImageSample
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 2235d50c952ce1b76e4a70eda0341f0fe3c4167c
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106528780"
+---
+# <a name="cimagesample-class"></a>CImageSample, classe
+
+![hiérarchie de la classe cimagesample](images/wutil03.png)
+
+La `CImageSample` classe implémente un exemple de média qui gère une image bitmap indépendante du périphérique (DIB) GDI. Cette classe dérive de la classe [**CMediaSample**](cmediasample.md) . Elle est destinée à être utilisée avec la classe [**CImageAllocator**](cimageallocator.md) . La classe **CImageAllocator** fournit un allocateur qui crée des `CImageSample` objets.
+
+
+
+| Variables membres protégées                        | Description                                                       |
+|---------------------------------------------------|-------------------------------------------------------------------|
+| [**m \_ DibData**](cimagesample-m-dibdata.md)      | Contient des informations sur le DIB que cet objet gère.  |
+| [**m \_ bInit**](cimagesample-m-binit.md)          | Indique si l’objet a été initialisé.                |
+| M&#233;thodes publiques                                    | Description                                                       |
+| [**CImageSample**](cimagesample-cimagesample.md) | Méthode de constructeur.                                               |
+| [**GetDIBData**](cimagesample-getdibdata.md)     | Récupère des informations sur le DIB que cet objet gère. |
+| [**SetDIBData**](cimagesample-setdibdata.md)     | Définit des informations sur le DIB que cet objet gère.      |
+
+
+
+ 
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
