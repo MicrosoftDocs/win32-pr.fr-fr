@@ -1,0 +1,100 @@
+---
+description: Est l’élément racine d’un fichier de script XML du générateur de code WSDAPI.
+ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
+title: élément wsdCodeGen
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 656f2273926dc3420ec84d6b9f24759f8e3587e5
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106519606"
+---
+# <a name="wsdcodegen-element"></a>élément wsdCodeGen
+
+Est l’élément racine d’un fichier de script XML du générateur de code WSDAPI.
+
+## <a name="usage"></a>Utilisation
+
+``` syntax
+<wsdCodeGen
+  ConfigFileVersion = "Any character string.">
+  child elements
+</wsdCodeGen>
+```
+
+## <a name="attributes"></a>Attributs
+
+
+
+| Attribut                        | Type                             | Obligatoire       | Description                                                                                  |
+|----------------------------------|----------------------------------|----------------|----------------------------------------------------------------------------------------------|
+| **ConfigFileVersion**<br/> | Toute chaîne de caractères.<br/> | Oui<br/> | Version du fichier de configuration. La seule valeur valide est « 1,0 ».<br/> <br/> |
+
+
+
+## <a name="child-elements"></a>Éléments enfants
+
+
+
+| Élément                                                         | Description                                                                                                                                                                                                                 |
+|-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [**autostatique**](autostatic.md)<br/>                     | Indique si WsdCodeGen doit essayer d’indicateur automatique de certains champs générés comme statiques. Cette option est activée par défaut.<br/> <br/>                                                                 |
+| [**fichier**](file.md)<br/>                                 | Indique au générateur de code de générer un fichier.<br/> <br/>                                                                                                                                                       |
+| [**hostMetadata**](hostmetadata.md)<br/>                 | Métadonnées d’hébergement pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).<br/> <br/>                                                                                 |
+| [**layerNumber**](layernumber.md)<br/>                   | Numéro de la couche de code à générer. Les numéros de couche sont utilisés dans les tables du runtime pour distinguer une couche de code d’une autre. WSDAPI utilise le code généré qui a un numéro de couche 0.<br/> <br/> |
+| [**layerPrefix**](layerprefix.md)<br/>                   | Préfixe à utiliser dans le code généré pour garantir l’unicité des symboles générés. WSDAPI utilise le préfixe « WSD ».<br/> <br/>                                                                                     |
+| [**macrovirus**](macro.md)<br/>                               | Définit le texte ou CDATA à réutiliser par l’élément [**include**](include.md) .<br/> <br/>                                                                                                                        |
+| [**Joint**](namespace.md)<br/>                       | Décrit un espace de noms à utiliser pour la génération de code.<br/> <br/>                                                                                                                                                |
+| [**relationshipMetadata**](relationshipmetadata.md)<br/> | Décrit l’hôte et les métadonnées hébergées pour l’appareil.<br/> <br/>                                                                                                                                               |
+| [**thisModelMetadata**](thismodelmetadata.md)<br/>       | Métadonnées du fabricant et du modèle pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).<br/> <br/>                                                                  |
+| [**WSDL**](wsdl.md)<br/>                                 | Spécifie un fichier WSDL à traiter pour les informations de contrat.<br/> <br/>                                                                                                                                           |
+| [**XSD**](xsd.md)<br/>                                   | Spécifie un fichier XSD à traiter pour les informations de contrat.<br/> <br/>                                                                                                                                           |
+
+
+
+### <a name="child-element-sequence"></a>Séquence d’éléments enfants
+
+``` syntax
+(
+  layerNumber?, 
+  layerPrefix?, 
+  autoStatic?, 
+  hostMetadata?, 
+  thisModelMetadata?, 
+  nameSpace*, 
+  wsdl*, 
+  xsd*, 
+  file*, 
+  macro*, 
+  relationshipMetadata*
+)
+```
+
+## <a name="parent-elements"></a>Éléments parents
+
+Il n’y a pas d’éléments parents.
+
+## <a name="remarks"></a>Notes
+
+En général, les éléments de [**fichier**](file.md) doivent se produire en dernier, car ils génèrent du code qui utilise des données spécifiées par les autres éléments.
+
+## <a name="element-information"></a>Informations sur les éléments
+
+
+
+|                                     |               |
+|-------------------------------------|---------------|
+| Système minimal pris en charge<br/> | Windows Vista |
+| Peut être vide                        | Oui           |
+
+
+
+ 
+
+ 
+
+
+
+

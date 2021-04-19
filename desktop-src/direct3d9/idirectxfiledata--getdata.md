@@ -1,0 +1,105 @@
+---
+description: Récupère les données de l’un des membres de l’objet ou les données de tous les membres. Action déconseillée.
+ms.assetid: 2a227705-371e-41f1-af5d-20e652cd07f6
+title: 'IDirectXFileData :: GetData, méthode (DXFile. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IDirectXFileData.GetData
+api_type:
+- COM
+api_location:
+- D3dxof.lib
+- D3dxof.dll
+ms.openlocfilehash: ed52aaf0b4c740b675129c81843c0bd49c7f428e
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "106532466"
+---
+# <a name="idirectxfiledatagetdata-method"></a>IDirectXFileData :: GetData, méthode
+
+Récupère les données de l’un des membres de l’objet ou les données de tous les membres. Action déconseillée.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT GetData(
+  [in]  LPCSTR szMember,
+  [out] DWORD  *pcbSize,
+  [out] void   **ppvData
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*szMember* \[ dans\]
+</dt> <dd>
+
+Type : **[ **LPCSTR**](../winprog/windows-data-types.md)**
+
+Pointeur vers le nom du membre pour lequel récupérer des données. Spécifiez **null** pour récupérer tous les données des membres requis.
+
+</dd> <dt>
+
+*PCB* \[ à\]
+</dt> <dd>
+
+Type : **[ **DWORD**](../winprog/windows-data-types.md)\***
+
+Pointeur qui reçoit la taille de la mémoire tampon ppvData, en octets.
+
+</dd> <dt>
+
+*ppvData* \[ à\]
+</dt> <dd>
+
+Type : **void \* \***
+
+Adresse d’un pointeur vers la mémoire tampon pour recevoir les données associées à szMember. Si szMember a la **valeur null**, ppvData est défini pour pointer vers une mémoire tampon contenant toutes les données des membres requis dans un bloc de mémoire contigu.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
+
+Si la méthode est réussie, la valeur de retour est DXFILE \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des valeurs suivantes : DXFILEERR \_ BADARRAYSIZE, DXFILEERR \_ BADDATAREFERENCE, DXFILEERR \_ BADVALUE.
+
+## <a name="remarks"></a>Notes
+
+Cette méthode récupère les données pour les membres requis d’un objet de données, mais aucune donnée pour les membres facultatifs (enfants). Utilisez [**IDirectXFileData :: GetNextObject**](idirectxfiledata--getnextobject.md) pour récupérer des objets enfants.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|---------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>DXFile. h</dt> </dl>   |
+| Bibliothèque<br/> | <dl> <dt>D3dxof. lib</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[IDirectXFileData](idirectxfiledata.md)
+</dt> <dt>
+
+[**IDirectXFileData::GetNextObject**](idirectxfiledata--getnextobject.md)
+</dt> </dl>
+
+ 
+
+ 
