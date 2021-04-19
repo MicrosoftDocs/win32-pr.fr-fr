@@ -1,0 +1,134 @@
+---
+description: Ajoute des ressources à une configuration de commutateur virtuel.
+ms.assetid: aad5fac1-3884-4a95-abe3-bf192f23ea41
+title: Méthode AddResourceSettings de la classe Msvm_VirtualEthernetSwitchManagementService
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_VirtualEthernetSwitchManagementService.AddResourceSettings
+api_type:
+- COM
+api_location:
+- vmms.exe
+ms.openlocfilehash: cc29376a03403949c57b831f40b2437ced30a51a
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106524662"
+---
+# <a name="addresourcesettings-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Méthode AddResourceSettings de la \_ classe VirtualEthernetSwitchManagementService MSVM
+
+Ajoute des ressources à une configuration de commutateur virtuel. En cas d’application à une configuration d’ordinateur virtuel « État », des ressources d’effet secondaire sont ajoutées à la machine virtuelle active.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```mof
+uint32 AddResourceSettings(
+  [in]  CIM_VirtualSystemSettingData      REF AffectedConfiguration,
+  [in]  string                                ResourceSettings[],
+  [out] CIM_ResourceAllocationSettingData REF ResultingResourceSettings[],
+  [out] CIM_ConcreteJob                   REF Job
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*AffectedConfiguration* \[ dans\]
+</dt> <dd>
+
+Référence à un objet [**\_ VirtualSystemSettingData CIM**](/previous-versions//cc136954(v=vs.85)) qui représente la configuration de commutateur virtuel affectée.
+
+</dd> <dt>
+
+*ResourceSettings* \[ dans\]
+</dt> <dd>
+
+Tableau de chaînes qui contient une instance incorporée de la [**classe \_ ResourceAllocationSettingData CIM**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) qui décrit les aspects virtuels d’une ressource virtuelle à ajouter au commutateur virtuel.
+
+</dd> <dt>
+
+*ResultingResourceSettings* \[ à\]
+</dt> <dd>
+
+Tableau de références aux instances de la classe [**\_ ResourceAllocationSettingData CIM**](/previous-versions/windows/desktop/clushyperv/cim-resourceallocationsettingdata) qui représente les aspects virtuels des ressources virtuelles ajoutées.
+
+</dd> <dt>
+
+*Travail* \[ à\]
+</dt> <dd>
+
+Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4096 et ce paramètre contient une référence à un objet dérivé de [**CIM \_ ConcreteJob**](/previous-versions//cc136808(v=vs.85)).
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Cette méthode retourne l’une des valeurs suivantes.
+
+<dl> <dt>
+
+**Terminé sans erreur** (0)
+</dt> <dt>
+
+**Non pris en charge** (1)
+</dt> <dt>
+
+**Échec** (2)
+</dt> <dt>
+
+**Délai d’expiration** (3)
+</dt> <dt>
+
+**Paramètre non valide** (4)
+</dt> <dt>
+
+**DMTF réservé** (..)
+</dt> <dt>
+
+**Paramètres de méthode activés-tâche démarrée** (4096)
+</dt> <dt>
+
+**Méthode réservée** (4097.. 32767)
+</dt> <dt>
+
+**Spécifique au fournisseur** (32768.. 65535)
+</dt> </dl>
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                              |
+| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                    |
+| Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**ModifyResourceSettings**](modifyresourcesettings-msvm-virtualethernetswitchmanagementservice.md)
+</dt> <dt>
+
+[**RemoveResourceSettings**](removeresourcesettings-msvm-virtualethernetswitchmanagementservice.md)
+</dt> <dt>
+
+[**MSVM \_ VirtualEthernetSwitchManagementService**](msvm-virtualethernetswitchmanagementservice.md)
+</dt> </dl>
+
+ 
+
