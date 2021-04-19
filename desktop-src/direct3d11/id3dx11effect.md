@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 395946ea4276bc57595abdeb18e7d1755ca0ff1d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 51c9b945f09ad0424ecd6b546aefe68bea276ffc
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992328"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314452"
 ---
 # <a name="id3dx11effect-interface"></a>Interface ID3DX11Effect
 
@@ -89,29 +89,18 @@ Le système d’effet regroupe les informations requises pour le rendu dans un e
 >     pIUnknown->AddRef();</code></pre></td>
 > </tr>
 > </tbody>
-> </table>
+> </table>>
 >  
->
-> ## <a name="requirements"></a>Spécifications
->
-> 
->
+
+## <a name="requirements"></a>Spécifications
+
 | Condition requise | Valeur |
-> |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------| | Titre<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    | | Bibliothèque<br/> | <dl> <dt>N/A (une bibliothèque Effects 11 est disponible en ligne en tant que source partagée.)</dt> </dl> |
->
-> 
->
-> ## <a name="see-also"></a>Voir aussi
->
-> <dl> <dt>
+|-------------|-------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>D3dx11effect. h</dt> </dl>                                                    |
+| Bibliothèque<br/> | <dl> <dt>N/A (une bibliothèque Effects 11 est disponible en ligne en tant que source partagée.)</dt> </dl> |
+
+## <a name="see-also"></a>Voir aussi
 
 [Effets 11 interfaces](d3d11-graphics-reference-effects11-interfaces.md)
-</dt> <dt>
 
 [Interfaces D3DX](d3d11-graphics-reference-d3dx11-interfaces.md)
-</dt> </dl>
->
->  
->
->  
->
