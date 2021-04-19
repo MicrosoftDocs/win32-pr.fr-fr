@@ -1,0 +1,78 @@
+---
+title: Utilisation des informations sur les mots et les sauts de ligne
+description: Un contrôle Rich Edit appelle une fonction appelée procédure d’interruption de mot pour rechercher des sauts entre les mots et pour déterminer où elle peut couper les lignes.
+ms.assetid: DDCE9814-0D39-494C-953A-FB6A98100EEA
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: feb90064e455bfeb8ee126e6107d75ef29b3a4f3
+ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "106545747"
+---
+# <a name="how-to-use-word-and-line-break-information"></a><span data-ttu-id="137d2-103">Utilisation des informations sur les mots et les sauts de ligne</span><span class="sxs-lookup"><span data-stu-id="137d2-103">How to Use Word and Line Break Information</span></span>
+
+<span data-ttu-id="137d2-104">Un contrôle Rich Edit appelle une fonction appelée procédure d’interruption de mot pour rechercher des sauts entre les mots et pour déterminer où elle peut couper les lignes.</span><span class="sxs-lookup"><span data-stu-id="137d2-104">A rich edit control calls a function called a word-break procedure to find breaks between words and to determine where it can break lines.</span></span> <span data-ttu-id="137d2-105">Le contrôle utilise ces informations lors de l’exécution d’opérations de retour automatique à la ligne et lors du traitement des combinaisons de touches CTRL + Flèche gauche et CTRL + Flèche droite.</span><span class="sxs-lookup"><span data-stu-id="137d2-105">The control uses this information when performing word-wrap operations and when processing CTRL+LEFT ARROW key and CTRL+RIGHT ARROW key combinations.</span></span> <span data-ttu-id="137d2-106">Une application peut envoyer des messages à un contrôle Rich Edit pour remplacer la procédure de césure par défaut, pour récupérer des informations de césure de mots et pour déterminer la ligne sur laquelle se trouve un caractère donné.</span><span class="sxs-lookup"><span data-stu-id="137d2-106">An application can send messages to a rich edit control to replace the default word-break procedure, to retrieve word-break information, and to determine what line a given character falls on.</span></span>
+
+## <a name="what-you-need-to-know"></a><span data-ttu-id="137d2-107">Ce que vous devez savoir</span><span class="sxs-lookup"><span data-stu-id="137d2-107">What you need to know</span></span>
+
+### <a name="technologies"></a><span data-ttu-id="137d2-108">Technologies</span><span class="sxs-lookup"><span data-stu-id="137d2-108">Technologies</span></span>
+
+-   [<span data-ttu-id="137d2-109">Contrôles Windows</span><span class="sxs-lookup"><span data-stu-id="137d2-109">Windows Controls</span></span>](window-controls.md)
+
+### <a name="prerequisites"></a><span data-ttu-id="137d2-110">Prérequis</span><span class="sxs-lookup"><span data-stu-id="137d2-110">Prerequisites</span></span>
+
+-   <span data-ttu-id="137d2-111">C/C++</span><span class="sxs-lookup"><span data-stu-id="137d2-111">C/C++</span></span>
+-   <span data-ttu-id="137d2-112">Programmation de l’interface utilisateur Windows</span><span class="sxs-lookup"><span data-stu-id="137d2-112">Windows User Interface Programming</span></span>
+
+## <a name="instructions"></a><span data-ttu-id="137d2-113">Instructions</span><span class="sxs-lookup"><span data-stu-id="137d2-113">Instructions</span></span>
+
+### <a name="use-word-and-line-break-information"></a><span data-ttu-id="137d2-114">Utiliser les informations sur les mots et les sauts de ligne</span><span class="sxs-lookup"><span data-stu-id="137d2-114">Use Word and Line Break Information</span></span>
+
+<span data-ttu-id="137d2-115">Les procédures de césure de mots pour les contrôles RichEdit sont similaires à celles des contrôles d’édition, mais elles ont des fonctionnalités supplémentaires : les procédures d’arrêt de mot pour les deux types de contrôles peuvent déterminer si un caractère est un délimiteur et peut Rechercher l’arrêt de mot le plus proche avant ou après la position spécifiée.</span><span class="sxs-lookup"><span data-stu-id="137d2-115">Word-break procedures for rich edit controls are similar to those for edit controls, but they have additional capabilities: word-break procedures for both kinds of controls can determine whether a character is a delimiter and can find the nearest word break before or after the specified position.</span></span> <span data-ttu-id="137d2-116">Un délimiteur est un caractère qui marque la fin d’un mot, tel qu’un espace.</span><span class="sxs-lookup"><span data-stu-id="137d2-116">A delimiter is a character that marks the end of a word, such as a space.</span></span> <span data-ttu-id="137d2-117">En règle générale, dans un contrôle d’édition, un saut de mot se produit uniquement après les délimiteurs.</span><span class="sxs-lookup"><span data-stu-id="137d2-117">Usually, in an edit control, a word break occurs only after delimiters.</span></span> <span data-ttu-id="137d2-118">Toutefois, différentes règles s’appliquent à la plupart des langues asiatiques.</span><span class="sxs-lookup"><span data-stu-id="137d2-118">However, different rules apply to most Asian languages.</span></span>
+
+<span data-ttu-id="137d2-119">Les procédures de césure de mots pour les contrôles RichEdit regroupent également des caractères dans des classes de caractères, chacune identifiée par une valeur comprise entre 0x00 et 0x0F.</span><span class="sxs-lookup"><span data-stu-id="137d2-119">Word-break procedures for rich edit controls also group characters into character classes, each identified by a value in the range 0x00 through 0x0F.</span></span> <span data-ttu-id="137d2-120">Des arrêts se produisent après des délimiteurs ou entre des caractères de classes différentes.</span><span class="sxs-lookup"><span data-stu-id="137d2-120">Breaks occur either after delimiters or between characters of different classes.</span></span> <span data-ttu-id="137d2-121">Par conséquent, une procédure de césure lexicale avec des classes différentes pour les caractères alphanumériques et de ponctuation trouvera deux césures de mots dans la chaîne « Win.doc » (avant et après le point).</span><span class="sxs-lookup"><span data-stu-id="137d2-121">Thus, a word-break procedure with different classes for alphanumeric and punctuation characters would find two word breaks in the string "Win.doc" (before and after the period).</span></span>
+
+<span data-ttu-id="137d2-122">La classe d’un caractère peut être combinée avec zéro, un ou plusieurs indicateurs de césure lexicale pour former une valeur 8 bits.</span><span class="sxs-lookup"><span data-stu-id="137d2-122">A character's class can be combined with zero or more word-break flags to form an 8-bit value.</span></span> <span data-ttu-id="137d2-123">Lors de l’exécution d’opérations de retour automatique à la ligne, un contrôle RichEdit utilise des indicateurs de césure lexicale pour déterminer où il peut couper les lignes.</span><span class="sxs-lookup"><span data-stu-id="137d2-123">When performing word-wrap operations, a rich edit control uses word-break flags to determine where it can break lines.</span></span> <span data-ttu-id="137d2-124">La modification riche utilise les indicateurs de césure de mots suivants.</span><span class="sxs-lookup"><span data-stu-id="137d2-124">Rich Edit uses the following word-break flags.</span></span>
+
+
+
+| <span data-ttu-id="137d2-125">Indicateur</span><span class="sxs-lookup"><span data-stu-id="137d2-125">Flag</span></span>            | <span data-ttu-id="137d2-126">Description</span><span class="sxs-lookup"><span data-stu-id="137d2-126">Description</span></span>                                                                                                                       |
+|-----------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="137d2-127">WBF \_ BREAKAFTER</span><span class="sxs-lookup"><span data-stu-id="137d2-127">WBF\_BREAKAFTER</span></span> | <span data-ttu-id="137d2-128">Les lignes peuvent être brisées après le caractère.</span><span class="sxs-lookup"><span data-stu-id="137d2-128">Lines may be broken after the character.</span></span>                                                                                          |
+| <span data-ttu-id="137d2-129">WBF \_ BREAKLINE</span><span class="sxs-lookup"><span data-stu-id="137d2-129">WBF\_BREAKLINE</span></span>  | <span data-ttu-id="137d2-130">Le caractère est un délimiteur.</span><span class="sxs-lookup"><span data-stu-id="137d2-130">The character is a delimiter.</span></span> <span data-ttu-id="137d2-131">Les délimiteurs marquent les extrémités des mots.</span><span class="sxs-lookup"><span data-stu-id="137d2-131">Delimiters mark the ends of words.</span></span> <span data-ttu-id="137d2-132">Les lignes peuvent être rompues après les délimiteurs.</span><span class="sxs-lookup"><span data-stu-id="137d2-132">Lines may be broken after delimiters.</span></span>                            |
+| <span data-ttu-id="137d2-133">WBF \_ ISWHITE</span><span class="sxs-lookup"><span data-stu-id="137d2-133">WBF\_ISWHITE</span></span>    | <span data-ttu-id="137d2-134">Le caractère est un espace blanc.</span><span class="sxs-lookup"><span data-stu-id="137d2-134">The character is a white-space character.</span></span> <span data-ttu-id="137d2-135">Les espaces blancs de fin ne sont pas inclus dans la longueur d’une ligne lors de l’encapsulation.</span><span class="sxs-lookup"><span data-stu-id="137d2-135">Trailing white-space characters are not included in the length of a line when wrapping.</span></span> |
+
+
+
+ 
+
+<span data-ttu-id="137d2-136">La \_ valeur WBF BREAKAFTER est utilisée pour permettre l’encapsulation après un caractère qui ne marque pas la fin d’un mot, tel qu’un trait d’Union.</span><span class="sxs-lookup"><span data-stu-id="137d2-136">The WBF\_BREAKAFTER value is used to allow wrapping after a character that does not mark the end of a word, such as a hyphen.</span></span>
+
+<span data-ttu-id="137d2-137">Vous pouvez remplacer la procédure de césure par défaut d’un contrôle RichEdit par votre propre procédure à l’aide du message [**em \_ SETWORDBREAKPROC**](em-setwordbreakproc.md) .</span><span class="sxs-lookup"><span data-stu-id="137d2-137">You can replace the default word-break procedure for a rich edit control with your own procedure by using the [**EM\_SETWORDBREAKPROC**](em-setwordbreakproc.md) message.</span></span> <span data-ttu-id="137d2-138">Pour plus d’informations sur les procédures de césure de mots, consultez la description de la fonction [*EditWordBreakProc*](/windows/win32/api/winuser/nc-winuser-editwordbreakproca) .</span><span class="sxs-lookup"><span data-stu-id="137d2-138">For more information about word-break procedures, see the description of the [*EditWordBreakProc*](/windows/win32/api/winuser/nc-winuser-editwordbreakproca) function.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="137d2-139">Ce remplacement n’est pas recommandé pour Microsoft Rich Edit 2,0 et versions ultérieures, en raison de la complexité de la césure des mots multilingues.</span><span class="sxs-lookup"><span data-stu-id="137d2-139">This replacement is not recommended for Microsoft Rich Edit 2.0 and later, due to the complexity of multilingual word breaking.</span></span>
+
+ 
+
+<span data-ttu-id="137d2-140">Pour Microsoft Rich Edit 1,0, vous pouvez utiliser le message [**em \_ SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) pour remplacer la procédure de coupure de mots étendue par défaut par une fonction [*EditWordBreakProcEx*](/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex) .</span><span class="sxs-lookup"><span data-stu-id="137d2-140">For Microsoft Rich Edit 1.0, you can use the [**EM\_SETWORDBREAKPROCEX**](em-setwordbreakprocex.md) message to replace the default extended word-break procedure with an [*EditWordBreakProcEx*](/windows/desktop/api/Richedit/nc-richedit-editwordbreakprocex) function.</span></span> <span data-ttu-id="137d2-141">Cette fonction fournit des informations supplémentaires sur le texte, telles que le jeu de caractères.</span><span class="sxs-lookup"><span data-stu-id="137d2-141">This function provides additional information about the text, such as the character set.</span></span> <span data-ttu-id="137d2-142">Vous pouvez utiliser le message [**em \_ GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) pour récupérer l’adresse de la procédure d’arrêt de mot étendu en cours.</span><span class="sxs-lookup"><span data-stu-id="137d2-142">You can use the [**EM\_GETWORDBREAKPROCEX**](em-getwordbreakprocex.md) message to retrieve the address of the current extended word-break procedure.</span></span> <span data-ttu-id="137d2-143">Notez que Microsoft Rich Edit 2,0 et versions ultérieures ne prennent pas en charge *EditWordBreakProcEx*, **em \_ GETWORDBREAKPROCEX** et **em \_ SETWORDBREAKPROCEX**.</span><span class="sxs-lookup"><span data-stu-id="137d2-143">Note that Microsoft Rich Edit 2.0 and later do not support *EditWordBreakProcEx*, **EM\_GETWORDBREAKPROCEX**, and **EM\_SETWORDBREAKPROCEX**.</span></span>
+
+<span data-ttu-id="137d2-144">Vous pouvez utiliser le message [**em \_ FINDWORDBREAK**](em-findwordbreak.md) pour rechercher les césures de mots ou pour déterminer les indicateurs de classe et de césure de mots d’un caractère.</span><span class="sxs-lookup"><span data-stu-id="137d2-144">You can use the [**EM\_FINDWORDBREAK**](em-findwordbreak.md) message to find word breaks or to determine a character's class and word-break flags.</span></span> <span data-ttu-id="137d2-145">À son tour, le contrôle appelle sa procédure de césure lexicale pour récupérer les informations demandées.</span><span class="sxs-lookup"><span data-stu-id="137d2-145">In turn, the control calls its word-break procedure to get the requested information.</span></span>
+
+<span data-ttu-id="137d2-146">Pour déterminer la ligne sur laquelle se trouve un caractère donné, vous pouvez utiliser le message [**em \_ EXLINEFROMCHAR**](em-exlinefromchar.md) .</span><span class="sxs-lookup"><span data-stu-id="137d2-146">To determine which line a given character falls on, you can use the [**EM\_EXLINEFROMCHAR**](em-exlinefromchar.md) message.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="137d2-147">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="137d2-147">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="137d2-148">Utilisation de contrôles RichEdit</span><span class="sxs-lookup"><span data-stu-id="137d2-148">Using Rich Edit Controls</span></span>](using-rich-edit-controls.md)
+</dt> <dt>
+
+<span data-ttu-id="137d2-149">[Démonstration des contrôles communs Windows (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span><span class="sxs-lookup"><span data-stu-id="137d2-149">[Windows common controls demo (CppWindowsCommonControls)](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)</span></span>
+</dt> </dl>
+
+ 
+
+ 

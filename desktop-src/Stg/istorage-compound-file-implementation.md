@@ -1,0 +1,195 @@
+---
+title: Implémentation de fichiers IStorage-Compound
+description: L’implémentation de fichier composé de IStorage vous permet de créer et de gérer des sous-stockages et des flux dans un objet de stockage résidant dans un objet de fichier composé.
+ms.assetid: 2a2253f6-d3d3-403e-a9ba-53a541c7a31e
+keywords:
+- IStorage Strctd STG, implémentation de fichier composé
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8bf37b24a7c68bbe357d99f94e666bfcb613c472
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106511496"
+---
+# <a name="istorage-compound-file-implementation"></a><span data-ttu-id="c3984-104">Implémentation de fichiers IStorage-Compound</span><span class="sxs-lookup"><span data-stu-id="c3984-104">IStorage-Compound File Implementation</span></span>
+
+<span data-ttu-id="c3984-105">L’implémentation de fichier composé de [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) vous permet de créer et de gérer des sous-stockages et des flux dans un objet de stockage résidant dans un objet de fichier composé.</span><span class="sxs-lookup"><span data-stu-id="c3984-105">The compound file implementation of [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) allows you to create and manage substorages and streams within a storage object residing in a compound file object.</span></span> <span data-ttu-id="c3984-106">Pour créer un objet de fichier composé et obtenir un pointeur **IStorage** , appelez la fonction d’API [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex).</span><span class="sxs-lookup"><span data-stu-id="c3984-106">To create a compound file object and get an **IStorage** pointer, call the API function [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex).</span></span> <span data-ttu-id="c3984-107">Pour ouvrir un objet de fichier composé existant et récupérer son pointeur **IStorage** racine, appelez [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex).</span><span class="sxs-lookup"><span data-stu-id="c3984-107">To open an existing compound file object and get its root **IStorage** pointer, call [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex).</span></span>
+
+<span data-ttu-id="c3984-108">Les applications qui utilisent le stockage composite doivent être inscrites dans \_ \_ la racine SystemFileAssociations de classes HKEY \\ et doivent fournir leurs propres gestionnaires de propriétés.</span><span class="sxs-lookup"><span data-stu-id="c3984-108">Applications that use compound storage should be registered in HKEY\_CLASSES\_ROOT\\SystemFileAssociations and should provide their own property handlers.</span></span> <span data-ttu-id="c3984-109">Pour plus d’informations, consultez la section « inscription de verbes et d’autres informations d’association de fichiers » de l' [inscription d’application](/windows/desktop/shell/app-registration).</span><span class="sxs-lookup"><span data-stu-id="c3984-109">For more information, see the "Registering Verbs and Other File Association Information" section of [Application Registration](/windows/desktop/shell/app-registration).</span></span>
+
+## <a name="when-to-use"></a><span data-ttu-id="c3984-110">Quand l’utiliser</span><span class="sxs-lookup"><span data-stu-id="c3984-110">When to Use</span></span>
+
+<span data-ttu-id="c3984-111">La plupart des applications utilisent cette implémentation pour créer et gérer des flux de stockage et des flux.</span><span class="sxs-lookup"><span data-stu-id="c3984-111">Most applications use this implementation to create and manage storages and streams.</span></span>
+
+## <a name="methods"></a><span data-ttu-id="c3984-112">Méthodes</span><span class="sxs-lookup"><span data-stu-id="c3984-112">Methods</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="c3984-113"><span id="IStorage__CreateStream"></span><span id="istorage__createstream"></span><span id="ISTORAGE__CREATESTREAM"></span>[**IStorage :: CreateStream,**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream)</span><span class="sxs-lookup"><span data-stu-id="c3984-113"><span id="IStorage__CreateStream"></span><span id="istorage__createstream"></span><span id="ISTORAGE__CREATESTREAM"></span>[**IStorage::CreateStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-114">Crée et ouvre un objet de flux avec le nom spécifié contenu dans cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-114">Creates and opens a stream object with the specified name contained in this storage object.</span></span> <span data-ttu-id="c3984-115">Le nom ne doit pas dépasser 31 caractères (à l’exclusion de la marque de fin de chaîne).</span><span class="sxs-lookup"><span data-stu-id="c3984-115">The name must not exceed 31 characters in length (not including the string terminator).</span></span> <span data-ttu-id="c3984-116">Les caractères 000 à 01f qui servent de premier caractère au nom de flux/de stockage, sont réservés pour être utilisés par OLE.</span><span class="sxs-lookup"><span data-stu-id="c3984-116">The 000 through 01f characters, serving as the first character of the stream/storage name, are reserved for use by OLE.</span></span> <span data-ttu-id="c3984-117">Il s'agit d'une restriction de fichier composé, pas d'une restriction de stockage de mémoire.</span><span class="sxs-lookup"><span data-stu-id="c3984-117">This is a compound file restriction, not a structured storage restriction.</span></span> <span data-ttu-id="c3984-118">L’implémentation de fichier composé COM de la méthode [**IStorage :: CreateStream,**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) ne prend pas en charge les comportements suivants :</span><span class="sxs-lookup"><span data-stu-id="c3984-118">The COM-provided compound file implementation of the [**IStorage::CreateStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) method does not support the following behaviors:</span></span>
+
+-   <span data-ttu-id="c3984-119">L' \_ indicateur STGM DELETEONRELEASE n’est pas pris en charge.</span><span class="sxs-lookup"><span data-stu-id="c3984-119">The STGM\_DELETEONRELEASE flag is not supported.</span></span>
+-   <span data-ttu-id="c3984-120">Le mode traité (STGM \_ traité) n’est pas pris en charge pour les objets de flux.</span><span class="sxs-lookup"><span data-stu-id="c3984-120">Transacted mode (STGM\_TRANSACTED) is not supported for stream objects.</span></span>
+-   <span data-ttu-id="c3984-121">L’ouverture du même flux plusieurs fois à partir du même stockage n’est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="c3984-121">Opening the same stream more than once from the same storage is not supported.</span></span> <span data-ttu-id="c3984-122">L’indicateur de mode de partage exclusif du partage STGM \_ \_ doit être spécifié dans le paramètre *grfMode* .</span><span class="sxs-lookup"><span data-stu-id="c3984-122">The STGM\_SHARE\_EXCLUSIVE sharing-mode flag must be specified in the *grfMode* parameter.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-123"><span id="IStorage__OpenStream"></span><span id="istorage__openstream"></span><span id="ISTORAGE__OPENSTREAM"></span>[**IStorage :: OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream)</span><span class="sxs-lookup"><span data-stu-id="c3984-123"><span id="IStorage__OpenStream"></span><span id="istorage__openstream"></span><span id="ISTORAGE__OPENSTREAM"></span>[**IStorage::OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-124">Ouvre un objet de flux existant dans cet objet de stockage à l’aide des modes d’accès spécifiés dans le paramètre *grfMode* .</span><span class="sxs-lookup"><span data-stu-id="c3984-124">Opens an existing stream object within this storage object using the access modes specified in the *grfMode* parameter.</span></span> <span data-ttu-id="c3984-125">Les caractères 000 à 01f qui servent de premier caractère au nom de flux/de stockage, sont réservés pour être utilisés par OLE.</span><span class="sxs-lookup"><span data-stu-id="c3984-125">The 000 through 01f characters, serving as the first character of the stream/storage name, are reserved for use by OLE.</span></span> <span data-ttu-id="c3984-126">Il s'agit d'une restriction de fichier composé, pas d'une restriction de stockage de mémoire.</span><span class="sxs-lookup"><span data-stu-id="c3984-126">This is a compound file restriction, not a structured storage restriction.</span></span> <span data-ttu-id="c3984-127">L’implémentation de fichier composé COM de la méthode [**IStorage :: OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) ne prend pas en charge le comportement suivant :</span><span class="sxs-lookup"><span data-stu-id="c3984-127">The COM-provided compound file implementation of the [**IStorage::OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) method does not support the following behavior:</span></span>
+
+-   <span data-ttu-id="c3984-128">Indicateur STGM \_ DELETEONRELEASE.</span><span class="sxs-lookup"><span data-stu-id="c3984-128">The STGM\_DELETEONRELEASE flag.</span></span>
+-   <span data-ttu-id="c3984-129">Mode traité (STGM \_ traité) pour les objets de flux.</span><span class="sxs-lookup"><span data-stu-id="c3984-129">Transacted mode (STGM\_TRANSACTED) for stream objects.</span></span>
+-   <span data-ttu-id="c3984-130">Ouverture du même flux plusieurs fois à partir du même stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-130">Opening the same stream more than once from the same storage.</span></span> <span data-ttu-id="c3984-131">L' \_ indicateur STGM share \_ exclusive doit être spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-131">The STGM\_SHARE\_EXCLUSIVE flag must be specified.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-132"><span id="IStorage__CreateStorage"></span><span id="istorage__createstorage"></span><span id="ISTORAGE__CREATESTORAGE"></span>[**IStorage :: CreateStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstorage)</span><span class="sxs-lookup"><span data-stu-id="c3984-132"><span id="IStorage__CreateStorage"></span><span id="istorage__createstorage"></span><span id="ISTORAGE__CREATESTORAGE"></span>[**IStorage::CreateStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstorage)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-133">Crée et ouvre un nouvel objet de stockage avec le nom spécifié dans le mode d’accès spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-133">Creates and opens a new storage object with the specified name in the specified access mode.</span></span> <span data-ttu-id="c3984-134">Le nom ne doit pas dépasser 31 caractères (à l’exclusion de la marque de fin de chaîne).</span><span class="sxs-lookup"><span data-stu-id="c3984-134">The name must not exceed 31 characters in length (not including the string terminator).</span></span> <span data-ttu-id="c3984-135">Les caractères 000 à 01f qui servent de premier caractère au nom de flux/de stockage, sont réservés pour être utilisés par OLE.</span><span class="sxs-lookup"><span data-stu-id="c3984-135">The 000 through 01f characters, serving as the first character of the stream/storage name, are reserved for use by OLE.</span></span> <span data-ttu-id="c3984-136">Il s'agit d'une restriction de fichier composé, pas d'une restriction de stockage de mémoire.</span><span class="sxs-lookup"><span data-stu-id="c3984-136">This is a compound file restriction, not a structured storage restriction.</span></span> <span data-ttu-id="c3984-137">L’implémentation de fichier composé COM de la méthode [**IStorage :: CreateStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstorage) ne prend pas en charge le comportement suivant :</span><span class="sxs-lookup"><span data-stu-id="c3984-137">The COM-provided compound file implementation of the [**IStorage::CreateStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstorage) method does not support the following behavior:</span></span>
+
+-   <span data-ttu-id="c3984-138">\_Indicateur de priorité STGM pour les stockages sans racine.</span><span class="sxs-lookup"><span data-stu-id="c3984-138">The STGM\_PRIORITY flag for nonroot storages.</span></span>
+-   <span data-ttu-id="c3984-139">Ouverture d’un même objet de stockage plusieurs fois à partir du même stockage parent.</span><span class="sxs-lookup"><span data-stu-id="c3984-139">Opening the same storage object more than once from the same parent storage.</span></span> <span data-ttu-id="c3984-140">L' \_ indicateur STGM share \_ exclusive doit être spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-140">The STGM\_SHARE\_EXCLUSIVE flag must be specified.</span></span>
+-   <span data-ttu-id="c3984-141">Indicateur STGM \_ DELETEONRELEASE.</span><span class="sxs-lookup"><span data-stu-id="c3984-141">The STGM\_DELETEONRELEASE flag.</span></span> <span data-ttu-id="c3984-142">Si cet indicateur est spécifié, la fonction retourne STG \_ E \_ INVALIDFLAG.</span><span class="sxs-lookup"><span data-stu-id="c3984-142">If this flag is specified, the function returns STG\_E\_INVALIDFLAG.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-143"><span id="IStorage__OpenStorage"></span><span id="istorage__openstorage"></span><span id="ISTORAGE__OPENSTORAGE"></span>[**IStorage :: OpenStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstorage)</span><span class="sxs-lookup"><span data-stu-id="c3984-143"><span id="IStorage__OpenStorage"></span><span id="istorage__openstorage"></span><span id="ISTORAGE__OPENSTORAGE"></span>[**IStorage::OpenStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstorage)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-144">Ouvre un objet de stockage existant avec le nom spécifié dans le mode d’accès spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-144">Opens an existing storage object with the specified name in the specified access mode.</span></span> <span data-ttu-id="c3984-145">Les caractères 000 à 01f qui servent de premier caractère au nom de flux/de stockage, sont réservés pour être utilisés par OLE.</span><span class="sxs-lookup"><span data-stu-id="c3984-145">The 000 through 01f characters, serving as the first character of the stream/storage name, are reserved for use by OLE.</span></span> <span data-ttu-id="c3984-146">Il s'agit d'une restriction de fichier composé, pas d'une restriction de stockage de mémoire.</span><span class="sxs-lookup"><span data-stu-id="c3984-146">This is a compound file restriction, not a structured storage restriction.</span></span> <span data-ttu-id="c3984-147">L’implémentation de fichier composé COM de la méthode [**IStorage :: OpenStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstorage) ne prend pas en charge le comportement suivant :</span><span class="sxs-lookup"><span data-stu-id="c3984-147">The COM-provided compound file implementation of the [**IStorage::OpenStorage**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstorage) method does not support the following behavior:</span></span>
+
+-   <span data-ttu-id="c3984-148">\_Indicateur de priorité STGM pour les stockages sans racine.</span><span class="sxs-lookup"><span data-stu-id="c3984-148">The STGM\_PRIORITY flag for nonroot storages.</span></span>
+-   <span data-ttu-id="c3984-149">Ouverture d’un même objet de stockage plusieurs fois à partir du même stockage parent.</span><span class="sxs-lookup"><span data-stu-id="c3984-149">Opening the same storage object more than once from the same parent storage.</span></span> <span data-ttu-id="c3984-150">L' \_ indicateur STGM share \_ exclusive doit être spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-150">The STGM\_SHARE\_EXCLUSIVE flag must be specified.</span></span>
+-   <span data-ttu-id="c3984-151">Indicateur STGM \_ DELETEONRELEASE.</span><span class="sxs-lookup"><span data-stu-id="c3984-151">The STGM\_DELETEONRELEASE flag.</span></span> <span data-ttu-id="c3984-152">Si cet indicateur est spécifié, la fonction retourne STG \_ E \_ INVALIDFUNCTION.</span><span class="sxs-lookup"><span data-stu-id="c3984-152">If this flag is specified, the function returns STG\_E\_INVALIDFUNCTION.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-153"><span id="IStorage__CopyTo"></span><span id="istorage__copyto"></span><span id="ISTORAGE__COPYTO"></span>[**IStorage :: CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-copyto)</span><span class="sxs-lookup"><span data-stu-id="c3984-153"><span id="IStorage__CopyTo"></span><span id="istorage__copyto"></span><span id="ISTORAGE__COPYTO"></span>[**IStorage::CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-copyto)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-154">Copie uniquement les sous-stockages et les flux de cet objet de stockage ouvert dans un autre objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-154">Copies only the substorages and streams of this open storage object into another storage object.</span></span> <span data-ttu-id="c3984-155">Le paramètre *rgiidExclude* peut être défini sur IID \_ IStream pour copier uniquement les sous-stockages ou sur IID \_ IStorage pour copier uniquement les flux.</span><span class="sxs-lookup"><span data-stu-id="c3984-155">The *rgiidExclude* parameter can be set to IID\_IStream to copy only substorages, or to IID\_IStorage to copy only streams.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-156"><span id="IStorage__MoveElementTo"></span><span id="istorage__moveelementto"></span><span id="ISTORAGE__MOVEELEMENTTO"></span>[**IStorage :: MoveElementTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-moveelementto)</span><span class="sxs-lookup"><span data-stu-id="c3984-156"><span id="IStorage__MoveElementTo"></span><span id="istorage__moveelementto"></span><span id="ISTORAGE__MOVEELEMENTTO"></span>[**IStorage::MoveElementTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-moveelementto)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-157">Copie ou déplace un sous-stockage ou un flux de cet objet de stockage vers un autre objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-157">Copies or moves a substorage or stream from this storage object to another storage object.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-158"><span id="IStorage__Commit"></span><span id="istorage__commit"></span><span id="ISTORAGE__COMMIT"></span>[**IStorage :: Commit**](/windows/desktop/api/Objidl/nf-objidl-istorage-commit)</span><span class="sxs-lookup"><span data-stu-id="c3984-158"><span id="IStorage__Commit"></span><span id="istorage__commit"></span><span id="ISTORAGE__COMMIT"></span>[**IStorage::Commit**](/windows/desktop/api/Objidl/nf-objidl-istorage-commit)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-159">Garantit que toutes les modifications apportées à un objet de stockage ouvert en mode transactionnel sont reflétées dans le stockage parent. pour un stockage racine, reflète les modifications apportées à l’appareil réel. par exemple, un fichier sur le disque.</span><span class="sxs-lookup"><span data-stu-id="c3984-159">Ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage; for a root storage, reflects the changes in the actual device; for example, a file on disk.</span></span> <span data-ttu-id="c3984-160">Pour un objet de stockage racine ouvert en mode direct, cette méthode n’a aucun effet, sauf pour vider toutes les mémoires tampons de mémoire sur le disque.</span><span class="sxs-lookup"><span data-stu-id="c3984-160">For a root storage object opened in direct mode, this method has no effect except to flush all memory buffers to the disk.</span></span> <span data-ttu-id="c3984-161">Pour les objets de stockage non racine en mode direct, cette méthode n’a aucun effet.</span><span class="sxs-lookup"><span data-stu-id="c3984-161">For nonroot storage objects in direct mode, this method has no effect.</span></span>
+
+<span data-ttu-id="c3984-162">L’implémentation de fichiers composés fournis par COM utilise un processus de validation en deux phases, sauf si \_ le remplacement de STGC est spécifié dans le paramètre *grfCommitFlags* .</span><span class="sxs-lookup"><span data-stu-id="c3984-162">The COM-provided compound files implementation uses a two-phase commit process unless STGC\_OVERWRITE is specified in the *grfCommitFlags* parameter.</span></span> <span data-ttu-id="c3984-163">Ce processus en deux phases garantit la robustesse des données, en cas d’échec de l’opération de validation.</span><span class="sxs-lookup"><span data-stu-id="c3984-163">This two-phase process ensures the robustness of data, in case the commit operation fails.</span></span> <span data-ttu-id="c3984-164">Tout d’abord, toutes les nouvelles données sont écrites dans un espace inutilisé dans le fichier sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="c3984-164">First, all new data is written to unused space in the underlying file.</span></span> <span data-ttu-id="c3984-165">Si nécessaire, un nouvel espace est alloué au fichier.</span><span class="sxs-lookup"><span data-stu-id="c3984-165">If necessary, new space is allocated to the file.</span></span> <span data-ttu-id="c3984-166">Une fois cette étape terminée, une table dans le fichier est mise à jour à l’aide d’une opération d’écriture sur un seul secteur pour indiquer que les nouvelles données doivent être utilisées à la place de l’ancienne.</span><span class="sxs-lookup"><span data-stu-id="c3984-166">After this step has been completed, a table in the file is updated using a single-sector write operation to indicate that the new data is to be used in place of the old.</span></span> <span data-ttu-id="c3984-167">Les anciennes données deviennent de l’espace libre à utiliser lors de la prochaine opération de validation.</span><span class="sxs-lookup"><span data-stu-id="c3984-167">The old data becomes free space to be used at the next commit operation.</span></span> <span data-ttu-id="c3984-168">Ainsi, les anciennes données sont disponibles et peuvent être restaurées si une erreur se produit lors de la validation des modifications.</span><span class="sxs-lookup"><span data-stu-id="c3984-168">Thus, the old data is available and can be restored if an error occurs when committing changes.</span></span> <span data-ttu-id="c3984-169">Si \_ le remplacement de STGC est spécifié, une opération de validation à phase unique est utilisée.</span><span class="sxs-lookup"><span data-stu-id="c3984-169">If STGC\_OVERWRITE is specified, a single phase commit operation is used.</span></span> <span data-ttu-id="c3984-170">Pour plus d’informations sur les indicateurs de mode transactionnel, consultez énumération [**STGC**](/windows/win32/api/wtypes/ne-wtypes-stgc) .</span><span class="sxs-lookup"><span data-stu-id="c3984-170">For more information about transacted mode flags, see [**STGC**](/windows/win32/api/wtypes/ne-wtypes-stgc) enumeration.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-171"><span id="IStorage__Revert"></span><span id="istorage__revert"></span><span id="ISTORAGE__REVERT"></span>[**IStorage :: Revert**](/windows/desktop/api/Objidl/nf-objidl-istorage-revert)</span><span class="sxs-lookup"><span data-stu-id="c3984-171"><span id="IStorage__Revert"></span><span id="istorage__revert"></span><span id="ISTORAGE__REVERT"></span>[**IStorage::Revert**](/windows/desktop/api/Objidl/nf-objidl-istorage-revert)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-172">Ignore toutes les modifications apportées à l’objet de stockage depuis la dernière opération de validation.</span><span class="sxs-lookup"><span data-stu-id="c3984-172">Discards all changes that have been made to the storage object since the last commit operation.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-173"><span id="IStorage__EnumElements"></span><span id="istorage__enumelements"></span><span id="ISTORAGE__ENUMELEMENTS"></span>[**IStorage :: EnumElements**](/windows/desktop/api/Objidl/nf-objidl-istorage-enumelements)</span><span class="sxs-lookup"><span data-stu-id="c3984-173"><span id="IStorage__EnumElements"></span><span id="istorage__enumelements"></span><span id="ISTORAGE__ENUMELEMENTS"></span>[**IStorage::EnumElements**](/windows/desktop/api/Objidl/nf-objidl-istorage-enumelements)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-174">Crée et récupère un pointeur vers un objet énumérateur qui peut être utilisé pour énumérer le stockage et les objets de flux contenus dans cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-174">Creates and retrieves a pointer to an enumerator object that can be used to enumerate the storage and stream objects contained within this storage object.</span></span> <span data-ttu-id="c3984-175">L’implémentation du fichier composé fourni par COM prend un instantané de ces informations.</span><span class="sxs-lookup"><span data-stu-id="c3984-175">The COM-provided compound file implementation takes a snapshot of that information.</span></span> <span data-ttu-id="c3984-176">Par conséquent, les modifications apportées aux flux et aux stockages ne sont pas reflétées dans l’énumérateur jusqu’à ce qu’un nouvel énumérateur soit obtenu.</span><span class="sxs-lookup"><span data-stu-id="c3984-176">Therefore, changes to the streams and storages are not reflected in the enumerator until a new enumerator is obtained.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-177"><span id="IStorage__DestroyElement"></span><span id="istorage__destroyelement"></span><span id="ISTORAGE__DESTROYELEMENT"></span>[**IStorage ::D estroyElement**](/windows/desktop/api/Objidl/nf-objidl-istorage-destroyelement)</span><span class="sxs-lookup"><span data-stu-id="c3984-177"><span id="IStorage__DestroyElement"></span><span id="istorage__destroyelement"></span><span id="ISTORAGE__DESTROYELEMENT"></span>[**IStorage::DestroyElement**](/windows/desktop/api/Objidl/nf-objidl-istorage-destroyelement)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-178">Supprime l’élément spécifié (sous-stockage ou flux) de cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-178">Removes the specified element (substorage or stream) from this storage object.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-179"><span id="IStorage__RenameElement"></span><span id="istorage__renameelement"></span><span id="ISTORAGE__RENAMEELEMENT"></span>[**IStorage :: RenameElement**](/windows/desktop/api/Objidl/nf-objidl-istorage-renameelement)</span><span class="sxs-lookup"><span data-stu-id="c3984-179"><span id="IStorage__RenameElement"></span><span id="istorage__renameelement"></span><span id="ISTORAGE__RENAMEELEMENT"></span>[**IStorage::RenameElement**](/windows/desktop/api/Objidl/nf-objidl-istorage-renameelement)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-180">Renomme le sous-stockage ou le flux spécifié dans cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-180">Renames the specified substorage or stream in this storage object.</span></span> <span data-ttu-id="c3984-181">Les caractères 000 à 01f qui servent de premier caractère au nom de flux/de stockage, sont réservés pour être utilisés par OLE.</span><span class="sxs-lookup"><span data-stu-id="c3984-181">The 000 through 01f characters, serving as the first character of the stream/storage name, are reserved for use by OLE.</span></span> <span data-ttu-id="c3984-182">Il s'agit d'une restriction de fichier composé, pas d'une restriction de stockage de mémoire.</span><span class="sxs-lookup"><span data-stu-id="c3984-182">This is a compound file restriction, not a structured storage restriction.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-183"><span id="IStorage__SetElementTimes"></span><span id="istorage__setelementtimes"></span><span id="ISTORAGE__SETELEMENTTIMES"></span>[**IStorage :: SetElementTimes**](/windows/desktop/api/Objidl/nf-objidl-istorage-setelementtimes)</span><span class="sxs-lookup"><span data-stu-id="c3984-183"><span id="IStorage__SetElementTimes"></span><span id="istorage__setelementtimes"></span><span id="ISTORAGE__SETELEMENTTIMES"></span>[**IStorage::SetElementTimes**](/windows/desktop/api/Objidl/nf-objidl-istorage-setelementtimes)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-184">Définit les heures de modification, d’accès et de création de l’élément de stockage spécifié.</span><span class="sxs-lookup"><span data-stu-id="c3984-184">Sets the modification, access, and creation times of the specified storage element.</span></span> <span data-ttu-id="c3984-185">L’implémentation de fichier composé COM assure la modification et l’heure de modification des objets de stockage internes.</span><span class="sxs-lookup"><span data-stu-id="c3984-185">The COM-provided compound-file implementation maintains modification and change times for internal storage objects.</span></span> <span data-ttu-id="c3984-186">Les objets de stockage racine prennent en charge tout ce qui est pris en charge par le système de fichiers sous-jacent (ou par [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes)).</span><span class="sxs-lookup"><span data-stu-id="c3984-186">Root storage objects support whatever is supported by the underlying file system (or by [**ILockBytes**](/windows/desktop/api/Objidl/nn-objidl-ilockbytes)).</span></span> <span data-ttu-id="c3984-187">L’implémentation de fichier composé ne conserve aucun horodatage pour les flux internes.</span><span class="sxs-lookup"><span data-stu-id="c3984-187">The compound file implementation does not maintain any time stamps for internal streams.</span></span> <span data-ttu-id="c3984-188">Les horodatages non pris en charge sont signalés comme zéro, ce qui permet à l’appelant de tester la prise en charge.</span><span class="sxs-lookup"><span data-stu-id="c3984-188">Unsupported time stamps are reported as zero, which allows the caller to test for support.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-189"><span id="IStorage__SetClass"></span><span id="istorage__setclass"></span><span id="ISTORAGE__SETCLASS"></span>[**IStorage :: SetClass**](/windows/desktop/api/Objidl/nf-objidl-istorage-setclass)</span><span class="sxs-lookup"><span data-stu-id="c3984-189"><span id="IStorage__SetClass"></span><span id="istorage__setclass"></span><span id="ISTORAGE__SETCLASS"></span>[**IStorage::SetClass**](/windows/desktop/api/Objidl/nf-objidl-istorage-setclass)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-190">Affecte le CLSID spécifié à cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-190">Assigns the specified CLSID to this storage object.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-191"><span id="IStorage__SetStateBits"></span><span id="istorage__setstatebits"></span><span id="ISTORAGE__SETSTATEBITS"></span>[**IStorage :: SetStateBits**](/windows/desktop/api/Objidl/nf-objidl-istorage-setstatebits)</span><span class="sxs-lookup"><span data-stu-id="c3984-191"><span id="IStorage__SetStateBits"></span><span id="istorage__setstatebits"></span><span id="ISTORAGE__SETSTATEBITS"></span>[**IStorage::SetStateBits**](/windows/desktop/api/Objidl/nf-objidl-istorage-setstatebits)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-192">Stocke jusqu’à 32 bits d’informations d’État dans cet objet de stockage.</span><span class="sxs-lookup"><span data-stu-id="c3984-192">Stores up to 32 bits of state information in this storage object.</span></span> <span data-ttu-id="c3984-193">L’état défini par cette méthode est destiné à un usage externe uniquement.</span><span class="sxs-lookup"><span data-stu-id="c3984-193">The state set by this method is for external use only.</span></span> <span data-ttu-id="c3984-194">L’implémentation du fichier composé fourni par COM n’effectue aucune action en fonction de l’État.</span><span class="sxs-lookup"><span data-stu-id="c3984-194">The COM-provided compound file implementation does not perform any action based on the state.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="c3984-195"><span id="IStorage__Stat"></span><span id="istorage__stat"></span><span id="ISTORAGE__STAT"></span>[**IStorage :: stat**](/windows/desktop/api/Objidl/nf-objidl-istorage-stat)</span><span class="sxs-lookup"><span data-stu-id="c3984-195"><span id="IStorage__Stat"></span><span id="istorage__stat"></span><span id="ISTORAGE__STAT"></span>[**IStorage::Stat**](/windows/desktop/api/Objidl/nf-objidl-istorage-stat)</span></span>
+</dt> <dd>
+
+<span data-ttu-id="c3984-196">Récupère la structure [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg) pour cet objet de stockage ouvert.</span><span class="sxs-lookup"><span data-stu-id="c3984-196">Retrieves the [**STATSTG**](/windows/win32/api/objidl/ns-objidl-statstg) structure for this open storage object.</span></span>
+
+</dd> </dl>
+
+## <a name="remarks"></a><span data-ttu-id="c3984-197">Notes</span><span class="sxs-lookup"><span data-stu-id="c3984-197">Remarks</span></span>
+
+<span data-ttu-id="c3984-198">Si l’objet de stockage est ouvert en mode simple, l’utilisation des méthodes ci-dessus est limitée.</span><span class="sxs-lookup"><span data-stu-id="c3984-198">If the storage object is opened in simple mode, use of the above methods is restricted.</span></span> <span data-ttu-id="c3984-199">Un stockage est en mode simple s’il est ouvert à l’aide de l' \_ élément simple STGM spécifié dans le paramètre *grfMode* de la fonction [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) ou [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) .</span><span class="sxs-lookup"><span data-stu-id="c3984-199">A storage is in simple mode if it is opened with the STGM\_SIMPLE element specified in the *grfMode* parameter of the [**StgCreateStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex) or [**StgOpenStorageEx**](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex) function.</span></span> <span data-ttu-id="c3984-200">Pour plus d’informations sur les stockages en mode simple, consultez [**constantes STGM**](stgm-constants.md).</span><span class="sxs-lookup"><span data-stu-id="c3984-200">For more information about simple-mode storages, see [**STGM Constants**](stgm-constants.md).</span></span> <span data-ttu-id="c3984-201">Si l’objet de stockage en mode simple a été obtenu à partir de la fonction **StgCreateStorageEx** , la méthode [**CreateStream,**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) peut être appelée, mais la méthode [**OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) ne peut pas.</span><span class="sxs-lookup"><span data-stu-id="c3984-201">If the simple-mode storage object was obtained from the **StgCreateStorageEx** function, then the [**CreateStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-createstream) method can be called but the [**OpenStream**](/windows/desktop/api/Objidl/nf-objidl-istorage-openstream) method cannot.</span></span> <span data-ttu-id="c3984-202">Si l’objet de stockage en mode simple a été obtenu à partir de la fonction **StgOpenStorageEx** , la méthode **OpenStream** peut être appelée, mais la méthode **CreateStream,** ne peut pas.</span><span class="sxs-lookup"><span data-stu-id="c3984-202">If the simple mode storage object was obtained from the **StgOpenStorageEx** function, then the **OpenStream** method can be called but the **CreateStream** method cannot.</span></span>
+
+<span data-ttu-id="c3984-203">Lorsqu’un objet de stockage en mode simple est utilisé pour créer un flux, la taille minimale de ce flux est généralement de 4096 octets.</span><span class="sxs-lookup"><span data-stu-id="c3984-203">When a simple-mode storage object is used to create a stream, the minimum size of that stream typically is 4096 bytes.</span></span> <span data-ttu-id="c3984-204">Si moins de données sont écrites dans le flux, la taille est arrondie à 4096 octets.</span><span class="sxs-lookup"><span data-stu-id="c3984-204">If less data is written to the stream, the size is rounded up to 4096 bytes.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="c3984-205">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="c3984-205">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="c3984-206">Limites d’implémentation des fichiers composés</span><span class="sxs-lookup"><span data-stu-id="c3984-206">Compound File Implementation Limits</span></span>](structured-storage-interfaces.md)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-207">**IFillLockBytes**</span><span class="sxs-lookup"><span data-stu-id="c3984-207">**IFillLockBytes**</span></span>](/windows/desktop/api/Objidl/nn-objidl-ifilllockbytes)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-208">**ILockBytes**</span><span class="sxs-lookup"><span data-stu-id="c3984-208">**ILockBytes**</span></span>](/windows/desktop/api/Objidl/nn-objidl-ilockbytes)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-209">**IRootStorage**</span><span class="sxs-lookup"><span data-stu-id="c3984-209">**IRootStorage**</span></span>](/windows/desktop/api/Objidl/nn-objidl-irootstorage)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-210">**IStorage**</span><span class="sxs-lookup"><span data-stu-id="c3984-210">**IStorage**</span></span>](/windows/desktop/api/Objidl/nn-objidl-istorage)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-211">**IStream**</span><span class="sxs-lookup"><span data-stu-id="c3984-211">**IStream**</span></span>](/windows/desktop/api/Objidl/nn-objidl-istream)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-212">**StgCreateDocfile**</span><span class="sxs-lookup"><span data-stu-id="c3984-212">**StgCreateDocfile**</span></span>](/windows/desktop/api/coml2api/nf-coml2api-stgcreatedocfile)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-213">**StgCreateStorageEx**</span><span class="sxs-lookup"><span data-stu-id="c3984-213">**StgCreateStorageEx**</span></span>](/windows/desktop/api/coml2api/nf-coml2api-stgcreatestorageex)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-214">**StgOpenStorage**</span><span class="sxs-lookup"><span data-stu-id="c3984-214">**StgOpenStorage**</span></span>](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorage)
+</dt> <dt>
+
+[<span data-ttu-id="c3984-215">**StgOpenStorageEx**</span><span class="sxs-lookup"><span data-stu-id="c3984-215">**StgOpenStorageEx**</span></span>](/windows/desktop/api/coml2api/nf-coml2api-stgopenstorageex)
+</dt> </dl>
+
+ 
+
+ 
