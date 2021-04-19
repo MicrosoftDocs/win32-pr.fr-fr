@@ -1,0 +1,32 @@
+---
+description: Outre l’activation de la surveillance des chiffres et la notification d’un chiffre à la fois, une application peut également demander que plusieurs chiffres soient collectés dans une mémoire tampon.
+ms.assetid: db83c48a-5178-40ed-90a9-e7c8e1886fe0
+title: Collecte des chiffres
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d5eab4185882b86a5a8e5dcb1444f39c9db2b3ba
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106519614"
+---
+# <a name="digit-gathering"></a><span data-ttu-id="db7e7-103">Collecte des chiffres</span><span class="sxs-lookup"><span data-stu-id="db7e7-103">Digit Gathering</span></span>
+
+<span data-ttu-id="db7e7-104">Outre l’activation de la surveillance des chiffres et la notification d’un chiffre à la fois, une application peut également demander que plusieurs chiffres soient collectés dans une mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="db7e7-104">Besides enabling digit monitoring and being notified of digits one at a time, an application can also request that multiple digits be collected in a buffer.</span></span> <span data-ttu-id="db7e7-105">L’application est notifiée uniquement lorsque la mémoire tampon est saturée ou qu’une autre condition d’arrêt est remplie.</span><span class="sxs-lookup"><span data-stu-id="db7e7-105">Only when the buffer is full or when some other termination condition is met is the application notified.</span></span> <span data-ttu-id="db7e7-106">La collecte des chiffres est utile pour les fonctions telles que la collecte des numéros de carte de crédit.</span><span class="sxs-lookup"><span data-stu-id="db7e7-106">Digit gathering is useful for functions such as credit card number collection.</span></span> <span data-ttu-id="db7e7-107">Elle est exécutée lorsqu’une application appelle [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits), en spécifiant une mémoire tampon à remplir avec des chiffres.</span><span class="sxs-lookup"><span data-stu-id="db7e7-107">It is performed when an application calls [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits), specifying a buffer to fill with digits.</span></span> <span data-ttu-id="db7e7-108">La collecte des chiffres se termine lorsque l’une des conditions suivantes est remplie :</span><span class="sxs-lookup"><span data-stu-id="db7e7-108">Digit gathering terminates when one of the following conditions is true:</span></span>
+
+-   <span data-ttu-id="db7e7-109">Le nombre de chiffres demandé a été collecté.</span><span class="sxs-lookup"><span data-stu-id="db7e7-109">The requested number of digits has been collected.</span></span>
+-   <span data-ttu-id="db7e7-110">Un ou plusieurs caractères de fin sont détectés.</span><span class="sxs-lookup"><span data-stu-id="db7e7-110">One of multiple termination digits is detected.</span></span> <span data-ttu-id="db7e7-111">Les chiffres de fin sont spécifiés à [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits)et le chiffre d’arrêt est également placé dans la mémoire tampon.</span><span class="sxs-lookup"><span data-stu-id="db7e7-111">The termination digits are specified to [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits), and the termination digit is placed in the buffer as well.</span></span>
+-   <span data-ttu-id="db7e7-112">L’un des deux délais d’attente expire.</span><span class="sxs-lookup"><span data-stu-id="db7e7-112">One of two timeouts expires.</span></span> <span data-ttu-id="db7e7-113">Les délais d’expiration sont un délai d’expiration pour le premier chiffre, qui spécifie la durée maximale avant que le premier chiffre soit collecté et un délai d’expiration inter-chiffres, spécifiant la durée maximale entre les chiffres successifs.</span><span class="sxs-lookup"><span data-stu-id="db7e7-113">The timeouts are a first digit timeout, specifying the maximum duration before the first digit must be collected, and an inter-digit timeout, specifying the maximum duration between successive digits.</span></span>
+-   <span data-ttu-id="db7e7-114">La collecte de chiffres est de nouveau annulée explicitement par [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits) avec un autre ensemble de paramètres pour démarrer une nouvelle demande de collecte ou en utilisant un paramètre de mémoire tampon de chiffres **null** pour annuler.</span><span class="sxs-lookup"><span data-stu-id="db7e7-114">Digit gathering is canceled explicitly by [**lineGatherDigits**](/windows/desktop/api/Tapi/nf-tapi-linegatherdigits) again with either another set of parameters to start a new gathering request or by using a **NULL** digit buffer parameter to cancel.</span></span>
+
+<span data-ttu-id="db7e7-115">Lorsque la collecte des chiffres se termine pour une raison quelconque, un message [**\_ GATHERDIGITS de ligne**](line-gatherdigits.md) est envoyé à l’application qui a demandé la collecte des chiffres.</span><span class="sxs-lookup"><span data-stu-id="db7e7-115">When digit gathering terminates for any reason, a [**LINE\_GATHERDIGITS**](line-gatherdigits.md) message is sent to the application that requested the digit gathering.</span></span> <span data-ttu-id="db7e7-116">Une seule demande de collecte de chiffres peut être en suspens sur un appel à un moment donné dans toutes les applications qui sont propriétaires de l’appel.</span><span class="sxs-lookup"><span data-stu-id="db7e7-116">Only a single digit gathering request can be outstanding on a call at any given time across all applications that are owners of the call.</span></span>
+
+<span data-ttu-id="db7e7-117">La collecte des chiffres et la surveillance des chiffres peuvent être activées simultanément sur un même appel.</span><span class="sxs-lookup"><span data-stu-id="db7e7-117">Digit gathering and digit monitoring can be enabled on the same call at the same time.</span></span> <span data-ttu-id="db7e7-118">Dans ce cas, l’application reçoit un message de [**ligne \_ MONITORDIGITS**](line-monitordigits.md) pour chaque chiffre détecté et un message de GATHERDIGITS de ligne distinct \_ lorsque la mémoire tampon est renvoyée.</span><span class="sxs-lookup"><span data-stu-id="db7e7-118">In that case, the application will receive a [**LINE\_MONITORDIGITS**](line-monitordigits.md) message for each detected digit and a separate LINE\_GATHERDIGITS message when the buffer is sent back.</span></span>
+
+ 
+
+ 
+
+
+
