@@ -1,0 +1,38 @@
+---
+description: Spécifie la luminance maximale de l’affichage sur lequel le contenu a été créé, en nits. Cet attribut a la même sémantique que la luminance maximale de la \_ \_ maîtrise des affichages \_ , comme défini dans la norme CEA-861,3.
+ms.assetid: 8536B31D-F753-4183-8C17-CD2A0DDE873C
+title: Attribut MF_MT_MAX_MASTERING_LUMINANCE (Mfapi. h)
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 0e0d3e362efc371783c3faf2ed431c3652474722
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106539618"
+---
+# <a name="mf_mt_max_mastering_luminance-attribute"></a><span data-ttu-id="756ac-104">\_Attribut de \_ luminance de mastérisation MT Max \_ \_ . MF</span><span class="sxs-lookup"><span data-stu-id="756ac-104">MF\_MT\_MAX\_MASTERING\_LUMINANCE attribute</span></span>
+
+<span data-ttu-id="756ac-105">Spécifie la luminance maximale de l’affichage sur lequel le contenu a été créé, en nits.</span><span class="sxs-lookup"><span data-stu-id="756ac-105">Specifies the maximum luminance of the display on which the content was authored, in Nits.</span></span> <span data-ttu-id="756ac-106">Cet attribut a la même sémantique que la **luminance maximale de la \_ \_ maîtrise \_ des affichages** , comme défini dans la norme CEA-861,3.</span><span class="sxs-lookup"><span data-stu-id="756ac-106">This attribute has the same semantics as **max\_display\_mastering\_luminance** as defined in the CEA-861.3 standard.</span></span>
+
+## <a name="data-type"></a><span data-ttu-id="756ac-107">Type de données</span><span class="sxs-lookup"><span data-stu-id="756ac-107">Data type</span></span>
+
+<span data-ttu-id="756ac-108">**UINT32**</span><span class="sxs-lookup"><span data-stu-id="756ac-108">**UINT32**</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="756ac-109">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="756ac-109">Requirements</span></span>
+
+
+
+| <span data-ttu-id="756ac-110">Condition requise</span><span class="sxs-lookup"><span data-stu-id="756ac-110">Requirement</span></span> | <span data-ttu-id="756ac-111">Valeur</span><span class="sxs-lookup"><span data-stu-id="756ac-111">Value</span></span> |
+|-------------------|------------------------------------------------------------------------------------|
+| <span data-ttu-id="756ac-112">En-tête</span><span class="sxs-lookup"><span data-stu-id="756ac-112">Header</span></span><br/> | <dl> <span data-ttu-id="756ac-113"><dt>Mfapi. h</dt></span><span class="sxs-lookup"><span data-stu-id="756ac-113"><dt>Mfapi.h</dt></span></span> </dl> |
+
+
+
+ 
+
+ 
+
+
+
+
