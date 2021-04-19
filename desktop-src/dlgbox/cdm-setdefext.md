@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd722a5ae172e06879ae9aaafadc5180ee77867e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1bd5706e0bccf0b61c0737ef54d6e227e5593bc9
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033113"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590856"
 ---
 # <a name="cdm_setdefext-message"></a>\_Message CDM SETDEFEXT
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Définit l’extension de nom de fichier par défaut pour une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur. La boîte de dialogue doit avoir été créée avec l’indicateur **OFN \_ Explorer** ; sinon, le message échoue.
 
@@ -54,11 +54,11 @@ Pointeur vers la nouvelle extension de nom de fichier. Ne doit pas inclure le po
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La macro correspondante est la suivante :
 
@@ -66,7 +66,7 @@ La macro correspondante est la suivante :
 void CommDlg_OpenSave_SetDefExt(hwnd, lparam)
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -94,7 +94,7 @@ void CommDlg_OpenSave_SetDefExt(hwnd, lparam)
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
