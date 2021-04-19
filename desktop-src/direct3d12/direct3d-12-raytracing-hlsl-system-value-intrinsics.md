@@ -1,0 +1,60 @@
+---
+title: Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
+description: Les nuanceurs HLSL suivants prennent en charge le pipeline Direct3D 12 Raytracing.
+ms.assetid: ''
+ms.localizationpriority: low
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8a20282e7bc0e9e4898fd361b0959cd6b6f32253
+ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "106529067"
+---
+# <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
+
+Les valeurs système sont extraites à l’aide de fonctions intrinsèques spéciales, plutôt que d’inclure des paramètres avec une sémantique spéciale dans la signature de votre fonction de nuanceur. 
+
+## <a name="in-this-section"></a>Dans cette section
+
+### <a name="ray-dispatch-system-values"></a>Valeurs système de dispatch de rayon
+
+| Rubrique | Description |
+|-|-|
+| [**DispatchRaysIndex**](dispatchraysindex.md) | Obtient l’emplacement x et y actuel dans la largeur et la hauteur obtenues avec la valeur système **DispatchRaysDimensions** intrinsèque. |
+| [**DispatchRaysDimensions**](dispatchraysdimensions.md) | Valeurs de largeur, de hauteur et de profondeur de la structure **\_ \_ \_ desc des rayons D3D12 Dispatch** spécifiés dans l’appel **DispatchRays** d’origine. |
+
+### <a name="ray-system-values"></a>Valeurs système de rayon
+
+| Rubrique | Description |
+|-|-|
+| [**WorldRayOrigin**](worldrayorigin.md) | Origine de l’espace universel du rayon actuel. |
+| [**WorldRayDirection**](worldraydirection.md) | Direction de l’espace universel pour le rayon actuel. |
+| [**RayTMin**](raytmin.md) | Valeur float représentant le point de départ paramétrique actuel pour le rayon. |
+| [**RayTCurrent**](raytcurrent.md) | Valeur float représentant le point de terminaison paramétrique actuel pour le rayon.  |
+| [**RayFlags**](rayflags.md) | Entier non signé contenant les indicateurs de **ray_flag** actuels. |
+
+### <a name="primitiveobject-space-system-values"></a>Valeurs système de l’espace de primitive/objet
+
+| Rubrique | Description |
+|-|-|
+| [**InstanceIndex**](instanceindex.md) | Index généré automatiquement de l’instance actuelle dans la structure d’accélération de Raytracing de niveau supérieur. |
+| [**InstanceID**](instanceid.md) | Identificateur fourni par l’utilisateur pour l’instance sur l’instance de la structure d’accélération de niveau inférieur dans la structure de niveau supérieur. |
+| [**PrimitiveIndex**](primitiveindex.md) | Index généré automatiquement de la primitive dans la géométrie à l’intérieur de l’instance de la structure d’accélération de niveau inférieur. |
+| [**ObjectRayOrigin**](objectrayorigin.md) | Origine de l’espace de l’objet pour le rayon actuel. |
+| [**ObjectRayDirection**](objectraydirection.md) | Direction de l’espace de l’objet pour le rayon actuel. |
+| [**ObjectToWorld3x4**](objecttoworld3x4.md) | Matrice pour la transformation de l’espace objet en espace universel. |
+| [**ObjectToWorld4x3**](objecttoworld4x3.md) | Matrice pour la transformation de l’espace objet en espace universel. |
+| [**WorldToObject3x4**](worldtoobject3x4.md) | Matrice pour la transformation de l’espace universel à l’espace d’objet |
+| [**WorldToObject4x3**](worldtoobject4x3.md) | Matrice pour la transformation de l’espace universel à l’espace d’objet |
+### <a name="hit-specific-system-values"></a>Valeurs système spécifiques à l’accès
+
+| Rubrique | Description |
+|-|-|
+| [**HitKind**](hitkind.md) | Retourne la valeur passée comme paramètre **HitKind** à [**ReportHit**](reporthit-function.md). |
+
+## <a name="related-topics"></a>Rubriques connexes
+
+* [Référence principale](direct3d-12-core-reference.md)
+* [Référence de Direct3D 12](direct3d-12-reference.md)
