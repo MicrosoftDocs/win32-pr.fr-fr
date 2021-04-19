@@ -1,0 +1,84 @@
+---
+description: 'En savoir plus sur : JET_SNPROG. Equals, méthode (JET_SNPROG)'
+title: JET_SNPROG. Equals, méthode (JET_SNPROG)
+TOCTitle: Equals method (JET_SNPROG)
+ms:assetid: M:Microsoft.Isam.Esent.Interop.JET_SNPROG.Equals(Microsoft.Isam.Esent.Interop.JET_SNPROG)
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_snprog.equals(v=EXCHG.10)
+ms:contentKeyID: 55103954
+ms.date: 07/30/2014
+ms.topic: reference
+dev_langs:
+- vb
+- csharp
+api_name:
+- Microsoft.Isam.Esent.Interop.JET_SNPROG.Equals
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 9e3c14776d9c8e2167ab9e3ae8fd00e18653c87b
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106513350"
+---
+# <a name="jet_snprogequals-method-jet_snprog"></a>JET_SNPROG. Equals, méthode (JET_SNPROG)
+
+Retourne une valeur indiquant si cette instance est égale à une autre instance.
+
+**Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)
+
+## <a name="syntax"></a>Syntaxe
+
+``` vb
+'Declaration
+Public Function Equals ( _
+    other As JET_SNPROG _
+) As Boolean
+'Usage
+Dim instance As JET_SNPROG
+Dim other As JET_SNPROG
+Dim returnValue As Boolean
+
+returnValue = instance.Equals(other)
+```
+
+``` csharp
+public bool Equals(
+    JET_SNPROG other
+)
+```
+
+#### <a name="parameters"></a>Paramètres
+
+  - autre  
+    Type : [Microsoft.ISAM.esent.Interop.JET_SNPROG](./jet-snprog-class.md)  
+    
+    Instance de à comparer à cette instance.
+
+#### <a name="return-value"></a>Valeur retournée
+
+Type : [System. Boolean](/dotnet/api/system.boolean)  
+True si les deux instances sont égales.  
+
+#### <a name="implements"></a>Implémente
+
+[IEquatable \<T\> . Égal à (T)](/dotnet/api/system.iequatable-1.equals#System_IEquatable_1_Equals__0_)  
+
+## <a name="see-also"></a>Voir aussi
+
+#### <a name="reference"></a>Informations de référence
+
+[Classe JET_SNPROG](./jet-snprog-class.md)
+
+[Membres JET_SNPROG](./jet-snprog-members.md)
+
+[Est égal à la surcharge](./jet-snprog.equals-method.md)
+
+[Espace de noms Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)
