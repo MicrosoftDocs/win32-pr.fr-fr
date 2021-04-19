@@ -1,0 +1,27 @@
+---
+description: Les analyses peuvent examiner des frames en mode local uniquement ou en mode promiscuité.
+ms.assetid: 4646f5bb-e3e3-4929-91b7-f68c5b70ccb3
+title: Modes de Local-Only et de promiscuité
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: dd1188760d8de31836de3fbd437854a5df138402
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106514205"
+---
+# <a name="local-only-and-promiscuous-modes"></a>Modes de Local-Only et de promiscuité
+
+Les analyses peuvent examiner des frames en mode local uniquement ou en mode promiscuité.
+
+En mode local uniquement, le fournisseur de paquets réseau (NPP) renvoie les trames envoyées vers ou à partir de l’ordinateur sur lequel le moniteur est exécuté, y compris les diffusions et les multidiffusions dirigées vers l’ordinateur local. Bien que limité à des frames dirigés localement, le mode local est également beaucoup moins gourmand en ressources processeur.
+
+En mode promiscuité, le moniteur peut également surveiller le trafic qui n’est pas dirigé vers ou à partir de l’ordinateur local. À moins que l’analyse n’ait spécifié l’indicateur, MCS \_ Create \_ PMODE \_ not \_ Required, dans la fonction [OnLoadingDLL](onloadingdll.md) , le service de contrôle d’analyse (MCSVC) suppose que le moniteur nécessite un mode de proximité lorsqu’il charge la dll du moniteur.
+
+ 
+
+ 
+
+
+

@@ -1,0 +1,37 @@
+---
+description: L’illustration suivante montre l’architecture générale des fournisseurs de services de téléphonie et les bibliothèques de liens dynamiques (dll) de l’interface utilisateur qui leur sont associées.
+ms.assetid: b5efe57a-19b8-49c5-810f-180633ed50d2
+title: Architecture (API de téléphonie)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 14423dba77af1ded38af4a6f2b896e76d28ca2cd
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106534256"
+---
+# <a name="architecture-telephony-api"></a>Architecture (API de téléphonie)
+
+L’illustration suivante montre l’architecture générale des fournisseurs de services de téléphonie et les bibliothèques de liens dynamiques (dll) de l’interface utilisateur qui leur sont associées.
+
+![tsps et dll d’interface utilisateur associées](images/spuidl01.png)
+
+Le fournisseur de services se compose d’au moins deux composants. La DLL du fournisseur de services (désignée dans l’illustration comme MAIN. TSP) s’exécute dans le contexte du processus TAPISRV et effectue toutes les tâches du fournisseur de services qui ne sont pas liées aux éléments d’interface utilisateur associés à l’utilisation d’un appareil par une application particulière (probablement, conjointement avec les composants de niveau inférieur non affichés dans l’illustration). Toutefois, à la différence des versions précédentes de TAPI, dans lesquelles le code de l’interface utilisateur était intégré au fournisseur de services (et exécuté, en raison de l’architecture précédente, dans le contexte de l’application), le fournisseur de services doit maintenant inclure un composant distinct qui implémente les éléments de l’interface utilisateur.
+
+La DLL de l’interface utilisateur du fournisseur de services doit exporter les fonctions qui sont appelées par l’interface TAPI lorsque l’application appelle des fonctions TAPI qui génèrent une interface utilisateur : [**TUISPI \_ lineConfigDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_lineconfigdialog), [**TUISPI \_ lineConfigDialogEdit**](/windows/win32/api/tspi/nf-tspi-tuispi_lineconfigdialogedit), [**TUISPI \_ PhoneConfigDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_phoneconfigdialog), [**TUISPI \_**](/windows/win32/api/tspi/nf-tspi-tuispi_providerconfig)providerConfig, TUISPI [**\_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tuispi_providerinstall)et [**TUISPI \_**](/windows/win32/api/tspi/nf-tspi-tuispi_providerremove)providerRemove. Chacune de ces fonctions comprend comme paramètre un pointeur vers une fonction de rappel dans TAPI, de type [**TUISPIDLLCALLBACK**](/windows/win32/api/tspi/nc-tspi-tuispidllcallback), que la dll de l’interface utilisateur peut utiliser pour communiquer de manière bidirectionnelle (à la fois les données d’envoi et de réception) avec la dll du fournisseur de services s’exécutant dans le processus tapisrv. Si le fournisseur de services génère une interface utilisateur spontanée, telle que la boîte de dialogue de **communication** Unimodem, comme une fonction TSPI pour laquelle l’interface utilisateur n’est pas attendue (par exemple, toute fonction qui n’a pas de paramètre *HWND* ), la dll de l’interface utilisateur doit exporter [**TUISPI \_ providerGenericDialog**](/windows/win32/api/tspi/nf-tspi-tuispi_providergenericdialog) et [**TUISPI \_ providerGenericDialogData**](/windows/win32/api/tspi/nf-tspi-tuispi_providergenericdialogdata).
+
+> [!Note]  
+> Les fonctions d’origine de génération de l’interface utilisateur TSPI ( [**TSPI \_ lineConfigDialog**](/windows/win32/api/tspi/nf-tspi-tspi_lineconfigdialog), [**TSPI \_ lineConfigDialogEdit**](/windows/win32/api/tspi/nf-tspi-tspi_lineconfigdialogedit), [**TSPI \_ PhoneConfigDialog**](/windows/win32/api/tspi/nf-tspi-tspi_phoneconfigdialog), TSPI [**\_ providerConfig**](/windows/win32/api/tspi/nf-tspi-tspi_providerconfig), [**TSPI \_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tspi_providerinstall)et [**TSPI \_ providerRemove**](/windows/win32/api/tspi/nf-tspi-tspi_providerremove)) sont obsolètes et ne sont jamais appelées par TAPI. Par conséquent, elles ne doivent pas être exportées par la DLL du fournisseur de services. Toutefois, si le fournisseur de services souhaite être listé comme un fournisseur qui peut être ajouté par le panneau de configuration de la téléphonie, un utilitaire fourni avec la téléphonie Windows dans les versions 1,4 et antérieures, doit exporter **TSPI \_ providerInstall**; si le bouton [**supprimer**](/windows/win32/api/tapi3if/nn-tapi3if-itcollection2) est activé dans le panneau de configuration de la téléphonie lorsqu’il est sélectionné, il doit exporter **TSPI \_ providerRemove** et, s’il souhaite que le bouton configurer soit activé dans le panneau de **configuration** de la téléphonie lorsqu’il est sélectionné, il doit exporter **TSPI \_ providerConfig**. Le panneau de configuration de la téléphonie vérifie la présence de ces fonctions dans le fichier TSP du fournisseur de services pour ajuster son interface utilisateur afin de refléter les opérations qui peuvent être effectuées.
+
+ 
+
+La DLL du fournisseur de services doit exporter la fonction [**TSPI \_ providerUIIdentify**](/windows/win32/api/tspi/nf-tspi-tspi_provideruiidentify) que le processus tapisrv utilise pour obtenir le nom de la dll de l’interface utilisateur à charger dans le processus d’application. Elle doit exporter la fonction [**TSPI \_ providerGenericDialogData**](/windows/win32/api/tspi/nf-tspi-tspi_providergenericdialogdata) pour recevoir et répondre aux demandes de la dll de l’interface utilisateur pour que les données s’affichent, et elle doit exporter [**TSPI \_ providerFreeDialogInstance**](/windows/win32/api/tspi/nf-tspi-tspi_providerfreedialoginstance) pour tapisrv processus afin d’indiquer au fournisseur de services quand publier une association établie dans le but de générer une interface utilisateur spontanée avec une fonction qui n’est pas définie comme présentant une interface utilisateur pour l’utilisateur. La DLL du fournisseur de services peut envoyer de façon unidirectionnelle des données à la DLL de l’interface utilisateur à l’aide de la nouvelle ligne de message TSPI [**\_ SENDDIALOGINSTANCEDATA**](line-senddialoginstancedata.md).
+
+Étant donné que les noms des fonctions TSPI et TUISPI sont intentionnellement définis pour être différents, la DLL du fournisseur de services et la DLL de l’interface utilisateur peuvent être le même fichier DLL, si vous le souhaitez. Avec la segmentation appropriée, cela n’entraîne pas nécessairement une utilisation inutile de la mémoire dans le contexte de l’application et peut simplifier le processus d’installation pour les fournisseurs de services qui peuvent actuellement être implémentés dans une DLL unique. L’interface TAPI appelle uniquement les fonctions qui sont appropriées pour le contexte dans lequel la DLL est utilisée.
+
+Le fournisseur de services de téléphonie et la DLL de l’interface utilisateur doivent tous deux être conçus avec l’exigence à l’esprit que les fonctions d’interface utilisateur peuvent être appelées simultanément à partir de plusieurs processus d’application. Ils doivent également tenir compte du fait que l’application et le service TAPI sous lequel le fournisseur de services de téléphonie s’exécute peuvent se trouver sur des ordinateurs distincts sur un réseau local.
+
+ 
+
+ 

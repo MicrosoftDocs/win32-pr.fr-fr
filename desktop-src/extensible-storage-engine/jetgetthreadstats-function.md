@@ -1,0 +1,134 @@
+---
+description: 'En savoir plus sur : fonction JetGetThreadStats'
+title: JetGetThreadStats fonction)
+TOCTitle: JetGetThreadStats Function
+ms:assetid: 1b8df8cd-fc61-44fe-a15c-a166f7097c32
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269196(v=EXCHG.10)
+ms:contentKeyID: 32765499
+ms.date: 04/11/2016
+ms.topic: reference
+api_name:
+- JetGetThreadStats
+topic_type:
+- apiref
+- kbArticle
+api_type:
+- COM
+- DLLExport
+api_location:
+- ESENT.DLL
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: 85d45021910f818f297cd0bc9829580a18b7a296
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106514779"
+---
+# <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
+
+
+_**S’applique à :** Windows | Serveur Windows_
+
+## <a name="jetgetthreadstats-function"></a>JetGetThreadStats fonction)
+
+La fonction **JetGetThreadStats** récupère les informations de performance du moteur de base de données pour le thread actuel. Plusieurs appels peuvent être utilisés pour collecter des statistiques qui reflètent l’activité du moteur de base de données sur ce thread entre ces appels.
+
+**Windows Vista :**  **JetGetThreadStats** est introduit dans Windows Vista.
+
+```cpp
+    JET_ERR JET_API JetGetThreadStats(
+      __out         void* pvResult,
+      __in          unsigned long cbMax
+    );
+```
+
+### <a name="parameters"></a>Paramètres
+
+*pvResult*
+
+Mémoire tampon de sortie qui reçoit les données de statistiques de thread. La mémoire tampon contient une structure [JET_THREADSTATS](./jet-threadstats-structure.md) après un appel réussi.
+
+*cbMax*
+
+Taille maximale, en octets, de la mémoire tampon de sortie.
+
+### <a name="return-value"></a>Valeur renvoyée
+
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Code de retour</p></th>
+<th><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>JET_errSuccess</p></td>
+<td><p>L’opération s’est terminée avec succès.</p></td>
+</tr>
+<tr class="even">
+<td><p>JET_errBufferTooSmall</p></td>
+<td><p>L’opération a échoué, car la mémoire tampon de sortie fournie était trop petite pour contenir les données demandées. La fonction <strong>JetGetThreadStats</strong> renvoie cette erreur lorsque la mémoire tampon de sortie est trop petite pour contenir la version la plus petite de la structure <a href="gg269227(v=exchg.10).md">JET_THREADSTATS</a> prise en charge par le moteur de base de données.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+En cas de réussite, la mémoire tampon de sortie contient une structure [JET_THREADSTATS](./jet-threadstats-structure.md) qui contient les statistiques du moteur de base de données pour le thread actuel.
+
+En cas d’échec, l’état de la mémoire tampon de sortie n’est pas défini.
+
+#### <a name="remarks"></a>Notes
+
+Les informations fournies par deux appels consécutifs de cette API sont destinées à calculer le coût des autres opérations du moteur de base de données sur le thread actuel. En règle générale, cette opération s’effectue en acceptant une valeur avant et après la lecture des statistiques et en soustrayant le nombre d’opérations après le comptage avant d’obtenir le nombre net d’opérations effectuées.
+
+Par exemple, une application peut appeler **JetGetThreadStats** une fois pour obtenir une lecture initiale des statistiques du thread actuel. Elle peut ensuite appeler la fonction [JetMove](./jetmove-function.md) avec le paramètre *cRow* défini sur JET_MoveNext pour passer à l’entrée d’index suivante sur un index. Il peut ensuite appeler **JetGetThreadStats** à nouveau pour recevoir une autre lecture des statistiques du thread. Il peut ensuite soustraire le compteur cPageReferenced de la deuxième lecture du premier. Le résultat est le nombre de pages de base de données référencées par le moteur de base de données pour effectuer l’opération [JetMove](./jetmove-function.md) .
+
+Les statistiques de chaque thread sont accumulées pendant la durée de vie de ce thread. Les statistiques sont réinitialisées si la DLL du moteur de base de données est déchargée du processus hôte.
+
+La structure [JET_THREADSTATS](./jet-threadstats-structure.md) sera probablement développée à l’avenir pour contenir plus de statistiques. De nouvelles statistiques seront ajoutées à la fin de la structure et peuvent être récupérées avec une taille de mémoire tampon de sortie accrue. La présence de statistiques supplémentaires peut être déduite par une valeur cbStruct plus grande.
+
+#### <a name="requirements"></a>Configuration requise
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Client</strong></p></td>
+<td><p>Nécessite Windows Vista.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Serveur</strong></p></td>
+<td><p>Requiert Windows Server 2008.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>En-tête</strong></p></td>
+<td><p>Déclaré dans esent. h.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Bibliothèque</strong></p></td>
+<td><p>Utilisez ESENT. lib.</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>DLL</strong></p></td>
+<td><p>Requiert ESENT.dll.</p></td>
+</tr>
+</tbody>
+</table>
+
+
+#### <a name="see-also"></a>Voir aussi
+
+[JET_ERR](./jet-err.md)  
+[JET_THREADSTATS](./jet-threadstats-structure.md)  
+[JetMove](./jetmove-function.md)

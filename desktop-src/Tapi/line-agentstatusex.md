@@ -1,0 +1,93 @@
+---
+description: Le \_ message de ligne AGENTSTATUSEX est envoyé lorsque l’état d’un agent ACD change sur un gestionnaire d’agent pour lequel l’application a actuellement une ligne ouverte. Ce message est généré à l’aide de la fonction lineProxyMessage.
+ms.assetid: a0709367-9105-43af-9772-0161d94c098a
+title: Message LINE_AGENTSTATUSEX (TAPI. h)
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 3c9ff1a39fd6aacf69922693a54198426d267720
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106541424"
+---
+# <a name="line_agentstatusex-message"></a>\_Message AGENTSTATUSEX de ligne
+
+Le message de **ligne \_ AGENTSTATUSEX** est envoyé lorsque l’état d’un agent ACD change sur un gestionnaire d’agent pour lequel l’application a actuellement une ligne ouverte. Ce message est généré à l’aide de la fonction [**lineProxyMessage**](/windows/desktop/api/Tapi/nf-tapi-lineproxymessage) .
+
+
+```C++
+        
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*dwDevice* 
+</dt> <dd>
+
+Handle de l’application sur le périphérique de ligne. Cela est relatif au gestionnaire de l’agent.
+
+</dd> <dt>
+
+*dwCallbackInstance* 
+</dt> <dd>
+
+Instance de rappel fournie lors de l’ouverture de la ligne.
+
+</dd> <dt>
+
+*dwParam1* 
+</dt> <dd>
+
+Handle de l’agent dont l’État a changé.
+
+</dd> <dt>
+
+*dwParam2* 
+</dt> <dd>
+
+Spécifie l’état de la file d’attente qui a changé. Il peut s’agir d’une ou plusieurs des [**\_ constantes LINEQUEUESTATUS**](linequeuestatus--constants.md).
+
+</dd> <dt>
+
+*dwParam3* 
+</dt> <dd>
+
+Si *dwParam2* comprend le \_ bit d’État LINEAGENTSTATUSEX, *dwParam3* indique la nouvelle valeur de l’état de l’agent, qui est l’une des [**\_ constantes LINEAGENTSTATEEX**](lineagentstateex--constants.md).
+
+Sinon, *dwParam3* a la valeur zéro.
+
+</dd> </dl>
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------|-----------------------------------------------------------------------------------|
+| Version TAPI<br/> | Nécessite TAPI 2,2<br/>                                                      |
+| En-tête<br/>       | <dl> <dt>TAPI. h</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**lineGetAgentInfo**](/windows/desktop/api/Tapi/nf-tapi-linegetagentinfo)
+</dt> <dt>
+
+[**lineProxyMessage**](/windows/desktop/api/Tapi/nf-tapi-lineproxymessage)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
