@@ -19,12 +19,12 @@ keywords:
 - Police (boîte de dialogue)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 984b5ff5bb89c27cb78cf87007dde74bfba6ae73
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: 7f29c54388cf9c98d3db650b5ca7f955bf9ac5c0
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104316945"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590946"
 ---
 # <a name="common-dialog-box-library"></a>Bibliothèque de boîtes de dialogue communes
 
@@ -33,7 +33,7 @@ La bibliothèque de boîtes de dialogue communes contient un ensemble de boîtes
 Cette section décrit les boîtes de dialogue courantes qui contiennent les boîtes de dialogue **ouvrir** et **Enregistrer sous** . boîtes de dialogue **Rechercher** et **remplacer** les modifications ; les **boîtes de dialogue** **Imprimer**, imprimer, imprimer la **feuille de propriétés** et impression et mise en **page** ; et les boîtes de dialogue **couleur** et **police** .
 
 > [!Note]  
-> À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.
+> À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.
 
  
 
