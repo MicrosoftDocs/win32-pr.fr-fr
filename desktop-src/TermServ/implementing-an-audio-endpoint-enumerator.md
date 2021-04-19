@@ -1,0 +1,106 @@
+---
+title: Implémentation d’un énumérateur de point de terminaison audio personnalisé
+description: À partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.
+ms.assetid: 684bd62e-1e28-4330-a3c5-6bce684d652d
+ms.tgt_platform: multiple
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 435ab2a572169f20a7f8f9db194449be5361e409
+ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "106511520"
+---
+# <a name="implementing-a-custom-audio-endpoint-enumerator"></a><span data-ttu-id="a8031-103">Implémentation d’un énumérateur de point de terminaison audio personnalisé</span><span class="sxs-lookup"><span data-stu-id="a8031-103">Implementing a Custom Audio Endpoint Enumerator</span></span>
+
+<span data-ttu-id="a8031-104">À partir de Windows Server 2008 R2, vous pouvez implémenter un énumérateur de point de terminaison audio distant personnalisé dans le cadre d’un fournisseur de protocole Bureau à distance.</span><span class="sxs-lookup"><span data-stu-id="a8031-104">Beginning with Windows Server 2008 R2, you can implement a custom remote audio endpoint enumerator as part of a Remote Desktop protocol provider.</span></span> <span data-ttu-id="a8031-105">Un fournisseur de protocole Bureau à distance peut utiliser un énumérateur de point de terminaison audio personnalisé pour récupérer une collection de points de terminaison audio ayant un ensemble spécifique de fonctionnalités.</span><span class="sxs-lookup"><span data-stu-id="a8031-105">A Remote Desktop protocol provider can use a custom audio endpoint enumerator to retrieve a collection of audio endpoints that have a specific set of capabilities.</span></span>
+
+<span data-ttu-id="a8031-106">**Pour implémenter un énumérateur de point de terminaison audio distant personnalisé**</span><span class="sxs-lookup"><span data-stu-id="a8031-106">**To implement a custom remote audio endpoint enumerator**</span></span>
+
+1.  <span data-ttu-id="a8031-107">Votre solution d’énumérateur de point de terminaison personnalisée doit implémenter quatre types principaux d’objets : les objets d’énumérateur de périphérique, les objets de collection d’appareils, les objets périphériques et les objets de magasin de propriétés.</span><span class="sxs-lookup"><span data-stu-id="a8031-107">Your custom endpoint enumerator solution should implement four main types of objects: device enumerator objects, device collection objects, device objects, and property store objects.</span></span>
+
+    
+
+    <table>
+    <colgroup>
+    <col style="width: 50%" />
+    <col style="width: 50%" />
+    </colgroup>
+    <thead>
+    <tr class="header">
+    <th><span data-ttu-id="a8031-108">Type d’objet</span><span class="sxs-lookup"><span data-stu-id="a8031-108">Object type</span></span></th>
+    <th><span data-ttu-id="a8031-109">Description</span><span class="sxs-lookup"><span data-stu-id="a8031-109">Description</span></span></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td><span data-ttu-id="a8031-110">Objet énumérateur d’appareil</span><span class="sxs-lookup"><span data-stu-id="a8031-110">Device enumerator object</span></span><br/></td>
+    <td><span data-ttu-id="a8031-111">Un objet énumérateur d’appareil fournit la fonctionnalité d’énumérateur de point de terminaison.</span><span class="sxs-lookup"><span data-stu-id="a8031-111">A device enumerator object provides the endpoint enumerator functionality.</span></span> <span data-ttu-id="a8031-112">Elle expose des méthodes qui retournent un point de terminaison par défaut et des collections spécifiées de points de terminaison.</span><span class="sxs-lookup"><span data-stu-id="a8031-112">It exposes methods that return a default endpoint and specified collections of endpoints.</span></span> <span data-ttu-id="a8031-113">Par exemple, selon les critères spécifiés, l’énumérateur peut retourner des points de terminaison de communication, des points de terminaison de lecture ou des points de terminaison de capture.</span><span class="sxs-lookup"><span data-stu-id="a8031-113">For example, depending on the criteria specified, the enumerator can return communication endpoints, playback endpoints, or capture endpoints.</span></span> <span data-ttu-id="a8031-114">L’objet énumérateur d’appareil doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> .</span><span class="sxs-lookup"><span data-stu-id="a8031-114">The device enumerator object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator"><strong>IMMDeviceEnumerator</strong></a> interface.</span></span><br/></td>
+    </tr>
+    <tr class="even">
+    <td><span data-ttu-id="a8031-115">Objet de collection de périphériques</span><span class="sxs-lookup"><span data-stu-id="a8031-115">Device collection object</span></span><br/></td>
+    <td><span data-ttu-id="a8031-116">Un objet collection de périphériques représente une collection de périphériques audio.</span><span class="sxs-lookup"><span data-stu-id="a8031-116">A device collection object represents a collection of audio devices.</span></span> <span data-ttu-id="a8031-117">Il doit implémenter l’interface <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> .</span><span class="sxs-lookup"><span data-stu-id="a8031-117">It must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection"><strong>IMMDeviceCollection</strong></a> interface.</span></span><br/></td>
+    </tr>
+    <tr class="odd">
+    <td><span data-ttu-id="a8031-118">Objet d’appareil</span><span class="sxs-lookup"><span data-stu-id="a8031-118">Device object</span></span><br/></td>
+    <td><span data-ttu-id="a8031-119">Un objet appareil représente un périphérique audio particulier.</span><span class="sxs-lookup"><span data-stu-id="a8031-119">A device object represents a particular audio device.</span></span> <span data-ttu-id="a8031-120">Il permet d’accéder à la Banque de propriétés de l’appareil audio et expose la lecture audio et les interfaces de capture disponibles sur l’appareil.</span><span class="sxs-lookup"><span data-stu-id="a8031-120">It provides access to the audio device's property store and exposes the audio playback and capture interfaces available on the device.</span></span> <span data-ttu-id="a8031-121">L’objet périphérique doit implémenter les interfaces <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> et <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> .</span><span class="sxs-lookup"><span data-stu-id="a8031-121">The device object must implement the <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice"><strong>IMMDevice</strong></a> and <a href="/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint"><strong>IMMEndpoint</strong></a> interfaces.</span></span><br/></td>
+    </tr>
+    <tr class="even">
+    <td><span data-ttu-id="a8031-122">Objet de la Banque de propriétés</span><span class="sxs-lookup"><span data-stu-id="a8031-122">Property store object</span></span><br/></td>
+    <td><span data-ttu-id="a8031-123">Un objet de la Banque de propriétés expose les propriétés associées à un périphérique audio.</span><span class="sxs-lookup"><span data-stu-id="a8031-123">A property store object exposes the properties associated with an audio device.</span></span> <span data-ttu-id="a8031-124">Certaines de ces propriétés sont utilisées par le système, mais les applications peuvent également stocker des propriétés arbitraires avec le point de terminaison audio.</span><span class="sxs-lookup"><span data-stu-id="a8031-124">Some of these properties are used by the system, but applications can store arbitrary properties with the audio endpoint as well.</span></span><br/> <span data-ttu-id="a8031-125">Tous les périphériques audio ont les trois propriétés suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8031-125">All audio devices have the following three properties:</span></span><br/>
+    <ul>
+    <li><span data-ttu-id="a8031-126"><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></span><span class="sxs-lookup"><span data-stu-id="a8031-126"><a href="/windows/desktop/CoreAudio/pkey-deviceinterface-friendlyname"><strong>PKEY_DeviceInterface_FriendlyName</strong></a></span></span></li>
+    <li><span data-ttu-id="a8031-127"><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></span><span class="sxs-lookup"><span data-stu-id="a8031-127"><a href="/windows/desktop/CoreAudio/pkey-device-devicedesc"><strong>PKEY_Device_DeviceDesc</strong></a></span></span></li>
+    <li><span data-ttu-id="a8031-128"><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></span><span class="sxs-lookup"><span data-stu-id="a8031-128"><a href="/windows/desktop/CoreAudio/pkey-device-friendlyname"><strong>PKEY_Device_FriendlyName</strong></a></span></span></li>
+    </ul>
+<span data-ttu-id="a8031-129">L’objet de la Banque de propriétés doit implémenter l’interface <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> .</span><span class="sxs-lookup"><span data-stu-id="a8031-129">The property store object must implement the <a href="/windows/win32/api/propsys/nn-propsys-ipropertystore">IPropertyStore</a> interface.</span></span><br/></td>
+    </tr>
+    </tbody>
+    </table>
+
+    
+
+     
+
+2.  <span data-ttu-id="a8031-130">L’énumérateur de point de terminaison personnalisé doit être implémenté dans une DLL qui peut être chargée dans le système audio et d’autres applications.</span><span class="sxs-lookup"><span data-stu-id="a8031-130">The custom endpoint enumerator must be implemented in a DLL that can be loaded into the audio system and other applications.</span></span> <span data-ttu-id="a8031-131">La DLL doit être signée afin que les processus sécurisés puissent la charger.</span><span class="sxs-lookup"><span data-stu-id="a8031-131">The DLL must be signed so that secure processes can load it.</span></span> <span data-ttu-id="a8031-132">La DLL doit implémenter et exporter la fonction [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md) , qui sert de point d’entrée à l’énumérateur de point de terminaison personnalisé.</span><span class="sxs-lookup"><span data-stu-id="a8031-132">The DLL must implement and export the [**GetTSAudioEndpointEnumeratorForSession**](gettsaudioendpointenumeratorforsession.md) function, which acts as an entry point to the custom endpoint enumerator.</span></span>
+
+<span data-ttu-id="a8031-133">Le service Services Bureau à distance appelle la méthode [**QueryProperty**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty) et définit le paramètre *QueryType* sur **WTS \_ query \_ AUDIOENUM \_ dll** pour récupérer le nom de l’objet énumérateur.</span><span class="sxs-lookup"><span data-stu-id="a8031-133">The Remote Desktop Services service calls the [**QueryProperty**](/windows/desktop/api/Wtsprotocol/nf-wtsprotocol-iwtsprotocolconnection-queryproperty) method and sets the *QueryType* parameter to **WTS\_QUERY\_AUDIOENUM\_DLL** to retrieve the name of the enumerator object.</span></span>
+
+<span data-ttu-id="a8031-134">Les objets énumérateur personnalisés utilisent des interfaces de type COM et un mécanisme de décompte de références COM, mais ce ne sont pas des objets COM véritables.</span><span class="sxs-lookup"><span data-stu-id="a8031-134">Custom enumerator objects use COM-like interfaces and a COM-like reference counting mechanism, but they are not true COM objects.</span></span> <span data-ttu-id="a8031-135">L’énumérateur de point de terminaison personnalisé doit avoir la possibilité d’utiliser des interfaces audio héritées utilisées par les applications qui ne prennent pas en charge COM.</span><span class="sxs-lookup"><span data-stu-id="a8031-135">The custom endpoint enumerator must have the ability to work with legacy audio interfaces used by applications that do not support COM.</span></span> <span data-ttu-id="a8031-136">Pour cette raison, l’énumérateur de point de terminaison personnalisé ne doit pas reposer sur le mécanisme de gestion du cycle de vie de COM.</span><span class="sxs-lookup"><span data-stu-id="a8031-136">For this reason, the custom endpoint enumerator must not rely on COM's life cycle management mechanism.</span></span> <span data-ttu-id="a8031-137">Les consommateurs de votre énumérateur de point de terminaison audio, tels que MMDevAPI.dll, chargent la DLL d’énumérateur de point de terminaison personnalisée quand ils sont requis par les applications utilisateur, et ils ne déchargent pas l’énumérateur lorsque l’énumérateur contient une référence à un objet d’énumérateur de périphérique, un objet de collection d’appareils, un objet appareil ou un objet de magasin de propriétés.</span><span class="sxs-lookup"><span data-stu-id="a8031-137">Consumers of your audio endpoint enumerator, such as MMDevAPI.dll, load the custom endpoint enumerator DLL when required by user applications, and they will not unload the enumerator while the enumerator holds a reference to a device enumerator object, device collection object, device object, or property store object.</span></span> <span data-ttu-id="a8031-138">Toutefois, il n’est pas possible pour ces consommateurs de suivre des références à d’autres types d’objets appartenant à l’énumérateur de point de terminaison personnalisé.</span><span class="sxs-lookup"><span data-stu-id="a8031-138">It is not possible, however, for these consumers to track references to other types of objects owned by the custom endpoint enumerator.</span></span> <span data-ttu-id="a8031-139">En conséquence, nous recommandons que votre énumérateur de point de terminaison personnalisé ne crée pas d’objets qui pourraient en surhabiter ces quatre types d’objets.</span><span class="sxs-lookup"><span data-stu-id="a8031-139">Accordingly, we recommend that your custom endpoint enumerator not create any objects that could outlive these four types of objects.</span></span>
+
+## <a name="to-implement-a-custom-audio-endpoint"></a><span data-ttu-id="a8031-140">Pour implémenter un point de terminaison audio personnalisé</span><span class="sxs-lookup"><span data-stu-id="a8031-140">To implement a custom audio endpoint</span></span>
+
+<span data-ttu-id="a8031-141">Pour implémenter un énumérateur de périphérique audio personnalisé, vous devez implémenter un point de terminaison audio personnalisé.</span><span class="sxs-lookup"><span data-stu-id="a8031-141">To implement a custom audio device enumerator, you must implement a custom audio endpoint.</span></span> <span data-ttu-id="a8031-142">La façon dont vos périphériques audio personnalisés sont liés est liée à l’utilisation des deux instructions suivantes :</span><span class="sxs-lookup"><span data-stu-id="a8031-142">The way that your custom audio devices are linked is by using the following two statements:</span></span>
+
+-   `IMMDevice::Activate(IAudioOutputEndpointRT)`
+-   `IMMDevice::Activate(IAudioInputEndpointRT)`
+
+<span data-ttu-id="a8031-143">Nous ne pensons pas que vous implémentiez la liste complète des interfaces [**IMMDevice :: Activate**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) dans votre énumérateur de périphérique audio personnalisé.</span><span class="sxs-lookup"><span data-stu-id="a8031-143">We do not expect you to implement the full list of [**IMMDevice::Activate**](/windows/desktop/api/mmdeviceapi/nf-mmdeviceapi-immdevice-activate) interfaces in your custom audio device enumerator.</span></span> <span data-ttu-id="a8031-144">Au lieu de cela, vous devez implémenter [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) et [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt).</span><span class="sxs-lookup"><span data-stu-id="a8031-144">Instead, you should implement [**IAudioOutputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudiooutputendpointrt) and [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt).</span></span> <span data-ttu-id="a8031-145">Vous pouvez éventuellement implémenter quelques autres, telles que [**IAudioEndpointVolume**](/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume).</span><span class="sxs-lookup"><span data-stu-id="a8031-145">You can optionally implement a few more, such as [**IAudioEndpointVolume**](/windows/desktop/api/endpointvolume/nn-endpointvolume-iaudioendpointvolume).</span></span> <span data-ttu-id="a8031-146">Pour toute interface que vous n’implémentez pas, vous devez retourner **E \_ nointerface** (vous devez utiliser ce code d’erreur spécifique).</span><span class="sxs-lookup"><span data-stu-id="a8031-146">For any interface you do not implement, you should return **E\_NOINTERFACE** (you must use this specific failure code).</span></span> <span data-ttu-id="a8031-147">Windows revient ensuite à une implémentation stockée de l’interface (par exemple, [**IAudioClient2**](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).</span><span class="sxs-lookup"><span data-stu-id="a8031-147">Windows will then fall back to a stock implementation of the interface (for example, [**IAudioClient2**](/windows/desktop/api/audioclient/nn-audioclient-iaudioclient2)).</span></span>
+
+<span data-ttu-id="a8031-148">Pour obtenir une documentation de référence supplémentaire sur la façon d’implémenter et d’inscrire des points de terminaison audio, consultez [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt).</span><span class="sxs-lookup"><span data-stu-id="a8031-148">For additional reference documentation about how to implement and register audio endpoints, see [**IAudioInputEndpointRT**](/windows/desktop/api/Audioengineendpoint/nn-audioengineendpoint-iaudioinputendpointrt).</span></span> <span data-ttu-id="a8031-149">Pour obtenir un diagramme illustrant le fonctionnement de WASAPI, consultez [composants audio en mode utilisateur](/windows/desktop/CoreAudio/user-mode-audio-components).</span><span class="sxs-lookup"><span data-stu-id="a8031-149">For a diagram that shows how WASAPI works, see [User-Mode Audio Components](/windows/desktop/CoreAudio/user-mode-audio-components).</span></span> <span data-ttu-id="a8031-150">Notez que toutes les données audio en mode utilisateur sont nouvelles à partir de Windows Server 2008.</span><span class="sxs-lookup"><span data-stu-id="a8031-150">Note that all of user-mode audio is new beginning with Windows Server 2008.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="a8031-151">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="a8031-151">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="a8031-152">Création d’un fournisseur de protocole RDP (Remote Desktop Protocol)</span><span class="sxs-lookup"><span data-stu-id="a8031-152">Creating a Remote Desktop Protocol Provider</span></span>](creating-a-custom-remote-protocol.md)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-153">**GetTSAudioEndpointEnumeratorForSession**</span><span class="sxs-lookup"><span data-stu-id="a8031-153">**GetTSAudioEndpointEnumeratorForSession**</span></span>](gettsaudioendpointenumeratorforsession.md)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-154">**IMMDevice**</span><span class="sxs-lookup"><span data-stu-id="a8031-154">**IMMDevice**</span></span>](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevice)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-155">**IMMDeviceCollection**</span><span class="sxs-lookup"><span data-stu-id="a8031-155">**IMMDeviceCollection**</span></span>](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdevicecollection)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-156">**IMMDeviceEnumerator**</span><span class="sxs-lookup"><span data-stu-id="a8031-156">**IMMDeviceEnumerator**</span></span>](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-157">**IMMEndpoint**</span><span class="sxs-lookup"><span data-stu-id="a8031-157">**IMMEndpoint**</span></span>](/windows/desktop/api/mmdeviceapi/nn-mmdeviceapi-immendpoint)
+</dt> <dt>
+
+[<span data-ttu-id="a8031-158">IPropertyStore</span><span class="sxs-lookup"><span data-stu-id="a8031-158">IPropertyStore</span></span>](/windows/win32/api/propsys/nn-propsys-ipropertystore)
+</dt> </dl>
