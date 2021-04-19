@@ -1,0 +1,20 @@
+---
+description: Un processus peut appeler WSPCloseSocket sur un socket dupliqué et le descripteur est libéré. Toutefois, le Socket sous-jacent reste ouvert jusqu’à ce que WSPCloseSocket soit appelé sur le dernier descripteur restant.
+ms.assetid: dff1e932-5e87-4ec5-995d-686d20ba6236
+title: Décompte de références
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 72d9ef7b3e5e31cc7941d30c47f107fc068489ad
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106517614"
+---
+# <a name="reference-counting"></a>Décompte de références
+
+Un processus peut appeler [**WSPCloseSocket**](/previous-versions/windows/hardware/network/ff566273(v=vs.85)) sur un socket dupliqué et le descripteur est libéré. Toutefois, le Socket sous-jacent reste ouvert jusqu’à ce que **WSPCloseSocket** soit appelé sur le dernier descripteur restant.
+
+ 
+
+ 
