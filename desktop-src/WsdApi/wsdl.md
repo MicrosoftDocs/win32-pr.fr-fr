@@ -4,18 +4,18 @@ ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: élément wsdl
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb54f946f32fb4962b8384dea7c6cf4b3c0ebe3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbcb96e063a289e16d5e459b59cb8808a763618a
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202989"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380733"
 ---
 # <a name="wsdl-element"></a>élément wsdl
 
 Spécifie un fichier WSDL à traiter pour les informations de contrat.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <wsdl>
@@ -33,9 +33,9 @@ Il n’y a pas d’attributs.
 
 | Élément                                           | Description                                                                                                                                       |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**excludeImport**](excludeimport.md)<br/> | Empêche la génération d’instructions d’importation pour des cibles spécifiées nommées dans un <élément wsdl : import> dans un fichier WSDL. <br/> <br/> |
-| [**importHint**](importhint.md)<br/>       | Spécifie l’emplacement de téléchargement pour un <directive wsdl : import> qui ne spécifie pas explicitement d’emplacement.<br/> <br/>           |
-| [**d**](path.md)<br/>                   | Fichier et chemin d’accès du fichier d’entrée WSDL.<br/> <br/>                                                                                      |
+| [**excludeImport**](excludeimport.md)<br/> | Empêche la génération d’instructions d’importation pour des cibles spécifiées nommées dans un \<wsdl:import> élément d’un fichier WSDL. <br/> <br/> |
+| [**importHint**](importhint.md)<br/>       | Spécifie l’emplacement de téléchargement pour une \<wsdl:import> directive qui ne spécifie pas explicitement d’emplacement.<br/> <br/>           |
+| [**path**](path.md)<br/>                   | Fichier et chemin d’accès du fichier d’entrée WSDL.<br/> <br/>                                                                                      |
 
 
 

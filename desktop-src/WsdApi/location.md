@@ -4,18 +4,18 @@ ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location (élément)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a82f4f95e9d66dce2d2f17aba5b86ce1ad4581d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547160b30299b1143ae2255925f520712fcc63ce
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380673"
 ---
 # <a name="location-element"></a>location (élément)
 
 Spécifie l’URL fournie en tant qu’indicateur d’importation pour un WSDL ou XSD référencé dans un autre WSDL.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <location/>
@@ -35,7 +35,7 @@ Il n’y a pas d’éléments enfants.
 
 | Élément                                     | Description                                                                                                                             |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [**importHint**](importhint.md)<br/> | Spécifie l’emplacement de téléchargement pour un <directive wsdl : import> qui ne spécifie pas explicitement d’emplacement.<br/> <br/> |
+| [**importHint**](importhint.md)<br/> | Spécifie l’emplacement de téléchargement pour une \<wsdl:import> directive qui ne spécifie pas explicitement d’emplacement.<br/> <br/> |
 
 
 

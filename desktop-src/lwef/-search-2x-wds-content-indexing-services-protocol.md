@@ -4,12 +4,12 @@ description: Ce document est une spécification du protocole de service d’inde
 ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c22bbda912333368e50d3e4a8ace2cd98856ea
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 5265d9d8c802b278b4349ef4b8248b068dc7edc4
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103724223"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492291"
 ---
 # <a name="content-indexing-services-protocol"></a>Protocole des services d’indexation de contenu
 
@@ -3213,7 +3213,7 @@ aProps (variable)
 
 
 
-| Valeur/GUID                                                                              | Nom                                             |
+| Valeur/GUID                                                                              | Name                                             |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------|
 | DBPROPSET \_ FSCIFRMWRK \_ ext<br/> {A9BD1526-6A80-11D0-8C9D-0020AF1D740E}<br/>   | Jeu de propriétés de l’infrastructure d’index de contenu du système de fichiers |
 | DBPROPSET \_ QUERYEXT<br/> {A7AC77ED-F8D7-11CE-A798-0020F8008025}<br/>          | Jeu de propriétés d’extension de requête                     |
@@ -4246,9 +4246,9 @@ Vous trouverez ci-dessous un diagramme montrant le format d’en-tête de messag
 
 1
 
-\_msg
+\_fragment
 
-\_status
+\_statu
 
 \_ulChecksum
 
@@ -5473,7 +5473,7 @@ Le message CPMGetQueryStatusOut répond à un message CPMGetQueryStatusIn avec l
 
 1
 
-\_Statu
+\_Statut
 
 
 
@@ -5664,7 +5664,7 @@ Le message CPMGetQueryStatusExOut répond à un message CPMGetQueryStatusExIn av
 
 1
 
-\_Statu
+\_Statut
 
 \_cFilteredDocuments
 
@@ -6324,7 +6324,7 @@ PropSpec (variable)
 
  
 
-**\_ wid**: entier non signé 32 bits représentant l’ID de document identifiant le document pour lequel une propriété doit être extraite.
+**\_ wid**: entier non signé 32 bits contenant des informations sur l’ID de document identifiant le document pour lequel une propriété doit être extraite.
 
 **\_ cbSoFar**: entier non signé 32 bits contenant le nombre d’octets transférés précédemment pour cette propriété. DOIT être défini sur 0x00000000 dans le premier message.
 
@@ -7192,7 +7192,7 @@ Lors de l’initialisation, le serveur doit définir son état sur « non initi
 
 ### <a name="314-higher-layer-triggered-events"></a>3.1.4 Événements déclenchés de niveau supérieur
 
-Aucun
+Aucun.
 
 ### <a name="315-message-processing-and-sequencing-rules"></a>Règles de traitement et de séquencement des messages 3.1.5
 
@@ -7433,7 +7433,7 @@ Lorsque le serveur reçoit une demande de message CPMDisconnect du client, le se
 
 ### <a name="316-timer-events"></a>Événements de minuterie 3.1.6
 
-Aucun
+Aucun.
 
 ### <a name="317-other-local-events"></a>3.1.7 autres événements locaux
 
@@ -7672,11 +7672,11 @@ Les informations suivantes sont fournies à des fins d’information uniquement 
 
 ### <a name="326-timer-events"></a>Événements de minuterie 3.2.6
 
-Aucun
+Aucun.
 
 ### <a name="327-other-local-events"></a>3.2.7 autres événements locaux
 
-Aucun
+Aucun.
 
 ## <a name="4-protocol-examples"></a>4 Exemples de protocoles
 

@@ -1,0 +1,489 @@
+---
+description: La méthode de classe WMI SetWINSServer définit les serveurs WINS (Windows Internet Service de nommage) principaux et secondaires sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
+ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
+ms.tgt_platform: multiple
+title: Méthode SetWINSServer de la classe Win32_NetworkAdapterConfiguration
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_NetworkAdapterConfiguration.SetWINSServer
+api_type:
+- COM
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: 49bfb0103a7d9cbbd6ea3faa0e1a868bac7b0196
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106515768"
+---
+# <a name="setwinsserver-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetWINSServer de la \_ classe Win32 NetworkAdapterConfiguration
+
+La méthode de [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **SetWINSServer** définit les serveurs WINS (Windows Internet service de nommage) principaux et secondaires sur cette carte réseau TCP/IP. Cette méthode est appliquée indépendamment de la carte réseau.
+
+Cette rubrique utilise la syntaxe format MOF (MOF). Pour plus d’informations sur l’utilisation de cette méthode, consultez [appel d’une méthode](/windows/desktop/WmiSdk/calling-a-method).
+
+## <a name="syntax"></a>Syntaxe
+
+
+```mof
+uint32 SetWINSServer(
+  [in] string WINSPrimaryServer,
+  [in] string WINSSecondaryServer
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*WINSPrimaryServer* \[ dans\]
+</dt> <dd>
+
+Adresse IP du serveur WINS principal.
+
+> [!Note]  
+> Vérifiez toujours la validité de cette adresse IP lorsqu’elle provient d’une source inconnue ou d’une source qui n’est pas digne de confiance.
+
+ 
+
+</dd> <dt>
+
+*WINSSecondaryServer* \[ dans\]
+</dt> <dd>
+
+Adresse IP du serveur WINS secondaire.
+
+> [!Note]  
+> Vérifiez toujours la validité de cette adresse IP lorsqu’elle provient d’une source inconnue ou d’une source qui n’est pas digne de confiance.
+
+ 
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Retourne une valeur entière égale à 0 (zéro) en cas de réussite de l’opération, ainsi que tout autre nombre pour indiquer une erreur. Pour plus d’informations sur les codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
+
+<dl> <dt>
+
+**Exécution réussie, aucun redémarrage requis**
+</dt> <dd>
+
+0
+
+Opération réussie, aucun redémarrage n’est nécessaire.
+
+</dd> <dt>
+
+**Achèvement réussi, redémarrage requis**
+</dt> <dd>
+
+1
+
+Opération terminée, redémarrage requis.
+
+</dd> <dt>
+
+**Méthode non prise en charge sur cette plateforme**
+</dt> <dd>
+
+64
+
+Méthode non prise en charge sur cette plateforme.
+
+</dd> <dt>
+
+**Échec inconnu**
+</dt> <dd>
+
+65
+
+Échec inconnu.
+
+</dd> <dt>
+
+**Masque de sous-réseau non valide**
+</dt> <dd>
+
+66
+
+Masque de sous-réseau non valide.
+
+</dd> <dt>
+
+**Une erreur s’est produite lors du traitement d’une instance qui a été retournée**
+</dt> <dd>
+
+67
+
+Une erreur s’est produite lors du traitement d’une instance qui a été retournée.
+
+</dd> <dt>
+
+**Paramètre d’entrée non valide**
+</dt> <dd>
+
+68
+
+Paramètre d’entrée non valide.
+
+</dd> <dt>
+
+**Plus de 5 passerelles spécifiées**
+</dt> <dd>
+
+69
+
+Plus de cinq passerelles sont spécifiées.
+
+</dd> <dt>
+
+**Adresse IP non valide**
+</dt> <dd>
+
+70
+
+Adresse IP non valide.
+
+</dd> <dt>
+
+**Adresse IP de passerelle non valide**
+</dt> <dd>
+
+71
+
+Adresse IP de passerelle non valide.
+
+</dd> <dt>
+
+**Une erreur s’est produite lors de l’accès au registre pour les informations demandées**
+</dt> <dd>
+
+72
+
+Une erreur s’est produite lors de l’accès au registre pour les informations demandées.
+
+</dd> <dt>
+
+**Nom de domaine non valide**
+</dt> <dd>
+
+73
+
+Nom de domaine non valide.
+
+</dd> <dt>
+
+**Nom d’hôte non valide**
+</dt> <dd>
+
+74
+
+Nom d’hôte non valide.
+
+</dd> <dt>
+
+**Aucun serveur WINS principal/secondaire défini**
+</dt> <dd>
+
+75
+
+Aucun serveur WINS principal ou secondaire n’est défini.
+
+</dd> <dt>
+
+**Fichier non valide**
+</dt> <dd>
+
+76
+
+Fichier non valide.
+
+</dd> <dt>
+
+**Chemin système non valide**
+</dt> <dd>
+
+77
+
+Chemin d’accès système non valide.
+
+</dd> <dt>
+
+**Échec de la copie du fichier**
+</dt> <dd>
+
+78
+
+Échec de la copie du fichier.
+
+</dd> <dt>
+
+**Paramètre de sécurité non valide**
+</dt> <dd>
+
+79
+
+Paramètre de sécurité non valide.
+
+</dd> <dt>
+
+**Impossible de configurer le service TCP/IP**
+</dt> <dd>
+
+80
+
+Impossible de configurer le service TCP/IP.
+
+</dd> <dt>
+
+**Impossible de configurer le service DHCP**
+</dt> <dd>
+
+81
+
+Impossible de configurer le service DHCP.
+
+</dd> <dt>
+
+**Impossible de renouveler le bail DHCP**
+</dt> <dd>
+
+82
+
+Impossible de renouveler le bail DHCP.
+
+</dd> <dt>
+
+**Impossible de libérer le bail DHCP**
+</dt> <dd>
+
+83
+
+Impossible de libérer le bail DHCP.
+
+</dd> <dt>
+
+**IP non activé sur l’adaptateur**
+</dt> <dd>
+
+84
+
+IP non activé sur l’adaptateur.
+
+</dd> <dt>
+
+**IPX non activé sur l’adaptateur**
+</dt> <dd>
+
+85 %
+
+IPX n’est pas activé sur l’adaptateur.
+
+</dd> <dt>
+
+**Erreur liée à un nombre de trames/réseau**
+</dt> <dd>
+
+86
+
+Erreur liée à l’image ou au numéro de réseau.
+
+</dd> <dt>
+
+**Type de trame non valide**
+</dt> <dd>
+
+87
+
+Type de trame non valide.
+
+</dd> <dt>
+
+**Numéro de réseau non valide**
+</dt> <dd>
+
+88
+
+Numéro de réseau non valide.
+
+</dd> <dt>
+
+**Numéro de réseau en double**
+</dt> <dd>
+
+89
+
+Numéro de réseau en double.
+
+</dd> <dt>
+
+**Paramètre hors limites**
+</dt> <dd>
+
+90
+
+Paramètre hors limites.
+
+</dd> <dt>
+
+**Accès refusé**
+</dt> <dd>
+
+91
+
+Accès refusé.
+
+</dd> <dt>
+
+**Mémoire insuffisante**
+</dt> <dd>
+
+92
+
+Mémoire insuffisante.
+
+</dd> <dt>
+
+**Existe déjà**
+</dt> <dd>
+
+93
+
+Existe déjà.
+
+</dd> <dt>
+
+**Chemin d’accès, fichier ou objet introuvable**
+</dt> <dd>
+
+94
+
+Chemin d’accès, fichier ou objet introuvable.
+
+</dd> <dt>
+
+**Impossible de notifier le service**
+</dt> <dd>
+
+95
+
+Impossible de notifier le service.
+
+</dd> <dt>
+
+**Impossible d’informer le service DNS**
+</dt> <dd>
+
+96
+
+Impossible d’informer le service DNS.
+
+</dd> <dt>
+
+**Interface non configurable**
+</dt> <dd>
+
+97
+
+Interface non configurable.
+
+</dd> <dt>
+
+**Tous les baux DHCP n’ont pas pu être libérés/renouvelés**
+</dt> <dd>
+
+98
+
+Tous les baux DHCP n’ont pas pu être libérés ou renouvelés.
+
+</dd> <dt>
+
+**DHCP n’est pas activé sur l’adaptateur**
+</dt> <dd>
+
+100
+
+DHCP n’est pas activé sur l’adaptateur.
+
+</dd> <dt>
+
+**Autres**
+</dt> <dd>
+
+101 4294967295
+
+</dd> </dl>
+
+## <a name="remarks"></a>Notes
+
+Si *WINSPrimaryServer* et *WINSSecondaryServer* sont tous les deux définis sur «» (une chaîne vide), les serveurs WINS explicites reviennent à DHCP.
+
+## <a name="examples"></a>Exemples
+
+[L’affectation d’une adresse IP extraite d’une base de données](https://Gallery.TechNet.Microsoft.Com/d4526355-e682-4116-a79a-8bba569b084d) L’exemple de code VBScript recherche un ordinateur dans une base de données et lui attribue l’adresse IP spécifiée.
+
+L’exemple de code VBScript suivant définit le serveur WINS principal et secondaire pour une carte réseau TCP/IP.
+
+
+```VB
+On Error Resume Next 
+ 
+strComputer = "." 
+Set objWMIService = GetObject("winmgmts:" _ 
+    & "{impersonationLevel=impersonate}!\\" & strComputer & "\root\cimv2") 
+ 
+Set colNetCards = objWMIService.ExecQuery _ 
+    ("Select * From Win32_NetworkAdapterConfiguration Where IPEnabled = True") 
+ 
+For Each objNetCard in colNetCards 
+    strPrimaryServer = "192.168.1.100" 
+    strSecondaryServer = "192.168.1.200" 
+    objNetCard.SetWINSServer strPrimaryServer, strSecondaryServer 
+Next 
+```
+
+
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
+| MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[Classes matérielles du système informatique](computer-system-hardware-classes.md)
+</dt> <dt>
+
+[**\_NetworkAdapterConfiguration Win32**](win32-networkadapterconfiguration.md)
+</dt> <dt>
+
+[Tâches WMI : mise en réseau](/windows/desktop/WmiSdk/wmi-tasks--networking)
+</dt> <dt>
+
+[Tâches WMI : comptes et domaines](/windows/desktop/WmiSdk/wmi-tasks--accounts-and-domains)
+</dt> <dt>
+
+[Prise en charge D’ipv6 et IPv6 dans WMI](/windows/desktop/WmiSdk/ipv6-and-ipv4-support-in-wmi)
+</dt> </dl>
+
+ 
+
