@@ -1,0 +1,136 @@
+---
+title: fonction glTranslated (GL. h)
+description: La fonction glTranslated multiplie la matrice actuelle par une matrice de translation.
+ms.assetid: 9f066a92-ee78-44d1-b8f8-0eacde0e1a47
+keywords:
+- glTranslated fonction OpenGL
+topic_type:
+- apiref
+api_name:
+- glTranslated
+api_location:
+- Opengl32.dll
+api_type:
+- DllExport
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 705c8dd0635294b066897db99c0770b5f6622c75
+ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "106535099"
+---
+# <a name="gltranslated-function"></a>glTranslated fonction)
+
+La fonction **glTranslated** multiplie la matrice actuelle par une matrice de translation.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+void WINAPI glTranslated(
+   GLdouble x,
+   GLdouble y,
+   GLdouble z
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*x* 
+</dt> <dd>
+
+Coordonnée *x* d’un vecteur de translation.
+
+</dd> <dt>
+
+*y* 
+</dt> <dd>
+
+Coordonnée *y* d’un vecteur de translation.
+
+</dd> <dt>
+
+*z* 
+</dt> <dd>
+
+Coordonnée *z* d’un vecteur de translation.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur renvoyée
+
+Cette fonction ne retourne pas de valeur.
+
+## <a name="remarks"></a>Notes
+
+La fonction **glTranslated** produit la traduction spécifiée par (*x*, *y*, *z*). Le vecteur de translation est utilisé pour calculer une matrice de traduction 4x4 :
+
+![Diagramme montrant la matrice de translation 4x4 spécifiée par x, y, z.](images/trans01.png)
+
+La matrice actuelle (voir [**glMatrixMode**](glmatrixmode.md)) est multipliée par cette matrice de translation, le produit remplaçant la matrice actuelle. Autrement dit, si M est la matrice active et que T est la matrice de translation, M est remplacé par M T.
+
+Si le mode matriciel est GL \_ MODELVIEW ou GL \_ projection, tous les objets dessinés après l’appel de **glTranslated** sont traduits. Utilisez [**glPushMatrix**](glpushmatrix.md) et **glPopMatrix** pour enregistrer et restaurer le système de coordonnées non traduit.
+
+Les fonctions suivantes récupèrent les informations relatives à [**glTranslated**](gltranslate.md):
+
+[**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) avec l’argument \_ mode de matrice GL \_
+
+**glGet** avec argument GL \_ MODELVIEW \_ Matrix
+
+**glGet** avec argument \_ matrice de projection de la comptabilité \_
+
+matrice de texture **glGet** avec argument GL \_ \_
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                    |
+| En-tête<br/>                   | <dl> <dt>GL. h</dt> </dl>         |
+| Bibliothèque<br/>                  | <dl> <dt>Opengl32. lib</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Opengl32.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**glBegin**](glbegin.md)
+</dt> <dt>
+
+[**glEnd**](glend.md)
+</dt> <dt>
+
+[**glMatrixMode**](glmatrixmode.md)
+</dt> <dt>
+
+[**glMultMatrix**](glmultmatrix.md)
+</dt> <dt>
+
+[**glPushMatrix**](glpushmatrix.md)
+</dt> <dt>
+
+[**glRotate**](glrotate.md)
+</dt> <dt>
+
+[**glScale**](glscale.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

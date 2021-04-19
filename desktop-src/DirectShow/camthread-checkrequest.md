@@ -1,0 +1,86 @@
+---
+description: La méthode CheckRequest vérifie s’il existe une demande, sans blocage.
+ms.assetid: 46d0840e-a304-41e3-9016-9f35e404cd30
+title: Méthode CAMThread. CheckRequest (Wxutil. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CAMThread.CheckRequest
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 5a004e0f5303cf6702c03e78c292a6a2d832a489
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106528135"
+---
+# <a name="camthreadcheckrequest-method"></a>Méthode CAMThread. CheckRequest
+
+La `CheckRequest` méthode vérifie s’il existe une demande, sans blocage.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+BOOL CheckRequest(
+   DWORD *pParam
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*pParam* 
+</dt> <dd>
+
+Pointeur vers une variable qui reçoit la valeur passée dans le dernier appel à la méthode [**CAMThread :: CallWorker**](camthread-callworker.md) .
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Retourne la **valeur true** s’il y a une demande en attente, ou **false** dans le cas contraire.
+
+## <a name="remarks"></a>Notes
+
+Cette méthode est une version sans blocage de la méthode [**CAMThread :: GetRequest**](camthread-getrequest.md) .
+
+Si un autre thread attend un appel à CallWorker, cette méthode récupère le paramètre de requête et retourne la **valeur true**. Sinon, elle retourne **false**. Si la méthode retourne la **valeur true**, appelez la méthode [**CAMThread :: reply**](camthread-reply.md) pour libérer le thread demandeur.
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**CAMThread, classe**](camthread.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

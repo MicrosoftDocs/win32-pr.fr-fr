@@ -4,12 +4,12 @@ description: Les effets Direct2D fournissent cet ensemble d’effets intégrés.
 ms.assetid: A76F6AB8-16E9-45C9-A768-5E4AA072D534
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94937d64c97506ebba56fde2334d09374228bac1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6001dda5985a1fa221a472ca1f1d9cca042f5041
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384500"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380863"
 ---
 # <a name="built-in-effects"></a>Effets intégrés
 
@@ -90,7 +90,7 @@ Les [effets Direct2D](effects-overview.md) fournissent cet ensemble d’effets i
 ## <a name="transform"></a>Transformer
 
 -   [effet de transformation affine 2D](2d-affine-transform.md) -CLSID \_ D2D12DAffineTransform
--   [effet de transformation 3D](3d-perspective-transform.md) -CLSID \_ D2D13DTransform
+-   [effet de transformation 3D](3d-transform.md) -CLSID \_ D2D13DTransform
 -   [effet de transformation de perspective 3D](3d-perspective-transform.md) -CLSID \_ D2D13DPerspectiveTransform
 -   [Effet de bordure](border.md) -CLSID \_ D2D1Border
 -   [Effet de rognage](crop.md) -CLSID \_ D2D1Crop
@@ -103,7 +103,7 @@ Les [effets Direct2D](effects-overview.md) fournissent cet ensemble d’effets i
 -   [Effet luminance-alpha](luminance-to-alpha.md) -CLSID \_ D2D1LuminanceToAlpha
 -   [Effet d’opacité](opacity-effect.md) -CLSID \_ D2D1Opacity
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

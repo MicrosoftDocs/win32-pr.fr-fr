@@ -4,18 +4,18 @@ ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8747a25988b880d5287d959273fa0f4d144045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2414919f699bb60c2cf1e48bc52030c36cf67a0
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528581"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380843"
 ---
 # <a name="namespace-element"></a>nameSpace, élément
 
-Décrit un espace de noms. Cet espace de noms peut être utilisé pour la génération de code ou pour gérer <les directives wsdl : import>.
+Décrit un espace de noms. Cet espace de noms peut être utilisé pour la génération de code ou pour la gestion de \<wsdl:import> directives.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <nameSpace
