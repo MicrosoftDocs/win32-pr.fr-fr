@@ -7,12 +7,12 @@ keywords:
 - boîtes de dialogue communes, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a973fee7c8f7cd88abad3097edfc0349cc9118c1
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: 773382a34b048e812a3fb093da0492b0c628fb14
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "106538803"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590656"
 ---
 # <a name="using-common-dialog-boxes"></a>Utilisation des boîtes de dialogue communes
 
@@ -105,7 +105,7 @@ if (ChooseFont(&cf)==TRUE)
 ## <a name="opening-a-file"></a>Ouverture d’un fichier
 
 > [!Note]  
-> À compter de Windows Vista, la boîte de dialogue de fichier commune a été remplacée par la boîte de dialogue d’élément commune lorsqu’elle est utilisée pour ouvrir un fichier. Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de l’API de la boîte de dialogue de fichier commune. Pour plus d’informations, consultez [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)).
+> À compter de Windows Vista, la boîte de dialogue de fichier commune a été remplacée par la boîte de dialogue d’élément commune lorsqu’elle est utilisée pour ouvrir un fichier. Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de l’API de la boîte de dialogue de fichier commune. Pour plus d’informations, consultez [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog).
 
  
 
