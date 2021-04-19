@@ -4,19 +4,19 @@ ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: Exemple d’association de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4104c9bc241fed4bc698bd150b03d32a70e054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23b92922bb907c4dd90b3e2bdc3d16c8e8b52e6a
+ms.sourcegitcommit: b0d03febac36ff77cba034615b94ea103311398d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111751"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "107715787"
 ---
 # <a name="file-association-example"></a>Exemple d’association de fichiers
 
 Dans l’exemple suivant, une société de développement de logiciels hypothétique, appelée Litware, Inc., crée un nouveau lecteur audio appelé LitwarePlayer. Litware souhaite concevoir une association de fichiers entre LitwarePlayer et son type de fichier primaire, qui utilise un format audio nouvellement développé qui permet à un CD audio entier d’être stocké en moins de 10 kilo-octets de mémoire sans perte de qualité.
 
 > [!IMPORTANT]
-> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
