@@ -1,0 +1,54 @@
+---
+description: Le modèle de sécurité Windows vous permet de contrôler l’accès aux clés de registre. Pour plus d’informations sur la sécurité, consultez Access-Control modèle.
+ms.assetid: 266d5c8e-1bcd-48e5-bc06-2fbc956d8658
+title: Sécurité de la clé de Registre et droits d’accès
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 73c80f21d296a88425024745d7442847a187cd43
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106545827"
+---
+# <a name="registry-key-security-and-access-rights"></a>Sécurité de la clé de Registre et droits d’accès
+
+Le modèle de sécurité Windows vous permet de contrôler l’accès aux clés de registre. Pour plus d’informations sur la sécurité, consultez [modèle de contrôle d’accès](/windows/desktop/SecAuthZ/access-control-model).
+
+Vous pouvez spécifier un [descripteur de sécurité](/windows/desktop/SecAuthZ/security-descriptors) pour une clé de registre lorsque vous appelez la fonction [**RegCreateKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regcreatekeyexa) ou [**RegSetKeySecurity**](/windows/desktop/api/winreg/nf-winreg-regsetkeysecurity) . Si vous spécifiez la **valeur null**, la clé obtient un descripteur de sécurité par défaut. Les listes de contrôle d’accès dans un descripteur de sécurité par défaut pour une clé sont héritées de sa clé parente directe.
+
+Pour obtenir le descripteur de sécurité d’une clé de Registre, appelez la fonction [**RegGetKeySecurity**](/windows/desktop/api/winreg/nf-winreg-reggetkeysecurity), [**GetNamedSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-getnamedsecurityinfoa)ou [**GetSecurityInfo**](/windows/desktop/api/aclapi/nf-aclapi-getsecurityinfo) .
+
+Les droits d’accès valides pour les clés de Registre incluent les droits d’accès supprimer, lire le \_ contrôle, écriture \_ DAC et écrire \_ propriétaire [standard](/windows/desktop/SecAuthZ/standard-access-rights). Les clés de registre ne prennent pas en charge le droit d’accès synchronisation standard.
+
+Le tableau suivant répertorie les droits d’accès spécifiques aux objets de clé de registre.
+
+
+
+| Valeur                                         | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| \_Tout \_ accès à la clé (0xF003F)<br/>         | Combine les droits \_ standard \_ requis, la \_ \_ valeur de requête clé, la valeur de \_ jeu de clés, la sous-clé de création de clé \_ \_ \_ \_ , \_ les sous-clés d’énumération \_ de clé, la notification de \_ clé \_ et les \_ droits d’accès à la création de lien de clé \_ .<br/>                                                                                                                                                                                                                                                                           |
+| \_ \_ Lien de création de clé (0x0020)<br/>         | Réservé pour le système.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| CLÉ \_ Create \_ Sub \_ (0x0004)<br/>     | Requis pour créer une sous-clé d’une clé de registre.<br/>                                                                                                                                                                                                                                                                                                                                                                                                             |
+| CLÉ \_ énumérer les \_ sous- \_ clés (0x0008)<br/> | Requis pour énumérer les sous-clés d’une clé de registre.<br/>                                                                                                                                                                                                                                                                                                                                                                                                       |
+| CLÉ d' \_ exécution (0x20019)<br/>             | Équivalent à la lecture de la clé \_ .<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| CLÉ \_ Notify (0x0010)<br/>               | Requis pour demander des notifications de modification pour une clé de registre ou pour les sous-clés d’une clé de registre.<br/>                                                                                                                                                                                                                                                                                                                                                              |
+| \_ \_ Valeur de la requête de clé (0x0001)<br/>         | Requis pour interroger les valeurs d’une clé de registre.<br/>                                                                                                                                                                                                                                                                                                                                                                                                            |
+| \_Lecture de clé (0x20019)<br/>                | Combine la \_ valeur de lecture des droits standard, la valeur de \_ \_ requête clé, les sous-clés d' \_ énumération de clé \_ \_ \_ et les valeurs de notification de clé \_ .<br/>                                                                                                                                                                                                                                                                                                                                                 |
+| \_Valeur du jeu \_ de clés (0x0002)<br/>           | Requis pour créer, supprimer ou définir une valeur de registre.<br/>                                                                                                                                                                                                                                                                                                                                                                                                       |
+| CLÉ \_ WOW64 \_ 32KEY (0x0200)<br/>         | Indique qu’une application sur Windows 64 bits doit fonctionner sur la vue de Registre 32 bits. Cet indicateur est ignoré par Windows 32 bits. Pour plus d’informations, consultez [accès à une autre vue de Registre](/windows/desktop/WinProg64/accessing-an-alternate-registry-view).<br/> Cet indicateur doit être combiné à l’aide de l’opérateur OR avec les autres indicateurs de ce tableau qui interrogent ou accèdent aux valeurs de registre.<br/> **Windows 2000 :** Cet indicateur n’est pas pris en charge.<br/> |
+| CLÉ \_ WOW64 \_ 64KEY (0x0100)<br/>         | Indique qu’une application sur Windows 64 bits doit fonctionner sur la vue de Registre 64 bits. Cet indicateur est ignoré par Windows 32 bits. Pour plus d’informations, consultez [accès à une autre vue de Registre](/windows/desktop/WinProg64/accessing-an-alternate-registry-view).<br/> Cet indicateur doit être combiné à l’aide de l’opérateur OR avec les autres indicateurs de ce tableau qui interrogent ou accèdent aux valeurs de registre.<br/> **Windows 2000 :** Cet indicateur n’est pas pris en charge.<br/> |
+| \_Écriture de clé (0x20006)<br/>               | Combine les \_ droits d' \_ accès standard en écriture, valeur du jeu de clés \_ \_ et clé \_ créer une sous- \_ \_ clé.<br/>                                                                                                                                                                                                                                                                                                                                                            |
+
+
+
+ 
+
+Quand vous appelez la fonction [**RegOpenKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regopenkeyexa) , le système vérifie les droits d’accès demandés par rapport au descripteur de sécurité de la clé. Si l’utilisateur ne dispose pas de l’accès approprié à la clé de Registre, l’opération d’ouverture échoue. Si un administrateur a besoin d’accéder à la clé, la solution consiste à activer le privilège SE prendre le nom de la \_ \_ propriété \_ et à ouvrir la clé de Registre avec un accès en écriture au \_ propriétaire. Pour plus d’informations, consultez [activation et désactivation des privilèges](/windows/desktop/SecAuthZ/enabling-and-disabling-privileges-in-c--).
+
+Vous pouvez demander le \_ droit d’accès à la sécurité du système Access \_ à une clé de Registre si vous souhaitez lire ou écrire la liste de contrôle d’accès système (SACL) de la clé. Pour plus d’informations, consultez [listes de contrôle d’accès (ACL)](/windows/desktop/SecAuthZ/access-control-lists) et [droit d’accès SACL](/windows/desktop/SecAuthZ/sacl-access-right).
+
+Pour afficher les droits d’accès actuels d’une clé, y compris les clés prédéfinies, utilisez l’éditeur du Registre (Regedt32.exe). Après avoir accédé à la clé souhaitée, accédez au menu **Edition** , puis sélectionnez **autorisations**.
+
+ 
+
