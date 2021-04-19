@@ -1,27 +1,27 @@
 ---
-title: Spécification de signatures racines en langage HLSL
+title: Spécification de signatures racine en langage HLSL
 description: La spécification de signatures racines dans le modèle de nuanceur HLSL 5,1 est une alternative à leur spécification dans du code C++.
 ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 236876e22c3e1e0bb849ec1e1bc7d45692c900d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2dad0da9f84d68fc1acbf53332d1cae4075f0faa
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548497"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492281"
 ---
-# <a name="specifying-root-signatures-in-hlsl"></a>Spécification de signatures racines en langage HLSL
+# <a name="specifying-root-signatures-in-hlsl"></a>Spécification de signatures racine en langage HLSL
 
 La spécification de signatures racines dans le modèle de nuanceur HLSL 5,1 est une alternative à leur spécification dans du code C++.
 
 -   [Exemple de signature racine HLSL](#an-example-hlsl-root-signature)
     -   [Signature racine version 1,0](#root-signature-version-10)
-    -   [Signature racine version 1,1](#root-signature-version-11)
+    -   [Signature racine version 1.1](#root-signature-version-11)
 -   [RootFlags](#rootflags)
 -   [Constantes racine](#root-constants)
--   [Visibility](#visibility)
+-   [Visibilité](#visibility)
 -   [CBV au niveau de la racine](#root-level-cbv)
 -   [SRV au niveau de la racine](#root-level-srv)
 -   [UAV au niveau de la racine](#root-level-uav)
@@ -59,7 +59,16 @@ Une signature racine peut être spécifiée en langage HLSL en tant que chaîne.
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
 
-### <a name="root-signature-version-11"></a>Signature racine version 1,1
+Cette définition donne la signature racine suivante, en notant :
+
+-   Utilisation des paramètres par défaut.
+-   B0 et (B0, Space = 1) ne sont pas en conflit
+-   U0 est visible uniquement pour le nuanceur Geometry
+-   U4 et U5 ont pour alias le même descripteur dans un segment de mémoire
+
+![signature racine spécifiée à l’aide du langage de nuanceur de haut niveau](images/hlsl-root-signature.png)
+
+### <a name="root-signature-version-11"></a>Signature racine version 1.1
 
 La [signature racine Version 1,1](root-signature-version-1-1.md) permet d’optimiser les pilotes sur les descripteurs de signature racine et les données.
 
@@ -81,15 +90,6 @@ La [signature racine Version 1,1](root-signature-version-1-1.md) permet d’opti
                              "addressU = TEXTURE_ADDRESS_CLAMP, " \
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
-
-Cette définition donne la signature racine suivante, en notant :
-
--   Utilisation des paramètres par défaut.
--   B0 et (B0, Space = 1) ne sont pas en conflit
--   U0 est visible uniquement pour le nuanceur Geometry
--   U4 et U5 ont pour alias le même descripteur dans un segment de mémoire
-
-![signature racine spécifiée à l’aide du langage de nuanceur de haut niveau](images/hlsl-root-signature.png)
 
 Le langage de signature racine HLSL correspond étroitement aux API de signature racine C++ et a une puissance expressif équivalente. La signature racine est spécifiée en tant que séquence de clauses, séparées par des virgules. L’ordre des clauses est important, car l’ordre d’analyse détermine la position de l’emplacement dans la signature racine. Chaque clause accepte un ou plusieurs paramètres nommés. Toutefois, l’ordre des paramètres n’est pas important.
 
@@ -297,21 +297,21 @@ Pour la gestion des signatures racines créées par HLSL, le tableau suivant fou
 
 
 
- 
+ 
 
-Les fonctionnalités disponibles via FXC sont également disponibles par programme à l’aide de la fonction [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) . Cet appel compile un nuanceur avec une signature racine ou une signature racine autonome (en définissant la cible rootsig \_ 1 \_ 0). [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) et [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) peuvent extraire et attacher des signatures racines à un objet BLOB existant.\_ \_ La signature racine d’objet BLOB D3D \_ est utilisée pour spécifier le type de composant blob de signature racine. [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) supprime la signature racine (à l’aide de l' \_ \_ \_ indicateur de signature racine D3DCOMPILER Strip) de l’objet BLOB.
+Les fonctionnalités disponibles via FXC sont également disponibles par programme à l’aide de la fonction [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) . Cet appel compile un nuanceur avec une signature racine ou une signature racine autonome (en définissant la cible rootsig \_ 1 \_ 0). [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) et [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) peuvent extraire et attacher des signatures racines à un objet BLOB existant.  \_ \_ La signature racine d’objet BLOB D3D \_ est utilisée pour spécifier le type de composant blob de signature racine. [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) supprime la signature racine (à l’aide de l' \_ \_ \_ indicateur de signature racine D3DCOMPILER Strip) de l’objet BLOB.
 
 ## <a name="notes"></a>Notes
 
 > [!Note]  
 > Alors que la compilation hors connexion des nuanceurs est fortement recommandée, si les nuanceurs doivent être compilés au moment de l’exécution, reportez-vous aux remarques relatives à [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2).
 
- 
+ 
 
 > [!Note]  
 > Les ressources HLSL existantes n’ont pas besoin d’être modifiées pour gérer les signatures racines à utiliser avec elles.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -326,10 +326,10 @@ Les fonctionnalités disponibles via FXC sont également disponibles par program
 [Liaison de ressource](resource-binding.md)
 </dt> <dt>
 
-[Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+[Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> <dt>
 
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
@@ -341,6 +341,6 @@ Les fonctionnalités disponibles via FXC sont également disponibles par program
 [Chargements de vues d’accès non ordonnées typées](typed-unordered-access-view-loads.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
