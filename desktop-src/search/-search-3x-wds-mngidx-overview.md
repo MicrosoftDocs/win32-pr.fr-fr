@@ -1,0 +1,43 @@
+---
+description: 'Windows Search vous permet de gérer l’index de recherche Windows avec trois composants principaux : le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de l’étendue de l’analyse.'
+ms.assetid: 345d1159-aa51-4a01-9831-216075a8fb78
+title: Gestion de l’index
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a3f32beb1361ecaae185db401f0ce306ea7f00aa
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106519264"
+---
+# <a name="managing-the-index"></a>Gestion de l’index
+
+Windows Search vous permet de gérer l’index de recherche Windows avec trois composants principaux : le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de l’étendue de l’analyse.
+
+Cette section est organisée comme suit :
+
+- [Interfaces pour la gestion de l’index](interfaces-for-managing-the-index.md)
+- [Utilisation du gestionnaire de recherche](-search-3x-wds-mngidx-searchmanager.md)
+- [Utilisation du gestionnaire de catalogues](-search-3x-wds-mngidx-catalog-manager.md)
+- [Utilisation du gestionnaire de portée d’analyse](-search-3x-wds-extidx-csm.md)
+
+## <a name="additional-resources"></a>Ressources supplémentaires
+
+- Pour obtenir des forums de discussion et des questions sur les technologies de recherche prises en charge par la Communauté, consultez le [forum MSDN : développement de Windows Desktop Search](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+- Pour télécharger les exemples de code du kit de développement logiciel (SDK) Search :
+  - [Exemples de recherche Windows sur la Galerie de code](./-search-samples-ovw.md)
+- Pour télécharger les SDK Windows :
+  - Pour Windows 10 : [SDK Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
+  - Pour Windows 7 : [SDK Windows pour Windows 7 et .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
+  - Pour Windows Vista : [SDK Windows pour Windows Vista et .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950)
+
+## <a name="related-topics"></a>Rubriques connexes
+
+[Guide de développement de Windows Search](-search-developers-guide-entry-page.md)
+
+[Interrogation de l’index programmatiquement](-search-3x-wds-qryidx-overview.md)
+
+[Extension de l’index](-search-3x-wds-extidx-overview.md)
+
+[Extension des ressources linguistiques](extending-language-resources-in-windows-search.md)
