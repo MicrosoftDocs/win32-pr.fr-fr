@@ -1,0 +1,63 @@
+---
+description: Non utilisé.
+MS-HAID: vspixengine.IMeshCallback\_ResultCallback\_DWORD\_BYTE\_arr
+MSHAttr:
+- PreferredSiteName:MSDN
+- PreferredLib:/library/windows/desktop
+title: 'IMeshCallback :: ResultCallback, méthode'
+ms.topic: reference
+ms.date: 05/31/2018
+ms.assetid: 07E8B051-7EC1-4F3B-9102-BE65F281845C
+api_name:
+- IMeshCallback.ResultCallback
+api_type:
+- COM
+api_location:
+- vspixengine.h
+topic_type:
+- APIRef
+- kbSyntax
+ms.openlocfilehash: 8d2b9dbee654f70ab2d306b34f406e3dbd52389c
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "106513907"
+---
+# <a name="span-idvspixengineimeshcallback_resultcallback_dword_byte_arrspanimeshcallbackresultcallback-method"></a><span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback :: ResultCallback, méthode
+
+Non utilisé.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT ResultCallback(
+   DWORD   size,
+   BYTE [] count0_buffer
+);
+```
+
+## <a name="parameters"></a>Paramètres
+
+*corps*   
+Non utilisé.
+
+*\_mémoire tampon count0*   
+Non utilisé.
+
+## <a name="return-value"></a>Valeur retournée
+
+Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
+
+## <a name="requirements"></a>Configuration requise
+
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p>En-tête</p></td><td>Vspixengine. h</td></tr></tbody></table>
+
+## <a name="span-idsee_alsospansee-also"></a><span id="see_also"></span>Voir aussi
+
+[**IMeshCallback**](/windows/desktop/direct3dtools/imeshcallback)
+
+ 
+
+ 
