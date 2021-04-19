@@ -1,0 +1,47 @@
+---
+description: Les classes WMI de Bureau à distance Virtualization permettent de gérer les Bureau à distance et les ressources RemoteFX et les machines virtuelles.
+ms.assetid: 933C8DCF-061D-41CB-9A21-CDDCDFE64307
+title: Classes Bureau à distance
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 20dd926dfecd43a78eb0116daa9d1161466a6633
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106536640"
+---
+# <a name="remote-desktop-classes"></a><span data-ttu-id="c3053-103">Classes Bureau à distance</span><span class="sxs-lookup"><span data-stu-id="c3053-103">Remote Desktop classes</span></span>
+
+<span data-ttu-id="c3053-104">Les classes WMI de Bureau à distance Virtualization permettent de gérer les Bureau à distance et les ressources RemoteFX et les machines virtuelles.</span><span class="sxs-lookup"><span data-stu-id="c3053-104">The Remote Desktop virtualization WMI classes are used to manage Remote Desktop and RemoteFX resources and virtual machines.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="c3053-105">Contenu de cette section</span><span class="sxs-lookup"><span data-stu-id="c3053-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="c3053-106">Rubrique</span><span class="sxs-lookup"><span data-stu-id="c3053-106">Topic</span></span>                                                                                                            | <span data-ttu-id="c3053-107">Description</span><span class="sxs-lookup"><span data-stu-id="c3053-107">Description</span></span>                                                                                                                                                  |
+|------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="c3053-108">**MSVM \_ InteractiveSessionACE**</span><span class="sxs-lookup"><span data-stu-id="c3053-108">**Msvm\_InteractiveSessionACE**</span></span>](msvm-interactivesessionace.md)<br/>                                     | <span data-ttu-id="c3053-109">Représente une *entrée de contrôle d’accès* (ACE) qui détermine l’accès à la session interactive d’un ordinateur virtuel.</span><span class="sxs-lookup"><span data-stu-id="c3053-109">Represents an *access control entry* (ACE) that determines access to the interactive session of a virtual machine.</span></span><br/>                                |
+| [<span data-ttu-id="c3053-110">**MSVM \_ Physical3dGraphicsProcessor**</span><span class="sxs-lookup"><span data-stu-id="c3053-110">**Msvm\_Physical3dGraphicsProcessor**</span></span>](msvm-physical3dgraphicsprocessor.md)<br/>                         | <span data-ttu-id="c3053-111">Décrit l’unité de traitement graphique (GPU) 3D physique.</span><span class="sxs-lookup"><span data-stu-id="c3053-111">Describes the physical 3-D graphics processing unit (GPU).</span></span><br/>                                                                                        |
+| [<span data-ttu-id="c3053-112">**MSVM \_ PhysicalGPUInfo**</span><span class="sxs-lookup"><span data-stu-id="c3053-112">**Msvm\_PhysicalGPUInfo**</span></span>](msvm-physicalgpuinfo.md)<br/>                                                 | <span data-ttu-id="c3053-113">Contient des informations sur une unité de traitement graphique (GPU) physique RemoteFX.</span><span class="sxs-lookup"><span data-stu-id="c3053-113">Contains information about a RemoteFX physical graphics processing unit (GPU).</span></span><br/>                                                                    |
+| [<span data-ttu-id="c3053-114">**MSVM \_ RdvComponent**</span><span class="sxs-lookup"><span data-stu-id="c3053-114">**Msvm\_RdvComponent**</span></span>](msvm-rdvcomponent.md)<br/>                                                       | <span data-ttu-id="c3053-115">Représente l’état du composant RDV, qui est chargé de fournir un transport pour le parent à l’invité à des fins de configuration.</span><span class="sxs-lookup"><span data-stu-id="c3053-115">Represents the state of the RDV component, which is responsible for providing a transport for the parent to the guest for configuration purposes.</span></span><br/> |
+| [<span data-ttu-id="c3053-116">**MSVM \_ RdvComponentSettingData**</span><span class="sxs-lookup"><span data-stu-id="c3053-116">**Msvm\_RdvComponentSettingData**</span></span>](msvm-rdvcomponentsettingdata.md)<br/>                                 | <span data-ttu-id="c3053-117">Représente l’état configuré du composant de virtualisation des Bureau à distance (RDV).</span><span class="sxs-lookup"><span data-stu-id="c3053-117">Represents the configured state of the Remote Desktop Virtualization (RDV) component.</span></span> <span data-ttu-id="c3053-118">L’État par défaut est activé.</span><span class="sxs-lookup"><span data-stu-id="c3053-118">The default state is Enabled.</span></span><br/>                               |
+| [<span data-ttu-id="c3053-119">**MSVM \_ Synth3dVideoPool**</span><span class="sxs-lookup"><span data-stu-id="c3053-119">**Msvm\_Synth3dVideoPool**</span></span>](msvm-synth3dvideopool.md)<br/>                                               | <span data-ttu-id="c3053-120">Contient des informations sur les unités de traitement graphique (GPU) vidéo 3D synthétiques disponibles sur le système hôte.</span><span class="sxs-lookup"><span data-stu-id="c3053-120">Contains information about the synthetic 3-D video graphics processing units (GPUs) available on the host system.</span></span><br/>                                 |
+| [<span data-ttu-id="c3053-121">**MSVM \_ Synthetic3DDisplayController**</span><span class="sxs-lookup"><span data-stu-id="c3053-121">**Msvm\_Synthetic3DDisplayController**</span></span>](msvm-synthetic3ddisplaycontroller.md)<br/>                       | <span data-ttu-id="c3053-122">Représente le contrôleur d’affichage 3D synthétique affecté à un ordinateur virtuel.</span><span class="sxs-lookup"><span data-stu-id="c3053-122">Represents the synthetic 3-D display controller that is assigned to a virtual machine.</span></span><br/>                                                            |
+| [<span data-ttu-id="c3053-123">**MSVM \_ Synthetic3DDisplayControllerSettingData**</span><span class="sxs-lookup"><span data-stu-id="c3053-123">**Msvm\_Synthetic3DDisplayControllerSettingData**</span></span>](msvm-synthetic3ddisplaycontrollersettingdata.md)<br/> | <span data-ttu-id="c3053-124">Représente les paramètres d’un contrôleur d’affichage 3D synthétique pour un ordinateur virtuel.</span><span class="sxs-lookup"><span data-stu-id="c3053-124">Represents settings for a synthetic 3-D display controller for a virtual machine.</span></span><br/>                                                                 |
+| [<span data-ttu-id="c3053-125">**MSVM \_ Synthetic3DService**</span><span class="sxs-lookup"><span data-stu-id="c3053-125">**Msvm\_Synthetic3DService**</span></span>](msvm-synthetic3dservice.md)<br/>                                           | <span data-ttu-id="c3053-126">Décrit le service de GPU 3D synthétique.</span><span class="sxs-lookup"><span data-stu-id="c3053-126">Describes the synthetic 3-D GPU service.</span></span><br/>                                                                                                          |
+| [<span data-ttu-id="c3053-127">**MSVM \_ Synthetic3DServiceSettingData**</span><span class="sxs-lookup"><span data-stu-id="c3053-127">**Msvm\_Synthetic3DServiceSettingData**</span></span>](msvm-synthetic3dservicesettingdata.md)<br/>                     | <span data-ttu-id="c3053-128">Représente les paramètres pour le service synthétique 3D présent sur un système hôte unique.</span><span class="sxs-lookup"><span data-stu-id="c3053-128">Represents the settings for the synthetic 3-D service present on a single host system.</span></span><br/>                                                            |
+| [<span data-ttu-id="c3053-129">**MSVM \_ TerminalService**</span><span class="sxs-lookup"><span data-stu-id="c3053-129">**Msvm\_TerminalService**</span></span>](msvm-terminalservice.md)<br/>                                                 | <span data-ttu-id="c3053-130">Gère toutes les connexions de terminal distant à un hôte particulier.</span><span class="sxs-lookup"><span data-stu-id="c3053-130">Manages all remote terminal connections to a particular host.</span></span><br/>                                                                                     |
+| [<span data-ttu-id="c3053-131">**MSVM \_ TerminalServiceSettingData**</span><span class="sxs-lookup"><span data-stu-id="c3053-131">**Msvm\_TerminalServiceSettingData**</span></span>](msvm-terminalservicesettingdata.md)<br/>                           | <span data-ttu-id="c3053-132">Représente les paramètres pour les services Terminal Server des ordinateurs virtuels sur un ordinateur hôte.</span><span class="sxs-lookup"><span data-stu-id="c3053-132">Represents the settings for the virtual computer terminal services on a host.</span></span><br/>                                                                     |
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+

@@ -1,0 +1,41 @@
+---
+title: Fonctions de planification
+description: Les fonctions de service de planification de la gestion du réseau soumettent et gèrent les tâches qui s’exécutent sur un ordinateur spécifié à un moment donné (ou heure) à l’avenir.
+ms.assetid: 1ddc9b95-fdbc-4e39-9b55-2a5bc570b95d
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3421ae46de8e8152356f64d3855b4fe95c228878
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106509462"
+---
+# <a name="schedule-functions"></a><span data-ttu-id="da1c0-103">Fonctions de planification</span><span class="sxs-lookup"><span data-stu-id="da1c0-103">Schedule Functions</span></span>
+
+<span data-ttu-id="da1c0-104">Les fonctions de service de planification de la gestion du réseau soumettent et gèrent les tâches qui s’exécutent sur un ordinateur spécifié à un moment donné (ou heure) à l’avenir.</span><span class="sxs-lookup"><span data-stu-id="da1c0-104">The network management schedule service functions submit and manage jobs that execute on a specified computer at a particular time (or times) in the future.</span></span> <span data-ttu-id="da1c0-105">Les tâches peuvent inclure des commandes et des programmes.</span><span class="sxs-lookup"><span data-stu-id="da1c0-105">Jobs can include commands and programs.</span></span> <span data-ttu-id="da1c0-106">Les fonctions gèrent les travaux sur les ordinateurs distants et locaux, à condition que le service de planification s’exécute sur l’ordinateur.</span><span class="sxs-lookup"><span data-stu-id="da1c0-106">The functions manage jobs at remote and local computers, provided the schedule service is running on the computer.</span></span>
+
+<span data-ttu-id="da1c0-107">Les fonctions de service de planification sont répertoriées ci-après.</span><span class="sxs-lookup"><span data-stu-id="da1c0-107">The schedule service functions are listed following.</span></span>
+
+
+
+| <span data-ttu-id="da1c0-108">Fonction</span><span class="sxs-lookup"><span data-stu-id="da1c0-108">Function</span></span>                                                                     | <span data-ttu-id="da1c0-109">Description</span><span class="sxs-lookup"><span data-stu-id="da1c0-109">Description</span></span>                                                      |
+|------------------------------------------------------------------------------|------------------------------------------------------------------|
+| [<span data-ttu-id="da1c0-110">**NetScheduleJobAdd**</span><span class="sxs-lookup"><span data-stu-id="da1c0-110">**NetScheduleJobAdd**</span></span>](/windows/desktop/api/Lmat/nf-lmat-netschedulejobadd)                               | <span data-ttu-id="da1c0-111">Soumet un travail à exécuter à une date et une heure futures spécifiées.</span><span class="sxs-lookup"><span data-stu-id="da1c0-111">Submits a job to run at a specified future date and time.</span></span>        |
+| [<span data-ttu-id="da1c0-112">**NetScheduleJobDel**</span><span class="sxs-lookup"><span data-stu-id="da1c0-112">**NetScheduleJobDel**</span></span>](/windows/desktop/api/Lmat/nf-lmat-netschedulejobdel)                               | <span data-ttu-id="da1c0-113">Annule une plage de travaux en file d’attente d’exécution sur un ordinateur.</span><span class="sxs-lookup"><span data-stu-id="da1c0-113">Cancels a range of jobs queued to run on a computer.</span></span>             |
+| [<span data-ttu-id="da1c0-114">**NetScheduleJobEnum**</span><span class="sxs-lookup"><span data-stu-id="da1c0-114">**NetScheduleJobEnum**</span></span>](/windows/desktop/api/Lmat/nf-lmat-netschedulejobenum)                             | <span data-ttu-id="da1c0-115">Répertorie les travaux en file d’attente sur un ordinateur spécifié.</span><span class="sxs-lookup"><span data-stu-id="da1c0-115">Lists the jobs queued on a specified computer.</span></span>                   |
+| [<span data-ttu-id="da1c0-116">**NetScheduleJobGetInfo**</span><span class="sxs-lookup"><span data-stu-id="da1c0-116">**NetScheduleJobGetInfo**</span></span>](/windows/desktop/api/Lmat/nf-lmat-netschedulejobgetinfo)                       | <span data-ttu-id="da1c0-117">Retourne des informations sur un travail particulier mis en file d’attente sur un ordinateur.</span><span class="sxs-lookup"><span data-stu-id="da1c0-117">Returns information about a particular job queued on a computer.</span></span> |
+| [<span data-ttu-id="da1c0-118">**GetNetScheduleAccountInformation**</span><span class="sxs-lookup"><span data-stu-id="da1c0-118">**GetNetScheduleAccountInformation**</span></span>](/windows/desktop/api/AtAcct/nf-atacct-getnetscheduleaccountinformation) | <span data-ttu-id="da1c0-119">Récupère le nom du compte de service AT.</span><span class="sxs-lookup"><span data-stu-id="da1c0-119">Retrieves the AT Service account name.</span></span>                           |
+| [<span data-ttu-id="da1c0-120">**SetNetScheduleAccountInformation**</span><span class="sxs-lookup"><span data-stu-id="da1c0-120">**SetNetScheduleAccountInformation**</span></span>](/windows/desktop/api/AtAcct/nf-atacct-setnetscheduleaccountinformation) | <span data-ttu-id="da1c0-121">Définit le nom du compte de service AT et le mot de passe.</span><span class="sxs-lookup"><span data-stu-id="da1c0-121">Sets the AT Service account name and password.</span></span>                   |
+
+
+
+ 
+
+<span data-ttu-id="da1c0-122">Pour que les fonctions de planification de la gestion de réseau fonctionnent correctement, un appelant doit avoir le privilège d’administrateur sur l’ordinateur sur lequel le service de planification est en cours d’exécution.</span><span class="sxs-lookup"><span data-stu-id="da1c0-122">For the network management schedule functions to succeed, a caller must have administrator's privilege at the computer where the schedule service is running.</span></span> <span data-ttu-id="da1c0-123">Les fonctions de service de planification sont également appelées fonctions « Job » et « AT Command ».</span><span class="sxs-lookup"><span data-stu-id="da1c0-123">The schedule service functions are also known as "Job" and "AT command" functions.</span></span> <span data-ttu-id="da1c0-124">Pour plus d’informations sur l’appel de fonctions qui requièrent des privilèges d’administrateur, consultez [exécution avec des privilèges spéciaux](/windows/desktop/SecBP/running-with-special-privileges).</span><span class="sxs-lookup"><span data-stu-id="da1c0-124">For more information about calling functions that require administrator privileges, see [Running with Special Privileges](/windows/desktop/SecBP/running-with-special-privileges).</span></span>
+
+<span data-ttu-id="da1c0-125">La structure [**at \_ info**](/windows/desktop/api/Lmat/ns-lmat-at_info) est utilisée par la fonction [**NetScheduleJobAdd**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobadd) pour spécifier des informations lors de l’envoi d’un travail, et par la fonction [**NetScheduleJobGetInfo**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobgetinfo) pour récupérer des informations sur un travail qui a été soumis.</span><span class="sxs-lookup"><span data-stu-id="da1c0-125">The [**AT\_INFO**](/windows/desktop/api/Lmat/ns-lmat-at_info) structure is used by the [**NetScheduleJobAdd**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobadd) function to specify information when submitting a job, and by the [**NetScheduleJobGetInfo**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobgetinfo) function to retrieve information about a job that has been submitted.</span></span> <span data-ttu-id="da1c0-126">La structure d' [**\_ énumération at**](/windows/desktop/api/Lmat/ns-lmat-at_enum) est utilisée par [**NetScheduleJobEnum**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobenum) pour énumérer et retourner des informations sur l’intégralité d’une file d’attente de travaux soumis.</span><span class="sxs-lookup"><span data-stu-id="da1c0-126">The [**AT\_ENUM**](/windows/desktop/api/Lmat/ns-lmat-at_enum) structure is used by [**NetScheduleJobEnum**](/windows/desktop/api/Lmat/nf-lmat-netschedulejobenum) to enumerate and return information about an entire queue of submitted jobs.</span></span>
+
+ 
+
+ 
