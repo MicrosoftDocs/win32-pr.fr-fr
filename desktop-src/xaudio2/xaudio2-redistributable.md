@@ -4,12 +4,12 @@ ms.assetid: ''
 title: Guide du développeur pour la version redistribuable de XAudio 2.9
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: a87c2dc44179f2c189270dfa91d2cf2696ea98a7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
+ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103953504"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107583821"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>Guide du développeur pour la version redistribuable de XAudio 2.9
 
@@ -32,6 +32,8 @@ Le moyen le plus simple d’installer le package NuGet consiste à utiliser le [
 Bibliothèque XAPOBASEREDIST. LIB n’est nécessaire que si vous envisagez de impement un objet de traitement XAudio personnalisé (XAPO) et vous pouvez le supprimer de *Microsoft. XAudio2. Redist. targets* s’il n’est pas utilisé.
 
 Vous pouvez également utiliser d’autres outils pour extraire le contenu du package NuGet, ou même renommer l’extension de fichier en. zip et extraire les fichiers avec n’importe quel outil ZIP Extractor.
+
+> Un port est également ``xaudio2redist`` disponible pour le [Gestionnaire de Package VC + +](https://github.com/microsoft/vcpkg).
 
 ## <a name="compiling-your-app"></a>Compilation de votre application
 
