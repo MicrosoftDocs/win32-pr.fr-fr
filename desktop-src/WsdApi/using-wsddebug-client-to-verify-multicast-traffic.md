@@ -4,12 +4,12 @@ ms.assetid: 1b0943fb-076e-4feb-9a4f-36a06bdd19ae
 title: Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55f03e06baefc40bad843a5193b2cec604383251
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a814ac97512ef4b0691c22d3238d151372023a7
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519722"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380663"
 ---
 # <a name="using-wsd-debug-client-to-verify-multicast-traffic"></a>Utilisation du client de débogage WSD pour vérifier le trafic de multidiffusion
 
@@ -36,7 +36,7 @@ Vérifiez toujours que les messages de [sondage](probe-message.md) sont en cours
 
 Les messages doivent être déclenchés pour pouvoir être envoyés comme décrit à l’étape 3 ci-dessus. Le client de débogage WSD affiche le message SOAP brut comme sortie. Étant donné que tous les messages imprimés par le client de débogage WSD en mode de multidiffusion sont reçus sur un socket de multidiffusion, l’adresse de destination du message n’est pas affichée.
 
-L’exemple suivant de sortie du client de débogage WSD affiche un message de sondage. L’élément <wsa : action> identifie le message en tant que message de sondage. Examinez le champ <wsa : action> pour vérifier que le message reçu était un message de sondage.
+L’exemple suivant de sortie du client de débogage WSD affiche un message de sondage. L' \<wsa:Action> élément identifie le message en tant que message de sondage. Examinez le \<wsa:Action> champ pour vérifier que le message reçu était un message de sondage.
 
 ``` syntax
 UDP message at 05/08/07 10:06:55 from soap.udp://[127.0.0.1:49334]
@@ -51,7 +51,7 @@ ap:Header><soap:Body><wsd:Probe><wsd:Types>wsdp:Device</wsd:Types></wsd:Probe></
 soap:Body></soap:Envelope>
 ```
 
-L’exemple suivant de sortie du client de débogage WSD affiche un message de salutation. L’élément <wsa : action> identifie le message en tant que message de salutation.
+L’exemple suivant de sortie du client de débogage WSD affiche un message de salutation. L' \<wsa:Action> élément identifie le message en tant que message de salutation.
 
 ``` syntax
 UDP message at 05/08/07 10:10:49 from soap.udp://[[::1]:49343]

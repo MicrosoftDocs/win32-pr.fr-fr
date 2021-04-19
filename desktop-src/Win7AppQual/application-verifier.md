@@ -4,19 +4,19 @@ ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: Application Verifier (Windows 7 et Windows Server 2008 R2-Guide pratique de la qualité des applications)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dddbac00c3f16a1072a79aca096c46aaff0d2983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 946d27ecfef46766fe82cc4df2061c7fa5196a45
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868758"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314992"
 ---
 # <a name="application-verifier-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Application Verifier (Windows 7 et Windows Server 2008 R2-Guide pratique de la qualité des applications)
 
 ## <a name="affected-platforms"></a>Plateformes affectées
 
-**Clients** -Windows XP Windows \| Vista Windows \| 7  
-**Serveurs** -windows Server 2003 \| Windows Server 2008 Windows Server \| 2008 R2  
+**Clients** -Windows XP, Windows Vista, Windows 7  
+**Serveurs** -windows Server 2003, windows Server 2008, windows Server 2008 R2  
 
 
 ## <a name="description"></a>Description
@@ -123,7 +123,7 @@ Autre Remarque : Application Verifier est aussi efficace que les chemins de cod
 
 **Application Verifier:**
 
--   [Vue d’ensemble](/previous-versions/ms220948(v=vs.80))
+-   [Vue d'ensemble](/previous-versions/ms220948(v=vs.80))
 -   [Télécharger](https://www.microsoft.com/downloads/details.aspx?FamilyID=c4a25ab9-649d-4a1b-b4a7-c9d8b095df18&amp;DisplayLang=en)
 -   [Application Verifier pour Microsoft Visual Studio 2008/.NET Framework 3,5](/previous-versions/ms220948(v=vs.80))
 
