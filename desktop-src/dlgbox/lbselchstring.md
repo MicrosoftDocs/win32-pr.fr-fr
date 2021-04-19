@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14538c429bf943e4557974166bd7da747176bd93
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 137429b8fa7eb29fb96ec579e0240c4c282d0766
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106542862"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590766"
 ---
 # <a name="lbselchstring-message"></a>Message LBSELCHSTRING
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85)). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie le message **LBSELCHSTRING** Registered à votre procédure de hook lorsque la sélection change dans l’une des zones de liste ou des zones de liste modifiable de la boîte de dialogue.
 
@@ -67,15 +67,15 @@ Le mot de poids faible spécifie le numéro d’élément de la chaîne sélecti
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure de hook doit spécifier la constante **LBSELCHSTRING** dans un appel à la fonction [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea) pour obtenir l’identificateur du message envoyé par la boîte de dialogue.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -104,7 +104,7 @@ La procédure de hook doit spécifier la constante **LBSELCHSTRING** dans un app
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
