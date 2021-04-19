@@ -1,0 +1,72 @@
+---
+title: Exemples de couche de canal de sécurité
+description: Les exemples suivants illustrent la sécurité dans la couche de canal.
+ms.assetid: ac4f0275-4783-411d-98da-2c5a1a169dcc
+keywords:
+- exemples de sécurité
+- exemples de sécurité, configuration
+- WWSAPI
+- WWS
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 4b1283339b1a4af624e118e3f6c76a07449f9274
+ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "106517962"
+---
+# <a name="security-channel-layer-examples"></a><span data-ttu-id="6d9e3-107">Exemples de couche de canal de sécurité</span><span class="sxs-lookup"><span data-stu-id="6d9e3-107">Security Channel Layer Examples</span></span>
+
+<span data-ttu-id="6d9e3-108">Les exemples suivants illustrent la sécurité dans la [couche de canal](channel-layer-overview.md)</span><span class="sxs-lookup"><span data-stu-id="6d9e3-108">The following examples illustrate security in the [Channel Layer](channel-layer-overview.md)</span></span>
+
+<span data-ttu-id="6d9e3-109">Sécurité de transport Windows sur TCP : client : [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-109">Windows transport security over TCP: Client: [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md), Server: [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md).</span></span>
+
+<span data-ttu-id="6d9e3-110">Sécurité de transport Windows sur les canaux nommés : client : [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md), serveur : [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-110">Windows transport security over named pipes: Client: [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md), Server: [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md).</span></span>
+
+<span data-ttu-id="6d9e3-111">Sécurité de transport SSL : client : [HttpClientWithSslExample](httpclientwithsslexample.md), serveur : [HttpServerWithSslExample](httpserverwithsslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-111">SSL transport security: Client: [HttpClientWithSslExample](httpclientwithsslexample.md), Server: [HttpServerWithSslExample](httpserverwithsslexample.md).</span></span>
+
+<span data-ttu-id="6d9e3-112">Nom d’utilisateur sur la sécurité SSL en mode mixte : client : [HttpClientWithUsernameOverSslExample](httpclientwithusernameoversslexample.md), serveur : [HttpServerWithUsernameOverSslExample](httpserverwithusernameoversslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-112">Username over SSL mixed-mode security: Client: [HttpClientWithUsernameOverSslExample](httpclientwithusernameoversslexample.md), Server: [HttpServerWithUsernameOverSslExample](httpserverwithusernameoversslexample.md).</span></span>
+
+<span data-ttu-id="6d9e3-113">Nom d’utilisateur sur la sécurité SSL en mode mixte : client : [HttpClientWithKerberosOverSslExample](httpclientwithkerberosoversslexample.md), serveur : [HttpServerWithKerberosOverSslExample](httpserverwithkerberosoversslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-113">Username over SSL mixed-mode security: Client: [HttpClientWithKerberosOverSslExample](httpclientwithkerberosoversslexample.md), Server: [HttpServerWithKerberosOverSslExample](httpserverwithkerberosoversslexample.md).</span></span>
+
+<span data-ttu-id="6d9e3-114">Nom d’utilisateur sur la sécurité SSL en mode mixte : [MetadataImportWithUsernameOverSslExample](metadataimportwithusernameoversslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-114">Username over SSL mixed-mode security: [MetadataImportWithUsernameOverSslExample](metadataimportwithusernameoversslexample.md).</span></span> <span data-ttu-id="6d9e3-115">Jeton émis sur la sécurité SSL en mode mixte : [MetadataImportWithIssuedTokenOverSslExample](metadataimportwithissuedtokenoversslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-115">Issued token over SSL mixed-mode security: [MetadataImportWithIssuedTokenOverSslExample](metadataimportwithissuedtokenoversslexample.md).</span></span> <span data-ttu-id="6d9e3-116">Certificat x509 sur la sécurité SSL en mode mixte : [MetadataImportWithX509OverSslExample](metadataimportwithx509oversslexample.md).</span><span class="sxs-lookup"><span data-stu-id="6d9e3-116">X509 certificate over SSL mixed-mode security: [MetadataImportWithX509OverSslExample](metadataimportwithx509oversslexample.md).</span></span>
+
+## <a name="one-time-setup-for-security-samples"></a><span data-ttu-id="6d9e3-117">Configuration One-Time pour les exemples de sécurité</span><span class="sxs-lookup"><span data-stu-id="6d9e3-117">One-Time Setup for Security Samples</span></span>
+
+<span data-ttu-id="6d9e3-118">Pour exécuter des exemples de sécurité WWSAPI, vous devez configurer les certificats client et serveur pour SSL, ainsi qu’un compte d’utilisateur local pour l’authentification d’en-tête HTTP.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-118">To run WWSAPI security examples, you need to set up the client and server certificates for SSL, as well as a local user account for HTTP header authentication.</span></span> <span data-ttu-id="6d9e3-119">Avant de commencer, vous avez besoin des outils suivants :</span><span class="sxs-lookup"><span data-stu-id="6d9e3-119">Before you start, you need the following tools:</span></span>
+
+-   <span data-ttu-id="6d9e3-120">MakeCert.exe (disponible dans le kit de développement logiciel (SDK) Windows 7.)</span><span class="sxs-lookup"><span data-stu-id="6d9e3-120">MakeCert.exe (Available in the Windows 7 SDK.)</span></span>
+-   <span data-ttu-id="6d9e3-121">CertUtil.exe ou CertMgr.exe (CertUtil.exe est disponible dans les kits de développement logiciel (SDK) Windows à partir de Windows Server 2003.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-121">CertUtil.exe or CertMgr.exe (CertUtil.exe is available in the Windows SDKs starting with Windows Server 2003.</span></span> <span data-ttu-id="6d9e3-122">CertMgr.exe est disponible dans le kit de développement logiciel (SDK) Windows 7.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-122">CertMgr.exe is available in the Windows 7 SDK.</span></span> <span data-ttu-id="6d9e3-123">Vous n’avez besoin que d’un de ces outils.)</span><span class="sxs-lookup"><span data-stu-id="6d9e3-123">You only need one of these tools.)</span></span>
+-   <span data-ttu-id="6d9e3-124">HttpCfg.exe : (vous en avez besoin uniquement si vous utilisez Windows 2003 ou Windows XP.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-124">HttpCfg.exe: (You need this only if you are using Windows 2003 or Windows XP.</span></span> <span data-ttu-id="6d9e3-125">Cet outil est disponible dans les outils de support de Windows XP SP2 et est également fourni avec le CD des outils du kit de ressources Windows Server 2003.)</span><span class="sxs-lookup"><span data-stu-id="6d9e3-125">This tool is available in Windows XP SP2 Support Tools and also comes with the Windows Server 2003 Resource Kit Tools CD.)</span></span>
+
+<span data-ttu-id="6d9e3-126">Si vous obtenez les exemples WWSAPI en installant le kit de développement logiciel (SDK) Windows 7, vous pouvez trouver le MakeCert.exe et CertMgr.exe sous% ProgramFiles% \\ Microsoft SDK \\ Windows \\ v 7.0 \\ bin.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-126">If you get the WWSAPI examples by installing the Windows 7 SDK, you can find the MakeCert.exe and CertMgr.exe under %ProgramFiles%\\Microsoft SDKs\\Windows\\v7.0\\bin.</span></span>
+
+<span data-ttu-id="6d9e3-127">Effectuez l’installation en cinq étapes suivante à partir de l’invite de commandes (avec élévation de privilèges si vous utilisez Windows Vista et versions ultérieures) :</span><span class="sxs-lookup"><span data-stu-id="6d9e3-127">Perform the following five-step setup from the command prompt (elevated if you are using Windows Vista and above):</span></span>
+
+1.  <span data-ttu-id="6d9e3-128">Générer un certificat auto-signé pour être l’autorité de certification ou l’émetteur : **MakeCert.exe-SS root-SR LocalMachine-n "CN = factice-test-ca"-CY Authority-r-SK "CAKeyContainer"**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-128">Generate a self-signed certificate to be the certificate authority (CA) or issuer: **MakeCert.exe -ss Root -sr LocalMachine -n "CN=Fake-Test-CA" -cy authority -r -sk "CAKeyContainer"**</span></span>
+2.  <span data-ttu-id="6d9e3-129">Générez un certificat de serveur à l’aide du certificat précédent comme émetteur : **MakeCert.exe-SS My-SR LocalMachine-n "CN = localhost"-Sky Exchange-est root-IR LocalMachine-in factice-test-ca-SK "ServerKeyContainer"**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-129">Generate a server certificate using the previous certificate as the issuer: **MakeCert.exe -ss My -sr LocalMachine -n "CN=localhost" -sky exchange -is Root -ir LocalMachine -in Fake-Test-CA -sk "ServerKeyContainer"**</span></span>
+3.  <span data-ttu-id="6d9e3-130">Recherchez l’empreinte numérique (un hachage SHA-1 de 40 caractères) du certificat de serveur en exécutant l’une des commandes suivantes et recherchez le certificat nommé localhost avec l’émetteur factice-test-CA :</span><span class="sxs-lookup"><span data-stu-id="6d9e3-130">Find the thumbprint (a 40-character SHA-1 hash) of the server certificate by running either of the following commands and search for the certificate named localhost with issuer Fake-Test-CA:</span></span>
+    -   <span data-ttu-id="6d9e3-131">**CertUtil.exe-stocker mon localhost**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-131">**CertUtil.exe -store My localhost**</span></span>
+    -   <span data-ttu-id="6d9e3-132">**CertMgr.exe-s-r LocalMachine My**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-132">**CertMgr.exe -s -r LocalMachine My**</span></span>
+4.  <span data-ttu-id="6d9e3-133">Inscrire l’empreinte numérique du certificat de serveur sans espace avec HTTP.SYS :</span><span class="sxs-lookup"><span data-stu-id="6d9e3-133">Register the server certificate?s thumbprint with no spaces with HTTP.SYS:</span></span>
+    -   <span data-ttu-id="6d9e3-134">Sur Windows Vista et versions ultérieures (l’option « AppID » est un GUID arbitraire) : **Netsh.exe http add sslcert ipport = 0.0.0.0:8443 AppID = {00112233-4455-6677-8899-aabbccddeeff}** certhash =<40CharacterThumbprint></span><span class="sxs-lookup"><span data-stu-id="6d9e3-134">On Windows Vista and above (the "appid" option is an arbitrary GUID): **Netsh.exe http add sslcert ipport=0.0.0.0:8443 appid={00112233-4455-6677-8899-AABBCCDDEEFF}** certhash=<40CharacterThumbprint></span></span>
+    -   <span data-ttu-id="6d9e3-135">Sur Windows XP ou 2003 : **HttpCfg.exe Set SSL-i 0.0.0.0:8443-h <40CharacterThumbprint>**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-135">On Windows XP or 2003: **HttpCfg.exe set ssl -i 0.0.0.0:8443 -h <40CharacterThumbprint>**</span></span>
+5.  <span data-ttu-id="6d9e3-136">Créez un utilisateur local : **net user "TestUserForBasicAuth" "TstPWD@ \* 4Bsic"/Add**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-136">Create a local user: **Net user "TestUserForBasicAuth" "TstPWD@\*4Bsic" /add**</span></span>
+
+<span data-ttu-id="6d9e3-137">Pour nettoyer les certificats, la liaison de certificat SSL et le compte d’utilisateur créés au cours des étapes précédentes, exécutez les commandes suivantes.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-137">To clean up the certificates, SSL certificate binding and the user account created in the previous steps, run the following commands.</span></span> <span data-ttu-id="6d9e3-138">Remarque s’il existe plusieurs certificats portant le même nom, CertMgr.exe aurez besoin de votre entrée avant de les supprimer.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-138">Note if there are multiple certificates of the same name, CertMgr.exe will need your input before deleting them.</span></span>
+
+-   <span data-ttu-id="6d9e3-139">**RacineCertMgr.exe-del-c-n factice-test-CA-s-r LocalMachine**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-139">**CertMgr.exe -del -c -n Fake-Test-CA -s -r LocalMachine Root**</span></span>
+-   <span data-ttu-id="6d9e3-140">**CertMgr.exe-del-c-n localhost-s-r LocalMachine My**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-140">**CertMgr.exe -del -c -n localhost -s -r LocalMachine My**</span></span>
+-   <span data-ttu-id="6d9e3-141">**Netsh.exe http Delete sslcert ipport = 0.0.0.0:8443 (ou HttpCfg.exe Delete SSL-i 0.0.0.0:8443)**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-141">**Netsh.exe http delete sslcert ipport=0.0.0.0:8443 (or HttpCfg.exe delete ssl -i 0.0.0.0:8443)**</span></span>
+-   <span data-ttu-id="6d9e3-142">**Net user « TestUserForBasicAuth »/Delete**</span><span class="sxs-lookup"><span data-stu-id="6d9e3-142">**Net user "TestUserForBasicAuth" /delete**</span></span>
+
+<span data-ttu-id="6d9e3-143">Assurez-vous qu’il n’existe qu’un seul certificat racine nommé factice-test-CA.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-143">Make sure there is only one root certificate named Fake-Test-CA.</span></span> <span data-ttu-id="6d9e3-144">Si vous n’êtes pas sûr, il est toujours prudent d’essayer de nettoyer ces certificats à l’aide des commandes de nettoyage ci-dessus (et d’ignorer les erreurs) avant de commencer l’installation en cinq étapes.</span><span class="sxs-lookup"><span data-stu-id="6d9e3-144">If you are unsure, it?s always safe to try to clean up these certificates using the cleanup commands above (and ignore errors) before starting the five-step setup.</span></span>
+
+ 
+
+ 
+
+
+
+
