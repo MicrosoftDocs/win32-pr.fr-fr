@@ -1,0 +1,119 @@
+---
+title: attribut ms-DFSR-DisablePacketPrivacy
+description: Désactivez la confidentialité des paquets sur une connexion.
+ms.assetid: 7a8e209a-0337-422a-bece-b5c7adf713b7
+ms.tgt_platform: multiple
+keywords:
+- Schéma AD de l’attribut ms-DFSR-DisablePacketPrivacy
+- Schéma AD de l’attribut msDFSR-DisablePacketPrivacy
+topic_type:
+- apiref
+api_name:
+- ms-DFSR-DisablePacketPrivacy
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 0f4b562acf05219684b754381d3e1d4747f6011e
+ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 12/14/2020
+ms.locfileid: "106515722"
+---
+# <a name="ms-dfsr-disablepacketprivacy-attribute"></a>attribut ms-DFSR-DisablePacketPrivacy
+
+Désactivez la confidentialité des paquets sur une connexion.
+
+
+
+| Entrée | Valeur |
+|-------------------|--------------------------------------|
+| CN                | MS-DFSR-DisablePacketPrivacy         |
+| LDAP-Display-Name | msDFSR-DisablePacketPrivacy          |
+| Taille              | \-                                   |
+| Mettre à jour le privilège  | \-                                   |
+| Fréquence des mises à jour  | \-                                   |
+| Attribute-Id      | 1.2.840.113556.1.6.13.3.32           |
+| System-ID-GUID    | 6a84ede5-741e-43fd-9dd6-aa0f61578621 |
+| Syntaxe            | [**Boolean**](s-boolean.md)         |
+
+
+
+## <a name="implementations"></a>Implémentations
+
+-   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008 R2**](#windows-server-2008-r2)
+-   [**Windows Server 2012**](#windows-server-2012)
+
+## <a name="windows-server-2008"></a>Windows Server 2008
+
+
+
+| Entrée | Valeur |
+|------------------------|--------------------------------------------------------------|
+| ID de lien                | \-                                                           |
+| MAPI-Id                | \-                                                           |
+| System-Only            | Faux                                                        |
+| Est de valeur unique       | Vrai                                                         |
+| Est indexé             | Faux                                                        |
+| Dans le catalogue global      | Faux                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
+| Range-Lower            | \-                                                           |
+| Range-Upper            | \-                                                           |
+| Search-Flags           | 0x00000000                                                   |
+| System-Flags           | 0x00000000                                                   |
+| Classes utilisées dans        | [**MS-DFSR-connexion**](c-msdfsr-connection.md)<br/> |
+
+
+
+## <a name="windows-server-2008-r2"></a>Windows Server 2008 R2
+
+
+
+| Entrée | Valeur |
+|------------------------|--------------------------------------------------------------|
+| ID de lien                | \-                                                           |
+| MAPI-Id                | \-                                                           |
+| System-Only            | Faux                                                        |
+| Est de valeur unique       | Vrai                                                         |
+| Est indexé             | Faux                                                        |
+| Dans le catalogue global      | Faux                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
+| Range-Lower            | \-                                                           |
+| Range-Upper            | \-                                                           |
+| Search-Flags           | 0x00000000                                                   |
+| System-Flags           | 0x00000000                                                   |
+| Classes utilisées dans        | [**MS-DFSR-connexion**](c-msdfsr-connection.md)<br/> |
+
+
+
+## <a name="windows-server-2012"></a>Windows Server 2012
+
+
+
+| Entrée | Valeur |
+|------------------------|--------------------------------------------------------------|
+| ID de lien                | \-                                                           |
+| MAPI-Id                | \-                                                           |
+| System-Only            | Faux                                                        |
+| Est de valeur unique       | Vrai                                                         |
+| Est indexé             | Faux                                                        |
+| Dans le catalogue global      | Faux                                                        |
+| Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
+| Range-Lower            | \-                                                           |
+| Range-Upper            | \-                                                           |
+| Search-Flags           | 0x00000000                                                   |
+| System-Flags           | 0x00000000                                                   |
+| Classes utilisées dans        | [**MS-DFSR-connexion**](c-msdfsr-connection.md)<br/> |
+
+
+
+ 
+
+ 
+
+
+
+
+
