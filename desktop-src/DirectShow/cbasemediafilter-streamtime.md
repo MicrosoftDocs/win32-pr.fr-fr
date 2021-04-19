@@ -1,0 +1,95 @@
+---
+description: La méthode StreamTime récupère le temps de flux actuel.
+ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
+title: Méthode CBaseMediaFilter. StreamTime (Amfilter. h)
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CBaseMediaFilter.StreamTime
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 27ccc9c721c97742c09d043af4cca5d287747597
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106525142"
+---
+# <a name="cbasemediafilterstreamtime-method"></a><span data-ttu-id="a0b47-103">Méthode CBaseMediaFilter. StreamTime</span><span class="sxs-lookup"><span data-stu-id="a0b47-103">CBaseMediaFilter.StreamTime method</span></span>
+
+<span data-ttu-id="a0b47-104">La `StreamTime` méthode récupère le temps de flux actuel.</span><span class="sxs-lookup"><span data-stu-id="a0b47-104">The `StreamTime` method retrieves the current stream time.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="a0b47-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a0b47-105">Syntax</span></span>
+
+
+```C++
+virtual HRESULT StreamTime(
+  [ref] CRefTime &rtStream
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="a0b47-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a0b47-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="a0b47-107">*rtStream* \[ Réf\]</span><span class="sxs-lookup"><span data-stu-id="a0b47-107">*rtStream* \[ref\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="a0b47-108">Référence à un objet [**CRefTime**](creftime.md) qui reçoit le temps de flux actuel.</span><span class="sxs-lookup"><span data-stu-id="a0b47-108">Reference to a [**CRefTime**](creftime.md) object that receives the current stream time.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="a0b47-109">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="a0b47-109">Return value</span></span>
+
+<span data-ttu-id="a0b47-110">Retourne une valeur **HRESULT** .</span><span class="sxs-lookup"><span data-stu-id="a0b47-110">Returns an **HRESULT** value.</span></span> <span data-ttu-id="a0b47-111">Les valeurs possibles sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="a0b47-111">Possible values include those listed in the following table.</span></span>
+
+
+
+| <span data-ttu-id="a0b47-112">Code de retour</span><span class="sxs-lookup"><span data-stu-id="a0b47-112">Return code</span></span>                                                                                      | <span data-ttu-id="a0b47-113">Description</span><span class="sxs-lookup"><span data-stu-id="a0b47-113">Description</span></span>                                 |
+|--------------------------------------------------------------------------------------------------|---------------------------------------------|
+| <dl> <span data-ttu-id="a0b47-114"><dt>**\_OK**</dt></span><span class="sxs-lookup"><span data-stu-id="a0b47-114"><dt>**S\_OK**</dt></span></span> </dl>             | <span data-ttu-id="a0b47-115">Opération réussie.</span><span class="sxs-lookup"><span data-stu-id="a0b47-115">Success.</span></span><br/>                         |
+| <dl> <span data-ttu-id="a0b47-116"><dt>**VFW \_ E \_ pas d' \_ horloge**</dt></span><span class="sxs-lookup"><span data-stu-id="a0b47-116"><dt>**VFW\_E\_NO\_CLOCK**</dt></span></span> </dl> | <span data-ttu-id="a0b47-117">Aucune horloge de référence n’est disponible.</span><span class="sxs-lookup"><span data-stu-id="a0b47-117">No reference clock is available.</span></span><br/> |
+
+
+
+ 
+
+## <a name="remarks"></a><span data-ttu-id="a0b47-118">Notes</span><span class="sxs-lookup"><span data-stu-id="a0b47-118">Remarks</span></span>
+
+<span data-ttu-id="a0b47-119">Le temps de flux est défini comme le temps de référence actuel (comme indiqué par l’horloge de référence) moins l’heure de début (spécifiée par [**CBaseMediaFilter :: m \_ tStart**](cbasemediafilter-m-tstart.md)).</span><span class="sxs-lookup"><span data-stu-id="a0b47-119">Stream time is defined as the current reference time (as given by the reference clock) minus the start time (specified by [**CBaseMediaFilter::m\_tStart**](cbasemediafilter-m-tstart.md)).</span></span> <span data-ttu-id="a0b47-120">L’horodatage d’un exemple de média spécifie l’heure du flux de temps quand il doit être rendu.</span><span class="sxs-lookup"><span data-stu-id="a0b47-120">A media sample's time stamp specifies the stream time when it should be rendered.</span></span> <span data-ttu-id="a0b47-121">Si un échantillon dont l’horodatage est inférieur à l’heure actuelle du flux n’a pas encore été affiché, il est tardif.</span><span class="sxs-lookup"><span data-stu-id="a0b47-121">If a sample with a time stamp less than the current stream time has not yet been rendered, it is late.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="a0b47-122">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="a0b47-122">Requirements</span></span>
+
+
+
+| <span data-ttu-id="a0b47-123">Condition requise</span><span class="sxs-lookup"><span data-stu-id="a0b47-123">Requirement</span></span> | <span data-ttu-id="a0b47-124">Valeur</span><span class="sxs-lookup"><span data-stu-id="a0b47-124">Value</span></span> |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="a0b47-125">En-tête</span><span class="sxs-lookup"><span data-stu-id="a0b47-125">Header</span></span><br/>  | <dl> <span data-ttu-id="a0b47-126"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="a0b47-126"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
+| <span data-ttu-id="a0b47-127">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="a0b47-127">Library</span></span><br/> | <dl> <span data-ttu-id="a0b47-128"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="a0b47-128"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="a0b47-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a0b47-129">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="a0b47-130">**CBaseMediaFilter, classe**</span><span class="sxs-lookup"><span data-stu-id="a0b47-130">**CBaseMediaFilter Class**</span></span>](cbasemediafilter.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
