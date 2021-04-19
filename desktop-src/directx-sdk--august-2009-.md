@@ -4,12 +4,12 @@ ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: Où est le Kit de développement logiciel (SDK) DirectX ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd863bf29858f2313641aca161c73754b789015c
-ms.sourcegitcommit: b4beb606419fea6a256b8332a9ea930607e60612
+ms.openlocfilehash: c070313c5c7f6105afaf7b629ff1ca2618a469fb
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103953520"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314622"
 ---
 # <a name="where-is-the-directx-sdk"></a>Où est le Kit de développement logiciel (SDK) DirectX ?
 
@@ -101,7 +101,7 @@ Legacy XInput 9.1.0 est également disponible dans le cadre de Windows 7 ou vers
 
  
 
-Le kit de développement logiciel (SDK) DirectX hérité est disponible en téléchargement à partir du [Centre de téléchargement Microsoft](http://go.microsoft.com/fwlink/?LinkId=226640) , si nécessaire, mais il n’est pas recommandé d’utiliser pour les nouveaux projets.
+Le kit de développement logiciel (SDK) DirectX hérité est disponible en téléchargement à partir du [Centre de téléchargement Microsoft](https://go.microsoft.com/fwlink/?LinkId=226640) , si nécessaire, mais il n’est pas recommandé d’utiliser pour les nouveaux projets.
 
 > [!Note]  
 > L’installation du kit de développement logiciel (SDK) DirectX échoue si vous disposez d’une certaine version du package redistribuable Visual C++ 2010 déjà installé. Pour plus d’informations sur et une solution pour résoudre ce problème, consultez [erreur « S1023 » lors de l’installation du kit de développement logiciel (SDK) DirectX (juin 2010)](https://support.microsoft.com/kb/2728613).

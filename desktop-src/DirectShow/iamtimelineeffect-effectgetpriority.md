@@ -1,0 +1,98 @@
+---
+description: La méthode EffectGetPriority récupère le niveau de priorité de l’effet. Pour un objet donné, le moteur de rendu applique les effets par ordre de priorité, en commençant par le niveau de priorité zéro.
+ms.assetid: 2504fa0c-f052-4d99-98c3-803b0c0d49e5
+title: 'IAMTimelineEffect :: EffectGetPriority, méthode (qedit. h)'
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IAMTimelineEffect.EffectGetPriority
+api_type:
+- COM
+api_location:
+- strmiids.lib
+- strmiids.dll
+ms.openlocfilehash: 26ea9795e3ffe36a75c354e51ff2f7e64fae40ea
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106535030"
+---
+# <a name="iamtimelineeffecteffectgetpriority-method"></a>IAMTimelineEffect :: EffectGetPriority, méthode
+
+> [!Note]  
+> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+
+ 
+
+La `EffectGetPriority` méthode récupère le niveau de priorité de l’effet. Pour un objet donné, le moteur de rendu applique les effets par ordre de priorité, en commençant par le niveau de priorité zéro.
+
+## <a name="syntax"></a>Syntaxe
+
+
+```C++
+HRESULT EffectGetPriority(
+   long *pVal
+);
+```
+
+
+
+## <a name="parameters"></a>Paramètres
+
+<dl> <dt>
+
+*pVal* 
+</dt> <dd>
+
+Reçoit le niveau de priorité.
+
+</dd> </dl>
+
+## <a name="return-value"></a>Valeur retournée
+
+Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
+
+## <a name="remarks"></a>Notes
+
+> [!Note]  
+> Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.
+
+ 
+
+> [!Note]  
+> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+
+ 
+
+## <a name="requirements"></a>Configuration requise
+
+
+
+| Condition requise | Valeur |
+|--------------------|-----------------------------------------------------------------------------------------|
+| En-tête<br/>  | <dl> <dt>Qedit. h</dt> </dl>      |
+| Bibliothèque<br/> | <dl> <dt>Strmiids. lib</dt> </dl> |
+
+
+
+## <a name="see-also"></a>Voir aussi
+
+<dl> <dt>
+
+[**Interface IAMTimelineEffect**](iamtimelineeffect.md)
+</dt> <dt>
+
+[Codes d’erreur et de réussite](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
