@@ -1,0 +1,37 @@
+---
+description: Vous pouvez modéliser un fournisseur de classes comme un fournisseur push ou pull, qui spécifie comment un fournisseur s’attend à interagir avec WMI.
+ms.assetid: d1852784-8440-4b8a-9cdd-896e51cdee98
+ms.tgt_platform: multiple
+title: Détermination de l’état d’envoi ou d’extraction
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: bee037b4c81e43080ee119540b05568eb00cdc70
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106543688"
+---
+# <a name="determining-push-or-pull-status"></a><span data-ttu-id="56343-103">Détermination de l’état d’envoi ou d’extraction</span><span class="sxs-lookup"><span data-stu-id="56343-103">Determining Push or Pull Status</span></span>
+
+<span data-ttu-id="56343-104">Vous pouvez modéliser un fournisseur de classes comme un fournisseur push ou pull, qui spécifie comment un fournisseur s’attend à interagir avec WMI.</span><span class="sxs-lookup"><span data-stu-id="56343-104">You can model a class provider as a push or pull provider, which specifies how a provider expects to interact with WMI.</span></span> <span data-ttu-id="56343-105">Les fournisseurs d’extraction reçoivent une requête de WMI et répondent à la demande en générant les données dynamiquement ou en les récupérant à partir d’un cache local.</span><span class="sxs-lookup"><span data-stu-id="56343-105">Pull providers receive a request from WMI and satisfy the request either by generating the data dynamically or retrieving it from a local cache.</span></span> <span data-ttu-id="56343-106">Les fournisseurs d’extraction doivent également implémenter un grand nombre d’interfaces.</span><span class="sxs-lookup"><span data-stu-id="56343-106">Pull providers also must implement a large number of interfaces.</span></span>
+
+<span data-ttu-id="56343-107">Un fournisseur d’extraction génère des définitions de classe de manière dynamique.</span><span class="sxs-lookup"><span data-stu-id="56343-107">A pull provider generates class definitions dynamically.</span></span> <span data-ttu-id="56343-108">En règle générale, les données gérées par un fournisseur d’extraction changent fréquemment, ce qui oblige le fournisseur à générer la classe dynamiquement ou à récupérer la classe à partir d’un cache local chaque fois qu’une application émet une requête.</span><span class="sxs-lookup"><span data-stu-id="56343-108">Typically, the data managed by a pull provider changes frequently, requiring the provider to either generate the class dynamically or retrieve the class from a local cache whenever an application issues a request.</span></span> <span data-ttu-id="56343-109">Un fournisseur d’extraction doit implémenter ses propres mécanismes de récupération de données, de cache et de notification d’événement.</span><span class="sxs-lookup"><span data-stu-id="56343-109">A pull provider must implement its own data retrieval, cache, and event notification mechanisms.</span></span> <span data-ttu-id="56343-110">Étant donné que la plupart des fournisseurs sont des fournisseurs d’extraction, la documentation de ce fichier suppose que vous générez un fournisseur d’extraction, sauf indication contraire.</span><span class="sxs-lookup"><span data-stu-id="56343-110">Because most providers are pull providers, the documentation in this file assumes you are building a pull provider unless explicitly stated otherwise.</span></span>
+
+<span data-ttu-id="56343-111">En revanche, WMI utilise les données de l’espace de stockage WMI pour gérer toutes les demandes d’application pour les fournisseurs de notifications push.</span><span class="sxs-lookup"><span data-stu-id="56343-111">In contrast, WMI uses data in the WMI repository to handle all application requests for push providers.</span></span> <span data-ttu-id="56343-112">Les fournisseurs de notifications push utilisent également moins de méthodes d’interface et sont donc plus faciles à implémenter.</span><span class="sxs-lookup"><span data-stu-id="56343-112">Push providers also use fewer interface methods, and thus are easier to implement.</span></span> <span data-ttu-id="56343-113">Un fournisseur d’émission utilise le référentiel WMI comme zone de stockage pour les informations sur l’objet géré et met à jour ces informations uniquement pendant l’initialisation.</span><span class="sxs-lookup"><span data-stu-id="56343-113">A push provider uses the WMI repository as a storage area for information on the managed object, and updates that information only during initialization.</span></span> <span data-ttu-id="56343-114">Par exemple, le fournisseur de classes WDM inclus dans la section WMI du kit de développement logiciel (SDK) Microsoft Windows est modélisé comme un fournisseur de notifications push.</span><span class="sxs-lookup"><span data-stu-id="56343-114">For example, the WDM class provider included in the WMI section of the Microsoft Windows Software Development Kit (SDK) is modeled as a push provider.</span></span>
+
+<span data-ttu-id="56343-115">En utilisant le référentiel WMI comme zone de stockage, un fournisseur de notifications push bénéficie des avantages suivants par rapport à un fournisseur d’extraction :</span><span class="sxs-lookup"><span data-stu-id="56343-115">By using the WMI repository as a storage area, a push provider gains the following benefits over a pull provider:</span></span>
+
+-   <span data-ttu-id="56343-116">Le fournisseur n’a pas besoin d’implémenter un cache local pour stocker les données.</span><span class="sxs-lookup"><span data-stu-id="56343-116">The provider does not need to implement a local cache to store data.</span></span>
+-   <span data-ttu-id="56343-117">Le fournisseur n’a pas besoin de prendre en charge la récupération des données. au lieu de cela, le fournisseur peut s’appuyer sur WMI pour assurer la prise en charge de la récupération.</span><span class="sxs-lookup"><span data-stu-id="56343-117">The provider does not need to support data retrieval; instead, the provider can rely on WMI to provide retrieval support.</span></span>
+-   <span data-ttu-id="56343-118">Lorsqu’une application demande des données fournies par le fournisseur, WMI effectue cette demande.</span><span class="sxs-lookup"><span data-stu-id="56343-118">When an application requests data supplied by the provider, WMI fulfills that request.</span></span>
+-   <span data-ttu-id="56343-119">Le fournisseur peut également s’appuyer sur WMI pour prendre en charge la notification d’événements.</span><span class="sxs-lookup"><span data-stu-id="56343-119">The provider can also rely on WMI to support event notification.</span></span>
+
+<span data-ttu-id="56343-120">Toutefois, étant donné qu’un fournisseur push est mis à jour uniquement pendant l’initialisation, toute modification apportée à une classe peut ne pas être reflétée dans l’espace de stockage WMI pendant un certain temps.</span><span class="sxs-lookup"><span data-stu-id="56343-120">However, because a push provider updates only during initialization, any changes to a class may not be reflected in the WMI repository for some time.</span></span> <span data-ttu-id="56343-121">Par conséquent, le modèle de fournisseur Push fonctionne mieux avec les classes qui changent peu ou sont totalement statiques.</span><span class="sxs-lookup"><span data-stu-id="56343-121">Therefore, the push provider model works best with classes that change little or else are completely static.</span></span>
+
+ 
+
+ 
+
+
+
