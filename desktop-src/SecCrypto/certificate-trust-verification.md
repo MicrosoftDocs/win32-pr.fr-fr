@@ -1,0 +1,24 @@
+---
+description: Une approbation doit exister entre le destinataire d’un message signé et le signataire du message.
+ms.assetid: 770e4674-8896-4062-a93a-a17bd30a9129
+title: Vérification de l’approbation du certificat
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7b711e0a86dcc5ae9cdedea278d6a3a698dfd633
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106531729"
+---
+# <a name="certificate-trust-verification"></a><span data-ttu-id="eaa23-103">Vérification de l’approbation du certificat</span><span class="sxs-lookup"><span data-stu-id="eaa23-103">Certificate Trust Verification</span></span>
+
+<span data-ttu-id="eaa23-104">Une approbation doit exister entre le destinataire d’un message signé et le signataire du message.</span><span class="sxs-lookup"><span data-stu-id="eaa23-104">A trust must exist between the recipient of a signed message and the signer of the message.</span></span> <span data-ttu-id="eaa23-105">Une méthode pour établir cette approbation consiste à utiliser un [*certificat*](../secgloss/c-gly.md), un document électronique qui vérifie que les entités ou les personnes sont bien celles qu’ils revendiquent.</span><span class="sxs-lookup"><span data-stu-id="eaa23-105">One method of establishing this trust is through a [*certificate*](../secgloss/c-gly.md), an electronic document verifying that entities or persons are who they claim to be.</span></span> <span data-ttu-id="eaa23-106">Un certificat est émis pour une entité par un tiers qui est approuvé par les deux autres parties.</span><span class="sxs-lookup"><span data-stu-id="eaa23-106">A certificate is issued to an entity by a third party that is trusted by both of the other parties.</span></span> <span data-ttu-id="eaa23-107">Ainsi, chaque destinataire d’un message signé décide si l’émetteur du certificat du signataire est digne de confiance.</span><span class="sxs-lookup"><span data-stu-id="eaa23-107">So, each recipient of a signed message decides if the issuer of the signer's certificate is trustworthy.</span></span> <span data-ttu-id="eaa23-108">[*CryptoAPI*](../secgloss/c-gly.md) a implémenté une méthodologie pour permettre aux développeurs d’applications de créer des applications qui vérifient automatiquement les certificats par rapport à une liste prédéfinie de certificats ou de [*racines*](../secgloss/r-gly.md)de confiance.</span><span class="sxs-lookup"><span data-stu-id="eaa23-108">[*CryptoAPI*](../secgloss/c-gly.md) has implemented a methodology to allow application developers to create applications that automatically verify certificates against a predefined list of trusted certificates or [*roots*](../secgloss/r-gly.md).</span></span> <span data-ttu-id="eaa23-109">Cette liste d’entités approuvées (appelées sujets) est appelée liste de certificats de confiance (CTL, [*Certificate Trust List*](../secgloss/c-gly.md) ).</span><span class="sxs-lookup"><span data-stu-id="eaa23-109">This list of trusted entities (called subjects) is called a [*certificate trust list*](../secgloss/c-gly.md) (CTL).</span></span>
+
+<span data-ttu-id="eaa23-110">L’exemple suivant d’utilisation d’une liste de certificats de confiance implique un administrateur intranet (réseau intra-entreprise) qui souhaite contrôler uniquement les sources externes approuvées.</span><span class="sxs-lookup"><span data-stu-id="eaa23-110">The following example of using a CTL involves an intranet (intra-company network) administrator who wants to control just which outside sources are trusted.</span></span> <span data-ttu-id="eaa23-111">Dans ce cas, l’administrateur peut créer une liste de certificats ou de racines approuvés, le signer et mettre la liste à la disposition de tous les clients sur le réseau sous la forme d’une liste CTL.</span><span class="sxs-lookup"><span data-stu-id="eaa23-111">In this case, the administrator can create a list of trusted certificates or roots, sign it, and make the list available to all clients on the network in the form of a CTL.</span></span> <span data-ttu-id="eaa23-112">Une application conçue pour utiliser cette fonctionnalité CryptoAPI accepte alors uniquement les messages signés ou les logiciels téléchargés qui ont été signés par les entités de la liste.</span><span class="sxs-lookup"><span data-stu-id="eaa23-112">An application designed to use this CryptoAPI functionality would then only accept signed messages or downloaded software that was signed by entities on the list.</span></span>
+
+<span data-ttu-id="eaa23-113">Pour obtenir la liste de ces fonctions, consultez [fonctions de vérification des certificats](cryptography-functions.md).</span><span class="sxs-lookup"><span data-stu-id="eaa23-113">For a list of these functions, see [Certificate Verification Functions](cryptography-functions.md).</span></span>
+
+ 
+
+ 

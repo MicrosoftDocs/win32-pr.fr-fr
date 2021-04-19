@@ -1,0 +1,40 @@
+---
+description: L’un des avantages de l’utilisation des listes de certificats de confiance (CTL) est que les applications peuvent être conçues pour vérifier automatiquement les messages signés par rapport à des certificats approuvés sans déranger l’utilisateur avec des boîtes de dialogue.
+ms.assetid: e45ea3ae-52bc-49d3-8144-f3becc254f53
+title: Vérification des messages signés à l’aide de listes CTL
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: a660bcd7e17a168b25048e61684aabc2d3ef3124
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106538897"
+---
+# <a name="verifying-signed-messages-by-using-ctls"></a><span data-ttu-id="28d4c-103">Vérification des messages signés à l’aide de listes CTL</span><span class="sxs-lookup"><span data-stu-id="28d4c-103">Verifying Signed Messages by Using CTLs</span></span>
+
+<span data-ttu-id="28d4c-104">L’un des avantages de l’utilisation des [*listes de certificats de confiance*](../secgloss/c-gly.md) (CTL) est que les applications peuvent être conçues pour vérifier automatiquement les messages signés par rapport à des certificats approuvés sans déranger l’utilisateur avec des boîtes de dialogue.</span><span class="sxs-lookup"><span data-stu-id="28d4c-104">One of the advantages of using [*certificate trust lists*](../secgloss/c-gly.md) (CTLs) is that applications can be designed that can automatically verify signed messages against trusted certificates without bothering the user with dialog boxes.</span></span> <span data-ttu-id="28d4c-105">Il permet également de faire confiance aux sources de contrôle de l’administrateur réseau.</span><span class="sxs-lookup"><span data-stu-id="28d4c-105">It also gives a network administrator control sources to be trusted.</span></span>
+
+<span data-ttu-id="28d4c-106">La procédure suivante peut être utilisée pour vérifier la signature d’un message signé à l’aide d’une liste CTL.</span><span class="sxs-lookup"><span data-stu-id="28d4c-106">The following procedure can be used to verify the signature of a signed message by using a CTL.</span></span>
+
+<span data-ttu-id="28d4c-107">**Pour vérifier un message signé à l’aide d’une liste de certificats de confiance**</span><span class="sxs-lookup"><span data-stu-id="28d4c-107">**To verify a signed message by using a CTL**</span></span>
+
+1.  <span data-ttu-id="28d4c-108">Décodez le message comme suit :</span><span class="sxs-lookup"><span data-stu-id="28d4c-108">Decode the message as follows:</span></span>
+
+    1.  <span data-ttu-id="28d4c-109">Obtient un pointeur vers le message reçu (l' [*objet BLOB*](../secgloss/b-gly.md)encodé).</span><span class="sxs-lookup"><span data-stu-id="28d4c-109">Get a pointer to the received message (the encoded [*BLOB*](../secgloss/b-gly.md)).</span></span>
+    2.  <span data-ttu-id="28d4c-110">Appelez [**CryptMsgOpenToDecode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentodecode), en passant les arguments nécessaires.</span><span class="sxs-lookup"><span data-stu-id="28d4c-110">Call [**CryptMsgOpenToDecode**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgopentodecode), passing the necessary arguments.</span></span>
+    3.  <span data-ttu-id="28d4c-111">Appelez [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate) une fois, en passant le handle récupéré à l’étape b et un pointeur vers les données qui doivent être décodées.</span><span class="sxs-lookup"><span data-stu-id="28d4c-111">Call [**CryptMsgUpdate**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsgupdate) once, passing in the handle retrieved in step b and a pointer to the data that is to be decoded.</span></span> <span data-ttu-id="28d4c-112">Cela entraîne le suivi des actions appropriées sur le message, en fonction du type de message.</span><span class="sxs-lookup"><span data-stu-id="28d4c-112">This causes the appropriate actions to be taken on the message, depending on the message type.</span></span>
+
+2.  <span data-ttu-id="28d4c-113">Vérifiez la signature du message décodé, signé, et récupérez un pointeur vers le [**\_ contexte de certificat**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context)du signataire.</span><span class="sxs-lookup"><span data-stu-id="28d4c-113">Verify the signature of the decoded, signed message, and get a pointer to the signer's [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context).</span></span>
+
+    <span data-ttu-id="28d4c-114">Pour ce faire, vous pouvez appeler [**CryptMsgGetAndVerifySigner**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetandverifysigner), en passant le handle de message récupéré à l’étape 1C comme paramètre *hCryptMsg* .</span><span class="sxs-lookup"><span data-stu-id="28d4c-114">This can be done by calling [**CryptMsgGetAndVerifySigner**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptmsggetandverifysigner), passing the message handle retrieved in step 1c as the *hCryptMsg* parameter.</span></span> <span data-ttu-id="28d4c-115">Si l’appel de fonction retourne la **valeur true**, la signature a été vérifiée et un pointeur vers [**le \_ contexte PCCERT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) du signataire est retourné dans le paramètre *ppSigner* .</span><span class="sxs-lookup"><span data-stu-id="28d4c-115">If the function call returns **TRUE**, the signature was verified, and a pointer to the signer's [**PCCERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) is returned in the *ppSigner* parameter.</span></span>
+
+3.  <span data-ttu-id="28d4c-116">Vérifiez que le signataire est une source approuvée comme suit :</span><span class="sxs-lookup"><span data-stu-id="28d4c-116">Confirm that the signer is a trusted source as follows:</span></span>
+
+    1.  <span data-ttu-id="28d4c-117">Ouvrez le magasin de certificats contenant la liste CTL appropriée.</span><span class="sxs-lookup"><span data-stu-id="28d4c-117">Open the certificate store containing the appropriate CTL.</span></span>
+    2.  <span data-ttu-id="28d4c-118">Obtient un pointeur vers le [**\_ contexte**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) de la liste de certificats de confiance en appelant [**CertFindCTLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindctlinstore).</span><span class="sxs-lookup"><span data-stu-id="28d4c-118">Get a pointer to the [**CTL\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-ctl_context) by calling [**CertFindCTLInStore**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindctlinstore).</span></span>
+    3.  <span data-ttu-id="28d4c-119">Pour confirmer que le signataire est une source approuvée, appelez [**CertFindSubjectInCTL**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindsubjectinctl), en passant le pointeur récupéré à l’étape précédente dans le paramètre *pCtlContext* , le \_ \_ type de sujet du certificat CTL \_ dans le paramètre *DwSubjectType* et le pointeur vers le [**\_ contexte de certificat**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) récupéré à l’étape 2 dans le paramètre *pvSubject* .</span><span class="sxs-lookup"><span data-stu-id="28d4c-119">To confirm that the signer is a trusted source, call [**CertFindSubjectInCTL**](/windows/desktop/api/Wincrypt/nf-wincrypt-certfindsubjectinctl), passing the pointer retrieved in the previous step in the *pCtlContext* parameter, CTL\_CERT\_SUBJECT\_TYPE in the *dwSubjectType* parameter, and the pointer to the [**CERT\_CONTEXT**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_context) retrieved in step 2 in the *pvSubject* parameter.</span></span> <span data-ttu-id="28d4c-120">Si l’appel de fonction retourne la **valeur true**, le **\_ contexte de certificat** transmis à la fonction est une source approuvée dans la liste de certificats de confiance.</span><span class="sxs-lookup"><span data-stu-id="28d4c-120">If the function call returns **TRUE**, the **CERT\_CONTEXT** passed to the function is a trusted source in the CTL.</span></span>
+
+ 
+
+ 
