@@ -4,12 +4,12 @@ description: L’ombrage à taux variable &mdash; ou l’ombrage de pixels gross
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
-ms.openlocfilehash: be2367ceb72d2e693d86b6f279b627f3bffa9e1c
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 2f207cddee978915788291fc0ffe55160e6a93c6
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104548615"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380763"
 ---
 # <a name="variable-rate-shading-vrs"></a>Ombrage à taux variable (VRS)
 
@@ -34,14 +34,14 @@ Une API d’ombrage grossiste permet à votre application de spécifier le nombr
 
 Voici un tableau décrivant le niveau MSAA pris en charge avec lequel la taille de pixel grossiste est prise en charge. Certains ne sont pas pris en charge sur les plateformes ; tandis que d’autres sont activés conditionnellement en fonction d’une capacité (*AdditionalShadingRatesSupported*), indiquée par « Cap ».
 
-![coarsePixelSizeSupport](images/CoarsePixelSizeSupport.PNG "Tailles de pixels grossistes")
+![Le tableau indique la taille de pixel grossière pour les niveaux M a a.](images/CoarsePixelSizeSupport.PNG "Tailles de pixels grossistes")
 
 Pour les niveaux de fonctionnalité décrits dans la section suivante, il n’y a pas de combinaison de nombre de pixels grossistes-and-Sample-Count où le matériel doit suivre plus de 16 échantillons par appel de nuanceur de pixels. Ces combinaisons sont grisées dans le tableau ci-dessus.
 
 ## <a name="feature-tiers"></a>Niveaux de fonctionnalité
 Il existe deux niveaux pour l’implémentation de VRS, et deux fonctionnalités que vous pouvez interroger. Chaque niveau est décrit plus en détail après la table.
 
-![niveaux](images/Tiers.PNG "Niveaux VRS")
+![Le tableau ci-dessous présente les fonctionnalités disponibles dans les niveaux 1 et 2.](images/Tiers.PNG "Niveaux VRS")
 
 ### <a name="tier-1"></a>Niveau 1
 - Le taux d’ombrage ne peut être spécifié que sur une base par dessin ; plus granulaire que cela.
@@ -131,7 +131,7 @@ La façon dont les données de l’image de l’espace de l’écran est remplie
 
 Lorsque vous créez l’image d’espace d’écran, ces indicateurs sont autorisés.
 
-- NONE
+- Aucune
 - ALLOW_UNORDERED_ACCESS
 - DENY_SHADER_RESOURCE
 
@@ -175,7 +175,7 @@ Si un ensemble VS ou GS `SV_ShadingRate` est défini, mais que VRS n’est pas a
 ### <a name="combining-shading-rate-factors"></a>Combinaison de facteurs de taux d’ombrage
 Les différentes sources de taux d’ombrage sont appliquées en séquence à l’aide de ce diagramme.
 
-![combinateurs](images/Combiners.PNG "Combinateurs d’ombrage")
+![Le diagramme illustre un état de pipeline, étiqueté A, avec un taux d’ombrage de vertex provoquant une vitesse d’ombrage, une étiquette B, appliquée à un combinateur, puis une fréquence d’ombrage basée sur une image, étiquetée B, appliquée à un combinateur.](images/Combiners.PNG "Combinateurs d’ombrage")
 
 Chaque paire de et de B est combinée à l’aide d’un combinateur.
 
@@ -352,7 +352,7 @@ Pour les valeurs de cinq bits.
 |        00101 |0,3125    |5 / 16      |
 |        00110 |0,375     |6 / 16      |
 |        00111 |0,4375    |7 / 16      |
-|        01000 |0.5       |8 / 16      |
+|        01000 |0,5       |8 / 16      |
 |        01001 |0,5625    |9 / 16      |
 |        01010 |0,625     |10 / 16     |
 |        01011 |0,6875    |11 / 16     |
@@ -405,7 +405,7 @@ Pour les valeurs de six bits.
 |       000101 |0,3125    |5 / 16      |
 |       000110 |0,375     |6 / 16      |
 |       000111 |0,4375    |7 / 16      |
-|       001000 |0.5       |8 / 16      |
+|       001000 |0,5       |8 / 16      |
 |       001001 |0,5625    |9 / 16      |
 |       001010 |0,625     |10 / 16     |
 |       001011 |0,6875    |11 / 16     |
@@ -447,7 +447,7 @@ En raison de la compatibilité de l’ombrage des pixels grossistes avec MSAA, l
 ### <a name="number-of-coverage-bits-needed"></a>Nombre de bits de couverture nécessaires
 Le tableau suivant indique le nombre de bits de couverture requis pour chaque combinaison de taille de pixel grossiste et de niveau MSAA.
 
-![NumberOfCoverageBits](images/NumberOfCoverageBits.PNG "Bits de couverture")
+![Le tableau indique la taille de pixel grossiste, le nombre de pixels de fin et les niveaux M a.](images/NumberOfCoverageBits.PNG "Bits de couverture")
 
 Comme indiqué dans le tableau, il n’est pas possible d’utiliser des pixels grossiers pour écrire dans plus de 16 échantillons à la fois à l’aide de la fonctionnalité d’ombrage à taux variable exposée par Direct3D 12. Cette restriction est due aux contraintes de Direct3D 12 concernant les niveaux MSAA autorisés avec lesquels la taille de pixel grossiste (voir le tableau dans la section [with variable rate Shading (VRS)](#with-variable-rate-shading-vrs) de cette rubrique).
 
@@ -456,17 +456,17 @@ Les bits du masque de couverture adhèrent à un ordre bien défini. Le masque e
 
 Le tableau ci-dessous montre le format de masque de couverture pour les combinaisons prises en charge de taille de pixel grossiste et de niveau MSAA.
 
-![Coverage1x](images/Coverage1x.PNG "Couverture à 1x")
+![Le tableau montre la taille de pixel grossiste, le diagramme de pixels grossistes et 1 x M S a une couverture.](images/Coverage1x.PNG "Couverture à 1x")
 
 Le tableau suivant illustre 2x pixels MSAA, où chaque pixel a deux échantillons d’index 0 et 1.
 
 Le positionnement des étiquettes des échantillons sur les pixels est à titre indicatif et ne transmettent pas nécessairement les emplacements d’échantillons spatiaux {X, Y} sur ce pixel ; en particulier, étant donné que les positions d’échantillon peuvent être modifiées par programmation. Les exemples sont référencés par leur index de base 0.
 
-![Coverage2x](images/Coverage2x.PNG "Couverture à 2x")
+![Le tableau indique la taille de pixel grossiste, le diagramme de pixels grossistes et 2 x M S a une couverture.](images/Coverage2x.PNG "Couverture à 2x")
 
 Le tableau suivant montre 4 pixels MSAA, où chaque pixel a quatre échantillons d’index 0, 1, 2 et 3.
 
-![Coverage4x](images/Coverage4x.PNG "Couverture à 4x")
+![Le tableau montre la taille de pixel grossiste, le diagramme de pixels grossistes et 4 x M S a une couverture.](images/Coverage4x.PNG "Couverture à 4x")
 
 ## <a name="discard"></a>Abandonner
 Lorsque la sémantique HLSL `discard` est utilisée avec l’ombrage de pixels grossier, les pixels grossiers sont ignorés.

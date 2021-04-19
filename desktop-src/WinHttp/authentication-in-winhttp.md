@@ -4,12 +4,12 @@ ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: Authentification dans WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd40e6da1f455e04e24fa740cf4d83da7e0472e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a75c6703e9d28902c5705f0b8ab8433193c4d085
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203010"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380825"
 ---
 # <a name="authentication-in-winhttp"></a>Authentification dans WinHTTP
 
@@ -21,7 +21,7 @@ Si l’authentification est requise, l’application HTTP reçoit le code d’é
 
 Chaque en-tête Authenticate contient un schéma d’authentification pris en charge et, pour les schémas de base et les schémas synthétiques, un domaine. Si plusieurs schémas d’authentification sont pris en charge, le serveur retourne plusieurs en-têtes Authenticate. La valeur de domaine est sensible à la casse et définit un ensemble de serveurs ou de proxys pour lesquels les mêmes informations d’identification sont acceptées. Par exemple, l’en-tête « WWW-Authenticate : Basic domaine = "example" » peut être retourné lorsque l’authentification du serveur est requise. Cet en-tête spécifie que les informations d’identification de l’utilisateur doivent être fournies pour le domaine « example ».
 
-Une application HTTP peut inclure un champ d’en-tête Authorization avec une demande qu’elle envoie au serveur. L’en-tête Authorization contient le schéma d’authentification et la réponse appropriée requise par ce schéma. Par exemple, l’en-tête « Authorization : Basic <username : password> » est ajouté à la demande et envoyé au serveur si le client a reçu l’en-tête de réponse « WWW-Authenticate : Basic Realm = » example «».
+Une application HTTP peut inclure un champ d’en-tête Authorization avec une demande qu’elle envoie au serveur. L’en-tête Authorization contient le schéma d’authentification et la réponse appropriée requise par ce schéma. Par exemple, l’en-tête « Authorization : Basic \<username:password> » est ajouté à la demande et envoyé au serveur si le client a reçu l’en-tête de réponse « www-Authenticate : Basic Realm = «example »».
 
 > [!Note]  
 > Bien qu’elles soient affichées ici sous forme de texte brut, le nom d’utilisateur et le mot de passe sont en fait [*codés en base64*](glossary.md).
