@@ -4,49 +4,49 @@ ms.assetid: ba489fd7-2304-426e-83a0-d174bb394065
 title: location (élément)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a82f4f95e9d66dce2d2f17aba5b86ce1ad4581d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547160b30299b1143ae2255925f520712fcc63ce
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755325"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380673"
 ---
-# <a name="location-element"></a><span data-ttu-id="4ab87-103">location (élément)</span><span class="sxs-lookup"><span data-stu-id="4ab87-103">location element</span></span>
+# <a name="location-element"></a><span data-ttu-id="addf9-103">location (élément)</span><span class="sxs-lookup"><span data-stu-id="addf9-103">location element</span></span>
 
-<span data-ttu-id="4ab87-104">Spécifie l’URL fournie en tant qu’indicateur d’importation pour un WSDL ou XSD référencé dans un autre WSDL.</span><span class="sxs-lookup"><span data-stu-id="4ab87-104">Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.</span></span>
+<span data-ttu-id="addf9-104">Spécifie l’URL fournie en tant qu’indicateur d’importation pour un WSDL ou XSD référencé dans un autre WSDL.</span><span class="sxs-lookup"><span data-stu-id="addf9-104">Specifies the URL provided as an import hint for a WSDL or XSD referenced inside another WSDL.</span></span>
 
-## <a name="usage"></a><span data-ttu-id="4ab87-105">Utilisation</span><span class="sxs-lookup"><span data-stu-id="4ab87-105">Usage</span></span>
+## <a name="usage"></a><span data-ttu-id="addf9-105">Usage</span><span class="sxs-lookup"><span data-stu-id="addf9-105">Usage</span></span>
 
 ``` syntax
 <location/>
 ```
 
-## <a name="attributes"></a><span data-ttu-id="4ab87-106">Attributs</span><span class="sxs-lookup"><span data-stu-id="4ab87-106">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="addf9-106">Attributs</span><span class="sxs-lookup"><span data-stu-id="addf9-106">Attributes</span></span>
 
-<span data-ttu-id="4ab87-107">Il n’y a pas d’attributs.</span><span class="sxs-lookup"><span data-stu-id="4ab87-107">There are no attributes.</span></span>
+<span data-ttu-id="addf9-107">Il n’y a pas d’attributs.</span><span class="sxs-lookup"><span data-stu-id="addf9-107">There are no attributes.</span></span>
 
-## <a name="child-elements"></a><span data-ttu-id="4ab87-108">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="4ab87-108">Child elements</span></span>
+## <a name="child-elements"></a><span data-ttu-id="addf9-108">Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="addf9-108">Child elements</span></span>
 
-<span data-ttu-id="4ab87-109">Il n’y a pas d’éléments enfants.</span><span class="sxs-lookup"><span data-stu-id="4ab87-109">There are no child elements.</span></span>
+<span data-ttu-id="addf9-109">Il n’y a pas d’éléments enfants.</span><span class="sxs-lookup"><span data-stu-id="addf9-109">There are no child elements.</span></span>
 
-## <a name="parent-elements"></a><span data-ttu-id="4ab87-110">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="4ab87-110">Parent elements</span></span>
+## <a name="parent-elements"></a><span data-ttu-id="addf9-110">Éléments parents</span><span class="sxs-lookup"><span data-stu-id="addf9-110">Parent elements</span></span>
 
 
 
-| <span data-ttu-id="4ab87-111">Élément</span><span class="sxs-lookup"><span data-stu-id="4ab87-111">Element</span></span>                                     | <span data-ttu-id="4ab87-112">Description</span><span class="sxs-lookup"><span data-stu-id="4ab87-112">Description</span></span>                                                                                                                             |
+| <span data-ttu-id="addf9-111">Élément</span><span class="sxs-lookup"><span data-stu-id="addf9-111">Element</span></span>                                     | <span data-ttu-id="addf9-112">Description</span><span class="sxs-lookup"><span data-stu-id="addf9-112">Description</span></span>                                                                                                                             |
 |---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| [<span data-ttu-id="4ab87-113">**importHint**</span><span class="sxs-lookup"><span data-stu-id="4ab87-113">**importHint**</span></span>](importhint.md)<br/> | <span data-ttu-id="4ab87-114">Spécifie l’emplacement de téléchargement pour un <directive wsdl : import> qui ne spécifie pas explicitement d’emplacement.</span><span class="sxs-lookup"><span data-stu-id="4ab87-114">Specifies the download location for a <wsdl:import> directive that does not explicitly specify a location.</span></span><br/> <br/> |
+| [<span data-ttu-id="addf9-113">**importHint**</span><span class="sxs-lookup"><span data-stu-id="addf9-113">**importHint**</span></span>](importhint.md)<br/> | <span data-ttu-id="addf9-114">Spécifie l’emplacement de téléchargement pour une \<wsdl:import> directive qui ne spécifie pas explicitement d’emplacement.</span><span class="sxs-lookup"><span data-stu-id="addf9-114">Specifies the download location for a \<wsdl:import> directive that does not explicitly specify a location.</span></span><br/> <br/> |
 
 
 
-## <a name="element-information"></a><span data-ttu-id="4ab87-115">Informations sur les éléments</span><span class="sxs-lookup"><span data-stu-id="4ab87-115">Element information</span></span>
+## <a name="element-information"></a><span data-ttu-id="addf9-115">Informations sur les éléments</span><span class="sxs-lookup"><span data-stu-id="addf9-115">Element information</span></span>
 
 
 
 |                                     |               |
 |-------------------------------------|---------------|
-| <span data-ttu-id="4ab87-116">Système minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="4ab87-116">Minimum supported system</span></span><br/> | <span data-ttu-id="4ab87-117">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="4ab87-117">Windows Vista</span></span> |
-| <span data-ttu-id="4ab87-118">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="4ab87-118">Can be empty</span></span>                        | <span data-ttu-id="4ab87-119">Oui</span><span class="sxs-lookup"><span data-stu-id="4ab87-119">Yes</span></span>           |
+| <span data-ttu-id="addf9-116">Système minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="addf9-116">Minimum supported system</span></span><br/> | <span data-ttu-id="addf9-117">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="addf9-117">Windows Vista</span></span> |
+| <span data-ttu-id="addf9-118">Peut être vide</span><span class="sxs-lookup"><span data-stu-id="addf9-118">Can be empty</span></span>                        | <span data-ttu-id="addf9-119">Oui</span><span class="sxs-lookup"><span data-stu-id="addf9-119">Yes</span></span>           |
 
 
 

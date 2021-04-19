@@ -1,0 +1,32 @@
+---
+description: Dans certains cas, les sockets joints à une session multipoint peuvent présenter des différences de comportement par rapport aux sockets point-à-point.
+ms.assetid: e59b701f-f85f-4fd6-8d6d-e46199250c22
+title: Bits d’indicateur pour WSASocket
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 51fede5d160d89b08064d8dff1c1a901c048526f
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106515239"
+---
+# <a name="flag-bits-for-wsasocket"></a><span data-ttu-id="594d4-103">Bits d’indicateur pour WSASocket</span><span class="sxs-lookup"><span data-stu-id="594d4-103">Flag Bits for WSASocket</span></span>
+
+<span data-ttu-id="594d4-104">Dans certains cas, les sockets joints à une session multipoint peuvent présenter des différences de comportement par rapport aux sockets point-à-point.</span><span class="sxs-lookup"><span data-stu-id="594d4-104">In some instances sockets joined to a multipoint session may have some differences in behavior from point-to-point sockets.</span></span> <span data-ttu-id="594d4-105">Par exemple, un \_ Socket de feuille d dans un schéma de plan de données enraciné peut uniquement envoyer des informations au \_ participant racine d.</span><span class="sxs-lookup"><span data-stu-id="594d4-105">For example, a d\_leaf socket in a rooted data plane scheme can only send information to the d\_root participant.</span></span> <span data-ttu-id="594d4-106">Cela crée un besoin pour que l’application soit en mesure d’indiquer que l’utilisation prévue d’un socket coïncide avec sa création.</span><span class="sxs-lookup"><span data-stu-id="594d4-106">This creates a need for the application to be able to indicate the intended use of a socket coincident with its creation.</span></span> <span data-ttu-id="594d4-107">Pour ce faire, vous pouvez utiliser des bits à quatre indicateurs qui peuvent être définis dans le paramètre *dwFlags* sur [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa):</span><span class="sxs-lookup"><span data-stu-id="594d4-107">This is done through four-flag bits that can be set in the *dwFlags* parameter to [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa):</span></span>
+
+-   <span data-ttu-id="594d4-108">La \_ \_ racine multipoint \_ c \_ de l’indicateur WSA, pour la création d’un socket agissant comme \_ racine c, et autorisée uniquement si un plan de contrôle enraciné est indiqué dans l’entrée [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) correspondante.</span><span class="sxs-lookup"><span data-stu-id="594d4-108">WSA\_FLAG\_MULTIPOINT\_C\_ROOT, for the creation of a socket acting as a c\_root, and only allowed if a rooted control plane is indicated in the corresponding [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) entry.</span></span>
+-   <span data-ttu-id="594d4-109">La \_ \_ feuille multipoint \_ c de l’indicateur WSA \_ , pour la création d’un socket agissant comme une \_ feuille c, et autorisée uniquement si XP1 \_ prend en charge \_ multipoint, est indiqué dans l’entrée [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) correspondante.</span><span class="sxs-lookup"><span data-stu-id="594d4-109">WSA\_FLAG\_MULTIPOINT\_C\_LEAF, for the creation of a socket acting as a c\_leaf, and only allowed if XP1\_SUPPORT\_MULTIPOINT is indicated in the corresponding [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) entry.</span></span>
+-   <span data-ttu-id="594d4-110">La \_ \_ racine multipoint \_ d de l’indicateur WSA \_ , pour la création d’un socket agissant comme \_ racine d, et autorisée uniquement si un plan de données enraciné est indiqué dans l’entrée [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) correspondante.</span><span class="sxs-lookup"><span data-stu-id="594d4-110">WSA\_FLAG\_MULTIPOINT\_D\_ROOT, for the creation of a socket acting as a d\_root, and only allowed if a rooted data plane is indicated in the corresponding [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) entry.</span></span>
+-   <span data-ttu-id="594d4-111">\_Nœud WSA \_ multipoint \_ D \_ , pour la création d’un socket agissant comme une feuille D \_ , et autorisé uniquement si XP1 \_ prend en charge \_ multipoint, est indiqué dans l’entrée [**WSAPROTOCOL \_ info**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) correspondante.</span><span class="sxs-lookup"><span data-stu-id="594d4-111">WSA\_FLAG\_MULTIPOINT\_D\_LEAF, for the creation of a socket acting as a d\_leaf, and only allowed if XP1\_SUPPORT\_MULTIPOINT is indicated in the corresponding [**WSAPROTOCOL\_INFO**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) entry.</span></span>
+
+<span data-ttu-id="594d4-112">Notez que lorsque vous créez un socket multipoint, l’un des deux indicateurs de plan de contrôle, et l’un des deux indicateurs de plan de données, doivent être définis dans le paramètre *dwFlags* de [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa).</span><span class="sxs-lookup"><span data-stu-id="594d4-112">Note that when creating a multipoint socket, exactly one of the two control-plane flags, and one of the two data-plane flags must be set in [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa)'s *dwFlags* parameter.</span></span> <span data-ttu-id="594d4-113">Ainsi, les quatre possibilités de création de sockets multipoint sont les suivantes :</span><span class="sxs-lookup"><span data-stu-id="594d4-113">Thus, the four possibilities for creating multipoint sockets are:</span></span>
+
+-   <span data-ttu-id="594d4-114">« racine c \_ / \_ racine »</span><span class="sxs-lookup"><span data-stu-id="594d4-114">"c\_root/d\_root"</span></span>
+-   <span data-ttu-id="594d4-115">« \_ racine c/d \_ »</span><span class="sxs-lookup"><span data-stu-id="594d4-115">"c\_root/d\_leaf"</span></span>
+-   <span data-ttu-id="594d4-116">« \_ racine de feuille/d \_ »</span><span class="sxs-lookup"><span data-stu-id="594d4-116">"c\_leaf/d\_root"</span></span>
+-   <span data-ttu-id="594d4-117">"c \_ feuille/d \_ feuille"</span><span class="sxs-lookup"><span data-stu-id="594d4-117">"c\_leaf /d\_leaf"</span></span>
+
+ 
+
+ 
