@@ -1,0 +1,24 @@
+---
+description: Vue d’ensemble des références du kit de développement logiciel (SDK) Microsoft Speech, de l’API Microsoft Speech et des instructions de conception d’applications.
+ms.assetid: 9bb10c52-5340-40dc-bb14-20d076c63528
+title: Références (Tablet PC)
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 91c9587f6a2e8751ce3eaf210bb238f38d9c8fdb
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106518735"
+---
+# <a name="references-tablet-pc"></a><span data-ttu-id="b74ed-103">Références (Tablet PC)</span><span class="sxs-lookup"><span data-stu-id="b74ed-103">References (Tablet PC)</span></span>
+
+<span data-ttu-id="b74ed-104">Pour plus d’informations sur l’activation de la reconnaissance vocale dans votre application, consultez le kit de développement logiciel (SDK) Microsoft Speech, qui se trouve dans [Microsoft Speech SDK](https://www.microsoft.com/speech/download/sdk51/).</span><span class="sxs-lookup"><span data-stu-id="b74ed-104">For information about enabling speech recognition in your application, refer to the Microsoft Speech SDK, which can be found at [Microsoft Speech SDK](https://www.microsoft.com/speech/download/sdk51/).</span></span> <span data-ttu-id="b74ed-105">Ce site contient également une vue d’ensemble des instructions de conception d’applications et d’API Microsoft Speech.</span><span class="sxs-lookup"><span data-stu-id="b74ed-105">This site also contains an overview of the Microsoft Speech API and application design guidelines.</span></span>
+
+<span data-ttu-id="b74ed-106">Pour plus d’informations sur l’accessibilité de Microsoft, consultez [Microsoft Accessibility](https://www.microsoft.com/enable/).</span><span class="sxs-lookup"><span data-stu-id="b74ed-106">For information about Microsoft Accessibility, see [Microsoft Accessibility](https://www.microsoft.com/enable/).</span></span>
+
+<span data-ttu-id="b74ed-107">Pour plus d’informations sur les instructions de Active Accessibility Microsoft pour les applications Windows, consultez la section [accessibilité](../accessibility/accessibility.md) .</span><span class="sxs-lookup"><span data-stu-id="b74ed-107">For more information on Microsoft Active Accessibility guidelines for Windows-based applications, see the [Accessibility](../accessibility/accessibility.md) section.</span></span>
+
+ 
+
+ 

@@ -1,0 +1,32 @@
+---
+description: Une extension de composant logiciel enfichable d’une pièce jointe fournit une interface que les utilisateurs peuvent utiliser pour modifier les paramètres de configuration spécifiques aux services.
+ms.assetid: 6f2dc372-dee4-4793-b943-395c0587ed5e
+title: Création d’une extension de composant logiciel enfichable pièce jointe
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 513c982acc7e5285f3b4d1510f18b7eb6c9fe1d9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: fr-FR
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106518800"
+---
+# <a name="creating-an-attachment-snap-in-extension"></a><span data-ttu-id="252d8-103">Création d’une extension de composant logiciel enfichable pièce jointe</span><span class="sxs-lookup"><span data-stu-id="252d8-103">Creating an Attachment Snap-in Extension</span></span>
+
+<span data-ttu-id="252d8-104">Une extension de composant logiciel enfichable d’une pièce jointe fournit une interface que les utilisateurs peuvent utiliser pour modifier les paramètres de configuration spécifiques aux services.</span><span class="sxs-lookup"><span data-stu-id="252d8-104">An attachment snap-in extension provides an interface that users can use to change service-specific configuration settings.</span></span> <span data-ttu-id="252d8-105">L’extension du composant logiciel enfichable d’attachement doit respecter les exigences de la console MMC pour être une extension de composant logiciel enfichable valide.</span><span class="sxs-lookup"><span data-stu-id="252d8-105">The attachment snap-in extension must fulfill the MMC requirements to be a valid snap-in extension.</span></span> <span data-ttu-id="252d8-106">Pour plus d’informations sur ces conditions requises, consultez la documentation de la console MMC ( [Microsoft Management Console](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) ).</span><span class="sxs-lookup"><span data-stu-id="252d8-106">For more information on those requirements, see the [Microsoft Management Console](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page) documentation.</span></span>
+
+<span data-ttu-id="252d8-107">Outre les interfaces requises par MMC, une extension de composant logiciel enfichable d’attachement doit implémenter l’interface COM [**ISceSvcAttachmentPersistInfo**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo).</span><span class="sxs-lookup"><span data-stu-id="252d8-107">In addition to the interfaces required by MMC, an attachment snap-in extension must implement the COM interface [**ISceSvcAttachmentPersistInfo**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentpersistinfo).</span></span> <span data-ttu-id="252d8-108">Les composants logiciels enfichables de configuration de la sécurité appellent les méthodes de cette interface pour déterminer si les données de configuration ont été modifiées et, le cas échéant, pour mettre à jour la base de données de sécurité.</span><span class="sxs-lookup"><span data-stu-id="252d8-108">The Security Configuration snap-ins call methods of this interface to determine whether the configuration data has changed, and if so, to update the security database.</span></span> <span data-ttu-id="252d8-109">Le composant logiciel enfichable pièce jointe doit stocker les modifications de configuration jusqu’à ce que les composants logiciels enfichables de configuration de sécurité récupèrent ces données.</span><span class="sxs-lookup"><span data-stu-id="252d8-109">The attachment snap-in must store any configuration changes until the Security Configuration snap-ins retrieves that data.</span></span>
+
+<span data-ttu-id="252d8-110">Une extension de composant logiciel enfichable d’une pièce jointe doit fournir les fonctionnalités suivantes :</span><span class="sxs-lookup"><span data-stu-id="252d8-110">An attachment snap-in extension must provide the following functionality:</span></span>
+
+-   [<span data-ttu-id="252d8-111">Afficher les informations de configuration et d’analyse</span><span class="sxs-lookup"><span data-stu-id="252d8-111">Display Configuration and Analysis Information</span></span>](displaying-configuration-and-analysis-information.md)
+-   [<span data-ttu-id="252d8-112">Modifier les informations de configuration dans l’interface utilisateur</span><span class="sxs-lookup"><span data-stu-id="252d8-112">Modify Configuration Information in the User Interface</span></span>](modifying-configuration-information-in-the-user-interface.md)
+-   [<span data-ttu-id="252d8-113">Modifier les informations de configuration dans la base de données de sécurité</span><span class="sxs-lookup"><span data-stu-id="252d8-113">Modify Configuration Information in the Security Database</span></span>](modifying-configuration-information-in-the-database.md)
+
+<span data-ttu-id="252d8-114">Pour aider votre extension de composant logiciel enfichable à effectuer ces tâches, les composants logiciels enfichables de configuration de sécurité implémentent une interface COM, [**ISceSvcAttachmentData**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentdata), qui fournit des méthodes que votre extension de composant logiciel enfichable peut appeler afin de s’initialiser et de demander des informations à partir de la base de données de sécurité.</span><span class="sxs-lookup"><span data-stu-id="252d8-114">To assist your snap-in extension in performing these tasks, the Security Configuration snap-ins implement a COM interface, [**ISceSvcAttachmentData**](/windows/desktop/api/Scesvc/nn-scesvc-iscesvcattachmentdata), which provides methods your snap-in extension can call in order to initialize itself and query information from the security database.</span></span>
+
+<span data-ttu-id="252d8-115">Une fois que vous avez créé votre extension de composant logiciel enfichable d’attachement, vous devez l’inscrire auprès des composants logiciels enfichables de configuration de sécurité, comme décrit dans [inscription d’une extension de composant logiciel enfichable d’attachement](registering-an-attachment-snap-in-extension.md).</span><span class="sxs-lookup"><span data-stu-id="252d8-115">After you have created your attachment snap-in extension, you must register it with the Security Configuration snap-ins as described in [Registering an Attachment Snap-in Extension](registering-an-attachment-snap-in-extension.md).</span></span>
+
+ 
+
+ 
