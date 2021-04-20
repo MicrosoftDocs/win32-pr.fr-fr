@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9720bc2257d4c0b45116089bfdd4113335fc6b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfb87884438f1a39a5bd6f08eb9bb855311eb5d3
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941893"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734194"
 ---
 # <a name="interval-repetitiontype-element"></a>Interval (élément repetitionType)
 
-Spécifie la durée entre chaque redémarrage de la tâche. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est de 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
+Spécifie la durée entre chaque redémarrage de la tâche. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
 
 ``` syntax
 <xs:element name="Interval">
@@ -53,7 +53,7 @@ L’élément est défini par le type complexe [**repetitionType**](taskschedule
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, l’intervalle du modèle de répétition est spécifié à l’aide de la propriété [**RepetitionPattern. Interval**](repetitionpattern-interval.md) .
 

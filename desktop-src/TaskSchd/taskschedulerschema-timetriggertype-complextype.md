@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8ca21464df967ff473a767e814b9ce6969a56c00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f44f0959a9f67e4bfee0b0ef5dd7f095ffbadce
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512368"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734134"
 ---
 # <a name="timetriggertype-complex-type"></a>Type complexe timeTriggerType
 
@@ -47,11 +47,11 @@ Définit le type de base pour l’élément [**timetrigger**](taskschedulerschem
 
 | Élément                                                                        | Type     | Description                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | Spécifie le délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, P2DT5S est un délai de 2 jours, 5 secondes). <br/> |
+| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | Spécifie le délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, P2DT5S est un délai de 2 jours, 5 secondes). <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Notez que cet élément n’ajoute pas d’éléments enfants à ceux définis par le type complexe [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) .
 

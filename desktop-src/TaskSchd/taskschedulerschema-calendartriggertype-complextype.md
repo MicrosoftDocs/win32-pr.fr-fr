@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f45434fa68b6300157a29318ba257f43bac5992
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a891f60d46f8826faed1cc4b95e4c55f6efa4f7f
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512176"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734164"
 ---
 # <a name="calendartriggertype-complex-type"></a>Type complexe calendarTriggerType
 
@@ -62,7 +62,7 @@ Définit les éléments enfants et les informations de séquencement pour les é
 
 | Élément                                                                                                      | Type                                                                                                 | Description                                                                                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RandomDelay**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | duration                                                                                             | Contient le délai d’attente ajouté de manière aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).<br/> |
+| [**RandomDelay**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | duration                                                                                             | Contient le délai d’attente ajouté de manière aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).<br/> |
 | [**ScheduleByDay**](taskschedulerschema-schedulebyday-calendartriggertype-element.md)                       | [**dailyScheduleType**](taskschedulerschema-dailyscheduletype-complextype.md)                       | Spécifie une planification quotidienne. Par exemple, la tâche démarre tous les jours, tous les jours, tous les trois jours, et ainsi de suite.<br/>                                                                                                               |
 | [**ScheduleByMonth**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)                   | [**monthlyScheduleType**](taskschedulerschema-monthlyscheduletype-complextype.md)                   | Spécifie une planification mensuelle. Par exemple, la tâche commence à 8:00 AM sur des jours spécifiques du mois sur des mois spécifiques. <br/>                                                                                                       |
 | [**ScheduleByMonthDayOfWeek**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) | [**monthlyDayOfWeekScheduleType**](taskschedulerschema-monthlydayofweekscheduletype-complextype.md) | Spécifie un déclencheur qui démarre un travail sur une planification de jour de semaine mensuelle. Par exemple, la tâche démarre des jours spécifiques de la semaine, des semaines du mois et des mois de l’année. <br/>                                               |
@@ -70,7 +70,7 @@ Définit les éléments enfants et les informations de séquencement pour les é
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus de l’élément enfant défini ici, l’élément [**CalendarTrigger**](taskschedulerschema-calendartrigger-triggergroup-element.md) utilise également les éléments enfants définis par le type complexe [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) .
 

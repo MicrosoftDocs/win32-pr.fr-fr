@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6fbdcab3b3f20d32e67b5b4e3e27b890b6bc902
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e781941e927547a4ea25935fb21299777c34b3ea
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953710"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734124"
 ---
 # <a name="monthlydowtriggerrandomdelay-property"></a>MonthlyDOWTrigger. RandomDelay, propriété
 
@@ -38,7 +38,7 @@ MonthlyDOWTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).
+Délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).
 
 ## <a name="requirements"></a>Configuration requise
 

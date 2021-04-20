@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f511e43ebb1d61fd80f2fcab34aba092704b8338
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f127c5d434b5cb1e6dec6d8a3c68ee343fa00ffc
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740421"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734144"
 ---
 # <a name="tasksettingsrestartinterval-property"></a>TaskSettings. RestartInterval, propriété
 
@@ -40,9 +40,9 @@ TaskSettings.RestartInterval As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Valeur qui spécifie la durée pendant laquelle l’Planificateur de tâches tente de redémarrer la tâche. Si cette propriété est définie, la propriété [**RestartCount**](tasksettings-restartcount.md) doit également être définie. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est de 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
+Valeur qui spécifie la durée pendant laquelle l’Planificateur de tâches tente de redémarrer la tâche. Si cette propriété est définie, la propriété [**RestartCount**](tasksettings-restartcount.md) doit également être définie. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la lecture ou de l’écriture de données XML pour une tâche, ce paramètre est spécifié dans l’élément [**Interval**](taskschedulerschema-interval-restarttype-element.md) du schéma planificateur de tâches.
 

@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c97e754e0b29a43d6ba419bd806404fe1b85b2b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e731582364df23bdef800ab5d2cf15dd5c882ae
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941767"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734184"
 ---
 # <a name="interval-restarttype-element"></a>Interval (élément restartType)
 
-Spécifie la durée pendant laquelle le Planificateur de tâches tente de redémarrer la tâche. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est de 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
+Spécifie la durée pendant laquelle le Planificateur de tâches tente de redémarrer la tâche. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
 
 ``` syntax
 <xs:element name="Interval">
@@ -53,7 +53,7 @@ L’élément est défini par le type complexe [**restartType**](taskschedulersc
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet élément est spécifié, l’élément [**Count**](taskschedulerschema-count-restarttype-element.md) doit également être spécifié pour indiquer au planificateur de tâches combien de fois il doit essayer de redémarrer la tâche.
 

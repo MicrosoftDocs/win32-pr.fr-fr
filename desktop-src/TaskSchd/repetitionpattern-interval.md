@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d62bb821f4c5e61d344e21fafa4ba1265c73470
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1e81920fffe5c9fd58dd36a028b924f54ebe6dd
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508866"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734174"
 ---
 # <a name="repetitionpatterninterval-property"></a>RepetitionPattern. Interval, propriété
 
@@ -38,9 +38,9 @@ RepetitionPattern.Interval As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Intervalle de temps entre chaque redémarrage de la tâche. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est de 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
+Intervalle de temps entre chaque redémarrage de la tâche. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, « PT5M » est de 5 minutes, « PT1H » est 1 heure et « PT20M » est 20 minutes). La durée maximale autorisée est de 31 jours, et la durée minimale autorisée est de 1 minute.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous spécifiez une durée de répétition pour une tâche, vous devez également spécifier l’intervalle de répétition.
 

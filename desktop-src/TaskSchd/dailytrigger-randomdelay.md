@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd24fc5bd97a51cc0276e0fdfe800c0a9baa022a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 303192d578a2681e250784c1e1eb2831c98482cc
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106529570"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734104"
 ---
 # <a name="dailytriggerrandomdelay-property"></a>DailyTrigger. RandomDelay, propriété
 
@@ -38,7 +38,7 @@ DailyTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est P <days> DT <hours> H <minutes> M <seconds> S (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).
+Délai d’ajout aléatoire à l’heure de début du déclencheur. Le format de cette chaîne est `P<days>DT<hours>H<minutes>M<seconds>S` (par exemple, P2DT5S est un délai de 2 jours, 5 secondes).
 
 ## <a name="requirements"></a>Configuration requise
 
