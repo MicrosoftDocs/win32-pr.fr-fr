@@ -45,25 +45,25 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC
-ms.openlocfilehash: bb42be1e1f00fcf749ed271d55a7958b43464f1a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 070fc901c006ce1f18429e79eab635a5360c4af7
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522266"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803242"
 ---
-# <a name="dml_element_wise_bit_not_operator_desc-structure-directmlh"></a><span data-ttu-id="f4ab8-103">Structure DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="f4ab8-103">DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC structure (directml.h)</span></span>
+# <a name="dml_element_wise_bit_not_operator_desc-structure-directmlh"></a><span data-ttu-id="5b072-103">Structure DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="5b072-103">DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC structure (directml.h)</span></span>
 
-<span data-ttu-id="f4ab8-104">Calcule l’opération NOT au niveau du bit pour chaque élément du tenseur d’entrée, puis écrit le résultat dans le tenseur de sortie.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-104">Computes the bitwise NOT for each element of the input tensor, and writes the result into the output tensor.</span></span>
+<span data-ttu-id="5b072-104">Calcule l’opération NOT au niveau du bit pour chaque élément du tenseur d’entrée, puis écrit le résultat dans le tenseur de sortie.</span><span class="sxs-lookup"><span data-stu-id="5b072-104">Computes the bitwise NOT for each element of the input tensor, and writes the result into the output tensor.</span></span>
 
-<span data-ttu-id="f4ab8-105">Les tenseur d’entrée et de sortie doivent avoir les mêmes *DimensionCount*, *taille* et *type de données*.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-105">The input and output tensor must have the same *DimensionCount*, *Sizes*, and *DataType*.</span></span>
+<span data-ttu-id="5b072-105">Les tenseur d’entrée et de sortie doivent avoir les mêmes *DimensionCount*, *taille* et *type de données*.</span><span class="sxs-lookup"><span data-stu-id="5b072-105">The input and output tensor must have the same *DimensionCount*, *Sizes*, and *DataType*.</span></span>
 
-<span data-ttu-id="f4ab8-106">Cet opérateur prend en charge l’exécution sur place, ce qui signifie que le tenseur de sortie est autorisé à aliaser le tenseur d’entrée pendant la liaison.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-106">This operator supports in-place execution, meaning that the output tensor is permitted to alias the input tensor during binding.</span></span>
+<span data-ttu-id="5b072-106">Cet opérateur prend en charge l’exécution sur place, ce qui signifie que le tenseur de sortie est autorisé à aliaser le tenseur d’entrée pendant la liaison.</span><span class="sxs-lookup"><span data-stu-id="5b072-106">This operator supports in-place execution, meaning that the output tensor is permitted to alias the input tensor during binding.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="f4ab8-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="f4ab8-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="f4ab8-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="f4ab8-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="5b072-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="5b072-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="5b072-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="5b072-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f4ab8-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f4ab8-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5b072-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5b072-109">Syntax</span></span>
 
 ```cpp
 struct DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC
@@ -73,21 +73,21 @@ struct DML_ELEMENT_WISE_BIT_NOT_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="f4ab8-110">Membres</span><span class="sxs-lookup"><span data-stu-id="f4ab8-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="5b072-110">Membres</span><span class="sxs-lookup"><span data-stu-id="5b072-110">Members</span></span>
 
 `InputTensor`
 
-<span data-ttu-id="f4ab8-111">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="f4ab8-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="5b072-111">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="5b072-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="f4ab8-112">Tenseur d’entrée à partir duquel effectuer la lecture.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-112">The input tensor to read from.</span></span>
+<span data-ttu-id="5b072-112">Tenseur d’entrée à partir duquel effectuer la lecture.</span><span class="sxs-lookup"><span data-stu-id="5b072-112">The input tensor to read from.</span></span>
 
 `OutputTensor`
 
-<span data-ttu-id="f4ab8-113">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="f4ab8-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="5b072-113">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="5b072-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="f4ab8-114">Tenseur de sortie dans lequel écrire les résultats.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-114">The output tensor to write the results to.</span></span>
+<span data-ttu-id="5b072-114">Tenseur de sortie dans lequel écrire les résultats.</span><span class="sxs-lookup"><span data-stu-id="5b072-114">The output tensor to write the results to.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f4ab8-115">Exemple</span><span class="sxs-lookup"><span data-stu-id="f4ab8-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5b072-115">Exemple</span><span class="sxs-lookup"><span data-stu-id="5b072-115">Example</span></span>
 
 ```
 InputTensor: (Sizes:{2,2}, DataType:UINT8)
@@ -99,19 +99,19 @@ OutputTensor: (Sizes:{2,2}, DataType:UINT8)
  [213, 0  ]] // 0b11010101, 0b00000000
 ```
 
-## <a name="availability"></a><span data-ttu-id="f4ab8-116">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="f4ab8-116">Availability</span></span>
-<span data-ttu-id="f4ab8-117">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .</span><span class="sxs-lookup"><span data-stu-id="f4ab8-117">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
+## <a name="availability"></a><span data-ttu-id="5b072-116">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="5b072-116">Availability</span></span>
+<span data-ttu-id="5b072-117">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .</span><span class="sxs-lookup"><span data-stu-id="5b072-117">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="f4ab8-118">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="f4ab8-118">Tensor constraints</span></span>
-<span data-ttu-id="f4ab8-119">*InputTensor* et *OutputTensor* doivent avoir les mêmes *types de données*, *DimensionCount* et *tailles*.</span><span class="sxs-lookup"><span data-stu-id="f4ab8-119">*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="5b072-118">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="5b072-118">Tensor constraints</span></span>
+<span data-ttu-id="5b072-119">*InputTensor* et *OutputTensor* doivent avoir les mêmes *types de données*, *DimensionCount* et *tailles*.</span><span class="sxs-lookup"><span data-stu-id="5b072-119">*InputTensor* and *OutputTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="f4ab8-120">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="f4ab8-120">Tensor support</span></span>
-| <span data-ttu-id="f4ab8-121">Tenseur</span><span class="sxs-lookup"><span data-stu-id="f4ab8-121">Tensor</span></span> | <span data-ttu-id="f4ab8-122">Type</span><span class="sxs-lookup"><span data-stu-id="f4ab8-122">Kind</span></span> | <span data-ttu-id="f4ab8-123">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="f4ab8-123">Supported dimension counts</span></span> | <span data-ttu-id="f4ab8-124">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="f4ab8-124">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="5b072-120">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="5b072-120">Tensor support</span></span>
+| <span data-ttu-id="5b072-121">Tenseur</span><span class="sxs-lookup"><span data-stu-id="5b072-121">Tensor</span></span> | <span data-ttu-id="5b072-122">Type</span><span class="sxs-lookup"><span data-stu-id="5b072-122">Kind</span></span> | <span data-ttu-id="5b072-123">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="5b072-123">Supported dimension counts</span></span> | <span data-ttu-id="5b072-124">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="5b072-124">Supported data types</span></span> |
 | ------ | ---- | -------------------------- | -------------------- |
-| <span data-ttu-id="f4ab8-125">InputTensor</span><span class="sxs-lookup"><span data-stu-id="f4ab8-125">InputTensor</span></span> | <span data-ttu-id="f4ab8-126">Entrée</span><span class="sxs-lookup"><span data-stu-id="f4ab8-126">Input</span></span> | <span data-ttu-id="f4ab8-127">1 à 8</span><span class="sxs-lookup"><span data-stu-id="f4ab8-127">1 to 8</span></span> | <span data-ttu-id="f4ab8-128">UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="f4ab8-128">UINT32, UINT16, UINT8</span></span> |
-| <span data-ttu-id="f4ab8-129">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="f4ab8-129">OutputTensor</span></span> | <span data-ttu-id="f4ab8-130">Output</span><span class="sxs-lookup"><span data-stu-id="f4ab8-130">Output</span></span> | <span data-ttu-id="f4ab8-131">1 à 8</span><span class="sxs-lookup"><span data-stu-id="f4ab8-131">1 to 8</span></span> | <span data-ttu-id="f4ab8-132">UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="f4ab8-132">UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="5b072-125">InputTensor</span><span class="sxs-lookup"><span data-stu-id="5b072-125">InputTensor</span></span> | <span data-ttu-id="5b072-126">Entrée</span><span class="sxs-lookup"><span data-stu-id="5b072-126">Input</span></span> | <span data-ttu-id="5b072-127">1 à 8</span><span class="sxs-lookup"><span data-stu-id="5b072-127">1 to 8</span></span> | <span data-ttu-id="5b072-128">UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="5b072-128">UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="5b072-129">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="5b072-129">OutputTensor</span></span> | <span data-ttu-id="5b072-130">Output</span><span class="sxs-lookup"><span data-stu-id="5b072-130">Output</span></span> | <span data-ttu-id="5b072-131">1 à 8</span><span class="sxs-lookup"><span data-stu-id="5b072-131">1 to 8</span></span> | <span data-ttu-id="5b072-132">UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="5b072-132">UINT32, UINT16, UINT8</span></span> |
 
-## <a name="requirements"></a><span data-ttu-id="f4ab8-133">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="f4ab8-133">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5b072-133">Spécifications</span><span class="sxs-lookup"><span data-stu-id="5b072-133">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="f4ab8-134">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="f4ab8-134">**Header**</span></span> | <span data-ttu-id="f4ab8-135">directml. h</span><span class="sxs-lookup"><span data-stu-id="f4ab8-135">directml.h</span></span> |
+| <span data-ttu-id="5b072-134">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="5b072-134">**Header**</span></span> | <span data-ttu-id="5b072-135">directml. h</span><span class="sxs-lookup"><span data-stu-id="5b072-135">directml.h</span></span> |

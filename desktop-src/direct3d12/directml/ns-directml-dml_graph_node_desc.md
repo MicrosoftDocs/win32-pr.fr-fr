@@ -45,20 +45,20 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_NODE_DESC
-ms.openlocfilehash: 8c79719f51efb4a59f9459a28765d3442ed3f4ee
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5f59978f6b62572000a95ee3be5a3b8a685c8231
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106524764"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802910"
 ---
-# <a name="dml_graph_node_desc-structure-directmlh"></a><span data-ttu-id="191b5-103">Structure DML_GRAPH_NODE_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="191b5-103">DML_GRAPH_NODE_DESC structure (directml.h)</span></span>
-<span data-ttu-id="191b5-104">Conteneur générique pour un nœud dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) et passés à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span><span class="sxs-lookup"><span data-stu-id="191b5-104">A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span></span>
+# <a name="dml_graph_node_desc-structure-directmlh"></a><span data-ttu-id="edc05-103">Structure DML_GRAPH_NODE_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="edc05-103">DML_GRAPH_NODE_DESC structure (directml.h)</span></span>
+<span data-ttu-id="edc05-104">Conteneur générique pour un nœud dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) et passés à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span><span class="sxs-lookup"><span data-stu-id="edc05-104">A generic container for a node within a graph of DirectML operators defined by [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="191b5-105">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="191b5-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="191b5-106">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="191b5-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="edc05-105">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="edc05-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="edc05-106">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="edc05-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="191b5-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="191b5-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="edc05-107">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="edc05-107">Syntax</span></span>
 ```cpp
 struct DML_GRAPH_NODE_DESC {
   DML_GRAPH_NODE_TYPE Type;
@@ -68,33 +68,33 @@ struct DML_GRAPH_NODE_DESC {
 
 
 
-## <a name="members"></a><span data-ttu-id="191b5-108">Membres</span><span class="sxs-lookup"><span data-stu-id="191b5-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="edc05-108">Membres</span><span class="sxs-lookup"><span data-stu-id="edc05-108">Members</span></span>
 
 `Type`
 
-<span data-ttu-id="191b5-109">Type : **[DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md)**</span><span class="sxs-lookup"><span data-stu-id="191b5-109">Type: **[DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md)**</span></span>
+<span data-ttu-id="edc05-109">Type : **[DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md)**</span><span class="sxs-lookup"><span data-stu-id="edc05-109">Type: **[DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md)**</span></span>
 
-<span data-ttu-id="191b5-110">Type de nœud de graphique.</span><span class="sxs-lookup"><span data-stu-id="191b5-110">The type of graph node.</span></span> <span data-ttu-id="191b5-111">Consultez [DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md) pour connaître les types disponibles.</span><span class="sxs-lookup"><span data-stu-id="191b5-111">See [DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md) for available types.</span></span>
+<span data-ttu-id="edc05-110">Type de nœud de graphique.</span><span class="sxs-lookup"><span data-stu-id="edc05-110">The type of graph node.</span></span> <span data-ttu-id="edc05-111">Consultez [DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md) pour connaître les types disponibles.</span><span class="sxs-lookup"><span data-stu-id="edc05-111">See [DML_GRAPH_NODE_TYPE](./ne-directml-dml_graph_node_type.md) for available types.</span></span>
 
 
 `Desc`
 
-<span data-ttu-id="191b5-112">Type : \_ \_ taille \_ de champ ( \_ Inexpressible \_ (« dépendant du type de nœud »)) **const void \***</span><span class="sxs-lookup"><span data-stu-id="191b5-112">Type: \_Field\_size\_(\_Inexpressible\_("Dependent on node type")) **const void\***</span></span>
+<span data-ttu-id="edc05-112">Type : \_ \_ taille \_ de champ ( \_ Inexpressible \_ (« dépendant du type de nœud »)) **const void \***</span><span class="sxs-lookup"><span data-stu-id="edc05-112">Type: \_Field\_size\_(\_Inexpressible\_("Dependent on node type")) **const void\***</span></span>
 
-<span data-ttu-id="191b5-113">Pointeur vers la description du nœud de graphique.</span><span class="sxs-lookup"><span data-stu-id="191b5-113">A pointer to the graph node description.</span></span> <span data-ttu-id="191b5-114">Le type du struct pointé doit correspondre à la valeur spécifiée dans *type*.</span><span class="sxs-lookup"><span data-stu-id="191b5-114">The type of the pointed-to struct must match the value specified in *Type*.</span></span>
+<span data-ttu-id="edc05-113">Pointeur vers la description du nœud de graphique.</span><span class="sxs-lookup"><span data-stu-id="edc05-113">A pointer to the graph node description.</span></span> <span data-ttu-id="edc05-114">Le type du struct pointé doit correspondre à la valeur spécifiée dans *type*.</span><span class="sxs-lookup"><span data-stu-id="edc05-114">The type of the pointed-to struct must match the value specified in *Type*.</span></span>
 
-## <a name="availability"></a><span data-ttu-id="191b5-115">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="191b5-115">Availability</span></span>
+## <a name="availability"></a><span data-ttu-id="edc05-115">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="edc05-115">Availability</span></span>
 
-<span data-ttu-id="191b5-116">Cette API a été introduite dans la version DirectML `1.1.0` .</span><span class="sxs-lookup"><span data-stu-id="191b5-116">This API was introduced in DirectML version `1.1.0`.</span></span>
+<span data-ttu-id="edc05-116">Cette API a été introduite dans la version DirectML `1.1.0` .</span><span class="sxs-lookup"><span data-stu-id="edc05-116">This API was introduced in DirectML version `1.1.0`.</span></span>
 
 
 
-## <a name="requirements"></a><span data-ttu-id="191b5-117">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="191b5-117">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="edc05-117">Spécifications</span><span class="sxs-lookup"><span data-stu-id="edc05-117">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="191b5-118">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="191b5-118">**Header**</span></span> | <span data-ttu-id="191b5-119">directml. h</span><span class="sxs-lookup"><span data-stu-id="191b5-119">directml.h</span></span> |
+| <span data-ttu-id="edc05-118">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="edc05-118">**Header**</span></span> | <span data-ttu-id="edc05-119">directml. h</span><span class="sxs-lookup"><span data-stu-id="edc05-119">directml.h</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="191b5-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="191b5-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="edc05-120">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="edc05-120">See also</span></span>
 
-* [<span data-ttu-id="191b5-121">IDMLDevice1 :: CompileGraph, méthode</span><span class="sxs-lookup"><span data-stu-id="191b5-121">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
-* [<span data-ttu-id="191b5-122">Structure DML_GRAPH_DESC</span><span class="sxs-lookup"><span data-stu-id="191b5-122">DML_GRAPH_DESC structure</span></span>](./ns-directml-dml_graph_desc.md)
+* [<span data-ttu-id="edc05-121">IDMLDevice1 :: CompileGraph, méthode</span><span class="sxs-lookup"><span data-stu-id="edc05-121">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
+* [<span data-ttu-id="edc05-122">Structure DML_GRAPH_DESC</span><span class="sxs-lookup"><span data-stu-id="edc05-122">DML_GRAPH_DESC structure</span></span>](./ns-directml-dml_graph_desc.md)

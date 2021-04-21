@@ -45,16 +45,16 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 567a1de50c1c91de83a9fda2978f83af8daf1a6e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: dea89f0e3366a07ee98f47703f07e2f5a9d4009d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106537156"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803684"
 ---
-# <a name="dml_activation_relu_grad_operator_desc-structure-directmlh"></a><span data-ttu-id="15eb9-103">Structure DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="15eb9-103">DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC structure (directml.h)</span></span>
+# <a name="dml_activation_relu_grad_operator_desc-structure-directmlh"></a><span data-ttu-id="ea91f-103">Structure DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="ea91f-103">DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC structure (directml.h)</span></span>
 
-<span data-ttu-id="15eb9-104">Calcule les dégradés de la rétropropagation pour une unité linéaire redressée (ReLU).</span><span class="sxs-lookup"><span data-stu-id="15eb9-104">Computes backpropagation gradients for a rectified linear unit (ReLU).</span></span> <span data-ttu-id="15eb9-105">Cet opérateur effectue le calcul suivant au niveau des éléments.</span><span class="sxs-lookup"><span data-stu-id="15eb9-105">This operator performs the following element-wise computation.</span></span>
+<span data-ttu-id="ea91f-104">Calcule les dégradés de la rétropropagation pour une unité linéaire redressée (ReLU).</span><span class="sxs-lookup"><span data-stu-id="ea91f-104">Computes backpropagation gradients for a rectified linear unit (ReLU).</span></span> <span data-ttu-id="ea91f-105">Cet opérateur effectue le calcul suivant au niveau des éléments.</span><span class="sxs-lookup"><span data-stu-id="ea91f-105">This operator performs the following element-wise computation.</span></span>
 
 ```
 X = InputTensor
@@ -63,12 +63,12 @@ dY = InputGradientTensor
 OutputGradientTensor = (X > 0 ? dY : 0)
 ```
 
-<span data-ttu-id="15eb9-106">L’opérateur de passe en aval correspondant est [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc).</span><span class="sxs-lookup"><span data-stu-id="15eb9-106">The corresponding forward-pass operator is [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc).</span></span>
+<span data-ttu-id="ea91f-106">L’opérateur de passe en aval correspondant est [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc).</span><span class="sxs-lookup"><span data-stu-id="ea91f-106">The corresponding forward-pass operator is [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="15eb9-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="15eb9-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="15eb9-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="15eb9-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="ea91f-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="ea91f-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="ea91f-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="ea91f-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="15eb9-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="15eb9-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea91f-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ea91f-109">Syntax</span></span>
 ```cpp
 struct DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC
 {
@@ -78,43 +78,43 @@ struct DML_ACTIVATION_RELU_GRAD_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="15eb9-110">Membres</span><span class="sxs-lookup"><span data-stu-id="15eb9-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ea91f-110">Membres</span><span class="sxs-lookup"><span data-stu-id="ea91f-110">Members</span></span>
 
 `InputTensor`
 
-<span data-ttu-id="15eb9-111">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="15eb9-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="ea91f-111">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="ea91f-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="15eb9-112">Tenseur d’entrée (fonctionnalité).</span><span class="sxs-lookup"><span data-stu-id="15eb9-112">The input (feature) tensor.</span></span> <span data-ttu-id="15eb9-113">Il s’agit généralement de la même entrée que celle qui a été fournie pendant la passe en avant (voir [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)).</span><span class="sxs-lookup"><span data-stu-id="15eb9-113">This is typically the same input as was provided during the forward pass (see [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)).</span></span>
+<span data-ttu-id="ea91f-112">Tenseur d’entrée (fonctionnalité).</span><span class="sxs-lookup"><span data-stu-id="ea91f-112">The input (feature) tensor.</span></span> <span data-ttu-id="ea91f-113">Il s’agit généralement de la même entrée que celle qui a été fournie pendant la passe en avant (voir [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)).</span><span class="sxs-lookup"><span data-stu-id="ea91f-113">This is typically the same input as was provided during the forward pass (see [DML_ACTIVATION_RELU_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)).</span></span>
 
 `InputGradientTensor`
 
-<span data-ttu-id="15eb9-114">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="15eb9-114">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="ea91f-114">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="ea91f-114">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="15eb9-115">Tenseur de dégradé entrant.</span><span class="sxs-lookup"><span data-stu-id="15eb9-115">The incoming gradient tensor.</span></span> <span data-ttu-id="15eb9-116">Elle est généralement obtenue à partir de la sortie de la rétropropagation d’une couche précédente.</span><span class="sxs-lookup"><span data-stu-id="15eb9-116">This is typically obtained from the output of backpropagation of a preceding layer.</span></span> <span data-ttu-id="15eb9-117">Les *tailles* et le *type de données* de ce tenseur doivent correspondre exactement à ceux du *InputTensor*.</span><span class="sxs-lookup"><span data-stu-id="15eb9-117">The *Sizes* and *DataType* of this tensor must exactly match those of the *InputTensor*.</span></span>
+<span data-ttu-id="ea91f-115">Tenseur de dégradé entrant.</span><span class="sxs-lookup"><span data-stu-id="ea91f-115">The incoming gradient tensor.</span></span> <span data-ttu-id="ea91f-116">Elle est généralement obtenue à partir de la sortie de la rétropropagation d’une couche précédente.</span><span class="sxs-lookup"><span data-stu-id="ea91f-116">This is typically obtained from the output of backpropagation of a preceding layer.</span></span> <span data-ttu-id="ea91f-117">Les *tailles* et le *type de données* de ce tenseur doivent correspondre exactement à ceux du *InputTensor*.</span><span class="sxs-lookup"><span data-stu-id="ea91f-117">The *Sizes* and *DataType* of this tensor must exactly match those of the *InputTensor*.</span></span>
 
 `OutputTensor`
 
-<span data-ttu-id="15eb9-118">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="15eb9-118">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="ea91f-118">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="ea91f-118">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="15eb9-119">Tenseur de sortie contenant les dégradés de la page.</span><span class="sxs-lookup"><span data-stu-id="15eb9-119">An output tensor containing the backpropagated gradients.</span></span> <span data-ttu-id="15eb9-120">Les *tailles* et le *type de données* de ce tenseur doivent correspondre exactement à ceux du *InputTensor*.</span><span class="sxs-lookup"><span data-stu-id="15eb9-120">The *Sizes* and *DataType* of this tensor must exactly match those of the *InputTensor*.</span></span>
+<span data-ttu-id="ea91f-119">Tenseur de sortie contenant les dégradés de la page.</span><span class="sxs-lookup"><span data-stu-id="ea91f-119">An output tensor containing the backpropagated gradients.</span></span> <span data-ttu-id="ea91f-120">Les *tailles* et le *type de données* de ce tenseur doivent correspondre exactement à ceux du *InputTensor*.</span><span class="sxs-lookup"><span data-stu-id="ea91f-120">The *Sizes* and *DataType* of this tensor must exactly match those of the *InputTensor*.</span></span>
 
-## <a name="availability"></a><span data-ttu-id="15eb9-121">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="15eb9-121">Availability</span></span>
-<span data-ttu-id="15eb9-122">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .</span><span class="sxs-lookup"><span data-stu-id="15eb9-122">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
+## <a name="availability"></a><span data-ttu-id="ea91f-121">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="ea91f-121">Availability</span></span>
+<span data-ttu-id="ea91f-122">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .</span><span class="sxs-lookup"><span data-stu-id="ea91f-122">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="15eb9-123">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="15eb9-123">Tensor constraints</span></span>
-<span data-ttu-id="15eb9-124">*InputGradientTensor*, *InputTensor* et *OutputGradientTensor* doivent avoir le même *type de données*, *DimensionCount* et *tailles*.</span><span class="sxs-lookup"><span data-stu-id="15eb9-124">*InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="ea91f-123">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="ea91f-123">Tensor constraints</span></span>
+<span data-ttu-id="ea91f-124">*InputGradientTensor*, *InputTensor* et *OutputGradientTensor* doivent avoir le même *type de données*, *DimensionCount* et *tailles*.</span><span class="sxs-lookup"><span data-stu-id="ea91f-124">*InputGradientTensor*, *InputTensor*, and *OutputGradientTensor* must have the same *DataType*, *DimensionCount*, and *Sizes*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="15eb9-125">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="15eb9-125">Tensor support</span></span>
-| <span data-ttu-id="15eb9-126">Tenseur</span><span class="sxs-lookup"><span data-stu-id="15eb9-126">Tensor</span></span> | <span data-ttu-id="15eb9-127">Type</span><span class="sxs-lookup"><span data-stu-id="15eb9-127">Kind</span></span> | <span data-ttu-id="15eb9-128">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="15eb9-128">Supported dimension counts</span></span> | <span data-ttu-id="15eb9-129">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="15eb9-129">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="ea91f-125">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="ea91f-125">Tensor support</span></span>
+| <span data-ttu-id="ea91f-126">Tenseur</span><span class="sxs-lookup"><span data-stu-id="ea91f-126">Tensor</span></span> | <span data-ttu-id="ea91f-127">Type</span><span class="sxs-lookup"><span data-stu-id="ea91f-127">Kind</span></span> | <span data-ttu-id="ea91f-128">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="ea91f-128">Supported dimension counts</span></span> | <span data-ttu-id="ea91f-129">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="ea91f-129">Supported data types</span></span> |
 | ------ | ---- | -------------------------- | -------------------- |
-| <span data-ttu-id="15eb9-130">InputTensor</span><span class="sxs-lookup"><span data-stu-id="15eb9-130">InputTensor</span></span> | <span data-ttu-id="15eb9-131">Entrée</span><span class="sxs-lookup"><span data-stu-id="15eb9-131">Input</span></span> | <span data-ttu-id="15eb9-132">1 à 8</span><span class="sxs-lookup"><span data-stu-id="15eb9-132">1 to 8</span></span> | <span data-ttu-id="15eb9-133">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="15eb9-133">FLOAT32, FLOAT16</span></span> |
-| <span data-ttu-id="15eb9-134">InputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="15eb9-134">InputGradientTensor</span></span> | <span data-ttu-id="15eb9-135">Entrée</span><span class="sxs-lookup"><span data-stu-id="15eb9-135">Input</span></span> | <span data-ttu-id="15eb9-136">1 à 8</span><span class="sxs-lookup"><span data-stu-id="15eb9-136">1 to 8</span></span> | <span data-ttu-id="15eb9-137">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="15eb9-137">FLOAT32, FLOAT16</span></span> |
-| <span data-ttu-id="15eb9-138">OutputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="15eb9-138">OutputGradientTensor</span></span> | <span data-ttu-id="15eb9-139">Output</span><span class="sxs-lookup"><span data-stu-id="15eb9-139">Output</span></span> | <span data-ttu-id="15eb9-140">1 à 8</span><span class="sxs-lookup"><span data-stu-id="15eb9-140">1 to 8</span></span> | <span data-ttu-id="15eb9-141">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="15eb9-141">FLOAT32, FLOAT16</span></span> |
+| <span data-ttu-id="ea91f-130">InputTensor</span><span class="sxs-lookup"><span data-stu-id="ea91f-130">InputTensor</span></span> | <span data-ttu-id="ea91f-131">Entrée</span><span class="sxs-lookup"><span data-stu-id="ea91f-131">Input</span></span> | <span data-ttu-id="ea91f-132">1 à 8</span><span class="sxs-lookup"><span data-stu-id="ea91f-132">1 to 8</span></span> | <span data-ttu-id="ea91f-133">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="ea91f-133">FLOAT32, FLOAT16</span></span> |
+| <span data-ttu-id="ea91f-134">InputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="ea91f-134">InputGradientTensor</span></span> | <span data-ttu-id="ea91f-135">Entrée</span><span class="sxs-lookup"><span data-stu-id="ea91f-135">Input</span></span> | <span data-ttu-id="ea91f-136">1 à 8</span><span class="sxs-lookup"><span data-stu-id="ea91f-136">1 to 8</span></span> | <span data-ttu-id="ea91f-137">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="ea91f-137">FLOAT32, FLOAT16</span></span> |
+| <span data-ttu-id="ea91f-138">OutputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="ea91f-138">OutputGradientTensor</span></span> | <span data-ttu-id="ea91f-139">Output</span><span class="sxs-lookup"><span data-stu-id="ea91f-139">Output</span></span> | <span data-ttu-id="ea91f-140">1 à 8</span><span class="sxs-lookup"><span data-stu-id="ea91f-140">1 to 8</span></span> | <span data-ttu-id="ea91f-141">FLOAT32, FLOAT16</span><span class="sxs-lookup"><span data-stu-id="ea91f-141">FLOAT32, FLOAT16</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="15eb9-142">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="15eb9-142">See also</span></span>
-[<span data-ttu-id="15eb9-143">DML_ACTIVATION_RELU_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="15eb9-143">DML_ACTIVATION_RELU_OPERATOR_DESC</span></span>](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)
+## <a name="see-also"></a><span data-ttu-id="ea91f-142">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ea91f-142">See also</span></span>
+[<span data-ttu-id="ea91f-143">DML_ACTIVATION_RELU_OPERATOR_DESC</span><span class="sxs-lookup"><span data-stu-id="ea91f-143">DML_ACTIVATION_RELU_OPERATOR_DESC</span></span>](/windows/win32/api/directml/ns-directml-dml_activation_relu_operator_desc)
 
-## <a name="requirements"></a><span data-ttu-id="15eb9-144">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="15eb9-144">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ea91f-144">Spécifications</span><span class="sxs-lookup"><span data-stu-id="ea91f-144">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="15eb9-145">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="15eb9-145">**Header**</span></span> | <span data-ttu-id="15eb9-146">directml. h</span><span class="sxs-lookup"><span data-stu-id="15eb9-146">directml.h</span></span> |
+| <span data-ttu-id="ea91f-145">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="ea91f-145">**Header**</span></span> | <span data-ttu-id="ea91f-146">directml. h</span><span class="sxs-lookup"><span data-stu-id="ea91f-146">directml.h</span></span> |

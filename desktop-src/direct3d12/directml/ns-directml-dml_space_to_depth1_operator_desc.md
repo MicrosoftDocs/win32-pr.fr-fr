@@ -44,22 +44,22 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SPACE_TO_DEPTH1_OPERATOR_DESC
-ms.openlocfilehash: 9c5033440e65dacdcb815edd08994b79a5fae41a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 35e64d83fa6b8df42428869f72249e9846e50596
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538246"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802869"
 ---
-# <a name="dml_space_to_depth1_operator_desc-structure-directmlh"></a><span data-ttu-id="dbc5d-104">Structure DML_SPACE_TO_DEPTH1_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="dbc5d-104">DML_SPACE_TO_DEPTH1_OPERATOR_DESC structure (directml.h)</span></span>
-<span data-ttu-id="dbc5d-105">Réorganise les blocs de données spatiales en profondeur.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-105">Rearranges blocks of spatial data into depth.</span></span> <span data-ttu-id="dbc5d-106">L’opérateur génère une copie du tenseur d’entrée où les valeurs des dimensions de hauteur et de largeur sont déplacées vers la dimension profondeur.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-106">The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.</span></span>
+# <a name="dml_space_to_depth1_operator_desc-structure-directmlh"></a><span data-ttu-id="931ca-104">Structure DML_SPACE_TO_DEPTH1_OPERATOR_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="931ca-104">DML_SPACE_TO_DEPTH1_OPERATOR_DESC structure (directml.h)</span></span>
+<span data-ttu-id="931ca-105">Réorganise les blocs de données spatiales en profondeur.</span><span class="sxs-lookup"><span data-stu-id="931ca-105">Rearranges blocks of spatial data into depth.</span></span> <span data-ttu-id="931ca-106">L’opérateur génère une copie du tenseur d’entrée où les valeurs des dimensions de hauteur et de largeur sont déplacées vers la dimension profondeur.</span><span class="sxs-lookup"><span data-stu-id="931ca-106">The operator outputs a copy of the input tensor where values from the height and width dimensions are moved to the depth dimension.</span></span>
 
-<span data-ttu-id="dbc5d-107">Il s’agit de la transformation inverse de [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md).</span><span class="sxs-lookup"><span data-stu-id="dbc5d-107">This is the inverse transformation of [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md).</span></span>
+<span data-ttu-id="931ca-107">Il s’agit de la transformation inverse de [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md).</span><span class="sxs-lookup"><span data-stu-id="931ca-107">This is the inverse transformation of [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md).</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="dbc5d-108">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="dbc5d-108">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="dbc5d-109">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="dbc5d-109">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="931ca-108">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="931ca-108">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="931ca-109">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="931ca-109">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dbc5d-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="dbc5d-110">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="931ca-110">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="931ca-110">Syntax</span></span>
 ```cpp
 struct DML_SPACE_TO_DEPTH1_OPERATOR_DESC {
   const DML_TENSOR_DESC *InputTensor;
@@ -71,38 +71,38 @@ struct DML_SPACE_TO_DEPTH1_OPERATOR_DESC {
 
 
 
-## <a name="members"></a><span data-ttu-id="dbc5d-111">Membres</span><span class="sxs-lookup"><span data-stu-id="dbc5d-111">Members</span></span>
+## <a name="members"></a><span data-ttu-id="931ca-111">Membres</span><span class="sxs-lookup"><span data-stu-id="931ca-111">Members</span></span>
 
 `InputTensor`
 
-<span data-ttu-id="dbc5d-112">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="dbc5d-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="931ca-112">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="931ca-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="dbc5d-113">Tenseur à partir duquel effectuer la lecture.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-113">The tensor to read from.</span></span> <span data-ttu-id="dbc5d-114">Les dimensions de l’tenseur d’entrée sont `{ Batch, Channels, Height, Width }` .</span><span class="sxs-lookup"><span data-stu-id="dbc5d-114">The input tensor's dimensions are `{ Batch, Channels, Height, Width }`.</span></span>
+<span data-ttu-id="931ca-113">Tenseur à partir duquel effectuer la lecture.</span><span class="sxs-lookup"><span data-stu-id="931ca-113">The tensor to read from.</span></span> <span data-ttu-id="931ca-114">Les dimensions de l’tenseur d’entrée sont `{ Batch, Channels, Height, Width }` .</span><span class="sxs-lookup"><span data-stu-id="931ca-114">The input tensor's dimensions are `{ Batch, Channels, Height, Width }`.</span></span>
 
 
 `OutputTensor`
 
-<span data-ttu-id="dbc5d-115">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="dbc5d-115">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="931ca-115">Type : **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="931ca-115">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="dbc5d-116">Tenseur dans lequel écrire les résultats.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-116">The tensor to write the results to.</span></span> <span data-ttu-id="dbc5d-117">Les dimensions de tenseur de sortie sont `{ Batch, Channels / (BlockSize * BlockSize), Height * BlockSize, Width * BlockSize }` .</span><span class="sxs-lookup"><span data-stu-id="dbc5d-117">The output tensor's dimensions are `{ Batch, Channels / (BlockSize * BlockSize), Height * BlockSize, Width * BlockSize }`.</span></span>
+<span data-ttu-id="931ca-116">Tenseur dans lequel écrire les résultats.</span><span class="sxs-lookup"><span data-stu-id="931ca-116">The tensor to write the results to.</span></span> <span data-ttu-id="931ca-117">Les dimensions de tenseur de sortie sont `{ Batch, Channels / (BlockSize * BlockSize), Height * BlockSize, Width * BlockSize }` .</span><span class="sxs-lookup"><span data-stu-id="931ca-117">The output tensor's dimensions are `{ Batch, Channels / (BlockSize * BlockSize), Height * BlockSize, Width * BlockSize }`.</span></span>
 
 
 `BlockSize`
 
-<span data-ttu-id="dbc5d-118">Type : [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="dbc5d-118">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+<span data-ttu-id="931ca-118">Type : [ **uint**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="931ca-118">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
 
-<span data-ttu-id="dbc5d-119">La largeur et la hauteur des blocs qui sont déplacés.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-119">The width and height of the Blocks that are moved.</span></span>
+<span data-ttu-id="931ca-119">La largeur et la hauteur des blocs qui sont déplacés.</span><span class="sxs-lookup"><span data-stu-id="931ca-119">The width and height of the Blocks that are moved.</span></span>
 
 
 `Order`
 
-<span data-ttu-id="dbc5d-120">Type : **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span><span class="sxs-lookup"><span data-stu-id="dbc5d-120">Type: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span></span>
+<span data-ttu-id="931ca-120">Type : **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span><span class="sxs-lookup"><span data-stu-id="931ca-120">Type: **[DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md)**</span></span>
 
-<span data-ttu-id="dbc5d-121">Consultez [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span><span class="sxs-lookup"><span data-stu-id="dbc5d-121">See [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span></span>
+<span data-ttu-id="931ca-121">Consultez [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span><span class="sxs-lookup"><span data-stu-id="931ca-121">See [DML_DEPTH_SPACE_ORDER](./ne-directml-dml_depth_space_order.md).</span></span>
 
-## <a name="examples"></a><span data-ttu-id="dbc5d-122">Exemples</span><span class="sxs-lookup"><span data-stu-id="dbc5d-122">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="931ca-122">Exemples</span><span class="sxs-lookup"><span data-stu-id="931ca-122">Examples</span></span>
 
-### <a name="example-1-depth-column-row-order"></a><span data-ttu-id="dbc5d-123">Exemple 1.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-123">Example 1.</span></span> <span data-ttu-id="dbc5d-124">Profondeur-colonne-ordre des lignes</span><span class="sxs-lookup"><span data-stu-id="dbc5d-124">Depth-column-row order</span></span>
+### <a name="example-1-depth-column-row-order"></a><span data-ttu-id="931ca-123">Exemple 1.</span><span class="sxs-lookup"><span data-stu-id="931ca-123">Example 1.</span></span> <span data-ttu-id="931ca-124">Profondeur-colonne-ordre des lignes</span><span class="sxs-lookup"><span data-stu-id="931ca-124">Depth-column-row order</span></span>
 
 ```
 BlockSize: 2
@@ -136,7 +136,7 @@ OutputTensor: (Sizes:{1, 8, 2, 3}, DataType:UINT32)
    [66, 67, 68]]]]
 ```
 
-### <a name="example-2-column-row-depth-order"></a><span data-ttu-id="dbc5d-125">Exemple 2.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-125">Example 2.</span></span> <span data-ttu-id="dbc5d-126">Ordre colonne-ligne-profondeur</span><span class="sxs-lookup"><span data-stu-id="dbc5d-126">Column-row-depth order</span></span>
+### <a name="example-2-column-row-depth-order"></a><span data-ttu-id="931ca-125">Exemple 2.</span><span class="sxs-lookup"><span data-stu-id="931ca-125">Example 2.</span></span> <span data-ttu-id="931ca-126">Ordre colonne-ligne-profondeur</span><span class="sxs-lookup"><span data-stu-id="931ca-126">Column-row-depth order</span></span>
 
 ```
 BlockSize: 2
@@ -170,23 +170,23 @@ OutputTensor: (Sizes:{1, 8, 2, 3}, DataType:UINT32)
 ```
 
 
-## <a name="remarks"></a><span data-ttu-id="dbc5d-127">Notes</span><span class="sxs-lookup"><span data-stu-id="dbc5d-127">Remarks</span></span>
-<span data-ttu-id="dbc5d-128">Lorsque le paramètre *Order* a la valeur [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), cet opérateur équivaut à [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).</span><span class="sxs-lookup"><span data-stu-id="dbc5d-128">When the *Order* parameter is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), this operator is equivalent to [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).</span></span>
+## <a name="remarks"></a><span data-ttu-id="931ca-127">Notes </span><span class="sxs-lookup"><span data-stu-id="931ca-127">Remarks</span></span>
+<span data-ttu-id="931ca-128">Lorsque le paramètre *Order* a la valeur [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), cet opérateur équivaut à [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).</span><span class="sxs-lookup"><span data-stu-id="931ca-128">When the *Order* parameter is set to [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), this operator is equivalent to [DML_SPACE_TO_DEPTH_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_space_to_depth_operator_desc).</span></span>
 
-## <a name="availability"></a><span data-ttu-id="dbc5d-129">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="dbc5d-129">Availability</span></span>
-<span data-ttu-id="dbc5d-130">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .</span><span class="sxs-lookup"><span data-stu-id="dbc5d-130">This operator was introduced in `DML_FEATURE_LEVEL_2_1`.</span></span>
+## <a name="availability"></a><span data-ttu-id="931ca-129">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="931ca-129">Availability</span></span>
+<span data-ttu-id="931ca-130">Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .</span><span class="sxs-lookup"><span data-stu-id="931ca-130">This operator was introduced in `DML_FEATURE_LEVEL_2_1`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="dbc5d-131">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="dbc5d-131">Tensor constraints</span></span>
-<span data-ttu-id="dbc5d-132">*InputTensor* et *OutputTensor* doivent avoir le même *type de données*.</span><span class="sxs-lookup"><span data-stu-id="dbc5d-132">*InputTensor* and *OutputTensor* must have the same *DataType*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="931ca-131">Contraintes tenseur</span><span class="sxs-lookup"><span data-stu-id="931ca-131">Tensor constraints</span></span>
+<span data-ttu-id="931ca-132">*InputTensor* et *OutputTensor* doivent avoir le même *type de données*.</span><span class="sxs-lookup"><span data-stu-id="931ca-132">*InputTensor* and *OutputTensor* must have the same *DataType*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="dbc5d-133">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="dbc5d-133">Tensor support</span></span>
-| <span data-ttu-id="dbc5d-134">Tenseur</span><span class="sxs-lookup"><span data-stu-id="dbc5d-134">Tensor</span></span> | <span data-ttu-id="dbc5d-135">Type</span><span class="sxs-lookup"><span data-stu-id="dbc5d-135">Kind</span></span> | <span data-ttu-id="dbc5d-136">Dimensions</span><span class="sxs-lookup"><span data-stu-id="dbc5d-136">Dimensions</span></span> | <span data-ttu-id="dbc5d-137">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="dbc5d-137">Supported dimension counts</span></span> | <span data-ttu-id="dbc5d-138">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="dbc5d-138">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="931ca-133">Support tenseur</span><span class="sxs-lookup"><span data-stu-id="931ca-133">Tensor support</span></span>
+| <span data-ttu-id="931ca-134">Tenseur</span><span class="sxs-lookup"><span data-stu-id="931ca-134">Tensor</span></span> | <span data-ttu-id="931ca-135">Type</span><span class="sxs-lookup"><span data-stu-id="931ca-135">Kind</span></span> | <span data-ttu-id="931ca-136">Dimensions</span><span class="sxs-lookup"><span data-stu-id="931ca-136">Dimensions</span></span> | <span data-ttu-id="931ca-137">Nombre de dimensions prises en charge</span><span class="sxs-lookup"><span data-stu-id="931ca-137">Supported dimension counts</span></span> | <span data-ttu-id="931ca-138">Types de données pris en charge</span><span class="sxs-lookup"><span data-stu-id="931ca-138">Supported data types</span></span> |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
-| <span data-ttu-id="dbc5d-139">InputTensor</span><span class="sxs-lookup"><span data-stu-id="dbc5d-139">InputTensor</span></span> | <span data-ttu-id="dbc5d-140">Entrée</span><span class="sxs-lookup"><span data-stu-id="dbc5d-140">Input</span></span> | <span data-ttu-id="dbc5d-141">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span><span class="sxs-lookup"><span data-stu-id="dbc5d-141">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span></span> | <span data-ttu-id="dbc5d-142">4</span><span class="sxs-lookup"><span data-stu-id="dbc5d-142">4</span></span> | <span data-ttu-id="dbc5d-143">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="dbc5d-143">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
-| <span data-ttu-id="dbc5d-144">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="dbc5d-144">OutputTensor</span></span> | <span data-ttu-id="dbc5d-145">Output</span><span class="sxs-lookup"><span data-stu-id="dbc5d-145">Output</span></span> | <span data-ttu-id="dbc5d-146">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span><span class="sxs-lookup"><span data-stu-id="dbc5d-146">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span></span> | <span data-ttu-id="dbc5d-147">4</span><span class="sxs-lookup"><span data-stu-id="dbc5d-147">4</span></span> | <span data-ttu-id="dbc5d-148">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="dbc5d-148">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="931ca-139">InputTensor</span><span class="sxs-lookup"><span data-stu-id="931ca-139">InputTensor</span></span> | <span data-ttu-id="931ca-140">Entrée</span><span class="sxs-lookup"><span data-stu-id="931ca-140">Input</span></span> | <span data-ttu-id="931ca-141">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span><span class="sxs-lookup"><span data-stu-id="931ca-141">{ BatchCount, InputChannelCount, InputHeight, InputWidth }</span></span> | <span data-ttu-id="931ca-142">4</span><span class="sxs-lookup"><span data-stu-id="931ca-142">4</span></span> | <span data-ttu-id="931ca-143">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="931ca-143">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="931ca-144">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="931ca-144">OutputTensor</span></span> | <span data-ttu-id="931ca-145">Output</span><span class="sxs-lookup"><span data-stu-id="931ca-145">Output</span></span> | <span data-ttu-id="931ca-146">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span><span class="sxs-lookup"><span data-stu-id="931ca-146">{ BatchCount, OutputChannelCount, OutputHeight, OutputWidth }</span></span> | <span data-ttu-id="931ca-147">4</span><span class="sxs-lookup"><span data-stu-id="931ca-147">4</span></span> | <span data-ttu-id="931ca-148">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span><span class="sxs-lookup"><span data-stu-id="931ca-148">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
 
 
-## <a name="requirements"></a><span data-ttu-id="dbc5d-149">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="dbc5d-149">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="931ca-149">Spécifications</span><span class="sxs-lookup"><span data-stu-id="931ca-149">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="dbc5d-150">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="dbc5d-150">**Header**</span></span> | <span data-ttu-id="dbc5d-151">directml. h</span><span class="sxs-lookup"><span data-stu-id="dbc5d-151">directml.h</span></span> |
+| <span data-ttu-id="931ca-150">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="931ca-150">**Header**</span></span> | <span data-ttu-id="931ca-151">directml. h</span><span class="sxs-lookup"><span data-stu-id="931ca-151">directml.h</span></span> |

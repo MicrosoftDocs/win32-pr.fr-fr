@@ -44,20 +44,20 @@ api_location:
 - DirectML.h
 api_name:
 - DML_OUTPUT_GRAPH_EDGE_DESC
-ms.openlocfilehash: d1d48de0fa3bf2665269ebf2226de4e9911a1670
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 55d234fcf487e7ad92b39b60d43eb992b46d0d2c
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106543004"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803926"
 ---
-# <a name="dml_output_graph_edge_desc-structure-directmlh"></a><span data-ttu-id="3ec5e-104">Structure DML_OUTPUT_GRAPH_EDGE_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="3ec5e-104">DML_OUTPUT_GRAPH_EDGE_DESC structure (directml.h)</span></span>
-<span data-ttu-id="3ec5e-105">Décrit une connexion dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) et passé à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span><span class="sxs-lookup"><span data-stu-id="3ec5e-105">Describes a connection within a graph of DirectML operators defined by [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span></span> <span data-ttu-id="3ec5e-106">Cette structure est utilisée pour définir une connexion entre une sortie d’un nœud interne et une sortie de graphique.</span><span class="sxs-lookup"><span data-stu-id="3ec5e-106">This structure is used to define a connection from an output of an internal node to a graph output.</span></span>
+# <a name="dml_output_graph_edge_desc-structure-directmlh"></a><span data-ttu-id="7022b-104">Structure DML_OUTPUT_GRAPH_EDGE_DESC (directml. h)</span><span class="sxs-lookup"><span data-stu-id="7022b-104">DML_OUTPUT_GRAPH_EDGE_DESC structure (directml.h)</span></span>
+<span data-ttu-id="7022b-105">Décrit une connexion dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) et passé à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span><span class="sxs-lookup"><span data-stu-id="7022b-105">Describes a connection within a graph of DirectML operators defined by [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) and passed to [IDMLDevice1::CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).</span></span> <span data-ttu-id="7022b-106">Cette structure est utilisée pour définir une connexion entre une sortie d’un nœud interne et une sortie de graphique.</span><span class="sxs-lookup"><span data-stu-id="7022b-106">This structure is used to define a connection from an output of an internal node to a graph output.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3ec5e-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span><span class="sxs-lookup"><span data-stu-id="3ec5e-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="3ec5e-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="3ec5e-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="7022b-107">Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures.</span><span class="sxs-lookup"><span data-stu-id="7022b-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="7022b-108">Consultez également [l’historique des versions DirectML](../dml-version-history.md).</span><span class="sxs-lookup"><span data-stu-id="7022b-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3ec5e-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="3ec5e-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7022b-109">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7022b-109">Syntax</span></span>
 ```cpp
 struct DML_OUTPUT_GRAPH_EDGE_DESC {
   UINT       FromNodeIndex;
@@ -69,7 +69,7 @@ struct DML_OUTPUT_GRAPH_EDGE_DESC {
 
 
 
-## <a name="members"></a><span data-ttu-id="3ec5e-110">Membres</span><span class="sxs-lookup"><span data-stu-id="3ec5e-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="7022b-110">Membres</span><span class="sxs-lookup"><span data-stu-id="7022b-110">Members</span></span>
 
 `FromNodeIndex`
 
@@ -83,30 +83,30 @@ struct DML_OUTPUT_GRAPH_EDGE_DESC {
 
 `GraphOutputIndex`
 
-<span data-ttu-id="3ec5e-111">Type : **[uint](/windows/desktop/winprog/windows-data-types)**</span><span class="sxs-lookup"><span data-stu-id="3ec5e-111">Type: **[UINT](/windows/desktop/winprog/windows-data-types)**</span></span>
+<span data-ttu-id="7022b-111">Type : **[uint](/windows/desktop/winprog/windows-data-types)**</span><span class="sxs-lookup"><span data-stu-id="7022b-111">Type: **[UINT](/windows/desktop/winprog/windows-data-types)**</span></span>
 
-<span data-ttu-id="3ec5e-112">Index de la sortie du graphique auquel une connexion à partir d’une sortie de nœud interne est spécifiée.</span><span class="sxs-lookup"><span data-stu-id="3ec5e-112">The index of the graph output to which a connection from an internal node output is specified.</span></span>
+<span data-ttu-id="7022b-112">Index de la sortie du graphique auquel une connexion à partir d’une sortie de nœud interne est spécifiée.</span><span class="sxs-lookup"><span data-stu-id="7022b-112">The index of the graph output to which a connection from an internal node output is specified.</span></span>
 
 
 `Name`
 
-<span data-ttu-id="3ec5e-113">Type : \_ champ \_ z \_ \_ MAYBENULL \_ **const char \***</span><span class="sxs-lookup"><span data-stu-id="3ec5e-113">Type: \_Field\_z\_ \_Maybenull\_ **const char\***</span></span>
+<span data-ttu-id="7022b-113">Type : \_ champ \_ z \_ \_ MAYBENULL \_ **const char \***</span><span class="sxs-lookup"><span data-stu-id="7022b-113">Type: \_Field\_z\_ \_Maybenull\_ **const char\***</span></span>
 
-<span data-ttu-id="3ec5e-114">Nom facultatif pour la connexion du graphique.</span><span class="sxs-lookup"><span data-stu-id="3ec5e-114">An optional name for the graph connection.</span></span> <span data-ttu-id="3ec5e-115">S’il est fourni, il peut être utilisé dans certains messages d’erreur émis par la couche de débogage DirectML.</span><span class="sxs-lookup"><span data-stu-id="3ec5e-115">If provided, this might be used within certain error messages emitted by the DirectML debug layer.</span></span>
+<span data-ttu-id="7022b-114">Nom facultatif pour la connexion du graphique.</span><span class="sxs-lookup"><span data-stu-id="7022b-114">An optional name for the graph connection.</span></span> <span data-ttu-id="7022b-115">S’il est fourni, il peut être utilisé dans certains messages d’erreur émis par la couche de débogage DirectML.</span><span class="sxs-lookup"><span data-stu-id="7022b-115">If provided, this might be used within certain error messages emitted by the DirectML debug layer.</span></span>
 
-## <a name="availability"></a><span data-ttu-id="3ec5e-116">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="3ec5e-116">Availability</span></span>
+## <a name="availability"></a><span data-ttu-id="7022b-116">Disponibilité</span><span class="sxs-lookup"><span data-stu-id="7022b-116">Availability</span></span>
 
-<span data-ttu-id="3ec5e-117">Cette API a été introduite dans la version DirectML `1.1.0` .</span><span class="sxs-lookup"><span data-stu-id="3ec5e-117">This API was introduced in DirectML version `1.1.0`.</span></span>
+<span data-ttu-id="7022b-117">Cette API a été introduite dans la version DirectML `1.1.0` .</span><span class="sxs-lookup"><span data-stu-id="7022b-117">This API was introduced in DirectML version `1.1.0`.</span></span>
 
 
 
-## <a name="requirements"></a><span data-ttu-id="3ec5e-118">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="3ec5e-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="7022b-118">Spécifications</span><span class="sxs-lookup"><span data-stu-id="7022b-118">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="3ec5e-119">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="3ec5e-119">**Header**</span></span> | <span data-ttu-id="3ec5e-120">directml. h</span><span class="sxs-lookup"><span data-stu-id="3ec5e-120">directml.h</span></span> |
+| <span data-ttu-id="7022b-119">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="7022b-119">**Header**</span></span> | <span data-ttu-id="7022b-120">directml. h</span><span class="sxs-lookup"><span data-stu-id="7022b-120">directml.h</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="3ec5e-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="3ec5e-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7022b-121">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7022b-121">See also</span></span>
 
-* [<span data-ttu-id="3ec5e-122">IDMLDevice1 :: CompileGraph, méthode</span><span class="sxs-lookup"><span data-stu-id="3ec5e-122">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
-* [<span data-ttu-id="3ec5e-123">Structure DML_GRAPH_DESC</span><span class="sxs-lookup"><span data-stu-id="3ec5e-123">DML_GRAPH_DESC structure</span></span>](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc)
-* [<span data-ttu-id="3ec5e-124">Structure DML_GRAPH_EDGE_DESC</span><span class="sxs-lookup"><span data-stu-id="3ec5e-124">DML_GRAPH_EDGE_DESC structure</span></span>](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_edge_desc)
+* [<span data-ttu-id="7022b-122">IDMLDevice1 :: CompileGraph, méthode</span><span class="sxs-lookup"><span data-stu-id="7022b-122">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
+* [<span data-ttu-id="7022b-123">Structure DML_GRAPH_DESC</span><span class="sxs-lookup"><span data-stu-id="7022b-123">DML_GRAPH_DESC structure</span></span>](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc)
+* [<span data-ttu-id="7022b-124">Structure DML_GRAPH_EDGE_DESC</span><span class="sxs-lookup"><span data-stu-id="7022b-124">DML_GRAPH_EDGE_DESC structure</span></span>](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_edge_desc)
