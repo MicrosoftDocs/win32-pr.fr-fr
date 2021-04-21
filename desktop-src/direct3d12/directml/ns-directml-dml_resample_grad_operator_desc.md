@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 5808381f2e812ac20399b46672e51acd063bc6a5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106520225"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804050"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>Structure DML_RESAMPLE_GRAD_OPERATOR_DESC (directml. h)
 
@@ -79,7 +79,7 @@ InputGradientTensor           OutputGradientTensor
 Notez que les valeurs de *OutputGradientTensor* représentent les contributions pondérées de cet élément au *OutputTensor* au cours de l’opérateur de **DML_RESAMPLE1_OPERATOR_DESC** d’origine.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -124,19 +124,19 @@ Nombre d’éléments dans les tableaux *échelles*, *InputPixelOffsets* et *Out
 
 `Scales`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Consultez mettre à l' *échelle* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `InputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Consultez *InputPixelOffsets* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `OutputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Consultez *OutputPixelOffsets* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
@@ -152,7 +152,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | InputGradientTensor | Entrée | 4 | FLOAT32, FLOAT16 |
 | OutputGradientTensor | Output | 4 | FLOAT32, FLOAT16 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

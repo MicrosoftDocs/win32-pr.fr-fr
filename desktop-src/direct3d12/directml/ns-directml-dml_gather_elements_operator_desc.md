@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ELEMENTS_OPERATOR_DESC
-ms.openlocfilehash: 19a3f19a19d0287dfcbff8b312b1d245fcfe6c09
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 89a4f2017f6adec8cce206e9261eb0fa6563e94c
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106537152"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803014"
 ---
 # <a name="dml_gather_elements_operator_desc-structure-directmlh"></a>Structure DML_GATHER_ELEMENTS_OPERATOR_DESC (directml. h)
 
@@ -63,7 +63,7 @@ output[i, j, k, ...] = input[i, j, index[i, j, k, ...], ...] // if axis == 2
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -152,7 +152,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ROI_ALIGN_OPERATOR_DESC
-ms.openlocfilehash: 987aef7d7002892b8af3167fb8da2b74dc80a12e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b9004a77d3b325dd3394d1a3a6b596e94997e9fd
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106523097"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804013"
 ---
 # <a name="dml_roi_align_operator_desc-structure-directmlh"></a>Structure DML_ROI_ALIGN_OPERATOR_DESC (directml. h)
 
 Effectue une opération d’alignement du ROI, comme décrit dans le [document R-CNN du masque](https://arxiv.org/abs/1703.06870). En résumé, l’opération extrait les cultures de l’image d’entrée tenseur et les redimensionne sur une taille de sortie commune spécifiée par les 2 dernières dimensions de *OutputTensor* à l’aide de la *InterpolationMode* spécifiée.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -121,31 +121,31 @@ Mode d’interpolation à utiliser lors du redimensionnement des régions.
 
 `SpatialScaleX`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Composant X (ou largeur) du facteur d’échelle pour multiplier les coordonnées *ROITensor* par afin de les rendre proportionnées à *InputHeight* et *InputWidth*. Par exemple, si *ROITensor* contient des coordonnées normalisées (valeurs dans la plage [0.. 1]), *SpatialScaleX* aurait généralement la même valeur que *InputWidth*.
 
 `SpatialScaleY`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Le composant Y (ou hauteur) du facteur d’échelle pour multiplier les coordonnées *ROITensor* par afin de les rendre proportionnées à *InputHeight* et *InputWidth*. Par exemple, si *ROITensor* contient des coordonnées normalisées (valeurs dans la plage [0.. 1]), *SpatialScaleY* aurait généralement la même valeur que *InputHeight*.
 
 `OutOfBoundsInputValue`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">float</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">float</a></b>
 
 Valeur à lire à partir de *InputTensor* lorsque les rois sont en dehors des limites de *InputTensor*. Cela peut se produire lorsque les valeurs obtenues après la mise à l’échelle de *ROITensor* par *SpatialScaleX* et *SpatialScaleY* sont supérieures à *InputWidth* et *InputHeight*.
 
 `MinimumSamplesPerOutput`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">uint</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">uint</a></b>
 
 Nombre minimal d’exemples d’entrée à utiliser pour chaque élément de sortie. L’opérateur calcule le nombre d’échantillons d’entrée en procédant de la `ScaledCropSize / OutputSize` sorte, puis le bride à *MinimumSamplesPerOutput* et *MaximumSamplesPerOutput*.
 
 `MaximumSamplesPerOutput`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">uint</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">uint</a></b>
 
 Nombre maximal d’échantillons d’entrée à utiliser pour chaque élément de sortie. L’opérateur calcule le nombre d’échantillons d’entrée en procédant de la `ScaledCropSize / OutputSize` sorte, puis le bride à *MinimumSamplesPerOutput* et *MaximumSamplesPerOutput*.
 
@@ -163,7 +163,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | BatchIndicesTensor | Entrée | 1 à 4 | UINT32 |
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

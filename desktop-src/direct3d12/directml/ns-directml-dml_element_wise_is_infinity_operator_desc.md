@@ -35,12 +35,12 @@ f1_keywords:
 - directml/DML_ELEMENT_WISE_IS_INFINITY_OPERATOR_DESC
 dev_langs:
 - c++
-ms.openlocfilehash: b4f3f07fcbe303e86b422206a8f07eb75fb09d70
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 41be7751b542436b481da784c60ae79ad554cd12
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522262"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803097"
 ---
 # <a name="dml_element_wise_is_infinity_operator_desc-structure-directmlh"></a>Structure DML_ELEMENT_WISE_IS_INFINITY_OPERATOR_DESC (directml. h)
 
@@ -54,7 +54,7 @@ f(x) = isinf(x) && (
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -92,7 +92,7 @@ Type : **[DML_IS_INFINITY_MODE](/windows/win32/api/directml/ne-directml-dml_is_
 * Si **DML_IS_INFINITY_MODE_NEGATIVE**», 1 est retourné si l’élément est-inf, sinon 0.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 ## <a name="availability"></a>Disponibilité
 Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
@@ -113,7 +113,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputTensor | Output | 4 | DESTINÉES |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Client minimal pris en charge** | Windows 10, version 2004 (10,0 ; Build 19041) |

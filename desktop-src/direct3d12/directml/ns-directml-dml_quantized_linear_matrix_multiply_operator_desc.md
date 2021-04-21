@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC
-ms.openlocfilehash: d0b20a37bca6ddf6083b116b53290a6b6b2084f4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0daeab63559a2d842582087d8874e802645f7809
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538037"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803568"
 ---
 # <a name="dml_quantized_linear_matrix_multiply_operator_desc-structure-directmlh"></a>Structure DML_QUANTIZED_LINEAR_MATRIX_MULTIPLY_OPERATOR_DESC (directml. h)
 Exécute une fonction de multiplication de matrice sur des données quantifiées. Cet opérateur est mathématiquement équivalent à déquantifier les entrées, à effectuer une multiplication de matrice, puis à quantifier la sortie.
@@ -71,7 +71,7 @@ f(Input, Scale, ZeroPoint) = clamp(round(Input / Scale) + ZeroPoint, Min, Max)
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -177,7 +177,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

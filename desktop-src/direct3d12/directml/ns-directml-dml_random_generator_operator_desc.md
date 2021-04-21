@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_OPERATOR_DESC
-ms.openlocfilehash: 19e01ec8dc47e65ace996deef5954c35e21bf5bb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6807c3a1ac91716739075f51196a75ae76ca479b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106529516"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804072"
 ---
 # <a name="dml_random_generator_operator_desc-structure-directmlh"></a>Structure DML_RANDOM_GENERATOR_OPERATOR_DESC (directml. h)
 
@@ -61,7 +61,7 @@ Cet opérateur est déterministe et se comporte comme s’il s’agissait d’un
 Les générateurs implémentés par cet opérateur ne sont pas sécurisés par chiffrement ; par conséquent, cet opérateur ne doit pas être utilisé pour le chiffrement, la génération de clés ou d’autres applications qui nécessitent une génération de nombres aléatoires sécurisés par chiffrement.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -111,7 +111,7 @@ Type : **[DML_RANDOM_GENERATOR_TYPE](./ne-directml-dml_random_generator_type.md
 
 L’une des valeurs de l’énumération [DML_RANDOM_GENERATOR_TYPE](./ne-directml-dml_random_generator_type.md) , indiquant le type de générateur à utiliser. Actuellement, la seule valeur valide est **DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10**, qui génère des nombres pseudo-aléatoires en fonction de l' [algorithme 4X32-10 PHILOX](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 À chaque exécution de cet opérateur, le compteur 128 bits doit être incrémenté. Si le *OutputStateTensor* est fourni, cet opérateur incrémente le compteur avec la valeur correcte en votre nom et écrit le résultat dans le *OutputStateTensor*. La quantité qui doit être incrémentée en fonction du nombre d’éléments de sortie 32 bits générés et du type du générateur.
 
 Par **DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10**, le compteur 128 bits doit être incrémenté de à `ceil(outputSize / 4)` chaque exécution, où `outputSize` est le nombre d’éléments dans le *OutputTensor*.
@@ -131,7 +131,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | OutputTensor | Output | {D0, D1, D2, D3} | 4 | UINT32 |
 | OutputStateTensor | Sortie facultative | {1, 1, 1, 6} | 4 | UINT32 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

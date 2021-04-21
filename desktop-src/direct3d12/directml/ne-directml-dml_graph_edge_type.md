@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_EDGE_TYPE
-ms.openlocfilehash: 19b11686f3741c386ca03e84af5a41af1ce5cb52
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d65649fcd2115cc7cdcc1b01da20ef44b0436e6f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106535098"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803797"
 ---
 # <a name="dml_graph_edge_type-enumeration-directmlh"></a>Énumération DML_GRAPH_EDGE_TYPE (directml. h)
 
 Définit des constantes qui spécifient un type de bord du graphique. Consultez [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) pour connaître l’utilisation de cette énumération.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -79,7 +79,7 @@ typedef enum DML_GRAPH_EDGE_TYPE {
 | DML_GRAPH_EDGE_TYPE_INTERMEDIATE | Spécifie que le bord du graphique est décrit par la structure [DML_INTERMEDIATE_GRAPH_EDGE_DESC](./ns-directml-dml_intermediate_graph_edge_desc.md) .<br><br># # Disponibilité<br><br>Cette API a été introduite dans la version DirectML `1.1.0` . |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

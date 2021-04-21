@@ -45,18 +45,18 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_NODE_DESC
-ms.openlocfilehash: 8c79719f51efb4a59f9459a28765d3442ed3f4ee
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5f59978f6b62572000a95ee3be5a3b8a685c8231
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106524764"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802910"
 ---
 # <a name="dml_graph_node_desc-structure-directmlh"></a>Structure DML_GRAPH_NODE_DESC (directml. h)
 Conteneur générique pour un nœud dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md) et passés à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -89,7 +89,7 @@ Cette API a été introduite dans la version DirectML `1.1.0` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

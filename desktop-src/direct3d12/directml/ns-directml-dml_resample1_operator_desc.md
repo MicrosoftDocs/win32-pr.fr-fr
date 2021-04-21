@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_RESAMPLE1_OPERATOR_DESC
 - directml/DML_RESAMPLE1_OPERATOR_DESC
-ms.openlocfilehash: 669e828c4d8376e081ef6638aba4a13d517afd88
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ac98813e15ab3dac71a9f8395333160ce37778b0
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106520223"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804060"
 ---
 # <a name="dml_resample1_operator_desc-structure-directmlh"></a>Structure DML_RESAMPLE1_OPERATOR_DESC (directml. h)
 Rééchantillonne les éléments de la source vers le tenseur de destination, en utilisant les facteurs de mise à l’échelle pour calculer la taille du tenseur de destination. Vous pouvez utiliser le mode d’interpolation linéaire ou le voisin le plus proche. L’opérateur prend en charge l’interpolation sur plusieurs dimensions, pas seulement 2D. Vous pouvez conserver la même taille spatiale, mais interpoler entre les canaux ou les lots. La relation entre les coordonnées d’entrée et de sortie est la suivante.
@@ -52,7 +52,7 @@ Rééchantillonne les éléments de la source vers le tenseur de destination, en
 `OutputTensorX = (InputTensorX + InputPixelOffset) * Scale + OutputPixelOffset`
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -105,26 +105,26 @@ Nombre de valeurs dans les tableaux dont les *échelles*, *InputPixelOffsets* et
 
 `Scales`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Échelles à appliquer lors du rééchantillonnage de l’entrée, où Scales > 1 augmente l’image et met à l’échelle < 1 pour réduire l’image de cette dimension. Notez que les échelles n’ont pas besoin d’être exactement `OutputSize / InputSize` . Si l’entrée après la mise à l’échelle est supérieure à la limite de sortie, nous la découperons à la taille de sortie. En revanche, si l’entrée après la mise à l’échelle est plus petite que la limite de sortie, les bords de sortie sont bloqués.
 
 
 `InputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Offsets à appliquer aux pixels d’entrée avant le rééchantillonnage. Lorsque cette valeur est `0` , le coin supérieur gauche du pixel est utilisé à la place de son centre, ce qui n’entraîne généralement pas le résultat attendu. Pour rééchantillonner l’image à l’aide du Centre des pixels et pour avoir le même comportement que [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc), cette valeur doit être `0.5` .
 
 
 `OutputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
 
 Offsets à appliquer aux pixels de sortie après le rééchantillonnage. Lorsque cette valeur est `0` , le coin supérieur gauche du pixel est utilisé à la place de son centre, ce qui n’entraîne généralement pas le résultat attendu. Pour rééchantillonner l’image à l’aide du Centre des pixels et pour avoir le même comportement que [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc), cette valeur doit être `-0.5` .
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Lorsque les *InputPixelOffsets* sont définis sur 0,5 et que les *OutputPixelOffsets* sont définis sur-0,5, cet opérateur équivaut à [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc).
 
 ## <a name="availability"></a>Disponibilité
@@ -140,7 +140,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16 |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

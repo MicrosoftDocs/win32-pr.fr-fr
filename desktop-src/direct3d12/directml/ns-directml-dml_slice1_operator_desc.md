@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SLICE1_OPERATOR_DESC
-ms.openlocfilehash: 06721a7484426eb293494156a2ec23db6fbf0a6b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f34525865be9541da879e66e88c29d4a2ab74f00
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106535730"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803951"
 ---
 # <a name="dml_slice1_operator_desc-structure-directmlh"></a>Structure DML_SLICE1_OPERATOR_DESC (directml. h)
 Extrait une sous-région unique (« Slice ») d’un tenseur d’entrée.
@@ -83,7 +83,7 @@ MaxCopiedElements[i] = 1 + (InputWindowSize[i] - 1) / InputWindowStrides[i]
 Le tenseur de sortie n’est pas requis pour copier tous les éléments accessibles dans la fenêtre. La tranche est valide aussi longtemps que `1 <= OutputSizes[i] <= MaxCopiedElements[i]` .
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -201,7 +201,7 @@ Output[0,0,1,1] = {0,0,3,1} + {1,1,-2,2} * {0,0,1,1} = Input[{0,0,1,3}] = 8
 ```
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Cet opérateur est semblable à [DML_SLICE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_slice_operator_desc), mais il diffère de deux façons importantes.
 
 - Les Strides de secteur peuvent être négatifs, ce qui permet d’inverser les valeurs le long des dimensions.
@@ -227,7 +227,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputTensor | Output | 4 à 5 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/04/2020
-ms.openlocfilehash: d6c3791812f3ac1191f1959150bd5ac7059c54fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ad4ff8c409f79a03cb4021974fe374498926c3e2
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539858"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803410"
 ---
 # <a name="directml-constants"></a>Constantes DirectML
 
@@ -33,11 +33,11 @@ Les constantes suivantes sont déclarées dans `DirectML.h` .
 | DML_PERSISTENT_BUFFER_ALIGNMENT | 256 | Les mémoires tampons temporaires et persistantes doivent avoir une adresse de base qui est alignée sur 256 octets. |
 | DML_MINIMUM_BUFFER_TENSOR_ALIGNMENT | 16 | Les dizaines de tampons ont une exigence d’alignement d’adresse de base minimale de 16 octets. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête | D3D12. h |
+| En-tête | DirectML. h |
 
 ## <a name="see-also"></a>Voir aussi
 

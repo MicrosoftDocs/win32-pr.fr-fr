@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MAX_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: b7314cb6b9456d9ac9f99e90100085e86f88ffd9
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3b0b10fa8ee17c9d06e779c3c990f134bc4ae669
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106524783"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803426"
 ---
 # <a name="dml_max_pooling_grad_operator_desc-structure-directmlh"></a>Structure DML_MAX_POOLING_GRAD_OPERATOR_DESC (directml. h)
 
@@ -79,7 +79,7 @@ En effet, cet opérateur utilise *InputTensor* pour déterminer l’index du plu
 Dans le cas d’un lien (où plusieurs éléments d’une fenêtre ont la même valeur maximale), l’élément avec l’index d’élément logique le plus bas est choisi.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -168,7 +168,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | InputGradientTensor | Entrée | { BatchCount, ChannelCount, OutputHeight, OutputWidth } | 4 | FLOAT32, FLOAT16 |
 | OutputGradientTensor | Output | { BatchCount, ChannelCount, InputHeight, InputWidth } | 4 | FLOAT32, FLOAT16 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SLICE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 63ea67454965d976247c3cdd50aa183f6a676138
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a22efe9b0b74f5fdc7b498b97784086f40f243b9
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538036"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803969"
 ---
 # <a name="dml_slice_grad_operator_desc-structure-directmlh"></a>Structure DML_SLICE_GRAD_OPERATOR_DESC (directml. h)
 
@@ -79,7 +79,7 @@ InputGradientTensor       OutputGradientTensor
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -147,7 +147,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | InputGradientTensor | Entrée | 1 à 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 | OutputGradientTensor | Output | 1 à 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

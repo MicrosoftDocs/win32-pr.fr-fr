@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_SCATTER_ND_OPERATOR_DESC
 - directml/DML_SCATTER_ND_OPERATOR_DESC
-ms.openlocfilehash: ae9a3022a7070bbf0253e71550f2ca1ceced6768
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6c987e01862d849c6215a2d25fe957ef0a22e7af
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106531243"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803975"
 ---
 # <a name="dml_scatter_nd_operator_desc-structure-directmlh"></a>Structure DML_SCATTER_ND_OPERATOR_DESC (directml. h)
 Copie l’ensemble de l’entrée tenseur dans la sortie, puis remplace les index sélectionnés par les valeurs correspondantes de la tenseur mises à jour. Cet opérateur effectue le pseudocode suivant, où « ... » représente une série de coordonnées, avec le comportement exact déterminé par l’axe et la taille des index.
@@ -57,7 +57,7 @@ output[indices[...]] = updates[...]
 Si deux index d’élément de sortie se chevauchent (ce qui n’est pas valide), il n’y a aucune garantie de la dernière écriture qui gagne.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -187,7 +187,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

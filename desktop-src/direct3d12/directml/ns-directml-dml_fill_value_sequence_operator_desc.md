@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_FILL_VALUE_SEQUENCE_OPERATOR_DESC
-ms.openlocfilehash: ec356568c0860d330234cd990e8cf42ff4ccd120
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 17b503630db2108dc4d9d2f5c2f32f7e324189d1
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538240"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803041"
 ---
 # <a name="dml_fill_value_sequence_operator_desc-structure-directmlh"></a>Structure DML_FILL_VALUE_SEQUENCE_OPERATOR_DESC (directml. h)
 
@@ -63,7 +63,7 @@ endfor
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -141,7 +141,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

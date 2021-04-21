@@ -44,19 +44,19 @@ api_location:
 - DirectML.dll
 api_name:
 - DMLCreateDevice1
-ms.openlocfilehash: f40c7e6aa82644b67303bc60f6a8b41fa08c6f8d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f722b12208bd808f01e177feb907f94c33541496
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106531443"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803766"
 ---
 # <a name="dmlcreatedevice1-function-directmlh"></a>DMLCreateDevice1, fonction (directml. h)
 
 Crée un appareil DirectML pour un appareil Direct3D 12 donné.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -121,7 +121,7 @@ Si cette version de DirectML ne prend pas en charge les *minimumFeatureLevel* de
 
 La fonctionnalité outils Graphics à la demande (DOM) doit être installée pour pouvoir utiliser les couches de débogage DirectML. Si l’indicateur de [DML_CREATE_DEVICE_FLAG_DEBUG](/windows/win32/api/directml/ne-directml-dml_create_device_flags) est spécifié dans *Flags* et que les couches de débogage ne sont pas installées, **DMLCreateDevice1** retourne **DXGI_ERROR_SDK_COMPONENT_MISSING**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une version plus récente de cette fonction, [DMLCreateDevice1](), a été introduite dans DirectML version 1.1.0. **DMLCreateDevice1** est équivalent à l’appel de **DMLCreateDevice1** et à la fourniture d’un *minimumFeatureLevel* de [DML_FEATURE_LEVEL_1_0](/windows/win32/api/directml/ne-directml-dml_feature_level).
 
@@ -129,7 +129,7 @@ Une version plus récente de cette fonction, [DMLCreateDevice1](), a été intro
 
 Cette API a été introduite dans la version DirectML `1.1.0` .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Plateforme cible** | Windows |

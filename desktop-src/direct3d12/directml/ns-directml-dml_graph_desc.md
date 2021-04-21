@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_DESC
-ms.openlocfilehash: e72209d19bb26524576783becbbfbf94566d8370
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a42996fc9fd7825e13232b245ab764c6439f9489
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106532349"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802876"
 ---
 # <a name="dml_graph_desc-structure-directmlh"></a>Structure DML_GRAPH_DESC (directml. h)
 
 Décrit un graphique des opérateurs DirectML utilisés pour compiler un opérateur combiné optimisé. Consultez [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -149,7 +149,7 @@ Type : \_ taille du champ \_ \_ (IntermediateEdgeCount) **const [DML_GRAPH_EDGE
 Tableau de connexions entre les entrées et les sorties des nœuds internes du graphique. Le champ de type de chaque élément doit avoir la valeur [DML_GRAPH_EDGE_TYPE_INTERMEDIATE](./ne-directml-dml_graph_edge_type.md)
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Le graphique décrit par cette structure doit être un graphique acycliques orienté. Vous devez définir une connexion pour l’entrée et la sortie de chaque nœud fourni, à l’exception des entrées et des sorties qui sont facultatives pour l’opérateur associé.
 
 Les nœuds peuvent utiliser des opérateurs qui ont été créés à l’aide de l’indicateur [DML_TENSOR_FLAG_OWNED_BY_DML](/windows/win32/api/directml/ne-directml-dml_tensor_flags) pour certaines entrées. Toutes les entrées d’opérateur à l’aide de cet indicateur doivent être connectées aux entrées de graphique. Toutes les entrées d’opérateur connectées à la même entrée de graphique doivent utiliser ou omettre cet indicateur de façon équivalente.
@@ -161,7 +161,7 @@ Il est légal de connecter les opérateurs dont les entrées et les sorties conn
 Cette API a été introduite dans la version DirectML `1.1.0` .
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

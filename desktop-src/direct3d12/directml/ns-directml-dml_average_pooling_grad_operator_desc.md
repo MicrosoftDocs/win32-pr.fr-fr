@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 79a43e93f504e8d6f36553a4f672ef7e5845610f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106532345"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803364"
 ---
 # <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a>Structure DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC (directml. h)
 
@@ -77,7 +77,7 @@ InputGradientTensor            OutputGradientTensor
 Notez que les valeurs de *OutputGradientTensor* représentent les contributions pondérées de cet élément au *OutputTensor* au cours de l’opérateur de [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) d’origine.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -117,31 +117,31 @@ Nombre d’éléments dans les tableaux *Strides*, *Windows*, *StartPadding* et 
 
 `Strides`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 Consultez la section *Strides* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `WindowSize`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 Consultez *Windows* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `StartPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 Consultez *StartPadding* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `EndPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/desktop/WinProg/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
 
 Consultez *EndPadding* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `IncludePadding`
 
-Type : <b> <a href="/windows/desktop/WinProg/windows-data-types">bool</a></b>
+Type : <b> <a href="/windows/win32/winprog/windows-data-types">bool</a></b>
 
 Consultez *IncludePadding* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
@@ -157,7 +157,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | InputGradientTensor | Entrée | 4 à 5 | FLOAT32, FLOAT16 |
 | OutputGradientTensor | Output | 4 à 5 | FLOAT32, FLOAT16 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

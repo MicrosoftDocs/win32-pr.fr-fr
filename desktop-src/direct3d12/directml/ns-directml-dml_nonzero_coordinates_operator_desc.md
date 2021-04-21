@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_NONZERO_COORDINATES_OPERATOR_DESC
-ms.openlocfilehash: a662ac3b341c07e512e11dcc15cbc9b11ec5f405
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 39463ba57bc90b35d5ac5dc7fc43993169137221
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106523742"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803386"
 ---
 # <a name="dml_nonzero_coordinates_operator_desc-structure-directmlh"></a>Structure DML_NONZERO_COORDINATES_OPERATOR_DESC (directml. h)
 
@@ -61,7 +61,7 @@ Cet opérateur produit une matrice MxN de valeurs, où chaque ligne M contient u
 L’opérateur exige que le *OutputCoordinatesTensor* ait une taille suffisamment grande pour prendre en compte un scénario le plus défavorable lorsque chaque élément de l’entrée est différent de zéro. Cet opérateur retourne le nombre d’éléments non nuls via *OutputCountTensor*, que les appelants peuvent inspecter pour déterminer le nombre de coordonnées écrites dans le *OutputCoordinatesTensor*.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -141,7 +141,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | OutputCountTensor | Output | {[1], 1, 1, 1, 1} | 4 à 5 | UINT32 |
 | OutputCoordinatesTensor | Output | {[1], 1, 1, M, N} | 4 à 5 | UINT32 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

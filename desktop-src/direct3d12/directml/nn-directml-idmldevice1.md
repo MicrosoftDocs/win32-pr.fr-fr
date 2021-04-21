@@ -46,12 +46,12 @@ api_location:
 - DirectML.h
 api_name:
 - IDMLDevice1
-ms.openlocfilehash: a23d6ec4299a2aa3ca7e9f6873167412d094af8d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7a10cf2c9fe683775d163c7b5cb0e30fe07de08f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538241"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803739"
 ---
 # <a name="idmldevice1-interface-directmlh"></a>Interface IDMLDevice1 (directml. h)
 
@@ -62,7 +62,7 @@ Un appareil DirectML est toujours associé à un seul appareil Direct3D 12 sous-
 Cet objet est thread-safe.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="availability"></a>Disponibilité
 Cette API a été introduite dans la version DirectML `1.1.0` .
@@ -87,7 +87,7 @@ L’interface IDMLDevice1 hérite de l’interface IDMLDevice.
 | [IDMLDevice1::CompileGraph](../directml/nf-directml-idmldevice1-compilegraph.md) | Compile un graphique d’opérateurs DirectML dans un objet qui peut être distribué au GPU. |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Plateforme cible** | Windows |

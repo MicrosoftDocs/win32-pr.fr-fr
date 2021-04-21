@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_OR_OPERATOR_DESC
-ms.openlocfilehash: e0afa89e18b6393efc976a782469d1a9765211f0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7138c6647e1bd4df5d8957468ca67f103f4a3f5a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538729"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803220"
 ---
 # <a name="dml_element_wise_bit_or_operator_desc-structure-directmlh"></a>Structure DML_ELEMENT_WISE_BIT_OR_OPERATOR_DESC (directml. h)
 
@@ -61,7 +61,7 @@ Les tenseur d’entrée et de sortie doivent avoir les mêmes *DimensionCount*, 
 Cet opérateur prend en charge l’exécution sur place, ce qui signifie que le tenseur de sortie est autorisé à effectuer un alias d’un ou plusieurs des dizaines d’entrée pendant la liaison.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -107,7 +107,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | BTensor | Entrée | 1 à 8 | UINT32, UINT16, UINT8 |
 | OutputTensor | Output | 1 à 8 | UINT32, UINT16, UINT8 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

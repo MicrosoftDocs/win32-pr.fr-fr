@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_OPERATOR_GRAPH_NODE_DESC
-ms.openlocfilehash: 6081f81044ff2ce384f7906af9c6e80f6b06f774
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 997f441de76a60229b76f2f7d67b7acf1a26ed5f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538245"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803558"
 ---
 # <a name="dml_operator_graph_node_desc-structure-directmlh"></a>Structure DML_OPERATOR_GRAPH_NODE_DESC (directml. h)
 Décrit un nœud dans un graphique d’opérateurs DirectML définis par [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) et passé à [IDMLDevice1 :: CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph).
@@ -57,7 +57,7 @@ Décrit un nœud dans un graphique d’opérateurs DirectML définis par [DML_GR
 Le comportement de ce nœud est défini par un opérateur DirectML.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -90,7 +90,7 @@ Cette API a été introduite dans la version DirectML `1.1.0` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

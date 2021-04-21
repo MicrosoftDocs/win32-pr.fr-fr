@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_DEPTH_TO_SPACE1_OPERATOR_DESC
-ms.openlocfilehash: 639bda0b8d398d24b01649635d3cfcbd2301a211
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 89b62a9916ee77dd6907d01710624d6e9a40a20a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106527029"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803265"
 ---
 # <a name="dml_depth_to_space1_operator_desc-structure-directmlh"></a>Structure DML_DEPTH_TO_SPACE1_OPERATOR_DESC (directml. h)
 
@@ -58,7 +58,7 @@ Réorganise (permute) les données de profondeur en blocs de données spatiales.
 Il s’agit de la transformation inverse de [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md).
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -162,7 +162,7 @@ OutputTensor: (Sizes:{1, 2, 4, 6}, DataType:UINT32)
 ```
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Lorsque *Order* a la valeur [DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW](./ne-directml-dml_depth_space_order.md), **DML_DEPTH_TO_SPACE1_OPERATOR_DESC** équivaut à [DML_DEPTH_TO_SPACE_OPERATOR_DESC]().
 
 ## <a name="availability"></a>Disponibilité
@@ -178,7 +178,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputTensor | Output | { BatchCount, OutputChannelCount, OutputHeight, OutputWidth } | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

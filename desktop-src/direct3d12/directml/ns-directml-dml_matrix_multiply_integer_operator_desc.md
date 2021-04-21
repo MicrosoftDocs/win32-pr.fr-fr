@@ -46,12 +46,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC
-ms.openlocfilehash: f6ecccf49b0d7123e6f41321c7ba1bf8e8d4ad87
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f498e84208da451b5d25ffef90219c0037ce86fb
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106539784"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802837"
 ---
 # <a name="dml_matrix_multiply_integer_operator_desc-structure-directmlh"></a>Structure DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC (directml. h)
 Exécute une fonction de multiplication de matrice sur des données de type entier.
@@ -61,7 +61,7 @@ Cet opérateur exige que la matrice multiplie les dizaines d’entrée par 4D, q
 Par exemple, si *ATensor* a *une taille de* , et que BTensor a une taille de, `{ BatchCount, ChannelCount, M, K }` et que   `{ BatchCount, ChannelCount, K, N }` *OutputTensor* a une *taille* de, `{ BatchCount, ChannelCount, M, N }` alors l’opérateur de multiplication de matrice effectuera BatchCount * ChannelCount des multiplications de matrices indépendantes {M, K} x {K, N} = {m, n}.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -130,7 +130,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

@@ -37,18 +37,18 @@ api_name:
 f1_keywords:
 - DML_MAX_POOLING2_OPERATOR_DESC
 - directml/DML_MAX_POOLING2_OPERATOR_DESC
-ms.openlocfilehash: 7d2dc9d28e8afcaa5cc6277e26f1f663f3f6688f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 06e4d7eb01abab9c412238e353a73607df02b219
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106527028"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803672"
 ---
 # <a name="dml_max_pooling2_operator_desc-structure-directmlh"></a>Structure DML_MAX_POOLING2_OPERATOR_DESC (directml. h)
 Calcule la valeur maximale sur les éléments au sein de la fenêtre glissante sur le tenseur d’entrée, et retourne éventuellement les index des valeurs maximales sélectionnées.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -142,7 +142,7 @@ Type : \_ \_ taille \_ de champ (DimensionCount) <b>const [uint](/windows/deskt
 Valeurs pour chaque dimension spatiale du tenseur d’entrée *InputTensor* par lequel un élément de la fenêtre glissante est sélectionné pour chaque élément de cette valeur. Les valeurs se trouvent dans `{ Height, Width }` lorsque *DimensionCount* a la valeur 2, ou lorsque la `{ Depth, Height, Width }` valeur est égale à 3.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 **DML_MAX_POOLING2_OPERATOR_DESC** remplace la version antérieure [DML_MAX_POOLING_OPERATOR1_DESC](/windows/win32/api/directml/ns-directml-dml_max_pooling1_operator_desc) par des *dilatations* de tableau constantes supplémentaires. Les deux versions sont équivalentes lorsque la valeur de *dilatations* est définie sur `{ 1,1 }` pour une entrée 4D, ou `{ 1,1,1 }` pour les fonctionnalités d’entrée de 5D.
 
 ## <a name="availability"></a>Disponibilité
@@ -168,7 +168,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputIndicesTensor | Sortie facultative | 4 à 5 | UINT32 |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Client minimal pris en charge** | Windows 10, version 2004 (10,0 ; Build 19041) |

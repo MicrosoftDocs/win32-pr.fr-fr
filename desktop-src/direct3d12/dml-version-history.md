@@ -1,17 +1,17 @@
 ---
-title: Historique des versions de DirectML
+title: Historique des versions DirectML
 description: DirectML est distribué en tant que composant système de Windows 10 et est disponible dans le cadre du système d’exploitation Windows 10 (se) dans Windows 10, version 1903 (10,0 ; Build 18362) et versions ultérieures.
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 04cb7a2c906d7674c793a9a99e21609ea874dbc1
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f5e0a478b2d4c6728a1cd53388ba09af8e5bbc0e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104548621"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803937"
 ---
-# <a name="directml-version-history"></a>Historique des versions de DirectML
+# <a name="directml-version-history"></a>Historique des versions DirectML
 
 DirectML est distribué en tant que composant système de Windows 10 et est disponible dans le cadre du système d’exploitation Windows 10 (se) dans Windows 10, version 1903 (10,0 ; Build 18362) et versions ultérieures.
 
@@ -23,7 +23,8 @@ DirectML suit les conventions de contrôle de [version sémantique](https://semv
 
 |Version de DirectML|Niveau de fonctionnalité pris en charge (voir [l’historique des niveaux de fonctionnalité DirectML](./dml-feature-level-history.md))|DML_TARGET_VERSION|Tout d’abord disponible dans|Tout d’abord disponible dans (redistribuable)|
 |-|-|-|-|-|-|
-|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/)|
+|1.5.0|DML_FEATURE_LEVEL_3_1|`0x3100`|N/A|[DirectML-1.5.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.5.0)|
+|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4.0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.4.0)|
 |1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10, version 2004 (10,0 ; Build 19041) (Windows 10 mai 2020 Update). Alias « 20H1 ».|N/A|
 |1.0.0|DML_FEATURE_LEVEL_1_0|`0x1000`|Windows 10, version 1903 (10,0 ; Build 18362) (Windows 10 mai 2019 Update). Alias « 19H1 ».|N/A|
 
@@ -70,6 +71,6 @@ Par exemple, une application qui s’exécute sur un kit de développement logic
 
 ## <a name="see-also"></a>Voir aussi
 
-[Historique des](./dml-feature-level-history.md) 
- niveaux de fonctionnalité DirectML [Énumération DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level) 
- [Package redistribuable Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)
+* [Historique des niveaux de fonctionnalité DirectML](./dml-feature-level-history.md)
+* [Énumération DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
+* [Package redistribuable Microsoft. AI. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)

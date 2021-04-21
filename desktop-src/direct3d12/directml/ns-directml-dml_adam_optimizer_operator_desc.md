@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ADAM_OPTIMIZER_OPERATOR_DESC
-ms.openlocfilehash: a4acd26f5174bf6c6ae53f5edfdc28cc6c9b1a3d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9943f70bd3d62faf57f4eca83f9f09ce0119881a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106523739"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803529"
 ---
 # <a name="dml_adam_optimizer_operator_desc-structure-directmlh"></a>Structure DML_ADAM_OPTIMIZER_OPERATOR_DESC (directml. h)
 
@@ -82,7 +82,7 @@ OutputSecondMomentTensor = V
 En plus de calculer les paramètres de pondération mis à jour (retournés dans *OutputParametersTensor*), cet opérateur retourne également les estimations des première et deuxième heure mises à jour dans *OutputFirstMomentTensor* et *OutputSecondMomentTensor*, respectivement. En règle générale, vous devez stocker ces estimations des premières et des secondes, et les fournir en tant qu’entrées au cours de l’étape de formation suivante.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -203,7 +203,7 @@ Type : **float**
 
 Petite valeur utilisée pour aider à la stabilité numérique en empêchant la division par zéro. Pour les entrées à virgule flottante 32 bits, les valeurs standard sont 1e-8 ou `FLT_EPSILON` .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Cet opérateur prend en charge l’exécution sur place, ce qui signifie que chaque tenseur de sortie est autorisé à aliaser un tenseur d’entrée éligible pendant la liaison. Par exemple, il est possible de lier la même ressource pour *InputParametersTensor* et *OutputParametersTensor* afin d’obtenir efficacement une mise à jour sur place des paramètres d’entrée. Tous les dizaines de temps d’entrée de cet opérateur, à l’exception de *TrainingStepTensor*, peuvent être associés à un alias de cette manière.
 
 ## <a name="availability"></a>Disponibilité
@@ -225,7 +225,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | OutputFirstMomentTensor | Output | {D0, D1, D2, D3} | 4 | FLOAT32, FLOAT16 |
 | OutputSecondMomentTensor | Output | {D0, D1, D2, D3} | 4 | FLOAT32, FLOAT16 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

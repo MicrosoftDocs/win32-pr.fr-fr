@@ -50,12 +50,12 @@ api_location:
 - DirectML.dll
 api_name:
 - IDMLDevice1.CompileGraph
-ms.openlocfilehash: 25dbc62fac9cd38d9728a295e336038441aee19f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8a9b4ce9bd8f8bd8b1d6f2a6bbd144009eb0d79d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538422"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803750"
 ---
 # <a name="idmldevice1compilegraph-method-directmlh"></a>IDMLDevice1 :: CompileGraph, méthode (directml. h)
 
@@ -66,7 +66,7 @@ Un opérateur compilé représente le formulaire efficace et cuit d’un opérat
 L’opérateur compilé n’utilise pas ni ne référence les objets [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) fournis dans la description du graphique après le retour de cette méthode.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -112,13 +112,13 @@ Type : [ **HRESULT**](/windows/desktop/winprog/windows-data-types)
 
 Si cette méthode est réussie, elle retourne **S_OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’API Graph de l’opérateur DirectML fournit une méthode abstraite pour utiliser efficacement DirectML sur différents matériels. DirectML applique des optimisations de niveau tenseur, telles que le choix de la disposition de tenseur la plus efficace en fonction de l’adaptateur utilisé. Elle applique également des optimisations telles que la suppression des opérateurs de jointure ou de fractionnement.
 
 Nous vous recommandons d’appliquer des optimisations de haut niveau avant de générer un graphique DirectML. Par exemple, le refus d’opérateurs de convolution avec BatchNorm, le repli de constante et l’élimination commune de sous-expression. Les optimisations au sein de l’optimiseur de graphique de DirectML sont destinées à compléter les optimisations indépendantes des appareils, qui sont généralement gérées de façon générique par Machine Learning frameworks.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Plateforme cible** | Windows |

@@ -4,12 +4,12 @@ description: Certains opérateurs DirectML prennent en charge un concept connu s
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: b692727d52e252bb3752573e692bcf5beda794e2
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: bba4a9d0ef5c69976a5a344432bf82d31b00c0c7
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548624"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803987"
 ---
 # <a name="using-fused-operators-to-improve-performance"></a>Utilisation d’opérateurs fusionnés pour améliorer les performances
 
@@ -102,5 +102,5 @@ Les opérateurs qui ne sont pas dans cette liste ne sont pas pris en charge pour
 
 ## <a name="see-also"></a>Voir aussi
 
-[Exemple DirectMLSuperResolution](https://github.com/microsoft/DirectML/tree/master/Samples)    
-[DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)
+* [Exemple DirectMLSuperResolution](https://github.com/microsoft/DirectML/tree/master/Samples)    
+* [DML_CONVOLUTION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_convolution_operator_desc)

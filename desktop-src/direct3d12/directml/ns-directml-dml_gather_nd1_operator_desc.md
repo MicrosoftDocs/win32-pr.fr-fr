@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ND1_OPERATOR_DESC
-ms.openlocfilehash: dc7f33f50fa6a0c1cd2850b8e02aad30d75afeb1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b92c8aece88d8466357bb8e48fd3ce5a3b73d2e3
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106531298"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802861"
 ---
 # <a name="dml_gather_nd1_operator_desc-structure-directmlh"></a>Structure DML_GATHER_ND1_OPERATOR_DESC (directml. h)
 
@@ -61,7 +61,7 @@ output[batch, ...] = input[batch, indices[batch, ...], ...]
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -142,7 +142,7 @@ Type : [ **uint**](/windows/desktop/winprog/windows-data-types)
 
 Nombre de dimensions au sein de chaque tenseur (*InputTensor*, *IndicesTensor*, *OutputTensor*) qui sont considérées comme des lots indépendants, à la fois dans [0, *InputTensor. DimensionCount*) et dans [0, *IndicesTensor. DimensionCount*). Le nombre de lots peut être égal à 0, ce qui implique un seul lot. Par exemple, étant donné *IndicesTensor. Sizes*  =  `{1,3,4,5,6,7}` et *IndicesDimensionCount* = 5 et `BatchDimensionCount` = 2, il existe des lots `{3,4}` et des index significatifs `{5,6,7}` .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 **DML_GATHER_ND1_OPERATOR_DESC** ajoute *BatchDimensionCount* et équivaut à [DML_GATHER_ND_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_gather_nd_operator_desc) lorsque *BatchDimensionCount* = 0.
 
 ## <a name="examples"></a>Exemples
@@ -212,7 +212,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | IndicesTensor | Entrée | 1 à 8 | INT64, INT32, UINT64, UINT32 |
 | OutputTensor | Output | 1 à 8 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

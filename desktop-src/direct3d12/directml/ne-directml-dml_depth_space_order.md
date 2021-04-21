@@ -39,19 +39,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_DEPTH_SPACE_ORDER
-ms.openlocfilehash: 21ab43f81a5959fc6722f5f4dedc3f60319ba642
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 009686adfc054c7b6344f01edafedaf2921693d5
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106535095"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803541"
 ---
 # <a name="dml_depth_space_order-enumeration-directmlh"></a>Énumération DML_DEPTH_SPACE_ORDER (directml. h)
 
 Définit des constantes contrôlant la transformation appliquée dans les opérateurs DirectML [DML_OPERATOR_DEPTH_TO_SPACE1](/windows/win32/api/directml/ne-directml-dml_operator_type) et **DML_OPERATOR_SPACE_TO_DEPTH1**. Elles sont utilisées dans les structures [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) et [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) .
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -68,11 +68,11 @@ typedef enum DML_DEPTH_SPACE_ORDER {
 | DML_DEPTH_SPACE_ORDER_DEPTH_COLUMN_ROW | Provoque l’interprétation des dizaines d' [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) et des [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) avec les dispositions suivantes, où les dimensions entre parenthèses sont aplaties ensemble.<br><br>- **Version de profondeur**: [lot, (BlockHeight, BlockWidth, canaux), hauteur, largeur]<br>- **Version d’espace**: [lot, canaux, (hauteur, BlockHeight), (largeur, BlockWidth)] |
 | DML_DEPTH_SPACE_ORDER_COLUMN_ROW_DEPTH | Provoque l’interprétation des dizaines d' [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) et des [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) avec les dispositions suivantes, où les dimensions entre parenthèses sont aplaties ensemble.<br><br>- **Version de profondeur**: [lot, (canaux, BlockHeight, BlockWidth), hauteur, largeur]<br>- **Version d’espace**: [lot, canaux, (hauteur, BlockHeight), (largeur, BlockWidth)] |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour obtenir des exemples illustrant l’effet de ces valeurs, consultez la documentation [DML_DEPTH_TO_SPACE1_OPERATOR_DESC](./ns-directml-dml_depth_to_space1_operator_desc.md) et [DML_SPACE_TO_DEPTH1_OPERATOR_DESC](./ns-directml-dml_space_to_depth1_operator_desc.md) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

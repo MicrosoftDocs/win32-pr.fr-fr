@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC
-ms.openlocfilehash: 4b292b1b6e12f4643e928022f59603fd75e080fb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3c8dddc3159ebcd857c7423b76856fbeba465d2e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522868"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803233"
 ---
 # <a name="dml_element_wise_bit_count_operator_desc-structure-directmlh"></a>Structure DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC (directml. h)
 
@@ -59,7 +59,7 @@ Calcule le nombre de remplissages au niveau du bit (nombre de bits défini sur 1
 Les tenseur d’entrée et de sortie doivent avoir les mêmes *DimensionCount* et *tailles*, même si elles peuvent être différentes dans le *type de données*.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -109,7 +109,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_0` .
 | InputTensor | Entrée | 1 à 8 | UINT32, UINT16, UINT8 |
 | OutputTensor | Output | 1 à 8 | UINT32, UINT8 |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

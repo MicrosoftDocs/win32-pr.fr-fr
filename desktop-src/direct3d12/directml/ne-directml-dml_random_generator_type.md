@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_TYPE
-ms.openlocfilehash: bcb79fe7737e8b9ddb461c8da8a901960a4b23f8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c08b5cdc07280a2851636a555415ecce515fa79b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106538247"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803755"
 ---
 # <a name="dml_random_generator_type-enumeration-directmlh"></a>Énumération DML_RANDOM_GENERATOR_TYPE (directml. h)
 
 Définit des constantes qui spécifient des types de générateur de nombres aléatoires aléatoires.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -74,7 +74,7 @@ enum DML_RANDOM_GENERATOR_TYPE
 | DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10 | Spécifie un générateur de nombres pseudo-aléatoires en fonction de l' [algorithme Philox 4x32-10](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf). |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

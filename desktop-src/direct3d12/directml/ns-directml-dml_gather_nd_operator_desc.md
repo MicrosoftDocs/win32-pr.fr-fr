@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ND_OPERATOR_DESC
-ms.openlocfilehash: 6a48fd19621bed100a13412dbb1992974d125323
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8e74078eaf55f209fba92ba97737d22047a5e67c
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106538303"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802902"
 ---
 # <a name="dml_gather_nd_operator_desc-structure-directmlh"></a>Structure DML_GATHER_ND_OPERATOR_DESC (directml. h)
 
@@ -60,7 +60,7 @@ output[...] = input[indices[...]]
 ```
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -175,7 +175,7 @@ OutputTensor: (Sizes:{1,1, 2,2}, DataType:FLOAT32)
 ```
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 Une version plus récente de cet opérateur, `DML_OPERATOR_GATHER_ND1` , a été introduite dans `DML_FEATURE_LEVEL_3_0` .
 
 ## <a name="availability"></a>Disponibilité
@@ -201,7 +201,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_2_1` .
 | OutputTensor | Output | 4 | FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8 |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |

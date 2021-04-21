@@ -39,19 +39,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AXIS_DIRECTION
-ms.openlocfilehash: 18cd2189f88378245be0824e0a68e5f618008bc7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e54d2abed3843ea9b2a22cb3c385f9edd1541ba5
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106539783"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803776"
 ---
 # <a name="dml_axis_direction-enumeration-directmlh"></a>Énumération DML_AXIS_DIRECTION (directml. h)
 
 Définit des constantes qui spécifient la direction d’une opération le long de l’axe donné pour l’opérateur (par exemple, la somme, en sélectionnant les éléments les plus hauts, en sélectionnant l’élément minimum).
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (voir [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/). Consultez également [l’historique des versions DirectML](../dml-version-history.md).
+> Cette API est disponible dans le cadre du package redistribuable autonome DirectML (consultez [Microsoft. ai. DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1,4 et versions ultérieures. Consultez également [l’historique des versions DirectML](../dml-version-history.md).
 
 ## <a name="syntax"></a>Syntaxe
 ```cpp
@@ -69,7 +69,7 @@ typedef enum DML_AXIS_DIRECTION {
 | DML_AXIS_DIRECTION_DECREASING | Spécifie l’ordre décroissant (de l’index le plus élevé vers l’index faible). |
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **En-tête** | directml. h |
