@@ -39,21 +39,21 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: ea60bbd4933cd890321e0caeb095778922699a46
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3d5b2168e5154f2e55b6f5acb83897f68d4a029c
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522267"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881828"
 ---
-# <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a><span data-ttu-id="06e5b-103">DWRITE_BITMAP_DATA_BGRA32 structure (dwrite_3. h)</span><span class="sxs-lookup"><span data-stu-id="06e5b-103">DWRITE_BITMAP_DATA_BGRA32 structure (dwrite_3.h)</span></span>
+# <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a><span data-ttu-id="b79cd-103">DWRITE_BITMAP_DATA_BGRA32 structure (dwrite_3. h)</span><span class="sxs-lookup"><span data-stu-id="b79cd-103">DWRITE_BITMAP_DATA_BGRA32 structure (dwrite_3.h)</span></span>
 
-<span data-ttu-id="06e5b-104">Représente des données bitmap au format BGRA32.</span><span class="sxs-lookup"><span data-stu-id="06e5b-104">Represents bitmap data in BGRA32 format.</span></span>
+<span data-ttu-id="b79cd-104">Représente des données bitmap au format BGRA32.</span><span class="sxs-lookup"><span data-stu-id="b79cd-104">Represents bitmap data in BGRA32 format.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="06e5b-105">Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md).</span><span class="sxs-lookup"><span data-stu-id="06e5b-105">This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md).</span></span> <span data-ttu-id="06e5b-106">DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes.</span><span class="sxs-lookup"><span data-stu-id="06e5b-106">DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform.</span></span> <span data-ttu-id="06e5b-107">Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview).</span><span class="sxs-lookup"><span data-stu-id="06e5b-107">For more info, and code examples, see [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).</span></span>
+> <span data-ttu-id="b79cd-105">Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md).</span><span class="sxs-lookup"><span data-stu-id="b79cd-105">This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md).</span></span> <span data-ttu-id="b79cd-106">DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes.</span><span class="sxs-lookup"><span data-stu-id="b79cd-106">DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform.</span></span> <span data-ttu-id="b79cd-107">Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview).</span><span class="sxs-lookup"><span data-stu-id="b79cd-107">For more info, and code examples, see [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="06e5b-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="06e5b-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b79cd-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b79cd-108">Syntax</span></span>
 
 ```cpp
 struct DWRITE_BITMAP_DATA_BGRA32
@@ -64,35 +64,35 @@ struct DWRITE_BITMAP_DATA_BGRA32
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="06e5b-109">Membres</span><span class="sxs-lookup"><span data-stu-id="06e5b-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="b79cd-109">Membres</span><span class="sxs-lookup"><span data-stu-id="b79cd-109">Members</span></span>
 
 `width`
 
-<span data-ttu-id="06e5b-110">Type : **[UInt32](../../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="06e5b-110">Type: **[UINT32](../../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="b79cd-110">Type : **[UInt32](../../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="b79cd-110">Type: **[UINT32](../../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="06e5b-111">Largeur, en pixels, de la bitmap.</span><span class="sxs-lookup"><span data-stu-id="06e5b-111">The width, in pixels, of the bitmap.</span></span>
+<span data-ttu-id="b79cd-111">Largeur, en pixels, de la bitmap.</span><span class="sxs-lookup"><span data-stu-id="b79cd-111">The width, in pixels, of the bitmap.</span></span>
 
 
 `height`
 
-<span data-ttu-id="06e5b-112">Type : **[UInt32](../../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="06e5b-112">Type: **[UINT32](../../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="b79cd-112">Type : **[UInt32](../../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="b79cd-112">Type: **[UINT32](../../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="06e5b-113">Hauteur, en pixels, de la bitmap.</span><span class="sxs-lookup"><span data-stu-id="06e5b-113">The height, in pixels, of the bitmap.</span></span>
+<span data-ttu-id="b79cd-113">Hauteur, en pixels, de la bitmap.</span><span class="sxs-lookup"><span data-stu-id="b79cd-113">The height, in pixels, of the bitmap.</span></span>
 
 
 `pixels`
 
-<span data-ttu-id="06e5b-114">Type : \_ taille du champ \_ \_ (largeur \* hauteur)**[UInt32](../../winprog/windows-data-types.md)\***</span><span class="sxs-lookup"><span data-stu-id="06e5b-114">Type: \_Field\_size\_(width \* height)**[UINT32](../../winprog/windows-data-types.md)\***</span></span>
+<span data-ttu-id="b79cd-114">Type : \_ taille du champ \_ \_ (largeur \* hauteur)**[UInt32](../../winprog/windows-data-types.md)\***</span><span class="sxs-lookup"><span data-stu-id="b79cd-114">Type: \_Field\_size\_(width \* height)**[UINT32](../../winprog/windows-data-types.md)\***</span></span>
 
-<span data-ttu-id="06e5b-115">Pointeur vers l’emplacement des valeurs de bit de l’image bitmap.</span><span class="sxs-lookup"><span data-stu-id="06e5b-115">A pointer to the location of the bit values for the bitmap.</span></span>
+<span data-ttu-id="b79cd-115">Pointeur vers l’emplacement des valeurs de bit de l’image bitmap.</span><span class="sxs-lookup"><span data-stu-id="b79cd-115">A pointer to the location of the bit values for the bitmap.</span></span>
 
 
-## <a name="examples"></a><span data-ttu-id="06e5b-116">Exemples</span><span class="sxs-lookup"><span data-stu-id="06e5b-116">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="b79cd-116">Exemples</span><span class="sxs-lookup"><span data-stu-id="b79cd-116">Examples</span></span>
 
-<span data-ttu-id="06e5b-117">Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .</span><span class="sxs-lookup"><span data-stu-id="06e5b-117">See the [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.</span></span>
+<span data-ttu-id="b79cd-117">Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .</span><span class="sxs-lookup"><span data-stu-id="b79cd-117">See the [DWriteCore overview](/windows/win32/DirectWrite/dwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="06e5b-118">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="06e5b-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b79cd-118">Spécifications</span><span class="sxs-lookup"><span data-stu-id="b79cd-118">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="06e5b-119">**Client minimal pris en charge**</span><span class="sxs-lookup"><span data-stu-id="06e5b-119">**Minimum supported client**</span></span> | <span data-ttu-id="06e5b-120">Windows 10, projet Réunion 0,1 version préliminaire [applications Win32]</span><span class="sxs-lookup"><span data-stu-id="06e5b-120">Windows 10, Project Reunion 0.1 Prerelease [Win32 apps]</span></span> |
-| <span data-ttu-id="06e5b-121">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="06e5b-121">**Header**</span></span> | <span data-ttu-id="06e5b-122">dwrite_3. h (inclure dwrite_core. h)</span><span class="sxs-lookup"><span data-stu-id="06e5b-122">dwrite_3.h (include dwrite_core.h)</span></span> |
+| <span data-ttu-id="b79cd-119">**Client minimal pris en charge**</span><span class="sxs-lookup"><span data-stu-id="b79cd-119">**Minimum supported client**</span></span> | <span data-ttu-id="b79cd-120">Windows 10, réunion de projet (applications Win32)</span><span class="sxs-lookup"><span data-stu-id="b79cd-120">Windows 10, Project Reunion [Win32 apps]</span></span> |
+| <span data-ttu-id="b79cd-121">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="b79cd-121">**Header**</span></span> | <span data-ttu-id="b79cd-122">dwrite_3. h (inclure dwrite_core. h)</span><span class="sxs-lookup"><span data-stu-id="b79cd-122">dwrite_3.h (include dwrite_core.h)</span></span> |
