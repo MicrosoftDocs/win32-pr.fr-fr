@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8064ae996831f61869d74ff1fd7c0f2222257b85
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4bcde8d55032d2e07466668b5a4d96b9a447d843
+ms.sourcegitcommit: 35baf9ba19918a38c4ca8714f88c004af0c6f518
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106538366"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107838803"
 ---
 # <a name="jetdefragment2-function"></a>JetDefragment2 fonction)
 
@@ -70,7 +70,15 @@ Base de données à défragmenter.
 
 *szTableName*
 
-Paramètre inutilisé. La défragmentation est effectuée pour l’ensemble de la base de données décrite par l’ID de base de données spécifié.
+Parfois, *szTableName* est requis, et il est parfois interdit :
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Doit être `NULL`. |
+| `JET_bitDefragmentBTree` | Spécifie le nom de la table/BTree à défragmenter. |
+| *autres* | Doit être `NULL`. |
+ 
+La défragmentation est effectuée pour l’ensemble de la base de données décrite par l’ID de base de données spécifié.
 
 *pcPasses*
 
@@ -87,6 +95,13 @@ Lorsque ce paramètre est défini sur NULL ou si *pcSeconds* pointe vers une val
 *rappel*
 
 Fonction de rappel que la défragmentation appelle régulièrement pour signaler la progression.
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | Doit être `NULL`. |
+| `JET_bitDefragmentBTree` | Doit être `NULL`. |
+| *autres* | facultatif.
+
 
 *grbit*
 
@@ -118,7 +133,11 @@ Groupe de bits spécifiant zéro ou plusieurs des options suivantes.
 </tr>
 <tr class="even">
 <td><p>JET_bitDefragmentBTree</p></td>
-<td><p>Cette option est utilisée pour défragmenter une arborescence binaire (B-Tree).</p></td>
+<td><p>Cette option est utilisée pour défragmenter une arborescence binaire (B-Tree), spécifiée par szTableName.</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_bitDefragmentBTreeBatch</p></td>
+<td><p>Cette option est utilisée pour appeler OLD2 sur l’ensemble de la base de données.</p></td>
 </tr>
 </tbody>
 </table>
@@ -204,7 +223,7 @@ En cas de réussite, l’action demandée de démarrage d’une tâche de défra
 
 En cas d’échec, l’action demandée de démarrage ou d’arrêt d’un travail de défragmentation en ligne n’est pas effectuée. Aucun autre effet secondaire ne se produit.
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 La défragmentation en ligne est contrôlée à la fois par un paramètre, ainsi que par cette API. La valeur par défaut du paramètre système est JET_OnlineDefragAll, ce qui signifie que la défragmentation est activée pour toutes les structures de données prises en charge. Toutefois, à l’aide de [JetSetSystemParameter](./jetsetsystemparameter-function.md), il est possible de désactiver la défragmentation en ligne ou de l’activer de manière sélective pour les arborescences d’espace de base de données uniquement, les bases de données uniquement, les fichiers de streaming uniquement ou une combinaison de ces options. Si le paramètre système pour la défragmentation en ligne est un paramètre obsolète, **JetDefragment2** traite le paramètre comme JET_OnlineDefragAll.
 
@@ -212,7 +231,7 @@ Il peut y avoir au plus une tâche en cours d’exécution pour chaque base de d
 
 La session utilisée pour démarrer la tâche de défragmentation en ligne peut être utilisée par la suite pour les opérations de base de données pendant que la tâche de défragmentation se poursuit, car la tâche de défragmentation alloue sa propre session. La session donnée est utilisée uniquement pour vérifier les autorisations associées à la session de démarrage de la tâche et n’est pas réellement utilisée pour les opérations de défragmentation elles-mêmes.
 
-#### <a name="requirements"></a>Configuration requise
+#### <a name="requirements"></a>Spécifications
 
 <table>
 <colgroup>
