@@ -39,12 +39,12 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2
-ms.openlocfilehash: edc1df695424eac0bbf0d5a4951b5e9fe4ec0809
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e12bceefd7ffb89a427edc04b4910b6346dfb066
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211191"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881818"
 ---
 # <a name="idwritebitmaprendertarget2-interface-dwrite_3h"></a>Interface IDWriteBitmapRenderTarget2 (dwrite_3. h)
 
@@ -65,8 +65,8 @@ L’interface **IDWriteBitmapRenderTarget2** possède ces méthodes.
 | ---- |:---- |
 | [IDWriteBitmapRenderTarget2::GetBitmapData](./nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md) | Récupère les données de pixels d’une cible de rendu bitmap. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, projet Réunion 0,1 version préliminaire [applications Win32] |
+| **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |
 | **En-tête** | dwrite_3. h (inclure dwrite_core. h) |

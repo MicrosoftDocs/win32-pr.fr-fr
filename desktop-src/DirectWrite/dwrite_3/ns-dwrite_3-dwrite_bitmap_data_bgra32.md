@@ -39,12 +39,12 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: ea60bbd4933cd890321e0caeb095778922699a46
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3d5b2168e5154f2e55b6f5acb83897f68d4a029c
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522267"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881828"
 ---
 # <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a>DWRITE_BITMAP_DATA_BGRA32 structure (dwrite_3. h)
 
@@ -91,8 +91,8 @@ Pointeur vers l’emplacement des valeurs de bit de l’image bitmap.
 
 Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, projet Réunion 0,1 version préliminaire [applications Win32] |
+| **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |
 | **En-tête** | dwrite_3. h (inclure dwrite_core. h) |

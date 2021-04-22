@@ -39,12 +39,12 @@ api_location:
 - dwrite.h
 api_name:
 - DWRITE_FACTORY_TYPE
-ms.openlocfilehash: 603b2ae525ddc6472a3b8581627f2877e06d1aac
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 87b0d1c2edcb836afd06d732f242b62441b9bd01
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "104032280"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881808"
 ---
 # <a name="dwrite_factory_type-enumeration-dwriteh"></a>Énumération DWRITE_FACTORY_TYPE (DWRITE. h)
 
@@ -58,7 +58,7 @@ Spécifie le type d’objet de fabrique DirectWrite.
 typedef enum DWRITE_FACTORY_TYPE {
   DWRITE_FACTORY_TYPE_SHARED,
   DWRITE_FACTORY_TYPE_ISOLATED,
-  DWRITE_FACTORY_TYPE_RESTRICTED
+  DWRITE_FACTORY_TYPE_ISOLATED2
 } ;
 ```
 
@@ -68,20 +68,20 @@ typedef enum DWRITE_FACTORY_TYPE {
 | ---- |:---- |
 | DWRITE_FACTORY_TYPE_SHARED | Indique que la fabrique DirectWrite est une fabrique partagée et qu’elle permet la réutilisation des données de police mises en cache sur plusieurs composants in-process. De telles fabriques tirent également parti des composants de mise en cache des polices inter-processus pour de meilleures performances. |
 | DWRITE_FACTORY_TYPE_ISOLATED | Indique que l’objet de fabrique DirectWrite est isolé. Les objets créés à partir de la fabrique isolée n’interagissent pas avec l’État DirectWrite interne à partir d’autres composants. |
-| DWRITE_FACTORY_TYPE_RESTRICTED | Les objets créés à partir d’une fabrique limitée n’utilisent pas et ne modifient pas l’état interne ni les données mises en cache utilisées par d’autres fabriques. En outre, la collection de polices système contient uniquement des polices bien connues.|
+| DWRITE_FACTORY_TYPE_ISOLATED2 | Indique que l’objet de fabrique DirectWrite est limité. Les objets créés à partir d’une fabrique limitée n’utilisent pas et ne modifient pas l’état interne ni les données mises en cache utilisées par d’autres fabriques. En outre, la collection de polices système contient uniquement des polices bien connues.|
 
 ## <a name="examples"></a>Exemples
 
 Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/DirectWrite/dwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un objet de fabrique DirectWrite contient des informations sur son état interne, telles que l’inscription du chargeur de polices et les données de police mises en cache. Dans la plupart des cas, vous devez utiliser l’objet de fabrique partagée, car il permet à plusieurs composants qui utilisent DirectWrite de partager des informations d’État DirectWrite internes, réduisant ainsi l’utilisation de la mémoire. Toutefois, dans certains cas, il est souhaitable de réduire l’impact d’un composant sur le reste du processus, par exemple un plug-in à partir d’une source non fiable, en le sandboxant et en l’isolant du reste des composants de processus. Dans ce cas, vous devez utiliser une fabrique isolée pour le composant sandbox.
 
-Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Si vous transmettez **DWRITE_FACTORY_TYPE_RESTRICTED** à une version de DWRITE antérieure à DWriteCore, [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) retourne **E_INVALIDARG**.
+Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Si vous transmettez **DWRITE_FACTORY_TYPE_ISOLATED2** à une version de DWRITE antérieure à DWriteCore, [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) retourne **E_INVALIDARG**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, projet Réunion 0,1 version préliminaire [applications Win32] |
+| **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |
 | **En-tête** | DWrite. h (inclure dwrite_core. h) |
