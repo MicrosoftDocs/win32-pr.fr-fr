@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3434fe9f9aa528aa8d201b56ed363753c594690f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8c7b53e0abae08447df86d8968a33a361be08a1e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312736"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908827"
 ---
 # <a name="transformation-state-variables"></a>Variables d’état de transformation
 
 <dl> <dt><span id="GL_MODELVIEW_MATRIX"></span><span id="gl_modelview_matrix"></span>\_matrice MODELVIEW \_ GL</dt> <dd> 
 
-|                  |                                    |
+| Propriété | Valeur |
 |------------------|------------------------------------|
 | Description :     | Pile de matrices Modelview             |
 | Groupe d’attributs : |                                    |
@@ -32,11 +32,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_PROJECTION_MATRIX"></span><span id="gl_projection_matrix"></span>\_matrice de projection GL \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Pile de matrice de projection                                                        |
 | Groupe d’attributs : |                                                                                |
@@ -45,11 +45,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_TEXTURE_MATRIX"></span><span id="gl_texture_matrix"></span>\_matrice de texture GL \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Pile de matrices de texture                                                           |
 | Groupe d’attributs : |                                                                                |
@@ -58,11 +58,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_VIEWPORT"></span><span id="gl_viewport"></span>\_fenêtre d’affichage comptabilité</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Origine de la fenêtre d’affichage et étendue                                                       |
 | Groupe d’attributs : | fenêtre d'affichage                                                                         |
@@ -71,11 +71,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_DEPTH_RANGE"></span><span id="gl_depth_range"></span>\_plage de profondeur GL \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Plage de profondeur proche et éloignée                                                       |
 | Groupe d’attributs : | fenêtre d'affichage                                                                       |
@@ -84,11 +84,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MODELVIEW_STACK_DEPTH"></span><span id="gl_modelview_stack_depth"></span>profondeur de la \_ pile MODELVIEW GL \_ \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Pointeur de pile de matrices Modelview                                                   |
 | Groupe d’attributs : |                                                                                  |
@@ -97,11 +97,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_PROJECTION_STACK_DEPTH"></span><span id="gl_projection_stack_depth"></span>profondeur de la \_ pile de projection GL \_ \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Pointeur de pile de la matrice de projection                                                  |
 | Groupe d’attributs : |                                                                                  |
@@ -110,11 +110,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_TEXTURE_STACK_DEPTH"></span><span id="gl_texture_stack_depth"></span>profondeur de la \_ pile de textures GL \_ \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Pointeur de pile de matrice de texture                                                     |
 | Groupe d’attributs : |                                                                                  |
@@ -123,11 +123,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MATRIX_MODE"></span><span id="gl_matrix_mode"></span>\_mode de matrice du GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Mode matrice actuel                                                              |
 | Groupe d’attributs : | transformation                                                                        |
@@ -136,11 +136,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_NORMALIZE"></span><span id="gl_normalize"></span>normalisation du GL \_</dt> <dd> 
 
-|                  |                                     |
+| Propriété | Valeur |
 |------------------|-------------------------------------|
 | Description :     | Normalisation normale active/inactive |
 | Groupe d’attributs : | transformation/activation                    |
@@ -149,11 +149,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CLIP_PLANE_i"></span><span id="gl_clip_plane_i"></span><span id="GL_CLIP_PLANE_I"></span>\_Plan de clip GL \_ *i*</dt> <dd> 
 
-|                  |                                          |
+| Propriété | Valeur |
 |------------------|------------------------------------------|
 | Description :     | Coefficients de plan de découpage utilisateur         |
 | Groupe d’attributs : | transformation                                |
@@ -162,11 +162,11 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CLIP_PLANE_i"></span><span id="gl_clip_plane_i"></span><span id="GL_CLIP_PLANE_I"></span>\_Plan de clip GL \_ *i*</dt> <dd> 
 
-|                  |                                    |
+| Propriété | Valeur |
 |------------------|------------------------------------|
 | Description :     | *mon* plan de découpage d’utilisateur est activé |
 | Groupe d’attributs : | transformation/activation                   |
@@ -175,13 +175,13 @@ ms.locfileid: "104312736"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

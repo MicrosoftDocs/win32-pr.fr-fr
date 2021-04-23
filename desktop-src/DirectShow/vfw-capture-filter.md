@@ -4,12 +4,12 @@ ms.assetid: 663b6b3b-2a50-4586-9506-600a59869abe
 title: Filtre de capture VFW
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1471f32ebc5cbb6d008de4abe59140b81a56b90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1eadc2c8a22ed6e00ff76d79a0b7ce2db012abb4
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517734"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908397"
 ---
 # <a name="vfw-capture-filter"></a>Filtre de capture VFW
 
@@ -19,7 +19,7 @@ Ce filtre a deux broches de sortie. L’une est appelée capture et l’autre es
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | **IPersistPropertyBag**, [**IAMVfwCaptureDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcapturedialogs), [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), **ISpecifyPropertyPages**, [**IOverlayNotify**](/windows/desktop/api/Strmif/nn-strmif-ioverlaynotify)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Types de média de broche d’entrée                    | Non applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -36,7 +36,7 @@ Ce filtre a deux broches de sortie. L’une est appelée capture et l’autre es
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que le code confidentiel de capture expose l’interface [**IAMStreamConfig**](/windows/desktop/api/Strmif/nn-strmif-iamstreamconfig) , seules les méthodes **SetFormat** et **GetFormat** sont implémentées pour cette interface.
 

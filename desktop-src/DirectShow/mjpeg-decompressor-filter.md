@@ -4,12 +4,12 @@ ms.assetid: 0862fd8c-7e64-4472-9405-4d8e31e4401f
 title: Filtre de décompresseur MJPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ebe8f5f19cb94d75c1ce01cd94dc723100560de
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 23a3e3c09d218a83f5243bf6702d3b5fc3ae1c16
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522455"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910017"
 ---
 # <a name="mjpeg-decompressor-filter"></a>Filtre de décompresseur MJPEG
 
@@ -17,7 +17,7 @@ Ce filtre décode un flux vidéo de Motion JPEG en vidéo non compressée. Certa
 
 
 
-|                                          |                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ MJPG                                                                                                               |
@@ -34,7 +34,7 @@ Ce filtre décode un flux vidéo de Motion JPEG en vidéo non compressée. Certa
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre est compatible avec Motion JPEG Video qui utilise le code FOURCC « MJPG ». Il ne peut pas décoder d’autres types de mouvement JPEG. Pour cela, vous devez utiliser un filtre de décodeur tiers.
 

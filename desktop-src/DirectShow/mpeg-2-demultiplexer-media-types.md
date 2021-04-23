@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: Types de média du démultiplexeur MPEG-2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b21eecff138b987c791ecd97056fb4cf417dd98d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106542097"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909997"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>Types de média du démultiplexeur MPEG-2
 
@@ -77,7 +77,7 @@ Le démultiplexeur MPEG-2 ne valide pas les types de sortie ; le filtre en aval
 
 
 
-|                  |                                          |
+| Étiquette | Valeur |
 |------------------|------------------------------------------|
 | Type principal       | **Vidéo de MEDIATYPE \_**                     |
 | Subtype          | **\_Vidéo MEDIASUBTYPE MPEG2 \_**           |
@@ -92,7 +92,7 @@ Le démultiplexeur MPEG-2 ne valide pas les types de sortie ; le filtre en aval
 
 
 
-|                  |                                      |
+| Étiquette | Valeur |
 |------------------|--------------------------------------|
 | Type principal       | **Audio de MEDIATYPE \_**                 |
 | Subtype          | **MEDIASUBTYPE \_ MPEG2 \_ audio**       |

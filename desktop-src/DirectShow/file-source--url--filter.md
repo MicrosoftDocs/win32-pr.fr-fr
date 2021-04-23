@@ -4,12 +4,12 @@ ms.assetid: 405fd6ea-aa17-4d11-8f07-067468cb090b
 title: Filtre de source de fichier (URL)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caea04b74a6880452210f1a43d5dfb29f8753dd3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a0ddfa7282adbf5117bd2c52465c6eb30efbd69e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109571"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909237"
 ---
 # <a name="file-source-url-filter"></a>Filtre de source de fichier (URL)
 
@@ -17,7 +17,7 @@ Le filtre de source du fichier d’URL est un filtre de source asynchrone géné
 
 
 
-|                                          |                                                                                                                                      |
+| Étiquette | Valeur |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMOpenProgress**](/windows/desktop/api/Strmif/nn-strmif-iamopenprogress), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)       |
 | Types de média de broche d’entrée                    | Non applicable                                                                                                                       |
@@ -34,7 +34,7 @@ Le filtre de source du fichier d’URL est un filtre de source asynchrone géné
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre utilise URLMon et prend en charge les pages de codes.
 

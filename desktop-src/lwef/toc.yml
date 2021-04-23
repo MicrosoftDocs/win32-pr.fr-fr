@@ -317,7 +317,7 @@
                   items:
                     - name: Modèle objet de l’agent
                       href: the-agent-object-model.md
-                - name: Informations de référence
+                - name: Référence
                   href: reference-.md
                   items:
                     - name: Objet de la requête
@@ -655,7 +655,7 @@
                   href: accessing-services-using-java.md
                 - name: Accès aux services vocaux
                   href: accessing-speech-services.md
-                - name: Informations de référence
+                - name: Référence
                   href: reference.md
                   items:
                     - name: IAgent
@@ -1303,7 +1303,7 @@
                   href: '-search-2x-iresultsviewer-sortorderproperty.md'
                 - name: SortProperty
                   href: '-search-2x-iresultsviewer-sortproperty.md'
-                - name: Arrêter
+                - name: Stop
                   href: '-search-2x-iresultsviewer-stop.md'
                 - name: Update
                   href: '-search-2x-iresultsviewer-update.md'
@@ -1327,13 +1327,13 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: DoIt
                   href: '-search-2x-iresultverb-doit.md'
-                - name: activé
+                - name: Permis
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
                 - name: Icône
                   href: '-search-2x-iresultverb-icon.md'
-                - name: Name
+                - name: Nom
                   href: '-search-2x-iresultverb-name.md'
             - name: ISearchResult
               href: '-search-2x-isearchresult.md'
@@ -1410,7 +1410,7 @@
     - name: Windows Defender
       href: windows-defender-bumper.md
       items:
-        - name: Informations de référence
+        - name: Référence
           href: defender-ref-entry.md
           items:
             - name: Énumérations Windows Defender
@@ -1579,7 +1579,7 @@
               href: endpointdlp-dlpnotifyclosedocumentfile.md
             - name: DlpNotifyEnterDropTarget
               href: endpointdlp-dlpnotifyenterdroptarget.md
-            - name: DlpInitializeEnforcementMode
+            - name: DlpGetEnforcementApiVersion
               href: endpointdlp-dlpgetenforcementapiversion.md
             - name: DlpInitializeEnforcementMode
               href: endpointdlp-dlpinitializeenforcementmode.md

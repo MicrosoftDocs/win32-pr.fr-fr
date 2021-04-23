@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
-ms.openlocfilehash: 4a0cdc21bdd8c320728da0c0af8c0af023de68eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5153f6f79c2807634149222a126a7256a65ffe8a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537379"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908487"
 ---
 # <a name="mpeg2_transport_stride-structure"></a>\_Structure Stride de transport MPEG2 \_
 
@@ -28,7 +28,7 @@ Les paquets Stride sont identifiés par le type de média suivant :
 
 
 
-|             |                                        |
+| Étiquette | Valeur |
 |-------------|----------------------------------------|
 | Type principal  | Flux de MEDIATYPE \_                      |
 | Subtype     | \_Stride de \_ transport MEDIASUBTYPE MPEG2 \_ |
@@ -78,7 +78,7 @@ Spécifie la longueur de l’ensemble du paquet Stride, en octets. La valeur doi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le diagramme suivant illustre les relations entre les membres de structure.
 

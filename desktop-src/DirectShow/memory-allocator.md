@@ -4,12 +4,12 @@ ms.assetid: 2dc055a2-b77a-443d-b602-d9636cbe4db3
 title: Allocateur de mémoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be12e25886eda968a00b10386a6eac3fd36e7279
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4e2412adb78be18ac8c14eb4706624424f97ff13
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522204"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909418"
 ---
 # <a name="memory-allocator"></a>Allocateur de mémoire
 
@@ -17,7 +17,7 @@ L’objet allocateur de mémoire alloue des tampons pour les exemples de support
 
 
 
-|                  |                                        |
+| Étiquette | Valeur |
 |------------------|----------------------------------------|
 | Identificateur de classe | CLSID \_ MemoryAllocator                 |
 | Interfaces       | [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) |

@@ -4,12 +4,12 @@ ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: Types vidéo H. 264
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dcd33703798e305947cdcd663c7a86c7c494683
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 692a751e197e2e7bbb088b30dd2a3f5f199d56de
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103949952"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909017"
 ---
 # <a name="h264-video-types"></a>Types vidéo H. 264
 
@@ -41,7 +41,7 @@ Lorsque les codes de démarrage sont présents dans le flux binaire, le type de 
 
 
 
-|             |                                                                                                   |
+| Étiquette | Valeur |
 |-------------|---------------------------------------------------------------------------------------------------|
 | Type principal  | **Vidéo de MEDIATYPE \_**                                                                              |
 | Sous-types    | **MEDIASUBTYPE \_ H264 –**, **MEDIASUBTYPE \_ H264 –**, **MEDIASUBTYPE \_ x264** ou **MEDIASUBTYPE \_** x264 |
@@ -65,7 +65,7 @@ Lorsque les codes de début ne sont pas présents dans le flux binaire, le type 
 
 
 
-|             |                        |
+| Étiquette | Valeur |
 |-------------|------------------------|
 | Type principal  | **Vidéo de MEDIATYPE \_**   |
 | Subtype     | **MEDIASUBTYPE \_ AVC1** |

@@ -4,12 +4,12 @@ ms.assetid: 5cc11f26-80b2-4548-af33-2fdf883e3189
 title: Élément Track
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4884f9be6ba9aa481ab36ef2f4fb73d3786afe6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fe15d979c390efaaeca523ef64740ce5ef5779a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529178"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910047"
 ---
 # <a name="track-element"></a>Élément Track
 
@@ -28,7 +28,7 @@ L' `track` élément définit un objet Track.
 
 
 
-|          |                                                                                                          |
+| Étiquette | Valeur |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [ **groupe**](group-element.md)                                   |
 | Children | [**clip**](clip-element.md), [**effet**](effect-element.md), [**transition**](transition-element.md) |

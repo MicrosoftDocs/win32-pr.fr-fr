@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.devices.midi.h
-ms.openlocfilehash: 060bb00629b78fb1edbfbfd193aeaf7514c98ba4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fa27ceda0c249f88f4684979382495167cb9238
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529964"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909407"
 ---
 # <a name="midi-renderer-filter"></a>Filtre de convertisseur MIDI
 
@@ -26,7 +26,7 @@ Le filtre de convertisseur MIDI effectue le rendu des données MIDI à partir du
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                      |
+| Étiquette | Valeur |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMClockSlave**](/windows/desktop/api/Strmif/nn-strmif-iamclockslave), [**IAMDirectSound**](/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound), [**IAMResourceControl**](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IBasicAudio**](/windows/desktop/api/Control/nn-control-ibasicaudio), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock) |
 | Types de média de broche d’entrée                    | \_Midi MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                                                                                                                                                                  |
@@ -43,7 +43,7 @@ Le filtre de convertisseur MIDI effectue le rendu des données MIDI à partir du
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le GUID du type de format est **null**, mais le bloc de format contient la structure suivante :
 

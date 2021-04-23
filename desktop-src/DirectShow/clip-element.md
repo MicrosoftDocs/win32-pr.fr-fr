@@ -4,12 +4,12 @@ ms.assetid: 40323e64-ad5f-4646-bad7-2a4e7d0ddcf6
 title: Élément clip
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fe975113f370b13e50ba695d6fb3388a43c3a74
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6d937f942ba7b564e65b0e37d9c11929805287da
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104480993"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908667"
 ---
 # <a name="clip-element"></a>Élément clip
 
@@ -28,7 +28,7 @@ ms.locfileid: "104480993"
 
 
 
-|          |                                  |
+| Étiquette | Valeur |
 |----------|----------------------------------|
 | Parent   | [**track**](track-element.md)   |
 | Children | [**résultat**](effect-element.md) |
@@ -37,7 +37,7 @@ ms.locfileid: "104480993"
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **CLSID** spécifie le CLSID d’un filtre source à utiliser comme source. Ne spécifiez pas les attributs **src** et **CLSID** dans le même `clip` élément.
 

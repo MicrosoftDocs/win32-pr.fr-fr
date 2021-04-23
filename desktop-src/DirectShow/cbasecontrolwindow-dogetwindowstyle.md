@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2667e4cbeef2d40bdc5bff8381ee3f07b3d0942f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d970ee52203c5c8dfe8a897c5612604becc2b2e1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533070"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909817"
 ---
 # <a name="cbasecontrolwindowdogetwindowstyle-method"></a>Méthode CBaseControlWindow. DoGetWindowStyle
 
@@ -57,7 +57,7 @@ Valeur spécifiant les styles à récupérer. Doit prendre l'une des valeurs sui
 
 
 
-|              |                                      |
+| Étiquette | Valeur |
 |--------------|--------------------------------------|
 | \_style GWL   | Récupérer les styles de fenêtre.          |
 | GWL \_ EXstyle | Récupérer les styles de fenêtre étendus. |
@@ -68,11 +68,11 @@ Valeur spécifiant les styles à récupérer. Doit prendre l'une des valeurs sui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre appelle la fonction Win32 **GetWindowLong** pour récupérer le style de fenêtre. Elle est appelée par les fonctions membres [**CBaseControlWindow :: obten \_ WindowStyle**](cbasecontrolwindow-get-windowstyle.md) et [**CBaseControlWindow :: obten \_ WindowStyleEx**](cbasecontrolwindow-get-windowstyleex.md) .
 

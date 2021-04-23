@@ -4,12 +4,12 @@ ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
 title: Effect, élément (Gdipluseffects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd31e85407b99c3dffd4417a051be168f7c6d3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c925e61578857415bb22248a9ad2b1df27cdac
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537851"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908657"
 ---
 # <a name="effect-element"></a>Effect, élément
 
@@ -28,7 +28,7 @@ L' `effect` élément définit un objet d’effet audio ou vidéo. Un effet est 
 
 
 
-|          |                                                                                                                                      |
+| Étiquette | Valeur |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Parent   | [**composite**](composite-element.md), [**Group**](group-element.md), [**clip**](clip-element.md), [**Track**](track-element.md) |
 | Children | [**envoyés**](param-element.md)                                                                                                       |
@@ -37,7 +37,7 @@ L' `effect` élément définit un objet d’effet audio ou vidéo. Un effet est 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **CLSID** spécifie le sous-objet qui crée l’effet.
 

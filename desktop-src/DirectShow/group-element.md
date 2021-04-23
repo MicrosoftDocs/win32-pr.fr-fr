@@ -4,12 +4,12 @@ ms.assetid: db2f1fdd-bcb1-4401-91f4-5e167e4da215
 title: Group, élément (DirectShow)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe0b8146586d93a53093a68bb1abc08e85c52f14
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 31502cef89c8383e935f409d76b9e31ca53a2da1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950316"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909247"
 ---
 # <a name="group-element"></a>Group, élément
 
@@ -28,7 +28,7 @@ L’élément **Group** définit un groupe, l’objet de niveau supérieur dans 
 
 
 
-|          |                                                                                                          |
+| Étiquette | Valeur |
 |----------|----------------------------------------------------------------------------------------------------------|
 | Parent   | [**actualité**](timeline-element.md)                                                                     |
 | Children | [**composite**](composite-element.md), [**Effect**](effect-element.md), [**Track**](track-element.md) |
@@ -37,7 +37,7 @@ L’élément **Group** définit un groupe, l’objet de niveau supérieur dans 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans un `group` élément, la priorité des couches imbriquées est déterminée implicitement par l’ordre dans lequel elles apparaissent dans l’élément. La première couche a la priorité 0 et les couches suivantes comportent des valeurs de priorité accrues.
 

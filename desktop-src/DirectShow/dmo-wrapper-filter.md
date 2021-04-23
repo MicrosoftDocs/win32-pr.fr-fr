@@ -4,12 +4,12 @@ ms.assetid: ffa6234d-9040-4838-8f51-0cf87df40a5c
 title: Filtre de wrappers DMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b01ee006203e2e1fd328bacc13c01de4a3b25f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d29c5b86bdff4a215ec2ef5854d09a1f842dbf0e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482433"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908627"
 ---
 # <a name="dmo-wrapper-filter"></a>Filtre de wrappers DMO
 
@@ -17,7 +17,7 @@ Le filtre de wrapper DMO permet à une application DirectShow d’utiliser un [o
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IDMOWrapperFilter**](/previous-versions/windows/desktop/api/Dmodshow/nn-dmodshow-idmowrapperfilter), [**IPersistStream**](/windows/desktop/api/objidl/nn-objidl-ipersiststream)                                                                                                                       |
 | Types de média de broche d’entrée                    | Voir les notes                                                                                                                                                                                                                                        |
@@ -34,7 +34,7 @@ Le filtre de wrapper DMO permet à une application DirectShow d’utiliser un [o
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="limitations"></a>Limites
 

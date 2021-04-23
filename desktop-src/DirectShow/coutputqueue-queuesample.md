@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 45b1295ea1a9ded145356e6b0495b7b873dff200
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efe0ec3b2326d1af0d0075770bdc6443ab9dcad
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523479"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910067"
 ---
 # <a name="coutputqueuequeuesample-method"></a>Méthode COutputQueue. QueueSample
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ajoute un exemple à la fin de la file d’attente. Maintenez la section critique avant d’appeler cette méthode et appelez-la uniquement lorsque l’objet utilise un thread pour remettre des exemples. Pour déterminer si l’objet utilise un thread, appelez la méthode [**COutputQueue :: IsQueued**](coutputqueue-isqueued.md) .
 
@@ -61,7 +61,7 @@ Cette méthode peut également être utilisée pour placer des messages de contr
 
 
 
-|               |                                        |
+| Étiquette | Valeur |
 |---------------|----------------------------------------|
 | Message       | Action                                 |
 | \_paquet EOS   | Fournir une notification de fin de flux. |

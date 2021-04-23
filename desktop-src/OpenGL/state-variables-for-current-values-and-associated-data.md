@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aeab660299aa278017e12556a941353d624147d7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 149139bc11698469ce0667c2ecf77bc7ab239adb
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380684"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908467"
 ---
 # <a name="state-variables-for-current-values-and-associated-data"></a>Variables d’État pour les valeurs actuelles et les données associées
 
 <dl> <dt><span id="GL_CURRENT_COLOR"></span><span id="gl_current_color"></span>\_couleur actuelle du GL \_</dt> <dd> 
 
-|                  |                                                                                                                      |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------------------------------------------|
 | Description :     | Couleur actuelle                                                                                                        |
 | Groupe d’attributs : | actuels                                                                                                              |
@@ -32,11 +32,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_INDEX"></span><span id="gl_current_index"></span>\_index actuel du GL \_</dt> <dd> 
 
-|                  |                                                                                                                                                                |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description :     | Index des couleurs actuelles                                                                                                                                            |
 | Groupe d’attributs : | actuels                                                                                                                                                        |
@@ -45,11 +45,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_TEXTURE_COORDS"></span><span id="gl_current_texture_coords"></span>coordonnées de la \_ texture actuelle du GL \_ \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Coordonnées de texture actuelles                                                    |
 | Groupe d’attributs : | actuels                                                                        |
@@ -58,11 +58,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_NORMAL"></span><span id="gl_current_normal"></span>GL \_ actuel- \_ normal</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Normal actuel                                                                 |
 | Groupe d’attributs : | actuels                                                                        |
@@ -71,11 +71,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_POSITION"></span><span id="gl_current_raster_position"></span>\_position du raster actuel du GL \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Position du raster actuel                                                        |
 | Groupe d’attributs : | actuels                                                                        |
@@ -84,11 +84,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_DISTANCE"></span><span id="gl_current_raster_distance"></span>DISTANCE de la \_ \_ trame actuelle du GL \_</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Distance de trame actuelle                                                        |
 | Groupe d’attributs : | actuels                                                                        |
@@ -97,11 +97,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_COLOR"></span><span id="gl_current_raster_color"></span>\_couleur de \_ trame \_ actuelle du GL</dt> <dd> 
 
-|                  |                                                                                                                                                                |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description :     | Couleur associée à la position raster                                                                                                                          |
 | Groupe d’attributs : | actuels                                                                                                                                                        |
@@ -110,11 +110,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_INDEX"></span><span id="gl_current_raster_index"></span>\_index de \_ trame \_ actuel du GL</dt> <dd> 
 
-|                  |                                                                                                                                                                |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Description :     | Index de couleurs associé à la position raster                                                                                                                    |
 | Groupe d’attributs : | actuels                                                                                                                                                        |
@@ -123,11 +123,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_TEXTURE_COORDS"></span><span id="gl_current_raster_texture_coords"></span>coordonnées de la \_ \_ texture raster actuelle \_ du \_ GL</dt> <dd> 
 
-|                  |                                                                                |
+| Propriété | Valeur |
 |------------------|--------------------------------------------------------------------------------|
 | Description :     | Coordonnées de texture associées à la position raster                            |
 | Groupe d’attributs : | actuels                                                                        |
@@ -136,11 +136,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_CURRENT_RASTER_POSITION_VALID"></span><span id="gl_current_raster_position_valid"></span>\_position de \_ trame actuelle de GL \_ \_ valide</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Bit de position de trame valide                                                        |
 | Groupe d’attributs : | actuels                                                                          |
@@ -149,11 +149,11 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_EDGE_FLAG"></span><span id="gl_edge_flag"></span>\_indicateur de périphérie du GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Indicateur de périphérie                                                                        |
 | Groupe d’attributs : | actuels                                                                          |
@@ -162,13 +162,13 @@ ms.locfileid: "104380684"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

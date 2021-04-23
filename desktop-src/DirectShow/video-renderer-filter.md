@@ -4,12 +4,12 @@ ms.assetid: 7719ed9d-e3b9-4c84-b587-4e120b5cabf8
 title: Filtre de convertisseur vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c71e72375a43a57ce94b38d01f48abba9309e603
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ca3becb4fbdbb52a9968481aade07d14d963828
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201838"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908417"
 ---
 # <a name="video-renderer-filter"></a>Filtre de convertisseur vidéo
 
@@ -29,7 +29,7 @@ Le convertisseur vidéo utilise DirectDraw et des surfaces de recouvrement, si l
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo), [**IBasicVideo2**](/windows/desktop/api/Control/nn-control-ibasicvideo2), [**IDirectDrawVideo**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-idirectdrawvideo), [**IKsPropertySet**](ikspropertyset.md), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) |
 | Types de média de broche d’entrée                    | Formats vidéo non compressés.                                                                                                                                                                                                                                                                                                                                                                              |
@@ -46,7 +46,7 @@ Le convertisseur vidéo utilise DirectDraw et des surfaces de recouvrement, si l
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans la version Debug de Quartz.dll, si le \_ niveau de débogage de trace du journal est défini à 5 ou plus, le convertisseur vidéo affiche les horodatages de chaque image dans la fenêtre vidéo. Ces chiffres n’apparaissent pas dans la version commercialisée de la DLL. Pour plus d’informations, consultez [fonctions de sortie de débogage](debug-output-functions.md).
 

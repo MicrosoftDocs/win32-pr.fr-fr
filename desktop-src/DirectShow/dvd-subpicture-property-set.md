@@ -4,12 +4,12 @@ ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: Jeu de propriétés de sous-image de DVD (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2706bd0a7f078fb7352e70e8f8eb62f5dea948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a45b83595e8657ee0c60f39cd67f2d0e4c71511
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542416"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909087"
 ---
 # <a name="dvd-subpicture-property-set"></a>Jeu de propriétés de sous-image de DVD
 
@@ -19,7 +19,7 @@ Les informations suivantes présentent les constantes et types de données néce
 
 
 
-|                   |                            |
+| Étiquette | Valeur |
 |-------------------|----------------------------|
 | GUID de jeu de propriétés | AM \_ KSPROPSETID \_ DvdSubPic |
 
@@ -39,7 +39,7 @@ Les informations suivantes présentent les constantes et types de données néce
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La **propriété \_ \_ DVDSUBPIC \_ HLI** est définie sur la propriété am uniquement. Elle spécifie un rectangle de sous-image ou d’écran dont la couleur ou le contraste seront modifiés. Cela diffère de la spécification DVD-Video, dans le fait que le navigateur de DVD Microsoft analyse toutes les informations relatives aux boutons et au clavier et passe un seul rectangle de surbrillance au décodeur de sous-image à un moment donné. Par conséquent, les informations de mise en surbrillance sont envoyées au décodeur plus souvent qu’elles ne sont présentes dans le flux DVD.
 

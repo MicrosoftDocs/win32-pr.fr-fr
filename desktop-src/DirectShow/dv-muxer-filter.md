@@ -4,12 +4,12 @@ ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: Filtre DV du multiplexeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2154dd1fc1617ff3f717b1ace6e52c9c507a38e8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 013251f2f9c1946aaa0f7b3c95edfd2de81c4d78
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747397"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908597"
 ---
 # <a name="dv-muxer-filter"></a>Filtre DV du multiplexeur
 
@@ -17,7 +17,7 @@ Ce filtre combine un flux vidéo encodé en vidéo numérique (DV) avec un ou de
 
 
 
-|                                          |                                                                                                                                        |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [ **IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)                                                             |
 | Types de média de broche d’entrée                    | **Vidéo**: MediaType \_ Video, MEDIASUBTYPE \_ DVSD, format \_ videoinfo **audio**: MediaType \_ audio, MEDIASUBTYPE \_ PCM, format \_ WaveFormatEx |
@@ -34,7 +34,7 @@ Ce filtre combine un flux vidéo encodé en vidéo numérique (DV) avec un ou de
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le du multiplexeur DV peut créer deux broches d’entrée audio. Il prend en charge les formats audio indiqués dans le tableau suivant.
 

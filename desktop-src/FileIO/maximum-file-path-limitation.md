@@ -4,12 +4,12 @@ title: Limite de longueur maximale du chemin d’accès
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 3d71d87f69aeb224cde256ce78bd29fd0bf5c291
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 4bf5050f24827a2033c1e56fd9413c04f4e59500
+ms.sourcegitcommit: ece80b9b7082415b2f894b0696b6b3f0c8544d72
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314802"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107899738"
 ---
 # <a name="maximum-path-length-limitation"></a>Limite de longueur maximale du chemin d’accès
 
@@ -42,7 +42,9 @@ Pour activer le nouveau comportement de chemin d’accès long, les deux conditi
 
 * La clé de Registre `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)` doit exister et avoir la valeur 1. La valeur de la clé est mise en cache par le système (par processus) après le premier appel à une fonction de répertoire ou de fichier Win32 affectée (voir ci-dessous pour obtenir la liste des fonctions). La clé de registre ne sera pas rechargée pendant la durée de vie du processus. Pour que toutes les applications sur le système reconnaissent la valeur de la clé, un redémarrage peut être nécessaire car certains processus peuvent avoir démarré avant que la clé ait été définie.
 
-Vous pouvez également copier ce code dans un `.reg` fichier que vous pouvez définir pour vous :
+Vous pouvez également copier ce code dans un `.reg` fichier qui peut le définir pour vous, ou utiliser la commande PowerShell à partir d’une fenêtre de terminal avec des privilèges élevés :
+# <a name="cmd"></a>[cmd](#tab/cmd)
+
 ```cmd
 Windows Registry Editor Version 5.00
 
@@ -50,6 +52,16 @@ Windows Registry Editor Version 5.00
 "LongPathsEnabled"=dword:00000001
 
 ```
+
+# <a name="powershell"></a>[PowerShell](#tab/powershell)
+
+```powershell
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+```
+
+---
 
 > [!NOTE]  
 > Cette clé de Registre peut également être contrôlée via stratégie de groupe à l’adresse `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths` .

@@ -4,12 +4,12 @@ ms.assetid: 0a5f4e92-e703-4487-91b0-15265744004e
 title: Filtre de couleur VGA 16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85db9d8fad706c96f19bb5bea6b0476b0ddec735
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11d343843b002eb205e1d0718b282546bdc19907
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034807"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908677"
 ---
 # <a name="vga-16-color-ditherer-filter"></a>Filtre de couleur VGA 16
 
@@ -17,7 +17,7 @@ Le filtre de couleur VGA 16 est converti à partir d’un type de couleur RVB en
 
 
 
-|                                          |                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ RGB8                                                                                                               |

@@ -4,12 +4,12 @@ ms.assetid: e59b3086-4f62-4541-8bef-b0581f01906f
 title: Filtre de source Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe60a038cfd5109a5c55ca6c40640d39b2426d3a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fa8e2c2f2e575a70d85fdce3d9b8d643e270f721
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104211223"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908997"
 ---
 # <a name="windows-media-source-filter"></a>Filtre de source Windows Media
 
@@ -27,7 +27,7 @@ Le moyen le plus simple pour une application de lire du contenu multimédia Wind
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IAMChannelInfo**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamchannelinfo), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**IAMOpenProgress**](/windows/desktop/api/Strmif/nn-strmif-iamopenprogress), [**IAMNetShowConfig**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowconfig), [**IAMNetShowExProps**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowexprops), [**IAMNetShowPreroll**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetshowpreroll), [**IAMNetworkStatus**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamnetworkstatus), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter) |
 | Types de média de broche d’entrée                    | Non applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -43,7 +43,7 @@ Le moyen le plus simple pour une application de lire du contenu multimédia Wind
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le CLSID du filtre n’est pas défini dans qnetwork. h. Utilisez cette macro dans votre propre fichier d’en-tête :
 

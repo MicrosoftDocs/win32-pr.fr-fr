@@ -4,12 +4,12 @@ ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: Filtre de distributeur vidéo analogique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2eb086b85859a3e1e895cd322c68c56916ac19a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d17d8700131dbc658a5233d56f339c39eac7a3a0
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950137"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909597"
 ---
 # <a name="analog-video-crossbar-filter"></a>Filtre de distributeur vidéo analogique
 
@@ -23,7 +23,7 @@ Pour plus d’informations sur les filtres de wrapper et les périphériques de 
 
 
 
-|                                          |                                                                                                |
+| Étiquette | Valeur |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar), ISpecifyPropertyPages, IPersistPropertyBag, IPersistStream |
 | Types de média de broche d’entrée                    | MEDIATYPE \_ AnalogAudio, MediaType \_ AnalogVideo                                                 |

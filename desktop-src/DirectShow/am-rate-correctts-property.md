@@ -4,12 +4,12 @@ ms.assetid: f04e8291-734f-483e-b756-5362beb68d9c
 title: AM_RATE_CorrectTS, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa410b079d3de63de364662c7d5465c82814d24a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15c65b613f892708dc210af2ca2a05efb74785fb
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539967"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910297"
 ---
 # <a name="am_rate_correctts-property"></a>\_ \_ Propriété CORRECTTS rate AM
 
@@ -17,7 +17,7 @@ Le navigateur DVD utilise cette propriété pour informer le décodeur que le na
 
 
 
-|                   |                               |
+| Étiquette | Valeur |
 |-------------------|-------------------------------|
 | GUID de jeu de propriétés | AM \_ KSPROPSETID \_ TSRateChange |
 | ID de propriété       | \_Taux am \_ CorrectTS           |
@@ -27,7 +27,7 @@ Le navigateur DVD utilise cette propriété pour informer le décodeur que le na
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les versions antérieures du navigateur DVD n’ont pas défini les horodatages corrects lorsque la vitesse de lecture était différente de 1,0. De nombreux décodeurs contournent ce problème en ignorant les horodatages pendant le rembobinage ou l’avance rapide, et en estimant les durées de présentation appropriées.
 

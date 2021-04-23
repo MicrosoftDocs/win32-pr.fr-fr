@@ -4,12 +4,12 @@ ms.assetid: 2d33ae3f-565d-4e69-8fb0-117ff582a4d0
 title: Filtre de décodage WST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f2d20873ff9a5e7c009c4a84f7a23c273d6590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb6804f82e5d15aa324feb163261544969e3c45
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863382"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908477"
 ---
 # <a name="wst-decoder-filter"></a>Filtre de décodage WST
 
@@ -26,7 +26,7 @@ Ce filtre peut être ajouté automatiquement au graphique en appelant [**ICaptur
 
 
 
-|                                          |                                                               |
+| Étiquette | Valeur |
 |------------------------------------------|---------------------------------------------------------------|
 | Interfaces de filtre                        | ISpecifyPropertyPages, [ **IAMWstDecoder**](/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
 | Types de média de broche d’entrée                    | MEDIATYPE \_ VBI, \_ TÉLÉtexte MEDIASUBTYPE                        |

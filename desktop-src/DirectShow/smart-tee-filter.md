@@ -4,12 +4,12 @@ ms.assetid: 25bfbd62-b6be-4d1f-aa4c-77798bbb9fc9
 title: Filtre tee intelligent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 647e04ef2a24bde43c9d02b7986fd8a645a6b60c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c52077066f69e50fbb5218012a402a8d556c15c1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482297"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909297"
 ---
 # <a name="smart-tee-filter"></a>Filtre tee intelligent
 
@@ -23,7 +23,7 @@ L’illustration suivante montre un graphique de capture classique qui utilise l
 
 
 
-|                                          |                                                                                                                |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                             |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ null                                                                           |
@@ -40,7 +40,7 @@ L’illustration suivante montre un graphique de capture classique qui utilise l
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le code PIN de capture est la broche de sortie 0 et le code PIN de sortie est la broche 1.
 

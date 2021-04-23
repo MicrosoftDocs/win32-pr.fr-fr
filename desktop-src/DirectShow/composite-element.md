@@ -4,12 +4,12 @@ ms.assetid: 7551da3a-1da6-426a-ba9d-f715df53718f
 title: Élément composite
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1c81bf445769c049287bdfa7d23f4ab82bb0f8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5eff3e0c16040f837e4c8a792ebac3124d723d1
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517149"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908837"
 ---
 # <a name="composite-element"></a>Élément composite
 
@@ -28,7 +28,7 @@ L' `composite` élément définit une composition, un objet conteneur pour les p
 
 
 
-|          |                                                                                                                         |
+| Étiquette | Valeur |
 |----------|-------------------------------------------------------------------------------------------------------------------------|
 | Parent   | `composite`, [ **groupe**](group-element.md)                                                                             |
 | Children | `composite`, [**Effect**](effect-element.md), [**Track**](track-element.md), [**transition**](transition-element.md) |
@@ -37,7 +37,7 @@ L' `composite` élément définit une composition, un objet conteneur pour les p
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans un `composite` élément, la priorité des couches imbriquées est déterminée implicitement par l’ordre dans lequel elles apparaissent dans l’élément. La première couche a la priorité 0 et les couches suivantes comportent des valeurs de priorité accrues.
 

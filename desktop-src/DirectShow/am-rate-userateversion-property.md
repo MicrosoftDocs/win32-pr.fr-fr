@@ -4,12 +4,12 @@ ms.assetid: 49d1bfda-749b-4614-9a75-1f76fa8b320d
 title: AM_RATE_UseRateVersion, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab609d2d38dc28257d13994e6cd464094b714be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4dd33ef96c50ecc3da0711f08f0c7ffbf0a20825
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543849"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910217"
 ---
 # <a name="am_rate_userateversion-property"></a>\_ \_ Propriété USERATEVERSION rate AM
 
@@ -19,7 +19,7 @@ Si le décodeur ne prend pas en charge la version spécifiée, il doit faire éc
 
 
 
-|                   |                               |
+| Étiquette | Valeur |
 |-------------------|-------------------------------|
 | GUID de jeu de propriétés | AM \_ KSPROPSETID \_ TSRateChange |
 | ID de propriété       | \_Taux am \_ UseRateVersion      |

@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73da6292187fcbc9cd17f94fe88f63160d89be5b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: de565d9e6f8055f1b2ebc90c4deec83da463e7d5
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678129"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909856"
 ---
 # <a name="miscellaneous-state-variables"></a>Variables d’État diverses
 
 <dl> <dt><span id="GL_LIST_BASE"></span><span id="gl_list_base"></span>BASE de la \_ liste GL \_</dt> <dd> 
 
-|                  |                                        |
+| Propriété | Valeur |
 |------------------|----------------------------------------|
 | Description :     | Définition de **glListBase**              |
 | Groupe d’attributs : | list                                   |
@@ -32,11 +32,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_LIST_INDEX"></span><span id="gl_list_index"></span>\_index de liste GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Nombre de listes d’affichage en cours de construction ; 0 si aucun                            |
 | Groupe d’attributs : |                                                                                  |
@@ -45,11 +45,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_LIST_MODE"></span><span id="gl_list_mode"></span>\_mode de liste du GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Mode de la liste d’affichage en cours de construction ; non défini si aucun                       |
 | Groupe d’attributs : |                                                                                  |
@@ -58,11 +58,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_ATTRIB_STACK_DEPTH"></span><span id="gl_attrib_stack_depth"></span>profondeur de la \_ pile GL attrib \_ \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Pointeur de pile d’attributs                                                          |
 | Groupe d’attributs : |                                                                                  |
@@ -71,11 +71,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_NAME_STACK_DEPTH"></span><span id="gl_name_stack_depth"></span>profondeur de la \_ pile de noms GL \_ \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Profondeur de la pile de noms                                                                 |
 | Groupe d’attributs : |                                                                                  |
@@ -84,11 +84,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_RENDER_MODE"></span><span id="gl_render_mode"></span>\_mode de rendu du GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | paramètre **glRenderMode**                                                         |
 | Groupe d’attributs : |                                                                                  |
@@ -97,11 +97,11 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 
 
-|                  |                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------|
 | Description :     | Codes d’erreur actuels              |
 | Groupe d’attributs : |                                  |
@@ -110,13 +110,13 @@ ms.locfileid: "103678129"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

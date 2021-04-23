@@ -4,12 +4,12 @@ ms.assetid: 9c80cf59-054f-49b6-9456-ed5e091cbfaf
 title: Ensemble de propriétés de transport d’appareil externe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e77942157b7cf5f75b883e6953f3a115d1fa9f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 85e38217af21ea1839d7c9207a4922bcff00d63a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109902"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909217"
 ---
 # <a name="external-device-transport-property-set"></a>Ensemble de propriétés de transport d’appareil externe
 
@@ -19,7 +19,7 @@ Le tableau suivant répertorie les propriétés qui sont pertinentes pour les ap
 
 
 
-|                   |                           |
+| Étiquette | Valeur |
 |-------------------|---------------------------|
 | GUID de jeu de propriétés | \_transport PROPSETID ext \_ |
 

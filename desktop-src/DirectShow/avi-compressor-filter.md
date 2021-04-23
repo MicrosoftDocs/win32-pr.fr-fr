@@ -4,12 +4,12 @@ ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: Filtre de compresseur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f3ef342d1ea740503d9fc1e9e9b898aadc3801
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 212ab58eb3800e0ad5531ebc5c50d3b054e7866c
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845718"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909467"
 ---
 # <a name="avi-compressor-filter"></a>Filtre de compresseur AVI
 
@@ -26,7 +26,7 @@ Si le codec prend en charge une boîte de dialogue de configuration de VFW de st
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMVfwCompressDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), IPersistPropertyBag, ISpecifyPropertyPages                                                                                                             |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                               |

@@ -4,12 +4,12 @@ ms.assetid: 4ea1cb84-0558-4c4a-9483-1b0f2a8f76f8
 title: Types de média MPEG-1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35d1ff7c121c52db39d574f9bbae3650b04312e9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 0e44db1f4423365efb7814d61b35c1985142aa14
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106535739"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910027"
 ---
 # <a name="mpeg-1-media-types"></a>Types de média MPEG-1
 
@@ -19,7 +19,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                                 |
+| Étiquette | Valeur |
 |-----------------------|-------------------------------------------------|
 | Type principal            | Flux de MEDIATYPE \_                               |
 | Subtype               | MEDIASUBTYPE \_ MPEG1System                       |
@@ -35,7 +35,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                            |
+| Étiquette | Valeur |
 |-----------------------|----------------------------|
 | Type principal            | Flux de MEDIATYPE \_          |
 | Subtype               | MEDIASUBTYPE \_ MPEG1VideoCD |
@@ -51,7 +51,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                                |
+| Étiquette | Valeur |
 |-----------------------|------------------------------------------------|
 | Type principal            | Audio de MEDIATYPE \_                               |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Packet                      |
@@ -67,7 +67,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                            |
+| Étiquette | Valeur |
 |-----------------------|--------------------------------------------|
 | Type principal            | Audio de MEDIATYPE \_                           |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Payload                 |
@@ -83,7 +83,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                                |
+| Étiquette | Valeur |
 |-----------------------|------------------------------------------------|
 | Type principal            | Vidéo de MEDIATYPE \_                               |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Packet                      |
@@ -99,7 +99,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                          |
+| Étiquette | Valeur |
 |-----------------------|------------------------------------------|
 | Type principal            | Vidéo de MEDIATYPE \_                         |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Payload               |
@@ -115,7 +115,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                                |
+| Étiquette | Valeur |
 |-----------------------|------------------------------------------------|
 | Type principal            | Flux de MEDIATYPE \_                              |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Video                      |
@@ -131,7 +131,7 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
 
 
-|                       |                                                |
+| Étiquette | Valeur |
 |-----------------------|------------------------------------------------|
 | Type principal            | Flux de MEDIATYPE \_                              |
 | Subtype               | MEDIASUBTYPE \_ MPEG1Audio                      |
@@ -143,20 +143,20 @@ Cette section répertorie les types de médias utilisés pour les données MPEG-
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les filtres MPEG-1 DirectShow prennent en charge ces types comme suit.
 
 
 
-| Filtrer               | Sens | Types de média pris en charge                                                                                             |
+| Filtrer               | Direction | Types de média pris en charge                                                                                             |
 |----------------------|-----------|-------------------------------------------------------------------------------------------------------------------|
 | Séparateur MPEG-1      | Entrée     | MPEG-1 système streamMPEG-1 flux système à partir du CD vidéo<br/>                                                 |
-| Séparateur MPEG-1      | Output    | Charge utile MPEG-1 audio packetMPEG-1 audio<br/> Paquet vidéo MPEG-1<br/> Charge utile vidéo MPEG-1<br/> |
+| Séparateur MPEG-1      | Sortie    | Charge utile MPEG-1 audio packetMPEG-1 audio<br/> Paquet vidéo MPEG-1<br/> Charge utile vidéo MPEG-1<br/> |
 | Codec audio logiciel | Entrée     | Charge utile MPEG-1 audio packetMPEG-1 audio<br/>                                                                |
 | Codec vidéo logiciel | Entrée     | Charge utile vidéo MPEG-1 Video packetMPEG-1<br/>                                                                |
-| Codec audio logiciel | Output    | Audio PCM                                                                                                         |
-| Codec vidéo logiciel | Output    | Vidéo non compressée (Y41P, YUY2, UYVY, RGB-24, RGB-32, RGB-565, RGB-555, RVB-8)                                    |
+| Codec audio logiciel | Sortie    | Audio PCM                                                                                                         |
+| Codec vidéo logiciel | Sortie    | Vidéo non compressée (Y41P, YUY2, UYVY, RGB-24, RGB-32, RGB-565, RGB-555, RVB-8)                                    |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: Gestionnaire de port vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ca884ff009584ef2904387d872733ddf8d53dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db4f030e6be9035432207dc608a775a0e1d30b09
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866437"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909197"
 ---
 # <a name="video-port-manager"></a>Gestionnaire de port vidéo
 
@@ -22,7 +22,7 @@ Le filtre VPM (Video Port Manager Filter) permet au filtre de mélangeur vidéo 
 
 
 
-|                                          |                                                                                                                                                                                                                      |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMVideoDecimationProperties**](/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IKsPropertySet**](ikspropertyset.md), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop), [**IVPManager**](/windows/desktop/api/Strmif/nn-strmif-ivpmanager) |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ VPVIDEO ou MEDIASUBTYPE \_ VPVBI, format \_ aucun                                                                                                                                         |
@@ -37,7 +37,7 @@ Le filtre VPM (Video Port Manager Filter) permet au filtre de mélangeur vidéo 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le gestionnaire de port vidéo combine les fonctionnalités de port vidéo du [filtre de mixage de superposition](overlay-mixer-filter.md) et les fonctionnalités de l' [allocateur de surface VBI](vbi-surface-allocator.md). Le VPM alloue des ports vidéo et des surfaces, et synchronise la capture de données à partir du port vidéo. Il autorise la capture basée sur le port vidéo qui est indépendante du rendu. Si l’aperçu est souhaité, VPM coordonne avec VMR-7 pour afficher les données de port vidéo capturées. Lorsqu’un port vidéo est présent sur le système, le filtre de capture requiert des mémoires tampons supplémentaires pour extraire les données VBI du flux vidéo. Ces mémoires tampons sont fournies par VPM. Une fois que le filtre de capture a extrait les données VBI, il les remet sur un code confidentiel distinct aux filtres tels que le décodeur CC. L’illustration suivante montre le VPM et ses connexions dans un graphique de filtre.
 

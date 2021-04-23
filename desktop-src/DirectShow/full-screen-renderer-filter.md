@@ -4,12 +4,12 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Filtre de convertisseur plein écran
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d580442887896f271b0f5b7fea5f7a33553f53f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c175907ef0f60c3b1fe183eb0941b5118d24c9f2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515889"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908607"
 ---
 # <a name="full-screen-renderer-filter"></a>Filtre de convertisseur plein écran
 
@@ -19,7 +19,7 @@ N’ajoutez pas manuellement ce filtre au graphique de filtre. Si une applicatio
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                               |
@@ -36,13 +36,13 @@ N’ajoutez pas manuellement ce filtre au graphique de filtre. Si une applicatio
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le convertisseur plein écran prend en charge un ensemble statique de modes d’affichage. Toutefois, la carte vidéo sur le système de l’utilisateur ne prend peut-être pas en charge tous les modes. Pour déterminer si la carte prend en charge un mode particulier, appelez la méthode [**IFullScreenVideoEx :: IsModeAvailable**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-ifullscreenvideoex-ismodeavailable) . Vous pouvez également désactiver un mode d’affichage particulier par programme, en appelant [**IFullScreenVideoEx :: SetEnabled**](/previous-versions/windows/desktop/api/Amvideo/nf-amvideo-ifullscreenvideoex-setenabled). Le convertisseur plein écran prend actuellement en charge les modes d’affichage indiqués dans le tableau suivant :
 
 
 
-|      |       |        |           |
+| Étiquette | Value |
 |------|-------|--------|-----------|
 | Mode | Largeur | Hauteur | Profondeur de bit |
 | 0    | 320   | 200    | 16        |

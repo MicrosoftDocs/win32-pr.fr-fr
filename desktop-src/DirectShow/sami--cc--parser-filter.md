@@ -4,12 +4,12 @@ ms.assetid: 9b09dd86-3c22-4565-82a0-106d5ca2e42d
 title: Filtre de l’analyseur SAMI (CC)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e0449bccd41a09fca952b5d84552ef919055526
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b77f0aa2d913b7f0295a078c8174ae483bb1cb62
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522039"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909677"
 ---
 # <a name="sami-cc-parser-filter"></a>Filtre de l’analyseur SAMI (CC)
 
@@ -21,7 +21,7 @@ Ce filtre est conçu pour être utilisé avec le filtre de [convertisseur de com
 
 
 
-|                                          |                                                                                                          |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMStreamSelect**](/windows/desktop/api/Strmif/nn-strmif-iamstreamselect), [ **IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                           |
 | Types de média de broche d’entrée                    | Flux de MEDIATYPE \_                                                                                        |
@@ -38,7 +38,7 @@ Ce filtre est conçu pour être utilisé avec le filtre de [convertisseur de com
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici un fichier SAMI simple :
 

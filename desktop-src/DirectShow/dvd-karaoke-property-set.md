@@ -4,12 +4,12 @@ ms.assetid: 78b2998b-d8b3-424d-85bc-872e64eb4a4f
 title: Jeu de propriétés Karaoké DVD (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 396e9fe53ad35dac0c3c0f54a8e04a6fbe698fc1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2918513de06a657436ed99e67f672fe74a113b78
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541319"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909067"
 ---
 # <a name="dvd-karaoke-property-set"></a>Jeu de propriétés Karaoké DVD
 
@@ -17,7 +17,7 @@ Lorsque le filtre de [navigateur DVD](dvd-navigator-filter.md) passe en mode kar
 
 
 
-|                   |                             |
+| Étiquette | Valeur |
 |-------------------|-----------------------------|
 | GUID de jeu de propriétés | AM \_ KSPROPSETID \_ DvdKaraoke |
 

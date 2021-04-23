@@ -4,12 +4,12 @@ ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: Filtre de séparateur DV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e59ada4f18a107f8e1b07571f3907aed5ddf50f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 74ca8e856f1a49ff22ee05f7dc0ae341fad6aa91
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520556"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908407"
 ---
 # <a name="dv-splitter-filter"></a>Filtre de séparateur DV
 
@@ -17,7 +17,7 @@ Ce filtre fractionne un flux vidéo (DV) entrelacé en son composant flux vidéo
 
 
 
-|                                          |                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [ **IDVSplitter**](/windows/desktop/api/Strmif/nn-strmif-idvsplitter)                                                                             |
 | Types de média de broche d’entrée                    | MEDIATYPE \_ entrelacé, MEDIASUBTYPE \_ DVSD, format \_ DvInfo                                                                                         |
@@ -34,7 +34,7 @@ Ce filtre fractionne un flux vidéo (DV) entrelacé en son composant flux vidéo
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les images DV contiennent des données audio et vidéo dans le même cadre. Le filtre de séparateur DV extrait les données audio et les remet sous la forme d’un ou de deux flux audio, à partir des broches de sortie audio. La trame DV d’origine est fournie à partir de la broche de sortie vidéo, sous la forme d’une image vidéo. Le type de média sur l’image vidéo est modifié de MEDIATYPE \_ entrelacé à MediaType \_ Video, mais les données ne sont pas modifiées. Le type de média est modifié pour signaler que les données audio dans le frame doivent être ignorées. Le séparateur DV ne définit pas un temps de support sur les échantillons de sortie. Si vous écrivez un filtre en aval qui requiert les temps de support, vous pouvez dériver les heures du nombre de frames.
 

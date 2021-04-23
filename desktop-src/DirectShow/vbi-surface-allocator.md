@@ -4,12 +4,12 @@ ms.assetid: 51c73a25-1112-4fb4-a45f-967c6a1b5c55
 title: Allocateur de surface VBI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4edd698ed37c7b180bee27d0a99e95096080d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5849b23b8f21a7b49e477060386628ba4c19b2e5
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757677"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909007"
 ---
 # <a name="vbi-surface-allocator"></a>Allocateur de surface VBI
 
@@ -17,7 +17,7 @@ L’allocateur de surface VBI contrôle l’allocation de mémoires tampons VBI 
 
 
 
-|                                          |                                                                                     |
+| Étiquette | Valeur |
 |------------------------------------------|-------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                  |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ VPVBI                                               |

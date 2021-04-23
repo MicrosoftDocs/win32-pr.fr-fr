@@ -4,12 +4,12 @@ ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: Filtre de séparateur AVI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e61b9a60c4c42aafa875c166ae08ccdf337793c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 24335511e9b7b866c85792c2036a4d4b6d089f2a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109714"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909657"
 ---
 # <a name="avi-splitter-filter"></a>Filtre de séparateur AVI
 
@@ -17,7 +17,7 @@ Le filtre de séparateur AVI est utilisé pour la lecture des fichiers AVI. Il a
 
 
 
-|                                          |                                                                                                                                                                     |
+| Étiquette | Valeur |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IPersistMediaPropertyBag**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)                        |
 | Types de média de broche d’entrée                    | \_Flux de MediaType, MEDIASUBTYPE \_ AVI                                                                                                                                |
@@ -34,7 +34,7 @@ Le filtre de séparateur AVI est utilisé pour la lecture des fichiers AVI. Il a
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre est généralement connecté au filtre de [source de fichier Async](file-source--async--filter.md) sur sa broche d’entrée. Il peut se connecter à n’importe quel filtre dont la broche de sortie prend en charge [**IAsyncReader**](/windows/desktop/api/Strmif/nn-strmif-iasyncreader) et offre le type de média correct à la broche d’entrée du filtre de séparateur avi.
 

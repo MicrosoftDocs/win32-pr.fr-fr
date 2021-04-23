@@ -4,12 +4,12 @@ ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: Sous-types de vidéos RVB non compressés (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e04237a61fa91f4fe648dcb7743c893604adbe7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 894034c01b42f58cbc6a1e5a5c7fe6d77f50befd
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521681"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909527"
 ---
 # <a name="uncompressed-rgb-video-subtypes"></a>Sous-types de vidéos RVB non compressés
 
@@ -43,7 +43,7 @@ Les sous-types suivants définissent les formats RVB non compressés avec le can
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour les formats en palette, la couleur de chaque pixel est spécifiée en tant qu’index dans une palette. La palette doit être incluse dans le bloc de format, à la suite de la structure [**BITMAPINFOHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapinfoheader) . Pour les formats non-en palette, la couleur de chaque pixel est spécifiée directement ; la disposition de la mémoire dépend de la profondeur de bits :
 
@@ -67,7 +67,7 @@ Pour les formats en palette, la couleur de chaque pixel est spécifiée en tant 
 
 -   Pour RVB 24, chaque pixel est un [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple). Chaque couleur est un octet, avec une valeur comprise entre 0 et 255 inclus. La disposition de la mémoire est : 
 
-    |       |      |       |     |
+| Étiquette | Valeur |
     |-------|------|-------|-----|
     | Byte  | 0    | 1     | 2   |
     | Valeur | Bleu | Vert | Rouge |
@@ -78,7 +78,7 @@ Pour les formats en palette, la couleur de chaque pixel est spécifiée en tant 
 
 -   Pour RGB 32, chaque pixel est un **RGBQUAD**. Chaque couleur est un octet, avec une valeur comprise entre 0 et 255 inclus. La disposition de la mémoire est : 
 
-    |       |      |       |     |                     |
+| Étiquette | Valeur |
     |-------|------|-------|-----|---------------------|
     | Byte  | 0    | 1     | 2   | 3                   |
     | Valeur | Bleu | Vert | Rouge | Alpha ou ne vous inquiétez pas |
@@ -87,11 +87,11 @@ Pour les formats en palette, la couleur de chaque pixel est spécifiée en tant 
 
      
 
-    Si le sous-type est MEDIASUBTYPE \_ ARGB32, Byte 3 contient une valeur pour le canal alpha. Si le sous-type est MEDIASUBTYPE \_ RGB32, l’octet 3 doit être ignoré.
+    If the subtype is MEDIASUBTYPE\_ARGB32, byte 3 contains a value for the alpha channel. If the subtype is MEDIASUBTYPE\_RGB32, byte 3 should be ignored.
 
 -   A2R10G10B10 utilise la disposition suivante : 
 
-    |       |       |         |         |         |
+| Étiquette | Valeur |
     |-------|-------|---------|---------|---------|
     | bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
     | Valeur | Bleu  | Vert   | Rouge     | Alpha   |
@@ -102,7 +102,7 @@ Pour les formats en palette, la couleur de chaque pixel est spécifiée en tant 
 
 -   A2B10G10R10 utilise la disposition suivante : 
 
-    |       |       |         |         |         |
+| Étiquette | Valeur |
     |-------|-------|---------|---------|---------|
     | bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
     | Valeur | Rouge   | Vert   | Bleu    | Alpha   |

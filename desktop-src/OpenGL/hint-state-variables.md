@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 292074d18ec0d8c6181d1de881a69a58bdafead0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d62fd6feb1ecfbb943782cff2743b18730c86add
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380885"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909897"
 ---
 # <a name="hint-state-variables"></a>Variables d’état d’indicateur
 
 <dl> <dt><span id="GL_PERSPECTIVE_CORRECTION_HINT"></span><span id="gl_perspective_correction_hint"></span>indicateur de correction de la \_ perspective GL \_ \_</dt> <dd> 
 
-|                  |                                        |
+| Propriété | Valeur |
 |------------------|----------------------------------------|
 | Description :     | Indicateur de correction de la perspective            |
 | Groupe d’attributs : | indicateur                                   |
@@ -32,11 +32,11 @@ ms.locfileid: "104380885"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_POINT_SMOOTH_HINT"></span><span id="gl_point_smooth_hint"></span>\_indicateur de \_ lissage du point GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Indicateur de point lisse                                                                |
 | Groupe d’attributs : | indicateur                                                                             |
@@ -45,11 +45,11 @@ ms.locfileid: "104380885"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_LINE_SMOOTH_HINT"></span><span id="gl_line_smooth_hint"></span>\_ \_ indicateur lisse de la ligne GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Indicateur de lissage de ligne                                                                 |
 | Groupe d’attributs : | indicateur                                                                             |
@@ -58,11 +58,11 @@ ms.locfileid: "104380885"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_POLYGON_SMOOTH_HINT"></span><span id="gl_polygon_smooth_hint"></span>\_ \_ indicateur lisse de polygone GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Indicateur lisse polygonal                                                              |
 | Groupe d’attributs : | indicateur                                                                             |
@@ -71,11 +71,11 @@ ms.locfileid: "104380885"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_FOG_HINT"></span><span id="gl_fog_hint"></span>\_indicateur de brouillard GL \_</dt> <dd> 
 
-|                  |                                                                                  |
+| Propriété | Valeur |
 |------------------|----------------------------------------------------------------------------------|
 | Description :     | Indicateur de brouillard                                                                         |
 | Groupe d’attributs : | indicateur                                                                             |
@@ -84,13 +84,13 @@ ms.locfileid: "104380885"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
