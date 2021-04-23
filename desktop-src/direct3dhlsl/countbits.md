@@ -1,6 +1,6 @@
 ---
 title: countbits (fonction)
-description: Compte le nombre de bits (par composant) dans l’entier d’entrée.
+description: Compte le nombre de bits (par composant) défini dans l’entier d’entrée.
 ms.assetid: c4fafbc8-e21c-48cb-b433-8241a989ec85
 keywords:
 - countbits fonction HLSL
@@ -13,22 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60d3cd63502c6217e6fb0b0ff17685b2d2b5bf25
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 357aceca6e2aea261a9e94212b58ff6308c99560
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030372"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925622"
 ---
 # <a name="countbits-function"></a>countbits (fonction)
 
-Compte le nombre de bits (par composant) dans l’entier d’entrée.
+Compte le nombre de bits (par composant) défini dans l’entier d’entrée.
 
 ## <a name="syntax"></a>Syntaxe
 
 ``` syntax
 uint countbits(
-  in uint value
+  in uint value
 );
 ```
 
@@ -45,13 +45,13 @@ Valeur d'entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **uint**
 
 Nombre de bits.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les versions surchargées suivantes sont également disponibles :
 
@@ -68,13 +68,13 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                | Prise en charge |
+| Modèle de nuanceur                                                                | Pris en charge |
 |-----------------------------------------------------------------------------|-----------|
 | [Nuancier modèle 5](d3d11-graphics-reference-sm5.md) et modèles de nuanceur supérieurs | Oui       |
 
 
 
- 
+ 
 
 Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
@@ -86,7 +86,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -98,9 +98,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

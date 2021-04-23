@@ -4,12 +4,12 @@ ms.assetid: ea98be7f-580d-4986-bd6b-d254a2c075e8
 title: Énumérateur de périphérique système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 731530726048e8b5a19ebc8a7162160740f1f695
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b80f7157843f11af307e6573abe3c76f30f23e5
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865793"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908437"
 ---
 # <a name="system-device-enumerator"></a>Énumérateur de périphérique système
 
@@ -17,7 +17,7 @@ L’énumérateur de périphérique système énumère les filtres et les périp
 
 
 
-|                  |                                          |
+| Étiquette | Valeur |
 |------------------|------------------------------------------|
 | Identificateur de classe | CLSID \_ SystemDeviceEnum                  |
 | Interfaces       | [**ICreateDevEnum**](/windows/desktop/api/Strmif/nn-strmif-icreatedevenum) |

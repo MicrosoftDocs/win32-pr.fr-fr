@@ -5,13 +5,13 @@ keywords:
 - Le noyau de DirectWrite
 - DWriteCore
 ms.topic: article
-ms.date: 04/21/2021
-ms.openlocfilehash: 27a34656ce28a65267bd098974b4df9003a80e17
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.date: 04/22/2021
+ms.openlocfilehash: 1ebb85ae2628a2c9abce86e0ce146c0d24828267
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881838"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925673"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
@@ -21,7 +21,7 @@ Cette rubrique d’introduction décrit ce que DWriteCore est, et montre comment
 
 ## <a name="the-value-proposition-of-dwritecore"></a>La proposition de valeur de DWriteCore
 
-[DirectWrite](./direct-write-portal.md) prend en charge un large éventail de fonctionnalités qui en font l’outil de rendu des polices de choix sur Windows pour la plupart des applications &mdash; , que ce soit via des appels directs ou via [Direct2D](../direct2d/direct2d-portal.md). DirectWrite comprend un système de disposition de texte indépendant du périphérique, un rendu de texte [Microsoft ClearType](/typography/cleartype/) de qualité supérieure, du texte accéléré par le matériel, du texte à plusieurs formats, des fonctionnalités avancées de typographie [® OpenType](/typography/opentype/) , une prise en charge de langage large et une disposition et un rendu compatibles [GDI](../gdi/windows-gdi.md). DirectWrite est disponible depuis Windows Vista SP2 et a évolué au fil des années pour inclure des fonctionnalités plus avancées, telles que des polices variables, qui permettent aux développeurs d’appliquer des styles, des pondérations et d’autres attributs à une police avec une seule ressource de police.
+[DirectWrite](./direct-write-portal.md) prend en charge un large éventail de fonctionnalités qui en font l’outil de rendu des polices de choix sur Windows pour la plupart des applications &mdash; , que ce soit via des appels directs ou via [Direct2D](../direct2d/direct2d-portal.md). DirectWrite comprend un système de disposition de texte indépendant du périphérique, un rendu de texte [Microsoft ClearType](/typography/cleartype/) de qualité supérieure, du texte accéléré par le matériel, du texte à plusieurs formats, des fonctionnalités avancées de typographie [® OpenType](/typography/opentype/) , une prise en charge de langage large et une disposition et un rendu compatibles [GDI](../gdi/windows-gdi.md). DirectWrite est disponible depuis Windows Vista SP2 et a évolué au fil des années pour inclure des fonctionnalités plus avancées, telles que des polices variables, qui vous permettent d’appliquer des styles, des pondérations et d’autres attributs à une police avec une seule ressource de police.
 
 En raison de la longue durée de validité de DirectWrite, toutefois, les avancées en matière de développement ont tendance à conserver des versions antérieures de Windows. En outre, l’état de DirectWrite en tant que technologie de rendu de texte premier est limité uniquement à Windows, ce qui laisse les applications multiplateformes écrire leur propre pile de rendu de texte, ou s’appuyer sur des solutions tierces.
 
@@ -67,7 +67,7 @@ Le portage de DirectWrite vers DWriteCore est un projet suffisamment volumineux 
 
 ### <a name="features-in-the-current-release-of-dwritecore"></a>Fonctionnalités de la version actuelle de DWriteCore
 
-La version de DWriteCore actuellement disponible contient les outils de base que vous, en tant que développeur, devez utiliser DWriteCore, y compris les fonctionnalités suivantes.
+La version de DWriteCore actuellement disponible fait partie de la [réunion de projet 0,5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0). Il contient les outils de base que vous, en tant que développeur, devez utiliser DWriteCore, y compris les fonctionnalités suivantes.
 
 - Énumération des polices.
 - API de police.
@@ -79,11 +79,11 @@ La version de DWriteCore actuellement disponible contient les outils de base que
 - Polices de couleur.
 - Optimisations diverses (nettoyage du cache des polices, chargeur de police en mémoire, etc.).
 
-La fonctionnalité de bannière à ce niveau est polices de couleurs. Les polices de couleur vous permettent de restituer vos polices avec des fonctionnalités de couleur plus sophistiquées que des couleurs simples simples. Par exemple, les polices de couleur permettent de rendre les polices d’Emoji et d’icône de barre d’outils (la dernière qui est utilisée par Office, par exemple). Les polices de couleur ont été introduites pour la première fois dans Windows 8.1, mais la fonctionnalité a été largement développée sur Windows 10, version 1607 (mise à jour anniversaire).
+Une fonctionnalité de bannière est une police de couleurs. Les polices de couleur vous permettent de restituer vos polices avec des fonctionnalités de couleur plus sophistiquées que des couleurs simples simples. Par exemple, les polices de couleur permettent de rendre les polices d’Emoji et d’icône de barre d’outils (la dernière qui est utilisée par Office, par exemple). Les polices de couleur ont été introduites pour la première fois dans Windows 8.1, mais la fonctionnalité a été largement développée sur Windows 10, version 1607 (mise à jour anniversaire).
 
 Le travail au nettoyage du cache de polices et le chargeur de police en mémoire permettent un chargement plus rapide des polices et des améliorations de la mémoire.
 
-Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables &mdash; de niveau inférieure vers Windows 8. Cette itération de la bibliothèque peut également être consommée sur [Android](https://www.android.com/)et **Linux**. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite. ils ont été introduits dans Windows 10, version 1709 (automne Creators Update). par conséquent, l’accès aux versions précédentes est une aubaine importante pour vous en tant que développeur.
+Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables &mdash; de niveau inférieure vers Windows 8. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite. ils ont été introduits dans Windows 10, version 1709 (automne Creators Update). leur accès aux versions précédentes est donc un avantage significatif pour vous en tant que développeur.
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>Notre invitation en tant que développeur DirectWrite
 
@@ -102,15 +102,21 @@ Pour utiliser DWriteCore, il est nécessaire d’inclure le `dwrite_core.h` fich
 #include <dwrite_core.h>
 ```
 
-Le `dwrite_core.h` fichier d’en-tête définit d’abord le jeton *DWRITE_CORE*, puis il comprend `dwrite_3.h` . Le jeton *DWRITE_CORE* est important, car il dirige tous les en-têtes inclus ultérieurement pour rendre toutes les API DirectWrite disponibles. Une fois votre projet inclus `dwrite_core.h` , vous pouvez continuer à écrire du code, le générer et l’exécuter.
+Le `dwrite_core.h` fichier d’en-tête définit d’abord le jeton *DWRITE_CORE*, puis il comprend le `dwrite_3.h` fichier d’en-tête. Le jeton *DWRITE_CORE* est important, car il dirige tous les en-têtes inclus ultérieurement pour rendre toutes les API DirectWrite disponibles. Une fois votre projet inclus `dwrite_core.h` , vous pouvez continuer à écrire du code, le générer et l’exécuter.
 
 ### <a name="apis-that-are-new-or-different-for-dwritecore"></a>API nouvelles ou différentes pour DWriteCore
 
 La surface de l’API DWriteCore est la plus similaire à celle de [DirectWrite](/windows/win32/api/_directwrite/). Mais il existe un petit nombre de nouvelles API qui se trouvent uniquement dans DWriteCore à l’heure actuelle.
 
+#### <a name="create-a-factory-object"></a>Créer un objet de fabrique
+
+La fonction Free [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) crée un objet de fabrique qui est utilisé pour la création suivante d’objets DWriteCore individuels.
+
+**DWriteCoreCreateFactory** fonctionne de la même façon que la fonction [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) exportée par la version système de DirectWrite. La fonction DWriteCore a un nom différent pour éviter toute ambiguïté.
+
 #### <a name="create-a-restricted-factory-object"></a>Créer un objet de fabrique restreint
 
-L’énumération [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) a une nouvelle constante &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, indiquant une fabrique restreinte. Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Voici comment vous pouvez utiliser **DWRITE_FACTORY_TYPE_ISOLATED2** pour créer un objet de fabrique restreint lorsque vous appelez la fonction Free [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) .
+L’énumération [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) a une nouvelle constante &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, indiquant une fabrique restreinte. Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Voici comment vous pouvez utiliser **DWRITE_FACTORY_TYPE_ISOLATED2** pour créer un objet de fabrique restreint lorsque vous appelez la fonction Free **DWriteCoreCreateFactory** .
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor

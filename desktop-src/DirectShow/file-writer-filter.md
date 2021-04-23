@@ -4,12 +4,12 @@ ms.assetid: 2bfbea8a-679f-4656-9ff3-fdf34aa0eb26
 title: Filtre du writer de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f438f13f8d63b2856efd147c57ba6f071af26ff8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e991536d505ee1bdfcaaaca5ce8660c4480decf6
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200809"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909687"
 ---
 # <a name="file-writer-filter"></a>Filtre du writer de fichier
 
@@ -24,7 +24,7 @@ Le filtre du writer de fichier utilise les horodatages du flux d’entrée comme
 
 
 
-|                                          |                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags), [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSinkFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter), [**IFileSinkFilter2**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter2), **IPersistStream** |
 | Types de média de broche d’entrée                    | \_Flux de MediaType, MEDIASUBTYPE \_ null                                                                                                                                                              |

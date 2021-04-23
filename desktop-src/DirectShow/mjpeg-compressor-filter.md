@@ -4,12 +4,12 @@ ms.assetid: de30a2c4-3e51-4f2b-b3f9-ed78e2d6512d
 title: Filtre de compresseur MJPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a20c559bb889750959a4868fa08c03b3eb12dfb5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 02928df4d09b50c0ac152aed99ed87dc6362fb70
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517162"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910007"
 ---
 # <a name="mjpeg-compressor-filter"></a>Filtre de compresseur MJPEG
 
@@ -17,7 +17,7 @@ Ce filtre compresse un flux vidéo non compressé à l’aide de la compression 
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| Étiquette | Valeur |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), **IPersistStream**                                                                                                                                                                                             |
 | Types de média de broche d’entrée                    | \_vidéo MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                               |
@@ -34,7 +34,7 @@ Ce filtre compresse un flux vidéo non compressé à l’aide de la compression 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre encode à l’aide du sous-type de média MEDIASUBTYPE \_ MJPG, qui correspond au code FourCC « MJPG ».
 
