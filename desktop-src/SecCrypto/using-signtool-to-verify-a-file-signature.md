@@ -4,12 +4,12 @@ ms.assetid: 9c40a397-19ea-4600-97ee-987dd10f4ef8
 title: Utilisation de SignTool pour vérifier une signature de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8161d4c890400f3aa33b415e7ac16a5306aa094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85e91df7a64a8db48d04ceba9df5fbc3fd358058
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518355"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107954922"
 ---
 # <a name="using-signtool-to-verify-a-file-signature"></a>Utilisation de SignTool pour vérifier une signature de fichier
 
@@ -29,7 +29,7 @@ La commande suivante vérifie un fichier système qui peut être signé dans un 
 
 La commande suivante vérifie un fichier système qui est signé dans un catalogue nommé *MyCat.cat*:
 
-**SignTool Verify/c** *MyCat.catMyFile.ini*
+**SignTool Verify/c** *MyCat.cat* *MyFile.ini*
 
 Pour toute vérification de [SignTool](signtool.md) , vous pouvez récupérer le signataire du certificat. La commande suivante vérifie un fichier système et affiche le certificat du signataire :
 
