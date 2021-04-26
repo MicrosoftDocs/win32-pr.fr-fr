@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c3517266ace77b9235604770d9b42d10cd80e2d5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: c277723628d5337e41e5fbf83baa9fda8af16adf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382139"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993866"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Shader Model 3 (référence HLSL)
 
@@ -210,9 +210,8 @@ PS \_ 3 \_ 0 et PS \_ 2 \_ x assurent la prise en charge de deux niveaux de pré
 
 
 
-|          |          |                   |                      |
+| PS \_ 3 \_ 0 | PS \_ 2 \_ 0 | Precision         | Value                |
 |----------|----------|-------------------|----------------------|
-| PS \_ 3 \_ 0 | PS \_ 2 \_ 0 | Précision         | Valeur                |
 | x        |          | Complète              | fp32 ou version ultérieure       |
 | x        |          | Précision partielle | FP16 = s10e5           |
 | x        | x        | Complète              | fp24 = s16e7 ou version ultérieure |
@@ -220,7 +219,7 @@ PS \_ 3 \_ 0 et PS \_ 2 \_ x assurent la prise en charge de deux niveaux de pré
 
 
 
- 
+ 
 
 PS \_ 3 \_ 0 prend en charge une précision supérieure à celle de PS \_ 2 \_ 0. Par défaut, toutes les opérations se produisent au niveau de précision complet.
 
@@ -263,7 +262,7 @@ vs \_ 2 \_ SW est un assouplissement aux limites maximales de vs \_ 2 \_ x ; de
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -272,6 +271,6 @@ vs \_ 2 \_ SW est un assouplissement aux limites maximales de vs \_ 2 \_ x ; de
 [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

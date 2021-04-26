@@ -4,12 +4,12 @@ description: Composant, extraire un composant fractionnaire.
 ms.assetid: 17C88BCE-7F2F-446C-9BB4-860098B5E42A
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4abcfd56e7d6051e9c476097b3e5eef4d97563e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0f59b747f38fb970b92b5e48610873efe781d63d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971587"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993916"
 ---
 # <a name="frc-sm4---asm"></a>FRC (SM4-ASM)
 
@@ -35,15 +35,14 @@ Composant, extraire un composant fractionnaire.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant présente les résultats obtenus lors de l’exécution de l’instruction avec différentes classes de nombres.
 
 
 
-|          |          |            |             |        |        |             |            |          |         |
-|----------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **src**  | **-INF** | **-F**     | **-dénorme** | **-0** | **+0** | **+ dénorme** | **+ F**     | **+ INF** | **NaN** |
+|----------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **dest** | NaN      | \[+ 0 à 1) | +0          | +0     | +0     | +0          | \[+ 0 à 1) | NaN      | NaN     |
 
 
@@ -70,11 +69,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

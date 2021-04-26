@@ -4,18 +4,18 @@ ms.assetid: 7d73a4fe-6fd1-4d99-80fb-9aa5ddcdca12
 title: élément Manufacturer
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a40c4365a49eaabc58d8dad52f6aca4adc3f4bf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b86be60b262b37fe328a685fde5228db0c9e9a8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526216"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994336"
 ---
 # <a name="manufacturer-element"></a>élément Manufacturer
 
 Spécifie le nom du fabricant.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <manufacturer/>
@@ -43,7 +43,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

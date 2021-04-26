@@ -4,18 +4,18 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: élément wsdCodeGen
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 656f2273926dc3420ec84d6b9f24759f8e3587e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519606"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994676"
 ---
 # <a name="wsdcodegen-element"></a>élément wsdCodeGen
 
 Est l’élément racine d’un fichier de script XML du générateur de code WSDAPI.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <wsdCodeGen
@@ -41,7 +41,7 @@ Est l’élément racine d’un fichier de script XML du générateur de code WS
 | Élément                                                         | Description                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**autostatique**](autostatic.md)<br/>                     | Indique si WsdCodeGen doit essayer d’indicateur automatique de certains champs générés comme statiques. Cette option est activée par défaut.<br/> <br/>                                                                 |
-| [**fichier**](file.md)<br/>                                 | Indique au générateur de code de générer un fichier.<br/> <br/>                                                                                                                                                       |
+| [**txt**](file.md)<br/>                                 | Indique au générateur de code de générer un fichier.<br/> <br/>                                                                                                                                                       |
 | [**hostMetadata**](hostmetadata.md)<br/>                 | Métadonnées d’hébergement pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).<br/> <br/>                                                                                 |
 | [**layerNumber**](layernumber.md)<br/>                   | Numéro de la couche de code à générer. Les numéros de couche sont utilisés dans les tables du runtime pour distinguer une couche de code d’une autre. WSDAPI utilise le code généré qui a un numéro de couche 0.<br/> <br/> |
 | [**layerPrefix**](layerprefix.md)<br/>                   | Préfixe à utiliser dans le code généré pour garantir l’unicité des symboles générés. WSDAPI utilise le préfixe « WSD ».<br/> <br/>                                                                                     |
@@ -76,7 +76,7 @@ Est l’élément racine d’un fichier de script XML du générateur de code WS
 
 Il n’y a pas d’éléments parents.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En général, les éléments de [**fichier**](file.md) doivent se produire en dernier, car ils génèrent du code qui utilise des données spécifiées par les autres éléments.
 
@@ -84,7 +84,7 @@ En général, les éléments de [**fichier**](file.md) doivent se produire en de
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

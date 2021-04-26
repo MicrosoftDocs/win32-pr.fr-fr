@@ -4,18 +4,18 @@ ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: élément proxyFunctionImplementations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53a27e217cfa3d0a9efd204a1b18c7b2f0ca16f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9f03834ca59ede41f2f3c3dff00d7dacdd54db
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867345"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995756"
 ---
 # <a name="proxyfunctionimplementations-element"></a>élément proxyFunctionImplementations
 
 Génère des implémentations pour les fonctions proxy pour les opérations de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <proxyFunctionImplementations>
@@ -61,7 +61,7 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -69,7 +69,7 @@ Il n’y a pas d’attributs.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,18 +4,18 @@ ms.assetid: 7b57d5c6-589b-4e03-bfcf-1faa671ebd77
 title: élément Async
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea04eaa66fbdadfc784650c1a451cebf171f6372
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6cbc68d0a5dea30f4b4d179a54539ac3f9516a4
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104035111"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994956"
 ---
 # <a name="async-element"></a>élément Async
 
 Spécifie si les opérations asynchrones sont incluses dans les fonctions proxy générées.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <async/>
@@ -41,7 +41,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs possibles sont 1 (opérations asynchrones incluses) et 0 (opérations asynchrones par défaut exclues).
 
@@ -51,7 +51,7 @@ Un proxy peut avoir des versions asynchrones et synchrones des mêmes opération
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

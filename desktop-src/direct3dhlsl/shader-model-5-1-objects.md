@@ -4,12 +4,12 @@ description: Les objets suivants ont été ajoutés au nuanceur modèle 5,1.
 ms.assetid: 2958618D-54C6-4860-9910-B45AAB73CCFD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 616afd8e4036988b6f91cb09cddf0db26c1dd480
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2c56fbe035f63bd8f25a8b34377c333c2ce9946c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315575"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993856"
 ---
 # <a name="shader-model-51-objects"></a>Objets modèle de nuanceur 5,1
 
@@ -33,7 +33,7 @@ Pour les [vues](/windows/desktop/direct3d11/rasterizer-order-views) de l’ordre
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -45,6 +45,6 @@ Pour les [vues](/windows/desktop/direct3d11/rasterizer-order-views) de l’ordre
 [Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](hlsl-shader-model-5-1-features-for-direct3d-12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

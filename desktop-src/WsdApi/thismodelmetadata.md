@@ -4,18 +4,18 @@ ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: élément thisModelMetadata
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c1a35d6449d4e8bba0ecf79e7dc87b00dee894b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 872bcdfcf3f93bfc8fe307684c31cdebb2000b05
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867601"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995336"
 ---
 # <a name="thismodelmetadata-element"></a>élément thisModelMetadata
 
 Définit les métadonnées du fabricant et du modèle pour l’appareil à implémenter. Cet élément est utilisé uniquement pour les implémentations d’appareils (hôtes).
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <thisModelMetadata>
@@ -71,7 +71,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les métadonnées du fabricant correspondent à la section des métadonnées du fabricant décrite dans le profil de l’appareil (pour plus d’informations, consultez le profil de l’appareil). Le nom du fabricant ou au moins une version localisée du nom du fabricant doit être fourni. Le nom du modèle ou au moins une version localisée du nom du modèle doit être fourni.
 
@@ -83,7 +83,7 @@ Si un élément [**PnPXDeviceCategory**](pnpxdevicecategory.md) est présent, au
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

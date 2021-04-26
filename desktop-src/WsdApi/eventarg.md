@@ -4,18 +4,18 @@ ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: élément eventArg
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 175d0a8b00386b7e1456750488d5975711a405aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 820c4223e8e4a880343faf2e9df686d9746b1b29
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530575"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994896"
 ---
 # <a name="eventarg-element"></a>élément eventArg
 
 Spécifie si les arguments d’événement associés sont inclus dans les fonctions générées.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <eventArg/>
@@ -40,7 +40,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs possibles sont 1 (arguments d’événement inclus) et 0 (valeur par défaut, arguments d’événement exclus).
 
@@ -48,7 +48,7 @@ Les valeurs possibles sont 1 (arguments d’événement inclus) et 0 (valeur par
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

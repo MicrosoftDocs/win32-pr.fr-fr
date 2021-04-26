@@ -4,18 +4,18 @@ ms.assetid: 21b76829-01c4-4228-a714-6319e5eb1c61
 title: élément namespaceDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df827ade45d5fba3247397e2a4dc7ec905ff7405
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e98d9c0cf1556e21d92fe7ea1ba222e861f00ac
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106517103"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994256"
 ---
 # <a name="namespacedeclarations-element"></a>élément namespaceDeclarations
 
 Génère des déclarations C pour les tables d’espaces de noms.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <namespaceDeclarations/>
@@ -35,11 +35,11 @@ Il n’y a pas d’éléments enfants.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les tables d’espaces de noms sont référencées par les tables de type et d’autres codes générés, donc cet élément est utilisé pour générer des fichiers include.
 
@@ -47,7 +47,7 @@ Les tables d’espaces de noms sont référencées par les tables de type et d�
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

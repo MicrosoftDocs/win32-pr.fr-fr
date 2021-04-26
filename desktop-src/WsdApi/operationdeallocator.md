@@ -4,18 +4,18 @@ ms.assetid: 52e6235d-90e6-4559-b17c-14ca3be896ff
 title: élément operationDeallocator
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c214b5dbc3245f63797c55880fe052d5c3ced15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe3ae0d9f1d37a478ceca0895806ade6a011747e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522704"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994286"
 ---
 # <a name="operationdeallocator-element"></a>élément operationDeallocator
 
 Spécifie le type annulateur à utiliser par la fonction stub d’une opération.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <operationDeallocator
@@ -52,7 +52,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

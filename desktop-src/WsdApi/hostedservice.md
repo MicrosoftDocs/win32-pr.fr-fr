@@ -4,18 +4,18 @@ ms.assetid: 87ff447a-ced0-4079-b46d-239f0db37250
 title: élément service hébergé
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfcf2f4c67cadf90279221fd5bdfd518e285e844
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e96c9f6e010989f4844d93299bb34f1ab8893236
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863990"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994786"
 ---
 # <a name="hostedservice-element"></a>élément service hébergé
 
 Définit un service à héberger dans une fonction de générateur d’hôte.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <hostedService>
@@ -56,7 +56,7 @@ codeName(
 
 | Élément                         | Description                                                                  |
 |---------------------------------|------------------------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Spécification du fichier de sortie pour le générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Spécification du fichier de sortie pour le générateur de code.<br/> <br/> |
 
 
 
@@ -64,7 +64,7 @@ codeName(
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

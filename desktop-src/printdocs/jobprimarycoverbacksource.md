@@ -4,12 +4,12 @@ ms.assetid: b5c8e79c-cdae-4c53-b594-915726423b4f
 title: JobPrimaryCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8c15d5f5b8545b70f19bf181a00d05a8379212
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2145bae0843323928d8a7d016fc61f10c0e388ac
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104042976"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993976"
 ---
 # <a name="jobprimarycoverbacksource"></a>JobPrimaryCoverBackSource
 
@@ -24,7 +24,7 @@ Spécifie la source d’une feuille principale personnalisée de couverture pour
 
 
 
-| Nom                       |                                           |
+| Nom | Value |
 |----------------------------|-------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                   |
 | Préfixe d’étendue <br/> | Travail<br/>                            |
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

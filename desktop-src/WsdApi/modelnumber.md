@@ -4,18 +4,18 @@ ms.assetid: 1261e029-4cdf-4e35-a4b3-57dd151e2e7f
 title: élément modelNumber
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 755b67adece54dd33a89cc5aacbde2b8a658f5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e207084e1614d408034c7e4bbc36bdbadce77195
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536815"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995476"
 ---
 # <a name="modelnumber-element"></a>élément modelNumber
 
 Spécifie le numéro de modèle de l’appareil.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <modelNumber/>
@@ -43,7 +43,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

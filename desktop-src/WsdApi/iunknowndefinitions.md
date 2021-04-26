@@ -4,18 +4,18 @@ ms.assetid: 4b6abd0b-7570-4ae0-a727-cdb6cec58daf
 title: Élément IUnknownDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ca92338e3dc97a12e04228510fc17eb2ef2483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb3a4f76145e585411e64c10ea7af922db931846
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524991"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995146"
 ---
 # <a name="iunknowndefinitions-element"></a>Élément IUnknownDefinitions
 
 Génère des implémentations pour les fonctions QueryInterface, AddRef et Release.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <IUnknownDefinitions
@@ -58,7 +58,7 @@ interface
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -66,7 +66,7 @@ interface
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

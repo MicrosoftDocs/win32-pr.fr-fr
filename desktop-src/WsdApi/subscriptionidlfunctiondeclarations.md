@@ -4,18 +4,18 @@ ms.assetid: 240ef2b3-ed72-45bb-b653-441c4e5540b5
 title: élément subscriptionIdlFunctionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e1eba60e327778efb1589436a09e62d043d2960
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f4d738dd06ccbf034702cbb7d6494a28a229d07
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867602"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995366"
 ---
 # <a name="subscriptionidlfunctiondeclarations-element"></a>élément subscriptionIdlFunctionDeclarations
 
 Génère des déclarations IDL pour les fonctions de proxy d’abonnement/annulation d’abonnement pour les opérations de notification de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <subscriptionIdlFunctionDeclarations
@@ -62,7 +62,7 @@ Génère des déclarations IDL pour les fonctions de proxy d’abonnement/annula
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -70,7 +70,7 @@ Génère des déclarations IDL pour les fonctions de proxy d’abonnement/annula
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,12 +4,12 @@ ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19efe9490501fe8116059dc6ea865d8b8931d18a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e870f01fd21fdb63f62278a3a5cac3b4da077e1e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523524"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995686"
 ---
 # <a name="d3dx_channel"></a>\_Chaîne D3DX
 
@@ -17,9 +17,8 @@ Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser d
 
 
 
-|                          |                                                                               |
-|--------------------------|-------------------------------------------------------------------------------|
 | \#définition                 | Description                                                                   |
+|--------------------------|-------------------------------------------------------------------------------|
 | D3DX \_ canal \_ rouge       | Indique que le canal rouge doit être utilisé.                                     |
 | D3DX \_ canal \_ bleu      | Indique que le canal bleu doit être utilisé.                                    |
 | D3DX \_ canal \_ vert     | Indique que le canal vert doit être utilisé.                                   |

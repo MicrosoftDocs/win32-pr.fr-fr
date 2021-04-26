@@ -4,12 +4,12 @@ description: Décrit les fonctions intrinsèques de l’opération Wave ajoutée
 ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a2d082fc131c7cd08db9eb1861c4af39d600f40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c7e55661e3f91125597c8c7842a1be16129cefe0
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971726"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995466"
 ---
 # <a name="hlsl-shader-model-60"></a>Modèle de nuanceur HLSL 6,0
 
@@ -50,9 +50,8 @@ Certaines opérations (comme les opérateurs de bits) prennent uniquement en cha
 
 ## <a name="terminology"></a>Terminologie
 
-| | |
-|-|-|
 | **Terme** | **Définition** |
+|-|-|
 | Couloir | Un seul thread d’exécution. Les modèles de nuanceur antérieurs à la version 6,0 exposent uniquement l’un d’entre eux au niveau de la langue, ce qui laisse l’expansion au traitement SIMD parallèle entièrement jusqu’à l’implémentation. |
 | Vague | Un ensemble de couloirs (threads) exécutés simultanément dans le processeur. Aucune barrière explicite n’est requise pour garantir qu’elles s’exécutent en parallèle. Les concepts similaires sont les suivants : « Warp » et « Wavefront ». |
 | Voie inactive | Un couloir qui n’est pas exécuté, par exemple en raison du déroulement du contrôle, ou un travail insuffisant pour remplir la taille minimale de l’onde. |
@@ -68,9 +67,8 @@ Toutes les opérations de ce modèle de nuanceur ont été ajoutées dans une pl
 
 Intrinsèques pour l’interrogation d’une seule vague.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**WaveGetLaneCount**](wavegetlanecount.md) | Retourne le nombre de couloirs dans l’onde actuelle. | \* | \* |
 | [**WaveGetLaneIndex**](wavegetlaneindex.md) | Retourne l’index de la voie active dans l’onde actuelle. | \* | \* |
 | [**WaveIsFirstLane**](waveisfirstlane.md) | Retourne true uniquement pour la voie active dans l’onde actuelle avec le plus petit index | \* | \* |
@@ -79,9 +77,8 @@ Intrinsèques pour l’interrogation d’une seule vague.
 
 Cet ensemble d’intrinsèques compare les valeurs entre les threads actifs actuellement à partir de l’onde actuelle.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**WaveActiveAnyTrue**](waveanytrue.md) | Retourne la valeur true si l’expression est vraie dans une voie active de l’onde actuelle. | \* | \* |
 | [**WaveActiveAllTrue**](wavealltrue.md) | Retourne la valeur true si l’expression est vraie dans tous les couloirs actifs de l’onde actuelle. | \* | \* |
 | [**WaveActiveBallot**](waveballot.md) | Retourne un masque de bits d’entier non signé 64 bits de l’évaluation de l’expression booléenne pour tous les couloirs actifs dans l’onde spécifiée. | \* | \* |
@@ -90,9 +87,8 @@ Cet ensemble d’intrinsèques compare les valeurs entre les threads actifs actu
 
 Ces fonctions intrinsèques activent tous les couloirs actifs dans l’onde actuelle pour recevoir la valeur de la voie spécifiée, en la diffusant efficacement. La valeur de retour d’une voie non valide n’est pas définie.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**WaveReadLaneAt**](wavereadlaneat.md) | Retourne la valeur de l’expression pour l’index Lane donné dans l’onde spécifiée. | \* | \* |
 | [**WaveReadLaneFirst**](wavereadfirstlane.md) | Retourne la valeur de l’expression pour la voie active de l’onde actuelle avec l’index le plus petit. | \* | \* |
 
@@ -100,9 +96,8 @@ Ces fonctions intrinsèques activent tous les couloirs actifs dans l’onde actu
 
 Ces fonctions intrinsèques calculent l’opération spécifiée sur tous les couloirs actifs de l’onde et diffusent le résultat final à tous les couloirs actifs. Par conséquent, la sortie finale est garantie uniforme sur toute la vague.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**WaveActiveAllEqual**](waveactiveallequal.md) | Retourne la valeur true si l’expression est la même pour chaque voie active de l’onde actuelle (et donc uniforme sur celle-ci). | \* | \* |
 | [**WaveActiveBitAnd**](waveallbitand.md) | Retourne l’opération de bits AND de toutes les valeurs de l’expression sur tous les couloirs actifs de l’onde actuelle, puis réplique le résultat sur tous les couloirs de l’onde. | \* | \* |
 | [**WaveActiveBitOr**](waveallbitor.md) | Retourne l’opération or au niveau du bit de toutes les valeurs de l’expression sur tous les couloirs actifs de l’onde actuelle, puis réplique le résultat sur tous les couloirs de l’onde. | \* | \* |
@@ -117,9 +112,8 @@ Ces fonctions intrinsèques calculent l’opération spécifiée sur tous les co
 
 Ces fonctions intrinsèques appliquent l’opération à chaque voie et laissent chaque résultat partiel du calcul dans la voie correspondante.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**WavePrefixCountBits**](waveprefixcountbytes.md) | Retourne la somme de toutes les variables booléennes spécifiées ayant la valeur true sur tous les couloirs actifs dont les index sont plus petits que le couloir actuel. | \* | \* |
 | [**WavePrefixSum**](waveprefixsum.md) | Retourne la somme de toutes les valeurs des couloirs actifs avec des index plus petits que celui-ci. | \* | \* |
 | [**WavePrefixProduct**](waveprefixproduct.md) | Retourne le produit de toutes les valeurs des couloirs avant l’un des sons spécifiés. | \* | \* |
@@ -141,9 +135,8 @@ O
 
 Ces routines fonctionnent dans des nuanceurs de calcul ou des nuanceurs de pixels. Dans les nuanceurs de calcul, ils fonctionnent en quatre cœurs définis comme des groupes uniformément divisés de 4 au sein d’une vague SIMD. Dans les nuanceurs de pixels, ils doivent être utilisés sur les vagues capturées par WaveQuadLanes, sinon les résultats ne sont pas définis.
 
-| | | | |
-|-|-|-|-|
 | **Intrinsic** | **Description** | **Nuanceur de pixels** | **Nuanceur de calcul** |
+|-|-|-|-|
 | [**QuadReadLaneAt**](quadreadlaneat.md) | Retourne la valeur source spécifiée lue à partir de la voie du quadruple actuel identifié par quadLaneID \[ 0.. 3, \] qui doit être uniforme sur le quadruple. | \* | |
 | [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | Retourne la valeur locale spécifiée qui est lue à partir de la voie diagonalement opposée dans ce Quad. | \* | |
 | [**QuadReadAcrossX**](quadswapx.md) | Retourne la valeur source spécifiée lue à partir de l’autre Lane dans ce Quad sur l’axe X. | \* | |

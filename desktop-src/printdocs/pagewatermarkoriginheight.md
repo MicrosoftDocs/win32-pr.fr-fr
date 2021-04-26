@@ -4,12 +4,12 @@ ms.assetid: ef429727-d881-408b-95ce-2acce667654a
 title: PageWatermarkOriginHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1d3e12591f6c648e6e636e1bb72f4df694d0d13
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 90736f8cac9c919f9d640ffc01311024ef79bc3a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103953511"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994487"
 ---
 # <a name="pagewatermarkoriginheight"></a>PageWatermarkOriginHeight
 
@@ -24,7 +24,7 @@ Spécifie l’origine d’un filigrane par rapport à l’origine du PageImageab
 
 
 
-| Nom                       |                                            |
+| Nom | Value |
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
@@ -71,13 +71,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                                                                   |
+| Propriété                | xsi:type           | Value                                                                   |
 |-------------------------|--------------------|-------------------------------------------------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>                                                   |
 | DefaultValue<br/> | entier<br/> | non défini<br/>                                                    |
 | MaxValue<br/>     | entier<br/> | Valeur inférieure ou égale à PageImageableSize-ExtentHeight<br/> |
-| MinValue<br/>     | integer<br/> | 0<br/>                                                            |
-| Multiple<br/>     | integer<br/> | 1<br/>                                                            |
+| MinValue<br/>     | entier<br/> | 0<br/>                                                            |
+| Plusieurs<br/>     | integer<br/> | 1<br/>                                                            |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/>                                              |
 | Unité<br/>     | string<br/>  | microns<br/>                                                      |
 

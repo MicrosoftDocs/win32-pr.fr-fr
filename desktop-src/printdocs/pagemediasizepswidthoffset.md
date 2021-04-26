@@ -4,12 +4,12 @@ ms.assetid: b93ad6e6-ab27-4fab-b488-6f402b6ee857
 title: PageMediaSizePSWidthOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91cb8440af2b35bbe8f3f4a82a567beee43d1d44
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ca8051fc265e107bff0be53c409eb103df2a8326
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106524786"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995507"
 ---
 # <a name="pagemediasizepswidthoffset"></a>PageMediaSizePSWidthOffset
 
@@ -24,7 +24,7 @@ Spécifie le décalage perpendiculaire à la direction de l’orientation du flu
 
 
 
-| Nom                       |                                                             |
+| Nom | Value |
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

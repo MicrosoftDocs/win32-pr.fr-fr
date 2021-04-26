@@ -4,12 +4,12 @@ ms.assetid: df24a132-665e-4eb7-992b-d7a6144257f5
 title: D3DXFX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfe1e5e57b5fac94c1fb24d35cf1826057b75c45
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ad9077c8c7e3da479dd8963484bc289b84093ac0
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108426"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995076"
 ---
 # <a name="d3dxfx"></a>D3DXFX
 
@@ -76,9 +76,8 @@ Les constantes dans le tableau suivant ne sont pas définies par défaut et doiv
 
 
 
-|                                |                                                                                                                                                                                                                                      |
-|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Définition du préprocesseur \# d’effet | Description                                                                                                                                                                                                                          |
+|--------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Handle D3DXFX LARGEADDRESS \_   | Définissez cette valeur avant d’inclure d3dx9. h afin que votre application ne soit pas compilée quand vous tentez de passer des chaînes dans des paramètres D3DXHANDLE. Cela permet de s’assurer que des informations valides sont passées au Runtime. |
 | Indicateurs de l’éditeur de liens Effects            | Description                                                                                                                                                                                                                          |
 | prise en \_ charge d’adresses volumineuses \_          | La définition de l’indicateur de l’éditeur de liens pour la grande prise \_ \_ en charge de l’adresse = 1 permettra à l’application d’allouer des ressources au-delà de la limite de 2 Go si nécessaire.                                                                                      |

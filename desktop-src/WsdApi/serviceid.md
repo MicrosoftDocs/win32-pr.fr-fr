@@ -4,18 +4,18 @@ ms.assetid: ef676f02-56a7-4b3a-9ca3-e7fa3c494ec7
 title: Élément ServiceID
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 305e97250b0b33d276dced4b5d454aec9298387c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4c8b02fa8ecfa936aa658a1f18242e4f14eb0dd
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106539728"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995106"
 ---
 # <a name="serviceid-element"></a>Élément ServiceID
 
 URI qui représente l’identificateur de service.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ServiceID/>
@@ -44,7 +44,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

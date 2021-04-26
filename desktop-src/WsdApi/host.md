@@ -4,18 +4,18 @@ ms.assetid: 95066c04-5bdc-4c97-98b8-1da9928d9395
 title: élément hôte
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec073a89cf1911ab363d757d36cd264c85c8a5c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f051f6665715ecaa519a060e18a3cbf4912210
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863993"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993796"
 ---
 # <a name="host-element"></a>élément hôte
 
 Définit les éléments [**ServiceId**](serviceid.md) et [**types**](types.md) pour l’hôte de service.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <host>
@@ -61,7 +61,7 @@ Il n’y a pas d’attributs.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

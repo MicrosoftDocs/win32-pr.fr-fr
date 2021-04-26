@@ -4,12 +4,12 @@ ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2414919f699bb60c2cf1e48bc52030c36cf67a0
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 3c3e2735efbb99fbe404f2531336c2e2bd0f89d7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380843"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994276"
 ---
 # <a name="namespace-element"></a>nameSpace, élément
 
@@ -68,7 +68,7 @@ Décrit un espace de noms. Cet espace de noms peut être utilisé pour la géné
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément peut être utilisé pour fournir le générateur de code avec des informations supplémentaires sur les espaces de noms qu’il rencontre dans les fichiers WSDL et XSD ou pour introduire de nouveaux espaces de noms.
 
@@ -86,7 +86,7 @@ Le code XML suivant montre un élément d’espace de noms (avec des enfants omi
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

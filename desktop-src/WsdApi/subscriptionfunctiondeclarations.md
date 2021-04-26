@@ -4,18 +4,18 @@ ms.assetid: 0e5b2232-c9bf-4741-921d-bb3bce4ee293
 title: élément subscriptionFunctionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8957dcec6133d98830659fa76e2b7939079d3c50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb7389b30ef7da17f9466fa8aefd24fa04f4c99f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211059"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995456"
 ---
 # <a name="subscriptionfunctiondeclarations-element"></a>élément subscriptionFunctionDeclarations
 
 Génère des déclarations d’implémentation pour les fonctions proxy d’abonnement/annulation d’abonnement pour les opérations de notification de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <subscriptionFunctionDeclarations
@@ -62,7 +62,7 @@ Génère des déclarations d’implémentation pour les fonctions proxy d’abon
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -70,7 +70,7 @@ Génère des déclarations d’implémentation pour les fonctions proxy d’abon
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

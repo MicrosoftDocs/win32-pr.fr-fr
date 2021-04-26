@@ -4,18 +4,18 @@ ms.assetid: 0664dcc6-1e71-46cf-9084-1adc84861b52
 title: élément Path (services Web sur les appareils)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 763ad1479c20553fb7e62ab29e504d56bfa6d950
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d48df5a156149f00b8b153ccc0d46d6d2d34a1ce
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522016"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994306"
 ---
 # <a name="path-element"></a>élément Path
 
 Spécifie l’emplacement et le nom de fichier d’un fichier WSDL. Le chemin d’accès peut être un chemin d’accès absolu ou relatif au fichier, mais il ne doit pas être une URL.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <path/>
@@ -51,7 +51,7 @@ Le code XML suivant montre un élément **path** valide.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

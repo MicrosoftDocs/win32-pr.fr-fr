@@ -4,18 +4,18 @@ ms.assetid: e56fdd68-b72d-4167-9e4c-b5bbf103880b
 title: élément idlFunctionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1afa43676898231f739804185b8bf5d6e2b4faf8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf4d1648ac6d9c3ac6900826ebe90a64418822b6
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106537001"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994736"
 ---
 # <a name="idlfunctiondeclarations-element"></a>élément idlFunctionDeclarations
 
 Génère des déclarations IDL pour les fonctions de proxy pour les opérations de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <idlFunctionDeclarations>
@@ -61,11 +61,11 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément génère des déclarations de fonctions membres correspondant aux opérations appelées par le contrat. Ces déclarations sont dans un format approprié à la consommation par le compilateur MIDL et sont généralement utilisées dans les fichiers. idl.
 
@@ -79,7 +79,7 @@ Exemple :
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

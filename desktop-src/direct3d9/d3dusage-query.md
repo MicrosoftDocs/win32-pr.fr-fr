@@ -4,12 +4,12 @@ ms.assetid: d2030002-bd44-443f-8235-978919ebbda6
 title: D3DUSAGE_QUERY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e4f5dda7f84dfa36e4f3b7ece1b359a4841bbbf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0eac450ed722da26fe4885d41707483adf401f89
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110762"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994106"
 ---
 # <a name="d3dusage_query"></a>\_Requête D3DUSAGE
 
@@ -17,9 +17,8 @@ Ces options identifient les types de ressources de requête.
 
 
 
-|                                            |                                                                                                                                                                                                                                                                                                                                                     |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                                   | Description                                                                                                                                                                                                                                                                                                                                         |
+|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Filtre de requête D3DUSAGE \_                    | Interrogez le format de ressource pour voir s’il prend en charge les types de filtre de texture autres que le point de D3DTEXF \_ (qui est toujours pris en charge).                                                                                                                                                                                                                         |
 | D3DUSAGE \_ requête \_ LEGACYBUMPMAP             | Interrogez la ressource sur une carte d’un relief hérité.                                                                                                                                                                                                                                                                                                         |
 | \_ \_ Fusion POSTPIXELSHADER de requête D3DUSAGE \_ | Interrogez la ressource pour vérifier la prise en charge de la prise en charge de la fusion de nuanceur de pixels. Si [**CheckDeviceFormat**](/windows/win32/api/d3d9/nf-d3d9-idirect3d9-checkdeviceformat) échoue avec la \_ fusion de POSTPIXELSHADER de requêtes D3DUSAGE \_ \_ , les opérations de fusion de pixels ne sont pas prises en charge. Il s’agit notamment du test alpha, du brouillard de pixel, de la fusion de cibles de rendu, de l’activation de l’écriture des couleurs et du tramage. |

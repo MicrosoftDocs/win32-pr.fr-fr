@@ -4,12 +4,12 @@ description: Nombre maximal de virgule flottante au niveau du composant.
 ms.assetid: 005468AA-577E-441F-ACD5-37A691E62CDD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f24618897eacf250f2b924f6dde3745a32a7172
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f64d88c581828f2563f6d5d8a6c57de6400f9bbf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381136"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994726"
 ---
 # <a name="max-sm4---asm"></a>Max (SM4-ASM)
 
@@ -36,7 +36,7 @@ Nombre maximal de virgule flottante au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 >= est utilisé à la place de > afin que si min (x, y) = x, alors Max (x, y) = y.
 
@@ -48,9 +48,8 @@ Le tableau suivant présente les résultats obtenus lors de l’exécution de l�
 
 
 
-|                    |          |              |          |         |
-|--------------------|----------|--------------|----------|---------|
 | **src0 src1->** | **-INF** | **F**        | **+ INF** | **NaN** |
+|--------------------|----------|--------------|----------|---------|
 | **-INF**           | -inf     | src1         | +inf     | -inf    |
 | **F**              | src0     | src0 ou src1 | +inf     | src0    |
 | **+ INF**           | +inf     | +inf         | +inf     | +inf    |
@@ -78,11 +77,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

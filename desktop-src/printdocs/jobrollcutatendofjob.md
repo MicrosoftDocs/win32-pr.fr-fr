@@ -4,12 +4,12 @@ ms.assetid: 1e2cd767-685b-47d8-9020-a0a5dda63506
 title: JobRollCutAtEndOfJob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62eda63fe0d801bc1039af2c514c284440b1be47
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 178b045546552048b2a66a1c0824645c1720b1a7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106524797"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993936"
 ---
 # <a name="jobrollcutatendofjob"></a>JobRollCutAtEndOfJob
 
@@ -25,7 +25,7 @@ Décrit la méthode de coupe pour le papier en rouleau. Le rouleau doit être co
 
 
 
-| Nom                       |                    |
+| Nom | Value |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

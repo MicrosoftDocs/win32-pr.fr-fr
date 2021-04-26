@@ -4,12 +4,12 @@ ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07566926c2115855ea7321af90e7d1caebcd0a82
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 29918bfe48d1547a3c61b8d79425b36368f6d249
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106538446"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993876"
 ---
 # <a name="pageblackgenerationprocessingtotalinkcoveragelimit"></a>PageBlackGenerationProcessingTotalInkCoverageLimit
 
@@ -24,7 +24,7 @@ Spécifie la somme maximale autorisée des quatre couvertures d’encre n’impo
 
 
 
-| Nom                       |                                                            |
+| Nom | Value |
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
@@ -70,13 +70,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 400<br/>             |
 | MinValue<br/>     | entier<br/> | 200<br/>             |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

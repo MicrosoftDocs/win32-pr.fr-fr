@@ -4,12 +4,12 @@ ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: PageBlackGenerationProcessingGrayComponentReplacementLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c0d55c2150f5a2299672ebf95d6656b238acc1
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 553919bf9fab43cb1281f625eb518937b5c8b805
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321730"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994526"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a>PageBlackGenerationProcessingGrayComponentReplacementLevel
 
@@ -24,7 +24,7 @@ Spécifie le pourcentage de remplacement des composants en gris à effectuer.
 
 
 
-| Nom                       |                                                            |
+| Nom | Value |
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
@@ -70,13 +70,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
-| MinValue<br/>     | integer<br/> | 0<br/>               |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| MinValue<br/>     | entier<br/> | 0<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

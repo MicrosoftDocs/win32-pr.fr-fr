@@ -4,18 +4,18 @@ ms.assetid: f901a88f-7e01-4e7f-a0f2-59f2a01b03cd
 title: élément hébergé
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4d46549898f0a95de362467c759c3d95eb806a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3d281b5e058f8716c12c655ebcdb9a17bdfa4fb
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536592"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994886"
 ---
 # <a name="hosted-element"></a>élément hébergé
 
 Définit les éléments [**ServiceId**](serviceid.md), [**types**](types.md),[**PnPXHardwareId**](pnpxhardwareid.md)et [**PnPXCompatibleId**](pnpxcompatibleid.md) pour les services définis par l’hôte de service.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <hosted>
@@ -61,7 +61,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque service fourni par un hôte de service doit disposer de ses propres informations d’élément **hébergé** pour s’assurer que le service est correctement publié dans les réponses aux demandes de métadonnées.
 
@@ -73,7 +73,7 @@ Si un élément [**PnPXDeviceCategory**](pnpxdevicecategory.md) est présent, au
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |
