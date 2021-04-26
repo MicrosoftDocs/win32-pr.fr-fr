@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 944ddd2b581c6179ac4a3fe22f2b687f85aecfdc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: 178b31a386a7ae4aa266ac33ddbb1ee5c842f2d1
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101957"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997166"
 ---
 # <a name="dcl_semantics-sm3---ps-asm"></a>\_sémantique DCL (SM3-PS ASM)
 
 Déclarez l’association entre la sortie du nuanceur de sommets et l’entrée de nuanceur de pixels.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 
@@ -30,7 +30,7 @@ Déclarez l’association entre la sortie du nuanceur de sommets et l’entrée 
 
 
 
- 
+ 
 
 Où :
 
@@ -39,7 +39,7 @@ Où :
 -   DST : Registre de destination. Consultez [ \_ registres PS 3 \_ 0](dx9-graphics-reference-asm-ps-registers-ps-3-0.md).
 -   \_masque d’écriture : le même registre de sortie peut être déclaré plusieurs fois, à chaque fois avec un masque d’écriture unique (une sémantique différente peut donc être appliquée à des composants individuels). Toutefois, la même sémantique ne peut pas être utilisée plusieurs fois dans une déclaration. Cela signifie que les vecteurs doivent avoir quatre composants ou moins, et ne peuvent pas traverser les limites d’un registre à quatre composants (registres de sortie individuels). Lorsque la \_ sémantique psize est utilisée, elle doit avoir un masque d’écriture complet, car elle est considérée comme une scalaire. Lorsque la \_ sémantique de position est utilisée, elle doit avoir un masque d’écriture complet, car les quatre composants doivent être écrits.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -49,7 +49,7 @@ Où :
 
 
 
- 
+ 
 
 Toutes les \_ instructions d’utilisation de la DCL doivent apparaître avant la première instruction exécutable.
 
@@ -92,6 +92,6 @@ texld r1, v1.zw, s1
 [Exemple d’anticrénelage](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

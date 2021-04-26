@@ -4,12 +4,12 @@ ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b549d7bd81579424125908fc71c9b81e839aff05
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: bdbaef403027190676b57455aa460198c2868424
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104555562"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995518"
 ---
 # <a name="pagemediasize"></a>PageMediaSize
 
@@ -31,7 +31,7 @@ Le diagramme suivant illustre l’utilisation de la variable PageMediaSize (l’
 
 |                            |                    |
 |----------------------------|--------------------|
-| Nom                       |                    |
+| Nom | Value |
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |

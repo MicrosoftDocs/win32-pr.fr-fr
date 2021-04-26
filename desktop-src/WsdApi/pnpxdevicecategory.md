@@ -4,18 +4,18 @@ ms.assetid: 1ca46000-4700-4326-8f49-1b9a22d45bfa
 title: Élément PnPXDeviceCategory
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 731dd78fbe366fc9c7923686d3d9ac90b772c23d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a08084d780c26d2f7fab902156939fd14a3e60c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524248"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996586"
 ---
 # <a name="pnpxdevicecategory-element"></a>Élément PnPXDeviceCategory
 
 Spécifie la catégorie PnP-X à laquelle l’appareil appartient. Plusieurs catégories peuvent être spécifiées.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <PnPXDeviceCategory/>
@@ -39,7 +39,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les appareils peuvent également spécifier une sous-catégorie d’appareil pour une catégorie d’appareil plus descriptive. Par exemple, « phones. WindowsMobile cameras. DigitalStillCamera MediaDevices. MusicPlayer » identifie un appareil qui est un appareil Microsoft Windows Mobile avec un appareil photo et un lecteur de musique. La catégorie d’appareil principale de cet appareil est « téléphone ».
 
@@ -51,7 +51,7 @@ Si un élément **PnPXDeviceCategory** est présent, au moins un élément [**h�
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

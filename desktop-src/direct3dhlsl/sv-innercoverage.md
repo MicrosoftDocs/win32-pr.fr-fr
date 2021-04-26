@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2f1393a6a11a95c8c08746f57083fe193791a60
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e1ac278f0524446b5171ef278e169fbe7c3a082f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990997"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996966"
 ---
 # <a name="sv_innercoverage"></a>SV \_ InnerCoverage
 
@@ -34,9 +34,9 @@ SV \_ InputCoverage représente des informations de pixellisation conservatrice 
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur générée par le système est requise pour la prise en charge de niveau 3 et n’est disponible que dans ce niveau. Cette entrée s’exclut mutuellement avec la \_ couverture SV-les deux ne peuvent pas être utilisés.
 
@@ -57,6 +57,6 @@ La pixellisation conservatrice est disponible à la fois dans D3D 11.3 et D3D12.
 [Valeurs système du modèle de nuanceur 5,1](shader-model-5-1-system-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

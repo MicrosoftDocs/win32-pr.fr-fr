@@ -4,12 +4,12 @@ ms.assetid: c8f9001e-9f92-405a-8f3a-bc59b47c9e35
 title: JobPrimaryBannerSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc44973b06dc99c86ca9d50717ca9bf2b6335fa
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: c438cd0f33bc7b3a80fc3e654e0d64831e3b6777
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106532378"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996926"
 ---
 # <a name="jobprimarybannersheet"></a>JobPrimaryBannerSheet
 
@@ -25,7 +25,7 @@ Décrit la feuille de bannière à générer pour le travail. La feuille de bann
 
 
 
-| Nom                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Nom | Value |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d55fcf7e291c561ecb51dd32dfac135c563974c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9653d98ebbfef6dd25bb137af3358a14d177f3e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104557950"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996516"
 ---
 # <a name="sv_dispatchthreadid"></a>SV \_ DispatchThreadID
 
@@ -35,9 +35,9 @@ Index pour lesquels un nuanceur de calcul et un groupe de threads combinés sont
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur système est facultative.
 
@@ -49,14 +49,13 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-|        |      |        |          |       |         |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -68,6 +67,6 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

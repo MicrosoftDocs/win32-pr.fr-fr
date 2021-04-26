@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3c5195881df438c94cdaed7de8484d0df65e4d54
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cb9265734663881981f1626db6e23c6b7dd9415a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380969"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996506"
 ---
 # <a name="sv_domainlocation"></a>SV \_ DomainLocation
 
@@ -37,9 +37,9 @@ Définit l’emplacement sur la coque du point de domaine actuel en cours d’é
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur système est requise.
 
@@ -47,14 +47,13 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-|        |      |        |          |       |         |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |        |      | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -66,9 +65,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

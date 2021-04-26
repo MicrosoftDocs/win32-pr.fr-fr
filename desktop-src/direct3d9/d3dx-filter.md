@@ -4,12 +4,12 @@ ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 128525de2e403c11239c300372b79bd8ee8c1277
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3e6e1ab3ab51a73277da685b7ac562e84d1b94a9
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481305"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997326"
 ---
 # <a name="d3dx_filter"></a>\_Filtre D3DX
 
@@ -17,9 +17,8 @@ Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser d
 
 
 
-|                         |                                                                                                                                                                                                             |
-|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                | Description                                                                                                                                                                                                 |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Filtre D3DX, \_ \_ aucun      | Aucune mise à l’échelle ou aucun filtrage n’aura lieu. Les pixels en dehors des limites de l’image source sont supposés être en noir transparent.                                                                                 |
 | \_Point de filtre D3DX \_     | Chaque pixel de destination est calculé en échantillonnant le pixel le plus proche de l’image source.                                                                                                                     |
 | D3DX- \_ filtre \_ linéaire    | Chaque pixel de destination est calculé en échantillonnant les quatre pixels les plus proches de l’image source. Ce filtre fonctionne mieux lorsque la mise à l’échelle sur les deux axes est inférieure à deux.                                          |

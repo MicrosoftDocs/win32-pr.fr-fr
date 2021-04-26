@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 23827dffc396a40be134be4db3996d2e9f498288
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990796"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996866"
 ---
 # <a name="texld---ps_1_4"></a>texld-PS \_ 1 \_ 4
 
@@ -27,28 +27,27 @@ Charge le registre de destination avec les données de couleur (RVBA) échantill
 
 
 
- 
+ 
 
 ## <a name="registers"></a>Registres
 
 
 
-| Argument | Description          | Registres |     |     |     | Version      |
-|----------|----------------------|-----------|-----|-----|-----|--------------|
 |          |                      | VN        | 8525  | TN  | RN  |              |
-| destination      | Registre de destination |           |     |     | x   | 1\_4         |
+|----------|----------------------|-----------|-----|-----|-----|--------------|
+| dst      | Registre de destination |           |     |     | x   | 1\_4         |
 | src      | Registre source      |           |     | x   |     | 1 \_ 4 phase 1 |
 |          |                      |           |     | x   | x   | 1 \_ phase   |
 
 
 
- 
+ 
 
 Lors de l’utilisation de r (n) comme Registre source, les trois premiers composants (XYZ) doivent avoir été initialisés au cours de la phase précédente du nuanceur.
 
 Pour en savoir plus sur les registres, consultez les [registres PS 1 \_ \_ 1 \_ \_ PS 1 \_ \_ 2 \_ \_ \_ \_ \_ \_ \_ \_ ](dx9-graphics-reference-asm-ps-registers-ps-1-x.md)PS 1 3 PS 1 4.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction échantillonne la texture dans l’étape de texture associée au numéro de registre de destination. La texture est échantillonnée à l’aide des données de coordonnée de texture du Registre source.
 
@@ -68,7 +67,7 @@ Règles d’utilisation de texld :
 
 
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -149,9 +148,9 @@ texld  r(n), r(n)_dz
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

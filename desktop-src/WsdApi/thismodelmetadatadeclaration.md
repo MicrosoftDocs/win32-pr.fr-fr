@@ -4,18 +4,18 @@ ms.assetid: 589cddb2-29a6-4ad7-9102-56c17fcc16e3
 title: élément thisModelMetadataDeclaration
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5156f052c06c3c0e5094ef727070cb6d223683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7620f61d33318df2ccd187cb51e1ec7e598e471
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106538640"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995326"
 ---
 # <a name="thismodelmetadatadeclaration-element"></a>élément thisModelMetadataDeclaration
 
 Génère une déclaration anticipée pour la constante C pour les métadonnées de fabricant spécifiées dans l’élément [**thisModelMetadata**](thismodelmetadata.md) . Cette déclaration est utilisée dans un fichier d’en-tête.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <thisModelMetadataDefinition/>
@@ -35,7 +35,7 @@ Il n’y a pas d’éléments enfants.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -43,7 +43,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

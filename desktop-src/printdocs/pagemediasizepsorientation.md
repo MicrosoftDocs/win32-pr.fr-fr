@@ -4,12 +4,12 @@ ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: PageMediaSizePSOrientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a188c61d3bb3c47286b887406174a3fc41f3c58a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d16a9a2e59ebffb41ad7c9a9c16eaf41497ade62
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106520243"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997556"
 ---
 # <a name="pagemediasizepsorientation"></a>PageMediaSizePSOrientation
 
@@ -24,7 +24,7 @@ Spécifie l’orientation par rapport à la direction de l’orientation du flux
 
 
 
-| Nom                       |                                                             |
+| Nom | Value |
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                        |
+| Propriété                | xsi:type           | Value                        |
 |-------------------------|--------------------|------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>        |
-| DefaultValue<br/> | integer<br/> | 0<br/>                 |
+| DefaultValue<br/> | entier<br/> | 0<br/>                 |
 | MaxValue<br/>     | entier<br/> | 3<br/>                 |
-| MinValue<br/>     | integer<br/> | 0<br/>                 |
+| MinValue<br/>     | entier<br/> | 0<br/>                 |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/>   |
-| Multiple<br/>     | integer<br/> | 1<br/>                 |
+| Plusieurs<br/>     | integer<br/> | 1<br/>                 |
 | Unité<br/>     | string<br/>  | PageMediaSizeEnum<br/> |
 
 

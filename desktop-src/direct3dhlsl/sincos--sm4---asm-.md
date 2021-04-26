@@ -4,12 +4,12 @@ description: Sin (thêta) et cos (thêta) du composant pour Theta en radians.
 ms.assetid: 81FDEC8F-2C1C-4C60-A6DA-699C798F8316
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2dd8fc3b011758f071cdcd273e34eb8a7f6421f
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8c03118ff9a1fc2d958eaa6eb1a550a6dbf672a2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990720"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997016"
 ---
 # <a name="sincos-sm4---asm"></a>SinCos, (SM4-ASM)
 
@@ -36,7 +36,7 @@ Sin (thêta) et cos (thêta) du composant pour Theta en radians.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le résultat n’est pas nécessaire, vous pouvez spécifier *destSIN* et *destCOS* comme null au lieu de spécifier un registre.
 
@@ -50,9 +50,8 @@ F signifie nombre fini-réel.
 
 
 
-|             |          |              |             |        |        |             |              |          |         |
-|-------------|----------|--------------|-------------|--------|--------|-------------|--------------|----------|---------|
 | **src**     | **-INF** | **-F**       | **-dénorme** | **-0** | **+0** | **+ dénorme** | **+ F**       | **+ INF** | **NaN** |
+|-------------|----------|--------------|-------------|--------|--------|-------------|--------------|----------|---------|
 | **destSIN** | NaN      | \[-1 à + 1\] | -0          | -0     | +0     | +0          | \[-1 à + 1\] | NaN      | NaN     |
 | **destCOS** | NaN      | \[-1 à + 1\] | +1          | +1     | +1     | +1          | \[-1 à + 1\] | NaN      | NaN     |
 
@@ -78,11 +77,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

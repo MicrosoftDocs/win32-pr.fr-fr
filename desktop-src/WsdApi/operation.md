@@ -4,18 +4,18 @@ ms.assetid: d198197e-d146-4f1b-99df-944822e83357
 title: Operation, élément
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bdd8324553e046000f467c103afd6ac0464cbc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c0e4562241f5f437554d0af28dc8bca482512ea
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034302"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994315"
 ---
 # <a name="operation-element"></a>Operation, élément
 
 Spécifie une opération pour laquelle du code doit être généré.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <operation/>
@@ -51,7 +51,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est possible de spécifier un nombre quelconque d’opérations. Si aucune opération n’est spécifiée, du code est généré pour toutes les opérations dans tous les types de port appropriés. L’utilisation de l’élément **operation** limite les méthodes générées à celles contenues dans l’opération.
 
@@ -81,7 +81,7 @@ Cela génère des déclarations de fonction idl pour toutes les méthodes associ
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,12 +4,12 @@ ms.assetid: 0de776f3-ae09-49f4-a829-b3c0e2ab5bbc
 title: PageScalingScaleWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7918f1a466621377e57190e0b967980fec1a07e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e4ef53d9fe2906ae04cd1e7e3ea1513a631bc162
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106537188"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997456"
 ---
 # <a name="pagescalingscalewidth"></a>PageScalingScaleWidth
 
@@ -24,7 +24,7 @@ Spécifie le facteur de mise à l’échelle dans la direction ImageableSizeWidt
 
 
 
-| Nom                       |                                                         |
+| Nom | Value |
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | String<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | Integer<br/> | non défini<br/>       |
 | MaxValue<br/>     | Integer<br/> | non défini<br/>       |
 | MinValue<br/>     | Integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | Integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | Integer<br/> | 1<br/>               |
 | Unité<br/>     | String<br/>  | microns<br/>         |
 
 

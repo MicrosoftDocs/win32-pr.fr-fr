@@ -4,12 +4,12 @@ ms.assetid: 53e38979-2065-4304-a0ed-0434c8d2efc8
 title: DocumentStaple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b9fe7edd7385761e779980cf5d1dbea7a979a1f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 338a72baecc62d22ac63ef50d8ce8967c7fd534a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106522520"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997036"
 ---
 # <a name="documentstaple"></a>DocumentStaple
 
@@ -25,7 +25,7 @@ Décrit les caractéristiques de l’agrafage de la sortie. Chaque document est 
 
 
 
-| Nom                       |                                                                                |
+| Nom | Value |
 |----------------------------|--------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                             |
 | Préfixe d’étendue <br/> | Document<br/>                                                            |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4a05cabbb9410136d2bd82ee272ad92ff1b1f430
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4d047f7961868de020ac50ffce22b6ce02d078a5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104971478"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996916"
 ---
 # <a name="sv_insidetessfactor"></a>SV \_ InsideTessFactor
 
@@ -37,11 +37,11 @@ Définit la quantité de pavage dans une surface corrective.
 
 
 
- 
+ 
 
 Les facteurs de pavage doivent être déclarés en tant que tableau ; ils ne peuvent pas être empaquetés dans un seul vecteur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur doit être définie au cours de la fonction de constante de patch du nuanceur de coque.
 
@@ -51,14 +51,13 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-|        |      |        |          |       |         |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,9 +69,9 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

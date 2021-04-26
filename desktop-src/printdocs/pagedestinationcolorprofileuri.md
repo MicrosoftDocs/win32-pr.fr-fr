@@ -4,12 +4,12 @@ ms.assetid: b2a4a4d2-a8bc-48dc-ad56-20380f5f91c9
 title: PageDestinationColorProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fff2ca269eaed9331f6c2077e6b396cca5a01c4
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b321cba1608b1098dcc91f3800ef11f4968fb3f2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106545219"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996096"
 ---
 # <a name="pagedestinationcolorprofileuri"></a>PageDestinationColorProfileURI
 
@@ -24,7 +24,7 @@ Spécifie une référence URI relative à un profil ICC contenu dans un document
 
 
 
-| Nom                       |                                                          |
+| Nom | Value |
 |----------------------------|----------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                  |
 | Préfixe d’étendue <br/> | Page<br/>                                          |
@@ -68,7 +68,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

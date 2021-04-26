@@ -4,18 +4,18 @@ ms.assetid: 69899302-db54-493b-90de-596750be566f
 title: élément stubDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6676cfc6cf55aa9c9961bd614506500d847def0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42c60b071c901538122751f6e92cfd7049f7be88
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519967"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994686"
 ---
 # <a name="stubdefinitions-element"></a>élément stubDefinitions
 
 Génère des implémentations pour les fonctions stub pour les opérations de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <stubDefinitions>
@@ -65,7 +65,7 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -73,7 +73,7 @@ Il n’y a pas d’attributs.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

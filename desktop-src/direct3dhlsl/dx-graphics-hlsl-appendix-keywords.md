@@ -90,12 +90,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2d313608b11caf7c0606923fd242ea6ca856f610
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 83b5bd4af52c116e4a5f47bc62d0dda0e5c488d8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729933"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997156"
 ---
 # <a name="keywords"></a>Mots clés
 
@@ -128,9 +128,9 @@ Le langage HLSL (High Level Shader Language) de Microsoft reconnaît les mots de
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces types numériques ont des expansions de mots clés scalaires, vectorielles et de matrice :
 
@@ -151,7 +151,7 @@ Les expansions de ces types numériques suivent ce modèle, qui utilise float co
     <dl> float1, float2, float3, float4  
     </dl>
 
--   Matrix
+-   Matrice
 
     <dl> float1x1, float1x2, float1x3, float1x4  
     float2x1, float2x2, float2x3, float2x4  
@@ -181,7 +181,7 @@ Le compilateur ignore le mot clé **Export** pour la compilation non-bibliothèq
 > [!Note]  
 > Le mot clé **Export** requiert la \_47.dll D3dcompiler ou une version ultérieure de la dll.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -190,6 +190,6 @@ Le compilateur ignore le mot clé **Export** pour la compilation non-bibliothèq
 [Annexe (DirectX HLSL)](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

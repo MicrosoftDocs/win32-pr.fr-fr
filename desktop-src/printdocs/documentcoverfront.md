@@ -4,12 +4,12 @@ ms.assetid: 25dbd083-5815-4b25-bfdc-4d14f96d2b45
 title: DocumentCoverFront
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b143ea6a3e1edd667d56619c190d99d1de93496f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 4fd89bea06d3004b435cb55ff51612b1b91380c7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106539154"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996266"
 ---
 # <a name="documentcoverfront"></a>DocumentCoverFront
 
@@ -25,7 +25,7 @@ Décrit la feuille de couverture avant (début). Chaque document aura une feuill
 
 
 
-| Nom                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Nom | Value |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Préfixe d’étendue <br/> | Document<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |

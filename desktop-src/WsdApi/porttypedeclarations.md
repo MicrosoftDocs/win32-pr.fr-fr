@@ -4,18 +4,18 @@ ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: élément portTypeDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4e202f1451d93b519bd59ea51f591c37a92957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e19780d4a48c95cd47872b0428b368e6b7e99887
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533826"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996556"
 ---
 # <a name="porttypedeclarations-element"></a>élément portTypeDeclarations
 
 Génère des déclarations de constante C pour les types de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <portTypeDeclarations>
@@ -55,11 +55,11 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les déclarations de type de port sont référencées par l’application et une grande partie du code généré. Cet élément est utilisé pour générer des fichiers include.
 
@@ -67,7 +67,7 @@ Les déclarations de type de port sont référencées par l’application et une
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,12 +4,12 @@ ms.assetid: 0c255d50-8b0e-4ecd-876d-eaaccdca7b27
 title: JobPageOrder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e554da890464afdaed033490def1a915f9d7d800
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 5bbae794f90718ec5dc7461f6495332809521e79
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106531768"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997756"
 ---
 # <a name="jobpageorder"></a>JobPageOrder
 
@@ -25,7 +25,7 @@ Définit l’ordre des pages physiques pour la sortie.
 
 
 
-| Nom                       |                    |
+| Nom | Value |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

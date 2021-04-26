@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 953cc90e8958bd6f9828bcb2e94e38829292cb13
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 565a554508277ab9ce49b377b5a7e121db45b20c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990952"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996496"
 ---
 # <a name="sv_stencilref"></a>SV \_ StencilRef
 
@@ -34,9 +34,9 @@ SV \_ StencilRef représente la valeur de référence du stencil de nuanceur de 
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La spécification de la valeur de référence du nuanceur dans le nuanceur de pixels est disponible à la fois dans D3D 11.3 et D3D12. Consultez :
 
@@ -53,6 +53,6 @@ La spécification de la valeur de référence du nuanceur dans le nuanceur de pi
 [Valeurs système du modèle de nuanceur 5,1](shader-model-5-1-system-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

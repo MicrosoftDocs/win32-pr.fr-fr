@@ -4,12 +4,12 @@ ms.assetid: 195ee969-30e8-4828-a0be-f0d2a82e247c
 title: D3DXSPRITE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c394d2606584ec5f56aa28661a2da286f000a66d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe4dbf3e80e7cf6f7884d778860f9de61f5193f5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520380"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997316"
 ---
 # <a name="d3dxsprite"></a>D3DXSPRITE
 
@@ -17,9 +17,8 @@ Les indicateurs suivants sont utilisés pour spécifier les options de rendu Spr
 
 
 
-|                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DXSPRITE \_ DONOTSAVESTATE           | L’état de l’appareil ne doit pas être enregistré ou restauré lorsque [**Begin**](id3dxsprite--begin.md) ou [**end**](id3dxsprite--end.md) est appelé.                                                                                                                                                                                                                                                                                            |
 | D3DXSPRITE \_ DONOTMODIFY \_ RENDERSTATE | L’état de rendu de l’appareil ne doit pas être modifié lorsque [**Begin**](id3dxsprite--begin.md) est appelé. L’appareil est supposé être dans un état valide pour dessiner les vertex contenant UsageIndex = 0 dans la \_ position D3DDECLUSAGE, D3DDECLUSAGE \_ texcoord et les \_ données de couleur D3DDECLUSAGE.                                                                                                                                                     |
 | D3DXSPRITE \_ OBJECTSPACE              | Les transformations de projection, de vue et de projection ne sont pas modifiées. Les transformations actuellement définies sur l’appareil sont utilisées pour transformer les sprites lorsque les sprites traités par lot sont dessinés (lorsque le [**vidage**](id3dxsprite--flush.md) ou la [**fin**](id3dxsprite--end.md) est appelé). Si cet indicateur n’est pas spécifié, les transformations universelles, de vue et de projection sont modifiées afin que les sprites soient dessinés en coordonnées d’espace d’écran.              |

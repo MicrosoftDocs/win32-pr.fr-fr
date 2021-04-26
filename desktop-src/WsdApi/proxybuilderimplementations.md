@@ -4,18 +4,18 @@ ms.assetid: 75a686ba-8112-4093-8a1b-13419018aa3a
 title: élément proxyBuilderImplementations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d2cb64a6ea87b1083871931359a4f7c01ece9b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ad22348b33c60689adf60c029e3a08c2f4d417c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522136"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996466"
 ---
 # <a name="proxybuilderimplementations-element"></a>élément proxyBuilderImplementations
 
 Génère des fonctions pour créer des proxies typés.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <proxyBuilderImplementations>
@@ -55,7 +55,7 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
@@ -63,7 +63,7 @@ Il n’y a pas d’attributs.
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

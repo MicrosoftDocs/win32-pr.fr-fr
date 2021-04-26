@@ -4,12 +4,12 @@ ms.assetid: 73840548-f68b-4af8-acb4-6f7faa2e8879
 title: DocumentOutputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 444ca63fee0b76f17909b1aa08e65cd468537dee
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 96f6d16ca000e76b01cd2c3165054d7acc81351b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104211343"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997136"
 ---
 # <a name="documentoutputbin"></a>DocumentOutputBin
 
@@ -27,7 +27,7 @@ Décrit la liste complète des emplacements pris en charge pour l’appareil. Au
 
 
 
-| Nom                       |                     |
+| Nom | Value |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |

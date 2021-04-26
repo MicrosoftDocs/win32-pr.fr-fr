@@ -4,18 +4,18 @@ ms.assetid: 6ad0d163-df51-48b6-aad7-a4b018688872
 title: élément portTypeDefinitions
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60f55408df938ed95af14c69b2676473ac1bda71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff073eb7b0f9cbc4b0b6df87c8f9fc84d4f62882
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203001"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996546"
 ---
 # <a name="porttypedefinitions-element"></a>élément portTypeDefinitions
 
 Génère des constantes C pour les types de ports.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <portTypeDefinitions>
@@ -59,11 +59,11 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément est généralement utilisé dans les fichiers sources C pour fournir les constantes de type de port déclarées par [**portTypeDeclarations**](porttypedeclarations.md).
 
@@ -71,7 +71,7 @@ Cet élément est généralement utilisé dans les fichiers sources C pour fourn
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,12 +4,12 @@ ms.assetid: 3b01f05c-fe2e-4467-b2a7-5431a41200cd
 title: PageWatermarkTextText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef2310efaa91532493f7add14de8c2510e24e9b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eb19f5965347e79732aa116e5be51f90e4ef6943
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106537178"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996076"
 ---
 # <a name="pagewatermarktexttext"></a>PageWatermarkTextText
 
@@ -24,7 +24,7 @@ Spécifie le texte du filigrane.
 
 
 
-| Nom                       |                                            |
+| Nom | Value |
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | String<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | Integer<br/> | non défini<br/>       |
