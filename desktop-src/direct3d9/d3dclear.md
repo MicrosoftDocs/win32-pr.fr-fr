@@ -4,12 +4,12 @@ ms.assetid: 5d76e9a3-7afc-4db7-bffe-64bc7b9f83ac
 title: D3DCLEAR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c92bcca490580d12f165b099cb8d24dbe06830df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 787488bc4f8ed96c08ac08c18bfecec17d697e1d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393155"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999456"
 ---
 # <a name="d3dclear"></a>D3DCLEAR
 
@@ -17,9 +17,8 @@ Ces indicateurs identifient une surface à réinitialiser lors de l’appel de [
 
 
 
-|                   |                                                                                                                                             |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition          | Description                                                                                                                                 |
+|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Stencil D3DCLEAR | Effacez la mémoire tampon du stencil.                                                                                                                   |
 | \_Cible D3DCLEAR  | Effacez une cible de rendu ou toutes les cibles dans une cible de rendu multiple. Voir [plusieurs cibles de rendu (Direct3D 9)](multiple-render-targets.md). |
 | D3DCLEAR \_ ZBUFFER | Effacez le tampon de profondeur.                                                                                                                     |

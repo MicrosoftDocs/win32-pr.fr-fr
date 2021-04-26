@@ -4,12 +4,12 @@ ms.assetid: 46a611bd-a1ec-4967-b68d-72661d1b5cad
 title: D3DLOCK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ea3a60318aad8ae0fadcf02d5dea76f6aa62548
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: adaeddbc1aff0812d3e0f67df90c2cf9b1118347
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748732"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999426"
 ---
 # <a name="d3dlock"></a>D3DLOCK
 
@@ -17,9 +17,8 @@ Combinaison de zéro ou plusieurs options de verrouillage qui décrivent le type
 
 
 
-|                            |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DLOCK \_ Ignorer           | L’application ignore toute la mémoire dans la région verrouillée. Pour les mémoires tampons de vertex et d’index, la mémoire tampon entière est ignorée. Cette option est valide uniquement lorsque la ressource est créée avec une utilisation dynamique (voir [D3DUSAGE](d3dusage.md)).                                                                                                                                                                                                                                                                                                                                                           |
 | D3DLOCK \_ DONOTWAIT         | Permet à une application de récupérer les cycles de processeur si le pilote ne peut pas verrouiller immédiatement la surface. Si cet indicateur est défini et que le pilote ne peut pas verrouiller la surface immédiatement, l’appel de verrou retourne D3DERR \_ WASSTILLDRAWING. Cet indicateur ne peut être utilisé que lors du verrouillage d’une surface créée à l’aide de [**CreateOffscreenPlainSurface**](/windows/desktop/api), [**CreateRenderTarget**](/windows/desktop/api)ou [**CreateDepthStencilSurface**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createdepthstencilsurface). Cet indicateur peut également être utilisé avec une mémoire tampon d’arrière-plan.            |
 | D3DLOCK \_ aucune \_ \_ mise à jour incorrecte | Par défaut, un verrou sur une ressource ajoute une région modifiée à cette ressource. Cette option empêche toute modification de l’état de modification de la ressource. Les applications doivent utiliser cette option quand elles ont des informations supplémentaires sur l’ensemble des régions modifiées pendant l’opération de verrouillage.                                                                                                                                                                                                                                                                                                                    |
@@ -54,7 +53,7 @@ Combinaison de zéro ou plusieurs options de verrouillage qui décrivent le type
 [**LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-lockrect)
 </dt> <dt>
 
-[**Lock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock)
+[**Verrouillage**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock)
 </dt> <dt>
 
 [**LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-lockrect)
@@ -63,7 +62,7 @@ Combinaison de zéro ou plusieurs options de verrouillage qui décrivent le type
 [**LockRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dcubetexture9-lockrect)
 </dt> <dt>
 
-[**Lock**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock)
+[**Verrouillage**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dindexbuffer9-lock)
 </dt> <dt>
 
 [**Scellé**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolume9-lockbox)

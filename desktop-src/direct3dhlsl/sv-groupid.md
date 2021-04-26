@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a2588474a4c6f2cfc6d616cdb70940277389fd1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf96e1db7dbb93c88ec741e309413dea3df2b01d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101788"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996996"
 ---
 # <a name="sv_groupid"></a>\_GROUPID vs
 
@@ -37,9 +37,9 @@ Définit l’offset de groupe dans un appel de [**distribution**](/windows/deskt
 
 
 
- 
+ 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette valeur système est facultative.
 
@@ -51,14 +51,13 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-|        |      |        |          |       |         |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -70,6 +69,6 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 [Shader, modèle 5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

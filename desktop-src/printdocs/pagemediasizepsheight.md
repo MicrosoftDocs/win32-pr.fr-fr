@@ -4,12 +4,12 @@ ms.assetid: 857caf51-ccf6-415c-aab3-1fed50fa7b34
 title: PageMediaSizePSHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cb576ce7d623f4d036db1332b0339e6cef518d3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 96c6ddd593d95ae740a5e03d37e3d79c73e1638b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106538266"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993696"
 ---
 # <a name="pagemediasizepsheight"></a>PageMediaSizePSHeight
 
@@ -24,7 +24,7 @@ Spécifie la hauteur de la page, parallèle à la direction de l’orientation d
 
 
 
-| Nom                       |                                                             |
+| Nom | Value |
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | integer<br/> | 1<br/>               |
+| Plusieurs<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6d0b2450-7d90-4a24-b710-faed26969876
 title: Annotation d’IU
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3e873c83a01c5c2214cb49a93e75167e58a3389
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eef6af352b7dea25df34ce8a5712ad30143d6426
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482680"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998586"
 ---
 # <a name="ui-annotation"></a>Annotation d’IU
 
@@ -37,18 +37,17 @@ est l’un des éléments suivants :
 
 
 
-|             |                                                                                                                                                                                 |                                                                                                    |                                                                                                              |
-|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | ControlType | Description                                                                                                                                                                     | Type de données interne                                                                                 | Annotations de propriété de contrôle                                                                                 |
-| Aucun        | Aucun contrôle ne doit être affiché. Notez qu’un contrôle est visible si [SasUiVisible](#sasuivisible) a la valeur true et que le type de contrôle est un type autre que None.                           | n/a                                                                                                | n/a                                                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| None        | Aucun contrôle ne doit être affiché. Notez qu’un contrôle est visible si [SasUiVisible](#sasuivisible) a la valeur true et que le type de contrôle est un type autre que None.                           | n/a                                                                                                | n/a                                                                                                          |
 | Quelconque         | Cela implique qu’aucun contrôle spécial n’est demandé. Le contrôle présenté est le résultat d’un comportement défini par l’application.                                                         | n/a                                                                                                | n/a                                                                                                          |
 | ColorPicker | Représente une valeur de couleur sous la forme d’un échantillon de couleur. La valeur est compressée dans les composants XYZ du vecteur associé. Le composant W du vecteur associé est toujours défini sur un. | float *n* , où *n* est compris entre 1 et 4.                                                            | [SasUiEnum](#sasuienum)                                                                                      |
-| Sens   | Vecteur de direction.                                                                                                                                                             | float *n* , où *n* est compris entre 2 et 4.                                                            | Aucun                                                                                                         |
-| FilePicker  | Boîte de dialogue qui permet à l’utilisateur de parcourir et de sélectionner un fichier.                                                                                                                  | string                                                                                             | Aucun                                                                                                         |
+| Direction   | Vecteur de direction.                                                                                                                                                             | float *n* , où *n* est compris entre 2 et 4.                                                            | None                                                                                                         |
+| FilePicker  | Boîte de dialogue qui permet à l’utilisateur de parcourir et de sélectionner un fichier.                                                                                                                  | string                                                                                             | None                                                                                                         |
 | ListPicker  | Liste de valeurs de chaîne à partir de laquelle l’utilisateur peut sélectionner une entrée. Les valeurs sont générées à partir de l’annotation [SasUiEnum](#sasuienum) .                                         | Tableau de chaînes avec une valeur entière contenant l’index de la valeur de chaîne sélectionnée. | [SasUiEnum](#sasuienum)                                                                                      |
 | Numérique     | Ensemble de contrôles d’entrée numériques (tels que des zones de texte).                                                                                                                         | float *m* x *N* où *M* et *N* sont compris entre 1 et 4.                                               | [SasUiMin](#sasuimin), [SasUiMax](#sasuimax), [SasUiStride](#sasuistride)                                    |
 | Curseur      | Ensemble de curseurs.                                                                                                                                                               | float *m* x *N* où *M* et *N* sont compris entre 1 et 4                                                | [SasUiMin](#sasuimin), [SasUiMax](#sasuimax), [SasUiSteps](#sasuisteps), [SasUiStepsPower](#sasuistepspower) |
-| String      | Zone de texte pour modifier le contenu de la chaîne.                                                                                                                                         | string                                                                                             | Aucun                                                                                                         |
+| String      | Zone de texte pour modifier le contenu de la chaîne.                                                                                                                                         | string                                                                                             | None                                                                                                         |
 
 
 

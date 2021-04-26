@@ -4,12 +4,12 @@ ms.assetid: 1e7b0681-a29b-4fd6-8518-dc9d0b716b12
 title: JobName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 161801e56a27e33cdf921cc07c93e59836d4dd90
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: fcb6259d8623a4611364023bf0f74784fe308b58
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106543143"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998106"
 ---
 # <a name="jobname"></a>JobName
 
@@ -25,7 +25,7 @@ Spécifie un nom descriptif pour le travail.
 
 
 
-| Nom                       |                     |
+| Nom | Value |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>      |

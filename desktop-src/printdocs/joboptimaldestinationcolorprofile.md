@@ -4,12 +4,12 @@ ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: JobOptimalDestinationColorProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 954f67df5720e19de39d2c1c752c6d9eb860a502
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 45630b2ddbe94f19905f01c508fc4d852d29566b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103953513"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999249"
 ---
 # <a name="joboptimaldestinationcolorprofile"></a>JobOptimalDestinationColorProfile
 
@@ -25,7 +25,7 @@ Spécifie le profil de couleurs optimal en fonction de la configuration actuelle
 
 
 
-| Nom                       |                     |
+| Nom | Value |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>      |

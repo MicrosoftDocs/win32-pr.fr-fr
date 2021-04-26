@@ -4,12 +4,12 @@ ms.assetid: e73e1736-9be5-4831-8277-23a62658b7b5
 title: JobNUpAllDocumentsContiguously
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e307883a25fc977b9086259789c04f4b3a7cbf
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 35f90620ac99bf97e85acb22c723a938c31605bd
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321774"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998086"
 ---
 # <a name="jobnupalldocumentscontiguously"></a>JobNUpAllDocumentsContiguously
 
@@ -29,7 +29,7 @@ Le diagramme suivant illustre un exemple avec le document 1 contenant 3 pages et
 
 
 
-| Nom                       |                                                                                                                                                |
+| Nom | Value |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                             |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                 |

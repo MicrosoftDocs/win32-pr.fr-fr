@@ -4,12 +4,12 @@ description: Division au niveau du composant.
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 332d494adc2cc9bebe2e714b47ff2c5a6b299966
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d406c5e61b4615990b445abe169619227d22124c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030576"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999096"
 ---
 # <a name="div-sm4---asm"></a>div (SM4-ASM)
 
@@ -36,7 +36,7 @@ Division au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant présente les résultats obtenus lors de l’exécution de l’instruction avec différentes classes de nombres, en supposant qu’aucun dépassement de capacité ou négatif ne se produit.
 
@@ -48,9 +48,8 @@ Dans ce tableau, F signifie nombre fini-réel.
 
 
 
-|                     |          |            |             |        |        |             |            |          |         |
-|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **src0 src1->** | **-INF** | **-F**     | **-dénorme** | **-0** | **+0** | **+ dénorme** | **+ F**     | **+ INF** | **Nan** |
+|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **-INF**            | -inf     | -inf       | -inf        | -inf   | -inf   | -inf        | -inf       | NaN      | NaN     |
 | **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F ou +-0 | +inf     | NaN     |
 | **-dénorme**         | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | NaN     |
@@ -83,11 +82,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

@@ -4,12 +4,12 @@ ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5b128cd8a0bd06cc259d3da0daf834f3c2aebf
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 66b9f85b44ae9fdc6efb66ce5b72bb68c5187790
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321766"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998296"
 ---
 # <a name="jobdevicelanguage"></a>JobDeviceLanguage
 
@@ -25,7 +25,7 @@ Décrit les langues de l’appareil prises en charge pour l’envoi de données 
 
 
 
-| Nom                       |                    |
+| Nom | Value |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |
@@ -72,9 +72,9 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 |--------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_OptionName\_<br/>            | string<br/> | caractères<br/> | Nom complet valide tel que défini par les [espaces de noms dans XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/). Si aucun espace de noms n’est spécifié, l’espace de noms par défaut est utilisé.<br/> | Nom de l'option.<br/>                                           |
 | \_IdentityOptionValue\_<br/>   | string<br/> | n/a<br/>        | True, False.<br/>                                                                                                                                                               | Définit une option qui, lorsqu’elle est sélectionnée, désactive cette fonctionnalité.<br/> |
-| \_LanguageLevelValue\_<br/>    | string<br/> | n/a<br/>        | Aucun<br/>                                                                                                                                                                      | Spécifie le niveau de langage (par exemple, PS de niveau 2).<br/>           |
-| \_LanguageEncodingValue\_<br/> | string<br/> | n/a<br/>        | Aucun<br/>                                                                                                                                                                      | Spécifie l’encodage de la langue (par exemple, ISOLatin1).<br/>         |
-| \_LanguageVersionValue\_<br/>  | string<br/> | n/a<br/>        | Aucun<br/>                                                                                                                                                                      | Spécifie la version du langage.<br/>                                   |
+| \_LanguageLevelValue\_<br/>    | string<br/> | n/a<br/>        | Aucun.<br/>                                                                                                                                                                      | Spécifie le niveau de langage (par exemple, PS de niveau 2).<br/>           |
+| \_LanguageEncodingValue\_<br/> | string<br/> | n/a<br/>        | Aucun.<br/>                                                                                                                                                                      | Spécifie l’encodage de la langue (par exemple, ISOLatin1).<br/>         |
+| \_LanguageVersionValue\_<br/>  | string<br/> | n/a<br/>        | Aucun.<br/>                                                                                                                                                                      | Spécifie la version du langage.<br/>                                   |
 
 
 

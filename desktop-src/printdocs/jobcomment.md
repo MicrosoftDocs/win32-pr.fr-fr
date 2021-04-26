@@ -4,12 +4,12 @@ ms.assetid: 100fe310-8e64-453f-8eaf-10abaf8b10b7
 title: JobComment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ebfbd2e62c18153dd0930197b6f49cbb3480d6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5210b80d4f81771dfa98d79d4ecf187b3ef145f5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106522901"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998346"
 ---
 # <a name="jobcomment"></a>JobComment
 
@@ -24,7 +24,7 @@ Spécifie un commentaire associé au travail. Exemple : « Veuillez remettre �
 
 
 
-| Nom                       |                         |
+| Nom | Value |
 |----------------------------|-------------------------|
 | Type d'élément <br/>   | ParameterDef<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>          |
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Propriété                | xsi:type           | Value                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

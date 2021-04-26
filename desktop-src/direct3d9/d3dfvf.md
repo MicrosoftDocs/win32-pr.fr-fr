@@ -4,12 +4,12 @@ ms.assetid: 85d9f5b2-8e4a-4f92-a587-eae5b293778c
 title: D3DFVF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d4bfc1dcabdb6991b49af967bb596fd4c1e3bdd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 25a12b4f6008023a388bd204440a0b544db85c19
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516578"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999436"
 ---
 # <a name="d3dfvf"></a>D3DFVF
 
@@ -21,9 +21,8 @@ Les indicateurs suivants décrivent un format de vertex. Pour plus d’informati
 
 
 
-|                                     |                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                           |
-|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | \#définition                            | Description                                                                                                                                                                                                                                                                                                                                                             | Ordre et type des données                                                                                       |
+|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | \_Diffusion D3DFVF                     | Le format vertex comprend un composant de couleur diffuse.                                                                                                                                                                                                                                                                                                                       | DWORD dans l’ordre ARVB. Consultez [**D3DCOLOR \_ ARGB**](d3dcolor-argb.md).                                         |
 | D3DFVF \_ normal                      | Le format vertex comprend un vecteur normal de vertex. Cet indicateur ne peut pas être utilisé avec l' \_ indicateur D3DFVF XYZRHW.                                                                                                                                                                                                                                                                   | float, float, float                                                                                       |
 | D3DFVF \_ psize                       | Format de vertex spécifié en taille en points. Cette taille est exprimée en unités d’espace de caméra pour les vertex qui ne sont pas transformés et allumés, et dans les unités d’espace de l’appareil pour les vertex transformés et allumés.                                                                                                                                                                          | float                                                                                                     |
@@ -43,9 +42,8 @@ Les indicateurs suivants décrivent les indicateurs de texture utilisés par le 
 
 
 
-|                                   |                                                                                                                                                                                                                                                                                    |
-|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                          | Description                                                                                                                                                                                                                                                                        |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DFVF \_ TEX0-D3DFVF \_ TEX8       | Nombre de jeux de coordonnées de texture pour ce vertex. Les valeurs réelles de ces indicateurs ne sont pas séquentielles.                                                                                                                                                                           |
 | D3DFVF \_ TEXCOORDSIZEN (coordIndex) | Définissez un jeu de données de coordonnées de texture. n indique la dimension des coordonnées de texture. coordIndex indique le numéro d’index de la coordonnée de texture. Consultez [**D3DFVF \_ TEXCOORDSIZEN**](d3dfvf-texcoordsizen.md) , [coordonnées de texture et étapes de texture](texture-coordinates.md). |
 
@@ -59,9 +57,8 @@ Les indicateurs suivants décrivent les indicateurs de masque utilisés par le p
 
 
 
-|                                      |                                                       |
-|--------------------------------------|-------------------------------------------------------|
 | \#définition                             | Description                                           |
+|--------------------------------------|-------------------------------------------------------|
 | \_Masque de position D3DFVF \_               | Masque pour les bits de position.                               |
 | D3DFVF \_ RESERVED0, D3DFVF \_ RESERVED2 | Valeurs de masque pour les bits réservés dans le prix de la Commission. Ne pas utiliser. |
 | \_Masque D3DFVF TEXCOUNT \_               | Valeur de masque pour les bits d’indicateur de texture.                     |

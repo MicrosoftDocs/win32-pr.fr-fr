@@ -4,12 +4,12 @@ ms.assetid: 3f3b9f86-dee3-4506-bd2e-1dcc8ba617ed
 title: D3DDEVCAPS2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e774076f5ad93abf5ab1ffc343f573497592728f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11ef30540f19add130aaca6eb48655a5ac47b2b4
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200970"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999466"
 ---
 # <a name="d3ddevcaps2"></a>D3DDEVCAPS2
 
@@ -17,9 +17,8 @@ Indicateurs de capacité du pilote D3DDEVCAPS2.
 
 
 
-|                                                 |                                                                                                                                                                                                                           |
-|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition                                        | Description                                                                                                                                                                                                               |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DDEVCAPS2 \_ ADAPTIVETESSRTPATCH                | L’appareil prend en charge le pavage adaptatif des correctifs RT                                                                                                                                                                       |
 | D3DDEVCAPS2 \_ ADAPTIVETESSNPATCH                 | L’appareil prend en charge le pavage adaptatif des N-patchs.                                                                                                                                                                       |
 | D3DDEVCAPS2 \_ peut \_ STRETCHRECT \_ des \_ textures   | L’appareil prend en charge [**StretchRect**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-stretchrect) à l’aide d’une texture comme source.                                                                                                                       |

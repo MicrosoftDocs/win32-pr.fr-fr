@@ -4,18 +4,18 @@ ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: élément faultInfo
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0fd65a7214f61a0b2fa6bb8f44d9a8cadbef07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3788af9aeb31d1ed84522bc6b177143ec0607b2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203351"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995856"
 ---
 # <a name="faultinfo-element"></a>élément faultInfo
 
 Spécifie si les paramètres utilisés pour passer les informations d’erreur sont inclus dans les fonctions générées.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <faultInfo/>
@@ -42,7 +42,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs possibles sont 1 (paramètres d’erreur inclus) et 0 (paramètres d’erreur exclus). Par défaut, les paramètres d’erreur sont exclus.
 
@@ -50,7 +50,7 @@ Les valeurs possibles sont 1 (paramètres d’erreur inclus) et 0 (paramètres d
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -4,18 +4,18 @@ ms.assetid: 6ba7dbb6-6598-4569-97e1-d703e4b896c7
 title: élément functionDeclarations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b82aca30f94fc8fcec80701a74b56e83ab674c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 508cbac6d220c0ebdee0c6306d5f8a8ab5f26770
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203006"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998816"
 ---
 # <a name="functiondeclarations-element"></a>élément functionDeclarations
 
 Génère des déclarations d’implémentation pour les fonctions de proxy pour les opérations de type de port.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <functionDeclarations>
@@ -59,11 +59,11 @@ Il n’y a pas d’attributs.
 
 | Élément                         | Description                                                    |
 |---------------------------------|----------------------------------------------------------------|
-| [**fichier**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
+| [**txt**](file.md)<br/> | Génère un fichier à partir du générateur de code.<br/> <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet élément génère des déclarations de fonctions membres correspondant aux opérations appelées par le contrat. Ces déclarations sont dans un format approprié à la consommation par un compilateur C++ et sont généralement utilisées dans les fichiers. cpp.
 
@@ -77,7 +77,7 @@ Exemple :
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

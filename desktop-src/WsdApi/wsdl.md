@@ -4,12 +4,12 @@ ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: élément wsdl
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcb96e063a289e16d5e459b59cb8808a763618a
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 5ef4bc7b76ce22184e4c2f1ceaa2131ef163a26d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380733"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994706"
 ---
 # <a name="wsdl-element"></a>élément wsdl
 
@@ -35,7 +35,7 @@ Il n’y a pas d’attributs.
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**excludeImport**](excludeimport.md)<br/> | Empêche la génération d’instructions d’importation pour des cibles spécifiées nommées dans un \<wsdl:import> élément d’un fichier WSDL. <br/> <br/> |
 | [**importHint**](importhint.md)<br/>       | Spécifie l’emplacement de téléchargement pour une \<wsdl:import> directive qui ne spécifie pas explicitement d’emplacement.<br/> <br/>           |
-| [**path**](path.md)<br/>                   | Fichier et chemin d’accès du fichier d’entrée WSDL.<br/> <br/>                                                                                      |
+| [**d**](path.md)<br/>                   | Fichier et chemin d’accès du fichier d’entrée WSDL.<br/> <br/>                                                                                      |
 
 
 
@@ -59,7 +59,7 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tout élément [**importHint**](importhint.md) ou [**excludeImport**](excludeimport.md) apparaissant après l’élément [**path**](path.md) dans un fichier de configuration XML sera ignoré.
 
@@ -67,7 +67,7 @@ Tout élément [**importHint**](importhint.md) ou [**excludeImport**](excludeimp
 
 
 
-|                                     |               |
+| Étiquette | Value |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Non            |

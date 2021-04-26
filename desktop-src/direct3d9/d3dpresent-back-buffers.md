@@ -4,12 +4,12 @@ ms.assetid: 47843a7a-619b-40ba-8111-56e021865353
 title: D3DPRESENT_BACK_BUFFERS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5528137bc1d20223b5daf50857bc0765135e3e66
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a0efa698d13e6490fc62984baa64e22d05604d7c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393151"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999376"
 ---
 # <a name="d3dpresent_back_buffers"></a>\_Mémoires tampons d’arrière-plan D3DPRESENT \_
 
@@ -17,9 +17,8 @@ Spécifie le nombre de mémoires tampons d’arrière-plan qui peuvent être uti
 
 
 
-|                                    |       |                                                           |
+| \#définition                           | Value | Description                                               |
 |------------------------------------|-------|-----------------------------------------------------------|
-| \#définition                           | Valeur | Description                                               |
 | \_Mémoires tampons d’arrière-plan D3DPRESENT \_ \_ Max     | 3     | Nombre maximal de mémoires tampons d’arrière-plan pris en charge dans Direct3D 9.   |
 | D3DPRESENT \_ les \_ mémoires tampons d’arrière-plan \_ Max. \_ ex | 30    | Nombre maximal de mémoires tampons d’arrière-plan pris en charge dans Direct3D 9Ex. |
 

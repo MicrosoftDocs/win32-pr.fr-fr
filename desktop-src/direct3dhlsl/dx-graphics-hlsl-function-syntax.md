@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7358a59dba0096f5c8ffe58072a974ebff9a1050
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2781d173eb4a1c18a661495d9fb55a0cced81921
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382555"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998326"
 ---
 # <a name="function-declaration-syntax"></a>Syntaxe de la déclaration des fonctions
 
@@ -28,7 +28,7 @@ Les fonctions HLSL sont déclarées avec la syntaxe suivante.
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Paramètres
 
@@ -80,7 +80,7 @@ Chaîne facultative qui identifie l’utilisation prévue des données de retour
 
 Le type de retour peut être l’un de ces [types HLSL](dx-graphics-hlsl-data-types.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe de cette page décrit presque tous les types de fonctions HLSL, y compris les nuanceurs vertex, les nuanceurs de pixels et les fonctions d’assistance. Bien qu’un nuanceur Geometry soit également implémenté avec une fonction, sa syntaxe est un peu plus compliquée. il existe donc une page distincte qui définit une déclaration de fonction de nuanceur Geometry (voir [Geometry-Shader Object (DirectX HLSL)](dx-graphics-hlsl-geometry-shader.md)).
 
@@ -138,6 +138,6 @@ float4 PSPointSprite(PSSceneIn input) : SV_Target
 [Fonctions (DirectX HLSL)](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

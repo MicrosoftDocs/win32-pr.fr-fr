@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98e609820e67cc3ede6c3e280f63513850fed364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9c9090caec35bfc5e46d7024bf6de44d865d4ad6
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031432"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998306"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a>Syntaxe de la déclaration de fragment (Direct3D 9 HLSL)
 
 Chaque fonction HLSL (High Level Shader Language) de Microsoft peut être convertie en fragment de nuanceur avec l’ajout d’une déclaration de fragment.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 ```
@@ -43,7 +43,7 @@ où :
 
 
 
- 
+ 
 
 Les paramètres de fragment partagés sont marqués en ajoutant un \_ préfixe’r’à leur sémantique.
 
@@ -70,7 +70,7 @@ Dans cet exemple, les \_ sémantiques r PosWorld et r \_ NormalWorld identifient
 > [!Note]  
 > L’éditeur de liens de fragment était une technologie Microsoft Direct3D 9 dans D3DX 9. Fragment Linker était un outil (Flink.exe), une API D3DX 9 et une amélioration HLSL. L’éditeur de liens de fragment a été supprimé depuis la version du SDK DirectX du 2009 août. L’éditeur de liens fragment n’est jamais appliqué à Microsoft Direct3D 10, Microsoft Direct3D 10,1 ou Microsoft Direct3D 11.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -79,6 +79,6 @@ Dans cet exemple, les \_ sémantiques r PosWorld et r \_ NormalWorld identifient
 [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38113846fe62c37247bb2d3ca522a34dc9282441
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 44bd976d05c0734ca2e498b5de405564f689e20d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463354"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998386"
 ---
 # <a name="dcl_usage-input-sm1-sm2-sm3---vs-asm"></a>\_entrée d’utilisation DCL (SM1, SM2, SM3-vs ASM)
 
 Déclarez l’association entre une utilisation d’élément de vertex et un index d’utilisation pour un registre d’entrée de nuanceur de sommets.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 
 
@@ -30,7 +30,7 @@ Déclarez l’association entre une utilisation d’élément de vertex et un in
 
 
 
- 
+ 
 
 Où :
 
@@ -38,7 +38,7 @@ Où :
 -   l' \_ index d’utilisation est un index d’entiers facultatif compris entre 0 et 15. Il modifie les données d’utilisation. L’index correspond à l’index d’utilisation dans une déclaration de vertex. Voir la [déclaration de vertex (Direct3D 9)](/windows/desktop/direct3d9/vertex-declaration). L’index est ajouté à la valeur d’utilisation (DCL \_ ) sans espace. S’il n’est pas fourni, il est supposé être égal à 0.
 -   v \# est un [Registre d’entrée](dx9-graphics-reference-asm-vs-registers-input.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -48,7 +48,7 @@ Où :
 
 
 
- 
+ 
 
 Toutes les \_ instructions d’utilisation de la DCL doivent apparaître avant la première instruction exécutable.
 
@@ -59,6 +59,6 @@ Toutes les \_ instructions d’utilisation de la DCL doivent apparaître avant l
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

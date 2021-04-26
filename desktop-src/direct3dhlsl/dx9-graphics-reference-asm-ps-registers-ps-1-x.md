@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4525b6d3be2e9287f53edc1da0cd2fb188184a69
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 291f78b8bf74a20dfecf4a74ed65173a895bcc1b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463298"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998636"
 ---
 # <a name="ps_1_1__ps_1_2__ps_1_3__ps_1_4-registers"></a>registres PS 1 \_ \_ 1 PS 1 2 PS 1 \_ \_ \_ \_ \_ \_ \_ \_ 3 PS 1 \_ \_ \_ \_ 4
 
@@ -43,7 +43,7 @@ Les registres stockent les données pour une utilisation par le nuanceur de pixe
 
 
 
- 
+ 
 
 -   Les registres de constantes contiennent des données constantes. Les données peuvent être chargées dans un registre de constante à l’aide de [**SetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf) ou elles peuvent être définies à l’aide de [def-PS](def---ps.md). Les registres de constantes ne sont pas utilisables par les instructions d’adresse de texture. La seule exception est l’instruction [texm3x3spec-PS](texm3x3spec---ps.md) , qui utilise un registre de constante pour fournir un vecteur de rayon oculaire.
 -   Les registres temporaires sont utilisés pour stocker les résultats intermédiaires. R0 sert également de sortie de nuanceur de pixels. La valeur en R0 à la fin du nuanceur est la couleur de pixel du nuanceur.
@@ -84,7 +84,7 @@ La limite de lecture du port spécifie le nombre de registres différents de cha
 
 
 
- 
+ 
 
 Par exemple, les registres de couleurs pour presque toutes les versions ont une limite de deux ports de lecture. Cela signifie qu’une instruction unique peut utiliser un maximum de deux registres de couleurs différents (v0 et v1 par exemple) en tant que registres sources. Cet exemple montre que deux registres de couleur sont utilisés dans la même instruction :
 
@@ -111,7 +111,7 @@ Les types de registres sont identifiés en fonction de la capacité en lecture s
 
 
 
- 
+ 
 
 Les registres prenant en charge RW peuvent être utilisés pour stocker les résultats intermédiaires. Cela comprend les registres temporaires et les registres de texture pour certaines versions de nuanceur.
 
@@ -119,7 +119,7 @@ Les registres prenant en charge RW peuvent être utilisés pour stocker les rés
 >
 > -   Pour le nuanceur de pixels version 1 \_ 4, les registres de texture sont roulis pour les instructions d’adressage de texture et les registres de texture ne peuvent être ni lus ni écrits par des instructions arithmétiques. En outre, étant donné que les registres de texture sont devenus des registres de coordonnées de texture, le fait de disposer d’un accès Roll n’est pas une régression des fonctionnalités précédentes.
 
- 
+ 
 
 ## <a name="range"></a>Plage
 
@@ -136,7 +136,7 @@ La plage est la valeur de données de Registre maximale et minimale. Les plages 
 
 
 
- 
+ 
 
 Le matériel de nuanceur de pixels précoce représente des données dans les registres à l’aide d’un nombre à virgule fixe. Cela limite la précision à un maximum de huit bits pour la partie fractionnaire d’un nombre. Gardez cela à l’esprit lors de la conception d’un nuanceur.
 
@@ -151,6 +151,6 @@ Pour plus d’informations sur PixelShader1xMaxValue, consultez [**D3DCAPS9**](/
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

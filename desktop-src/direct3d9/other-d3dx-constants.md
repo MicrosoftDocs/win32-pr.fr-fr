@@ -4,12 +4,12 @@ ms.assetid: 4f868a80-ad86-4598-9de3-a026e03aab93
 title: Autres constantes D3DX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ebf7acecb4dd1360fec2b547a9327627d4eaf3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1aa75177a96cdf4cecba6063e12dd54a4f47a851
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108835"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997306"
 ---
 # <a name="other-d3dx-constants"></a>Autres constantes D3DX
 
@@ -19,9 +19,8 @@ Les autres constantes D3DX sont les suivantes :
 
 
 
-|                         |                                         |
-|-------------------------|-----------------------------------------|
 | \#définition                | Description                             |
+|-------------------------|-----------------------------------------|
 | D3DX \_ 16F- \_ creuser          | Nombre de chiffres décimaux de précision   |
 | D3DX \_ 16F \_ Epsilon      | Plus petit, par exemple 1,0 + Epsilon ! = 1,0 |
 | D3DX \_ 16F \_ mant \_ creuser    | Nombre de bits dans la mantisse              |
@@ -47,9 +46,8 @@ Ces \# définitions sont déclarées dans d3dx9. h et d3dx9math. h.
 
 
 
-|                  |                                            |
-|------------------|--------------------------------------------|
 | \#définition         | Description                                |
+|------------------|--------------------------------------------|
 | D3DXSH \_ MINORDER | Ordre le plus bas autorisé de la simulation.  |
 | D3DXSH \_ MAXORDER | Ordre le plus élevé autorisé pour la simulation. |
 
@@ -63,9 +61,8 @@ Ces \# définitions sont déclarées dans d3dx9math. h. Pour plus d’informatio
 
 
 
-|                        |                                                                    |
-|------------------------|--------------------------------------------------------------------|
 | \#définition               | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
 | D3DFMT \_ à partir d’un \_ fichier     | Adoptez le format exact d’un fichier.                               |
 | D3DX \_ par défaut          | Valeur par défaut.                                                   |
 | \_NONPOW2 par défaut de D3DX \_ | N’arrondissez pas les nombres, tels que la largeur ou la hauteur, à une puissance de deux. |

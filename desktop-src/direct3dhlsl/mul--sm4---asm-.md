@@ -4,12 +4,12 @@ description: Multiplication au niveau du composant.
 ms.assetid: DB95A38F-54E4-4BB6-81DF-CFFEBB4D425B
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0ae22bcb9344936f9bc63e9b4fddf72dd8f6570
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a020666c3ce59cb368271aaf09f958d8a40af56c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313717"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998256"
 ---
 # <a name="mul-sm4---asm"></a>Mul (SM4-ASM)
 
@@ -36,7 +36,7 @@ Multiplication au niveau du composant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant présente les résultats obtenus lors de l’exécution de l’instruction avec différentes classes de nombres, en supposant qu’aucun dépassement de capacité ou négatif ne se produit.
 
@@ -44,9 +44,8 @@ F signifie nombre fini-réel.
 
 
 
-|                     |          |        |          |             |        |        |            |          |        |          |         |
-|---------------------|----------|--------|----------|-------------|--------|--------|------------|----------|--------|----------|---------|
 | **src0 src1->** | **-INF** | **-F** | **-1,0** | **-dénorme** | **-0** | **+0** | **dénorme** | **+ 1,0** | **+ F** | **+ INF** | **NaN** |
+|---------------------|----------|--------|----------|-------------|--------|--------|------------|----------|--------|----------|---------|
 | **-INF**            | +inf     | +inf   | +inf     | NaN         | NaN    | NaN    | NaN        | -inf     | -inf   | -inf     | NaN     |
 | **-F**              | +inf     | + F     | -src0    | +0          | +0     | -0     | -0         | src0     | -F     | -inf     | NaN     |
 | **-1**              | +inf     | -src1  | + 1,0     | +0          | +0     | -0     | -0         | -1.0     | -src1  | -inf     | NaN     |
@@ -81,11 +80,11 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Oui       |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | oui       |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | oui       |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
 | [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |

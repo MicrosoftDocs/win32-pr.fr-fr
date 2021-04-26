@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c653c5af43bd3392f97e30571ac56ded66cbfc04
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 314c9c9a9a9e62915e9224b3cf165bc54d09a516
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990985"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999166"
 ---
 # <a name="dcl_usage-output-sm1-sm2-sm3---vs-asm"></a>sortie d’utilisation de DCL \_ (SM1, SM2, SM3-vs ASM)
 
@@ -24,7 +24,7 @@ Les registres de sortie requièrent des déclarations qui incluent une sémantiq
 
 Parmi les douze registres de sortie, les dix (pas nécessairement o0 à O9) comportent quatre composants (XYZW), un autre doit être déclaré comme position (et doit également inclure les quatre composants) et, éventuellement, une taille de point scalaire.
 
-## <a name="syntax"></a>Syntaxe
+## <a name="syntax"></a>Syntax
 
 La syntaxe de déclaration des registres de sortie est similaire aux déclarations du registre d’entrée :
 
@@ -36,7 +36,7 @@ La syntaxe de déclaration des registres de sortie est similaire aux déclaratio
 
 
 
- 
+ 
 
 Où :
 
@@ -44,7 +44,7 @@ Où :
 -   o est un registre de sortie. Consultez [ \_ registres de sortie](dx9-graphics-reference-asm-vs-registers-vs-3-0.md).
 -   \_le masque d’écriture indique le même registre de sortie qui peut être déclaré plusieurs fois (par conséquent, une sémantique différente peut être appliquée à des composants individuels), à chaque fois avec un masque d’écriture unique. Toutefois, la même sémantique ne peut pas être utilisée plusieurs fois dans une déclaration. Cela signifie que les vecteurs doivent avoir quatre composants ou moins, et ne peuvent pas traverser les limites d’un registre à quatre composants (registres individuels). Lorsque la sémantique de taille de point est utilisée, elle doit avoir un masque d’écriture complet, car elle est considérée comme une valeur scalaire. Lorsque la sémantique de position est utilisée, elle doit avoir un masque d’écriture complet, car les quatre composants doivent être écrits.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -54,7 +54,7 @@ Où :
 
 
 
- 
+ 
 
 Toutes les instructions d' [ \_ utilisation](dcl-usage-input-register---vs.md) de la DCL doivent apparaître avant la première instruction exécutable.
 
@@ -90,6 +90,6 @@ dcl_psize      o6      // Pointsize cannot have a mask
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

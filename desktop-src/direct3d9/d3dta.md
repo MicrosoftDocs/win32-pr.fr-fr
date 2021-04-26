@@ -4,12 +4,12 @@ ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf58d4d5665b1a098b84eaa95294e69220d6ea4b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 898e1bb66f74a1087a9da186599469bb195734ce
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515169"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995286"
 ---
 # <a name="d3dta"></a>D3DTA
 
@@ -31,9 +31,8 @@ Vous pouvez combiner un indicateur d’argument avec un modificateur, mais deux 
 
 
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#définition          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DTA \_ constante)   | Sélectionnez une constante dans une étape de texture. La valeur par défaut est 0xFFFFFFFF.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | D3DTA \_ actuel    | L’argument texture est le résultat de l’étape de fusion précédente. Dans la première étape de texture (étape 0), cet argument est équivalent à D3DTA \_ diffus. Si la phase de fusion précédente utilise une texture de la carte de bosselage ( \_ opération D3DTOP BUMPENVMAP), le système choisit la texture à partir de l’étape avant la texture de la carte de bosselage. Si s représente l’étape de texture actuelle et que s-1 contient une texture de carte de bosselage, cet argument devient la sortie de résultat par l’étape de texture s-2. Les autorisations sont en lecture/écriture. |
 | \_Diffusion D3DTA    | L’argument texture est la couleur diffuse interpolée à partir des composants de vertex pendant l’ombrage Gouraud. Si le vertex ne contient pas de couleur diffuse, la couleur par défaut est 0xFFFFFFFF. Les autorisations sont en lecture seule.                                                                                                                                                                                                                                                                                          |
@@ -53,9 +52,8 @@ Un indicateur d’argument peut être combiné avec l’un des indicateurs de mo
 
 
 
-|                       |                                                                                                                |
-|-----------------------|----------------------------------------------------------------------------------------------------------------|
 | \#définition              | Description                                                                                                    |
+|-----------------------|----------------------------------------------------------------------------------------------------------------|
 | D3DTA \_ ALPHAREPLICATE | Répliquez les informations alpha sur tous les canaux de couleur avant la fin de l’opération. Il s’agit d’un modificateur de lecture. |
 | \_Complément D3DTA     | Prenez le complément de l’argument x, (1,0-x). Il s’agit d’un modificateur de lecture.                                     |
 

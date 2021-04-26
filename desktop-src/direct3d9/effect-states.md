@@ -4,12 +4,12 @@ ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
 title: États d’effet (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e208c0c7c14564a9967562ff2fd04a400cb7901
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 1fe92661fda82bd7dfa47ead0061ef8606e422a2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314762"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998866"
 ---
 # <a name="effect-states-direct3d-9"></a>États d’effet (Direct3D 9)
 
@@ -53,9 +53,8 @@ Pour activer les meilleures performances pour appliquer un effet, tous les compo
 
 
 
-|                        |        |                                                                                                                     |
-|------------------------|--------|---------------------------------------------------------------------------------------------------------------------|
 | État clair            | Type   | Valeurs                                                                                                              |
+|------------------------|--------|---------------------------------------------------------------------------------------------------------------------|
 | LightAmbient \[ n\]      | float4 | Consultez le membre ambiant de [**D3DLIGHT9**](d3dlight9.md).                                                           |
 | LightAttenuation0 \[ n\] | float  | Consultez le membre Attenuation0 de [**D3DLIGHT9**](d3dlight9.md).                                                      |
 | LightAttenuation1 \[ n\] | float  | Consultez le membre Attenuation1 de [**D3DLIGHT9**](d3dlight9.md).                                                      |
@@ -95,9 +94,8 @@ Les États que vous ne pouvez pas déclarer sont définis sur une valeur par dé
 
 
 
-|                  |        |                                                |
-|------------------|--------|------------------------------------------------|
 | État du matériau   | Type   | Valeurs                                         |
+|------------------|--------|------------------------------------------------|
 | Propriétés matériau  | float4 | Même valeur que l' [ **ambiant**](d3dmaterial9.md)  |
 | MaterialDiffuse  | float4 | Valeur identique à la [ **diffusion**](d3dmaterial9.md)  |
 | Matériau émissif | float4 | Même valeur que [ **émissif**](d3dmaterial9.md) |
@@ -148,7 +146,7 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="even">
 <td>AlphaBlendEnable</td>
 <td>bool</td>
-<td>True ou False. Mêmes valeurs que D3DRS_ALPHABLENDENABLE dans <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>.</td>
+<td>Vrai ou faux. Mêmes valeurs que D3DRS_ALPHABLENDENABLE dans <a href="/windows/desktop/direct3d9/d3drenderstatetype"><strong>D3DRENDERSTATETYPE</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>AlphaFunc</td>
@@ -163,7 +161,7 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="odd">
 <td>AlphaTestEnable</td>
 <td>dword</td>
-<td>True ou False. Consultez D3DRS_ALPHATESTENABLE.</td>
+<td>Vrai ou faux. Consultez D3DRS_ALPHATESTENABLE.</td>
 </tr>
 <tr class="even">
 <td>BlendOp</td>
@@ -188,7 +186,7 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="even">
 <td>DitherEnable</td>
 <td>bool</td>
-<td>True ou False. Mêmes valeurs que D3DRS_DITHERENABLE.</td>
+<td>Vrai ou faux. Mêmes valeurs que D3DRS_DITHERENABLE.</td>
 </tr>
 <tr class="odd">
 <td>FillMode</td>
@@ -198,7 +196,7 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="even">
 <td>LastPixel</td>
 <td>dword</td>
-<td>True ou False. Consultez D3DRS_LASTPIXEL.</td>
+<td>Vrai ou faux. Consultez D3DRS_LASTPIXEL.</td>
 </tr>
 <tr class="odd">
 <td>ShadeMode</td>
@@ -218,12 +216,12 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="even">
 <td>SRGBWriteEnable</td>
 <td>bool</td>
-<td>True ou False. Mêmes valeurs que D3DRS_SRGBWRITEENABLE.</td>
+<td>Vrai ou faux. Mêmes valeurs que D3DRS_SRGBWRITEENABLE.</td>
 </tr>
 <tr class="odd">
 <td>StencilEnable</td>
 <td>bool</td>
-<td>True ou False. Mêmes valeurs que D3DRS_STENCILENABLE.</td>
+<td>Vrai ou faux. Mêmes valeurs que D3DRS_STENCILENABLE.</td>
 </tr>
 <tr class="even">
 <td>StencilFail</td>
@@ -292,7 +290,7 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 <tr class="odd">
 <td>ZWriteEnable</td>
 <td>bool</td>
-<td>True ou False. Consultez D3DRS_ZWRITEENABLE.</td>
+<td>Vrai ou faux. Consultez D3DRS_ZWRITEENABLE.</td>
 </tr>
 </tbody>
 </table>
@@ -319,30 +317,29 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 
 
 
-|                          |        |                                                                                                                                               |
-|--------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | État du rendu             | Type   | Valeurs                                                                                                                                        |
+|--------------------------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Ambiant                  | float4 | Mêmes valeurs que D3DRS \_ ambiant.                                                                                                                |
 | AmbientMaterialSource    | dword  | Mêmes valeurs que [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) sans le \_ préfixe D3DMCS. Consultez D3DRS \_ AMBIENTMATERIALSOURCE.  |
-| Portion                 | bool   | True ou False. Mêmes valeurs que le \_ découpage D3DRS.                                                                                                |
+| Portion                 | bool   | Vrai ou faux. Mêmes valeurs que le \_ découpage D3DRS.                                                                                                |
 | ClipPlaneEnable          | dword  | Combinaison d’opérations de bits de macros D3DCLIPPLANE0-D3DCLIPPLANE5. Consultez [**D3DCLIPPLANEn**](d3dclipplanen.md) et D3DRS \_ CLIPPLANEENABLE.           |
-| ColorVertex              | bool   | True ou False. Mêmes valeurs que D3DRS \_ COLORVERTEX.                                                                                             |
+| ColorVertex              | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ COLORVERTEX.                                                                                             |
 | CullMode                 | dword  | Mêmes valeurs que [**D3DCULL**](./d3dcull.md) sans le \_ préfixe D3DCULL.                                                                 |
 | DiffuseMaterialSource    | dword  | Mêmes valeurs que [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) sans le \_ préfixe D3DMCS. Consultez D3DRS \_ DIFFUSEMATERIALSOURCE.  |
 | EmissiveMaterialSource   | dword  | Mêmes valeurs que [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) sans le \_ préfixe D3DMCS. Consultez D3DRS \_ EMISSIVEMATERIALSOURCE. |
 | FogColor                 | dword  | Mêmes valeurs que [**D3DCOLOR**](d3dcolor.md). Consultez D3DRS \_ FOGCOLOR.                                                                             |
 | FogDensity               | float  | Mêmes valeurs que D3DRS \_ FOGDENSITY.                                                                                                             |
-| FogEnable                | bool   | True ou False. Mêmes valeurs que D3DRS \_ FOGENABLE.                                                                                               |
+| FogEnable                | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ FOGENABLE.                                                                                               |
 | FogEnd                   | float  | Mêmes valeurs que D3DRS \_ FOGEND.                                                                                                                 |
 | FogStart                 | float  | Mêmes valeurs que D3DRS \_ FOGSTART.                                                                                                               |
 | FogTableMode             | dword  | Mêmes valeurs que [**D3DFOGMODE**](./d3dfogmode.md). Consultez D3DRS \_ FOGTABLEMODE dans [**D3DRENDERSTATETYPE**](./d3drenderstatetype.md).     |
 | FogVertexMode            | dword  | Mêmes valeurs que [**D3DFOGMODE**](./d3dfogmode.md) sans le \_ préfixe D3DFOG.                                                            |
-| IndexedVertexBlendEnable | bool   | True ou False. Mêmes valeurs que D3DRS \_ INDEXEDVERTEXBLENDENABLE.                                                                                |
-| Éclairage                 | bool   | True ou False. Mêmes valeurs que l' \_ éclairage D3DRS.                                                                                                |
-| LocalViewer              | bool   | True ou False. Mêmes valeurs que D3DRS \_ LOCALVIEWER.                                                                                             |
+| IndexedVertexBlendEnable | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ INDEXEDVERTEXBLENDENABLE.                                                                                |
+| Éclairage                 | bool   | Vrai ou faux. Mêmes valeurs que l' \_ éclairage D3DRS.                                                                                                |
+| LocalViewer              | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ LOCALVIEWER.                                                                                             |
 | MultiSampleAntialias     | bool   | Mêmes valeurs que D3DRS \_ MULTISAMPLEANTIALIAS.                                                                                                   |
 | MultiSampleMask          | dword  | Mêmes valeurs que D3DRS \_ MULTISAMPLEMASK.                                                                                                        |
-| NormalizeNormals         | bool   | True ou False. Mêmes valeurs que D3DRS \_ NORMALIZENORMALS.                                                                                        |
+| NormalizeNormals         | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ NORMALIZENORMALS.                                                                                        |
 | PatchSegments            | float  | Mêmes valeurs que nSegments dans [**SetNPatchMode**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setnpatchmode).                                                         |
 | PointScale \_ A            | float  | Mêmes valeurs que D3DRS \_ POINTSCALE \_ A.                                                                                                          |
 | PointScale \_ B            | float  | Mêmes valeurs que D3DRS \_ POINTSCALE \_ B.                                                                                                          |
@@ -351,9 +348,9 @@ Les États de rendu des fichiers Effects ont des noms semblables aux États de p
 | PointSize                | float  | Les mêmes valeurs que D3DRS sont \_ désignables.                                                                                                              |
 | Repointer \_ min.           | float  | Les mêmes valeurs que D3DRS \_ redirigent \_ min.                                                                                                         |
 | Délimiter \_ Max.           | float  | Les mêmes valeurs que D3DRS \_ redirigent \_ Max sans le \_ préfixe D3DRS.                                                                              |
-| PointSpriteEnable        | bool   | True ou False. Mêmes valeurs que D3DRS \_ POINTSPRITEENABLE.                                                                                       |
-| RangeFogEnable           | bool   | True ou False. Mêmes valeurs que D3DRS \_ RANGEFOGENABLE.                                                                                          |
-| SpecularEnable           | bool   | True ou False. Mêmes valeurs que D3DRS \_ SpecularEnable.                                                                                          |
+| PointSpriteEnable        | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ POINTSPRITEENABLE.                                                                                       |
+| RangeFogEnable           | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ RANGEFOGENABLE.                                                                                          |
+| SpecularEnable           | bool   | Vrai ou faux. Mêmes valeurs que D3DRS \_ SpecularEnable.                                                                                          |
 | SpecularMaterialSource   | dword  | Mêmes valeurs que [**D3DMATERIALCOLORSOURCE**](./d3dmaterialcolorsource.md) sans le \_ préfixe D3DMCS. Consultez D3DRS \_ SPECULARMATERIALSOURCE. |
 | TweenFactor              | float  | Mêmes valeurs que D3DRS \_ TWEENFACTOR.                                                                                                            |
 | VertexBlend              | dword  | Mêmes valeurs que [**D3DVERTEXBLENDFLAGS**](./d3dvertexblendflags.md) sans le \_ préfixe D3DVBF. Consultez D3DRS \_ VERTEXBLEND.                  |
@@ -381,9 +378,8 @@ Un état de l’échantillonneur représente un objet d’échantillonnage.
 
 
 
-|         |         |                                     |
-|---------|---------|-------------------------------------|
 | State   | Type    | Valeurs                              |
+|---------|---------|-------------------------------------|
 | Échantillonneur | échantillonneur | **Null**, ou un bloc d’état de l’échantillonneur. |
 
 
@@ -396,9 +392,8 @@ Les États des étapes de l’échantillonneur sont utilisés pour échantillonn
 
 
 
-|                     |                              |                                                                                                                                   |
-|---------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | État de l’échantillonneur       | Type                         | Valeurs                                                                                                                            |
+|---------------------|------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | Adressed \[ 16\]      | dword                        | Mêmes valeurs que [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) sans le \_ préfixe D3DTADDRESS. Consultez D3DSAMP \_ .      |
 | AddressV \[ 16\]      | dword                        | Mêmes valeurs que [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) sans le \_ préfixe D3DTADDRESS. Consultez D3DSAMP \_ ADDRESSV.      |
 | AddressW \[ 16\]      | dword                        | Mêmes valeurs que [**D3DTEXTUREADDRESS**](./d3dtextureaddress.md) sans le \_ préfixe D3DTADDRESS. Consultez D3DSAMP \_ ADDRESSW.      |
@@ -434,9 +429,8 @@ Il n’y a que deux États de nuanceur d’effet : l’un associé à un objet 
 
 
 
-|              |              |                                                                             |
-|--------------|--------------|-----------------------------------------------------------------------------|
 | État du nuanceur | Type         | Valeurs                                                                      |
+|--------------|--------------|-----------------------------------------------------------------------------|
 | PixelShader  | PixelShader  | **Null**, un bloc d’assembly, une cible de compilation ou un paramètre de nuanceur de pixels. |
 | VertexShader | VertexShader | **Null**, un bloc d’assembly, une cible de compilation ou un paramètre de nuanceur de pixels. |
 
@@ -462,9 +456,8 @@ Les États de constante de nuanceur sont utilisés pour accéder aux paramètres
 
 
 
-|                       |                 |                                              |
-|-----------------------|-----------------|----------------------------------------------|
 | État constant du nuanceur | Type            | Valeurs                                       |
+|-----------------------|-----------------|----------------------------------------------|
 | PixelShaderConstant   | float \[ m \[ n\]\] | Tableau de valeurs float de m x n ; m et n sont facultatifs. |
 | PixelShaderConstant1  | float4          | Un flottant 4D.                                |
 | PixelShaderConstant2  | float4x2        | Deux valeurs en virgule flottante 4D.                               |
@@ -492,9 +485,8 @@ Les États de texture initialisent les textures utilisées par le mélangeur de 
 
 
 
-|               |         |                                   |
-|---------------|---------|-----------------------------------|
 | État de la texture | Type    | Valeurs                            |
+|---------------|---------|-----------------------------------|
 | Texture \[ 8\]  | texture | **Null**, ou un paramètre de texture. |
 
 
@@ -507,9 +499,8 @@ Les États de l’étape de texture définissent les textures et les étapes de 
 
 
 
-|                            |       |                                                                                                                                                           |
-|----------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | État de l’étape de texture        | Type  | Valeurs                                                                                                                                                    |
+|----------------------------|-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AlphaOp \[ 8\]               | dword | Identique à [**D3DTEXTUREOP**](./d3dtextureop.md) sans le \_ préfixe D3DTOP. Consultez D3DTSS \_ ALPHAOP.                                                      |
 | AlphaArg0 \[ 8\]             | dword | Identique à [D3DTA](d3dta.md) sans le \_ préfixe D3DTA. Consultez D3DTSS \_ ALPHAARG0.                                                                             |
 | AlphaArg1 \[ 8\]             | dword | Identique à [D3DTA](d3dta.md) sans le \_ préfixe D3DTA. Consultez D3DTSS \_ ALPHAARG1.                                                                             |
@@ -538,9 +529,8 @@ Définissez les États de transformation pour initialiser les matrices de transf
 
 
 
-|                       |          |                                                                                                                                 |
-|-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
 | Transformer l’État       | Type     | Valeurs                                                                                                                          |
+|-----------------------|----------|---------------------------------------------------------------------------------------------------------------------------------|
 | ProjectionTransform   | float4x4 | Matrice 4x4 de nombres à virgule flottante. Mêmes valeurs que \_ la projection D3DTS sans le \_ préfixe D3DTS.                                            |
 | TextureTransform \[ 8\] | float4x4 | Matrice 4x4 de nombres à virgule flottante. Mêmes valeurs que [**D3DTRANSFORMSTATETYPE**](./d3dtransformstatetype.md) sans le \_ préfixe D3DTS. |
 | ViewTransform         | float4x4 | Matrice 4x4 de nombres à virgule flottante. Mêmes valeurs que \_ la vue D3DTS sans le \_ préfixe D3DTS.                                                  |
