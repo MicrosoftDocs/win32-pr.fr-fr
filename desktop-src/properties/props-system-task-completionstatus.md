@@ -1,19 +1,19 @@
 ---
-description: .
+description: System. Task. CompletionStatus
 ms.assetid: c7cf61e0-c536-4292-bbe3-f54d0cb9a3f3
 title: System. Task. CompletionStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eedff5f1d094917824f0a89607381838ce654f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 827b67cb195ec5a68a5eeac8f26b2bf838bcfd6c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210314"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091327"
 ---
-# <a name="systemtaskcompletionstatus"></a><span data-ttu-id="71dbe-103">System. Task. CompletionStatus</span><span class="sxs-lookup"><span data-stu-id="71dbe-103">System.Task.CompletionStatus</span></span>
+# <a name="systemtaskcompletionstatus"></a><span data-ttu-id="bbf90-103">System. Task. CompletionStatus</span><span class="sxs-lookup"><span data-stu-id="bbf90-103">System.Task.CompletionStatus</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="71dbe-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span><span class="sxs-lookup"><span data-stu-id="71dbe-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a><span data-ttu-id="bbf90-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span><span class="sxs-lookup"><span data-stu-id="bbf90-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista</span></span>
 
 ```
 propertyDescription
@@ -28,54 +28,54 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a><span data-ttu-id="71dbe-105">Notes</span><span class="sxs-lookup"><span data-stu-id="71dbe-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bbf90-105">Notes </span><span class="sxs-lookup"><span data-stu-id="bbf90-105">Remarks</span></span>
 
-<span data-ttu-id="71dbe-106">Les valeurs de la valeur de l’une sont définies dans propKey. h.</span><span class="sxs-lookup"><span data-stu-id="71dbe-106">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="bbf90-106">Les valeurs de la valeur de l’une sont définies dans propKey. h.</span><span class="sxs-lookup"><span data-stu-id="bbf90-106">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="71dbe-107">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="71dbe-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bbf90-107">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="bbf90-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="71dbe-108">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="71dbe-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="bbf90-108">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="bbf90-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-109">searchInfo</span><span class="sxs-lookup"><span data-stu-id="71dbe-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="bbf90-109">searchInfo</span><span class="sxs-lookup"><span data-stu-id="bbf90-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-110">labelInfo</span><span class="sxs-lookup"><span data-stu-id="71dbe-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="bbf90-110">labelInfo</span><span class="sxs-lookup"><span data-stu-id="bbf90-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="71dbe-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="bbf90-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="bbf90-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="71dbe-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="bbf90-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="bbf90-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="71dbe-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="bbf90-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="bbf90-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-114">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="71dbe-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="bbf90-114">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="bbf90-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="71dbe-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="bbf90-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="bbf90-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="71dbe-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="bbf90-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="bbf90-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-117">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="71dbe-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="bbf90-117">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="bbf90-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-118">drawControl</span><span class="sxs-lookup"><span data-stu-id="71dbe-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="bbf90-118">drawControl</span><span class="sxs-lookup"><span data-stu-id="bbf90-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-119">editControl</span><span class="sxs-lookup"><span data-stu-id="71dbe-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="bbf90-119">editControl</span><span class="sxs-lookup"><span data-stu-id="bbf90-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-120">filterControl</span><span class="sxs-lookup"><span data-stu-id="71dbe-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="bbf90-120">filterControl</span><span class="sxs-lookup"><span data-stu-id="bbf90-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="71dbe-121">queryControl</span><span class="sxs-lookup"><span data-stu-id="71dbe-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="bbf90-121">queryControl</span><span class="sxs-lookup"><span data-stu-id="bbf90-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
