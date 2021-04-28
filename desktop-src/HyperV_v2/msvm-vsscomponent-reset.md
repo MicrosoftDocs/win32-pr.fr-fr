@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_VssComponent-demande une réinitialisation.
 ms.assetid: cafc6841-4814-4bf9-947b-c6afd4747367
 title: Méthode Reset de la classe Msvm_VssComponent
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8528d769f4175bb8b42f1ff243b5d0c389c62617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce1799206bdd27b1ddb0530a3e8b92a7c5704576
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033866"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118547"
 ---
-# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="a4fde-103">Méthode Reset de la \_ classe MSVM VssComponent</span><span class="sxs-lookup"><span data-stu-id="a4fde-103">Reset method of the Msvm\_VssComponent class</span></span>
+# <a name="reset-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="879da-103">Méthode Reset de la \_ classe MSVM VssComponent</span><span class="sxs-lookup"><span data-stu-id="879da-103">Reset method of the Msvm\_VssComponent class</span></span>
 
-<span data-ttu-id="a4fde-104">Demande une réinitialisation.</span><span class="sxs-lookup"><span data-stu-id="a4fde-104">Requests a reset.</span></span>
+<span data-ttu-id="879da-104">Demande une réinitialisation.</span><span class="sxs-lookup"><span data-stu-id="879da-104">Requests a reset.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a4fde-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a4fde-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="879da-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="879da-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="a4fde-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="a4fde-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="879da-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="879da-106">Parameters</span></span>
 
-<span data-ttu-id="a4fde-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="a4fde-107">This method has no parameters.</span></span>
+<span data-ttu-id="879da-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="879da-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="a4fde-108">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="a4fde-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="879da-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="879da-108">Return value</span></span>
 
-<span data-ttu-id="a4fde-109">La méthode retourne l'une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="a4fde-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="879da-109">La méthode retourne l'une des valeurs suivantes :</span><span class="sxs-lookup"><span data-stu-id="879da-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a4fde-110">**Terminé sans erreur** (0)</span><span class="sxs-lookup"><span data-stu-id="a4fde-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="879da-110">**Terminé sans erreur** (0)</span><span class="sxs-lookup"><span data-stu-id="879da-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a4fde-111">**Non pris en charge** (1)</span><span class="sxs-lookup"><span data-stu-id="a4fde-111">**Not supported** (1)</span></span>
+<span data-ttu-id="879da-111">**Non pris en charge** (1)</span><span class="sxs-lookup"><span data-stu-id="879da-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="a4fde-112">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="a4fde-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="879da-112">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="879da-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a4fde-113">Condition requise</span><span class="sxs-lookup"><span data-stu-id="a4fde-113">Requirement</span></span> | <span data-ttu-id="a4fde-114">Valeur</span><span class="sxs-lookup"><span data-stu-id="a4fde-114">Value</span></span> |
+| <span data-ttu-id="879da-113">Condition requise</span><span class="sxs-lookup"><span data-stu-id="879da-113">Requirement</span></span> | <span data-ttu-id="879da-114">Valeur</span><span class="sxs-lookup"><span data-stu-id="879da-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a4fde-115">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="a4fde-115">Minimum supported client</span></span><br/> | <span data-ttu-id="a4fde-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="a4fde-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="a4fde-117">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="a4fde-117">Minimum supported server</span></span><br/> | <span data-ttu-id="a4fde-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="a4fde-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="a4fde-119">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="a4fde-119">Namespace</span></span><br/>                | <span data-ttu-id="a4fde-120">\\Virtualisation racine \\ v2</span><span class="sxs-lookup"><span data-stu-id="a4fde-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="a4fde-121">MOF</span><span class="sxs-lookup"><span data-stu-id="a4fde-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="a4fde-122"><dt>WindowsVirtualization. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="a4fde-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="a4fde-123">DLL</span><span class="sxs-lookup"><span data-stu-id="a4fde-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a4fde-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="a4fde-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="879da-115">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="879da-115">Minimum supported client</span></span><br/> | <span data-ttu-id="879da-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="879da-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="879da-117">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="879da-117">Minimum supported server</span></span><br/> | <span data-ttu-id="879da-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="879da-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="879da-119">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="879da-119">Namespace</span></span><br/>                | <span data-ttu-id="879da-120">\\Virtualisation racine \\ v2</span><span class="sxs-lookup"><span data-stu-id="879da-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="879da-121">MOF</span><span class="sxs-lookup"><span data-stu-id="879da-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="879da-122"><dt>WindowsVirtualization. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="879da-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="879da-123">DLL</span><span class="sxs-lookup"><span data-stu-id="879da-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="879da-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="879da-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a4fde-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a4fde-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="879da-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="879da-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a4fde-126">**MSVM \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="a4fde-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
+[<span data-ttu-id="879da-126">**MSVM \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="879da-126">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
 </dt> </dl>
 
  
