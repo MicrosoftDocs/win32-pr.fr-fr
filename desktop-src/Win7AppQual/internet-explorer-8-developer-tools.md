@@ -1,15 +1,15 @@
 ---
-description: .
+description: Outils de développement Internet Explorer 8
 ms.assetid: D721167E-B04B-4B06-A9EE-56711A7A1942
 title: Outils de développement Internet Explorer 8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a184b513717655ee0a738be6318b4c8f2515ca3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a4314d5d0392b9bc4933b945f7da32040e1570
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115711"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088207"
 ---
 # <a name="internet-explorer-8-developer-tools"></a>Outils de développement Internet Explorer 8
 

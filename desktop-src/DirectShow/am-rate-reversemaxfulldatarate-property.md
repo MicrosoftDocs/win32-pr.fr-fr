@@ -1,15 +1,15 @@
 ---
-description: S’applique à Windows Vista et versions ultérieures.
+description: AM_RATE_ReverseMaxFullDataRate propriété-s’applique à Windows Vista et versions ultérieures.
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: AM_RATE_ReverseMaxFullDataRate, propriété (dvdmedia. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e376c6e95160c6a6c3c6637a765d868e282d33
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a6e70a330433c8ea6e8116db944d8fb3d2ffff4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910237"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099967"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>\_ \_ Propriété REVERSEMAXFULLDATARATE rate AM
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes 
 
 Les décodeurs qui prennent en charge la lecture inversée en douceur doivent exposer cette propriété. Pour plus d’informations, consultez [améliorations de la lecture de DVD dans Windows Vista](dvd-playback-enhancements-in-windows-vista.md).
 

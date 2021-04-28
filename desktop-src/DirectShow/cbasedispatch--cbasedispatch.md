@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CBaseDispatch. ~ CBaseDispatch, destructeur, méthode de destructeur.
 ms.assetid: b3256b3f-20c5-4611-abbe-d0c5ee470922
 title: CBaseDispatch. ~ CBaseDispatch, destructeur (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 68ca35245e207be09a236d69d7f507f3bbd946f8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0984a4a7e1bf69c4d650963b8e50431fdd0b3107
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525363"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099907"
 ---
 # <a name="cbasedispatchcbasedispatch-destructor"></a>CBaseDispatch. ~ CBaseDispatch, destructeur
 

@@ -1,19 +1,19 @@
 ---
-description: .
+description: Référence du système de propriétés
 ms.assetid: 8f2df462-c22d-4059-8599-4eefd24560f1
 title: Référence du système de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c381b1f2ae39c598e84723e31e124c53d97947
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e55f3146b9431aa901f867fb545e27a9f6dfd446
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519736"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087386"
 ---
 # <a name="property-system-reference"></a>Référence du système de propriétés
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Propriétés Windows](props.md)
 -   [Schéma de la description de propriété](property-description-schema.md)

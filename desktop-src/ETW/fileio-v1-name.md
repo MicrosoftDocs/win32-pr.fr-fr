@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe FileIo_V1_Name-cette classe est la classe de type d’événement pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: a4ee38df-af75-4aec-89ec-5a1c39302c82
 title: Classe FileIo_V1_Name
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 617e0abeed095099996079211107d0720017514a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62069f8a462499dfbfd9cfa368b9f5985d4775e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034805"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106547"
 ---
 # <a name="fileio_v1_name-class"></a>FileIo \_ v1, \_ classe de nom
 
@@ -82,11 +82,11 @@ Faire correspondre la valeur de ce pointeur à la valeur de pointeur **FileObjec
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **Windows Server 2003 :** Pour récupérer la lettre de lecteur pour le chemin d’accès au nom de fichier, utilisez la valeur de propriété **FileObject** pour effectuer un mappage à l’événement [ \_ TypeGroup1 e](diskio-typegroup1.md) correspondant. À partir de l' \_ événement e TypeGroup1, utilisez les valeurs de propriété **DiskNumber** et **ByteOffset** pour mapper à l’événement SystemConfig [ \_ LogDisk](systemconfig-logdisk.md) correspondant (**ByteOffset** est mappé à **StartOffset**). La propriété **DriveLetterString** contient la lettre de lecteur.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

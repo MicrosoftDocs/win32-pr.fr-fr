@@ -1,15 +1,15 @@
 ---
-description: .
+description: Microsoft Message Queuing (MSMQ)-SHA 2 est l’algorithme de hachage par défaut
 ms.assetid: 43cca5bc-6675-4f29-925e-19d3fb19ef0f
 title: Microsoft Message Queuing (MSMQ)-SHA 2 est l’algorithme de hachage par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb62f55f07565e76cefb5463a095d11ae789f379
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 0e2b73e347f5d5a768780afc5d2153909c6f5a9a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314962"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088097"
 ---
 # <a name="microsoft-message-queuing-msmq---sha-2-is-the-default-hash-algorithm"></a>Microsoft Message Queuing (MSMQ)-SHA 2 est l’algorithme de hachage par défaut
 

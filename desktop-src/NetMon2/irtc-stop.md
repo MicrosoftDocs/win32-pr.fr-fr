@@ -1,5 +1,5 @@
 ---
-description: La méthode Stop arrête la capture en cours.
+description: 'IRTC :: Stop, méthode : la méthode Stop arrête la capture en cours.'
 ms.assetid: 64a80ff1-5a48-4be8-835d-a3d304ebb324
 title: 'IRTC :: Stop, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: f25bf9d56a6f41acefad9a552dd2f591158bc74e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10bf0886032c93288435ade05fec46077d53753c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519636"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113517"
 ---
 # <a name="irtcstop-method"></a>IRTC :: Stop, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque vous redémarrez la capture après avoir appelé la méthode **IRTC :: Stop** , veillez à appeler [IRTC :: configure](irtc-configure.md) chaque fois que vous appelez [IRTC :: Start](irtc-start.md) pour redémarrer la capture.
 

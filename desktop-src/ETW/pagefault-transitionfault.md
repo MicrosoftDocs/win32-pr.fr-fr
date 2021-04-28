@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de défaut de page. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe PageFault_TransitionFault : cette classe est la classe de type d’événement pour les événements de défaut de page. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: cc2b7a93-6974-4872-98f3-d6cb81861ae5
 title: Classe PageFault_TransitionFault
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4721e2d342750b12baa58bb69f72606511c14143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8ee12cf201b9ee83d231bf1f5e499550aa3cd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866425"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106457"
 ---
 # <a name="pagefault_transitionfault-class"></a>PageFault \_ TransitionFault, classe
 
@@ -82,7 +82,7 @@ Adresse virtuelle de la page qui a provoqué l’erreur de page.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

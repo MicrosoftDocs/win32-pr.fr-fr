@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode miniature.
+description: IWICBitmapFrameDecode_GetThumbnail_Proxy fonction de proxy de fonction pour la méthode miniature.
 ms.assetid: 377f8aac-3cdc-44dc-8c60-9b6bce915486
 title: IWICBitmapFrameDecode_GetThumbnail_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c29b62b4d3839b7cd3db51574f38ab824b215310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f3c94461ac13aa39d14b97f13fe5e9e8d7569a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544649"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113637"
 ---
 # <a name="iwicbitmapframedecode_getthumbnail_proxy-function"></a>\_ \_ Fonction proxy miniature IWICBitmapFrameDecode
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapFrameDecode_GetThumbnail_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+Type : **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-Pointeur vers cet objet [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
+Pointeur vers cet objet [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ Pointeur qui reçoit un pointeur vers le [**IWICBitmapSource**](/windows/desktop
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

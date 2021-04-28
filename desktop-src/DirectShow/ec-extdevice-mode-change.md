@@ -1,15 +1,15 @@
 ---
-description: Non pris en charge.
+description: EC_EXTDEVICE_MODE_CHANGE-non pris en charge.
 ms.assetid: d5f7da6a-f559-4ad3-af1d-3e6a8edb9b9b
 title: EC_EXTDEVICE_MODE_CHANGE (Evcode. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dff6c4eaa1becbedb8fa79f027202eafcdb8e943
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b00a9aa0083911531b65dc445d996e6ccd4aeabd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119707"
 ---
 # <a name="ec_extdevice_mode_change"></a>\_modification du \_ mode \_ EXTDEVICE EC
 

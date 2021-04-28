@@ -1,5 +1,5 @@
 ---
-description: Non utilisé.
+description: <span id="vspixengine.istatuscallback"></span>Interface IStatusCallback-non utilisée.
 MS-HAID: vspixengine.IStatusCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8a053873694890bd96b6b24857995622ff511b03
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d58c1f1e9b33d664c49fda6a52bf16d90ca3e2a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106538623"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087847"
 ---
 # <a name="span-idvspixengineistatuscallbackspanistatuscallback-interface"></a><span id="vspixengine.istatuscallback"></span>Interface IStatusCallback
 
@@ -38,7 +38,7 @@ L’interface **IStatusCallback** hérite de l’interface [**IUnknown**](/windo
 
 L’interface **IStatusCallback** possède ces méthodes.
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/istatuscallback-status-dword-dword-dword"><strong>Statu</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte de la progression du moteur. Cela permet également à l’hôte de déterminer que le moteur est toujours en cours d’exécution.</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">Méthode</th><th style="text-align: left;">Description</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/istatuscallback-status-dword-dword-dword"><strong>Statut</strong></a></td><td style="text-align: left;"><p>Fonction de rappel utilisée pour informer l’hôte de la progression du moteur. Cela permet également à l’hôte de déterminer que le moteur est toujours en cours d’exécution.</p></td></tr></tbody></table>
 
  
 

@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Image_V0_Load-cette classe est la classe de type d’événement pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: e2836153-8e4f-4c7f-9542-9402ed9e4356
 title: Classe Image_V0_Load
 ms.topic: reference
@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b2486e6918884e51a57f077dc9c569f926dc902e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed15254ac509334c802ba4c6165c73e681a2c7b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971934"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106509"
 ---
 # <a name="image_v0_load-class"></a>Classe de charge d’image \_ v0 \_
 
@@ -100,7 +100,7 @@ Taille de l’image.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

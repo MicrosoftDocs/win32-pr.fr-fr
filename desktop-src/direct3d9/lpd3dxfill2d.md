@@ -1,15 +1,15 @@
 ---
-description: Type de fonction utilisé par les fonctions de remplissage de texture.
+description: 'LPD3DXFILL2D : type de fonction utilisé par les fonctions de remplissage de texture.'
 ms.assetid: faa2d610-cf85-42d0-833c-a46fb7fe3dbf
 title: LPD3DXFILL2D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c8c9d9ef610ee10faa069841a05f43c17b0885c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8046c324511f2b308243d62fec1b6508a1d483ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200696"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087967"
 ---
 # <a name="lpd3dxfill2d"></a>LPD3DXFILL2D
 
@@ -43,7 +43,7 @@ pData-pointeur vers les données utilisateur.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Veillez à spécifier la Convention d’appel des [**types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
 

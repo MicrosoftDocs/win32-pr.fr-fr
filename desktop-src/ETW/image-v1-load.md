@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Image_V1_Load-cette classe est la classe de type d’événement pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 43bf0b2b-3ab4-4561-b48c-65fbace38a79
 title: Classe Image_V1_Load
 ms.topic: reference
@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bd0a2a61b263ce78c2cf28cdf1cd5df4b702140d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e8a8c31cee7e45311887c16a1d10545e6a38e41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971931"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106497"
 ---
 # <a name="image_v1_load-class"></a>\_Classe de \_ charge image v1
 
@@ -120,7 +120,7 @@ Identifie le processus dans lequel l’image est chargée.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

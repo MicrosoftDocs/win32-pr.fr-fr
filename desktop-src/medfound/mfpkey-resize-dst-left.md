@@ -1,15 +1,15 @@
 ---
-description: Spécifie, en pixels, le bord gauche du rectangle de destination.
+description: Propriété MFPKEY_RESIZE_DST_LEFT-spécifie, en pixels, le bord gauche du rectangle de destination.
 ms.assetid: faefe634-c517-43a0-9741-cb79824f840d
 title: MFPKEY_RESIZE_DST_LEFT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd8bb50fa53fbc175336ce7c6145d38f3f3a93a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1271abefa9e63a783db43584890a736eb272ed02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527417"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092907"
 ---
 # <a name="mfpkey_resize_dst_left-property"></a>\_Propriété gauche de l’heure d’été REdimensionnement MFPKEY \_ \_
 

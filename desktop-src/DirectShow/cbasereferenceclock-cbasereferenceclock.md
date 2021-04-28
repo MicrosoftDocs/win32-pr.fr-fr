@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CBaseReferenceClock. CBaseReferenceClock.
 ms.assetid: 0fbfdc68-e1df-449f-a7d1-739504db8a2f
 title: Constructeur CBaseReferenceClock. CBaseReferenceClock (refclock. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5ad593d488e367ad6e902b0c931ffbfc3f741a53
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9840bb9d733641ada7c45b0df1470a4150b8ec85
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119937"
 ---
 # <a name="cbasereferenceclockcbasereferenceclock-constructor"></a>Constructeur CBaseReferenceClock. CBaseReferenceClock
 

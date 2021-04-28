@@ -1,5 +1,5 @@
 ---
-description: Fournit une recherche basée sur une expression approximative et non sensible à la casse pour les traits d’écriture analysés et les traits de dessin analysés qui ont des types reconnus.
+description: 'IInkAnalyzer :: Search, méthode-fournit une recherche basée sur une expression approximative et non sensible à la casse pour les traits d’écriture analysés et les traits de dessin analysés qui ont des types reconnus.'
 ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
 title: 'IInkAnalyzer :: Search, méthode (IACom. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ea9755c0f2836b363b967a3d6bfdc5d64a1305b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ccdebf8c8a134a845ff3df3017d710d1da93f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113326"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113727"
 ---
 # <a name="iinkanalyzersearch-method"></a>IInkAnalyzer :: Search, méthode
 
@@ -78,11 +78,11 @@ Pointeur vers un tableau d’ID de trait représentant un jeu de traits.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette recherche recherche les sous-chaînes de mots multiples et à mots uniques. Les résultats de la reconnaissance alternative et les autres segments sont recherchés.
 

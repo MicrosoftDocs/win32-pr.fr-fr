@@ -1,5 +1,5 @@
 ---
-description: La méthode GetAt récupère un élément de la collection à l’aide d’un index de base zéro.
+description: 'IPortableDeviceValuesCollection :: GetAt, méthode-la méthode GetAt récupère un élément de la collection à l’aide d’un index de base zéro.'
 ms.assetid: b219b052-a74b-466a-a2ee-d2e9c466f393
 title: 'IPortableDeviceValuesCollection :: GetAt, méthode (PortableDeviceTypes. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: ffbc65f39aab63189aa451005008f585c46bd8d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2ad10a7b9cc3c252a0cee4cb71df05cb108e0a18
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542437"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083253"
 ---
 # <a name="iportabledevicevaluescollectiongetat-method"></a>IPortableDeviceValuesCollection :: GetAt, méthode
 
@@ -55,7 +55,7 @@ Adresse d’une variable qui reçoit un pointeur vers une interface [**IPortable
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -72,7 +72,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Toutes les modifications apportées aux valeurs dans l’interface récupérée seront apportées à la version stockée dans la collection.
 

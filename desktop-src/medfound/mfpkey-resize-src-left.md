@@ -1,15 +1,15 @@
 ---
-description: Spécifie, en pixels, le bord gauche du rectangle source.
+description: Propriété MFPKEY_RESIZE_SRC_LEFT-spécifie, en pixels, le bord gauche du rectangle source.
 ms.assetid: e7432b80-f3fa-4c2f-89db-87cd130d7447
 title: MFPKEY_RESIZE_SRC_LEFT, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ffdd5302918b5d49610ffc1e8de2952fd1a2dab8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a743ee9a21e9ff5a227a363c0c8d15faf48d1fcd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202323"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092867"
 ---
 # <a name="mfpkey_resize_src_left-property"></a>MFPKEY de \_ REdimensionnement \_ src \_ Left, propriété
 

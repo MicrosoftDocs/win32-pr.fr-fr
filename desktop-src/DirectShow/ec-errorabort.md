@@ -1,15 +1,15 @@
 ---
-description: Une opération a été abandonnée en raison d’une erreur.
+description: 'EC_ERRORABORT : une opération a été abandonnée en raison d’une erreur.'
 ms.assetid: b41546ce-cfac-4cc3-a9ad-413ae2d5d6d5
 title: EC_ERRORABORT (DShow. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b811e5a7f7b500cbffb82502abe60aecc75241ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 228753e49c99ebf9f851295b7cf8db160bcc2bd7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537981"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119737"
 ---
 # <a name="ec_errorabort"></a>\_ERRORABORT EC
 
@@ -35,7 +35,7 @@ Zéro.
 
 ## <a name="default-action"></a>Action par défaut
 
-Aucun
+Aucun.
 
 ## <a name="requirements"></a>Configuration requise
 

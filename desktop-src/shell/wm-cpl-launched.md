@@ -1,5 +1,5 @@
 ---
-description: Ce message n’est pas pris en charge.
+description: 'Message de WM_CPL_LAUNCHED : ce message n’est pas pris en charge.'
 title: Message WM_CPL_LAUNCHED (CPL. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f8b670a0c636470854b0cbca7c152cb0e21da9a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
-ms.translationtype: HT
+ms.openlocfilehash: 2ee7ed5e20931db2752b12083fbc549d3be8b646
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982850"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113487"
 ---
 # <a name="wm_cpl_launched-message"></a>Message de lancement de WM \_ Cpl \_
 
@@ -28,7 +28,7 @@ Ce message n’est pas pris en charge.
 
 Ce message n’a pas de paramètres.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
