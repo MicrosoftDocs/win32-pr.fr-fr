@@ -1,5 +1,5 @@
 ---
-description: Effectue une interpolation spline Hermite à l’aide des vecteurs 2D spécifiés.
+description: Fonction D3DXVec2Hermite (D3DX10Math. h)-effectue une interpolation spline Hermite à l’aide des vecteurs 2D spécifiés.
 ms.assetid: 2d6ff836-a1a7-4cd0-aea3-4fe344f4e211
 title: D3DXVec2Hermite, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c33aa02b95b09bc48f47a9fef6ba5490434dce97
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e64350d4f54fef493ec7fe935474218a1b111503
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211868"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108377"
 ---
-# <a name="d3dxvec2hermite-function-d3dx10mathh"></a><span data-ttu-id="54cb4-103">D3DXVec2Hermite, fonction (D3DX10Math. h)</span><span class="sxs-lookup"><span data-stu-id="54cb4-103">D3DXVec2Hermite function (D3DX10Math.h)</span></span>
+# <a name="d3dxvec2hermite-function-d3dx10mathh"></a><span data-ttu-id="c732e-103">D3DXVec2Hermite, fonction (D3DX10Math. h)</span><span class="sxs-lookup"><span data-stu-id="c732e-103">D3DXVec2Hermite function (D3DX10Math.h)</span></span>
 
-<span data-ttu-id="54cb4-104">Effectue une interpolation spline Hermite à l’aide des vecteurs 2D spécifiés.</span><span class="sxs-lookup"><span data-stu-id="54cb4-104">Performs a Hermite spline interpolation, using the specified 2D vectors.</span></span>
+<span data-ttu-id="c732e-104">Effectue une interpolation spline Hermite à l’aide des vecteurs 2D spécifiés.</span><span class="sxs-lookup"><span data-stu-id="c732e-104">Performs a Hermite spline interpolation, using the specified 2D vectors.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="54cb4-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="54cb4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c732e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c732e-105">Syntax</span></span>
 
 
 ```C++
@@ -41,85 +41,85 @@ D3DXVECTOR2* D3DXVec2Hermite(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="54cb4-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="54cb4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c732e-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c732e-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="54cb4-107">*moue* \[ in, out\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-107">*pOut* \[in, out\]</span></span>
+<span data-ttu-id="c732e-107">*moue* \[ in, out\]</span><span class="sxs-lookup"><span data-stu-id="c732e-107">*pOut* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-108">Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="54cb4-108">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-108">Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="c732e-108">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-109">Pointeur vers le [**D3DXVECTOR2**](d3d10-d3dxvector2.md) qui est le résultat de l’opération.</span><span class="sxs-lookup"><span data-stu-id="54cb4-109">Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.</span></span>
+<span data-ttu-id="c732e-109">Pointeur vers le [**D3DXVECTOR2**](d3d10-d3dxvector2.md) qui est le résultat de l’opération.</span><span class="sxs-lookup"><span data-stu-id="c732e-109">Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="54cb4-110">*pV1* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-110">*pV1* \[in\]</span></span>
+<span data-ttu-id="c732e-110">*pV1* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="c732e-110">*pV1* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-111">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="54cb4-111">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-111">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c732e-111">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-112">Pointeur vers une structure source D3DXVECTOR2, un vecteur de position.</span><span class="sxs-lookup"><span data-stu-id="54cb4-112">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c732e-112">Pointeur vers une structure source D3DXVECTOR2, un vecteur de position.</span><span class="sxs-lookup"><span data-stu-id="c732e-112">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="54cb4-113">*pt1* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-113">*pT1* \[in\]</span></span>
+<span data-ttu-id="c732e-113">*pt1* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="c732e-113">*pT1* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-114">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="54cb4-114">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-114">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c732e-114">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-115">Pointeur vers une structure source D3DXVECTOR2, un vecteur tangent.</span><span class="sxs-lookup"><span data-stu-id="54cb4-115">Pointer to a source D3DXVECTOR2 structure, a tangent vector.</span></span>
+<span data-ttu-id="c732e-115">Pointeur vers une structure source D3DXVECTOR2, un vecteur tangent.</span><span class="sxs-lookup"><span data-stu-id="c732e-115">Pointer to a source D3DXVECTOR2 structure, a tangent vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="54cb4-116">*pV2* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-116">*pV2* \[in\]</span></span>
+<span data-ttu-id="c732e-116">*pV2* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="c732e-116">*pV2* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-117">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="54cb4-117">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-117">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c732e-117">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-118">Pointeur vers une structure source D3DXVECTOR2, un vecteur de position.</span><span class="sxs-lookup"><span data-stu-id="54cb4-118">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c732e-118">Pointeur vers une structure source D3DXVECTOR2, un vecteur de position.</span><span class="sxs-lookup"><span data-stu-id="c732e-118">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="54cb4-119">*Pt2* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-119">*pT2* \[in\]</span></span>
+<span data-ttu-id="c732e-119">*Pt2* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="c732e-119">*pT2* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-120">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="54cb4-120">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-120">Type : **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c732e-120">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-121">Pointeur vers une structure source D3DXVECTOR2, un vecteur tangent.</span><span class="sxs-lookup"><span data-stu-id="54cb4-121">Pointer to a source D3DXVECTOR2 structure, a tangent vector.</span></span>
+<span data-ttu-id="c732e-121">Pointeur vers une structure source D3DXVECTOR2, un vecteur tangent.</span><span class="sxs-lookup"><span data-stu-id="c732e-121">Pointer to a source D3DXVECTOR2 structure, a tangent vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="54cb4-122"> \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="54cb4-122">*s* \[in\]</span></span>
+<span data-ttu-id="c732e-122"> \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="c732e-122">*s* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="54cb4-123">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="54cb4-123">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="c732e-123">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="c732e-123">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="54cb4-124">Facteur de pondération.</span><span class="sxs-lookup"><span data-stu-id="54cb4-124">Weighting factor.</span></span> <span data-ttu-id="54cb4-125">Consultez la section Notes.</span><span class="sxs-lookup"><span data-stu-id="54cb4-125">See Remarks.</span></span>
+<span data-ttu-id="c732e-124">Facteur de pondération.</span><span class="sxs-lookup"><span data-stu-id="c732e-124">Weighting factor.</span></span> <span data-ttu-id="c732e-125">Consultez la section Notes.</span><span class="sxs-lookup"><span data-stu-id="c732e-125">See Remarks.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="54cb4-126">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="54cb4-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c732e-126">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c732e-126">Return value</span></span>
 
-<span data-ttu-id="54cb4-127">Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="54cb4-127">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c732e-127">Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="c732e-127">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="54cb4-128">Pointeur vers une structure D3DXVECTOR2 qui est le résultat de l’interpolation spline Hermite.</span><span class="sxs-lookup"><span data-stu-id="54cb4-128">Pointer to a D3DXVECTOR2 structure that is the result of the Hermite spline interpolation.</span></span>
+<span data-ttu-id="c732e-128">Pointeur vers une structure D3DXVECTOR2 qui est le résultat de l’interpolation spline Hermite.</span><span class="sxs-lookup"><span data-stu-id="c732e-128">Pointer to a D3DXVECTOR2 structure that is the result of the Hermite spline interpolation.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="54cb4-129">Notes</span><span class="sxs-lookup"><span data-stu-id="54cb4-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c732e-129">Notes </span><span class="sxs-lookup"><span data-stu-id="c732e-129">Remarks</span></span>
 
-<span data-ttu-id="54cb4-130">La fonction **D3DXVec2Hermite** interpole de (positiona, tangenta) à (PositionB, tangentB) à l’aide de l’interpolation spline Hermite.</span><span class="sxs-lookup"><span data-stu-id="54cb4-130">The **D3DXVec2Hermite** function interpolates from (positionA, tangentA) to (positionB, tangentB) using Hermite spline interpolation.</span></span>
+<span data-ttu-id="c732e-130">La fonction **D3DXVec2Hermite** interpole de (positiona, tangenta) à (PositionB, tangentB) à l’aide de l’interpolation spline Hermite.</span><span class="sxs-lookup"><span data-stu-id="c732e-130">The **D3DXVec2Hermite** function interpolates from (positionA, tangentA) to (positionB, tangentB) using Hermite spline interpolation.</span></span>
 
-<span data-ttu-id="54cb4-131">L’interpolation spline est une généralisation de l’accélération et de la simplicité de la spline.</span><span class="sxs-lookup"><span data-stu-id="54cb4-131">The spline interpolation is a generalization of the ease-in, ease-out spline.</span></span> <span data-ttu-id="54cb4-132">La rampe est une fonction de Q (s) avec les propriétés suivantes.</span><span class="sxs-lookup"><span data-stu-id="54cb4-132">The ramp is a function of Q(s) with the following properties.</span></span>
+<span data-ttu-id="c732e-131">L’interpolation spline est une généralisation de l’accélération et de la simplicité de la spline.</span><span class="sxs-lookup"><span data-stu-id="c732e-131">The spline interpolation is a generalization of the ease-in, ease-out spline.</span></span> <span data-ttu-id="c732e-132">La rampe est une fonction de Q (s) avec les propriétés suivantes.</span><span class="sxs-lookup"><span data-stu-id="c732e-132">The ramp is a function of Q(s) with the following properties.</span></span>
 
-<span data-ttu-id="54cb4-133">Q (s) = As ³ + BS ² + CS + D (et par conséquent, Q' (s) = 3As ² + 2Bs + C)</span><span class="sxs-lookup"><span data-stu-id="54cb4-133">Q(s) = As³ + Bs² + Cs + D (and therefore, Q'(s) = 3As² + 2Bs + C)</span></span>
+<span data-ttu-id="c732e-133">Q (s) = As ³ + BS ² + CS + D (et par conséquent, Q' (s) = 3As ² + 2Bs + C)</span><span class="sxs-lookup"><span data-stu-id="c732e-133">Q(s) = As³ + Bs² + Cs + D (and therefore, Q'(s) = 3As² + 2Bs + C)</span></span>
 
-<span data-ttu-id="54cb4-134">a) Q (0) = v1, Q' (0) = T1</span><span class="sxs-lookup"><span data-stu-id="54cb4-134">a) Q(0) = v1, so Q'(0) = t1</span></span>
+<span data-ttu-id="c732e-134">a) Q (0) = v1, Q' (0) = T1</span><span class="sxs-lookup"><span data-stu-id="c732e-134">a) Q(0) = v1, so Q'(0) = t1</span></span>
 
-<span data-ttu-id="54cb4-135">b) Q (1) = v2, Q' (1) = T2</span><span class="sxs-lookup"><span data-stu-id="54cb4-135">b) Q(1) = v2, so Q'(1) = t2</span></span>
+<span data-ttu-id="c732e-135">b) Q (1) = v2, Q' (1) = T2</span><span class="sxs-lookup"><span data-stu-id="c732e-135">b) Q(1) = v2, so Q'(1) = t2</span></span>
 
-<span data-ttu-id="54cb4-136">v1 est le contenu de pV1, v2 dans le contenu de pV2, T1 est le contenu de pT1, et T2 est le contenu de pT2.</span><span class="sxs-lookup"><span data-stu-id="54cb4-136">v1 is the contents of pV1, v2 in the contents of pV2, t1 is the contents of pT1, and t2 is the contents of pT2.</span></span>
+<span data-ttu-id="c732e-136">v1 est le contenu de pV1, v2 dans le contenu de pV2, T1 est le contenu de pT1, et T2 est le contenu de pT2.</span><span class="sxs-lookup"><span data-stu-id="c732e-136">v1 is the contents of pV1, v2 in the contents of pV2, t1 is the contents of pT1, and t2 is the contents of pT2.</span></span>
 
-<span data-ttu-id="54cb4-137">Ces propriétés sont utilisées pour résoudre A, B, C, D.</span><span class="sxs-lookup"><span data-stu-id="54cb4-137">These properties are used to solve for A, B, C, D.</span></span>
+<span data-ttu-id="c732e-137">Ces propriétés sont utilisées pour résoudre A, B, C, D.</span><span class="sxs-lookup"><span data-stu-id="c732e-137">These properties are used to solve for A, B, C, D.</span></span>
 
 
 ```
@@ -131,7 +131,7 @@ A + B = v2 - v1 - t1 (substituting for C and D)
 
 
 
-<span data-ttu-id="54cb4-138">Branchez les solutions pour A, B, C et D pour générer Q (s).</span><span class="sxs-lookup"><span data-stu-id="54cb4-138">Plug in the solutions for A,B,C and D to generate Q(s).</span></span>
+<span data-ttu-id="c732e-138">Branchez les solutions pour A, B, C et D pour générer Q (s).</span><span class="sxs-lookup"><span data-stu-id="c732e-138">Plug in the solutions for A,B,C and D to generate Q(s).</span></span>
 
 
 ```
@@ -143,34 +143,34 @@ D = v1
 
 
 
-<span data-ttu-id="54cb4-139">Cela donne :</span><span class="sxs-lookup"><span data-stu-id="54cb4-139">This yields:</span></span>
+<span data-ttu-id="c732e-139">Cela donne :</span><span class="sxs-lookup"><span data-stu-id="c732e-139">This yields:</span></span>
 
-<span data-ttu-id="54cb4-140">Q (s) = (2V1-2V2 + T2 + T1) s ³ + (3V2-3V1-2t1-T2) s ² + T1S + v1</span><span class="sxs-lookup"><span data-stu-id="54cb4-140">Q(s) = (2v1 - 2v2 + t2 + t1)s³ + (3v2 - 3v1 - 2t1 - t2)s² + t1s + v1</span></span>
+<span data-ttu-id="c732e-140">Q (s) = (2V1-2V2 + T2 + T1) s ³ + (3V2-3V1-2t1-T2) s ² + T1S + v1</span><span class="sxs-lookup"><span data-stu-id="c732e-140">Q(s) = (2v1 - 2v2 + t2 + t1)s³ + (3v2 - 3v1 - 2t1 - t2)s² + t1s + v1</span></span>
 
-<span data-ttu-id="54cb4-141">Qui peuvent être réorganisés comme suit :</span><span class="sxs-lookup"><span data-stu-id="54cb4-141">Which can be rearranged as:</span></span>
+<span data-ttu-id="c732e-141">Qui peuvent être réorganisés comme suit :</span><span class="sxs-lookup"><span data-stu-id="c732e-141">Which can be rearranged as:</span></span>
 
-<span data-ttu-id="54cb4-142">Q (s) = (2S ³-3S ² + 1) v1 + (-2S ³ + 3S ²) v2 + (s ³-2S ² + s) T1 + (s ³-s ²) T2</span><span class="sxs-lookup"><span data-stu-id="54cb4-142">Q(s) = (2s³ - 3s² + 1)v1 + (-2s³ + 3s²)v2 + (s³ - 2s² + s)t1 + (s³ - s²)t2</span></span>
+<span data-ttu-id="c732e-142">Q (s) = (2S ³-3S ² + 1) v1 + (-2S ³ + 3S ²) v2 + (s ³-2S ² + s) T1 + (s ³-s ²) T2</span><span class="sxs-lookup"><span data-stu-id="c732e-142">Q(s) = (2s³ - 3s² + 1)v1 + (-2s³ + 3s²)v2 + (s³ - 2s² + s)t1 + (s³ - s²)t2</span></span>
 
-<span data-ttu-id="54cb4-143">Les splines Hermite sont utiles pour le contrôle de l’animation, car la courbe s’exécute à travers tous les points de contrôle.</span><span class="sxs-lookup"><span data-stu-id="54cb4-143">Hermite splines are useful for controlling animation because the curve runs through all the control points.</span></span> <span data-ttu-id="54cb4-144">En outre, étant donné que la position et la tangente sont explicitement spécifiées aux extrémités de chaque segment, il est facile de créer une courbe continue C2 tant que vous vous assurez que votre position de départ et la tangente correspondent aux valeurs de fin du dernier segment.</span><span class="sxs-lookup"><span data-stu-id="54cb4-144">Also, because the position and tangent are explicitly specified at the ends of each segment, it is easy to create a C2 continuous curve as long as you make sure that your starting position and tangent match the ending values of the last segment.</span></span>
+<span data-ttu-id="c732e-143">Les splines Hermite sont utiles pour le contrôle de l’animation, car la courbe s’exécute à travers tous les points de contrôle.</span><span class="sxs-lookup"><span data-stu-id="c732e-143">Hermite splines are useful for controlling animation because the curve runs through all the control points.</span></span> <span data-ttu-id="c732e-144">En outre, étant donné que la position et la tangente sont explicitement spécifiées aux extrémités de chaque segment, il est facile de créer une courbe continue C2 tant que vous vous assurez que votre position de départ et la tangente correspondent aux valeurs de fin du dernier segment.</span><span class="sxs-lookup"><span data-stu-id="c732e-144">Also, because the position and tangent are explicitly specified at the ends of each segment, it is easy to create a C2 continuous curve as long as you make sure that your starting position and tangent match the ending values of the last segment.</span></span>
 
-<span data-ttu-id="54cb4-145">La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue.</span><span class="sxs-lookup"><span data-stu-id="54cb4-145">The return value for this function is the same value returned in the pOut parameter.</span></span> <span data-ttu-id="54cb4-146">De cette façon, la fonction **D3DXVec2Hermite** peut être utilisée comme paramètre pour une autre fonction.</span><span class="sxs-lookup"><span data-stu-id="54cb4-146">In this way, the **D3DXVec2Hermite** function can be used as a parameter for another function.</span></span>
+<span data-ttu-id="c732e-145">La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue.</span><span class="sxs-lookup"><span data-stu-id="c732e-145">The return value for this function is the same value returned in the pOut parameter.</span></span> <span data-ttu-id="c732e-146">De cette façon, la fonction **D3DXVec2Hermite** peut être utilisée comme paramètre pour une autre fonction.</span><span class="sxs-lookup"><span data-stu-id="c732e-146">In this way, the **D3DXVec2Hermite** function can be used as a parameter for another function.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="54cb4-147">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="54cb4-147">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c732e-147">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="c732e-147">Requirements</span></span>
 
 
 
-| <span data-ttu-id="54cb4-148">Condition requise</span><span class="sxs-lookup"><span data-stu-id="54cb4-148">Requirement</span></span> | <span data-ttu-id="54cb4-149">Valeur</span><span class="sxs-lookup"><span data-stu-id="54cb4-149">Value</span></span> |
+| <span data-ttu-id="c732e-148">Condition requise</span><span class="sxs-lookup"><span data-stu-id="c732e-148">Requirement</span></span> | <span data-ttu-id="c732e-149">Valeur</span><span class="sxs-lookup"><span data-stu-id="c732e-149">Value</span></span> |
 |--------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="54cb4-150">En-tête</span><span class="sxs-lookup"><span data-stu-id="54cb4-150">Header</span></span><br/>  | <dl> <span data-ttu-id="54cb4-151"><dt>D3DX10Math. h</dt></span><span class="sxs-lookup"><span data-stu-id="54cb4-151"><dt>D3DX10Math.h</dt></span></span> </dl> |
-| <span data-ttu-id="54cb4-152">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="54cb4-152">Library</span></span><br/> | <dl> <span data-ttu-id="54cb4-153"><dt>D3DX10. lib</dt></span><span class="sxs-lookup"><span data-stu-id="54cb4-153"><dt>D3DX10.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="c732e-150">En-tête</span><span class="sxs-lookup"><span data-stu-id="c732e-150">Header</span></span><br/>  | <dl> <span data-ttu-id="c732e-151"><dt>D3DX10Math. h</dt></span><span class="sxs-lookup"><span data-stu-id="c732e-151"><dt>D3DX10Math.h</dt></span></span> </dl> |
+| <span data-ttu-id="c732e-152">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="c732e-152">Library</span></span><br/> | <dl> <span data-ttu-id="c732e-153"><dt>D3DX10. lib</dt></span><span class="sxs-lookup"><span data-stu-id="c732e-153"><dt>D3DX10.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="54cb4-154">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="54cb4-154">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c732e-154">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c732e-154">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="54cb4-155">Fonctions mathématiques</span><span class="sxs-lookup"><span data-stu-id="54cb4-155">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
+[<span data-ttu-id="c732e-155">Fonctions mathématiques</span><span class="sxs-lookup"><span data-stu-id="c732e-155">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
 </dt> </dl>
 
  
