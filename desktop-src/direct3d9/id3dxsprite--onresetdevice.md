@@ -1,5 +1,5 @@
 ---
-description: Utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.
+description: 'ID3DXSprite :: OnResetDevice, méthode : utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.'
 ms.assetid: 74f8616e-c3ed-4231-b701-009213ea48c0
 title: 'ID3DXSprite :: OnResetDevice, méthode (D3dx9core. h)'
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f09e08a32aca8df0577a5fb73ef09ec69742556b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cb58c682ab30f54461e6b3c1870f5db703a3876d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531554"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117757"
 ---
-# <a name="id3dxspriteonresetdevice-method"></a><span data-ttu-id="7bd03-103">ID3DXSprite :: OnResetDevice, méthode</span><span class="sxs-lookup"><span data-stu-id="7bd03-103">ID3DXSprite::OnResetDevice method</span></span>
+# <a name="id3dxspriteonresetdevice-method"></a><span data-ttu-id="c63ae-103">ID3DXSprite :: OnResetDevice, méthode</span><span class="sxs-lookup"><span data-stu-id="c63ae-103">ID3DXSprite::OnResetDevice method</span></span>
 
-<span data-ttu-id="7bd03-104">Utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.</span><span class="sxs-lookup"><span data-stu-id="7bd03-104">Use this method to re-acquire resources and save initial state.</span></span>
+<span data-ttu-id="c63ae-104">Utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.</span><span class="sxs-lookup"><span data-stu-id="c63ae-104">Use this method to re-acquire resources and save initial state.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7bd03-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7bd03-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c63ae-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c63ae-105">Syntax</span></span>
 
 
 ```C++
@@ -34,36 +34,36 @@ HRESULT OnResetDevice();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="7bd03-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="7bd03-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c63ae-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="c63ae-106">Parameters</span></span>
 
-<span data-ttu-id="7bd03-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="7bd03-107">This method has no parameters.</span></span>
+<span data-ttu-id="c63ae-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="c63ae-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="7bd03-108">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="7bd03-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c63ae-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="c63ae-108">Return value</span></span>
 
-<span data-ttu-id="7bd03-109">Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="7bd03-109">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="c63ae-109">Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="c63ae-109">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="7bd03-110">Si la méthode est réussie, la valeur de retour est S \_ OK.</span><span class="sxs-lookup"><span data-stu-id="7bd03-110">If the method succeeds, the return value is S\_OK.</span></span> <span data-ttu-id="7bd03-111">Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.</span><span class="sxs-lookup"><span data-stu-id="7bd03-111">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
+<span data-ttu-id="c63ae-110">Si la méthode est réussie, la valeur de retour est S \_ OK.</span><span class="sxs-lookup"><span data-stu-id="c63ae-110">If the method succeeds, the return value is S\_OK.</span></span> <span data-ttu-id="c63ae-111">Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.</span><span class="sxs-lookup"><span data-stu-id="c63ae-111">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7bd03-112">Notes</span><span class="sxs-lookup"><span data-stu-id="7bd03-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c63ae-112">Notes </span><span class="sxs-lookup"><span data-stu-id="c63ae-112">Remarks</span></span>
 
-<span data-ttu-id="7bd03-113">**ID3DXSprite :: OnResetDevice** doit être appelé chaque fois que l’appareil est réinitialisé (à l’aide de [**IDirect3DDevice9 :: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), avant d’appeler d’autres méthodes.</span><span class="sxs-lookup"><span data-stu-id="7bd03-113">**ID3DXSprite::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), before any other methods are called.</span></span> <span data-ttu-id="7bd03-114">Il s’agit d’un bon emplacement pour acquérir à nouveau des ressources de mémoire vidéo et capturer des blocs d’État.</span><span class="sxs-lookup"><span data-stu-id="7bd03-114">This is a good place to re-acquire video-memory resources and capture state blocks.</span></span>
+<span data-ttu-id="c63ae-113">**ID3DXSprite :: OnResetDevice** doit être appelé chaque fois que l’appareil est réinitialisé (à l’aide de [**IDirect3DDevice9 :: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), avant d’appeler d’autres méthodes.</span><span class="sxs-lookup"><span data-stu-id="c63ae-113">**ID3DXSprite::OnResetDevice** should be called each time the device is reset (using [**IDirect3DDevice9::Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), before any other methods are called.</span></span> <span data-ttu-id="c63ae-114">Il s’agit d’un bon emplacement pour acquérir à nouveau des ressources de mémoire vidéo et capturer des blocs d’État.</span><span class="sxs-lookup"><span data-stu-id="c63ae-114">This is a good place to re-acquire video-memory resources and capture state blocks.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="7bd03-115">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="7bd03-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c63ae-115">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="c63ae-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="7bd03-116">Condition requise</span><span class="sxs-lookup"><span data-stu-id="7bd03-116">Requirement</span></span> | <span data-ttu-id="7bd03-117">Valeur</span><span class="sxs-lookup"><span data-stu-id="7bd03-117">Value</span></span> |
+| <span data-ttu-id="c63ae-116">Condition requise</span><span class="sxs-lookup"><span data-stu-id="c63ae-116">Requirement</span></span> | <span data-ttu-id="c63ae-117">Valeur</span><span class="sxs-lookup"><span data-stu-id="c63ae-117">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="7bd03-118">En-tête</span><span class="sxs-lookup"><span data-stu-id="7bd03-118">Header</span></span><br/>  | <dl> <span data-ttu-id="7bd03-119"><dt>D3dx9core. h</dt></span><span class="sxs-lookup"><span data-stu-id="7bd03-119"><dt>D3dx9core.h</dt></span></span> </dl> |
-| <span data-ttu-id="7bd03-120">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="7bd03-120">Library</span></span><br/> | <dl> <span data-ttu-id="7bd03-121"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="7bd03-121"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="c63ae-118">En-tête</span><span class="sxs-lookup"><span data-stu-id="c63ae-118">Header</span></span><br/>  | <dl> <span data-ttu-id="c63ae-119"><dt>D3dx9core. h</dt></span><span class="sxs-lookup"><span data-stu-id="c63ae-119"><dt>D3dx9core.h</dt></span></span> </dl> |
+| <span data-ttu-id="c63ae-120">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="c63ae-120">Library</span></span><br/> | <dl> <span data-ttu-id="c63ae-121"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="c63ae-121"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7bd03-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7bd03-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c63ae-122">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c63ae-122">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7bd03-123">ID3DXSprite</span><span class="sxs-lookup"><span data-stu-id="7bd03-123">ID3DXSprite</span></span>](id3dxsprite.md)
+[<span data-ttu-id="c63ae-123">ID3DXSprite</span><span class="sxs-lookup"><span data-stu-id="c63ae-123">ID3DXSprite</span></span>](id3dxsprite.md)
 </dt> </dl>
 
  

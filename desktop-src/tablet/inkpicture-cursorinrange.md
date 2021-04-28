@@ -1,21 +1,21 @@
 ---
-description: Se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
+description: L’événement InkPicture. CursorInRange se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
 ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
 title: InkPicture. CursorInRange, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab0dead1fa5bd89452af15a19f36a132c6843d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d05d703022e8d97df0d8d74a73e20af3d91b8531
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086577"
 ---
-# <a name="inkpicturecursorinrange-event"></a><span data-ttu-id="8f322-103">InkPicture. CursorInRange, événement</span><span class="sxs-lookup"><span data-stu-id="8f322-103">InkPicture.CursorInRange event</span></span>
+# <a name="inkpicturecursorinrange-event"></a><span data-ttu-id="ae778-103">InkPicture. CursorInRange, événement</span><span class="sxs-lookup"><span data-stu-id="ae778-103">InkPicture.CursorInRange event</span></span>
 
-<span data-ttu-id="8f322-104">Se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.</span><span class="sxs-lookup"><span data-stu-id="8f322-104">Occurs when a cursor enters the physical detection range (proximity) of the tablet context.</span></span>
+<span data-ttu-id="ae778-104">Se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.</span><span class="sxs-lookup"><span data-stu-id="ae778-104">Occurs when a cursor enters the physical detection range (proximity) of the tablet context.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8f322-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8f322-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ae778-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ae778-105">Syntax</span></span>
 
 
 ```C++
@@ -28,70 +28,70 @@ void CursorInRange(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="8f322-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8f322-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ae778-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="ae778-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="8f322-107">*Curseur* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="8f322-107">*Cursor* \[in\]</span></span>
+<span data-ttu-id="ae778-107">*Curseur* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="ae778-107">*Cursor* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="8f322-108">Objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) qui a généré l’événement **CursorInRange** .</span><span class="sxs-lookup"><span data-stu-id="8f322-108">The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) object that generated the **CursorInRange** event.</span></span>
+<span data-ttu-id="ae778-108">Objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) qui a généré l’événement **CursorInRange** .</span><span class="sxs-lookup"><span data-stu-id="ae778-108">The [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) object that generated the **CursorInRange** event.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="8f322-109">*NewCursor* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="8f322-109">*NewCursor* \[in\]</span></span>
+<span data-ttu-id="ae778-109">*NewCursor* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="ae778-109">*NewCursor* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="8f322-110">**Variante \_ TRUE** s’il s’agit de la première fois que ce collecteur d’encres est en contact avec l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) qui a généré l’événement **CursorInRange** ; Sinon, **Variant \_ false**.</span><span class="sxs-lookup"><span data-stu-id="8f322-110">**VARIANT\_TRUE** if this is the first time this ink collector has come in contact with the [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) object that generated the **CursorInRange** event; otherwise, **VARIANT\_FALSE**.</span></span>
+<span data-ttu-id="ae778-110">**Variante \_ TRUE** s’il s’agit de la première fois que ce collecteur d’encres est en contact avec l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) qui a généré l’événement **CursorInRange** ; Sinon, **Variant \_ false**.</span><span class="sxs-lookup"><span data-stu-id="ae778-110">**VARIANT\_TRUE** if this is the first time this ink collector has come in contact with the [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) object that generated the **CursorInRange** event; otherwise, **VARIANT\_FALSE**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="8f322-111">*ButtonsState* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="8f322-111">*ButtonsState* \[in\]</span></span>
+<span data-ttu-id="ae778-111">*ButtonsState* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="ae778-111">*ButtonsState* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="8f322-112">État des boutons pour le curseur qui a généré l’événement **CursorInRange** .</span><span class="sxs-lookup"><span data-stu-id="8f322-112">The state of the buttons for the cursor that generated the **CursorInRange** event.</span></span>
+<span data-ttu-id="ae778-112">État des boutons pour le curseur qui a généré l’événement **CursorInRange** .</span><span class="sxs-lookup"><span data-stu-id="ae778-112">The state of the buttons for the cursor that generated the **CursorInRange** event.</span></span>
 
-<span data-ttu-id="8f322-113">Pour plus d’informations sur la structure de la variante, consultez [utilisation de la bibliothèque com](using-the-com-library.md).</span><span class="sxs-lookup"><span data-stu-id="8f322-113">For more information about the VARIANT structure, see [Using the COM Library](using-the-com-library.md).</span></span>
+<span data-ttu-id="ae778-113">Pour plus d’informations sur la structure de la variante, consultez [utilisation de la bibliothèque com](using-the-com-library.md).</span><span class="sxs-lookup"><span data-stu-id="ae778-113">For more information about the VARIANT structure, see [Using the COM Library](using-the-com-library.md).</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="8f322-114">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="8f322-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="ae778-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="ae778-114">Return value</span></span>
 
-<span data-ttu-id="8f322-115">Cet événement ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="8f322-115">This event does not return a value.</span></span>
+<span data-ttu-id="ae778-115">Cet événement ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="ae778-115">This event does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8f322-116">Notes</span><span class="sxs-lookup"><span data-stu-id="8f322-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae778-116">Notes </span><span class="sxs-lookup"><span data-stu-id="ae778-116">Remarks</span></span>
 
-<span data-ttu-id="8f322-117">Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICECursorInRange.</span><span class="sxs-lookup"><span data-stu-id="8f322-117">This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEvents**, and **\_IInkPictureEvents** dispatch-only interface (dispinterfaces) with an ID of DISPID\_ICECursorInRange.</span></span>
+<span data-ttu-id="ae778-117">Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICECursorInRange.</span><span class="sxs-lookup"><span data-stu-id="ae778-117">This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEvents**, and **\_IInkPictureEvents** dispatch-only interface (dispinterfaces) with an ID of DISPID\_ICECursorInRange.</span></span>
 
-<span data-ttu-id="8f322-118">L’événement **CursorInRange** est déclenché même en mode SELECT ou Erase, pas seulement en mode Ink.</span><span class="sxs-lookup"><span data-stu-id="8f322-118">The **CursorInRange** event is fired even when in select or erase mode, not just when in ink mode.</span></span> <span data-ttu-id="8f322-119">Pour cela, vous devez surveiller le mode d’édition (que vous êtes chargé de définir) et connaître le mode avant d’interpréter l’événement.</span><span class="sxs-lookup"><span data-stu-id="8f322-119">This requires that you monitor the editing mode (which you are responsible for setting) and be aware of the mode before interpreting the event.</span></span> <span data-ttu-id="8f322-120">L’avantage de cette exigence est une plus grande liberté d’innover sur la plate-forme grâce à une meilleure connaissance des événements de plateforme.</span><span class="sxs-lookup"><span data-stu-id="8f322-120">The advantage of this requirement is greater freedom to innovate on the platform through greater awareness of platform events.</span></span>
+<span data-ttu-id="ae778-118">L’événement **CursorInRange** est déclenché même en mode SELECT ou Erase, pas seulement en mode Ink.</span><span class="sxs-lookup"><span data-stu-id="ae778-118">The **CursorInRange** event is fired even when in select or erase mode, not just when in ink mode.</span></span> <span data-ttu-id="ae778-119">Pour cela, vous devez surveiller le mode d’édition (que vous êtes chargé de définir) et connaître le mode avant d’interpréter l’événement.</span><span class="sxs-lookup"><span data-stu-id="ae778-119">This requires that you monitor the editing mode (which you are responsible for setting) and be aware of the mode before interpreting the event.</span></span> <span data-ttu-id="ae778-120">L’avantage de cette exigence est une plus grande liberté d’innover sur la plate-forme grâce à une meilleure connaissance des événements de plateforme.</span><span class="sxs-lookup"><span data-stu-id="ae778-120">The advantage of this requirement is greater freedom to innovate on the platform through greater awareness of platform events.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="8f322-121">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="8f322-121">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ae778-121">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="ae778-121">Requirements</span></span>
 
 
 
-| <span data-ttu-id="8f322-122">Condition requise</span><span class="sxs-lookup"><span data-stu-id="8f322-122">Requirement</span></span> | <span data-ttu-id="8f322-123">Valeur</span><span class="sxs-lookup"><span data-stu-id="8f322-123">Value</span></span> |
+| <span data-ttu-id="ae778-122">Condition requise</span><span class="sxs-lookup"><span data-stu-id="ae778-122">Requirement</span></span> | <span data-ttu-id="ae778-123">Valeur</span><span class="sxs-lookup"><span data-stu-id="ae778-123">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="8f322-124">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="8f322-124">Minimum supported client</span></span><br/> | <span data-ttu-id="8f322-125">Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="8f322-125">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
-| <span data-ttu-id="8f322-126">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="8f322-126">Minimum supported server</span></span><br/> | <span data-ttu-id="8f322-127">Aucun pris en charge</span><span class="sxs-lookup"><span data-stu-id="8f322-127">None supported</span></span><br/>                                                                                           |
-| <span data-ttu-id="8f322-128">En-tête</span><span class="sxs-lookup"><span data-stu-id="8f322-128">Header</span></span><br/>                   | <dl> <span data-ttu-id="8f322-129"><dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt></span><span class="sxs-lookup"><span data-stu-id="8f322-129"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="8f322-130">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="8f322-130">Library</span></span><br/>                  | <dl> <span data-ttu-id="8f322-131"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="8f322-131"><dt>InkObj.dll</dt></span></span> </dl>                               |
+| <span data-ttu-id="ae778-124">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="ae778-124">Minimum supported client</span></span><br/> | <span data-ttu-id="ae778-125">Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="ae778-125">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
+| <span data-ttu-id="ae778-126">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="ae778-126">Minimum supported server</span></span><br/> | <span data-ttu-id="ae778-127">Aucun pris en charge</span><span class="sxs-lookup"><span data-stu-id="ae778-127">None supported</span></span><br/>                                                                                           |
+| <span data-ttu-id="ae778-128">En-tête</span><span class="sxs-lookup"><span data-stu-id="ae778-128">Header</span></span><br/>                   | <dl> <span data-ttu-id="ae778-129"><dt>Msinkaut. h (nécessite également Msinkaut \_ i. c)</dt></span><span class="sxs-lookup"><span data-stu-id="ae778-129"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="ae778-130">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="ae778-130">Library</span></span><br/>                  | <dl> <span data-ttu-id="ae778-131"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="ae778-131"><dt>InkObj.dll</dt></span></span> </dl>                               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="8f322-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="8f322-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae778-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ae778-132">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="8f322-133">InkPicture</span><span class="sxs-lookup"><span data-stu-id="8f322-133">InkPicture</span></span>](inkpicture-control-reference.md)
+[<span data-ttu-id="ae778-133">InkPicture</span><span class="sxs-lookup"><span data-stu-id="ae778-133">InkPicture</span></span>](inkpicture-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="8f322-134">**Événement CursorOutOfRange**</span><span class="sxs-lookup"><span data-stu-id="8f322-134">**CursorOutOfRange Event**</span></span>](inkpicture-cursoroutofrange.md)
+[<span data-ttu-id="ae778-134">**Événement CursorOutOfRange**</span><span class="sxs-lookup"><span data-stu-id="ae778-134">**CursorOutOfRange Event**</span></span>](inkpicture-cursoroutofrange.md)
 </dt> <dt>
 
-[<span data-ttu-id="8f322-135">**Énumération InkCursorButtonState**</span><span class="sxs-lookup"><span data-stu-id="8f322-135">**InkCursorButtonState Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate)
+[<span data-ttu-id="ae778-135">**Énumération InkCursorButtonState**</span><span class="sxs-lookup"><span data-stu-id="ae778-135">**InkCursorButtonState Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkcursorbuttonstate)
 </dt> <dt>
 
-[<span data-ttu-id="8f322-136">**Interface IInkCursor**</span><span class="sxs-lookup"><span data-stu-id="8f322-136">**IInkCursor Interface**</span></span>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor)
+[<span data-ttu-id="ae778-136">**Interface IInkCursor**</span><span class="sxs-lookup"><span data-stu-id="ae778-136">**IInkCursor Interface**</span></span>](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor)
 </dt> </dl>
 
  
