@@ -1,5 +1,5 @@
 ---
-description: Calculez le terme de la Fresnel.
+description: 'Fonction D3DXFresnelTerm (D3DX10Math. h) : calcule le terme de la Fresnel.'
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
 title: D3DXFresnelTerm, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1e87649d340e7d90c4df02c641919fd906631268
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9efa557d44451674d2ae4c48a58370e939760a03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104531053"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113267"
 ---
-# <a name="d3dxfresnelterm-function-d3dx10mathh"></a><span data-ttu-id="74fe7-103">D3DXFresnelTerm, fonction (D3DX10Math. h)</span><span class="sxs-lookup"><span data-stu-id="74fe7-103">D3DXFresnelTerm function (D3DX10Math.h)</span></span>
+# <a name="d3dxfresnelterm-function-d3dx10mathh"></a><span data-ttu-id="5003b-103">D3DXFresnelTerm, fonction (D3DX10Math. h)</span><span class="sxs-lookup"><span data-stu-id="5003b-103">D3DXFresnelTerm function (D3DX10Math.h)</span></span>
 
-<span data-ttu-id="74fe7-104">Calculez le terme de la Fresnel.</span><span class="sxs-lookup"><span data-stu-id="74fe7-104">Calculate the Fresnel term.</span></span>
+<span data-ttu-id="5003b-104">Calculez le terme de la Fresnel.</span><span class="sxs-lookup"><span data-stu-id="5003b-104">Calculate the Fresnel term.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="74fe7-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="74fe7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5003b-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5003b-105">Syntax</span></span>
 
 
 ```C++
@@ -37,39 +37,39 @@ FLOAT D3DXFresnelTerm(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="74fe7-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="74fe7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5003b-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5003b-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="74fe7-107">*CosTheta* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="74fe7-107">*CosTheta* \[in\]</span></span>
+<span data-ttu-id="5003b-107">*CosTheta* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="5003b-107">*CosTheta* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="74fe7-108">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="74fe7-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="5003b-108">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="5003b-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="74fe7-109">Elle doit être comprise entre 0 et 1.</span><span class="sxs-lookup"><span data-stu-id="74fe7-109">The value must be between 0 and 1.</span></span>
+<span data-ttu-id="5003b-109">Elle doit être comprise entre 0 et 1.</span><span class="sxs-lookup"><span data-stu-id="5003b-109">The value must be between 0 and 1.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="74fe7-110">*RefractionIndex* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="74fe7-110">*RefractionIndex* \[in\]</span></span>
+<span data-ttu-id="5003b-110">*RefractionIndex* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="5003b-110">*RefractionIndex* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="74fe7-111">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="74fe7-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="5003b-111">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="5003b-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="74fe7-112">Index de réfraction d’un matériau.</span><span class="sxs-lookup"><span data-stu-id="74fe7-112">The refraction index of a material.</span></span> <span data-ttu-id="74fe7-113">La valeur doit être supérieure à 1.</span><span class="sxs-lookup"><span data-stu-id="74fe7-113">The value must be greater than 1.</span></span>
+<span data-ttu-id="5003b-112">Index de réfraction d’un matériau.</span><span class="sxs-lookup"><span data-stu-id="5003b-112">The refraction index of a material.</span></span> <span data-ttu-id="5003b-113">La valeur doit être supérieure à 1.</span><span class="sxs-lookup"><span data-stu-id="5003b-113">The value must be greater than 1.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="74fe7-114">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="74fe7-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5003b-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5003b-114">Return value</span></span>
 
-<span data-ttu-id="74fe7-115">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="74fe7-115">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="5003b-115">Type : **[ **float**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="5003b-115">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="74fe7-116">Cette fonction retourne le terme de Fresnel pour la lumière dépolarisée.</span><span class="sxs-lookup"><span data-stu-id="74fe7-116">This function returns the Fresnel term for unpolarized light.</span></span> <span data-ttu-id="74fe7-117">CosTheta est le cosinus de l’angle d’incident.</span><span class="sxs-lookup"><span data-stu-id="74fe7-117">CosTheta is the cosine of the incident angle.</span></span>
+<span data-ttu-id="5003b-116">Cette fonction retourne le terme de Fresnel pour la lumière dépolarisée.</span><span class="sxs-lookup"><span data-stu-id="5003b-116">This function returns the Fresnel term for unpolarized light.</span></span> <span data-ttu-id="5003b-117">CosTheta est le cosinus de l’angle d’incident.</span><span class="sxs-lookup"><span data-stu-id="5003b-117">CosTheta is the cosine of the incident angle.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="74fe7-118">Notes</span><span class="sxs-lookup"><span data-stu-id="74fe7-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5003b-118">Notes </span><span class="sxs-lookup"><span data-stu-id="5003b-118">Remarks</span></span>
 
-<span data-ttu-id="74fe7-119">Pour rechercher le terme de la Fresnel (F) :</span><span class="sxs-lookup"><span data-stu-id="74fe7-119">To find the Fresnel term (F):</span></span>
+<span data-ttu-id="5003b-119">Pour rechercher le terme de la Fresnel (F) :</span><span class="sxs-lookup"><span data-stu-id="5003b-119">To find the Fresnel term (F):</span></span>
 
-<span data-ttu-id="74fe7-120">Si un est un angle d’incidence et que B est l’angle de réfraction, alors</span><span class="sxs-lookup"><span data-stu-id="74fe7-120">If A is angle of incidence and B is the angle of refraction, then</span></span>
+<span data-ttu-id="5003b-120">Si un est un angle d’incidence et que B est l’angle de réfraction, alors</span><span class="sxs-lookup"><span data-stu-id="5003b-120">If A is angle of incidence and B is the angle of refraction, then</span></span>
 
 
 ```
@@ -83,7 +83,7 @@ Let g   = (r2 + c2 - 1)1/2
 
 
 
-<span data-ttu-id="74fe7-121">Ensuite, en développant à l’aide des identités trig et en simplifiant, vous bénéficiez des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="74fe7-121">Then, expanding using the trig identities and simplifying, you get:</span></span>
+<span data-ttu-id="5003b-121">Ensuite, en développant à l’aide des identités trig et en simplifiant, vous bénéficiez des éléments suivants :</span><span class="sxs-lookup"><span data-stu-id="5003b-121">Then, expanding using the trig identities and simplifying, you get:</span></span>
 
 
 ```
@@ -92,22 +92,22 @@ F = 0.5 * (g + c)2 / (g - c)2 * ([c(g + c) - 1]2 / [c(g - c) + 1]2 + 1)
 
 
 
-## <a name="requirements"></a><span data-ttu-id="74fe7-122">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="74fe7-122">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5003b-122">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="5003b-122">Requirements</span></span>
 
 
 
-| <span data-ttu-id="74fe7-123">Condition requise</span><span class="sxs-lookup"><span data-stu-id="74fe7-123">Requirement</span></span> | <span data-ttu-id="74fe7-124">Valeur</span><span class="sxs-lookup"><span data-stu-id="74fe7-124">Value</span></span> |
+| <span data-ttu-id="5003b-123">Condition requise</span><span class="sxs-lookup"><span data-stu-id="5003b-123">Requirement</span></span> | <span data-ttu-id="5003b-124">Valeur</span><span class="sxs-lookup"><span data-stu-id="5003b-124">Value</span></span> |
 |--------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="74fe7-125">En-tête</span><span class="sxs-lookup"><span data-stu-id="74fe7-125">Header</span></span><br/>  | <dl> <span data-ttu-id="74fe7-126"><dt>D3DX10Math. h</dt></span><span class="sxs-lookup"><span data-stu-id="74fe7-126"><dt>D3DX10Math.h</dt></span></span> </dl> |
-| <span data-ttu-id="74fe7-127">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="74fe7-127">Library</span></span><br/> | <dl> <span data-ttu-id="74fe7-128"><dt>D3DX10. lib</dt></span><span class="sxs-lookup"><span data-stu-id="74fe7-128"><dt>D3DX10.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="5003b-125">En-tête</span><span class="sxs-lookup"><span data-stu-id="5003b-125">Header</span></span><br/>  | <dl> <span data-ttu-id="5003b-126"><dt>D3DX10Math. h</dt></span><span class="sxs-lookup"><span data-stu-id="5003b-126"><dt>D3DX10Math.h</dt></span></span> </dl> |
+| <span data-ttu-id="5003b-127">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="5003b-127">Library</span></span><br/> | <dl> <span data-ttu-id="5003b-128"><dt>D3DX10. lib</dt></span><span class="sxs-lookup"><span data-stu-id="5003b-128"><dt>D3DX10.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="74fe7-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="74fe7-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5003b-129">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="5003b-129">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="74fe7-130">Fonctions mathématiques</span><span class="sxs-lookup"><span data-stu-id="74fe7-130">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
+[<span data-ttu-id="5003b-130">Fonctions mathématiques</span><span class="sxs-lookup"><span data-stu-id="5003b-130">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
 </dt> </dl>
 
  
