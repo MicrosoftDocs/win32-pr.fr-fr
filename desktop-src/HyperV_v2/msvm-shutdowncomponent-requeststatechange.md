@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_ShutdownComponent-demande un changement d’État.
 ms.assetid: bb1dea51-f9d6-4edc-8044-53380cc4d32e
 title: Méthode RequestStateChange de la classe Msvm_ShutdownComponent
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fd012a3209d68d801432d98705eed155b7ba0906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71237715f08e3775ff4c61660a789e000e4f5a5d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752812"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109607"
 ---
 # <a name="requeststatechange-method-of-the-msvm_shutdowncomponent-class"></a>Méthode RequestStateChange de la \_ classe MSVM ShutdownComponent
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque la roulette de la souris se déplace alors que l’objet InkCollector ou InkOverlay a le focus.
+description: L’événement InkCollector. MouseWheel se produit lorsque la roulette de la souris se déplace alors que l’objet InkCollector ou InkOverlay a le focus.
 ms.assetid: 418cf67c-0ec0-49e3-a17f-9eaeb40bb602
 title: Événement InkCollector. MouseWheel (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 401e6a6728bfcbe058ff5eab56499f6c8e885351
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 851a017af4bb71917c88e2194db86eec64218771
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514008"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110137"
 ---
 # <a name="inkcollectormousewheel-event"></a>Événement InkCollector. MouseWheel
 
@@ -77,11 +77,11 @@ Coordonnée y, en pixels, d’un clic de souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Les propriétés *PX* et *py* sont en pixels, et non pas les unités HIMETRIC associées à l’espace d’encre. Cela est dû au fait que cet événement remplace l’événement de souris associé d’une application ne prenant pas en charge le stylet et que ce type d’application comprend uniquement des pixels.

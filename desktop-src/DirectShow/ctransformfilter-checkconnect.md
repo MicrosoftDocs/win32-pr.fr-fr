@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.
+description: 'Méthode CTransformFilter. CheckConnect : la méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.'
 ms.assetid: 4bec4b19-3f7c-43d8-9a45-2eb2cc15a0d4
 title: Méthode CTransformFilter. CheckConnect (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0d41c50323bae7cb4eaca52a87d8c1b936237ccd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5927aac2fa58322c93a23489a22dc96a1e2a67f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532548"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085097"
 ---
 # <a name="ctransformfiltercheckconnect-method"></a>Méthode CTransformFilter. CheckConnect
 
@@ -57,11 +57,11 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les méthodes [**CTransformInputPin :: CheckConnect**](ctransforminputpin-checkconnect.md) et [**CTransformOutputPin :: CheckConnect**](ctransformoutputpin-checkconnect.md) appellent cette méthode pendant le processus de connexion du code confidentiel. Cette méthode n’a aucun effet dans la classe de base. La classe dérivée peut la substituer. Par exemple, la classe dérivée peut interroger l’autre code confidentiel pour une interface particulière.
 

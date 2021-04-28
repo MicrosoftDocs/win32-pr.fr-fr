@@ -1,5 +1,5 @@
 ---
-description: La méthode BeginFlush commence une opération de vidage.
+description: 'Méthode CBaseRenderer. BeginFlush : la méthode BeginFlush commence une opération de vidage.'
 ms.assetid: dc652394-c24e-4cea-ac28-30a1e6de205f
 title: Méthode CBaseRenderer. BeginFlush (Renbase. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e218e3b2d9c0cef8ce0fe052ad1b3c4b6f786858
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 76dfd77a5170a83813871143781868cae55c45ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535273"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095937"
 ---
 # <a name="cbaserendererbeginflush-method"></a>Méthode CBaseRenderer. BeginFlush
 
@@ -40,11 +40,11 @@ virtual HRESULT BeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit un appel à la méthode [**IPIN :: BeginFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-beginflush) . Le filtre libère le thread de diffusion en continu et libère les exemples qu’il détient pour le rendu.
 

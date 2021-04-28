@@ -1,6 +1,6 @@
 ---
 title: Message EM_LIMITTEXT (winuser. h)
-description: Définit la limite de texte d’un contrôle d’édition.
+description: 'EM_LIMITTEXT message : définit la limite de texte d’un contrôle d’édition.'
 ms.assetid: 5a605de7-8dc7-4c54-8f18-e0b08c720856
 keywords:
 - EM_LIMITTEXT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf45f7ee9cfd88a25b78f0bd58911e516c146096
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a80ce29d4ee5155f6b3c5c32609366982655a078
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464902"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109787"
 ---
 # <a name="em_limittext-message"></a>\_Message LIMITTEXT em
 
@@ -49,11 +49,11 @@ Ce paramètre n'est pas utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le **message \_ LIMITTEXT em** limite uniquement le texte que l’utilisateur peut entrer. Elle n’affecte pas le texte déjà présent dans le contrôle d’édition lorsque le message est envoyé, ni la longueur du texte copié dans le contrôle d’édition par le message [**WM \_ SETTEXT**](/windows/desktop/winmsg/wm-settext) . Si une application utilise le message **WM \_ SETTEXT** pour placer plus de texte dans un contrôle d’édition que celui spécifié dans le message **em \_ LIMITTEXT** , l’utilisateur peut modifier tout le contenu du contrôle d’édition.
 

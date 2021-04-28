@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: CMediaType. CMediaType, constructeur (mtype. h)-méthode constructeur.
 ms.assetid: 35198320-d028-42d4-823f-4f8346d8f977
 title: CMediaType. CMediaType, constructeur (mtype. h)-cmtype et PHR, paramètres
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a40929bb6f53df7ce721e20eefba3019eb71cb0e
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: dd91252920c74d45e4218be3c3d03249a116bfcf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106545723"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095417"
 ---
 # <a name="cmediatypecmediatype-constructor-mtypeh"></a>Constructeur CMediaType. CMediaType (mtype. h)
 
@@ -57,7 +57,7 @@ Pointeur vers une variable qui reçoit une valeur HRESULT. Ce paramètre peut ê
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le constructeur appelle la méthode [**CMediaType :: InitMediaType**](cmediatype-initmediatype.md) pour initialiser le type de média.
 

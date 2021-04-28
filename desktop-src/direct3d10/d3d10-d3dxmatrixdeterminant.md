@@ -1,5 +1,5 @@
 ---
-description: Retourne le déterminant d’une matrice.
+description: 'D3DXMatrixDeterminant, fonction (D3DX10Math. h) : retourne le déterminant d’une matrice.'
 ms.assetid: b0155c91-1554-42ef-b219-c6cdd2a905b5
 title: D3DXMatrixDeterminant, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 11b1092427b12c33d8c34c9f1bbd5e09cf1ccf2d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 894db23a3079c1344c97cab00642cbbc0953450d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535837"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103457"
 ---
 # <a name="d3dxmatrixdeterminant-function-d3dx10mathh"></a>D3DXMatrixDeterminant, fonction (D3DX10Math. h)
 
@@ -49,7 +49,7 @@ Pointeur vers la structure D3DXMATRIX source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
 

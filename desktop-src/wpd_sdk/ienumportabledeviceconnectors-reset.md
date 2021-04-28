@@ -1,5 +1,5 @@
 ---
-description: Réinitialise la séquence d'énumération au début.
+description: 'IEnumPortableDeviceConnectors :: Reset, méthode-réinitialise la séquence d’énumération au début.'
 ms.assetid: 1df1ff95-06ae-4e5e-8064-17f832c5f0b3
 title: 'IEnumPortableDeviceConnectors :: Reset, méthode (Devpkey. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 3a6846ea928afb6cd52f20098cd100b94b3a564e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10a356fbb8591568a9f99d9b92d681a46754a960
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524713"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083206"
 ---
 # <a name="ienumportabledeviceconnectorsreset-method"></a>IEnumPortableDeviceConnectors :: Reset, méthode
 
@@ -38,7 +38,7 @@ HRESULT Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

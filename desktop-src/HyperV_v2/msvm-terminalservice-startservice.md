@@ -1,5 +1,5 @@
 ---
-description: démarre le service.
+description: Méthode StartService de la classe Msvm_TerminalService-démarre le service.
 ms.assetid: 499e4650-255f-4c84-98fc-de81d5cd6daf
 title: Méthode StartService de la classe Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6f1902dd17d641ae50888a23d2c2699e269a90e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33d7bddc012e7f51042950f093a84a09723e7bd8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527675"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109507"
 ---
 # <a name="startservice-method-of-the-msvm_terminalservice-class"></a>Méthode StartService de la \_ classe MSVM TerminalService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

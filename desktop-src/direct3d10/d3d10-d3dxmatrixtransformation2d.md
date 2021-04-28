@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de transformation 2D qui représente des transformations dans le plan XY. Les arguments NULL sont traités comme des transformations d’identité.
+description: 'D3DXMatrixTransformation2D, fonction (D3DX10Math. h) : crée une matrice de transformation 2D qui représente des transformations dans le plan XY. Les arguments NULL sont traités comme des transformations d’identité.'
 ms.assetid: 5b894c3b-a532-458a-bcbc-48fcd5c73c34
 title: D3DXMatrixTransformation2D, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b41d8234dcd9dda1b3735c83460a20c7109e63d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4ef112c346fd222f5e25935740e47ab62273628f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762272"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103357"
 ---
 # <a name="d3dxmatrixtransformation2d-function-d3dx10mathh"></a>D3DXMatrixTransformation2D, fonction (D3DX10Math. h)
 
@@ -109,13 +109,13 @@ Pointeur vers une structure D3DXVECTOR2, identifiant la traduction. Si cet argum
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui contient la matrice de transformation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction calcule la matrice de transformation avec la formule suivante, avec la concaténation de matrice évaluée dans l’ordre de gauche à droite :
 

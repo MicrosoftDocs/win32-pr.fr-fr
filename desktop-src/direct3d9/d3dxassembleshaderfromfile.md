@@ -1,5 +1,5 @@
 ---
-description: Assembler un nuanceur.
+description: D3DXAssembleShaderFromFile fonction-assembler un nuanceur.
 ms.assetid: 2977b64a-b8cc-454b-8e28-291f6f2c6fc1
 title: D3DXAssembleShaderFromFile, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a6e355f6ce51158f72757f771114346899557c59
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 91aaf2924638b1db5b0e8ec0782b90fa964a9543
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523836"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116027"
 ---
 # <a name="d3dxassembleshaderfromfile-function"></a>D3DXAssembleShaderFromFile fonction)
 
@@ -99,13 +99,13 @@ Retourne une mémoire tampon qui contient une liste d’erreurs et d’avertisse
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXAssembleShaderFromFileW. Dans le cas contraire, l’appel de fonction est résolu en D3DXAssembleShaderFromFileA, car les chaînes ANSI sont utilisées.
 

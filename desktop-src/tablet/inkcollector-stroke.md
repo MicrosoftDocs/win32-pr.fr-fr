@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque l’utilisateur dessine un nouveau trait sur une tablette.
+description: Événement InkCollector. Stroke-se produit lorsque l’utilisateur dessine un nouveau trait sur une tablette.
 ms.assetid: eaa89dfe-6141-4205-845b-634321130e26
 title: Événement InkCollector. Stroke (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75ee7f3e8129fdab52e62178fe4b8a322807fc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49cb90b02ab3fca60a8fa17089b6a76f959a60e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110053"
 ---
 # <a name="inkcollectorstroke-event"></a>InkCollector. Stroke (événement)
 
@@ -53,11 +53,11 @@ Objet [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstroked
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICEStroke.
 

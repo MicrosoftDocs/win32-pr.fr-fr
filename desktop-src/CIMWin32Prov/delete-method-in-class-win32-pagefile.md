@@ -1,5 +1,5 @@
 ---
-description: Supprime le fichier d’échange logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.
+description: 'Méthode Delete de la classe Win32_PageFile : supprime le fichier d’échange logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.'
 ms.assetid: cc36d621-597e-4343-8bf6-bfca7fa29276
 ms.tgt_platform: multiple
 title: Méthode Delete de la classe Win32_PageFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e61155a321e4414c66f98843a79d935f38870bd5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b35751633387f3db1d7dccbf13694f56717a1d3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515178"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089587"
 ---
 # <a name="delete-method-of-the-win32_pagefile-class"></a>Méthode Delete de la \_ classe pagefile Win32
 
@@ -40,7 +40,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.
 

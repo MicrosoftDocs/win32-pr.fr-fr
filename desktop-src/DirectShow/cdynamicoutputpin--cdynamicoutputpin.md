@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CDynamicOutputPin. ~ CDynamicOutputPin, destructeur, méthode de destructeur.
 ms.assetid: 122c2506-a38a-4d24-a372-da210801df88
 title: CDynamicOutputPin. ~ CDynamicOutputPin, destructeur (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c65c8e29270e386645be7afb7b9cd7c3ec3c721e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f1369b63f3ae5cacf74d32c89cda5602660d228
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529021"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095747"
 ---
 # <a name="cdynamicoutputpincdynamicoutputpin-destructor"></a>CDynamicOutputPin. ~ CDynamicOutputPin, destructeur
 

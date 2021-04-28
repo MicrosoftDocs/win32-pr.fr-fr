@@ -1,5 +1,5 @@
 ---
-description: La méthode BreakConnect libère le code confidentiel d’une connexion.
+description: 'Méthode CTransformOutputPin. BreakConnect : la méthode BreakConnect libère le code confidentiel d’une connexion.'
 ms.assetid: bf68aca3-93e5-4f9d-9980-1a5eed1513f5
 title: Méthode CTransformOutputPin. BreakConnect (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 316806b89adf6493f32125da488990151f0916b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92854041e1d553945d0a1ab1755ef3557bd4a8b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532860"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084957"
 ---
 # <a name="ctransformoutputpinbreakconnect-method"></a>Méthode CTransformOutputPin. BreakConnect
 
@@ -40,11 +40,11 @@ HRESULT BreakConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBaseOutputPin :: BreakConnect**](cbaseoutputpin-breakconnect.md) . Elle appelle la méthode [**CTransformFilter :: BreakConnect**](ctransformfilter-breakconnect.md) du filtre, qui retourne la valeur \_ OK dans la classe de base. La classe dérivée peut substituer la méthode **CTransformFilter :: BreakConnect** .
 

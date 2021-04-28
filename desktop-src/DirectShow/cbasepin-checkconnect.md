@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.
+description: 'Méthode CBasePin. CheckConnect : la méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.'
 ms.assetid: 511a1594-f3f8-4725-afcd-f14f3a4ebf20
 title: Méthode CBasePin. CheckConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 24d5c221da417fd1fc2b3f9f140536f825b2f9d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 314d3e1ce0e73e60ea07bb4f7270fa04f69750c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540669"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096047"
 ---
 # <a name="cbasepincheckconnect-method"></a>Méthode CBasePin. CheckConnect
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                               | Description                                   |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                      | Opération réussie.<br/>                           |
+| <dl> <dt>**\_OK**</dt> </dl>                      | Réussite.<br/>                           |
 | <dl> <dt>**VFW \_ E \_ sens non valide \_**</dt> </dl> | Les directions de code confidentiel ne sont pas compatibles.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est appelée sur les deux codes confidentiels au début du processus de connexion. Le code PIN de connexion l’appelle à partir de la méthode [**CBasePin :: Connect**](cbasepin-connect.md) , et l’épingle de réception l’appelle à partir de la méthode [**CBasePin :: ReceiveConnection**](cbasepin-receiveconnection.md) .
 

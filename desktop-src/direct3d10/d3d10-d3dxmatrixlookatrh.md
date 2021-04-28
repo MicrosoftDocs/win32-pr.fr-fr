@@ -1,5 +1,5 @@
 ---
-description: Génère une matrice de droite et de gauche.
+description: 'D3DXMatrixLookAtRH, fonction (D3DX10Math. h) : génère une matrice de droite et de gauche.'
 ms.assetid: 98c8932f-f179-42ed-a361-a89065b71876
 title: D3DXMatrixLookAtRH, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 28c2ad0cc7eb8a3ba98aacadc764bc277a1fdad0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0380207124e4a446b6303dbb377d116b8ae058ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043144"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103447"
 ---
 # <a name="d3dxmatrixlookatrh-function-d3dx10mathh"></a>D3DXMatrixLookAtRH, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers la structure D3DXVECTOR3 qui définit le monde actuel, généralem
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est une matrice de recherche à droite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXMatrixLookAtRH peut être utilisée comme paramètre pour une autre fonction.
 

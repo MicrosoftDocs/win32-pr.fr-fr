@@ -1,5 +1,5 @@
 ---
-description: Projette un vecteur 3D à partir de l’espace d’objet dans l’espace à l’écran.
+description: D3DXVec3Project, fonction (D3dx9math. h)-projette un vecteur 3D à partir de l’espace d’objet dans l’espace à l’écran.
 ms.assetid: b012771d-052f-4bf9-b39c-387d8a63fa59
 title: D3DXVec3Project, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1c8198987b970fd6d79db3c73f715df4f0ac6981
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a5a9abcb54c883d74bde831570b9df0b40fedfae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115647"
 ---
 # <a name="d3dxvec3project-function-d3dx9mathh"></a>D3DXVec3Project, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) représentant la mat
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le vecteur projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec3Project** peut être utilisée comme paramètre pour une autre fonction.
 

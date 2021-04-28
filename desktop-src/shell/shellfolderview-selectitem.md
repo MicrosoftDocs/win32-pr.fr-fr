@@ -1,5 +1,5 @@
 ---
-description: Définit l’état de sélection d’un élément dans la vue.
+description: Méthode ShellFolderView. SelectItem-définit l’état de sélection d’un élément dans la vue.
 title: Méthode ShellFolderView. SelectItem (shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 91c39d4c-56c3-4c2b-93e8-9f782ca0aa93
-ms.openlocfilehash: d44633983075cdf22581bce05cfb7c073f422084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8cbff0da4da55d9621bfeb01f26c5ed62fe230a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209938"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116747"
 ---
 # <a name="shellfolderviewselectitem-method"></a>Méthode ShellFolderView. SelectItem
 
@@ -43,9 +43,9 @@ ShellFolderView.SelectItem(
 *vItem* \[ dans\]
 </dt> <dd>
 
-Type : **Variant \** _
+Type : **variante \***
 
-Objet [_ *FolderItem* *](folderitem.md) pour lequel l’état de sélection sera défini.
+Objet [**FolderItem**](folderitem.md) pour lequel l’état de sélection sera défini.
 
 </dd> <dt>
 
@@ -124,11 +124,11 @@ Donne le focus à l’élément.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 [**FocusedItem**](shellfolderview-focuseditem.md) peut uniquement être appelé sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
@@ -189,7 +189,7 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode dans JSc
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

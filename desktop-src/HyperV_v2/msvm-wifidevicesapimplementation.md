@@ -1,5 +1,5 @@
 ---
-description: Association entre un point d’accès de service (SAP) et son implémentation.
+description: 'Classe Msvm_WiFiDeviceSAPImplementation : association entre un point d’accès de service (SAP) et la façon dont il est implémenté.'
 ms.assetid: d1d99299-f2d9-4025-a48d-cf8180f2f7af
 title: Classe Msvm_WiFiDeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8debec96efb93e60ec18d75b62ffa0d13b0e0a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99826ce3a37e19867cef1a6ddf276f5136b21a3d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862462"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109247"
 ---
 # <a name="msvm_wifidevicesapimplementation-class"></a>MSVM \_ WiFiDeviceSAPImplementation, classe
 

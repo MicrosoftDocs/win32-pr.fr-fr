@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le pointeur de la souris est déplacé sur l’objet InkCollector ou InkOverlay.
+description: Événement InkCollector. MouseMove-se produit lorsque le pointeur de la souris est déplacé sur l’objet InkCollector ou InkOverlay.
 ms.assetid: 688ac7ef-dcee-44a4-8947-117966365061
 title: Événement InkCollector. MouseMove (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27ad88c35871ed73125be73b66329ede464f0c00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3392f2022af39600cb24461b26d37e5d624f4cb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110157"
 ---
 # <a name="inkcollectormousemove-event"></a>Événement InkCollector. MouseMove
 
@@ -69,11 +69,11 @@ Coordonnée y, en pixels, d’un clic de souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Les propriétés *PX* et *py* sont en pixels, et non pas les unités HIMETRIC associées à l’espace d’encre. Cela est dû au fait que cet événement remplace l’événement de souris associé d’une application ne prenant pas en charge le stylet et que ce type d’application comprend uniquement des pixels.

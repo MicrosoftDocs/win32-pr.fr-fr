@@ -1,17 +1,17 @@
 ---
 title: Configuration des délais d’attente spécifiques à l’application
-description: .
+description: Configuration des délais d’attente spécifiques à l’application
 ms.assetid: 24526320-4174-4fc7-b45a-c1ec605e1666
 keywords:
 - Configuration des délais d’attente spécifiques à l’application HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35827b797ad6c9f19b728064f6fe65b0d89b2a3b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aca1cbcdb0b0796820282673c41507f6bfcc0ebd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029149"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109737"
 ---
 # <a name="configuring-the-application-specific-timeouts"></a>Configuration des délais d’attente spécifiques à l’application
 
@@ -23,9 +23,9 @@ L’API du serveur HTTP ne peut configurer que le **HeaderWait** spécifique à 
 
 Pour plus d’informations sur la configuration des minuteries, consultez les rubriques [configuration du groupe d’URL](configuring-the-url-group.md) et [configuration de la session serveur](configuring-the-server-session.md) .
 
- 
+ 
 
- 
+ 
 
 
 

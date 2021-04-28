@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de projection de perspective personnalisée de gauche.
+description: 'D3DXMatrixPerspectiveOffCenterLH, fonction (D3DX10Math. h) : crée une matrice de projection de perspective personnalisée de gauche.'
 ms.assetid: 73616fcc-1799-4e65-92b9-2d8f500c326e
 title: D3DXMatrixPerspectiveOffCenterLH, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2fb289c0dff148850b8174ccb04a3e3fbfa79d92
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1116e24b48c9090739511894d28031ca921ed6ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520346"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109047"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterlh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveOffCenterLH, fonction (D3DX10Math. h)
 
@@ -109,13 +109,13 @@ Valeur z maximale du volume de la vue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est une matrice de projection de perspective personnalisée de gauche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Tous les paramètres de la fonction D3DXMatrixPerspectiveOffCenterLH sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 

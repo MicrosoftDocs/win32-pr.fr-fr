@@ -1,5 +1,5 @@
 ---
-description: Récupère les objets d’erreur pour le travail, le cas échéant.
+description: 'Msvm_CopyFileToGuestJob :: GetErrorEx, méthode-récupère les objets d’erreur pour le travail, le cas échéant.'
 ms.assetid: 817AF83B-B601-4AE4-AB5B-CFEACB9A7F41
 title: 'Msvm_CopyFileToGuestJob :: GetErrorEx, méthode'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 179ad3a70a985442d855d447ef4eab955d177f0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a570c42457257212e83f9c0c034c4a390e4c04
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514643"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109667"
 ---
 # <a name="msvm_copyfiletoguestjobgeterrorex-method"></a>MSVM \_ CopyFileToGuestJob :: GetErrorEx, méthode
 
@@ -46,7 +46,7 @@ Si l’état opérationnel du travail n’est pas 2 (OK), cette méthode retourn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne l’une des valeurs suivantes.
 

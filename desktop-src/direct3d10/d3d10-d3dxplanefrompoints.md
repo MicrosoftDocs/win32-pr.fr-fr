@@ -1,5 +1,5 @@
 ---
-description: Construit un plan à partir de trois points.
+description: 'D3DXPlaneFromPoints, fonction (D3DX10Math. h) : construit un plan à partir de trois points.'
 ms.assetid: 0e77af1b-cedf-482c-8398-10becb398a2c
 title: D3DXPlaneFromPoints, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eed4426492f05b2bfe3c762915edb8fdc21dc789
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a3af01df7d1ce66029994226d040544b733a75df
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525907"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103317"
 ---
 # <a name="d3dxplanefrompoints-function-d3dx10mathh"></a>D3DXPlaneFromPoints, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure D3DXVECTOR3, définissant l’un des points utilisé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointeur vers la structure D3DXPLANE construite à partir des points donnés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXPlaneFromPoints peut être utilisée comme paramètre pour une autre fonction.
 

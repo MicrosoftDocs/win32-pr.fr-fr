@@ -1,5 +1,5 @@
 ---
-description: 'La méthode Notify avertit le code confidentiel qu’une modification de qualité est demandée. Cette méthode implémente la méthode IQualityControl :: Notify.'
+description: 'CBasePin. Notify, méthode : la méthode Notify notifie au code confidentiel qu’une modification de qualité est demandée. Cette méthode implémente la méthode IQualityControl :: Notify.'
 ms.assetid: 5e9394d9-8d3c-4091-b45f-345a3f7270db
 title: CBasePin. Notify, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f34ea630a461226c32b9d827b2b91dcd0874cac7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35e751fb583010402df53e1a85eca11f751eda24
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532878"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096017"
 ---
 # <a name="cbasepinnotify-method"></a>CBasePin. Notify, méthode
 
@@ -57,11 +57,11 @@ Spécifie une structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La classe de base retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les broches de sortie doivent remplacer cette méthode pour accepter des messages de contrôle qualité.
 

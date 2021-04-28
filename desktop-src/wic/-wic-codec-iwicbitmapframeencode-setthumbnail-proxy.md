@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode SetThumbnail.
+description: IWICBitmapFrameEncode_SetThumbnail_Proxy fonction de proxy de fonction pour la méthode SetThumbnail.
 ms.assetid: 3ad473ec-9218-4ed1-961d-a2aa0d542119
 title: IWICBitmapFrameEncode_SetThumbnail_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 052e73911178ef0db957c5dd8edcf6e9d6892ace
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9af9dd2d4f8fe71a6dc94420db17383a5da6da28
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866769"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116597"
 ---
 # <a name="iwicbitmapframeencode_setthumbnail_proxy-function"></a>\_ \_ Fonction proxy SetThumbnail IWICBitmapFrameEncode
 
@@ -44,24 +44,24 @@ HRESULT IWICBitmapFrameEncode_SetThumbnail_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Type : **[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+Type : **[ **IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-Pointeur vers cet objet [_ *IWICBitmapFrameEncode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
+Pointeur vers cet objet [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) .
 
 </dd> <dt>
 
 *pIThumbnail* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Type : **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Source bitmap à utiliser comme miniature.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

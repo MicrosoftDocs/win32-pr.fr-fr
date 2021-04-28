@@ -1,15 +1,15 @@
 ---
-description: .
+description: Suppression des services UDDI du système d’exploitation serveur
 ms.assetid: 5ebc8c4c-acee-4658-8d36-30fbb17b1ef1
 title: Suppression des services UDDI du système d’exploitation serveur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7681167177b850ba44ac0fc26e019c7393008b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 960a4063d990a3b2cdac45cd933a1e7dfef41f88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534093"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116327"
 ---
 # <a name="removal-of-uddi-services-from-server-operating-system"></a>Suppression des services UDDI du système d’exploitation serveur
 
@@ -42,7 +42,7 @@ Les utilisateurs qui ont déployé un site de services UDDI à partir de Windows
 
 La solution recommandée consiste à déployer les services UDDI v 3.0 à partir de BizTalk Server 2009 sur un ordinateur Windows Server 2008 R2, puis à migrer l’ancien site vers le nouveau site. Les services UDDI v 3.0 offrent une compatibilité descendante avec les services UDDI 2,0, si bien que toutes les applications qui utilisent des services UDDI ne seront pas affectées.
 
-Pour ce faire, procédez comme suit :
+Pour ce faire, procédez comme suit :
 
 1.  Configurez un nouveau site UDDI services v 3.0 sur un ordinateur déjà chargé avec Windows Server 2008 R2. (Remarque : dans une installation distribuée, un site UDDI v 3.0 peut être constitué de plusieurs ordinateurs Windows Server 2008 R2.)
 2.  Utilisez l’outil de migration de données UDDI pour migrer les données de l’ancienne base de données des services UDDI vers la nouvelle base de données.

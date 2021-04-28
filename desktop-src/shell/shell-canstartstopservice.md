@@ -1,5 +1,5 @@
 ---
-description: Détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.
+description: 'Shell. CanStartStopService, méthode : détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.'
 ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
 title: Shell. CanStartStopService, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1d92fa076141bdebc8a2f24059a65e842e5a3d6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29561519b95329093ef1f7bfc64023fd1ac4533d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083687"
 ---
 # <a name="shellcanstartstopservice-method"></a>Shell. CanStartStopService, méthode
 
@@ -58,21 +58,21 @@ Type : **chaîne**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
+Retourne la **valeur true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
+Retourne la **valeur true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
@@ -117,7 +117,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

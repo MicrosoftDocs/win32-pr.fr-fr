@@ -1,5 +1,5 @@
 ---
-description: Crée et retourne un objet Folder pour le dossier spécifié.
+description: 'Shell. NameSpace, méthode : crée et retourne un objet Folder pour le dossier spécifié.'
 ms.assetid: c0d61bc6-6851-4b47-a62d-4c24d2958b98
 title: Shell. NameSpace, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 856a86efb4aca6ae7c1d4c8a3a81b5bc722a3963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: fab501912c55aaaf6cab832bf76763672e830d33
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202903"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083707"
 ---
 # <a name="shellnamespace-method"></a>Shell. NameSpace, méthode
 
@@ -58,7 +58,7 @@ Dossier pour lequel créer l’objet [**dossier**](folder.md) . Il peut s’agir
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -144,7 +144,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

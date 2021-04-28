@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_SyntheticMouse-demande une réinitialisation.
 ms.assetid: c28790d8-e731-46a3-8c84-677dd4257b2f
 title: Méthode Reset de la classe Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d1070574c4eff588b84eeaccef27cd322fad0474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3124d1a878d04e9ea79d3f5b900ac111d3e2c0b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525222"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109538"
 ---
 # <a name="reset-method-of-the-msvm_syntheticmouse-class"></a>Méthode Reset de la \_ classe MSVM SyntheticMouse
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

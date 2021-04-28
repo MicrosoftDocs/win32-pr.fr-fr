@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CMemAllocator. CMemAllocator.
 ms.assetid: 2340b39a-cab6-4524-b8cd-b22d4bdd24d0
 title: Constructeur CMemAllocator. CMemAllocator (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b650e23761c3fe5b3f5014666f90c679f088c4a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1151572c32efe69cceb89e7a5ea5a045955b5f43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530505"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095397"
 ---
 # <a name="cmemallocatorcmemallocator-constructor"></a>Constructeur CMemAllocator. CMemAllocator
 

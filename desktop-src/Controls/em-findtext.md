@@ -1,6 +1,6 @@
 ---
 title: Message EM_FINDTEXT (RichEdit. h)
-description: Recherche du texte dans un contrôle RichEdit.
+description: EM_FINDTEXT message-recherche du texte dans un contrôle RichEdit.
 ms.assetid: f19e19a0-d8dd-4d31-b76d-f1f09577dd2d
 keywords:
 - EM_FINDTEXT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e50034337f05d2df17af777986136881c503d05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 452d4e2534fb05cbbbf4c02ac4146f2f8914c9bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942304"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109847"
 ---
 # <a name="em_findtext-message"></a>\_Message du TEXTECHERCHÉ em
 
@@ -58,11 +58,11 @@ Structure [**TexteCherché**](/windows/win32/api/richedit/ns-richedit-findtexta)
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la chaîne cible est trouvée, la valeur de retour est la position de base zéro du premier caractère de la correspondance. Si la cible est introuvable, la valeur de retour est-1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le membre **cpMin** de **FINDTEXT.** frais spécifie toujours le point de départ de la recherche, tandis que **cpMax** spécifie le point de terminaison. Lorsque vous effectuez une recherche vers l’arrière, **cpMin** doit être supérieur ou égal à **cpMax**. Lors d’une recherche vers l’avant, la valeur-1 dans **cpMax** étend la plage de recherche à la fin du texte.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Sous-ensemble de .NET 2,0 maintenant sur Server Core
 ms.assetid: f91c4604-b2d6-41e5-be66-bbc8a4f0e28e
 title: Sous-ensemble de .NET 2,0 maintenant sur Server Core
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3e0f836ca7afaef920429df17ef8be845ce92e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6ef839f525acf190df384e3fe8394f2b785d45
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211071"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116147"
 ---
 # <a name="subset-of-net-20-now-on-server-core"></a>Sous-ensemble de .NET 2,0 maintenant sur Server Core
 

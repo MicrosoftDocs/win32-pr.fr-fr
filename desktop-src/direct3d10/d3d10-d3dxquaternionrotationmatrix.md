@@ -1,5 +1,5 @@
 ---
-description: Génère un Quaternion à partir d’une matrice de rotation.
+description: 'D3DXQuaternionRotationMatrix, fonction (D3DX10Math. h) : génère un Quaternion à partir d’une matrice de rotation.'
 ms.assetid: 316bf3e0-32ff-4e5e-b771-99f7eea2e27c
 title: D3DXQuaternionRotationMatrix, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1caccf47e03388ffb85f2e12a5d0203f3fe839bd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cb923c135d436b36fe032d344366fdee687d27a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211900"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103147"
 ---
 # <a name="d3dxquaternionrotationmatrix-function-d3dx10mathh"></a>D3DXQuaternionRotationMatrix, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXMATRIX**](d3d10-d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers la structure D3DXQUATERNION construite à partir d’une matrice de rotation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXQuaternionRotationMatrix peut être utilisée comme paramètre pour une autre fonction.
 

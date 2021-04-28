@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'Méthode IXml2Dex :: CreateGraphFromFile-non implémentée.'
 ms.assetid: b476e0c9-1432-4644-8002-154797a2a594
 title: 'IXml2Dex :: CreateGraphFromFile, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 10a2e52716de77f9c62a51c87cbda550b92a8f90
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a79b4115dddb0e15adb4284bbefd245aba088d5f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513282"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084417"
 ---
 # <a name="ixml2dexcreategraphfromfile-method"></a>IXml2Dex :: CreateGraphFromFile, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -66,11 +66,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

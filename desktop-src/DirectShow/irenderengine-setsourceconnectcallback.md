@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IRenderEngine :: SetSourceConnectCallback, méthode non prise en charge.'
 ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
 title: 'IRenderEngine :: SetSourceConnectCallback, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e58755ef936b6dd0822dbbc8a4159291cf2e0454
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e8fc7dca58f2c1406f575f99d8119edd9bd750d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517371"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084427"
 ---
 # <a name="irenderenginesetsourceconnectcallback-method"></a>IRenderEngine :: SetSourceConnectCallback, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -50,11 +50,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

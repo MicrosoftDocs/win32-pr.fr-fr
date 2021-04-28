@@ -1,5 +1,5 @@
 ---
-description: Représente les traits d’encre collectés dans un espace d’encre.
+description: 'Classe InkDisp : représente les traits d’encre collectés dans un espace d’encre.'
 ms.assetid: f942d6a3-f303-49df-a128-de9760b508ef
 title: InkDisp, classe (Msinkaut. h)
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 429cbf85bdc92753cda1e58a0e89086b4b5b8b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750212"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109987"
 ---
 # <a name="inkdisp-class"></a>InkDisp, classe
 
@@ -76,7 +76,7 @@ La classe **InkDisp** possède ces méthodes.
 | [**ClipboardCopy**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopy)                           | Copie la collection [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) dans le presse-papiers.<br/>                                                                                                           |
 | [**ClipboardCopyWithRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardcopywithrectangle) | Copie les objets [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) contenus dans le rectangle connu dans le presse-papiers.<br/>                                                               |
 | [**ClipboardPaste**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clipboardpaste)                         | Copie [**IDataObject**](/windows/desktop/api/objidl/nn-objidl-idataobject) du presse-papiers vers l’objet **InkDisp** .<br/>                                                                                               |
-| [**Répliqué**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Crée un objet **InkDisp** dupliqué.<br/>                                                                                                                                                   |
+| [**Clone**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-clone)                                           | Crée un objet **InkDisp** dupliqué.<br/>                                                                                                                                                   |
 | [**CreateStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstroke)                             | Crée un trait à partir des points ou des données de paquet.<br/>                                                                                                                                              |
 | [**CreateStrokes**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-createstrokes)                           | Crée une collection [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) pour cet objet **InkDisp** .<br/>                                                                                                |
 | [**DeleteStroke**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-deletestroke)                             | Supprime un trait de l’objet **InkDisp** .<br/>                                                                                                                                             |
@@ -87,7 +87,7 @@ La classe **InkDisp** possède ces méthodes.
 | [**HitTestCircle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestcircle)                   | Récupère la collection [**InkStrokes**](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) qui est entièrement à l’intérieur ou à l’intersection d’un cercle connu.<br/>                                                  |
 | [**HitTestWithLasso**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithlasso)              | Récupère les traits dans une zone de sélection de polylignes.<br/>                                                                                                                                   |
 | [**HitTestWithRectangle**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-hittestwithrectangle)        | Récupère les traits qui sont contenus dans un rectangle spécifié.<br/>                                                                                                                    |
-| [**Load**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Remplit un nouvel objet **InkDisp** avec des données binaires connues.<br/>                                                                                                                                |
+| [**Chargement**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-load)                                             | Remplit un nouvel objet **InkDisp** avec des données binaires connues.<br/>                                                                                                                                |
 | [**NearestPoint**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-nearestpoint)                             | Récupère le [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) dans l’objet **InkDisp** le plus proche d’un point connu, en fournissant éventuellement des informations supplémentaires.<br/>                       |
 | [**Enregistrer**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkdisp-save)                                             | Convertit l’encre dans un format spécifié et retourne les données binaires.<br/>                                                                                                                       |
 
@@ -112,7 +112,7 @@ La classe **InkDisp** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
