@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_SerialPort-demande un changement d’État.
 ms.assetid: 8047c12d-f420-4406-885a-25342789dbb9
 title: Méthode RequestStateChange de la classe Msvm_SerialPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 99b1b9bcda26b8137a294ece222508b198a09881
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc2636c26d3be7d1585354973e514d847f599e2a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522022"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118717"
 ---
 # <a name="requeststatechange-method-of-the-msvm_serialport-class"></a>Méthode RequestStateChange de la \_ classe MSVM SerialPort
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

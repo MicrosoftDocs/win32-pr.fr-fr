@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_EthernetSwitchPort-demande un changement d’État.
 ms.assetid: 967c1256-d44e-476f-a24e-edcca2b083d2
 title: Méthode RequestStateChange de la classe Msvm_EthernetSwitchPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: efac967796b2327f55f0635fc2ff7412893565dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f83cf73af26e4118a342cce4059dab0a58b4f4c6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750997"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119077"
 ---
 # <a name="requeststatechange-method-of-the-msvm_ethernetswitchport-class"></a>Méthode RequestStateChange de la \_ classe MSVM EthernetSwitchPort
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

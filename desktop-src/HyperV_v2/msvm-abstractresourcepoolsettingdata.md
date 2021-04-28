@@ -1,5 +1,5 @@
 ---
-description: Représente les paramètres d’une \_ instance MSVM ResourcePool qui ne sont pas liés à l’allocation.
+description: Msvm_AbstractResourcePoolSettingData Class-représente les paramètres d’une \_ instance de ResourcePool MSVM qui ne sont pas liés à l’allocation.
 ms.assetid: c5954a92-8942-4b45-aae2-6936328dab1a
 title: Classe Msvm_AbstractResourcePoolSettingData
 ms.topic: reference
@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9109bd428797c8c4f1073577e015bf4b9eddcc07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dca3da14ac74a8d6fab1ba96db98f9e2eccd74ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952320"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112117"
 ---
 # <a name="msvm_abstractresourcepoolsettingdata-class"></a>MSVM \_ AbstractResourcePoolSettingData, classe
 

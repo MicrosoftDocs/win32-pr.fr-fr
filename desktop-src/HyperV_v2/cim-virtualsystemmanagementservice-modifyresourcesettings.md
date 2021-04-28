@@ -1,5 +1,5 @@
 ---
-description: Modifie les paramètres de ressource virtuelle.
+description: La méthode ModifyResourceSettings de la classe CIM_VirtualSystemManagementService-modifie les paramètres de ressource virtuelle.
 ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
 title: Méthode ModifyResourceSettings de la classe CIM_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e27729429d02c2412e05344779cc40461dbd9dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26971c80ce6f7d0ffcdcef069d76aef5fdc15138
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485361"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112287"
 ---
 # <a name="modifyresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>Méthode ModifyResourceSettings de la \_ classe CIM VirtualSystemManagementService
 
@@ -64,7 +64,7 @@ Si l’opération est exécutée à long terme, le cas échéant, une tâche est
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

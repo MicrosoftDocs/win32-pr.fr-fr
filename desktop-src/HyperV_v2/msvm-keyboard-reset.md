@@ -1,5 +1,5 @@
 ---
-description: Réinitialise le clavier virtuel.
+description: 'Méthode Reset de la classe Msvm_Keyboard : réinitialise le clavier virtuel.'
 ms.assetid: 6D4A9F02-53BD-47C2-9C09-F22C3630312F
 title: Méthode Reset de la classe Msvm_Keyboard
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4fe46657177789e49b49ec2c36f0e7a9dc95394f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14c3166ce57fab4693dec87d3d81a55f1f688aa9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523665"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111707"
 ---
 # <a name="reset-method-of-the-msvm_keyboard-class"></a>Méthode Reset de la \_ classe de clavier MSVM
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Une valeur de retour de zéro indique une réussite. Une valeur de retour d’une indique un échec, car la méthode n’est pas prise en charge.
 

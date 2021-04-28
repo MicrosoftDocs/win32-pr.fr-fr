@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de registre. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Registry_TypeGroup1-cette classe est la classe de type d’événement pour les événements de registre. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 8d0e9d97-3837-46da-a217-13e943580352
 title: Classe Registry_TypeGroup1
 ms.topic: reference
@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bfbf0157141473be4cc2460659912dc662ef7c75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d86412a950246bee4f9a692ab80e91b99d945c20
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972279"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106247"
 ---
 # <a name="registry_typegroup1-class"></a>Classe de TypeGroup1 du Registre \_
 
@@ -136,7 +136,7 @@ Valeur NTSTATUS de l’opération de registre.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -151,7 +151,7 @@ Valeur NTSTATUS de l’opération de registre.
 
 <dl> <dt>
 
-[**Registre**](registry.md)
+[**Du**](registry.md)
 </dt> </dl>
 
  

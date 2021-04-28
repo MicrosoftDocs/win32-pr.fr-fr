@@ -1,5 +1,5 @@
 ---
-description: Supprime le fichier d’échange logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.
+description: 'Méthode DeleteEx de la classe Win32_PageFile : supprime le fichier d’échange logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet.'
 ms.assetid: ea31f92a-94b9-4d4d-abd9-6c304ac5caee
 ms.tgt_platform: multiple
 title: Méthode DeleteEx de la classe Win32_PageFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2f62875313f6be432ab191fc91bbac381627de3c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27e80c3cfaea352ee97ad29aed0b7ca358546
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110518"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097047"
 ---
 # <a name="deleteex-method-of-the-win32_pagefile-class"></a>Méthode DeleteEx de la \_ classe du fichier d’échange Win32
 
@@ -57,7 +57,7 @@ Nomme le fichier ou le répertoire enfant à utiliser comme point de départ pou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) si le fichier a été supprimé avec succès, et tout autre nombre pour indiquer une erreur.
 

@@ -1,15 +1,15 @@
 ---
 title: Fonctions de chaîne
-description: .
+description: Fonctions de chaîne
 ms.assetid: 0249ea7a-84f1-4e25-9e80-0be5eb6c04ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35b2f6c3f75e98de2f951f56aa2891eab72401a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e03576724845dcf36c29826dfaba57b5f5a476b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380188"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092667"
 ---
 # <a name="string-functions"></a>Fonctions de chaîne
 
@@ -41,9 +41,9 @@ ms.locfileid: "104380188"
 -   [**wsprintf**](/windows/desktop/api/Winuser/nf-winuser-wsprintfa)
 -   [**wvsprintf**](/windows/desktop/api/Winuser/nf-winuser-wvsprintfa)
 
- 
+ 
 
- 
+ 
 
 
 

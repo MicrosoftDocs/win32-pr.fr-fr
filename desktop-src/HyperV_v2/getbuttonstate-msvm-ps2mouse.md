@@ -1,5 +1,5 @@
 ---
-description: Récupère l’état actuel du bouton de périphérique spécifié.
+description: 'Méthode GetButtonState de la classe Msvm_Ps2Mouse : récupère l’état actuel du bouton de périphérique spécifié.'
 ms.assetid: 7772A3AC-1677-44A7-9E5E-D31E90988705
 title: Méthode GetButtonState de la classe Msvm_Ps2Mouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8bb0df6ad49f0d260d95c6f65e0f0f481b393dc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 160134a2ae48bb23dc525eeded70b483484e0b71
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515271"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112197"
 ---
 # <a name="getbuttonstate-method-of-the-msvm_ps2mouse-class"></a>Méthode GetButtonState de la \_ classe Ps2Mouse MSVM
 
@@ -58,7 +58,7 @@ Type : **booléen**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -105,7 +105,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ Ps2Mouse**](msvm-ps2mouse.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

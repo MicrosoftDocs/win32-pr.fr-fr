@@ -1,5 +1,5 @@
 ---
-description: Récupère le nombre de vertex (ou de texels) échantillonnés.
+description: 'ID3DXPRTCompBuffer :: GetNumSamples, méthode-récupère le nombre de vertex (ou de texels) échantillonnés.'
 ms.assetid: aed87618-03b8-4130-86bb-68eee66b287c
 title: 'ID3DXPRTCompBuffer :: GetNumSamples, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a1e4fcf82d066011ca743d810b321c0a94d60751
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8bf2f35ab431ee03034269367c1ba31a9e94b7c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762296"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093147"
 ---
 # <a name="id3dxprtcompbuffergetnumsamples-method"></a>ID3DXPRTCompBuffer :: GetNumSamples, méthode
 
@@ -38,7 +38,7 @@ UINT GetNumSamples();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

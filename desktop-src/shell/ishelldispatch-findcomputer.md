@@ -1,25 +1,13 @@
 ---
-description: 'Affiche la boîte de dialogue résultats de la recherche : ordinateurs. La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.'
-ms.assetid: 9B687A8A-BB29-49a0-8AE3-11A75FAF3257
-title: Méthode IShellDispatch. FindComputer (shldisp. h)
-ms.topic: reference
-ms.date: 05/31/2018
-topic_type:
+Description : IShellDispatch. FindComputer, méthode-affiche la boîte de dialogue résultats de la recherche : ordinateurs. La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.
+ms. AssetID : 9B687A8A-BB29-49a0-8AE3-11A75FAF3257 title : IShellDispatch. FindComputer, méthode (shldisp. h) ms. topic : référence ms. Date : 05/31/2018 topic_type : 
 - APIRef
-- kbSyntax
-api_name:
-- IShellDispatch.FindComputer
-api_type:
-- COM
-api_location:
+- api_name kbSyntax : 
+- Api_type IShellDispatch. FindComputer : 
+- Api_location COM : 
 - Shell32.dll
-ms.openlocfilehash: 3ad928b6860a85126a714a08f3bc3df9d4aff67c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972427"
 ---
+
 # <a name="ishelldispatchfindcomputer-method"></a>Méthode IShellDispatch. FindComputer
 
 Affiche la boîte de dialogue résultats de la **recherche : ordinateurs** . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.
@@ -45,7 +33,7 @@ IShellDispatch.FindComputer()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +43,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. FindComputer**](shell-findcomputer.md) .
 
@@ -115,7 +103,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -129,9 +117,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

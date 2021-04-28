@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_Memory-demande un changement d’État.
 ms.assetid: 836ee3a1-e28e-4f84-8e1c-09f4a2ff0a25
 title: Méthode RequestStateChange de la classe Msvm_Memory
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 761a486f21f6c1cd8c61978038cc2d37bba8c288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c168e3be7350b1422edd9ac87556aab886daf49c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320598"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118857"
 ---
 # <a name="requeststatechange-method-of-the-msvm_memory-class"></a>Méthode RequestStateChange de la \_ classe de mémoire MSVM
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

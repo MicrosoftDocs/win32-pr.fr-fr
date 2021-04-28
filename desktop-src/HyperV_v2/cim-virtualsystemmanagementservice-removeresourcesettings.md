@@ -1,5 +1,5 @@
 ---
-description: Supprime les paramètres de ressources virtuelles d’une configuration de système virtuel.
+description: Méthode RemoveResourceSettings de la classe CIM_VirtualSystemManagementService-supprime les paramètres de ressources virtuelles d’une configuration de système virtuel.
 ms.assetid: 7934a5e4-f54c-43fd-9ec3-d1fc1aad0acd
 title: Méthode RemoveResourceSettings de la classe CIM_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1f5b3ac1cc53f23d0d899a4c6b5d17408bca3b9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5c7daabcdcd732c3a5693664e1768ebf66668d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755437"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112257"
 ---
 # <a name="removeresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>Méthode RemoveResourceSettings de la \_ classe CIM VirtualSystemManagementService
 
@@ -56,7 +56,7 @@ Si l’opération est exécutée à long terme, éventuellement [**un \_ Concret
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

@@ -1,5 +1,5 @@
 ---
-description: Représente une association entre un point d’accès de service et l’appareil logique qui l’implémente.
+description: 'Msvm_FcDeviceSAPImplementation Class : représente une association entre un point d’accès au service et l’appareil logique qui l’implémente.'
 ms.assetid: 5510c179-09e6-4762-b9b3-68ed49eafd66
 title: Classe Msvm_FcDeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: bc40f25e3b288155e713415aa512d629b538d1cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0df7a198b3ee52d131800073f8be30d51d93181
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533747"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119027"
 ---
 # <a name="msvm_fcdevicesapimplementation-class"></a>MSVM \_ FcDeviceSAPImplementation, classe
 

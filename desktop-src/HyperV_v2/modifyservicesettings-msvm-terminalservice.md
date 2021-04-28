@@ -1,5 +1,5 @@
 ---
-description: Modifie les données de paramètre pour le service.
+description: La méthode ModifyServiceSettings de la classe Msvm_TerminalService-modifie les données de paramètre pour le service.
 ms.assetid: 76669180-fa95-4d6e-b89a-53e45da664c4
 title: Méthode ModifyServiceSettings de la classe Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c2d6550d8b15264bf9cef126239228494996d080
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 930b29c5c07c755b493a0aabad88ae776c0803e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867061"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119327"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_terminalservice-class"></a>Méthode ModifyServiceSettings de la \_ classe TerminalService MSVM
 
@@ -54,7 +54,7 @@ Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne l’une des valeurs suivantes.
 

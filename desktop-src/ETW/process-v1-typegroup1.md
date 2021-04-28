@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Process_V1_TypeGroup1-cette classe est la classe de type d’événement pour les événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: b114d7fd-c308-4f21-8f1a-ab27dc93abc5
 title: Classe Process_V1_TypeGroup1
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fc2308965de5c06a25858a138d4536763613a4d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d7f4426f34a97ff79dc41806f1e0070013528d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106327"
 ---
 # <a name="process_v1_typegroup1-class"></a>Traiter \_ la \_ classe TypeGroup1 v1
 
@@ -176,7 +176,7 @@ Identificateur de sécurité (SID) du contexte de l’utilisateur sous lequel l�
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

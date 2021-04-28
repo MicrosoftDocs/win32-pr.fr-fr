@@ -1,5 +1,5 @@
 ---
-description: L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+description: 'IMpeg2PsiParser :: GetCountOfPrograms, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 282dd779-9aca-46e3-a791-cb9ea86f637d
 title: 'IMpeg2PsiParser :: GetCountOfPrograms, méthode'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e4f01b2a360465b9670b52547cff1ff4c312a705
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d6bfe698a45ea1cfe0a4bac6e65b839292bc1996
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846501"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119427"
 ---
 # <a name="impeg2psiparsergetcountofprograms-method"></a>IMpeg2PsiParser :: GetCountOfPrograms, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une variable qui reçoit le nombre de programmes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne une valeur HRESULT. Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 
@@ -55,7 +55,7 @@ La méthode retourne une valeur HRESULT. Les valeurs possibles sont, sans s’y 
 
 | Code de retour                                                                          | Description         |
 |--------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**\_OK**</dt> </dl> | Opération réussie.<br/> |
+| <dl> <dt>**\_OK**</dt> </dl> | Réussite.<br/> |
 
 
 

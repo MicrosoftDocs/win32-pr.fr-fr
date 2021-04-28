@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_DisketteDrive-demande un changement d’État.
 ms.assetid: 349081c0-65d8-470d-8d84-7c616c0f81b6
 title: Méthode RequestStateChange de la classe Msvm_DisketteDrive
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 071da8decd4dc770c38439f336279f6fe4350a4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06d61557ca765721660937592f59667f5e6b3fc9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119167"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskettedrive-class"></a>Méthode RequestStateChange de la \_ classe MSVM DisketteDrive
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

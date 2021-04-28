@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de défaut de page. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe PageFault_TypeGroup1 : cette classe est la classe de type d’événement pour les événements de défaut de page. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 59cb1091-af21-4fe6-87b8-17a262cc4467
 title: Classe PageFault_TypeGroup1
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4bf1f49c909833d75af844c8f2f943a01b6a5d6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a69e74a086ecd594d83c932beea4fd7d62724db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203611"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106407"
 ---
 # <a name="pagefault_typegroup1-class"></a>PageFault \_ TypeGroup1, classe
 
@@ -82,11 +82,11 @@ Adresse virtuelle de la page qui a provoqué l’erreur de page.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une erreur de page se produit lorsqu’une page recherchée dans le cache mémoire est introuvable et doit être récupérée à partir d’un autre emplacement en mémoire (erreur logicielle) ou à partir d’un disque (défaillance matérielle).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
