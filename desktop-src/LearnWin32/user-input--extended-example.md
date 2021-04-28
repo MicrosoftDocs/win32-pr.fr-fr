@@ -1,16 +1,7 @@
 ---
-title: Exemple d’entrée d’utilisateur étendu
-description: .
-ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: cdde7f14dda356d0f65103c77e3b73c2f0de50a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104554227"
+title : exemple d’entrée utilisateur étendue Description : entrée utilisateur : exemple étendu ms. AssetID : A408E0EC-E0A7-4F18-BFCA-21D28007FACC ms. topic : article ms. Date : 05/31/2018
 ---
+
 # <a name="user-input-extended-example"></a>Entrée utilisateur : exemple étendu
 
 Nous allons combiner tout ce que nous avons appris sur les entrées utilisateur pour créer un programme de dessin simple. Voici une capture d’écran du programme :

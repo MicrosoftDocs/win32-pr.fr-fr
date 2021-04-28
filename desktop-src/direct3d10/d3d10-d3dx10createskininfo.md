@@ -1,5 +1,5 @@
 ---
-description: Crée un objet de maillage d’apparence vide à l’aide d’un déclarateur.
+description: D3DX10CreateSkinInfo fonction-crée un objet de maillage d’apparence vide à l’aide d’un déclarateur.
 ms.assetid: 5356cfe5-de90-462d-9722-72f3618decfb
 title: D3DX10CreateSkinInfo, fonction (D3DX10Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a68da20c2e2e15e3b73d55ee1df70518bba46200
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 17d6ec99d3f43c41d56deebef81a021c81ec1d69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532470"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103597"
 ---
 # <a name="d3dx10createskininfo-function"></a>D3DX10CreateSkinInfo fonction)
 
@@ -49,13 +49,13 @@ Adresse d’un pointeur vers une [**interface ID3DX10SkinInfo**](id3dx10skininfo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être : E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez [**ID3DX10SkinInfo :: SetBoneInfluence**](id3dx10skininfo-setboneinfluence.md) pour remplir l’objet de maillage d’apparence vide retourné par cette méthode.
 

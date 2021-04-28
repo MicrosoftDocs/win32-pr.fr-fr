@@ -1,5 +1,5 @@
 ---
-description: Compilez un fichier de nuanceur.
+description: D3DXCompileShader fonction-compile un fichier de nuanceur.
 ms.assetid: 9b19ab67-d5d5-482d-b3fe-ce20b64d7ad8
 title: D3DXCompileShader, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 65dd9f74280abe7ee2fe427a4772b14b88742e97
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b1f5e5f0f30714ed001438235e124341b8ce4d35
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322869"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115857"
 ---
 # <a name="d3dxcompileshader-function"></a>D3DXCompileShader fonction)
 
@@ -144,7 +144,7 @@ Retourne une interface [**ID3DXConstantTable**](id3dxconstanttable.md) , qui peu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,5 +1,5 @@
 ---
-description: Fonction de rappel qui doit être implémentée par un utilisateur pour définir un tableau de constantes booléennes de nuanceur de sommets.
+description: 'ID3DXEffectStateManager :: SetVertexShaderConstantB, méthode-fonction de rappel qui doit être implémentée par un utilisateur pour définir un tableau de constantes booléennes de nuanceur de sommets.'
 ms.assetid: 25fd0c68-11b5-4401-a2f8-86075ba3fa54
 title: 'ID3DXEffectStateManager :: SetVertexShaderConstantB, méthode (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1eaf68f27d477aee36bd7773488f34bad29db61d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79d4972c301d7333869d68d36267186a67b37eb1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535186"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090407"
 ---
 # <a name="id3dxeffectstatemanagersetvertexshaderconstantb-method"></a>ID3DXEffectStateManager :: SetVertexShaderConstantB, méthode
 
@@ -69,7 +69,7 @@ Nombre de registres dans pConstantData.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

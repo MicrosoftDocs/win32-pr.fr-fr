@@ -1,5 +1,5 @@
 ---
-description: Initialise une table de chaînes.
+description: fonction pSetupStringTableInitializeEx-Initialise une table de chaînes.
 ms.assetid: 184df85a-6d59-42c5-8ec1-f0c046091645
 title: pSetupStringTableInitializeEx fonction)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: d40f221656da4cada610e7254b392bb2bd627a14
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78ee96e7e366fdff821e8202300ff28de0a14af3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532942"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096647"
 ---
 # <a name="psetupstringtableinitializeex-function"></a>pSetupStringTableInitializeEx fonction)
 
@@ -56,7 +56,7 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

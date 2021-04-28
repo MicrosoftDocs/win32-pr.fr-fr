@@ -1,15 +1,15 @@
 ---
 title: Cache en mode noyau
-description: .
+description: Cache en mode noyau
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9264535a58c033d66fd3fcc39988a292afc2a27f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83c409b00da03c0550899f5d26c4e6a0fa215118
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029750"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090887"
 ---
 # <a name="kernel-mode-cache"></a>Cache en mode noyau
 
@@ -33,12 +33,12 @@ Outre les restrictions sur la demande, la réponse doit également remplir les c
 
     ```
     HKEY_LOCAL_MACHINE
-       System
-          CurrentControlSet
-             Services
-                HTTP
-                   Parameters
-                      UriMaxUriBytes
+       System
+          CurrentControlSet
+             Services
+                HTTP
+                   Parameters
+                      UriMaxUriBytes
     ```
 
 -   L’intégralité de la réponse doit être fournie en un seul appel à [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse).
@@ -48,9 +48,9 @@ Outre les restrictions sur la demande, la réponse doit également remplir les c
 
 Par défaut, le cache de réponse en mode noyau est activé. Si l’une des conditions de la demande ou de la réponse répertoriées ci-dessus n’est pas remplie, la réponse est envoyée, mais elle n’est pas mise en cache. Dans l’API du serveur HTTP version 2,0, [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) comprend un paramètre *pCachePolicy* facultatif permettant de transmettre la structure de la [**\_ \_ stratégie de cache http**](/windows/desktop/api/Http/ns-http-http_cache_policy) . Les applications utilisent la structure de stratégie de cache pour configurer le cache.
 
- 
+ 
 
- 
+ 
 
 
 

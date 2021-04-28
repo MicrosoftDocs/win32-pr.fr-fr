@@ -1,17 +1,17 @@
 ---
 title: Propriété de délai d’attente du serveur
-description: .
+description: Propriété de délai d’attente du serveur
 ms.assetid: 5525c226-3786-41c4-86a2-3e077682313d
 keywords:
 - Propriété de délai d’attente du serveur HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8356c1e0d0e9eea2e5db9bf43882f26f9d7e3ddb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26fcd1376e8b7394a3a037bbbe00495466e32609
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380101"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090857"
 ---
 # <a name="server-timeouts-property"></a>Propriété de délai d’attente du serveur
 
@@ -42,11 +42,11 @@ Le tableau suivant répertorie les limites de délai d’attente de connexion pa
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
 title: Qu’est-ce qu’une fenêtre ?
-description: .
+description: Qu’est-ce qu’une fenêtre ?
 ms.assetid: eef5e139-91f9-4d8b-9153-e178d7416d7e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fcbba817e3e4c9059340d0a67c7170f4583270c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8494738e3985f78930549f313cb2868b79b34f3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381845"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103847"
 ---
 # <a name="what-is-a-window"></a>Qu’est-ce qu’une fenêtre ?
 
@@ -77,6 +77,6 @@ En fonction de votre tâche, vous pouvez mesurer les coordonnées relatives à l
 
 [WinMain : point d’entrée de l’application](winmain--the-application-entry-point.md)
 
- 
+ 
 
- 
+ 

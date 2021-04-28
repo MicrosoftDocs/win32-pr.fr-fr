@@ -1,5 +1,5 @@
 ---
-description: Calcule un Quaternion de longueur d’unité.
+description: D3DXQuaternionNormalize, fonction (D3DX10Math. h)-calcule un Quaternion de longueur unitaire.
 ms.assetid: 6735a632-64d7-4bc1-b63e-d0cd27f5a29b
 title: D3DXQuaternionNormalize, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e121ef4892c65a0f04acaa89d44d4a5a9090740e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6d031dfc63cb92d43a9cca27813c9425e2ff1acb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211872"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103137"
 ---
 # <a name="d3dxquaternionnormalize-function-d3dx10mathh"></a>D3DXQuaternionNormalize, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure D3DXQUATERNION source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION qui est la normale du Quaternion.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXQuaternionNormalize peut être utilisée comme paramètre pour une autre fonction.
 

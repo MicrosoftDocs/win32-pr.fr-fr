@@ -1,5 +1,5 @@
 ---
-description: La méthode Copy copie le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée.
+description: 'Méthode Copy de la classe CIM_LogicalFile : la méthode Copy copie le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet vers l’emplacement spécifié par le paramètre d’entrée.'
 ms.assetid: 643946e4-5d32-4839-ae1f-80ec7cede429
 ms.tgt_platform: multiple
 title: Méthode Copy de la classe CIM_LogicalFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4a69107bd173be0aa853c1541a1e1365148c2e59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 10ba9c28bde9d909d947e5a73241ce1aa8f1e956
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033700"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089727"
 ---
 # <a name="copy-method-of-the-cim_logicalfile-class"></a>Méthode Copy de la \_ classe CIM LogicalFile
 
@@ -56,7 +56,7 @@ Exemple : « c : \\ temp \\ newDirectory »
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -179,7 +179,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

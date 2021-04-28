@@ -1,5 +1,5 @@
 ---
-description: Contient l’objet d’application de l’objet.
+description: Shell. application, propriété-contient l’objet application de l’objet.
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: Shell. application, propriété (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a9f9bd7fa28d2b277adfd8038c10c97efe16f51a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a90b3953ed54b8a3652d6c9c26533d433ffb600
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868689"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083857"
 ---
 # <a name="shellapplication-property"></a>Shell. application, propriété
 
@@ -47,13 +47,13 @@ Property Application As Object
 
 Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui reçoit l’objet application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La propriété d' **application** retourne l’objet Automation pris en charge par l’application qui contient le contrôle WebBrowser, si cet objet est accessible. Sinon, cette propriété retourne l’objet Automation du contrôle WebBrowser.
 
 Utilisez cette propriété avec les commandes **Set** et **CreateObject** ou à l’aide de la commande **GetObject** pour créer et manipuler une instance de l’application Windows Internet Explorer.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

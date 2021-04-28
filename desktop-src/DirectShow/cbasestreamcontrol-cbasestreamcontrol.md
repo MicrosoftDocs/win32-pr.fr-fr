@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CBaseStreamControl. CBaseStreamControl.
 ms.assetid: c0eff80f-04d3-4919-bb27-1b76c1bd1cce
 title: Constructeur CBaseStreamControl. CBaseStreamControl (Strmctl. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d325a48476fe2a80b7424850eb71a9d667cb60e1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c6521bec65e0182b8eb48eb5d3efe9ea609c6a7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523550"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095847"
 ---
 # <a name="cbasestreamcontrolcbasestreamcontrol-constructor"></a>Constructeur CBaseStreamControl. CBaseStreamControl
 

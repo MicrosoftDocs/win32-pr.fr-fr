@@ -1,5 +1,5 @@
 ---
-description: 'La méthode EndOfStream indique au code confidentiel qu’aucune donnée supplémentaire n’est attendue. Cette méthode implémente la méthode IPin :: EndOfStream.'
+description: 'Méthode CBaseOutputPin. EndOfStream : la méthode EndOfStream indique au code confidentiel qu’aucune donnée supplémentaire n’est attendue. Cette méthode implémente la méthode IPin :: EndOfStream.'
 ms.assetid: 5c3b5f90-4194-4d65-9f1a-55edf327e3b3
 title: Méthode CBaseOutputPin. EndOfStream (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e1cd903e811dbcd000ba202fc86c0fcb41bf221b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c5f293b8026456618ad1196c491bce58cf481f07
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544359"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096147"
 ---
 # <a name="cbaseoutputpinendofstream-method"></a>Méthode CBaseOutputPin. EndOfStream
 
@@ -40,11 +40,11 @@ HRESULT EndOfStream();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne E \_ inattendu.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode doit uniquement être appelée sur les broches d’entrée, de sorte que l’implémentation de **CBaseOutputPin** retourne E \_ inattendue.
 

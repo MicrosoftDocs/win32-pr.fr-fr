@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de nombres à virgule flottante.
+description: 'ID3DXTextureShader :: SetFloatArray, méthode-définit un tableau de nombres à virgule flottante.'
 ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
 title: 'ID3DXTextureShader :: SetFloatArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5dbd39e8a4acfa004fb623d578e5922d477884fc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd42455e16cbfc203f76de868a82935e0e25401f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211787"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090247"
 ---
 # <a name="id3dxtextureshadersetfloatarray-method"></a>ID3DXTextureShader :: SetFloatArray, méthode
 
@@ -69,7 +69,7 @@ Nombre de valeurs à virgule flottante dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

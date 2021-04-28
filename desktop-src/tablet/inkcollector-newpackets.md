@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le collecteur d’encres reçoit un paquet.
+description: Événement InkCollector. NewPackets-se produit lorsque le collecteur d’encres reçoit un paquet.
 ms.assetid: 2682e7ba-dabd-497e-aea4-6d3f837f4f10
 title: Événement InkCollector. NewPackets (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b03e1a561a61c9b291bca8e59f990dc12b4e2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bab9d13dd2f33689700ef4a9aee2ed5059403e8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318101"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110117"
 ---
 # <a name="inkcollectornewpackets-event"></a>Événement InkCollector. NewPackets
 
@@ -63,11 +63,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les paquets sont reçus lorsqu’un trait est collecté. Les événements de paquets se produisent rapidement et un gestionnaire d’événements **NewPackets** doit être rapide ou subir des performances.
 

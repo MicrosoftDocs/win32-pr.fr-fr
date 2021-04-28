@@ -1,5 +1,5 @@
 ---
-description: Représente une collection d’objets de certificat.
+description: 'Destinataires, objet : représente une collection d’objets de certificat.'
 ms.assetid: 11d294b5-0a8a-4970-be10-a3b22389d96e
 title: Objet Recipients
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c68ca0217631970f35680160b71841f758b13fd7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541263"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103737"
 ---
 # <a name="recipients-object"></a>Objet Recipients
 
@@ -51,8 +51,8 @@ L’objet **Recipients** possède ces méthodes.
 | Méthode                              | Description                                                                            |
 |:------------------------------------|:---------------------------------------------------------------------------------------|
 | [**Complémentaires**](recipients-add.md)       | Ajoute un objet [**certificat**](certificate.md) à la collection.<br/>         |
-| [**Effacé**](recipients-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> |
-| [**Installez**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
+| [**Effacer**](recipients-clear.md)   | Supprime tous les objets de [**certificat**](certificate.md) de la collection.<br/> |
+| [**Supprimer**](recipients-remove.md) | Supprime un objet [**certificat**](certificate.md) de la collection.<br/>    |
 
 
 
@@ -74,7 +74,7 @@ L’objet **Recipients** possède ces propriétés.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Impossible de créer l’objet **Recipients** .
 

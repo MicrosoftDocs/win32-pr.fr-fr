@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un mouvement spécifique à l’application est reconnu.
+description: Événement InkCollector. geste-se produit lorsqu’un mouvement spécifique à l’application est reconnu.
 ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
 title: Événement InkCollector. geste (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb68add1a3fbba5781624f1df98c3a637745b95a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bfc2fea09060dbb206cd7681bcecfbedbc7a6b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514424"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110187"
 ---
 # <a name="inkcollectorgesture-event"></a>Événement InkCollector. geste
 
@@ -63,11 +63,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICEGesture.
 

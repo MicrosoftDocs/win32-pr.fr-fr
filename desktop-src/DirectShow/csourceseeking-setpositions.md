@@ -1,5 +1,5 @@
 ---
-description: 'La méthode SetPositions définit la position actuelle et la position d’arrêt. Cette méthode implémente la méthode IMediaSeeking :: SetPositions.'
+description: 'Méthode CSourceSeeking. SetPositions : la méthode SetPositions définit la position actuelle et la position d’arrêt. Cette méthode implémente la méthode IMediaSeeking :: SetPositions.'
 ms.assetid: 4359fe1f-f922-4a4d-beaa-8e13c72f407c
 title: Méthode CSourceSeeking. SetPositions (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 342ca7d85fe9358b914709b7887216b62e03521d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b09dd92b97166b8d973328ec95e466abbda116bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532875"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085167"
 ---
 # <a name="csourceseekingsetpositions-method"></a>Méthode CSourceSeeking. SetPositions
 
@@ -73,7 +73,7 @@ Combinaison d’opérations de bits d’indicateurs. Consultez la section Notes
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -81,7 +81,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                  | Description                          |
 |----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Succès<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie<br/>                   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Indicateurs non valides<br/>             |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null**<br/> |
 
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les indicateurs suivants sont pris en charge :
 

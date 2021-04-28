@@ -1,5 +1,5 @@
 ---
-description: Contient le nombre d’éléments de la collection.
+description: FolderItems. Count, propriété-contient le nombre d’éléments dans la collection.
 ms.assetid: 383382d5-7e3f-4b27-bebf-6b79dbe677b8
 title: FolderItems. Count, propriété (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 814a8248a54c5b58624a721f006bc8d4f974ba92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2bde6d938bde675c52c93f09916a70ba0e21f9a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971894"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089607"
 ---
 # <a name="folderitemscount-property"></a>FolderItems. Count (propriété)
 
@@ -141,7 +141,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

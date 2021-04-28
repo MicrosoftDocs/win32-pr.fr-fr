@@ -1,5 +1,5 @@
 ---
-description: Projette un vecteur de l’espace à l’écran dans l’espace de l’objet.
+description: D3DXVec3Unproject, fonction (D3DX10Math. h)-projette un vecteur de l’espace à l’écran dans l’espace de l’objet.
 ms.assetid: c96d732d-0594-42b4-bc54-458a313f153e
 title: D3DXVec3Unproject, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 21916392c689bcac794d44ec2c42c3e0b39abb0c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08d38691d0e780e49293149bdb7a08b1ea0ef1fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103027"
 ---
 # <a name="d3dxvec3unproject-function-d3dx10mathh"></a>D3DXVec3Unproject, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Pointeur vers une structure D3DXMATRIX représentant la matrice universelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le vecteur projeté de l’espace à l’écran jusqu’à l’espace de l’objet.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec3Unproject peut être utilisée comme paramètre pour une autre fonction.
 

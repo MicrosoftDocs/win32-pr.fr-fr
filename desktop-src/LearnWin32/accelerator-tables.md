@@ -1,15 +1,15 @@
 ---
 title: Tables d’accélérateurs
-description: .
+description: Tables d’accélérateurs
 ms.assetid: 4F2CFD7C-90D3-4C3F-9A42-05B915914EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9929445809bee71f273b6bd2334e182de59edbfa
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2951ee99a31a977e0909de5639fa3110cea10e0b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031250"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090817"
 ---
 # <a name="accelerator-tables"></a>Tables d’accélérateurs
 
@@ -48,7 +48,7 @@ La table d’accélérateurs elle-même a un identificateur numérique, qui iden
 
 
 
- 
+ 
 
 Tout d’abord, définissez des identificateurs numériques pour la table et pour les commandes de l’application. Ces valeurs sont arbitraires. Vous pouvez assigner des constantes symboliques pour les identificateurs en les définissant dans un fichier d’en-tête. Par exemple :
 
@@ -161,6 +161,6 @@ Ce code suppose que `SetMode` est une fonction définie par l’application pour
 
 [Définition de l’image de curseur](setting-the-cursor-image.md)
 
- 
+ 
 
- 
+ 

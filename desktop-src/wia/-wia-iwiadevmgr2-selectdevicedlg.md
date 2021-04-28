@@ -1,5 +1,5 @@
 ---
-description: Affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un périphérique matériel pour l’acquisition d’images.
+description: 'IWiaDevMgr2 :: SelectDeviceDlg, méthode-affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un périphérique matériel pour l’acquisition d’images.'
 ms.assetid: cd020dc6-fddf-4d7f-aa57-eae94953ef4e
 title: 'IWiaDevMgr2 :: SelectDeviceDlg, méthode (WIA. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: cb41ec8e94782ee4d7408c53e2d4e098d986fe83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60ec24f264b8fe0424f17fc32deaf803e55c3346
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091257"
 ---
 # <a name="iwiadevmgr2selectdevicedlg-method"></a>IWiaDevMgr2 :: SelectDeviceDlg, méthode
 
@@ -95,9 +95,9 @@ Affiche la boîte de dialogue même s’il n’y a qu’un seul appareil corresp
 *pbstrDeviceID* \[ in, out\]
 </dt> <dd>
 
-Type : **BSTR \** _
+Type : **BSTR \***
 
-Lors de la sortie, reçoit une chaîne qui contient la chaîne d’identificateur de l’appareil. En entrée, transmettez l’adresse d’un pointeur si ces informations sont nécessaires, ou _ *null** si ce n’est pas nécessaire.
+Lors de la sortie, reçoit une chaîne qui contient la chaîne d’identificateur de l’appareil. En entrée, transmettez l’adresse d’un pointeur si ces informations sont nécessaires, ou la **valeur null** si elle n’est pas nécessaire.
 
 </dd> <dt>
 
@@ -110,7 +110,7 @@ Reçoit l’adresse d’un pointeur vers l’interface [**IWiaItem2**](-wia-iwia
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 
@@ -128,7 +128,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode crée et affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner un appareil WIA 2,0 pour l’acquisition d’images. Si un appareil est sélectionné avec succès, la méthode **IWiaDevMgr2 :: SelectDeviceDlg** crée une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) pour l’appareil. Elle stocke un pointeur vers l’interface **IWiaItem2** de l’élément racine dans le paramètre *ppItemRoot*.
 

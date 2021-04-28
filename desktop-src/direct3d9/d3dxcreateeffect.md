@@ -1,5 +1,5 @@
 ---
-description: Créer un effet à partir d’une description d’effet ASCII ou binaire.
+description: 'Fonction D3DXCreateEffect : créez un effet à partir d’une description d’effet ASCII ou binaire.'
 ms.assetid: 1cbd91f2-3cda-4770-a3c5-b1e6702628d1
 title: D3DXCreateEffect, fonction (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3d5ac013617368ba4d702815d79aa411ea2988b3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6821375dfc672d4937c335cf85dab12ba31b726c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522359"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115777"
 ---
 # <a name="d3dxcreateeffect-function"></a>D3DXCreateEffect fonction)
 
@@ -129,7 +129,7 @@ Retourne une mémoire tampon qui contient une liste d’erreurs de compilation.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

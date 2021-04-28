@@ -1,5 +1,5 @@
 ---
-description: La méthode DeliverEndFlush demande à la broche d’entrée connectée de terminer une opération de vidage.
+description: 'Méthode CBaseOutputPin. DeliverEndFlush : la méthode DeliverEndFlush demande à la broche d’entrée connectée de terminer une opération de vidage.'
 ms.assetid: 9f1fd76c-dba7-41c5-b098-9735e4f2571b
 title: Méthode CBaseOutputPin. DeliverEndFlush (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9b92947f2452b8755109c4b83cb21afa119461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3fd5c1bc686ee5c0b4ff0cd1285a5114b93049
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528977"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096177"
 ---
 # <a name="cbaseoutputpindeliverendflush-method"></a>Méthode CBaseOutputPin. DeliverEndFlush
 
@@ -40,7 +40,7 @@ virtual HRESULT DeliverEndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>              |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>              |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Le pin n’est pas connecté.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode appelle la méthode [**IPIN :: EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) sur la broche d’entrée.
 

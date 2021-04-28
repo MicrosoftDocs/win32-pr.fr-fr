@@ -1,5 +1,5 @@
 ---
-description: Vérifiez que la version de D3DX que vous avez compilée est la version que vous exécutez.
+description: 'Fonction D3DXCheckVersion : Vérifiez que la version de D3DX avec laquelle vous avez compilé est la version que vous exécutez.'
 ms.assetid: a4e745dd-d573-4e8f-9516-f6a7475f5cc5
 title: D3DXCheckVersion, fonction (D3dx9core. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7b392d706e54780924115471906096f6b63d1a80
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 077d64a67a46080a0f7ac9194c684f6fe8470453
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106536247"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115977"
 ---
 # <a name="d3dxcheckversion-function"></a>D3DXCheckVersion fonction)
 
@@ -59,13 +59,13 @@ Utilisez la \_ version du kit de développement logiciel D3DX \_ . Consultez la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si la version de D3DX avec laquelle vous avez compilé est la version avec laquelle vous exécutez. Sinon, la **valeur false** est retournée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez cette fonction pendant l’initialisation de votre application comme suit :
 

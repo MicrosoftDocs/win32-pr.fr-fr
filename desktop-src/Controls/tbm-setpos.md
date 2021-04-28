@@ -1,6 +1,6 @@
 ---
 title: Message TBM_SETPOS (commctrl. h)
-description: Définit la position logique actuelle du curseur dans un TrackBar.
+description: 'TBM_SETPOS message : définit la position logique actuelle du curseur dans un TrackBar.'
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
 - TBM_SETPOS les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e8da6e8e231a26b216ca8f9314d59474384857
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f10e05a677119f18489d0eb9eebc4528d3ad115
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942875"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085867"
 ---
 # <a name="tbm_setpos-message"></a>\_Message TBM SetPos
 
@@ -43,7 +43,7 @@ Nouvelle position logique du curseur. Les positions logiques valides sont les va
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Pas de valeur de retour.
 

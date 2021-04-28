@@ -1,5 +1,5 @@
 ---
-description: La méthode StreamTime récupère le temps de flux actuel.
+description: 'Méthode CBaseMediaFilter. StreamTime : la méthode StreamTime récupère le temps de flux actuel.'
 ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
 title: Méthode CBaseMediaFilter. StreamTime (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27ccc9c721c97742c09d043af4cca5d287747597
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a90bb7d97825c14f11c75dd42d696fa302f8e3d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525142"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096247"
 ---
 # <a name="cbasemediafilterstreamtime-method"></a>Méthode CBaseMediaFilter. StreamTime
 
@@ -49,7 +49,7 @@ Référence à un objet [**CRefTime**](creftime.md) qui reçoit le temps de flux
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                      | Description                                 |
 |--------------------------------------------------------------------------------------------------|---------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>             | Opération réussie.<br/>                         |
+| <dl> <dt>**\_OK**</dt> </dl>             | Réussite.<br/>                         |
 | <dl> <dt>**VFW \_ E \_ pas d' \_ horloge**</dt> </dl> | Aucune horloge de référence n’est disponible.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le temps de flux est défini comme le temps de référence actuel (comme indiqué par l’horloge de référence) moins l’heure de début (spécifiée par [**CBaseMediaFilter :: m \_ tStart**](cbasemediafilter-m-tstart.md)). L’horodatage d’un exemple de média spécifie l’heure du flux de temps quand il doit être rendu. Si un échantillon dont l’horodatage est inférieur à l’heure actuelle du flux n’a pas encore été affiché, il est tardif.
 

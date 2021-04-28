@@ -1,5 +1,5 @@
 ---
-description: Utilise la compression NTFS pour compresser le fichier logique (ou le répertoire) qui est spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.
+description: 'Méthode Compress de la classe CIM_DataFile : utilise la compression NTFS pour compresser le fichier logique (ou le répertoire) qui est spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.'
 ms.assetid: fce57569-8290-420e-a938-10ab08ac67c3
 ms.tgt_platform: multiple
 title: Méthode Compress de la classe CIM_DataFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 99d9a0a346d8a9394edd9f30ff23490549f6de76
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3cc63ed3cafd676a0d865953c52a14e6247d4b70
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515146"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089777"
 ---
 # <a name="compress-method-of-the-cim_datafile-class"></a>Méthode Compress de la \_ classe de fichier de fichier CIM
 
@@ -45,7 +45,7 @@ uint32 Compress();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -54,7 +54,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode **Compress** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

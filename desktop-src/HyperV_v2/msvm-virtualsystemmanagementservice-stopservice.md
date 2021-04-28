@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_VirtualSystemManagementService : arrête le service.'
 ms.assetid: 215a9e6d-8f31-43a6-abf5-4eb72432e09f
 title: Méthode StopService de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ce9ac3e0aafa23d82c961e40b32d93c58de93aae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ca47b0133944763bff2474a6511b7981b4c1884
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750173"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109387"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode StopService de la \_ classe MSVM VirtualSystemManagementService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

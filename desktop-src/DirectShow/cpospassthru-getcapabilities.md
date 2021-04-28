@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetCapabilities récupère toutes les fonctionnalités de recherche du flux. Cette méthode implémente la méthode IMediaSeeking :: GetCapabilities.'
+description: 'Méthode CPosPassThru. GetCapabilities : la méthode GetCapabilities récupère toutes les fonctionnalités de recherche du flux. Cette méthode implémente la méthode IMediaSeeking :: GetCapabilities.'
 ms.assetid: c60c4f47-48de-47d0-9b87-589b84df842c
 title: Méthode CPosPassThru. GetCapabilities (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f896adbc1015cb34e6f9063cb5ebf73e5cdb441c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c21838d3df72d52255d0a2e35dd0b7d34ef55411
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530509"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085567"
 ---
 # <a name="cpospassthrugetcapabilities-method"></a>Méthode CPosPassThru. GetCapabilities
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit une combinaison d’opérations de bits d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

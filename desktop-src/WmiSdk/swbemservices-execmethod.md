@@ -1,5 +1,5 @@
 ---
-description: Exécute une méthode qui est exportée par un fournisseur de méthode.
+description: SWbemServices.Exeméthode cMethod-exécute une méthode exportée par un fournisseur de méthode.
 ms.assetid: 2637efdc-fde5-4a44-a41f-67e0fb0df19d
 ms.tgt_platform: multiple
 title: SWbemServices.Exeméthode cMethod (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: c95bc3b0fa85d7c682f9ffd2436439da9a05763f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 452c42c37e8dcb9f2b37b660b1f8899e587b5579
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034616"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103637"
 ---
 # <a name="swbemservicesexecmethod-method"></a>SWbemServices.Exeméthode cMethod
 
@@ -85,7 +85,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, un objet [**SWbemObject**](swbemobject.md) est retourné. L’objet retourné contient les paramètres de sortie et la valeur de retour pour la méthode en cours d’exécution.
 
@@ -137,7 +137,7 @@ L’utilisateur actuel n’a pas été autorisé à exécuter la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez **SWbemServices.ExecMethod** comme alternative à l’accès direct pour l’exécution d’une [*méthode de fournisseur*](gloss-p.md) dans les cas où il n’est pas possible d’exécuter une méthode directement. La méthode **ExecMethod** vous permet d’obtenir des paramètres de sortie, si le fournisseur les fournit, à l’aide d’un langage de script qui ne prend pas en charge les paramètres de sortie. Dans le cas contraire, les méthodes recommandées pour appeler une méthode consiste à utiliser l’accès direct. Pour plus d’informations, consultez [manipulation d’informations sur les classes et les instances](manipulating-class-and-instance-information.md).
 

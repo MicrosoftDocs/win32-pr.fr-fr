@@ -1,5 +1,5 @@
 ---
-description: Calcule un cadre englobant orienté axe de coordonnées.
+description: 'Fonction D3DXComputeBoundingBox (D3DX9Mesh. h) : calcule un cadre englobant orienté axe de coordonnées.'
 ms.assetid: 74e1b84e-1264-49eb-9172-7842af7e25e0
 title: D3DXComputeBoundingBox, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: df0376428153cfc02e499c9e26226cce81154023
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 39fdf4123781b84d87ec1c9d790eb5ffae058892
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211803"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115827"
 ---
 # <a name="d3dxcomputeboundingbox-function-d3dx9meshh"></a>D3DXComputeBoundingBox, fonction (D3DX9Mesh. h)
 
@@ -89,7 +89,7 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) , décrivant l’a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
