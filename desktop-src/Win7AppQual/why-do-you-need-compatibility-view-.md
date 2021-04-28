@@ -1,15 +1,15 @@
 ---
-description: .
+description: Pourquoi avez-vous besoin d’un affichage de compatibilité ?
 ms.assetid: 5B8D3A76-F30B-4F17-9257-0B6ED7F2D753
 title: Pourquoi avez-vous besoin d’un affichage de compatibilité ?
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74fd1902ad77af863e61be36800a8c4f9eabf227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9991e9dc0c2edcd66ae6655c094f17b240be985a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526952"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113377"
 ---
 # <a name="why-do-you-need-compatibility-view"></a>Pourquoi avez-vous besoin d’un affichage de compatibilité ?
 

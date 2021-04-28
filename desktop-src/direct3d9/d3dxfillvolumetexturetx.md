@@ -1,5 +1,5 @@
 ---
-description: Utilise une fonction de nuanceur de niveau supérieur (HLSL, shader Language) compilée pour remplir chaque Texel de chaque niveau de mipmap d’une texture.
+description: 'Fonction D3DXFillVolumeTextureTX : utilise une fonction de nuanceur de niveau supérieur (HLSL) compilée pour remplir chaque Texel de chaque niveau de mipmap d’une texture.'
 ms.assetid: f082e1d2-c433-482c-9288-58e5c558cdc5
 title: D3DXFillVolumeTextureTX, fonction (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: de310ee6171924a5d2b61071d47c421739f15833
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 30aac53aa6451885bbd4ae2cac63050b01157974
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520324"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107627"
 ---
 # <a name="d3dxfillvolumetexturetx-function"></a>D3DXFillVolumeTextureTX fonction)
 
@@ -59,13 +59,13 @@ Pointeur vers un objet de nuanceur de texture [**ID3DXTextureShader**](id3dxtext
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La cible de la texture doit être une fonction HLSL qui prend la sémantique suivante :
 

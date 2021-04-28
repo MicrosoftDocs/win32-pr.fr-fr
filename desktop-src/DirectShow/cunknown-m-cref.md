@@ -1,5 +1,5 @@
 ---
-description: Nombre de références.
+description: 'CUnknown :: m_cRef nombre de références de membre.'
 ms.assetid: be619a85-ca73-4cee-9df7-20e7be21853b
 title: 'CUnknown :: m_cRef, membre (ComBase. h)'
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 94ff5d88ca48feeb46a8b0411a55d6261aefcf6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3f6be7d09149f651bce8d1042b7f3e3a5dc9307
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537830"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084577"
 ---
 # <a name="cunknownm_cref-member"></a>CUnknown :: m, \_ membre CREF
 
@@ -36,7 +36,7 @@ LONG m_cRef;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez cette variable membre si vous substituez la méthode [**NonDelegatingAddRef**](cunknown-nondelegatingaddref.md) ou [**NonDelegatingRelease**](cunknown-nondelegatingrelease.md) .
 

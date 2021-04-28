@@ -1,5 +1,5 @@
 ---
-description: Écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès au service.
+description: Méthode SetSecurityDescriptor de la classe Win32_Service (fournisseurs WMI CIMWin32)-écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès au service.
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
 ms.tgt_platform: multiple
 title: Méthode SetSecurityDescriptor de la classe Win32_Service (fournisseurs WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 82c08f9c560a1d8e419d9a8f6474f8ea9db4e541
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 20619a459171841d0a3bd5b7acabe984dc835dac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514131"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100003"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Méthode SetSecurityDescriptor de la classe Win32_Service (fournisseurs WMI CIMWin32)
 
@@ -47,7 +47,7 @@ Descripteur de sécurité associé au service.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeur différente pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -238,14 +238,14 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> <dt>
 
-**Autres**
+**Autre**
 </dt> <dd>
 
 22 4294967295
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L' [**instance \_ Win32 SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) représente un type de données de [**\_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) et contient une liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) et une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). Pour plus d’informations, consultez [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 

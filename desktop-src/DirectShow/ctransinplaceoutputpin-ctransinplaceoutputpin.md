@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CTransInPlaceOutputPin. CTransInPlaceOutputPin.
 ms.assetid: fe7b2d62-0e6a-4253-b469-6cede5dc9bb1
 title: Constructeur CTransInPlaceOutputPin. CTransInPlaceOutputPin (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c2c9ca668d3780ece082f9cab55db8406af7ad3b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6b63ee3aa52bc0363bcab90275be4148659b3bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525405"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094707"
 ---
 # <a name="ctransinplaceoutputpinctransinplaceoutputpin-constructor"></a>Constructeur CTransInPlaceOutputPin. CTransInPlaceOutputPin
 
@@ -73,7 +73,7 @@ Chaîne de caractères larges contenant le nom du code confidentiel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre *pname* spécifie le nom du code confidentiel, qui est retourné par la méthode [**IPIN :: QueryPinInfo**](/windows/desktop/api/Strmif/nf-strmif-ipin-querypininfo) . Toutefois, la chaîne n’est pas utilisée pour l’identificateur de code confidentiel. L’identificateur de code confidentiel pour cette classe est toujours « out ». Pour plus d’informations, consultez [**QueryId**](ctransforminputpin-queryid.md).
 

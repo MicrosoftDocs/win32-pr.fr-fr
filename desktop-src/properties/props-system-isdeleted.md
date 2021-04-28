@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. IsDeleted
 ms.assetid: 55103a8c-3e3c-4615-8a08-d7aba1a7c692
 title: System. IsDeleted
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6c962bdec0f8062504b09017408b61d32f2974a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b7b510c71f5bcfa259ac38709fa05f6e2a59272
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951381"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086997"
 ---
 # <a name="systemisdeleted"></a>System. IsDeleted
 
@@ -44,7 +44,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

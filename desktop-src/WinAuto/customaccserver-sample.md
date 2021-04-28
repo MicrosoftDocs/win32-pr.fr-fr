@@ -1,15 +1,15 @@
 ---
 title: Exemple CustomAccServer
-description: .
+description: Exemple CustomAccServer
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c047bde41bdf4a486e14ce6f293113a41ae9e285
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 9f7f8ee7d82361177af07aa7ad53a6137c39bc38
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381605"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088007"
 ---
 # <a name="customaccserver-sample"></a>Exemple CustomAccServer
 
@@ -38,7 +38,7 @@ L’exemple CustomAccServer est installé dans le cadre du [Kit de développemen
 
 
 
- 
+ 
 
 ## <a name="minimum-requirements"></a>Configuration minimale requise
 
@@ -52,7 +52,7 @@ L’exemple CustomAccServer est installé dans le cadre du [Kit de développemen
 
 
 
- 
+ 
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
@@ -81,9 +81,9 @@ Pour exécuter à partir de Visual Studio, appuyez sur F5 ou cliquez sur **Déma
 [Exemples](samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

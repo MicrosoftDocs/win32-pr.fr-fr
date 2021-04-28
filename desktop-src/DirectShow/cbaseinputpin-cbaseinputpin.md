@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CBaseInputPin. CBaseInputPin.
 ms.assetid: a853813d-cdf6-4cb4-8288-62685a883b56
 title: Constructeur CBaseInputPin. CBaseInputPin (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 554c768f2cb99fda77aa87cfc916580b948da0ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 95a6dca29a9bdcaf978a54587035b34959d81719
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540632"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120047"
 ---
 # <a name="cbaseinputpincbaseinputpin-constructor"></a>Constructeur CBaseInputPin. CBaseInputPin
 
@@ -81,7 +81,7 @@ Chaîne de caractères larges contenant le nom du code confidentiel (également 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Tous les paramètres sont passés directement au constructeur [**CBasePin**](cbasepin-cbasepin.md) .
 

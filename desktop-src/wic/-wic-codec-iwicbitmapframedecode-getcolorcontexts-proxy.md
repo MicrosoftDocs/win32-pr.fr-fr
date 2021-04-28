@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode GetColorContexts.
+description: IWICBitmapFrameDecode_GetColorContexts_Proxy fonction de proxy de fonction pour la méthode GetColorContexts.
 ms.assetid: 1925a64e-558d-4931-a3c3-b35d2b92a292
 title: IWICBitmapFrameDecode_GetColorContexts_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 8e22166e98e4ef276a6bf1d72dfc860cf8fb511e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99fb6caa9b9e654be0adc1235cad0e79a7fa1ef3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201384"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100577"
 ---
 # <a name="iwicbitmapframedecode_getcolorcontexts_proxy-function"></a>\_ \_ Fonction proxy GetColorContexts IWICBitmapFrameDecode
 
@@ -46,9 +46,9 @@ HRESULT IWICBitmapFrameDecode_GetColorContexts_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+Type : **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-Pointeur vers cet objet [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
+Pointeur vers cet objet [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
 
 </dd> <dt>
 
@@ -75,15 +75,15 @@ Pointeur qui reçoit un pointeur vers les objets [**IWICColorContext**](/windows
 *pcActualCount* \[ à\]
 </dt> <dd>
 
-Type : **uint \** _
+Type : **uint \***
 
 Pointeur qui reçoit le nombre de contextes de couleur contenus dans le frame d’image.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

@@ -1,5 +1,5 @@
 ---
-description: Génère une matrice de projection orthographique de gauche.
+description: 'D3DXMatrixOrthoLH, fonction (D3dx9math. h) : génère une matrice de projection orthographique de gauche.'
 ms.assetid: e42151bd-2302-491b-a211-7d5a4b8e437f
 title: D3DXMatrixOrthoLH, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4aaf4a1a770ba0200a6afe389d37e248b9f4c7de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5492a6caba87025d83562c0327ac0e1f5a76f269
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323146"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107497"
 ---
 # <a name="d3dxmatrixortholh-function-d3dx9mathh"></a>D3DXMatrixOrthoLH, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Valeur z maximale du volume de la vue, appelée z-Far.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers le [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md)résultant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Tous les paramètres de la fonction **D3DXMatrixOrthoLH** sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 

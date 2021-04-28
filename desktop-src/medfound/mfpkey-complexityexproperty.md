@@ -1,15 +1,15 @@
 ---
-description: Spécifie la complexité de l’algorithme d’encodeur.
+description: 'Propriété MFPKEY_COMPLEXITYEX : spécifie la complexité de l’algorithme de l’encodeur.'
 ms.assetid: abfc84d5-954f-4524-b3cb-5c5b9cfc7fa0
 title: MFPKEY_COMPLEXITYEX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34b935f41ce14a77a135d0bbc8ad6dec2933b570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20579bcf7a06dc11f47cbef6a53629f3a36b48dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087607"
 ---
 # <a name="mfpkey_complexityex-property"></a>MFPKEY \_ propriété COMPLEXITYEX
 
@@ -53,7 +53,7 @@ Les valeurs possibles dépendent de la version de l’encodeur vidéo, comme ind
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Des valeurs inférieures obligent le codec à utiliser des algorithmes d’encodage moins compliqués. Bien que les algorithmes plus simples produisent une sortie de qualité inférieure, le processus d’encodage est plus rapide et nécessite moins de puissance de traitement. Cela peut être important lorsque vous encodez du contenu à partir d’une source Live, car l’encodeur doit traiter les entrées suffisamment rapidement pour suivre la source.
 

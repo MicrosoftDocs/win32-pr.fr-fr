@@ -1,5 +1,5 @@
 ---
-description: La méthode GetIDsOfNames mappe un ensemble de noms à un ensemble correspondant de DISPID.
+description: CBaseDispatch. GetIDsOfNames, méthode-la méthode GetIDsOfNames mappe un ensemble de noms à un ensemble correspondant de DISPID.
 ms.assetid: 0c0a2726-e89a-4eaf-aab0-e7e9e82e3c34
 title: CBaseDispatch. GetIDsOfNames, méthode (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cf11e4aa298f924b69c299c2f411dde88e28e5b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f3b718c95d588ffdc7fa63902e6b26ffbf11fd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520805"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099917"
 ---
 # <a name="cbasedispatchgetidsofnames-method"></a>CBaseDispatch. GetIDsOfNames, méthode
 
@@ -81,7 +81,7 @@ Pointeur vers un tableau qui reçoit les DISPID. Chaque élément de reçoit un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                         | Description                                         |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                | Opération réussie.<br/>                                 |
+| <dl> <dt>**\_OK**</dt> </dl>                | Réussite.<br/>                                 |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>       | Mémoire insuffisante.<br/>                     |
 | <dl> <dt>**\_UNKNOWNNAME DISP \_**</dt> </dl> | Un ou plusieurs noms sont inconnus.<br/> |
 
@@ -97,7 +97,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode se comporte comme la méthode **IDispatch :: GetIDsOfNames** , mais le paramètre *riid* spécifie l’interface sur laquelle récupérer les DISPID. (Dans la version **IDispatch** , le paramètre *riid* est réservé.)
 

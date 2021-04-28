@@ -1,15 +1,15 @@
 ---
-description: Spécifie si le flux d’entrée est entrelacé.
+description: MFPKEY_RESIZE_INTERLACE propriété-spécifie si le flux d’entrée est entrelacé.
 ms.assetid: 01ee0766-06ed-4255-9057-2fe033a772cd
 title: MFPKEY_RESIZE_INTERLACE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a27504bd6da92bc48fee04afc999568a514fdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45d0efe93901a08322a05dbed2515f76b04a214b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525001"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092877"
 ---
 # <a name="mfpkey_resize_interlace-property"></a>\_Propriété entrelacé de REdimensionnement MFPKEY \_
 
@@ -27,7 +27,7 @@ VT \_ bool
 
 -   [Dimensionnement vidéo DSP](videoresizer.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez l’une des valeurs suivantes :
 

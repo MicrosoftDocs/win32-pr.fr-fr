@@ -1,15 +1,15 @@
 ---
-description: .
+description: Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente
 ms.assetid: 49bdfdfa-c77e-4a57-8079-bf4ff6b5010b
 title: Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffcc566c4c4ea461fdd9c4634b26ff69f239f03e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f7b7b00cfce68a183d7925f7cfab5ff7ab54b9b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952206"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088157"
 ---
 # <a name="microsoft-message-queuing-msmq---improved-queue-handling"></a>Microsoft Message Queuing (MSMQ)-amélioration de la gestion des files d’attente
 

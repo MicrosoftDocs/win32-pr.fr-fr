@@ -1,5 +1,5 @@
 ---
-description: Mettre à l’échelle la matrice actuelle sur l’origine de l’objet.
+description: 'ID3DXMATRIXStack :: ScaleLocal, méthode (D3DX10. h)-mettez à l’échelle la matrice actuelle à propos de l’origine de l’objet.'
 ms.assetid: 748fce3a-a33c-4975-bbf0-dd3167a036f1
 title: 'ID3DXMATRIXStack :: ScaleLocal, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 868aae418ebedbc54cb8f15ba4fa4e11d47c7f50
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3961db0794703e3974dbd92d8eae8293173c2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870193"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107777"
 ---
 # <a name="id3dxmatrixstackscalelocal-method-d3dx10h"></a>ID3DXMATRIXStack :: ScaleLocal, méthode (D3DX10. h)
 
@@ -69,13 +69,13 @@ Composant de mise à l’échelle dans l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode multiplie la matrice actuelle par la matrice de mise à l’échelle calculée. La transformation concerne l’origine locale de l’objet.
 

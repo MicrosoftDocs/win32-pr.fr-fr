@@ -1,5 +1,5 @@
 ---
-description: La méthode Alloc alloue de la mémoire pour les mémoires tampons.
+description: 'Méthode CBaseAllocator. Alloc : la méthode Alloc alloue de la mémoire pour les mémoires tampons.'
 ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
 title: CBaseAllocator. Alloc, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b7510a108e69eb218a894b67dd5b62d94bfdbe6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b53dc461a520b4e8c890a36fca6d73c2c836499f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542218"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096366"
 ---
 # <a name="cbaseallocatoralloc-method"></a>CBaseAllocator. Alloc, méthode
 
@@ -40,7 +40,7 @@ virtual HRESULT Alloc();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -56,7 +56,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est appelée par la méthode [**CBaseAllocator :: Commit**](cbaseallocator-commit.md) .
 

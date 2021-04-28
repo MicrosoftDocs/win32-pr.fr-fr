@@ -1,5 +1,5 @@
 ---
-description: La méthode GetMediaType récupère un type de média par défaut pour la broche de sortie.
+description: 'Méthode CTransInPlaceFilter. GetMediaType : la méthode GetMediaType récupère un type de média préféré pour la broche de sortie.'
 ms.assetid: 1bc6c06d-f399-4b8a-81f2-7fffe4630236
 title: Méthode CTransInPlaceFilter. GetMediaType (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d2347e0466a7df848e0f0b2bccec325eedfefc8f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8678f9b18e40f529da282909015a7c75695770ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528056"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094807"
 ---
 # <a name="ctransinplacefiltergetmediatype-method"></a>Méthode CTransInPlaceFilter. GetMediaType
 
@@ -57,11 +57,11 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne E \_ inattendu.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CTransformFilter :: GetMediaType**](ctransformfilter-getmediatype.md) . Dans la classe **CTransInPlaceFilter** , chaque pin appelle le code PIN connecté opposé pour énumérer les types de média préférés. La broche d’entrée appelle la broche d’entrée du filtre en aval, et la broche de sortie appelle la broche de sortie du filtre en amont. Par conséquent, la méthode du filtre `GetMediaType` n’est jamais appelée.
 

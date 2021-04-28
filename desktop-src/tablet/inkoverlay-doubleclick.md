@@ -1,15 +1,15 @@
 ---
-description: Se produit lors d’un double-clic sur l’objet InkCollector ou InkOverlay.
+description: L’événement InkOverlay. DoubleClick se produit lors d’un double-clic sur l’objet InkCollector ou InkOverlay.
 ms.assetid: 76ea40d4-82cf-420a-a9eb-66cb0492b43b
 title: Événement InkOverlay. DoubleClick (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4baddc89e309b7d64ba2294827b58956b3e6c47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c358a6c44ccda9be9dc4d0dd1d3e81e4a983ce9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209928"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086827"
 ---
 # <a name="inkoverlaydoubleclick-event"></a>InkOverlay. DoubleClick, événement
 
@@ -37,11 +37,11 @@ Indique si l’événement doit être annulé pour le contrôle parent.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ IPEDblClick.
 

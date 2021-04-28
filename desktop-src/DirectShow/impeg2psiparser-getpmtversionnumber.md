@@ -1,5 +1,5 @@
 ---
-description: L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+description: 'IMpeg2PsiParser :: GetPmtVersionNumber, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 50113d6b-4e10-4dc9-aaef-f67c6918a2de
 title: 'IMpeg2PsiParser :: GetPmtVersionNumber, méthode'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3af4b20067af52216181848f4cc63ac5a7784ba9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6f4fd8d0eba88ba1df54a1cc058bc0a2951b9a19
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515738"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084557"
 ---
 # <a name="impeg2psiparsergetpmtversionnumber-method"></a>IMpeg2PsiParser :: GetPmtVersionNumber, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers une variable qui reçoit le champ du numéro de version \_ .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 
@@ -63,13 +63,13 @@ La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s
 
 | Code de retour                                                                          | Description         |
 |--------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**\_OK**</dt> </dl> | Opération réussie.<br/> |
+| <dl> <dt>**\_OK**</dt> </dl> | Réussite.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez la méthode **GetRecordProgramNumber** pour obtenir le numéro du programme.
 

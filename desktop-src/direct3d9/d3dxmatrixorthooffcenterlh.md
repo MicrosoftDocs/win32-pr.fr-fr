@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de projection orthographique personnalisée de gauche.
+description: 'D3DXMatrixOrthoOffCenterLH, fonction (D3dx9math. h) : génère une matrice de projection orthographique personnalisée de gauche.'
 ms.assetid: e4f087e5-63d9-49ca-9d8e-3a25070e1a51
 title: D3DXMatrixOrthoOffCenterLH, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1e286197233b2abb2b19138b8fc9d154df355a6a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 704bdab1d486399b28117cd078f556beb1347f7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953942"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107487"
 ---
 # <a name="d3dxmatrixorthooffcenterlh-function-d3dx9mathh"></a>D3DXMatrixOrthoOffCenterLH, fonction (D3dx9math. h)
 
@@ -109,13 +109,13 @@ Valeur z maximale du volume de la vue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers le [**D3DXMATRIX**](../direct3d10/d3d10-d3dxmatrix.md)résultant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction [**D3DXMatrixOrthoLH**](d3dxmatrixortholh.md) est un cas particulier de la fonction **D3DXMatrixOrthoOffCenterLH** . Pour créer la même projection à l’aide de **D3DXMatrixOrthoOffCenterLH**, utilisez les valeurs suivantes : l =-w/2, r = w/2, b =-h/2 et t = h/2.
 

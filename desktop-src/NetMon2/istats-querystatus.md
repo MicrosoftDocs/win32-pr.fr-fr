@@ -1,5 +1,5 @@
 ---
-description: La méthode QueryStatus récupère l’état du NPP.
+description: 'IStats :: QueryStatus, méthode-la méthode QueryStatus récupère l’état du NPP.'
 ms.assetid: 86b1c1ee-3a35-4603-9e93-fe09f886c32f
 title: 'IStats :: QueryStatus, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 02e013d87734b61ad26b6563c402db1b8d4cb4f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7587c2fff56d305c0298948bdf8690fd801f3f3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760839"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113477"
 ---
 # <a name="istatsquerystatus-method"></a>IStats :: QueryStatus, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [NETWORKSTATUS](networkstatus.md) retournée qui ind
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -63,7 +63,7 @@ Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut être appelée à tout moment après l’appel de la méthode [CreateNPPInterface](createnppinterface.md) . Il peut être appelé pour déterminer si le NPP est connecté au réseau, pour déterminer l’état de la capture en cours et pour déterminer si des déclencheurs sont en attente. Toutefois, avant d’appeler cette méthode, vous devez allouer la mémoire nécessaire à la structure [NETWORKSTATUS](networkstatus.md) et libérer cette mémoire lorsque la structure n’est plus nécessaire.
 

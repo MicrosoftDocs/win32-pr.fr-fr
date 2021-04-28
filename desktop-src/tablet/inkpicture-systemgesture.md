@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un mouvement système est reconnu.
+description: InkPicture.Sysévénement temGesture-se produit lorsqu’un mouvement système est reconnu.
 ms.assetid: 36e2ac5a-dc91-47c2-a8e5-e555437c0a5d
 title: InkPicture.Sysévénement temGesture (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 918198e4d18a854bb4238ce9d878dc70ab1f2f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cde11b73b6b0d3861a79538a7f9ee19487b6384
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538945"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113687"
 ---
 # <a name="inkpicturesystemgesture-event"></a>InkPicture.Sysévénement temGesture
 
@@ -85,11 +85,11 @@ Valeur qui indique si l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les gestes système fournissent des informations sur l’objet [**IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkcursor) utilisé pour créer le mouvement. Ils fournissent également des raccourcis vers des combinaisons d’événements de souris et sont des moyens de détecter les événements de souris avec moins d’impact sur les performances.
 

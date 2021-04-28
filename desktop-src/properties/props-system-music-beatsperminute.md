@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. BeatsPerMinute
 ms.assetid: ebf92204-d615-4bcc-a181-f98a9396abf5
 title: System. Music. BeatsPerMinute
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74aaeb19e6b1be110fc58312db1f7fe7061071ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb4a6a4d79fe7aacf0e0a8296f6a91274003ab77
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531917"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100857"
 ---
 # <a name="systemmusicbeatsperminute"></a>System. Music. BeatsPerMinute
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

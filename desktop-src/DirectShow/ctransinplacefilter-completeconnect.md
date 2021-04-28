@@ -1,5 +1,5 @@
 ---
-description: La méthode CompleteConnect termine une connexion de code confidentiel.
+description: 'Méthode CTransInPlaceFilter. CompleteConnect : la méthode CompleteConnect termine une connexion de code confidentiel.'
 ms.assetid: 0c02c455-dbd0-4606-b1b1-f965c2a5805b
 title: Méthode CTransInPlaceFilter. CompleteConnect (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4fdc9d1d5567cda2e4b0fd4a351136405493ef61
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9cc0bc839a4e35c4ce896acdf50da10f0c2bb0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541749"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084787"
 ---
 # <a name="ctransinplacefiltercompleteconnect-method"></a>Méthode CTransInPlaceFilter. CompleteConnect
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne un **HRESULT**. Les valeurs possibles sont les suivantes :
 
@@ -65,14 +65,14 @@ Retourne un **HRESULT**. Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                                     |
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                             |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                             |
 | <dl> <dt>**VFW \_ E \_ pas \_ dans le \_ graphique**</dt> </dl> | Le filtre n’est pas dans un graphique de filtre.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CTransformFilter :: CompleteConnect**](ctransformfilter-completeconnect.md) .
 
