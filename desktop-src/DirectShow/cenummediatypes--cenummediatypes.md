@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CEnumMediaTypes. ~ CEnumMediaTypes, destructeur, méthode de destructeur.
 ms.assetid: 7da81391-aaac-4cc7-9e64-856e1d13b61d
 title: CEnumMediaTypes. ~ CEnumMediaTypes, destructeur (Amfilter. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e1725a338c88706e7f8a5f80cdcc5712f6f15d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de761e740f6cb75c635cfd463e3d7d4ba22b7612
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099237"
 ---
-# <a name="cenummediatypescenummediatypes-destructor"></a><span data-ttu-id="0dafa-103">CEnumMediaTypes. ~ CEnumMediaTypes, destructeur</span><span class="sxs-lookup"><span data-stu-id="0dafa-103">CEnumMediaTypes.~CEnumMediaTypes destructor</span></span>
+# <a name="cenummediatypescenummediatypes-destructor"></a><span data-ttu-id="55e08-103">CEnumMediaTypes. ~ CEnumMediaTypes, destructeur</span><span class="sxs-lookup"><span data-stu-id="55e08-103">CEnumMediaTypes.~CEnumMediaTypes destructor</span></span>
 
-<span data-ttu-id="0dafa-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="0dafa-104">Destructor method.</span></span>
+<span data-ttu-id="55e08-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="55e08-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0dafa-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="0dafa-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="55e08-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="55e08-105">Syntax</span></span>
 
 
 ```C++
@@ -36,22 +36,22 @@ virtual ~CEnumMediaTypes();
 
 
 
-## <a name="requirements"></a><span data-ttu-id="0dafa-106">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="0dafa-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="55e08-106">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="55e08-106">Requirements</span></span>
 
 
 
-| <span data-ttu-id="0dafa-107">Condition requise</span><span class="sxs-lookup"><span data-stu-id="0dafa-107">Requirement</span></span> | <span data-ttu-id="0dafa-108">Valeur</span><span class="sxs-lookup"><span data-stu-id="0dafa-108">Value</span></span> |
+| <span data-ttu-id="55e08-107">Condition requise</span><span class="sxs-lookup"><span data-stu-id="55e08-107">Requirement</span></span> | <span data-ttu-id="55e08-108">Valeur</span><span class="sxs-lookup"><span data-stu-id="55e08-108">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="0dafa-109">En-tête</span><span class="sxs-lookup"><span data-stu-id="0dafa-109">Header</span></span><br/>  | <dl> <span data-ttu-id="0dafa-110"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="0dafa-110"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
-| <span data-ttu-id="0dafa-111">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="0dafa-111">Library</span></span><br/> | <dl> <span data-ttu-id="0dafa-112"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="0dafa-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="55e08-109">En-tête</span><span class="sxs-lookup"><span data-stu-id="55e08-109">Header</span></span><br/>  | <dl> <span data-ttu-id="55e08-110"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="55e08-110"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
+| <span data-ttu-id="55e08-111">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="55e08-111">Library</span></span><br/> | <dl> <span data-ttu-id="55e08-112"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="55e08-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="0dafa-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="0dafa-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="55e08-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="55e08-113">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="0dafa-114">**CEnumMediaTypes, classe**</span><span class="sxs-lookup"><span data-stu-id="0dafa-114">**CEnumMediaTypes Class**</span></span>](cenummediatypes.md)
+[<span data-ttu-id="55e08-114">**CEnumMediaTypes, classe**</span><span class="sxs-lookup"><span data-stu-id="55e08-114">**CEnumMediaTypes Class**</span></span>](cenummediatypes.md)
 </dt> </dl>
 
  

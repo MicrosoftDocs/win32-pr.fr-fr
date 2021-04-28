@@ -1,19 +1,19 @@
 ---
-description: .
+description: System. contact. DisplayBusinessPhoneNumbers
 ms.assetid: e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae
 title: System. contact. DisplayBusinessPhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a33ce1be99d22ecfc91f64a45cc4075ecbefb03c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c9e5490c0d555aa59a4ac22ec346c7b799035ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528285"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102437"
 ---
-# <a name="systemcontactdisplaybusinessphonenumbers"></a><span data-ttu-id="25fa9-103">System. contact. DisplayBusinessPhoneNumbers</span><span class="sxs-lookup"><span data-stu-id="25fa9-103">System.Contact.DisplayBusinessPhoneNumbers</span></span>
+# <a name="systemcontactdisplaybusinessphonenumbers"></a><span data-ttu-id="cefc0-103">System. contact. DisplayBusinessPhoneNumbers</span><span class="sxs-lookup"><span data-stu-id="cefc0-103">System.Contact.DisplayBusinessPhoneNumbers</span></span>
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="25fa9-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="25fa9-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81"></a><span data-ttu-id="cefc0-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="cefc0-104">Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1</span></span>
 
 ```
 propertyDescription
@@ -28,54 +28,54 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a><span data-ttu-id="25fa9-105">Notes</span><span class="sxs-lookup"><span data-stu-id="25fa9-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cefc0-105">Notes </span><span class="sxs-lookup"><span data-stu-id="cefc0-105">Remarks</span></span>
 
-<span data-ttu-id="25fa9-106">Les valeurs de la valeur de l’une sont définies dans propKey. h.</span><span class="sxs-lookup"><span data-stu-id="25fa9-106">PKEY values are defined in Propkey.h.</span></span>
+<span data-ttu-id="cefc0-106">Les valeurs de la valeur de l’une sont définies dans propKey. h.</span><span class="sxs-lookup"><span data-stu-id="cefc0-106">PKEY values are defined in Propkey.h.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="25fa9-107">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="25fa9-107">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="cefc0-107">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="cefc0-107">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="25fa9-108">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="25fa9-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
+[<span data-ttu-id="cefc0-108">propertyDescription</span><span class="sxs-lookup"><span data-stu-id="cefc0-108">propertyDescription</span></span>](./propdesc-schema-propertydescription.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-109">searchInfo</span><span class="sxs-lookup"><span data-stu-id="25fa9-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
+[<span data-ttu-id="cefc0-109">searchInfo</span><span class="sxs-lookup"><span data-stu-id="cefc0-109">searchInfo</span></span>](./propdesc-schema-searchinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-110">labelInfo</span><span class="sxs-lookup"><span data-stu-id="25fa9-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
+[<span data-ttu-id="cefc0-110">labelInfo</span><span class="sxs-lookup"><span data-stu-id="cefc0-110">labelInfo</span></span>](./propdesc-schema-labelinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="25fa9-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
+[<span data-ttu-id="cefc0-111">typeInfo</span><span class="sxs-lookup"><span data-stu-id="cefc0-111">typeInfo</span></span>](./propdesc-schema-typeinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="25fa9-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
+[<span data-ttu-id="cefc0-112">displayInfo</span><span class="sxs-lookup"><span data-stu-id="cefc0-112">displayInfo</span></span>](./propdesc-schema-displayinfo.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="25fa9-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
+[<span data-ttu-id="cefc0-113">stringFormat</span><span class="sxs-lookup"><span data-stu-id="cefc0-113">stringFormat</span></span>](./propdesc-schema-stringformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-114">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="25fa9-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
+[<span data-ttu-id="cefc0-114">booleanFormat</span><span class="sxs-lookup"><span data-stu-id="cefc0-114">booleanFormat</span></span>](./propdesc-schema-booleanformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="25fa9-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
+[<span data-ttu-id="cefc0-115">numberFormat</span><span class="sxs-lookup"><span data-stu-id="cefc0-115">numberFormat</span></span>](./propdesc-schema-numberformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="25fa9-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
+[<span data-ttu-id="cefc0-116">dateTimeFormat</span><span class="sxs-lookup"><span data-stu-id="cefc0-116">dateTimeFormat</span></span>](./propdesc-schema-datetimeformat.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-117">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="25fa9-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
+[<span data-ttu-id="cefc0-117">enumeratedList</span><span class="sxs-lookup"><span data-stu-id="cefc0-117">enumeratedList</span></span>](./propdesc-schema-enumeratedlist.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-118">drawControl</span><span class="sxs-lookup"><span data-stu-id="25fa9-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
+[<span data-ttu-id="cefc0-118">drawControl</span><span class="sxs-lookup"><span data-stu-id="cefc0-118">drawControl</span></span>](./propdesc-schema-drawcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-119">editControl</span><span class="sxs-lookup"><span data-stu-id="25fa9-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
+[<span data-ttu-id="cefc0-119">editControl</span><span class="sxs-lookup"><span data-stu-id="cefc0-119">editControl</span></span>](./propdesc-schema-editcontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-120">filterControl</span><span class="sxs-lookup"><span data-stu-id="25fa9-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
+[<span data-ttu-id="cefc0-120">filterControl</span><span class="sxs-lookup"><span data-stu-id="cefc0-120">filterControl</span></span>](./propdesc-schema-filtercontrol.md)
 </dt> <dt>
 
-[<span data-ttu-id="25fa9-121">queryControl</span><span class="sxs-lookup"><span data-stu-id="25fa9-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
+[<span data-ttu-id="cefc0-121">queryControl</span><span class="sxs-lookup"><span data-stu-id="cefc0-121">queryControl</span></span>](./propdesc-schema-querycontrol.md)
 </dt> </dl>
 
  
