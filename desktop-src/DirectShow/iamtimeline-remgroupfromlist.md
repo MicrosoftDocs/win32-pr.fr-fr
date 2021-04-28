@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IAMTimeline :: RemGroupFromList, méthode non prise en charge.'
 ms.assetid: 9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22
 title: 'IAMTimeline :: RemGroupFromList, méthode (qedit. h)'
 ms.topic: reference
@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 58f7cd07f193a238f4195a5e4ed17e1ede3b548e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9fcb2a73f32ab1c1f401a4508c63e53cc58ebcfb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545914"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098687"
 ---
 # <a name="iamtimelineremgroupfromlist-method"></a>IAMTimeline :: RemGroupFromList, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

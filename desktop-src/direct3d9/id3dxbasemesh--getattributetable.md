@@ -1,5 +1,5 @@
 ---
-description: Récupère une table d’attributs pour un maillage ou le nombre d’entrées stockées dans une table d’attributs pour une maille.
+description: 'ID3DXBaseMesh :: GetAttributeTable, méthode-récupère soit une table d’attributs pour un maillage, soit le nombre d’entrées stockées dans une table d’attributs pour une maille.'
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
 title: 'ID3DXBaseMesh :: GetAttributeTable, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 70c93c8f477655200418793f53706731b42a47ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f5d27de884f72b46db900487e26f1099bf30949
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523200"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115447"
 ---
 # <a name="id3dxbasemeshgetattributetable-method"></a>ID3DXBaseMesh :: GetAttributeTable, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers le nombre d’entrées stockées dans pAttribTable ou une valeur �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une table d’attributs est créée par [**ID3DXMesh :: Optimize**](id3dxmesh--optimize.md) et en passant D3DXMESHOPT \_ ATTRSORT pour le paramètre flags.
 

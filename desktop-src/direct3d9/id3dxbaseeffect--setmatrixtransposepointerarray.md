@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de pointeurs vers des matrices transposées.
+description: 'ID3DXBaseEffect :: SetMatrixTransposePointerArray, méthode-définit un tableau de pointeurs vers des matrices transposées.'
 ms.assetid: 11a21077-eeee-4d52-ac16-41444e3eca4f
 title: 'ID3DXBaseEffect :: SetMatrixTransposePointerArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1152deccdcadebe9f421fac6d7d5ce53c8d3e5f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f35afad1120a26a60f670d12410584b2f9db7f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535199"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107387"
 ---
 # <a name="id3dxbaseeffectsetmatrixtransposepointerarray-method"></a>ID3DXBaseEffect :: SetMatrixTransposePointerArray, méthode
 
@@ -69,13 +69,13 @@ Nombre de matrices dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une matrice transposée contient des données de colonne principales ; autrement dit, chaque vecteur est contenu dans une colonne.
 

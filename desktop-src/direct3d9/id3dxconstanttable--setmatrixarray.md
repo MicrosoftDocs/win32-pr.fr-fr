@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de matrices nontransposed.
+description: 'ID3DXConstantTable :: SetMatrixArray, méthode-définit un tableau de matrices nontransposed.'
 ms.assetid: f36b8e8a-c22f-41e6-acb1-6298291b002f
 title: 'ID3DXConstantTable :: SetMatrixArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 48dd85975ac58dd26d4194584ce5fbebe26da2a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 02e115cf4526ab065d2613636427059826f450f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522964"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115097"
 ---
 # <a name="id3dxconstanttablesetmatrixarray-method"></a>ID3DXConstantTable :: SetMatrixArray, méthode
 
@@ -79,7 +79,7 @@ Nombre de matrices dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. Webpage2
 ms.assetid: d9b39661-5dcf-479f-94c7-6b1ddc00464b
 title: System. contact. Webpage2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c69824e2b2ef2b325b3f68b065c502d9db32ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 252b0a7e443c721d18ddfdca25bf0d1213d7fdd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203691"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101197"
 ---
 # <a name="systemcontactwebpage2"></a>System. contact. Webpage2
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

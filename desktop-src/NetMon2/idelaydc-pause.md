@@ -1,5 +1,5 @@
 ---
-description: La méthode pause interrompt la capture en cours.
+description: IDelaydC ::P méthode ause-la méthode pause interrompt la capture en cours.
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: IDelaydC ::P méthode ause (NetMon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d44ae7792388d9ca637232b45e63d618a37acb6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861994"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098497"
 ---
 # <a name="idelaydcpause-method"></a>IDelaydC ::P méthode ause
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas ajoutées au [*fichier de capture*](c.md) actuel tant que la méthode **IDelaydC :: Resume** n’est pas appelée pour redémarrer la capture. Lorsque l' **interruption** et la **reprise** sont utilisées pour arrêter et redémarrer la capture, toutes les informations capturées sont placées dans le même fichier de capture.
 

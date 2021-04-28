@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetDuration récupère la durée du flux. Cette méthode implémente la méthode IMediaSeeking :: GetDuration.'
+description: 'Méthode CPosPassThru. GetDuration : la méthode GetDuration récupère la durée du flux. Cette méthode implémente la méthode IMediaSeeking :: GetDuration.'
 ms.assetid: 0552e7bb-4d7e-40a8-a8ad-89ae6fff8ccb
 title: Méthode CPosPassThru. GetDuration (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b9b533537c36ac7ec4c76289307368539482aa47
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0b0af7bfaca405ed52a4e3c5a63c18b4bc087ba3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085577"
 ---
 # <a name="cpospassthrugetduration-method"></a>Méthode CPosPassThru. GetDuration
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit la durée, en unités du format d’heure
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

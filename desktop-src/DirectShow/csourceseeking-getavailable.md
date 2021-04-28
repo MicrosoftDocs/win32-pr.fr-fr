@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetAvailable récupère la plage de temps pendant laquelle la recherche est efficace. Cette méthode implémente la méthode IMediaSeeking :: GetAvailable.'
+description: 'Méthode CSourceSeeking. GetAvailable : la méthode GetAvailable récupère la plage de temps pendant laquelle la recherche est efficace. Cette méthode implémente la méthode IMediaSeeking :: GetAvailable.'
 ms.assetid: 2a7b6cdb-47c3-4aeb-89ff-ea968c6a809b
 title: Méthode CSourceSeeking. GetAvailable (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bc661d81c49798b6fe06dc569b680e5f9839e5a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f24bc667eec4f5b21c90415e4721aa8cf0a0ad4c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540319"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085237"
 ---
 # <a name="csourceseekinggetavailable-method"></a>Méthode CSourceSeeking. GetAvailable
 
@@ -57,7 +57,7 @@ Pointeur vers une variable qui reçoit l’heure la plus récente pour une reche
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 

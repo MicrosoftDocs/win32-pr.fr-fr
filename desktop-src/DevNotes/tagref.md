@@ -1,15 +1,15 @@
 ---
-description: Contient l’index d’une entrée et ses informations sur les BALISes dans une base de données de shims.
+description: 'TAGREF : contient l’index d’une entrée et ses informations de BALIse dans une base de données de shims.'
 ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: TAGREF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8631811f101850b68bdbad1097c19b9a41737bd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27a60847630e7bbd8e07ccf005dfd7b474d7a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523151"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096627"
 ---
 # <a name="tagref"></a>TAGREF
 
@@ -22,7 +22,7 @@ typedef DWORD TAGREF;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un **TAGREF** est spécifique à une base de données de shims et valide sur plusieurs bases de données. Il peut s’agir d’une valeur entière qui représente l’index ou de l’une des valeurs suivantes :
 

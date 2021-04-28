@@ -1,5 +1,5 @@
 ---
-description: Transforme le vecteur 3D normal par la matrice donnée.
+description: D3DXVec3TransformNormal, fonction (D3dx9math. h)-transforme le vecteur 3D normal par la matrice donnée.
 ms.assetid: aa9531e1-b77a-4aad-8d59-2677908cb978
 title: D3DXVec3TransformNormal, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8dd0bf3fa2083d2cf0cc0cea72343f4774a586f5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 50fb09a4619be9c3dbcff98bc939d6f99ad33bd4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211909"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115617"
 ---
 # <a name="d3dxvec3transformnormal-function-d3dx9mathh"></a>D3DXVec3TransformNormal, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers la structure [**D3DXMATRIX**](d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le vecteur transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction transforme le vecteur (*PV*->x, *PV*->y, *PV*->z, 0) par la matrice vers laquelle pointe *PM*.
 

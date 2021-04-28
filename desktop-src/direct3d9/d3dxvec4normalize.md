@@ -1,5 +1,5 @@
 ---
-description: Retourne la version normalisée d’un vecteur 4D.
+description: 'D3DXVec4Normalize, fonction (D3dx9math. h) : retourne la version normalisée d’un vecteur 4D.'
 ms.assetid: e12d5dc7-b26f-41dd-b89d-1df9ba23077a
 title: D3DXVec4Normalize, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 38d97f337711375d1d414eb78fb317672bc7c5cb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78984c393d7caf259b4c310a31e01ed8fcbd4d47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097657"
 ---
 # <a name="d3dxvec4normalize-function-d3dx9mathh"></a>D3DXVec4Normalize, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXVECTOR4**](d3dxvector4.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est la version normalisée du vecteur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Normalize** peut être utilisée comme paramètre pour une autre fonction.
 

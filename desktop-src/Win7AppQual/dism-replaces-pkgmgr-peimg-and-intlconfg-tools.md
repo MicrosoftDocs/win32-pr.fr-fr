@@ -1,15 +1,15 @@
 ---
-description: .
+description: Gestion et maintenance des images de déploiement (DISM, Deployment Image Servicing and Management)
 ms.assetid: bbfee966-121b-4b53-9e3e-08a747559da0
 title: Gestion et maintenance des images de déploiement (DISM, Deployment Image Servicing and Management)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 734ac9fae497eeb61d706a228fc1ffc6ea4da264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 234d16233927dca2d5dba296fd33fb64135f691e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541239"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088487"
 ---
 # <a name="deployment-image-servicing-and-management-dism"></a>Gestion et maintenance des images de déploiement (DISM, Deployment Image Servicing and Management)
 

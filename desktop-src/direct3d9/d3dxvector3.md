@@ -1,5 +1,5 @@
 ---
-description: Décrit un vecteur à trois composants incluant des surcharges d’opérateur et des casts de type.
+description: D3DXVECTOR3 structure (D3dx9math. h)-décrit un vecteur à trois composants incluant des surcharges d’opérateur et des casts de type.
 ms.assetid: 4d73de4b-82fe-452a-8a1e-17208f172a03
 title: D3DXVECTOR3, structure (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 2c49902677999c78737e7dec094c839cd8941f08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 29d6743f0c0c365911ebbbba66cb4d44f10792e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043196"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097577"
 ---
 # <a name="d3dxvector3-structure-d3dx9mathh"></a>D3DXVECTOR3, structure (D3dx9math. h)
 
@@ -74,7 +74,7 @@ Composant z.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 ### <a name="d3dxvector3-extensions"></a>Extensions D3DXVECTOR3
 

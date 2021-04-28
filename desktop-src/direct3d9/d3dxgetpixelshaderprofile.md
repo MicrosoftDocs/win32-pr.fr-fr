@@ -1,5 +1,5 @@
 ---
-description: Retourne le nom du profil HLSL (High-Level Shader Language) le plus élevé pris en charge par un appareil donné.
+description: D3DXGetPixelShaderProfile fonction-retourne le nom du profil HLSL (High-Level Shader Language) le plus élevé pris en charge par un appareil donné.
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: D3DXGetPixelShaderProfile, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ad1f430a95b1ff2173dceb1e0561dccf3d0ee88d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d24e19d49a8a96f91847892f519ef6c06d25ef5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114436"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>D3DXGetPixelShaderProfile fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers l’appareil. Consultez [**IDirect3DDevice9**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **LPCSTR**](../winprog/windows-data-types.md)**
 
@@ -57,7 +57,7 @@ Nom du profil HLSL.
 
 Si l’appareil ne prend pas en charge les nuanceurs de pixels, la fonction retourne la **valeur null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un profil de nuanceur spécifie la version du nuanceur d’assembly à utiliser et les fonctionnalités disponibles pour le compilateur HLSL lors de la compilation d’un nuanceur. Le tableau suivant répertorie les profils de nuanceur de pixels pris en charge.
 

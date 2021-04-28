@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. Writer
 ms.assetid: a9ef9c5b-dc7b-4d1a-b47f-093d4f37bba4
 title: System. Media. Writer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e319d61e5184f15f0bf34042aaa7ab05eaffee9f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1fd8f8bc092a67fcbb95abb947495a7c29bc9cf8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106538257"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114087"
 ---
 # <a name="systemmediawriter"></a>System. Media. Writer
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

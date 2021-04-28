@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de transformation. Les arguments NULL sont traités comme des transformations d’identité.
+description: 'D3DXMatrixTransformation, fonction (D3dx9math. h) : génère une matrice de transformation. Les arguments NULL sont traités comme des transformations d’identité.'
 ms.assetid: 39042fc6-f489-4e44-ad3f-858ca395575d
 title: D3DXMatrixTransformation, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f2174329e01e3e624ef27608ca56b33181b770db
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dc3b6502a8015564207f208166cec15227d3b18a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043082"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098127"
 ---
 # <a name="d3dxmatrixtransformation-function-d3dx9mathh"></a>D3DXMatrixTransformation, fonction (D3dx9math. h)
 
@@ -109,13 +109,13 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) représentant la t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est la matrice de transformation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction calcule la matrice de transformation avec la formule suivante, avec la concaténation de matrice évaluée dans l’ordre de gauche à droite :
 

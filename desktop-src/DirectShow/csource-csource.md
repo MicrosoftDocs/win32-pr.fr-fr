@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CSource. CSource.
 ms.assetid: 94a92c1e-9768-4293-8290-a2b1938cd196
 title: Constructeur CSource. CSource (source. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 992775659d5f9838ef63b15c5395998f1faf6200
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fab398f3f4e3fdd8c23ce1e1c08f5c130478dfb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540163"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085357"
 ---
 # <a name="csourcecsource-constructor"></a>Constructeur CSource. CSource
 

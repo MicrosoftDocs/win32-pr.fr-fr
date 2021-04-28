@@ -1,5 +1,5 @@
 ---
-description: Transforme un vecteur 2D par une matrice donnée, en reprojetant le résultat dans w = 1.
+description: D3DXVec2TransformCoord, fonction (D3DX10Math. h)-transforme un vecteur 2D en une matrice donnée, en reprojetant le résultat dans w = 1.
 ms.assetid: bb24204f-0c8e-4dc5-bcae-12e3033d1a39
 title: D3DXVec2TransformCoord, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0d7e93c2b3a78160f2f1f1ad3342575b4369a057
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95321d377ad5af29075764e2c2d9386abf5b1441
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531562"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108337"
 ---
 # <a name="d3dxvec2transformcoord-function-d3dx10mathh"></a>D3DXVec2TransformCoord, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers la structure [**D3DXMATRIX**](d3d10-d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointeur vers une structure D3DXVECTOR2 qui est le vecteur transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction transforme le vecteur, pV (x, y, 0, 1), par la matrice, pM, en projetant le résultat dans w = 1.
 

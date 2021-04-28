@@ -1,5 +1,5 @@
 ---
-description: La méthode GetTotalStatistics récupère les statistiques totales pour la capture en cours.
+description: 'IStats :: GetTotalStatistics, méthode : la méthode GetTotalStatistics récupère les statistiques totales pour la capture actuelle.'
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: 'IStats :: GetTotalStatistics, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 51cdbfdcc796aa7d8091e8da5837809efaa63379
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523320"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098407"
 ---
 # <a name="istatsgettotalstatistics-method"></a>IStats :: GetTotalStatistics, méthode
 
@@ -55,7 +55,7 @@ Indicateur utilisé pour indiquer Moniteur réseau comment gérer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -73,7 +73,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode retourne les données uniquement lorsqu’une capture est en cours, y compris pendant la suspension de la capture.
 

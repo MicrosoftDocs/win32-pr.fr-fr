@@ -1,16 +1,7 @@
 ---
-description: .
-ms.assetid: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0
-title: 'Annexe 2 : scénarios de script de test'
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 46c7e75cc74f4c7b365cd7be35263ce3720139af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532293"
+Description : annexe 2 : tester les scénarios de script ms. AssetID : BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0 title : 'annexe 2 : scénarios de script de test’ms. topic : article ms. Date : 05/31/2018
 ---
+
 # <a name="appendix-2-test-script-scenarios"></a>Annexe 2 : scénarios de script de test
 
 
@@ -33,7 +24,7 @@ ms.locfileid: "106532293"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -42,9 +33,9 @@ ms.locfileid: "106532293"
 [Problèmes de compatibilité des applications lors de la migration vers Internet Explorer 8](addressing-application-compatibility-when-migrating-to-internet-explorer-8.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

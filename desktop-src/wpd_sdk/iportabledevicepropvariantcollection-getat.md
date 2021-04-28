@@ -1,5 +1,5 @@
 ---
-description: La méthode GetAt récupère un élément de la collection à l’aide d’un index de base zéro.
+description: 'IPortableDevicePropVariantCollection :: GetAt, méthode-la méthode GetAt récupère un élément de la collection à l’aide d’un index de base zéro.'
 ms.assetid: c7119ba6-e6fc-4cb6-a8ab-3bf7b6bfe850
 title: 'IPortableDevicePropVariantCollection :: GetAt, méthode (PortableDeviceTypes. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 0833c69b537fa230320ef69707a6f4302a8ca1ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b901e8fcfa065813e4c0942632f80901800ef0a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526005"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106797"
 ---
 # <a name="iportabledevicepropvariantcollectiongetat-method"></a>IPortableDevicePropVariantCollection :: GetAt, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers une structure **PROPVARIANT** . L’appelant est chargé de libér
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 

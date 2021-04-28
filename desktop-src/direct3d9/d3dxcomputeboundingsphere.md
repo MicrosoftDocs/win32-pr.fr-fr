@@ -1,5 +1,5 @@
 ---
-description: Calcule une sphère englobante pour la maille.
+description: 'Fonction D3DXComputeBoundingSphere (D3DX9Mesh. h) : calcule une sphère englobante pour la maille.'
 ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
 title: D3DXComputeBoundingSphere, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c9e6a0c9fb67abe8a98ccf8b3f9b895fd63fc3e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dbfccb13dfe15b06de98ddba114cdc62c5f4ec05
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535183"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115817"
 ---
 # <a name="d3dxcomputeboundingsphere-function-d3dx9meshh"></a>D3DXComputeBoundingSphere, fonction (D3DX9Mesh. h)
 
@@ -89,7 +89,7 @@ Rayon de la sphère englobante retournée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

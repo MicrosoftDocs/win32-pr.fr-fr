@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.
+description: 'Méthode CTransInPlaceOutputPin. CheckMediaType : la méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.'
 ms.assetid: be720021-ef7b-4281-a9f4-93abbdafc75d
 title: Méthode CTransInPlaceOutputPin. CheckMediaType (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b0a422851bc7e09075076decc39d57b85d1052ab
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 66cd29758e0b2d63db88db8b998cc79ec12efdd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532980"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094717"
 ---
 # <a name="ctransinplaceoutputpincheckmediatype-method"></a>Méthode CTransInPlaceOutputPin. CheckMediaType
 
@@ -49,7 +49,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                                | Description                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                       | Opération réussie.<br/>                 |
+| <dl> <dt>**\_OK**</dt> </dl>                       | Réussite.<br/>                 |
 | <dl> <dt>**TYPE de VFW \_ E \_ \_ non \_ accepté**</dt> </dl> | Type de média non accepté.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CTransformOutputPin :: CheckMediaType**](ctransformoutputpin-checkmediatype.md) .
 

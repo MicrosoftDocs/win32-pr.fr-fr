@@ -1,5 +1,5 @@
 ---
-description: Transforme un plan par une matrice. La matrice d’entrée est la permutation inverse de la transformation réelle.
+description: D3DXPlaneTransform, fonction (D3dx9math. h)-transforme un plan par une matrice. La matrice d’entrée est la permutation inverse de la transformation réelle.
 ms.assetid: 3581b397-cbd8-4aed-80dd-1841f331a367
 title: D3DXPlaneTransform, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fd82478d9fb1f08bb0320a8c84357efcdf20be26
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1f1f6ffc45098ba8f8b689e6f6212e5bec4fd679
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531311"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098017"
 ---
 # <a name="d3dxplanetransform-function-d3dx9mathh"></a>D3DXPlaneTransform, fonction (D3dx9math. h)
 
@@ -69,7 +69,7 @@ Pointeur vers la structure source [**D3DXMATRIX**](d3dxmatrix.md) , qui contient
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 

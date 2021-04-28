@@ -1,5 +1,5 @@
 ---
-description: Transforme un tableau (x, y, z, 1) en une matrice donnée et projette le résultat dans w = 1.
+description: D3DXVec3TransformCoordArray, fonction (D3dx9math. h)-transforme un tableau (x, y, z, 1) en une matrice donnée et projette le résultat dans w = 1.
 ms.assetid: f1595861-d8cb-4787-8078-b9ba6f76507e
 title: D3DXVec3TransformCoordArray, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 414fd17c3d7077b4aeb399b734b4a6c811a8a291
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c373705307b2529b3d05609fc4b6ffb47d3abcc2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103954006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097747"
 ---
 # <a name="d3dxvec3transformcoordarray-function-d3dx9mathh"></a>D3DXVec3TransformCoordArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction transforme le tableau *(* x, y, z, 1) par la matrice *PM*, en reprojetant le résultat dans w = 1.
 

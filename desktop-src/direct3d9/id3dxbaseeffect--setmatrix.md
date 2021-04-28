@@ -1,5 +1,5 @@
 ---
-description: Définit une matrice non transposée.
+description: 'ID3DXBaseEffect :: SetMatrix, méthode-définit une matrice non transposée.'
 ms.assetid: 90329460-756e-4b3e-9ff3-be9dc556eb9f
 title: 'ID3DXBaseEffect :: SetMatrix, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 39a5aed1d6321cf0599d212222fd967ee512e20e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7af7dc0daa3dcd29e7b15c4fe435b9626ea41746
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104530849"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097497"
 ---
 # <a name="id3dxbaseeffectsetmatrix-method"></a>ID3DXBaseEffect :: SetMatrix, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers une matrice nontransposed. Consultez [**D3DXMATRIX**](d3dxmatrix.m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une matrice non transposée contient des données de lignes principales. En d’autres termes, chaque vecteur est contenu dans une ligne.
 

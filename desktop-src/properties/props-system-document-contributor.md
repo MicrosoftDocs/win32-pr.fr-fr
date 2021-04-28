@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Document. Contribution
 ms.assetid: 424cd8c0-b8f9-45a6-95f6-7d5644a05666
 title: System.Document. Contribution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be755b30edc970b8a89a1a0742d7db29774f0117
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfd623290ee3b7683846bb6f99032bd5e6d12b45
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034825"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101107"
 ---
 # <a name="systemdocumentcontributor"></a>System.Document. Contribution
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,5 +1,5 @@
 ---
-description: Obtient la table de constantes de nuanceur incorporée à l’intérieur d’un nuanceur.
+description: 'Fonction D3DXGetShaderConstantTable : obtient la table de constantes de nuanceur incorporée à l’intérieur d’un nuanceur.'
 ms.assetid: eb965074-819f-44d2-889b-6c6eada4f062
 title: D3DXGetShaderConstantTable, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 876802023601c14b4cceed0ef0e2db431d7339e0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b397901578a1e6ce6fecc01ed25c99d4681d1c40
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542160"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114417"
 ---
 # <a name="d3dxgetshaderconstanttable-function"></a>D3DXGetShaderConstantTable fonction)
 
@@ -59,13 +59,13 @@ Retourne l’interface de table constante (consultez [**ID3DXConstantTable**](id
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une table constante est générée par [**D3DXCompileShader**](d3dxcompileshader.md) et incorporée dans le corps du nuanceur. Si vous avez besoin d’un espace d’adressage virtuel supplémentaire, consultez [**D3DXGetShaderConstantTableEx**](d3dxgetshaderconstanttableex.md).
 

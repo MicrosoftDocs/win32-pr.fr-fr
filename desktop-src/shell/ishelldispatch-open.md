@@ -1,5 +1,5 @@
 ---
-description: Ouvre le dossier spécifié.
+description: 'Méthode IShellDispatch. Open : ouvre le dossier spécifié.'
 ms.assetid: 30FE669A-4AFD-4dfa-9F62-E62E744469C7
 title: IShellDispatch. Open, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d794020313ad776c1d538dc2acb909d562d32f15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b5301e030926b9bcfdc18949b6a04706c22bb71
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753085"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086627"
 ---
 # <a name="ishelldispatchopen-method"></a>IShellDispatch. Open, méthode
 
@@ -60,7 +60,7 @@ Si *vdir* est défini sur l’un des [**ShellSpecialFolderConstants**](/windows/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -70,7 +70,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Open**](shell-open.md) .
 
@@ -129,7 +129,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

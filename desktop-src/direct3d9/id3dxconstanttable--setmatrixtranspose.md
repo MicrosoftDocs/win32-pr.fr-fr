@@ -1,5 +1,5 @@
 ---
-description: Définit une matrice transposée.
+description: 'ID3DXConstantTable :: SetMatrixTranspose, méthode-définit une matrice transposée.'
 ms.assetid: 1c4d64ce-64bd-47d4-9912-879f4834c0e8
 title: 'ID3DXConstantTable :: SetMatrixTranspose, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: aa84f9e483be0c6c2ddae37c52ef6df2c43fda90
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 06cc989a14da6f2fe84d30f7f5d7d9fc35acd3bc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527734"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115057"
 ---
 # <a name="id3dxconstanttablesetmatrixtranspose-method"></a>ID3DXConstantTable :: SetMatrixTranspose, méthode
 
@@ -69,7 +69,7 @@ Pointeur désignant une matrice transposée. Consultez [**D3DXMATRIX**](d3dxmatr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

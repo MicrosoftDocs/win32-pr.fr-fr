@@ -1,5 +1,5 @@
 ---
-description: La méthode pause interrompt le filtre. Cette méthode implémente la méthode IMediaFilter ::P ause.
+description: 'CTransformFilter. pause, méthode : la méthode pause interrompt le filtre. Cette méthode implémente la méthode IMediaFilter ::P ause.'
 ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
 title: CTransformFilter. pause, méthode (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5408b9a39f92fd68eacb83474a18da0acda6b961
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 903522b63754ff7972e4cdcf5221946442497896
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525580"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095097"
 ---
 # <a name="ctransformfilterpause-method"></a>CTransformFilter. pause, méthode
 
@@ -40,11 +40,11 @@ HRESULT Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode appelle la méthode [**StartStreaming**](ctransformfilter-startstreaming.md) . La méthode **StartStreaming** n’a aucun effet dans la classe de base, mais la classe dérivée peut la substituer.
 

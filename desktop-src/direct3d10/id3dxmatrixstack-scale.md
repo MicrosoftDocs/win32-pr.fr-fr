@@ -1,5 +1,5 @@
 ---
-description: Mettre à l’échelle la matrice actuelle sur l’origine de la coordonnée universelle.
+description: 'ID3DXMATRIXStack :: Scale, méthode (D3DX10. h)-mettre à l’échelle la matrice actuelle à propos de l’origine de la coordonnée universelle.'
 ms.assetid: d0f4b341-b3b6-42e4-84df-78f203c3728e
 title: 'ID3DXMATRIXStack :: Scale, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 361c1fcbdc3f793bcf3e21d569eee740ca0b4ee2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a7b4aceb53659fc2b1a4a95f964d068e6d7d2554
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527959"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107787"
 ---
 # <a name="id3dxmatrixstackscale-method-d3dx10h"></a>ID3DXMATRIXStack :: Scale, méthode (D3DX10. h)
 
@@ -69,13 +69,13 @@ Composant de mise à l’échelle dans l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode multiplie la matrice actuelle par la matrice de mise à l’échelle calculée. La transformation concerne l’origine du monde actuel.
 

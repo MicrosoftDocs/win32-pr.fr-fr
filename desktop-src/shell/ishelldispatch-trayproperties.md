@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue Propriétés de la barre des tâches et du menu Démarrer. Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez Propriétés.
+description: 'Méthode IShellDispatch. TrayProperties : affiche la boîte de dialogue Propriétés de la barre des tâches et du menu Démarrer. Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez Propriétés.'
 ms.assetid: 8E0AC08E-1132-4312-9B75-E7686B91AB02
 title: Méthode IShellDispatch. TrayProperties (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5f5e22dd48b77035aab3754a4c8e3d2c414ec606
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 424d25d7555090e4244d5cd22084171ca2a4fea9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951376"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086617"
 ---
 # <a name="ishelldispatchtrayproperties-method"></a>Méthode IShellDispatch. TrayProperties
 
@@ -45,7 +45,7 @@ IShellDispatch.TrayProperties()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. TrayProperties**](shell-trayproperties.md) .
 
@@ -113,7 +113,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Permet à l’objet de rappel de spécifier une chaîne de texte d’aide.
+description: 'DFM_GETHELPTEXT message : permet à l’objet de rappel de spécifier une chaîne de texte d’aide.'
 title: Message DFM_GETHELPTEXT (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,12 +14,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b9aefb1c3a12ff00294ccc536464794a17fccfc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2428fe6696ff5949a0b25487437c8f3408b95f65
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525365"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097067"
 ---
 # <a name="dfm_gethelptext-message"></a>\_Message DFM GETHELPTEXT
 
@@ -56,13 +56,13 @@ Chaîne ANSI se terminant par un caractère null qui contient le texte d’aide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Ce message est envoyé à la fonction de rappel ou à l’objet de rappel, en fonction de la façon dont l’objet de menu contextuel par défaut est construit. Il existe deux API pour sa construction, [**CDefFolderMenu \_ Create2**](/windows/desktop/api/shlobj_core/nf-shlobj_core-cdeffoldermenu_create2), [**SHCreateDefaultContextMenu**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shcreatedefaultcontextmenu).
 
 [**DFM \_ INVOKECOMMANDEX**](dfm-invokecommandex.md) est une version étendue de ce message et fournit plus d’informations sur le rappel. Utilisez **DFM \_ INVOKECOMMANDEX** si les informations supplémentaires fournies par cette interface sont nécessaires dans votre implémentation de.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

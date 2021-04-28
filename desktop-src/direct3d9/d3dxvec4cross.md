@@ -1,5 +1,5 @@
 ---
-description: Détermine le produit croisé en quatre dimensions.
+description: 'Fonction D3DXVec4Cross (D3dx9math. h) : détermine le produit croisé en quatre dimensions.'
 ms.assetid: 10b965c9-7ed7-450c-86a0-114f068c888f
 title: D3DXVec4Cross, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91e6e5662bff503ba96d96f135f98e60cf15c8fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e3630a486f6c8fcd456373445bd931d878fdc38e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211800"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097687"
 ---
 # <a name="d3dxvec4cross-function-d3dx9mathh"></a>D3DXVec4Cross, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le produit croisé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Cross** peut être utilisée comme paramètre pour une autre fonction.
 

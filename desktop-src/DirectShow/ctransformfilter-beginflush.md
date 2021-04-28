@@ -1,5 +1,5 @@
 ---
-description: La méthode BeginFlush commence une opération de vidage.
+description: 'Méthode CTransformFilter. BeginFlush : la méthode BeginFlush commence une opération de vidage.'
 ms.assetid: 15bea993-f862-4791-b784-0d0468c6c05c
 title: Méthode CTransformFilter. BeginFlush (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bd9a4bf1543f4899d4c879e9d1a9d9cf1035b765
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bd7735726d7e7d21bc16e8a811947b954ffaac4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520832"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085157"
 ---
 # <a name="ctransformfilterbeginflush-method"></a>Méthode CTransformFilter. BeginFlush
 
@@ -40,11 +40,11 @@ virtual HRESULT BeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Au démarrage d’une opération de vidage, la méthode [**CTransformInputPin :: BeginFlush**](ctransforminputpin-beginflush.md) de la broche d’entrée appelle cette méthode. Cette méthode passe l' `BeginFlush` appel en aval.
 

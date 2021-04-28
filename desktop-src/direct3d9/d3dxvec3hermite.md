@@ -1,5 +1,5 @@
 ---
-description: Effectue une interpolation spline Hermite à l’aide des vecteurs 3D spécifiés.
+description: Fonction D3DXVec3Hermite (D3dx9math. h)-effectue une interpolation spline Hermite à l’aide des vecteurs 3D spécifiés.
 ms.assetid: d45b1179-0e11-4f58-8d50-432236cb88ca
 title: D3DXVec3Hermite, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2b5609215d0ab56e9d91979d01f996981b2ffcbd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fd45851108d3700446a2b7f27aa00a4cc61ca39b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532471"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097867"
 ---
 # <a name="d3dxvec3hermite-function-d3dx9mathh"></a>D3DXVec3Hermite, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le résultat de l’interpolation spline Hermite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction **D3DXVec3Hermite** interpole de (positiona, tangenta) à (PositionB, tangentB) à l’aide de l’interpolation spline Hermite.
 

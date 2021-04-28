@@ -1,5 +1,5 @@
 ---
-description: Ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.
+description: 'Méthode IShellDispatch. explore : ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.'
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 title: IShellDispatch. explore, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1ae29b4962dcac1be0b7ea23808e36ce005cb62c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e693985cf7d8d83bd5a00595c42cd4427b0ebd5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972430"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100557"
 ---
 # <a name="ishelldispatchexplore-method"></a>IShellDispatch. explore, méthode
 
@@ -58,7 +58,7 @@ Dossier à afficher. Il peut s’agir d’une chaîne qui spécifie le chemin d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -68,7 +68,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. explore**](shell-explore.md) .
 
@@ -128,7 +128,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

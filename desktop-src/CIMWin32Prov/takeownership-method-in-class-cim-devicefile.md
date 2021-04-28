@@ -1,5 +1,5 @@
 ---
-description: La méthode TakeOwnerShip obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
+description: Méthode TakeOwnerShip de la classe CIM_DeviceFile-la méthode TakeOwnerShip obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
 ms.assetid: ef7d5ce7-99fb-464f-9739-ec9189148f94
 ms.tgt_platform: multiple
 title: Méthode TakeOwnerShip de la classe CIM_DeviceFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d700940f3ee00cd4d65b8307c48ac7cc3ed28a2c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e7c745df18e1725199c4027d22882a00f6143a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482888"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086047"
 ---
 # <a name="takeownership-method-of-the-cim_devicefile-class"></a>Méthode TakeOwnerShip de la \_ classe CIM DeviceFile
 
@@ -45,7 +45,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -54,7 +54,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
