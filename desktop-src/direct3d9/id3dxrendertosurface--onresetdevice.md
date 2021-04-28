@@ -1,5 +1,5 @@
 ---
-description: Utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.
+description: 'ID3DXRenderToSurface :: OnResetDevice, méthode : utilisez cette méthode pour acquérir à nouveau des ressources et enregistrer l’état initial.'
 ms.assetid: a326a465-ee90-466d-8e46-22e082e9533c
 title: 'ID3DXRenderToSurface :: OnResetDevice, méthode (D3dx9core. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 09d8e3d2c7b628d36fee12525e9423059a7bd63a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 17af145a236d2b3a51d271c6687d78d81a387363
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322853"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107187"
 ---
 # <a name="id3dxrendertosurfaceonresetdevice-method"></a>ID3DXRenderToSurface :: OnResetDevice, méthode
 
@@ -38,13 +38,13 @@ HRESULT OnResetDevice();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 ID3DXRenderToSurface :: OnResetDevice doit être appelé chaque fois que l’appareil est réinitialisé (à l’aide de [**IDirect3DDevice9 :: Reset**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)), avant d’appeler d’autres méthodes. Il s’agit d’un bon emplacement pour acquérir à nouveau des ressources de mémoire vidéo et capturer des blocs d’État.
 

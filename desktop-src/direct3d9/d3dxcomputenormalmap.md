@@ -1,5 +1,5 @@
 ---
-description: Convertit une carte de hauteur en une carte normale. Les composants (x, y, z) de chaque normal sont mappés aux canaux (r, g, b) de la texture de sortie.
+description: 'Fonction D3DXComputeNormalMap : convertit une carte de hauteur en une carte normale. Les composants (x, y, z) de chaque normal sont mappés aux canaux (r, g, b) de la texture de sortie.'
 ms.assetid: ed9053c0-b1df-4f74-bdee-627c0f60d942
 title: D3DXComputeNormalMap, fonction (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6e22418f5a023dbe70fee8ea0fba8a449abbcc8d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 920ad763f478a2e6bcb9fbe98cc7e2a677ebe783
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538535"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105227"
 ---
 # <a name="d3dxcomputenormalmap-function"></a>D3DXComputeNormalMap fonction)
 
@@ -99,13 +99,13 @@ Multiplicateur de valeur constante qui augmente (ou diminue) les valeurs dans la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la valeur suivante : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode calcule le normal à l’aide de la différence centrale avec une taille de noyau de 3 x 3. Le dénominateur de différenciation central utilisé est 2,0. Les canaux RVB dans la destination contiennent des composants (x, y, z) biaisés de la normale.
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode DecideBufferSize définit les exigences de mémoire tampon de la broche de sortie.
+description: 'Méthode CTransInPlaceFilter. DecideBufferSize : la méthode DecideBufferSize définit les exigences de mémoire tampon de la broche de sortie.'
 ms.assetid: f1ddc39e-dcd5-4a44-8a8e-e384692408e1
 title: Méthode CTransInPlaceFilter. DecideBufferSize (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 55227510eee3c1afdcd14ed390edf21eccfcf1de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b3ffb3ec7b1ef59c6e7f3d49e39fbe69e8cc1c08
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535923"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094827"
 ---
 # <a name="ctransinplacefilterdecidebuffersize-method"></a>Méthode CTransInPlaceFilter. DecideBufferSize
 
@@ -57,7 +57,7 @@ Pointeur vers les propriétés d’allocateur demandées pour le nombre, la tail
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,14 +65,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                            | Description        |
 |----------------------------------------------------------------------------------------|--------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Succès<br/> |
+| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie<br/> |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Échec<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est appelée lorsque la classe **CTransInPlaceFilter** doit fournir une taille de mémoire tampon au filtre en aval. Si le filtre **CTransInPlaceFilter** est déjà connecté en amont, il utilise les propriétés Allocator sur la connexion de code confidentiel amont. Dans le cas contraire, elle définit la taille de la mémoire tampon sur 1 octet comme valeur de détenteur temporaire. Lorsque le filtre amont se connecte, la classe **CTransInPlaceFilter** renégocie l’allocateur en aval. Pour plus d’informations sur le processus de connexion de code confidentiel dans cette classe, consultez [**CTransInPlaceFilter, classe**](ctransinplacefilter.md).
 

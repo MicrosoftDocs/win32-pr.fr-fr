@@ -1,5 +1,5 @@
 ---
-description: Détermine le produit de la matrice donnée et de la matrice actuelle.
+description: 'ID3DXMATRIXStack :: MultMatrixLocal, méthode (D3DX10. h)-détermine le produit de la matrice donnée et de la matrice actuelle.'
 ms.assetid: 4d374a7b-99e0-4313-970d-b0e7cf3e97ce
 title: 'ID3DXMATRIXStack :: MultMatrixLocal, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 095882c98169159beaca0ef6c98d13fe03b9aed2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4b777bd729810b6fd63bd71def9858203b2ac559
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211953"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107947"
 ---
 # <a name="id3dxmatrixstackmultmatrixlocal-method-d3dx10h"></a>ID3DXMATRIXStack :: MultMatrixLocal, méthode (D3DX10. h)
 
@@ -49,13 +49,13 @@ Pointeur vers la structure D3DXMATRIX à multiplier avec la matrice actuelle.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode multiplie la matrice donnée à la matrice actuelle (la transformation concerne l’origine locale de l’objet).
 

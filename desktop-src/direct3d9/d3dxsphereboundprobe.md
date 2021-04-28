@@ -1,5 +1,5 @@
 ---
-description: Détermine si un rayon croise le volume du cadre englobant d’une sphère.
+description: Fonction D3DXSphereBoundProbe (D3DX9Mesh. h)-détermine si un rayon croise le volume du cadre englobant d’une sphère.
 ms.assetid: fa2e9ecf-7905-4a62-ba48-774bd522525a
 title: D3DXSphereBoundProbe, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bbab8a49165a87f73037ae25230d67b02222fc15
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e2d3ea263d7ad8bc50b936fd1010c352c0c01783
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093847"
 ---
 # <a name="d3dxsphereboundprobe-function-d3dx9meshh"></a>D3DXSphereBoundProbe, fonction (D3DX9Mesh. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) , en spécifiant l
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si le rayon croise le volume du cadre englobant de la sphère. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **D3DXSphereBoundProbe** détermine si le rayon croise le volume du cadre englobant de la sphère, pas seulement la surface de la sphère.
 

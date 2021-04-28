@@ -1,5 +1,5 @@
 ---
-description: Retourne une valeur qui indique si un service particulier est en cours d’exécution.
+description: IShellDispatch2. IsServiceRunning, méthode-retourne une valeur qui indique si un service particulier est en cours d’exécution.
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 title: Méthode IShellDispatch2. IsServiceRunning (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f39cd7da3d9959830208ab971b636e146e549775
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8ad792f1669a8ebcfa411c58b34da214ccf69a7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972395"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117087"
 ---
 # <a name="ishelldispatch2isservicerunning-method"></a>Méthode IShellDispatch2. IsServiceRunning
 
@@ -58,21 +58,21 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
+Retourne la **valeur true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
+Retourne la **valeur true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. IsServiceRunning**](./shell-isservicerunning.md) .
 
@@ -119,7 +119,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

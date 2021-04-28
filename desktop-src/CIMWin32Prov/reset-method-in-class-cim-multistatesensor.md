@@ -1,5 +1,5 @@
 ---
-description: La méthode Reset demande une réinitialisation de l’unité logique. Cette méthode est héritée de CIM \_ LogicalDevice.
+description: 'Méthode Reset de la classe CIM_MultiStateSensor : la méthode Reset demande une réinitialisation de l’unité logique. Cette méthode est héritée de CIM \_ LogicalDevice.'
 ms.assetid: 51234db3-496a-4750-a185-84a5945228b9
 ms.tgt_platform: multiple
 title: Méthode Reset de la classe CIM_MultiStateSensor
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03eb3aecd6bdd84355674ddd51cecaf0fd7707d4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 41694086537fac64cc5c6eb3019a079649c1b248
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111634"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096897"
 ---
 # <a name="reset-method-of-the-cim_multistatesensor-class"></a>Méthode Reset de la \_ classe CIM MultiStateSensor
 
@@ -43,11 +43,11 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

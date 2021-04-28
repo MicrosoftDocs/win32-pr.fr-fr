@@ -1,15 +1,15 @@
 ---
-description: .
+description: Programme du logo du logiciel client Windows 7
 ms.assetid: 05d63224-7974-4c8a-b966-41d3be646854
 title: Programme du logo du logiciel client Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e118d98597b45ed1fc88c35db327ddd6fca0547b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ae28ea4dc6dccd64d4ce879235761dab6ab7014
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542020"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088597"
 ---
 # <a name="windows-7-client-software-logo-program"></a>Programme du logo du logiciel client Windows 7
 
@@ -24,7 +24,7 @@ Dans le cadre de l’heure de Windows 7, nous souhaitons continuer à créer le 
 
 Nous avons amélioré le processus de qualification des applications logicielles pour le logo « compatible avec Windows 7 ». Microsoft n’exigera plus les développeurs que leurs applications soient testées pour la certification par des autorités de test agréées. Au lieu de cela, Microsoft développe une boîte à outils logo que vous pouvez utiliser pour vous assurer que votre application est compatible avec Windows 7 et répond aux exigences du programme du logo du logiciel client Windows 7. Nous avons considérablement réduit le nombre de spécifications. À l’instar du programme matériel, nous avons créé des stratégies. Bien qu’elles ne soient pas liées à des cas de test spécifiques, nous appliquons ces stratégies. Les partenaires doivent satisfaire à toutes les exigences et respecter toutes les stratégies de leurs applications logicielles pour bénéficier du logo « compatible avec Windows 7 ».
 
-## <a name="process"></a>Process
+## <a name="process"></a>Processus
 
 Lorsque les applications logicielles sont prêtes à être testées, accédez à la page du programme logo Microsoft Windows Connect Windows 7 et suivez les instructions :
 

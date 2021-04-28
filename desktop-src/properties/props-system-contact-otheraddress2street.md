@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. OtherAddress2Street
 ms.assetid: 6e9b5825-2db7-40a5-ac33-26c3b417fac9
 title: System. contact. OtherAddress2Street
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e39c8b696488be8802f4918d4882d7f26b8e0aea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 613da15d829b816274157ec1ad17515493113443
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101407"
 ---
 # <a name="systemcontactotheraddress2street"></a>System. contact. OtherAddress2Street
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

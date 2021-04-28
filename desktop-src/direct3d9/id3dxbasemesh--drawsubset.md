@@ -1,5 +1,5 @@
 ---
-description: Dessine un sous-ensemble d’une maille.
+description: ID3DXBaseMesh ::D méthode rawSubset-dessine un sous-ensemble d’une maille.
 ms.assetid: 99eaa185-b681-47f2-aed8-5ca1697ff73c
 title: ID3DXBaseMesh ::D méthode rawSubset (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d0da6e9fc57e0fc5e7b4b263ba3d97185333881c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 252c9b9921c7eafd8f0c2a54cfa14a85e91b8f7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523820"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115467"
 ---
 # <a name="id3dxbasemeshdrawsubset-method"></a>ID3DXBaseMesh ::D méthode rawSubset
 
@@ -49,13 +49,13 @@ Valeur DWORD qui spécifie le sous-ensemble du maillage à dessiner. Cette valeu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le sous-ensemble spécifié par AttribId sera restitué par la méthode [**IDirect3DDevice9 ::D rawindexedprimitive**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-drawindexedprimitive) , à l’aide du \_ type primitif TRIANGLELIST D3DPT, de sorte qu’une mémoire tampon d’index doit être correctement initialisée.
 

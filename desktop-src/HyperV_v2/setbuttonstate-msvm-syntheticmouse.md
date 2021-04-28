@@ -1,5 +1,5 @@
 ---
-description: Définit l’état actuel du bouton de périphérique spécifié.
+description: Méthode SetButtonState de la classe Msvm_SyntheticMouse-définit l’état actuel du bouton de périphérique spécifié.
 ms.assetid: 942DB31C-09A2-43B6-A666-267AF6A84E0E
 title: Méthode SetButtonState de la classe Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c99915fa8ede9cbb405f4483ac10ca9ff8efaf71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 161520ac1b7e9dba1a084a8fb3c623155aa135fe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109207"
 ---
 # <a name="setbuttonstate-method-of-the-msvm_syntheticmouse-class"></a>Méthode SetButtonState de la \_ classe SyntheticMouse MSVM
 
@@ -58,7 +58,7 @@ Nouvel état inactif du bouton. Une valeur **true** signifie que le bouton est e
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -105,7 +105,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ SyntheticMouse**](msvm-syntheticmouse.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

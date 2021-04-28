@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. ÉlémentSource
 ms.assetid: 26b8788e-db69-43ec-befb-410edf0f42d1
 title: System. ÉlémentSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0797f92c6ae8be0d9fda939a67d71e76f17ec3b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1e5f13eada45304c0ce354bd86792aab3d99190
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953195"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097288"
 ---
 # <a name="systemsourceitem"></a>System. ÉlémentSource
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

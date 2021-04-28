@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de transformation affine 3D. Les arguments NULL sont traités comme des transformations d’identité.
+description: 'D3DXMatrixAffineTransformation, fonction (D3dx9math. h) : génère une matrice de transformation affine 3D. Les arguments NULL sont traités comme des transformations d’identité.'
 ms.assetid: 54eac78f-57be-4a24-8dfb-0b519e97d6ca
 title: D3DXMatrixAffineTransformation, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 025485f0015e6f2d85851c8f0919f5462b2bdc3e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7329ffbffe5ffd89ed64e5386246f39699618960
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323153"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094167"
 ---
 # <a name="d3dxmatrixaffinetransformation-function-d3dx9mathh"></a>D3DXMatrixAffineTransformation, fonction (D3dx9math. h)
 
@@ -89,13 +89,13 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) représentant la t
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de transformation affine.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction calcule la matrice de transformation affine avec la formule suivante, avec la concaténation de matrice évaluée dans l’ordre de gauche à droite :
 

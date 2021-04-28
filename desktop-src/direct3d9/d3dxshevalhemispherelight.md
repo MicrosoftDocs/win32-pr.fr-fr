@@ -1,5 +1,5 @@
 ---
-description: Évalue une lumière qui est une interpolation linéaire entre deux couleurs sur la sphère.
+description: Fonction D3DXSHEvalHemisphereLight (D3dx9math. h)-évalue une lumière qui est une interpolation linéaire entre deux couleurs sur la sphère.
 ms.assetid: c5815f12-f706-40f6-bf5e-78a211cfbbea
 title: D3DXSHEvalHemisphereLight, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bdb94fc10ddadc7048f7bb911df089d6f84b0829
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7bc06dcf866c21cc5dcb96b23dea5a4640293fef
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104552196"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093963"
 ---
 # <a name="d3dxshevalhemispherelight-function-d3dx9mathh"></a>D3DXSHEvalHemisphereLight, fonction (D3dx9math. h)
 
@@ -109,13 +109,13 @@ Pointeur vers le vecteur de sortie SH pour le composant bleu.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’interpolation est effectuée de façon linéaire entre les deux points, et non pas sur la surface de la sphère (autrement dit, si l’axe était (0, 0, 1) elle est linéaire en Z, et non pas dans l’angle de l’azimut). La fonction d’éclairage sphérique qui en résulte est normalisée, de sorte qu’un point sur une surface parfaitement diffuse sans occultation et un point perpendiculaire dans la direction *pDir* entraînerait la sortie de luminance avec une valeur de 1 (si la couleur supérieure était blanche et la couleur inférieure était noire). Il s’agit d’un modèle très simple où *Top* représente l’intensité de « Sky » et *Bottom* représente l’intensité du « Ground ».
 

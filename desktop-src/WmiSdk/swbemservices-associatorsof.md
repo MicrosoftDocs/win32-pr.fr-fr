@@ -1,5 +1,5 @@
 ---
-description: Retourne une collection d’objets (classes ou instances) appelées points de terminaison associés à un objet spécifié.
+description: SWbemServices. AssociatorsOf, méthode-retourne une collection d’objets (classes ou instances) appelées points de terminaison associés à un objet spécifié.
 ms.assetid: a78e6701-6779-4a02-b811-23b2da4f4167
 ms.tgt_platform: multiple
 title: SWbemServices. AssociatorsOf, méthode (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 0208ef23158d71a5174fcb6759acba1d64bd09a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95dc8e16939c345b6f885980dd2f1194f180ac5e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519745"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103687"
 ---
 # <a name="swbemservicesassociatorsof-method"></a>SWbemServices. AssociatorsOf, méthode
 
@@ -188,7 +188,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si l’appel réussit, un objet [**SWbemObjectSet**](swbemobjectset.md) est retourné.
 
@@ -238,7 +238,7 @@ L’élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode récupère les instances des ressources managées associées à une ressource spécifiée par le biais d’une ou plusieurs classes d’association. Vous fournissez le chemin d’accès de l’objet pour le point de terminaison d’origine, et AssociatorsOf retourne les ressources managées au point de terminaison opposé. La méthode AssociatorsOf exécute la même fonction que les ASSOCIateurs de la requête WQL.
 

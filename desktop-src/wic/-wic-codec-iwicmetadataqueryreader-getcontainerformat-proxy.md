@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode GetContainerFormat.
+description: IWICMetadataQueryReader_GetContainerFormat_Proxy fonction de proxy de fonction pour la méthode GetContainerFormat.
 ms.assetid: 3a909151-53c2-4f82-9ead-f689b73f5faf
 title: IWICMetadataQueryReader_GetContainerFormat_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 8d8138a1217611ff60be9001ce038f9ecfbe7e34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1fa2e34aa0e4cff05f6cdacc9cd1f340ff41af28
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518509"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097137"
 ---
 # <a name="iwicmetadataqueryreader_getcontainerformat_proxy-function"></a>IWICMetadataQueryReader \_ \_ fonction proxy GetContainerFormat
 
@@ -44,24 +44,24 @@ HRESULT IWICMetadataQueryReader_GetContainerFormat_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) \** _
+Type : **[ **IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader)\***
 
-Pointeur vers cet objet [_ *IWICMetadataQueryReader* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
+Pointeur vers cet objet [**IWICMetadataQueryReader**](/windows/desktop/api/Wincodec/nn-wincodec-iwicmetadataqueryreader) .
 
 </dd> <dt>
 
 *pguidContainerFormat* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
 Pointeur qui reçoit le GUID de format cointainer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

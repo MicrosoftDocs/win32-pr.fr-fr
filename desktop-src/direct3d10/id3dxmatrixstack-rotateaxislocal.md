@@ -1,5 +1,5 @@
 ---
-description: Pivote (par rapport à l’espace de coordonnées local de l’objet) autour d’un axe arbitraire.
+description: 'ID3DXMATRIXStack :: RotateAxisLocal, méthode (D3DX10. h) : pivote (par rapport à l’espace de coordonnées local de l’objet) autour d’un axe arbitraire.'
 ms.assetid: 90837762-9bfe-4065-94b3-1ca61184a78e
 title: 'ID3DXMATRIXStack :: RotateAxisLocal, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 5b00e1fd5b678d89d6b5ca4680499f6fde723c12
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8a81a4c4bd9a2f738274f98ce925799b34986fbb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527960"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107877"
 ---
 # <a name="id3dxmatrixstackrotateaxislocal-method-d3dx10h"></a>ID3DXMATRIXStack :: RotateAxisLocal, méthode (D3DX10. h)
 
@@ -59,13 +59,13 @@ Angle de rotation autour de l’axe arbitraire, en radians. Les angles sont mesu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ajoute la rotation à la pile de matrice avec la matrice de rotation calculée similaire à ce qui suit :
 

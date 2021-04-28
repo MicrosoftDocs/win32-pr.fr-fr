@@ -1,5 +1,5 @@
 ---
-description: Retourne le nom du profil HLSL (High-Level Shader Language) le plus élevé pris en charge par un appareil donné.
+description: D3DXGetVertexShaderProfile fonction-retourne le nom du profil HLSL (High-Level Shader Language) le plus élevé pris en charge par un appareil donné.
 ms.assetid: a50e2a17-8170-4364-a562-7886593341b3
 title: D3DXGetVertexShaderProfile, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 34f7ccaeba60bdd1d7c512cee3fb4da29289408a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 70d6cdf79fdd91e819d54702682515aa3e4810b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538333"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114457"
 ---
 # <a name="d3dxgetvertexshaderprofile-function"></a>D3DXGetVertexShaderProfile fonction)
 
@@ -49,7 +49,7 @@ Pointeur vers l’appareil. Consultez [**IDirect3DDevice9**](/windows/win32/api/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **LPCSTR**](../winprog/windows-data-types.md)**
 
@@ -57,7 +57,7 @@ Nom du profil HLSL.
 
 Si l’appareil ne prend pas en charge les nuanceurs vertex, la fonction retourne la **valeur null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un profil de nuanceur spécifie la version du nuanceur d’assembly à utiliser et les fonctionnalités disponibles pour le compilateur HLSL lors de la compilation d’un nuanceur. Le tableau suivant répertorie les profils de nuanceur de sommets pris en charge.
 

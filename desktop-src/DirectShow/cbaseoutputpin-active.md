@@ -1,5 +1,5 @@
 ---
-description: La méthode active indique au code confidentiel que le filtre est maintenant actif.
+description: 'CBaseOutputPin. active, méthode : la méthode active indique au code confidentiel que le filtre est maintenant actif.'
 ms.assetid: 35df4305-0e2c-4ee1-bc63-db5aec864c46
 title: CBaseOutputPin. active, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 249cddac4027fa434996b1118cc692937b686a83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f282f45bb895a941c44cb70cf5d9d3d373bf8649
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540534"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096207"
 ---
 # <a name="cbaseoutputpinactive-method"></a>CBaseOutputPin. active, méthode
 
@@ -40,7 +40,7 @@ HRESULT Active();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                          | Description                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                 | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>                 | Réussite.<br/>                   |
 | <dl> <dt>**VFW \_ E \_ aucun \_ allocateur**</dt> </dl> | Aucun allocateur n’est disponible.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: active**](cbasepin-active.md) . Elle appelle la méthode [**IMemAllocator :: Commit**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-commit) sur l’allocateur pour allouer de la mémoire pour les mémoires tampons.
 

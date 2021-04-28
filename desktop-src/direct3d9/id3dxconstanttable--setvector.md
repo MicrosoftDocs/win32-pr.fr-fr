@@ -1,5 +1,5 @@
 ---
-description: Définit un vecteur 4D.
+description: 'ID3DXConstantTable :: SetVector, méthode-définit un vecteur 4D.'
 ms.assetid: d5849a8b-b372-4ad0-8773-8c9c4bac3799
 title: 'ID3DXConstantTable :: SetVector, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ace1e7b12b67173eb5b9d9a5fc5e56a8b360f2b4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2d7c464cebb050b9fd54c27656505e6f2221fe4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545287"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115017"
 ---
 # <a name="id3dxconstanttablesetvector-method"></a>ID3DXConstantTable :: SetVector, méthode
 
@@ -69,7 +69,7 @@ Pointeur vers un vecteur 4D.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

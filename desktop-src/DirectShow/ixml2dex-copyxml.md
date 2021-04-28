@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'Méthode IXml2Dex :: CopyXML-non implémentée.'
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: 'IXml2Dex :: CopyXML, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d5840b89c4f58539eb559be3b5d438694c83ea84
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 61e46cb86f32ede3906a22566f455f1a8c55ecb5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104522252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088977"
 ---
 # <a name="ixml2dexcopyxml-method"></a>IXml2Dex :: CopyXML, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -66,11 +66,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

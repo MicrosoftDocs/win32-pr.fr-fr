@@ -1,5 +1,5 @@
 ---
-description: Non utilisé.
+description: '<span id="vspixengine.ipixengine_setparentprocess_dword"></span>IPixEngine :: SetParentProcess, méthode-non utilisée.'
 MS-HAID: vspixengine.IPixEngine\_SetParentProcess\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5933d4b2946081dd7b9c5942186fe86045a84436
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e89348afabe001e6bcd2c1cfac02a3f2053163b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747596"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107057"
 ---
 # <a name="span-idvspixengineipixengine_setparentprocess_dwordspanipixenginesetparentprocess-method"></a><span id="vspixengine.ipixengine_setparentprocess_dword"></span>IPixEngine :: SetParentProcess, méthode
 
@@ -42,7 +42,7 @@ HRESULT SetParentProcess(
 *ELECTRIQUE*   
 Non utilisé.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

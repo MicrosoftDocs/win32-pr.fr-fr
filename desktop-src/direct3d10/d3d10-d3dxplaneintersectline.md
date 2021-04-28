@@ -1,5 +1,5 @@
 ---
-description: Recherche l’intersection entre un plan et une ligne.
+description: Fonction D3DXPlaneIntersectLine (D3DX10Math. h)-recherche l’intersection entre un plan et une ligne.
 ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: D3DXPlaneIntersectLine, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 00d25fcba9e5884cec10da96964ad0f5daa9ed14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d32bb312c97b793f492f7a29bebe11529b79cf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106533717"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108807"
 ---
 # <a name="d3dxplaneintersectline-function-d3dx10mathh"></a>D3DXPlaneIntersectLine, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers une structure D3DXVECTOR3 source, définissant un point de fin de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est l’intersection entre le plan et la ligne spécifiés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si la ligne est parallèle au plan, la **valeur null** est retournée.
 

@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CTransformInputPin. CTransformInputPin.
 ms.assetid: 097dce19-b430-42d6-8914-68350c7eca40
 title: Constructeur CTransformInputPin. CTransformInputPin (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39b99e3e2cf1437c1b35f68d9863a692746bd98d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e893b4e1c7d4f396644a468d3d71fa3046fb712
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539694"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095047"
 ---
 # <a name="ctransforminputpinctransforminputpin-constructor"></a>Constructeur CTransformInputPin. CTransformInputPin
 
@@ -73,7 +73,7 @@ Chaîne de caractères larges contenant le nom du code confidentiel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre *pname* spécifie le nom du code confidentiel, qui est retourné par la méthode [**IPIN :: QueryPinInfo**](/windows/desktop/api/Strmif/nf-strmif-ipin-querypininfo) . Toutefois, la chaîne n’est pas utilisée pour l’identificateur de code confidentiel. L’identificateur de code confidentiel pour cette classe est toujours « in ». Pour plus d’informations, consultez [**QueryId**](ctransforminputpin-queryid.md).
 

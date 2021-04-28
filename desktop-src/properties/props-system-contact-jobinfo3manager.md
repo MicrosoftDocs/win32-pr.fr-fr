@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. JobInfo3Manager
 ms.assetid: e5dd921b-0b43-4698-9083-ee24a19c25f2
 title: System. contact. JobInfo3Manager
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 601c7d9b784b8051f74193785d09db6f032cdd79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a949ea1c6153a8f15af6342ef72dcb0db9112e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524201"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101697"
 ---
 # <a name="systemcontactjobinfo3manager"></a>System. contact. JobInfo3Manager
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

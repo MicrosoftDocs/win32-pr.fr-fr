@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. OtherAddress1Region
 ms.assetid: fc930816-0ca9-4b6e-82c6-2df7b3adbeb0
 title: System. contact. OtherAddress1Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92870eaf68a825fabbef7f2d2d3f82daf7239579
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bc658358d7b2e9fd077af1924bcba55e42d15ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952656"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101547"
 ---
 # <a name="systemcontactotheraddress1region"></a>System. contact. OtherAddress1Region
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

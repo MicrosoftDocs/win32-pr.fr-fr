@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_VirtualSystemReferencePointExportJob-demande un changement d’État.
 ms.assetid: 53c24e17-2b59-4439-a6d1-e971c189d223
 title: Méthode RequestStateChange de la classe Msvm_VirtualSystemReferencePointExportJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5612371738915b5e38657eca0773a88e31e3b0d2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: bd12d7cd5b79e38260e671bf1408304390985dac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106523759"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109307"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemreferencepointexportjob-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualSystemReferencePointExportJob
 
@@ -123,7 +123,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 
