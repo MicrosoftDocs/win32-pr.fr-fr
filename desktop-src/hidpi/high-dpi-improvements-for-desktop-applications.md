@@ -1,15 +1,15 @@
 ---
 title: Mixed-Mode de la mise à l’échelle PPP et des API compatibles PPP
-description: .
+description: Mixed-Mode de la mise à l’échelle PPP et des API compatibles PPP
 ms.assetid: 44AC0B29-3283-4801-90F5-3E78CCD87B9F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb9f8a8f72b199aaba195002134855155925b30d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2244ea79d489ae1e20260f72336c15bc64b97de0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940858"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090097"
 ---
 # <a name="mixed-mode-dpi-scaling-and-dpi-aware-apis"></a>Mixed-Mode de la mise à l’échelle PPP et des API compatibles PPP
 
@@ -75,7 +75,7 @@ Notez que les zones non clientes d’une fenêtre enfant, telles que les barres 
 
 </dd> <dd><b><a href="/windows/desktop/api/Winuser/nf-winuser-getdpiforwindow">GetDpiForWindow</a></b><dl> <dt><b>GetDpiForWindow</b> retourne la PPP associée au HWND fourni. La réponse dépend du mode de reconnaissance PPP du HWND :
 
-| Mode de reconnaissance DPI de HWND | Valeur retournée                                                                                                                                                                                                  |
+| Mode de reconnaissance DPI de HWND | Valeur renvoyée                                                                                                                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ignore                    | 96                                                                                                                                                                                                            |
 | Système                     | La résolution système                                                                                                                                                                                                |

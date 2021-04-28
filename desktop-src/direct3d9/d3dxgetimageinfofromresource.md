@@ -1,5 +1,5 @@
 ---
-description: Récupère des informations sur une image donnée dans une ressource.
+description: 'Fonction D3DXGetImageInfoFromResource : récupère des informations sur une image donnée dans une ressource.'
 ms.assetid: 1f811b1e-f0bd-4f64-a4c9-caf899470940
 title: D3DXGetImageInfoFromResource, fonction (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6875719123fe0b4dca4405570703b2587492975b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ea324ef94ab765bad25f7d07eef07972ab94cff6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762043"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114447"
 ---
 # <a name="d3dxgetimageinfofromresource-function"></a>D3DXGetImageInfoFromResource fonction)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure d' [**\_ informations D3DXIMAGE**](d3dximage-info.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la suivante : D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXGetImageInfoFromResourceW. Dans le cas contraire, l’appel de fonction est résolu en D3DXGetImageInfoFromResourceA, car les chaînes ANSI sont utilisées.
 

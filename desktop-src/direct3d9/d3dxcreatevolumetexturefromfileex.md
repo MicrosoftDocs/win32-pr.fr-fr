@@ -1,5 +1,5 @@
 ---
-description: Crée une texture de volume à partir d’un fichier.
+description: D3DXCreateVolumeTextureFromFileEx fonction-crée une texture de volume à partir d’un fichier.
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: D3DXCreateVolumeTextureFromFileEx, fonction (D3dx9tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d63377394dc123defac565cd11a0d40324a28a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11be9da24be7fc9a03bab8e761e55a601715bd75
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322937"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102747"
 ---
 # <a name="d3dxcreatevolumetexturefromfileex-function"></a>D3DXCreateVolumeTextureFromFileEx fonction)
 
@@ -189,13 +189,13 @@ Adresse d’un pointeur vers une interface [**IDirect3DVolumeTexture9**](/window
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ NOTAVAILABLE, D3DERR \_ OUTOFVIDEOMEMORY, D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXCreateVolumeTextureFromFileExW. Dans le cas contraire, l’appel de fonction est résolu en D3DXCreateVolumeTextureFromFileExA, car les chaînes ANSI sont utilisées.
 

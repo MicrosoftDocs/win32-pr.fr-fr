@@ -1,15 +1,15 @@
 ---
-description: .
+description: Bibliothèque de Registre hors connexion
 ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: Bibliothèque de Registre hors connexion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a473bde729a0047a56d7ad0fdec1c0e3133ea103
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae1aa5acdd7904516608413ff973e60e81c296c3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517181"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089247"
 ---
 # <a name="offline-registry-library"></a>Bibliothèque de Registre hors connexion
 
@@ -43,7 +43,7 @@ Offreg.dll est fourni dans le kit de pilotes Windows (WDK) pour Windows 10 et le
 
 Pour plus d’informations sur l’obtention du kit WDK, consultez [Comment obtenir le kit WDK et le WLK](/windows-hardware/drivers/download-the-wdk) ou visitez le site Web des [abonnements MSDN](https://msdn.microsoft.com/subscriptions/default.aspx) .
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [**À propos de la bibliothèque de Registre hors connexion**](about-the-offline-registry-library.md)
 -   [**Fonctions de la bibliothèque de Registre hors connexion**](offline-registry-library-functions.md)

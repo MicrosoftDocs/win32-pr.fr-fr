@@ -1,5 +1,5 @@
 ---
-description: Décrit un vecteur à trois composants incluant des surcharges d’opérateur et des casts de type.
+description: D3DXVECTOR3 structure (D3DX10Math. h)-décrit un vecteur à trois composants incluant des surcharges d’opérateur et des casts de type.
 ms.assetid: d170cd26-d705-4a31-82b3-f9ea070b6ca4
 title: D3DXVECTOR3, structure (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: fd971b594d854aea92229e75186bf5d8a55c73ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7b43348b6b5683e9fe75c5340fd0c2cab5efe719
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762266"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102848"
 ---
 # <a name="d3dxvector3-structure-d3dx10mathh"></a>D3DXVECTOR3, structure (D3DX10Math. h)
 
@@ -74,7 +74,7 @@ Composant z.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **D3DXVECTOR3** a les extensions C++ suivantes.
 

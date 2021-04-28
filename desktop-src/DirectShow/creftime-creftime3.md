@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Constructeur CRefTime. CRefTime (reftime. h)-méthode constructeur.
 ms.assetid: c1282676-6f2b-438a-850e-17bb6d7a2c68
 title: CRefTime. CRefTime, constructeur (reftime. h)-paramètre RT
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d97175a07565c12033c5e1ea8f20c157657d9501
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 3d5f20fcca6e05810320af8fad7ea79035fd1591
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106531182"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098937"
 ---
 # <a name="creftimecreftime-constructor-reftimeh"></a>Constructeur CRefTime. CRefTime (reftime. h)
 
@@ -49,7 +49,7 @@ Temps en unités de 100 nanosecondes.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur par défaut de l’heure de référence est zéro.
 

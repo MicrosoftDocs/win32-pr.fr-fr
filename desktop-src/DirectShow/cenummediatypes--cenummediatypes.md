@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CEnumMediaTypes. ~ CEnumMediaTypes, destructeur, méthode de destructeur.
 ms.assetid: 7da81391-aaac-4cc7-9e64-856e1d13b61d
 title: CEnumMediaTypes. ~ CEnumMediaTypes, destructeur (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e1725a338c88706e7f8a5f80cdcc5712f6f15d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de761e740f6cb75c635cfd463e3d7d4ba22b7612
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099237"
 ---
 # <a name="cenummediatypescenummediatypes-destructor"></a>CEnumMediaTypes. ~ CEnumMediaTypes, destructeur
 

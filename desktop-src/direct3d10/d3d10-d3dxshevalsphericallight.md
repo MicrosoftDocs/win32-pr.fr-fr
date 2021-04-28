@@ -1,5 +1,5 @@
 ---
-description: Évalue une lumière sphérique et retourne des données de l’harmonique sphérique spectral (SH).
+description: 'Fonction D3DXSHEvalSphericalLight (D3DX10. h) : évalue une lumière sphérique et retourne des données de l’harmonique sphérique spectral (SH).'
 ms.assetid: e2a2b998-285a-46ef-99fe-ccc923013e9a
 title: D3DXSHEvalSphericalLight, fonction (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c658480a08360fe8489cfc86319a689e828c0a1e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e1e509ea4695f143bd5399cbda004bcba53f514c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323210"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108557"
 ---
 # <a name="d3dxshevalsphericallight-function-d3dx10h"></a>D3DXSHEvalSphericalLight, fonction (D3DX10. h)
 
@@ -129,13 +129,13 @@ Pointeur vers le vecteur de sortie SH pour le composant bleu.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Évalue une lumière sphérique et retourne des données SH spectrales. Il n’y a aucune normalisation de l’intensité de la lumière comme c’est le cas pour les lumières directionnelles. vous devez donc veiller à spécifier les inintensités. Cela permet de calculer trois échantillons spectraux. pROut est retourné, tandis que pGOut et pBOut peuvent être retournés.
 

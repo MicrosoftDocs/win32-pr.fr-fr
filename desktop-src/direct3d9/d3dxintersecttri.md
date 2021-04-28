@@ -1,5 +1,5 @@
 ---
-description: Calcule l’intersection d’un rayon et d’un triangle.
+description: D3DXIntersectTri, fonction (D3DX9Mesh. h)-calcule l’intersection d’un rayon et d’un triangle.
 ms.assetid: f335a71d-7203-4ea1-a6bf-407b28c712e6
 title: D3DXIntersectTri, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 41c7012cea0a533dc447db0575def6b418d0e59e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33d45beda51a7a2c80debafbab864c2accb33653
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539443"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098267"
 ---
 # <a name="d3dxintersecttri-function-d3dx9meshh"></a>D3DXIntersectTri, fonction (D3DX9Mesh. h)
 
@@ -119,13 +119,13 @@ Distance des paramètres d’intersection de rayon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 
 Retourne la **valeur true** si le rayon croise la zone du triangle. Sinon, retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction [**D3DXIntersect**](d3dxintersect.md) fournit un moyen de comprendre les points dans et autour d’un triangle, indépendamment de l’endroit où le triangle est réellement situé. Cette fonction retourne le point résultant à l’aide de l’équation suivante : v1 + U (V2-V1) + V (v3-v1).
 

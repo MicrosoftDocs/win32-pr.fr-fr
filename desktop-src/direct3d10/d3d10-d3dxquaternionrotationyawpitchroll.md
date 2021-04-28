@@ -1,5 +1,5 @@
 ---
-description: Génère un Quaternion avec le lacet, le tangage et le roulis donnés.
+description: 'D3DXQuaternionRotationYawPitchRoll, fonction (D3DX10Math. h) : génère un Quaternion avec le lacet, le tangage et le roulis donnés.'
 ms.assetid: c929d9d4-b9cb-4de6-86c1-26fec3617846
 title: D3DXQuaternionRotationYawPitchRoll, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7d894be61f5f22322f83c4e4a6c6a724de4b9da4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cefcf9a927cee0d8f7c83ff42ae6ca4fc699bb09
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537275"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108747"
 ---
 # <a name="d3dxquaternionrotationyawpitchroll-function-d3dx10mathh"></a>D3DXQuaternionRotationYawPitchRoll, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Tourner autour de l’axe z, en radians.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION avec le lacet, le tangage et le roulis spécifiés.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXQuaternionRotationYawPitchRoll peut être utilisée comme paramètre pour une autre fonction.
 

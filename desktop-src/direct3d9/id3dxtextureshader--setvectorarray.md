@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de vecteurs 4D.
+description: 'ID3DXTextureShader :: SetVectorArray, méthode-définit un tableau de vecteurs 4D.'
 ms.assetid: 45bc5cb1-b44a-468b-8c80-a639da8a033f
 title: 'ID3DXTextureShader :: SetVectorArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c91a012cda9d1aa992682b5cb5aa769bf41de180
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0878594baa8828c9cca4eca8dd2c20f225fb530e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538056"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090187"
 ---
 # <a name="id3dxtextureshadersetvectorarray-method"></a>ID3DXTextureShader :: SetVectorArray, méthode
 
@@ -69,7 +69,7 @@ Nombre de vecteurs dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

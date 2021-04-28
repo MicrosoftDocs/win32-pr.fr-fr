@@ -1,5 +1,5 @@
 ---
-description: Projette un tableau (x, y, z, 0) à partir de l’espace d’objet dans l’espace à l’écran.
+description: D3DXVec3ProjectArray, fonction (D3DX10Math. h)-projette un tableau (x, y, z, 0) à partir de l’espace d’objet dans l’espace de l’écran.
 ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: D3DXVec3ProjectArray, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: bdbda9201d23a6c525dc054c53874c71d548e65e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323130"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108147"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>D3DXVec3ProjectArray, fonction (D3DX10Math. h)
 
@@ -128,13 +128,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 qui est le tableau projeté de l’espace de l’objet à l’espace à l’écran.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec3ProjectArray peut être utilisée comme paramètre pour une autre fonction.
 

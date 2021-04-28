@@ -1,5 +1,5 @@
 ---
-description: Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.
+description: 'IEnumPStoreItems :: Clone, méthode-crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.'
 ms.assetid: ab9eaf63-54e4-4322-9bb5-227982b15c73
 title: 'IEnumPStoreItems :: Clone, méthode (PStore. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 919c0359f5c7f6d3ab547f53a105246c43e20fb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 29b618881305296a560dc9102f7571c08236d1bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544354"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089327"
 ---
 # <a name="ienumpstoreitemsclone-method"></a>IEnumPStoreItems :: Clone, méthode
 
@@ -48,7 +48,7 @@ Pointeur vers un pointeur [**IEnumPStoreItems**](ienumpstoreitems.md) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est une valeur **HRESULT** .
 

@@ -1,5 +1,5 @@
 ---
-description: Fournit des méthodes d’énumération COM standard pour l’interface IPStore.
+description: Interface IEnumPStoreTypes-fournit des méthodes d’énumération COM pour l’interface IPStore.
 ms.assetid: a90bc5cf-ca42-4007-a57b-be9c59d9552a
 title: IEnumPStoreTypes, interface (PStore. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 748f6e21701fdd27c2a88d1959b0b29cf56929f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ca2e250864889a5fda465e146287bf59a2b6346
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535356"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089357"
 ---
 # <a name="ienumpstoretypes-interface"></a>Interface IEnumPStoreTypes
 
@@ -40,7 +40,7 @@ L’interface **IEnumPStoreTypes** possède ces méthodes.
 
 | Méthode                                  | Description                                                                                        |
 |:----------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**Répliqué**](ienumpstoretypes-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
+| [**Clone**](ienumpstoretypes-clone.md) | Crée un autre énumérateur qui contient le même état d’énumération que l’énumérateur actuel.<br/> |
 | [**Suivant**](ienumpstoretypes-next.md)   | Obtient le type de fournisseur spécifié suivant dans la séquence d’énumération.<br/>                      |
 | [**Réinitialiser**](ienumpstoretypes-reset.md) | Réinitialise au début de la séquence d’énumération.<br/>                                    |
 | [**Saut**](ienumpstoretypes-skip.md)   | Ignore le type de fournisseur spécifié dans la séquence d’énumération.<br/>                          |
@@ -49,7 +49,7 @@ L’interface **IEnumPStoreTypes** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’objet énumérateur doit être libéré lorsqu’il n’est plus utilisé.
 

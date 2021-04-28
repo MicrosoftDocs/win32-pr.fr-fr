@@ -1,5 +1,5 @@
 ---
-description: 'La méthode IsFormatSupported détermine si un format d’heure spécifié est pris en charge. Cette méthode implémente la méthode IMediaSeeking :: IsFormatSupported.'
+description: 'Méthode CPosPassThru. IsFormatSupported : la méthode IsFormatSupported détermine si un format d’heure spécifié est pris en charge. Cette méthode implémente la méthode IMediaSeeking :: IsFormatSupported.'
 ms.assetid: dd8751d6-8439-4155-bdaf-b152a7c6cad4
 title: Méthode CPosPassThru. IsFormatSupported (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 85bdbef2315bd2c9e2bc92f639a7d328f1f17ce0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bd4b90bbe86e7ba05aa48fb7888c946babd8ed9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540685"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095247"
 ---
 # <a name="cpospassthruisformatsupported-method"></a>Méthode CPosPassThru. IsFormatSupported
 
@@ -49,7 +49,7 @@ Pointeur vers un GUID de format d’heure.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

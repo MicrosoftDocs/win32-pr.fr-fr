@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CEnumPins. CEnumPins.
 ms.assetid: f696e433-b051-4de0-80e5-f9cd31fd0f23
 title: Constructeur CEnumPins. CEnumPins (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 536782de6992acfc1613d5866f13af658fba6e71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: caa27dfe0190df15be1e41b7128c06249f1ae2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540546"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099227"
 ---
 # <a name="cenumpinscenumpins-constructor"></a>Constructeur CEnumPins. CEnumPins
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IEnumPins**](/windows/desktop/api/Strmif/nn-strmi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si *pEnumPins* a la **valeur null**, cette méthode initialise l’énumérateur au début de la séquence d’énumération. Sinon, elle duplique l’état interne de l’énumérateur spécifié par *pEnumPins*.
 

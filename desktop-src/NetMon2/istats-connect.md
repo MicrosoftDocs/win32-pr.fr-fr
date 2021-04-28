@@ -1,5 +1,5 @@
 ---
-description: La méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
+description: 'Méthode IStats :: Connect : la méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
 title: 'IStats :: Connect, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7705600c3ce68b719014c928ac4d02c62cba64cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0719b6ff56aaa8c0be02f86d62ac23d4003aa3d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869237"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098477"
 ---
 # <a name="istatsconnect-method"></a>IStats :: Connect, méthode
 
@@ -71,7 +71,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -143,7 +143,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la méthode **Connect** est appelée, moniteur réseau appelle automatiquement la méthode **IStats :: configure** à l’aide de l’objet BLOB fourni par le paramètre *hInputBlob* . Notez que les codes d’erreur retournés par l’appel à **IStats :: configure** sont passés en retour et retournés par l’appel de **IStats :: Connect** .
 

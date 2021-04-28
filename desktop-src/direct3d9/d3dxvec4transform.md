@@ -1,5 +1,5 @@
 ---
-description: Transforme un vecteur 4D par une matrice donnée.
+description: D3DXVec4Transform, fonction (D3dx9math. h)-transforme un vecteur 4D par une matrice donnée.
 ms.assetid: de93f138-7cf8-43cc-8255-c053c799aea8
 title: D3DXVec4Transform, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 20192cf51a6096bbbce1f009d91d96551aec12d8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2e5a9fdd92a2d978c746543fbbbeec6503d07404
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106533714"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115507"
 ---
 # <a name="d3dxvec4transform-function-d3dx9mathh"></a>D3DXVec4Transform, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers la structure [**D3DXMATRIX**](d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le vecteur 4D transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXVec4Transform** peut être utilisée comme paramètre pour une autre fonction.
 

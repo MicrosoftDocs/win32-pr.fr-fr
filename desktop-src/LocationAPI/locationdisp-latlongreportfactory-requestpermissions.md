@@ -1,5 +1,5 @@
 ---
-description: Ouvre une boîte de dialogue système pour demander l’autorisation de l’utilisateur pour les périphériques avec emplacement.
+description: 'Méthode LocationDisp. LatLongReportFactory. RequestPermissions : ouvre une boîte de dialogue système pour demander l’autorisation de l’utilisateur pour les périphériques avec emplacement.'
 ms.assetid: 25b4368d-ff9d-4806-a22e-4ae0760d6f0f
 title: Méthode LocationDisp. LatLongReportFactory. RequestPermissions
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ed789aca4b6c9d0db50a3e7b6cae33d55d22920c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b2d21a032a2e4c08c6f80e4f0ae79349a49ce21
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518538"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088927"
 ---
 # <a name="locationdisplatlongreportfactoryrequestpermissions-method"></a>Méthode LocationDisp. LatLongReportFactory. RequestPermissions
 
@@ -47,11 +47,11 @@ Ce paramètre n’est pas utilisé et doit être défini à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’appel est synchrone et l’appelant attend la fermeture de la boîte de dialogue.
 

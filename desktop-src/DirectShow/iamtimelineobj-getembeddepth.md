@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IAMTimelineObj :: GetEmbedDepth, méthode non prise en charge.'
 ms.assetid: 1b9d0c78-ced9-496b-89c3-fc205b37d894
 title: 'IAMTimelineObj :: GetEmbedDepth, méthode (qedit. h)'
 ms.topic: reference
@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: de7414efd1ce9c8cde2ce3c91cb4e4906ba6af6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a618f2868dead889142eabbc6869b6e73c9268
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532270"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098577"
 ---
 # <a name="iamtimelineobjgetembeddepth-method"></a>IAMTimelineObj :: GetEmbedDepth, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

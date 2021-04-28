@@ -1,5 +1,5 @@
 ---
-description: La méthode BeginFlush commence une opération de vidage.
+description: 'Méthode COutputQueue. BeginFlush : la méthode BeginFlush commence une opération de vidage.'
 ms.assetid: d37b611e-742f-4bdf-bd72-a91cd1c473b3
 title: Méthode COutputQueue. BeginFlush (Outputq. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 462c3027e38bd94f061eb927c0d52576e29c997b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e7c6168daf766ec11e18e86673d9d25542b50462
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106522816"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099027"
 ---
 # <a name="coutputqueuebeginflush-method"></a>Méthode COutputQueue. BeginFlush
 
@@ -40,11 +40,11 @@ void BeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode définit la variable de membre [**COutputQueue :: m \_ BFlushing**](coutputqueue-m-bflushing.md) sur **true**. Si l’objet utilise un thread, le thread appelle la méthode [**COutputQueue :: FreeSamples**](coutputqueue-freesamples.md) pour libérer les échantillons en attente. Dans le cas contraire, l’objet appelle **FreeSamples** pendant la méthode [**COutputQueue :: EndFlush**](coutputqueue-endflush.md) . Cette méthode définit également la variable de membre [**COutputQueue :: m \_ HR**](coutputqueue-m-hr.md) sur S \_ false, ce qui provoque l’annulation de tous les nouveaux exemples de l’objet.
 

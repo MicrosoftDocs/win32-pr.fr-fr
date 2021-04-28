@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IAMTimelineObj :: GetGroupIBelongTo, méthode non prise en charge.'
 ms.assetid: a6242c1d-cf9a-4c96-9cfd-d32199ae74b8
 title: 'IAMTimelineObj :: GetGroupIBelongTo, méthode (qedit. h)'
 ms.topic: reference
@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: cefd3bb5923e056497556b15b6308160a2066c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aac3e043d068588e6a9330c193c1b5fb7828688
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533408"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098557"
 ---
 # <a name="iamtimelineobjgetgroupibelongto-method"></a>IAMTimelineObj :: GetGroupIBelongTo, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

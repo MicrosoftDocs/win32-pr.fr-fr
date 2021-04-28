@@ -1,15 +1,15 @@
 ---
-description: .
+description: Résolution des problèmes Windows
 ms.assetid: fb2c487a-d395-45eb-9010-936a61a414d0
 title: Résolution des problèmes Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eacea2f4f62852da7fbaefd51db5834907a323ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff332afe1b586b05866d78b49013a264e815f3eb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320830"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088557"
 ---
 # <a name="windows-troubleshooting"></a>Résolution des problèmes Windows
 

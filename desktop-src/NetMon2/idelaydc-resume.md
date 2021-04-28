@@ -1,5 +1,5 @@
 ---
-description: La méthode Resume redémarre une capture suspendue.
+description: 'IDelaydC :: Resume, méthode-la méthode Resume redémarre une capture suspendue.'
 ms.assetid: 4fa47220-d323-407b-9dae-704969f66bdd
 title: 'IDelaydC :: Resume, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ba0deef666c2e9829cb5a71d91e73da9c1b7d780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c8c3b505e0e9fb306a444111cce22c8c580d015
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750060"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109187"
 ---
 # <a name="idelaydcresume-method"></a>IDelaydC :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la capture est suspendue, les nouvelles données ne sont pas ajoutées au [*fichier de capture*](c.md) actuel tant que la méthode **IDelaydC :: Resume** n’est pas appelée pour redémarrer la capture. Lorsque l' [**interruption**](idelaydc-pause.md) et la **reprise** sont utilisées pour arrêter et redémarrer la capture, toutes les informations capturées sont placées dans le même fichier de capture.
 

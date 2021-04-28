@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. DisplayBusinessPhoneNumbers
 ms.assetid: e8b1ce0a-a6af-4035-b8f5-4b16cc0b47ae
 title: System. contact. DisplayBusinessPhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a33ce1be99d22ecfc91f64a45cc4075ecbefb03c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c9e5490c0d555aa59a4ac22ec346c7b799035ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528285"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102437"
 ---
 # <a name="systemcontactdisplaybusinessphonenumbers"></a>System. contact. DisplayBusinessPhoneNumbers
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,15 +1,15 @@
 ---
-description: Spécifie si le contenu audio à 2 canaux est encodé en stéréo ou en double mono.
+description: 'Propriété AVDecAudioDualMono : spécifie si l’audio à 2 canaux est encodé en stéréo ou double mono.'
 ms.assetid: 96cb9e17-588c-4a1a-a7ba-7f8439d5b79a
 title: Propriété AVDecAudioDualMono (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 107adb00eb68cbb9ec19331b0c0f3f9db916a306
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: adc84e19d41840b358e3e79576152dbc8527e2bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846626"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096567"
 ---
 # <a name="avdecaudiodualmono-property"></a>Propriété AVDecAudioDualMono
 
@@ -29,7 +29,7 @@ Cette propriété est en lecture seule.
 
 La valeur de cette propriété est un membre de l’énumération [**eAVDecAudioDualMono**](/windows/desktop/api/codecapi/ne-codecapi-eavdecaudiodualmono) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette propriété s’applique uniquement lorsque le flux de bits d’entrée du décodeur contient du son de deux canaux. Un flux audio à deux canaux peut être encodé en stéréo ou en double mono. Si le son est double mono, vous pouvez définir la propriété [**AVDecAudioDualMonoReproMode**](avdecaudiodualmonorepromode-property.md) pour configurer la façon dont le décodeur reproduit l’audio.
 

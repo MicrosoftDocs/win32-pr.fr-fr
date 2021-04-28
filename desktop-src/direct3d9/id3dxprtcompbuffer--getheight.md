@@ -1,5 +1,5 @@
 ---
-description: Récupère la hauteur de la texture, en pixels.
+description: 'ID3DXPRTCompBuffer :: GetHeight, méthode-récupère la hauteur de la texture, en pixels.'
 ms.assetid: 60bcdfc5-bb82-4a28-8d38-0adb450357c7
 title: 'ID3DXPRTCompBuffer :: GetHeight, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d0eb88e93c62550b6141fb53290ffb7494a1ab20
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5d418f039fdd48d02cd92c6605e159c381e5c43c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322702"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107257"
 ---
 # <a name="id3dxprtcompbuffergetheight-method"></a>ID3DXPRTCompBuffer :: GetHeight, méthode
 
@@ -38,7 +38,7 @@ UINT GetHeight();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **uint**](../winprog/windows-data-types.md)**
 

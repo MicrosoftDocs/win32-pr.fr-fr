@@ -1,5 +1,5 @@
 ---
-description: Récupère un objet enfant dans cet objet de données de fichier.
+description: 'ID3DXFileEnumObject :: GetChild, méthode-récupère un objet enfant dans cet objet de données de fichier.'
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
 title: 'ID3DXFileEnumObject :: GetChild, méthode (D3DX9Xof. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b5b8d535a9060e80318d4043af6362810023b9d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b26cf058b31d1016c68cccf3dde6ade9f84cde1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106524871"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090357"
 ---
 # <a name="id3dxfileenumobjectgetchild-method"></a>ID3DXFileEnumObject :: GetChild, méthode
 
@@ -59,7 +59,7 @@ Adresse d’un pointeur pour recevoir le pointeur d’interface de l’objet enf
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

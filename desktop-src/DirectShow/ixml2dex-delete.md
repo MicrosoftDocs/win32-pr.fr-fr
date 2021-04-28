@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: IXml2Dex ::D méthode supprim-non implémentée.
 ms.assetid: 65ab8253-9fbf-4a1b-bcb7-a1dc916bb47f
 title: IXml2Dex ::D méthode supprimable
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e0de5a4e83493b542d6018369931a1c9f825f841
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c86a56de95a338df5e4ac6f1d2da8e6d842c1eca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108914"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088947"
 ---
 # <a name="ixml2dexdelete-method"></a>IXml2Dex ::D méthode supprimable
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -66,11 +66,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

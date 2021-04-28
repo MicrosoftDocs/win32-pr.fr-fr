@@ -1,5 +1,5 @@
 ---
-description: 'La méthode FindPin récupère le code confidentiel avec l’identificateur spécifié. Cette méthode implémente la méthode IBaseFilter :: FindPin.'
+description: 'Méthode CSource. FindPin : la méthode FindPin récupère le code confidentiel avec l’identificateur spécifié. Cette méthode implémente la méthode IBaseFilter :: FindPin.'
 ms.assetid: ad593dbf-ca56-4409-ac6e-1b88908c8cee
 title: Méthode CSource. FindPin (source. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9fac8df1e53e4a129b42d1284a19392bc7b58aa2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: daa1e2404e7c6fbf1d879d71374298103bdc621f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535853"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098857"
 ---
 # <a name="csourcefindpin-method"></a>Méthode CSource. FindPin
 
@@ -57,7 +57,7 @@ Reçoit un pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                       | Description                                           |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>              | Opération réussie.<br/>                                   |
+| <dl> <dt>**\_OK**</dt> </dl>              | Réussite.<br/>                                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl>         | Argument de pointeur **null** .<br/>                 |
 | <dl> <dt>**VFW \_ E \_ \_ introuvable**</dt> </dl> | Impossible de trouver un code confidentiel avec cet identificateur.<br/> |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le premier pin est toujours nommé « 1 »; le deuxième pin est nommé « 2 ». et ainsi de suite. Pour plus d’informations, consultez [**CSourceStream :: QueryId**](csourcestream-queryid.md).
 

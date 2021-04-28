@@ -1,5 +1,5 @@
 ---
-description: Matrice pour la transformation de l’espace objet en espace universel.
+description: 'ObjectToWorld4x3 : matrice de transformation de l’espace objet en espace universel.'
 ms.assetid: ''
 title: ObjectToWorld4x3
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - ObjectToWorld4x3
 api_type:
 - NA
-ms.openlocfilehash: 613b4c403f235819845114e7019e07051a25ec80
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bc91c6e98aceb13af3f589f873a4b96c2b1843c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515928"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098297"
 ---
 # <a name="objecttoworld4x3"></a>ObjectToWorld4x3
 
@@ -33,7 +33,7 @@ void ObjectToWorld4x3();
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La matrice est une transposition de la matrice **ObjectToWorld3x4** .
 

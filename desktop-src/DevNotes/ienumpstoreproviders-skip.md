@@ -1,5 +1,5 @@
 ---
-description: Ignore le nombre spécifié d’éléments dans la séquence d’énumération.
+description: 'IEnumPStoreProviders :: Skip, méthode-ignore le nombre spécifié d’éléments dans la séquence d’énumération.'
 ms.assetid: bf9ea700-3f44-48a7-8ea0-ee66dea61836
 title: 'IEnumPStoreProviders :: Skip, méthode (PStore. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 75ec981e76d387f6ada82869bba40fa4946ce7b0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f74c44de172d9235d9768b8f484405b5e8fb7fe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532562"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096747"
 ---
 # <a name="ienumpstoreprovidersskip-method"></a>IEnumPStoreProviders :: Skip, méthode
 
@@ -48,7 +48,7 @@ Nombre de types de fournisseurs à ignorer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est une valeur **HRESULT** .
 

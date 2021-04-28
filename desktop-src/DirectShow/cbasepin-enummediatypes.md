@@ -1,5 +1,5 @@
 ---
-description: 'La méthode EnumMediaTypes énumère les types de média préférés du pin. Cette méthode implémente la méthode IPin :: EnumMediaTypes.'
+description: 'Méthode CBasePin. EnumMediaTypes : la méthode EnumMediaTypes énumère les types de média préférés du pin. Cette méthode implémente la méthode IPin :: EnumMediaTypes.'
 ms.assetid: 0360f9fc-6876-4a54-8de1-bf289e0e10ae
 title: Méthode CBasePin. EnumMediaTypes (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54aaddbbcde26791b6c55665bfbbb7ff62048238
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c68fe1ab83724149dcd2fb58a60e9c6950d887ca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537098"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099387"
 ---
 # <a name="cbasepinenummediatypes-method"></a>Méthode CBasePin. EnumMediaTypes
 
@@ -49,7 +49,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IEnumMedi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                   | Description                           |
 |-----------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                   |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante.<br/>       |
 | <dl> <dt>**\_pointeur E**</dt> </dl>     | Argument de pointeur **null** .<br/> |
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les broches d’entrée ne sont pas requises pour énumérer les types préférés. Les broches de sortie doivent énumérer au moins un type préféré. Dans le cas contraire, les deux broches ne peuvent pas avoir de type préféré, ce qui rend impossible la connexion.
 

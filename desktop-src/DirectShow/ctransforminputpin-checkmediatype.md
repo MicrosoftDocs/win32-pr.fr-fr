@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.
+description: 'Méthode CTransformInputPin. CheckMediaType : la méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.'
 ms.assetid: e09a4a3e-ac39-4d0e-9e8c-3e8f18057d0d
 title: Méthode CTransformInputPin. CheckMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6841370795a3131cdbcc95a3bab160be2011c600
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c775618c9fe30de6171919d5b8bc8a80ea81d3a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541145"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084997"
 ---
 # <a name="ctransforminputpincheckmediatype-method"></a>Méthode CTransformInputPin. CheckMediaType
 
@@ -49,11 +49,11 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode implémente la méthode [**CBasePin :: CheckMediaType**](cbasepin-checkmediatype.md) virtuelle pure. Elle appelle la méthode [**CTransformFilter :: CheckInputType**](ctransformfilter-checkinputtype.md) du filtre, qui est également pure virtual. La classe dérivée du filtre doit implémenter **CheckInputType** pour déterminer si un type d’entrée donné est acceptable.
 

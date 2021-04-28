@@ -1,15 +1,15 @@
 ---
-description: Lors de l’utilisation de la directive INF RegisterDlls pour inscrire automatiquement des dll, les appelants de SetupInstallFromInfSection peuvent recevoir des notifications sur chaque fichier tel qu’il est inscrit ou désinscrit.
+description: 'SPFILENOTIFY_STARTREGISTRATION message : lors de l’utilisation de la directive INF RegisterDlls pour inscrire automatiquement des dll, les appelants de SetupInstallFromInfSection peuvent recevoir des notifications sur chaque fichier tel qu’il est inscrit ou désinscrit.'
 ms.assetid: 0faf277c-7805-478f-9cec-0dd7b6acdb0e
 title: Message d’SPFILENOTIFY_STARTREGISTRATION (Setupapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe795af38c21c17bf4e81692985d4bfe50dc8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e71a884d079515436f296faf515a83a985311e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524365"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094497"
 ---
 # <a name="spfilenotify_startregistration-message"></a>\_Message SPFILENOTIFY STARTREGISTRATION
 
@@ -45,7 +45,7 @@ Si le fichier est en cours d’enregistrement, *param2* doit être défini sur u
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Après avoir reçu la notification, la fonction de rappel peut retourner l’une des valeurs suivantes.
 
@@ -77,7 +77,7 @@ Après avoir reçu la notification, la fonction de rappel peut retourner l’une
 
 <dl> <dt>
 
-[Vue d’ensemble](overview.md)
+[Vue d'ensemble](overview.md)
 </dt> <dt>
 
 [Notifications](notifications.md)

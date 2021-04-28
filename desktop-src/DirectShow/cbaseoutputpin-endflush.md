@@ -1,5 +1,5 @@
 ---
-description: 'La méthode EndFlush termine une opération de vidage. Cette méthode implémente la méthode IPin :: EndFlush.'
+description: 'Méthode CBaseOutputPin. EndFlush : la méthode EndFlush termine une opération de vidage. Cette méthode implémente la méthode IPin :: EndFlush.'
 ms.assetid: c5c76cf8-1ca1-4fef-8776-7f4dcca32939
 title: Méthode CBaseOutputPin. EndFlush (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b40bc7db4e8d290ae0cd7e26a9d751e44b0daa4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53153c6dbd941390c7ef616ee36c56e01214c341
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099507"
 ---
 # <a name="cbaseoutputpinendflush-method"></a>Méthode CBaseOutputPin. EndFlush
 
@@ -40,11 +40,11 @@ HRESULT EndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne E \_ inattendu.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode doit uniquement être appelée sur les broches d’entrée, de sorte que l’implémentation de **CBaseOutputPin** retourne E \_ inattendue.
 

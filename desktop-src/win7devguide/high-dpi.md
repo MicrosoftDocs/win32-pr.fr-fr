@@ -1,15 +1,15 @@
 ---
 title: Haute résolution
-description: .
+description: Haute résolution
 ms.assetid: 476fe65c-2acd-4a7a-8a76-72d9f010b772
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adad7c986c7083ab2327f0c8de0bd2cace5ef20a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc7c70e44c497f116348e7b42b260f056d593524
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031644"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114697"
 ---
 # <a name="high-dpi"></a>Haute résolution
 
@@ -27,6 +27,6 @@ La fonctionnalité de mise à l’échelle *PPP* de Windows met à l’échelle 
 
 Pour plus d’informations sur les *résolutions élevées* et sur l’écriture d’applications qui prennent en charge la *résolution* haute résolution, consultez [haute résolution](../hidpi/high-dpi-desktop-application-development-on-windows.md).
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: Retourne une bitmap UInt32 avec les droits d’accès au partage détenu par l’utilisateur ou le groupe au nom duquel l’instance est retournée.
+description: La méthode GetAccessMask de la classe Win32_Share-retourne une bitmap UInt32 avec les droits d’accès au partage détenu par l’utilisateur ou le groupe au nom duquel l’instance est retournée.
 ms.assetid: 234f44a4-ffff-431d-a973-98f2bd313c7d
 ms.tgt_platform: multiple
 title: Méthode GetAccessMask de la classe Win32_Share
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 745ce6d607adf84827c14a588640572b5d92be00
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fcd6396f6421060a67108e7c428c99bcd7ca9651
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950560"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097017"
 ---
 # <a name="getaccessmask-method-of-the-win32_share-class"></a>Méthode GetAccessMask de la \_ classe de partage Win32
 
@@ -40,7 +40,7 @@ uint32 GetAccessMask();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Droits d’accès au partage détenu par l’utilisateur ou le groupe.
 
@@ -172,7 +172,7 @@ Synchronise l’accès et permet à un processus d’attendre qu’un objet pass
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode **GetAccessMask** est une méthode d’objet qui est utilisée sur une occurrence de cette classe.
 

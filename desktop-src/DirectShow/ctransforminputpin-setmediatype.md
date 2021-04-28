@@ -1,5 +1,5 @@
 ---
-description: La méthode SetMediaType définit le type de média pour la connexion.
+description: 'Méthode CTransformInputPin. SetMediaType : la méthode SetMediaType définit le type de média pour la connexion.'
 ms.assetid: 8e83380f-ba38-4fb8-ac32-40d68a4efea6
 title: Méthode CTransformInputPin. SetMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b42531a003fbad1a2a08864390a512296c440e64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9af7310dbbf8830d7469c1a72ae43b946f1fbc69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531131"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094997"
 ---
 # <a name="ctransforminputpinsetmediatype-method"></a>Méthode CTransformInputPin. SetMediaType
 
@@ -49,11 +49,11 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui spécifie le type de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: SetMediaType**](cbasepin-setmediatype.md) . Elle appelle la méthode [**CTransformFilter :: SetMediaType**](ctransformfilter-setmediatype.md) du filtre pour informer le filtre.
 

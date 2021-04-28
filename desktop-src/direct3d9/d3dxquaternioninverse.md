@@ -1,5 +1,5 @@
 ---
-description: Conjugue et renormalise un Quaternion.
+description: 'D3DXQuaternionInverse, fonction (D3dx9math. h) : conjugue et renormalise un Quaternion.'
 ms.assetid: 25407a60-f7c0-4063-8d1d-2d6d03bdb217
 title: D3DXQuaternionInverse, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b2f830b7f8f797e4ed94eb22b4c2a05c3bd3e4cd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6ebb2520efa3c7c78d98fd8b90ec1ba9615e9927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094067"
 ---
 # <a name="d3dxquaternioninverse-function-d3dx9mathh"></a>D3DXQuaternionInverse, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXQUATERNION**](d3dxquaternion.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le Quaternion inverse du Quaternion.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 
 ```

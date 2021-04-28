@@ -1,5 +1,5 @@
 ---
-description: Retourne un point dans les coordonnées Barycentric, à l’aide des vecteurs 3D spécifiés.
+description: 'D3DXVec3BaryCentric, fonction (D3DX10Math. h) : retourne un point dans les coordonnées Barycentric, à l’aide des vecteurs 3D spécifiés.'
 ms.assetid: 572e151d-8044-480e-92b2-3f973d92d03e
 title: D3DXVec3BaryCentric, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 3c14d01acc71a13cabb810d5b26d0afaf7f67f7c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e350bde6d1b898088ccb9b68d10a9a346935bfd5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523191"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108247"
 ---
 # <a name="d3dxvec3barycentric-function-d3dx10mathh"></a>D3DXVec3BaryCentric, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](../direct3d9/d3dxvector3.md)\***
 
 Pointeur vers une structure D3DXVECTOR3 dans les coordonnées Barycentric.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction D3DXVec3BaryCentric fournit un moyen de comprendre les points dans et autour d’un triangle, indépendamment de l’endroit où le triangle est réellement situé. Cette fonction retourne le point résultant à l’aide de l’équation suivante : v1 + f (V2-V1) + g (v3-v1).
 
