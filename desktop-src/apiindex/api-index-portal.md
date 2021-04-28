@@ -5,12 +5,12 @@ title: Index d’API
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 66e4be746ee8d62f2458eb85c84ca901d4f0c5ef
-ms.sourcegitcommit: 0c786b1682063d0cae0fc43180945183fa2c7981
+ms.openlocfilehash: 0c72c14bffa43150357d6bfe0d025d515fef9f2f
+ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "104383267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172491"
 ---
 # <a name="api-index-for-desktop-windows-applications"></a>Index d’API pour les applications de bureau Windows
 
@@ -31,7 +31,7 @@ L’API Win32 (également appelée API Windows) est la plateforme native pour le
 WinRT est la plateforme de pointe pour les applications et les jeux Windows 10, y compris les applications de bureau. L’API WinRT est adaptée aux applications natives C++ et de bureau gérées qui requièrent une interface utilisateur sophistiquée, une personnalisation des styles et des scénarios nécessitant de nombreuses ressources graphiques.
 
 * [Informations de référence sur les API WinRT](/uwp/api/)
-* [API WinRT pouvant être appelées à partir d’applications de bureau Win32, WPF et Windows Forms](uwp-apis-callable-from-a-classic-desktop-app.md)
+* [API WinRT pouvant être appelées à partir d’une application de bureau](uwp-apis-callable-from-a-classic-desktop-app.md)
 
 ## <a name="net"></a>.NET
 
