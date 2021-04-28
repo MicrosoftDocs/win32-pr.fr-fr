@@ -1,5 +1,5 @@
 ---
-description: Ajoute un fichier à la liste des derniers fichiers utilisés (MRU).
+description: 'Méthode IShellDispatch3. AddToRecent : ajoute un fichier à la liste des derniers fichiers utilisés.'
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 title: Méthode IShellDispatch3. AddToRecent (shldisp. h)
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3f52e6b90b7be078cc8177e9c3fe3093ba5c681e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d31d05e9eef889d9018e4806cf4c882dba3060e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753069"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116927"
 ---
-# <a name="ishelldispatch3addtorecent-method"></a><span data-ttu-id="11168-103">Méthode IShellDispatch3. AddToRecent</span><span class="sxs-lookup"><span data-stu-id="11168-103">IShellDispatch3.AddToRecent method</span></span>
+# <a name="ishelldispatch3addtorecent-method"></a><span data-ttu-id="8282d-103">Méthode IShellDispatch3. AddToRecent</span><span class="sxs-lookup"><span data-stu-id="8282d-103">IShellDispatch3.AddToRecent method</span></span>
 
-<span data-ttu-id="11168-104">Ajoute un fichier à la liste des derniers fichiers utilisés (MRU).</span><span class="sxs-lookup"><span data-stu-id="11168-104">Adds a file to the most recently used (MRU) list.</span></span>
+<span data-ttu-id="8282d-104">Ajoute un fichier à la liste des derniers fichiers utilisés (MRU).</span><span class="sxs-lookup"><span data-stu-id="8282d-104">Adds a file to the most recently used (MRU) list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="11168-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="11168-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8282d-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="8282d-105">Syntax</span></span>
 
 
 ```JScript
@@ -47,45 +47,45 @@ IShellDispatch3.AddToRecent( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="11168-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="11168-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8282d-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="8282d-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="11168-107">*varFile* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="11168-107">*varFile* \[in\]</span></span>
+<span data-ttu-id="8282d-107">*varFile* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="8282d-107">*varFile* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="11168-108">Type : **variante**</span><span class="sxs-lookup"><span data-stu-id="11168-108">Type: **Variant**</span></span>
+<span data-ttu-id="8282d-108">Type : **variante**</span><span class="sxs-lookup"><span data-stu-id="8282d-108">Type: **Variant**</span></span>
 
-<span data-ttu-id="11168-109">**Chaîne** qui contient le chemin d’accès du fichier à ajouter à la liste des documents récemment utilisés.</span><span class="sxs-lookup"><span data-stu-id="11168-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
+<span data-ttu-id="8282d-109">**Chaîne** qui contient le chemin d’accès du fichier à ajouter à la liste des documents récemment utilisés.</span><span class="sxs-lookup"><span data-stu-id="8282d-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
 
-<span data-ttu-id="11168-110">**Windows Vista**: définissez ce paramètre sur la **valeur null** pour effacer le dossier documents récents.</span><span class="sxs-lookup"><span data-stu-id="11168-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
+<span data-ttu-id="8282d-110">**Windows Vista**: définissez ce paramètre sur la **valeur null** pour effacer le dossier documents récents.</span><span class="sxs-lookup"><span data-stu-id="8282d-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="11168-111">*bstrCategory* \[ dans, facultatif\]</span><span class="sxs-lookup"><span data-stu-id="11168-111">*bstrCategory* \[in, optional\]</span></span>
+<span data-ttu-id="8282d-111">*bstrCategory* \[ dans, facultatif\]</span><span class="sxs-lookup"><span data-stu-id="8282d-111">*bstrCategory* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="11168-112">Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="11168-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
+<span data-ttu-id="8282d-112">Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="8282d-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
 
-<span data-ttu-id="11168-113">**Chaîne** qui contient le nom de la catégorie dans laquelle placer le fichier.</span><span class="sxs-lookup"><span data-stu-id="11168-113">A **String** that contains the name of the category in which to place the file.</span></span>
+<span data-ttu-id="8282d-113">**Chaîne** qui contient le nom de la catégorie dans laquelle placer le fichier.</span><span class="sxs-lookup"><span data-stu-id="8282d-113">A **String** that contains the name of the category in which to place the file.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="11168-114">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="11168-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8282d-114">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="8282d-114">Return value</span></span>
 
-### <a name="jscript"></a><span data-ttu-id="11168-115">JScript</span><span class="sxs-lookup"><span data-stu-id="11168-115">JScript</span></span>
+### <a name="jscript"></a><span data-ttu-id="8282d-115">JScript</span><span class="sxs-lookup"><span data-stu-id="8282d-115">JScript</span></span>
 
-<span data-ttu-id="11168-116">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="11168-116">This method does not return a value.</span></span>
+<span data-ttu-id="8282d-116">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="8282d-116">This method does not return a value.</span></span>
 
-### <a name="vb"></a><span data-ttu-id="11168-117">VB</span><span class="sxs-lookup"><span data-stu-id="11168-117">VB</span></span>
+### <a name="vb"></a><span data-ttu-id="8282d-117">VB</span><span class="sxs-lookup"><span data-stu-id="8282d-117">VB</span></span>
 
-<span data-ttu-id="11168-118">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="11168-118">This method does not return a value.</span></span>
+<span data-ttu-id="8282d-118">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="8282d-118">This method does not return a value.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="11168-119">Exemples</span><span class="sxs-lookup"><span data-stu-id="11168-119">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="8282d-119">Exemples</span><span class="sxs-lookup"><span data-stu-id="8282d-119">Examples</span></span>
 
-<span data-ttu-id="11168-120">Les exemples suivants illustrent l’utilisation de **AddToRecent** pour JScript, VBScript et Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="11168-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="8282d-120">Les exemples suivants illustrent l’utilisation de **AddToRecent** pour JScript, VBScript et Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="8282d-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="11168-121">Langage</span><span class="sxs-lookup"><span data-stu-id="11168-121">JScript:</span></span>
+<span data-ttu-id="8282d-121">Langage</span><span class="sxs-lookup"><span data-stu-id="8282d-121">JScript:</span></span>
 
 
 ```JScript
@@ -113,7 +113,7 @@ IShellDispatch3.AddToRecent( _
 
 
 
-<span data-ttu-id="11168-122">VBScript</span><span class="sxs-lookup"><span data-stu-id="11168-122">VBScript:</span></span>
+<span data-ttu-id="8282d-122">VBScript</span><span class="sxs-lookup"><span data-stu-id="8282d-122">VBScript:</span></span>
 
 
 ```VB
@@ -146,7 +146,7 @@ IShellDispatch3.AddToRecent( _
 
 
 
-<span data-ttu-id="11168-123">Visual Basic :</span><span class="sxs-lookup"><span data-stu-id="11168-123">Visual Basic:</span></span>
+<span data-ttu-id="8282d-123">Visual Basic :</span><span class="sxs-lookup"><span data-stu-id="8282d-123">Visual Basic:</span></span>
 
 
 ```VB
@@ -174,17 +174,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="11168-124">Spécifications</span><span class="sxs-lookup"><span data-stu-id="11168-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8282d-124">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="8282d-124">Requirements</span></span>
 
 
 
-| <span data-ttu-id="11168-125">Condition requise</span><span class="sxs-lookup"><span data-stu-id="11168-125">Requirement</span></span> | <span data-ttu-id="11168-126">Valeur</span><span class="sxs-lookup"><span data-stu-id="11168-126">Value</span></span> |
+| <span data-ttu-id="8282d-125">Condition requise</span><span class="sxs-lookup"><span data-stu-id="8282d-125">Requirement</span></span> | <span data-ttu-id="8282d-126">Valeur</span><span class="sxs-lookup"><span data-stu-id="8282d-126">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="11168-127">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="11168-127">Minimum supported client</span></span><br/> | <span data-ttu-id="11168-128">Applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="11168-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
-| <span data-ttu-id="11168-129">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="11168-129">Minimum supported server</span></span><br/> | <span data-ttu-id="11168-130">Applications de bureau Windows Server 2003 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="11168-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="11168-131">En-tête</span><span class="sxs-lookup"><span data-stu-id="11168-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="11168-132"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="11168-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
-| <span data-ttu-id="11168-133">MIDL</span><span class="sxs-lookup"><span data-stu-id="11168-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="11168-134"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="11168-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
-| <span data-ttu-id="11168-135">DLL</span><span class="sxs-lookup"><span data-stu-id="11168-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="11168-136"><dt>Shell32.dll (version 6,0 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="11168-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="8282d-127">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="8282d-127">Minimum supported client</span></span><br/> | <span data-ttu-id="8282d-128">Applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="8282d-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
+| <span data-ttu-id="8282d-129">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="8282d-129">Minimum supported server</span></span><br/> | <span data-ttu-id="8282d-130">Applications de bureau Windows Server 2003 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="8282d-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="8282d-131">En-tête</span><span class="sxs-lookup"><span data-stu-id="8282d-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="8282d-132"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="8282d-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
+| <span data-ttu-id="8282d-133">MIDL</span><span class="sxs-lookup"><span data-stu-id="8282d-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="8282d-134"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="8282d-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
+| <span data-ttu-id="8282d-135">DLL</span><span class="sxs-lookup"><span data-stu-id="8282d-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="8282d-136"><dt>Shell32.dll (version 6,0 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="8282d-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
 
 
 
