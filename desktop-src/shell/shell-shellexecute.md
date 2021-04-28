@@ -1,5 +1,5 @@
 ---
-description: Exécute une opération spécifiée sur un fichier spécifié.
+description: Shell. ShellExecute, méthode-effectue une opération spécifiée sur un fichier spécifié.
 ms.assetid: 62E59A1C-51BD-4864-AF09-35FFD49FAB9D
 title: Méthode Shell.ShellExecute (Shldisp.h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 83ab9741199bff675245f15dc2ad1ffb20592a35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fd31f0859fff5a1c94d5586f287e4a8980ddc02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973315"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104127"
 ---
 # <a name="shellshellexecute-method"></a>Shell. ShellExecute, méthode
 
@@ -113,7 +113,7 @@ Recommandation relative à l’affichage initial de la fenêtre d’application.
 
 | Valeur                                                                                                                               | Signification                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt></dt> <dt>0</dt> </dl>  | Ouvrez l’application à l’aide d’une fenêtre masquée.<br/>                                                                                                    |
+| <dl> <dt></dt><dt>0</dt> </dl>  | Ouvrez l’application à l’aide d’une fenêtre masquée.<br/>                                                                                                    |
 | <dl> <dt></dt> <dt>1</dt> </dl>  | Ouvrez l’application avec une fenêtre normale. Si la fenêtre est réduite ou agrandie, le système la restaure à sa taille et à sa position d’origine.<br/> |
 | <dl> <dt></dt> <dt>2</dt> </dl>  | Ouvrez l’application avec une fenêtre réduite.<br/>                                                                                                 |
 | <dl> <dt></dt> <dt>3</dt> </dl>  | Ouvrez l’application avec une fenêtre agrandie.<br/>                                                                                                 |
@@ -128,7 +128,7 @@ Recommandation relative à l’affichage initial de la fenêtre d’application.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est équivalente au lancement de l’une des commandes associées au menu contextuel d’un fichier. Chaque commande est représentée par une chaîne de verbe. L’ensemble des verbes pris en charge varie d’un fichier à un fichier. Le verbe le plus couramment pris en charge est « Open », qui est généralement le verbe par défaut. Les autres verbes peuvent être pris en charge uniquement par certains types de fichiers. Pour plus d’informations sur les verbes de Shell, consultez [lancement d’applications](launch.md) ou [extension des menus contextuels](context.md).
 
@@ -161,7 +161,7 @@ End Function
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

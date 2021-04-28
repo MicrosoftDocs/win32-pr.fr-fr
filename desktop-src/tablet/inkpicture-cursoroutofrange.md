@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le curseur quitte la plage de détection physique (proximité) du contexte de la tablette.
+description: L’événement InkPicture. CursorOutOfRange se produit lorsque le curseur quitte la plage de détection physique (proximité) du contexte de la tablette.
 ms.assetid: 0c71a4ad-3c09-4134-b0e7-82f29e8913ed
 title: InkPicture. CursorOutOfRange, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6a3eb09ca54fcfc4df3135896ea14f9bf56570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d80584eafb7f1e5222316507f08bd73efb12fae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519493"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086567"
 ---
 # <a name="inkpicturecursoroutofrange-event"></a>InkPicture. CursorOutOfRange, événement
 
@@ -37,11 +37,11 @@ Objet d' [**interface IInkCursor**](/windows/desktop/api/msinkaut/nn-msinkaut-ii
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICECursorOutOfRange.
 

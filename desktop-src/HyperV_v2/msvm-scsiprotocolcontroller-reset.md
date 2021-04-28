@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_SCSIProtocolController-demande une réinitialisation.
 ms.assetid: 8de43754-19dc-4865-af6c-badcb5445167
 title: Méthode Reset de la classe Msvm_SCSIProtocolController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: db64708b83db9f54b3f10f082fdd8725ea2656e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40d2ea3a69d0a13b067b6bb3ca70fe18c4741715
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953258"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111467"
 ---
 # <a name="reset-method-of-the-msvm_scsiprotocolcontroller-class"></a>Méthode Reset de la \_ classe MSVM SCSIProtocolController
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

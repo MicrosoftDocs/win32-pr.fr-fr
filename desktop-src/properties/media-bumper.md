@@ -1,17 +1,17 @@
 ---
-description: .
+description: Média
 ms.assetid: cd71978d-09d9-43f1-ab1b-4b213e3a193b
-title: Multimédia
+title: Média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55cadc94c9891923789a2342b67d49990fd5b438
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 72d436db24aba399b49cc6c905091900d8c08c23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104211253"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105027"
 ---
-# <a name="media"></a>Multimédia
+# <a name="media"></a>Média
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

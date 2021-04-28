@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CBasePin. CBasePin.
 ms.assetid: e8cb5f1d-171f-4bf8-8ab6-6e547c4678d2
 title: Constructeur CBasePin. CBasePin (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dd4883d3d8e906e1da2f377344b735037c5e5cd3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f11dea6bd5bc3f766e5f93a04022dab5ba6e51a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541737"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099427"
 ---
 # <a name="cbasepincbasepin-constructor"></a>Constructeur CBasePin. CBasePin
 
@@ -89,7 +89,7 @@ Membre de l’énumération de [**\_ direction du code confidentiel**](/windows/
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La section critique spécifiée par *pLock* sérialise l’état du pin, y compris son état de connexion, le choix de l’allocateur, le type de média et l’état des opérations de vidage. N’utilisez pas cette section critique pour sérialiser les opérations de diffusion en continu. Pour plus d’informations, consultez [Data Flow dans le graphique de filtre](data-flow-in-the-filter-graph.md).
 

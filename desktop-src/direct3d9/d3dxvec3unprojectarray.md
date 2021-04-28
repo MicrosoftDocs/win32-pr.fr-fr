@@ -1,5 +1,5 @@
 ---
-description: Projette un tableau (x, y, z, 0) de l’espace à l’écran dans l’espace de l’objet.
+description: D3DXVec3UnprojectArray, fonction (D3dx9math. h)-projette un tableau (x, y, z, 0) de l’espace à l’écran dans l’espace de l’objet.
 ms.assetid: fef2a76c-c2fe-48c5-a1bb-6669bcc76b9b
 title: D3DXVec3UnprojectArray, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3af4cc05b5f8ee30c624f904df7e2ae5cd4b844a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 67e42b30a8f8d44bb9b21668a515a202436b7631
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953970"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097717"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx9mathh"></a>D3DXVec3UnprojectArray, fonction (D3dx9math. h)
 
@@ -129,13 +129,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le tableau projeté de l’espace à l’écran jusqu’à l’espace de l’objet.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction [**D3DXVec3Unproject**](d3dxvec3unproject.md) peut être utilisée comme paramètre pour une autre fonction.
 

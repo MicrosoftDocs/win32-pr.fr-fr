@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de défaillance TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe TcpIp_Fail : cette classe est la classe de type d’événement pour les événements de défaillance TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 1fe20b8c-b8f1-4db0-af78-1ebfc40b2bbd
 title: Classe TcpIp_Fail
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a89d882509ea766e62c8b78e6c2a5fa769fbcca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 897c42a1c2530d3e41d1f937d5d59356a2913e2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972507"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105847"
 ---
 # <a name="tcpip_fail-class"></a>TcpIp ( \_ classe d’échec)
 
@@ -107,7 +107,7 @@ Identifie le protocole. Peut avoir l’une des valeurs suivantes :
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

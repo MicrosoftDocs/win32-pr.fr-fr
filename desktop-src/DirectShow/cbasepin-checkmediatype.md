@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.
+description: 'Méthode CBasePin. CheckMediaType : la méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.'
 ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
 title: Méthode CBasePin. CheckMediaType (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e203851a44a5468567e75ee8c0cc955f8ad0278a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afe39f3a7aac155f3cc87fa6d58f402043861d1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537872"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099396"
 ---
 # <a name="cbasepincheckmediatype-method"></a>Méthode CBasePin. CheckMediaType
 
@@ -49,11 +49,11 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK si le type de média proposé est acceptable. Sinon, retourne S \_ false ou un code d’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La classe dérivée doit substituer cette méthode virtuelle pure.
 

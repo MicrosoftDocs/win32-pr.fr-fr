@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_S3DisplayController-demande un changement d’État.
 ms.assetid: 49b8ea85-ae2e-49cc-9a7d-962681391991
 title: Méthode RequestStateChange de la classe Msvm_S3DisplayController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: eab1afc5a54e8479790f42fe3f52850480727ad0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d8583407c617413f9015516dff13498473b11de
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034868"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111497"
 ---
 # <a name="requeststatechange-method-of-the-msvm_s3displaycontroller-class"></a>Méthode RequestStateChange de la \_ classe MSVM S3DisplayController
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

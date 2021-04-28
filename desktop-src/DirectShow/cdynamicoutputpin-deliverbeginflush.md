@@ -1,5 +1,5 @@
 ---
-description: La méthode DeliverBeginFlush demande à la broche d’entrée connectée de commencer une opération de vidage.
+description: 'Méthode CDynamicOutputPin. DeliverBeginFlush : la méthode DeliverBeginFlush demande à la broche d’entrée connectée de commencer une opération de vidage.'
 ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
 title: Méthode CDynamicOutputPin. DeliverBeginFlush (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 242394a327b63fcc901b08f572096bf2f42238b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4158a3d6191325e8b647e4551133952d623f795
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099317"
 ---
 # <a name="cdynamicoutputpindeliverbeginflush-method"></a>Méthode CDynamicOutputPin. DeliverBeginFlush
 
@@ -40,11 +40,11 @@ HRESULT DeliverBeginFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBaseOutputPin ::D eliverbeginflush**](cbaseoutputpin-deliverbeginflush.md) . Il définit l’événement [**CDynamicOutputPin :: m \_ hStopEvent**](cdynamicoutputpin-m-hstopevent.md) .
 

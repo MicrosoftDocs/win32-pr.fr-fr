@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements de configuration matérielle. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe SystemConfig_V0 : cette classe est la classe parente pour les événements de configuration matérielle. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 9da1a7ec-89b5-462b-a336-544e4b7adf96
 title: Classe SystemConfig_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 92d77d1ad3effdd2bf22a7df8112187b27666238
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f0c579f4fb9c947ea02ff677cd433da3103cfc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864250"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105907"
 ---
 # <a name="systemconfig_v0-class"></a>SystemConfig \_ v0 (classe)
 
@@ -38,11 +38,11 @@ class SystemConfig_V0 : MSNT_SystemTrace
 
 La classe **SystemConfig \_ v0** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour les événements de configuration matérielle sur Windows XP, consultez la classe [**HWConfig**](hwconfig.md) .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetDuration récupère la durée du flux. Cette méthode implémente la méthode IMediaSeeking :: GetDuration.'
+description: 'Méthode CSourceSeeking. GetDuration : la méthode GetDuration récupère la durée du flux. Cette méthode implémente la méthode IMediaSeeking :: GetDuration.'
 ms.assetid: 074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac
 title: Méthode CSourceSeeking. GetDuration (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8368f655394089c1155d848bc53d2ba2375e3320
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d5b961ad62d65c1f728af71e82de1373ea20b1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533353"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098767"
 ---
 # <a name="csourceseekinggetduration-method"></a>Méthode CSourceSeeking. GetDuration
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit la durée, en unités du format d’heure
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                               | Description                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Succès<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie<br/>                |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Valeur de pointeur **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La durée est spécifiée par la variable membre [**CSourceSeeking :: m \_ rtDuration**](csourceseeking-m-rtduration.md) .
 

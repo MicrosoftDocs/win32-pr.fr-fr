@@ -1,5 +1,5 @@
 ---
-description: La méthode start démarre une capture.
+description: 'IDelaydC :: Start, méthode-la méthode start démarre une capture.'
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
 title: 'IDelaydC :: Start, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a912af44dddb8a25d3279a5cdd7f021646c26e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25bf778d9cccce20c736c5f8b83e6af9754ac933
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513353"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118437"
 ---
 # <a name="idelaydcstart-method"></a>IDelaydC :: Start, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers le nom du [*fichier de capture*](c.md) utilisé pour stocker les d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -66,7 +66,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’emplacement du [*fichier de capture*](c.md) est spécifié dans le Registre Windows, mais vous pouvez utiliser Moniteur réseau pour modifier l’emplacement du fichier.
 

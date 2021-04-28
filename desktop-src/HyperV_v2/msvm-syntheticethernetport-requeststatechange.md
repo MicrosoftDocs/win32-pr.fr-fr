@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_SyntheticEthernetPort-demande un changement d’État.
 ms.assetid: 9aea3a8e-8b62-48c3-bbdb-49f24aeeca22
 title: Méthode RequestStateChange de la classe Msvm_SyntheticEthernetPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 328f7eab1538c0d26cbdcc3cf4c2030f20ea58cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a751ba40be7ddeb6d71f104036487dd8acb209a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034269"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111307"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticethernetport-class"></a>Méthode RequestStateChange de la \_ classe MSVM SyntheticEthernetPort
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

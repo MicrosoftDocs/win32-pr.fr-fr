@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode Initialize.
+description: IWICBitmapFlipRotator_Initialize_Proxy fonction-proxy pour la méthode Initialize.
 ms.assetid: 860e8092-054d-489e-8ca1-fec43a039eca
 title: IWICBitmapFlipRotator_Initialize_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 82a1aa5648edd47d0b635a407adc001c25183b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a260d6e60c0ffdeb05aa064ae8abbb38818ac8c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515640"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091157"
 ---
 # <a name="iwicbitmapfliprotator_initialize_proxy-function"></a>IWICBitmapFlipRotator \_ Initialise la \_ fonction proxy
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapFlipRotator_Initialize_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) \** _
+Type : **[ **IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)\***
 
-Pointeur vers cet objet [_ *IWICBitmapFlipRotator* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) .
+Pointeur vers cet objet [**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) .
 
 </dd> <dt>
 
 *pISource* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+Type : **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 Source de l’image bitmap d’entrée.
 
 </dd> <dt>
 
-_options * \[ dans\]
+*options* \[ dans\]
 </dt> <dd>
 
 Type : **[ **WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)**
@@ -69,7 +69,7 @@ Type : **[ **WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-winc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

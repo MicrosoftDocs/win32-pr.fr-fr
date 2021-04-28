@@ -1,5 +1,5 @@
 ---
-description: La méthode Disconnect interrompt la connexion de code confidentiel actuelle. Cette méthode implémente la méthode IPin ::D éconnecter.
+description: 'CDynamicOutputPin. Disconnect, méthode : la méthode Disconnect interrompt la connexion de code confidentiel actuelle. Cette méthode implémente la méthode IPin ::D éconnecter.'
 ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
 title: CDynamicOutputPin. Disconnect, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 65c61ecc825d703976aa3163be5922da1ac4471a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a775146973b353413fa2e74584a6c763b721e7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531072"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099297"
 ---
 # <a name="cdynamicoutputpindisconnect-method"></a>CDynamicOutputPin. Disconnect, méthode
 
@@ -40,7 +40,7 @@ HRESULT Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -49,13 +49,13 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 | Code de retour                                                                             | Description                           |
 |-----------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | Le pin n’était pas connecté.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                   |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin ::D éconnecter**](cbasepin-disconnect.md) pour activer la déconnexion pendant que le filtre est actif.
 

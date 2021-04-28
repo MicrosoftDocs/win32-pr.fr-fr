@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_SyntheticMouse-demande un changement d’État.
 ms.assetid: 6c29dc19-0e5a-48cc-ae4a-f7cf127678b2
 title: Méthode RequestStateChange de la classe Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0b708262f71b733610052f1b778315f9b009e78b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 427dc0176856389f2eab2ae0c002c522f81048f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516212"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111207"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticmouse-class"></a>Méthode RequestStateChange de la \_ classe MSVM SyntheticMouse
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

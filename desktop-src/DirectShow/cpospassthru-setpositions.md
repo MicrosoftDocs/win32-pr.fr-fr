@@ -1,5 +1,5 @@
 ---
-description: 'La méthode SetPositions définit la position actuelle et la position d’arrêt. Cette méthode implémente la méthode IMediaSeeking :: SetPositions.'
+description: 'Méthode CPosPassThru. SetPositions : la méthode SetPositions définit la position actuelle et la position d’arrêt. Cette méthode implémente la méthode IMediaSeeking :: SetPositions.'
 ms.assetid: d4425221-e20f-4e51-8a33-a74fa21f9117
 title: Méthode CPosPassThru. SetPositions (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 409b4a63f02e6751f987a53dad2836adecd27607
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f8c61f24ab51ffe7fa161830ef9a0c8bdd167256
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523455"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085477"
 ---
 # <a name="cpospassthrusetpositions-method"></a>Méthode CPosPassThru. SetPositions
 
@@ -73,7 +73,7 @@ Combinaison d’opérations de bits d’indicateurs. Pour plus d’informations,
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur **HRESULT** de la broche connectée.
 

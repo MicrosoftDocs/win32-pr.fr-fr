@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de début et de fin de thread. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe Thread_V2_TypeGroup1 : cette classe est la classe de type d’événement pour les événements de début et de fin de thread. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: c24b4bc9-2a05-444c-be41-b4dfd0511b93
 title: Classe Thread_V2_TypeGroup1
 ms.topic: reference
@@ -22,12 +22,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c89d573f4eda2580002bedfd0ad17eb9b50c1575
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac4655fc374c40eb530828229a319f9ee1375e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203420"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105657"
 ---
 # <a name="thread_v2_typegroup1-class"></a>\_ \_ Classe TypeGroup1 du thread v2
 
@@ -226,11 +226,11 @@ Adresse de début de la fonction à exécuter par ce thread.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les types d’événements DCStart et DCEnd énumèrent les threads en cours d’exécution au moment où la session du noyau démarre et se termine, respectivement.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

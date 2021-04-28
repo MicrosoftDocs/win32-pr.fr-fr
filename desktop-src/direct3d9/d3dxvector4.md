@@ -1,5 +1,5 @@
 ---
-description: Décrit un vecteur à quatre composants incluant des surcharges d’opérateur et des casts de type.
+description: D3DXVECTOR4 structure (D3dx9math. h)-décrit un vecteur à quatre composants incluant des surcharges d’opérateur et des casts de type.
 ms.assetid: fbfe7851-7bec-4fa0-b4dc-52f5cb83d0a4
 title: D3DXVECTOR4, structure (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 1647705877d5cacabbaeb79c4055de298e23b68f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d053c6d26df600fdf09d54eb66866014478845be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097567"
 ---
 # <a name="d3dxvector4-structure-d3dx9mathh"></a>D3DXVECTOR4, structure (D3dx9math. h)
 
@@ -86,7 +86,7 @@ Composant w.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 ### <a name="d3dxvector4-extensions"></a>Extensions D3DXVECTOR4
 

@@ -1,5 +1,5 @@
 ---
-description: État actuel du rapport.
+description: 'Propriété LocationDisp. CivicAddressReportFactory. Status : état actuel du rapport.'
 ms.assetid: 3aae0b61-cdaa-4131-b6e1-406813bb1848
 title: LocationDisp. CivicAddressReportFactory. Status, propriété
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ff937b11fbb64e0ec1596f9b3b9d85b33528eb06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acb5bcfa589139e2c69e75124253f9d9a7b53a87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522220"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118497"
 ---
 # <a name="locationdispcivicaddressreportfactorystatus-property"></a>LocationDisp. CivicAddressReportFactory. Status, propriété
 
@@ -44,7 +44,7 @@ Cette propriété est un **nombre** en lecture seule (unsigned long).
 
 | Statut                                                                                               | Signification                          |
 |------------------------------------------------------------------------------------------------------|----------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Rapport non pris en charge.<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Rapport non pris en charge.<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur.<br/>                |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Accès refusé.<br/>        |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Initialisation en cours.<br/>         |

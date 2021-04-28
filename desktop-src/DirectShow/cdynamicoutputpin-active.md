@@ -1,5 +1,5 @@
 ---
-description: La méthode active indique au code confidentiel que le filtre est maintenant actif.
+description: 'CDynamicOutputPin. active, méthode : la méthode active indique au code confidentiel que le filtre est maintenant actif.'
 ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
 title: CDynamicOutputPin. active, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8f1765d0aa524c0dafd03a3fe4133af71e32fa70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d9544c0fd125146b10f008565fcfbe330d18de1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099327"
 ---
 # <a name="cdynamicoutputpinactive-method"></a>CDynamicOutputPin. active, méthode
 
@@ -40,7 +40,7 @@ HRESULT Active();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                            | Description                                                                                                     |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                                                                                             |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                                                                                             |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Échec. [**CDynamicOutputPin :: SetConfigInfo**](cdynamicoutputpin-setconfiginfo.md) n’a pas été appelé.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBaseOutputPin :: active**](cbaseoutputpin-active.md) . Il réinitialise l’événement [**CDynamicOutputPin :: m \_ hStopEvent**](cdynamicoutputpin-m-hstopevent.md) . Si le filtre propriétaire n’a pas appelé **SetConfigInfo**, cette méthode retourne E \_ Fail.
 

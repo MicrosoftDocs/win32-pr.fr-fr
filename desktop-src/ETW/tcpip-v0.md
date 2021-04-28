@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe TcpIp_V0 : cette classe est la classe parente pour les événements TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 8738dc11-f1d4-4c30-b2ea-c34a8fdce9ac
 title: Classe TcpIp_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 27262e0472984a7943a1d52bf8479526f96c5ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20cbe5c03d686ae8a4b1558899362251ba219e0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863574"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105767"
 ---
 # <a name="tcpip_v0-class"></a>TcpIp \_ v0 (classe)
 
@@ -38,7 +38,7 @@ class TcpIp_V0 : MSNT_SystemTrace
 
 La classe **TcpIp \_ v0** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

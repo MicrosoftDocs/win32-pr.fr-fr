@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_MetricService-demande un changement d’État.
 ms.assetid: ee5ea754-42b6-4bea-b312-b88adeea891f
 title: Méthode RequestStateChange de la classe Msvm_MetricService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0f6efd58bbb682cfe2fd7ec8f896eb60e4e6d912
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfcb47dc0a440f4d48a457826985868bda6c05d1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111597"
 ---
 # <a name="requeststatechange-method-of-the-msvm_metricservice-class"></a>Méthode RequestStateChange de la \_ classe MSVM MetricService
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

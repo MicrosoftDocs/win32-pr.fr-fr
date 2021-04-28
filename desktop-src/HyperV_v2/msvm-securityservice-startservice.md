@@ -1,5 +1,5 @@
 ---
-description: démarre le service.
+description: Méthode StartService de la classe Msvm_SecurityService-démarre le service.
 ms.assetid: 59918c15-7216-4cf7-9215-b27532febc72
 title: Méthode StartService de la classe Msvm_SecurityService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: bff2721b942b6bb145f2d57492f27d1cabb722bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31e16eea84cf61ace11c241b6409a5810f74b8f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535721"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111397"
 ---
 # <a name="startservice-method-of-the-msvm_securityservice-class"></a>Méthode StartService de la \_ classe MSVM securityservice
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 En cas de réussite, retourne 0 ; Sinon, retourne une erreur.
 
