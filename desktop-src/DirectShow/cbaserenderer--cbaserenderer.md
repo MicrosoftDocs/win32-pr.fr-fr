@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CBaseRenderer. ~ CBaseRenderer, destructeur, méthode de destructeur.
 ms.assetid: d7d78226-d433-4cb8-bfb2-2e86c1b7009e
 title: CBaseRenderer. ~ CBaseRenderer, destructeur
 ms.topic: reference
@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e503412f2cc3d533219772114bcf6c7bc6d217d7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dfcc1a88d8bb5fc1317eb60d43187671f8f27eba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746276"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095957"
 ---
-# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="7b7c7-103">CBaseRenderer. ~ CBaseRenderer, destructeur</span><span class="sxs-lookup"><span data-stu-id="7b7c7-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
+# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="7a544-103">CBaseRenderer. ~ CBaseRenderer, destructeur</span><span class="sxs-lookup"><span data-stu-id="7a544-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
 
-<span data-ttu-id="7b7c7-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="7b7c7-104">Destructor method.</span></span>
+<span data-ttu-id="7a544-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="7a544-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7b7c7-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7b7c7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7a544-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="7a544-105">Syntax</span></span>
 
 
 ```C++
@@ -32,11 +32,11 @@ ms.locfileid: "103746276"
 
 
 
-## <a name="see-also"></a><span data-ttu-id="7b7c7-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7b7c7-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7a544-106">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="7a544-106">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="7b7c7-107">**CBaseRenderer, classe**</span><span class="sxs-lookup"><span data-stu-id="7b7c7-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
+[<span data-ttu-id="7a544-107">**CBaseRenderer, classe**</span><span class="sxs-lookup"><span data-stu-id="7a544-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-description: Description
+description: Description (haut débit mobile)-Description
 MS-HAID: WWAN\_profile\_v4.element\_Description
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -16,23 +16,23 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f8a4cbb21b12176771d3ab9091aef0540d8a7c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e72b2fca1df6ba76d933d289b5d73b717cb6af6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107017"
 ---
-# <a name="description-mobile-broadband"></a><span data-ttu-id="31695-103">Description (haut débit mobile)</span><span class="sxs-lookup"><span data-stu-id="31695-103">Description (Mobile Broadband)</span></span>
+# <a name="description-mobile-broadband"></a><span data-ttu-id="bca25-103">Description (haut débit mobile)</span><span class="sxs-lookup"><span data-stu-id="bca25-103">Description (Mobile Broadband)</span></span>
 
-<span data-ttu-id="31695-104">Description du profil.</span><span class="sxs-lookup"><span data-stu-id="31695-104">A description of the profile.</span></span>
+<span data-ttu-id="bca25-104">Description du profil.</span><span class="sxs-lookup"><span data-stu-id="bca25-104">A description of the profile.</span></span>
 
-## <a name="element-hierarchy"></a><span data-ttu-id="31695-105">Hiérarchie d’éléments</span><span class="sxs-lookup"><span data-stu-id="31695-105">Element hierarchy</span></span>
+## <a name="element-hierarchy"></a><span data-ttu-id="bca25-105">Hiérarchie d’éléments</span><span class="sxs-lookup"><span data-stu-id="bca25-105">Element hierarchy</span></span>
 
 [<MBNProfileExt>](element-mbnprofileext.md)  
 **<Description>**
 
-## <a name="syntax"></a><span data-ttu-id="31695-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="31695-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bca25-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="bca25-106">Syntax</span></span>
 
 ``` syntax
 <Description>
@@ -42,17 +42,17 @@ ms.locfileid: "104484841"
 </Description>
 ```
 
-## <a name="span-idattributes_and_elementsspanspan-idattributes_and_elementsspanspan-idattributes_and_elementsspanattributes-and-elements"></a><span data-ttu-id="31695-107"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="31695-107"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributes and Elements</span></span>
+## <a name="span-idattributes_and_elementsspanspan-idattributes_and_elementsspanspan-idattributes_and_elementsspanattributes-and-elements"></a><span data-ttu-id="bca25-107"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributs et éléments</span><span class="sxs-lookup"><span data-stu-id="bca25-107"><span id="Attributes_and_Elements"></span><span id="attributes_and_elements"></span><span id="ATTRIBUTES_AND_ELEMENTS"></span>Attributes and Elements</span></span>
 
-### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span data-ttu-id="31695-108"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs</span><span class="sxs-lookup"><span data-stu-id="31695-108"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributes</span></span>
+### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span data-ttu-id="bca25-108"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs</span><span class="sxs-lookup"><span data-stu-id="bca25-108"><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributes</span></span>
 
-<span data-ttu-id="31695-109">Aucun</span><span class="sxs-lookup"><span data-stu-id="31695-109">None.</span></span>
+<span data-ttu-id="bca25-109">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bca25-109">None.</span></span>
 
-### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span data-ttu-id="31695-110"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="31695-110"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Child Elements</span></span>
+### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span data-ttu-id="bca25-110"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants</span><span class="sxs-lookup"><span data-stu-id="bca25-110"><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Child Elements</span></span>
 
-<span data-ttu-id="31695-111">Aucun</span><span class="sxs-lookup"><span data-stu-id="31695-111">None.</span></span>
+<span data-ttu-id="bca25-111">Aucun.</span><span class="sxs-lookup"><span data-stu-id="bca25-111">None.</span></span>
 
-### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span data-ttu-id="31695-112"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents</span><span class="sxs-lookup"><span data-stu-id="31695-112"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements</span></span>
+### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span data-ttu-id="bca25-112"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents</span><span class="sxs-lookup"><span data-stu-id="bca25-112"><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Parent Elements</span></span>
 
 <table>
 <colgroup>
@@ -61,22 +61,22 @@ ms.locfileid: "104484841"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="31695-113">Élément parent</span><span class="sxs-lookup"><span data-stu-id="31695-113">Parent Element</span></span></th>
-<th><span data-ttu-id="31695-114">Description</span><span class="sxs-lookup"><span data-stu-id="31695-114">Description</span></span></th>
+<th><span data-ttu-id="bca25-113">Élément parent</span><span class="sxs-lookup"><span data-stu-id="bca25-113">Parent Element</span></span></th>
+<th><span data-ttu-id="bca25-114">Description</span><span class="sxs-lookup"><span data-stu-id="bca25-114">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="31695-115"><a href="element-mbnprofileext.md">MBNProfileExt</a></span><span class="sxs-lookup"><span data-stu-id="31695-115"><a href="element-mbnprofileext.md">MBNProfileExt</a></span></span></td>
-<td><p><span data-ttu-id="31695-116">L’élément <strong>MBNProfileExt</strong> est une extension de l’élément MBNProfile précédent.</span><span class="sxs-lookup"><span data-stu-id="31695-116">The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element.</span></span> <span data-ttu-id="31695-117">Il identifie un profil haut débit mobile avec un ensemble d’options plus riche que l’élément MBNProfile.</span><span class="sxs-lookup"><span data-stu-id="31695-117">It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</span></span></p>
-<p><span data-ttu-id="31695-118">Un profil peut contenir plusieurs éléments MbnProfileExt, décrivant des paramètres de profil pour un ensemble particulier de conditions de fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="31695-118">There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions.</span></span> <span data-ttu-id="31695-119">Utilisez l’élément enfant <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> de <strong>MBNProfileExt</strong> pour spécifier les conditions de fonctionnement qui font d’un profil particulier le profil actif.</span><span class="sxs-lookup"><span data-stu-id="31695-119">Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</span></span></p></td>
+<td><span data-ttu-id="bca25-115"><a href="element-mbnprofileext.md">MBNProfileExt</a></span><span class="sxs-lookup"><span data-stu-id="bca25-115"><a href="element-mbnprofileext.md">MBNProfileExt</a></span></span></td>
+<td><p><span data-ttu-id="bca25-116">L’élément <strong>MBNProfileExt</strong> est une extension de l’élément MBNProfile précédent.</span><span class="sxs-lookup"><span data-stu-id="bca25-116">The <strong>MBNProfileExt</strong> element is an extension of the earlier MBNProfile element.</span></span> <span data-ttu-id="bca25-117">Il identifie un profil haut débit mobile avec un ensemble d’options plus riche que l’élément MBNProfile.</span><span class="sxs-lookup"><span data-stu-id="bca25-117">It identifies a Mobile Broadband profile with a richer set of options than the MBNProfile element.</span></span></p>
+<p><span data-ttu-id="bca25-118">Un profil peut contenir plusieurs éléments MbnProfileExt, décrivant des paramètres de profil pour un ensemble particulier de conditions de fonctionnement.</span><span class="sxs-lookup"><span data-stu-id="bca25-118">There can be more than one MbnProfileExt element in a profile, describing profile settings for a particular set of operating conditions.</span></span> <span data-ttu-id="bca25-119">Utilisez l’élément enfant <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> de <strong>MBNProfileExt</strong> pour spécifier les conditions de fonctionnement qui font d’un profil particulier le profil actif.</span><span class="sxs-lookup"><span data-stu-id="bca25-119">Use the <a href="element-profileconditionedon.md"><strong>ProfileConditionedOn</strong></a> child element of <strong>MBNProfileExt</strong> to specify which operating conditions make a particular profile the active profile.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="31695-120">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="31695-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="bca25-120">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="bca25-120">Requirements</span></span>
 
 <table>
 <colgroup>
@@ -85,7 +85,7 @@ ms.locfileid: "104484841"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="31695-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="31695-121">Namespace</span></span></p></td>
+<td><p><span data-ttu-id="bca25-121">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="bca25-121">Namespace</span></span></p></td>
 <td><p>https://www.microsoft.com/networking/WWAN/profile/v4</p></td>
 </tr>
 </tbody>
