@@ -1,6 +1,6 @@
 ---
 title: Message HDM_SETUNICODEFORMAT (commctrl. h)
-description: Définit l’indicateur de format de caractère UNICODE pour le contrôle.
+description: 'HDM_SETUNICODEFORMAT message : définit l’indicateur de format de caractère UNICODE pour le contrôle.'
 ms.assetid: 18161fe5-c779-4be0-9e7a-1b5948e42b80
 keywords:
 - HDM_SETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fe3497413b265510426fab4ef2e71666f46312
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d32ffa5f7f90ab266c52c67899dbff3be0d51123
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465478"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085957"
 ---
 # <a name="hdm_setunicodeformat-message"></a>\_Message HDM SETUNICODEFORMAT
 
@@ -39,11 +39,11 @@ Jeu de caractères utilisé par le contrôle. Si cette valeur est différente de
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 

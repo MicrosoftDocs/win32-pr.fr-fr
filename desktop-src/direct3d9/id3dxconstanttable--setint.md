@@ -1,5 +1,5 @@
 ---
-description: Définit une valeur entière.
+description: 'ID3DXConstantTable :: setInt, méthode-définit une valeur entière.'
 ms.assetid: b57d30b5-c2b5-469e-a267-24e6e712d645
 title: 'ID3DXConstantTable :: setInt, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a0aa0a213f9f4704a5d557db66aaf360f8baa727
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f218a0cd1a0e1858f24ec8cbccb4848c37121086
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538519"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115127"
 ---
 # <a name="id3dxconstanttablesetint-method"></a>ID3DXConstantTable :: setInt, méthode
 
@@ -69,7 +69,7 @@ Entier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

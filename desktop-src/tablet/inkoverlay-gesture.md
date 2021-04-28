@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un mouvement spécifique à l’application est reconnu.
+description: Événement InkOverlay. geste-se produit lorsqu’un mouvement spécifique à l’application est reconnu.
 ms.assetid: 11b48fbc-0c93-4c3c-b218-258028822544
 title: InkOverlay. geste, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3db800db2d1fca9ee1b00620c698a592ac2121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b414aa1d0feaa19c5caee049eea29c59e90b58d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528337"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116947"
 ---
 # <a name="inkoverlaygesture-event"></a>InkOverlay. geste (événement)
 
@@ -63,11 +63,11 @@ Indique si la collection de ce mouvement doit être annulée, par exemple pour n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICEGesture.
 

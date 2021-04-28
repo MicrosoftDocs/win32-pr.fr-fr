@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un IInkTablet est ajouté au système.
+description: L’événement InkOverlay. TabletAdded-se produit lorsqu’un IInkTablet est ajouté au système.
 ms.assetid: 2076a520-bd37-43b5-b57f-030828b096cb
 title: InkOverlay. TabletAdded, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79c2faadcbf87e0772afb8f417c97a4be546e08b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c22630430622c98026c81adb1c6a131a53277a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541986"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116787"
 ---
 # <a name="inkoverlaytabletadded-event"></a>Événement InkOverlay. TabletAdded
 
@@ -37,11 +37,11 @@ Objet [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) qui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICETabletAdded.
 

@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode CopyPalette.
+description: IWICBitmapDecoder_CopyPalette_Proxy fonction de proxy de fonction pour la méthode CopyPalette.
 ms.assetid: 2775b389-d6e9-479c-93ea-147e4501551d
 title: IWICBitmapDecoder_CopyPalette_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ee6902668a9c4feffdcc696ce0d5f6214a707bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56dbc523fe29ef9cc958b6ffbd80509284b78b88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516648"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086357"
 ---
 # <a name="iwicbitmapdecoder_copypalette_proxy-function"></a>\_Fonction de \_ proxy IWICBitmapDecoder CopyPalette
 
@@ -44,24 +44,24 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+Tapez : **[ **IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-Pointeur vers cet objet [_ *IWICBitmapDecoder* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
+Pointeur vers cet objet [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
 
 </dd> <dt>
 
 *pIPalette* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+Type : **[ **IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 Palette d’images à copier.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

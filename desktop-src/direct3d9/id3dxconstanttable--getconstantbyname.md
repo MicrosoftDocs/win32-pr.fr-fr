@@ -1,5 +1,5 @@
 ---
-description: Obtient une constante en recherchant son nom.
+description: 'ID3DXConstantTable :: GetConstantByName, méthode-obtient une constante en recherchant son nom.'
 ms.assetid: 785a2d4f-6391-4419-a0b8-d8244a03ceae
 title: 'ID3DXConstantTable :: GetConstantByName, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3df4fc2cf44e035daf208d5dd14602e89b528ed1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 88461a45bf484a72c085f1776eb923a8534b8be3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538744"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115247"
 ---
 # <a name="id3dxconstanttablegetconstantbyname-method"></a>ID3DXConstantTable :: GetConstantByName, méthode
 
@@ -59,7 +59,7 @@ Nom de la constante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 

@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode GetContainerFormat.
+description: IWICBitmapCodecInfo_GetContainerFormat_Proxy fonction de proxy de fonction pour la méthode GetContainerFormat.
 ms.assetid: d8a2387a-fb75-4812-b046-51359071281d
 title: IWICBitmapCodecInfo_GetContainerFormat_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 896c2ff88085c0300cffcc56c2877b98cd4ab68a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 729b4e2fe0f21fd1e96082e53194fd49bbc39ae1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201386"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086367"
 ---
 # <a name="iwicbitmapcodecinfo_getcontainerformat_proxy-function"></a>IWICBitmapCodecInfo \_ \_ fonction proxy GetContainerFormat
 
@@ -44,24 +44,24 @@ HRESULT IWICBitmapCodecInfo_GetContainerFormat_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) \** _
+Type : **[ **IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo)\***
 
-Pointeur vers cet objet [_ *IWICBitmapCodecInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) .
+Pointeur vers cet objet [**IWICBitmapCodecInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapcodecinfo) .
 
 </dd> <dt>
 
 *pguidContainerFormat* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
 Pointeur qui reçoit le GUID du conteneur.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

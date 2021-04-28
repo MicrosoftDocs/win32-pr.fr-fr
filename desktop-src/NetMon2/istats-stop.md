@@ -1,5 +1,5 @@
 ---
-description: La méthode Stop arrête la capture en cours.
+description: 'IStats :: Stop, méthode : la méthode Stop arrête la capture en cours.'
 ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
 title: 'IStats :: Stop, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7b7b58527e7bde0c3bbdec4fc162b705dd178c10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef51aff870a3193963b3802332112c51f1024826
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518548"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114607"
 ---
 # <a name="istatsstop-method"></a>IStats :: Stop, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Stop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lors du redémarrage de la capture après l’appel de **IStats :: Stop** , veillez à appeler la méthode [IStats :: configure](istats-configure.md) chaque fois que vous appelez [IStats :: Start](istats-start.md) pour redémarrer la capture.
 

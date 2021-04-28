@@ -1,5 +1,5 @@
 ---
-description: La méthode GetControlState récupère l’état de la capture, qui indique si la capture est en cours d’exécution ou en pause.
+description: 'IDelaydC :: GetControlState, méthode-la méthode GetControlState récupère l’état de la capture, qui indique si la capture est en cours d’exécution ou en pause.'
 ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
 title: 'IDelaydC :: GetControlState, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8f5c3f084db788844f061ba2005d9c3ca38acef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825112ec9a33ef176d5a69765837214249e33102
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950953"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110767"
 ---
 # <a name="idelaydcgetcontrolstate-method"></a>IDelaydC :: GetControlState, méthode
 
@@ -55,7 +55,7 @@ Indicateur signalant que la capture en cours est suspendue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -72,7 +72,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut être appelée chaque fois que le NPP est connecté au réseau à l’aide de l’interface [IDelaydC](idelaydc.md) . Vous pouvez utiliser cette méthode pour déterminer si une capture est en cours d’exécution, si la capture est suspendue ou si la capture a été arrêtée, mais que le NPP n’est pas déconnecté.
 

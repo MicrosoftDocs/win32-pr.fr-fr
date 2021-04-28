@@ -1,5 +1,5 @@
 ---
-description: Générez une liste de contours de maillage, ainsi qu’une liste des visages qui partagent chaque arête.
+description: 'ID3DXBaseMesh :: GenerateAdjacency, méthode-générer une liste de bords de maillage, ainsi qu’une liste des visages qui partagent chaque bord.'
 ms.assetid: 9d52290f-1c9e-43a7-b239-35cd54e36466
 title: 'ID3DXBaseMesh :: GenerateAdjacency, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b5b1d304878a4977bb14d6ef98ad7256b6c3181f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 783ed7ad61337e606793b9b467e4b17fddd7ecd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394195"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115457"
 ---
 # <a name="id3dxbasemeshgenerateadjacency-method"></a>ID3DXBaseMesh :: GenerateAdjacency, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers un tableau de trois DWORDs par visage à remplir avec les index de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une fois qu’une application a généré des informations d’adjacence pour une maille, les données de maillage peuvent être optimisées pour améliorer les performances de dessin.
 

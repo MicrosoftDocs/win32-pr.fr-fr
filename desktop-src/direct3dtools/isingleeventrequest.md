@@ -1,5 +1,5 @@
 ---
-description: Non utilisé.
+description: <span id="vspixengine.isingleeventrequest"></span>Interface ISingleEventRequest-non utilisée.
 MS-HAID: vspixengine.ISingleEventRequest
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 72856bfa6904ad3074d48a584f71d41e663a3075
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0c1d9f822194403073e3f3932575e2516db084a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746436"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107027"
 ---
 # <a name="span-idvspixengineisingleeventrequestspanisingleeventrequest-interface"></a><span id="vspixengine.isingleeventrequest"></span>Interface ISingleEventRequest
 

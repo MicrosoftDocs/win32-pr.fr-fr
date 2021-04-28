@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: IRenderEngine ::D méthode ecommit-non implémentée.
 ms.assetid: 014dd9b8-bcfc-4fe0-b0a4-580a253ae6db
 title: IRenderEngine ::D méthode ecommit
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 13857db04525f8e6356eb8cee424675050d8aa36
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 83909eb6d0ff0929b9f94b0d79f87fe1fcef6eb7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513279"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089097"
 ---
 # <a name="irenderenginedecommit-method"></a>IRenderEngine ::D méthode ecommit
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -41,11 +41,11 @@ HRESULT Decommit();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

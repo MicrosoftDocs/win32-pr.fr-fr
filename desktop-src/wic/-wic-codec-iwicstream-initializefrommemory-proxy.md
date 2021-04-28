@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode InitializeFromMemory.
+description: IWICStream_InitializeFromMemory_Proxy fonction de proxy de fonction pour la méthode InitializeFromMemory.
 ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
 title: IWICStream_InitializeFromMemory_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: fe034698635a35c098f6466712d17489f301dd57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be3cec08f2ad3970d8860803cfb70970cf7b765b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545168"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097127"
 ---
 # <a name="iwicstream_initializefrommemory_proxy-function"></a>IWICStream \_ \_ fonction proxy InitializeFromMemory
 
@@ -45,22 +45,22 @@ HRESULT IWICStream_InitializeFromMemory_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) \** _
+Type : **[ **IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream)\***
 
-Pointeur vers cet objet [_ *IWICStream* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
+Pointeur vers cet objet [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) .
 
 </dd> <dt>
 
 *pbBuffer* \[ dans\]
 </dt> <dd>
 
-Type : **Byte \** _
+Type : **Byte \***
 
 Pointeur vers la mémoire tampon utilisée pour initialiser le flux.
 
 </dd> <dt>
 
-_cbBufferSize * \[ dans\]
+*cbBufferSize* \[ dans\]
 </dt> <dd>
 
 Type : **DWORD**
@@ -69,7 +69,7 @@ Taille de la mémoire tampon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

@@ -1,5 +1,5 @@
 ---
-description: Interpole entre les quaternions, à l’aide de l’interpolation sphérique Quadrangle.
+description: 'Fonction D3DXQuaternionSquad (D3DX10Math. h) : interpole entre les quaternions, à l’aide de l’interpolation Quadrangle sphérique.'
 ms.assetid: ba953731-4372-4b32-942b-23abfe479704
 title: D3DXQuaternionSquad, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: af2bb582909cf09a4044b293f3f298a5da2335a5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9671b2a161124228c264da7eac0a2aa3a915ff95
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104530999"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108757"
 ---
 # <a name="d3dxquaternionsquad-function-d3dx10mathh"></a>D3DXQuaternionSquad, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Paramètre qui indique la distance à interpoler entre les quaternions.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION qui est le résultat de l’interpolation sphérique Quadrangle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction utilise la séquence suivante d’opérations d’interpolation linéaire sphérique :
 

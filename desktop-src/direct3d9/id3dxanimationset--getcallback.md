@@ -1,5 +1,5 @@
 ---
-description: Obtient des informations sur un rappel spécifique dans l’ensemble d’animations.
+description: 'ID3DXAnimationSet :: GetCallback, méthode-obtient des informations sur un rappel spécifique dans l’ensemble d’animations.'
 ms.assetid: e8388bfc-5438-4216-a98f-dd0dbca12c87
 title: 'ID3DXAnimationSet :: GetCallback, méthode (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4cde6c9d51fd29c0412f33b34ca7bea8260dfea
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 563c1007cc471ab10a9609e776da69b7c5ed493b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211947"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097537"
 ---
 # <a name="id3dxanimationsetgetcallback-method"></a>ID3DXAnimationSet :: GetCallback, méthode
 
@@ -79,7 +79,7 @@ Adresse du pointeur de données de rappel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

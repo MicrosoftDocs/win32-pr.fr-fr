@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'Méthode ISmartRenderEngine :: SetFindCompressorCB-non implémentée.'
 ms.assetid: ed0aecfa-348c-4cf9-87c2-b701a552eec8
 title: 'ISmartRenderEngine :: SetFindCompressorCB, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 537632715c0734c38394a1dae10535b6613e9b04
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: aba7de54e02433762c63bc7bc8addea5b94b48e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103949984"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088987"
 ---
 # <a name="ismartrenderenginesetfindcompressorcb-method"></a>ISmartRenderEngine :: SetFindCompressorCB, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -50,11 +50,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

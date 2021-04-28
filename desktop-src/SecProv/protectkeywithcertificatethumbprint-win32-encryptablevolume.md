@@ -1,5 +1,5 @@
 ---
-description: Valide l’identificateur d’objet (OID) d’utilisation améliorée de la clé (EKU) du certificat fourni.
+description: Méthode ProtectKeyWithCertificateThumbprint de la classe Win32_EncryptableVolume-valide l’identificateur d’objet (OID) d’utilisation améliorée de la clé du certificat fourni.
 ms.assetid: 7096cead-c44a-404c-b1e1-3e0ab27070f8
 title: Méthode ProtectKeyWithCertificateThumbprint de la classe Win32_EncryptableVolume
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: e0b47aabccaacfb3ab81968b8a93037aad304f8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c71684bf66d8d14df60c9ff09083f507b114024
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536767"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110577"
 ---
 # <a name="protectkeywithcertificatethumbprint-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithCertificateThumbprint de la \_ classe Win32 EncryptableVolume
 
@@ -70,7 +70,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -91,7 +91,7 @@ Cette méthode retourne l’un des codes suivants, ou un autre code d’erreur e
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si l’OID ne correspond pas à celui associé au contrôleur de service dans le registre, cette méthode échoue. Cela empêche l’utilisateur de définir les protecteurs de l’agent de récupération de données (DRA) manuellement sur le volume. Les DRA ne sont définies que par le service.
 

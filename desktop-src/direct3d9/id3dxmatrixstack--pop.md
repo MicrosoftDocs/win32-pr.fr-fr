@@ -1,5 +1,5 @@
 ---
-description: Supprime la matrice actuelle du haut de la pile.
+description: ID3DXMATRIXStack ::P méthode op (D3dx9math. h)-supprime la matrice actuelle du haut de la pile.
 ms.assetid: 4c542012-058a-4818-8ec4-27e7d3357ca3
 title: ID3DXMATRIXStack ::P méthode op (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 229892ab9b6a1ec75396b24cd9313e27667d0acf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c8d9185d10b9ef98a1fc3499f49c2ccc9c17a366
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104043088"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093500"
 ---
 # <a name="id3dxmatrixstackpop-method-d3dx9mathh"></a>ID3DXMATRIXStack ::P méthode op (D3dx9math. h)
 
@@ -38,13 +38,13 @@ HRESULT Pop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Notez que cette méthode décrémente le nombre d’éléments sur la pile de 1, en supprimant efficacement la matrice actuelle du haut de la pile et en promouvant une matrice en haut de la pile. Si le nombre actuel d’éléments sur la pile est 0, cette méthode retourne sans effectuer aucune action. Si le nombre actuel d’éléments sur la pile est 1, cette méthode vide la pile.
 

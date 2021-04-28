@@ -1,5 +1,5 @@
 ---
-description: Récupère le paramètre de restriction d’un groupe à partir du Registre.
+description: 'Méthode Shell. IsRestricted : récupère le paramètre de restriction d’un groupe à partir du Registre.'
 ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
 title: Shell. IsRestricted, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2224a3ea4ea26cf39f2e15486de4f96afe5448d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e428c914cf95d282fd721071009efc70fcb3a4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104257"
 ---
 # <a name="shellisrestricted-method"></a>Shell. IsRestricted, méthode
 
@@ -69,23 +69,23 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **entier \** _
+Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
 ### <a name="vb"></a>VB
 
-Type : _*entier \**_
+Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
-_ *IsRestricted** recherche d’abord un nom de sous-clé qui correspond à *sGroup* sous la clé suivante.
+**IsRestricted** recherche d’abord un nom de sous-clé qui correspond à *sGroup* sous la clé suivante.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -143,7 +143,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

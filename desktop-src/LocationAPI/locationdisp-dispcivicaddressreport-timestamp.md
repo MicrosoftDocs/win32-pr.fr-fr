@@ -1,5 +1,5 @@
 ---
-description: Date et heure de génération du rapport.
+description: 'Propriété LocationDisp. DispCivicAddressReport. Timestamp : date et heure de génération du rapport.'
 ms.assetid: b9435384-72e0-42c4-a948-df52621a5ec2
 title: LocationDisp. DispCivicAddressReport. Timestamp, propriété
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7b805454a6c2d62a58ba5a2a3de8f5b5095e1db8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2ed39956bb542aa4e150bf9afa3e59a472a4d91
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518912"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110877"
 ---
 # <a name="locationdispdispcivicaddressreporttimestamp-property"></a>LocationDisp. DispCivicAddressReport. Timestamp, propriété
 
@@ -40,7 +40,7 @@ Timestamp = LocationDisp.DispCivicAddressReport.Timestamp
 
 Cette propriété est une **Date** en lecture seule. Les horodatages sont fournis comme temps universel coordonné (UTC, Universal Time Coordinated).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Notez que les langages de script, tels que Microsoft JScript, peuvent vous obliger à effectuer des conversions dans d’autres formats d’heure lorsque vous affichez des horodatages sous forme de chaînes.
 

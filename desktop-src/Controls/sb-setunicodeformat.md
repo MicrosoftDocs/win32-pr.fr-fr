@@ -1,6 +1,6 @@
 ---
 title: Message SB_SETUNICODEFORMAT (commctrl. h)
-description: Définit l’indicateur de format de caractère Unicode pour le contrôle. Ce message vous permet de modifier le jeu de caractères utilisé par le contrôle au moment de l’exécution plutôt que de devoir recréer le contrôle.
+description: 'SB_SETUNICODEFORMAT message : définit l’indicateur de format de caractère Unicode pour le contrôle. Ce message vous permet de modifier le jeu de caractères utilisé par le contrôle au moment de l’exécution plutôt que de devoir recréer le contrôle.'
 ms.assetid: 022e7138-c12f-4c59-82da-2ac6d276fa77
 keywords:
 - SB_SETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5223f1e707747356c8869ad047a69f6e8d94a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 278a5645928a51732b87c12447bb2524bfadfbcd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513623"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085887"
 ---
 # <a name="sb_setunicodeformat-message"></a>\_Message SB SETUNICODEFORMAT
 
@@ -39,11 +39,11 @@ Détermine le jeu de caractères utilisé par le contrôle. Si cette valeur est 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 

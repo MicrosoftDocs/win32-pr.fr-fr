@@ -1,5 +1,5 @@
 ---
-description: La méthode Disconnect déconnecte le NPP du réseau.
+description: IESP ::D méthode éconnecter-la méthode Disconnect déconnecte le NPP du réseau.
 ms.assetid: 962e033d-a51c-47a2-83dc-cee1e7150ab8
 title: IESP ::D méthode éconnecter (NetMon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: b0dac1843083d77121883b2609c32addffbae290
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0a07748781a567c889e879e2e99462d8cfb876a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110757"
 ---
 # <a name="iespdisconnect-method"></a>IESP ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode **IESP :: Stop** avant d’appeler **IESP ::D éconnecter**.
 
