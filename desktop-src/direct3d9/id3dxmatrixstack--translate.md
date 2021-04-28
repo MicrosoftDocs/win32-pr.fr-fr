@@ -1,5 +1,5 @@
 ---
-description: Détermine le produit de la matrice actuelle et la matrice de translation calculée déterminée par les facteurs donnés (x, y et z).
+description: 'ID3DXMATRIXStack :: translate, méthode (D3dx9math. h)-détermine le produit de la matrice actuelle et la matrice de traduction calculée déterminée par les facteurs donnés (x, y et z).'
 ms.assetid: e0ac72a2-9970-433e-9026-aa79edc8261c
 title: 'ID3DXMATRIXStack :: translate, méthode (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 228b4302a512e96d5c009edcb3f0b673ee61e047
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fadad95e8e72691a0e030ed89eedc745de2be43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093337"
 ---
 # <a name="id3dxmatrixstacktranslate-method-d3dx9mathh"></a>ID3DXMATRIXStack :: translate, méthode (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Facteur de translation dans l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode multiplie la matrice actuelle par la matrice de traduction calculée (la transformation concerne l’origine mondiale active).
 

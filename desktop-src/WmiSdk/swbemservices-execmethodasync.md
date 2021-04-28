@@ -1,5 +1,5 @@
 ---
-description: Exécute une méthode qui est exportée par un fournisseur de méthode.
+description: SWbemServices.Exeméthode cMethodAsync-exécute une méthode exportée par un fournisseur de méthode.
 ms.assetid: 933a4c64-7538-474e-9f6f-f94da6066b46
 ms.tgt_platform: multiple
 title: SWbemServices.Exeméthode cMethodAsync (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 898912efae276fc0404576e162468e06e1b95a68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcdcd70b567a737cb8686ac841dc1ce0b55d3996
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524123"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105587"
 ---
 # <a name="swbemservicesexecmethodasync-method"></a>SWbemServices.Exeméthode cMethodAsync
 
@@ -123,7 +123,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur. Si l’appel réussit, un objet de [**paramètres de paramètre**](swbemmethod-outparameters.md) , qui est également un [**SWbemObject**](swbemobject.md) est fourni au récepteur spécifié dans *objWbemSink*. L’objet de **paramètres** de sortie retournés contient les paramètres de sortie et la valeur de retour pour la méthode en cours d’exécution. Pour plus d’informations, consultez [construction d’objets inparamètres et analyse d’objets de paramètres de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md).
 
@@ -175,7 +175,7 @@ L’utilisateur actuel n’a pas été autorisé à exécuter la méthode.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si la méthode exécutée a des paramètres d’entrée, [**l’objet**](swbemmethod-inparameters.md) InParameters dans le paramètre *objWbemInParam* doit être le même que la description dans les rubriques construire des objets inserts [et analyse des objets de paramètres](constructing-inparameters-objects-and-parsing-outparameters-objects.md) .
 

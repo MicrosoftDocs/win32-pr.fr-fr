@@ -1,5 +1,5 @@
 ---
-description: Décrit un plan.
+description: D3DXPLANE structure (D3DX10Math. h)-décrit un plan.
 ms.assetid: c6da7343-a4f3-4cac-855b-14bd70c0d3c2
 title: D3DXPLANE, structure (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 9949aec16e90a53e01e536255c20f442052bb98b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 440246fb47a851f9f5339c72a484a2cb59e8f662
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323238"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103327"
 ---
 # <a name="d3dxplane-structure-d3dx10mathh"></a>D3DXPLANE, structure (D3DX10Math. h)
 
@@ -86,7 +86,7 @@ Coefficient d du plan de découpage dans l’équation du plan général. Consul
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les membres de la structure **D3DXPLANE** prennent la forme de l’équation plan générale. Elles s’inscrivent dans l’équation plan générale, de sorte que ax + by + CZ + DW = 0.
 

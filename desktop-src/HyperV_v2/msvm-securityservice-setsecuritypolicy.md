@@ -1,5 +1,5 @@
 ---
-description: Définit le protecteur de clé pour un système virtuel.
+description: 'Méthode SetSecurityPolicy de la classe Msvm_SecurityService : définit le protecteur de clé pour un système virtuel.'
 ms.assetid: 22496fde-6298-4e9d-bd0c-135dcb4ea5a5
 title: Méthode SetSecurityPolicy de la classe Msvm_SecurityService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35954f27d1184b714091058a35f32a6347d4ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31b03ee8a941b0715b85f6a749c4ba59ade032f7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530381"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118727"
 ---
 # <a name="setsecuritypolicy-method-of-the-msvm_securityservice-class"></a>Méthode SetSecurityPolicy de la \_ classe securityservice MSVM
 
@@ -62,7 +62,7 @@ Paramètre facultatif permettant de surveiller la progression de l’opération,
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Sur, Success, retourne 0 ; Sinon, retourne une erreur.
 

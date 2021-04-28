@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. BusinessAddress1PostalCode
 ms.assetid: 92699da2-5cb3-45cd-b440-56d8202c17b3
 title: System. contact. BusinessAddress1PostalCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a18a12c32082ab60d8365794dc9fd2d7c7e2b3ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11bf23dbb23353adf56fa358b1de43b25e54c66b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518834"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104827"
 ---
 # <a name="systemcontactbusinessaddress1postalcode"></a>System. contact. BusinessAddress1PostalCode
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

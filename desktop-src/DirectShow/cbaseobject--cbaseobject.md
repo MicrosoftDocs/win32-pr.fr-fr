@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CBaseObject. ~ CBaseObject, destructeur, méthode de destructeur.
 ms.assetid: 3714d030-f0bd-4826-a3c5-fc206bb88561
 title: CBaseObject. ~ CBaseObject, destructeur (ComBase. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 908f335105fa88f3ed547eed0e92ea50a6f85f26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 552dbcc764f335e639cb50e2e01411dee200068f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539579"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096237"
 ---
 # <a name="cbaseobjectcbaseobject-destructor"></a>CBaseObject. ~ CBaseObject, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode décrémente le nombre d’objets actifs. (Voir [**CBaseObject :: ObjectsActive**](cbaseobject-objectsactive.md).)
 

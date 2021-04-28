@@ -1,15 +1,15 @@
 ---
-description: Ce modèle est instancié par maillage, contenant des informations sur les vertex de la maille qui sont des doublons.
+description: 'FaceAdjacency : ce modèle est instancié par maillage, en contenant des informations sur les vertex de la maille qui sont des doublons.'
 ms.assetid: dd30b3d6-767a-4d87-9b5c-1324738bcbb2
 title: FaceAdjacency
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a2fd0f0b2bb328aa8b5ec39e7481c0b7fd766fc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0508b822f45c6796a793dc4b17caeaa1e30b4c3d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745572"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090507"
 ---
 # <a name="faceadjacency"></a>FaceAdjacency
 

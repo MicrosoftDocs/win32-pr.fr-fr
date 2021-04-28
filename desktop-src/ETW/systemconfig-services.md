@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de configuration de service.
+description: Classe SystemConfig_Services-cette classe est la classe de type d’événement pour les événements de configuration de service.
 ms.assetid: 7cba9992-d154-44b8-87d8-b46a8438f607
 title: Classe SystemConfig_Services
 ms.topic: reference
@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 97b4d2a56f2ed739403681875e0be4d9e21481ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 754b0e10c3882911c6e91fc2590c11739c3f7531
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972107"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106057"
 ---
 # <a name="systemconfig_services-class"></a>\_Classe de services SystemConfig
 
@@ -154,7 +154,7 @@ Identifie le service.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

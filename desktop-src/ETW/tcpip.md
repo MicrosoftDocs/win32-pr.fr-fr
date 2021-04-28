@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'TcpIp, classe : cette classe est la classe parente pour les événements TCP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: f9d6ea8f-c777-4747-89f4-f389c6eeac35
 title: TcpIp (classe)
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6488ece2fd8df0670455ceea25560835c352b83e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abcd805b417451adf2122e7baf3310be101a35ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972486"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105727"
 ---
 # <a name="tcpip-class"></a>TcpIp (classe)
 
@@ -38,7 +38,7 @@ class TcpIp : MSNT_SystemTrace
 
 La classe **TcpIp** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour activer les événements TCP/IP dans une session de journalisation du noyau NT, spécifiez l’indicateur de **trace d’événement indicateur \_ \_ \_ réseau \_ tcpip** dans le membre **EnableFlags** d’une structure de propriétés de [**\_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -72,7 +72,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
 Vous pouvez suivre les événements réseau dans un processus source et de destination à l’aide de la propriété **ProcessID** . Étant donné que certains événements réseau sont journalisés par des threads distincts, vous ne pourrez peut-être pas utiliser les membres **ProcessID** et **ThreadID** de l' [**\_ \_ en-tête Event Trace**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) pour identifier le processus ou le thread à l’origine des activités réseau.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

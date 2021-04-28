@@ -1,5 +1,5 @@
 ---
-description: Modifie les autorisations de sécurité pour le fichier d’entrée de répertoire logique spécifié dans le chemin d’accès de l’objet.
+description: 'Méthode ChangeSecurityPermissions de la classe CIM_Directory : modifie les autorisations de sécurité pour le fichier d’entrée de répertoire logique spécifié dans le chemin d’accès de l’objet.'
 ms.assetid: d3caeec1-fecc-4463-9349-d82869c11927
 ms.tgt_platform: multiple
 title: Méthode ChangeSecurityPermissions de la classe CIM_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bf767dc45907a90354b2c00fb30c6b31ce6d09a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748628"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091067"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>Méthode ChangeSecurityPermissions de la \_ classe de répertoire CIM
 
@@ -117,7 +117,7 @@ Modifiez la liste de contrôle d’accès système du fichier logique.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -240,7 +240,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -1,5 +1,5 @@
 ---
-description: Décrit un Quaternion.
+description: D3DXQUATERNION, structure (D3DX10Math. h)-décrit un Quaternion.
 ms.assetid: e6cb45b2-3132-4315-b02d-a3dfc444f8cc
 title: D3DXQUATERNION, structure (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 405e48c99d7298708af193016930a8defdf9d600
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dac880607cf482b409c407b43992747af4aa39a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323109"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103247"
 ---
 # <a name="d3dxquaternion-structure-d3dx10mathh"></a>D3DXQUATERNION, structure (D3DX10Math. h)
 
@@ -86,7 +86,7 @@ Composant w.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les quaternions ajoutent un quatrième élément aux \[ valeurs x, y, z \] qui définissent un vecteur, entraînant des vecteurs 4D arbitraires. Toutefois, l’exemple suivant illustre la façon dont chaque élément d’un Quaternion d’unité se réfère à une rotation de l’axe d’un axe (où q représente un Quaternion d’unité (x, y, z, w), l’axe est normalisé et Theta la rotation CCW souhaitée sur l’axe) :
 

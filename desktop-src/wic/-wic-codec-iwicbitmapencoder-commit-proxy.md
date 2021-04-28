@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode Commit.
+description: IWICBitmapEncoder_Commit_Proxy fonction de proxy de fonction pour la méthode Commit.
 ms.assetid: f7f1be43-fe44-47eb-a5ba-3446c0db22a6
 title: IWICBitmapEncoder_Commit_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c0cd3cfbe5e1c80d82cd90303d26f2da33cf467d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 934b2e21097a671c2b52ea77ab07caf25ab521a3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091187"
 ---
 # <a name="iwicbitmapencoder_commit_proxy-function"></a>IWICBitmapEncoder \_ \_ fonction proxy Commit
 
@@ -43,13 +43,13 @@ HRESULT IWICBitmapEncoder_Commit_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Type : **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Pointeur vers cet objet [_ *IWICBitmapEncoder* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Pointeur vers cet objet [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

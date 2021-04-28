@@ -1,5 +1,5 @@
 ---
-description: La méthode start démarre une capture.
+description: 'IStats :: Start, méthode-la méthode start démarre une capture.'
 ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
 title: 'IStats :: Start, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d58821ecc06e0a25d6a260bb2ba9393162dcdca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863034"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094547"
 ---
 # <a name="istatsstart-method"></a>IStats :: Start, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Start();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lors du redémarrage de la capture à l’aide des méthodes IStats :: Start et [IStats :: Stop](istats-stop.md) , vous devez appeler la méthode [IStats :: configure](istats-configure.md) pour reconfigurer la connexion chaque fois que vous appelez IStats :: Start pour redémarrer la capture de données.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: API Sensor
 ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: API Sensor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c4d6fd7805607afa80fcee27568004906a0a8e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a36259910fb7583c91b695f69066aa2abf9be1e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544637"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118407"
 ---
 # <a name="sensor-api"></a>API Sensor
 
@@ -42,7 +42,7 @@ L’API de capteur vous permet également de définir des catégories, des types
 
 L’API de capteur fournit ses fonctionnalités via un ensemble d’interfaces COM. Cette documentation suppose que vous avez une connaissance pratique de la programmation à l’aide du langage de programmation C++, et que vous avez une compréhension élémentaire de l’utilisation des objets et des interfaces COM. Par souci de concision, de nombreux exemples de code dans cette documentation (ainsi que dans les exemples de code) utilisent des objets Active Template Library (ATL) pour implémenter les fonctionnalités COM.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Prise en main](getting-started.md)
 -   [À propos de l’API de capteur](about-the-sensor-api.md)

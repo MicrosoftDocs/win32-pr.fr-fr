@@ -1,5 +1,5 @@
 ---
-description: Spécifie le type d’optimisation de maillage à effectuer.
+description: 'Énumération D3DX10_MESHOPT : spécifie le type d’optimisation de maillage à effectuer.'
 ms.assetid: 20d1da8c-8c3d-4045-9a37-d534a8682716
 title: Énumération D3DX10_MESHOPT (D3DX10Mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Mesh.h
-ms.openlocfilehash: c8ccb13da1549b7e2eeeb67ebf7899c2187be363
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7b3085cf9970f2c1f6fe3748cc4db8f4fb2b2a78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323201"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105447"
 ---
 # <a name="d3dx10_meshopt-enumeration"></a>D3DX10 \_ MESHOPT, énumération
 
@@ -94,7 +94,7 @@ Affecte la taille du cache de vertex. L’utilisation de cet indicateur spécifi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les \_ indicateurs d’optimisation D3DXMESHOPT STRIPREORDER et D3DXMESHOPT \_ VERTEXCACHE s’excluent mutuellement.
 

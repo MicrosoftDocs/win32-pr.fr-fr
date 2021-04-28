@@ -1,5 +1,5 @@
 ---
-description: Direction de l’espace universel pour le rayon actuel.
+description: 'WorldRayDirection : sens de l’espace universel pour le rayon actuel.'
 ms.assetid: ''
 title: WorldRayDirection
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - WorldRayDirection
 api_type:
 - NA
-ms.openlocfilehash: 508e24d73c0336f7615c9eca3d1da35cfcce9514
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d38ab75d0f0708f70624284483a0222eadf9591
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539048"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105287"
 ---
 # <a name="worldraydirection"></a>WorldRayDirection
 
@@ -32,7 +32,7 @@ float3 WorldRayDirection();
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction peut être appelée à partir des types de nuanceur Raytracing suivants :
 

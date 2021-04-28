@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. null
 ms.assetid: c7068673-bbff-4785-a78a-90e22f52b250
 title: System. null
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f6f1733f2b0d779bb9666fe73594279fcc943e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90648fbdf689849c91f043258a97ff59fc1a3996
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864626"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091757"
 ---
 # <a name="systemnull"></a>System. null
 
@@ -45,7 +45,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

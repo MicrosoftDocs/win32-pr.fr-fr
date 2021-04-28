@@ -1,5 +1,5 @@
 ---
-description: 'La méthode QueryId récupère un identificateur pour le code confidentiel. Cette méthode implémente la méthode IPin :: QueryId.'
+description: 'Méthode CTransformOutputPin. QueryId : la méthode QueryId récupère un identificateur pour le code confidentiel. Cette méthode implémente la méthode IPin :: QueryId.'
 ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
 title: CTransformOutputPin. QueryId, méthode (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e8e5fbc4b4da7b38853df5b4dcf3580a8c198d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c2d222ca4dd184adfe41f9f610b10f15ee9f02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541419"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094847"
 ---
 # <a name="ctransformoutputpinqueryid-method"></a>CTransformOutputPin. QueryId, méthode
 
@@ -49,7 +49,7 @@ Reçoit une chaîne contenant l’identificateur de code confidentiel.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
@@ -57,7 +57,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                   | Description                          |
 |-----------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Succès<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie<br/>                   |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl> | Mémoire insuffisante<br/>       |
 | <dl> <dt>**\_pointeur E**</dt> </dl>     | Argument de pointeur **null**<br/> |
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’identificateur de code confidentiel est utilisé pour la persistance des graphiques. L’identificateur de code confidentiel pour cette classe est out. Cette classe remplace le comportement de la classe [**CBasePin**](cbasepin.md) . Dans la classe **CBasePin** , l’identificateur de code confidentiel est le même que le nom du code confidentiel, spécifié dans le constructeur de classe. Dans la classe **CTransformInputPin** , l’identificateur de code confidentiel et le nom du code confidentiel ne sont pas identiques.
 

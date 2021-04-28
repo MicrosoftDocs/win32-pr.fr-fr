@@ -1,5 +1,5 @@
 ---
-description: Modifie les autorisations de sécurité pour le fichier d’entrée de répertoire logique spécifié dans le chemin d’accès de l’objet.
+description: 'Méthode ChangeSecurityPermissions de la classe Win32_Directory : modifie les autorisations de sécurité pour le fichier d’entrée de répertoire logique spécifié dans le chemin d’accès de l’objet.'
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
 ms.tgt_platform: multiple
 title: Méthode ChangeSecurityPermissions de la classe Win32_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d5f7b82f37fcbf7aeab541351752f8f6a75816f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 98c6026497496ab758c71a8a0403557ad2cacc7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104482792"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091057"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_directory-class"></a>Méthode ChangeSecurityPermissions de la \_ classe Directory Win32
 
@@ -107,7 +107,7 @@ Modifiez la liste de contrôle d’accès système (SACL) du fichier logique.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) si les autorisations sont modifiées et un autre nombre pour indiquer une erreur.
 

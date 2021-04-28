@@ -1,5 +1,5 @@
 ---
-description: Récupère une table d’attributs pour un maillage ou le nombre d’entrées stockées dans une table d’attributs pour une maille.
+description: 'ID3DX10Mesh :: GetAttributeTable, méthode-récupère soit une table d’attributs pour un maillage, soit le nombre d’entrées stockées dans une table d’attributs pour une maille.'
 ms.assetid: cee49eba-c113-49f5-a702-c366401f1f2d
 title: 'ID3DX10Mesh :: GetAttributeTable, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4ff00f3c5d036b3b463bc7c6622de75361b196e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7fc503af1a290b27fea81d0c2aba6b84393323b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527739"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083987"
 ---
 # <a name="id3dx10meshgetattributetable-method"></a>ID3DX10Mesh :: GetAttributeTable, méthode
 
@@ -59,13 +59,13 @@ Pointeur vers le nombre d’entrées stockées dans pAttribTable ou une valeur �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une table d’attributs permet d’identifier les zones de la maille qui doivent être dessinées avec différentes textures, États de rendu, matériaux, etc. En outre, l’application peut utiliser la table d’attributs pour masquer des parties d’un maillage en ne dessinant pas d’identificateur d’attribut donné lors du dessin du frame.
 

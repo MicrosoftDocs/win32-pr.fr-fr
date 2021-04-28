@@ -1,5 +1,5 @@
 ---
-description: Pointeur désignant le filtre propriétaire.
+description: 'CTransformInputPin :: m_pTransformFilter pointeur membre vers le filtre propriétaire.'
 ms.assetid: 209b1d64-27ae-4f40-83a1-5485a470aef9
 title: 'Membre CTransformInputPin :: m_pTransformFilter (Transfrm. h)'
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9aed0efeb73492c65990c17e47423ed5a8fcfe1c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8dc532977c34f897f248cb3011584ffd936e4fb8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540497"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095017"
 ---
 # <a name="ctransforminputpinm_ptransformfilter-member"></a>CTransformInputPin :: m \_ pTransformFilter, membre
 

@@ -1,5 +1,5 @@
 ---
-description: Évalue les fonctions de base de l’harmonique sphérique (SH) à partir d’un vecteur de direction d’entrée.
+description: 'Fonction D3DXSHEvalDirection (D3dx9math. h) : évalue les fonctions de base de l’harmonique sphérique (SH) à partir d’un vecteur de direction d’entrée.'
 ms.assetid: f30ba32c-d6b0-4e4e-b5cd-839ed7821855
 title: D3DXSHEvalDirection, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 005785667d25888550dea38c765a96ea56646d76
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e02f0f3d8770b4b703f275de3225eacb301a7843
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104567764"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093959"
 ---
 # <a name="d3dxshevaldirection-function-d3dx9mathh"></a>D3DXSHEvalDirection, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Type : **const [**D3DXVECTOR3**](d3dxvector3.md) \***
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH. Consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Chaque coefficient de la fonction de base YLM est stocké à l’emplacement de mémoire l ² + m + l, où :
 

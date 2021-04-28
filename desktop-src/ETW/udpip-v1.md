@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe UdpIp_V1 : cette classe est la classe parente pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 31672a5a-05b2-4382-b793-7a793d985951
 title: Classe UdpIp_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4c57caf9b6f5df963723ee1999e7068b2b2fe5ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5035cd764c1b3a7eb0943622897d97684ec8bd61
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971923"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105397"
 ---
 # <a name="udpip_v1-class"></a>\_Classe UdpIp v1
 
@@ -38,11 +38,11 @@ class UdpIp_V1 : MSNT_SystemTrace
 
 La classe **UdpIp \_ v1** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **Windows Server 2003 :** Contient le qualificateur de classe EventVersion (1).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

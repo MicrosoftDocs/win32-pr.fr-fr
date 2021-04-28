@@ -1,6 +1,6 @@
 ---
 title: Méthode SetDisableForcibleLogoff de la classe Win32_TerminalServiceSetting
-description: Cette méthode n'est pas prise en charge.
+description: Méthode SetDisableForcibleLogoff de la classe Win32_TerminalServiceSetting-cette méthode n’est pas prise en charge.
 ms.assetid: 1b7ac0f2-c242-4ca8-bc4d-8111e63851eb
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4ae62db188d0e3aa31ffd8e3993e793e9bb2bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4be6ace10853ec282f5ab17b1f5f5921ef2c0d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465099"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103707"
 ---
 # <a name="setdisableforciblelogoff-method-of-the-win32_terminalservicesetting-class"></a>Méthode SetDisableForcibleLogoff de la \_ classe Win32 TerminalServiceSetting
 
@@ -74,7 +74,7 @@ Activez la propriété. L’administrateur connecté ne peut pas être déconnec
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une réussite en cas de réussite ; Sinon, retourne un code d’erreur WMI. Pour obtenir la liste de ces valeurs, reportez-vous à [services Bureau à distance codes d’erreur du fournisseur WMI](terminal-services-wmi-provider-error-codes.md) .
 

@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'IXml2Dex :: Reset, méthode-non implémentée.'
 ms.assetid: f51972fe-e095-4ce2-93b6-841ed24c6ce7
 title: 'IXml2Dex :: Reset, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 0daaa859d9eaaf3bac2b495549c8dccaea2a835c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 59545c66bdc2cf3cce6bd343b975431446b76342
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482264"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084370"
 ---
 # <a name="ixml2dexreset-method"></a>IXml2Dex :: Reset, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -41,11 +41,11 @@ HRESULT Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

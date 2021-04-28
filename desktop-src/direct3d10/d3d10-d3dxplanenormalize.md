@@ -1,5 +1,5 @@
 ---
-description: Normalise les coefficients de plan afin que la normale du plan ait une longueur d’unité.
+description: 'Fonction D3DXPlaneNormalize (D3DX10Math. h) : normalise les coefficients de plan afin que la normale du plan ait une longueur d’unité.'
 ms.assetid: 52ae36a7-e37b-457a-9832-e62900a85bde
 title: D3DXPlaneNormalize, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 44d5e9d810653b2cdae233dec803383c74563d08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b3499297a008b0d8f5dc705080bbd1d5bbe3af4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535201"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103307"
 ---
 # <a name="d3dxplanenormalize-function-d3dx10mathh"></a>D3DXPlaneNormalize, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure D3DXPLANE source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXPLANE**](../direct3d9/d3dxplane.md)\***
 
 Pointeur vers une structure D3DXPLANE qui représente la normale du plan.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction normalise un plan afin que \| a, b, c \| = = 1.
 

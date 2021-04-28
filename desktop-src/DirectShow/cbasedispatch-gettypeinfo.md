@@ -1,5 +1,5 @@
 ---
-description: La méthode GetTypeInfo récupère les informations de type de l’objet, qui peuvent ensuite être utilisées pour obtenir les informations de type d’une interface.
+description: 'Méthode CBaseDispatch. GetTypeInfo : la méthode GetTypeInfo récupère les informations de type de l’objet, qui peuvent ensuite être utilisées pour obtenir les informations de type d’une interface.'
 ms.assetid: aa06b97c-541b-44fc-bdef-97fd1f014e85
 title: Méthode CBaseDispatch. GetTypeInfo (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1f63d79327d2f2bf2a60f06e0290aa34891e78ff
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9b1e21133b4fa561c743fefc6282c777b444e6f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532862"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120117"
 ---
 # <a name="cbasedispatchgettypeinfo-method"></a>Méthode CBaseDispatch. GetTypeInfo
 
@@ -73,7 +73,7 @@ Adresse d’une variable qui reçoit un pointeur **ITypeInfo** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -81,7 +81,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                             | Description                                    |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                            |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                            |
 | <dl> <dt>**\_pointeur E**</dt> </dl>               | Argument de pointeur **null** .<br/>          |
 | <dl> <dt>**TAPEZ \_ E \_ ELEMENTNOTFOUND**</dt> </dl> | Le paramètre *iTInfo* n’est pas égal à zéro.<br/> |
 
@@ -89,7 +89,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode se comporte comme la méthode **IDispatch :: GetTypeInfo** . Toutefois, il comprend un paramètre supplémentaire, *riid*, qui spécifie l’interface pour laquelle récupérer les informations de type.
 

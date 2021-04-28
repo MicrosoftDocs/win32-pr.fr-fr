@@ -1,15 +1,15 @@
 ---
 title: Gestionnaire de connexions Windows
-description: .
+description: Gestionnaire de connexions Windows
 ms.assetid: 65f9fbc6-6b6c-4b73-996f-62c3f813911c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10e14989a6ddb49e301f4512924225591c4ac167
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef3f5115619097a20889dc8b014fb59f9e8271ac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511433"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083647"
 ---
 # <a name="windows-connection-manager"></a>Gestionnaire de connexions Windows
 

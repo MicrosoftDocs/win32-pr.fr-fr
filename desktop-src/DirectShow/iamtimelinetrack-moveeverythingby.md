@@ -1,5 +1,5 @@
 ---
-description: Cette méthode n'est pas prise en charge.
+description: 'Méthode IAMTimelineTrack :: MoveEverythingBy-cette méthode n’est pas prise en charge.'
 ms.assetid: f263116b-e492-4468-9829-124a096c9d74
 title: 'IAMTimelineTrack :: MoveEverythingBy, méthode (qedit. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4eded92548c047e6d5102e603a5ab0554bd1f4fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85cf17c92c0809189e12e8ad40ceb1d1f3fd25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541030"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094587"
 ---
 # <a name="iamtimelinetrackmoveeverythingby-method"></a>IAMTimelineTrack :: MoveEverythingBy, méthode
 
@@ -55,11 +55,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

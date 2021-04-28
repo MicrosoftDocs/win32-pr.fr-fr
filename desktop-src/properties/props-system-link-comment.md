@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Link. Comment
 ms.assetid: 96bf4971-a19c-4284-abb8-ad843af32c6e
 title: System. Link. Comment
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0893e21ba326ca483ace6a660eb65b299a371fc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f75d64c0452b2dccf888d21df1e94165248bb0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864649"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092497"
 ---
 # <a name="systemlinkcomment"></a>System. Link. Comment
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

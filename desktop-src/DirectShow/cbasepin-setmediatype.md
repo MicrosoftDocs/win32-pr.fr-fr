@@ -1,5 +1,5 @@
 ---
-description: La méthode SetMediaType définit le type de média pour la connexion.
+description: 'Méthode CBasePin. SetMediaType : la méthode SetMediaType définit le type de média pour la connexion.'
 ms.assetid: db32b33b-df71-4f46-b53f-d7e647f5f559
 title: Méthode CBasePin. SetMediaType (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 07ac736558cea12a16c695cf109c3d6283ce4a13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b61b6179aa6364ebddd940b8853e22d628463e56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528903"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095985"
 ---
 # <a name="cbasepinsetmediatype-method"></a>Méthode CBasePin. SetMediaType
 
@@ -49,11 +49,11 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui spécifie le type de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode établit le format d’une connexion de code confidentiel. Avant d’appeler cette méthode, le code PIN appelle la méthode [**CBasePin :: CheckMediaType**](cbasepin-checkmediatype.md) pour déterminer si le type de média est acceptable. Par conséquent, le paramètre *VPM* est supposé être un type de média acceptable.
 

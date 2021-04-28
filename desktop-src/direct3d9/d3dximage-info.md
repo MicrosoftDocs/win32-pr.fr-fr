@@ -1,5 +1,5 @@
 ---
-description: Retourne une description du contenu d’origine d’un fichier image.
+description: D3DXIMAGE_INFO structure-retourne une description du contenu d’origine d’un fichier image.
 ms.assetid: d6cbd5b7-642e-43ce-a2ed-11a400c5bdc1
 title: Structure D3DXIMAGE_INFO (D3dx9tex. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9tex.h
-ms.openlocfilehash: 6ec152dc56dcea3a718cf5cd42fb351d4fddf852
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: be70cc88645e0aac6734907c6a97f2d4bb104c99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762037"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090537"
 ---
 # <a name="d3dximage_info-structure"></a>\_Structure d’informations D3DXIMAGE
 

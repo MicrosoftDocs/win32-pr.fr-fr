@@ -1,5 +1,5 @@
 ---
-description: Obtient la valeur pour une stratégie Windows Internet Explorer spécifiée.
+description: Shell. ExplorerPolicy, méthode-obtient la valeur d’une stratégie Windows Internet Explorer spécifiée.
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: Shell. ExplorerPolicy, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: fea5192990b8c19c8ddfe8ffad6efe21b98625c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 765e1dc46edbe5a27292c5d8ff940e29b269f8dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973803"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083697"
 ---
 # <a name="shellexplorerpolicy-method"></a>Shell. ExplorerPolicy, méthode
 
@@ -58,25 +58,25 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
 Valeur associée au nom de stratégie spécifié.
 
 ### <a name="vb"></a>VB
 
-Type : _*variante \**_
+Type : **variante \***
 
 Valeur associée au nom de stratégie spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les administrateurs réseau peuvent contrôler et gérer l’environnement informatique de leurs utilisateurs en définissant des stratégies.
 
-Le nom de la valeur spécifiée doit se trouver dans la sous-clé de l *\_ \_ **\\** **\\** **\\** **\\** **\\** **\\** 'Explorateur de stratégies CurrentVersion * de l’utilisateur de _ HKEY CURRENT USER Software*. Si le nom de la valeur n’existe pas, la méthode retourne la valeur **null**.
+Le nom de la valeur spécifiée doit se trouver dans la **\_ \_** \\  \\  \\  \\  \\  \\ sous-clé de l'**Explorateur** de stratégies CurrentVersion de l’utilisateur actuel de HKEY Microsoft Windows. Si le nom de la valeur n’existe pas, la méthode retourne la valeur **null**.
 
 ## <a name="examples"></a>Exemples
 
@@ -136,7 +136,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

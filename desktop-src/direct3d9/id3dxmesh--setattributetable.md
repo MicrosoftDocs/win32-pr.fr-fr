@@ -1,5 +1,5 @@
 ---
-description: Définit la table d’attributs pour un maillage et le nombre d’entrées stockées dans la table.
+description: 'ID3DXMesh :: SetAttributeTable, méthode-définit la table d’attributs pour un maillage et le nombre d’entrées stockées dans la table.'
 ms.assetid: 22d46708-cffd-48da-bdad-8a43f9076356
 title: 'ID3DXMesh :: SetAttributeTable, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 17ae3458bffd05114415a92538a8ce8ef2cc847e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4cdb503e934ca00b41482601b59266eee750365
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106543022"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093347"
 ---
 # <a name="id3dxmeshsetattributetable-method"></a>ID3DXMesh :: SetAttributeTable, méthode
 
@@ -59,13 +59,13 @@ Nombre d’attributs dans la table d’attributs du maillage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si une application effectue le suivi des informations dans une table d’attributs et réorganise la table suite à des modifications apportées aux attributs ou aux visages, cette méthode permet à l’application de mettre à jour les tables d’attributs au lieu d’appeler [**ID3DXMesh :: Optimize**](id3dxmesh--optimize.md) .
 

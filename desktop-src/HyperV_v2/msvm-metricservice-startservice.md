@@ -1,5 +1,5 @@
 ---
-description: démarre le service.
+description: Méthode StartService de la classe Msvm_MetricService-démarre le service.
 ms.assetid: 8ac863bc-d8a0-40dc-a4b6-1067045887d8
 title: Méthode StartService de la classe Msvm_MetricService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5dd42faa0fb4ae5e7c7536dd5baa2522b094f70f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eed809d164b916b518e848ab889a7fe00b62b7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320594"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118837"
 ---
 # <a name="startservice-method-of-the-msvm_metricservice-class"></a>Méthode StartService de la \_ classe MSVM MetricService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

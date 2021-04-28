@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode de constructeur de constructeur CBaseFilter. CBaseFilter (const TCHAR \* , LPUNKNOWN, CCritSec \* , REFCLSID, HRESULT \* ).
 ms.assetid: 705a075e-3f0f-4e7d-94b6-3458f87b6718
 title: CBaseFilter. CBaseFilter (const TCHAR *, LPUNKNOWN, CCritSec*, REFCLSID, HRESULT *), constructeur (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b4d8806c9b4103c06eb58e11547e83fc933d5d3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f85fc666d299d5e120f71cfeaec5fc2f88e72761
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532628"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120107"
 ---
 # <a name="cbasefiltercbasefilterconst-tchar-lpunknown-ccritsec-refclsid-hresult-constructor"></a>Constructeur CBaseFilter. CBaseFilter (const TCHAR \* , LPUNKNOWN, CCritSec \* , REFCLSID, HRESULT \* )
 
@@ -81,7 +81,7 @@ Pointeur vers une valeur **HRESULT** . Le constructeur ignore ce paramètre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour l’objet de section critique, vous pouvez généralement effectuer l’une des opérations suivantes :
 

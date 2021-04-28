@@ -1,5 +1,5 @@
 ---
-description: La méthode QueryStatus récupère l’état du NPP.
+description: 'IDelaydC :: QueryStatus, méthode-la méthode QueryStatus récupère l’état du NPP.'
 ms.assetid: b035d495-a078-4436-9501-0a30fbfa7268
 title: 'IDelaydC :: QueryStatus, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: cff92dfec95555076f9edba5a1b591f0ef905c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13d1e34b57302d263b81ed64df0b136dc01177b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519043"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118457"
 ---
 # <a name="idelaydcquerystatus-method"></a>IDelaydC :: QueryStatus, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure [NETWORKSTATUS](networkstatus.md) retournée qui ind
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -63,7 +63,7 @@ Si la méthode échoue, la valeur de retour est le code d’erreur suivant :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut être appelée à tout moment après l’appel de [CreateNPPInterface](createnppinterface.md) . Il peut être appelé pour déterminer si le NPP est connecté au réseau, pour déterminer l’état de la capture en cours et pour déterminer si des déclencheurs sont en attente.
 

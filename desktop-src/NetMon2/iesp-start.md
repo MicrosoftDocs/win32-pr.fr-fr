@@ -1,5 +1,5 @@
 ---
-description: La méthode start démarre une capture.
+description: 'IESP :: Start, méthode-la méthode start démarre une capture.'
 ms.assetid: 8bf8c0c7-20be-4404-8ea5-b28b4c658523
 title: 'IESP :: Start, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 2d9fc3a75fc82964f6fc5a5660ef77414ae065d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524598"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103797"
 ---
 # <a name="iespstart-method"></a>IESP :: Start, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers le nom du [*fichier de capture*](c.md) utilisé pour stocker les d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -66,7 +66,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’emplacement du [*fichier de capture*](c.md) est spécifié dans le Registre Windows, mais vous pouvez utiliser Moniteur réseau pour modifier l’emplacement du répertoire.
 

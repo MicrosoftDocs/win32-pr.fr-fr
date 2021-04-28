@@ -1,5 +1,5 @@
 ---
-description: Arrête un service nommé.
+description: 'Méthode IShellDispatch2. ServiceStop : arrête un service nommé.'
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
 title: Méthode IShellDispatch2. ServiceStop (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 6a4a76c1f53309c14875eeaf6f3f4c0839a511bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 651138eb687cfd83406bc6e1a7fcf520ff001171
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972382"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117027"
 ---
 # <a name="ishelldispatch2servicestop-method"></a>Méthode IShellDispatch2. ServiceStop
 
@@ -69,21 +69,21 @@ Affectez la valeur **true** pour que le service soit démarré par le gestionnai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ServiceStop**](./shell-servicestop.md) .
 
@@ -132,7 +132,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

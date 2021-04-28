@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe FileIo_V0-cette classe est la classe parente pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: c88242ec-de74-4b5b-8fdd-ec99e0d4a59e
 title: Classe FileIo_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 46f4db6d7923ac3403e730c258510b572a8726aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ffb2f616c5273f92571f4bf4a6bab1b3cdac733e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973551"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106577"
 ---
 # <a name="fileio_v0-class"></a>FileIo \_ v0, classe
 
@@ -38,7 +38,7 @@ class FileIo_V0 : MSNT_SystemTrace
 
 La classe **FileIo \_ v0** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.
+description: 'Méthode CTransformOutputPin. CheckConnect : la méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.'
 ms.assetid: 3dae5c6d-720e-4445-b601-3bdfe32f4c21
 title: Méthode CTransformOutputPin. CheckConnect (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b9a20eb8d3e20679cb8805d3a1cd8e167ef0bfd5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 190acd2fbab5206b114b57719d350e3ad5eac0c2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526396"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094947"
 ---
 # <a name="ctransformoutputpincheckconnect-method"></a>Méthode CTransformOutputPin. CheckConnect
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                  | Description                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                                 |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                                 |
 | <dl> <dt>**E \_ inattendu**</dt> </dl> | La broche d’entrée du filtre n’est pas connectée.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBaseOutputPin :: CheckConnect**](cbaseoutputpin-checkconnect.md) . Elle appelle la méthode [**CTransformFilter :: CheckConnect**](ctransformfilter-checkconnect.md) du filtre, qui retourne la valeur \_ OK dans la classe de base. La classe dérivée peut substituer la méthode **CTransformFilter :: CheckConnect** pour effectuer des vérifications supplémentaires.
 

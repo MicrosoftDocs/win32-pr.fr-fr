@@ -1,6 +1,6 @@
 ---
 title: Message WM_INITMENUPOPUP (winuser. h)
-description: Envoyé lorsqu’un menu déroulant ou un sous-menu est sur le paragraphe actif. Cela permet à une application de modifier le menu avant qu’il ne soit affiché, sans modifier le menu entier.
+description: WM_INITMENUPOPUP message-envoyé quand un menu déroulant ou un sous-menu est sur le paragraphe actif. Cela permet à une application de modifier le menu avant qu’il ne soit affiché, sans modifier le menu entier.
 ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
 keywords:
 - WM_INITMENUPOPUP des menus de message et d’autres ressources
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e02bf0f9b8e196c27990cc1bc839daed4c92f8c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032576"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092517"
 ---
 # <a name="wm_initmenupopup-message"></a>\_Message WM INITMENUPOPUP
 
@@ -52,7 +52,7 @@ Le mot de poids fort indique si le menu déroulant est le menu fenêtre. Si le m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
@@ -84,7 +84,7 @@ Si une application traite ce message, elle doit retourner la valeur zéro.
 [**\_INITMENU WM**](wm-initmenu.md)
 </dt> <dt>
 
-**Méthodologique**
+**Conceptuel**
 </dt> <dt>
 
 [Raccourcis clavier](keyboard-accelerators.md)

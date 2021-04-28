@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media...
 ms.assetid: 8e404517-6406-4c53-81d5-b20cafbc393f
 title: System. Media...
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87c695742c83e8361ab549182c99165c347080db
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 53c460e19906c72071d237dc1df15f038a5cf3a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106531454"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092267"
 ---
 # <a name="systemmediacollectionid"></a>System. Media...
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. ShareUserRating
 ms.assetid: c1735b3d-d77b-41c6-9b88-22284750e558
 title: System. ShareUserRating
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e7504689ed5e3bcecaf30a8db0867fcd2c203a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0171ed74f4998c8d0fa0358e1b7d3a3ceb3457da
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519999"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091567"
 ---
 # <a name="systemshareuserrating"></a>System. ShareUserRating
 
@@ -28,7 +28,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

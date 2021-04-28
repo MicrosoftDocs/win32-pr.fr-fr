@@ -1,5 +1,5 @@
 ---
-description: La méthode Stop arrête la capture en cours.
+description: 'IESP :: Stop, méthode : la méthode Stop arrête la capture en cours.'
 ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
 title: 'IESP :: Stop, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 50dfb274e1355af93c473609f95607e6b3faf1fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac262d8da5ab218db7300ea38da59d5c738421c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103767"
 ---
 # <a name="iespstop-method"></a>IESP :: Stop, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure de [statistiques](statistics.md) qui contient des st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,7 +65,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Quand la méthode **IESP :: Stop** est appelée, moniteur réseau arrête la capture des données et ferme le [*fichier de capture.*](c.md) (Le nom du fichier de capture a été retourné lors de l’appel de [IESP :: Start](iesp-start.md) .) Vous pouvez maintenant examiner le contenu du fichier de capture.
 

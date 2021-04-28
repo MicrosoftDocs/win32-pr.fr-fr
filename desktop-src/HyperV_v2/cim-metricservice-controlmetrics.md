@@ -1,5 +1,5 @@
 ---
-description: Active et désactive la collecte des métriques.
+description: La méthode ControlMetrics de la classe CIM_MetricService-active et désactive la collection de mesures.
 ms.assetid: afb90863-e70a-46e5-b1b7-d959dcacc306
 title: Méthode ControlMetrics de la classe CIM_MetricService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 60a7d0b34227594cf7146a988aa7e0d232f2d6cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19e732e50f8c367463e7f528a520a736117999b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203087"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090867"
 ---
 # <a name="controlmetrics-method-of-the-cim_metricservice-class"></a>Méthode ControlMetrics de la \_ classe CIM MetricService
 
@@ -97,7 +97,7 @@ Indique l’opération souhaitée à effectuer sur les mesures.
 
 </dt> <dd></dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

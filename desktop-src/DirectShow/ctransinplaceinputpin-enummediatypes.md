@@ -1,5 +1,5 @@
 ---
-description: 'La méthode EnumMediaTypes énumère les types de média préférés du pin. Cette méthode implémente la méthode IPin :: EnumMediaTypes.'
+description: 'Méthode CTransInPlaceInputPin. EnumMediaTypes : la méthode EnumMediaTypes énumère les types de média préférés du pin. Cette méthode implémente la méthode IPin :: EnumMediaTypes.'
 ms.assetid: 0c28b4b0-a45f-400f-a6d7-7668458f9642
 title: Méthode CTransInPlaceInputPin. EnumMediaTypes (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ffa634fa695eb0007b49fc1c36c730c7fbde361b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f9e05d0e9db50cabc700da7b3803c1606efab78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537418"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094757"
 ---
 # <a name="ctransinplaceinputpinenummediatypes-method"></a>Méthode CTransInPlaceInputPin. EnumMediaTypes
 
@@ -49,7 +49,7 @@ Reçoit un pointeur vers l’interface [**IEnumMediaTypes**](/windows/desktop/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                           | Description                                 |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                         |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                         |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>         | Mémoire insuffisante.<br/>             |
 | <dl> <dt>**\_pointeur E**</dt> </dl>             | Pointeur **null** .<br/>                |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | La broche de sortie n’est pas connectée.<br/> |
@@ -66,7 +66,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode retourne l’interface **IEnumMediaTypes** à partir de la broche d’entrée en aval.
 

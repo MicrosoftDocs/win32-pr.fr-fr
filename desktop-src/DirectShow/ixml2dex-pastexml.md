@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: IXml2Dex ::P méthode asteXML-non implémentée.
 ms.assetid: ccc06347-89d2-4c20-87e1-c409d8cbe3f8
 title: IXml2Dex ::P méthode asteXML
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2fdd1a8797df4be4db3c2a7db0b74d280ec1080b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92b0474c543111d262acd2ea35bea607dad1e8d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515324"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084407"
 ---
 # <a name="ixml2dexpastexml-method"></a>IXml2Dex ::P méthode asteXML
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -58,11 +58,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

@@ -1,5 +1,5 @@
 ---
-description: Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet dossier du dossier sélectionné.
+description: 'Méthode Shell. BrowseForFolder : crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de renvoyer l’objet Folder du dossier sélectionné.'
 title: Shell. BrowseForFolder, méthode (shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4cc44e5a-3578-448b-9b19-1b71e1ae2cb9
-ms.openlocfilehash: 7e14dffbfb9ab3e18bd4d8e11ffaf4768ad53131
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e5ec05ab09c7592e976085c230a2b359091fb819
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034756"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104367"
 ---
 # <a name="shellbrowseforfolder-method"></a>Shell. BrowseForFolder, méthode
 
@@ -91,7 +91,7 @@ Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -177,7 +177,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

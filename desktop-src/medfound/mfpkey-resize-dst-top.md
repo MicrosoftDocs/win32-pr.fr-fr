@@ -1,15 +1,15 @@
 ---
-description: Spécifie, en pixels, le bord supérieur du rectangle de destination.
+description: Propriété MFPKEY_RESIZE_DST_TOP-spécifie, en pixels, le bord supérieur du rectangle de destination.
 ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: MFPKEY_RESIZE_DST_TOP, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb12804b5b19c362c6355625af3cab1844c4b31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202333"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092897"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>\_Propriété Top de l’heure d’été de REdimensionnement MFPKEY \_ \_
 

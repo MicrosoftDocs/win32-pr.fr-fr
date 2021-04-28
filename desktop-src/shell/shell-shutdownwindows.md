@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue arrêter Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.
+description: Shell. ShutdownWindows, méthode-affiche la boîte de dialogue arrêt de Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.
 ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
 title: Shell. ShutdownWindows, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 804a1e211e191206d20f83d85dee2202492bfd27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a3c0746caccb360f6f7f0156b72a57ed0a2d2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203436"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083667"
 ---
 # <a name="shellshutdownwindows-method"></a>Shell. ShutdownWindows, méthode
 
@@ -98,7 +98,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

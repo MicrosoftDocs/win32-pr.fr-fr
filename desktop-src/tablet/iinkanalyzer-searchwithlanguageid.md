@@ -1,5 +1,5 @@
 ---
-description: Fournit une recherche basée sur une expression approximative et non sensible à la casse pour les traits d’écriture analysés et les traits de dessin analysés qui ont des types reconnus.
+description: 'IInkAnalyzer :: SearchWithLanguageId, méthode-fournit une recherche basée sur une expression approximative et non sensible à la casse pour les traits d’écriture analysés et les traits de dessin analysés qui ont des types reconnus.'
 ms.assetid: dfd481f9-38fd-433f-b1fc-697c735c13da
 title: 'IInkAnalyzer :: SearchWithLanguageId, méthode (IACom. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 829878a6fd326abb8a685b644cfc222ba6921385
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201469933da10b0d68a4d3a50e63c42f8d01d2dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751796"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083657"
 ---
 # <a name="iinkanalyzersearchwithlanguageid-method"></a>IInkAnalyzer :: SearchWithLanguageId, méthode
 
@@ -86,11 +86,11 @@ Pointeur vers un tableau d’ID de trait représentant un jeu de traits.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Pour obtenir une description des valeurs de retour, consultez [classes et interfaces-analyse](classes-and-interfaces---ink-analysis.md)de l’encre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette recherche recherche les sous-chaînes de mots multiples et à mots uniques. Les résultats de la reconnaissance alternative et les autres segments sont recherchés.
 

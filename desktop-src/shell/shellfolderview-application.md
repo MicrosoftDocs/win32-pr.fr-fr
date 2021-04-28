@@ -1,5 +1,5 @@
 ---
-description: Contient l’objet d’application de l’objet.
+description: 'ShellFolderView. application, propriété : contient l’objet application de l’objet.'
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
 title: ShellFolderView. application, propriété (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ba57c407183179f580b5b616ad039c22e6fea66c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95ef542f91235b3b068e1b1b54768b4dd453d9b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973587"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083467"
 ---
 # <a name="shellfolderviewapplication-property"></a>ShellFolderView. application, propriété
 
@@ -39,13 +39,13 @@ objApplication = ShellFolderView.Application
 
 Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qui reçoit l’objet application.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La propriété d' **application** retourne l’objet Automation pris en charge par l’application qui contient le contrôle WebBrowser, si cet objet est accessible. Sinon, cette propriété retourne l’objet Automation du contrôle WebBrowser.
 
 Utilisez cette propriété avec les commandes **Set** et **CreateObject** ou à l’aide de la commande **GetObject** pour créer et manipuler une instance de l’application Windows Internet Explorer.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_FcSwitchPort-demande un changement d’État.
 ms.assetid: 42b9b67d-ee64-4c78-860c-9af61f780ff8
 title: Méthode RequestStateChange de la classe Msvm_FcSwitchPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d99c4a76a47d59fbd7a7eff4f1be49e90ecd30ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74ef1d921cac8d6dc5b5ac1db84c343f0ff4bd06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524892"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118997"
 ---
 # <a name="requeststatechange-method-of-the-msvm_fcswitchport-class"></a>Méthode RequestStateChange de la \_ classe MSVM FcSwitchPort
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

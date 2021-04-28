@@ -1,5 +1,5 @@
 ---
-description: Définit un nombre à virgule flottante.
+description: 'ID3DXTextureShader :: SetFloat, méthode-définit un nombre à virgule flottante.'
 ms.assetid: 69bb9b15-5d66-4b1a-9559-29bcb38a965f
 title: 'ID3DXTextureShader :: SetFloat, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 85923fe20731b4482f70c439cb9df75712ab09f5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6230b0736cb3bc623b0413f7b5a1cb9635f00e07
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107167"
 ---
 # <a name="id3dxtextureshadersetfloat-method"></a>ID3DXTextureShader :: SetFloat, méthode
 
@@ -59,7 +59,7 @@ Nombre à virgule flottante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

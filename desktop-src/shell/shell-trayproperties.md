@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue Propriétés de la barre des tâches et du menu Démarrer. Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez Propriétés.
+description: 'Méthode Shell. TrayProperties : affiche la boîte de dialogue Propriétés de la barre des tâches et du menu Démarrer. Cette méthode a le même effet que lorsque vous cliquez avec le bouton droit sur la barre des tâches et sélectionnez Propriétés.'
 ms.assetid: 0d82d847-9e6f-461e-b938-fe8fd49a636f
 title: Shell. TrayProperties, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: da3fbfdb2b6aa2517b275041856920c6b2cd1bb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e09f6833fbf07c99fdbce9c02b020bcbb5361408
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973674"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104097"
 ---
 # <a name="shelltrayproperties-method"></a>Shell. TrayProperties, méthode
 
@@ -99,7 +99,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

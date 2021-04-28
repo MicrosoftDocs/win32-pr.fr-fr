@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau d’entiers.
+description: 'ID3DXBaseEffect :: SetIntArray, méthode-définit un tableau d’entiers.'
 ms.assetid: 4491bffd-ce5e-4f84-ac11-0314a1b16d63
 title: 'ID3DXBaseEffect :: SetIntArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f76ff0d7f4bcc68d7cce85f3d02f2bc207a5f4b1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a14e837a0903290c3197bbb17ec4b2da3f68b419
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523166"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093757"
 ---
 # <a name="id3dxbaseeffectsetintarray-method"></a>ID3DXBaseEffect :: SetIntArray, méthode
 
@@ -69,7 +69,7 @@ Nombre d’entiers dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_S3DisplayController-demande une réinitialisation.
 ms.assetid: bd28a4be-7dec-4520-a917-3fcbb566b1d8
 title: Méthode Reset de la classe Msvm_S3DisplayController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9949240cb8c8c3c9085f6ee89b90ffc1a209322e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 492a420384b760500c54e1c3c481638bcd2ee7d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521839"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118777"
 ---
 # <a name="reset-method-of-the-msvm_s3displaycontroller-class"></a>Méthode Reset de la \_ classe MSVM S3DisplayController
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

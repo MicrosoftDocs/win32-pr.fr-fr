@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode GetMetadataQueryReader.
+description: IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy fonction de proxy de fonction pour la méthode GetMetadataQueryReader.
 ms.assetid: 2a3e0a59-3524-4da4-993a-607a3727faba
 title: IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: e549fdfbacb5bd508a442c70c203595b8819750f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6c00cc4463bd8540e5baeb41a10577e9f67e85c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530834"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091137"
 ---
 # <a name="iwicbitmapframedecode_getmetadataqueryreader_proxy-function"></a>\_ \_ Fonction proxy GetMetadataQueryReader IWICBitmapFrameDecode
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+Type : **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-Pointeur vers cet objet [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
+Pointeur vers cet objet [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) .
 
 </dd> <dt>
 
@@ -59,7 +59,7 @@ Pointeur qui reçoit un pointeur vers un [**IWICMetadataQueryReader**](/windows/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

@@ -1,5 +1,5 @@
 ---
-description: Transforme un tableau de plans par une matrice. Les vecteurs qui décrivent chaque plan doivent être normalisés.
+description: D3DXPlaneTransformArray, fonction (D3dx9math. h)-transforme un tableau de plans par une matrice. Les vecteurs qui décrivent chaque plan doivent être normalisés.
 ms.assetid: e82e830b-efbb-4bdc-b370-7bfa4326a669
 title: D3DXPlaneTransformArray, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a9a213b17aca9999ef0028fdceb4bb4321d47660
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdbc845eda69d22f6e7097131f71b074a9b53985
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537235"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094127"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx9mathh"></a>D3DXPlaneTransformArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre de plans à transformer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
 Pointeur vers une structure [**D3DXPLANE**](d3dxplane.md) représentant le plan transformé. Il s’agit de la même valeur retournée dans le paramètre *moue* pour que cette fonction puisse être utilisée en tant que paramètre pour une autre fonction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet exemple transforme un plan en appliquant une échelle non uniforme.
 

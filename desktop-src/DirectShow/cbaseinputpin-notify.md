@@ -1,5 +1,5 @@
 ---
-description: 'La méthode Notify avertit le code confidentiel qu’une modification de qualité est demandée. Cette méthode implémente la méthode IQualityControl :: Notify.'
+description: 'CBaseInputPin. Notify, méthode : la méthode Notify notifie au code confidentiel qu’une modification de qualité est demandée. Cette méthode implémente la méthode IQualityControl :: Notify.'
 ms.assetid: 76124321-0d2d-4fee-a08a-4db23078e8df
 title: CBaseInputPin. Notify, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a5ae7ca47c5adc11c87a739e8736ba327dc0b65f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 610888193762618d427a0329a27d3019bd625e69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543279"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119997"
 ---
 # <a name="cbaseinputpinnotify-method"></a>CBaseInputPin. Notify, méthode
 
@@ -57,11 +57,11 @@ Structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-quality) qui con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 En règle générale, les filtres passent des messages de contrôle qualité à une broche de sortie en amont, et non à une broche d’entrée. Par conséquent, cette méthode retourne S \_ OK sans rien faire.
 

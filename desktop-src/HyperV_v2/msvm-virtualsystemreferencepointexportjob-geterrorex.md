@@ -1,5 +1,5 @@
 ---
-description: Récupère des informations supplémentaires sur une erreur.
+description: 'Méthode GetErrorEx de la classe Msvm_VirtualSystemReferencePointExportJob : récupère des informations supplémentaires sur une erreur.'
 ms.assetid: 63ce4762-e5ce-405f-b5fc-74e505b0eaf1
 title: Méthode GetErrorEx de la classe Msvm_VirtualSystemReferencePointExportJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4c6c392adb2b638c2d638b758696252adcb54d7e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 80e0850018b20497dbc42bbdbb802ffe4317489b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106539787"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118607"
 ---
 # <a name="geterrorex-method-of-the-msvm_virtualsystemreferencepointexportjob-class"></a>Méthode GetErrorEx de la \_ classe VirtualSystemReferencePointExportJob MSVM
 
@@ -46,7 +46,7 @@ Si l’état opérationnel du travail n’est pas « OK », ce paramètre reto
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 En cas de réussite, retourne 0 ; Sinon, retourne une erreur.
 

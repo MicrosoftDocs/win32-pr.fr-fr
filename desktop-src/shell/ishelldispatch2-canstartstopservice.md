@@ -1,5 +1,5 @@
 ---
-description: Détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.
+description: 'Méthode IShellDispatch2. CanStartStopService : détermine si l’utilisateur actuel peut démarrer et arrêter le service nommé.'
 ms.assetid: cbb54ae9-02e6-4243-a782-e9f125c21c0d
 title: Méthode IShellDispatch2. CanStartStopService (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 92655c2c561284f00204826e1848a75f00f4a04d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 600cf7fafd556a9192c4b0de4089516bc6cca2a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527328"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117127"
 ---
 # <a name="ishelldispatch2canstartstopservice-method"></a>Méthode IShellDispatch2. CanStartStopService
 
@@ -58,21 +58,21 @@ Type : **chaîne**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
+Retourne la **valeur true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
+Retourne la **valeur true** si l’utilisateur peut démarrer et arrêter le service ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. CanStartStopService**](./shell-canstartstopservice.md) .
 
@@ -119,7 +119,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

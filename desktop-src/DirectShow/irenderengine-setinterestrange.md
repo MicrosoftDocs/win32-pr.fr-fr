@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IRenderEngine :: SetInterestRange, méthode non prise en charge.'
 ms.assetid: 1e4c3bd4-2540-428f-9ca6-dd4c65c53434
 title: 'IRenderEngine :: SetInterestRange, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 81ccd8c1266710e7e38fe9b79e86319e8fef7314
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec9790e65efa30b83cf324da4153f20c541733b9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104481128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084457"
 ---
 # <a name="irenderenginesetinterestrange-method"></a>IRenderEngine :: SetInterestRange, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -58,11 +58,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

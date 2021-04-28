@@ -1,5 +1,5 @@
 ---
-description: Créez un Atlas UV pour une maille.
+description: D3DXUVAtlasCreate fonction-créer un Atlas UV pour une maille.
 ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
 title: D3DXUVAtlasCreate, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 814f213b0195b0922270d0548d8b5fd4c48fb3e3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f382e7d59f3a5b5db8ba3cfd65ba6cc1a11e86d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522946"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117827"
 ---
 # <a name="d3dxuvatlascreate-function"></a>D3DXUVAtlasCreate fonction)
 
@@ -229,13 +229,13 @@ Pointeur vers le nombre de graphiques créés par l’algorithme Atlas. Si dwMax
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK ; sinon, la valeur est D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 D3DXUVAtlasCreate peut partitionner la géométrie de maille de deux manières :
 

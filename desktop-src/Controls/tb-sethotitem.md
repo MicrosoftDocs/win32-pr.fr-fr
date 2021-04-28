@@ -1,6 +1,6 @@
 ---
 title: Message TB_SETHOTITEM (commctrl. h)
-description: Définit l’élément réactif dans une barre d’outils.
+description: 'TB_SETHOTITEM message : définit l’élément réactif dans une barre d’outils.'
 ms.assetid: 15005741-29d2-48c6-b5f0-15178a49b917
 keywords:
 - TB_SETHOTITEM les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c477a445cb6aae78dd5d31e8d23b8ec3be8c61ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a90e5b38675d33a361857c4303fa2a89f22cff29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843981"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104177"
 ---
 # <a name="tb_sethotitem-message"></a>TO \_ SETHOTITEM message
 
@@ -39,11 +39,11 @@ Index de l’élément qui sera rendu chaud. Si cette valeur est-1, aucun des é
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’index de l’élément réactif précédent, ou-1 s’il n’y a pas d’élément réactif.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le comportement de ce message n’est pas défini pour les barres d’outils qui n’ont pas le style [**\_ plat TBSTYLE**](toolbar-control-and-button-styles.md) .
 
