@@ -1,5 +1,5 @@
 ---
-description: La méthode Disconnect déconnecte le NPP du réseau.
+description: IDelaydC ::D méthode éconnecter-la méthode Disconnect déconnecte le NPP du réseau.
 ms.assetid: 476bbce4-2e3c-448f-b85e-6adac424fb0d
 title: IDelaydC ::D méthode éconnecter (NetMon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d192aa80f543706eea4bc197bc3dc8d57dd64aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 967bd9674cb28363804b8c8af12c541bcb8675ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112219"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110807"
 ---
 # <a name="idelaydcdisconnect-method"></a>IDelaydC ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode **IDelaydC :: Stop** avant d’appeler **Disconnect**.
 

@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente des événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Process_V2-cette classe est la classe parente des événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 75596278-43cc-4040-a43d-6958d0935b68
 title: Classe Process_V2
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c055dc1f78da13c0dfa29bea948a8f0c94363ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d700e7847d0ad19a019985a4e19343ce8f383d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952737"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106297"
 ---
 # <a name="process_v2-class"></a>Process \_ v2 (classe)
 
@@ -38,7 +38,7 @@ class Process_V2 : MSNT_SystemTrace
 
 La classe **Process** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour activer les événements de processus dans une session de journalisation du noyau NT, spécifiez l’indicateur de **\_ \_ \_ processus indicateur de suivi d’événement** dans le membre **EnableFlags** d’une structure de [**\_ \_ Propriétés de trace d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier l’indicateur suivant :
 
@@ -64,7 +64,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
 Les événements de démarrage de processus et de thread peuvent être consignés dans le contexte du processus parent ou du thread. Par conséquent, les membres **ProcessID** et **ThreadID** de l' [**\_ \_ en-tête de trace d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header) peuvent ne pas correspondre au processus et au thread en cours de création. C’est pourquoi ces événements contiennent les identificateurs de processus et de thread dans les données d’événement (en plus de ceux de l’en-tête d’événement).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

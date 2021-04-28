@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_ImageManagementService : arrête le service.'
 ms.assetid: 96f49c9c-7f1c-497e-9630-5fd9b355b75d
 title: Méthode StopService de la classe Msvm_ImageManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d61f95af2cc0efe371a91454c74adc96949e00e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9dde7af6f6d62395f27cbd3ec44daf45d7375f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515274"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118928"
 ---
 # <a name="stopservice-method-of-the-msvm_imagemanagementservice-class"></a>Méthode StopService de la \_ classe MSVM ImageManagementService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

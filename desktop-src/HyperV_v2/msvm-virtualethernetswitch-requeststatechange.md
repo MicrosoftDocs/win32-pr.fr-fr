@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_VirtualEthernetSwitch-demande un changement d’État.
 ms.assetid: 17b4ad3f-c00a-4649-a92e-3049d1df2dba
 title: Méthode RequestStateChange de la classe Msvm_VirtualEthernetSwitch
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 48445dec3206a93a2ea8ab081af0a487b9894d7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53acbcfceb0e90c817aab27c62d674f94c150585
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034799"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111087"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualethernetswitch-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualEthernetSwitch
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

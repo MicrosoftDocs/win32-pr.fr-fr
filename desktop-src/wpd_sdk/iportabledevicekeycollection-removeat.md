@@ -1,5 +1,5 @@
 ---
-description: La méthode RemoveAt supprime l’élément stocké à l’emplacement spécifié par l’index donné.
+description: 'IPortableDeviceKeyCollection :: RemoveAt, méthode-la méthode RemoveAt supprime l’élément stocké à l’emplacement spécifié par l’index donné.'
 ms.assetid: 70f220be-d70b-4a25-8e16-82ed42adf2c4
 title: 'IPortableDeviceKeyCollection :: RemoveAt, méthode (PortableDeviceTypes. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: f4e126ef5fcad74b7cee5f748322f15e75481e0c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ec2b1137e7959a646c2943ab1aa7a5c3428d3c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528979"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109940"
 ---
 # <a name="iportabledevicekeycollectionremoveat-method"></a>IPortableDeviceKeyCollection :: RemoveAt, méthode
 
@@ -47,7 +47,7 @@ Spécifie l’index de l’élément à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -62,7 +62,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Vous devez spécifier un index de base zéro.
 

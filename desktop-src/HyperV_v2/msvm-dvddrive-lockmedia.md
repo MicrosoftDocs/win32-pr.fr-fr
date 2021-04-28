@@ -1,5 +1,5 @@
 ---
-description: Verrouille ou libère le média.
+description: 'Méthode LockMedia de la classe Msvm_DVDDrive : verrouille ou libère le média.'
 ms.assetid: 924bc20a-901b-4618-be49-eaacf80c9465
 title: Méthode LockMedia de la classe Msvm_DVDDrive
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 650a868d8e25e2ccc47271e49634827fe7d3d967
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e00780fbeeeec60563b31008c8e5979a09f9d173
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116078"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119147"
 ---
 # <a name="lockmedia-method-of-the-msvm_dvddrive-class"></a>Méthode LockMedia de la \_ classe DVDDrive MSVM
 
@@ -46,7 +46,7 @@ uint32 LockMedia(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

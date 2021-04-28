@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. audio. PeakValue
 ms.assetid: 576070e9-8f7a-4df7-ba3a-0872aa96a0ab
 title: System. audio. PeakValue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 363cabccfe026937db8acac0b79635dbc19ea691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 905236f61a86a41fb6034274e21b1d828c2b9989
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533818"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104917"
 ---
 # <a name="systemaudiopeakvalue"></a>System. audio. PeakValue
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

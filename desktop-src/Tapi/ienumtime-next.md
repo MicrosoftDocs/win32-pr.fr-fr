@@ -1,15 +1,15 @@
 ---
-description: La méthode suivante obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.
+description: 'IEnumTime :: Next, méthode-la méthode suivante obtient le nombre spécifié d’éléments suivant dans la séquence d’énumération.'
 ms.assetid: e8ca77b8-0322-43b4-9996-26f584cf878a
 title: 'IEnumTime :: Next, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fce3d88bc88e808c35ec64f827fd5925ddfe57f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1487136b0e3e41ba11a23ba92500d2aa0758df79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529030"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118387"
 ---
 # <a name="ienumtimenext-method"></a>IEnumTime :: Next, méthode
 
@@ -55,7 +55,7 @@ Pointeur vers le nombre d’éléments réellement fournis. Peut avoir la **vale
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -71,7 +71,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’interface TAPI appelle la méthode **AddRef** sur l’interface [**ITTime**](ittime.md) retournée par **IEnumTime :: Next**. L’application doit appeler **Release** sur l’interface **ITTime** pour libérer les ressources qui lui sont associées.
 

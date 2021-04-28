@@ -1,5 +1,5 @@
 ---
-description: 'La méthode FindPin récupère le code confidentiel avec l’identificateur spécifié. Cette méthode implémente la méthode IBaseFilter :: FindPin.'
+description: 'Méthode CBaseFilter. FindPin : la méthode FindPin récupère le code confidentiel avec l’identificateur spécifié. Cette méthode implémente la méthode IBaseFilter :: FindPin.'
 ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
 title: Méthode CBaseFilter. FindPin (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98b49c547ec59a74185f7f719da660220de8480f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2bbef9b051a42597b2585a432f544eead4e2e0a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529918"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099817"
 ---
 # <a name="cbasefilterfindpin-method"></a>Méthode CBaseFilter. FindPin
 
@@ -57,7 +57,7 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IPIN**](/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
 | Code de retour                                                                                       | Description                               |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>              | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>              | Réussite.<br/>                       |
 | <dl> <dt>**\_pointeur E**</dt> </dl>         | Argument de pointeur **null** .<br/>     |
 | <dl> <dt>**VFW \_ E \_ \_ introuvable**</dt> </dl> | Impossible de trouver un code PIN correspondant.<br/> |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode appelle la méthode [**CBasePin :: Name**](cbasepin-name.md) pour comparer le nom de chaque pin à la chaîne spécifiée par le paramètre *ID* .
 

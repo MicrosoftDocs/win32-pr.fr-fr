@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'UdpIp_V0_TypeGroup1 classe : cette classe est la classe de type d’événement pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 834a761a-089b-4b93-9a6a-a1edf752b582
 title: Classe UdpIp_V0_TypeGroup1
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2813476bc2c820d1872e787dc047fafccd3b7d52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78243a49e4504fd9e132407feebe98d9b48f7bdd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952607"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105497"
 ---
 # <a name="udpip_v0_typegroup1-class"></a>\_Classe UdpIp v0 \_ TypeGroup1
 
@@ -172,7 +172,7 @@ Numéro du port source.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode BreakConnect libère le code confidentiel d’une connexion.
+description: 'Méthode CBaseInputPin. BreakConnect : la méthode BreakConnect libère le code confidentiel d’une connexion.'
 ms.assetid: 73b228a9-0a59-4647-b400-c33fa06c7e34
 title: Méthode CBaseInputPin. BreakConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6981ef97b98cc25b1996f1599d6d66b8e7d41f20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5398f675e056da2c60747c0b4eb17c475771bdc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541110"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099737"
 ---
 # <a name="cbaseinputpinbreakconnect-method"></a>Méthode CBaseInputPin. BreakConnect
 
@@ -40,11 +40,11 @@ HRESULT BreakConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: BreakConnect**](cbasepin-breakconnect.md) . Il annule l’allocation et libère l’interface [**IMemAllocator**](/windows/desktop/api/Strmif/nn-strmif-imemallocator) .
 

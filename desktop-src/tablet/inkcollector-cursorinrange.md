@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
+description: Événement InkCollector. CursorInRange-se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
 ms.assetid: d05b240c-ba64-4008-b25d-e06c052eb5b0
 title: Événement InkCollector. CursorInRange (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c1d59927f9ed0a932fe28a2c5243f328a223c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9b7cd6204b2dbb29f9a46e48ecb12569e1301f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525275"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110287"
 ---
 # <a name="inkcollectorcursorinrange-event"></a>Événement InkCollector. CursorInRange
 
@@ -55,11 +55,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode d’événement TCet est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IINKPICTUREEVENTS avec l’ID DISPID \_ ICECursorInRange.
 

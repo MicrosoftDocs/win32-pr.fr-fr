@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_CollectionManagementService : arrête le service.'
 ms.assetid: 26d0aa9f-f5ca-481f-9bed-6788b0dc2803
 title: Méthode StopService de la classe Msvm_CollectionManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 72a960e1f18589c6166fe58c0325a94d46969946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f46b7416a3f17788cbfc0af5aacba014d680dbf6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867965"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119247"
 ---
 # <a name="stopservice-method-of-the-msvm_collectionmanagementservice-class"></a>Méthode StopService de la \_ classe MSVM CollectionManagementService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne une erreur.
 

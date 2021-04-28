@@ -1,5 +1,5 @@
 ---
-description: La méthode Disconnect déconnecte le NPP du réseau.
+description: IRTC ::D méthode éconnecter-la méthode Disconnect déconnecte le NPP du réseau.
 ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
 title: IRTC ::D méthode éconnecter (NetMon. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: df58d6ac0e61ecc370510474c3bc067726d9824b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43acb88e2c7b6108a162c4715de02375121021f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202310"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110717"
 ---
 # <a name="irtcdisconnect-method"></a>IRTC ::D méthode éconnecter
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Disconnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ne peut pas être appelée lorsque le NPP capture des données. Vous devez appeler la méthode [IRTC :: Stop](irtc-stop.md) avant d’appeler IRTC ::D éconnecter.
 

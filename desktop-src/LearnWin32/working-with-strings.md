@@ -1,15 +1,15 @@
 ---
 title: Utilisation des chaînes
-description: .
+description: Utilisation des chaînes
 ms.assetid: 876ff8bb-67c3-4dcc-aa94-7fbd915c67dc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70c74530a1acd0eb94f0d88662924203a8c58116
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4661c6b07a267d90e0fca05d04354c018be04527
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101549"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110967"
 ---
 # <a name="working-with-strings"></a>Utilisation des chaînes
 
@@ -46,7 +46,7 @@ Voici d’autres typedefs liés à la chaîne qui s’affichent :
 
 
 
- 
+ 
 
 ## <a name="unicode-and-ansi-functions"></a>Fonctions Unicode et ANSI
 
@@ -85,7 +85,7 @@ De retour lorsque les applications devaient prendre en charge à la fois Windows
 
 
 
- 
+ 
 
 Par exemple, le code suivant :
 
@@ -128,6 +128,6 @@ ATTENTION : certains en-têtes utilisent le symbole de préprocesseur `UNICODE`
 
 [Qu’est-ce qu’une fenêtre ?](what-is-a-window-.md)
 
- 
+ 
 
- 
+ 

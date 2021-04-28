@@ -1,5 +1,5 @@
 ---
-description: État actuel du rapport.
+description: 'Propriété LocationDisp. LatLongReportFactory. Status : état actuel du rapport.'
 ms.assetid: bcdf76b5-88c4-481a-89ac-2b9558cecfc0
 title: LocationDisp. LatLongReportFactory. Status, propriété
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c32f1e58c5c519bdbdf797f81f11a449bfb3dc1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37e66c3f289f5376b31ffe516f45d79f2fef51e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319389"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088897"
 ---
 # <a name="locationdisplatlongreportfactorystatus-property"></a>LocationDisp. LatLongReportFactory. Status, propriété
 
@@ -44,7 +44,7 @@ Cette propriété est un **nombre** en lecture seule (unsigned long).
 
 | Statut                                                                                               | Signification                          |
 |------------------------------------------------------------------------------------------------------|----------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Rapport non pris en charge.<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Rapport non pris en charge.<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur.<br/>                |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Accès refusé.<br/>        |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl> | Initialisation en cours.<br/>         |

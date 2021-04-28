@@ -1,5 +1,5 @@
 ---
-description: Modifie les données de paramètre pour le service.
+description: La méthode ModifyServiceSettings de la classe Msvm_VirtualSystemManagementService-modifie les données de paramètre pour le service.
 ms.assetid: 1CA49922-894D-4AA1-B741-6A0DC9F5654E
 title: Méthode ModifyServiceSettings de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e93d86c454de4f214c72a6ed95a414d184419c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee4e8ae904292bae06770f23cf6c853d5e5448bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867058"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112167"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode ModifyServiceSettings de la \_ classe VirtualSystemManagementService MSVM
 
@@ -58,7 +58,7 @@ Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -105,7 +105,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ VirtualSystemManagementService**](msvm-virtualsystemmanagementservice.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

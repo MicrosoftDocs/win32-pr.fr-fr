@@ -1,5 +1,5 @@
 ---
-description: Obtient une icône d’appareil personnalisé.
+description: 'IWiaUIExtension2 :: GetDeviceIcon, méthode-obtient une icône d’appareil personnalisé.'
 ms.assetid: ea768dd1-22fe-4a0f-8851-b152e28d65fb
 title: 'IWiaUIExtension2 :: GetDeviceIcon, méthode (Wiadevd. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: d071332a1947c4eb6398235d6941a6843a4fa54c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe1498a804de5adeeea459464e95640b3b81ef06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116617"
 ---
 # <a name="iwiauiextension2getdeviceicon-method"></a>IWiaUIExtension2 :: GetDeviceIcon, méthode
 
@@ -53,13 +53,13 @@ Spécifie l’ID d’appareil de l’appareil WIA pour lequel l’icône doit ê
 *phIcon* \[ à\]
 </dt> <dd>
 
-Type : **HICON \** _
+Type : **HICON \***
 
 Pointe vers un emplacement de mémoire qui reçoit un handle pour l’icône de l’appareil.
 
 </dd> <dt>
 
-_nSize * \[ dans\]
+*nSize* \[ dans\]
 </dt> <dd>
 
 Type : **ULong**
@@ -68,7 +68,7 @@ Spécifie la taille d’icône souhaitée, en pixels. L’icône est supposée �
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

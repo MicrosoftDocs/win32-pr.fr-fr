@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de configuration de l’alimentation. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe SystemConfig_Power-cette classe est la classe de type d’événement pour les événements de configuration de l’alimentation. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 7065b0b0-9a1d-4fce-a494-5762d5efb239
 title: Classe SystemConfig_Power
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d27586451f944ac9c94e9ec2d204035c21f37679
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7338faad8c313847ad7db7aaac5d4000abba5be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972110"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106067"
 ---
 # <a name="systemconfig_power-class"></a>\_Classe SystemConfig Power
 
@@ -190,7 +190,7 @@ La valeur true indique que le système prend en charge l’état de veille S5.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 'La méthode NotifyAllocator spécifie un allocateur pour la connexion. Cette méthode implémente la méthode IMemInputPin :: NotifyAllocator.'
+description: 'Méthode CBaseInputPin. NotifyAllocator : la méthode NotifyAllocator spécifie un allocateur pour la connexion. Cette méthode implémente la méthode IMemInputPin :: NotifyAllocator.'
 ms.assetid: 16167bd5-2d33-4329-87ec-6a6c578e0060
 title: Méthode CBaseInputPin. NotifyAllocator (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ce5bc3cfe165b1adb6b5b970ca43d31c8ace98f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c63e448d0cf2d287a441a4983f6a2e06bd9b8151
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534804"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099714"
 ---
 # <a name="cbaseinputpinnotifyallocator-method"></a>Méthode CBaseInputPin. NotifyAllocator
 
@@ -57,11 +57,11 @@ Indicateur qui spécifie si les exemples de cet allocateur sont en lecture seule
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Au cours de la connexion de code confidentiel, la broche de sortie choisit un allocateur et appelle cette méthode pour notifier la broche d’entrée. La broche de sortie peut utiliser l’allocateur que la broche d’entrée a proposée dans la méthode [**IMemInputPin :: GetAllocator**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-getallocator) , ou elle peut fournir son propre allocateur.
 

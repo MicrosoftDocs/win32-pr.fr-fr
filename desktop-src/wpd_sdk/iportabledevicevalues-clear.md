@@ -1,5 +1,5 @@
 ---
-description: La méthode Clear supprime tous les éléments de la collection.
+description: 'IPortableDeviceValues :: Clear, méthode-la méthode Clear supprime tous les éléments de la collection.'
 ms.assetid: 4350ae43-16be-4cf2-816d-719349b12654
 title: 'IPortableDeviceValues :: Clear, méthode (PortableDeviceTypes. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 45c04319b5691e3bbcfb56d5a447cf2eb60bfaac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e1df59cd972bc470607ac2b49d05f43dba8b3a7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537448"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109897"
 ---
 # <a name="iportabledevicevaluesclear-method"></a>IPortableDeviceValues :: Clear, méthode
 
@@ -38,7 +38,7 @@ HRESULT Clear();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -52,7 +52,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode libère la mémoire pour tous les éléments alloués dynamiquement dans la collection. Pour les interfaces, elle appelle **Release**.
 

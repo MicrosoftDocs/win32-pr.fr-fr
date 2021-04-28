@@ -1,5 +1,5 @@
 ---
-description: Matrice 4x4 qui contient des méthodes et des surcharges d’opérateur.
+description: 'D3DXMATRIX structure (D3DX10Math. h) : matrice 4x4 qui contient des méthodes et des surcharges d’opérateur.'
 ms.assetid: c354d28b-bb08-41c5-bb59-90a912181f0f
 title: D3DXMATRIX, structure (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: cae887e2e9a8782cdc7ba159db203c929006c58a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ba1b9533fe5dfa2cfd163a1f92b34a43d7dbd741
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522387"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113227"
 ---
 # <a name="d3dxmatrix-structure-d3dx10mathh"></a>D3DXMATRIX, structure (D3DX10Math. h)
 
@@ -50,7 +50,7 @@ Composant (i, j) de la matrice, où i est le numéro de ligne et j le numéro de
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les programmeurs C ne peuvent pas utiliser la structure D3DXMATRIX, ils doivent utiliser la structure D3DMATRIX. Les programmeurs C++ peuvent tirer parti des opérateurs surchargés et des opérateurs d’assignation, unaires et binaires (y compris l’égalité).
 

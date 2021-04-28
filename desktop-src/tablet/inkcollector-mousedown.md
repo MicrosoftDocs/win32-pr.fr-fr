@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le pointeur de la souris se trouve sur l’objet InkCollector ou InkOverlay et qu’un bouton de la souris est enfoncé.
+description: Événement InkCollector. MouseDown-se produit lorsque le pointeur de la souris se trouve sur l’objet InkCollector ou InkOverlay et qu’un bouton de la souris est enfoncé.
 ms.assetid: db9ec396-b2a7-4f4f-99f2-95aad46eea28
 title: Événement InkCollector. MouseDown (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760801fb5c578ddbdd67b15a4201c21c4981b097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d29c8d3ba19856a8d6bfa038837b592c0b5f2b36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525270"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110177"
 ---
 # <a name="inkcollectormousedown-event"></a>Événement InkCollector. MouseDown
 
@@ -69,11 +69,11 @@ Coordonnée Y, en pixels, d’un clic de souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour améliorer les performances de l’encre en temps réel, masquez ou affichez le curseur de la souris dans les gestionnaires d’événements **MouseDown** et [**MouseUp**](inkcollector-mouseup.md) .
 

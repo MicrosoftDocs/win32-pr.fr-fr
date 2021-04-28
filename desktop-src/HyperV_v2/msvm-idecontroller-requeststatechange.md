@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_IDEController-demande un changement d’État.
 ms.assetid: a884f3dc-21b1-4284-bb6c-75393bbda816
 title: Méthode RequestStateChange de la classe Msvm_IDEController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d4c22318f28a774704fb9c2f3b1f0b642b289cdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 699b86c1324b0d1c35212e59e88070dbea1a4ac4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527215"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111787"
 ---
 # <a name="requeststatechange-method-of-the-msvm_idecontroller-class"></a>Méthode RequestStateChange de la \_ classe MSVM IDEController
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 
