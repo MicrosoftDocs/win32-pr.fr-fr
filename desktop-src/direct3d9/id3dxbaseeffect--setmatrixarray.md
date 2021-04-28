@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de matrices nontransposed.
+description: 'ID3DXBaseEffect :: SetMatrixArray, méthode-définit un tableau de matrices nontransposed.'
 ms.assetid: 008de62c-3a36-4499-8a0b-9075756395e9
 title: 'ID3DXBaseEffect :: SetMatrixArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: c48dcb3288930a9170c932f335a4b20c258acbb4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae603708be4b34c9aa12722fe282df470c85d476
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322618"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107427"
 ---
-# <a name="id3dxbaseeffectsetmatrixarray-method"></a><span data-ttu-id="29245-103">ID3DXBaseEffect :: SetMatrixArray, méthode</span><span class="sxs-lookup"><span data-stu-id="29245-103">ID3DXBaseEffect::SetMatrixArray method</span></span>
+# <a name="id3dxbaseeffectsetmatrixarray-method"></a><span data-ttu-id="689e3-103">ID3DXBaseEffect :: SetMatrixArray, méthode</span><span class="sxs-lookup"><span data-stu-id="689e3-103">ID3DXBaseEffect::SetMatrixArray method</span></span>
 
-<span data-ttu-id="29245-104">Définit un tableau de matrices nontransposed.</span><span class="sxs-lookup"><span data-stu-id="29245-104">Sets an array of nontransposed matrices.</span></span>
+<span data-ttu-id="689e3-104">Définit un tableau de matrices nontransposed.</span><span class="sxs-lookup"><span data-stu-id="689e3-104">Sets an array of nontransposed matrices.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="29245-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="29245-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="689e3-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="689e3-105">Syntax</span></span>
 
 
 ```C++
@@ -38,68 +38,68 @@ HRESULT SetMatrixArray(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="29245-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="29245-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="689e3-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="689e3-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="29245-107">*hParameter* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="29245-107">*hParameter* \[in\]</span></span>
+<span data-ttu-id="689e3-107">*hParameter* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="689e3-107">*hParameter* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="29245-108">Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span><span class="sxs-lookup"><span data-stu-id="29245-108">Type: **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span></span>
+<span data-ttu-id="689e3-108">Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span><span class="sxs-lookup"><span data-stu-id="689e3-108">Type: **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span></span>
 
-<span data-ttu-id="29245-109">Identificateur unique.</span><span class="sxs-lookup"><span data-stu-id="29245-109">Unique identifier.</span></span> <span data-ttu-id="29245-110">Consultez [Handles (Direct3D 9)](handles.md).</span><span class="sxs-lookup"><span data-stu-id="29245-110">See [Handles (Direct3D 9)](handles.md).</span></span>
+<span data-ttu-id="689e3-109">Identificateur unique.</span><span class="sxs-lookup"><span data-stu-id="689e3-109">Unique identifier.</span></span> <span data-ttu-id="689e3-110">Consultez [Handles (Direct3D 9)](handles.md).</span><span class="sxs-lookup"><span data-stu-id="689e3-110">See [Handles (Direct3D 9)](handles.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="29245-111">*pMatrix* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="29245-111">*pMatrix* \[in\]</span></span>
+<span data-ttu-id="689e3-111">*pMatrix* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="689e3-111">*pMatrix* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="29245-112">Type : **const [**D3DXMATRIX**](d3dxmatrix.md) \***</span><span class="sxs-lookup"><span data-stu-id="29245-112">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
+<span data-ttu-id="689e3-112">Type : **const [**D3DXMATRIX**](d3dxmatrix.md) \***</span><span class="sxs-lookup"><span data-stu-id="689e3-112">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
 
-<span data-ttu-id="29245-113">Tableau de matrices nontransposed.</span><span class="sxs-lookup"><span data-stu-id="29245-113">Array of nontransposed matrices.</span></span> <span data-ttu-id="29245-114">Consultez [**D3DXMATRIX**](d3dxmatrix.md).</span><span class="sxs-lookup"><span data-stu-id="29245-114">See [**D3DXMATRIX**](d3dxmatrix.md).</span></span>
+<span data-ttu-id="689e3-113">Tableau de matrices nontransposed.</span><span class="sxs-lookup"><span data-stu-id="689e3-113">Array of nontransposed matrices.</span></span> <span data-ttu-id="689e3-114">Consultez [**D3DXMATRIX**](d3dxmatrix.md).</span><span class="sxs-lookup"><span data-stu-id="689e3-114">See [**D3DXMATRIX**](d3dxmatrix.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="29245-115">*Nombre* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="29245-115">*Count* \[in\]</span></span>
+<span data-ttu-id="689e3-115">*Nombre* \[ dans\]</span><span class="sxs-lookup"><span data-stu-id="689e3-115">*Count* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="29245-116">Type : **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="29245-116">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="689e3-116">Type : **[ **uint**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="689e3-116">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="29245-117">Nombre de matrices dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="29245-117">Number of matrices in the array.</span></span>
+<span data-ttu-id="689e3-117">Nombre de matrices dans le tableau.</span><span class="sxs-lookup"><span data-stu-id="689e3-117">Number of matrices in the array.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="29245-118">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="29245-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="689e3-118">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="689e3-118">Return value</span></span>
 
-<span data-ttu-id="29245-119">Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="29245-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="689e3-119">Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="689e3-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="29245-120">Si la méthode est réussie, la valeur de retour est D3D \_ OK.</span><span class="sxs-lookup"><span data-stu-id="29245-120">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="29245-121">Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.</span><span class="sxs-lookup"><span data-stu-id="29245-121">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
+<span data-ttu-id="689e3-120">Si la méthode est réussie, la valeur de retour est D3D \_ OK.</span><span class="sxs-lookup"><span data-stu-id="689e3-120">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="689e3-121">Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.</span><span class="sxs-lookup"><span data-stu-id="689e3-121">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="29245-122">Notes</span><span class="sxs-lookup"><span data-stu-id="29245-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="689e3-122">Notes </span><span class="sxs-lookup"><span data-stu-id="689e3-122">Remarks</span></span>
 
-<span data-ttu-id="29245-123">Une matrice nontransposed contient des données de lignes principales ; autrement dit, chaque vecteur est contenu dans une ligne.</span><span class="sxs-lookup"><span data-stu-id="29245-123">A nontransposed matrix contains row-major data; that is, each vector is contained in a row.</span></span>
+<span data-ttu-id="689e3-123">Une matrice nontransposed contient des données de lignes principales ; autrement dit, chaque vecteur est contenu dans une ligne.</span><span class="sxs-lookup"><span data-stu-id="689e3-123">A nontransposed matrix contains row-major data; that is, each vector is contained in a row.</span></span>
 
-<span data-ttu-id="29245-124">Si les matrices de destination sont plus petites que les matrices sources, les composants supplémentaires des matrices sources seront ignorés.</span><span class="sxs-lookup"><span data-stu-id="29245-124">If the destination matrices are smaller than the source matrices, the additional components of the source matrices will be ignored.</span></span>
+<span data-ttu-id="689e3-124">Si les matrices de destination sont plus petites que les matrices sources, les composants supplémentaires des matrices sources seront ignorés.</span><span class="sxs-lookup"><span data-stu-id="689e3-124">If the destination matrices are smaller than the source matrices, the additional components of the source matrices will be ignored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="29245-125">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="29245-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="689e3-125">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="689e3-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="29245-126">Condition requise</span><span class="sxs-lookup"><span data-stu-id="29245-126">Requirement</span></span> | <span data-ttu-id="29245-127">Valeur</span><span class="sxs-lookup"><span data-stu-id="29245-127">Value</span></span> |
+| <span data-ttu-id="689e3-126">Condition requise</span><span class="sxs-lookup"><span data-stu-id="689e3-126">Requirement</span></span> | <span data-ttu-id="689e3-127">Valeur</span><span class="sxs-lookup"><span data-stu-id="689e3-127">Value</span></span> |
 |--------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="29245-128">En-tête</span><span class="sxs-lookup"><span data-stu-id="29245-128">Header</span></span><br/>  | <dl> <span data-ttu-id="29245-129"><dt>D3DX9Shader. h</dt></span><span class="sxs-lookup"><span data-stu-id="29245-129"><dt>D3DX9Shader.h</dt></span></span> </dl> |
-| <span data-ttu-id="29245-130">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="29245-130">Library</span></span><br/> | <dl> <span data-ttu-id="29245-131"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="29245-131"><dt>D3dx9.lib</dt></span></span> </dl>     |
+| <span data-ttu-id="689e3-128">En-tête</span><span class="sxs-lookup"><span data-stu-id="689e3-128">Header</span></span><br/>  | <dl> <span data-ttu-id="689e3-129"><dt>D3DX9Shader. h</dt></span><span class="sxs-lookup"><span data-stu-id="689e3-129"><dt>D3DX9Shader.h</dt></span></span> </dl> |
+| <span data-ttu-id="689e3-130">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="689e3-130">Library</span></span><br/> | <dl> <span data-ttu-id="689e3-131"><dt>D3dx9. lib</dt></span><span class="sxs-lookup"><span data-stu-id="689e3-131"><dt>D3dx9.lib</dt></span></span> </dl>     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="29245-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="29245-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="689e3-132">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="689e3-132">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="29245-133">ID3DXBaseEffect</span><span class="sxs-lookup"><span data-stu-id="29245-133">ID3DXBaseEffect</span></span>](id3dxbaseeffect.md)
+[<span data-ttu-id="689e3-133">ID3DXBaseEffect</span><span class="sxs-lookup"><span data-stu-id="689e3-133">ID3DXBaseEffect</span></span>](id3dxbaseeffect.md)
 </dt> <dt>
 
-[<span data-ttu-id="29245-134">**GetMatrixArray**</span><span class="sxs-lookup"><span data-stu-id="29245-134">**GetMatrixArray**</span></span>](id3dxbaseeffect--getmatrixarray.md)
+[<span data-ttu-id="689e3-134">**GetMatrixArray**</span><span class="sxs-lookup"><span data-stu-id="689e3-134">**GetMatrixArray**</span></span>](id3dxbaseeffect--getmatrixarray.md)
 </dt> </dl>
 
  
