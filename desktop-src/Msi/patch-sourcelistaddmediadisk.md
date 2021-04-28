@@ -1,5 +1,5 @@
 ---
-description: La méthode SourceListAddMediaDisk ajoute un disque à l’ensemble des disques inscrits. Accepte les VolumeLabel et les DiskPrompt en tant que paramètres. Cette méthode appelle sur MsiSourceListAddMediaDisk.
+description: 'Méthode patch. SourceListAddMediaDisk : la méthode SourceListAddMediaDisk ajoute un disque à l’ensemble des disques inscrits. Accepte les VolumeLabel et les DiskPrompt en tant que paramètres. Cette méthode appelle sur MsiSourceListAddMediaDisk.'
 ms.assetid: 6feaf2d3-7e39-4e22-9e74-9a2f98369eac
 title: Méthode patch. SourceListAddMediaDisk
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a7c74ccdfb90a0cb365e6110defc9b60dac1f471
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 052831befb95976358b53d989db36d5b2fa43efe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084368"
 ---
 # <a name="patchsourcelistaddmediadisk-method"></a>Méthode patch. SourceListAddMediaDisk
 
@@ -62,7 +62,7 @@ Ce paramètre indique l’invite de disque du disque en cours d’ajout ou de mi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 

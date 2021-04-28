@@ -1,5 +1,5 @@
 ---
-description: Génère un nouveau maillage avec des faces et des sommets réorganisés pour optimiser les performances du dessin.
+description: 'ID3DXMesh :: Optimize, méthode-génère un nouveau maillage avec des faces et des sommets réorganisés pour optimiser les performances du dessin.'
 ms.assetid: 6a9bf7b9-2cb9-4b42-92d9-2a121ff79284
 title: 'ID3DXMesh :: Optimize, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7752e08236094d7038a5e77ac1a679f787305022
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: debec1c0ee54e612ab0de832dbc5c2481dcefad8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103954018"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093307"
 ---
 # <a name="id3dxmeshoptimize-method"></a>ID3DXMesh :: Optimize, méthode
 
@@ -99,13 +99,13 @@ Adresse d’un pointeur vers une interface [**ID3DXMesh**](id3dxmesh.md) , repr�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode génère un nouveau maillage. Avant d’exécuter Optimize, une application doit générer une mémoire tampon de contiguïté en appelant [**ID3DXBaseMesh :: GenerateAdjacency**](id3dxbasemesh--generateadjacency.md). La mémoire tampon d’adjacence contient des données d’contiguïté, telles qu’une liste de bords et les faces adjacentes les unes aux autres.
 

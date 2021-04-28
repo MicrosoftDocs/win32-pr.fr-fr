@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CPullPin. ~ CPullPin, destructeur, méthode de destructeur.
 ms.assetid: 06167630-3b75-4433-8b2f-2127ffb4d389
 title: CPullPin. ~ CPullPin, destructeur (Pullpin. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ecf825348672728d3083a2ce9ae4e44c1ea17bca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8f0b72716dcbfb438a84eb1ce852f8fc07f2898
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524031"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085487"
 ---
 # <a name="cpullpincpullpin-destructor"></a>CPullPin. ~ CPullPin, destructeur
 

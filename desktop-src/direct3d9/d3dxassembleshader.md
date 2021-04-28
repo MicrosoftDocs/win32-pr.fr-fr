@@ -1,5 +1,5 @@
 ---
-description: Assembler un nuanceur.
+description: D3DXAssembleShader fonction-assembler un nuanceur.
 ms.assetid: 24c3dcae-9397-4856-b072-0ae340157bf9
 title: D3DXAssembleShader, fonction (D3DX9Shader. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f7268d394021c7dc1be665f8ed8781a827d1fcdb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 891281ebc3db970ca61132fe49ba98531ca1d879
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537261"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116047"
 ---
 # <a name="d3dxassembleshader-function"></a>D3DXAssembleShader fonction)
 
@@ -109,7 +109,7 @@ Retourne une mémoire tampon qui contient une liste d’erreurs et d’avertisse
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

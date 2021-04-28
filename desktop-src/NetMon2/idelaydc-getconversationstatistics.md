@@ -1,5 +1,5 @@
 ---
-description: La méthode GetConversationStatistics récupère les informations de session et de station relatives à la capture en cours.
+description: 'IDelaydC :: GetConversationStatistics, méthode : la méthode GetConversationStatistics récupère les informations de session et de station relatives à la capture en cours.'
 ms.assetid: 0164fa0e-90f2-4b97-be9d-55d172f8112d
 title: 'IDelaydC :: GetConversationStatistics, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: aaba5ccfbab48639f53395519f001f5f8e85e483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4d4c1bb1ad7ecb45b640c16322e297f9f640ef1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103807"
 ---
 # <a name="idelaydcgetconversationstatistics-method"></a>IDelaydC :: GetConversationStatistics, méthode
 
@@ -79,7 +79,7 @@ Indicateur utilisé pour indiquer à Moniteur réseau d’effacer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -98,7 +98,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ne peut être appelée que lorsque la capture de données est en cours ; Lorsque la capture en cours est suspendue, les appels à cette méthode échouent. Pour démarrer une capture, appelez la méthode [IDelaydC :: Start](idelaydc-start.md) .
 

@@ -1,6 +1,6 @@
 ---
 title: Message TBM_GETUNICODEFORMAT (commctrl. h)
-description: Récupère l’indicateur de format de caractère Unicode pour le contrôle.
+description: 'TBM_GETUNICODEFORMAT message : récupère l’indicateur de format de caractère Unicode pour le contrôle.'
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
 - TBM_GETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a9fafad2504e51a65b879e58298c5cd06f1f345
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82e7424a4e561ee8f8be79135309089fe4bb0bf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843602"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104087"
 ---
 # <a name="tbm_getunicodeformat-message"></a>\_Message TBM GETUNICODEFORMAT
 
@@ -35,11 +35,11 @@ Récupère l’indicateur de format de caractère Unicode pour le contrôle.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode pour le contrôle. Si cette valeur est différente de zéro, le contrôle utilise des caractères Unicode. Si cette valeur est égale à zéro, le contrôle utilise des caractères ANSI.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) .
 

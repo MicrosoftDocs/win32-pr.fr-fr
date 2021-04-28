@@ -1,6 +1,6 @@
 ---
 title: Message EM_SETRECTNP (winuser. h)
-description: Définit le rectangle de mise en forme d’un contrôle d’édition multiligne.
+description: 'EM_SETRECTNP message : définit le rectangle de mise en forme d’un contrôle d’édition multiligne.'
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
 - EM_SETRECTNP les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e017bd4737c843c2452382918d71ef63345917cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9a8c85d4f7abd58ed3adb33ede66254c190a7bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942661"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085987"
 ---
 # <a name="em_setrectnp-message"></a>\_Message SETRECTNP em
 
@@ -49,11 +49,11 @@ Pointeur vers une structure [**Rect**](/previous-versions//dd162897(v=vs.85)) qu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **Modification riche :** Pris en charge dans Microsoft Rich Edit 3,0 et versions ultérieures. Pour plus d’informations sur la compatibilité des versions RichEdit avec les différentes versions du système, consultez [à propos des contrôles](about-rich-edit-controls.md)RichEdit.
 

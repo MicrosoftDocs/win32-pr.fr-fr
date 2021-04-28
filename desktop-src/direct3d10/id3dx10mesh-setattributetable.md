@@ -1,5 +1,5 @@
 ---
-description: Définit la table d’attributs pour un maillage et le nombre d’entrées stockées dans la table.
+description: 'ID3DX10Mesh :: SetAttributeTable, méthode-définit la table d’attributs pour un maillage et le nombre d’entrées stockées dans la table.'
 ms.assetid: 629fd31b-d88a-4650-82ed-ab7c40690986
 title: 'ID3DX10Mesh :: SetAttributeTable, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 808349b3f7456ebf3f8e1c3a7f9fdf2236db4beb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4e06b181bb512e16e9caaa0d233ebbd3472bfcf8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084007"
 ---
 # <a name="id3dx10meshsetattributetable-method"></a>ID3DX10Mesh :: SetAttributeTable, méthode
 
@@ -59,13 +59,13 @@ Nombre d’attributs dans la table d’attributs du maillage.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si une application effectue le suivi des informations dans une table d’attributs et réorganise la table suite à des modifications apportées aux attributs ou aux visages, cette méthode permet à l’application de mettre à jour les tables d’attributs au lieu d’appeler ID3DX10Mesh :: optimize.
 

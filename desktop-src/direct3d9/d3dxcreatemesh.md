@@ -1,5 +1,5 @@
 ---
-description: Crée un objet de maillage à l’aide d’un déclarateur.
+description: D3DXCreateMesh fonction-crée un objet de maillage à l’aide d’un déclarateur.
 ms.assetid: ff977517-0a46-4c32-8d5e-f5fc3c1718c1
 title: D3DXCreateMesh, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cfb56fe5c52d2726dff0877522b6f72f70437552
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c7e1c0d626c74f5427f91a5b9eb796e3b79d5a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520340"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102757"
 ---
 # <a name="d3dxcreatemesh-function"></a>D3DXCreateMesh fonction)
 
@@ -99,7 +99,7 @@ Adresse d’un pointeur vers une interface [**ID3DXMesh**](id3dxmesh.md) représ
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

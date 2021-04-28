@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CPersistStream. CPersistStream.
 ms.assetid: 48143a61-5ba7-4bf9-bffa-244f2769144d
 title: Constructeur CPersistStream. CPersistStream (pStream. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7cdb736a191f64099b8c0310a5b3ac3dad3cbe0d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e3be9233d76929ebfcb79121c60ef6c1af35b56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545512"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085607"
 ---
 # <a name="cpersiststreamcpersiststream-constructor"></a>Constructeur CPersistStream. CPersistStream
 

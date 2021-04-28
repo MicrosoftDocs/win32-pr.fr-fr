@@ -1,15 +1,15 @@
 ---
 title: Démarrage de la demande sur la version 2,0 files d’attente de demandes
-description: .
+description: Démarrage de la demande sur la version 2,0 files d’attente de demandes
 ms.assetid: 84a744b7-1b0e-4fa7-8015-4840251aa856
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78d618ea3fa38a856eba743d2bf60bfbfec9a633
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 06f6b14759e60fb69a47cda6975f6559c00771f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103941003"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090927"
 ---
 # <a name="demand-start-on-version-20-request-queues"></a>Démarrage de la demande sur la version 2,0 files d’attente de demandes
 
@@ -27,6 +27,6 @@ L’API du serveur HTTP prend en charge l’annulation des appels [**HttpWaitFor
 
 Le démarrage de la demande synchrone n’est pas recommandé, car l’application se bloque jusqu’à ce qu’une requête arrive dans la file d’attente des demandes.
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: Calcule la valeur exponentielle.
+description: 'Fonction D3DXQuaternionExp (D3dx9math. h) : calcule la valeur exponentielle.'
 ms.assetid: 648aeaf1-ead3-4b21-819f-cd2a70881a13
 title: D3DXQuaternionExp, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b9cb5765e01c4fbbc6ab3785363425262ee491ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 30e48e21e2dc6af487f1fb076af3b3f2df57f9f3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538325"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094097"
 ---
 # <a name="d3dxquaternionexp-function-d3dx9mathh"></a>D3DXQuaternionExp, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXQUATERNION**](d3dxquaternion.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est l’exponentiel.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode convertit un Quaternion pur en un Quaternion d’unité. **D3DXQuaternionExp** attend un Quaternion pur, où w est ignoré dans le calcul (w = = 0).
 

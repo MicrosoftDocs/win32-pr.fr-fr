@@ -1,5 +1,5 @@
 ---
-description: Utilisé avec les résultats compressés de la version vertex du simulateur de transfert luminance (PRT) précalculé.
+description: 'Fonction D3DXSHPRTCompSuperCluster : utilisée avec les résultats compressés de la version vertex du simulateur de transfert luminance (PRT) précalculé.'
 ms.assetid: 0ec28b8c-5010-48a4-8e45-d7f9aa08185f
 title: D3DXSHPRTCompSuperCluster, fonction (D3DX9Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1daf25dddfaf738ecc2fed9605429a19170177ed
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0c22c8a3a14fd8af3e9104889b421068c7ff1457
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322861"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117857"
 ---
 # <a name="d3dxshprtcompsupercluster-function"></a>D3DXSHPRTCompSuperCluster fonction)
 
@@ -99,7 +99,7 @@ Nombre de Super clusters alloués.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur COutputQueue. COutputQueue.
 ms.assetid: 672c0337-0c36-4f53-9125-d02fe8b36b1c
 title: Constructeur COutputQueue. COutputQueue (Outputq. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de4d8fe0d0a7c3dcf90e67f80a939f6294cb3d5b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 17a795bf4ec33ec904b83f6621fc0bc4f43b4b15
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542653"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095327"
 ---
 # <a name="coutputqueuecoutputqueue-constructor"></a>Constructeur COutputQueue. COutputQueue
 
@@ -105,7 +105,7 @@ Priorité du thread qui fournit des exemples.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si *bAuto* a la **valeur true**, l’objet appelle la méthode [**IMemInputPin :: ReceiveCanBlock**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receivecanblock) sur le code confidentiel en aval. Si **ReceiveCanBlock** retourne S \_ OK (ce qui signifie que le code confidentiel peut se bloquer sur [**IMemInputPin :: Receive**](/windows/desktop/api/Strmif/nf-strmif-imeminputpin-receive) Calls), l’objet crée un thread pour la diffusion des exemples. Dans le cas contraire, il ne crée pas de thread.
 

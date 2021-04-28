@@ -1,5 +1,5 @@
 ---
-description: Spécifie des valeurs de tolérance pour chaque composant de vertex lors de la comparaison des vertex pour déterminer s’ils sont suffisamment semblables pour être soudés ensemble.
+description: 'D3DX10_WELD_EPSILONS structure : spécifie des valeurs de tolérance pour chaque composant de vertex lors de la comparaison des vertex pour déterminer s’ils sont suffisamment semblables pour être soudés ensemble.'
 ms.assetid: b28a17bd-5d5b-41b3-86d9-327f5497fc94
 title: Structure D3DX10_WELD_EPSILONS (D3DX10. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: c72f63e3ecef1fdb193fcaec9220f9768204d099
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 720a10dbe4b22b69910d88d3c03cea9ded768f1b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542169"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105427"
 ---
 # <a name="d3dx10_weld_epsilons-structure"></a>Structure des Epsilon de \_ soudure d3dx10 \_
 
@@ -125,7 +125,7 @@ Huit coordonnées de texture
 
 </dd> <dt>
 
-**Tangence**
+**Tangente**
 </dt> <dd>
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
@@ -158,7 +158,7 @@ Facteur de pavage
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le type LPD3DXWeldEpsilons est défini en tant que pointeur vers la structure D3DXWeldEpsilons.
 

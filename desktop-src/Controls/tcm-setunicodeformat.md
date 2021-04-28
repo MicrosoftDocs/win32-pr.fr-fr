@@ -1,6 +1,6 @@
 ---
 title: Message TCM_SETUNICODEFORMAT (commctrl. h)
-description: Définit l’indicateur de format de caractère Unicode pour le contrôle.
+description: 'TCM_SETUNICODEFORMAT message : définit l’indicateur de format de caractère Unicode pour le contrôle.'
 ms.assetid: 4a9bacfc-d1b7-432a-9b61-b0fe18576679
 keywords:
 - TCM_SETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 033851411f95811f202ea6d87e23717d39141c04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2b84f944be9bd20897d25e4b111f55ced558a43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383859"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085847"
 ---
 # <a name="tcm_setunicodeformat-message"></a>\_Message SETUNICODEFORMAT TCM
 
@@ -39,11 +39,11 @@ Détermine le jeu de caractères utilisé par le contrôle. Si cette valeur est 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 

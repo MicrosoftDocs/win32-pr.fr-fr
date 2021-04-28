@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. message. FromAddress
 ms.assetid: 9f28141e-e795-4740-891b-cd8226481da7
 title: System. message. FromAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d99c7a71f42560c6c02ca64b952ce5cce5fa10d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0326e41cc812d610a4d0213cd7c3290102278f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519078"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097367"
 ---
 # <a name="systemmessagefromaddress"></a>System. message. FromAddress
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Présentation du défi de la compatibilité des applications
 ms.assetid: 3FF3C91F-3E06-473C-BAC2-0C8C322303C1
 title: Présentation du défi de la compatibilité des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: daaa5f51f1cdaf2cb6229306314c69182d208b43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37ec881f5d1b2f0d4bea4367463a5a52c73c25bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211070"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113417"
 ---
 # <a name="understanding-the-application-compatibility-challenge"></a>Présentation du défi de la compatibilité des applications
 

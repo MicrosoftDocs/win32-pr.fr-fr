@@ -1,15 +1,15 @@
 ---
-description: Demande à une transformation de Media Foundation (MFT) de vider toutes les données stockées.
+description: MFT_MESSAGE_COMMAND_DRAIN-demande une table de Media Foundation pour vider toutes les données stockées.
 ms.assetid: c48f3a88-a007-4f30-ac60-9e5a8c24e1ee
 title: MFT_MESSAGE_COMMAND_DRAIN (Mftransform. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa533cfddfda53fd8eb0ee512b0535aaf9ad8f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907bfbd888b1eccbe7336c0d8f386d3266fd8e9b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517001"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092747"
 ---
 # <a name="mft_message_command_drain"></a>\_drain de \_ commande de message MFT \_
 

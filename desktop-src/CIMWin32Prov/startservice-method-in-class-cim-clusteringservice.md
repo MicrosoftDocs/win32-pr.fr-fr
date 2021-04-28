@@ -1,5 +1,5 @@
 ---
-description: La méthode StartService met le service dans un état Démarré.
+description: Méthode StartService de la classe CIM_ClusteringService-la méthode StartService met le service dans un état Démarré.
 ms.assetid: 2efd2a06-a03c-4f4c-b2fa-889f84faac0f
 ms.tgt_platform: multiple
 title: Méthode StartService de la classe CIM_ClusteringService
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b8abdeffa234461952f99013524042dcbba6e682
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dcd18af37da9302256776cfee844fd83f989c9b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201004"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086187"
 ---
 # <a name="startservice-method-of-the-cim_clusteringservice-class"></a>Méthode StartService de la \_ classe CIM ClusteringService
 
@@ -45,11 +45,11 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) si le service a été démarré avec succès, 1 (un) si la demande n’est pas prise en charge, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

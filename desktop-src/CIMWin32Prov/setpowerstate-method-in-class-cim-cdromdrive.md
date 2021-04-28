@@ -1,5 +1,5 @@
 ---
-description: La méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
+description: Méthode SetPowerState de la classe CIM_CDROMDrive-la méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
 ms.assetid: 2f252d65-55ad-43b2-bee4-d5db24ca9d29
 ms.tgt_platform: multiple
 title: Méthode SetPowerState de la classe CIM_CDROMDrive
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 76b5d60c60b3a2b3a30092cb3b962ea12c5bb6a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a8a69b3f3d810fe48b7a0e1d31a57a96e279d14a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103747989"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089497"
 ---
 # <a name="setpowerstate-method-of-the-cim_cdromdrive-class"></a>Méthode SetPowerState de la \_ classe CIM CDROMDrive
 
@@ -102,11 +102,11 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

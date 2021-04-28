@@ -1,5 +1,5 @@
 ---
-description: Définit les données nécessaires pour appeler une boîte de dialogue d’appareil.
+description: 'Structure DEVICEDIALOGDATA : définit les données nécessaires pour appeler une boîte de dialogue d’appareil.'
 ms.assetid: 424defa6-1452-4a8b-bacc-738209c236c3
 title: DEVICEDIALOGDATA, structure (Wiadefd. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: 621cab4f56b39ac900048018463935b55f0eddec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7b08f5396a7a6e9b1f74df3dd409303b2d548d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529157"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104267"
 ---
 # <a name="devicedialogdata-structure"></a>DEVICEDIALOGDATA, structure
 
@@ -70,11 +70,11 @@ Spécifie le handle vers la fenêtre parente de la boîte de dialogue.
 **pIWiaItemRoot**
 </dt> <dd>
 
-Tapez : **[**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) \** _
+Type : **[ **IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)\***
 
 </dd> <dd>
 
-Pointe vers une interface [_ *IWiaItem* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) qui représente l’élément racine valide dans l’arborescence d’éléments de l’application.
+Pointe vers une interface [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) qui représente l’élément racine valide dans l’arborescence d’éléments de l’application.
 
 </dd> <dt>
 

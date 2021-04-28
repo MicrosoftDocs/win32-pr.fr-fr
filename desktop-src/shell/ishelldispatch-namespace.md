@@ -1,5 +1,5 @@
 ---
-description: Crée et retourne un objet Folder pour le dossier spécifié.
+description: 'Méthode IShellDispatch. NameSpace : crée et retourne un objet Folder pour le dossier spécifié.'
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 title: Méthode IShellDispatch. NameSpace (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 069752a5e81949889dce5539e3f23960a12c9736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1db0a3969350b4be4bc32e027bf2000036e099f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527345"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100517"
 ---
 # <a name="ishelldispatchnamespace-method"></a>IShellDispatch. NameSpace, méthode
 
@@ -58,7 +58,7 @@ Dossier pour lequel créer l’objet [**dossier**](folder.md) . Il peut s’agir
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,7 +72,7 @@ Type : **[ **dossier**](folder.md)\*\***
 
 Référence d’objet à l’objet [**dossier**](folder.md) pour le dossier spécifié. Si le dossier n’est pas créé avec succès, cette valeur retourne **null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Namespace**](shell-namespace.md) .
 
@@ -148,7 +148,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

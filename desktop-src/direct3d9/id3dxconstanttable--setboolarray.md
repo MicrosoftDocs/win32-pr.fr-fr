@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de valeurs booléennes.
+description: 'ID3DXConstantTable :: SetBoolArray, méthode-définit un tableau de valeurs booléennes.'
 ms.assetid: 323ad654-81e3-4986-a667-8333dd44a2d1
 title: 'ID3DXConstantTable :: SetBoolArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d573a2c44b54809ec259a0ceb5abab02ef37df34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c967ffd1a6601144787621628ed1b019e775eddd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527110"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115207"
 ---
 # <a name="id3dxconstanttablesetboolarray-method"></a>ID3DXConstantTable :: SetBoolArray, méthode
 
@@ -79,7 +79,7 @@ Nombre de valeurs booléennes dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

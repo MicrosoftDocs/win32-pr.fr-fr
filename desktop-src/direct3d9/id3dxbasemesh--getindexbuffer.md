@@ -1,5 +1,5 @@
 ---
-description: Récupère les données dans une mémoire tampon d’index.
+description: 'ID3DXBaseMesh :: GetIndexBuffer, méthode-récupère les données dans une mémoire tampon d’index.'
 ms.assetid: 8e14a047-a8a6-4763-88c7-3b439044eeb4
 title: 'ID3DXBaseMesh :: GetIndexBuffer, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5b7cf57cd8f31e54cf48ae7f0cab69a40783debe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 40e57193a2bf9a47ed0c57e6d13644441fbc42ce
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323041"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115427"
 ---
 # <a name="id3dxbasemeshgetindexbuffer-method"></a>ID3DXBaseMesh :: GetIndexBuffer, méthode
 
@@ -49,7 +49,7 @@ Adresse d’un pointeur vers une interface [**IDirect3DIndexBuffer9**](/windows/
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

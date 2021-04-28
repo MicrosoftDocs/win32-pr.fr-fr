@@ -1,5 +1,5 @@
 ---
-description: Utilise la compression NTFS pour compresser le fichier logique (ou le répertoire) qui est spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.
+description: 'Méthode CompressEx de la classe CIM_DataFile : utilise la compression NTFS pour compresser le fichier logique (ou le répertoire) qui est spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.'
 ms.assetid: 553b6a90-d16c-4abb-9015-66fe8e1606f6
 ms.tgt_platform: multiple
 title: Méthode CompressEx de la classe CIM_DataFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 070a15a0fb134c92e7c436e071e09b7cc09fa5dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccc155c04c6c25f38050bd37827eb0c2e2e0e73e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200897"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089787"
 ---
 # <a name="compressex-method-of-the-cim_datafile-class"></a>Méthode CompressEx de la \_ classe de fichier de fichier CIM
 
@@ -72,7 +72,7 @@ Si la **valeur est true**, la méthode est également appliquée de manière ré
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -81,7 +81,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -169,7 +169,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode **CompressEx** dans le [**fichier de \_ fichier CIM**](cim-datafile.md) est implémentée par WMI.
 

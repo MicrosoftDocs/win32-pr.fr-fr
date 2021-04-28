@@ -1,5 +1,5 @@
 ---
-description: Exécute une requête pour récupérer des objets.
+description: SWbemServices.Exeméthode cQuery-exécute une requête pour récupérer des objets.
 ms.assetid: 06b9d4c9-cd72-49b2-92b0-d18d94dfbd9f
 ms.tgt_platform: multiple
 title: SWbemServices.Exeméthode cQuery (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 2f3a894681bafc71de34ae7722b985494ef80b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3009d2dc88e9987a3559da91eed1aa5aa1b248f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522707"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098331"
 ---
 # <a name="swbemservicesexecquery-method"></a>SWbemServices.Exeméthode cQuery
 
@@ -143,7 +143,7 @@ En général, ce n’est pas défini. Dans le cas contraire, il s’agit d’un 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si aucune erreur ne se produit, cette méthode retourne un objet [**SWbemObjectSet**](swbemobjectset.md) . Il s’agit d’une collection d’objets qui contient le jeu de résultats de la requête. L’appelant peut examiner la collection à l’aide de l’implémentation des collections pour le langage de programmation que vous utilisez. Pour plus d’informations, consultez [accès à une collection](accessing-a-collection.md).
 
@@ -195,7 +195,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 **ExecQuery** est l’un des appels les plus couramment utilisés pour récupérer des informations WMI. Un appel standard à **ExecQuery** ressemble à ce qui suit :
 

@@ -1,5 +1,5 @@
 ---
-description: Fournit une interface utilisateur personnalisée qui remplace l’interface utilisateur système par défaut.
+description: IWiaUIExtension ::D méthode eviceDialog-fournit une interface utilisateur personnalisée qui remplace l’interface utilisateur système par défaut.
 ms.assetid: 5dbcacde-5bbe-459d-804f-5ce7eb1cd8d8
 title: IWiaUIExtension ::D méthode eviceDialog (Wiadevd. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 7d42d0c7f8cca510a9c8f78de7bf589f8e1d2d72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d467769308707032b8e92b4ac7877488991356dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526446"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116707"
 ---
 # <a name="iwiauiextensiondevicedialog-method"></a>IWiaUIExtension ::D méthode eviceDialog
 
@@ -42,19 +42,19 @@ HRESULT DeviceDialog(
 *pDeviceDialogData* \[ dans\]
 </dt> <dd>
 
-Tapez : **PDEVICEDIALOGDATA \** _
+Type : **PDEVICEDIALOGDATA \***
 
-Pointe vers une structure [_ *DEVICEDIALOGDATA* *](-wia-devicedialogdata.md) qui contient toutes les données nécessaires pour implémenter la boîte de dialogue de l’appareil.
+Pointe vers une structure [**DEVICEDIALOGDATA**](-wia-devicedialogdata.md) qui contient toutes les données nécessaires pour implémenter la boîte de dialogue de l’appareil.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. Si l’utilisateur annule la boîte de dialogue, la méthode retourne S \_ false. Si la méthode n’est pas implémentée, elle retourne E \_ NOTIMPL. Si la méthode échoue, elle retourne un code d’erreur COM standard.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si vous implémentez l’interface [**IWiaUIExtension**](-wia-iwiauiextension.md) et que vous ne souhaitez pas remplacer l’interface utilisateur système, cette méthode doit encore être implémentée, mais elle ne doit rien faire d’autre que retourner E \_ NOTIMPL.
 

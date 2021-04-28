@@ -1,5 +1,5 @@
 ---
-description: Décrit un vecteur à deux composants, notamment des surcharges d’opérateur et des casts de type.
+description: D3DXVECTOR2 structure (D3dx9math. h)-décrit un vecteur à deux composants, notamment des surcharges d’opérateur et des casts de type.
 ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: D3DXVECTOR2, structure (D3dx9math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7f54dc67c038d7c22929b67c59e6b0331a5e545
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79f66c0e9130a320042c9b914bad47e5f02f0d8a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529642"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097607"
 ---
 # <a name="d3dxvector2-structure-d3dx9mathh"></a>D3DXVECTOR2, structure (D3dx9math. h)
 
@@ -62,7 +62,7 @@ Composant y.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 ### <a name="d3dxvector2-extensions"></a>Extensions D3DXVECTOR2
 

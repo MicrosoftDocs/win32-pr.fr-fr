@@ -1,5 +1,5 @@
 ---
-description: La suppression&\# 8194 ; La méthode de classe WMI supprime un service existant.
+description: Méthode Delete de la classe Win32_Service (fournisseurs WMI CIMWin32)-la suppression&\# 8194 ; La méthode de classe WMI supprime un service existant.
 ms.assetid: aa4e7630-3b19-47dd-acd1-4d1735acb819
 ms.tgt_platform: multiple
 title: Méthode Delete de la classe Win32_Service (fournisseurs WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d06301c3620e144d72c2d4c4f3d8bc90e642374a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4031184e23e99fc54237ed0b0b4196fe6c075c5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201016"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089577"
 ---
 # <a name="delete-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Méthode Delete de la classe Win32_Service (fournisseurs WMI CIMWin32)
 
@@ -40,7 +40,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -221,7 +221,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 À mesure que votre organisation change, vous pouvez décider de supprimer certains services de certains ordinateurs. Les services internes et tiers peuvent être supprimés à l’aide de WMI, tandis que les services du système d’exploitation peuvent être supprimés à l’aide de Sysocmgr.exe.
 

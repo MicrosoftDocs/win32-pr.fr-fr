@@ -1,5 +1,5 @@
 ---
-description: La méthode GetControlState récupère l’état de la capture, qui indique si la capture est en cours d’exécution ou en pause.
+description: 'IRTC :: GetControlState, méthode-la méthode GetControlState récupère l’état de la capture, qui indique si la capture est en cours d’exécution ou en pause.'
 ms.assetid: ae0cf869-bf5b-4c23-a924-014554053c92
 title: 'IRTC :: GetControlState, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d437d9463ed3225cd3a474e78220acf1f07af4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e41ad3e4119fffbada26fe3ebebdfe3bf82043
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864073"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110707"
 ---
 # <a name="irtcgetcontrolstate-method"></a>IRTC :: GetControlState, méthode
 
@@ -55,7 +55,7 @@ Indicateur signalant que la capture en cours est suspendue.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -72,7 +72,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut être appelée chaque fois que le NPP est connecté au réseau. Vous pouvez utiliser cette méthode pour déterminer si une capture est en cours d’exécution, si la capture est suspendue ou si la capture a été arrêtée alors que le NPP est toujours connecté.
 

@@ -1,5 +1,5 @@
 ---
-description: Réinitialise au début de la séquence d’énumération.
+description: 'IEnumPStoreTypes :: Reset, méthode-réinitialise au début de la séquence d’énumération.'
 ms.assetid: 35f14aa5-92cb-4ad8-b80c-2550dedb7a7f
 title: 'IEnumPStoreTypes :: Reset, méthode (PStore. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 60aeb1f68bcbf18e903472fa736b5714076dfbfa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55953a67d19ac94f792769974d860bae9b57f1ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542446"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089317"
 ---
 # <a name="ienumpstoretypesreset-method"></a>IEnumPStoreTypes :: Reset, méthode
 
@@ -39,7 +39,7 @@ HRESULT Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est une valeur **HRESULT** .
 

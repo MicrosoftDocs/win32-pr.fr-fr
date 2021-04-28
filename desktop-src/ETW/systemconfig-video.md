@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de configuration vidéo.
+description: 'Classe SystemConfig_Video : cette classe est la classe de type d’événement pour les événements de configuration vidéo.'
 ms.assetid: ddb5924b-70d9-4693-bf68-0536c3c3fa8d
 title: Classe SystemConfig_Video
 ms.topic: reference
@@ -23,12 +23,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 370c67501b75f0fd4ac88488744280f1e0065bcf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 716194eb9ceb67b609f886482393795eaef2ef09
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105897"
 ---
 # <a name="systemconfig_video-class"></a>\_Classe vidéo SystemConfig
 
@@ -259,7 +259,7 @@ Nombre actuel de pixels verticaux.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

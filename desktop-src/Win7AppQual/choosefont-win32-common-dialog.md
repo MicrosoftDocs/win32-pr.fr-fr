@@ -1,15 +1,15 @@
 ---
-description: .
+description: ChooseFont () boîte de dialogue commune Win32
 ms.assetid: ee1df9f2-585f-4208-ad49-a0f6ba76f53a
 title: ChooseFont () boîte de dialogue commune Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e55a31d1f4d5530e04fe455135952eb94cc4bda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4dd8eb6ec226f8dbf5220f5a90dac802cf149dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530269"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088607"
 ---
 # <a name="choosefont-win32-common-dialog"></a>ChooseFont () boîte de dialogue commune Win32
 

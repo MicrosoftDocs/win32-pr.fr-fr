@@ -1,5 +1,5 @@
 ---
-description: Récupère la matrice actuelle en haut de la pile.
+description: 'ID3DXMATRIXStack :: GetTop, méthode (D3dx9math. h)-récupère la matrice actuelle en haut de la pile.'
 ms.assetid: 0e20af0a-a332-4cb5-bf87-2ec75aa170ab
 title: 'ID3DXMATRIXStack :: GetTop, méthode (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5e635f2a825bf73234322066910c15af636ec9d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e596551682805d13704e9ea85f82784a57b333e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523810"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093577"
 ---
 # <a name="id3dxmatrixstackgettop-method-d3dx9mathh"></a>ID3DXMATRIXStack :: GetTop, méthode (D3dx9math. h)
 
@@ -38,13 +38,13 @@ D3DXMATRIX* GetTop();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Cette méthode retourne un pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) représentant la matrice actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Il n’est pas garanti que le pointeur [**D3DXMATRIX**](d3dxmatrix.md) retourné par cette méthode soit valide après les opérations de pile suivantes.
 

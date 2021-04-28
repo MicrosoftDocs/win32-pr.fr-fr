@@ -1,5 +1,5 @@
 ---
-description: Code du composant en question.
+description: 'Propriété client. ComponentCode : code du composant en question.'
 ms.assetid: 0abed0cd-b35c-45d7-8e71-461f2386109e
 title: Propriété client. ComponentCode
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: df779689892a12fd7f252042bc70a3aecff7651a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4fba4c9b832256620dec60852a53b3e2ed17101
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090797"
 ---
 # <a name="clientcomponentcode-property"></a>Propriété client. ComponentCode
 

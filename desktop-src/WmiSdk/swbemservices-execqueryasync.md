@@ -1,5 +1,5 @@
 ---
-description: Exécute une requête pour récupérer des objets.
+description: SWbemServices.Exeméthode cQueryAsync-exécute une requête pour récupérer des objets.
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
 title: SWbemServices.Exeméthode cQueryAsync (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5564e53ef3ea185235e93bbbeb8e2a5fa001d67b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cd3fe778ca7338df6b2674a4930458ef9113a1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118377"
 ---
 # <a name="swbemservicesexecqueryasync-method"></a>SWbemServices.Exeméthode cQueryAsync
 
@@ -137,7 +137,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode n’a pas de valeur de retour. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -189,7 +189,7 @@ Mémoire insuffisante pour terminer l’opération.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet appel est retourné immédiatement. Les objets et l’État demandés sont retournés à l’appelant via des rappels remis au récepteur spécifié dans *objWbemSink*. Pour traiter chaque objet lorsqu’il retourne, créez un *objWbemSink*. Sous-routine d’événement [**OnObjectReady**](swbemsink-onobjectready.md) . Une fois que tous les objets sont retournés, effectuez le traitement final dans votre implémentation de *objWbemSink*. Événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

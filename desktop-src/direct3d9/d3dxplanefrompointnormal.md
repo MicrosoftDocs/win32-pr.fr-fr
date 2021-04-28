@@ -1,5 +1,5 @@
 ---
-description: Construit un plan à partir d’un point et d’un normal.
+description: 'D3DXPlaneFromPointNormal, fonction (D3dx9math. h) : construit un plan à partir d’un point et d’un normal.'
 ms.assetid: af396bbb-09b7-492f-a25f-9c950da7e605
 title: D3DXPlaneFromPointNormal, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8eeb8ea3a1725e0bf615be888d8e862c97730a2c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e34765d150932d6a7b3b0293e603237ffb2b45ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529587"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098087"
 ---
 # <a name="d3dxplanefrompointnormal-function-d3dx9mathh"></a>D3DXPlaneFromPointNormal, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) , définissant le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXPLANE**](d3dxplane.md)\***
 
 Pointeur vers la structure [**D3DXPLANE**](d3dxplane.md) construite à partir du point et du normal.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXPlaneFromPointNormal** peut être utilisée comme paramètre pour une autre fonction.
 

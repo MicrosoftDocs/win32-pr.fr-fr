@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_VirtualSystemMigrationService : arrête le service.'
 ms.assetid: cf0dde8d-b6cf-4a52-905f-c686ac41e314
 title: Méthode StopService de la classe Msvm_VirtualSystemMigrationService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f815b400101bbddf019026675c69421bcc2c6598
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f945f20e86c25b89bf935e46140c1f994e8735b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514577"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109347"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Méthode StopService de la \_ classe MSVM VirtualSystemMigrationService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

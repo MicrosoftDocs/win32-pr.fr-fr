@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_SyntheticEthernetPort-demande une réinitialisation.
 ms.assetid: ebe8e9f6-4110-4c69-8924-49e346be93a4
 title: Méthode Reset de la classe Msvm_SyntheticEthernetPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 06641b955f794f75fef83e98de238cf834fa6fbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75ea464e5c62e47939e79f081f6a25f8adb3de51
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114955"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109557"
 ---
 # <a name="reset-method-of-the-msvm_syntheticethernetport-class"></a>Méthode Reset de la \_ classe MSVM SyntheticEthernetPort
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 
