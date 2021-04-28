@@ -1,36 +1,22 @@
 ---
-description: .
+description: Internet Explorer 8-chaîne de l’agent utilisateur
 ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8-chaîne de l’agent utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aea44572f32e252a4e1d4dc2209e411834c12d4
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: d94d60930466b7243ad6ecc2b2d8d9c799e0e3da
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314792"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088237"
 ---
-# <a name="internet-explorer-8---user-agent-string"></a><span data-ttu-id="fd56c-103">Internet Explorer 8-chaîne de l’agent utilisateur</span><span class="sxs-lookup"><span data-stu-id="fd56c-103">Internet Explorer 8 - User Agent String</span></span>
+# <a name="internet-explorer-8---user-agent-string"></a><span data-ttu-id="19ce8-103">Internet Explorer 8-chaîne de l’agent utilisateur</span><span class="sxs-lookup"><span data-stu-id="19ce8-103">Internet Explorer 8 - User Agent String</span></span>
 
-## <a name="affected-platforms"></a><span data-ttu-id="fd56c-104">Plateformes affectées</span><span class="sxs-lookup"><span data-stu-id="fd56c-104">Affected Platforms</span></span>
+## <a name="affected-platforms"></a><span data-ttu-id="19ce8-104">Plateformes affectées</span><span class="sxs-lookup"><span data-stu-id="19ce8-104">Affected Platforms</span></span>
 
- <span data-ttu-id="fd56c-105">**Clients** -Windows XP, Windows Vista, Windows 7</span><span class="sxs-lookup"><span data-stu-id="fd56c-105">**Clients** - Windows XP, Windows Vista, Windows 7</span></span>  
-<span data-ttu-id="fd56c-106">**Serveurs** -windows Server 2003, windows Server 2008, windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="fd56c-106">**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2</span></span>  
-
-
-
-
-
-
-
-
-
-
-## <a name="feature-impact"></a><span data-ttu-id="fd56c-107">Impact sur les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="fd56c-107">Feature Impact</span></span>
-
-<span data-ttu-id="fd56c-108">**Gravité** -moyenne</span><span class="sxs-lookup"><span data-stu-id="fd56c-108">**Severity** - Medium</span></span>  
-<span data-ttu-id="fd56c-109">**Fréquence** -élevée</span><span class="sxs-lookup"><span data-stu-id="fd56c-109">**Frequency** - High</span></span>  
+ <span data-ttu-id="19ce8-105">**Clients** -Windows XP, Windows Vista, Windows 7</span><span class="sxs-lookup"><span data-stu-id="19ce8-105">**Clients** - Windows XP, Windows Vista, Windows 7</span></span>  
+<span data-ttu-id="19ce8-106">**Serveurs** -windows Server 2003, windows Server 2008, windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="19ce8-106">**Servers** - Windows Server 2003, Windows Server 2008, Windows Server 2008 R2</span></span>  
 
 
 
@@ -41,35 +27,49 @@ ms.locfileid: "107314792"
 
 
 
+## <a name="feature-impact"></a><span data-ttu-id="19ce8-107">Impact sur les fonctionnalités</span><span class="sxs-lookup"><span data-stu-id="19ce8-107">Feature Impact</span></span>
 
-## <a name="description"></a><span data-ttu-id="fd56c-110">Description</span><span class="sxs-lookup"><span data-stu-id="fd56c-110">Description</span></span>
+<span data-ttu-id="19ce8-108">**Gravité** -moyenne</span><span class="sxs-lookup"><span data-stu-id="19ce8-108">**Severity** - Medium</span></span>  
+<span data-ttu-id="19ce8-109">**Fréquence** -élevée</span><span class="sxs-lookup"><span data-stu-id="19ce8-109">**Frequency** - High</span></span>  
 
-<span data-ttu-id="fd56c-111">La chaîne de l’agent utilisateur est l’identificateur Internet Explorer qui fournit des données sur sa version et d’autres attributs aux serveurs Web.</span><span class="sxs-lookup"><span data-stu-id="fd56c-111">The User Agent String is the Internet Explorer identifier that provides data about its version and other attributes to web servers.</span></span> <span data-ttu-id="fd56c-112">De nombreuses applications Web s’appuient sur la chaîne de l’agent utilisateur d’IE.</span><span class="sxs-lookup"><span data-stu-id="fd56c-112">Many web applications rely on, and piggyback on, the IE User Agent String.</span></span> <span data-ttu-id="fd56c-113">Celles qui le font et dépendent d’un numéro de version antérieure seront affectées.</span><span class="sxs-lookup"><span data-stu-id="fd56c-113">Those that do so and depend on an earlier version number will be impacted.</span></span> <span data-ttu-id="fd56c-114">La chaîne de l’agent utilisateur comprend désormais la chaîne « Trident/4.0 » afin d’autoriser la différenciation entre la chaîne de l’agent utilisateur d’Internet Explorer 7 et la chaîne de l’agent utilisateur d’Internet Explorer 8 lors de l’exécution dans l’affichage de compatibilité d’Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="fd56c-114">The User Agent string now includes the string 'Trident/4.0' in order to allow differentiation between the Internet Explorer 7 User Agent String and the Internet Explorer 8 User Agent string when running in Internet Explorer 7 Compatibility View.</span></span> <span data-ttu-id="fd56c-115">Pour plus d’informations, consultez Description des chaînes de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fd56c-115">See Understanding User Agent Strings for details.</span></span>
 
-## <a name="manifestation-of-impact"></a><span data-ttu-id="fd56c-116">Manifeste de l’impact</span><span class="sxs-lookup"><span data-stu-id="fd56c-116">Manifestation of Impact</span></span>
 
-<span data-ttu-id="fd56c-117">Il y a deux zones affectées :</span><span class="sxs-lookup"><span data-stu-id="fd56c-117">There are two impacted areas:</span></span>
 
--   <span data-ttu-id="fd56c-118">Les pages Web qui vérifient explicitement la chaîne de l’agent utilisateur et ne prennent pas en charge la chaîne de l’agent utilisateur d’Internet Explorer 8 peuvent ne pas s’exécuter correctement.</span><span class="sxs-lookup"><span data-stu-id="fd56c-118">Webpages that explicitly check the User Agent String and do not support the Internet Explorer 8 User Agent String may not run properly.</span></span> <span data-ttu-id="fd56c-119">Dans la plupart des cas, cela signifie que les pages seront bloquées par les utilisateurs du contenu auquel ils tentent d’accéder ou affichent du contenu incorrect ou incorrect.</span><span class="sxs-lookup"><span data-stu-id="fd56c-119">In the majority of cases, this means the pages will be block users from the content they are attempting to access or display incorrect or malformed content.</span></span>
--   <span data-ttu-id="fd56c-120">Les applications qui hébergent Trident (voir hébergement et réutilisation) utilisent par défaut Internet Explorer 7 en utilisant le composant Web facultatif, mais n’ont pas accès aux fonctionnalités d’Internet Explorer 8.</span><span class="sxs-lookup"><span data-stu-id="fd56c-120">Applications that host Trident (see Hosting and Reuse) will default to Internet Explorer 7 using the Web Optional Component, but will not have access to Internet Explorer 8 features.</span></span>
 
-## <a name="solution"></a><span data-ttu-id="fd56c-121">Solution</span><span class="sxs-lookup"><span data-stu-id="fd56c-121">Solution</span></span>
 
-<span data-ttu-id="fd56c-122">Assurez-vous que vos applications gèrent correctement la nouvelle version « MSIE 8,0 » dans la chaîne de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fd56c-122">Ensure that your applications properly handle the new 'MSIE 8.0' version in the User Agent String.</span></span> <span data-ttu-id="fd56c-123">Vous pouvez également vous abonner à l’affichage de compatibilité d’Internet Explorer 7 pour ces applications basées sur Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="fd56c-123">You may also opt in to the Internet Explorer 7 Compatibility View for those applications based on Internet Explorer 7.</span></span> <span data-ttu-id="fd56c-124">Pour ce faire, vous pouvez utiliser des balises méta.</span><span class="sxs-lookup"><span data-stu-id="fd56c-124">This can be done with meta tags.</span></span> <span data-ttu-id="fd56c-125">Pour plus d’informations, consultez la rubrique Présentation des chaînes de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="fd56c-125">See the discussion in Understanding User Agent Strings for details.</span></span>
 
-## <a name="compatibility-performance-reliability-and-usability-testing"></a><span data-ttu-id="fd56c-126">Compatibilité, performances, fiabilité et test d’utilisabilité</span><span class="sxs-lookup"><span data-stu-id="fd56c-126">Compatibility, Performance, Reliability, and Usability Testing</span></span>
 
--   <span data-ttu-id="fd56c-127">Exécutez vos applications et pages Web dans un environnement Internet Explorer 8 sous Windows Vista ou Windows XP pour vous assurer qu’elles se comportent de la manière souhaitée.</span><span class="sxs-lookup"><span data-stu-id="fd56c-127">Run your applications and webpages in an Internet Explorer 8 environment on Windows Vista or Windows XP to ensure that they behave in the desired manner.</span></span>
--   <span data-ttu-id="fd56c-128">Vous pouvez également exécuter l’outil de test de compatibilité Internet Explorer (IECTT) fourni avec Application Compatibility Toolkit (ACT) pour localiser les problèmes potentiels liés aux mises à jour des fonctionnalités de sécurité.</span><span class="sxs-lookup"><span data-stu-id="fd56c-128">Alternatively, you can run the Internet Explorer Compatibility Test Tool (IECTT) provided with the Application Compatibility Toolkit (ACT) to locate any potential issues due to security feature updates.</span></span>
 
-## <a name="links-to-other-resources"></a><span data-ttu-id="fd56c-129">Liens vers d’autres ressources</span><span class="sxs-lookup"><span data-stu-id="fd56c-129">Links to Other Resources</span></span>
 
--   <span data-ttu-id="fd56c-130">[Fonctionnement des chaînes de l’agent utilisateur](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="fd56c-130">[Understanding User Agent Strings](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))</span></span>
--   [<span data-ttu-id="fd56c-131">Chaîne de User-Agent d’Internet Explorer 8</span><span class="sxs-lookup"><span data-stu-id="fd56c-131">Internet Explorer 8 User-Agent String</span></span>](/archive/blogs/ie/)
--   [<span data-ttu-id="fd56c-132">Vecteur de version et de chaîne de l’agent utilisateur</span><span class="sxs-lookup"><span data-stu-id="fd56c-132">User-Agent String and Version Vector</span></span>](https://archive.msdn.microsoft.com/ie8whitepapers)
--   <span data-ttu-id="fd56c-133">[Hébergement et réutilisation](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="fd56c-133">[Hosting and Reuse](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))</span></span>
--   [<span data-ttu-id="fd56c-134">Téléchargement de l’outil Application Compatibility Toolkit</span><span class="sxs-lookup"><span data-stu-id="fd56c-134">Application Compatibility Toolkit Download</span></span>](/windows-hardware/get-started/adk-install)
--   <span data-ttu-id="fd56c-135">[Problèmes connus liés aux fonctionnalités de sécurité d’Internet Explorer](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="fd56c-135">[Known Internet Explorer Security Feature Issues](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))</span></span>
+
+## <a name="description"></a><span data-ttu-id="19ce8-110">Description</span><span class="sxs-lookup"><span data-stu-id="19ce8-110">Description</span></span>
+
+<span data-ttu-id="19ce8-111">La chaîne de l’agent utilisateur est l’identificateur Internet Explorer qui fournit des données sur sa version et d’autres attributs aux serveurs Web.</span><span class="sxs-lookup"><span data-stu-id="19ce8-111">The User Agent String is the Internet Explorer identifier that provides data about its version and other attributes to web servers.</span></span> <span data-ttu-id="19ce8-112">De nombreuses applications Web s’appuient sur la chaîne de l’agent utilisateur d’IE.</span><span class="sxs-lookup"><span data-stu-id="19ce8-112">Many web applications rely on, and piggyback on, the IE User Agent String.</span></span> <span data-ttu-id="19ce8-113">Celles qui le font et dépendent d’un numéro de version antérieure seront affectées.</span><span class="sxs-lookup"><span data-stu-id="19ce8-113">Those that do so and depend on an earlier version number will be impacted.</span></span> <span data-ttu-id="19ce8-114">La chaîne de l’agent utilisateur comprend désormais la chaîne « Trident/4.0 » afin d’autoriser la différenciation entre la chaîne de l’agent utilisateur d’Internet Explorer 7 et la chaîne de l’agent utilisateur d’Internet Explorer 8 lors de l’exécution dans l’affichage de compatibilité d’Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="19ce8-114">The User Agent string now includes the string 'Trident/4.0' in order to allow differentiation between the Internet Explorer 7 User Agent String and the Internet Explorer 8 User Agent string when running in Internet Explorer 7 Compatibility View.</span></span> <span data-ttu-id="19ce8-115">Pour plus d’informations, consultez Description des chaînes de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="19ce8-115">See Understanding User Agent Strings for details.</span></span>
+
+## <a name="manifestation-of-impact"></a><span data-ttu-id="19ce8-116">Manifeste de l’impact</span><span class="sxs-lookup"><span data-stu-id="19ce8-116">Manifestation of Impact</span></span>
+
+<span data-ttu-id="19ce8-117">Il y a deux zones affectées :</span><span class="sxs-lookup"><span data-stu-id="19ce8-117">There are two impacted areas:</span></span>
+
+-   <span data-ttu-id="19ce8-118">Les pages Web qui vérifient explicitement la chaîne de l’agent utilisateur et ne prennent pas en charge la chaîne de l’agent utilisateur d’Internet Explorer 8 peuvent ne pas s’exécuter correctement.</span><span class="sxs-lookup"><span data-stu-id="19ce8-118">Webpages that explicitly check the User Agent String and do not support the Internet Explorer 8 User Agent String may not run properly.</span></span> <span data-ttu-id="19ce8-119">Dans la plupart des cas, cela signifie que les pages seront bloquées par les utilisateurs du contenu auquel ils tentent d’accéder ou affichent du contenu incorrect ou incorrect.</span><span class="sxs-lookup"><span data-stu-id="19ce8-119">In the majority of cases, this means the pages will be block users from the content they are attempting to access or display incorrect or malformed content.</span></span>
+-   <span data-ttu-id="19ce8-120">Les applications qui hébergent Trident (voir hébergement et réutilisation) utilisent par défaut Internet Explorer 7 en utilisant le composant Web facultatif, mais n’ont pas accès aux fonctionnalités d’Internet Explorer 8.</span><span class="sxs-lookup"><span data-stu-id="19ce8-120">Applications that host Trident (see Hosting and Reuse) will default to Internet Explorer 7 using the Web Optional Component, but will not have access to Internet Explorer 8 features.</span></span>
+
+## <a name="solution"></a><span data-ttu-id="19ce8-121">Solution</span><span class="sxs-lookup"><span data-stu-id="19ce8-121">Solution</span></span>
+
+<span data-ttu-id="19ce8-122">Assurez-vous que vos applications gèrent correctement la nouvelle version « MSIE 8,0 » dans la chaîne de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="19ce8-122">Ensure that your applications properly handle the new 'MSIE 8.0' version in the User Agent String.</span></span> <span data-ttu-id="19ce8-123">Vous pouvez également vous abonner à l’affichage de compatibilité d’Internet Explorer 7 pour ces applications basées sur Internet Explorer 7.</span><span class="sxs-lookup"><span data-stu-id="19ce8-123">You may also opt in to the Internet Explorer 7 Compatibility View for those applications based on Internet Explorer 7.</span></span> <span data-ttu-id="19ce8-124">Pour ce faire, vous pouvez utiliser des balises méta.</span><span class="sxs-lookup"><span data-stu-id="19ce8-124">This can be done with meta tags.</span></span> <span data-ttu-id="19ce8-125">Pour plus d’informations, consultez la rubrique Présentation des chaînes de l’agent utilisateur.</span><span class="sxs-lookup"><span data-stu-id="19ce8-125">See the discussion in Understanding User Agent Strings for details.</span></span>
+
+## <a name="compatibility-performance-reliability-and-usability-testing"></a><span data-ttu-id="19ce8-126">Compatibilité, performances, fiabilité et test d’utilisabilité</span><span class="sxs-lookup"><span data-stu-id="19ce8-126">Compatibility, Performance, Reliability, and Usability Testing</span></span>
+
+-   <span data-ttu-id="19ce8-127">Exécutez vos applications et pages Web dans un environnement Internet Explorer 8 sous Windows Vista ou Windows XP pour vous assurer qu’elles se comportent de la manière souhaitée.</span><span class="sxs-lookup"><span data-stu-id="19ce8-127">Run your applications and webpages in an Internet Explorer 8 environment on Windows Vista or Windows XP to ensure that they behave in the desired manner.</span></span>
+-   <span data-ttu-id="19ce8-128">Vous pouvez également exécuter l’outil de test de compatibilité Internet Explorer (IECTT) fourni avec Application Compatibility Toolkit (ACT) pour localiser les problèmes potentiels liés aux mises à jour des fonctionnalités de sécurité.</span><span class="sxs-lookup"><span data-stu-id="19ce8-128">Alternatively, you can run the Internet Explorer Compatibility Test Tool (IECTT) provided with the Application Compatibility Toolkit (ACT) to locate any potential issues due to security feature updates.</span></span>
+
+## <a name="links-to-other-resources"></a><span data-ttu-id="19ce8-129">Liens vers d’autres ressources</span><span class="sxs-lookup"><span data-stu-id="19ce8-129">Links to Other Resources</span></span>
+
+-   <span data-ttu-id="19ce8-130">[Fonctionnement des chaînes de l’agent utilisateur](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="19ce8-130">[Understanding User Agent Strings](/previous-versions/windows/internet-explorer/ie-developer/compatibility/ms537503(v=vs.85))</span></span>
+-   [<span data-ttu-id="19ce8-131">Chaîne de User-Agent d’Internet Explorer 8</span><span class="sxs-lookup"><span data-stu-id="19ce8-131">Internet Explorer 8 User-Agent String</span></span>](/archive/blogs/ie/)
+-   [<span data-ttu-id="19ce8-132">Vecteur de version et de chaîne de l’agent utilisateur</span><span class="sxs-lookup"><span data-stu-id="19ce8-132">User-Agent String and Version Vector</span></span>](https://archive.msdn.microsoft.com/ie8whitepapers)
+-   <span data-ttu-id="19ce8-133">[Hébergement et réutilisation](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="19ce8-133">[Hosting and Reuse](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa752038(v=vs.85))</span></span>
+-   [<span data-ttu-id="19ce8-134">Téléchargement de l’outil Application Compatibility Toolkit</span><span class="sxs-lookup"><span data-stu-id="19ce8-134">Application Compatibility Toolkit Download</span></span>](/windows-hardware/get-started/adk-install)
+-   <span data-ttu-id="19ce8-135">[Problèmes connus liés aux fonctionnalités de sécurité d’Internet Explorer](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="19ce8-135">[Known Internet Explorer Security Feature Issues](/previous-versions/windows/it-pro/windows-7/cc722079(v=ws.10))</span></span>
 
  
 

@@ -1,26 +1,26 @@
 ---
 title: Notifications d’entrée brutes
-description: .
+description: Notifications d’entrée brutes
 ms.assetid: 6e4705b2-1beb-4652-a621-5297e0ed504a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1f5e396800c7ab1f369f0d49cb735c43122654a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2489e36196e5f9db83075cdecbd16986da648ad5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379959"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087767"
 ---
-# <a name="raw-input-notifications"></a><span data-ttu-id="cda20-103">Notifications d’entrée brutes</span><span class="sxs-lookup"><span data-stu-id="cda20-103">Raw Input Notifications</span></span>
+# <a name="raw-input-notifications"></a><span data-ttu-id="e1093-103">Notifications d’entrée brutes</span><span class="sxs-lookup"><span data-stu-id="e1093-103">Raw Input Notifications</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="cda20-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="cda20-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="e1093-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="e1093-104">In This Section</span></span>
 
--   [<span data-ttu-id="cda20-105">**\_entrée WM**</span><span class="sxs-lookup"><span data-stu-id="cda20-105">**WM\_INPUT**</span></span>](wm-input.md)
--   [<span data-ttu-id="cda20-106">**modification de l' \_ appareil d’entrée WM \_ \_**</span><span class="sxs-lookup"><span data-stu-id="cda20-106">**WM\_INPUT\_DEVICE\_CHANGE**</span></span>](wm-input-device-change.md)
+-   [<span data-ttu-id="e1093-105">**\_entrée WM**</span><span class="sxs-lookup"><span data-stu-id="e1093-105">**WM\_INPUT**</span></span>](wm-input.md)
+-   [<span data-ttu-id="e1093-106">**modification de l' \_ appareil d’entrée WM \_ \_**</span><span class="sxs-lookup"><span data-stu-id="e1093-106">**WM\_INPUT\_DEVICE\_CHANGE**</span></span>](wm-input-device-change.md)
 
- 
+ 
 
- 
+ 
 
 
 
