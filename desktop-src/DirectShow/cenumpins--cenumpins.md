@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CEnumPins. ~ CEnumPins, destructeur, méthode de destructeur.
 ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
 title: CEnumPins. ~ CEnumPins, destructeur (Amfilter. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 450c28c25305f47eb04f4f1fd17b8f123d37fb71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2e09f47d1fe6bf3f50b54661b363921d11c49e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095657"
 ---
-# <a name="cenumpinscenumpins-destructor"></a><span data-ttu-id="a1d8e-103">CEnumPins. ~ CEnumPins, destructeur</span><span class="sxs-lookup"><span data-stu-id="a1d8e-103">CEnumPins.~CEnumPins destructor</span></span>
+# <a name="cenumpinscenumpins-destructor"></a><span data-ttu-id="04d07-103">CEnumPins. ~ CEnumPins, destructeur</span><span class="sxs-lookup"><span data-stu-id="04d07-103">CEnumPins.~CEnumPins destructor</span></span>
 
-<span data-ttu-id="a1d8e-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="a1d8e-104">Destructor method.</span></span>
+<span data-ttu-id="04d07-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="04d07-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a1d8e-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="a1d8e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="04d07-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="04d07-105">Syntax</span></span>
 
 
 ```C++
@@ -36,22 +36,22 @@ virtual ~CEnumPins();
 
 
 
-## <a name="requirements"></a><span data-ttu-id="a1d8e-106">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="a1d8e-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="04d07-106">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="04d07-106">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a1d8e-107">Condition requise</span><span class="sxs-lookup"><span data-stu-id="a1d8e-107">Requirement</span></span> | <span data-ttu-id="a1d8e-108">Valeur</span><span class="sxs-lookup"><span data-stu-id="a1d8e-108">Value</span></span> |
+| <span data-ttu-id="04d07-107">Condition requise</span><span class="sxs-lookup"><span data-stu-id="04d07-107">Requirement</span></span> | <span data-ttu-id="04d07-108">Valeur</span><span class="sxs-lookup"><span data-stu-id="04d07-108">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a1d8e-109">En-tête</span><span class="sxs-lookup"><span data-stu-id="a1d8e-109">Header</span></span><br/>  | <dl> <span data-ttu-id="a1d8e-110"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="a1d8e-110"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
-| <span data-ttu-id="a1d8e-111">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="a1d8e-111">Library</span></span><br/> | <dl> <span data-ttu-id="a1d8e-112"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="a1d8e-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="04d07-109">En-tête</span><span class="sxs-lookup"><span data-stu-id="04d07-109">Header</span></span><br/>  | <dl> <span data-ttu-id="04d07-110"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="04d07-110"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
+| <span data-ttu-id="04d07-111">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="04d07-111">Library</span></span><br/> | <dl> <span data-ttu-id="04d07-112"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="04d07-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a1d8e-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="a1d8e-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="04d07-113">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="04d07-113">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a1d8e-114">**CEnumPins, classe**</span><span class="sxs-lookup"><span data-stu-id="a1d8e-114">**CEnumPins Class**</span></span>](cenumpins.md)
+[<span data-ttu-id="04d07-114">**CEnumPins, classe**</span><span class="sxs-lookup"><span data-stu-id="04d07-114">**CEnumPins Class**</span></span>](cenumpins.md)
 </dt> </dl>
 
  

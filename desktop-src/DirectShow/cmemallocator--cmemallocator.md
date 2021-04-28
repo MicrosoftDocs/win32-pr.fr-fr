@@ -1,5 +1,5 @@
 ---
-description: Méthode de destructeur.
+description: CMemAllocator. ~ CMemAllocator, destructeur, méthode de destructeur.
 ms.assetid: e0a04d93-fb77-4dc1-9bc8-7d3965bc6803
 title: CMemAllocator. ~ CMemAllocator, destructeur (Amfilter. h)
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d49046eccd8d7ef71c4eeb4c75acffbf90f7d826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43b0505ee34df72ab82e4204b08440ac1a2558b5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534978"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095407"
 ---
-# <a name="cmemallocatorcmemallocator-destructor"></a><span data-ttu-id="f0ed9-103">CMemAllocator. ~ CMemAllocator, destructeur</span><span class="sxs-lookup"><span data-stu-id="f0ed9-103">CMemAllocator.~CMemAllocator destructor</span></span>
+# <a name="cmemallocatorcmemallocator-destructor"></a><span data-ttu-id="34b90-103">CMemAllocator. ~ CMemAllocator, destructeur</span><span class="sxs-lookup"><span data-stu-id="34b90-103">CMemAllocator.~CMemAllocator destructor</span></span>
 
-<span data-ttu-id="f0ed9-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="f0ed9-104">Destructor method.</span></span>
+<span data-ttu-id="34b90-104">Méthode de destructeur.</span><span class="sxs-lookup"><span data-stu-id="34b90-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f0ed9-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="f0ed9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="34b90-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="34b90-105">Syntax</span></span>
 
 
 ```C++
@@ -36,26 +36,26 @@ ms.locfileid: "106534978"
 
 
 
-## <a name="remarks"></a><span data-ttu-id="f0ed9-106">Notes</span><span class="sxs-lookup"><span data-stu-id="f0ed9-106">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34b90-106">Notes </span><span class="sxs-lookup"><span data-stu-id="34b90-106">Remarks</span></span>
 
-<span data-ttu-id="f0ed9-107">Cette méthode remplace le destructeur de classe de base pour appeler [**CBaseAllocator ::D ecommit**](cbaseallocator-decommit.md) et [**CMemAllocator :: ReallyFree**](cmemallocator-reallyfree.md).</span><span class="sxs-lookup"><span data-stu-id="f0ed9-107">This method overrides the base-class destructor to call [**CBaseAllocator::Decommit**](cbaseallocator-decommit.md) and [**CMemAllocator::ReallyFree**](cmemallocator-reallyfree.md).</span></span>
+<span data-ttu-id="34b90-107">Cette méthode remplace le destructeur de classe de base pour appeler [**CBaseAllocator ::D ecommit**](cbaseallocator-decommit.md) et [**CMemAllocator :: ReallyFree**](cmemallocator-reallyfree.md).</span><span class="sxs-lookup"><span data-stu-id="34b90-107">This method overrides the base-class destructor to call [**CBaseAllocator::Decommit**](cbaseallocator-decommit.md) and [**CMemAllocator::ReallyFree**](cmemallocator-reallyfree.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="f0ed9-108">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="f0ed9-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="34b90-108">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="34b90-108">Requirements</span></span>
 
 
 
-| <span data-ttu-id="f0ed9-109">Condition requise</span><span class="sxs-lookup"><span data-stu-id="f0ed9-109">Requirement</span></span> | <span data-ttu-id="f0ed9-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="f0ed9-110">Value</span></span> |
+| <span data-ttu-id="34b90-109">Condition requise</span><span class="sxs-lookup"><span data-stu-id="34b90-109">Requirement</span></span> | <span data-ttu-id="34b90-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="34b90-110">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="f0ed9-111">En-tête</span><span class="sxs-lookup"><span data-stu-id="f0ed9-111">Header</span></span><br/>  | <dl> <span data-ttu-id="f0ed9-112"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="f0ed9-112"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
-| <span data-ttu-id="f0ed9-113">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="f0ed9-113">Library</span></span><br/> | <dl> <span data-ttu-id="f0ed9-114"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="f0ed9-114"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="34b90-111">En-tête</span><span class="sxs-lookup"><span data-stu-id="34b90-111">Header</span></span><br/>  | <dl> <span data-ttu-id="34b90-112"><dt>Amfilter. h (include streams. h)</dt></span><span class="sxs-lookup"><span data-stu-id="34b90-112"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
+| <span data-ttu-id="34b90-113">Bibliothèque</span><span class="sxs-lookup"><span data-stu-id="34b90-113">Library</span></span><br/> | <dl> <span data-ttu-id="34b90-114"><dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt></span><span class="sxs-lookup"><span data-stu-id="34b90-114"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="f0ed9-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="f0ed9-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="34b90-115">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="34b90-115">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="f0ed9-116">**CMemAllocator, classe**</span><span class="sxs-lookup"><span data-stu-id="f0ed9-116">**CMemAllocator Class**</span></span>](cmemallocator.md)
+[<span data-ttu-id="34b90-116">**CMemAllocator, classe**</span><span class="sxs-lookup"><span data-stu-id="34b90-116">**CMemAllocator Class**</span></span>](cmemallocator.md)
 </dt> </dl>
 
  
