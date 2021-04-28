@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_ExternalEthernetPort-demande une réinitialisation.
 ms.assetid: 6a4ca61c-b431-40d1-a241-f402aa667ebe
 title: Méthode Reset de la classe Msvm_ExternalEthernetPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4aeeef7bf03c32db57862f77f48a164f757ee5fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fbc6e2533270ebe1ca124b94be858631268358b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522415"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119047"
 ---
 # <a name="reset-method-of-the-msvm_externalethernetport-class"></a>Méthode Reset de la \_ classe MSVM ExternalEthernetPort
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -1,5 +1,5 @@
 ---
-description: démarre le service.
+description: Méthode StartService de la classe Msvm_ReplicationService-démarre le service.
 ms.assetid: 3f0d7ee7-4083-43d6-ac5f-8e7dc5188683
 title: Méthode StartService de la classe Msvm_ReplicationService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ca4d5dac81411475099041a10459161b781f16ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ee39eb4943ed80bae976050d3fdad7477043dce
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115627"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118797"
 ---
 # <a name="startservice-method-of-the-msvm_replicationservice-class"></a>Méthode StartService de la \_ classe MSVM ReplicationService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -1,5 +1,5 @@
 ---
-description: Obtient une constante en recherchant son index.
+description: 'ID3DXConstantTable :: GetConstant, méthode-obtient une constante en recherchant son index.'
 ms.assetid: 7db25171-9bda-4db8-b6a8-8a4d60a842f7
 title: 'ID3DXConstantTable :: GetConstant, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4ab7318dc4a05f586db77817653e7df59ef6083
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 664a1b1a214b49eb731a3a0766a255e5f5acadd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529617"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115267"
 ---
 # <a name="id3dxconstanttablegetconstant-method"></a>ID3DXConstantTable :: GetConstant, méthode
 
@@ -59,13 +59,13 @@ Index de base zéro de la constante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**
 
 Retourne un identificateur unique à la constante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour obtenir une constante d’un tableau de constantes, utilisez [**ID3DXConstantTable :: GetConstantElement**](id3dxconstanttable--getconstantelement.md).
 

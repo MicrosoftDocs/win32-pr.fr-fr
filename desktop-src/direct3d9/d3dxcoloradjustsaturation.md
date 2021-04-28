@@ -1,5 +1,5 @@
 ---
-description: Ajuste la valeur de saturation d’une couleur.
+description: 'Fonction D3DXColorAdjustSaturation (D3dx9math. h) : ajuste la valeur de saturation d’une couleur.'
 ms.assetid: 1f66c3b4-2f02-4993-80c6-c484180c2459
 title: D3DXColorAdjustSaturation, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d9a801a8355c1a9399f9864f9b1753bbecc17b2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 878cdd83a04f594da3133eda314486af96ac3d56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542172"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115867"
 ---
 # <a name="d3dxcoloradjustsaturation-function-d3dx9mathh"></a>D3DXColorAdjustSaturation, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Valeur de saturation. Ce paramètre interpole de manière linéaire entre la cou
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXCOLOR**](d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure [**D3DXCOLOR**](d3dxcolor.md) qui est le résultat de l’ajustement de saturation.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le canal alpha d’entrée est copié, sans modification, sur le canal alpha de sortie.
 

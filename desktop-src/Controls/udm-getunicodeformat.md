@@ -1,6 +1,6 @@
 ---
 title: Message UDM_GETUNICODEFORMAT (commctrl. h)
-description: Récupère l’indicateur de format de caractère Unicode pour le contrôle.
+description: 'UDM_GETUNICODEFORMAT message : récupère l’indicateur de format de caractère Unicode pour le contrôle.'
 ms.assetid: 8c09d37b-95a2-49cd-b578-919f9c39fa8b
 keywords:
 - UDM_GETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2f9eef604af6cf5dfcefbf1e3e03dec561ac21
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 273164df7f7021f39ec26a22eb637e8b9969fc24
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942872"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113588"
 ---
 # <a name="udm_getunicodeformat-message"></a>\_Message GETUNICODEFORMAT UDM
 
@@ -35,11 +35,11 @@ Récupère l’indicateur de format de caractère Unicode pour le contrôle.
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode pour le contrôle. Si cette valeur est différente de zéro, le contrôle utilise des caractères Unicode. Si cette valeur est égale à zéro, le contrôle utilise des caractères ANSI.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ GETUNICODEFORMAT**](ccm-getunicodeformat.md) .
 

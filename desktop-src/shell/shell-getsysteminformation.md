@@ -1,5 +1,5 @@
 ---
-description: Récupère des informations système.
+description: Shell. GetSystemInformation, méthode-récupère les informations système.
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
 title: Shell. GetSystemInformation, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2ad7a865ba6ac5b62bc8a9b5ac105c0ef166d574
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: b9e021e767309007cfee2cfc78268fb7d7cea042
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973686"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104277"
 ---
 # <a name="shellgetsysteminformation-method"></a>Shell. GetSystemInformation, méthode
 
@@ -58,7 +58,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,7 +72,7 @@ Type : **variante**
 
 Retourne la valeur des informations système demandées. Le type de retour dépend des informations système demandées. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut être utilisée pour demander de nombreuses valeurs d’informations système. Le tableau suivant indique la valeur *sName* utilisée pour demander les informations et le type associé de la valeur retournée.
 
@@ -191,7 +191,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

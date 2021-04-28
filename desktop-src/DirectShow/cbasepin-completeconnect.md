@@ -1,5 +1,5 @@
 ---
-description: La méthode CompleteConnect effectue une connexion à une autre broche.
+description: 'Méthode CBasePin. CompleteConnect : la méthode CompleteConnect effectue une connexion à une autre broche.'
 ms.assetid: 10cbf29c-2e1a-419c-b0c0-c99f9a285810
 title: Méthode CBasePin. CompleteConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9068bf63d3168a8c6d9e1bca2ef709f63e80a3c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fee207d7a17f12cc81036fbd4f82ec49a99f4a31
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096037"
 ---
 # <a name="cbasepincompleteconnect-method"></a>Méthode CBasePin. CompleteConnect
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est appelée sur les deux codes confidentiels à la fin du processus de connexion. Le code PIN de connexion l’appelle à partir de la méthode [**CBasePin :: Connect**](cbasepin-connect.md) , et l’épingle de réception l’appelle à partir de la méthode [**CBasePin :: ReceiveConnection**](cbasepin-receiveconnection.md) .
 

@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_InternalEthernetPort-demande un changement d’État.
 ms.assetid: 34f226a2-392b-4b3c-898e-308af52b71a2
 title: Méthode RequestStateChange de la classe Msvm_InternalEthernetPort
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 88483a72a677863f7e81ccbf50a8fb1f3dee7d03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f5a255fe0b3c300ce157d128ddd331cbe78afb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514647"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111727"
 ---
 # <a name="requeststatechange-method-of-the-msvm_internalethernetport-class"></a>Méthode RequestStateChange de la \_ classe MSVM InternalEthernetPort
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

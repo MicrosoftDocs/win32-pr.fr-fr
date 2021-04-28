@@ -1,15 +1,15 @@
 ---
-description: .
+description: API d’emplacement
 ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: API d’emplacement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f643565e80f72ffcefe6981c924b3739b1c4f5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3e9dccf5f88da1c608cfbc03898899f171a2627
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864873"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110887"
 ---
 # <a name="location-api"></a>API d’emplacement
 
@@ -32,7 +32,7 @@ Cette documentation décrit l’interface de programmation d’applications (API
 
 L’API location fournit ses fonctionnalités via un ensemble d’interfaces COM. Les fonctionnalités de l’API location peuvent être utilisées par les programmeurs qui sont familiarisés avec l’utilisation de COM par le biais du langage de programmation C++, ou avec l’utilisation d’objets COM dans des langages de script, tels que Microsoft JScript.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Référence de programmation C++ de l’API d’emplacement](windows-location-programming-reference.md)
 -   [Référence du modèle objet de l’API Location](windows-location-script-programming-reference.md)

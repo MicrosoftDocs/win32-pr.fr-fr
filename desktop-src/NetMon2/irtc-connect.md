@@ -1,5 +1,5 @@
 ---
-description: La méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.
+description: 'Méthode IRTC :: Connect : la méthode Connect connecte le NPP au réseau à l’aide d’une carte réseau spécifiée et fournit des informations de configuration pour la connexion.'
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
 title: 'IRTC :: Connect, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a14e34aeb0be30165aa18ddc7da18028d715be01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba62f3341b18ddfdbf09af4eec701322d901ab79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110743"
 ---
 # <a name="irtcconnect-method"></a>IRTC :: Connect, méthode
 
@@ -79,7 +79,7 @@ Handle vers un objet BLOB d’erreur qui contient des informations supplémentai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -104,7 +104,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la méthode **Connect** est appelée, le NPP appelle automatiquement la méthode **IRTC :: configure** à l’aide de l’objet BLOB fourni par *hInputBlob*. Notez que les codes d’erreur retournés par l’appel à **IRTC :: configure** sont passés en retour et retournés par l’appel de **IRTC :: Connect** .
 

@@ -1,5 +1,5 @@
 ---
-description: Verrouille ou libère le média.
+description: 'Méthode LockMedia de la classe Msvm_DisketteDrive : verrouille ou libère le média.'
 ms.assetid: 90f7e06c-92d0-4742-a74d-68ae6bfc00bf
 title: Méthode LockMedia de la classe Msvm_DisketteDrive
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4f9bce4e9e46d76c3426271af16c28026c242fa9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 5f5f87354aa7c39534e8b32c8985c5d18b55caa9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869533"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111974"
 ---
 # <a name="lockmedia-method-of-the-msvm_diskettedrive-class"></a>Méthode LockMedia de la \_ classe DisketteDrive MSVM
 
@@ -46,7 +46,7 @@ uint32 LockMedia(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 en cas de réussite ; Sinon, retourne l’une des valeurs suivantes :
 

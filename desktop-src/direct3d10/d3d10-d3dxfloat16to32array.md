@@ -1,5 +1,5 @@
 ---
-description: Convertit un tableau de valeurs float de 16 bits en valeurs float 32 bits.
+description: 'D3DXFloat16To32Array, fonction (D3DX10Math. h) : convertit un tableau de valeurs float de 16 bits en valeurs float 32 bits.'
 ms.assetid: cf07a21d-9ea3-4fbe-ab8f-564e2bbb8d60
 title: D3DXFloat16To32Array, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a813553234c9e59ad34720da6f380977779e5d96
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5ae624fb05ce10447bd3b9082e171dc01224baaa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322973"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113287"
 ---
 # <a name="d3dxfloat16to32array-function-d3dx10mathh"></a>D3DXFloat16To32Array, fonction (D3DX10Math. h)
 
@@ -69,7 +69,7 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 

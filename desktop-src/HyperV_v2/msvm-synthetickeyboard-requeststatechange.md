@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_SyntheticKeyboard-demande un changement d’État.
 ms.assetid: 984e8a68-bc95-4a8b-99d6-ac248e96c45e
 title: Méthode RequestStateChange de la classe Msvm_SyntheticKeyboard
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9d3527f380bec783bd6305f2ec4fa57c15684dc4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb8714dfc652cd1ba1a581b99cf5a4066159fb1e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514152"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109546"
 ---
 # <a name="requeststatechange-method-of-the-msvm_synthetickeyboard-class"></a>Méthode RequestStateChange de la \_ classe MSVM SyntheticKeyboard
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 En cas de réussite, retourne 0 ; Sinon, retourne une erreur.
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.
+description: 'Méthode CBaseOutputPin. CheckConnect : la méthode CheckConnect détermine si une connexion de code confidentiel est appropriée.'
 ms.assetid: 50ab59ad-8ff7-4d7b-add3-b59203d93307
 title: Méthode CBaseOutputPin. CheckConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f3274e47e9a77d86f350c17aaca04ec0cdb95ef3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ea5ad32de18046f3d23145d82e971391c3e304c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537758"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096187"
 ---
 # <a name="cbaseoutputpincheckconnect-method"></a>Méthode CBaseOutputPin. CheckConnect
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** suivantes.
 
@@ -57,7 +57,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
 | Code de retour                                                                                               | Description                                                                 |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                      | Opération réussie.<br/>                                                         |
+| <dl> <dt>**\_OK**</dt> </dl>                      | Réussite.<br/>                                                         |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl>             | La broche d’entrée ne prend pas en charge [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin).<br/> |
 | <dl> <dt>**VFW \_ E \_ sens non valide \_**</dt> </dl> | Les directions de code confidentiel ne sont pas compatibles.<br/>                               |
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode appelle la méthode de classe de base [**CBasePin :: CheckConnect**](cbasepin-checkconnect.md) , puis interroge la broche d’entrée pour son interface [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin) .
 

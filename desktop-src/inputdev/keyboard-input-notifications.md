@@ -1,15 +1,15 @@
 ---
 title: Notifications d’entrée au clavier
-description: .
+description: Notifications d’entrée au clavier
 ms.assetid: dbce37a4-e84d-4719-8e9d-038a9847a6a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fdd966a0e9e3946db582fa01213e0f671c14bb3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0fe8183b3d9dad107ddf19191c1a491a69d63440
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672457"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112927"
 ---
 # <a name="keyboard-input-notifications"></a>Notifications d’entrée au clavier
 
@@ -29,9 +29,9 @@ ms.locfileid: "103672457"
 -   [**\_SYSKEYUP WM**](wm-syskeyup.md)
 -   [**\_UNICHAR WM**](wm-unichar.md)
 
- 
+ 
 
- 
+ 
 
 
 

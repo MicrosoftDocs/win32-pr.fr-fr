@@ -1,5 +1,5 @@
 ---
-description: Démarre un service nommé.
+description: Méthode IShellDispatch2. ServiceStart-démarre un service nommé.
 ms.assetid: 3af57cdc-f449-433d-a9e1-119038045e4c
 title: Méthode IShellDispatch2. ServiceStart (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 508b4f1c05625acdaed2b5a235ee697cceb544c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0f4fa218c4def993025ff18bffd0cc54def9818
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972386"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117047"
 ---
 # <a name="ishelldispatch2servicestart-method"></a>Méthode IShellDispatch2. ServiceStart
 
@@ -69,21 +69,21 @@ Affectez la valeur **true** pour que le service démarre automatiquement par le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ServiceStart**](./shell-servicestart.md) .
 
@@ -132,7 +132,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

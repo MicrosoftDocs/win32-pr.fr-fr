@@ -1,5 +1,5 @@
 ---
-description: Description
+description: Description (haut débit mobile)-Description
 MS-HAID: WWAN\_profile\_v4.element\_Description
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -16,12 +16,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: f8a4cbb21b12176771d3ab9091aef0540d8a7c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e72b2fca1df6ba76d933d289b5d73b717cb6af6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107017"
 ---
 # <a name="description-mobile-broadband"></a>Description (haut débit mobile)
 
@@ -46,11 +46,11 @@ Description du profil.
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucun.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucun.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

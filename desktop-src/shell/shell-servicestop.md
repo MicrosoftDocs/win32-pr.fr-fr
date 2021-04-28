@@ -1,5 +1,5 @@
 ---
-description: Arrête un service nommé.
+description: Shell. ServiceStop, méthode-arrête un service nommé.
 ms.assetid: AC22C91E-BBC6-4a2e-8D39-F9D7C0AC0947
 title: Shell. ServiceStop, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 31388078fe1c0e15c2e54efc86f0ff76bcfb7ed2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5307fabe79ab9e634ca1e2815c0b90d59b13b1f6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203438"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104157"
 ---
 # <a name="shellservicestop-method"></a>Shell. ServiceStop, méthode
 
@@ -69,21 +69,21 @@ Affectez la valeur **true** pour que le service soit démarré par le gestionnai
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode retourne la **valeur false** si le service a déjà été arrêté. Avant d’appeler cette méthode, vous pouvez appeler [**Shell. IsServiceRunning**](./shell-isservicerunning.md) pour déterminer l’état du service.
 
@@ -130,7 +130,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

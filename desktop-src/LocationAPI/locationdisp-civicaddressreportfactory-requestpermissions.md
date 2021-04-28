@@ -1,5 +1,5 @@
 ---
-description: Ouvre une boîte de dialogue système pour demander l’autorisation de l’utilisateur pour les périphériques avec emplacement.
+description: 'Méthode LocationDisp. CivicAddressReportFactory. RequestPermissions : ouvre une boîte de dialogue système pour demander l’autorisation de l’utilisateur pour les périphériques avec emplacement.'
 ms.assetid: b213591a-2830-4979-b532-e71cdef1b994
 title: Méthode LocationDisp. CivicAddressReportFactory. RequestPermissions
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6d027687302c544974d13b1ba50194e8d6003a94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cab163585fa23839eb894f7ad83f29ed7975e589
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320886"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110907"
 ---
 # <a name="locationdispcivicaddressreportfactoryrequestpermissions-method"></a>Méthode LocationDisp. CivicAddressReportFactory. RequestPermissions
 
@@ -47,11 +47,11 @@ Ce paramètre n’est pas utilisé et doit être défini à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’appel est synchrone et l’appelant attend la fermeture de la boîte de dialogue.
 

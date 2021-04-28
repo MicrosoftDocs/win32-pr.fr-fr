@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue Rechercher l’imprimante.
+description: Shell. FindPrinter, méthode-affiche la boîte de dialogue Rechercher l’imprimante.
 ms.assetid: 61C700CF-623B-4c99-A211-AC26A1E4AE85
 title: Shell. FindPrinter, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1286bb7247359ea91d29a53f8f0eaa13b55be5e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17d04b60de2b52ca3d2f17fbdccf7de93ac095b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973690"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104307"
 ---
 # <a name="shellfindprinter-method"></a>Shell. FindPrinter, méthode
 
@@ -80,7 +80,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si vous assignez des chaînes à un ou plusieurs des paramètres facultatifs, ils s’affichent en tant que valeurs par défaut dans le contrôle d’édition associé lorsque la boîte de dialogue **Rechercher l’imprimante** est affichée. L’utilisateur peut accepter ou remplacer ces valeurs. Si aucune valeur n’est assignée à un paramètre, la zone d’édition associée est vide et l’utilisateur doit entrer une valeur.
 
@@ -125,7 +125,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

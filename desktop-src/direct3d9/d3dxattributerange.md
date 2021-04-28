@@ -1,5 +1,5 @@
 ---
-description: Stocke une entrée de table d’attributs.
+description: 'Structure D3DXATTRIBUTERANGE : stocke une entrée de table d’attributs.'
 ms.assetid: b9f13b12-35ba-4e4c-93ac-3dd44d611b47
 title: D3DXATTRIBUTERANGE, structure (D3dx9mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: a842bbf41847f4b4e65c975e11f3e160cea1422d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7dfdf15f653fda77b1ca8c9a14cd32decee9658e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116007"
 ---
 # <a name="d3dxattributerange-structure"></a>D3DXATTRIBUTERANGE, structure
 
@@ -98,7 +98,7 @@ Nombre de vertex.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une table d’attributs permet d’identifier les zones de la maille qui doivent être dessinées avec différentes textures, États de rendu, matériaux, etc. En outre, l’application peut utiliser la table d’attributs pour masquer des parties d’un maillage en ne dessinant pas un identificateur d’attribut (AttribId) donné lors du dessin du frame.
 

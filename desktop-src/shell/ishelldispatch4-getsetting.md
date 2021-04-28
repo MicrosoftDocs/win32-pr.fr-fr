@@ -1,5 +1,5 @@
 ---
-description: Récupère un paramètre d’interpréteur de commandes global.
+description: 'Méthode IShellDispatch4. GetSetting : récupère un paramètre d’interpréteur de commandes global.'
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 title: IShellDispatch4. GetSetting, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 755ee1d2bbd5026b1cc3ca165649e0fcb4ab20ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a4345812925849831a6f0064c608f0c4be052c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116837"
 ---
 # <a name="ishelldispatch4getsetting-method"></a>IShellDispatch4. GetSetting, méthode
 
@@ -344,19 +344,19 @@ Non utilisé.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \_ bool \** _
+Type : **Variant \_ bool \***
 
-A la valeur _ *true** si le paramètre existe ; Sinon, **false**.
+A la valeur **true** si le paramètre existe ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \_ bool \** _
+Type : **Variant \_ bool \***
 
-A la valeur _ *true** si le paramètre existe ; Sinon, **false**.
+A la valeur **true** si le paramètre existe ; Sinon, **false**.
 
 ## <a name="examples"></a>Exemples
 
@@ -427,7 +427,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

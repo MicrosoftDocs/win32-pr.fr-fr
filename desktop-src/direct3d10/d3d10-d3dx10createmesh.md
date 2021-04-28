@@ -1,5 +1,5 @@
 ---
-description: Crée un objet de maillage à l’aide d’un déclarateur.
+description: D3DX10CreateMesh fonction-crée un objet de maillage à l’aide d’un déclarateur.
 ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: D3DX10CreateMesh, fonction (D3DX10Mesh. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2b00addb152fe18db448364fcc784c2044b10d23
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc744536336a4a102bafeaeae3ba87bbad58eb97
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535198"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113357"
 ---
 # <a name="d3dx10createmesh-function"></a>D3DX10CreateMesh fonction)
 
@@ -119,7 +119,7 @@ Adresse d’un pointeur vers une [**interface ID3DX10Mesh**](id3dx10mesh.md)repr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

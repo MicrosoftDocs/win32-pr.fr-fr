@@ -1,5 +1,5 @@
 ---
-description: La méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
+description: Méthode SetPowerState de la classe CIM_DiskDrive-la méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
 ms.assetid: 6a77d4ce-f895-4eed-a963-b2718d0e26cc
 ms.tgt_platform: multiple
 title: Méthode SetPowerState de la classe CIM_DiskDrive
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2b53f8dff62783692f21c11e0339998155bd98a1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a63e9346dc0229de296e106a47927ba73e20f60d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110466"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089387"
 ---
 # <a name="setpowerstate-method-of-the-cim_diskdrive-class"></a>Méthode SetPowerState de la \_ classe CIM DiskDrive
 
@@ -102,11 +102,11 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

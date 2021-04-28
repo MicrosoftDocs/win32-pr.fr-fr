@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un paquet air est détecté.
+description: Événement InkCollector. NewInAirPackets-se produit lorsqu’un paquet air est détecté.
 ms.assetid: e8eacdec-0381-435f-b453-24dca1c507c9
 title: Événement InkCollector. NewInAirPackets (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d942aa474b5cb53d01f5ce83d2bd3ec28d521c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5709ae0b468aa6ab49516accf4037695268788
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534630"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110127"
 ---
 # <a name="inkcollectornewinairpackets-event"></a>Événement InkCollector. NewInAirPackets
 
@@ -55,11 +55,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un paquet aérien est créé lorsqu’un utilisateur déplace un stylet près de la tablette et que le curseur se trouve dans la fenêtre de l’objet du collecteur d’encre ou lorsque l’utilisateur déplace une souris dans la fenêtre associée de l’objet du collecteur. Les événements **NewInAirPackets** sont générés rapidement et le gestionnaire d’événements doit être rapide ou en pâtit d’une performance.
 

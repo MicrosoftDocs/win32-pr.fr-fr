@@ -1,5 +1,5 @@
 ---
-description: Indique si la mémoire tampon contient une texture.
+description: 'ID3DXPRTCompBuffer :: IsTexture, méthode-indique si la mémoire tampon contient une texture.'
 ms.assetid: d86425ff-febe-4966-95aa-df4ce95397c0
 title: 'ID3DXPRTCompBuffer :: IsTexture, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8a4e58b2b41aa154da7c1b02bf99cfcca25e00cd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e58512ee538c2dc74251d9db6c0b86e6f185ed31
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107217"
 ---
 # <a name="id3dxprtcompbufferistexture-method"></a>ID3DXPRTCompBuffer :: IsTexture, méthode
 
@@ -38,7 +38,7 @@ BOOL IsTexture();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 

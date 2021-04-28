@@ -1,6 +1,6 @@
 ---
 title: Message TDM_SET_ELEMENT_TEXT (commctrl. h)
-description: Met à jour un élément de texte dans une boîte de dialogue de tâche.
+description: TDM_SET_ELEMENT_TEXT message-met à jour un élément de texte dans une boîte de dialogue de tâche.
 ms.assetid: e3f15805-5d48-4549-9959-69ec01345e57
 keywords:
 - TDM_SET_ELEMENT_TEXT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2229dc269f14c9a3b0765675dcc97dc9776b72c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6d0c8830a6d8a1057ab283a9e096434a6184151
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104027"
 ---
 # <a name="tdm_set_element_text-message"></a>\_Message texte de l’élément d’ensemble TDM \_ \_
 
@@ -56,11 +56,11 @@ Nouveau texte à utiliser.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La taille ou la disposition de la boîte de dialogue de tâches peut changer pour s’adapter au nouveau texte.
 

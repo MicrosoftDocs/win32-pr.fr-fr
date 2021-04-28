@@ -1,5 +1,5 @@
 ---
-description: La méthode Reset demande une réinitialisation de l’unité logique. Cette méthode est héritée de CIM \_ LogicalDevice.
+description: 'Méthode Reset de la classe CIM_InfraredController : la méthode Reset demande une réinitialisation de l’unité logique. Cette méthode est héritée de CIM \_ LogicalDevice.'
 ms.assetid: 16e77637-f063-4206-a9b3-2c7d08c652a6
 ms.tgt_platform: multiple
 title: Méthode Reset de la classe CIM_InfraredController
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a8037088e68d91769cc34c4f2665902ad70019b3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ac4bca726ed988d2a0da75cf391907c65bd51253
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950770"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096937"
 ---
 # <a name="reset-method-of-the-cim_infraredcontroller-class"></a>Méthode Reset de la \_ classe CIM InfraredController
 
@@ -43,11 +43,11 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) si la requête a été exécutée avec succès, 1 (un) si la demande n’est pas prise en charge, et une autre valeur si une erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

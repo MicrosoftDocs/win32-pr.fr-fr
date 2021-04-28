@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_VirtualEthernetSwitchManagementService : arrête le service.'
 ms.assetid: 4f88b099-3a89-4d05-920e-265fc94599b1
 title: Méthode StopService de la classe Msvm_VirtualEthernetSwitchManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6303327b66ce66c9cda6fe29e7d0a63184ea5929
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fbc91a4134fb0a024e66dfc1a46806aa531893f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533990"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111007"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Méthode StopService de la \_ classe MSVM VirtualEthernetSwitchManagementService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

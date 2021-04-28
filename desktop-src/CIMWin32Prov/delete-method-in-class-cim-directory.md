@@ -1,5 +1,5 @@
 ---
-description: La méthode Delete supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.
+description: Méthode Delete de la classe CIM_Directory-la méthode Delete supprime le fichier logique (ou le répertoire) spécifié dans le chemin d’accès de l’objet. Cette méthode est héritée de la \_ LOGICALFILE CIM.
 ms.assetid: 74f59073-a17a-4be5-8247-fba8d023f448
 ms.tgt_platform: multiple
 title: Méthode Delete de la classe CIM_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6ad193231ffc15f5ce61257ee545f583d8e58e17
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d02c9eb6b603673228671b12df98c7b6884abdd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950830"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089636"
 ---
 # <a name="delete-method-of-the-cim_directory-class"></a>Méthode Delete de la \_ classe de répertoire CIM
 
@@ -45,7 +45,7 @@ uint32 Delete();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
@@ -54,7 +54,7 @@ Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indi
 **0**
 </dt> <dd>
 
-Opération réussie.
+Réussite.
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ Paramètre non valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

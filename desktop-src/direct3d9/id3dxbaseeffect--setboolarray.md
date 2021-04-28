@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de valeurs booléennes.
+description: 'ID3DXBaseEffect :: SetBoolArray, méthode-définit un tableau de valeurs booléennes.'
 ms.assetid: 920b3482-cc30-4ab2-bfce-59f03afe11da
 title: 'ID3DXBaseEffect :: SetBoolArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 813259fc9fcca954c4d7a992c7542387be33bb6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cad6846914d348dd49d6362d70271c5af078e35d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545259"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093827"
 ---
 # <a name="id3dxbaseeffectsetboolarray-method"></a>ID3DXBaseEffect :: SetBoolArray, méthode
 
@@ -69,7 +69,7 @@ Nombre de valeurs booléennes dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

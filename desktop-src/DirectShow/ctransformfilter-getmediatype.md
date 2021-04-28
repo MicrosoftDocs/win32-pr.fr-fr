@@ -1,5 +1,5 @@
 ---
-description: La méthode GetMediaType récupère un type de média par défaut pour la broche de sortie.
+description: 'Méthode CTransformFilter. GetMediaType : la méthode GetMediaType récupère un type de média préféré pour la broche de sortie.'
 ms.assetid: 9a1b123b-aa8a-4bf0-a926-466ded24e506
 title: Méthode CTransformFilter. GetMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba751e291a1ffa8e030be7e77cfd456956718baa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6415b8e3d8ae4e292b7e2592b123120927081ea8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540010"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095117"
 ---
 # <a name="ctransformfiltergetmediatype-method"></a>Méthode CTransformFilter. GetMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                            | Description                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie.<br/>              |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Réussite.<br/>              |
 | <dl> <dt>**VFW \_ S \_ n’a \_ plus d' \_ éléments**</dt> </dl> | Index hors limites.<br/>   |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>           | Index inférieur à zéro.<br/> |
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode [**CTransformOutputPin :: GetMediaType**](ctransformoutputpin-getmediatype.md) de la broche de sortie appelle cette méthode. La classe dérivée doit implémenter cette méthode. Pour plus d’informations, consultez [**CBasePin :: GetMediaType**](cbasepin-getmediatype.md).
 

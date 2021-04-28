@@ -1,6 +1,6 @@
 ---
 title: Méthode SetSecurityDescriptor de la classe Win32_Service (Services Bureau à distance)
-description: Écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès au service.
+description: Méthode SetSecurityDescriptor de la classe Win32_Service (Services Bureau à distance)-écrit une version mise à jour du descripteur de sécurité qui contrôle l’accès au service.
 ms.assetid: 4F03B798-0912-4A0D-B31E-419662D5849B
 ms.tgt_platform: multiple
 keywords:
@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a21f9730b4c1c0ab7b3ccf662ddb2d95da2ee2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eb2dd7e43041c05b1c294181f8bd01548ed76d87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114490"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode SetSecurityDescriptor de la classe Win32_Service (Services Bureau à distance)
 
@@ -52,7 +52,7 @@ Descripteur de sécurité associé au service.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeur différente pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -233,7 +233,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L' [**instance \_ Win32 SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) représente un type de données de [**\_ \_ contrôle de descripteur de sécurité**](/windows/desktop/SecAuthZ/security-descriptor-control) et contient une liste de contrôle d' [*accès discrétionnaire*](/windows/desktop/SecGloss/d-gly) (DACL) et une [*liste de contrôle d’accès système*](/windows/desktop/SecGloss/s-gly) (SACL). Pour plus d’informations, consultez [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).
 

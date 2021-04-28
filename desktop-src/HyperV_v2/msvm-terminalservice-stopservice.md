@@ -1,5 +1,5 @@
 ---
-description: arrête le service.
+description: 'Méthode StopService de la classe Msvm_TerminalService : arrête le service.'
 ms.assetid: c96ca784-c935-41a4-b1aa-8360cf270c9e
 title: Méthode StopService de la classe Msvm_TerminalService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f26efeefb7cd9ace2e17db565c4ff71190fa2814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 720895f72a69504eb2efafe24fc5a3e18005356f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539073"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111167"
 ---
 # <a name="stopservice-method-of-the-msvm_terminalservice-class"></a>Méthode StopService de la \_ classe MSVM TerminalService
 
@@ -37,7 +37,7 @@ uint32 StopService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

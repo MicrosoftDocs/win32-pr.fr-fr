@@ -1,5 +1,5 @@
 ---
-description: Récupère le paramètre de restriction d’un groupe à partir du Registre.
+description: 'Méthode IShellDispatch2. IsRestricted : récupère le paramètre de restriction d’un groupe à partir du Registre.'
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 title: Méthode IShellDispatch2. IsRestricted (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f666a9ed3407d12eb9cf2c28ae062a9886d7a2cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4f482407fadd16d7ecfe9deeafd91b032a9a24f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972406"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117097"
 ---
 # <a name="ishelldispatch2isrestricted-method"></a>Méthode IShellDispatch2. IsRestricted
 
@@ -69,23 +69,23 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **entier \** _
+Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
 ### <a name="vb"></a>VB
 
-Type : _*entier \**_
+Type : **entier \***
 
 Valeur de la restriction. Si la restriction spécifiée est introuvable, la valeur de retour est 0.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
-Cette méthode est implémentée et accessible par le biais de la méthode [_ *Shell. IsRestricted* *](./shell-isrestricted.md) .
+Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. IsRestricted**](./shell-isrestricted.md) .
 
 **IsRestricted** recherche d’abord un nom de sous-clé qui correspond à *sGroup* sous la clé suivante.
 
@@ -145,7 +145,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

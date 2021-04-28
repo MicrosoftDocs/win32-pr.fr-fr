@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements de configuration matérielle. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe SystemConfig : cette classe est la classe parente pour les événements de configuration matérielle. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 720c2366-bd68-4895-bfaf-74aa9b64ba4a
 title: SystemConfig, classe
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3332d396005deb2fb811d101a99827544ebc6df0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 232214aa2c33485d909525d54965f59fdc891a29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869289"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105867"
 ---
 # <a name="systemconfig-class"></a>SystemConfig, classe
 
@@ -38,7 +38,7 @@ class SystemConfig : MSNT_SystemTrace
 
 La classe **SystemConfig** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Ces événements fournissent la configuration matérielle de l’ordinateur. Contrairement aux autres événements de journalisation de noyau NT, la session de noyau génère automatiquement des événements de configuration matérielle. vous n’activez pas ces événements lors du démarrage de la session du journal de noyau NT.
 
@@ -66,7 +66,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

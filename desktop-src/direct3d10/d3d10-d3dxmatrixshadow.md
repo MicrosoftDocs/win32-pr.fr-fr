@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice qui aplatit la géométrie dans un plan.
+description: 'D3DXMatrixShadow, fonction (D3DX10Math. h) : crée une matrice qui aplatit la géométrie dans un plan.'
 ms.assetid: 83c9e7d6-fc6c-48e7-bbf2-6aa10868351d
 title: D3DXMatrixShadow, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a2edaee98f5a56cf5dffec262ecc3d546f0116f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d3a5bff99552a4c5d65267c390c25a2892d3d32f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103347"
 ---
 # <a name="d3dxmatrixshadow-function-d3dx10mathh"></a>D3DXMatrixShadow, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers le [**D3DXPLANE**](d3d10-d3dxplane.md)source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui aplatit la géométrie dans un plan.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction **D3DXMatrixShadow** aplatit la géométrie dans un plan, comme s’il s’agissait d’une ombre à partir d’une lumière.
 

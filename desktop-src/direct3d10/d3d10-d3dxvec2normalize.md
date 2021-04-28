@@ -1,5 +1,5 @@
 ---
-description: Retourne la version normalisée d’un vecteur 2D.
+description: 'D3DXVec2Normalize, fonction (D3DX10Math. h) : retourne la version normalisée d’un vecteur 2D.'
 ms.assetid: fac4f269-2778-4500-af9e-23a0112543b0
 title: D3DXVec2Normalize, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e2894a86c0aa0c2ef6b45a41664b2d0cca1427c1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aaa7bde759b9023b69204d6cb39259f0905b9928
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870166"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108387"
 ---
 # <a name="d3dxvec2normalize-function-d3dx10mathh"></a>D3DXVec2Normalize, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure D3DXVECTOR2 source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***
 
 Pointeur vers une structure D3DXVECTOR2 qui est la version normalisée du vecteur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXVec2Normalize peut être utilisée comme paramètre pour une autre fonction.
 

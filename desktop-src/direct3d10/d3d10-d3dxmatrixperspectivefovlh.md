@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice de projection de perspective pour un système gaucher en fonction d’un champ de vue.
+description: 'D3DXMatrixPerspectiveFovLH, fonction (D3DX10Math. h) : génère une matrice de projection de perspective à gauche basée sur un champ de vue.'
 ms.assetid: 35ee12d6-0a58-4b00-ac8f-82f82215f02e
 title: D3DXMatrixPerspectiveFovLH, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 141c0a1468b2e073881976738cbd2a10b6108edc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cea1bec170664993332b1cde1de375c416209209
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106543568"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113087"
 ---
 # <a name="d3dxmatrixperspectivefovlh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveFovLH, fonction (D3DX10Math. h)
 
@@ -89,13 +89,13 @@ Valeur Z du plan d’affichage Far.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est une matrice de projection de perspective de gauche.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXMatrixPerspectiveFovLH peut être utilisée comme paramètre pour une autre fonction.
 
