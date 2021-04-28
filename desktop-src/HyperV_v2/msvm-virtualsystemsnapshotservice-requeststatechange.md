@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_VirtualSystemSnapshotService-demande un changement d’État.
 ms.assetid: e37240f2-3c54-479e-bdf5-e094e4b5094f
 title: Méthode RequestStateChange de la classe Msvm_VirtualSystemSnapshotService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aa330ad5efdfbdecb55b6acf8a4c1e8a677af6e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcdf88c8bb8b4b4a42ee88a6041e1b151e855c63
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531651"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118577"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemsnapshotservice-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualSystemSnapshotService
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

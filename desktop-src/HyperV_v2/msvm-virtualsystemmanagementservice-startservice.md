@@ -1,5 +1,5 @@
 ---
-description: démarre le service.
+description: Méthode StartService de la classe Msvm_VirtualSystemManagementService-démarre le service.
 ms.assetid: 1a1819de-823e-4e97-9c04-fcaeea2c67d9
 title: Méthode StartService de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 887999e19276c29a9501ddd5d86fba45bdbaeb92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ebb07240fdd95d98269056eca4eefe691f52077
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118637"
 ---
 # <a name="startservice-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode StartService de la \_ classe MSVM VirtualSystemManagementService
 
@@ -37,7 +37,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

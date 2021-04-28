@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. paroles
 ms.assetid: ae7edb4e-f362-49c2-83ab-c2b832d279e5
 title: System. Music. paroles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c26a10af07a51c9d09356a2721373e2e0b50292
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1d2911223f74ed2c6bc7ba9eb536db16cde2ed2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115442"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097317"
 ---
 # <a name="systemmusiclyrics"></a>System. Music. paroles
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

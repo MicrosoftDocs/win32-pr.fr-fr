@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un mouvement spécifique à l’application est reconnu.
+description: L’événement InkPicture. geste se produit lorsqu’un mouvement spécifique à l’application est reconnu.
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
 title: InkPicture. geste, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94581369554b4aef16530c9ddc8b3fd1a31ad861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 915557f304d722ed2819af75dd40284db119abfb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538929"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086587"
 ---
 # <a name="inkpicturegesture-event"></a>InkPicture. geste (événement)
 
@@ -63,11 +63,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICEGesture.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. RecordedTV. NetworkAffiliation
 ms.assetid: 4f7ace99-d8ff-4fa3-a01b-da03424b362c
 title: System. RecordedTV. NetworkAffiliation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3ab473d8e401b08120bb3561031ad08c47761c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c88cbacba1a3eebc490013eb0695cfc321d3712
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530856"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091657"
 ---
 # <a name="systemrecordedtvnetworkaffiliation"></a>System. RecordedTV. NetworkAffiliation
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

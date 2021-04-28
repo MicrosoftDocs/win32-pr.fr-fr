@@ -1,5 +1,5 @@
 ---
-description: La méthode CompleteConnect effectue une connexion à une broche d’entrée.
+description: 'Méthode CBaseOutputPin. CompleteConnect : la méthode CompleteConnect effectue une connexion à une broche d’entrée.'
 ms.assetid: 44c28c71-2c69-40ca-9bc4-c10394475a0f
 title: Méthode CBaseOutputPin. CompleteConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4614e8531a21d88a1c2f4cfd75fcbe05a9210f13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd4bc52db99b88c4d6f16c549fbb558bb6423730
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543820"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099537"
 ---
 # <a name="cbaseoutputpincompleteconnect-method"></a>Méthode CBaseOutputPin. CompleteConnect
 
@@ -49,11 +49,11 @@ Pointeur vers la broche d’entrée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: CompleteConnect**](cbasepin-completeconnect.md) . Elle appelle la méthode [**DecideAllocator**](cbaseoutputpin-decideallocator.md) , qui sélectionne l’allocateur de mémoire à utiliser pour cette connexion.
 

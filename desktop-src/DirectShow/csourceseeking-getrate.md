@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetRate récupère la vitesse de lecture. Cette méthode implémente la méthode IMediaSeeking :: GetRate.'
+description: 'Méthode CSourceSeeking. GetRate : la méthode GetRate récupère la vitesse de lecture. Cette méthode implémente la méthode IMediaSeeking :: GetRate.'
 ms.assetid: e5c3ef27-6f57-4c74-b197-a3c4efb31239
 title: Méthode CSourceSeeking. GetRate (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b14cad0b043193f7ee410455aaa399e3bcb26715
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fef379ef06cd0982f1eb5742ac2624d706ed73a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540335"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085227"
 ---
 # <a name="csourceseekinggetrate-method"></a>Méthode CSourceSeeking. GetRate
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit la vitesse de lecture.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,14 +57,14 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                               | Description                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Succès<br/>                |
+| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie<br/>                |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Valeur de pointeur **null**<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La vitesse de lecture est spécifiée par la variable membre [**CSourceSeeking :: m \_ dRateSeeking**](csourceseeking-m-drateseeking.md) .
 

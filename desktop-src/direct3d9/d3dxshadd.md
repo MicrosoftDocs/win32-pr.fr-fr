@@ -1,5 +1,5 @@
 ---
-description: Ajoute deux vecteurs d’harmoniques sphériques (SH). en d’autres termes, moue \[ i \] = PA \[ i \] + PB \[ i \] .
+description: 'Fonction D3DXSHAdd (D3dx9math. h) : ajoute deux vecteurs d’harmoniques sphériques (SH). en d’autres termes, moue \[ i \] = PA \[ i \] + PB \[ i \] .'
 ms.assetid: 12775c90-ed9d-4931-a449-2571816dd079
 title: D3DXSHAdd, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6b8f65a14cf745e8b378728d4fa6e0a234284d2d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7333d1803b9f7ea7b056ff78ffd053bd6086184b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538504"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117957"
 ---
 # <a name="d3dxshadd-function-d3dx9mathh"></a>D3DXSHAdd, fonction (D3dx9math. h)
 
@@ -79,13 +79,13 @@ Pointeur vers le deuxième vecteur SH.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Chaque coefficient de la fonction de base YLM est stocké à l’emplacement de mémoire l ² + m + l, où :
 

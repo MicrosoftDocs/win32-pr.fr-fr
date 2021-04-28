@@ -1,5 +1,5 @@
 ---
-description: 'La méthode Receive reçoit l’exemple de support suivant dans le flux. Cette méthode implémente la méthode IMemInputPin :: Receive.'
+description: 'CBaseInputPin. Receive, méthode : la méthode Receive reçoit l’exemple de support suivant dans le flux. Cette méthode implémente la méthode IMemInputPin :: Receive.'
 ms.assetid: 30fefc7b-7c9c-44cd-b58b-2b275dfa2520
 title: CBaseInputPin. Receive, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 10306d5568ae1754105a4367952cef82f931be99
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fe88913ad374923c11cf058a3dc0aa70580411e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528397"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099687"
 ---
 # <a name="cbaseinputpinreceive-method"></a>CBaseInputPin. Receive, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers l’interface [**IMediaSample**](/windows/desktop/api/Strmif/nn-st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -57,7 +57,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                             | Description                                                |
 |---------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                    | Opération réussie.<br/>                                        |
+| <dl> <dt>**\_OK**</dt> </dl>                    | Réussite.<br/>                                        |
 | <dl> <dt>**S \_ false**</dt> </dl>                 | Le code PIN est en cours de vidage ; l’exemple a été rejeté.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>               | Argument de pointeur **null** .<br/>                      |
 | <dl> <dt>**VFW \_ E \_ INVALIDMEDIATYPE**</dt> </dl> | Type de média non valide.<br/>                             |
@@ -68,7 +68,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La broche de sortie en amont appelle cette méthode pour remettre un échantillon à la broche d’entrée. La broche d’entrée doit effectuer l’une des opérations suivantes :
 

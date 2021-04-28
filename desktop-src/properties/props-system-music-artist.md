@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. Artist
 ms.assetid: 99094e2f-e3be-4561-b0a5-4ad3934cd1d8
 title: System. Music. Artist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89d17747419884f6ab6a118c92c0e447c20bda51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e87f78be072303bd2f2e1141dd7ed95dcf8a916
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544815"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091857"
 ---
 # <a name="systemmusicartist"></a>System. Music. Artist
 
@@ -28,7 +28,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

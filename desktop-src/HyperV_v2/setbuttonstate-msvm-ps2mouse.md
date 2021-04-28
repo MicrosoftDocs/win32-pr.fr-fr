@@ -1,5 +1,5 @@
 ---
-description: Définit l’état actuel du bouton de périphérique spécifié.
+description: Méthode SetButtonState de la classe Msvm_Ps2Mouse-définit l’état actuel du bouton de périphérique spécifié.
 ms.assetid: 312A2B8B-D518-4797-9B50-F12493598CD6
 title: Méthode SetButtonState de la classe Msvm_Ps2Mouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 34475edfa27d08cbe9de488502686a84e4391eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea6a984b84c7ee17436a7fb4738433edce6d68d8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118527"
 ---
 # <a name="setbuttonstate-method-of-the-msvm_ps2mouse-class"></a>Méthode SetButtonState de la \_ classe Ps2Mouse MSVM
 
@@ -58,7 +58,7 @@ Nouvel état inactif du bouton. Une valeur **true** signifie que le bouton est e
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -105,7 +105,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ Ps2Mouse**](msvm-ps2mouse.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

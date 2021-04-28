@@ -1,6 +1,6 @@
 ---
 title: Message TDM_UPDATE_ELEMENT_TEXT (commctrl. h)
-description: Met à jour un élément de texte dans une boîte de dialogue de tâche.
+description: TDM_UPDATE_ELEMENT_TEXT message-met à jour un élément de texte dans une boîte de dialogue de tâche.
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
 - TDM_UPDATE_ELEMENT_TEXT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6dac6787c68d0cbe619bbf28fa1a6383606e99f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106246"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085807"
 ---
 # <a name="tdm_update_element_text-message"></a>\_Message texte de l’élément de mise à jour TDM \_ \_
 
@@ -56,11 +56,11 @@ Pointeur vers une chaîne Unicode qui contient le nouveau texte.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est ignorée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour éviter le découpage, le nouveau texte ne doit pas être plus long que le texte existant. La définition du texte sur une chaîne plus petite n’entraîne pas le redimensionnement de la boîte de dialogue.
 

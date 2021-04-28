@@ -1,5 +1,5 @@
 ---
-description: Cette structure contient des informations sur le microprogramme de l’appareil.
+description: 'Structure de STORAGE_HW_FIRMWARE_INFO : cette structure contient des informations sur le microprogramme de l’appareil.'
 ms.assetid: 7BDACD50-0FD1-4F00-BAE5-884D8C1485BC
 title: Structure STORAGE_HW_FIRMWARE_INFO (winioctl. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - winioctl.h.h
-ms.openlocfilehash: 5d611df1708059b0ee636a64f55026caf8801fff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7aa3d33f744b00fc742a2862add83149cb265b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530704"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090957"
 ---
 # <a name="storage_hw_firmware_info-structure"></a>\_Structure d' \_ \_ informations sur le microprogramme matériel de stockage
 

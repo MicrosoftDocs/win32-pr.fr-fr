@@ -1,5 +1,5 @@
 ---
-description: Supprime le journal de données associé au point de référence.
+description: 'Méthode RemoveAssociatedData de la classe Msvm_VirtualSystemReferencePointService : supprime le journal de données associé au point de référence.'
 ms.assetid: b6206bda-c195-4c6f-9b80-508c20b53ce5
 title: Méthode RemoveAssociatedData de la classe Msvm_VirtualSystemReferencePointService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c0d67502d349f0b0dac7cbf9a1998dcd6db0fb4a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b5291e4e018edc89909ccde36ce0e420698af8e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106523758"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118617"
 ---
 # <a name="removeassociateddata-method-of-the-msvm_virtualsystemreferencepointservice-class"></a>Méthode RemoveAssociatedData de la \_ classe VirtualSystemReferencePointService MSVM
 
@@ -54,7 +54,7 @@ Paramètre facultatif permettant de surveiller la progression de l’opération,
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 En cas de réussite, retourne 0 (terminé sans erreur) ou 4096 (travail démarré); Sinon, retourne une erreur.
 

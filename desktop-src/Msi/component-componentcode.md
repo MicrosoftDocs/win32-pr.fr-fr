@@ -1,5 +1,5 @@
 ---
-description: Code du composant en question.
+description: Propriété Component. ComponentCode-code du composant en question.
 ms.assetid: 0370660f-b809-4b18-b52d-857605e59e12
 title: Propriété Component. ComponentCode
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e40e7502c70f6cc3b4024e62492cddc05ae9d9ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f72f9fbbeece6fff2bb3fad77a4d06bb773ffd27
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526454"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118507"
 ---
 # <a name="componentcomponentcode-property"></a>Propriété Component. ComponentCode
 

@@ -1,5 +1,5 @@
 ---
-description: Utilise la phrase secrète pour obtenir la clé dérivée.
+description: Méthode ProtectKeyWithPassphrase de la classe Win32_EncryptableVolume-utilise la phrase secrète pour obtenir la clé dérivée.
 ms.assetid: 62b070ec-4788-47cc-bfa4-6811a712ddbd
 title: Méthode ProtectKeyWithPassphrase de la classe Win32_EncryptableVolume
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: f97806652d86b104a0f333d40d299cfa9502cf3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a7772b1b65890fedbdbb8dcced1ad851f3845b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533591"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098347"
 ---
 # <a name="protectkeywithpassphrase-method-of-the-win32_encryptablevolume-class"></a>Méthode ProtectKeyWithPassphrase de la \_ classe Win32 EncryptableVolume
 
@@ -70,7 +70,7 @@ Si le lecteur prend en charge le chiffrement matériel et que BitLocker n’a pa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
