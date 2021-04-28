@@ -1,5 +1,5 @@
 ---
-description: Les applications utilisent les méthodes de l’interface ID3DXMATRIXStack pour manipuler une pile de matrice.
+description: 'Interface ID3DXMATRIXStack : les applications utilisent les méthodes de l’interface ID3DXMATRIXStack pour manipuler une pile de matrice.'
 ms.assetid: 4d382d39-a9da-4a3b-b7b6-d6890357d467
 title: Interface ID3DXMATRIXStack (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9446301ce057e788b4039f8ea3a144fb1fa19024
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 62681c468fa7e78e6fd08c458798d98b467b992e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106528573"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093317"
 ---
 # <a name="id3dxmatrixstack-interface"></a>Interface ID3DXMATRIXStack
 
@@ -52,14 +52,14 @@ L’interface **ID3DXMATRIXStack** possède ces méthodes.
 | [**RotateYawPitchRollLocal**](id3dxmatrixstack--rotateyawpitchrolllocal.md) | Pivote (par rapport à l’espace de coordonnées local de l’objet) autour d’un axe arbitraire.<br/>                                             |
 | [**Scale**](id3dxmatrixstack--scale.md)                                     | Mettre à l’échelle la matrice actuelle sur l’origine de la coordonnée universelle.<br/>                                                                     |
 | [**ScaleLocal**](id3dxmatrixstack--scalelocal.md)                           | Mettre à l’échelle la matrice actuelle sur l’origine de l’objet.<br/>                                                                               |
-| [**Traduire**](id3dxmatrixstack--translate.md)                             | Détermine le produit de la matrice actuelle et la matrice de translation calculée déterminée par les facteurs donnés (x, y et z).<br/> |
+| [**Translate**](id3dxmatrixstack--translate.md)                             | Détermine le produit de la matrice actuelle et la matrice de translation calculée déterminée par les facteurs donnés (x, y et z).<br/> |
 | [**TranslateLocal**](id3dxmatrixstack--translatelocal.md)                   | Détermine le produit de la matrice de traduction calculée, déterminé par les facteurs donnés (x, y et z) et la matrice actuelle.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’interface **ID3DXMATRIXStack** est obtenue en appelant la fonction [**D3DXCreateMatrixStack**](d3dxcreatematrixstack.md) .
 

@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_VirtualSystemMigrationService-demande un changement d’État.
 ms.assetid: 8355f2d8-d6d1-4bfa-b404-91376c2e2bdd
 title: Méthode RequestStateChange de la classe Msvm_VirtualSystemMigrationService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 02930782e3503d4efc9efcff915fefd6831cb55b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55679bf176fc0a8386ef3179a77d91245b5c9abc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750157"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109367"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemmigrationservice-class"></a>Méthode RequestStateChange de la \_ classe MSVM VirtualSystemMigrationService
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

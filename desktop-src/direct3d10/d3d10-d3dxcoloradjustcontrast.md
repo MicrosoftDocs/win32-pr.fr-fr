@@ -1,5 +1,5 @@
 ---
-description: Ajuste la valeur de contraste d’une couleur.
+description: 'D3DXColorAdjustContrast, fonction (D3DX10Math. h) : ajuste la valeur de contraste d’une couleur.'
 ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: D3DXColorAdjustContrast, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 24586b2a8d2206d6818e00af9ea86e4c5e9758fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 09781c5c11560c3497a5af57528cf478f6259816
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113327"
 ---
 # <a name="d3dxcoloradjustcontrast-function-d3dx10mathh"></a>D3DXColorAdjustContrast, fonction (D3DX10Math. h)
 
@@ -69,13 +69,13 @@ Valeur de contraste. Ce paramètre interpole de manière linéaire entre 50% de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXCOLOR**](../direct3d9/d3dxcolor.md)\***
 
 Cette fonction retourne un pointeur vers une structure D3DXCOLOR qui est le résultat de l’ajustement du contraste.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le canal alpha d’entrée est copié, sans modification, sur le canal alpha de sortie.
 

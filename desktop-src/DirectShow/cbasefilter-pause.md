@@ -1,5 +1,5 @@
 ---
-description: La méthode pause interrompt le filtre. Cette méthode implémente la méthode IMediaFilter ::P ause.
+description: 'CBaseFilter. pause, méthode : la méthode pause interrompt le filtre. Cette méthode implémente la méthode IMediaFilter ::P ause.'
 ms.assetid: cfb7d532-6c00-49a1-a48d-4dadaca39a0f
 title: CBaseFilter. pause, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43a90e78084f2320d0df7da806b6138571c9a5bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee91393a574d0135e66e5a9c1e1e6b0325a0b4de
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106529981"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120087"
 ---
 # <a name="cbasefilterpause-method"></a>CBaseFilter. pause, méthode
 
@@ -40,11 +40,11 @@ HRESULT Pause();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode appelle la méthode [**CBasePin :: active**](cbasepin-active.md) sur chacune des broches connectées du filtre.
 

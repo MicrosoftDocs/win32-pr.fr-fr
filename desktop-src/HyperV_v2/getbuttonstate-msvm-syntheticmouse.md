@@ -1,5 +1,5 @@
 ---
-description: Récupère l’état actuel du bouton de périphérique spécifié.
+description: 'Méthode GetButtonState de la classe Msvm_SyntheticMouse : récupère l’état actuel du bouton de périphérique spécifié.'
 ms.assetid: 66363AF1-E360-478D-8E62-513DE66EF130
 title: Méthode GetButtonState de la classe Msvm_SyntheticMouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3812d3e019a303656305471fc097fb1479fa1ada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26839292cf2fb3099e740629b28c7de0fbe3f60f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531667"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119387"
 ---
 # <a name="getbuttonstate-method-of-the-msvm_syntheticmouse-class"></a>Méthode GetButtonState de la \_ classe SyntheticMouse MSVM
 
@@ -58,7 +58,7 @@ Type : **booléen**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -105,7 +105,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ SyntheticMouse**](msvm-syntheticmouse.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe de type d’événement pour les événements de configuration de l’UC.
+description: Classe SystemConfig_V0_CPU-cette classe est la classe de type d’événement pour les événements de configuration de l’UC.
 ms.assetid: 9ca77676-ff0e-4c47-ae4e-f8192376d3ca
 title: Classe SystemConfig_V0_CPU
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6963201f76afa40e9b1741dc2936fa2ab4433a74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de3b63def40cb6ead40f6f4c95625603cfc581ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952824"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105987"
 ---
 # <a name="systemconfig_v0_cpu-class"></a>\_Classe de \_ processeur SystemConfig v0
 
@@ -172,7 +172,7 @@ Taille d’une page d’échange, en octets.
 
 </dd> </dl>
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

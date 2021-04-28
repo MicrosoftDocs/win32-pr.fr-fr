@@ -1,5 +1,5 @@
 ---
-description: Calculez le terme de la Fresnel.
+description: 'Fonction D3DXFresnelTerm (D3DX10Math. h) : calcule le terme de la Fresnel.'
 ms.assetid: eaa2e5ea-9b6f-4216-8b48-7be74501124d
 title: D3DXFresnelTerm, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1e87649d340e7d90c4df02c641919fd906631268
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9efa557d44451674d2ae4c48a58370e939760a03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104531053"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113267"
 ---
 # <a name="d3dxfresnelterm-function-d3dx10mathh"></a>D3DXFresnelTerm, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Index de réfraction d’un matériau. La valeur doit être supérieure à 1.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
 
 Cette fonction retourne le terme de Fresnel pour la lumière dépolarisée. CosTheta est le cosinus de l’angle d’incident.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour rechercher le terme de la Fresnel (F) :
 

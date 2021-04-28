@@ -1,5 +1,5 @@
 ---
-description: Affiche ou masque le bureau.
+description: 'Méthode IShellDispatch4. ToggleDesktop : affiche ou masque le bureau.'
 title: Méthode IShellDispatch4. ToggleDesktop (shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 60199e18-b8da-48a6-b316-e7f07ff44b78
-ms.openlocfilehash: ccca7769363ad4dcf967611aad1b8ee5d7e28deb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b635408ed8a44b8bb0d27e52c167470f80f61b18
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972363"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116817"
 ---
 # <a name="ishelldispatch4toggledesktop-method"></a>Méthode IShellDispatch4. ToggleDesktop
 
@@ -45,7 +45,7 @@ IShellDispatch4.ToggleDesktop()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode a le même effet que le bouton **afficher le bureau** sur la barre des tâches. Il masque toutes les fenêtres ouvertes pour afficher le bureau ou masque le bureau en affichant toutes les fenêtres ouvertes. La méthode **ToggleDesktop** n’affiche pas d’interface utilisateur, elle appelle simplement l’action bascule.
 
@@ -111,7 +111,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

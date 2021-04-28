@@ -1,5 +1,5 @@
 ---
-description: Calcule une sphère englobante pour la maille.
+description: 'Fonction D3DXComputeBoundingSphere (D3DX10math. h) : calcule une sphère englobante pour la maille.'
 ms.assetid: 54f486d2-45e9-4fc1-90a3-97488ed4d900
 title: D3DXComputeBoundingSphere, fonction (D3DX10math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0c8e59b4d39652d02ce19f4c1bf6b0617fee7772
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0041d775b21d1af37bc51d6ec2f432e616b2abd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211886"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113297"
 ---
 # <a name="d3dxcomputeboundingsphere-function-d3dx10mathh"></a>D3DXComputeBoundingSphere, fonction (D3DX10math. h)
 
@@ -89,7 +89,7 @@ Rayon de la sphère englobante retournée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

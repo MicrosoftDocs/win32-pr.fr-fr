@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque l’info-bulle de curseur contacte la surface de tablette numérique.
+description: L’événement InkOverlay. CursorDown-se produit lorsque l’info-bulle du curseur contacte la surface de tablette numérique.
 ms.assetid: 753aa733-8d62-4983-b76d-d58844b79c35
 title: InkOverlay. CursorDown, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ea0bd76d8836ae31c6e17877ddc4870dafaaa93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56ed26c672aadc9fa19f6a6426fed7339752448d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528188"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117057"
 ---
 # <a name="inkoverlaycursordown-event"></a>Événement InkOverlay. CursorDown
 
@@ -45,11 +45,11 @@ Objet [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstroked
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans \_ IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents. les \_ interfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents implémentent l’interface [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) avec un identificateur de DISPID \_ ICECursorDown.
 

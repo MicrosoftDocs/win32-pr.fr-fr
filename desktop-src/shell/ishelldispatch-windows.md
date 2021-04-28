@@ -1,5 +1,5 @@
 ---
-description: Crée et retourne un objet ShellWindows. Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.
+description: 'Méthode IShellDispatch. Windows : crée et retourne un objet ShellWindows. Cet objet représente une collection de toutes les fenêtres ouvertes qui appartiennent au shell.'
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 title: Méthode IShellDispatch. Windows (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: cb5f84caebf38deb27c7fb60565167793fead561
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16991d6a251909e8f3b277894a96e6ad08a7f9a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753077"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117167"
 ---
 # <a name="ishelldispatchwindows-method"></a>IShellDispatch. Windows, méthode
 
@@ -45,7 +45,7 @@ IShellDispatch.Windows() As IDispatch
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -59,7 +59,7 @@ Type : **[ **IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)\*\***
 
 Référence d’objet à l’objet [**ShellWindows**](shellwindows.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. Windows**](shell-windows.md) .
 
@@ -135,7 +135,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

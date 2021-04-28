@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue sécurité Windows.
+description: 'Méthode IShellDispatch4. WindowsSecurity : affiche la boîte de dialogue sécurité Windows.'
 title: Méthode IShellDispatch4. WindowsSecurity (shldisp. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
-ms.openlocfilehash: 066321c0ea4e4d5ade35a6571c59128a5137cba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d7e8cfbd1e7a2a2392b78487c6a58b62de6df6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972359"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116807"
 ---
 # <a name="ishelldispatch4windowssecurity-method"></a>Méthode IShellDispatch4. WindowsSecurity
 
@@ -45,7 +45,7 @@ IShellDispatch4.WindowsSecurity()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode affiche la boîte de dialogue qui s’affiche après avoir appuyé sur CTRL + ALT + SUPPR ou à l’aide de l’option sécurité dans le menu **Démarrer** .
 
@@ -116,7 +116,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

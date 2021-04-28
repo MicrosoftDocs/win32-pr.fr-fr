@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque l’utilisateur dessine un nouveau trait sur une tablette.
+description: L’événement InkOverlay. Stroke se produit lorsque l’utilisateur dessine un nouveau trait sur une tablette.
 ms.assetid: 315155ec-0de1-4052-ae7c-51bc3127fbbf
 title: InkOverlay. Stroke, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6db3bdbe996830596a8e25cebf6f05b94638894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 408c44cf47ecfbf3ea0cfd0f8306be61efb0f8e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759531"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116847"
 ---
 # <a name="inkoverlaystroke-event"></a>InkOverlay. Stroke (événement)
 
@@ -53,11 +53,11 @@ Spécifie si l’événement doit être annulé. Si la **valeur est true**, la c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICEStroke.
 

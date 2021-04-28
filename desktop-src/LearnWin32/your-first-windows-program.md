@@ -1,15 +1,15 @@
 ---
 title: Module 1. Votre premier programme Windows
-description: .
+description: Module 1. Votre premier programme Windows
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27749cddabaefb4fd83b836887fbb2dac017d238
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: 6515b012f968707379ebf24023c3d282c50d6fd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "104562437"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110947"
 ---
 # <a name="module-1-your-first-windows-program"></a>Module 1. Votre premier programme Windows
 
@@ -120,7 +120,7 @@ Il peut être utile de fournir une brève description de ce que fait ce code. Le
 
 Notez que le programme n’appelle pas explicitement la `WindowProc` fonction, même si nous l’avons dit, c’est là que la plus grande partie de la logique d’application est définie. Windows communique avec votre programme en lui transmettant une série de *messages*. Le code à l’intérieur de la boucle **while** pilote ce processus. Chaque fois que le programme appelle la fonction [**DispatchMessage**](/windows/desktop/api/winuser/nf-winuser-dispatchmessage) , il force indirectement Windows à appeler la fonction WindowProc, une fois pour chaque message.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Création d’une fenêtre](creating-a-window.md)
 -   [Messages de fenêtre](window-messages.md)
