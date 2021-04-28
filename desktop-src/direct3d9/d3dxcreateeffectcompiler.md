@@ -1,5 +1,5 @@
 ---
-description: Crée un effet de compilateur à partir d’une description d’effet ASCII.
+description: 'Fonction D3DXCreateEffectCompiler : crée un compilateur d’effet à partir d’une description d’effet ASCII.'
 ms.assetid: 96e883f4-4055-4b8b-940a-164bbf893af4
 title: D3DXCreateEffectCompiler, fonction (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 513b11ba12abe05126c122f8bc9bfcfa978df3fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 38ab58ed15609d468d25f4406353448e4fd6adb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762283"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115767"
 ---
 # <a name="d3dxcreateeffectcompiler-function"></a>D3DXCreateEffectCompiler fonction)
 
@@ -109,7 +109,7 @@ Adresse d’un pointeur vers une interface [**ID3DXBuffer**](id3dxbuffer.md) con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

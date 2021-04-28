@@ -1,5 +1,5 @@
 ---
-description: Charge la première hiérarchie d’images à partir d’un fichier. x.
+description: D3DXLoadMeshHierarchyFromX fonction-charge la première hiérarchie d’images à partir d’un fichier. x.
 ms.assetid: 1d446b23-9028-4187-b97c-a61edfe68e39
 title: D3DXLoadMeshHierarchyFromX, fonction (D3dx9anim. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 308ebf127708849bec8ee8a4f2601f029562634a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6f6f08e10155509df800cca3cb3788d6b27e520
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953801"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114357"
 ---
 # <a name="d3dxloadmeshhierarchyfromx-function"></a>D3DXLoadMeshHierarchyFromX fonction)
 
@@ -109,13 +109,13 @@ Retourne un pointeur vers le contrôleur d’animation correspondant à l’anim
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des valeurs suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en D3DXLoadMeshHierarchyFromXW. Dans le cas contraire, l’appel de fonction est résolu en D3DXLoadMeshHierarchyFromXA.
 

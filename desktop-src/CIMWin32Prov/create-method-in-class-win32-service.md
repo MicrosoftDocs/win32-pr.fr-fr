@@ -1,5 +1,5 @@
 ---
-description: Crée un nouveau service système.
+description: Créer une méthode de la classe Win32_Service (fournisseurs WMI CIMWin32)-crée un nouveau service système.
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
 ms.tgt_platform: multiple
 title: Créer une méthode de la classe Win32_Service (fournisseurs WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6f23bc2a5c49a85a20765172d4c5d361a8d18316
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71bc0f4edb879fc4a51a012bc53db67031056f47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749037"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089688"
 ---
 # <a name="create-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Créer une méthode de la classe Win32_Service (fournisseurs WMI CIMWin32)
 
@@ -257,7 +257,7 @@ Tableau qui contient les noms des services qui doivent démarrer avant le démar
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -438,7 +438,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les services sont généralement installés de l’une des deux manières suivantes : dans le cadre de l’installation du système d’exploitation ou à l’aide d’un programme d’installation fourni par le développeur du service. Toutefois, certains services, en particulier ceux créés en interne, peuvent ne pas avoir de programme d’installation. Dans ces instances, vous pouvez utiliser la méthode **Create** pour installer des services par programme.
 

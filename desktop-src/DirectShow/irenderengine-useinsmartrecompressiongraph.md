@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IRenderEngine :: UseInSmartRecompressionGraph, méthode non prise en charge.'
 ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
 title: 'IRenderEngine :: UseInSmartRecompressionGraph, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f3f31f5d73a9cfd3a9c19116017bd79aa90de7e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3fd854b3686b254cac5f24fe1f581e2c3416640c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106519195"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088997"
 ---
 # <a name="irenderengineuseinsmartrecompressiongraph-method"></a>IRenderEngine :: UseInSmartRecompressionGraph, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -41,11 +41,11 @@ HRESULT UseInSmartRecompressionGraph();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

@@ -1,5 +1,5 @@
 ---
-description: Cette API n’est pas disponible pour toutes les applications. À moins que votre application ne soit spécialement approvisionnée par Microsoft, les appels à ces API échouent au moment de l’exécution.
+description: 'IFeedbackHubAppInfo :: GetRunningApps, méthode-cette API n’est pas disponible pour toutes les applications. À moins que votre application ne soit spécialement approvisionnée par Microsoft, les appels à ces API échouent au moment de l’exécution.'
 ms.assetid: 2BD60D22-38AD-4027-B733-0B62F33AA4B3
 title: 'IFeedbackHubAppInfo :: GetRunningApps, méthode'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 5ee70cd7a776f4fc12544555d3189d3ac2089023
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 3bb7565d75948fe951d87da49fe00cd4ff565115
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103869674"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089267"
 ---
 # <a name="ifeedbackhubappinfogetrunningapps-method"></a>IFeedbackHubAppInfo :: GetRunningApps, méthode
 
@@ -45,7 +45,7 @@ Cette API n’est pas disponible pour toutes les applications. À moins que votr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 

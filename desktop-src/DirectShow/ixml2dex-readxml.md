@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'IXml2Dex :: ReadXML, méthode-non implémentée.'
 ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
 title: 'IXml2Dex :: ReadXML, méthode'
 ms.topic: reference
@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3640dab9c812d8fd21dd2afc62b0ceabe51678dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8f4092baced94dcf222202ec5f12619c83a183bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106527586"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084397"
 ---
 # <a name="ixml2dexreadxml-method"></a>IXml2Dex :: ReadXML, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -58,11 +58,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

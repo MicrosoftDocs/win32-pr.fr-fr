@@ -1,5 +1,5 @@
 ---
-description: Pivote (par rapport à l’espace de coordonnées universelles) autour d’un axe arbitraire.
+description: 'ID3DXMATRIXStack :: RotateYawPitchRoll, méthode (D3dx9math. h) : pivote (par rapport à l’espace de coordonnées universelles) autour d’un axe arbitraire.'
 ms.assetid: 25a7eff4-a575-4ddb-85eb-ef3fa2d6ae3b
 title: 'ID3DXMATRIXStack :: RotateYawPitchRoll, méthode (D3dx9math. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5020cb6ff3af41b9ef32ef77bb71607f6cd5ea6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8bb516e759e781ca3784e49253eeaddac68075bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539430"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107377"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchroll-method-d3dx9mathh"></a>ID3DXMATRIXStack :: RotateYawPitchRoll, méthode (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Roulement autour de l’axe z en radians.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode ajoute la rotation à la pile de matrice avec la matrice de rotation calculée similaire à ce qui suit :
 

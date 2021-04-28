@@ -1,5 +1,5 @@
 ---
-description: La méthode CompleteConnect effectue une connexion à une broche d’entrée.
+description: 'Méthode CDynamicOutputPin. CompleteConnect : la méthode CompleteConnect effectue une connexion à une broche d’entrée.'
 ms.assetid: c23195e7-8d66-4217-bd59-8889459ce4f1
 title: Méthode CDynamicOutputPin. CompleteConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 31afa592701b881d39ab4948514aacfe50b345b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fa15c84b9d9e0b686e17110c656b74161687705
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540696"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095737"
 ---
 # <a name="cdynamicoutputpincompleteconnect-method"></a>Méthode CDynamicOutputPin. CompleteConnect
 
@@ -49,11 +49,11 @@ Pointeur vers l’interface [**IPIN**](/windows/desktop/api/Strmif/nn-strmif-ipi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou une valeur **HRESULT** indiquant la cause de l’échec.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBaseOutputPin :: CompleteConnect**](cbaseoutputpin-completeconnect.md) . Pour prendre en charge les reconnexions dynamiques, cette méthode valide l’allocateur si le filtre est actif. Dans la classe de base, les connexions peuvent se produire uniquement lorsque le filtre est arrêté, de sorte que l’allocateur est toujours validé dans la méthode [**CBaseOutputPin :: active**](cbaseoutputpin-active.md) .
 

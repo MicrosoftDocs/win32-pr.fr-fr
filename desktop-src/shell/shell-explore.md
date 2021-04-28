@@ -1,5 +1,5 @@
 ---
-description: Ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.
+description: 'Méthode Shell. explore : ouvre un dossier spécifié dans une fenêtre de l’Explorateur Windows.'
 ms.assetid: a788a3c4-f316-4fae-9294-3872eee8f46a
 title: Shell. explore, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 00b597aea0121e5f87f51886e8019a1130a20584
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec1756ad6743c5bbac36f56087e6f3820cbb624
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952759"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104327"
 ---
 # <a name="shellexplore-method"></a>Shell. explore (méthode)
 
@@ -58,7 +58,7 @@ Dossier à afficher. Il peut s’agir d’une chaîne qui spécifie le chemin d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -124,7 +124,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

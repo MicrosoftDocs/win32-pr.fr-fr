@@ -1,5 +1,5 @@
 ---
-description: Effectue une interpolation Catmull-Rom à l’aide des vecteurs 4D spécifiés.
+description: D3DXVec4CatmullRom, fonction (D3DX10Math. h)-effectue une interpolation Catmull-Rom à l’aide des vecteurs 4D spécifiés.
 ms.assetid: e3a10989-e25e-46fa-b72e-bade936cacf1
 title: D3DXVec4CatmullRom, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 8e027272a038f17a77dbeda861d6be909afa2f7f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4e3665709564f578046273facbd3311253d8c2b9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953823"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102957"
 ---
 # <a name="d3dxvec4catmullrom-function-d3dx10mathh"></a>D3DXVec4CatmullRom, fonction (D3DX10Math. h)
 
@@ -98,13 +98,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR4**](../direct3d9/d3dxvector4.md)\***
 
 Pointeur vers une structure D3DXVECTOR4 qui est le résultat de l’interpolation Catmull-Rom.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 À partir de quatre points (P1, P2, P3, P4), recherchez une fonction Q (s) de ce type :
 

@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CDispParams. CDispParams.
 ms.assetid: da67a5e4-b4a1-4a38-93fe-0965695e93f5
 title: Constructeur CDispParams. CDispParams (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f3beeb0a6e3a18c3fac6606385d9206938bbc1cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42f55a57a0f9e06d3001c2638d457fe0b82a914d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539724"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095787"
 ---
 # <a name="cdispparamscdispparams-constructor"></a>Constructeur CDispParams. CDispParams
 

@@ -1,5 +1,5 @@
 ---
-description: Récupère le nombre de faces dans le maillage.
+description: 'ID3DXBaseMesh :: GetNumFaces, méthode-récupère le nombre de faces dans le maillage.'
 ms.assetid: 3f7cffd4-97ae-4f1c-9f91-931b85f07734
 title: 'ID3DXBaseMesh :: GetNumFaces, méthode (D3DX9Mesh. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e4647e432e79dc3065cc8e6d1f0617e6364049ff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9adc36e4d34909481c61d1c62e4233a1f6f92a87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525891"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115417"
 ---
 # <a name="id3dxbasemeshgetnumfaces-method"></a>ID3DXBaseMesh :: GetNumFaces, méthode
 
@@ -38,7 +38,7 @@ DWORD GetNumFaces();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
 

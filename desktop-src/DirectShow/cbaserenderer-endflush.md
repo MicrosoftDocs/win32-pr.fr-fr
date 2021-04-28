@@ -1,5 +1,5 @@
 ---
-description: La méthode EndFlush termine une opération de vidage.
+description: 'Méthode CBaseRenderer. EndFlush : la méthode EndFlush termine une opération de vidage.'
 ms.assetid: 4c30abbf-7351-4eee-af9a-9330f6d1aa08
 title: Méthode CBaseRenderer. EndFlush (Renbase. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3bd565bfa21edb9945b901d8e315f3e1d1cd054f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87e29f405430ca87943773d19793ffc1941ec42c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524064"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095907"
 ---
 # <a name="cbaserendererendflush-method"></a>Méthode CBaseRenderer. EndFlush
 
@@ -40,11 +40,11 @@ virtual HRESULT EndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La broche d’entrée du filtre appelle cette méthode lorsqu’elle reçoit un appel à la méthode [**IPIN :: EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) .
 

@@ -1,5 +1,5 @@
 ---
-description: Définit des points de contrôle pour l’interpolation sphérique Quadrangle.
+description: Fonction D3DXQuaternionSquadSetup (D3DX10Math. h)-définit des points de contrôle pour l’interpolation Quadrangle sphérique.
 ms.assetid: c66227bd-8cc1-4173-9dc2-5aab9d57301e
 title: D3DXQuaternionSquadSetup, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4a0683bce3642b0300e68be348d8aed39b3c333d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d8a778473c0b07ef984facce9c42f947755a74a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523220"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108717"
 ---
 # <a name="d3dxquaternionsquadsetup-function-d3dx10mathh"></a>D3DXQuaternionSquadSetup, fonction (D3DX10Math. h)
 
@@ -109,7 +109,7 @@ Pointeur vers le point de contrôle d’entrée, Q3.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Aucun.
 

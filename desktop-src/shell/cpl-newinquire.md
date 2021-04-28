@@ -1,5 +1,5 @@
 ---
-description: Envoyé à la fonction CPlApplet d’une application du panneau de configuration pour demander des informations sur une boîte de dialogue que l’application prend en charge.
+description: CPL_NEWINQUIRE message-envoyé à la fonction CPlApplet d’une application du panneau de configuration pour demander des informations sur une boîte de dialogue que l’application prend en charge.
 title: Message CPL_NEWINQUIRE (CPL. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 72992d4ea867bc091c29feaa99cc1a22c2a02b2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c5adf31c01fbab1b62aafd0714d165092f4e23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972046"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104437"
 ---
 # <a name="cpl_newinquire-message"></a>\_Message NEWINQUIRE cpl
 
@@ -42,11 +42,11 @@ Adresse d’une structure [**NEWCPLINFO**](/windows/win32/api/cpl/ns-cpl-newcpli
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la fonction [**CPlApplet**](/windows/win32/api/cpl/nc-cpl-applet_proc) traite ce message avec succès, elle doit retourner zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour de meilleures performances, la plupart des applications doivent ignorer **Cpl \_ NEWINQUIRE** et traiter le message de [**\_ recherche de cpl**](cpl-inquire.md) à la place.
 
@@ -58,7 +58,7 @@ Vous pouvez procéder à l’initialisation de la boîte de dialogue lorsque vou
 
 Les seules applications qui doivent utiliser **Cpl \_ NEWINQUIRE** sont celles qui ont besoin de modifier leur icône ou d’afficher des chaînes en fonction de l’état de l’ordinateur. Dans ce cas, votre gestionnaire de [**\_ recherche de cpl**](cpl-inquire.md) doit spécifier la \_ \_ valeur res dynamique CPL pour les membres **idIcon**, **idName** ou **idInfo** de la structure [**CPLINFO**](/windows/win32/api/cpl/ns-cpl-cplinfo) , plutôt que de spécifier un identificateur de ressource valide. Cela amène le panneau de configuration à envoyer le message **\_ NEWINQUIRE Cpl** chaque fois qu’il a besoin de l’icône et des chaînes d’affichage, ce qui vous permet de spécifier des informations en fonction de l’état actuel de l’ordinateur. Bien entendu, cela est beaucoup plus lent que d’utiliser les informations mises en cache.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

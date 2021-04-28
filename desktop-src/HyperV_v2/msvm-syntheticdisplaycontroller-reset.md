@@ -1,5 +1,5 @@
 ---
-description: Demande une réinitialisation.
+description: Méthode Reset de la classe Msvm_SyntheticDisplayController-demande une réinitialisation.
 ms.assetid: 6fa327e8-0296-40f6-9ee6-6e447e31cce3
 title: Méthode Reset de la classe Msvm_SyntheticDisplayController
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1f6eacdcf7c2371ad3ed11250d143f6681af99a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f52463aa570942e7696aa0c8fea55bbb848fcc99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202208"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109577"
 ---
 # <a name="reset-method-of-the-msvm_syntheticdisplaycontroller-class"></a>Méthode Reset de la \_ classe MSVM SyntheticDisplayController
 
@@ -37,7 +37,7 @@ uint32 Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

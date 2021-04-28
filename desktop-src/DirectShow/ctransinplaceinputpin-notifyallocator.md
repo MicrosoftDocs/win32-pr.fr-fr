@@ -1,5 +1,5 @@
 ---
-description: 'La méthode NotifyAllocator spécifie un allocateur pour la connexion. Cette méthode implémente la méthode IMemInputPin :: NotifyAllocator.'
+description: 'Méthode CTransInPlaceInputPin. NotifyAllocator : la méthode NotifyAllocator spécifie un allocateur pour la connexion. Cette méthode implémente la méthode IMemInputPin :: NotifyAllocator.'
 ms.assetid: adc1c5b6-99da-4140-b644-7b98f6b8bad4
 title: Méthode CTransInPlaceInputPin. NotifyAllocator (Transip. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 74578243ce780e09d7435f9dd4b70bd9497e1e97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca15be5dc1893a393e6052832cc7522f27355eeb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532801"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094747"
 ---
 # <a name="ctransinplaceinputpinnotifyallocator-method"></a>Méthode CTransInPlaceInputPin. NotifyAllocator
 
@@ -57,7 +57,7 @@ Indicateur qui spécifie si les exemples de cet allocateur sont en lecture seule
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                               | Description                          |
 |-------------------------------------------------------------------------------------------|--------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Succès<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie<br/>                   |
 | <dl> <dt>**E \_ échec**</dt> </dl>    | Échec<br/>                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Argument de pointeur **null**<br/> |
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le filtre tente d’utiliser le même allocateur pour les deux connexions de code confidentiel.
 

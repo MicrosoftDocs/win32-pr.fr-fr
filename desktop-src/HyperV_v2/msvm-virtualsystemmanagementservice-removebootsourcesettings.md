@@ -1,5 +1,5 @@
 ---
-description: Supprime les paramètres de ressources virtuelles d’une configuration de système virtuel.
+description: Méthode RemoveBootSourceSettings de la classe Msvm_VirtualSystemManagementService-supprime les paramètres de ressources virtuelles d’une configuration de système virtuel.
 ms.assetid: 0deb7719-e605-4ba5-9bb2-037d0cafee24
 title: Méthode RemoveBootSourceSettings de la classe Msvm_VirtualSystemManagementService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2693be33d291ea5a975119a5478af580ef2bb3f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5407e56b761dd545d20b89e0a28742f9c542b15a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513978"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109397"
 ---
 # <a name="removebootsourcesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Méthode RemoveBootSourceSettings de la \_ classe VirtualSystemManagementService MSVM
 
@@ -56,7 +56,7 @@ Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

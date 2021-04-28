@@ -1,5 +1,5 @@
 ---
-description: Récupère le nombre d’interfaces d’informations de type fournies par un objet.
+description: 'Méthode CMediaControl. GetTypeInfoCount : récupère le nombre d’interfaces d’informations de type fournies par un objet.'
 ms.assetid: 29575325-8f97-4f39-8272-86a917d9144f
 title: Méthode CMediaControl. GetTypeInfoCount (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f2454e503a045a02db20c0dc457b6367f6d3b427
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b46838278414442d6c6fc64687fe21e02732e83
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537643"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095587"
 ---
 # <a name="cmediacontrolgettypeinfocount-method"></a>Méthode CMediaControl. GetTypeInfoCount
 
@@ -49,7 +49,7 @@ Pointeur vers le nombre d’interfaces d’informations de type fourni par l’o
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne le \_ pointeur E si *pcTInfo* n’est pas valide ; sinon, retourne S \_ OK.
 

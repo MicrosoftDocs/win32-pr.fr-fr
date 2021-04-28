@@ -1,5 +1,5 @@
 ---
-description: La méthode de classe WMI TakeOwnerShip obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
+description: Méthode TakeOwnerShip de la classe Win32_Directory-la méthode de classe WMI TakeOwnerShip obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
 ms.assetid: 1112823b-0bb6-4dc0-a5c4-8d3839a47a3a
 ms.tgt_platform: multiple
 title: Méthode TakeOwnerShip de la classe Win32_Directory
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c06441b7728ed8b9178e889cbd60c047f0f3a497
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 178f1bf523d939883a7fc18b5bdbd7142cc4f824
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523012"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086027"
 ---
 # <a name="takeownership-method-of-the-win32_directory-class"></a>Méthode TakeOwnerShip de la \_ classe Directory Win32
 
@@ -40,7 +40,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs suivantes.
 

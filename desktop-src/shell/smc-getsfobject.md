@@ -1,5 +1,5 @@
 ---
-description: Demande un pointeur vers un objet spécifié.
+description: SMC_GETSFOBJECT message-demande un pointeur vers un objet spécifié.
 title: Message SMC_GETSFOBJECT (ShObjIdl. h)
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c7fb57ea8e3f02ce4e773e187310530c14d65515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 612b43c193cd1919db4a5cf9dba3a8fdba1c81c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203664"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086607"
 ---
 # <a name="smc_getsfobject-message"></a>\_Message SMC GETSFOBJECT
 
@@ -52,11 +52,11 @@ Pointeur void qui reçoit un pointeur vers l’interface demandée.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette notification est reçue par la méthode [**IShellMenuCallback :: CallbackSM**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellmenucallback-callbacksm) . Il est similaire à [**SMC \_ GETOBJECT**](smc-getobject.md) , mais est utilisé pour les éléments de dossier shell. Créez l’objet demandé et assignez un pointeur vers l’interface demandée à *va*.
 
@@ -66,7 +66,7 @@ Les interfaces suivantes peuvent être demandées.
 -   [**IShellMenu**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenu)
 -   [**IShellMenuCallback**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ishellmenucallback)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

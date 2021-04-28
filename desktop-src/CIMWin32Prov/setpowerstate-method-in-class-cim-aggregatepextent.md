@@ -1,5 +1,5 @@
 ---
-description: La méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et le moment où l’appareil doit être placé dans cet État.
+description: Méthode SetPowerState de la classe CIM_AggregatePExtent-la méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et le moment où l’appareil doit être placé dans cet État.
 ms.assetid: 1a1a8d5e-d685-4b7e-99fb-61fa2e7bdafa
 ms.tgt_platform: multiple
 title: Méthode SetPowerState de la classe CIM_AggregatePExtent
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 47c97f30da1c8b6f2fe9a6032ef9be9ae87a7d6c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5ed988e5f58464479aa29d709eb628feb13f0d1c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950678"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089537"
 ---
 # <a name="setpowerstate-method-of-the-cim_aggregatepextent-class"></a>Méthode SetPowerState de la \_ classe CIM AggregatePExtent
 
@@ -104,11 +104,11 @@ Lorsque l’état d’alimentation doit être défini, soit comme valeur de date
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

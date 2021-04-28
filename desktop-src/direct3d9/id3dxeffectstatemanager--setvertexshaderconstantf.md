@@ -1,5 +1,5 @@
 ---
-description: Fonction de rappel qui doit être implémentée par un utilisateur pour définir un tableau de constantes à virgule flottante de vertex shader.
+description: 'ID3DXEffectStateManager :: SetVertexShaderConstantF, méthode-fonction de rappel qui doit être implémentée par un utilisateur pour définir un tableau de constantes à virgule flottante de nuanceur de sommets.'
 ms.assetid: 3a13040d-5d5a-4454-bf11-cda9653585c0
 title: 'ID3DXEffectStateManager :: SetVertexShaderConstantF, méthode (D3DX9Effect. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 378af983e0ed7ca1709ae8bb6cfe8615a481b3f6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ffbad3c695758a0388baf8161c322c1ff423699b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529622"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090387"
 ---
 # <a name="id3dxeffectstatemanagersetvertexshaderconstantf-method"></a>ID3DXEffectStateManager :: SetVertexShaderConstantF, méthode
 
@@ -69,7 +69,7 @@ Nombre de registres dans pConstantData.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

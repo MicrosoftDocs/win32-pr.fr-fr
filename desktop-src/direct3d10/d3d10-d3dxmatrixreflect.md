@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice qui reflète le système de coordonnées d’un plan.
+description: 'D3DXMatrixReflect, fonction (D3DX10Math. h) : crée une matrice qui reflète le système de coordonnées d’un plan.'
 ms.assetid: bd2c5905-780e-4fac-a848-d7dbcfc390c6
 title: D3DXMatrixReflect, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d8c8f0fc8529730a46c403432ec0b5b5a86c8afa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f96224c881dcd5db2cc1c356003ab96e8a626900
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542190"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103407"
 ---
 # <a name="d3dxmatrixreflect-function-d3dx10mathh"></a>D3DXMatrixReflect, fonction (D3DX10Math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers le [**D3DXPLANE**](d3d10-d3dxplane.md)source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui reflète le système de coordonnées du plan source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction normalise l’équation plan avant de créer la matrice réfléchie.
 

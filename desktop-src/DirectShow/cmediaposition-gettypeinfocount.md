@@ -1,5 +1,5 @@
 ---
-description: La méthode GetTypeInfoCount récupère le nombre d’interfaces d’informations de type fourni par l’objet.
+description: 'Méthode CMediaPosition. GetTypeInfoCount : la méthode GetTypeInfoCount récupère le nombre d’interfaces d’informations de type fourni par l’objet.'
 ms.assetid: c98368f2-ae0c-4301-be30-7332b19f53ee
 title: Méthode CMediaPosition. GetTypeInfoCount (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7cac543c49b7f2f6b9dc3357bbb1c691477d9b62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cfc54f414a6722f7f69a0330fad2d1a0cfab425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540330"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095477"
 ---
 # <a name="cmediapositiongettypeinfocount-method"></a>Méthode CMediaPosition. GetTypeInfoCount
 
@@ -49,7 +49,7 @@ Pointeur vers une variable qui reçoit le nombre d’interfaces d’informations
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs suivantes.
 
@@ -57,7 +57,7 @@ Retourne l’une des valeurs suivantes.
 
 | Code de retour                                                                               | Description                           |
 |-------------------------------------------------------------------------------------------|---------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>      | Opération réussie.<br/>                   |
+| <dl> <dt>**\_OK**</dt> </dl>      | Réussite.<br/>                   |
 | <dl> <dt>**\_pointeur E**</dt> </dl> | Argument de pointeur **null** .<br/> |
 
 

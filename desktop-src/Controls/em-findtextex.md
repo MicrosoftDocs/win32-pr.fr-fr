@@ -1,6 +1,6 @@
 ---
 title: Message EM_FINDTEXTEX (RichEdit. h)
-description: Recherche du texte dans un contrôle RichEdit.
+description: EM_FINDTEXTEX message-recherche du texte dans un contrôle RichEdit.
 ms.assetid: f1bf925b-2776-40b8-9d05-8484daf8d989
 keywords:
 - EM_FINDTEXTEX les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e52f7d51ee7a186a8a9e66f11884d6c2e9bca2f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2158dabf9ea17d1bd4cac48454bdbb4056765752
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104224"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109837"
 ---
 # <a name="em_findtextex-message"></a>\_Message FINDTEXTEX em
 
@@ -58,11 +58,11 @@ Structure [**FINDTEXTEX**](/windows/desktop/api/Richedit/ns-richedit-findtextexa
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la chaîne cible est trouvée, la valeur de retour est la position de base zéro du premier caractère de la correspondance. Si la cible est introuvable, la valeur de retour est-1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez ce message pour rechercher des chaînes ANSI. Pour Unicode, utilisez [**em \_ FINDTEXTEXW**](em-findtextexw.md).
 

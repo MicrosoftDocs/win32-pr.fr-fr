@@ -1,5 +1,5 @@
 ---
-description: Transforme un tableau (x, y, 0, 0) en une matrice donnée.
+description: D3DXVec2TransformNormalArray, fonction (D3dx9math. h)-transforme un tableau (x, y, 0, 0) en une matrice donnée.
 ms.assetid: 9f5d8fdc-f3e1-41dc-be4e-9ffc6be1947f
 title: D3DXVec2TransformNormalArray, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0aece37f9bebb46bab8a0d2a1c27bf19e0c2b0bd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 71706551e73ed9bd52b41aae127625cd09b6d7f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106523847"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097889"
 ---
 # <a name="d3dxvec2transformnormalarray-function-d3dx9mathh"></a>D3DXVec2TransformNormalArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR2**](d3dxvector2.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR2**](d3dxvector2.md) qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction transforme le vecteur (*PV-*>x, *PV-*>y, 0, 0) par la matrice désignée par *PM.*
 

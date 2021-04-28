@@ -1,15 +1,15 @@
 ---
-description: .
+description: Outils de débogage d’applications et de Add-Ons Web
 ms.assetid: ECE4A9C6-8553-4718-AAFA-AC4D9924A786
 title: Outils de débogage d’applications et de Add-Ons Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb68485cd674266235d430d7d26b9a39e6fbec14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a8fffe64836f6bce2b6e8b203360d0bba5b3872
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522474"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116077"
 ---
 # <a name="tools-for-debugging-web-applications-and-add-ons"></a>Outils de débogage d’applications et de Add-Ons Web
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode BreakConnect libère le code confidentiel d’une connexion.
+description: 'Méthode CBasePin. BreakConnect : la méthode BreakConnect libère le code confidentiel d’une connexion.'
 ms.assetid: a1f299e1-30bf-4d55-84cf-73acccf38151
 title: Méthode CBasePin. BreakConnect (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8964ea76e48e4753f42923663ab45962cd672e6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a9a099b1001c2b8c30398ca350e05d15562a8bc2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526661"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099437"
 ---
 # <a name="cbasepinbreakconnect-method"></a>Méthode CBasePin. BreakConnect
 
@@ -40,11 +40,11 @@ virtual HRESULT BreakConnect();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est appelée lors de la déconnexion du code confidentiel par la méthode [**CBasePin ::D éconnecter**](cbasepin-disconnect.md) . Elle est également appelée pendant une tentative de connexion si la méthode [**CBasePin :: CheckConnect**](cbasepin-checkconnect.md) échoue.
 
