@@ -1,5 +1,5 @@
 ---
-description: La méthode CurrentMediaType récupère le type de média pour la connexion de code confidentiel actuelle.
+description: 'Méthode CTransformOutputPin. CurrentMediaType : la méthode CurrentMediaType récupère le type de média pour la connexion de code confidentiel actuelle.'
 ms.assetid: 1c42664d-160a-4f76-9d7a-40414c5c1704
 title: Méthode CTransformOutputPin. CurrentMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ee9ee15c3cda2baf8ab8d6e9cb0ec3c797e91a1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cb40310afb1c22d00a5394c0a0667fc8d22eb03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528929"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094907"
 ---
 # <a name="ctransformoutputpincurrentmediatype-method"></a>Méthode CTransformOutputPin. CurrentMediaType
 
@@ -40,7 +40,7 @@ CMediaType& CurrentMediaType();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une référence à la variable de membre [**CBasePin :: m \_ MT**](cbasepin-m-mt.md) .
 

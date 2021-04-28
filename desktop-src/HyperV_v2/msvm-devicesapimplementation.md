@@ -1,5 +1,5 @@
 ---
-description: Association entre un point d’accès de service (SAP) et son implémentation.
+description: 'Classe Msvm_DeviceSAPImplementation : association entre un point d’accès de service (SAP) et la façon dont il est implémenté.'
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Classe Msvm_DeviceSAPImplementation
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9551d4409edfdfca18b66e3a3b86d6adcb28b19c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fbe3c9b85e0a8c9f0c6a07d1db03784c4ac15e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536723"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112097"
 ---
 # <a name="msvm_devicesapimplementation-class"></a>MSVM \_ DeviceSAPImplementation, classe
 
@@ -77,7 +77,7 @@ Point d’accès au service implémenté à l’aide de l’unité logique. Cett
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe **MSVM \_ DeviceSAPImplementation** peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

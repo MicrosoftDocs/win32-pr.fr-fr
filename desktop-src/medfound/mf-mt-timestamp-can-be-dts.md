@@ -1,15 +1,15 @@
 ---
-description: Spécifie si un décodeur peut utiliser des horodatages de décodage (DTS) lors de la définition des horodatages.
+description: 'MF_MT_TIMESTAMP_CAN_BE_DTS attribute : spécifie si un décodeur peut utiliser des horodatages de décodage lors de la définition d’horodatages.'
 ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
 title: Attribut MF_MT_TIMESTAMP_CAN_BE_DTS (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a94cffdcea37c3fe7814a24db219f3d0cd971723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e666c8d7cce5ed7f209ee9b10efa0ffe50cf211d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531982"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093067"
 ---
 # <a name="mf_mt_timestamp_can_be_dts-attribute"></a>L' \_ horodatage de la MT MF \_ \_ peut être un \_ \_ attribut Dts
 

@@ -1,5 +1,5 @@
 ---
-description: Affiche la boîte de dialogue arrêter Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.
+description: 'Méthode IShellDispatch. ShutdownWindows : affiche la boîte de dialogue arrêt de Windows. Cela revient à cliquer sur le menu Démarrer et à sélectionner arrêter.'
 ms.assetid: 3C4F6579-6398-4af4-8911-FE22555B0ABC
 title: Méthode IShellDispatch. ShutdownWindows (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 9c111e1b740857337953cdcdf81735a8c0568ba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5146e17d17ba0f082ad2d80f91ae05c176cf44ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991144"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100467"
 ---
 # <a name="ishelldispatchshutdownwindows-method"></a>Méthode IShellDispatch. ShutdownWindows
 
@@ -45,7 +45,7 @@ IShellDispatch.ShutdownWindows()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ShutdownWindows**](shell-shutdownwindows.md) .
 
@@ -113,7 +113,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

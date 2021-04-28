@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente des événements du Registre. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Registry Class : cette classe est la classe parente des événements du Registre. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 362d7653-1ba0-45b7-80f3-0fccca0badf1
 title: Classe Registry
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6799756ebfe573fad6a32a191e79c3c2b745f563
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23cd59e8d6afeb7578bd65625741caaae8156066
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113579"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106127"
 ---
 # <a name="registry-class"></a>Classe Registry
 
@@ -38,7 +38,7 @@ class Registry : MSNT_SystemTrace
 
 La classe **Registry** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour activer les événements de Registre dans une session de journalisation du noyau NT, spécifiez le  Registre de l’indicateur de trace d' **événements \_ \_ \_** dans le membre EnableFlags d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) .
 
@@ -71,7 +71,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

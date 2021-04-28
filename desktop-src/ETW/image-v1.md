@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe Image_V1 : cette classe est la classe parente pour les événements de chargement d’image. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 78c68080-90fc-4ebf-aa8a-4e03ce629d54
 title: Classe Image_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 77481c671e89b47143aed110d4cf7e8f2712a0a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: aafb2b7307e72e97ba1508aa80638af7565f2867
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115103"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106467"
 ---
 # <a name="image_v1-class"></a>\_Classe image v1
 
@@ -38,7 +38,7 @@ class Image_V1 : MSNT_SystemTrace
 
 La classe **image \_ v1** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
+description: FileIo Class-cette classe est la classe parente pour les événements d’e/s de fichier. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 8e006a63-a061-4b62-8f90-b8c8823bb047
 title: FileIo (classe)
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2f7c032cb7af325efa1d2ea76702068fc7b3be62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 716528902a115e23eae5b49ef572b87a71d11e25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972798"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106527"
 ---
 # <a name="fileio-class"></a>FileIo (classe)
 
@@ -38,7 +38,7 @@ class FileIo : MSNT_SystemTrace
 
 La classe **FileIo** ne définit aucun membre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour activer les événements d’e/s de fichier dans une session de journalisation du noyau NT, spécifiez l’indicateur d' **\_ \_ \_ \_ \_ e/s de fichier disque** de l’indicateur de trace d’événements dans le membre **EnableFlags** d’une structure de [**Propriétés de \_ trace \_ d’événements**](/windows/win32/api/evntrace/ns-evntrace-event_trace_properties) lors de l’appel de la fonction [**StartTrace**](/windows/win32/api/evntrace/nf-evntrace-starttracea) . Vous pouvez également spécifier un ou plusieurs des indicateurs suivants :
 
@@ -76,7 +76,7 @@ Les consommateurs de suivi d’événements peuvent implémenter un traitement s
 
 Les événements d’e/s de fichier sont journalisés au début de l’opération.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

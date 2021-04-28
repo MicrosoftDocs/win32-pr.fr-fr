@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_Ps2Mouse-demande un changement d’État.
 ms.assetid: a61c17a8-f89d-47aa-8c4f-46ccf478103e
 title: Méthode RequestStateChange de la classe Msvm_Ps2Mouse
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aadf80fef8ec92ca10a811813b74619f0dd80f08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 878b0977a244d4b098dfa449f3c778c33e909111
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524134"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118817"
 ---
 # <a name="requeststatechange-method-of-the-msvm_ps2mouse-class"></a>Méthode RequestStateChange de la \_ classe MSVM Ps2Mouse
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode GetMediaTime récupère les horodatages sur l’échantillon actuel.
+description: 'Méthode CPosPassThru. GetMediaTime : la méthode GetMediaTime récupère les horodatages sur l’échantillon actuel.'
 ms.assetid: 36f3b6d3-b884-4168-94f3-f334a5056c7d
 title: Méthode CPosPassThru. GetMediaTime (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b2748d986f121a38041155dcd43f13a647916486
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 328a0ae09c80a687863cfedb994f5a80cebebf14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525988"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095257"
 ---
 # <a name="cpospassthrugetmediatime-method"></a>Méthode CPosPassThru. GetMediaTime
 
@@ -57,11 +57,11 @@ Pointeur vers une variable qui reçoit l’heure de fin, en unités du format d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne E \_ Fail.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Substituez cette méthode si votre filtre met en cache les horodatages sur les échantillons qu’il reçoit.
 

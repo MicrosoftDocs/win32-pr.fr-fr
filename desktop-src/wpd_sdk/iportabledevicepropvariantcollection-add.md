@@ -1,5 +1,5 @@
 ---
-description: La méthode Add ajoute un élément à la collection.
+description: 'IPortableDevicePropVariantCollection :: Add, méthode-la méthode Add ajoute un élément à la collection.'
 ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
 title: 'IPortableDevicePropVariantCollection :: Add, méthode (PortableDeviceTypes. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d9d5b4ee664d2fbbcc78550b1af5a48874d153d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aed732cb92ea7e0f2fb3c2ebdd615f643bc3107
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112457"
 ---
 # <a name="iportabledevicepropvariantcollectionadd-method"></a>IPortableDevicePropVariantCollection :: Add, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers un nouvel objet **PROPVARIANT** à ajouter à la collection. Cette
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
@@ -61,7 +61,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque le VARTYPE de *pValue* est VT \_ Vector ou VT \_ UI1, la définition et la récupération  d’une mémoire tampon de taille zéro ou nulle ne sont pas prises en charge. Par exemple, ni pValue. CAUB. pElems = **null** , ni pValue. CAUB. cElems = 0 n’est autorisé.
 

@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque la taille de la sélection actuelle a changé, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
+description: L’événement InkOverlay. SelectionResized-se produit lorsque la taille de la sélection actuelle a changé, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
 ms.assetid: 606d4bdf-b02e-459f-a4cf-050daac6c309
 title: InkOverlay. SelectionResized, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf9cbb01821756d830b7c0a24adc55dad11b403
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f3dd3cf1bdda004733dde99bb66150710044310
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116877"
 ---
 # <a name="inkoverlayselectionresized-event"></a>Événement InkOverlay. SelectionResized
 
@@ -42,11 +42,11 @@ Rectangle englobant de la collection [InkStrokes](/previous-versions/windows/des
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ IOESelectionResized.
 

@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente des événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Process_V0-cette classe est la classe parente des événements de processus. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: 29ecf04c-4be1-451e-b140-4ffed337cfed
 title: Classe Process_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e43f09dffd49b3cdc372b77e48bae0e73b39687e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e284840a078b2dac782aecaacae5490f4a06b27
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972815"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106347"
 ---
 # <a name="process_v0-class"></a>Process \_ v0, classe
 
@@ -38,7 +38,7 @@ class Process_V0 : MSNT_SystemTrace
 
 La classe **process \_ v0** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

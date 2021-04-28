@@ -1,6 +1,6 @@
 ---
 title: NM_KEYDOWN le code de notification (commctrl. h)
-description: Envoyé par un contrôle lorsque le contrôle a le focus clavier et que l’utilisateur appuie sur une touche. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
+description: NM_KEYDOWN code de notification-envoyé par un contrôle lorsque le contrôle a le focus clavier et que l’utilisateur appuie sur une touche. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: e3b38096-797d-4948-9595-a252cf33dcdd
 keywords:
 - Contrôles Windows de code de notification NM_KEYDOWN
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 222a47733a60590e7d56ca0adba038164c430fab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce595378995e41fd8a0f481d7470c8cf791f6379
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843070"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112347"
 ---
 # <a name="nm_keydown-notification-code"></a>Code de notification de KeyOut NM \_
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMKEY**](/windows/win32/api/commctrl/ns-commctrl-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur différente de zéro pour empêcher le contrôle de traiter la clé, ou zéro dans le cas contraire.
 

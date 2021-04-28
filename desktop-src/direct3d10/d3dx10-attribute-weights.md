@@ -1,5 +1,5 @@
 ---
-description: Spécifie les attributs de poids de maille.
+description: 'Structure de D3DX10_ATTRIBUTE_WEIGHTS : spécifie les attributs de poids de maille.'
 ms.assetid: 554bb8f2-9e92-4e9e-b500-c3cc47d57830
 title: Structure D3DX10_ATTRIBUTE_WEIGHTS (D3DX10. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 4f137c1ecc29c184c4dec3995fb0202741ce9f09
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ab163149493ad73f892a251a691ad82544d7f382
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323021"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094350"
 ---
 # <a name="d3dx10_attribute_weights-structure"></a>\_Structure des \_ pondérations d’attribut d3dx10
 
@@ -112,7 +112,7 @@ Huit coordonnées de texture.
 
 </dd> <dt>
 
-**Tangence**
+**Tangente**
 </dt> <dd>
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
@@ -134,7 +134,7 @@ Binormal.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette structure décrit comment une opération de simplification prend en compte les données de vertex lors du calcul des coûts relatifs entre les bords réduits. Par exemple, si le champ normal est 0,0, l’opération de simplification ignore le composant de vertex normal lors du calcul de l’erreur pour la réduction. Toutefois, si le champ normal est 1,0, l’opération de simplification utilise le composant de vertex normal. Si le champ normal est 2,0, doublez le nombre d’erreurs ; Si le champ normal est 4,0, Quadruplez le nombre d’erreurs, etc.
 

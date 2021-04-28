@@ -1,15 +1,15 @@
 ---
 title: Vues d’ensemble des ressources
-description: .
+description: Vues d’ensemble des ressources
 ms.assetid: c96ccb8e-c6e8-42ed-a4ea-29245ecd35a6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af2f21e9e6e737138154df9b34011b0bc41bb24b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9fb5809ace0aeffecfe1626c4b15fbe232cbe2cb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196610"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117457"
 ---
 # <a name="resource-overviews"></a>Vues d’ensemble des ressources
 
@@ -21,9 +21,9 @@ ms.locfileid: "104196610"
 -   [Formats de fichiers de ressources](resource-file-formats.md)
 -   [Utilisation des ressources](using-resources.md)
 
- 
+ 
 
- 
+ 
 
 
 

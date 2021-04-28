@@ -1,15 +1,15 @@
 ---
-description: .
+description: Activer la prise en charge de Windows 7 pour Intel AVX
 ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
 title: Activer la prise en charge de Windows 7 pour Intel AVX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 440c71c5fd6aa65b5e56b8dfb0b6eab134418192
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1509bac62634c85aa733b2c1de0c152169ac6cda
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530254"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088457"
 ---
 # <a name="enable-windows-7-support-for-intel-avx"></a>Activer la prise en charge de Windows 7 pour Intel AVX
 

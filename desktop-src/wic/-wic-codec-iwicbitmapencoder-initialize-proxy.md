@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode Initialize.
+description: IWICBitmapEncoder_Initialize_Proxy fonction-proxy pour la méthode Initialize.
 ms.assetid: 0db79eb4-dcb2-491a-9bea-a0dec418f80f
 title: IWICBitmapEncoder_Initialize_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c1a2e684059b75e41c1d89e2d3dd5379cc208b56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d346d1379ae92f19a530c65daff07cb98b2e0e50
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536560"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100617"
 ---
 # <a name="iwicbitmapencoder_initialize_proxy-function"></a>IWICBitmapEncoder \_ Initialise la \_ fonction proxy
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapEncoder_Initialize_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+Type : **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-Pointeur vers cet objet [_ *IWICBitmapEncoder* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
+Pointeur vers cet objet [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) .
 
 </dd> <dt>
 
 *pIStream* \[ dans\]
 </dt> <dd>
 
-Type : **[IStream](/windows/desktop/api/objidl/nn-objidl-istream) \** _
+Type : **[IStream](/windows/desktop/api/objidl/nn-objidl-istream)\***
 
 Flux de sortie.
 
 </dd> <dt>
 
-_cacheOption * \[ dans\]
+*cacheOption* \[ dans\]
 </dt> <dd>
 
 Type : **[ **WICBitmapEncoderCacheOption**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmapencodercacheoption)**
@@ -69,7 +69,7 @@ Type : **[ **WICBitmapEncoderCacheOption**](/windows/desktop/api/Wincodec/ne-wi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

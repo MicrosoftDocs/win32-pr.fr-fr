@@ -1,5 +1,5 @@
 ---
-description: Réservé.
+description: LocationDisp. DispCivicAddressReport. DetailLevel, propriété réservée.
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp. DispCivicAddressReport. DetailLevel, propriété
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 54cb58df259f63567f018a7b59d6b7547a291bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d987b93fbf091c7849eda0dc1949f58a97c653b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952601"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110897"
 ---
 # <a name="locationdispdispcivicaddressreportdetaillevel-property"></a>LocationDisp. DispCivicAddressReport. DetailLevel, propriété
 
@@ -40,7 +40,7 @@ DetailLevel = LocationDisp.DispCivicAddressReport.DetailLevel
 
 Réservé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour déterminer si un rapport d’adresse postale contient des données valides pour un champ particulier, il vous suffit d’inspecter le contenu du champ. Si le champ contient une valeur, vous pouvez supposer que le champ contient les informations les plus précises disponibles.
 

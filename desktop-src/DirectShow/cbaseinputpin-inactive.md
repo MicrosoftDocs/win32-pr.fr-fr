@@ -1,5 +1,5 @@
 ---
-description: La méthode inactive indique au code confidentiel que le filtre n’est plus actif.
+description: 'CBaseInputPin. inactive, méthode : la méthode inactive indique au code confidentiel que le filtre n’est plus actif.'
 ms.assetid: e00e1562-54bb-4968-8a86-b29e1077d7a5
 title: CBaseInputPin. inactive, méthode (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52bf7efa352e8a73d562c61c3833a051ee860d4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1324e9e2641e5e05bc3b0429ee269098c13d4bae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541323"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099727"
 ---
 # <a name="cbaseinputpininactive-method"></a>CBaseInputPin. inactive, méthode
 
@@ -40,7 +40,7 @@ HRESULT Inactive();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -48,14 +48,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                          | Description                                  |
 |------------------------------------------------------------------------------------------------------|----------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                 | Opération réussie.<br/>                          |
+| <dl> <dt>**\_OK**</dt> </dl>                 | Réussite.<br/>                          |
 | <dl> <dt>**VFW \_ E \_ aucun \_ allocateur**</dt> </dl> | Aucun allocateur de mémoire n’est disponible.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: inactive**](cbasepin-inactive.md) . Elle appelle la méthode [**IMemAllocator ::D ecommit**](/windows/desktop/api/Strmif/nf-strmif-imemallocator-decommit) pour désallouer l’allocateur de mémoire.
 

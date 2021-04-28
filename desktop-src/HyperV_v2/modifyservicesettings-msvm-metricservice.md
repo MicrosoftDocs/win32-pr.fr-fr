@@ -1,5 +1,5 @@
 ---
-description: Modifie les données de paramètre pour le service.
+description: La méthode ModifyServiceSettings de la classe Msvm_MetricService-modifie les données de paramètre pour le service.
 ms.assetid: E6133DA7-A137-42FA-A523-5B93E9C6DB79
 title: Méthode ModifyServiceSettings de la classe Msvm_MetricService
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b680f5f46d99d46f99094e05db653083fd7ae952
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 088aec001dd63de7344256fd9e114b6ff73e4425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752221"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112177"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_metricservice-class"></a>Méthode ModifyServiceSettings de la \_ classe MetricService MSVM
 
@@ -54,7 +54,7 @@ Si l’opération est effectuée de façon asynchrone, cette méthode retourne 4
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne l’une des valeurs suivantes.
 
@@ -62,7 +62,7 @@ Cette méthode retourne l’une des valeurs suivantes.
 
 | Code/valeur de retour                                                                                                                                                                | Description                                        |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------|
-| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                    | Opération réussie.<br/>                                |
+| <dl> <dt>**Terminé sans erreur**</dt> <dt>0</dt> </dl>                    | Réussite.<br/>                                |
 | <dl> <dt>**Paramètres de méthode activés-travail démarré**</dt> <dt>4096</dt> </dl> | Paramètres de méthode vérifiés, tâche démarrée.<br/> |
 | <dl> <dt>**Échec**</dt> <dt>32768</dt> </dl>                                 | Échec.<br/>                                 |
 | <dl> <dt>**Accès refusé**</dt> <dt>32769</dt> </dl>                          | Accès refusé.<br/>                          |

@@ -1,5 +1,5 @@
 ---
-description: Envoyé lorsque le navigateur DVD analyse un paquet PCI.
+description: EC_DVD_VOBU_Offset-envoyé lorsque le navigateur DVD analyse un paquet PCI.
 ms.assetid: e2e65007-7c34-4be4-86b9-9491061891e5
 title: EC_DVD_VOBU_Offset (Dvdevcode. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 531207d4d8b0debb29dd5d02e01e400218e4a2bd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9223f2d5bb25d7b950dba8fb19c152cf3184af93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542248"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119767"
 ---
 # <a name="ec_dvd_vobu_offset"></a>\_ \_ Décalage VOBU du DVD EC \_
 
@@ -42,7 +42,7 @@ Numéro du jeu de titres vidéo actuel (VTSN).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet événement est désactivé par défaut. Pour activer cet événement, appelez [**IDvdControl2 :: SetOption**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-setoption) et affectez à l’option **DVD \_ EnableLoggingEvents** la **valeur true**.
 

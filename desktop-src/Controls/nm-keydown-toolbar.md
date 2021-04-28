@@ -1,6 +1,6 @@
 ---
 title: Code de notification NM_KEYDOWN (barre d’outils) (commctrl. h)
-description: Envoyé par un contrôle lorsque le contrôle a le focus clavier et que l’utilisateur appuie sur une touche. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
+description: 'Code de notification NM_KEYDOWN (barre d’outils) : envoyé par un contrôle lorsque le contrôle a le focus clavier et que l’utilisateur appuie sur une touche. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.'
 ms.assetid: bdfcf9da-118b-4fe6-9a0a-6329eb9196ef
 keywords:
 - Contrôles Windows de code de notification NM_KEYDOWN (barre d’outils)
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7326946a8234122c81b2fd057dab0ad313d49a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d53818cf417e1efac686e94d3b4ef5919f819ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032346"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112357"
 ---
 # <a name="nm_keydown-toolbar-notification-code"></a>\_Code de notification (barre d’outils) de la touche nm
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**NMKEY**](/windows/win32/api/commctrl/ns-commctrl-
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur différente de zéro pour empêcher le contrôle de traiter la clé, ou zéro dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, seul le contrôle ToolBar envoie ce code de notification.
 

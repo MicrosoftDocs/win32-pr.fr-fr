@@ -1,6 +1,6 @@
 ---
 title: Message TVM_SETUNICODEFORMAT (commctrl. h)
-description: Définit l’indicateur de format de caractère Unicode pour le contrôle.
+description: 'TVM_SETUNICODEFORMAT message : définit l’indicateur de format de caractère Unicode pour le contrôle.'
 ms.assetid: e4b58ae5-6217-4a2e-80e5-3ba9e578859a
 keywords:
 - TVM_SETUNICODEFORMAT les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25082347710a40f592cfd4087b19916b56cf0d11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b49fcdd22cff0ac91885ef8f54d49922f9c677e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942873"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116547"
 ---
 # <a name="tvm_setunicodeformat-message"></a>TVM \_ SETUNICODEFORMAT message
 
@@ -39,11 +39,11 @@ Détermine le jeu de caractères utilisé par le contrôle. Si cette valeur est 
 *lParam* 
 </dt> <dd>Doit être zéro.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’indicateur de format Unicode précédent pour le contrôle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour plus d’informations sur ce message, consultez les notes relatives à [**CCM \_ SETUNICODEFORMAT**](ccm-setunicodeformat.md) .
 

@@ -1,5 +1,5 @@
 ---
-description: Non implémenté.
+description: 'Méthode IAMTimelineObj :: SetDirtyRange-non implémentée.'
 ms.assetid: f3be3b5a-7ab9-44ca-8a03-33fb905d3aea
 title: 'IAMTimelineObj :: SetDirtyRange, méthode (qedit. h)'
 ms.topic: reference
@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: b8f0adee44de03560b347122a9c9cbdf500db897
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e3f70e5ba9d01733df154911c4f40d2b9d33776
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539989"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119487"
 ---
 # <a name="iamtimelineobjsetdirtyrange-method"></a>IAMTimelineObj :: SetDirtyRange, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -60,11 +60,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

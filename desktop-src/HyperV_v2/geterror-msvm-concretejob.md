@@ -1,5 +1,5 @@
 ---
-description: Récupère l’objet d’erreur pour le travail, s’il en existe un.
+description: 'Méthode GetError de la classe Msvm_ConcreteJob : récupère l’objet d’erreur pour le travail, s’il en existe un.'
 ms.assetid: 7E810CBE-F18F-4EFA-B52E-631CD071D136
 title: Méthode GetError de la classe Msvm_ConcreteJob
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 63279d8bc08f0b9f1955f694470a3744defd8054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c222a7091550b5ee831330f100292549e31ce5ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513000"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112187"
 ---
 # <a name="geterror-method-of-the-msvm_concretejob-class"></a>Méthode GetError de la \_ classe ConcreteJob MSVM
 
@@ -48,7 +48,7 @@ Si l’état opérationnel du travail n’est pas 2 (OK), cette méthode retourn
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **UInt32**
 
@@ -92,7 +92,7 @@ Le **système n’est pas disponible** (32777)
 **Mémoire insuffisante** (32778)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 L’accès à la classe [**MSVM \_ ConcreteJob**](msvm-concretejob.md) peut être limité par le filtrage UAC. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi).
 

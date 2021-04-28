@@ -1,5 +1,5 @@
 ---
-description: Évalue un éclairage directionnel et retourne les données d’harmonique sphérique spectral (SH).
+description: Fonction D3DXSHEvalDirectionalLight (D3DX10. h)-évalue un éclairage directionnel et retourne les données spectrales sphériques spectrales.
 ms.assetid: b5c657f5-d291-4e53-908c-670b29a1888a
 title: D3DXSHEvalDirectionalLight, fonction (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9c6b5c9590132d9fe3d0fc07ae419d442144079a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 551dad8081af2b0138be4758682d5a660f621141
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104562409"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108597"
 ---
 # <a name="d3dxshevaldirectionallight-function-d3dx10h"></a>D3DXSHEvalDirectionalLight, fonction (D3DX10. h)
 
@@ -119,13 +119,13 @@ Pointeur facultatif vers le vecteur de sortie SH pour le composant bleu.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être : D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le vecteur de sortie est calculé de sorte que si le rapport d’intensité R/G/B est égal à 1, le luminance de sortie résultant d’un point directement sous la lumière sur un objet diffus avec un albedo de 1 est 1,0. Cela permet de calculer trois échantillons spectraux. pROut est retourné, tandis que pGOut et pBOut peuvent être retournés.
 

@@ -1,5 +1,5 @@
 ---
-description: Créer un effet à partir d’une description d’effet ASCII ou binaire.
+description: 'Fonction D3DXCreateEffectFromFile : créez un effet à partir d’une description d’effet ASCII ou binaire.'
 ms.assetid: b5868ba3-0869-46f7-804f-3103358a3ef5
 title: D3DXCreateEffectFromFile, fonction (D3DX9Effect. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f34d0cdb3ae19772f21d8307fffb395c4d1ac9ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8b2afdd1e8008bc8e03efa670e5a4b37b6dc9f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762278"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094317"
 ---
 # <a name="d3dxcreateeffectfromfile-function"></a>D3DXCreateEffectFromFile fonction)
 
@@ -119,13 +119,13 @@ Retourne un pointeur vers une mémoire tampon contenant une liste d’erreurs de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, D3DXERR \_ sera déplacé, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si les paramètres du compilateur requièrent Unicode, le type de données LPCTSTR est résolu en LPCWSTR. Dans le cas contraire, le type de données LPCTSTR est résolu en LPCSTR.
 

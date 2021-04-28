@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_FcEndpoint-demande un changement d’État.
 ms.assetid: 5734d1a3-5e6e-4b50-aa15-d6c47f4b2a81
 title: Méthode RequestStateChange de la classe Msvm_FcEndpoint
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8874ad09b87ccaefd9d5ba2f3a5606e398830ff2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 696f9a630b367171e576ca77bedc7a049ac96647
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318542"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111867"
 ---
 # <a name="requeststatechange-method-of-the-msvm_fcendpoint-class"></a>Méthode RequestStateChange de la \_ classe MSVM FcEndpoint
 
@@ -139,7 +139,7 @@ Délai d’attente qui spécifie la durée maximale pendant laquelle le client a
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 
