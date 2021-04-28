@@ -1,25 +1,25 @@
 ---
 title: Message TVM_GETSELECTEDCOUNT
-description: Non implémenté.
+description: TVM_GETSELECTEDCOUNT message non implémenté.
 ms.assetid: 2920f473-522b-4750-82c0-05e9c3307063
 keywords:
 - TVM_GETSELECTEDCOUNT les contrôles de message Windows
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cee41646a610a28ff4a1b7ea06046659fde51465
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c69aeec687b49e893110b89516ff3c884241496b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940403"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116557"
 ---
-# <a name="tvm_getselectedcount-message"></a><span data-ttu-id="888b3-104">TVM \_ GETSELECTEDCOUNT message</span><span class="sxs-lookup"><span data-stu-id="888b3-104">TVM\_GETSELECTEDCOUNT message</span></span>
+# <a name="tvm_getselectedcount-message"></a><span data-ttu-id="1837e-104">TVM \_ GETSELECTEDCOUNT message</span><span class="sxs-lookup"><span data-stu-id="1837e-104">TVM\_GETSELECTEDCOUNT message</span></span>
 
-<span data-ttu-id="888b3-105">Ce message n’est pas implémenté.</span><span class="sxs-lookup"><span data-stu-id="888b3-105">This message is not implemented.</span></span>
+<span data-ttu-id="1837e-105">Ce message n’est pas implémenté.</span><span class="sxs-lookup"><span data-stu-id="1837e-105">This message is not implemented.</span></span>
 
- 
+ 
 
- 
+ 
 
 
 

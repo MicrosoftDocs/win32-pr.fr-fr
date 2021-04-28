@@ -1,5 +1,5 @@
 ---
-description: Contient le nombre d’éléments de la collection.
+description: FolderItems. Count, propriété-contient le nombre d’éléments dans la collection.
 ms.assetid: 383382d5-7e3f-4b27-bebf-6b79dbe677b8
 title: FolderItems. Count, propriété (shldisp. h)
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 814a8248a54c5b58624a721f006bc8d4f974ba92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2bde6d938bde675c52c93f09916a70ba0e21f9a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971894"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089607"
 ---
-# <a name="folderitemscount-property"></a><span data-ttu-id="269a6-103">FolderItems. Count (propriété)</span><span class="sxs-lookup"><span data-stu-id="269a6-103">FolderItems.Count property</span></span>
+# <a name="folderitemscount-property"></a><span data-ttu-id="c2090-103">FolderItems. Count (propriété)</span><span class="sxs-lookup"><span data-stu-id="c2090-103">FolderItems.Count property</span></span>
 
-<span data-ttu-id="269a6-104">Contient le nombre d’éléments de la collection.</span><span class="sxs-lookup"><span data-stu-id="269a6-104">Contains the number of items in the collection.</span></span>
+<span data-ttu-id="c2090-104">Contient le nombre d’éléments de la collection.</span><span class="sxs-lookup"><span data-stu-id="c2090-104">Contains the number of items in the collection.</span></span>
 
-<span data-ttu-id="269a6-105">Cette propriété est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="269a6-105">This property is read-only.</span></span>
+<span data-ttu-id="c2090-105">Cette propriété est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c2090-105">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="269a6-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="269a6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c2090-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c2090-106">Syntax</span></span>
 
 
 ```JScript
@@ -35,15 +35,15 @@ iCount = FolderItems.Count
 
 
 
-## <a name="property-value"></a><span data-ttu-id="269a6-107">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="269a6-107">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c2090-107">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="c2090-107">Property value</span></span>
 
-<span data-ttu-id="269a6-108">**Entier** qui contient une valeur pour la propriété **Count** .</span><span class="sxs-lookup"><span data-stu-id="269a6-108">An **Integer** that contains a value for the **Count** property.</span></span>
+<span data-ttu-id="c2090-108">**Entier** qui contient une valeur pour la propriété **Count** .</span><span class="sxs-lookup"><span data-stu-id="c2090-108">An **Integer** that contains a value for the **Count** property.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="269a6-109">Exemples</span><span class="sxs-lookup"><span data-stu-id="269a6-109">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="c2090-109">Exemples</span><span class="sxs-lookup"><span data-stu-id="c2090-109">Examples</span></span>
 
-<span data-ttu-id="269a6-110">L’exemple suivant utilise **Count** pour récupérer le nombre d’éléments dans le dossier Windows.</span><span class="sxs-lookup"><span data-stu-id="269a6-110">The following example uses **Count** to retrieve the count of items in the Windows folder.</span></span> <span data-ttu-id="269a6-111">L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="269a6-111">Proper usage is shown for JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="c2090-110">L’exemple suivant utilise **Count** pour récupérer le nombre d’éléments dans le dossier Windows.</span><span class="sxs-lookup"><span data-stu-id="c2090-110">The following example uses **Count** to retrieve the count of items in the Windows folder.</span></span> <span data-ttu-id="c2090-111">L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="c2090-111">Proper usage is shown for JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="269a6-112">Langage</span><span class="sxs-lookup"><span data-stu-id="269a6-112">JScript:</span></span>
+<span data-ttu-id="c2090-112">Langage</span><span class="sxs-lookup"><span data-stu-id="c2090-112">JScript:</span></span>
 
 
 ```JScript
@@ -74,7 +74,7 @@ iCount = FolderItems.Count
 
 
 
-<span data-ttu-id="269a6-113">VBScript</span><span class="sxs-lookup"><span data-stu-id="269a6-113">VBScript:</span></span>
+<span data-ttu-id="c2090-113">VBScript</span><span class="sxs-lookup"><span data-stu-id="c2090-113">VBScript:</span></span>
 
 
 ```VB
@@ -110,7 +110,7 @@ iCount = FolderItems.Count
 
 
 
-<span data-ttu-id="269a6-114">Visual Basic :</span><span class="sxs-lookup"><span data-stu-id="269a6-114">Visual Basic:</span></span>
+<span data-ttu-id="c2090-114">Visual Basic :</span><span class="sxs-lookup"><span data-stu-id="c2090-114">Visual Basic:</span></span>
 
 
 ```VB
@@ -141,17 +141,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="269a6-115">Spécifications</span><span class="sxs-lookup"><span data-stu-id="269a6-115">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c2090-115">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="c2090-115">Requirements</span></span>
 
 
 
-| <span data-ttu-id="269a6-116">Condition requise</span><span class="sxs-lookup"><span data-stu-id="269a6-116">Requirement</span></span> | <span data-ttu-id="269a6-117">Valeur</span><span class="sxs-lookup"><span data-stu-id="269a6-117">Value</span></span> |
+| <span data-ttu-id="c2090-116">Condition requise</span><span class="sxs-lookup"><span data-stu-id="c2090-116">Requirement</span></span> | <span data-ttu-id="c2090-117">Valeur</span><span class="sxs-lookup"><span data-stu-id="c2090-117">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="269a6-118">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="269a6-118">Minimum supported client</span></span><br/> | <span data-ttu-id="269a6-119">Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="269a6-119">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="269a6-120">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="269a6-120">Minimum supported server</span></span><br/> | <span data-ttu-id="269a6-121">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="269a6-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="269a6-122">En-tête</span><span class="sxs-lookup"><span data-stu-id="269a6-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="269a6-123"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="269a6-123"><dt>Shldisp.h</dt></span></span> </dl>                           |
-| <span data-ttu-id="269a6-124">MIDL</span><span class="sxs-lookup"><span data-stu-id="269a6-124">IDL</span></span><br/>                      | <dl> <span data-ttu-id="269a6-125"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="269a6-125"><dt>Shldisp.idl</dt></span></span> </dl>                         |
-| <span data-ttu-id="269a6-126">DLL</span><span class="sxs-lookup"><span data-stu-id="269a6-126">DLL</span></span><br/>                      | <dl> <span data-ttu-id="269a6-127"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="269a6-127"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="c2090-118">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="c2090-118">Minimum supported client</span></span><br/> | <span data-ttu-id="c2090-119">Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="c2090-119">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="c2090-120">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="c2090-120">Minimum supported server</span></span><br/> | <span data-ttu-id="c2090-121">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="c2090-121">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="c2090-122">En-tête</span><span class="sxs-lookup"><span data-stu-id="c2090-122">Header</span></span><br/>                   | <dl> <span data-ttu-id="c2090-123"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="c2090-123"><dt>Shldisp.h</dt></span></span> </dl>                           |
+| <span data-ttu-id="c2090-124">MIDL</span><span class="sxs-lookup"><span data-stu-id="c2090-124">IDL</span></span><br/>                      | <dl> <span data-ttu-id="c2090-125"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="c2090-125"><dt>Shldisp.idl</dt></span></span> </dl>                         |
+| <span data-ttu-id="c2090-126">DLL</span><span class="sxs-lookup"><span data-stu-id="c2090-126">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c2090-127"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="c2090-127"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 
