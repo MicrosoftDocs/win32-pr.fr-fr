@@ -1,5 +1,5 @@
 ---
-description: Cette API n’est pas disponible pour toutes les applications. À moins que votre application ne soit spécialement approvisionnée par Microsoft, les appels à ces API échouent au moment de l’exécution.
+description: 'IFeedbackHubAppInfo :: GetAumidFromAppListEntry, méthode-cette API n’est pas disponible pour toutes les applications. À moins que votre application ne soit spécialement approvisionnée par Microsoft, les appels à ces API échouent au moment de l’exécution.'
 ms.assetid: F205911F-7AA3-464F-A408-3BF549E1112A
 title: 'IFeedbackHubAppInfo :: GetAumidFromAppListEntry, méthode'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6e58fcacde643ad7e87ea3d418f21cf4faf57b16
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2da6b428db156ddf18483951701216942aebbeaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321750"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089297"
 ---
 # <a name="ifeedbackhubappinfogetaumidfromapplistentry-method"></a>IFeedbackHubAppInfo :: GetAumidFromAppListEntry, méthode
 
@@ -53,7 +53,7 @@ Cette API n’est pas disponible pour toutes les applications. À moins que votr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 

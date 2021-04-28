@@ -1,5 +1,5 @@
 ---
-description: La méthode GetPinCount récupère le nombre de broches.
+description: 'Méthode CBaseRenderer. GetPinCount : la méthode GetPinCount récupère le nombre de broches.'
 ms.assetid: 518de15d-2ecf-425e-b4cd-14aaaf938417
 title: Méthode CBaseRenderer. GetPinCount (Renbase. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71b3703389019e2217a595884ac983e90835cdac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532770"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095887"
 ---
 # <a name="cbaserenderergetpincount-method"></a>Méthode CBaseRenderer. GetPinCount
 
@@ -40,11 +40,11 @@ virtual int GetPinCount();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Renvoie 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode implémente la méthode [**CBaseFilter :: GetPinCount**](cbasefilter-getpincount.md) , qui est virtuelle pure dans la classe **CBaseFilter** .
 

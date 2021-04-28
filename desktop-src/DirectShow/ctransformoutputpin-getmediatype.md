@@ -1,5 +1,5 @@
 ---
-description: La méthode GetMediaType récupère un type de média préféré, par valeur d’index.
+description: 'Méthode CTransformOutputPin. GetMediaType : la méthode GetMediaType récupère un type de média préféré, par valeur d’index.'
 ms.assetid: d106e6d1-66ff-4460-9ea2-c93f16116cf4
 title: Méthode CTransformOutputPin. GetMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e52a5bc3b6a2b931a8592372e2ef636863c50ef6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1dd0bf38f2fa3be0e077f2509001680bbfc84e15
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534809"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094897"
 ---
 # <a name="ctransformoutputpingetmediatype-method"></a>Méthode CTransformOutputPin. GetMediaType
 
@@ -57,7 +57,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui reçoit le type de m�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,14 +65,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                            | Description                   |
 |--------------------------------------------------------------------------------------------------------|-------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                   | Succès<br/>            |
+| <dl> <dt>**\_OK**</dt> </dl>                   | Opération réussie<br/>            |
 | <dl> <dt>**VFW \_ S \_ n’a \_ plus d' \_ éléments**</dt> </dl> | Index hors limites<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CBasePin :: GetMediaType**](cbasepin-getmediatype.md) . Si la broche d’entrée du filtre n’est pas connectée, la méthode retourne VFW \_ s \_ n’a plus d' \_ \_ éléments. Sinon, elle appelle la méthode [**CTransformFilter :: GetMediaType**](ctransformfilter-getmediatype.md) du filtre pour récupérer le type de média. La méthode **CTransformFilter :: GetMediaType** est virtuelle pure ; la classe dérivée du filtre doit être substituée.
 

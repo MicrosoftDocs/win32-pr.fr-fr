@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. HomeAddress3Locality
 ms.assetid: b11f82da-cb77-4229-b5ab-d560a9b0cce4
 title: System. contact. HomeAddress3Locality
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82c3c3f59cb0c5b628073b8ba1723cadcf25644a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca5f7c4902b702de8275c196a26a71a655d95d74
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519540"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102137"
 ---
 # <a name="systemcontacthomeaddress3locality"></a>System. contact. HomeAddress3Locality
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

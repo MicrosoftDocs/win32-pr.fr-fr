@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice qui pivote autour de l’axe z.
+description: 'D3DXMatrixRotationZ, fonction (D3dx9math. h) : crée une matrice qui pivote autour de l’axe z.'
 ms.assetid: 73db43e6-3831-4867-8eda-80127b61e169
 title: D3DXMatrixRotationZ, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 61d94df676016c0e22e7c0842eebe9af05b9ff71
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b109f71052657a5d9c32d9af5cb38b2cbcf1f0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106543031"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118107"
 ---
 # <a name="d3dxmatrixrotationz-function-d3dx9mathh"></a>D3DXMatrixRotationZ, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Angle de rotation, en radians. Les angles sont mesurés dans le sens des aiguill
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) pivotée autour de l’axe z.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixRotationZ** peut être utilisée comme paramètre pour une autre fonction.
 

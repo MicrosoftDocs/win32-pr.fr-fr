@@ -1,5 +1,5 @@
 ---
-description: Ajoute une matrice à la pile.
+description: ID3DXMATRIXStack ::P méthode par émission (D3dx9math. h)-ajoute une matrice à la pile.
 ms.assetid: 99bc636d-f1fd-4ace-a649-6a1a952927e0
 title: ID3DXMATRIXStack ::P méthode par émission (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1678ad9481a7c76fdb0e92a0c3b2de66d638de71
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aeaf40d3164d6bd9d892d30f352fd24467b24ddb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525865"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093501"
 ---
 # <a name="id3dxmatrixstackpush-method-d3dx9mathh"></a>ID3DXMATRIXStack ::P méthode par émission (D3dx9math. h)
 
@@ -38,13 +38,13 @@ HRESULT Push();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode incrémente le nombre d’éléments sur la pile de 1, en dupliquant la matrice actuelle. La pile croît de manière dynamique à mesure que d’autres éléments sont ajoutés.
 

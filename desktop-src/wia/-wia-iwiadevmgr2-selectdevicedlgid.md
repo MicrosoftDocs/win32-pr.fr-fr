@@ -1,5 +1,5 @@
 ---
-description: Affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un périphérique matériel pour l’acquisition d’images.
+description: 'IWiaDevMgr2 :: SelectDeviceDlgID, méthode-affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un périphérique matériel pour l’acquisition d’images.'
 ms.assetid: 6baca959-0f97-4a39-88d0-ed34b813c80a
 title: 'IWiaDevMgr2 :: SelectDeviceDlgID, méthode (WIA. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: bad749eb48e72b362070ea4951d4e9eac380e737
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4279bef86d761ed0eb7d90ad3b8dee46e0f17f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517549"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106817"
 ---
 # <a name="iwiadevmgr2selectdevicedlgid-method"></a>IWiaDevMgr2 :: SelectDeviceDlgID, méthode
 
@@ -94,15 +94,15 @@ Affiche la boîte de dialogue même s’il n’y a qu’un seul appareil corresp
 *pbstrDeviceID* \[ out, retval\]
 </dt> <dd>
 
-Type : **BSTR \** _
+Type : **BSTR \***
 
 Pointeur vers une chaîne qui reçoit la chaîne d’identificateur de l’appareil.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -118,7 +118,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode crée et affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner un appareil WIA 2,0 pour l’acquisition d’images. Si un appareil est sélectionné avec succès, la méthode **IWiaDevMgr2 :: SelectDeviceDlgID** passe sa chaîne d’identificateur à l’application par le biais de son paramètre *pbstrDeviceID* .
 

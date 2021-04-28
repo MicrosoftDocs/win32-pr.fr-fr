@@ -1,5 +1,5 @@
 ---
-description: Récupère un objet d’informations de type, qui peut récupérer les informations de type pour une interface.
+description: 'Méthode CMediaControl. GetTypeInfo : récupère un objet d’informations de type, qui peut récupérer les informations de type pour une interface.'
 ms.assetid: 2014485f-d937-415d-a2fc-0c69269b5237
 title: Méthode CMediaControl. GetTypeInfo (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fe393922206744c23b534bf8d701d6292736c65a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 857dbdeee9a2add9ab77cae0ff97d69699d2dd2e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532644"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099127"
 ---
 # <a name="cmediacontrolgettypeinfo-method"></a>Méthode CMediaControl. GetTypeInfo
 
@@ -65,7 +65,7 @@ Adresse d’un pointeur vers l’objet d’informations de type demandé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne un \_ pointeur E si *ppTInfo* n’est pas valide. Retourne le TYPE \_ E \_ ELEMENTNOTFOUND si *iTInfo* n’est pas égal à zéro. Retourne S \_ OK si réussit. Sinon, retourne un **HRESULT** de l’un des appels pour récupérer le type.
 

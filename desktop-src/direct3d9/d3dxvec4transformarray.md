@@ -1,5 +1,5 @@
 ---
-description: Transforme un tableau (x, y, 0, 1) en une matrice donnée.
+description: D3DXVec4TransformArray, fonction (D3dx9math. h)-transforme un tableau (x, y, 0, 1) en une matrice donnée.
 ms.assetid: 11d69f65-2aef-46f4-b274-e173a11382a8
 title: D3DXVec4TransformArray, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3102d1766ba43525829e045503c1838a19d4b0e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f5435b7e88a5424db9457fac077495fcfd8828a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106533721"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097627"
 ---
 # <a name="d3dxvec4transformarray-function-d3dx9mathh"></a>D3DXVec4TransformArray, fonction (D3dx9math. h)
 
@@ -99,13 +99,13 @@ Nombre d’éléments dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXVECTOR4**](d3dxvector4.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR4**](d3dxvector4.md) qui est le tableau transformé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction transforme *le tableau (* x, y, 0, 1) par la matrice *PM*.
 

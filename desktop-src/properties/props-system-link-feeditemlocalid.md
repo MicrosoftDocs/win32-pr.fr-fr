@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Link. FeedItemLocalId
 ms.assetid: abfe0b70-1890-4b42-a0b3-83a14462510e
 title: System. Link. FeedItemLocalId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e3f47eab664b537368548b5c2c94cbdaa0ca9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e473497291fe80883b2cb718a9f4059c7181382
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535536"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092447"
 ---
 # <a name="systemlinkfeeditemlocalid"></a>System. Link. FeedItemLocalId
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

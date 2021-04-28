@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. volume. IsMappedDrive
 ms.assetid: 13c94e17-760a-4656-886c-cb5fd4acf474
 title: System. volume. IsMappedDrive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96c8b91447785c1ab86387b78d53d0cc84fb6140
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb838d49514be686028e39d00cef49889e2b80e4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033887"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113877"
 ---
 # <a name="systemvolumeismappeddrive"></a>System. volume. IsMappedDrive
 
@@ -29,7 +29,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

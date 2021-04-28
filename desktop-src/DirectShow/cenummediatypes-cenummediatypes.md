@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CEnumMediaTypes. CEnumMediaTypes.
 ms.assetid: fae2e05c-3f7b-4511-9b9d-5a37ea03f851
 title: Constructeur CEnumMediaTypes. CEnumMediaTypes (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e17357d90c57f1a7d489d07fa56206343f50788
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d243ed25cc48c5d30d467f97e2ec20e1f0f2b58
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541613"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095677"
 ---
 # <a name="cenummediatypescenummediatypes-constructor"></a>Constructeur CEnumMediaTypes. CEnumMediaTypes
 
@@ -57,7 +57,7 @@ Pointeur vers l’interface [**IEnumMediaTypes**](/windows/desktop/api/Strmif/nn
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si *pEnumMediaTypes* a la **valeur null**, cette méthode initialise l’énumérateur au début de la séquence d’énumération. Sinon, elle duplique l’état interne de l’énumérateur spécifié par *pEnumMediaTypes*.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Music. DiscNumber
 ms.assetid: dfe19c2c-b07e-4752-94c5-b770a14250e0
 title: System. Music. DiscNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c33213c3ce1bcb8dbce39641c526359c8d52c42b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2ee7015746aec24f1b2aac66503f19b603232e4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534232"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114727"
 ---
 # <a name="systemmusicdiscnumber"></a>System. Music. DiscNumber
 
@@ -28,7 +28,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

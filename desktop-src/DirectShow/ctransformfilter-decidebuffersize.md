@@ -1,5 +1,5 @@
 ---
-description: La méthode DecideBufferSize définit les exigences de mémoire tampon de la broche de sortie.
+description: 'Méthode CTransformFilter. DecideBufferSize : la méthode DecideBufferSize définit les exigences de mémoire tampon de la broche de sortie.'
 ms.assetid: 33e41668-b4f6-4142-b22e-2ddfb96332df
 title: Méthode CTransformFilter. DecideBufferSize (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71a506a9c9cd16a014418b24ad3fbd1186d6f48f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3276170f1256bba41aa075b0e5f06fb7becbcd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526528"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095147"
 ---
 # <a name="ctransformfilterdecidebuffersize-method"></a>Méthode CTransformFilter. DecideBufferSize
 
@@ -57,11 +57,11 @@ Pointeur vers une structure de [**\_ Propriétés Allocator**](/windows/win32/ap
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK ou une autre valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode [**CTransformOutputPin ::D ecidebuffersize**](ctransformoutputpin-decidebuffersize.md) de la broche de sortie appelle cette méthode. La classe dérivée doit implémenter cette méthode. Pour plus d’informations, consultez [**CBaseOutputPin ::D ecidebuffersize**](cbaseoutputpin-decidebuffersize.md).
 

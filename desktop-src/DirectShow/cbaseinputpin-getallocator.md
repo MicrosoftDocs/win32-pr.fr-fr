@@ -1,5 +1,5 @@
 ---
-description: 'La méthode GetAllocator récupère l’allocateur de mémoire proposé par ce code confidentiel. Cette méthode implémente la méthode IMemInputPin :: GetAllocator.'
+description: 'Méthode CBaseInputPin. GetAllocator : la méthode GetAllocator récupère l’allocateur de mémoire proposé par ce code confidentiel. Cette méthode implémente la méthode IMemInputPin :: GetAllocator.'
 ms.assetid: 07bc77f8-a877-4403-b424-20bda715a818
 title: Méthode CBaseInputPin. GetAllocator (Amfilter. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 098738fc63ba1834b1eefb4b2518e3309db35c43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72aaf6bb4c1ff8bf108086a8a42a618267c4bc06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541046"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099708"
 ---
 # <a name="cbaseinputpingetallocator-method"></a>Méthode CBaseInputPin. GetAllocator
 
@@ -49,11 +49,11 @@ Adresse d’une variable qui reçoit un pointeur vers l’interface [**IMemAlloc
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur de la fonction **CoCreateInstance** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode crée un objet [**CMemAllocator**](cmemallocator.md) . Substituez cette méthode si votre filtre utilise un allocateur à partir d’un code confidentiel en aval ou d’un allocateur personnalisé.
 

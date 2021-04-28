@@ -1,5 +1,5 @@
 ---
-description: Crée une matrice qui met à l’échelle le long de l’axe x, de l’axe y et de l’axe z.
+description: D3DXMatrixScaling fonction (D3DX10Math. h)-crée une matrice qui met à l’échelle le long de l’axe x, de l’axe y et de l’axe z.
 ms.assetid: 1804bf41-26de-4be1-ad62-7a871d7408e6
 title: D3DXMatrixScaling, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: adb1becb67a561778b31c90ea3d6c96e776c9a67
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bf11b2196953775fb41412ad484a77ab00ae578e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323217"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108927"
 ---
 # <a name="d3dxmatrixscaling-function-d3dx10mathh"></a>D3DXMatrixScaling, fonction (D3DX10Math. h)
 
@@ -79,13 +79,13 @@ Facteur d’échelle appliqué le long de l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers la transformation de mise à l’échelle D3DXMATRIX.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre moue. De cette façon, la fonction D3DXMatrixScaling peut être utilisée comme paramètre pour une autre fonction.
 

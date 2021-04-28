@@ -1,15 +1,15 @@
 ---
 title: Gestion des erreurs dans COM (prise en main de Win32 et C++)
-description: .
+description: Gestion des erreurs dans COM (prise en main de Win32 et C++)
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505f8cfe6867db07da77616e6a94fdc257e32f3e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b69cf89170087469fa6ef8587fb5377e6374f6a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511112"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103917"
 ---
 # <a name="error-handling-in-com-get-started-with-win32-and-c"></a>Gestion des erreurs dans COM (prise en main de Win32 et C++)
 
@@ -25,8 +25,8 @@ COM utilise des valeurs **HRESULT** pour indiquer la réussite ou l’échec d�
 | **\_OUTOFMEMORY E**  | 0x8007000E    | Mémoire insuffisante.                                       |
 | **\_pointeur E**      | 0x80004003    | La valeur **null** a été transmise de manière incorrecte pour une valeur de pointeur. |
 | **E \_ inattendu**   | 0x8000FFFF    | Condition inattendue.                                |
-| **\_OK**           | 0x0           | Opération réussie.                                             |
-| **S \_ false**        | 0x1           | Opération réussie.                                             |
+| **\_OK**           | 0x0           | Réussite.                                             |
+| **S \_ false**        | 0x1           | Réussite.                                             |
 
 
 

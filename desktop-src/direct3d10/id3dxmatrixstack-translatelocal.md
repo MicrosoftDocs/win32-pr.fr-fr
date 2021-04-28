@@ -1,5 +1,5 @@
 ---
-description: Détermine le produit de la matrice de traduction calculée, déterminé par les facteurs donnés (x, y et z) et la matrice actuelle.
+description: 'ID3DXMATRIXStack :: TranslateLocal, méthode (D3DX10. h)-détermine le produit de la matrice de traduction calculée, déterminé par les facteurs donnés (x, y et z) et la matrice actuelle.'
 ms.assetid: 96399801-dd80-4e9a-a5c3-c5d41eb9368a
 title: 'ID3DXMATRIXStack :: TranslateLocal, méthode (D3DX10. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 65a627141f552107d88c3f43988daa0d316a0bef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 80fabea58bd30b0db9b3ff41b522614007fe4b7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538749"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107747"
 ---
 # <a name="id3dxmatrixstacktranslatelocal-method-d3dx10h"></a>ID3DXMATRIXStack :: TranslateLocal, méthode (D3DX10. h)
 
@@ -69,13 +69,13 @@ Facteur de translation dans l’axe z.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode multiplie la matrice actuelle par la matrice de traduction calculée (la transformation concerne l’origine locale de l’objet).
 

@@ -1,5 +1,5 @@
 ---
-description: Contient une liste de profils à appliquer au niveau du domaine ou de l’ordinateur.
+description: 'Élément profileList (LANPolicy) : contient une liste de profils à appliquer au niveau du domaine ou de l’ordinateur.'
 ms.assetid: 4f010449-0c6b-4a01-8253-4f82cd628f0a
 title: Élément profileList (LANPolicy)
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: b85c284262c070f7a9349933f99ad858cf047913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d18ebc99f48bf72599afe750863d684b8158608
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536741"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090777"
 ---
 # <a name="profilelist-lanpolicy-element"></a>Élément profileList (LANPolicy)
 
@@ -41,7 +41,7 @@ Quand [**enableAutoConfig**](lan-policyschema-enableautoconfig-globalflags-eleme
 
 L’élément **profileList** est défini par l’élément [**LANPolicy**](lan-policyschema-lanpolicy-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet élément doit contenir exactement un profil réseau. Si plusieurs profils sont spécifiés dans la stratégie, seul le premier réseau sera appliqué.
 

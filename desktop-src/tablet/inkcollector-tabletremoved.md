@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un IInkTablet est supprimé du système.
+description: Événement InkCollector. TabletRemoved-se produit lorsqu’un IInkTablet est supprimé du système.
 ms.assetid: 659a9809-fe35-4d34-aa95-af353998c350
 title: Événement InkCollector. TabletRemoved (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ec723a6752f79a1a1d56d318d49ec3d025919d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df76c27b1a0d47e456f69a789d17ef6343706284
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513399"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109997"
 ---
 # <a name="inkcollectortabletremoved-event"></a>Événement InkCollector. TabletRemoved
 
@@ -37,11 +37,11 @@ Valeur de type long qui a été utilisée comme ID de l’objet [**IInkTablet**]
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkCollectorEvents, \_ IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec l’ID DISPID \_ ICETabletRemoved.
 

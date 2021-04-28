@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Sync. ItemID
 ms.assetid: bf5ea477-2d5e-4c40-917e-3ef8057efc25
 title: System. Sync. ItemID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdd403d9e7bd1326cd444af52f4e7378a7b51c4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aeebc9a4c365a112bc9c4cc5ee65a0d21a800e7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758865"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091377"
 ---
 # <a name="systemsyncitemid"></a>System. Sync. ItemID
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

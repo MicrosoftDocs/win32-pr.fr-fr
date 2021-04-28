@@ -1,5 +1,5 @@
 ---
-description: Définit un nombre à virgule flottante.
+description: 'ID3DXConstantTable :: SetFloat, méthode-définit un nombre à virgule flottante.'
 ms.assetid: 920cbcf2-ccb9-4533-abbc-6bab8b159ebe
 title: 'ID3DXConstantTable :: SetFloat, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5048f08acc470e5244de80f4e5618c7416bc1bbf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6589d56e0b9dcf8debe14a7c81f86a4972a73405
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535180"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115217"
 ---
 # <a name="id3dxconstanttablesetfloat-method"></a>ID3DXConstantTable :: SetFloat, méthode
 
@@ -69,7 +69,7 @@ Nombre à virgule flottante.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -1,5 +1,5 @@
 ---
-description: Définit les données nécessaires pour appeler une boîte de dialogue d’appareil.
+description: 'Structure DEVICEDIALOGDATA2 : définit les données nécessaires pour appeler une boîte de dialogue d’appareil.'
 ms.assetid: 544238de-310f-4fc3-b519-bb4e6b309272
 title: DEVICEDIALOGDATA2, structure (Wiadefd. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: f4ab56114054b4f69a21fd9f4c05a1e119bab5da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82ca6cba81101e577eed882ad45272ab81546fed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034535"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089803"
 ---
 # <a name="devicedialogdata2-structure"></a>DEVICEDIALOGDATA2, structure
 
@@ -61,11 +61,11 @@ Spécifie la taille de cette structure en octets.
 **pIWiaItemRoot**
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-Pointe vers une interface [_ *IWiaItem2* *](-wia-iwiaitem2.md) qui représente l’élément racine valide dans l’arborescence d’éléments de l’application.
+Pointe vers une interface [**IWiaItem2**](-wia-iwiaitem2.md) qui représente l’élément racine valide dans l’arborescence d’éléments de l’application.
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ Reçoit le nombre de chaînes écrites dans le tableau **pbstrFilePaths** .
 **pbstrFilePaths**
 </dt> <dd>
 
-Type : **BSTR \** _
+Type : **BSTR \***
 
 </dd> <dd>
 
@@ -147,14 +147,14 @@ Pointeur vers un tableau de pointeurs BSTR. Chaque élément de tableau pointe v
 
 </dd> <dt>
 
-_ *ppWiaItem**
+**ppWiaItem**
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-Pointeur vers l’interface [_ *IWiaItem2* *](-wia-iwiaitem2.md) de l’élément WIA qui transfère les données vers le ou les fichiers nommés dans le tableau **pbstrFilePaths** .
+Pointeur vers l’interface [**IWiaItem2**](-wia-iwiaitem2.md) de l’élément WIA qui transfère les données vers le ou les fichiers nommés dans le tableau **pbstrFilePaths** .
 
 </dd> </dl>
 

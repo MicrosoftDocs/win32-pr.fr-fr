@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. contact. ConnectedServiceSupportedActions
 ms.assetid: 93c10b75-2071-46fa-9ff0-57b317f53af8
 title: System. contact. ConnectedServiceSupportedActions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2bc951803fe9786c51132ea0c20316bbc71555f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0a4c9a483e7bda8e2252b7be0124ee4cedfc2f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868337"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102447"
 ---
 # <a name="systemcontactconnectedservicesupportedactions"></a>System. contact. ConnectedServiceSupportedActions
 
@@ -28,7 +28,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

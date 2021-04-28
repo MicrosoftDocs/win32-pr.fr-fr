@@ -1,5 +1,5 @@
 ---
-description: Décrit les valeurs de couleur.
+description: D3DCOLORVALUE structure (D3D9Types. h)-décrit les valeurs de couleur.
 ms.assetid: 6af8c2ec-bc79-4dc6-b56d-7a7676a50b39
 title: D3DCOLORVALUE, structure (D3D9Types. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1fe2f187921749207bbbf51d7fcfd75357a70858
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9b55fbf718382e9dca7e3999cce0cabe895a261
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322741"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116057"
 ---
 # <a name="d3dcolorvalue-structure-d3d9typesh"></a>D3DCOLORVALUE, structure (D3D9Types. h)
 
@@ -86,7 +86,7 @@ Valeur à virgule flottante qui spécifie le composant alpha d’une couleur. Ce
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Vous pouvez définir les membres de cette structure sur des valeurs situées en dehors de la plage comprise entre 0 et 1 pour implémenter des effets inhabituels. Les valeurs supérieures à 1 produisent des lumières fortes qui ont tendance à nettoyer une scène. Les valeurs négatives produisent des lumières sombres qui suppriment en fait la lumière d’une scène.
 

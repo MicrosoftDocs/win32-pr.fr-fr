@@ -1,5 +1,5 @@
 ---
-description: Remplit un tableau avec les données de clé de rappel utilisées pour l’animation d’image clé.
+description: 'ID3DXCompressedAnimationSet :: GetCallbackKeys, méthode-remplit un tableau avec les données de clé de rappel utilisées pour l’animation d’image clé.'
 ms.assetid: 0dc30c1f-9ffb-42ec-8074-84293f16c344
 title: 'ID3DXCompressedAnimationSet :: GetCallbackKeys, méthode (D3dx9anim. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fe56a3dbdd7d019deb5d7111fa592470bffd244d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d7c430358b5ba7f66c5a79b08ae01925141e659f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106535181"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115327"
 ---
 # <a name="id3dxcompressedanimationsetgetcallbackkeys-method"></a>ID3DXCompressedAnimationSet :: GetCallbackKeys, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers un tableau alloué par l’utilisateur de structures de [**\_ rapp
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
