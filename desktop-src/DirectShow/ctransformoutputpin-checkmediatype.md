@@ -1,5 +1,5 @@
 ---
-description: La méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.
+description: 'Méthode CTransformOutputPin. CheckMediaType : la méthode CheckMediaType détermine si le code PIN accepte un type de média spécifique.'
 ms.assetid: 9e31480b-129c-4741-846a-854c70c65606
 title: Méthode CTransformOutputPin. CheckMediaType (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c3c2bc617a5ff56a8b82184700af85e2634960ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7dc0edc642687518979eab1d47c69af039bc3173
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530031"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084907"
 ---
 # <a name="ctransformoutputpincheckmediatype-method"></a>Méthode CTransformOutputPin. CheckMediaType
 
@@ -49,7 +49,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) qui contient le type de m
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
@@ -57,14 +57,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes.
 
 | Code de retour                                                                                  | Description                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                                 |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                                 |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | La broche d’entrée du filtre n’est pas connectée.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode implémente la méthode [**CBasePin :: CheckMediaType**](cbasepin-checkmediatype.md) virtuelle pure. La méthode échoue si la broche d’entrée du filtre n’est pas connectée. Sinon, elle appelle la méthode [**CTransformFilter :: CheckTransform**](ctransformfilter-checktransform.md) du filtre, qui est également pure virtual. La classe dérivée du filtre doit implémenter **CheckTransform**, qui détermine si le type de média de sortie proposé est compatible avec le type de média d’entrée.
 

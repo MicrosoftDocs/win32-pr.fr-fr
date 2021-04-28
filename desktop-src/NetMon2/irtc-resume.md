@@ -1,5 +1,5 @@
 ---
-description: La méthode Resume redémarre une capture suspendue.
+description: 'IRTC :: Resume, méthode-la méthode Resume redémarre une capture suspendue.'
 ms.assetid: 685dfdee-3bd0-44b3-ac4f-c9960cf77c5c
 title: 'IRTC :: Resume, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 991f70944b44ce13641318219788d9d6122b15c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55e5cb66eecbee96df9573e9347d1f32e3508d2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106525000"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110560"
 ---
 # <a name="irtcresume-method"></a>IRTC :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -56,7 +56,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas capturées tant qu’un appel à la méthode [IRTC :: Resume](idelaydc-resume.md) n’a pas redémarré la capture.
 

@@ -1,5 +1,5 @@
 ---
-description: Non pris en charge.
+description: 'IAMTimelineObj :: GetTimelineNoRef, méthode non prise en charge.'
 ms.assetid: be7721e4-ba43-47c1-b955-e97afc5caac4
 title: 'IAMTimelineObj :: GetTimelineNoRef, méthode (qedit. h)'
 ms.topic: reference
@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e51071f261a3b9a22665a1024d992a6fd97dfd4b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f36918f7e2bc52fb8cb2898930ff1971ad33b74b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533004"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098529"
 ---
 # <a name="iamtimelineobjgettimelinenoref-method"></a>IAMTimelineObj :: GetTimelineNoRef, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 
@@ -52,11 +52,11 @@ Réservé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 > [!Note]  
 > Le fichier d’en-tête qedit. h n’est pas compatible avec les en-têtes Direct3D ultérieurs à la version 7.

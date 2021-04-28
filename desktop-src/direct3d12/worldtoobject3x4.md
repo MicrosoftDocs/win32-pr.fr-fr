@@ -1,5 +1,5 @@
 ---
-description: Matrice pour la transformation de l’espace universel à l’espace de l’objet.
+description: 'WorldToObject3x4 : matrice de transformation de l’espace universel vers l’espace de l’objet.'
 ms.assetid: ''
 title: WorldToObject3x4
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - WorldToObject3x4
 api_type:
 - NA
-ms.openlocfilehash: 6274b1d4d18aff0464d933c20f7b8052f3389e5f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc7bf7dc2f06102b9b23eafd45655f12816c8359
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529101"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105237"
 ---
 # <a name="worldtoobject3x4"></a>WorldToObject3x4
 
@@ -33,7 +33,7 @@ void WorldToObject3x4();
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La matrice est une transposition de la matrice **WorldToObject4x3** .
 

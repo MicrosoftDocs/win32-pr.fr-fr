@@ -1,5 +1,5 @@
 ---
-description: La méthode StartService met le service dans un état Démarré.
+description: Méthode StartService de la classe CIM_Service (fournisseurs WMI CIMWin32)-la méthode StartService met le service dans un état Démarré.
 ms.assetid: 0f2880ed-1643-4211-8684-12493711b1f8
 ms.tgt_platform: multiple
 title: Méthode StartService de la classe CIM_Service (fournisseurs WMI CIMWin32)
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1592552595c06ec7111041cbb1c1b1d2628f8b6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6027112323fc14abf4c4a8dc667b921025a5e652
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748420"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086167"
 ---
 # <a name="startservice-method-of-the-cim_service-class-cimwin32-wmi-providers"></a>Méthode StartService de la classe CIM_Service (fournisseurs WMI CIMWin32)
 
@@ -45,11 +45,11 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur. Dans une sous-classe, l’ensemble des codes de retour possibles peut être spécifié à l’aide d’un qualificateur **ValueMap** sur la méthode. Les chaînes dans lesquelles le contenu **ValueMap** est traduit peuvent également être spécifiées dans la sous-classe en tant que qualificateur de tableau de **valeurs** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

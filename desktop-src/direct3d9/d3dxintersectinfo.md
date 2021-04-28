@@ -1,5 +1,5 @@
 ---
-description: Décrit une intersection de rayons de rayon.
+description: D3DXINTERSECTINFO structure-décrit une intersection de rayons de rayon.
 ms.assetid: b6f50fc0-2c8a-4efa-a144-bd0851f8b0ca
 title: D3DXINTERSECTINFO, structure (D3dx9mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 31a98e9a7095e81e962b2996dedb9bdf5871533d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f4a63c7f4a479bfbe9dcb49f485ce0acb8db6486
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531332"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098287"
 ---
 # <a name="d3dxintersectinfo-structure"></a>D3DXINTERSECTINFO, structure
 
@@ -86,7 +86,7 @@ Distance le long du rayon où l’intersection s’est produite.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les coordonnées Barycentric définissent un point à l’intérieur d’un triangle en termes de sommets du triangle. Pour une description plus détaillée des coordonnées Barycentric, consultez [la description des coordonnées Barycentric de MathWorld](https://mathworld.wolfram.com/BarycentricCoordinates.html).
 

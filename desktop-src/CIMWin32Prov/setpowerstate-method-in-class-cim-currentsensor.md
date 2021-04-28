@@ -1,5 +1,5 @@
 ---
-description: La méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
+description: Méthode SetPowerState de la classe CIM_CurrentSensor-la méthode SetPowerState définit l’état d’alimentation souhaité pour un périphérique logique et lorsqu’un appareil doit être placé dans cet État.
 ms.assetid: 8dd54a71-152a-4668-bdb6-c0968d8ff094
 ms.tgt_platform: multiple
 title: Méthode SetPowerState de la classe CIM_CurrentSensor
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e3da58796e783ef9b1c9141a6e226935c881a95f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1a5f546ea13cf085b09315abe56369d5ba0e152
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086197"
 ---
 # <a name="setpowerstate-method-of-the-cim_currentsensor-class"></a>Méthode SetPowerState de la \_ classe CIM CurrentSensor
 
@@ -102,11 +102,11 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -1,5 +1,5 @@
 ---
-description: Fournit l'accès aux propriétés et aux méthodes exposées par un objet.
+description: 'Méthode CMediaControl. Invoke : fournit l’accès aux propriétés et aux méthodes exposées par un objet.'
 ms.assetid: 05006f1e-24ff-4ed2-8291-2ba48495fec0
 title: CMediaControl. Invoke, méthode (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7b9a29d163180ffc609ca44f2bbbfb2870c5faef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe077b2c69f603eef8737cbf7ea8c514e9b90c85
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538116"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085637"
 ---
 # <a name="cmediacontrolinvoke-method"></a>CMediaControl. Invoke, méthode
 
@@ -105,7 +105,7 @@ Pointeur vers l’index du premier argument, dans le tableau **rgvarg** de la st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la \_ valeur DISP E \_ UNKNOWNINTERFACE si *riid* n’est pas un IID \_ null. Retourne l’un des codes d’erreur de [**CMediaControl :: GetTypeInfo**](cmediacontrol-gettypeinfo.md) si l’appel échoue. Sinon, retourne le **HRESULT** de l’appel à **IDispatch :: Invoke**.
 

@@ -1,6 +1,6 @@
 ---
 title: Message TB_SETHOTITEM2 (commctrl. h)
-description: Définit l’élément réactif dans une barre d’outils.
+description: 'TB_SETHOTITEM2 message : définit l’élément réactif dans une barre d’outils.'
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
 - TB_SETHOTITEM2 les contrôles de message Windows
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7027920e4363b46fcc0b6d9b0d87129e01843318
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7daf67839837adccfbec99bf03fc4dfff97738db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742652"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104137"
 ---
 # <a name="tb_sethotitem2-message"></a>TO \_ SETHOTITEM2 message
 
@@ -39,11 +39,11 @@ Index de l’élément qui sera rendu chaud. Si cette valeur est-1, aucun des é
 *lParam* 
 </dt> <dd>Combinaison d’indicateurs HICF \_ xxx. Consultez <a href="/windows/win32/api/commctrl/ns-commctrl-nmtbhotitem">**NMTBHOTITEM**</a>.</dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’index de l’élément réactif précédent, ou-1 s’il n’y a pas d’élément réactif.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le comportement de ce message n’est pas défini pour les barres d’outils qui n’ont pas le style [**\_ plat TBSTYLE**](toolbar-control-and-button-styles.md) .
 

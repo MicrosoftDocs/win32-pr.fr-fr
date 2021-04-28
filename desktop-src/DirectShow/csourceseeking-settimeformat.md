@@ -1,5 +1,5 @@
 ---
-description: 'La méthode SetTimeFormat définit le format d’heure. Cette méthode implémente la méthode IMediaSeeking :: SetTimeFormat.'
+description: 'Méthode CSourceSeeking. SetTimeFormat : la méthode SetTimeFormat définit le format d’heure. Cette méthode implémente la méthode IMediaSeeking :: SetTimeFormat.'
 ms.assetid: dbc7c950-8cc2-4f8e-adfa-8f5cdc1b56c7
 title: Méthode CSourceSeeking. SetTimeFormat (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 61ab0cdf7c954e0fa5f370127f00529bb9ef7b16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fdb3889ecfa5bdcd49b4054822a2b2d09df58fa6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537919"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085197"
 ---
 # <a name="csourceseekingsettimeformat-method"></a>Méthode CSourceSeeking. SetTimeFormat
 
@@ -49,7 +49,7 @@ Pointeur vers un GUID de format d’heure. Consultez [**GUID de format d’heure
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
@@ -57,7 +57,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
 | Code de retour                                                                                  | Description                                   |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                           |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                           |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | Le format spécifié n’est pas pris en charge.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null** .<br/>         |
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** listées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le seul format d’heure pris en charge par la classe de base est le format d’heure du \_ \_ \_ temps de support (unités de 100 nanosecondes).
 

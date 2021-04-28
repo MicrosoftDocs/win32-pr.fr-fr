@@ -1,5 +1,5 @@
 ---
-description: TakeOwnerShip&\# 8194 ; La méthode de classe WMI obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
+description: Méthode TakeOwnerShip de la classe Win32_PageFile-TakeOwnerShip&\# 8194 ; La méthode de classe WMI obtient la propriété du fichier logique spécifié dans le chemin d’accès de l’objet.
 ms.assetid: c4f42d54-562c-4163-a5ec-e94f76932631
 ms.tgt_platform: multiple
 title: Méthode TakeOwnerShip de la classe Win32_PageFile
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3265e0acc065f63daca2ed6485269ac8c006ad8d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3aa0b2ec9f3805f1877f86bdf86d72b921d53ac9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086017"
 ---
 # <a name="takeownership-method-of-the-win32_pagefile-class"></a>Méthode TakeOwnerShip de la \_ classe du fichier d’échange Win32
 
@@ -40,7 +40,7 @@ uint32 TakeOwnerShip();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur.
 

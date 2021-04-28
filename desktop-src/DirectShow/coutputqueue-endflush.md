@@ -1,5 +1,5 @@
 ---
-description: La méthode EndFlush termine une opération de vidage.
+description: 'Méthode COutputQueue. EndFlush : la méthode EndFlush termine une opération de vidage.'
 ms.assetid: 9171a62a-9072-49a3-8e83-f66d7e1483da
 title: Méthode COutputQueue. EndFlush (Outputq. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e18afec866176147c5c75a57fca522c4ebc5fcf6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37701526de66c8cd679f6849703c4eb2a1feb3ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540562"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099007"
 ---
 # <a name="coutputqueueendflush-method"></a>Méthode COutputQueue. EndFlush
 
@@ -40,11 +40,11 @@ void EndFlush();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Si l’objet utilise un thread, cette méthode attend l’événement [**COutputQueue :: m \_ evFlushComplete**](coutputqueue-m-evflushcomplete.md) . Le thread signale cet événement après qu’il a libéré des échantillons en attente. Si l’objet n’utilise pas de thread, cette méthode appelle la méthode [**COutputQueue :: FreeSamples**](coutputqueue-freesamples.md) . La `EndFlush` méthode appelle ensuite la méthode [**IPIN :: EndFlush**](/windows/desktop/api/Strmif/nf-strmif-ipin-endflush) sur la broche d’entrée.
 

@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le pointeur de la souris se trouve sur l’objet InkCollector ou InkOverlay et qu’un bouton de la souris est relâché.
+description: Événement InkCollector. MouseUp-se produit lorsque le pointeur de la souris se trouve sur l’objet InkCollector ou InkOverlay et qu’un bouton de la souris est relâché.
 ms.assetid: 6dcc6c68-89f7-4020-b378-56df9d46974b
 title: Événement InkCollector. MouseUp (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f217cf6f5eeff930c1746d1a5ceac180686942
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc4fde64603a00ecb8a47d3869f2eb90352fcc4f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484369"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110147"
 ---
 # <a name="inkcollectormouseup-event"></a>Événement InkCollector. MouseUp
 
@@ -69,11 +69,11 @@ Coordonnée y, en pixels, d’un clic de souris.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour améliorer les performances de l’encre en temps réel, masquez ou affichez le curseur de la souris dans les gestionnaires d’événements [**MouseDown**](inkcollector-mousedown.md) et **MouseUp** .
 

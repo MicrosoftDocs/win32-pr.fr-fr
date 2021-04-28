@@ -1,5 +1,5 @@
 ---
-description: Éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu Démarrer et à sélectionner éjecter le PC, si votre ordinateur prend en charge cette commande.
+description: 'Méthode IShellDispatch. EjectPC : éjecte l’ordinateur de sa station d’accueil. Cela revient à cliquer sur le menu Démarrer et à sélectionner éjecter le PC, si votre ordinateur prend en charge cette commande.'
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
 title: Méthode IShellDispatch. EjectPC (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d85dd8c007338dca3d68183bc9ba3fbd333195ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac42e1a4331a553a03bac3da50a187e06c90859c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201712"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086637"
 ---
 # <a name="ishelldispatchejectpc-method"></a>Méthode IShellDispatch. EjectPC
 
@@ -45,7 +45,7 @@ IShellDispatch.EjectPC()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. EjectPC**](shell-ejectpc.md) .
 
@@ -113,7 +113,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

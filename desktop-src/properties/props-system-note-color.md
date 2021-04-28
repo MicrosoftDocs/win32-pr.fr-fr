@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. note. Color
 ms.assetid: 862d64df-cbea-4b0a-9603-a60ca972a792
 title: System. note. Color
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dadd5967e219cd6252e26985ffff7f3cb951e502
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ad36b5db79eba7a9b765c338b86a5109c6f50a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110407"
 ---
 # <a name="systemnotecolor"></a>System. note. Color
 
@@ -100,7 +100,7 @@ propertyDescription
             defineName = NOTE_COLOR_LIGHTGREEN
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

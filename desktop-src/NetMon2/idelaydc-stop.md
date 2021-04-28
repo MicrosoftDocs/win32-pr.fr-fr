@@ -1,5 +1,5 @@
 ---
-description: La méthode Stop arrête la capture en cours.
+description: 'IDelaydC :: Stop, méthode : la méthode Stop arrête la capture en cours.'
 ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
 title: 'IDelaydC :: Stop, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 42c9cc1c4b6da7b5f934dd96f26aa9348c43ac0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38be5b6ba4c3f6edcd716f4d0235150e96dd692a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110777"
 ---
 # <a name="idelaydcstop-method"></a>IDelaydC :: Stop, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une structure de [statistiques](statistics.md) qui contient des st
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -65,7 +65,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Quand **IDelaydC :: Stop** est appelé, moniteur réseau arrête la capture des données et ferme le [*fichier de capture*](c.md). (Le nom du fichier de capture a été retourné lors de l’appel de [IDelaydC :: Start](idelaydc-start.md) ). Vous pouvez maintenant examiner le contenu du fichier de capture.
 

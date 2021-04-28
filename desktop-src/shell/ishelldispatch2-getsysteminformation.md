@@ -1,5 +1,5 @@
 ---
-description: Récupère des informations système.
+description: 'Méthode IShellDispatch2. GetSystemInformation : récupère les informations système.'
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
 title: Méthode IShellDispatch2. GetSystemInformation (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 624c7383d458f20a13f0e2249ec302181fc4a7ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81ac091dc1905c1cbcd2c41575c907ce957e60c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863138"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117107"
 ---
 # <a name="ishelldispatch2getsysteminformation-method"></a>Méthode IShellDispatch2. GetSystemInformation
 
@@ -58,7 +58,7 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -72,7 +72,7 @@ Type : **variante**
 
 Retourne la valeur des informations système demandées. Le type de retour dépend des informations système demandées. Pour plus d'informations, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. GetSystemInformation**](./shell-getsysteminformation.md) .
 
@@ -193,7 +193,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -1,15 +1,15 @@
 ---
 title: Protocoles de routage
-description: .
+description: Protocoles de routage
 ms.assetid: 85302ad2-77f9-474e-a20f-ae64bfd3b45c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b3e52ada14206b99ef2d7281c40e59fabcd0df3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 836c6bcaddafc22243367a4dec98a0faac886ee6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084217"
 ---
 # <a name="routing-protocols"></a>Protocoles de routage
 
@@ -25,7 +25,7 @@ Les API de routage sont conçues pour être utilisées par les programmeurs C/C+
 
 Les protocoles de routage sont une technologie serveur. Toutes les fonctionnalités des protocoles de routage sont incorporées dans Windows Server 2008, Windows Server 2003 et Windows 2000 Server. Les applications de routage ne peuvent pas s’exécuter sur des systèmes d’exploitation clients, tels que Windows XP ou Windows Vista. Pour plus d’informations sur les systèmes d’exploitation qui prennent en charge une fonction particulière, reportez-vous aux sections relatives à la configuration requise dans la documentation.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Gestionnaire de groupe de multidiffusion](about-multicast-group-manager.md)
 -   [Interface de protocole de routage](about-routing-protocol-interface.md)
@@ -42,9 +42,9 @@ Les protocoles de routage sont une technologie serveur. Toutes les fonctionnalit
 [Routage](routing-start-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

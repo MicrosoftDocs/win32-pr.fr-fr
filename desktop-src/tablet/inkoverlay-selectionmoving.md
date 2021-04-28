@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque la position de la sélection actuelle est sur le point de changer, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
+description: L’événement InkOverlay. SelectionMoving-se produit lorsque la position de la sélection actuelle est sur le point de changer, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
 ms.assetid: 7cd7a5b1-4ae6-4038-afd0-6ef9d0700938
 title: InkOverlay. SelectionMoving, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9afc77198a6a7228e44b3f2bad8015c25a939812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ee4784e6b4c475c30d9b2a3ab30fe166ea3d67d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519494"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086697"
 ---
 # <a name="inkoverlayselectionmoving-event"></a>Événement InkOverlay. SelectionMoving
 
@@ -42,11 +42,11 @@ Rectangle dans lequel la sélection est déplacée après l’événement **Sele
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les \_ dispinterfaces IInkOverlayEvents et \_ IInkPictureEvents (dispinterfaces) avec un ID de DISPID \_ IOESelectionMoving.
 

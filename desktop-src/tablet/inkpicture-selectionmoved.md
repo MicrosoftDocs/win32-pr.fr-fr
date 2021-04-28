@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque la position de la sélection actuelle a changé, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
+description: L’événement InkPicture. SelectionMoved se produit lorsque la position de la sélection actuelle a changé, par exemple par le biais de modifications de l’interface utilisateur, de procédures couper-coller ou de la propriété de sélection.
 ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: InkPicture. SelectionMoved, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25810b87d5a0a3554c46b1a3869bb9b6c88d2fb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2006b2580e8732c90187b265576b217cdbad9b02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319726"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086447"
 ---
 # <a name="inkpictureselectionmoved-event"></a>InkPicture. SelectionMoved, événement
 
@@ -42,11 +42,11 @@ Rectangle englobant de la collection [InkStrokes](/previous-versions/windows/des
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ IOESelectionMoved.
 

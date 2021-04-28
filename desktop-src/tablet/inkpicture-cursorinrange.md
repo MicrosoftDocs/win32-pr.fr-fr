@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
+description: L’événement InkPicture. CursorInRange se produit lorsqu’un curseur entre dans la plage de détection physique (proximité) du contexte de la tablette.
 ms.assetid: e921e175-a2cf-45e6-bb81-dc82e384d3b1
 title: InkPicture. CursorInRange, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab0dead1fa5bd89452af15a19f36a132c6843d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d05d703022e8d97df0d8d74a73e20af3d91b8531
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086577"
 ---
 # <a name="inkpicturecursorinrange-event"></a>InkPicture. CursorInRange, événement
 
@@ -55,11 +55,11 @@ Pour plus d’informations sur la structure de la variante, consultez [utilisati
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode d’événement est définie dans les dispinterfaces **\_ IInkCollectorEvents**, **\_ IInkOverlayEvents** et **\_ IInkPictureEvents** (dispinterfaces) avec l’ID DISPID \_ ICECursorInRange.
 

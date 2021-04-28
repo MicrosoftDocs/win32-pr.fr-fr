@@ -1,5 +1,5 @@
 ---
-description: 'La méthode active indique au code confidentiel que le filtre est maintenant actif. Cette méthode remplace la méthode CBasePin :: active.'
+description: 'CRenderedInputPin. active, méthode : la méthode active indique au code confidentiel que le filtre est maintenant actif. Cette méthode remplace la méthode CBasePin :: active.'
 ms.assetid: e98ca947-df2f-41a7-9785-b35bd1dde1e6
 title: CRenderedInputPin. active, méthode (Amextra. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ae56439f5e19aa5c039ac81bdd8a7aafe0f2174
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8c9b06f41454d2cb9a7ac35dd7e8f8b335632f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106524055"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098927"
 ---
 # <a name="crenderedinputpinactive-method"></a>CRenderedInputPin. active, méthode
 
@@ -40,7 +40,7 @@ HRESULT Active();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne S \_ OK en cas de réussite, ou un code d’erreur dans le cas contraire.
 

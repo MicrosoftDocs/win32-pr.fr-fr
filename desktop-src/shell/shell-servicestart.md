@@ -1,5 +1,5 @@
 ---
-description: Démarre un service nommé.
+description: Méthode Shell. ServiceStart-démarre un service nommé.
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: Shell. ServiceStart, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8cd3b910306fc995d15e9731823614717450ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c88b1980d215ad088a4a24362f17147b5d6e432
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865261"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083747"
 ---
 # <a name="shellservicestart-method"></a>Shell. ServiceStart, méthode
 
@@ -69,21 +69,21 @@ Affectez la valeur **true** pour que le service démarre automatiquement par le 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** en cas de réussite ; Sinon, **false**.
+Retourne la **valeur true** en cas de réussite ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La méthode retourne la **valeur false** si le service a déjà été démarré. Avant d’appeler cette méthode, vous pouvez appeler [**Shell. IsServiceRunning**](./shell-isservicerunning.md) pour déterminer l’état du service.
 
@@ -129,7 +129,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

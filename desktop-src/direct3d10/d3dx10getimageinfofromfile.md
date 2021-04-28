@@ -1,5 +1,5 @@
 ---
-description: Récupère des informations sur un fichier image donné.
+description: 'Fonction D3DX10GetImageInfoFromFile : récupère des informations sur un fichier image donné.'
 ms.assetid: 59bdce45-82d9-42da-b847-a29ca71919b5
 title: D3DX10GetImageInfoFromFile, fonction (D3DX10Tex. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 836d2e18b5c1c48bbe64d0026e97f8ebc5a066ba
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e11c4cb52176b0a144e164501f8c70d1e3678c1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531515"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098330"
 ---
 # <a name="d3dx10getimageinfofromfile-function"></a>D3DX10GetImageInfoFromFile fonction)
 
@@ -79,13 +79,13 @@ Pointeur vers la valeur de retour. Peut avoir la **valeur null**. Si *pPump* n�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la suivante : D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette fonction prend en charge les chaînes Unicode et ANSI.
 

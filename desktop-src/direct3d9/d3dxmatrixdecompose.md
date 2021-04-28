@@ -1,5 +1,5 @@
 ---
-description: Décompose une matrice de transformation 3D générale en ses composants scalaires, de rotation et de translation.
+description: 'Fonction D3DXMatrixDecompose (D3dx9math. h) : décompose une matrice de transformation 3D générale en ses composants scalaires, de rotation et de translation.'
 ms.assetid: 73d3c248-1254-444e-9fd8-4f144424ddb7
 title: D3DXMatrixDecompose, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 92f120f1c3637216d77a5298b5de219f5605d571
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aaaa1059c4ffeafa453694d9c348656c856decaa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539908"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098187"
 ---
 # <a name="d3dxmatrixdecompose-function-d3dx9mathh"></a>D3DXMatrixDecompose, fonction (D3dx9math. h)
 
@@ -79,7 +79,7 @@ Pointeur vers une matrice d’entrée [**D3DXMATRIX**](d3dxmatrix.md) à décomp
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

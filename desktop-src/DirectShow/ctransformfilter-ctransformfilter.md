@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CTransformFilter. CTransformFilter.
 ms.assetid: a64c3e29-91f2-455f-aac1-1e4ecce6958d
 title: Constructeur CTransformFilter. CTransformFilter (Transfrm. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39569dff69c2ab1ebb635cb69a4c71602a7400d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fce67bbe22361bdbae0cd3e51768e0cf0743d97d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098717"
 ---
 # <a name="ctransformfilterctransformfilter-constructor"></a>Constructeur CTransformFilter. CTransformFilter
 
@@ -65,7 +65,7 @@ Identificateur de classe du filtre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le constructeur ne crée pas les codes confidentiels du filtre. Cela se produit lors du premier appel à la méthode [**GetPin**](ctransformfilter-getpin.md) . Le constructeur initialise les variables de membre [**m \_ pInput**](ctransformfilter-m-pinput.md) et [**m \_ pOutput**](ctransformfilter-m-poutput.md) à la **valeur null**.
 

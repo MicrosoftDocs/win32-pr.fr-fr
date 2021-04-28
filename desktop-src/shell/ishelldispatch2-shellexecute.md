@@ -1,5 +1,5 @@
 ---
-description: Exécute une opération spécifiée sur un fichier spécifié.
+description: IShellDispatch2. ShellExecute, méthode-effectue une opération spécifiée sur un fichier spécifié.
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
 title: IShellDispatch2. ShellExecute, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ed5a8a2732f8ca358a0582d1da23aa7ffa7a98df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c058275948d5d96805ae24a76389321d7c69b8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117017"
 ---
 # <a name="ishelldispatch2shellexecute-method"></a>IShellDispatch2. ShellExecute, méthode
 
@@ -104,7 +104,7 @@ Recommandation relative à l’affichage initial de la fenêtre d’application.
 
 | Valeur                                                                                                                               | Signification                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt></dt> <dt>0</dt> </dl>  | Ouvrez l’application à l’aide d’une fenêtre masquée.<br/>                                                                                                    |
+| <dl> <dt></dt><dt>0</dt> </dl>  | Ouvrez l’application à l’aide d’une fenêtre masquée.<br/>                                                                                                    |
 | <dl> <dt></dt> <dt>1</dt> </dl>  | Ouvrez l’application avec une fenêtre normale. Si la fenêtre est réduite ou agrandie, le système la restaure à sa taille et à sa position d’origine.<br/> |
 | <dl> <dt></dt> <dt>2</dt> </dl>  | Ouvrez l’application avec une fenêtre réduite.<br/>                                                                                                 |
 | <dl> <dt></dt> <dt>3</dt> </dl>  | Ouvrez l’application avec une fenêtre agrandie.<br/>                                                                                                 |
@@ -119,7 +119,7 @@ Recommandation relative à l’affichage initial de la fenêtre d’application.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. ShellExecute**](./shell-shellexecute.md) .
 
@@ -166,7 +166,7 @@ VBScript
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

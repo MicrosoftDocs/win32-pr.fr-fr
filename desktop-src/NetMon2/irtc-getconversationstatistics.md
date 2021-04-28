@@ -1,5 +1,5 @@
 ---
-description: La méthode GetConversationStatistics récupère les informations de session et de station relatives à la capture en cours.
+description: 'IRTC :: GetConversationStatistics, méthode : la méthode GetConversationStatistics récupère les informations de session et de station relatives à la capture en cours.'
 ms.assetid: 27f364cd-fee9-4262-b181-c5f15fb12e51
 title: 'IRTC :: GetConversationStatistics, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 758488cb3c3f65922bbf6aac4f39774a5430fc92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d2476f4eb33d7e74d0de8363fa88d5e688a2e73
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864070"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110697"
 ---
 # <a name="irtcgetconversationstatistics-method"></a>IRTC :: GetConversationStatistics, méthode
 
@@ -79,7 +79,7 @@ Indicateur utilisé pour indiquer à Moniteur réseau d’effacer le stockage in
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -98,7 +98,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode peut uniquement être appelée pendant que vous capturez des données ; Si vous appelez cette méthode alors que la capture en cours est suspendue, la méthode échoue. Pour démarrer une capture, appelez la méthode [IRTC :: Start](irtc-start.md) .
 

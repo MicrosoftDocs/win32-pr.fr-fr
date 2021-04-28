@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque la classe InkCollector détecte un bouton de curseur en dessous.
+description: L’événement InkPicture. CursorButtonDown-se produit lorsque la classe InkCollector détecte un bouton de curseur inactif.
 ms.assetid: 9ee2c19e-8a44-428b-a4c1-3c7250dcdeda
 title: InkPicture. CursorButtonDown, événement (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4531f41ce597d9cbb1fa0b8665a1821a8a32dd3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c2017cd7dc2291bdb29aa01df3d94f20211b7cf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209922"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116777"
 ---
 # <a name="inkpicturecursorbuttondown-event"></a>InkPicture. CursorButtonDown, événement
 
@@ -45,11 +45,11 @@ Bouton qui a été enfoncé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un bouton sur une info-bulle est enfoncé lorsque l’utilisateur réduit le stylet au digitaliseur et démarre le traçage d’un trait. Un bouton sur un tonneau est enfoncé lorsque le bouton est enfoncé.
 

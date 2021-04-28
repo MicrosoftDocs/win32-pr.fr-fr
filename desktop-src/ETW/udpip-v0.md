@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.
+description: 'Classe UdpIp_V0 : cette classe est la classe parente pour les événements UDP/IP. La syntaxe suivante est simplifiée à partir du code MOF.'
 ms.assetid: 2c7ac6b2-7dd7-4da7-ae0b-ac0ffffeb74b
 title: Classe UdpIp_V0
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b37bd31ea5ec2678e933b9f42efd13282b85d23a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 845466d630a671416ac465d0b73d99976d4521e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972275"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105417"
 ---
 # <a name="udpip_v0-class"></a>UdpIp \_ v0 (classe)
 
@@ -38,7 +38,7 @@ class UdpIp_V0 : MSNT_SystemTrace
 
 La classe **UdpIp \_ v0** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

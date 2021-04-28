@@ -1,25 +1,13 @@
 ---
-description: 'Affiche la boîte de dialogue résultats de la recherche : ordinateurs. La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.'
-ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
-title: Shell. FindComputer, méthode (shldisp. h)
-ms.topic: reference
-ms.date: 05/31/2018
-topic_type:
+Description : méthode Shell. FindComputer-affiche la boîte de dialogue résultats de la recherche : ordinateurs. La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.
+ms. AssetID : 0304b955-AFDE-4DE4-824a-9ec9c9530360 title : Shell. FindComputer, méthode (shldisp. h) ms. topic : référence ms. Date : 05/31/2018 topic_type : 
 - APIRef
-- kbSyntax
-api_name:
-- Shell.FindComputer
-api_type:
-- COM
-api_location:
+- api_name kbSyntax : 
+- Api_type Shell. FindComputer : 
+- Api_location COM : 
 - Shell32.dll
-ms.openlocfilehash: 3824eeb98bfac11e007d1bf7dd9f89153a7b73ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973694"
 ---
+
 # <a name="shellfindcomputer-method"></a>Shell. FindComputer, méthode
 
 Affiche la boîte de dialogue résultats de la **recherche : ordinateurs** . La boîte de dialogue affiche le résultat de la recherche d’un ordinateur spécifié.
@@ -45,7 +33,7 @@ Shell.FindComputer()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -111,7 +99,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -125,9 +113,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

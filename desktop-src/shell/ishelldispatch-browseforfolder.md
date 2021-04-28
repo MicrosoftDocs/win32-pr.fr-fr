@@ -1,5 +1,5 @@
 ---
-description: Crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de retourner l’objet dossier du dossier sélectionné.
+description: 'Méthode IShellDispatch. BrowseForFolder : crée une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier, puis de renvoyer l’objet dossier sélectionné.'
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 title: Méthode IShellDispatch. BrowseForFolder (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4e603bb08b4b98ba4008aa4ea162c9b59e5d42da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee6202c7029e2c27684e15d96dd6c38680cb0678
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113986"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086687"
 ---
 # <a name="ishelldispatchbrowseforfolder-method"></a>Méthode IShellDispatch. BrowseForFolder
 
@@ -91,7 +91,7 @@ Dossier racine à utiliser dans la boîte de dialogue. L’utilisateur ne peut p
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
@@ -105,7 +105,7 @@ Type : **dossier \* \***
 
 Référence d’objet à l’objet [**dossier**](folder.md) du dossier sélectionné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode est implémentée et accessible par le biais de la méthode [**Shell. BrowseForFolder**](shell-browseforfolder.md) .
 
@@ -181,7 +181,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

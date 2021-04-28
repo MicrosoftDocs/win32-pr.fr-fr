@@ -1,15 +1,15 @@
 ---
-description: Se produit lorsque le InkCollector détecte un bouton de curseur en haut.
+description: Événement InkCollector. CursorButtonUp-se produit lorsque le InkCollector détecte un bouton de curseur en haut.
 ms.assetid: f07daad7-e0d1-45cf-a708-5486a5dfda8b
 title: Événement InkCollector. CursorButtonUp (Msinkaut. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 932d768c13da953d1926b28fb651c63dc26be572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 936b050c64d07a6957039278f0455bc71d77dbdf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515415"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110307"
 ---
 # <a name="inkcollectorcursorbuttonup-event"></a>Événement InkCollector. CursorButtonUp
 
@@ -45,11 +45,11 @@ Bouton qui a été relâché.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Un bouton sur une pointe de stylet est activé lorsque l’utilisateur termine un trait et soulève le stylet du digitaliseur. Un bouton sur un tonneau est activé lorsque le bouton n’est pas enfoncé.
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Media. MetadataContentProvider
 ms.assetid: 6fb4f43b-e274-4be5-a128-5b20ad3c4203
 title: System. Media. MetadataContentProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca38e97fb367032634c7936ca14cc70861fba356
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 08ae755992dc01df5bc990453ad445cad05a759a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106542084"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092107"
 ---
 # <a name="systemmediametadatacontentprovider"></a>System. Media. MetadataContentProvider
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

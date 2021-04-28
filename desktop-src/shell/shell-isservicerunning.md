@@ -1,5 +1,5 @@
 ---
-description: Retourne une valeur qui indique si un service particulier est en cours d’exécution.
+description: Shell. IsServiceRunning, méthode-retourne une valeur qui indique si un service particulier est en cours d’exécution.
 ms.assetid: FDC41C2D-7462-458f-BBE6-D97260C26B6C
 title: Shell. IsServiceRunning, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c3a65be4955c6f49e8e6baa49cd9dedb82fc5cc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01af900bb7930ec7b6dde0b0700c83f211733dc3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865262"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083717"
 ---
 # <a name="shellisservicerunning-method"></a>Shell. IsServiceRunning, méthode
 
@@ -58,21 +58,21 @@ Type : **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
+Retourne la **valeur true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
 
 ### <a name="vb"></a>VB
 
-Type : **Variant \** _
+Type : **variante \***
 
-Retourne _ *true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
+Retourne la **valeur true** si le service spécifié par *sServiceName* est en cours d’exécution ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode n’est pas disponible actuellement dans Microsoft Visual Basic.
 
@@ -113,7 +113,7 @@ end function
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

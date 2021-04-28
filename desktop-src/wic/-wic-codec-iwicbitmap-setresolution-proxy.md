@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode SetResolution.
+description: IWICBitmap_SetResolution_Proxy fonction de proxy de fonction pour la méthode SetResolution.
 ms.assetid: c4e3927c-6f9d-401d-acd7-711674cdbb53
 title: IWICBitmap_SetResolution_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: eef599147a67986c6b9853f7a67e53a15be68e00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f11189307ad14dde6ea1e1373583a8ab4b08b9be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516860"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086377"
 ---
 # <a name="iwicbitmap_setresolution_proxy-function"></a>IWICBitmap \_ \_ fonction proxy SetResolution
 
@@ -45,9 +45,9 @@ HRESULT IWICBitmap_SetResolution_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) \** _
+Type : **[ **IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)\***
 
-Pointeur vers cet objet [_ *IWICBitmap* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) .
+Pointeur vers cet objet [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) .
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Résolution verticale.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

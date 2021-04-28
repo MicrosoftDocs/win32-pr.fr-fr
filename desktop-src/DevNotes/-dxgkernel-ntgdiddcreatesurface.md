@@ -1,5 +1,5 @@
 ---
-description: Attache une surface à une autre surface.
+description: NtGdiDdCreateSurface fonction-attache une surface à une autre surface.
 ms.assetid: 4fd757c7-9e32-4737-b666-3226f6cf29fa
 title: NtGdiDdCreateSurface, fonction (Ntgdi. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 663d29be32dc544d44a47061e1a6ff7f81e60862
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf8e13cff80ddea4e102c045c174565e7e835274
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110131"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085777"
 ---
 # <a name="ntgdiddcreatesurface-function"></a>NtGdiDdCreateSurface fonction)
 
@@ -107,7 +107,7 @@ Est utilisé par l’API DirectDraw et ne doit pas être renseigné par le pilot
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 **NtGdiDdCreateSurface** retourne l’un des codes de rappel suivants.
 
@@ -122,7 +122,7 @@ Est utilisé par l’API DirectDraw et ne doit pas être renseigné par le pilot
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Il est recommandé que votre application appelle [IDirectDraw7 :: CreateSurface](/windows/win32/api/ddraw/nf-ddraw-idirectdraw7-createsurface) au lieu d’utiliser cette fonction.
 
