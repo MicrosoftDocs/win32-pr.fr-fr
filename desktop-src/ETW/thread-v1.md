@@ -1,5 +1,5 @@
 ---
-description: Cette classe est la classe parente pour les événements de thread. La syntaxe suivante est simplifiée à partir du code MOF.
+description: Classe Thread_V1-cette classe est la classe parente pour les événements de thread. La syntaxe suivante est simplifiée à partir du code MOF.
 ms.assetid: a434938d-032f-46c6-a94b-3936e56e2db9
 title: Classe Thread_V1
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 06f8d587d15cc059fa7760ebfcdc4d39726050ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65b92ce6924b56a015fbc580cd478122688e474d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952236"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105677"
 ---
 # <a name="thread_v1-class"></a>Classe de thread \_ v1
 
@@ -38,7 +38,7 @@ class Thread_V1 : MSNT_SystemTrace
 
 La classe **thread \_ v1** ne définit aucun membre.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

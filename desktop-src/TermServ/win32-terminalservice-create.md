@@ -1,6 +1,6 @@
 ---
 title: Créer une méthode de la classe Win32_Service (Services Bureau à distance)
-description: Crée un nouveau service système.
+description: 'Créer une méthode de la classe Win32_Service (Services Bureau à distance) : crée un nouveau service système.'
 ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be44d6c67e0d5bd6333f57c44cc44c25dc64e04a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9daf877f56bb7e9bfcc349e4efb38635a9286a48
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465970"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090687"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>Créer une méthode de la classe Win32_Service (Services Bureau à distance)
 
@@ -260,7 +260,7 @@ Tableau qui contient les noms des services qui doivent démarrer avant le démar
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -441,7 +441,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Les services sont généralement installés de l’une des deux manières suivantes : dans le cadre de l’installation du système d’exploitation ou à l’aide d’un programme d’installation fourni par le développeur du service. Toutefois, certains services, en particulier ceux créés en interne, peuvent ne pas avoir de programme d’installation. Dans ces instances, vous pouvez utiliser la méthode **Create** pour installer des services par programme.
 

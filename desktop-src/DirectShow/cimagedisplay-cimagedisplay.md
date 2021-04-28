@@ -1,5 +1,5 @@
 ---
-description: Méthode de constructeur.
+description: Méthode constructeur CImageDisplay. CImageDisplay.
 ms.assetid: 171a4f1e-a85d-4da8-9372-054aaa0e0a40
 title: Constructeur CImageDisplay. CImageDisplay (Winutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b9a6f902d75d104dbdcb7e04cc71a5ce7565185e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 389ac06488762d95afa1894f7cfc27d2f9e2725e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526858"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085647"
 ---
 # <a name="cimagedisplaycimagedisplay-constructor"></a>Constructeur CImageDisplay. CImageDisplay
 
@@ -40,7 +40,7 @@ CImageDisplay();
 
 Ce constructeur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le constructeur initialise le type de format, à l’aide des paramètres d’affichage du périphérique d’affichage principal.
 

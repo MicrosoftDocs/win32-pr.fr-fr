@@ -1,5 +1,5 @@
 ---
-description: Fait pivoter le vecteur d’harmonique sphérique (SH) dans l’axe z selon l’angle donné.
+description: 'Fonction D3DXSHRotateZ (D3DX10. h) : fait pivoter le vecteur d’harmonique sphérique (SH) dans l’axe z selon l’angle donné.'
 ms.assetid: 7c4bec55-4a4c-4f7e-8849-1cac373a2340
 title: D3DXSHRotateZ, fonction (D3DX10. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0348dd8dfed9b100f64c53427ca2b77dd48ccded
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55e4663057bd25ac9768a5913963a5511b662f11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953926"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108527"
 ---
 # <a name="d3dxshrotatez-function-d3dx10h"></a>D3DXSHRotateZ, fonction (D3DX10. h)
 
@@ -79,13 +79,13 @@ Pointeur vers les coefficients SH pivotés.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **float**](../winprog/windows-data-types.md)\***
 
 Pointeur vers les coefficients de sortie SH.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Chaque coefficient de la fonction de base YLM est stocké à l’emplacement de mémoire l ² + m + l, où :
 

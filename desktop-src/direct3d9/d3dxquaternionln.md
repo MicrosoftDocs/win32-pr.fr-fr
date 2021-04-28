@@ -1,5 +1,5 @@
 ---
-description: Calcule le logarithme népérien.
+description: 'Fonction D3DXQuaternionLn (D3dx9math. h) : calcule le logarithme népérien.'
 ms.assetid: 73ca7d13-1e20-48fc-b0ed-0d3127d094a7
 title: D3DXQuaternionLn, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b51fcc77da29216acd2bfc1c011a063014da5d69
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d1a529c1c6ca4d7f81bf4d41fcdb4a7c7179874b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104531017"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094057"
 ---
 # <a name="d3dxquaternionln-function-d3dx9mathh"></a>D3DXQuaternionLn, fonction (D3dx9math. h)
 
@@ -59,13 +59,13 @@ Pointeur vers la structure [**D3DXQUATERNION**](d3dxquaternion.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](d3dxquaternion.md)\***
 
 Pointeur vers une structure [**D3DXQUATERNION**](d3dxquaternion.md) qui est le logarithme népérien.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 La fonction **D3DXQuaternionLn** fonctionne uniquement pour les quaternions d’unité.
 

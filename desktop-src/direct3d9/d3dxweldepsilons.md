@@ -1,5 +1,5 @@
 ---
-description: Spécifie des valeurs de tolérance pour chaque composant de vertex lors de la comparaison des vertex pour déterminer s’ils sont suffisamment semblables pour être soudés ensemble.
+description: 'Structure D3DXWELDEPSILONS : spécifie les valeurs de tolérance pour chaque composant de vertex lors de la comparaison des vertex pour déterminer s’ils sont suffisamment similaires pour être soudés ensemble.'
 ms.assetid: 534903da-ff65-4629-9be9-66c9daed6ef5
 title: D3DXWELDEPSILONS, structure (D3dx9mesh. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 6b6673e16b153f53baf17967b7f33c4bcb40d518
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bb11e6f5481b1adf7cc1bac58edf40d4ac770e92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522967"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115497"
 ---
 # <a name="d3dxweldepsilons-structure"></a>D3DXWELDEPSILONS, structure
 
@@ -125,7 +125,7 @@ Huit coordonnées de texture
 
 </dd> <dt>
 
-**Tangence**
+**Tangente**
 </dt> <dd>
 
 Type : **[ **float**](../winprog/windows-data-types.md)**
@@ -158,7 +158,7 @@ Facteur de pavage
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le type LPD3DXWELDEPSILONS est défini en tant que pointeur vers la structure **D3DXWELDEPSILONS** .
 

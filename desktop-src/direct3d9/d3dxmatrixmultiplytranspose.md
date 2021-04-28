@@ -1,5 +1,5 @@
 ---
-description: Calcule le produit transposé de deux matrices.
+description: 'Fonction D3DXMatrixMultiplyTranspose (D3dx9math. h) : calcule le produit transposé de deux matrices.'
 ms.assetid: 43927500-9413-41a4-a6ee-974d85dd1054
 title: D3DXMatrixMultiplyTranspose, fonction (D3dx9math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b599453ae108a5a8bab8ee896858760c85799948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 87aaa45e7a7a16884d17ab340f0bf1efeccd93bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522334"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107537"
 ---
 # <a name="d3dxmatrixmultiplytranspose-function-d3dx9mathh"></a>D3DXMatrixMultiplyTranspose, fonction (D3dx9math. h)
 
@@ -69,13 +69,13 @@ Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) source.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est le produit de deux matrices.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Le résultat est le transpose du produit de deux matrices de transformation, out = T (M1 \* m2).
 

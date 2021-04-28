@@ -1,5 +1,5 @@
 ---
-description: Retourne une collection d’objets (classes ou instances) appelées points de terminaison associés à un objet spécifié.
+description: SWbemServices. AssociatorsOfAsync, méthode-retourne une collection d’objets (classes ou instances) appelées points de terminaison associés à un objet spécifié.
 ms.assetid: 3969d90f-d39c-40f1-9328-fc1afbaa53b1
 ms.tgt_platform: multiple
 title: SWbemServices. AssociatorsOfAsync, méthode (wbemdisp. h)
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d83f2eb33b7cd2d6ce6345d9b40a2367539dfec7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b16eed97c891b4b4f5bd283496868d99f9e0fbc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516980"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103667"
 ---
 # <a name="swbemservicesassociatorsofasync-method"></a>SWbemServices. AssociatorsOfAsync, méthode
 
@@ -184,7 +184,7 @@ Objet [**SWbemNamedValueSet**](swbemnamedvalueset.md) qui retourne au récepteur
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur. En cas de réussite, le récepteur reçoit un événement [**OnObjectReady**](swbemsink-onobjectready.md) par instance. Après la dernière instance, le récepteur d’objets reçoit un événement [**OnCompleted**](swbemsink-oncompleted.md) .
 
@@ -229,7 +229,7 @@ L’élément demandé est introuvable.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cet appel est retourné immédiatement. Les objets et l’État demandés sont retournés à l’appelant via des rappels remis au récepteur spécifié dans *objWbemSink*. Pour traiter chaque objet lorsqu’il retourne, créez un *objWbemSink*. Sous-routine d’événement [**OnObjectReady**](swbemsink-onobjectready.md) . Une fois que tous les objets sont retournés, vous pouvez effectuer le traitement final dans votre implémentation de *objWbemSink*. Événement [**OnCompleted**](swbemsink-oncompleted.md) .
 

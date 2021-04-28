@@ -1,5 +1,5 @@
 ---
-description: Demande un changement d’État.
+description: Méthode RequestStateChange de la classe Msvm_VssComponent-demande un changement d’État.
 ms.assetid: 27a8ab6e-afbd-4d87-afd6-8da0cc5e3fba
 title: Méthode RequestStateChange de la classe Msvm_VssComponent
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7aa40cb65caf41d731085c10aedf21932992e1dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f75d0e2eed242155f27a7355182bf616d14de7e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516418"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109267"
 ---
 # <a name="requeststatechange-method-of-the-msvm_vsscomponent-class"></a>Méthode RequestStateChange de la \_ classe MSVM VssComponent
 
@@ -141,7 +141,7 @@ Si cette propriété ne contient pas 0 ou null et que l’implémentation ne pre
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne l'une des valeurs suivantes :
 

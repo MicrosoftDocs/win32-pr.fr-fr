@@ -1,6 +1,6 @@
 ---
 title: Méthode StartService de la classe Win32_Service (Services Bureau à distance)
-description: Tente de placer le service référencé dans son état de démarrage.
+description: 'Méthode StartService de la classe Win32_Service (Services Bureau à distance) : tente de placer le service référencé dans son état de démarrage.'
 ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e37a17922fe0f4f3f5a3e4f1cd4d8eb67dc2858
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384548"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084197"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode StartService de la classe Win32_Service (Services Bureau à distance)
 
@@ -43,7 +43,7 @@ uint32 StartService();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 
@@ -224,7 +224,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Bien qu’il puisse sembler qu’il n’y ait aucune différence pratique entre un service arrêté et un service suspendu, les deux États apparaissent différemment pour le SCM. Un service arrêté est un service qui n’est pas en cours d’exécution et doit suivre l’intégralité de la procédure de démarrage du service. Toutefois, un service suspendu est toujours en cours d’exécution, mais son fonctionnement est suspendu. Pour cette raison, un service suspendu n’a pas besoin de traverser l’intégralité de la procédure de démarrage du service, mais il a besoin d’une procédure différente pour reprendre son fonctionnement.
 

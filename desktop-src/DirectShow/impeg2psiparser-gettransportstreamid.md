@@ -1,5 +1,5 @@
 ---
-description: L’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.
+description: 'IMpeg2PsiParser :: GetTransportStreamId, méthode-l’implémentation de cette méthode est fournie sous la forme d’un exemple de code avec le kit de développement logiciel (SDK) DirectShow. Il ne s’agit pas d’une API DirectShow prise en charge.'
 ms.assetid: 0c35abc0-984f-42df-a2a2-30cd400d4599
 title: 'IMpeg2PsiParser :: GetTransportStreamId, méthode'
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 9615c50d8d16aa6d78e3e1b83a3ec0e356c6cb50
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a24253b021abacf398a3a169b63bbb2f01ec2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106519194"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084567"
 ---
 # <a name="impeg2psiparsergettransportstreamid-method"></a>IMpeg2PsiParser :: GetTransportStreamId, méthode
 
@@ -47,7 +47,7 @@ Pointeur vers une variable qui reçoit le \_ champ ID du flux de transport \_ .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s’y limiter, les valeurs indiquées dans le tableau suivant.
 
@@ -55,7 +55,7 @@ La méthode retourne une valeur **HRESULT** . Les valeurs possibles sont, sans s
 
 | Code de retour                                                                          | Description         |
 |--------------------------------------------------------------------------------------|---------------------|
-| <dl> <dt>**\_OK**</dt> </dl> | Opération réussie.<br/> |
+| <dl> <dt>**\_OK**</dt> </dl> | Réussite.<br/> |
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: La méthode GetMediaTime récupère les horodatages sur l’échantillon actuel.
+description: 'Méthode CRendererPosPassThru. GetMediaTime : la méthode GetMediaTime récupère les horodatages sur l’échantillon actuel.'
 ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
 title: Méthode CRendererPosPassThru. GetMediaTime (Ctlutil. h)
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 628c0f0c65dad4e00dd259edbeee97fd8f6f13ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 588c92faec6b68cfa51392d4df00567c4e881460
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533380"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085367"
 ---
 # <a name="crendererpospassthrugetmediatime-method"></a>Méthode CRendererPosPassThru. GetMediaTime
 
@@ -57,7 +57,7 @@ Pointeur vers une variable qui reçoit l’heure de fin, en unités du format d�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
@@ -65,7 +65,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                  | Description                                            |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>         | Opération réussie.<br/>                                    |
+| <dl> <dt>**\_OK**</dt> </dl>         | Réussite.<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | La conversion vers ce format n’est pas prise en charge.<br/> |
 | <dl> <dt>**\_pointeur E**</dt> </dl>    | Argument de pointeur **null** .<br/>                  |
 
@@ -73,7 +73,7 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Cette méthode remplace la méthode [**CPosPassThru :: GetMediaTime**](cpospassthru-getmediatime.md) . Les valeurs de date et d’heure sont converties au format d’heure actuel en appelant la méthode [**CPosPassThru :: ConvertTimeFormat**](cpospassthru-converttimeformat.md) .
 

@@ -1,6 +1,6 @@
 ---
 title: Méthode de réinitialisation IEnumBackgroundCopyFiles (Deliveryoptimization. h)
-description: Réinitialise la séquence d'énumération au début.
+description: 'IEnumBackgroundCopyFiles :: Reset, méthode-réinitialise la séquence d’énumération au début.'
 ms.assetid: 6A303069-105C-4053-A8C5-2ECF60E789DE
 keywords:
 - Reset (méthode)
@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 314c7cae44ae48402642c202a624b9a60590e55b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6800095d0a6f20ef8b632830a224d4da27356bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843385"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105487"
 ---
 # <a name="ienumbackgroundcopyfilesreset-method"></a>IEnumBackgroundCopyFiles :: Reset, méthode
 
@@ -41,7 +41,7 @@ HRESULT Reset();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne **S_OK** en cas de réussite ou une des valeurs com **HRESULT** standard en cas d’erreur.
 

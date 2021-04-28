@@ -1,5 +1,5 @@
 ---
-description: Retourne un Quaternion dans les coordonnées Barycentric.
+description: 'D3DXQuaternionBaryCentric, fonction (D3DX10Math. h) : retourne un Quaternion dans les coordonnées Barycentric.'
 ms.assetid: 0a8d8d5a-f486-4457-86e9-27e76eaf1bc4
 title: D3DXQuaternionBaryCentric, fonction (D3DX10Math. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f7cdfcf5b8e7052fcbea72f12123a0ea44422853
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00d8e41a0173b7b26083f38beb82417365ef7067
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538531"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108777"
 ---
 # <a name="d3dxquaternionbarycentric-function-d3dx10mathh"></a>D3DXQuaternionBaryCentric, fonction (D3DX10Math. h)
 
@@ -99,13 +99,13 @@ Facteur de pondération. Consultez la section Notes.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
 
 Pointeur vers une structure D3DXQUATERNION dans les coordonnées Barycentric.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Pour calculer les coordonnées Barycentric, la fonction D3DXQuaternionBaryCentric implémente la série d’opérations d’interpolation linéaire sphérique suivantes :
 

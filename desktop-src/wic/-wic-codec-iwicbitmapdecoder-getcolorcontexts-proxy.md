@@ -1,5 +1,5 @@
 ---
-description: Fonction proxy pour la méthode GetColorContexts.
+description: IWICBitmapDecoder_GetColorContexts_Proxy fonction de proxy de fonction pour la méthode GetColorContexts.
 ms.assetid: 2a6db3bd-d3e1-4e87-a04d-0d1c3ea858fb
 title: IWICBitmapDecoder_GetColorContexts_Proxy fonction)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 737ad4b8bbb0014a04129d3a264cecaed4b5fe8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e550ca4ebd863e58a4bd285c48a2a01aad059b03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536166"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086257"
 ---
 # <a name="iwicbitmapdecoder_getcolorcontexts_proxy-function"></a>\_Fonction de \_ proxy IWICBitmapDecoder GetColorContexts
 
@@ -46,9 +46,9 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+Tapez : **[ **IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-Pointeur vers cet objet [_ *IWICBitmapDecoder* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
+Pointeur vers cet objet [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) .
 
 </dd> <dt>
 
@@ -75,15 +75,15 @@ Pointeur qui reçoit un pointeur vers [**IWICColorContext**](/windows/desktop/ap
 *pcActualCount* \[ à\]
 </dt> <dd>
 
-Type : **uint \** _
+Type : **uint \***
 
 Pointeur qui reçoit le nombre de contextes de couleur contenus dans l’image.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Création de surfaces vidéo DXVA-HD
 ms.assetid: a4508a1e-d68b-4c55-bce4-c8b462134fa1
 title: Création de surfaces vidéo DXVA-HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 459504a312ec0d59cf3642f528f433ffce8ba094
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e20dea8f34a275aab59b2d57f68ca76d46b1c1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861818"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102547"
 ---
 # <a name="creating-dxva-hd-video-surfaces"></a>Création de surfaces vidéo DXVA-HD
 

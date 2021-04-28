@@ -1,5 +1,5 @@
 ---
-description: La méthode Resume redémarre une capture suspendue.
+description: 'IStats :: Resume, méthode-la méthode Resume redémarre une capture suspendue.'
 ms.assetid: 128e38c4-7459-4376-a3d7-2c6944fcf535
 title: 'IStats :: Resume, méthode (NetMon. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: db84f51d2a2a2c2d15e3b4164fe1fac09e72bf20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee7818da3d8a02e41488d473d3cf26607d3b84ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867021"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114617"
 ---
 # <a name="istatsresume-method"></a>IStats :: Resume, méthode
 
@@ -38,7 +38,7 @@ HRESULT STDMETHODCALLTYPE Resume();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode réussit, la valeur de retour est NMERR \_ Success.
 
@@ -57,7 +57,7 @@ Si la méthode échoue, la valeur de retour est l’un des codes d’erreur suiv
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Lorsque la capture est dans un état suspendu, les nouvelles données ne sont pas capturées tant que la méthode IStats :: Resume n’est pas appelée pour redémarrer la capture.
 

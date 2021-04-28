@@ -1,5 +1,5 @@
 ---
-description: Vérifiez que la version de D3DX que vous avez compilée est la version que vous exécutez.
+description: 'Fonction D3DX10CheckVersion : Vérifiez que la version de D3DX avec laquelle vous avez compilé est la version que vous exécutez.'
 ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
 title: D3DX10CheckVersion, fonction (D3DX10Core. h)
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3b41996f16cb97d91dc59f8d368f13b905992388
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4fc8befa88fb706965a30224843745b033ea205b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106542192"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105347"
 ---
 # <a name="d3dx10checkversion-function"></a>D3DX10CheckVersion fonction)
 
@@ -59,13 +59,13 @@ Utilisez la \_ version du SDK d3dx10 \_ . Consultez la section Remarques.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la version ne correspond pas, la fonction retourne FALSe (un nombre inférieur ou égal à 0, le nombre lui-même n’a aucune signification).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Utilisez cette fonction pendant l’initialisation de votre application.
 

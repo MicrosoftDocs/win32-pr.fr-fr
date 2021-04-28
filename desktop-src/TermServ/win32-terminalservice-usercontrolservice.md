@@ -1,6 +1,6 @@
 ---
 title: Méthode UserControlService de la classe Win32_Service (Services Bureau à distance)
-description: Tente d’envoyer un code de contrôle défini par l’utilisateur au service référencé.
+description: 'Méthode UserControlService de la classe Win32_Service (Services Bureau à distance) : tente d’envoyer un code de contrôle défini par l’utilisateur au service référencé.'
 ms.assetid: 7B9020C1-2183-4FC4-ABCF-CE34111FF5D3
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b1ea4f5e82814aad7549085070b0583993024b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e71a33056f596afaf577968a5c725b3f64f79b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090607"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-remote-desktop-services"></a>Méthode UserControlService de la classe Win32_Service (Services Bureau à distance)
 
@@ -52,7 +52,7 @@ Spécifie des valeurs définies (de 128 à 255) qui fournissent des commandes de
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne l’une des valeurs répertoriées dans la liste suivante, ou toute autre valeur pour indiquer une erreur. Pour obtenir d’autres codes d’erreur, consultez [**constantes d’erreur WMI**](/windows/desktop/WmiSdk/wmi-error-constants) ou [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum). Pour obtenir les valeurs de **HRESULT** générales, consultez [codes d’erreur système](/windows/desktop/Debug/system-error-codes).
 

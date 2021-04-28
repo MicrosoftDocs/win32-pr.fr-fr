@@ -1,5 +1,5 @@
 ---
-description: Définit un tableau de matrices transposées.
+description: 'ID3DXTextureShader :: SetMatrixTransposeArray, méthode-définit un tableau de matrices transposées.'
 ms.assetid: 100288f2-44f0-4e75-bffb-78732c50a55c
 title: 'ID3DXTextureShader :: SetMatrixTransposeArray, méthode (D3DX9Shader. h)'
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c9efd0c81cef8a72880a9755ca40e4dd8b4950ce
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 663f49f600c000ff37974c8ecd4da56ba59630d1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953828"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090207"
 ---
 # <a name="id3dxtextureshadersetmatrixtransposearray-method"></a>ID3DXTextureShader :: SetMatrixTransposeArray, méthode
 
@@ -69,13 +69,13 @@ Nombre de matrices dans le tableau.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Notes 
 
 Une matrice transposée contient des données de colonne principales ; autrement dit, chaque vecteur est contenu dans une colonne.
 
