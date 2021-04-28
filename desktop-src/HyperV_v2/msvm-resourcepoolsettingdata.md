@@ -1,5 +1,5 @@
 ---
-description: Représente les paramètres d’une \_ instance MSVM ResourcePool qui ne sont pas liés à l’allocation.
+description: Msvm_ResourcePoolSettingData Class-représente les paramètres d’une \_ instance de ResourcePool MSVM qui ne sont pas liés à l’allocation.
 ms.assetid: 32e0066c-7e14-454c-8aa9-06e093ef8072
 title: Classe Msvm_ResourcePoolSettingData
 ms.topic: reference
@@ -25,20 +25,20 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 37ec7dc6600dbc536ac50a2042e7d53ff8043242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fba27ec5c12e0c3cb18b8a6dfd4a863e59cad62
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519141"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111507"
 ---
-# <a name="msvm_resourcepoolsettingdata-class"></a><span data-ttu-id="b116c-103">MSVM \_ ResourcePoolSettingData, classe</span><span class="sxs-lookup"><span data-stu-id="b116c-103">Msvm\_ResourcePoolSettingData class</span></span>
+# <a name="msvm_resourcepoolsettingdata-class"></a><span data-ttu-id="6508e-103">MSVM \_ ResourcePoolSettingData, classe</span><span class="sxs-lookup"><span data-stu-id="6508e-103">Msvm\_ResourcePoolSettingData class</span></span>
 
-<span data-ttu-id="b116c-104">Représente les paramètres d’une instance [**MSVM \_ ResourcePool**](msvm-resourcepool.md) qui ne sont pas liés à l’allocation.</span><span class="sxs-lookup"><span data-stu-id="b116c-104">Represents the settings of a [**Msvm\_ResourcePool**](msvm-resourcepool.md) instance that are not allocation related.</span></span>
+<span data-ttu-id="6508e-104">Représente les paramètres d’une instance [**MSVM \_ ResourcePool**](msvm-resourcepool.md) qui ne sont pas liés à l’allocation.</span><span class="sxs-lookup"><span data-stu-id="6508e-104">Represents the settings of a [**Msvm\_ResourcePool**](msvm-resourcepool.md) instance that are not allocation related.</span></span>
 
-<span data-ttu-id="b116c-105">La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.</span><span class="sxs-lookup"><span data-stu-id="b116c-105">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
+<span data-ttu-id="6508e-105">La syntaxe suivante est simplifiée format MOF (MOF) et comprend toutes les propriétés héritées.</span><span class="sxs-lookup"><span data-stu-id="6508e-105">The following syntax is simplified Managed Object Format (MOF) code, and it includes all of the inherited properties.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b116c-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="b116c-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6508e-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6508e-106">Syntax</span></span>
 
 ``` syntax
 [Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
@@ -59,335 +59,335 @@ class Msvm_ResourcePoolSettingData : Msvm_AbstractResourcePoolSettingData
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="b116c-107">Membres</span><span class="sxs-lookup"><span data-stu-id="b116c-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6508e-107">Membres</span><span class="sxs-lookup"><span data-stu-id="6508e-107">Members</span></span>
 
-<span data-ttu-id="b116c-108">La classe **MSVM \_ ResourcePoolSettingData** possède les types de membres suivants :</span><span class="sxs-lookup"><span data-stu-id="b116c-108">The **Msvm\_ResourcePoolSettingData** class has these types of members:</span></span>
+<span data-ttu-id="6508e-108">La classe **MSVM \_ ResourcePoolSettingData** possède les types de membres suivants :</span><span class="sxs-lookup"><span data-stu-id="6508e-108">The **Msvm\_ResourcePoolSettingData** class has these types of members:</span></span>
 
--   [<span data-ttu-id="b116c-109">Propriétés</span><span class="sxs-lookup"><span data-stu-id="b116c-109">Properties</span></span>](#properties)
+-   [<span data-ttu-id="6508e-109">Propriétés</span><span class="sxs-lookup"><span data-stu-id="6508e-109">Properties</span></span>](#properties)
 
-### <a name="properties"></a><span data-ttu-id="b116c-110">Propriétés</span><span class="sxs-lookup"><span data-stu-id="b116c-110">Properties</span></span>
+### <a name="properties"></a><span data-ttu-id="6508e-110">Propriétés</span><span class="sxs-lookup"><span data-stu-id="6508e-110">Properties</span></span>
 
-<span data-ttu-id="b116c-111">La classe **MSVM \_ ResourcePoolSettingData** possède les propriétés suivantes.</span><span class="sxs-lookup"><span data-stu-id="b116c-111">The **Msvm\_ResourcePoolSettingData** class has these properties.</span></span>
-
-<dl> <dt>
-
-<span data-ttu-id="b116c-112">**Caption**</span><span class="sxs-lookup"><span data-stu-id="b116c-112">**Caption**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-113">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-113">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-114">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-114">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-115">Brève description de l’objet.</span><span class="sxs-lookup"><span data-stu-id="b116c-115">A short description of the object.</span></span> <span data-ttu-id="b116c-116">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="b116c-116">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="b116c-117">**Description**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-118">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-118">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-119">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-119">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-120">Description de l'objet .</span><span class="sxs-lookup"><span data-stu-id="b116c-120">A description of the object.</span></span> <span data-ttu-id="b116c-121">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="b116c-121">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-122">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="b116c-122">**ElementName**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-123">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-123">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-124">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-124">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-125">Nom complet de l’objet.</span><span class="sxs-lookup"><span data-stu-id="b116c-125">A display name for the object.</span></span> <span data-ttu-id="b116c-126">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="b116c-126">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-127">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="b116c-127">**InstanceID**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-128">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-128">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-129">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-129">Access type: Read-only</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-130">Qualificateurs : **clé**</span><span class="sxs-lookup"><span data-stu-id="b116c-130">Qualifiers: **Key**</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-131">Identifie de façon unique une instance de cette classe.</span><span class="sxs-lookup"><span data-stu-id="b116c-131">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="b116c-132">Cette propriété est héritée de la [**\_ SettingData CIM**](/previous-versions//cc136911(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="b116c-132">This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-133">**LoadBalancingBehavior**</span><span class="sxs-lookup"><span data-stu-id="b116c-133">**LoadBalancingBehavior**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-134">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="b116c-134">Data type: **uint16**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-135">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-135">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-136">Spécifie la stratégie d’allocation à utiliser par le pool de ressources pour équilibrer l’utilisation des ressources sur ses ressources agrégées.</span><span class="sxs-lookup"><span data-stu-id="b116c-136">Specifies the allocation strategy to be used by the resource pool to balance resource usage across its aggregated resources.</span></span> <span data-ttu-id="b116c-137">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-137">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+<span data-ttu-id="6508e-111">La classe **MSVM \_ ResourcePoolSettingData** possède les propriétés suivantes.</span><span class="sxs-lookup"><span data-stu-id="6508e-111">The **Msvm\_ResourcePoolSettingData** class has these properties.</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b116c-138"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Inconnu** (0)</span><span class="sxs-lookup"><span data-stu-id="b116c-138"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="6508e-112">**Caption**</span><span class="sxs-lookup"><span data-stu-id="6508e-112">**Caption**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-113">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-113">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-139"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Non pris en charge** (2)</span><span class="sxs-lookup"><span data-stu-id="b116c-139"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (2)</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-140"><span id="None"></span><span id="none"></span><span id="NONE"></span>**Aucun** (3)</span><span class="sxs-lookup"><span data-stu-id="b116c-140"><span id="None"></span><span id="none"></span><span id="NONE"></span>**None** (3)</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-141"><span id="Distributed"></span><span id="distributed"></span><span id="DISTRIBUTED"></span>**Distribué** (4)</span><span class="sxs-lookup"><span data-stu-id="b116c-141"><span id="Distributed"></span><span id="distributed"></span><span id="DISTRIBUTED"></span>**Distributed** (4)</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-142"><span id="Consolidated_"></span><span id="consolidated_"></span><span id="CONSOLIDATED_"></span>**Consolidé** (5)</span><span class="sxs-lookup"><span data-stu-id="b116c-142"><span id="Consolidated_"></span><span id="consolidated_"></span><span id="CONSOLIDATED_"></span>**Consolidated** (5 )</span></span>
+<span data-ttu-id="6508e-114">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-114">Access type: Read-only</span></span>
 </dt> </dl>
+
+<span data-ttu-id="6508e-115">Brève description de l’objet.</span><span class="sxs-lookup"><span data-stu-id="6508e-115">A short description of the object.</span></span> <span data-ttu-id="6508e-116">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="6508e-116">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="b116c-143">**MappingBehavior**</span><span class="sxs-lookup"><span data-stu-id="b116c-143">**MappingBehavior**</span></span>
+<span data-ttu-id="6508e-117">**Description**</span><span class="sxs-lookup"><span data-stu-id="6508e-117">**Description**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="b116c-144">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="b116c-144">Data type: **uint16**</span></span>
+<span data-ttu-id="6508e-118">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-118">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-145">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-145">Access type: Read-only</span></span>
+<span data-ttu-id="6508e-119">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-119">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="b116c-146">Spécifie si le pool de ressources peut tenter d’utiliser d’autres ressources hôtes pour satisfaire la demande d’allocation si les ressources souhaitées ne peuvent pas être allouées.</span><span class="sxs-lookup"><span data-stu-id="b116c-146">Specifies whether the resource pool can attempt to use other host resources to satisfy the allocation request if the desired resources cannot be allocated.</span></span> <span data-ttu-id="b116c-147">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-147">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+<span data-ttu-id="6508e-120">Description de l'objet .</span><span class="sxs-lookup"><span data-stu-id="6508e-120">A description of the object.</span></span> <span data-ttu-id="6508e-121">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="6508e-121">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-122">**ElementName**</span><span class="sxs-lookup"><span data-stu-id="6508e-122">**ElementName**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-123">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-123">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-124">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-124">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-125">Nom complet de l’objet.</span><span class="sxs-lookup"><span data-stu-id="6508e-125">A display name for the object.</span></span> <span data-ttu-id="6508e-126">Cette propriété est héritée de la [**\_ propriété ManagedElement CIM**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span><span class="sxs-lookup"><span data-stu-id="6508e-126">This property is inherited from [**CIM\_ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-127">**InstanceID**</span><span class="sxs-lookup"><span data-stu-id="6508e-127">**InstanceID**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-128">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-128">Data type: **string**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-129">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-129">Access type: Read-only</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-130">Qualificateurs : **clé**</span><span class="sxs-lookup"><span data-stu-id="6508e-130">Qualifiers: **Key**</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-131">Identifie de façon unique une instance de cette classe.</span><span class="sxs-lookup"><span data-stu-id="6508e-131">Uniquely identifies an instance of this class.</span></span> <span data-ttu-id="6508e-132">Cette propriété est héritée de la [**\_ SettingData CIM**](/previous-versions//cc136911(v=vs.85)).</span><span class="sxs-lookup"><span data-stu-id="6508e-132">This property is inherited from [**CIM\_SettingData**](/previous-versions//cc136911(v=vs.85)).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-133">**LoadBalancingBehavior**</span><span class="sxs-lookup"><span data-stu-id="6508e-133">**LoadBalancingBehavior**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-134">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="6508e-134">Data type: **uint16**</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-135">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-135">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-136">Spécifie la stratégie d’allocation à utiliser par le pool de ressources pour équilibrer l’utilisation des ressources sur ses ressources agrégées.</span><span class="sxs-lookup"><span data-stu-id="6508e-136">Specifies the allocation strategy to be used by the resource pool to balance resource usage across its aggregated resources.</span></span> <span data-ttu-id="6508e-137">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-137">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b116c-148"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Inconnu** (0)</span><span class="sxs-lookup"><span data-stu-id="b116c-148"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
+<span data-ttu-id="6508e-138"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Inconnu** (0)</span><span class="sxs-lookup"><span data-stu-id="6508e-138"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-149"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Non pris en charge** (2)</span><span class="sxs-lookup"><span data-stu-id="b116c-149"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (2)</span></span>
+<span data-ttu-id="6508e-139"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Non pris en charge** (2)</span><span class="sxs-lookup"><span data-stu-id="6508e-139"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-150"><span id="Dedicated"></span><span id="dedicated"></span><span id="DEDICATED"></span>**Dédié** (3)</span><span class="sxs-lookup"><span data-stu-id="b116c-150"><span id="Dedicated"></span><span id="dedicated"></span><span id="DEDICATED"></span>**Dedicated** (3)</span></span>
+<span data-ttu-id="6508e-140"><span id="None"></span><span id="none"></span><span id="NONE"></span>**Aucun** (3)</span><span class="sxs-lookup"><span data-stu-id="6508e-140"><span id="None"></span><span id="none"></span><span id="NONE"></span>**None** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-151"><span id="Soft_Affinity"></span><span id="soft_affinity"></span><span id="SOFT_AFFINITY"></span>**Affinité douce** (4)</span><span class="sxs-lookup"><span data-stu-id="b116c-151"><span id="Soft_Affinity"></span><span id="soft_affinity"></span><span id="SOFT_AFFINITY"></span>**Soft Affinity** (4)</span></span>
+<span data-ttu-id="6508e-141"><span id="Distributed"></span><span id="distributed"></span><span id="DISTRIBUTED"></span>**Distribué** (4)</span><span class="sxs-lookup"><span data-stu-id="6508e-141"><span id="Distributed"></span><span id="distributed"></span><span id="DISTRIBUTED"></span>**Distributed** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-152"><span id="Hard_Affinity"></span><span id="hard_affinity"></span><span id="HARD_AFFINITY"></span>**Affinité matérielle** (5)</span><span class="sxs-lookup"><span data-stu-id="b116c-152"><span id="Hard_Affinity"></span><span id="hard_affinity"></span><span id="HARD_AFFINITY"></span>**Hard Affinity** (5)</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-153"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF réservé** (..)</span><span class="sxs-lookup"><span data-stu-id="b116c-153"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-154"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Fournisseur réservé** (32767.. 65535)</span><span class="sxs-lookup"><span data-stu-id="b116c-154"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32767..65535 )</span></span>
+<span data-ttu-id="6508e-142"><span id="Consolidated_"></span><span id="consolidated_"></span><span id="CONSOLIDATED_"></span>**Consolidé** (5)</span><span class="sxs-lookup"><span data-stu-id="6508e-142"><span id="Consolidated_"></span><span id="consolidated_"></span><span id="CONSOLIDATED_"></span>**Consolidated** (5 )</span></span>
 </dt> </dl>
 
 </dd> <dt>
 
-<span data-ttu-id="b116c-155">**MappingOrder**</span><span class="sxs-lookup"><span data-stu-id="b116c-155">**MappingOrder**</span></span>
+<span data-ttu-id="6508e-143">**MappingBehavior**</span><span class="sxs-lookup"><span data-stu-id="6508e-143">**MappingBehavior**</span></span>
 </dt> <dd> <dl> <dt>
 
-<span data-ttu-id="b116c-156">Type de données : tableau de **chaînes**</span><span class="sxs-lookup"><span data-stu-id="b116c-156">Data type: **string** array</span></span>
+<span data-ttu-id="6508e-144">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="6508e-144">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-157">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-157">Access type: Read-only</span></span>
+<span data-ttu-id="6508e-145">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-145">Access type: Read-only</span></span>
 </dt> </dl>
 
-<span data-ttu-id="b116c-158">Spécifie l’ordre dans lequel les ressources hôtes disponibles via ce pool sont sélectionnées lors de la tentative de satisfaction d’une demande d’allocation, et la ressource hôte demandée n’est pas disponible ou aucune ressource hôte n’est spécifiée.</span><span class="sxs-lookup"><span data-stu-id="b116c-158">Specifies the order in which host resources available through this pool will be selected when attempting to satisfy an allocation request, and the requested host resource is not available or no host resource is specified.</span></span> <span data-ttu-id="b116c-159">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-159">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-160">**Remarques**</span><span class="sxs-lookup"><span data-stu-id="b116c-160">**Notes**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-161">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-161">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-162">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-162">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-163">Les notes fournies par l’utilisateur final sont liées à ce pool de ressources.</span><span class="sxs-lookup"><span data-stu-id="b116c-163">End-user supplied notes that are related to this resource pool.</span></span> <span data-ttu-id="b116c-164">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-164">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-165">**OtherResourceType**</span><span class="sxs-lookup"><span data-stu-id="b116c-165">**OtherResourceType**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-166">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-166">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-167">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-167">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-168">Chaîne qui décrit le type de ressource lorsqu’une valeur bien définie n’est pas disponible et que **resourceType** a la valeur 0 (autre).</span><span class="sxs-lookup"><span data-stu-id="b116c-168">A string that describes the resource type when a well defined value is not available and **ResourceType** is set to 0 (Other).</span></span> <span data-ttu-id="b116c-169">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-169">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-170">**PoolID**</span><span class="sxs-lookup"><span data-stu-id="b116c-170">**PoolID**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-171">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-171">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-172">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-172">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-173">Identificateur du pool.</span><span class="sxs-lookup"><span data-stu-id="b116c-173">An identifier for the pool.</span></span> <span data-ttu-id="b116c-174">Cette propriété est utilisée pour fournir une corrélation entre l’enregistrement et la restauration des données de configuration dans le stockage persistant sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="b116c-174">This property is used to provide correlation across save and restore of configuration data to underlying persistent storage.</span></span> <span data-ttu-id="b116c-175">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-175">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-176">**ResourceSubType**</span><span class="sxs-lookup"><span data-stu-id="b116c-176">**ResourceSubType**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-177">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="b116c-177">Data type: **string**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-178">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-178">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-179">Chaîne qui décrit un sous-type spécifique à l’implémentation pour ce pool.</span><span class="sxs-lookup"><span data-stu-id="b116c-179">A string that describes an implementation-specific subtype for this pool.</span></span> <span data-ttu-id="b116c-180">Par exemple, cela peut être utilisé pour distinguer différents modèles du même type de ressource.</span><span class="sxs-lookup"><span data-stu-id="b116c-180">For example, this may be used to distinguish different models of the same resource type.</span></span> <span data-ttu-id="b116c-181">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-181">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
-
-</dd> <dt>
-
-<span data-ttu-id="b116c-182">**ResourceType**</span><span class="sxs-lookup"><span data-stu-id="b116c-182">**ResourceType**</span></span>
-</dt> <dd> <dl> <dt>
-
-<span data-ttu-id="b116c-183">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="b116c-183">Data type: **uint16**</span></span>
-</dt> <dt>
-
-<span data-ttu-id="b116c-184">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="b116c-184">Access type: Read-only</span></span>
-</dt> </dl>
-
-<span data-ttu-id="b116c-185">Type de ressource que ce pool de ressources peut allouer.</span><span class="sxs-lookup"><span data-stu-id="b116c-185">The type of resource this resource pool can allocate.</span></span> <span data-ttu-id="b116c-186">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="b116c-186">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+<span data-ttu-id="6508e-146">Spécifie si le pool de ressources peut tenter d’utiliser d’autres ressources hôtes pour satisfaire la demande d’allocation si les ressources souhaitées ne peuvent pas être allouées.</span><span class="sxs-lookup"><span data-stu-id="6508e-146">Specifies whether the resource pool can attempt to use other host resources to satisfy the allocation request if the desired resources cannot be allocated.</span></span> <span data-ttu-id="6508e-147">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-147">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="b116c-187"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Autre** (1)</span><span class="sxs-lookup"><span data-stu-id="b116c-187"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
+<span data-ttu-id="6508e-148"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Inconnu** (0)</span><span class="sxs-lookup"><span data-stu-id="6508e-148"><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**Unknown** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-188"><span id="Computer_System"></span><span id="computer_system"></span><span id="COMPUTER_SYSTEM"></span>**Système informatique** (2)</span><span class="sxs-lookup"><span data-stu-id="b116c-188"><span id="Computer_System"></span><span id="computer_system"></span><span id="COMPUTER_SYSTEM"></span>**Computer System** (2)</span></span>
+<span data-ttu-id="6508e-149"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Non pris en charge** (2)</span><span class="sxs-lookup"><span data-stu-id="6508e-149"><span id="Not_Supported"></span><span id="not_supported"></span><span id="NOT_SUPPORTED"></span>**Not Supported** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-189"><span id="Processor"></span><span id="processor"></span><span id="PROCESSOR"></span>**Processeur** (3)</span><span class="sxs-lookup"><span data-stu-id="b116c-189"><span id="Processor"></span><span id="processor"></span><span id="PROCESSOR"></span>**Processor** (3)</span></span>
+<span data-ttu-id="6508e-150"><span id="Dedicated"></span><span id="dedicated"></span><span id="DEDICATED"></span>**Dédié** (3)</span><span class="sxs-lookup"><span data-stu-id="6508e-150"><span id="Dedicated"></span><span id="dedicated"></span><span id="DEDICATED"></span>**Dedicated** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-190"><span id="Memory"></span><span id="memory"></span><span id="MEMORY"></span>**Mémoire** (4)</span><span class="sxs-lookup"><span data-stu-id="b116c-190"><span id="Memory"></span><span id="memory"></span><span id="MEMORY"></span>**Memory** (4)</span></span>
+<span data-ttu-id="6508e-151"><span id="Soft_Affinity"></span><span id="soft_affinity"></span><span id="SOFT_AFFINITY"></span>**Affinité douce** (4)</span><span class="sxs-lookup"><span data-stu-id="6508e-151"><span id="Soft_Affinity"></span><span id="soft_affinity"></span><span id="SOFT_AFFINITY"></span>**Soft Affinity** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-191"><span id="IDE_Controller"></span><span id="ide_controller"></span><span id="IDE_CONTROLLER"></span>**Contrôleur IDE** (5)</span><span class="sxs-lookup"><span data-stu-id="b116c-191"><span id="IDE_Controller"></span><span id="ide_controller"></span><span id="IDE_CONTROLLER"></span>**IDE Controller** (5)</span></span>
+<span data-ttu-id="6508e-152"><span id="Hard_Affinity"></span><span id="hard_affinity"></span><span id="HARD_AFFINITY"></span>**Affinité matérielle** (5)</span><span class="sxs-lookup"><span data-stu-id="6508e-152"><span id="Hard_Affinity"></span><span id="hard_affinity"></span><span id="HARD_AFFINITY"></span>**Hard Affinity** (5)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-192"><span id="Parallel_SCSI_HBA"></span><span id="parallel_scsi_hba"></span><span id="PARALLEL_SCSI_HBA"></span>**HBA SCSI parallèle** (6)</span><span class="sxs-lookup"><span data-stu-id="b116c-192"><span id="Parallel_SCSI_HBA"></span><span id="parallel_scsi_hba"></span><span id="PARALLEL_SCSI_HBA"></span>**Parallel SCSI HBA** (6)</span></span>
+<span data-ttu-id="6508e-153"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF réservé** (..)</span><span class="sxs-lookup"><span data-stu-id="6508e-153"><span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF Reserved** (..)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-193"><span id="FC_HBA"></span><span id="fc_hba"></span>**HBA FC** (7)</span><span class="sxs-lookup"><span data-stu-id="b116c-193"><span id="FC_HBA"></span><span id="fc_hba"></span>**FC HBA** (7)</span></span>
+<span data-ttu-id="6508e-154"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Fournisseur réservé** (32767.. 65535)</span><span class="sxs-lookup"><span data-stu-id="6508e-154"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (32767..65535 )</span></span>
+</dt> </dl>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-155">**MappingOrder**</span><span class="sxs-lookup"><span data-stu-id="6508e-155">**MappingOrder**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-156">Type de données : tableau de **chaînes**</span><span class="sxs-lookup"><span data-stu-id="6508e-156">Data type: **string** array</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-194"><span id="iSCSI_HBA"></span><span id="iscsi_hba"></span><span id="ISCSI_HBA"></span>**HBA iSCSI** (8)</span><span class="sxs-lookup"><span data-stu-id="b116c-194"><span id="iSCSI_HBA"></span><span id="iscsi_hba"></span><span id="ISCSI_HBA"></span>**iSCSI HBA** (8)</span></span>
+<span data-ttu-id="6508e-157">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-157">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-158">Spécifie l’ordre dans lequel les ressources hôtes disponibles via ce pool sont sélectionnées lors de la tentative de satisfaction d’une demande d’allocation, et la ressource hôte demandée n’est pas disponible ou aucune ressource hôte n’est spécifiée.</span><span class="sxs-lookup"><span data-stu-id="6508e-158">Specifies the order in which host resources available through this pool will be selected when attempting to satisfy an allocation request, and the requested host resource is not available or no host resource is specified.</span></span> <span data-ttu-id="6508e-159">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-159">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-160">**Remarques**</span><span class="sxs-lookup"><span data-stu-id="6508e-160">**Notes**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-161">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-161">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-195"><span id="IB_HCA"></span><span id="ib_hca"></span>**IB HCA** (9)</span><span class="sxs-lookup"><span data-stu-id="b116c-195"><span id="IB_HCA"></span><span id="ib_hca"></span>**IB HCA** (9)</span></span>
+<span data-ttu-id="6508e-162">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-162">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-163">Les notes fournies par l’utilisateur final sont liées à ce pool de ressources.</span><span class="sxs-lookup"><span data-stu-id="6508e-163">End-user supplied notes that are related to this resource pool.</span></span> <span data-ttu-id="6508e-164">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-164">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-165">**OtherResourceType**</span><span class="sxs-lookup"><span data-stu-id="6508e-165">**OtherResourceType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-166">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-166">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-196"><span id="Ethernet_Adapter"></span><span id="ethernet_adapter"></span><span id="ETHERNET_ADAPTER"></span>**Carte Ethernet** (10)</span><span class="sxs-lookup"><span data-stu-id="b116c-196"><span id="Ethernet_Adapter"></span><span id="ethernet_adapter"></span><span id="ETHERNET_ADAPTER"></span>**Ethernet Adapter** (10)</span></span>
+<span data-ttu-id="6508e-167">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-167">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-168">Chaîne qui décrit le type de ressource lorsqu’une valeur bien définie n’est pas disponible et que **resourceType** a la valeur 0 (autre).</span><span class="sxs-lookup"><span data-stu-id="6508e-168">A string that describes the resource type when a well defined value is not available and **ResourceType** is set to 0 (Other).</span></span> <span data-ttu-id="6508e-169">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-169">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-170">**PoolID**</span><span class="sxs-lookup"><span data-stu-id="6508e-170">**PoolID**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-171">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-171">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-197"><span id="Other_Network_Adapter"></span><span id="other_network_adapter"></span><span id="OTHER_NETWORK_ADAPTER"></span>**Autre carte réseau** (11)</span><span class="sxs-lookup"><span data-stu-id="b116c-197"><span id="Other_Network_Adapter"></span><span id="other_network_adapter"></span><span id="OTHER_NETWORK_ADAPTER"></span>**Other Network Adapter** (11)</span></span>
+<span data-ttu-id="6508e-172">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-172">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-173">Identificateur du pool.</span><span class="sxs-lookup"><span data-stu-id="6508e-173">An identifier for the pool.</span></span> <span data-ttu-id="6508e-174">Cette propriété est utilisée pour fournir une corrélation entre l’enregistrement et la restauration des données de configuration dans le stockage persistant sous-jacent.</span><span class="sxs-lookup"><span data-stu-id="6508e-174">This property is used to provide correlation across save and restore of configuration data to underlying persistent storage.</span></span> <span data-ttu-id="6508e-175">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-175">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-176">**ResourceSubType**</span><span class="sxs-lookup"><span data-stu-id="6508e-176">**ResourceSubType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-177">Type de données : **chaîne**</span><span class="sxs-lookup"><span data-stu-id="6508e-177">Data type: **string**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-198"><span id="I_O_Slot"></span><span id="i_o_slot"></span><span id="I_O_SLOT"></span>**Emplacement d’e/s** (12)</span><span class="sxs-lookup"><span data-stu-id="b116c-198"><span id="I_O_Slot"></span><span id="i_o_slot"></span><span id="I_O_SLOT"></span>**I/O Slot** (12)</span></span>
+<span data-ttu-id="6508e-178">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-178">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-179">Chaîne qui décrit un sous-type spécifique à l’implémentation pour ce pool.</span><span class="sxs-lookup"><span data-stu-id="6508e-179">A string that describes an implementation-specific subtype for this pool.</span></span> <span data-ttu-id="6508e-180">Par exemple, cela peut être utilisé pour distinguer différents modèles du même type de ressource.</span><span class="sxs-lookup"><span data-stu-id="6508e-180">For example, this may be used to distinguish different models of the same resource type.</span></span> <span data-ttu-id="6508e-181">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-181">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="6508e-182">**ResourceType**</span><span class="sxs-lookup"><span data-stu-id="6508e-182">**ResourceType**</span></span>
+</dt> <dd> <dl> <dt>
+
+<span data-ttu-id="6508e-183">Type de données : **UInt16**</span><span class="sxs-lookup"><span data-stu-id="6508e-183">Data type: **uint16**</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-199"><span id="I_O_Device"></span><span id="i_o_device"></span><span id="I_O_DEVICE"></span>**Périphérique d’e/s** (13)</span><span class="sxs-lookup"><span data-stu-id="b116c-199"><span id="I_O_Device"></span><span id="i_o_device"></span><span id="I_O_DEVICE"></span>**I/O Device** (13)</span></span>
+<span data-ttu-id="6508e-184">Type d'accès : Lecture seule</span><span class="sxs-lookup"><span data-stu-id="6508e-184">Access type: Read-only</span></span>
+</dt> </dl>
+
+<span data-ttu-id="6508e-185">Type de ressource que ce pool de ressources peut allouer.</span><span class="sxs-lookup"><span data-stu-id="6508e-185">The type of resource this resource pool can allocate.</span></span> <span data-ttu-id="6508e-186">Cette propriété est héritée de [**MSVM \_ AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span><span class="sxs-lookup"><span data-stu-id="6508e-186">This property is inherited from [**Msvm\_AbstractResourcePoolSettingData**](msvm-abstractresourcepoolsettingdata.md).</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="6508e-187"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Autre** (1)</span><span class="sxs-lookup"><span data-stu-id="6508e-187"><span id="Other"></span><span id="other"></span><span id="OTHER"></span>**Other** (1)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-200"><span id="Floppy_Drive"></span><span id="floppy_drive"></span><span id="FLOPPY_DRIVE"></span>**Lecteur de disquette** (14)</span><span class="sxs-lookup"><span data-stu-id="b116c-200"><span id="Floppy_Drive"></span><span id="floppy_drive"></span><span id="FLOPPY_DRIVE"></span>**Floppy Drive** (14)</span></span>
+<span data-ttu-id="6508e-188"><span id="Computer_System"></span><span id="computer_system"></span><span id="COMPUTER_SYSTEM"></span>**Système informatique** (2)</span><span class="sxs-lookup"><span data-stu-id="6508e-188"><span id="Computer_System"></span><span id="computer_system"></span><span id="COMPUTER_SYSTEM"></span>**Computer System** (2)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-201"><span id="CD_Drive"></span><span id="cd_drive"></span><span id="CD_DRIVE"></span>**Lecteur de CD** (15)</span><span class="sxs-lookup"><span data-stu-id="b116c-201"><span id="CD_Drive"></span><span id="cd_drive"></span><span id="CD_DRIVE"></span>**CD Drive** (15)</span></span>
+<span data-ttu-id="6508e-189"><span id="Processor"></span><span id="processor"></span><span id="PROCESSOR"></span>**Processeur** (3)</span><span class="sxs-lookup"><span data-stu-id="6508e-189"><span id="Processor"></span><span id="processor"></span><span id="PROCESSOR"></span>**Processor** (3)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-202"><span id="DVD_drive"></span><span id="dvd_drive"></span><span id="DVD_DRIVE"></span>**Lecteur de DVD** (16)</span><span class="sxs-lookup"><span data-stu-id="b116c-202"><span id="DVD_drive"></span><span id="dvd_drive"></span><span id="DVD_DRIVE"></span>**DVD drive** (16)</span></span>
+<span data-ttu-id="6508e-190"><span id="Memory"></span><span id="memory"></span><span id="MEMORY"></span>**Mémoire** (4)</span><span class="sxs-lookup"><span data-stu-id="6508e-190"><span id="Memory"></span><span id="memory"></span><span id="MEMORY"></span>**Memory** (4)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-203"><span id="Disk_Drive"></span><span id="disk_drive"></span><span id="DISK_DRIVE"></span>**Lecteur de disque** (17)</span><span class="sxs-lookup"><span data-stu-id="b116c-203"><span id="Disk_Drive"></span><span id="disk_drive"></span><span id="DISK_DRIVE"></span>**Disk Drive** (17)</span></span>
+<span data-ttu-id="6508e-191"><span id="IDE_Controller"></span><span id="ide_controller"></span><span id="IDE_CONTROLLER"></span>**Contrôleur IDE** (5)</span><span class="sxs-lookup"><span data-stu-id="6508e-191"><span id="IDE_Controller"></span><span id="ide_controller"></span><span id="IDE_CONTROLLER"></span>**IDE Controller** (5)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-204"><span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Lecteur de bande** (18)</span><span class="sxs-lookup"><span data-stu-id="b116c-204"><span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Tape Drive** (18)</span></span>
+<span data-ttu-id="6508e-192"><span id="Parallel_SCSI_HBA"></span><span id="parallel_scsi_hba"></span><span id="PARALLEL_SCSI_HBA"></span>**HBA SCSI parallèle** (6)</span><span class="sxs-lookup"><span data-stu-id="6508e-192"><span id="Parallel_SCSI_HBA"></span><span id="parallel_scsi_hba"></span><span id="PARALLEL_SCSI_HBA"></span>**Parallel SCSI HBA** (6)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-205"><span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Extension de stockage** (19)</span><span class="sxs-lookup"><span data-stu-id="b116c-205"><span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Storage Extent** (19)</span></span>
+<span data-ttu-id="6508e-193"><span id="FC_HBA"></span><span id="fc_hba"></span>**HBA FC** (7)</span><span class="sxs-lookup"><span data-stu-id="6508e-193"><span id="FC_HBA"></span><span id="fc_hba"></span>**FC HBA** (7)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-206"><span id="Other_storage_device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Autre dispositif de stockage** (20)</span><span class="sxs-lookup"><span data-stu-id="b116c-206"><span id="Other_storage_device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Other storage device** (20)</span></span>
+<span data-ttu-id="6508e-194"><span id="iSCSI_HBA"></span><span id="iscsi_hba"></span><span id="ISCSI_HBA"></span>**HBA iSCSI** (8)</span><span class="sxs-lookup"><span data-stu-id="6508e-194"><span id="iSCSI_HBA"></span><span id="iscsi_hba"></span><span id="ISCSI_HBA"></span>**iSCSI HBA** (8)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-207"><span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Port série** (21)</span><span class="sxs-lookup"><span data-stu-id="b116c-207"><span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Serial port** (21)</span></span>
+<span data-ttu-id="6508e-195"><span id="IB_HCA"></span><span id="ib_hca"></span>**IB HCA** (9)</span><span class="sxs-lookup"><span data-stu-id="6508e-195"><span id="IB_HCA"></span><span id="ib_hca"></span>**IB HCA** (9)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-208"><span id="Parallel_port"></span><span id="parallel_port"></span><span id="PARALLEL_PORT"></span>**Port parallèle** (22)</span><span class="sxs-lookup"><span data-stu-id="b116c-208"><span id="Parallel_port"></span><span id="parallel_port"></span><span id="PARALLEL_PORT"></span>**Parallel port** (22)</span></span>
+<span data-ttu-id="6508e-196"><span id="Ethernet_Adapter"></span><span id="ethernet_adapter"></span><span id="ETHERNET_ADAPTER"></span>**Carte Ethernet** (10)</span><span class="sxs-lookup"><span data-stu-id="6508e-196"><span id="Ethernet_Adapter"></span><span id="ethernet_adapter"></span><span id="ETHERNET_ADAPTER"></span>**Ethernet Adapter** (10)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-209"><span id="USB_Controller"></span><span id="usb_controller"></span><span id="USB_CONTROLLER"></span>**Contrôleur USB** (23)</span><span class="sxs-lookup"><span data-stu-id="b116c-209"><span id="USB_Controller"></span><span id="usb_controller"></span><span id="USB_CONTROLLER"></span>**USB Controller** (23)</span></span>
+<span data-ttu-id="6508e-197"><span id="Other_Network_Adapter"></span><span id="other_network_adapter"></span><span id="OTHER_NETWORK_ADAPTER"></span>**Autre carte réseau** (11)</span><span class="sxs-lookup"><span data-stu-id="6508e-197"><span id="Other_Network_Adapter"></span><span id="other_network_adapter"></span><span id="OTHER_NETWORK_ADAPTER"></span>**Other Network Adapter** (11)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-210"><span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Contrôleur Graphics** (24)</span><span class="sxs-lookup"><span data-stu-id="b116c-210"><span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Graphics controller** (24)</span></span>
+<span data-ttu-id="6508e-198"><span id="I_O_Slot"></span><span id="i_o_slot"></span><span id="I_O_SLOT"></span>**Emplacement d’e/s** (12)</span><span class="sxs-lookup"><span data-stu-id="6508e-198"><span id="I_O_Slot"></span><span id="i_o_slot"></span><span id="I_O_SLOT"></span>**I/O Slot** (12)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-211"><span id="IEEE_1394_Controller"></span><span id="ieee_1394_controller"></span><span id="IEEE_1394_CONTROLLER"></span>**Contrôleur IEEE 1394** (25)</span><span class="sxs-lookup"><span data-stu-id="b116c-211"><span id="IEEE_1394_Controller"></span><span id="ieee_1394_controller"></span><span id="IEEE_1394_CONTROLLER"></span>**IEEE 1394 Controller** (25)</span></span>
+<span data-ttu-id="6508e-199"><span id="I_O_Device"></span><span id="i_o_device"></span><span id="I_O_DEVICE"></span>**Périphérique d’e/s** (13)</span><span class="sxs-lookup"><span data-stu-id="6508e-199"><span id="I_O_Device"></span><span id="i_o_device"></span><span id="I_O_DEVICE"></span>**I/O Device** (13)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-212"><span id="Partitionable_Unit"></span><span id="partitionable_unit"></span><span id="PARTITIONABLE_UNIT"></span>**Unité partitionnée** (26)</span><span class="sxs-lookup"><span data-stu-id="b116c-212"><span id="Partitionable_Unit"></span><span id="partitionable_unit"></span><span id="PARTITIONABLE_UNIT"></span>**Partitionable Unit** (26)</span></span>
+<span data-ttu-id="6508e-200"><span id="Floppy_Drive"></span><span id="floppy_drive"></span><span id="FLOPPY_DRIVE"></span>**Lecteur de disquette** (14)</span><span class="sxs-lookup"><span data-stu-id="6508e-200"><span id="Floppy_Drive"></span><span id="floppy_drive"></span><span id="FLOPPY_DRIVE"></span>**Floppy Drive** (14)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-213"><span id="Base_Partitionable_Unit"></span><span id="base_partitionable_unit"></span><span id="BASE_PARTITIONABLE_UNIT"></span>**Unité partitionnée de base** (27)</span><span class="sxs-lookup"><span data-stu-id="b116c-213"><span id="Base_Partitionable_Unit"></span><span id="base_partitionable_unit"></span><span id="BASE_PARTITIONABLE_UNIT"></span>**Base Partitionable Unit** (27)</span></span>
+<span data-ttu-id="6508e-201"><span id="CD_Drive"></span><span id="cd_drive"></span><span id="CD_DRIVE"></span>**Lecteur de CD** (15)</span><span class="sxs-lookup"><span data-stu-id="6508e-201"><span id="CD_Drive"></span><span id="cd_drive"></span><span id="CD_DRIVE"></span>**CD Drive** (15)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-214"><span id="Power"></span><span id="power"></span><span id="POWER"></span>**Puissance** (28)</span><span class="sxs-lookup"><span data-stu-id="b116c-214"><span id="Power"></span><span id="power"></span><span id="POWER"></span>**Power** (28)</span></span>
+<span data-ttu-id="6508e-202"><span id="DVD_drive"></span><span id="dvd_drive"></span><span id="DVD_DRIVE"></span>**Lecteur de DVD** (16)</span><span class="sxs-lookup"><span data-stu-id="6508e-202"><span id="DVD_drive"></span><span id="dvd_drive"></span><span id="DVD_DRIVE"></span>**DVD drive** (16)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-215"><span id="Cooling_Capacity"></span><span id="cooling_capacity"></span><span id="COOLING_CAPACITY"></span>**Capacité de refroidissement** (29)</span><span class="sxs-lookup"><span data-stu-id="b116c-215"><span id="Cooling_Capacity"></span><span id="cooling_capacity"></span><span id="COOLING_CAPACITY"></span>**Cooling Capacity** (29)</span></span>
+<span data-ttu-id="6508e-203"><span id="Disk_Drive"></span><span id="disk_drive"></span><span id="DISK_DRIVE"></span>**Lecteur de disque** (17)</span><span class="sxs-lookup"><span data-stu-id="6508e-203"><span id="Disk_Drive"></span><span id="disk_drive"></span><span id="DISK_DRIVE"></span>**Disk Drive** (17)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-216"><span id="Ethernet_Switch_Port"></span><span id="ethernet_switch_port"></span><span id="ETHERNET_SWITCH_PORT"></span>**Port commuté Ethernet** (30)</span><span class="sxs-lookup"><span data-stu-id="b116c-216"><span id="Ethernet_Switch_Port"></span><span id="ethernet_switch_port"></span><span id="ETHERNET_SWITCH_PORT"></span>**Ethernet Switch Port** (30)</span></span>
+<span data-ttu-id="6508e-204"><span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Lecteur de bande** (18)</span><span class="sxs-lookup"><span data-stu-id="6508e-204"><span id="Tape_Drive"></span><span id="tape_drive"></span><span id="TAPE_DRIVE"></span>**Tape Drive** (18)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-217"><span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Disque logique** (31)</span><span class="sxs-lookup"><span data-stu-id="b116c-217"><span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Logical Disk** (31)</span></span>
+<span data-ttu-id="6508e-205"><span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Extension de stockage** (19)</span><span class="sxs-lookup"><span data-stu-id="6508e-205"><span id="Storage_Extent"></span><span id="storage_extent"></span><span id="STORAGE_EXTENT"></span>**Storage Extent** (19)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-218"><span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Volume de stockage** (32)</span><span class="sxs-lookup"><span data-stu-id="b116c-218"><span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Storage Volume** (32)</span></span>
+<span data-ttu-id="6508e-206"><span id="Other_storage_device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Autre dispositif de stockage** (20)</span><span class="sxs-lookup"><span data-stu-id="6508e-206"><span id="Other_storage_device"></span><span id="other_storage_device"></span><span id="OTHER_STORAGE_DEVICE"></span>**Other storage device** (20)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-219"><span id="Ethernet_Connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Connexion Ethernet** (33)</span><span class="sxs-lookup"><span data-stu-id="b116c-219"><span id="Ethernet_Connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Ethernet Connection** (33)</span></span>
+<span data-ttu-id="6508e-207"><span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Port série** (21)</span><span class="sxs-lookup"><span data-stu-id="6508e-207"><span id="Serial_port"></span><span id="serial_port"></span><span id="SERIAL_PORT"></span>**Serial port** (21)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-220"><span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF réservé** (..)</span><span class="sxs-lookup"><span data-stu-id="b116c-220"><span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (..)</span></span>
+<span data-ttu-id="6508e-208"><span id="Parallel_port"></span><span id="parallel_port"></span><span id="PARALLEL_PORT"></span>**Port parallèle** (22)</span><span class="sxs-lookup"><span data-stu-id="6508e-208"><span id="Parallel_port"></span><span id="parallel_port"></span><span id="PARALLEL_PORT"></span>**Parallel port** (22)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="b116c-221"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Fournisseur réservé** (0x8000.. 0xFFFF</span><span class="sxs-lookup"><span data-stu-id="b116c-221"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..0xFFFF )</span></span>
+<span data-ttu-id="6508e-209"><span id="USB_Controller"></span><span id="usb_controller"></span><span id="USB_CONTROLLER"></span>**Contrôleur USB** (23)</span><span class="sxs-lookup"><span data-stu-id="6508e-209"><span id="USB_Controller"></span><span id="usb_controller"></span><span id="USB_CONTROLLER"></span>**USB Controller** (23)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-210"><span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Contrôleur Graphics** (24)</span><span class="sxs-lookup"><span data-stu-id="6508e-210"><span id="Graphics_controller"></span><span id="graphics_controller"></span><span id="GRAPHICS_CONTROLLER"></span>**Graphics controller** (24)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-211"><span id="IEEE_1394_Controller"></span><span id="ieee_1394_controller"></span><span id="IEEE_1394_CONTROLLER"></span>**Contrôleur IEEE 1394** (25)</span><span class="sxs-lookup"><span data-stu-id="6508e-211"><span id="IEEE_1394_Controller"></span><span id="ieee_1394_controller"></span><span id="IEEE_1394_CONTROLLER"></span>**IEEE 1394 Controller** (25)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-212"><span id="Partitionable_Unit"></span><span id="partitionable_unit"></span><span id="PARTITIONABLE_UNIT"></span>**Unité partitionnée** (26)</span><span class="sxs-lookup"><span data-stu-id="6508e-212"><span id="Partitionable_Unit"></span><span id="partitionable_unit"></span><span id="PARTITIONABLE_UNIT"></span>**Partitionable Unit** (26)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-213"><span id="Base_Partitionable_Unit"></span><span id="base_partitionable_unit"></span><span id="BASE_PARTITIONABLE_UNIT"></span>**Unité partitionnée de base** (27)</span><span class="sxs-lookup"><span data-stu-id="6508e-213"><span id="Base_Partitionable_Unit"></span><span id="base_partitionable_unit"></span><span id="BASE_PARTITIONABLE_UNIT"></span>**Base Partitionable Unit** (27)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-214"><span id="Power"></span><span id="power"></span><span id="POWER"></span>**Puissance** (28)</span><span class="sxs-lookup"><span data-stu-id="6508e-214"><span id="Power"></span><span id="power"></span><span id="POWER"></span>**Power** (28)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-215"><span id="Cooling_Capacity"></span><span id="cooling_capacity"></span><span id="COOLING_CAPACITY"></span>**Capacité de refroidissement** (29)</span><span class="sxs-lookup"><span data-stu-id="6508e-215"><span id="Cooling_Capacity"></span><span id="cooling_capacity"></span><span id="COOLING_CAPACITY"></span>**Cooling Capacity** (29)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-216"><span id="Ethernet_Switch_Port"></span><span id="ethernet_switch_port"></span><span id="ETHERNET_SWITCH_PORT"></span>**Port commuté Ethernet** (30)</span><span class="sxs-lookup"><span data-stu-id="6508e-216"><span id="Ethernet_Switch_Port"></span><span id="ethernet_switch_port"></span><span id="ETHERNET_SWITCH_PORT"></span>**Ethernet Switch Port** (30)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-217"><span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Disque logique** (31)</span><span class="sxs-lookup"><span data-stu-id="6508e-217"><span id="Logical_Disk"></span><span id="logical_disk"></span><span id="LOGICAL_DISK"></span>**Logical Disk** (31)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-218"><span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Volume de stockage** (32)</span><span class="sxs-lookup"><span data-stu-id="6508e-218"><span id="Storage_Volume"></span><span id="storage_volume"></span><span id="STORAGE_VOLUME"></span>**Storage Volume** (32)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-219"><span id="Ethernet_Connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Connexion Ethernet** (33)</span><span class="sxs-lookup"><span data-stu-id="6508e-219"><span id="Ethernet_Connection"></span><span id="ethernet_connection"></span><span id="ETHERNET_CONNECTION"></span>**Ethernet Connection** (33)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-220"><span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF réservé** (..)</span><span class="sxs-lookup"><span data-stu-id="6508e-220"><span id="DMTF_reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF reserved** (..)</span></span>
+</dt> <dt>
+
+<span data-ttu-id="6508e-221"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Fournisseur réservé** (0x8000.. 0xFFFF</span><span class="sxs-lookup"><span data-stu-id="6508e-221"><span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**Vendor Reserved** (0x8000..0xFFFF )</span></span>
 </dt> </dl>
 
 </dd> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="b116c-222">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="b116c-222">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6508e-222">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="6508e-222">Requirements</span></span>
 
 
 
-| <span data-ttu-id="b116c-223">Condition requise</span><span class="sxs-lookup"><span data-stu-id="b116c-223">Requirement</span></span> | <span data-ttu-id="b116c-224">Valeur</span><span class="sxs-lookup"><span data-stu-id="b116c-224">Value</span></span> |
+| <span data-ttu-id="6508e-223">Condition requise</span><span class="sxs-lookup"><span data-stu-id="6508e-223">Requirement</span></span> | <span data-ttu-id="6508e-224">Valeur</span><span class="sxs-lookup"><span data-stu-id="6508e-224">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="b116c-225">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="b116c-225">Minimum supported client</span></span><br/> | <span data-ttu-id="b116c-226">Applications de \[ Bureau Windows 8 uniquement\]</span><span class="sxs-lookup"><span data-stu-id="b116c-226">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
-| <span data-ttu-id="b116c-227">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="b116c-227">Minimum supported server</span></span><br/> | <span data-ttu-id="b116c-228">Applications de bureau Windows Server 2012 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="b116c-228">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="b116c-229">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="b116c-229">Namespace</span></span><br/>                | <span data-ttu-id="b116c-230">\\Virtualisation racine \\ v2</span><span class="sxs-lookup"><span data-stu-id="b116c-230">Root\\Virtualization\\V2</span></span><br/>                                                                     |
-| <span data-ttu-id="b116c-231">MOF</span><span class="sxs-lookup"><span data-stu-id="b116c-231">MOF</span></span><br/>                      | <dl> <span data-ttu-id="b116c-232"><dt>WindowsVirtualization. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="b116c-232"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="b116c-233">DLL</span><span class="sxs-lookup"><span data-stu-id="b116c-233">DLL</span></span><br/>                      | <dl> <span data-ttu-id="b116c-234"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="b116c-234"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="6508e-225">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="6508e-225">Minimum supported client</span></span><br/> | <span data-ttu-id="6508e-226">Applications de \[ Bureau Windows 8 uniquement\]</span><span class="sxs-lookup"><span data-stu-id="6508e-226">Windows 8 \[desktop apps only\]</span></span><br/>                                                              |
+| <span data-ttu-id="6508e-227">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="6508e-227">Minimum supported server</span></span><br/> | <span data-ttu-id="6508e-228">Applications de bureau Windows Server 2012 \[ uniquement\]</span><span class="sxs-lookup"><span data-stu-id="6508e-228">Windows Server 2012 \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="6508e-229">Espace de noms</span><span class="sxs-lookup"><span data-stu-id="6508e-229">Namespace</span></span><br/>                | <span data-ttu-id="6508e-230">\\Virtualisation racine \\ v2</span><span class="sxs-lookup"><span data-stu-id="6508e-230">Root\\Virtualization\\V2</span></span><br/>                                                                     |
+| <span data-ttu-id="6508e-231">MOF</span><span class="sxs-lookup"><span data-stu-id="6508e-231">MOF</span></span><br/>                      | <dl> <span data-ttu-id="6508e-232"><dt>WindowsVirtualization. v2. mof</dt></span><span class="sxs-lookup"><span data-stu-id="6508e-232"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="6508e-233">DLL</span><span class="sxs-lookup"><span data-stu-id="6508e-233">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6508e-234"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="6508e-234"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 

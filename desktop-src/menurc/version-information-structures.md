@@ -1,31 +1,31 @@
 ---
 title: Structures d’informations de version
-description: .
+description: Structures d’informations de version
 ms.assetid: 44252d74-abb6-4ff3-9d4c-969bbc25439e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc6f394414842a2a94c0d7c56a8ff924b22873bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ababc1e22c01670af10ad09730e7aa0ae89551d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310106"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092527"
 ---
-# <a name="version-information-structures"></a><span data-ttu-id="9ab43-103">Structures d’informations de version</span><span class="sxs-lookup"><span data-stu-id="9ab43-103">Version Information Structures</span></span>
+# <a name="version-information-structures"></a><span data-ttu-id="fa225-103">Structures d’informations de version</span><span class="sxs-lookup"><span data-stu-id="fa225-103">Version Information Structures</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="9ab43-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="9ab43-104">In This Section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="fa225-104">Dans cette section</span><span class="sxs-lookup"><span data-stu-id="fa225-104">In This Section</span></span>
 
--   [<span data-ttu-id="9ab43-105">**String**</span><span class="sxs-lookup"><span data-stu-id="9ab43-105">**String**</span></span>](string-str.md)
--   [<span data-ttu-id="9ab43-106">**StringFileInfo**</span><span class="sxs-lookup"><span data-stu-id="9ab43-106">**StringFileInfo**</span></span>](stringfileinfo.md)
--   [<span data-ttu-id="9ab43-107">**StringTable**</span><span class="sxs-lookup"><span data-stu-id="9ab43-107">**StringTable**</span></span>](stringtable.md)
--   [<span data-ttu-id="9ab43-108">**Var**</span><span class="sxs-lookup"><span data-stu-id="9ab43-108">**Var**</span></span>](var-str.md)
--   [<span data-ttu-id="9ab43-109">**VarFileInfo**</span><span class="sxs-lookup"><span data-stu-id="9ab43-109">**VarFileInfo**</span></span>](varfileinfo.md)
--   [<span data-ttu-id="9ab43-110">**VS \_ FIXEDFILEINFO**</span><span class="sxs-lookup"><span data-stu-id="9ab43-110">**VS\_FIXEDFILEINFO**</span></span>](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
--   [<span data-ttu-id="9ab43-111">**VS \_ VERSIONINFO**</span><span class="sxs-lookup"><span data-stu-id="9ab43-111">**VS\_VERSIONINFO**</span></span>](vs-versioninfo.md)
+-   [<span data-ttu-id="fa225-105">**String**</span><span class="sxs-lookup"><span data-stu-id="fa225-105">**String**</span></span>](string-str.md)
+-   [<span data-ttu-id="fa225-106">**StringFileInfo**</span><span class="sxs-lookup"><span data-stu-id="fa225-106">**StringFileInfo**</span></span>](stringfileinfo.md)
+-   [<span data-ttu-id="fa225-107">**StringTable**</span><span class="sxs-lookup"><span data-stu-id="fa225-107">**StringTable**</span></span>](stringtable.md)
+-   [<span data-ttu-id="fa225-108">**Var**</span><span class="sxs-lookup"><span data-stu-id="fa225-108">**Var**</span></span>](var-str.md)
+-   [<span data-ttu-id="fa225-109">**VarFileInfo**</span><span class="sxs-lookup"><span data-stu-id="fa225-109">**VarFileInfo**</span></span>](varfileinfo.md)
+-   [<span data-ttu-id="fa225-110">**VS \_ FIXEDFILEINFO**</span><span class="sxs-lookup"><span data-stu-id="fa225-110">**VS\_FIXEDFILEINFO**</span></span>](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
+-   [<span data-ttu-id="fa225-111">**VS \_ VERSIONINFO**</span><span class="sxs-lookup"><span data-stu-id="fa225-111">**VS\_VERSIONINFO**</span></span>](vs-versioninfo.md)
 
- 
+ 
 
- 
+ 
 
 
 
