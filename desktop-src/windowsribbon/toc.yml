@@ -60,7 +60,7 @@
           href: windowsribbon-controls-dropdowngallery.md
         - name: Contrôle de police
           href: windowsribbon-controls-fontcontrol.md
-        - name: Groupe
+        - name: Group
           href: windowsribbon-controls-group.md
         - name: Bouton aide
           href: windowsribbon-controls-helpbutton.md
@@ -194,7 +194,7 @@
                       href: windowsribbon-element-dropdowngallery-menulayout.md
                 - name: FontControl
                   href: windowsribbon-element-fontcontrol.md
-                - name: Groupe
+                - name: Group
                   href: windowsribbon-element-group.md
                 - name: HelpButton
                   href: windowsribbon-element-helpbutton.md
@@ -261,8 +261,6 @@
                   href: windowsribbon-element-controlnamemap.md
                 - name: ControlSizeDefinition
                   href: windowsribbon-element-controlsizedefinition.md
-                - name: DynamicUI
-                  href: windowsribbon-element-dynamicui.md
                 - name: FlowMenuLayout
                   href: windowsribbon-element-flowmenulayout.md
                 - name: GroupSizeDefinition
