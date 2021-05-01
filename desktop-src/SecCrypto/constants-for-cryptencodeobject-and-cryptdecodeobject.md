@@ -4,12 +4,12 @@ ms.assetid: f969f2a5-fcbb-4711-8523-ba22952ae952
 title: Constantes pour CryptEncodeObject et CryptDecodeObject
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d71871590d0a186e84922f4d0e0dcd9f1767b3da
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a7f9dcc8ca7365fa588b29cd6ffdc9e11c0f1869
+ms.sourcegitcommit: f14de4414da072d5a761e946aedfde24d8b65102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104530585"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108314320"
 ---
 # <a name="constants-for-cryptencodeobject-and-cryptdecodeobject"></a>Constantes pour CryptEncodeObject et CryptDecodeObject
 
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les constantes, extensions et attributs prédéfi
 | <span id="X509_KEY_ATTRIBUTES"></span><span id="x509_key_attributes"></span><dl> <dt>**X509 \_ \_Attributs clés**</dt> <dt>(LPCSTR) 10</dt> </dl>                                                                                                                        | Le paramètre *pvStructInfo* est un pointeur vers une structure d’informations d’attributs de clé de [**certificat \_ \_ \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_attributes_info) .<br/>                                                                                                                                                              |
 | <span id="szOID_KEY_ATTRIBUTES"></span><span id="szoid_key_attributes"></span><span id="SZOID_KEY_ATTRIBUTES"></span><dl> <dt>**szOID \_ \_Attributs clés**</dt> <dt>« 2.5.29.2 »</dt> </dl>                                                                               | Le paramètre *pvStructInfo* est un pointeur vers une structure d’informations d’attributs de clé de [**certificat \_ \_ \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_attributes_info) .<br/>                                                                                                                                                              |
 | <span id="X509_KEY_USAGE"></span><span id="x509_key_usage"></span><dl> <dt>**X509 \_ \_Utilisation**</dt> de la clé <dt>(LPCSTR) 14</dt> </dl>                                                                                                                                       | Le paramètre *pvStructInfo* est un pointeur vers une structure d' [**\_ \_ objet blob de bits**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) de chiffre. Pour plus d'informations, consultez Notes.<br/>                                                                                                                                                         |
-| <span id="szOID_KEY_USAGE"></span><span id="szoid_key_usage"></span><span id="SZOID_KEY_USAGE"></span><dl> <dt>**szOID \_ \_Utilisation**</dt> de la clé <dt>« 2.5.29.4 »</dt> </dl>                                                                                                   | Le paramètre *pvStructInfo* est un pointeur vers une structure d' [**\_ \_ objet blob de bits**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) de chiffre. Pour plus d'informations, consultez Notes.<br/>                                                                                                                                                         |
+| <span id="szOID_KEY_USAGE"></span><span id="szoid_key_usage"></span><span id="SZOID_KEY_USAGE"></span><dl> <dt>**szOID \_ \_Utilisation**</dt> de la clé <dt>« 2.5.29.15 »</dt> </dl>                                                                                                   | Le paramètre *pvStructInfo* est un pointeur vers une structure d' [**\_ \_ objet blob de bits**](/windows/desktop/api/Wincrypt/ns-wincrypt-crypt_bit_blob) de chiffre. Pour plus d'informations, consultez Notes.<br/>                                                                                                                                                         |
 | <span id="X509_KEY_USAGE_RESTRICTION"></span><span id="x509_key_usage_restriction"></span><dl> <dt>**X509 \_ \_ \_ Restriction d’utilisation**</dt> de la clé <dt>(LPCSTR) 11</dt> </dl>                                                                                                  | Le paramètre *pvStructInfo* est un pointeur vers une structure d’informations de restriction d’utilisation de la [**clé de certificat \_ \_ \_ \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_usage_restriction_info) .<br/>                                                                                                                                               |
 | <span id="szOID_KEY_USAGE_RESTRICTION"></span><span id="szoid_key_usage_restriction"></span><span id="SZOID_KEY_USAGE_RESTRICTION"></span><dl> <dt>**szOID \_ \_ \_ Restriction d’utilisation**</dt> de la clé <dt>« 2.5.29.4 »</dt> </dl>                                                  | Le paramètre *pvStructInfo* est un pointeur vers une structure d’informations de restriction d’utilisation de la [**clé de certificat \_ \_ \_ \_**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_key_usage_restriction_info) .<br/>                                                                                                                                               |
 | <span id="X509_KEYGEN_REQUEST_TO_BE_SIGNED"></span><span id="x509_keygen_request_to_be_signed"></span><dl> <dt>**X509 \_ \_Demande keygen \_ à \_ \_ signer**</dt> <dt>(LPCSTR) 21</dt> </dl>                                                                              | Le paramètre *pvStructInfo* est un pointeur vers une structure d’informations de [**demande de certificat \_ \_ \_ keygen**](/windows/desktop/api/Wincrypt/ns-wincrypt-cert_keygen_request_info) . Pour plus d'informations, consultez Notes.<br/>                                                                                                                                    |
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les constantes, extensions et attributs prédéfi
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant fournit des détails supplémentaires sur des valeurs *lpszStructType* spécifiques.
 

@@ -5,12 +5,12 @@ title: Protocoles dans TLS/SSL (SSP Schannel)
 ms.topic: article
 ms.date: 01/20/2021
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 844d75230119b747f77697f67ddecec5f64ce7cf
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 4717a128602d2ae52f90e6e201c6f6ff6aeb1de2
+ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "103953338"
+ms.lasthandoff: 05/01/2021
+ms.locfileid: "108332414"
 ---
 # <a name="protocols-in-tlsssl-schannel-ssp"></a>Protocoles dans TLS/SSL (SSP Schannel)
 
@@ -35,7 +35,7 @@ Le tableau suivant indique la prise en charge par le fournisseur Microsoft Schan
 | Windows 10 version 1703                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10, version 1709                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10 version 1803                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
-| Windows 10, version 1809                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
+| Windows 10, version 1809//Windows Server 2019                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10 version 1903                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |
 | Windows 10, version 1909                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  | 
 | Windows 10, version 2004                              | activé        | activé        | activé        | activé        | activé        | activé        | Non pris en charge  | Non pris en charge  |

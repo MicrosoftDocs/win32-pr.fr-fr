@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9660f35c349342d147a61a6b4ce9c02a4a1abab
-ms.sourcegitcommit: 65af948af39d1a31885a1b688f5dbfe955d7eba1
+ms.openlocfilehash: 3705f4e1a0a88841560d67d5904e0f1b5dabd3f8
+ms.sourcegitcommit: a0cb986d5694b69d4a65b7d42a22694d02a6e83a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "104548514"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108296334"
 ---
 # <a name="creating-a-root-signature"></a>Création d’une signature racine
 
@@ -85,17 +85,15 @@ Le membre de l’énumération de [**\_ \_ visibilité du nuanceur D3D12**](/win
 
 L’une des utilisations de la visibilité du nuanceur est l’aide pour les nuanceurs qui sont créés en attendant des liaisons différentes par étape de nuanceur à l’aide d’un espace de noms qui se chevauche. Par exemple, un nuanceur vertex peut déclarer :
 
- 
-
-Texture2D foo : Register (T0);»
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 et le nuanceur de pixels peut également déclarer :
 
- 
-
-Texture2D bar : Register (T0);
+```hlsl
+Texture2D bar : register(t0);
+```
 
 Si l’application établit une liaison de signature racine avec T0 VISIBILity \_ All, les deux nuanciers voient la même texture. Si le nuanceur définit réellement que chaque nuanceur souhaite voir différentes textures, il peut définir 2 emplacements de signature racine avec un vertex de visibilité \_ et un \_ Pixel. Quelle que soit la visibilité sur un emplacement de signature racine, il a toujours le même coût (coût uniquement en fonction de l’SlotType) vers une taille de signature maximale fixe.
 
@@ -240,10 +238,10 @@ for(UINT i = 0; i < numObjects; i++)
 
 <dl> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> <dt>
 
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+[Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> <dt>
 
 [Utilisation d’une signature racine](using-a-root-signature.md)

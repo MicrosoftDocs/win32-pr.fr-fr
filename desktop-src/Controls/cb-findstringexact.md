@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f70c56a5f13fffa8dfedebd13f9830c62ef941cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f99d85c7dddb95bdfb168443d6f977c22273a87
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104519345"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327174"
 ---
 # <a name="cb_findstringexact-message"></a>\_Message FINDEXACTSTRING CB
 
@@ -32,7 +32,7 @@ Recherche la première chaîne de zone de liste dans une zone de liste déroulan
 *wParam* 
 </dt> <dd>
 
-Index de base zéro de l’élément qui précède le premier élément dans lequel effectuer la recherche. Lorsque la recherche atteint le bas de la zone de liste, elle continue à partir du haut de la zone de liste jusqu’à l’élément spécifié par le paramètre *wParam* . Si *wParam* est 1, la zone de liste entière est recherchée à partir du début.
+Index de base zéro de l’élément qui précède le premier élément dans lequel effectuer la recherche. Lorsque la recherche atteint le bas de la zone de liste, elle continue à partir du haut de la zone de liste jusqu’à l’élément spécifié par le paramètre *wParam* . Si *wParam* est-1, la zone de liste entière est recherchée à partir du début.
 
 </dd> <dt>
 
@@ -43,11 +43,11 @@ Pointeur vers la chaîne terminée par le caractère null à rechercher. La rech
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour est l’index de base zéro de l’élément correspondant. Si la recherche échoue, il s’agit de l' \_ erreur CB.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est réussie uniquement si la chaîne spécifiée et un élément de zone de liste déroulante ont la même longueur (à l’exception du caractère null de fin) et les mêmes caractères.
 

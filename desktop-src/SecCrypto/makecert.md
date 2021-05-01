@@ -4,17 +4,17 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 980ba379688f2dc61c44b06d66ed5255e5b2e988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461c15db364066d9edadb6a0c4d2c24dceab5cc9
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512998"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327143"
 ---
 # <a name="makecert"></a>MakeCert
 
 > [!Note]  
-> MakeCert est déconseillé. Pour créer des certificats auto-signés, utilisez l’applet de commande PowerShell [New-SelfSignedCertificate](/powershell/module/pkiclient/new-selfsignedcertificate).
+> MakeCert est déconseillé. Pour créer des certificats auto-signés, utilisez l’applet de commande PowerShell [New-SelfSignedCertificate](/powershell/module/pki/new-selfsignedcertificate).
 
  
 

@@ -5,12 +5,12 @@ title: Constantes de privilège (Winnt. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 801eccb2f42ccf27b45bc5628a32cee3de994bfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd33cf947f6425d717b4d41524fe7cf0fed14cef
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542715"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327154"
 ---
 # <a name="privilege-constants-authorization"></a>Constantes de privilège (autorisation)
 
@@ -153,7 +153,7 @@ Droit d’utilisateur : sauvegarde des fichiers et des répertoires.<br/>Si le 
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong></strong></dt> <dt>Texte SE_RESTORE_NAME ( &quot; SeRestorePrivilege &quot; )</dt> </dl></td>
-<td style="text-align: left;">Requis pour effectuer des opérations de restauration. Ce privilège force le système à accorder tout contrôle d’accès en écriture à n’importe quel fichier, quelle que soit la liste ACL spécifiée pour le fichier. Toute demande d’accès autre que l’écriture est toujours évaluée avec la liste de contrôle d’accès. En outre, ce privilège vous permet de définir un SID d’utilisateur ou de groupe valide comme propriétaire d’un fichier. Ce privilège est requis par la fonction <a href="/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>RegLoadKey</strong></a> . Les droits d’accès suivants sont accordés si ce privilège est détenu :<br/>
+<td style="text-align: left;">Requis pour effectuer des opérations de restauration. Ce privilège force le système à accorder tout contrôle d’accès en écriture à n’importe quel fichier, quelle que soit la liste ACL spécifiée pour le fichier. Toute demande d’accès autre que l’écriture est toujours évaluée avec la liste de contrôle d’accès. En outre, ce privilège vous permet de définir un SID d’utilisateur ou de groupe valide comme propriétaire d’un fichier. Ce privilège est requis par la fonction <a href="/windows/desktop/api/winreg/nf-winreg-regloadkeya"><strong>RegLoadKey</strong></a> . Les droits d’accès suivants sont accordés si ce privilège est détenu :<br/>
 <ul>
 <li>WRITE_DAC</li>
 <li>WRITE_OWNER</li>
@@ -161,7 +161,7 @@ Droit d’utilisateur : sauvegarde des fichiers et des répertoires.<br/>Si le 
 <li>FILE_GENERIC_WRITE</li>
 <li>FILE_ADD_FILE</li>
 <li>FILE_ADD_SUBDIRECTORY</li>
-<li>Suppression</li>
+<li>DELETE</li>
 </ul>
 Droit de l’utilisateur : restaurez les fichiers et les répertoires.<br/>Si le fichier se trouve sur un lecteur amovible et que l’option « auditer le stockage amovible » est activée, le SE_SECURITY_NAME doit avoir ACCESS_SYSTEM_SECURITY.<br/></td>
 </tr>
@@ -218,7 +218,7 @@ Droit de l’utilisateur : restaurez les fichiers et les répertoires.<br/>Si l
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les constantes de privilège sont définies en tant que chaînes dans Winnt. h. Par exemple, la \_ constante de nom d’audit se \_ est définie en tant que « SeAuditPrivilege ».
 

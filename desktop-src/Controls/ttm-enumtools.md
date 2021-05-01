@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1679f9740539507a57c4cba93319569add0af3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a67f23a145838aa3562c81e78fb82c3ea66320df
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465358"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327134"
 ---
 # <a name="ttm_enumtools-message"></a>\_Message atténuation ENUMTOOLS
 
@@ -45,11 +45,11 @@ Pointeur vers une structure [**TOOLINFO**](/windows/win32/api/commctrl/ns-commct
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Retourne la **valeur true** si des outils sont énumérés, ou **false** dans le cas contraire.
+Retourne la **valeur false** , qu’un outil ait ou non été énuméré.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Avertissement de sécurité :** L’utilisation de ce message peut compromettre la sécurité de votre programme. Ce message ne permet pas au destinataire du message de connaître la taille de la mémoire tampon ou de spécifier la taille de la mémoire tampon. Vous devez examiner les [considérations relatives à la sécurité : contrôles Microsoft Windows](sec-comctls.md) avant de continuer.
 

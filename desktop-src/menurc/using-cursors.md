@@ -18,12 +18,12 @@ keywords:
 - curseurs, affinage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6529578b6dfe3c1997f6aadd32ef22ded8e3c90b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a6cf681fd17f3e79e4559e9936be232ae09f8453
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463063"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327124"
 ---
 # <a name="using-cursors"></a>Utilisation de curseurs
 
@@ -173,7 +173,7 @@ Pour créer le curseur, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winus
 
 
 
-| ET masque | Masque XOR | Afficher        |
+| ET masque | Masque XOR | Affichage        |
 |----------|----------|----------------|
 | 0        | 0        | Noir          |
 | 0        | 1        | Blancs          |
@@ -182,7 +182,7 @@ Pour créer le curseur, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winus
 
 
 
- 
+ 
 
 Pour plus d’informations, consultez [bitmaps](/windows/desktop/gdi/bitmaps).
 
@@ -248,9 +248,9 @@ Vous pouvez remplacer un curseur de classe à l’aide de la fonction [**SetClas
 ```
 // Change the cursor for window class represented by hwnd. 
  
-SetClassLong(hwnd,    // window handle 
-    GCL_HCURSOR,      // change cursor 
-    (LONG) hCurs2);   // new cursor 
+SetClassLongPtr(hwnd,    // window handle 
+    GCLP_HCURSOR,        // change cursor 
+    (LONG_PTR) hCurs2);  // new cursor 
 ```
 
 
@@ -602,6 +602,6 @@ switch (message)
 
 
 
- 
+ 
 
- 
+ 

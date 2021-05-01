@@ -1,19 +1,19 @@
 ---
-description: L’horodatage Authenticode est basé sur les contre- \# signatures PKCS 9 standard. Les outils de signature de Microsoft permettent aux développeurs d’apposer des horodatages en même temps qu’ils apposeront des signatures Authenticode.
+description: L’horodatage Authenticode est basé sur les contre- \# signatures PKCS 7 standard. Les outils de signature de Microsoft permettent aux développeurs d’apposer des horodatages en même temps qu’ils apposeront des signatures Authenticode.
 ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: Horodatage des signatures Authenticode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3631d402da56d4078cecce65075c92dff0ec7e1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0232853441d2c11d331c175ac7e8dfd120b341ff
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203036"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327184"
 ---
 # <a name="time-stamping-authenticode-signatures"></a>Horodatage des signatures Authenticode
 
-Les signatures Microsoft Authenticode fournissent des garanties en matière d’autorisation et d’intégrité pour les données binaires. L’horodatage Authenticode est basé sur les contre- \# signatures PKCS 9 standard. Les outils de signature de Microsoft permettent aux développeurs d’apposer des horodatages en même temps qu’ils apposeront des signatures Authenticode. L’horodatage permet de vérifier la validité des signatures Authenticode même après l’expiration des certificats utilisés pour la signature.
+Les signatures Microsoft Authenticode fournissent des garanties en matière d’autorisation et d’intégrité pour les données binaires. L’horodatage Authenticode est basé sur les contre- \# signatures PKCS 7 standard. Les outils de signature de Microsoft permettent aux développeurs d’apposer des horodatages en même temps qu’ils apposeront des signatures Authenticode. L’horodatage permet de vérifier la validité des signatures Authenticode même après l’expiration des certificats utilisés pour la signature.
 
 ## <a name="a-brief-introduction-to-authenticode"></a>Brève présentation d’Authenticode
 

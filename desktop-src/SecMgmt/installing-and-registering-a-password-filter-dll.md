@@ -4,12 +4,12 @@ ms.assetid: 12a6fe6d-5b37-4fcf-bd04-0a22d84ba323
 title: Installation et inscription d’une DLL de filtre de mot de passe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd911c1a527384e48a2ae4567f6d85862e184cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cb2e9f93630dc6bdaa5dbcc7e665a6b1cebff0e
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865445"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327164"
 ---
 # <a name="installing-and-registering-a-password-filter-dll"></a>Installation et inscription d’une DLL de filtre de mot de passe
 
@@ -30,11 +30,11 @@ Procédez comme suit pour installer votre filtre de mot de passe. Vous pouvez ef
                 Lsa
     ```
 
-    Si la sous-clé **packages de notification** existe, ajoutez le nom de votre dll aux données de la valeur existante. Ne remplacez pas les valeurs existantes et n’incluez pas l’extension. dll.
+    Si la valeur des **packages de notifications** de type *REG_MULTI_SZ* existe, ajoutez le nom de votre dll aux données de la valeur existante. Ne remplacez pas les valeurs existantes et n’incluez pas l’extension. dll.
 
-    Si la sous-clé **packages de notification** n’existe pas, ajoutez-la, puis spécifiez le nom de la dll pour les données de la valeur. N’incluez pas l’extension. dll.
+    Si la valeur des **packages de notifications** n’existe pas, créez-la, donnez-lui le type de *REG_MULTI_SZ* , puis spécifiez le nom de la dll pour les données de la valeur. N’incluez pas l’extension. dll.
 
-    La sous-clé **packages de notifications** peut ajouter plusieurs packages.
+    La valeur des **packages de notifications** peut ajouter plusieurs packages.
 
 3.  Recherchez le paramètre de complexité du mot de passe.
 

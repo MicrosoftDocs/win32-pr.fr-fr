@@ -4,12 +4,12 @@ description: Démarrage mesuré
 ms.assetid: D7ED02FA-6D0F-4753-AC07-BD7DCE55B3FD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccbba6e5f96fd91c00c295c4b15cab8849f11dc
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 7d728a1980bc9a461e6383b1dea2bd7eb4aab461
+ms.sourcegitcommit: f14de4414da072d5a761e946aedfde24d8b65102
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103730740"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108314340"
 ---
 # <a name="measured-boot"></a>Démarrage mesuré
 
@@ -36,9 +36,9 @@ Dans les scénarios d’entreprise, l’administrateur système contrôle le mod
 
 Un livre blanc est préparé pour détailler les API et les appels de fonction qui doivent être faits pour différents scénarios de démarrage mesurés.
 
- 
+ 
 
- 
+ 
 
 
 
