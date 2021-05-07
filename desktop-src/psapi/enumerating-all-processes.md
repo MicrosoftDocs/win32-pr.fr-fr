@@ -4,19 +4,19 @@ description: L’exemple de code suivant utilise la fonction EnumProcesses pour 
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e64e127014910974b881a7ae21e807be9ac19452
-ms.sourcegitcommit: d581811a577e00821667dad731710909979dc72d
+ms.openlocfilehash: bf03fd9ad06bfb15924f3f5ec92d8f8858fbff60
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "104530417"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644111"
 ---
 # <a name="enumerating-all-processes"></a>Énumération de tous les processus
 
 L’exemple de code suivant utilise la fonction [**EnumProcesses**](/windows/win32/api/Psapi/nf-psapi-enumprocesses) pour récupérer l’identificateur de processus pour chaque objet de processus dans le système. [EnumProcessModules](/windows/win32/api/psapi/nf-psapi-enumprocessmodules) est ensuite appelé pour récupérer chaque nom de processus et l’imprimer.
 
 >[!NOTE]
-> Pour les 64 bits, utilisez la fonction [EnumProcessModulesEx](/windows/win32/api/psapi/nf-psapi-enumprocessmodulesex) .
+> Pour les processus 64 bits, utilisez la fonction [EnumProcessModulesEx](/windows/win32/api/psapi/nf-psapi-enumprocessmodulesex) .
 
 ```C++
 #include <windows.h>

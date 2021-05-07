@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a43569edd400b824876dff991f95e79cbfd6a96
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 309050be35748f39eefc8b40b8e590f8f6889fde
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381029"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644191"
 ---
 # <a name="add-sslcert"></a>add sslcert
 
@@ -45,28 +45,28 @@ add sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = \] * * * adresse IP : port*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = adresse IP : port\]**
 </dt> <dd>
 
 Spécifie l’adresse IP et le port de la liaison.
 
 </dd> <dt>
 
-<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = \] * * * chaîne*
+<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = chaîne\]**
 </dt> <dd>
 
 Spécifie le hachage SHA du certificat. Ce hachage a une longueur de 20 octets et est spécifié sous forme de chaîne hexadécimale.
 
 </dd> <dt>
 
-<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[AppID = \] * * * * GUID*
+<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[AppID = GUID\]**
 </dt> <dd>
 
 Spécifie le GUID permettant d’identifier l’application propriétaire.
 
 </dd> <dt>
 
-<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename = \] * * * chaîne*
+<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename = chaîne\]**
 </dt> <dd>
 
 Spécifie le nom du stockage pour le certificat. Défini par défaut sur MY. Le certificat doit être stocké dans le contexte de l’ordinateur local.
@@ -94,28 +94,28 @@ Active ou désactive la vérification de l’utilisation. Par défaut, l’utili
 
 </dd> <dt>
 
-<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[RevocationFreshnessTime = \] * * * u-int*
+<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[RevocationFreshnessTime = u-int\]**
 </dt> <dd>
 
 Spécifie l’intervalle de temps à vérifier pour une liste de révocation de certificats (CRL) mise à jour. Si cette valeur est égale à 0, la nouvelle liste de révocation de certificats est mise à jour uniquement si la précédente expire (en secondes).
 
 </dd> <dt>
 
-<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[UrlRetrievalTimeout = \] * * * u-int*
+<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[UrlRetrievalTimeout = u-int\]**
 </dt> <dd>
 
 Spécifie l’intervalle de délai d’attente pour les tentatives de récupération de la liste de révocation de certificats pour l’URL distante (en millisecondes).
 
 </dd> <dt>
 
-<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[SslCtlIdentifier = \] * * * chaîne*
+<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[SslCtlIdentifier = chaîne\]**
 </dt> <dd>
 
 Répertorie les émetteurs de certificats qui peuvent être approuvés. Cette liste peut être un sous-ensemble des émetteurs de certificats qui sont approuvés par l’ordinateur.
 
 </dd> <dt>
 
-<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[SslCtlStoreName = \] * * * chaîne*
+<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[SslCtlStoreName = chaîne\]**
 </dt> <dd>
 
 Spécifie le nom du magasin sous l' \_ ordinateur local où SslCtlIdentifier est stocké.
@@ -144,9 +144,9 @@ Active ou désactive la négociation du certificat. Par défaut, elle est désac
 
 **AppID = {00112233-4455-6677-8899-AABBCCDDEEFF}**
 
- 
+ 
 
- 
+ 
 
 
 

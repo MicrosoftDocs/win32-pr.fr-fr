@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16c568afc3cfdc0d26472d50599abdf3dbd08301
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: f333c204b77d6e0c64119e16f31e170fec1d0f6c
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104971835"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644101"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>Gather (objet texture HLSL DirectX)
 
@@ -84,7 +84,7 @@ Obtient les quatre échantillons (composant rouge uniquement) qui seraient utili
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>Décalage</em></p></td>
-<td><p>dans Décalage de coordonnée de texture facultatif, qui peut être utilisé pour tout type d’objet de texture ; l’offset est appliqué à l’emplacement avant l’échantillonnage. Les décalages de texture doivent être statiques. Le type d’argument est dépendant du type de texture-objet. Pour plus d’informations, consultez <a href="dx-graphics-hlsl-to-sample.md">application de décalages de coordonnées de texture</a>.</p>
+<td><p>dans Décalage de coordonnée de texture facultatif, qui peut être utilisé pour tout type d’objet de texture ; l’offset est appliqué à l’emplacement avant l’échantillonnage. Le type d’argument est dépendant du type de texture-objet. Pour les nuanceurs ciblant le modèle de nuanceur 5,0 et versions ultérieures, les 6 bits les plus significatifs de chaque valeur de décalage sont honorés en tant que valeur signée, ce qui donne une plage [-32.. 31]. Pour les nuanceurs de modèle de nuanceur précédents, les décalages doivent être des entiers immédiats compris entre-8 et 7.</p>
 
 <table>
 <thead>

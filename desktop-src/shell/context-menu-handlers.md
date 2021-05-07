@@ -4,21 +4,19 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Création de gestionnaires de menu contextuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e8b7091483726c322a8ae18bace883af126d404
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 4bd2611c492d517e9312ec2a4e1c95d7f1aa0fea
+ms.sourcegitcommit: 05b3d7f137ef9bbddf4049215cb11d55b935997e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "103869309"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108800970"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>Création de gestionnaires de menu contextuel
 
-Les gestionnaires de menus contextuels, également appelés gestionnaires de menus contextuels ou gestionnaires de verbes, sont un type de gestionnaire de type de fichier. Comme tous les gestionnaires de ce type, il s’agit d’objets COM (Component Object Model) en cours d’implémentation en tant que dll.
+Les gestionnaires de menus contextuels, également appelés gestionnaires de menus contextuels ou gestionnaires de verbes, sont un type de gestionnaire de type de fichier. Ces gestionnaires peuvent être impelmented de manière à ce qu’ils se chargent dans leur propre processus ou dans l’Explorateur, ou dans d’autres processus tiers. Soyez vigilant lors de la création de gestionnaires in-process, car ils peuvent nuire au processus qui les charge.
 
 > [!Note]  
-> Des considérations spéciales sont à prendre en compte pour Windows 64 bits lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : quand les verbes de Shell sont appelés dans le contexte d’une application 32 bits, le sous-système WOW64 redirige l’accès au système de fichiers vers certains chemins d’accès. Si votre gestionnaire. exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre fichier. exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre fichier. exe qui lance la version réelle.
-
- 
+> Il existe des considérations spéciales pour les versions 64 bits de Windows lors de l’enregistrement de gestionnaires qui fonctionnent dans le contexte d’applications 32 bits : lorsqu’ils sont appelés dans le contexte d’une application de bits différents, le sous-système WOW64 redirige l’accès au système de fichiers vers certains chemins d’accès. Si votre gestionnaire. exe est stocké dans l’un de ces chemins d’accès, il n’est pas accessible dans ce contexte. Par conséquent, pour une solution de contournement, stockez votre fichier. exe dans un chemin d’accès qui n’est pas redirigé, ou stockez une version stub de votre fichier. exe qui lance la version réelle.
 
 Cette rubrique est organisée comme suit :
 
@@ -45,24 +43,17 @@ Cette rubrique est organisée comme suit :
 Les applications sont généralement chargées de fournir des chaînes d’affichage localisées pour les verbes qu’elles définissent. Toutefois, pour fournir un degré d’indépendance du langage, le système définit un ensemble standard de verbes couramment utilisés appelés verbes canoniques. Un verbe canonique n’est jamais affiché à l’utilisateur et peut être utilisé avec n’importe quelle langue d’interface utilisateur. Le système utilise le nom canonique pour générer automatiquement une chaîne d’affichage correctement localisée. Par exemple, la chaîne d’affichage du verbe Open est définie sur **Open** sur un système en anglais et sur l’équivalent allemand sur un système allemand.
 
 
-
 | Verbe canonique | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | Ouvrir           | Ouvre le fichier ou le dossier.                                            |
 | Opennew        | Ouvre le fichier ou le dossier dans une nouvelle fenêtre.                            |
-| Imprimer          | Imprime le fichier.                                                     |
+| Impression          | Imprime le fichier.                                                     |
 | Printto        | Permet à l’utilisateur d’imprimer un fichier en le faisant glisser vers un objet Printer. |
 | Explorer        | Ouvre l’Explorateur Windows avec le dossier sélectionné.                     |
 | Propriétés     | Ouvre la feuille de propriétés de l’objet.                                   |
 
-
-
- 
-
 > [!Note]  
 > Le verbe **Printto** est également canonique, mais il n’est jamais affiché. Son inclusion permet à l’utilisateur d’imprimer un fichier en le faisant glisser vers un objet Printer.
-
- 
 
 Les gestionnaires de menu contextuel peuvent fournir leurs propres verbes canoniques via [**IContextMenu :: GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) avec **GC \_ VERBW** ou **GC \_ Verba**. Le système utilise les verbes canoniques comme second paramètre (*lpOperation*) passé à [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea), et est [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo). membre **lpVerb** passé à la méthode [**IContextMenu :: commande InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) .
 
@@ -136,7 +127,7 @@ Les verbes peuvent être classés en spécifiant la valeur par défaut de la sou
 
 Par exemple, l’entrée de Registre suivante produit des verbes de menu contextuel dans l’ordre suivant :
 
-1.  Afficher
+1.  Affichage
 2.  Gadgets
 3.  Personnalisation
 
@@ -153,7 +144,7 @@ De même, l’entrée de Registre suivante produit des verbes de menu contextuel
 
 1.  Personnalisation
 2.  Gadgets
-3.  Afficher
+3.  Affichage
 
 ```
 HKEY_CLASSES_ROOT

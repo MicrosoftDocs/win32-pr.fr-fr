@@ -4,12 +4,12 @@ ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: Format de chaîne de descripteur de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42780c408908faf0a226584be7315ab6bf9e78e5
-ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
+ms.openlocfilehash: 2d7fd6e9e2387deee63b5046086ed167a29fa54b
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "107925681"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644201"
 ---
 # <a name="security-descriptor-string-format"></a>Format de chaîne de descripteur de sécurité
 
@@ -60,7 +60,7 @@ Indicateurs de contrôle du descripteur de sécurité qui s’appliquent à la l
 | P                   | SDDL \_ protégé          | L' \_ indicateur de \_ protection discrétionnaire se est défini.          |
 | AR                  | \_demande d' \_ héritage \_ automatique SDDL | L’indicateur de demande d’héritage automatique de la liste d’accès \_ discrétionnaire \_ \_ \_ est défini. |
 | AI                  | SDDL \_ \_ hérité automatiquement    | L' \_ indicateur d’héritage automatique de la liste de \_ \_ rédépendance se définit.    |
-| « AUCUN \_ contrôle d’accès \_ » | ACL de la \_ valeur SDDL null \_          | La liste de contrôle d’accès a la valeur null.                              |
+| « AUCUN \_ contrôle d’accès \_ » | ACL de la \_ valeur SDDL null \_          | La liste de contrôle d’accès a la valeur null. **Windows server 2008, Windows Vista et Windows server 2003 :** Non disponible. |
 
 
 
