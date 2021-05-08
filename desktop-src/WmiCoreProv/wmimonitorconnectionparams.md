@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 64212c523459696ced37e42689f6a4be0edb056b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a88b80773ec60b161df51fc759cc932d5c53c931
+ms.sourcegitcommit: cfcac5a083b72fd7f2a5188166d470cc0e95d02d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203743"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "109626691"
 ---
 # <a name="wmimonitorconnectionparams-class"></a>WmiMonitorConnectionParams, classe
 
@@ -90,7 +90,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de connexion de la technologie de sortie vidéo. Les valeurs valides sont documentées dans l’énumération de la [ \_ \_ \_ technologie de sortie vidéo D3DKMDT](https://msdn.microsoft.com/library/ms794498.aspx) .
+Type de connexion de la technologie de sortie vidéo. Les valeurs valides sont documentées dans l’énumération de la [ \_ \_ \_ technologie de sortie vidéo D3DKMDT](/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology) .
 
 </dd> </dl>
 
@@ -101,7 +101,7 @@ Type de connexion de la technologie de sortie vidéo. Les valeurs valides sont d
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                         |
 | Espace de noms<br/>                | \\WMI racine<br/>                                                                   |
 | MOF<br/>                      | <dl> <dt>WmiCore. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WmiProv.dll</dt> </dl> |
