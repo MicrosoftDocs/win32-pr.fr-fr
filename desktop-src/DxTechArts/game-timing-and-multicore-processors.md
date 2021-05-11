@@ -4,12 +4,12 @@ description: Cet article propose une solution plus précise et fiable pour obten
 ms.assetid: 1512324d-dffa-3681-be3f-f63a3b8f11db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c5c511f558b59e94945e63c44db225f34ac2583
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f7a6d9d65ccb79c7b496b4d02b1bed132bdc2d3f
+ms.sourcegitcommit: 998a611c97d5e20ac0c45e3bda768ae67d8c2cca
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510080"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109725008"
 ---
 # <a name="game-timing-and-multicore-processors"></a>Minutage des jeux et processeurs multicœurs.
 
@@ -54,9 +54,9 @@ Pour obtenir des instructions sur l’utilisation de l’administrateur de compa
 
 Pour obtenir des informations sur les clients, consultez les articles suivants de la base de connaissances de la rubrique aide et support Microsoft :
 
--   [Les programmes dont l’utilisateur a la fonction QueryPerformanceCounter peuvent fonctionner mal dans Windows Server 2003 et Windows XP](https://support.microsoft.com/kb/895980) (article 895980)
+-   [Les programmes qui utilisent la fonction QueryPerformanceCounter peuvent fonctionner mal dans Windows Server 2003 et Windows XP](https://support.microsoft.com/kb/895980) (article 895980)
 -   [Les performances du jeu peuvent être médiocres sur un ordinateur Windows XP qui utilise un processeur double cœur](https://support.microsoft.com/kb/909944) (article 909944)
 
- 
+ 
 
- 
+ 
