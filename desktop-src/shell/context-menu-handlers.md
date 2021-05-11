@@ -4,12 +4,12 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: Création de gestionnaires de menu contextuel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd2611c492d517e9312ec2a4e1c95d7f1aa0fea
-ms.sourcegitcommit: 05b3d7f137ef9bbddf4049215cb11d55b935997e
+ms.openlocfilehash: e8e102833453566f42d058ff82061f34ebc65691
+ms.sourcegitcommit: 9655f82be96b11258276fdefff14423c30552fbb
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108800970"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109740570"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>Création de gestionnaires de menu contextuel
 
@@ -22,6 +22,7 @@ Cette rubrique est organisée comme suit :
 
 -   [Verbes canoniques](#canonical-verbs)
 -   [Verbes étendus](#extended-verbs)
+-   [Verbes d’accès par programme uniquement](#programmaticaccessonly-verbs)
 -   [Personnalisation d’un menu contextuel à l’aide de verbes statiques](#customizing-a-shortcut-menu-using-static-verbs)
     -   [Activation de votre gestionnaire à l’aide de l’interface IDropTarget](#activating-your-handler-using-the-idroptarget-interface)
     -   [Spécification de la position et de l’ordre des verbes statiques](#specifying-the-position-and-order-of-static-verbs)
@@ -60,6 +61,12 @@ Les gestionnaires de menu contextuel peuvent fournir leurs propres verbes canoni
 ## <a name="extended-verbs"></a>Verbes étendus
 
 Quand l’utilisateur clique avec le bouton droit sur un objet, le menu contextuel affiche les verbes par défaut. Vous souhaiterez peut-être ajouter et prendre en charge des commandes dans certains menus contextuels qui ne s’affichent pas dans chaque menu contextuel. Par exemple, vous pouvez avoir des commandes qui ne sont pas couramment utilisées ou qui sont destinées à des utilisateurs expérimentés. Pour cette raison, vous pouvez également définir un ou plusieurs verbes étendus. Ces verbes sont semblables aux verbes normaux, mais se distinguent des verbes normaux par leur mode d’enregistrement. Pour avoir accès à des verbes étendus, l’utilisateur doit cliquer avec le bouton droit sur un objet tout en appuyant sur la touche Maj. Lorsque l’utilisateur effectue cette action, les verbes étendus sont affichés en plus des verbes par défaut.
+
+Vous pouvez utiliser le registre pour définir un ou plusieurs verbes étendus. Les commandes associées s’affichent uniquement quand l’utilisateur clique avec le bouton droit sur un objet tout en appuyant sur la touche Maj. Pour définir un verbe comme étendu, ajoutez une valeur **\_ SZ** « étendue » à la sous-clé du verbe. Aucune donnée ne doit être associée à la valeur.
+
+## <a name="programmatic-access-only"></a>Accès par programme uniquement
+
+Ces verbes ne sont jamais affichés dans un menu contextuel. Ils sont accessibles à l’aide de [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) et en spécifiant le champ **LpVerb** du paramètre *pExecInfo* (un objet [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa) ). Pour définir un verbe comme accès par programme uniquement, ajoutez une valeur de **reg \_ SZ** « ProgrammaticAccessOnly » à la sous-clé du verbe. Aucune donnée ne doit être associée à la valeur.
 
 Vous pouvez utiliser le registre pour définir un ou plusieurs verbes étendus. Les commandes associées s’affichent uniquement quand l’utilisateur clique avec le bouton droit sur un objet tout en appuyant sur la touche Maj. Pour définir un verbe comme étendu, ajoutez une valeur **\_ SZ** « étendue » à la sous-clé du verbe. Aucune donnée ne doit être associée à la valeur.
 
