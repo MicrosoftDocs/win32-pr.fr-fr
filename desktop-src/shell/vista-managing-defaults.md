@@ -4,19 +4,19 @@ ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: Gestion des applications par défaut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de40d6c80aae4005fc015c08ef7bf2907289e795
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc146858d197b96229edda49ac2e7249db51bf4c
+ms.sourcegitcommit: 4d639170c06864e47ef66b2cfe6ca3d07cce0b02
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864894"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109812824"
 ---
 # <a name="managing-default-applications"></a>Gestion des applications par défaut
 
 La fonctionnalité **définir l’accès aux programmes et les paramètres par défaut** de l’ordinateur (SPAD) a été ajoutée à Windows XP et aux versions ultérieures de Windows pour gérer les paramètres par défaut des ordinateurs. En plus de la fonction SPAD, Windows Vista a introduit le concept d’applications par défaut par utilisateur et l’élément **programmes par défaut** dans le panneau de configuration.
 
 > [!IMPORTANT]
-> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
+> Cette rubrique ne s’applique pas à Windows 10. Le mode de fonctionnement des associations de fichiers par défaut dans Windows 10. Pour plus d’informations, consultez la section sur les **modifications apportées à la façon dont Windows 10 gère les applications par défaut** dans [cette publication](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/).
 
  
 
