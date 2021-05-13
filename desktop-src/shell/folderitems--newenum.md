@@ -13,18 +13,18 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: c03aceab-3437-46ae-be43-a54935bb24cb
-ms.openlocfilehash: e0d4da945ee224955024389b055283f86b1a31e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 757707354b410abd42504e04b4bb14504696e83c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104996576"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842070"
 ---
-# <a name="folderitems_newenum-method"></a><span data-ttu-id="45d92-103">FolderItems. \_ NewEnum, méthode</span><span class="sxs-lookup"><span data-stu-id="45d92-103">FolderItems.\_NewEnum method</span></span>
+# <a name="folderitems_newenum-method"></a><span data-ttu-id="5e333-103">FolderItems. \_ NewEnum, méthode</span><span class="sxs-lookup"><span data-stu-id="5e333-103">FolderItems.\_NewEnum method</span></span>
 
-<span data-ttu-id="45d92-104">Crée et retourne un nouvel objet [**FolderItems**](folderitems.md) qui est une copie de cet objet FolderItemsss.</span><span class="sxs-lookup"><span data-stu-id="45d92-104">Creates and returns a new [**FolderItems**](folderitems.md) object that is a copy of this FolderItemsss object.</span></span>
+<span data-ttu-id="5e333-104">Crée et retourne un nouvel objet [**FolderItems**](folderitems.md) qui est une copie de cet objet FolderItemsss.</span><span class="sxs-lookup"><span data-stu-id="5e333-104">Creates and returns a new [**FolderItems**](folderitems.md) object that is a copy of this FolderItemsss object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="45d92-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="45d92-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5e333-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="5e333-105">Syntax</span></span>
 
 
 ```JScript
@@ -33,23 +33,23 @@ FolderItems._NewEnum()
 
 
 
-## <a name="parameters"></a><span data-ttu-id="45d92-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="45d92-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5e333-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="5e333-106">Parameters</span></span>
 
-<span data-ttu-id="45d92-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="45d92-107">This method has no parameters.</span></span>
+<span data-ttu-id="5e333-107">Cette méthode n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="5e333-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="45d92-108">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="45d92-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5e333-108">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="5e333-108">Return value</span></span>
 
-<span data-ttu-id="45d92-109">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="45d92-109">This method does not return a value.</span></span>
+<span data-ttu-id="5e333-109">Cette méthode ne retourne pas de valeur.</span><span class="sxs-lookup"><span data-stu-id="5e333-109">This method does not return a value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="45d92-110">Spécifications</span><span class="sxs-lookup"><span data-stu-id="45d92-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5e333-110">Spécifications</span><span class="sxs-lookup"><span data-stu-id="5e333-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="45d92-111">Condition requise</span><span class="sxs-lookup"><span data-stu-id="45d92-111">Requirement</span></span> | <span data-ttu-id="45d92-112">Valeur</span><span class="sxs-lookup"><span data-stu-id="45d92-112">Value</span></span> |
+| <span data-ttu-id="5e333-111">Condition requise</span><span class="sxs-lookup"><span data-stu-id="5e333-111">Requirement</span></span> | <span data-ttu-id="5e333-112">Valeur</span><span class="sxs-lookup"><span data-stu-id="5e333-112">Value</span></span> |
 |-------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="45d92-113">En-tête</span><span class="sxs-lookup"><span data-stu-id="45d92-113">Header</span></span><br/> | <dl> <span data-ttu-id="45d92-114"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="45d92-114"><dt>Shldisp.h</dt></span></span> </dl>                           |
-| <span data-ttu-id="45d92-115">MIDL</span><span class="sxs-lookup"><span data-stu-id="45d92-115">IDL</span></span><br/>    | <dl> <span data-ttu-id="45d92-116"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="45d92-116"><dt>Shldisp.idl</dt></span></span> </dl>                         |
-| <span data-ttu-id="45d92-117">DLL</span><span class="sxs-lookup"><span data-stu-id="45d92-117">DLL</span></span><br/>    | <dl> <span data-ttu-id="45d92-118"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="45d92-118"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="5e333-113">En-tête</span><span class="sxs-lookup"><span data-stu-id="5e333-113">Header</span></span><br/> | <dl> <span data-ttu-id="5e333-114"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="5e333-114"><dt>Shldisp.h</dt></span></span> </dl>                           |
+| <span data-ttu-id="5e333-115">MIDL</span><span class="sxs-lookup"><span data-stu-id="5e333-115">IDL</span></span><br/>    | <dl> <span data-ttu-id="5e333-116"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="5e333-116"><dt>Shldisp.idl</dt></span></span> </dl>                         |
+| <span data-ttu-id="5e333-117">DLL</span><span class="sxs-lookup"><span data-stu-id="5e333-117">DLL</span></span><br/>    | <dl> <span data-ttu-id="5e333-118"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="5e333-118"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 

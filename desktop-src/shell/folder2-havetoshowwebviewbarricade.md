@@ -9,16 +9,16 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.assetid: 28baaa6f-ae39-4110-b341-199ebda9d578
-ms.openlocfilehash: 863c1bdc07416de96312e13bf17dc35eb2da386a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2739f59dd0c5e635f08828e597e40d630ebc4a76
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971910"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842080"
 ---
-# <a name="folder2havetoshowwebviewbarricade-property"></a><span data-ttu-id="8a16b-103">Dossier2. HaveToShowWebViewBarricade, propriété</span><span class="sxs-lookup"><span data-stu-id="8a16b-103">Folder2.HaveToShowWebViewBarricade property</span></span>
+# <a name="folder2havetoshowwebviewbarricade-property"></a><span data-ttu-id="a16de-103">Dossier2. HaveToShowWebViewBarricade, propriété</span><span class="sxs-lookup"><span data-stu-id="a16de-103">Folder2.HaveToShowWebViewBarricade property</span></span>
 
-<span data-ttu-id="8a16b-104">Cette propriété n'est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="8a16b-104">This property is not supported.</span></span>
+<span data-ttu-id="a16de-104">Cette propriété n'est pas prise en charge.</span><span class="sxs-lookup"><span data-stu-id="a16de-104">This property is not supported.</span></span>
 
  
 
