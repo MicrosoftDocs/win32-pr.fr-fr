@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5c920dca-fbca-48e1-9dce-38713cf1fcef
-ms.openlocfilehash: e9e3231e8cc602a4e00b6ee79a25392717b6e68b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3146fea4f6c8d8547c8c86096b434cbaea5b5926
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972350"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842990"
 ---
 # <a name="ishellfoldersearchablecancelasyncsearch-method"></a>IShellFolderSearchable :: CancelAsyncSearch, méthode
 
@@ -52,13 +52,13 @@ Pointeur vers un [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shtypes-itemid
 *pdwFlags* \[ dans\]
 </dt> <dd>
 
-Type : **DWORD \** _
+Type : **DWORD \***
 
-Aucun indicateur n’est actuellement défini. définissez sur _ * NULL * *.
+Aucun indicateur n’est actuellement défini. Affectez la valeur **null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

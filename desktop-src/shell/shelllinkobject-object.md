@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: d3c0ccf8-0f83-42f7-9d6f-1fb293da6364
-ms.openlocfilehash: 1daf1aafae4bc230014890b79d4fb0310aa30a1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5862ae3c9b7bf1262edbc28b06f2963f2e577275
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973738"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842630"
 ---
 # <a name="shelllinkobject-object"></a>Objet ShellLinkObject
 
@@ -59,7 +59,7 @@ L’objet **ShellLinkObject** a ces propriétés.
 | [**Arguments**](shelllinkobject-arguments.md)<br/>               | Lecture/écriture<br/> | Contient les arguments d’un lien.<br/>                                                                   |
 | [**Description**](shelllinkobject-description.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit la description du lien.<br/>                                                      |
 | [**Touche d’accès rapide**](shelllinkobject-hotkey.md)<br/>                     | Lecture/écriture<br/> | Obtient ou définit le raccourci clavier du lien.<br/>                                               |
-| [**Path**](shelllinkobject-path.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à l’objet de lien.<br/>                                                      |
+| [**Chemin d’accès**](shelllinkobject-path.md)<br/>                         | Lecture/écriture<br/> | Obtient ou définit le chemin d’accès à l’objet de lien.<br/>                                                      |
 | [**ShowCommand**](shelllinkobject-showcommand.md)<br/>           | Lecture/écriture<br/> | Obtient ou définit l’état d’affichage initial (dimensionné, réduit ou agrandi) de la commande du lien.<br/> |
 | [**WorkingDirectory**](shelllinkobject-workingdirectory.md)<br/> | Lecture/écriture<br/> | Obtient ou définit le répertoire de travail spécifié dans le lien.<br/>                                      |
 

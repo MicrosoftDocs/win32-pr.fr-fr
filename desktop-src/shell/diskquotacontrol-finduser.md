@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e5767d28-4c0a-49bc-a1d3-ba809411456d
-ms.openlocfilehash: af1bc9c0398d37f04e47515a2b85cb4520795b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eab539a5ec5a360ae28fc87d5ffbb9dd4f9f1cc8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971966"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841520"
 ---
 # <a name="diskquotacontrolfinduser-method"></a>Méthode DiskQuotaControl. FindUser
 
@@ -48,7 +48,7 @@ Valeur de chaîne qui contient le nom d’ouverture de session de l’utilisateu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne une expression d’objet qui prend la valeur de l’objet [**DIDiskQuotaUser**](didiskquotauser-object.md) de l’utilisateur.
 

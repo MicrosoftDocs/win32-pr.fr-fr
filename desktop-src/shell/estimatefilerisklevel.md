@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-ms.openlocfilehash: 96798e0bc64b39ae7f18d58b97fafafc9dc2508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2def6cb5bc2ed59a98e9e513aba1b5b578cd8681
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973615"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841430"
 ---
 # <a name="estimatefilerisklevel-function"></a>EstimateFileRiskLevel fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient le ch
 *pfrlEstimate* \[ à\]
 </dt> <dd>
 
-Type : **fichier \_ \_ niveau \* de risque* _
+Type : **fichier \_ \_ niveau \* de risque**
 
 Lorsque cette fonction est retournée avec succès, contient un pointeur vers l’une des valeurs suivantes qui indique le risque estimé.
 
@@ -82,7 +82,7 @@ Lorsque cette fonction est retournée avec succès, contient un pointeur vers l�
 
 <span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>
 
-<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>_ *FRL \_ aucun \_ avis** (0)
+<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>**FRL \_ AUCUN \_ avis** (0)
 
 
 </dt> <dd>
@@ -135,7 +135,7 @@ Le format de fichier est spécifiquement bloqué pour ce gestionnaire.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

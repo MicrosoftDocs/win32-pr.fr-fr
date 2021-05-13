@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-ms.openlocfilehash: cf7d0feb31666f3a918c0307a0b0983bff246fea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46df03208ecc468aac366fb0b4cfb33e1a68157e
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525402"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841680"
 ---
 # <a name="cansharefolderw-function"></a>CanShareFolderW fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers une chaîne qui spécifie le chemin d’accès du dossier à teste
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **STDAPI**
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 456b053e-e83d-43af-9691-57e1d4fd3f8f
-ms.openlocfilehash: 3bed8995954cdfe05bcc8eea82dc47415033e205
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7549b521c241429f1c5c7edb7f83eadf25f5d37
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210305"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842420"
 ---
 # <a name="fm_undelete_proc-function-pointer"></a>\_ \_ Pointeur de fonction proc de suppression de la suppression FM
 
@@ -58,7 +58,7 @@ Adresse d’une chaîne terminée par le caractère null qui contient le nom du 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **DWORD**
 

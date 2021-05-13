@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 6985a299-8547-4db4-99f9-d46dafe4789b
-ms.openlocfilehash: 36c1de0a606fdfddbe8eb74b5cc6c20cdda8e983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43d76c6a27b301a61474b8028af16e5e540cf2ce
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201708"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841690"
 ---
 # <a name="ishellfoldersearchableinvalidatesearch-method"></a>IShellFolderSearchable :: InvalidateSearch, méthode
 
@@ -52,13 +52,13 @@ Pointeur vers la structure [**ITEMIDLIST**](/windows/desktop/api/Shtypes/ns-shty
 *pdwFlags* \[ dans\]
 </dt> <dd>
 
-Type : **DWORD \** _
+Type : **DWORD \***
 
-Aucun indicateur n’est actuellement défini. définissez sur _ * NULL * *.
+Aucun indicateur n’est actuellement défini. Affectez la valeur **null**.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

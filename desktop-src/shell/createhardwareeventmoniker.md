@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shsvcs.dll
 ms.assetid: ff0ad023-42ea-4c74-adae-af55527b6ac3
-ms.openlocfilehash: 59100ab20cd997cc4ab35602698268ec6d76dea4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c22f01835f9c526e95a4330e6ad35d370421e604
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972039"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841240"
 ---
 # <a name="createhardwareeventmoniker-function"></a>CreateHardwareEventMoniker fonction)
 
@@ -70,7 +70,7 @@ Adresse d’une variable pointeur qui reçoit le pointeur d’interface [**IMoni
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

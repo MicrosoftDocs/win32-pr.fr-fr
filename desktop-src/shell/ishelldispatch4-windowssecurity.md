@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 665c4644-7749-446e-8212-3ecc9901a035
-ms.openlocfilehash: 2d7e8cfbd1e7a2a2392b78487c6a58b62de6df6a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6eadb580c73e5e56592c94e997bdc22c2cf894b4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116807"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843020"
 ---
 # <a name="ishelldispatch4windowssecurity-method"></a>Méthode IShellDispatch4. WindowsSecurity
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode affiche la boîte de dialogue qui s’affiche après avoir appuyé sur CTRL + ALT + SUPPR ou à l’aide de l’option sécurité dans le menu **Démarrer** .
 
@@ -116,7 +116,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

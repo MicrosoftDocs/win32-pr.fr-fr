@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 3e891278d98ca2eb51fca11054cba01947e03c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867745"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841760"
 ---
 # <a name="shell-object"></a>Objet Shell
 
@@ -132,7 +132,7 @@ L’objet **Shell** possède ces méthodes.
 <td style="text-align: left;">Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="shell-open.md"><strong>Ouvrir</strong></a></td>
+<td style="text-align: left;"><a href="shell-open.md"><strong>Afficher</strong></a></td>
 <td style="text-align: left;">Ouvre le dossier spécifié.<br/></td>
 </tr>
 <tr class="odd">
@@ -168,7 +168,7 @@ L’objet **Shell** possède ces méthodes.
 <td style="text-align: left;">Affiche la boîte de dialogue <strong>arrêter Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-suspend.md"><strong>Interrompre</strong></a></td>
+<td style="text-align: left;"><a href="shell-suspend.md"><strong>Momentané</strong></a></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">

@@ -3,12 +3,12 @@ title: Coordonnées de texture générées automatiquement (Direct3D 9)
 description: Le système peut utiliser la position transformée de l’espace de caméra ou la normale d’un vertex comme coordonnées de texture, ou il peut calculer les trois vecteurs d’éléments utilisés pour adresser une carte d’environnement cubique.
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8a6328df66296c0948c53be68109a9f5afbbb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b01addbe354fb910ef68e1fc693e7dfffb1ceacf
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514756"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843290"
 ---
 # <a name="auto-generated-texture-coordinates-direct3d-9"></a>Coordonnées de texture générées automatiquement (Direct3D 9)
 

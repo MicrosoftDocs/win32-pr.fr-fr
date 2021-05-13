@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-ms.openlocfilehash: 5699ad9d15b0fa31c92f7d88df194f9012fa679d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b370056f40320561a38b1f77fbcf9a53ee35686a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971987"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843240"
 ---
 # <a name="didiskquotauser-object"></a>Objet DIDiskQuotaUser
 
@@ -39,7 +39,7 @@ L’objet **DIDiskQuotaUser** a ces méthodes.
 
 | Méthode                                           | Description                                             |
 |:-------------------------------------------------|:--------------------------------------------------------|
-| [**Invalider**](didiskquotauser-invalidate.md) | Efface les informations utilisateur mises en cache de l’objet.<br/> |
+| [**Invalidate**](didiskquotauser-invalidate.md) | Efface les informations utilisateur mises en cache de l’objet.<br/> |
 
 
 
@@ -55,8 +55,8 @@ L’objet **DIDiskQuotaUser** a ces propriétés.
 |:--------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------|
 | [**AccountContainerName**](didiskquotauser-accountcontainername.md)<br/> | Lecture seule<br/>  | Obtient le nom du conteneur de compte de l’utilisateur.<br/>                                            |
 | [**AccountStatus**](didiskquotauser-accountstatus.md)<br/>               | Lecture seule<br/>  | Obtient l’état du compte de l’utilisateur.<br/>                                                    |
-| [**DisplayName**](didiskquotauser-displayname.md)<br/>                   | Lecture seule<br/>  | Obtient le nom complet de l’utilisateur.<br/>                                                             |
-| [**IDENTIFI**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
+| [**NomComplet**](didiskquotauser-displayname.md)<br/>                   | Lecture seule<br/>  | Obtient le nom complet de l’utilisateur.<br/>                                                             |
+| [**ID**](didiskquotauser-id.md)<br/>                                     | Lecture seule<br/>  | Obtient un ID qui identifie de façon unique l’utilisateur.<br/>                                             |
 | [**LogonName**](didiskquotauser-logonname.md)<br/>                       | Lecture seule<br/>  | Obtient le nom du compte d’ouverture de session de l’utilisateur.<br/>                                                       |
 | [**QuotaLimit**](didiskquotauser-quotalimit.md)<br/>                     | Lecture/écriture<br/> | Définit ou obtient la [**limite de quota**](diskquotacontrol-object.md)actuelle de l’utilisateur.<br/>           |
 | [**QuotaLimitText**](didiskquotauser-quotalimittext.md)<br/>             | Lecture seule<br/>  | Obtient la [**limite de quota**](diskquotacontrol-object.md) actuelle de l’utilisateur sous la forme d’une chaîne de texte. <br/> |

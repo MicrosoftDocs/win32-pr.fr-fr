@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: c5daab49-4ed5-439b-b1b7-a87f70c379f0
-ms.openlocfilehash: 5f04b524c8d44d987513b6605f9f827336078d02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: c4195acedbd696679a2deea2f4d6e268717566d1
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202792"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841270"
 ---
 # <a name="fmevent_toolbarload-message"></a>\_Message FMEVENT TOOLBARLOAD
 
@@ -38,7 +38,7 @@ Adresse d’une structure [**FMS \_ TOOLBARLOAD**](fms-toolbarload.md) . Si la D
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Une DLL d’extension doit retourner la **valeur true** pour ajouter le bouton à la barre d’outils. Si la DLL retourne la **valeur false**, le gestionnaire de fichiers n’ajoute pas le bouton.
 

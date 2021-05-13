@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: BD07F7F2-A588-4189-95F4-3A8E2905E8F5
-ms.openlocfilehash: c0d6c1e03db960c6abc8abc28ba8e79755fce639
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 472f6141b8aaed47ac05c8eaf670a0d039ce5561
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083677"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841010"
 ---
 # <a name="shelltoggledesktop-method"></a>Shell. ToggleDesktop, méthode
 
@@ -55,7 +55,7 @@ Cette méthode ne retourne pas de valeur.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode a le même effet que le bouton **afficher le bureau** sur la barre des tâches. Il masque toutes les fenêtres ouvertes pour afficher le bureau ou masque le bureau en affichant toutes les fenêtres ouvertes. La méthode **ToggleDesktop** n’affiche pas d’interface utilisateur, elle appelle simplement l’action bascule.
 
@@ -111,7 +111,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

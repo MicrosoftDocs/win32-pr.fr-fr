@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-ms.openlocfilehash: 20c6cc9f0b3a2e2fde8f56311564d63bc1cc9c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02fbead4b2d40a91ec6dab70f536d1ea3241ee84
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972410"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840890"
 ---
 # <a name="ishelldispatch-object"></a>Objet IShellDispatch
 
@@ -105,7 +105,7 @@ L’objet **IShellDispatch** a ces méthodes.
 <td style="text-align: left;">Crée et retourne un objet <a href="folder.md"><strong>Folder</strong></a> pour le dossier spécifié.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-open.md"><strong>Ouvrir</strong></a></td>
+<td style="text-align: left;"><a href="ishelldispatch-open.md"><strong>Afficher</strong></a></td>
 <td style="text-align: left;">Ouvre le dossier spécifié.<br/></td>
 </tr>
 <tr class="odd">
@@ -121,7 +121,7 @@ L’objet **IShellDispatch** a ces méthodes.
 <td style="text-align: left;">Affiche la boîte de dialogue <strong>arrêter Windows</strong> . Cela revient à cliquer sur le menu <strong>Démarrer</strong> et à sélectionner <strong>arrêter</strong>.<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-suspend.md"><strong>Interrompre</strong></a></td>
+<td style="text-align: left;"><a href="ishelldispatch-suspend.md"><strong>Momentané</strong></a></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">

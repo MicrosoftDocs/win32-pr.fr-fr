@@ -4,12 +4,12 @@ ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: Options de socket SOL_SOCKET (Winsock2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff97352871356521086c86cfc96a5414870bcad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0fbafca519c6068cd14fcbb15998bc9a25a5447b
+ms.sourcegitcommit: 30ce00809dcba5b8df06813445c97ae204a901c5
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542244"
+ms.lasthandoff: 05/13/2021
+ms.locfileid: "109853978"
 ---
 # <a name="sol_socket-socket-options"></a>Options de socket de socket SOL \_
 
@@ -61,7 +61,7 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 | \_informations de protocole \_                                       | Oui |     | [**\_informations WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa)  | Cette option est définie sur l' \_ option de socket de protocole \_ INFOW si la macro Unicode est définie. Si la macro UNICODE n’est pas définie, cette option est définie sur l' \_ option de \_ Socket so.                                                                                                                                                                                                                                                                                                                               |
 | par conséquent, les \_ informations de protocole \_                                      | Oui |     | [**WSAPROTOCOL \_ infoa**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) | Retourne la structure [**WSAPROTOCOL \_ infoa**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) pour le socket donné.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | \_INFOW de protocole \_                                      | Oui |     | [**WSAPROTOCOL \_ INFOW**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) | Retourne la [**structure \_ INFOW WSAPROTOCOL**](/windows/win32/api/winsock2/ns-winsock2-wsaprotocol_infoa) pour le socket donné.                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| \_ \_ port aléatoire                                      | Oui | Oui | uint16                                           | Cette option doit être définie sur un socket indépendant. Lorsque \_ \_ le port aléatoire est défini et qu’un port éphémère est sélectionné sur le socket, un numéro de port aléatoire est lié. Les ports de réutilisation automatique (les ports sélectionnés à l’aide \_ \_ de la réutilisation UNICASTPORT) randomssent également le port retourné. par conséquent, si une application définit la \_ réutilisation de \_ UNICASTPORT, puis tente de définir \_ le port de manière aléatoire \_ , le deuxième appel [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) échoue.                                                                                                                 |
+| \_ \_ port aléatoire                                      | Oui | Oui | DWORD (booléen)                                           | Cette option doit être définie sur un socket indépendant. Lorsque \_ \_ le port aléatoire est défini et qu’un port éphémère est sélectionné sur le socket, un numéro de port aléatoire est lié. Les ports de réutilisation automatique (les ports sélectionnés à l’aide \_ \_ de la réutilisation UNICASTPORT) randomssent également le port retourné. par conséquent, si une application définit la \_ réutilisation de \_ UNICASTPORT, puis tente de définir \_ le port de manière aléatoire \_ , le deuxième appel [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) échoue.                                                                                                                 |
 | \_RCVBUF                                               | Oui | Oui | DWORD                                            | Espace de la mémoire tampon par socket total réservé aux réceptions. Cela n’est pas lié à \_ \_ \_ la taille de message maximale et ne correspond pas nécessairement à la taille de la fenêtre de réception TCP.                                                                                                                                                                                                                                                                                                                                                               |
 | \_RCVLOWAT                                             | Oui | Oui | DWORD                                            | Option de socket de BSD UNIX incluse pour la compatibilité descendante. Cette option définit le nombre minimal d’octets à traiter pour les opérations d’entrée de Socket. Cette option n’est pas prise en charge par le fournisseur TCP/IP Windows. Si cette option est utilisée sur Windows Vista et les versions ultérieures, les fonctions [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) et [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) échouent avec WSAEINVAL. Dans les versions antérieures de Windows, ces fonctions échouent avec WSAENOPROTOOPT.<br/>                                                                 |
 | \_RCVTIMEO                                             | Oui | Oui | DWORD                                            | Délai d’attente, en millisecondes, pour le blocage des appels de réception. La valeur par défaut de cette option est zéro, ce qui indique qu’une opération de réception n’expirera pas. Si un appel de blocage de réception expire, la connexion est dans un état indéterminé et doit être fermée.<br/> Si le socket est créé à l’aide de la fonction [**WSASocket**](/windows/desktop/api/Winsock2/nf-winsock2-wsasocketa) , le paramètre *dwFlags* doit avoir \_ l' \_ attribut de chevauchement de l’indicateur WSA défini pour que le délai d’attente fonctionne correctement. Sinon, le délai d’attente ne prend jamais effet.<br/>     |
@@ -82,7 +82,7 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 
 </dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**Prise en charge Windows pour les \_ options de socket sol**</dt> <dd> <dl> <dt> 
 
-| Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
+| Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
 | configuration de PVD \_                                     |            |           |                     |               |                     |            |              |             |               |
 | \_ACCEPTCONN                                  | x          | x         | x                   | x             | x                   | x          | x            | x           | x             |
@@ -139,7 +139,7 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les options de socket de socket **sol \_** sont définies dans plusieurs fichiers d’en-tête Winsock :
 

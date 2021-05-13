@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Netplwiz.dll
 ms.assetid: 015c3875-698e-4d80-bbfc-4fc8a71197b7
-ms.openlocfilehash: a858a36caa4af8095fc7023abae5ad918321f53e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1678677bcb305b7e5c47d28f5168d1e596ca3e26
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203444"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842510"
 ---
 # <a name="passportwizardrundll-function"></a>PassportWizardRunDll fonction)
 
@@ -80,7 +80,7 @@ Définit le mode d’affichage de la fenêtre.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Aucun.
 

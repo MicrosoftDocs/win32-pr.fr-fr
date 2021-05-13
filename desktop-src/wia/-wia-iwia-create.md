@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 6a388ba2b3ee0506b093221275e34104e3f91bbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529151"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841330"
 ---
 # <a name="wiacreate-method"></a>WIA. Create, méthode
 
@@ -43,15 +43,15 @@ retVal = Wia.Create(
 *Appareil mobile* \[ dans\]
 </dt> <dd>
 
-Type : **Variant \** _
+Type : **variante \***
 
 Spécifie l’appareil WIA auquel se connecter.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : _ *IWiaDispatchItem**
+Type : **IWiaDispatchItem**
 
 En cas de réussite, cette méthode retourne un objet d' [**élément**](-wia-item.md) qui représente un périphérique matériel WIA (élément racine).
 
@@ -120,7 +120,7 @@ Set objWia = objWia.Create(Nothing)
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
