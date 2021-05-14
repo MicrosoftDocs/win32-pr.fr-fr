@@ -13,18 +13,18 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e91b72fd-fd26-4e38-8e80-41febec3ca03
-ms.openlocfilehash: 31a32865a979bf6b5fa115912bdc32a9680e5064
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f029ffb217249909e966b592280abf38b2ba2edd
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103997"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842570"
 ---
-# <a name="shellfolderviewselectionchanged-event"></a><span data-ttu-id="1a173-103">Événement ShellFolderView. SelectionChanged</span><span class="sxs-lookup"><span data-stu-id="1a173-103">ShellFolderView.SelectionChanged event</span></span>
+# <a name="shellfolderviewselectionchanged-event"></a><span data-ttu-id="6f121-103">Événement ShellFolderView. SelectionChanged</span><span class="sxs-lookup"><span data-stu-id="6f121-103">ShellFolderView.SelectionChanged event</span></span>
 
-<span data-ttu-id="1a173-104">Se produit lorsque l’état de sélection d’un élément ou d’éléments de la vue a été modifié.</span><span class="sxs-lookup"><span data-stu-id="1a173-104">Occurs when the selection state of any item or items in the view has changed.</span></span>
+<span data-ttu-id="6f121-104">Se produit lorsque l’état de sélection d’un élément ou d’éléments de la vue a été modifié.</span><span class="sxs-lookup"><span data-stu-id="6f121-104">Occurs when the selection state of any item or items in the view has changed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1a173-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="1a173-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6f121-105">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="6f121-105">Syntax</span></span>
 
 
 ```JScript
@@ -39,21 +39,21 @@ ShellFolderView.SelectionChanged = EventHandler;
 
 
 
-## <a name="parameters"></a><span data-ttu-id="1a173-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="1a173-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6f121-106">Paramètres</span><span class="sxs-lookup"><span data-stu-id="6f121-106">Parameters</span></span>
 
-<span data-ttu-id="1a173-107">Ce gestionnaire d’événements n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="1a173-107">This event handler has no parameters.</span></span>
+<span data-ttu-id="6f121-107">Ce gestionnaire d’événements n’a aucun paramètre.</span><span class="sxs-lookup"><span data-stu-id="6f121-107">This event handler has no parameters.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="1a173-108">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="1a173-108">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6f121-108">Spécifications</span><span class="sxs-lookup"><span data-stu-id="6f121-108">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1a173-109">Condition requise</span><span class="sxs-lookup"><span data-stu-id="1a173-109">Requirement</span></span> | <span data-ttu-id="1a173-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="1a173-110">Value</span></span> |
+| <span data-ttu-id="6f121-109">Condition requise</span><span class="sxs-lookup"><span data-stu-id="6f121-109">Requirement</span></span> | <span data-ttu-id="6f121-110">Valeur</span><span class="sxs-lookup"><span data-stu-id="6f121-110">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="1a173-111">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="1a173-111">Minimum supported client</span></span><br/> | <span data-ttu-id="1a173-112">Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="1a173-112">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
-| <span data-ttu-id="1a173-113">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="1a173-113">Minimum supported server</span></span><br/> | <span data-ttu-id="1a173-114">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="1a173-114">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
-| <span data-ttu-id="1a173-115">En-tête</span><span class="sxs-lookup"><span data-stu-id="1a173-115">Header</span></span><br/>                   | <dl> <span data-ttu-id="1a173-116"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="1a173-116"><dt>Shldisp.h</dt></span></span> </dl>                           |
-| <span data-ttu-id="1a173-117">MIDL</span><span class="sxs-lookup"><span data-stu-id="1a173-117">IDL</span></span><br/>                      | <dl> <span data-ttu-id="1a173-118"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="1a173-118"><dt>Shldisp.idl</dt></span></span> </dl>                         |
-| <span data-ttu-id="1a173-119">DLL</span><span class="sxs-lookup"><span data-stu-id="1a173-119">DLL</span></span><br/>                      | <dl> <span data-ttu-id="1a173-120"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="1a173-120"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="6f121-111">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="6f121-111">Minimum supported client</span></span><br/> | <span data-ttu-id="6f121-112">Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]</span><span class="sxs-lookup"><span data-stu-id="6f121-112">Windows 2000 Professional, Windows XP \[desktop apps only\]</span></span><br/>                                         |
+| <span data-ttu-id="6f121-113">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="6f121-113">Minimum supported server</span></span><br/> | <span data-ttu-id="6f121-114">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="6f121-114">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="6f121-115">En-tête</span><span class="sxs-lookup"><span data-stu-id="6f121-115">Header</span></span><br/>                   | <dl> <span data-ttu-id="6f121-116"><dt>Shldisp. h</dt></span><span class="sxs-lookup"><span data-stu-id="6f121-116"><dt>Shldisp.h</dt></span></span> </dl>                           |
+| <span data-ttu-id="6f121-117">MIDL</span><span class="sxs-lookup"><span data-stu-id="6f121-117">IDL</span></span><br/>                      | <dl> <span data-ttu-id="6f121-118"><dt>Shldisp. idl</dt></span><span class="sxs-lookup"><span data-stu-id="6f121-118"><dt>Shldisp.idl</dt></span></span> </dl>                         |
+| <span data-ttu-id="6f121-119">DLL</span><span class="sxs-lookup"><span data-stu-id="6f121-119">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6f121-120"><dt>Shell32.dll (version 4,71 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="6f121-120"><dt>Shell32.dll (version 4.71 or later)</dt></span></span> </dl> |
 
 
 

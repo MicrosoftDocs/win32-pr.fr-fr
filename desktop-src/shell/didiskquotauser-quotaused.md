@@ -13,20 +13,20 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3e3ade59-b925-4ff5-ae7e-ed97eff506c7
-ms.openlocfilehash: 7d5068e6f80fd2b0b435d04583e99da929e17fce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a08d7579ad4de51fbc88b7091f2f906ace838883
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112331"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841570"
 ---
-# <a name="didiskquotauserquotaused-property"></a><span data-ttu-id="ed9e7-103">DIDiskQuotaUser. QuotaUsed, propriété</span><span class="sxs-lookup"><span data-stu-id="ed9e7-103">DIDiskQuotaUser.QuotaUsed property</span></span>
+# <a name="didiskquotauserquotaused-property"></a><span data-ttu-id="c3449-103">DIDiskQuotaUser. QuotaUsed, propriété</span><span class="sxs-lookup"><span data-stu-id="c3449-103">DIDiskQuotaUser.QuotaUsed property</span></span>
 
-<span data-ttu-id="ed9e7-104">Obtient l’utilisation actuelle du disque de l’utilisateur, en octets.</span><span class="sxs-lookup"><span data-stu-id="ed9e7-104">Gets the user's current disk usage, in bytes.</span></span>
+<span data-ttu-id="c3449-104">Obtient l’utilisation actuelle du disque de l’utilisateur, en octets.</span><span class="sxs-lookup"><span data-stu-id="c3449-104">Gets the user's current disk usage, in bytes.</span></span>
 
-<span data-ttu-id="ed9e7-105">Cette propriété est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="ed9e7-105">This property is read-only.</span></span>
+<span data-ttu-id="c3449-105">Cette propriété est en lecture seule.</span><span class="sxs-lookup"><span data-stu-id="c3449-105">This property is read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ed9e7-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="ed9e7-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c3449-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="c3449-106">Syntax</span></span>
 
 
 ```JScript
@@ -35,36 +35,36 @@ iQuotaUsed = DIDiskQuotaUser.QuotaUsed
 
 
 
-## <a name="property-value"></a><span data-ttu-id="ed9e7-107">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="ed9e7-107">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c3449-107">Valeur de la propriété</span><span class="sxs-lookup"><span data-stu-id="c3449-107">Property value</span></span>
 
-<span data-ttu-id="ed9e7-108">Valeur **entière** définie sur la quantité d’espace disque actuellement utilisée.</span><span class="sxs-lookup"><span data-stu-id="ed9e7-108">The **Integer** value that is set to the amount of disk space currently in use.</span></span> <span data-ttu-id="ed9e7-109">Si la compression de fichiers NTFS est activée, **QuotaUsed** reflète la quantité d’espace disque requise par les données dans un État non compressé.</span><span class="sxs-lookup"><span data-stu-id="ed9e7-109">If NTFS file compression is enabled, **QuotaUsed** reflects the amount of disk space that the data would require in an uncompressed state.</span></span>
+<span data-ttu-id="c3449-108">Valeur **entière** définie sur la quantité d’espace disque actuellement utilisée.</span><span class="sxs-lookup"><span data-stu-id="c3449-108">The **Integer** value that is set to the amount of disk space currently in use.</span></span> <span data-ttu-id="c3449-109">Si la compression de fichiers NTFS est activée, **QuotaUsed** reflète la quantité d’espace disque requise par les données dans un État non compressé.</span><span class="sxs-lookup"><span data-stu-id="c3449-109">If NTFS file compression is enabled, **QuotaUsed** reflects the amount of disk space that the data would require in an uncompressed state.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="ed9e7-110">Spécifications</span><span class="sxs-lookup"><span data-stu-id="ed9e7-110">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c3449-110">Spécifications</span><span class="sxs-lookup"><span data-stu-id="c3449-110">Requirements</span></span>
 
 
 
-| <span data-ttu-id="ed9e7-111">Condition requise</span><span class="sxs-lookup"><span data-stu-id="ed9e7-111">Requirement</span></span> | <span data-ttu-id="ed9e7-112">Valeur</span><span class="sxs-lookup"><span data-stu-id="ed9e7-112">Value</span></span> |
+| <span data-ttu-id="c3449-111">Condition requise</span><span class="sxs-lookup"><span data-stu-id="c3449-111">Requirement</span></span> | <span data-ttu-id="c3449-112">Valeur</span><span class="sxs-lookup"><span data-stu-id="c3449-112">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="ed9e7-113">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="ed9e7-113">Minimum supported client</span></span><br/> | <span data-ttu-id="ed9e7-114">Windows 2000 Professionnel - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="ed9e7-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                    |
-| <span data-ttu-id="ed9e7-115">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="ed9e7-115">Minimum supported server</span></span><br/> | <span data-ttu-id="ed9e7-116">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="ed9e7-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="ed9e7-117">DLL</span><span class="sxs-lookup"><span data-stu-id="ed9e7-117">DLL</span></span><br/>                      | <dl> <span data-ttu-id="ed9e7-118"><dt>Shell32.dll (version 5,0 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="ed9e7-118"><dt>Shell32.dll (version 5.0 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="c3449-113">Client minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="c3449-113">Minimum supported client</span></span><br/> | <span data-ttu-id="c3449-114">Windows 2000 Professionnel - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="c3449-114">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                    |
+| <span data-ttu-id="c3449-115">Serveur minimal pris en charge</span><span class="sxs-lookup"><span data-stu-id="c3449-115">Minimum supported server</span></span><br/> | <span data-ttu-id="c3449-116">Windows 2000 Server - \[Applications de bureau uniquement\]</span><span class="sxs-lookup"><span data-stu-id="c3449-116">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="c3449-117">DLL</span><span class="sxs-lookup"><span data-stu-id="c3449-117">DLL</span></span><br/>                      | <dl> <span data-ttu-id="c3449-118"><dt>Shell32.dll (version 5,0 ou ultérieure)</dt></span><span class="sxs-lookup"><span data-stu-id="c3449-118"><dt>Shell32.dll (version 5.0 or later)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="ed9e7-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="ed9e7-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c3449-119">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="c3449-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ed9e7-120">**DIDiskQuotaUser**</span><span class="sxs-lookup"><span data-stu-id="ed9e7-120">**DIDiskQuotaUser**</span></span>](didiskquotauser-object.md)
+[<span data-ttu-id="c3449-120">**DIDiskQuotaUser**</span><span class="sxs-lookup"><span data-stu-id="c3449-120">**DIDiskQuotaUser**</span></span>](didiskquotauser-object.md)
 </dt> <dt>
 
-[<span data-ttu-id="ed9e7-121">**QuotaLimit**</span><span class="sxs-lookup"><span data-stu-id="ed9e7-121">**QuotaLimit**</span></span>](didiskquotauser-quotalimit.md)
+[<span data-ttu-id="c3449-121">**QuotaLimit**</span><span class="sxs-lookup"><span data-stu-id="c3449-121">**QuotaLimit**</span></span>](didiskquotauser-quotalimit.md)
 </dt> <dt>
 
-[<span data-ttu-id="ed9e7-122">**QuotaThreshold**</span><span class="sxs-lookup"><span data-stu-id="ed9e7-122">**QuotaThreshold**</span></span>](didiskquotauser-quotathreshold.md)
+[<span data-ttu-id="c3449-122">**QuotaThreshold**</span><span class="sxs-lookup"><span data-stu-id="c3449-122">**QuotaThreshold**</span></span>](didiskquotauser-quotathreshold.md)
 </dt> <dt>
 
-[<span data-ttu-id="ed9e7-123">**QuotaUsedText**</span><span class="sxs-lookup"><span data-stu-id="ed9e7-123">**QuotaUsedText**</span></span>](didiskquotauser-quotausedtext.md)
+[<span data-ttu-id="c3449-123">**QuotaUsedText**</span><span class="sxs-lookup"><span data-stu-id="c3449-123">**QuotaUsedText**</span></span>](didiskquotauser-quotausedtext.md)
 </dt> </dl>
 
  
