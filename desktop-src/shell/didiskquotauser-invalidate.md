@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e0ffd5b7-db1d-40a4-810a-ff43549b0c9b
-ms.openlocfilehash: 2b07ae6fd210b8722378a771cda97c2c04572c66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f8ad77c9697ed5d284cf782f431ec59b38ca415
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525342"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843270"
 ---
 # <a name="didiskquotauserinvalidate-method"></a>DIDiskQuotaUser. Invalidate, méthode
 
@@ -37,7 +37,7 @@ DIDiskQuotaUser.Invalidate()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 

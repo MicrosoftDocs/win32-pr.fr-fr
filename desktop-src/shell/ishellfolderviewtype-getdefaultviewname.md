@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 99229d13-40dc-4750-81a7-48a2f608b778
-ms.openlocfilehash: 239fcd80bcfc0b29287f8e16aeef3efb8ae032c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 808f68093512e2da602d5e73775b47943b140a46
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972342"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842760"
 ---
 # <a name="ishellfolderviewtypegetdefaultviewname-method"></a>IShellFolderViewType :: GetDefaultViewName, méthode
 
@@ -52,13 +52,13 @@ Indicateurs facultatifs ; doit être défini sur 0.
 *ppwszName* \[ à\]
 </dt> <dd>
 
-Tapez : **LPWStr \** _
+Type : **LPWStr \***
 
-Adresse d’un pointeur de chaîne qui reçoit le nom de vue par défaut. La mémoire pour la chaîne est allouée avec [_ *SHStrDup* *](/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa).
+Adresse d’un pointeur de chaîne qui reçoit le nom de vue par défaut. La mémoire pour la chaîne est allouée avec [**SHStrDup**](/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **HRESULT**
 

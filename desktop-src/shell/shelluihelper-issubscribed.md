@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: fcf23352-6603-4b17-9c3b-b353cca1c003
-ms.openlocfilehash: 2085f38e5f91f13a2f67ff4f22b003b533249386
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca68d2e46ce74593b66aac6f995b88ddcb79796b
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034671"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842490"
 ---
 # <a name="shelluihelperissubscribed-method"></a>Méthode ShellUIHelper. IsSubscribed
 
@@ -48,11 +48,11 @@ Valeur de **chaîne** qui spécifie l’URL.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
-Type : **booléen \** _
+Type : **booléen \***
 
-_ *true** si l’URL est abonnée à ; Sinon, **false**.
+**true** si l’URL est abonnée à ; Sinon, **false**.
 
 ## <a name="examples"></a>Exemples
 

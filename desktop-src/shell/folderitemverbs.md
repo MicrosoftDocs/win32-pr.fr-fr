@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 31badb4b-b89e-4294-9dd7-bda716e163b2
-ms.openlocfilehash: 651f439ea34a55203da852f2907a27ba87bdd275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8206c2113e2fa60abef41e43e4739b6eefd77dd4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864942"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840603"
 ---
 # <a name="folderitemverbs-object"></a>Objet FolderItemVerbs
 

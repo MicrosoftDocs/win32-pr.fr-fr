@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-ms.openlocfilehash: 6b6e9588588e44a2c3b40f6ac012b11f21c875e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e6e4bd0820d35fec2a108a81eb1030567493e6a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867749"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843160"
 ---
 # <a name="enummrulistw-function"></a>EnumMRUListW fonction)
 
@@ -66,9 +66,9 @@ Type : **int**
 *lpData* \[ à\]
 </dt> <dd>
 
-Type : **void \** _
+Type : **void \***
 
-Pointeur vers une mémoire tampon qui reçoit l’élément demandé dans _nItem *. Si *nItem* est inférieur à 0, le contenu de cette mémoire tampon n’est pas modifié.
+Pointeur vers une mémoire tampon qui reçoit l’élément demandé dans *nItem*. Si *nItem* est inférieur à 0, le contenu de cette mémoire tampon n’est pas modifié.
 
 </dd> <dt>
 
@@ -81,7 +81,7 @@ Taille de la mémoire tampon, y compris le caractère null de fin. Si la liste M
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **int**
 

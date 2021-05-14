@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-ms.openlocfilehash: 54cf67f1b75ae9d6423b02d0cacdde032ad2e018
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 485eda530adc4955abb27899d67ac0900eb0a910
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083377"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840740"
 ---
 # <a name="shellfolderviewselecteditems-method"></a>ShellFolderView. SelectedItems, méthode
 
@@ -43,7 +43,7 @@ Type : **[ **FolderItems**](folderitems.md)\*\***
 
 Référence d’objet à l’objet [**FolderItems**](folderitems.md) .
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 **SelectedItems** ne peut être appelé que sur le système local. Elle ne fonctionnera pas lorsqu’elle sera exécutée sur une page Web via HTTP ou UNC.
 
@@ -97,7 +97,7 @@ L’exemple suivant illustre l’utilisation correcte de cette méthode dans JSc
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

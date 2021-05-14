@@ -3,13 +3,13 @@ description: Les tableaux suivants décrivent les options de socket de socket SO
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: Options de socket SOL_SOCKET (Winsock2. h)
 ms.topic: reference
-ms.date: 05/31/2018
-ms.openlocfilehash: 0fbafca519c6068cd14fcbb15998bc9a25a5447b
-ms.sourcegitcommit: 30ce00809dcba5b8df06813445c97ae204a901c5
+ms.date: 05/12/2021
+ms.openlocfilehash: 01843a6505bfffc9512bc22602e2827b0b257153
+ms.sourcegitcommit: 24969bee0951bd21d31c74d3ad90d3a85b43b54d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/13/2021
-ms.locfileid: "109853978"
+ms.locfileid: "109857025"
 ---
 # <a name="sol_socket-socket-options"></a>Options de socket de socket SOL \_
 
@@ -24,7 +24,8 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 
  
 
-<dl> <dt><span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>**Options de socket de socket SOL \_**</dt> <dd> <dl> <dt> 
+<span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>
+**Options de socket de socket SOL \_**
 
 | Option                                                   | Obtenir | Définissez | Type Optval                                      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------|-----|-----|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,13 +75,11 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 | \_type                                                 | Oui |     | DWORD                                            | Retourne le type de socket pour le socket donné ( \_ flux de chaussette ou \_ DGRAM de chaussette, par exemple).                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \_mettre à jour le \_ contexte d’acceptation \_                              |     | Oui | DWORD (booléen)                                  | Cette option est utilisée avec la fonction [**accepted**](/windows/win32/api/mswsock/nf-mswsock-acceptex) . Cette option met à jour les propriétés du socket qui sont héritées du socket d’écoute. Cette option doit être définie si les fonctions [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**GetSockName**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)ou [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) doivent être utilisées sur le socket accepté.                                                                                                                             |
 | \_mettre à jour le \_ contexte de connexion \_                             |     | Oui | DWORD (booléen)                                  | Cette option est utilisée avec les fonctions [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex), [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)et [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) . Cette option met à jour les propriétés du socket après l’établissement de la connexion. Cette option doit être définie si les fonctions [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername), [**GetSockName**](/windows/desktop/api/winsock/nf-winsock-getsockname), [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt), [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)ou [**Shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) doivent être utilisées sur le socket connecté. |
-| \_USELOOPBACK                                          | Oui | Oui | DWORD (booléen)                                  | Utilisez l’adresse de bouclage locale lors de l’envoi de données à partir de ce Socket. Cette option ne doit être utilisée que lorsque toutes les données envoyées sont également reçues localement. Cette option n’est pas prise en charge par le fournisseur TCP/IP Windows. Si cette option est utilisée sur Windows Vista et les versions ultérieures, les fonctions [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) et [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) échouent avec WSAEINVAL. Dans les versions antérieures de Windows, ces fonctions échouent avec WSAENOPROTOOPT.<br/>                                                                    |
+| \_USELOOPBACK                                          | Oui | Oui | DWORD (booléen)                                  | Utilisez l’adresse de bouclage locale lors de l’envoi de données à partir de ce Socket. Cette option ne doit être utilisée que lorsque toutes les données envoyées sont également reçues localement. Cette option n’est pas prise en charge par le fournisseur TCP/IP Windows. Si cette option est utilisée sur Windows Vista et les versions ultérieures, les fonctions [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) et [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) échouent avec WSAEINVAL. Dans les versions antérieures de Windows, ces fonctions échouent avec WSAENOPROTOOPT.                                                                    |
 
 
-
- 
-
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**Prise en charge Windows pour les \_ options de socket sol**</dt> <dd> <dl> <dt> 
+<span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>
+**Options de prise en charge de Windows pour SOL_SOCKET**
 
 | Option                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/ME |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
@@ -132,12 +131,6 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 | \_mettre à jour le \_ contexte de connexion \_                    | x          | x         | x                   | x             | x                   | x          |              |             |               |
 | \_USELOOPBACK                                 |            |           |                     |               |                     |            |              |             |               |
 
-
-
- 
-
-
-</dt> </dl> </dd> </dl>
 
 ## <a name="remarks"></a>Remarques
 

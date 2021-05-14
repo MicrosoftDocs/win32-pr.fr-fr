@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 8a63552c-6bce-4583-8df8-a7f7731b35eb
-ms.openlocfilehash: 0209b57d621d4335a6ef703dadaef3dd5c307c00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47dc46d20fc6cf5096a38ccfd1790957f1fdd318
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951374"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842640"
 ---
 # <a name="ishelllinkdual2-object"></a>Objet IShellLinkDual2
 

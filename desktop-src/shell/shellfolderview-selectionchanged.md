@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e91b72fd-fd26-4e38-8e80-41febec3ca03
-ms.openlocfilehash: 31a32865a979bf6b5fa115912bdc32a9680e5064
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f029ffb217249909e966b592280abf38b2ba2edd
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103997"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842570"
 ---
 # <a name="shellfolderviewselectionchanged-event"></a>Événement ShellFolderView. SelectionChanged
 
@@ -43,7 +43,7 @@ ShellFolderView.SelectionChanged = EventHandler;
 
 Ce gestionnaire d’événements n’a aucun paramètre.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

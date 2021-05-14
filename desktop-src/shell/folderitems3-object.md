@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e8ffe325-e6ae-4fa0-9824-22721c2d97c8
-ms.openlocfilehash: dce37a6039c6a1ce906f24ab45be2089216aaf02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9495516ebd6f6a149d50f8ec02997b043661a64
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524452"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840660"
 ---
 # <a name="folderitems3-object"></a>Objet FolderItems3
 
@@ -53,7 +53,7 @@ L’objet **FolderItems3** a ces propriétés.
 
 | Propriété                                       | Type d’accès          | Description                                                       |
 |:-----------------------------------------------|:---------------------|:------------------------------------------------------------------|
-| [**Verbes et adverbes**](folderitems3-verbs.md)<br/> | Lecture seule<br/> | Obtient la liste des verbes communs à tous les éléments de dossier.<br/> |
+| [**Verbes**](folderitems3-verbs.md)<br/> | Lecture seule<br/> | Obtient la liste des verbes communs à tous les éléments de dossier.<br/> |
 
 
 

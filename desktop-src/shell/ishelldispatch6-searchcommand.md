@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: B5861125-2B21-4C47-8425-026381B2F677
-ms.openlocfilehash: 9868d21cb5f5a0208f45ddc1c9ff6fb1d051a325
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ca8818960704627376bde8b394eae7deb0317b6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972354"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842980"
 ---
 # <a name="ishelldispatch6searchcommand-method"></a>Méthode IShellDispatch6. SearchCommand
 
@@ -45,7 +45,7 @@ IShellDispatch6.SearchCommand()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 ### <a name="jscript"></a>JScript
 
