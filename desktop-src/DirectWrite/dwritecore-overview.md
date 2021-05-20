@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 9e0bc6cf6433f65fa1bc28ec2654492057842b94
-ms.sourcegitcommit: 5a39ee31075cd81ab865c81c39e128b8312da21b
+ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
+ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 05/20/2021
-ms.locfileid: "110207381"
+ms.locfileid: "110208710"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
@@ -83,7 +83,7 @@ Une fonctionnalité de bannière est une police de couleurs. Les polices de coul
 
 Le travail au nettoyage du cache de polices et le chargeur de police en mémoire permettent un chargement plus rapide des polices et des améliorations de la mémoire.
 
-Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite. ils ont été introduits dans Windows 10, version 1709 (automne Creators Update). leur accès aux versions précédentes est donc un avantage significatif pour vous en tant que développeur.
+Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite.
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>Notre invitation en tant que développeur DirectWrite
 
