@@ -345,6 +345,8 @@
               href: camera-encoder-h264-uvc-1-5.md
             - name: Comment utiliser H. 264/AVC REMUX
               href: how-to-use-h-264-avc-remux-.md
+            - name: Prise en charge de Matroska Media Container (MKV)
+              href: mkv-support.md
         - name: Prise en charge ASF dans Media Foundation
           href: asf-support-in-media-foundation.md
           items:
@@ -6012,7 +6014,7 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-shutdown
                 - name: Démarrer
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-start
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-stop
             - name: IMFMediaSharingEngine
               href: /windows/desktop/api/mfsharingengine/nn-mfsharingengine-imfmediasharingengine
@@ -6065,7 +6067,7 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-shutdown
                 - name: Démarrer
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-start
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasource-stop
             - name: IMFMediaSourceEx
               href: /windows/desktop/api/mfidl/nn-mfidl-imfmediasourceex
@@ -6470,7 +6472,7 @@
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-setvolume
                 - name: Éteindre
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-shutdown
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-stop
                 - name: UpdateVideo
                   href: /windows/desktop/api/mfplay/nf-mfplay-imfpmediaplayer-updatevideo
@@ -6535,7 +6537,7 @@
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-settimesource
                 - name: Démarrer
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-start
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfpresentationclock-stop
             - name: IMFPresentationDescriptor
               href: /windows/desktop/api/mfidl/nn-mfidl-imfpresentationdescriptor
