@@ -6,16 +6,16 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 4ab8970172032f47b6e97da6d097d7c1bf33e976
-ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
+ms.openlocfilehash: 9e0bc6cf6433f65fa1bc28ec2654492057842b94
+ms.sourcegitcommit: 5a39ee31075cd81ab865c81c39e128b8312da21b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172501"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "110207381"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
-DWriteCore est l’implémentation de [réunion de projet](/windows/apps/project-reunion/) de [DirectWrite](./direct-write-portal.md) (DirectWrite est l’API DirectX pour le rendu de texte de haute qualité, les polices de plan indépendantes de la résolution et la prise en charge complète du texte et de la disposition Unicode). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes.
+DWriteCore est l’implémentation de [réunion de projet](/windows/apps/project-reunion/) de [DirectWrite](./direct-write-portal.md) (DirectWrite est l’API DirectX pour le rendu de texte de haute qualité, les polices de plan indépendantes de la résolution et la prise en charge complète du texte et de la disposition Unicode). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 10, version 1809 (10,0 ; Build 17763), et ouvre la porte qui vous permet de l’utiliser sur plusieurs plateformes.
 
 Cette rubrique d’introduction décrit ce que DWriteCore est, et montre comment l’installer dans votre environnement de développement et votre programme avec lui.
 
@@ -25,9 +25,9 @@ Cette rubrique d’introduction décrit ce que DWriteCore est, et montre comment
 
 En raison de la longue durée de validité de DirectWrite, toutefois, les avancées en matière de développement ont tendance à conserver des versions antérieures de Windows. En outre, l’état de DirectWrite en tant que technologie de rendu de texte premier est limité uniquement à Windows, ce qui laisse les applications multiplateformes écrire leur propre pile de rendu de texte, ou s’appuyer sur des solutions tierces.
 
-DWriteCore résout les problèmes fondamentaux de la fonctionnalité de la version orpheline et de la compatibilité multiplateforme en supprimant la bibliothèque du système et en ciblant tous les points de terminaison possibles pris en charge. À cette fin, nous avons intégré DWriteCore dans le projet de réunion avec une API publique qui est prise en charge sur tous les points de terminaison Windows jusqu’à Windows 8, et qui ouvre la porte pour que vous l’utilisiez sur plusieurs plateformes.
+DWriteCore résout les problèmes fondamentaux de la fonctionnalité de la version orpheline et de la compatibilité multiplateforme en supprimant la bibliothèque du système et en ciblant tous les points de terminaison possibles pris en charge. À cette fin, nous avons intégré DWriteCore dans le projet REUNION.
 
-La valeur principale que DWriteCore vous offre, en tant que développeur, dans le projet de réunion, est qu’elle permet d’accéder à toutes les fonctionnalités de DirectWrite actuelles jusqu’à Windows 8. Toutes les fonctionnalités de DWriteCore fonctionneront de la même façon sur toutes les versions de niveau supérieur. en d’autres termes, toutes les fonctionnalités actuelles fonctionnent sur Windows 8, 8,1 et toutes les versions de Windows 10, sans aucune disparité quant aux fonctionnalités qui peuvent fonctionner sur les versions de.
+La valeur principale que DWriteCore vous offre, en tant que développeur, dans le projet de réunion, est qu’elle permet d’accéder à de nombreuses fonctionnalités DirectWrite (et finalement). Toutes les fonctionnalités de DWriteCore fonctionneront de la même façon sur toutes les versions de niveau inférieure sans aucune disparité quant aux fonctionnalités qui peuvent fonctionner sur les versions.
 
 ## <a name="the-dwritecore-demo-appmdashdwritecoregallery"></a>Application de démonstration DWriteCore &mdash; DWriteCoreGallery
 
@@ -83,7 +83,7 @@ Une fonctionnalité de bannière est une police de couleurs. Les polices de coul
 
 Le travail au nettoyage du cache de polices et le chargeur de police en mémoire permettent un chargement plus rapide des polices et des améliorations de la mémoire.
 
-Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables &mdash; de niveau inférieure vers Windows 8. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite. ils ont été introduits dans Windows 10, version 1709 (automne Creators Update). leur accès aux versions précédentes est donc un avantage significatif pour vous en tant que développeur.
+Grâce à ces fonctionnalités, vous pouvez commencer immédiatement à exploiter certaines fonctionnalités de base modernes de DirectWrite &mdash; , telles que les polices variables. Les polices variables sont l’une des fonctionnalités les plus importantes pour les clients de DirectWrite. ils ont été introduits dans Windows 10, version 1709 (automne Creators Update). leur accès aux versions précédentes est donc un avantage significatif pour vous en tant que développeur.
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>Notre invitation en tant que développeur DirectWrite
 
