@@ -1,19 +1,19 @@
 ---
-description: Le décodeur Dolby audio est une Media Foundation transformation (MFT) qui encode le son mono ou stéréo sur Dolby Digital, également appelé Dolby AC-3.
+description: L’encodeur audio Dolby est une Media Foundation transformation (MFT) qui encode le son mono ou stéréo sur Dolby Digital, également appelé Dolby AC-3.
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: Encodeur audio Dolby Digital
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d6c5b59bc09cd8c0fd56f22703ef8afdfe3921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f901587b816bc17d62f4095e093b661ce55f0009
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513162"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153562"
 ---
 # <a name="dolby-digital-audio-encoder"></a>Encodeur audio Dolby Digital
 
-Le décodeur Dolby audio est une [Media Foundation transformation](media-foundation-transforms.md) (MFT) qui encode le son mono ou stéréo sur Dolby Digital, également appelé Dolby AC-3. L’encodeur ne prend pas en charge les entrées multicanal, telles que la configuration du canal 5,1.
+L’encodeur audio Dolby est une [Media Foundation transformation](media-foundation-transforms.md) (MFT) qui encode le son mono ou stéréo sur Dolby Digital, également appelé Dolby AC-3. L’encodeur ne prend pas en charge les entrées multicanal, telles que la configuration du canal 5,1.
 
 > [!IMPORTANT]
 > Pour les versions de Windows antérieures à Windows 8, l’implémentation Microsoft de la technologie Dolby Digital est limitée aux termes du programme de gestion de licences Dolby Digital à utiliser par les applications Microsoft.
@@ -24,7 +24,7 @@ Pour plus d’informations sur Dolby Digital Audio, reportez-vous à la version 
 
 ## <a name="class-identifier"></a>Identificateur de classe
 
-L’identificateur de classe (CLSID) du décodeur Dolby audio est **CLSID \_ CMSDolbyDigitalEncMFT**, défini dans le fichier d’en-tête wmcodecdsp. h.
+L’identificateur de classe (CLSID) de l’encodeur audio Dolby est **CLSID \_ CMSDolbyDigitalEncMFT**, défini dans le fichier d’en-tête wmcodecdsp. h.
 
 ## <a name="output-types"></a>Types de sortie
 
@@ -74,12 +74,12 @@ Le type de sortie doit être défini en premier, avant le type d’entrée. Le t
 <tr class="odd">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
+<td>facultatif. S’il est défini, la valeur doit être 0x3 pour les canaux stéréo (avant gauche et droit) ou 0x4 pour mono (canal avant centre).</td>
 </tr>
 <tr class="even">
 <td><a href="mf-mt-audio-avg-bytes-per-second-attribute.md">MF_MT_AUDIO_AVG_BYTES_PER_SECOND</a></td>
 <td>Débit binaire du flux AC-3 encodé, en octets par seconde.</td>
-<td>Optionnel. Consultez la section Notes pour connaître les valeurs valides. Si cet attribut n’est pas défini, l’encodeur utilise une vitesse de transmission par défaut, comme décrit dans la section Notes.</td>
+<td>facultatif. Consultez la section Notes pour connaître les valeurs valides. Si cet attribut n’est pas défini, l’encodeur utilise une vitesse de transmission par défaut, comme décrit dans la section Notes.</td>
 </tr>
 </tbody>
 </table>
@@ -152,12 +152,12 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 <tr class="even">
 <td><a href="mf-mt-audio-channel-mask-attribute.md">MF_MT_AUDIO_CHANNEL_MASK</a></td>
 <td>Spécifie l’affectation des canaux audio aux positions des haut-parleurs.</td>
-<td>Optionnel. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
+<td>facultatif. Si cette valeur est définie, la valeur doit correspondre au type de sortie.</td>
 </tr>
 <tr class="odd">
 <td><a href="mf-mt-audio-valid-bits-per-sample-attribute.md">MF_MT_AUDIO_VALID_BITS_PER_SAMPLE</a></td>
 <td>Nombre de bits de données audio valides dans chaque exemple audio.</td>
-<td>Optionnel. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
+<td>facultatif. Si cette valeur est définie, la valeur doit être identique à <a href="mf-mt-audio-bits-per-sample-attribute.md">MF_MT_AUDIO_BITS_PER_SAMPLE</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -168,7 +168,7 @@ Le tableau suivant répertorie les attributs obligatoires et facultatifs pour le
 
 L’encodeur ne prend pas en charge la conversion de taux d’échantillonnage ou la conversion stéréo/mono.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque trame audio Dolby AC-3 contient 1536 échantillons audio par canal. Toutefois, chaque mémoire tampon d’entrée de l’encodeur peut contenir un nombre quelconque d’échantillons PCM. La taille de chaque mémoire tampon d’entrée doit être un multiple de l’alignement de bloc. L’encodeur met en cache les exemples d’entrée jusqu’à ce qu’il soit suffisant pour les échantillons audio 1536 par canal ; à partir de là, l’encodeur génère une trame AC-3.
 
@@ -178,7 +178,7 @@ Pour spécifier la vitesse de transmission de l’encodage, définissez l’attr
 
 
 
-| Débit binaire (Kbits/s) | [\_octets de \_ données audio MF MT- \_ \_ octets \_ par \_ seconde](mf-mt-audio-avg-bytes-per-second-attribute.md) | Notes                                                 |
+| Débit binaire (Kbits/s) | [\_octets de \_ données audio MF MT- \_ \_ octets \_ par \_ seconde](mf-mt-audio-avg-bytes-per-second-attribute.md) | Remarques                                                 |
 |-----------------|------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | 64              | 8000                                                                                     | Mono uniquement.                                              |
 | 80              | 10000                                                                                    | Mono uniquement.                                              |
@@ -232,7 +232,7 @@ Type de média d’entrée :
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -75,12 +75,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bccbe7fc44e75c2448d2eda800fe3c14cd13a9b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e93ae76ae3c4880c7ad041e6e90d39f1b22820d3
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111354"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153572"
 ---
 # <a name="win32_networkadapterconfiguration-class"></a>\_Classe NetworkAdapterConfiguration Win32
 
@@ -1093,7 +1093,7 @@ Si la **valeur est true**, le chemin d’accès de l’unité de transmission ma
 
 </dd> <dt>
 
-**FormName**
+**NomService**
 </dt> <dd> <dl> <dt>
 
 Type de données : **chaîne**
@@ -1330,7 +1330,7 @@ Adresse IP du serveur WINS secondaire.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ NetworkAdapterConfiguration** est dérivée [**du \_ paramètre CIM**](cim-setting.md).
 
@@ -1670,14 +1670,14 @@ End Function
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
 | Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>CIMWin32. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>CIMWin32.dll</dt> </dl> |

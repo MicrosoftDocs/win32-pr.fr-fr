@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f342f4a139320e4beb821f32662da72785ab751c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 813483efb161a06db5ef7e40da99c391f53565bc
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678817"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153482"
 ---
 # <a name="message-pragma-directive"></a>message (directive de pragma)
 
@@ -26,7 +26,7 @@ Directive pragma qui produit des messages au moment du compilateur.
 
 
 
-| \#message du pragma «*Token-String*» |
+| \#message du pragma («*Token-String*») |
 |-----------------------------------|
 
 
