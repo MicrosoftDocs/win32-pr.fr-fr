@@ -6,12 +6,12 @@ keywords:
 - étape de fusion de sortie (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec77eaff506a0be87a3f0e98de691b50c27c0c3f
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: c8de2851fdea3a22cc42033d2c13454be72ba8ab
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383295"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335213"
 ---
 # <a name="output-merger-stage"></a>Étape de Output-Merger
 
@@ -19,9 +19,10 @@ L’étape de fusion de sortie (OM) génère la couleur de pixel rendue finale �
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 : Direct3D 9 implémente les tests alpha (à l’aide de l' [État alpha-test](/windows/desktop/direct3d9/alpha-testing-state)) pour contrôler si un pixel est écrit dans une cible de rendu de sortie.<br/> Direct3D 10 et les versions ultérieures n’implémentent pas un test alpha (ou un état de test alpha). Cela peut être contrôlé à l’aide d’un nuanceur de pixels ou avec la fonctionnalité de profondeur/gabarit.<br/> |
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Direct3D 9 implémente le test alpha (à l’aide de l' [État alpha-test](/windows/desktop/direct3d9/alpha-testing-state)) pour contrôler si un pixel est écrit dans une cible de rendu de sortie.
+- Direct3D 10 et les versions ultérieures n’implémentent pas un test alpha (ou un état de test alpha). Cela peut être contrôlé à l’aide d’un nuanceur de pixels ou avec la fonctionnalité de profondeur/gabarit.
 
 
 
@@ -57,11 +58,10 @@ La fonction Fixed-Blend peut être activée indépendamment pour chaque cible de
 
 Lorsque vous utilisez des cibles de rendu sRVB, le Runtime convertit la couleur de la cible de rendu en espace linéaire avant d’effectuer la fusion. Le Runtime convertit la dernière valeur fusionnée en espace sRVB avant de l’enregistrer à nouveau dans la cible de rendu.
 
+Différences entre Direct3D 9 et Direct3D 10 :
 
-
-|                                                                                                                                                                                                                                                                                                     |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 : dans Direct3D 9, la fusion de fonction fixe peut être activée indépendamment pour chaque cible de rendu.<br/> Dans Direct3D 10 et versions ultérieures, il existe une seule Description de l’état de fusion. par conséquent, une valeur de fusion peut être définie pour toutes les cibles de rendu.<br/> |
+- Dans Direct3D 9, la fusion de fonction fixe peut être activée indépendamment pour chaque cible de rendu.
+- Dans Direct3D 10 et versions ultérieures, il existe une seule Description de l’état de fusion. par conséquent, une valeur de fusion peut être définie pour toutes les cibles de rendu.
 
 
 

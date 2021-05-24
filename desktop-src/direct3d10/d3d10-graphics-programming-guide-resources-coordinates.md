@@ -4,12 +4,12 @@ ms.assetid: c8c269e7-6e2a-4b5d-847c-6779e276b9af
 title: Systèmes de coordonnées (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba84cd7d807474a1ff41f873d16cbd7eee07224
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e3da846ae4b989f6d8cb4741f9df8f7228e8970
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748972"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335463"
 ---
 # <a name="coordinate-systems-direct3d-10"></a>Systèmes de coordonnées (Direct3D 10)
 
@@ -17,19 +17,22 @@ Les systèmes de coordonnées pour Direct3D 10 sont définis pour les pixels et 
 
 
 
-|                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Direct3D 10 définit le coin supérieur gauche du pixel supérieur gauche comme l’origine d’une cible de rendu.<br/> Direct3D 9 définit le centre du pixel supérieur gauche comme l’origine d’une cible de rendu.<br/> |
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Direct3D 10 définit le coin supérieur gauche du pixel supérieur gauche comme l’origine d’une cible de rendu.
+- Direct3D 9 définit le centre du pixel supérieur gauche comme l’origine d’une cible de rendu.
 
 
 
  
 
--   [Système de coordonnées de pixels](#pixel-coordinate-system)
-    -   [Système de coordonnées en pixels pour Direct3D 9](#pixel-coordinate-system-for-direct3d-9)
--   [Système de coordonnées Texel](#texel-coordinate-system)
-    -   [Système de coordonnées Texel](#texel-coordinate-system)
--   [Rubriques connexes](#related-topics)
+[Système de coordonnées de pixels](#pixel-coordinate-system)
+- [Système de coordonnées en pixels pour Direct3D 9](#pixel-coordinate-system-for-direct3d-9)
+
+[Système de coordonnées Texel](#texel-coordinate-system)
+- [Système de coordonnées Texel](#texel-coordinate-system)
+
+[Rubriques connexes](#related-topics)
 
 ## <a name="pixel-coordinate-system"></a>Système de coordonnées de pixels
 

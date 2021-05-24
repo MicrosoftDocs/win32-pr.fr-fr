@@ -4,33 +4,29 @@ ms.assetid: ad3eff8e-a225-47c0-a53f-b1a3c94bcaac
 title: Fonctionnalités dépréciées (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66b6fe5092427cd66876ab5f6e1d7aaf83f0880
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 95bb06738f046b92290d35cff180f3879f4fa737
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110634"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335543"
 ---
 # <a name="deprecated-features-direct3d-10"></a>Fonctionnalités dépréciées (Direct3D 10)
 
 La liste des fonctionnalités disponibles dans Direct3D 10 est disponible [ici](d3d10-graphics-programming-guide-api-features.md). Cette page répertorie les fonctionnalités Direct3D 9 qui ne sont plus prises en charge dans Direct3D 10.
 
+Les principales modifications de fonctionnalités dans Direct3D 10 sont les suivantes :
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Les principales modifications de fonctionnalités dans Direct3D 10 sont les suivantes :<br/> Direct3D 10 ne prend plus en charge la transformation et le pipeline d’éclairage de la fonction fixe.<br/> Direct3D 10 ne prend plus en charge le mélangeur de texture de fonction fixe (parfois appelé nuanceur de pixels de fonction fixe).<br/> Direct3D 10 implémente de nouvelles règles de pixellisation, qui sont plus simples et plus claires que les règles GDI héritées qui sont implémentées dans Direct3D 9. Par exemple, le contrôle de dernier Pixel pour les lignes n’est plus pris en charge.<br/> |
-
-
-
- 
+- Direct3D 10 ne prend plus en charge la transformation et le pipeline d’éclairage de la fonction fixe.
+- Direct3D 10 ne prend plus en charge le mélangeur de texture de fonction fixe (parfois appelé nuanceur de pixels de fonction fixe).
+- Direct3D 10 implémente de nouvelles règles de pixellisation, qui sont plus simples et plus claires que les règles GDI héritées qui sont implémentées dans Direct3D 9. Par exemple, le contrôle de dernier Pixel pour les lignes n’est plus pris en charge.
 
 Voici la liste complète des fonctionnalités de Direct3D 9 qui ont été dépréciées dans Direct3D 10.
 
--   **Alpha Blend**. Alpha Blend est maintenant programmé indépendamment de Color Blend. Direct3D 10 ajoute un basculement d’activation de la fusion alpha qui est activé par défaut. Pour plus d’informations [, consultez objets d’État (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) .
--   **Test alpha**. Le test alpha est un comportement de pixel à fonction fixe pour Direct3D 9. Le test alpha est déplacé vers des nuanceurs de pixels programmables pour Direct3D 10 et versions ultérieures. Pour plus d’informations sur l’émulation de la fonctionnalité de test Direct3D 9 alpha dans Direct3D 10 et versions ultérieures, consultez l’exemple FixedFuncEMU dans le [Kit de développement logiciel (SDK) DirectX pour le 2010 juin](https://www.microsoft.com/download/en/details.aspx?id=6812).
--   **Options du mode fondu**. BOTHSRCALPHA a été supprimé de D3D10 \_ Blend, car il est redondant avec BOTHINVSRCALPHA. Pour plus d’informations, consultez [**D3D10 \_ Blend**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_blend) .
--   **Bloquer les formats de compression**. Il n’existe aucune distinction entre les caractères alpha prémultipliés par Alpha ou non prémultipliés dans Direct3D 10. Ces formats Direct3D 9 sont mappés à ces formats Direct3D 10 : 
+- **Alpha Blend**. Alpha Blend est maintenant programmé indépendamment de Color Blend. Direct3D 10 ajoute un basculement d’activation de la fusion alpha qui est activé par défaut. Pour plus d’informations [, consultez objets d’État (Direct3D 10)](d3d10-graphics-programming-guide-api-features-state-objects.md) .
+- **Test alpha**. Le test alpha est un comportement de pixel à fonction fixe pour Direct3D 9. Le test alpha est déplacé vers des nuanceurs de pixels programmables pour Direct3D 10 et versions ultérieures. Pour plus d’informations sur l’émulation de la fonctionnalité de test Direct3D 9 alpha dans Direct3D 10 et versions ultérieures, consultez l’exemple FixedFuncEMU dans le [Kit de développement logiciel (SDK) DirectX pour le 2010 juin](https://www.microsoft.com/download/en/details.aspx?id=6812).
+- **Options du mode fondu**. BOTHSRCALPHA a été supprimé de D3D10 \_ Blend, car il est redondant avec BOTHINVSRCALPHA. Pour plus d’informations, consultez [**D3D10 \_ Blend**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_blend) .
+- **Bloquer les formats de compression**. Il n’existe aucune distinction entre les caractères alpha prémultipliés par Alpha ou non prémultipliés dans Direct3D 10. Ces formats Direct3D 9 sont mappés à ces formats Direct3D 10 : 
 
     | Direct3D 9 | Direct3D 10 |
     |------------|-------------|

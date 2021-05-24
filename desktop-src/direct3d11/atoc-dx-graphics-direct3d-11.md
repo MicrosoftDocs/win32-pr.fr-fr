@@ -4,12 +4,12 @@ description: Graphismes Direct3D 11
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f154ddfc97dff17f061be41c818b4f56151b135
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90b038ecc2b1c55d1e0a2edab9dcb52065b51810
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315768"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335339"
 ---
 # <a name="direct3d-11-graphics"></a>Graphismes Direct3D 11
 
@@ -21,12 +21,12 @@ Pour plus d’informations, consultez [fonctionnalités Direct3D 11](direct3d-11
 
 
 
-|                                   |                                                                                                   |
+|                                   | Pris en charge                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| Environnements d’exécution pris en charge    | <dl> <dt>Windows/C++</dt> </dl>            |
-| Langages de programmation recommandés | C/C++                                                                                             |
-| Client minimal pris en charge          | <dl> <dt>Windows 7</dt> </dl>              |
-| Serveur minimal pris en charge          | <dl> <dt>Windows Server 2008 R2</dt> </dl> |
+| **Environnements d’exécution pris en charge**    | Windows/C++            |
+| **Langages de programmation recommandés** | C/C++                                                                                             |
+| **Client minimal pris en charge**          | Windows 7             |
+| **Serveur minimal pris en charge**          | Windows Server 2008 R2 |
 
  
 

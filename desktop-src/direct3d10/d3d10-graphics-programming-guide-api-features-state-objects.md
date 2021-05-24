@@ -4,12 +4,12 @@ ms.assetid: b2839da9-60ed-4f6c-9cc7-eac53647cca7
 title: Objets d’État (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a06e8603361a83049440774cfd2e12b4148b183
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a51c05e3e220e510c462265941549f91e6368a9
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512883"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335423"
 ---
 # <a name="state-objects-direct3d-10"></a>Objets d’État (Direct3D 10)
 
@@ -53,9 +53,9 @@ Ce groupe d’État (voir [**l' \_ exemple D3D10 \_ desc**](/windows/desktop/api
 
 
 
-|                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Dans Direct3D 10, l’objet échantillonneur n’est plus lié à une texture spécifique. il décrit simplement comment effectuer un filtrage en fonction d’une ressource attachée. |
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Dans Direct3D 10, l’objet échantillonneur n’est plus lié à une texture spécifique, mais il décrit simplement comment effectuer un filtrage en fonction d’une ressource attachée.
 
 
 

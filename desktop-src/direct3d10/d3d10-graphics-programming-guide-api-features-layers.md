@@ -4,12 +4,12 @@ ms.assetid: 19c81383-6ac7-49ea-98a3-bf761a32ab40
 title: Couches d’API (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4427083bdcaf389c4b01b590a1bc3fef7eb878b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b07b33dfd8280af13ea3df74e5e6d0fd040bb2c
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104392995"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335413"
 ---
 # <a name="api-layers-direct3d-10"></a>Couches d’API (Direct3D 10)
 
@@ -62,9 +62,10 @@ Une application Direct3D 10 peut contrôler une synchronisation d’appareil à 
 
 
 
-|                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Contrairement à Direct3D 9, l’API Direct3D 10 par défaut est entièrement thread-safe.<br/> |
+
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Contrairement à Direct3D 9, l’API Direct3D 10 par défaut est entièrement thread-safe.
 
 
 

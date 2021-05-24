@@ -4,12 +4,12 @@ description: L’étape Geometry-Shader (GS) exécute un code de nuanceur spéci
 ms.assetid: F3208862-980E-403F-9154-13B34A882787
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da66b1e3f9abf4e7db8010887f3e78676d02a874
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3099ed5ede8dd89dc607ed838ff6e3fabfb16a69
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728388"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335363"
 ---
 # <a name="geometry-shader-stage"></a>Étape de nuanceur Geometry
 
@@ -21,15 +21,15 @@ Contrairement aux nuanceurs de vertex, qui opèrent sur un seul vertex, les entr
 
 ![illustration d’un triangle et d’une ligne avec des vertex adjacents](images/d3d10-gs.png)
 
-|     |                 |
+|     | Type                |
 |-----|-----------------|
-| TV  | Sommet de triangle |
-| ALTERNATIF  | Sommet adjacent |
-| LV  | Sommet de ligne     |
+| **TV**  | Sommet de triangle |
+| **ALTERNATIF**  | Sommet adjacent |
+| **BASSE**  | Sommet de ligne     |
 
 
 
- 
+ 
 
 L’étape Geometry-shader peut utiliser la \_ [valeur générée](d3d10-graphics-programming-guide-input-assembler-stage-using.md) par le système SV PrimitiveID qui est générée automatiquement par l’IA. Cela permet de récupérer ou de calculer des données par primitives si vous le souhaitez.
 
@@ -67,6 +67,6 @@ Les algorithmes qui peuvent être implémentés dans le nuanceur Geometry sont l
 [Étapes de pipeline (Direct3D 10)](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

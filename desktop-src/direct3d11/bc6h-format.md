@@ -7,12 +7,12 @@ keywords:
 - DXGI_FORMAT_BC6H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed4b934df742a4d2c99e20b52b7172b64e598dc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 92ea15e0275bc478c0708ce08f531d8888a3c84d
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031597"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335223"
 ---
 # <a name="bc6h-format"></a>Format BC6H
 
@@ -40,16 +40,16 @@ BC6H est spécifié par les valeurs d' \_ énumération de format dxgi suivantes
 > [!Note]  
 > Le format à virgule flottante de 16 bits pour les canaux de couleur est souvent appelé format à virgule flottante « demi-point ». Ce format utilise la disposition en bits suivante :
 >
-> |                       |                                                 |
+> |  Format                     | Disposition des bits                                                |
 > |-----------------------|-------------------------------------------------|
 > | UF16 (unsigned float) | 5 bits d’exposant + 11 bits de mantisse              |
 > | SF16 (float signé)   | 1 bit de signe + 5 bits d’exposant + 10 bits de mantisse |
 >
 > 
 >
->  
+>  
 
- 
+ 
 
 Le format BC6H peut être utilisé pour les ressources de texture [Texture2D](/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures) (y compris les tableaux), Texture3D ou TextureCube (y compris les tableaux). De même, ce format s’applique à toutes les surfaces de la carte MIP associées à ces ressources.
 
@@ -121,7 +121,7 @@ Le tableau suivant contient le nombre de bits et les valeurs pour chacun des 14 
 
 
 
- 
+ 
 
 Chaque format de cette table peut être identifié de manière unique par les bits de mode. Les dix premiers modes sont utilisés pour les vignettes de deux régions, et le champ de bits de mode peut avoir deux ou cinq bits de long. Ces blocs comportent également des champs pour les points de terminaison de couleur compressés (72 ou 75 bits), la partition (5 bits) et les index de partition (46 bits).
 
@@ -168,7 +168,7 @@ Les noms de champs dans le tableau ci-dessus sont définis comme suit :
 
 
 
- 
+ 
 
 Endpt \[ i \] , où i est égal à 0 ou 1, fait référence respectivement au 0 ou au 1er ensemble de points de terminaison.
 
@@ -337,6 +337,6 @@ unsigned short finish_unquantize(int comp)
 [Compression de bloc de texture dans Direct3D 11](texture-block-compression-in-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

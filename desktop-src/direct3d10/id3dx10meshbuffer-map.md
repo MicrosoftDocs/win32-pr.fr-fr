@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1b8cb03e128a6673963ce2d3cde993babb03da5c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4a71aaaffe7ed11429efa67b6065f94ecd154d0
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322954"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335353"
 ---
 # <a name="id3dx10meshbuffermap-method"></a>ID3DX10MeshBuffer :: Map, méthode
 
@@ -59,19 +59,19 @@ Taille, en octets, de la mémoire tampon.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Map () dans Direct3D 10 est analogue à la carte de ressources () dans Direct3D 9.<br/> |
+ Différences entre Direct3D 9 et Direct3D 10 :
+
+- Map () dans Direct3D 10 est analogue à la carte de ressources () dans Direct3D 9.
 
 
 

@@ -4,12 +4,12 @@ description: Les valeurs générées par le système sont générées par l’é
 ms.assetid: eed1e377-4b0e-4958-b6d4-945b2a952ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d484a42992206cb04aaef8fdd8ebaef6e08d7f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ccdc723d335fd78277051099ec05b43ed954174d
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031511"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335203"
 ---
 # <a name="using-system-generated-values"></a>Utilisation des valeurs de System-Generated
 
@@ -66,18 +66,18 @@ Les tableaux suivants indiquent les valeurs générées par le système pour l�
 
 
 
- 
+ 
 
 
 
-|                 |     |     |     |
+|                 | Valeur    | Valeur    | Valeur    |
 |-----------------|-----|-----|-----|
 | **PrimitiveID** | 0   | 1   | 2   |
 | **InstanceID**  | 0   | 0   | 0   |
 
 
 
- 
+ 
 
 Les tableaux suivants indiquent les valeurs générées par le système pour l’instance V.
 
@@ -90,18 +90,18 @@ Les tableaux suivants indiquent les valeurs générées par le système pour l�
 
 
 
- 
+ 
 
 
 
-|                 |     |     |     |
+|                 |Valeur     | Valeur    |  Valeur   |
 |-----------------|-----|-----|-----|
 | **PrimitiveID** | 0   | 1   | 2   |
 | **InstanceID**  | 1   | 1   | 1   |
 
 
 
- 
+ 
 
 L’assembleur d’entrée génère les ID (vertex, primitive et instance); Notez également que chaque instance reçoit un ID d’instance unique. Les données se terminent par la bande coupée, qui sépare chaque instance de la bande de triangle.
 
@@ -112,6 +112,6 @@ L’assembleur d’entrée génère les ID (vertex, primitive et instance); Note
 [Étape assembleur d’entrée](d3d10-graphics-programming-guide-input-assembler-stage.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

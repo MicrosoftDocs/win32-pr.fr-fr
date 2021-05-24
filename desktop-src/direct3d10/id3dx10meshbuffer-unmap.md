@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0c3b382e0cfd01a51d89ddacb51ad390446315a6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11b15f8bc1e4103503b183672ebd31e92b4daea7
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538364"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335373"
 ---
 # <a name="id3dx10meshbufferunmap-method"></a>ID3DX10MeshBuffer :: DEMAPPAGE, méthode
 
@@ -38,19 +38,19 @@ HRESULT Unmap();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 La valeur de retour est l’une des valeurs indiquées dans les [codes de retour Direct3D 10](d3d10-graphics-reference-returnvalues.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
-|                                                                                                                                               |
-|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Le démappage () dans Direct3D 10 est analogue au déverrouillage de ressource () dans Direct3D 9.<br/> |
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Le démappage () dans Direct3D 10 est analogue au déverrouillage de ressource () dans Direct3D 9.
 
 
 

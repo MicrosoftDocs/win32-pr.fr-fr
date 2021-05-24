@@ -1,15 +1,15 @@
 ---
 title: Ressources en mosaïque de volume (graphiques Direct3D 11)
-description: Les textures de volume (3D) peuvent être utilisées en tant que ressources en mosaïque, en notant que la résolution des vignettes est à trois dimensions.
+description: Découvrez comment les textures de volume (3D) peuvent être utilisées en tant que ressources en mosaïque. Notez que la résolution des vignettes est à trois dimensions.
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abb8b35e522ef3298abad1322d6fb7a2fe65bfcf
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 2bf9b3ed8b1db89d9718fa904eefd23ce2e871db
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679054"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335433"
 ---
 # <a name="volume-tiled-resources"></a>Ressources en mosaïque de volume
 
@@ -19,7 +19,7 @@ Les textures de volume (3D) peuvent être utilisées en tant que ressources en m
 -   [API de ressources en mosaïque de D3D 11.3](#d3d113-tiled-resource-apis)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
 Les ressources en mosaïque découplent un objet ressource D3D de la mémoire de stockage (les ressources du passé ont une relation 1:1 avec leur mémoire de stockage). Cela permet un large éventail de scénarios intéressants, tels que la diffusion en continu dans les données de texture et la réutilisation ou la réduction de l’utilisation de la mémoire
 
@@ -29,9 +29,8 @@ Les dimensions de ressource typiques utilisées dans la mosaïque sont les vigne
 
 
 
-|                             |                                     |
+| Bits/pixel (1 échantillon/pixel)                            | Dimensions de la mosaïque (pixels, x h x d)                                    |
 |-----------------------------|-------------------------------------|
-| Bits/pixel (1 échantillon/pixel) | Dimensions de la mosaïque (pixels, x h x d) |
 | 8                           | 64x32x32                            |
 | 16                          | 32x32x32                            |
 | 32                          | 32x32x16                            |
@@ -42,7 +41,7 @@ Les dimensions de ressource typiques utilisées dans la mosaïque sont les vigne
 
 
 
- 
+ 
 
 Notez que les formats suivants ne sont pas pris en charge avec les ressources en mosaïque : formats 96bpp, formats vidéo, R1 \_ UNORM, R8G8 \_ B8G8 \_ UNORM, R8R8 G8B8 \_ \_ UNORM.
 
@@ -174,9 +173,9 @@ Méthodes
 [Fonctionnalités Direct3D 11,3](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

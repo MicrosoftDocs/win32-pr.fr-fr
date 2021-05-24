@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c9c98c0e8e0722b0b79fa12d4742cb328195d133
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 44b3a738de31edf373deb65ea9991e1e1502f47c
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107577"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335603"
 ---
 # <a name="d3dxmatrixlookatrh-function-d3dx9mathh"></a>D3DXMatrixLookAtRH, fonction (D3dx9math. h)
 
@@ -85,7 +85,7 @@ Type : **[ **D3DXMATRIX**](d3dxmatrix.md)\***
 
 Pointeur vers une structure [**D3DXMATRIX**](d3dxmatrix.md) qui est une matrice de recherche à droite.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 La valeur de retour de cette fonction est la même que celle retournée dans le paramètre *moue* . De cette façon, la fonction **D3DXMatrixLookAtRH** peut être utilisée comme paramètre pour une autre fonction.
 
@@ -97,10 +97,10 @@ zaxis = normal(Eye - At)
 xaxis = normal(cross(Up, zaxis))
 yaxis = cross(zaxis, xaxis)
     
- xaxis.x           yaxis.x           zaxis.x          0
- xaxis.y           yaxis.y           zaxis.y          0
- xaxis.z           yaxis.z           zaxis.z          0
- dot(xaxis, eye)   dot(yaxis, eye)   dot(zaxis, eye)  1
+ xaxis.x            yaxis.x            zaxis.x           0
+ xaxis.y            yaxis.y            zaxis.y           0
+ xaxis.z            yaxis.z            zaxis.z           0
+ -dot(xaxis, eye)   -dot(yaxis, eye)   -dot(zaxis, eye)  1
 ```
 
 

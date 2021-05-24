@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 504a1d9ff5a2aa2b37227f0016cdc97d28d967fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 64a64d08518cb987850c87da3fb19c264519a7f7
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031628"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335383"
 ---
 # <a name="writing-hlsl-shaders-in-direct3d-9"></a>Écriture de nuanceurs HLSL dans Direct3D 9
 
@@ -493,7 +493,7 @@ float4 main(float4 tex[4] : TEXCOORD) : COLOR
 >
 > L’utilisation du runtime de débogage Microsoft Direct3D peut vous aider à intercepter les incompatibilités entre le nombre de composants dans une texture et un échantillonneur.
 
- 
+ 
 
 ## <a name="writing-functions"></a>Écriture de fonctions
 
@@ -693,7 +693,7 @@ L’exemple suivant renvoie le résultat scalaire d’une expression :
 
 
 ```
-return  light.enabled = true ;
+return  light.enabled;
 ```
 
 
@@ -792,6 +792,6 @@ La prise en charge de la branche la plus familière est la branche dynamique. Av
 [Guide de programmation pour HLSL](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

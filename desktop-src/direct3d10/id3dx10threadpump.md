@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9fe3f0ca5955963864ef18de5d86fe03083d3f3b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aecab39b655998533c80f1fff56e3f10d941f551
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116298"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335653"
 ---
 # <a name="id3dx10threadpump-interface"></a>Interface ID3DX10ThreadPump
 
@@ -50,7 +50,7 @@ L’interface **ID3DX10ThreadPump** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La pompe de thread charge et traite les données dans un processus en 3 étapes. Il va :
 
@@ -66,7 +66,7 @@ Chargeurs de données D3DX10 intégrés
 
 
 
-|                                                                            |                                          |
+|                                                                           |  Description                                        |
 |----------------------------------------------------------------------------|------------------------------------------|
 | [**D3DX10CreateAsyncFileLoader**](d3dx10createasyncfileloader.md)         | Créez un chargeur de fichier de façon asynchrone.     |
 | [**D3DX10CreateAsyncMemoryLoader**](d3dx10createasyncmemoryloader.md)     | Créez un chargeur de données de façon asynchrone.     |
@@ -80,7 +80,7 @@ Processeurs de données D3DX10 intégrés
 
 
 
-|                                                                                                  |                                                                                                                                                    |
+|                                                                                                 |  Description                                                                                                                                                  |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DX10CreateAsyncTextureProcessor**](d3dx10createasynctextureprocessor.md)                   | Créez un processeur de données à utiliser avec une pompe de thread. Cette API est similaire à D3DX10CreateAsyncTextureInfoProcessor, mais elle charge également la texture. |
 | [**D3DX10CreateAsyncTextureInfoProcessor**](d3dx10createasynctextureinfoprocessor.md)           | Créez un processeur de données à utiliser avec une pompe de thread.                                                                                             |
@@ -98,7 +98,7 @@ API qui prennent une pompe de thread comme paramètre.
 
 
 
-|                                                                                                  |                                                                  |
+|                                                                                                 | Description                                                                 |
 |--------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**D3DX10CompileFromFile**](d3dx10compilefromfile.md)                                           | Compilez un nuanceur à partir d’un fichier.                                    |
 | [**D3DX10CompileFromMemory**](d3dx10compilefrommemory.md)                                       | Compilez un nuanceur résidant en mémoire.                             |

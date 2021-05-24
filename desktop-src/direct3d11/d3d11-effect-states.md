@@ -6,12 +6,12 @@ keywords:
 - effet, groupes d’États (Direct3D 11)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58def71b6362706eb831129b1d222ef3d1cc9341
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5a757926d8c4c259adc94f505a778cf73233b5a
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941018"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335333"
 ---
 # <a name="effect-state-groups-direct3d-11"></a>Groupes d’état des effets (Direct3D 11)
 
@@ -29,32 +29,32 @@ Les États d’effet sont des paires nom-valeur sous la forme d’une expression
 
 
 
-|                                                                                                                       |                                                           |
+| État de l’effet                                                                                                                      | Groupe                                                          |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | Membres de [ **d3d11 \_ Blend \_ desc**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_blend_desc) |
 
 
 
- 
+ 
 
 ## <a name="depth-and-stencil-state"></a>État de la profondeur et du stencil
 
 
 
-|                                                                                                                                                                |                                                                               |
+|  État de l’effet                                                                                                                                                              | Groupe                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | Membres de la [ **\_ Description du \_ stencil \_ de profondeur d3d11**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencil_desc)    |
 | FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | Membre de [ **d3d11 \_ Depth \_ STENCILOP \_ desc**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencilop_desc) |
 
 
 
- 
+ 
 
 ## <a name="rasterizer-state"></a>État du rastériseur
 
 
 
-|                                                                                                                                 |                                                                     |
+| État de l’effet                                                                                                                                | Groupe                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | FILLMODE                                                                                                                        | [**\_Mode de remplissage d3d11 \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_fill_mode)                        |
 | CULLMODE                                                                                                                        | [**\_Mode d’élimination d3d11 \_**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_cull_mode)                        |
@@ -62,19 +62,19 @@ Les États d’effet sont des paires nom-valeur sous la forme d’une expression
 
 
 
- 
+ 
 
 ## <a name="sampler-state"></a>État de l’échantillonneur
 
 
 
-|                                                                                                     |                                                               |
+| État de l’effet                                                                                                    | Groupe                                                              |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | Filtre d’adresse AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc BorderColor MinLOD MaxLOD | Membres de l' [ **\_ échantillonneur d3d11 \_ desc**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_sampler_desc) |
 
 
 
- 
+ 
 
 Pour obtenir des exemples, consultez [type d’échantillonneur (DirectX HLSL)](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-sampler) .
 
@@ -94,7 +94,7 @@ Pour obtenir des exemples, consultez [type d’échantillonneur (DirectX HLSL)](
 
 
 
- 
+ 
 
 ## <a name="defining-and-using-state-objects"></a>Définition et utilisation d’objets d’État
 
@@ -145,6 +145,6 @@ SetBlendState( NoBlend, float4( 0.0f, 0.0f, 0.0f, 0.0f ), 0xFFFFFFFF );
 [Format d’effet (Direct3D 11)](d3d11-effect-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: ccfe6273-0dcf-4b42-9d74-665a0b4cd14a
 title: Affichages de texture (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f06cd98a00782b826713e68304ad7cc132e4e0fe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 83dd83b1a3896637ce73505de00027ea9dfadac4
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950710"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335583"
 ---
 # <a name="texture-views-direct3d-10"></a>Affichages de texture (Direct3D 10)
 
@@ -29,9 +29,9 @@ Créez un objet de vue pour une cible de rendu en appelant CreateRenderTargetVie
 
 
 
-|                                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 : dans Direct3D 10, vous ne liez plus une ressource directement au pipeline, vous créez une vue d’une ressource, puis vous définissez la vue sur le pipeline. Cela permet la validation et le mappage dans le runtime et le pilote pour se produire lors de la création de la vue, réduisant ainsi la vérification du type au moment de la liaison.<br/> |
+Différences entre Direct3D 9 et Direct3D 10 :
+
+- Dans Direct3D 10, vous ne liez plus une ressource directement au pipeline, vous créez une vue d’une ressource, puis vous définissez la vue sur le pipeline. Cela permet la validation et le mappage dans le runtime et le pilote pour se produire lors de la création de la vue, réduisant ainsi la vérification du type au moment de la liaison.
 
 
 
