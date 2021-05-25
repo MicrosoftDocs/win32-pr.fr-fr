@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 41327dc66f676c6f498ad0cefb23202bedc13112
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 58354e35ca8456f6fde57d2f2567a6b6a202f6d7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531530"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343034"
 ---
 # <a name="d3dswapeffect-enumeration"></a>Énumération D3DSWAPEFFECT
 
@@ -73,9 +73,9 @@ Pour une chaîne d’échange plein écran, le runtime utilise une combinaison d
 
 Utilisez une zone dédiée de la mémoire vidéo qui peut être superposée sur la surface principale. Aucune copie n’est effectuée lorsque la superposition est affichée. L’opération de superposition est effectuée dans le matériel, sans modification des données dans la surface principale.
 
-|                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 9Ex :<br/> La \_ superposition D3DSWAPEFFECT est disponible uniquement dans les Direct3D9Ex qui s’exécutent sur Windows 7 (ou plus le système d’exploitation actuel).<br/> |
+Différences entre Direct3D 9 et Direct3D 9Ex :
+
+- La \_ superposition D3DSWAPEFFECT est disponible uniquement dans les Direct3D9Ex qui s’exécutent sur Windows 7 (ou plus le système d’exploitation actuel).
 
 </dd> <dt>
 
@@ -87,9 +87,9 @@ Désigne le moment où une application adopte le mode Flip, pendant lequel le fr
 > [!Note]  
 > Si vous créez une chaîne de permutation avec D3DSWAPEFFECT \_ FLIPEX, vous ne pouvez pas remplacer le membre **hDeviceWindow** de la structure de [**\_ paramètres D3DPRESENT**](d3dpresent-parameters.md) lorsque vous présentez un nouveau Frame à afficher. Autrement dit, vous devez passer **null** au paramètre *hDestWindowOverride* de [**IDirect3DDevice9Ex ::P resentex**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) pour indiquer au runtime d’utiliser le membre **hDeviceWindow** des **\_ paramètres D3DPRESENT** pour la présentation.
 
-|                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 9Ex :<br/> D3DSWAPEFFECT \_ FLIPEX est disponible uniquement dans Direct3D9Ex qui s’exécute sur Windows 7 (ou plus le système d’exploitation actuel).<br/> |
+Différences entre Direct3D 9 et Direct3D 9Ex :
+
+- D3DSWAPEFFECT \_ FLIPEX est disponible uniquement dans Direct3D9Ex qui s’exécute sur Windows 7 (ou plus le système d’exploitation actuel).
 
 </dd> <dt>
 
@@ -100,7 +100,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’état de la mémoire tampon d’arrière-plan après un appel à present est bien défini par chacun de ces effets de permutation, et indique si le périphérique Direct3D a été créé avec une chaîne d’échange plein écran ou si une chaîne de permutation à fenêtres n’a aucun effet sur cet État. En particulier, l' \_ effet de basculement D3DSWAPEFFECT bascule fonctionne de la même façon qu’il s’agisse d’une fenêtre ou d’un plein écran, et le runtime Direct3D garantit cela en créant des mémoires tampons supplémentaires. Par conséquent, il est recommandé que les applications utilisent D3DSWAPEFFECT \_ Discard dans la mesure du possible pour éviter de telles pénalités. Cela est dû au fait que cet effet d’échange sera toujours le plus efficace en termes de consommation de mémoire et de performances.
 

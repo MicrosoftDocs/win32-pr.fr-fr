@@ -4,20 +4,18 @@ ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
 title: Mots réservés, en-tête et commentaires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2696aaf6e635f08124e28392d0a8faf63c39a85
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8879d0dbb518f92f0d8a6c38793ab315ae48b73e
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520887"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343654"
 ---
 # <a name="reserved-words-header-and-comments"></a>Mots réservés, en-tête et commentaires
 
 Le tableau ci-dessous montre les mots qui sont réservés et qui ne doivent pas être utilisés.
 
-
-
-|                  |          |           |
+| Mots réservés | Mots réservés | Mots réservés|
 |------------------|----------|-----------|
 | ARRAY            | DWORD    | UCHAR     |
 | BINARY           | FLOAT    | ULONGLONG |

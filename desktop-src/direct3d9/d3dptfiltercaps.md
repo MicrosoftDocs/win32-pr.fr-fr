@@ -4,12 +4,12 @@ ms.assetid: 4434e456-670e-46a9-ba78-affdc195fe1c
 title: D3DPTFILTERCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c122b1260d568a43c69c336059e26a6ecfde2a0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 46adc4759290691e93ef68a8a4e212eacf5b6451
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033772"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343084"
 ---
 # <a name="d3dptfiltercaps"></a>D3DPTFILTERCAPS
 
@@ -101,7 +101,7 @@ Ces constantes sont utilisées par les membres TextureFilterCaps, CubeTextureFil
 
 
 
-|                          |            |
+|  Condition requise                        | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

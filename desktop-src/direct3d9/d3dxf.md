@@ -4,12 +4,12 @@ ms.assetid: 813a2b4b-6577-4cdf-a2e6-e06870638354
 title: D3DXF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 073887c6cc93754ead01ce379310a9be09edc88f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e230fc08ac4d7f8713959f2025f67262046ecea5
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514703"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343644"
 ---
 # <a name="d3dxf"></a>D3DXF
 
@@ -67,7 +67,7 @@ Le tableau suivant spécifie les options d’enregistrement et de chargement de 
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3dx9xof. h |
 | Système d’exploitation minimal | Windows 98 |

@@ -1,15 +1,15 @@
 ---
-description: Combinaison d’un ou de plusieurs indicateurs qui contrôlent le comportement de création de l’appareil.
+description: En savoir plus sur une combinaison d’un ou plusieurs indicateurs qui contrôlent le comportement de création de l’appareil.
 ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55ee7e5d423169e561df28b5d69017c77a71e183
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 07ad3b5eca7a264e489382d80b336f5b2c660e1a
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998656"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342914"
 ---
 # <a name="d3dvtxpcaps"></a>D3DVTXPCAPS
 
@@ -36,7 +36,7 @@ Combinaison d’un ou de plusieurs indicateurs qui contrôlent le comportement d
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

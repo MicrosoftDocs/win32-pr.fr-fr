@@ -4,12 +4,12 @@ ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e6e1ab3ab51a73277da685b7ac562e84d1b94a9
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: c83fd0b3e12d6b5bccb13f9c5fab5e078587dbd4
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997326"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342864"
 ---
 # <a name="d3dx_filter"></a>\_Filtre D3DX
 
@@ -50,7 +50,7 @@ Référencez chaque méthode pour rechercher des informations sur la façon dont
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3dx9tex. h |
 | Système d’exploitation minimal | Windows 98 |

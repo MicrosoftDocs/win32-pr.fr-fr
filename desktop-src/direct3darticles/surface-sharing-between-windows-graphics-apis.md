@@ -4,12 +4,12 @@ description: Cette rubrique fournit une vue d’ensemble technique de l’intero
 ms.assetid: 65abf33e-3d15-42ff-99bd-674f24da773e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d889797902c964e603adefc51b25039afca7d46
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 1032cb1cf9b16280088f00e79e7e59bb7f1510b1
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103730764"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343614"
 ---
 # <a name="surface-sharing-between-windows-graphics-apis"></a>Partage de surface entre les API graphiques Windows
 
@@ -18,7 +18,7 @@ Cette rubrique fournit une vue d’ensemble technique de l’interopérabilité 
 > [!Note]  
 > Pour l’interopérabilité de Direct2D et DirectWrite sur le runtime DirectX 11,1, vous pouvez utiliser des [appareils Direct2D et des contextes de périphérique](/windows/desktop/Direct2D/devices-and-device-contexts) pour effectuer un rendu direct sur les périphériques Direct3D 11.
 
- 
+ 
 
 Cette rubrique contient les sections suivantes.
 
@@ -345,7 +345,7 @@ La file d’attente expose les API suivantes :
 
 
 
-|                             |                                                                                  |
+| API                            | Description                                                                                 |
 |-----------------------------|----------------------------------------------------------------------------------|
 | CreateSurfaceQueue          | Crée un objet ISurfaceQueue (la file d’attente « racine »).                              |
 | ISurfaceQueue::OpenConsumer | Retourne une interface pour l’appareil consommateur à défiler.                        |
@@ -354,7 +354,7 @@ La file d’attente expose les API suivantes :
 
 
 
- 
+ 
 
 **CreateSurfaceQueue**  
 
@@ -401,7 +401,7 @@ HRESULT CreateSurfaceQueue(
  *ppQueue* \[ out au \]  retour, contient un pointeur vers l’objet ISurfaceQueue.  
 
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Si *pDevice* n’est pas en capacité de partager des ressources, cette fonction retourne l’appel de dxgi \_ Error \_ non valide \_ . Cette fonction crée les ressources. En cas d’échec, elle retourne une erreur. Si elle est réussie, elle retourne la valeur \_ OK.
 
@@ -432,7 +432,7 @@ Appareil producteur qui met en file d’attente des surfaces sur la file d’att
 *ppProducer* \[ out \] retourne un objet à l’interface de producteur.  
 
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Si l’appareil n’est pas en capacité de partager des surfaces, retourne l’erreur DXGI de l' \_ \_ appel non valide \_ .
 
@@ -454,7 +454,7 @@ HRESULT OpenConsumer(
  *ppConsumer* \[ out \]  retourne un objet à l’interface du consommateur.  
 
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Si l’appareil n’est pas en capacité de partager des surfaces, retourne l’erreur DXGI de l' \_ \_ appel non valide \_ .
 
@@ -533,7 +533,7 @@ REFIID d’une surface 2D de l’appareil consommateur.
 *dwTimeout* \[ dans \] spécifie une valeur de délai d’attente. Pour plus d’informations, consultez les notes.  
 </dl>
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Cette fonction peut retourner \_ un délai d’attente si une valeur de délai d’attente est spécifiée et que la fonction ne retourne pas avant la valeur du délai d’attente. Consultez la section Notes. Si aucune surface n’est disponible, la fonction retourne avec *ppSurface* défini sur **null**, *pBufferSize* défini sur 0 et la valeur de retour est 0x80070120 (Win32 \_ à \_ HRESULT ( \_ délai d’attente)).  
 </dl>
@@ -549,14 +549,14 @@ Cette interface fournit deux méthodes qui permettent à l’application d’emp
 
 
 
-|                           |                                                                                                                                                       |
+| Méthode                          | Description                                                                                                                                                      |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ISurfaceProducer :: emqueue | Met en file d’attente une surface vers l’objet de file d’attente. Une fois cet appel terminé, le producteur est réalisé avec la surface et la surface est prête pour un autre appareil. |
 | ISurfaceProducer :: Flush   | Utilisé si les applications doivent avoir un comportement non bloquant. Pour plus de détails, consultez la section Notes.                                                                  |
 
 
 
- 
+ 
 
 **Enqueue (empiler)**  
 
@@ -579,7 +579,7 @@ Surface du périphérique de production qui doit être mise en file d’attente.
 *Indicateurs* \[ dans \] un paramètre facultatif qui contrôle le comportement de cette fonction. Le seul indicateur est l' \_ indicateur de file d’attente de surface n’est pas en attente \_ \_ \_ \_ . Consultez les notes relatives au vidage. Si aucun indicateur n’est passé (*Flags* = = 0), le comportement de blocage par défaut est utilisé.  
 </dl>
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Cette fonction peut retourner \_ une erreur dxgi lors du \_ \_ \_ dessin quand un indicateur d’attente de la file d’attente de surface n' \_ \_ \_ \_ \_ est pas utilisé.  
 </dl>
@@ -606,7 +606,7 @@ HRESULT Flush(
 Le seul indicateur est l' \_ indicateur de file d’attente de surface n’est pas en attente \_ \_ \_ \_ . Consultez la section Notes. *nSurfaces* \[ out \] retourne le nombre de surfaces toujours en attente et non vidées.  
 </dl>
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Cette fonction peut retourner une \_ erreur \_ dxgi \_ quand \_ l' \_ indicateur d’attente de la file d’attente de surface n' \_ \_ \_ \_ est pas utilisé. Cette fonction retourne S \_ OK si des surfaces ont été vidées avec succès. Cette fonction retourne l' \_ erreur dxgi en \_ \_ \_ dessinant uniquement si aucune surface n’a été vidée. Ensemble, la valeur de retour et *nSurfaces* indiquent à l’application ce qui a été effectué et si un travail reste à faire.  
 </dl>
@@ -618,7 +618,7 @@ Le vidage est explicite uniquement si l’appel précédent à Enqueue a utilis�
 > [!Note]  
 > Flush n’interrompt pas la sémantique de la file d’attente. L’API garantit que les surfaces mises en file d’attente seront validées avant que les surfaces soient mises en file d’attente par la suite, quel que soit le moment où la synchronisation GPU-CPU se produit.
 
- 
+ 
 
   
 </dl>
@@ -631,7 +631,7 @@ Nous pensons que la plupart des cas d’utilisation impliquent deux appareils pa
 
 L’exemple d’application qui utilise cette application d’assistance peut utiliser Direct3D 9Ex et Direct3D 11 ensemble. L’application peut traiter le contenu avec les deux appareils et présenter le contenu à l’aide de Direct3D 9. Le traitement peut signifier le rendu du contenu, le décodage de la vidéo, l’exécution des nuanceurs de calcul, etc. Pour chaque trame, l’application traite tout d’abord avec Direct3D 11, puis traite avec Direct3D 9 et enfin présente avec Direct3D 9. En outre, le traitement avec Direct3D 11 produira des métadonnées que le Direct3D 9 doit utiliser. Cette section traite de l’utilisation de l’application d’assistance en trois parties qui correspondent à cette séquence : initialisation, boucle principale et nettoyage.
 
-**D’initialisation**  
+**Initialisation**  
 L’initialisation implique les étapes suivantes :  
 
 1.  Initialisez les deux appareils.
@@ -639,7 +639,7 @@ L’initialisation implique les étapes suivantes :
 3.  Cloner à partir de la file d’attente racine : m \_ 9to11Queue.
 4.  Appelez OpenProducer/OpenConsumer sur les deux files d’attente.
 
-Les noms de files d’attente utilisent les chiffres 9 et 11 pour indiquer l’API qui est le producteur et qui est le producteur de l’utilisateur : **m \_ à la file d’attente du ***consommateur*****. En conséquence, m \_ 11to9Queue indique une file d’attente pour laquelle l’appareil Direct3D 11 produit des surfaces consommées par l’appareil Direct3D 9. De même, m \_ 9to11Queue indique une file d’attente pour laquelle Direct3D 9 produit des surfaces consommées par Direct3D 11.  
+Les noms de files d’attente utilisent les chiffres 9 et 11 pour indiquer l’API qui est le producteur et qui est le _producteur_*_de_* l’utilisateur : **m \_** à la *_file d’attente_* du _consommateur_. En conséquence, m \_ 11to9Queue indique une file d’attente pour laquelle l’appareil Direct3D 11 produit des surfaces consommées par l’appareil Direct3D 9. De même, m \_ 9to11Queue indique une file d’attente pour laquelle Direct3D 9 produit des surfaces consommées par Direct3D 11.  
 La file d’attente racine est initialement remplie et toutes les files d’attente clonées sont initialement vides. Cela ne doit pas être un problème pour l’application, à l’exception du premier cycle des enfilements et des retraits de file d’attente et de la disponibilité des métadonnées. Si une file d’attente demande des métadonnées mais qu’aucune n’a été définie (soit parce qu’aucune n’a été initialement, soit la file d’attente n’a rien défini), Dequeue constate qu’aucune métadonnée n’a été reçue.  
 
 1.  **Initialisez les deux appareils.**  
@@ -743,7 +743,7 @@ m_p11to9Queue->Release();
 
 L’exemple précédent est logique pour un cas d’utilisation multithread dans lequel chaque appareil a son propre thread. L’exemple utilise les versions bloquantes des API : infini pour timeout et aucun indicateur pour Enqueue. Si vous souhaitez utiliser le programme d’assistance de façon non bloquante, vous ne devez apporter que quelques modifications. Cette section montre une utilisation non bloquante avec les deux appareils sur un thread.
 
-**D’initialisation**  
+**Initialisation**  
 L’initialisation est identique à l’exception des indicateurs. Étant donné que l’application est monothread, utilisez cet indicateur pour la création. Cela désactive une partie du code de synchronisation, ce qui peut potentiellement améliorer les performances.  
 
 
@@ -886,6 +886,6 @@ m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
 
 Vous pouvez créer des solutions qui utilisent l’interopérabilité pour utiliser la puissance de plusieurs API DirectX. L’interopérabilité de l’API Windows Graphics offre désormais un Common surface Management Runtime DXGI 1,1. Ce Runtime active la prise en charge de partage de surface synchronisé dans les API récemment développées, telles que Direct3D 11, Direct3D 10,1 et Direct2D. Les améliorations de l’interopérabilité entre les nouvelles API et les API existantes contribuent à la migration des applications et à la compatibilité descendante. Les API de consommateur Direct3D 9Ex et DXGI 1,1 peuvent interagir, comme le montre le mécanisme de synchronisation fourni via l’exemple de code d’assistance sur MSDN Code Gallery.
 
- 
+ 
 
- 
+ 

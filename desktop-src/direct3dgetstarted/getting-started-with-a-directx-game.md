@@ -4,18 +4,18 @@ description: La création d’un jeu Microsoft DirectX pour Windows est un défi
 ms.assetid: fd460c52-9854-4ffe-b89e-5219be2e11f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae09cd127a30401ae0493f5dd770fe1e67607b45
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4bac8ca2805fed9ec42faf9deda9ddd51da39685
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511696"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343584"
 ---
 # <a name="get-started-with-directx-for-windows"></a>Prise en main de DirectX pour Windows
 
 La création d’un jeu Microsoft DirectX pour Windows est un défi pour un nouveau développeur. Ici, nous examinons rapidement les concepts impliqués et les étapes que vous devez suivre pour commencer à développer un jeu à l’aide de DirectX et C++.
 
-Commençons.
+Allons-y.
 
 ## <a name="what-skills-do-you-need"></a>Quelles sont les compétences dont vous avez besoin ?
 
@@ -39,7 +39,7 @@ Prêt à commencer ? Nous allons nous pencher sur. Vous avez :
 
 
 
-|                                                                                                    |                                                                                                           |
+| Rubrique                                                                                                   | Description                                                                                                           |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [Utiliser les ressources de l’appareil DirectX](work-with-dxgi.md)                                           | Découvrez comment utiliser DXGI pour créer un appareil graphique virtualisé et créer et configurer une chaîne de permutation.     |
 | [Comprendre le pipeline de rendu Direct3D 11](understand-the-directx-11-2-graphics-pipeline.md) | Découvrez comment raccorder la classe de ressources de l’appareil DirectX et dessiner à l’aide du pipeline de graphiques Direct3D. |
@@ -47,8 +47,8 @@ Prêt à commencer ? Nous allons nous pencher sur. Vous avez :
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

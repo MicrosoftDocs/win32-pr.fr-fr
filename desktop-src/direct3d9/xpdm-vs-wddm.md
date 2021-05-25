@@ -4,12 +4,12 @@ ms.assetid: b552c822-aa01-4f1d-a0a6-1411ab006e7b
 title: XPDM et WDDM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccdf4bba28b53959d8e86d8928c786db3b1d0c7f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e12c7d811850c953eb53c346b628363a2642dda9
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106512855"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343534"
 ---
 # <a name="xpdm-vs-wddm"></a>XPDM et WDDM
 
@@ -24,11 +24,11 @@ L’API Direct3D 9 fonctionne sur Windows XP Display Driver Model (XPDM) ou Wind
 
 Le Bureau sécurisé est actif quand l’un des éléments suivants se produit : l’utilisateur verrouille son bureau (Windows + L), l’économiseur d’écran est activé (quand aucun utilisateur n’est connecté) ou par défaut lorsque le contrôle de compte d’utilisateur affiche une invite. Lorsque le Bureau sécurisé est actif, le périphérique HAL n’est pas accessible.
 
+Différences entre XPDM et WDDM :
 
+- La tentative de création d’un appareil HAL Direct3D9 échoue (avec **D3DERR \_ non \_ disponible**) et tout périphérique Direct3D 9 existant indique qu’un code de retour de l’appareil a été perdu sur présent.
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre XPDM et WDDM :<br/> La tentative de création d’un appareil HAL Direct3D9 échoue (avec **D3DERR \_ non \_ disponible**) et tout périphérique Direct3D 9 existant indique qu’un code de retour de l’appareil a été perdu sur présent.<br/> Les API Direct3D9Ex et Direct3D 10 peuvent créer correctement un appareil alors que le Bureau sécurisé est actif et tous les appels à présent ([**IDirect3D9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex) ou dxgi) renvoient un code d’état indiquant que le bureau n’est pas disponible actuellement.<br/> |
+- Les API Direct3D9Ex et Direct3D 10 peuvent créer correctement un appareil alors que le Bureau sécurisé est actif et tous les appels à présent ([**IDirect3D9Ex**](/windows/desktop/api/d3d9/nn-d3d9-idirect3d9ex) ou dxgi) renvoient un code d’état indiquant que le bureau n’est pas disponible actuellement.
 
 
 
@@ -38,11 +38,11 @@ Le Bureau sécurisé est actif quand l’un des éléments suivants se produit 
 
 Lorsqu’un bureau à distance est actif, l’affichage est géré par l’ordinateur d’affichage et l’ordinateur hôte envoie des informations via le réseau.
 
+Différences entre XPDM et WDDM :
 
+- Sur XPDM, toutes les tentatives de création d’un périphérique Direct3D 9 sur un bureau à distance échouent.
 
-|                                                                                                                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre XPDM et WDDM :<br/> Sur XPDM, toutes les tentatives de création d’un périphérique Direct3D 9 sur un bureau à distance échouent.<br/> Sur WDDM, le Bureau à distance prend en charge la création d’un appareil HAL via une session Bureau à distance.<br/> |
+- Sur WDDM, le Bureau à distance prend en charge la création d’un appareil HAL via une session Bureau à distance.
 
 
 
@@ -52,11 +52,9 @@ Lorsqu’un bureau à distance est actif, l’affichage est géré par l’ordin
 
 Un service Windows est un processus qui s’exécute en arrière-plan, contrôlé par le gestionnaire de contrôle des services (SCM). Un service s’exécute indépendamment du bureau actif et dispose donc d’une capacité d’interaction limitée avec les utilisateurs.
 
+Différences entre XPDM et WDDM :
 
-
-|                                                                                                                                                                                                                                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre XPDM et WDDM :<br/> Sur WDDM, l’isolation de la session 0 garantit qu’un service n’a pas accès aux postes de travail des utilisateurs comme mesure de sécurité. par conséquent, un appareil HAL de Direct3D 9 n’est jamais disponible à partir d’un service Windows.<br/> |
+- Sur WDDM, l’isolation de la session 0 garantit qu’un service n’a pas accès aux postes de travail des utilisateurs comme mesure de sécurité. par conséquent, un appareil HAL de Direct3D 9 n’est jamais disponible à partir d’un service Windows.
 
 
 
@@ -72,9 +70,8 @@ Le tableau suivant récapitule les différences répertoriées ici.
 
 
 
-|                 | XPDM | WDDM (Direct3D9) | WDDM (Direct3D9Ex/Direct3D10) |
+| Bureau sécurisé | XPDM | WDDM (Direct3D9) | WDDM (Direct3D9Ex/Direct3D10) |
 |-----------------|------|------------------|------------------------------|
-| Bureau sécurisé  |      |                  |                              |
 | NULLREF         | Oui  | Oui              | Oui                          |
 | COUCHE             | Non   | Non               | Oui                          |
 | REF             | Oui  | Oui              | Oui                          |

@@ -4,22 +4,19 @@ ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: Autres constantes Direct3D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb289cb080519fab661d7a43f59bca3d8a9db3a0
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: da78bf4ca08c8e1e2a09608a1a446d24e5846fb7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998606"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342774"
 ---
 # <a name="other-direct3d-constants"></a>Autres constantes Direct3D
 
 ## <a name="sdk-version"></a>Version du SDK
 
-
-
-|                     |
+|  \#définition                   |
 |---------------------|
-| \#définition            |
 | \_Version du kit de développement logiciel D3D \_   |
 | \_Version du SDK D3D9b \_ |
 
@@ -35,7 +32,7 @@ Le tableau suivant répertorie les constantes utilisées en interne :
 
 
 
-| \#définition                              | Value                                             | Description                                                        |
+| \#définition                              | Valeur                                             | Description                                                        |
 |---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | \_Nombre maximal \_ de \_ RENDERTARGETS simultanés D3D | 4                                                 | Nombre maximal de rendertargets.                               |
 | D3DDMAPSAMPLER                        | 256                                               | Nombre maximal d’exemples de mappages de déplacements.                    |
@@ -53,7 +50,7 @@ Ces \# définitions sont déclarées dans d3d9types. h.
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | Système d’exploitation minimal | Windows 98 |
 

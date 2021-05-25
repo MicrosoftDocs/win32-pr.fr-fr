@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 33aba75cafff5f9e69a74d5570f98455a9853289
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db4b25cb44b3b43b3b9754f241e2c505bdfedbc7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529602"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343394"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>D3DADAPTER \_ IDENTIFIER9, structure
 
@@ -182,9 +182,8 @@ Utilisé pour déterminer le niveau de validation WHQL (Windows Hardware Quality
 
 
 
-|       |                                               |
+| Bits  |  Description                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | Année, un nombre décimal compris entre 1999 et plus. |
 | 15-8  | Le mois, un nombre décimal compris entre 1 et 12.     |
 | 7-0   | Le jour, un nombre décimal compris entre 1 et 31.       |
@@ -197,7 +196,7 @@ Les valeurs suivantes sont également utilisées.
 
 
 
-|     |                                                       |
+| Valeur    |  Description                                                     |
 |-----|-------------------------------------------------------|
 | 0   | Non certifié.                                        |
 | 1   | WHQL validée, mais aucune information de date n’est disponible. |
@@ -212,7 +211,7 @@ Pour les Direct3D9Ex s’exécutant sur Windows Vista, Windows Server 2008, Wind
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’exemple de pseudo-code suivant illustre le format de version encodé dans les membres DriverVersion, DriverVersionLowPart et DriverVersionHighPart.
 

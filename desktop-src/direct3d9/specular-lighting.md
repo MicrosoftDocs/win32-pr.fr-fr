@@ -4,12 +4,12 @@ ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: Éclairage spéculaire (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab378d4ca3f00ef81c5048e6ad6cc85eaeb18ad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2b16d71bd8d814e104cf8a90d1d1fe9b15ba10f3
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104555624"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343674"
 ---
 # <a name="specular-lighting-direct3d-9"></a>Éclairage spéculaire (Direct3D 9)
 
@@ -19,13 +19,9 @@ L’état d’éclairage par défaut ne calcule pas les surbrillances spéculair
 
 ## <a name="specular-lighting-equation"></a>Équation d’éclairage spéculaire
 
-L’éclairage spéculaire est décrit par l’équation suivante.
+L’éclairage spéculaire est décrit par l’équation suivante :
 
-
-
-|                                                                             |
-|-----------------------------------------------------------------------------|
-| Éclairage spéculaire = cs \* Sum \[ ls \* (N · H)<sup>P</sup> \* atten \*\] |
+**Éclairage spéculaire = cs \* Sum \[ ls \* (N · H)<sup>P</sup> \* atten \*\]**
 
 
 
@@ -75,11 +71,7 @@ Les composants spéculaires sont ancrés à une valeur comprise entre 0 et 255, 
 
 Le vecteur à mi-chemin (H) existe à mi-chemin entre deux vecteurs : le vecteur d’un sommet d’objet à la source de lumière et le vecteur d’un sommet d’objet à la position de la caméra. Direct3D offre deux façons de calculer le vecteur à mi-chemin. Quand D3DRS \_ LOCALVIEWER est défini sur **true**, le système calcule le vecteur à mi-chemin à l’aide de la position de la caméra et la position du vertex, ainsi que le vecteur de direction de la lumière. La formule suivante illustre cela.
 
-
-
-|                                           |
-|-------------------------------------------|
-| H = normal (normal (CP-VP) + L<sub>Rép</sub>) |
+**H = normal (normal (CP-VP) + L <sub>Rép</sub>)**
 
 
 
@@ -99,11 +91,7 @@ Le vecteur à mi-chemin (H) existe à mi-chemin entre deux vecteurs : le vecteu
 
 La détermination du vecteur à mi-chemin de cette manière peut nécessiter de nombreuses ressources de calcul. En guise d’alternative, la définition de D3DRS \_ LOCALVIEWER = **false** indique au système d’agir comme si le point de vue est distant de façon infinie sur l’axe z. Cela se reflète dans la formule suivante.
 
-
-
-|                                     |
-|-------------------------------------|
-| H = normal ((0, 0, 1) + L<sub>répertoire</sub>) |
+**H = normal ((0, 0, 1) + L <sub>répertoire</sub>)**
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 895d6fd3a7d9f93e858c08d1aaae416f1bf3abad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5a7c4911bf2a7b7fa2aa83422a206644f6eb747
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482088"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342804"
 ---
 # <a name="lpd3dxshprtsimcb"></a>LPD3DXSHPRTSIMCB
 
@@ -37,13 +37,13 @@ lpUserContext-pointeur vers une valeur définie par l’utilisateur qui est pass
 
 Cette fonction doit être implémentée pour retourner \_ OK pour continuer à exécuter le simulateur. Toute autre valeur arrêtera le simulateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Veillez à spécifier la Convention d’appel des [**types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
 
 
 
-|                          |             |
+| Condition requise                         | Valeur            |
 |--------------------------|-------------|
 | En-tête                   | d3dx9mesh. h |
 | Bibliothèque d'importation           | d3dx9. lib   |

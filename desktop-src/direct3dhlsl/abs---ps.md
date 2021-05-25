@@ -9,28 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e3e7af7b2d30e9d9f2092cb6671610f008ec781d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f4f22261a114333ed77d67d7c0ac2738d3522054
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994876"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343325"
 ---
 # <a name="abs---ps"></a>ABS-PS
 
 Calcule la valeur absolue.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
-
-
-|              |
-|--------------|
-| ABS DST, SRC |
-
-
-
- 
+**ABS DST, SRC**
 
 where
 
@@ -65,7 +57,7 @@ dest.w = abs(src.w)
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | Système d’exploitation minimal | Windows 98 |
 

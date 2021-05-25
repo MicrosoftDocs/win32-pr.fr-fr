@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: d8d779ad714e396f9c9a82bbbc42ddd09b76e2ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55edb432913720f58860d4f5cb87d8da9b9a8681
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953816"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343384"
 ---
 # <a name="d3dblend-enumeration"></a>Énumération D3DBLEND
 
@@ -166,11 +166,9 @@ Facteur de fusion de couleur inversé inversé utilisé par le mélangeur de mé
 
 Le facteur de fusion est (PSOutColor \[ 1 \] <sub>r</sub>, PSOutColor \[ 1 \] <sub>g</sub>, PSOutColor \[ 1 \] <sub>b</sub>, non utilisé). Consultez [fusion de cibles de rendu](#render-target-blending).
 
+Différences entre Direct3D 9 et Direct3D 9Ex :
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 9Ex :<br/> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br/> |
+- Cet indicateur est disponible uniquement dans Direct3D 9Ex.
 
 
 
@@ -184,10 +182,9 @@ Le facteur de fusion est (PSOutColor \[ 1 \] <sub>r</sub>, PSOutColor \[ 1 \] <s
 Le facteur de fusion est (1-PSOutColor \[ 1 \] <sub>r</sub>, 1-PSOutColor \[ 1 \] <sub>g</sub>, 1-PSOutColor \[ 1 \] <sub>b</sub>, non utilisé)). Consultez [fusion de cibles de rendu](#render-target-blending).
 
 
+Différences entre Direct3D 9 et Direct3D 9Ex :
 
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 9Ex :<br/> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br/> |
+- Cet indicateur est disponible uniquement dans Direct3D 9Ex.
 
 
 
@@ -202,7 +199,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans les descriptions de membre précédentes, les valeurs RVBA de la source et de la destination sont indiquées par les indices s et d.
 

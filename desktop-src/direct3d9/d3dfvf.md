@@ -4,12 +4,12 @@ ms.assetid: 85d9f5b2-8e4a-4f92-a587-eae5b293778c
 title: D3DFVF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25a12b4f6008023a388bd204440a0b544db85c19
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: a088dda530904c320720371c76601fd4fb254481
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999436"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343259"
 ---
 # <a name="d3dfvf"></a>D3DFVF
 
@@ -198,7 +198,7 @@ dwFVF = ( D3DFVF_XYZ | D3DFVF_NORMAL | D3DFVF_DIFFUSE |
 
 
 
-|                          |             |
+| Condition requise                         | Valeur            |
 |--------------------------|-------------|
 | En-tête                   | d3d9types. h |
 | Système d’exploitation minimal | Windows 98  |

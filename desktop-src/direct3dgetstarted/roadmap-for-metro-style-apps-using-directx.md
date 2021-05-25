@@ -4,12 +4,12 @@ description: Voici des ressources clés pour vous aider à utiliser DirectX et C
 ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca95e1fe281253705620136afdced3cb705fe02
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 11b285e850bd952a0a24638a2bd8c3c0b2d987d0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104032135"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343564"
 ---
 # <a name="roadmap-for-desktop-directx-apps"></a>Feuille de route pour les applications de bureau DirectX
 
@@ -101,7 +101,7 @@ Si vous êtes un vieil avec C++ sur les plateformes Windows, les choses peuvent 
 | [**Système de type (C++/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | Contenu de référence pour les types pris en charge par C++/CX. |
 | [**Espaces de noms (C++/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | Contenu de référence pour les espaces de noms qui contiennent des types spécifiques à C++ qui peuvent être utilisés dans les applications du Windows Store. |
 
-| | |
+| Rubrique | Description |
 |-|-|
 | [Programmation asynchrone (DirectX et C++)](/previous-versions/windows/apps/hh994919(v=win.10)) | En savoir plus sur la programmation asynchrone et multithread pour les jeux et les applications DirectX. |
 | [Programmation asynchrone en C++](/previous-versions/windows/apps/hh780559(v=win.10)) | Décrit les méthodes de base pour utiliser la classe de tâche afin de consommer Windows Runtime méthodes asynchrones. |
@@ -110,7 +110,7 @@ Si vous êtes un vieil avec C++ sur les plateformes Windows, les choses peuvent 
 
 ## <a name="additional-useful-libraries-for-windows-c-programming"></a>Bibliothèques utiles supplémentaires pour la programmation Windows C++
 
-| | |
+| Rubrique | Description |
 |-|-|
 | [Bibliothèque STL (C++ Standard Template Library)](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Les types de Windows Runtime jouent un mal avec les types de bibliothèques de modèles standard. La plupart des applications du Windows Store C++ utilisent des algorithmes et des collections STL (Standard Template Library), à l’exception de la limite ABI. |
 | [bibliothèque de modèles parallèles](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | La bibliothèque de modèles parallèles fournit des algorithmes et des types qui simplifient le parallélisme des tâches et le parallélisme des données sur le processeur.  |

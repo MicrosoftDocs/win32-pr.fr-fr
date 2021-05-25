@@ -1,15 +1,15 @@
 ---
-description: Indicateurs de capacité du pilote.
+description: Consultez la liste des indicateurs de capacité du pilote. Comprend les définitions, les valeurs et les descriptions avec des liens vers des API.
 ms.assetid: 0c0c65fc-f953-4379-a6d0-6ce447a0c183
 title: D3DCAPS2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb953e73c0ea6b079a6b8f0658790c749b4f30a0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f209e840450b834c3a69593d1297f2cba9ee43c0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516184"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343374"
 ---
 # <a name="d3dcaps2"></a>D3DCAPS2
 
@@ -86,7 +86,7 @@ Ces constantes sont utilisées par le membre D3CAPS2 de [**D3DCAPS9**](/windows/
 
 
 
-|                          |            |
+|  Condition requise                        | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

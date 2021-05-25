@@ -1,18 +1,18 @@
 ---
-title: Utilisation de barrières de ressources pour synchroniser les États des ressources dans Direct3D 12
+title: Utilisation de barrières de ressources pour synchroniser les états des ressources dans Direct3D 12
 description: Pour réduire l’utilisation globale du processeur et activer le traitement multithread et le prétraitement des pilotes, Direct3D 12 déplace la responsabilité de la gestion de l’État par ressource du pilote Graphics vers l’application.
 ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c766f18e85ab8acc2ed0afad8e680d566a723a68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104548597"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343474"
 ---
-# <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>Utilisation de barrières de ressources pour synchroniser les États des ressources dans Direct3D 12
+# <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>Utilisation de barrières de ressources pour synchroniser les états des ressources dans Direct3D 12
 
 Pour réduire l’utilisation globale du processeur et activer le traitement multithread et le prétraitement des pilotes, Direct3D 12 déplace la responsabilité de la gestion de l’État par ressource du pilote Graphics vers l’application. Un exemple d’État par ressource est de savoir si une ressource de texture est actuellement accessible par le biais d’un nuanceur Affichage des ressources ou en tant que vue de la cible de rendu. Dans Direct3D 11, les pilotes devaient suivre cet État en arrière-plan. Cela s’avère coûteux du point de vue de l’UC et complique de manière significative tout type de conception multithread. Dans Microsoft Direct3D 12, la majeure partie de l’État par ressource est gérée par l’application avec une seule API, [**ID3D12GraphicsCommandList :: ResourceBarrier**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-resourcebarrier).
 
@@ -112,15 +112,14 @@ Les ressources peuvent être promues à partir de l’État commun en fonction d
 
 
 
-| Indicateur d’État                    | État pouvant être promu                             |                                      |
+| Indicateur d’État                    | Mémoires tampons et Simultaneous-Access textures                             | Textures à accès non simultané                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **Mémoires tampons et Simultaneous-Access textures** | **Textures à accès non simultané** |
 | \_mémoire tampon de vertex et \_ constante \_ | Oui                                          | Non                                   |
 | \_mémoire tampon d’index                 | Oui                                          | Non                                   |
 | cible de rendu \_                | Oui                                          | Non                                   |
 | accès non ordonné \_             | Oui                                          | Non                                   |
-| écriture de profondeur \_                  | º<sup>\*</sup>                              | No                                   |
-| lecture de profondeur \_                   | º<sup>\*</sup>                              | No                                   |
+| écriture de profondeur \_                  | º<sup>\*</sup>                              | Non                                   |
+| lecture de profondeur \_                   | º<sup>\*</sup>                              | Non                                   |
 | \_ressource de \_ nuanceur non pixel \_  | Oui                                          | Oui                                  |
 | \_ressource de nuanceur de pixels \_       | Oui                                          | Oui                                  |
 | DIFFUSER \_ en continu                   | Oui                                          | Non                                   |
@@ -594,7 +593,7 @@ D3D12_RESOURCE_BARRIER BarrierDesc = {};
 
 [Synchronisation multi-moteur](./user-mode-heap-synchronization.md)
 
-[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
+[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
 
 [Examiner les barrières de l’état des ressources D3D12](https://devblogs.microsoft.com/directx/a-look-inside-d3d12-resource-state-barriers/)
 

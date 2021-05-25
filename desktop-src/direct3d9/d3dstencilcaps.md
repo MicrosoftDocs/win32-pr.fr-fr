@@ -4,12 +4,12 @@ ms.assetid: 187c758c-5e7f-48ee-97cb-b1f30b709723
 title: D3DSTENCILCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6716748d77fe4c3620413f43ae4a4ae48076c09f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8999d73044a061cb8eea8f5829351c1d04079462
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997376"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343054"
 ---
 # <a name="d3dstencilcaps"></a>D3DSTENCILCAPS
 
@@ -17,7 +17,7 @@ Indicateurs de capacité du stencil du pilote.
 
 
 
-| \#définition                 | Value       | Description                                                                                           |
+| \#définition                 | Valeur       | Description                                                                                           |
 |--------------------------|-------------|-------------------------------------------------------------------------------------------------------|
 | D3DSTENCILCAPS \_ conserver     | 0x00000001L | Ne mettez pas à jour l’entrée dans la mémoire tampon du stencil. Il s’agit de la valeur par défaut.                             |
 | D3DSTENCILCAPS \_ zéro     | 0x00000002L | Affectez à l’entrée de tampon stencil la valeur 0.                                                                    |
@@ -41,7 +41,7 @@ Ces constantes sont utilisées par le membre StencilCaps de [**D3DCAPS9**](/wind
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

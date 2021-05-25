@@ -4,12 +4,12 @@ ms.assetid: 41a8939f-eba5-47ca-8628-94b606b6f43d
 title: D3DD3DPSHADERCAPS2_0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2326b8f5066d34087fb543c7771a0cd547b98f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: a4eed8fb6c7a5c4c4da31185dc4cc8c1661f7109
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995266"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343114"
 ---
 # <a name="d3dd3dpshadercaps2_0"></a>D3DD3DPSHADERCAPS2 \_ 0
 
@@ -17,7 +17,7 @@ Indicateurs de capacité de nuanceur de pixels.
 
 
 
-| \#définition                                     | Value          | Description                                                                                                                                                                                                       |
+| \#définition                                     | Valeur          | Description                                                                                                                                                                                                       |
 |----------------------------------------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DD3DPSHADERCAPS2 \_ 0 \_ ARBITRARYSWIZZLE      | (1 << 0) | Swizzling arbitraire est pris en charge.                                                                                                                                                                                 |
 | D3DD3DPSHADERCAPS2 \_ 0 \_ GRADIENTINSTRUCTIONS  | (1 << 1) | Les instructions de dégradé sont prises en charge.                                                                                                                                                                              |
@@ -43,7 +43,7 @@ Ces constantes sont utilisées par le \_ membre D3DPSHADERCAPS2 0 de [**D3DCAPS9
 
 
 
-|                          |            |
+|  Condition requise                        | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

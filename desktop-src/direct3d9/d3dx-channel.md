@@ -1,15 +1,15 @@
 ---
-description: Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser dans une texture.
+description: En savoir plus sur les indicateurs utilisés pour spécifier les canaux à utiliser dans une texture, comme D3DX \_ Channel \_ Red.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e870f01fd21fdb63f62278a3a5cac3b4da077e1e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 97f2725644295ac85d892799033cdac1d8f83416
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995686"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342904"
 ---
 # <a name="d3dx_channel"></a>\_Chaîne D3DX
 
@@ -33,7 +33,7 @@ Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser d
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3dx9tex. h |
 | Système d’exploitation minimal | Windows 98 |

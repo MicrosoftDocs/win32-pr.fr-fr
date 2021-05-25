@@ -1,18 +1,18 @@
 ---
-title: Signature racine version 1,1
+title: Signature racine version 1.1
 description: L’objectif de la version de signature racine 1,1 est de permettre aux applications d’indiquer aux pilotes quand les descripteurs d’un tas de descripteur ne changeront pas ou que les descripteurs de données ne changeront pas.
 ms.assetid: 8FE42C1C-7F1D-4E70-A7EE-D5EC67237327
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d0a107b4186f164e60a6225f55c5ba3f4f06b2
-ms.sourcegitcommit: f5a319899176e2df564bdb4d9eaffc32140452a2
+ms.openlocfilehash: 04a7a32576efa4d93a8d26aa57282f06e0d5a02f
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "104548564"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343664"
 ---
-# <a name="root-signature-version-11"></a>Signature racine version 1,1
+# <a name="root-signature-version-11"></a>Signature racine version 1.1
 
 L’objectif de la version de signature racine 1,1 est de permettre aux applications d’indiquer aux pilotes quand les descripteurs d’un tas de descripteur ne changeront pas ou que les descripteurs de données ne changeront pas. Cela permet aux pilotes d’effectuer des optimisations qui peuvent être possibles, sachant qu’un descripteur ou la mémoire vers laquelle il pointe est statique pendant un certain temps.
 
@@ -34,7 +34,7 @@ L’objectif de la version de signature racine 1,1 est de permettre aux applicat
 -   [Gestion des versions](#version-management)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="overview"></a>Vue d’ensemble
+## <a name="overview"></a>Vue d'ensemble
 
 La version de signature racine 1,0 autorise le contenu des tas de descripteurs et la mémoire qu’ils pointent à être librement modifiés par les applications chaque fois que les listes de commandes/regroupements qui les référencent sont potentiellement en vol sur le GPU. Très souvent, cependant, les applications n’ont pas besoin de la flexibilité nécessaire pour modifier les descripteurs ou la mémoire une fois que les commandes qui les référencent ont été enregistrées.
 
@@ -133,9 +133,8 @@ Les tableaux suivants résument les combinaisons d’indicateurs qui peuvent êt
 
 
 
-|                                                                |                                                                                                                                                                                                                                                                                                                                                      |
+| Paramètres valides des \_ indicateurs de plage du descripteur D3D12 \_ \_                                                               | Description                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Paramètres valides des \_ indicateurs de plage du descripteur D3D12 \_ \_**             | **Description**                                                                                                                                                                                                                                                                                                                                      |
 | Aucun indicateur défini                                                   | Les descripteurs sont statiques (valeur par défaut). Hypothèses par défaut pour les données : pour SRV/CBV : données \_ statiques définies lors de l' \_ \_ \_ \_ exécution, et pour UAV : données \_ volatiles. Ces valeurs par défaut pour SRV/CBV s’adaptent en toute sécurité aux modèles d’utilisation pour la majorité des signatures racines.                                                                                              |
 | DONNÉES \_ statiques                                                   | Les descripteurs et les données sont statiques. Cela optimise le potentiel d’optimisation du pilote.                                                                                                                                                                                                                                                          |
 | DONNÉES \_ volatiles                                                 | Les descripteurs sont statiques et les données sont volatiles.                                                                                                                                                                                                                                                                                                     |
@@ -146,13 +145,12 @@ Les tableaux suivants résument les combinaisons d’indicateurs qui peuvent êt
 
 
 
- 
+ 
 
 
 
-|                                                   |                                                                                                                                                                                                                   |
+| Paramètres valides des \_ \_ indicateurs de descripteurs racine D3D12 \_                                                  |  Description                                                                                                                                                                                                                 |
 |---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Paramètres valides des \_ \_ indicateurs de descripteurs racine D3D12 \_** | **Description**                                                                                                                                                                                                   |
 | Aucun indicateur défini                                      | Hypothèses par défaut pour les données : pour SRV/CBV : données \_ statiques définies lors de l' \_ \_ \_ \_ exécution, et pour UAV : données \_ volatiles. Ces valeurs par défaut pour SRV/CBV s’adaptent en toute sécurité aux modèles d’utilisation pour la majorité des signatures racines. |
 | DONNÉES \_ statiques                                      | Les données sont statiques, ce qui constitue le meilleur risque pour l’optimisation des pilotes.                                                                                                                                                       |
 | données \_ statiques quand elles sont \_ \_ définies \_ lors de l' \_ exécution             | Les données sont statiques lorsqu’elles sont définies lors de l’exécution.                                                                                                                                                                              |
@@ -160,7 +158,7 @@ Les tableaux suivants résument les combinaisons d’indicateurs qui peuvent êt
 
 
 
- 
+ 
 
 ## <a name="version-11-api-summary"></a>Résumé de l’API version 1,1
 
@@ -234,15 +232,15 @@ Ainsi, une application peut, par exemple, compiler une signature racine 1,1 à 1
 [Création d’une signature racine](creating-a-root-signature.md)
 </dt> <dt>
 
-[Signatures racines](root-signatures.md)
+[Signatures racine](root-signatures.md)
 </dt> <dt>
 
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+[Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

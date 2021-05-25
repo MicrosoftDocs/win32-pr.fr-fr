@@ -5,12 +5,12 @@ ms.assetid: B2288866-E95F-46B8-A7A1-19888F029C03
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48e6af0d0a93d55f700478ec839f3864ee0efbcd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7079207f91185cc14b37d9056a4fa813b251bce5
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548603"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342814"
 ---
 # <a name="direct3d-12-programming-environment-setup"></a>Configuration de l’environnement de programmation Direct3D 12
 
@@ -70,9 +70,8 @@ Les bibliothèques suivantes peuvent toutes être utilisées avec Direct3D 12.
 
 
 
-|                                                                                  |                                                                                                                                                                                                                                                                        |                                                                                                            |
+| Bibliothèque                                                                                 |  Objectif                                                                                                                                                                                                                                                                      | Documentation                                                                                                           |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| **Bibliothèque**                                                                      | **Objectif**                                                                                                                                                                                                                                                            | **Documentation**                                                                                          |
 | [Kit d’outils DirectX pour DirectX 12](https://github.com/Microsoft/DirectXTK12) | Une collection importante de classes d’assistance pour l’écriture de code C++ 12 C++ pour les applications plateforme Windows universelle (UWP), les applications de bureau Win32 pour Windows 10 et Xbox une application exclusive.                                                                         | [Wiki DirectX12TK](https://github.com/Microsoft/DirectXTK12/wiki)                                          |
 | [DirectXTex](https://github.com/Microsoft/DirectXTex)                      | Utilisez cette fonction pour lire et écrire des fichiers DDS et effectuer diverses opérations de traitement de contenu de texture, y compris le redimensionnement, la conversion de format, la génération de mappage MIP, la compression de bloc pour les ressources de texture Runtime Direct3D et la conversion de mappage de hauteur en carte normale. | [Wiki DirectXTex](https://github.com/Microsoft/DirectXTex/wiki)                                            |
 | [DirectXMesh](https://github.com/Microsoft/DirectXMesh)                   | À utiliser pour effectuer diverses opérations de traitement de contenu Geometry, notamment la génération de normales et de frames tangentes, les calculs d’adjacence de triangle et l’optimisation du cache de vertex.                                                                                | [Wiki DirectXMesh](https://github.com/Microsoft/DirectXMesh/wiki)                                          |
@@ -81,7 +80,7 @@ Les bibliothèques suivantes peuvent toutes être utilisées avec Direct3D 12.
 
 
 
- 
+ 
 
 ## <a name="samples"></a>Exemples
 
@@ -124,9 +123,9 @@ Il existe plusieurs vidéos relatives à Direct3D 12 et Windows 10 dans [DirectX
 
 <dl> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898e1bb66f74a1087a9da186599469bb195734ce
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9fe6dd62ce7fc7fe4d438290af1ddb33a75813f0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995286"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343014"
 ---
 # <a name="d3dta"></a>D3DTA
 
@@ -65,7 +65,7 @@ Un indicateur d’argument peut être combiné avec l’un des indicateurs de mo
 
 
 
-|                          |             |
+|   Condition requise                       |  Valeur           |
 |--------------------------|-------------|
 | En-tête                   | d3d9types. h |
 | Système d’exploitation minimal | Windows 98  |

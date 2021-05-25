@@ -4,12 +4,12 @@ ms.assetid: faa2d610-cf85-42d0-833c-a46fb7fe3dbf
 title: LPD3DXFILL2D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8046c324511f2b308243d62fec1b6508a1d483ed
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8c341ccfcbcc566d65e7139813c676e2286e25cf
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087967"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342844"
 ---
 # <a name="lpd3dxfill2d"></a>LPD3DXFILL2D
 
@@ -43,13 +43,13 @@ pData-pointeur vers les données utilisateur.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Veillez à spécifier la Convention d’appel des [**types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
 
 
 
-|                          |            |
+| Condition requise                         | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3dx9tex. h |
 | Bibliothèque d'importation           | d3dx9. lib  |

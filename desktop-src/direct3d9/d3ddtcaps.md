@@ -4,12 +4,12 @@ ms.assetid: 751d7b92-b187-40e5-882c-6fdb80e1ff5f
 title: D3DDTCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 094ca568554722f4da2606233f4ad2c1e59e892f
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 97ded570b8f451ea7e99050467f70f945d202bd4
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999446"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343233"
 ---
 # <a name="d3ddtcaps"></a>D3DDTCAPS
 
@@ -17,7 +17,7 @@ Constantes décrivant les types de données de vertex pris en charge par un appa
 
 
 
-| \#définition              | Value       | Description                                                                                                                   |
+| \#définition              | Valeur       | Description                                                                                                                   |
 |-----------------------|-------------|-------------------------------------------------------------------------------------------------------------------------------|
 | D3DDTCAPS \_ UBYTE4     | 0x00000001L | octet non signé 4D.                                                                                                             |
 | D3DDTCAPS \_ UBYTE4N    | 0x00000002L | Octets non signés normalisés et 4D. Chacun des quatre octets est normalisé en divisant à 255,0.                                      |
@@ -40,7 +40,7 @@ Ces constantes sont utilisées par le membre DeclTypes de [**D3DCAPS9**](/window
 
 
 
-|                          |            |
+|  Condition requise                        | Valeur           |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |

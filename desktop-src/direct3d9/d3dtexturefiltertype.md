@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 212fd05755ebf554c3c57e7ac45dcf8947f2d753
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd6038e1b3d2b2f85e5766605583db9879427343
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522341"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343004"
 ---
 # <a name="d3dtexturefiltertype-enumeration"></a>Énumération D3DTEXTUREFILTERTYPE
 
@@ -93,11 +93,9 @@ Filtre gaussien à 4 échantillons utilisé comme un agrandissement de texture o
 
 Filtre de convolution pour les textures monochromes. Consultez [D3DFMT \_ a1](d3dformat.md).
 
+Différences entre Direct3D 9 et Direct3D 9Ex :
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 9Ex :<br/> Cet indicateur est disponible uniquement dans Direct3D 9Ex.<br/> |
+- Cet indicateur est disponible uniquement dans Direct3D 9Ex.
 
 
 
@@ -114,7 +112,7 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 D3DTEXTUREFILTERTYPE est utilisé par [**IDirect3DDevice9 :: SetSamplerState**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setsamplerstate) avec [**D3DSAMPLERSTATETYPE**](./d3dsamplerstatetype.md) pour définir les modes de filtrage de texture pour une étape de texture.
 

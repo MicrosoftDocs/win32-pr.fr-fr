@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: c618e0e19bf7dd01dec73d35436f23189f9e78a6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 022aa20fab0739b32aa75eb5f4bc575c0a8ad853
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522348"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342994"
 ---
 # <a name="d3dtransformstatetype-enumeration"></a>Énumération D3DTRANSFORMSTATETYPE
 
@@ -126,13 +126,13 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les États de transformation de la plage 256 à 511 sont réservés pour stocker jusqu’à 256 matrices universelles qui peuvent être indexées à l’aide des \_ macros D3DTS WORLDMATRIX et D3DTS \_ World.
 
 
 
-| Macros                                                  |                                                                                                                                                                       |
+| Macros                                                  | Description                                                                                                                                                                      |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DTS \_ World**](d3dts-world.md)                     | Équivalent à D3DTS \_ WORLDMATRIX (0).                                                                                                                                  |
 | [**D3DTS \_ WORLDMATRIX**](d3dts-worldmatrix.md) (index) | Identifie la matrice de transformation à définir pour la matrice universelle à l’index. Plusieurs matrices universelles sont utilisées uniquement pour la fusion de vertex. Dans le cas contraire, seul D3DTS \_ World est utilisé. |

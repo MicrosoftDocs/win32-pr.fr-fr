@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f83ab03773356a01c8c6ac490bb099c6e7508be2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f113b3df247765b958dfe47bb04fafb6c9a13bbe
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323001"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343104"
 ---
 # <a name="d3dpresent_parameters-structure"></a>D3DPRESENT, \_ structure de paramètres
 
@@ -139,11 +139,9 @@ D3DSWAPEFFECT \_ Copy requiert que **BackBufferCount** soit défini sur 1.
 
 D3DSWAPEFFECT \_ Discard sera appliqué dans le runtime de débogage en remplissant toute mémoire tampon avec un bruit après sa présentation.
 
+Différences entre Direct3D9 et Direct3D9Ex :
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D9 et Direct3D9Ex<br/> Dans Direct3D9Ex, D3DSWAPEFFECT \_ FLIPEX est ajouté pour désigner le moment où une application adopte le mode Flip. Autrement dit, Whan le frame d’une application est passé en mode de fenêtre (au lieu d’être copié) au Gestionnaire de fenêtrage (DWM) pour la composition. Le mode Flip fournit une bande passante de mémoire plus efficace et permet à une application de tirer parti des statistiques de présentation plein écran. Elle ne modifie pas le comportement plein écran. Le comportement en mode Flip est disponible à partir de Windows 7.<br/> |
+- Dans Direct3D9Ex, D3DSWAPEFFECT \_ FLIPEX est ajouté pour désigner le moment où une application adopte le mode Flip. Autrement dit, Whan le frame d’une application est passé en mode de fenêtre (au lieu d’être copié) au Gestionnaire de fenêtrage (DWM) pour la composition. Le mode Flip fournit une bande passante de mémoire plus efficace et permet à une application de tirer parti des statistiques de présentation plein écran. Elle ne modifie pas le comportement plein écran. Le comportement en mode Flip est disponible à partir de Windows 7.
 
 
 
@@ -264,7 +262,7 @@ Vitesse maximale à laquelle les mémoires tampons d’arrière-plan de la chaî
 [**CreateAdditionalSwapChain**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createadditionalswapchain)
 </dt> <dt>
 
-[**Présent**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
+[**Trouver**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-present)
 </dt> <dt>
 
 [**Réinitialiser**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-reset)

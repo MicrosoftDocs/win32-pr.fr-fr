@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 375646202e102623053c179398329ad2286e6c1b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e8d1d72fccd5c4ad47d21d05ee46013860a7743
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522604"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343624"
 ---
 # <a name="id3dxeffectcompilercompileshader-method"></a>ID3DXEffectCompiler :: CompileShader, méthode
 
@@ -99,7 +99,7 @@ Retourne une interface [**ID3DXConstantTable**](id3dxconstanttable.md) , qui peu
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -109,13 +109,13 @@ Si les arguments ne sont pas valides, la méthode retourne D3DERR \_ INVALIDCALL
 
 Si la méthode échoue, la valeur de retour est E \_ Fail.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les cibles peuvent être spécifiées pour les nuanceurs de vertex, les nuanceurs de pixels et les fonctions de remplissage de texture.
 
 
 
-|                       |                                                                       |
+| Cibles                      | Fonctions                                                                      |
 |-----------------------|-----------------------------------------------------------------------|
 | Cibles de nuanceur de sommets | vs \_ 1 \_ 1, vs \_ 2 \_ 0, vs \_ 2 \_ SW, vs \_ 3 \_ 0                               |
 | Cibles de nuanceur de pixels  | PS \_ 1 \_ 1, PS \_ 1 \_ 2, PS \_ 1 \_ 3, PS \_ 1 \_ 4, PS \_ 2 \_ 0, PS \_ 2 \_ SW, PS \_ 3 \_ 0 |

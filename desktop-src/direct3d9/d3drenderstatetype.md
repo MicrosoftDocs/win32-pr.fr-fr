@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 2386762eaa45f1eefbccac97723c3ad71c3a76fd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a7ad803535032705e6e1bb5456109486c59d190
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106539867"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343064"
 ---
 # <a name="d3drenderstatetype-enumeration"></a>Énumération D3DRENDERSTATETYPE
 
@@ -1008,11 +1008,11 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
-| États de rendu        |                    |
+| États de rendu        |   Échantillonneur de texture                 |
 |----------------------|--------------------|
 | PS \_ 1 \_ 1 à PS \_ 1 \_ 3 | 4 échantillonneurs de texture |
 

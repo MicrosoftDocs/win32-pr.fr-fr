@@ -4,12 +4,12 @@ ms.assetid: 7912c682-c179-453b-8a34-e87958217500
 title: D3DPMISCCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76af50a1e7f78f6441af9e985f55e42ee2298b46
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0b4ace0b9070d158769e22e02a759545b1bf7785
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201076"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343134"
 ---
 # <a name="d3dpmisccaps"></a>D3DPMISCCAPS
 
@@ -141,7 +141,7 @@ Ces constantes sont utilisées par le membre PrimitiveMiscCaps de [**D3DCAPS9**]
 
 
 
-|                          |            |
+| Condition requise                         |  Valeur          |
 |--------------------------|------------|
 | En-tête                   | d3d9caps. h |
 | Système d’exploitation minimal | Windows 98 |
