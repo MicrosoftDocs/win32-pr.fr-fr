@@ -4,12 +4,12 @@ description: Une barre d’outils est un contrôle qui contient un ou plusieurs 
 ms.assetid: b5a00a81-8d23-4844-8b0a-776e7cceced8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 263d95b13ddee54561cf1b0bb9d003d5d34cdf8d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 6f615da972f14bb88c4915504c089dd6b40d9aca
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941389"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424149"
 ---
 # <a name="about-toolbar-controls"></a>À propos des contrôles ToolBar
 
@@ -47,7 +47,7 @@ Si vous créez une barre d’outils à l’aide de [**CreateToolbarEx**](/window
 > [!Note]  
 > L’utilisation de [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex) n’est pas recommandée, car elle ne prend pas en charge les nouvelles fonctionnalités des barres d’outils, y compris les listes d’images. Pour plus d’informations sur la création de barres d’outils, consultez [utilisation des contrôles ToolBar](using-toolbar-controls.md).
 
- 
+ 
 
 La fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) n’a pas de paramètres pour spécifier la taille de la barre d’outils. La procédure de fenêtre de barre d’outils définit automatiquement la taille et la position de la fenêtre de la barre d’outils. La hauteur est basée sur la hauteur des boutons dans la barre d’outils. La largeur est identique à la largeur de la zone cliente de la fenêtre parente. Pour modifier les paramètres de taille automatique, envoyez un message [**to \_ SETBUTTONSIZE**](tb-setbuttonsize.md) . Les styles de contrôle communs [**CCS \_ Top**](common-control-styles.md) et [**CCS \_ Bottom**](common-control-styles.md) déterminent si la barre d’outils est positionnée le long du bord supérieur ou inférieur de la zone cliente. Par défaut, une barre d’outils a le style **CCS \_ Top** .
 
@@ -72,7 +72,7 @@ Pour créer une barre d’outils transparente, il vous suffit d’ajouter [**TBS
 > [!Note]  
 > Lorsque vous utilisez des styles visuels, les barres d’outils peuvent être plates par défaut.
 
- 
+ 
 
 ## <a name="list-style-toolbars"></a>Barres d’outils de style liste
 
@@ -102,15 +102,15 @@ Vous pouvez également stocker des images de bouton dans un ensemble de [listes 
 
 
 
-|          |                                                                                                                                                                                              |
+|  État        |  Description                                                                                                                                                                                            |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Normal   | Boutons dans leur état par défaut.                                                                                                                                                              |
-| Chaud      | Boutons situés sous le pointeur ou appuyés. Les éléments à chaud sont pris en charge uniquement dans les contrôles Toolbar qui ont le style à [**\_ deux dimensions TBSTYLE**](toolbar-control-and-button-styles.md) . |
+| À chaud      | Boutons situés sous le pointeur ou appuyés. Les éléments à chaud sont pris en charge uniquement dans les contrôles Toolbar qui ont le style à [**\_ deux dimensions TBSTYLE**](toolbar-control-and-button-styles.md) . |
 | Désactivé | Boutons désactivés.                                                                                                                                                                   |
 
 
 
- 
+ 
 
 Une fois la barre d’outils détruite, les applications doivent libérer toutes les listes d’images qu’elles ont créées.
 
@@ -131,7 +131,7 @@ Après la création d’une barre d’outils, vous pouvez ajouter des boutons en
 > [!Note]  
 > Si vous utilisez la fonction [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) pour créer une barre d’outils, vous devez envoyer le message [**to \_ BUTTONSTRUCTSIZE**](tb-buttonstructsize.md) avant d’ajouter des boutons. Le message transmet la taille de la structure [**TBBUTTON**](/windows/desktop/api/Commctrl/ns-commctrl-tbbutton) à la barre d’outils.
 
- 
+ 
 
 ### <a name="toolbar-button-styles"></a>Styles de boutons de barre d’outils
 
@@ -180,6 +180,6 @@ Dans le cadre du processus de personnalisation, les applications doivent souvent
 
 Le suivi à chaud signifie que lorsque le pointeur se déplace sur un élément, l’apparence du bouton change. Lorsque les styles visuels sont activés, les barres d’outils prennent en charge le suivi à chaud par défaut. Sinon, seuls les contrôles de barre d’outils créés avec le style à [**\_ deux dimensions TBSTYLE**](toolbar-control-and-button-styles.md) prennent en charge le suivi à chaud. Vous pouvez utiliser d’autres styles de fenêtres en combinaison avec **TBSTYLE \_ Flat** pour produire des barres d’outils qui permettent le suivi à chaud, mais qui ont une apparence différente de celle d’une barre d’outils plate. Pour plus d’informations, consultez [utilisation des contrôles ToolBar](using-toolbar-controls.md).
 
- 
+ 
 
- 
+ 

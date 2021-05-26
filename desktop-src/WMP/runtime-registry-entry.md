@@ -13,12 +13,12 @@ keywords:
 - entrées de Registre du Runtime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b01a83c3642f49a9fdbe7f8c51f157a154a9843b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3bf485038965184add320e49c29482672c770f48
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029455"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424108"
 ---
 # <a name="runtime-registry-entry"></a>Entrée du Registre du Runtime
 
@@ -28,14 +28,13 @@ L’entrée **Runtime** spécifie la technologie sous-jacente que le lecteur Win
 
 
 
-|          |                |                                                               |
+|   Nom   |   Type         |   Valeur                                                       |
 |----------|----------------|---------------------------------------------------------------|
-| **Nom** | **Type**       | **Valeur**                                                     |
 | Runtime  | **\_valeur DWORD reg** | Entier positif qui identifie la technologie sous-jacente. |
 
 
 
- 
+ 
 
 La valeur de l’entrée d' **exécution** doit être l’une des suivantes.
 
@@ -49,7 +48,7 @@ La valeur de l’entrée d' **exécution** doit être l’une des suivantes.
 
 
 
- 
+ 
 
 Les valeurs 6 et 7 de l’entrée de Registre du **Runtime** sont prises en charge par le lecteur Windows Media série 9 et versions ultérieures. La valeur 13 est prise en charge par le lecteur Windows Media 11.
 
@@ -63,9 +62,9 @@ Les valeurs 6 et 7 de l’entrée de Registre du **Runtime** sont prises en char
 [**Paramètres de registre de l’extension de nom de fichier**](file-name-extension-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

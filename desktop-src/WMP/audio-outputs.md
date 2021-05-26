@@ -20,12 +20,12 @@ keywords:
 - Contrôle ActiveX du lecteur Windows Media, eCommunications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffb5ebefb3b2bb72e8314c843ce0fe7632f09652
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b41e5fc3284a054ba7497889eab80ec240c9801
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379799"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423859"
 ---
 # <a name="audio-outputs"></a>Sorties audio
 
@@ -33,14 +33,14 @@ Le panneau de configuration de Windows XP permet à l’utilisateur d’attribue
 
 
 
-|                                      | Windows XP                                                                                                                                                                                | Windows Vista                                                                                                                                                              |
+|       &nbsp;                               | Windows XP                                                                                                                                                                                | Windows Vista                                                                                                                                                              |
 |--------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Lecteur Windows Media                 | Par défaut, le lecteur utilise le périphérique audio désigné comme appareil DirectSound par défaut. Le lecteur fournit une boîte de dialogue qui permet à l’utilisateur de faire basculer le lecteur vers un autre périphérique audio. | Par défaut, le lecteur utilise le périphérique audio désigné comme eMultimedia. Le lecteur fournit une boîte de dialogue qui permet à l’utilisateur de faire basculer le lecteur vers un autre périphérique audio. |
 | Contrôle ActiveX du Lecteur Windows Media | Par défaut, le contrôle du lecteur utilise le périphérique audio désigné comme appareil DirectSound par défaut. L’appareil de sortie audio ne peut pas être modifié par programme.                                | Par défaut, le contrôle du lecteur utilise le périphérique audio désigné comme eMultimedia. L’appareil de sortie audio ne peut pas être modifié par programme.                                |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,9 +49,9 @@ Le panneau de configuration de Windows XP permet à l’utilisateur d’attribue
 [**Lecteur Windows Media**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: de2776be-72e6-4391-8e6c-56694d683d57
 title: Fichiers d’en-tête et composants système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47c4b93c63e7d32944dfdf2bf6872bd3a3153e4a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 77a47125853b51a71f2f05dacf4534ce33cfedec
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111323"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424289"
 ---
 # <a name="header-files-and-system-components"></a>Fichiers d’en-tête et composants système
 
@@ -17,9 +17,8 @@ Le tableau suivant répertorie les fichiers d’en-tête qui contiennent les dé
 
 
 
-|                                              |                              |
-|----------------------------------------------|------------------------------|
 | Composant audio principal                         | Fichier d’en-tête                  |
+|----------------------------------------------|------------------------------|
 | [API MMDevice](mmdevice-api.md)             | MMDeviceAPI. h                |
 | [WASAPI](wasapi.md)                         | Audioclient. h, Audiopolicy. h |
 | [API DeviceTopology](devicetopology-api.md) | Devicetopology. h             |

@@ -4,12 +4,12 @@ ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: Appel des méthodes de service de façon asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d312cc76cf8cb737136629c1e2c8135d1b7bd1e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ef4f0eb2e75b977b53300bed6eab4c909fa7796
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203794"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423849"
 ---
 # <a name="invoking-service-methods-asynchronously"></a>Appel des méthodes de service de façon asynchrone
 
@@ -17,9 +17,8 @@ L’application WpdServiceApiSample comprend du code qui montre comment une appl
 
 
 
-|                                                                                         |                                                                                                                                                                         |
+| Interface    | Description          |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interface                                                                               | Description                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                                | Utilisé pour récupérer l’interface **IPortableDeviceServiceMethods** pour appeler des méthodes sur un service donné.                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                  | Utilisé pour appeler une méthode de service.                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                                  | Utilisé pour contenir les paramètres de méthode sortants et les résultats de méthode entrante. La valeur peut être **null** si la méthode ne requiert pas de paramètres ou ne retourne aucun résultat. |

@@ -4,12 +4,12 @@ ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: Ouverture d’un service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0bcccc6c3769173bfee72e73d7cbf68435b0ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b273b8709a4d750085f14075d605f88ed0faa6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529524"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423919"
 ---
 # <a name="opening-a-service"></a>Ouverture d’un service
 
@@ -17,9 +17,8 @@ Pour que votre application puisse effectuer des opérations sur un service, par 
 
 
 
-|                                                                        |                                                    |
-|------------------------------------------------------------------------|----------------------------------------------------|
 | Interface                                                              | Description                                        |
+|------------------------------------------------------------------------|----------------------------------------------------|
 | [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager) | Utilisé pour énumérer les services sur un appareil.        |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Utilisé pour ouvrir une connexion à un service d’appareil.     |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | Utilisé pour contenir les informations du client de l’application. |

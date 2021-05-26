@@ -4,12 +4,12 @@ description: Un contrôle de touche d’accès rapide est une fenêtre qui perme
 ms.assetid: 5f011459-4c30-45d4-9668-19f575b041ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dec45d61df535025cff00fee6428f604aa670bf3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4d5e0c0f9a0ddec515c1732863333b7c1a878db5
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730484"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423879"
 ---
 # <a name="about-hot-key-controls"></a>À propos des contrôles de touche d’accès rapide
 
@@ -45,32 +45,21 @@ Le contrôle de touche d’accès rapide n’envoie aucun code de notification v
 
 Cette section décrit les messages de fenêtre gérés par la procédure de fenêtre pour la classe de fenêtre de [**raccourci clavier \_**](common-control-window-classes.md) prédéfinie utilisée avec les contrôles de touche d’accès rapide.
 
-
-
-|                                                |                                                                                                                                                                                                                                                                                                                                               |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Message**                                    | **Traitement effectué**                                                                                                                                                                                                                                                                                                                      |
-| [**\_caractère WM**](/windows/desktop/inputdev/wm-char)               | Récupère le code de la touche virtuelle.                                                                                                                                                                                                                                                                                                               |
-| [**création de WM \_**](/windows/desktop/winmsg/wm-create)             | Initialise le contrôle de touche d’accès rapide, efface toutes les règles de touche d’accès rapide et utilise la police système.                                                                                                                                                                                                                                                          |
-| [**\_ERASEBKGND WM**](/windows/desktop/winmsg/wm-erasebkgnd)     | Masque le signe insertion, appelle la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) et affiche à nouveau le signe insertion.                                                                                                                                                                                                                                     |
-| [**\_GETDLGCODE WM**](/windows/desktop/dlgbox/wm-getdlgcode)     | Retourne une combinaison des valeurs [**DLGC \_ WANTCHARS**](/windows/desktop/dlgbox/wm-getdlgcode) et [**DLGC \_ WANTARROWS**](/windows/desktop/dlgbox/wm-getdlgcode) .                                                                                                                                               |
-| [**WM \_ GETFONT**](/windows/desktop/winmsg/wm-getfont)           | Récupère la police.                                                                                                                                                                                                                                                                                                                           |
+|    Message                                            |    Traitement effectué                               |
+|------------------------------------------------|--------------------------------------------------------------|
+| [**\_caractère WM**](/windows/desktop/inputdev/wm-char)               | Récupère le code de la touche virtuelle.             |
+| [**création de WM \_**](/windows/desktop/winmsg/wm-create)             | Initialise le contrôle de touche d’accès rapide, efface toutes les règles de touche d’accès rapide et utilise la police système.   |
+| [**\_ERASEBKGND WM**](/windows/desktop/winmsg/wm-erasebkgnd)     | Masque le signe insertion, appelle la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) et affiche à nouveau le signe insertion.   |
+| [**\_GETDLGCODE WM**](/windows/desktop/dlgbox/wm-getdlgcode)     | Retourne une combinaison des valeurs [**DLGC \_ WANTCHARS**](/windows/desktop/dlgbox/wm-getdlgcode) et [**DLGC \_ WANTARROWS**](/windows/desktop/dlgbox/wm-getdlgcode) .   |
+| [**WM \_ GETFONT**](/windows/desktop/winmsg/wm-getfont)           | Récupère la police.                         |
 | [**WM- \_ touche**](/windows/desktop/inputdev/wm-keydown)         | Appelle la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) si la touche est entrée, Tab, barre d’espace, SUPPR, Echap ou retour arrière. Si la touche est Maj, CTRL ou ALT, elle vérifie si la combinaison est valide et, si c’est le cas, définit la touche d’accès rapide à l’aide de la combinaison. Toutes les autres clés sont définies en tant que clés à chaud sans que leur validité soit vérifiée en premier. |
-| [**WM \_ KEYUP**](/windows/desktop/inputdev/wm-keyup)             | Récupère le code de la touche virtuelle.                                                                                                                                                                                                                                                                                                               |
-| [**\_KILLFOCUS WM**](/windows/desktop/inputdev/wm-killfocus)     | Détruit le signe insertion.                                                                                                                                                                                                                                                                                                                           |
-| [**\_LBUTTONDOWN WM**](/windows/desktop/inputdev/wm-lbuttondown) | Définit le focus sur la fenêtre.                                                                                                                                                                                                                                                                                                                 |
-| [**\_NCCREATE WM**](/windows/desktop/winmsg/wm-nccreate)         | Définit le style de fenêtre [**WS \_ ex \_ CLIENTEDGE**](/windows/desktop/winmsg/extended-window-styles) .                                                                                                                                                                                                                              |
-| [**\_peinture WM**](/windows/desktop/gdi/wm-paint)                  | Peint le contrôle de touche d’accès rapide.                                                                                                                                                                                                                                                                                                                   |
-| [**WM \_ SetFocus**](/windows/desktop/inputdev/wm-setfocus)       | Crée et affiche le signe insertion.                                                                                                                                                                                                                                                                                                                  |
-| [**\_SetFont WM**](/windows/desktop/winmsg/wm-setfont)           | Définit la police.                                                                                                                                                                                                                                                                                                                                |
-| [**\_SYSCHAR WM**](/windows/desktop/menurc/wm-syschar)           | Récupère le code de la touche virtuelle.                                                                                                                                                                                                                                                                                                               |
+| [**WM \_ KEYUP**](/windows/desktop/inputdev/wm-keyup)             | Récupère le code de la touche virtuelle.             |
+| [**\_KILLFOCUS WM**](/windows/desktop/inputdev/wm-killfocus)     | Détruit le signe insertion.                         |
+| [**\_LBUTTONDOWN WM**](/windows/desktop/inputdev/wm-lbuttondown) | Définit le focus sur la fenêtre.               |
+| [**\_NCCREATE WM**](/windows/desktop/winmsg/wm-nccreate)         | Définit le style de fenêtre [**WS \_ ex \_ CLIENTEDGE**](/windows/desktop/winmsg/extended-window-styles) .        |
+| [**\_peinture WM**](/windows/desktop/gdi/wm-paint)                  | Peint le contrôle de touche d’accès rapide.                 |
+| [**WM \_ SetFocus**](/windows/desktop/inputdev/wm-setfocus)       | Crée et affiche le signe insertion.                |
+| [**\_SetFont WM**](/windows/desktop/winmsg/wm-setfont)           | Définit la police.                              |
+| [**\_SYSCHAR WM**](/windows/desktop/menurc/wm-syschar)           | Récupère le code de la touche virtuelle.             |
 | [**\_SYSKEYDOWN WM**](/windows/desktop/inputdev/wm-syskeydown)   | Appelle la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) si la touche est entrée, Tab, barre d’espace, SUPPR, Echap ou retour arrière. Si la touche est Maj, CTRL ou ALT, elle vérifie si la combinaison est valide et, si c’est le cas, définit la touche d’accès rapide à l’aide de la combinaison. Toutes les autres clés sont définies en tant que clés à chaud sans que leur validité soit vérifiée en premier. |
-| [**\_SYSKEYUP WM**](/windows/desktop/inputdev/wm-syskeyup)       | Récupère le code de la touche virtuelle.                                                                                                                                                                                                                                                                                                               |
-
-
-
- 
-
- 
-
- 
+| [**\_SYSKEYUP WM**](/windows/desktop/inputdev/wm-syskeyup)       | Récupère le code de la touche virtuelle.             |

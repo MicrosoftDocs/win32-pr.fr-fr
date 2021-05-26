@@ -4,12 +4,12 @@ description: Récupération des propriétés de l’objet
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3c6eba4435b23ef5c637feaca7c2d4ab6b160e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e2c206b6e3afe75144ce10de615657e788d6d1c
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034964"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424059"
 ---
 # <a name="retrieving-wpd-object-properties"></a>Récupération des propriétés de l’objet WPD
 
@@ -19,9 +19,8 @@ L’application WpdServiceApiSample comprend du code qui montre comment une appl
 
 
 
-|                                                                      |                                                                                              |
+| Interface | Description    |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| Interface                                                            | Description                                                                                  |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | Récupère l’interface **IPortableDeviceContent2** pour accéder aux méthodes de service prises en charge. |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | Fournit l’accès aux méthodes spécifiques au contenu.                                             |
 | [**IPortableDeviceProperties**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties)       | Récupère les valeurs de propriété de l’objet.                                                        |
@@ -38,9 +37,8 @@ Cette méthode récupère les quatre propriétés suivantes pour l’objet conta
 
 
 
-|                              |                                                                                                                                                                                                                  |                                 |                                     |
-|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | Propriété                     | Description                                                                                                                                                                                                      | Services d’appareil PROPERTYKEY     | WPD \_ PROPERTYKEY équivalent         |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | Identificateur de l’objet parent     | Chaîne qui spécifie l’identificateur pour le parent de l’objet donné.                                                                                                                                            | \_GenericObj, \_ ParentId      | \_ \_ ID parent de l’objet wpd \_             |
 | Nom d’objet                  | Chaîne qui spécifie le nom de l’objet donné.                                                                                                                                                             | Nom du GenericObj de la \_ \_          | nom de l' \_ objet wpd \_                   |
 | Identificateur unique persistant | Chaîne qui spécifie un identificateur unique pour l’objet donné. Cet identificateur est persistant entre les sessions, contrairement à l’identificateur d’objet. Pour les services, il doit s’agir d’une représentation sous forme de chaîne d’un GUID. | \_GenericObj \_ PersistentUID | \_ \_ \_ ID unique persistant de l’objet wpd \_ |

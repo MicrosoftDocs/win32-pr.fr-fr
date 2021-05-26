@@ -4,12 +4,12 @@ ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: Récupération des événements de service pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f515b65b8ed062c346777224a64539f5229a704a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfdc1df4c8255a4dc2a1297ae99216437ac3b4c9
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530206"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423469"
 ---
 # <a name="retrieving-supported-service-events"></a>Récupération des événements de service pris en charge
 
@@ -17,9 +17,8 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 
 
-|                                                                                      |                                                                                                       |
+| Interface                | Description    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                           |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Utilisé pour récupérer l’interface **IPortableDeviceServiceCapabilities** pour accéder aux événements pris en charge. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Fournit l’accès aux événements et attributs d’événement pris en charge.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contient la liste des événements pris en charge.                                                                |

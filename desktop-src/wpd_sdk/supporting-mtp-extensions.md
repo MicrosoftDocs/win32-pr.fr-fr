@@ -4,12 +4,12 @@ ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: Prise en charge des extensions MTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f26a6a5a585167984ec944528bb74a6746e42ac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 898df3f1347af2ccc42a796b480156b6603b13ec
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867525"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423729"
 ---
 # <a name="supporting-mtp-extensions"></a>Prise en charge des extensions MTP
 
@@ -33,9 +33,8 @@ N’oubliez pas que ces commandes sont spécifiques à MTP ; et sont donc uniqu
 
 
 
-|                                                                                                                                      |                                                                                                   |
+| Commande  | Description  |
 |--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| Commande                                                                                                                              | Description                                                                                       |
 | [**\_transfert de \_ \_ données de \_ fin \_ MTP \_ MTP de commande wpd**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)                                      | Émet une commande MTP qui signale la conclusion d’une opération de lecture ou d’écriture de données.              |
 | [**commande \_ wpd \_ MTP \_ ext \_ Execute \_ Command \_ sans \_ \_ phase Data**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)  | Émet une commande MTP sans une phase de données correspondante.                                         |
 | [**commande \_ wpd \_ MTP \_ ext \_ Execute Command Execute \_ \_ avec les \_ données \_ à \_ écrire**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) | Émet une commande MTP qui est suivie de données d’accompagnement, qui seront écrites sur l’appareil. |

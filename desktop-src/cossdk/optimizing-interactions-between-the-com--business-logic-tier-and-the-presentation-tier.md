@@ -4,12 +4,12 @@ ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: Optimisation des interactions entre le niveau de logique métier COM+ et la couche présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe6094cb12cc7875d8a18dea3d28ac55bf8d6ae2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3258453a16549eacf3a7ed77444674d425c85613
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516390"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423499"
 ---
 # <a name="optimizing-interactions-between-the-com-business-logic-tier-and-the-presentation-tier"></a>Optimisation des interactions entre le niveau de logique métier COM+ et la couche présentation
 
@@ -36,7 +36,7 @@ Le tableau suivant répertorie les zones où des précautions supplémentaires d
 
 
 
-|                       | Accès concurrentiel  | WAN          | Déploiement   | Complexité   |
+|     &nbsp;                  | Accès concurrentiel  | WAN          | Déploiement   | Complexité   |
 |-----------------------|--------------|--------------|--------------|--------------|
 | Entrée | Valeur |
 | Recordsets<br/> |              | X<br/> | X<br/> | X<br/> |

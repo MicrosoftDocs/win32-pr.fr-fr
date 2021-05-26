@@ -4,12 +4,12 @@ description: Un contrôle de sélecteur de date et d’heure (PAO) fournit une i
 ms.assetid: 6749c3ae-2c52-4183-ac4e-68ca7ebf1e13
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04604c01a73aa8f2ebb8542061412372faee5282
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 182381c40b636683255e95ba0680a1245ef0adf3
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031974"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424219"
 ---
 # <a name="about-date-and-time-picker-controls"></a>À propos des contrôles de sélecteur de date et d’heure
 
@@ -58,12 +58,12 @@ Le contrôle PAO met automatiquement à jour les informations internes en foncti
 | Touches de direction     | Le contrôle accepte les touches de direction pour parcourir les champs dans le contrôle et modifier les valeurs. L’utilisateur peut appuyer sur les touches ou pour se déplacer dans le contrôle si l’utilisateur tente de se déplacer au-delà du dernier champ dans une direction donnée, le focus clavier « habille » dans le champ du côté opposé du contrôle. Les clés et modifient de façon incrémentielle les valeurs dans le champ actuel. |
 | Fin et démarrage   | Le contrôle accepte les \_ clés virtuelles VK end et VK \_ Virtual pour remplacer la valeur dans le champ actuel par ses limites supérieure et inférieure, respectivement.                                                                                                                                                                                                                          |
 | Touches de fonction  | La clé active le mode édition. La clé permet au contrôle d’afficher un contrôle de calendrier mensuel déroulant (en appuyant sur le fait également).                                                                                                                                                                                                                                          |
-| Nombres        | Le contrôle accepte une entrée numérique dans des segments à deux caractères. Si la valeur entrée par l’utilisateur n’est pas valide (par exemple, si vous définissez le mois sur 14), le contrôle le rejette et réinitialise l’affichage à la valeur précédente.                                                                                                                                                                |
+| À l’aide de nombres        | Le contrôle accepte une entrée numérique dans des segments à deux caractères. Si la valeur entrée par l’utilisateur n’est pas valide (par exemple, si vous définissez le mois sur 14), le contrôle le rejette et réinitialise l’affichage à la valeur précédente.                                                                                                                                                                |
 | Plus et moins | Le contrôle accepte les \_ touches virtuelles VK Add et VK \_ Subtract du pavé numérique pour incrémenter et décrémenter la valeur dans le champ actuel.                                                                                                                                                                                                                             |
 
 
 
- 
+ 
 
 Les contrôles de PAO qui n’utilisent pas le style de [**\_ déverrouillage DTS**](date-and-time-picker-control-styles.md) affichent un bouton fléché. Si l’utilisateur clique sur ce bouton, un contrôle Month Calendar disparaît. L’utilisateur peut sélectionner une date spécifique en cliquant sur une zone du calendrier.
 
@@ -77,7 +77,7 @@ Trois formats prédéfinis sont disponibles pour l’affichage de la date et l�
 
 
 
-|                                                                                                       |                                                            |
+|   Format                                                                                                    |   Description                                                         |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | [**\_LONGDATEFORMAT Dts**](date-and-time-picker-control-styles.md)                 | L’affichage ressemble à ce qui suit : « vendredi 19 avril 1996 ».      |
 | [**\_SHORTDATEFORMAT Dts**](date-and-time-picker-control-styles.md)               | L’affichage ressemble à ce qui suit : « 4/19/96 ».                     |
@@ -86,7 +86,7 @@ Trois formats prédéfinis sont disponibles pour l’affichage de la date et l�
 
 
 
- 
+ 
 
 ### <a name="custom-formats"></a>Formats personnalisés
 
@@ -123,7 +123,7 @@ Les éléments de format de date et d’heure seront remplacés par la date et l
 
 
 
- 
+ 
 
 Pour rendre les informations plus lisibles, vous pouvez ajouter du texte de corps à la chaîne de format en l’entourant de guillemets simples. Les espaces et les signes de ponctuation n’ont pas besoin d’être placés entre guillemets.
 
@@ -158,7 +158,7 @@ Les codes de notification suivants sont utilisés avec les contrôles de PAO.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -167,6 +167,6 @@ Les codes de notification suivants sont utilisés avec les contrôles de PAO.
 [Référence de contrôle de sélecteur de date et heure](date-and-time-picker-control-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

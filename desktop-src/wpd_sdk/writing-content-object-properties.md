@@ -4,12 +4,12 @@ ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: Écriture de propriétés d’objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb061288cbfde93f2baea1860581c25c61a8a0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726501c986e73033437de3bee0c11b3beb66150d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524237"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423929"
 ---
 # <a name="writing-object-properties"></a>Écriture de propriétés d’objet
 
@@ -19,9 +19,8 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 
 
-|                                                                |                                                                                                                                                                      |
-|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interface                                                      | Description                                                                                                                                                          |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)       | Utilisé pour récupérer l’interface **IPortableDeviceContent2** pour accéder aux méthodes de service prises en charge.                                                                  |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)     | Fournit l’accès aux méthodes spécifiques au contenu.                                                                                                                     |
 | [**IPortableDeviceProperties**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties) | Utilisé pour écrire les valeurs de propriété de l’objet et déterminer si une propriété donnée peut être écrite                                                                    |

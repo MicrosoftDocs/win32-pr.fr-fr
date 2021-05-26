@@ -4,12 +4,12 @@ description: Cette section montre comment traiter les notifications de sélecteu
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b904c464677a81151b03e3ae89085847e4e8bdf
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: ffa1214ebd671b4ae222990bde4b44586e6d7b11
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032123"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424179"
 ---
 # <a name="how-to-process-date-and-time-picker-notifications"></a>Comment traiter les notifications de sélecteur de date et d’heure
 
@@ -35,7 +35,7 @@ Si vous envisagez d’utiliser des champs de rappel avec les contrôles de PAO d
 
 L’exemple de code C++ suivant identifie le message de notification envoyé par un contrôle de PAO et appelle la fonction appropriée définie par l’application. Reportez-vous aux rubriques suivantes pour obtenir des exemples de code qui illustrent comment traiter les notifications qui s’affichent dans cet exemple.
 
-|                                                                                                        |
+|   Rubriques                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|
 | [Comment traiter la notification DTN \_ DATETIMECHANGE](process-the-dtn-datetimechange-notification.md) |
 | [Comment traiter la notification DTN \_ FORMATQUERY](process-the-dtn-formatquery-notification.md)       |

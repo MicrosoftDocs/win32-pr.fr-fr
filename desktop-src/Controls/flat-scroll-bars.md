@@ -4,12 +4,12 @@ description: Microsoft Internet Explorer 4,0 a introduit une nouvelle technologi
 ms.assetid: f7e00e71-bf12-4db9-bb84-6d413b967049
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07fbbdb64aa9815cb56f5dc3bf55ffb17390db38
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5e56db4ee987a6d8cdc7b185f5db0f8d89540453
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730460"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423889"
 ---
 # <a name="flat-scroll-bars"></a>Barres de défilement plat
 
@@ -22,7 +22,7 @@ L’illustration suivante montre une fenêtre qui contient une barre de défilem
 > [!Note]  
 > Les barres de défilement plat sont prises en charge par les versions 4,71 à 5,82 de Comctl32.dll. Les versions 6,00 et ultérieures de Comctl32.dll ne prennent pas en charge les barres de défilement plat.
 
- 
+ 
 
 ## <a name="using-flat-scroll-bars"></a>Utilisation des barres de défilement plat
 
@@ -63,7 +63,7 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 
 
-|                    |                                                                                                                                                                          |
+|   Style                 |   Description                                                                                                                                                                       |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MODE FSB d' \_ Encarta \_ | Une barre de défilement standard standard est affichée. Lorsque la souris se déplace sur un bouton de direction ou le curseur de défilement, cette partie de la barre de défilement s’affiche en 3D.             |
 | \_mode plat \_ FSB    | Une barre de défilement standard standard est affichée. Lorsque la souris se déplace sur un bouton de direction ou le curseur de défilement, cette partie de la barre de défilement s’affiche dans les couleurs inversées. |
@@ -71,12 +71,12 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 
 
- 
+ 
 
 ### <a name="removing-flat-scroll-bars"></a>Supprimer des barres de défilement plat
 
 Si vous souhaitez supprimer les barres de défilement plat de votre fenêtre, appelez la fonction [**UninitializeFlatSB**](/windows/desktop/api/Commctrl/nf-commctrl-uninitializeflatsb) , en passant le handle à la fenêtre. Cette fonction supprime uniquement les barres de défilement plat de votre fenêtre au moment de l’exécution. Vous n’avez pas besoin d’appeler cette fonction lorsque votre fenêtre est détruite.
 
- 
+ 
 
- 
+ 

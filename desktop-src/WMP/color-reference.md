@@ -9,12 +9,12 @@ keywords:
 - Référence des couleurs pour les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11085bbcf9461b48cee9892bb8da6a8e167a2495
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843001"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424099"
 ---
 # <a name="color-reference-windows-media-player-sdk"></a>Référence de couleur (kit de développement logiciel Windows Media Player)
 
@@ -24,7 +24,7 @@ Certains attributs acceptent également la valeur « None ». Pour les attribu
 
 
 
-|                            |                             |                                 |                              |
+|          &nbsp;            |            &nbsp;           |             &nbsp;              |           &nbsp;             |
 |----------------------------|-----------------------------|---------------------------------|------------------------------|
 | AliceBlue ( \# F0F8FF)       | AntiqueWhite ( \# FAEBD7)     | Aqua ( \# 00FFFF)                 | vert eau marine ( \# 7FFFD4)        |
 | Azure ( \# F0FFFF)           | beige ( \# F5F5DC)            | bisque ( \# FFE4C4)               | noir ( \# 000000)             |

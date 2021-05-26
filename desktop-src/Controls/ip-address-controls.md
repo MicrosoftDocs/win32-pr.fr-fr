@@ -4,12 +4,12 @@ description: Un contrôle d’adresse IP (Internet Protocol) permet à l’utili
 ms.assetid: cf6a59fc-661c-420a-a67f-a42619946357
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb8cf39400c97d211d83b5496067fe6d4772e1e7
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 6859bd31250d30bcf26d0c5fde37afeca8cc81bd
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941396"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424229"
 ---
 # <a name="about-ip-address-controls"></a>À propos des contrôles d’adresse IP
 
@@ -32,7 +32,7 @@ La plage par défaut de chaque champ est comprise entre 0 et 255, mais l’appli
 > [!Note]  
 > Le contrôle d’adresse IP est implémenté dans la version 4,71 et les versions ultérieures de Comctl32.dll.
 
- 
+ 
 
 ## <a name="creating-an-ip-address-control"></a>Création d’un contrôle d’adresse IP
 
@@ -46,17 +46,16 @@ Un contrôle d’adresse IP n’est pas un contrôle d’édition et ne répond 
 
 
 
-|                                   |                                                                                                                                                                                                         |
+|     Notification                              |     Raison de la notification                                                                                                                                                                                                    |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Notification**                  | **Raison de la notification**                                                                                                                                                                             |
 | [en \_ SetFocus](en-setfocus.md)   | Envoyé lorsque le contrôle d’adresse IP obtient le focus clavier.                                                                                                                                              |
 | [en \_ KILLFOCUS](en-killfocus.md) | Envoyé lorsque le contrôle d’adresse IP perd le focus clavier.                                                                                                                                              |
 | [en \_ modification](en-change.md)       | Envoyé lorsqu’un champ du contrôle d’adresse IP change. À l’instar de la notification en [ \_ modification](en-change.md) d’un contrôle d’édition standard, cette notification est reçue après la mise à jour de l’écran. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

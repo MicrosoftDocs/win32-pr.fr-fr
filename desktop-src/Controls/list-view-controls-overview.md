@@ -5,12 +5,12 @@ ms.assetid: 163f7778-690c-4166-b0c5-c7be1a03ae98
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: fe1b953bf7d7204a3afffcfa0bc5aa5af9bf94fa
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 592684378b4264319d790b1e2e05eb9e0ae37f28
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106522404"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424329"
 ---
 # <a name="about-list-view-controls"></a>À propos des contrôles List-View
 
@@ -142,7 +142,7 @@ Les contrôles List-View avec le style [**LVS \_ OWNERDATA**](list-view-window-s
 
 
 
-|                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|      Notification                    |     Description                         |
 |-----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [LVN \_ GETDISPINFO](lvn-getdispinfo.md) | Un contrôle Virtual List-View gère très peu les informations sur les éléments. Par conséquent, il envoie souvent le code de notification [LVN \_ GETDISPINFO](lvn-getdispinfo.md) pour demander des informations sur l’élément. Ce message est traité à peu près de la même façon que les éléments de rappel dans un contrôle de liste standard. Étant donné que le nombre d’éléments pris en charge par le contrôle peut être très volumineux, la mise en cache des données d’élément améliore les performances. Lors de la gestion de LVN \_ GETDISPINFO, le propriétaire du contrôle tente d’abord de fournir les informations d’élément demandées à partir du cache (pour plus d’informations, consultez [gestion du cache](#cache-management)). Si l’élément demandé n’est pas mis en cache, le propriétaire doit être prêt à fournir les informations par d’autres moyens. |
 | [LVN \_ ODCACHEHINT](lvn-odcachehint.md) | Une vue de liste virtuelle envoie le code de notification [LVN \_ ODCACHEHINT](lvn-odcachehint.md) pour faciliter l’optimisation du cache. Le code de notification fournit des valeurs d’index inclusives pour une plage d’éléments qu’il est recommandé de mettre en cache. À la réception du code de notification, le propriétaire doit être prêt à charger le cache avec les informations relatives à l’élément pour la plage demandée afin que les informations soient immédiatement disponibles lorsqu’un message [LVN \_ GETDISPINFO](lvn-getdispinfo.md) est envoyé.                                                                                                                                                                                                                                   |
@@ -314,7 +314,7 @@ Une application peut récupérer et définir trois couleurs pour un contrôle d�
 
 
 
-| Couleur                   | Messages utilisés pour récupérer et définir des couleurs                                                             |
+| Color                   | Messages utilisés pour récupérer et définir des couleurs                                                             |
 |-------------------------|------------------------------------------------------------------------------------------------------|
 | Couleur du texte              | [**LVM \_ GETTEXTCOLOR**](lvm-gettextcolor.md), [ **LVM \_ SETTEXTCOLOR**](lvm-settextcolor.md)         |
 | Couleur d’arrière-plan du texte   | [**LVM \_ GETTEXTBKCOLOR**](lvm-gettextbkcolor.md), [ **LVM \_ SETTEXTBKCOLOR**](lvm-settextbkcolor.md) |

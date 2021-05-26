@@ -4,12 +4,12 @@ description: Cette section présente les contrôles RichEdit.
 ms.assetid: ab9dcdf4-a311-4159-8f37-e67e144f31f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d95f6dc1cc1f37bf604e6c0a891f92cd20bb7af6
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 742295358be32fa318334ceac7f89607adcbba12
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106512345"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423989"
 ---
 # <a name="about-rich-edit-controls"></a>À propos des contrôles RichEdit
 
@@ -49,7 +49,7 @@ Microsoft Rich Edit 1,0 comprend les fonctionnalités suivantes.
 
 
 
-|                                                                                    |                                                                                                                                                                                                                                                                                           |
+|    Fonctionnalité   | Description   |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Entrée et sélection de texte                                                           | La sélection et l’entrée de texte principalement standard (contrôle d’édition système). Prise en charge de la barre de sélection (la barre de sélection est une zone non marquée à gauche de chaque paragraphe qui, lorsque vous cliquez dessus, sélectionne la ligne). Options de sélection automatique de mot et de retour automatique à la ligne. Sélection simple, double et triple-clic. |
 | Modification du jeu de caractères codés sur un octet (SBCS) et du jeu de caractères multioctets (MBCS)) | Toutefois, il n’y a pas d’édition Unicode.                                                                                                                                                                                                                                                     |
@@ -82,7 +82,7 @@ Microsoft Rich Edit 2,0 comprend les fonctionnalités suivantes en plus des fonc
 
 
 
-|                                               |                                                                                                                                                                                                                                                                                                                                                                                      |
+|    Fonctionnalité                                           |    Description                                                                                                                                                                                                                                                                                                                                                                                  |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Unicode                                       | Unicode facilite le traitement du texte international. Toutefois, l’effort est nécessaire pour maintenir la compatibilité avec les documents non-Unicode existants, c’est-à-dire la possibilité de convertir vers ou à partir de texte brut et enrichi non-Unicode.                                                                                                                                                             |
 | Support international général                 | Algorithme de saut de ligne général (extension des règles Kinsoku), liaison de police simple, changement de police du clavier.                                                                                                                                                                                                                                                                          |
@@ -239,7 +239,7 @@ Microsoft Rich Edit 3,0 comprend les fonctionnalités suivantes en plus des fonc
 </tr>
 <tr class="odd">
 <td>Option de typographie avancée</td>
-<td>Microsoft Rich Edit 3,0 peut utiliser une option de typographie avancée pour l’affichage et le saut de ligne (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). Cette option élégante a été ajoutée principalement pour faciliter la gestion des scripts complexes (bidirectionnel, Indo-aryen et thaï). En outre, un certain nombre d’améliorations ont été apportées aux scripts simples. Voici quelques exemples :
+<td>Microsoft Rich Edit 3,0 peut utiliser une option de typographie avancée pour l’affichage et le saut de ligne (voir <a href="em-gettypographyoptions.md"><strong>EM_GETTYPOGRAPHYOPTIONS</strong></a>). Cette option élégante a été ajoutée principalement pour faciliter la gestion des scripts complexes (bidirectionnel, Indo-aryen et thaï). En outre, un certain nombre d’améliorations ont été apportées aux scripts simples. Voici quelques exemples :
 <ul>
 <li>Tabulations au centre, à droite, décimales</li>
 <li>Texte entièrement justifié</li>
@@ -419,7 +419,7 @@ Les contrôles RichEdit prennent en charge les touches de raccourci suivantes.
 
 
 
-| Keys                      | Opérations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
+| Keys                      | Operations                                                                                                                               | Commentaires                                                                                                                                                                                                                       |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Maj + Retour arrière           | Générer un LRM/LRM sur un clavier bidirectionnel                                                                                                    | Spécifique à BiDi                                                                                                                                                                                                                  |
 | Ctrl+Tab                  | Onglet                                                                                                                                      |                                                                                                                                                                                                                                |

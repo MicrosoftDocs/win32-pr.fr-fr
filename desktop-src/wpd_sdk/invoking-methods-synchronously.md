@@ -4,12 +4,12 @@ ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: Appel de méthodes de service
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b568ea169d0f3c6465d9879eb9eb01c0b46b526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15b9540cf7378e13d56af2611d6216897c6750f6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523323"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424199"
 ---
 # <a name="invoking-service-methods"></a>Appel de méthodes de service
 
@@ -17,9 +17,8 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 
 
-|                                                                        |                                                                                                                                                                         |
+| Interface    | Description    |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Interface                                                              | Description                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | Utilisé pour récupérer l’interface **IPortableDeviceServiceMethods** pour appeler des méthodes sur un service donné.                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods) | Utilisé pour appeler une méthode de service.                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | Utilisé pour contenir les paramètres de méthode sortants et les résultats de méthode entrante. La valeur peut être **null** si la méthode ne requiert pas de paramètres ou ne retourne aucun résultat. |

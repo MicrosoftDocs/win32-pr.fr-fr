@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f735c96e2d4b57e829d10901c1e24058ec0c94c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 146afd709d0805043603cfb3b14b1c1fc1838075
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535333"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424299"
 ---
 # <a name="iwmpmetadatatext-vb-and-c-interface"></a>Interface IWMPMetadataText (VB et C#)
 
@@ -43,9 +43,8 @@ Obtient une interface **IWMPMetadataText** en passant un nom d’attribut tel qu
 
 
 
-|                                        |                                                                                  |
-|----------------------------------------|----------------------------------------------------------------------------------|
 | Interface                              | Propriété                                                                         |
+|----------------------------------------|----------------------------------------------------------------------------------|
 | [IWMPMedia3](iwmpmedia3--vb-and-c.md) | [getItemInfoByType](wmplibiwmpmedia3-iwmpmedia3-getiteminfobytype--vb-and-c.md) |
 
 

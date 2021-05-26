@@ -4,12 +4,12 @@ description: Un contrôle Month Calendar implémente une interface utilisateur d
 ms.assetid: 81b8f233-272e-4043-92ff-5ff47b0610d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f61b0ffc291473b330469910d1dad0317668e1
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f21fba66f9fb71ad45f8853578821ad5f83da00e
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102417"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423749"
 ---
 # <a name="about-month-calendar-controls"></a>À propos des contrôles Month Calendar
 
@@ -31,7 +31,7 @@ La capture d’écran suivante montre un contrôle Month Calendar qui a été di
 > [!Note]  
 > L’apparence et le comportement du contrôle Month Calendar diffère légèrement sous les différentes versions de la bibliothèque Runtime. Cette rubrique se concentre sur le contrôle tel qu’il apparaît dans Windows Vista avec la version 6 de Comctl32.dll.
 
- 
+ 
 
 Le contrôle de l’illustration présente les fonctionnalités facultatives suivantes.
 
@@ -46,7 +46,7 @@ Le contrôle de l’illustration présente les fonctionnalités facultatives sui
 >
 > Le contrôle Month-Calendar est basé sur le calendrier grégorien, qui a été introduit dans 1753. Elle ne calcule pas les dates qui sont cohérentes avec le calendrier julien qui était utilisé avant 1753.
 
- 
+ 
 
 ### <a name="selecting-a-day"></a>Sélection d’un jour
 
@@ -56,7 +56,7 @@ Les commandes clavier suivantes peuvent également être utilisées pour déplac
 
 
 
-|                         |                                                                                                                                                                                                                                          |
+|    Commande      |    Description                    |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Flèche gauche (VK \_ gauche)   | Sélectionnez le jour précédent.                                                                                                                                                                                                                 |
 | Flèche droite (VK \_ Right) | Sélectionnez le jour suivant.                                                                                                                                                                                                                     |
@@ -73,7 +73,7 @@ Les commandes clavier suivantes peuvent également être utilisées pour déplac
 
 
 
- 
+ 
 
 Si un contrôle Month Calendar n’utilise pas le style [**MCS \_ notoday**](month-calendar-control-styles.md) , l’utilisateur peut retourner au jour actuel en cliquant sur le texte « Today » en bas du contrôle. Si le jour actuel n’est pas visible, le contrôle met à jour son affichage pour l’afficher.
 
@@ -101,7 +101,7 @@ Le contrôle Month Calendar n’affiche pas l’heure. Toutefois, la structure [
 
 
 
-|                                             |                                                                                                                                                                                                                            |
+|  Message         |  Description            |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MCM \_ SETCURSEL**](mcm-setcursel.md)     | Le contrôle copie les champs d’heure tels quels, sans validation ni modification.                                                                                                                                        |
 | [**MCM \_ SEtrange**](mcm-setrange.md)       | Les champs d’heure des structures passées sont validés. S’ils sont valides, les champs d’heure sont copiés sans modification. Si elles ne sont pas valides, le contrôle copie les champs d’heure à partir des données d’aujourd’hui.                  |
@@ -110,10 +110,10 @@ Le contrôle Month Calendar n’affiche pas l’heure. Toutefois, la structure [
 
 
 
- 
+ 
 
 Lorsqu’une date est récupérée à partir du contrôle, les champs d’heure sont copiés à partir des heures stockées sans modification. La gestion des champs d’heure par le contrôle est fournie à titre de commodité au programmeur. Le contrôle n’examine pas ou ne modifie pas les champs d’heure à la suite d’une opération autre que celles listées ci-dessus.
 
- 
+ 
 
- 
+ 

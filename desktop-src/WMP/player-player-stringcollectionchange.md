@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a29f72d7af0f73d74393d980b2506a3b7f05e578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6a61b8e1e09e749579f323d506371138b0d9b59
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523496"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424089"
 ---
 # <a name="playerstringcollectionchange-event"></a>Événement Player. StringCollectionChange
 
@@ -58,9 +58,8 @@ Nombre (long) indiquant le type de modification qui s’est produite dans la col
 
 
 
-|        |                                    |
-|--------|------------------------------------|
 | Number | Description                        |
+|--------|------------------------------------|
 | 0      | Inconnu. (Valeur non valide)       |
 | 1      | Un élément a été inséré.              |
 | 2      | La collection de chaînes a changé.     |
@@ -82,11 +81,11 @@ Nombre (long) contenant l’index de l’élément de collection de chaînes qui
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

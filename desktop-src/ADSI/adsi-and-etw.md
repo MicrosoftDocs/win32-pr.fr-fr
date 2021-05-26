@@ -7,12 +7,12 @@ keywords:
 - suivi d’événements (ADSI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f43c0d840cd1f3f70d293a0a4f5c299fd129efe
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 0b26aee00404f5cf97d228698f64fec804c28e62
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106510705"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423710"
 ---
 # <a name="event-tracing-in-adsi"></a>Suivi d’événements dans ADSI
 
@@ -36,19 +36,19 @@ ADSI tente de réutiliser les connexions LDAP en interne chaque fois que cela es
 
 Pour activer le suivi ADSI, créez la clé de Registre suivante :
 
-**HKEY \_ \_Ordinateur local** \\ **système** de \\ **CurrentControlSet** \\ **services** de CurrentControlSet \\  \\ **suivi** \\  ADSI
+**HKEY \_ \_Ordinateur local** \\ **système** de \\ **CurrentControlSet** \\ **services** de CurrentControlSet \\  \\ **suivi** \\ **** ADSI
 
 *ProcessName* est le nom complet du processus que vous souhaitez suivre, y compris son extension (par exemple, « Svchost.exe »). En outre, vous pouvez placer une valeur facultative de type **DWORD** nommée PID dans cette clé. Il est fortement recommandé de définir cette valeur et de tracer ainsi un seul processus particulier. Dans le cas contraire, toutes les instances de l’application spécifiées par *ProcessName* sont tracées.
 
 Exécutez ensuite la commande suivante :
 
-**tracelog.exe-Start** *nom_session*  * *-GUID \# * * * \_ GUID du fournisseur* **-f** *NomFichier* **-indicateur** *traceFlags* **-Level** *TraceLevel*
+**tracelog.exe-Start** *nom_session* **-GUID \#** _Provider \_ GUID_ **-f** *nom* **-indicateur** *traceFlags* **-Level** *TraceLevel*
 
 *NomSession* est simplement un identificateur arbitraire utilisé pour étiqueter la session de suivi (vous devrez faire référence à ce nom de session ultérieurement lorsque vous arrêtez la session de suivi). Le GUID du fournisseur de suivi ADSI est « 7288c9f8-D63C-4932-A345-89d6b060174d ». *filename* spécifie le fichier journal dans lequel les événements seront écrits. *traceFlags* doit avoir l’une des valeurs suivantes :
 
 
 
-|                                 |                       |
+|         Indicateur                        |         Valeur              |
 |---------------------------------|-----------------------|
 | **schéma de débogage \_**<br/>    | 0x00000001<br/> |
 | **CHANGEPWD de débogage \_**<br/> | 0x00000002<br/> |
@@ -139,7 +139,7 @@ Enfin, l’indicateur *TraceLevel* doit avoir l’une des valeurs suivantes :
 
 
 
-|                                          |                       |
+|      Indicateur                                    |       Valeur                |
 |------------------------------------------|-----------------------|
 | **\_erreur au niveau de la trace \_**<br/>       | 0x00000002<br/> |
 | **\_informations sur le niveau de suivi \_**<br/> | 0x00000004<br/> |
@@ -156,7 +156,7 @@ Pour terminer le suivi, exécutez la commande suivante :
 
 Dans l’exemple précédent, *NomSession* est le même nom que celui fourni avec la commande qui a démarré la section de suivi.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est plus efficace de suivre uniquement des processus spécifiques en spécifiant un PID particulier pour suivre tous les processus sur un ordinateur. Si vous avez besoin d’effectuer le suivi de plusieurs applications sur le même ordinateur, il peut y avoir un impact sur les performances. Il y a une sortie de débogage substantielle dans les sections orientées performance du code. En outre, les administrateurs doivent veiller à définir correctement les autorisations des fichiers journaux lors du suivi de plusieurs processus. dans le cas contraire, n’importe quel utilisateur peut être en mesure de lire les journaux de suivi, et les autres utilisateurs pourront suivre les processus qui contiennent des informations sécurisées.
 

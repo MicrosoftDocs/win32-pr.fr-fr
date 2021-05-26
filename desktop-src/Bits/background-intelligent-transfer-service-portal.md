@@ -11,12 +11,12 @@ keywords:
 - Téléchargement des fichiers BITS
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: a531821665490735b391ab2714f5b37146c6bc1e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941238"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424209"
 ---
 # <a name="background-intelligent-transfer-service"></a>Service de transfert intelligent en arrière-plan (BITS)
 
@@ -67,7 +67,7 @@ Pour obtenir l’historique des versions et des informations sur les systèmes d
 Vous trouverez ci-dessous des ressources supplémentaires.
 
 
-|             |                                                                                                                                                 |
+|    Ressource         |    Description                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | DLL de référence .NET   | Pour plus d’informations sur l’utilisation de BITS à partir de .NET à l’aide de dll de référence, consultez [appel de bits à partir de .net avec des dll de référence](/windows/desktop/Bits/bits-dot-net)      |
 | Wrapper .NET   | Pour les autres wrappers .NET pour BITS, vous pouvez rechercher [NuGet](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) pour les projets marqués avec la balise bits.        |

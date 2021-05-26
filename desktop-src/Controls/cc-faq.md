@@ -4,12 +4,12 @@ description: Ce Forum aux questions fournit des réponses à certaines questions
 ms.assetid: 4a0f7576-6c43-46cc-ae60-5b8e7e8f6483
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c88c46cf053221f9fe8c7bbb7a47b28d0bce97
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf91c5af5651d3ed8863596c4b1ad7c72a410ec3
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839513"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423969"
 ---
 # <a name="common-controls-faq"></a>FAQ sur les contrôles communs
 
@@ -17,7 +17,7 @@ Ce Forum aux questions fournit des réponses à certaines questions courantes su
 
 
 
-|                                                                                                                                                                                                            |                                                                                                                                                                               |
+|  Question                                                                                                                                                                                                          |       Informations de référence                                                                                                                                                                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Comment faire créer un Assistant ?                                                                                                                                                                                  | Consultez [création d’assistants](wizards.md).                                                                                                                                          |
 | Quand vous maintenez le pointeur de la souris sur un nom de dossier partiellement masqué dans l’arborescence de l’Explorateur Windows, une info-bulle s’affiche pour afficher le nom entier. Comment faire créer une de ces info-bulles sur place ? | Consultez [implémentation d' In-Place info-bulles](using-tooltip-contro.md) dans [à l’aide de contrôles ToolTip](using-tooltip-contro.md).                                  |
@@ -29,7 +29,7 @@ Ce Forum aux questions fournit des réponses à certaines questions courantes su
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -38,9 +38,9 @@ Ce Forum aux questions fournit des réponses à certaines questions courantes su
 [À propos des contrôles communs](common-controls-intro.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

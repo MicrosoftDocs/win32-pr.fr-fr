@@ -4,12 +4,12 @@ ms.assetid: 783a6552-9b22-4af4-9252-b443e2624687
 title: Récupération des méthodes de service prises en charge
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6029af655a8835a4eee887d919c534856062ff13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b021aa868ffaa95df23a729e94d62eae8a0c632e
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866502"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423799"
 ---
 # <a name="retrieving-supported-service-methods"></a>Récupération des méthodes de service prises en charge
 
@@ -25,9 +25,8 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 
 
-|                                                                                      |                                                                                                                |
+| Interface      | Description         |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                                    |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Utilisé pour récupérer l’interface **IPortableDeviceServiceCapabilities** pour accéder aux méthodes de service prises en charge. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Fournit l’accès aux méthodes prises en charge, aux attributs de méthode et aux paramètres de méthode.                             |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contient la liste des méthodes prises en charge.                                                                        |

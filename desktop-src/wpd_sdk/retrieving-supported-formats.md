@@ -4,12 +4,12 @@ ms.assetid: b54dfeda-c2a3-42ec-895f-9abbbd4dd2ec
 title: Récupération des formats de service pris en charge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ed8021d8feefaaad3da7905e17e8c658dfb19e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73618f3450255ad470545ac472ad9f71238621e3
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521926"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423810"
 ---
 # <a name="retrieving-supported-service-formats"></a>Récupération des formats de service pris en charge
 
@@ -17,9 +17,8 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 
 
-|                                                                                      |                                                                                                       |
+| Interface | Description   |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| Interface                                                                            | Description                                                                                           |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | Utilisé pour récupérer l’interface **IPortableDeviceServiceCapabilities** pour accéder aux événements pris en charge. |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | Fournit l’accès aux événements et attributs d’événement pris en charge.                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | Contient la liste des formats pris en charge.                                                               |

@@ -4,12 +4,12 @@ ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: Énumération du contenu du service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04adb949fdec9a0001583b1481ccd50ada1ef1df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2b701bdab867e96bc9658e2624ea18aa65dfc33
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201377"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424249"
 ---
 # <a name="enumerating-service-content"></a>Énumération du contenu du service
 
@@ -17,9 +17,8 @@ Une fois que votre application a ouvert un service, elle peut commencer à effec
 
 
 
-|                                                                      |                                                                                                  |
-|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | Interface                                                            | Description                                                                                      |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | Utilisé pour récupérer l’interface IPortableDeviceContent2 pour accéder au contenu sur le service.         |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | Utilisé pour récupérer l’interface IEnumPortableDeviceObjectIDs pour énumérer des objets sur le service. |
 | [**IEnumPortableDeviceObjectIDs**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | Utilisé pour énumérer des objets sur le service.                                                        |
