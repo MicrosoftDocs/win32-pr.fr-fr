@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 224fbacdb8816a6aed6a7779c5c8ff991736ee6c
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 3b993ca1c027119ae64157db2327a2836445bf43
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804446"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550204"
 ---
 # <a name="dml_element_wise_clip_grad_operator_desc-directmlh"></a>DML_ELEMENT_WISE_CLIP_GRAD_OPERATOR_DESC (directml. h)
 
@@ -100,13 +100,13 @@ Tenseur de sortie contenant les dégradés de la page. En général, ce tenseur 
 
 `Min`
 
-Type : **[float](/windows/win32/winprog/windows-data-types)**
+Type : **[float](../../winprog/windows-data-types.md)**
 
 Valeur minimale. Si x est égal ou inférieur à cette valeur, le résultat du dégradé est 0.
 
 `Max`
 
-Type : **[float](/windows/win32/winprog/windows-data-types)**
+Type : **[float](../../winprog/windows-data-types.md)**
 
 Valeur maximale. Si x est au niveau ou au-dessus de cette valeur, le résultat du dégradé est 0.
 

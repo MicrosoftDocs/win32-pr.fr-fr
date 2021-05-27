@@ -1672,7 +1672,7 @@
                   items:
                     - name: 'ID3D12VideoProcessor1::GetProtectedResourceSession'
                       href: /windows/desktop/api/d3d12video/nf-d3d12video-id3d12videoprocessor-getoutputstreamdes/nf-d3d12video-id3d12videoprocessor1-getprotectedresourcesession
-            - name: Structures vidéo Direct3D 12
+            - name: "Structures vidéo Direct3D\_12"
               href: direct3d-12-video-structures.md
               items:
                 - name: D3D12_FEATURE_DATA_VIDEO_DECODE_CONVERSION_SUPPORT
@@ -2539,6 +2539,8 @@
                   href: mf-capture-engine-use-audio-device-only.md
                 - name: Attribut MF_CAPTURE_ENGINE_USE_VIDEO_DEVICE_ONLY
                   href: mf-capture-engine-use-video-device-only.md
+                - name: MF_CAPTURE_METADATA_DIGITALWINDOW
+                  href: mf-capture-metadata-digitalwindow.md
                 - name: MF_CAPTURE_METADATA_FRAME_ILLUMINATION
                   href: mf-capture-metadata-frame-illumination.md
                 - name: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH
@@ -5103,7 +5105,7 @@
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread
                 - name: BeginWrite
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite
-                - name: Fermer
+                - name: fermez
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-close
                 - name: EndRead
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-endread
@@ -5998,7 +6000,7 @@
               items:
                 - name: ClearTopologies
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies
-                - name: Fermer
+                - name: fermez
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-close
                 - name: GetClock
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock
@@ -8524,6 +8526,8 @@
               href: /windows/win32/api/wmcontainer/ns-wmcontainer-asf_index_identifier
             - name: ASF_MUX_STATISTICS
               href: /windows/desktop/api/wmcontainer/ns-wmcontainer-asf_mux_statistics
+            - name: DigitalWindowSetting
+              href: /windows/desktop/api/mfapi/ns-mfapi-digitalwindowsetting
             - name: DEVICE_INFO
               href: /windows/desktop/api/mfsharingengine/ns-mfsharingengine-device_info
             - name: DXVA_PicEntry_HEVC

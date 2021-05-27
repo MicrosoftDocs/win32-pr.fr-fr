@@ -39,19 +39,19 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2.GetBitmapData
-ms.openlocfilehash: f84959338550722d9ce1d2d7097d652fcb140f1f
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 15a51fdea0d7e579e427ab52af3016e58a39831a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955042"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550284"
 ---
 # <a name="idwritebitmaprendertarget2getbitmapdata-method-dwrite_3h"></a>IDWriteBitmapRenderTarget2 :: GetBitmapData, méthode (dwrite_3. h)
 
 Récupère les données de pixels d’une cible de rendu bitmap.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview).
+> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](../dwritecore-overview.md).
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -77,9 +77,9 @@ Si cette méthode est réussie, elle retourne <b xmlns:loc="http://microsoft.com
 
 ## <a name="examples"></a>Exemples
 
-Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+Consultez la rubrique [vue d’ensemble de DWriteCore](../dwritecore-overview.md) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |

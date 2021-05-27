@@ -39,19 +39,19 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2
-ms.openlocfilehash: 482aff4e2b9fbf03a89a15a7e38cc07d7542362b
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 346b2e9c7510010abb50f421489b67f7d327512f
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955032"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548944"
 ---
 # <a name="idwritebitmaprendertarget2-interface-dwrite_3h"></a>Interface IDWriteBitmapRenderTarget2 (dwrite_3. h)
 
 Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, qui peut être utilisé pour le rendu des glyphes.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview).
+> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](../dwritecore-overview.md).
 
 ## <a name="inheritance"></a>Héritage
 
@@ -65,7 +65,7 @@ L’interface **IDWriteBitmapRenderTarget2** possède ces méthodes.
 | ---- |:---- |
 | [IDWriteBitmapRenderTarget2::GetBitmapData](./nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md) | Récupère les données de pixels d’une cible de rendu bitmap. |
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |

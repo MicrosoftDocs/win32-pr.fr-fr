@@ -16,12 +16,12 @@ keywords:
 - propriétaire afficher les formats du presse-papiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94757a95fb8c40152a0018d04cef64e8efae624
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ebe22a16886c62824775b5f2d8174e2a8e244b9e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316103"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549584"
 ---
 # <a name="about-the-clipboard"></a>À propos du presse-papiers
 
@@ -49,16 +49,16 @@ Un utilisateur effectue généralement des opérations de presse-papiers en choi
 
 
 
-|            |                                                                                                                                                                                                                   |
+|  Commande        |  Description                                                                                                                                                                                                                 |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Couper**    | Place une copie de la sélection actuelle dans le presse-papiers et supprime la sélection du document. Le contenu précédent du presse-papiers est détruit.                                                          |
-| **Copier**   | Place une copie de la sélection actuelle dans le presse-papiers. Le document reste inchangé. Le contenu précédent du presse-papiers est détruit.                                                                      |
+| **Copy**   | Place une copie de la sélection actuelle dans le presse-papiers. Le document reste inchangé. Le contenu précédent du presse-papiers est détruit.                                                                      |
 | **Coller**  | Remplace la sélection actuelle par le contenu du presse-papiers. Le contenu du presse-papiers n’est pas modifié.                                                                                                    |
 | **Supprimer** | Supprime la sélection actuelle du document. Le contenu du presse-papiers n’est pas modifié. Cette commande n’implique pas le presse-papiers, mais elle doit apparaître avec les commandes du presse-papiers dans le menu **Edition** . |
 
 
 
- 
+ 
 
 ## <a name="clipboard-sequence-number"></a>Numéro de séquence du presse-papiers
 
@@ -107,6 +107,6 @@ En utilisant le format d’affichage propriétaire, un propriétaire de presse-p
 [Formats de presse-papiers standard](standard-clipboard-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
