@@ -39,21 +39,21 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2.GetBitmapData
-ms.openlocfilehash: f84959338550722d9ce1d2d7097d652fcb140f1f
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 15a51fdea0d7e579e427ab52af3016e58a39831a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955042"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550284"
 ---
-# <a name="idwritebitmaprendertarget2getbitmapdata-method-dwrite_3h"></a><span data-ttu-id="042e1-103">IDWriteBitmapRenderTarget2 :: GetBitmapData, méthode (dwrite_3. h)</span><span class="sxs-lookup"><span data-stu-id="042e1-103">IDWriteBitmapRenderTarget2::GetBitmapData method (dwrite_3.h)</span></span>
+# <a name="idwritebitmaprendertarget2getbitmapdata-method-dwrite_3h"></a><span data-ttu-id="afc96-103">IDWriteBitmapRenderTarget2 :: GetBitmapData, méthode (dwrite_3. h)</span><span class="sxs-lookup"><span data-stu-id="afc96-103">IDWriteBitmapRenderTarget2::GetBitmapData method (dwrite_3.h)</span></span>
 
-<span data-ttu-id="042e1-104">Récupère les données de pixels d’une cible de rendu bitmap.</span><span class="sxs-lookup"><span data-stu-id="042e1-104">Retrieves the pixel data from a bitmap render target.</span></span>
+<span data-ttu-id="afc96-104">Récupère les données de pixels d’une cible de rendu bitmap.</span><span class="sxs-lookup"><span data-stu-id="afc96-104">Retrieves the pixel data from a bitmap render target.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="042e1-105">Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md).</span><span class="sxs-lookup"><span data-stu-id="042e1-105">This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md).</span></span> <span data-ttu-id="042e1-106">DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes.</span><span class="sxs-lookup"><span data-stu-id="042e1-106">DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform.</span></span> <span data-ttu-id="042e1-107">Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview).</span><span class="sxs-lookup"><span data-stu-id="042e1-107">For more info, and code examples, see [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview).</span></span>
+> <span data-ttu-id="afc96-105">Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md).</span><span class="sxs-lookup"><span data-stu-id="afc96-105">This API is available as part of the DWriteCore implementation of [DirectWrite](../direct-write-portal.md).</span></span> <span data-ttu-id="afc96-106">DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes.</span><span class="sxs-lookup"><span data-stu-id="afc96-106">DWriteCore is a form of DirectWrite that runs on versions of Windows down to Windows 8, and opens the door for you to use it cross-platform.</span></span> <span data-ttu-id="afc96-107">Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](../dwritecore-overview.md).</span><span class="sxs-lookup"><span data-stu-id="afc96-107">For more info, and code examples, see [DWriteCore overview](../dwritecore-overview.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="042e1-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="042e1-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="afc96-108">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="afc96-108">Syntax</span></span>
 
 ```cpp
 HRESULT GetBitmapData(
@@ -61,32 +61,32 @@ HRESULT GetBitmapData(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="042e1-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="042e1-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="afc96-109">Paramètres</span><span class="sxs-lookup"><span data-stu-id="afc96-109">Parameters</span></span>
 
 `bitmapData`
 
-<span data-ttu-id="042e1-110">Type : \_ out \_ **[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***</span><span class="sxs-lookup"><span data-stu-id="042e1-110">Type: \_Out\_**[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***</span></span>
+<span data-ttu-id="afc96-110">Type : \_ out \_ **[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***</span><span class="sxs-lookup"><span data-stu-id="afc96-110">Type: \_Out\_**[DWRITE_BITMAP_DATA_BGRA32](./ns-dwrite_3-dwrite_bitmap_data_bgra32.md)\***</span></span>
 
-<span data-ttu-id="042e1-111">Pointeur vers les données de pixels.</span><span class="sxs-lookup"><span data-stu-id="042e1-111">A pointer to the pixel data.</span></span>
+<span data-ttu-id="afc96-111">Pointeur vers les données de pixels.</span><span class="sxs-lookup"><span data-stu-id="afc96-111">A pointer to the pixel data.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="042e1-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="042e1-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="afc96-112">Valeur renvoyée</span><span class="sxs-lookup"><span data-stu-id="afc96-112">Return value</span></span>
 
-<span data-ttu-id="042e1-113">Type : <b>HRESULT</b></span><span class="sxs-lookup"><span data-stu-id="042e1-113">Type: <b>HRESULT</b></span></span>
+<span data-ttu-id="afc96-113">Type : <b>HRESULT</b></span><span class="sxs-lookup"><span data-stu-id="afc96-113">Type: <b>HRESULT</b></span></span>
 
-<span data-ttu-id="042e1-114">Si cette méthode est réussie, elle retourne <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>.</span><span class="sxs-lookup"><span data-stu-id="042e1-114">If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>.</span></span> <span data-ttu-id="042e1-115">Sinon, elle retourne un code d’erreur <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> .</span><span class="sxs-lookup"><span data-stu-id="042e1-115">Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.</span></span>
+<span data-ttu-id="afc96-114">Si cette méthode est réussie, elle retourne <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>.</span><span class="sxs-lookup"><span data-stu-id="afc96-114">If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>.</span></span> <span data-ttu-id="afc96-115">Sinon, elle retourne un code d’erreur <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> .</span><span class="sxs-lookup"><span data-stu-id="afc96-115">Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="042e1-116">Exemples</span><span class="sxs-lookup"><span data-stu-id="042e1-116">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="afc96-116">Exemples</span><span class="sxs-lookup"><span data-stu-id="afc96-116">Examples</span></span>
 
-<span data-ttu-id="042e1-117">Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .</span><span class="sxs-lookup"><span data-stu-id="042e1-117">See the [DWriteCore overview](/windows/win32/directwrite/dwritecore-overview) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.</span></span>
+<span data-ttu-id="afc96-117">Consultez la rubrique [vue d’ensemble de DWriteCore](../dwritecore-overview.md) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .</span><span class="sxs-lookup"><span data-stu-id="afc96-117">See the [DWriteCore overview](../dwritecore-overview.md) topic, and the [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) sample app.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="042e1-118">Configuration requise</span><span class="sxs-lookup"><span data-stu-id="042e1-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="afc96-118">Spécifications</span><span class="sxs-lookup"><span data-stu-id="afc96-118">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="042e1-119">**Client minimal pris en charge**</span><span class="sxs-lookup"><span data-stu-id="042e1-119">**Minimum supported client**</span></span> | <span data-ttu-id="042e1-120">Windows 10, réunion de projet (applications Win32)</span><span class="sxs-lookup"><span data-stu-id="042e1-120">Windows 10, Project Reunion [Win32 apps]</span></span> |
-| <span data-ttu-id="042e1-121">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="042e1-121">**Header**</span></span> | <span data-ttu-id="042e1-122">dwrite_3. h (inclure dwrite_core. h)</span><span class="sxs-lookup"><span data-stu-id="042e1-122">dwrite_3.h (include dwrite_core.h)</span></span> |
-| <span data-ttu-id="042e1-123">**Bibliothèque**</span><span class="sxs-lookup"><span data-stu-id="042e1-123">**Library**</span></span> | <span data-ttu-id="042e1-124">DWrite. lib</span><span class="sxs-lookup"><span data-stu-id="042e1-124">Dwrite.lib</span></span> |
-| <span data-ttu-id="042e1-125">**DLL**</span><span class="sxs-lookup"><span data-stu-id="042e1-125">**DLL**</span></span> | <span data-ttu-id="042e1-126">Dwrite.dll</span><span class="sxs-lookup"><span data-stu-id="042e1-126">Dwrite.dll</span></span> |
+| <span data-ttu-id="afc96-119">**Client minimal pris en charge**</span><span class="sxs-lookup"><span data-stu-id="afc96-119">**Minimum supported client**</span></span> | <span data-ttu-id="afc96-120">Windows 10, réunion de projet (applications Win32)</span><span class="sxs-lookup"><span data-stu-id="afc96-120">Windows 10, Project Reunion [Win32 apps]</span></span> |
+| <span data-ttu-id="afc96-121">**En-tête**</span><span class="sxs-lookup"><span data-stu-id="afc96-121">**Header**</span></span> | <span data-ttu-id="afc96-122">dwrite_3. h (inclure dwrite_core. h)</span><span class="sxs-lookup"><span data-stu-id="afc96-122">dwrite_3.h (include dwrite_core.h)</span></span> |
+| <span data-ttu-id="afc96-123">**Bibliothèque**</span><span class="sxs-lookup"><span data-stu-id="afc96-123">**Library**</span></span> | <span data-ttu-id="afc96-124">DWrite. lib</span><span class="sxs-lookup"><span data-stu-id="afc96-124">Dwrite.lib</span></span> |
+| <span data-ttu-id="afc96-125">**DLL**</span><span class="sxs-lookup"><span data-stu-id="afc96-125">**DLL**</span></span> | <span data-ttu-id="afc96-126">Dwrite.dll</span><span class="sxs-lookup"><span data-stu-id="afc96-126">Dwrite.dll</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="042e1-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="042e1-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="afc96-127">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="afc96-127">See also</span></span>
 
-[<span data-ttu-id="042e1-128">IDWriteBitmapRenderTarget2</span><span class="sxs-lookup"><span data-stu-id="042e1-128">IDWriteBitmapRenderTarget2</span></span>](/windows/win32/api/dwrite_1/nn-dwrite_3-idwritebitmaprendertarget2)
+[<span data-ttu-id="afc96-128">IDWriteBitmapRenderTarget2</span><span class="sxs-lookup"><span data-stu-id="afc96-128">IDWriteBitmapRenderTarget2</span></span>](/windows/win32/api/dwrite_1/nn-dwrite_3-idwritebitmaprendertarget2)
