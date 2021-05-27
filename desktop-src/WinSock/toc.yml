@@ -594,6 +594,12 @@
               href: winsock-tracing-event-details.md
             - name: Détails du suivi de modification du catalogue Winsock
               href: winsock-layered-service-provider-tracing-event-details.md
+        - name: Horodatage Winsock
+          href: winsock-timestamping.md
+        - name: Notification de congestion explicite Winsock
+          href: winsock-ecn.md
+        - name: Notifications de l’état du socket Winsock
+          href: winsock-socket-state-notifications.md
     - name: Informations de référence sur Winsock
       href: winsock-reference.md
       items:
