@@ -4,12 +4,12 @@ ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: Vue d’ensemble de l’encodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be46aa73082071deb69fdd402f42866b18ef0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f938e184dee7fd9b3e5348365550615ee28de70d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210286"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549484"
 ---
 # <a name="encoding-overview"></a>Vue d’ensemble de l’encodage
 
@@ -121,8 +121,8 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride**_/;
-    UINT cbBufferSize = uiHeight _ cbStride;
+    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride***/;
+    UINT cbBufferSize = uiHeight * cbStride;
 
     BYTE *pbBuffer = new BYTE[cbBufferSize];
 
@@ -175,7 +175,7 @@ return hr;
 
 ## <a name="encoder-options-usage"></a>Utilisation des options d’encodeur
 
-Différents encodeurs pour différents formats doivent exposer des options différentes pour la façon dont une image est encodée. Le composant WIC (Windows Imaging Component) fournit un mécanisme cohérent pour exprimer si des options d’encodage sont requises tout en permettant aux applications de travailler avec plusieurs encodeurs sans avoir besoin de connaître un format particulier. Pour ce faire, vous devez fournir un paramètre [IPropertyBag](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) sur la méthode [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) et la méthode [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) .
+Différents encodeurs pour différents formats doivent exposer des options différentes pour la façon dont une image est encodée. Le composant WIC (Windows Imaging Component) fournit un mécanisme cohérent pour exprimer si des options d’encodage sont requises tout en permettant aux applications de travailler avec plusieurs encodeurs sans avoir besoin de connaître un format particulier. Pour ce faire, vous devez fournir un paramètre [IPropertyBag](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) sur la méthode [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe) et la méthode [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize) .
 
 La fabrique de composants fournit un point de création facile pour créer un jeu de propriétés d’options d’encodeur. Les codecs peuvent utiliser ce service s’ils ont besoin de fournir un ensemble simple, intuitif et non conflictuel d’options d’encodeur. Le jeu de propriétés d’acquisition d’images doit être initialisé lors de la création avec toutes les options de codeur pertinentes pour ce codec. Pour les options d’encodeur de l’ensemble canonique, la plage de valeurs sera appliquée lors de l’écriture. Pour les besoins plus avancés, les codecs doivent écrire leur propre implémentation de conteneur de propriétés.
 

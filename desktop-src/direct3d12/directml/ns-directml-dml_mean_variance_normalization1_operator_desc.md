@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC
-ms.openlocfilehash: 759bf25d4b6a97e70c6de7708a5c9fd0bccae439
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ae22b004f1e879eb020ddcfe39a5f26481a508b0
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803399"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549775"
 ---
 # <a name="dml_mean_variance_normalization1_operator_desc-structure-directmlh"></a>Structure DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC (directml. h)
 
@@ -123,7 +123,7 @@ Nombre d’axes. Ce champ détermine la taille du tableau *axes* .
 
 `Axes`
 
-Type : \_ \_ taille \_ de champ (AxisCount) **const [uint](/windows/win32/winprog/windows-data-types) \*** 
+Type : \_ \_ taille \_ de champ (AxisCount) **const [uint](../../winprog/windows-data-types.md) \*** 
 
 Axes sur lesquels calculer la moyenne et la variance.
 
@@ -145,7 +145,7 @@ Type : \_ MAYBENULL \_ **const [DML_OPERATOR_DESC](/windows/win32/api/directml/
 
 Couche d’activation fusionnée facultative à appliquer après la normalisation.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 **DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC** est un sur-ensemble de fonctionnalités de [DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_mean_variance_normalization_operator_desc). Ici, la définition du tableau **axes** sur `{ 0, 2, 3 }` est l’équivalent de la définition de *CrossChannel* sur **false** dans **DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC**; la définition du tableau **axes** sur équivaut à `{ 1, 2, 3 }` définir *CrossChannel* sur **true**.
 
 ## <a name="availability"></a>Disponibilité

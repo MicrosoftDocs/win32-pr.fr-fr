@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c0f2f41017373d9064da8f1024066f131063d9d
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 21f1a5a7a1830ceeb2c3671b0dfb538ad89e0a58
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590876"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548654"
 ---
 # <a name="cdm_hidecontrol-message"></a>\_Message CDM HIDECONTROL
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Masque le contrôle spécifié dans une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur. La boîte de dialogue doit avoir été créée avec l’indicateur **OFN \_ Explorer** ; sinon, le message échoue.
 
@@ -82,7 +82,7 @@ void CommDlg_OpenSave_HideControl(hwnd, wparam);
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
@@ -94,11 +94,9 @@ void CommDlg_OpenSave_HideControl(hwnd, wparam);
 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

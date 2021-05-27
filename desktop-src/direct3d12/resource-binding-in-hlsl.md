@@ -5,12 +5,12 @@ ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 01039550f07de57fb7b2f1e815bced02e549c741
-ms.sourcegitcommit: 60120d10c957815d79af566c72e5f4bcfaca4025
+ms.openlocfilehash: 711ccdee71ff916445be68d03b84b7621aa04cf3
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104837487"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550384"
 ---
 # <a name="resource-binding-in-hlsl"></a>Liaison de ressources en HLSL
 
@@ -139,7 +139,7 @@ Pour obtenir la disposition **abcabcabc....** Memory, utilisez une table de desc
 
 ## <a name="resource-aliasing"></a>Alias des ressources
 
-Les plages de ressources spécifiées dans les nuanceurs HLSL sont des plages logiques. Elles sont liées à des plages de tas concrètes au moment de l’exécution via le mécanisme de signature racine. Normalement, une plage logique est mappée à une plage de tas qui ne se chevauche pas avec d’autres plages de tas. Toutefois, le mécanisme de signature racine permet d’effectuer un alias (chevauchement) des plages de tas de types compatibles. Par exemple, `tex2` les `tex3` plages de l’exemple ci-dessus peuvent être mappées à la même plage de tas (ou chevauchement), ce qui a pour effet d’affecter des textures à des textures dans le programme HLSL. Si de tels alias sont souhaités, le nuanceur doit être compilé avec les \_ ressources de nuanceur D3D10 peuvent être définies à l' \_ \_ \_ aide de l’option d' *\_ \_ alias/res peut* être définie pour l' [outil Effect-compiler Tool](/windows/win32/direct3dtools/fxc) (fxc). L’option permet au compilateur de générer un code correct en empêchant certaines optimisations de charge/stockage en supposant que les ressources peuvent créer un alias.
+Les plages de ressources spécifiées dans les nuanceurs HLSL sont des plages logiques. Elles sont liées à des plages de tas concrètes au moment de l’exécution via le mécanisme de signature racine. Normalement, une plage logique est mappée à une plage de tas qui ne se chevauche pas avec d’autres plages de tas. Toutefois, le mécanisme de signature racine permet d’effectuer un alias (chevauchement) des plages de tas de types compatibles. Par exemple, `tex2` les `tex3` plages de l’exemple ci-dessus peuvent être mappées à la même plage de tas (ou chevauchement), ce qui a pour effet d’affecter des textures à des textures dans le programme HLSL. Si de tels alias sont souhaités, le nuanceur doit être compilé avec les \_ ressources de nuanceur D3D10 peuvent être définies à l' \_ \_ \_ aide de l’option d' *\_ \_ alias/res peut* être définie pour l' [outil Effect-compiler Tool](../direct3dtools/fxc.md) (fxc). L’option permet au compilateur de générer un code correct en empêchant certaines optimisations de charge/stockage en supposant que les ressources peuvent créer un alias.
 
 ## <a name="divergence-and-derivatives"></a>Divergence et dérivées
 
@@ -316,11 +316,11 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 ## <a name="related-topics"></a>Rubriques connexes
 
 * [Indexation dynamique à l’aide de HLSL 5.1](dynamic-indexing-using-hlsl-5-1.md)
-* [Effect-Tool du compilateur](/windows/win32/direct3dtools/fxc)
-* [Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
-* [Affichages ordonnés du rastériseur](rasterizer-order-views.md)
+* [Effect-Tool du compilateur](../direct3dtools/fxc.md)
+* [Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](../direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12.md)
+* [Affichage ordonné du rastériseur](rasterizer-order-views.md)
 * [Liaison de ressource](resource-binding.md)
-* [Signatures racines](root-signatures.md)
-* [Modèle de nuanceur 5,1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [Signatures racine](root-signatures.md)
+* [Modèle de nuanceur 5,1](../direct3dhlsl/shader-model-5-1.md)
 * [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md)
-* [Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+* [Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)

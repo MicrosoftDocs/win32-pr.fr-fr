@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ARGMAX_OPERATOR_DESC
-ms.openlocfilehash: 0c466975ad3b88973f50bc06676f2197267c56a7
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 4c2852c3d301a12d318c5e3006b26830c6eaa6e1
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803550"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550494"
 ---
 # <a name="dml_argmax_operator_desc-structure-directmlh"></a>Structure DML_ARGMAX_OPERATOR_DESC (directml. h)
 
@@ -92,13 +92,13 @@ Tenseur dans lequel écrire les résultats. Chaque élément de sortie est le r�
 
 `AxisCount`
 
-Type : **[uint](/windows/win32/winprog/windows-data-types)**
+Type : **[uint](../../winprog/windows-data-types.md)**
 
 Nombre d’axes à réduire. Ce champ détermine la taille du tableau *axes* .
 
 `Axes`
 
-Type : \_ Field_size \_ (AxisCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (AxisCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Axes avec lesquels réduire. Les valeurs doivent être comprises dans la plage `[0, InputTensor.DimensionCount - 1]` .
 
@@ -155,7 +155,7 @@ OutputTensor: (Sizes:{1, 1}, DataType:UINT32)
 [[7]]  // argmin({1, 2, 3, 3, 0, 4, 2, 5, 2})
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 Les tailles de tenseur de sortie doivent être les mêmes que les tailles de tenseur d’entrée, à l’exception des axes réduits, qui doivent être 1.
 
 Quand *AxisDirection* est [DML_AXIS_DIRECTION_INCREASING](/windows/win32/api/directml/ne-directml-dml_axis_direction), cette API est équivalente à [DML_REDUCE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_reduce_operator_desc) avec [DML_REDUCE_FUNCTION_ARGMAX](/windows/win32/api/directml/ne-directml-dml_reduce_function).

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e461d5b10f01f61de3fcfd721c4a6b1350c7d68
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: 5e424b4e5fd1c97f5aec01571d887b54dbb143b7
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222847"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549894"
 ---
 # <a name="xmuint4-structure"></a>XMUINT4, structure
 
@@ -78,12 +78,12 @@ composant w du vecteur.
 
 ## <a name="remarks"></a>Remarques
 
-Cette structure est définie dans l' ``D3DX\_DXGIFormatConvert.inl`` en-tête dans le kit de développement logiciel (SDK) DirectX (juin 2010) pour une utilisation à partir de C++. La dernière version de cet en-tête dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) ne le définit plus et s’appuie sur [DirectX :: XMUINT4](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmuint4) dans DirectXMath à la place.
+Cette structure est définie dans l' ``D3DX\_DXGIFormatConvert.inl`` en-tête dans le kit de développement logiciel (SDK) DirectX (juin 2010) pour une utilisation à partir de C++. La dernière version de cet en-tête dans le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) ne le définit plus et s’appuie sur [DirectX :: XMUINT4](/windows/win32/api/directxmath/ns-directxmath-xmuint4) dans DirectXMath à la place.
 
 
 
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

@@ -68,12 +68,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28c21732a102b052d4be51cbbbf5627e42cc487
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb62977a48400866e9fa8829696c884e58e54325
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032938"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548984"
 ---
 # <a name="mdm-registration-error-values"></a>Valeurs d’erreur d’inscription MDM
 
@@ -937,9 +937,7 @@ La gestion des appareils mobiles (MDM) n’est pas configurée.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
-
-
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|

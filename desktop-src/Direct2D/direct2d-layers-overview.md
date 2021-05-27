@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 0e86b32296718a975ebabccd5fc4ef0ee30cf289
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac68ba25d1e8f35c5a41daec4d7a5295235a5d98
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941195"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549184"
 ---
 # <a name="layers-overview"></a>Vue d’ensemble des couches
 
@@ -77,28 +77,28 @@ L’utilisation de couches nécessite une bonne connaissance des méthodes [**Cr
     > [!Note]  
     > À partir de Windows 8, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer NULL à la méthode [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) sur l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) . C’est plus simple et permet à Direct2D de gérer automatiquement la ressource de couche et de partager les ressources entre les couches et les graphiques d’effet.
 
-     
+     
 
 -   Une fois que la cible de rendu a commencé le dessin (une fois que sa méthode [**BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) a été appelée), vous pouvez utiliser la méthode [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) . La méthode **PushLayer** ajoute la couche spécifiée à la cible de rendu, afin que la cible reçoive toutes les opérations de dessin suivantes jusqu’à ce que [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer) soit appelé. Cette méthode prend un objet [**ID2D1Layer**](/windows/win32/api/d2d1/nn-d2d1-id2d1layer) retourné en appelant [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) et un *layerParameters* dans la structure des [**\_ \_ paramètres de couche d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) . Le tableau suivant décrit les champs de la structure. 
 
-    | Champ                 | Description                                                                                                                                                                                                                                                                 |     |
-    |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-    | **contentBounds**     | Limites de contenu de la couche. Le contenu en dehors de ces limites est garanti qu’il n’est pas rendu. La valeur par défaut de ce paramètre est [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). Lorsque la valeur par défaut est utilisée, les limites de contenu sont effectivement prises pour être les limites de la cible de rendu. |     |
-    | **geometricMask**     | Facultatif Zone, définie par un [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry), à laquelle la couche doit être découpée. A la valeur **null** si la couche ne doit pas être découpée en géométrie.                                                                                           |     |
-    | **maskAntialiasMode** | Valeur qui spécifie le mode d’anticrénelage pour le masque géométrique spécifié par le champ **geometricMask** .                                                                                                                                                               |     |
-    | **maskTransform**     | Valeur qui spécifie la transformation appliquée au masque géométrique lors de la composition de la couche. Cela est relatif à la transformation universelle.                                                                                                                               |     |
-    | **'**           | Valeur d’opacité de la couche. L’opacité de chaque ressource de la couche est multipliée par cette valeur lors de la composition vers la cible.                                                                                                                                     |     |
-    | **opacityBrush**      | Facultatif Pinceau utilisé pour modifier l’opacité de la couche. Le pinceau est mappé à la couche et le canal alpha de chaque pixel de pinceau mappé est multiplié par rapport au pixel de couche correspondant. Affectez la valeur **null** si la couche ne doit pas avoir de masque d’opacité.    |     |
-    | **layerOptions**      | Valeur qui spécifie si la couche envisage de restituer du texte avec l’anticrénelage ClearType. Par défaut, ce paramètre a la valeur OFF. Son activation permet à ClearType de fonctionner correctement, mais cela entraîne une vitesse de rendu légèrement plus lente.                                          |     |
+    | Champ                 | Description|
+    |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | **contentBounds**     | Limites de contenu de la couche. Le contenu en dehors de ces limites est garanti qu’il n’est pas rendu. La valeur par défaut de ce paramètre est [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). Lorsque la valeur par défaut est utilisée, les limites de contenu sont effectivement prises pour être les limites de la cible de rendu. |
+    | **geometricMask**     | Facultatif Zone, définie par un [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry), à laquelle la couche doit être découpée. A la valeur **null** si la couche ne doit pas être découpée en géométrie. |
+    | **maskAntialiasMode** | Valeur qui spécifie le mode d’anticrénelage pour le masque géométrique spécifié par le champ **geometricMask** . |
+    | **maskTransform**     | Valeur qui spécifie la transformation appliquée au masque géométrique lors de la composition de la couche. Cela est relatif à la transformation universelle.  |
+    | **'**           | Valeur d’opacité de la couche. L’opacité de chaque ressource de la couche est multipliée par cette valeur lors de la composition vers la cible.  |
+    | **opacityBrush**      | Facultatif Pinceau utilisé pour modifier l’opacité de la couche. Le pinceau est mappé à la couche et le canal alpha de chaque pixel de pinceau mappé est multiplié par rapport au pixel de couche correspondant. Affectez la valeur **null** si la couche ne doit pas avoir de masque d’opacité.   |
+    | **layerOptions**      | Valeur qui spécifie si la couche envisage de restituer du texte avec l’anticrénelage ClearType. Par défaut, ce paramètre a la valeur OFF. Son activation permet à ClearType de fonctionner correctement, mais cela entraîne une vitesse de rendu légèrement plus lente.    |
 
     
 
-     
+     
 
     > [!Note]  
     > À partir de Windows 8, vous ne pouvez pas effectuer de rendu avec ClearType dans une couche, donc le paramètre **layerOptions** doit toujours être défini sur [**options de \_ couche d2d1 \_ \_ aucune**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options)
 
-     
+     
 
     Pour plus de commodité, Direct2D fournit la méthode [**d2d1 :: LayerParameters**](/windows/desktop/api/d2d1helper/nf-d2d1helper-layerparameters) pour vous aider à créer des structures de [**\_ \_ paramètres de couche d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) .
 
@@ -203,7 +203,7 @@ Le code a été omis de cet exemple.
 >
 > L’image découpée résultante est également affectée si vous spécifiez un **geometricMask**. Pour plus d’informations, consultez la section [masques géométriques](#geometric-masks) .
 
- 
+ 
 
 ## <a name="geometric-masks"></a>Masques géométriques
 
@@ -308,7 +308,7 @@ Le code a été omis de cet exemple.
 >
 > Si **contentBounds** n’a pas la valeur null et que **geometricMask** n’a pas la valeur null, le masque géométrique transformé est correctement rogné par rapport aux limites de contenu et les limites de contenu sont supposées être infinies.
 
- 
+ 
 
 ## <a name="opacity-masks"></a>Masques d’opacité
 
@@ -377,7 +377,7 @@ Le code a été omis de cet exemple.
 > [!Note]  
 > Cet exemple utilise une couche pour appliquer un masque d’opacité à un objet unique pour que l’exemple reste aussi simple que possible. Lors de l’application d’un masque d’opacité à un objet unique, il est plus efficace d’utiliser les méthodes [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) ou [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) , plutôt qu’une couche.
 
- 
+ 
 
 Pour obtenir des instructions sur l’application d’un masque d’opacité sans utiliser de couche, consultez [vue d’ensemble des masques d’opacité](opacity-masks-overview.md).
 
@@ -513,7 +513,7 @@ Dans cet exemple de code, lorsque vous appelez la méthode PushLayer, vous ne tr
 > [!Note]  
 > Dans Windows 8, de nombreuses optimisations ont été apportées à l’utilisation des couches et nous vous recommandons d’essayer d’utiliser les API de couche au lieu de [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) chaque fois que cela est possible.
 
- 
+ 
 
 ### <a name="axis-aligned-clips"></a>Clips alignés sur l’axe
 
@@ -526,6 +526,6 @@ Si la région à découper est alignée sur l’axe de la surface de dessin, plu
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

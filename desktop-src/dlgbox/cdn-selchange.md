@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5a5c7aed47d02fb7c7fcf2232b144e7a99e7c46
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 8c21aa9dda117c74707b3c890ad96e017b45bcc0
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590752"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549224"
 ---
 # <a name="cdn_selchange-notification-code"></a>\_Code de notification CDN selChange
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** de style Explorateur lorsque la sélection change dans la zone de liste qui affiche le contenu du dossier ou du répertoire actuellement ouvert.
 
@@ -81,7 +81,7 @@ Pour récupérer le nom du fichier ou du dossier que vous venez de sélectionner
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**\_GETFILEPATH CDM**](cdm-getfilepath.md)
@@ -102,11 +102,9 @@ Pour récupérer le nom du fichier ou du dossier que vous venez de sélectionner
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

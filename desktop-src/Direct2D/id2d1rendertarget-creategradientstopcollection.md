@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e149727650223f40a290d1ada40abc69f9033440
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: f099c1c71015ca433299843d388085103571d31d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380633"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549414"
 ---
 # <a name="id2d1rendertargetcreategradientstopcollection-methods"></a>ID2D1RenderTarget :: CreateGradientStopCollection, méthodes
 
@@ -29,8 +29,8 @@ Crée un [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1
 
 | Méthode                                                                                                                                                                                                                                                               | Description                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateGradientStopCollection (D2D1 \_ \_ Stop \* , D2D1 \_ gamma, d2d1 \_ mode Extend \_ , ID2D1GradientStopCollection \* \* )**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) | Crée un [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) à partir des points de dégradé, du gamma d’interpolation de couleur et du mode extension spécifiés. <br/>                                                              |
-| [**CreateGradientStopCollection (D2D1 \_ point \_ \* de dégradé, ID2D1GradientStopCollection \* \* )**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx)                                                            | Crée un [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) à partir des points de dégradé spécifiés qui utilisent la gamma de l’interpolation de couleur [**d2d1 \_ gamma \_ 2 \_ 2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) et le mode d’extension de la bride.<br/> |
+| [**CreateGradientStopCollection (D2D1 \_ \_ Stop \* , D2D1 \_ gamma, d2d1 \_ mode Extend \_ , ID2D1GradientStopCollection \* \* )**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) | Crée un [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) à partir des points de dégradé, du gamma d’interpolation de couleur et du mode extension spécifiés. <br/>                                                              |
+| [**CreateGradientStopCollection (D2D1 \_ point \_ \* de dégradé, ID2D1GradientStopCollection \* \* )**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection)                                                            | Crée un [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) à partir des points de dégradé spécifiés qui utilisent la gamma de l’interpolation de couleur [**d2d1 \_ gamma \_ 2 \_ 2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) et le mode d’extension de la bride.<br/> |
 
 
 

@@ -5,17 +5,17 @@ title: API audio principales
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 83488233240121ba2edcfd677484df67a452e479
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 2cabb462d13786c874401394fa814484f79b0e3b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106522402"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548954"
 ---
 # <a name="core-audio-apis"></a>API audio principales
 
 > [!NOTE]
-> Pour obtenir des exemples de code, consultez [le kit de développement logiciel (SDK) qui utilise les API audio principales](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis).
+> Pour obtenir des exemples de code, consultez [le kit de développement logiciel (SDK) qui utilise les API audio principales](./sdk-samples-that-use-the-core-audio-apis.md).
 
 Cette documentation fournit des informations sur les interfaces de programmation d’applications (API) audio principales pour la famille de systèmes d’exploitation Microsoft Windows. Il fournit des recommandations pour les développeurs de logiciels à suivre dans le développement d’applications qui utilisent les API audio de base dans Windows Vista. Ces API ont été introduites dans Windows Vista et ne sont pas disponibles dans les versions antérieures de Windows.
 
@@ -35,4 +35,4 @@ Cette documentation contient les sections suivantes.
 
 [Technologies multimédias pour Windows](/previous-versions/bg125389(v=msdn.10))
 
-[Exemples de SDK qui utilisent les API audio principales](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis)
+[Exemples de SDK qui utilisent les API audio principales](./sdk-samples-that-use-the-core-audio-apis.md)

@@ -4,12 +4,12 @@ ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: Types de médias principaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a93a1aa430a720ff4b2f3591071d0bc8b178d6a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 56553ac635f0e767e43e057b2a468027dcefb730
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953438"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549574"
 ---
 # <a name="major-media-types"></a>Types de médias principaux
 
@@ -35,14 +35,15 @@ Les types principaux suivants sont définis.
 | Type principal                    | Description                                                                                                                                                | Sous-types                                             |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | **MFMediaType \_ audio**        | HD.                                                                                                                                                     | [GUID de sous-type audio](audio-subtype-guids.md).      |
-| **\_Binaire MFMediaType**       | Flux binaire.                                                                                                                                             | Aucun                                                |
-| **MFMediaType \_ filetransfer** | Flux qui contient des fichiers de données.                                                                                                                         | Aucun                                                |
-| **\_HTML MFMediaType**         | Flux HTML.                                                                                                                                               | Aucun                                                |
+| **\_Binaire MFMediaType**       | Flux binaire.                                                                                                                                             | Aucun.                                                |
+| **MFMediaType \_ filetransfer** | Flux qui contient des fichiers de données.                                                                                                                         | Aucun.                                                |
+| **\_HTML MFMediaType**         | Flux HTML.                                                                                                                                               | Aucun.                                                |
 | **\_Image MFMediaType**        | Flux d’images fixes.                                                                                                                                        | [GUID et CLSID WIC](../wic/-wic-guids-clsids.md).       |
+| **\_Métadonnées MFMediaType**        | Flux de métadonnées.                                                                                                                                        | Aucun.       |
 | **MFMediaType \_ protégé**    | Média protégé.                                                                                                                                           | Le sous-type spécifie le schéma de protection de contenu. |
-| **MFMediaType \_ perception**   | Flux provenant d’un capteur d’appareil photo ou d’une unité de traitement qui justifie et comprend les données vidéo brutes et qui permet de comprendre l’environnement ou les êtres humains. | Aucun                                                |
-| **\_Sami MFMediaType**         | Les sous-titres SAMI (Synchronized Accessible Media Interchange).                                                                                                 | Aucun                                                |
-| **\_Script MFMediaType**       | Flux de script.                                                                                                                                             | Aucun                                                |
+| **MFMediaType \_ perception**   | Flux provenant d’un capteur d’appareil photo ou d’une unité de traitement qui justifie et comprend les données vidéo brutes et qui permet de comprendre l’environnement ou les êtres humains. | Aucun.                                                |
+| **\_Sami MFMediaType**         | Les sous-titres SAMI (Synchronized Accessible Media Interchange).                                                                                                 | Aucun.                                                |
+| **\_Script MFMediaType**       | Flux de script.                                                                                                                                             | Aucun.                                                |
 | **\_Flux MFMediaType**       | Flux multiplexé ou flux élémentaire.                                                                                                                   | [GUID de sous-type de flux](stream-subtype-guids.md)     |
 | **\_Vidéo MFMediaType**        | Vidéo.                                                                                                                                                     | [GUID de sous-type de vidéo](video-subtype-guids.md).      |
 

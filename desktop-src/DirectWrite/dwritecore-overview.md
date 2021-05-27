@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
-ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
+ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "110208710"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550294"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
@@ -110,13 +110,13 @@ La surface de l’API DWriteCore est la plus similaire à celle de [DirectWrite]
 
 #### <a name="create-a-factory-object"></a>Créer un objet de fabrique
 
-La fonction Free [**DWriteCoreCreateFactory**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) crée un objet de fabrique qui est utilisé pour la création suivante d’objets DWriteCore individuels.
+La fonction Free [**DWriteCoreCreateFactory**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) crée un objet de fabrique qui est utilisé pour la création suivante d’objets DWriteCore individuels.
 
 **DWriteCoreCreateFactory** fonctionne de la même façon que la fonction [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) exportée par la version système de DirectWrite. La fonction DWriteCore a un nom différent pour éviter toute ambiguïté.
 
 #### <a name="create-a-restricted-factory-object"></a>Créer un objet de fabrique restreint
 
-L’énumération [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) a une nouvelle constante &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, indiquant une fabrique restreinte. Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Voici comment vous pouvez utiliser **DWRITE_FACTORY_TYPE_ISOLATED2** pour créer un objet de fabrique restreint lorsque vous appelez la fonction Free [**DWriteCoreCreateFactory**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) .
+L’énumération [**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md) a une nouvelle constante &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**, indiquant une fabrique restreinte. Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Voici comment vous pouvez utiliser **DWRITE_FACTORY_TYPE_ISOLATED2** pour créer un objet de fabrique restreint lorsque vous appelez la fonction Free [**DWriteCoreCreateFactory**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) .
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor

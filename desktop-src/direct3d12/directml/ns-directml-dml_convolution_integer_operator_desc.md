@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CONVOLUTION_INTEGER_OPERATOR_DESC
-ms.openlocfilehash: 07406155be9ae5f78fbf5f3b7fcd750aa4631dbc
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: f4045598dd1aa050479fec8e5732fe5c0a4e77ee
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803377"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550415"
 ---
 # <a name="dml_convolution_integer_operator_desc-structure-directmlh"></a>Structure DML_CONVOLUTION_INTEGER_OPERATOR_DESC (directml. h)
 
@@ -122,28 +122,28 @@ Nombre de dimensions spatiales pour l’opération de convolution. Les dimension
 
 `Strides`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Tableau contenant les Strides de l’opération de convolution. Ces Strides sont appliqués au filtre de convolution. Ils sont distincts des Strides tenseur inclus dans [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc).
 
 
 `Dilations`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Tableau contenant les dilatations de l’opération de convolution. Les dilatations sont des Strides appliqués aux éléments du noyau de filtre. Cela a pour effet de simuler un plus grand noyau de filtre en remplissant les éléments de noyau de filtre internes avec des zéros.
 
 
 `StartPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Tableau contenant les valeurs de remplissage à appliquer au début de chaque dimension spatiale du filtre et tenseur d’entrée de l’opération de convolution.
 
 
 `EndPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Tableau contenant les valeurs de remplissage à appliquer à la fin de chaque dimension spatiale du filtre et tenseur d’entrée de l’opération de convolution.
 

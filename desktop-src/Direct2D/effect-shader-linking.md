@@ -4,12 +4,12 @@ description: Direct2D utilise une optimisation appelée liaison de nuanceur d’
 ms.assetid: 431A5B39-6C84-442D-AC66-0F341E10DF2C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0a17691346649b2ddcde7ca4f3e343be6a35a90
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 75b6bad2170f2b897a5cf8ac3086a74945efa8bf
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321677"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549234"
 ---
 # <a name="effect-shader-linking"></a>Liaison de nuanceurs d’effet
 
@@ -29,23 +29,11 @@ Direct2D utilise une optimisation appelée liaison de nuanceur d’effet qui com
 
 L’effet nuanceur de liaison des optimisations s’appuie sur la liaison de nuanceur HLSL, une fonctionnalité Direct3D 11,2 qui permet de générer des nuanceurs de pixels et de vertex au moment de l’exécution en liant des fonctions de nuanceur précompilées. Les figures suivantes illustrent le concept de liaison de nuanceur d’effet dans un graphique d’effet. La première figure montre un graphique d’effet Direct2D classique avec quatre transformations de rendu. Sans liaison de nuanceur, chaque transformation consomme une passe de rendu et requiert une surface intermédiaire. au total, ce graphique nécessite 4 passes et 3 intermédiaires.
 
-
-
-|                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|
-| ![graphique de transformation sans liaison de nuanceur : 4 passes et 3 intermédiaires.](images/shader-transform-graph.png) |
-
-
-
- 
+![graphique de transformation sans liaison de nuanceur : 4 passes et 3 intermédiaires.](images/shader-transform-graph.png)
 
 La deuxième figure présente le même graphique d’effet où chaque transformation de rendu a été remplacée par une version de fonction qui peut être liée. Direct2D est en mesure de lier l’intégralité du graphique et de l’exécuter en une seule passe sans aucun intermédiaire. Cela peut augmenter considérablement la durée d’exécution du GPU et réduire la consommation de mémoire du GPU.
 
-
-
-|                                                                                                   |
-|---------------------------------------------------------------------------------------------------|
-| ![graphique de transformation avec liaison de nuanceur : 1 passe, 0 intermédiaire.](images/shader-linking-graph.png) |
+![graphique de transformation avec liaison de nuanceur : 1 passe, 0 intermédiaire.](images/shader-linking-graph.png)
 
 
 
@@ -63,15 +51,7 @@ Direct2D liera uniquement les transformations de rendu adjacentes dans les situa
 
 Dans le cas où un tel risque de liaison existe, Direct2D ne lie pas les transformations adjacentes au risque, mais tente toujours de lier le reste du graphique.
 
-
-
-|                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------|
-| ![transformer le graphique avec un risque de liaison : 2 passes, 1 intermédiaire.](images/shader-linking-graph-hazard.png) |
-
-
-
- 
+![transformer le graphique avec un risque de liaison : 2 passes, 1 intermédiaire.](images/shader-linking-graph-hazard.png)
 
 ## <a name="authoring-a-shader-linking-compatible-custom-effect"></a>Création d’un effet personnalisé compatible avec la liaison de nuanceur
 
@@ -113,28 +93,15 @@ En tant qu’auteur d’effet personnalisé, vous devez être conscient de plusi
 
     La liaison de fonction de nuanceur fonctionne en connectant la sortie d’un nuanceur de pixels à l’entrée d’une passe de nuanceur de pixels suivante. Cela est possible uniquement lorsque le nuanceur de pixels consommatrice requiert une seule valeur d’entrée pour effectuer son calcul. Cette valeur provient normalement de l’échantillonnage d’une texture d’entrée au niveau des coordonnées de texture émises par le nuanceur de sommets. Un tel nuanceur de pixels est dit d’effectuer un échantillonnage simple.
 
-    
-
-    |                                                                                                                                                                                            |
-    |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | ![la conversion en nuances de gris est un exemple d’échantillonnage simple. la valeur d’un pixel de sortie particulier dépend uniquement de la valeur du pixel d’entrée correspondant.](images/simple-sampling.png) |
-
-    
-
-     
+    ![la conversion en nuances de gris est un exemple d’échantillonnage simple. la valeur d’un pixel de sortie particulier dépend uniquement de la valeur du pixel d’entrée correspondant.](images/simple-sampling.png)
 
     Certains nuanceurs de pixels, tels qu’un flou gaussien, calculent leur sortie à partir de plusieurs exemples d’entrée plutôt qu’un seul échantillon. Un tel nuanceur de pixels est dit d’effectuer un échantillonnage complexe.
 
     
 
-    |                                                                                                                                                           |
-    |-----------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | ![le flou gaussien est un exemple d’échantillonnage complexe. la valeur du pixel de sortie Center dépend de plusieurs pixels d’entrée.](images/complex-sampling.png) |
+    ![le flou gaussien est un exemple d’échantillonnage complexe. la valeur du pixel de sortie Center dépend de plusieurs pixels d’entrée.](images/complex-sampling.png)
 
     
-
-     
-
     Seules les fonctions de nuanceur avec des entrées simples peuvent avoir leur entrée fournie par une autre fonction de nuanceur. Les fonctions de nuanceur avec des entrées complexes doivent être fournies avec une texture d’entrée pour échantillonner. Cela signifie que Direct2D ne lie pas un nuanceur avec des entrées complexes à son prédécesseur.
 
     Lorsque vous utilisez les [applications auxiliaires HLSL de Direct2D](hlsl-helpers.md), vous devez indiquer dans le langage HLSL si un nuanceur utilise des entrées complexes ou simples.
@@ -220,18 +187,13 @@ Pour compiler la version de la fonction d’exportation de votre nuanceur, vous 
 
 
 
-|                                |                                                                                                                                                                                                                                                           |
+|    Indicateur                            |    Description                       |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Indicateur**                       | **Description**                                                                                                                                                                                                                                           |
 | Commutateur <ShaderModel>         | Définissez <ShaderModel> sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir de l’un des profils listés sous « liaison de nuanceur HLSL ». |
 | <MyShaderFile>.hlsl      | Définissez <MyShaderFile> sur le nom du fichier HLSL.                                                                                                                                                                                                    |
 | /D, \_ fonction D2D               | Cette définition indique à FXC de compiler la version de la fonction d’exportation du nuanceur.                                                                                                                                                                       |
 | /D ( \_ entrée D2D) =<entry>    | Définissez <entry> sur le nom du point d’entrée HLSL que vous avez défini dans la macro d' [ \_ \_ entrée](d2d-ps-entry.md) de l’extension de bloc D2D.                                                                                                                                    |
 | /FL <MyShaderFile> . fxlib | Affectez <MyShaderfile> la valeur à l’emplacement où vous souhaitez stocker la version de la fonction d’exportation du nuanceur. Notez que l’extension. fxlib est uniquement destinée à faciliter l’identification.                                                                                              |
-
-
-
- 
 
 ### <a name="step-2-compile-the-full-shader-and-embed-the-export-function"></a>Étape 2 : compiler le nuanceur complet et incorporer la fonction d’exportation
 
@@ -243,9 +205,8 @@ Pour compiler la version complète de votre nuanceur avec une version d’export
 
 
 
-|                                        |                                                                                                                                                                                                                                                                                      |
+|    Indicateur                                    |    Description                     |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Indicateur**                               | **Description**                                                                                                                                                                                                                                                                      |
 | Commutateur <ShaderModel>                 | Définissez <ShaderModel> sur le profil de nuanceur de pixels approprié, tel que défini dans la [syntaxe fxc](/windows/desktop/direct3dtools/dx-graphics-tools-fxc-syntax). Il doit s’agir du profil de nuanceur de pixels correspondant au profil de liaison spécifié à l’étape 1. |
 | <MyShaderFile>.hlsl              | Définissez <MyShaderFile> sur le nom du fichier HLSL.                                                                                                                                                                                                                               |
 | /D D2D \_ - \_ nuanceur complet                   | Cette définition indique à FXC de compiler la version complète du nuanceur.                                                                                                                                                                                                             |
@@ -254,10 +215,6 @@ Pour compiler la version complète de votre nuanceur avec une version d’export
 | /SetPrivate <MyShaderFile> . fxlib | Cet argument indique à FXC d’incorporer le nuanceur de fonction d’exportation généré à l’étape 1 dans la \_ zone de données privées de l’objet BLOB D3D \_ \_ .                                                                                                                                                          |
 | /FO <MyShader> . CSO               | Affectez <MyShader> la valeur à l’emplacement où vous souhaitez stocker le nuanceur compilé final et combiné.                                                                                                                                                                                                 |
 | /FH <MyShader> . h                 | Définissez <MyShader> sur l’emplacement où vous souhaitez stocker l’en-tête combiné final.                                                                                                                                                                                                          |
-
-
-
- 
 
 ## <a name="export-function-specifications"></a>Exporter les spécifications de fonction
 

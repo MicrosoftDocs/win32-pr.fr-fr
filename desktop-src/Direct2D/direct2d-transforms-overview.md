@@ -14,12 +14,12 @@ keywords:
 - cibles de rendu, transformations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f3678f7b194f0f0188ed907a63737a97e9e58c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b924c51d73e71f206fbb250f4a7dd50ca71db2a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941038"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549144"
 ---
 # <a name="transforms-overview"></a>Vue d'ensemble des transformations
 
@@ -41,7 +41,7 @@ Une transformation spécifie comment mapper les points d’un objet d’un espac
 
 
 
-|                 |                 |     |
+|    &nbsp;       |       &nbsp;    |  &nbsp; |
 |-----------------|-----------------|-----|
 | M11Default : 1,0 | M12Default : 0,0 | 0.0 |
 | M21Default : 0,0 | M22Default : 1,0 | 0.0 |
@@ -49,7 +49,7 @@ Une transformation spécifie comment mapper les points d’un objet d’un espac
 
 
 
- 
+ 
 
 Dans cette matrice, les membres M11, M12, M21 et M22 définissent une transformation linéaire qui peut mettre à l’échelle, faire pivoter ou incliner un objet. les éléments OffsetX et OffsetY définissent la traduction à appliquer une fois la transformation linéaire effectuée. Pour les transformations affines, les valeurs de la troisième colonne sont toujours 0,0, 0,0 et 1,0.
 
@@ -57,7 +57,7 @@ Comme Direct2D ne prend en charge que les transformations affinées (linéaires)
 
 
 
-|                 |                 |
+|    &nbsp;       |       &nbsp;    | 
 |-----------------|-----------------|
 | M11Default : 1,0 | M12Default : 0,0 |
 | M21Default : 0,0 | M22Default : 1,0 |
@@ -65,7 +65,7 @@ Comme Direct2D ne prend en charge que les transformations affinées (linéaires)
 
 
 
- 
+ 
 
 Dans Direct2D, cette matrice 3 par 2 est représentée par la structure matrice de la [**\_ \_ matrice d2d1**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) . Pour simplifier les opérations de matrice courantes, Direct2D fournit également une classe nommée [**Matrix3x2F**](/windows/win32/api/d2d1helper/nl-d2d1helper-matrix3x2f), qui est dérivée de la structure matrice de la **\_ matrice \_ d2d1** .
 
@@ -100,7 +100,7 @@ Pour créer des transformations de rotation, de mise à l’échelle, d’inclin
 
 
 
- 
+ 
 
 ## <a name="rendering-target-transforms"></a>Rendu des transformations cibles
 
@@ -125,7 +125,7 @@ Lorsque vous mettez à l’échelle, déplacez, Traduisez ou inclinez des géom�
 > [!Note]  
 > À compter de Windows 8, la transformation universelle n’a aucune incidence sur le trait si vous définissez le type de trait sur [**d2d1 \_ Stroke \_ transformation \_ type \_ fixed**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type) ou [**d2d1 \_ Stroke \_ \_ type transformation \_ fine**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type).
 
- 
+ 
 
 Vous pouvez ajuster la transformation sur une géométrie en appelant [**ID2D1Factory :: CreateTransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) pour créer un objet [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry) . Pour plus d’informations sur les transformations géométriques, consultez [vue d’ensemble des géométries Direct2D](direct2d-geometries-overview.md).
 
@@ -160,6 +160,6 @@ Direct2D permet de transformer facilement des objets à deux dimensions à l’a
 [Référence Direct2D](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

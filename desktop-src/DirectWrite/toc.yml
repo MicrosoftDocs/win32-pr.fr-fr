@@ -66,7 +66,7 @@
           href: interoperating-with-gdi.md
         - name: Glossaire DirectWrite
           href: directwrite-glossary.md
-    - name: Référence API
+    - name: Référence d’API
       href: reference.md
       items:
         - name: Fonctions
@@ -75,7 +75,7 @@
             - name: DWriteCreateFactory
               href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
             - name: DWriteCoreCreateFactory (DWriteCore)
-              href: /windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
+              href: ./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md
         - name: Énumérations DirectWrite
           href: enumerations.md
           items:

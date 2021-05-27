@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 4821ba291f3adc8d22d1d1298a88c74b47dc648b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 721fb27e8cfd5e83f94b93079ee66e4a1c35992d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382804"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549924"
 ---
 # <a name="d1110-flush-failure"></a>D1110 : échec de vidage
 
@@ -49,13 +49,13 @@ Deuxième valeur de balise. Pour plus d’informations, consultez [**SetTags**](
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Niveau d’erreur | Avertissement |
 
 
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -128,6 +128,6 @@ L’appel de [**vidage**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flus
 
 Il existe de nombreuses raisons pour lesquelles un appel de [**vidage**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) peut échouer. L’application doit déterminer la cause de l’erreur et prendre les mesures appropriées.
 
- 
+ 
 
- 
+ 

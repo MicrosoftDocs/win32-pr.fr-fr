@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 137429b8fa7eb29fb96ec579e0240c4c282d0766
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 62d61f88bd7cb6a84a94a3d8a246e6045f88a305
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590766"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550044"
 ---
 # <a name="lbselchstring-message"></a>Message LBSELCHSTRING
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Une boîte de dialogue **ouvrir** ou **Enregistrer sous** envoie le message **LBSELCHSTRING** Registered à votre procédure de hook lorsque la sélection change dans l’une des zones de liste ou des zones de liste modifiable de la boîte de dialogue.
 
@@ -92,7 +92,7 @@ La procédure de hook doit spécifier la constante **LBSELCHSTRING** dans un app
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**\_selChange CDN**](cdn-selchange.md)
@@ -104,11 +104,9 @@ La procédure de hook doit spécifier la constante **LBSELCHSTRING** dans un app
 [**RegisterWindowMessage**](/windows/desktop/api/winuser/nf-winuser-registerwindowmessagea)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

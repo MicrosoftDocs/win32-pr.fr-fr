@@ -4,12 +4,12 @@ description: Interfaces de persistance
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e72ef5f7381c6d58b9025f983ecd852b83661030
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102452"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550504"
 ---
 # <a name="persistence-interfaces"></a>Interfaces de persistance
 
@@ -27,14 +27,14 @@ Un ensemble de catégories de composants est identifié pour couvrir la prise en
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPersistMemory**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))<br/>           | L’objet peut enregistrer et charger son état dans un tableau d’octets séquentiels de longueur fixe (en mémoire).<br/>                                                                                                                                                                                                                                                    |
 | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/>                  | L’objet peut enregistrer et charger son état dans une instance [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) . Les contrôles qui souhaitent être marqués comme pouvant être insérés comme d’autres objets de document composés (pour l’insertion dans des conteneurs ne prenant pas en charge les contrôles) doivent prendre en charge cette interface.<br/>                                                                                               |
-| [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85))<br/> | L’objet peut enregistrer et charger son état en tant que propriétés individuelles écrites dans IPropertyBag que le conteneur implémente. Il est utilisé pour la fonctionnalité enregistrer en tant que texte dans certains conteneurs.<br/>                                                                                                                                                          |
+| [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag)<br/> | L’objet peut enregistrer et charger son état en tant que propriétés individuelles écrites dans IPropertyBag que le conteneur implémente. Il est utilisé pour la fonctionnalité enregistrer en tant que texte dans certains conteneurs.<br/>                                                                                                                                                          |
 | [**IPersistMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))<br/>  | L’objet peut enregistrer et charger son état dans un emplacement nommé par un moniker. Le contrôle appelle [**IMoniker :: BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) pour récupérer l’interface de stockage dont il a besoin, par exemple [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage), [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream), [**ILockBytes**](/windows/desktop/api/objidl/nn-objidl-ilockbytes), [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject), etc.<br/> |
 
 
 
  
 
-Alors que la prise en charge de [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85)) est facultative, il est fortement recommandé d’en faire une optimisation pour les conteneurs avec des fonctionnalités d’enregistrement sous forme de texte, telles que Visual Basic.
+Alors que la prise en charge de [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag) est facultative, il est fortement recommandé d’en faire une optimisation pour les conteneurs avec des fonctionnalités d’enregistrement sous forme de texte, telles que Visual Basic.
 
 À l’exception de [**IPersistStream :: GetSizeMax**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax), [**IPersistStreamInit :: GetSizeMax**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax)et [**IPersistMemory :: GetSizeMax**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768208(v=vs.85)), toutes les méthodes de chaque interface doivent être entièrement implémentées.
 

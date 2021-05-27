@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 4b08dfb99d49dcb447443685e1fbfa01a2cbad1c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09d84f549b2361d2753ac40650ce057de9e4f84c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103730077"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549964"
 ---
 # <a name="d1109-draw-failure"></a>D1109 : échec du dessin
 
@@ -49,18 +49,18 @@ La deuxième valeur de balise (pour plus d’informations, consultez [**SetTags*
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | Niveau d’erreur | Avertissement |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>Causes possibles
 
 Un appel de dessin peut échouer pour de nombreuses raisons. Pour plus d’informations, consultez la documentation du kit de développement logiciel (SDK) Direct2D pour la méthode qui a échoué.
 
- 
+ 
 
- 
+ 

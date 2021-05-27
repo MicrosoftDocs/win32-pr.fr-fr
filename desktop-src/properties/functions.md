@@ -4,12 +4,12 @@ ms.assetid: ce8336cd-d9aa-4b93-ab47-30edd7518dab
 title: Fonctions (système de propriétés Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42f825aea8de0d17188e01b9535465af73c8c42a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da2d89b03b52f09be39c22bc953d3f08fd251ae2
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318901"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549694"
 ---
 # <a name="functions-windows-property-system"></a>Fonctions (système de propriétés Windows)
 
@@ -20,7 +20,7 @@ Cette section décrit les fonctions du système de propriétés Windows.
 | Rubrique                                                                                                | Contenu                                                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Fonctions PROPVARIANT et VARIANT](./functions-propvarutil.md)                                     | Cette section décrit un ensemble de fonctions de conversion et d’assistance du système de propriétés Windows utilisées avec les types [**PROPVARIANT**](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) et [**Variant**](/windows/win32/api/oaidl/ns-oaidl-variant) .                                                                                                                                                                                                          |
-| [Fonctions de jeu de propriétés](property-bag-functions.md)                                                 | Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets [**IPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) .                                                                                                                                                                                                                                                                             |
+| [Fonctions de jeu de propriétés](property-bag-functions.md)                                                 | Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .                                                                                                                                                                                                                                                                             |
 | [**PifMgr \_ CloseProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_closeproperties)                                            | Ferme les propriétés de l’application qui ont été ouvertes avec [**PifMgr \_ OpenProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties).<br/>                                                                                                                                                                                                                                                                                      |
 | [**PifMgr \_ GetProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_getproperties)                                                | Retourne un bloc de données spécifié à partir d’un fichier. PIF.<br/>                                                                                                                                                                                                                                                                                                                                               |
 | [**PifMgr \_ OpenProperties**](/windows/desktop/api/Shlobj_core/nf-shlobj_core-pifmgr_openproperties)                                              | Ouvre le fichier. PIF associé à une application Microsoft MS-DOS et retourne un descripteur des propriétés de l’application.<br/>                                                                                                                                                                                                                                                                         |

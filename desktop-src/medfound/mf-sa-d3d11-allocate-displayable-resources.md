@@ -1,14 +1,14 @@
 ---
 description: Spécifie si l’allocateur d’exemple de la MFT (SA) doit allouer la texture Direct3D sous-jacente à l’aide de l’indicateur D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE.
-title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform. h)
+title: MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform.h)
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: ac70ee8c3015a2e08df2ee78b8051723707a1686
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107224024"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548704"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>\_Attribut des \_ \_ \_ ressources affichables \_ de l’allocation de la sa D3D MF
 
@@ -20,7 +20,7 @@ Spécifie si l’allocateur d’exemple de la MFT (SA) doit allouer la texture D
 
 ## <a name="remarks"></a>Remarques
 
-Cet attribut est disponible en vedette avec Windows 10 Preview Build 14383. 
+Cet attribut est disponible en vedette avec Windows 10 Build 20348. 
 
 > [!NOTE]
 > Le champ membre **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** de l’énumération [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) sera disponible dans une version ultérieure du kit de développement logiciel (SDK).
@@ -126,13 +126,13 @@ private:
 }; 
 ```
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Version préliminaire de Windows 10 Preview 14383<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 10 Build 20348<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Mftransform. h</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: f49876a5eb9d7700aeb347e5168ca3e8c1e239e0
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 9147dbdfe53aa21c5fa77849e3599ded69c8f243
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380623"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549384"
 ---
 # <a name="id2d1rendertargetcreatesolidcolorbrush-methods"></a>ID2D1RenderTarget :: CreateSolidColorBrush, méthodes
 
@@ -29,9 +29,9 @@ Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d
 
 | Méthode                                                                                                                                                                                                           | Description                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateSolidColorBrush (D2D1 de \_ couleur \_ F&, ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur spécifiée et une opacité de base de 1.0 f. <br/> |
-| [**CreateSolidColorBrush (D2D1 de \_ couleur \_ F&, \_ Propriétés de pinceau d2d1 \_&, ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur et l’opacité spécifiées. <br/>                |
-| [**CreateSolidColorBrush (D2D1 \_ couleur \_ F \* , d2d1 \_ \_ , propriétés du pinceau \* , ID2D1SolidColorBrush \* \* )**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur et l’opacité spécifiées. <br/>                |
+| [**CreateSolidColorBrush (D2D1 de \_ couleur \_ F&, ID2D1SolidColorBrush \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush))                                                      | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur spécifiée et une opacité de base de 1.0 f. <br/> |
+| [**CreateSolidColorBrush (D2D1 de \_ couleur \_ F&, \_ Propriétés de pinceau d2d1 \_&, ID2D1SolidColorBrush \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush))   | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur et l’opacité spécifiées. <br/>                |
+| [**CreateSolidColorBrush (D2D1 \_ couleur \_ F \* , d2d1 \_ \_ , propriétés du pinceau \* , ID2D1SolidColorBrush \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) | Crée un nouveau [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) qui a la couleur et l’opacité spécifiées. <br/>                |
 
 
 

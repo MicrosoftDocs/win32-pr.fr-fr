@@ -4,16 +4,16 @@ ms.assetid: 4ef85855-7eb6-43ec-bf29-1223eaf1a0cc
 title: Fonctions de jeu de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c86a2e3ce61805702641f893d51f5c4aa26b0ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b694c579c76be96b00fa8392344ac59bdc0ce42f
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536168"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550194"
 ---
 # <a name="property-bag-functions"></a>Fonctions de jeu de propriétés
 
-Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets [**IPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)) .
+Cette section décrit un ensemble de fonctions d’assistance Windows utilisées avec les objets [**IPropertyBag**](/windows/win32/api/oaidl/nn-oaidl-ipropertybag) .
 
 
 

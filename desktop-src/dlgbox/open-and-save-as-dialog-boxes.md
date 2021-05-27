@@ -14,19 +14,19 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 605040af3aafe9d7739ebd069a7c0607402940c8
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: be957276f0d5a6370bb53aca4b1af5052b422011
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590826"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548884"
 ---
 # <a name="open-and-save-as-dialog-boxes"></a>Boîtes de dialogue Ouvrir et enregistrer sous
 
 > [!NOTE]
 > La fonction [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) est illustrée dans l' [exemple fichier en cours d’utilisation](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileisinuse).
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 La boîte de dialogue **ouvrir** permet à l’utilisateur de spécifier le lecteur, le répertoire et le nom d’un fichier ou d’un ensemble de fichiers à ouvrir. Vous créez et affichez une boîte de dialogue **ouvrir** en initialisant une structure [**OpenFileName**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea) et en passant la structure à la fonction [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea) .
 

@@ -4,12 +4,12 @@ ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: Représentation des formats des transmissions IEC 61937
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0700329aafe7e7bc0e09b532c1ac29b9957ca905
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e0a607770a388a11978d0e4666b5046506b6698c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515367"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549294"
 ---
 # <a name="representing-formats-for-iec-61937-transmissions"></a>Représentation des formats des transmissions IEC 61937
 
@@ -57,6 +57,9 @@ Les GUID pour les formats audio compressés disponibles en tant que formats audi
 | 0x07         | 00000008-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dts<br/>                         | DTS                                          |
 | 0x0A         | 0000000a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ Digital \_ plus<br/>        | Dolby Digital plus                           |
 | 0x0A         | 0000010a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ Digital \_ plus \_ Atmos<br/> | Dolby Atmos encodé avec Dolby Digital plus  |
+| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ DTS \_ HD<br/> | DISQUE DUR DTS  |
+| 0x0b         | 0000010b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ dtsx \_ E1<br/> | DTS : X E1  |
+| 0x0b         | 0000030b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ dtsx \_ E2<br/> | DTS : X E2  |
 | 0x0F         |                                                                                                                         | Réservé non utilisé                              |
 
 
@@ -69,7 +72,7 @@ Les GUID pour les formats audio compressés transmis dans des exemples de paquet
 
 | Type CEA 861 | GUID de sous-format                                                                                           | Description                                                                                                                     |
 |--------------|----------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| 0x0B         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ DTS \_ HD<br/>      | DTS-HD (24 bits, 96Khz)                                                                                                          |
+| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ DTS \_ HD<br/>      | DTS-HD (24 bits, 96Khz)                                                                                                          |
 | 0x0c         | 0000000c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MLP<br/>   | Dolby MAT 1,0 :<br/> Dolby TrueHD (MLP – méridien Lossless compression) – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux) <br/> |
 | 0x0c         | 0000010c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MAT20<br/> | Dolby MAT 2,0 : <br/> Dolby TrueHD – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux ou LPCM jusqu’à 24 Mbits/s. <br/>           |
 | 0x0c         | 0000030c-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ sous-type \_ IEC61937 \_ Dolby \_ MAT21<br/> | Dolby MAT 2,1 : <br/> Dolby TrueHD – 24 bits 192KHz/jusqu’à 18 Mbits/s, 8 canaux ou LPCM jusqu’à 24 Mbits/s. <br/>           |

@@ -1,5 +1,5 @@
 ---
-title: PROPSHEETPAGE, structure (Prsht. h)
+title: PROPSHEETPAGE, structure (Prsht.h)
 description: Définit une page dans une feuille de propriétés.
 keywords:
 - Contrôles Windows de la structure PROPSHEETPAGE
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: cdde3f27900c7599b33af706d8fac9f9e8127b6f
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 78e1d1e4e6b4b2067083443bdb5dc4db5df59558
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106540953"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550344"
 ---
 # <a name="propsheetpage-structure"></a>PROPSHEETPAGE, structure
 
@@ -132,7 +132,7 @@ Pointeur vers la procédure de boîte de dialogue de la page. Étant donné que 
 
 Type : [lParam](../winprog/windows-data-types.md)
 
-Lorsque la page est créée, une copie de la structure **PROPSHEETPAGE** de la page est transmise à la procédure de la boîte de dialogue avec un message de [WM_INITDIALOG](/windows/win32/dlgbox/wm-initdialog) . Le membre *lParam* est fourni pour vous permettre de passer des informations spécifiques à l’application à la procédure de boîte de dialogue. Il n'a aucun effet sur la page proprement dite.
+Lorsque la page est créée, une copie de la structure **PROPSHEETPAGE** de la page est transmise à la procédure de la boîte de dialogue avec un message de [WM_INITDIALOG](../dlgbox/wm-initdialog.md) . Le membre *lParam* est fourni pour vous permettre de passer des informations spécifiques à l’application à la procédure de boîte de dialogue. Il n'a aucun effet sur la page proprement dite.
 
 *pfnCallback* 
 
@@ -190,11 +190,11 @@ Type : [LPCSTR](../winprog/windows-data-types.md)
 
 Ce membre est déclaré en tant qu’Union avec *hbmHeader*.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Comctl32.dll version 6 et versions ultérieures ne sont pas redistribuables. Pour utiliser Comctl32.dll version 6 ou ultérieure, spécifiez le fichier. dll dans un manifeste. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|

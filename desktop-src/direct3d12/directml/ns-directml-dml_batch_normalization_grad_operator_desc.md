@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC
-ms.openlocfilehash: ba12541514c8121d483236afa2163a04bd991288
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 2b94ac1dcf389d424aaf74d615f36cdf7acc804c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804464"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550434"
 ---
 # <a name="dml_batch_normalization_grad_operator_desc-directmlh"></a>DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC (directml. h)
 
@@ -168,7 +168,7 @@ Le `sum` est calculé sur toutes les dimensions qui doivent être diffusées (Vo
 
 `Epsilon`
 
-Type : **[float](/windows/win32/winprog/windows-data-types)**
+Type : **[float](../../winprog/windows-data-types.md)**
 
 Petite valeur ajoutée à la variance pour éviter la valeur zéro.
 

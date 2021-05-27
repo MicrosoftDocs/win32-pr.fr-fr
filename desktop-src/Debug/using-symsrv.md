@@ -4,12 +4,12 @@ ms.assetid: d400f222-c50c-4c7b-8f8a-0c3ed3bba3b9
 title: Utilisation de SymSrv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae79d9fd045ab3ce946c14468e56419d3074858c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5bbaf68e80555629db8bc9a2a21394b95fe6fb85
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200994"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550034"
 ---
 # <a name="using-symsrv"></a>Utilisation de SymSrv
 
@@ -48,7 +48,7 @@ Le fichier n’est jamais ouvert à partir d’un magasin, mais du magasin le pl
 
 Le tableau suivant présente des exemples des types de magasins de symboles pris en charge.
 
-|                            |                                                                                                                                                                                                                                                                                                                                                           |
+|  Type de magasin de symboles       |  Description |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \\\\partage de serveur \\          | Chemin UNC complet d’un partage sur un serveur distant.                                                                                                                                                                                                                                                                                                 |
 | c : \\ localCache             | Chemin d’accès à un répertoire sur l’ordinateur client.                                                                                                                                                                                                                                                                                                             |

@@ -4,12 +4,12 @@ ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de7094f802b815bfbd7511bd67eb4e6b1767cb94
-ms.sourcegitcommit: 392c0a56f99f4d19686e734291abcac887fc5ba2
+ms.openlocfilehash: eadf4a0e2799d6123bf81069fe65ea16313af444
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "106532336"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550254"
 ---
 # <a name="winsock-ioctls"></a>IOCTL Winsock
 
@@ -244,6 +244,19 @@ Réservé pour une utilisation ultérieure avec les sockets. Récupérez la stru
 Un expéditeur ne peut pas appeler **SIO \_ obtenir \_ QoS** tant que le socket n’est pas connecté.
 
 Un récepteur peut appeler **SIO \_ obtenir \_ QoS** dès qu’il est lié.
+
+### <a name="sio_get_tx_timestamp"></a>SIO_GET_TX_TIMESTAMP
+
+IOCTL de socket utilisé pour obtenir des horodateurs pour les paquets transmis (TX). Valide uniquement pour les sockets de datagrammes.
+
+Le code de contrôle de **SIO_GET_TX_TIMESTAMP** supprime un horodateur de transmission de la file d’attente des horodateurs de transmission d’un Socket. Activez d’abord la réception des horodateurs à l’aide du [**SIO_TIMESTAMPING**](#sio_timestamping) de socket ioctl. Ensuite, récupérez les horodateurs TX par ID en appelant la fonction [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) (ou [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) avec les paramètres suivants.
+
+Pour **SIO_GET_TX_TIMESTAMP**, l’entrée est un ID d’horodatage **UInt32** et la sortie est une valeur d’horodatage **UINT64** . En cas de réussite, l’horodateur TX est disponible et est retourné. Si aucun horodatage de transmission n’est disponible, [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) retourne **WSAEWOULDBLOCK**.
+
+> [!NOTE]
+> Les horodateurs TX ne sont pas pris en charge lors d’un envoi fusionné via **UDP_SEND_MSG_SIZE**.
+
+Voir aussi [horodatage Winsock](/windows/win32/winsock/winsock-timestamping).
 
 ### <a name="sio_ideal_send_backlog_change-opcode-setting-v-t0"></a>SIO \_ la \_ \_ modification de BACKLOG d’envoi idéale \_ (paramètre opcode : V, T = = 0)
 
@@ -493,6 +506,12 @@ Contrôle les caractéristiques de retransmission initiales (SYN/SYN + ACK) d’
 
 Pour plus d’informations, consultez la référence [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) . [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) est pris en charge sur Windows 8, windows server 2012 et versions ultérieures.
 
+### <a name="sio_timestamping"></a>SIO_TIMESTAMPING
+
+IOCTL de socket utilisé pour configurer la réception des horodateurs de transmission/réception de Socket. Valide uniquement pour les sockets de datagrammes. Le type d’entrée pour **SIO_TIMESTAMPING** est la structure [**TIMESTAMPING_CONFIG**](/windows/win32/api/mstcpip/ns-mstcpip-timestamping_config) .
+
+Voir aussi [horodatage Winsock](/windows/win32/winsock/winsock-timestamping).
+
 ### <a name="sio_translate_handle-opcode-setting-i-o-t1"></a>\_Handle SIO translate \_ (paramètre opcode : I, O, T = = 1)
 
 Pour obtenir un handle correspondant pour le *socket qui* est valide dans le contexte d’une interface associée (par exemple, Th \_ netdev et Th \_ TAPI). Une constante de manifeste identifiant l’interface auxiliaire avec tous les autres paramètres nécessaires est spécifiée dans la mémoire tampon d’entrée. Le handle correspondant sera disponible dans la mémoire tampon de sortie une fois cette fonction terminée. Reportez-vous à la section appropriée dans les [annexes Winsock](winsock-annexes.md) pour obtenir des détails spécifiques à une interface connexe particulière. Le code d’erreur [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) est indiqué pour les fournisseurs de services qui ne prennent pas en charge cette ioctl pour l’interface associée spécifiée. Cette IOCTL récupère le descripteur associé à l’aide du **\_ \_ handle SIO translate**.
@@ -519,14 +538,14 @@ Contrairement à la récupération des statistiques TCP avec la fonction [**GetP
 
 Pour plus d’informations, consultez [**SIO \_ TCP \_ info**](/previous-versions/windows/desktop/legacy/mt823415(v=vs.85)). **SIO \_ Les \_ informations TCP** sont prises en charge sur Windows 10, version 1703, windows server 2016 et versions ultérieures.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les IOCTL Winsock sont définis dans plusieurs fichiers d’en-tête différents. Celles-ci incluent le fichier d’en-tête *Winsock2. h*, *mswsock. h* et *Mstcpip. h* .
 
 Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et un certain nombre d’IOCTL d’IOCTL Winsock sont également définis dans les fichiers d’en-tête *Ws2def. h*, *Ws2ipdef. h* et *Mswsockdef. h* . Le fichier d’en-tête *Ws2def. h* est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Le fichier d’en-tête *Ws2ipdef. h* est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Le fichier d’en-tête *Mswsockdef. h* est automatiquement inclus dans le fichier d’en-tête *Mswsockdef. h* .
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
-|||
+|Condition requise|Valeur|
 |-|-|
 | En-tête<br/> | <dl> <dt>Winsock2. h ; </dt> <dt>Mstcpip. h ; </dt> <dt>Mswsock. h ; </dt> <dt>Mswsockdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure mswsock. h); </dt> <dt>Ws2def. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Winsock2. h); </dt> <dt>Ws2ipdef. h sur Windows Vista, Windows Server 2008 et Windows 7 (inclure Ws2tcpip. h)</dt> </dl> |

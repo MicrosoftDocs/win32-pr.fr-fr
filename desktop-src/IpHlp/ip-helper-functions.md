@@ -1,15 +1,15 @@
 ---
+title: Fonctions d’assistance IP
 description: Les fonctions suivantes récupèrent et modifient les paramètres de configuration pour le transport TCP/IP sur l’ordinateur local.
-ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-title: Fonctions de l’assistance IP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11c8bff21f41c04bb5aecf505b251fbbe2f8bc62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
+ms.openlocfilehash: ae19803c25512242b613735a060c7beda8c1df70
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760479"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549504"
 ---
 # <a name="ip-helper-functions"></a>Fonctions d’assistance IP
 
@@ -181,6 +181,14 @@ Les fonctions suivantes récupèrent et modifient les paramètres de configurati
 -   [**NotifyRouteChange**](/windows/win32/api/Iphlpapi/nf-iphlpapi-notifyroutechange)
 -   [**NotifyRouteChange2**](/windows/win32/api/Netioapi/nf-netioapi-notifyroutechange2)
 -   [**NotifyUnicastIpAddressChange**](/windows/win32/api/Netioapi/nf-netioapi-notifyunicastipaddresschange)
+
+## <a name="packet-timestamping"></a>Horodatage des paquets
+
+-   [**CaptureInterfaceHardwareCrossTimestamp**](/windows/win32/api/iphlpapi/nf-iphlpapi-captureinterfacehardwarecrosstimestamp)
+-   [**GetInterfaceActiveTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfaceactivetimestampcapabilities)
+-   [**GetInterfaceSupportedTimestampCapabilities**](/windows/win32/api/iphlpapi/nf-iphlpapi-getinterfacesupportedtimestampcapabilities)
+-   [**RegisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/nf-iphlpapi-registerinterfacetimestampconfigchange)
+-   [**UnregisterInterfaceTimestampConfigChange**](/windows/win32/api/iphlpapi/unregisterinterfacetimestampconfigchange)
 
 ## <a name="persistent-port-reservation"></a>Réservation de port persistant
 

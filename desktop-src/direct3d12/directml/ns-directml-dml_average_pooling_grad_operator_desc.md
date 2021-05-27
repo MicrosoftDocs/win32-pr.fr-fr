@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: aaa2b5d2becac421214afe7c643426c1c93cf899
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803364"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550484"
 ---
 # <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a>Structure DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC (directml. h)
 
@@ -117,25 +117,25 @@ Nombre d’éléments dans les tableaux *Strides*, *Windows*, *StartPadding* et 
 
 `Strides`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Consultez la section *Strides* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `WindowSize`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Consultez *Windows* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `StartPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Consultez *StartPadding* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 
 `EndPadding`
 
-Type : \_ Field_size \_ (DimensionCount) **const [uint](/windows/win32/winprog/windows-data-types) \***
+Type : \_ Field_size \_ (DimensionCount) **const [uint](../../winprog/windows-data-types.md) \***
 
 Consultez *EndPadding* dans [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).
 

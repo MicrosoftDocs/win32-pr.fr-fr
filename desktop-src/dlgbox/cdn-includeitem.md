@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a91c61e4a7c2786e67ed28e2c62e5963762659c
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 78f25ea90f8eb37c829cdc86e89f6d7e8cad2312
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590776"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549254"
 ---
 # <a name="cdn_includeitem-notification-code"></a>\_Code de notification CDN INCLUDEITEM
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** pour déterminer si la boîte de dialogue doit afficher un élément dans la liste d’éléments d’un dossier de l’interpréteur de commandes. Lorsque l’utilisateur ouvre un dossier, la boîte de dialogue envoie une notification **\_ INCLUDEITEM CDN** pour chaque élément du dossier. La boîte de dialogue envoie cette notification uniquement si l’indicateur **OFN \_ ENABLEINCLUDENOTIFY** a été défini lors de la création de la boîte de dialogue.
 
@@ -85,7 +85,7 @@ La boîte de dialogue comprend toujours les éléments qui ont à la fois les at
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
@@ -100,11 +100,9 @@ La boîte de dialogue comprend toujours les éléments qui ont à la fois les at
 [**OFNOTIFYEX**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifyexa)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

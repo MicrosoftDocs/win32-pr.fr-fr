@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39075bddbd191f60a9f9bcbad745e213fe9a978
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 318aa2ffe4ddd47bcb1472f412f85ab785c5049e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590866"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550074"
 ---
 # <a name="cdn_folderchange-notification-code"></a>\_Code de notification CDN FOLDERCHANGE
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](/windows/win32/shell/common-file-dialog). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** d’un navigateur lors de l’ouverture d’un nouveau dossier.
 
@@ -81,7 +81,7 @@ Pour récupérer le chemin d’accès du dossier qui vient d’être ouvert, la 
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**\_GETFOLDERPATH CDM**](cdm-getfolderpath.md)
@@ -99,11 +99,9 @@ Pour récupérer le chemin d’accès du dossier qui vient d’être ouvert, la 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
-**Conceptuel**
+**Méthodologique**
 </dt> <dt>
 
 [Bibliothèque de boîtes de dialogue communes](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

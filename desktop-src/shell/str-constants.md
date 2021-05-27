@@ -49,12 +49,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b1dcdb3b9199fede88d6f13949cc9276bde17b16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bf8dc681718e64bf8aea059027a50148650635e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973831"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549244"
 ---
 # <a name="bind-context-string-keys"></a>Clés de chaîne de contexte de liaison
 
@@ -208,7 +208,7 @@ Ensemble de clés de chaîne utilisées avec la méthode [**IBindCtx :: Registe
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_PARSE_WITH_PROPERTIES"></span><span id="str_parse_with_properties"></span><dl> <dt><strong>STR_PARSE_WITH_PROPERTIES</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Windows Vista uniquement.</strong> Un contexte de liaison d’analyse qui est utilisé pour passer un ensemble de propriétés et le nom de l’élément lors de l’appel de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder ::P arsedisplayname</strong></a>. L’objet dans le contexte de liaison implémente <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a> et est récupéré en appelant <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam"><strong>IBindCtx :: GetObjectParam</strong></a>.<br/> DBFolder est une source de données Shell qui représente des éléments dans les résultats de recherche et les vues basées sur des requêtes. DBFolder récupère ces éléments en interrogeant le système de recherche Windows. Les éléments des résultats de la recherche sont identifiés par un schéma de protocole, par exemple &quot; fichier : &quot; ou &quot; MAPI : &quot; . DBFolder fournit le comportement de ces éléments en déléguant aux sources de données Shell créées pour ces protocoles. Pour plus d’informations, consultez <a href="/previous-versions/bb233544(v=msdn.10)">développement de compléments de gestionnaires de protocole</a> .<br/> Quand DBFolder délègue son opération d’analyse aux sources de données de l’interpréteur de commandes qui prennent en charge les protocoles de recherche Windows, ce contexte de liaison fournit l’accès aux valeurs qui ont été retournées dans le résultat de la requête pour cet élément. Ce dernier est détaillé ci-après :<br/>
+<td style="text-align: left;"><strong>Windows Vista uniquement.</strong> Un contexte de liaison d’analyse qui est utilisé pour passer un ensemble de propriétés et le nom de l’élément lors de l’appel de <a href="/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname"><strong>IShellFolder ::P arsedisplayname</strong></a>. L’objet dans le contexte de liaison implémente <a href="/windows/desktop/api/propsys/nn-propsys-ipropertystore"><strong>IPropertyStore</strong></a> et est récupéré en appelant <a href="/windows/desktop/api/objidl/nf-objidl-ibindctx-getobjectparam"><strong>IBindCtx :: GetObjectParam</strong></a>.<br/> DBFolder est une source de données Shell qui représente des éléments dans les résultats de recherche et les vues basées sur des requêtes. DBFolder récupère ces éléments en interrogeant le système de recherche Windows. Les éléments des résultats de la recherche sont identifiés par un schéma de protocole, par exemple &quot; fichier : &quot; ou &quot; MAPI : &quot; . DBFolder fournit le comportement de ces éléments en déléguant aux sources de données Shell créées pour ces protocoles. Pour plus d’informations, consultez <a href="/previous-versions/bb233544(v=msdn.10)">développement de compléments de gestionnaires de protocole</a> .<br/> Quand DBFolder délègue son opération d’analyse aux sources de données de l’interpréteur de commandes qui prennent en charge les protocoles de recherche Windows, ce contexte de liaison fournit l’accès aux valeurs qui ont été retournées dans le résultat de la requête pour cet élément. Notamment :<br/>
 <ul>
 <li><a href="/windows/desktop/properties/props-system-itemtype">System. ItemType</a> (PKEY_ItemType)</li>
 <li><a href="/windows/desktop/properties/props-system-parsingpath">System. ParsingPath</a> (PKEY_ParsingPath)</li>
@@ -219,7 +219,7 @@ Ensemble de clés de chaîne utilisées avec la méthode [**IBindCtx :: Registe
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_PROPERTYBAG_PARAM"></span><span id="str_propertybag_param"></span><dl> <dt><strong>STR_PROPERTYBAG_PARAM</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Introduit dans Windows 8</strong>. Spécifiez ce contexte de liaison pour indiquer que le paramètre de contexte de liaison est un conteneur de propriétés (<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)"><strong>IPropertyBag</strong></a>) utilisé pour passer des valeurs de type Variant dans le contexte de liaison. Pour plus d’informations, consultez la section Notes.<br/></td>
+<td style="text-align: left;"><strong>Introduit dans Windows 8</strong>. Spécifiez ce contexte de liaison pour indiquer que le paramètre de contexte de liaison est un conteneur de propriétés (<a href="/windows/win32/api/oaidl/nn-oaidl-ipropertybag"><strong>IPropertyBag</strong></a>) utilisé pour passer des valeurs de type Variant dans le contexte de liaison. Pour plus d’informations, consultez la section Notes.<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_SKIP_BINDING_CLSID"></span><span id="str_skip_binding_clsid"></span><dl> <dt><strong>STR_SKIP_BINDING_CLSID</strong></dt> </dl></td>
@@ -239,7 +239,7 @@ Introduite dans Windows 2000 SP3, cette valeur a été définie dans shlobj. h j
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les contextes de liaison sont utilisés pour passer des paramètres facultatifs à des fonctions qui ont un \* paramètre IBindCtx. Ces paramètres sont exprimés en tant qu’objets COM et peuvent implémenter des interfaces qui sont utilisées pour modéliser les données de paramètre. Certains contextes de liaison représentent une valeur booléenne, où **true** indique qu’un objet qui implémente uniquement [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) et false indique qu’aucun objet n’est présent.
 

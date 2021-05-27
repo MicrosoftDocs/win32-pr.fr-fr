@@ -39,21 +39,21 @@ api_location:
 - dwrite.h
 api_name:
 - DWRITE_FACTORY_TYPE
-ms.openlocfilehash: 85f74d72dc8799a7a3c78603ec0dd5f9c118fdb1
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 51cfbb274d681bb35b806f49aef13cc4a220ee26
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955002"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550304"
 ---
 # <a name="dwrite_factory_type-enumeration-dwriteh"></a>Énumération DWRITE_FACTORY_TYPE (DWRITE. h)
 
 Spécifie le type d’objet de fabrique DirectWrite.
 
 > [!IMPORTANT]
-> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview).
+> Cette API est disponible dans le cadre de l’implémentation DWriteCore de [DirectWrite](../direct-write-portal.md). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 8, et qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations et pour obtenir des exemples de code, consultez [vue d’ensemble de DWriteCore](../dwritecore-overview.md).
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 ```cpp
 typedef enum DWRITE_FACTORY_TYPE {
   DWRITE_FACTORY_TYPE_SHARED,
@@ -72,7 +72,7 @@ typedef enum DWRITE_FACTORY_TYPE {
 
 ## <a name="examples"></a>Exemples
 
-Consultez la rubrique [vue d’ensemble de DWriteCore](/windows/win32/directwrite/dwritecore-overview) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
+Consultez la rubrique [vue d’ensemble de DWriteCore](../dwritecore-overview.md) et l’exemple d’application [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) .
 
 ## <a name="remarks"></a>Remarques
 
@@ -80,7 +80,7 @@ Un objet de fabrique DirectWrite contient des informations sur son état interne
 
 Une fabrique restreinte est plus verrouillée qu’une fabrique isolée. Il n’interagit d’aucune manière avec un cache de polices interprocessus ou persistant. En outre, la collection de polices système retournée par cette fabrique comprend uniquement des polices bien connues. Si vous transmettez **DWRITE_FACTORY_TYPE_ISOLATED2** à une version de DWRITE antérieure à DWriteCore, [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) retourne **E_INVALIDARG**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |
 | ---- |:---- |
 | **Client minimal pris en charge** | Windows 10, réunion de projet (applications Win32) |

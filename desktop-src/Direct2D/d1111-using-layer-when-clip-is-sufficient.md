@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: a30bbfd7b8ca448928249018a28bc4d6a8a2f57f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e8463cc3940b69e326f13df6be9602dd6073fec0
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103730069"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549904"
 ---
 # <a name="d1111-using-layer-when-clip-is-sufficient"></a>D1111 : utilisation de la couche lorsque l’élément est suffisant
 
@@ -35,13 +35,13 @@ Adresse de l’interface.
 
 </dd> </dl> 
 
-|             |             |
+| &nbsp;      |    &nbsp;   |
 |-------------|-------------|
 | Niveau d’erreur | Information |
 
 
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -71,6 +71,6 @@ DEBUG INFO - PERF - A layer is being used with a NULL opacity mask, 1.0 opacity,
 
 Une couche a été utilisée lorsque les méthodes [**PushAxisAlignedClip**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushaxisalignedclip(constd2d1_rect_f__d2d1_antialias_mode)) et [**PopAxisAlignedClip**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip) seraient suffisantes.
 
- 
+ 
 
- 
+ 

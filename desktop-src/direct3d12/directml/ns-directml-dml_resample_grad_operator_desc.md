@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ff2660257fa619edb72f10efb419f3c15f43fbde
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804050"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549724"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>Structure DML_RESAMPLE_GRAD_OPERATOR_DESC (directml. h)
 
@@ -124,19 +124,19 @@ Nombre d’éléments dans les tableaux *échelles*, *InputPixelOffsets* et *Out
 
 `Scales`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 Consultez mettre à l' *échelle* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `InputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 Consultez *InputPixelOffsets* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
 `OutputPixelOffsets`
 
-Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](/windows/win32/winprog/windows-data-types) \***
+Type : \_ \_ taille \_ de champ (DimensionCount) **const [float](../../winprog/windows-data-types.md) \***
 
 Consultez *OutputPixelOffsets* dans [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc).
 
