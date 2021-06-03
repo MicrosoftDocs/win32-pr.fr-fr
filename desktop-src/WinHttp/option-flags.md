@@ -5,12 +5,12 @@ title: Indicateurs d’option (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 56eea8e528c445c5ce6f852ff8841073dd74d6a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521751"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349978"
 ---
 # <a name="option-flags"></a>Indicateurs d’option
 
@@ -296,6 +296,16 @@ Vous pouvez également encoder en pourcentage avant d’appeler WinHttp.
 </dt> </dl> </dd>
 
 <dt>
+
+<span id="WINHTTP_OPTION_EXPIRE_CONNECTION"></span><span id="winhttp_option_expire_connection"></span>**expiration de la connexion de l' \_ option WinHTTP \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+
+Cette option ne peut être définie que sur un handle de demande qui est toujours actif (envoi ou réception). La définition de cette option indique à WinHttp d’arrêter de servir les demandes sur la connexion associée au handle de demande passé. La connexion sera fermée après le handle de requête. cette option est appelée avec est terminée. Cette option ne prend aucun paramètre.
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**\_ \_ erreur étendue de l’option WinHTTP \_**
 </dt> <dd> <dl> <dt>
@@ -924,7 +934,7 @@ Définit ou récupère une chaîne qui contient le nom d’utilisateur.
 
 
 
-Définit le délai, en millisecondes, pendant lequel [**WinHttpWebSocketClose**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose) doit attendre pour terminer le protocole de transfert de fermeture. La valeur par défaut est 10 secondes.
+Définit le délai, en millisecondes, pendant lequel [**WinHttpWebSocketClose**](/windows/desktop/api/winhttp/nf-winhttp-winhttpwebsocketclose) doit attendre pour terminer le protocole de transfert de fermeture. La valeur par défaut est 10 secondes.
 
 
 </dt> </dl> </dd> <dt>
@@ -984,7 +994,7 @@ Cette option est dépréciée ; elle n’a aucun effet.
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le tableau suivant répertorie les indicateurs d’option en spécifiant les descripteurs sur lesquels ils peuvent agir, s’ils peuvent être interrogés et définis, ainsi que le type de données utilisé. Un « X » indique que l’indicateur d’option est valide pour une utilisation avec la fonction ou le handle, alors que « - » spécifie que l’indicateur d’option n’est pas valide.
 
@@ -1013,6 +1023,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | \_option WinHTTP \_ activer \_ le \_ protocole http<br/>**GRANDE** | X | X | \- | X | Windows 10 version 1607 |
 | \_option WinHTTP \_ EnableTracing,<br/>**GRANDE** | \- | \- | X | X | \- |
 | \_option WinHTTP \_ coder \_ extra<br/>**Boolean** | X | X | \- | X | Windows 10 version 1803 |
+| expiration de la connexion de l' \_ option WinHTTP \_ \_<br/>N/A | \- | X | \- | X | Windows 10 version 1903 |
 | \_ \_ erreur étendue de l’option WinHTTP \_<br/>**GRANDE** | X | X | X | \- | \- |
 | identification \_ du \_ proxy global des options \_ WinHTTP \_<br/>[**\_références WinHTTP**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | \_options WinHTTP \_ - \_ CREDS de serveur global \_<br/>[**\_références WinHTTP \_ ex**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
@@ -1079,7 +1090,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 > [!Note]
 > Pour Windows XP et Windows 2000, consultez [Configuration requise](winhttp-start-page.md)pour l’exécution.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |--------------------------|---------------------------------------------------------------------------------|

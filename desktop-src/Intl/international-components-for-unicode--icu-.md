@@ -4,12 +4,12 @@ ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: ICU (International Components for Unicode)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e00a72885b37efebf8de0d5eb60a22fe01dfba4f
-ms.sourcegitcommit: 176ef0a00690f849282cb48464c97f6526a82113
+ms.openlocfilehash: 560a2f344a3024685e17df0f434f8ffa040b5c8b
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "103953267"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349988"
 ---
 # <a name="international-components-for-unicode-icu"></a>ICU (International Components for Unicode)
 
@@ -101,7 +101,7 @@ Ensuite, vous pouvez appeler l’API ICU C à partir de ces bibliothèques. (Auc
 > [!Note]  
 >
 > - Il s’agit de la configuration pour « toutes les plateformes ».
-> - Pour que les applications Win32 utilisent ICU, elles doivent d’abord appeler [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) .
+> - Pour que les applications Win32 utilisent ICU, elles doivent d’abord appeler [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) . Sur Windows 10 version 1903 et versions ultérieures, où la bibliothèque ICU combinée (icu.dll/ICU.lib) est disponible, vous pouvez omettre l’appel de CoInitializeEx à l’aide de la bibliothèque combinée.
 > - Toutes les données retournées par les API ICU ne sont pas alignées sur le système d’exploitation Windows, car ce travail d’alignement est toujours en cours. 
 
 ## <a name="icu-example-app"></a>Exemple d’application ICU

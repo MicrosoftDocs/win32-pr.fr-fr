@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Fonctions de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f259b71e7bf76dc7f23d092f827d16af908c74a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865413"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349947"
 ---
 # <a name="synchronization-functions"></a>Fonctions de synchronisation
 
@@ -379,7 +379,7 @@ Les fonctions suivantes sont utilisées dans la synchronisation.
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | Annule une opération d’attente inscrite.                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects)           | Attend que l’un ou l’ensemble des objets spécifiés soient à l’état signalé ou que l’intervalle de délai d’attente expire.                                                                                                                                                |
 | [**WaitForMultipleObjectsEx**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex)       | Attend qu’un ou tous les objets spécifiés soient à l’état signalé, qu’une routine d’exécution d’e/s ou un appel de procédure asynchrone (APC) soit mis en file d’attente vers le thread, ou que l’intervalle de délai d’attente soit écoulé.                                                       |
-| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)                 | Attend que l’objet spécifié soit dans l’état signalé ou que l’intervalle de délai d’attente expire.                                                                                                                                                                |
+| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-waitforsingleobject)                 | Attend que l’objet spécifié soit dans l’état signalé ou que l’intervalle de délai d’attente expire.                                                                                                                                                                |
 | [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)             | Attend que l’objet spécifié soit dans l’état signalé, qu’une routine d’exécution d’e/s ou un appel de procédure asynchrone (APC) soit mis en file d’attente vers le thread, ou que l’intervalle de délai d’attente soit écoulé.                                                                       |
 | [**WaitOnAddress**](/windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress)                             | Attend la modification de la valeur à l’adresse spécifiée.                                                                                                                                                                                                    |
 | [**WaitOrTimerCallback (**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85))                 | Fonction définie par l’application qui sert d’adresse de départ pour un rappel de minuterie ou un rappel d’attente enregistré.                                                                                                                                    |

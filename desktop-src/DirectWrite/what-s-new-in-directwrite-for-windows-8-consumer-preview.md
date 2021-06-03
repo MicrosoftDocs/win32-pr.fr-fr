@@ -4,12 +4,12 @@ description: Voici quelques-uns des nouveaux ajouts à DirectWrite.
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: bf1a62917e18dcda7e7c4e3f1b05731b60628967
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "103739685"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349958"
 ---
 # <a name="whats-new-in-directwrite"></a>Nouveautés de DirectWrite
 
@@ -21,7 +21,7 @@ Cette rubrique décrit les nouveautés de [DirectWrite](direct-write-portal.md) 
 
 ## <a name="windows-10-may-2019-update"></a>Mise à jour de Windows 10 de mai 2019
 
-Aucune fonctionnalité ni API n’a été ajoutée ni mise à jour pour Windows 10, version 1903 (10,0 ; Build 18362) &mdash; également connu sous le nom de Windows 10 mai 2019 Update.
+Aucune fonctionnalité ou API n’a été ajoutée ni mise à jour pour Windows 10, version 1903 (10,0 ; Build 18362) &mdash; également connu sous le nom de Windows 10 mai 2019 Update.
 
 ## <a name="windows-10-october-2018-update"></a>Windows 10 avec la mise à jour d’octobre 2018
 
