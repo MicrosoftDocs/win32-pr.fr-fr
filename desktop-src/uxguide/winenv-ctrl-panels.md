@@ -4,12 +4,12 @@ description: Utilisez les éléments du panneau de configuration pour aider les 
 ms.assetid: 845325ef-9f1d-4aa7-a5b0-685fac74a9f8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: dde41544f2bf8c920365f160f71dce7e88d89b81
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3b0e6fdf4e0c916f80ae3c1783e4e9e5fee920a8
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953317"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443310"
 ---
 # <a name="control-panels"></a>Panneaux de contrôle
 
@@ -86,7 +86,7 @@ Lors de la conception et de l’évaluation des éléments à inclure dans le pa
 -   Modifications peu fréquentes (pour la plupart des paramètres)
 -   Modifications fréquentes (pour quelques paramètres importants)
 -   Restauration des paramètres à un état initial ou précédent
--   Résolution des problèmes
+-   Dépannage
 
 **Si vous n’avez qu’une seule chose...**
 
@@ -122,7 +122,7 @@ Les éléments de déroulement des tâches utilisent une page Hub pour présente
 
 ### <a name="task-flow-control-panel-items"></a>Éléments du panneau de configuration du déroulement des tâches
 
-**Généralités**
+**Général**
 
 -   **Gardez le contenu et les contrôles les plus importants visibles sans défilement.** Les utilisateurs ne défilent pas pour voir le contenu de la page, sauf s’ils ont une raison de. Vous pouvez toujours afficher les boutons de validation en les plaçant dans une [zone de commande](glossary.md) au lieu de la zone de contenu. Ne divisez pas les pages uniquement pour éviter le défilement.
     -   **Vous pouvez faire défiler verticalement des pages longues,** à condition que les contrôles les plus importants soient visibles sans défilement.
@@ -186,7 +186,7 @@ Lorsque vous utilisez des flux de tâches, vous souhaitez généralement qu’un
 
 ### <a name="hub-pages"></a>Pages Hub
 
-**Généralités**
+**Général**
 
 -   Utilisez les pages de Hub basées sur les tâches lorsque :
     -   **Il existe un petit nombre de tâches couramment utilisées ou importantes.**
@@ -257,7 +257,7 @@ Utilisez les volets des tâches pour présenter des liens vers des commandes, de
 
 ### <a name="spoke-pages"></a>Pages spoke
 
-**Généralités**
+**Général**
 
 -   **Utilisez les pages de tâches pour les tâches courantes ou importantes pour lesquelles les utilisateurs ont besoin de conseils et d’explications supplémentaires.**
 -   **Utilisez les pages de formulaire pour les fonctionnalités qui ont de nombreux paramètres et tirer parti d’une présentation directe à une seule page.** Les tâches idéales pour ces pages impliquent généralement des modifications évidentes de quelques propriétés simples.
@@ -443,7 +443,7 @@ Un schéma est une collection nommée de paramètres visuels. Un thème est une 
 -   **Choisissez le plus sûr (pour éviter la perte de données ou l’accès au système) et l’état initial le plus sécurisé.** Supposons que la plupart des utilisateurs ne modifieront pas les paramètres.
 -   **Si la sécurité et la sécurité ne sont pas des facteurs, choisissez l’état initial le plus probable ou le plus pratique.**
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 ### <a name="item-names"></a>Noms d’éléments
 
@@ -521,12 +521,9 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 
 -   **Conservez la même langue entre les liens de tâche et les pages vers lesquelles elles pointent.** Les utilisateurs ne doivent pas être surpris par la page affichée par un lien.
 -   **Pour les pages de tâche, créez l’instruction principale, les boutons de validation et les liens de tâche en tant que jeu de texte associé.**
-
-    **Exemples :**
-
     
 
-    |                              |                                                       |
+    | Exemple                             |    Instruction                                                   |
     |------------------------------|-------------------------------------------------------|
     | Lien de tâche :<br/>        | Connexion à un réseau sans fil<br/>              |
     | Instruction principale :<br/> | Choisir un réseau auquel se connecter<br/>             |
@@ -558,7 +555,7 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 
     Créer
 
-    DELETE
+    Supprimer
 
     Déconnecter
 
@@ -572,13 +569,13 @@ Les indications suivantes s’appliquent aux liens vers les pages de tâches, te
 
     Arrêter
 
-    Dépannage
+    Dépanner
 
     **Verbes génériques, non-aide :**
 
     Réglage
 
-    Modifier
+    Change
 
     Choose
 

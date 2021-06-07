@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 132c037a598a4a853db3203162bcdbe6cd71afca
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 40236b60a9fe9c72dd35d67fcf7c98bc188938af
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101705"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443570"
 ---
 # <a name="button-element"></a>Button, élément
 
@@ -101,9 +101,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**SplitButton. ButtonItem**](windowsribbon-element-splitbutton-buttonitem.md) .
 
@@ -204,12 +204,8 @@ Cette section de code montre les déclarations de contrôle de **bouton** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

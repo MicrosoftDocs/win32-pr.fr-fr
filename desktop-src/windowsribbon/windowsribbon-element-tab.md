@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4e54abc7e13906ada69c1e10f81878c77c4bf5d8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 410326961df84f6ae62d3c43bee3e651c9533066
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031641"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443880"
 ---
 # <a name="tab-element"></a>Tab (élément)
 
@@ -95,7 +95,7 @@ Représente un onglet [principal](windowsribbon-controls-tab.md) ou [contextuel]
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -195,12 +195,8 @@ Cette section de code montre les déclarations de contrôle d' **onglet** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+- **Système minimal pris en charge**: Windows 7 
+- **Peut être vide**: non
 
 
 

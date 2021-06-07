@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4789c4069221b0ea6f65a8636ee35501171089e6
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: ab03c15c6e72e4854ecf64d067d268c3ca4c775f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444170"
 ---
 # <a name="certification-requirements-for-windows-desktop-apps"></a>Conditions de certification des applications de bureau Windows
 
@@ -115,7 +115,7 @@ Une installation propre et réversible permet aux utilisateurs de gérer avec su
 
 ## <a name="6-apps-must-digitally-sign-files-and-drivers"></a>6. les applications doivent signer numériquement les fichiers et les pilotes
 
-Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. L’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement. <dl> 6,1 tous les fichiers exécutables (. exe,. dll,. ocx,. sys,. cpl,. drv,. SCR) doivent être signés avec un certificat Authenticode  
+Une signature numérique Authenticode permet aux utilisateurs de s’assurer que le logiciel est authentique. Il permet également de détecter si un fichier a été falsifié, par exemple s’il a été infecté par un virus. L’application de la signature de code en mode noyau est une fonctionnalité Windows appelée intégrité du code (CI), qui améliore la sécurité du système d’exploitation en vérifiant l’intégrité d’un fichier chaque fois que l’image du fichier est chargée en mémoire. CI détecte si du code malveillant a modifié un fichier binaire système. Génère également un événement de diagnostic et de journal d’audit système lorsque la signature d’un module de noyau ne parvient pas à vérifier correctement. <dl> 6,1 tous les fichiers exécutables (.exe, .dll,. ocx, .sys, .cpl,. drv,. SCR) doivent être signés avec un certificat Authenticode  
 6,2 tous les pilotes en mode noyau installés par l’application doivent avoir une signature Microsoft obtenue par le biais du programme de certification matérielle Windows. Tous les pilotes de filtre de système de fichiers doivent être signés par Microsoft.  
 6,3 exceptions et dérogations <dl> Les dérogations seront uniquement prises en compte pour les fichiers redistribuables tiers non signés, à l’exception des pilotes. Une preuve de communication demandant une version signée du ou des redistribuables est nécessaire pour que cette renonciation soit accordée.  
 </dl> </dd> </dl>
@@ -205,14 +205,13 @@ Merci encore d’avoir participé à notre engagement à offrir des expériences
 
 
 
-|               |         |                                        |                                                                                  |
-|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | Date          | Version | Description de la révision                   | Lien vers le document                                                                 |
+|---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
 | 20 décembre, 2011  | 1.0     | Brouillon initial du document pour la version préliminaire. |                                                                                  |
 | 26 janvier, 2012  | 1.1     | Mise à jour de la section \# 2.                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | 31 mai, 2012  | 1.2     | Ajout de résultats de test de synthèse             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |
 | 29 juin, 2012  | 3.0     | Document final Windows 8               | [3.0](archive--certification-requirements-for-windows-desktop-apps-v3-0.md)     |
-| 18 juin, 2013  | 3.1     | Document Windows 8.1                   | [3,1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md)     |
+| 18 juin, 2013  | 3.1     | Document Windows 8.1                   | [3.1](archive--certification-requirements-for-windows-desktop-apps-v3-1.md)     |
 | 20 février, 2014  | 3.2     | Mise à jour interne                        |                                                                                  |
 | 18 mars, 2014  | 3.3     | Windows 8.1 Update 1                   | [3.3](https://www.bing.com/search?q=3.3) |
 | 29 juillet 2015 | 10      | Mise à jour Windows 10                      | 10                                                                               |

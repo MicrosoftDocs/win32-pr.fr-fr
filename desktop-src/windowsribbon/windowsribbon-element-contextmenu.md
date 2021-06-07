@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c824e87c063fb863e79f10cb9755b74df36023f7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 916a031ed642a76fb22ecc58dbbe1ce29cbcd105
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678453"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443466"
 ---
 # <a name="contextmenu-element"></a>ContextMenu, élément
 
@@ -63,9 +63,9 @@ Représente un contrôle de menu contextuel.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque [**ContextPopup. ContextMenus**](windowsribbon-element-contextpopup-contextmenus.md).
 
@@ -167,12 +167,8 @@ Cette section de code illustre un ensemble de déclarations de contrôle **Conte
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

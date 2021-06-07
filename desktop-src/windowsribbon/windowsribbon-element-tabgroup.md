@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fcbe0760c850f37c6a7bf348c38e48aa7cf54ddc
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104198380"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444060"
 ---
 # <a name="tabgroup-element"></a>Élément TabGroup
 
@@ -71,7 +71,7 @@ Représente un ensemble contextuel de contrôles [onglet](windowsribbon-controls
 
 | Élément                                             | Description                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**Onglet**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
+| [**/**](windowsribbon-element-tab.md)<br/> | Doit se produire au moins une fois<br/> <br/> |
 
 
 
@@ -85,7 +85,7 @@ Représente un ensemble contextuel de contrôles [onglet](windowsribbon-controls
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -157,12 +157,8 @@ Cette section de code montre les déclarations de contrôle **TabGroup** corresp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+- **Système minimal pris en charge**: Windows 7 
+- **Peut être vide**: non
 
 
 

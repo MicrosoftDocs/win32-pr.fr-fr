@@ -4,12 +4,12 @@ ms.assetid: e3c9e7a8-8de6-4871-b386-2186883f2ee7
 title: Élément horizontal
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e380ca35f86ce1012084d31de732cd66c79363
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50de08008d0243d27f8a8c5f64d6aeac5ddbcc1c
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751893"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432374"
 ---
 # <a name="horizontal-element"></a>Élément horizontal
 
@@ -27,7 +27,7 @@ Contient des informations de mise en forme pour les lignes horizontales utilisé
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
@@ -67,7 +67,7 @@ Aucun
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Color</strong></td>
+<td><strong>Couleur</strong></td>
 <td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType</td>
 <td>Facultatif</td>
 <td>Couleur de l’élément.</td>
@@ -98,7 +98,7 @@ Aucun
 
 
 
-|              |                                                                   |
+|  Élément     | Valeur                                                     |
 |--------------|-------------------------------------------------------------------|
 | Type d'élément | [**ComplexType HorizontalType**](horizontaltype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                        |

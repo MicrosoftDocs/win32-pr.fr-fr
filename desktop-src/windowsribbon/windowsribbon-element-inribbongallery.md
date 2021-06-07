@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 24ecf9a34c74d8b66f838e0e49c815f00c80b89c
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: a25b2ebb937d954adce58231fd8c6b3347a031a7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104030967"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443370"
 ---
 # <a name="inribbongallery-element"></a>Élément InRibbonGallery
 
@@ -212,9 +212,9 @@ Windows 8 et versions ultérieures.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque [**ControlGroup**](windowsribbon-element-controlgroup.md) ou élément de [**groupe**](windowsribbon-element-group.md) .
 
@@ -277,11 +277,8 @@ Cette section de code montre les déclarations de contrôle **InRibbonGallery** 
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

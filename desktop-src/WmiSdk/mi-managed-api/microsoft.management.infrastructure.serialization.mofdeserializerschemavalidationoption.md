@@ -38,12 +38,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: efb6c5a694d09bcb59fedf3f186498c940a95c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18baf6fa3ab837a82d725b72b8b60e3b33b7175f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114279"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444970"
 ---
 # <a name="mofdeserializerschemavalidationoption-enumeration"></a>Énumération MofDeserializerSchemaValidationOption
 
@@ -72,13 +72,13 @@ Friend Enumeration MofDeserializerSchemaValidationOption
 
 ## <a name="members"></a>Membres
 
-||Nom du membre|Description|
-|-|-|-|
-||Default|Spécifie la validation du schéma par défaut.|
-||Strict|Spécifie une validation de schéma stricte.|
-||Compatibilité|Spécifie une validation de schéma libre.|
-||IgnorePropertyType|Spécifie que la validation de schéma doit ignorer les types de propriété.|
-||Ignorer|Spécifie que la validation de schéma doit être ignorée.|
+|Nom du membre|Description|
+|-|-|
+|Default|Spécifie la validation du schéma par défaut.|
+|Strict|Spécifie une validation de schéma stricte.|
+|Compatibilité|Spécifie une validation de schéma libre.|
+|IgnorePropertyType|Spécifie que la validation de schéma doit ignorer les types de propriété.|
+|Ignorer|Spécifie que la validation de schéma doit être ignorée.|
 
 ## <a name="see-also"></a>Voir aussi
 

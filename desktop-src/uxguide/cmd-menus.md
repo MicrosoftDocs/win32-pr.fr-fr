@@ -4,12 +4,12 @@ description: Les menus sont des listes hiérarchiques de commandes ou d’option
 ms.assetid: 3772ff8e-8057-476d-b62b-efbd5e07907f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8054a01e4198f3592a34ae09635dd60f392da1eb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7d5c52e56c88f4066e8f1dc068ac89070c7d4974
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211184"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524373"
 ---
 # <a name="menus-design-basics"></a>Menus (concepts de base de la conception)
 
@@ -37,7 +37,7 @@ Les menus ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Usage                                                                                                                                                |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Barres de menus**<br/> une barre de menus affiche les commandes et les options dans les menus déroulants. <br/>                                               | les barres de menus sont très courantes et faciles à trouver, ainsi qu’une utilisation efficace de l’espace. <br/> ![capture d’écran de la barre de menus avec le menu déroulant ](images/cmd-menus-image2.png)<br/> Barre de menus de Windows Mail.<br/>                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Menus de la barre d’outils**<br/> barre de menus implémentée en tant que barre d’outils. <br/>                                                                   | les menus de la barre d’outils sont des barres d’outils constituées principalement de commandes dans les [boutons de menu](ctrl-command-buttons.md) et les boutons partagés, avec seulement quelques commandes directes, le cas échéant. <br/> ![capture d’écran du menu déroulant de la barre d’outils ](images/cmd-menus-image3.png)<br/> Menu de barre d’outils dans la Galerie de photos Windows.<br/> Pour obtenir des instructions sur ce modèle, consultez [barres d’outils](cmd-toolbars.md).<br/>                                                                                                                                                                                                             |
@@ -127,7 +127,7 @@ Choisissez une présentation de commande qui correspond à votre type de program
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Tous les modèles de menu, à l’exception des barres de menus, ont besoin d’une flèche déroulante pour indiquer la présence d’un menu déroulant.** La présence de menus est sans dire dans une barre de menus, mais pas dans les autres modèles.
 -   **Ne modifiez pas les noms des éléments de menu de manière dynamique.** Cela est confus et inattendu. Par exemple, ne modifiez pas l’option mode portrait en mode paysage lors de la sélection. Pour les modes, utilisez à la place des [puces et des coches](#bullets-and-checkmarks) .
@@ -239,7 +239,7 @@ Lire
 Copier  
 Insérer <separator>  
 </dl> </dd> <dd>Paramètres d’objet<dl> <separator>  
-</dl> </dd> Commandes de l’objet<dl> DELETE  
+</dl> </dd> Commandes de l’objet<dl> Supprimer  
 Renommer <separator>  
 Propriétés
 </dl> </dd> </dl>
@@ -400,7 +400,7 @@ Imprimer... <separator>
 Couper  
 Copier  
 Insérer <separator>  
-DELETE  
+Supprimer  
 Renommer <separator>  
 Verrouiller <object name> (coche)  
 Propriétés

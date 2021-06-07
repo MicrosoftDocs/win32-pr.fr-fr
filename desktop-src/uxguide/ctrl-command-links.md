@@ -4,12 +4,12 @@ description: Avec les liens de commande, les utilisateurs sélectionnent une ré
 ms.assetid: a77819b1-9a32-4468-94fb-3f73a469fb81
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 29031b4456950db6ceff30d75b354dece92c5897
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b579f554d46d48fd7e373d28df516ae1c0baca6a
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761288"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524273"
 ---
 # <a name="command-links"></a>Liens de commande
 
@@ -165,7 +165,7 @@ Les liens de commande ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| Usage                                                                                                                      | Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Réponses de page** Les liens de commande sont utilisés pour répondre à l’instruction principale et passer à la page suivante.    | avec ce modèle, les liens de commande remplacent le bouton suivant, mais il existe toujours un bouton Annuler.<br/>Les réponses de page n’impliquent pas l’engagement. étant donné que les liens de commande ressemblent à des liens et que les utilisateurs associent des liens avec navigation dans un workflow de page, les liens ne sont pas appropriés pour les pages de validation les utilisateurs doivent toujours pouvoir revenir en arrière. <br/> ![Capture d’écran montrant une boîte de dialogue « se connecter à Internet » avec des liens de commande « sans fil », « Broadband (PPPoE) » et « Dial-up ».](images/ctrl-command-links-image16.png)<br/>Dans cet exemple, des liens de commande sont utilisés pour fournir des réponses descriptives à l’instruction principale. Alors que les cases d’option peuvent être utilisées ici, les liens de commande permettent aux utilisateurs de répondre d’un simple clic.<br/> |
 | **Réponses aux boîtes de dialogue** Des liens de commande sont utilisés pour répondre à l’instruction principale et fermer la boîte de dialogue.  | avec ce modèle, les liens de commande remplacent les boutons de validation (tels que OK), mais il existe toujours un bouton Annuler.<br/>Contrairement aux flux de pages, il n’existe aucun moyen d’annuler une réponse basée sur une boîte de dialogue une fois qu’elle a été effectuée. par conséquent, les liens de commande de la boîte de dialogue impliquent un engagement. <br/> ![capture d’écran de la boîte de dialogue avec des liens de commande ](images/ctrl-command-links-image17.png)<br/>Dans cet exemple, des liens de commande sont utilisés pour fournir des réponses descriptives à l’instruction principale. Alors que les cases d’option peuvent être utilisées ici, les liens de commande permettent aux utilisateurs de choisir un seul clic.<br/>                                                   |

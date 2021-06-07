@@ -4,12 +4,12 @@ description: Une confirmation est une boîte de dialogue modale qui demande si l
 ms.assetid: 086302cd-c8a1-479c-87be-580945e5d3e6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b979987daa4cf2c40308a0cda9c23b08b73f4795
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 321cab040423df3a6dc0069d568d66c85e3aa8cc
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104556091"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524523"
 ---
 # <a name="confirmations"></a>Confirmations
 
@@ -186,7 +186,7 @@ Les confirmations ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|   Usage                                                                                                                                                                    |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Confirmations de routine**<br/> Confirmez que l’utilisateur souhaite effectuer une action de routine à risque faible. <br/>                                              | Ces confirmations sont généralement formulées « voulez-vous vraiment... ? » et ont souvent une case à cocher ne plus afficher ce message pour réduire leur nuisance. <br/> ![capture d’écran de « déplacer le dossier vers la corbeille » ](images/mess-confirm-image11.png)<br/> ![capture d’écran de « ne plus afficher le message » ](images/mess-confirm-image12.png)<br/> Exemples de confirmations de routine.<br/> **Remarque :** Ce modèle est généralement inutile et doit être évité.<br/>                                                                                                                                                                                                                                                                                        |
 | **Confirmations d’action risquées**<br/> Confirmez que l’utilisateur souhaite effectuer une action qui présente un risque et ne peut pas être facilement annulée. <br/>            | Étant donné qu’ils présentent un risque, ces confirmations ont généralement une icône d’avertissement. <br/> ![Capture d’écran montrant un exemple de confirmation de mise en forme du volume.](images/mess-confirm-image13.png)<br/> ![Capture d’écran montrant un exemple de confirmation de suppression permanente.](images/mess-confirm-image14.png)<br/> Exemples de confirmations d’action risquées.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                     |
@@ -201,7 +201,7 @@ Les confirmations ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Utilisez les confirmations « enregistrer les modifications » uniquement en cas de modifications significatives.** Ne confirmez pas les modifications qui n’ont pas été apportées directement par l’utilisateur, telles que le reformatage automatique de document.
 
@@ -356,9 +356,9 @@ Pour obtenir des instructions sur l’étiquetage, consultez [Divulgation progre
 -   **N’utilisez pas l’interface utilisateur d’élévation du contrôle de compte d’utilisateur (UAC) comme substitut pour une confirmation.** Si une action nécessite une confirmation, utilisez une boîte de dialogue distincte. Au cours de l' [interface utilisateur d’élévation](winenv-uac.md), les utilisateurs doivent se concentrer sur s’ils ont démarré la tâche et si le programme est digne de confiance.
 -   **Affichez la confirmation avant l’interface utilisateur d’élévation.** Cela élimine les élévations inutiles.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres, des instructions principales, des instructions supplémentaires, des zones de contenu, des liens de commande et des boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **N’utilisez pas « avertissement » ou « attention » dans le texte.** Si les utilisateurs doivent procéder à la prudence, indiquez-le à l’aide d’une icône d’avertissement.

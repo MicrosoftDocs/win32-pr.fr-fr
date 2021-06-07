@@ -9,12 +9,12 @@ keywords:
 - flux de script, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dee2c4a9789406c21b18c58a5f281a768fc713
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 09782855bd3000d711f134c5889733e49e020c44
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311446"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444730"
 ---
 # <a name="to-use-a-script-stream"></a>Pour utiliser un flux de script
 
@@ -26,13 +26,13 @@ Les données du script doivent être mises en forme avant d’être envoyées au
 
 
 
-|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |
+| &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |   &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;  | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp;  | &nbsp; |
 |-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
-| U   | R   | L   | \\0 | h   | t   | t   | p   | :   | /   | /   | w   | w   | w   | .   | a   | d   | a   | t   | u   | m   | .   | c   | o   | m   | \\0 |
+| U   | R   | L   | &nbsp; | h   | t   | t   | p   | :   | /   | /   | w   | w   | w   | .   | a   | d   | a   | t   | u   | m   | .   | c   | o   | m   | &nbsp; |
 
 
 
- 
+ 
 
 Chaque paire de commandes de script doit être écrite en tant qu’exemple dans le writer. Pour plus d’informations sur l’écriture d’exemples, consultez [pour écrire des exemples](to-write-samples.md).
 
@@ -41,7 +41,7 @@ Lorsque le fichier ASF est lu, les commandes de script sont remises par le lecte
 > [!Note]  
 > Lorsque vous utilisez DRM pour chiffrer un fichier, aucune commande de script ne peut avoir une heure de présentation de 0.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -50,9 +50,9 @@ Lorsque le fichier ASF est lu, les commandes de script sont remises par le lecte
 [**Utilisation des commandes de script**](using-script-commands.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

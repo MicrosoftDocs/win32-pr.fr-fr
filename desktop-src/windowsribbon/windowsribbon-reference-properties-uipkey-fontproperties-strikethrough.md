@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété Strikethrough FontProperties barré 
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b07804a74671bb219b34b1c67580af083fd5c34c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b684704fdd90a8dd1b88b14db2b52540b15fccb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382536"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443790"
 ---
 # <a name="ui_pkey_fontproperties_strikethrough"></a>IU \_ \_ FontProperties \_ barré
 
@@ -17,15 +17,15 @@ Identifie la \_ \_ propriété Strikethrough FontProperties barré de l’interf
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Strikethrough
-   shellPKey = UI_PKEY_FontProperties_Strikethrough
-   formatID = 00000306-7363-696e-8441798acf5aebb7
-   propID = 306
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Strikethrough
+   shellPKey = UI_PKEY_FontProperties_Strikethrough
+   formatID = 00000306-7363-696e-8441798acf5aebb7
+   propID = 306
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface utilisateur \_ \_ FontProperties \_ barré est utilisée par une application pour interroger l’état du bouton **barré** .
 
@@ -41,7 +41,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|                                  |                                                                              |
+|   Propriété                       |    Résultat de l’interface utilisateur                                                                 |
 |----------------------------------|------------------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Le bouton **barré** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTPROPERTIES_NOTSET`       | Le bouton **barré** n’est pas sélectionné.                                    |
@@ -49,7 +49,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -64,6 +64,6 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 [Contrôle de police](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

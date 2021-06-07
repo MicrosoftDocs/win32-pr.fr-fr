@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6dfc2890e33fa7f5d93919e7361465e163dadcb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: befe0624dfef5910625a0aa067f3ad8cd9882ca2
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507950"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443420"
 ---
 # <a name="dropdowngallery-element"></a>Élément DropDownGallery
 
@@ -123,7 +123,7 @@ S’applique uniquement aux galeries où la valeur de l’attribut <em>type</em>
 | Élément                                                                                           | Description                                        |
 |---------------------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                                         | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownGallery.MenuGroups**](windowsribbon-element-dropdowngallery-menugroups.md)<br/> | Doit se produire exactement une fois<br/> <br/>     |
 | [**DropDownGallery.MenuLayout**](windowsribbon-element-dropdowngallery-menulayout.md)<br/> | Peut se produire au plus une fois<br/> <br/>      |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                               | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -176,9 +176,9 @@ Windows 8 et versions ultérieures.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownButton**](windowsribbon-element-dropdownbutton.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md)ou [**SplitButton**](windowsribbon-element-splitbutton.md) .
 
@@ -242,12 +242,8 @@ Cette section de code montre les déclarations de contrôle **DropDownGallery** 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

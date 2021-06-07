@@ -4,12 +4,12 @@ description: Exemples visuels de nombreux éléments d’interface utilisateur t
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 29cdbeb2b03ec373163bfbbce462038e0c3db681
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 2dc56707564115b612cc008d66697a2543191859
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953314"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444600"
 ---
 # <a name="visual-index"></a>Index visuel
 
@@ -27,11 +27,11 @@ Cet index est divisé en sections suivantes :
 -   [Environnement Windows](#windows-environment)
 -   [Visuels](#visuals)
 
-## <a name="controls"></a>Commandes
+## <a name="controls"></a>Contrôles
 
 
 
-|                                                                                                                                                                             |
+|   &nbsp;  | 
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [info-bulles](ctrl-balloons.md)<br/> ![capture d’écran de l’info-bulle indiquant que le verrouillage des majuscules est activé ](images/visual-index-image1.png)<br/>                                   |
 | [cases à cocher](ctrl-check-boxes.md)<br/> ![capture d’écran de quatre cases à cocher ](images/visual-index-image2.png)<br/>                                               |
@@ -64,7 +64,7 @@ Cet index est divisé en sections suivantes :
 
 
 
-|                                                                                                                                 |
+|     &nbsp;                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------|
 | [menus](cmd-menus.md)<br/> ![capture d’écran du menu Affichage et de ses sous-menus ](images/visual-index-image23.png)<br/> |
 | [barres d’outils](cmd-toolbars.md)<br/> ![capture d’écran d’une barre d’outils ](images/visual-index-image24.png)<br/>                |
@@ -78,7 +78,7 @@ Cet index est divisé en sections suivantes :
 
 
 
-|                                                                                                                                                       |
+|            &nbsp;                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [travailler en arrière-plan](inter-mouse.md)<br/> ![capture d’écran d’un pointeur en forme d’anneau avec flèche ](images/visual-index-image26.png)<br/> |
 | [emploie](inter-mouse.md)<br/> ![capture d’écran d’un pointeur en forme d’anneau ](images/visual-index-image27.png)<br/>                             |
@@ -92,7 +92,7 @@ Cet index est divisé en sections suivantes :
 
 
 
-|                                                                                                                                                 |
+|     &nbsp;                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------|
 | [boîtes de dialogue](win-dialog-box.md)<br/> ![capture d’écran de la boîte de dialogue d’aide de Windows ](images/visual-index-image29.png)<br/>        |
 | [fenêtres de propriétés](win-property-win.md)<br/> ![capture d’écran d’une nouvelle fenêtre de propriétés de dossier ](images/visual-index-image30.png)<br/> |
@@ -107,7 +107,7 @@ Cet index est divisé en sections suivantes :
 
 
 
-|                                                                                                                                                                 |
+|    &nbsp;                                                                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [tâches](winenv-taskbar.md)<br/> ![capture d’écran d’une barre des tâches ](images/visual-index-image35.png)<br/>                                               |
 | [points d’entrée du contrôle de compte d’utilisateur](winenv-uac.md)<br/> ![capture d’écran des petites icônes de blindage de sécurité](images/visual-index-image36.png)<br/> |
@@ -119,11 +119,11 @@ Cet index est divisé en sections suivantes :
 
  
 
-## <a name="visuals"></a>Objets visuels
+## <a name="visuals"></a>Visuels
 
 
 
-|                                                                                                                                                  |
+|         &nbsp;                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|
 | [frames de fenêtre](win-window-frames.md)<br/> ![capture d’écran d’un cadre autour d’une fenêtre de bloc-notes ](images/visual-index-image38.png)<br/> |
 | [police](vis-fonts.md)<br/> ![capture d’écran de l’alphabet dans la police système Windows ](images/visual-index-image39.png)<br/>             |

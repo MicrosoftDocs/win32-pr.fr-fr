@@ -4,12 +4,12 @@ description: Avec un bouton de commande, les utilisateurs lancent une action imm
 ms.assetid: 0e2ff31a-657b-4e4c-afee-2a6bd742f46c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 32c8c16cef275e1fefe44e579105515d3e61c497
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 97b452964066ce061a71a74f547305ba7d9d5794
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761294"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524583"
 ---
 # <a name="command-buttons"></a>Boutons de commande
 
@@ -84,7 +84,7 @@ Les boutons de commande ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|     Usage                                                                                                                                                                    |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Boutons de commande standard** Vous pouvez utiliser les boutons de commande standard pour lancer une action immédiate.<br/>                                                           | ![capture d’écran du bouton de commande standard (gris) ](images/ctrl-command-buttons-image6.png)<br/> Bouton de commande standard.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | **Boutons de commande par défaut** Le bouton de commande par défaut dans une fenêtre indique le bouton de commande qui sera activé lorsque les utilisateurs appuient sur la touche entrée.<br/>       | ![capture d’écran du bouton de commande par défaut (bleu) ](images/ctrl-command-buttons-image7.png)<br/> Bouton de commande par défaut.<br/> Un bouton de commande devient la valeur par défaut lorsque l’utilisateur clique sur l’onglet utilisateurs. Si le focus d’entrée se trouve sur un contrôle qui n’est pas un bouton de commande, le bouton de commande avec l’attribut de bouton par défaut devient la valeur par défaut. Un seul bouton de commande dans une fenêtre peut être la valeur par défaut.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -101,7 +101,7 @@ Les boutons de commande ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Afficher un pointeur occupé si le résultat d’un clic sur un bouton de commande n’est pas instantané.** Sans commentaires, les utilisateurs peuvent supposer que le clic n’a pas eu lieu et cliquer à nouveau sur.
 -   Si le même bouton de commande apparaît dans plusieurs fenêtres, **essayez d’utiliser le même texte d’étiquette et la même clé d’accès, et recherchez-le à peu près au même endroit dans chaque fenêtre lorsque cela est possible.**
@@ -309,20 +309,19 @@ Le tableau suivant présente certaines étiquettes de bouton de commande courant
 
 
 
-|                             |                                                                                                              |                             |
+| Étiquette du bouton | Signification              | Clé d’accès   |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------|-----------------------------|
-| **Étiquette du bouton**<br/> | **Signification**<br/>                                                                                       | **Clé d’accès**<br/>   |
 | **Précédent**<br/>         | Dans les assistants et les flux de tâches, accédez à la page précédente.<br/>                                               | 'B'<br/>              |
 | **Parcourir...**<br/>    | Affiche une boîte de dialogue pour rechercher un fichier ou un objet.<br/>                                                | « B » ou « r »<br/>       |
 | **Options**<br/>      | Affichez les options disponibles pour la personnalisation d’un programme par les utilisateurs.<br/>                                 | 'O'<br/>              |
 | **Pause**<br/>        | Dans les boîtes de dialogue en cours, interrompez la tâche.<br/>                                                       | P<br/>              |
 | **Personnaliser**<br/>  | Personnaliser une expérience principale cruciale pour l’identification personnelle de l’utilisateur avec un programme.<br/> | P<br/>              |
-| **Préférences**<br/>  | N’utilisez pas. Utilisez à la place des options.<br/>                                                                   | Non applicable.<br/>  |
+| **Préférences**<br/>  | Ne pas utiliser. Utilisez à la place des options.<br/>                                                                   | Non applicable.<br/>  |
 | **Propriétés**<br/>   | Affichez les attributs et les paramètres d’un objet.<br/>                                                | « P » ou « r » en premier<br/> |
 | **Save**<br/>         | Enregistrer un groupe de paramètres ou enregistrer un fichier ou un objet en utilisant son nom actuel.<br/>                        | X<br/>              |
 | **Enregistrer sous...**<br/>   | Enregistrer un fichier ou un objet à l’aide d’un nom spécifié.<br/>                                                     | Deuxième « a »<br/>       |
-| **Paramètres**<br/>     | N’utilisez pas. Utilisez à la place des options.<br/>                                                                   | Non applicable.<br/>  |
-| **Résoudre les problèmes**<br/> | N’utilisez pas. Utilisez un lien d’aide spécifique à la place.<br/>                                                      | Non applicable.<br/>  |
+| **Paramètres**<br/>     | Ne pas utiliser. Utilisez à la place des options.<br/>                                                                   | Non applicable.<br/>  |
+| **Résolution des problèmes**<br/> | Ne pas utiliser. Utilisez un lien d’aide spécifique à la place.<br/>                                                      | Non applicable.<br/>  |
 
 
 

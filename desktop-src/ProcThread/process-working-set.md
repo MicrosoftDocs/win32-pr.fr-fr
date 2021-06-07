@@ -4,12 +4,12 @@ ms.assetid: 6017ef59-d2e9-4245-a406-8965024dbb35
 title: Traiter la plage de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 900b5d8a19c756a9087a9b2c006259857691dc11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaded3d0b5f8c6ad552cc728c68ad0407391c343
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202849"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549901"
 ---
 # <a name="process-working-set"></a>Traiter la plage de travail
 
@@ -17,9 +17,9 @@ La *plage de travail* d’un programme est une collection de ces pages dans son 
 
 Un processus est associé à une taille de jeu de travail minimale et à une taille de jeu de travail maximale. Chaque fois que vous appelez [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa), il réserve la taille minimale du jeu de travail pour le processus. Le gestionnaire de mémoire virtuelle tente de conserver suffisamment de mémoire pour la plage de travail minimale résidant lorsque le processus est actif, mais ne conserve pas plus de la taille maximale.
 
-Pour obtenir les tailles minimale et maximale requises de la plage de travail de votre application, appelez la fonction [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize) .
+Pour obtenir les tailles minimale et maximale requises de la plage de travail de votre application, appelez la fonction [**GetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize) .
 
-Le système définit les tailles de la plage de travail par défaut. Vous pouvez également modifier les tailles de la plage de travail à l’aide de la fonction [**SetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize) . La définition de ces valeurs n’est pas une garantie que la mémoire sera réservée ou résidera. Soyez prudent lorsque vous demandez une taille de jeu de travail minimale ou maximale, car cela peut nuire aux performances du système.
+Le système définit les tailles de la plage de travail par défaut. Vous pouvez également modifier les tailles de la plage de travail à l’aide de la fonction [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize) . La définition de ces valeurs n’est pas une garantie que la mémoire sera réservée ou résidera. Soyez prudent lorsque vous demandez une taille de jeu de travail minimale ou maximale, car cela peut nuire aux performances du système.
 
 Pour obtenir la taille actuelle ou maximale de la plage de travail de votre processus, utilisez la fonction [**GetProcessMemoryInfo**](/windows/win32/api/psapi/nf-psapi-getprocessmemoryinfo) .
 

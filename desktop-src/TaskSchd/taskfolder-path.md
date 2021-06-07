@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6733c79d19bbb3d55531f05412a8c9263d76eb90
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26c917a7f03a28f7b5c379673229976897af9b5f
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941826"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387008"
 ---
 # <a name="taskfolderpath-property"></a>TaskFolder. Path, propriété
 
@@ -38,13 +38,13 @@ TaskFolder.Path As String
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Chemin d’accès à l’emplacement où le dossier est stocké. Le dossier de tâches racine est spécifié avec une barre oblique inverse ( \) . Un exemple de chemin d’accès à un dossier de tâches, sous le dossier racine de la tâche, est \\ MyTaskFolder.
+Chemin d’accès à l’emplacement où le dossier est stocké. Le dossier de tâches racine est spécifié avec une barre oblique inverse ( \\ ). Un exemple de chemin d’accès à un dossier de tâches, sous le dossier racine de la tâche, est \\ MyTaskFolder.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                          |
 | Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                    |

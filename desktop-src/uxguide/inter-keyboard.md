@@ -4,12 +4,12 @@ description: Le clavier est l’appareil d’entrée principal utilisé pour l�
 ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 4339dfd8d4d31d0d8859dcedd07fc287426b04c0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c1554ca1a9769b562f154498cd0871bc1b813067
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104569009"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524294"
 ---
 # <a name="keyboard"></a>Clavier
 
@@ -265,9 +265,8 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
 
 -   **Dans la mesure du possible, affectez des clés d’accès pour les commandes couramment utilisées conformément au tableau suivant.** Bien que les attributions de clé d’accès cohérentes ne soient pas toujours possibles, elles sont certainement préférées en particulier pour les commandes fréquemment utilisées.
 
-    |                           |                                           |
+    |  Clé d’accès         | Commande                             |
     |---------------------------|-------------------------------------------|
-    | **Clé d’accès**<br/> | **Commande**<br/>                    |
     | Un<br/>              | À propos de<br/>                          |
     | Un<br/>              | Toujours visible<br/>                  |
     | Un<br/>              | Appliquer<br/>                          |
@@ -280,7 +279,7 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
     | s<br/>              | Créer un raccourci<br/>                |
     | s<br/>              | Créer un raccourci ici<br/>           |
     | t<br/>              | Couper<br/>                            |
-    | D<br/>              | DELETE<br/>                         |
+    | D<br/>              | Supprimer<br/>                         |
     | D<br/>              | Ne plus afficher cet \[ élément \]<br/> |
     | E<br/>              | Modifier<br/>                           |
     | x<br/>              | Quitter<br/>                           |
@@ -316,14 +315,14 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
     | s<br/>              | Collage spécial<br/>                  |
     | P<br/>              | Suspendre<br/>                          |
     | P<br/>              | Lire<br/>                           |
-    | P<br/>              | Imprimer<br/>                          |
+    | P<br/>              | Impression<br/>                          |
     | P<br/>              | Imprimer ici<br/>                     |
     | r<br/>              | Propriétés<br/>                     |
     | R<br/>              | Rétablir<br/>                           |
     | R<br/>              | Répéter<br/>                         |
     | R<br/>              | Restaurer<br/>                        |
     | R<br/>              | Reprendre<br/>                         |
-    | R<br/>              | Recommencer<br/>                          |
+    | R<br/>              | Réessayer<br/>                          |
     | R<br/>              | Exécuter<br/>                            |
     | S<br/>              | Enregistrer<br/>                           |
     | a<br/>              | Enregistrer sous<br/>                        |
@@ -338,7 +337,7 @@ Dans cet exemple, le redémarrage accidentel de Windows est beaucoup plus diffic
     | U<br/>              | Annuler<br/>                           |
     | V<br/>              | Affichage<br/>                           |
     | W<br/>              | Fenêtre<br/>                         |
-    | O<br/>              | Oui<br/>                            |
+    | Y<br/>              | Oui<br/>                            |
 
     
 

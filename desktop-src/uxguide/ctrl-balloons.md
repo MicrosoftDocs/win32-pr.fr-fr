@@ -4,12 +4,12 @@ description: Une info-bulle est une petite fenêtre contextuelle qui informe les
 ms.assetid: 67092831-e573-4ad6-b1fc-baa1836031cb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 348167594db2f7895e185d8d7761832ec5c0c1cb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 792974ebaaa946a3e1a4f05d52c8fd9ac32fc87a
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321401"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524553"
 ---
 # <a name="balloons"></a>Bulles
 
@@ -66,13 +66,13 @@ Contrairement aux messages sur place :
 -   Les bulles ne nécessitent pas d’espace d’écran disponible ou la disposition dynamique requise pour afficher des messages sur place.
 -   Les bulles se suppriment automatiquement après un délai d’expiration.
 
-**Modèles d’usage**
+**Modèles d’utilisation**
 
 Les bulles ont les modèles d’utilisation suivants :
 
 
 
-|                                                                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|   Usage                                                                                                                                                            |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Problème d’entrée** Un problème d’entrée utilisateur non critique provenant d’un seul contrôle propriétaire, généralement une zone de texte. <br/>                                               | l’utilisation de bulles pour les messages d’erreur ne vole pas le focus d’entrée, mais reste très visible si le contrôle propriétaire a le focus d’entrée. pour corriger le problème, l’utilisateur devra peut-être modifier ou entrer à nouveau l’entrée ; Toutefois, si le contrôle propriétaire ignore une entrée incorrecte, il se peut que l’utilisateur n’ait pas à apporter de modifications. étant donné que le problème n’est pas critique, aucune [icône d’erreur](vis-std-icons.md) n’est nécessaire. <br/> ![Capture d’écran montrant une bulle indiquant un caractère incorrect.](images/ctrl-balloons-image3.png)<br/> Bulle utilisée pour signaler un problème d’entrée d’utilisateur non critique.<br/>                                                                                                  |
 | **Condition spéciale** Le contrôle propriétaire est dans un État qui affecte l’entrée. Cet État est probablement involontaire et l’utilisateur peut ne pas se rendre compte qu’une entrée est affectée. <br/> | Utilisez des bulles pour empêcher la frustration en avertissant les utilisateurs de conditions spéciales dès qu’elles se produisent (par exemple, en dépassant la taille maximale d’entrée ou en définissant le verrouillage des majuscules sur par erreur). Il est important de fournir ces commentaires sans voler le focus d’entrée ou forcer l’interaction, car ces conditions peuvent être intentionnelles. ces bulles sont particulièrement importantes pour les zones de mot de passe et pin, où les utilisateurs travaillent avec un minimum de commentaires. ces bulles ont une [icône d’avertissement](vis-std-icons.md). <br/> ![Capture d’écran montrant les bulles indiquant que Verr. MAJ est activé et qu’un caractère incorrect est entré.](images/ctrl-balloons-image4.png)<br/> Bulle utilisée pour signaler une condition spéciale.<br/> |

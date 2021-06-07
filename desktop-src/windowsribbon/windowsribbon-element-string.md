@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 577d318292081dddf4e2839967642c6115a474d6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0b0dab5d7ce1485aad5fe1e15442069c488933aa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030296"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443900"
 ---
 # <a name="string-element"></a>Élément String
 
@@ -106,9 +106,9 @@ Représente une ressource de type chaîne.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**Command. LabelTitle**](windowsribbon-element-command-labeltitle.md), [**Command. LabelDescription**](windowsribbon-element-command-labeldescription.md), [**Command. KeyTip**](windowsribbon-element-command-keytip.md), [**Command. TooltipTitle**](windowsribbon-element-command-tooltiptitle.md)ou [**Command. TooltipDescription**](windowsribbon-element-command-tooltipdescription.md) .
 
@@ -135,12 +135,8 @@ L’exemple suivant illustre le balisage pour un élément [**Command. LabelTitl
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+- **Système minimal pris en charge**: Windows 7 
+- **Peut être vide**: non
 
 
 

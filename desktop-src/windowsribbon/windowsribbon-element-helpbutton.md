@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5be084ff6fc92d4eac4bbaffb3c507142f91eba8
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 9f34f04133b7628cce01ac0ce2808923b4f6bbdb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106511270"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442840"
 ---
 # <a name="helpbutton-element"></a>Élément HelpButton
 
@@ -77,9 +77,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque [**ruban. HelpButton**](windowsribbon-element-ribbon-helpbutton.md).
 
@@ -113,12 +113,8 @@ Cette section de code illustre la déclaration de contrôle **HelpButton** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

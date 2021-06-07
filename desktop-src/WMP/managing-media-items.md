@@ -14,12 +14,12 @@ keywords:
 - bibliothèque, gestion des éléments multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03b8003de49de9b7e4e51aabeffa222fb649ddef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf984c2f884ae828bd6426dd2a3f6da19a78ddea
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100809"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386888"
 ---
 # <a name="managing-media-items"></a>Gestion des éléments multimédias
 
@@ -69,9 +69,9 @@ media = Player.newMedia("C:\\WMSDK\\WMPSDK10\\samples\\media\\laure.wma");
 
 
 > [!Note]  
-> Vous devez inclure deux barres obliques inverses ( \) ou utiliser le caractère @ en C#) dans une chaîne pour représenter une barre oblique inverse réelle. Cela est dû au fait que C# utilise une barre oblique inverse unique pour définir une séquence d’échappement.
+> Vous devez inclure deux caractères de barre oblique inverse ( \\ ) (ou utiliser le caractère @ en C#) dans une chaîne pour représenter une barre oblique inverse réelle. Cela est dû au fait que C# utilise une barre oblique inverse unique pour définir une séquence d’échappement.
 
- 
+ 
 
 Vous pouvez créer un élément multimédia à partir d’un fichier multimédia numérique et l’ajouter à la bibliothèque en une seule étape à l’aide de *MediaCollection*. **Ajouter** une méthode. Comme le *lecteur*. méthode **newMedia** , la méthode **Add** prend le chemin d’accès à un fichier multimédia numérique.
 
@@ -125,9 +125,9 @@ media = Player.currentPlaylist.get_Item(5);
 [**Utilisation de la bibliothèque**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: Création d’un objet de mappage de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65badc2af8aed5211c2f5c590fc0998019dae264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 550609cf9d8a052e324c585fc046472278bb428c
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319122"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524353"
 ---
 # <a name="creating-a-file-mapping-object"></a>Création d’un objet de mappage de fichier
 
@@ -36,15 +36,17 @@ Les paramètres *dwMaximumSizeHigh* et *dwMaximumSizeLow* de [**CreateFileMappin
 
 La taille de l’objet de mappage de fichier que vous sélectionnez contrôle à quelle distance dans le fichier vous pouvez « voir » le mappage de mémoire. Si vous créez un objet de mappage de fichier dont la taille est de 500 Ko, vous avez accès uniquement aux 500 premiers Ko du fichier, quelle que soit la taille du fichier. Étant donné qu’il ne coûte aucune ressource système pour créer un objet de mappage de fichier plus volumineux, créez un objet de mappage de fichier qui correspond à la taille du fichier (définissez les paramètres *dwMaximumSizeHigh* et *dwMaximumSizeLow* de [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) à la fois sur zéro) même si vous ne prévoyez pas d’afficher l’intégralité du fichier. Le coût des ressources système est lié à la création des vues et à leur accès.
 
-Si vous souhaitez afficher une partie du fichier qui ne commence pas au début du fichier, vous devez créer un objet de mappage de fichier. Cet objet correspond à la taille de la partie du fichier que vous souhaitez afficher plus l’offset dans le fichier.
+Vous pouvez afficher une partie du fichier qui ne commence pas au début du fichier. Pour plus d’informations, consultez [création d’une vue dans un fichier](creating-a-view-within-a-file.md).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
+  
+[Création d’un affichage des fichiers](creating-a-file-view.md)
+</dt> <dt>
 
 [Création d’une vue dans un fichier](creating-a-view-within-a-file.md)
 </dt> </dl>
 
- 
 
  

@@ -4,12 +4,12 @@ ms.assetid: C73752AB-3D6E-4D92-9FDE-CB68B6A9743C
 title: Vue d’ensemble du format photo HD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9275abd4b74c7eb4be7673d85bb4eab5f45a163d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62c526667c6bf77d340e895bdb66dc073134c33d
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533902"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444870"
 ---
 # <a name="hd-photo-format-overview"></a>Vue d’ensemble du format photo HD
 
@@ -35,7 +35,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                                                                                 |
+|   Composant            | Description                                                                     |
 |------------------------|---------------------------------------------------------------------------------|
 | Nom (s) formel (s)         | Photo HD, Windows Media Photo                                                   |
 | Extension (s) de nom de fichier | WDP                                                                             |
@@ -143,7 +143,7 @@ Le tableau suivant répertorie les niveaux de traitement de chevauchement dispon
 
 
 
-| Valeur | Description                                                                                                                                                                                 |
+| Value | Description                                                                                                                                                                                 |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucun traitement de chevauchement n'est activé.                                                                                                                                                           |
 | 1     | Un niveau de traitement de chevauchement est activé, modifiant les valeurs encodées de blocs 4x4 en fonction des valeurs des blocs voisins.                                                                       |
@@ -163,7 +163,7 @@ Le tableau suivant répertorie les options de sous-échantillonnage disponibles.
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                 |
+| Value | Description                                                                                                                                                                                                                                                                                 |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 3     | l’encodage 4:4:4 préserve la résolution complète de Chroma.                                                                                                                                                                                                                                            |
 | 2     | l’encodage 4:2:2 réduit la résolution chromatique à 1/2 de la résolution de luminance.                                                                                                                                                                                                                      |
@@ -237,7 +237,7 @@ Les valeurs suivantes sont autorisées.
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                                        |
 | 1     | Les FlexBits sont ignorés, ce qui rend une réduction arbitraire de la qualité de l’image transcodée sans modifier la résolution effective de l’image. La réduction exacte de la taille des fichiers ou la réduction de la qualité spécifique dépend de nombreux facteurs et ne peuvent pas être spécifiés ou prédits. Ce valuereturns une erreur si vous le spécifiez pour un canal alpha entrelacé.                                                    |
@@ -256,7 +256,7 @@ Cette option est valide uniquement si la propriété [CompressedDomainTranscode]
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 1     | Les FlexBits sont ignorés, ce qui rend une réduction arbitraire de la qualité du canal alpha planaire pour l’image transcodée sans modifier la résolution effective. La réduction exacte de la taille des fichiers ou la réduction de la qualité spécifique dépend de nombreux facteurs et ne peuvent pas être spécifiés ou prédits.                                                                                                                                                                                                                                                |

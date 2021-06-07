@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété FontProperties VerticalPositioning d
 ms.assetid: a92f845e-b0fc-4e23-9d06-ca16d2becf0b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b67e2a099b7ce02b3c94f7c9d799fcdda5e881
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 954b01ff3271b9f74fac2c130c697a70e910fc93
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031708"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444300"
 ---
 # <a name="ui_pkey_fontproperties_verticalpositioning"></a>IU \_ \_ FontProperties \_ VerticalPositioning
 
@@ -17,15 +17,15 @@ Identifie la \_ \_ propriété FontProperties VerticalPositioning de l’interfa
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_VerticalPositioning
-   shellPKey = UI_PKEY_FontProperties_VerticalPositioning
-   formatID = 00000307-7363-696e-8441798acf5aebb7
-   propID = 307
-   typeInfo
-      type = UI_FONTVERTICALPOSITION
+   name = UI_PKEY_FontProperties_VerticalPositioning
+   shellPKey = UI_PKEY_FontProperties_VerticalPositioning
+   formatID = 00000307-7363-696e-8441798acf5aebb7
+   propID = 307
+   typeInfo
+      type = UI_FONTVERTICALPOSITION
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface utilisateur \_ \_ FontProperties \_ VerticalPositioning est utilisée par une application pour interroger la valeur des contrôles **Superscript** et **indice** .
 
@@ -41,7 +41,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|                                        |                                                                                                |
+|     Propriété                           |          Résultat de l’interface utilisateur                                                                             |
 |----------------------------------------|------------------------------------------------------------------------------------------------|
 | `UI_FONTVERTICALPOSITION_NOTAVAILABLE` | Les boutons exposant et **indice** sont désactivés **et ne** peuvent être définis que par l’application. |
 | `UI_FONTVERTICALPOSITION_NOTSET`       | **Les boutons exposant et** **indice** ne sont pas sélectionnés.                                    |
@@ -50,12 +50,12 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
- 
+ 
 
 > [!Note]  
 > Les  boutons exposant et **indice** ne peuvent pas être sélectionnés.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -70,6 +70,6 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 [Contrôle de police](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

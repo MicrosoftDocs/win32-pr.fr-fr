@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13fc2323cb15bdbeb8c42e61810a376e49b3988
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 09f6370dfb868ec386e05f361240a74412f13a7d
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742732"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387635"
 ---
 # <a name="ivmvirtualpcdefaultvmconfigurationpath-property"></a>IVMVirtualPC ::D propriété efaultVMConfigurationPath
 
@@ -50,7 +50,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Spécifie le chemin d’accès au répertoire pour les fichiers de configuration d’ordinateur virtuel par défaut. Dans la chaîne de chemin d’accès, une barre oblique inverse ( \) peut apparaître juste avant le caractère null de fin.
+Spécifie le chemin d’accès au répertoire pour les fichiers de configuration d’ordinateur virtuel par défaut. Dans la chaîne de chemin d’accès, une barre oblique inverse ( \\ ) peut apparaître immédiatement avant le caractère null de fin.
 
 ## <a name="error-codes"></a>Codes d’erreur
 
@@ -70,15 +70,15 @@ Spécifie le chemin d’accès au répertoire pour les fichiers de configuration
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Par défaut, cette valeur de propriété est définie sur le répertoire suivant : « % LocalAppData% \\ Microsoft \\ Windows Virtual PC \\ machines virtuelles \\ ».
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |

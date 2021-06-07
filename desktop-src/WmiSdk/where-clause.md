@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WHERE, clause (WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a72e68d8266b72f6e41e17c0b85766b7a58bb197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0587bffb1a10c4611773de8a61fdb7ac1576952
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535610"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386718"
 ---
 # <a name="where-clause-wmi"></a>WHERE, clause (WMI)
 
@@ -28,9 +28,9 @@ où \* est l’élément interrogé à propos de, Class est la classe dans laque
 
 La valeur de la constante doit être du type correct pour la propriété. En outre, l’opérateur doit faire partie de la liste des [opérateurs WQL](wql-operators.md)valides. Un nom de propriété ou une constante doit apparaître de chaque côté de l’opérateur dans la clause WHERE.
 
-Vous pouvez utiliser des littéraux de chaîne, tels que « NTFS », dans une clause WHERE. Si vous souhaitez inclure les caractères spéciaux suivants dans votre chaîne, vous devez d’abord placer le caractère dans une séquence d’échappement en faisant précéder le caractère d’une barre oblique inverse ( \) :
+Vous pouvez utiliser des littéraux de chaîne, tels que « NTFS », dans une clause WHERE. Si vous souhaitez inclure les caractères spéciaux suivants dans votre chaîne, vous devez d’abord placer le caractère dans une séquence d’échappement en faisant précéder le caractère d’une barre oblique inverse ( \\ ) :
 
--   vers\\\)
+-   barre oblique inverse ( \\ \\ )
 -   guillemets doubles ( \\ ")
 -   guillemets simples ( \\ ')
 

@@ -4,12 +4,12 @@ description: Balises de sortie vocale Microsoft Agent
 ms.assetid: b7939974-bc54-4dd8-8e79-3ebd24e76215
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d365d4837df3e3a5afb57c355e229f21ade0b5a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e712285b8160cf12817890ac42c4d49e95d72a2b
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840097"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386798"
 ---
 # <a name="microsoft-agent-speech-output-tags"></a>Balises de sortie vocale Microsoft Agent
 
@@ -19,8 +19,8 @@ Les services Microsoft Agent prennent en charge la modification de la sortie voc
 
 Les balises de sortie vocale utilisent les règles de syntaxe suivantes :
 
--   Toutes les balises commencent et se terminent par une barre oblique inverse ( \) .
--   La barre oblique inverse unique n’est pas activée dans une balise. Pour inclure une barre oblique inverse dans un paramètre de texte d’une balise, utilisez une double barre oblique inverse ( \\ \) .
+-   Toutes les balises commencent et se terminent par une barre oblique inverse ( \\ ).
+-   La barre oblique inverse unique n’est pas activée dans une balise. Pour inclure une barre oblique inverse dans un paramètre de texte d’une balise, utilisez une double barre oblique inverse ( \\ \\ ).
 -   Les balises ne respectent pas la casse. Par exemple, \\ Pit \\ est le même que \\ Pit \\ .
 -   Les balises sont dépendantes des espaces blancs. Par exemple, \\ RST \\ n’est pas le même \\ que \\ RST.
 
@@ -68,11 +68,11 @@ Les balises sont principalement conçues pour ajuster la sortie générée par l
 > [!Note]  
 > Microsoft Agent ne prend pas en charge toutes les balises documentées dans le kit de développement logiciel (SDK) Microsoft Speech. Les paramètres peuvent également varier en fonction du moteur TTS sélectionné. Vous pouvez définir un moteur TTS spécifique à l’aide de [**TTSModeID**](ttsmodeid-property.md).
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

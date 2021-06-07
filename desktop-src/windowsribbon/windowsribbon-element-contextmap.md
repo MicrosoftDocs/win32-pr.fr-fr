@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e2ddcc8bdea16f5e00974b2b2e58934941e44c68
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 4754fc75ca09e39cdc7eabbeae2a0a2d2630c31f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106511872"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443010"
 ---
 # <a name="contextmap-element"></a>Élément ContextMap
 
@@ -93,9 +93,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque [**ContextPopup. ContextMaps**](windowsribbon-element-contextpopup-contextmaps.md).
 
@@ -193,11 +193,8 @@ Cette section de code illustre un ensemble de déclarations de contrôle **Conte
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

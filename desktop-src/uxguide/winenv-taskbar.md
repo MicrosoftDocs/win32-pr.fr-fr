@@ -4,12 +4,12 @@ description: La barre des tâches est le point d’accès pour les programmes af
 ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: f8b2bc21a75bc11c43df2cbdd37381165b89a793
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c3e549e665f0200a448144ddf7202b258e88ff26
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104553057"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443390"
 ---
 # <a name="taskbar"></a>Barre des tâches
 
@@ -232,9 +232,8 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 -   **Ne pas faire clignoter le bouton de la barre des tâches pour attirer l’attention sur un changement d’État.** Cela serait trop gênant. Permet aux utilisateurs de découvrir eux-mêmes les icônes de superposition.
 -   **Préférer les icônes de superposition standard pour indiquer l’État ou les modifications d’État.** Utilisez les icônes de superposition standard suivantes : 
 
-    |                                                                                                   |                                  |
+    | Overlay | Statut |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                            | **État**<br/>            |
     | ![capture d’écran de petite icône d’avertissement ](images/winenv-taskbar-image20.png)<br/>               | Avertissement<br/>               |
     | ![capture d’écran de l’icône d’erreur de petite taille ](images/winenv-taskbar-image21.png)<br/>                 | Error<br/>                 |
     | ![capture d’écran de la petite icône désactivée/déconnectée ](images/winenv-taskbar-image22.png)<br/> | Désactivé/déconnecté<br/> |
@@ -478,7 +477,7 @@ Pour obtenir des instructions générales et des exemples, consultez [icônes](v
 
 Pour plus d’instructions, consultez [barres de progression](progress-bars.md).
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 ### <a name="window-titles"></a>Titres des fenêtres
 

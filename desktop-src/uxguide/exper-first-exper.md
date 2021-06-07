@@ -4,12 +4,12 @@ description: Dans la première expérience idéale, les utilisateurs installent 
 ms.assetid: d925f71c-fc5a-4ff2-8f5d-9434c162b4b4
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c965ae77507b0041d17cabb34c4f53dc8216c134
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 04610b75e8ca4ea7602d00b840bbbd9002397d9e
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211196"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524453"
 ---
 # <a name="first-experience"></a>Première expérience
 
@@ -89,9 +89,8 @@ Présentez les paramètres et les tâches aux utilisateurs lors des premières e
 
 
 
-|                                             |                                                                                                                                                    |
+| Première expérience  | Autres solutions       |
 |---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Première expérience**<br/>             | **Autres solutions**<br/>                                                                                                                        |
 | Questions sur l’installation<br/>                  | Sélectionnez les valeurs par défaut appropriées.<br/> Autorisez les utilisateurs à modifier les options du programme.<br/> Fournissez des chemins d’installation par défaut et personnalisés. <br/> |
 | Questions relatives à la première utilisation<br/>              | Sélectionnez les valeurs par défaut appropriées et autorisez les utilisateurs à modifier les options du programme.<br/>                                                            |
 | Tâches de première utilisation<br/>                  | Présenter à la place en contexte.<br/>                                                                                                           |
@@ -111,7 +110,7 @@ Vous n’avez qu’une seule chance de faire une bonne première impression et l
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Limitez les premières expériences aux tâches et aux paramètres nécessaires à l’utilisation d’un programme ou d’une fonctionnalité, et incluez-les uniquement lorsqu’il n’existe aucune meilleure solution.** Pour plus d’options, consultez le tableau précédent.
     -   **Exception :** Ajoutez des paramètres de personnalisation de personnalisation ou de programme à la première expérience si leur personnalisation fait partie de l’expérience de base ou cruciale pour l’identification personnelle de l’utilisateur avec le programme.

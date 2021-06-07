@@ -4,12 +4,12 @@ ms.assetid: 434d52cb-c98d-4860-87f7-4aedab7f8188
 title: Stratégie de métadonnées de photo System. photo. FNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c518ef2a05dde8fd7e812d1d76a79cbe3efb4217
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85443b849d9f810709f3e75c3082738e5377092f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203648"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443620"
 ---
 # <a name="systemphotofnumber-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. photo. FNumber
 
@@ -54,14 +54,10 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
 
 
-|       |                               |             |     |
-|-------|-------------------------------|-------------|-----|
-| Commande | Chemin d’accès                          | Format de disque |     |
-| 1     | /App1/IFD/EXIF/{UShort = 33437} |             |     |
-| 2     | /xmp/exif:FNumber             |             |     |
-
-
-
+| Commande | Chemin d’accès                          | Format de disque |
+|-------|-------------------------------|-------------|
+| 1     | /App1/IFD/EXIF/{UShort = 33437} |             |
+| 2     | /xmp/exif:FNumber             |             | 
  
 
 ### <a name="remove-paths"></a>Supprimer les chemins
@@ -118,7 +114,7 @@ Cette valeur est générée à partir de System. photo. FNumberNumerator et de S
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

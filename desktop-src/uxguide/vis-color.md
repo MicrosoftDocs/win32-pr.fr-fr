@@ -4,12 +4,12 @@ description: La couleur est un élément visuel important de la plupart des inte
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ae58ddf232a3d8311a917ea0475c7aca1bae8949
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 598654c7e96f025bbcc1ff2a97c96df1a328c046
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104116015"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444640"
 ---
 # <a name="color"></a>Couleur
 
@@ -195,7 +195,7 @@ Tous les éléments de l’écran doivent être lisibles et s’afficher comme p
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **N’utilisez jamais la couleur comme méthode principale de communication,** mais comme méthode secondaire pour renforcer visuellement la signification.
 
@@ -217,9 +217,8 @@ Tous les éléments de l’écran doivent être lisibles et s’afficher comme p
 
 
 
-|                                      |                                                                               |                                                                                                                                                                 |
+| Teinte | Signification | Utiliser dans Windows  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Teinte**<br/>                   | **Signification**<br/>                                                        | **Utiliser dans Windows**<br/>                                                                                                                                   |
 | bleu/vert<br/>                | Windows<br/>                                                      | Arrière-plan : personnalisation de Windows.<br/>                                                                                                                        |
 | verre, noir, gris, blanc<br/> | neutre<br/>                                                            | Arrière-plan : frames de fenêtre standard, menu Démarrer, barre des tâches, encadré.<br/> Foreground : texte normal.<br/>                                                |
 | blue<br/>                      | Démarrer, valider<br/>                                                      | Background : boutons de commande par défaut, Rechercher, ouvrir une session.<br/> Icônes : informations, aide.<br/> Premier plan : instructions principales, liens.<br/>           |

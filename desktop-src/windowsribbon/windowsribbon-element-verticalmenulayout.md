@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7fb848edcc8ab5ddff1405f35d5abd414ae40d15
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: 5e6f3e4a691c9691b9bc6c8c6d760bb10635d8d8
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "103724341"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444050"
 ---
 # <a name="verticalmenulayout-element"></a>Élément VerticalMenuLayout
 
@@ -95,7 +95,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -139,11 +139,8 @@ Cette section de code montre les déclarations de contrôle [**InRibbonGallery**
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+- **Système minimal pris en charge**: Windows 7 
+- **Peut être vide**: Oui
 
 
 

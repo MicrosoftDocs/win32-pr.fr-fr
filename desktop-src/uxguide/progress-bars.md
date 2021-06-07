@@ -4,12 +4,12 @@ description: Avec une barre de progression, les utilisateurs peuvent suivre la p
 ms.assetid: 067961fa-2fb1-4cd1-99a4-cbe2244c3913
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: db8aca7300b309fb6929106cf97329956b7accb0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f0bb693541f40b82c66409b9f6696456491ba687
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104566863"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444710"
 ---
 # <a name="progress-bars"></a>Barres de progression
 
@@ -111,7 +111,7 @@ Ce modèle est généralement inutile et doit être évité.
 
 
 
-|                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   Type de barre de progression  | Description             |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Barres de progression indéterminées modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite. <br/>   | Utilisé uniquement pour les opérations dont la progression globale ne peut pas être déterminée, donc il n’y a aucune notion d’exhaustivité. les barres de progression de désachèvement sont préférables, car elles indiquent le pourcentage approximatif de l’opération qui a été effectuée, et aident les utilisateurs à déterminer si l’opération doit continuer à attendre. ils sont également moins gênants. <br/> ![capture d’écran de la barre de progression modale](images/progress-bars-image8.png)<br/> Dans cet exemple, Windows Update utilise une barre de progression modale modale pour indiquer la progression lors de la recherche de mises à jour.<br/> |
 | **Barres de progression indéterminées non modales**<br/> indiquez qu’une opération est en cours en présentant une animation qui continue continuellement à travers la barre de gauche à droite.<br/> | Contrairement aux barres de progression modales, les utilisateurs peuvent effectuer d’autres tâches pendant que le traitement est en cours. Ces barres de progression peuvent être affichées en contexte ou sur une barre d’État. <br/> ![capture d’écran de la barre de progression fine dans la fenêtre Outlook ](images/progress-bars-image9.png)<br/> Dans cet exemple, Microsoft Outlook utilise une barre de progression indéterminée sans mode en remplissant les propriétés du contact. Les utilisateurs peuvent continuer à utiliser la fenêtre des propriétés pendant que ce travail est en cours.<br/>                                                                                                                    |
@@ -124,7 +124,7 @@ Ce modèle est généralement inutile et doit être évité.
 
 
 
-|                                                                                          |                                                                                                                                                                                                                                                                                                                                                                    |
+|   Type                                                                                       |   Description                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mètres**<br/> Indiquez un pourcentage qui n’est pas lié à la progression. <br/> | Ce modèle n’est pas une barre de progression, mais il est implémenté à l’aide du contrôle de barre de progression. les compteurs ont une apparence distincte pour les différencier des véritables barres de progression. <br/> ![capture d’écran du compteur montrant l’espace disque disponible ](images/progress-bars-image10.png)<br/> Dans cet exemple, le compteur affiche le pourcentage d’espace disque utilisé.<br/> |
 
@@ -134,7 +134,7 @@ Ce modèle est généralement inutile et doit être évité.
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Fournissez des commentaires sur la progression de l’exécution d’une opération de longue durée.** Les utilisateurs ne doivent jamais deviner si la progression est effectuée.
 -   **Indiquez clairement la progression réelle.** La barre de progression doit avancer si la progression est effectuée. Si la plage des durées d’achèvement attendues est importante, envisagez d’utiliser une échelle non linéaire pour indiquer la progression des longues périodes. Vous ne souhaitez pas que les utilisateurs se terminent que votre programme s’est bloqué quand il ne l’a pas fait.

@@ -4,12 +4,12 @@ description: Avec une case à cocher, les utilisateurs font une décision entre 
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 7a175893b2dfab2999ce37e3f00395d881f03973
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 20cf5bc4fd13b974f87fbb33a5fea9a365f99735
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953318"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524302"
 ---
 # <a name="check-boxes"></a>Cases à cocher
 
@@ -75,7 +75,7 @@ Les cases à cocher ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|    Usage                                                                          |         Exemple                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Un choix individuel** Une case à cocher unique est utilisée pour sélectionner un choix individuel. <br/>                                                                                                             | ![capture d’écran d’une case à cocher avec l’étiquette me le rappeler ](images/ctrl-check-boxes-image6.png)<br/> Une case à cocher unique est utilisée pour un choix individuel.<br/>                                                                                                                                                                                                                                                                                                                        |
 | **Choix indépendants (zéro, un ou plusieurs éléments)** Un groupe de cases à cocher est utilisé pour effectuer une sélection dans un ensemble de zéro ou plusieurs choix.<br/>                                                                              | Contrairement aux contrôles à sélection unique tels que les cases d' [option](ctrl-radio-buttons.md), les utilisateurs peuvent sélectionner n’importe quelle combinaison d’options dans un groupe de cases à cocher.<br/> ![capture d’écran de deux des trois cases à cocher sélectionnées ](images/ctrl-check-boxes-image7.png)<br/> Un groupe de cases à cocher est utilisé pour des choix indépendants.<br/>                                                                                                                                                  |
@@ -88,7 +88,7 @@ Les cases à cocher ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Cases à cocher associées au groupe**. Combinez les options associées et séparez les options non liées en groupes de 10 ou moins, en utilisant plusieurs groupes si nécessaire.
 

@@ -10,12 +10,12 @@ keywords:
 - interpolateurs Windows animation, Description
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d8e0af3937cd31ccdc43216a9d3426bad0e7b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728101"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524283"
 ---
 # <a name="storyboard-overview"></a>Vue d’ensemble du storyboard
 
@@ -73,7 +73,7 @@ Le tableau suivant contient des illustrations pour chacune de ces transitions.
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                    |
+|    Illustrations                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![illustration d’une transition instantanée](images/instantaneoustransition.png)  ![illustration d’une transition constante](images/constanttransition.png)  ![illustration d’une transition linéaire](images/lineartransition.png)  ![illustration d’une transition lineat à partir d’une vitesse](images/lineartransitionfromspeed.png)  ![illustration d’une transition discrète](images/discretetransition.png) |
 | ![illustration d’une transition parabolique de l’accélération](images/parabolictransitionfromacceleration.png)  ![illustration d’une transition cubique](images/cubictransition.png)  ![illustration d’une transition d’arrêt lisse](images/smoothstoptransition.png)                                                                                                                                       |

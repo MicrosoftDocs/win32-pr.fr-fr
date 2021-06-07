@@ -4,12 +4,12 @@ description: Une info-bulle est une petite fenêtre contextuelle qui étiquette 
 ms.assetid: 80979281-eefb-485a-b42f-7f9e05665357
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ddccf694b51bf8357dd779bd70146bebf4f14345
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8911c5a008d2de6cec2bd564fd786a23c670d633
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103869373"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524533"
 ---
 # <a name="tooltips-and-infotips"></a>Info-bulles et info-bulles
 
@@ -119,7 +119,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|    Usage                                                                                                                             |    Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Info-bulles**<br/> Affichez l’étiquette d’un contrôle ou d’un glyphe sans étiquette. <br/>                                         | Comme ces conseils servent d’étiquettes, leur texte suit les indications relatives aux étiquettes pour le contrôle sous-jacent. <br/> ![capture d’écran du bouton Exporter la liste avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image5.png)<br/> dans cet exemple, l’info-bulle indique l’étiquette de la commande.<br/> ![capture d’écran du bouton fermer avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image6.png)![capture d’écran du bouton de lecture avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image7.png)<br/> dans ces exemples, les info-bulles étiquettent les boutons graphiques.<br/> ![capture d’écran de l’affichage du glyphe de menu avec info-bulle ](images/ctrl-tooltips-and-infotips-image8.png)<br/> Dans cet exemple, l’info-bulle étiquette un glyphe.<br/> |
 | **Info-bulles**<br/> fournissez une description supplémentaire ou une explication d’un objet ou d’un contrôle. <br/>                  | Utilisez info-bulles pour décrire ou expliquer des objets et des contrôles tels que les contrôles ToolBar, les [icônes](vis-icons.md) (y compris les superpositions [d'](cmd-toolbars.md) icône), les [liens](ctrl-links.md), les [onglets](ctrl-tabs.md), les [contrôles de divulgation progressive](ctrl-progressive-disclosure-controls.md)et les contrôles personnalisés. <br/> ![capture d’écran du bouton courrier électronique avec une info-bulle ](images/ctrl-tooltips-and-infotips-image9.png)<br/> ![capture d’écran du bouton de gravure avec une info-bulle ](images/ctrl-tooltips-and-infotips-image10.png)<br/> Dans ces exemples, info-bulles fournit des informations supplémentaires sur les contrôles et les objets.<br/>                                                                                        |
@@ -137,7 +137,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="timeouts"></a>Délais d'expiration
+### <a name="timeouts"></a>Délais d’expiration
 
 -   **Utilisez les délais d’attente initial et de réaffichage par défaut. Titre**
     -   Les miniatures qui ne sont pas redondantes et affichées sur le côté de leur objet associé peuvent être affichées immédiatement (sans aucun délai). Toutefois, utilisez le délai d’expiration initial par défaut pour les miniatures redondantes (par exemple, une grande info-bulle pour un petit objet graphique) ou des miniatures couvrant l’objet associé.
@@ -145,7 +145,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 -   **Pour info-bulles, désactivez le délai d’attente de suppression du Conseil. Développeurs :** étant donné que vous ne pouvez pas désactiver techniquement le délai de suppression, définissez sa valeur la plus élevée.
 -   Pour l’accessibilité, si vous devez définir les valeurs de délai d’attente sur une valeur autre que la valeur maximale, faites-les multiples des \_ paramètres système SPI GETMOUSEHOVERTIME et SPI \_ GETMESSAGEDURATION au lieu d’utiliser des heures fixes. Cela permet d’ajuster les délais d’attente à la vitesse de l’utilisateur.
 
-### <a name="placement"></a>Placement
+### <a name="placement"></a>Sélection élective
 
 -   **Évitez de couvrir l’objet avec lequel l’utilisateur est sur le ou l’utilisateur d’interagir.** Placez toujours le Conseil sur le côté de l’objet, même si cela nécessite une séparation entre le pointeur et l’info-bulle. Une séparation n’est pas un problème tant que la relation entre l’objet et son info-bulle est claire.
 

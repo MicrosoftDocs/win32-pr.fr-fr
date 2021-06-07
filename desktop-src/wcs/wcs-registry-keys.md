@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95a1c0072d9a00fe0cff4a4dbe57af839f65731b
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
+ms.openlocfilehash: 058ec839b226e96542604f151f06e2654a4180d5
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106538418"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444670"
 ---
 # <a name="wcs-registry-keys"></a>Clés de Registre WCS
 
@@ -43,7 +43,7 @@ Les applications de bureau doivent écouter les modifications apportées au regi
 
 
 
-|                                  |                                                                                                                                                    |
+|    &nbsp;  |  &nbsp;      | 
 |----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Associations de profils par utilisateur    | **HKEY \_ Current \_ User Software \\ Microsoft \\ Windows NT \\ CurrentVersion \\ ICM \\ ProfileAssociations \\ Display \\ {4d36e96e-E325-11CE-BFC1-08002BE10318}** |
 | Associations de profils à l’ensemble du système | **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Class \\ {4d36e96e-E325-11CE-BFC1-08002BE10318}**                                        |

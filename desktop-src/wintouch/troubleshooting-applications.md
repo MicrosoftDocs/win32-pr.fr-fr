@@ -13,12 +13,12 @@ keywords:
 - mouvements, dépannage des applications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf1aeb37f139ea9063c07dd7d629ac5579229863
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 389d200cedc57b7f128a535355b12a9288c6e9eb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953522"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443144"
 ---
 # <a name="troubleshooting-applications"></a>Dépannage des applications
 
@@ -28,7 +28,7 @@ Cette section fournit des solutions aux problèmes courants.
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                    |
+| Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | J’exécute Windows Server 2008 et les fonctionnalités tactiles de Windows ne fonctionnent pas.                                                                                                                                                                                                                                       |
 | Cause    | Vous n’avez pas activé l’expérience utilisateur.                                                                                                                                                                                                                                                                        |
@@ -40,7 +40,7 @@ Cette section fournit des solutions aux problèmes courants.
 
 
 
-|          |                                                                                                                                                                                                    |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Chaque fois que je déplace mon doigt rapidement sur mon application, une flèche s’affiche et mon geste ou manipulation ne s’inscrit pas correctement.                                                             |
 | Cause    | Les raccourcis sont activés lorsque vous n’en avez pas besoin.                                                                                                                                                      |
@@ -102,7 +102,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                    |
+| Category | Description |
 |----------|------------------------------------------------------------------------------------|
 | Problème    | Comment faire exécuter des applications Microsoft PixelSense sur Windows 7 ?                       |
 | Cause    | Windows Touch et Microsoft PixelSense sont incompatibles.                           |
@@ -116,7 +116,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                          |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Mon application est figée sans raison. J’obtiens des violations d’accès quand j’Initialise mes interfaces d’objet.                                                                                                                                          |
 | Cause    | Appel à **CoInitialize** manquant lors de l’utilisation des interfaces [**IManipulationProcessor**](/windows/desktop/api/manipulations/nn-manipulations-imanipulationprocessor) ou [**IInertiaProcessor**](/windows/desktop/api/manipulations/nn-manipulations-iinertiaprocessor) .                                                                                 |
@@ -128,7 +128,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                         |
+| Category | Description |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Mon objet est incorrectement pivoté lorsqu’il est en cours de traduction. La rotation à un seul doigt ne fonctionne pas correctement.                                                                                                                                                                                                                                                                           |
 | Cause    | Paramétrage incorrect des pivots sur un objet.                                                                                                                                                                                                                                                                                                                                                 |
@@ -142,7 +142,7 @@ if ((GetMessageExtraInfo() & MOUSEEVENTF_FROMTOUCH) == MOUSEEVENTF_FROMTOUCH) {
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                        |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Après avoir traité le message [**WM \_ Touch**](wm-touchdown.md) , je cesse d’obtenir des commentaires sur les limites.                                                                                                                                                                                                                                        |
 | Cause    | Consommation du message [**WM \_ Touch**](wm-touchdown.md) sans le gérer.                                                                                                                                                                                                                                                           |
@@ -264,7 +264,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 
 
-|          |                                                                                                                                                                                                                                |
+| Category | Description |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Je ne vois pas les messages [**WM \_ Touch**](wm-touchdown.md) , mais je sais que la touche Windows fonctionne parce que je vois les messages de [**\_ mouvement WM**](wm-gesture.md) .                                                             |
 | Cause    | Appel à [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow)manquant.                                                                                                                                                          |
@@ -276,7 +276,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                       |
+| Category | Description |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Je remarque des petits retards à partir du moment où je touche mon doigt jusqu’au moment où j’obtiens une entrée dans mon application.                                                                                                                                                                                                                                         |
 | Cause    | Le rejet de Palm entraîne des retards dans l’entrée.                                                                                                                                                                                                                                                                                                            |
@@ -290,7 +290,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                 |
+| Category | Description |
 |----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Une fois le message de [**\_ mouvement WM**](wm-gesture.md) géré, je cesse d’obtenir des commentaires sur les limites. Ou bien, un geste qui fonctionnait précédemment ne fonctionne pas maintenant.                                                                                                                                                                                                                         |
 | Cause    | Consommation du message [**de \_ mouvement WM**](wm-gesture.md) sans le gérer.                                                                                                                                                                                                                                                                                                    |
@@ -302,7 +302,7 @@ Pour pouvoir utiliser la fonction <a href="/windows/desktop/api/winuser/nf-winus
 
 
 
-|          |                                                                                                                                                                                                                         |
+| Category | Description |
 |----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Je ne vois pas les messages de [**\_ mouvement WM**](wm-gesture.md) , mais je sais que la touche Windows fonctionne, car je vois des messages [**WM \_ Touch**](wm-touchdown.md) .                                                      |
 | Cause    | Appel de [**RegisterTouchWindow**](/windows/desktop/api/winuser/nf-winuser-registertouchwindow).                                                                                                                                                             |
@@ -383,7 +383,7 @@ Pour obtenir plus d’exemples de configurations de mouvements typiques, consult
 
 
 
-|          |                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Category | Description |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | Les barres de défilement personnalisées dans mon application ne défilent pas lorsque j’effectue le mouvement panoramique.                                                                                                                                                                                                                                                                                                         |
 | Cause    | Gestionnaires manquants pour les messages de défilement WM corrects \_ \* .                                                                                                                                                                                                                                                                                                                                            |
@@ -395,7 +395,7 @@ Pour obtenir plus d’exemples de configurations de mouvements typiques, consult
 
 
 
-|          |                                                                                                                                                                                                                                                                 |
+| Category | Description |
 |----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Problème    | J’obtiens des retards pour les gestes.                                                                                                                                                                                                                               |
 | Cause    | Les raccourcis peuvent entraîner des retards pour les gestes.                                                                                                                                                                                                                      |

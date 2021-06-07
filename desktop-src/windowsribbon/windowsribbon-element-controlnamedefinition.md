@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14ec269ce51b0074b9a03f78aea218b482955d1b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6b2dc1db251d4d657c3793d2a66a9add1d324c37
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312664"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443440"
 ---
 # <a name="controlnamedefinition-element"></a>Élément ControlNameDefinition
 
@@ -63,9 +63,9 @@ Représente le nom d’un contrôle dans un modèle de disposition [**SizeDefini
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlNameMap**](windowsribbon-element-controlnamemap.md) .
 
@@ -163,12 +163,8 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

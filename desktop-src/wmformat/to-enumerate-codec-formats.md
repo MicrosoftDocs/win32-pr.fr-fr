@@ -13,12 +13,12 @@ keywords:
 - IWMCodecInfo3, formats de codec
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ea062723ec1480a82b45fd025fb7a8c37020d5
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0a00c9afdbeba5a187be4b992a19d4c9bdb138e1
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104030926"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444780"
 ---
 # <a name="to-enumerate-codec-formats"></a>Pour énumérer les formats de codec
 
@@ -28,14 +28,14 @@ Les formats de codec énumérés dépendent des paramètres d’énumération de
 
 
 
-|                  | Flux CBR (constant bit rate) | 2-passer le flux CBR | Débit binaire variable (VBR) basé sur la qualité | Flux VBR basé sur la fréquence de bits (contraint ou non contraint) |
+|    &nbsp;    | Flux CBR (constant bit rate) | 2-passer le flux CBR | Débit binaire variable (VBR) basé sur la qualité | Flux VBR basé sur la fréquence de bits (contraint ou non contraint) |
 |------------------|--------------------------------|-------------------|----------------------------------------------|----------------------------------------------------------|
-| \_wszVBREnabled g | FALSE                          | false             | VRAI                                         | TRUE                                                     |
+| \_wszVBREnabled g | FALSE                          | false             | VRAI                                         | VRAI                                                     |
 | \_wszNumPasses g  | 1                              | 2                 | 1                                            | 2                                                        |
 
 
 
- 
+ 
 
 Pour énumérer les formats pris en charge pour un codec, utilisez [**IWMCodecInfo :: GetCodecFormatCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount) pour rechercher le nombre de codecs pris en charge. Appelez ensuite [**IWMCodecInfo :: GetCodecFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat) pour chaque format. Les index de format sont compris entre zéro et un nombre inférieur au nombre total de formats pris en charge. Vous pouvez récupérer une description du format en appelant [**IWMCodecInfo2 :: GetCodecFormatDesc**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo2-getcodecformatdesc). Lorsque vous utilisez **GetCodecFormatDesc**, vous n’avez pas besoin d’utiliser **GetCodecFormat**, car l’objet de configuration de flux est récupéré par les deux méthodes. Les formats de codec vidéo n’incluent pas de description. Chaque codec vidéo n’a qu’un seul format utilisé pour tous les flux de ce type.
 
@@ -48,9 +48,9 @@ Lorsque vous récupérez un format de codec, vous accédez à l’interface [**I
 [**Obtention d’informations de configuration de flux à partir de codecs**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

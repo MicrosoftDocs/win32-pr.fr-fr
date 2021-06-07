@@ -4,12 +4,12 @@ description: Les éléments graphiques affichent les relations, la hiérarchie e
 ms.assetid: f9e741e9-a72e-4bdb-bd95-8916c7cf344f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: a452668bc1685143273df80fd144642a18019213
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 03db1f7a90554848f71cd43cdfa769597b71cd2f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103953319"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444630"
 ---
 # <a name="graphic-elements"></a>Éléments graphiques
 
@@ -49,7 +49,7 @@ Les éléments graphiques ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Élément                                                                                                              |   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Illustrations graphiques**<br/> Utilisez pour communiquer une idée visuellement. <br/>                         | Les illustrations graphiques sont similaires aux icônes, à ceci près qu’elles peuvent avoir n’importe quelle taille et ne sont généralement pas interactives. <br/> ![graphique de l’historique d’utilisation de l’UC de capture d’écran ](images/vis-graphic-image3.png)<br/> Dans cet exemple, une illustration graphique est utilisée pour suggérer la nature d’une fonctionnalité.<br/>                                                                                                                                                                                                        |
 | **Arrière-plans**<br/> Utilisez pour mettre en évidence ou retirer les différents types de contenu. <br/>           | Les arrière-plans peuvent être utilisés pour mettre en évidence du contenu important. <br/> ![capture d’écran du message de virus sur l’arrière-plan rouge ](images/vis-graphic-image4.png)<br/> dans cet exemple, un arrière-plan est utilisé pour mettre en évidence une tâche importante.<br/> les arrière-plans peuvent également servir à mettre en évidence du contenu secondaire. <br/> ![capture d’écran des éléments du panneau de configuration ](images/vis-graphic-image5.png)<br/> Dans cet exemple, les tâches secondaires sont déssoulignées en les localisant dans un volet de tâches.<br/>   |
@@ -66,7 +66,7 @@ Les éléments graphiques ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Ne transmettent pas d’informations essentielles par le biais d’éléments graphiques uniquement.** Cela présente des problèmes d’accessibilité pour les utilisateurs présentant des handicaps ou des handicaps.
 
@@ -135,7 +135,7 @@ Dans ces exemples, les pointeurs de redimensionnement sont affichés au pointage
     -   Graphiques mal étirés (« pixelisée »).
     -   Texte qui est coupé ou non ajusté dans les arrière-plans graphiques.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   **Pour l’accessibilité et la localisation, n’utilisez pas de texte dans les graphiques.** N’effectuez d’exceptions que pour représenter le [marquage](exper-branding.md) et le texte comme un concept abstrait.
 

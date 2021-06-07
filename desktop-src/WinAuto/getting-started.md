@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility est un ensemble d’interfaces COM (
 ms.assetid: 13148049-dbb0-4529-b1d7-0c41ebeb7543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf8e84f6e647868b23e845522c137e6cfb1b9dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 65713143e241a11d29782a4adc0f919ab9ebc3e0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106512139"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444980"
 ---
 # <a name="getting-started-microsoft-active-accessibility"></a>Prise en main (Microsoft Active Accessibility)
 
@@ -19,7 +19,7 @@ Cette documentation est organisée de manière à répondre aux besoins des dév
 
 
 
-|                                                        |                                                                                                                                                                   |
+|  Section                                                      |  Description                                                                                                                                                                 |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Présentation technique](technical-overview.md)           | Présentation de Microsoft Active Accessibility et des recommandations générales pour les développeurs de serveurs et de clients Microsoft Active Accessibility.                                |
 | [Guide du développeur C/C++](c-c---developer-s-guide.md) | Informations détaillées sur les principaux éléments et concepts de l’API d’application Microsoft Active Accessibility. Utilise des termes et des exemples familiers pour les développeurs C ou C++. |
@@ -30,7 +30,7 @@ Cette documentation est organisée de manière à répondre aux besoins des dév
 
  
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Composants Active Accessibility](sdk-components.md)
 -   [Plateformes prises en charge](supported-platforms.md)

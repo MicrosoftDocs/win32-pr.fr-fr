@@ -4,12 +4,12 @@ ms.assetid: c3047706-affd-4feb-9d48-cfb4c7dd6fa0
 title: Élément Margin
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0500d4db165012393cb600c1e118089b68c76695
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547177a10fc3724f3b9bf3dde65f857d03f0f2a4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210609"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432131"
 ---
 # <a name="margin-element"></a>Élément Margin
 
@@ -28,7 +28,7 @@ Définit les lignes de marge dessinées sur la page.
 
 ## <a name="parent-elements"></a>Éléments parents
 
-Aucun
+Aucun.
 
 ## <a name="child-elements"></a>Éléments enfants
 
@@ -72,7 +72,7 @@ Aucun..
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>Color</strong></td>
+<td><strong>Couleur</strong></td>
 <td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> , simpleType</td>
 <td>Facultatif</td>
 <td>Couleur de l’élément.</td>
@@ -106,7 +106,7 @@ Aucun..
 
 
 
-|              |                                                           |
+|  Élément     | Valeur                                                     |
 |--------------|-----------------------------------------------------------|
 | Type d'élément | ComplexType [**MarginType**](margintype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                |

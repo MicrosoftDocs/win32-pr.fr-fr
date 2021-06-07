@@ -4,12 +4,12 @@ ms.assetid: 8f32422e-25ec-48bc-9d79-57dbb3b53e93
 title: Acquisition d’image Windows (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ff1f3fb51a4c87d909637a90591336d9d2eb30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 664b5accaa1312eae3baf6161e41c9c65e718c69
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526421"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443090"
 ---
 # <a name="windows-image-acquisition-wia"></a>Acquisition d’image Windows (WIA)
 
@@ -121,13 +121,13 @@ Les rubriques WIA sont organisées comme indiqué dans le tableau suivant.
 
 
 
-|                                                                                                                              |                                                                                                   |
+|  Rubrique                                                                                                                            | Description                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [À propos de l’acquisition d’images Windows](-wia-about-windows-image-acquisition.md)                                                  | Informations générales sur WIA                                                                     |
 | [Pilotes d’acquisition d’images Windows](/windows-hardware/drivers/image/windows-image-acquisition-drivers)                  | Développement de pilotes WIA                                                                            |
 | [Couche d’automatisation d’acquisition d’images Windows](/previous-versions/windows/desktop/wiaaut/-wiaaut-startpage) | Couche Automation WIA                                                                              |
 | [Didacticiel WIA](-wia-wia-tutorial.md)                                                                                        | Procédure pas à pas du code inclus dans le kit de développement logiciel (SDK) qui se concentre sur des tâches spécifiques |
-| [Référence](-wia-reference.md)                                                                                              | Informations sur les interfaces, méthodes, objets et types de données WIA utilisés dans C/C++ et les scripts.      |
+| [Informations de référence](-wia-reference.md)                                                                                              | Informations sur les interfaces, méthodes, objets et types de données WIA utilisés dans C/C++ et les scripts.      |
 
 
 

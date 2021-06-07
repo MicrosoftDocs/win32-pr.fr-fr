@@ -4,12 +4,12 @@ ms.assetid: 566542f3-b824-442d-9d8b-0064ebcf9b68
 title: Élément Drawing
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fe516a4ba33e6e597b17ce8365d792f19468c3b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d87c0a3d8879fb5f3146c46c9c88d83a6e658d8
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520183"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432511"
 ---
 # <a name="drawing-element"></a>Élément Drawing
 
@@ -23,7 +23,7 @@ Contient le contenu qui a été classifié par l’analyseur ou par l’utilisat
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Content**](content-element--journal-reader.md)
+[**Humidité**](content-element--journal-reader.md)
 
 [**, Nœud**](groupnode-element.md)
 
@@ -56,7 +56,7 @@ Contient le contenu qui a été classifié par l’analyseur ou par l’utilisat
 
 
 
-|              |                                                             |
+|  Élément     | Valeur                                                     |
 |--------------|-------------------------------------------------------------|
 | Type d'élément | ComplexType [**DrawingType**](drawingtype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                  |

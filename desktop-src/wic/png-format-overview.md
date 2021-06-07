@@ -4,12 +4,12 @@ ms.assetid: 703217EA-70C8-4F86-B8DF-95468C78C8DA
 title: Vue d’ensemble du format PNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 118d6af831c8fb6f8cacc8407e90f610c0fc426d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bb00b7530a22fcdbcce112053431ace5e553383
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533673"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444440"
 ---
 # <a name="png-format-overview"></a>Vue d’ensemble du format PNG
 
@@ -21,7 +21,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                                 |
+|     Composant          | Description                     |
 |------------------------|---------------------------------|
 | Nom (s) formel (s)         | format PNG (Portable Network Graphics) |
 | Extension (s) de nom de fichier | png                             |

@@ -4,12 +4,12 @@ ms.assetid: 7ee9ecd3-9dd6-4c6b-80bc-23f9a8e6b352
 title: Élément InkObject
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c3c5965f2c23f3799a988a9cf2dbaa7eac29a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54c3a626da2afef506f8777ea188bdd883e29dd5
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320137"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432361"
 ---
 # <a name="inkobject-element"></a>Élément InkObject
 
@@ -25,21 +25,21 @@ Contient les données binaires encodées en base64 de l’objet Ink d’un [**In
 
 [**InkWord**](inkword-element.md)
 
-[**Schéma**](drawing-element.md)
+[**Dessin**](drawing-element.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
-Aucun
+Aucun.
 
 ## <a name="element-information"></a>Informations sur les éléments
 
 
 
-|              |                                            |
+|  Élément     | Valeur                                                     |
 |--------------|--------------------------------------------|
 | Type d'élément | **xs:base64Binary**                        |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bfab87f01700f8f4d36f76cbcbfe3696acfbec2
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106512297"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444800"
 ---
 # <a name="sizedefinition-element"></a>Élément SizeDefinition
 
@@ -87,9 +87,9 @@ Représente un modèle de disposition personnalisé de contrôles de ruban.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque élément de [**groupe**](windowsribbon-element-group.md) .
 
@@ -194,11 +194,8 @@ L’exemple de code suivant illustre un modèle personnalisé de base.
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+- **Système minimal pris en charge**: Windows 7 
+- **Peut être vide**: non
 
 
 

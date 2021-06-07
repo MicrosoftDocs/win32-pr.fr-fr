@@ -4,12 +4,12 @@ description: Le son est l’élément audio de l’expérience utilisateur.
 ms.assetid: 2a276370-eff9-4844-b008-eba9ae5ac395
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 664d78d00cf75dae8f43717db07290a26574f0c6
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 035f718494e5a0548324f3c5449c5e3ac3f49fa1
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104560634"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444540"
 ---
 # <a name="sound"></a>Son
 
@@ -111,7 +111,7 @@ Les sons ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|     Utilisation du son                                                                                                                                                                 |  Exemple                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Achèvement de l’action**<br/> avertit les utilisateurs quand une action lancée à long terme par l’utilisateur se termine avec succès. <br/>                             | ![capture d’écran de la boîte de dialogue de téléchargement de fichier ](images/vis-sound-image2.png)<br/> Dans cet exemple, la boîte de dialogue émet un son pour avertir les utilisateurs que le téléchargement est terminé.<br/>                                                                                                                                                                                                                                      |
 | **Échec de l’action**<br/> avertit les utilisateurs de façon Sonic quand une action lancée à long terme par l’utilisateur échoue. <br/>                                                 | ![capture d’écran du message d’inaccessibilité du disque de sauvegarde ](images/vis-sound-image3.png)<br/> Dans cet exemple, Windows émet un son pour avertir les utilisateurs que l’opération de sauvegarde a échoué.<br/>                                                                                                                                                                                                                                  |
@@ -192,7 +192,7 @@ Lors de la création de vos propres sons :
 -   Pour les programmes DirectSound qui ont leur propre contrôle de volume, **Définissez le volume de programme sur 100 pour cent par défaut.** Cela optimise la plage dynamique de vos données audio.
 -   **Ne verrouillez pas d’autres événements audio en exécutant votre programme en mode exclusif.** Cela peut empêcher les autres programmes de fonctionner correctement. Par exemple, l’utilisation du mode exclusif empêche l’utilisation d’un ordinateur en tant qu’appareil de téléphonie.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   N’utilisez pas l’expression carte son. Utilisez une carte son à la place.
 -   Utilisez l’appareil pour faire référence de manière générique aux haut-parleurs, aux casques et aux microphones.

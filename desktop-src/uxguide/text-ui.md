@@ -1,15 +1,15 @@
 ---
 title: Texte de l’interface utilisateur
-description: Le texte de l’interface utilisateur apparaît sur les surfaces de l’interface utilisateur.
+description: En savoir plus sur le texte de l’interface utilisateur qui apparaît sur les surfaces de l’interface utilisateur.
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 1c1a60ba0bfef33dcf1e72c5ba19b11c4a5f38a2
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a0ab5025407d5149d1747fbd083fed7df345e3f3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104562629"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444740"
 ---
 # <a name="user-interface-text"></a>Texte de l’interface utilisateur
 
@@ -29,7 +29,7 @@ Le texte de l’interface utilisateur a plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   Usage                                                                                                                                                                                          |    Description                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Barre de titre Texte**<br/> Utilisez le texte de la barre de titre pour identifier une fenêtre ou la source d’une boîte de dialogue. <br/>                                                                            | ![capture d’écran de la barre de titre options des dossiers](images/text-ui-image1.png)<br/> Dans cet exemple, le texte de la barre de titre identifie une fenêtre.<br/>                                                                                                                                                                                                                                                                                                             |
 | **Instructions principales**<br/> Utilisez l’instruction principale bien visible pour expliquer de façon concise ce que vous devez faire dans la fenêtre ou la page. <br/>                                                      | L’instruction doit être une instruction spécifique, une direction impérative ou une question. les bonnes instructions principales communiquent l’objectif de l’utilisateur au lieu de se concentrer uniquement sur la manipulation de l’interface utilisateur. <br/> ![capture d’écran de la question : voulez-vous obtenir l’aide la plus récente ? ](images/text-ui-image2.png)<br/> Dans cet exemple, le texte d’instruction principal implique directement à l’utilisateur une question en termes d’avantage ou d’intérêt de l’utilisateur.<br/>             |
@@ -107,7 +107,7 @@ Dans cet exemple, les informations essentielles se trouvent dans la requête du 
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres de la fenêtre, les instructions principales, les instructions supplémentaires, les zones de contenu, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions principales et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **Évitez les grands blocs de texte de l’interface utilisateur.** Voici les différentes façons de procéder :
@@ -153,7 +153,7 @@ Les polices et couleurs suivantes sont des valeurs par défaut pour Windows.
 | ![première colonne : texte modifiable ](images/text-ui-image17.png)<br/>               | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![première colonne : texte désactivé ](images/text-ui-image18.png)<br/>               | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![première colonne : lien ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![première colonne : liens (pointage) ](images/text-ui-image20.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![première colonne : en-tête de groupe ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![première colonne : nom de fichier (dans l’affichage du contenu) ](images/text-ui-image22.png)<br/> |  <br/>                | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![première colonne : texte du document ](images/text-ui-image23.png)<br/>               | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -609,7 +609,7 @@ Le tableau suivant répertorie les étiquettes de bouton de validation les plus 
 <td><strong>Done</strong><br/></td>
 <td>Non applicable.<br/></td>
 <td><ul>
-<li>N’utilisez pas. Une commande est incorrecte par programmation.</li>
+<li>Ne pas utiliser. Une commande est incorrecte par programmation.</li>
 </ul></td>
 <td>Non applicable.<br/></td>
 </tr>

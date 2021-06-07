@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a42e9efb30397862037426041420d96be8fd387
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382281"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442870"
 ---
 # <a name="group-element"></a>élément Group
 
@@ -87,7 +87,7 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 | Élément                                                                             | Description                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>               | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -109,13 +109,13 @@ Représente un contrôle de [groupe](windowsribbon-controls-group.md) qui foncti
 
 | Élément                                             |
 |-----------------------------------------------------|
-| [**Onglet**](windowsribbon-element-tab.md)<br/> |
+| [**/**](windowsribbon-element-tab.md)<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Tab**](windowsribbon-element-tab.md) .
 
@@ -138,12 +138,8 @@ L’exemple de code suivant illustre l’utilisation d’un modèle personnalis�
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9daf877f56bb7e9bfcc349e4efb38635a9286a48
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 14b776d3e451d84c63be5bb61b98ed22081e1a29
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090687"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387118"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>Créer une méthode de la classe Win32_Service (Services Bureau à distance)
 
@@ -59,7 +59,7 @@ uint32 Create(
 *Nom* \[ dans\]
 </dt> <dd>
 
-Nom du service à installer dans la méthode **Create** . La longueur de chaîne maximale est de 256 caractères. La base de données du gestionnaire de contrôle des services conserve la casse des caractères, mais les comparaisons de noms de services ne respectent jamais la casse. Les barres obliques inverses (/) et les barres obliques inverses ( \) caractères de nom de service non valides).
+Nom du service à installer dans la méthode **Create** . La longueur de chaîne maximale est de 256 caractères. La base de données du gestionnaire de contrôle des services conserve la casse des caractères, mais les comparaisons de noms de services ne respectent jamais la casse. Les barres obliques inverses (/) et les barres obliques inverses ( \\ \\ ) sont des caractères de nom de service non valides.
 
 </dd> <dt>
 
@@ -441,7 +441,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les services sont généralement installés de l’une des deux manières suivantes : dans le cadre de l’installation du système d’exploitation ou à l’aide d’un programme d’installation fourni par le développeur du service. Toutefois, certains services, en particulier ceux créés en interne, peuvent ne pas avoir de programme d’installation. Dans ces instances, vous pouvez utiliser la méthode **Create** pour installer des services par programme.
 
@@ -451,14 +451,14 @@ La méthode **Create** est semblable à la méthode [**change**](win32-terminals
 
 Le paramètre *LoadOrderGroup* représente un regroupement de services système définissant les dépendances d’exécution. Les services doivent être lancés dans l’ordre spécifié par le groupe d’ordre de chargement, car les services dépendent les uns des autres. Ces services dépendants requièrent la présence des services antécédents pour fonctionner correctement.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista<br/>                                                                |
-| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2008<br/>                                                          |
 | Espace de noms<br/>                | Racine \\ cimv2 \\ licences TS<br/>                                                |
 | MOF<br/>                      | <dl> <dt>TSCfgWmi. mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>TSCfgWmi.dll</dt> </dl> |

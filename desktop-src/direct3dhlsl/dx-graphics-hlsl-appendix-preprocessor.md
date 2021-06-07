@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0f2d9e51926d2a1b7bf374653becec4fe3de3daa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8efdd996ddeb58c09d1c8250f174c21bb939f082
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739229"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386828"
 ---
 # <a name="preprocessor-directives-hlsl"></a>Directives de préprocesseur (HLSL)
 
@@ -33,11 +33,11 @@ Le préprocesseur HLSL reconnaît les directives suivantes :
 -   [\#ifdef](dx-graphics-hlsl-appendix-pre-ifdef.md)
 -   [\#ifndef](dx-graphics-hlsl-appendix-pre-ifdef.md)
 -   [\#inclusion](dx-graphics-hlsl-appendix-pre-include.md)
--   [\#spline](dx-graphics-hlsl-appendix-pre-line.md)
--   [\#pragma](dx-graphics-hlsl-appendix-pre-pragma.md)
+-   [\#line](dx-graphics-hlsl-appendix-pre-line.md)
+-   [\#Bali](dx-graphics-hlsl-appendix-pre-pragma.md)
 -   [\#undef](dx-graphics-hlsl-appendix-pre-undef.md)
 
-Le signe dièse ( \# ) doit être le premier caractère autre qu’un espace blanc sur la ligne contenant la directive ; les espaces blancs peuvent apparaître entre le signe dièse et la première lettre de la directive. Certaines directives incluent des arguments ou des valeurs. Tout texte qui suit une directive (sauf un argument ou une valeur qui fait partie de la directive) doit être précédé du délimiteur de commentaire sur une seule ligne (//) ou placé entre les délimiteurs de commentaires (/ \* \* /). Les lignes contenant des directives de préprocesseur peuvent être poursuivies en faisant immédiatement précéder le marqueur de fin de ligne d’une barre oblique inverse ( \) .
+Le signe dièse ( \# ) doit être le premier caractère autre qu’un espace blanc sur la ligne contenant la directive ; les espaces blancs peuvent apparaître entre le signe dièse et la première lettre de la directive. Certaines directives incluent des arguments ou des valeurs. Tout texte qui suit une directive (sauf un argument ou une valeur qui fait partie de la directive) doit être précédé du délimiteur de commentaire sur une seule ligne (//) ou placé entre les délimiteurs de commentaires (/ \* \* /). Les lignes contenant des directives de préprocesseur peuvent être poursuivies en faisant immédiatement précéder le marqueur de fin de ligne d’une barre oblique inverse ( \\ ).
 
 Les directives de préprocesseur peuvent apparaître n'importe où dans un fichier source, mais elles s'appliquent uniquement au reste du fichier source.
 

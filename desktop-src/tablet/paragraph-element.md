@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.documents.h
-ms.openlocfilehash: bfe3752541bb54571e9802f557e83dcc7632f845
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f246294c80814ec809c0a1ca035fcb4741c30c5
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540979"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432231"
 ---
 # <a name="paragraph-element"></a>Élément paragraph
 
@@ -32,13 +32,13 @@ Contient un paragraphe.
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Content**](content-element--journal-reader.md)
+[**Humidité**](content-element--journal-reader.md)
 
 [**, Nœud**](groupnode-element.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
-[**Lignes**](line-element.md)
+[**Spline**](line-element.md)
 
 [**ParagraphLineMetrics**](paragraphlinemetrics-element.md)
 
@@ -63,7 +63,7 @@ Contient un paragraphe.
 
 
 
-|              |                                                                 |
+|  Élément     | Valeur                                                     |
 |--------------|-----------------------------------------------------------------|
 | Type d'élément | ComplexType [**ParagraphType**](paragraphtype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                      |
@@ -73,7 +73,7 @@ Contient un paragraphe.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
