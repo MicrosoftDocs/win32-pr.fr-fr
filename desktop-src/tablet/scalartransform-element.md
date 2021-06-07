@@ -4,12 +4,12 @@ ms.assetid: 88fc3b90-9ec6-41c0-9267-ed5b585ea07b
 title: Élément ScalarTransform
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f5853c0fab76cd5a4857ae0235127a2fe103872
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91ed5f7d3b44456522b45c7243b15390b7c52433
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523368"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432431"
 ---
 # <a name="scalartransform-element"></a>Élément ScalarTransform
 
@@ -23,13 +23,13 @@ Transformation scalaire utilisée par le [**dessin**](drawing-element.md) ou [**
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Schéma**](drawing-element.md)
+[**Dessin**](drawing-element.md)
 
 [**InkWord**](inkword-element.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
@@ -55,7 +55,7 @@ Aucun
 
 
 
-|              |                                                                             |
+| Élément      | Valeur                                                                       |
 |--------------|-----------------------------------------------------------------------------|
 | Type d'élément | ComplexType [**ScalarTransformType**](scalartransformtype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                                  |

@@ -4,16 +4,16 @@ ms.assetid: 779156fe-f825-452b-acbe-e2cb189e24d2
 title: Utilisation des files d’attente du minuteur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13f7afd18a22c42e3af8cffd8b2b148f68b9d99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d084a03eb25301f94361c1e7ca6b76dd9fee269
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534679"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549931"
 ---
 # <a name="using-timer-queues"></a>Utilisation des files d’attente du minuteur
 
-L’exemple suivant crée une routine de minuterie qui est exécutée par un thread à partir d’une [file d’attente de minuteur](timer-queues.md) après un délai de 10 secondes. Tout d’abord, le code utilise la fonction [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) pour créer un objet d’événement qui est signalé lorsque le thread de la file d’attente du minuteur se termine. Ensuite, il crée une file d’attente du minuteur et un minuteur de la file d’attente, à l’aide des fonctions [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) et [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) , respectivement. Le code utilise la fonction [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) pour déterminer à quel moment la routine de la minuterie est terminée. Enfin, le code appelle [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue) pour le nettoyage.
+L’exemple suivant crée une routine de minuterie qui est exécutée par un thread à partir d’une [file d’attente de minuteur](timer-queues.md) après un délai de 10 secondes. Tout d’abord, le code utilise la fonction [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) pour créer un objet d’événement qui est signalé lorsque le thread de la file d’attente du minuteur se termine. Ensuite, il crée une file d’attente du minuteur et un minuteur de la file d’attente, à l’aide des fonctions [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) et [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) , respectivement. Le code utilise la fonction [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) pour déterminer à quel moment la routine de la minuterie est terminée. Enfin, le code appelle [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue) pour le nettoyage.
 
 Pour plus d’informations sur la routine du minuteur, consultez [**WaitOrTimerCallback (**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85)).
 

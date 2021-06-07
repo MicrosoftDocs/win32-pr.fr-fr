@@ -18,12 +18,12 @@ keywords:
 - Sauvegarde SYSVOL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9796ff96efbc20ac90de6d26a0c1bac7b17633
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e7058378561072bdc0f51abb455c098a22a9ad5e
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111543"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386788"
 ---
 # <a name="registry-keys-and-values-for-backup-and-restore"></a>Clés et valeurs de Registre pour la sauvegarde et la restauration
 
@@ -69,7 +69,7 @@ La clé de Registre **FilesNotToBackup** spécifie les noms des fichiers et rép
 
 \[ \] Lecteur \[ *Chemin d’accès* \] \\ *Nom du fichier* \[ commutateur\]
 
--   Le *lecteur* spécifie le lecteur et est facultatif. Par exemple, c :. Pour spécifier tous les lecteurs, utilisez une barre oblique inverse ( \) ; aucune lettre de lecteur n’est nécessaire.
+-   Le *lecteur* spécifie le lecteur et est facultatif. Par exemple, c :. Pour spécifier tous les lecteurs, utilisez une barre oblique inverse ( \\ ); aucune lettre de lecteur n’est nécessaire.
 -   *Path* spécifie le chemin d’accès et est facultatif. Il ne peut pas contenir de caractères génériques.
 -   *Filename* spécifie le fichier ou le répertoire et est obligatoire. Il peut contenir des caractères génériques.
 -   /s spécifie que tous les sous-répertoires du chemin d’accès spécifié doivent être inclus.
@@ -219,7 +219,7 @@ Si ces valeurs de Registre n’existent pas, l’application de sauvegarde peut 
 
 Pour spécifier les paramètres de performances de tous les volumes, créez une valeur avec le nom **OverallPerformanceSetting** et tapez reg \_ DWORD. Les données de la valeur doivent être définies sur l’une des valeurs suivantes.
 
-| Valeur | Signification                                                                                                                                                                                                                                   |
+| Value | Signification                                                                                                                                                                                                                                   |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1     | Performances de sauvegarde normales (à l’aide de sauvegardes complètes). Ce paramètre correspond au paramètre de performances de sauvegarde normal décrit dans [optimisation des performances de sauvegarde et de serveur](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).            |
 | 2     | Performances de sauvegarde plus rapides (à l’aide de sauvegardes incrémentielles). Ce paramètre correspond au paramètre de performances de sauvegarde plus rapide décrit dans [optimisation des performances de sauvegarde et de serveur](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd759145(v=ws.11)).     |

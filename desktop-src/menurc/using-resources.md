@@ -4,12 +4,12 @@ description: Cette section contient le code relatif aux tâches de programmation
 ms.assetid: 73678045-1518-46cd-ab55-5d272852ba73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c197cbec1e2ecf495f7a682d70311edc45c069
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9e4f42f908bc2ee63cfa273a5251b0bd8d9bf86
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463131"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549871"
 ---
 # <a name="using-resources"></a>Utilisation des ressources
 
@@ -119,7 +119,7 @@ if (!FreeLibrary(hExe))
 
 L’exemple suivant crée une liste de toutes les ressources dans le fichier Hand.exe. La liste est écrite dans le fichier Resinfo.txt.
 
-Le code montre comment charger le fichier exécutable, créer un fichier dans lequel écrire des informations sur les ressources et appeler la fonction [**EnumResourceTypes**](/windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa) pour envoyer chaque type de ressource trouvé dans le module à la fonction de rappel définie par l’application `EnumTypesFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResTypeProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca) . Cette fonction de rappel utilise la fonction [**EnumResourceNames**](/windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa) pour passer le nom de chaque ressource dans le type spécifié à une autre fonction de rappel définie par l’application, `EnumNamesFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca) . `EnumNamesFunc` utilise la fonction [**EnumResourceLanguages**](/windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa) pour passer le langage de chaque ressource du type et du nom spécifiés à une troisième fonction de rappel, `EnumLangsFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)) . `EnumLangsFunc` écrit des informations sur la ressource du type, du nom et de la langue spécifiés dans le fichier Resinfo.txt.
+Le code montre comment charger le fichier exécutable, créer un fichier dans lequel écrire des informations sur les ressources et appeler la fonction [**EnumResourceTypes**](/windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa) pour envoyer chaque type de ressource trouvé dans le module à la fonction de rappel définie par l’application `EnumTypesFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResTypeProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca) . Cette fonction de rappel utilise la fonction [**EnumResourceNames**](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa) pour passer le nom de chaque ressource dans le type spécifié à une autre fonction de rappel définie par l’application, `EnumNamesFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca) . `EnumNamesFunc` utilise la fonction [**EnumResourceLanguages**](/windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa) pour passer le langage de chaque ressource du type et du nom spécifiés à une troisième fonction de rappel, `EnumLangsFunc` . Pour plus d’informations sur les fonctions de rappel de ce type, consultez [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)) . `EnumLangsFunc` écrit des informations sur la ressource du type, du nom et de la langue spécifiés dans le fichier Resinfo.txt.
 
 Notez que *lpszType* dans [*ENUMRESTYPEPROC*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca) est un ID de ressource ou un pointeur vers une chaîne (contenant un ID de ressource ou un nom de type); *lpszType* et *lpszName* dans [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca) et [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)) sont similaires. Pour charger une ressource énumérée, il vous suffit d’appeler la fonction appropriée. Par exemple, si une ressource de menu **( \_ menu RT**) a été énumérée, transmettez *lpszName* à [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua). Pour les ressources personnalisées, transmettez *lpszType* et *lpszName* à [**FindResource**](/windows/desktop/api/Winbase/nf-winbase-findresourcea).
 
@@ -388,6 +388,6 @@ BOOL EnumLangsFunc(
 
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a02193b4c3e61b4b8cf2f129619969f6a82a84ac
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e535fbcc09a404ad7dd5a4019438f4513f5c77c6
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211526"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443050"
 ---
 # <a name="applicationmenu-element"></a>Élément ApplicationMenu
 
@@ -87,7 +87,7 @@ Représente le [menu](windowsribbon-controls-applicationmenu.md)de l’applicati
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -184,12 +184,8 @@ Cette section de code montre les déclarations de contrôle **ApplicationMenu** 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

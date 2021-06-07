@@ -4,12 +4,12 @@ description: Avec une liste déroulante ou une zone de liste déroulante, les ut
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 646fb569cf3a7861d68d0eb885107ba12978c101
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ce9cbcac3495022edbb398bcbd78b35ac5265150
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211195"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524573"
 ---
 # <a name="drop-down-lists--combo-boxes"></a>Listes déroulantes & zones de liste déroulante
 
@@ -96,11 +96,11 @@ Les listes déroulantes et les zones de liste déroulante ont plusieurs modèles
 
 
 
-|                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+|   Usage     |    Exemple   |
 |-------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Liste déroulante **liste** déroulante standard, avec un ensemble fixe de valeurs prédéterminées. <br/>                                 | une fois fermé, seul l’élément sélectionné est visible. Quand les utilisateurs cliquent sur le bouton de liste déroulante, toutes les options deviennent visibles. pour modifier la valeur, les utilisateurs ouvrent la liste et cliquent sur une autre valeur.<br/> ![capture d’écran de la liste déroulante, options masquées ](images/ctrl-drop-image6.png)<br/> dans cet exemple, la liste est dans son état normal.<br/> ![capture d’écran de la liste déroulante, options affichées ](images/ctrl-drop-image7.png)<br/> Dans cet exemple, la liste a été déroulée.<br/> |
 | Liste déroulante d’aperçu une liste déroulante qui affiche un **Aperçu** des résultats de la sélection pour aider les utilisateurs à choisir.<br/>             | ![capture d’écran des options de couleur et de texte ](images/ctrl-drop-image8.png)<br/> Dans ces exemples, les listes déroulantes affichent un aperçu des résultats de la sélection.<br/>                                                                                                                                                                                                                                                                                                                                           |
-| Liste déroulante **modifiable** une zone de liste déroulante, qui permet aux utilisateurs d’entrer une valeur qui ne figure pas dans la liste déroulante.<br/> | ![aa511458. dropdownlists27 (en-US, MSDN. 10). png](images/ctrl-drop-image9.png)![capture d’écran de la zone de liste déroulante de taille de police modifiable ](images/ctrl-drop-image10.png)<br/> Exemples d’une liste déroulante modifiable dans les modes modifier et déroulant.<br/> Utilisez ce contrôle lorsque vous souhaitez donner la flexibilité d’une zone de texte, mais que vous souhaitez aider les utilisateurs en fournissant une liste pratique des choix possibles.<br/>                                                                                                   |
+| Liste déroulante **modifiable** une zone de liste déroulante, qui permet aux utilisateurs d’entrer une valeur qui ne figure pas dans la liste déroulante.<br/> | ![aa511458. dropdownlists27 (en-US, MSDN. 10) .png](images/ctrl-drop-image9.png)![capture d’écran de la zone de liste déroulante de taille de police modifiable ](images/ctrl-drop-image10.png)<br/> Exemples d’une liste déroulante modifiable dans les modes modifier et déroulant.<br/> Utilisez ce contrôle lorsque vous souhaitez donner la flexibilité d’une zone de texte, mais que vous souhaitez aider les utilisateurs en fournissant une liste pratique des choix possibles.<br/>                                                                                                   |
 | **Zones de liste modifiables** zone de liste modifiable standard, qui permet aux utilisateurs d’entrer une valeur qui ne figure pas dans la liste toujours visible. <br/> | ![capture d’écran de la liste déroulante des options de police ](images/ctrl-drop-image11.png)<br/> Dans ces exemples, les zones de liste modifiables sont toujours affichées.<br/> Ce contrôle est un meilleur choix que la liste déroulante modifiable lorsqu’il est important d’encourager les utilisateurs à passer en revue les choix alternatifs ou d’inviter des modifications.<br/>                                                                                                                                                                      |
 
 
@@ -109,7 +109,7 @@ Les listes déroulantes et les zones de liste déroulante ont plusieurs modèles
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **N’utilisez pas la modification d’une liste déroulante ou d’une zone de** liste déroulante pour :
     -   Exécuter des commandes.

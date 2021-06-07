@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété FontProperties gras de l’interface
 ms.assetid: 9d33142a-bd63-423e-ba77-083c86bce1e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dca8a58b9c5bfa51cfba8d80a477dafb744dfb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68800d3cfed72382f3576edfc01272c82b46c825
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510696"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444380"
 ---
 # <a name="ui_pkey_fontproperties_bold"></a>IU \_ \_ FontProperties \_ gras
 
@@ -17,15 +17,15 @@ Identifie la \_ \_ propriété FontProperties gras de l’interface utilisateur 
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Bold
-   shellPKey = UI_PKEY_FontProperties_Bold
-   formatID = 00000303-7363-696e-8441798acf5aebb7
-   propID = 303
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Bold
+   shellPKey = UI_PKEY_FontProperties_Bold
+   formatID = 00000303-7363-696e-8441798acf5aebb7
+   propID = 303
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 IU \_ \_ FontProperties \_ gras est utilisé par une application pour interroger l’état du bouton **gras** .
 
@@ -37,7 +37,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|                                  |                                                                     |
+|      Propriété                    |    Résultat de l’interface utilisateur                                                        |
 |----------------------------------|---------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | Le bouton **gras** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTPROPERTIES_NOTSET`       | Le bouton **gras** n’est pas sélectionné.                                    |
@@ -45,7 +45,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -60,6 +60,6 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 [Contrôle de police](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

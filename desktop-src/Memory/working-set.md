@@ -4,12 +4,12 @@ ms.assetid: ff05276a-1d40-4844-b649-10e32e3f1937
 title: Plage de travail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f54ed26e9809ebffd01edb30f48f36d398689e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4985e7eb526d5dda8469ccc2f46bfe6fd050c745
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524285"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549891"
 ---
 # <a name="working-set"></a>Plage de travail
 
@@ -25,7 +25,7 @@ Une *erreur de page matérielle* doit être résolue en lisant le contenu de la 
 
 Les pages peuvent être supprimées d’une plage de travail de processus suite aux actions suivantes :
 
--   Le processus réduit ou vide la plage de travail en appelant la fonction [**SetProcessWorkingSetSize**](/windows/win32/api/winbase/nf-winbase-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) ou [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) .
+-   Le processus réduit ou vide la plage de travail en appelant la fonction [**SetProcessWorkingSetSize**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsize), [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex) ou [**EmptyWorkingSet**](/windows/win32/api/psapi/nf-psapi-emptyworkingset) .
 -   Le processus appelle la fonction [**VirtualUnlock**](/windows/win32/api/memoryapi/nf-memoryapi-virtualunlock) sur une plage mémoire qui n’est pas verrouillée.
 -   Le processus annule le mappage d’une vue mappée d’un fichier à l’aide de la fonction [**UnmapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-unmapviewoffile) .
 -   Le gestionnaire de mémoire supprime les pages de la plage de travail pour créer plus de mémoire disponible.

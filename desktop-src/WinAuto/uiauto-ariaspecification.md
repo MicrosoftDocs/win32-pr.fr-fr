@@ -4,12 +4,12 @@ description: Les sites Web augmentent leur utilitaire avec un contenu dynamique 
 ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccb3841c66b84813072ccb2d32137198f6df7d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c31d6380c93506263c59855a9f2069890ab07df
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672389"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387685"
 ---
 # <a name="ui-automation-for-w3c-accessible-rich-internet-applications-specification"></a>UI Automation pour la spécification des applications Internet riches accessibles par le W3C
 
@@ -50,7 +50,7 @@ Les rôles ARIA du W3C peuvent être mappés à des rôles Microsoft Active Acce
 | Répertoire                       | [**\_liste des systèmes de rôles \_**](object-roles.md)                 | [Liste](uiauto-supportlistcontroltype.md)               | Répertoire                       |
 | document                        | [**\_client du système de rôle \_**](object-roles.md)             | [Document](uiauto-supportdocumentcontroltype.md)       | document                        |
 | formulaire                            | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportdocumentcontroltype.md)          | formulaire                            |
-| grid                            | [**\_table système des rôles \_**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | grid                            |
+| Grille                            | [**\_table système des rôles \_**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | Grille                            |
 | gridcell                        | [**\_cellule système de rôle \_**](object-roles.md)                 | [DataItem](uiauto-supportdataitemcontroltype.md)       | gridcell                        |
 | group                           | [**\_regroupement du système de rôle \_**](object-roles.md)         | [Groupe](uiauto-supportgroupcontroltype.md)             | group                           |
 | heading                         | [**\_texte du système de rôle \_**](object-roles.md)                 | [Text](uiauto-supporttextcontroltype.md)               | heading                         |
@@ -103,7 +103,7 @@ Les rôles ARIA du W3C peuvent être mappés à des rôles Microsoft Active Acce
 
 Les États et les propriétés ARIA du W3C sont mappés à différentes fonctions et propriétés de Microsoft Active Accessibility et UI Automation. La plupart des États et propriétés ARIA sont pris en charge par la propriété AriaProperties d’UI Automation. Les exceptions sont les propriétés ARIA qui prennent des références d’objet (par exemple, la propriété ARIA DescribedBy) et les propriétés ARIA qui sont prises en charge par le modèle objet d’accessibilité. Par exemple, la propriété ARIA activedescendent est supposée être représentée en tant qu’élément ayant le focus dans le modèle objet d’accessibilité. La propriété ARIA possède doit également être reflétée dans le modèle objet d’accessibilité lorsqu’elle est spécifiée.
 
-AriaProperties est une propriété de type chaîne qui a une collection de paires nom/valeur dont les délimiteurs sont le signe égal (=) et le point-virgule (;), par exemple, « Checked = True ; Disabled = false ». Une barre oblique inverse ( \) utilisée comme caractère d’échappement lorsque ces caractères de délimitation, ou une barre oblique inverse, s’affichent dans les valeurs. Le code du fournisseur peut ajouter une vérification pour valider les propriétés ARIA d’origine dans le Document Object Model, mais ce n’est pas obligatoire.
+AriaProperties est une propriété de type chaîne qui a une collection de paires nom/valeur dont les délimiteurs sont le signe égal (=) et le point-virgule (;), par exemple, « Checked = True ; Disabled = false ». Une barre oblique inverse ( \\ ) est utilisée comme échappement lorsque ces caractères de délimitation, ou une barre oblique inverse, apparaissent dans les valeurs. Le code du fournisseur peut ajouter une vérification pour valider les propriétés ARIA d’origine dans le Document Object Model, mais ce n’est pas obligatoire.
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: Élément InkWord
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 179fb5e2bcce2e01f684f0b39d662e8538c7d27e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8dc9baea7cda0346e82c11331c45f453e61f192
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536682"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432391"
 ---
 # <a name="inkword-element"></a>Élément InkWord
 
@@ -25,7 +25,7 @@ Contient des informations sur un mot manuscrit donné dans la note du journal, n
 
 [**, Nœud**](groupnode-element.md)
 
-[**Lignes**](line-element.md)
+[**Spline**](line-element.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
@@ -63,7 +63,7 @@ Contient des informations sur un mot manuscrit donné dans la note du journal, n
 
 
 
-|              |                                                             |
+|  Élément     | Valeur                                                     |
 |--------------|-------------------------------------------------------------|
 | Type d'élément | ComplexType [**InkWordType**](inkwordtype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                  |

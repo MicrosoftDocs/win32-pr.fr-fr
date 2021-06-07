@@ -4,12 +4,12 @@ ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: Création de liens symboliques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c978532ffc11e44615d4de0ea902152438ecc7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 252b999b05004fd7735b16582783ef0c3afb0013
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320109"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387705"
 ---
 # <a name="creating-symbolic-links"></a>Création de liens symboliques
 
@@ -18,7 +18,7 @@ La fonction [**CreateSymbolicLink**](/windows/desktop/api/WinBase/nf-winbase-cre
 Les liens symboliques peuvent être des liens absolus ou relatifs. Les liens absolus sont des liens qui spécifient chaque partie du nom de chemin d’accès ; les liens relatifs sont déterminés par rapport à l’emplacement relatif : les spécificateurs de lien se trouvent dans un chemin d’accès spécifié. Les liens relatifs sont spécifiés à l’aide des conventions suivantes :
 
 -   Point (. et..) les conventions, par exemple, « .. \\ » résout le chemin d’accès relatif au répertoire parent.
--   Les noms sans barres obliques ( \) par exemple, « tmp » résout le chemin d’accès relatif au répertoire actif.
+-   Les noms sans barres obliques ( \\ ), par exemple, « tmp » résout le chemin d’accès relatif au répertoire actif.
 -   La racine relative, par exemple « \\ Windows \\ system32 », est résolue en «*lecteur actuel*: \\ Windows \\ system32 ». Répertoire
 -   Répertoire de travail actuel-relatif : par exemple, si le répertoire de travail actuel est « C : \\ Windows \\ system32 », « C:File.txt » est résolu en « c : \\ Windows \\ system32 \\File.txt ».
 

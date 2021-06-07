@@ -4,12 +4,12 @@ ms.assetid: 9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E
 title: Vue d’ensemble du format JPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb953d1d6a02e47b41d1b7cf872f3381cd640151
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a2acc7fcd71fc962d3321112d342f675b878188
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519713"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444190"
 ---
 # <a name="jpeg-format-overview"></a>Vue d’ensemble du format JPEG
 
@@ -21,7 +21,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                                         |
+|   Composant            | Description                             |
 |------------------------|-----------------------------------------|
 | Nom (s) formel (s)         | Joint Photographic Experts Group (JPEG) |
 | Extension (s) de nom de fichier | JPE, JPEG, jpg                          |

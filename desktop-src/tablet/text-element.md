@@ -4,12 +4,12 @@ ms.assetid: 09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7
 title: Text, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed9c72fe584d0e796d4a6f897297aa60bbeddc5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 570f613a06f9fe814bfb1acbdbdba040dbc1119f
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952912"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432315"
 ---
 # <a name="text-element"></a>Text, élément
 
@@ -31,7 +31,7 @@ Ou, en cas d’utilisation avec [**TitleInfo**](titleinfo-element.md) et [**, n�
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Content**](content-element--journal-reader.md)
+[**Humidité**](content-element--journal-reader.md)
 
 [**, Nœud**](groupnode-element.md)
 
@@ -39,7 +39,7 @@ Ou, en cas d’utilisation avec [**TitleInfo**](titleinfo-element.md) et [**, n�
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
@@ -62,7 +62,7 @@ Il n’existe aucun attribut lorsqu’il est utilisé avec [**TitleInfo**](title
 
 
 
-|              |                                                                                                                                                                                                     |
+|   Élément           |   Valeur                                |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément | [**TextType**](texttype-complex-type.md) complexType (avec l’élément content) ou **XS : String** (avec les éléments [**, nœud**](groupnode-element.md) et [**TitleInfo**](titleinfo-element.md) ) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk<br/>                                                                                                                                               |

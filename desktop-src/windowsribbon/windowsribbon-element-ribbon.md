@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76ce73735d05b3d8c8cfa686f53570fd08ae6f1c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9a743fc354dfea73c525884ec5ffe1f9471f3752
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509624"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445000"
 ---
 # <a name="ribbon-element"></a>Élément Ribbon
 
@@ -97,7 +97,7 @@ Représente le contrôle de ruban dans la vue du ruban.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -137,10 +137,9 @@ L’exemple suivant illustre le balisage de base pour une vue de **ruban** .
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

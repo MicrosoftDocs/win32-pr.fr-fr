@@ -4,12 +4,12 @@ ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: Élément, nœud
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee141691ef58d14e6c08a49544e9cf3ecf7540b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbc4d39a592b5b6328bd31ff37761cfd3f0138c0
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516887"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432570"
 ---
 # <a name="groupnode-element"></a>Élément, nœud
 
@@ -23,7 +23,7 @@ Contient un ensemble d’éléments ([**paragraphe**](paragraph-element.md), [**
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Content**](content-element--journal-reader.md)
+[**Humidité**](content-element--journal-reader.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
@@ -31,9 +31,9 @@ Contient un ensemble d’éléments ([**paragraphe**](paragraph-element.md), [**
 
 [**InkWord**](inkword-element.md)
 
-[**Schéma**](drawing-element.md)
+[**Dessin**](drawing-element.md)
 
-[**Texte**](text-element.md)
+[**Text**](text-element.md)
 
 [**Image**](docimage-element.md)
 
@@ -58,7 +58,7 @@ Contient un ensemble d’éléments ([**paragraphe**](paragraph-element.md), [**
 
 
 
-|              |                                                                 |
+|  Élément     | Valeur                                                     |
 |--------------|-----------------------------------------------------------------|
 | Type d'élément | ComplexType [**GroupNodeType**](groupnodetype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk                      |

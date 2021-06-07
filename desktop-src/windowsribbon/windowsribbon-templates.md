@@ -12,12 +12,12 @@ keywords:
 - personnalisation du ruban Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b12618f88576cddeff119534215e501216193c3
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: f6576a672aa8c3d328a341370a7568595e988908
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104568675"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444140"
 ---
 # <a name="customizing-a-ribbon-through-size-definitions-and-scaling-policies"></a>Personnalisation d’un ruban à l’aide de définitions de taille et de stratégies de mise à l’échelle
 
@@ -811,11 +811,11 @@ Les images suivantes montrent comment les modèles de l’exemple précédent so
 
 
 
-|        |                                                                                                    |
+|  Type  |      Image                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
-| Grande  | ![image d’un modèle personnalisé de grande taille en ligne.](images/overviews/sizedefinition-custom-large.png)   |
+| Large  | ![image d’un modèle personnalisé de grande taille en ligne.](images/overviews/sizedefinition-custom-large.png)   |
 | Moyenne | ![image d’un modèle personnalisé de moyenne en ligne.](images/overviews/sizedefinition-custom-medium.png) |
-| Petite  | ![image d’un petit modèle personnalisé en ligne.](images/overviews/sizedefinition-custom-small.png)   |
+| Small  | ![image d’un petit modèle personnalisé en ligne.](images/overviews/sizedefinition-custom-small.png)   |
 | Fenêtre contextuelle  | ![image d’un modèle personnalisé contextuelle en ligne.](images/overviews/sizedefinition-custom-popup.png)   |
 
 
@@ -829,7 +829,7 @@ Les images suivantes montrent comment les modèles de l’exemple précédent so
 [**SizeDefinition**](windowsribbon-element-sizedefinition.md)
 </dt> <dt>
 
-[**Scale**](windowsribbon-element-scale.md)
+[**Mise à l’échelle**](windowsribbon-element-scale.md)
 </dt> <dt>
 
 [**Groupe**](windowsribbon-element-group.md)

@@ -83,12 +83,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 52e3a5b60a331a74ced1888d5a196348497c5ff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d928228873b893228c7fddc22fc1ca29ca511cd
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103757719"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549751"
 ---
 # <a name="shlwapi-wrapper-functions"></a>Fonctions de wrapper SHLWAPI
 
@@ -113,7 +113,7 @@ Les fonctions wrapper dans ce tableau sont toutes contenues dans Shlwapi.dll. Po
 
 
 
-| Fonction                  | Ordinal | Transférer à                                             | DLL      | Notes                                                                                                                             |
+| Function                  | Ordinal | Transférer à                                             | DLL      | Remarques                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(menu)](#menu)                                                           |
 | CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32   | [cliqu](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,11 +187,11 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
 
 
-| Fonction                     | Ordinal | Transférer à                                                                     | DLL      | Notes                                                                        |
+| Function                     | Ordinal | Transférer à                                                                     | DLL      | Remarques                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
-| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/winbase/nf-winbase-deletetimerqueue)                                   | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
+| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)                                   | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
 | SHInterlockedCompareExchange | 342     | [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) | KERNEL32 | [CompareExchange](#compareexchange)                                          |
 | SHQueueUserWorkItem          | 260     | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)                                 | KERNEL32 | [(QueueUserWorkItem)](#queueuserworkitem), [(h)](#shlwapi-wrapper-functions)   |
 | SHSetTimerQueueTimer         | 263     | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer)                         | KERNEL32 | [(SetTimerQueueTimer)](#settimerqueuetimer), [(h)](#shlwapi-wrapper-functions) |
@@ -200,7 +200,7 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ### <a name="a"></a>un
 
@@ -363,7 +363,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Valeur      | Signification                          |
+    | Nom              | Value      | Signification                          |
     |-------------------|------------|----------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD.   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION. |
@@ -462,7 +462,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Valeur      | Signification                         |
+    | Nom              | Value      | Signification                         |
     |-------------------|------------|---------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION |

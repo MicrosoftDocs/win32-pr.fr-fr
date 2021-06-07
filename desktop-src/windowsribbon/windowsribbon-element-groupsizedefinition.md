@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5cf166dbf428c9d17beb148887cc94be73dc11a0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 650301a29ace2c6df9316a315d4cdbad448e5573
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106511265"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443380"
 ---
 # <a name="groupsizedefinition-element"></a>Élément GroupSizeDefinition
 
@@ -74,7 +74,7 @@ Représente la taille de disposition d’un groupe de contrôles dans un modèle
 | [**ColumnBreak**](windowsribbon-element-columnbreak.md)<br/>                     | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>                   | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlSizeDefinition**](windowsribbon-element-controlsizedefinition.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**Haut**](windowsribbon-element-row.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Ligne**](windowsribbon-element-row.md)<br/>                                     | Peut se produire une ou plusieurs fois<br/> <br/> |
 
 
 
@@ -88,9 +88,9 @@ Représente la taille de disposition d’un groupe de contrôles dans un modèle
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire jusqu’à trois fois pour chaque élément [**SizeDefinition**](windowsribbon-element-sizedefinition.md) (une fois pour chaque *taille*).
 
@@ -188,12 +188,8 @@ L’exemple de code suivant illustre un modèle personnalisé de base qui compre
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

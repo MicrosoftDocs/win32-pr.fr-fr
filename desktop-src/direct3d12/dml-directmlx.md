@@ -4,12 +4,12 @@ description: DirectMLX est une bibliothèque d’assistance en-tête C++ uniquem
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 2ddd6d9063002b76449224ebafdb6dd021b27fa0
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ba7eca27a39b690f678bdac1ea0feba1991e8b40
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803363"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521186"
 ---
 # <a name="directmlx"></a>DirectMLX
 
@@ -27,7 +27,7 @@ DirectMLX requiert DirectML version 1.4.0 ou ultérieure (voir [l’historique d
 
 DirectMLX. h requiert un compilateur C + 11, y compris (mais sans s’y limiter) :
 
-* Visual Studio 2017
+* Visual Studio 2017
 * Visual Studio 2019
 * Clang 10
 
@@ -174,4 +174,4 @@ auto result = dml::Convolution(/* ... */);
 * [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [Exemple DirectMLX yolov4](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)
 * [Utilisation de Strides pour exprimer le remplissage et la disposition de la mémoire](./dml-strides.md)
-* [Structure DML_GRAPH_DESC](./directml/ns-directml-dml_graph_desc.md)
+* [Structure DML_GRAPH_DESC](/windows/win32/api/directml/ns-directml-dml_graph_desc)

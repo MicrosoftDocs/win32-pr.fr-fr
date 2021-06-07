@@ -4,12 +4,12 @@ ms.assetid: 3887667c-67a7-416a-b94d-c30bb02a7985
 title: Élément JournalDocument
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 408df14347c130e6b0a73ba869b634ca2493fb56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7820ef68dc87bf42d9580c800e2e165f2f2859a4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104530171"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432171"
 ---
 # <a name="journaldocument-element"></a>Élément JournalDocument
 
@@ -33,7 +33,7 @@ ms.locfileid: "104530171"
 
 ## <a name="parent-elements"></a>Éléments parents
 
-Aucun
+Aucun.
 
 ## <a name="child-elements"></a>Éléments enfants
 
@@ -59,7 +59,7 @@ Aucun
 
 
 
-|              |                                            |
+|  Élément     | Valeur                                                     |
 |--------------|--------------------------------------------|
 | Type d'élément | **JournalDocument**                        |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk |

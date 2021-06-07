@@ -4,12 +4,12 @@ description: Modèle mode IME remplacé par utilisateur par thread
 ms.assetid: C9717AF2-7055-47CA-8F8F-BC0F483B2259
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 781c322949f17d4d3313b6a9b7b5eff9b1e83b06
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30404b1a386c4346e7d8900481d8c5198972cdbe
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316157"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443245"
 ---
 # <a name="ime-mode-model-changed-from-per-user-to-per-thread"></a>Modèle mode IME remplacé par utilisateur par thread
 
@@ -29,14 +29,14 @@ Au démarrage de l’application, le mode IME est défini sur les valeurs par d�
 
 
 
-|          | Panneau de saisie du logiciel | Clavier matériel |
+| &nbsp;   | Panneau de saisie du logiciel | Clavier matériel |
 |----------|----------------------|-------------------|
-| KOR, JPN | Il en va                   | Désactivé               |
-| CHS, CHT  | Il en va                   | Il en va                |
+| KOR, JPN | Activé                   | Désactivé               |
+| CHS, CHT  | Activé                   | Activé                |
 
 
 
- 
+ 
 
 ## <a name="manifestations"></a>Manifestations
 
@@ -47,6 +47,6 @@ Quand un utilisateur modifie le mode IME sur une application, la modification n�
 -   [Valeurs du mode de conversion IME](../intl/ime-conversion-mode-values.md)
 -   [Valeurs du mode de phrase IME](../intl/ime-sentence-mode-values.md)
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: Identifie la \_ \_ propriété FontProperties ForegroundColorType d
 ms.assetid: ab04c0b0-911f-4649-9ce8-5ecd847abf9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5589e9b21fc7ab0884a3cac51eba114ee77036b3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f261256a36ee7a387c6c3a695d8c1182898690c2
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382213"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444350"
 ---
 # <a name="ui_pkey_fontproperties_foregroundcolortype"></a>IU \_ \_ FontProperties \_ ForegroundColorType
 
@@ -25,7 +25,7 @@ propertyDescription
       type = UI_SWATCHCOLORTYPE
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface utilisateur \_ \_ FontProperties \_ ForegroundColorType est utilisée par une application, conjointement avec [l' \_ UI \_ hyperFontProperties \_ ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md), pour interroger les paramètres de la Galerie de **couleurs de texte** .
 
@@ -37,7 +37,7 @@ Le tableau suivant décrit les valeurs des propriétés.
 
 
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|     Value                           |     Description                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `UI_SWATCHCOLORTYPE_NOCOLOR`   | Non pris en charge par [**FontControl**](windowsribbon-element-fontcontrol.md).                                                                                                                                                                                                                                                                                                                                        |
 | `UI_SWATCHCOLORTYPE_AUTOMATIC` | L’application doit interroger la mesure système appropriée pour la valeur de couleur en général la **couleur du texte** du thème Windows actuel qui est récupérée avec GETSYSCOLOR (couleur \_ WINDOWTEXT).                                                                                                                                                                                                                                  |

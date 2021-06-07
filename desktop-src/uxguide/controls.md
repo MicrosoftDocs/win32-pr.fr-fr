@@ -4,12 +4,12 @@ description: Les contrôles sont des éléments d’interface utilisateur avec l
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 056ad9379ea3ac2a06749ec1ae0227d934abb986
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c44e7b5f3772984b1dc24b166b9fe8c03a395f8a
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211177"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524313"
 ---
 # <a name="controls-design-basics"></a>Contrôles (concepts de base de la conception)
 
@@ -20,7 +20,7 @@ Les contrôles sont des éléments d’interface utilisateur avec lesquels vos u
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                     |
+|          Exemples                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![ballon](images/controls-image1.png)<br/> Les [bulles](ctrl-balloons.md) informent les utilisateurs d’un problème non critique ou d’une condition spéciale dans un contrôle.<br/>                                                                                                                                                                                                                 |
 | ![activé](images/controls-image2.png)<br/> Les [cases à cocher](ctrl-check-boxes.md) permettent aux utilisateurs de prendre une décision entre deux ou plusieurs choix manifestement différents.<br/>                                                                                                                                                                                                     |

@@ -4,12 +4,12 @@ ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: Fonctions de processus et de thread
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f97d871c7fc3635734ce79ba5cbf231e6955e59d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43841e86c151e7f617a702668f9de203ccb34654
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202851"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111550011"
 ---
 # <a name="process-and-thread-functions"></a>Fonctions de processus et de thread
 
@@ -82,7 +82,7 @@ Les fonctions suivantes sont utilisées avec les [processus](child-processes.md)
 | [**GetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters)     | Récupère les paramètres d’arrêt pour le processus en cours d’appel.                                                                                                                              |
 | [**Fonction getprocesstimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes)                               | Récupère les informations de minutage relatives au processus spécifié.                                                                                                                                 |
 | [**GetProcessVersion**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessversion)                           | Récupère les numéros de version principale et secondaire du système sur lequel le processus spécifié s’attend à s’exécuter.                                                                                    |
-| [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize)             | Récupère les tailles minimale et maximale du jeu de travail du processus spécifié.                                                                                                                 |
+| [**GetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize)             | Récupère les tailles minimale et maximale du jeu de travail du processus spécifié.                                                                                                                 |
 | [**GetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex)         | Récupère les tailles minimale et maximale du jeu de travail du processus spécifié.                                                                                                                 |
 | [**GetProcessorSystemCycleTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime)       | Récupère le temps de cycle que chaque processeur dans le groupe spécifié a passé à exécuter des appels de procédure différés (DPC) et des routines de service d’interruption (routines).                                         |
 | [**GetStartupInfo**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | Récupère le contenu de la structure [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) qui a été spécifiée lors de la création du processus appelant.                                                       |
@@ -101,7 +101,7 @@ Les fonctions suivantes sont utilisées avec les [processus](child-processes.md)
 | [**SetProcessPriorityBoost**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost)               | Désactive la capacité du système à augmenter temporairement la priorité des threads du processus spécifié.                                                                                 |
 | [**SetProcessRestrictionExemption**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | Exempte le processus appelant des restrictions empêchant les processus de bureau d’interagir avec l’environnement des applications du Windows Store. Cette fonction est utilisée par les outils de développement et de débogage. |
 | [**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)     | Définit les paramètres d’arrêt pour le processus en cours d’appel.                                                                                                                                   |
-| [**SetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize)             | Définit les tailles minimale et maximale de la plage de travail pour le processus spécifié.                                                                                                                     |
+| [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize)             | Définit les tailles minimale et maximale de la plage de travail pour le processus spécifié.                                                                                                                     |
 | [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex)         | Définit les tailles minimale et maximale de la plage de travail pour le processus spécifié.                                                                                                                     |
 | [**TerminateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess)                             | Met fin au processus spécifié et à tous ses threads.                                                                                                                                      |
 

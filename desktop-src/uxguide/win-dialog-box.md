@@ -4,12 +4,12 @@ description: Une boîte de dialogue est une fenêtre secondaire qui permet aux u
 ms.assetid: 2ded9f30-d45f-4027-a85d-4e7d0e412793
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 0db9d705cb697cdad9ed29dad86faf5f96665dd5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b0e0deb28a706436e4d33ece35a40c26bd7499e0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104561041"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444850"
 ---
 # <a name="dialog-boxes-design-basics"></a>Boîtes de dialogue (notions de base sur la conception)
 
@@ -126,7 +126,7 @@ Les boîtes de dialogue ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **N’utilisez pas de boîtes de dialogue déroulantes.** N’utilisez pas les boîtes de dialogue qui requièrent l’utilisation d’une barre de défilement pour s’afficher complètement pendant une utilisation normale. Reconcevez plutôt la boîte de dialogue. Envisagez d’utiliser la [Divulgation progressive](ctrl-progressive-disclosure-controls.md) ou les [onglets](ctrl-tabs.md).
 -   **N’avez pas de barre de menus ou de barre d’État.** Au lieu de cela, vous pouvez fournir un accès aux commandes et à l’État directement dans la boîte de dialogue elle-même, ou en utilisant des menus contextuels sur les contrôles appropriés.
@@ -392,13 +392,12 @@ Dans cet exemple, le grand graphique n’a aucun effet.
 
 
 
-|                                      |                                                                                                                            |
+| Modèle | Icône de corps |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Modèle**<br/>               | **Icône de corps**<br/>                                                                                                   |
 | **Boîtes de dialogue de questions**<br/>      | Programme, fonctionnalité, objet, icône d’avertissement (si une perte potentielle de données ou un accès système), un avertissement de sécurité ou aucun.<br/> |
-| **Boîtes de dialogue de choix**<br/>        | Aucun<br/>                                                                                                           |
+| **Boîtes de dialogue de choix**<br/>        | Aucun.<br/>                                                                                                           |
 | **Boîtes de dialogue de progression**<br/>      | Aucun (mais peut avoir une animation).<br/>                                                                               |
-| **Boîtes de dialogue d’information**<br/> | Aucun<br/>                                                                                                           |
+| **Boîtes de dialogue d’information**<br/> | Aucun.<br/>                                                                                                           |
 
 
 
@@ -454,7 +453,7 @@ Pour plus d’informations et d’exemples, consultez [icônes](vis-icons.md).
 -   Ces recommandations ne s’appliquent pas aux boîtes de dialogue de questions à l’aide de liens de commande, car ce modèle utilise des liens de commande au lieu de boutons.
 -   \[Faites- \] \[ le et n’effectuez pas \] les réponses positives et négatives, respectivement, à l’instruction principale.
 
-**Généralités**
+**Général**
 
 -   **Choisissez les boutons valider en fonction du modèle de conception :**
 
@@ -850,9 +849,9 @@ Dans cet exemple, il est très probable que les utilisateurs choisissent les mê
 -   **Les fenêtres redimensionnables peuvent être optimisées pour des résolutions plus élevées, mais en fonction des besoins au moment de l’affichage de la résolution réelle de l’écran.**
 -   **Choisissez une taille de fenêtre par défaut adaptée à son contenu.** N’hésitez pas à utiliser des tailles de fenêtre initiales supérieures si vous pouvez utiliser l’espace de manière efficace.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Supprimez le texte redondant.** Recherchez du texte redondant dans les titres, des instructions principales, des instructions supplémentaires, des zones de contenu, des liens de commande et des boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **Utilisez une formulation positive.** Une formulation positive est plus facile à comprendre pour les utilisateurs.

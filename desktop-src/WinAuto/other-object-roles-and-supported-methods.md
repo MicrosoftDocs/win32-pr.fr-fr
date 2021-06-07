@@ -4,12 +4,12 @@ description: Cette rubrique fournit des informations sur les rôles d’objet qu
 ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3d7fbdbb6dfbf83729f3e1c1d4caa3027f8d51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f17e8573142a57e0acf08980895fdae3ea6d1841
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729028"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444000"
 ---
 # <a name="other-object-roles-and-supported-methods-msaa-ui-element-reference"></a>Autres rôles d’objet et méthodes prises en charge (référence des éléments d’interface utilisateur MSAA)
 
@@ -18,13 +18,13 @@ Cette rubrique fournit des informations sur les rôles d’objet qui ne sont pas
 > [!Note]  
 > Utilisez cette rubrique comme indication. Nous vous suggérons vivement d’utiliser les outils de Active Accessibility Microsoft pour vérifier le comportement attendu pour un rôle d’objet individuel.
 
- 
+ 
 
 Le tableau suivant répertorie les rôles d’objet supplémentaires que Oleacc.dll prend en charge.
 
 
 
-|                                                                         |                                                           |
+| &nbsp; |  &nbsp; |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**\_alerte du système de rôle \_**](/windows)                           | [**déroulant système de rôle \_ \_**](/windows)       |
 | [**\_application de système de rôle \_**](/windows)               | [**\_équation du système de rôle \_**](/windows)       |
@@ -43,7 +43,7 @@ Le tableau suivant répertorie les rôles d’objet supplémentaires que Oleacc.
 
 
 
- 
+ 
 
 ## <a name="role_system_alert"></a>\_alerte du système de rôle \_
 
@@ -564,6 +564,6 @@ Pour plus d’informations sur ce rôle, [**consultez \_ \_ espace système du r
 -   Obtient \_ accRole
 -   Obtient \_ accState
 
- 
+ 
 
- 
+ 

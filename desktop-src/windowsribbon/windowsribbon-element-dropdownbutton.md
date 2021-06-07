@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 98af363aeb70a61def04eaee0ad13ff60e6e7640
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a42b8ffb6d39c1da8993972c0b25995f778bdaca
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729221"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442960"
 ---
 # <a name="dropdownbutton-element"></a>Élément DropDownButton
 
@@ -80,7 +80,7 @@ Représente un contrôle de [bouton](windowsribbon-controls-dropdownbutton.md) d
 | Élément                                                                             | Description                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | **DropDownButton**<br/>                                                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -108,7 +108,7 @@ Représente un contrôle de [bouton](windowsribbon-controls-dropdownbutton.md) d
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Facultatif ou obligatoire, en fonction de l’élément parent.
 
@@ -165,12 +165,8 @@ Cette section de code montre les déclarations de contrôle **DropDownButton** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

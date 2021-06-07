@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f411d5d91c36bf5d2f2fa82f332c9b15519d800d
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 2fad8445623efb8854e81e7e1569beab9ed4169b
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106525767"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443650"
 ---
 # <a name="using-gdi-functions-with-wcs"></a>Utilisation des fonctions GDI avec WCS
 
@@ -33,7 +33,7 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 
 
-|                    |                                                                                                                                                                                                                                 |
+|    Fonction                |   Description                                                                                                                                                                                                                              |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CreateCompatibleDC | Si le contexte de périphérique (DC) qui est passé à cette fonction par le biais de son paramètre HDC est activé pour ICM, alors le DC créé par la fonction est également compatible avec ICM. Les espaces de couleurs source et de destination sont spécifiés dans le DC. |
 | CreateDC           | ICM peut être activé en définissant le membre dmICMMethod de la structure DEVMODE pointée par le paramètre pInitData sur la valeur appropriée. Pour plus d’informations, consultez la documentation dans le kit de développement Platform SDK sur la structure DEVMODE.  |
@@ -47,7 +47,7 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 
 
-|                 |                                                                                                                                               |
+|    Fonction                |   Description                                                                                                                                                                                                                              |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Fonctions de pinceau | Aucune gestion des couleurs n’est effectuée lors de la création du pinceau. Toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un contrôleur de périphérique compatible ICM. |
 | CreatePen       | Aucune gestion des couleurs n’est effectuée lors de la création du stylet. Toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un contrôleur de périphérique compatible ICM.   |
@@ -64,7 +64,7 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 
 
-|              |                                                  |
+|    Fonction                |   Description                                                                                                                                                                                                                              |
 |--------------|--------------------------------------------------|
 | SetBkColor   | La gestion des couleurs est effectuée si WCS est activé. |
 | SetTextColor | La gestion des couleurs est effectuée si WCS est activé. |
@@ -77,7 +77,7 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+|    Fonction                |   Description                                                                                                                                                                                                                              |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BitBlt            | Aucune gestion des couleurs n’est effectuée quand BLITS se produit.                                                                                                                                                                                                                                                                                                                                                                                             |
 | CreateDIBitmap    | Le paramètre fuUsage spécifie que le membre bmiColors de la structure BITMAPINFO, pointé par le paramètre lpbmi ne contient pas d’informations sur les couleurs. Si ce n’est pas le cas, aucune gestion des couleurs n’est effectuée pour cette bitmap. La bitmap doit utiliser la version 4 ou la version 5 de la structure BITMAPINFO, pour que la gestion des couleurs soit activée. Le contenu de la bitmap résultante ne correspond pas à la couleur après la création de l’image bitmap. |

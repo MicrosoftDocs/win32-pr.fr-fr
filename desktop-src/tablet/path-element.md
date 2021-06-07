@@ -4,12 +4,12 @@ ms.assetid: bf7f39ec-8f1f-437c-b172-fd6f94af97bc
 title: Élément Path
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 707dda1a82a99b863148be5fa312900f6cfe28eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8299e66874a04ba9ff338b0b77d73ffd547ec4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034664"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432375"
 ---
 # <a name="path-element"></a>Élément Path
 
@@ -27,17 +27,17 @@ Chemin d’accès à l’image utilisée pour l’arrière-plan d’une note du 
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
-Aucun
+Aucun.
 
 ## <a name="element-information"></a>Informations sur les éléments
 
 
 
-|              |                                            |
+|  Élément     | Valeur                                                     |
 |--------------|--------------------------------------------|
 | Type d'élément | **xs:string**                              |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk |

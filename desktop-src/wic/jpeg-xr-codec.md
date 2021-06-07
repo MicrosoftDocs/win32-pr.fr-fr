@@ -4,12 +4,12 @@ ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: Vue d’ensemble du codec XR JPEG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f32ffa397667b325d4e49eadf4d8ce42d49e8a88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0d39608535f9be09821d8db3615641a84fd95a6
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520695"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444461"
 ---
 # <a name="jpeg-xr-codec-overview"></a>Vue d’ensemble du codec XR JPEG
 
@@ -37,7 +37,7 @@ Des améliorations significatives des performances, par rapport au codec photo H
 
 
 
-|                     |                                                                         |
+|      Composant      |    Description                                                          |
 |---------------------|-------------------------------------------------------------------------|
 | Extension de nom de fichier | « JXR » et « WDP »                                                         |
 | GUID du conteneur      | **GUID \_ ContainerFormatWmp**                                            |
@@ -155,7 +155,7 @@ Pour les images qui contiennent un canal alpha planaire, les valeurs suivantes s
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 1     | Les flexbits sont ignorés. Cela réduit arbitrairement la qualité du canal alpha planaire pour l’image transcodée. , sans modification de la résolution effective. La réduction exacte de la taille et de la qualité des fichiers dépend de nombreux facteurs et ne peut pas être spécifiée exactement.                                                                                                                                                                                           |
@@ -171,7 +171,7 @@ Pour les images qui contiennent un canal alpha entrelacé, la valeur suivante es
 
 
 
-| Valeur | Description                                                                                                                                 |
+| Value | Description                                                                                                                                 |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | 4     | Le canal alpha est complètement ignoré. Le format de pixel de l’image transcodée est modifié pour refléter la suppression du canal alpha. |
 
@@ -298,7 +298,7 @@ Cette propriété s’applique uniquement si la propriété [CompressedDomainTra
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 0     | Aucune donnée de fréquence image n'est ignorée.                                                                                                                                                                                                                                                                                                                                                                             |
 | 1     | Les flexbits sont ignorés. Cela réduit arbitrairement la qualité de l’image transcodée sans modifier la résolution effective de l’image. La réduction exacte de la taille et de la qualité des fichiers dépend de nombreux facteurs et ne peut pas être spécifiée exactement. Cette valeur retourne une erreur spécifiée pour un canal alpha entrelacé.                                                                                |
@@ -382,7 +382,7 @@ Définit le niveau de filtrage de chevauchement. Avec le filtrage de chevaucheme
 
 
 
-| Valeur | Description                                   |
+| Value | Description                                   |
 |-------|-----------------------------------------------|
 | 0     | Aucun chevauchement.                                   |
 | 1     | Un niveau de chevauchement, une mosaïque floue. (valeur par défaut). |
@@ -419,7 +419,7 @@ Active ou désactive l’encodage progressif.
 
 
 
-| Valeur              | Description                |
+| Value              | Description                |
 |--------------------|----------------------------|
 | **VARIANTE \_ true**  | Mode séquentiel (par défaut). |
 | **VARIANTE \_ false** | Mode progressive.          |
@@ -462,7 +462,7 @@ Active ou désactive le mode de diffusion en continu uniquement.
 
 
 
-| Valeur              | Description                                                            |
+| Value              | Description                                                            |
 |--------------------|------------------------------------------------------------------------|
 | **VARIANTE \_ true**  | L’encodeur génère le flux d’images brutes sans métadonnées.             |
 | **VARIANTE \_ false** | L’encodeur génère le format de conteneur (flux d’image et métadonnées). |
@@ -494,7 +494,7 @@ Définit le sous-échantillonnage de chrominance. Cette propriété s’applique
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valeur</th>
+<th>Value</th>
 <th>Description</th>
 </tr>
 </thead>

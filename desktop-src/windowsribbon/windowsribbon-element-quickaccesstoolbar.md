@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0076890a8d9858d4bf410ecfdd866bf4f48fdbb6
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 6ae01f620d66298a5f7200d0be947dbfb3750af4
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381439"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443300"
 ---
 # <a name="quickaccesstoolbar-element"></a>Élément QuickAccessToolbar
 
@@ -93,7 +93,7 @@ Représente la [barre d’outils accès rapide (qat)](windowsribbon-controls-qui
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -141,12 +141,8 @@ Cette section de code illustre la déclaration de contrôle **QuickAccessToolbar
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

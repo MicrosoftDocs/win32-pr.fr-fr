@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b684b361927180a4bb87d2d7814d2f26d4fdcd91
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1e1df5b62c7b2d7c55345ba8d6da366d04697054
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316139"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443480"
 ---
 # <a name="command-element"></a>élément Command
 
@@ -159,7 +159,7 @@ Représente une définition de commande.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -266,12 +266,8 @@ L’exemple suivant montre un manifeste d’éléments de **commande** pour un o
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

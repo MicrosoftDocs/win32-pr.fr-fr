@@ -4,12 +4,12 @@ description: La liaison de chaîne est une chaîne de caractères non signée co
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d804fe614185b054b8041e13069e900501342a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b3f925c03c85be3c47ab174a85f31e72e40d828
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382438"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386978"
 ---
 # <a name="string-binding"></a>Liaison de chaîne
 
@@ -123,7 +123,7 @@ Le nom de l’option **HttpConnectionOption** , pris en charge pour la \_ séque
 
 
 
-| Nom d'option       | Valeur            |
+| Nom d'option       | Value            |
 |-------------------|------------------|
 | HttpConnectOption | **UseHttpProxy** |
 
@@ -182,11 +182,11 @@ Pour plus d’informations sur les options de sécurité, la [sécurité](securi
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’espace blanc n’est pas autorisé dans les liaisons de chaînes, sauf lorsque la syntaxe de l' *option* l’exige. Les paramètres par défaut pour les champs *networkAddress*, *Endpoint* et *option* varient en fonction de la valeur du membre *ProtocolSequence* .
 
-Pour tous les champs de liaison de chaîne, une seule barre oblique inverse ( \) est interprétée comme un caractère d’échappement. Pour spécifier une barre oblique inverse unique, vous devez fournir deux caractères de barre oblique inverse ( \\ \) .
+Pour tous les champs de liaison de chaîne, une seule barre oblique inverse ( \\ ) est interprétée comme un caractère d’échappement. Pour spécifier une barre oblique inverse unique, vous devez fournir deux barres obliques inverses ( \\ \\ ).
 
 Une liaison de chaîne contient la représentation sous forme de caractère d’un handle de liaison et parfois des parties d’un handle de liaison. Les liaisons de chaînes sont pratiques pour représenter des parties d’un handle de liaison, mais elles ne peuvent pas être utilisées pour effectuer des appels de procédure distante. Elles doivent d’abord être converties en un handle de liaison en appelant [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding).
 

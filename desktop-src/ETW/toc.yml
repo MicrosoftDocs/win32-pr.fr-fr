@@ -8,7 +8,7 @@
       items:
         - name: Sessions de suivi d’événements
           href: event-tracing-sessions.md
-        - name: Pilotes de périphériques
+        - name: Pilotes de périphérique
           href: device-drivers.md
     - name: Utilisation du suivi d’événements
       href: using-event-tracing.md
@@ -26,6 +26,8 @@
               items:
                 - name: Configuration et démarrage de la session de journalisation du noyau NT
                   href: configuring-and-starting-the-nt-kernel-logger-session.md
+                - name: Fournisseurs système
+                  href: system-providers.md
             - name: Configuration et démarrage d’une session de journalisation automatique
               href: configuring-and-starting-an-autologger-session.md
               items:
@@ -280,7 +282,7 @@
                           href: syscallenter.md
                         - name: SysCallExit
                           href: syscallexit.md
-                    - name: Processus
+                    - name: Process
                       href: process.md
                       items:
                         - name: Process_TypeGroup1

@@ -1,6 +1,6 @@
 ---
 title: Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
-description: Filtre de lecteur ASF WM
+description: En savoir plus sur le filtre de lecteur ASF WM.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK, lecteur ASF WM
@@ -11,12 +11,12 @@ keywords:
 - ASF (format avancé des systèmes), lecteur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13b7944f45b850a158c9832e174ae5ec7dce4d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739381"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444280"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
 
@@ -31,7 +31,7 @@ Le tableau suivant contient des informations sur le filtre de lecteur ASF WM, te
 
 
 
-|                        |                                                                                                                                                                                                                                               |
+|  Informations de filtre                      |  Types                                                                                                                                                                                                                                             |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre      | **IBaseFilter**, **IFileSourceFilter**, **IServiceProvider**, **IWMHeaderInfo**, **IWMReaderAdvanced** (implémenté partiellement. Consultez la section Notes.), **IWMReaderAdvanced2** (implémenté partiellement), **IWMDRMReader** (via **IServiceProvider**) |
 | Types de média de broche d’entrée  | Non applicable                                                                                                                                                                                                                                |
@@ -49,7 +49,7 @@ Le tableau suivant contient des informations sur le filtre de lecteur ASF WM, te
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le lecteur ASF WM implémente partiellement les interfaces **IWMReaderAdvanced** et **IWMReaderAdvanced2** afin de permettre aux applications d’accéder aux méthodes d’information sur l’objet lecteur. L’implémentation du filtre passe simplement les appels par le biais de à l’interface sur l’objet lecteur. Les méthodes de streaming ne sont pas implémentées, car le filtre doit avoir un contrôle total sur le processus de diffusion en continu. Les méthodes **IWMReaderAdvanced** et **IWMReaderAdvanced2** suivantes sont implémentées :
 

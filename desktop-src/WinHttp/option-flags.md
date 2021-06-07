@@ -5,12 +5,12 @@ title: Indicateurs d’option (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349978"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386678"
 ---
 # <a name="option-flags"></a>Indicateurs d’option
 
@@ -849,6 +849,16 @@ Active TCP Fast Open pour la connexion.
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_TCP_KEEPALIVE"></span><span id="winhttp_option_tcp_keepalive"></span>**\_option WinHTTP \_ TCP \_ KeepAlive**
+</dt> <dd> <dl> <dt>
+
+
+
+Cette option peut être définie sur un handle de session WinHttp pour activer le comportement TCP Keep-Alive sur le Socket sous-jacent. Prend un struct [**TCP \_ KeepAlive**](/windows/win32/winsock/sio-keepalive-vals) .
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TLS_FALSE_START"></span><span id="winhttp_option_tls_false_start"></span>**OPTION WINHTTP-début de la \_ \_ \_ valeur TLS false \_**
 </dt> <dd> <dl> <dt>
 
@@ -1072,6 +1082,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | nom principal de service du \_ serveur option WinHTTP \_ \_ \_ utilisé<br/>**LPWSTR** | \- | X | X | \- | \- |
 | SPN de l' \_ option WinHTTP \_<br/>**GRANDE** | \- | X | \- | X | \- |
 | \_option WinHTTP \_ TCP \_ Fast \_ Open<br/>**Boolean** | X | \- | \- | X | Windows 10 version 2004 |
+| \_option WinHTTP \_ TCP \_ KeepAlive<br/>[**\_KeepAlive TCP**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 version 2004 |
 | OPTION WINHTTP-début de la \_ \_ \_ valeur TLS false \_<br/>**Boolean** | X | \- | \- | X | Windows 10 version 2004 |
 | \_événement de \_ notification de déchargement d’option WinHTTP \_ \_<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | \_option WinHTTP \_ \_ -analyse d’en-tête non sécurisé \_<br/>**GRANDE** | \- | X | \- | X | \- |
@@ -1092,7 +1103,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 
 ## <a name="requirements"></a>Spécifications
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |--------------------------|---------------------------------------------------------------------------------|
 | Client minimal pris en charge | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]            |
 | Serveur minimal pris en charge | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]         |

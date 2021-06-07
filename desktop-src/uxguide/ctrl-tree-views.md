@@ -4,12 +4,12 @@ description: Avec une arborescence, les utilisateurs peuvent afficher et interag
 ms.assetid: f0206485-e028-41d8-9be2-5d59f0a0b677
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c5cb2b6d48a30cba6de2136659231d9d37361621
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ade51b421350dc90bf72e2ff1a683bf1d352f7c1
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104564863"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524493"
 ---
 # <a name="tree-views"></a>Arborescences
 
@@ -111,7 +111,7 @@ Les arborescences présentent plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Usage                           |    Exemple                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Arborescences avec des nœuds de conteneur uniquement**<br/> les utilisateurs peuvent afficher et interagir avec un conteneur à la fois. <br/>                        | En règle générale, ces vues d’arborescence ont un contrôle associé qui affiche le contenu du conteneur sélectionné, afin que les utilisateurs puissent interagir avec un seul conteneur à la fois. <br/> ![capture d’écran du volet conteneur et du volet contenu ](images/ctrl-tree-views-image6.png)<br/> Dans cet exemple, l’arborescence contient uniquement des nœuds conteneurs. Le contenu du nœud sélectionné s’affiche dans le contrôle d’affichage de liste associé.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | **Arborescences avec des nœuds conteneurs et terminaux**<br/> les utilisateurs peuvent afficher et interagir avec des conteneurs et des feuilles.<br/>                       | En règle générale, ces vues d’arborescence ont un contrôle associé qui affiche le contenu du conteneur ou feuille sélectionné. le fait de permettre aux utilisateurs d’interagir avec les feuilles de route est souvent nécessaire pour prendre en charge la sélection multiple. <br/> ![capture d’écran du volet d’arborescence et du volet de contenu ](images/ctrl-tree-views-image7.png)<br/> dans cet exemple, l’arborescence contient à la fois des nœuds conteneur et feuille. étant donné que la sélection multiple est prise en charge, le contenu des éléments ouverts est affiché à l’aide d' [onglets](ctrl-tabs.md) dans le contrôle associé.<br/> l’arborescence peut également avoir une liste organisée, où les conteneurs sont des en-têtes et les feuilles sont des options. <br/> ![capture d’écran de l’arborescence avec les en-têtes et les options ](images/ctrl-tree-views-image8.png)<br/> Dans cet exemple, l’arborescence laisse les options et les conteneurs sont des catégories d’options.<br/> |

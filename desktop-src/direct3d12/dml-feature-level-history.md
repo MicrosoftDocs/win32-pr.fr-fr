@@ -4,12 +4,12 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 68633f531c627eed8b02c7f65a248213743ca8bc
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: fdc489184b3220afd0b8c75738fa1d40de207c8d
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803788"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387048"
 ---
 # <a name="directml-feature-level-history"></a>Historique des niveaux de fonctionnalité DirectML
 
@@ -19,9 +19,9 @@ Pour un historique général des versions de DirectML, consultez [l’historique
 
 Introduit dans DirectML version 1.5.0.
 
-Ajout de la prise en charge des opérateurs suivants.
+Ajout de la prise en charge des [opérateurs](/windows/win32/api/directml/ne-directml-dml_operator_type)suivants.
 
-* [DML_OPERATOR_ELEMENT_WISE_ATAN_YX](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_ATAN_YX**
 * **DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD**
 * **DML_OPERATOR_ELEMENT_WISE_DIFFERENCE_SQUARE**
 * **DML_OPERATOR_LOCAL_RESPONSE_NORMALIZATION_GRAD**
@@ -46,9 +46,9 @@ Le nombre maximal de dimensions prises en charge pour les opérateurs suivants e
 
 Introduit dans DirectML version 1.4.0.
 
-Ajout de la prise en charge des opérateurs suivants.
+Ajout de la prise en charge des [opérateurs](/windows/win32/api/directml/ne-directml-dml_operator_type)suivants.
 
-* [DML_OPERATOR_ELEMENT_WISE_BIT_AND](/windows/win32/api/directml/ne-directml-dml_operator_type)
+* **DML_OPERATOR_ELEMENT_WISE_BIT_AND**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_OR**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_XOR**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_NOT**

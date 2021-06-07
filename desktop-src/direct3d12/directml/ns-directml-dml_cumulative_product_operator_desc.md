@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 71a078ad0f47c19ad1964d8d21f22e06822b5d01
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 68b001467496ab9affc559e76ecac5461902399c
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550214"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521195"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (directml. h)
 
@@ -94,9 +94,9 @@ Index de la dimension sur laquelle multiplier les éléments. Cette valeur doit 
 
 `AxisDirection`
 
-Type : **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**
+Type : **[DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction)**
 
-L’une des valeurs de l’énumération [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) . Si la valeur est **DML_AXIS_DIRECTION_INCREASING**, le produit se produit en parcourant le tenseur le long de l’axe spécifié par l’index d’élément croissant. Si la valeur est **DML_AXIS_DIRECTION_DECREASING**, l’inverse est vrai et le produit se produit en parcourant les éléments par ordre décroissant d’index.
+L’une des valeurs de l’énumération [DML_AXIS_DIRECTION](/windows/win32/api/directml/ne-directml-dml_axis_direction) . Si la valeur est **DML_AXIS_DIRECTION_INCREASING**, le produit se produit en parcourant le tenseur le long de l’axe spécifié par l’index d’élément croissant. Si la valeur est **DML_AXIS_DIRECTION_DECREASING**, l’inverse est vrai et le produit se produit en parcourant les éléments par ordre décroissant d’index.
 
 `HasExclusiveProduct`
 
@@ -145,7 +145,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 
 ### <a name="example-3-axis-direction"></a>Exemple 3. Direction de l’axe
 
-La définition de *AxisDirection* sur [**DML_AXIS_DIRECTION_DECREASING**](./ne-directml-dml_axis_direction.md) a pour effet d’inverser l’ordre de traversée des éléments lors du calcul de la Tally en cours d’exécution.
+La définition de *AxisDirection* sur [**DML_AXIS_DIRECTION_DECREASING**](/windows/win32/api/directml/ne-directml-dml_axis_direction) a pour effet d’inverser l’ordre de traversée des éléments lors du calcul de la Tally en cours d’exécution.
 
 ```
 Axis: 3
@@ -186,7 +186,7 @@ Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_1` .
 | Tenseur | Type | Nombre de dimensions prises en charge | Types de données pris en charge |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Entrée | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
-| OutputTensor | Output | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| OutputTensor | Sortie | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
 
 ## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |

@@ -4,12 +4,12 @@ ms.assetid: EF28956E-7156-4BAE-8805-C64B8C8ADE50
 title: Vue d’ensemble du format ICO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d370497e9231d6deb8d1793a26a53565b5cd99c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 329a53a3b5d386c5e5386141162c608dc9db1ec0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524453"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444469"
 ---
 # <a name="ico-format-overview"></a>Vue d’ensemble du format ICO
 
@@ -21,7 +21,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                   |
+|   Composant            | Description       |
 |------------------------|-------------------|
 | Nom (s) formel (s)         | Format d’icône (ICO) |
 | Extension (s) de nom de fichier | ICO               |

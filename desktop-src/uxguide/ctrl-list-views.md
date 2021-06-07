@@ -4,12 +4,12 @@ description: Avec un affichage de liste, les utilisateurs peuvent afficher et in
 ms.assetid: 62a7bfc8-96a9-450d-9db9-ec9dab6687b7
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c3c823b23c03f29ac6b80e10df79eac36653f2e4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 13847e484ccaa78fd08ac9fe60b1432d272b9efa
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761282"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524563"
 ---
 # <a name="list-views"></a>Affichages de liste
 
@@ -35,9 +35,8 @@ Un affichage de liste est plus qu’une zone de liste fonctionnelle plus flexibl
 
 
 
-|                             |                                           |                                                                                                                                               |
+|   Utilisation                          | Zones de liste                 | Affichages de liste               |
 |-----------------------------|-------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-|                             | **Zones de liste**<br/>                 | **Affichages de liste**<br/>                                                                                                                     |
 | **Type de données**<br/>    | Options de données et de programme.<br/> | Données uniquement.<br/>                                                                                                                         |
 | **Contents**<br/>     | Étiquettes uniquement.<br/>                   | Étiquettes et données auxiliaires, éventuellement dans plusieurs colonnes.<br/>                                                                           |
 | **Interaction**<br/>  | Utilisé pour effectuer des sélections.<br/>    | Peut être utilisé pour effectuer des sélections, mais souvent utilisé pour afficher et interagir avec les données. Peut être une source de glissement ou une cible de déplacement.<br/> |
@@ -75,7 +74,7 @@ Le contrôle List View prend en charge cinq vues standard :
 
 
 
-|                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                           |
+|    Usage    |   Exemple        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Vignette**<br/> chaque élément apparaît sous la forme d’une icône moyenne, avec une étiquette et des détails facultatifs à droite. <br/>                                                                                                                         | ![capture d’écran des miniatures avec titres et détails ](images/ctrl-list-views-image2.png)<br/> L’affichage en mosaïque affiche des icônes moyennes avec des étiquettes et des détails facultatifs sur la droite.<br/>                                                                                                                                                                |
 | **Grande icône**<br/> chaque élément apparaît sous la forme d’une icône très grande, grande ou moyenne avec une étiquette au-dessous.<br/>                                                                                                                      | ![capture d’écran de la grande vue de liste de miniatures ](images/ctrl-list-views-image3.png)<br/> Affichage de grande icône affiche chaque élément sous la forme d’une grande icône avec une étiquette au-dessous.<br/>                                                                                                                                                                              |

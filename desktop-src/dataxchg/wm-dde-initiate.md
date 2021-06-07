@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36485db262c46d5364ee0ee26e7e6f39ccf0e677
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf65e222c7711d429db44e391d4f03c35997e219
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384519"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386726"
 ---
 # <a name="wm_dde_initiate-message"></a>\_Message de lancement DDE de WM \_
 
@@ -46,13 +46,13 @@ Handle de la fenêtre cliente qui envoie le message.
 *lParam* 
 </dt> <dd>
 
-Le mot de poids faible contient un atome qui identifie l’application avec laquelle une conversation est demandée. Le nom de l’application ne peut pas contenir de barres obliques (/) ou de barres obliques inverses ( \) . Ces caractères sont réservés aux implémentations réseau. Si ce paramètre a la **valeur null**, une conversation avec toutes les applications est demandée.
+Le mot de poids faible contient un atome qui identifie l’application avec laquelle une conversation est demandée. Le nom de l’application ne peut pas contenir de barres obliques (/) ou de barres obliques inverses ( \\ ). Ces caractères sont réservés aux implémentations réseau. Si ce paramètre a la **valeur null**, une conversation avec toutes les applications est demandée.
 
 Le mot de poids fort contient un atome qui identifie la rubrique pour laquelle une conversation est demandée. Si la rubrique est **null**, les conversations pour toutes les rubriques disponibles sont demandées.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le mot de poids faible de *lParam* est **null**, toute application serveur peut répondre. Si le mot de poids fort de *lParam* est **null**, toute rubrique est valide. Lors de la réception d’une requête de **\_ \_ lancement DDE WM** avec le mot de poids fort du paramètre *lParam* défini sur **null**, un serveur doit envoyer un message d' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE pour chacune des rubriques qu’il prend en charge.
 
@@ -70,11 +70,11 @@ Lorsque [**SendMessage**](/windows/desktop/api/winuser/nf-winuser-sendmessage) r
 
 Pour terminer l’initiation d’une conversation, l’application serveur doit répondre avec un ou plusieurs messages de l' [**\_ \_ accusé**](wm-dde-ack.md) de réception DDE de WM, où chaque message est destiné à une rubrique distincte. Lors de l’envoi d’un message d' **\_ \_ accusé** de réception DDE, le serveur doit créer des atomes ; il ne doit pas réutiliser les atomes envoyés avec l' **\_ \_ initialisation DDE WM**.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                           |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                 |
@@ -86,7 +86,7 @@ Pour terminer l’initiation d’une conversation, l’application serveur doit 
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**GlobalAddAtom**](/windows/desktop/api/Winbase/nf-winbase-globaladdatoma)

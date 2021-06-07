@@ -4,12 +4,12 @@ description: Les utilisateurs interagissent avec le texte plus qu’avec tout au
 ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6c5fad1459d4ce45f2d677d4bd5864d89b125e4e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b74c9a593cb8d73d67464133042dfcf0aef7eb74
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103761222"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444570"
 ---
 # <a name="fonts"></a>Polices
 
@@ -105,7 +105,7 @@ Le texte a plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                                                                                                           |                                                                                                                                                       |
+|    Usage                                         |    Description                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Barre de titre Texte**<br/> Texte sur la barre de titre qui identifie la fenêtre.<br/>                                                                                                                                                                | ![exemple de police de texte de la barre de titre ](images/vis-fonts-image2.png)<br/>                                                                            |
 | **Instructions principales**<br/> Texte qui explique ce qu’il faut faire sur une page, une fenêtre ou une boîte de dialogue. <br/>                                                                                                                                              | ![exemple de police de texte d’instructions principales ](images/vis-fonts-image3.png)<br/>                                                                    |
@@ -132,9 +132,8 @@ Le texte a plusieurs modèles d’utilisation :
 
 
 
-|                                                                                               |                             |                                                            |
+| Modèle | Symbole du thème | Police, couleur |
 |-----------------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------|
-| **Modèle**<br/>                                                                        | **Symbole du thème**<br/> | **Police, couleur**<br/>                                 |
 | ![exemple de police de texte de la barre de titre ](images/vis-fonts-image2.png)<br/>                    | CaptionFont<br/>      | 9 PT. noir ( \# 000000) Segoe UI<br/>                 |
 | ![exemple de police de texte d’instructions principales ](images/vis-fonts-image3.png)<br/>            | MainInstruction<br/>  | 12 pt. bleu ( \# 003399) Segoe UI<br/>                 |
 | ![exemple de police de texte d’instructions secondaires ](images/vis-fonts-image4.png)<br/>       | Instruction<br/>      | 9 PT. noir ( \# 000000) Segoe UI<br/>                 |
@@ -143,7 +142,7 @@ Le texte a plusieurs modèles d’utilisation :
 | ![exemple de police de texte modifiable ](images/vis-fonts-image7.png)<br/>                     | BodyText<br/>         | 9 PT. noir ( \# 000000) Segoe UI, dans une zone<br/>       |
 | ![exemple de police de texte désactivé ](images/vis-fonts-image8.png)<br/>                     | Désactivé<br/>         | 9 PT. gris foncé ( \# 323232) Segoe UI<br/>             |
 | ![exemple de police de texte de lien ](images/vis-fonts-image9.png)<br/>                         | HyperLinkText<br/>    | 9 PT. bleu ( \# 0066CC) Segoe UI<br/>                  |
-| ![exemple de police de texte de liens (pointage) ](images/vis-fonts-image10.png)<br/>               | Chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
+| ![exemple de police de texte de liens (pointage) ](images/vis-fonts-image10.png)<br/>               | À chaud<br/>              | 9 PT. bleu clair ( \# 3399FF) Segoe UI<br/>            |
 | ![exemple de police de texte d’en-tête de groupe ](images/vis-fonts-image11.png)<br/>                |                             | 11 PT bleu ( \# 003399) Segoe UI<br/>                 |
 | ![exemple de nom de fichier (dans l’affichage du contenu) de la police de texte ](images/vis-fonts-image12.png)<br/> |                             | 11 PT noir ( \# 000000) Segoe UI<br/>                |
 | ![exemple de police de texte de document ](images/vis-fonts-image13.png)<br/>                    | (aucun)<br/>           | 9 PT. noir ( \# 000000) Calibri<br/>                  |
@@ -157,9 +156,8 @@ Le texte a plusieurs modèles d’utilisation :
 
 
 
-|                                            |                                                       |                                                                                                                                                                                                                                                                                                                                                                  |
+| Technologie d’interface utilisateur | Version de Windows cible | Polices à utiliser et optimiser pour |
 |--------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Technologie d’interface utilisateur**<br/>               | **Version de Windows cible**<br/>                 | **Polices à utiliser et optimiser pour**<br/>                                                                                                                                                                                                                                                                                                                     |
 | Windows Presentation Foundation<br/> | Tous<br/>                                        | Utilisez des parties de thème WPF.<br/>                                                                                                                                                                                                                                                                                                                                  |
 | Win32 ou WinForms<br/>               | Windows Vista ou version ultérieure ;<br/>                     | Utilisez la police de Segoe UI appropriée.<br/>                                                                                                                                                                                                                                                                                                                    |
 |                                            | Composants extensibles ou pré-Windows Vista<br/> | Pour cibler Windows XP et Windows 2000, utilisez la Pseudo-police MS Shell Dlg 2 de 8 points, qui est mappée à Tahoma.<br/> Pour cibler des versions antérieures de Windows, utilisez une Pseudo-police MS Shell Dlg de 8 points, qui correspond à Tahoma sur Windows 2000 et Windows XP, et à MS sans serif sur Windows 95, Windows 98, Windows Millennium Edition et Windows NT 4,0.<br/> |
@@ -182,7 +180,7 @@ Le texte a plusieurs modèles d’utilisation :
 -   La plupart des textes d’interface utilisateur doivent être simples sans attributs. Les attributs peuvent être utilisés comme suit :
     -   **Format.** Utilisez dans les étiquettes de contrôle pour faciliter l’analyse du texte. Utilisez avec modération pour attirer l’attention sur le texte que les utilisateurs doivent lire. L’utilisation d’un trop grand gras réduit son impact.
     -   **Italique.** Utilisez pour faire référence à du texte littéralement plutôt qu’à des guillemets. Utilisez avec modération pour mettre en évidence des mots spécifiques. Utilisez pour les [invites](glossary.md) dans les [zones de texte](ctrl-text-boxes.md) et les [listes déroulantes modifiables](/windows/desktop/uxguide/ctrl-drop).
-    -   **Italique gras.** N’utilisez pas.
+    -   **Italique gras.** Ne pas utiliser.
     -   **Souligner.** N’utilisez pas Except pour les liens. Utilisez Italic à la place pour l’accentuation.
 -   Toutes les polices ne prennent pas en charge le gras et l’italique, donc elles ne doivent jamais être cruciales pour comprendre le texte.
 

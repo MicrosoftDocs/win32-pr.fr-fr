@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa3c126a99cddd4918ea9033acffd185ad5cf3da
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 95cbda43fe2f652888a7b84539752b5d671868c3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103680830"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442850"
 ---
 # <a name="menugroup-element"></a>Élément MenuGroup
 
@@ -85,7 +85,7 @@ Si <strong>MenuGroup</strong> est un enfant de <a href="windowsribbon-element-ap
 | Élément                                                                             | Description                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -114,7 +114,7 @@ Si <strong>MenuGroup</strong> est un enfant de <a href="windowsribbon-element-ap
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -211,12 +211,8 @@ Cette section de code montre les déclarations de contrôle [**SplitButton**](wi
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

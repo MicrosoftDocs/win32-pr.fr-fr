@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Classes de dépannage des événements du service WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf3728b6ae150a948fdf71515e27f17ca7280f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210412"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443060"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>Classes de dépannage des événements du service WMI
 
@@ -20,7 +20,7 @@ Vous pouvez vous abonner aux notifications [**\_ WmiEssEvent msft**](/previous-v
 
 
 
-|                                                                                           |                                                                                                     |
+|   Événement                                                                                        |   Description                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [**\_WMIESSEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | Classe parente pour tous les auto-événements du sous-système d’événement (ESS) Windows Management Instrumentation (WMI). |
 | [**\_WMIREGISTERNOTIFICATIONEVENT msft**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | Représente la création d’un récepteur d’événements pour la notification pour une requête d’événement.                       |

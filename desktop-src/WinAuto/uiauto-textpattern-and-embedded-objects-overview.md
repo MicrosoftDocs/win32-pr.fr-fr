@@ -17,12 +17,12 @@ keywords:
 - exposer des objets incorporés
 ms.topic: article
 ms.date: 08/31/2019
-ms.openlocfilehash: b85d7fa9e068400e3a339625acad1036a4cdd111
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e9e0a8b9f70677778238908f8faf04e21ed9619
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727509"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443320"
 ---
 # <a name="how-ui-automation-exposes-embedded-objects"></a>Comment UI Automation expose des objets incorporés
 
@@ -59,7 +59,7 @@ Le tableau suivant répertorie des exemples d’éléments conteneur et non-cont
 - DataGrid
 - Document
 - Modifier
-- Group
+- Groupe
 - En-tête
 - HeaderItem
 - List
@@ -104,7 +104,7 @@ Toutefois, les fournisseurs peuvent utiliser différents magasins de texte pour 
 
 Le tableau suivant répertorie quelques exemples d’objets incorporés compatibles et non compatibles.
 
-|   | Objets incorporés compatibles | Objets incorporés non compatibles |
+| Objets  | Objets incorporés compatibles | Objets incorporés non compatibles |
 | --- | --- | --- |
 | Objets incorporés non-TextPattern | Bouton dans Microsoft Edge<br>Table de données dans Microsoft Edge | Dans RichTextBlock dans l’infrastructure XAML de Microsoft<br>Images avec texte alt dans Microsoft Edge<br>ListView avec ListItems dans RichTextBlock dans l’infrastructure XAML de Microsoft |
 | Objets incorporés TextPattern | Contrôle d’entrée de type « text » dans Microsoft Edge<br>Tableau dans un document Word | Élément TextBox dans un document Microsoft Word |
@@ -259,7 +259,7 @@ Le tableau suivant obtient le conteneur de texte à partir du contenu d’une ce
 | Cellule avec l'image                                            | Cellule avec le texte |
 |------------------------------------------------------------|----------------|
 | ![illustration d’une navette](images/shuttle.jpg)           | X              |
-| ![illustration de l’espace et de la téléportée](images/space.jpg) | O              |
+| ![illustration de l’espace et de la téléportée](images/space.jpg) | Y              |
 | ![illustration d’un microscope](images/microscope.jpg)     | Z              |
 
 L’appel des méthodes [**IUIAutomationGridPattern :: GetItem**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationgridpattern-getitem), [**IUIAutomationTextPattern :: RangeFromChild**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextpattern-rangefromchild)et [**IUIAutomationTextRange :: GetEnclosingElement**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange-getenclosingelement) entraîne les comportements décrits dans le tableau suivant.

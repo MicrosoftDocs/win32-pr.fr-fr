@@ -4,12 +4,12 @@ description: Une barre d’État est une zone en bas d’une fenêtre principale
 ms.assetid: 09dc03d9-d730-4f03-86a8-7b39d9a55369
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8f65d104f59cd0aec0c242d623f83c410c22f48d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3458b301c10cb4b9d6ca3a26a71b59e1011ec5a9
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211183"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524483"
 ---
 # <a name="status-bars-design-basics"></a>Barres d’État (notions de base sur la conception)
 
@@ -66,7 +66,7 @@ Les barres d’État ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                    |                                                                                                                                                                                                                                 |
+|   Usage                                                                                                                                 |    Exemple                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **État de la fenêtre active**<br/> Afficher la source de ce qui est affiché avec tous les modes d’affichage <br/>              | ![capture d’écran d’une barre d’État « emplacement » ](images/ctrl-status-bars-image3.png)<br/> Dans cet exemple, la barre d’état affiche le chemin d’accès au document.<br/>                                                         |
 | **Progression**<br/> Affiche la progression des tâches en arrière-plan, soit avec une barre de progression ou une animation arrêtée. <br/> | ![capture d’écran de la barre d’État avec la barre de progression ](images/ctrl-status-bars-image4.png)<br/> Dans cet exemple, la barre d’État comprend une barre de progression pour afficher le chargement de la page Web dans une fenêtre Internet Explorer.<br/> |
@@ -78,7 +78,7 @@ Les barres d’État ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   Envisagez de fournir une commande Afficher la barre d’État si seuls certains utilisateurs auront besoin des informations sur la barre d’État. Masque la barre d’État par défaut si la plupart des utilisateurs n’en ont pas besoin.
 -   N’utilisez pas la barre d’État pour expliquer les éléments de barre de menus. Ce modèle d’aide n’est pas détectable.
@@ -106,9 +106,8 @@ Les barres d’État ont plusieurs modèles d’utilisation :
 
 -   Utilisez des variantes d’icône ou des superpositions pour indiquer l’État ou les changements d’État. Utilisez les variations d’icône pour afficher les modifications de quantités ou de forces. Pour les autres types d’État, utilisez ces superpositions standard : 
 
-    |                                                                                               |                                  |
+    | Overlay                 | Statut            |
     |-----------------------------------------------------------------------------------------------|----------------------------------|
-    | **Overlay**<br/>                                                                        | **État**<br/>            |
     | ![capture d’écran de l’icône d’avertissement ](images/ctrl-status-bars-image8.png)<br/>                | Avertissement<br/>               |
     | ![capture d’écran de l’icône d’erreur ](images/ctrl-status-bars-image9.png)<br/>                  | Error<br/>                 |
     | ![capture d’écran de l’icône désactivée/déconnectée ](images/ctrl-status-bars-image10.png)<br/> | Désactivé/déconnecté<br/> |
@@ -132,7 +131,7 @@ Pour plus d’informations, consultez [icônes](vis-icons.md).
     -   Ne prenez pas en charge le clic droit ou le double-clic. Les utilisateurs n’attendent pas ces interactions dans une barre d’État, donc ils ne peuvent pas les essayer.
 -   Affichez les info-bulles au survol.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   En règle générale, utilisez des étiquettes concises. Coupez tout texte qui peut être éliminé.
 -   Préférer des fragments de phrase, sans ponctuation finale. Utilisez des phrases entières (avec ponctuation de fin) uniquement lorsque les fragments de phrase ne sont pas beaucoup plus courts.
