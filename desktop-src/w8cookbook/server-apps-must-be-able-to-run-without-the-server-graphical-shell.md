@@ -4,12 +4,12 @@ description: Les applications serveur doivent pouvoir s’exécuter sans l’int
 ms.assetid: 8F531497-B64D-4E79-AD7A-790EFDC6ADFE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7666ae07a28d798a36d249bf37ab2d7719b9fba0
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: ae2a3002fc2395faba3e07d90a2322c770fe3ee9
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104383147"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443220"
 ---
 # <a name="server-apps-must-be-able-to-run-without-the-server-graphical-shell"></a>Les applications serveur doivent pouvoir s’exécuter sans l’interpréteur de commandes graphique de serveur
 
@@ -62,7 +62,7 @@ HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersio
 
 
 
-|                  | Server Core | Interface serveur minimale | Interpréteur de commandes graphique de serveur |
+|   &nbsp;         | Server Core | Interface serveur minimale | Interpréteur de commandes graphique de serveur |
 |------------------|-------------|--------------------------|------------------------|
 | ServerCore = 1     | X           | X                        | X                      |
 | Serveur-GuiMgmt = 1 |             | X                        | X                      |
@@ -70,7 +70,7 @@ HKEY \_ local \_ machine \\ Software \\ Microsoft \\ Windows NT \\ CurrentVersio
 
 
 
- 
+ 
 
 Un « X » dans le tableau ci-dessus signifie que la clé de Registre est présente lorsque la fonctionnalité correspondante est installée.
 
@@ -86,6 +86,6 @@ Si vous ne pouvez pas complètement cesser d’utiliser ces API et ces fichiers 
 
 -   [Documentation Server Core existante sur MSDN](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 
- 
+ 
 
- 
+ 

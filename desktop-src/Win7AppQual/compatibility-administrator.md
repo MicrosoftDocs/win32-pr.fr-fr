@@ -4,12 +4,12 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: Administrateur de compatibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d941c9db85c8302d8d7d8808f24b95d1f3b08be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088527"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443940"
 ---
 # <a name="compatibility-administrator"></a>Administrateur de compatibilité
 
@@ -33,7 +33,7 @@ L’organigramme suivant illustre les étapes nécessaires à l’utilisation de
 
 
 
-|                                            |          |                                                                                            |          |                                                     |          |                                                                             |
+| &nbsp;    | &nbsp;  |  &nbsp;   | &nbsp;  | &nbsp; | &nbsp;  |  &nbsp;  |
 |--------------------------------------------|----------|--------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|----------|-----------------------------------------------------------------------------|
 | Créer une nouvelle base de données de compatibilité (. sdb) | **>** | Sélectionnez l’application, puis sélectionnez les correctifs de compatibilité à appliquer à l’application. | **>** | Tester l’application avec le nouveau correctif de compatibilité | **>** | Enregistrez la base de données de compatibilité, puis déployez le correctif dans votre entreprise |
 

@@ -4,12 +4,12 @@ description: Une notification informe les utilisateurs d’événements qui ne s
 ms.assetid: dcac2fb7-e503-4ea3-a2c5-e3cb660c040a
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 5de312b33a970245d2f6f410e55a891c286d9aa7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: be783ac6aac25e818d4ddf3612c726e55efa5fa5
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104550242"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524513"
 ---
 # <a name="notifications-design-basics"></a>Notifications (concepts de base de la conception)
 
@@ -179,7 +179,7 @@ Les notifications ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Sélectionnez le modèle de notification en fonction de son utilisation.** Pour obtenir une description de chaque modèle d’utilisation, consultez le tableau précédent.
 -   **N’utilisez pas de notifications au cours de l’expérience Windows initiale.** Pour améliorer sa première expérience, Windows 7 supprime toutes les notifications affichées au cours des premières heures d’utilisation. Concevez votre programme en supposant que les utilisateurs ne verront pas ces notifications.
@@ -227,9 +227,8 @@ Les notifications ont plusieurs modèles d’utilisation :
 
 
 
-|                                      |                                                                                                                                                                                                                    |
+| Modèle              | Quand notifier          |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Modèle**<br/>               | **Quand notifier**<br/>                                                                                                                                                                                      |
 | Réussite de l’action<br/>            | À la fin d’une tâche asynchrone. Informez les utilisateurs des actions réussies uniquement s’ils sont susceptibles d’attendre la fin de l’opération ou après des échecs récents.<br/>                                             |
 | Échec de l’action<br/>            | En cas de défaillance d’une tâche asynchrone.<br/>                                                                                                                                                                   |
 | Événement système non critique<br/> | Lorsqu’un événement se produit et que l’utilisateur est actif, ou que la condition continue à exister. Si cela est le résultat d’un problème, supprimez immédiatement la notification actuellement affichée une fois le problème résolu.<br/> |
@@ -265,9 +264,8 @@ Dans Windows Vista et versions ultérieures, les notifications s’affichent pou
 
 
 
-|                                      |                                                                                                                             |
+| Modèle           | Fréquence de notification  |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| **Modèle**<br/>               | **Fréquence de notification**<br/>                                                                                          |
 | Réussite de l’action<br/>            | Une seule fois.<br/>                                                                                                            |
 | Échec de l’action<br/>            | Une seule fois.<br/>                                                                                                            |
 | Événement système non critique<br/> | Une fois lorsque l’événement se produit pour la première fois. Si cela est le résultat d’un problème que les utilisateurs doivent résoudre, réaffichez une fois par jour.<br/> |
@@ -327,7 +325,7 @@ Dans cet exemple, les utilisateurs peuvent rapidement comprendre la nature de la
 
 -   Si votre application n’a pas toujours d’icône dans la [zone de notification](winenv-notification.md) lorsqu’elle est en cours d’exécution, **Affichez temporairement une icône au cours de la tâche ou de l’événement asynchrone à l’origine de la notification.**
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 ### <a name="title-text"></a>Texte du titre
 

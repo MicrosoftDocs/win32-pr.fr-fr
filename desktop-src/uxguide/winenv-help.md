@@ -4,12 +4,12 @@ description: Utilisez l’aide comme mécanisme secondaire pour aider les utilis
 ms.assetid: 82ce076e-062b-4793-a1c0-ed96c0f2b284
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 907494e9a97ccaf51e4eba463c34e49854b14a81
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f9b1260128eb253a2d501a810923ae809c5f8187
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104559393"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443240"
 ---
 # <a name="help"></a>Aide
 
@@ -130,7 +130,7 @@ Différents types de contenu sont utilisés à des fins différentes.
 
 
 
-|                                                                                                              |                                                                                                                                                                                                                                                                                                                                                                                       |
+|    Type de contenu                                                                                                        |   Exemple                                                                                                                                                                                                                                                                                                                                                                                    |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Aide procédurale**<br/> fournit les étapes d’exécution d’une tâche. <br/>                       | L’aide procédurale doit se concentrer sur les informations « comment » plutôt que sur « quoi » ou « pourquoi ». <br/> ![capture d’écran de la page d’aide « supprimer les fichiers temporaires » ](images/winenv-help-image2.png)<br/> Dans cet exemple, la rubrique d’aide explique comment utiliser une fonctionnalité de l’utilitaire de nettoyage de disque, en fournissant les étapes à suivre dans l’ordre.<br/>                                              |
 | **Aide conceptuelle**<br/> fournit des informations générales, des vues d’ensemble des fonctionnalités ou des processus. <br/> | L’aide conceptuelle doit fournir des informations « quoi » ou « pourquoi » au-delà de ce qui est nécessaire pour effectuer une tâche. <br/> ![capture d’écran de la page d’aide du Bureau (vue d’ensemble) ](images/winenv-help-image3.png)<br/> Dans cet exemple, la rubrique d’aide définit ce qu’est le bureau et fournit des détails supplémentaires sur ce qu’il contient et la raison pour laquelle les utilisateurs interagissent avec lui.<br/>           |
@@ -201,7 +201,7 @@ Différents types de contenu sont utilisés à des fins différentes.
 
     N’utilisez pas de boutons d’aide contextuelle sur la barre de titre.
 
-### <a name="content"></a>Content
+### <a name="content"></a>Contenu
 
 -   **Ne créez pas de contenu évident.** Les rubriques d’aide qui répètent ce qui se trouve dans l’interface utilisateur principale n’ajoutent pas de valeur.
 -   **Ne créez pas de contenu sur lequel l’utilisateur ne peut agir d’une certaine manière.**
@@ -230,7 +230,7 @@ Dans cet exemple, une fenêtre de l’Explorateur Windows utilise une icône d�
 
 Dans cet exemple, l’icône d’aide dans la partie inférieure gauche est utilisée de manière incorrecte avec un lien d’aide.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 **Liens d’aide**
 

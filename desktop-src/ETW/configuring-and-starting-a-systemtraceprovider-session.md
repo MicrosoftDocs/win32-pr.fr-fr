@@ -3,13 +3,13 @@ description: SystemTraceProvider est un fournisseur de noyaux avec un ensemble p
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: Configuration et démarrage d’une session SystemTraceProvider
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: b718269801a7677572e7bb5b74cd8b89d3711e3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.date: 06/02/2021
+ms.openlocfilehash: 66e9d672a7c8e6358c2a92e7661e0d4e2a5878ab
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972227"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386739"
 ---
 # <a name="configuring-and-starting-a-systemtraceprovider-session"></a>Configuration et démarrage d’une session SystemTraceProvider
 
@@ -19,7 +19,11 @@ Sur Windows 8, Windows Server 2012 et versions ultérieures, les SystemTraceProv
 
 Pour plus d’informations sur l’utilisation de la session de journalisation du noyau NT en tant que fournisseur de trace, consultez [configuration et démarrage de la session de journalisation du noyau NT](configuring-and-starting-the-nt-kernel-logger-session.md).
 
-Pour permettre à SystemTraceProvider de démarrer une session autre que l’enregistreur d’événements de noyau NT, exécutez la commande suivante.
+Dans le kit de développement logiciel (SDK) Windows 10 version 20348 et versions ultérieures, les SystemTraceProvider peuvent être configurés via des fournisseurs système distincts, qui peuvent être contrôlés avec [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) comme des fournisseurs d’événements suivi d’v nements pour Windows standard. Pour obtenir la liste complète des fournisseurs système, des mots clés et des groupes et indicateurs hérités correspondants, consultez [fournisseurs système](system-providers.md) .
+
+## <a name="enable-a-systemtraceprovider-session"></a>Activer une session SystemTraceProvider
+
+Pour permettre à SystemTraceProvider de démarrer une session autre que l’enregistreur d’événements de noyau NT, exécutez la commande suivante :
 
 **tracelog-Start MySession-f c : \\ Kernel1. etl-EFLAG Proc \_ thread + Loader + CSWITCH**
 
@@ -46,22 +50,17 @@ Pour activer par programmation le SystemTraceProvider pour démarrer une session
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-<dl> <dt>
-
 [Configuration et démarrage d’une session de journalisation privée](configuring-and-starting-a-private-logger-session.md)
-</dt> <dt>
 
 [Configuration et démarrage d’une session de journalisation automatique](configuring-and-starting-an-autologger-session.md)
-</dt> <dt>
 
 [Configuration et démarrage d’une session de suivi d’événements](configuring-and-starting-an-event-tracing-session.md)
-</dt> <dt>
 
 [Configuration et démarrage de la session de journalisation du noyau NT](configuring-and-starting-the-nt-kernel-logger-session.md)
-</dt> <dt>
+
+[Fournisseurs système](system-providers.md)
 
 [Mise à jour d’une session de suivi d’événements](updating-an-event-tracing-session.md)
-</dt> </dl>
 
  
 

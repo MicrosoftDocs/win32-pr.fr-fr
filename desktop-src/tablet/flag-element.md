@@ -4,12 +4,12 @@ ms.assetid: 612f8814-ab3c-4a3e-9791-525788d4cc72
 title: Flag, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b6eda9aeb29c07c0de05eadffb8ba8d60f81954
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46508f9821379fbedb3291ba45d16dbdd0fb316f
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536973"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432324"
 ---
 # <a name="flag-element"></a>Flag, élément
 
@@ -23,13 +23,13 @@ Contient une bitmap encodée en base64 d’un indicateur associé à la section 
 
 ## <a name="parent-elements"></a>Éléments parents
 
-[**Content**](content-element--journal-reader.md)
+[**Humidité**](content-element--journal-reader.md)
 
 [**, Nœud**](groupnode-element.md)
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
@@ -50,7 +50,7 @@ Aucun
 
 
 
-|              |                                                       |
+|  Élément     | Valeur                                                     |
 |--------------|-------------------------------------------------------|
 | Type d'élément | ComplexType [**FlagType**](flagtype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk            |

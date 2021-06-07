@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 17269342521a5da5db8d7a852a985c29ed7e2e98
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: a433e2f04eae8607b0c14c5494c734ad0f0dd83a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104030747"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444110"
 ---
 # <a name="recentitems-element"></a>Élément RecentItems
 
@@ -93,7 +93,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Obligatoire.
 
@@ -131,13 +131,8 @@ L’exemple suivant illustre la déclaration de contrôles **RecentItems** assoc
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
-
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 ## <a name="see-also"></a>Voir aussi

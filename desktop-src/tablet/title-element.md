@@ -4,12 +4,12 @@ ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Titre, élément
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2362e286482b329c50788b8eae4b4a30cbd1a125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef687f809aae5c3722cdad84ee63d79c7bfcfb21
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545126"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432221"
 ---
 # <a name="title-element"></a>Titre, élément
 
@@ -76,7 +76,7 @@ Contient des informations de titre sur la note du journal.
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Color</strong></td>
+<td><strong>Couleur</strong></td>
 <td><a href="colortype-simple-type.md"><strong>ColorType, simpleType</strong></a></td>
 <td>Facultatif</td>
 <td>Spécifie la couleur de l'arrière-plan.</td>
@@ -93,7 +93,7 @@ Contient des informations de titre sur la note du journal.
 
 
 
-|              |                                                         |
+| Élément      | Valeur                                                   |
 |--------------|---------------------------------------------------------|
 | Type d'élément | ComplexType [**TitleType**](titletype-complex-type.md) |
 | Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk              |

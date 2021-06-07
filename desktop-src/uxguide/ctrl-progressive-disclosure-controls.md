@@ -4,12 +4,12 @@ description: Avec un contrôle de la divulgation progressive, les utilisateurs p
 ms.assetid: 0ca00c49-f897-49a6-926a-cc65f3155c6c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 22c74f60b3184f7fa7f7cdb2b4f2e9d9f64995ea
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a40f4c2fadd75cbcb6711dec2c1361ce2f970088
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321418"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524543"
 ---
 # <a name="progressive-disclosure-controls"></a>Contrôles de divulgation progressive
 
@@ -97,9 +97,8 @@ Les contrôles de divulgation progressive ont un [intuitivité](glossary.md)rela
 
 
 
-|                                                                                                                                                          |                                                                                                                                                                                                             |                                                                                                                                |                                |
+| Contrôler | Objectif  | Apparence | Glyphe indique |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
-| **Contrôle**<br/>                                                                                                                                   | **Objectif**<br/>                                                                                                                                                                                      | **Apparence**<br/>                                                                                                      | **Glyphe indique**<br/> |
 | **Chevrons**<br/> ![capture d’écran des chevrons gauche/droit et haut/flèche vers le haut ](images/progressive-disclosure-controls-image7.png)<br/>                 | **Afficher tout :** Affichez ou masquez les éléments restants dans le contenu entièrement ou partiellement masqué. Les éléments sont affichés sur place (à l’aide d’un chevron simple) ou dans un menu contextuel (à l’aide d’un double Chevron).<br/> | Les chevrons pointent dans la direction dans laquelle l’action aura lieu.<br/>                                                        | État futur<br/>        |
 | **Flèches**<br/> ![capture d’écran des flèches gauche/droite et haut/bas ](images/progressive-disclosure-controls-image8.png)<br/>                     | **Afficher les options :** Affichez un menu contextuel.<br/>                                                                                                                                                    | Les flèches pointent dans la direction dans laquelle l’action doit se produire.<br/>                                                          | État futur<br/>        |
 | **Contrôles plus et moins**<br/> ![capture d’écran de deux petits boutons plus et moins ](images/progressive-disclosure-controls-image9.png)<br/> | **Développer les conteneurs :** Développez ou réduisez le contenu du conteneur en place lors de la navigation dans une hiérarchie.<br/>                                                                                        | Les symboles plus et moins ne pointent pas, mais l’action se produit toujours à droite.<br/>                                    | État futur<br/>        |
@@ -125,7 +124,7 @@ Les chevrons sont utilisés des manières suivantes :
 
 
 
-|                                                                                                                                                                |                                                                                                                                                                                                                                                                                                                 |
+|      Usage                                                                                                                                                          |    Exemple                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Interface utilisateur sur place**<br/> l’objet associé reçoit le focus d’entrée et le Chevron simple est activé à l’aide de la barre d’espace.<br/>                       | ![capture d’écran de l’affichage de l’état de Security Center ](images/progressive-disclosure-controls-image11.png)<br/> Dans ces exemples, les chevrons simples sur place sont positionnés à droite de leur contrôle associé.<br/>                                                                            |
 | **Boutons de commande avec des étiquettes externes**<br/> le bouton de commande reçoit le focus d’entrée et le Chevron simple est activé à l’aide de la barre d’espace.<br/> | ![capture d’écran des chevrons avec l’étiquette « More options » ](images/progressive-disclosure-controls-image12.png)<br/> Dans cet exemple, le bouton de Chevron simple est étiqueté et positionné à gauche de l’étiquette. Avec ce modèle, il serait difficile de comprendre le bouton sans son étiquette.<br/> |
@@ -145,7 +144,7 @@ Les flèches sont utilisées des manières suivantes :
 
 
 
-|                                                                                       |                                                                                                                                                                                                                                       |
+|    Usage                                                                                   |    Exemple                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Boutons distincts**<br/> la flèche se trouve dans un contrôle bouton distinct.<br/> | ![capture d’écran des flèches à droite des contrôles ](images/progressive-disclosure-controls-image14.png)<br/> Dans ces exemples, des boutons de direction distincts positionnés à droite indiquent un menu de commande.<br/>               |
 | **Boutons de commande**<br/> la flèche fait partie d’un bouton de commande.<br/>      | ![capture d’écran de l’étiquette et de la flèche sur le bouton de commande ](images/progressive-disclosure-controls-image15.png)<br/> Dans ces exemples, les boutons de menu et les boutons partagés ont les flèches positionnées à droite du texte.<br/> |
@@ -164,7 +163,7 @@ Les contrôles plus et moins sont utilisés des manières suivantes :
 
 
 
-|                                                                                                |                                                                                                                                                                                                                                      |
+|       Usage                                                                                         |       Exemple                                                                                                                                                                                                                               |
 |------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Arborescences réductibles**<br/> hiérarchie à plusieurs niveaux pour afficher le contenu d’un conteneur.<br/> | ![Capture d’écran montrant une arborescence de dossiers de l’Explorateur Windows avec « Behavior » sélectionné.](images/progressive-disclosure-controls-image16.png)<br/> Dans cet exemple, les contrôles plus et moins sont positionnés à gauche du conteneur associé.<br/>       |
 | **Listes réductibles**<br/> hiérarchie à deux niveaux pour afficher le contenu du conteneur.<br/>   | ![capture d’écran de la liste développée pour afficher deux niveaux ](images/progressive-disclosure-controls-image17.png)<br/> Dans cet exemple, les contrôles plus et moins sont positionnés à gauche de l’en-tête de liste associé.<br/> |
@@ -183,7 +182,7 @@ Les triangles rotatifs sont utilisés des manières suivantes :
 
 
 
-|                                                                                                            |                                                                                                                                                                                                                                 |
+|     Usage                                                                                                       |    Exemple                                                                                                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Arborescences réductibles**<br/> hiérarchie à plusieurs niveaux pour afficher le contenu d’un conteneur.<br/>             | ![capture d’écran de l’arborescence des dossiers de l’Explorateur Windows ](images/progressive-disclosure-controls-image18.png)<br/> Dans cet exemple, les triangles pivotés sont positionnés à gauche du conteneur associé.<br/>       |
 | **Listes réductibles**<br/> hiérarchie à deux niveaux pour afficher des informations supplémentaires.<br/> | ![capture d’écran de la liste affichant des données supplémentaires ](images/progressive-disclosure-controls-image19.png)<br/> Dans cet exemple, les triangles pivotés sont positionnés à gauche de leurs éléments de liste associés.<br/> |
@@ -204,7 +203,7 @@ Les flèches d’aperçu sont réservées aux situations où un chevron standard
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Sélectionnez le modèle de divulgation progressive en fonction de son utilisation.** Pour obtenir une description de chaque modèle d’utilisation, consultez le tableau précédent.
 -   **N’utilisez pas de liens pour les contrôles de divulgation progressive.** Utilisez uniquement les contrôles de divulgation progressive présentés dans la section modèles d’utilisation. Toutefois, utilisez des liens pour accéder aux [rubriques d’aide](winenv-help.md).

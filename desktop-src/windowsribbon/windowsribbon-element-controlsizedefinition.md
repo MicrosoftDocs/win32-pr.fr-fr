@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e35fe159bf5bafa1ebfa6119215a4265ee900ef0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ff5217c08b4ea6da1931b0c65501f912f2cc5dc
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312661"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443410"
 ---
 # <a name="controlsizedefinition-element"></a>Élément ControlSizeDefinition
 
@@ -106,13 +106,13 @@ Il n’y a pas d’éléments enfants.
 |-------------------------------------------------------------------------------------|
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>               |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**Haut**](windowsribbon-element-row.md)<br/>                                 |
+| [**Ligne**](windowsribbon-element-row.md)<br/>                                 |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Row**](windowsribbon-element-row.md)ou [**SizeDefinition**](windowsribbon-element-sizedefinition.md) .
 
@@ -210,12 +210,8 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

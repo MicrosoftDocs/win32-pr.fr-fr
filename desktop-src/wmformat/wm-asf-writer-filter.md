@@ -1,6 +1,6 @@
 ---
 title: Filtre d’enregistreur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
-description: Filtre d’enregistreur ASF WM
+description: En savoir plus sur le filtre d’enregistreur ASF WM.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK, WM ASF Writer
@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), enregistreur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0de34bcf4b4047673f832d78f40377f98e94d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513570"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444700"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>Filtre d’enregistreur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
 
@@ -28,7 +28,7 @@ Le tableau suivant contient des informations sur le filtre de l’enregistreur A
 
 
 
-|                        |                                                                                                                                                                                                                         |
+| Informations de filtre                       |  Types                                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre      | **IAMFilterMiscFlags**, **IBaseFilter**, **IConfigAsfWriter**, **IFileSinkFilter2**, IMediaSeeking, IPersistStream, IServiceProvider, ISpecifyPropertyPages, **IWMIndexer2**, **IWMHeaderInfo**, **IWMWriterAdvanced2** |
 | Types de média de broche d’entrée  | Dépend du profil. En général, les types non compressés comme \_ les signaux audio ou MediaType \_ vidéo, bien que les types compressés puissent être acceptés s’ils correspondent au profil                                                   |
@@ -45,7 +45,7 @@ Le tableau suivant contient des informations sur le filtre de l’enregistreur A
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le nombre de broches d’entrée sur le filtre dépend du profil qui est passé au filtre. Une broche du type de média approprié est créée pour chaque flux défini dans le profil.
 

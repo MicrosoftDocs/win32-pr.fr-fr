@@ -4,12 +4,12 @@ ms.assetid: CAEC8F92-8971-42B4-BED8-A6A93522D11E
 title: Vue d’ensemble du format GIF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f592b50300edf79c71ff4050a2c0d5aeba8b23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf7e9924c921b7944de114f5fe667cb2aa33cae
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203802"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444450"
 ---
 # <a name="gif-format-overview"></a>Vue d’ensemble du format GIF
 
@@ -21,7 +21,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                                       |
+|  Composant             | Description                           |
 |------------------------|---------------------------------------|
 | Nom (s) formel (s)         | GIF (Graphics Interchange format 89a) |
 | Extension (s) de nom de fichier | GIF                                   |

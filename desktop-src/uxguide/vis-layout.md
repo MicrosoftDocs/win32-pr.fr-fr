@@ -4,12 +4,12 @@ description: La disposition est le dimensionnement, l’espacement et le positio
 ms.assetid: 39cd896f-d3cc-4768-a20c-a7f598da7136
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: f6b33375cbb679cc7c7efdeb12e5cd30be6280c5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8577843f3e54744cabe970e3b9132df1d9fb45df
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104211193"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444880"
 ---
 # <a name="layout"></a>Layout
 
@@ -637,7 +637,7 @@ En règle générale, si un élément de disposition peut être éliminé sans n
 
 -   **Si les contrôles ne sont pas en contact, vous devez disposer d’au moins 3 unités de commande (5 pixels relatifs) d’espace entre eux.** Dans le cas contraire, les utilisateurs peuvent cliquer sur l’espace inactif entre les contrôles. Étant donné que le fait de cliquer sur l’espace inactif n’a pas de résultat ou de rétroaction visuelle, les utilisateurs sont souvent incertains mal.
 
-### <a name="placement"></a>Placement
+### <a name="placement"></a>Sélection élective
 
 -   **Réorganisez les éléments d’interface utilisateur dans une surface pour qu’ils circulent naturellement dans un ordre de gauche à droite et de haut en bas (dans les cultures occidentales).** Le placement des éléments d’interface utilisateur communique leur relation et doit refléter les étapes pour effectuer la tâche.
 -   **Placez les éléments d’interface utilisateur qui lancent une tâche dans l’angle supérieur gauche ou supérieur au centre.** Donnez à l’élément d’interface utilisateur que les utilisateurs doivent d’abord examiner la plus grande importance visuelle.
@@ -691,9 +691,8 @@ Le tableau suivant répertorie les tailles recommandées (largeur x hauteur, ou 
 
 
 
-|                                                                                                 |                            |                                                                                                   |                                                                                                            |
+| Exemple | Control | Unités du dialogue | Pixels relatifs |
 |-------------------------------------------------------------------------------------------------|----------------------------|---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-|                                                                                                 | **Contrôle**<br/>     | **Unités du dialogue**<br/>                                                                       | **Pixels relatifs**<br/>                                                                             |
 | ![capture d’écran des cases à cocher et de leurs étiquettes ](images/vis-layout-image45.png)<br/>       | Cases à cocher<br/>     | 10<br/>                                                                                     | 17<br/>                                                                                              |
 | ![capture d’écran de la zone de liste déroulante ](images/vis-layout-image46.png)<br/>                          | Zones de liste modifiable<br/>     | largeur de l’élément le plus long + 30% x 14<br/>                                                       | largeur de l’élément le plus long + 30% x 23<br/>                                                                |
 | ![capture d’écran d’un bouton de commande ](images/vis-layout-image47.png)<br/>                   | Boutons de commande<br/> | 50 x 14<br/>                                                                                | 75 x 23<br/>                                                                                         |
@@ -718,15 +717,14 @@ Le tableau suivant répertorie l’espacement recommandé entre les éléments d
 
 
 
-|                                                                                                   |                                                                                                       |                                                                                           |                                                                                           |
+|   &nbsp; | Élément | Unités du dialogue | Pixels relatifs |
 |---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
-|                                                                                                   | **Element**<br/>                                                                                | **Unités du dialogue**<br/>                                                               | **Pixels relatifs**<br/>                                                            |
 | ![Image représentant l’espacement des marges de la boîte de dialogue ](images/vis_layout_image58.jpeg)<br/>        | Marges de la boîte de dialogue<br/>                                                                         | 7 sur tous les côtés<br/>                                                                 | 11 sur tous les côtés<br/>                                                                |
 | ![Image représentant l’espacement entre les étiquettes et les contrôles ](images/vis_layout_image59.jpeg)<br/>  | Entre les étiquettes de texte et leurs contrôles associés (par exemple, les zones de texte et les zones de liste)<br/> | 3<br/>                                                                              | 5<br/>                                                                              |
 | ![Image présentant l’espacement entre les contrôles connexes ](images/vis_layout_image60.jpeg)<br/>     | Entre les contrôles connexes<br/>                                                                   | 4<br/>                                                                              | 7<br/>                                                                              |
 | ![Image représentant l’espacement entre les contrôles non liés ](images/vis_layout_image61.jpeg)<br/>   | Entre des contrôles non liés<br/>                                                                 | 7<br/>                                                                              | 11<br/>                                                                             |
 | ![Image représentant l’espacement du premier contrôle dans un groupe ](images/vis_layout_image62.jpeg)<br/>  | Premier contrôle dans une zone de groupe<br/>                                                               | 11 en haut de la zone de groupe ; Aligner verticalement sur le titre de la zone de groupe<br/> | 16 en haut de la zone de groupe ; Aligner verticalement sur le titre de la zone de groupe<br/> |
-| ![Aa511279. between-related (en-US, MSDN. 10). jpg](images/vis_layout_image60.jpeg)<br/>         | Entre les contrôles dans une zone de groupe<br/>                                                            | 4<br/>                                                                              | 7<br/>                                                                              |
+| ![Aa511279. between (en-US, MSDN. 10) .jpg](images/vis_layout_image60.jpeg)<br/>         | Entre les contrôles dans une zone de groupe<br/>                                                            | 4<br/>                                                                              | 7<br/>                                                                              |
 | ![Image représentant l’espacement entre les boutons ](images/vis_layout_image63.jpeg)<br/>              | Entre les boutons disposés horizontalement ou verticalement<br/>                                        | 4<br/>                                                                              | 7<br/>                                                                              |
 | ![Image représentant l’espacement du dernier contrôle dans un groupe ](images/vis_layout_image64.jpeg)<br/>   | Dernier contrôle dans une zone de groupe<br/>                                                                | 7 au-dessus du bas de la zone de groupe<br/>                                            | 11 au-dessus du bas de la zone de groupe<br/>                                           |
 | ![Image représentant l’espacement du bord gauche de la zone de groupe ](images/vis_layout_image65.jpeg)<br/>  | À partir du bord gauche d’une zone de groupe<br/>                                                          | 6<br/>                                                                              | 9<br/>                                                                              |

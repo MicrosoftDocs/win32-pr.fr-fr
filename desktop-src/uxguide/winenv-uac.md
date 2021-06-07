@@ -4,12 +4,12 @@ description: Une expérience de contrôle de compte utilisateur bien conçue per
 ms.assetid: c4b83537-c600-4b24-bda6-df7a82719ab1
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b346e5cb581ac83ad2ebffabe73c5fbed636d814
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: bb1424254a91f935073e57bbde2c7124fd838b32
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104554595"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443210"
 ---
 # <a name="user-account-control"></a>Contrôle de compte d'utilisateur
 
@@ -202,9 +202,8 @@ Le contrôle de compte d’utilisateur a plusieurs modèles d’utilisation (par
 -   **N’affichez pas d’avertissements pour expliquer que les utilisateurs peuvent avoir besoin d’élever leurs privilèges pour effectuer des tâches.** Permettez aux utilisateurs de découvrir ce fait par eux-mêmes.
 -   **Affichez la protection UAC et l’interface utilisateur d’élévation en fonction du tableau suivant :**
 
-    |                       |                                                                                                                                                                  |                                                                                                                                                                                                                       |                                                                                                      |
+    | Object | Circonstance | Où placer la protection UAC | Quand élever |
     |-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-    | **Object**      | **Circonstance**                                                                                                                                                | **Où placer la protection UAC**                                                                                                                                                                               | **Quand élever**                                                                            |
     | Programme<br/>    | Le programme entier est destiné uniquement aux administrateurs.<br/>                                                                                                            | ![capture d’écran du logo Windows et de la superposition de blindage UAC ](images/winenv-uac-image10.png)<br/> Superposition de blindage UAC sur l’icône de programme.<br/>                                                                       | Affichez l’interface utilisateur d’élévation au lancement.<br/>                                                           |
     | Commande<br/>    | La commande entière est destinée aux administrateurs uniquement.<br/>                                                                                                            | ![capture d’écran du lien de modification du compte et de la protection UAC ](images/winenv-uac-image14.png)<br/> Bouclier UAC sur le bouton ou le lien de commande.<br/>                                                                      | Afficher l’interface utilisateur d’élévation lorsque l’utilisateur clique sur un bouton ou un lien de commande, mais après toute confirmation.<br/> |
     | Commande<br/>    | La commande affiche des informations en lecture seule utiles appropriées pour tous les utilisateurs, mais les modifications requièrent des privilèges d’administrateur.<br/>                               | ![capture d’écran du lien des paramètres de modification et de la protection UAC ](images/winenv-uac-image8.png)<br/> Bouclier UAC sur un bouton de commande ou un lien pour apporter des modifications.<br/>                                                      | Afficher l’interface utilisateur d’élévation lorsque l’utilisateur clique sur le bouton de commande, mais après toutes les confirmations.<br/>         |
@@ -238,7 +237,7 @@ Dans cet exemple, le contrôle de compte d’utilisateur a été désactivé, ce
     -   Si l’utilisateur annule l’interface utilisateur d’élévation, revenez à la page valider. Cela permet à l’utilisateur de réessayer.
 -   Pour les assistants de longue durée destinés uniquement aux administrateurs, vous pouvez demander les informations d’identification de l’administrateur au point d’entrée avant d’afficher l’interface utilisateur.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   **N’utilisez pas de points de suspension juste parce qu’une commande requiert une élévation.** La nécessité d’élever est indiquée par la protection UAC.
 

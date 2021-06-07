@@ -7,12 +7,12 @@ keywords:
 - Comment spécifier des valeurs de comparaison AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f9355bc4853fa6dc62645e1c241d8e26f731f9
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: edba238961cdc18b088b6b5bd5b06ff4be383add
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103724492"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386749"
 ---
 # <a name="how-to-specify-comparison-values"></a>Comment spécifier des valeurs de comparaison
 
@@ -84,7 +84,7 @@ Les opérateurs de règle de correspondance LDAP peuvent également être utilis
 <span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString
 </dt> <dd>
 
-La valeur spécifiée dans un filtre correspond aux données à trouver. Les données doivent être représentées sous la forme d’une chaîne d’octets encodée en deux caractères, où chaque octet est précédé d’une barre oblique inverse ( \) . Par exemple, la valeur 0x05 apparaît dans la chaîne sous la forme « \\ 05 ».
+La valeur spécifiée dans un filtre correspond aux données à trouver. Les données doivent être représentées sous la forme d’une chaîne d’octets encodée en deux caractères, où chaque octet est précédé d’une barre oblique inverse ( \\ ). Par exemple, la valeur 0x05 apparaît dans la chaîne sous la forme « \\ 05 ».
 
 La fonction [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) peut être utilisée pour créer une représentation sous forme de chaîne encodée de données binaires. La fonction **ADsEncodeBinaryData** ne code pas les valeurs d’octets qui représentent des caractères alphanumériques. Au lieu de cela, il placera le caractère dans la chaîne sans l’encoder. Cela entraîne la chaîne contenant un mélange de caractères encodés et non codés. Par exemple, si les données binaires sont 0x05 \| 0x1A \| 0x1B \| 0x43 \| 0x32, la chaîne encodée contient « \\ 05 \\ 1a \\ 1BC2 ». Cela n’a aucun effet sur le filtre et les filtres de recherche fonctionnent correctement avec ces types de chaînes.
 
@@ -533,6 +533,6 @@ Les syntaxes suivantes sont évaluées dans un filtre semblable à une chaîne d
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

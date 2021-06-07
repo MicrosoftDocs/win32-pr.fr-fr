@@ -4,12 +4,12 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: fdc489184b3220afd0b8c75738fa1d40de207c8d
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 1e5d9f8b0532b809bab617655694af68ba530430
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387048"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521204"
 ---
 # <a name="directml-feature-level-history"></a>Historique des niveaux de fonctionnalité DirectML
 
@@ -92,8 +92,8 @@ Introduit dans DirectML version 1.2.0.
 
 Ajout des API suivantes.
 
-* [Interface IDMLDevice1](./directml/nn-directml-idmldevice1.md)
-* Prise en charge des graphiques d’opérateur (consultez [IDMLDevice1 :: CompileGraph](./directml/nf-directml-idmldevice1-compilegraph.md)
+* [Interface IDMLDevice1](/windows/win32/api/directml/nn-directml-idmldevice1)
+* Prise en charge des graphiques d’opérateur (consultez [IDMLDevice1 :: CompileGraph](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
 Ajout de la prise en charge des opérateurs suivants.
 
@@ -166,7 +166,7 @@ Ajout des améliorations suivantes :
 Introduit dans DirectML version 1.1.0.
 
 Ajout des API suivantes.
-* [Fonction DMLCreateDevice1](./directml/nf-directml-dmlcreatedevice1.md)
+* [Fonction DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [Énumération DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * Requêtes au niveau des fonctionnalités (voir [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels))
 
@@ -213,5 +213,5 @@ Niveau de fonctionnalité dans lequel DirectML a été introduit.
 
 * [Historique des versions DirectML](./dml-version-history.md)
 * [Énumération DML_FEATURE_LEVEL](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [Fonction DMLCreateDevice1](./directml/nf-directml-dmlcreatedevice1.md)
+* [Fonction DMLCreateDevice1](/windows/win32/api/directml/nf-directml-dmlcreatedevice1.md)
 * [Structure DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

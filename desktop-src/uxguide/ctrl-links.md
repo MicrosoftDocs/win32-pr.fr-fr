@@ -4,12 +4,12 @@ description: Avec un lien, les utilisateurs peuvent accéder à une autre page, 
 ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 521f96146de535210d79814b375499ea34399179
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 161313008612d04b5009942f82f662888d1ffd35
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104551810"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524254"
 ---
 # <a name="links"></a>Liens
 
@@ -93,7 +93,7 @@ Les liens ont plusieurs modèles fonctionnels :
 
 
 
-|                                                                                                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|    Usage                  |    Exemple   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Liens de navigation**<br/> Lien utilisé pour naviguer vers une autre page ou fenêtre. <br/>                                                      | Le fait de cliquer sur le lien permet d’accéder à l’emplacement d’une autre page, comme dans une fenêtre de navigateur ou un Assistant. ou affiche une nouvelle fenêtre. Contrairement aux liaisons de tâches, la navigation n’initie pas de tâche, mais accède simplement à un autre emplacement ou poursuit une tâche déjà en cours. La navigation implique la sécurité, car l’utilisateur peut toujours revenir en arrière.<br/> Actualités<br/> Dans cet exemple, le fait de cliquer sur le lien permet d’accéder à la page titres d’actualité.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **Liens de tâches**<br/> Lien utilisé pour initialiser une nouvelle commande. <br/>                                                                        | En cliquant sur le lien, vous exécutez immédiatement une commande ou vous affichez une boîte de dialogue ou une page pour recueillir davantage d’entrées. Contrairement aux liens de navigation, les liens de tâches déclenchent une nouvelle tâche au lieu de poursuivre une tâche existante. Les tâches n’impliquent pas que safetyusers ne puisse pas revenir à l’état précédent avec une commande back. Les liens de tâche sont appelés pour éviter toute confusion avec les [liens de commande](ctrl-command-links.md). <br/> Connexion<br/> Dans cet exemple, un clic sur le lien lance une commande de connexion.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -110,7 +110,7 @@ Les liens possèdent également plusieurs modèles de présentation :
 
 
 
-|                                                                                                        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+|    Usage                                 |    Exemple                               |
 |--------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Liens de texte brut**<br/> se compose uniquement de texte. <br/>                                      | Cette présentation est la plus souple, car elle peut être utilisée n’importe où, y compris en [ligne](glossary.md).<br/> ![capture d’écran du texte du lien bleu ](images/ctrl-links-image7.png)<br/> Dans cet exemple, la couleur de texte identifie clairement un lien Inline.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **Texte avec liens d’icône**<br/> texte avec une icône précédente qui indique sa fonction.<br/> | étant donné que le graphique fournit une indication visuelle supplémentaire d’un lien, il est plus facile de le reconnaître en tant que lien qu’un lien de texte brut non souligné. ce modèle utilise généralement une icône de 16 x 16 pixels.<br/> ![capture d’écran de la liste de quatre liens avec des icônes ](images/ctrl-links-image8.png)<br/> dans cet exemple, les icônes fournissent une indication visuelle supplémentaire d’un lien.<br/> ![capture d’écran de la commande de lecture avec un petit triangle ](images/ctrl-links-image9.png)<br/> Dans cet exemple, le symbole de lecture triangulaire standard indique que ce texte est une commande.<br/>                                                                                                                                     |
@@ -249,7 +249,7 @@ Dans l’exemple incorrect, l’icône ne mène pas au texte.
 
     Dans cet exemple, l’info-bulle risque de gêner les utilisateurs.
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   N’attribuez pas de [clé d’accès](glossary.md). Les liens sont accessibles à l’aide de la touche Tab.
 -   **Utilisez des liens qui fournissent des informations descriptives spécifiques sur le résultat d’un clic sur le lien**, en utilisant autant de texte que nécessaire. Le texte du lien doit indiquer le résultat d’un clic sur le lien. **Les utilisateurs doivent être en mesure de prédire avec précision le résultat d’un lien à partir de son texte de lien et d’une info-bulle facultative.**
@@ -342,7 +342,7 @@ Dans l’exemple incorrect, l’icône ne mène pas au texte.
 
     Dans cet exemple, la page... lien de commande affiche une boîte de dialogue Imprimer pour obtenir plus d’informations.
 
-    Imprimer
+    Impression
 
     En revanche, dans cet exemple, un lien de commande d’impression imprime une seule copie d’un document sur l’imprimante par défaut sans intervention supplémentaire de l’utilisateur.
 

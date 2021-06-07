@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3167e44f149982a809826bcb9b64b3ec6e3c24
-ms.sourcegitcommit: da13d459791d115df883fa4dd348931d0902c2cc
+ms.openlocfilehash: aa5d1b2d87cdca5424f8393ae47e592718f33985
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "106529513"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443640"
 ---
 # <a name="srgb-a-standard-color-space"></a>sRGB : espace de couleurs standard
 
@@ -51,7 +51,7 @@ Le tableau suivant présente les transformations de couleur résultantes lorsqu�
 
 
 
-|                                 | Profil de sortie spécifié                              | Profil de sortie non spécifié                             |
+|  &nbsp;                               | Profil de sortie spécifié                              | Profil de sortie non spécifié                             |
 |---------------------------------|-------------------------------------------------------|----------------------------------------------------------|
 | Espace colorimétrique d’entrée spécifié     | La transformation utilise les profils spécifiés.                | La transformation convertit l’espace de couleurs d’entrée connu en sRVB. |
 | Espace colorimétrique d’entrée non spécifié | Transformation convertit de l’sRGB en profil de sortie connu. | La transformation de sRVB en sRVB est supposée ; aucune action n’est effectuée. |

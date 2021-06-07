@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3832d36a48b330b036fa287499f9db387335f87b
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: e3ba922b65525b92189673020f7155275bdf49f9
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381440"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445010"
 ---
 # <a name="scale-element"></a>Scale, élément
 
@@ -87,9 +87,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) ou [**ScalingPolicy. IdealSizes**](windowsribbon-element-scalingpolicy-idealsizes.md).
 
@@ -169,10 +169,8 @@ Le manifeste [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) dans ce
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

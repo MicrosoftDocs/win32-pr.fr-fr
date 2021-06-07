@@ -4,12 +4,12 @@ ms.assetid: 4250f3a0-a66a-4a6e-8566-d71be7463179
 title: Fonctions de téléphonie de base TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6276be51482620af32650ad1625eea97bddb8e5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5308def0c94df9fa59f2022bf25c4dbb1843e2f8
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868598"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524153"
 ---
 # <a name="tspi-basic-telephony-functions"></a>Fonctions de téléphonie de base TSPI
 
@@ -30,7 +30,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                           |                                                           |
+|  Fonction                                                         |   Description                                                        |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 | [**TUISPI \_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tuispi_providerinstall) | Installe un TSP. Synchronous.                              |
 | [**TSPI \_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tspi_providerinstall)     | Installe le TSP. Obsolète avec la version 2,0. Synchronous. |
@@ -47,7 +47,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                                           |                                                                                         |
+|  Fonction                                                         |   Description                                                        |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**TSPI \_ phoneNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion) | Retourne la version SPI la plus élevée que le fournisseur de services peut utiliser pour cet appareil. |
 
@@ -59,7 +59,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                                         |                                                                                                 |
+|  Fonction                                                         |   Description                                                        |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) | Permet à une application de négocier une version de TSPI à utiliser avec un périphérique de ligne donné. Synchronous. |
 
@@ -71,7 +71,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                                     |                                                                                                                                                                |
+|  Fonction                                                         |   Description                                                        |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps)                 | Retourne les fonctionnalités d’un périphérique de ligne donné. Synchronous.                                                                                                  |
 | [**TSPI \_ lineGetDevConfig**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevconfig)             | Retourne la configuration d’un périphérique de flux multimédia. Synchronous.                                                                                                   |
@@ -91,7 +91,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                                 |                                                                                          |
+|  Fonction                                                         |   Description                                                        |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps)     | Retourne les fonctions de téléphonie d’une adresse. Synchronous.                           |
 | [**TSPI \_ lineGetAddressStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddressstatus) | Retourne l’état actuel d’une adresse spécifiée. Synchronous.                              |
@@ -106,7 +106,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                           |                                                                                                            |
+|  Fonction                                                         |   Description                                                        |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineOpen**](/windows/win32/api/tspi/nf-tspi-tspi_lineopen)   | Ouvre un appareil de ligne spécifié pour fournir une surveillance et/ou un contrôle ultérieurs de la ligne. Synchronous. |
 | [**TSPI \_ lineClose**](/windows/win32/api/tspi/nf-tspi-tspi_lineclose) | Ferme un appareil de ligne ouvert spécifié. Synchronous.                                                        |
@@ -119,7 +119,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                             |                                                                                     |
+|  Fonction                                                         |   Description                                                        |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetCallInfo**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallinfo)       | Retourne des informations fixes sur un appel. Synchronous.                                |
 | [**TSPI \_ lineGetCallStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallstatus)   | Retourne les informations d’état de l’appel complet pour l’appel spécifié. Synchronous.       |
@@ -133,7 +133,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                                 |                                                                        |
+|  Fonction                                                         |   Description                                                        |
 |-------------------------------------------------|------------------------------------------------------------------------|
 | [**TSPI \_ lineMakeCall**](/windows/win32/api/tspi/nf-tspi-tspi_linemakecall) | Effectue un appel sortant et retourne un handle d’appel pour celui-ci. Asynchrone. |
 | [**TSPI \_ lineDial**](/windows/win32/api/tspi/nf-tspi-tspi_linedial)         | Compose des adresses (parties d’une ou de plusieurs) adresses à distance. Asynchrone.         |
@@ -146,7 +146,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                             |                                         |
+|  Fonction                                                         |   Description                                                        |
 |---------------------------------------------|-----------------------------------------|
 | [**TSPI \_ lineAnswer**](/windows/win32/api/tspi/nf-tspi-tspi_lineanswer) | Répond à un appel entrant. Asynchrone. |
 
@@ -158,7 +158,7 @@ Tous les fournisseurs de services doivent implémenter les fonctions de téléph
 
 
 
-|                                         |                                                                           |
+|  Fonction                                                         |   Description                                                        |
 |-----------------------------------------|---------------------------------------------------------------------------|
 | [**TSPI \_ lineDrop**](/windows/win32/api/tspi/nf-tspi-tspi_linedrop) | Déconnecte un appel ou abandonne une tentative d’appel en cours. Asynchrone. |
 

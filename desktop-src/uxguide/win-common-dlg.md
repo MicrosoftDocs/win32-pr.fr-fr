@@ -4,12 +4,12 @@ description: Les boîtes de dialogue communes à Microsoft Windows se composent 
 ms.assetid: 3f9fb0c9-bc1a-48c4-b021-99f155f8ea9e
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 336cb368fa25bf68313e2bf336de68845a87e663
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9d64dee640037fe70b88c10294ed04bfbc74fac4
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104393840"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443680"
 ---
 # <a name="common-dialogs"></a>Boîtes de dialogue courantes
 
@@ -42,7 +42,7 @@ Ouvrir le dossier est spécifiquement destiné à choisir des dossiers.
 
 Find permet aux utilisateurs de rechercher des chaînes de texte, tandis que la version de remplacement permet éventuellement aux utilisateurs de remplacer des correspondances par une autre chaîne.
 
-## <a name="print"></a>Imprimer
+## <a name="print"></a>Impression
 
 ![capture d’écran de la boîte de dialogue Imprimer ](images/win-common-dlg-image5.png)
 
@@ -93,7 +93,7 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   Le cas échéant, fournissez des alternatives plus directes ou [non](glossary.md) . Autoriser les utilisateurs à :
     -   Ouvrez les fichiers en les déposant sur votre programme.
@@ -106,14 +106,13 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 
 
 
-|                              |                                               |
-|------------------------------|-----------------------------------------------|
-| **Boîte de dialogue courante**<br/> | **Commande**<br/>                        |
+| Boîte de dialogue courante          | Commande                                 |
+|------------------------|-----------------------------------------|
 | Ouvrir un fichier<br/>         | Ouvrir…<br/>                            |
 | Enregistrer le fichier<br/>         | Enregistrer sous...<br/>                         |
 | Ouvrir un dossier<br/>       | Ouvrir le dossier... ou choisissez un dossier...<br/> |
 | Rechercher et remplacer<br/>  | Rechercher... ou remplacer...<br/>              |
-| Imprimer<br/>             | Imprimer...<br/>                           |
+| Impression<br/>             | Imprimer...<br/>                           |
 | Mise en page<br/>        | Mise en page...<br/>                      |
 | Police<br/>              | Police... ou choisir la police...<br/>          |
 | Couleur<br/>             | Couleur... ou choisir une couleur...<br/>        |
@@ -149,11 +148,11 @@ Pour Windows Vista, le fichier ouvert et le fichier d’enregistrement ont une n
 **Remarque :** Les listes de types de fichiers sont utilisées par Open file et Save file pour déterminer les types de fichiers affichés et l’extension de fichier par défaut.
 
 -   Si la liste types de fichiers est abrégée (au maximum, il s’agit de cinq), classez la liste selon la probabilité d’utilisation. Si la liste est longue (six ou plus), utilisez un ordre alphabétique pour faciliter la recherche des types.
--   Pour enregistrer le fichier, incluez toutes les variantes des extensions de fichier prises en charge, même si elles sont rares, et placez d’abord l’extension la plus courante. La logique de gestion des fichiers examine cette liste pour déterminer si l’utilisateur a fourni une extension de fichier prise en charge. Exemple : si une liste de types de fichiers JPEG comprend uniquement des fichiers. jpg et. jpeg, le fichier test. jpe peut être enregistré en tant que test.jpe.jpg.
+-   Pour enregistrer le fichier, incluez toutes les variantes des extensions de fichier prises en charge, même si elles sont rares, et placez d’abord l’extension la plus courante. La logique de gestion des fichiers examine cette liste pour déterminer si l’utilisateur a fourni une extension de fichier prise en charge. Exemple : si une liste de types de fichiers JPEG comprend uniquement .jpg et. jpeg, le fichier test. jpe peut être enregistré en tant que test.jpe.jpg.
 -   Pour le fichier d’enregistrement, le type de fichier par défaut initial est le plus probablement choisi par l’utilisateur cible. La valeur par défaut suivante est le type actuel du fichier.
 -   Pour Open file, le type de fichier par défaut initial est le plus probablement choisi par l’utilisateur cible. La valeur par défaut suivante doit être le dernier type de fichier utilisé.
 -   Pour ouvrir un fichier, incluez une entrée « tous les fichiers » comme premier élément si les utilisateurs peuvent ouvrir n’importe quel type de fichier, ou peuvent avoir besoin de voir tous les fichiers dans un dossier en même temps. Envisagez de fournir d’autres filtres de métadonnées, tels que « toutes les images », « tout la musique » et « toutes les vidéos ». Placez-les immédiatement après « tous les fichiers ».
--   Utilisez le format «nom du type de fichier ( \* . EXT1 ; \* . ext2).» Le nom du type de fichier doit être le nom du type de fichier inscrit, que vous pouvez afficher dans l’élément options du dossier du panneau de configuration. Exemple : «document HTML ( \* . htm ; \* . html).»
+-   Utilisez le format «nom du type de fichier ( \* . EXT1 ; \* . ext2).» Le nom du type de fichier doit être le nom du type de fichier inscrit, que vous pouvez afficher dans l’élément options du dossier du panneau de configuration. Exemple : «document HTML ( \*.htm ; \*.html).»
     -   **Exception :** Pour les filtres de métadonnées, supprimez la liste d’extensions de fichier pour éliminer tout encombrement. Exemples : « tous les fichiers », « toutes les images », « tout le contenu » et « toutes les vidéos ».
 -   Utilisez la mise [en majuscules de style phrase](glossary.md) pour les noms de types de fichier et les extensions de type de fichier en minuscules.
 

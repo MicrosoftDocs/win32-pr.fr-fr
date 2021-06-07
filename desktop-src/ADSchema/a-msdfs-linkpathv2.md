@@ -14,20 +14,20 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 892cee6a5e6f423a0ed750858e19e1accccbe45f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4659dbf00c6a53c77a23e98836ea1af4eeb4c38a
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108179"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386858"
 ---
 # <a name="ms-dfs-link-path-v2-attribute"></a>attribut ms-DFS-Link-Path-v2
 
-Chemin de lien DFS relatif au partage cible racine DFS (autrement dit, sans les composants nom de l’espace de noms de serveur/domaine et de l’espace de noms DFS). Utilisez des barres obliques (/) à la place des barres obliques inverses ( \) , afin que les recherches LDAP puissent être effectuées sans avoir à utiliser des séquences d’échappement.
+Chemin de lien DFS relatif au partage cible racine DFS (autrement dit, sans les composants nom de l’espace de noms de serveur/domaine et de l’espace de noms DFS). Utilisez des barres obliques (/) à la place des barres obliques inverses ( \\ ), afin que les recherches LDAP puissent être effectuées sans avoir à utiliser des séquences d’échappement.
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |-------------------|---------------------------------------------|
 | CN                | MS-DFS-Link-Path-v2                         |
 | LDAP-Display-Name | msDFS-LinkPathv2                            |
@@ -42,22 +42,22 @@ Chemin de lien DFS relatif au partage cible racine DFS (autrement dit, sans les 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
-## <a name="windows-server-2008"></a>Windows Server 2008
+## <a name="windows-server-2008"></a>Windows Server 2008
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | Faux                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                   |
-| Est indexé             | Faux                                                                                                                  |
-| Dans le catalogue global      | Faux                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| Est de valeur unique       | True                                                                                                                   |
+| Est indexé             | False                                                                                                                  |
+| Dans le catalogue global      | False                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |
@@ -71,14 +71,14 @@ Chemin de lien DFS relatif au partage cible racine DFS (autrement dit, sans les 
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | Faux                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                   |
-| Est indexé             | Faux                                                                                                                  |
-| Dans le catalogue global      | Faux                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| Est de valeur unique       | True                                                                                                                   |
+| Est indexé             | False                                                                                                                  |
+| Dans le catalogue global      | False                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |
@@ -92,14 +92,14 @@ Chemin de lien DFS relatif au partage cible racine DFS (autrement dit, sans les 
 
 
 
-| Entrée | Valeur |
+| Entrée | Value |
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | Faux                                                                                                                  |
-| Est de valeur unique       | Vrai                                                                                                                   |
-| Est indexé             | Faux                                                                                                                  |
-| Dans le catalogue global      | Faux                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| Est de valeur unique       | True                                                                                                                   |
+| Est indexé             | False                                                                                                                  |
+| Dans le catalogue global      | False                                                                                                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |

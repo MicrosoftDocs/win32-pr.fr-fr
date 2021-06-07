@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa080b58e3a9d53fa044e7dbbb6598d5b7be7c49
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: 42c9d900c2af4f7f8ba26f5ac8dbbdc0d055668d
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104381754"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443400"
 ---
 # <a name="fontcontrol-element"></a>Élément FontControl
 
@@ -221,9 +221,9 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Group**](windowsribbon-element-group.md)ou [**MenuGroup**](windowsribbon-element-menugroup.md) .
 
@@ -317,12 +317,8 @@ Cette section de code montre les déclarations de contrôle **FontControl** où 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 

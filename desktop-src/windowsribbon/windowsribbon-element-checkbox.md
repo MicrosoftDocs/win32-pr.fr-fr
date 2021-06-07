@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0af090058e0475f1997c681750009a12f4e5e7cd
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 4d9357337e569f43b14c34798c9c6e8da4b7b10b
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104101225"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443040"
 ---
 # <a name="checkbox-element"></a>CheckBox, élément
 
@@ -97,7 +97,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Facultatif ou obligatoire, en fonction de l’élément parent.
 
@@ -136,13 +136,8 @@ Cette section de code montre les déclarations de contrôle **CheckBox** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Oui       |
-
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: Oui
 
 
 ## <a name="see-also"></a>Voir aussi

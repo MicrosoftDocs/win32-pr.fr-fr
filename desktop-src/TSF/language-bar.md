@@ -17,12 +17,12 @@ keywords:
 - boutons de menu
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c41d64a488406f6eefcff5fef6c11093af00bc5b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0e3c4359c6753f5d96613435f9501036f1d5f317
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383752"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524443"
 ---
 # <a name="language-bar-text-services"></a>Barre de langue (services de texte)
 
@@ -34,7 +34,7 @@ Quatre types d’éléments de la barre de langue peuvent être installés et ch
 
 
 
-|               |                                                                                                                                                                                   |
+|   Élément            |    Description                                                                                                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bouton        | Un bouton de barre de langue fonctionne comme un bouton de commande, un contrôle de basculement ou un menu dans la barre de langue. L’objet doit prendre en charge l’interface ITfLangBarItemButton.                   |
 | Forfaitaire       | Une bulle de barre de langue fonctionne comme une notification contextuelle sur la barre de langue. L’objet doit prendre en charge l’interface ITfLangBarItemBalloon.                                       |
@@ -51,7 +51,7 @@ Un élément Button peut fonctionner comme l’un des éléments suivants. La fo
 
 
 
-|               |                                                                                                                                                                                                                                                                                                                                                                                      |
+|    Élément           |    Description                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Bouton        | Le bouton fonctionne comme un bouton de commande standard. Ce style de bouton est identifié par le \_ \_ style de bouton de style BTN de type IFA \_ \_ . ITfLangBarItemButton :: OnClick est appelé lorsque l’utilisateur clique sur l’élément. ITfLangBarItemButton :: InitMenu et ITfLangBarItemButton :: OnMenuSelect ne sont pas utilisés.                                                                                                   |
 | Bouton bascule | Le bouton fonctionne comme un contrôle de basculement qui peut maintenir un état de clic, similaire à une case à cocher. Ce style de bouton est identifié par le style de basculement de style d’un type de bouton à la ligne TF \_ IFA \_ \_ \_ . ITfLangBarItemButton :: OnClick est appelé lorsque l’utilisateur clique sur l’élément. ITfLangBarItemButton :: InitMenu et ITfLangBarItemButton :: OnMenuSelect ne sont pas utilisés.                                                  |

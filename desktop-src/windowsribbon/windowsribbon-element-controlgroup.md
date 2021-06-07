@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dd6df69f788efe01b9eb2c7ffe0aaddd98bd7198
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7d2b49612102d03003c2f61395a56647aaef4475
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104381419"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442940"
 ---
 # <a name="controlgroup-element"></a>Élément ControlGroup
 
@@ -72,7 +72,7 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 | Élément                                                                                 | Description                                        |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                               | Peut se produire une ou plusieurs fois<br/> <br/> |
-| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
+| [**Activé**](windowsribbon-element-checkbox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                           | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**ControlSizeDefinition**](windowsribbon-element-controlsizedefinition.md)<br/> | Peut se produire une ou plusieurs fois<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>               | Peut se produire une ou plusieurs fois<br/> <br/> |
@@ -96,13 +96,13 @@ Représente un groupe de contrôles dans un modèle de disposition [**SizeDefini
 | **ControlGroup**<br/>                                                         |
 | [**Groupe**](windowsribbon-element-group.md)<br/>                             |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**Haut**](windowsribbon-element-row.md)<br/>                                 |
+| [**Ligne**](windowsribbon-element-row.md)<br/>                                 |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**Group**](windowsribbon-element-group.md) ou **ControlGroup** .
 
@@ -206,12 +206,8 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

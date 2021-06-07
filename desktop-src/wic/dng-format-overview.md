@@ -4,16 +4,16 @@ ms.assetid: 6F87A47D-E54A-42D9-92DC-2411803278AA
 title: Vue d’ensemble du format DNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63f766356f7c13d7b2bb25adab5411ae55c2735f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0815d6a24bb8e57e6c64b90f9e9068765838e148
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319302"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444930"
 ---
 # <a name="dng-format-overview"></a>Vue d’ensemble du format DNG
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 Cette rubrique fournit des informations sur le codec DNG natif disponible par le biais du composant WIC (Windows Imaging Component).
 
@@ -26,7 +26,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                                                      |
+|     Composant          |  Description                                         |
 |------------------------|------------------------------------------------------|
 | Nom (s) formel (s)         | Négatif numérique (DNG)                               |
 | Extension (s) de nom de fichier | .dng                                                 |

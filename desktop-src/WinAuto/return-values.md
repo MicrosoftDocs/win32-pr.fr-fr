@@ -4,12 +4,12 @@ description: Cette rubrique décrit les valeurs de retour les plus courantes et 
 ms.assetid: e6deca92-42da-41ab-bfdb-75cbce3022bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cae2ccaf8bc74b1802be7569bc9e783cde4e11f9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cd0f073c401682eb78d9fdf9270709a84ed77ae2
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464011"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443990"
 ---
 # <a name="return-values-windows-accessibility-features"></a>Valeurs de retour (fonctionnalités d’accessibilité Windows)
 
@@ -21,7 +21,7 @@ Les méthodes [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessibl
 
 
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                           |
+|   Value                      |   Description                                                                                                                                                                                                                                                                                                                                                                                        |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_OK                   | S_OK                                                                                                                                                                                                                                                                                                                                                                     |
 | S \_ false                | La méthode a réussi en partie. Cela se produit lorsque la méthode est réussie, mais que les informations demandées ne sont pas disponibles. Par exemple, Microsoft Active Accessibility retourne S \_ false si vous appelez [**IAccessible :: accHitTest**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-acchittest) pour récupérer un objet enfant à un point donné et que le point spécifié ne se trouve pas dans l’objet ou l’enfant de l’objet. |
@@ -41,7 +41,7 @@ Les valeurs de retour suivantes peuvent être retournées par les méthodes [**I
 
 
 
-|                        |                                                                                      |
+|    Value                    |    Description                                                                                  |
 |------------------------|--------------------------------------------------------------------------------------|
 | \_ACCESSDENIED E        | Elle est retournée lorsque vous appelez \_ la commande obtenir accValue pour obtenir la valeur d’un contrôle de mot de passe. |
 | \_exception DISP E \_     |                                                                                      |

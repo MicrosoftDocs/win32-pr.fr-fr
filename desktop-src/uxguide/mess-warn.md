@@ -4,12 +4,12 @@ description: Un message d’avertissement est une boîte de dialogue modale, un 
 ms.assetid: 4a2c3be9-9dc6-4d62-bd3d-72a2e5b621f4
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: d704890b2471e205b933e2995950716c269488e8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 42f7c669a68790ec290f931165b4aa937b5008d5
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321410"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524503"
 ---
 # <a name="warning-messages"></a>Messages d'avertissement
 
@@ -221,9 +221,8 @@ Pour obtenir des instructions sur ce modèle, consultez <a href="mess-confirm.md
 
 
 
-|                               |                                                                                                                                        |
+| Interface utilisateur  | Idéal pour |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **Interface utilisateur**<br/> | **Idéal pour**<br/>                                                                                                           |
 | Boîtes de dialogue modales<br/> | Avertissements critiques (y compris les confirmations) auxquels les utilisateurs doivent répondre maintenant.<br/>                                                 |
 | Sur place<br/>           | Informations susceptibles d’empêcher un problème, en particulier lorsque les utilisateurs effectuent des choix.<br/>                                         |
 | Bande<br/>            | Informations susceptibles d’empêcher un problème, en particulier lorsqu’elles sont liées à la réalisation d’une tâche.<br/>                                     |
@@ -280,9 +279,9 @@ Pour obtenir des instructions sur l’étiquetage, consultez [Divulgation progre
 
 -   **Sélectionnez le niveau de réponse le plus sûr, le moins destructif ou le plus sécurisé par défaut.**
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Supprimez le texte redondant.** Recherchez-en les titres, les instructions principales, les instructions supplémentaires, les zones de contenu, les liens de commande et les boutons de validation. En règle générale, laissez le texte intégral dans les instructions et les contrôles interactifs, et supprimez toute redondance des autres emplacements.
 -   **N’utilisez pas les termes « avertissement » ou « attention » dans le texte.** Lorsqu’il est [utilisé correctement](vis-std-icons.md), l’icône d’avertissement indique que les utilisateurs doivent procéder avec précaution.
@@ -314,9 +313,8 @@ Dans cet exemple, « avertissement de sécurité » n’identifie pas la comma
 
 
 
-|                                      |                                                                      |
+| Modèle                        | Instruction principale                                               |
 |--------------------------------------|----------------------------------------------------------------------|
-| **Modèle**<br/>               | **Instruction principale**<br/>                                      |
 | Sensibilisation<br/>                 | Décrivez la condition ou le problème potentiel.<br/>              |
 | Problème imminent<br/>          | Décrivez ce que l’utilisateur doit faire maintenant.<br/>                   |
 | Confirmation de l’action risquée<br/> | Posez une question pour déterminer si l’utilisateur souhaite continuer.<br/> |
@@ -340,9 +338,8 @@ Dans cet exemple, « avertissement de sécurité » n’identifie pas la comma
 
 
 
-|                                      |                                                                                    |
+| Modèle            | Instruction supplémentaire                                            |
 |--------------------------------------|------------------------------------------------------------------------------------|
-| **Modèle**<br/>               | **Instruction supplémentaire**<br/>                                            |
 | Sensibilisation<br/>                 | Expliquez l’implication et pourquoi elle est importante.<br/>                        |
 | Problème imminent<br/>          | Expliquez la condition et pourquoi elle est importante.<br/>                          |
 | Confirmation de l’action risquée<br/> | Expliquez les raisons les plus évidentes pour lesquelles l’utilisateur peut ne pas vouloir continuer.<br/> |
@@ -360,9 +357,8 @@ Dans cet exemple, « avertissement de sécurité » n’identifie pas la comma
 
 
 
-|                                      |                                                                                                                 |
+| Modèle               | Boutons de validation        |
 |--------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Modèle**<br/>               | **Boutons de validation**<br/>                                                                                   |
 | Sensibilisation<br/>                 | C’est presque ça. N’utilisez pas OK, car cela suggère que des problèmes potentiels sont possibles.<br/>                              |
 | Problème imminent<br/>          | Un bouton de commande ou un lien de commande pour chaque option, ou OK si l’action se produit en dehors de la boîte de dialogue.<br/> |
 | Confirmation de l’action risquée<br/> | Oui, non.<br/>                                                                                             |

@@ -4,12 +4,12 @@ ms.assetid: e2561be1-03ce-41f7-9ad4-197d75411c48
 title: Groupe ContentGroup
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fbbc13a3dee796646b6d61ac9ba0bde50880f12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02e4291da1912c43674871c06fb803e1936f7178
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034874"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432611"
 ---
 # <a name="contentgroup-group"></a>Groupe ContentGroup
 
@@ -40,9 +40,9 @@ Définit un groupe qui contient un ensemble de contenu groupé dans une note de 
 
 [**InkWord**](inkword-element.md)
 
-[**Schéma**](drawing-element.md)
+[**Dessin**](drawing-element.md)
 
-[**Texte**](text-element.md)
+[**Text**](text-element.md)
 
 [**Image**](docimage-element.md)
 
@@ -67,7 +67,7 @@ Définit un groupe qui contient un ensemble de contenu groupé dans une note de 
 
 
 
-|             |                                            |
+|  Élément     | Valeur                                                     |
 |-------------|--------------------------------------------|
 | Espace de noms   | urn : schemas-microsoft-com : TabletPC : RichInk |
 | Nom du schéma | Lecteur de journal                             |

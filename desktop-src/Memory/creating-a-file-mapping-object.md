@@ -4,12 +4,12 @@ ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: Création d’un objet de mappage de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 550609cf9d8a052e324c585fc046472278bb428c
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: b502c484dd0466b47a87f4db205d1da5499bf5ef
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524353"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432501"
 ---
 # <a name="creating-a-file-mapping-object"></a>Création d’un objet de mappage de fichier
 
@@ -41,11 +41,9 @@ Vous pouvez afficher une partie du fichier qui ne commence pas au début du fich
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
-  
-[Création d’un affichage des fichiers](creating-a-file-view.md)
-</dt> <dt>
-
-[Création d’une vue dans un fichier](creating-a-view-within-a-file.md)
+[Création d’une vue de fichier](creating-a-file-view.md)
+</dt> <dt> 
+[création d’une vue dans un fichier](creating-a-view-within-a-file.md)
 </dt> </dl>
 
 

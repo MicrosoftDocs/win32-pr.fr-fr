@@ -4,12 +4,12 @@ description: La conception de logiciels pour l’accessibilité permet de s’as
 ms.assetid: df6947ec-6a1d-4645-ae3e-863839c32588
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 559d4c18e59c63a428aca1086e57f2ba4e62ae6f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e6ff3cdaa9a1a1b2a13025da14c9aed150ee3928
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104552739"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524463"
 ---
 # <a name="accessibility-design-basics"></a>Accessibilité (notions de base de la conception)
 
@@ -36,9 +36,8 @@ Le tableau suivant décrit les handicaps utilisateur et les déficiences courant
 
 
 
-|                               |                                                                                                                                                                                                         |                                                                                                                                                                                       |
+| Handicap    | Description   | Solutions  |
 |-------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Handicap**<br/>     | **Description**<br/>                                                                                                                                                                              | **Solutions**<br/>                                                                                                                                                              |
 | Élément visuel<br/>             | S’étend de modéré (ce qui affecte 17% des utilisateurs) à grave (ce qui affecte 9% des utilisateurs).<br/>                                                                                                   | Agrandissement, couleurs et contraste personnalisables ; Utilitaires en braille ; lecteurs d’écran.<br/>                                                                                       |
 | Ouïe<br/>            | S’étend de modéré (ce qui affecte 18% des utilisateurs) à grave (ce qui affecte 2% des utilisateurs).<br/>                                                                                                   | Redondance des informations : le son utilisé uniquement comme complément à la communication de texte ou visuelle.<br/>                                                                                     |
 | Acuité<br/>          | S’étend de modéré (ce qui affecte 19% des utilisateurs) à grave (ce qui affecte 5% des utilisateurs). Cet handicap implique souvent des difficultés à effectuer certaines compétences motrices avec le clavier ou la souris.<br/> | Redondance de méthode d’entrée : fonctionnalités de programme accessibles par des équivalents de souris ou de clavier.<br/>                                                                                       |
@@ -183,7 +182,7 @@ Procédez ainsi :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **N’interrompez pas ou ne désactivez pas les fonctionnalités activées du système d’exploitation ou d’autres produits identifiés comme fonctionnalités d’accessibilité.** Vous pouvez identifier ces fonctionnalités en vous référant à la documentation du système d’exploitation ou du produit en question.
 -   **Ne forcez pas les utilisateurs à interagir avec votre programme comme fenêtre supérieure à l’écran.** Si une fonction ou une fenêtre est requise continuellement pour permettre aux utilisateurs d’effectuer une tâche, cette fenêtre doit toujours rester visible, si l’utilisateur les choisit, quelle que soit sa position par rapport à d’autres fenêtres. Par exemple, si l’utilisateur dispose d’un clavier visuel mobile qui se trouve au-dessus de toutes les autres fenêtres afin qu’il soit visible à tout moment, votre programme ne doit jamais le masquer en position obligatoire en haut de l' [ordre de plan](glossary.md).
@@ -302,7 +301,7 @@ Pour commencer, cliquez sur OK.
 
 Pour obtenir des instructions et des exemples supplémentaires, consultez [clavier](inter-keyboard.md).
 
-## <a name="text"></a>Texte
+## <a name="text"></a>Text
 
 -   **Utilisez des signes deux-points à la fin des étiquettes de contrôle externes.** Certaines technologies d’assistance recherchent les signes deux-points pour identifier les étiquettes de contrôle.
 -   **Positionner des étiquettes de manière cohérente par rapport aux éléments qu’ils enlibellent.** Cela permet aux technologies d’assistance d’associer correctement les étiquettes aux contrôles correspondants et aide les utilisateurs des agrandisseurs d’écran à savoir où rechercher une étiquette ou un contrôle.
@@ -336,9 +335,8 @@ Pour obtenir des instructions et des exemples supplémentaires, consultez [clavi
 
 
 
-|                                                               |                                                                                  |
+| Utilisez ces termes           | À la place de                                                        |
 |---------------------------------------------------------------|----------------------------------------------------------------------------------|
-| **Utilisez ces termes**<br/>                                | **Au lieu de**<br/>                                                        |
 | A une dextérité limitée, a des handicaps de mouvement<br/>     | Handicap, inapproprié<br/>                                                        |
 | Sans handicap<br/>                               | Normal, en capacité nulle, sain<br/>                                          |
 | Une seule mains, les personnes qui tapent avec une main<br/>          | Une seule droitier <br/>                                                        |

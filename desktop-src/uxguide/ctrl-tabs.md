@@ -1,17 +1,17 @@
 ---
-title: Tabulations
+title: Onglets
 description: Les onglets permettent de présenter des informations connexes sur des pages étiquetées distinctes.
 ms.assetid: d90228ce-aa95-4359-be8e-ea2014d71ae6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: b2649862885e55bdfe10fdca7f34b7618d976a38
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d6922865abcaa060cc2e4b13e4768d57bcd17aa8
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104550209"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524473"
 ---
-# <a name="tabs"></a>Tabulations
+# <a name="tabs"></a>Onglets
 
 > [!NOTE]
 > Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
@@ -49,7 +49,7 @@ Les onglets ont plusieurs modèles d’utilisation :
 
 
 
-|                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                     |
+|  Usage                                                                                                                                                                                                 |    Exemple                                                                                                                                                                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Surface de fenêtre dynamique**<br/> comme les barres de défilement, les onglets peuvent être utilisés pour augmenter la surface d’exposition de la fenêtre et afficher les informations connexes.<br/>                                                    | Avec ce modèle, l’utilisation d’onglets est conceptuellement similaire au placement de toutes les informations sur les onglets de manière linéaire sur une surface à défilement unique, avec les étiquettes d’onglets comme en-têtes. <br/> ![capture d’écran de cinq onglets ](images/ctrl-tabs-image1.png)<br/> Dans cet exemple, les onglets augmentent efficacement la surface d’exposition de la fenêtre.<br/>                          |
 | **Plusieurs vues**<br/> comme les boutons partagés ou les listes déroulantes, les onglets peuvent être utilisés pour afficher différentes vues des mêmes informations ou associées. <br/>                                           | ![capture d’écran des onglets conception, fractionnement et aperçu ](images/ctrl-tabs-image2.png)<br/> Dans cet exemple, les onglets changent d’affichages dans un document.<br/>                                                                                                                                                                                                         |
@@ -66,7 +66,7 @@ Assurez-vous que les informations figurant dans les onglets sont liées, mais qu
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Général
+### <a name="general"></a>Généralités
 
 -   **Utilisez des tabulations horizontales si :**
     -   La fenêtre a sept onglets ou moins.

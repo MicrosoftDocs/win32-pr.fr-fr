@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: Fonctions de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: fba1fce45eeb602040c2bc9d60c9e1bfc63b246a
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349947"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549981"
 ---
 # <a name="synchronization-functions"></a>Fonctions de synchronisation
 
@@ -357,7 +357,7 @@ Les fonctions suivantes sont utilisées dans la synchronisation.
 | [**ChangeTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer) | Met à jour un minuteur de file d’attente de minuterie. |
 | [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue)           | Crée une file d’attente pour les minuteurs.  |
 | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) | Crée un minuteur de file d’attente de minuterie. |
-| [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue)           | Supprime une file d’attente du minuteur.       |
+| [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)           | Supprime une file d’attente du minuteur.       |
 | [**DeleteTimerQueueEx**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex)       | Supprime une file d’attente du minuteur.       |
 | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer) | Annule un minuteur de file d’attente de minuterie. |
 

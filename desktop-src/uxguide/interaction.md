@@ -4,12 +4,12 @@ description: L’interaction est la variété des manières dont les utilisateur
 ms.assetid: 1509c885-f4dc-4cf9-86a3-cc6754d3b4a0
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: fbbbed55bbee1b1b0a028bada4e9d97682d9c293
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 869034e8d7cc8b9d7023e1511482dae203c14b49
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106529522"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524173"
 ---
 # <a name="interaction"></a>Interaction
 
@@ -32,9 +32,8 @@ Ce tableau présente quelques-unes des différences entre les périphériques d�
 
 
 
-|                                 |                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                 |                                                     |
+| Factor          | Interactions tactiles   | Interactions à l’aide de la souris, du clavier, du stylo/stylet | Pavé tactile  |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| **Factor**<br/>           | **Interactions tactiles**<br/>                                                                                                                                                                                | **Interactions à l’aide de la souris, du clavier, du stylo/stylet**<br/>                                                                                                                                                                                                                                                         | **Pavé tactile**<br/>                             |
 | **Précision**<br/>        | La zone de contact au bout du doigt est plus importante qu’une simple coordonnées x-y, ce qui augmente le risque d’activations involontaires de commandes.<br/>                                                               | La souris et le stylo/stylet répondent à une coordonnée x-y précise.<br/>                                                                                                                                                                                                                                            | Comme la souris.<br/>                           |
 |                                 | La forme de la zone de contact change tout au long du mouvement. <br/>                                                                                                                                       | Les mouvements de la souris et les traits du stylo/stylet répondent à des coordonnées x-y précises. Le focus du clavier est explicite.<br/>                                                                                                                                                                                                   | Comme la souris.<br/>                           |
 |                                 | Il n’y a pas de curseur de souris pour aider au ciblage.<br/>                                                                                                                                                    | Le curseur de la souris, le curseur du stylo/stylet et le focus du clavier constituent tous une aide au ciblage.<br/>                                                                                                                                                                                                                   | Comme la souris.<br/>                           |

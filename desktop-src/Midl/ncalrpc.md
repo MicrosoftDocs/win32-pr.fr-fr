@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f20ae9e347303288868eeb16758736047fecc1b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2f5d22b572eb9ad2f2e46b029ec242b48d5cd684
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940957"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386878"
 ---
 # <a name="ncalrpc-attribute"></a>attribut Ncalrpc
 
@@ -34,11 +34,11 @@ endpoint("ncalrpc:[port-name]")
 *nom du port* 
 </dt> <dd>
 
-Chaîne de caractères qui spécifie le port de communication (une application, un service ou une instance d’un service) qu’un client utilise pour effectuer des appels interprocessus à un serveur. La chaîne peut contenir jusqu’à 53 caractères et ne doit pas contenir de barre oblique inverse ( \) caractères). Le nom d’ordinateur ne doit pas être utilisé avec le mot clé **Ncalrpc** .
+Chaîne de caractères qui spécifie le port de communication (une application, un service ou une instance d’un service) qu’un client utilise pour effectuer des appels interprocessus à un serveur. La chaîne peut contenir jusqu’à 53 caractères et ne doit pas contenir de barre oblique inverse ( \\ ). Le nom d’ordinateur ne doit pas être utilisé avec le mot clé **Ncalrpc** .
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe de la chaîne de port de communication interprocessus locale, comme toutes les chaînes de port, est définie par l’implémentation de transport et est indépendante de la spécification IDL. Le compilateur MIDL effectue une vérification de syntaxe limitée, mais ne garantit pas que la spécification du point de terminaison est correcte. Certaines classes d’erreurs peuvent être signalées au moment de l’exécution plutôt qu’au moment de la compilation.
 
@@ -102,6 +102,6 @@ interface iface
 [Liaison de chaîne](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -20,12 +20,12 @@ keywords:
 - stockage persistant des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bff852bccfb7d9b6c94e57a2fa0cf8eef6fbdf18
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f5b94a1f6c504fcd3e6491af9e66b399d59a3eeb
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106541161"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524213"
 ---
 # <a name="properties-common-elements"></a>Propriétés (éléments communs)
 
@@ -71,7 +71,7 @@ TSF définit trois types de propriétés différents.
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|   Type de propriété             |   Description                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | statique         | Un objet de propriété statique stocke les données de propriété avec du texte. Elle stocke également la plage d’informations de texte pour chaque plage à laquelle la propriété s’applique. ITfReadOnlyProperty :: GetType retourne la \_ \_ catégorie statique TFCAT PROPSTYLE de GUID \_ .                                                                                                                                                                                                                      |
 | Static-Compact | Un objet de propriété static-compact est identique à un objet de propriété statique, sauf qu’une propriété de compactage statique ne stocke pas de données de plage. Lorsque la plage couverte par une propriété statique-compact est demandée, une plage est créée pour chaque groupe de propriétés adjacentes. Les propriétés statiques et compactes sont le moyen le plus efficace pour stocker des propriétés par caractère. ITfReadOnlyProperty :: GetType retourne la \_ Catégorie GUID TFCAT \_ PROPSTYLE \_ STATICCOMPACT. |

@@ -4,12 +4,12 @@ ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: IPPROTO_IPV6 socket, options
 ms.topic: article
 ms.date: 10/07/2019
-ms.openlocfilehash: 1ceaf08c2a59a24b9ff694ac9ff42b28fbf18480
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86f8156f91e5f7e185319224e06d7bf54e87c6da
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542542"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444250"
 ---
 # <a name="ipproto_ipv6-socket-options"></a>\_Options de socket IPv6 IPPROTO
 
@@ -50,17 +50,17 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 
 ## <a name="windows-support-for-ipproto_ipv6-socket-options"></a>Prise en charge de Windows pour les \_ options de socket IPv6 IPPROTO
 
-| Option | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
+| Option | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|
 | \_arrivée d’origine d’IP \_ \_ si | x | x | x | | |
-| IPV6_ADD_IFLIST | À compter de Windows 10, version 1803 | | | | | |
+| IPV6_ADD_IFLIST | À compter de Windows 10, version 1803 | | | | |
 | \_Ajouter une \_ appartenance IPv6 | x | x | x | x | x |
-| IPV6_DEL_IFLIST | À compter de Windows 10, version 1803 | | | | | |
+| IPV6_DEL_IFLIST | À compter de Windows 10, version 1803 | | | | |
 | \_Adhésion à Drop IPv6 \_ | x | x | x | x | x |
-| IPV6_GET_IFLIST | À compter de Windows 10, version 1803 | | | | | |
+| IPV6_GET_IFLIST | À compter de Windows 10, version 1803 | | | | |
 | \_HDRINCL IPv6 | x | x | x | x | x |
 | \_HOPLIMIT IPv6 | x | x | x | x | x |
-| IPV6_IFLIST | À compter de Windows 10, version 1803 | | | | | |
+| IPV6_IFLIST | À compter de Windows 10, version 1803 | | | | |
 | \_Groupe de jointure IPv6 \_ | x | x | x | x | x |
 | IPV6- \_ conserver le \_ groupe | x | x | x | x | x |
 | \_Tronçons de multidiffusion IPv6 \_ | x | x | x | x | x |
@@ -98,13 +98,13 @@ Certaines options de socket requièrent plus d’explications que celles pouvant
 | Monodiffusion IPV6 \_ \_ si | | |
 | \_V6ONLY IPv6 | | |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans le kit de développement logiciel (SDK) Microsoft Windows publié pour Windows Vista et versions ultérieures, l’Organisation des fichiers d’en-tête a changé et le niveau **\_ IPv6 IPPROTO** est défini dans le fichier d’en-tête *Ws2def. h* qui est automatiquement inclus dans le fichier d’en-tête *Winsock2. h* . Les options de socket **\_ IPv6 IPPROTO** sont définies dans le fichier d’en-tête *Ws2ipdef. h* qui est automatiquement inclus dans le fichier d’en-tête *Ws2tcpip. h* . Les fichiers d’en-tête *Ws2def. h* et *Ws2ipdef. h* ne doivent jamais être utilisés directement.
 
 L' \_ option d’arrivée d’origine IP \_ si le \_ Socket est pris en charge sur Windows Server 2008 R2 et sur Windows 7.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 | Condition requise | Valeur |
 |-|-|

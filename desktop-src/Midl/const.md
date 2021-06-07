@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d2980f0f484c838e4f972bbf12fb72173edb3e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7095e29daf18dc111caf37038b06b0beff5245a8
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724965"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387058"
 ---
 # <a name="const-attribute"></a>attribut const
 
@@ -43,7 +43,7 @@ const-type [declarator], [ [ parameter-attribute-list ] ] pointer-type const [de
 *const-type* 
 </dt> <dd>
 
-Spécifie un entier MIDL, un caractère, une chaîne ou un type booléen valide. Les types MIDL valides incluent [**Small**](small.md), [**short**](short.md), [**long**](long.md), [**char**](char-idl.md), **charÂ \***, [**WCHAR \_ t**](wchar-t.md), **WCHAR \_ t \***, [**Byte**](byte.md), **byteÂ \*** et [**voidÂ \***](void.md). Les types entier et caractère peuvent être [**signés**](signed.md) ou [**non signés**](unsigned.md).
+Spécifie un entier MIDL, un caractère, une chaîne ou un type booléen valide. Les types MIDL valides incluent [**Small**](small.md), [**short**](short.md), [**long**](long.md), [**char**](char-idl.md), **\* charÂ* _, [_ *WCHAR \_ t* *](wchar-t.md), **WCHAR \_ t \**_, [_ *Byte* *](byte.md), **byteÂ \** _ et [_*voidÂ \**_](void.md). Les types entier et caractère peuvent être [_ *signés* *](signed.md) ou [**non signés**](unsigned.md).
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ Spécifie un identificateur MIDL valide. Les identificateurs MIDL valides se com
 *const-expression* 
 </dt> <dd>
 
-Spécifie une expression, un identificateur ou une constante numérique ou caractère appropriée pour le type spécifié : littéraux entiers constants ou expressions entières constantes pour les constantes entières ; Expressions booléennes qui peuvent être calculées au moment de la compilation pour les types [**booléens**](boolean.md) ; constantes à caractère unique pour les types [**char**](char-idl.md) ; et constantes de chaîne pour les **\[** [](string.md) **\]** types chaîne. Le [**type \* voidÂ**](void.md) peut être initialisé uniquement avec la **valeur null**.
+Spécifie une expression, un identificateur ou une constante numérique ou caractère appropriée pour le type spécifié : littéraux entiers constants ou expressions entières constantes pour les constantes entières ; Expressions booléennes qui peuvent être calculées au moment de la compilation pour les types [**booléens**](boolean.md) ; constantes à caractère unique pour les types [**char**](char-idl.md) ; et constantes de chaîne pour les **\[** [](string.md) **\]** types chaîne. Le type [ * *voidÂ \** _](void.md) peut être initialisé uniquement à _ * null * *.
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ Spécifie [un \_ type de base](midl-base-types.md), un [**struct**](struct.md), 
 *pointeur-decl* 
 </dt> <dd>
 
-Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé dans C. Elle est construite à partir de l' **\*** indicateur, de modificateurs tels que **Far** et de l’identificateur **const**.
+Spécifie zéro ou plusieurs déclarateurs de pointeur. Un déclarateur de pointeur est le même que le déclarateur de pointeur utilisé dans C. Elle est construite à partir de l' **\* *indicateur _, de modificateurs tels que _* Far** et du qualificateur **const**.
 
 </dd> <dt>
 
@@ -117,7 +117,7 @@ Spécifie zéro, un ou plusieurs attributs directionnels, attributs de champ, at
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 MIDL vous permet de déclarer des types entier constant, caractère, chaîne et booléen dans le corps de l’interface du fichier IDL. Les déclarations de type **const** sont reproduites dans le fichier d’en-tête généré en tant que directives de **\# définition** .
 
@@ -125,11 +125,11 @@ Les compilateurs IDL DCE ne prennent pas en charge les expressions constantes. P
 
 Une constante définie précédemment peut être utilisée comme valeur assignée d’une constante suivante. La valeur d’une expression intégrale constante est automatiquement convertie en type entier respectif conformément aux règles de conversion C.
 
-La valeur d’une constante caractère doit être un caractère ASCII à guillemet simple. Lorsque la constante caractère est le caractère de guillemet simple ('), la barre oblique inverse ( \) doit précéder le caractère de guillemet simple, comme dans \\ '.
+La valeur d’une constante caractère doit être un caractère ASCII à guillemet simple. Lorsque la constante caractère est le caractère de guillemet simple ('), la barre oblique inverse ( \\ ) doit précéder le caractère de guillemet simple, comme dans \\ '.
 
 La valeur d’une constante de chaîne de caractères doit être une chaîne entre guillemets doubles. Dans une chaîne, la barre oblique inverse ( **\\** ) doit précéder un caractère de guillemet double littéral ( **"** ), comme dans **\\ "**. Dans une chaîne, la barre oblique inverse ( **\\** ) représente un caractère d’échappement. Les constantes de chaîne peuvent comporter jusqu’à 255 caractères.
 
-La valeur **null** est la seule valeur valide pour les constantes de [**type \* voidÂ**](void.md). Tous les attributs associés à la Déclaration **const** sont ignorés.
+La valeur **null** est la seule valeur valide pour les constantes de type [ * *voidÂ \** _](void.md). Tous les attributs associés à la déclaration _ *const** sont ignorés.
 
 Le compilateur MIDL ne vérifie pas les erreurs de plage dans l’initialisation **const** . Par exemple, lorsque vous spécifiez « const Short x = 0xFFFFFFFF ; », le compilateur MIDL ne signale pas d’erreur et l’initialiseur est reproduit dans le fichier d’en-tête généré.
 
@@ -158,7 +158,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [Types de base MIDL](midl-base-types.md)
 </dt> <dt>
 
-[**Boolean**](boolean.md)
+[**Expression**](boolean.md)
 </dt> <dt>
 
 [**poids**](byte.md)
@@ -197,7 +197,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**ref**](ref.md)
 </dt> <dt>
 
-[**short**](short.md)
+[**Résumé**](short.md)
 </dt> <dt>
 
 [**abonné**](signed.md)
@@ -221,12 +221,12 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**non signé**](unsigned.md)
 </dt> <dt>
 
-[**void**](void.md)
+[**nullité**](void.md)
 </dt> <dt>
 
 [**WCHAR \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

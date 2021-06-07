@@ -4,12 +4,12 @@ description: L’appel de ImmSetConversionStatus () ou ImmGetConversionStatus ()
 ms.assetid: C6F3C8E7-E07A-40C6-A257-037766C670E7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b0846b56b1d6c2367c46e4adf82dac011c49fc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7c8ca572b1ea88ca988ecba66231a87cb6ae6db2
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727693"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443143"
 ---
 # <a name="calling-immsetconversionstatus-or-immgetconversionstatus-from-windows-store-apps-is-not-supported"></a>L’appel de ImmSetConversionStatus () ou ImmGetConversionStatus () à partir d’applications du Windows Store n’est pas pris en charge
 
@@ -29,14 +29,14 @@ Au démarrage de l’application, le mode IME est défini sur les valeurs par d�
 
 
 
-|          | Panneau de saisie du logiciel | Clavier matériel |
+| &nbsp;   | Panneau de saisie du logiciel | Clavier matériel |
 |----------|----------------------|-------------------|
-| KOR, JPN | Il en va                   | Désactivé               |
-| CHS, CHT | Il en va                   | Il en va                |
+| KOR, JPN | Activé                   | Désactivé               |
+| CHS, CHT | Activé                   | Activé                |
 
 
 
- 
+ 
 
 ## <a name="solution"></a>Solution
 
@@ -50,6 +50,6 @@ Le mode IME pour une étendue d’entrée spécifiée est déterminé par chaque
 -   [ImmSetConversionStatus](/windows/win32/api/immdev/nf-immdev-immsetconversionstatus)
 -   [ImmGetConversionStatus](/previous-versions/aa912903(v=msdn.10))
 
- 
+ 
 
- 
+ 

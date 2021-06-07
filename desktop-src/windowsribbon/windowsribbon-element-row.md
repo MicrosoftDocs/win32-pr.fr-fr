@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 83a0a5a9e7908cc1c8cff688b3fefc1e8910b6a4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7d642cd209b3e00e2c63f7376e321132a1c0e686
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106509007"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445020"
 ---
 # <a name="row-element"></a>Élément Row
 
@@ -57,9 +57,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md) .
 
@@ -159,10 +159,9 @@ L’exemple de code suivant illustre le balisage de base pour un modèle de disp
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| Système minimal pris en charge<br/> | Windows 7 |
-| Peut être vide                        | Non        |
+
+* **Système minimal pris en charge**: Windows 7
+* **Peut être vide**: non
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6CFDD674-C8AE-4F29-B2E5-C9C9431CB85A
 title: Vue d’ensemble du format DDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1c45222a66d5a250caaf46db465d2359e09b3e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f860a5759218575acb53be5f2142e71aa34e9554
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518297"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444950"
 ---
 # <a name="dds-format-overview"></a>Vue d’ensemble du format DDS
 
@@ -21,7 +21,7 @@ Le tableau suivant fournit des informations d’identification du codec.
 
 
 
-|                        |                    |
+| Composant              | Description        |
 |------------------------|--------------------|
 | Nom (s) formel (s)         | Surface DirectDraw |
 | Extension (s) de nom de fichier | DDS                |
