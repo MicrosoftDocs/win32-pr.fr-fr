@@ -13,23 +13,23 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 518558305639f0699358f22fb3544698741cfedf
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 9b12a087bfc972ffcbd7f9fb083a9d73d669f134
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106527021"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386898"
 ---
-# <a name="using-color-management-modules-cmm"></a><span data-ttu-id="f0556-110">Utilisation des modules de gestion des couleurs (CMM)</span><span class="sxs-lookup"><span data-stu-id="f0556-110">Using Color Management Modules (CMM)</span></span>
+# <a name="using-color-management-modules-cmm"></a><span data-ttu-id="da1b2-110">Utilisation des modules de gestion des couleurs (CMM)</span><span class="sxs-lookup"><span data-stu-id="da1b2-110">Using Color Management Modules (CMM)</span></span>
 
-<span data-ttu-id="f0556-111">Les modules de gestion des couleurs (CMMs) sont des modules de code WCS qui utilisent les informations des profils d’appareil pour effectuer la conversion des couleurs et le mappage des couleurs.</span><span class="sxs-lookup"><span data-stu-id="f0556-111">Color Management Modules (CMMs) are modules of WCS code that use the information in device profiles to perform color conversion and color mapping.</span></span> <span data-ttu-id="f0556-112">Les développeurs d’applications ne doivent pas avoir à implémenter CMMs.</span><span class="sxs-lookup"><span data-stu-id="f0556-112">Application developers should not have to implement CMMs.</span></span> <span data-ttu-id="f0556-113">Microsoft fournit le CMM par défaut.</span><span class="sxs-lookup"><span data-stu-id="f0556-113">Microsoft provides the default CMM.</span></span> <span data-ttu-id="f0556-114">Toutefois, si vous écrivez un logiciel qui requiert l’utilisation de la conversion de couleurs spécialisée et des algorithmes de mappage des couleurs, vous pouvez en créer un.</span><span class="sxs-lookup"><span data-stu-id="f0556-114">However, if you do write software that requires the use of specialized color conversion and color mapping algorithms, you may create one.</span></span>
+<span data-ttu-id="da1b2-111">Les modules de gestion des couleurs (CMMs) sont des modules de code WCS qui utilisent les informations des profils d’appareil pour effectuer la conversion des couleurs et le mappage des couleurs.</span><span class="sxs-lookup"><span data-stu-id="da1b2-111">Color Management Modules (CMMs) are modules of WCS code that use the information in device profiles to perform color conversion and color mapping.</span></span> <span data-ttu-id="da1b2-112">Les développeurs d’applications ne doivent pas avoir à implémenter CMMs.</span><span class="sxs-lookup"><span data-stu-id="da1b2-112">Application developers should not have to implement CMMs.</span></span> <span data-ttu-id="da1b2-113">Microsoft fournit le CMM par défaut.</span><span class="sxs-lookup"><span data-stu-id="da1b2-113">Microsoft provides the default CMM.</span></span> <span data-ttu-id="da1b2-114">Toutefois, si vous écrivez un logiciel qui requiert l’utilisation de la conversion de couleurs spécialisée et des algorithmes de mappage des couleurs, vous pouvez en créer un.</span><span class="sxs-lookup"><span data-stu-id="da1b2-114">However, if you do write software that requires the use of specialized color conversion and color mapping algorithms, you may create one.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="f0556-115">Les points d’entrée CMM ne sont *pas* des fonctions API et ne doivent pas être appelés par les applications.</span><span class="sxs-lookup"><span data-stu-id="f0556-115">CMM entry points are *not* API functions and should not be called by applications.</span></span>
+> <span data-ttu-id="da1b2-115">Les points d’entrée CMM ne sont *pas* des fonctions API et ne doivent pas être appelés par les applications.</span><span class="sxs-lookup"><span data-stu-id="da1b2-115">CMM entry points are *not* API functions and should not be called by applications.</span></span>
 
  
 
-<span data-ttu-id="f0556-116">Lors de l’installation de CMMs, le programme d’installation les inscrit dans le Registre Windows.</span><span class="sxs-lookup"><span data-stu-id="f0556-116">When CMMs are installed, the installation program registers them in the Windows registry.</span></span> <span data-ttu-id="f0556-117">Les applications peuvent énumérer le CMMs inscrit et en sélectionner un à l’aide de la fonction [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) .</span><span class="sxs-lookup"><span data-stu-id="f0556-117">Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) function.</span></span> <span data-ttu-id="f0556-118">L’exemple d’application suivant montre comment énumérer tous les CMMs inscrits.</span><span class="sxs-lookup"><span data-stu-id="f0556-118">The following sample application demonstrates how to enumerate all registered CMMs.</span></span>
+<span data-ttu-id="da1b2-116">Lors de l’installation de CMMs, le programme d’installation les inscrit dans le Registre Windows.</span><span class="sxs-lookup"><span data-stu-id="da1b2-116">When CMMs are installed, the installation program registers them in the Windows registry.</span></span> <span data-ttu-id="da1b2-117">Les applications peuvent énumérer le CMMs inscrit et en sélectionner un à l’aide de la fonction [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) .</span><span class="sxs-lookup"><span data-stu-id="da1b2-117">Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) function.</span></span> <span data-ttu-id="da1b2-118">L’exemple d’application suivant montre comment énumérer tous les CMMs inscrits.</span><span class="sxs-lookup"><span data-stu-id="da1b2-118">The following sample application demonstrates how to enumerate all registered CMMs.</span></span>
 
 
 ```C++
@@ -55,11 +55,11 @@ _CRTAPI1 main (int argc, char *argv[])
 
     HANDLE hkCMM;
     DWORD dwErr = RegCreateKey(HKEY_LOCAL_MACHINE,
-                 gszICMatcher, &amp;hkCMM);
+                 gszICMatcher, &hkCMM);
     DWORD dwMaxName, dwMaxValue;
-    DWORD dwInfoErr = RegQueryInfoKey(&amp;hkCMM, NULL, NULL,
+    DWORD dwInfoErr = RegQueryInfoKey(&hkCMM, NULL, NULL,
                                 NULL, NULL, NULL, NULL, NULL,
-                                &amp;dwMaxName, &amp;dwMaxValue,
+                                &dwMaxName, &dwMaxValue,
                                 NULL, NULL);
     TCHAR chCMM[dwMaxName];
     ULONG cjCMM = sizeof(chCMM)/sizeof(chCMM[0]);
@@ -76,8 +76,8 @@ _CRTAPI1 main (int argc, char *argv[])
     {
         while (RegEnumValue(
                    hkCMM,dwNumCMM,chCMM,
-                   &amp;cjCMM,NULL,&amp;dwType,
-                   chCMMFile,&amp;cjCMMFile) == ERROR_SUCCESS)
+                   &cjCMM,NULL,&dwType,
+                   chCMMFile,&cjCMMFile) == ERROR_SUCCESS)
         {
             if (dwType == REG_SZ)
             {
