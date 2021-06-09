@@ -13,56 +13,55 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb9265734663881981f1626db6e23c6b7dd9415a
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: fc39a71bcbfb6f3719ecfc7d0abe463a1fd127e4
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996506"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827048"
 ---
-# <a name="sv_domainlocation"></a><span data-ttu-id="59d41-104">SV \_ DomainLocation</span><span class="sxs-lookup"><span data-stu-id="59d41-104">SV\_DomainLocation</span></span>
+# <a name="sv_domainlocation"></a><span data-ttu-id="48652-104">SV \_ DomainLocation</span><span class="sxs-lookup"><span data-stu-id="48652-104">SV\_DomainLocation</span></span>
 
-<span data-ttu-id="59d41-105">Définit l’emplacement sur la coque du point de domaine actuel en cours d’évaluation.</span><span class="sxs-lookup"><span data-stu-id="59d41-105">Defines the location on the hull of the current domain point being evaluated.</span></span>
+<span data-ttu-id="48652-105">Définit l’emplacement sur la coque du point de domaine actuel en cours d’évaluation.</span><span class="sxs-lookup"><span data-stu-id="48652-105">Defines the location on the hull of the current domain point being evaluated.</span></span>
 
-## <a name="type"></a><span data-ttu-id="59d41-106">Type</span><span class="sxs-lookup"><span data-stu-id="59d41-106">Type</span></span>
+## <a name="type"></a><span data-ttu-id="48652-106">Type</span><span class="sxs-lookup"><span data-stu-id="48652-106">Type</span></span>
 
 
 
-|        |                |
+| <span data-ttu-id="48652-107">Type</span><span class="sxs-lookup"><span data-stu-id="48652-107">Type</span></span>       | <span data-ttu-id="48652-108">Topologie d’entrée</span><span class="sxs-lookup"><span data-stu-id="48652-108">Input topology</span></span>               |
 |--------|----------------|
-| <span data-ttu-id="59d41-107">Type</span><span class="sxs-lookup"><span data-stu-id="59d41-107">Type</span></span>   | <span data-ttu-id="59d41-108">Topologie d’entrée</span><span class="sxs-lookup"><span data-stu-id="59d41-108">Input Topology</span></span> |
-| <span data-ttu-id="59d41-109">float2</span><span class="sxs-lookup"><span data-stu-id="59d41-109">float2</span></span> | <span data-ttu-id="59d41-110">correctif Quad</span><span class="sxs-lookup"><span data-stu-id="59d41-110">quad patch</span></span>     |
-| <span data-ttu-id="59d41-111">float3</span><span class="sxs-lookup"><span data-stu-id="59d41-111">float3</span></span> | <span data-ttu-id="59d41-112">correctif triple</span><span class="sxs-lookup"><span data-stu-id="59d41-112">tri patch</span></span>      |
-| <span data-ttu-id="59d41-113">float2</span><span class="sxs-lookup"><span data-stu-id="59d41-113">float2</span></span> | <span data-ttu-id="59d41-114">isoligne</span><span class="sxs-lookup"><span data-stu-id="59d41-114">isoline</span></span>        |
+| <span data-ttu-id="48652-109">float2</span><span class="sxs-lookup"><span data-stu-id="48652-109">float2</span></span> | <span data-ttu-id="48652-110">correctif Quad</span><span class="sxs-lookup"><span data-stu-id="48652-110">quad patch</span></span>     |
+| <span data-ttu-id="48652-111">float3</span><span class="sxs-lookup"><span data-stu-id="48652-111">float3</span></span> | <span data-ttu-id="48652-112">correctif triple</span><span class="sxs-lookup"><span data-stu-id="48652-112">tri patch</span></span>      |
+| <span data-ttu-id="48652-113">float2</span><span class="sxs-lookup"><span data-stu-id="48652-113">float2</span></span> | <span data-ttu-id="48652-114">isoligne</span><span class="sxs-lookup"><span data-stu-id="48652-114">isoline</span></span>        |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="59d41-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="59d41-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="48652-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="48652-115">Remarks</span></span>
 
-<span data-ttu-id="59d41-116">Cette valeur système est requise.</span><span class="sxs-lookup"><span data-stu-id="59d41-116">This system value is required.</span></span>
+<span data-ttu-id="48652-116">Cette valeur système est requise.</span><span class="sxs-lookup"><span data-stu-id="48652-116">This system value is required.</span></span>
 
-<span data-ttu-id="59d41-117">Cette fonction est prise en charge dans les types de nuanceurs suivants :</span><span class="sxs-lookup"><span data-stu-id="59d41-117">This function is supported in the following types of shaders:</span></span>
+<span data-ttu-id="48652-117">Cette fonction est prise en charge dans les types de nuanceurs suivants :</span><span class="sxs-lookup"><span data-stu-id="48652-117">This function is supported in the following types of shaders:</span></span>
 
 
 
-| <span data-ttu-id="59d41-118">Sommet</span><span class="sxs-lookup"><span data-stu-id="59d41-118">Vertex</span></span> | <span data-ttu-id="59d41-119">Forme</span><span class="sxs-lookup"><span data-stu-id="59d41-119">Hull</span></span> | <span data-ttu-id="59d41-120">Domain</span><span class="sxs-lookup"><span data-stu-id="59d41-120">Domain</span></span> | <span data-ttu-id="59d41-121">Géométrie</span><span class="sxs-lookup"><span data-stu-id="59d41-121">Geometry</span></span> | <span data-ttu-id="59d41-122">Pixel</span><span class="sxs-lookup"><span data-stu-id="59d41-122">Pixel</span></span> | <span data-ttu-id="59d41-123">Calcul</span><span class="sxs-lookup"><span data-stu-id="59d41-123">Compute</span></span> |
+| <span data-ttu-id="48652-118">Sommet</span><span class="sxs-lookup"><span data-stu-id="48652-118">Vertex</span></span> | <span data-ttu-id="48652-119">Forme</span><span class="sxs-lookup"><span data-stu-id="48652-119">Hull</span></span> | <span data-ttu-id="48652-120">Domaine</span><span class="sxs-lookup"><span data-stu-id="48652-120">Domain</span></span> | <span data-ttu-id="48652-121">Géométrie</span><span class="sxs-lookup"><span data-stu-id="48652-121">Geometry</span></span> | <span data-ttu-id="48652-122">Pixel</span><span class="sxs-lookup"><span data-stu-id="48652-122">Pixel</span></span> | <span data-ttu-id="48652-123">Compute</span><span class="sxs-lookup"><span data-stu-id="48652-123">Compute</span></span> |
 |--------|------|--------|----------|-------|---------|
-|        |      | <span data-ttu-id="59d41-124">x</span><span class="sxs-lookup"><span data-stu-id="59d41-124">x</span></span>      |          |       |         |
+|        |      | <span data-ttu-id="48652-124">x</span><span class="sxs-lookup"><span data-stu-id="48652-124">x</span></span>      |          |       |         |
 
 
 
  
 
-## <a name="see-also"></a><span data-ttu-id="59d41-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="59d41-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48652-125">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="48652-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="59d41-126">Sémantique</span><span class="sxs-lookup"><span data-stu-id="59d41-126">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
+[<span data-ttu-id="48652-126">Sémantique</span><span class="sxs-lookup"><span data-stu-id="48652-126">Semantics</span></span>](dx-graphics-hlsl-semantics.md)
 </dt> <dt>
 
-[<span data-ttu-id="59d41-127">Shader, modèle 5</span><span class="sxs-lookup"><span data-stu-id="59d41-127">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
+[<span data-ttu-id="48652-127">Shader, modèle 5</span><span class="sxs-lookup"><span data-stu-id="48652-127">Shader Model 5</span></span>](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
  

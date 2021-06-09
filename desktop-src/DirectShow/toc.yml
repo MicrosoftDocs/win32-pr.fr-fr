@@ -9,7 +9,7 @@
         - name: Formats pris en charge dans DirectShow
           href: supported-formats-in-directshow.md
         - name: FAQ DirectShow
-          href: directshow-faq.md
+          href: directshow-faq.yml
     - name: Mise en route
       href: getting-started.md
       items:
@@ -1153,7 +1153,7 @@
             - name: IAMCopyCaptureFileProgress
               href: /windows/desktop/api/strmif/nn-strmif-iamcopycapturefileprogress
               items:
-                - name: Progression
+                - name: Avancement
                   href: /windows/desktop/api/strmif/nf-strmif-iamcopycapturefileprogress-progress
             - name: IAMCrossbar
               href: /windows/desktop/api/strmif/nn-strmif-iamcrossbar
@@ -1166,7 +1166,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_isroutedto
                 - name: get_PinCounts
                   href: /windows/desktop/api/strmif/nf-strmif-iamcrossbar-get_pincounts
-                - name: Routage
+                - name: Route
                   href: /windows/desktop/api/strmif/nf-strmif-iamcrossbar-route
             - name: IAMDecoderCaps
               href: /windows/desktop/api/strmif/nn-strmif-iamdecodercaps
@@ -2318,7 +2318,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-idistributornotify-run
                 - name: SetSyncSource
                   href: /windows/desktop/api/strmif/nf-strmif-idistributornotify-setsyncsource
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/strmif/nf-strmif-idistributornotify-stop
             - name: IDMOWrapperFilter
               href: /previous-versions/windows/desktop/api/dmodshow/nn-dmodshow-idmowrapperfilter
@@ -2420,7 +2420,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-idvdcontrol2-showmenu
                 - name: StillOff
                   href: /windows/desktop/api/strmif/nf-strmif-idvdcontrol2-stilloff
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/strmif/nf-strmif-idvdcontrol2-stop
             - name: IDvdGraphBuilder
               href: /windows/desktop/api/strmif/nn-strmif-idvdgraphbuilder
@@ -2729,7 +2729,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-abort
                 - name: AddSourceFilter
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-addsourcefilter
-                - name: Connecter
+                - name: Se connecter
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-connect
                 - name: Rendu
                   href: /windows/desktop/api/strmif/nf-strmif-igraphbuilder-render
@@ -2836,7 +2836,7 @@
                   href: /windows/desktop/api/control/nf-control-imediacontrol-renderfile
                 - name: Exécuter
                   href: /windows/desktop/api/control/nf-control-imediacontrol-run
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/control/nf-control-imediacontrol-stop
                 - name: StopWhenReady
                   href: /windows/desktop/api/control/nf-control-imediacontrol-stopwhenready
@@ -2882,7 +2882,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-imediafilter-run
                 - name: SetSyncSource
                   href: /windows/desktop/api/strmif/nf-strmif-imediafilter-setsyncsource
-                - name: Stop
+                - name: Arrêter
                   href: /windows/desktop/api/strmif/nf-strmif-imediafilter-stop
             - name: IMediaPosition
               href: /windows/desktop/api/control/nn-control-imediaposition
@@ -3034,7 +3034,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-imeminputpin-getallocatorrequirements
                 - name: NotifyAllocator
                   href: /windows/desktop/api/strmif/nf-strmif-imeminputpin-notifyallocator
-                - name: Receive
+                - name: Recevoir
                   href: /windows/desktop/api/strmif/nf-strmif-imeminputpin-receive
                 - name: ReceiveCanBlock
                   href: /windows/desktop/api/strmif/nf-strmif-imeminputpin-receivecanblock
@@ -3211,7 +3211,7 @@
               items:
                 - name: BeginFlush
                   href: /windows/desktop/api/strmif/nf-strmif-ipin-beginflush
-                - name: Connecter
+                - name: Se connecter
                   href: /windows/desktop/api/strmif/nf-strmif-ipin-connect
                 - name: ConnectedTo
                   href: /windows/desktop/api/strmif/nf-strmif-ipin-connectedto
@@ -4680,7 +4680,7 @@
                   href: dvd-media-types.md
                 - name: Types de média de ligne 21
                   href: line-21-media-types.md
-                - name: Types de média MPEG-1
+                - name: Types de médias MPEG-1
                   href: mpeg-1-media-types.md
                 - name: Types de média MPEG-2
                   href: mpeg-2-media-types.md
@@ -5071,7 +5071,7 @@
                   href: showmenu.md
                 - name: StillOff
                   href: stilloff.md
-                - name: Stop
+                - name: Arrêter
                   href: stop.md
                 - name: UpdateOverlay
                   href: updateoverlay.md
@@ -6041,7 +6041,7 @@
                       href: cbasefilter-run.md
                     - name: SetSyncSource
                       href: cbasefilter-setsyncsource.md
-                    - name: Stop
+                    - name: Arrêter
                       href: cbasefilter-stop.md
                     - name: StreamTime
                       href: cbasefilter-streamtime.md
@@ -6086,7 +6086,7 @@
                       href: cbaseinputpin-notifyallocator.md
                     - name: PassNotify
                       href: cbaseinputpin-passnotify.md
-                    - name: Receive
+                    - name: Recevoir
                       href: cbaseinputpin-receive.md
                     - name: ReceiveCanBlock
                       href: cbaseinputpin-receivecanblock.md
@@ -6186,7 +6186,7 @@
                       href: cbasemediafilter-run.md
                     - name: SetSyncSource
                       href: cbasemediafilter-setsyncsource.md
-                    - name: Stop
+                    - name: Arrêter
                       href: cbasemediafilter-stop.md
                     - name: StreamTime
                       href: cbasemediafilter-streamtime.md
@@ -6299,7 +6299,7 @@
                       href: cbasepin-checkmediatype.md
                     - name: CompleteConnect
                       href: cbasepin-completeconnect.md
-                    - name: Connecter
+                    - name: Se connecter
                       href: cbasepin-connect.md
                     - name: ConnectedTo
                       href: cbasepin-connectedto.md
@@ -6574,7 +6574,7 @@
                       href: cbaserenderer-preparerender.md
                     - name: Ready
                       href: cbaserenderer-ready.md
-                    - name: Receive
+                    - name: Recevoir
                       href: cbaserenderer-receive.md
                     - name: Rendu
                       href: cbaserenderer-render.md
@@ -6606,7 +6606,7 @@
                       href: cbaserenderer-sourcethreadcanwait.md
                     - name: StartStreaming
                       href: cbaserenderer-startstreaming.md
-                    - name: Stop
+                    - name: Arrêter
                       href: cbaserenderer-stop.md
                     - name: StopStreaming
                       href: cbaserenderer-stopstreaming.md
@@ -7545,7 +7545,7 @@
                       href: coutputqueue-notifythread.md
                     - name: QueueSample
                       href: coutputqueue-queuesample.md
-                    - name: Receive
+                    - name: Recevoir
                       href: coutputqueue-receive.md
                     - name: ReceiveMultiple
                       href: coutputqueue-receivemultiple.md
@@ -7662,7 +7662,7 @@
                       href: cpullpin-alignup.md
                     - name: BeginFlush
                       href: cpullpin-beginflush.md
-                    - name: Connecter
+                    - name: Se connecter
                       href: cpullpin-connect.md
                     - name: CPullPin
                       href: cpullpin-cpullpin.md
@@ -7684,7 +7684,7 @@
                       href: cpullpin-inactive.md
                     - name: OnError
                       href: cpullpin-onerror.md
-                    - name: Receive
+                    - name: Recevoir
                       href: cpullpin-receive.md
                     - name: Seek
                       href: cpullpin-seek.md
@@ -7770,7 +7770,7 @@
                       href: crendererinputpin-inactive.md
                     - name: QueryId
                       href: crendererinputpin-queryid.md
-                    - name: Receive
+                    - name: Recevoir
                       href: crendererinputpin-receive.md
                     - name: SetMediaType
                       href: crendererinputpin-setmediatype.md
@@ -7929,7 +7929,7 @@
                       href: csourcestream-queryid.md
                     - name: Exécuter
                       href: csourcestream-run.md
-                    - name: Stop
+                    - name: Arrêter
                       href: csourcestream-stop.md
                     - name: ThreadProc
                       href: csourcestream-threadproc.md
@@ -7999,13 +7999,13 @@
                       href: ctransformfilter-newsegment.md
                     - name: Suspendre
                       href: ctransformfilter-pause.md
-                    - name: Receive
+                    - name: Recevoir
                       href: ctransformfilter-receive.md
                     - name: SetMediaType
                       href: ctransformfilter-setmediatype.md
                     - name: StartStreaming
                       href: ctransformfilter-startstreaming.md
-                    - name: Stop
+                    - name: Arrêter
                       href: ctransformfilter-stop.md
                     - name: StopStreaming
                       href: ctransformfilter-stopstreaming.md
@@ -8040,7 +8040,7 @@
                       href: ctransforminputpin-newsegment.md
                     - name: QueryId
                       href: ctransforminputpin-queryid.md
-                    - name: Receive
+                    - name: Recevoir
                       href: ctransforminputpin-receive.md
                     - name: SetMediaType
                       href: ctransforminputpin-setmediatype.md
@@ -8098,7 +8098,7 @@
                       href: ctransinplacefilter-inputpin.md
                     - name: OutputPin
                       href: ctransinplacefilter-outputpin.md
-                    - name: Receive
+                    - name: Recevoir
                       href: ctransinplacefilter-receive.md
                     - name: Transform
                       href: ctransinplacefilter-transform.md
@@ -8190,7 +8190,7 @@
                       href: cvideotransformfilter-cvideotransformfilter.md
                     - name: EndFlush
                       href: cvideotransformfilter-endflush.md
-                    - name: Receive
+                    - name: Recevoir
                       href: cvideotransformfilter-receive.md
                     - name: ShouldSkipFrame
                       href: cvideotransformfilter-shouldskipframe.md
@@ -8386,7 +8386,7 @@
                       href: dumpgraph.md
                     - name: GuidNames
                       href: guidnames.md
-                    - name: NAME
+                    - name: NOM
                       href: name.md
                     - name: REMARQUE
                       href: note.md
@@ -8568,7 +8568,7 @@
                       href: /previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-clone
                     - name: GetLatency
                       href: /previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-getlatency
-                    - name: Processus
+                    - name: Process
                       href: /previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobjectinplace-process
                 - name: IMediaParamInfo
                   href: /previous-versions/windows/desktop/api/medparam/nn-medparam-imediaparaminfo
@@ -9479,7 +9479,7 @@
                       href: ixml2dex-copyxml.md
                     - name: CreateGraphFromFile
                       href: ixml2dex-creategraphfromfile.md
-                    - name: DELETE
+                    - name: Supprimer
                       href: ixml2dex-delete.md
                     - name: PasteXML
                       href: ixml2dex-pastexml.md
@@ -9661,7 +9661,7 @@
                       href: userid-attribute.md
                     - name: username
                       href: username-attribute.md
-                    - name: value
+                    - name: valeur
                       href: value-attribute.md
                     - name: width
                       href: width-attribute.md

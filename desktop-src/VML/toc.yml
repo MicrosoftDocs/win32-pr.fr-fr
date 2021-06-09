@@ -7,7 +7,7 @@
         - name: Types VML de base
           href: basic-vml-types.md
         - name: Forum aux questions sur VML
-          href: frequently-asked-questions-about-vml.md
+          href: frequently-asked-questions-about-vml.yml
         - name: Annexe
           href: web-workshop---how-to-use-vml-on-web-pages----appendix.md
     - name: Comment utiliser VML sur des pages Web
@@ -158,13 +158,13 @@
                   href: msdn-online-vml-oleicon-attribute.md
                 - name: OnEd
                   href: msdn-online-vml-oned-attribute.md
-                - name: Path
+                - name: Chemin d’accès
                   href: msdn-online-vml-path-attribute.md
                 - name: Position
                   href: position-attribute--shape--vml.md
                 - name: PreferRelative
                   href: msdn-online-vml-preferrelative-attribute.md
-                - name: Imprimer
+                - name: Impression
                   href: msdn-online-vml-print-attribute.md
                 - name: ReGroupID
                   href: msdn-online-vml-regroupid-attribute.md
@@ -190,7 +190,7 @@
                   href: msdn-online-vml-tableproperties-attribute.md
                 - name: Cible
                   href: msdn-online-vml-target-attribute.md
-                - name: Intitulé
+                - name: Titre
                   href: title-attribute--shape--vml.md
                 - name: Haut
                   href: msdn-online-vml-top-attribute.md
