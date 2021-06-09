@@ -4,12 +4,12 @@ ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: Éléments internes de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccac708934c393a526fdb46d73f819d6557107f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f7c1843a83a81e7acac241c66dd18ff26217569
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518146"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827233"
 ---
 # <a name="library-internals"></a>Éléments internes de bibliothèque
 
@@ -30,19 +30,19 @@ Pour améliorer la portabilité et optimiser la disposition des données, vous d
 
 **Pour Windows 32 bits**
 
-Pour Windows 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx) passe les arguments restants via la pile.
+Pour Windows 32 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) (qui implémente [**XMVECTOR**](xmvector-data-type.md) sur cette plateforme). La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui peut passer les trois premières valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances **XMVECTOR** ) comme arguments à une fonction dans un registre *SSE/SSE2* . [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall) passe les arguments restants via la pile.
 
 Les nouveaux compilateurs de Microsoft Visual Studio prennent en charge une nouvelle convention d’appel, \_ \_ vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments d’une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
 **Pour les éditions 64 bits de Windows**
 
-Pour Windows 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
+Pour Windows 64 bits, deux conventions d’appel sont disponibles pour une transmission efficace des valeurs [ \_ \_ M128](/cpp/cpp/m128) . La norme est [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall), qui passe toutes les valeurs [ \_ \_ M128](/cpp/cpp/m128) sur la pile.
 
 Les compilateurs Visual Studio plus récents prennent en charge la \_ \_ Convention d’appel vectorcall, qui peut passer jusqu’à six valeurs [ \_ \_ M128](/cpp/cpp/m128) (instances [**XMVECTOR**](xmvector-data-type.md) ) comme arguments à une fonction dans un registre *SSE/SSE2* . Il peut également passer des agrégats vectoriels hétérogènes (également appelés [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) via des registres *SSE/SSE2* s’il y a suffisamment d’espace.
 
-**Pour Windows RT**
+**Pour Windows sur ARM**
 
-Le système d’exploitation Windows RT prend en charge le passage des quatre premières \_ \_ valeurs n128 (instances [**XMVECTOR**](xmvector-data-type.md) ) dans le registre.
+Le ARM64 Windows sur ARM & prend en charge la transmission des quatre premières \_ \_ valeurs n128 (instances [**XMVECTOR**](xmvector-data-type.md) ) dans le registre.
 
 **Solution DirectXMath**
 
@@ -152,7 +152,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**Windows RT**
+**Windows sur ARM**
 
 
 ```C++
@@ -172,7 +172,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## <a name="graphics-library-type-equivalence"></a>Équivalence de type de bibliothèque Graphics
 
-Pour prendre en charge l’utilisation de la bibliothèque DirectXMath, de nombreux types et structures de bibliothèque DirectXMath sont équivalents aux implémentations Windows des types **D3DDECLTYPE** et **D3DFORMAT** , ainsi qu’aux types de [**\_ format dxgi**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) . 
+Pour prendre en charge l’utilisation de la bibliothèque DirectXMath, de nombreux types et structures de bibliothèque DirectXMath sont équivalents aux implémentations Windows des types **D3DDECLTYPE** et **D3DFORMAT** , ainsi qu’aux types de [**\_ format dxgi**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) .
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | \_format dxgi                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ Ces constantes globales internes sont sujettes à modification dans les futures 
 Le jeu d’instructions SSE ne prend en charge que les vecteurs à virgule flottante simple précision. DirectXMath doit utiliser le jeu d’instructions SSE2 pour fournir la prise en charge des vecteurs entiers. SSE2 est pris en charge par tous les processeurs Intel depuis l’introduction du Pentium 4, de tous les processeurs AMD K8 et versions ultérieures, ainsi que de tous les processeurs compatibles x64.
 
 > [!Note]  
-> Windows 8 pour x86 requiert la prise en charge de SSE2. Toutes les versions de Windows x64 requièrent la prise en charge de SSE2. Windows RT (également connu sous le nom de Windows on ARM) requiert un \_ néon ARM.
+> Windows 8 pour x86 ou version ultérieure nécessite la prise en charge de SSE2. Toutes les versions de Windows x64 requièrent la prise en charge de SSE2. Windows sur ARM/ARM64 nécessite un \_ néon ARM.
 
  
 
@@ -240,8 +240,8 @@ Le jeu d’instructions SSE ne prend en charge que les vecteurs à virgule flott
 
 Il existe plusieurs variantes de fonctions DirectXMath qui facilitent votre travail :
 
--   Fonctions de comparaison pour créer un branchement conditionnel complexe basé sur un plus petit nombre d’opérations de comparaison de vecteurs. Le nom de ces fonctions se termine par « R », par exemple XMVector3InBoundsR. Les fonctions retournent un enregistrement de comparaison en tant que valeur de retour UINT ou en tant que paramètre de sortie UINT. Vous pouvez utiliser les macros **XMComparision \** _ pour tester la valeur.
--   Fonctions batch pour effectuer des opérations de style batch sur des tableaux de vecteurs plus grands. Le nom de ces fonctions se termine par « Stream », par exemple [_ *XMVector3TransformStream* *](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream). Les fonctions opèrent sur un tableau d’entrées et génèrent un tableau de sorties. En règle générale, ils prennent un Stride d’entrée et de sortie.
+-   Fonctions de comparaison pour créer un branchement conditionnel complexe basé sur un plus petit nombre d’opérations de comparaison de vecteurs. Le nom de ces fonctions se termine par « R », par exemple XMVector3InBoundsR. Les fonctions retournent un enregistrement de comparaison en tant que valeur de retour UINT ou en tant que paramètre de sortie UINT. Vous pouvez utiliser les macros **XMComparision \*** pour tester la valeur.
+-   Fonctions batch pour effectuer des opérations de style batch sur des tableaux de vecteurs plus grands. Le nom de ces fonctions se termine par « Stream », par exemple [**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream). Les fonctions opèrent sur un tableau d’entrées et génèrent un tableau de sorties. En règle générale, ils prennent un Stride d’entrée et de sortie.
 -   Fonctions d’estimation qui implémentent une estimation plus rapide au lieu d’un résultat plus lent et plus précis. Le nom de ces fonctions se termine par « est », par exemple [**XMVector3NormalizeEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector3normalizeest). L’impact sur la qualité et les performances de l’estimation varie d’une plateforme à l’autres, mais nous vous recommandons d’utiliser des variantes d’estimation pour le code dépendant des performances.
 
 ## <a name="platform-inconsistencies"></a>Incohérences de la plateforme
@@ -265,7 +265,7 @@ Par exemple, voici un exemple simplifié de l’utilisation de l’instruction S
 
 
 ```
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 
 #include <DirectXMath.h>
@@ -283,12 +283,20 @@ void DetectCPUFeatures()
    // See __cpuid documentation on MSDN for more information
 
    int CPUInfo[4] = {-1};
-   __cpuid( CPUInfo, 0 );
+#if defined(__clang__) || defined(__GNUC__)
+   __cpuid(0, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+   __cpuid(CPUInfo, 0);
+#endif
 
    if ( CPUInfo[0] >= 1 )
    {
-       __cpuid(CPUInfo, 1 );
- 
+#if defined(__clang__) || defined(__GNUC__)
+        __cpuid(1, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+        __cpuid(CPUInfo, 1);
+#endif
+
        if ( CPUInfo[2] & 0x80000 )
            g_bSSE41 = true;
    }
@@ -324,7 +332,7 @@ int main()
        r4 = XMVector4Dot( v1, v2 );
    }
 
-   ... 
+   ...
 
    return 0;
 }

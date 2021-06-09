@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73cf7bc0c13987099540cecd49519de35b4b7de1
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: bc3a074641ce5b15a3d837e8bd91dfdae09fe627
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104102589"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826683"
 ---
 # <a name="samplelevel-directx-hlsl-texture-object"></a>SampleLevel (objet texture HLSL DirectX)
 
 Échantillonne une texture à l’aide d’un décalage au niveau du mipmap.
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;Type &gt; de modèle objet. SampleLevel (état de l’échantillonneur \_ , emplacement de flotte, flottant LOD \[ , décalage int \] ); |
+&lt;Type &gt; de modèle objet. SampleLevel (état de l’échantillonneur \_ , emplacement de flotte, flottant LOD \[ , décalage int \] );
 
 
 

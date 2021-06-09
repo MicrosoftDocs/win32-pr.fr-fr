@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bb035f58a2430cfa6cdc3e7f3967492aaf1d8352
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a4a7f561dc0bf114a5824b1f8fe6d9547c327d5
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531678"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826127"
 ---
 # <a name="xmunibble4-constructors"></a>Constructeurs XMUNIBBLE4
 
@@ -73,8 +73,8 @@ Ce constructeur est uniquement disponible en C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const int8_t *)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUNIBBLE4</code> à partir d’un argument de tableau à quatre éléments <code>int8_t</code> . <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>int8_t</code> . <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const uint8_t *)</strong></a></td>
+<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUNIBBLE4</code> à partir d’un argument de tableau à quatre éléments <code>uint8_t</code> . <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> à partir d’un à partir d’un argument de tableau à quatre éléments <code>uint8_t</code> . <br/>
 <blockquote>
 [!Note]<br />
 Ce constructeur est uniquement disponible en C++.
@@ -91,8 +91,8 @@ Ce constructeur est uniquement disponible en C++.
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (int8_t, int8_t, int8_t, int8_t)</strong></a></td>
-<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUNIBBLE4</code> à partir de quatre <code>int8_t</code> arguments. <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> à partir de quatre <code>int8_t</code> arguments. <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (uint8_t, uint8_t, uint8_t, uint8_t)</strong></a></td>
+<td style="text-align: left;">Initialise une nouvelle instance de <code>XMUNIBBLE4</code> à partir de quatre <code>uint8_t</code> arguments. <br/> Ce constructeur initialise une nouvelle instance de <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> à partir de quatre <code>uint8_t</code> arguments. <br/>
 <blockquote>
 [!Note]<br />
 Ce constructeur est uniquement disponible en C++.
@@ -111,7 +111,7 @@ Ce constructeur est uniquement disponible en C++.
 [Extensions XMUNIBBLE4](ovw-xmunibble4-extensions.md)
 </dt> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**XMUNIBBLE4**](/windows/win32/api/directxpackedvector/ns-directxpackedvector-xmunibble4)

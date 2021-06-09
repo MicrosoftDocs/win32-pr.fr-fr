@@ -18,22 +18,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f6e63bafa62a9857af678e0848c81237dcd0d585
-ms.sourcegitcommit: 4e0bde7dfa48a0b60bca4a5230eb2b05be3778d3
+ms.openlocfilehash: 446444e09b0b6aff3e0ba8ca8b12cfbf6dc94128
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "104991045"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826067"
 ---
 # <a name="variable-syntax"></a>Syntaxe des variables
 
 Utilisez les règles de syntaxe suivantes pour déclarer des variables HLSL.
 
-
-
-|                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*Stockage \_* Nom du type de \] \[ *\_ modificateur* de type de classe \]  \[ *index* \] \[ *: sémantique* \] \[ *: Packoffset* \] \[ *: Register* \] ;    \[ *Annotations* \] \[ *= Initial \_ Valeur*                    \] |
+\[*Stockage \_* Nom du type de \] \[ *\_ modificateur* de type de classe \]  \[ *index* \] \[ *: sémantique* \] \[ *: Packoffset* \] \[ *: Register* \] ;    \[ *Annotations* \] \[ *= Initial \_ Valeur*                    \]
 
 
 
@@ -57,7 +53,7 @@ Modificateurs de classe de stockage facultatifs qui fournissent les indications 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valeur</th>
+<th>Value</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -133,7 +129,7 @@ Modificateur de type variable facultatif.
 
 
 
-| Valeur             | Description                                                                                                                                                                                                                                  |
+| Value             | Description                                                                                                                                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **const**         | Marquer une variable qui ne peut pas être modifiée par un nuanceur, par conséquent, elle doit être initialisée dans la déclaration de la variable. Les variables globales sont considérées comme **const** par défaut (supprimez ce comportement en fournissant l’indicateur/GEC au compilateur). |
 | **ligne \_ principale**    | Marquer une variable qui stocke quatre composants sur une seule ligne afin qu’ils puissent être stockés dans un seul registre de constantes.                                                                                                                             |

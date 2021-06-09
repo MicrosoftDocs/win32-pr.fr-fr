@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e9653d98ebbfef6dd25bb137af3358a14d177f3e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8e2713aaa50206660f7672688a43e644873b1c13
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996516"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827058"
 ---
 # <a name="sv_dispatchthreadid"></a>SV \_ DispatchThreadID
 
@@ -28,9 +28,8 @@ Index pour lesquels un nuanceur de calcul et un groupe de threads combinés sont
 
 
 
-|       |
+| Type      |
 |-------|
-| Type  |
 | uint3 |
 
 
@@ -49,7 +48,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 

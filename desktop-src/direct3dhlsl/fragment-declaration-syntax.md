@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c9090caec35bfc5e46d7024bf6de44d865d4ad6
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 60ac1153ff3491bc904f4f759f6653cb4243adff
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998306"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825726"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a>Syntaxe de la déclaration de fragment (Direct3D 9 HLSL)
 
 Chaque fonction HLSL (High Level Shader Language) de Microsoft peut être convertie en fragment de nuanceur avec l’ajout d’une déclaration de fragment.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 
 ```
@@ -33,7 +33,7 @@ où :
 
 
 
-|                   |                                                                                                                                                                                                                                                       |
+| Valeur                  | Description                                                                                                                                                                                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fragmentKeyword   | Mot clé requis. Pixelfragment ou vertexfragment.                                                                                                                                                                                             |
 | FragmentName      | Chaîne de texte ASCII qui spécifie le nom du fragment compilé.                                                                                                                                                                                       |

@@ -4,19 +4,17 @@ ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: Informations de référence sur D3DX (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af62cd2c919123544b91e82eb2f00997f3b76eba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 026ea9d8ce13cc86b4d4a99b5ff90030331ed90a
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523220"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826988"
 ---
 # <a name="d3dx-reference-direct3d-10-graphics"></a>Informations de référence sur D3DX (graphiques Direct3D 10)
 
-> [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
-
- 
+> [!NOTE]  
+> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Microsoft Store. Si vous n’avez pas la possibilité de procéder à une mise à niveau vers une version plus récente de Direct3D et du code de l’utilitaire associé, vous pouvez utiliser le package NuGet [Microsoft. DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) au lieu de vous appuyer sur le SDK DirectX hérité ou DirectSetup.
 
 Cette section comprend les sections suivantes :
 
@@ -27,14 +25,4 @@ Cette section comprend les sections suivantes :
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-<dl> <dt>
-
-[Référence pour Direct3D 10](d3d10-graphics-reference.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
+* [Référence pour Direct3D 10](d3d10-graphics-reference.md)

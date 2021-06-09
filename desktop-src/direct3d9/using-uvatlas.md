@@ -4,14 +4,17 @@ ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: Utilisation de UVAtlas (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b335dd6ea94a3db0c0760b0d07a0b8df3fe4c7c
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: d8faeaa0a416f6f062c81c4101ff47d5222ca75d
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104211151"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826327"
 ---
 # <a name="using-uvatlas-direct3d-9"></a>Utilisation de UVAtlas (Direct3D 9)
+
+> [!NOTE]
+> UVAtlas a été livré à l’origine dans la bibliothèque utilty D3DX9 maintenant dépréciée. La dernière version est disponible à l’adresse [UV Command-Line Tool (uvatlas.exe)](https://github.com/Microsoft/UVAtlas).
 
 De nombreuses techniques de rendu et de génération de contenu requièrent une carte unique et sans chevauchement d’un signal 2D (par exemple, une texture) sur une maille. Ces techniques sont les suivantes :
 
@@ -174,7 +177,7 @@ Les graphiques compactés sont séparés par une largeur de reliure spécifiée 
 
 En plus d’être appelé par l’artiste avant la peinture de texture, ces fonctions peuvent être intégrées dans un pipeline d’art automatisé. Par exemple, un appel UVAtlas peut être émis automatiquement après la mise à jour d’un élément multimédia, avant d’effectuer une simulation PRT ou un test de mappage normal. Cela évite de devoir réparer manuellement manuellement le mappage UV d’un objet si la topologie du maillage a été modifiée.
 
-Pour obtenir des exemples d’utilisation des fonctions UVAtlas, consultez l' [outil Command-Line de l’Atlas UV (uvatlas.exe)](https://msdn.microsoft.com/library/Ee419017(v=VS.85).aspx) .
+Pour obtenir des exemples d’utilisation des fonctions UVAtlas, consultez l' [outil Command-Line de l’Atlas UV (uvatlas.exe)](https://github.com/Microsoft/UVAtlas) .
 
 ## <a name="related-topics"></a>Rubriques connexes
 

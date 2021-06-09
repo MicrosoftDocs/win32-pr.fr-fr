@@ -12,23 +12,21 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b075ddc1f659923efd03d9fe9d21ee3238e656e9
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
-ms.translationtype: HT
+ms.openlocfilehash: 4d1881ba4a88e97e978e2646c92d276bb9763ffd
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104211659"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825769"
 ---
 # <a name="texture-object"></a>Texture, objet
 
 Dans Direct3D 10, vous spécifiez les échantillonneurs et les textures indépendamment. l’échantillonnage de texture est implémenté à l’aide d’un objet de texture basée sur un modèle. Cet objet de texture basé sur un modèle a un format spécifique, retourne un type spécifique et implémente plusieurs méthodes.
 
+Différences entre Direct3D9 et Direct3D10 :
 
-
-
-|                                                                                                                                                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D9 et Direct3D10 : dans Direct3D 9, les échantillonneurs sont liés à des textures spécifiques ; dans Direct3D 10, les textures et les échantillonneurs sont des objets indépendants. Chaque objet de texture basée sur un modèle implémente des méthodes d’échantillonnage de texture qui prennent à la fois la texture et l’échantillonneur comme paramètres d’entrée.<br/> |
+- Dans Direct3D 9, les échantillonneurs sont liés à des textures spécifiques.
+- Dans Direct3D 10, les textures et les échantillonneurs sont des objets indépendants. Chaque objet de texture basée sur un modèle implémente des méthodes d’échantillonnage de texture qui prennent à la fois la texture et l’échantillonneur comme paramètres d’entrée.
 
 
 

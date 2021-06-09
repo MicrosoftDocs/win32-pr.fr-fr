@@ -4,12 +4,12 @@ ms.assetid: aae12d4a-7758-83df-5376-99d5d94a28c4
 title: Transcendant, fonctions de vecteur
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4d62ce18e6880f998a944b7a88101ac33964d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5927f8a477b4d55e8ed03ca6d61f329e76f11be2
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518594"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827655"
 ---
 # <a name="transcendental-vector-functions"></a>Transcendant, fonctions de vecteur
 
@@ -33,9 +33,11 @@ Répertorie les fonctions de vecteur transcendant.
 | [**XMVectorCosEst**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosest)<br/>       | Estime le cosinus de chaque composant d’un [**XMVECTOR**](xmvector-data-type.md).<br/>            |
 | [**XMVectorCosH**](/windows/win32/api/directxmath/nf-directxmath-xmvectorcosh)<br/>           | Calcule le cosinus hyperbolique de chaque composant d’un [**XMVECTOR**](xmvector-data-type.md).<br/>  |
 | [**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp)<br/>             | Calcule deux élevé à la puissance pour chaque composant.<br/>                                            |
+| [**XMVectorExp10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp10)<br/>         | Calcule dix à la puissance de chaque composant.<br/>                                            |
 | [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2)<br/>           | Calcule deux élevé à la puissance pour chaque composant.<br/>                                            |
 | [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)<br/>           | Calcule e (~ 2,71828) élevé à la puissance de chaque composant.<br/>                                   |
 | [**XMVectorLog**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog)<br/>             | Calcule le logarithme de base deux de chaque composant d’un vecteur.<br/>                                  |
+| [**XMVectorLog10**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog10)<br/>         | Calcule le logarithme de base dix de chaque composant d’un vecteur.<br/>                                  |
 | [**XMVectorLog2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorlog2)<br/>           | Calcule le logarithme de base deux de chaque composant d’un vecteur.<br/>                                  |
 | [**XMVectorLogE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorloge)<br/>           | Calcule le logarithme de base e de chaque composant d’un vecteur.<br/>                                    |
 | [**XMVectorSin**](/windows/win32/api/directxmath/nf-directxmath-xmvectorsin)<br/>             | Calcule le sinus de chaque composant d’un [**XMVECTOR**](xmvector-data-type.md).<br/>               |
@@ -51,7 +53,7 @@ Répertorie les fonctions de vecteur transcendant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 [**XMVectorExp**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp) est un alias de compatibilité pour [**XMVectorExp2**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexp2) pour le code Windows 8 existant. **XMVectorExp** est déconseillé pour Windows 8.1. Ne l’utilisez pas et utilisez **XMVectorExp2** ou [**XMVectorExpE**](/windows/win32/api/directxmath/nf-directxmath-xmvectorexpe)à la place.
 

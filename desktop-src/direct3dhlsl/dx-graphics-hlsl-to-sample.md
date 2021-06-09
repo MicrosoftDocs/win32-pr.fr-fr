@@ -9,20 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ec80d296025684c1bb67642661a31d8cdc119a53
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2374063d222d06576f720fed2aa7fb714bcccf04
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991872"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825746"
 ---
 # <a name="sample-directx-hlsl-texture-object"></a>Échantillon (objet de texture HLSL DirectX)
 
 Échantillonne une texture.
 
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| &lt;Type &gt; de modèle objet. Sample (état de l’échantillonneur \_ , emplacement flottant \[ , décalage int \] ); |
+&lt;Type &gt; de modèle objet. Sample (état de l’échantillonneur \_ , emplacement flottant \[ , décalage int \] );
 
 ## <a name="parameters"></a>Paramètres
 
@@ -114,7 +112,7 @@ ms.locfileid: "104991872"
 </tbody>
 </table>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Le type de modèle de la texture, qui peut être un vecteur à un ou plusieurs composants. Le format est basé sur le [**\_ format dxgi**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)de la texture.
 
@@ -158,7 +156,7 @@ VS_OUTPUT In;
         Output.RGBColor = g_MeshTexture.Sample(MeshTextureSampler, In.TextureUV) * In.Diffuse;
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’échantillonnage de texture utilise la position Texel pour rechercher une valeur Texel. Un décalage peut être appliqué à la position avant la recherche. L’état de l’échantillonneur contient les options d’échantillonnage et de filtrage. Cette méthode peut être appelée dans un nuanceur de pixels, mais elle n’est pas prise en charge dans un nuanceur de sommets ou un nuanceur Geometry.
 

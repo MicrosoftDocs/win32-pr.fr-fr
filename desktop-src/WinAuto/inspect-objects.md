@@ -7,29 +7,32 @@ keywords:
 - Accessibilité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1770c6c4db812ea7d2880c50fcc72cd0edc15022
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: dcef8efa9efc0241d0f813da01623a1c02e6d226
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381595"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827635"
 ---
 # <a name="accessibility-tools---inspect"></a>Outils d’accessibilité-inspecter
 
-**Inspect** (Inspect.exe) est un outil Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôles de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility. **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
-
-L' **inspection** est installée avec le kit de développement logiciel (SDK) Windows. (Elle est également disponible dans les versions précédentes de SDK Windows.) Il se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform*> du chemin d’installation du kit de développement logiciel (Inspect.exe).
-
-> [!NOTE]
+> [!Important]
 > **Inspect** est un outil hérité. Nous vous recommandons d’utiliser à la place [Accessibility Insights](https://accessibilityinsights.io/) .
 
-## <a name="requirements"></a>Configuration requise
+**Inspect** (Inspect.exe) est un outil Windows qui vous permet de sélectionner n’importe quel élément d’interface utilisateur et d’afficher les données d’accessibilité de l’élément. Vous pouvez afficher les propriétés et les modèles de contrôles de Microsoft UI Automation, ainsi que les propriétés de Microsoft Active Accessibility. **Inspect** vous permet également de tester la structure de navigation des éléments Automation dans l’arborescence UI Automation et les objets accessibles dans la hiérarchie Microsoft Active Accessibility.
 
-**Inspect** peut être utilisé pour examiner les données d’accessibilité sur les systèmes qui n’ont pas d’Automation d’interface utilisateur, mais peut uniquement examiner les propriétés de Microsoft Active Accessibility. Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
+## <a name="requirements"></a>Spécifications
 
-**Inspect** est installé dans le cadre de l’ensemble d’outils de la SDK Windows, il n’est pas distribué comme un téléchargement séparé. Le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section. [Obtient le SDK Windows.](https://developer.microsoft.com/) (Il existe également un kit de développement logiciel (SDK) à partir de cette page, si vous avez besoin d’une version précédente.)
+Pour examiner l’Automation d’interface utilisateur, UI Automation doit être présent sur le système. Pour plus d’informations, consultez la section « Configuration requise » d' [UI Automation](entry-uiauto-win32.md).
 
-Pour exécuter **Inspect**, recherchez Inspect.exe dans le \\ dossier bin \\ < *version* > \\ < *Platform*> et exécutez-le (vous n’êtes généralement pas obligé d’exécuter en tant qu’administrateur).
+L' **inspection** est installée dans le cadre de l’ensemble d’outils du kit de développement logiciel (SDK) Windows, mais elle n’est pas distribuée sous forme de téléchargement distinct. Le SDK Windows comprend tous les outils liés à l’accessibilité documentés dans cette section.
+
+[Téléchargez le SDK Windows](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/).
+
+> [!NOTE]
+> Pour les versions antérieures du SDK Windows, consultez l' [Archive des SDK Windows et des émulateurs](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/).
+
+**Inspect.exe** se trouve dans le \\ dossier bin \\ < *version* > \\ < *Platform*> du chemin d’installation du kit de développement logiciel (SDK) (vous n’êtes généralement pas obligé d’exécuter en tant qu’administrateur).
 
 ## <a name="the-inspect-window"></a>Fenêtre Inspect
 
@@ -137,7 +140,7 @@ Le menu **action** contient les éléments d' **actualisation** et de focus, ain
 
 
 
- 
+ 
 
 ## <a name="keyboard-shortcuts"></a>Raccourcis clavier
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4d047f7961868de020ac50ffce22b6ce02d078a5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 90d31aa6a11ce8e2bdd75ff1171705cc9b3de437
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996916"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826613"
 ---
 # <a name="sv_insidetessfactor"></a>SV \_ InsideTessFactor
 
@@ -28,9 +28,8 @@ Définit la quantité de pavage dans une surface corrective.
 
 
 
-|            |                |
+|  Type          | Topologie d’entrée               |
 |------------|----------------|
-| Type       | Topologie d’entrée |
 | float \[ 2\] | correctif Quad     |
 | float      | correctif triple      |
 | unused     | isoligne        |
@@ -51,7 +50,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

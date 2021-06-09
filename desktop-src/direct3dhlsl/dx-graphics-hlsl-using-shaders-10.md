@@ -9,22 +9,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0e19275532ce8fd034813d8574f6bdc04d72f966
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c0d6212851e4603aac4db7ec85dd20714dc87774
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315180"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826287"
 ---
 # <a name="using-shaders-in-direct3d-10"></a>Utilisation des nuanceurs dans Direct3D 10
 
 Le pipeline a trois étapes de nuanceur et chacune d’entre elles est programmée avec un nuanceur HLSL. Tous les nuanceurs Direct3D 10 sont écrits en HLSL, ciblant le nuanceur modèle 4.
 
 
+Différences entre Direct3D 9 et Direct3D 10 :
 
-|                                                                                                                                                                                                                                                                                                                                                |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Contrairement aux modèles de nuanceur Direct3D 9 qui peuvent être créés dans un langage assembleur intermédiaire, les nuanceurs de modèle de nuanceur 4,0 sont uniquement créés en HLSL. La compilation hors connexion des nuanceurs dans le bytecode consommable par l’appareil est toujours prise en charge et recommandée pour la plupart des scénarios.<br/> |
+- Contrairement aux modèles de nuanceur Direct3D 9 qui peuvent être créés dans un langage assembleur intermédiaire, les nuanceurs de modèle de nuanceur 4,0 sont uniquement créés en HLSL. La compilation hors connexion des nuanceurs dans le bytecode consommable par l’appareil est toujours prise en charge et recommandée pour la plupart des scénarios.
 
 
 

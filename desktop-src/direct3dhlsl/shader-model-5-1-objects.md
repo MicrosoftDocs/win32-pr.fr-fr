@@ -4,12 +4,12 @@ description: Les objets suivants ont été ajoutés au nuanceur modèle 5,1.
 ms.assetid: 2958618D-54C6-4860-9910-B45AAB73CCFD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c56fbe035f63bd8f25a8b34377c333c2ce9946c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 376ce272e789501e21f5866be37f56daf31bc829
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993856"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825716"
 ---
 # <a name="shader-model-51-objects"></a>Objets modèle de nuanceur 5,1
 
@@ -19,9 +19,8 @@ Pour les [vues](/windows/desktop/direct3d11/rasterizer-order-views) de l’ordre
 
 
 
-|                                    |                                                               |
+| Objet rastériseur                                   | Objet UAV                                                              |
 |------------------------------------|---------------------------------------------------------------|
-| Objet rastériseur                  | Objet UAV                                                    |
 | RasterizerOrderedBuffer            | [**RWBuffer**](sm5-object-rwbuffer.md)                       |
 | RasterizerOrderedByteAddressBuffer | [**RWByteAddressBuffer**](sm5-object-rwbyteaddressbuffer.md) |
 | RasterizerOrderedStructuredBuffer  | [**RWStructuredBuffer**](sm5-object-rwstructuredbuffer.md)   |

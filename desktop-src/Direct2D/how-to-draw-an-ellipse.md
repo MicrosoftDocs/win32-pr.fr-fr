@@ -5,12 +5,12 @@ ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 6b6b5a6fb08ac962475c2f0aa2812b4c3ae5da03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93d8f3a3ddeb06c9168971789dff3ac8c9222d22
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104559819"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826998"
 ---
 # <a name="how-to-draw-and-fill-a-basic-shape"></a>Comment dessiner et remplir une forme de base
 
@@ -90,7 +90,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
 ## <a name="draw-and-fill-an-ellipse"></a>Dessiner et remplir une ellipse
 
-Pour peindre l’intérieur d’une ellipse, vous utilisez la méthode [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) . L’exemple suivant utilise la méthode [**DrawEllipse**]/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse (constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) pour dessiner l’ellipse, puis utilise la méthode **FillEllipse** pour peindre son intérieur. Cet exemple produit la sortie représentée dans l’illustration suivante.
+Pour peindre l’intérieur d’une ellipse, vous utilisez la méthode [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) . L’exemple suivant utilise la méthode [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) pour esquisser l’ellipse, puis utilise la méthode **FillEllipse** pour peindre son intérieur. Cet exemple produit la sortie représentée dans l’illustration suivante.
 
 ![illustration d’une ellipse avec un trait en pointillés, puis remplie d’une couleur grise unie](images/drawandfillellipseexample-3.png)
 
@@ -130,6 +130,6 @@ Pour dessiner des formes plus complexes, vous définissez des objets ID2D1Geomet
 [Vue d’ensemble des pinceaux](direct2d-brushes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

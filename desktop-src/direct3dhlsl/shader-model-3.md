@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c277723628d5337e41e5fbf83baa9fda8af16adf
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2d87c791694e91de135052b4172e3bd5f55577d7
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993866"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827098"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>Shader Model 3 (référence HLSL)
 
@@ -246,9 +246,8 @@ vs \_ 2 \_ SW est un assouplissement aux limites maximales de vs \_ 2 \_ x ; de
 
 
 
-|                                            |                                      |                                                                                                                                   |
+| Modèle de nuanceur                                           |  Ressource                                    |  Limite                                                                                                                                  |
 |--------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Modèle de nuanceur                               | Ressource                             | Limite                                                                                                                             |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Nombre d’instructions                   | Illimité                                                                                                                         |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Registres à constante flottante             | 8 192                                                                                                                              |
 | vs \_ 2 \_ SW, vs \_ 3 \_ SW, PS \_ 2 \_ SW, PS \_ 3 \_ SW | Registres de constantes entières           | 2 048                                                                                                                              |

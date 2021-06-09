@@ -1,0 +1,302 @@
+### YamlMime:FAQ
+metadata:
+  title: 'Direct3D 10 : Forum Aux Questions'
+  description: Cet article contient certaines des questions fréquemment posées concernant Direct3D 10, du point de vue d’un développeur qui Portage une application existante de Direct3D 9 (D3D9) vers Direct3D 10 (D3D10).
+  ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
+  ms.topic: article
+  ms.date: 05/31/2018
+  ms.openlocfilehash: e4d83f20d5dac1c067144e715dee7331cabe2ce7
+  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.translationtype: MT
+  ms.contentlocale: fr-FR
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "111852701"
+title: 'Direct3D 10 : Forum Aux Questions'
+summary: >
+  Cet article contient certaines des questions fréquemment posées concernant Direct3D 10, du point de vue d’un développeur qui Portage une application existante de Direct3D 9 (D3D9) vers Direct3D 10 (D3D10).
+sections:
+- name: Mémoires tampons constantes
+  questions:
+  - question: Quelle est la meilleure façon de mettre à jour les mémoires tampons constantes ?
+    answer: UpdateSubresource et Map with Discard doivent être à la même vitesse. Choisissez entre elles en fonction de laquelle une copie la plus petite quantité de mémoire. Si vos données sont déjà stockées en mémoire dans un bloc contigu, utilisez UpdateSubresource. Si vous devez accumuler des données à partir d’autres emplacements, utilisez la fonction Map with Discard.
+  - question: Quelle est la pire façon d’organiser les mémoires tampons constantes ?
+    answer: >
+      Les pires performances sont obtenues en plaçant toutes les constantes d’un nuanceur particulier dans une mémoire tampon constante. Bien qu’il s’agisse souvent du moyen le plus simple de portage de D3D9 vers D3D10, cela peut paralyser les performances. Par exemple, imaginez un scénario qui utilise la mémoire tampon constante suivante :
+
+
+      ``` syntax
+
+      cbuffer VSGlobalsCB
+
+      {
+          matrix  ViewProj;
+          matrix  Bones[100];
+          matrix  World;
+          float   SpecPower;
+          float4  BDRFCoefficients;
+          float   AppTime;
+          uint2   RenderTargetSize;
+      };
+
+      ```
+
+
+      La mémoire tampon est de 6560 octets. Supposons qu’il existe une application avec 1000 objets à restituer, 100 qui sont des maillages dépouillés et 900 de maillages statiques. Par ailleurs, supposons que cette application utilise le mappage Shadow avec une source de lumière. Cela signifie qu’il y a deux passes, une pour la carte de profondeur rendue à partir de la lumière et une pour la passe de rendu avant. Cela provoque des appels 2000 Draw. Bien que chaque appel de dessin n’ait pas besoin de mettre à jour toutes les parties de la mémoire tampon constante, la totalité de la mémoire tampon constante est toujours mise à jour et envoyée à la carte. Cela entraîne la mise à jour de 13 Mo de données toutes les trames (2000 de dessin appelle l’heure 6560 Ko).
+  - question: Quelle est la meilleure façon d’organiser mes mémoires tampons constantes ?
+    answer: "Le meilleur moyen consiste à organiser des mémoires tampons constantes par fréquence de mise à jour. Les constantes mises à jour à des fréquences similaires doivent se trouver dans la même mémoire tampon. Par exemple, considérez le scénario présenté sous, « quel est le pire moyen d’organiser les mémoires tampons constantes ? », mais avec une meilleure disposition constante :\n\n``` syntax\ncbuffer VSGlobalPerFrameCB\n  { \n    float   AppTime; \n  };\ncbuffer VSPerSkinnedCB\n  { \n    matrix  Bones[100]; \n  };\ncbuffer VSPerStaticCB\n  {\n    matrix  World;\n  };\ncbuffer VSPerPassCB\n  {\n    matrix  ViewProj;\n    uint2   RenderTargetSize;\n  };\ncbuffer VSPerMaterialCB\n  {\n    float   SpecPower;\n    float4  BDRFCoefficients;\n  };    \n```\n\nLes mémoires tampons constantes sont divisées en fonction de leur fréquence de mise à jour, mais ce n’est que la moitié de la solution. L’application doit mettre à jour les mémoires tampons constantes correctement afin de tirer pleinement parti du fractionnement. Nous allons supposer la même scène que ci-dessus : 900 maillages statiques, 100 maillages dépouillés, un passe de lumière et une passe directe. Nous supposons également que certaines mémoires tampons constantes par objet seront stockées. Cela signifie que chaque objet contiendra soit un VSPerSkinnedCB, soit un VSPerStaticCB, selon qu’il est dépouillé ou statique. Nous faisons cela pour éviter le double de la quantité de matrices envoyées via le pipeline.\n\nNous séparons le cadre en trois phases. La première phase est le début du frame et ne nécessite pas de rendu, juste des mises à jour constantes.\n\n\n\n**Frame de début**\n\n\n-   Mettre à jour VSGlobalPerFrameCB pour l’heure de l’application (4 octets)\n-   Mise à jour 100 VSPerSkinnedCB pour les objets dépouillés 100 (640000 octets)\n-   Mettre à jour VSPerStaticCB pour 900 objets statiques (57600 octets)\n\nL’étape suivante est le passage de la table fictive. Notez que la seule mémoire tampon constante qui est réellement mise à jour est VSPerPassCB. Toutes les autres mémoires tampons constantes ont été mises à jour pendant le passage de frame de début. Bien que nous ayons toujours besoin de lier ces mémoires tampons constantes, la quantité d’informations transmises à la carte vidéo est minime, car les tampons ont déjà été mis à jour.\n\n\n**Passe-miroir**\n\n\n-   Mettre à jour VSPerPassCB (72 octets)\n-   Dessiner 100 maillages dépouillés (100 liaisons, aucune mise à jour)\n-   Dessiner 900 mailles statiques (100 liaisons, aucune mise à jour)\n\nDe même, le test de rendu de transfert doit uniquement mettre à jour les données par matériau, car il n’a pas été stocké par maillage. Si nous partons du principe qu’il existe 500 matériaux en cours d’utilisation dans la scène :\n\n\n**Transfert direct**\n\n\n-   Mettre à jour VSPerPassCB (72 octets)\n-   Mise à jour 500 VSPerMaterialCBs (10000 octets)\n\nIl en résulte un total de 707 Ko seulement. Bien qu’il s’agisse d’un scénario très fictif, il illustre simplement la quantité de surcharge de mise à jour constante pouvant être réduite en triant les constantes par fréquence de mise à jour.\n\n \n"
+  - question: Que se passe-t-il si je n’ai pas suffisamment d’espace pour stocker des mémoires tampons constantes pour mes maillages, notre matériel, etc. ?
+    answer: >
+      Vous pouvez toujours utiliser un système à plusieurs niveaux de mémoires tampons constantes. Créez des mémoires tampons constantes de taille variable (16 octets, 32 octets, 64 octets, etc.) jusqu’à la plus grande taille de mémoire tampon constante nécessaire. Lorsqu’il est temps de lier une mémoire tampon constante à un nuanceur, sélectionnez la plus petite mémoire tampon constante qui peut contenir les données requises par le nuanceur. Bien que cette approche soit légèrement moins efficace, il s’agit d’une bonne étape intermédiaire.
+  - question: Je partage des mémoires tampons constantes entre différents nuanceurs. Un nuanceur peut utiliser toutes les constantes, mais un autre peut utiliser certaines des constantes. Quelle est la meilleure façon de les mettre à jour ?
+    answer: >
+      Une approche consiste à fractionner le tampon constant encore plus loin. Toutefois, il y a un point où trop de mémoires tampons constantes sont liées. Dans ce cas, déplacez les constantes qui sont susceptibles d’être inutilisées par plusieurs nuanceurs jusqu’à la fin de la mémoire tampon constante. Lors de l’obtention des données de la variable à partir du nuanceur, utilisez l' \_ indicateur D3D10 SVF \_ used de la \_ variable de nuanceur D3D10 \_ \_ desc pour déterminer si la variable est utilisée. En plaçant les variables inutilisées à la fin de la mémoire tampon constante, vous pouvez lier une mémoire tampon plus petite au nuanceur qui n’utilise pas ces variables, ce qui permet d’économiser les coûts de mise à jour.
+  - question: Combien puis-je améliorer la fréquence d’images si je charge uniquement les segments de mon caractère une fois par image au lieu d’une fois par passe/dessin ?
+    answer: >
+      Vous pouvez améliorer la fréquence d’images comprise entre 8% et 50% en fonction de la quantité de données redondantes. Dans le pire des cas, les performances ne seront pas réduites.
+  - question: Combien de mémoires tampons constantes dois-je lier en même temps ?
+    answer: >
+      Liez le nombre minimal de mémoires tampons constantes nécessaires à l’extraction de toutes vos données dans le nuanceur. Dans un scénario réaliste, cinq est le nombre recommandé de mémoires tampons constantes à utiliser. Le partage de mémoires tampons constantes entre les nuanceurs (en liant le même CB aux VS et PS) peut également améliorer les performances.
+  - question: Y a-t-il un coût pour la liaison de mémoires tampons constantes sans les utiliser ?
+    answer: >
+      Oui, si vous ne prévoyez pas d’utiliser la mémoire tampon, n’appelez pas VSSetConsantBuffer ou PSSetConstantBuffer. Cette surcharge d’API supplémentaire peut être ajoutée au cours de plusieurs appels de dessin.
+- name: État
+  questions:
+  - question: Quelle est la meilleure façon de gérer l’État dans D3D10 ?
+    answer: >
+      La meilleure solution consiste à connaître l’ensemble de votre état en amont et à créer les objets d’État en amont. Cela signifie qu’au moment du rendu, la liaison d’État est la seule opération qui doit se produire. D3D10 filtre également les doublons.
+  - question: Mon jeu a été chargé dynamiquement ou possède du contenu généré par l’utilisateur. Je ne peux pas charger tous mes objets d’État en amont. Que dois-je faire ?
+    answer: >
+      Il existe deux solutions ici. La première consiste à créer des objets d’État à la volée et à laisser D3D10 filtrer les doublons. Toutefois, cela n’est pas recommandé pour les scénarios avec de nombreuses modifications d’objets d’État par frame. Une meilleure solution consiste à hacher les objets d’État vous-même et à créer un objet d’état uniquement s’il est introuvable dans la table de hachage. Le raisonnement derrière l’utilisation d’une table de hachage personnalisée est qu’une application peut sélectionner un hachage rapide basé sur le scénario d’utilisation spécifique à cette application. Par exemple, si une application modifie uniquement le rendertargetwritemask dans le BlendState et conserve toutes les autres valeurs de la même façon, l’application peut générer un hachage à partir du rendertargetwritemask au lieu de la structure entière.
+  - question: L’état de AlphaTest a disparu. Où se trouve-t-il ?
+    answer: >
+      AlphaTest doit maintenant avoir des performances dans le nuanceur. Consultez l’exemple FixedFuncEMU.
+  - question: Qu’est-il arrivé aux plans de clip utilisateur ?
+    answer: >
+      Les plans de clip utilisateur ont été déplacés dans le nuanceur. Il existe deux façons de gérer cela. La première consiste à générer une sortie \_ de SV ClipDistance à partir du nuanceur de sommets ou du nuanceur de géométrie. L’autre option consiste à utiliser ignorer dans le nuanceur de pixels en fonction d’une valeur passée par le nuanceur de sommets ou le nuanceur de géométrie. Expérimentez les deux pour voir qui est plus rapide pour votre scénario particulier. L’utilisation de SV \_ ClipDistance peut entraîner l’utilisation par le matériel d’une routine de découpage basée sur la géométrie qui peut entraîner des appels de dessin liés à la géométrie pour s’exécuter plus lentement. De même, l’utilisation de l’opération ignorer déplace le travail vers le nuanceur de pixels, ce qui peut ralentir l’exécution des appels de dessin liés aux pixels.
+  - question: Efface ne respecte pas les paramètres d’État, tels que les paramètres des rectangles ciseaux dans mon état de rastériseur.
+    answer: >
+      Les effacs ont été séparés de l’état du pipeline. Pour obtenir un comportement de style D3D9, émule les effaces en dessinant un quadruple écran plein écran.
+  - question: Je définis mes États sur par défaut pour essayer et diagnostiquer une erreur de rendu. À présent, mon écran affiche le noir, bien que je sache que je dessine des objets sur l’écran.
+    answer: >
+      Lors de la définition de l’État sur les valeurs par défaut (NULL), assurez-vous que le SampleMask dans l’appel à OMSetBlendState n’est jamais égal à zéro. Si SampleMask a la valeur zéro, tous les échantillons sont logiquement et avec zéro. Dans ce scénario, aucun échantillon ne passera le test Blend.
+  - question: Où se trouvait l’État D3DSAMP\SRGBTEXTURE ?
+    answer: >
+      SRVB a été supprimé dans le cadre de l’état de l’échantillonneur et est maintenant lié au format de texture. La liaison d’une texture sRVB aura pour résultat le même échantillonnage que celui obtenu si vous avez spécifié D3DSAMP \_ SRGBTEXTURE dans Direct3D 9.
+- name: Formats
+  questions:
+  - question: Quel format D3D9 correspond au format D3D10 ?
+    answer: >
+      Pour plus d’informations, consultez [considérations relatives à Direct3D 9 vers Direct3D 10](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations).
+  - question: Qu’est-il arrivé aux formats de texture A8R8G8B8 ?
+    answer: >
+      Ils ont été dépréciés dans D3D10. Vous pouvez resourcer vos Textures en tant que R8G8B8A8, ou vous pouvez Swizzle au chargement, ou vous pouvez Swizzle dans le nuanceur.
+  - question: Comment faire utiliser des textures en palette ?
+    answer: >
+      Placez votre palette de couleurs dans une texture ou dans une mémoire tampon constante et liez-la au pipeline. Dans le nuanceur de pixels, effectuez une recherche indirecte à l’aide de l’index dans votre texture en palette.
+  - question: Quels sont ces nouveaux formats sRVB ?
+    answer: >
+      SRVB a été supprimé dans le cadre de l’état de l’échantillonneur et est maintenant lié au format de texture. La liaison d’une texture sRVB aura pour résultat le même échantillonnage que celui obtenu si vous avez spécifié D3DSAMP \_ SRGBTEXTURE dans Direct3D 9.
+  - question: Où les fans de triangle ont-ils atteint ?
+    answer: >
+      Les ventilateurs triangulaires ont été dépréciés dans D3D10. Les ventilateurs à triangle doivent être convertis dans le pipeline de contenu ou lors du chargement.
+- name: Liaison de nuanceur
+  questions:
+  - question: Mes nuanceurs Direct3D 9 se compilent correctement avec le modèle de nuanceur 4,0, mais lorsque je les lie au pipeline, j’obtiens des erreurs de liaison qui s’affichent dans la sortie de débogage avec le runtime de débogage.
+    answer: >
+      La liaison de nuanceur est plus stricte dans D3D10. Les éléments d’une étape suivante doivent être lus dans l’ordre dans lequel ils sont générés à partir de l’étape précédente. Par exemple :
+
+
+      Un nuanceur de sommets génère :
+
+
+      ``` syntax
+          float4 Pos  : SV_POSITION;
+          float3 Norm : NORMAL;
+          float2 Tex  : TEXCOORD0;
+      ```
+
+
+      Un nuanceur de pixels lit les éléments suivants :
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+      ```
+
+
+      Même si la position n’est pas nécessaire dans le nuanceur de pixels, cela provoque une erreur de liaison, car la position est la sortie du nuanceur de sommets, mais elle n’est pas lue par le nuanceur de pixels. La version la plus correcte ressemble à ceci :
+
+
+      Un nuanceur de sommets génère :
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+              float4 Pos  : SV_POSITION;
+      ```
+
+
+      Un nuanceur de pixels lit les éléments suivants :
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+      ```
+
+
+      Dans ce cas, le nuanceur de sommets génère les mêmes informations, mais maintenant le nuanceur de pixels lit les éléments dans la sortie de commande. Étant donné que le nuanceur de pixels ne lit rien après Tex, nous n’avons pas à vous soucier de la génération d’informations supplémentaires par rapport à la lecture de PS.
+  - question: J’ai besoin d’une signature de nuanceur pour créer une disposition d’entrée, mais je charge mes maillages et je crée des dispositions avant de créer des nuanceurs. Que faire ?
+    answer: >
+      Une solution consiste à changer l’ordre et à charger les nuanceurs avant de charger les maillages. Toutefois, c’est beaucoup plus facile à dire qu’à faire. Vous pouvez toujours créer les dispositions d’entrée à la demande lorsque l’application l’exige. Vous devez conserver une version de la signature du nuanceur. Vous devez créer un hachage basé sur la disposition du nuanceur et de la mémoire tampon, et créer uniquement la disposition d’entrée si celle qui correspond n’existe pas déjà.
+- name: Appels de dessin
+  questions:
+  - question: Quelle est la limite des appels de dessin pour D3D10 pour atteindre 60 Hz ? 30 Hz ?
+    answer: >
+      Direct3D 9 avait une limitation du nombre d’appels de dessin en raison du coût de l’UC par appel de dessin. Sur Direct3D 10, le coût de chaque appel de dessin a été réduit. Toutefois, il n’existe plus de corrélation définie entre les appels de dessin et les fréquences d’images. Étant donné que les appels de dessin requièrent souvent de nombreux appels de support (mises à jour de tampon constantes, liaisons de texture, paramètres d’État, etc.), l’impact sur la fréquence de trame de l’API est désormais plus dépendant de l’utilisation globale de l’API, contrairement au simple dessin des nombres d’appels.
+- name: Ressources
+  questions:
+  - question: Quel type d’utilisation de ressource dois-je utiliser pour quelles opérations ?
+    answer: >
+      Utilisez la feuille de triche suivante :
+
+
+      -   L’UC met à jour la ressource plusieurs fois par image : D3D10 \_ utilisation \_ dynamique
+
+      -   L’UC met à jour la ressource moins d’une fois par Frame : D3D10 \_ usage \_ default
+
+      -   L’UC ne met pas à jour la ressource : utilisation de D3D10 \_ \_ immuable
+
+      -   L’UC doit lire la ressource : D3D10 \_ usage \_ Staging
+
+
+      Étant donné que les mémoires tampons constantes sont toujours censées être mises à jour fréquemment, elles ne sont pas conformes à la « feuille de triche ». Pour connaître les types de ressources à utiliser pour les mémoires tampons constantes, consultez la section [mémoires tampons constantes](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#constant-buffers) .
+  - question: Qu’est-il arrivé à DrawPrimitiveUP et DrawIndexedPrimitiveUP ?
+    answer: >
+      Ils sont abD3D10s. Pour une géométrie dynamique, utilisez une \_ mémoire tampon dynamique de grande utilisation D3D10 \_ . Au début du frame, mappez-le avec D3D10 \_ carte d' \_ écriture \_ ignorée. Pour chaque appel de dessin suivant avance le pointeur d’écriture au-delà de la position des vertex précédemment dessinés et mappez la mémoire tampon avec la carte de D3D10 \_ \_ \_ n’écrire aucun remplacement \_ . Si vous approchez de la fin de la mémoire tampon avant la fin du frame, encapsulez le pointeur d’écriture au début et mappez avec D3D10 \_ carte d' \_ écriture \_ ignorée.
+  - question: Puis-je écrire des index 16 bits et des index 32 bits dans la même mémoire tampon de géométrie dynamique ?
+    answer: >
+      Oui, vous pouvez, mais cela peut entraîner une baisse des performances sur un certain matériel. Il est plus sûr de créer des mémoires tampons distinctes pour les données d’index 16 bits dynamiques et les données d’index 32 bits.
+  - question: Comment faire lire les données du GPU vers le processeur ?
+    answer: >
+      Vous devez utiliser une ressource intermédiaire. Copiez les données de la ressource GPU vers la ressource intermédiaire à l’aide de CopyResource. Mappez la ressource intermédiaire pour lire les données.
+  - question: Mon application dépend de la fonctionnalité StretchRect.
+    answer: >
+      Comme il s’agissait essentiellement d’un wrapper pour la fonctionnalité Direct3D de base, il a été supprimé de l’API. Certaines fonctionnalités de StretchRect ont été déplacées dans D3DX10LoadTextureFromTexture. Pour les conversions de format et la copie des textures, D3DX10LoadTextureFromTexture peut effectuer le travail. Toutefois, les opérations telles que la conversion d’une taille à une autre peuvent nécessiter un rendu pour une opération de texture dans l’application.
+  - question: Il n’existe aucun décalage ni aucune taille sur les appels de carte pour les ressources. Ils se trouvaient sur des appels de verrou sur Direct3D 9 ; Pourquoi a-t-il changé ?
+    answer: >
+      Les décalages et les tailles sur les appels de verrou sur Direct3D 9 étaient l’encombrement de l’API et sont souvent ignorés par le pilote. Les décalages doivent être calculés à la place de l’application à partir du pointeur retourné dans l’appel de carte.
+- name: Profondeur comme texture
+  questions:
+  - question: Qui est plus rapide ? Vous utilisez la profondeur comme une texture ou une profondeur d’écriture dans alpha et que vous lisez ?
+    answer: >
+      Il s’agit d’une application et d’un matériel spécifiques. Utilisez celui qui économise le plus de bande passante. Si vous utilisez déjà plusieurs cibles de rendu et que vous avez un canal supplémentaire, l’écriture de profondeur à partir du nuanceur peut être une meilleure solution. En outre, l’écriture de profondeur dans alpha ou une autre cible de rendu vous permet d’écrire des valeurs de profondeur linéaire qui peuvent accélérer les calculs qui doivent accéder à la mémoire tampon de profondeur.
+  - question: PUIS-je avoir une texture liée en tant qu’entrée et être liée comme une texture de stencil de profondeur tant que je désactive les écritures de profondeur ?
+    answer: >
+      Pas dans D3D10.
+- name: MSAA
+  questions:
+  - question: Puis-je résoudre une texture de stencil de profondeur MSAA ?
+    answer: >
+      Pas dans D3D10. Toutefois, vous pouvez échantillonner des échantillons individuels à partir de la texture MSAA. Pour plus d’informations, consultez la section [HLSL](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#hlsl) .
+  - question: Pourquoi mon application se bloque-t-elle dès que j’active MSAA ?
+    answer: >
+      Veillez à activer un nombre d’échantillons MSAA et un numéro de qualité qui sont réellement énumérés par le pilote.
+- name: Crashes
+  questions:
+  - question: Mon application se bloque dans D3D10 ou dans le pilote et je ne sais pas pourquoi.
+    answer: >
+      La première étape consiste à activer le runtime de débogage (D3D10 créer l’indicateur de [**\_ \_ \_ débogage**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) de l’appareil passé dans [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). Cela exposera les erreurs les plus courantes comme sortie de débogage.
+  - question: PIX se bloque lorsque j’essaie d’utiliser mon application avec celle-ci.
+    answer: >
+      La première étape consiste à activer le runtime de débogage (D3D10 créer l’indicateur de [**\_ \_ \_ débogage**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) de l’appareil passé dans [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)). PIX a une probabilité plus élevée de blocage si la sortie de débogage n’est pas propre.
+  - question: Mon jeu ne dispose plus de suffisamment d’espace d’adressage virtuel sur Vista 32 bits sous D3D10. Il n’y a aucun problème sur D3D9.
+    answer: >
+      Certains problèmes se sont produits avec D3D10 et l’espace d’adressage virtuel. Ce problème a été résolu dans [KB940105](https://support.microsoft.com/kb/940105). Si cela ne résout pas votre problème, assurez-vous de ne pas créer plus de ressources qui peuvent être mappées (verrouillées) dans D3D10 que dans D3D9. Pensez également au portage vers 64 bits, car cela deviendra plus répandu à l’avenir.
+- name: Rendu prédicat
+  questions:
+  - question: J’ai utilisé le rendu prédicat (en fonction des résultats d’une requête d’occlusion). Pourquoi mon application a-t-elle toujours la même vitesse ?
+    answer: >
+      Tout d’abord, assurez-vous que le rendu que vous souhaitez ignorer est en fait le goulot d’étranglement de l’application. S’il ne s’agit pas du goulot d’étranglement, le fait d’ignorer le rendu ne permet pas d’obtenir une fréquence d’images.
+
+
+      Ensuite, assurez-vous que suffisamment de temps s’est écoulé entre le problème de la requête et du rendu que vous souhaitez définir comme prédicat. Si la requête n’est pas terminée au moment où l’appel de rendu atteint le GPU, le rendu se produit tout de même.
+
+
+      Troisièmement, le prédicat ignore uniquement certains appels. Les appels ignorés sont dessiner, effacer, copier, mettre à jour, ResolveSubresource et GenerateMips. Le paramètre d’État, le programme d’installation d’IA, le mappage et les appels de création ne respectent pas la prédicat. Si un grand nombre d’appels de paramètres d’État autour de l’appel de dessin doivent être prédicats, ces États sont toujours définis.
+- name: Nuanceur de géométrie
+  questions:
+  - question: Dois-je utiliser le nuanceur Geometry pour paver mon (insérer quoi que ce soit ici) ?
+    answer: >
+      Non. Le nuanceur Geometry ne doit pas être utilisé pour le pavage.
+  - question: Puis-je utiliser le nuanceur Geometry pour créer une géométrie ?
+    answer: >
+      Oui, dans des scénarios très limités. Le nuanceur Geometry des parties D3D10 actuelles (2008) n’est pas conçu pour gérer une grande expansion. Cela peut changer à l’avenir. Les fournisseurs de cartes vidéo peuvent avoir un chemin d’accès spécial pour quatre expansions en raison d’un matériel de point-Sprite existant. Toute autre expansion devrait être très limitée. Les exemples ParticlesGS et PipesGS permettent d’obtenir des fréquences d’images élevées en n’ayant qu’une expansion limitée. Seuls quelques points sont développés par frame.
+  - question: À quoi dois-je utiliser le nuanceur Geometry ?
+    answer: >
+      Tout ce qui nécessite des opérations sur une primitive entière, comme la détection silhouette, les coordonnées Barycentric, etc. Vous pouvez également l’utiliser pour sélectionner le secteur d’un tableau cible de rendu auquel envoyer les primitives.
+  - question: Puis-je générer des quantités variables de géométrie à partir du nuanceur Geometry ?
+    answer: >
+      Oui, mais cela peut entraîner des problèmes de performances. Prenons l’exemple de la génération d’un point 1 pour un appel et de 4 points pour un autre. En cas de montage dans les règles de développement, cela peut entraîner l’exécution en série des threads du nuanceur Geometry.
+  - question: Comment D3D10 sait-il comment générer des index d’adjacence pour ma maille ? Ou bien, pourquoi D3D10 ne s’affiche pas correctement lorsque je spécifie que le nuanceur Geometry a besoin d’informations d’adjacence.
+    answer: >
+      Les informations d’adjacence ne sont pas créées par D3D10, mais par l’application. Les index d’adjacence sont générés par l’application et doivent contenir six index par primitive ; Parmi les six, les index impairs sont les vertex adjacents du bord. ID3DX10Mesh :: GenerateAdjacencyAndPointsReps peut être utilisé pour générer ces données.
+- name: HLSL
+  questions:
+  - question: Les instructions d’entiers et de bits sont-elles lentes ?
+    answer: >
+      Ils peuvent être. Diverses cartes D3D10 peuvent uniquement être en mesure d’émettre des opérations d’entiers sur un sous-ensemble des unités ALU disponibles. Cela dépend fortement du matériel. Pour obtenir des recommandations sur la façon d’effectuer des opérations sur les entiers sur ce matériel particulier, consultez le fournisseur de votre matériel. En outre, veillez à effectuer des casts entre les types.
+  - question: Qu’est-il arrivé à VPOS ?
+    answer: >
+      Si vous déclarez une entrée à votre nuanceur de pixels comme position de SV \_ , vous obtiendrez le même comportement que le déclarer comme VPOS.
+  - question: Comment faire un exemple de texture MSAA ?
+    answer: >
+      Dans votre nuanceur, déclarez votre texture comme Texture2DMS. Vous pouvez ensuite extraire des exemples individuels à l’aide des exemples de méthodes de l’objet Texture2DMS.
+  - question: Comment faire indiquer si une variable de nuanceur dans une mémoire tampon constante est réellement utilisée ?
+    answer: >
+      Examinez le \_ \_ struct Description variable de nuanceur D3D10 réfléchi \_ pour cette variable. uFlags doit avoir l' \_ indicateur D3D10 SVF \_ utilisé défini.
+  - question: Comment faire indiquer si une variable de nuanceur dans une mémoire tampon constante utilise réellement FX10 ?
+    answer: >
+      Cela n’est pas possible actuellement avec FX10.
+  - question: Je n’ai aucun contrôle sur les mémoires tampons constantes créées par FX10. Comment sont-ils créés et mis à jour ?
+    answer: >
+      Toutes les mémoires tampons constantes gérées par FX10 sont créées en tant que \_ \_ ressources par défaut d’utilisation D3D10 et sont mises à jour à l’aide de UpdateSubresource. Étant donné que FX10 conserve un magasin de stockage de toutes les données constantes, UpdateSubresource est la meilleure approche pour les mettre à jour.
+  - question: Comment faire émuler le pipeline de fonction fixe à l’aide de nuanceurs ?
+    answer: >
+      Consultez l’exemple FixedFuncEMU.
+  - question: Dois-je utiliser les nouveaux \[ \] indicateurs de compilation, de boucle, de \[ \] \[ branche \] , etc. ?
+    answer: >
+      En général, non. Le compilateur essaiera souvent les deux façons et choisissez le plus rapide. Dans certains cas, il peut être nécessaire d’utiliser la \[ désroll \] , par exemple, lorsqu’une extraction de texture à l’intérieur d’une boucle a besoin d’accéder à un dégradé.
+  - question: La précision partielle fait-elle une différence sur les D3D10 ? Je peux spécifier une précision partielle dans mon D3D9 HLSL, mais pas dans mon D3D10 HLSL.
+    answer: >
+      Toutes les opérations D3D10 sont spécifiées pour s’exécuter à la précision à virgule flottante 32 bits. Par conséquent, la précision partielle ne doit pas faire de différence dans D3D10.
+  - question: Dans D3D9, il serait possible de procéder à un filtrage instantané PCF en liant une mémoire tampon de profondeur comme texture et en utilisant les instructions standard tex2d HLSL. Comment faire le faire sur D3D10 ?
+    answer: >
+      Vous devez utiliser un état d’échantillonnage de comparaison et utiliser des instructions SampleCmp.
+  - question: Comment ce mot clé Register fonctionne-t-il dans D3D10 ?
+    answer: >
+      Le mot clé Register dans D3D10 s’applique désormais à l’emplacement auquel une ressource particulière est liée. Dans ce cas, la ressource peut être une mémoire tampon (constante ou autre), une texture ou un échantillonneur.
+
+
+      -   Pour les mémoires tampons constantes, utilisez la syntaxe suivante : Register (-), où N est l’emplacement d’entrée (0-15)
+
+      -   Pour les textures, utilisez la syntaxe : Register (tN), où N est l’emplacement d’entrée (0-127)
+
+      -   Pour les échantillonneurs, utilisez la syntaxe suivante : Register (sN), où N est l’emplacement d’entrée (0-127)
+  - question: Comment faire placer une variable à l’intérieur d’une mémoire tampon constante si le Registre est simplement utilisé pour spécifier l’emplacement de la liaison de la mémoire tampon entière ?
+    answer: >
+      Utilisez le mot clé packoffset. L’argument de packoffset se présente sous la forme c \[ 0-4095 \] . \[ x, y, z, w \] . Par exemple :
+
+
+      ``` syntax
+              cbuffer cbLotsOfEmptySpace
+              {
+              float   IWaste2Floats   : packoffset(c0.z);
+              float4  IWasteMore  : packoffset(c13);
+              };
+      ```
+
+
+      Dans ce tampon de constante, IWaste2Floats est placé au troisième float (douzième octet) dans la mémoire tampon constante. IWasteMore est placé au 13e float4 ou 52nd float dans la mémoire tampon constante.

@@ -4,12 +4,12 @@ ms.assetid: 15E8FF6F-AD8C-436F-B3C0-5062B1F86E32
 title: CODECAPI_AVLowLatencyMode, propriété (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f159045f6b40d531495338b1598c214926a59612
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5be7e23a29e9dd5f88f7a96e6c32fd42b68a7204
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517211"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826903"
 ---
 # <a name="codecapi_avlowlatencymode-property"></a>CODECAPI \_ propriété AVLowLatencyMode
 
@@ -27,7 +27,7 @@ Active le mode faible latence dans un codec.
 
 Si la valeur est différente de zéro, le mode faible latence est activé. Si la valeur est égale à zéro, le mode de latence faible est désactivé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété s’applique aux encodeurs et aux décodeurs.
 
@@ -35,11 +35,14 @@ Le mode de faible latence est utile pour les communications en temps réel ou la
 
 L’encodeur est supposé ne pas ajouter de délai d’échantillonnage en raison de la réorganisation des frames dans le processus d’encodage, et un exemple d’entrée produira un échantillon de sortie. Les secteurs/frames B peuvent être présents tant qu’ils n’introduisent pas de réordonnancement de frame dans l’encodeur.
 
-## <a name="requirements"></a>Configuration requise
+> [!WARNING] 
+> Dans l’implémentation actuelle, le Media Foundation décodeur H. 264 utilise le type **VT_UI4** pour cette propriété. Toutes les autres implémentations, y compris l’encodeur H. 264, utilisent le type **VT_BOOL**.
+
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Applications Windows 8 \[ Desktop Apps \| UWP\]<br/>                                     |
 | Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ \| apps UWP\]<br/>                           |

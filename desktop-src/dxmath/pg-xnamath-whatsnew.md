@@ -4,16 +4,16 @@ ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: Nouveautés (DirectXMath)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb9fa8c7ee0600ce0b0fa5eade3a3e111e5edbe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df1e7f25789ca6f58205ce9f45482e0a49540d1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527789"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827625"
 ---
 # <a name="whats-new-directxmath"></a>Nouveautés (DirectXMath)
 
-La bibliothèque DirectXMath est basée sur la [bibliothèque XNA Math C++ SIMD version 2,04](https://walbourn.github.io/). Ici, nous décrivons comment DirectXMath diffère de XNA Math et comment les versions de DirectXMath diffèrent.
+La bibliothèque DirectXMath est basée sur la [bibliothèque XNA Math C++ SIMD version 2,04](https://walbourn.github.io/xna-math-version-2-04/). Ici, nous décrivons comment DirectXMath diffère de XNA Math et comment les versions de DirectXMath diffèrent.
 
 -   [Historique Rlease](#release-history)
 -   [DirectXMath les différences par rapport à XNA Math](#directxmath-differences-from-xna-math)
@@ -22,6 +22,9 @@ La bibliothèque DirectXMath est basée sur la [bibliothèque XNA Math C++ SIMD 
 ## <a name="release-history"></a>Historique des mises en production
 
 <table>
+ <tr>
+  <td>SDK Windows 10 (20348), version 2104</td><td>DirectXMath 3,16</td>
+ </td>
  <tr>
   <td>Kit de développement logiciel de mise à jour Windows 10 2020</td><td>DirectXMath 3,14</td>
  </tr>
