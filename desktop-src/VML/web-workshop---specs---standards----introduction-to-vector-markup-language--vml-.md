@@ -15,12 +15,12 @@ keywords:
 - VML (langage VML), avantages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ba51fd041f36915eaafe20201876653f597e04
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 4637fff0550ce9c93e295c51fc529f62c370b8aa
+ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106525781"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111910260"
 ---
 # <a name="vector-markup-language-vml"></a>Langage VML (VML)
 
@@ -72,7 +72,7 @@ Enfin, ajoutez des éléments VML pour définir des effets visuels. Par exemple,
 
 Consultez les liens ci-dessous :
 
--   Pour obtenir des réponses aux questions fréquemment posées sur VML, consultez le [FAQ VML](frequently-asked-questions-about-vml.md).
+-   Pour obtenir des réponses aux questions fréquemment posées sur VML, consultez le [FAQ VML](frequently-asked-questions-about-vml.yml).
 -   Pour obtenir un didacticiel sur l’utilisation de VML sur les pages Web, consultez [comment utiliser VML sur des pages Web](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md), qui complète la [spécification VML](https://www.w3.org/TR/NOTE-datetime.html) soumise au W3C.
 -   Pour plus d’informations sur les types de données VML, consultez le document [types VML de base](basic-vml-types.md) .
 -   Pour obtenir une référence complète sur VML, y compris des informations sur l’utilisation de VML avec les balises et les scripts, consultez la [référence VML](msdn-online-vml-introduction.md).
