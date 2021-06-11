@@ -1,14 +1,14 @@
 ---
-description: Vue d’ensemble des fonctionnalités d’accessibilité de Windows que vous pouvez incorporer dans votre infrastructure d’interface utilisateur.
+description: En savoir plus sur le développement d’infrastructures d’interface utilisateur accessibles pour Windows grâce à cette vue d’ensemble des fonctionnalités d’accessibilité de Windows que vous pouvez incorporer dans votre infrastructure d’interface utilisateur.
 title: Développement d’infrastructures d’interface utilisateur accessibles pour Windows
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: 9083bdb8b9c7ab9dd7dd30c675a72fafa4c065c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d18881913b2a366f086e45473e0f67e57ead66a2
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111463"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988844"
 ---
 # <a name="developing-accessible-ui-frameworks-for-windows"></a>Développement d’infrastructures d’interface utilisateur accessibles pour Windows
 
@@ -16,7 +16,7 @@ Pour être utilisables par le plus grand nombre de personnes possible, les infra
 
 Cette vue d’ensemble décrit comment créer une infrastructure d’interface utilisateur qui prend en charge des fonctionnalités telles que l’accès par programme et l’automatisation, la navigation au clavier et les commandes, les options de couleur et de thème et la personnalisation via les paramètres utilisateur.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 - [UI Automation pour Win32](/windows/desktop/winauto/entry-uiauto-win32)
 - [Accessibilité du clavier](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)

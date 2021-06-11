@@ -1,6 +1,6 @@
 ---
 title: Élément IdentityPrivacy (PeapExtensionsType)
-description: Indique si l’identité réelle d’un utilisateur ou une identité anonyme est envoyée. | Élément IdentityPrivacy (PeapExtensionsType)
+description: L’élément IdentityPrivacy (PeapExtensionsType) indique si l’identité réelle d’un utilisateur est envoyée dans le schéma mspeapconnectionpropertiesv2.
 ms.assetid: 57b8747e-6919-4243-a379-3a85c4a2023a
 keywords:
 - Élément IdentityPrivacy EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2701352ee0e192dfd2d33fc2647b9ec6df96dd5c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d0a23ce28a1a807bb948c114435463102561570b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104530645"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988945"
 ---
 # <a name="the-identityprivacy-peapextensionstype-element"></a>Élément IdentityPrivacy (PeapExtensionsType)
 
@@ -33,15 +33,15 @@ L’élément **IdentityPrivacy (PeapExtensionsType)** indique si l’identité 
 
 L’élément **IdentityPrivacy** est défini par l’élément [**PeapExtensionsType**](mspeapconnectionpropertiesv1schema-peapextensionstype-complextype.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’élément **IdentityPrivacy** est facultatif.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|---------------------------------------------------------|
 | Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
 | Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |

@@ -1,15 +1,15 @@
 ---
-description: Dans Windows Vista et versions ultérieures, les métadonnées sont devenues centrales comme une méthode d’organisation d’éléments tels que des fichiers, des messages électroniques ou des contacts.
+description: Découvrez comment créer un gestionnaire de propriétés qui lit et écrit des propriétés vers et à partir d’un flux de fichier. Chaque gestionnaire est associé à un type de fichier donné.
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Implémentation de gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcef615ce1ebb5041d79dd9c6ccf8cf129d189aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf37ae37e43ce14cf69bec44e7f210b32373d38e
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203855"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989264"
 ---
 # <a name="implementing-property-handlers"></a>Implémentation de gestionnaires de propriétés
 

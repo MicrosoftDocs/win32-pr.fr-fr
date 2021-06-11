@@ -1,15 +1,15 @@
 ---
-description: Obtention d’un pointeur vers l’objet lecteur
+description: En savoir plus sur l’obtention d’un pointeur vers l’objet lecteur du kit de développement logiciel (SDK) Windows Media format à l’aide de l’interface IWMReaderAdvanced2 dans DirectShow.
 ms.assetid: d1292e2f-bd0e-4961-a6fa-8cdaeb28b692
 title: Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3be22a22581c8f262ac4c6898271ebccb53a0e4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e131b9e111aa5e779d1208b68e04c9979e3b1d7f
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745597"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989105"
 ---
 # <a name="obtaining-a-pointer-to-the-reader-object-directshow"></a>Obtention d’un pointeur vers l’objet lecteur (DirectShow)
 

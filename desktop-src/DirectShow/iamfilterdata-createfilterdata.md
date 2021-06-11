@@ -1,5 +1,5 @@
 ---
-description: Notez que cette interface est dépréciée.
+description: 'En savoir plus sur la méthode IAMFilterData :: CreateFilterData, qui crée des données de Registre binaires pour un filtre. Cette interface a été déconseillée.'
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: 'IAMFilterData :: CreateFilterData, méthode (fil \_ Data. h)'
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 4c83f19de8e709f9890b23957f730fbbac12dd7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540242"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989454"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>IAMFilterData :: CreateFilterData, méthode
 
@@ -69,18 +69,18 @@ Pointeur vers une variable qui reçoit la taille des données binaires, en octet
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d'échec, retourne un code d'erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > L’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

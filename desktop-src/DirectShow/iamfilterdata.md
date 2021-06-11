@@ -1,5 +1,5 @@
 ---
-description: Notez que cette interface est dépréciée.
+description: En savoir plus sur l’interface IAMFilterData, qui convertit les informations de filtre en données binaires compressées. Cette interface a été déconseillée.
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: Interface IAMFilterData (fil \_ Data. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - fil_data.h
-ms.openlocfilehash: 1ab5ea8e9c90c043c33cca4d9f8138dd7d9937ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e43e0f16ddfdee596f0dc6bd736ed86fc6fa37d
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543600"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989434"
 ---
 # <a name="iamfilterdata-interface"></a>Interface IAMFilterData
 
@@ -50,14 +50,14 @@ L’interface **IAMFilterData** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > L’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

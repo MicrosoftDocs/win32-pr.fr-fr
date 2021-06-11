@@ -1,15 +1,15 @@
 ---
-description: Exemples de supports
+description: En savoir plus sur les exemples de média dans Microsoft Media Foundation. Un exemple de média est un objet qui contient une liste triée de zéro ou plusieurs mémoires tampons.
 ms.assetid: 14389eea-8091-4c10-849e-53db3e98a7c8
 title: Exemples de supports (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e10df770f0edcdcb329cf8d2bda3d3dc46acbf6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ef5d29b11fb6db316e3fbf6e33e24218ddbbf062
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953417"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989154"
 ---
 # <a name="media-samples-microsoft-media-foundation"></a>Exemples de supports (Microsoft Media Foundation)
 

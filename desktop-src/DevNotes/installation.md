@@ -1,19 +1,19 @@
 ---
-description: Installation
+description: Cet article contient des liens vers des articles d’installation dans les notes du développeur. Utilisez ces articles pour installer des composants.
 ms.assetid: 02A7866F-0F72-4437-A882-EEE9C2E28EC7
 title: Installation (remarques pour les développeurs)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51ddb476b6688bbbbef27eab571e3219071656a8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47597613da49fdffb3cb0b70b09dfb490e021cad
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861446"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989274"
 ---
 # <a name="installation-developer-notes"></a>Installation (remarques pour les développeurs)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [**Coinstallation**](/windows/win32/api/objbase/nf-objbase-coinstall)
 -   [**IcfgInstallInetComponents**](icfginstallinetcomponents.md)

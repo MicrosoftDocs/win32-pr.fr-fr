@@ -1,17 +1,17 @@
 ---
 title: Informations légales (OpenGL)
-description: Les informations contenues dans ce document, y compris les adresses URL et les autres références à des sites Internet, pourront faire l'objet de modifications sans préavis.
+description: Cet article fournit des informations juridiques sur OpenGL, y compris des informations sur les droits d’auteur et les marques.
 ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
 keywords:
 - OpenGL, informations légales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9574ebb1db0dd212f3ab6de270ae4f87a1bcb232
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3a41d5cfbe3d14b57d2d71312736f4006f08c7f8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106539004"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988914"
 ---
 # <a name="legal-information-opengl"></a>Informations légales (OpenGL)
 

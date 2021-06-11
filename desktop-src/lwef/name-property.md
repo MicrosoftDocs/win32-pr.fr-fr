@@ -1,15 +1,15 @@
 ---
 title: Propriété Name (objet Characters)
-description: Propriété Name
+description: En savoir plus sur la propriété Name de l’objet Characters. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: vs|msagent|~\pacontrol_2bxm.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6e7b4a8872952cce0ae68445ec22a5599891674
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7365550d5d4d4071cf4292e505f16e7047628cf1
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464055"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989324"
 ---
 # <a name="name-property-characters-object"></a>Propriété Name (objet Characters)
 
@@ -41,7 +41,7 @@ Retourne ou définit une chaîne qui spécifie le nom par défaut du caractère 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **nom** d’un caractère peut dépendre du paramètre [**LanguageID**](languageid-property.md) du caractère. Le nom d’un caractère dans une langue peut être différent ou utiliser des caractères différents de ceux d’un autre langage. Le **nom** par défaut du caractère pour une langue spécifique est défini lorsque le caractère est compilé à l’aide de l’éditeur de caractères Microsoft Agent.
 

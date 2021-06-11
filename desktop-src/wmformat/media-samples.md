@@ -1,6 +1,6 @@
 ---
 title: Exemples de supports (SDK Windows Media format 11)
-description: Exemples de supports
+description: Découvrez les exemples de supports dans le kit de développement logiciel (SDK) Windows Media format 11. Un exemple de média est un objet qui contient une liste triée de zéro ou plusieurs mémoires tampons.
 ms.assetid: 5fe0d261-c4a8-4b8e-b5dd-668ce067723c
 keywords:
 - Windows Media Format SDK, exemples de supports
@@ -11,12 +11,12 @@ keywords:
 - ASF (format avancé des systèmes), exemples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d46a933775877f4566115ba3936c0f9f8bd7b3
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6b8d264aa23e80f1e692f28789c2f2e631ef3ed8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941610"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989070"
 ---
 # <a name="media-samples-windows-media-format-11-sdk"></a>Exemples de supports (SDK Windows Media format 11)
 

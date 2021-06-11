@@ -1,15 +1,15 @@
 ---
 title: Propriété Name (contrôle Agent)
-description: Propriété Name
+description: En savoir plus sur la propriété Name du contrôle de l’agent. Cette propriété est en lecture seule au moment de l’exécution. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 304dc611c8252d61e4ea052ccffff4f360e7e7e8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 72d4afe24b443117dbdcbdb408f73a2f34068a2b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103941614"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989374"
 ---
 # <a name="name-property-agent-control"></a>Propriété Name (contrôle Agent)
 
@@ -31,7 +31,7 @@ Retourne le nom utilisé dans le code pour identifier le contrôle. Cette propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans certains environnements de programmation tels que Visual Basic, l’ajout du contrôle génère automatiquement un nom par défaut pour le contrôle qui peut être modifié au moment du Design. Pour les scripts HTML, vous pouvez définir le nom dans la <OBJECT> balise. Si vous définissez le nom, suivez les conventions du langage de programmation pour la définition des noms d’objets.
 

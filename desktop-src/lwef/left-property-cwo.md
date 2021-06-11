@@ -1,15 +1,15 @@
 ---
 title: Propriété Left (objet CommandsWindow)
-description: Propriété Left
+description: En savoir plus sur la propriété de l’objet CommandsWindow de gauche. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 03786379-42c2-4f54-99cc-1dc120c45858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0db50ebeb2d714d85d8c42a813aad61f2cd1acda
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9fdcbb8cb39b2c07120ecab2b4da5da99d55b78f
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106512538"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989044"
 ---
 # <a name="left-property-commandswindow-object"></a>Propriété Left (objet CommandsWindow)
 
@@ -31,7 +31,7 @@ Retourne une valeur entière spécifiant le bord gauche, en pixels, de la fenêt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le serveur affiche la fenêtre commandes vocales en fonction de la position et de la taille définies par l’utilisateur.
 

@@ -1,15 +1,15 @@
 ---
-description: Au fil du temps, différentes versions de TAPI, d’applications et de fournisseurs de services peuvent être générées.
+description: En savoir plus sur le contrôle de version TSPI. Au fil du temps, différentes versions de TAPI, d’applications et de fournisseurs de services peuvent être générées.
 ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: Contrôle de version TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe405a629ddc64f76535b33554509b1a6fca81d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e0a0663a1fcc685df8643c634ec627f669aafe8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526812"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989234"
 ---
 # <a name="tspi-versioning"></a>Contrôle de version TSPI
 

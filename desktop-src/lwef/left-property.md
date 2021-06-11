@@ -1,15 +1,15 @@
 ---
 title: Propriété Left (objet Characters)
-description: Propriété Left
+description: En savoir plus sur la propriété de l’objet Characters de gauche. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a318e659405883c56f296a9371eba7e9423662b1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2e2f860e6827a9c96c42014456e43b791ab70ed4
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106509497"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988935"
 ---
 # <a name="left-property-characters-object"></a>Propriété Left (objet Characters)
 
@@ -41,7 +41,7 @@ Retourne ou définit le bord gauche du cadre du caractère spécifié.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **Left** est toujours exprimée en pixels, par rapport à l’origine de l’écran (en haut à gauche). Le paramètre de cette propriété s’applique à tous les clients du caractère.
 

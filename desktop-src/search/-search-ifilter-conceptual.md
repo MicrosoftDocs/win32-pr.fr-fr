@@ -1,15 +1,15 @@
 ---
-description: Microsoft Windows Search utilise des filtres pour extraire le contenu des éléments à inclure dans un index de recherche en texte intégral.
+description: Découvrez comment développer des gestionnaires de filtres dans la recherche Windows. La recherche utilise des filtres pour extraire les éléments à inclure dans un index de recherche en texte intégral.
 ms.assetid: 7b24986b-972d-4674-846b-f856b908edf4
 title: Développement de gestionnaires de filtres pour Windows Search
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab8f45892549dc3f392824c31c78884b209d283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa86c0a1e41ababf6f00db72a26784beb93e1879
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033883"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988858"
 ---
 # <a name="developing-filter-handlers-for-windows-search"></a>Développement de gestionnaires de filtres pour Windows Search
 

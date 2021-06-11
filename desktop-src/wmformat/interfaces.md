@@ -1,6 +1,6 @@
 ---
 title: Interfaces du SDK du format Windows Media
-description: Interfaces
+description: Découvrez les interfaces prises en charge par le kit de développement logiciel (SDK) du format Windows Media et leurs relations aux objets et autres interfaces.
 ms.assetid: c61a0739-09f2-497f-a2cd-d3f2472738e3
 keywords:
 - Windows Media Format SDK, interfaces
@@ -8,12 +8,12 @@ keywords:
 - ASF (format des systèmes avancés), interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49610d4b7664e6ef9f5259300cca720b62fc2bc
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a21cb5c82855b75d3acfb20c4368d8dffa65dc30
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739356"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989085"
 ---
 # <a name="windows-media-format-sdk-interfaces"></a>Interfaces du SDK du format Windows Media
 
@@ -236,7 +236,7 @@ Le tableau suivant montre l’héritage de chaque interface et les objets à par
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’identificateur d’interface de chacune des interfaces dans ce kit de développement logiciel (SDK) est le nom de l’interface précédée de « IID \_ ». Par exemple, l’identificateur de l’interface **IWMReaderAdvanced** est IID \_ IWMReaderAdvanced. Pour obtenir un pointeur vers l’interface **IWMReaderAdvanced** d’un objet lecteur, utilisez le code suivant, où *pReader* est un pointeur vers une interface **IWMReader** :
 

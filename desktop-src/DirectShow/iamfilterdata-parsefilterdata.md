@@ -1,5 +1,5 @@
 ---
-description: Notez que cette interface est dépréciée.
+description: En savoir plus sur la méthode IAMFilterData ::P arseFilterData, décompresse les données de Registre binaires pour un filtre. Cette interface a été déconseillée.
 ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
 title: IAMFilterData ::P méthode arseFilterData (fil \_ Data. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 18e1367813adff6b0debdfb698644731668bfc5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9560280fa6f16699af907cdb5cf682b9c4bb1277
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542529"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989444"
 ---
 # <a name="iamfilterdataparsefilterdata-method"></a>IAMFilterData ::P méthode arseFilterData
 
@@ -69,18 +69,18 @@ Adresse d’une variable qui reçoit un pointeur vers les données décompressé
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d'échec, retourne un code d'erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > L’en-tête de \_ données. h se trouve dans le répertoire de l' [exemple du mappeur](mapper-sample.md) dans le SDK Windows.
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
