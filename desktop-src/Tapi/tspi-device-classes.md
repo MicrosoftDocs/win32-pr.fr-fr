@@ -1,15 +1,15 @@
 ---
-description: Une classe d’appareils est un groupe de périphériques physiques ou de pilotes de périphérique associés par le biais desquels les applications envoient et reçoivent les informations ou les données qui constituent un appel.
+description: En savoir plus sur les classes d’appareils TSPI. Une classe d’appareils est un groupe d’appareils ou de pilotes de périphérique par le biais duquel les applications envoient et reçoivent des informations ou des données d’appel.
 ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: Classes d’appareils TSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10392487657e8190052546605c54bed8cc0ccf4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6775e73df3914339edbdf791659de821855864dd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320837"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011342"
 ---
 # <a name="tspi-device-classes"></a>Classes d’appareils TSPI
 

@@ -1,15 +1,15 @@
 ---
 title: Enregistrements de ressources
-description: Un enregistrement de ressource, communément appelé RR, est l’unité d’entrée d’informations dans les fichiers de zone DNS. Les RR sont les blocs de construction de base des informations IP et de nom d’hôte et sont utilisés pour résoudre toutes les requêtes DNS.
+description: En savoir plus sur les enregistrements de ressources. Un enregistrement de ressource est l’unité d’entrée d’informations dans les fichiers de zone DNS, qui permet de résoudre toutes les requêtes DNS.
 ms.assetid: c64907c2-ebd3-4550-9454-13f51a6d7ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05b667b95a8ede32018e1aad7de375e77a890487
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a84bd000e2d88884bbb387748eaced1d0d58a324
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674733"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010672"
 ---
 # <a name="resource-records"></a>Enregistrements de ressources
 
@@ -41,9 +41,9 @@ Les types d’enregistrements de ressources suivants sont couramment utilisés d
 
 Il existe de nombreux autres types d’enregistrements de ressources dans DNS. Pour plus d’informations, consultez [Référence du fournisseur WMI DNS](dns-wmi-provider-reference.md).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: À propos de DirectShow (SDK Windows Media format 11)
+title: Découvrez DirectShow dans le kit de développement logiciel (SDK) Windows Media format 11, architecture de haut niveau, modulaire et extensible de diffusion de données pour la plate-forme Windows.
 description: À propos de DirectShow
 ms.assetid: 1a0b68c7-9444-4389-8d81-dc734e95634d
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - DirectShow, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd77507643edb220bc71a029779c88fe56760eae
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1a76d7c8971c452f01176be7472e313181eb2831
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032241"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011292"
 ---
 # <a name="about-directshow-windows-media-format-11-sdk"></a>À propos de DirectShow (SDK Windows Media format 11)
 

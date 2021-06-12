@@ -1,6 +1,6 @@
 ---
 title: À propos des apparences (mobiles)
-description: À propos des apparences
+description: En savoir plus sur les habillages pour les lecteurs mobiles. Une apparence est une interface utilisateur personnalisée pour Windows Media Player.
 ms.assetid: 105c11ce-705b-4a0c-8982-d0f9dd9ae3ac
 keywords:
 - Windows Media Player Mobile, Skins
@@ -10,12 +10,12 @@ keywords:
 - création d’apparences, Windows Media Player Mobile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2db0e81c45c253e3a4fe3c12d4cc97a51f4ede0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ebdffdc4075456c6cb7ccf9d1940c5253c732cd3
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317014"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011222"
 ---
 # <a name="about-skins-mobile"></a>À propos des apparences (mobiles)
 

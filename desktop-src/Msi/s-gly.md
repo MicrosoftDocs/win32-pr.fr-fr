@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre S, tels que les tables de séquences et la liste source.
 ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: S (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b183dc290ff2dec76211039bcb8b279117278dd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524106"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010882"
 ---
 # <a name="s-windows-installer"></a>S (Windows Installer)
 
@@ -55,7 +55,7 @@ Langage utilisé pour traiter les données dans une base de données relationnel
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**flux d’informations de synthèse**
 </dt> <dd>
 
-Emplacement de stockage dans le [*fichier. msi*](m-gly.md) pour les informations qui peuvent être affichées avec l’Explorateur Microsoft Windows. Pour plus d’informations, consultez [à propos du flux d’informations de synthèse](about-the-summary-information-stream.md).
+Emplacement de stockage dans le [*fichier.msi*](m-gly.md) pour obtenir des informations qui peuvent être affichées avec l’Explorateur Microsoft Windows. Pour plus d’informations, consultez [à propos du flux d’informations de synthèse](about-the-summary-information-stream.md).
 
 </dd> <dt>
 

@@ -1,15 +1,15 @@
 ---
 title: Gestion des enregistrements de ressources DNS
-description: Un enregistrement de ressource, communément appelé RR, est l’unité d’entrée d’informations dans les fichiers de zone DNS. Les RR sont les blocs de construction de base des informations IP et de nom d’hôte et sont utilisés pour résoudre toutes les requêtes DNS.
+description: En savoir plus sur la gestion des enregistrements de ressources. Un enregistrement de ressource est l’unité d’entrée d’informations dans les fichiers de zone DNS, qui permet de résoudre toutes les requêtes DNS.
 ms.assetid: ddad5f14-5a2d-4966-87b7-b354666f9e24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99edffa52b5137858468fd64122d2af826a896ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ba6c818899414cc541a1c89bfd11747051b2f5f1
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840405"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011112"
 ---
 # <a name="managing-dns-resource-records"></a>Gestion des enregistrements de ressources DNS
 
@@ -54,7 +54,7 @@ Le fournisseur WMI DNS prend actuellement en charge les types RR suivants. Cliqu
 
 
 
- 
+ 
 
 ## <a name="administration-steps"></a>Étapes d’administration
 
@@ -71,9 +71,9 @@ Les tâches suivantes sont liées aux exemples de script associés.
 -   [Suppression d’un enregistrement de ressource](dns-wmi-provider-samples-managing-dns-resource-records.md)
 -   [Modification d’un enregistrement de ressource](dns-wmi-provider-samples-managing-dns-resource-records.md)
 
- 
+ 
 
- 
+ 
 
 
 

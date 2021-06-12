@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre C, tels que fichier CAB et somme de contrôle.
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: C (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1970c8e9063657701183c91ff337d06d169914fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202545"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010922"
 ---
 # <a name="c-windows-installer"></a>C (Windows Installer)
 
@@ -20,7 +20,7 @@ ms.locfileid: "104202545"
 <span id="_msi_cabinet_file_using_windows_installer_gly"></span><span id="_MSI_CABINET_FILE_USING_WINDOWS_INSTALLER_GLY"></span>**fichier CAB**
 </dt> <dd>
 
-Fichier unique, généralement avec une extension. cab, qui stocke les fichiers compressés dans une bibliothèque de fichiers. Le format cab est un moyen efficace d’empaqueter plusieurs fichiers, car la compression est effectuée à travers les limites de fichiers, ce qui améliore considérablement le taux de compression. Pour plus d’informations sur la création d’armoires, consultez [fichiers CAB](cabinet-files.md).
+Fichier unique, généralement avec une extension de .cab, qui stocke les fichiers compressés dans une bibliothèque de fichiers. Le format cab est un moyen efficace d’empaqueter plusieurs fichiers, car la compression est effectuée à travers les limites de fichiers, ce qui améliore considérablement le taux de compression. Pour plus d’informations sur la création d’armoires, consultez [fichiers CAB](cabinet-files.md).
 
 </dd> <dt>
 

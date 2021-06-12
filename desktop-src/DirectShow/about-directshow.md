@@ -1,15 +1,15 @@
 ---
-description: À propos de DirectShow
+description: Cet article contient des liens vers des articles sur DirectShow, y compris le graphique de filtre, les notifications d’événements et d’autres rubriques.
 ms.assetid: 505c0a49-8e61-4c28-ada6-e8aa96d60a58
 title: À propos de DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55cde853cd7d0495cf90af5bb7aba54310dce3dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 572bfb704662f2628c0a5883d3fba455591e8939
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109643"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011372"
 ---
 # <a name="about-directshow-directshow"></a>À propos de DirectShow (DirectShow)
 

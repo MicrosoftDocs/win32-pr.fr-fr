@@ -1,6 +1,6 @@
 ---
 title: ps_2_x
-description: Un nuanceur de pixels programmable est constitué d’un ensemble d’instructions qui fonctionnent sur des données de pixels. Enregistre les données de transfert dans et en dehors de l’ALU. Un contrôle supplémentaire peut être appliqué pour modifier l’instruction, les résultats ou les données qui sont écrites.
+description: En savoir plus sur ps_2_x, un nuanceur de pixels programmable, qui est constitué d’un ensemble d’instructions qui s’appliquent aux données de pixels.
 ms.assetid: 06f657a9-6521-404e-b012-7c8e972e9d5c
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 13e5daf7c3a4b41e5b27b1c20f8b1f5f8355c325
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9efedc6011cb63b6465fd2d3ced4a7807c09f4da
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990976"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010872"
 ---
 # <a name="ps_2_x"></a>PS \_ 2 \_ x
 
@@ -74,6 +74,6 @@ Le nombre d’échantillonneurs de texture disponibles est 16.
 [Nuanceurs de pixels](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre U, tels que la mise à niveau et le contrôle de compte d’utilisateur.
 ms.assetid: 8dacad71-2cc3-4c9a-b5d4-d9781f4f9d51
 title: U (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d1868cd5ee335d56374e9b13ebff2b1d10a515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4609520ab7599c5202a60afd4e51834034e4ae41
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516819"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010702"
 ---
 # <a name="u-windows-installer"></a>U (Windows Installer)
 

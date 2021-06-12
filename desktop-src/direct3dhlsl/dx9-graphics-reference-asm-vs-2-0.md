@@ -1,6 +1,6 @@
 ---
 title: vs_2_0
-description: Un nuanceur de sommet programmable est constitué d’un ensemble d’instructions qui fonctionnent sur des données de vertex. Enregistre les données de transfert dans et en dehors de l’ALU. Un contrôle supplémentaire peut être appliqué pour modifier l’instruction, les résultats ou les données qui sont écrites.
+description: En savoir plus sur vs_2_0, un nuanceur de sommet programmable, qui est constitué d’un ensemble d’instructions qui fonctionnent sur des données de vertex.
 ms.assetid: 6e38c138-5f9c-40a6-9fe2-a93471c3c573
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce4e986e610ff95716cd6899d6167e4f69efe042
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe951d62b869a303a0c07839b46840dc8f9fda00
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971446"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010852"
 ---
 # <a name="vs_2_0"></a>vs \_ 2 \_ 0
 
@@ -38,9 +38,9 @@ Chaque nuanceur de sommets peut avoir jusqu’à 256 instructions stockées. Le 
 [Nuanceurs vertex](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

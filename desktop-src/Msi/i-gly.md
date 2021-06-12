@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre I, tels que importer une table d’adresses et un niveau d’installation.
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
 title: I (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca95a473f648ca9e1a08773d93f47bd198df11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e33b5cfb9c4545a5482b214e0413ab3e3d981109
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866306"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010652"
 ---
 # <a name="i-windows-installer"></a>I (Windows Installer)
 
@@ -69,7 +69,7 @@ La combinaison des droits d’installation et des types d’installation produit
 <span id="_msi_installer_database_gly"></span><span id="_MSI_INSTALLER_DATABASE_GLY"></span>**base de données du programme d’installation**
 </dt> <dd>
 
-Base de données relationnelle contenant les instructions d’installation pour une installation. La base de données du programme d’installation est stockée dans le [*fichier. msi*](m-gly.md). Pour plus d’informations, consultez [base de données du programme d’installation](installer-database.md).
+Base de données relationnelle contenant les instructions d’installation pour une installation. La base de données du programme d’installation est stockée dans le [*fichier.msi*](m-gly.md). Pour plus d’informations, consultez [base de données du programme d’installation](installer-database.md).
 
 </dd> <dt>
 
@@ -83,14 +83,14 @@ Appelée par un utilisateur ou une application pour obtenir les services et les 
 <span id="_msi_installer_package_authoring_tool_gly"></span><span id="_MSI_INSTALLER_PACKAGE_AUTHORING_TOOL_GLY"></span>**outil de création de packages d’installation**
 </dt> <dd>
 
-Logiciel qui permet à un développeur de créer et de modifier un [*fichier. msi*](m-gly.md). Ainsi, tout [*fichier source externe*](e-gly.md) comprend un [*package*](p-gly.md) contenant toutes les informations requises pour une installation.
+Logiciel qui permet à un développeur de créer et de modifier un [*fichier de.msi*](m-gly.md). Ainsi, tout [*fichier source externe*](e-gly.md) comprend un [*package*](p-gly.md) contenant toutes les informations requises pour une installation.
 
 </dd> <dt>
 
 <span id="_msi_internal_source_files_gly"></span><span id="_MSI_INTERNAL_SOURCE_FILES_GLY"></span>**fichiers sources internes**
 </dt> <dd>
 
-Stocké dans le [*fichier. msi*](m-gly.md). Plusieurs fichiers sources internes peuvent être compressés et stockés ensemble dans un [*fichier CAB*](c-gly.md) stocké dans un fichier. msi.
+Stocké dans le [*fichier.msi*](m-gly.md). Plusieurs fichiers sources internes peuvent être compressés et stockés ensemble dans un [*fichier CAB*](c-gly.md) stocké dans un fichier de .msi.
 
 </dd> </dl>
 

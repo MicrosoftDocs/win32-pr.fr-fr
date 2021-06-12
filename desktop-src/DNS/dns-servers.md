@@ -1,17 +1,17 @@
 ---
 title: Serveurs DNS
-description: Un serveur DNS est un ordinateur qui termine le processus de résolution de noms dans DNS.
+description: En savoir plus sur les serveurs DNS. Un serveur DNS est un ordinateur qui termine le processus de résolution de noms dans DNS.
 ms.assetid: c7ce6e46-491c-482e-8d72-a79b911c3f68
 keywords:
 - Serveurs DNS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 509ceeb811f221560540ae60f269c6ee1b05444f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fe2415c50cdd2472b20e8f14123afa2aa919d26
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674361"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011252"
 ---
 # <a name="dns-servers"></a>Serveurs DNS
 
@@ -39,9 +39,9 @@ Outre les serveurs DNS principal et secondaire, des rôles de serveur DNS suppl�
 
 Les [*serveurs de mise en cache*](c-gly.md), également appelés serveurs avec mise en cache uniquement, s’exécutent comme leur nom. ils fournissent uniquement un service de requête mis en cache pour les réponses DNS. Plutôt que de gérer des fichiers de zone comme d’autres serveurs secondaires, la mise en cache des serveurs DNS effectue des requêtes, met en cache les réponses et retourne les résultats au client d’interrogation. La principale différence entre la mise en cache de serveurs et d’autres serveurs secondaires réside dans le fait que les autres serveurs secondaires gèrent les fichiers de zone (et effectuent les transferts de zone le cas échéant, générant ainsi le trafic réseau associé au transfert), pas les serveurs de mise en cache.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Une sous-requête est un fichier de recherche enregistré ( \* . search-ms) que vous pouvez utiliser comme filtre pour une nouvelle requête.
+description: En savoir plus sur l’argument de sous-requête dans Windows Search. Une sous-requête est un fichier de recherche enregistré que vous pouvez utiliser comme filtre pour une nouvelle requête.
 ms.assetid: a92c774f-310b-4c40-be1c-0c2b0cac907b
 title: Argument de sous-requête (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f673cf9c2a9867593fd6c8fdac83b5901f531257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93b23028d0bddcc674714f51f8b31883052431bd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951033"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011032"
 ---
 # <a name="subquery-argument-windows-search"></a>Argument de sous-requête (Windows Search)
 

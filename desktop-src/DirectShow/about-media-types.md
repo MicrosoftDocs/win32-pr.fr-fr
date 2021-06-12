@@ -1,15 +1,15 @@
 ---
-description: À propos des types de média
+description: En savoir plus sur les types de média dans DirectShow. Le type de média est un moyen universel et extensible de décrire les formats multimédias numériques.
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: À propos des types de média (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3289a37e95bf5dbd1e5c277b5799a2c7c8c90586
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a7b1489543b33f5eeb2c288add48148b37f31915
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321469"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010892"
 ---
 # <a name="about-media-types-directshow"></a>À propos des types de média (DirectShow)
 

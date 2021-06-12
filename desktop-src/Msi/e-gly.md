@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre E, tels que les fichiers sources élevés et externes.
 ms.assetid: 8f180e2c-06f4-41d5-b167-52525f4a9985
 title: E (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6ed712bd054c8dee506fa37c9707235600a7801
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a2c65c50427b1f8271be838971a387388ea53db
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536678"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011093"
 ---
 # <a name="e-windows-installer"></a>E (Windows Installer)
 
@@ -41,7 +41,7 @@ Actions du programme d’installation pour une installation. Le script d’exéc
 <span id="_msi_external_source_files_gly"></span><span id="_MSI_EXTERNAL_SOURCE_FILES_GLY"></span>**fichiers sources externes**
 </dt> <dd>
 
-Fichiers sources de l’application en cours d’installation qui sont stockés en dehors du [*fichier. msi*](m-gly.md). Plusieurs fichiers sources externes peuvent être compressés et stockés ensemble à l’intérieur d’un [*fichier CAB*](c-gly.md) inclus dans le [*package*](p-gly.md).
+Fichiers sources de l’application en cours d’installation qui sont stockés en dehors du [*fichier.msi*](m-gly.md). Plusieurs fichiers sources externes peuvent être compressés et stockés ensemble à l’intérieur d’un [*fichier CAB*](c-gly.md) inclus dans le [*package*](p-gly.md).
 
 </dd> <dt>
 

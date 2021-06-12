@@ -1,15 +1,15 @@
 ---
-description: Un effet DirectX est une collection d’États de pipeline, définie par des expressions écrites en HLSL et une syntaxe spécifique à l’infrastructure Effect.
+description: En savoir plus sur les effets Direct3D 10. Un effet est l’état du pipeline, défini par des expressions écrites en HLSL et une syntaxe spécifique à l’infrastructure d’effet.
 ms.assetid: db4c7651-b6a1-4bc3-bcf8-a5cb56c7563e
 title: Effets (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e08d0c79a6f7f52982a74d5127da70d7b82f84
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 70a9a863fd34c5bb99389139d09860812b16b4fa
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514946"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010912"
 ---
 # <a name="effects-direct3d-10"></a>Effets (Direct3D 10)
 

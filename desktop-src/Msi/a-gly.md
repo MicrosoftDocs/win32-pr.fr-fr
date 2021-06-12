@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre A, tels que l’accessibilité et la phase d’acquisition.
 ms.assetid: 541fd08c-c21a-4a51-aa1c-d65cc0f5da75
 title: A (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46677d8823c5298307db922f2d61285564add437
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eea91c044553ec374f28309a86002a386961d2c9
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115398"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011122"
 ---
 # <a name="a-windows-installer"></a>A (Windows Installer)
 

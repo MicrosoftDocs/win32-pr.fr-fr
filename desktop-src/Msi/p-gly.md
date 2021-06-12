@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre P, tels que le code du package et l’application de correctifs.
 ms.assetid: 868f5ed3-b179-404b-9462-1d3a179103f8
 title: P (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4e6b8f1343fdd68f4a6ce042852cff1e28e05c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8923359197916a1186fe28ab0d12e4118b989bc
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115359"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011101"
 ---
 # <a name="p-windows-installer"></a>P (Windows Installer)
 
@@ -20,7 +20,7 @@ ms.locfileid: "104115359"
 <span id="_msi_package_using_windows_installer_gly"></span><span id="_MSI_PACKAGE_USING_WINDOWS_INSTALLER_GLY"></span>**Packages**
 </dt> <dd>
 
-[*fichier. msi*](m-gly.md) et tout fichier [*source externe*](e-gly.md) pouvant être désigné par ce fichier. Un package contient donc toutes les informations dont le Windows Installer a besoin pour exécuter l’interface utilisateur et installer ou désinstaller l’application. Pour plus d’informations, consultez également [*installer la base de données*](i-gly.md).
+[*.msi fichier*](m-gly.md) et tous les [*fichiers sources externes*](e-gly.md) pouvant être référencés par ce fichier. Un package contient donc toutes les informations dont le Windows Installer a besoin pour exécuter l’interface utilisateur et installer ou désinstaller l’application. Pour plus d’informations, consultez également [*installer la base de données*](i-gly.md).
 
 </dd> <dt>
 

@@ -1,15 +1,15 @@
 ---
 title: Gestion des serveurs DNS
-description: Un serveur DNS est un ordinateur qui termine le processus de résolution de noms dans DNS.
+description: En savoir plus sur la gestion des serveurs DNS. Un serveur DNS est un ordinateur qui termine le processus de résolution de noms dans DNS.
 ms.assetid: 9ac68e35-112a-44d3-918d-2caea47b6e52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbe97e8b8b02e9d2198e49d0574b2d3fb8bc87df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48d797e05bc326b35e48173082d9b36a2b334fd9
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674485"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010772"
 ---
 # <a name="managing-dns-servers"></a>Gestion des serveurs DNS
 
@@ -42,9 +42,9 @@ Pour illustrer comment implémenter ces étapes d’administration, des exemples
 -   [Affichage des types de propriété de serveur DNS](dns-wmi-provider-samples-managing-a-dns-server.md)
 -   [Modification des propriétés d’un serveur DNS](dns-wmi-provider-samples-managing-a-dns-server.md)
 
- 
+ 
 
- 
+ 
 
 
 
