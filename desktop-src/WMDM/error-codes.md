@@ -1,6 +1,6 @@
 ---
 title: Codes d’erreur (kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11)
-description: Codes d’erreur
+description: Découvrez les différents codes d’erreur qui peuvent être renvoyés par les technologies Windows Media, organisés par origine.
 ms.assetid: 37e4ad70-afe9-40d6-8c4b-e5fcaa8db4ad
 keywords:
 - Gestionnaire de périphériques Windows Media, codes d’erreur
@@ -9,12 +9,12 @@ keywords:
 - informations de référence sur les Gestionnaire de périphériques Windows Media, codes d’erreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d552294c2bf3d434dfa14b241abb6a5a76b5e5f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0c2d6cbf78348680b5c31a86fd2edd9117ec203d
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383560"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067926"
 ---
 # <a name="error-codes-windows-media-device-manager-11-sdk"></a>Codes d’erreur (kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11)
 

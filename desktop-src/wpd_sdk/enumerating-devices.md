@@ -1,15 +1,15 @@
 ---
 title: Énumération des appareils (WPD)
-description: Énumération des appareils
+description: Découvrez comment une application énumère les appareils à l’aide de la fonction EnumerateAllDevices, qui obtient le nombre d’appareils connectés et les informations spécifiques à l’appareil.
 ms.assetid: 28ded3cf-b0c8-4c90-ab39-efc879adb6e7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2738398de7f3bfb6aa1ea88175ff30241b4dbb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6465b04e6f1a18a0bdb74f0ce883cf9161371fb6
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518941"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068595"
 ---
 # <a name="enumerating-devices-wpd"></a>Énumération des appareils (WPD)
 

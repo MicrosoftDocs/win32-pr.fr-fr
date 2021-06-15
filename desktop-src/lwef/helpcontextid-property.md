@@ -1,15 +1,15 @@
 ---
 title: HelpContextID, propriété (objet collection Commands)
-description: HelpContextID, propriété
+description: En savoir plus sur la propriété HelpContextID de l’objet de collection Commands. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 8b8ac1c6-1a34-45f1-a0a6-2ae14ad6adef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44d530a1563080108ef2a2798589519ecca03416
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f1ed6ccf40545e15b3603ce5abe80ef94ff4272a
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464111"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068235"
 ---
 # <a name="helpcontextid-property-commands-collection-object"></a>HelpContextID, propriété (objet collection Commands)
 
@@ -41,7 +41,7 @@ Retourne ou définit un numéro de contexte associé pour l’objet [**Commands*
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous avez créé un fichier d’aide Windows pour votre application et défini la propriété [**HelpFile**](helpfile-property.md) du caractère, agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur sélectionne l’objet [**Commands**](/windows/desktop/lwef/the-commands-collection-object) . Si vous définissez un numéro de contexte dans la **HelpContextID**, l’agent appelle l’aide et recherche la rubrique identifiée par ce numéro de contexte.
 

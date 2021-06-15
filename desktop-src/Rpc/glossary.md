@@ -1,19 +1,19 @@
 ---
 title: Glossaire (RPC)
-description: Glossaire
+description: Ce glossaire comprend des termes clés et des concepts relatifs aux appels de procédure distante. Suivez ces liens pour afficher les entrées.
 ms.assetid: 4EC80A0B-D816-452C-93C0-D48A5220EEF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d891640e8359565eca11350c2f4645c45b98e4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0a4c82bc9f1bcd78f09d226111bfe567e998397f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102725"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068135"
 ---
 # <a name="glossary-rpc"></a>Glossaire (RPC)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [A](a-glos.md)
 -   [B](b-glos.md)
@@ -25,7 +25,7 @@ ms.locfileid: "104102725"
 -   [L](l-glos.md)
 -   [M](m-glos.md)
 -   [N](n-glos.md)
--   [O](o-glos.md)
+-   [Sorties](o-glos.md)
 -   [P](p-glos.md)
 -   [Question](q.md)
 -   [R](r-glos.md)

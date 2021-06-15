@@ -1,15 +1,15 @@
 ---
-description: Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les encodeurs Windows Media. Pour utiliser ces encodeurs, ceux-ci doivent être inscrits auprès du système.
+description: Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les encodeurs Windows Media. En savoir plus sur l’utilisation des objets d’activation d’un encodeur.
 ms.assetid: 18c26619-6047-4f7f-bb65-ca418f02e5b1
 title: Utilisation d’objets d’activation d’encodeurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfd44a1b97ad0f133b7215ff4474835ddfba66bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c4111d116c8864cc0a500fa3a0c2f612d1d6345
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863934"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067977"
 ---
 # <a name="using-an-encoders-activation-objects"></a>Utilisation des objets d’activation d’un encodeur
 

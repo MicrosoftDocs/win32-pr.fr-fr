@@ -1,6 +1,6 @@
 ---
 title: Codes d’erreur (kit de développement logiciel (SDK) Windows Media format 11)
-description: Codes d’erreur
+description: En savoir plus sur les codes d’erreur et de réussite à utiliser dans le kit de développement logiciel (SDK) Windows Media format. Ces codes sont un sous-ensemble d’une collection plus volumineuse.
 ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
 keywords:
 - Windows Media Format SDK, codes d’erreur
@@ -24,12 +24,12 @@ keywords:
 - DRM (gestion des droits numériques), codes de réussite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3053af57b881bc8f62c4e530a26308e2e8fd9fd2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 51889a678d148abe2e3659edc4d2f5c7826e12a7
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383791"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067895"
 ---
 # <a name="error-codes-windows-media-format-11-sdk"></a>Codes d’erreur (kit de développement logiciel (SDK) Windows Media format 11)
 

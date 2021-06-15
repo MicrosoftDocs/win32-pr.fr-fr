@@ -1,6 +1,6 @@
 ---
 title: Types d’énumération du client Microsoft Windows Media DRM
-description: Types d’énumération
+description: En savoir plus sur les énumérations qui sont prises en charge par les API étendues du client Microsoft Windows Media DRM.
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
 - Windows Media Format SDK, types énumération
@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, types énumération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159342367035767d213d57987d93d23eb321a6c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032221"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068426"
 ---
 # <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Types d’énumération du client Microsoft Windows Media DRM
 

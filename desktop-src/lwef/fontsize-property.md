@@ -1,15 +1,15 @@
 ---
 title: FontSize, propriété (objet Commands)
-description: FontSize, propriété
+description: En savoir plus sur la propriété de l’objet FontSize Commands. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: a1113a3a-5da8-4077-8565-168963c503d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee84d5eb966dd7d0605bd0e4f17674fe4499bab6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 05d4e32bf57d129e7bf1d7b45f97846a1fe90756
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510299"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068206"
 ---
 # <a name="fontsize-property-commands-object"></a>FontSize, propriété (objet Commands)
 
@@ -41,7 +41,7 @@ Retourne ou définit la taille de police utilisée dans le menu contextuel du ca
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **FontSize** définit la taille en points de la police utilisée pour afficher le texte dans le menu contextuel du caractère. La valeur par défaut du paramètre de police est basée sur le paramètre de police de menu du paramètre **LanguageID** du caractère ou, si cela n’est pas défini, le paramètre de langue par défaut de l’utilisateur.
 

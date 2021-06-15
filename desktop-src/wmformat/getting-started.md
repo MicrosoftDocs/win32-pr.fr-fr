@@ -1,18 +1,18 @@
 ---
 title: Prise en main avec le kit de développement logiciel (SDK) Windows Media format
-description: Mise en route
+description: Utilisez ces ressources pour vous familiariser avec le kit de développement logiciel (SDK) Windows Media format, par exemple les fichiers de bibliothèque et les paramètres du compilateur.
 ms.assetid: e6f560a6-e677-47dc-b99c-e14bd60e4007
 keywords:
 - Windows Media Format SDK, prise en main
 - Windows Media Format SDK, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b763a1462f3d07b9ac630895e65ab5be5a3589e5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f6022ead1dfa3e7efcab09e771c5b4fdffe601d9
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739581"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068245"
 ---
 # <a name="getting-started-with-windows-media-format-sdk"></a>Prise en main avec le kit de développement logiciel (SDK) Windows Media format
 

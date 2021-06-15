@@ -1,15 +1,15 @@
 ---
-description: Dans Windows 7, les API de plateforme de haut niveau qui utilisent des API audio de base, telles que Media Foundation, DirectSound et les API Wave, implémentent la fonctionnalité de routage de flux en gérant le basculement de flux d’un appareil existant vers un nouveau point de terminaison audio par défaut.
+description: En savoir plus sur les notifications pour le routage de flux. Les API implémentent le routage de flux en gérant le basculement de flux vers un nouveau point de terminaison audio par défaut.
 ms.assetid: caf831bb-b8de-467f-bdb4-f9f8991dc7a8
 title: Notifications appropriées pour le routage de flux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef3d253ce2ec5d6e3bef025a33233a9d377ca44b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d1a843c1d8b5cfd740ada5049cb9428e7745072d
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110778"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068525"
 ---
 # <a name="relevant-notifications-for-stream-routing"></a>Notifications appropriées pour le routage de flux
 

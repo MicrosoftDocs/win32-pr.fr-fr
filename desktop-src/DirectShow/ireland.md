@@ -1,15 +1,15 @@
 ---
-description: Pour obtenir une explication des tableaux suivants, consultez tables et affectations.
+description: Cet article contient des tables de fréquence pour le réglage de la TV analogique internationale pour l’Irlande. Les index de fréquence ne conviennent pas aux numéros de canaux.
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: Irlande
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dba5254cd64262fa40c330b3f65ba589090fed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b004a811a59a6e2556cdd4187728e5842bea1a46
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520940"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068155"
 ---
 # <a name="ireland"></a>Irlande
 

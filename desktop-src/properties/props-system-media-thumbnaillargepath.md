@@ -1,15 +1,15 @@
 ---
-description: Chemin du système de fichiers vers la grande représentation miniature de l’élément multimédia.
+description: La propriété System. Media. ThumbnailLargePath contient le chemin du système de fichiers vers la grande représentation miniature de l’élément multimédia.
 ms.assetid: 5a710c2d-ab79-4376-88be-26931346f116
 title: System. Media. ThumbnailLargePath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9c761f2086c46a813307dc48c72abb7bec9d23
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f2bd17e148e25d84b254b18f347cff2a8b288554
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104211236"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068365"
 ---
 # <a name="systemmediathumbnaillargepath"></a>System. Media. ThumbnailLargePath
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

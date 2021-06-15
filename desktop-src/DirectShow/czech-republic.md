@@ -1,15 +1,15 @@
 ---
-description: Pour obtenir une explication des tableaux suivants, consultez tables et affectations.
+description: Cet article contient des tables de fréquence pour le réglage de la TV analogique internationale pour la République tchèque. Les index de fréquence ne conviennent pas aux numéros de canaux.
 ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: République tchèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 732a8a9082484d0b8167d8c3f565afdafd0664a0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91e3d946fdfc42f0e418d7bba1a786d49c5d6785
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747501"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068025"
 ---
 # <a name="czech-republic"></a>République tchèque
 

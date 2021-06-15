@@ -1,15 +1,15 @@
 ---
 title: Pour plus d’informations sur WIC
-description: Pour plus d'informations
+description: Utilisez ces ressources supplémentaires pour obtenir les informations les plus récentes sur l’infrastructure du composant de création d’images Windows.
 ms.assetid: 63f99cf6-809c-48b9-9b89-6154d026b262
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fdddb250ff015e79611cc995297bf709a288210
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc94ee9ad0d3614398211e401c51164fc96f72e7
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520678"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068455"
 ---
 # <a name="for-more-info-about-wic"></a>Pour plus d’informations sur WIC
 

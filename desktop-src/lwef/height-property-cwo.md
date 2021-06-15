@@ -1,15 +1,15 @@
 ---
 title: Height, propriété (objet CommandsWindow)
-description: Height, propriété
+description: En savoir plus sur la propriété Height de l’objet CommandsWindow. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6f028015b31d4499b28b6d45851c4cbbe8f4da
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 324100bf8cb1e7ead5c9ae87fa5d17b7623804a3
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464059"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068176"
 ---
 # <a name="height-property-commandswindow-object"></a>Height, propriété (objet CommandsWindow)
 
@@ -31,7 +31,7 @@ Retourne une valeur entière spécifiant la hauteur actuelle, en pixels, de la f
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le serveur affiche la fenêtre commandes vocales en fonction de la position et de la taille définies par l’utilisateur.
 

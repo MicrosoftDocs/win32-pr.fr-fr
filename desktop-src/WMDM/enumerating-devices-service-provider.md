@@ -1,6 +1,6 @@
 ---
 title: Énumération des appareils (WMDM)
-description: Énumération des appareils
+description: Windows Media Gestionnaire de périphériques gère un cache d’appareils connectés. Découvrez comment Windows Media Gestionnaire de périphériques gère ou met à jour son cache.
 ms.assetid: 7602da65-4c98-4766-b206-2129dad4cc2a
 keywords:
 - Gestionnaire de périphériques Windows Media, énumération des appareils
@@ -11,12 +11,12 @@ keywords:
 - énumération des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 316b87f6ad3f5680e0c22da832da7b1efec24629
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 6f9b2fd3a891e2c52710bd9a2f6d46a78e9eb238
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679234"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067906"
 ---
 # <a name="enumerating-devices-wmdm"></a>Énumération des appareils (WMDM)
 
@@ -58,9 +58,9 @@ Un appareil non PnP se connecte ou se déconnecte
 [**Création d’un fournisseur de services**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

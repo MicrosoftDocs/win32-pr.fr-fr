@@ -1,6 +1,6 @@
 ---
 title: Prise en main de WMDM
-description: Mise en route
+description: Découvrez les informations de base dont vous avez besoin pour commencer à développer des applications et des fournisseurs de services qui utilisent Windows Media Gestionnaire de périphériques.
 ms.assetid: 0af11e8e-ddfd-4178-aca9-61bb74a2d144
 keywords:
 - Gestionnaire de périphériques Windows Media, à propos de
@@ -13,12 +13,12 @@ keywords:
 - fournisseurs de services, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b18f1e3e7c31de942f050ac19c1bb6b458069862
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: e70c5da5da229f915b4f8b2ef1d79d88c69ab075
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104507739"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068275"
 ---
 # <a name="getting-started-with-wmdm"></a>Prise en main de WMDM
 
@@ -35,7 +35,7 @@ Cette section fournit les informations de base dont vous avez besoin pour commen
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -44,9 +44,9 @@ Cette section fournit les informations de base dont vous avez besoin pour commen
 [**Kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques 11**](windows-media-device-manager-11-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

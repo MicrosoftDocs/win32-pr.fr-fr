@@ -1,6 +1,6 @@
 ---
 title: Énumération des appareils Windows Media Gestionnaire de périphériques
-description: Énumération des appareils
+description: En savoir plus sur l’énumération des appareils détectés par Windows Media Gestionnaire de périphériques à l’aide d’une interface d’énumération.
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
 - Gestionnaire de périphériques Windows Media, énumération des appareils
@@ -11,12 +11,12 @@ keywords:
 - énumération des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3584e625f54ea4e5c601f2a32865515c824cfcd
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104101117"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068196"
 ---
 # <a name="enumerating-windows-media-device-manager-devices"></a>Énumération des appareils Windows Media Gestionnaire de périphériques
 
@@ -187,9 +187,9 @@ HRESULT CWMDMController::EnumDevices()
 [**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

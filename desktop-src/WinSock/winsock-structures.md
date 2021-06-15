@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Structures Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afeb309f44d5973b204fed805d3f364cb416843
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac97b8f9710163a29dc7d5938df4cb34bb51ec2f
+ms.sourcegitcommit: 04fcd6711f2b167a3023a67310deb58780e1fea8
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520614"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112082384"
 ---
 # <a name="winsock-structures"></a>Structures Winsock
 
@@ -50,8 +50,8 @@ La liste suivante fournit des descriptions concises de chaque structure et typed
 | [**\_informations sur le service NS \_**](/windows/desktop/api/Nspapi/ns-nspapi-ns_service_infoa)                                            | Contient des informations sur un service réseau ou un type de service réseau dans le contexte d’un espace de noms spécifié, ou un ensemble d’espaces de noms par défaut.                                                                                                                                   |
 | [**\_informations sur le protocole**](/windows/desktop/api/Nspapi/ns-nspapi-protocol_infoa)                                                 | Contient des informations sur un protocole.                                                                                                                                                                                                                                            |
 | [**protoent**](/windows/desktop/api/winsock/ns-winsock-protoent)                                                            | Contient le nom et les numéros de protocole qui correspondent à un nom de protocole donné.                                                                                                                                                                                                  |
-| [**\_entrée du \_ paramètre de notification en temps réel \_ \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | Contient les paramètres d’entrée à appliquer pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de notification en temps réel** pour un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) pour recevoir des notifications de réseau en arrière-plan dans une application du Windows Store.           |
-| [**\_sortie du \_ paramètre de notification en temps réel \_ \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | Contient les paramètres de sortie d’une requête pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de notification en temps réel** d’un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041) pour recevoir des notifications de réseau d’arrière-plan dans une application Windows Store. |
+| [**\_entrée du \_ paramètre de notification en temps réel \_ \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | Contient les paramètres d’entrée à appliquer pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de notification en temps réel** pour un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau en arrière-plan dans une application du Windows Store.           |
+| [**\_sortie du \_ paramètre de notification en temps réel \_ \_**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | Contient les paramètres de sortie d’une requête pour le paramètre de transport de la **\_ \_ \_ fonctionnalité de notification en temps réel** d’un socket TCP utilisé avec [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger) pour recevoir des notifications de réseau d’arrière-plan dans une application Windows Store. |
 | [**\_table de \_ fonctions d’extension Rio \_**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table)                   | Contient des informations sur les fonctions qui implémentent les extensions d’e/s inscrites par Winsock.                                                                                                                                                                                       |
 | [**RIO \_ buf**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rio_buf)                                                               | Spécifie une partie d’une mémoire tampon enregistrée utilisée pour l’envoi ou la réception de données réseau avec les extensions d’e/s inscrites Winsock.                                                                                                                                                 |
 | [**\_l’élément BUFFERID Rio**](rio-bufferid.md)                                                     | Spécifie un descripteur de mémoire tampon inscrit utilisé avec les extensions d’e/s inscrites Winsock.                                                                                                                                                                                         |

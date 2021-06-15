@@ -1,6 +1,6 @@
 ---
 title: Glossaire (Text Services Framework)
-description: Glossaire
+description: Ce glossaire comprend des termes clés et des concepts relatifs à Text Services Framework. Suivez ces liens pour afficher les entrées.
 ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
 keywords:
 - Text Services Framework (TSF), Glossaire
@@ -17,12 +17,12 @@ keywords:
 - Applications compatibles TSF, définitions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b9d66e9cad15b0a65a7d07ecd9b047e5db7415
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5bc44d685ff521b42d47618578ea80c5f7b3007e
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739492"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068106"
 ---
 # <a name="glossary-text-services-framework"></a>Glossaire (Text Services Framework)
 

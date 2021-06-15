@@ -1,15 +1,15 @@
 ---
-description: Propriété du fichier.
+description: En savoir plus sur la propriété System. Security. EncryptionOwnersDisplay, qui prend en charge la propriété des fichiers pour les différentes versions de Windows.
 ms.assetid: fa47b242-0a5c-437e-9d25-3472bc70ca69
 title: System. Security. EncryptionOwnersDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d5f8f63289143fd1942a75bd8447482f4d6aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 081f2004cdd3617ee6ca4f0e8a940f397966a49f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536624"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068475"
 ---
 # <a name="systemsecurityencryptionownersdisplay"></a>System. Security. EncryptionOwnersDisplay
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

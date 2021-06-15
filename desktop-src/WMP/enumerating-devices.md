@@ -1,6 +1,6 @@
 ---
 title: Énumération des appareils (kit de développement logiciel (SDK) WMP)
-description: Énumération des appareils
+description: Cet exemple de code montre une fonction qui énumère des appareils en créant un tableau de pointeurs qui représentent chacun un appareil.
 ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
 keywords:
 - Lecteur Windows Media, appareils mobiles
@@ -14,12 +14,12 @@ keywords:
 - énumérations, appareils mobiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5025d0e0a7e99028b22cc24ebc56337ea84d2fb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d44f71fa26f40983424ced70280d9c03e0892a00
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940685"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068436"
 ---
 # <a name="enumerating-devices"></a>Énumération des appareils
 
@@ -145,9 +145,9 @@ Vous pouvez utiliser du code similaire pour récupérer d’autres listes d’ap
 [**Utilisation d’appareils mobiles**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
