@@ -1,6 +1,6 @@
 ---
 title: Attributs (kit de développement logiciel (SDK) Windows Media format 11)
-description: Attributs
+description: En savoir plus sur les attributs dans le kit de développement logiciel (SDK) Windows Media format 11. Un attribut est un élément individuel de métadonnées.
 ms.assetid: 1e9392b4-4fff-41ad-9d80-23c1c7f9e9a4
 keywords:
 - Windows Media Format SDK, attributs
@@ -9,12 +9,12 @@ keywords:
 - attributs, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c209558ed4803fee96e9b482302af1864cbf988b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 23738e20df2c6360b20b7c3da005cde6b3942d44
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383687"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262191"
 ---
 # <a name="attributes-windows-media-format-11-sdk"></a>Attributs (kit de développement logiciel (SDK) Windows Media format 11)
 

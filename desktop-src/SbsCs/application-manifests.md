@@ -5,12 +5,12 @@ title: Manifestes d’application
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
-ms.openlocfilehash: cb065bc4d6d29f4142c23cdd91c83769e2fb9b87
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 2fb7297310102134dfcacf0e5f0d907fbf3a3e0b
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106538420"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230234"
 ---
 # <a name="application-manifests"></a>Manifestes d’application
 
@@ -22,7 +22,7 @@ Les manifestes d’application comportent les éléments et les attributs suivan
 
 | Élément                               | Attributs                | Obligatoire |
 |---------------------------------------|---------------------------|----------|
-| **assembly**                          |                           | Oui      |
+| **chargeur**                          |                           | Oui      |
 |                                       | **manifestVersion**       | Oui      |
 | **noInherit**                         |                           | Non       |
 | **assemblyIdentity**                  |                           | Oui      |
@@ -146,7 +146,7 @@ L’élément **pris en charge** a l’attribut suivant. Il n’a pas de sous-é
 
 ### <a name="maxversiontested"></a>maxversiontested
 
-L’élément **maxversiontested** spécifie la version maximale des fenêtres pour lesquelles l’application a été testée. Elle est destinée à être utilisée par les applications de bureau qui utilisent des [îlots XAML](/windows/apps/desktop/modernize/xaml-islands) et qui ne sont pas déployées dans un package MSIX. Cet élément est pris en charge dans Windows 10, version 1903 et versions ultérieures.
+L’élément **maxversiontested** spécifie les versions de Windows sur lesquelles l’application a été testée, en commençant par la version minimale du système d’exploitation que l’application prend en charge jusqu’à la version maximale. L’ensemble complet des versions est disponible [ici](https://developer.microsoft.com/windows/downloads/sdk-archive/). Elle est destinée à être utilisée par les applications de bureau qui utilisent des [îlots XAML](/windows/apps/desktop/modernize/xaml-islands) et qui ne sont pas déployées dans un package MSIX. Cet élément est pris en charge dans Windows 10, version 1903 et versions ultérieures.
 
 L’élément **maxversiontested** a l’attribut suivant. Il n’a pas de sous-éléments.
 

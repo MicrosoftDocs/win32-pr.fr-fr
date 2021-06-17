@@ -1,6 +1,6 @@
 ---
 title: Formats de fichier art (mobile)
-description: Formats de fichier art
+description: Découvrez les formats de fichiers artistiques reconnus par mobile pour les habillages. Il peut s’agir de bitmap, GIF, JPEG et PNG.
 ms.assetid: c20a8eeb-6a13-4631-bb20-df03c4a4a1d2
 keywords:
 - Windows Media Player Mobile Skins, fichiers art
@@ -12,16 +12,16 @@ keywords:
 - formats de fichiers pour l’art de l’apparence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bacb14f38ed11e8811821ed5d3a5d7cc4bcf121
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7b36f1a6679772e45aae71dc66509176121995d0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739549"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262221"
 ---
 # <a name="art-file-formats-mobile"></a>Formats de fichier art (mobile)
 
-Les fichiers art pour les apparences peuvent être des images bitmap (. bmp) ou GIF (. gif). Les images JPEG (. jpg) et PNG (. png) sont également prises en charge. N’incluez pas d’espaces ou de virgules dans le nom de votre fichier art.
+Les fichiers art pour les apparences peuvent être des images bitmap (.bmp) ou GIF (.gif). Les images JPEG (.jpg) et PNG (.png) sont également prises en charge. N’incluez pas d’espaces ou de virgules dans le nom de votre fichier art.
 
 Si vous synchronisez des fichiers sur un appareil mobile, assurez-vous que la synchronisation ne modifie pas l’extension de nom de fichier ou convertissez les fichiers image dans un autre format.
 

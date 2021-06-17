@@ -1,15 +1,15 @@
 ---
 title: Propriété Caption (objet collection Commands)
-description: Propriété Caption
+description: En savoir plus sur la propriété Caption de l’objet de collection Command. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 7182c21e-1ff0-4dce-9571-534b7576c082
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2010fe051568f71c4940b4bcf964f257ba9f52ca
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b34ae7bd6da1fc6cc60f882cc231af5730a1077e
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102688"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262051"
 ---
 # <a name="caption-property-commands-collection-object"></a>Propriété Caption (objet collection Commands)
 
@@ -41,7 +41,7 @@ Détermine le texte affiché pour un objet [**Commands**](/windows/desktop/lwef/
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La définition de la propriété [**Caption**](caption-property.md) de votre collection [**Commands**](/windows/desktop/lwef/the-commands-collection-object) définit son mode d’affichage dans le menu contextuel du caractère lorsque sa propriété [**visible**](visible-property.md) a la valeur true et que votre application n’est pas le client d’entrée-actif. Pour spécifier une touche d’accès (mnémonique non linéaire) pour votre **légende**, incluez un caractère perluète (&) avant ce caractère.
 

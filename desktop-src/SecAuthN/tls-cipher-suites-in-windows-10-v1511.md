@@ -1,15 +1,15 @@
 ---
-description: Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
+description: En savoir plus sur les suites de chiffrement TLS dans Windows 10 v1511 inclut. Les suites de chiffrement ne peuvent être négociées que pour les versions TLS qui les prennent en charge.
 ms.assetid: E17F8C61-6985-43D7-8AAA-5300D1AA7028
 title: Suites de chiffrement TLS dans Windows 10 v1511 inclut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ce25886af6e9f84c30c05fc6e77dc8572f92ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 644417cc4af531049c0c09f7c06dd6c5f92ca3e0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201464"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262531"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1511"></a>Suites de chiffrement TLS dans Windows 10 v1511 inclut
 
@@ -33,37 +33,37 @@ Pour Windows 10, version 1511, les suites de chiffrement suivantes sont activée
 
 | Chaîne de la suite de chiffrement                                                                                            | Autorisé par SCH \_ utiliser \_ un \_ chiffrement renforcé | Versions du protocole TLS/SSL                     |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
-| \_ECDHE TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
-| \_Dhe TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
+| \_ECDHE TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| \_Dhe TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                      | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA384<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                        | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                         | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ ECDSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                         | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                           | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ ECDHE \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                           | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 256 \_ GCM \_ SHA384<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 128 \_ GCM \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                               | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ RSA \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                                  | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                                  | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ RSA \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                                 | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
-| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
-| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
+| TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA256<br/>                                                          | Oui<br/>                      | TLS 1.2<br/>                            |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 256 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ AES \_ 128 \_ CBC \_ SHA<br/>                                                             | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0<br/>          |
 | TLS \_ dhe \_ DSS \_ avec \_ 3DES \_ Ede \_ CBC \_ SHA<br/>                                                            | Oui<br/>                      | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ SHA<br/>                                                                       | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | TLS \_ RSA \_ avec \_ RC4 \_ 128 \_ MD5<br/>                                                                       | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
-| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Non<br/>                       | TLS 1.2<br/>                            |
+| TLS \_ RSA \_ avec \_ null \_ SHA256 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Non<br/>                       | TLS 1.2<br/>                            |
 | TLS \_ RSA \_ avec \_ \_ SHA null <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>               | Non<br/>                       | TLS 1,2, TLS 1,1, TLS 1,0, SSL 3,0<br/> |
 | SSL \_ CK \_ des \_ 192 \_ EDE3 \_ CBC \_ avec \_ MD5 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/> | Oui<br/>                      | SSL 2.0<br/>                            |
 | SSL \_ CK \_ RC4 \_ 128 \_ avec \_ MD5 <br/> Utilisé uniquement lorsque l’application demande explicitement.<br/>            | Non<br/>                       | SSL 2.0<br/>                            |

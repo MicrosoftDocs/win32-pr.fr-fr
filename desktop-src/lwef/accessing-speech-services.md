@@ -1,15 +1,15 @@
 ---
 title: Accès aux services vocaux (interface du serveur Microsoft Agent)
-description: Accès aux services vocaux
+description: En savoir plus sur l’accès aux services vocaux avec l’interface du serveur Microsoft Agent. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 99cf630d-3bd1-403a-833a-9173a84fe3c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9eeb4afb2b05ca13c52d49508c3c25b7e02da676
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1f87bf5cf88141344d5328592c9e823c7365c5d5
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380803"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262701"
 ---
 # <a name="accessing-speech-services-microsoft-agent-server-interface"></a>Accès aux services vocaux (interface du serveur Microsoft Agent)
 

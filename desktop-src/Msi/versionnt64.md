@@ -4,12 +4,12 @@ ms.assetid: 190f8251-a377-4490-9de9-98d149185865
 title: Propriété VersionNT64
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3b1b5a26b2ba45b859b6330bf153300e239074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31f6c0f2037891527f17feba92d7e9c8494aa622
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526043"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262071"
 ---
 # <a name="versionnt64-property"></a>Propriété VersionNT64
 
@@ -17,13 +17,16 @@ Le programme d’installation définit la propriété **VersionNT64** sur le num
 
 La valeur est un entier : MajorVersion \* 100 + MinorVersion.
 
-Pour des raisons de compatibilité, la propriété est également non définie si la propriété [**Résumé du modèle**](template-summary.md) indique que le package est destiné aux systèmes Intel 32 bits et que le système d’exploitation est une architecture 64 bits qui n’est pas Intel64 ou x64 (comme ARM64).
+Pour des raisons de compatibilité, la propriété est également non définie si la propriété [**Résumé du modèle**](template-summary.md) indique que le package est destiné aux systèmes Intel (x86) 32 bits et que le système d’exploitation ne peut pas exécuter le code Intel (x64) 64 bits, tel que Windows 10 sur ARM (ARM64).
 
-## <a name="remarks"></a>Notes
+> [!NOTE]
+> À compter de Windows 10 Build 21277, ARM64 est généré dans le canal de développement du programme Windows Insider Preview, qui prend en charge les applications x64. Sur ces builds ARM64, la propriété VersionNT64 est définie pour les packages x86.
+
+## <a name="remarks"></a>Remarques
 
 Les expressions conditionnelles testent les fenêtres 64 bits simplement en utilisant le nom de la propriété ou en vérifiant la version à l’aide d’un opérateur de comparaison.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

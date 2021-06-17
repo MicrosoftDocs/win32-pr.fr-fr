@@ -6,18 +6,21 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0f908f000d340f9cc9f374e036919422c4a940a6
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550294"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262641"
 ---
 # <a name="dwritecore-overview"></a>Vue d’ensemble de DWriteCore
 
 DWriteCore est l’implémentation de [réunion de projet](/windows/apps/project-reunion/) de [DirectWrite](./direct-write-portal.md) (DirectWrite est l’API DirectX pour le rendu de texte de haute qualité, les polices de plan indépendantes de la résolution et la prise en charge complète du texte et de la disposition Unicode). DWriteCore est une forme de DirectWrite qui s’exécute sur les versions de Windows jusqu’à Windows 10, version 1809 (10,0 ; Build 17763), et ouvre la porte qui vous permet de l’utiliser sur plusieurs plateformes.
 
 Cette rubrique d’introduction décrit ce que DWriteCore est, et montre comment l’installer dans votre environnement de développement et votre programme avec lui.
+
+> [!TIP]
+> Pour obtenir des descriptions et des liens vers des composants DirectX dans le développement actif, consultez le billet de blog [page d’accueil de DirectX](https://devblogs.microsoft.com/directx/landing-page/).
 
 ## <a name="the-value-proposition-of-dwritecore"></a>La proposition de valeur de DWriteCore
 

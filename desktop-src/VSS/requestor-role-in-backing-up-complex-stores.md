@@ -1,15 +1,15 @@
 ---
-description: Comme avec toutes les opérations importantes sous VSS, les sauvegardes incrémentielles et différentielles requièrent une coopération étroite entre les demandeurs et les rédacteurs.
+description: En savoir plus sur le rôle de demandeur dans les sauvegardes incrémentielles et différentielles, qui nécessitent une coopération étroite entre les demandeurs et les writers.
 ms.assetid: 00391a49-8c81-4518-88a2-741ad5ee4ac3
 title: Rôle demandeur dans la sauvegarde de magasins complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 197351e76b6861ee9b9d1e0589ef028c911430ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a84dfa1b0b1837bacc2488b6bd9e3ffdd51b92c0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034342"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262181"
 ---
 # <a name="requester-role-in-backing-up-complex-stores"></a>Rôle demandeur dans la sauvegarde de magasins complexes
 

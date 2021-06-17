@@ -4,16 +4,18 @@ ms.assetid: ''
 title: Guide du développeur pour la version redistribuable de XAudio 2.9
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
-ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
+ms.openlocfilehash: a73ebd01d599446dc96e1e6735d8af572203a23b
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107583821"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262591"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>Guide du développeur pour la version redistribuable de XAudio 2.9
 
 Une version de XAudio 2,9 est disponible sous forme de [package NuGet](/nuget/what-is-nuget). Les développeurs peuvent redistribuer cette version de XAudio 2,9 avec leurs applications. Cela permet à une application d’utiliser XAudio 2,9 sur des versions antérieures de Windows qui n’incluent pas XAudio 2,9 dans le cadre de l’image du système d’exploitation. L’utilisation de ce package redistribuable est préférable à la redistribution de XAudio 2,7 à partir du kit de développement logiciel (SDK) DirectX, car XAudio 2,7 n’a pas été mis à jour depuis 2010.
+
+Veillez à consulter la [page d’accueil de DirectX](https://devblogs.microsoft.com/directx/landing-page/) pour obtenir d’autres ressources pour les développeurs DirectX.
 
 ## <a name="supported-platforms"></a>Plateformes prises en charge
 
@@ -27,11 +29,11 @@ La DLL n’est pas destinée aux applications UWP. Les applications UWP doivent 
 
 ## <a name="installing-the-nuget-package"></a>Installation du package Nuget
 
-Le moyen le plus simple d’installer le package NuGet consiste à utiliser le [Gestionnaire de package NuGet](/nuget/consume-packages/install-use-packages-visual-studio) dans Microsoft Visual Studio. Dans ce cas, votre fichier projet Visual Studio est automatiquement mis à jour pour inclure *Microsoft. XAudio2. Redist. targets*. Le fichier *. targets* ajoute le dossier include avec les fichiers d’en-tête pour le XAudio2 à votre collection de chemins d’accès Include de projet. Le fichier *. targets* va également créer votre. DLL ou. EXE Link avec XAUDIO2REDIST. LIB et XAPOBASEREDIST. LIB.
+Le moyen le plus simple d’installer le package NuGet consiste à utiliser le [Gestionnaire de package NuGet](/nuget/consume-packages/install-use-packages-visual-studio) dans Microsoft Visual Studio. Dans ce cas, votre fichier projet Visual Studio est automatiquement mis à jour pour inclure *Microsoft. XAudio2. Redist. targets*. Le fichier *. targets* ajoute le dossier include avec les fichiers d’en-tête pour le XAudio2 à votre collection de chemins d’accès Include de projet. Le fichier *. targets* rend également votre .DLL ou .EXE lier avec XAUDIO2REDIST. LIB et XAPOBASEREDIST. LIB.
 
 Bibliothèque XAPOBASEREDIST. LIB n’est nécessaire que si vous envisagez de impement un objet de traitement XAudio personnalisé (XAPO) et vous pouvez le supprimer de *Microsoft. XAudio2. Redist. targets* s’il n’est pas utilisé.
 
-Vous pouvez également utiliser d’autres outils pour extraire le contenu du package NuGet, ou même renommer l’extension de fichier en. zip et extraire les fichiers avec n’importe quel outil ZIP Extractor.
+Vous pouvez également utiliser d’autres outils pour extraire le contenu du package NuGet, ou même renommer l’extension de fichier pour .zip et extraire les fichiers avec n’importe quel outil ZIP Extractor.
 
 > Un port est également ``xaudio2redist`` disponible pour le [Gestionnaire de Package VC + +](https://github.com/microsoft/vcpkg).
 

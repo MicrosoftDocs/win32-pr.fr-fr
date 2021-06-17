@@ -1,16 +1,16 @@
 ---
 title: Attributs (serveur de stratégie réseau)
-description: Attributs
+description: Cet article contient des liens vers les types d’énumération d’attributs à utiliser lors de la manipulation des attributs du dictionnaire RADIUS sur l’ordinateur SDO.
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb457ff27a3040dbbaa6eda685068872cdb3c318
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a8144334eadb2d1109ded73e94b3506752c7872d
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941064"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261991"
 ---
 # <a name="attributes-network-policy-server"></a>Attributs (serveur de stratégie réseau)
 
@@ -31,6 +31,6 @@ Utilisez les types d’énumération suivants lors de la manipulation des attrib
 -   [**POLICYPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
 -   [**PROFILEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 
- 
+ 
 
- 
+ 

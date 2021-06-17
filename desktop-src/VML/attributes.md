@@ -1,19 +1,19 @@
 ---
 title: Attributs (VML)
-description: Attributs
+description: Cet article répertorie les attributs de l’élément Shape dans VML. VML est déconseillé depuis Windows Internet Explorer 9.
 ms.assetid: 0EBA02C8-3F44-492E-BC55-AD56849093D2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf184ca87eb7344fe17b959647f672da53eec1b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2a369ce7e5ec416ec3e9c36588dc1fc58a7d0701
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383744"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262741"
 ---
 # <a name="attributes-vml"></a>Attributs (VML)
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 -   [Ajustement](adj-attribute.md)
 -   [AllowInCell](allowincell-attribute.md)

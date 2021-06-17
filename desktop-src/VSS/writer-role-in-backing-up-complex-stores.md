@@ -1,15 +1,15 @@
 ---
-description: Comme avec toutes les opérations importantes sous VSS, les sauvegardes incrémentielles et différentielles requièrent une coopération étroite entre les demandeurs et les rédacteurs.
+description: En savoir plus sur le rôle d’écriture dans les sauvegardes incrémentielles et différentielles, qui nécessitent une coopération étroite entre les demandeurs et les writers.
 ms.assetid: 3cf5dd1f-dc58-42bc-925f-fee7d34053c5
 title: Rôle d’écriture dans la sauvegarde de magasins complexes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80864256b9a19c25a2f0dce0d0c929ed19fd7269
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30e34952cc4a2184d2f9abcc43283d24f64bdcc3
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113151"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262151"
 ---
 # <a name="writer-role-in-backing-up-complex-stores"></a>Rôle d’écriture dans la sauvegarde de magasins complexes
 

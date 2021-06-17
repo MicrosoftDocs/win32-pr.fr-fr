@@ -1,15 +1,15 @@
 ---
 title: Rendu d’un effet (Direct3D 11)
-description: Un effet peut être utilisé pour stocker des informations ou pour effectuer un rendu à l’aide d’un groupe d’États.
+description: En savoir plus sur le rendu d’un effet pour Direct3D 11. Un effet peut être utilisé pour stocker des informations ou pour effectuer un rendu à l’aide d’un groupe d’États.
 ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c99aef9f83cdf286e86ca843e57315d9ab88619
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7def8f7bbfb9f2c7a5102eb8e02fc848155e4bde
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382197"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261831"
 ---
 # <a name="rendering-an-effect-direct3d-11"></a>Rendu d’un effet (Direct3D 11)
 

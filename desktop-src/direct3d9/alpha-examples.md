@@ -1,15 +1,15 @@
 ---
-description: La fusion alpha est utilisée pour afficher une image dont les pixels sont transparents ou semi-transparents.
+description: Consultez des exemples de la fusion alpha. La fusion alpha est utilisée pour afficher une image dont les pixels sont transparents ou semi-transparents.
 ms.assetid: e08c7ceb-6e9c-4a3e-8bb6-5487e512a801
 title: Exemples alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e58319dbbdf459acfd9eccbe0574f7ccdb395e4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47a7918ce0257962238d929d69d240a1feeb513e
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393216"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262081"
 ---
 # <a name="alpha-examples-direct3d-9"></a>Exemples alpha (Direct3D 9)
 

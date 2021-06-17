@@ -1,6 +1,6 @@
 ---
 title: Attributs avec plusieurs valeurs (kit de développement logiciel (SDK) Windows Media Player)
-description: Attributs avec plusieurs valeurs
+description: En savoir plus sur les attributs avec plusieurs valeurs dans le kit de développement logiciel (SDK) du lecteur Windows Media. Certains attributs d’éléments multimédias peuvent avoir plusieurs valeurs.
 ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
 keywords:
 - Lecteur Windows Media, attributs des éléments multimédias
@@ -16,12 +16,12 @@ keywords:
 - valeurs d’attribut multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad93c4025d09a234b1834a32e4ca3789bcaa4a35
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a16baf4bab47dc972ec7b043980dccb0f2aadd57
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383719"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262601"
 ---
 # <a name="attributes-with-multiple-values-windows-media-player-sdk"></a>Attributs avec plusieurs valeurs (kit de développement logiciel (SDK) Windows Media Player)
 

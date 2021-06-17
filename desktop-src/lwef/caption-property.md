@@ -1,15 +1,15 @@
 ---
 title: Propriété Caption (objet Command)
-description: Propriété Caption
+description: En savoir plus sur la propriété Caption de l’objet Command. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 8dcdf3e0-3111-438b-9d39-ba9a36437ad2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0595444bd2e49ca0207c5a6a9fd459e919573958
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a0eb41def3b183fe4185b9c66a9ca5cd172372fb
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106538603"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262551"
 ---
 # <a name="caption-property-command-object"></a>Propriété Caption (objet Command)
 
@@ -41,7 +41,7 @@ Détermine le texte affiché pour une [**commande**](/windows/desktop/lwef/the-c
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour spécifier une touche d’accès (mnémonique non linéaire) pour votre **légende**, incluez un caractère perluète (&) avant ce caractère.
 

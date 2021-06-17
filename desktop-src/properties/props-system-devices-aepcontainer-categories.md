@@ -1,15 +1,15 @@
 ---
-description: Catégories dont l’appareil fait partie. par exemple, imprimante, appareil photo, etc.
+description: La propriété System. Devices. AepContainer. Categories indique les catégories de l’appareil, telles que l’imprimante ou l’appareil photo.
 ms.assetid: c435770e-57c5-4527-9bcb-c44d8c84b4f8
 title: System.Devices.AepContainer.Categories
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd2eb20a64f8cf005bda3d1425b2dfb1ab74d42c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7bad3a455a7beaf914d5f0d6b95aece308882e2
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528960"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262411"
 ---
 # <a name="systemdevicesaepcontainercategories"></a>System.Devices.AepContainer.Categories
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

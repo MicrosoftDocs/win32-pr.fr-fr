@@ -1,17 +1,17 @@
 ---
 title: CLSID
-description: Associe un ProgID à un CLSID.
+description: En savoir plus sur la clé de Registre HKEY_LOCAL_MACHINE\SOFTWARE\Classes, qui associe un ProgID à un CLSID.
 ms.assetid: 8f2be90c-360a-410c-81aa-bae9ae2c1a21
 keywords:
 - Clé de Registre CLSID (ProgID) COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461f79e9967d065b3d0750229eaa1c1b4200000c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d2a1f491370f497d0fdd3014996c189ed04c8ba
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196575"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262581"
 ---
 # <a name="clsid"></a>CLSID
 
@@ -21,17 +21,17 @@ Associe un ProgID à un CLSID.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes
-   {ProgID}
-      CLSID = CLSID
+   {ProgID}
+      CLSID = CLSID
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** qui spécifie le CLSID de l’objet.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Attributs avec plusieurs valeurs (kit de développement logiciel (SDK) Windows Media format 11)
-description: Attributs avec plusieurs valeurs
+description: En savoir plus sur les attributs avec plusieurs valeurs dans le kit de développement logiciel (SDK) Windows Media format 11. Certains attributs d’éléments multimédias peuvent avoir plusieurs valeurs.
 ms.assetid: 2e65c5d0-6f5e-45a4-8e13-9e49da007145
 keywords:
 - Windows Media Format SDK, attributs
@@ -9,12 +9,12 @@ keywords:
 - attributs, valeurs multiples
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 928aee154f9f824168ce08470702b49c23ba2c0a
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e9466cd3f993cc1b12f27bc162e5188e6d45404b
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032204"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262691"
 ---
 # <a name="attributes-with-multiple-values-windows-media-format-11-sdk"></a>Attributs avec plusieurs valeurs (kit de développement logiciel (SDK) Windows Media format 11)
 

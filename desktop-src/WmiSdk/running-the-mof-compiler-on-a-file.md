@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Exécution du compilateur MOF sur un fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1605544e05f59670f9e6fd73fcd8c01862b46c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77f62834944e995c3e7f3763c460d72f9f70aa66
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202174"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230238"
 ---
 # <a name="running-the-mof-compiler-on-a-file"></a>Exécution du compilateur MOF sur un fichier
 
@@ -22,7 +22,7 @@ Tant que vous n’avez pas exécuté le compilateur MOF, [**Mofcomp.exe**](mofco
 
 1.  Appelez le compilateur MOF à partir de la ligne de commande, en utilisant la syntaxe suivante.
 
-    **mofcomp** *MOFfile * * *. mof**
+    **mofcomp** _MOFfile_**. mof**
 
     Le compilateur MOF prend en charge différents commutateurs pour contrôler les situations de traitement spéciales. Tous les commutateurs sont facultatifs, et toute combinaison de commutateurs est autorisée. Toutefois, il n’est pas judicieux d’utiliser certains commutateurs en combinaison avec d’autres. Par exemple, pour combiner les commutateurs **-Class : updateonly** et **-Class : CreateOnly** , le compilateur n’effectue aucune action.
 

@@ -1,15 +1,15 @@
 ---
-description: N’importe quel analyseur de paquets réseau pouvant afficher des paquets bruts peut être utilisé pour inspecter les demandes d’échange de métadonnées HTTP. Moniteur réseau Microsoft 3 (NetMon) est recommandé. Pour plus d’informations sur NetMon, consultez le téléchargement de Netmon et des exemples de filtres DPWS.
+description: En savoir plus sur l’inspection des suivis réseau à l’aide de la découverte directe. Un analyseur de paquets réseau qui affiche des paquets bruts peut inspecter les demandes d’échange de métadonnées HTTP.
 ms.assetid: 9b124117-06e7-4637-9863-0f9650861526
 title: Inspection des suivis réseau pour les applications à l’aide de la découverte dirigée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a424117896c18a5fcf84c883ba824b8223ef01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02d94ea3bc102c57c415be518883296e049490ca
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526929"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262121"
 ---
 # <a name="inspecting-network-traces-for-applications-using-directed-discovery"></a>Inspection des suivis réseau pour les applications à l’aide de la découverte dirigée
 

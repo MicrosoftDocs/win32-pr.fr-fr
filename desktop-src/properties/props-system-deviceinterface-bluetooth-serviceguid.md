@@ -1,15 +1,15 @@
 ---
-description: GUID du service Bluetooth.
+description: En savoir plus sur le GUID du service Bluetooth. Cette page de référence décrit la propriété System. DeviceInterface. Bluetooth. ServiceGuid.
 ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
 title: System. DeviceInterface. Bluetooth. ServiceGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e47317906b9480e91f765054b3b17375195335c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c8a8eea07a06e615dd5f0adbbf35a8074094ffc
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202679"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261951"
 ---
 # <a name="systemdeviceinterfacebluetoothserviceguid"></a>System. DeviceInterface. Bluetooth. ServiceGuid
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -5,12 +5,12 @@ title: Indicateurs d’option (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386678"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262061"
 ---
 # <a name="option-flags"></a>Indicateurs d’option
 
@@ -272,6 +272,15 @@ Les versions héritées de HTTP (1,1 et versions antérieures) ne peuvent pas ê
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_ENABLE_HTTP2_PLUS_CLIENT_CERT"></span><span id="winhttp_option_enable_http2_plus_client_cert"></span>**\_Option WinHTTP \_ activer \_ le \_ certificat du client http2 plus \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+Cette option peut être définie sur un handle de session WinHttp pour permettre à WinHttp d’utiliser le contexte de certificat client fourni par l’appelant lorsque le protocole HTTP/2 est utilisé.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_ENABLETRACING"></span><span id="winhttp_option_enabletracing"></span>**\_option WinHTTP \_ EnableTracing,**
 </dt> <dd> <dl> <dt>
 
@@ -383,6 +392,25 @@ Définit ou récupère une structure [**d' \_ \_ informations de version http**]
 
 
 </dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_KEEPALIVE"></span><span id="winhttp_option_http2_keepalive"></span>**\_Option WinHTTP \_ http2 \_ KeepAlive**
+</dt> <dd> <dl> <dt>
+
+
+Cette option peut être définie sur un handle de session pour que WinHttp utilise des trames PING HTTP/2 comme mécanisme KeepAlive. Les appelants spécifient un délai d’expiration en millisecondes et, après l’absence d’activité sur une connexion pour ce délai, WinHttp commence à envoyer des trames PING HTTP/2. Les appelants ne peuvent pas définir une valeur de délai d’expiration inférieure à 5000 millisecondes.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_PLUS_TRANSFER_ENCODING"></span><span id="winhttp_option_http2_plus_transfer_encoding"></span>**\_Option WinHTTP \_ http2 \_ plus \_ \_ encodage de transfert**
+</dt> <dd> <dl> <dt>
+
+
+Cette option peut être définie sur un handle de demande WinHttp pour contrôler la façon dont WinHttp se comporte lorsqu’une réponse HTTP/2 contient un en-tête « Transfer-Encoding ». Dans ce cas, WinHttp retourne une erreur si cette option a la valeur **false**.
+
+
+</dt> </dl> </dd> <dt>
+
 
 <span id="WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE"></span><span id="winhttp_option_ignore_cert_revocation_offline"></span>**\_option WinHTTP \_ Ignorer \_ la \_ révocation de certificat \_ hors connexion**
 </dt> <dd> <dl> <dt>
@@ -688,6 +716,26 @@ Informations de minutage extrait pour la requête. Pour obtenir la liste des min
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_REQUIRE_STREAM_END"></span><span id="winhttp_option_require_stream_end"></span>**l' \_ option WinHTTP \_ nécessite une \_ fin de flux \_**
+</dt> <dd> <dl> <dt>
+
+
+Cette option indique à WinHttp d’ignorer les en-têtes de réponse « Content-Length » et de continuer à recevoir sur un flux jusqu’à ce que l’indicateur END_STREAM soit reçu.
+
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_RESOLUTION_HOSTNAME"></span><span id="winhttp_option_resolution_hostname"></span>**\_nom d' \_ hôte de résolution de l’option WinHTTP \_**
+</dt> <dd> <dl> <dt>
+
+
+Cette option peut être définie sur un handle de demande WinHttp avant son envoi. Si cette valeur est définie, WinHttp utilise la chaîne fournie par l’appelant comme nom d’hôte pour la résolution DNS.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_RESOLVE_TIMEOUT"></span><span id="winhttp_option_resolve_timeout"></span>**délai de résolution de l' \_ option WinHTTP \_ \_**
 </dt> <dd> <dl> <dt>
 
@@ -839,6 +887,16 @@ Permet d’inclure ou de supprimer le numéro de port du serveur lorsque le SPN 
 
 </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_STREAM_ERROR_CODE"></span><span id="winhttp_option_stream_error_code"></span>**\_code d' \_ erreur de flux d’options WinHTTP \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+Cette option peut être interrogée sur un handle de demande WinHttp et retourne le code d’erreur indiqué par une RST_STREAM Frame reçue sur un flux HTTP.
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**\_option WinHTTP \_ TCP \_ Fast \_ Open**
 </dt> <dd> <dl> <dt>
 
@@ -865,6 +923,16 @@ Cette option peut être définie sur un handle de session WinHttp pour activer l
 
 
 Active le démarrage TLS false pour la connexion.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_TLS_PROTOCOL_INSECURE_FALLBACK"></span><span id="winhttp_option_tls_protocol_insecure_fallback"></span>**\_option WinHTTP \_ \_ protocole TLS \_ non sécurisé de \_ secours**
+</dt> <dd> <dl> <dt>
+
+
+
+Cette option peut être définie sur un handle de session WinHttp pour contrôler si le recours à TLS 1,0 est autorisé en cas d’échec de la liaison TLS avec une version de protocole plus récente.
 
 
 </dt> </dl> </dd> <dt>
@@ -1031,6 +1099,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | OPTION WINHTTP- \_ \_ désactiver la \_ \_ file d’attente de flux<br/>**Boolean** | X | X | \- | X | Windows 10 version 1809 |
 | \_option WinHTTP \_ activer la \_ fonctionnalité<br/>**GRANDE** | \* | \* | \- | X | \- |
 | \_option WinHTTP \_ activer \_ le \_ protocole http<br/>**GRANDE** | X | X | \- | X | Windows 10 version 1607 |
+| \_Option WinHTTP \_ activer \_ le \_ \_ contexte de \_ certificat client http2 plus \_<br/>**Boolean** | X | \- | \- | X | Windows 10 version 21H1 |
 | \_option WinHTTP \_ EnableTracing,<br/>**GRANDE** | \- | \- | X | X | \- |
 | \_option WinHTTP \_ coder \_ extra<br/>**Boolean** | X | X | \- | X | Windows 10 version 1803 |
 | expiration de la connexion de l' \_ option WinHTTP \_ \_<br/>N/A | \- | X | \- | X | Windows 10 version 1903 |
@@ -1041,6 +1110,8 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | \_option WinHTTP \_ \_ protocole http \_ requis<br/>**Boolean** | X | X | \- | X | Windows 10 version 1903 |
 | \_option WinHTTP \_ \_ protocole http \_ utilisé<br/>**GRANDE** | \- | X | X | \- | Windows 10 version 1607 |
 | \_ \_ version http de l’option WinHTTP \_<br/>[**\_informations sur la version http \_**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X | \- |
+| \_Option WinHTTP \_ http2 \_ KeepAlive<br/>**GRANDE** | X | \- | \- | X | Windows 10 version 21H1 |
+| \_Option WinHTTP \_ http2 \_ plus \_ \_ encodage de transfert<br/>**Boolean** | X | X | \- | X | Windows 10 version 21H1 |
 | \_option WinHTTP \_ Ignorer \_ la \_ révocation de certificat \_ hors connexion<br/>**Boolean** | \- | X | \- | X | Windows 10 version 2004 |
 | \_Option WinHTTP \_ \_ Fast \_ Fallback IPv6<br/>**Boolean** | X | \- | \- | X | Windows 10 version 1903 |
 | l' \_ option WinHTTP \_ est une \_ \_ réponse de connexion proxy \_<br/>**Boolean** | X | X | X | \- | \- |
@@ -1069,6 +1140,8 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | priorité des demandes de l' \_ option WinHTTP \_ \_<br/>**GRANDE** | \- | X | X | X | \- |
 | \_statistiques des \_ demandes d’option WinHTTP \_<br/>[**\_statistiques des demandes WinHTTP \_**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10 version 1903 |
 | \_ \_ durées de demande de l’option WinHTTP \_<br/>[**\_durées des requêtes WinHTTP \_**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10 version 1903 |
+| l' \_ option WinHTTP \_ nécessite une \_ fin de flux \_<br/>**Boolean** | X | X | \- | X | Windows 10 version 21H1 |
+| \_nom d' \_ hôte de résolution de l’option WinHTTP \_<br/>**LPWSTR** | \- | X | \- | X | Windows 10 version 21H1 |
 | délai de résolution de l' \_ option WinHTTP \_ \_<br/>**GRANDE** | X | X | X | X | \- |
 | \_ \_ protocoles sécurisés option WinHTTP \_<br/>**GRANDE** | X | \- | \- | X | \- |
 | \_structure de \_ certificat de sécurité option \_ WinHTTP \_<br/>[**\_informations de certificat WinHTTP \_**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- | \- |
@@ -1081,9 +1154,11 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | \_contexte de \_ certificat de serveur d’option WinHTTP \_ \_<br/>[**CONTEXTE DU CERTIFICAT**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- | \- |
 | nom principal de service du \_ serveur option WinHTTP \_ \_ \_ utilisé<br/>**LPWSTR** | \- | X | X | \- | \- |
 | SPN de l' \_ option WinHTTP \_<br/>**GRANDE** | \- | X | \- | X | \- |
+| \_code d' \_ erreur de flux d’options WinHTTP \_ \_<br/>**GRANDE** | \- | X | X | \- | Windows 10 version 21H1 |
 | \_option WinHTTP \_ TCP \_ Fast \_ Open<br/>**Boolean** | X | \- | \- | X | Windows 10 version 2004 |
 | \_option WinHTTP \_ TCP \_ KeepAlive<br/>[**\_KeepAlive TCP**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 version 2004 |
 | OPTION WINHTTP-début de la \_ \_ \_ valeur TLS false \_<br/>**Boolean** | X | \- | \- | X | Windows 10 version 2004 |
+| \_option WinHTTP \_ \_ protocole TLS \_ non sécurisé de \_ secours<br/>**Boolean** | X | \- | \- | X | Windows 10 version 21H1 |
 | \_événement de \_ notification de déchargement d’option WinHTTP \_ \_<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | \_option WinHTTP \_ \_ -analyse d’en-tête non sécurisé \_<br/>**GRANDE** | \- | X | \- | X | \- |
 | \_option WinHTTP \_ mettre à niveau \_ vers \_ Web \_ Socket<br/>N/A | \- | X | \- | X | \- |
@@ -1103,7 +1178,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 
 ## <a name="requirements"></a>Spécifications
 
-| Condition requise | Value |
+| Condition requise | Valeur |
 |--------------------------|---------------------------------------------------------------------------------|
 | Client minimal pris en charge | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]            |
 | Serveur minimal pris en charge | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]         |

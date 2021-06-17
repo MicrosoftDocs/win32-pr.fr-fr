@@ -1,15 +1,15 @@
 ---
-description: Avant de pouvoir écrire des événements dans une session de trace, vous devez inscrire votre fournisseur.
+description: En savoir plus sur l’écriture d’événements basés sur un manifeste dans une session de suivi. Commencez par inscrire votre fournisseur, afin qu’il soit prêt à écrire des événements dans une session de trace.
 ms.assetid: 76e7202e-74ce-40a3-a04b-9af5117fe20e
 title: Écriture d’événements basés sur un manifeste
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08a1817defe85e68860d8a628a2d3275034ce285
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: bc2887194d731ca93379b07c9929de239cef3cdb
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113963"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261961"
 ---
 # <a name="writing-manifest-based-events"></a>Écriture d’événements basés sur un manifeste
 
