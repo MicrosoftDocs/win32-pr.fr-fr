@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. Calendar. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: 88873d45-2f9b-477b-87d4-ea269afb42ae
 title: System. PropGroup. Calendar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d2427cdd5bb6d411d0e7212d2809ba34da06bbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bef2b32609b52a4a621193bb5d8a417967718d3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210318"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404892"
 ---
 # <a name="systempropgroupcalendar"></a>System. PropGroup. Calendar
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

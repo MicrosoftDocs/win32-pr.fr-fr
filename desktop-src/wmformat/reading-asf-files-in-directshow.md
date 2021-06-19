@@ -1,6 +1,6 @@
 ---
 title: Lecture de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
-description: Lecture de fichiers ASF dans DirectShow
+description: La lecture des fichiers ASF est gérée par le filtre de lecteur ASF WM. En savoir plus sur la lecture de fichiers ASF dans DirectShow dans le kit de développement logiciel (SDK) Windows Media format 11.
 ms.assetid: eec2c91f-1762-4798-91d0-d68ec2160d6a
 keywords:
 - Windows Media Format SDK, DirectShow
@@ -22,12 +22,12 @@ keywords:
 - IMediaSeeking
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1ddf7ba34444f4a3b46f4413958bd26ba4bafc8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 4aaab64798011eb21edbe43f49438db99d0bae6b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317034"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404322"
 ---
 # <a name="reading-asf-files-in-directshow-windows-media-format-11-sdk"></a>Lecture de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
 

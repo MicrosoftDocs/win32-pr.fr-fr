@@ -1,15 +1,15 @@
 ---
-description: Journalisation du client
+description: En savoir plus sur la journalisation client pour Microsoft Media Foundation. La journalisation permet au serveur multimédia d’effectuer le suivi de l’activité des clients qui s’y connectent.
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: Journalisation du client (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3cb03c8026e91acd567358e7004211b7fdde4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201176"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409932"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>Journalisation du client (Microsoft Media Foundation)
 
@@ -63,7 +63,7 @@ Le tableau suivant décrit les champs du journal et les propriétés corresponda
 </tr>
 <tr class="odd">
 <td>c-hostexe</td>
-<td>Pour les entrées de journal du lecteur, le programme hôte (. exe) qui a été exécuté. Par exemple, une page Web dans un navigateur, une applet Microsoft Visual Basic ou un lecteur autonome. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/> Exemples de valeurs :<br/>
+<td>Pour les entrées de journal du lecteur, le programme hôte (.exe) qui a été exécuté. Par exemple, une page Web dans un navigateur, une applet Microsoft Visual Basic ou un lecteur autonome. Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/> Exemples de valeurs :<br/>
 <ul>
 <li>&quot;iexplore.exe&quot;</li>
 <li>&quot;myplayer.exe&quot;</li>
@@ -71,7 +71,7 @@ Le tableau suivant décrit les champs du journal et les propriétés corresponda
 </tr>
 <tr class="even">
 <td>c-hostexever</td>
-<td>Numéro de version du programme hôte (. exe). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/></td>
+<td>Numéro de version du programme hôte (.exe). Le client peut envoyer ces informations au serveur dans la propriété <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> .<br/> Le client envoie ces informations au serveur à la fin de la connexion.<br/></td>
 </tr>
 </tbody>
 </table>

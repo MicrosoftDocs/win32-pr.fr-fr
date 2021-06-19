@@ -1,6 +1,6 @@
 ---
 title: Énumération des groupes qui contiennent de nombreux membres
-description: Les membres d’un groupe sont stockés dans un attribut à valeurs multiples appelé member.
+description: En savoir plus sur l’énumération des groupes de Azure Active Directory qui contiennent de nombreux membres à l’aide de la récupération incrémentielle des données (récupération de plage).
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - groupes Active Directory, énumération de groupes avec de nombreux membres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2d9a5c9abc6e77ac72672379789d1028f92c3f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7cab63b809fdbd2666f39a09d32f601346da00e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104101453"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405152"
 ---
 # <a name="enumerating-groups-that-contain-many-members"></a>Énumération des groupes qui contiennent de nombreux membres
 
@@ -27,17 +27,17 @@ La version du serveur qui fournit les données demandées détermine le nombre m
 
 | Version du système d’exploitation du serveur | Valeurs maximales récupérées |
 |---------------------------------|--------------------------|
-| Windows 2000                    | 1 000                     |
+| Windows 2000                    | 1 000                     |
 | Windows Server 2003             | 1500                     |
 
 
 
- 
+ 
 
 Pour plus d’informations sur la récupération de plages de valeurs d’attribut avec ADSI, consultez [récupération de plage d’attributs](/windows/desktop/ADSI/attribute-range-retrieval).
 
 Pour plus d’informations sur la récupération de plages de valeurs d’attribut avec [System. DirectoryServices](/dotnet/api/system.directoryservices), consultez [énumération de membres dans un grand groupe](https://msdn.microsoft.com/library/ms180907(v=VS.80).aspx).
 
- 
+ 
 
- 
+ 

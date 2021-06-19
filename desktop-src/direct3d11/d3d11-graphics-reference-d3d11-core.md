@@ -1,15 +1,15 @@
 ---
 title: Référence principale de Direct3D 11
-description: L’API Direct3D définit plusieurs éléments d’API essentiels.
+description: Passez en revue les informations de référence sur l’API Direct3D 11, qui définit plusieurs éléments d’API essentiels.
 ms.assetid: 893fff90-6fcb-4f70-8d3a-1d7621baeeb4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf44965149412ec363e5f4fd85e67be5782e2a84
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 885a2a5db684f969698fcabb7d1d4ff9f004c127
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103734932"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405552"
 ---
 # <a name="direct3d-11-core-reference"></a>Référence principale de Direct3D 11
 

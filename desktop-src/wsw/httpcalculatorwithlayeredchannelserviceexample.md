@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithLayeredChannelServiceExample
-description: Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice avec un canal personnalisé et une implémentation d’écouteur qui se couche par-dessus HTTP.
+description: Consultez un exemple C++ de l’API des services Web Windows (WWSAPI) d’une calculatrice HTTP avec un service de canal superposé.
 ms.assetid: c5bc37bc-f242-4eda-abc4-510793d301d8
 keywords:
 - HttpCalculatorWithLayeredChannelServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 933e39cc687ecd057f112119ff9b47be9123deff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 277703f703051bfff77efbc01b14d25bd427a1f5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380077"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404142"
 ---
 # <a name="httpcalculatorwithlayeredchannelserviceexample"></a>HttpCalculatorWithLayeredChannelServiceExample
 
@@ -1080,9 +1080,9 @@ clean:
 
 ```
 
- 
+ 
 
- 
+ 
 
 
 

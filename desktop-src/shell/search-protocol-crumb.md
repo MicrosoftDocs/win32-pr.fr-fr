@@ -1,5 +1,5 @@
 ---
-description: L’argument de navigation prend en charge les instructions de syntaxe de requête avancée (AQS) complète et est particulièrement utile pour contrôler l’étendue d’une recherche.
+description: Découvrez comment utiliser l’argument de navigation dans l’interface utilisateur du shell Windows pour contrôler l’étendue d’une recherche.
 title: Argument de navigation (shell Windows)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7d38fff38c14a6b537bde068b92e19cedf53d5d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 543bc90647bbe1daed1a3a6d1f7bc54a4713a8ed
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973471"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403602"
 ---
 # <a name="crumb-argument-the-windows-shell"></a>Argument de navigation (shell Windows)
 
@@ -186,9 +186,9 @@ Le tableau suivant répertorie les valeurs de CSIDL. Pour plus d’informations,
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Système d’exploitation minimal | Windows Vista Service Pack 1 (SP1) |
+|                              | Valeur                                   |
+|------------------------------|-----------------------------------------|
+| **Système d’exploitation minimal** | Windows Vista Service Pack 1 (SP1) |
 
 
 

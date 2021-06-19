@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentNUp, qui décrit la sortie et le format de plusieurs pages logiques sur une seule feuille physique.
 ms.assetid: 941515a8-ba3f-47b9-9f3f-08a48122661a
 title: DocumentNUp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab531a2095e83aa35f3dff450270c2a5b4520d62
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8b49bd4fa3eb9f2b3b0083fc8022dbd6f41d090e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996286"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409262"
 ---
 # <a name="documentnup"></a>DocumentNUp
 
@@ -29,7 +29,7 @@ Le diagramme suivant illustre un exemple avec le document 1 contenant 3 pages et
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Document<br/>                                                                                                                             |

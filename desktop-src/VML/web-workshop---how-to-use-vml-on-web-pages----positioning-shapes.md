@@ -1,6 +1,6 @@
 ---
 title: Positionnement des formes
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit les formes de positionnement dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: dbd68f54-201a-48dc-a3a9-a8dd42178c11
 keywords:
 - Atelier Web, positionnement des formes
@@ -36,12 +36,12 @@ keywords:
 - retourner le style de position
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8e01d0c7962467b1894f0f4c2c6cd1f6b01509
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7c96a8de891ed1bbd1b9bfee9eff52ede946247b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031397"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407712"
 ---
 # <a name="positioning-shapes"></a>Positionnement des formes
 
@@ -50,7 +50,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Vous avez appris à dessiner et à colorier des formes sur une page Web à l’aide de VML. Dans cette rubrique, vous allez utiliser VML pour positionner les graphiques avec précision sur une page Web.
 
@@ -221,7 +221,7 @@ Vous pouvez utiliser l’attribut **Flip** style pour retourner une forme sur so
 
 
 
- 
+ 
 
 X et y peuvent être spécifiés dans la propriété Flip.
 
@@ -239,6 +239,6 @@ En fonction de ce que vous avez appris, vous pouvez positionner précisément un
 4.  Utilisez la **largeur** et la **hauteur** pour spécifier la taille de la zone conteneur pour la forme.
 5.  Utilisez **z-index** pour spécifier l’ordre de plan de la forme.
 
- 
+ 
 
- 
+ 

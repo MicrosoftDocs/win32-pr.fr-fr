@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur les limitations imposées par le schéma PrintCapabilities. Le fournisseur PrintCapabilities doit détecter les configurations non valides et les résoudre.
 ms.assetid: 420c5c84-abb8-495a-9b74-dc19a16034fb
 title: Limitations de Schema-Imposed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dc283704ea96e3303de6755a217e454b506bdc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0ee2911d4b90ebc194aa245f398f71575496c877
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106523766"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404922"
 ---
 # <a name="schema-imposed-limitations"></a>Limitations de Schema-Imposed
 

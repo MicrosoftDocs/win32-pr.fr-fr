@@ -1,15 +1,15 @@
 ---
 title: Pointeurs (RPC)
-description: Pointeurs
+description: En savoir plus sur un pointeur commun RPC, qui est défini comme tout autre que les pointeurs d’interface et les pointeurs de nombre d’octets.
 ms.assetid: 9756E637-BCBB-48F1-B962-25AF2C917921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cabf5109506bc1e194a39c809bfb43a8f952fbf
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 06e41a0b6208745b543a9efe2fe22ab090046778
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102652"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406592"
 ---
 # <a name="pointers-rpc"></a>Pointeurs (RPC)
 

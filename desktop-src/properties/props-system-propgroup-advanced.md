@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. Advanced. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: af962d0d-5f20-4cc4-b28d-986f16689f23
 title: System. PropGroup. Advanced
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30c6b48fbabb26cefac19adfad6c0e0bb6dfdc59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b6ec22421cb63af7048442bd4d7a99e2a39a7ea
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210319"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403882"
 ---
 # <a name="systempropgroupadvanced"></a>System. PropGroup. Advanced
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

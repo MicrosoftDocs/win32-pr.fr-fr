@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cette vue d’ensemble décrit le schéma d’impression et les liens vers les rubriques de référence du schéma d’impression. Le schéma d’impression comprend les mots clés du schéma d’impression et le Framework.
 ms.assetid: d746bdd1-96c2-41f5-ad99-0b51c8ee8731
 title: Référence du schéma d’impression hérité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 881e986501950108c06e1e92303d13dc06265aae
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 81a8f417d20913563cfd4a52ba51d21b516e73f0
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106538441"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407132"
 ---
 # <a name="legacy-print-schema-reference"></a>Référence du schéma d’impression hérité
 

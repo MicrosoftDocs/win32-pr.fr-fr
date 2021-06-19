@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentBinding, qui décrit la méthode de liaison. DocumentBinding et JobBindAllDocuments s’excluent mutuellement.
 ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da4aeb31acb72932bbf272d52676b7795abe8311
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bf2b8f44c90cdef37a6599bf25904949748c82ba
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996296"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409462"
 ---
 # <a name="documentbinding"></a>DocumentBinding
 
@@ -25,7 +25,7 @@ Décrit la méthode de liaison. Chaque document est lié séparément. DocumentB
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Document<br/>                                                                                                                             |

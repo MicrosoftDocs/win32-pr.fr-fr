@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cette vue d’ensemble de la fonctionnalité PrintTicket décrit le format permettant d’exprimer les informations de configuration de l’appareil et l’utilisation d’un PrintTicket.
 ms.assetid: c48b9821-9194-47d9-a3ec-b10dbbdf14cc
 title: Vue d’ensemble de la fonctionnalité PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a70945fcc18e08615a9674a90a023f4ee12a76e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e90aa6f967f5fce25977b52a4d0bec7e9e1ea705
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106535756"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408542"
 ---
 # <a name="overview-of-printticket-functionality"></a>Vue d’ensemble de la fonctionnalité PrintTicket
 

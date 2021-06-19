@@ -1,15 +1,15 @@
 ---
-description: Création de fichiers ASF dans DirectShow
+description: En savoir plus sur la création de fichiers ASF dans DirectShow. ASF est un format de conteneur qui peut contenir n’importe quel type de données.
 ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: Création de fichiers ASF dans DirectShow (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11f5c9ebac0b14b736c47599ee25a1c1c28dd8f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d4614ed813c2e9f51c77cd8773739188aa5d4d07
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515545"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403963"
 ---
 # <a name="creating-asf-files-in-directshow-directshow"></a>Création de fichiers ASF dans DirectShow (DirectShow)
 

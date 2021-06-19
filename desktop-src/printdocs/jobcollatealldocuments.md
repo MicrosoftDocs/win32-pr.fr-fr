@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Découvrez comment l’élément JobCollateAllDocuments décrit les caractéristiques de classement de la sortie. Tous les documents de chaque travail individuel sont assemblés.
 ms.assetid: 64fcd03f-8e0a-498d-82ea-0c69be0a3886
 title: JobCollateAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e7d3ba5b55ece6d7237846ae8ef969c0a3d17e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: e75eb21fcd518f0fda4edd4c3c4eff721a6a5b17
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998356"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409062"
 ---
 # <a name="jobcollatealldocuments"></a>JobCollateAllDocuments
 
@@ -43,7 +43,7 @@ OFF : pour toutes les copies (JobCopiesAllDocuments x DocumentCopiesAllPages) i
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

@@ -1,15 +1,15 @@
 ---
-description: Cet exemple d’application utilise les API audio de base pour afficher les données audio sur un périphérique de sortie spécifié par l’utilisateur.
+description: Cet exemple d’application, qui illustre la mise en mémoire tampon pilotée par les événements, utilise les API audio de base pour afficher les données audio sur un périphérique de sortie spécifié par l’utilisateur.
 ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: RenderExclusiveEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d3b94fa423cd4d4e7dc7121e927696529bfadf9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75553496219d0a4ddaf6685089de802e034f94cb
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033706"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405132"
 ---
 # <a name="renderexclusiveeventdriven"></a>RenderExclusiveEventDriven
 
@@ -31,7 +31,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [API MMDevice](mmdevice-api.md) pour l’énumération et la sélection des appareils multimédias.
 -   WASAPI pour les opérations de gestion de flux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

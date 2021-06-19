@@ -1,15 +1,15 @@
 ---
-description: Aperçu de la vidéo
+description: 'Cet exemple crée un graphique d’aperçu vidéo à l’aide de la méthode ICaptureGraphBuilder2 :: RenderStream dans DirectShow.'
 ms.assetid: 9b401de1-910a-41f7-bf80-dda73ee4a204
 title: Aperçu de la vidéo (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0a8f0d0a422794c4e887693e80391a99bd8d70
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 482fed2e164bbe867d848b05d417c89d0790256f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104570009"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406892"
 ---
 # <a name="previewing-video-directshow"></a>Aperçu de la vidéo (DirectShow)
 

@@ -1,15 +1,15 @@
 ---
-description: Étape 5.
+description: Stocke un pointeur vers un filtre dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.
 ms.assetid: 7c715129-5bdf-468f-96cd-a46ab9c97f4c
 title: Étape 5. Stocker un pointeur vers le filtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eff096c6afcf830494ef02920176d8f80a3b9569
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aa1e98e98fcc0f41d07774b8a2d1ab93dea8d0c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209729"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406792"
 ---
 # <a name="step-5-store-a-pointer-to-the-filter"></a>Étape 5. Stocker un pointeur vers le filtre
 

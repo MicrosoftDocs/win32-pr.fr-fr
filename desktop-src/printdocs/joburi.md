@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobURI, qui spécifie un URI (Uniform Resource Identifier) pour le document.
 ms.assetid: c7abb657-6c9d-435a-a700-2eb0f14707c0
 title: JobURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c80611a4e7dbd10f4841fae098578f0a8fdc96
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: ecc145ac9a393c09ecab762b84e9ac7d58870ddf
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993886"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408612"
 ---
 # <a name="joburi"></a>JobURI
 
@@ -25,7 +25,7 @@ Spécifie un URI (Uniform Resource Identifier) pour le document.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>      |

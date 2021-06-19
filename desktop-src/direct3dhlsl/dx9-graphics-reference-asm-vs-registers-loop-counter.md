@@ -1,6 +1,6 @@
 ---
 title: Registre de compteur de boucles (référence HLSL VS)
-description: Le seul registre de cette banque est le Registre du compteur de boucles actuel (aL).
+description: En savoir plus sur le registre de compteur de boucle pour les nuanceurs de vertex. Le seul registre de cette banque est le Registre du compteur de boucles actuel (aL).
 ms.assetid: b32fabf8-38d3-446c-bb80-c647d5aa028d
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b12f57ba3fcfcb41aaff3827be39dbd1b6b07df1
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
-ms.translationtype: HT
+ms.openlocfilehash: 8fb728420dc48c6cb67d5973085845b0eab742a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104381256"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405772"
 ---
 # <a name="loop-counter-register-hlsl-vs-reference"></a>Registre de compteur de boucles (référence HLSL VS)
 
@@ -27,9 +27,9 @@ Le seul registre de cette banque est le Registre du compteur de boucles actuel (
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

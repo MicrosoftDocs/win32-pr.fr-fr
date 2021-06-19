@@ -1,6 +1,6 @@
 ---
 title: Regroupement de formes
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit le regroupement de formes dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: 469c9e4d-d1ae-4285-b2cb-ac833ebe59ff
 keywords:
 - Atelier Web, regroupement de formes
@@ -21,12 +21,12 @@ keywords:
 - espace de coordonnées local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59eed282094e2d24d2d27e338b93731eaaa1eec0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 61e0c3073f55d23c15734b5d5ddfa886e7291530
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031758"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407702"
 ---
 # <a name="grouping-shapes"></a>Regroupement de formes
 
@@ -35,7 +35,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Comme vous l’avez appris, vous pouvez facilement dessiner des formes individuelles à l’aide de VML. Dans cette section, nous allons expliquer les avantages du regroupement de formes et la façon de regrouper des formes.
 
@@ -86,6 +86,6 @@ Pour plus d’informations sur cet élément, consultez la [spécification VML](
 
 Vous pouvez utiliser l' `<group>` élément pour regrouper de nombreuses formes afin qu’elles puissent être transformées en une seule unité.
 
- 
+ 
 
- 
+ 

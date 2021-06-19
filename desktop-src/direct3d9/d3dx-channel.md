@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les indicateurs utilisés pour spécifier les canaux à utiliser dans une texture, comme D3DX \_ Channel \_ Red.
+description: En savoir plus sur les indicateurs de D3DX_CHANNEL utilisés pour spécifier les canaux sur lesquels traiter une texture, par exemple D3DX_CHANNEL_RED.
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f2725644295ac85d892799033cdac1d8f83416
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d1fa9d5df75011e62034d814549202f14fe7cdba
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342904"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408252"
 ---
 # <a name="d3dx_channel"></a>\_Chaîne D3DX
 

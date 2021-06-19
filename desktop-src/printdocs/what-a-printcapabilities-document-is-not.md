@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Découvrez quelques-unes des fonctionnalités et des informations que le document PrintCapabilities n’est pas destiné à fournir.
 ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: Ce qu’est un document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6e18082a5e551f3997dad8b9688d84ff2f824a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8bcd5dbedf6ee3a7e2713bd3591b182c606cfb0c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106535117"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409892"
 ---
 # <a name="what-a-printcapabilities-document-is-not"></a>Ce qu’est un document PrintCapabilities
 

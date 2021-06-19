@@ -1,15 +1,15 @@
 ---
-description: Chemin d’accès d’affichage convivial de l’élément.
+description: En savoir plus sur la propriété System. ItemPathDisplay, qui représente le chemin d’affichage convivial de l’élément.
 ms.assetid: 27e4490b-7914-4b38-9799-e9d5dc407f13
 title: System. ItemPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb76a4218e7e7580ec70cb57dd16c635ca024ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ddad0edbc1a77a3de1fab7956d8ce6e6f906f06
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115458"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403902"
 ---
 # <a name="systemitempathdisplay"></a>System. ItemPathDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

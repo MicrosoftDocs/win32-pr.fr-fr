@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Un préfixe d’étendue est une étiquette textuelle pré-ajoutée à un mot clé de schéma pour fournir une étendue contextuelle, y compris le travail, le document et la page.
 ms.assetid: 4bad85d7-a933-43fe-9d79-4835d92c82d6
 title: Préfixe d’étendue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef74be192671124872e19e87973a266da4a09226
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b2c027de94fda403eb58905e536d8c6256cb2d6c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103869625"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404902"
 ---
 # <a name="scoping-prefix"></a>Préfixe d’étendue
 

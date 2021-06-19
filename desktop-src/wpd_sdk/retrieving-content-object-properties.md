@@ -1,15 +1,15 @@
 ---
 title: Récupération des propriétés de l’objet WPD
-description: Récupération des propriétés de l’objet
+description: L’application WpdServiceApiSample montre comment une application peut récupérer les propriétés de Content-Object prises en charge par un service de contacts donné.
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2c206b6e3afe75144ce10de615657e788d6d1c
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 98e57258993d0a81f68042195db2caf338c97c53
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424059"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404312"
 ---
 # <a name="retrieving-wpd-object-properties"></a>Récupération des propriétés de l’objet WPD
 

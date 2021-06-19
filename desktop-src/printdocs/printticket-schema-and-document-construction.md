@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur le format PrintTicket, qui exprime les informations de configuration à l’aide de l’infrastructure de schéma d’impression XML.
 ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: Schéma PrintTicket et construction de document
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffe386638a7f119c52982f1911d602691455343f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5998aeb534bbbeb16681a4136cf33425a7eefad7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211323"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405432"
 ---
 # <a name="printticket-schema-and-document-construction"></a>Schéma PrintTicket et construction de document
 

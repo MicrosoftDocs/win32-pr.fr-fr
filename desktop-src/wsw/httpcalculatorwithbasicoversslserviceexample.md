@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice sur HTTP, avec la sécurité de transport SSL et l’authentification de base d’en-tête HTTP.
+description: Consultez un exemple C++ de l’API des services Web Windows (WWSAPI) d’une calculatrice HTTP avec un service de base sur SSL.
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18517b52bf0a623877dc2d04b28daa177f1a9e81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512279"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404152"
 ---
 # <a name="httpcalculatorwithbasicoversslserviceexample"></a>HttpCalculatorWithBasicOverSslServiceExample
 
@@ -407,9 +407,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

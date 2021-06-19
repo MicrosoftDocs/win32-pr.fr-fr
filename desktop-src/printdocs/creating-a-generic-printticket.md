@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Apprenez à construire un PrintTicket générique, si le document PrintCapabilities pour l’appareil n’est pas disponible.
 ms.assetid: 1f991b6b-8443-4234-ad46-dc4220e34c5c
 title: Création d’un PrintTicket générique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c34281eda82a48ea0ac4077248547522ddc305ea
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 69e611205663138b9cc3c0d3cd315c2c19d2d7e6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106523115"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409522"
 ---
 # <a name="creating-a-generic-printticket"></a>Création d’un PrintTicket générique
 

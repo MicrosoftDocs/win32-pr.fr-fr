@@ -1,6 +1,6 @@
 ---
 title: Éléments de schéma mspeapuserpropertiesv1
-description: Se compose des éléments de schéma suivants.
+description: En savoir plus sur les éléments de schéma du schéma mspeapuserpropertiesv1, notamment EapType et PeapExtensions.
 ms.assetid: 39a16a9c-6c04-4318-b347-3e1008e9a5c4
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 57eebf32ed547c39c644a23b3650d4319f86c4ba
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 7df89f73f18961b38201a4373c2e95028aaecfc5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104313804"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406922"
 ---
 # <a name="mspeapuserpropertiesv1-schema-elements"></a>Éléments de schéma mspeapuserpropertiesv1
 
@@ -33,9 +33,9 @@ Le schéma [mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md) se c
 [Schéma mspeapuserpropertiesv1](mspeapuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

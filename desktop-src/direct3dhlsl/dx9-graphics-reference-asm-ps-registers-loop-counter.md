@@ -1,6 +1,6 @@
 ---
 title: Registre de compteur de boucles (référence du PS HLSL)
-description: Le seul registre de cette banque est le Registre du compteur de boucles actuel (aL).
+description: En savoir plus sur le registre de compteur de boucle pour les nuanceurs de pixels. Le seul registre de cette banque est le Registre du compteur de boucles actuel (aL).
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47582552b7e32ede7cd83637cbc3900494dfd611
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: b2a2f7f42c83308fa72ceae2875c35c600dfd7db
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679226"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405512"
 ---
 # <a name="loop-counter-register-hlsl-ps-reference"></a>Registre de compteur de boucles (référence du PS HLSL)
 
@@ -28,7 +28,7 @@ Le seul registre de cette banque est le Registre du compteur de boucles actuel (
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -37,9 +37,9 @@ Le seul registre de cette banque est le Registre du compteur de boucles actuel (
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

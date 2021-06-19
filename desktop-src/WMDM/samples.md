@@ -1,6 +1,6 @@
 ---
 title: Exemples WMDM
-description: Exemples
+description: Découvrez comment compiler et exécuter ces exemples dans le kit de développement logiciel (SDK) Gestionnaire de périphériques Windows Media et comment les exemples fonctionnent.
 ms.assetid: 5e58ba53-3c3c-4492-8b87-7e50d10e655f
 keywords:
 - Gestionnaire de périphériques Windows Media, exemples
@@ -11,12 +11,12 @@ keywords:
 - exemples, fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4c5a2a346ba4e165dacf11bb8fee9d9d604c0c8
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: cf3ba0d7b91736940efe6b9f85e9f6043a721be1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104381265"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406492"
 ---
 # <a name="wmdm-samples"></a>Exemples WMDM
 
@@ -34,9 +34,9 @@ Ces deux projets sont documentés dans les sections suivantes :
 [**Prise en main**](getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

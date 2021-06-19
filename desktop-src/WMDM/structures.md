@@ -1,6 +1,6 @@
 ---
 title: Structures WMDM
-description: Structures
+description: Cet article contient des Articles de référence sur les structures définies par Windows Media Gestionnaire de périphériques, telles que _BITMAPINFOHEADER et MTP_COMMAND_DATA_IN.
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
 - Gestionnaire de périphériques Windows Media, structures
@@ -9,12 +9,12 @@ keywords:
 - informations de référence sur les Gestionnaire de périphériques Windows Media, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903aa07bbe3d01029eb2020b521523b545843f2a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 7cc49deb3f4dd28695f5e0e7c3a871c53fa96300
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104381259"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406502"
 ---
 # <a name="wmdm-structures"></a>Structures WMDM
 
@@ -43,7 +43,7 @@ Windows Media Gestionnaire de périphériques définit les structures suivantes.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -52,9 +52,9 @@ Windows Media Gestionnaire de périphériques définit les structures suivantes.
 [**Guide de référence de programmation**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobID, qui spécifie un ID unique pour le travail. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd2d77d185ab7edc611a82f94a2ce92428d9f167
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2bfd17d068f34b56d45e4851c06b7ed1d9bd6fcc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998136"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408882"
 ---
 # <a name="jobid"></a>JobID
 
@@ -25,7 +25,7 @@ Spécifie un ID unique pour le travail.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>      |

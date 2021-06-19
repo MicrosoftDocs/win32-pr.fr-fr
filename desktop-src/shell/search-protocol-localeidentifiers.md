@@ -1,5 +1,5 @@
 ---
-description: Les identificateurs InputLocale et keywordlocale aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des requêtes entrées par l’utilisateur et la langue des mots clés de syntaxe de requête avancée.
+description: Comprenez les arguments InputLocale et keywordlocale dans l’interface utilisateur du shell Windows, qui aide le moteur de recherche à utiliser les analyseurs lexicaux appropriés.
 title: Arguments de l’identificateur de paramètres régionaux (shell Windows)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 403e0338b61a4dedba37a620000e3fd82c91f383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34eab39e7ed956bf68048d9ce5861c12eedbbe7a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210309"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403592"
 ---
 # <a name="locale-identifier-arguments-the-windows-shell"></a>Arguments de l’identificateur de paramètres régionaux (shell Windows)
 
@@ -33,9 +33,9 @@ search:query=matthew&inputlocale=2072&keywordlocale=1033
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Système d’exploitation minimal | Windows Vista Service Pack 1 (SP1) |
+|                              | Valeur                                   |
+|------------------------------|-----------------------------------------|
+| **Système d’exploitation minimal** | Windows Vista Service Pack 1 (SP1) |
 
 
 

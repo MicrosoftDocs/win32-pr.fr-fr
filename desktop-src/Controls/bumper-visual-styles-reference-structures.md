@@ -1,15 +1,15 @@
 ---
 title: Structures (référence des styles visuels)
-description: Structures
+description: Cette référence de styles visuels comprend des articles sur les structures, tels que BP_ANIMATIONPARAMS et BP_PAINTPARAMS.
 ms.assetid: 11addbb0-b771-4f4b-93fc-94afd320d55b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f46700d143eb75b862234722d02b44653a30d5e
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: e5be28e16de20ca395c59ab108cdc2b1c8e79d2a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106543984"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405592"
 ---
 # <a name="structures-visual-styles-reference"></a>Structures (référence des styles visuels)
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobPrimaryCoverBack, qui décrit la feuille de couverture back. Chaque travail aura une feuille principale distincte.
 ms.assetid: 83626e3c-1ce8-4c91-b656-9f0c06c5b1ec
 title: JobPrimaryCoverBack
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc66aaf769f34eeba943d8a336b3404217f7c2c6
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9a840f03f73159cc4d00386ab59e5b34b7d663a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993946"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408702"
 ---
 # <a name="jobprimarycoverback"></a>JobPrimaryCoverBack
 
@@ -25,7 +25,7 @@ Décrit la feuille de couverture Back (final). Chaque travail aura une feuille p
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

@@ -1,15 +1,15 @@
 ---
-description: Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser dans une texture.
+description: En savoir plus sur les indicateurs de D3DX_FILTER utilisés pour spécifier les canaux sur lesquels traiter une texture, par exemple D3DX_FILTER_TRIANGLE.
 ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c83fd0b3e12d6b5bccb13f9c5fab5e078587dbd4
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 4c7580749eca2134f899356c4632d8171b147aa7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342864"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408222"
 ---
 # <a name="d3dx_filter"></a>\_Filtre D3DX
 
@@ -39,7 +39,7 @@ Les indicateurs suivants sont utilisés pour spécifier les canaux à utiliser d
 
 Chaque filtre valide doit contenir exactement l’un des indicateurs suivants : D3DX \_ filtre \_ None, D3DX \_ Filter \_ point, D3DX \_ Filter \_ Linear, D3DX \_ Filter \_ triangle ou D3DX \_ Filter \_ Box. En outre, vous pouvez utiliser l’opérateur OR pour spécifier zéro, un ou plusieurs des indicateurs facultatifs suivants avec un filtre valide : D3DX \_ Filter \_ miroir \_ U, D3DX \_ Filter \_ MIRROR \_ V, D3DX \_ filtre \_ MIRROR \_ avec, D3DX Filter \_ \_ miroir, D3DX \_ Filter \_ juxtaposition, D3DX \_ Filter \_ sRVB \_ in, D3DX \_ Filter sRVB \_ \_ out ou D3DX \_ Filter \_ sRGB.
 
-La spécification de \_ la valeur D3DX par défaut pour ce paramètre est généralement l’équivalent de la spécification de la valeur de filtre du \_ triangle de filtre D3DX \_ \| \_ \_ . Toutefois, D3DX \_ default peut avoir différentes significations, en fonction de la méthode qui utilise le filtre. Par exemple :
+La spécification de \_ la valeur D3DX par défaut pour ce paramètre est généralement l’équivalent de la spécification de la valeur de filtre du \_ triangle de filtre D3DX \_ \| \_ \_ . Toutefois, D3DX \_ default peut avoir différentes significations, en fonction de la méthode qui utilise le filtre. Exemple :
 
 -   Quand vous utilisez [**D3DXCreateTextureFromFileEx**](d3dxcreatetexturefromfileex.md), la \_ valeur par défaut de D3DX est mappée au triangle de filtre D3DX de filtre \_ \_ \| \_ \_ .
 -   Quand vous utilisez [**D3DXFilterTexture**](d3dxfiltertexture.md), \_ la valeur par défaut de D3DX est mappée à \_ la zone de filtre D3DX \_ si la taille de la texture est une puissance de deux et le filtre de la zone de filtre D3DX dans le \_ \_ \| \_ \_ cas contraire.

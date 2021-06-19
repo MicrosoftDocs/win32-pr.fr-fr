@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+description: Cet article présente les meilleures pratiques et les questions fréquemment posées sur la création et l’inscription de gestionnaires de propriétés pour fonctionner avec le système de propriétés Windows.
 ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
 title: Meilleures pratiques pour le gestionnaire de propriétés et FAQ
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5188e66f08f3c6cf449f8bc61feb6aac829d37c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5605c39f1021fcfe91259405bb99f8981510d3dc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210351"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405952"
 ---
 # <a name="property-handler-best-practices-and-faq"></a>Meilleures pratiques pour le gestionnaire de propriétés et FAQ
 

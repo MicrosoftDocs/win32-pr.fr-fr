@@ -1,15 +1,15 @@
 ---
-description: Les identificateurs InputLocale et keywordlocale aident le moteur de recherche à utiliser les analyseurs lexicaux appropriés en identifiant la langue des requêtes entrées par l’utilisateur et la langue des mots clés de syntaxe de requête avancée.
+description: Comprenez les arguments InputLocale et keywordlocale dans Windows Search, qui aide le moteur de recherche à utiliser les analyseurs lexicaux appropriés.
 ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
 title: Arguments de l’identificateur de paramètres régionaux (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cea1549a550e4bf6b8099241a6f3d2275860a983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe4c56e9c3fb5a84938d4779c7a3ebeb849b0787
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862181"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403752"
 ---
 # <a name="locale-identifier-arguments-windows-search"></a>Arguments de l’identificateur de paramètres régionaux (Windows Search)
 

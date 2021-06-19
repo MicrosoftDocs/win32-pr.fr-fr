@@ -1,16 +1,16 @@
 ---
 title: Interfaces d’administration dans Active Directory Domain Services
-description: Cette catégorie d’interfaces comprend les éléments suivants.
+description: Obtenir des liens vers des interfaces d’administration dans Active Directory Domain Services, telles que IDsAdminCreateObj et IDsAdminNewObj.
 ms.assetid: 9b9bcbe5-bad9-49ae-8c8f-f6c09542edbe
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66caeffbab2b0ee0be9a0369829fe9a992a85f7e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 29c4b5b9fbe49da84741236b1d2acc4081b583df
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671009"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404772"
 ---
 # <a name="admin-interfaces-in-active-directory-domain-services"></a>Interfaces d’administration dans Active Directory Domain Services
 
@@ -27,9 +27,9 @@ Cette catégorie d’interfaces comprend les éléments suivants.
 [Interfaces d’affichage dans Active Directory Domain Services](display-interfaces-in-active-directory-domain-services.md), [boîte de dialogue Sélecteur d’objets interfaces](object-picker-dialog-box-interfaces.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

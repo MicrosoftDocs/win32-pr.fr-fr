@@ -1,5 +1,5 @@
 ---
-description: Actualise le contenu du menu Démarrer. Utilisé uniquement avec les systèmes antérieurs à Windows XP.
+description: En savoir plus sur la méthode Shell. RefreshMenu, qui actualise le contenu du menu Démarrer. Utilisé uniquement avec les systèmes antérieurs à Windows XP.
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: Shell. RefreshMenu, méthode (shldisp. h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a5812312c846026f4e0c7d2a4f6a5f857a572a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 90020cd128f5cbc585bd7bc9ab33a8a81c745f8e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973255"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404532"
 ---
 # <a name="shellrefreshmenu-method"></a>Shell. RefreshMenu, méthode
 
@@ -45,7 +45,7 @@ Shell.RefreshMenu() As Integer
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonctionnalité fournie par **RefreshMenu** est gérée automatiquement sous Windows XP ou version ultérieure. N’appelez pas cette méthode sous ce système d’exploitation.
 

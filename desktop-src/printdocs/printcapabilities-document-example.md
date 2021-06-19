@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cet article contient un exemple de document PrintCapabilities. Les noms d’instance dans l’exemple sont donnés à titre d’illustration uniquement.
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: Exemple de document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a032958221f531186c5c6ec993102e574aefc315
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f3e2bf839e3e88e43a295912966f5b1906ef8f35
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106529547"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407102"
 ---
 # <a name="printcapabilities-document-example"></a>Exemple de document PrintCapabilities
 

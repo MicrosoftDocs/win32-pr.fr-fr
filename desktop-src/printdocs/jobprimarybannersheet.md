@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobPrimaryBannerSheet, qui décrit la feuille de bannière à générer pour le travail.
 ms.assetid: c8f9001e-9f92-405a-8f3a-bc59b47c9e35
 title: JobPrimaryBannerSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c438cd0f33bc7b3a80fc3e654e0d64831e3b6777
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 39922f65d71ea0cc6d6de6103bc159f79467038f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996926"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408752"
 ---
 # <a name="jobprimarybannersheet"></a>JobPrimaryBannerSheet
 
@@ -25,7 +25,7 @@ Décrit la feuille de bannière à générer pour le travail. La feuille de bann
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

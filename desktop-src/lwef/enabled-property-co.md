@@ -1,15 +1,15 @@
 ---
 title: Propriété Enabled (objet Command)
-description: Propriété activée
+description: En savoir plus sur la propriété de l’objet de commande activé. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: d9dcbdf0-ba35-4ebd-b6f2-f3c8bdfc0431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5999e396f61fbcc820bc1cec7deb0c603eb948e4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1dc0c65d5cfa0438fe9d61eac0c59e916731e057
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106509490"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407332"
 ---
 # <a name="enabled-property-command-object"></a>Propriété Enabled (objet Command)
 
@@ -33,7 +33,7 @@ Retourne ou définit une valeur indiquant si la **commande** est activée dans l
 
 | Partie      | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**Vrai**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Faux**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
+| *boolean* | Expression booléenne spécifiant si la **commande** est activée.<br/> <dl> <dt><span id="True"></span><span id="true"></span><span id="TRUE"></span>**True**</dt> <dd> La **commande** est activée.<br/> </dd> <dt><span id="False"></span><span id="false"></span><span id="FALSE"></span>**Fausses**</dt> <dd> La **commande** est désactivée.<br/> </dd> </dl> |
 
 
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si la **commande** est activée dans l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la propriété [**Enabled**](enabled-property.md) a la valeur **true**, la légende de l’objet de [**commande**](/windows/desktop/lwef/the-command-object) apparaît comme texte normal dans le menu contextuel du caractère lorsque l’application cliente est en entrée-active. Si la propriété **Enabled** a la **valeur false**, la légende apparaît comme texte non disponible (désactivé). Une **commande** désactivée n’est pas non plus accessible pour une entrée vocale.
 

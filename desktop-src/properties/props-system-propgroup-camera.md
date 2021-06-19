@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. Camera. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: 8354e1d1-9c8e-43d8-972f-b7c5c22bbc98
 title: System. PropGroup. Camera
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61b85d50b16715ee17189331a08d49ba07f852
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b65790c926098947403b8cf9a9af3736eee264b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756279"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403772"
 ---
 # <a name="systempropgroupcamera"></a>System. PropGroup. Camera
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,18 +1,18 @@
 ---
 title: Demande de routage pour les commentaires
-description: Les RFC (Request for Comments) sont une série de documents en cours qui traitent des technologies Internet et Internet.
+description: Cet article répertorie les demandes de commentaires (RFC) relatives à la demande de routage. Les RFC sont une série continue de documents qui traitent des technologies Internet.
 ms.assetid: 08d020f6-87b2-487e-8232-84d080c1037b
 keywords:
 - RFC, routage
 - Demande de commentaires, routage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1525bad7d54443b2c67adfba04c683f58ca0648
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 307299af9b4819d97ce6781a37ac4df0186a6378
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104314420"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404752"
 ---
 # <a name="routing-request-for-comments"></a>Demande de routage pour les commentaires
 
@@ -22,9 +22,9 @@ Les RFC (Request for Comments) sont une série de documents en cours qui traiten
 -   [RFC 2863](https://www.ietf.org/rfc/rfc2863.txt) – le groupe d’interfaces MIB, juin 2000
 -   [RFC 1354](https://www.ietf.org/rfc/rfc1354.txt) – table de transfert IP MIB, juillet, 1992
 
- 
+ 
 
- 
+ 
 
 
 

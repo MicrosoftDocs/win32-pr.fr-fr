@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Outre PrintCapabilities, le PrintTicket autorise l’ajout d’informations supplémentaires par les clients sous la forme d’éléments de propriété.
 ms.assetid: 00f1d2c4-3c71-4b64-b689-83b4399aa61d
 title: Informations de configuration non liées à PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26bbc1b37d430158d6e8c020aa5994fe4e28f4af
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 40e4ac332d6e9b106ab9d68c29d03366761c01d5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106525810"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409652"
 ---
 # <a name="configuration-information-not-related-to-printcapabilities"></a>Informations de configuration non liées à PrintCapabilities
 

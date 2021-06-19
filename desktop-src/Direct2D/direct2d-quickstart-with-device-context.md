@@ -1,17 +1,17 @@
 ---
 title: Démarrage rapide de Direct2D pour Windows 8
-description: Résume les étapes requises pour dessiner avec Direct2D et fournit un exemple de code.
+description: Résume les étapes requises pour dessiner avec Direct2D pour Windows 8 et fournit un exemple de code. Direct2D est une API de code natif pour la création de graphiques 2D.
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
 - Direct2D, exemple de code de rectangle de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e5cfbbf4e63e129a43bec783a64203e20e30a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 43442e57ed0949bdf39fc05ce1a69fded42b4b3d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106543413"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406142"
 ---
 # <a name="direct2d-quickstart-for-windows-8"></a>Démarrage rapide de Direct2D pour Windows 8
 
@@ -244,6 +244,6 @@ La méthode [**IDXGISwapChain ::P**](/windows/desktop/api/dxgi/nf-dxgi-idxgiswa
 
 Le code de cette rubrique montre les éléments de base d’une application Direct2D. Par souci de concision, la rubrique omet l’infrastructure d’application et le code de gestion des erreurs qui est caractéristique d’une application bien écrite.
 
- 
+ 
 
- 
+ 
