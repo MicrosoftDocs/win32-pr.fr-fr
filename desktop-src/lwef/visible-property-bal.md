@@ -1,15 +1,15 @@
 ---
 title: Visible, propriété (objet Balloon)
-description: Propriété visible
+description: En savoir plus sur la propriété visible de l’objet Balloon, qui retourne ou définit le paramètre visible pour le mot-bulle pour le caractère spécifié.
 ms.assetid: cbda7f69-889a-45a0-9549-d27eddfcec57
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba58993a3328a4c99dbe7da43b43460f6048bf57
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 93ac587fa649f2a8ccb5ea83ddc077050a8548d2
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032161"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396324"
 ---
 # <a name="visible-property-balloon-object"></a>Visible, propriété (objet Balloon)
 
@@ -41,7 +41,7 @@ Retourne ou définit le paramètre visible pour le mot-bulle pour le caractère 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous suivez un appel [**Speak**](speak-method.md) ou [**Song**](think-method.md) avec une instruction pour tenter de modifier la propriété de l’info-bulle, cela peut ne pas affecter l’état visible de l’info-bulle, car l’appel **Speak** ou **Song** est mis en file d’attente, mais pas l’appel de la définition de l’état visible de l’info-bulle. Par conséquent, définissez cette valeur uniquement quand aucun appel **Speak** ou **Song** n’est présent dans la file d’attente du caractère.
 

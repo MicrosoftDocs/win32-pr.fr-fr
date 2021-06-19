@@ -1,15 +1,15 @@
 ---
-description: Capture vidéo
+description: Découvrez comment utiliser Microsoft DirectShow pour écrire des applications de capture vidéo à l’aide des Articles liés dans cet article.
 ms.assetid: 92051a84-5011-42ed-be68-e8841552ca1b
 title: Capture vidéo (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e290c8fdc09b9b538369a9b1b347b1d6ad36285b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d63da84f74152c11e1126d11f6dfc450d8547b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519788"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396414"
 ---
 # <a name="video-capture-directshow"></a>Capture vidéo (DirectShow)
 

@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ GraphicsPathIterator.
 ms.assetid: 07408bce-88c7-43ef-b437-7b2ce37fca91
 title: PathIterator, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfe78e422873ff65bf1908ba766723b61843661
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69a7fb23096a03837d68030d3f78d4c25c773390
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972154"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395696"
 ---
 # <a name="pathiterator-functions"></a>PathIterator, fonctions
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Gr
 
 
 
-| Fonction plate                                                                                                                                                    | Méthode Wrapper                                                                                                                                                                                                     | Notes                                                                                                                                                                         |
+| Fonction plate                                                                                                                                                    | Méthode Wrapper                                                                                                                                                                                                     | Remarques                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePathIter ( \* \* itérateur GpPathIterator, GpPath \* chemin)<br/>                                                                    | [**GraphicsPathIterator :: GraphicsPathIterator (dans le \* chemin d’accès const GraphicsPath)**](/windows/win32/api/gdipluspath/nf-gdipluspath-graphicspathiterator-graphicspathiterator(constgraphicspathiterator_))<br/>                                                      | Crée un nouvel objet [**GraphicsPathIterator**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator) et l’associe à un objet GraphicsPath.                                    |
 | GpStatus WINGDIPAPI GdipDeletePathIter ( \* itérateur GpPathIterator)<br/>                                                                                     | GraphicsPathIterator :: ~ GraphicsPathIterator () <br/>                                                                                                                                                          | Libère les ressources utilisées par l’objet [**GraphicsPathIterator**](/windows/desktop/api/gdipluspath/nl-gdipluspath-graphicspathiterator) .                                                                |
