@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cet article contient un exemple de document PrintCapabilities. Les noms d’instance dans l’exemple sont donnés à titre d’illustration uniquement.
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: Exemple de document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a032958221f531186c5c6ec993102e574aefc315
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f3e2bf839e3e88e43a295912966f5b1906ef8f35
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106529547"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407102"
 ---
-# <a name="printcapabilities-document-example"></a><span data-ttu-id="bf0ce-104">Exemple de document PrintCapabilities</span><span class="sxs-lookup"><span data-stu-id="bf0ce-104">PrintCapabilities Document Example</span></span>
+# <a name="printcapabilities-document-example"></a><span data-ttu-id="4a02e-104">Exemple de document PrintCapabilities</span><span class="sxs-lookup"><span data-stu-id="4a02e-104">PrintCapabilities Document Example</span></span>
 
-<span data-ttu-id="bf0ce-105">Cette rubrique n’est pas à jour.</span><span class="sxs-lookup"><span data-stu-id="bf0ce-105">This topic is not current.</span></span> <span data-ttu-id="bf0ce-106">Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="bf0ce-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="4a02e-105">Cette rubrique n’est pas à jour.</span><span class="sxs-lookup"><span data-stu-id="4a02e-105">This topic is not current.</span></span> <span data-ttu-id="4a02e-106">Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span><span class="sxs-lookup"><span data-stu-id="4a02e-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="bf0ce-107">Remarque : l’espace de noms par défaut ne s’applique pas aux attributs XML.</span><span class="sxs-lookup"><span data-stu-id="bf0ce-107">Notes: The default namespace does not apply to XML Attributes.</span></span> <span data-ttu-id="bf0ce-108">Ils doivent être qualifiés explicitement par un préfixe.</span><span class="sxs-lookup"><span data-stu-id="bf0ce-108">They must be explicitly prefix-qualified.</span></span> <span data-ttu-id="bf0ce-109">Les noms d’instance utilisés dans l’exemple suivant sont donnés à titre d’illustration uniquement, bien qu’ils soient généralement conformes aux noms d’instance définis dans les mots clés du schéma d’impression.</span><span class="sxs-lookup"><span data-stu-id="bf0ce-109">Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.</span></span>
+<span data-ttu-id="4a02e-107">Remarque : l’espace de noms par défaut ne s’applique pas aux attributs XML.</span><span class="sxs-lookup"><span data-stu-id="4a02e-107">Notes: The default namespace does not apply to XML Attributes.</span></span> <span data-ttu-id="4a02e-108">Ils doivent être qualifiés explicitement par un préfixe.</span><span class="sxs-lookup"><span data-stu-id="4a02e-108">They must be explicitly prefix-qualified.</span></span> <span data-ttu-id="4a02e-109">Les noms d’instance utilisés dans l’exemple suivant sont donnés à titre d’illustration uniquement, bien qu’ils soient généralement conformes aux noms d’instance définis dans les mots clés du schéma d’impression.</span><span class="sxs-lookup"><span data-stu-id="4a02e-109">Instance names used in the following sample are for illustration only, although they generally conform to the instance names defined in the Print Schema Keywords.</span></span>
 
 ``` syntax
 <psf:PrintCapabilities xmlns:psf="http://schemas.microsoft.com/windows/2003/08/printing/printschemaframework" 
@@ -506,11 +506,11 @@ ms.locfileid: "106529547"
 </psf:PrintCapabilities>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="bf0ce-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="bf0ce-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="4a02e-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="4a02e-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="bf0ce-111">Spécification du schéma d’impression</span><span class="sxs-lookup"><span data-stu-id="bf0ce-111">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="4a02e-111">Spécification du schéma d’impression</span><span class="sxs-lookup"><span data-stu-id="4a02e-111">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

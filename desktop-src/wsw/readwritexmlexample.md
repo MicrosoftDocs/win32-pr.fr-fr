@@ -1,6 +1,6 @@
 ---
 title: ReadWriteXmlExample
-description: Cet exemple écrit XML dans une mémoire tampon XML, puis le lit à nouveau.
+description: Passez en revue un exemple de lecture/écriture XML qui utilise l’API des services Web Windows (WWSAPI). Cet exemple écrit XML dans une mémoire tampon XML, puis le lit à nouveau.
 ms.assetid: e9802e3c-c8a0-4b68-bba5-cdafb7250298
 keywords:
 - Services Web ReadWriteXmlExample pour Windows
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbc1571716c2f01a20c18743c1f73c7306c7b53b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3d83230f690098958ea396e830aaa54dace1f73
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939546"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404092"
 ---
-# <a name="readwritexmlexample"></a><span data-ttu-id="680a6-106">ReadWriteXmlExample</span><span class="sxs-lookup"><span data-stu-id="680a6-106">ReadWriteXmlExample</span></span>
+# <a name="readwritexmlexample"></a><span data-ttu-id="19db4-107">ReadWriteXmlExample</span><span class="sxs-lookup"><span data-stu-id="19db4-107">ReadWriteXmlExample</span></span>
 
-<span data-ttu-id="680a6-107">Cet exemple écrit XML dans une mémoire tampon XML, puis le lit à nouveau.</span><span class="sxs-lookup"><span data-stu-id="680a6-107">This example writes XML to an XML buffer, and then reads it back out.</span></span>
+<span data-ttu-id="19db4-108">Cet exemple écrit XML dans une mémoire tampon XML, puis le lit à nouveau.</span><span class="sxs-lookup"><span data-stu-id="19db4-108">This example writes XML to an XML buffer, and then reads it back out.</span></span>
 
--   [<span data-ttu-id="680a6-108">ReadWriteXml. cpp</span><span class="sxs-lookup"><span data-stu-id="680a6-108">ReadWriteXml.cpp</span></span>](#readwritexmlcpp)
--   [<span data-ttu-id="680a6-109">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="680a6-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="680a6-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="680a6-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="19db4-109">ReadWriteXml. cpp</span><span class="sxs-lookup"><span data-stu-id="19db4-109">ReadWriteXml.cpp</span></span>](#readwritexmlcpp)
+-   [<span data-ttu-id="19db4-110">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="19db4-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="19db4-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="19db4-111">Makefile</span></span>](#makefile)
 
-## <a name="readwritexmlcpp"></a><span data-ttu-id="680a6-111">ReadWriteXml. cpp</span><span class="sxs-lookup"><span data-stu-id="680a6-111">ReadWriteXml.cpp</span></span>
+## <a name="readwritexmlcpp"></a><span data-ttu-id="19db4-112">ReadWriteXml. cpp</span><span class="sxs-lookup"><span data-stu-id="19db4-112">ReadWriteXml.cpp</span></span>
 
 
 ```C++
@@ -462,7 +462,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="680a6-112">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="680a6-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="19db4-113">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="19db4-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -573,7 +573,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="680a6-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="680a6-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="19db4-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="19db4-114">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------
@@ -606,9 +606,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

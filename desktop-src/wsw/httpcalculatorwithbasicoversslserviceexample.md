@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice sur HTTP, avec la sécurité de transport SSL et l’authentification de base d’en-tête HTTP.
+description: Consultez un exemple C++ de l’API des services Web Windows (WWSAPI) d’une calculatrice HTTP avec un service de base sur SSL.
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample-services Web natifs
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18517b52bf0a623877dc2d04b28daa177f1a9e81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512279"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404152"
 ---
-# <a name="httpcalculatorwithbasicoversslserviceexample"></a><span data-ttu-id="c6e61-106">HttpCalculatorWithBasicOverSslServiceExample</span><span class="sxs-lookup"><span data-stu-id="c6e61-106">HttpCalculatorWithBasicOverSslServiceExample</span></span>
+# <a name="httpcalculatorwithbasicoversslserviceexample"></a><span data-ttu-id="3e145-106">HttpCalculatorWithBasicOverSslServiceExample</span><span class="sxs-lookup"><span data-stu-id="3e145-106">HttpCalculatorWithBasicOverSslServiceExample</span></span>
 
-<span data-ttu-id="c6e61-107">Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice sur HTTP, avec la sécurité de transport SSL et l’authentification de base d’en-tête HTTP.</span><span class="sxs-lookup"><span data-stu-id="c6e61-107">This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.</span></span> <span data-ttu-id="c6e61-108">Dans cette configuration, la connexion de transport est protégée (signée, chiffrée) par SSL, ce qui permet également l’authentification du serveur.</span><span class="sxs-lookup"><span data-stu-id="c6e61-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="c6e61-109">L’authentification du client est fournie par une paire nom d’utilisateur/mot de passe fournie dans les en-têtes HTTP à l’aide du schéma de base.</span><span class="sxs-lookup"><span data-stu-id="c6e61-109">Client authentication is provided by a username/password pair supplied in HTTP headers using the basic scheme.</span></span>
+<span data-ttu-id="3e145-107">Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice sur HTTP, avec la sécurité de transport SSL et l’authentification de base d’en-tête HTTP.</span><span class="sxs-lookup"><span data-stu-id="3e145-107">This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.</span></span> <span data-ttu-id="3e145-108">Dans cette configuration, la connexion de transport est protégée (signée, chiffrée) par SSL, ce qui permet également l’authentification du serveur.</span><span class="sxs-lookup"><span data-stu-id="3e145-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="3e145-109">L’authentification du client est fournie par une paire nom d’utilisateur/mot de passe fournie dans les en-têtes HTTP à l’aide du schéma de base.</span><span class="sxs-lookup"><span data-stu-id="3e145-109">Client authentication is provided by a username/password pair supplied in HTTP headers using the basic scheme.</span></span>
 
--   [<span data-ttu-id="c6e61-110">HttpCalculatorWithBasicOverSslService. cpp</span><span class="sxs-lookup"><span data-stu-id="c6e61-110">HttpCalculatorWithBasicOverSslService.cpp</span></span>](#httpcalculatorwithbasicoversslservicecpp)
--   [<span data-ttu-id="c6e61-111">CalculatorService. wsdl</span><span class="sxs-lookup"><span data-stu-id="c6e61-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
--   [<span data-ttu-id="c6e61-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="c6e61-112">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="3e145-110">HttpCalculatorWithBasicOverSslService. cpp</span><span class="sxs-lookup"><span data-stu-id="3e145-110">HttpCalculatorWithBasicOverSslService.cpp</span></span>](#httpcalculatorwithbasicoversslservicecpp)
+-   [<span data-ttu-id="3e145-111">CalculatorService. wsdl</span><span class="sxs-lookup"><span data-stu-id="3e145-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
+-   [<span data-ttu-id="3e145-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="3e145-112">Makefile</span></span>](#makefile)
 
-## <a name="httpcalculatorwithbasicoversslservicecpp"></a><span data-ttu-id="c6e61-113">HttpCalculatorWithBasicOverSslService. cpp</span><span class="sxs-lookup"><span data-stu-id="c6e61-113">HttpCalculatorWithBasicOverSslService.cpp</span></span>
+## <a name="httpcalculatorwithbasicoversslservicecpp"></a><span data-ttu-id="3e145-113">HttpCalculatorWithBasicOverSslService. cpp</span><span class="sxs-lookup"><span data-stu-id="3e145-113">HttpCalculatorWithBasicOverSslService.cpp</span></span>
 
 
 ```C++
@@ -282,7 +282,7 @@ Exit:
 
 
 
-## <a name="calculatorservicewsdl"></a><span data-ttu-id="c6e61-114">CalculatorService. wsdl</span><span class="sxs-lookup"><span data-stu-id="c6e61-114">CalculatorService.wsdl</span></span>
+## <a name="calculatorservicewsdl"></a><span data-ttu-id="3e145-114">CalculatorService. wsdl</span><span class="sxs-lookup"><span data-stu-id="3e145-114">CalculatorService.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -379,7 +379,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="c6e61-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="c6e61-115">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="3e145-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="3e145-115">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>
@@ -407,9 +407,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 
