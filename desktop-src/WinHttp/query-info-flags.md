@@ -1,17 +1,17 @@
 ---
 description: Ces attributs et modificateurs sont utilisés par WinHttpQueryHeaders.
 ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
-title: Indicateurs d’informations de requête (WinHTTP. h)
+title: Indicateurs d’informations de requête (Winhttp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
-ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
+ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107385887"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396624"
 ---
-# <a name="query-info-flags-winhttph"></a>Indicateurs d’informations de requête (WinHTTP. h)
+# <a name="query-info-flags-winhttph"></a>Indicateurs d’informations de requête (Winhttp.h)
 
 Ces attributs et modificateurs sont utilisés par [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders).
 
@@ -799,6 +799,24 @@ Interroge uniquement les en-têtes de demande.
 
 
 Retourne la valeur d’en-tête en tant que structure [**SystemTime**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) , ce qui ne nécessite pas que l’application analyse les données. Utilisez pour les en-têtes dont la valeur est une chaîne de date/heure, telle que « Last-modified-Time ».
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_TRAILERS"></span><span id="winhttp_query_flag_trailers"></span>**codes de fin de l' \_ indicateur de requête WinHTTP \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+Requêtes de codes de fin de réponse. Avant d’interroger des codes de fin de réponse, vous devez appeler [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) jusqu’à ce qu’il retourne 0 octet lu.
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_WIRE_ENCODING"></span><span id="winhttp_query_flag_wire_encoding"></span>**encodage de câble de l' \_ indicateur de requête WinHTTP \_ \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+Par défaut, [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) effectue une conversion Unicode avant de retourner l’en-tête qui a été interrogé. Si cet indicateur est défini, WinHttp retourne l’en-tête à l’appelant sans effectuer cette conversion.
 
 
 </dt> </dl> </dd> </dl>

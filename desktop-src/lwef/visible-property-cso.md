@@ -1,15 +1,15 @@
 ---
 title: Visible, propriété (objet Commands)
-description: Propriété visible
+description: En savoir plus sur la propriété visible de l’objet Commands, qui détermine si la légende de la collection Commands s’affiche dans le menu contextuel du caractère.
 ms.assetid: 0178a789-141b-4d4c-ba7c-05c7995f13bc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eaba059a375c23569195ddaea82e6d03cb943ec
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a6ea780ed5f19dbe732b18de741f9d7ee376df67
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383739"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396254"
 ---
 # <a name="visible-property-commands-object"></a>Visible, propriété (objet Commands)
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur qui détermine si la légende de la collection d
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que la légende apparaisse dans le menu contextuel du caractère lorsque votre application n’est pas le client d’entrée-actif, cette propriété doit avoir la valeur **true** et la propriété [**Caption**](caption-property.md) définie pour votre collection de commandes. De plus, cette propriété doit avoir la valeur **true** pour que les commandes de votre collection s’affichent dans le menu contextuel lorsque votre application est en entrée active.
 

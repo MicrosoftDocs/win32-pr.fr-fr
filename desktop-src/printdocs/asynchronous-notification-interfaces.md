@@ -1,21 +1,21 @@
 ---
-description: Les interfaces suivantes sont utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression, tels que les pilotes d’imprimante et les moniteurs de port.
+description: En savoir plus sur les interfaces utilisées pour la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression.
 ms.assetid: e96c957f-3972-4afc-9d76-a4725b8688f8
 title: Interfaces de notification d’impression asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7da8d320b33224e81852542e39f435b45b6dab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecfe0de2cf8510b1bb039907067b62fce08a4145
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759556"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396094"
 ---
 # <a name="asynchronous-printing-notification-interfaces"></a>Interfaces de notification d’impression asynchrone
 
 Les interfaces suivantes sont utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression, tels que les pilotes d’imprimante et les moniteurs de port.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 
 

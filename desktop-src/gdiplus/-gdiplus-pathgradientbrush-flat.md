@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ PathGradientBrush.
 ms.assetid: edd469df-b3e1-4ede-9194-00ce9b3be38b
 title: PathGradientBrush, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c76f9e19aaba4f113fece34cbe0296760c56ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f15c710b5ac69a57f0368ef71f8fe4cf029db3b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972854"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395784"
 ---
 # <a name="pathgradientbrush-functions"></a>PathGradientBrush, fonctions
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Pa
 
 
 
-| Fonction plate                                                                                                                                        | Méthode Wrapper                                                                                                                                                                                                                                 | Notes                                                                                                                                                                                                       |
+| Fonction plate                                                                                                                                        | Méthode Wrapper                                                                                                                                                                                                                                 | Remarques                                                                                                                                                                                                       |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePathGradient (GDIPCONST GpPointF \* points, int count, GpWrapMode wrapMode, GpPathGradient \* \* polygradient)<br/>  | [**PathGradientBrush ::P athGradientBrush (dans les points const PointF \* , dans int count, dans wrapMode WrapMode = WrapModeClamp)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-pathgradientbrush(inconstpointf_inint_inwrapmode))<br/>        | Crée un objet [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) basé sur un tableau de points. Initialise le mode habillage du pinceau de dégradé du tracé.                                       |
 | GpStatus WINGDIPAPI GdipCreatePathGradientI (GDIPCONST GpPoint \* points, int count, GpWrapMode wrapMode, GpPathGradient \* \* polygradient)<br/>  | [**PathGradientBrush ::P athGradientBrush (dans les points de point const \* , dans int count, dans wrapMode WrapMode = WrapModeClamp)**](/windows/win32/api/gdipluspath/nf-gdipluspath-pathgradientbrush-pathgradientbrush(inconstpoint_inint_inwrapmode))<br/>          | Crée un objet [**PathGradientBrush**](/windows/desktop/api/gdipluspath/nl-gdipluspath-pathgradientbrush) basé sur un tableau de points. Initialise le mode habillage du pinceau de dégradé du tracé.                                       |

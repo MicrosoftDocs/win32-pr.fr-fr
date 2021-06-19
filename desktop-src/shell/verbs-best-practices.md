@@ -1,5 +1,5 @@
 ---
-description: 'Cette rubrique est organisée comme suit :'
+description: Découvrez les meilleures pratiques pour les gestionnaires de menus contextuels et plusieurs verbes quand vous implémentez un format de fichier personnalisé dans le shell Windows.
 title: Meilleures pratiques pour les gestionnaires de menus contextuels et les verbes multiples
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f8b47807c4647aec274e64dbcd137833d13e23cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14ec2e8915aa1df47ca21c6436ec963be3f590f5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973479"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396444"
 ---
 # <a name="best-practices-for-shortcut-menu-handlers-and-multiple-verbs"></a>Meilleures pratiques pour les gestionnaires de menus contextuels et les verbes multiples
 
@@ -44,8 +44,8 @@ La liste suivante représente les meilleures pratiques pour les implémentations
 -   Évitez l’utilisation de **rundll32.exe** comme hôte pour votre verbe.
 -   Lors de l’implémentation de [**IContextMenu :: QueryContextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) , veillez à retourner le nombre de verbes qui ont été ajoutés au menu par le biais de la valeur **HRESULT** à l’aide de la macro ResultFromShort.
 -   Si vous vous inscrivez sur l’une des entrées de clé de Registre suivantes, soyez prudent et veillez à inscrire votre gestionnaire sur le type le plus spécifique pour réduire les conséquences éventuellement inattendues :
-    -   **HKEY \_ CLASSES \_ \\ racine \** _
-    -   _ *\_ \_ \\ AllFileSystemObjects racine des classes HKEY**
+    -   **\_racine des classes HKEY \_\\\***
+    -   **\_ \_ AllFileSystemObjects racine des classes HKEY \\**
     -   **\_ \_ Dossier racine des classes HKEY \\**
     -   **\_ \_ Répertoire racine des classes HKEY \\**
 -   Définissez la clé **MayChangeDefaultMenu** uniquement si vous pensez que vous devrez peut-être modifier le verbe par défaut dans le menu contextuel. Si votre gestionnaire ne modifie pas le verbe par défaut, vous ne devez pas définir cette clé, car cela amène le système à charger votre DLL inutilement.

@@ -1,6 +1,6 @@
 ---
 title: Gestion des utilisateurs
-description: Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Active Directory Domain Services.
+description: En savoir plus sur la gestion des utilisateurs. Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Active Directory Domain Services.
 ms.assetid: 57c83e4d-2d9f-4f22-97e2-27e2d277f014
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - utilisateurs Active Directory, gestion des utilisateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1105132c6836e108a416331b2f4a6ad666c03d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8154dc9d062b86d10b0df6418b5b4cbb79b44d2
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839297"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395314"
 ---
 # <a name="managing-users"></a>Gestion des utilisateurs
 
@@ -32,9 +32,9 @@ Les comptes d’utilisateur sont créés et stockés en tant qu’objets dans Ac
 -   Déplacement des utilisateurs. Un utilisateur est déplacé de la même façon que tout autre objet Active Directory. Pour plus d’informations sur le déplacement d’objets Active Directory, consultez [déplacement d’objets](moving-objects.md).
 -   [Gestion des utilisateurs sur les serveurs membres et Windows 2000 professionnel](managing-users-on-member-servers-and-windows-2000-professional.md)
 
- 
+ 
 
- 
+ 
 
 
 

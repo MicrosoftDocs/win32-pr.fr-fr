@@ -1,15 +1,15 @@
 ---
-description: Utilise le protocole EAP-TLS (Extensible Authentication Protocol Transport Level Security) avec des certificats pour s’authentifier sur le réseau.
+description: Utilise EAP-TLS (Extensible Authentication Protocol Transport Level Security) avec des certificats pour l’authentification sur le réseau (WPA2-Enterprise).
 ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
 title: Exemple de profil WPA2-Enterprise avec TLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd85d30bed631a55f0e7e622aac4a8ade17ba3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba561f552614896ca5da1522180a53146dc5ce54
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034003"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394818"
 ---
 # <a name="wpa2-enterprise-with-tls-profile-sample"></a>Exemple de profil WPA2-Enterprise avec TLS
 

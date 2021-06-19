@@ -1,5 +1,5 @@
 ---
-description: 'Cette rubrique est organisée comme suit :'
+description: Choisissez une méthode de menu contextuel statique ou dynamique quand vous implémentez un format de fichier personnalisé dans le shell Windows.
 title: Choix d’une méthode de menu contextuel statique ou dynamique
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 70c6cb74e2c9a432bfdae2f26da1fdbebfc5f00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfd73ee052594e1136fe2885ce92b682f229096b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034821"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394774"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>Choix d’une méthode de menu contextuel statique ou dynamique
 
@@ -119,9 +119,8 @@ La prise en charge des méthodes d’appel de verbe par système d’exploitatio
 
 
 
-|                      |            |               |                      |
+| Méthode Verb          | Windows XP | Windows Vista | Windows 7 et versions ultérieures |
 |----------------------|------------|---------------|----------------------|
-|                      | Windows XP | Windows Vista | Windows 7 et versions ultérieures |
 | CreateProcess        | X          | X             | X                    |
 | DDE                  | X          | X             | X                    |
 | DropTarget           | X          | X             | X                    |

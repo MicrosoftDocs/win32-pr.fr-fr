@@ -1,15 +1,15 @@
 ---
-description: Pour utiliser des données spécifiques à un événement, le consommateur doit connaître le format des données d’événement.
+description: Récupérez les données d’événement avec format MOF (MOF) tout en consommant des événements. Pour utiliser des données spécifiques à un événement, le consommateur doit connaître le format des données d’événement.
 ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: Récupération de données d’événement à l’aide de MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 455ddc08aae189b2ceab05aab365d9b9fb1a15d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8752d7a4dc71ddb7b5a5dbc39e93c5fe16bb652
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972178"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395014"
 ---
 # <a name="retrieving-event-data-using-mof"></a>Récupération de données d’événement à l’aide de MOF
 

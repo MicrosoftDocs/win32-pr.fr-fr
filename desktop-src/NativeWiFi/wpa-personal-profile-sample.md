@@ -1,15 +1,15 @@
 ---
-description: Utilise une clé prépartagée pour l’authentification réseau.
+description: Utilise une clé prépartagée pour l’authentification réseau. Cet exemple de profil utilise la sécurité d’accès Wi-Fi protégée s’exécutant en mode personnel (WPA-Personal).
 ms.assetid: f04de28b-a98d-40cd-91c8-e446cf669555
 title: Exemple de profil de WPA-Personal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d4a69fffcb0432e420121ed76c76889eb8bb16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 334076d4b0cf10372ed845265a1fff652f0879b9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106540896"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395024"
 ---
 # <a name="wpa-personal-profile-sample"></a>Exemple de profil de WPA-Personal
 

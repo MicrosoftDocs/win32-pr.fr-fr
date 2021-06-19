@@ -1,16 +1,16 @@
 ---
 title: Le chargement de la vue d’accès non triée (UAV) typée
-description: Le chargement typé de vue d’accès non triée (UAV) est la possibilité pour un nuanceur de lire à partir d’un UAV avec un format DXGI spécifique \_ .
+description: En savoir plus sur la charge typée de vue d’accès non ordonnée (UAV) dans Direct3D 12. La charge typée UAV est la capacité d’un nuanceur à lire à partir d’un UAV avec un DXGI_FORMAT spécifique.
 ms.assetid: 6106D15E-EAF6-4583-B4F2-7CC7EE30DE15
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4adfd7511590a43b7f87507c5a1e0a2a87c925b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96128354132a58e0b8648fba2b4e1e6babb95535
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548530"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394764"
 ---
 # <a name="typed-unordered-access-view-uav-loads"></a>Le chargement de la vue d’accès non triée (UAV) typée
 
@@ -138,15 +138,15 @@ RWBuffer<unorm float> uav;
 [Liaison de ressource](resource-binding.md)
 </dt> <dt>
 
-[Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+[Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+[Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

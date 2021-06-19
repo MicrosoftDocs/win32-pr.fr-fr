@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ d’image.
 ms.assetid: d4f7d472-7349-4a43-a5c4-73bd476cb643
 title: Fonctions image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45cdcc283655cb113001fcb4f9ef09ae76396731
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ddca437adb70dd0f90da47b6f4a48f48c90bb01
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991329"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395274"
 ---
 # <a name="image-functions"></a>Fonctions image
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ d' [*
 
 
 
-| Fonction plate                                                                                                                                                                                                                                | Méthode Wrapper                                                                                                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                               |
+| Fonction plate                                                                                                                                                                                                                                | Méthode Wrapper                                                                                                                                                                                                                                           | Remarques                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipLoadImageFromStream (IStream \* Stream, GpImage \* \* image)<br/>                                                                                                                                                  | [**Image :: image (dans un \* flux IStream, dans bool useEmbeddedColorManagement)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inistream_inbool))                                                                                                           | Crée un objet [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) basé sur un flux. <br/> Cette fonction plate n’utilise pas la gestion des couleurs ICM (Image Color Management).<br/>                                                                                                                                                 |
 | GpStatus WINGDIPAPI GdipLoadImageFromFile (GDIPCONST \* nom de fichier WCHAR, \* \* image GpImage)<br/>                                                                                                                                          | [**Image :: image (dans const WCHAR \* FileName, dans bool useEmbeddedColorManagement)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-image-image(inconstwchar_inbool))                                                                                                   | Crée un objet [**image**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-image) basé sur un fichier. <br/> Cette fonction plate n’utilise pas ICM.<br/>                                                                                                                                                                            |

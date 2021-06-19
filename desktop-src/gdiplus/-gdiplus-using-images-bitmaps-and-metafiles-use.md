@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ fournit la classe image permettant d’utiliser des images raster (bitmaps) et des images vectorielles (sous-fichiers).
+description: En savoir plus sur l’utilisation d’images, de bitmaps et de fichiers de fichiers. Windows GDI+ fournit la classe image permettant d’utiliser des images raster (bitmaps) et des images vectorielles (sous-fichiers).
 ms.assetid: 57e3bf33-5490-4f4a-addf-356ef8f1aeed
 title: Utilisation d’images, de bitmaps et de reformateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 445b37caa488fa4b83bcfb7792eb83f6ee1e6e75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d0603c8a428c45feac8cdeb47a46b61dc5e3bd
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034352"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395534"
 ---
 # <a name="using-images-bitmaps-and-metafiles"></a>Utilisation d’images, de bitmaps et de reformateurs
 

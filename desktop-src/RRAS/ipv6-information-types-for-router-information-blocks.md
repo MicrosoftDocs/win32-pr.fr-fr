@@ -1,15 +1,15 @@
 ---
 title: Types d’informations IPv6 pour les blocs d’informations de routeur
-description: En savoir plus sur les types d’informations listés dans Ipinfoid. h.
+description: En savoir plus sur les types d’informations IPv6 listés dans Ipinfoid. h. Utilisez ces types d’informations avec les fonctions d’en-tête d’informations lors de l’exécution du transport IP.
 ms.assetid: 58fa59e6-e0f3-4f04-9c57-585f1d496b31
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c37fcdc2b820cbf5c748dfde4884bce0f06db9
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a6902cab140c81c85025c59279091b719886205e
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443960"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395104"
 ---
 # <a name="ipv6-information-types-for-router-information-blocks"></a>Types d’informations IPv6 pour les blocs d’informations de routeur
 

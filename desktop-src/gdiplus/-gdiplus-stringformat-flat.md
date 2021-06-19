@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ StringFormat.
 ms.assetid: 8e24efb1-8f7d-498a-bd21-79e182b86846
 title: Fonctions de format de chaîne
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e6c9a56c33bd1a65207c816293bcc12bf5bc9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54cbf9f7fed29c218cf9491819321505e30a7b33
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972839"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395604"
 ---
 # <a name="string-format-functions"></a>Fonctions de format de chaîne
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**St
 
 
 
-| Fonction plate                                                                                                                                                 | Méthode Wrapper                                                                                                                                                                                             | Notes                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Fonction plate                                                                                                                                                 | Méthode Wrapper                                                                                                                                                                                             | Remarques                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateStringFormat (INT formatAttributes, Language LANGID, GpStringFormat \* \* format)<br/>                                     | [**StringFormat :: StringFormat (dans INT formatFlags = 0, dans le langage LANGID = LANG \_ Neutral)**](/windows/win32/api/gdiplusstringformat/nf-gdiplusstringformat-stringformat-stringformat(inint_inlangid))<br/>                              | Crée un objet [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) basé sur des indicateurs de format de chaîne et un langage.                                                                                                                                                                                                                                                                                                   |
 | GpStatus WINGDIPAPI GdipStringFormatGetGenericDefault ( \* \* format GpStringFormat)<br/>                                                                   | [**StringFormat \* StringFormat :: GenericDefault ()**](/windows/desktop/api/Gdiplusstringformat/nf-gdiplusstringformat-stringformat-genericdefault)<br/>                                                                                            | Crée un objet [**StringFormat**](/windows/desktop/api/gdiplusstringformat/nl-gdiplusstringformat-stringformat) générique par défaut.                                                                                                                                                                                                                                                                                                                              |

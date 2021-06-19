@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre PageWatermarkOriginWidth. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: e1bea06b-11b9-4652-915a-deb563ad59f8
 title: PageWatermarkOriginWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa78cf29952258a7c6c3489d40291ba8cd4b756c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bffe6457496972231877af2a51e03bc5109083d0
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996066"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396004"
 ---
 # <a name="pagewatermarkoriginwidth"></a>PageWatermarkOriginWidth
 
@@ -24,7 +24,7 @@ Spécifie l’origine d’un filigrane par rapport à l’origine du PageImageab
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Page<br/>                            |
@@ -71,13 +71,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                                                                  |
+| Propriété                | xsi:type           | Valeur                                                                  |
 |-------------------------|--------------------|------------------------------------------------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>                                                  |
 | DefaultValue<br/> | entier<br/> | non défini<br/>                                                   |
 | MaxValue<br/>     | entier<br/> | Valeur inférieure ou égale à PageImageableSize-ExtentWidth<br/> |
 | MinValue<br/>     | entier<br/> | 0<br/>                                                           |
-| Plusieurs<br/>     | integer<br/> | 1<br/>                                                           |
+| Multiple<br/>     | integer<br/> | 1<br/>                                                           |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/>                                             |
 | Unité<br/>     | string<br/>  | microns<br/>                                                     |
 

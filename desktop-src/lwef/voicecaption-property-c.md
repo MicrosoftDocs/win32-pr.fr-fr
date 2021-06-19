@@ -1,15 +1,15 @@
 ---
 title: Propriété VoiceCaption (objet Command)
-description: Propriété VoiceCaption
+description: En savoir plus sur la propriété VoiceCaption de l’objet Command, qui définit ou retourne le texte affiché pour l’objet Command dans la fenêtre commandes vocales.
 ms.assetid: 97a3015c-6c39-42d5-b6bd-7563bd444b38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1077c8d65a52bc8f0cfa329fdceb740e30e6784
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d700b5d29b4c493be7382d45de55f44e6d02646c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511115"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396164"
 ---
 # <a name="voicecaption-property-command-object"></a>Propriété VoiceCaption (objet Command)
 
@@ -41,7 +41,7 @@ Définit ou retourne le texte affiché pour l’objet de [**commande**](/windows
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous définissez un objet de [**commande**](/windows/desktop/lwef/the-command-object) dans une collection de [**commandes**](https://www.bing.com/search?q=**Commands**) et que vous définissez sa propriété [**Voice**](voice-property.md) , vous définissez en général également sa propriété [**VoiceCaption**](voicecaption-property.md) . Ce texte s’affiche dans la fenêtre commandes vocales lorsque votre application cliente est en entrée-active et que le caractère est visible. Si cette propriété n’est pas définie, le paramètre de la propriété [**Caption**](caption-property.md) détermine le texte affiché. Lorsque ni la propriété **VoiceCaption** ni la propriété **Caption** n’est définie, la commande n’apparaît pas dans la fenêtre commandes vocales.
 

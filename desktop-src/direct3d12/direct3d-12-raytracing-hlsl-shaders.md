@@ -1,16 +1,16 @@
 ---
 title: Nuanceurs HLSL Direct3D 12 Raytracing
-description: Les nuanceurs HLSL suivants prennent en charge le pipeline Direct3D 12 Raytracing.
+description: Affichez des liens vers des articles décrivant les nuanceurs HLSL (High-Level Shader Language) qui prennent en charge le pipeline Raytracing Direct3D 12.
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe1dd545532208095781f6fbca25480a6dbfd31e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ca19081b1ea963851e82d18912153434c3e38d1
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106512769"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394834"
 ---
 # <a name="direct3d-12-raytracing-hlsl-shaders"></a>Nuanceurs HLSL Direct3D 12 Raytracing
 

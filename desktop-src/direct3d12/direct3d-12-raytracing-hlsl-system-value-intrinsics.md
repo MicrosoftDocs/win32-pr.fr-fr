@@ -1,22 +1,22 @@
 ---
 title: Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
-description: Les nuanceurs HLSL suivants prennent en charge le pipeline Direct3D 12 Raytracing.
+description: Affichez des liens vers des articles décrivant les fonctions intrinsèques de valeur système HLSL (High-Level Shader Language) qui prennent en charge le pipeline Raytracing Direct3D 12.
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a20282e7bc0e9e4898fd361b0959cd6b6f32253
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: 3e2790cf5df42f64071db3ca51a35e58ee9afcd5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "106529067"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396434"
 ---
 # <a name="direct3d-12-raytracing-hlsl-system-value-intrinsics"></a>Intrinsèques de valeur système HLSL Direct3D 12 Raytracing
 
 Les valeurs système sont extraites à l’aide de fonctions intrinsèques spéciales, plutôt que d’inclure des paramètres avec une sémantique spéciale dans la signature de votre fonction de nuanceur. 
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 ### <a name="ray-dispatch-system-values"></a>Valeurs système de dispatch de rayon
 

@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe PEN C++.
 ms.assetid: e523339d-639e-4e8e-b0cb-0c9464eeee03
 title: Fonctions de stylet (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fca9f219d06f00c220dc081f8f1a738d1bb0ea0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: cdf0164d70f6f240a47ecdfcb3a9e276fe19710a
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201409"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395704"
 ---
 # <a name="pen-functions-gdi"></a>Fonctions de stylet (GDI+)
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe [**Pen**]
 
 
 
-| Fonction plate                                                                                                                | Méthode Wrapper                                                                                                                                                              | Notes                                                                                                                                                                                                                                                                                                                                                 |
+| Fonction plate                                                                                                                | Méthode Wrapper                                                                                                                                                              | Remarques                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreatePen1 (couleur ARVB, largeur réelle, unité GpUnit, \* \* plume GpPen)<br/>                            | [**Pen ::P en (dans la couleur const couleur& couleur, dans la largeur réelle = 1,0 f)**](/windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(inconstcolor__inreal))<br/>                                                             | Crée un objet [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) qui utilise la couleur et la largeur spécifiées. <br/> Le paramètre d' *unité* de la fonction plate est un membre de l’énumération d' [**unités**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit) qui spécifie l’unité de mesure pour la largeur du stylet.<br/>                                                         |
 | GpStatus WINGDIPAPI GdipCreatePen2 (GpBrush \* Brush, largeur réelle, GpUnit Unit, GpPen \* \* Pen)<br/>                       | [**Pen ::P en (dans le pinceau const \* , dans la largeur réelle = 1.0 f)**](/windows/win32/api/gdipluspen/nf-gdipluspen-pen-pen(inconstbrush_inreal))<br/>                                                            | Crée un objet [**Pen**](/windows/desktop/api/gdipluspen/nl-gdipluspen-pen) qui utilise les attributs d’un pinceau et un nombre réel pour définir la largeur de cet objet **Pen** . <br/> Le paramètre d' *unité* de la fonction plate est un membre de l’énumération d' [**unités**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit) qui spécifie l’unité de mesure pour la largeur du stylet.<br/> |

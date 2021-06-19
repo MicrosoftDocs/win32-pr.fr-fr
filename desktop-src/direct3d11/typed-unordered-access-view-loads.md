@@ -1,15 +1,15 @@
 ---
 title: Chargements de vues d’accès non ordonnées typées
-description: Le chargement typé de vue d’accès non triée (UAV) est la possibilité pour un nuanceur de lire à partir d’un UAV avec un format DXGI spécifique \_ .
+description: En savoir plus sur la charge typée de la vue d’accès non triée (UAV) dans Direct3D 11. La charge typée UAV est la capacité d’un nuanceur à lire à partir d’un UAV avec un DXGI_FORMAT spécifique.
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0958b3563ab8001fd7b34ae62c9bcc37ad75c07a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2c6d2cbfa51c8473dc3da51c5844c63bef944b50
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315455"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396284"
 ---
 # <a name="typed-unordered-access-view-loads"></a>Chargements de vues d’accès non ordonnées typées
 
@@ -130,6 +130,6 @@ float4 main() : SV_Target
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

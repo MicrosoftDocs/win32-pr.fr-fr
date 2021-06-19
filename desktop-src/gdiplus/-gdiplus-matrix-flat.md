@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ Matrix.
 ms.assetid: 89be396f-7421-4a58-890b-6c7c34fe090c
 title: Fonctions de matrice
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 914cde0847c53b1a8239454e099a444ade7d9cf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 979f502e953b077e644b5c3c7479d521f5ca929b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991321"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395244"
 ---
 # <a name="matrix-functions"></a>Fonctions de matrice
 

@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Microsoft .NET Framework fournit un ensemble de classes wrapper de code managé pour GDI+.
 ms.assetid: afd8cf81-8a20-4592-bd0a-46341742cc9b
 title: API plate GDI+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450f89439b6ead3b8cd9a49f52a6620571f6db54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65f91c3c925b7de31f27e91c70cbd1bf0cbbb2a4
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991348"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394984"
 ---
 # <a name="gdi-flat-api"></a>API plate GDI+
 

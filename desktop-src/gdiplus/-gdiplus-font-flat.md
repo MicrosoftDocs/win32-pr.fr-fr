@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ de police.
 ms.assetid: fcc37af2-cd90-42e6-9b7f-20b123f8ab1f
 title: Fonctions de police
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8d0257e876002464cd89b3e70fbf4ec7b0a91a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b850403959bff84bf4ecd7b40a4992fa6147fce
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991345"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394964"
 ---
 # <a name="font-functions"></a>Fonctions de police
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ de [*
 
 
 
-| Fonction plate                                                                                                                                                     | Méthode Wrapper                                                                                                                                                           | Notes                                                                                                                                                                                                                                                                                                                                         |
+| Fonction plate                                                                                                                                                     | Méthode Wrapper                                                                                                                                                           | Remarques                                                                                                                                                                                                                                                                                                                                         |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateFontFromDC (HDC HDC, GpFont \* \* font)<br/>                                                                                   | [**Font :: font (dans HDC HDC)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-font(inhdc))                                                                                                          | Crée un objet de [**police**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) en fonction de l’objet de police GDI actuellement sélectionné dans un contexte de périphérique spécifié. Ce constructeur est fourni à des fins de compatibilité avec GDI.                                                                                                                                    |
 | GpStatus WINGDIPAPI GdipCreateFontFromLogfontA (HDC HDC, GDIPCONST LOGFONTA \* LOGFONT, GpFont \* \* font) <br/>                                              | [**Font :: font (dans HDC HDC, dans const LOGFONTA \* LOGFONT)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-font-font(inhdc_inconstlogfonta))                                                        | Crée un objet de [**police**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-font) directement à partir d’une police logique GDI. La police logique GDI est une structure **LOGFONTA** , qui est la version à caractères codés sur un octet d’une police logique. Ce constructeur est fourni à des fins de compatibilité avec GDI.                                                                              |

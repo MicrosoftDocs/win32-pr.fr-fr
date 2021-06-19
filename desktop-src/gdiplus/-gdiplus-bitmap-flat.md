@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ bitmap.
 ms.assetid: a9b87d6d-2fbd-49f3-b4a2-a6b54a34dd8f
 title: Fonctions bitmap (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da2505e11a2e52f91c74d30d1887db99f3e8382
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6f34467c56dbb5dc0f4b6f8ff6111049895abcf
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528803"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395204"
 ---
 # <a name="bitmap-functions-gdi"></a>Fonctions bitmap (GDI+)
 

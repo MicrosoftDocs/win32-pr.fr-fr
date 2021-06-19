@@ -1,19 +1,19 @@
 ---
-description: URI de la grande représentation miniature de l’élément multimédia.
+description: Comprendre la propriété System. Media. ThumbnailSmallUri, qui représente l’URI de la petite représentation miniature de l’élément multimédia.
 ms.assetid: 063ab14e-1cb1-4938-99b2-ebc4d53adaae
 title: System. Media. ThumbnailSmallUri
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6464929e28193bc848795900e0dada8846665e84
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: dfd621ff87596f4f0333d22625e5c10d78aad428
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104211234"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396634"
 ---
 # <a name="systemmediathumbnailsmalluri"></a>System. Media. ThumbnailSmallUri
 
-URI de la grande représentation miniature de l’élément multimédia.
+URI de la petite représentation miniature de l’élément multimédia.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

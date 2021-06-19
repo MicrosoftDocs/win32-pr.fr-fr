@@ -1,15 +1,15 @@
 ---
 title: Visible, propriété (objet feuille)
-description: Propriété visible
+description: En savoir plus sur la propriété visible de l’objet feuille, qui retourne ou définit si la fenêtre de la feuille de propriétés Microsoft Agent est visible (ouverte).
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730456563d0349b6a7ce7bf7cba8340db36b39cb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 525c78a3fdfc7e852838ff288194cfc762334409
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511728"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396214"
 ---
 # <a name="visible-property-propertysheet-object"></a>Visible, propriété (objet feuille)
 
@@ -41,7 +41,7 @@ Retourne ou définit une valeur indiquant si la fenêtre de la feuille de propri
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le serveur affiche la fenêtre en fonction de l’emplacement et de la taille définis par l’utilisateur.
 

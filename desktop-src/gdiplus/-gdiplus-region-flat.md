@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ de la région.
 ms.assetid: 2f1d3631-7104-421a-a577-ef764bffe034
 title: Fonctions de région (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9894a5fb064202262f8fbcc5089fa26c2dc03016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc17e8cac440f9a749767bd5cce30fe31f2d5b29
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755677"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395144"
 ---
 # <a name="region-functions-gdi"></a>Fonctions de région (GDI+)
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ de la
 
 
 
-| Fonction plate                                                                                                                                            | Méthode Wrapper                                                                                                                                                                                       | Notes                                                                                                                                                                                                                                                                                                           |
+| Fonction plate                                                                                                                                            | Méthode Wrapper                                                                                                                                                                                       | Remarques                                                                                                                                                                                                                                                                                                           |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateRegion ( \* \* région GpRegion)<br/>                                                                                     | [**Region :: Region ()**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(constregion_))<br/>                                                                                                                                 | Crée une région qui est infinie. Il s'agit du constructeur par défaut.                                                                                                                                                                                                                                               |
 | GpStatus WINGDIPAPI GdipCreateRegionRect (GDIPCONST GpRectF \* Rect, GpRegion \* \* Region)<br/>                                                       | [**Region :: Region (dans const RectF& Rect)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-region(inconstrectf_))<br/>                                                                                                  | Crée une région qui est définie par un rectangle.                                                                                                                                                                                                                                                                  |

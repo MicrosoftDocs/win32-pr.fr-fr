@@ -4,12 +4,12 @@ ms.assetid: 46452909-ac0e-4c06-8542-0b94d00e6556
 title: Message WM_POWERBROADCAST (WinUser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82f1b273462d8de27c19d715836d168ab8bf8c90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b205a146b731bdf8cf9adc1563621232c24c10b4
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104529097"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396504"
 ---
 # <a name="wm_powerbroadcast-message"></a>\_Message WM POWERBROADCAST
 
@@ -38,7 +38,10 @@ LRESULT CALLBACK WindowProc(
 
 Handle de fenêtre.
 
-</dd> <dt>*uMsg*</dt> <dd> 
+</dd> <dt>
+  
+*uMsg*
+</dt> <dd> 
 
 | Valeur                                                                                                                                                                                                                                          | Signification                        |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
@@ -84,7 +87,7 @@ Si le paramètre *wParam* est [PBT \_ POWERSETTINGCHANGE](pbt-powersettingchange
 
 Une application doit retourner la **valeur true** si elle traite ce message.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système envoie toujours un message [PBT \_ APMRESUMEAUTOMATIC](pbt-apmresumeautomatic.md) à chaque reprise du système. Si le système reprend en réponse à une entrée utilisateur, par exemple en appuyant sur une touche, le système envoie également un message **PBT \_ APMRESUMESUSPEND** après l’envoi de \_ APMRESUMEAUTOMATIC PBT.
 
@@ -99,7 +102,7 @@ Les messages suivants ne sont pas pris en charge sur les systèmes d’exploitat
 - PBT_APMSTANDBY  
 - PBT_APMRESUMESTANDBY  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

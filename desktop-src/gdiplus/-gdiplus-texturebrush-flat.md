@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ TextureBrush.
 ms.assetid: e338126d-0732-442b-8c3c-b69eb3c7b1ba
 title: Fonctions de pinceau de texture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505d50a40807d5ce45c6d444468ea9a8ab28806a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 082c251d02cfae6681480f3c9b57089624bf3e0d
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991096"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395564"
 ---
 # <a name="texture-brush-functions"></a>Fonctions de pinceau de texture
 
@@ -21,7 +21,7 @@ Les fonctions d’API plates suivantes sont encapsulées par la classe C++ [**Te
 
 
 
-| Fonction plate                                                                                                                                                                      | Méthode Wrapper                                                                                                                                                                                                                                                 | Notes                                                                                                                                                                                                                                                                                                                            |
+| Fonction plate                                                                                                                                                                      | Méthode Wrapper                                                                                                                                                                                                                                                 | Remarques                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateTexture (GpImage \* image, GpWrapMode WrapMode, GpTexture \* \* texture)<br/>                                                                      | [**TextureBrush :: TextureBrush (dans l' \* image image, dans wrapMode WrapMode = WrapModeTile)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-texturebrush(inimage_inwrapmode))<br/>                                                                                               | Crée un objet [**TextureBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush) basé sur une image et un mode habillage. La taille du pinceau est par défaut la taille de l’image, de sorte que la totalité de l’image est utilisée par le pinceau.                                                                                                                   |
 | GpStatus WINGDIPAPI GdipCreateTexture2 (GpImage \* image, GpWrapMode WrapMode, réel x, réel y, largeur réelle, hauteur réelle, \* \* texture GpTexture)<br/>                            | [**TextureBrush :: TextureBrush (dans \* image image, dans wrapMode WrapMode, dans Real dstX, dans Real dstY, dans Real dstWidth, dans Real dstHeight)**](/windows/win32/api/gdiplusbrush/nf-gdiplusbrush-texturebrush-texturebrush(inimage_inwrapmode_inreal_inreal_inreal_inreal))<br/> | Crée un objet [**TextureBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-texturebrush) basé sur une image, un mode habillage et un ensemble de coordonnées de définition.                                                                                                                                                                                      |

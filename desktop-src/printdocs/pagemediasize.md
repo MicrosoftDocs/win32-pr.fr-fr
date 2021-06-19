@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageMediaSize. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbaef403027190676b57455aa460198c2868424
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 907f6a76932e17b6d60a67a65c3cfa657282b60c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995518"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395844"
 ---
 # <a name="pagemediasize"></a>PageMediaSize
 
@@ -27,18 +27,11 @@ Le diagramme suivant illustre l’utilisation de la variable PageMediaSize (l’
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                            |                    |
-|----------------------------|--------------------|
-| Nom | Value |
+| Nom                 | Valeur        |
+|----------------------|--------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
-
-
-
- 
 
 ## <a name="structural-content"></a>Contenu structurel
 

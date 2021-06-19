@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Lisez les informations de référence sur le paramètre PageCopies. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: a15fe075-6696-4c70-b658-ae62d542bb4e
 title: PageCopies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b1fc822d27d104364c2414ca89cf1fdf30c7d3
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5002850fa1df5a86b0022a941e3b2a1f7e414a44
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997666"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396684"
 ---
 # <a name="pagecopies"></a>PageCopies
 
@@ -24,7 +24,7 @@ Spécifie le nombre de copies d’une page.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------|
 | Type d'élément <br/>   | ParameterDef<br/> |
 | Préfixe d’étendue <br/> | Page<br/>         |
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                        |
+| Propriété                | xsi:type           | Valeur                        |
 |-------------------------|--------------------|------------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>        |
 | DefaultValue<br/> | integer<br/> | 1<br/>                 |
 | MaxValue<br/>     | entier<br/> | non défini<br/>         |
 | MinValue<br/>     | integer<br/> | 1<br/>                 |
 | Obligatoire<br/>    | string<br/>  | PSK : sans condition<br/> |
-| Plusieurs<br/>     | integer<br/> | 1<br/>                 |
+| Multiple<br/>     | integer<br/> | 1<br/>                 |
 | Unité<br/>     | string<br/>  | copie<br/>            |
 
 

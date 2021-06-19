@@ -1,21 +1,21 @@
 ---
-description: Les interfaces suivantes sont utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression, tels que les pilotes d’imprimante et les moniteurs de port.
+description: Découvrez les fonctions utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression.
 ms.assetid: 7e98e63f-616c-4cd1-a8aa-482d27529b8c
 title: Fonctions de notification d’impression asynchrone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72fa7b0b61de15af9f7117e7c36104eb51abbb7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdc9a404d1675c8ee87be31c7c57dd14a370697c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520162"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394854"
 ---
 # <a name="asynchronous-printing-notification-functions"></a>Fonctions de notification d’impression asynchrone
 
-Les interfaces suivantes sont utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression, tels que les pilotes d’imprimante et les moniteurs de port.
+Les fonctions suivantes sont utilisées dans la communication asynchrone entre les applications et les composants qui sont hébergés par le spouleur d’impression, tels que les pilotes d’imprimante et les moniteurs de port.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageResolution. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: PageResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e44a7ff73c03929d3dfc8bc9f7c31c878ad039c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 760384ff900e7b35e37105fdb19e3635a434aa5a
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993716"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394817"
 ---
 # <a name="pageresolution"></a>PageResolution
 
@@ -25,7 +25,7 @@ Définit la résolution de la page de sortie d'impression comme valeur qualitati
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |

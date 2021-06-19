@@ -5,12 +5,12 @@ title: Indicateurs d’option (WinHTTP. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 25049ee11c59c6b320b794c07bd65e5ec9b930c9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262061"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395414"
 ---
 # <a name="option-flags"></a>Indicateurs d’option
 
@@ -45,6 +45,14 @@ Définit une valeur d’entier long non signé qui spécifie la [stratégie d’
 
 
 </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_BACKGROUND_CONNECTIONS"></span><span id="winhttp_option_background_connections"></span>**\_connexions en \_ arrière-plan des options WinHTTP \_**
+</dt> <dd> <dl> <dt>
+
+Lorsque vous définissez cette option sur un handle de session, vous devez transmettre le nombre de connexions que vous souhaitez ouvrir. Ensuite, lors de la première envoi d’une demande, au lieu d’ouvrir une seule connexion, WinHttp ouvre plusieurs connexions en parallèle. Cela peut améliorer les performances des demandes suivantes adressées à la même destination, ce qui n’entraîne pas la surcharge liée à l’établissement de la connexion.
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_CALLBACK"></span><span id="winhttp_option_callback"></span>**\_rappel d’option WinHTTP \_**
 </dt> <dd> <dl> <dt>
@@ -203,6 +211,15 @@ Par défaut, WinHTTP remet les réponses compressées à l’appelant sans les m
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_DISABLE_CERT_CHAIN_BUILDING"></span><span id="winhttp_option_disable_cert_chain_building"></span>**OPTION WINHTTP- \_ désactiver la génération de \_ \_ chaîne de certificats \_ \_**
+</dt> <dd> <dl> <dt>
+
+
+La définition de cette option sur un handle de session WinHttp vous permet d’activer ou de désactiver la génération de la chaîne de certificats du serveur.
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_DISABLE_FEATURE"></span><span id="winhttp_option_disable_feature"></span>**\_fonctionnalité de \_ désactivation de l’option WinHTTP \_**
 </dt> <dd> <dl> <dt>
 
@@ -322,6 +339,15 @@ Cette option ne peut être définie que sur un handle de demande qui est toujour
 
 
 Récupère une valeur d’entier long non signé qui contient un code d’erreur Microsoft Windows Sockets qui a été mappé à l’erreur \_ WinHTTP \_ \* messages d’erreur retournés dans ce contexte de thread. Vous pouvez passer **null** comme valeur de handle.
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_FIRST_AVAILABLE_CONNECTION"></span><span id="winhttp_option_first_available_connection"></span>**\_option WinHTTP \_ première \_ \_ connexion disponible**
+</dt> <dd> <dl> <dt>
+
+
+Par défaut, lorsque WinHttp envoie une demande, si aucune connexion n’est disponible pour répondre à la demande, WinHttp tente d’établir une nouvelle connexion et la demande est liée à cette nouvelle connexion. Lorsque vous définissez cette option, une telle demande est traitée à la première connexion qui devient disponible, et pas nécessairement celle qui est établie.
 
 
 </dt> </dl> </dd> <dt>
@@ -1082,6 +1108,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 |-|-|-|-|-|-|
 | OPTION WINHTTP assurée par les \_ \_ \_ \_ rappels non bloquants \_<br/>**Boolean** | X | \- | \- | X | \- |
 | stratégie d’accès automatique aux \_ options WinHTTP \_ \_<br/>**GRANDE** | \- | X | \- | X | \- |
+| \_connexions en \_ arrière-plan des options WinHTTP \_<br/>**GRANDE** | X | \- | \- | X | Windows 10 version 21H1 |
 | \_rappel d’option WinHTTP \_<br/>**LPVOID** | X | X | X | X | \- |
 | \_contexte de \_ \_ certificat client \_ de l’option WinHTTP<br/>[**contexte du certificat \_**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
 | \_option WinHTTP \_ \_ liste d’émetteurs de certificats client \_ \_<br/>[**SecPkgContext \_ IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
@@ -1094,6 +1121,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | \_Statistiques de connexion des options WinHTTP \_ \_ \_ v1<br/>[**\_Informations TCP \_ v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10 version 2004 |
 | valeur de contexte de l' \_ option WinHTTP \_ \_<br/>**\_ptr DWORD** | X | X | X | X | \- |
 | décompression des \_ options WinHTTP \_<br/>**GRANDE** | X | X | \- | X | Windows 8.1 |
+| OPTION WINHTTP- \_ désactiver la génération de \_ \_ chaîne de certificats \_ \_<br/>**Boolean** | X | \- | \- | X | Windows 10 version 21H1 |
 | \_fonctionnalité de \_ désactivation de l’option WinHTTP \_<br/>**GRANDE** | \- | X | \- | X | \- |
 | \_option WinHTTP \_ désactiver \_ le \_ protocole sécurisé de \_ secours<br/>**Boolean** | X | \- | \- | X | Windows 10 version 1903 |
 | OPTION WINHTTP- \_ \_ désactiver la \_ \_ file d’attente de flux<br/>**Boolean** | X | X | \- | X | Windows 10 version 1809 |
@@ -1104,6 +1132,7 @@ Si vous tentez de définir ou d’interroger un indicateur d’option sur une ve
 | \_option WinHTTP \_ coder \_ extra<br/>**Boolean** | X | X | \- | X | Windows 10 version 1803 |
 | expiration de la connexion de l' \_ option WinHTTP \_ \_<br/>N/A | \- | X | \- | X | Windows 10 version 1903 |
 | \_ \_ erreur étendue de l’option WinHTTP \_<br/>**GRANDE** | X | X | X | \- | \- |
+| \_option WinHTTP \_ première \_ \_ connexion disponible<br/>**Boolean** | X | \- | \- | X | Windows 10 version 21H1 |
 | identification \_ du \_ proxy global des options \_ WinHTTP \_<br/>[**\_références WinHTTP**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | \_options WinHTTP \_ - \_ CREDS de serveur global \_<br/>[**\_références WinHTTP \_ ex**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
 | TYPE de handle de l' \_ option WinHTTP \_ \_<br/>**GRANDE** | X | X | X | \- | \- |

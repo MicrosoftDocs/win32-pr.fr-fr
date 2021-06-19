@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe de texte Graphics C++.
 ms.assetid: 70d35c08-08d9-46a6-a6df-76d989551866
 title: Fonctions de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36890179a975c35e2f09aaeecaec0d9f0e5844a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b308b500c98a447ab747999fc42c485939054a11
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972838"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395544"
 ---
 # <a name="text-functions"></a>Fonctions de texte
 
@@ -19,7 +19,7 @@ Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui 
 
 
 
-| Fonction plate                                                                                                                                                                                                                                                                   | Méthode Wrapper                                                                                                                                                                                                                                                                                                                                                                        | Notes                                                                                                                                                                                                           |
+| Fonction plate                                                                                                                                                                                                                                                                   | Méthode Wrapper                                                                                                                                                                                                                                                                                                                                                                        | Remarques                                                                                                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipDrawString (GpGraphics \* Graphics, GDIPCONST WCHAR \* String, int length, GDIPCONST GpFont \* police, GDIPCONST RECTF LayoutRect \* , GDIPCONST GpStringFormat \* stringFormat, GDIPCONST GpBrush \* Brush)<br/>                                         | [**Graphique d’État ::D rawString (dans la chaîne de const WCHAR \* , dans la longueur de int, dans la police de police const \* , dans const RectF &LAYOUTRECT, dans const StringFormat \* StringFormat, dans le pinceau de pinceau const \* )**](/previous-versions//ms535991(v=vs.85))<br/>                                                                                      | Dessine une chaîne basée sur une police, un rectangle de disposition et un format.                                                                                                                                                 |
 | GpStatus WINGDIPAPI GdipMeasureString (GpGraphics \* Graphics, GDIPCONST WCHAR \* String, int length, GDIPCONST GpFont \* police, GDIPCONST RECTF LayoutRect \* , GDIPCONST GpStringFormat \* STRINGFORMAT, RectF \* boundingBox, int \* codepointsFitted, int \* linesFilled)<br/> | [**Graphics :: MeasureString (dans la chaîne const WCHAR \* , dans la longueur int, dans la \* police const, dans const RectF &LAYOUTRECT, dans const StringFormat \* StringFormat, sortie RECTF \* boundingBox, out int \* CODEPOINTSFITTED = 0, out int \* linesFilled = 0) const**](/previous-versions//ms535831(v=vs.85))<br/> | Mesure l’étendue de la chaîne dans la police, le format et le rectangle de disposition spécifiés.                                                                                                                            |

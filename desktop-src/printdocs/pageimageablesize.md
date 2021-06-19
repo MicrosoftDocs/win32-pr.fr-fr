@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageImageableSize. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 6b81814f-2d9e-4862-8633-6ba016c11dac
 title: PageImageableSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1eef9012a7fda3eed6afd16add1d483c35c1111
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: ee4e44bc9afe33b87d32b43c93eafc3b6d4ba4b0
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996106"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395304"
 ---
 # <a name="pageimageablesize"></a>PageImageableSize
 
@@ -27,18 +27,11 @@ Les diagrammes suivants illustrent l’utilisation des variables PageImageableSi
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|                            |                     |
-|----------------------------|---------------------|
-| Nom | Value |
+| Nom                 | Valeur         |
+|----------------------|---------------|
 | Type d'élément<br/>    | Propriété<br/> |
 | Préfixe d’étendue <br/> | Page<br/>     |
 | Notes <br/>          | Aucun<br/>     |
-
-
-
- 
 
 ## <a name="structural-content"></a>Contenu structurel
 

@@ -1,15 +1,15 @@
 ---
 title: Propriété Voice (objet Command)
-description: Voice, propriété
+description: En savoir plus sur la propriété Voice de l’objet Command, qui retourne ou définit le texte de la grammaire du moteur de reconnaissance vocale pour la correspondance de cette commande pour le caractère.
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88a8f9003b5200882fc01ee37edb868a261c68c7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1ee7981de076fb3c7d8f796a8cc7d1177f96495c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106511730"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396144"
 ---
 # <a name="voice-property-command-object"></a>Propriété Voice (objet Command)
 
@@ -41,7 +41,7 @@ Retourne ou définit le texte qui est passé à la grammaire du moteur de reconn
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous ne fournissez pas ce paramètre, le [**VoiceCaption**](voicecaption-property.md) de l’objet [**commandes**](/windows/desktop/lwef/the-commands-collection-object) n’apparaîtra pas dans la fenêtre commandes vocales. Si vous spécifiez un paramètre [**vocal**](voice-property.md) , mais pas un **VoiceCaption** (ou une [**légende**](https://www.bing.com/search?q=**Caption**)), la commande n’apparaît pas dans la fenêtre commandes vocales, mais elle est accessible en voix lorsque l’application cliente devient entrée-active.
 

@@ -1,16 +1,16 @@
 ---
 title: Intrinsèques HLSL Direct3D 12 Raytracing
-description: Les nuanceurs HLSL suivants prennent en charge le pipeline Direct3D 12 Raytracing.
+description: Affichez des liens vers des articles décrivant les fonctions intrinsèques HLSL (High-Level Shader Language) qui prennent en charge le pipeline Raytracing Direct3D 12.
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2e7cc7053705bd66b37d91f3ee06a6a1f249a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 06687866354611f44f295ff4fe2cf171068e83c3
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513670"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396474"
 ---
 # <a name="raytracing-hlsl-intrinsics"></a>Intrinsèques HLSL Raytracing
 

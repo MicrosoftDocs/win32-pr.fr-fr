@@ -1,15 +1,15 @@
 ---
-description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions, qui sont implémentées dans Gdiplus.dll et déclarées dans Gdiplusflat. h.
+description: Windows GDI+ expose une API plate qui se compose d’environ 600 fonctions. Ces fonctions d’API plates sont encapsulées par la classe C++ CustomLineCap.
 ms.assetid: 3462f225-4372-4382-9831-2e960da43a30
 title: CustomLineCap, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0305d5e14c651b825bd33d601c9cf0f6520696c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09853e1ead60faff7f4311b610249151d5deb929
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528767"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395004"
 ---
 # <a name="customlinecap-functions"></a>CustomLineCap, fonctions
 

@@ -1,15 +1,15 @@
 ---
 title: Propriété Top (objet Characters)
-description: Top, propriété
+description: En savoir plus sur la propriété Top (objet Characters). Microsoft Agent est déconseillé à partir de Windows 7 et peut ne pas être disponible dans les versions ultérieures de Windows.
 ms.assetid: d5758a77-2d9a-44b8-bbbb-57ddf96c7fe4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef724c7052ad1d9ba5cb51ea46ccd7647723ed32
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 28a5e26d2ef578a98447d47eb2a3fae3613760a9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106509694"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396344"
 ---
 # <a name="top-property-characters-object"></a>Propriété Top (objet Characters)
 
@@ -41,7 +41,7 @@ Retourne ou définit le bord supérieur du frame du caractère spécifié.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **Top** est toujours exprimée en pixels, par rapport à l’origine de l’écran (en haut à gauche). Le paramètre de cette propriété s’applique à tous les clients du caractère.
 
