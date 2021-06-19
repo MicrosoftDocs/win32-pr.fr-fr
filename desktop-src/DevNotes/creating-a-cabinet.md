@@ -1,26 +1,26 @@
 ---
-description: La syntaxe suivante illustre la création d’un fichier CAB.
+description: Consultez un exemple de code qui illustre la création d’un fichier cab à l’aide de l’API Cabinet. Pour compiler, les fonctions de rappel doivent être définies.
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: Création d’un fichier CAB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b54df5e5373de82e7de6cc194d3e16e6917bb62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d1d746a61f09237d08ade349ea33b4ec8146913
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200909"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396604"
 ---
-# <a name="creating-a-cabinet"></a><span data-ttu-id="89820-103">Création d’un fichier CAB</span><span class="sxs-lookup"><span data-stu-id="89820-103">Creating a Cabinet</span></span>
+# <a name="creating-a-cabinet"></a><span data-ttu-id="89615-104">Création d’un fichier CAB</span><span class="sxs-lookup"><span data-stu-id="89615-104">Creating a Cabinet</span></span>
 
-<span data-ttu-id="89820-104">La syntaxe suivante illustre la création d’un fichier CAB.</span><span class="sxs-lookup"><span data-stu-id="89820-104">The following syntax illustrates the creation of a cabinet.</span></span>
+<span data-ttu-id="89615-105">La syntaxe suivante illustre la création d’un fichier CAB.</span><span class="sxs-lookup"><span data-stu-id="89615-105">The following syntax illustrates the creation of a cabinet.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="89820-105">Ce code est fourni à titre d’illustration uniquement.</span><span class="sxs-lookup"><span data-stu-id="89820-105">This code is for illustrative purposes only.</span></span> <span data-ttu-id="89820-106">Pour compiler, les fonctions de rappel doivent être définies.</span><span class="sxs-lookup"><span data-stu-id="89820-106">To compile, the callback functions must be defined.</span></span>
+> <span data-ttu-id="89615-106">Ce code est fourni à titre d’illustration uniquement.</span><span class="sxs-lookup"><span data-stu-id="89615-106">This code is for illustrative purposes only.</span></span> <span data-ttu-id="89615-107">Pour compiler, les fonctions de rappel doivent être définies.</span><span class="sxs-lookup"><span data-stu-id="89615-107">To compile, the callback functions must be defined.</span></span>
 
  
 
-## <a name="example"></a><span data-ttu-id="89820-107">Exemple</span><span class="sxs-lookup"><span data-stu-id="89820-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="89615-108">Exemple</span><span class="sxs-lookup"><span data-stu-id="89615-108">Example</span></span>
 
 
 ```C++
@@ -245,26 +245,26 @@ LPCSTR FCIErrorToString(FCIERROR err)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="89820-108">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="89820-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="89615-109">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="89615-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="89820-109">**FCICreate**</span><span class="sxs-lookup"><span data-stu-id="89820-109">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
+[<span data-ttu-id="89615-110">**FCICreate**</span><span class="sxs-lookup"><span data-stu-id="89615-110">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
 </dt> <dt>
 
-[<span data-ttu-id="89820-110">**FCIAddFile**</span><span class="sxs-lookup"><span data-stu-id="89820-110">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
+[<span data-ttu-id="89615-111">**FCIAddFile**</span><span class="sxs-lookup"><span data-stu-id="89615-111">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
 </dt> <dt>
 
-[<span data-ttu-id="89820-111">**FCIFlushFolder**</span><span class="sxs-lookup"><span data-stu-id="89820-111">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
+[<span data-ttu-id="89615-112">**FCIFlushFolder**</span><span class="sxs-lookup"><span data-stu-id="89615-112">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
 </dt> <dt>
 
-[<span data-ttu-id="89820-112">**FCIFlushCabinet**</span><span class="sxs-lookup"><span data-stu-id="89820-112">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
+[<span data-ttu-id="89615-113">**FCIFlushCabinet**</span><span class="sxs-lookup"><span data-stu-id="89615-113">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
 </dt> <dt>
 
-[<span data-ttu-id="89820-113">**FCIDestroy**</span><span class="sxs-lookup"><span data-stu-id="89820-113">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
+[<span data-ttu-id="89615-114">**FCIDestroy**</span><span class="sxs-lookup"><span data-stu-id="89615-114">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
 </dt> <dt>
 
-[<span data-ttu-id="89820-114">Macros de l’API Cabinet</span><span class="sxs-lookup"><span data-stu-id="89820-114">Cabinet API Macros</span></span>](cabinet-api-macros.md)
+[<span data-ttu-id="89615-115">Macros de l’API Cabinet</span><span class="sxs-lookup"><span data-stu-id="89615-115">Cabinet API Macros</span></span>](cabinet-api-macros.md)
 </dt> </dl>
 
  
