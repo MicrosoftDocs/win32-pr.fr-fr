@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. GPS. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: System. PropGroup. GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508782aaf576fbba363a061283b1a837f6ffa6f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3544f433ef83d64b65f1ad33a8d732ccf80b8181
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527861"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404552"
 ---
 # <a name="systempropgroupgps"></a>System. PropGroup. GPS
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

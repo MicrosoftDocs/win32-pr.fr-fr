@@ -1,15 +1,15 @@
 ---
-description: Définit une maille définie par les correctifs de Bézier. Le premier tableau est une liste de vertex, et le deuxième tableau définit les correctifs pour le maillage en indexant dans le tableau de vertex.
+description: PatchMesh9 définit une maille définie par les correctifs de Bézier, y compris une liste de vertex et les correctifs pour la maille en indexant dans le tableau de vertex.
 ms.assetid: 642ca513-c83e-4c6d-845c-0eaecc232728
 title: PatchMesh9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b3d8232fe8c83358feb216acfb45a7877d7acb9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 811e593117f2ec57a4718ea8078d96bcea87e71f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106513909"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404702"
 ---
 # <a name="patchmesh9"></a>PatchMesh9
 

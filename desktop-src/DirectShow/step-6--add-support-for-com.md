@@ -1,15 +1,15 @@
 ---
-description: Étape 6.
+description: Ajoutez la prise en charge de COM dans le cadre de l’écriture d’un filtre de transformation. Il s’agit de la dernière étape de ce didacticiel.
 ms.assetid: 53e4f5b7-c85d-4b44-9a0c-0ad05ca872cc
 title: Étape 6. Ajouter la prise en charge de COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e477cc22650604bce623874c0afbba1063609e44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 097d51fa440812311edde9ce448916c66721a507
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534686"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406772"
 ---
 # <a name="step-6-add-support-for-com"></a>Étape 6. Ajouter la prise en charge de COM
 

@@ -1,6 +1,6 @@
 ---
 title: Constantes du kit de développement logiciel (SDK) Windows Media format
-description: Constantes
+description: Ces articles décrivent les constantes utilisées par les objets des API étendues du client Windows Media DRM.
 ms.assetid: 4a481813-c876-4603-85e3-7652e3e20c02
 keywords:
 - Windows Media Format SDK, constantes
@@ -10,12 +10,12 @@ keywords:
 - API étendues clientes, constantes
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41de1d8dfc81d4f9343461f75b1d16f785417a91
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 79e246665761d8d85afef03641d1f9f0c20b1f69
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317062"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406212"
 ---
 # <a name="windows-media-format-sdk-constants"></a>Constantes du kit de développement logiciel (SDK) Windows Media format
 

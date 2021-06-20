@@ -1,6 +1,6 @@
 ---
 title: HttpCustomHeaderPurchaseOrderServiceExample
-description: Cet exemple montre comment utiliser un hôte de service pour héberger un service PurchaseOrder sur HTTP.
+description: Passez en revue un exemple C++ de l’API des services Web Windows (WWSAPI) d’un service de bon de commande sur les en-têtes personnalisés HTTP.
 ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
 keywords:
 - HttpCustomHeaderPurchaseOrderServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022fa8fa7ddd128fa86f8b1bcb49119bfa369953
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93c412b0106a9343695b4a96cd01e54df7ea654d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380090"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404122"
 ---
 # <a name="httpcustomheaderpurchaseorderserviceexample"></a>HttpCustomHeaderPurchaseOrderServiceExample
 
@@ -545,9 +545,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

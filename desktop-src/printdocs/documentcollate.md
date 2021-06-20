@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentCollate, qui décrit les caractéristiques de classement de la sortie.
 ms.assetid: 752cccf7-1f95-4597-b0e2-a96fd22ffeef
 title: DocumentCollate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959613299c53996ce7d66171d2da1518f28b9298
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: e4c3036cc64265ea8f88bfcc46aea0149f8af5ad
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993996"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409452"
 ---
 # <a name="documentcollate"></a>DocumentCollate
 
@@ -45,7 +45,7 @@ OFF : pour toutes les copies (JobCopiesAllDocuments x DocumentCopiesAllPages) i
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |

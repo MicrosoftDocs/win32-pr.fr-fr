@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Ces articles fournissent des informations plus détaillées sur la signification et l’utilisation des types d’éléments de schéma d’impression.
 ms.assetid: 05c7fd07-1c32-409d-8ca5-820038af3440
 title: Structure du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 617f747b950676f2359645684c9e672fb5c87ee3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 570701df700954ad85fb724b9528b7e7912f3174
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211290"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407162"
 ---
 # <a name="print-schema-framework"></a>Structure du schéma d’impression
 

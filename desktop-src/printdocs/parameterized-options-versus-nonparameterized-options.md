@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Découvrez comment PrintTicket et PrintCapabilities gèrent les options paramétrables et non paramétrées.
 ms.assetid: 92438df1-afde-4038-853e-9b98f7e589ea
 title: Options paramétrées et options non paramétrées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c1da2aba2515662be79da0c3831762de66463d
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d4c788eaf2fa08f4f29a541a775d2bcbf523aa51
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321714"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407222"
 ---
 # <a name="parameterized-options-versus-nonparameterized-options"></a>Options paramétrées et options non paramétrées
 

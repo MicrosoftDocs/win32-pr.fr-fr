@@ -1,15 +1,15 @@
 ---
-description: La fonction CreateThread crée un nouveau thread pour un processus.
+description: Apprenez à utiliser la fonction CreateThread pour créer un nouveau thread pour un processus. Les débogueurs doivent généralement examiner ou modifier le contenu des registres d’un thread.
 ms.assetid: df59eedd-45ec-4564-96a5-8cecb345cfcc
 title: Fonctions de thread pour le débogage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5ab0865d5585656a5c22c24e2604032de8b888
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ff168d4840032a6199ef03e0cf2117c8ea87f4d6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523671"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403982"
 ---
 # <a name="thread-functions-for-debugging"></a>Fonctions de thread pour le débogage
 

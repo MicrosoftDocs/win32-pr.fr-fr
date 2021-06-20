@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobAccountingSheet, qui décrit la feuille de comptabilité à générer pour le travail.
 ms.assetid: fd16bd46-32e3-4896-ac5c-03c1bf6ad515
 title: JobAccountingSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30ffb70ba0ac1a78eefc1024d8e93dc642439aed
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 499d78db7a967e256ee79cd6e0c35d2f7d59dff4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998426"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409093"
 ---
 # <a name="jobaccountingsheet"></a>JobAccountingSheet
 
@@ -25,7 +25,7 @@ Décrit le tableau de comptabilité à générer pour le travail. La feuille de 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

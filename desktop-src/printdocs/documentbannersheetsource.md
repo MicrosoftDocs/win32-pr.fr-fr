@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentBannerSheetSource, qui spécifie la source d’une feuille de bannière personnalisée.
 ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: DocumentBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5a2802094a0d20cf1b8b0a177a5b774489bb37
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d33aa949982e98781c42cbf6aa770dbd4e3d1707
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996316"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409472"
 ---
 # <a name="documentbannersheetsource"></a>DocumentBannerSheetSource
 
@@ -24,7 +24,7 @@ Spécifie la source d’une feuille de bannière personnalisée.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                          |
 | Préfixe d’étendue <br/> | Document<br/>                              |
@@ -68,7 +68,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

@@ -1,15 +1,15 @@
 ---
-description: Étape 3.
+description: Exposer les nouvelles interfaces d’un filtre aux clients dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.
 ms.assetid: a0e52ba9-9f7c-4cf3-ba5f-b0035ed1794c
 title: Étape 3. Prendre en charge QueryInterface
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0e3d44b67971e165b8586aa3a02cc65ab3ab05f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84b62132a6f24c68453ad4e51f72cdd9a2a78c65
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520721"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410022"
 ---
 # <a name="step-3-support-queryinterface"></a>Étape 3. Prendre en charge QueryInterface
 

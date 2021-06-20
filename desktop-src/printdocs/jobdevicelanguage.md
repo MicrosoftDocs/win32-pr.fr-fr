@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobDeviceLanguage, qui décrit les langues de l’appareil prises en charge pour l’envoi de données du pilote vers l’appareil physique.
 ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b9f85b44ae9fdc6efb66ce5b72bb68c5187790
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3b7bf56018a2b395ec5aa182336a89d8872057e7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998296"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408993"
 ---
 # <a name="jobdevicelanguage"></a>JobDeviceLanguage
 
@@ -25,7 +25,7 @@ Décrit les langues de l’appareil prises en charge pour l’envoi de données 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

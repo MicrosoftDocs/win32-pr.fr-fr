@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobPrimaryCoverBackSource, qui spécifie la source d’une feuille principale personnalisée de couverture pour le travail.
 ms.assetid: b5c8e79c-cdae-4c53-b594-915726423b4f
 title: JobPrimaryCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2145bae0843323928d8a7d016fc61f10c0e388ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 74ed9bbc1b49e230eabc3fd7f45773a73401e058
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993976"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408692"
 ---
 # <a name="jobprimarycoverbacksource"></a>JobPrimaryCoverBackSource
 
@@ -24,7 +24,7 @@ Spécifie la source d’une feuille principale personnalisée de couverture pour
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                   |
 | Préfixe d’étendue <br/> | Travail<br/>                            |
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

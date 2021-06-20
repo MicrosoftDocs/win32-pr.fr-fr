@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Le paramètre PageBlackGenerationProcessingGrayComponentReplacementExtent décrit l’étendue au-delà des neutres dans les couleurs chromatiques que GCR applique.
 ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9a790d66d1f7806a7ef86ee4a85f62225aa836
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5b3bd5e4fdbafba97884a7aed608b23e4c26ce1c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997706"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408502"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementextent"></a>PageBlackGenerationProcessingGrayComponentReplacementExtent
 
@@ -24,7 +24,7 @@ Décrit le dépassant les neutres (en couleurs chromatiques) qui s’appliquent 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
@@ -70,13 +70,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 

@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit les unions utilisées par les API audio principales.
+description: Cette section décrit les types de données utilisés par les API audio de base, telles que SpatialAudioHrtfOrientation.
 ms.assetid: B2ED2C84-3226-49B3-9391-E1A2B2391A94
 title: Types de données audio de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b838564ecde8a05dd3c29d4ce7da795c19a5a52
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea7f9289af0c67a4713d7f11da4f32bc7872bd2b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201010"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405902"
 ---
 # <a name="core-audio-datatypes"></a>Types de données audio de base
 
-Cette section décrit les unions utilisées par les API audio principales.
+Cette section décrit les types de données utilisés par les principales API audio.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

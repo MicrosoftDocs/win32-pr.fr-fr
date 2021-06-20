@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentHolePunch, qui décrit les caractéristiques de perforation de la sortie.
 ms.assetid: 46fd5e22-a2f3-424d-8c2f-2d5ac089a230
 title: DocumentHolePunch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 825120996d0d488af347ed871386a12d7f8014a7
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 760559d3bb155030ff72a616096e5a860ba0d6b0
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997886"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409291"
 ---
 # <a name="documentholepunch"></a>DocumentHolePunch
 
@@ -25,7 +25,7 @@ Décrit les caractéristiques de perforation de la sortie. Chaque document est p
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                             |
 | Préfixe d’étendue <br/> | Document<br/>                                                            |

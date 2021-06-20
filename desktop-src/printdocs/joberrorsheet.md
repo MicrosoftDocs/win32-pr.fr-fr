@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobErrorSheet, qui décrit la sortie de la feuille d’erreur. La totalité du travail aura une seule feuille d’erreur.
 ms.assetid: ad30df59-0051-4471-8c0e-3207bcc7bfbe
 title: JobErrorSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6724e72a9351efc1d3cc5912b9806fb8d65a85
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6dcee6c50d482793eeef96e29ad98385da11a4e6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998146"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408902"
 ---
 # <a name="joberrorsheet"></a>JobErrorSheet
 
@@ -25,7 +25,7 @@ Décrit la sortie de la feuille d’erreur. La totalité du travail aura une seu
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |

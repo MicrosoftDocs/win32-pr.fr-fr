@@ -1,15 +1,15 @@
 ---
 title: Propriété Enabled (objet AudioOutput)
-description: Propriété activée
+description: En savoir plus sur la propriété d’objet AudioOutput activée. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: 6526f249-be13-4732-b79e-a9952489461f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5dff9153a1aa7a6bf5346d46f43f80bf48809c9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b807b4cadcc9a0157b4efa400dd9d0e3cb5cf21a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032258"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407342"
 ---
 # <a name="enabled-property-audiooutput-object"></a>Propriété Enabled (objet AudioOutput)
 
@@ -42,7 +42,7 @@ Retourne une valeur booléenne indiquant si la sortie audio (parlée) est activ�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété reflète l’option lire l’audio en sortie dans la page sortie de la feuille de propriétés de l’agent (options des caractères avancés). Lorsque la propriété [**Enabled**](enabled-property.md) retourne la **valeur true**, la méthode [**Speak**](speak-method.md) produit une sortie audio si un moteur TTS compatible est installé ou si vous utilisez des fichiers son pour la sortie parlée. Quand elle retourne **false**, cela signifie que la sortie vocale n’est pas installée ou a été désactivée par l’utilisateur. Le paramètre de propriété s’applique à tous les caractères de l’agent et est en lecture seule ; seul l’utilisateur peut définir cette valeur de propriété.
 

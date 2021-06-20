@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’élément Fill
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit l’utilisation de l’élément Fill de VML, fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: ed36601d-2e90-412e-ac3f-58324fac300d
 keywords:
 - Atelier Web, remplir l’élément
@@ -28,12 +28,12 @@ keywords:
 - formes pleines d’images
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf497a3120f53e24f1cff2bf7084469754bbaf7e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ecb243e4896443fd36a1b22c2ac3a0ab0bedfb2b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104570474"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407792"
 ---
 # <a name="using-the-fill-element"></a>Utilisation de l’élément Fill
 
@@ -42,7 +42,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Comme vous l’avez appris, vous pouvez utiliser l’attribut de propriété **FillColor** d’un élément de forme prédéfini, tel que `<oval>` ,,,,, `<line>` `<polyline>` `<curve>` `<rect>` `<roundrect>` , `<arc>` --pour spécifier la couleur utilisée pour remplir la forme. Dans cette rubrique, nous allons vous montrer comment dessiner une forme remplie avec des effets plus avancés.
 
@@ -92,7 +92,7 @@ Vous pouvez définir l’attribut de propriété de la **méthode** sur « Line
 
 **Exemples :**
 
- 
+ 
 
 Pour créer une forme dégradée verticalement, vous pouvez définir l’attribut de propriété angle sur angle = « -90 », comme indiqué dans la représentation VML suivante :
 
@@ -219,6 +219,6 @@ Vous pouvez facilement créer une forme remplie avec une autre image en pointant
 
 Pour plus d’informations sur cet élément, consultez la [spécification VML](https://www.w3.org/TR/NOTE-VML#-toc416858394) .
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: Guide de programmation de DirectWrite
-description: Les rubriques suivantes fournissent une vue d’ensemble de l’API DirectWrite.
+description: Consultez les articles dans le Guide de programmation de l’API DirectWrite. DirectWrite permet aux applications Windows d’améliorer l’expérience de texte pour l’interface utilisateur et les documents.
 ms.assetid: ca80d130-0579-409f-9054-6e63af14ebe3
 keywords:
 - DirectWrite, à propos de
@@ -8,12 +8,12 @@ keywords:
 - Guide de programmation pour DirectWrite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d1003b18dda9bf91c254f3463cb424b9c05764c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 06b8cbc3ebc816b8cda02624f9fedac32d29e359
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031782"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405562"
 ---
 # <a name="directwrite-programming-guide"></a>Guide de programmation de DirectWrite
 

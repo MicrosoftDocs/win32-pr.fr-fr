@@ -1,15 +1,15 @@
 ---
 title: Types signés et non signés (RPC)
-description: Les compilateurs qui utilisent des valeurs par défaut différentes pour les types signés et non signés peuvent provoquer des erreurs logicielles dans votre application distribuée.
+description: En savoir plus sur les types signés et non signés dans RPC. Les compilateurs qui utilisent différents types par défaut peuvent provoquer des erreurs logicielles dans votre application distribuée.
 ms.assetid: 0464d465-84b7-49fc-968e-5efe037966c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 453d45d0a4c29a2e30449fb645e6f40338eac546
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f4c03010262c8492b6738d1e817e165e5ca8f839
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842997"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406542"
 ---
 # <a name="signed-and-unsigned-types-rpc"></a>Types signés et non signés (RPC)
 

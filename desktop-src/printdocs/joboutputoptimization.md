@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur le JobOutputOptimization, qui décrit le traitement du travail, destiné à optimiser la sortie pour des scénarios d’utilisation particuliers, comme indiqué par l’option spécifiée.
 ms.assetid: 40925dfe-494c-49b5-ae57-de369723ba76
 title: JobOutputOptimization
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b76364aca1a9b6c8019a709c1cd0b7b1ad03020c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: cdbb65f86b5ed4fd30c056e234b88197d4ab475d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997746"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408792"
 ---
 # <a name="joboutputoptimization"></a>JobOutputOptimization
 
@@ -25,7 +25,7 @@ Décrit le traitement du travail, destiné à optimiser la sortie pour des scén
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

@@ -1,6 +1,6 @@
 ---
 title: La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)
-description: La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.
+description: Découvrez comment déterminer si un utilisateur est autorisé à modifier un mot de passe pour le fournisseur Winnt. La capacité d’un utilisateur à modifier un mot de passe peut être accordée ou refusée.
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, utilisateur ne peut pas modifier le mot de passe, lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab257f620d3e103866639f8ecacb57cc924efec4
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103940727"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405912"
 ---
 # <a name="reading-user-cannot-change-password-winnt-provider"></a>La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)
 
@@ -120,9 +120,9 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

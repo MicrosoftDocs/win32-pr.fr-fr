@@ -1,6 +1,6 @@
 ---
 title: Utilisation de l’élément Stroke
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit l’utilisation de l’élément Stroke de VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
 keywords:
 - Atelier Web, élément Stroke
@@ -33,12 +33,12 @@ keywords:
 - attribut de propriété fillType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b58e02945884ea63ad1be01e67cfc156951cd5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dff7a4b3bc654063fe8156476cc9c52453247a0b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316355"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407842"
 ---
 # <a name="using-the-stroke-element"></a>Utilisation de l’élément Stroke
 
@@ -47,7 +47,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Utilisation de `<stroke>`
 
@@ -432,6 +432,6 @@ strokeweight="15pt">
 
 Pour plus d’informations sur cet élément, consultez la [spécification VML](https://www.w3.org/TR/NOTE-VML#-toc416858395) .
 
- 
+ 
 
- 
+ 

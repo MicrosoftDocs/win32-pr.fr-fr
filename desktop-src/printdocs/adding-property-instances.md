@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’ajout d’instances de propriété. Le schéma d’impression permet de présenter des instances de propriété dans une instance d’option.
 ms.assetid: dac287a9-77ca-44d8-8019-b05e4c61dc52
 title: Ajout d’instances de propriété
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e3df1b6c271c37c080968cc775ac11eba2e3ce
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8085fa10f824f32dc76aef0f1e5f78ca05b22b93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104393875"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409692"
 ---
 # <a name="adding-property-instances"></a>Ajout d’instances de propriété
 

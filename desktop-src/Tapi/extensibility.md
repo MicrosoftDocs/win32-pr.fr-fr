@@ -1,15 +1,15 @@
 ---
-description: Des dispositions sont prises pour étendre les constantes et les structures de manière indépendante du périphérique et dans un mode spécifique au périphérique (spécifique au fournisseur).
+description: En savoir plus sur l’extensibilité. Des dispositions sont prises pour étendre les constantes et les structures de manière indépendante du périphérique et de manière spécifique à l’appareil.
 ms.assetid: bc0a18f3-1f58-4a24-8afb-c31f3b561375
 title: Extensibilité (API de téléphonie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca446a03a9bdbe6d906e7accf261645401cd937
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f29ad34b5156bdd652ab6b6f8901be7a2341bdc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202831"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406562"
 ---
 # <a name="extensibility"></a>Extensibilité
 

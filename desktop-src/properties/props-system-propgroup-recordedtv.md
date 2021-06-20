@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. RecordedTV. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: f852494d-4d51-4370-9d73-e0659fb5688e
 title: System. PropGroup. RecordedTV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beb574a65e895565b11c3984af7f6cdb4a137db5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ded25a5cfa0d666c5d280684f359495d9c88017
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534481"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403742"
 ---
 # <a name="systempropgrouprecordedtv"></a>System. PropGroup. RecordedTV
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

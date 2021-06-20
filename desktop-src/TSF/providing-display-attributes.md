@@ -1,6 +1,6 @@
 ---
 title: Fournir des attributs d’affichage
-description: Text Services Framework (TSF) permet à un service de texte de fournir des attributs d’affichage pour le texte.
+description: Découvrez comment fournir des attributs d’affichage. Text Services Framework (TSF) permet à un service de texte de fournir des attributs d’affichage pour le texte.
 ms.assetid: 5809f5b8-0396-4abd-b5fe-61ecc8cd0914
 keywords:
 - Text Services Framework (TSF), attributs d’affichage
@@ -9,12 +9,12 @@ keywords:
 - attributs d'affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f59bb64ef4f06df020a40189d273c703768d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 780cc191e39d5b1d0c3329bab87af5267e4a6c73
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509590"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406112"
 ---
 # <a name="providing-display-attributes"></a>Fournir des attributs d’affichage
 
@@ -179,9 +179,9 @@ Un client obtient un objet **ITfDisplayAttributeInfo** de l’une des deux mani�
 [IEnumTfDisplayAttributeInfo :: suivant](/windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-next)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

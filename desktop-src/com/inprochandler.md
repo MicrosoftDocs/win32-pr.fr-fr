@@ -1,17 +1,17 @@
 ---
 title: InprocHandler
-description: Spécifie si une application utilise un gestionnaire personnalisé.
+description: InprocHandler spécifie si une application utilise un gestionnaire personnalisé dans la clé de Registre HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID.
 ms.assetid: b371b331-148b-46f2-a21e-b88b285bcfc9
 keywords:
 - Clé de Registre InprocHandler COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8c19089ece43496465351b44e9faa8793ba893
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aea1ca0d5eb5dec58a36578d268d7020a963a95e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380198"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404732"
 ---
 # <a name="inprochandler"></a>InprocHandler
 
@@ -21,11 +21,11 @@ Spécifie si une application utilise un gestionnaire personnalisé.
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      InprocHandler = handler.dll
+   {CLSID}
+      InprocHandler = handler.dll
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’une valeur de **reg \_ SZ** qui spécifie le gestionnaire personnalisé utilisé par l’application. Si un gestionnaire personnalisé n’est pas utilisé, l’entrée doit être définie sur Ole32.dll.
 
@@ -38,9 +38,9 @@ Si un conteneur recherche un gestionnaire personnalisé dans le registre, la ver
 [**InprocHandler32**](inprochandler32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

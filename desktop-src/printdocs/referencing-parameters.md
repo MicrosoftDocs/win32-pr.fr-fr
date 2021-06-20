@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur le référencement des paramètres et l’élément ParameterDef. L’option taille de média personnalisée est un exemple d’option qui comprend un élément ParameterRef.
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: Référencement des paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0815ec7cd412e158a73e2b760f9f6080d7b0326a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 650790af5ca6849bd082b4819dd4c411adea320f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106527052"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405322"
 ---
 # <a name="referencing-parameters"></a>Référencement des paramètres
 

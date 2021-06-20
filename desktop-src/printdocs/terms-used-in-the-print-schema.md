@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cet article répertorie et définit des termes spécifiques au schéma d’impression et aux technologies associées.
 ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: Termes utilisés dans le schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754635b7fb59c8ce8baad29e69c606c9341c207f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: dc28fadfe1f62a971cc28225af77686bd1e88d21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106529538"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408392"
 ---
 # <a name="terms-used-in-the-print-schema"></a>Termes utilisés dans le schéma d’impression
 

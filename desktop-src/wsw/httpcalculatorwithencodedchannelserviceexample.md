@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithEncodedChannelServiceExample
-description: Cet exemple montre comment utiliser un hôte de service pour héberger un service de calculatrice avec un canal personnalisé et une implémentation d’écouteur qui se couche par-dessus HTTP.
+description: Passez en revue un exemple C++ de l’API des services Web Windows (WWSAPI) d’une calculatrice HTTP avec le service de canal encodé.
 ms.assetid: 3b8d58dd-2f0c-4008-81ad-abda23a26a52
 keywords:
 - HttpCalculatorWithEncodedChannelServiceExample-services Web natifs
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4f0e35c84d0e3e23d23e8acf2b8d1a5f1ced500
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c1eb0ef089b546a87ce741934ce26855e726c38a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311455"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404162"
 ---
 # <a name="httpcalculatorwithencodedchannelserviceexample"></a>HttpCalculatorWithEncodedChannelServiceExample
 
@@ -777,9 +777,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

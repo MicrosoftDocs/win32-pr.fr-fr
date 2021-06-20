@@ -1,6 +1,6 @@
 ---
 title: Vue d’ensemble des manipulations avancées
-description: Cette section décrit les manipulations avancées pour les applications.
+description: Lisez une présentation graphique des manipulations avancées pour les applications. En savoir plus sur l’expansion, la rotation et la traduction.
 ms.assetid: a0c3fecb-d3c7-4f12-90be-5f77f4f5883e
 keywords:
 - Tactile Windows, manipulations
@@ -25,12 +25,12 @@ keywords:
 - traduction, avancé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f58a5dffb3c2d11e07a8c6495ec777579916481
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04dea220c213de75820075c9375a04e1800a880d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028698"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406332"
 ---
 # <a name="advanced-manipulations-overview"></a>Vue d’ensemble des manipulations avancées
 
@@ -69,9 +69,9 @@ Dans l’exemple A, l’exemple de traduction simple, l’objet est déplacé sa
 [Manipulations](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

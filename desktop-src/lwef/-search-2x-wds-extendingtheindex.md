@@ -1,15 +1,15 @@
 ---
 title: Extension de l’index (fonctionnalités héritées de l’environnement Windows)
-description: L’utilisation de et le développement des versions 2. x de Microsoft Windows Desktop Search (WDS) sont fortement déconseillées au profit de Windows Search.
+description: Découvrez comment étendre l’index dans Windows Desktop Search 2. x. Pour les versions de Windows ultérieures à Windows XP et Windows Server 2003, utilisez Windows Search à la place.
 ms.assetid: vs|search|~\search\wds2x\extending_index_ovr.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ad766d6fa1c00649f7cbdc3118039ed50f13491
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 63408cfe1efeb8da4d6a4540cc57b99ea56ae935
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102768"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407352"
 ---
 # <a name="extending-the-index-legacy-windows-environment-features"></a>Extension de l’index (fonctionnalités héritées de l’environnement Windows)
 

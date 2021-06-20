@@ -1,15 +1,15 @@
 ---
-description: Des dispositions sont prises pour étendre les constantes et les structures de manière indépendante du périphérique et dans un mode spécifique au périphérique (spécifique au fournisseur).
+description: En savoir plus sur l’extensibilité constante. Des dispositions sont prises pour étendre les constantes et les structures de manière indépendante du périphérique et de manière spécifique à l’appareil.
 ms.assetid: 78430503-3e1f-49ab-be9c-d48bd21a840e
 title: Extensibilité constante
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a470ccb52af1bdc92596ac42bbafb74d4821db1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 975d2901dcc3f7e574ffdacdabbcf457821ef932
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521413"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409972"
 ---
 # <a name="constant-extensibility"></a>Extensibilité constante
 

@@ -1,6 +1,6 @@
 ---
 title: Registres de ps_3_0
-description: Les nuanceurs de pixels dépendent des registres pour obtenir des données de vertex, pour produire des données de pixels, pour conserver des résultats temporaires pendant les calculs et pour identifier les étapes d’échantillonnage de texture.
+description: Cet article contient des informations de référence pour les registres d’entrée et de sortie implémentés par le nuanceur de pixels version 3_0.
 ms.assetid: 01bee50a-c1b7-4b15-9df8-1dd52d9ff163
 keywords:
 - vPos
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ef4eef435857968246ab0413841ef072b5391a5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e1cd0173beabc8fbe21ad15e88e23fc1b6e84892
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382106"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405492"
 ---
 # <a name="ps_3_0-registers"></a>\_registres PS 3 \_ 0
 
@@ -52,16 +52,16 @@ Le registre de position (vPos) est une nouveauté pour ce modèle. Il contient l
 | r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)               | 32    | R/W (Lecture/écriture) | 3             | Illimité     | 4         | Non      | None       | Non           |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-ps-registers-constant-float.md)     | 224   | R   | 1             | Illimité     | 4         | Non      | 0000       | Non           |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md) | 16    | R   | 1             | 1             | 4         | Non      | 0000       | Non           |
-| p\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md) | 16    | R   | 1             | 1             | 1         | Non      | FALSE      | Non           |
+| b\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md) | 16    | R   | 1             | 1             | 1         | Non      | FALSE      | Non           |
 | P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)               | 1     | R   | 1             | 1             | 1         | Non      | None       | Non           |
-| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)        | 16    | R   | 1             | 1             | 4         | Non      | Voir la remarque 1 | Oui          |
+| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)        | 16    | R   | 1             | 1             | 4         | Non      | Voir la remarque 1 | Oui          |
 | vFace    | Registre de visage \_                                                                            | 1     | R   | 1             | Illimité     | 1         | Non      | None       | Oui          |
 | vPos     | Registre de position \_                                                                        | 1     | R   | 1             | Illimité     | 4         | Non      | None       | Oui          |
 | &       | \_Registre de compteur de boucle \_                                                                   | 1     | R   | 1             | Illimité     | 1         | n/a     | Aucun       | Non           |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -80,7 +80,7 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -89,6 +89,6 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

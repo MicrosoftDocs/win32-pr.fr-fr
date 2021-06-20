@@ -1,15 +1,15 @@
 ---
-description: Affiche la relation entre les paramètres de fonction qui pointent vers des structures ou des tableaux et leurs données initialisées.
+description: Affiche la relation entre les paramètres de fonction qui pointent vers des structures ou des tableaux et leurs données initialisées, à l’aide d’un exemple de code.
 ms.assetid: b1ad0f13-fb4d-421f-b054-a99c8ad9c83a
 title: 'Exemple de programme C : utilisation de CryptEncryptMessage et CryptDecryptMessage'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 726381b1c76c987207e2115c6282534b94212931
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b776ea1e0286717da94ed1b92caccfc19652e70
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554575"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410032"
 ---
 # <a name="example-c-program-using-cryptencryptmessage-and-cryptdecryptmessage"></a>Exemple de programme C : utilisation de CryptEncryptMessage et CryptDecryptMessage
 

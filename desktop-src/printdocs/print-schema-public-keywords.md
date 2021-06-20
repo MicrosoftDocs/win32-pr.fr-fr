@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Cet article spécifie les mots clés publics qui sont définis pour le schéma d’impression et leur utilisation pour PrintCapabilities et PrintTicket.
 ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: Mots clés publics du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3e8fb9a46bbed2b135f4e81456dd65e79be830
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0878ced6b011393479657a4fcdd4b7b7f9a2b62a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106538273"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407142"
 ---
 # <a name="print-schema-public-keywords"></a>Mots clés publics du schéma d’impression
 

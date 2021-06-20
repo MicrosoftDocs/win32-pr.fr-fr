@@ -1,15 +1,15 @@
 ---
-description: Ces valeurs sont utilisées avec les fonctions ImmGetConversionStatus et ImmSetConversionStatus.
+description: Passez en revue la liste des valeurs du mode phrase de l’éditeur de méthode d’entrée (IME). Ces valeurs sont utilisées avec les fonctions ImmGetConversionStatus et ImmSetConversionStatus.
 ms.assetid: 24b12936-7dfc-4c8d-970c-d8354ad46d1d
 title: Valeurs du mode de phrase IME
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2fb9d25b2c3b1828e8c36aca554468f6447af2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 285636ab097bd536e5bd0e4e1869f12c648c3cbb
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203075"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406762"
 ---
 # <a name="ime-sentence-mode-values"></a>Valeurs du mode de phrase IME
 

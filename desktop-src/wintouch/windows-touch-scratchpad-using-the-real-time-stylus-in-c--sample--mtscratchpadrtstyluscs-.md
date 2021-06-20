@@ -1,6 +1,6 @@
 ---
 title: Bloc-notes Windows Touch utilisant l’exemple Real-Time Stylus (C#)
-description: L’exemple du bloc-notes Windows Touch (MTScratchpadRTStylus) montre comment utiliser des messages tactiles Windows pour dessiner les traces des points tactiles dans une fenêtre.
+description: Consultez l’exemple C# de bloc-notes Windows Touch (MTScratchpadRTStylus), qui montre comment utiliser des messages tactiles Windows pour dessiner des traces des points tactiles dans une fenêtre.
 ms.assetid: 8e80672f-0780-4dec-a9b4-afec0f7782ad
 keywords:
 - Windows Touch, exemples de code
@@ -10,12 +10,12 @@ keywords:
 - Interface tactile Windows, objet de stylet (RTS) en temps réel
 ms.topic: article
 ms.date: 10/28/2019
-ms.openlocfilehash: 4cf9ab2e451dcdcaaee808083ca42c420778f231
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3c30d3543024a48394ddd7b9b2b06a05b61f5025
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314257"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406312"
 ---
 # <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>Bloc-notes Windows Touch utilisant l’exemple Real-Time Stylus (C#)
 

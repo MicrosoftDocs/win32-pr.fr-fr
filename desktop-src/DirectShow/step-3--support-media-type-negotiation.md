@@ -1,15 +1,15 @@
 ---
-description: Étape 3.
+description: Implémentez la prise en charge de la négociation de type de média dans le cadre de l’écriture d’un filtre de transformation. Le type de média décrit le format des données.
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: Étape 3. Prendre en charge la négociation de type de média
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3ff8539d0d7de2c9b7300ddb90ad86ca471710
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3a23784e70330f751325fc5f780463d5a3904d20
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869509"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410042"
 ---
 # <a name="step-3-support-media-type-negotiation"></a>Étape 3. Prendre en charge la négociation de type de média
 

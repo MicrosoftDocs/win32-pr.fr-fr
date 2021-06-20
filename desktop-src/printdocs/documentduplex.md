@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentDuplex, qui décrit les caractéristiques duplex de la sortie. La fonctionnalité duplex permet l’impression des deux côtés du média.
 ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959bbddbfa06e47fe2bc744af3ead0a72b13af7b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5c2ad8521835213594f10507ab6fd4b9cca24040
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998416"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409342"
 ---
 # <a name="documentduplex"></a>DocumentDuplex
 
@@ -25,7 +25,7 @@ Décrit les caractéristiques duplex de la sortie. La fonctionnalité duplex per
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |

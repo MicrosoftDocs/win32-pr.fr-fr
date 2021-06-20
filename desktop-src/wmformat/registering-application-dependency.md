@@ -1,18 +1,18 @@
 ---
 title: Inscription de la dépendance d’application (SDK Windows Media format 11)
-description: Inscription de la dépendance d’application
+description: Découvrez comment inscrire votre application avec les composants d’exécution des API fournies par le kit de développement logiciel (SDK) Windows Media format 11.
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Windows Media Format SDK, inscrire des dépendances d’application
 - inscription des dépendances d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090cf61d32597800b52e2bc112d2bee1cc1b7cd7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1cd546ee9b162652f00a131e87561a7e34f7e3a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032166"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406162"
 ---
 # <a name="registering-application-dependency-windows-media-format-11-sdk"></a>Inscription de la dépendance d’application (SDK Windows Media format 11)
 

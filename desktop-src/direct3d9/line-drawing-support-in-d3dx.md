@@ -1,15 +1,15 @@
 ---
-description: D3DX est une bibliothèque d’utilitaire qui fournit des services d’assistance. Il s’agit d’une couche au-dessus du composant Direct3D.
+description: En savoir plus sur la prise en charge des dessins en ligne dans D3DX. D3DX est une bibliothèque d’utilitaire qui fournit des services d’assistance. Il s’agit d’une couche au-dessus du composant Direct3D.
 ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: Prise en charge des dessins en ligne dans D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974a0fdeb24dad1107f85e6c79603368776bce15
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4cf15eae461d0dbe719e99cfac605a6c8b8d272
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392691"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407532"
 ---
 # <a name="line-drawing-support-in-d3dx-direct3d-9"></a>Prise en charge des dessins en ligne dans D3DX (Direct3D 9)
 

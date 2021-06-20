@@ -1,15 +1,15 @@
 ---
-description: Étape 6.
+description: 'Substituez la méthode CBasePropertyPage :: OnActivate pour initialiser la boîte de dialogue dans le cadre de la création d’une page de propriétés de filtre pour un filtre DirectShow personnalisé.'
 ms.assetid: 8462958d-3958-453b-8034-3cfc2fb5ae2e
 title: Étape 6. Initialiser la boîte de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 282eb03db38c543678fb2c4ef1155e1150b419bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcbdf18e272ac548227626bc9da4f992786a4ab3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529368"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404492"
 ---
 # <a name="step-6-initialize-the-dialog"></a>Étape 6. Initialiser la boîte de dialogue
 

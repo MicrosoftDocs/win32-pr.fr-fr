@@ -1,15 +1,15 @@
 ---
-description: Étape 4.
+description: Définissez les propriétés Allocator dans le cadre de l’écriture d’un filtre de transformation. La broche de sortie du filtre de transformation sélectionne l’allocateur en aval.
 ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Étape 4. Définir les propriétés d’allocateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a32d5e3affba32b96dc93cb97e1886322bc6f2c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9ee7d9ecdc85b63ec6bd774a3a47e0e9399dcf3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534044"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406822"
 ---
 # <a name="step-4-set-allocator-properties"></a>Étape 4. Définir les propriétés d’allocateur
 

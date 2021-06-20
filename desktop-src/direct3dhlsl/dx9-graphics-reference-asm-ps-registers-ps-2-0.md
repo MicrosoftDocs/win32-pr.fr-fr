@@ -1,6 +1,6 @@
 ---
 title: Registres de ps_2_0
-description: Les nuanceurs de pixels dépendent des registres pour obtenir des données de vertex, pour produire des données de pixels, pour conserver des résultats temporaires pendant les calculs et pour identifier les étapes d’échantillonnage de texture.
+description: Cet article contient des informations de référence pour les registres d’entrée et de sortie implémentés par le nuanceur de pixels version 2_0.
 ms.assetid: 8002e3eb-b9d4-4ecb-a9e5-ae58a9e20ace
 keywords:
 - Registres-ps_2_0
@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3f88364bdb5372f6600c3260b8bf34737861fe19
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 328eb1b0247c2c2c514ca9116a04e9add23f596d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315521"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406722"
 ---
 # <a name="ps_2_0-registers"></a>\_registres PS 2 \_ 0
 
@@ -28,18 +28,18 @@ Les nuanceurs de pixels dépendent des registres pour obtenir des données de ve
 
 | S’inscrire | Nom                                                                                          | Count      | R/W (Lecture/écriture)        | \# Ports de lecture | \# Lectures/inst | Dimension | RelAddr | Valeurs par défaut                  | DCL obligatoire |
 |----------|-----------------------------------------------------------------------------------------------|------------|------------|---------------|---------------|-----------|---------|---------------------------|--------------|
-| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Illimité     | 4         | N       | Partiel (0001). Voir la remarque 4 | O            |
-| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | Illimité     | 4         | N       | Aucun                      | N            |
+| v\#      | [Registre des couleurs d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md)               | 2          | R          | 1             | Illimité     | 4         | N       | Partiel (0001). Voir la remarque 4 | Y            |
+| r\#      | [Registre temporaire](dx9-graphics-reference-asm-ps-registers-temporary.md)                   | Voir la remarque 1 | R/W (Lecture/écriture)        | 3             | Illimité     | 4         | N       | Aucun                      | N            |
 | c\#      | [Registre à virgule flottante constante](dx9-graphics-reference-asm-ps-registers-constant-float.md)         | 32         | R          | 1             | 2             | 4         | N       | 0000                      | N            |
 | cliqu\#      | [Registre d’entiers constant](dx9-graphics-reference-asm-ps-registers-constant-integer.md)     | 16         | Voir la remarque 2 | 1             | 1             | 4         | N       | 0000                      | N            |
-| p\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | Voir la remarque 2 | 1             | 1             | 1         | N       | FALSE                     | N            |
-| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | Aucun                      | O            |
-| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | Voir la remarque 3 | 1             | 1             | 4         | N       | Voir la remarque 5                | O            |
-| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | Aucun                      | O            |
+| b\#      | [Registre booléen constant](dx9-graphics-reference-asm-ps-registers-constant-boolean.md)     | 16         | Voir la remarque 2 | 1             | 1             | 1         | N       | FALSE                     | N            |
+| P0       | [Registre de prédicat](dx9-graphics-reference-asm-ps-registers-predicate.md)                   | 1          | Voir la remarque 2 | 1             | 1             | 1         | N       | Aucun                      | Y            |
+| s\#      | [Échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md)            | 16         | Voir la remarque 3 | 1             | 1             | 4         | N       | Voir la remarque 5                | Y            |
+| t\#      | [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) | 8          | R          | 1             | 1             | 4         | N       | Aucun                      | Y            |
 
 
 
- 
+ 
 
 Remarques :
 
@@ -62,7 +62,7 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -71,6 +71,6 @@ Le nombre de readports est le nombre de registres différents (pour chaque type 
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

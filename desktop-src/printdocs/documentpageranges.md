@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentPageRanges, qui décrit la plage de sortie du document dans les pages.
 ms.assetid: 4cd1b0f8-7f7e-40cc-8d19-d44187822cd1
 title: DocumentPageRanges
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ded7c18fc781fd4374feb8958a98b845d95546
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0e854736c72b3bff5ba2e4750e0b09e0b87c2c9f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997176"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409252"
 ---
 # <a name="documentpageranges"></a>DocumentPageRanges
 
@@ -32,7 +32,7 @@ Les espaces blancs dans la chaîne doivent être ignorés.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------|
 | Type d'élément <br/>   | ParameterDef<br/> |
 | Préfixe d’étendue <br/> | Document<br/>     |
@@ -76,7 +76,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément PageBlackGenerationProcessingUnderColorAdditionLevel, qui décrit l’encre chromatique chromatique à ajouter aux zones avec BlackInkLimit.
 ms.assetid: da957aca-1655-4e8d-9e7b-4da0f253293b
 title: PageBlackGenerationProcessingUnderColorAdditionLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e1b43d8d9ee366fc742dc3d7b1617f6297fc96e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: e3b496fbe890f53d1da8d1054cc5a19fe6318811
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995666"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408412"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionlevel"></a>PageBlackGenerationProcessingUnderColorAdditionLevel
 
@@ -24,7 +24,7 @@ Décrit l’encre chromatique chromatique (en gris, les ratios de composants) à
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                            |
@@ -70,13 +70,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | 100<br/>             |
 | MinValue<br/>     | entier<br/> | 0<br/>               |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 
