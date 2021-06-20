@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique contient du code pour la lecture audio/vidéo du didacticiel dans DirectShow.
+description: Cet article contient du code pour le fichier Playback. cpp pour la lecture audio/vidéo du didacticiel dans DirectShow.
 ms.assetid: 3acd0428-e623-4c6a-81b3-de49c7e0fa3b
 title: lecture. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdd7538e23599d221e429fecbae53c808d48d023
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fe08d0d6ef9b04a5f6e2a2b46d68baafb3999660
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745436"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405122"
 ---
-# <a name="playbackcpp"></a><span data-ttu-id="c0069-103">lecture. cpp</span><span class="sxs-lookup"><span data-stu-id="c0069-103">playback.cpp</span></span>
+# <a name="playbackcpp"></a><span data-ttu-id="7fef2-103">lecture. cpp</span><span class="sxs-lookup"><span data-stu-id="7fef2-103">playback.cpp</span></span>
 
-<span data-ttu-id="c0069-104">Cette rubrique contient du code pour la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md).</span><span class="sxs-lookup"><span data-stu-id="c0069-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
+<span data-ttu-id="7fef2-104">Cette rubrique contient du code pour la [lecture audio/vidéo du didacticiel dans DirectShow](audio-video-playback-in-directshow.md).</span><span class="sxs-lookup"><span data-stu-id="7fef2-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
 
 
 ```C++
@@ -395,14 +395,14 @@ done:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="c0069-105">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="c0069-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7fef2-105">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="7fef2-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c0069-106">Lecture audio/vidéo dans DirectShow</span><span class="sxs-lookup"><span data-stu-id="c0069-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
+[<span data-ttu-id="7fef2-106">Lecture audio/vidéo dans DirectShow</span><span class="sxs-lookup"><span data-stu-id="7fef2-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[<span data-ttu-id="c0069-107">Exemple de lecture DirectShow</span><span class="sxs-lookup"><span data-stu-id="c0069-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
+[<span data-ttu-id="7fef2-107">Exemple de lecture DirectShow</span><span class="sxs-lookup"><span data-stu-id="7fef2-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
 </dt> </dl>
 
  

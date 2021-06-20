@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique contient du code pour le didacticiel sur la façon de lire des fichiers multimédias avec Media Foundation.
+description: Cet article contient du code pour le fichier WinMain. cpp du didacticiel comment lire des fichiers multimédias avec Media Foundation.
 ms.assetid: f13cba48-bfb6-4964-a9de-004cbb5c0dce
 title: WinMain. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce99bdc59eb29b77de0418a995b7683e9c040ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31c0ec32af15d6598dbb34d29f80ec6b4ad7a48f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952134"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406352"
 ---
-# <a name="winmaincpp"></a><span data-ttu-id="9912d-103">WinMain. cpp</span><span class="sxs-lookup"><span data-stu-id="9912d-103">winmain.cpp</span></span>
+# <a name="winmaincpp"></a><span data-ttu-id="e8b4b-103">WinMain. cpp</span><span class="sxs-lookup"><span data-stu-id="e8b4b-103">winmain.cpp</span></span>
 
-<span data-ttu-id="9912d-104">Cette rubrique contient du code pour le didacticiel [sur la façon de lire des fichiers multimédias avec Media Foundation](how-to-play-unprotected-media-files.md).</span><span class="sxs-lookup"><span data-stu-id="9912d-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
+<span data-ttu-id="e8b4b-104">Cette rubrique contient du code pour le didacticiel [sur la façon de lire des fichiers multimédias avec Media Foundation](how-to-play-unprotected-media-files.md).</span><span class="sxs-lookup"><span data-stu-id="e8b4b-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
 
 
 ```C++
@@ -517,14 +517,14 @@ HRESULT AllocGetWindowText(HWND hwnd, WCHAR **pszText, DWORD *pcchLen)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="9912d-105">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="9912d-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e8b4b-105">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="e8b4b-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="9912d-106">Exemple de lecture de session multimédia</span><span class="sxs-lookup"><span data-stu-id="9912d-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
+[<span data-ttu-id="e8b4b-106">Exemple de lecture de session multimédia</span><span class="sxs-lookup"><span data-stu-id="e8b4b-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
 </dt> <dt>
 
-[<span data-ttu-id="9912d-107">Lecture audio/vidéo</span><span class="sxs-lookup"><span data-stu-id="9912d-107">Audio/Video Playback</span></span>](audio-video-playback.md)
+[<span data-ttu-id="e8b4b-107">Lecture audio/vidéo</span><span class="sxs-lookup"><span data-stu-id="e8b4b-107">Audio/Video Playback</span></span>](audio-video-playback.md)
 </dt> </dl>
 
  
