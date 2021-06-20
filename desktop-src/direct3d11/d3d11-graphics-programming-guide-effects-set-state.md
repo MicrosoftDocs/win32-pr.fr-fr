@@ -1,15 +1,15 @@
 ---
 title: État de l’effet défini (Direct3D 11)
-description: Certaines constantes d’effet doivent uniquement être initialisées.
+description: Certaines constantes d’effet doivent uniquement être initialisées. Consultez le code de base pour définir des variables d’effet dans Direct3D 12.
 ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8df65e164c2df01f78ae9ea9ab83a547b977335
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65c64f9e642e867e9398722d4590a4c2ce9193b4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507075"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407662"
 ---
 # <a name="set-effect-state-direct3d-11"></a>État de l’effet défini (Direct3D 11)
 
@@ -231,9 +231,9 @@ Pour plus d’informations sur l’affichage des ressources, consultez [ressourc
 [Rendu d’un effet (Direct3D 11)](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur la syntaxe du schéma d’impression, exprimée en syntaxe XML, et composée d’un petit nombre de types d’éléments.
 ms.assetid: d67518e3-c379-4a50-aeda-31afaa7f05dd
 title: Syntaxe du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2503b3f44ff8b4bdda41f0feefe374c27d78bd41
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4ef52dbdbdfacc2d3cc947b46558319577a75b1b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106535120"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405292"
 ---
 # <a name="syntax-of-the-print-schema"></a>Syntaxe du schéma d’impression
 

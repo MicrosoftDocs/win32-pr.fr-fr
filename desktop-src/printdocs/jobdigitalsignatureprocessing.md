@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobDigitalSignatureProcessing, qui décrit la configuration du traitement des signatures numériques pour l’ensemble du travail.
 ms.assetid: 0592f7a4-cace-41b0-91e3-2811f72aeb3e
 title: JobDigitalSignatureProcessing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aad9dbe0ba82d219a28602178efa2e102ccf167b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f9491a921d9d733dd0de0a4e5133d5c6690b2b4a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998286"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408942"
 ---
 # <a name="jobdigitalsignatureprocessing"></a>JobDigitalSignatureProcessing
 
@@ -24,7 +24,7 @@ Décrit la configuration du traitement de signature numérique pour l’ensemble
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

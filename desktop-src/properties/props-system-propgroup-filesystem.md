@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. FileSystem. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: 7e3602aa-b04a-49ad-a0f8-7fd13841f2bb
 title: System. PropGroup. FileSystem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4b736e9522d87df12e485c1ab7a88455cd06382
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a44f35d831a7c9e3abc900f8dd37df4cb2e64d27
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202579"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404572"
 ---
 # <a name="systempropgroupfilesystem"></a>System. PropGroup. FileSystem
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

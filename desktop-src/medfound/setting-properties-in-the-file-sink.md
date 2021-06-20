@@ -1,15 +1,15 @@
 ---
-description: Le récepteur de fichiers ASF est une implémentation de IMFMediaSink fournie par Media Foundation qu’une application peut utiliser pour archiver des données de média ASF dans un fichier. Pour plus d’informations sur le modèle objet des récepteurs de média ASF et l’utilisation générale, consultez récepteurs de média ASF.
+description: En savoir plus sur la définition des propriétés dans le récepteur de fichiers ASF, qu’une application peut utiliser pour archiver des données de média ASF dans un fichier.
 ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: Définition des propriétés dans le récepteur de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30af39cf13e88f6edf2a6ab68caac27c2400955a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64b6b000ed04c7858251f7388d3edc6a40e0b213
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318737"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407512"
 ---
 # <a name="setting-properties-in-the-file-sink"></a>Définition des propriétés dans le récepteur de fichiers
 

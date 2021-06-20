@@ -1,15 +1,15 @@
 ---
 title: Référence de commande (éditeur de caractères Microsoft Agent)
-description: Référence à la commande
+description: Cette référence de commande décrit l’éditeur de caractères Microsoft Agent. Microsoft Agent est déconseillé à partir de Windows 7.
 ms.assetid: c8d57500-ad29-4325-aec7-3f857990b28c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3394c0c7de7c76295b020a3d7e9ebba058e6062c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ee75070f70ffe8c8fd2075fc6ec46483dcd005fa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739228"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405732"
 ---
 # <a name="command-reference-microsoft-agent-character-editor"></a>Référence de commande (éditeur de caractères Microsoft Agent)
 

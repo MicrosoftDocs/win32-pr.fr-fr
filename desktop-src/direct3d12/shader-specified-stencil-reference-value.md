@@ -1,16 +1,16 @@
 ---
 title: Valeur de référence du stencil spécifié par le nuanceur (Direct3D 12 Graphics)
-description: L’activation des nuanceurs de pixels pour la sortie de la valeur de référence du stencil, plutôt que l’utilisation de l’API-spécifiée, permet un contrôle granulaire très précis des opérations du stencil.
+description: En savoir plus sur la valeur de référence du stencil dans Direct3D 12 Graphics. L’activation des nuanceurs de pixels pour utiliser la valeur de référence du stencil permet un contrôle précis des opérations du stencil.
 ms.assetid: F58B1930-F12E-4FA4-A15C-A3C2B8705033
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6a8b7697cc06594b3e2ffc717cbded9e6832129
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0fee212d7c2573402ad38bc19040e5c60a89c090
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548555"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408312"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-12-graphics"></a>Valeur de référence du stencil spécifié par le nuanceur (Direct3D 12 Graphics)
 
@@ -40,13 +40,13 @@ uint main2(float4 c : COORD) : SV_StencilRef
 [Rendu](rendering.md)
 </dt> <dt>
 
-[Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+[Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+[Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
 
  

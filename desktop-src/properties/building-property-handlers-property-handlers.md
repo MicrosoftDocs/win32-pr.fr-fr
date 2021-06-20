@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+description: Cet article explique comment initialiser des gestionnaires de propriétés pour fonctionner avec le système de propriétés Windows.
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initialisation des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8eb11bc44217e508313bfb477c65925b44216e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7d7626f92b3d81a6764e635c10302747f82a383
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203098"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406992"
 ---
 # <a name="initializing-property-handlers"></a>Initialisation des gestionnaires de propriétés
 
@@ -34,7 +34,7 @@ Cette rubrique est organisée comme suit :
 
 Les gestionnaires de propriétés constituent une partie essentielle du système de propriétés. Elles sont appelées in-process par l’indexeur pour lire et indexer les valeurs de propriété, et elles sont également appelées par l’Explorateur Windows en mode in-process pour lire et écrire des valeurs de propriété directement dans les fichiers. Ces gestionnaires doivent être écrits et testés avec soin pour éviter la dégradation des performances ou la perte de données dans les fichiers affectés. Pour plus d’informations sur les considérations spécifiques à l’indexeur qui affectent l’implémentation du gestionnaire de propriétés, consultez [développement de gestionnaires de propriétés pour Windows Search](../search/-search-3x-wds-extidx-propertyhandlers.md).
 
-Cette rubrique présente un exemple de format de fichier basé sur XML qui décrit une recette avec une extension de nom de fichier. recipe. L’extension de nom de fichier. Recipe est inscrite en tant que format de fichier distinct plutôt que de s’appuyer sur le format de fichier. Xml plus générique, dont le gestionnaire utilise un flux secondaire pour stocker les propriétés. Nous vous recommandons d’inscrire des extensions de nom de fichier uniques pour vos types de fichiers.
+Cette rubrique présente un exemple de format de fichier basé sur XML qui décrit une recette avec une extension de nom de fichier. recipe. L’extension de nom de fichier. Recipe est inscrite en tant que format de fichier distinct plutôt que de s’appuyer sur le format de fichier .xml plus générique, dont le gestionnaire utilise un flux secondaire pour stocker les propriétés. Nous vous recommandons d’inscrire des extensions de nom de fichier uniques pour vos types de fichiers.
 
 ## <a name="before-you-begin"></a>Avant de commencer
 
@@ -54,7 +54,7 @@ Avant qu’une propriété ne soit utilisée par le système, elle est initialis
 -   Le gestionnaire de propriétés peut s’exécuter dans un processus restreint (une fonctionnalité de sécurité importante) sans disposer de droits d’accès pour lire ou écrire directement des fichiers, plutôt que d’accéder à leur contenu via le flux.
 -   Le système peut être approuvé pour gérer correctement les oplocks de fichiers, ce qui constitue une mesure de fiabilité importante.
 -   Le système de propriétés fournit un service d’enregistrement sécurisé automatique sans aucune fonctionnalité supplémentaire requise à partir de l’implémentation du gestionnaire de propriétés. Pour plus d’informations sur les flux, consultez la section [écriture des valeurs de retour](#writing-back-values) .
--   L’utilisation de [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream) fait abstraction de votre implémentation des détails du système de fichiers. Cela permet au gestionnaire de prendre en charge l’initialisation par le biais de stockages alternatifs tels qu’un dossier protocole FTP (FTP) ou un fichier compressé avec une extension de nom de fichier. zip.
+-   L’utilisation de [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream) fait abstraction de votre implémentation des détails du système de fichiers. Cela permet au gestionnaire de prendre en charge l’initialisation par le biais de stockages alternatifs tels qu’un dossier protocole FTP (FTP) ou un fichier compressé avec une extension de nom de fichier .zip.
 
 Dans certains cas, l’initialisation avec des flux n’est pas possible. Dans ce cas, il existe deux autres interfaces que les gestionnaires de propriétés peuvent implémenter : [**IInitializeWithFile**](/windows/win32/api/propsys/nn-propsys-iinitializewithfile) et [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem). Si un gestionnaire de propriétés n’implémente pas l' [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream), il doit choisir de ne pas s’exécuter dans le processus isolé dans lequel l’indexeur système le placerait par défaut en cas de modification du flux. Pour désactiver cette fonctionnalité, définissez la valeur de Registre suivante.
 

@@ -1,15 +1,15 @@
 ---
 title: Guide de programmation WPD
-description: Guide de programmation
+description: Ce guide de programmation porte sur la façon dont les exemples de tâches sont réalisés à l’aide des interfaces et des méthodes WPD disponibles dans les interfaces.
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f774ffd9d7576a07b34c467a5a155d98e4f3e703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db13d50942c28cd4937d27a745d61d7a30a01a15
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519534"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409862"
 ---
 # <a name="wpd-programming-guide"></a>Guide de programmation WPD
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique contient du code pour la lecture audio/vidéo du didacticiel dans DirectShow.
+description: Cet article contient du code pour le fichier Video. cpp pour la lecture audio/vidéo du didacticiel dans DirectShow.
 ms.assetid: c406a099-4956-46a8-b1f4-6d2e6ab3427a
 title: Video. cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623372e1d958959d410e6e60f5a976f52f9f3180
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f24d7bd3f27ce995d69e3f1425b7cae95d8997f3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531829"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407852"
 ---
 # <a name="videocpp"></a>Video. cpp
 

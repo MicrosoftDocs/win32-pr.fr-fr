@@ -1,15 +1,15 @@
 ---
-description: D3DX est une bibliothèque d’utilitaire qui fournit des services d’assistance. Il s’agit d’une couche au-dessus du composant Direct3D.
+description: En savoir plus sur la prise en charge des maillages dans D3DX. D3DX est une bibliothèque d’utilitaire qui fournit des services d’assistance. Il s’agit d’une couche au-dessus du composant Direct3D.
 ms.assetid: 7892370f-0807-4ab7-b7cd-a7e1182e3f9c
 title: Prise en charge des maillages dans D3DX (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0b2b1dd0e5d4c5a212005afe400bb559f1689a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a1600b372432d59357a7431c70ce70ce2958002c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103949960"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408132"
 ---
 # <a name="mesh-support-in-d3dx-direct3d-9"></a>Prise en charge des maillages dans D3DX (Direct3D 9)
 

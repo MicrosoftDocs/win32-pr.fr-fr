@@ -1,6 +1,6 @@
 ---
 title: Journalisation du client (kit de développement logiciel (SDK) Windows Media format 11)
-description: Journalisation du client
+description: En savoir plus sur la journalisation client pour le kit de développement logiciel (SDK) Windows Media format 11. La journalisation permet au serveur multimédia d’effectuer le suivi de l’activité des clients qui s’y connectent.
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
 - Windows Media Format SDK, journalisation du client
@@ -13,12 +13,12 @@ keywords:
 - journalisation des clients
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856f2df4c2377b94edc40574c3e2efcced34aa81
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 095e01fcf0730fdec8d06a931a9a988ca79ea77f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102629"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406262"
 ---
 # <a name="client-logging-windows-media-format-11-sdk"></a>Journalisation du client (kit de développement logiciel (SDK) Windows Media format 11)
 

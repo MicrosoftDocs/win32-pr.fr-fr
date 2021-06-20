@@ -1,6 +1,6 @@
 ---
 title: La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur LDAP)
-description: La capacité d’un utilisateur à modifier son mot de passe est une autorisation qui peut être accordée ou refusée.
+description: Découvrez comment déterminer si un utilisateur est autorisé à modifier un mot de passe pour le fournisseur LDAP. La capacité d’un utilisateur à modifier un mot de passe peut être accordée ou refusée.
 ms.assetid: d0d95d20-dcdb-453a-9d15-c386217927c8
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, gestion des utilisateurs, exemples, l’utilisateur doit modifier le mot de passe à la prochaine ouverture de session, en lisant
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ea818c8b01fbbac6b80037de13b25a82a07944
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b26818ee02d3876aa209dcd4990288ea1cfe96fc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508125"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405932"
 ---
 # <a name="reading-user-cannot-change-password-ldap-provider"></a>La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur LDAP)
 
@@ -29,7 +29,7 @@ La capacité d’un utilisateur à modifier son mot de passe est une autorisatio
     > [!Note]  
     > Les chaînes « tout le monde » et « Self de l’autorité NT \\ » sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. Par conséquent, les chaînes ne doivent pas être utilisées directement. Les noms de comptes doivent être obtenus au moment de l’exécution en appelant la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) avec le SID pour les principaux de sécurité « tout le monde » (« s-1-1-0 ») et « autorité NT \\ auto » (« s-1-5-10 »). Les exemples de code C++ **GetSidAccountName**, **GetSidAccountName \_ everyone** et **GetSidAccountName \_ Self** code montrent comment procéder.
 
-     
+     
 
 5.  Si les ACE « tout le monde » et « toutes les autorités NT » \\ ont la valeur **\_ objet ad ACETYPE \_ accès \_ refusé \_** pour la propriété [**IADsAccessControlEntry. ACETYPE**](iadsaccesscontrolentry-property-methods.md) , l’autorisation est refusée.
 
@@ -419,7 +419,7 @@ L’exemple de code suivant montre comment déterminer si l’utilisateur ne peu
 > [!Note]  
 > L’exemple de code suivant fonctionne uniquement pour les domaines dans lesquels la langue principale est l’anglais, car les chaînes « tout le monde » et « autorisations NT » \\ sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. Il n’existe aucun moyen de Visual Basic pour obtenir les noms de compte d’une entité de sécurité connue sans appeler la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . Si vous utilisez Visual Basic, il est recommandé d’utiliser le fournisseur WinNT pour déterminer si l’utilisateur ne peut pas modifier l’autorisation de mot de passe, comme indiqué dans lecture de l' [utilisateur ne peut pas changer de mot de passe (fournisseur WinNT)](reading-user-cannot-change-password-winnt-provider.md).
 
- 
+ 
 
 
 ```VB
@@ -475,6 +475,6 @@ End Function
 
 
 
- 
+ 
 
- 
+ 

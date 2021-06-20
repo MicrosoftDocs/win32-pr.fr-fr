@@ -1,6 +1,6 @@
 ---
 title: Présentation de l’infrastructure du ruban Windows
-description: L’infrastructure de ruban Windows est un système de présentation de commande riche qui offre une alternative moderne aux menus en couches, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
+description: Affichez la page d’accueil de l’infrastructure de ruban Windows, qui est une alternative aux menus superposés, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
 ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
 keywords:
 - Ruban Windows, infrastructure
@@ -19,12 +19,12 @@ keywords:
 - Ruban, sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ac5c3acccf1c48a54f93b1752729067e63e4c6
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: db15165b91708a85e5ae6237b66a15bf733e80a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104560947"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404392"
 ---
 # <a name="introducing-the-windows-ribbon-framework"></a>Présentation de l’infrastructure du ruban Windows
 

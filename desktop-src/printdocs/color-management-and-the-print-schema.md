@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur les mots clés configurables par l’utilisateur dans le schéma d’impression pour la gestion des couleurs, telles que PageColorManagement et PageBlackGenerationProcessing.
 ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: Gestion des couleurs et schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134a598466fd52c66d632a28c750840d4123f529
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9258d9dcc59ab24f9cfca8e170bf3f3f62841b21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103869653"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409672"
 ---
 # <a name="color-management-and-the-print-schema"></a>Gestion des couleurs et schéma d’impression
 
@@ -43,7 +43,7 @@ Pour PageColorManagement, le système assure la gestion automatique de PrintTick
 | Options publiques PageColorManagement | Valeur DEVMODE                  |
 |------------------------------------|--------------------------------|
 | Aucun<br/>                    | DMICMMETHOD \_ aucun<br/>   |
-| Appareil<br/>                  | \_appareil DMICMMETHOD<br/> |
+| Périphérique<br/>                  | \_appareil DMICMMETHOD<br/> |
 | Pilote<br/>                  | \_pilote DMICMMETHOD<br/> |
 | Système<br/>                  | \_système DMICMMETHOD<br/> |
 

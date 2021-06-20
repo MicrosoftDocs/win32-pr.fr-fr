@@ -1,15 +1,15 @@
 ---
-description: Chemin d’accès d’affichage convivial du dossier parent d’un élément.
+description: En savoir plus sur la propriété System. ItemFolderPathDisplayNarrow, qui représente le chemin d’affichage convivial du dossier parent d’un élément.
 ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System. ItemFolderPathDisplayNarrow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898927c23aae95b5037919c908a3ae86e020e1fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbee8a45eb6ea557e99c854464c7dc09ec5613d2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034585"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403912"
 ---
 # <a name="systemitemfolderpathdisplaynarrow"></a>System. ItemFolderPathDisplayNarrow
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

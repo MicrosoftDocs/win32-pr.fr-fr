@@ -1,15 +1,15 @@
 ---
 title: Interfaces requises (COM)
-description: Interfaces requises
+description: En savoir plus sur les interfaces de conteneur de contrôles ActiveX qui peuvent ou doivent être implémentées par les conteneurs de contrôle.
 ms.assetid: ae238882-d0c9-4120-b8a8-001bf9559cfa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0df483f8c8aa5eb5ecb6799b834fccab42f42ca1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 55015ee5837754c073d2590144687131c285bb80
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106510109"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407642"
 ---
 # <a name="required-interfaces-com"></a>Interfaces requises (COM)
 
@@ -24,7 +24,7 @@ Le tableau ci-dessous répertorie les interfaces de conteneur de contrôles Acti
 | [**IOleInPlaceSite**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplacesite)<br/>                          | Oui<br/> |                                                                                                                                                                                                                                                                                                                                                              |
 | [**IOleControlSite**](/windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite)<br/>                          | Oui<br/> |                                                                                                                                                                                                                                                                                                                                                              |
 | [**IOleInPlaceFrame**](/windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceframe)<br/>                        | Oui<br/> |                                                                                                                                                                                                                                                                                                                                                              |
-| [**IOleContainer**](/windows/desktop/api/OleIdl/nn-oleidl-iolecontainer)<br/>                              | Oui<br/> | Voir la remarque 1<br/>                                                                                                                                                                                                                                                                                                                                        |
+| [**IOleContainer**](/windows/desktop/api/OleIdl/nn-oleidl-iolecontainer)<br/>                              | Oui<br/> | Voir la remarque 1<br/>                                                                                                                                                                                                                                                                                                                                        |
 | **IDispatch** pour les propriétés ambiantes<br/>                                | Oui<br/> | Voir la remarque 2 et les [propriétés ambiantes pour les contrôles](ambient-properties-for-controls.md)<br/>                                                                                                                                                                                                                                                             |
 | Jeux d’événements de contrôle<br/>                                                  | Oui<br/> | Voir la remarque 2<br/>                                                                                                                                                                                                                                                                                                                                        |
 | [**ISimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite)<br/>                        | Non<br/>  | [**IsimpleFrameSite**](/windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite) et la prise en charge des frames simples imbriqués sont facultatifs.<br/>                                                                                                                                                                                                                                                    |

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Ces articles spécifient à la fois des descriptions de propriété et des initialiseurs de paramètres spécifiques à PrintTicket qui peuvent s’appliquer à un PrintTicket.
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: Mots clés publics PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994052b6acb970a14a8d15843f7f42b976eb23fb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 492b8590681fa6b55effe6db6ebff4b408b76325
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106522892"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405422"
 ---
 # <a name="printticket-public-keywords"></a>Mots clés publics PrintTicket
 
