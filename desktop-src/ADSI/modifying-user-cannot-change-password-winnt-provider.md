@@ -1,6 +1,6 @@
 ---
 title: La modification de l’utilisateur ne peut pas modifier le mot de passe (fournisseur WinNT)
-description: La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.
+description: Découvrez comment refuser à un utilisateur l’autorisation de modifier un mot de passe pour le fournisseur Winnt. La capacité d’un utilisateur à modifier son propre mot de passe peut être accordée ou refusée.
 ms.assetid: 071a817b-087e-49ee-af1a-6f190493cac0
 ms.tgt_platform: multiple
 keywords:
@@ -9,20 +9,20 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, utilisateur ne peut pas modifier le mot de passe, modifier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e14e9bac51bae2edf4b9f6f571f20c75563a4d03
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33510fa36285fa49a413b84d91e29f8d5a367622
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671134"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408092"
 ---
-# <a name="modifying-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="d8f68-106">La modification de l’utilisateur ne peut pas modifier le mot de passe (fournisseur WinNT)</span><span class="sxs-lookup"><span data-stu-id="d8f68-106">Modifying User Cannot Change Password (WinNT Provider)</span></span>
+# <a name="modifying-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="4df61-107">La modification de l’utilisateur ne peut pas modifier le mot de passe (fournisseur WinNT)</span><span class="sxs-lookup"><span data-stu-id="4df61-107">Modifying User Cannot Change Password (WinNT Provider)</span></span>
 
-<span data-ttu-id="d8f68-107">La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.</span><span class="sxs-lookup"><span data-stu-id="d8f68-107">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="d8f68-108">Pour refuser cette autorisation, ajoutez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur à la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="d8f68-108">To deny this permission, add the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag to the **userFlags** property of the user object.</span></span> <span data-ttu-id="d8f68-109">Pour accorder cette autorisation, supprimez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur de la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="d8f68-109">To grant this permission, remove the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag from the **userFlags** property of the user object.</span></span>
+<span data-ttu-id="4df61-108">La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.</span><span class="sxs-lookup"><span data-stu-id="4df61-108">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="4df61-109">Pour refuser cette autorisation, ajoutez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur à la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="4df61-109">To deny this permission, add the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag to the **userFlags** property of the user object.</span></span> <span data-ttu-id="4df61-110">Pour accorder cette autorisation, supprimez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur de la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="4df61-110">To grant this permission, remove the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag from the **userFlags** property of the user object.</span></span>
 
-## <a name="example-code"></a><span data-ttu-id="d8f68-110">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="d8f68-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="4df61-111">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="4df61-111">Example Code</span></span>
 
-<span data-ttu-id="d8f68-111">L’exemple de code suivant montre comment modifier l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d8f68-111">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="4df61-112">L’exemple de code suivant montre comment modifier l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4df61-112">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```VB
@@ -62,7 +62,7 @@ End Sub
 
 
 
-<span data-ttu-id="d8f68-112">L’exemple de code suivant montre comment modifier l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d8f68-112">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="4df61-113">L’exemple de code suivant montre comment modifier l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="4df61-113">The following code example shows how to change the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```C++
@@ -130,9 +130,9 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)
-description: La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.
+description: Découvrez comment déterminer si un utilisateur est autorisé à modifier un mot de passe pour le fournisseur Winnt. La capacité d’un utilisateur à modifier un mot de passe peut être accordée ou refusée.
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
@@ -9,20 +9,20 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, utilisateur ne peut pas modifier le mot de passe, lecture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab257f620d3e103866639f8ecacb57cc924efec4
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103940727"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405912"
 ---
-# <a name="reading-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="10ca7-106">La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)</span><span class="sxs-lookup"><span data-stu-id="10ca7-106">Reading User Cannot Change Password (WinNT Provider)</span></span>
+# <a name="reading-user-cannot-change-password-winnt-provider"></a><span data-ttu-id="d6a75-107">La lecture de l’utilisateur ne peut pas changer le mot de passe (fournisseur WinNT)</span><span class="sxs-lookup"><span data-stu-id="d6a75-107">Reading User Cannot Change Password (WinNT Provider)</span></span>
 
-<span data-ttu-id="10ca7-107">La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.</span><span class="sxs-lookup"><span data-stu-id="10ca7-107">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="10ca7-108">Pour déterminer si cette autorisation a été accordée à l’utilisateur avec le fournisseur WinNT, lisez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur de la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="10ca7-108">To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object.</span></span> <span data-ttu-id="10ca7-109">L’indicateur de **\_ \_ \_ \_ modification de décantation** de la balise de publicité uf est défini dans l’énumération enum de l' [**\_ \_ indicateur \_ utilisateur ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) .</span><span class="sxs-lookup"><span data-stu-id="10ca7-109">The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) enumeration.</span></span>
+<span data-ttu-id="d6a75-108">La possibilité pour un utilisateur de modifier son propre mot de passe est une autorisation qui peut être accordée ou refusée.</span><span class="sxs-lookup"><span data-stu-id="d6a75-108">The ability of a user to change their own password is a permission that can be granted or denied.</span></span> <span data-ttu-id="d6a75-109">Pour déterminer si cette autorisation a été accordée à l’utilisateur avec le fournisseur WinNT, lisez l’indicateur de **\_ \_ \_ \_ modification** de l’autorisation de l’utilisateur de la propriété **userFlags** de l’objet User.</span><span class="sxs-lookup"><span data-stu-id="d6a75-109">To determine if the user has been granted this permission with the WinNT provider, read the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of the user object.</span></span> <span data-ttu-id="d6a75-110">L’indicateur de **\_ \_ \_ \_ modification de décantation** de la balise de publicité uf est défini dans l’énumération enum de l' [**\_ \_ indicateur \_ utilisateur ADS**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) .</span><span class="sxs-lookup"><span data-stu-id="d6a75-110">The **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag is defined in the [**ADS\_USER\_FLAG\_ENUM**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum) enumeration.</span></span>
 
-## <a name="example-code"></a><span data-ttu-id="10ca7-110">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="10ca7-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="d6a75-111">Exemple de code</span><span class="sxs-lookup"><span data-stu-id="d6a75-111">Example Code</span></span>
 
-<span data-ttu-id="10ca7-111">L’exemple de code suivant montre comment obtenir l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="10ca7-111">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="d6a75-112">L’exemple de code suivant montre comment obtenir l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d6a75-112">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```VB
@@ -56,7 +56,7 @@ End Function
 
 
 
-<span data-ttu-id="10ca7-112">L’exemple de code suivant montre comment obtenir l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="10ca7-112">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
+<span data-ttu-id="d6a75-113">L’exemple de code suivant montre comment obtenir l’indicateur de **\_ \_ \_ \_ modification de décantation** de la propriété **userFlags** d’un objet utilisateur.</span><span class="sxs-lookup"><span data-stu-id="d6a75-113">The following code example shows how to obtain the **ADS\_UF\_PASSWD\_CANT\_CHANGE** flag of the **userFlags** property of a user object.</span></span>
 
 
 ```C++
@@ -120,9 +120,9 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

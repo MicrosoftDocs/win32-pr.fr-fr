@@ -1,6 +1,6 @@
 ---
 title: HttpServerExample
-description: Cet exemple montre un serveur TCP qui accepte un canal et reçoit et répond aux messages.
+description: Consultez un exemple de serveur HTTP qui utilise l’API des services Web Windows. Cet exemple montre un serveur TCP qui accepte un canal et reçoit et répond aux messages.
 ms.assetid: b8cf29af-f13f-47ae-9954-7845515135f9
 keywords:
 - HttpServerExample-services Web natifs
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41194ce745c214c6892235d24f53012233131595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 72859f9e59353fe926f18570e10de65cd40e0fd4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510227"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409752"
 ---
-# <a name="httpserverexample"></a><span data-ttu-id="37219-106">HttpServerExample</span><span class="sxs-lookup"><span data-stu-id="37219-106">HttpServerExample</span></span>
+# <a name="httpserverexample"></a><span data-ttu-id="3ab06-107">HttpServerExample</span><span class="sxs-lookup"><span data-stu-id="3ab06-107">HttpServerExample</span></span>
 
-<span data-ttu-id="37219-107">Cet exemple montre un serveur TCP qui accepte un canal et reçoit et répond aux messages.</span><span class="sxs-lookup"><span data-stu-id="37219-107">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
+<span data-ttu-id="3ab06-108">Cet exemple montre un serveur TCP qui accepte un canal et reçoit et répond aux messages.</span><span class="sxs-lookup"><span data-stu-id="3ab06-108">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
 
--   [<span data-ttu-id="37219-108">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="37219-108">HttpServer.cpp</span></span>](#httpservercpp)
--   [<span data-ttu-id="37219-109">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="37219-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="37219-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="37219-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="3ab06-109">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="3ab06-109">HttpServer.cpp</span></span>](#httpservercpp)
+-   [<span data-ttu-id="3ab06-110">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="3ab06-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="3ab06-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="3ab06-111">Makefile</span></span>](#makefile)
 
-## <a name="httpservercpp"></a><span data-ttu-id="37219-111">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="37219-111">HttpServer.cpp</span></span>
+## <a name="httpservercpp"></a><span data-ttu-id="3ab06-112">HttpServer. cpp</span><span class="sxs-lookup"><span data-stu-id="3ab06-112">HttpServer.cpp</span></span>
 
 
 ```C++
@@ -489,7 +489,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="37219-112">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="37219-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="3ab06-113">PurchaseOrder. wsdl</span><span class="sxs-lookup"><span data-stu-id="3ab06-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -600,7 +600,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="37219-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="37219-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="3ab06-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="3ab06-114">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>
@@ -629,9 +629,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 
