@@ -1,6 +1,6 @@
 ---
 title: Adressage relatif (référence du PS HLSL)
-description: La syntaxe \ \ ne peut être utilisée que dans les types de registres qui peuvent être traités relativement dans certains modèles de nuanceur.
+description: Pour les nuanceurs de pixels, la syntaxe \ \ ne peut être utilisée que dans les types de registres qui peuvent être traités relativement dans certains modèles de nuanceur.
 ms.assetid: 37e2bab9-f6fe-438a-8a2d-c963634ef8c3
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38c7be68245cfedbb27898e0fbb689e9e43755ca
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8bdafe23696c460da75d87cf1f6d5a968c89ed28
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679218"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405482"
 ---
 # <a name="relative-addressing-hlsl-ps-reference"></a>Adressage relatif (référence du PS HLSL)
 
@@ -42,7 +42,7 @@ Où :
 
 
 
- 
+ 
 
 Les registres sont disponibles dans les versions suivantes :
 
@@ -54,7 +54,7 @@ Les registres sont disponibles dans les versions suivantes :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -63,9 +63,9 @@ Les registres sont disponibles dans les versions suivantes :
 [Inscrit](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

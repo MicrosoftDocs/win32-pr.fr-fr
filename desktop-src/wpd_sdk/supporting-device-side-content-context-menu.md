@@ -1,15 +1,15 @@
 ---
 title: Prise en charge du contenu WPD côté appareil (ContextMenu)
-description: Prise en charge du contenu Device-Side
+description: Découvrez comment utiliser l’API shell Windows ou l’API WPD pour obtenir des données pour les objets d’appareil WPD, qui ne sont pas accessibles par le biais du système de fichiers dans Windows Vista.
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b5e7029a6a772a5706eaf80270cc87ea83ab76b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522154"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404282"
 ---
 # <a name="supporting-wpd-device-side-content"></a>Prise en charge du contenu WPD côté appareil
 

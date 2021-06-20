@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobInputBin, qui décrit le bac d’entrée installé dans un appareil ou la liste complète des emplacements pris en charge pour un appareil.
 ms.assetid: 9192ceb1-90c4-480e-9247-68d457976f42
 title: JobInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f87782d6cf9aae5c34d36603f025e803f47db3e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 929df4cb4871e5a8d2ebacfe533b5da3ad9babf3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998096"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408892"
 ---
 # <a name="jobinputbin"></a>JobInputBin
 
@@ -25,7 +25,7 @@ Décrit le bac d’entrée installé dans un appareil ou la liste complète des 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>     |

@@ -1,15 +1,15 @@
 ---
 title: Fonctions de session (gestion de réseau)
-description: Les fonctions de session de gestion de réseau contrôlent les sessions réseau établies entre les stations de travail et les serveurs. Les fonctions requièrent que le service serveur soit démarré sur le serveur.
+description: Passez en revue les fonctions de session, qui sont un groupe de fonctions de gestion de réseau. Ces fonctions contrôlent les sessions réseau établies entre les stations de travail et les serveurs.
 ms.assetid: ef912cd9-be5c-4202-89aa-e60f275e8938
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06b1e0236881b50f0363a6c872394cfe42f44748
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 78479391e4dc2d2aa0ced8af16a8b6cf6f3a9b05
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842993"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406122"
 ---
 # <a name="session-functions-network-management"></a>Fonctions de session (gestion de réseau)
 

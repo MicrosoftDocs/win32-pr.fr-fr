@@ -1,18 +1,18 @@
 ---
 title: Demande d’accès à distance pour les commentaires
-description: Les RFC (Request for Comments) sont une série de documents en cours qui traitent des technologies Internet et Internet.
+description: Cet article répertorie les demandes de commentaires (RFC) pour l’accès à distance. Les RFC sont une série continue de documents qui traitent des technologies Internet.
 ms.assetid: ee52dde3-e87d-437f-8321-77d771d715ec
 keywords:
 - RFC, accès à distance
 - Demande de commentaires, accès à distance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 727d866d4dd888df0831b83acacb8ad573232758
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7636f148570e9e1f3f488dad7b23043cec5e7c03
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103940724"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406622"
 ---
 # <a name="remote-access-request-for-comments"></a>Demande d’accès à distance pour les commentaires
 
@@ -36,9 +36,9 @@ Les RFC (Request for Comments) sont une série de documents en cours qui traiten
 -   [RFC 2869](https://www.ietf.org/rfc/rfc2869.txt) – extensions RADIUS, 2000 juin
 -   [Draft RADIUS MSCHAP attr 01](https://www.freeradius.org/rfc/draft-ietf-radius-mschap-attr-01.txt) : attributs RADIUS pour la prise en charge de MS-CHAP, novembre 1997
 
- 
+ 
 
- 
+ 
 
 
 

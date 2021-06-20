@@ -1,15 +1,15 @@
 ---
-description: 'Spécifie comment IPropertyDescription :: FormatForDisplay doit mettre en forme la valeur de la propriété en tant que chaîne. Cela s’applique uniquement si <displayInfo displayType=&\#0034;String&\#0034;> .'
+description: 'Spécifie comment IPropertyDescription :: FormatForDisplay doit mettre en forme la valeur de la propriété stringFormat sous forme de chaîne.'
 ms.assetid: 7c38bc15-be86-4260-b2e4-13afc90de6d7
 title: stringFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec05a6eedf1734c1d62c0503027810ad05916160
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 730355507b78d99eba02e82666427dd29425c942
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519828"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408352"
 ---
 # <a name="stringformat"></a>stringFormat
 
@@ -80,7 +80,7 @@ S’il y a plusieurs éléments, le dernier est utilisé. Si aucun élément [st
 </thead>
 <tbody>
 <tr class="odd">
-<td>Général</td>
+<td>Généralités</td>
 <td>Par défaut. Retourne la valeur sous forme de chaîne non mise en forme.</td>
 </tr>
 <tr class="even">

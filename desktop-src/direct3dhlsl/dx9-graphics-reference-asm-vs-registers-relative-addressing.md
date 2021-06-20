@@ -1,6 +1,6 @@
 ---
 title: Adressage relatif (référence HLSL VS)
-description: La syntaxe \ \ ne peut être utilisée que dans les types de registres qui peuvent être traités relativement dans certains modèles de nuanceur.
+description: Pour les nuanceurs de vertex, la syntaxe \ \ ne peut être utilisée que dans les types de registres qui peuvent être traités relativement dans certains modèles de nuanceur.
 ms.assetid: 9f9d2499-73a5-4c9d-9dce-94c914933334
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c11d6f6c4b448e1dee5f4237696c110519bc0dd0
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 2bbba694878ba84ac3c2fa9c4e8058bb0d91830e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313786"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406692"
 ---
 # <a name="relative-addressing-hlsl-vs-reference"></a>Adressage relatif (référence HLSL VS)
 
@@ -42,7 +42,7 @@ Où :
 
 
 
- 
+ 
 
 Les registres sont disponibles dans les versions suivantes :
 
@@ -57,7 +57,7 @@ Les registres sont disponibles dans les versions suivantes :
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -66,9 +66,9 @@ Les registres sont disponibles dans les versions suivantes :
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Le récepteur de fichiers ASF est une implémentation de IMFMediaSink fournie par Media Foundation qu’une application peut utiliser pour archiver des données de média ASF dans un fichier. Pour plus d’informations sur le modèle objet des récepteurs de média ASF et l’utilisation générale, consultez récepteurs de média ASF.
+description: En savoir plus sur la création du récepteur de fichiers ASF, qu’une application peut utiliser pour archiver des données de média ASF dans un fichier.
 ms.assetid: 991f3345-a6b4-45c2-a89d-3c13c70b6bbc
 title: Création du récepteur de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c43625bcbc581b4967d4db99cef71a0fc779f070
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fcd9ea19f0200dfd330f421fd5dac2cd100b702
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111827"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409922"
 ---
 # <a name="creating-the-asf-file-sink"></a>Création du récepteur de fichiers ASF
 
@@ -19,7 +19,7 @@ Il existe deux façons de créer une instance du récepteur de fichiers ASF. Vou
 
 Si vous appelez [**MFCreateASFMediaSink**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasink), vous devez spécifier un flux d’octets, pour le fichier de sortie, dans lequel le récepteur écrira le contenu ASF pendant une session d’encodage. Le flux d’octets spécifié doit avoir des fonctionnalités pouvant être recherchées et accessibles en écriture, sinon l’appel **MFCreateASFMediaSink** échoue avec le \_ code d’erreur E Fail. Cet appel crée un objet récepteur de fichiers in-process et retourne un pointeur vers l’interface [**IMFMediaSink**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasink) du récepteur de fichiers.
 
-Si vous appelez [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate), vous devez spécifier l’URL du fichier de sortie dans lequel le récepteur de fichiers écrira les données multimédias. Dans ce cas, le récepteur de fichiers crée en interne le flux d’octets. La fonction retourne un pointeur vers l’interface [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) du récepteur de fichiers. Pour
+Si vous appelez [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate), vous devez spécifier l’URL du fichier de sortie dans lequel le récepteur de fichiers écrira les données multimédias. Dans ce cas, le récepteur de fichiers crée en interne le flux d’octets. La fonction retourne un pointeur vers l’interface [**IMFActivate**](/windows/desktop/api/mfobjects/nn-mfobjects-imfactivate) du récepteur de fichiers. À
 
 Pensez à [**MFCreateASFMediaSinkActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasinkactivate) au lieu de [**MFCreateASFMediaSink**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfmediasink), lorsque votre topologie d’encodage est conçue comme suit :
 

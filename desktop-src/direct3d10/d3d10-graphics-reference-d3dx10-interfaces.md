@@ -1,15 +1,15 @@
 ---
-description: Cette section contient des informations de référence sur les interfaces COM (Component Object Model) fournies par la bibliothèque de l’utilitaire D3DX. Les interfaces suivantes sont utilisées avec la bibliothèque de l’utilitaire D3DX.
+description: Cette section contient des informations de référence sur les interfaces COM (Component Object Model) fournies par la bibliothèque de l’utilitaire D3DX dans les graphiques Direct3D 10.
 ms.assetid: c57d9c39-3f30-4205-9b0a-665fe53f2b14
 title: Interfaces D3DX (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e4e0fc152468efec4e33fd6a3ab467d211cfbef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c064edce5d5841875eb3148bf74b18f50f93081
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514127"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408012"
 ---
 # <a name="d3dx-interfaces-direct3d-10-graphics"></a>Interfaces D3DX (graphiques Direct3D 10)
 

@@ -1,15 +1,15 @@
 ---
-description: Cette section contient des informations sur les structures incluses dans la bibliothèque de l’utilitaire D3DX.
+description: Cette section contient des informations sur les structures incluses dans la bibliothèque de l’utilitaire D3DX dans les graphiques Direct3D 10.
 ms.assetid: e9cfbc00-ff19-4e4b-bf73-b0fe50d7612b
 title: Structures D3DX (graphiques Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e74dd294948ec93eb8235d762662e98127152e5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a9171906848d99e493b4d1fe1f0ce37f007a9e3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539049"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407552"
 ---
 # <a name="d3dx-structures-direct3d-10-graphics"></a>Structures D3DX (graphiques Direct3D 10)
 

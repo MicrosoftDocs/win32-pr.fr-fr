@@ -1,15 +1,15 @@
 ---
-description: Séparateur de groupes de propriétés utilisé dans les listes de propriétés pour séparer les fichiers audio d’autres types. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
+description: En savoir plus sur la propriété System. PropGroup. Origin. N’utilisez pas cette propriété pour obtenir ou définir des valeurs. Elle est uniquement destinée à un marqueur.
 ms.assetid: 4c1e48c1-dbef-4da1-affb-f902b58128ca
 title: System. PropGroup. Origin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6145b4c8da1812fc9dc78268de5bbd60c45af235
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e01cc0a7cf801a112736da91d2053dee9209cdb4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951814"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405632"
 ---
 # <a name="systempropgrouporigin"></a>System. PropGroup. Origin
 
@@ -30,7 +30,7 @@ propertyDescription
       type = Null
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

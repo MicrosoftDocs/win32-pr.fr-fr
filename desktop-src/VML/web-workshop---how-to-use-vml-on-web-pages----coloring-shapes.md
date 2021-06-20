@@ -1,6 +1,6 @@
 ---
 title: Colorer les formes
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit les formes de coloration dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - Atelier Web, formes de coloration
@@ -20,12 +20,12 @@ keywords:
 - Triplets RGB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1257c5f5b0cf8021658820f09de6e87099f0a52b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c203debd01d4234ae58900a023944511f9fc73c1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031543"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407742"
 ---
 # <a name="coloring-shapes"></a>Colorer les formes
 
@@ -34,7 +34,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Comme nous l’avons mentionné dans les sections précédentes, vous pouvez utiliser « Red » pour représenter une couleur en rouge, « Blue » pour représenter une couleur en bleu, et ainsi de suite. Dans cette rubrique, nous allons vous montrer comment dessiner des formes dans les couleurs de votre choix.
 
@@ -92,6 +92,6 @@ Dans VML, vous pouvez représenter une couleur dans l’un des formats suivants�
 2.  FillColor = "RGB (0, 0255)"
 3.  FillColor = " \# 0000FF"
 
- 
+ 
 
- 
+ 

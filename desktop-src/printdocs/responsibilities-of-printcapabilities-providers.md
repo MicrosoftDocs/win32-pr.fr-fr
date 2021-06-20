@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Les fournisseurs PrintCapabilities doivent prendre en charge un ensemble minimal de fonctionnalités, qui sont implicites par l’interface du fournisseur PrintTicket/PrintCapabilities.
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: Responsabilités des fournisseurs PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586bbf355f7b62f8f9c8b3f3b0c59714cdd6ade5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 70cc04137eacdd2395205b96233db3c53964bc02
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106539150"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404912"
 ---
 # <a name="responsibilities-of-printcapabilities-providers"></a>Responsabilités des fournisseurs PrintCapabilities
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: L’infrastructure du schéma d’impression définit un espace de noms qui comprend les éléments et les attributs XML définis dans les mots clés du schéma d’impression.
 ms.assetid: 5a07ec21-dc7c-46d5-b1c2-de06f53fe6bf
 title: Objets et noms définis dans les mots clés du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2347c73dd647f90a88821658cdcf9e2ed846e83
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 73aabdac90de6743388ca1f4d44e1ad52c020dbd
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211301"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408552"
 ---
 # <a name="objects-and-names-defined-in-the-print-schema-keywords"></a>Objets et noms définis dans les mots clés du schéma d’impression
 

@@ -1,6 +1,6 @@
 ---
 title: Recherche dans des fichiers ASF (kit de développement logiciel (SDK) Windows Media format 11)
-description: Recherche dans des fichiers ASF
+description: Découvrez comment le lecteur ASF WM peut effectuer une recherche temporelle très précise sur du contenu Windows Media avec un index temporel dans le kit de développement logiciel (SDK) Windows Media format 11.
 ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
 keywords:
 - Windows Media Format SDK, recherche dans les fichiers ASF
@@ -12,12 +12,12 @@ keywords:
 - DirectShow, recherche dans des fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18389ded80f0202564cba0ce6384b5ff02d26fdd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 807631861cdc820457360058f22fca380fca29ea
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104032185"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409882"
 ---
 # <a name="seeking-in-asf-files-windows-media-format-11-sdk"></a>Recherche dans des fichiers ASF (kit de développement logiciel (SDK) Windows Media format 11)
 

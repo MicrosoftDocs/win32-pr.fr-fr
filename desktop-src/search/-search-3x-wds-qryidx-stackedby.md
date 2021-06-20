@@ -1,15 +1,15 @@
 ---
-description: L’argument stackedby spécifie la colonne de propriété pour la pile des résultats. Vous pouvez empiler par toute propriété valide à partir du système de propriétés.
+description: Comprendre comment utiliser l’argument stackedby dans la recherche Windows. Cet argument spécifie la colonne de propriété pour la pile des résultats.
 ms.assetid: 7563bf34-b790-4cb0-94fa-31e771f34455
 title: Argument STACKEDBY (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c691f2f9dd08575a9f93a5fc309b167e83f6acff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9844efb21849cad6c1d02f48f7adf793992aec08
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951034"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403712"
 ---
 # <a name="stackedby-argument-windows-search"></a>Argument STACKEDBY (Windows Search)
 

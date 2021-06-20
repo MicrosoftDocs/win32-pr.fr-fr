@@ -1,5 +1,5 @@
 ---
-description: L’argument stackedby spécifie la colonne de propriété pour la pile des résultats. Vous pouvez empiler par toute propriété valide à partir du système de propriétés.
+description: Comprendre comment utiliser l’argument stackedby dans l’interface utilisateur du shell Windows. Cet argument spécifie la colonne de propriété pour la pile des résultats.
 title: Argument STACKEDBY (shell Windows)
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 3ddfa58b12b7fc7c258c811f542fb6a735602cc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc786e2ae95309b72f82dd3121692793ac2bd3ab
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203823"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403582"
 ---
 # <a name="stackedby-argument-the-windows-shell"></a>Argument STACKEDBY (shell Windows)
 
@@ -33,9 +33,9 @@ search:query=vacation&stackedby=System.Author
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Système d’exploitation minimal | Windows Vista Service Pack 1 (SP1) |
+|                              | Valeur                                   |
+|------------------------------|-----------------------------------------|
+| **Système d’exploitation minimal** | Windows Vista Service Pack 1 (SP1) |
 
 
 

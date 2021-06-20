@@ -1,15 +1,15 @@
 ---
 title: Exemples WPD
-description: Exemples
+description: 'Le SDK Windows fournit deux exemples d’API WPD : WpdApiSample et WpdServiceApiSample. Les deux sont des applications de bureau en ligne de commande.'
 ms.assetid: f84f22ab-37df-45df-b85b-7cc4887c2550
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc6d91d6c9c11d7477d20d04229f7b5637526c8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2be9ac6806f12eebcd8cdb361010148e31e56dbe
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210596"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404302"
 ---
 # <a name="wpd-samples"></a>Exemples WPD
 

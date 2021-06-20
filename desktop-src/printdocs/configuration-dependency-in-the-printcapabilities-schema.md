@@ -1,15 +1,15 @@
 ---
 title: Dépendance de configuration PrintCapabilities
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Les dépendances de configuration font référence au fait que certains éléments peuvent être modifiés ou même supprimés d’un document PrintCapabilities à la suivante.
 ms.assetid: 9b1f3f49-2a4a-4413-9708-a430011314e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e7f376d8bd0dab823adb3a2e0665db27508b1d7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 20f01c8e7bd9a036a53048996ec5a38246471f67
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103869641"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409662"
 ---
 # <a name="configuration-dependency-in-the-printcapabilities-schema"></a>Dépendance de configuration dans le schéma PrintCapabilities
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+description: Cet article explique comment inscrire et distribuer des gestionnaires de propriétés pour fonctionner avec le système de propriétés Windows.
 ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Inscription et distribution des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1de6af17df8e15912870626935995c67c25f518
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cffd6169ecbf371e49e27c555f468cdc03e2c3fc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202235"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408342"
 ---
 # <a name="registering-and-distributing-property-handlers"></a>Inscription et distribution des gestionnaires de propriétés
 

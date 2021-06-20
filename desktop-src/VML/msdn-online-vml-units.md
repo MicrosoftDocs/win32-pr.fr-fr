@@ -1,15 +1,15 @@
 ---
 title: Unités VML
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit les unités VML. VML est une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: f95e65ad-d92a-460f-baeb-30fd8a35f84e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e59ff91fb134edeba7e653be30141b3f72c6b65
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 184d577052412bde4a97148b51cab12a87b3672e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728237"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406942"
 ---
 # <a name="vml-units"></a>Unités VML
 
@@ -18,7 +18,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Les unités CSS suivantes sont utilisées par VML.
 
@@ -52,7 +52,7 @@ cm
 
 Centimètres.
 
-MM
+mm
 
 Millimètres.
 
@@ -66,7 +66,7 @@ Picas (1 pica = 12 points).
 
 
 
- 
+ 
 
 Les mesures et les positions dans les propriétés de feuille de style en cascade (CSS) sont établies à l’aide d’unités de longueur. Internet Explorer prend en charge deux types d’unités de longueur : relatif et absolu.
 
@@ -108,8 +108,8 @@ Radians
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

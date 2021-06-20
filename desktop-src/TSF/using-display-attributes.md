@@ -1,6 +1,6 @@
 ---
 title: Utilisation des attributs d’affichage
-description: Text Services Framework (TSF) permet à un service de texte de fournir des attributs d’affichage pour le texte.
+description: Apprenez à utiliser des attributs d’affichage. Text Services Framework (TSF) permet à un service de texte de fournir des attributs d’affichage pour le texte.
 ms.assetid: b0f6e8e8-586a-4b51-a498-fb22bd36161f
 keywords:
 - Text Services Framework (TSF), attributs d’affichage
@@ -9,12 +9,12 @@ keywords:
 - attributs d'affichage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc725f67fab904db23f6232ac5efb5d63c62c26
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3c576064ab22571b5a7822f5e6ff143add55d03
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671762"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406132"
 ---
 # <a name="using-display-attributes"></a>Utilisation des attributs d’affichage
 
@@ -145,9 +145,9 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
  ITfDisplayAttributeInfo::GetAttributeInfo 
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

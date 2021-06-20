@@ -1,15 +1,15 @@
 ---
 title: Affichage correct sur un affichage haute résolution
-description: Décrit comment créer une fenêtre qui s’affiche correctement sur les affichages haute résolution.
+description: Décrit les étapes de création d’une fenêtre pour votre application qui s’affiche correctement sur les affichages haute résolution.
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b3e82951dfa77e6f61c661b87064dad5cb9f08
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941273"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406152"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>Affichage correct sur un affichage haute résolution
 
@@ -66,7 +66,7 @@ Le code suivant utilise la méthode [**GetDesktopDpi**](/windows/win32/api/d2d1/
 >
 > À compter de Windows 8, vous pouvez utiliser la classe [**Windows :: Graphics ::D affichage ::D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties) pour connaître la valeur PPP du système.
 
- 
+ 
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>Étape 2 : déclarer que l’application est DPI-Aware
 
@@ -103,6 +103,6 @@ Quand une application se déclare être prise en charge DPI, il s’agit d’une
 [Direct2D et haute résolution](direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

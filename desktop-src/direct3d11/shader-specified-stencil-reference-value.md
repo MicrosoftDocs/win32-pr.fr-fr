@@ -1,15 +1,15 @@
 ---
 title: Valeur de référence du stencil spécifié par le nuanceur (Direct3D 11 Graphics)
-description: L’activation des nuanceurs de pixels pour la sortie de la valeur de référence du stencil, plutôt que l’utilisation de l’API-spécifiée, permet un contrôle granulaire très précis des opérations du stencil.
+description: En savoir plus sur la valeur de référence du stencil dans les graphiques Direct3D 11. L’activation des nuanceurs de pixels pour utiliser la valeur de référence du stencil permet un contrôle précis des opérations du stencil.
 ms.assetid: 6E336623-9746-4872-ADC1-C5489F53D7AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a089ec8ab56a1cf00021f97bb40cf86fe42f04
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c0e8a34d53bc7f30dc2a91fafabb561dff7a1e96
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316978"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408102"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-11-graphics"></a>Valeur de référence du stencil spécifié par le nuanceur (Direct3D 11 Graphics)
 

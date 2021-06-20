@@ -1,18 +1,18 @@
 ---
 title: Demandes de commentaires des protocoles de routage
-description: Les RFC (Request for Comments) sont une série de documents en cours qui traitent des technologies Internet et Internet.
+description: Cet article répertorie les demandes de commentaires (RFC) relatives aux protocoles de routage. Les RFC sont une série continue de documents qui traitent des technologies Internet.
 ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - RFC, protocoles de routage
 - Demande de commentaires, protocoles de routage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde9664f2d8bbcbc2af1aaf0ef3d92d8b896f0d7
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 3a3d3acb6e269c10a128a2b9519b892cd373ad4f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381607"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404782"
 ---
 # <a name="routing-protocols-request-for-comments"></a>Demandes de commentaires des protocoles de routage
 
@@ -26,9 +26,9 @@ Les RFC (Request for Comments) sont une série de documents en cours qui traiten
 -   [RFC 2246](https://www.ietf.org/rfc/rfc2246.txt) – le protocole TLS, 1999 janvier
 -   [RFC 2715](https://www.ietf.org/rfc/rfc2715.txt) : règles d’interopérabilité pour les protocoles de routage de multidiffusion, du 1998 juillet
 
- 
+ 
 
- 
+ 
 
 
 

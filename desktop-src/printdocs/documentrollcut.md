@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentRollCut, qui décrit la méthode de coupe pour le papier en rouleau. Chaque document est géré séparément.
 ms.assetid: 8eb4e574-3209-459c-9a25-95377b2f7439
 title: DocumentRollCut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3d4bfb09a1c3f6f43f11886685a0edfcf2bbd92
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 92f7232cbe9dafce25aa2ee482ca40bf99145841
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997046"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409182"
 ---
 # <a name="documentrollcut"></a>DocumentRollCut
 
@@ -25,7 +25,7 @@ Décrit la méthode de coupe pour le papier en rouleau. Chaque document est gér
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |

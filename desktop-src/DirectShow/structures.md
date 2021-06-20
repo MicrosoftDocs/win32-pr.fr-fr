@@ -1,20 +1,20 @@
 ---
-description: Structures
+description: Cet article contient des Articles de référence pour les structures DirectShow telles que DEXTER_PARAM, DEXTER_VALUE et SCompFmt0.
 ms.assetid: 74f999c8-2602-42b0-97e4-2c626013fab3
 title: Structures DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26b0a3d70111df154880c5b613e50bb09351ac73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60107b6c5a13e6db0d5f08f41d0e47a836d901f5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521273"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404382"
 ---
 # <a name="directshow-structures"></a>Structures DirectShow
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Déconseillé. Cette API peut être supprimée dans les versions futures de Windows.\]
 
  
 

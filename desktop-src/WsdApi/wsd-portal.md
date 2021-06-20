@@ -1,15 +1,15 @@
 ---
-description: L’API Microsoft Web Services on Devices (WSDAPI) prend en charge l’implémentation d’appareils et de services contrôlés par le client, ainsi que les hôtes d’appareils conformes au profil des appareils pour les services Web (DPWS).
+description: En savoir plus sur l’implémentation de WSD (Web Services on Devices). Comprenez son objectif, où il s’applique, l’audience du développeur et les exigences d’exécution.
 ms.assetid: 590e0b0b-763c-44fb-a49f-606415f57b26
 title: Services Web sur les appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10d8b5812983e7102093234458c94b475bb6a503
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 267f8dba0fd56c383dd3cecabb3c00959aa0d90c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106522680"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405752"
 ---
 # <a name="web-services-on-devices"></a>Services Web sur les appareils
 

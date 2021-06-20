@@ -1,15 +1,15 @@
 ---
-description: Le récepteur de fichiers ASF est une implémentation de IMFMediaSink fournie par Media Foundation qu’une application peut utiliser pour archiver des données de média ASF dans un fichier. Pour plus d’informations sur le modèle objet des récepteurs de média ASF et l’utilisation générale, consultez récepteurs de média ASF.
+description: En savoir plus sur l’ajout d’informations de flux au récepteur de fichiers ASF, qu’une application peut utiliser pour archiver des données de média ASF dans un fichier.
 ms.assetid: 21cbde27-a2ca-4298-9197-43bcaf05588d
 title: Ajout d’informations de flux au récepteur de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42e08c6997d9c77836f379d4ca7b75720ddea245
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de8202de8da5cb8e17534c334e3d39dddb3c4f99
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513402"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404354"
 ---
 # <a name="adding-stream-information-to-the-asf-file-sink"></a>Ajout d’informations de flux au récepteur de fichiers ASF
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobName, qui spécifie un nom descriptif pour le travail. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 1e7b0681-a29b-4fd6-8518-dc9d0b716b12
 title: JobName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb6259d8623a4611364023bf0f74784fe308b58
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3bfb63a54e9501ff5dc45ff09a925396c168b20c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998106"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408872"
 ---
 # <a name="jobname"></a>JobName
 
@@ -25,7 +25,7 @@ Spécifie un nom descriptif pour le travail.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Travail<br/>      |

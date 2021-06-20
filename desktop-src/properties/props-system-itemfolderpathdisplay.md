@@ -1,15 +1,15 @@
 ---
-description: Chemin d’accès d’affichage convivial du dossier parent d’un élément.
+description: En savoir plus sur la propriété System. ItemFolderPathDisplay, qui représente le chemin d’affichage convivial du dossier parent d’un élément.
 ms.assetid: 16f67edc-ca8a-4c2e-9d9b-be8600446e51
 title: System. ItemFolderPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c4ae4c9178356d36c644f1bc886d63331155e88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c12909b29790ea2c016154cea9fccf7c53e45630
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518449"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403932"
 ---
 # <a name="systemitemfolderpathdisplay"></a>System. ItemFolderPathDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -1,15 +1,15 @@
 ---
-description: Cet exemple d’application utilise les API audio de base pour afficher les données audio sur un périphérique de sortie spécifié par l’utilisateur.
+description: Cet exemple d’application, qui illustre la mise en mémoire tampon pilotée par une minuterie, utilise les API audio de base pour afficher les données audio sur un périphérique de sortie spécifié par l’utilisateur.
 ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de4ce441a12d65b8bebb843c7b9a168443b34592
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89d2814f359668f8724d3deb65a7c2a9eeff5b06
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748540"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410092"
 ---
 # <a name="rendersharedtimerdriven"></a>RenderSharedTimerDriven
 
@@ -31,7 +31,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [API MMDevice](mmdevice-api.md) pour l’énumération et la sélection des appareils multimédias.
 -   WASAPI pour les opérations de gestion de flux.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

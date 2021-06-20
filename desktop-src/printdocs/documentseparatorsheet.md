@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément DocumentSeparatorSheet, qui décrit l’utilisation de la feuille de séparation pour un document.
 ms.assetid: f0b2192d-4bb7-4ba2-8dd0-35a20183ea31
 title: DocumentSeparatorSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb6bd0d58c5b361b167d22c672b7e080e4498d3e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 38195c2d1c52e5c02d9da4844b5fa981866a61bc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997056"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409162"
 ---
 # <a name="documentseparatorsheet"></a>DocumentSeparatorSheet
 
@@ -25,7 +25,7 @@ Décrit l’utilisation de la feuille de séparation pour un document. Les feuil
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>  |
 | Préfixe d’étendue <br/> | Document<br/> |

@@ -1,6 +1,6 @@
 ---
 title: Référence WMDM
-description: Guide de référence de programmation
+description: Le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques se compose d’une collection d’interfaces, de structures, d’énumérations et de constantes. Utilisez ces Articles de référence.
 ms.assetid: 1d2260a8-bc9f-41b3-a3b0-0176b45fff1f
 keywords:
 - Windows Media Gestionnaire de périphériques, informations de référence sur la programmation
@@ -19,12 +19,12 @@ keywords:
 - référence pour Windows Media Gestionnaire de périphériques, fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1498d42e65de99abc1d32895f3628d93502c70f
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: e624bbc445d5d5e376cad926248ae4ee4db17a6e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104381261"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406522"
 ---
 # <a name="wmdm-reference"></a>Référence WMDM
 
@@ -46,11 +46,11 @@ Le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphér
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

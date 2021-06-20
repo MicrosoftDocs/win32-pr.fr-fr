@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobNUpAllDocumentsContiguously, qui décrit la sortie de plusieurs pages logiques dans une feuille physique unique.
 ms.assetid: e73e1736-9be5-4831-8277-23a62658b7b5
 title: JobNUpAllDocumentsContiguously
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f90620ac99bf97e85acb22c723a938c31605bd
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9106259c80a7efb89cc4481780bfb55af4f07e23
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998086"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408862"
 ---
 # <a name="jobnupalldocumentscontiguously"></a>JobNUpAllDocumentsContiguously
 
@@ -29,7 +29,7 @@ Le diagramme suivant illustre un exemple avec le document 1 contenant 3 pages et
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                             |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                 |

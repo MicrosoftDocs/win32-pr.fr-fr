@@ -1,15 +1,15 @@
 ---
 title: Comment garantir que votre application s’affiche correctement sur les affichages haute résolution (DirectWrite)
-description: Décrit comment créer une fenêtre qui s’affiche correctement sur les affichages haute résolution.
+description: Décrit comment s’assurer que votre application crée une fenêtre qui s’affiche correctement sur les affichages haute résolution.
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 317eb3379963cec600ab9bac7deb3778f0874e59
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71166d312fe666644c683fe2ece7dd3ced59f765
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315719"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406422"
 ---
 # <a name="how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays"></a>Comment garantir que votre application s’affiche correctement sur les affichages haute résolution
 
@@ -135,6 +135,6 @@ Quand une application se déclare être prise en charge DPI, il s’agit d’une
 [Direct2D et haute résolution](../direct2d/direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

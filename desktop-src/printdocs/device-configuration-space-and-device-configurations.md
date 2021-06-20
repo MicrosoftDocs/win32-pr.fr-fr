@@ -1,15 +1,15 @@
 ---
 title: Espace de configuration de l’appareil
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: L’espace de configuration d’un appareil est l’ensemble de toutes les valeurs possibles qui peuvent être affectées à tous les attributs de l’appareil.
 ms.assetid: 598299c3-159f-4cad-b6a5-d282cd5bb4a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 120e12b6480675dba6e735390f4820a8782edc5c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e4871da3695e81168d43504456c357b0cf566b7f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106523116"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409482"
 ---
 # <a name="device-configuration-space-and-device-configurations"></a>Configuration de l’appareil et de l’espace de configuration des appareils
 

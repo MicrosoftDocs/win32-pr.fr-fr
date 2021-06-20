@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément JobStapleAllDocuments, qui décrit les caractéristiques de l’agrafage de la sortie.
 ms.assetid: 53e38979-2065-4304-a0ed-0434c8d2efc8
 title: DocumentStaple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 338a72baecc62d22ac63ef50d8ce8967c7fd534a
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bc2cda02c452ebb053c71811fb2642cea7371b2f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997036"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409132"
 ---
 # <a name="documentstaple"></a>DocumentStaple
 
@@ -25,7 +25,7 @@ Décrit les caractéristiques de l’agrafage de la sortie. Chaque document est 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                             |
 | Préfixe d’étendue <br/> | Document<br/>                                                            |

@@ -1,15 +1,15 @@
 ---
-description: L’argument de navigation prend en charge les instructions de syntaxe de requête avancée (AQS) complète et est particulièrement utile pour contrôler l’étendue d’une recherche.
+description: Découvrez comment utiliser l’argument de navigation dans Windows Search comme moyen de contrôler l’étendue d’une recherche.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: Argument de navigation (Windows Search)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51f36764174e0eecaedee4a9c360bb9d7dabca3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f56287c7182c0cf370250d53075a1c951ddf28b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112479"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403732"
 ---
 # <a name="crumb-argument-windows-search"></a>Argument de navigation (Windows Search)
 

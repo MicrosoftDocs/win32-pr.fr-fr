@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Les des PrintTicket sont exprimés dans la syntaxe de l’infrastructure de schéma d’impression XML. Passez en revue le résumé des types d’éléments pour connaître la syntaxe requise.
 ms.assetid: 2f595ff9-ac0e-414c-a266-43feea3de034
 title: Schéma et syntaxe PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc9c6711901e61c05e2d1afbfc5a2d962b2a7846
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2c627746dad0179ff437cf87e77bbc5a7580645e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321706"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405352"
 ---
 # <a name="printticket-syntax-and-schema"></a>Schéma et syntaxe PrintTicket
 

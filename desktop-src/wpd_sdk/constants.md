@@ -1,15 +1,15 @@
 ---
 title: Constantes WPD
-description: Constantes
+description: Ces articles décrivent les types de constantes pour les appareils mobiles Windows, tels que les constantes générales, les constantes d’erreur et les constantes d’événement.
 ms.assetid: 523d88ac-7a8c-4de3-b973-60ec87334a67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aef8c976f2f2f3d7d474a4535fa760ddabc7aef2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0e336fb4395c17e015194ed5a26725eb99c7477
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515637"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409872"
 ---
 # <a name="wpd-constants"></a>Constantes WPD
 

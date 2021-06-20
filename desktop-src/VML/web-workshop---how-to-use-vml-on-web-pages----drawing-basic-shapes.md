@@ -1,6 +1,6 @@
 ---
 title: Dessin de formes de base
-description: Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+description: Cet article décrit le dessin de formes de base dans VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9.
 ms.assetid: 05443e1f-c098-441c-a5bc-274cc37ef074
 keywords:
 - Atelier Web, formes de dessin
@@ -22,12 +22,12 @@ keywords:
 - Éléments VML, formes de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ab25fc9310750c9f49c5978a063c76639ec4bd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00701e8ac77bd5bda7156c04ca25427d131646bf
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463591"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407732"
 ---
 # <a name="drawing-basic-shapes"></a>Dessin de formes de base
 
@@ -36,7 +36,7 @@ Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Wind
 > [!Note]  
 > Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Dans cette rubrique, nous allons vous montrer combien il est facile de dessiner une forme à l’aide de VML.
 
@@ -114,6 +114,6 @@ Par conséquent, vous pouvez utiliser la balise d’élément vide, comme indiqu
 
 Vous pouvez utiliser VML pour dessiner des graphiques sur une page Web, puis personnaliser ces graphiques en modifiant simplement leurs attributs de propriété. En outre, la plupart des graphiques représentés dans VML sont rendus plus rapidement dans les navigateurs et prennent moins de temps de téléchargement et d’espace disque.
 
- 
+ 
 
- 
+ 

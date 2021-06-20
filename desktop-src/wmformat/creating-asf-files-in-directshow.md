@@ -1,6 +1,6 @@
 ---
 title: Création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
-description: Création de fichiers ASF dans DirectShow
+description: En savoir plus sur la création de fichiers ASF dans DirectShow à l’aide du kit de développement logiciel (SDK) Windows Media format 11. ASF est un format de conteneur qui peut contenir n’importe quel type de données.
 ms.assetid: 8b7af340-934d-43a9-88e9-7bbb2d3a38e0
 keywords:
 - Windows Media Format SDK, création de fichiers ASF dans DirectShow
@@ -12,12 +12,12 @@ keywords:
 - DirectShow, création de fichiers ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbe4a6a37a508e5d7c713ae4cf38d771d075cefa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9e06b6deb6dc9f07115f8143309d32dcf4a58a0f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102664"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406182"
 ---
 # <a name="creating-asf-files-in-directshow-windows-media-format-11-sdk"></a>Création de fichiers ASF dans DirectShow (kit de développement logiciel (SDK) Windows Media format 11)
 

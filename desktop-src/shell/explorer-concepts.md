@@ -1,5 +1,5 @@
 ---
-description: L’espace de noms Shell organise le système de fichiers et d’autres objets gérés par le shell en une seule hiérarchie structurée en arborescence. Conceptuellement, il s’agit d’une version plus volumineuse et plus inclusive du système de fichiers.
+description: Découvrez les concepts courants lorsque vous souhaitez étendre l’Explorateur Windows, qui est l’une des nombreuses options d’extensibilité dans l’interface utilisateur du shell Windows.
 title: Concepts communs de l’Explorateur
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d5ea7d154ef0455576d91f99eb53dccd93c25339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550905"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404932"
 ---
 # <a name="common-explorer-concepts"></a>Concepts communs de l’Explorateur
 
