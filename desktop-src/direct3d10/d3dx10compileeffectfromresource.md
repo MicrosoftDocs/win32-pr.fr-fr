@@ -11,20 +11,20 @@ ms.contentlocale: fr-FR
 ms.lasthandoff: 06/19/2021
 ms.locfileid: "112407942"
 ---
-# <a name="d3dx10compileeffectfromresource"></a><span data-ttu-id="87da6-104">D3DX10CompileEffectFromResource</span><span class="sxs-lookup"><span data-stu-id="87da6-104">D3DX10CompileEffectFromResource</span></span>
+# <a name="d3dx10compileeffectfromresource"></a><span data-ttu-id="832ba-104">D3DX10CompileEffectFromResource</span><span class="sxs-lookup"><span data-stu-id="832ba-104">D3DX10CompileEffectFromResource</span></span>
 
 > [!Note]  
-> <span data-ttu-id="87da6-105">Au lieu d’utiliser cette fonction héritée, nous vous recommandons de compiler hors connexion à l’aide du compilateur de ligne de commande Fxc.exe ou d’utiliser l’API [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) .</span><span class="sxs-lookup"><span data-stu-id="87da6-105">Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API.</span></span>
+> <span data-ttu-id="832ba-105">Au lieu d’utiliser cette fonction héritée, nous vous recommandons de compiler hors connexion à l’aide du compilateur de ligne de commande Fxc.exe ou d’utiliser l’API [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) .</span><span class="sxs-lookup"><span data-stu-id="832ba-105">Instead of using this legacy function, we recommend that you compile offline by using the Fxc.exe command-line compiler or use the [**D3DCompile**](/windows/win32/api/d3dcompiler/nf-d3dcompiler-d3dcompile) API.</span></span>
 
  
 
-<span data-ttu-id="87da6-106">Action déconseillée.</span><span class="sxs-lookup"><span data-stu-id="87da6-106">Deprecated.</span></span> <span data-ttu-id="87da6-107">Consultez [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span><span class="sxs-lookup"><span data-stu-id="87da6-107">See [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span></span>
+<span data-ttu-id="832ba-106">Action déconseillée.</span><span class="sxs-lookup"><span data-stu-id="832ba-106">Deprecated.</span></span> <span data-ttu-id="832ba-107">Consultez [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span><span class="sxs-lookup"><span data-stu-id="832ba-107">See [**D3DX10CompileFromResource**](d3dx10compilefromresource.md).</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="87da6-108">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="87da6-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="832ba-108">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="832ba-108">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="87da6-109">Fonctions usage général</span><span class="sxs-lookup"><span data-stu-id="87da6-109">General Purpose Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-general-purpose.md)
+[<span data-ttu-id="832ba-109">Fonctions usage général</span><span class="sxs-lookup"><span data-stu-id="832ba-109">General Purpose Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-general-purpose.md)
 </dt> </dl>
 
  
