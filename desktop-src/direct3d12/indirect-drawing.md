@@ -5,12 +5,12 @@ ms.assetid: F8D6C88A-101E-4F66-999F-43206F6527B6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7731a662bc6064e635d68942e6b0b222adf1eda8
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: 6fa474a469d5789d4b31830400d981ea771db2e8
+ms.sourcegitcommit: b9a7a48e52219bf8d33e6b8171fc9f8b52151e92
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "104548505"
+ms.lasthandoff: 06/21/2021
+ms.locfileid: "112421877"
 ---
 # <a name="indirect-drawing"></a>Dessin indirect
 
@@ -126,14 +126,18 @@ Le code permettant de créer la description de la signature de la commande est l
 D3D12_INDIRECT_ARGUMENT_DESC Args[4];
 Args[0].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[0].Constant.RootParameterIndex = 2;
+Args[0].Constant.DestOffsetIn32BitValues = 0;
+Args[0].Constant.Num32BitValuesToSet = 1;
 
 Args[1].Type = D3D12_INDIRECT_ARGUMENT_TYPE_CONSTANT;
 Args[1].Constant.RootParameterIndex = 6;
+Args[1].Constant.DestOffsetIn32BitValues = 0;
+Args[1].Constant.Num32BitValuesToSet = 1;
 
 Args[2].Type = D3D12_INDIRECT_ARGUMENT_TYPE_VERTEX_BUFFER_VIEW;
-Args[2].VertexBuffer.VBSlot = 3;
+Args[2].VertexBuffer.Slot = 3;
 
-Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW_INSTANCED;
+Args[3].Type = D3D12_INDIRECT_ARGUMENT_TYPE_DRAW;
 
 D3D12_COMMAND_SIGNATURE_DESC ProgramDesc;
 ProgramDesc.ByteStride = 40;
@@ -145,17 +149,17 @@ La disposition d’une structure unique au sein de la mémoire tampon d’argume
 
 
 
-| Octets | Description                     |
-|-------|---------------------------------|
-| 0:3   | Données pour l’index de paramètre racine 2 |
-| 4:7   | Données pour l’index de paramètre racine 6 |
-| 8:15  | Adresse virtuelle de VB (64 bits)  |
-| 16:19 | Taille VB                         |
-| 20:23 | STRIDE VB                       |
-| 24:27 | VertexCountPerInstance          |
-| 28:31 | InstanceCount                   |
-| 32:35 | StartVertexLocation             |
-| 36:39 | StartInstanceLocation           |
+| Octets | Description                               |
+|-------|-------------------------------------------|
+| 0:3   | Données pour l’index de paramètre racine 2           |
+| 4:7   | Données pour l’index de paramètre racine 6           |
+| 8:15  | Adresse virtuelle de VB à l’emplacement 3 (64 bits)  |
+| 16:19 | Taille VB                                   |
+| 20:23 | STRIDE VB                                 |
+| 24:27 | VertexCountPerInstance                    |
+| 28:31 | InstanceCount                             |
+| 32:35 | StartVertexLocation                       |
+| 36:39 | StartInstanceLocation                     |
 
 
 
