@@ -5,12 +5,12 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aadbd1e71b3c9895b75c973397488472b57f8eb1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
+ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548600"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112426963"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>Chargement de données de texture dans des mémoires tampons
 
@@ -134,15 +134,15 @@ Restrictions d’alignement de mémoire tampon :
 -   La copie linéaire des sous-ressources doit être alignée sur 512 octets (avec le pas de la ligne aligné sur les octets d’alignement du pas de \_ données de texture D3D12 \_ \_ \_ ).
 -   Les lectures de données constantes doivent être un multiple de 256 octets à partir du début du tas (c’est-à-dire uniquement des adresses qui sont alignées sur 256 octets).
 -   Les lectures de données d’index doivent être un multiple de la taille de type de données d’index (c’est-à-dire uniquement à partir d’adresses qui sont naturellement alignées pour les données).
--   [**ID3D12GraphicsCommandList ::D rawinstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced) et [**ID3D12GraphicsCommandList ::D données rawindexedinstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced) doivent provenir de décalages multiples de 4 (c’est-à-dire uniquement à partir d’adresses qui sont alignées sur des DWORD).
+-   Les données [**ID3D12GraphicsCommandList :: ExecuteIndirect**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect) doivent provenir de décalages multiples de 4 (c’est-à-dire uniquement à partir d’adresses qui sont alignées sur la valeur DWORD).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Sous-allocation dans des mémoires tampons](large-buffers.md)
+[Sous-allocation au sein des tampons](large-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
