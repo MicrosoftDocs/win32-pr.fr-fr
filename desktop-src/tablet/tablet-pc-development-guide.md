@@ -4,12 +4,12 @@ ms.assetid: f0fc7ab9-7653-45c5-be06-a628c6c3e526
 title: Tablet PC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fd2a8d76d0c1a6822b35b7613413efcbc9c5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6c444a9dc2b08c75635335d5bb3b6f6330359f3
+ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103953102"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449892"
 ---
 # <a name="tablet-pc"></a>Tablet PC
 
@@ -43,7 +43,7 @@ Cette section contient la documentation de programmation, des exemples de descri
 
 <dl> <dt>
 
-[Questions fréquentes (FAQ)](frequently-asked-questions.md)
+[Questions fréquentes (FAQ)](frequently-asked-questions.yml)
 </dt> </dl>
 
  
