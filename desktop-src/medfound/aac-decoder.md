@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: Décodeur AAC
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dde090dee98cddce9658366bde593b5fc779d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7554d6bc4a13fe1e4af4c51e75f1fe8a0bd38286
+ms.sourcegitcommit: 3a0a8a8fdce560a81a27789a1c04172ed96147b1
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516653"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112436589"
 ---
 # <a name="aac-decoder"></a>Décodeur AAC
 
@@ -22,6 +22,10 @@ Le décodeur Microsoft Media Foundation AAC est une [Media Foundation transforma
 Le décodeur AAC prend en charge les flux AAC bruts sans en-tête ni AAC dans un flux de transport de données audio (ADTS).
 
 À compter de Windows 8, le décodeur AAC prend également en charge le décodage des flux de transport audio MPEG-4 avec une couche multiplex (LATM) et une couche de synchronisation (garantie). Il peut également convertir un flux LATM/garantie en ADTS.
+
+## <a name="class-identifier"></a>Identificateur de classe
+
+L’identificateur de classe (CLSID) de l’encodeur AAC est **CLSID \_ CMSAACDecMFT**, défini dans le fichier d’en-tête wmcodecdsp. h.
 
 ## <a name="media-types"></a>Types de médias
 
@@ -323,7 +327,7 @@ Les deux derniers octets de [**MF_MT_USER_DATA**](mf-mt-user-data-attribute.md) 
 
 Si la mise à jour du supplément Platform pour Windows Vista est installée, le décodeur audio AAC est disponible sur Windows Vista, mais il est accessible sur Windows Vista uniquement à l’aide du [lecteur source](source-reader.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
