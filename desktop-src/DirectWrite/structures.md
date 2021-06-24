@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, structures
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea132cde1ea6b740cc02b938767f941e9c999e5a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 19f678be8e02c8afecd849673d97ae20f6b1a710
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106543547"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587917"
 ---
 # <a name="directwrite-structures"></a>Structures DirectWrite
 
@@ -21,7 +21,7 @@ DirectWrite définit les structures suivantes.
 
 | Rubrique | Description |
 |-|-|
-| [**DWRITE_BITMAP_DATA_BGRA32**](./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md) | Représente des données bitmap au format BGRA32. |
+| [**DWRITE_BITMAP_DATA_BGRA32**](/windows/windows-app-sdk/api/win32/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32) | Représente des données bitmap au format BGRA32. |
 | [**\_mesures du signe insertion DWRITE \_**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) | La structure de [**\_ \_ métriques du signe insertion DWRITE**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) spécifie les métriques pour l’emplacement du signe insertion dans une police. |
 | [**\_métriques de cluster DWRITE \_**](/windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics) | Contient des informations sur un cluster de glyphes. |
 | [**DWRITE \_ couleur \_ F**](dwrite-color-f.md) | Décrit les composants rouge, vert, bleu et alpha d’une couleur. |

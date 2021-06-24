@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: Fonctions WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6511d2e66acc923072cc7a961aae3cb572b8e466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544663"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587744"
 ---
 # <a name="winhttp-functions"></a>Fonctions WinHTTP
 
@@ -80,6 +80,13 @@ Libère les données récupérées à partir d’un appel précédent à [**WinH
 
 </dd> <dt>
 
+[**WinHttpFreeQueryConnectionGroupResult**](/windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult)
+</dt> <dd>
+
+Libère la mémoire allouée par un appel précédent à [WinHttpQueryConnectionGroup](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup).
+
+</dd> <dt>
+
 [**WinHttpGetDefaultProxyConfiguration**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
 </dt> <dd>
 
@@ -133,6 +140,13 @@ Crée un handle de requête HTTP.
 </dt> <dd>
 
 Retourne les schémas d’autorisation pris en charge par le serveur.
+
+</dd> <dt>
+
+[**WinHttpQueryConnectionGroup**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)
+</dt> <dd>
+
+Récupère une description de l’état actuel des connexions de WinHttp.
 
 </dd> <dt>
 

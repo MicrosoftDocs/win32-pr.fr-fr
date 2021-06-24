@@ -4,20 +4,20 @@ description: Voici quelques-uns des nouveaux ajouts à DirectWrite.
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: ea9e36487477f51179a77b97726b787a0f5da844
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349958"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587883"
 ---
 # <a name="whats-new-in-directwrite"></a>Nouveautés de DirectWrite
 
 Cette rubrique décrit les nouveautés de [DirectWrite](direct-write-portal.md) pour les différentes versions de Windows 10.
 
-## <a name="project-reunion-01-prerelease"></a>Projet Réunion 0,1 version préliminaire
+## <a name="windows-app-sdk"></a>Kit de développement logiciel (SDK) pour application Windows
 
-[Project REUNION](/windows/apps/project-reunion/) introduit une nouvelle version de DirectWrite, appelée DWriteCore, qui s’exécute sur des versions de Windows vers Windows 8, et qui ouvre la porte pour que vous l’utilisiez sur plusieurs plateformes. Pour plus d’informations, consultez [vue d’ensemble de DWriteCore](dwritecore-overview.md).
+Le [Kit de développement logiciel (SDK) d’application Windows](/windows/apps/windows-app-sdk/) introduit une nouvelle version de DirectWrite, appelée DWriteCore. Pour plus d’informations, consultez [vue d’ensemble de DWriteCore](dwritecore-overview.md).
 
 ## <a name="windows-10-may-2019-update"></a>Mise à jour de Windows 10 de mai 2019
 

@@ -4,12 +4,12 @@ description: Cette section décrit comment utiliser un nuanceur Geometry avec l�
 ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 909b3ba37e8b80201a4afc3e5bf18f016fed38a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae2e72d25177926c948f43996b6c57d42a7c557b
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971742"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587876"
 ---
 # <a name="getting-started-with-the-stream-output-stage"></a>Prise en main avec l’étape de Stream-Output
 
@@ -136,14 +136,14 @@ définit la sortie sur un maximum de 12 sommets.</td>
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream<GSPS_INPUT> TriStream</code></pre></td>
+<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream&lt;GSPS_INPUTT&gt; TriStream</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 <p>Le premier paramètre est un tableau de vertex (3 dans ce cas) défini par une structure GSPS_INPUT (qui définit les données par vertex comme une position, une coordonnée normale et une coordonnée de texture). Le premier paramètre utilise également le mot clé triangle, ce qui signifie que l’étape assembleur d’entrée doit sortir les données du nuanceur Geometry sous la forme d’un des types de primitives de triangle (liste de triangles ou bande triangulaire).</p>
-<p>Le deuxième paramètre est un flux de triangle défini par le type TriangleStream <GSPS_INPUT> . Cela signifie que le paramètre est un tableau de triangles, chacun composé de trois vertex (qui contiennent les données des membres de GSPS_INPUT).</p>
+<p>Le deuxième paramètre est un flux de triangle défini par le type TriangleStream &lt; GSPS_INPUTT &gt; . Cela signifie que le paramètre est un tableau de triangles, chacun composé de trois vertex (qui contiennent les données des membres de GSPS_INPUT).</p>
 <p>Utilisez les mots clés triangle et trianglestream pour identifier des triangles individuels ou un flux de triangles dans un GS.</p></td>
 </tr>
 <tr class="odd">

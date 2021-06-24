@@ -4,12 +4,12 @@ ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: OCM__BASE (OLECTL. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc79cc842a7f25ba66dc8d807c5ab355fc04547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa3713d8a7b7447430e914e2582089244a417b1c
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518274"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588062"
 ---
 # <a name="ocm__base"></a>BASE de OCM \_ \_
 
@@ -20,7 +20,7 @@ Utilisé pour définir des messages privés pour une utilisation par les classes
 #define OCM__BASE                (WM_USER+0x1c00)
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici les plages de numéros de message.
 
@@ -28,7 +28,7 @@ Voici les plages de numéros de message.
 
 | Plage                                                 | Signification                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| 0 à [**WM \_ utilisateur**](wm-user.md)  1<br/>   | Messages réservés pour une utilisation par le système.<br/>            |
+| 0 à [**l' \_ utilisateur WM**](wm-user.md)-1<br/>   | Messages réservés pour une utilisation par le système.<br/>            |
 | [**WM \_ UTILISATEUR**](wm-user.md) via 0x7FFF<br/> | Messages entiers à utiliser par les classes de fenêtre privées.<br/> |
 | [**WM \_ APPLICATION**](wm-app.md) via 0xBFFF<br/>   | Messages disponibles pour une utilisation par des applications.<br/>         |
 | 0xC000 à 0xFFFF<br/>                      | Messages de chaîne à utiliser par les applications.<br/>            |
@@ -48,7 +48,7 @@ Les numéros de message dans la quatrième plage (0xC000 à 0xFFFF) sont défini
 
 Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont réservés par le système.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
@@ -64,7 +64,7 @@ Les numéros de message dans la cinquième plage (supérieure à 0xFFFF) sont r�
 
 <dl> <dt>
 
-**Référence**
+**Informations de référence**
 </dt> <dt>
 
 [**RegisterWindowMessage**](/windows/win32/api/winuser/nf-winuser-registerwindowmessagea)

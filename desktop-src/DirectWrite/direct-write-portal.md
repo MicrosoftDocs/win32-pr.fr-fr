@@ -4,12 +4,12 @@ description: Les applications actuelles doivent prendre en charge le rendu de te
 ms.assetid: 62a8d723-ae1c-4cbc-a9da-3177e80d4a3a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b1e2ff44083a56a7202847fc07ad9daaa67b7ba
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 4c6bdc75845c2387a4fa4335fa462d0b97ec5669
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "104464174"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587936"
 ---
 # <a name="directwrite-dwrite"></a>DirectWrite (DWrite)
 
@@ -28,7 +28,7 @@ Les applications actuelles doivent prendre en charge le rendu de texte de haute 
 L’API prend en charge la mesure, le dessin et le test d’atteinte du texte à plusieurs formats. DirectWrite gère le texte dans toutes les langues prises en charge pour les applications globales et localisées, en se basant sur l’infrastructure de langage clé qui se trouve dans Windows 7. DirectWrite fournit également une API de rendu de glyphe de bas niveau pour les développeurs désireux de réaliser leurs propres disposition et traitement d’Unicode à glyphe.
 
 > [!NOTE]
-> [Project REUNION](/windows/apps/project-reunion/) introduit une nouvelle version de DirectWrite &mdash; appelée DWriteCore &mdash; qui s’exécute sur des versions de Windows vers Windows 8, et qui ouvre la porte pour que vous l’utilisiez sur plusieurs plateformes. Pour plus d’informations, consultez [vue d’ensemble de DWriteCore](dwritecore-overview.md).
+> Le [Kit de développement logiciel (SDK) d’application Windows](/windows/apps/windows-app-sdk/) introduit une nouvelle version de DirectWrite &mdash; appelée DWriteCore &mdash; qui s’exécute sur des versions de Windows vers Windows 8, et ouvre la porte qui vous permet de l’utiliser sur plusieurs plateformes. Pour plus d’informations, consultez [vue d’ensemble de DWriteCore](dwritecore-overview.md).
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 

@@ -6,12 +6,12 @@ keywords:
 - DirectWrite, interfaces
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0297875bfe4b5f0a0610091f7330a427ed51b822
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106522486"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588034"
 ---
 # <a name="directwrite-interfaces"></a>Interfaces DirectWrite
 
@@ -24,7 +24,7 @@ DirectWrite définit les interfaces suivantes.
 | [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult) | Représente le résultat d’une opération asynchrone. Un client peut utiliser l’interface pour attendre que l’opération se termine et obtenir le résultat.  |
 | [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) | Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, qui peut être utilisé pour le rendu des glyphes. |
 | [**IDWriteBitmapRenderTarget1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1) | Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, que vous pouvez utiliser pour restituer des glyphes. |
-| [**IDWriteBitmapRenderTarget2**](./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md) | Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, qui peut être utilisé pour le rendu des glyphes. |
+| [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | Encapsule une bitmap indépendante du périphérique 32 bits et un contexte de périphérique, qui peut être utilisé pour le rendu des glyphes. |
 | [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) | Cette interface permet à l’application d’énumérer les exécutions de glyphes de couleurs. |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | Énumérateur pour une collection ordonnée de glyphes de couleurs. |
 | [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | Utilisé pour créer tous les objets DirectWrite suivants. Cette interface est l’interface de fabrique racine pour tous les objets DirectWrite. |

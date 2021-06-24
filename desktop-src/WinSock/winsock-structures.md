@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Structures Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac97b8f9710163a29dc7d5938df4cb34bb51ec2f
-ms.sourcegitcommit: 04fcd6711f2b167a3023a67310deb58780e1fea8
+ms.openlocfilehash: 627fed267944787dde754dce4690e350ec0bd9e1
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112082384"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588051"
 ---
 # <a name="winsock-structures"></a>Structures Winsock
 
@@ -21,10 +21,13 @@ La liste suivante fournit des descriptions concises de chaque structure et typed
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**addrinfo**](/windows/win32/api/ws2def/ns-ws2def-addrinfoa)                                                            | Utilisé par la fonction [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) pour contenir les informations sur l’adresse de l’hôte.                                                                                                                                                                                       |
 | [**addrinfoW**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfow)                                                            | Utilisé par la fonction [**GetAddrInfoW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow) pour contenir les informations sur l’adresse de l’hôte.                                                                                                                                                                                       |
+| [**ADDRINFO_DNS_SERVER**](/windows/win32/api/ws2def/ns-ws2def-addrinfo_dns_server) | Représente un serveur DNS (Domain Name System) personnalisé, utilisé dans les API Winsock. |
 | [**addrinfoex**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoexw)                                                          | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte.                                                                                                                                                                                     |
 | [**addrinfoex2**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex2w)                                                        | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un nom canonique et un nom de domaine complet ont été demandés.                                                                                                    |
 | [**addrinfoex3**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex3)                                                        | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’une interface réseau spécifique a été demandée.                                                                                                                                |
 | [**addrinfoex4**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex4)                                                        | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un descripteur du nom de domaine complet a été demandé.                                                                                                                 |
+| [**addrinfoex5**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex5) | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un descripteur du nom de domaine complet a été demandé. |
+| [**addrinfoex6**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex6) | Utilisé par la fonction [**API getaddrinfoex**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) pour contenir les informations sur l’adresse de l’hôte lorsqu’un descripteur du nom de domaine complet a été demandé. |
 | [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols)                                                      | Fournit une liste des protocoles auxquels les programmeurs d’applications peuvent contraindre les requêtes. Utilisé à des fins de requête uniquement.                                                                                                                                                                |
 | [**OBJET BLOB**](/windows/win32/api/wtypesbase/ns-wtypesbase-blob)                                                                    | Contient des informations sur un bloc de données. Dérivé d’Large Object binaire.                                                                                                                                                                                                     |
 | [**\_informations CSADDR**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info)                                                     | Contient les informations d’adresse Winsock pour un service réseau ou un fournisseur d’espace de noms.                                                                                                                                                                                                 |

@@ -8,12 +8,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: cea9a2d31654d1263f285ee9967b24700fe25138
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f6076440f117ed287ad544c308e574454f33e2b7
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106522907"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587798"
 ---
 # <a name="sio_tcp_info-control-code"></a>Code de contrôle SIO_TCP_INFO
 
@@ -67,7 +67,7 @@ Utilisez **les \_ \_ informations TCP SIO** pour cette opération.
 ### <a name="lpvinbuffer"></a>lpvInBuffer
 
 Pointeur vers la mémoire tampon d’entrée.
-Ce paramètre contient un pointeur vers une **valeur DWORD** qui spécifie la version du code de contrôle d' **\_ \_ informations TCP SIO** que vous utilisez. Spécifiez 0 pour utiliser [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0). Spécifiez 1 pour utiliser [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1), qui povides plus de champs.
+Ce paramètre contient un pointeur vers une **valeur DWORD** qui spécifie la version du code de contrôle d' **\_ \_ informations TCP SIO** que vous utilisez. Spécifiez 0 pour utiliser [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0). Spécifiez 1 pour utiliser [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1), qui fournit davantage de champs.
 
 ### <a name="cbinbuffer"></a>cbInBuffer
 
@@ -139,7 +139,7 @@ Pour afficher les informations d’erreur étendues, appelez [**WSAGetLastError*
 | **WSAEMSGSIZE** | Le pointeur vers la mémoire tampon d’entrée a la **valeur null**, ou la taille spécifiée de la mémoire tampon d’entrée est incorrecte. |
 | **WSAEINVAL** | Argument non valide fourni. Cette erreur est retournée si le paramètre *dwIoControlCode* n’est pas une commande valide, si un paramètre d’entrée spécifié n’est pas acceptable ou si la commande n’est pas applicable au type de socket spécifié. |
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Contrairement à la récupération des statistiques TCP avec la fonction [**GetPerTcpConnectionEStats**](/windows/desktop/api/iphlpapi/nf-iphlpapi-getpertcpconnectionestats) , la récupération des statistiques TCP avec ce code de contrôle ne nécessite pas que le code utilisateur charge, stocke et filtre la table de connexion TCP et ne nécessite pas de privilèges élevés pour utiliser.
 
