@@ -1,21 +1,21 @@
 ---
 title: Mots clés dynamiques de pare-feu
-description: Vous utilisez les API de mots clés dynamiques de pare-feu pour gérer les adresses de mots clés dynamiques dans le pare-feu Windows Defender.
+description: Vous utilisez les API de mots clés dynamiques de pare-feu pour gérer les adresses de mots clés dynamiques dans le pare-feu Microsoft Defender.
 keywords:
 - Mots clés dynamiques de pare-feu
 ms.topic: article
 ms.date: 05/17/2021
 ms.localizationpriority: low
-ms.openlocfilehash: e60526d8a7889af3173913774790bdd209121040
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 15e35f26b72ed8d685e8302f6222836507e5c6a3
+ms.sourcegitcommit: ae8c320a757558262167a4f4e385235b8d89035c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
 ms.lasthandoff: 06/24/2021
-ms.locfileid: "112681167"
+ms.locfileid: "112765533"
 ---
 # <a name="firewall-dynamic-keywords"></a>Mots clés dynamiques de pare-feu
 
-Vous utilisez les API de mots clés dynamiques de pare-feu pour gérer les *adresses de mots clés dynamiques* dans le [pare-feu Windows Defender](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security). Une adresse de mot clé dynamique est utilisée pour créer un ensemble d’adresses IP auxquelles une ou plusieurs règles de pare-feu peuvent faire référence. Les adresses de mots clés dynamiques prennent en charge IPv4 et IPv6.
+Vous utilisez les API de mots clés dynamiques de pare-feu pour gérer les *adresses de mots clés dynamiques* dans le [pare-feu Microsoft Defender](/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security). Une adresse de mot clé dynamique est utilisée pour créer un ensemble d’adresses IP auxquelles une ou plusieurs règles de pare-feu peuvent faire référence. Les adresses de mots clés dynamiques prennent en charge IPv4 et IPv6.
 
 > [!NOTE]
 > Pour obtenir des informations de référence sur les API des API présentées dans cette rubrique, consultez [référence des mots clés dynamiques de pare-feu](firewall-dynamic-keywords-reference.md).
