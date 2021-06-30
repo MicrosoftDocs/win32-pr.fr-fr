@@ -4,12 +4,12 @@ ms.assetid: df5a79f4-abbf-4b83-afc3-cbd14b166067
 title: Configuration et démarrage d’une session de journalisation automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b17e7e818193aa4fa316d17a0e4392e41b55dfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6560aece87506b1d064981ee5f49a56bbf0da19e
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973850"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102038"
 ---
 # <a name="configuring-and-starting-an-autologger-session"></a>Configuration et démarrage d’une session de journalisation automatique
 
@@ -116,12 +116,12 @@ Pour obtenir une description de chaque type d’horloge, consultez le membre <st
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>Chemin d’accès complet du fichier journal. Le chemin d’accès à ce fichier doit exister. Le fichier journal est un fichier journal séquentiel. Le chemin d’accès est limité à 1024 caractères.<br/> Si <strong>filename</strong> n’est pas spécifié, les événements sont écrits dans%SystemRoot%\System32\LogFiles\WMI\ <sessionname> . etl. <br/></td>
+<td>Chemin d’accès complet du fichier journal. Le chemin d’accès à ce fichier doit exister. Le fichier journal est un fichier journal séquentiel. Le chemin d’accès est limité à 1024 caractères.<br/> Si <strong>filename</strong> n’est pas spécifié, les événements sont écrits dans%SystemRoot%\System32\LogFiles\WMI \& lt ; NomSession &gt; . etl. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FileMax</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Nombre maximal d’instances du fichier journal créé par ETW. Si le fichier journal spécifié dans <strong>filename</strong> existe, ETW ajoute la valeur <strong>FileCounter</strong> au nom de fichier. Par exemple, si le nom du fichier journal par défaut est utilisé, le formulaire est%SystemRoot%\System32\LogFiles\WMI\ <sessionname> . etl. NNNN. <br/> La première fois que l’ordinateur est démarré, le nom de fichier est <sessionname> . etl. 0001, la deuxième fois, le nom de fichier est <sessionname> . etl. 0002, et ainsi de suite. Si <strong>FileMax</strong> a la valeur 3, au quatrième redémarrage de l’ordinateur, ETW rétablit la valeur 1 pour le compteur et remplace <sessionname> . etl. 0001, le cas échéant.<br/> Le nombre maximal d’instances du fichier journal pris en charge est de 16.<br/> N’utilisez pas cette fonctionnalité avec le mode de fichier journal <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> .<br/></td>
+<td>Nombre maximal d’instances du fichier journal créé par ETW. Si le fichier journal spécifié dans <strong>filename</strong> existe, ETW ajoute la valeur <strong>FileCounter</strong> au nom de fichier. Par exemple, si le nom du fichier journal par défaut est utilisé, le formulaire est%SystemRoot%\System32\LogFiles\WMI \& lt ; NomSession &gt; . etl. NNNN. <br/> Lors du premier démarrage de l’ordinateur, le nom de fichier est &lt; nom_session. &gt; ETL. 0001, la deuxième fois, le nom de fichier est &lt; nom_session &gt; . etl. 0002, et ainsi de suite. Si <strong>FileMax</strong> a la valeur 3, au quatrième redémarrage de l’ordinateur, ETW rétablit la valeur 1 pour le compteur et remplace &lt; NomSession &gt; . etl. 0001, le cas échéant.<br/> Le nombre maximal d’instances du fichier journal pris en charge est de 16.<br/> N’utilisez pas cette fonctionnalité avec le mode de fichier journal <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> .<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FlushTimer</strong></td>

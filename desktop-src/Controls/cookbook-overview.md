@@ -4,12 +4,12 @@ description: Cette rubrique explique comment configurer votre application pour v
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39339c0535767011a59730534486604389f62468
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a4673d0a47f42f557e09f4afe46131cd48bad1b0
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103941430"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102168"
 ---
 # <a name="enabling-visual-styles"></a>Activation des styles visuels
 
@@ -48,7 +48,7 @@ Les manifestes sont écrits en XML. Le nom du fichier manifeste de l’applicati
 
 
 
- 
+ 
 
 L’exemple de manifeste fournit également une description de votre application et spécifie des dépendances d’application. Le tableau suivant présente les attributs définis par l’élément **assemblyIdentity** dans la section Dependency.
 
@@ -65,14 +65,14 @@ L’exemple de manifeste fournit également une description de votre application
 
 
 
- 
+ 
 
 Voici un exemple de fichier manifeste.
 
 > [!IMPORTANT]
 > Définissez l’entrée **ProcessorArchitecture** sur **« x86 »** si votre application cible la plateforme Windows 32 bits, ou sur **« amd64 »** si votre application cible la plateforme Windows 64 bits. Vous pouvez également spécifier **« \* »**, ce qui garantit que toutes les plateformes sont ciblées, comme illustré dans les exemples suivants.
 
- 
+ 
 
 
 ```C++
@@ -120,10 +120,10 @@ Les rubriques suivantes décrivent les étapes à suivre pour appliquer des styl
 Voici quelques exemples d’applications qui n’utilisent pas d’extensions tierces.
 
 -   Calculatrice
--   FreeCell
--   Jeu
+-   FreeCell (dans Windows Vista et Windows 7)
+-   Démineur (dans Windows Vista et Windows 7)
 -   Bloc-notes
--   Jeu solitaire
+-   Solitaire (dans Windows Vista et Windows 7)
 
 **Pour créer un manifeste et permettre à votre application d’utiliser des styles visuels.**
 
@@ -166,7 +166,7 @@ Voici quelques exemples d’applications qui n’utilisent pas d’extensions ti
     > [!Note]  
     > Lorsque vous ajoutez l’entrée précédente à la ressource, vous devez la mettre en forme sur une seule ligne. Vous pouvez également placer le fichier manifeste XML dans le même répertoire que le fichier exécutable de votre application. Le système d’exploitation chargera d’abord le manifeste à partir du système de fichiers, puis vérifiera la section de la ressource du fichier exécutable. La version du système de fichiers est prioritaire.
 
-     
+     
 
 Lorsque vous générez votre application, le manifeste est ajouté en tant que ressource binaire.
 
@@ -208,7 +208,7 @@ Lorsque vous générez votre application, le manifeste est ajouté en tant que r
 > [!Note]  
 > Lorsque vous créez une application du panneau de configuration, placez-la dans la catégorie appropriée. Le panneau de configuration prend désormais en charge la catégorisation des applications du panneau de configuration. Cela signifie qu’il est possible d’affecter des identificateurs aux applications du panneau de configuration et de les séparer en zones de tâches telles que l’ajout ou la suppression de programmes, l’apparence et les thèmes, ou la date, l’heure, la langue et les options régionales.
 
- 
+ 
 
 ## <a name="adding-visual-style-support-to-an-extension-plug-in-mmc-snap-in-or-a-dll-that-is-brought-into-a-process"></a>Ajout de la prise en charge de style visuel à une extension, à un plug-in, à un composant logiciel enfichable MMC ou à une DLL introduite dans un processus
 
@@ -290,7 +290,7 @@ Par défaut, les styles visuels sont appliqués aux contrôles HTML intrinsèque
 > [!Note]  
 > Si le paramètre de navigateur et le paramètre de balise ne correspondent pas, la page n’applique pas les styles visuels. Par exemple, si la balise META est définie sur « no » et que le navigateur est configuré pour activer les styles visuels, les styles visuels ne sont pas appliqués à la page. Toutefois, si le navigateur ou la balise META a la valeur « Yes » et que l’autre élément n’est pas spécifié, les styles visuels sont appliqués.
 
- 
+ 
 
 Les styles visuels peuvent modifier la disposition de votre contenu. En outre, si vous définissez certains attributs sur des contrôles HTML intrinsèques, tels que la largeur d’un bouton, vous pouvez constater que l’étiquette sur le bouton est illisible dans certains styles visuels.
 
@@ -320,6 +320,6 @@ Une grande partie de l’architecture de style visuel est conçue pour faciliter
 [Styles visuels](themes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

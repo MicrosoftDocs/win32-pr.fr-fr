@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cacaaf5ad2a8204cc35b8a89f7c3c00e756116
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10736d91da0e2c4efa2a3c981ab5c4f64e2af86d
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106522625"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102132"
 ---
 # <a name="helper-functions-for-d3d12"></a>Fonctions d’assistance pour D3D12
 
@@ -25,7 +25,7 @@ Ces fonctions d’assistance sont particulièrement utiles pour gérer les sous-
 
 | Rubrique                                                                                             | Description                                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CommandListCast**](cd3dx12-shader-bytecode.md)<br/>                                     | Ce modèle de fonction convertit un pointeur constant en une liste de commandes en pointeur const vers un ID3D12CommandList.<br/>                                                                                                                               |
+| [**CommandListCast**](commandlistcast.md)<br/>                                     | Ce modèle de fonction convertit un pointeur constant en une liste de commandes en pointeur const vers un ID3D12CommandList.<br/>                                                                                                                               |
 | [**D3D12CalcSubresource**](d3d12calcsubresource.md)<br/>                                   | Calcule un index de sous-ressource pour une texture. <br/>                                                                                                                                                                                                  |
 | [**D3D12DecomposeSubresource**](d3d12decomposesubresource.md)<br/>                         | Affiche la tranche MIP, le segment de tableau et la tranche de plan correspondant à l’index de sous-ressource spécifié. <br/>                                                                                                                                        |
 | [**D3D12GetFormatPlaneCount**](d3d12getformatplanecount.md)<br/>                           | Obtient le nombre de plans pour le format DXGI spécifié pour la carte virtuelle spécifiée (un **ID3D12Device**). <br/>                                                                                                                               |
