@@ -4,18 +4,18 @@ ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
 title: Svc.cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57db06947be0143712568eb8a25e8700fc075c7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6388a51335883aa48d15a52667d89d2188ac4ea3
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523342"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102118"
 ---
-# <a name="svccpp"></a><span data-ttu-id="ecdff-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="ecdff-104">Svc.cpp</span></span>
+# <a name="svccpp"></a><span data-ttu-id="62bd4-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="62bd4-104">Svc.cpp</span></span>
 
-<span data-ttu-id="ecdff-105">Voici un exemple complet de service.</span><span class="sxs-lookup"><span data-stu-id="ecdff-105">The following is a complete service sample.</span></span> <span data-ttu-id="ecdff-106">Lorsque vous utilisez ce code comme modèle, ajoutez simplement du code aux sections qui sont précédées de `TO_DO` .</span><span class="sxs-lookup"><span data-stu-id="ecdff-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
+<span data-ttu-id="62bd4-105">Voici un exemple complet de service.</span><span class="sxs-lookup"><span data-stu-id="62bd4-105">The following is a complete service sample.</span></span> <span data-ttu-id="62bd4-106">Lorsque vous utilisez ce code comme modèle, ajoutez simplement du code aux sections qui sont précédées de `TO_DO` .</span><span class="sxs-lookup"><span data-stu-id="62bd4-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
 
-<span data-ttu-id="ecdff-107">Lors de la génération de l’exemple, assurez-vous de créer un lien avec Kernel32. lib et advapi32. lib.</span><span class="sxs-lookup"><span data-stu-id="ecdff-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="ecdff-108">Le fichier Sample. h est généré lors de la génération de la DLL de ressources uniquement, Sample.dll.</span><span class="sxs-lookup"><span data-stu-id="ecdff-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="ecdff-109">Pour plus d’informations, consultez [Sample.MC](sample-mc.md).</span><span class="sxs-lookup"><span data-stu-id="ecdff-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
+<span data-ttu-id="62bd4-107">Lors de la génération de l’exemple, assurez-vous de créer un lien avec Kernel32. lib et advapi32. lib.</span><span class="sxs-lookup"><span data-stu-id="62bd4-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="62bd4-108">Le fichier Sample. h est généré lors de la génération de la DLL de ressources uniquement, Sample.dll.</span><span class="sxs-lookup"><span data-stu-id="62bd4-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="62bd4-109">Pour plus d’informations, consultez [Sample.MC](sample-mc.md).</span><span class="sxs-lookup"><span data-stu-id="62bd4-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
 
 
 ```C++
@@ -214,7 +214,7 @@ VOID SvcInit( DWORD dwArgc, LPTSTR *lpszArgv)
 
     if ( ghSvcStopEvent == NULL)
     {
-        ReportSvcStatus( SERVICE_STOPPED, NO_ERROR, 0 );
+        ReportSvcStatus( SERVICE_STOPPED, GetLastError(), 0 );
         return;
     }
 
@@ -354,11 +354,11 @@ VOID SvcReportEvent(LPTSTR szFunction)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="ecdff-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="ecdff-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="62bd4-110">Rubriques connexes</span><span class="sxs-lookup"><span data-stu-id="62bd4-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ecdff-111">Exemple de service complet</span><span class="sxs-lookup"><span data-stu-id="ecdff-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="62bd4-111">Exemple de service complet</span><span class="sxs-lookup"><span data-stu-id="62bd4-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  
