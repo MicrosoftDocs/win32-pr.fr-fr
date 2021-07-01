@@ -4,12 +4,12 @@ description: Cet article fournit des cas de test pour les jeux pour Windows.
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae26274f199f070ce605227fa19796716df9fbaf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b13a4934c539579e49c9b00c60f3603bd64c711
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031564"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120274"
 ---
 # <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Jeux pour les cas de test Windows : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
@@ -272,10 +272,10 @@ Cette exigence a été supprimée.
 
 
 
-|                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Système d’exploitation                                                                    | Condition requise                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> Windows XP<br/> | Si le jeu utilise Direct3D, la version minimale prise en charge doit être Direct3D 9, et Direct3D doit être la valeur par défaut pour toutes les options de configuration de l’affichage.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                     | <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manuel</dt> <dd> Lancez le jeu. Dans les options vidéo, vérifiez s’il existe des options de rendu, D3D et/ou OpenGL. Si c’est le cas, vérifiez que les options de rendu du jeu sont par défaut Direct3D. Si vous ne parvenez pas à vérifier que D3D9 est la version de DirectX en cours d’utilisation, passez au test automatisé. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Utiliser l’outil : Depends.exe <br/> </dd> </dl> |
+|     <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>Manuel</dt> <dd> Lancez le jeu. Dans les options vidéo, vérifiez s’il existe des options de rendu, D3D et/ou OpenGL. Si c’est le cas, vérifiez que les options de rendu du jeu sont par défaut Direct3D. Si vous ne parvenez pas à vérifier que D3D9 est la version de DirectX en cours d’utilisation, passez au test automatisé. <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>Test automatisé</dt> <dd> Utiliser l’outil : Depends.exe <br/> </dd> </dl> |
 
 
 
@@ -325,7 +325,7 @@ Cette exigence a été supprimée.
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
-<td>Chaque fichier exécutable (. EXE) inclus dans une application doit avoir un manifeste incorporé qui définit son niveau d’exécution :
+<td>Chaque fichier exécutable (extension .EXE) inclus dans une application doit avoir un manifeste incorporé qui définit son niveau d’exécution :
 <pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/></code></pre>
 <br/>
@@ -401,14 +401,14 @@ La prise en charge de l’édition 64 bits de Windows XP professionnel est facul
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Tous les fichiers de code exécutable (par exemple, les extensions. exe et. dll) doivent être signés avec un certificat Authenticode. <br/> Si vous utilisez Windows Installer, les fichiers de package du programme d’installation (fichiers. msi) doivent être signés. <br/></td>
+<td>Tous les fichiers de code exécutable (par exemple, les extensions .exe et .dll) doivent être signés avec un certificat Authenticode. <br/> Si vous utilisez Windows Installer, les fichiers de package du programme d’installation (fichiers .msi) doivent être signés. <br/></td>
 </tr>
 <tr class="even">
 
 <td>Test manuel<br/>
 <ol>
 <li>Accédez au répertoire du jeu.</li>
-<li>Recherchez tous les fichiers. exe et. dll.</li>
+<li>Recherchez tous les fichiers .exe et .dll.</li>
 <li>Cliquez avec le bouton droit sur Propriétés dans chaque fichier.</li>
 <li>Vérifiez que les fichiers exécutables du jeu contiennent une signature numérique.</li>
 </ol></td>
@@ -799,7 +799,7 @@ Les programmes d’exécution automatique qui ont été écrits pour une utilisa
 
 
 
-|                                               |                                                                                                                                                                    |
+| Système d’exploitation                                              | Condition requise                                                                                                                                                                   |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> | Tous les programmes d’installation de l’application doivent tirer parti des API du gestionnaire de redémarrage pour éviter les redémarrages du système (voir la [condition 3,5](#35-avoid-reboots-during-installation)). |
 
@@ -888,7 +888,7 @@ Certains tests requièrent l’exécution complète d’un débogueur. Cela peut
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>Tous les fichiers exécutables (par exemple, fichiers. exe ou. dll) doivent contenir un nom de produit, un nom de société et une version de fichier précis.</td>
+<td>Tous les fichiers exécutables (par exemple, les fichiers .exe ou .dll) doivent contenir un nom de produit, un nom de société et une version de fichier précis.</td>
 </tr>
 <tr class="even">
 
@@ -1119,13 +1119,13 @@ Il s’agit d’un exemple de test typique en utilisant les exigences de test ci
 
     1.  Cliquez sur Démarrer-> un ordinateur
     2.  Accédez au répertoire du jeu
-    3.  Dans la fenêtre de recherche, tapez \* . dll.
+    3.  Dans la fenêtre de recherche, tapez \*.dll
     4.  Pour chaque fichier : cliquez avec le bouton droit sur le fichier, puis cliquez sur Propriétés.
 
         -   Dans Windows XP : cliquez sur l’onglet version. Vérifiez que les champs nom du produit, nom de la société et version du fichier sont correctement remplis. \[4.3\]
         -   Dans Windows Vista et Windows 7 : cliquez sur l’onglet Détails. Vérifiez que les champs nom du produit et version du fichier sont correctement remplis. Le nom de la société n’est pas visible dans la page de propriétés de Windows Vista ou Windows 7 \[ 4,3\]
 
-    5.  Répétez cette vérification pour les fichiers. exe
+    5.  Répétez cette vérification pour les fichiers .exe
 
 6.  Lancez le jeu.
 
@@ -1177,7 +1177,7 @@ Voici quelques remarques pour chacun des outils de test répertoriés dans les s
 9.  Jouer au jeu
 10. Fermer le jeu
 11. Dans AppVerifier, sélectionnez Afficher-> les journaux
-12. Dans la section « applications », sélectionnez le fichier app. exe.
+12. Dans la section « applications », sélectionnez le fichier d' .exe d’application.
 13. Dans la section « journaux », sélectionnez le fichier journal et observez le nombre d’erreurs. S’il n’y a pas d’erreurs, terminez les tests AppVerifier. Si des erreurs se produisent, cliquez sur le bouton afficher.
 14. Rechercher le document (CTRL + F) comme gravité = "erreur
 15. Créer des bogues basés sur la partie NomCouche = de l’échec
@@ -1195,9 +1195,9 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
 ```
 
 1.  Cliquez sur Démarrer-> exécuter-> tapez cmd et cliquez sur le bouton OK
-2.  Exécutez l’outil mt.exe pour générer un fichier. manifest pour chaque fichier. exe installé avec le jeu
+2.  Exécutez l’outil mt.exe pour générer un fichier. manifest pour chaque fichier .exe qui est installé avec le jeu.
 3.  Ouvrir le fichier. manifest généré
-4.  Vérifiez que chaque fichier. exe contient les éléments suivants (demandés :
+4.  Vérifiez que chaque fichier .exe contient les éléments suivants (demandés :
 
     ``` syntax
     <description>Example Game Name</description>
@@ -1262,7 +1262,7 @@ Recherchez le programme d’installation de Microsoft Games for Windows Test Too
 8.  Revenez à l’onglet **projets** après avoir consulté le rapport (en vérifiant les onglets **rapport** et **modification des bogues** ).
 9.  Cliquez sur **compiler le rapport**.
 
-    Une fenêtre s’ouvre lorsque la compilation du rapport est terminée. Vous y trouverez un. Noms des fichiers ZIP *nom_projet* \_report.zip. Ce fichier contient tous les journaux et résultats collectés pendant la réussite du test.
+    Une fenêtre s’ouvre lorsque la compilation du rapport est terminée. Vous trouverez ici un .ZIP noms de fichiers *nom_projet* \_report.zip. Ce fichier contient tous les journaux et résultats collectés pendant la réussite du test.
 
 ### <a name="writing-a-bug"></a>Écriture d’un bogue
 

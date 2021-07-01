@@ -14,12 +14,12 @@ keywords:
 - tables d’accélérateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be9c89301f58d7d76b5d9b28dd6835850c0674db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 88e97f0b4997d15d55601e571270276e7d7a3bd4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940873"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120374"
 ---
 # <a name="about-keyboard-accelerators"></a>À propos des accélérateurs clavier
 
@@ -73,7 +73,7 @@ Si une application définit un accélérateur qui est également défini dans la
 
 
 
-|                  |                                                                                                       |
+| Accélérateur                 | Description                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------|
 | ALT+ÉCHAP          | Bascule vers l’application suivante.                                                                     |
 | ALT+F4           | Ferme une application ou une fenêtre.                                                                    |
@@ -89,7 +89,7 @@ Si une application définit un accélérateur qui est également défini dans la
 
 
 
- 
+ 
 
 ## <a name="accelerators-and-menus"></a>Accélérateurs et menus
 
@@ -124,7 +124,7 @@ Une fenêtre peut envoyer des messages pour demander une modification de l’ét
 
 
 
- 
+ 
 
 Par défaut, toutes les fenêtres enfants d’une fenêtre de niveau supérieur sont créées avec le même état d’interface utilisateur que leur parent.
 
@@ -132,6 +132,6 @@ Le système gère l’état de l’interface utilisateur pour les contrôles dan
 
 Si un contrôle prend en charge la navigation entre les éléments d’interface utilisateur qu’il contient, il peut mettre à jour son propre état d’interface utilisateur. Le contrôle peut appeler [**WM \_ QUERYUISTATE**](wm-queryuistate.md) pour récupérer et mettre en cache l’état initial de l’interface utilisateur. Chaque fois que le contrôle reçoit un message [**WM \_ UPDATEUISTATE**](wm-updateuistate.md) , il peut mettre à jour son état d’interface utilisateur et envoyer un message [**WM \_ CHANGEUISTATE**](wm-changeuistate.md) à son parent. Chaque fenêtre continue à envoyer le message à son parent jusqu’à ce qu’il atteigne la fenêtre de niveau supérieur. La fenêtre de niveau supérieur envoie le message **WM \_ UPDATEUISTATE** aux fenêtres dans l’arborescence de la fenêtre. Si une fenêtre ne passe pas sur le message **WM \_ CHANGEUISTATE** , elle n’atteint pas la fenêtre de niveau supérieur et l’état de l’interface utilisateur n’est pas mis à jour.
 
- 
+ 
 
- 
+ 

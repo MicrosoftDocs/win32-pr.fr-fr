@@ -1,15 +1,15 @@
 ---
-description: 'Windows Search vous permet de gérer l’index de recherche Windows avec trois composants principaux : le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de l’étendue de l’analyse.'
+description: Découvrez comment Windows Search vous permet de gérer l’index de recherche Windows avec le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de portée d’analyse.
 ms.assetid: 80f0387c-5c91-41b8-9767-5f5e6563c112
 title: Interfaces pour la gestion de l’index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7191fbdb4e83c9e3f1460b96123901b5f277b41a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f68360ec9c4a616f74392fd9dd34fc9f53b46114
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201289"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120014"
 ---
 # <a name="interfaces-for-managing-the-index"></a>Interfaces pour la gestion de l’index
 

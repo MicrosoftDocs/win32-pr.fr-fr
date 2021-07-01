@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Comprendre les paramètres dans le document PrintCapabilities. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: d317d052-c207-412a-896e-09cb57b0dd5f
 title: Paramètres dans le document PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ecfcfee581014bdb57ff70adebaf5f4c8b6fedc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cc6b2ba61f1985fdcd02f40e8e08100725968a8e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321709"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118624"
 ---
 # <a name="parameters-in-the-printcapabilities-document"></a>Paramètres dans le document PrintCapabilities
 

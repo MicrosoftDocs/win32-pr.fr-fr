@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dce12de641dda7b07871a4447190772533598748
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eacfbb83abd56becc579c6b9bbaedacda96f94b4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321718"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119104"
 ---
 # <a name="ctrpp"></a>CTRPP
 
@@ -42,7 +42,7 @@ ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback]
 |**-MemoryRoutines** |**Déconseillé :** En cas d’utilisation avec le `-Legacy` commutateur, comprend des modèles pour les routines de mémoire dans le code généré. Sinon, cet argument a le même effet que le `-NotificationCallback` commutateur.
 |**-Hérité**         |**Déconseillé :** Génère `*.h` des `*.c` fichiers,, `*.rc` et `*_r.h` à l’aide des modèles de code Windows Vista (génère PerfAutoInitialize et PerfAutoCleanup au lieu de CounterInitialize et CounterCleanup). Ce commutateur peut être utilisé avec **-MemoryRoutines** et **-NotificationCallback** , mais il ne peut pas être utilisé avec d’autres commutateurs. N’utilisez pas les commutateurs **-o** ou **-RC** avec ce commutateur. Les fichiers générés sont nommés en fonction du nom du manifeste et sont écrits dans le répertoire qui contenait le manifeste. Utilisation : `CTRPP -legacy OldFile.man`
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’outil CTRPP génère un fichier de `.h` code, un `.rc` fichier de ressources et, éventuellement, génère un `.h` fichier de symboles.
 
@@ -55,7 +55,7 @@ L’outil CTRPP génère un `.rc` fichier de ressources qui contient les chaîne
 
 Les ressources de type chaîne doivent être gérées comme suit :
 
-- Le développeur modifie le fichier manifeste du fournisseur ( `.man` ) afin de définir l' `applicationIdentity` attribut du fournisseur sur le nom d’un fournisseur binaire (. DLL,. SYS ou. EXE) qui contiendra les ressources de type chaîne pour le fournisseur et sera installé dans le cadre du composant fournisseur.
+- Le développeur modifie le fichier manifeste du fournisseur ( `.man` ) afin de définir l' `applicationIdentity` attribut du fournisseur sur le nom d’un fournisseur (.DLL, .SYS ou .EXE) qui contiendra les ressources de type chaîne pour le fournisseur et sera installé dans le cadre du composant fournisseur.
 - L’outil CTRPP lit le manifeste du fournisseur et génère un `.rc` fichier.
 - L’outil [RC (compilateur de ressources)](../menurc/resource-compiler.md) compile les données du fichier généré par ctrpp `.rc` pour générer un `.res` fichier contenant les ressources binaires. Pour ce faire, vous pouvez compiler directement le fichier généré par CTRPP `.rc` ou en compilant un autre `.rc` fichier qui comprend le fichier généré par ctrpp `.rc` via une `#include` directive.
 - L’éditeur de liens incorpore les données du fichier généré par RC `.res` dans le binaire du fournisseur.
@@ -98,9 +98,9 @@ Dans les noms de fonction, ***prefix*** fait référence à la valeur du `-prefi
 
 Si le paramètre **-ch** est spécifié sur la ligne de commande, l’outil ctrpp génère un `.h` fichier de symboles. Ce fichier contient les symboles C/C++ pour les noms et les GUID de chaque CounterSet dans le fournisseur. Les symboles peuvent être utilisés lors de l’écriture de programmes codés en dur pour consommer les données de ce CounterSet à l’aide des [fonctions de consommateur de Perflib v2](using-the-perflib-functions-to-consume-counter-data.md).
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
-|                         ||
-|-------------------------|----
+| Condition requise             | Value |
+|-------------------------|-------|
 | Client minimal pris en charge| Applications de \[ Bureau Windows Vista uniquement\]
 | Serveur minimal pris en charge| Applications de bureau Windows Server 2008 \[ uniquement\]

@@ -1,6 +1,6 @@
 ---
 title: Filtre d’enregistreur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur le filtre d’enregistreur ASF WM.
+description: En savoir plus sur le filtre d’enregistreur ASF WM pour le kit de développement logiciel (SDK) du format Windows Media 11. Passez en revue les informations de filtre et consultez les rubriques connexes.
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK, WM ASF Writer
@@ -11,12 +11,12 @@ keywords:
 - ASF (format des systèmes avancés), enregistreur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 24ee013b55455c3100ee23e076b767d70fb3ffda
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444700"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119664"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>Filtre d’enregistreur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
 

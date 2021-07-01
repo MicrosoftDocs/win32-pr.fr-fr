@@ -4,12 +4,12 @@ description: 'Cet article décrit le pare-feu Windows : pourquoi il existe, ce 
 ms.assetid: 2ee9f769-03dc-3661-5d5b-6a4ecd151fd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88656fb3f622a847c15544646c333b807f3a0fb2
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 15c7ff3c9b651b6264703732f0eec57054784034
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104530567"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120234"
 ---
 # <a name="windows-firewall-for-game-developers"></a>Pare-feu Windows pour les développeurs de jeux
 
@@ -99,10 +99,10 @@ Là encore, la plupart des jeux doivent uniquement être ajoutés à la liste de
 
 
 
-|             |                                                                              |
+|             | Fichier                                                                             |
 |-------------|------------------------------------------------------------------------------|
-| Source :     | (Racine SDK) \\ Exemples \\ \\ FirewallInstallHelper divers \\ C++                        |
-| Exécutable : | (Racine SDK) \\ Exemples \\ de \\ \\ casiers divers C++ \\ <arch> \\FirewallInstallHelper.dll |
+| **Source :**     | (Racine SDK) \\ Exemples \\ \\ FirewallInstallHelper divers \\ C++                        |
+| **Exécutable** | (Racine SDK) \\ Exemples \\ de \\ \\ casiers divers C++ \\ <arch> \\FirewallInstallHelper.dll |
 
 
 
@@ -301,7 +301,7 @@ Vous trouverez ci-dessous les étapes nécessaires pour effectuer cette opérati
 
     
 
-    | Action                   | Condition     | Séquence | Notes                                                                                                                                                                      |
+    | Action                   | Condition     | Séquence | Remarques                                                                                                                                                                      |
     |--------------------------|---------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | FirewallSetMSIProperties |               | 1010     | Cela place juste après CostFinalize.                                                                                                                                       |
     | FirewallAdd              | NON installé | 4021     | Cette action personnalisée se produit uniquement lors d’une nouvelle installation. Le numéro de séquence place l’action après InstallFiles et après les restaurations.                              |
@@ -317,7 +317,7 @@ Vous trouverez ci-dessous les étapes nécessaires pour effectuer cette opérati
 
     
 
-    | Propriété                     | Valeur                                                                             |
+    | Propriété                     | Value                                                                             |
     |------------------------------|-----------------------------------------------------------------------------------|
     | FriendlyNameForFirewall      | Doit être le nom que la liste d’exceptions affichera. Par exemple, « exemple de jeu » |
     | RelativePathToExeForFirewall | Doit être l’exécutable installé du jeu. Par exemple, « ExampleGame.exe »  |

@@ -10,12 +10,12 @@ keywords:
 - Portage OpenGL à partir de IRIS GL, différences d’IRIS GL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d6276eb56cf73df6cbdfc115fe67d55452b13bbc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 369b4945757dd092e969fb87c41f9804aaff8fe7
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309805"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119294"
 ---
 # <a name="iris-gl-and-opengl-differences"></a>Différences entre l’IRIS dans le GL et OpenGL
 
@@ -23,7 +23,7 @@ Cette annexe répertorie les différences entre OpenGL et IRIS GL. Un terme est 
 
 
 
-|                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Terme                                     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | encapsulation de l’accumulation                | L’opération de mémoire tampon d’accumulation OpenGL n’est pas définie lorsque les valeurs de composant dépassent 1,0 ou chutent au-dessous de 1,0.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | lignes avec anticrénelage                    | OpenGL stipples les lignes AntiAlias. IRIS GL ne le fait pas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
@@ -93,11 +93,11 @@ Cette annexe répertorie les différences entre OpenGL et IRIS GL. Un terme est 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 808365fbcba4a1180c1838b94a6c098aa4c6f9ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 308034fe607283ef9f1213cca1cabb4a7229765e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999056"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118894"
 ---
 # <a name="sv_tessfactor"></a>SV \_ TessFactor
 
@@ -28,9 +28,8 @@ Définit la quantité de pavage sur chaque bord d’un correctif.
 
 
 
-|            |                |
+|  Type          |  Topologie d’entrée              |
 |------------|----------------|
-| Type       | Topologie d’entrée |
 | float \[ 4\] | correctif Quad     |
 | float \[ 3\] | correctif triple      |
 | float \[ 2\] | isoligne        |
@@ -61,7 +60,7 @@ Cette fonction est prise en charge dans les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
+| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 

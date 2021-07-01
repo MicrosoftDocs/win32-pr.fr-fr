@@ -4,12 +4,12 @@ description: La journalisation étendue W3C est le type de journalisation côté
 ms.assetid: a08b8f9e-2247-43c6-b253-81f72001d8d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b253daebae22a2b99e152451cff360c7b633ca64
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: eb53ccf3b6bf5383a0a4da62538b6fa516c500f8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103724829"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119944"
 ---
 # <a name="w3c-logging"></a>Journalisation W3C
 
@@ -34,7 +34,7 @@ Les champs qui ne sont pas marqués « API du serveur HTTP générés » doive
 | Ressource URI                         | CS-URI-souche     | Cible du verbe, par exemple, Default.htm.                                                                                          | UriStem                        | \_ \_ ressource URI du champ du journal http \_ \_      |
 | Requête URI                        | CS-URI-Query    | Requête, le cas échéant, que le client essayait d’exécuter. Une requête URI est nécessaire uniquement pour les pages dynamiques. | UriQuery                       | \_ \_ requête URI de champ de journal http \_ \_     |
 | Port du serveur                      | port s-          | Numéro de port du serveur configuré pour le service.                                                                                 | ServerPort                     | \_port du \_ serveur de champs du journal http \_ \_   |
-| User Name                        | cs-username     | Nom de l’utilisateur authentifié ayant accédé au serveur. Les utilisateurs anonymes sont indiqués par un trait d'union.                                    | UserName                       | \_nom d' \_ utilisateur du champ de journal http \_ \_     |
+| User Name                        | cs-username     | Nom de l’utilisateur authentifié ayant accédé au serveur. Les utilisateurs anonymes sont indiqués par un trait d'union.                                    | Nom d’utilisateur                       | \_nom d' \_ utilisateur du champ de journal http \_ \_     |
 | Adresse IP du client                | c-ip            | Adresse IP du client à l’origine de la demande.                                                                                        | ClientIp                       | \_IP du \_ client du champ du journal http \_ \_     |
 | Version du protocole                 | cs-version      | Version du protocole HTTP utilisée par le client.                                                                                            | API du serveur HTTP générée.     | \_version du \_ champ du journal http \_        |
 | User Agent                       | CS (agent utilisateur)  | Type de navigateur utilisé par le client.                                                                                                     | UserAgent                      | \_ \_ agent utilisateur du champ du journal http \_ \_    |
@@ -51,11 +51,11 @@ Les champs qui ne sont pas marqués « API du serveur HTTP générés » doive
 
 
 
- 
+ 
 
 Le fichier journal est un format texte ASCII personnalisable. Les préfixes de champ du fichier sont définis comme suit :
 
-|     |                           |
+| Préfixe    | Description                          |
 |-----|---------------------------|
 | s   | Actions du serveur.           |
 | c   | Actions du client.           |
@@ -64,7 +64,7 @@ Le fichier journal est un format texte ASCII personnalisable. Les préfixes de c
 
 
 
- 
+ 
 
 L’application peut sélectionner un ou plusieurs champs du fichier journal étendu W3C, mais tous les champs ne contiennent pas d’informations. Pour les champs qui sont sélectionnés mais pour lesquels il n’y a pas d’informations, un trait d’Union (-) apparaît en tant qu’espace réservé. Si un champ contient un caractère non imprimable, l’API du serveur HTTP le remplace par un signe plus (+) pour conserver le format du fichier journal. Cela se produit généralement avec les attaques de virus, quand, par exemple, un utilisateur malveillant envoie des retours chariot et des sauts de ligne qui, s’ils ne sont pas remplacés par le signe plus (+), peuvent altérer le format du fichier journal. Les champs sont séparés par des espaces.
 
@@ -82,6 +82,6 @@ Les fichiers journaux sont créés lorsque la première requête arrive sur le g
 
 Le champ date/heure est initialisé lorsque l’API du serveur HTTP reçoit le premier octet, avant que la demande ne soit analysée. L’horodateur de la durée d’exécution est arrêté lorsque la dernière opération d’envoi est effectuée. Le temps pris ne reflète pas le temps sur le réseau. La première demande au site montre un délai plus long que d’autres demandes similaires, car l’API du serveur HTTP ouvre le fichier journal avec la première requête.
 
- 
+ 
 
- 
+ 

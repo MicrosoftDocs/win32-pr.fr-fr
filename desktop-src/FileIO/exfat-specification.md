@@ -3,12 +3,12 @@ description: Spécification du système de fichiers exFat.
 title: spécification du système de fichiers exFAT
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: c23a1f0c7aa9f0ad4752ce83cb734e753094c2cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94b5bcdc69201573bc92290c148a7d3ce8304868
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526265"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119014"
 ---
 # <a name="exfat-file-system-specification"></a>spécification du système de fichiers exFAT
 
@@ -2252,9 +2252,8 @@ Les implémentations qui ne prennent en charge que les caractères de la plage d
 
 **Tableau 24 premières entrées de table de cas de première 128 obligatoires**
 
-| **Index de table** | **Entrées de la table** |           |           |           |           |           |           |           |
+| Index de table | + 0 | + 1 | + 2 | + 3 | + 4 | + 5 | + 6 | + 7 |
 |-----------------|-------------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-|                 | **+ 0**           | **+ 1**   | **+ 2**   | **+ 3**   | **+ 4**   | **+ 5**   | **+ 6**   | **+ 7**   |
 | **0000h**       | 0000h             | 0001h     | 0002h     | 0003h     | 0004h     | 0005h     | 0006h     | 0007h     |
 | **0008h**       | 0008h             | 0009h     | 000Ah     | 000Bh     | 000Ch     | 000Dh     | 000Eh     | 000Fh     |
 | **0010h**       | 0010h             | 0011h     | 0012h     | 0013h     | 0014h     | 0015h     | 0016h     | 0017h     |
@@ -2295,9 +2294,8 @@ Si une implémentation définit sa propre table de cas, compressée ou non, cett
 
 **Tableau 25 : table de cas recommandée au format compressé**
 
-| **Décalage brut** | **Entrées de la table compressée** |         |         |         |         |         |         |         |
+| Décalage brut | + 0 |  + 1       |  + 2       |  + 3       |  + 4       | + 5        |  + 6       | + 7        |
 |----------------|------------------------------|---------|---------|---------|---------|---------|---------|---------|
-|                | **+ 0**                      | **+ 1** | **+ 2** | **+ 3** | **+ 4** | **+ 5** | **+ 6** | **+ 7** |
 | **0000h**      | 0000h                        | 0001h   | 0002h   | 0003h   | 0004h   | 0005h   | 0006h   | 0007h   |
 | **0008h**      | 0008h                        | 0009h   | 000Ah   | 000Bh   | 000Ch   | 000Dh   | 000Eh   | 000Fh   |
 | **0010h**      | 0010h                        | 0011h   | 0012h   | 0013h   | 0014h   | 0015h   | 0016h   | 0017h   |
@@ -2568,7 +2566,7 @@ Si une implémentation définit sa propre table de cas, compressée ou non, cett
 | **0858h**      | 204Ch                        | 204Dh   | 204Eh   | 204Fh   | 2050h   | 2051h   | 2052h   | 2053h   |
 | **0860h**      | 2054h                        | 2055h   | 2056h   | 2057h   | 2058h   | 2059h   | 205Ah   | 205Bh   |
 | **0868h**      | 205Ch                        | 205Dh   | 205Eh   | 205Fh   | 2060h   | 2061h   | 2062h   | 2063h   |
-| **0870h**      | 2004.                        | 2065h   | 2006.   | 2067h   | 2068h   | 2069h   | 206Ah   | 206Bh   |
+| **0870h**      | 2064h                        | 2065h   | 2066h   | 2067h   | 2068h   | 2069h   | 206Ah   | 206Bh   |
 | **0878h**      | 206Ch                        | 206Dh   | 206Eh   | 206Fh   | 2070h   | 2071h   | 2072h   | 2073h   |
 | **0880h**      | 2074h                        | 2075h   | 2076h   | 2077h   | 2078h   | 2079h   | 207Ah   | 207Bh   |
 | **0888h**      | 207Ch                        | 207Dh   | 207Eh   | 207Fh   | 2080h   | 2081h   | 2082h   | 2083h   |
@@ -2944,7 +2942,7 @@ Le champ FileAttributes contient des indicateurs (voir le [tableau 28](#table-28
 <td>Ce champ est obligatoire et est conforme à la définition MS-DOS.</td>
 </tr>
 <tr class="even">
-<td>Archivage</td>
+<td>Archive</td>
 <td>5</td>
 <td>1</td>
 <td>Ce champ est obligatoire et est conforme à la définition MS-DOS.</td>
@@ -3032,7 +3030,7 @@ Les champs d’horodatage décrivent à la fois la date et l’heure locales, ju
 <td>Ce champ est obligatoire et la <a href="#7484-day-field">section 7.4.8.4</a> définit son contenu.</td>
 </tr>
 <tr class="odd">
-<td>Month</td>
+<td>Month (Mois)</td>
 <td>21</td>
 <td>4</td>
 <td>Ce champ est obligatoire et la <a href="#7485-month-field">section 7.4.8.5</a> définit son contenu.</td>

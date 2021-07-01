@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Représentent des attributs en tant que constructions feature/option ou en tant que paramètres. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 055e502d-631f-49d2-8577-65396373d478
 title: Représentation des attributs en tant que constructions feature/option ou en tant que paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2c24843a175337f40a84dcdacc41e1a2ab1e15e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c93f4de56709ed310a7f0aa259b1dbfd3377ed42
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104042978"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120054"
 ---
 # <a name="representing-attributes-as-featureoption-constructs-or-as-parameters"></a>Représentation des attributs en tant que constructions feature/option ou en tant que paramètres
 

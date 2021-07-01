@@ -4,12 +4,12 @@ description: Dans Windows 7, netsh.exe peut être utilisé à partir d’une inv
 ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1978345da984ac90699b5355b36af18b9b285d5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c1cf869f60b69e227e78e19e8e05d3765ddb67d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380011"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119024"
 ---
 # <a name="using-netsh-to-manage-traces"></a>Utilisation de netsh pour gérer les traces
 
@@ -33,13 +33,13 @@ Pour arrêter le suivi, tapez **netsh trace stop**.
 
 ## <a name="using-the-output-files"></a>Utilisation des fichiers de sortie
 
-Lorsque le suivi est arrêté, deux fichiers sont générés par défaut : un fichier journal de suivi d’événements (ETL) et un fichier. cab.
+Lorsque le suivi est arrêté, deux fichiers sont générés par défaut : un fichier journal de suivi d’événements (ETL) et un fichier .cab.
 
 Les événements de trace sont collectés dans le fichier ETL, qui peut être affiché à l’aide d’outils tels que Moniteur réseau. Le fichier ETL est nommé NetTrace. etl par défaut, ou vous pouvez spécifier un autre nom en incluant **tracefile = nom_fichier. etl** lors du démarrage de la trace.
 
-Le fichier. cab contient des informations détaillées sur les logiciels et le matériel du système, tels que les informations de l’adaptateur, la génération, le système d’exploitation et les paramètres sans fil. Le fichier. cab sera nommé nettrace.cab par défaut, sauf si un autre nom a été spécifié comme indiqué ci-dessus.
+Le fichier .cab contient des informations détaillées sur les logiciels et le matériel du système, tels que les informations de l’adaptateur, la génération, le système d’exploitation et les paramètres sans fil. Le fichier .cab est nommé nettrace.cab par défaut, sauf si un autre nom a été spécifié comme indiqué ci-dessus.
 
-Ce fichier. cab contient deux fichiers, qui portent toujours le même nom. Report. etl est une autre copie des mêmes informations que celles incluses dans NetTrace. etl. Le fichier report.html contient des informations supplémentaires sur les événements de trace et les autres informations collectées. Pour recevoir le plus de détails disponibles, incluez la commande **Report = Oui** lors du démarrage d’une trace.
+Ce fichier de .cab contient deux fichiers, qui portent toujours le même nom. Report. etl est une autre copie des mêmes informations que celles incluses dans NetTrace. etl. Le fichier report.html contient des informations supplémentaires sur les événements de trace et les autres informations collectées. Pour recevoir le plus de détails disponibles, incluez la commande **Report = Oui** lors du démarrage d’une trace.
 
 ## <a name="using-filters-to-reduce-the-amount-of-data-in-the-etl-trace-file"></a>Utilisation de filtres pour réduire la quantité de données dans le fichier de trace ETL
 
@@ -55,9 +55,8 @@ Dans cet exemple, le niveau est défini sur 5, ce qui signifie que le nombre max
 
 
 
-|       |               |                                                                            |
+| Level      | Paramètre              | Description                                                                           |
 |-------|---------------|----------------------------------------------------------------------------|
-| Level | Paramètre       | Description                                                                |
 | 1     | Critique      | Seuls les événements critiques seront affichés.                                        |
 | 2     | Erreurs        | Les événements critiques et les erreurs s’affichent.                                  |
 | 3     | Avertissements      | Les événements critiques, les erreurs et les avertissements s’affichent.                       |
@@ -66,7 +65,7 @@ Dans cet exemple, le niveau est défini sur 5, ce qui signifie que le nombre max
 
 
 
- 
+ 
 
 Les mots clés **UT : ReceivePath** et **UT : SentPath** filtrent les événements pour afficher uniquement les événements suivis dans le chemin d’envoi ou de réception. Vous trouverez une liste complète des mots clés pour un fournisseur spécifique en tapant **netsh trace Show Provider** suivi du nom du fournisseur. Par exemple, si vous tapez **netsh trace Show Provider Microsoft-Windows-tcpip** , vous affichez des informations sur le fournisseur Microsoft-Windows-tcpip, y compris une liste de mots clés.
 
@@ -74,9 +73,9 @@ Netsh prend également en charge la fonctionnalité de filtrage de paquets (semb
 
 Pour plus d’informations sur l’utilisation du filtrage de paquets, vous pouvez taper **netsh trace Show capturefilterHelp**.
 
- 
+ 
 
- 
+ 
 
 
 

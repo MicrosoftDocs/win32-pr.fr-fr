@@ -4,12 +4,12 @@ description: Cet article présente les conditions techniques et les meilleures p
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e38b9476a4ab2aad5edc6210f55bc4d2b85845f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 60c7a0f52685b0b99247ebfd86af3727d834ca63
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103730045"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120304"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Jeux pour les exigences techniques de Windows : meilleures pratiques pour les jeux sur Windows XP, Windows Vista, Windows 7 et Windows 8
 
@@ -260,7 +260,7 @@ Le fournisseur GDF pour un fournisseur de jeux ne contient généralement pas d�
 </colgroup>
 <thead>
 <tr class="header">
-<th>Système d’exploitation</th>
+<th>Système d'exploitation</th>
 <th>Systèmes d’évaluation pris en charge</th>
 </tr>
 </thead>
@@ -506,7 +506,7 @@ Les exigences suivantes améliorent la sécurité globale des jeux et permettent
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**Occupation**
 </dt> <dd>
 
-Chaque fichier exécutable (autrement dit, chaque fichier avec une extension. exe) doit contenir un manifeste incorporé qui définit son niveau d’exécution en incluant la balise suivante :
+Chaque fichier exécutable (autrement dit, chaque fichier doté d’une extension .exe) doit contenir un manifeste incorporé qui définit son niveau d’exécution en incluant la balise suivante :
 
 ``` syntax
             <requestedExecutionLevel>
@@ -609,9 +609,9 @@ Pour plus d’informations, consultez la page [programmation 64 bits pour les d�
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**Occupation**
 </dt> <dd>
 
-Tous les fichiers de code exécutable (en général, les fichiers avec l’extension. exe ou. dll) doivent être signés avec un certificat Authenticode publiquement valide et doivent avoir une URL de serveur d’horodatage valide pour la signature de production.
+Tous les fichiers de code exécutable (en général, les fichiers avec l’extension .exe ou .dll) doivent être signés avec un certificat Authenticode publiquement valide et doivent avoir une URL de serveur d’horodatage valide pour la signature de production.
 
-Si votre jeu utilise Windows Installer, les fichiers du package d’installation (fichiers. msi) doivent être signés.
+Si votre jeu utilise Windows Installer, les fichiers du package d’installation (fichiers .msi) doivent être signés.
 
 </dd> <dt>
 
@@ -629,7 +629,7 @@ Pour plus d’informations, consultez [signature Authenticode pour les développ
 
 Si votre jeu utilise Windows Installer, nous vous recommandons d’activer la mise à jour corrective UAC/LUA, en incluant une table MsiPatchCertificate. Pour plus d’informations, consultez Mise à [jour corrective du contrôle de compte d’utilisateur](/windows/desktop/Msi/user-account-control--uac--patching).
 
-Nous ne recommandons pas la signature des fichiers Cabinet (. cab), sauf s’ils sont relativement petits (moins de 100 Mo).
+Nous ne recommandons pas la signature des fichiers Cabinet (.cab), sauf s’ils sont relativement petits (moins de 100 Mo).
 
 </dd> </dl>
 
@@ -1102,7 +1102,7 @@ Visual Studio Team System comprend un sous-ensemble de la fonctionnalité AppVer
 Pour activer la prise en charge des Rapport d’erreurs Windows, les jeux doivent remplir les conditions suivantes :
 
 -   Les jeux doivent gérer uniquement les exceptions connues et attendues. Rapport d’erreurs Windows ne doit pas être désactivé. Si une erreur telle qu’une violation d’accès apparaît dans un jeu, elle doit autoriser Rapport d’erreurs Windows à signaler l’incident.
--   Tous les fichiers exécutables (par exemple, les fichiers. exe ou dll) doivent contenir un nom de produit, un nom de société et une version de fichier précis.
+-   Tous les fichiers exécutables (par exemple, les fichiers .exe ou les dll) doivent contenir un nom de produit, un nom de société et une version de fichier précis.
 -   La sortie normale du jeu ne doit pas aboutir à une erreur d’exception inconnue.
 
 </dd> <dt>
@@ -1129,26 +1129,26 @@ Pour plus d’informations sur les API de Rapport d’erreurs Windows et sur l�
 
 
 
-|                                          |                                                                                                  |
+| Nom                                          | Description                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Un                                        | Bouton A                                                                                     |
-| B                                        | Bouton B                                                                                     |
-| RETOUR                                     | Bouton précédent                                                                                  |
+| Un                                        | Bouton A.                                                                                     |
+| B                                        | Bouton B.                                                                                     |
+| RETOUR                                     | Bouton Retour.                                                                                  |
 | (vers la droite/gauche) du pare-chocs                      | Bouton situé en haut à droite et à gauche du contrôleur. Équivalent à un bouton épaule.    |
-| pavé directionnel                          | Pavé directionnel du contrôleur                                                                   |
-| Pavé D                                    | Abréviation acceptée du pavé directionnel                                                         |
-| DP                                       | Abréviation du pavé directionnel et étiquette du contrôleur                                                |
-| RB, LB                                   | Abréviations droite et gauche des abréviations et des étiquettes de contrôleur                                        |
-| RS, LS                                   | Abréviations droite et gauche des abréviations et des étiquettes de contrôleur                                         |
-| RT, LT                                   | Abréviations et étiquettes de contrôleur de déclencheur de droite et de gauche                                       |
-| RSB, LSB                                 | Abréviations droite et gauche des abréviations et des étiquettes de contrôleur                                         |
-| START                                    | Bouton Démarrer                                                                                 |
+| pavé directionnel                          | Pavé directionnel du contrôleur.                                                                   |
+| Pavé D                                    | Abréviation acceptée du pavé directionnel.                                                         |
+| DP                                       | Abréviation du pavé directionnel et étiquette du contrôleur.                                                |
+| RB, LB                                   | Abréviations droite et gauche des abréviations et des étiquettes de contrôleur.                                        |
+| RS, LS                                   | Abréviations et étiquettes de contrôleur du stick droit et gauche.                                         |
+| RT, LT                                   | Abréviations et étiquettes de contrôleur de déclencheur de droite et de gauche.                                       |
+| RSB, LSB                                 | Abréviations et étiquettes de contrôleur du stick droit et gauche.                                         |
+| ÉCRAN D’ACCUEIL                                    | Bouton Démarrer.                                                                                 |
 | (droite/gauche) Stick                       | Le stick du contrôleur. Ancien joystick.                                                       |
 | bouton Stick (droite/gauche)                | Bouton du Stick Controller. Bouton précédent joystick.                                         |
 | déclencheur (droit/gauche)                     | Déclencheur du contrôleur.                                                                          |
 | Vibration                                | Commentaires de jeu générés par le moteur du contrôleur. N’utilisez pas Rumble.                           |
-| X                                        | Bouton X                                                                                     |
-| O                                        | Bouton Y                                                                                     |
+| X                                        | Bouton X.                                                                                     |
+| Y                                        | Bouton Y.                                                                                     |
 | Contrôleur Xbox 360 pour Windows          | Le boîtier de commande Xbox 360 vendu en tant que référence de matériel PC, y compris un disque de pilote de périphérique Windows.          |
 | Contrôleur sans fil Xbox 360 pour Windows | Le boîtier sans fil Xbox 360 vendu en tant que référence de matériel PC, y compris un disque de pilote de périphérique Windows. |
 

@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16b31bbd1e2f72ce6b31a0c079f7ec5739aba87a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd6407d556a6d0b4269c38192107edbc7cb1fa
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990936"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120194"
 ---
 # <a name="restartstrip-directx-hlsl-stream-output-object"></a>RestartStrip (objet Stream-Output DirectX HLSL)
 
 Met fin à la bande primitive en cours et démarre une nouvelle bande. Si la bande actuelle n’a pas assez de vertex émis pour remplir la topologie primitive, la primitive incomplète à la fin sera ignorée.
 
-
-
-|                 |
-|-----------------|
-| RestartStrip(); |
+RestartStrip();
 
 
 
@@ -46,7 +42,7 @@ Met fin à la bande primitive en cours et démarre une nouvelle bande. Si la ban
 
 None
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une bande coupée provoque la fin de la bande actuelle et une nouvelle bande. Une bande peut être effectuée en appelant explicitement cette méthode, ou simplement en affichant jusqu’à la valeur d’index maximale (1, qui est 0xFFFFFFFF pour les index 32 bits ou 0xFFFF pour les index 16 bits). Chaque instance d’un dessin indexé avec une instance indexée génère automatiquement une bande. Cela est vrai même si la topologie n’est pas une bande triangulaire.
 
@@ -65,10 +61,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 | Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
-| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | yes       |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Non        |
 
 
 

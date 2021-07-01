@@ -4,12 +4,12 @@ ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 781f7c28460c2e56f4bcdb393277f509f88a0383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27b583c7a0bfaa67684901e8d0a4a95ac5e45658
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530203"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120704"
 ---
 # <a name="eudc"></a>EUDC
 
@@ -25,7 +25,7 @@ où :
 
 
 
-|                          |                                                                                                                                          |
+| Valeur                         | Description                                                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | SystemDefaultEUDCFont    | Nom prédéfini utilisé pour définir la police par défaut du système. Il n’existe aucune police EUDC par défaut du système, sauf si cette entrée est explicitement spécifiée.     |
 | TrueTypeFontTypeface     | Nom défini par l’utilisateur associé à une police TrueType non-EUDC.                                                                              |

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur les définitions d’options plus élaborées. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
 title: Définitions d’options plus élaborées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d56dea81059aea806e66b55895c595ad6610dc77
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6c8118a94308664b7e5e22f2f21e4a0cc9fe944d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106522517"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118454"
 ---
 # <a name="more-elaborate-option-definitions"></a>Définitions d’options plus élaborées
 

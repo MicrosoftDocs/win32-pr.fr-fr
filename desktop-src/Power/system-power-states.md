@@ -4,12 +4,12 @@ ms.assetid: 3d897a88-125e-457f-9ea7-ac2056b0767a
 title: États d’alimentation du système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f18cf6323ae852a871869066a2e9baa2860e6978
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efde8a130d6dbe2b44c34e8ab45b973a64f3b255
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534261"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120814"
 ---
 # <a name="system-power-states"></a>États d’alimentation du système
 
@@ -195,9 +195,8 @@ Pour vérifier ou modifier le type de fichier de mise en veille prolongée utili
 
 
 
-|                                                                         |                                                                                                                                                                                                                                                                                                                                                    |
+| Exemple                                                                        | Description                                                                                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Exemple                                                                 | Description                                                                                                                                                                                                                                                                                                                                        |
 | `powercfg /a`<br/>                                                | **Vérifiez le type de fichier de mise en veille prolongée.** Lorsqu’un fichier de mise en veille prolongée est utilisé, l’état des résultats indique que la mise en veille prolongée est une option disponible. Lorsqu’un fichier de mise en veille prolongée est utilisé, les résultats indiquent que la mise en veille prolongée n’est pas prise en charge. Si le système n’a aucun fichier de mise en veille prolongée, les résultats indiquent que la mise en veille prolongée n’a pas été activée.<br/> |
 | `powercfg /h /type full`<br/>                                     | **Définissez le type de fichier de mise en veille prolongée sur Full.** Cela n’est pas recommandé sur les systèmes avec moins de 32 Go de stockage.<br/>                                                                                                                                                                                                                        |
 | `powercfg /h /type reduced`<br/>                                  | **Modifiez le type de fichier de mise en veille prolongée en le réduisant.** Si la commande retourne « le paramètre est incorrect », consultez l’exemple suivant.<br/>                                                                                                                                                                                                        |

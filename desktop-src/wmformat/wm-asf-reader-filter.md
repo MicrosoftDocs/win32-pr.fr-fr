@@ -1,6 +1,6 @@
 ---
 title: Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
-description: En savoir plus sur le filtre de lecteur ASF WM.
+description: En savoir plus sur le filtre de lecteur ASF WM pour le kit de développement logiciel (SDK) Windows Media format 11. Passez en revue les informations de filtre et consultez les rubriques connexes.
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK, lecteur ASF WM
@@ -11,12 +11,12 @@ keywords:
 - ASF (format avancé des systèmes), lecteur ASF WM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444280"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119644"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>Filtre de lecteur ASF WM (kit de développement logiciel (SDK) Windows Media format 11)
 

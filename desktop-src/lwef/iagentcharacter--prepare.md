@@ -4,12 +4,12 @@ description: Préparer IAgentCharacter
 ms.assetid: e016039f-a0b1-4ae9-bff6-7212b02c1ad8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eebee8d2ea99c8782e9506e0e4a812cfb277487
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b383bf10330934379990693b75fe2908a432f8d5
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104031206"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119874"
 ---
 # <a name="iagentcharacterprepare"></a>IAgentCharacter ::P la même parenthèse
 
@@ -37,7 +37,7 @@ Valeur qui indique le type de données d’animation à charger qui doit être l
 
 
 
-| Valeur                                                           | Description                                                |
+| Value                                                           | Description                                                |
 |-----------------------------------------------------------------|------------------------------------------------------------|
 | **const non signed Short** **Prepare \_ animation = 0 ;**<br/> | Données d’animation d’un caractère.                              |
 | **const non signé Short** **Prepare \_ State = 1 ;**<br/>     | Données d’état d’un caractère.                                  |
@@ -60,7 +60,7 @@ Pour les États, la valeur peut être l’une des suivantes :
 
 
 
-|                      |                                                 |
+|                      | Description                                     |
 |----------------------|-------------------------------------------------|
 | **"Gesturing"**      | Pour récupérer toutes les animations d’état **gesturing** . |
 | **"GesturingDown"**  | Pour récupérer les animations **GesturingDown** .       |

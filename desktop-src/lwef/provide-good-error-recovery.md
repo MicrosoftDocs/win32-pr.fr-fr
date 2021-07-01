@@ -4,12 +4,12 @@ description: Fournir une bonne récupération d’erreur
 ms.assetid: 48e00638-9274-49db-93ec-ed444f526441
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a2abc32e1bdf6422e2d8d6422a17e0b881c6ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a20a3d203ab0fcd93a6f4645be4af44b049f3cd
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028461"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120794"
 ---
 # <a name="provide-good-error-recovery"></a>Fournir une bonne récupération d’erreur
 
@@ -23,22 +23,21 @@ Une *erreur de rejet* se produit lorsque le moteur de reconnaissance n’a pas d
 
 Une bonne stratégie pour la récupération des erreurs de rejet consiste à combiner ces techniques pour remettre l’utilisateur en route, offrant ainsi une assistance de plus en plus si l’échec persiste. Par exemple, vous pouvez commencer par répondre à l’échec initial avec une interrogation de type « non ? ». ou « quoi ? » ou un geste de la main à l’oreille. Une réponse brève augmente la probabilité que l’instruction répétée de l’utilisateur n’échoue pas parce que l’utilisateur a fait un spoke trop tôt. En cas de défaillance répétée, la demande de nouvelle phrase suivante améliore le risque de faire correspondre un résultat dans la grammaire donnée. À partir de là, fournir des invites explicites de commandes acceptées augmente davantage la probabilité d’une correspondance. Cette technique est illustrée dans l’exemple suivant :
 
+**Utilisateur**: J’aimerais une pizza de type Chicago avec anchovies.
 
+**Caractère**: (main à oreille) non ?
 
-|            |                                                                            |
-|------------|----------------------------------------------------------------------------|
-| Utilisateur :      | J’aimerais une pizza de type Chicago avec anchovies.                             |
-| Symbole | (Main à oreille) Hein?                                                         |
-| Utilisateur :      | Je souhaite une pizza à Chicago avec anchovies.                                     |
-| Symbole | (En-tête) Veuillez reformuler votre demande.                                 |
-| Utilisateur :      | J’ai dit Chicago pizza, avec anchovies.                                      |
-| Symbole | Ignorer Désolé. Dites-moi le style de la pizza que vous souhaitez.                    |
-| Utilisateur :      | Chicago, avec anchovies.                                                   |
-| Symbole | Toujours pas de chance. Voici ce que vous pouvez prononcer : « Chicago », « Hawaii » ou « combo ». |
+**Utilisateur**: Je souhaite une pizza à Chicago avec anchovies.
 
+**Caractère**: (en-tête) Veuillez reformuler votre demande.
 
+**Utilisateur**: J’ai dit Chicago pizza, avec anchovies.
 
- 
+**Caractère**: (ignorer) je suis désolé. Dites-moi le style de la pizza que vous souhaitez.
+
+**Utilisateur**: Chicago, avec anchovies.
+
+**Caractère**: toujours pas de chance. Voici ce que vous pouvez prononcer : « Chicago », « Hawaii » ou « combo ».
 
 Pour que la gestion des erreurs semble plus naturelle, veillez à fournir un degré de variation aléatoire lors de la réponse aux erreurs. En outre, une réaction de l’utilisateur naturel à toute demande de répétition d’une réponse consiste à faire croître ou augmenter le volume lors de la répétition de l’instruction. Il peut être utile de rappeler occasionnellement à l’utilisateur qu’il doit parler de manière normale et claire, étant donné que l’effet de la surcharge ou l’augmentation du volume peut compliquer la reconnaissance des mots par le moteur de reconnaissance vocale.
 
@@ -46,21 +45,19 @@ L’assistance progressive doit faire plus que mettre l’erreur à l’attentio
 
 Les *Erreurs de substitution*, où le moteur de reconnaissance vocale reconnaît l’entrée, mais qui correspond à la mauvaise commande, sont plus difficiles à résoudre, car le moteur de reconnaissance vocale détecte une énoncé correspondante. Une incompatibilité peut également se produire lorsque le moteur de reconnaissance vocale interprète les sons superflus comme des entrées valides (également appelées *erreur d’insertion*). Dans ces situations, l’aide de l’utilisateur est nécessaire pour identifier la condition d’erreur. Pour ce faire, vous pouvez répéter ce que le moteur de reconnaissance vocale a renvoyé et demander à l’utilisateur de le confirmer avant de continuer :
 
+**Utilisateur**: J’aimerais une pizza de type Chicago.
 
+**Caractère**: Saviez-vous que vous aimeriez une « pizza de type Chicago » ?
 
-|            |                                                   |
-|------------|---------------------------------------------------|
-| Utilisateur :      | J’aimerais une pizza de Chicago.                   |
-| Symbole | Saviez-vous que vous aimeriez une « pizza de type Chicago » ?   |
-| Utilisateur :      | Oui.                                              |
-| Symbole | Sur quels ingrédients supplémentaires souhaitez-vous ? |
-| Utilisateur :      | Anchovies.                                        |
-| Symbole | Avez-vous dit « anchovies » ?                          |
-| Utilisateur :      | Oui.                                              |
+**Utilisateur**: Oui.
 
+**Caractère**: Quels autres ingrédients souhaitez-vous en obtenir ?
 
+**Utilisateur**: anchovies.
 
- 
+**Caractère**: avez-vous dit « anchovies » ?
+
+**Utilisateur**: Oui.
 
 Toutefois, l’utilisation de cette technique pour chaque énoncé devient inefficace et pénible. Pour gérer cela, limitez la confirmation aux situations qui ont des conséquences négatives significatives ou augmentent la complexité de la tâche immédiate. S’il est facile pour l’utilisateur d’effectuer ou d’inverser des modifications, vous pouvez éviter de demander la confirmation de ses choix. De même, si vous faites des choix visibles, vous n’aurez peut-être pas besoin de fournir une correction explicite. Par exemple, le choix d’un élément dans une liste peut ne pas nécessiter de vérification, car l’utilisateur peut voir les résultats et les modifier facilement. Vous pouvez également utiliser des scores de confiance et alternatifs pour fournir un seuil de confirmation. Vous pouvez ajuster le seuil en conservant un historique des actions de l’utilisateur dans une situation donnée et en éliminant la vérification basée sur une confirmation de l’utilisateur cohérente. Enfin, prenez en compte la nature multimodale de l’interface. La confirmation à partir de la souris ou du clavier est également appropriée.
 
@@ -68,36 +65,27 @@ Choisissez soigneusement le libellé des confirmations. Par exemple, « avez-vo
 
 Tenez également compte de la grammaire d’une réponse. Par exemple, une réponse négative est susceptible de générer une erreur de rejet, nécessitant une invite supplémentaire, comme illustré dans l’exemple suivant :
 
+**Utilisateur**: J’aimerais certains pepperoni.
 
+**Caractère**: avez-vous dit « no Ham » ?
 
-|            |                          |
-|------------|--------------------------|
-| Utilisateur :      | J’aimerais des pepperoni. |
-| Symbole | Avez-vous dit « no Ham » ?    |
-| Utilisateur :      | Non, j’ai dit pepperoni.    |
-| Symbole | C'est-à-dire que                     |
-| Utilisateur :      | Pepperoni.               |
+**Utilisateur**: non, j’ai dit pepperoni.
 
+**Caractère**: non ?
 
-
- 
+**Utilisateur**: pepperoni.
 
 La modification de la grammaire pour inclure des préfixes pour gérer les variations de réponse naturelle augmente l’efficacité du processus de récupération, en particulier lorsque l’utilisateur ne confirme pas l’invite de vérification. Dans cet exemple, la confirmation peut avoir été traitée en une seule étape en modifiant la grammaire de la « pepperoni » en incluant également « no I dit pepperoni », « j’ai dit pepperoni » et « no pepperoni ».
 
 Vous pouvez également gérer les erreurs de substitution à l’aide des autres correspondances renvoyées par le moteur de reconnaissance vocale en tant que confirmation corrective :
 
+**Utilisateur**: J’aimerais certains pepperoni.
 
+**Caractère**: (Ecoute « no Ham » comme meilleure correspondance, « pepperoni » comme première alternative) avez-vous dit « no Ham » ?
 
-|           |                                                                                        |
-|-----------|----------------------------------------------------------------------------------------|
-| Utilisateur      | J’aimerais des pepperoni.                                                               |
-| Caractère | (Ecoute « no Ham » comme meilleure correspondance, « pepperoni » comme première alternative) Avez-vous dit « no Ham » ? |
-| Utilisateur      | Non, pepperoni.                                                                         |
-| Caractère | (Continue d’entendre « aucun Ham » comme meilleure correspondance, mais offre désormais la première alternative) « Pepperoni » ?    |
+**Utilisateur**: non, pepperoni.
 
-
-
- 
+**Caractère**: (continue d’entendre « aucun Ham » comme meilleure correspondance, mais offre maintenant la première alternative) « pepperoni » ?
 
 De même, vous pouvez conserver un historique des erreurs de substitution courantes et, si une erreur particulière est fréquente, offrir l’alternative la première fois.
 
@@ -107,9 +95,9 @@ Microsoft agent prend également en charge des commentaires automatiques pour la
 
 En raison du potentiel d’erreur, exige toujours une confirmation pour les choix qui ont des conséquences négatives graves et qui sont irréversibles. Naturellement, vous souhaiterez demander confirmation lorsque les résultats d’une action pourraient être destructifs. Toutefois, pensez également à exiger une confirmation pour les situations qui abandonnent un processus ou une opération de longue durée.
 
- 
+ 
 
- 
+ 
 
 
 

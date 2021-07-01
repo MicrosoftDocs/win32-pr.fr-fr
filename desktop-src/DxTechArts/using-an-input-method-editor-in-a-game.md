@@ -4,12 +4,12 @@ description: Cet article explique comment vous pouvez implémenter un contrôle 
 ms.assetid: 760ed960-08a3-e967-282e-7fbdbaeb7a4d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1519f07a4e105ae822bd13fd7acd8b29e5ad8a0
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: a119c5933aae14e2d3e45085dafa241a4dcb11e1
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103953778"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118674"
 ---
 # <a name="using-an-input-method-editor-in-a-game"></a>Utilisation d’un éditeur de méthode d’entrée dans un jeu
 
@@ -97,8 +97,8 @@ Un IME doit recevoir la chaîne de lecture, masquer la fenêtre de lecture et af
 
 |                    | Obtenir la chaîne de lecture                                                | Masquer la fenêtre de lecture                       | Orientation de la fenêtre de lecture                              |
 |--------------------|-----------------------------------------------------------------------|---------------------------------------------|------------------------------------------------------------|
-| Avant la version 6,0 | R. Lecture directe des données privées de l’IME d’accès à la fenêtre. Voir « structure 4 » | Interceptez les messages privés de l’IME. Voir « 3 messages » | Examinez les informations du Registre. Voir « 5 informations de Registre » |
-| Après la version 6,0  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
+| **Avant la version 6,0** | R. Lecture directe des données privées de l’IME d’accès à la fenêtre. Voir « structure 4 » | Interceptez les messages privés de l’IME. Voir « 3 messages » | Examinez les informations du Registre. Voir « 5 informations de Registre » |
+| **Après la version 6,0**  | [GetReadingString](#getreadingstring)                                 | [ShowReadingWindow](#showreadingwindow)     | [GetReadingString](#getreadingstring)                      |
 
 
 
@@ -123,11 +123,11 @@ Les exemples suivants montrent comment obtenir des informations de chaîne d’u
 
 
 
-|              |                                                                                       |
+| Output              | Description                                                                                      |
 |--------------|---------------------------------------------------------------------------------------|
-| DWORD dwlen  | Longueur de la chaîne de lecture                                                          |
-| DWORD dwerr  | Index du caractère d’erreur                                                                   |
-| LPWSTR WSTR  | Pointeur vers la chaîne de lecture                                                         |
+| DWORD dwlen  | Longueur de la chaîne de lecture.                                                          |
+| DWORD dwerr  | Index du caractère d’erreur.                                                                   |
+| LPWSTR WSTR  | Pointeur désignant la chaîne de lecture.                                                         |
 | BOOL Unicode | Si la valeur est true, la chaîne de lecture est au format Unicode. Dans le cas contraire, il est au format multioctet. |
 
 
@@ -390,10 +390,10 @@ Si aucune condition n’est remplie, la fenêtre de lecture est verticale.
 
 
 
-| Système d’exploitation           | Version de l’IME CHT |
+| Système d'exploitation           | Version de l’IME CHT |
 |----------------------------|-----------------|
 | Windows 98                 | 4,2             |
-| Windows 2000               | 4.3             |
+| Windows 2000               | 4.3             |
 | unknown                    | 4.4             |
 | Windows ME                 | 5.0             |
 | Office XP                  | 5,1             |
@@ -463,7 +463,7 @@ Obtient les informations de chaîne de lecture.
 
 </dd> </dl>
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 Longueur de la chaîne de lecture.
 
@@ -513,7 +513,7 @@ Affichez (ou masquez) la fenêtre de lecture.
 
 </dd> </dl>
 
-**Valeurs de retour**
+**Valeurs renvoyées**
 
 **Remarques**
 

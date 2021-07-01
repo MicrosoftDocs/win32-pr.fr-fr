@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Apprenez à utiliser des paramètres dans un document PrintCapabilities. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 4a596604-8a0d-4971-96f3-643727312cfc
 title: Utilisation des paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 950fe8fc7c79ed27c467b59ef67132e816cdcd63
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6417a6d30716cf19d22773c28dbf471e75f967d6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211311"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119394"
 ---
 # <a name="using-parameters"></a>Utilisation des paramètres
 

@@ -4,12 +4,12 @@ ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: Types de systèmes de coordonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05908196662918eb93f4fa6e2b356a6989ed5a58
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e259f43d4fc0d6a74021f3a6125f85652f51ac95
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104550117"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120624"
 ---
 # <a name="types-of-coordinate-systems"></a>Types de systèmes de coordonnées
 
@@ -27,11 +27,11 @@ Les coordonnées des points de terminaison de votre ligne dans les trois espaces
 
 
 
-|        |                         |
+| Espace       |  Coordonnées du point de terminaison                       |
 |--------|-------------------------|
 | World (Monde)  | (0, 0) à (160, 80)     |
 | Page   | (100, 50) vers (260, 130) |
-| Appareil | (100, 50) vers (260, 130) |
+| Périphérique | (100, 50) vers (260, 130) |
 
 
 
@@ -74,11 +74,11 @@ Si nous supposons que le périphérique d’affichage a 96 points par pouce dans
 
 
 
-|        |                     |
+| Espace       | Coordonnées du point de terminaison                    |
 |--------|---------------------|
 | World (Monde)  | (0, 0) à (2, 1)    |
 | Page   | (0, 0) à (2, 1)    |
-| Appareil | (0,0, to (192, 96) |
+| Périphérique | (0,0, to (192, 96) |
 
 
 
@@ -103,11 +103,11 @@ Si nous supposons que le périphérique d’affichage a 96 points par pouce dans
 
 
 
-|        |                         |
+| Espace       | Coordonnées du point de terminaison                        |
 |--------|-------------------------|
 | World (Monde)  | (0, 0) à (2, 1)        |
 | Page   | (2, 0,5) à (4, 1,5)    |
-| Appareil | (192, 48) vers (384, 144) |
+| Périphérique | (192, 48) vers (384, 144) |
 
 
 

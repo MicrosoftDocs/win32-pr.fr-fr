@@ -1,15 +1,15 @@
 ---
-description: Filtre de lecteur ASF WM
+description: En savoir plus sur le filtre de lecteur ASF WM pour DirectShow. Il s’agit d’un filtre de wrapper pour l’objet lecteur fourni avec le kit de développement logiciel (SDK) du format Windows Media.
 ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: Filtre de lecteur ASF WM (DirectShow)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a35cea4b6dbf8c720f3059e0317484fd2f34d10
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 330ab870b97fc3e84ccb5b0f726d4f35ef1af147
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908867"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118664"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a>Filtre de lecteur ASF WM (DirectShow)
 
@@ -17,7 +17,7 @@ Le lecteur ASF WM est un filtre de wrapper pour l’objet lecteur fourni avec le
 
 
 
-| Étiquette | Valeur |
+| Étiquette | Value |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter), [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking), **IServiceProvider** en outre, le filtre expose les interfaces du kit de développement logiciel (SDK) de format Windows Media suivantes : [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo), [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced), [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2), [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (via **IServiceProvider**)<br/> |
 | Types de média de broche d’entrée                    | Non applicable.                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

@@ -4,12 +4,12 @@ description: IAgentBalloon GetFontCharSet
 ms.assetid: 1ab5767a-31e3-449c-b242-f20b11336ca0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f544df6c09fb00d346015b610751dd23738820
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f809fbd83e44259c96184c9f364a85151ec9ddde
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196947"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120404"
 ---
 # <a name="iagentballoongetfontcharset"></a>IAgentBalloon::GetFontCharSet
 
@@ -34,7 +34,7 @@ Adresse d’une valeur qui reçoit le jeu de caractères de la police. Voici que
 
 
 
-|     |                                                                                        |
+| Value    | Jeu de caractères                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
 | 0   | Caractères Windows standard (ANSI).                                                    |
 | 1   | Jeu de caractères par défaut.                                                                 |
@@ -47,7 +47,7 @@ Adresse d’une valeur qui reçoit le jeu de caractères de la police. Voici que
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,9 +60,9 @@ Le jeu de caractères par défaut utilisé dans la bulle de texte d’un caract�
 [**IAgentBalloon::SetFontCharSet**](iagentballoon--setfontcharset.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

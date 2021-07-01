@@ -4,12 +4,12 @@ description: Référence haute résolution
 ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c10bcf5c5297b0adcfceef6853f2292c3fc8b98
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a9c6a9302541683dbf97c06194285f9e8cfcf3c0
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087797"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118414"
 ---
 # <a name="high-dpi-reference"></a>Référence haute résolution
 
@@ -17,9 +17,8 @@ ms.locfileid: "108087797"
 
 
 
-|                                                                                          |                                                                                                                                                                   |
+| Rubrique                                                                                         |Description                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Rubrique**                                                                                | **Description**                                                                                                                                                   |
 | [**AdjustWindowRectExForDpi**](/windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi)                             | Variante de [AdjustWindowRectEx](/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex) qui retourne des valeurs mises à l’échelle à une résolution spécifique.       |
 | [**AreDpiAwarenessContextsEqual**](/windows/desktop/api/Winuser/nf-winuser-aredpiawarenesscontextsequal)                     | Détermine si deux valeurs de [**\_ \_ contexte de reconnaissance PPP**](dpi-awareness-context.md) sont équivalentes.                                                            |
 | [**EnableNonClientDpiScaling**](/windows/desktop/api/Winuser/nf-winuser-enablenonclientdpiscaling)                           | Active la mise à l’échelle automatique de la zone non cliente de la fenêtre de niveau supérieur spécifiée.                                                                               |
@@ -57,9 +56,8 @@ ms.locfileid: "108087797"
 
 
 
-|                                                                            |                                                                                        |
+| Rubrique                                                                           |Description                                                                                        |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **Rubrique**                                                                  | **Description**                                                                        |
 | [**\_reconnaissance dpi**](/windows/desktop/api/windef/ne-windef-dpi_awareness)                                    | Représente les modes de virtualisation en coordonnées PPP.                                        |
 | [**\_contexte de détection PPP \_**](dpi-awareness-context.md)                   | Jeton qui représente un mode de virtualisation PPP et les comportements associés.           |
 | [**comportements de modification de la \_ résolution de contrôle de boîte de dialogue \_ \_ \_**](/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors) | Décrit les remplacements du comportement de mise à l’échelle DPI par moniteur pour les fenêtres enfants dans les boîtes de dialogue. |
@@ -76,9 +74,8 @@ ms.locfileid: "108087797"
 
 
 
-|                                                                    |                                                                                                                                         |
+| Rubrique                                                                   | Description                                                                                                                                        |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **Rubrique**                                                          | **Description**                                                                                                                         |
 | [**\_DPICHANGED WM**](wm-dpichanged.md)                            | Avertit une fenêtre de niveau supérieur que son PPP a changé.                                                                                   |
 | [**\_DPICHANGED WM \_ BEFOREPARENT**](wm-dpichanged-beforeparent.md) | Avertit une fenêtre enfant que la valeur PPP associée à la fenêtre qui la contient a changé. Remis avant la notification de la fenêtre parente. |
 | [**\_DPICHANGED WM \_ AFTERPARENT**](wm-dpichanged-afterparent.md)   | Avertit une fenêtre enfant que la valeur PPP associée à la fenêtre qui la contient a changé. Remis après notification de la fenêtre parente.  |

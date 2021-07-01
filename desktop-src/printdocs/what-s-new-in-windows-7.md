@@ -4,12 +4,12 @@ ms.assetid: 3338df74-f895-4389-875c-5a61f18fc690
 title: Nouveautés pour l’impression dans Windows 7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987422b3e17f42652eb4a937395ff2cd21d48100
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19cdae3196aa47ed0685fccf97a12b61d5839d61
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544309"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119384"
 ---
 # <a name="whats-new-for-printing-in-windows-7"></a>Nouveautés pour l’impression dans Windows 7
 
@@ -21,7 +21,7 @@ Les documents et l’impression ont été améliorés pour Windows 7 afin d’in
 
 
 
-|                                                                                                                |                                                                                                                                                                                                                                                                                                                          |
+| Technologie de document                                                                                                                | Description                                                                                                                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85))<br/>                                                        | L' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)) vous permet de créer des documents XPS à partir de votre programme Win32 et de les enregistrer sous forme de fichier de document ou de les envoyer directement à une imprimante.<br/> Vous pouvez également utiliser l' [API de document XPS](/previous-versions/windows/desktop/dd316976(v=vs.85)) pour modifier des documents XPS existants dans un programme Win32.<br/> |
 | [API de signature numérique XPS](/previous-versions/windows/desktop/ff819108(v=vs.85))<br/>                                      | L' [API de signature numérique XPS](/previous-versions/windows/desktop/ff819108(v=vs.85)) vous permet d’ajouter des signatures numériques aux documents XPS à partir de votre programme Win32.<br/> Vous pouvez également utiliser l’API de signature numérique XPS pour vérifier si un document XPS est authentique et non modifié.<br/>                                          |

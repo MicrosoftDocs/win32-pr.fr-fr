@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ececb41bc0f9dc0cef187c083afc72ba5fc899a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6342823e13a085b377a3e71f28a0f9ff016681c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743932"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119404"
 ---
 # <a name="mim_moredata-message"></a>\_Message MIM MOREDATA
 
@@ -45,7 +45,7 @@ Spécifie le message MIDI qui a été reçu. Le message est compressé dans une 
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | Mot haut | Octet de poids fort | Non utilisé.                                           |
 |           | Octet de poids faible  | Contient un deuxième octet de données MIDI (si nécessaire).  |
@@ -71,7 +71,7 @@ Spécifie l’heure à laquelle le message a été reçu par le pilote de périp
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application ne doit effectuer qu’une quantité minime de traitement des \_ messages MIM MOREDATA. (En particulier, les applications ne doivent pas appeler la fonction [PostMessage](/windows/win32/api/winuser/nf-winuser-postmessagea) lors du traitement de MIM \_ MOREDATA.) Au lieu de cela, l’application doit placer les données d’événement dans une mémoire tampon, puis retourner.
 
@@ -81,11 +81,11 @@ L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI e
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |

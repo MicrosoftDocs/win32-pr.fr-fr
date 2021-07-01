@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8e8a3c20e73b9783d39b4f4cbdb7c0be5b75fcda
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: df4a1f049526422f39c3529395481548943c7e84
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104030738"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118954"
 ---
 # <a name="if-statement"></a>if, instruction
 
 Exécuter de manière conditionnelle une série d’instructions, en fonction de l’évaluation de l’expression conditionnelle.
 
-
-
-|                                                               |
-|---------------------------------------------------------------|
-| \[*Attribut* \] if ( *conditionnel* ) { *bloc d’instructions*;} |
+\[*Attribut* \] if ( *conditionnel* ) { *bloc d’instructions*;}
 
 
 
@@ -93,7 +89,7 @@ Une ou plusieurs [instructions HLSL](dx-graphics-hlsl-statement-blocks.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le compilateur utilise la méthode Branch pour compiler une instruction if, il génère du code qui évalue un seul côté de l’instruction if en fonction de la condition donnée. Par exemple, dans l’instruction if :
 

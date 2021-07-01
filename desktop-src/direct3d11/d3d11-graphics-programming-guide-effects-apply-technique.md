@@ -1,15 +1,15 @@
 ---
 title: Appliquer une technique (Direct3D 11)
-description: Avec les constantes, les textures et l’état du nuanceur déclarés et initialisés, la seule chose à faire est de définir l’état de l’effet dans l’appareil.
+description: Découvrez comment définir l’état de l’effet dans l’appareil pour Direct3D 11 après que les constantes, les textures et l’état du nuanceur sont déclarés et initialisés.
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e67668b27c1f0271974f20edc62619a7b1ae8ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 136d03f92957eaf1b3d501c0acd54aafde7e16d8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029299"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118944"
 ---
 # <a name="apply-a-technique-direct3d-11"></a>Appliquer une technique (Direct3D 11)
 
@@ -61,9 +61,9 @@ Un effet n’affiche rien, il définit simplement l’état de l’effet sur l�
 [Rendu d’un effet (Direct3D 11)](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

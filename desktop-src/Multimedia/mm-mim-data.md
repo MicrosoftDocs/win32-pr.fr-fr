@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8c015ba5e08302f7567fe8f474bedca74d3064
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032465"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119694"
 ---
 # <a name="mm_mim_data-message"></a>MM \_ \_ message de données MIM
 
@@ -52,7 +52,7 @@ Message MIDI qui a été reçu. Le message est empaqueté dans une valeur de mot
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | Mot haut | Octet de poids fort | Non utilisé.                                           |
 |           | Octet de poids faible  | Contient un deuxième octet de données MIDI (si nécessaire).  |
@@ -71,17 +71,17 @@ Les deux octets de données MIDI sont facultatifs, en fonction de l’octet d’
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI est désactivé ; chaque message est développé pour inclure l’octet d’État MIDI.
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu. Aucun horodatage n’est disponible avec ce message. Pour les données d’entrée horodatées, vous devez utiliser les messages envoyés aux fonctions de rappel.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |

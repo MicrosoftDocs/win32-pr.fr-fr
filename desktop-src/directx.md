@@ -4,16 +4,19 @@ ms.assetid: 23693eb7-cc8d-4757-bca7-394114d9a3c9
 title: Graphiques et jeux DirectX
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac372f7480e498fa9da18e6553c3e367fd3f14aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceb7ba5fc771b88feb340e1b12c8e4f6d025e4dd
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528137"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120034"
 ---
 # <a name="directx-graphics-and-gaming"></a>Graphiques et jeux DirectX
 
 Ce contenu est axé sur l’utilisation de DirectX dans une application Win32. Pour plus d’informations sur l’utilisation de DirectX dans une application UWP, consultez le [Guide de développement de jeux Windows 10 (UWP)](/windows/uwp/gaming/e2e).
+
+> [!TIP]
+> Pour obtenir des descriptions et des liens vers des composants DirectX dans le développement actif, consultez le billet de blog [page d’accueil de DirectX](https://devblogs.microsoft.com/directx/landing-page/).
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

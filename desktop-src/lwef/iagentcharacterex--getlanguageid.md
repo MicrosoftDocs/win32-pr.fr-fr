@@ -4,12 +4,12 @@ description: IAgentCharacterEx GetLanguageID
 ms.assetid: 4e4e5342-edf9-480b-a9c3-e2626fd89e76
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9679538f93d779acc6272dccada824585c4449f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d847bf392709b2433b045a357a703173e2de454
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029567"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120645"
 ---
 # <a name="iagentcharacterexgetlanguageid"></a>IAgentCharacterEx::GetLanguageID
 
@@ -38,7 +38,7 @@ Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID
 
 
 
-|                       |        |                       |        |
+| Langage              | id     | Langage              | id     |
 |-----------------------|--------|-----------------------|--------|
 | Arabe (Arabie)        | 0x0401 | Italien               | 0x0410 |
 | Basque                | 0x042d | Japonais              | 0x0411 |
@@ -55,11 +55,11 @@ Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID
 | Allemand                | 0x0407 | Suédois               | 0x041D |
 | Grec                 | 0x0408 | Thaï                  | 0x041E |
 | Hébreu                | 0x040D | Turc               | 0x041F |
-| Hongrois             | 0x040E |                       |        |
+| Hongrois             | 0x040E |                       |        |
 
 
 
- 
+ 
 
 Si vous ne définissez pas cet ID de langue pour le caractère, l’ID de langue du caractère sera l’ID de langue du système actuel.
 
@@ -70,16 +70,16 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 > [!Note]  
 > Si l’ID de langue est défini sur une langue qui prend en charge le texte bidirectionnel (comme l’arabe ou l’hébreu), mais que le système qui exécute votre application n’a pas de prise en charge bidirectionnelle installée, le texte apparaît dans le mot-bulle dans l’ordre logique plutôt que dans l’ordre d’affichage.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacterEx : SetLanguageID**](iagentcharacterex--setlanguageid.md), [**IAgentCharacterEx :: GetSRModeID**](iagentcharacterex--getsrmodeid.md), [**IAgentCharacterEx :: GetTTSModeID**](iagentcharacterex--getttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

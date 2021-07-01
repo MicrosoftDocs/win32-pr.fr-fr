@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 97ab88961b22529accb4402fc2bd095ede5275c1
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 19d767f3c501cc42e21bbc44a196ba08cd6f1883
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104313888"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120184"
 ---
 # <a name="append-directx-hlsl-stream-output-object"></a>Append (objet Stream-Output HLSL DirectX)
 
 Ajoutez Geometry-Shader-output Data à un flux existant.
 
-
-
-|                            |
-|----------------------------|
-| Append ( *StreamDataType*); |
+Append ( *StreamDataType*);
 
 
 
@@ -83,10 +79,10 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 | Modèle de nuanceur                                              | Prise en charge |
 |-----------------------------------------------------------|-----------|
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Oui       |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
-| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | yes       |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Non        |
 
 
 

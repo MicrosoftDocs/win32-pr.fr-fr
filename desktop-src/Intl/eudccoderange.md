@@ -4,12 +4,12 @@ ms.assetid: 11a167a0-f2a3-4b8b-a38c-70cf14c895be
 title: EUDCCodeRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e68c71751ca5d13cd04c95ff66c84067fd1d46d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8619bce02f4ca66fa9b4ce6d25aff0c5a3e66f96
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536599"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120674"
 ---
 # <a name="eudccoderange"></a>EUDCCodeRange
 
@@ -25,7 +25,7 @@ où :
 
 
 
-|          |                                                                                                                                                                                                          |
+| Valeur         | Description                                                                                                                                                                                                         |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CodePage | L’une des chaînes « 932 » (japonais), « 936 » (chinois simplifié), « 949 » (coréen), « 950 » (chinois traditionnel) ou « Unicode » (Unicode). Aucune autre valeur n’est prise en charge.                                     |
 | FromTo   | Valeur de chaîne composée d’une paire de valeurs hexadécimales à 4 chiffres séparés par un trait d’Union (-). Vous pouvez spécifier jusqu’à quatre valeurs FromTo, mais chacune d’elles doit être séparée de la valeur précédente par une virgule (,). |

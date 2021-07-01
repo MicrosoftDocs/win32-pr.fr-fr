@@ -4,12 +4,12 @@ description: Clarifier et limiter les choix
 ms.assetid: 4ec3ca01-231b-4a45-aae1-fba5b2ba0033
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43ed5f95c2e516f304ffa28bcca1d9fd67a9169
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 953001d706089244d6366c8dab0cdb580a2d72ca
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513686"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118474"
 ---
 # <a name="clarify-and-limit-choices"></a>Clarifier et limiter les choix
 
@@ -39,7 +39,7 @@ Vous pouvez également utiliser des invites de directive pour éviter une entré
 
 
 
-|                                            |                                                     |
+| Prompt                                           | Évaluation                                                    |
 |--------------------------------------------|-----------------------------------------------------|
 | Que veux-tu?                          | Trop général, une demande ouverte                  |
 | Choisissez un style de pizza ou un ingrédient.        | Bon, si les choix sont visibles, mais toujours généraux     |
@@ -47,22 +47,15 @@ Vous pouvez également utiliser des invites de directive pour éviter une entré
 
 
 
- 
+ 
 
 Cela Guide l’utilisateur vers l’émission d’une commande valide. En suggérant les mots ou l’expression, il est plus probable que vous reveniez à la formulation attendue. Pour éviter une répétition naturelle, modifiez la formulation ou raccourcissez l’original pour la présentation suivante à mesure que l’utilisateur devient plus expérimenté avec le style d’entrée. Les invites de directive peuvent également être utilisées dans les situations où l’utilisateur ne parvient pas à émettre une commande dans un délai imparti ou ne parvient pas à fournir une commande attendue. Les invites de directive peuvent être fournies à l’aide de la sortie vocale, de vos interfaces d’application, ou des deux. La clé permet à l’utilisateur de connaître les choix appropriés.
 
 La formulation influence la réussite d’une invite. Par exemple, l’invite « voulez-vous commander votre pizza ? » peut générer une réponse « oui » ou « non », mais elle peut également générer une demande de commande. Définissez les invites de manière à ce qu’elles soient non ambiguës ou soyez prêtes à accepter un plus grand nombre de réponses possibles. En outre, notez la tendance pour que les gens imitent les mots et les constructions qu’ils entendent. Cela peut souvent être utilisé pour évoquer une réponse appropriée, comme dans l’exemple suivant :
 
+**Utilisateur :** Afficher tous les messages de Paul.
 
-
-|            |                                 |
-|------------|---------------------------------|
-| Utilisateur :      | Afficher tous les messages de Paul. |
-| Symbole |                                 |
-
-
-
- 
+**Symbole**
 
 Cela est plus susceptible de provoquer le nom complet de l’une des parties avec le préfixe possible « je signifie » ou « je veux ».
 
@@ -70,24 +63,19 @@ Cela est plus susceptible de provoquer le nom complet de l’une des parties ave
 
 Vous pouvez également utiliser d’autres modes d’interaction pour suggérer discrètement aux utilisateurs la grammaire vocale appropriée, comme illustré dans l’exemple suivant :
 
+**Utilisateur :** (cliquer sur l’option pizza de style Hawaii avec la souris)
 
+**Caractère :** Hawaii-type pizza.
 
-|            |                                                     |
-|------------|-----------------------------------------------------|
-| Utilisateur :      | (Cliquer sur l’option pizza de type Hawaii avec la souris) |
-| Symbole | Hawaii-type pizza.                               |
-| Utilisateur :      | (Clique sur l’option de fromage supplémentaire avec la souris)         |
-| Symbole | Ajoutez des « fromages supplémentaires ».                                 |
+**Utilisateur :** (clique sur l’option de fromage supplémentaire avec la souris)
 
-
-
- 
+**Caractère :** Ajoutez des « fromages supplémentaires ».
 
 Un autre facteur important dans la réussite de l’entrée vocale est cueing l’utilisateur lorsque le moteur est prêt pour l’entrée, car de nombreux moteurs de reconnaissance vocale n’autorisent qu’un seul énoncé à la fois. Microsoft agent prend en charge ce mode de deux manières. Tout d’abord, si la carte son prend en charge MIDI, Microsoft Agent génère un bref ton pour signaler quand le canal d’entrée vocale est disponible. Deuxièmement, la fenêtre info-bulle d’écoute affiche une invite de texte appropriée lorsque le caractère (moteur de reconnaissance vocale) est à l’écoute de l’entrée. En outre, ce Conseil affiche ce que le moteur a entendu.
 
- 
+ 
 
- 
+ 
 
 
 

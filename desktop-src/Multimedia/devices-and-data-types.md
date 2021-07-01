@@ -28,12 +28,12 @@ keywords:
 - fermeture des périphériques de sortie Waveform-Audio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29561a74695fb8bde950e2e75a430803a1a0351b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2abe0c2c20c52f4498316fb619885d41f85e41d6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106536068"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120244"
 ---
 # <a name="devices-and-data-types"></a>Appareils et types de données
 
@@ -59,7 +59,7 @@ Windows fournit les fonctions suivantes pour déterminer le nombre d’appareils
 
 
 
- 
+ 
 
 Les périphériques audio sont identifiés par un identificateur de périphérique. L’identificateur d’appareil est déterminé implicitement à partir du nombre d’appareils présents dans un système. Les identificateurs d’appareil sont compris entre zéro et un nombre inférieur au nombre d’appareils présents. Par exemple, s’il existe deux périphériques de sortie Waveform-Audio dans un système, les identificateurs d’appareil valides sont 0 et 1.
 
@@ -75,22 +75,21 @@ Une fois que vous avez déterminé le nombre d’appareils d’un certain type p
 
 
 
- 
+ 
 
 Chacune de ces fonctions remplit une structure avec des informations sur les fonctionnalités d’un appareil spécifié. Le tableau suivant répertorie les structures qui correspondent à chacune de ces fonctions.
 
 
 
-|                                                |                                    |
+|  Fonction                                              |  Structure                                  |
 |------------------------------------------------|------------------------------------|
-| Fonction                                       | Structure                          |
 | [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)         | [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)         |
 | [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)   | [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)   |
 | [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps) | [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps) |
 
 
 
- 
+ 
 
 Les formats standard sont répertoriés dans le membre **dwFormats** de la structure **WAVEOUTCAPS** . Les périphériques Wave-audio peuvent prendre en charge des formats non standard. Pour déterminer si un format particulier (standard ou non standard) est pris en charge par un appareil, vous pouvez appeler la fonction [**waveOutOpen**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen) avec \_ l' \_ indicateur de requête format Wave. Cet indicateur n’ouvre pas l’appareil. Vous spécifiez le format en question dans la structure [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) vers laquelle pointe le paramètre *Pwfx* passé à **waveOutOpen**.
 
@@ -122,7 +121,7 @@ Les types de données suivants sont définis pour les fonctions de sortie Wavefo
 
 
 
- 
+ 
 
 ## <a name="specifying-waveform-audio-data-formats"></a>Spécification des formats de données Waveform-Audio
 
@@ -146,15 +145,14 @@ Le membre **lpData** de la structure [**WAVEHDR**](/windows/win32/api/mmeapi/ns-
 
 
 
-|             |                 |                  |                |
-|-------------|-----------------|------------------|----------------|
 | Format de données | Valeur maximale   | Valeur minimale    | Valeur de milieu |
+|-------------|-----------------|------------------|----------------|
 | PCM 8 bits   | 255 (0xFF)      | 0                | 128 (0x80)     |
 | PCM 16 bits  | 32 767 (0x7FFF) | – 32 768 (0x8000) | 0              |
 
 
 
- 
+ 
 
 ## <a name="pcm-data-packing"></a>Compression de données PCM
 
@@ -172,12 +170,12 @@ L’ordre des octets de données varie selon les formats 8 bits et 16 bits et en
 
 
 
- 
+ 
 
 ## <a name="closing-waveform-audio-output-devices"></a>Fermeture des appareils de sortie Waveform-Audio
 
 Une fois la lecture de la forme d’onde-audio terminée, appelez [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) pour fermer le périphérique de sortie. Si **waveOutClose** est appelé pendant la lecture d’un fichier Waveform-Audio, l’opération de fermeture échoue et la fonction retourne un code d’erreur indiquant que l’appareil n’a pas été fermé. Si vous ne souhaitez pas attendre la fin de la lecture avant de fermer l’appareil, appelez la fonction [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset) avant de fermer. Cela termine la lecture et permet la fermeture de l’appareil. Veillez à utiliser la fonction [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader) pour nettoyer la préparation sur tous les blocs de données avant de fermer l’appareil.
 
- 
+ 
 
- 
+ 

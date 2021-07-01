@@ -4,12 +4,12 @@ description: Ce document est une spécification du protocole de service d’inde
 ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5265d9d8c802b278b4349ef4b8248b068dc7edc4
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 14573dac5a7a6818234c086d05b52e5b81c2a1c1
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107492291"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119734"
 ---
 # <a name="content-indexing-services-protocol"></a>Protocole des services d’indexation de contenu
 
@@ -68,7 +68,7 @@ Une spécification de protocole WSPP ne nécessite pas l’utilisation d’outil
 > -   GUID
 > -   Little endian
 > -   Canal nommé
-> -   Chemin d’accès
+> -   Path
 
  
 
@@ -235,7 +235,7 @@ Microsoft a alloué ce protocole à un canal nommé comme spécifié dans \[ MS-
 
 
 
-| Paramètre | Valeur             | Informations de référence  |
+| Paramètre | Value             | Informations de référence  |
 |-----------|-------------------|------------|
 | Nom du canal | \\canal d' \\ intégration de \_ SKADS | \[MS-SMB\] |
 
@@ -262,7 +262,7 @@ Plusieurs structures et messages dans les sections suivantes font référence au
 
 
 
-| Valeur                         | Signification                                                                      |
+| Value                         | Signification                                                                      |
 |-------------------------------|------------------------------------------------------------------------------|
 | DB \_ null \_ HCHAPTER 0x00000000 | Descripteur de chapitre de l’ensemble de lignes non chapitre, contenant tous les résultats de la requête.    |
 | DBBMK \_ premier 0x00000001       | Handle de signet vers un signet qui identifie la première ligne dans l’ensemble de lignes. |
@@ -408,7 +408,7 @@ vValue (variable)
 
 
 
-| Valeur                 | Signification                                                                                                                              |
+| Value                 | Signification                                                                                                                              |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | VT \_ vide (0x0000)    | vValue n’est pas présent.                                                                                                               |
 | VT \_ null (0x0001)     | vValue n’est pas présent.                                                                                                               |
@@ -445,7 +445,7 @@ Le tableau suivant spécifie les modificateurs de type pour vType. Les modificat
 
 
 
-| Valeur               | Signification                                                                                                                                                                                                                                                                                                                                                            |
+| Value               | Signification                                                                                                                                                                                                                                                                                                                                                            |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Vecteur VT (0x1000) | Si l’indicateur de type est combiné avec \_ un vecteur VT à l’aide d’un opérateur or, vValue est un tableau compté des valeurs du type indiqué. Pour plus d’informations, consultez la section 2.2.1.1.1.2. <br/> Ce modificateur de type ne doit pas être combiné avec les types suivants : VT \_ int, VT \_ uint, VT \_ Decimal, VT \_ BLOB \_ , \_ objet BLOB VT.<br/>                                    |
 | \_Tableau VT (0x2000)  | Si l’indicateur de type est combiné avec \_ un tableau VT par un opérateur or, la valeur est un SafeArray (comme spécifié dans la section 2.2.1.1.1.3) qui contient les valeurs du type indiqué. <br/> Ce modificateur de type ne doit pas être combiné avec les types suivants : VT \_ I8, VT \_ UI8, VT \_ fileTime, VT \_ CLSID, \_ objet BLOB VT, \_ objet BLOB VT \_ , VT \_ LPSTR, VT \_ LPWStr. <br/> |
@@ -926,16 +926,35 @@ vData est marshalé de la même façon \_ que le vecteur VT, comme spécifié da
 
 Le diagramme suivant représente visuellement un exemple de tableau à deux dimensions. La première dimension a un cElements égal à 4 (représenté horizontalement) et lLbound égal à 0, et la deuxième dimension a cElements égal à 2 (représenté verticalement) et lLbound égal à 0.
 
+:::row:::
+    :::column:::
+        0x00000001
+    :::column-end:::
+    :::column:::
+        0x00000002
+    :::column-end:::
+    :::column:::
+        0x00000003
+    :::column-end:::
+    :::column:::
+        0x00000005
+    :::column-end:::
+:::row-end:::
 
-
-|            |            |            |            |
-|------------|------------|------------|------------|
-| 0x00000001 | 0x00000002 | 0x00000003 | 0x00000005 |
-| 0x00000007 | 0x00000011 | 0x00000013 | 0x00000017 |
-
-
-
- 
+:: Row :::
+    :::column:::
+        0x00000007
+    :::column-end:::
+    :::column:::
+        0x00000011
+    :::column-end:::
+    :::column:::
+        0x00000013
+    :::column-end:::
+    :::column:::
+        0x00000017
+    :::column-end:::
+:::row-end:::
 
 À l’aide du diagramme ci-dessus, vData contient la séquence suivante : 0x00000001, 0x00000007, 0x00000002, 0x00000011, 0x00000003, 0x00000013, 0x00000005, 0x00000017 (en commençant par parcourir la dimension la plus à droite, puis en incrémentant la dimension suivante). Le Rgsabound précédent (qui enregistre cElements et LBound) est : 0x00000004, 0x00000000, 0x00000002, 0x00000000.
 
@@ -1201,7 +1220,7 @@ Nom de la propriété (variable)
 
 
 
-| Valeur                                            | Signification                                                                                  |
+| Value                                            | Signification                                                                                  |
 |--------------------------------------------------|------------------------------------------------------------------------------------------|
 | PRSPEC \_ LPWStr<br/> 0x00000000<br/> | Le champ PrSpec spécifie le nombre de caractères non NULL dans le champ nom de la propriété. |
 | PRSPEC \_ propid<br/> 0x00000001<br/>  | Le champ PrSpec spécifie l’ID de propriété (PROPID).                                     |
@@ -1322,7 +1341,7 @@ lcid
 
 
 
-| Valeur                                                       | Signification                                                                                                                                                                                                                                                                                           |
+| Value                                                       | Signification                                                                                                                                                                                                                                                                                           |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GÉNÉRATION \_ exacte de la méthode \_<br/> 0x00000000<br/>    | Correspondance exacte.                                                                                                                                                                                                                                                                                      |
 | GÉNÉRER \_ le \_ préfixe de méthode<br/> 0x00000001 <br/>  | Correspondance du préfixe.                                                                                                                                                                                                                                                                                     |
@@ -1416,9 +1435,9 @@ buf (variable)
 
 
 
-| Valeur      | Signification                                                 |
+| Value      | Signification                                                 |
 |------------|---------------------------------------------------------|
-| Égale | Représente un ID de propriété non valide et ne doit pas être utilisé. |
+| 0xFFFFFFFF | Représente un ID de propriété non valide et ne doit pas être utilisé. |
 | 0xFFFFFFFE | Représente un ID de propriété non valide et ne doit pas être utilisé. |
 | 0x00000000 | Représente un ID de propriété.                             |
 
@@ -1518,7 +1537,7 @@ nextRestriction (variable)
 
 
 
-| Valeur                 | Signification                                                                                                           |
+| Value                 | Signification                                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | PRLT 0x00000000       | Comparaison d’infériorité.                                                                                           |
 | PRLE 0x00000001       | Comparaison d’infériorité ou d’égalité.                                                                               |
@@ -1898,7 +1917,7 @@ La structure CPropertyRestriction contient une valeur de propriété à associer
 
 
 
-| Valeur                 | Signification                                                                                                           |
+| Value                 | Signification                                                                                                           |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------|
 | PRLT 0x00000000       | Comparaison d’infériorité.                                                                                           |
 | PRLE 0x00000001       | Comparaison d’infériorité ou d’égalité.                                                                               |
@@ -2188,7 +2207,7 @@ locale
 
 
 
-| Valeur                        | Signification                                                                                    |
+| Value                        | Signification                                                                                    |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | REQUÊTE \_ SORTASCEND 0x00000000 | Les lignes doivent être triées dans l’ordre croissant en fonction des valeurs de la colonne spécifiée.  |
 | REQUÊTE \_ descendante 0x00000001    | Les lignes doivent être triées dans l’ordre décroissant en fonction des valeurs de la colonne spécifiée. |
@@ -2383,7 +2402,7 @@ La structure CVectorRestriction contient une opération pondérée sur un nœud 
 
 
 
-| Valeur                            | Signification                                       |
+| Value                            | Signification                                       |
 |----------------------------------|-----------------------------------------------|
 | Rang de vecteur \_ \_ min 0x00000000     | Utilisez l’algorithme minimal \[ Salton \] .             |
 | Nombre maximal de VECTEURs \_ \_ 0x00000001     | Utilisez le nombre maximal d’algorithmes \[ Salton \] .             |
@@ -2569,7 +2588,7 @@ Restriction
 
 
 
-| Valeur                    | Signification                                                                                     |
+| Value                    | Signification                                                                                     |
 |--------------------------|---------------------------------------------------------------------------------------------|
 | RTNone 0x00000000        | Le nœud représente un mot parasite dans une requête de vecteur.                                         |
 | RTAnd 0x00000001         | Le nœud contient un CNodeRestriction sur lequel une opération logique AND doit être effectuée. |
@@ -2933,7 +2952,7 @@ vString (variable)
 
 
 
-| Valeur                            | Signification                                                                                                         |
+| Value                            | Signification                                                                                                         |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | \_Nom GUID \_ 0x00000000 DBKIND    | vString contient un nom de propriété.                                                                               |
 | \_GUID DBKIND \_ propid 0x00000001  | ulId contient un entier de 4 octets indiquant l’ID de propriété.                                                      |
@@ -3052,7 +3071,7 @@ Le tableau suivant répertorie les propriétés qui font partie du \_ jeu de pro
 
 
 
-| Valeur                                  | Signification                                                                                                                                            |
+| Value                                  | Signification                                                                                                                                            |
 |----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_Nom de \_ catalogue ci DBPROP \_ 0x00000002   | Spécifie le nom du catalogue ou des catalogues à interroger. La valeur doit être un \_ LPWStr VT ou un \_ LPWStr VT Vector \| VT \_                                   |
 | DBPROP \_ ci \_ inclut des \_ étendues 0x00000003 | Spécifie un ou plusieurs chemins d’accès à inclure dans la requête. La valeur doit être un \_ LPWStr VT ou un \_ LPWStr VT Vector \| VT \_ .                                 |
@@ -3067,7 +3086,7 @@ Le tableau suivant répertorie les indicateurs pour la \_ propriété indicateur
 
 
 
-| Valeur                     | Signification                                                                                                                                                                                                                 |
+| Value                     | Signification                                                                                                                                                                                                                 |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | REQUÊTE \_ complète 0x01          | Si cette valeur est définie, cela indique que les fichiers dans le répertoire d’étendue et tous les sous-répertoires sont inclus dans les résultats. Si cette case est désactivée, seuls les fichiers du répertoire d’étendue sont inclus dans les résultats. NE doit pas être combiné avec une requête \_ profonde. |
 | \_ \_ Chemin d’accès virtuel de requête 0x02 | S’il est défini, indique que l’étendue est un chemin d’accès virtuel. Si cette case est désactivée, cela indique que l’étendue est un répertoire physique.                                                                                                         |
@@ -3080,7 +3099,7 @@ Le tableau suivant répertorie les types de requêtes pour \_ la \_ propriété 
 
 
 
-| Valeur                     | Signification                                                                                                            |
+| Value                     | Signification                                                                                                            |
 |---------------------------|--------------------------------------------------------------------------------------------------------------------|
 | CiNormal 0x00000000       | Requête normale.                                                                                                   |
 | CiVirtualRoots 0x00000001 | La requête demande une liste des racines virtuelles du catalogue. Cette valeur requiert des privilèges d’administrateur. |
@@ -3095,7 +3114,7 @@ Le tableau suivant répertorie les propriétés qui font partie du \_ jeu de pro
 
 
 
-| Valeur                                      | Signification                                                                                                                                                                                                                          |
+| Value                                      | Signification                                                                                                                                                                                                                          |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | DBPROP \_ USECONTENTINDEX 0x00000002         | Spécifie la manière dont le service d’indexation gère les requêtes lentes. La valeur doit être un \_ booléen VT. Si la valeur est TRUE, le serveur est autorisé à faire échouer ces requêtes.                                                                                    |
 | DBPROP \_ DEFERNONINDEXEDTRIMMING 0x00000003 | Indique si le service d’indexation doit effectuer la suppression des résultats. Si la valeur est TRUE, le serveur doit envisager d’effectuer une suppression des résultats de manière à optimiser le temps de réponse pour le client. La valeur doit être un \_ booléen VT.             |
@@ -3213,7 +3232,7 @@ aProps (variable)
 
 
 
-| Valeur/GUID                                                                              | Name                                             |
+| Valeur/GUID                                                                              | Nom                                             |
 |-------------------------------------------------------------------------------------------|--------------------------------------------------|
 | DBPROPSET \_ FSCIFRMWRK \_ ext<br/> {A9BD1526-6A80-11D0-8C9D-0020AF1D740E}<br/>   | Jeu de propriétés de l’infrastructure d’index de contenu du système de fichiers |
 | DBPROPSET \_ QUERYEXT<br/> {A7AC77ED-F8D7-11CE-A798-0020F8008025}<br/>          | Jeu de propriétés d’extension de requête                     |
@@ -3761,7 +3780,7 @@ La structure CRowsetProperties contient des informations de configuration pour u
 
 
 
-| Valeur                  | Signification                                                             |
+| Value                  | Signification                                                             |
 |------------------------|---------------------------------------------------------------------|
 | eSequential 0x00000001 | Le curseur peut être déplacé uniquement vers l’avant.                              |
 | eLocatable 0x00000003  | Le curseur peut être déplacé vers n’importe quelle position.                            |
@@ -3775,7 +3794,7 @@ Les bits restants peuvent être clairs ou définis sur une combinaison des valeu
 
 
 
-| Valeur                     | Signification                                                                                                     |
+| Value                     | Signification                                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------------------|
 | eAsynchronous 0x00000008  | Le client n’attend pas la fin de l’exécution.                                                          |
 | eFirstRows 0x00000080     | Retourne les premières lignes rencontrées, pas les meilleures correspondances.                                                    |
@@ -4246,7 +4265,7 @@ Vous trouverez ci-dessous un diagramme montrant le format d’en-tête de messag
 
 1
 
-\_fragment
+\_msg
 
 \_statu
 
@@ -4262,7 +4281,7 @@ Vous trouverez ci-dessous un diagramme montrant le format d’en-tête de messag
 
 
 
-| Valeur      | Signification                                                     |
+| Value      | Signification                                                     |
 |------------|-------------------------------------------------------------|
 | 0x000000C8 | CPMConnectIn ou CPMConnectOut                               |
 | 0x000000C9 | CPMDisconnect                                               |
@@ -4431,7 +4450,7 @@ dwPropCacheSize
 
 
 
-| Valeur                                         | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Value                                         | Signification                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | État de l’instantané de l' \_ état ci \_ \_ 0x00000001           | Le service d’indexation est en train d’optimiser certains des index afin de réduire l’utilisation de la mémoire et d’améliorer les performances des requêtes.                                                                                                                                                                                                                                                                                                                                                                |
 | \_Fusion du maître d’état ci \_ \_ 0x00000002           | Le service d’indexation est en cours d’optimisation complète pour tous les index.                                                                                                                                                                                                                                                                                                                                                                                                                  |
@@ -4554,7 +4573,7 @@ Le message CPMSetCatStateIn définit l’état d’un catalogue. Le format du me
 
 
 
-| Valeur                         | Signification                                                                                                                                                                 |
+| Value                         | Signification                                                                                                                                                                 |
 |-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CICAT \_ arrêté 0x00000001     | Le catalogue est arrêté. Cet État signifie qu’aucun nouveau fichier ne doit être indexé et qu’aucune requête de recherche ne doit être traitée.                                                     |
 | CICAT \_ ReadOnly 0x00000002    | Le catalogue est en lecture seule. Aucun nouveau fichier ne doit être indexé.                                                                                                               |
@@ -4649,7 +4668,7 @@ Le message CPMSetCatStateOut est une réponse à un message CPMSetCatStateIn ave
 
 
 
-| Valeur                       | Signification                                    |
+| Value                       | Signification                                    |
 |-----------------------------|--------------------------------------------|
 | CICAT \_ arrêté 0x00000001   | Le catalogue est arrêté.                    |
 | CICAT \_ ReadOnly 0x00000002  | Le catalogue est en lecture seule.                  |
@@ -4748,7 +4767,7 @@ RootPath (variable, facultative)
 
 
 
-| Valeur                  | Signification                                   |
+| Value                  | Signification                                   |
 |------------------------|-------------------------------------------|
 | UPD \_ INCREM 0x00000000 | Une mise à jour incrémentielle doit être effectuée. |
 | UPD \_ complet 0x00000001   | Une mise à jour complète doit être effectuée.         |
@@ -4932,7 +4951,7 @@ MachineName
 
 ... variable
 
-UserName
+Nom d’utilisateur
 
 ... variable
 
@@ -4970,7 +4989,7 @@ Si la valeur est supérieure à 0x00000008, le client est supposé être en char
 
 
 
-| Valeur      | Signification                                                              |
+| Value      | Signification                                                              |
 |------------|----------------------------------------------------------------------|
 | 0x00000005 | Le système d’exploitation client est Windows 2000.                                           |
 | 0x00000008 | Le système d’exploitation client est soit 32 bits Windows XP, soit 32 bits Windows Server 2003. |
@@ -5092,7 +5111,7 @@ Entier 32 bits, indiquant si le serveur peut prendre en charge les décalages 64
 
 
 
-| Valeur      | Signification                                 |
+| Value      | Signification                                 |
 |------------|-----------------------------------------|
 | 0x00000007 | Le serveur peut uniquement envoyer des décalages 32 bits. |
 | 0x00010007 | Le serveur peut envoyer des décalages 32 ou 64 bits.   |
@@ -5473,7 +5492,7 @@ Le message CPMGetQueryStatusOut répond à un message CPMGetQueryStatusIn avec l
 
 1
 
-\_Statut
+\_État
 
 
 
@@ -5664,7 +5683,7 @@ Le message CPMGetQueryStatusExOut répond à un message CPMGetQueryStatusExIn av
 
 1
 
-\_Statut
+\_État
 
 \_cFilteredDocuments
 
@@ -5914,7 +5933,7 @@ SeekDescription
 
 
 
-| Valeur                         | Signification                                                  |
+| Value                         | Signification                                                  |
 |-------------------------------|----------------------------------------------------------|
 | eRowSeekNext 0x00000001       | SeekDescription contient une structure CRowSeekNext.       |
 | eRowSeekAt 0x00000002         | SeekDescription contient une structure CRowSeekAt.         |
@@ -6031,7 +6050,7 @@ Lignes
 
 
 
-| Valeur                         | Signification                                                  |
+| Value                         | Signification                                                  |
 |-------------------------------|----------------------------------------------------------|
 | eRowsSeekNone 0x00000000      | Aucun SeekDescription, ignorer le champ SeekDescription.        |
 | eRowSeekNext 0x00000001       | SeekDescription contient une structure CRowSeekNext.       |
@@ -6522,7 +6541,7 @@ Ce message est envoyé uniquement lorsqu’une modification se produit. Le forma
 
 
 
-| Valeur                                     | Signification                                             |
+| Value                                     | Signification                                             |
 |-------------------------------------------|-----------------------------------------------------|
 | DBWATCHNOTIFY \_ ROWSCHANGED 0x00000001     | Le nombre de lignes dans l’ensemble de lignes de requête a changé. |
 | DBWATCHNOTIFY \_ QUERYDONE 0x00000002       | La requête est terminée.                            |
@@ -6872,7 +6891,7 @@ Le message CPMCompareBmkOut répond à un message CPMCompareBmkIn avec la compar
 
 
 
-| Valeur                               | Signification                                                           |
+| Value                               | Signification                                                           |
 |-------------------------------------|-------------------------------------------------------------------|
 | DBCOMPARE \_ lt 0x00000000            | Le premier signet est positionné avant le deuxième.               |
 | DBCOMPARE \_ EQ 0x00000001            | Le premier signet a la même position que le second.           |
@@ -7347,7 +7366,7 @@ Si StatusUsed est défini sur 0x01 dans le CTableColumn du message CPMSetBinding
 
 
 
-| Valeur | Signification        |
+| Value | Signification        |
 |-------|----------------|
 | 0x00  | StatusOK       |
 | 0x01  | StatusDeferred |
@@ -8004,7 +8023,7 @@ Les implémentations d’indexation qui permettent d’indexer du contenu sécur
 
 
 
-| Comportement spécifique à la version                                                                         | Section   | Windows 2000 | Windows XP | Windows Server 2003 |
+| Comportement spécifique à la version                                                                         | Section   | Windows 2000 | Windows XP | Windows Server 2003 |
 |---------------------------------------------------------------------------------------------------|-----------|--------------|------------|---------------------|
 | Ce protocole est implémenté sur Windows 2000, Windows XP, Windows Server 2003 et Windows Vista. | 1.3.2     | X            | X          | X                   |
 | Les applications interagissent généralement avec un wrapper d’interface OLE DB                                  | 1.4       | X            | X          | X                   |

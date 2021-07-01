@@ -14,22 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c0ced3c9747f0bfbdf01847b21350a45b68aa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: a1f019af77ef0021ad0574bf703ff2a2a52ac0f6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211751"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118784"
 ---
 # <a name="do-statement"></a>Instruction do
 
 Exécuter une série d’instructions en continu jusqu’à ce que l’expression conditionnelle échoue.
 
-
-
-|                                                                     |
-|---------------------------------------------------------------------|
-| \[*Attribut* \] { *bloc d’instructions*;} while ( *conditionnel* ); |
+\[*Attribut* \] { *bloc d’instructions*;} while ( *conditionnel* );
 
 
 

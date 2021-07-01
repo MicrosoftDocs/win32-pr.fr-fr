@@ -4,12 +4,12 @@ ms.assetid: 14ae2c97-8596-46db-a55c-ef706d2cd00b
 title: Documents XPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa96324014d00a2a9fc106347fbeafe9842dedd9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 625c2f04a43db9433fe125b52a4bbc08e37fb4f4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545113"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119984"
 ---
 # <a name="xps-documents"></a>Documents XPS
 
@@ -69,7 +69,7 @@ Cette section décrit les technologies de document Windows natives prises en cha
 
 
 
-|                                                                    |                                                                                                                                                                                                                                 |
+| Technologie de document                                                                   | Description                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [API de document XPS](documents-xps.md)<br/>                   | Fournit un format fiable pour le papier électronique.<br/> L’API de document XPS décrite dans cette section donne aux programmes et aux pilotes d’impression XPSDrv l’accès au contenu et aux métadonnées d’un document XPS.<br/> |
 | [API de signature numérique XPS](xps-digital-signatures.md)<br/> | Active la signature de documents, la vérification de l’identité du signataire et l’indication si un document XPS a été modifié depuis sa signature.<br/>                                                                          |

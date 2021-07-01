@@ -4,12 +4,12 @@ description: Cette rubrique traite de la prise en charge de Microsoft DirectComp
 ms.assetid: a0f41cc6-e848-4831-8063-609e17d9b4c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27a1fec5774d208f240e6d2f1c8b7df09d25c486
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 991e1205422864efdec82bbd4067b9c7662aaf29
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104561842"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118654"
 ---
 # <a name="transforms-directcomposition"></a>Transformations (DirectComposition)
 
@@ -36,31 +36,38 @@ Une transformation 2D vous permet de modifier la position, la taille ou la natur
 
 Une transformation 2D est obtenue en mappant les points d’un visuel d’une position à l’autre dans le même espace de coordonnées, ou d’un espace de coordonnées à un autre. Ce mappage est décrit par une table de valeurs appelée matrice de transformation, définie sous la forme d’une collection de trois lignes avec trois colonnes de valeurs à virgule flottante, comme indiqué dans le tableau suivant.
 
-
-
-|                 |                 |     |
-|-----------------|-----------------|-----|
-| M11Default : 1,0 | M12Default : 0,0 | 0.0 |
-| M21Default : 0,0 | M22Default : 1,0 | 0.0 |
-| M31OffsetX : 0,0 | M32OffsetY : 0,0 | 1.0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default : 1,0<br/>
+        M21Default : 0,0<br/>
+        M31OffsetX : 0,0
+    :::column-end:::
+    :::column:::
+        M12Default : 0,0<br/>
+        M22Default : 1,0<br/>
+        M32OffsetY : 0,0
+    :::column-end:::
+    :::column:::
+        0.0<br/>
+        0.0<br/>
+        1,0
+    :::column-end:::
+:::row-end:::
 
 La matrice de transformation pour les transformations 2D affines est une matrice 3 par 2 qui omet la troisième colonne de la matrice de transformation précédente. Le tableau suivant montre la disposition de cette matrice.
 
-
-
-|                 |                 |
-|-----------------|-----------------|
-| M11Default : 1,0 | M12Default : 0,0 |
-| M21Default : 0,0 | M22Default : 1,0 |
-| M31OffsetX : 0,0 | M32OffsetY : 0,0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default : 1,0<br/>
+        M21Default : 0,0<br/>
+        M31OffsetX : 0,0
+    :::column-end:::
+    :::column:::
+        M12Default : 0,0<br/>
+        M22Default : 1,0<br/>
+        M32OffsetY : 0,0
+    :::column-end:::
+:::row-end:::
 
 > [!Note]  
 > DirectComposition n’effectue pas de traitement spécial lors de l’application de transformations 2D au contenu stéréo. Cela signifie que le contenu 3D peut apparaître disproportionné lorsqu’une transformation 2D est appliquée.

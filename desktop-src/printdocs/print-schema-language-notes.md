@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Passez en revue les notes relatives au langage du schéma d’impression. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: a14462de-19bd-472d-a073-3a9810c0aee9
 title: Remarques sur le langage du schéma d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d4c4a6c5d169d02844027b1e3af55f8fb1a8789
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 69bd25354860abe1fe7cd92600482398a03d7e39
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211321"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118984"
 ---
 # <a name="print-schema-language-notes"></a>Remarques sur le langage du schéma d’impression
 

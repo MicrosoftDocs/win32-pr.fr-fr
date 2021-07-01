@@ -4,12 +4,12 @@ description: Vue d’ensemble du système de fichiers projetés (ProjFS) Windows
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/14/2018
 ms.topic: article
-ms.openlocfilehash: 8391ec63f23c9ebae5b47e4cac862f6ab3079ceb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68f121162efdf75fb9226b41f9b3a1121bef6480
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842374"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120584"
 ---
 # <a name="windows-projected-file-system-projfs"></a>Système de fichiers projetés (ProjFS) Windows
 
@@ -28,7 +28,7 @@ Le système de fichiers projeté Windows (ProjFS) permet à une application en m
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-|                                                                                                              |                                                                                   |
+| Rubrique                                                                                                             | Description                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [Exemple RegFS](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | Exemple de fournisseur ProjFS qui projette le Registre Windows dans le système de fichiers. |
 <!--

@@ -4,12 +4,12 @@ description: API de mastérisation d’image
 ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 641d9357496eb82a7e30f25a711928b16eeee2bb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c7fabf41d1c82420709b39bb5db03c2ac3e851d2
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117577"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119675"
 ---
 # <a name="image-mastering-api"></a>API de mastérisation d’image
 
@@ -53,7 +53,7 @@ Vous trouverez des informations supplémentaires sur IMAPi et d’autres sujets 
 
 
 
-|                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                    |
+| Rubrique                                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                   |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Blog Microsoft Optical Storage](/archive/blogs/opticalstorage/)                | Met en évidence les rubriques qui se concentrent sur l’implémentation de l’API de mastérisation d’image dans les scénarios de développement réel.                                                                                                                                                                                                                                                 |
 | [Forum de discussion sur les plateformes optiques](https://social.msdn.microsoft.com/forums/windowsopticalplatform/threads/)              | Discutez des problèmes de CDROM.SYS, IMAPIv2 et de système de fichiers en direct. Ce forum se concentre sur les rubriques au niveau du système et est destiné aux développeurs d’applications plutôt qu’à utilisateurs.                                                                                                                                                                                                 |

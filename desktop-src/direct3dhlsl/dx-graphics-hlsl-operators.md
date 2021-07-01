@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69fc29f366fa781483edb5fd4653674b387fd156
-ms.sourcegitcommit: 37fb32f6150b6ca1db6c52d68a553ec2c8c0879a
+ms.openlocfilehash: d7a44fe02983038658247fedaec7122f09306548
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "104462758"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119604"
 ---
 # <a name="operators"></a>Opérateurs
 
@@ -22,9 +22,8 @@ Les expressions sont des séquences de [variables](dx-graphics-hlsl-variable-syn
 
 
 
-|                                                                                 |                                                                    |
+| Nom de l'opérateur                                                                                | Opérateurs                                                                   |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| Nom de l’opérateur                                                                   | Opérateurs                                                          |
 | [Opérateurs d’addition et de multiplication](#additive-and-multiplicative-operators) | +, -, \*, /, %                                                     |
 | [Array, opérateur](#array-operator)                                               | \[i\]                                                              |
 | [Opérateurs d’assignation](#assignment-operators)                                   | =, +=, -=, \*=, /=, %=                                             |
@@ -40,7 +39,7 @@ Les expressions sont des séquences de [variables](dx-graphics-hlsl-variable-syn
 
 
 
- 
+ 
 
 La plupart des opérateurs sont par composant, ce qui signifie que l’opération est effectuée indépendamment pour chaque composant de chaque variable. Par exemple, une seule variable de composant a une opération effectuée. D’un autre côté, une variable à quatre composants a quatre opérations effectuées, une pour chaque composant.
 
@@ -259,13 +258,12 @@ Le langage HLSL prend en charge les opérateurs de bits suivants, qui suivent la
 > [!Note]  
 > Les opérateurs au niveau du bit nécessitent le [modèle de nuanceur 4 \_ 0](dx-graphics-hlsl-sm4.md) avec Direct3D 10 et un matériel supérieur.
 
- 
+ 
 
 
 
-|           |                   |
+| Opérateur          |  Fonction                 |
 |-----------|-------------------|
-| Opérateur  | Fonction          |
 | ~         | Not logique       |
 | <<  | Décalage vers la gauche        |
 | >>  | Décalage vers la droite       |
@@ -280,7 +278,7 @@ Le langage HLSL prend en charge les opérateurs de bits suivants, qui suivent la
 
 
 
- 
+ 
 
 Les opérateurs au niveau du bit sont définis pour fonctionner uniquement sur les types de données int et uint. Toute tentative d’utilisation d’opérateurs de bits sur float, ou de types de données struct, génère une erreur.
 
@@ -530,7 +528,7 @@ int j = +i2;       // j = +2
 
 Lorsqu’une expression contient plusieurs opérateurs, la priorité des opérateurs détermine l’ordre d’évaluation. La priorité des opérateurs pour le langage HLSL suit la même priorité que C.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les accolades ( {,} ) commencent et terminent un bloc d’instructions. Lorsqu’un bloc d’instructions utilise une seule instruction, les accolades sont facultatives.
 
@@ -541,9 +539,9 @@ Les accolades ( {,} ) commencent et terminent un bloc d’instructions. Lorsqu�
 [Instructions (DirectX HLSL)](dx-graphics-hlsl-statements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

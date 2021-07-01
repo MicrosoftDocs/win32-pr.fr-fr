@@ -14,22 +14,19 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c65049acce4265dd2abdf849119aad5902db9e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4af131ca3a126cd6f1fd54160418bfbe70cc9cce
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103761923"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119084"
 ---
 # <a name="switch-statement"></a>Instruction switch
 
 Transférer le contrôle à un autre bloc d’instructions dans le corps du commutateur en fonction de la valeur d’un sélecteur.
 
 
-
-|                                                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*Attribut* \] commutateur ( *Sélecteur* ) {case 0 : { *StatementBlock*;}   saut   cas 1 : { *StatementBlock*;}   saut   cas n : { *StatementBlock*;}   saut   valeur par défaut : { *StatementBlock*;}   saut |
+\[*Attribut* \] commutateur ( *Sélecteur* ) {case 0 : { *StatementBlock*;}   saut   cas 1 : { *StatementBlock*;}   saut   cas n : { *StatementBlock*;}   saut   valeur par défaut : { *StatementBlock*;}   saut
 
 
 
@@ -112,7 +109,7 @@ Une ou plusieurs [instructions](dx-graphics-hlsl-statement-blocks.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 ```

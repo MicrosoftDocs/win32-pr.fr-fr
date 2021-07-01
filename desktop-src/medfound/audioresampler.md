@@ -4,12 +4,12 @@ ms.assetid: bee755c4-0585-40fb-aa4d-4e964f5144a3
 title: Resampler audio - DSP (Wmcodecdsp.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb173fa4f8d964bec1102c4cfeefa4bf83f1ffe
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8dbf5e640ffd128a5b9249514284ecef16c5f57e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106524790"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119413"
 ---
 # <a name="audio-resampler-dsp"></a>Modèle de rééchantillonnage audio DSP
 
@@ -85,8 +85,8 @@ Le tableau suivant présente les coefficients par défaut pour le mappage de 6 c
 
 |     | L     | R     | C     | LFE   | BL    | BR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| L   | 0,314 | 0     | 0,222 | 0,031 | 0,268 | 0,164 |
-| R   | 0     | 0,314 | 0,222 | 0,031 | 0,164 | 0,268 |
+| **L**   | 0,314 | 0     | 0,222 | 0,031 | 0,268 | 0,164 |
+| **R**   | 0     | 0,314 | 0,222 | 0,031 | 0,164 | 0,268 |
 
 
 
@@ -98,8 +98,8 @@ Le tableau suivant indique les coefficients par défaut pour le mappage de 6 can
 
 |     | L     | R     | C     | LFE   | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|
-| L   | 0,320 | 0     | 0,226 | 0,032 | 0,292 | 0,130 |
-| R   | 0     | 0,320 | 0,226 | 0,032 | 0,130 | 0,292 |
+| **L**   | 0,320 | 0     | 0,226 | 0,032 | 0,292 | 0,130 |
+| **R**   | 0     | 0,320 | 0,226 | 0,032 | 0,130 | 0,292 |
 
 
 
@@ -111,7 +111,7 @@ Le tableau suivant indique les coefficients par défaut pour le mappage de canau
 
 |     | L     | R     | C     | LFE   | BL (SL) | BR (SR) |
 |-----|-------|-------|-------|-------|--------|--------|
-| C   | 0,192 | 0,192 | 0,192 | 0,038 | 0,192  | 0,192  |
+| **C**   | 0,192 | 0,192 | 0,192 | 0,038 | 0,192  | 0,192  |
 
 
 
@@ -123,8 +123,8 @@ Le tableau suivant indique les coefficients par défaut pour le mappage de 8 can
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0,222 | 0     | 0,157 | 0,022 | 0,189 | 0,116 | 0,203 | 0,090 |
-| R   | 0     | 0,222 | 0,157 | 0,022 | 0,116 | 0,189 | 0,090 | 0,203 |
+| **L**   | 0,222 | 0     | 0,157 | 0,022 | 0.189 | 0,116 | 0,203 | 0,090 |
+| **R**   | 0     | 0,222 | 0,157 | 0,022 | 0,116 | 0.189 | 0,090 | 0,203 |
 
 
 
@@ -136,7 +136,7 @@ Le tableau suivant indique les coefficients par défaut pour le mappage de 8 can
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| C   | 0,139 | 0,139 | 0,139 | 0,028 | 0,139 | 0,139 | 0,139 | 0,139 |
+| **C**   | 0,139 | 0,139 | 0,139 | 0,028 | 0,139 | 0,139 | 0,139 | 0,139 |
 
 
 
@@ -148,12 +148,12 @@ Le tableau suivant présente les coefficients par défaut pour le mappage de 8 c
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0,518 | 0     | 0     | 0     | 0     | 0     | 0,189 | 0     |
-| R   | 0     | 0,518 | 0     | 0     | 0     | 0     | 0     | 0,189 |
-| C   | 0     | 0     | 0,518 | 0     | 0     | 0     | 0     | 0     |
-| LFE | 0     | 0     | 0     | 0,518 | 0     | 0     | 0     | 0     |
-| BL  | 0     | 0     | 0     | 0     | 0,518 | 0     | 0,482 | 0     |
-| BR  | 0     | 0     | 0     | 0     | 0     | 0,518 | 0     | 0,482 |
+| **L**   | 0,518 | 0     | 0     | 0     | 0     | 0     | 0.189 | 0     |
+| **R**   | 0     | 0,518 | 0     | 0     | 0     | 0     | 0     | 0.189 |
+| **C**   | 0     | 0     | 0,518 | 0     | 0     | 0     | 0     | 0     |
+| **LFE** | 0     | 0     | 0     | 0,518 | 0     | 0     | 0     | 0     |
+| **BL**  | 0     | 0     | 0     | 0     | 0,518 | 0     | 0,482 | 0     |
+| **BR**  | 0     | 0     | 0     | 0     | 0     | 0,518 | 0     | 0,482 |
 
 
 
@@ -165,12 +165,12 @@ Le tableau suivant présente les coefficients par défaut pour le mappage de 8 c
 
 |     | L     | R     | C     | LFE   | BL    | BR    | SL    | SR    |
 |-----|-------|-------|-------|-------|-------|-------|-------|-------|
-| L   | 0,447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
-| R   | 0     | 0,447 | 0     | 0     | 0     | 0     | 0     | 0     |
-| C   | 0     | 0     | 0,447 | 0     | 0     | 0     | 0     | 0     |
-| LFE | 0     | 0     | 0     | 0,447 | 0     | 0     | 0     | 0     |
-| SL  | 0     | 0     | 0     | 0     | 0,429 | 0,124 | 0,447 | 0     |
-| SR  | 0     | 0     | 0     | 0     | 0,124 | 0,429 | 0     | 0,447 |
+| **L**   | 0,447 | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
+| **R**   | 0     | 0,447 | 0     | 0     | 0     | 0     | 0     | 0     |
+| **C**   | 0     | 0     | 0,447 | 0     | 0     | 0     | 0     | 0     |
+| **LFE** | 0     | 0     | 0     | 0,447 | 0     | 0     | 0     | 0     |
+| **SL**  | 0     | 0     | 0     | 0     | 0,429 | 0,124 | 0,447 | 0     |
+| **DEMANDE**  | 0     | 0     | 0     | 0     | 0,124 | 0,429 | 0     | 0,447 |
 
 
 
@@ -194,11 +194,11 @@ R_out = R*0.314 + C*0.222 + LFE*0.031 + BL*0.164 + BR*0.268
 
 Vous pouvez spécifier la qualité de sortie du modèle DSP de l’échantillon audio en appelant [**IWMResamplerProps :: SetHalfFilterLength**](/windows/desktop/api/wmcodecdsp/nf-wmcodecdsp-iwmresamplerprops-sethalffilterlength) ou en définissant la propriété [**MFPKEY \_ WMRESAMP \_ FILTERQUALITY**](mfpkey-wmresamp-filterquality.md) . Si vous ne spécifiez pas la qualité de sortie, le fournisseur de rééchantillonnages audio utilise une valeur de qualité par défaut de 30.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                             |
 | Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                       |

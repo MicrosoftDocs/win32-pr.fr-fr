@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément PageScaling. Cet élément décrit les caractéristiques de mise à l’échelle de la sortie.
 ms.assetid: cf35bb37-bf67-4e86-bfef-9838606982a5
 title: PageScaling
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e32beceead1c0dc867a2bb7b24d476ef05bf8820
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 795332f38da331a9f16b614154bf0a9270e613de
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997496"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119034"
 ---
 # <a name="pagescaling"></a>PageScaling
 
@@ -19,7 +19,7 @@ Décrit les caractéristiques de mise à l’échelle de la sortie. Certaines op
 
 
 
-|                          |                                                                                                                                                                                                                                                       |
+| Caractéristiques de la mise à l’échelle                         | Description                                                                                                                                                                                                                                                      |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Taille du média d’application   | Dimensions des médias définies par la disposition de l’application. La taille du média d’application peut ou ne peut pas correspondre à un PageMediaSize pris en charge par le consommateur.<br/>                                                                          |
 | Taille du contenu de l’application | Dimensions des médias définies par la disposition de l’application. La taille du média d’application peut ou ne peut pas correspondre à un PageMediaSize pris en charge par le consommateur.<br/>                                                                          |
@@ -41,7 +41,7 @@ Décrit les caractéristiques de mise à l’échelle de la sortie. Certaines op
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                    |
 | Préfixe d’étendue <br/> | Page<br/>                                                                                                                                                                                       |
-| Notes <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize. Les coordonnées sont relatives à PageImageableSize, où l’origine de est relative à l’origine du PageImageableSize.<br/> |
+| Remarques <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize. Les coordonnées sont relatives à PageImageableSize, où l’origine de est relative à l’origine du PageImageableSize.<br/> |
 
 
 

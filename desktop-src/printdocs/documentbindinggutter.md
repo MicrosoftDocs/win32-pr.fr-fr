@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Recherchez des informations sur le paramètre DocumentBindingGutter. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2372636ea22610e6a209cfad3f1fe6297be34833
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 45839aa07d740d8498e477809b45aa823460b23f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997186"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118464"
 ---
 # <a name="documentbindinggutter"></a>DocumentBindingGutter
 
@@ -28,7 +28,7 @@ Spécifie la largeur de la marge de liaison.
 |----------------------------|----------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                      |
 | Préfixe d’étendue <br/> | Document<br/>                          |
-| Notes <br/>          | Lié à l’élément DocumentBinding<br/> |
+| Remarques <br/>          | Lié à l’élément DocumentBinding<br/> |
 
 
 
@@ -78,7 +78,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

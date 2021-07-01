@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe3cd51c81617632d240dd06df5c8f61b103bf91
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c0206f7030d3b3a05570e74273d9510bb9c2592c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031266"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119574"
 ---
 # <a name="sampler-type"></a>Type d’échantillonneur
 
@@ -91,11 +91,9 @@ Direct3D 10 et versions ultérieures uniquement. Taille de tableau facultative 
 
 \[dans \] le type d’échantillonneur, qui est l’un des suivants : *échantillonner*, *sampler1D*, *sampler2D*, *sampler3D*, *samplerCUBE*, état de l' *échantillonneur \_*, *SamplerState*.
 
+Différences entre Direct3D 9 et Direct3D 10 et versions ultérieures :
 
-
-|                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 et versions ultérieures :<br/> Direct3D 10 et versions ultérieures prennent en charge un type d’échantillonneur supplémentaire : *SamplerComparisonState*.<br/> |
+- Direct3D 10 et versions ultérieures prennent en charge un type d’échantillonneur supplémentaire : *SamplerComparisonState*.
 
 
 
@@ -138,7 +136,7 @@ La partie droite de chaque expression correspond à la valeur affectée à chaqu
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous implémentez un effet, l’état de l’échantillonneur est l’un des différents types d’État que vous devrez peut-être configurer dans le pipeline pour le rendu. Pour obtenir la liste de tous les États possibles que vous pouvez définir dans un effet, consultez :
 

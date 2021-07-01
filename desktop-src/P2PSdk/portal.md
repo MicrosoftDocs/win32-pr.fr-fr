@@ -4,12 +4,12 @@ ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: Pair à pair
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a62469eee79fbc501da911a60d8e21e3c6e94452
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ed371f203d34166f1d84462a363326adc32100ae
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094557"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118604"
 ---
 # <a name="peer-to-peer"></a>Pair à pair
 
@@ -57,7 +57,7 @@ L’infrastructure homologue est prise en charge dans Windows Vista, Windows XP 
 
 Vous trouverez des informations supplémentaires sur les technologies pair à pair aux emplacements suivants :
 
-|                                                                                                           |                                                                                                                |
+| Rubrique                                                                                                          | Description                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [Ressources de réseau homologue Windows](https://www.microsoft.com/p2p)                       | Accédez à des livres blancs, des exemples et des présentations publiés détaillant la technologie de mise en réseau pair à pair.<br/> |
 | [Blog Microsoft Peer Networking](/archive/blogs/p2p/)                          | Lisez les dernières entrées de blog de l’équipe de mise en réseau pair à pair de Microsoft.<br/>                                 |

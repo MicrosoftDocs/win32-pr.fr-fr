@@ -4,12 +4,12 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: Filtre de convertisseur plein écran
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c175907ef0f60c3b1fe183eb0941b5118d24c9f2
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3d331ff6f31d1c985c7e255b23381a289931da60
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908607"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120474"
 ---
 # <a name="full-screen-renderer-filter"></a>Filtre de convertisseur plein écran
 
@@ -19,7 +19,7 @@ N’ajoutez pas manuellement ce filtre au graphique de filtre. Si une applicatio
 
 
 
-| Étiquette | Valeur |
+| Étiquette | Value |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Interfaces de filtre                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter), [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex), [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition), [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking), [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol), [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | Types de média de broche d’entrée                    | \_Vidéo MediaType, MEDIASUBTYPE \_ null                                                                                                                                                                                                               |
@@ -42,9 +42,8 @@ Le convertisseur plein écran prend en charge un ensemble statique de modes d’
 
 
 
-| Étiquette | Value |
-|------|-------|--------|-----------|
 | Mode | Largeur | Hauteur | Profondeur de bit |
+|------|-------|--------|-----------|
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
 | 2    | 320   | 240    | 16        |

@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0ad4be68049c92955c5ddb06a0c5eccfe2c26b77
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: bb6ef3c35af60ea776622718099acdedb5188ba8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841649"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119835"
 ---
 # <a name="getdimensions-directx-hlsl-texture-object"></a>GetDimensions, (objet texture HLSL DirectX)
 
 Obtient des informations sur la taille de la texture. Le bloc de syntaxe affiche tous les paramètres possibles dans la déclaration de méthode. Le tableau de la section Notes montre quels paramètres sont implémentés pour chaque type d’objet texture.
 
-
-
-|                                                                                                                                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| void Object. GetDimensions, (UINT MipLevel, typeX Width, typeX Height, typeX Elements, typeX Depth, typeX NumberOfLevels, typeX NumberOfSamples); |
+void Object. GetDimensions, (UINT MipLevel, typeX Width, typeX Height, typeX Elements, typeX Depth, typeX NumberOfLevels, typeX NumberOfSamples);
 
 
 

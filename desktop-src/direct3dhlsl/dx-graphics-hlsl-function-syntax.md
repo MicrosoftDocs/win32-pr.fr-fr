@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2781d173eb4a1c18a661495d9fb55a0cced81921
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 847194c08b865542cff1deb20c8518a7e4b62ab9
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998326"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119044"
 ---
 # <a name="function-declaration-syntax"></a>Syntaxe de la déclaration des fonctions
 
 Les fonctions HLSL sont déclarées avec la syntaxe suivante.
 
-
-
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*StorageClass* \] \[clipplanes () \] \[ \] \_ *nom* de valeur de retour précis ( \[ *argumentlist* \] ) \[ : *sémantique* \] { \[ *StatementBlock* \] }; |
+\[*StorageClass* \] \[clipplanes () \] \[ \] \_ *nom* de valeur de retour précis ( \[ *argumentlist* \] ) \[ : *sémantique* \] { \[ *StatementBlock* \] };
 
 
 

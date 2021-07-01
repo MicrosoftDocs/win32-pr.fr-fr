@@ -1,16 +1,16 @@
 ---
-description: Les classes WMI C++ qui font partie de l’infrastructure du fournisseur WMI sont maintenant considérées dans l’état final.
+description: Découvrez les classes WMI C++ qui font partie de l’infrastructure du fournisseur WMI et qui sont maintenant considérées dans l’état final.
 ms.assetid: 062a7724-0589-4e9d-af7a-39fd9c08e40b
 ms.tgt_platform: multiple
 title: Classes de l’infrastructure du fournisseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1562d00e6b3b1563ece933ba7dd9361dd8a5d94f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bf4ef94b25e51b7f012987552babd30a93e7792
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520998"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120444"
 ---
 # <a name="provider-framework-classes"></a>Classes de l’infrastructure du fournisseur
 

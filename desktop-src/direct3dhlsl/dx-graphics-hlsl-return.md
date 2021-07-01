@@ -13,26 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 525abf6d815d2073ee39a6bc6a5a81120cf652ee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 876c69f3ecfcf1ee1c8391ccc503b2316056b37a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104971470"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119584"
 ---
 # <a name="return-statement"></a>Instruction return
 
 Une instruction return signale la fin d’une fonction.
 
-
-
-|                   |
-|-------------------|
-| valeur de retour \[ \] ; |
+valeur de retour \[ \] ;
 
 
 
- 
+ 
 
 L’instruction return la plus simple retourne le contrôle de la fonction au programme appelant ; elle ne retourne aucune valeur.
 
@@ -116,9 +112,9 @@ VS_OUTPUT VertexShader_Tutorial_1(float4 inPos : POSITION )
 [Fonctions (DirectX HLSL)](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

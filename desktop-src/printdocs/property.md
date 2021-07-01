@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément Property dans les documents et l’impression. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 14631336-adfc-4edf-81ef-63e426d41c87
 title: Propriété (documents et impression)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9fb4a057b2cf7795262b595c59f9da0343fdf12
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4e43b52c054972ee0ee2b8a535021581c05e7d96
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321722"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120294"
 ---
 # <a name="property-documents-and-printing"></a>Propriété (documents et impression)
 

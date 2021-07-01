@@ -4,12 +4,12 @@ ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
 title: Processus d’indexation dans la recherche Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87867d5925cd53b237092435bbc9d16428418b4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b819a056b9a3dd44ea799ee56ae6b2e87606f552
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103750404"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119534"
 ---
 # <a name="indexing-process-in-windows-search"></a>Processus d’indexation dans la recherche Windows
 
@@ -17,7 +17,7 @@ Cette rubrique décrit les trois étapes du processus d’indexation et les prin
 
 Cette rubrique est organisée comme suit :
 
-- [Vue d’ensemble](#overview)
+- [Présentation](#overview)
 - [Étape 1 : mise en file d’attente des URL pour l’indexation](#stage-1-queuing-urls-for-indexing)
 - [Étape 2 : analyse des URL](#stage-2-crawling-urls)
 - [Étape 3 : mise à jour de l’index](#stage-3-updating-the-index)
@@ -27,7 +27,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="overview"></a>Vue d’ensemble
 
-Windows Search prend en charge l’indexation de propriétés et de contenu à partir de fichiers de différents formats de fichier, tels que des formats. doc ou. jpeg, et de magasins de données, tels que les boîtes aux lettres du système de fichiers ou de Windows Outlook. Il existe deux types d’index : les index de valeur qui permettent le filtrage et le tri par la valeur entière d’une propriété et les index inversés qui indexent les mots dans les propriétés textuelles ou le contenu. Si vous disposez d’un format de fichier personnalisé ou d’un magasin de données, vous devez comprendre comment Windows Search indexe pour que vos éléments soient indexés correctement.
+Windows Search prend en charge l’indexation de propriétés et de contenu à partir de fichiers de différents formats de fichiers, tels que des formats .doc ou. jpeg, et de magasins de données, tels que les boîtes aux lettres du système de fichiers ou de Windows Outlook. Il existe deux types d’index : les index de valeur qui permettent le filtrage et le tri par la valeur entière d’une propriété et les index inversés qui indexent les mots dans les propriétés textuelles ou le contenu. Si vous disposez d’un format de fichier personnalisé ou d’un magasin de données, vous devez comprendre comment Windows Search indexe pour que vos éléments soient indexés correctement.
 
 Le processus d’indexation s’effectue en trois étapes, contrôlées par un composant de recherche Windows appelé rassembleur. Dans la première étape, le rassembleur ajoute des URL aux files d’attente. Les URL identifient les éléments à indexer et les files d’attente sont simplement des listes de priorités d’URL. Au cours de la deuxième étape, le rassembleur coordonne d’autres composants Windows Search et tiers pour accéder aux éléments et collecter des données à leur sujet. Enfin, dans la troisième étape, les données collectées sont ajoutées à l’index.
 
@@ -101,14 +101,14 @@ Le tableau suivant répertorie les résultats que le rassembleur reçoit d’un 
 
 |                            | [**Filtres**](/windows/win32/api/filter/nn-filter-ifilter) | [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) |
 |----------------------------|------------------------------------|-------------------------------------------------|
-| Autoriser l’écriture                | Non                                 | Oui                                             |
-| Mélanger le contenu et les propriétés | Oui                                | Non                                              |
-| Multilingue               | Oui                                | Non                                              |
-| Émettre des liens                 | Oui                                | Non                                              |
-| MIME                       | Oui                                | Non                                              |
-| Limites du texte            | Phrase, paragraphe, chapitre       | Aucun                                            |
-| Client/serveur            | Les deux                               | Client                                          |
-| Implémentation             | Complex                            | Simple                                          |
+| **Autoriser l’écriture**                | Non                                 | Oui                                             |
+| **Mélanger le contenu et les propriétés** | Oui                                | Non                                              |
+| **Multilingue**               | Oui                                | Non                                              |
+| **Émettre des liens**                 | Oui                                | Non                                              |
+| **MIME**                       | Oui                                | Non                                              |
+| **Limites du texte**            | Phrase, paragraphe, chapitre       | Aucun                                            |
+| **Client/serveur**            | Les deux                               | Client                                          |
+| **Implémentation**             | Complex                            | Simple                                          |
 
 **Gestionnaires de propriétés**  Les gestionnaires de propriétés sont des composants qui lisent et écrivent des propriétés pour un format de fichier particulier. Ils accèdent aux éléments et émettent des propriétés pour le rassembleur de la même façon que les filtres pour le contenu. Les gestionnaires de propriétés sont plus faciles à implémenter que les filtres. Si un format de fichier texte est très simple ou si les fichiers sont censés être très petits, le gestionnaire de propriétés peut émettre des propriétés et du contenu.
 

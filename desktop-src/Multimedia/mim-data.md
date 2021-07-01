@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f96d2c23e64700a7a923cdd7633dabfcba9d1d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844402"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118404"
 ---
 # <a name="mim_data-message"></a>\_Message de données MIM
 
@@ -45,7 +45,7 @@ Message MIDI qui a été reçu. Le message est empaqueté dans une valeur de mot
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value | Description |
 |-----------|-----------------|-----------------------------------------------------|
 | Mot haut | Octet de poids fort | Non utilisé.                                           |
 |           | Octet de poids faible  | Contient un deuxième octet de données MIDI (si nécessaire).  |
@@ -71,17 +71,17 @@ Heure à laquelle le message a été reçu par le pilote de périphérique d’e
 
 Ce message ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’état d’exécution des messages MIDI reçus d’un port d’entrée MIDI est désactivé ; chaque message est développé pour inclure l’octet d’État MIDI.
 
 Ce message n’est pas envoyé lorsqu’un message MIDI système exclusif est reçu.
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |

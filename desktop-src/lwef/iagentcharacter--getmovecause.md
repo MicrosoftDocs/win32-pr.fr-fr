@@ -4,12 +4,12 @@ description: IAgentCharacter GetMoveCause
 ms.assetid: 36cdd3bc-65b6-469f-9344-93403c1d24e0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 612fcbfd4470d17e2365373458a8ded899a8180a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be943cf3b25b789838215f0209b16e67d5b50659
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380446"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119683"
 ---
 # <a name="iagentcharactergetmovecause"></a>IAgentCharacter::GetMoveCause
 
@@ -34,7 +34,7 @@ Adresse d’une variable qui reçoit la cause du dernier déplacement du caract�
 
 
 
-|                                                                |                                                                                      |
+| Value                                                               | Description                                                                                     |
 |----------------------------------------------------------------|--------------------------------------------------------------------------------------|
 | **const unsigned short** **NeverMoved = 0 ;**<br/>        | Le caractère n’a pas été déplacé.                                                        |
 | **const unsigned short** **UserMoved = 1 ;**<br/>         | L’utilisateur a fait glisser le caractère.                                                          |
