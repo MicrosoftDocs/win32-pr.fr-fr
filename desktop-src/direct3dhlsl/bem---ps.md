@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7c591555e2cbd2c6eaebf6e392bb94d6ec50e748
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1adae07e3e2ebbca085981ca03a3b6449e2ffd9d
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381195"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129928"
 ---
 # <a name="bem---ps"></a>Bem-PS
 
@@ -29,7 +29,7 @@ Appliquez une transformation de mappage d’environnement factice.
 
 
 
- 
+ 
 
 where
 
@@ -37,7 +37,7 @@ where
 -   src0 est un registre source.
 -   src1 est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -47,7 +47,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction effectue le calcul suivant.
 
@@ -76,13 +76,13 @@ Règles d’utilisation de BEM :
 
 
 
-|                          |            |
+| Condition requise                         | Value           |
 |--------------------------|------------|
 | Système d’exploitation minimal | Windows 98 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -91,9 +91,9 @@ Règles d’utilisation de BEM :
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

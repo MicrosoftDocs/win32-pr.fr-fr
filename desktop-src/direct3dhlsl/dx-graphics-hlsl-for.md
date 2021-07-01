@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50f8c18ebc23455563b4b3e6bfee72bfa9d3ec4c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0cbcf06f28a327e18aa9f31b417dc1911411d0c9
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100889"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119075"
 ---
 # <a name="for-statement"></a>Instruction for
 
 Exécute itérativement une série d’instructions, en fonction de l’évaluation de l’expression conditionnelle.
 
-
-
-|                                                                                       |
-|---------------------------------------------------------------------------------------|
-| \[*Attribut* \] pour ( *initialiseur ; Conditionnel Iterator* ) { *bloc d’instructions*;} |
+\[*Attribut* \] pour ( *initialiseur ; Conditionnel Iterator* ) { *bloc d’instructions*;}
 
 
 
@@ -86,7 +82,7 @@ Une ou plusieurs [instructions HLSL](dx-graphics-hlsl-statement-blocks.md).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les attributs de **\[ boucle \]** et de **\[ déroulabilité \]** s’excluent mutuellement et génèrent des erreurs de compilation lorsque les deux sont spécifiés.
 

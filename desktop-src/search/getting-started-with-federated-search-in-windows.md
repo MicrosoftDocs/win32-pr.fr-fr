@@ -1,15 +1,15 @@
 ---
-description: La prise en charge de Windows 7 pour la Fédération des recherches dans des magasins de données distants à l’aide des technologies OpenSearch permet aux utilisateurs d’accéder à leurs données distantes à partir de l’Explorateur Windows.
+description: En savoir plus sur la recherche fédérée, qui permet aux utilisateurs d’accéder à leurs données distantes à partir de l’Explorateur Windows et d’interagir avec eux.
 ms.assetid: c25dbc33-3f9a-4e40-965e-9be639ababed
 title: Prise en main avec la recherche fédérée dans Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058c1f887ff2bdba279cdd25e4910162dd9263d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2de3fc42686e94f2edc1c5d45bbb0374afe79535
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525468"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119064"
 ---
 # <a name="getting-started-with-federated-search-in-windows"></a>Prise en main avec la recherche fédérée dans Windows
 

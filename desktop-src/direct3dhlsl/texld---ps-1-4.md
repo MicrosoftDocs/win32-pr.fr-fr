@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d956d9176a6356dc3837ee4f4d13b5bb700dda98
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996866"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118824"
 ---
 # <a name="texld---ps_1_4"></a>texld-PS \_ 1 \_ 4
 
@@ -33,7 +33,7 @@ Charge le registre de destination avec les données de couleur (RVBA) échantill
 
 
 
-|          |                      | VN        | 8525  | TN  | RN  |              |
+| Value         | Description                     | VN        | 8525  | TN  | RN  | Version du nuanceur de pixels              |
 |----------|----------------------|-----------|-----|-----|-----|--------------|
 | dst      | Registre de destination |           |     |     | x   | 1\_4         |
 | src      | Registre source      |           |     | x   |     | 1 \_ 4 phase 1 |

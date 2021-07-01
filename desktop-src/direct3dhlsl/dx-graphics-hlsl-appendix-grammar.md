@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d2346e1ca2302f80c796558b4aa2bbdce016d494
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b77f1050beaee2b269d12e69704018e3c5abee6e
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507735"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129847"
 ---
 # <a name="grammar"></a>Grammaire
 
@@ -33,19 +33,11 @@ Les instructions HLSL sont construites à l’aide des règles suivantes pour la
 
 Les caractères suivants sont reconnus comme des espaces blancs.
 
-
-
-|                            |
-|----------------------------|
-| SPACE                      |
-| Tab                        |
-| ÉCHÉANCE                        |
-| Commentaires de style C (/ \* \* /) |
-| Commentaires de style C++ (//)    |
-
-
-
- 
+- SPACE
+- Tab
+- ÉCHÉANCE
+- Commentaires de style C (/ \* \* /)
+- Commentaires de style C++ (//)
 
 ## <a name="floating-point-numbers"></a>Nombres à virgule flottante
 
@@ -122,7 +114,7 @@ Les caractères sont représentés en langage HLSL comme suit :
 
 
 
-|                                           |                                                                 |
+| Caractère                                          | Description                                                                |
 |-------------------------------------------|-----------------------------------------------------------------|
 | « c »                                       | symbole                                                     |
 | ' \\ a' ' \\ b' ' \\ f' ' \\ b' ' \\ r' ' \\ t' ' \\ v' | d’échappement                                                       |
@@ -132,7 +124,7 @@ Les caractères sont représentés en langage HLSL comme suit :
 
 
 
- 
+ 
 
 Les séquences d’échappement ne sont pas prises en charge dans les expressions de préprocesseur.
 
@@ -172,9 +164,9 @@ Les identificateurs sont représentés en langage HLSL comme suit :
 [Annexe (DirectX HLSL)](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

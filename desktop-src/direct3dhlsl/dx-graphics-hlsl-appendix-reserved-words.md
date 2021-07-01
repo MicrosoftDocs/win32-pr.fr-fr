@@ -9,45 +9,39 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dcc8afe8b62f684f0630ba3ef2b8a1375b2e84d3
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dccc9aac1f06fff72f7dd5bd07ced73ac942ffe7
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030612"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129656"
 ---
 # <a name="reserved-words"></a>Mots réservés
 
 Les mots suivants sont réservés pour une utilisation par le langage HLSL. Ne les utilisez pas pour nommer des variables ou des fonctions dans votre code HLSL.
 
-
-
-|                                     |
-|-------------------------------------|
-| auto                                |
-| cas, catch                         |
-| type char, Class, const \_ cast            |
-| par défaut, supprimer, \_ Cast dynamique      |
-| enum                                |
-| explicit                            |
-| friend                              |
-| goto                                |
-| long                                |
-| mutable                             |
-| new                                 |
-| operator                            |
-| privé, protégé, public          |
-| réinterpréter le \_ cast                   |
-| short, Signed, sizeof, \_ Cast statique |
-| modèle, levée               |
-| try, TypeName                       |
-| Union, non signé                     |
-| using                               |
-| virtual                             |
-
-
-
- 
+:::column:::
+    auto
+    case, catch
+    char, class, const\_cast
+    default, delete, dynamic\_cast
+    enum
+    explicit
+    friend
+    goto
+    long
+    mutable
+    new
+    operator
+    private, protected, public
+    reinterpret\_cast
+    short, signed, sizeof, static\_cast
+    template, this, throw
+    try, typename
+    union, unsigned
+    using
+    virtual
+:::column-end:::
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -56,9 +50,9 @@ Les mots suivants sont réservés pour une utilisation par le langage HLSL. Ne l
 [Annexe (DirectX HLSL)](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

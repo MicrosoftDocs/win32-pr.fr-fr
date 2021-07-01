@@ -4,12 +4,12 @@ description: IAgentCharacter StopAll
 ms.assetid: cb0ce220-7b35-45c0-b587-30939d26740f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bbe745f0611d184fefd729c04e50635bc4006e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 558ca23b500ee2146470c8d595b2a5a64febf59a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509611"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120912"
 ---
 # <a name="iagentcharacterstopall"></a>IAgentCharacter :: StopAll
 
@@ -31,7 +31,7 @@ Champ de type de code qui indique les types de demandes à arrêter (et à suppr
 
 
 
-|                                                                                   |                                                                                                          |
+| Value                                                                                  |  Description                                                                                                        |
 |-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | **const type d’arrêt long non signé** **\_ \_ = 0xFFFFFFFF ;**<br/>              | Arrête toutes les demandes d’animation, y compris les demandes de [**préparation**](iagentcharacter--prepare.md) non mises en file d’attente. |
 | **const type d’arrêt long non signé** **\_ \_ lu = 0x00000001 ;**<br/>             | Arrête toutes les demandes de lecture.                                                                                 |

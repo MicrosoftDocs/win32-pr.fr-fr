@@ -4,18 +4,18 @@ ms.assetid: 7c9abda9-7968-463c-b4a9-19b54012ef56
 title: élément mfdetours
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c09d39d6f8a7c7ff1d88471e71c6fc58aa49bd62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cd03711c74c21a9a6ff33d2cc2560e4b6d6e0a3
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533768"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119334"
 ---
 # <a name="mfdetours-element"></a>élément mfdetours
 
 Spécifie le fournisseur de détournements de Microsoft Media Foundation, qui effectue le suivi des appels d’API Media Foundation.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <mfdetours
@@ -40,7 +40,7 @@ Spécifie le fournisseur de détournements de Microsoft Media Foundation, qui ef
 
 | Élément                               |
 |---------------------------------------|
-| [**keyword**](keyword.md)<br/> |
+| [**mot**](keyword.md)<br/> |
 
 
 
@@ -52,23 +52,22 @@ keyword+
 
 ## <a name="parent-elements"></a>Éléments parents
 
-
-
 | Élément                                   |
 |-------------------------------------------|
-| [**fournisseurs**](providers.md)<br/> |
+| [**éditeurs**](providers.md)<br/> |
 
 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-
-
-|              |     |
-|--------------|-----|
-| Peut être vide | Non  |
-
-
+:::row:::
+    :::column:::
+        Peut être vide
+    :::column-end:::
+    :::column span="2":::
+        Non
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>Voir aussi
 

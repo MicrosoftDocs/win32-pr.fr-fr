@@ -4,12 +4,12 @@ description: IAgentNotifySink DblClick
 ms.assetid: 7e86cc9b-8bc3-405e-9bbf-764cec9c3130
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ec7372d524027588dae5a0a3aafaf07146556e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88193f228f94d24384e6bf2b874e9208d67f3e9c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379946"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120922"
 ---
 # <a name="iagentnotifysinkdblclick"></a>IAgentNotifySink ::D blClick
 
@@ -44,7 +44,7 @@ Paramètre qui indique le bouton de la souris et l’état de la touche de modif
 
 
 
-|        |                                                |
+| Value  | Description                               |
 |--------|------------------------------------------------|
 | 0x0001 | Bouton gauche                                    |
 | 0x0010 | Bouton central                                  |
@@ -56,7 +56,7 @@ Paramètre qui indique le bouton de la souris et l’état de la touche de modif
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,9 +76,9 @@ Coordonnée y du pointeur de la souris en pixels, par rapport à l’origine de 
 
 Cet événement est envoyé au client d’entrée-actif du caractère. Si aucun des clients du caractère n’est en entrée-actif, le serveur notifie le client actif du caractère. Si le caractère est visible, le serveur rend également ce client en entrée-actif et envoie [**IAgentNotifySink :: ActivateInputState**](iagentnotifysink--activateinputstate.md). Si le caractère est masqué, le caractère s’affiche également automatiquement.
 
- 
+ 
 
- 
+ 
 
 
 

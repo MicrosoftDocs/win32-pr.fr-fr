@@ -4,12 +4,12 @@ description: Soyez efficace et naturel
 ms.assetid: 6642b41c-1833-41be-9de2-ef091cefaa45
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5de146d19f4b2bc3ce7ca1da78fb41a1e39df1dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e1e4d7410283de231d9ee08ca586e3b8067ebffa
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672454"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118434"
 ---
 # <a name="be-efficient-and-natural"></a>Soyez efficace et naturel
 
@@ -25,16 +25,9 @@ Le contexte partagé est également communiqué par l’utilisation de *points d
 
 La compréhension implicite peut également être transformatée par d’autres formes de style conversationnel abrégé, où le contenu est déduit sans répétition, comme illustré dans l’exemple suivant :
 
+**Utilisateur :** J’aimerais une pizza de Chicago.
 
-
-|            |                                 |
-|------------|---------------------------------|
-| Utilisateur :      | J’aimerais une pizza de Chicago. |
-| Symbole | Avec « des fromage supplémentaires » ?            |
-
-
-
- 
+**Caractère :** Avec « des fromage supplémentaires » ?
 
 De même, si quelqu’un dit « il est chaud ici », l’expression est compréhensible et ne nécessite aucun détail si vous savez où se trouve l’intervenant. Toutefois, si le contexte n’est pas bien établi ou est ambigu, l’élimination de toutes les références contextuelles peut rendre l’utilisateur confus.
 
@@ -42,9 +35,9 @@ Lorsque vous utilisez une communication abrégée, prenez toujours en compte le 
 
 La cohérence est importante dans la sortie vocale. Des modèles de discours étranges ou des prosodie peuvent être interprétés comme une mise à niveau de l’intelligence du caractère. De même, le basculement entre TTS et la parole enregistrée peut amener les utilisateurs à interpréter le caractère comme étrange ou possédant plusieurs personnalité. Les mouvements de la bouche synchronisée avec la lèvre peuvent améliorer la netteté. Microsoft agent prend en charge automatiquement la synchronisation LIP pour les moteurs TTS conformes à ses interfaces SAPI requises. Toutefois, la synchronisation Lip est également prise en charge pour la reconnaissance vocale enregistrée. Les fichiers audio peuvent également être améliorés à l’aide de l’outil d’édition de sons linguistique de Microsoft.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Passez en revue une discussion sur le comportement de l’interface utilisateur en ce qui concerne les fonctionnalités et les options de documents et d’impression.
 ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: Comportement de l’interface utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d475472330c8e3ba2ceb06d0cbde9f3a7fb0be
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e81d007c653ed3f019892e944d9fa4203dc6de11
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106543760"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119434"
 ---
 # <a name="user-interface-behavior"></a>Comportement de l’interface utilisateur
 

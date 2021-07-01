@@ -9,24 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 44bd976d05c0734ca2e498b5de405564f689e20d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: ae4b024bbce0636127b0ed0fc5f42bc466e1b7fd
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998386"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129686"
 ---
 # <a name="dcl_usage-input-sm1-sm2-sm3---vs-asm"></a>\_entrée d’utilisation DCL (SM1, SM2, SM3-vs ASM)
 
 Déclarez l’association entre une utilisation d’élément de vertex et un index d’utilisation pour un registre d’entrée de nuanceur de sommets.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
-
-
-|                                |
-|--------------------------------|
-| \_index d’utilisation de l’utilisation de DCL \[ \_ \]\# |
+\_index d’utilisation de l’utilisation de DCL \[ \_ \]\#
 
 
 

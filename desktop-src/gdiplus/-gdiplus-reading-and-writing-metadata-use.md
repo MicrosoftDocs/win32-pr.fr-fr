@@ -4,12 +4,12 @@ ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: Lecture et écriture de métadonnées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2f599c1134efc8768d0b6ed59deaae8adf9f6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e4ea0a8f389f31870b31a0b15480815bdd7cf1f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751316"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118294"
 ---
 # <a name="reading-and-writing-metadata"></a>Lecture et écriture de métadonnées
 
@@ -70,7 +70,7 @@ Un objet [**PropertyItem**](/windows/win32/api/gdiplusimaging/nl-gdiplusimaging-
 
 
 
-|            |                                                                                                                                                                                                                                                                                                        |
+|            | Description                                                                                                                                                                                                                                                                                                       |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **id**     | Balise qui identifie l’élément de métadonnées. Les valeurs qui peuvent être assignées à **ID** (PropertyTagImageTitle, PropertyTagEquipMake, PropertyTagExifExposureTime et like) sont définies dans Gdiplusimaging. h.                                                                                           |
 | **length** | Longueur, en octets, du tableau de valeurs vers lequel pointe la **valeur** du membre de données. Notez que si le membre de données de **type** est défini sur PropertyTagTypeASCII, le membre de données de longueur est la **longueur** d’une chaîne de caractères se terminant par un caractère null, y compris la marque de fin null.                        |

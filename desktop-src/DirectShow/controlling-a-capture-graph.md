@@ -4,12 +4,12 @@ ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: Contrôle d’un graphique de capture
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0089fa11adbc0ac861fb9e8e30e2cd0f56b23680
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909047"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119474"
 ---
 # <a name="controlling-a-capture-graph"></a>Contrôle d’un graphique de capture
 
@@ -72,9 +72,8 @@ La méthode **ControlStream** définit des valeurs spéciales pour les heures de
 
 
 
-| Étiquette | Valeur |
-|-------------|----------------------------------------|------------------------------------|
-|             | Démarrer                                  | Stop                               |
+| Value | Démarrer                                  | Arrêter                               |
+|-------------|----------------------------------------|---------|
 | MAXLONGLONG | Ne jamais démarrer ce flux.               | Ne s’arrête pas tant que le graphique n’est pas arrêté. |
 | **NULL**    | Démarrer immédiatement lorsque le graphique s’exécute. | Arrêter immédiatement.                  |
 

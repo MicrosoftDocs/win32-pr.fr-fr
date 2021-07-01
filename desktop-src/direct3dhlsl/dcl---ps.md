@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ad61ea8d733ed01fcd2e57ba06c38e0b3efac682
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 4f2ba81650611351970ff4068edaa75d27d34fc4
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381201"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130098"
 ---
 # <a name="dcl---sm2-sm3---ps-asm"></a>DCL-(SM2, SM3-PS ASM)
 
@@ -22,15 +22,11 @@ Déclarez un registre d’entrée de nuanceur de pixels.
 
 ## <a name="syntax"></a>Syntaxe
 
-
-
-|                           |
-|---------------------------|
-| DCL \[ \_ pp \] dest \[ . Mask\] |
+DCL \[ \_ pp \] dest \[ . Mask\]
 
 
 
- 
+ 
 
 Où :
 
@@ -38,7 +34,7 @@ Où :
 -   dest est un registre de destination. Il doit s’agir d’un [Registre de couleur d’entrée](dx9-graphics-reference-asm-ps-registers-input-color.md) (VN) ou d’un [Registre de coordonnées de texture](dx9-graphics-reference-asm-ps-registers-texture-coordinate.md) (TN).
 -   \[. Mask \] est un masque d’écriture facultatif qui contrôle les composants du registre de destination dans lesquels il est possible d’écrire. Voir [masque d’écriture de registre de destination](dx9-graphics-reference-asm-ps-registers-modifiers-write-mask.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -48,7 +44,7 @@ Où :
 
 
 
- 
+ 
 
 Toutes les instructions DCL doivent apparaître avant la première instruction exécutable.
 
@@ -59,9 +55,9 @@ Toutes les instructions DCL doivent apparaître avant la première instruction e
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

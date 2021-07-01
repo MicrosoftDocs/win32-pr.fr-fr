@@ -11,22 +11,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dadb0e8bb3ddda16305ac701b34523668bd9c1a5
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: e06bbc184a4b5f82d5edaaf7fdbfbd55f1906f12
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "103679369"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120614"
 ---
 # <a name="geometry-shader-object"></a>Objet Geometry-Shader
 
 Un objet de nuanceur Geometry traite les primitives entières. Pour déclarer un objet Geometry-Shader, utilisez la syntaxe ci-après.
 
-
-
-|                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------|
-| \[maxvertexcount (*NumVerts*) \] void *ShaderName* ( *PrimitiveType nom du type de données \[ \] NumElements*, INOUT *StreamOutputObject* ); |
+\[maxvertexcount (*NumVerts*) \] void *ShaderName* ( *PrimitiveType nom du type de données \[ \] NumElements*, INOUT *StreamOutputObject* );
 
 
 
@@ -103,7 +99,7 @@ Déclaration de l' [objet de sortie de flux](dx-graphics-hlsl-so-type.md).
 
 None
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le diagramme suivant montre les différents types primitifs pour un objet de nuanceur Geometry.
 
@@ -147,7 +143,7 @@ Cet objet est pris en charge dans les modèles de nuanceur suivants.
 
 | Modèle de nuanceur                                                        | Prise en charge |
 |---------------------------------------------------------------------|-----------|
-| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | Oui       |
+| [Nuancier modèle 4](dx-graphics-hlsl-sm4.md) et modèles de nuanceur supérieurs | yes       |
 
 
 

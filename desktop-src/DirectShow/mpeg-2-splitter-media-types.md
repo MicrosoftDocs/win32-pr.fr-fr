@@ -4,12 +4,12 @@ ms.assetid: d0ff2011-4ee3-4f5e-8bd0-af9f4c6346e8
 title: Types de média MPEG-2 Splitter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e878acaea8bc87bee2bf5c46a6f7e66c7aa0a485
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: ef4e025fafabdeb8c437cc1d1cd6fbb843cf63e3
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909426"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119974"
 ---
 # <a name="mpeg-2-splitter-media-types"></a>Types de média MPEG-2 Splitter
 
@@ -20,14 +20,12 @@ Le filtre de [séparateur MPEG-2](mpeg-2-splitter.md) prend actuellement en char
 Pour les vidéos MPEG-2, les types de médias sont les suivants.
 
 
-
-| Étiquette | Valeur |
+|                | Sortie PES | Sortie de la charge utile
 |------------------|------------------------------------------|--------------------------------|
-|                  | Sortie PES                               | Sortie de la charge utile                 |
-| Type principal       | **\_PES MPEG2 de MediaType \_**                | **Vidéo de MEDIATYPE \_**           |
-| Subtype          | **\_Vidéo MEDIASUBTYPE MPEG2 \_**           | **\_Vidéo MEDIASUBTYPE MPEG2 \_** |
-| Type de format      | **FORMAT \_ mpeg2video**                   | **FORMAT \_ mpeg2video**         |
-| Structure de format | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
+| **Type principal**       | **\_PES MPEG2 de MediaType \_**                | **Vidéo de MEDIATYPE \_**           |
+| **Sous-type**          | **\_Vidéo MEDIASUBTYPE MPEG2 \_**           | **\_Vidéo MEDIASUBTYPE MPEG2 \_** |
+| **Type de format**      | **FORMAT \_ mpeg2video**                   | **FORMAT \_ mpeg2video**         |
+| **Structure de format** | [**MPEG2VIDEOINFO**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-mpeg2videoinfo) | **MPEG2VIDEOINFO**             |
 
 
 
@@ -37,15 +35,12 @@ Pour les vidéos MPEG-2, les types de médias sont les suivants.
 
 Pour le son AC-3, les types de médias sont les suivants.
 
-
-
-| Étiquette | Valeur |
+| | Sortie PES | Sortie de la charge utile |
 |------------------|--------------------------------------|------------------------------|
-|                  | Sortie PES                           | Sortie de la charge utile               |
-| Type principal       | \_PES MPEG2 de MediaType \_                | **Audio de MEDIATYPE \_**         |
-| Subtype          | MEDIASUBTYPE \_ Dolby \_ AC3             | **MEDIASUBTYPE \_ Dolby \_ AC3** |
-| Type de format      | FORMAT \_ WaveFormatEx                 | **FORMAT \_ WaveFormatEx**     |
-| Structure de format | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
+| **Type principal**       | **\_PES MPEG2 de MediaType \_**                | **Audio de MEDIATYPE \_**         |
+| **Sous-type**          | **MEDIASUBTYPE \_ Dolby \_ AC3**             | **MEDIASUBTYPE \_ Dolby \_ AC3** |
+| **Type de format**      | FORMAT \_ WaveFormatEx                 | **FORMAT \_ WaveFormatEx**     |
+| **Structure de format** | [**WAVEFORMATEX**](/previous-versions/dd757713(v=vs.85)) | **WAVEFORMATEX**             |
 
 
 
@@ -59,13 +54,12 @@ Pour le son MPEG-2, les types de médias sont les suivants.
 
 
 
-| Étiquette | Valeur |
+|  | Sortie PES | Sortie de la charge utile |
 |------------------|-------------------------------|--------------------------------|
-|                  | Sortie PES                    | Sortie de la charge utile                 |
-| Type principal       | **\_PES MPEG2 de MediaType \_**     | **Audio de MEDIATYPE \_**           |
-| Subtype          | **MEDIASUBTYE \_ MPEG2 \_ audio** | **MEDIASUBTYPE \_ MPEG2 \_ audio** |
-| Type de format      | **FORMAT \_ WaveFormatEx**      | **FORMAT \_ WaveFormatEx**       |
-| Structure de format | **WAVEFORMATEX**              | **WAVEFORMATEX**               |
+| **Type principal**       | **\_PES MPEG2 de MediaType \_**     | **Audio de MEDIATYPE \_**           |
+| **Sous-type**          | **MEDIASUBTYE \_ MPEG2 \_ audio** | **MEDIASUBTYPE \_ MPEG2 \_ audio** |
+| **Type de format**      | **FORMAT \_ WaveFormatEx**      | **FORMAT \_ WaveFormatEx**       |
+| **Structure de format** | **WAVEFORMATEX**              | **WAVEFORMATEX**               |
 
 
 
@@ -81,13 +75,12 @@ Pour les LPCM audio, les types de médias sont les suivants.
 
 
 
-| Étiquette | Valeur |
+|  | Sortie PES | Sortie de la charge utile |
 |------------------|------------------------------------|------------------------------------|
-|                  | Sortie PES                         | Sortie de la charge utile                     |
-| Type principal       | **\_PES MPEG2 de MediaType \_**          | **Audio de MEDIATYPE \_**               |
-| Subtype          | **MEDIASUBTYPE \_ DVD \_ LPCM \_ audio** | **MEDIASUBTYPE \_ DVD \_ LPCM \_ audio** |
-| Type de format      | **FORMAT \_ WaveFormatEx**           | **FORMAT \_ WaveFormatEx**           |
-| Structure de format | **WAVEFORMATEX**                   | **WAVEFORMATEX**                   |
+| **Type principal**       | **\_PES MPEG2 de MediaType \_**          | **Audio de MEDIATYPE \_**               |
+| **Sous-type**          | **MEDIASUBTYPE \_ DVD \_ LPCM \_ audio** | **MEDIASUBTYPE \_ DVD \_ LPCM \_ audio** |
+| **Type de format**      | **FORMAT \_ WaveFormatEx**           | **FORMAT \_ WaveFormatEx**           |
+| **Structure de format** | **WAVEFORMATEX**                   | **WAVEFORMATEX**                   |
 
 
 

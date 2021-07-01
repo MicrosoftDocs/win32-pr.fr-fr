@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 291f78b8bf74a20dfecf4a74ed65173a895bcc1b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 68e3645c3e634c4e9cd886600977882dcc3e2018
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998636"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129857"
 ---
 # <a name="ps_1_1__ps_1_2__ps_1_3__ps_1_4-registers"></a>registres PS 1 \_ \_ 1 PS 1 2 PS 1 \_ \_ \_ \_ \_ \_ \_ \_ 3 PS 1 \_ \_ \_ \_ 4
 
@@ -33,9 +33,8 @@ Les registres stockent les données pour une utilisation par le nuanceur de pixe
 
 
 
-|      |                    | Versions |      |      |              |
+| Nom |  Type              | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
 |------|--------------------|----------|------|------|--------------|
-| Nom | Type               | 1\_1     | 1\_2 | 1 \_ 3 | 1\_4         |
 | c\#  | Registre de constante  | 8        | 8    | 8    | 8            |
 | r\#  | Registre temporaire | 2        | 2    | 2    | 6            |
 | t\#  | Registre de texture   | 4        | 4    | 4    | 6            |
@@ -74,9 +73,8 @@ La limite de lecture du port spécifie le nombre de registres différents de cha
 
 
 
-|      |                    | Versions |      |      |              |
+| Nom     | Type                   | Version 1 \_ 1 | Version 1 \_ 2      | Version 1 \_ 3     | Version 1 \_ 4             |
 |------|--------------------|----------|------|------|--------------|
-| Nom | Type               | 1\_1     | 1\_2 | 1 \_ 3 | 1\_4         |
 | c\#  | Registre de constante  | 2        | 2    | 2    | 2            |
 | r\#  | Registre temporaire | 2        | 2    | 2    | 3            |
 | t\#  | Registre de texture   | 2        | 3    | 3    | 1            |
@@ -101,7 +99,7 @@ Les types de registres sont identifiés en fonction de la capacité en lecture s
 
 
 
-|      |                    | Versions |      |      |                    |
+| Nom     |  Type                  | Version 1 \_ 1 | Version 1 \_ 2     | Version 1 \_ 3     | Version 1 \_ 4 |
 |------|--------------------|----------|------|------|--------------------|
 | Nom | Type               | 1\_1     | 1\_2 | 1 \_ 3 | 1\_4               |
 | c\#  | Registre de constante  | RO       | RO   | RO   | RO                 |

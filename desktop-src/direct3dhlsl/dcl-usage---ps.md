@@ -9,24 +9,20 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 178b31a386a7ae4aa266ac33ddbb1ee5c842f2d1
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2c506d2ad23003f93bbaea409cacc60b18c86534
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997166"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129706"
 ---
 # <a name="dcl_semantics-sm3---ps-asm"></a>\_sémantique DCL (SM3-PS ASM)
 
 Déclarez l’association entre la sortie du nuanceur de sommets et l’entrée de nuanceur de pixels.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
-
-
-|                                                   |
-|---------------------------------------------------|
-| sémantique DCL Centre d' \_ \[ \_ \] heure d’été \[ \_\] |
+sémantique DCL Centre d' \_ \[ \_ \] heure d’été \[ \_\]
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: Comment écrire un présentateur EVR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94933d9eb53b0b03105edc7056ace4fe73238d16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 505ba7ec225ac5f1316ad4343a4e1058ff0b6cb8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564888"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118774"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>Comment écrire un présentateur EVR
 
@@ -19,7 +19,7 @@ L’exemple de code de cette rubrique est adapté de l' [exemple EVRPresenter](e
 
 Cette rubrique contient les sections suivantes :
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Modèle objet Presenter](#presenter-object-model)
     -   [Transmission de données à l’intérieur du EVR](#data-flow-inside-the-evr)
     -   [États du présentateur](#presenter-states)
@@ -476,7 +476,7 @@ Pour prendre en charge des vitesses de lecture autres que 1 × vitesse, le prés
 
 
 
-|                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Value                                                          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetSlowestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate)   | Retourne zéro pour indiquer qu’il n’y a pas de vitesse de lecture minimale.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | Pour une lecture non fine, la vitesse de lecture ne doit pas dépasser la fréquence d’actualisation du moniteur :  =  *taux de rafraîchissement* maximal (Hz)/fréquence d' *images vidéo* (FPS). La fréquence d’images vidéo est spécifiée dans le type de média du présentateur. <br/> Pour une lecture fine, le taux de lecture est illimité ; retourne la valeur **FLT_MAX**. Dans la pratique, la source et le décodeur seront les facteurs de limitation lors de la lecture fine. <br/> Pour la lecture inversée, retourne la valeur négative du taux maximal.<br/> |
@@ -938,7 +938,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
         // required.
     }
 
-    /*** Begin lock **_/
+    /*** Begin lock ***/
 
     EnterCriticalSection(&m_ObjectLock);
 
@@ -958,7 +958,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
 
     LeaveCriticalSection(&m_ObjectLock);
 
-    /_*_ End lock _*_/
+    /*** End lock ***/
 
 done:
     if (FAILED(hr))
@@ -976,7 +976,7 @@ done:
 
 ## <a name="processing-output"></a>Traitement de la sortie
 
-Chaque fois que la console reçoit un nouvel exemple d’entrée, EVR envoie un message _ *MFVP_MESSAGE_PROCESSINPUTNOTIFY** au présenteur. Ce message indique que le mélangeur peut avoir une nouvelle image vidéo à remettre. En réponse, le présentateur appelle [**IMFTransform ::P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) sur le mélangeur. Si la méthode est réussie, le présentateur planifie l’exemple pour la présentation.
+Chaque fois que la console reçoit un nouvel exemple d’entrée, EVR envoie un message **MFVP_MESSAGE_PROCESSINPUTNOTIFY** au présenteur. Ce message indique que le mélangeur peut avoir une nouvelle image vidéo à remettre. En réponse, le présentateur appelle [**IMFTransform ::P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) sur le mélangeur. Si la méthode est réussie, le présentateur planifie l’exemple pour la présentation.
 
 Pour extraire la sortie du mélangeur, procédez comme suit :
 
@@ -1605,7 +1605,7 @@ Cette section décrit un algorithme permettant d’implémenter l’exécution p
 -   *step_queue*. Une file d’attente de pointeurs [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) .
 -   *step_state*. À tout moment, le présentateur peut être dans l’un des États suivants en ce qui concerne le pas à pas détaillé de la trame : 
 
-    | State         | Description                                                                                                                                                                                                     |
+    | État         | Description                                                                                                                                                                                                     |
     |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
     | NOT_STEPPING | Pas de cadre pas à pas.                                                                                                                                                                                             |
     | WAITING       | Le présentateur a reçu le message **MFVP_MESSAGE_STEP** , mais l’horloge n’a pas démarré.                                                                                                                  |

@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetLanguageID
 ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ec8a396c174fd251b1cc7ac8d7e9696c9b9f2d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 036e1d41878adaae878a5961b45d190971d790af
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672118"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119004"
 ---
 # <a name="iagentcharacterexsetlanguageid"></a>IAgentCharacterEx::SetLanguageID
 
@@ -38,7 +38,7 @@ Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID
 
 
 
-|                       |        |                       |        |
+| Langage              | id     |  Langage             | id     |
 |-----------------------|--------|-----------------------|--------|
 | Arabe (Arabie)        | 0x0401 | Italien               | 0x0410 |
 | Basque                | 0x042d | Japonais              | 0x0411 |
@@ -55,11 +55,11 @@ Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID
 | Allemand                | 0x0407 | Suédois               | 0x041D |
 | Grec                 | 0x0408 | Thaï                  | 0x041E |
 | Hébreu                | 0x040D | Turc               | 0x041F |
-| Hongrois             | 0x040E |                       |        |
+| Hongrois             | 0x040E |                       |        |
 
 
 
- 
+ 
 
 Si vous ne définissez pas l’ID de langue pour le caractère, son ID de langue sera l’ID de langue actuel du système si la DLL de langue de l’agent correspondante est installée. dans le cas contraire, la langue du caractère sera l’anglais (États-Unis).
 
@@ -72,16 +72,16 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 > [!Note]  
 > Si vous définissez l’ID de langue du caractère sur une langue qui prend en charge le texte bidirectionnel (tel que l’arabe ou l’hébreu), mais que le système qui exécute votre application n’a pas de prise en charge bidirectionnelle installée, le texte apparaît dans le mot-bulle dans l’ordre logique plutôt que dans l’ordre d’affichage.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCharacterEx : GetLanguageID**](iagentcharacterex--getlanguageid.md), [**IAgentCharacterEx :: GetSRModeID**](iagentcharacterex--getsrmodeid.md), [**IAgentCharacterEx :: GetTTSModeID**](iagentcharacterex--getttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

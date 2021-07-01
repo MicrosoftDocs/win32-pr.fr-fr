@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c97196040a8f5f9888cb2fb354dcc18ca3743c7
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: b9291d818252c95bc11fae72bd3311ec733a45fa
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988724"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129938"
 ---
 # <a name="modifiers-for-ps_1_x"></a>Modificateurs pour PS \_ 1 \_ X
 
@@ -24,9 +24,8 @@ La liste des modificateurs est indiquée ci-dessous.
 
 
 
-| Modificateur | Description                   | Syntaxe           | Version |      |      |      |
+| Modificateur | Description                   | Syntaxe           | Version 1 \_ 1 | Version 1 \_ 2     |Version 1 \_ 3    | Version 1 \_ 4    |
 |----------|-------------------------------|------------------|---------|------|------|------|
-|          |                               |                  | 1\_1    | 1\_2 | 1 \_ 3 | 1\_4 |
 | \_x2     | Multiplier par 2                 | instruction \_ x2  | X       | X    | X    | X    |
 | \_x4     | Multiplier par 4                 | instruction \_ X4  | X       | X    | X    | X    |
 | \_8     | Multiplier par 8                 | instruction \_ x8  |         |      |      | X    |

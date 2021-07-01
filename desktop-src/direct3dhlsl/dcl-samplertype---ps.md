@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 934931d6063ac264a2e6685104f8ed6fbdaaa64e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7a6da220e50b43ce990c090c61d1caf84afec653
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104030617"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129666"
 ---
 # <a name="dcl_samplertype-sm2-sm3---ps-asm"></a>DCL \_ samplerType (SM2, SM3-PS ASM)
 
@@ -22,15 +22,11 @@ Déclarez un échantillon de nuanceur de pixels.
 
 ## <a name="syntax"></a>Syntaxe
 
-
-
-|                      |
-|----------------------|
-| DCL \_ samplerType s\# |
+DCL \_ samplerType s\#
 
 
 
- 
+ 
 
 où :
 
@@ -40,7 +36,7 @@ où :
     -   \_agrégat
 -   s \# identifie un échantillonneur où s est l’abréviation de l’échantillonneur, et \# est le numéro de l’échantillonneur. Les échantillonneurs sont des Pseudo-registres, car vous ne pouvez pas les lire ou les écrire directement.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -50,7 +46,7 @@ où :
 
 
 
- 
+ 
 
 Toutes les \_ instructions DCL samplerType doivent apparaître avant la première instruction exécutable.
 
@@ -75,9 +71,9 @@ texld r0, s0, r0; // Load r0 with a color sampled from stage0
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

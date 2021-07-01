@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8cee02e38180b903b235c32ebc2c7ca486777b20
-ms.sourcegitcommit: 316ce582d9b972634a0521e0380e054e9cbb5bae
+ms.openlocfilehash: c4cb8f6fd15db857daa3005c99381d437a5289f6
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104991837"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129646"
 ---
 # <a name="data-types-hlsl"></a>Types de données (HLSL)
 
@@ -22,10 +22,9 @@ Le langage HLSL prend en charge de nombreux types de données intrinsèques diff
 
 
 
-|                                                                                                                         |                                            |
+| Utiliser ce type intrinsèque                                                                                                                         | Pour définir cette variable de nuanceur                                            |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| Utiliser ce type intrinsèque                                                                                                 | Pour définir cette variable de nuanceur             |
-| [Scala](dx-graphics-hlsl-scalar.md)                                                                                   | Scalaire à un composant                       |
+| [Scalaire](dx-graphics-hlsl-scalar.md)                                                                                   | Scalaire à un composant                       |
 | [Vector](dx-graphics-hlsl-vector.md), [matrice](dx-graphics-hlsl-matrix.md)                                            | Vecteur ou matrice à composants multiples        |
 | [Échantillonneur](dx-graphics-hlsl-sampler.md), [texture](dx-graphics-hlsl-texture.md) ou [mémoire tampon](dx-graphics-hlsl-buffer.md)   | Échantillonneur, texture ou objet de mémoire tampon         |
 | [Struct](dx-graphics-hlsl-struct.md), [défini par l’utilisateur](dx-graphics-hlsl-user-defined.md)                                | Structure personnalisée ou typedef                |

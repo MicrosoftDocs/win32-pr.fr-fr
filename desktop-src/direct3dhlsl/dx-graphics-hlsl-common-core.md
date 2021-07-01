@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e27ebe7d908c473890ac5b851eac3e0bc840c859
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 66c1f763c4771a8406acd2f3401445d1a29cde79
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839606"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129716"
 ---
 # <a name="common-shader-core"></a>Common-Shader Core
 
@@ -31,10 +31,10 @@ Dans le nuanceur modèle 4, toutes les étapes de nuanceur implémentent les mê
 -   **Mémoires tampons constantes**: les mémoires tampons constantes sont optimisées pour les variables constantes de nuanceur. Jusqu’à 16 mémoires tampons constantes peuvent être liées simultanément à une étape de nuanceur. Elles sont conçues pour des mises à jour plus fréquentes à partir de l’UC. par conséquent, elles ont des restrictions de taille, de mise en page et d’accès supplémentaires.
 
 
+Différences entre Direct3D 9 et Direct3D 10 :
 
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 :<br/> Dans Direct3D 9, chaque unité de nuanceur avait un seul fichier de registre de constantes de petite taille pour stocker toutes les variables de nuanceur constantes. L’utilisation de tous les nuanceurs avec cet espace constant limité nécessitait un recyclage fréquent des constantes par le processeur.<br/> Dans Direct3D 10, les constantes sont stockées dans des mémoires tampons immuables en mémoire et sont gérées comme n’importe quelle autre ressource. Il n’existe pas de limite au nombre de mémoires tampons constantes qu’une application peut créer. En organisant des constantes dans des mémoires tampons en fonction de la fréquence des mises à jour et de l’utilisation, la quantité de bande passante requise pour mettre à jour les constantes pour prendre en charge tous les nuanceurs peut être considérablement réduite.<br/> |
+- Dans Direct3D 9, chaque unité de nuanceur avait un seul fichier de registre de constantes de petite taille pour stocker toutes les variables de nuanceur constantes. L’utilisation de tous les nuanceurs avec cet espace constant limité nécessitait un recyclage fréquent des constantes par le processeur.
+- Dans Direct3D 10, les constantes sont stockées dans des mémoires tampons immuables en mémoire et sont gérées comme n’importe quelle autre ressource. Il n’existe pas de limite au nombre de mémoires tampons constantes qu’une application peut créer. En organisant des constantes dans des mémoires tampons en fonction de la fréquence des mises à jour et de l’utilisation, la quantité de bande passante requise pour mettre à jour les constantes pour prendre en charge tous les nuanceurs peut être considérablement réduite.
 
 
 

@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f333c204b77d6e0c64119e16f31e170fec1d0f6c
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: 4659ba19e9fa950a659969f2491533858f4658fb
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644101"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120544"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>Gather (objet texture HLSL DirectX)
 
 Obtient les quatre échantillons (composant rouge uniquement) qui seraient utilisés pour l’interpolation bilinéaire lors de l’échantillonnage d’une texture.
 
-
-
-|                                                                                                    |
-|----------------------------------------------------------------------------------------------------|
-| &lt;Type &gt; de modèle 4 Object. Gather (état de l’échantillonneur \_ , float2 \| 3 \| 4 emplacement \[ , Int2 offset \] ); |
+&lt;Type &gt; de modèle 4 Object. Gather (état de l’échantillonneur \_ , float2 \| 3 \| 4 emplacement \[ , Int2 offset \] );
 
 
 

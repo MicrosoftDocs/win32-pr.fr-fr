@@ -14,12 +14,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a1b78da747a248bf4bb5774add1bf97f14f048c4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f314be4b8da98ff80bd7404c270479855e13fb6e
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739429"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129958"
 ---
 # <a name="shader-constants-hlsl"></a>Constantes de nuanceur (HLSL)
 
@@ -87,7 +87,7 @@ La déclaration d’une mémoire tampon constante ou d’une mémoire tampon de 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les mémoires tampons constantes réduisent la bande passante requise pour mettre à jour les constantes de nuanceur en permettant aux constantes de nuanceur d’être regroupées et validées en même temps plutôt que d’effectuer des appels individuels pour valider chaque constante séparément.
 
@@ -105,11 +105,9 @@ Une mémoire tampon constante ne nécessite pas la liaison d’une [vue](/window
 
 Il existe deux façons de compresser des données de constantes : à l’aide des mots clés [Register (DirectX HLSL)](dx-graphics-hlsl-variable-register.md) et [PACKOFFSET (DirectX HLSL)](dx-graphics-hlsl-variable-packoffset.md) .
 
+Différences entre Direct3D 9 et Direct3D 10 et 11 :
 
-
-|                                                                                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Différences entre Direct3D 9 et Direct3D 10 et 11 :<br/> Contrairement à l’allocation automatique de constantes dans Direct3D 9, qui n’effectuait pas de compression et attribuaient à la place chaque variable à un ensemble de registres float4, les variables de constantes HLSL suivent les règles de compression dans Direct3D 10 et 11.<br/> |
+- Contrairement à l’allocation automatique de constantes dans Direct3D 9, qui n’effectuait pas de compression et attribuaient à la place chaque variable à un ensemble de registres float4, les variables de constantes HLSL suivent les règles de compression dans Direct3D 10 et 11.
 
 
 

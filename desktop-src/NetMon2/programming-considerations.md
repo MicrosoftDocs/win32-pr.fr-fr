@@ -4,12 +4,12 @@ ms.assetid: 24d3e11f-8281-4464-a2d7-f4f2466e9d9e
 title: Considérations relatives à la programmation (Moniteur réseau)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 213104060f7dd3c6b6dbe56d22044508e0878c07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2deb53a27d8abda4f45663b65fb922600a5b5386
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756213"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120224"
 ---
 # <a name="programming-considerations-network-monitor"></a>Considérations relatives à la programmation (Moniteur réseau)
 
@@ -17,7 +17,7 @@ Cette rubrique contient des informations de programmation. La liste suivante ide
 
 
 
-|                                                 |                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Conseil                                                | Description                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Installation automatique de votre analyseur                     | Implémentez la fonction [**ParserAutoInstallInfo**](parserautoinstallinfo.md) pour installer automatiquement votre analyseur et mettre à jour les fichiers ini associés. Si vous installez votre analyseur manuellement, vous devez mettre à jour tous les fichiers INI associés manuellement.                                                                                                                                                          |
 | Analyse des propriétés de protocole                     | Implémentez la fonction [**AttachProperties**](attachproperties.md) pour analyser les propriétés de protocole. Évitez d’utiliser la fonction [**AttachPropertyInstanceEx**](attachpropertyinstanceex.md) quand vous attachez une instance de propriété et que vous l’utilisez uniquement pour des données non alignées sur un octet ou pour des données qui doivent être décodées. L’attachement de propriétés fait référence au mappage d’une instance de propriété à un emplacement spécifique dans une capture. |

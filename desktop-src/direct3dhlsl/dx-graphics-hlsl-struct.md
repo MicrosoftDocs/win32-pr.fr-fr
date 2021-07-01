@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 416c14c18fa1d0b76f4d13b609b895b0c64c2594
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 89435e9c8757d2e732bc6237b02a508d3af4b4db
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104990676"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119094"
 ---
 # <a name="struct-type"></a>Type struct
 
 Utilisez la syntaxe suivante pour déclarer une structure à l’aide du langage HLSL.
 
-
-
-|                                                                                           |
-|-------------------------------------------------------------------------------------------|
-| *nom* du struct { \[ *InterpolationModifier* \] *type* \[ *R* x *C* \] *MemberName*;     ... }; |
+*nom* du struct { \[ *InterpolationModifier* \] *type* \[ *R* x *C* \] *MemberName*;     ... };
 
 
 
@@ -66,7 +62,7 @@ Chaîne ASCII qui identifie de façon unique le nom du membre.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un modificateur d’interpolation peut être spécifié sur n’importe quel membre de structure ou sur un argument d’une fonction de nuanceur de pixels. Si un modificateur apparaît aux deux emplacements, le modificateur outside (modificateur d’argument de nuanceur de pixels) est en cours de la même façon que le modificateur interne (modificateur de structure).
 
