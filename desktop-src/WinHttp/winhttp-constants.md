@@ -4,23 +4,25 @@ ms.assetid: 460f1463-57a8-47eb-9957-17976757bd7f
 title: Constantes WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db7c277b4235e23254000766fdef53d25f19ddbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e37b0e4de7aa3df5e155933bea2be25386c1637
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484985"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175003"
 ---
 # <a name="winhttp-constants"></a>Constantes WinHTTP
 
 WinHTTP utilise les constantes suivantes :
 
-<dl> <dt>
+<dl>
 
-[**Messages d’erreur**](error-messages.md)
+<dt>
+
+[**Messages d'erreur**](error-messages.md)
 </dt> <dd>
 
-Messages d’erreur spécifiques aux fonctions WinHTTP. Ces fonctions retournent également des messages d’erreur Windows, le cas échéant. La valeur qui correspond à chaque constante est la valeur de la constante pour les fonctions d’interface de programmation d’applications (API) et les 16 bits inférieurs du numéro d’erreur pour l’objet [**WinHttpRequest**](winhttprequest.md) .
+Messages d’erreur spécifiques aux fonctions WinHTTP. ces fonctions retournent également Windows des messages d’erreur, le cas échéant. La valeur qui correspond à chaque constante est la valeur de la constante pour les fonctions d’interface de programmation d’applications (API) et les 16 bits inférieurs du numéro d’erreur pour l’objet [**WinHttpRequest**](winhttprequest.md) .
 
 </dd> <dt>
 
@@ -50,18 +52,33 @@ Valeur de mot indiquant le port.
 
 Schémas Internet pris en charge par WinHTTP.
 
-</dd> <dt>
+</dd>
+
+<dt>
 
 [**Indicateurs d’informations de requête**](query-info-flags.md)
-</dt> <dd>
+</dt>
+<dd>
 
 Attributs et modificateurs utilisés par [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders).
+</dd>
 
-</dd> </dl>
+<dt>
 
- 
+**WINHTTP_EXTENDED_HEADER_FLAG_UNICODE**
+</dt>
+<dd>
 
- 
+A la valeur 0x00000001. Indique à [WinHttpAddRequestHeadersEx](/windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex) que les chaînes passées sont des chaînes Unicode.
+</dd>
 
+<dt>
 
+**WINHTTP_READ_DATA_EX_FLAG_FILL_BUFFER**
+</dt>
+<dd>
 
+A la valeur 0x0000000000000001ull. Ordonne à [WinHttpReadDataEx](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex) de ne pas terminer l’appel tant que le tampon de données fourni n’a pas été rempli ou que la réponse n’est pas terminée. Le passage de cet indicateur rend le comportement de **WinHttpReadDataEx** équivalent à celui de [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata).
+</dd>
+
+</dl>

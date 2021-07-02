@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: Fonctions WinHTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 41e45289230c1cc22a7f8799dfbbe1dafddccf38
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587744"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113174971"
 ---
 # <a name="winhttp-functions"></a>Fonctions WinHTTP
 
@@ -21,6 +21,13 @@ WinHTTP fournit les fonctions suivantes :
 </dt> <dd>
 
 Ajoute un ou plusieurs en-têtes de requête HTTP au descripteur de requête HTTP.
+
+</dd> <dt>
+
+[**WinHttpAddRequestHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheadersex)
+</dt> <dd>
+
+Ajoute un ou plusieurs en-têtes de requête HTTP à un handle de requête HTTP, ce qui vous permet d’utiliser des chaînes nom/valeur distinctes.
 
 </dd> <dt>
 
@@ -164,6 +171,13 @@ Récupère les informations d’en-tête associées à une requête HTTP.
 
 </dd> <dt>
 
+[**WinHttpQueryHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheadersex)
+</dt> <dd>
+
+Récupère les informations d’en-tête associées à une requête HTTP ; offre un moyen de récupérer des chaînes de valeurs et de noms d’en-tête analysés.
+
+</dd> <dt>
+
 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)
 </dt> <dd>
 
@@ -172,6 +186,13 @@ Interroge une option Internet sur le handle spécifié.
 </dd> <dt>
 
 [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata)
+</dt> <dd>
+
+Lit les données à partir d’un descripteur ouvert par la fonction [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) .
+
+</dd> <dt>
+
+[**WinHttpReadDataEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddataex)
 </dt> <dd>
 
 Lit les données à partir d’un descripteur ouvert par la fonction [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) .
@@ -297,6 +318,4 @@ Envoie un frame de fermeture à une connexion WebSocket.
 
 </dd> </dl>
 
- 
 
- 
