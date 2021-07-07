@@ -28,7 +28,7 @@
             - name: Packages d’authentification
               href: authentication-packages.md
               items:
-                - name: Packages d’authentification Windows
+                - name: Windows Packages d’authentification
                   href: windows-authentication-packages.md
                 - name: Fournisseur de support de sécurité/packages d’authentification
                   href: security-support-provider-authentication-packages.md
@@ -146,7 +146,7 @@
                 - name: Fournisseur de support de sécurité des informations d’identification
                   href: credential-security-support-provider.md
                   items:
-                    - name: Paramètres stratégie de groupe CredSSP
+                    - name: stratégie de groupe CredSSP Paramètres
                       href: credssp-group-policy-settings.md
                 - name: Négociation Microsoft
                   href: microsoft-negotiate.md
@@ -160,7 +160,7 @@
                       items:
                         - name: Authentification par clé
                           href: key-authentication.md
-                        - name: Messages de l’authentificateur
+                        - name: Authenticator Messages
                           href: authenticator-messages.md
                         - name: Distribution de clés
                           href: key-distribution.md
@@ -175,7 +175,7 @@
                           href: authentication-service-exchange.md
                         - name: Échange de service TG (ticket-granting)
                           href: ticket-granting-service-exchange.md
-                        - name: Échange client/serveur
+                        - name: Exchange client/serveur
                           href: client-server-exchange.md
                     - name: Modèle Kerberos
                       href: kerberos-components.md
@@ -258,7 +258,7 @@
                           href: tls-cipher-suites-in-windows-10-v1607.md
                         - name: Suites de chiffrement TLS dans Windows 10 v1511 inclut
                           href: tls-cipher-suites-in-windows-10-v1511.md
-                        - name: Suites de chiffrement TLS dans Windows 10 V1507
+                        - name: Suites de chiffrement TLS dans Windows 10 v1507
                           href: tls-cipher-suites-in-windows-10--version-1507.md
                         - name: Suites de chiffrement TLS dans Windows 8.1
                           href: tls-cipher-suites-in-windows-8-1.md
@@ -272,9 +272,9 @@
                           href: prioritizing-schannel-cipher-suites.md
                     - name: Courbes elliptiques dans TLS (SSP Schannel)
                       items:
-                        - name: 'Courbes elliptiques TLS dans Windows 10, versions 1607 et ultérieures'
+                        - name: 'des courbes elliptiques TLS dans Windows 10, versions 1607 et ultérieures'
                           href: tls-elliptic-curves-in-windows-10-1607-and-later.md
-                        - name: 'Courbes elliptiques TLS dans Windows 10, versions 1507 et 1511'
+                        - name: 'courbes elliptiques TLS dans Windows 10, versions 1507 et 1511'
                           href: tls-elliptic-curves-in-windows-10-1507-and-1511.md
                     - name: Informations d’identification Schannel
                       href: schannel-credentials.md
@@ -393,7 +393,7 @@
             - name: Problèmes d’authentification web
               href: web-authentication-problems.md
             - name: Forum aux questions sur le Service Broker d’authentification Web
-              href: faq-for-web-authentication-broker.md
+              href: faq-for-web-authentication-broker.yml
         - name: Utilisation de l’API de fournisseur réseau
           href: using-network-provider-api.md
           items:
@@ -445,16 +445,16 @@
                       items:
                         - name: Continuation du serveur
                           href: server-continuation.md
-                - name: Garantir l’intégrité des communications pendant l’échange de messages
+                - name: Garantir l’intégrité des communications pendant la Exchange des messages
                   href: ensuring-communication-integrity-during-message-exchange.md
                 - name: Fin d’une session SSPI
                   href: ending-an-sspi-session.md
             - name: Exemple de code SSPI
               href: sample-sspi-code.md
               items:
-                - name: Utilisation de SSPI avec un client Windows Sockets
+                - name: utilisation de SSPI avec un Client Windows sockets
                   href: using-sspi-with-a-windows-sockets-client.md
-                - name: Utilisation de SSPI avec un serveur Windows Sockets
+                - name: utilisation de SSPI avec un serveur de sockets Windows
                   href: using-sspi-with-a-windows-sockets-server.md
                 - name: Fichier d’en-tête pour le client et le serveur SSPI
                   href: header-file-for-sspi-client-and-server.md
@@ -1434,11 +1434,6 @@
                       href: ibytebuffer-unlockregion.md
                     - name: 'Write, méthode'
                       href: ibytebuffer-write.md
-            - name: ICcgDomainAuthCredentials
-              href: windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials
-              items:
-                - name: Méthode GetPasswordCredentials
-                  href: windows/win32/api/ccgplugins/nf-ccgplugins-iccgdomainauthcredentials-getpasswordcredentials
             - name: IConnectedIdentityProvider
               href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
               items:
