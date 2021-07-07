@@ -4,19 +4,19 @@ ms.assetid: 271EC68B-5E58-4C1C-B631-DED6A694E98F
 title: Bonnes pratiques pour concevoir des pages web d’authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6360e313b49a69c16aebf532911bcdf562f9a4a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfdd6ab5dc067c23cfb29d21d2ff4780cee0ef1c
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318722"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353672"
 ---
 # <a name="best-practices-for-designing-authentication-web-pages"></a>Bonnes pratiques pour concevoir des pages web d’authentification
 
 Cette rubrique décrit les meilleures pratiques pour concevoir des pages Web qui utilisent le Service Broker d’authentification Web pour la connexion.
 
 -   [Utilisation des métabalises](#use-of-metatags)
--   [Utilisation du style CSS Windows 8](#use-of-windows-8-css-styling)
+-   [utilisation de Windows 8 styles CSS](#use-of-windows-8-css-styling)
 -   [Utilisation des couleurs et des thèmes](#use-of-color-and-themes)
 -   [Alignment](#alignment)
 -   [Conception pour l’alignement](#designing-for-snap)
@@ -37,13 +37,13 @@ Cette rubrique décrit les meilleures pratiques pour concevoir des pages Web qui
 
 
 
-Cela permet à Windows d’intégrer la présence du fournisseur de manière bien visible dans l’en-tête de l’interface utilisateur, tel qu’il est mis en surbrillance par le cadre rouge dans la capture d’écran suivante. ![page de connexion avec l’en-tête Contoso dans l’interface utilisateur](images/wab-figure17.png)
+cela permet à Windows d’intégrer la présence du fournisseur de manière bien visible dans l’en-tête de l’interface utilisateur, tel qu’il est mis en surbrillance par le cadre rouge dans la capture d’écran suivante. ![page de connexion avec l’en-tête Contoso dans l’interface utilisateur](images/wab-figure17.png)
 
-## <a name="use-of-windows-8-css-styling"></a>Utilisation du style CSS Windows 8
+## <a name="use-of-windows-8-css-styling"></a>utilisation de Windows 8 styles CSS
 
-La feuille de style UI-Light. CSS fournie est la feuille de style Windows 8 utilisée par les applications du Windows Store. Il définit le style des applications du Windows Store pour la typographie et les contrôles standard, tels que les boutons, les zones de texte, les liens hypertexte et les cases à cocher pour s’assurer qu’ils sont conviviaux. Lors de la conception et de l’adaptation des pages d’autorisation Web pour Windows 8, nous vous encourageons à utiliser cette feuille de style telle quelle et à la mettre à jour en fonction des besoins tant que votre page Web suit toujours les meilleures pratiques de manière autonome.
+la feuille de style ui-light. css fournie est la feuille de style Windows 8 utilisée par les applications Windows store. il définit Windows style de l’application du Store pour la typographie et les contrôles standard, tels que les boutons, les zones de texte, les liens hypertexte et les cases à cocher pour s’assurer qu’ils sont conviviaux. lors de la conception et de l’adaptation des pages d’autorisation web pour Windows 8, nous vous encourageons à utiliser cette feuille de style telle quelle et à la mettre à jour en fonction des besoins tant que votre page web suit toujours les meilleures pratiques de manière autonome.
 
-Par exemple, si vous avez une feuille de style spéciale pour les liens hypertexte qui doivent ressembler à votre page Web, il est judicieux de vous assurer que le style que vous fournissez est convivial de la même façon que les liens hypertexte Windows 8 standard. Cela est essentiel pour la base des consommateurs qui utilise Windows 8 sur leurs appareils tactiles.
+par exemple, si vous avez une feuille de style spéciale pour les liens hypertexte qui doivent ressembler à votre page web, il est judicieux de vous assurer que le style que vous fournissez est convivial de la même façon que les liens hypertexte standard Windows 8. cela est essentiel pour la base des consommateurs qui utilise Windows 8 sur leurs appareils tactiles.
 
 ## <a name="use-of-color-and-themes"></a>Utilisation des couleurs et des thèmes
 
@@ -57,7 +57,7 @@ Cet exemple illustre une utilisation réfléchie de la couleur de différentes f
 
 La page Web elle-même n’a pas de remplissage à gauche ou à droite pour permettre l’alignement typographique avec le titre dans l’en-tête sur la gauche et l’icône dans l’en-tête à droite.
 
-Vous remarquerez également que les boutons sont toujours alignés en bas à droite dans la page Web (et alignés à droite avec l’icône dans l’en-tête). Il s’agit de la meilleure pratique, car les utilisateurs de Windows 8 seront habitués aux flux de dialogue similaires avec des boutons en bas à droite.
+Vous remarquerez également que les boutons sont toujours alignés en bas à droite dans la page Web (et alignés à droite avec l’icône dans l’en-tête). il s’agit de la meilleure pratique, car Windows 8 utilisateurs seront habitués aux flux de dialogue similaires avec des boutons en bas à droite.
 
 ## <a name="designing-for-snap"></a>Conception pour l’alignement
 
@@ -77,12 +77,12 @@ Dans l’exemple de fichier UI-webauth. CSS, vous pouvez voir l’utilisation de
 
 
 
-Dans Windows 8, la largeur de l’état du magnétisme est de 320 pixels. La page d’authentification Web occupe 260 pixels dans l’interface utilisateur ci-dessus. Nous utilisons une valeur de largeur maximale avec suffisamment de marge. par conséquent, le code de requête de média du fournisseur n’est pas lié à la largeur exacte de l’état d’alignement.
+dans Windows 8, la largeur de l’état du magnétisme est de 320 pixels. La page d’authentification Web occupe 260 pixels dans l’interface utilisateur ci-dessus. Nous utilisons une valeur de largeur maximale avec suffisamment de marge. par conséquent, le code de requête de média du fournisseur n’est pas lié à la largeur exacte de l’état d’alignement.
 
 Pour adapter votre application à la vue d’alignement, il est important que l’utilisateur ne perde aucun contexte dans les autres modes d’authentification Web (affichages plein, remplissage ou icône), mais il est utile de restructurer la disposition et la hiérarchie des éléments de la page pour que les informations nécessaires à la conservation du contexte soient visibles et interactives. Nous avons fait appel à des exemples de la façon dont l’exemple personnalise la page Web pour l’état de l’alignement.
 
 -   Par exemple, pour la page de connexion dans l’état de l’alignement, la propriété Width du champ de texte d’entrée (comme spécifié dans UI-Light. CSS) a été remplacée et définie comme une valeur numérique inférieure, afin que le champ de texte ne soit pas tronqué horizontalement.
--   Autre exemple : dans l’état d’alignement, la taille de police des en-têtes H1 et H2 est réduite à 20 PT et 11 PT de 42 PT et 20 PT respectivement. Cela s’effectue conformément à la rampe de type Windows 8 et optimise le texte pour qu’il soit plus compact dans la fenêtre d’affichage modifiée.
+-   Autre exemple : dans l’état d’alignement, la taille de police des en-têtes H1 et H2 est réduite à 20 PT et 11 PT de 42 PT et 20 PT respectivement. cette opération est effectuée conformément à la rampe de type Windows 8 et optimise le texte pour qu’il soit plus compact dans la fenêtre d’affichage modifiée.
 -   En guise d’autre exemple, Notez que les tailles des icônes dans la page autorisations sont plus petites (comparer à la page vue complète ci-dessus). Là encore, cette opération est effectuée pour conserver le contexte, tout en échangeant les ressources de conception pour celles qui sont les plus optimales pour la fenêtre d’affichage modifiée.
 
 ## <a name="designing-for-a-fast-and-fluid-login-experience"></a>Conception pour une expérience de connexion rapide et fluide
@@ -103,7 +103,7 @@ Les articles suivants fournissent des conseils pour l’écriture de code C++ s�
 [Considérations sur le développement de pages web](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Forum aux questions sur le Service Broker d’authentification Web](faq-for-web-authentication-broker.md)
+[Forum aux questions sur le Service Broker d’authentification Web](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Exemple d’application du SDK du Broker d’authentification Web](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

@@ -4,12 +4,12 @@ ms.assetid: 25A024AA-9A70-40A5-BF5E-452FD148D0D2
 title: Problèmes d’authentification web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc4611461effd9cbc5546059e71fc8ca3f1f0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f996527c58b9620b8417ac3e6cdd6e0f61bd5217
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571117"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353662"
 ---
 # <a name="web-authentication-problems"></a>Problèmes d’authentification web
 
@@ -21,7 +21,7 @@ Cette rubrique décrit des conseils de dépannage pour l’utilisation des API d
 
 ## <a name="operational-logs"></a>Journaux des opérations
 
-Il est souvent possible de déterminer ce qui ne fonctionne pas à l’aide des journaux des opérations. Il existe un canal de journal des événements dédié Microsoft-Windows-webauth \\ opérationnel qui permet aux développeurs de sites Web de comprendre comment leurs pages Web sont traitées par le répartiteur d’authentification Web. Pour l’activer, lancez eventvwr.exe et activez le journal des opérations sous l’application et les services \\ Microsoft \\ Windows \\ webauth. En outre, le répartiteur d’authentification Web ajoute une chaîne unique à la chaîne de l’agent utilisateur pour s’identifier sur le serveur Web. Cette chaîne est « MSAuthHost/1.0 ». Notez que le numéro de version est susceptible de changer dans le futur. Vous ne devez donc pas nécessairement utiliser ce numéro de version dans votre code. Voici un exemple de la chaîne complète de l’agent utilisateur :
+Il est souvent possible de déterminer ce qui ne fonctionne pas à l’aide des journaux des opérations. il existe un canal de journal des événements dédié, Microsoft-Windows-webauth \\ opérationnel, qui permet aux développeurs de sites web de comprendre comment leurs pages web sont traitées par le répartiteur d’authentification web. pour l’activer, lancez eventvwr.exe et activez le journal des opérations sous l’Application et les Services \\ Microsoft \\ Windows \\ webauth. En outre, le répartiteur d’authentification Web ajoute une chaîne unique à la chaîne de l’agent utilisateur pour s’identifier sur le serveur Web. Cette chaîne est « MSAuthHost/1.0 ». Notez que le numéro de version est susceptible de changer dans le futur. Vous ne devez donc pas nécessairement utiliser ce numéro de version dans votre code. Voici un exemple de la chaîne complète de l’agent utilisateur :
 
 `User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; MSAuthHost/1.0)`
 
@@ -40,11 +40,11 @@ Exemple d’utilisation des journaux des opérations
 
 ## <a name="using-fiddler-with-web-authentication-broker"></a>Utilisation de Fiddler avec le Service Broker d’authentification Web
 
-Le débogueur Web Fiddler peut être utilisé avec les applications Windows 8.
+le débogueur web Fiddler peut être utilisé avec les applications Windows 8.
 
 1.  Étant donné qu’AuthHost s’exécute dans son propre conteneur d’application pour lui donner la fonctionnalité réseau privé, vous devez définir une clé de Registre : Windows Registry Editor Version 5.00
 
-    **HKEY \_ Logiciel de l' \_ ordinateur local** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Image File Execution Options** \\ **authhost.exe** \\ **EnablePrivateNetwork** = 00000001<dl> <dt>
+    **HKEY \_ logiciel de l' \_ ordinateur LOCAL** \\  \\ **Microsoft** \\ **Windows NT** \\ **CurrentVersion** \\ **Image File Execution Options** \\ **authhost.exe** \\ **EnablePrivateNetwork** = 00000001<dl> <dt>
 
                      Data type
 </dt> <dd>                     DWORD</dd> </dl>
@@ -71,7 +71,7 @@ Le débogueur Web Fiddler peut être utilisé avec les applications Windows 8.
 
 3.  Ajoutez une règle de pare-feu pour le trafic entrant vers Fiddler.
 
-Pour plus d’informations, consultez [le blog sur l’utilisation du débogueur Web Fiddler avec les applications du Windows Store](/archive/blogs/fiddler/revisiting-fiddler-and-win8-immersive-applications).
+pour plus d’informations, consultez [le Blog sur l’utilisation du débogueur web Fiddler avec les applications Windows store](/archive/blogs/fiddler/revisiting-fiddler-and-win8-immersive-applications).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -80,13 +80,13 @@ Pour plus d’informations, consultez [le blog sur l’utilisation du débogueur
 [Considérations sur le développement de pages web](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Forum aux questions sur le Service Broker d’authentification Web](faq-for-web-authentication-broker.md)
+[Forum aux questions sur le Service Broker d’authentification Web](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Exemple d’application du SDK du Broker d’authentification Web](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web?view=winrt-19041)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web?view=winrt-19041&preserve-view=true)
 </dt> </dl>
 
  

@@ -11,12 +11,12 @@ keywords:
 - UI Automation, liste des attributs de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b011203111a6484156921d63cc27bb11b017e596
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7f8ae2d51a222e3833d0dd95fa6c048114a370a6
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510692"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353622"
 ---
 # <a name="ui-automation-text-attributes"></a>Attributs de texte UI Automation
 
@@ -29,7 +29,7 @@ Les attributs de texte de la liste suivante sont pris en charge par le modèle d
 > [!Note]  
 > Certains des attributs répertoriés sont pris en charge à partir de Windows 8. Consultez [**identificateurs d’attribut de texte**](uiauto-textattribute-ids.md) pour les notes relatives à la prise en charge des versions.
 
- 
+ 
 
 Cette rubrique contient les sections suivantes :
 
@@ -53,12 +53,12 @@ Les objets d’annotation et les types d’annotation sont disponibles par le bi
 
 | Attribut             | Identificateur                                                            |
 |-----------------------|-----------------------------------------------------------------------|
-| **AnnotationObjects** | [**UIA \_ AnnotationObjectsAttributeId**](uiauto-textattribute-ids.md) |
-| **AnnotationTypes**   | [**UIA \_ AnnotationTypesAttributeId**](uiauto-textattribute-ids.md)   |
+| **AnnotationObjects** | [**UIA \_ AnnotationObjectsAttributeId**](uiauto-annotation-type-identifiers.md) |
+| **AnnotationTypes**   | [**UIA \_ AnnotationTypesAttributeId**](uiauto-annotation-type-identifiers.md)   |
 
 
 
- 
+ 
 
 ## <a name="font-attributes"></a>Attributs de police
 
@@ -74,7 +74,7 @@ Le nom, la taille et le poids d’une police sont disponibles par le biais des a
 
 
 
- 
+ 
 
 ## <a name="language-attributes"></a>Attributs de langage
 
@@ -89,7 +89,7 @@ Les informations relatives à la langue du texte sont disponibles par le biais d
 
 
 
- 
+ 
 
 ## <a name="link-attribute"></a>Attribut de lien
 
@@ -103,7 +103,7 @@ L’attribut suivant fournit la plage de texte qui est la cible d’un lien dans
 
 
 
- 
+ 
 
 ## <a name="page-margin-attributes"></a>Attributs de marge de page
 
@@ -120,7 +120,7 @@ Les rectangles englobants d’une plage de texte n’exposent pas les coordonné
 
 
 
- 
+ 
 
 ## <a name="text-alignment-attributes"></a>Attributs d’alignement de texte
 
@@ -138,7 +138,7 @@ Les informations relatives à l’alignement du texte, telles que la mise en ret
 
 
 
- 
+ 
 
 ## <a name="text-color-attributes"></a>Attributs de couleur de texte
 
@@ -153,7 +153,7 @@ Les couleurs de texte de premier plan et d’arrière-plan sont disponibles via 
 
 
 
- 
+ 
 
 ## <a name="text-decoration-attributes"></a>Attributs de décoration de texte
 
@@ -177,7 +177,7 @@ Des informations sur les décorations de texte sont disponibles par le biais des
 
 
 
- 
+ 
 
 ## <a name="text-style-attributes"></a>Attributs de style de texte
 
@@ -196,7 +196,7 @@ Des informations sur les styles de texte sont disponibles via les attributs suiv
 
 
 
- 
+ 
 
 ## <a name="interaction-and-selection-attributes"></a>Attributs d’interaction et de sélection
 
@@ -213,7 +213,7 @@ Les informations relatives à la sélection de texte en cours dans la plage et l
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -231,6 +231,6 @@ Les informations relatives à la sélection de texte en cours dans la plage et l
 [Utilisation de contrôles textuels](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
