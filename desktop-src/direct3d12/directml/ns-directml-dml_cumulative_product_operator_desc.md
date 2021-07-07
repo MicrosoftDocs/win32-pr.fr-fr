@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 68b001467496ab9affc559e76ecac5461902399c
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: cb4006a20dd25751c027ba97e63dcfc60c25faf6
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521195"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282558"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (directml. h)
 
@@ -180,13 +180,20 @@ Cet opérateur prend en charge l’exécution sur place, ce qui signifie que le 
 Cet opérateur a été introduit dans `DML_FEATURE_LEVEL_3_1` .
 
 ## <a name="tensor-constraints"></a>Contraintes tenseur
-*InputTensor* et *OutputTensor* doivent avoir le même *type de données* et les mêmes *tailles*.
+*InputTensor* et *OutputTensor* doivent avoir les mêmes *types de données*, *DimensionCount* et *tailles*.
 
 ## <a name="tensor-support"></a>Support tenseur
+### <a name="dml_feature_level_4_0-and-above"></a>DML_FEATURE_LEVEL_4_0 et versions ultérieures
+| Tenseur | Type | Nombre de dimensions prises en charge | Types de données pris en charge |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | Entrée | 1 à 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| OutputTensor | Output | 1 à 8 | FLOAT32, FLOAT16, UINT32, UINT16 |
+
+### <a name="dml_feature_level_3_1-and-above"></a>DML_FEATURE_LEVEL_3_1 et versions ultérieures
 | Tenseur | Type | Nombre de dimensions prises en charge | Types de données pris en charge |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | Entrée | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
-| OutputTensor | Sortie | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
+| OutputTensor | Output | 4 | FLOAT32, FLOAT16, UINT32, UINT16 |
 
 ## <a name="requirements"></a>Spécifications
 | &nbsp; | &nbsp; |

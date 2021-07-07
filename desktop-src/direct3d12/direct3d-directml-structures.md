@@ -5,12 +5,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: d64fce5bf57362943fdb1bef447aebd8ae801d7d
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: fb923bb7546dffb6320802b933a170ccef685d21
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521155"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282578"
 ---
 # <a name="directml-structures"></a>Structures DirectML
 
@@ -62,6 +62,7 @@ Les structures suivantes sont déclarées dans DirectML. h.
 | [**DML_DEPTH_TO_SPACE_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_depth_to_space_operator_desc). Décrit un opérateur de réorganisation des données DirectML qui réorganise (permute) des données d’une profondeur à l’autres dans des blocs de données spatiales. |
 | [**DML_DEPTH_TO_SPACE1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_depth_to_space1_operator_desc). Réorganise (permute) les données de profondeur en blocs de données spatiales. L’opérateur génère une copie du tenseur d’entrée où les valeurs de la dimension de profondeur sont déplacées dans les blocs spatiaux vers les dimensions de hauteur et de largeur. |
 | [**DML_DIAGONAL_MATRIX_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_diagonal_matrix_operator_desc). Décrit un opérateur mathématique DirectML qui génère une matrice de type identité avec celles sur la diagonale principale et les zéros partout ailleurs. |
+| [**DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc). Calcule l’échelle de quantification et les valeurs de point zéro nécessaires pour quantifier le *InputTensor*, puis applique cette quantification, en écrivant le résultat dans *OutputTensor*. |
 | [**DML_ELEMENT_WISE_ABS_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_abs_operator_desc). Décrit un opérateur mathématique DirectML qui exécute la fonction de valeur absolue par élément f (x) = ABS (x * Scale + Bias), où les termes d’échelle et de biais sont facultatifs. |
 | [**DML_ELEMENT_WISE_ACOS_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_acos_operator_desc). Décrit un opérateur DirectML trigonométrique qui exécute la fonction d’arccosinus par élément f (x) = ACOS (x * Scale + Bias), où les termes d’échelle et de biais sont facultatifs. |
 | [**DML_ELEMENT_WISE_ACOSH_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_acosh_operator_desc). Décrit un opérateur DirectML trigonométrique qui exécute la fonction cosinus hyperbolique inverse au niveau de l’élément, f (x) = log (x + racine (x * x-1)) * Scale + Bias, où les termes d’échelle et de biais sont facultatifs. |
@@ -113,6 +114,7 @@ Les structures suivantes sont déclarées dans DirectML. h.
 | [**DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_multiply_operator_desc). Décrit un opérateur mathématique DirectML qui exécute la fonction de multiplication de chaque élément dans `ATensor` par son élément correspondant dans `BTensor` . |
 | [**DML_ELEMENT_WISE_POW_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_pow_operator_desc). Décrit un opérateur mathématique DirectML qui effectue la fonction d’alimentation par élément f (x, exposant) = Pow (x * Scale + Bias, Exponent), où les termes d’échelle et de biais sont facultatifs. |
 | [**DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc). Décrit un opérateur DirectML qui exécute la fonction de quantification linéaire sur chaque élément de `InputTensor` par rapport à son élément correspondant dans `ScaleTensor` et ZeroPointTensor. |
+| [**DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc). Ajoute chaque élément de *ATensor* à son élément correspondant dans *BTensor*, en plaçant le résultat dans l’élément correspondant de *OutputTensor*. |
 | [**DML_ELEMENT_WISE_RECIP_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_recip_operator_desc). Décrit un opérateur mathématique DirectML qui exécute une fonction réciproque sur chaque élément de l’entrée. |
 | [**DML_ELEMENT_WISE_ROUND_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_round_operator_desc). Arrondit chaque élément de *InputTensor* à une valeur entière, en plaçant le résultat dans l’élément correspondant de *OutputTensor*.|
 | [**DML_ELEMENT_WISE_SIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_sign_operator_desc). Décrit un opérateur DirectML qui effectue une fonction d’activation Shrink elementwise sur l’entrée. |
@@ -167,7 +169,8 @@ Les structures suivantes sont déclarées dans DirectML. h.
 | [**DML_RESAMPLE1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc). Rééchantillonne les éléments de la source vers le tenseur de destination, en utilisant les facteurs de mise à l’échelle pour calculer la taille du tenseur de destination. Vous pouvez utiliser le mode d’interpolation linéaire ou le voisin le plus proche.|
 | [**DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_reverse_subsequences_desc). Inverse les éléments d’une ou plusieurs sous- *séquences* d’un tenseur. L’ensemble de sous-séquences à inverser est choisi en fonction des longueurs d’axe et de séquence fournies.|
 | [**DML_RNN_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_rnn_operator_desc). Décrit un opérateur d’apprentissage profond DirectML qui exécute une fonction RNN (simple Reactive neuronal Network) à une couche sur l’entrée. |
-| [**DML_ROI_ALIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc). Effectue une opération d’alignement du ROI, comme décrit dans le [document R-CNN du masque](https://arxiv.org/abs/1703.06870). En résumé, l’opération extrait les cultures de l’image d’entrée tenseur et les redimensionne sur une taille de sortie commune spécifiée par les 2 dernières dimensions de *OutputTensor* à l’aide de la *InterpolationMode* spécifiée. |
+| [**DML_ROI_ALIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc). Effectue une opération d’alignement du ROI, comme décrit dans le document [R-CNN du masque](https://arxiv.org/abs/1703.06870) . En résumé, l’opération extrait les cultures de l’image d’entrée tenseur et les redimensionne sur une taille de sortie commune spécifiée par les 2 dernières dimensions de *OutputTensor* à l’aide de la *InterpolationMode* spécifiée. |
+| [**DML_ROI_ALIGN1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align1_operator_desc). Effectue une opération d’alignement du ROI, comme décrit dans le document [R-CNN du masque](https://arxiv.org/abs/1703.06870) . En résumé, l’opération extrait les fenêtres rognées à partir de l’image d’entrée tenseur et les redimensionne sur une taille de sortie commune spécifiée par les 2 dernières dimensions de *OutputTensor* à l’aide de la *InterpolationMode* spécifiée. |
 | [**DML_ROI_POOLING_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_roi_pooling_operator_desc). Décrit un opérateur DirectML qui effectue une fonction de regroupement sur les tenseur d’entrée (en fonction des régions d’intérêt, ou ROIs). |
 | [**DML_SCALAR_UNION**](/windows/win32/api/directml/ns-directml-dml_scalar_union). Union de types scalaires.|
 | [**DML_SCALE_BIAS**](/windows/desktop/api/directml/ns-directml-dml_scale_bias). Contient les valeurs des termes d’échelle et de biais fournis à un opérateur DirectML. |

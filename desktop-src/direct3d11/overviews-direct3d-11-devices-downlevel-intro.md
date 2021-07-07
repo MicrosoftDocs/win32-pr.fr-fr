@@ -9,14 +9,17 @@ keywords:
 - niveau de fonctionnalité, DirectX
 ms.topic: article
 ms.date: 09/01/2020
-ms.openlocfilehash: 82667a7a2e02d675185fd65c318aeed10db79844
-ms.sourcegitcommit: 85bd7112570865dd2136e0d05bd0a4132e6313ec
+ms.openlocfilehash: 9c4717d743e50e91376e57e5d13acbe2cfae41d8
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "104031999"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282468"
 ---
 # <a name="direct3d-feature-levels"></a>Niveaux de fonctionnalités Direct3D
+
+> [!NOTE]
+> **Certaines informations portent sur la préversion du produit, qui est susceptible d’être en grande partie modifié avant sa commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.**
 
 Pour gérer la diversité des cartes vidéo dans les machines nouvelles et existantes, Microsoft Direct3D 11 introduit le concept de niveaux de fonctionnalité. Cette rubrique traite des niveaux de fonctionnalité Direct3D.
 
@@ -47,60 +50,60 @@ Il existe trois formats pour les versions Direct3D, les modèles de nuanceur et 
 - Les modèles de nuanceur utilisent une période ; par exemple, le modèle de nuanceur 5,1.
 - Les niveaux de fonctionnalité utilisent un trait de soulignement ; par exemple, le niveau de fonctionnalité est 12 \_ 0.
 
-## <a name="feature-support-for-feature-levels-12_1-through-9_3"></a>Prise en charge des fonctionnalités des niveaux de fonctionnalité 12_1 à 9_3
+## <a name="feature-support-for-feature-levels-12_2-through-9_3"></a>Prise en charge des fonctionnalités des niveaux de fonctionnalité 12_2 à 9_3
 
 Les fonctionnalités suivantes sont disponibles pour les niveaux de fonctionnalités répertoriés. Les en-têtes sur la ligne supérieure sont des niveaux de fonctionnalité Direct3D. Les en-têtes de la colonne de gauche sont des fonctionnalités. Consultez également [les notes de bas de page pour les tables](#footnotes-for-the-tables).
 
-| Niveau de fonctionnalité de fonctionnalité \\ | 12 \_ 1<sup>0</sup> | 12 \_ 0<sup>0</sup> | 11 \_ 1<sup>1</sup> | 11 \_ 0 | 10 \_ 1 | 10 \_ 0 | 9 \_ 3<sup>7</sup> |
-|-|-|-|-|-|-|-|-|
-| Modèle de nuanceur (D3D11) | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 4.x | 4.0 | 2,0 (4 \_ 0 \_ niveau \_ 9 \_ 3) \[ vs \_ 2 \_ a/PS \_ 2 \_ x \] <sup>5</sup> |
-| Modèle de nuanceur (D3D12) | 5,1<sup>2</sup> | 5,1<sup>2</sup> | 5,1<sup>2</sup> | 5,1<sup>2</sup> | N/A | N/A | N/A |
-| [Ressources en mosaïque](tiled-resources.md) | Niveau2<sup>6</sup> | Niveau2<sup>6</sup> | Facultatif | Facultatif | Non | Non | Non |
-| [Pixellisation conservatrice](conservative-rasterization.md) | Niveau1<sup>6</sup> | Facultatif | Facultatif | Non | Non | Non | Non |
-| [Vues de l’ordre du rastériseur](rasterizer-order-views.md) | Oui | Facultatif | Facultatif | Non | Non | Non | Non |
-| [Filtres min/max](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | Oui | Oui | Facultatif | Non | Non | Non | Non |
-| Mapper la mémoire tampon par défaut | Facultatif | Facultatif | Facultatif | Facultatif | Non | Non | Non |
-| [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md) | Facultatif | Facultatif | Facultatif | Non | Non | Non | Non |
-| Chargements de vues d’accès non ordonnées typées | 18 formats, plus facultatif | 18 formats, plus facultatif | 3 formats, plus facultatifs | 3 formats, plus facultatifs | Non | Non | Non |
-| [Nuanceur de géométrie](/previous-versions/bb205146(v=vs.85)) | Oui | Oui | Oui | Oui | Oui | Oui | Non |
-| [Diffuser en continu](./d3d10-graphics-programming-guide-output-stream-stage.md) | Oui | Oui | Oui | Oui | Oui | Oui | Non |
-| [Nuanceur de DirectCompute/Compute](direct3d-11-advanced-stages-compute-shader.md) | Oui | Oui | Oui | Oui | Facultatif | Facultatif | N/A |
-| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| [Nuanciers de la coque et du domaine](direct3d-11-advanced-stages-tessellation.md) | Oui | Oui | Oui | Oui | Non | Non | Non |
-| [Tableaux de ressources de texture](overviews-direct3d-11-resources-textures-intro.md) | Oui | Oui | Oui | Oui | Oui | Oui | Non |
-| [Carte cubique des groupes de ressources](overviews-direct3d-11-resources-textures-intro.md) | Oui | Oui | Oui | Oui | Oui | Non | Non |
-| [Compression textures BC4/BC5](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | Oui | Oui | Oui | Oui | Oui | Oui | Non |
-| [Compression BC6H/BC7](texture-block-compression-in-direct3d-11.md) | Oui | Oui | Oui | Oui | Non | Non | Non |
-| [Alpha-à-couverture](./d3d10-graphics-programming-guide-blend-state.md) | Oui | Oui | Oui | Oui | Oui | Oui | Non |
-| [Formats étendus (BGRA, etc.)](overviews-direct3d-11-devices-downlevel-exceptions.md) | Oui | Oui | Oui | Oui | Facultatif | Facultatif | Oui |
-| [Format de couleur XR 10 bits](overviews-direct3d-11-devices-downlevel-exceptions.md) | Oui | Oui | Oui | Oui | Facultatif | Facultatif | N/A |
-| [Opérations logiques (fusion de sortie)](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Non |
-| Pixellisation indépendante de la cible | Oui | Oui | Oui | Non | Non | Non | Non |
-| [Plusieurs cibles de rendu (MRT) avec ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Non |
-| Emplacements UAV | 64 | 64 | 64 | 8 | 1 | 1 | N/A |
-| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| UAVs à chaque étape | Oui | Oui | Oui | Non | Non | Non | N/A |
-| [Nombre maximal d’échantillons forcés pour le rendu UAV uniquement](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 16 | 16 | 8 | N/A | N/A | N/A |
-| Décalage de la mémoire tampon constante et mises à jour partielles | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Oui<sup>1</sup> |
-| formats 16 bits par pixel (BPP) | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> |
-| Dimension de texture max. | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 4096 |
-| Dimension carte cubique max. | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 4096 |
-| Étendue de volume max. | 2 048 | 2 048 | 2 048 | 2 048 | 2 048 | 2 048 | 256 |
-| Répétition de la texture max. | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 8 192 |
-| Anisotrope max. | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
-| Nombre maximal de primitives | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 1048575 |
-| Index de vertex max. | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 1048575 |
-| Nombre maximal d’emplacements d’entrée | 32 | 32 | 32 | 32 | 32 | 16 | 16 |
-| Cibles de rendu simultanées | 8 | 8 | 8 | 8 | 8 | 8 | 4 |
-| Requêtes d’occlusion | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
-| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| Fusion alpha distincte | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
-| Miroir une seule fois | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
-| Chevauchement d’éléments vertex | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
-| Masques d’écriture indépendants | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
-| Instancing | Oui | Oui | Oui | Oui | Oui | Oui | Oui<sup>7</sup> |
-| Non-puissance-de-2 conditionnelle-<sup>3</sup> | Non | Non | Non | Non | Non | Non | Oui |
-| Non-puissance-de-2 non conditionnelle<sup>4</sup> | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| Niveau de fonctionnalité de fonctionnalité \\ | 12 \_ 2<sup>8</sup> | 12 \_ 1<sup>0</sup> | 12 \_ 0<sup>0</sup> | 11 \_ 1<sup>1</sup> | 11 \_ 0 | 10 \_ 1 | 10 \_ 0 | 9 \_ 3<sup>7</sup> |
+|-|-|-|-|-|-|-|-|-|
+| Modèle de nuanceur (D3D11) | NON APPLICABLE | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 5,0<sup>2</sup> | 4.x | 4.0 | 2,0 (4 \_ 0 \_ niveau \_ 9 \_ 3) \[ vs \_ 2 \_ a/PS \_ 2 \_ x \] <sup>5</sup> |
+| Modèle de nuanceur (D3D12) | 6.5 | 5,1<sup>2</sup> | 5,1<sup>2</sup> | 5,1<sup>2</sup> | 5,1<sup>2</sup> | NON APPLICABLE | NON APPLICABLE | NON APPLICABLE |
+| [Ressources en mosaïque](tiled-resources.md) | Niveau3 | Niveau2<sup>6</sup> | Niveau2<sup>6</sup> | Facultatif | Facultatif | Non | Non | Non |
+| [Pixellisation conservatrice](conservative-rasterization.md) | Niveau3 | Niveau1<sup>6</sup> | Facultatif | Facultatif | Non | Non | Non | Non |
+| [Vues de l’ordre du rastériseur](rasterizer-order-views.md) | Oui | Oui | Facultatif | Facultatif | Non | Non | Non | Non |
+| [Filtres min/max](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | Oui | Oui | Oui | Facultatif | Non | Non | Non | Non |
+| Mapper la mémoire tampon par défaut | NON APPLICABLE | Facultatif | Facultatif | Facultatif | Facultatif | Non | Non | Non |
+| [Valeur de référence du stencil spécifié par le nuanceur](shader-specified-stencil-reference-value.md) | Facultatif | Facultatif | Facultatif | Facultatif | Non | Non | Non | Non |
+| Chargements de vues d’accès non ordonnées typées | 18 formats, plus facultatif | 18 formats, plus facultatif | 18 formats, plus facultatif | 3 formats, plus facultatifs | 3 formats, plus facultatifs | Non | Non | Non |
+| [Nuanceur de géométrie](/previous-versions/bb205146(v=vs.85)) | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| [Diffuser en continu](./d3d10-graphics-programming-guide-output-stream-stage.md) | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| [Nuanceur de DirectCompute/Compute](direct3d-11-advanced-stages-compute-shader.md) | Oui | Oui | Oui | Oui | Oui | Facultatif | Facultatif | NON APPLICABLE |
+| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| [Nuanciers de la coque et du domaine](direct3d-11-advanced-stages-tessellation.md) | Oui | Oui | Oui | Oui | Oui | Non | Non | Non |
+| [Tableaux de ressources de texture](overviews-direct3d-11-resources-textures-intro.md) | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| [Carte cubique des groupes de ressources](overviews-direct3d-11-resources-textures-intro.md) | Oui | Oui | Oui | Oui | Oui | Oui | Non | Non |
+| [Compression textures BC4/BC5](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| [Compression BC6H/BC7](texture-block-compression-in-direct3d-11.md) | Oui | Oui | Oui | Oui | Oui | Non | Non | Non |
+| [Alpha-à-couverture](./d3d10-graphics-programming-guide-blend-state.md) | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
+| [Formats étendus (BGRA, etc.)](overviews-direct3d-11-devices-downlevel-exceptions.md) | Oui | Oui | Oui | Oui | Oui | Facultatif | Facultatif | Oui |
+| [Format de couleur XR 10 bits](overviews-direct3d-11-devices-downlevel-exceptions.md) | Oui | Oui | Oui | Oui | Oui | Facultatif | Facultatif | NON APPLICABLE |
+| [Opérations logiques (fusion de sortie)](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Oui | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Non |
+| Pixellisation indépendante de la cible | Oui | Oui | Oui | Oui | Non | Non | Non | Non |
+| [Plusieurs cibles de rendu (MRT) avec ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Oui | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Non |
+| Emplacements UAV | <sup>9</sup> niveaux | 64 | 64 | 64 | 8 | 1 | 1 | N/A |
+| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| UAVs à chaque étape | Oui | Oui | Oui | Oui | Non | Non | Non | N/A |
+| [Nombre maximal d’échantillons forcés pour le rendu UAV uniquement](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 16 | 16 | 16 | 8 | NON APPLICABLE | NON APPLICABLE | NON APPLICABLE |
+| Décalage de la mémoire tampon constante et mises à jour partielles | Oui | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Oui<sup>1</sup> |
+| formats 16 bits par pixel (BPP) | Oui | Oui | Oui | Oui | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> |
+| Dimension de texture max. | 16384 | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 4096 |
+| Dimension carte cubique max. | 16384 | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 4096 |
+| Étendue de volume max. | 2 048 | 2 048 | 2 048 | 2 048 | 2 048 | 2 048 | 2 048 | 256 |
+| Répétition de la texture max. | 16384 | 16384 | 16384 | 16384 | 16384 | 8 192 | 8 192 | 8 192 |
+| Anisotrope max. | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
+| Nombre maximal de primitives | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 1048575 |
+| Index de vertex max. | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 2 ^ 32 – 1 | 1048575 |
+| Nombre maximal d’emplacements d’entrée | 32 | 32 | 32 | 32 | 32 | 32 | 16 | 16 |
+| Cibles de rendu simultanées | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 4 |
+| Requêtes d’occlusion | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
+| <b>Niveau de fonctionnalité de fonctionnalité \\</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| Fusion alpha distincte | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
+| Miroir une seule fois | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
+| Chevauchement d’éléments vertex | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
+| Masques d’écriture indépendants | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui |
+| Instancing | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Oui<sup>7</sup> |
+| Non-puissance-de-2 conditionnelle-<sup>3</sup> | Non | Non | Non | Non | Non | Non | Non | Oui |
+| Non-puissance-de-2 non conditionnelle<sup>4</sup> | Oui | Oui | Oui | Oui | Oui | Oui | Oui | Non |
 
 ## <a name="feature-support-for-feature-levels-9_2-and-9_1"></a>Prise en charge des fonctionnalités pour les niveaux de fonctionnalités 9_2 et 9_1
 
@@ -109,7 +112,7 @@ Les fonctionnalités suivantes sont disponibles pour les niveaux de fonctionnali
 | Niveau de fonctionnalité de fonctionnalité \\ | 9 \_ 2 | 9 \_ 1 |
 |-|-|-|
 | Modèle de nuanceur (D3D11) | 2,0 (4 \_ 0 \_ niveau \_ 9 \_ 1) | 2,0 (4 \_ 0 \_ niveau \_ 9 \_ 1) |
-| Modèle de nuanceur (D3D12) | N/A | N/A |
+| Modèle de nuanceur (D3D12) | NON APPLICABLE | NON APPLICABLE |
 | [Ressources en mosaïque](tiled-resources.md) | Non | Non |
 | [Pixellisation conservatrice](conservative-rasterization.md) | Non | Non |
 | [Vues de l’ordre du rastériseur](rasterizer-order-views.md) | Non | Non |
@@ -119,7 +122,7 @@ Les fonctionnalités suivantes sont disponibles pour les niveaux de fonctionnali
 | Chargements de vues d’accès non ordonnées typées | Non | Non |
 | [Nuanceur de géométrie](/previous-versions/bb205146(v=vs.85)) | Non | Non |
 | [Diffuser en continu](./d3d10-graphics-programming-guide-output-stream-stage.md) | Non | Non |
-| [Nuanceur de DirectCompute/Compute](direct3d-11-advanced-stages-compute-shader.md) | N/A | N/A |
+| [Nuanceur de DirectCompute/Compute](direct3d-11-advanced-stages-compute-shader.md) | NON APPLICABLE | NON APPLICABLE |
 | [Nuanciers de la coque et du domaine](direct3d-11-advanced-stages-tessellation.md) | Non | Non |
 | [Tableaux de ressources de texture](overviews-direct3d-11-resources-textures-intro.md) | Non | Non |
 | [Carte cubique des groupes de ressources](overviews-direct3d-11-resources-textures-intro.md) | Non | Non |
@@ -128,13 +131,13 @@ Les fonctionnalités suivantes sont disponibles pour les niveaux de fonctionnali
 | [Compression BC6H/BC7](texture-block-compression-in-direct3d-11.md) | Non | Non |
 | [Alpha-à-couverture](./d3d10-graphics-programming-guide-blend-state.md) | Non | Non |
 | [Formats étendus (BGRA, etc.)](overviews-direct3d-11-devices-downlevel-exceptions.md) | Oui | Oui |
-| [Format de couleur XR 10 bits](overviews-direct3d-11-devices-downlevel-exceptions.md) | N/A | N/A |
+| [Format de couleur XR 10 bits](overviews-direct3d-11-devices-downlevel-exceptions.md) | NON APPLICABLE | NON APPLICABLE |
 | [Opérations logiques (fusion de sortie)](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Non | Non |
 | Pixellisation indépendante de la cible | Non | Non |
 | [Plusieurs cibles de rendu (MRT) avec ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | Non | Non |
-| Emplacements UAV | N/A | N/A |
-| UAVs à chaque étape | N/A | N/A |
-| [Nombre maximal d’échantillons forcés pour le rendu UAV uniquement](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | N/A | N/A |
+| Emplacements UAV | NON APPLICABLE | NON APPLICABLE |
+| UAVs à chaque étape | NON APPLICABLE | NON APPLICABLE |
+| [Nombre maximal d’échantillons forcés pour le rendu UAV uniquement](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | NON APPLICABLE | NON APPLICABLE |
 | Décalage de la mémoire tampon constante et mises à jour partielles | Oui<sup>1</sup> | Oui<sup>1</sup> |
 | formats 16 bits par pixel (BPP) | Facultatif<sup>1</sup> | Facultatif<sup>1</sup> |
 | Dimension de texture max. | 2 048 | 2 048 |
@@ -173,6 +176,10 @@ Les fonctionnalités suivantes sont disponibles pour les niveaux de fonctionnali
 <sup>6</sup> niveaux supérieurs facultatifs.
 
 <sup>7</sup> pour les 9_3 au niveau des fonctionnalités, les seules méthodes de rendu prises en charge sont **Draw**, **DrawIndexed** et **DrawIndexInstanced**. De même, pour le niveau de fonctionnalité 9_3, le rendu de liste de points est pris en charge uniquement pour le rendu via **Draw**.
+
+<sup>8</sup> requiert le runtime Direct3D 12.
+
+<sup>9</sup> dans l’API Direct3D 12, il existe des limites sur le nombre de descripteurs dans un segment de mémoire CBV/SRV/UAV. Pour plus d’informations, consultez [niveaux matériels](/windows/win32/direct3d12/hardware-support) . Séparément, le nombre de UAVs dans toutes les tables de descripteurs est limité à travers toutes les étapes, qui est basé sur le [niveau de liaison de ressources](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support).
 
 Pour plus d’informations sur la prise en charge des formats à différents niveaux de fonctionnalités matérielles, consultez :
 
