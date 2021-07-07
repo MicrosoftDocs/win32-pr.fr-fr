@@ -13,78 +13,55 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e40940f2df6685a3096da6886ad3bcb6d9ca99af
-ms.sourcegitcommit: 4423a9d48f1c90d2ec2eca68e9cae30df1787f25
+ms.openlocfilehash: 573730053a93a110381637ef8e62dc08a4aa1535
+ms.sourcegitcommit: 1897c2a39b4ac4ca4b1e4aec394cef2ce2619c03
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "104381742"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "113316481"
 ---
-# <a name="wavereadlaneat-function"></a><span data-ttu-id="dbe15-104">WaveReadLaneAt fonction)</span><span class="sxs-lookup"><span data-stu-id="dbe15-104">WaveReadLaneAt function</span></span>
+# <a name="wavereadlaneat-function"></a><span data-ttu-id="15bd1-104">WaveReadLaneAt fonction)</span><span class="sxs-lookup"><span data-stu-id="15bd1-104">WaveReadLaneAt function</span></span>
 
-<span data-ttu-id="dbe15-105">Retourne la valeur de l’expression pour l’index Lane donné dans l’onde spécifiée.</span><span class="sxs-lookup"><span data-stu-id="dbe15-105">Returns the value of the expression for the given lane index within the specified wave.</span></span>
+<span data-ttu-id="15bd1-105">Retourne la valeur de l’expression pour l’index Lane donné dans l’onde spécifiée.</span><span class="sxs-lookup"><span data-stu-id="15bd1-105">Returns the value of the expression for the given lane index within the specified wave.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="dbe15-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="dbe15-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="15bd1-106">Syntaxe</span><span class="sxs-lookup"><span data-stu-id="15bd1-106">Syntax</span></span>
 
 ``` syntax
 <type> WaveReadLaneAt(
-   <type> expr,
-   uint laneIndex
+   <type> expr,
+   uint laneIndex
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="dbe15-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="dbe15-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="15bd1-107">Paramètres</span><span class="sxs-lookup"><span data-stu-id="15bd1-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="dbe15-108">*expr*</span><span class="sxs-lookup"><span data-stu-id="dbe15-108">*expr*</span></span> 
+<span data-ttu-id="15bd1-108">*expr*</span><span class="sxs-lookup"><span data-stu-id="15bd1-108">*expr*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="dbe15-109">Expression à évaluer.</span><span class="sxs-lookup"><span data-stu-id="dbe15-109">The expression to evaluate.</span></span>
+<span data-ttu-id="15bd1-109">Expression à évaluer.</span><span class="sxs-lookup"><span data-stu-id="15bd1-109">The expression to evaluate.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="dbe15-110">*laneIndex*</span><span class="sxs-lookup"><span data-stu-id="dbe15-110">*laneIndex*</span></span> 
+<span data-ttu-id="15bd1-110">*laneIndex*</span><span class="sxs-lookup"><span data-stu-id="15bd1-110">*laneIndex*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="dbe15-111">Index de la voie pour laquelle le résultat *expr* sera retourné.</span><span class="sxs-lookup"><span data-stu-id="dbe15-111">The index of the lane for which the *expr* result will be returned.</span></span>
+<span data-ttu-id="15bd1-111">Index de la voie pour laquelle le résultat *expr* sera retourné.</span><span class="sxs-lookup"><span data-stu-id="15bd1-111">The index of the lane for which the *expr* result will be returned.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="dbe15-112">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="dbe15-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="15bd1-112">Valeur retournée</span><span class="sxs-lookup"><span data-stu-id="15bd1-112">Return value</span></span>
 
-<span data-ttu-id="dbe15-113">La valeur résultante est le résultat de *expr*.</span><span class="sxs-lookup"><span data-stu-id="dbe15-113">The resulting value is the result of *expr*.</span></span> <span data-ttu-id="dbe15-114">Elle est uniforme si *laneIndex* est uniforme.</span><span class="sxs-lookup"><span data-stu-id="dbe15-114">It will be uniform if *laneIndex* is uniform.</span></span>
+<span data-ttu-id="15bd1-113">La valeur résultante est le résultat de *expr*.</span><span class="sxs-lookup"><span data-stu-id="15bd1-113">The resulting value is the result of *expr*.</span></span> <span data-ttu-id="15bd1-114">Elle est uniforme si *laneIndex* est uniforme.</span><span class="sxs-lookup"><span data-stu-id="15bd1-114">It will be uniform if *laneIndex* is uniform.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="dbe15-115">Notes</span><span class="sxs-lookup"><span data-stu-id="dbe15-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="15bd1-115">Remarques</span><span class="sxs-lookup"><span data-stu-id="15bd1-115">Remarks</span></span>
 
-<span data-ttu-id="dbe15-116">Cette fonction est effectivement une diffusion de la valeur dans la voie laneIndex’th.</span><span class="sxs-lookup"><span data-stu-id="dbe15-116">This function is effectively a broadcast of the value in the laneIndex’th lane.</span></span>
+<span data-ttu-id="15bd1-116">Cette fonction est effectivement une diffusion de la valeur de la *laneIndex*« ième allée ».</span><span class="sxs-lookup"><span data-stu-id="15bd1-116">This function is effectively a broadcast of the value in the *laneIndex*'th lane.</span></span>
 
-<span data-ttu-id="dbe15-117">Cette fonction est prise en charge à partir du Shader Model 6,0, dans les types suivants de nuanceurs :</span><span class="sxs-lookup"><span data-stu-id="dbe15-117">This function is supported from shader model 6.0, in the following types of shaders:</span></span>
+<span data-ttu-id="15bd1-117">Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur.</span><span class="sxs-lookup"><span data-stu-id="15bd1-117">This function is supported from shader model 6.0 in all shader stages.</span></span>
 
+## <a name="see-also"></a><span data-ttu-id="15bd1-118">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="15bd1-118">See also</span></span>
 
-
-| <span data-ttu-id="dbe15-118">Sommet</span><span class="sxs-lookup"><span data-stu-id="dbe15-118">Vertex</span></span> | <span data-ttu-id="dbe15-119">Forme</span><span class="sxs-lookup"><span data-stu-id="dbe15-119">Hull</span></span> | <span data-ttu-id="dbe15-120">Domain</span><span class="sxs-lookup"><span data-stu-id="dbe15-120">Domain</span></span> | <span data-ttu-id="dbe15-121">Géométrie</span><span class="sxs-lookup"><span data-stu-id="dbe15-121">Geometry</span></span> | <span data-ttu-id="dbe15-122">Pixel</span><span class="sxs-lookup"><span data-stu-id="dbe15-122">Pixel</span></span> | <span data-ttu-id="dbe15-123">Compute</span><span class="sxs-lookup"><span data-stu-id="dbe15-123">Compute</span></span> |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | <span data-ttu-id="dbe15-124">x</span><span class="sxs-lookup"><span data-stu-id="dbe15-124">x</span></span>     | <span data-ttu-id="dbe15-125">x</span><span class="sxs-lookup"><span data-stu-id="dbe15-125">x</span></span>       |
-
-
-
- 
-
-## <a name="see-also"></a><span data-ttu-id="dbe15-126">Voir aussi</span><span class="sxs-lookup"><span data-stu-id="dbe15-126">See also</span></span>
-
-<dl> <dt>
-
-[<span data-ttu-id="dbe15-127">Vue d’ensemble du modèle de nuanceur 6</span><span class="sxs-lookup"><span data-stu-id="dbe15-127">Overview of Shader Model 6</span></span>](hlsl-shader-model-6-0-features-for-direct3d-12.md)
-</dt> <dt>
-
-[<span data-ttu-id="dbe15-128">Shader, modèle 6</span><span class="sxs-lookup"><span data-stu-id="dbe15-128">Shader Model 6</span></span>](shader-model-6-0.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [<span data-ttu-id="15bd1-119">Vue d’ensemble du modèle de nuanceur 6</span><span class="sxs-lookup"><span data-stu-id="15bd1-119">Overview of Shader Model 6</span></span>](hlsl-shader-model-6-0-features-for-direct3d-12.md)
+* [<span data-ttu-id="15bd1-120">Shader, modèle 6</span><span class="sxs-lookup"><span data-stu-id="15bd1-120">Shader Model 6</span></span>](shader-model-6-0.md)
