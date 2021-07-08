@@ -8,16 +8,16 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: ff869974e6d9aa2eec2b3251832c061d7b6826da
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c9192bf650588b7c21f17afb45149fe460f91bea
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106537187"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481864"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>Définition de la reconnaissance par défaut des PPP pour un processus
 
-Les applications de bureau sur Windows peuvent s’exécuter dans différents modes de reconnaissance PPP. Ces modes activent différents comportements de mise à l’échelle DPI et peuvent utiliser des espaces de coordonnées différents. Pour plus d’informations sur la reconnaissance DPI, consultez [développement d’applications bureautiques haute résolution sur Windows.](https://msdn.microsoft.com/library/mt843498\(v=vs.85\)) Il est important de définir explicitement le mode de reconnaissance PPP par défaut de votre processus afin d’éviter tout comportement inattendu.
+les applications de bureau sur Windows peuvent s’exécuter dans différents modes de reconnaissance ppp. Ces modes activent différents comportements de mise à l’échelle DPI et peuvent utiliser des espaces de coordonnées différents. Pour plus d’informations sur la reconnaissance DPI, consultez [développement d’applications bureautiques haute résolution sur Windows.](https://msdn.microsoft.com/library/mt843498\(v=vs.85\)) Il est important de définir explicitement le mode de reconnaissance PPP par défaut de votre processus afin d’éviter tout comportement inattendu.
 
 Il existe deux méthodes principales pour spécifier la prise en compte des PPP par défaut d’un processus :
 
@@ -29,7 +29,7 @@ Nous vous recommandons de spécifier la reconnaissance par défaut des PPP de pr
 
 ## <a name="setting-default-awareness-with-the-application-manifest"></a>Définition de la sensibilisation par défaut au manifeste d’application
 
-Il existe deux paramètres de manifeste qui vous permettent de spécifier le mode de reconnaissance PPP par défaut du processus : \<dpiAwareness\> et \<dpiAware\> . \<dpiAware\> a été introduit dans Windows Vista et permet uniquement de définir par défaut la reconnaissance du système. \<dpiAwareness\> a été introduit dans Windows 10, version 1607 et vous permet de spécifier une liste triée de modes de reconnaissance des PPP par défaut de processus. Cela vous permet de définir les modes de reconnaissance PPP de sauvegarde, qui seront utilisés si votre application est exécutée sur une version de Windows incapable de prendre en charge le premier mode de sensibilisation spécifié. Dans les versions antérieures de Windows, la \<dpiAwareness\> balise la plus récente sera ignorée. Cela signifie que vous pouvez utiliser ces deux paramètres de manifeste pour activer un scénario dans lequel votre processus par défaut peut être la reconnaissance du système sur une version antérieure de Windows tout en étant Per-Monitor sur les versions ultérieures à Windows 10, version 1607. Sur Windows 10, version 1607 et sur, le \<dpiAware\> paramètre est ignoré si l' \<dpiAwareness\> élément est présent.
+Il existe deux paramètres de manifeste qui vous permettent de spécifier le mode de reconnaissance PPP par défaut du processus : \<dpiAwareness\> et \<dpiAware\> . \<dpiAware\>a été introduite dans Windows Vista et permet uniquement de définir la reconnaissance du système par défaut de votre processus. \<dpiAwareness\>a été introduite dans Windows 10, version 1607 et vous permet de spécifier une liste triée de modes de reconnaissance des ppp par défaut de processus. cela vous permet de définir les modes de reconnaissance ppp de sauvegarde, qui seront utilisés si votre application est exécutée sur une version de Windows ne peut pas prendre en charge le premier mode de sensibilisation spécifié. dans les versions antérieures de Windows, la \<dpiAwareness\> balise la plus récente sera ignorée. cela signifie que vous pouvez utiliser ces deux paramètres de manifeste pour activer un scénario dans lequel la valeur par défaut du processus peut être la reconnaissance du système sur une version antérieure de Windows tout en étant Per-Monitor sur les versions supérieures à Windows 10, version 1607. sur Windows 10, la version 1607 et la valeur on, le \<dpiAware\> paramètre est ignoré si l' \<dpiAwareness\> élément est présent.
 
 Le tableau ci-dessous montre comment spécifier des modes de reconnaissance des PPP par défaut de processus différents à l’aide des deux paramètres de manifeste :
 
@@ -66,7 +66,7 @@ Le tableau ci-dessous montre comment spécifier des modes de reconnaissance des 
 </tr>
 <tr class="even">
 <td>Par moniteur v2</td>
-<td>Non pris en charge</td>
+<td>Non prise en charge</td>
 <td>&lt;dpiAwareness &gt; PerMonitorV2 &lt; /dpiAwareness&gt;</td>
 </tr>
 </tbody>
@@ -74,7 +74,7 @@ Le tableau ci-dessous montre comment spécifier des modes de reconnaissance des 
 
  
 
-L’exemple ci-dessous montre à la fois les \<dpiAwareness\> \<dpiAware\> paramètres et utilisés dans le même fichier manifeste pour configurer le comportement de reconnaissance PPP par défaut pour les différentes versions de Windows.
+L’exemple ci-dessous montre à la fois les \<dpiAwareness\> \<dpiAware\> paramètres et utilisés dans le même fichier manifeste pour configurer le comportement de reconnaissance dpi par défaut du processus pour les différentes versions de Windows.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
@@ -115,18 +115,18 @@ Il existe plusieurs API qui vous permettent de spécifier la prise en compte des
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDpiAware</a></td>
+<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a></td>
 <td>Windows Vista</td>
 <td>N/A</td>
-<td>SetProcessDpiAware()</td>
+<td>SetProcessDPIAware()</td>
 <td>N/A</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
 <td>Windows 8.1</td>
 <td>SetProcessDpiAwareness (PROCESS_DPI_UNAWARE)</td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_SYSTEM_DPI_AWARE)</td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_PER_MONITOR_DPI_AWARE)</td>
+<td>SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE)</td>
+<td>SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE)</td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessContext</strong></a></td>
@@ -143,4 +143,4 @@ Il existe plusieurs API qui vous permettent de spécifier la prise en compte des
 
 ## <a name="process-default-vs-thread-default"></a>Processus-par défaut par rapport au thread par défaut
 
-Ce document fait référence à la définition de la prise en face PPP par défaut pour votre processus. Cela est dû au fait que Windows 10 a introduit la prise en charge de l’exécution de plusieurs modes de prise en charge DPI au sein d’un même processus (avant Windows 10, l’ensemble du processus devait se conformer à un seul mode de reconnaissance PPP). La prise en charge de l’exécution de plusieurs modes de reconnaissance DPI au sein d’un processus est appelée « mise à l’échelle DPI en mode mixte ». Lors de l’utilisation de la mise à l’échelle DPI en mode mixte au sein de votre processus, chaque fenêtre de niveau supérieur peut s’exécuter dans un mode de reconnaissance PPP qui peut être différent de celui de la valeur par défaut du processus. Sauf spécification explicite, chaque thread utilise par défaut le processus par défaut lors de sa création. Pour plus d’informations sur la mise à l’échelle DPI en mode mixte, reportez-vous à l’article sur la mise à l' [échelle dpi en mode mixte](https://msdn.microsoft.com/library/mt744321\(v=vs.85\)) .
+Ce document fait référence à la définition de la prise en face PPP par défaut pour votre processus. cela est dû au fait que Windows 10 a introduit la prise en charge de l’exécution de plusieurs modes de reconnaissance dpi au sein d’un même processus (avant Windows 10, l’ensemble du processus devait se conformer à un seul mode de reconnaissance ppp). La prise en charge de l’exécution de plusieurs modes de reconnaissance DPI au sein d’un processus est appelée « mise à l’échelle DPI en mode mixte ». Lors de l’utilisation de la mise à l’échelle DPI en mode mixte au sein de votre processus, chaque fenêtre de niveau supérieur peut s’exécuter dans un mode de reconnaissance PPP qui peut être différent de celui de la valeur par défaut du processus. Sauf spécification explicite, chaque thread utilise par défaut le processus par défaut lors de sa création. Pour plus d’informations sur la mise à l’échelle DPI en mode mixte, reportez-vous à l’article sur la mise à l' [échelle dpi en mode mixte](https://msdn.microsoft.com/library/mt744321\(v=vs.85\)) .

@@ -4,12 +4,12 @@ ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: Contrôles du volume du point de terminaison
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526403be9c600f67791650956bd7e5096f6c9afc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57be477a86a1de4584a7590d20d4e0199e782f10
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950676"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481884"
 ---
 # <a name="endpoint-volume-controls"></a>Contrôles du volume du point de terminaison
 
@@ -86,7 +86,6 @@ public:
             delete this;
         }
         return ulRef;
-
     }
 
     HRESULT STDMETHODCALLTYPE QueryInterface(REFIID riid, VOID **ppvInterface)
@@ -147,7 +146,7 @@ L’implémentation de la méthode [**OnNotify**](/windows/desktop/api/Endpointv
 
 Une application appelle la méthode [**IAudioEndpointVolume :: RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) pour inscrire son interface [**IAudioEndpointVolumeCallback**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback) afin de recevoir des notifications. Lorsque l’application ne requiert plus de notifications, elle appelle la méthode [**IAudioEndpointVolume :: UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) pour supprimer l’inscription.
 
-L’exemple de code suivant est une application Windows qui appelle les méthodes [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) et [**UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) pour inscrire et annuler l’inscription de la classe CAudioEndpointVolumeCallback dans l’exemple de code précédent :
+l’exemple de code suivant est une application Windows qui appelle les méthodes [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) et [**UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) pour inscrire et annuler l’inscription de la classe CAudioEndpointVolumeCallback dans l’exemple de code précédent :
 
 
 ```C++
@@ -224,7 +223,7 @@ Exit:
         MessageBox(NULL, TEXT("This program requires Windows Vista."),
                    TEXT("Error termination"), MB_OK);
     }
-    if (pEnumerator != NULL)
+    if (g_pEndptVol != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
                     (IAudioEndpointVolumeCallback*)&EPVolEvents);
@@ -309,7 +308,7 @@ BOOL CALLBACK DlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 
 
 
-Dans l’exemple de code précédent, la fonction [**WinMain**](/windows/desktop/api/winbase/nf-winbase-winmain) appelle la fonction [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une instance de l’interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) et appelle la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) pour obtenir l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) du périphérique de rendu par défaut. **WinMain** appelle la méthode [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) pour obtenir l’interface [**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) de l’appareil et appelle [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) pour inscrire l’application afin de recevoir des notifications de modifications du volume du point de terminaison. Ensuite, **WinMain** ouvre une boîte de dialogue pour afficher un contrôle du volume du point de terminaison pour l’appareil. La boîte de dialogue affiche également une case à cocher qui indique si l’appareil est muet. La case à cocher contrôle du volume du point de terminaison et muet de la boîte de dialogue reflète les paramètres du contrôle du volume du point de terminaison et de la case à cocher muet affichés par sndvol. Pour plus d’informations sur **WinMain** et **CoCreateInstance**, consultez la documentation SDK Windows. Pour plus d’informations sur **IMMDeviceEnumerator** et **IMMDevice**, consultez [énumération des périphériques audio](enumerating-audio-devices.md).
+Dans l’exemple de code précédent, la fonction [**WinMain**](/windows/desktop/api/winbase/nf-winbase-winmain) appelle la fonction [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) pour créer une instance de l’interface [**IMMDeviceEnumerator**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdeviceenumerator) et appelle la méthode [**IMMDeviceEnumerator :: GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint) pour obtenir l’interface [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) du périphérique de rendu par défaut. **WinMain** appelle la méthode [**IMMDevice :: Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) pour obtenir l’interface [**IAudioEndpointVolume**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolume) de l’appareil et appelle [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) pour inscrire l’application afin de recevoir des notifications de modifications du volume du point de terminaison. Ensuite, **WinMain** ouvre une boîte de dialogue pour afficher un contrôle du volume du point de terminaison pour l’appareil. La boîte de dialogue affiche également une case à cocher qui indique si l’appareil est muet. La case à cocher contrôle du volume du point de terminaison et muet de la boîte de dialogue reflète les paramètres du contrôle du volume du point de terminaison et de la case à cocher muet affichés par sndvol. pour plus d’informations sur **WinMain** et **CoCreateInstance**, consultez la documentation SDK Windows. Pour plus d’informations sur **IMMDeviceEnumerator** et **IMMDevice**, consultez [énumération des périphériques audio](enumerating-audio-devices.md).
 
 La procédure de boîte de dialogue, DlgProc, dans l’exemple de code précédent, gère les modifications apportées par l’utilisateur aux paramètres de volume et de silence à travers les contrôles de la boîte de dialogue. Quand DlgProc appelle [**SetMasterVolumeLevelScalar**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmastervolumelevelscalar) ou [**SetMute**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-setmute), sndvol reçoit la notification de la modification et met à jour le contrôle correspondant dans sa fenêtre pour refléter le nouveau volume ou le paramètre muet. Si, au lieu d’utiliser la boîte de dialogue, l’utilisateur met à jour les paramètres de volume et de silence via les contrôles de la fenêtre sndvol, la méthode [**OnNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolumecallback-onnotify) de la classe CAudioEndpointVolumeCallback met à jour les contrôles dans la boîte de dialogue pour afficher les nouveaux paramètres.
 

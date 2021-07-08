@@ -1,4 +1,4 @@
-- name: Système de propriétés Windows
+- name: Windows Système de propriétés
   href: windows-properties-system.md
   items:
     - name: Cliquez sur Vue d’ensemble du système de propriétés.
@@ -25,7 +25,7 @@
             - name: Inscription et distribution des gestionnaires de propriétés
               href: prophand-reg-dist.md
             - name: Meilleures pratiques pour le gestionnaire de propriétés et FAQ
-              href: prophand-bestprac-faq.md
+              href: prophand-bestprac-faq.yml
     - name: Référence du système de propriétés
       href: property-system-reference.md
       items:
@@ -439,7 +439,7 @@
                   href: props-system-contact-webpage2.md
                 - name: System. contact. Webpage3
                   href: props-system-contact-webpage3.md
-            - name: Base
+            - name: Core
               href: core-bumper.md
               items:
                 - name: System. AcquisitionID
@@ -664,7 +664,7 @@
                   href: props-system-priority.md
                 - name: System. PriorityText
                   href: props-system-prioritytext.md
-                - name: System. Project
+                - name: Requise. Project
                   href: props-system-project.md
                 - name: System. ProviderItemID
                   href: props-system-provideritemid.md
@@ -759,21 +759,21 @@
                   href: props-system-device-printerurl.md
                 - name: System. DeviceInterface. Bluetooth. DeviceAddress
                   href: props-system-deviceinterface-bluetooth-deviceaddress.md
-                - name: System. DeviceInterface. Bluetooth. Flags
+                - name: System. DeviceInterface. Bluetooth. Père
                   href: props-system-deviceinterface-bluetooth-flags.md
                 - name: System. DeviceInterface. Bluetooth. LastConnectedTime
                   href: props-system-deviceinterface-bluetooth-lastconnectedtime.md
-                - name: System. DeviceInterface. Bluetooth. Manufacturer
+                - name: System. DeviceInterface. Bluetooth. Fécule
                   href: props-system-deviceinterface-bluetooth-manufacturer.md
                 - name: System. DeviceInterface. Bluetooth. ModelNumber
                   href: props-system-deviceinterface-bluetooth-modelnumber.md
-                - name: System. DeviceInterface. Bluetooth. ProductId
+                - name: System. DeviceInterface. Bluetooth. Réf
                   href: props-system-deviceinterface-bluetooth-productid.md
                 - name: System. DeviceInterface. Bluetooth. ProductVersion
                   href: props-system-deviceinterface-bluetooth-productversion.md
                 - name: System. DeviceInterface. Bluetooth. ServiceGuid
                   href: props-system-deviceinterface-bluetooth-serviceguid.md
-                - name: System. DeviceInterface. Bluetooth. ID de la
+                - name: System. DeviceInterface. Bluetooth. VendorId
                   href: props-system-deviceinterface-bluetooth-vendorid.md
                 - name: System. DeviceInterface. Bluetooth. VendorIdSource
                   href: props-system-deviceinterface-bluetooth-vendoridsource.md
@@ -821,43 +821,43 @@
                   href: props-system-deviceinterface-winusb-usbvendorid.md
                 - name: System.Devices.Aep.AepId
                   href: props-system-devices-aep-aepid.md
-                - name: System. Devices. AEP. Bluetooth. DCO. major
+                - name: System. Devices. AEP. Bluetooth. COD. majeur
                   href: props-system-devices-aep-bluetooth-cod-major.md
                 - name: System. Devices. AepService. Bluetooth. CacheMode
                   href: props-system-devices-aepservice-bluetooth-cachemode.md
                 - name: System. Devices. AepService. Bluetooth. ServiceGuid
                   href: props-system-devices-aepservice-bluetooth-serviceguid.md
-                - name: System. Devices. AepService. Bluetooth. appareil cible
+                - name: System. Devices. AepService. Bluetooth. Appareil cible
                   href: props-system-devices-aepservice-bluetooth-targetdevice.md
-                - name: System. Devices. AEP. Bluetooth. DCO. minor
+                - name: System. Devices. AEP. Bluetooth. COD. mineur
                   href: props-system-devices-aep-bluetooth-cod-minor.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. audio
+                - name: System. Devices. AEP. Bluetooth. COD. services. audio
                   href: props-system-devices-aep-bluetooth-cod-services-audio.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. capture
+                - name: System. Devices. AEP. Bluetooth. COD. services. capture
                   href: props-system-devices-aep-bluetooth-cod-services-capturing.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. information
+                - name: System. Devices. AEP. Bluetooth. Cod. Services. Information
                   href: props-system-devices-aep-bluetooth-cod-services-information.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. LimitedDiscovery
+                - name: System. Devices. AEP. Bluetooth. COD. services. LimitedDiscovery
                   href: props-system-devices-aep-bluetooth-cod-services-limiteddiscovery.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. Networking
+                - name: System. Devices. AEP. Bluetooth. Cod. Services. mise en réseau
                   href: props-system-devices-aep-bluetooth-cod-services-networking.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. ObjectXfer
+                - name: System. Devices. AEP. Bluetooth. COD. services. ObjectXfer
                   href: props-system-devices-aep-bluetooth-cod-services-objectxfer.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. position
+                - name: System. Devices. AEP. Bluetooth. COD. services. positionnement
                   href: props-system-devices-aep-bluetooth-cod-services-positioning.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. Rendering
+                - name: System. Devices. AEP. Bluetooth. COD. services. rendu
                   href: props-system-devices-aep-bluetooth-cod-services-rendering.md
-                - name: System. Devices. AEP. Bluetooth. cod. services. Telephony
+                - name: System. Devices. AEP. Bluetooth. COD. services. téléphonie
                   href: props-system-devices-aep-bluetooth-cod-services-telephony.md
-                - name: System. Devices. AEP. Bluetooth. le. AddressType
+                - name: System. Devices. AEP. Bluetooth. Le. AddressType
                   href: props-system-devices-aep-bluetooth-le-addresstype.md
-                - name: System. Devices. AEP. Bluetooth. le. Appearance
+                - name: System. Devices. AEP. Bluetooth. Le. apparence
                   href: props-system-devices-aep-bluetooth-le-appearance.md
-                - name: System. Devices. AEP. Bluetooth. le. Appearance. Category
+                - name: System. Devices. AEP. Bluetooth. Le. Appearance. catégorie
                   href: props-system-devices-aep-bluetooth-le-appearance-category.md
-                - name: System. Devices. AEP. Bluetooth. le. Appearance. sous-catégorie
+                - name: System. Devices. AEP. Bluetooth. Le. Appearance. sous-catégorie
                   href: props-system-devices-aep-bluetooth-le-appearance-subcategory.md
-                - name: System. Devices. AEP. Bluetooth. le. IsConnectable
+                - name: System. Devices. AEP. Bluetooth. Le IsConnectable
                   href: props-system-devices-aep-bluetooth-le-isconnectable.md
                 - name: System.Devices.Aep.CanPair
                   href: props-system-devices-aep-canpair.md
@@ -935,11 +935,11 @@
                   href: props-system-devices-aepservice-aepid.md
                 - name: System. Devices. AepService. Bluetooth. GattService. CacheMode
                   href: props-system-devices-aepservice-bluetooth-gattservice-cachemode.md
-                - name: System. Devices. AepService. Bluetooth. GattService. Device
+                - name: System. Devices. AepService. Bluetooth. GattService. appareil
                   href: props-system-devices-aepservice-bluetooth-gattservice-device.md
                 - name: System. Devices. AepService. Bluetooth. RfcommService. CacheMode
                   href: props-system-devices-aepservice-bluetooth-rfcommservice-cachemode.md
-                - name: System. Devices. AepService. Bluetooth. RfcommService. Device
+                - name: System. Devices. AepService. Bluetooth. RfcommService. appareil
                   href: props-system-devices-aepservice-bluetooth-rfcommservice-device.md
                 - name: System.Devices.AepService.ContainerId
                   href: props-system-devices-aepservice-containerid.md
@@ -1205,9 +1205,9 @@
                   href: props-system-devices-winphone8cameraflags.md
                 - name: System. Devices. WWAN. InterfaceGuid
                   href: props-system-devices-wwan-interfaceguid.md
-                - name: System. Storage. portable
+                - name: Requise. Stockage. Portatif
                   href: props-system-storage-portable.md
-                - name: System. Storage. RemovableMedia
+                - name: Requise. Stockage. RemovableMedia
                   href: props-system-storage-removablemedia.md
                 - name: System.Storage.SystemCritical
                   href: props-system-storage-systemcritical.md
@@ -1506,7 +1506,7 @@
                   href: props-system-link-targeturlhostname.md
                 - name: System. Link. TargetUrlPath
                   href: props-system-link-targeturlpath.md
-            - name: Média
+            - name: Multimédia
               href: media-bumper.md
               items:
                 - name: System. Media. AuthorUrl
@@ -1645,53 +1645,53 @@
             - name: Musique
               href: music-bumper.md
               items:
-                - name: System. Music. AlbumArtist
+                - name: Requise. Musique. AlbumArtist
                   href: props-system-music-albumartist.md
-                - name: System. Music. AlbumArtistSortOverride
+                - name: Requise. Musique. AlbumArtistSortOverride
                   href: props-system-music-albumartistsortoverride.md
-                - name: System. Music. AlbumID
+                - name: Requise. Musique. AlbumID
                   href: props-system-music-albumid.md
-                - name: System. Music. AlbumTitle
+                - name: Requise. Musique. AlbumTitle
                   href: props-system-music-albumtitle.md
-                - name: System. Music. AlbumTitleSortOverride
+                - name: Requise. Musique. AlbumTitleSortOverride
                   href: props-system-music-albumtitlesortoverride.md
-                - name: System. Music. Artist
+                - name: Requise. Musique. Peinture
                   href: props-system-music-artist.md
-                - name: System. Music. ArtistSortOverride
+                - name: Requise. Musique. ArtistSortOverride
                   href: props-system-music-artistsortoverride.md
-                - name: System. Music. BeatsPerMinute
+                - name: Requise. Musique. BeatsPerMinute
                   href: props-system-music-beatsperminute.md
-                - name: System. Music. composer
+                - name: Requise. Musique. Composer
                   href: props-system-music-composer.md
-                - name: System. Music. ComposerSortOverride
+                - name: Requise. Musique. ComposerSortOverride
                   href: props-system-music-composersortoverride.md
-                - name: System. Music. conducteur
+                - name: Requise. Musique. Conducteur
                   href: props-system-music-conductor.md
-                - name: System. Music. ContentGroupDescription
+                - name: Requise. Musique. ContentGroupDescription
                   href: props-system-music-contentgroupdescription.md
-                - name: System. Music. DiscNumber
+                - name: Requise. Musique. DiscNumber
                   href: props-system-music-discnumber.md
-                - name: System. Music. DisplayArtist
+                - name: Requise. Musique. DisplayArtist
                   href: props-system-music-displayartist.md
-                - name: System. Music. genre
+                - name: Requise. Musique. Styles
                   href: props-system-music-genre.md
                 - name: System.Music.InitialKey
                   href: props-system-music-initialkey.md
-                - name: System. Music. IsCompilation
+                - name: Requise. Musique. IsCompilation
                   href: props-system-music-iscompilation.md
-                - name: System. Music. paroles
+                - name: Requise. Musique. Chansons
                   href: props-system-music-lyrics.md
-                - name: System. Music. humeur
+                - name: Requise. Musique. Humeur
                   href: props-system-music-mood.md
-                - name: System. Music. PartOfSet
+                - name: Requise. Musique. PartOfSet
                   href: props-system-music-partofset.md
-                - name: System. Music. period
+                - name: Requise. Musique. Heures
                   href: props-system-music-period.md
-                - name: System. Music. SynchronizedLyrics
+                - name: Requise. Musique. SynchronizedLyrics
                   href: props-system-music-synchronizedlyrics.md
-                - name: System. Music. TrackNumber
+                - name: Requise. Musique. TrackNumber
                   href: props-system-music-tracknumber.md
-            - name: Notes
+            - name: Remarque
               href: note-bumper.md
               items:
                 - name: System. note. Color
@@ -1902,7 +1902,7 @@
                   href: props-system-propgroup-mediaadvanced.md
                 - name: System. PropGroup. message
                   href: props-system-propgroup-message.md
-                - name: System. PropGroup. Music
+                - name: System. PropGroup. Musique
                   href: props-system-propgroup-music.md
                 - name: System. PropGroup. Origin
                   href: props-system-propgroup-origin.md
@@ -1987,7 +1987,7 @@
                   href: props-system-security-encryptionowners.md
                 - name: System. Security. EncryptionOwnersDisplay
                   href: props-system-security-encryptionownersdisplay.md
-            - name: Rechercher
+            - name: Recherche
               href: search-bumper.md
               items:
                 - name: System. Search. Résumé
@@ -2079,7 +2079,7 @@
                   href: props-system-supplemental-albumid.md
                 - name: System. Supplemental. ResourceId
                   href: props-system-supplemental-resourceid.md
-            - name: Synchronisation
+            - name: Synchroniser
               href: sync-bumper.md
               items:
                 - name: System. Sync. comments
@@ -2226,7 +2226,7 @@
             - name: IPropertyChangeArray
               href: /windows/desktop/api/Propsys/nn-propsys-ipropertychangearray
               items:
-                - name: Ajouter
+                - name: Ajouter (Append)
                   href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-append
                 - name: AppendOrReplace
                   href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-appendorreplace

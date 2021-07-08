@@ -1,19 +1,19 @@
 ---
-description: Cet article explique comment inscrire et distribuer des gestionnaires de propriétés pour fonctionner avec le système de propriétés Windows.
+description: cet article explique comment inscrire et distribuer des gestionnaires de propriétés pour travailler avec le système de propriétés Windows.
 ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: Inscription et distribution des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cffd6169ecbf371e49e27c555f468cdc03e2c3fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ce53f0805c4db5efe38e77ba4e7d1ab5b331c83f
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408342"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481924"
 ---
 # <a name="registering-and-distributing-property-handlers"></a>Inscription et distribution des gestionnaires de propriétés
 
-Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour travailler avec le système de propriétés Windows.
 
 Cette rubrique est organisée comme suit :
 
@@ -56,7 +56,7 @@ Les gestionnaires de propriétés pour un type de fichier particulier sont gén�
 Les gestionnaires de propriétés sont appelés pour chaque fichier sur un ordinateur particulier. Elles sont généralement appelées dans les circonstances suivantes :
 
 -   Lors de l’indexation du fichier. Cette opération est effectuée hors processus, dans un processus isolé avec des droits restreints.
--   Lorsque vous accédez à des fichiers dans l’Explorateur Windows afin de lire et d’écrire des valeurs de propriété. Cette opération est effectuée dans le processus.
+-   lorsque l’accès aux fichiers s’effectue dans Windows Explorer afin de lire et d’écrire des valeurs de propriété. Cette opération est effectuée dans le processus.
 
 ### <a name="guidelines-for-performance-and-reliability"></a>Instructions relatives aux performances et à la fiabilité
 
@@ -70,7 +70,7 @@ Gardez à l’esprit les recommandations suivantes lors du développement et du 
 
 -   **Écriture de propriété sur place**
 
-    Si possible, si vous traitez des fichiers de taille moyenne ou grande (plusieurs centaines de Ko ou plus), le format de fichier doit être organisé afin que les valeurs de propriété de lecture ou d’écriture ne requièrent pas la lecture de l’ensemble du fichier sur le disque. Même si le fichier doit être recherché, il ne doit pas être lu en mémoire dans son intégralité, car cela augmente la plage de travail de l’Explorateur Windows ou de l’indexeur de recherche Windows lorsqu’il tente d’accéder à ces fichiers ou de les indexer. Pour plus d’informations, consultez [initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md).
+    Si possible, si vous traitez des fichiers de taille moyenne ou grande (plusieurs centaines de Ko ou plus), le format de fichier doit être organisé afin que les valeurs de propriété de lecture ou d’écriture ne requièrent pas la lecture de l’ensemble du fichier sur le disque. même si le fichier doit être recherché, il ne doit pas être lu en mémoire dans son intégralité, car cela augmente la plage de travail de Windows Explorer ou de l’indexeur de recherche Windows lorsqu’il tente d’accéder à ces fichiers ou de les indexer. Pour plus d’informations, consultez [initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md).
 
     Pour ce faire, une technique utile consiste à remplir l’en-tête du fichier avec de l’espace supplémentaire afin que la valeur soit écrite à la prochaine fois qu’une valeur de propriété doit être écrite, sans qu’il soit nécessaire de réécrire la totalité du fichier. Cela nécessite la fonctionnalité ManualSafeSave. Cette approche implique un risque supplémentaire que l’opération d’écriture de fichier puisse être interrompue lorsque l’écriture est en cours (en raison d’un incident système ou d’une panne de courant), mais comme la taille des propriétés est généralement faible, la probabilité d’une telle interruption est similaire, et les gains de performance qui peuvent être réalisés par le biais de l’écriture de propriété sur place sont considérés comme Même dans ce cas, vous devez veiller à tester votre implémentation de manière intensive pour vous assurer que vos fichiers ne sont pas endommagés dans le cas où une défaillance survient au cours d’une opération d’écriture.
 
@@ -78,11 +78,11 @@ Gardez à l’esprit les recommandations suivantes lors du développement et du 
 
 -   **Choix de votre modèle de thread COM**
 
-    Pour optimiser l’efficacité de votre gestionnaire de propriétés, vous devez spécifier qu’il utilise le modèle de thread COM `Both` . Cela permet un accès direct à partir des cloisonnements STA (l’Explorateur Windows, par exemple) et des cloisonnements de l’agent de transfert des messages (MTA) (le processus SearchProtocolHost dans Windows Search, par exemple), ce qui évite la surcharge liée au marshaling dans ces environnements. Pour tirer pleinement parti du modèle de `Both` thread, tous les services dont dépend votre gestionnaire doivent également être désignés comme `Both` pour éviter tout marshaling dans les appels à ces composants. Consultez la documentation de ces services pour vérifier s’ils utilisent ce modèle de thread.
+    Pour optimiser l’efficacité de votre gestionnaire de propriétés, vous devez spécifier qu’il utilise le modèle de thread COM `Both` . cela permet un accès direct à partir des cloisonnements STA (Windows Explorer, par exemple) et des cloisonnements de l’agent de transfert des messages (MTA) (le processus SearchProtocolHost dans Windows Search, par exemple), ce qui évite la surcharge liée au marshaling dans ces environnements. Pour tirer pleinement parti du modèle de `Both` thread, tous les services dont dépend votre gestionnaire doivent également être désignés comme `Both` pour éviter tout marshaling dans les appels à ces composants. Consultez la documentation de ces services pour vérifier s’ils utilisent ce modèle de thread.
 
 -   **Concurrence du gestionnaire de propriétés**
 
-    Les gestionnaires de propriétés et l’interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) sont conçus pour la série plutôt que pour l’accès simultané. L’Explorateur Windows, l’indexeur de recherche Windows et tous les autres appels du gestionnaire de propriétés de la base de code Windows garantissent cette utilisation. Il n’y a aucune raison pour les tiers d’utiliser un gestionnaire de propriétés simultanément, mais ce comportement ne peut pas être garanti. De même, même si le modèle d’appel est supposé être série, les appels peuvent se trouver sur des threads différents (par exemple, lorsque l’objet est appelé à distance via COM RPC, comme dans l’indexeur). Par conséquent, les implémentations de gestionnaire de propriétés doivent prendre en charge l’appel de sur des threads différents. idéalement, ils ne doivent pas subir d’effets incorrects lorsqu’ils sont appelés simultanément. Étant donné que le modèle d’appel prévu est en série, une implémentation trivial à l’aide d’une section critique doit être suffisante pour répondre à ces exigences dans la plupart des cas. Il est acceptable d’éviter les blocages sur les appels simultanés à l’aide de la fonction [**TryEnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-tryentercriticalsection) pour détecter et faire échouer les appels simultanés.
+    Les gestionnaires de propriétés et l’interface [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) sont conçus pour la série plutôt que pour l’accès simultané. Windows l’explorateur, l’indexeur de recherche Windows et tous les autres appels de gestionnaire de propriétés de la base de code Windows garantissent cette utilisation. Il n’y a aucune raison pour les tiers d’utiliser un gestionnaire de propriétés simultanément, mais ce comportement ne peut pas être garanti. De même, même si le modèle d’appel est supposé être série, les appels peuvent se trouver sur des threads différents (par exemple, lorsque l’objet est appelé à distance via COM RPC, comme dans l’indexeur). Par conséquent, les implémentations de gestionnaire de propriétés doivent prendre en charge l’appel de sur des threads différents. idéalement, ils ne doivent pas subir d’effets incorrects lorsqu’ils sont appelés simultanément. Étant donné que le modèle d’appel prévu est en série, une implémentation trivial à l’aide d’une section critique doit être suffisante pour répondre à ces exigences dans la plupart des cas. Il est acceptable d’éviter les blocages sur les appels simultanés à l’aide de la fonction [**TryEnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-tryentercriticalsection) pour détecter et faire échouer les appels simultanés.
 
 -   **Accès concurrentiel aux fichiers**
 
@@ -125,7 +125,7 @@ Gardez à l’esprit les recommandations suivantes lors du développement et du 
 [Initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.md)
+[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ef910463ba3a771ac142d41309ae590884e3bc9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90d5362d0f093c7c1034e03d396ad28c40d4d600
+ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548612"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113489177"
 ---
 # <a name="executing-and-synchronizing-command-lists"></a>Exécution et synchronisation de listes de commandes
 
@@ -72,8 +72,9 @@ Le runtime validera la liste de commandes envoyée et supprimera l’appel à [*
 
 Deux règles imposées par le runtime restreignent l’accès aux ressources à partir de plusieurs files d’attente de commandes. Ces règles sont les suivantes :
 
-<dl> 1. Une ressource ne peut pas être écrite à partir de plusieurs files d’attente de commandes simultanément. Lorsqu’une ressource est passée à un état accessible en écriture dans une file d’attente, elle est considérée comme appartenant exclusivement à cette file d’attente et doit passer à un état de lecture ou commun (reportez-vous à <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">**\_ \_ États de ressource D3D12**</a>) pour qu’une autre file d’attente puisse y accéder.  </dl>
-<dl> 2. Dans un état de lecture, une ressource peut être lue simultanément à partir de plusieurs files d’attente de commandes, y compris entre les processus, en fonction de son état de lecture. </dl>
+1. Une ressource ne peut pas être écrite à partir de plusieurs files d’attente de commandes simultanément. Lorsqu’une ressource est passée à un état accessible en écriture dans une file d’attente, elle est considérée comme appartenant exclusivement à cette file d’attente et doit passer à un état de lecture ou commun (reportez-vous à [**D3D12_RESOURCE_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)) pour qu’elle soit accessible par une autre file d’attente.
+
+2. Dans un état de lecture, une ressource peut être lue simultanément à partir de plusieurs files d’attente de commandes, y compris entre les processus, en fonction de son état de lecture.
 
 Pour plus d’informations sur les restrictions d’accès aux ressources et sur l’utilisation de barrières de ressources pour synchroniser l’accès aux ressources, consultez [utilisation de barrières de ressources pour synchroniser les États des ressources](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md).
 
@@ -110,7 +111,7 @@ Pour plus d’informations sur l’utilisation des ressources en mosaïque dans 
 
 <dl> <dt>
 
-[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
+[Envoi de travail dans Direct3D 12](command-queues-and-command-lists.md)
 </dt> </dl>
 
  

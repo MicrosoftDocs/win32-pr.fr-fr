@@ -4,12 +4,12 @@ ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: Utilisation des noms de genres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f358306deaeb04d4ea30b10b0665cdc8323b4d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dca36d7c1de587efd8d96f0c18aaca9457721714
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318902"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481874"
 ---
 # <a name="using-kind-names"></a>Utilisation des noms de genres
 
@@ -24,7 +24,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="about-the-systemkind-property"></a>À propos de la propriété System. Kind
 
-Le genre a été introduit dans Windows Vista pour exprimer une notion plus conviviale de type de fichier. La `System.Kind` propriété divise les éléments en types et fournit un nom de type que les utilisateurs finaux peuvent identifier avec, tels que des documents, de la musique, des images, etc. Par conséquent, les noms de types sont connus comme conviviaux. Étant donné que la `System.Kind` propriété est définie sur la même valeur pour les éléments du même type de fichier, et associe les éléments qui ont des caractéristiques similaires à une propriété commune, le système et l’utilisateur peuvent agir sur le groupe dans son ensemble. Par exemple, la `System.Kind` propriété peut être utilisée pour limiter une recherche aux éléments d’un type spécifique, afficher les propriétés les plus pertinentes pour un élément de l’affichage de contenu, ou regrouper des éléments similaires.
+le genre a été introduit dans Windows Vista pour exprimer une notion plus conviviale de type de fichier. la `System.Kind` propriété divise les éléments en types et fournit un nom de type que les utilisateurs finaux peuvent identifier avec, tels que des Documents, des Musique, des images, etc. Par conséquent, les noms de types sont connus comme conviviaux. Étant donné que la `System.Kind` propriété est définie sur la même valeur pour les éléments du même type de fichier, et associe les éléments qui ont des caractéristiques similaires à une propriété commune, le système et l’utilisateur peuvent agir sur le groupe dans son ensemble. Par exemple, la `System.Kind` propriété peut être utilisée pour limiter une recherche aux éléments d’un type spécifique, afficher les propriétés les plus pertinentes pour un élément de l’affichage de contenu, ou regrouper des éléments similaires.
 
 Comme Kind est une propriété de chaîne à valeurs multiples, vous pouvez avoir `audio;video` une `link;document` valeur de type ou. Une `System.Kind` valeur est une liste triée de valeurs de chaîne. Dans certains cas, il peut y avoir un seul élément dans cette liste. Dans d’autres cas, un élément peut appartenir à plusieurs types. Pour obtenir un exemple d’un élément appartenant à plusieurs genres, consultez l’exemple de clé de Registre dans cette rubrique. Les valeurs de chaîne proviennent d’un ensemble prédéfini de valeurs connues. Les valeurs sont comparées à l’aide de fonctions de comparaison de chaînes qui ne respectent pas la casse et qui ne respectent pas les paramètres régionaux. Ces chaînes ne sont pas localisées.
 
@@ -97,7 +97,7 @@ Notez que `Kind` peut être une valeur unique ou plusieurs valeurs dans une cha�
 [Inscription et distribution des gestionnaires de propriétés](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.md)
+[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

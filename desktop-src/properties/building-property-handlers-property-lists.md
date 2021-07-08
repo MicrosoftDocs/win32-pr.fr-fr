@@ -1,19 +1,19 @@
 ---
-description: Après avoir évalué votre stratégie de propriété, vous devez déterminer les propriétés à afficher dans l’interface utilisateur de l’Explorateur Windows, et où.
+description: après avoir évalué votre stratégie de propriété, vous devez déterminer les propriétés à afficher dans l’interface utilisateur de l’explorateur de Windows, et où.
 ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: Utilisation des listes de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8644e0d51141751ac55d50966cd6163a3359435d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ade6cba2807e87306aa9cacb3649499d9e5ffe1
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951610"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481914"
 ---
 # <a name="using-property-lists"></a>Utilisation des listes de propriétés
 
-Après avoir évalué votre stratégie de propriété, vous devez déterminer les propriétés à afficher dans l’interface utilisateur de l’Explorateur Windows, et où. Il existe différents emplacements où les propriétés sont affichées en lecture seule. La modification de propriété, en revanche, est uniquement activée dans la boîte de dialogue **Propriétés** . Cette boîte de dialogue peut être appelée via le lien **modifier les propriétés** dans le **volet de visualisation** ou le menu contextuel d’un élément.
+après avoir évalué votre stratégie de propriété, vous devez déterminer les propriétés à afficher dans l’interface utilisateur de l’explorateur de Windows, et où. Il existe différents emplacements où les propriétés sont affichées en lecture seule. La modification de propriété, en revanche, est uniquement activée dans la boîte de dialogue **Propriétés** . Cette boîte de dialogue peut être appelée via le lien **modifier les propriétés** dans le **volet de visualisation** ou le menu contextuel d’un élément.
 
 Les listes de propriétés sont des chaînes délimitées par des points-virgules qui se présentent sous la forme suivante.
 
@@ -47,7 +47,7 @@ Une fois que vous avez défini une liste de propriétés, vous pouvez stocker ce
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valeur</th>
+<th>Value</th>
 <th>Description</th>
 </tr>
 </thead>
@@ -69,7 +69,7 @@ Une fois que vous avez défini une liste de propriétés, vous pouvez stocker ce
 <td>Les propriétés sont affichées lorsque l’affichage de liste est en mode <strong>mosaïques</strong> . Le nombre maximal d’entrées est de 3. Si la liste de propriétés contient plus que le nombre maximal autorisé, les autres entrées sont ignorées.
 <blockquote>
 [!Note]<br />
-Cette valeur était présente dans Windows XP.
+cette valeur était présente dans Windows XP.
 </blockquote>
 <br/></td>
 </tr>
@@ -82,7 +82,7 @@ Cette valeur était présente dans Windows XP.
 <td>Les propriétés sont affichées dans une info-bulle quand un utilisateur pointe sur un élément.
 <blockquote>
 [!Note]<br />
-Cette valeur était présente dans Windows XP.
+cette valeur était présente dans Windows XP.
 </blockquote>
 <br/></td>
 </tr>
@@ -91,7 +91,7 @@ Cette valeur était présente dans Windows XP.
 <td>Les propriétés s’affichent lorsqu’il est difficile de récupérer des propriétés directement à partir d’un élément, par exemple lorsque l’élément doit être accessible via une connexion réseau lente. Il est recommandé que les propriétés nommées ici, telles que le type ou la taille, ne requièrent pas l’ouverture du flux de fichier pour déterminer leur valeur.
 <blockquote>
 [!Note]<br />
-Cette valeur était présente dans Windows XP.
+cette valeur était présente dans Windows XP.
 </blockquote>
 <br/></td>
 </tr>
@@ -112,7 +112,7 @@ HKEY_CLASSES_ROOT
       PreviewDetails = prop:*System.Title;*System.Author
 ```
 
-Comme expliqué dans la rubrique [Association de fichiers Shell](../shell/fa-file-types.md) , les associations de fichiers peuvent être décrites pour le formulaire le plus spécifique au plus général. Le formulaire le plus spécifique est l’extension de nom de fichier unique et le formulaire le plus générique est une clé qui s’applique à tous les fichiers et dossiers de fichiers. Entre ces deux extrêmes, vous pouvez également définir un [ProgID](../shell/fa-progids.md) qui regroupe un ensemble d’extensions de nom de fichier (par exemple, les types. jpg et. jpeg regroupés en tant que **jpegfile**). Quand vous définissez des listes de propriétés, vous devez les définir pour les ProgID ou, dans certains cas, des extensions de nom de fichier spécifiques. Évitez d’utiliser des entrées étendues, telles que la clé **AllFileSystemObjects** .
+Comme expliqué dans la rubrique [Association de fichiers Shell](../shell/fa-file-types.md) , les associations de fichiers peuvent être décrites pour le formulaire le plus spécifique au plus général. Le formulaire le plus spécifique est l’extension de nom de fichier unique et le formulaire le plus générique est une clé qui s’applique à tous les fichiers et dossiers de fichiers. Entre ces deux extrêmes, vous pouvez également définir un [ProgID](../shell/fa-progids.md) qui regroupe un ensemble d’extensions de nom de fichier (par exemple, les types .jpg et. jpeg regroupés en tant que **jpegfile**). Quand vous définissez des listes de propriétés, vous devez les définir pour les ProgID ou, dans certains cas, des extensions de nom de fichier spécifiques. Évitez d’utiliser des entrées étendues, telles que la clé **AllFileSystemObjects** .
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -130,7 +130,7 @@ Comme expliqué dans la rubrique [Association de fichiers Shell](../shell/fa-fil
 [Inscription et distribution des gestionnaires de propriétés](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.md)
+[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

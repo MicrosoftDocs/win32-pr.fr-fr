@@ -4,12 +4,12 @@ ms.assetid: a773c7b3-a1a2-4cce-ae5f-b54217ea06f4
 title: Fonctionnement des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 564d6f8bd325e649ff1356869932521d8c1cd885
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b44d0a3a6d0a1b6c929eb151551155d0b5435a0
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202241"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481934"
 ---
 # <a name="understanding-property-handlers"></a>Fonctionnement des gestionnaires de propriétés
 
@@ -30,13 +30,13 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="metadata"></a>Métadonnées
 
-Dans Windows Vista et versions ultérieures, un nouveau système de propriétés basé sur les métadonnées est essentiel à l’Organisation des éléments tels que les fichiers, le courrier électronique et les contacts. Dans ce nouveau système de propriétés, les éléments peuvent être recherchés en fonction de leurs métadonnées, et les utilisateurs peuvent lire ou écrire ces métadonnées. Les métadonnées de ce système sont représentées par un ensemble extensible de *Propriétés* implémentées en tant que paires nom/valeur.
+dans Windows Vista et versions ultérieures, un nouveau système de propriétés basé sur les métadonnées est essentiel à l’organisation des éléments tels que les fichiers, le courrier électronique et les contacts. Dans ce nouveau système de propriétés, les éléments peuvent être recherchés en fonction de leurs métadonnées, et les utilisateurs peuvent lire ou écrire ces métadonnées. Les métadonnées de ce système sont représentées par un ensemble extensible de *Propriétés* implémentées en tant que paires nom/valeur.
 
-Dans Windows Vista et versions ultérieures, un ensemble complet de propriétés couvre les spécificités des éléments tels que les photos, la musique, les documents, les messages, les contacts et les fichiers. Les éditeurs de logiciels indépendants (ISV) peuvent introduire leurs propres propriétés sur la plateforme si aucune propriété existante ne répond à leurs besoins.
+dans Windows Vista et versions ultérieures, un ensemble complet de propriétés couvre les spécificités des éléments tels que les photos, la musique, les documents, les messages, les contacts et les fichiers. Les éditeurs de logiciels indépendants (ISV) peuvent introduire leurs propres propriétés sur la plateforme si aucune propriété existante ne répond à leurs besoins.
 
 ### <a name="open-metadata"></a>Ouvrir les métadonnées
 
-Le système de propriétés dans Windows Vista et les versions ultérieures est un système de métadonnées ouvert. Un format de fichier stocke toute propriété qui lui est assignée et expose cette valeur lorsqu’elle est interrogée, indépendamment de sa pertinence ou de sa signification. Cela permet aux développeurs tiers d’attacher des propriétés supplémentaires au fichier sans qu’il soit nécessaire de modifier le gestionnaire de propriétés associé. Les métadonnées ouvertes sont un concept puissant. Pour plus d’informations sur la prise en charge des métadonnées ouvertes pour un format de fichier XML, consultez « prise en charge des métadonnées ouvertes » dans [initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md).
+le système de propriétés de Windows Vista et versions ultérieures est un système de métadonnées ouvert. Un format de fichier stocke toute propriété qui lui est assignée et expose cette valeur lorsqu’elle est interrogée, indépendamment de sa pertinence ou de sa signification. Cela permet aux développeurs tiers d’attacher des propriétés supplémentaires au fichier sans qu’il soit nécessaire de modifier le gestionnaire de propriétés associé. Les métadonnées ouvertes sont un concept puissant. Pour plus d’informations sur la prise en charge des métadonnées ouvertes pour un format de fichier XML, consultez « prise en charge des métadonnées ouvertes » dans [initialisation des gestionnaires de propriétés](./building-property-handlers-property-handlers.md).
 
 > [!Note]  
 > Les gestionnaires de propriétés sont toujours associés à des types de fichiers spécifiques ; ainsi, si votre format de fichier contient des propriétés qui nécessitent un gestionnaire de propriétés personnalisées, vous devez toujours inscrire une extension de nom de fichier unique pour chaque format de fichier.
@@ -45,7 +45,7 @@ Le système de propriétés dans Windows Vista et les versions ultérieures est 
 
 ## <a name="about-property-handlers"></a>À propos des gestionnaires de propriétés
 
-Dans Windows Vista et versions ultérieures, Windows dispose d’un système de propriétés extensible pour le stockage et la récupération des métadonnées dans les fichiers et les éléments de données auxquels vous accédez. L’Explorateur Windows et le système de recherche Windows, ainsi que d’autres applications, utilisent des gestionnaires de propriétés pour lire et modifier ces métadonnées. Si vous êtes un développeur qui possède un type de fichier spécifique, vous devez inscrire un gestionnaire de propriétés pour permettre au système de propriétés d’accéder aux métadonnées de vos fichiers. Dans certains cas, vous pourrez peut-être utiliser un gestionnaire de propriétés existant capable de lire et de comprendre votre format de fichier et ses propriétés. dans d’autres cas, vous devrez peut-être développer un nouveau gestionnaire de propriétés pour votre type de fichier.
+dans Windows Vista et versions ultérieures, Windows dispose d’un système de propriétés extensible pour le stockage et la récupération des métadonnées dans les fichiers et les éléments de données auxquels vous accédez. Windows Explorer et le système de recherche Windows, ainsi que d’autres applications, utilisent des gestionnaires de propriétés pour lire et modifier ces métadonnées. Si vous êtes un développeur qui possède un type de fichier spécifique, vous devez inscrire un gestionnaire de propriétés pour permettre au système de propriétés d’accéder aux métadonnées de vos fichiers. Dans certains cas, vous pourrez peut-être utiliser un gestionnaire de propriétés existant capable de lire et de comprendre votre format de fichier et ses propriétés. dans d’autres cas, vous devrez peut-être développer un nouveau gestionnaire de propriétés pour votre type de fichier.
 
 La première étape de l’écriture d’un gestionnaire de propriétés consiste à prendre en compte les propriétés prises en charge par votre type de fichier. Les valeurs de propriété sont stockées dans le flux de fichier, principalement pour permettre la transporter. Lorsque les valeurs de propriété sont stockées dans le fichier lui-même, comme elles sont dans ce système, un utilisateur peut copier un fichier vers un autre ordinateur, un disque mémoire flash USB ou un autre système de fichiers, ou envoyer le fichier sous la forme d’une pièce jointe de courrier électronique, les propriétés voyagent avec le fichier et ne sont jamais désynchronisées ou perdues. Par conséquent, si le format de fichier prend en charge le stockage d’informations supplémentaires, il est préférable de stocker les propriétés dans le fichier lui-même.
 
@@ -53,9 +53,9 @@ L’étape suivante consiste à déterminer les propriétés que le fichier doit
 
 ## <a name="legacy-technology"></a>Technologie héritée
 
-La technologie de flux secondaire du système de fichiers Microsoft Windows NT (NTFS) a été développée pour prendre en charge la persistance des informations supplémentaires avec le fichier via un autre flux de données au niveau de la couche du système de fichiers. Il peut se demander pourquoi ces flux secondaires ne sont pas utilisés comme méthode principale pour stocker des propriétés, en particulier avec la prise en charge des métadonnées ouvertes. La raison principale est le transport de ces informations supplémentaires. Malheureusement, ces flux alternatifs sont supprimés dans de nombreux scénarios, notamment la prise en charge de la mise en cache côté client (CSC), l’envoi de fichiers en tant que pièces jointes et la copie de fichiers dans un magasin non NTFS.
+La technologie de flux secondaire du système de fichiers Microsoft Windows NT (NTFS) a été développée pour prendre en charge la persistance des informations supplémentaires avec le fichier via un autre flux de données défini au niveau de la couche du système de fichiers. Il peut se demander pourquoi ces flux secondaires ne sont pas utilisés comme méthode principale pour stocker des propriétés, en particulier avec la prise en charge des métadonnées ouvertes. La raison principale est le transport de ces informations supplémentaires. Malheureusement, ces flux alternatifs sont supprimés dans de nombreux scénarios, notamment la prise en charge de la mise en cache côté client (CSC), l’envoi de fichiers en tant que pièces jointes et la copie de fichiers dans un magasin non NTFS.
 
-Les flux secondaires ne fournissent pas une solution robuste dans laquelle les propriétés sont assurées de se déplacer avec le fichier. par conséquent, le système de propriétés Windows Vista ne fournit pas de mécanisme intégré qui exploite les flux de données NTFS secondaires pour le stockage des propriétés. Les éditeurs de logiciels indépendants sont également fortement déconseillés de créer des gestionnaires de propriétés qui utilisent des flux secondaires pour le stockage des propriétés. Bien entendu, il existe des scénarios dans lesquels les flux de données secondaires NTFS sont appropriés, en particulier lorsque les applications peuvent garantir que le fichier avec lequel elles sont gérées est toujours stocké dans un volume NTFS et ne se déplace pas à la suite de l’interaction de l’utilisateur final.
+les flux secondaires ne fournissent pas une solution robuste dans laquelle les propriétés sont assurées de se déplacer avec le fichier, et par conséquent, le système de propriétés Windows Vista ne fournit pas de mécanisme intégré qui exploite les flux NTFS secondaires pour le stockage des propriétés. Les éditeurs de logiciels indépendants sont également fortement déconseillés de créer des gestionnaires de propriétés qui utilisent des flux secondaires pour le stockage des propriétés. Bien entendu, il existe des scénarios dans lesquels les flux de données secondaires NTFS sont appropriés, en particulier lorsque les applications peuvent garantir que le fichier avec lequel elles sont gérées est toujours stocké dans un volume NTFS et ne se déplace pas à la suite de l’interaction de l’utilisateur final.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -73,7 +73,7 @@ Les flux secondaires ne fournissent pas une solution robuste dans laquelle les p
 [Inscription et distribution des gestionnaires de propriétés](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.md)
+[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

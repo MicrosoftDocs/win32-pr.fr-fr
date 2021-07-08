@@ -1,4 +1,4 @@
-- name: Fonctionnalités héritées de l’environnement Windows
+- name: fonctionnalités d’environnement de Windows héritées
   href: legacy-windows-environment.md
   items:
     - name: Fonctionnalités de l’interpréteur de commandes hérité
@@ -22,7 +22,7 @@
           href: column-handlers.md
         - name: Création de gestionnaires de recherche
           href: search-handlers.md
-        - name: Remplacement de l’application visionneuse d’images et de télécopies Windows à l’aide du verbe preview
+        - name: remplacement de l’Application de visionneuse d’images et de télécopies Windows à l’aide du verbe Preview
           href: replacing-picture-fax-viewer.md
         - name: Assistants photo
           href: photo-wizards-bumper.md
@@ -174,7 +174,7 @@
       items:
         - name: Présentation de Microsoft Agent
           href: introduction-to-microsoft-agent.md
-        - name: Modifications de Microsoft Agent dans Windows Vista
+        - name: modifications de l’Agent Microsoft dans Windows Vista
           href: microsoft-agent-changes-in-windows-vista.md
         - name: Interface utilisateur de l’agent Microsoft
           href: the-microsoft-agent-user-interface.md
@@ -222,7 +222,7 @@
                       href: create-personality.md
                     - name: Observer l’étiquette appropriée
                       href: observe-appropriate-etiquette.md
-                    - name: Utiliser l’compliment
+                    - name: utiliser Compliment
                       href: use-praise.md
                     - name: Créer un lecteur d’équipe
                       href: create-a-team-player.md
@@ -303,7 +303,7 @@
                       href: using-javascript-and-jscript.md
                 - name: Accès aux services vocaux
                   href: accessing-speech-services-.md
-                - name: Accès au contrôle à partir de Visual Basic et d’autres langages de programmation
+                - name: accès au contrôle à partir de Visual Basic et d’autres langages de programmation
                   href: accessing-the-control-from-visual-basic-and-other-programming-languages.md
                   items:
                     - name: Création d’une instance du contrôle
@@ -317,7 +317,7 @@
                   items:
                     - name: Modèle objet de l’agent
                       href: the-agent-object-model.md
-                - name: Référence
+                - name: Informations de référence
                   href: reference-.md
                   items:
                     - name: Objet de la requête
@@ -655,7 +655,7 @@
                   href: accessing-services-using-java.md
                 - name: Accès aux services vocaux
                   href: accessing-speech-services.md
-                - name: Référence
+                - name: Informations de référence
                   href: reference.md
                   items:
                     - name: IAgent
@@ -1045,7 +1045,7 @@
                         - name: 'IAgentUserInput::GetItemText'
                           href: iagentuserinput--getitemtext.md
             - name: FAQ sur la programmation et les scripts
-              href: programming-scripting-faq.md
+              href: programming-scripting-faq.yml
             - name: Codes d’erreur de Microsoft Agent
               href: microsoft-agent-error-codes.md
         - name: Utilisation de moteurs de reconnaissance vocale avec Microsoft Agent
@@ -1135,7 +1135,7 @@
               items:
                 - name: Conception d’animation
                   href: animation-design.md
-                - name: Ensemble d’animations Office
+                - name: ensemble d’animations Office
                   href: the-office-animation-set.md
                 - name: Installation de votre caractère
                   href: installing-your-character.md
@@ -1220,7 +1220,7 @@
           href: '-search-2x-wds-perceivedtype.md'
         - name: Protocole des services d’indexation de contenu
           href: '-search-2x-wds-content-indexing-services-protocol.md'
-        - name: Interfaces de contrôle ActiveX WDS 2. x
+        - name: Interfaces de contrôle de ActiveX WDS 2. x
           href: '-search-activex-control-reference-entry-page.md'
           items:
             - name: IPropertyFilter
@@ -1243,7 +1243,7 @@
                   href: '-search-2x-ipropertyfiltercollection-additem.md'
                 - name: clear
                   href: '-search-2x-ipropertyfiltercollection-clear.md'
-                - name: Count
+                - name: Nombre
                   href: '-search-2x-ipropertyfiltercollection-count.md'
                 - name: GetITem
                   href: '-search-2x-ipropertyfiltercollection-getitem.md'
@@ -1303,7 +1303,7 @@
                   href: '-search-2x-iresultsviewer-sortorderproperty.md'
                 - name: SortProperty
                   href: '-search-2x-iresultsviewer-sortproperty.md'
-                - name: Stop
+                - name: Arrêter
                   href: '-search-2x-iresultsviewer-stop.md'
                 - name: Update
                   href: '-search-2x-iresultsviewer-update.md'
@@ -1327,7 +1327,7 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: DoIt
                   href: '-search-2x-iresultverb-doit.md'
-                - name: Permis
+                - name: Activé
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
@@ -1410,10 +1410,10 @@
     - name: Windows Defender
       href: windows-defender-bumper.md
       items:
-        - name: Référence
+        - name: Informations de référence
           href: defender-ref-entry.md
           items:
-            - name: Énumérations Windows Defender
+            - name: Windows Defender Énumérations
               href: windows-defender-enumerations.md
               items:
                 - name: MPCALLBACK_TYPE
@@ -1458,7 +1458,7 @@
                   href: mpthreat-status.md
                 - name: MPTHREAT_TYPE
                   href: mpthreat-type.md
-            - name: Fonctions Windows Defender
+            - name: Windows Defender Mission
               href: windows-defender-functions.md
               items:
                 - name: MpErrorMessageFormat
@@ -1493,7 +1493,7 @@
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable
                 - name: WDStatus
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus
-            - name: Structures Windows Defender
+            - name: Windows Defender Celles
               href: windows-defender-structures.md
               items:
                 - name: MPCALLBACK_DATA
@@ -1563,14 +1563,14 @@
     - name: Protection contre la perte de données de point de terminaison
       href: endpointdlp-endpoint-data-loss-prevention.md
       items:
-        - name: Énumérations de protection contre la perte de données de point de terminaison
+        - name: 'Protection contre la perte de données de point de terminaison, énumérations'
           href: endpointdlp-enumerations.md
           items:
             - name: DlpActionType
               href: endpointdlp-dlpactiontype.md
             - name: DlpAppEnforceLevel
               href: endpointdlp-dlpappenforcelevel.md
-        - name: Fonctions de protection contre la perte de données de point de terminaison
+        - name: 'Protection contre la perte de données de point de terminaison, fonctions'
           href: endpointdlp-functions.md
           items:
             - name: DlpNotifyCloseDocument
@@ -1621,7 +1621,7 @@
               href: endpointdlp-dlpnotifypresaveasdocument.md
             - name: DlpNotifyPreStashClipboard
               href: endpointdlp-dlpnotifyprestashclipboard.md
-        - name: Structures de protection contre la perte de données de point de terminaison
+        - name: 'Protection contre la perte de données de point de terminaison, structures'
           href: endpointdlp-structures.md
           items:
             - name: DLP_APP_OP_ENLIGHTENED_LEVEL

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 7a9c20050e7d0dce5a19664d937c016a475a9a13
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 0778e879a6147c185964808ee4b4c302bd211ef3
+ms.sourcegitcommit: bfab92e16614d4fa54b044917358261232bda81a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343074"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "113489693"
 ---
 # <a name="d3dquerytype-enumeration"></a>Énumération D3DQUERYTYPE
 
@@ -30,7 +30,7 @@ Identifie le type de requête. Pour plus d’informations sur les requêtes, con
 ```C++
 typedef enum D3DQUERYTYPE { 
   D3DQUERYTYPE_VCACHE             = 4,
-  D3DQUERYTYPE_ResourceManager    = 5,
+  D3DQUERYTYPE_RESOURCEMANAGER    = 5,
   D3DQUERYTYPE_VERTEXSTATS        = 6,
   D3DQUERYTYPE_EVENT              = 8,
   D3DQUERYTYPE_OCCLUSION          = 9,
@@ -166,7 +166,7 @@ Différences entre Direct3D 9 et Direct3D 9Ex :
 
 </dd> </dl>
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 

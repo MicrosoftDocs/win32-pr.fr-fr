@@ -1,19 +1,19 @@
 ---
-description: Cet article explique comment initialiser des gestionnaires de propriétés pour fonctionner avec le système de propriétés Windows.
+description: cet article explique comment initialiser les gestionnaires de propriétés pour qu’ils fonctionnent avec le système de propriétés Windows.
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: Initialisation des gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7d7626f92b3d81a6764e635c10302747f82a383
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 4482af2a029a91049d421ee49eb0f439c5fd8d0e
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406992"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481904"
 ---
 # <a name="initializing-property-handlers"></a>Initialisation des gestionnaires de propriétés
 
-Cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour utiliser le système de propriétés Windows.
+cette rubrique explique comment créer et inscrire des gestionnaires de propriétés pour travailler avec le système de propriétés Windows.
 
 Cette rubrique est organisée comme suit :
 
@@ -32,7 +32,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="property-handlers"></a>Gestionnaires de propriétés
 
-Les gestionnaires de propriétés constituent une partie essentielle du système de propriétés. Elles sont appelées in-process par l’indexeur pour lire et indexer les valeurs de propriété, et elles sont également appelées par l’Explorateur Windows en mode in-process pour lire et écrire des valeurs de propriété directement dans les fichiers. Ces gestionnaires doivent être écrits et testés avec soin pour éviter la dégradation des performances ou la perte de données dans les fichiers affectés. Pour plus d’informations sur les considérations spécifiques à l’indexeur qui affectent l’implémentation du gestionnaire de propriétés, consultez [développement de gestionnaires de propriétés pour Windows Search](../search/-search-3x-wds-extidx-propertyhandlers.md).
+Les gestionnaires de propriétés constituent une partie essentielle du système de propriétés. elles sont appelées in-process par l’indexeur pour lire et indexer les valeurs de propriété, et sont également appelées par Windows Explorer in-process pour lire et écrire des valeurs de propriété directement dans les fichiers. Ces gestionnaires doivent être écrits et testés avec soin pour éviter la dégradation des performances ou la perte de données dans les fichiers affectés. pour plus d’informations sur les considérations spécifiques à l’indexeur qui affectent l’implémentation du gestionnaire de propriétés, consultez [développement de gestionnaires de propriétés pour la recherche de Windows](../search/-search-3x-wds-extidx-propertyhandlers.md).
 
 Cette rubrique présente un exemple de format de fichier basé sur XML qui décrit une recette avec une extension de nom de fichier. recipe. L’extension de nom de fichier. Recipe est inscrite en tant que format de fichier distinct plutôt que de s’appuyer sur le format de fichier .xml plus générique, dont le gestionnaire utilise un flux secondaire pour stocker les propriétés. Nous vous recommandons d’inscrire des extensions de nom de fichier uniques pour vos types de fichiers.
 
@@ -40,7 +40,7 @@ Cette rubrique présente un exemple de format de fichier basé sur XML qui décr
 
 Les gestionnaires de propriétés sont des objets COM qui créent l’abstraction [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) pour un format de fichier spécifique. Ils lisent (analysent) et écrivent ce format de fichier d’une manière conforme à sa spécification. Certains gestionnaires de propriétés effectuent leur travail en fonction d’API qui extraient l’accès à un format de fichier spécifique. Avant de développer un gestionnaire de propriétés pour votre format de fichier, vous devez comprendre comment votre format de fichier stocke les propriétés et comment ces propriétés (noms et valeurs) sont mappées à l’abstraction de la Banque de propriétés.
 
-Quand vous planifiez votre implémentation, n’oubliez pas que les gestionnaires de propriétés sont des composants de bas niveau qui sont chargés dans le contexte de processus tels que l’Explorateur Windows, l’indexeur de recherche Windows et des applications tierces qui utilisent le modèle de programmation d’élément de Shell. Par conséquent, les gestionnaires de propriétés ne peuvent pas être implémentés en code managé et doivent être implémentés en C++. Si votre gestionnaire utilise des API ou des services pour effectuer son travail, vous devez vous assurer que ces services peuvent fonctionner correctement dans le ou les environnements dans lesquels votre gestionnaire de propriétés est chargé.
+quand vous planifiez votre implémentation, n’oubliez pas que les gestionnaires de propriétés sont des composants de bas niveau qui sont chargés dans le contexte de processus tels que Windows Explorer, l’indexeur de recherche Windows et des applications tierces qui utilisent le modèle de programmation d’élément de Shell. Par conséquent, les gestionnaires de propriétés ne peuvent pas être implémentés en code managé et doivent être implémentés en C++. Si votre gestionnaire utilise des API ou des services pour effectuer son travail, vous devez vous assurer que ces services peuvent fonctionner correctement dans le ou les environnements dans lesquels votre gestionnaire de propriétés est chargé.
 
 > [!Note]  
 > Les gestionnaires de propriétés sont toujours associés à des types de fichiers spécifiques ; ainsi, si votre format de fichier contient des propriétés qui nécessitent un gestionnaire de propriétés personnalisées, vous devez toujours inscrire une extension de nom de fichier unique pour chaque format de fichier.
@@ -70,7 +70,7 @@ Toutefois, il est nettement préférable d’implémenter [**IInitializeWithStre
 Pour examiner en détail l’implémentation d’un gestionnaire de propriétés, examinez l’exemple de code suivant, qui est une implémentation de [**IInitializeWithStream :: Initialize**](/windows/win32/api/propsys/nf-propsys-iinitializewithstream-initialize). Le gestionnaire est initialisé en chargeant un document de recette XML à l’aide d’un pointeur vers l’instance [**IStream**](/windows/win32/api/objidl/nn-objidl-istream) associée à ce document. La variable **\_ spDocEle** utilisée près de la fin de l’exemple de code est définie plus tôt dans l’exemple en tant que msxml2 :: IXMLDOMElementPtr.
 
 > [!Note]  
-> Les exemples de code suivants et suivants sont extraits de l’exemple de gestionnaire de recette inclus dans le kit de développement logiciel (SDK) Windows. .
+> les exemples de code suivants et les suivants sont extraits de l’exemple de gestionnaire de recette inclus dans le kit de développement logiciel (SDK) Windows. .
 
  
 
@@ -98,7 +98,7 @@ HRESULT CRecipePropertyStore::Initialize(IStream *pStream, DWORD grfMode)
 
 Â 
 
-Une fois le document lui-même chargé, les propriétés à afficher dans l’Explorateur Windows sont chargées en appelant la méthode protégée **\_ LoadProperties** , comme illustré dans l’exemple de code suivant. Ce processus est examiné en détail dans la section suivante.
+une fois le document lui-même chargé, les propriétés à afficher dans Windows Explorer sont chargées en appelant la méthode protégée **\_ LoadProperties** , comme illustré dans l’exemple de code suivant. Ce processus est examiné en détail dans la section suivante.
 
 
 ```
@@ -134,7 +134,7 @@ Une fois le document lui-même chargé, les propriétés à afficher dans l’Ex
 
 
 
-Si le flux est en lecture seule mais que le paramètre *grfMode* contient l' \_ indicateur STGM ReadWrite, l’initialisation doit échouer et retourner STG \_ E \_ ACCESSDENIED. Sans cette vérification, l’Explorateur Windows affiche les valeurs de propriété comme étant accessibles en écriture, même si ce n’est pas le cas, ce qui complique l’expérience de l’utilisateur final.
+Si le flux est en lecture seule mais que le paramètre *grfMode* contient l' \_ indicateur STGM ReadWrite, l’initialisation doit échouer et retourner STG \_ E \_ ACCESSDENIED. sans cette vérification, Windows Explorer affiche les valeurs de propriété comme étant accessibles en écriture, même si ce n’est pas le cas, ce qui complique l’expérience de l’utilisateur final.
 
 Le gestionnaire de propriétés n’est initialisé qu’une seule fois pendant sa durée de vie. Si une deuxième initialisation est demandée, le gestionnaire doit retourner `HRESULT_FROM_WIN32(ERROR_ALREADY_INITIALIZED)` .
 
@@ -767,7 +767,7 @@ if (SUCCEEDED(hr))
 
 
 
-Si une propriété ne figure pas dans le mappage, il s’agit d’une nouvelle propriété qui a été définie par l’Explorateur Windows. Étant donné que les métadonnées ouvertes sont prises en charge, enregistrez la nouvelle propriété dans la section **ExtendedProperties** du document XML.
+si une propriété ne figure pas dans le mappage, il s’agit d’une nouvelle propriété qui a été définie par l’explorateur de Windows. Étant donné que les métadonnées ouvertes sont prises en charge, enregistrez la nouvelle propriété dans la section **ExtendedProperties** du document XML.
 
 
 ```
@@ -835,7 +835,7 @@ Avec le gestionnaire de propriétés implémenté, il doit être enregistré et 
 [Inscription et distribution des gestionnaires de propriétés](./prophand-reg-dist.md)
 </dt> <dt>
 
-[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.md)
+[Meilleures pratiques pour le gestionnaire de propriétés et FAQ](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  
