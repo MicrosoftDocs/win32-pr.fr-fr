@@ -1,21 +1,21 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre PageMediaSizePSWidthOffset. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: b93ad6e6-ab27-4fab-b488-6f402b6ee857
 title: PageMediaSizePSWidthOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca8051fc265e107bff0be53c409eb103df2a8326
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 265acad803dbc334be115440e195967465b3ef50
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995507"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549099"
 ---
 # <a name="pagemediasizepswidthoffset"></a>PageMediaSizePSWidthOffset
 
 Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la [spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).
 
-Spécifie le décalage perpendiculaire à la direction de l’orientation du flux (référence [PostScript Printer Description file format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).
+spécifie le décalage perpendiculaire à la direction de l’orientation du flux (référence [PostScript spécification du Format du fichier de Description](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)de l’imprimante).
 
 -   [Informations sur les éléments](#element-information)
 -   [Structure de contenu](#structure-content)
@@ -24,11 +24,11 @@ Spécifie le décalage perpendiculaire à la direction de l’orientation du flu
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                     |
 | Préfixe d’étendue <br/> | Page<br/>                                             |
-| Notes <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
+| Remarques <br/>          | Lié à l’élément PageMediaSize, option CustomPS<br/> |
 
 
 
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 
@@ -89,7 +89,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 <dl> <dt>
 
-[Spécification de format de fichier de description d’imprimante PostScript](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript Spécification de format de fichier de description d’imprimante](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [Spécification du schéma d’impression](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

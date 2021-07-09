@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur l’élément configurable par l’utilisateur PageInputBin. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 78eb3119-a52f-4ff8-83bb-903e181c8a11
 title: PageInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f74e75653f7c6cbc6a586b80b3e8217286ce7c36
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: dc53d377106b95b26e694d531af2952cea98a8b1
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993766"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549167"
 ---
 # <a name="pageinputbin"></a>PageInputBin
 
@@ -25,9 +25,9 @@ Décrit le bac d’entrée installé dans un appareil ou la liste complète des 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

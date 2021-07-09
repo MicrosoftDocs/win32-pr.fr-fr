@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre PageScalingScaleHeight. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: ccc2ad1c-b0c2-4c45-bc95-7c15426c2534
 title: PageScalingScaleHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d718d80f6b3cc369ddcb5c088a1299d639634b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d51bdb5577b5e3863cfadab1fa9eb74ff40d54da
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997476"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548837"
 ---
 # <a name="pagescalingscaleheight"></a>PageScalingScaleHeight
 
@@ -24,11 +24,11 @@ Spécifie le facteur de mise à l’échelle dans la direction ImageableSizeHeig
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
-| Notes <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
+| Remarques <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
 
 
 
@@ -71,15 +71,15 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | String<br/>  | xs:integer<br/>      |
-| DefaultValue<br/> | Integer<br/> | non défini<br/>       |
-| MaxValue<br/>     | Integer<br/> | non défini<br/>       |
+| DataType<br/>     | Chaîne<br/>  | xs:integer<br/>      |
+| DefaultValue<br/> | Entier<br/> | non défini<br/>       |
+| MaxValue<br/>     | Entier<br/> | non défini<br/>       |
 | MinValue<br/>     | Integer<br/> | 1<br/>               |
-| Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
-| Plusieurs<br/>     | Integer<br/> | 1<br/>               |
-| Unité<br/>     | String<br/>  | pour cent<br/>         |
+| Obligatoire<br/>    | Chaîne<br/>  | PSK : conditionnel<br/> |
+| Multiple<br/>     | Integer<br/> | 1<br/>               |
+| Unité<br/>     | Chaîne<br/>  | pour cent<br/>         |
 
 
 

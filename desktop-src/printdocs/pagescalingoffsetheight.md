@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre PageScalingOffsetHeight. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: f6fa0421-a125-4ead-a540-d2f7327a26b6
 title: PageScalingOffsetHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a91178f1506196ab505a90de8bf3a3163fa8a3c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5f02370d28716dd3a8840001959bb7d963307d2f
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993737"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548957"
 ---
 # <a name="pagescalingoffsetheight"></a>PageScalingOffsetHeight
 
@@ -24,11 +24,11 @@ Spécifie le décalage de mise à l’échelle dans la direction ImageableSizeHe
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
-| Notes <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
+| Remarques <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
 
 
 
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | entier<br/> | non défini<br/>       |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | microns<br/>         |
 
 

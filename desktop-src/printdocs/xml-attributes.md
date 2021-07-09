@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur les attributs XML dans l’infrastructure du schéma d’impression. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: Attributs XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dd05effe6f3ea79afd0972867cb2734ace1a71
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d410dcb1476d90568bee10c7c1e41ee7a9bee2e7
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106522909"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548817"
 ---
 # <a name="xml-attributes"></a>Attributs XML
 
@@ -30,7 +30,7 @@ Bien que les parties privées ne soient pas autorisées à introduire de nouvell
 </colgroup>
 <thead>
 <tr class="header">
-<th>Nom de l'attribut</th>
+<th>Nom d’attribut</th>
 <th>Types de données et valeurs</th>
 <th>Objectif</th>
 <th>Notes</th>
@@ -70,13 +70,13 @@ L’exemple suivant montre comment identifier une instance d’option à l’aid
 <td>la <br/></td>
 <td>Énumération<br/> Valeurs autorisées :<br/>
 <ul>
-<li>Aucun <br/></li>
+<li>None <br/></li>
 <li>PrintTicketSettings <br/></li>
 <li>AdminSettings <br/></li>
 <li>DeviceSettings <br/></li>
 </ul></td>
 <td>Indique si l’option est disponible pour la sélection ou pour l’utilisation. <br/></td>
-<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> Aucun <br/>
+<td>Les valeurs autorisées de l’attribut contraction ont les significations suivantes. Notez que ces valeurs sont répertoriées dans l’ordre, de la moins restrictive (aucune) à la plus restrictive (DeviceSettings).<br/> None <br/>
 <ul>
 <li>L’option n’est pas restreinte. <br/></li>
 </ul>

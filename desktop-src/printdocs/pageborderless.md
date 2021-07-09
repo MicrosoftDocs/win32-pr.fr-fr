@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageBorderless. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: c5e75f57-7426-41fa-88f4-789153fcd0c5
 title: PageBorderless
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b20eb3379c76bfef3cd7ce6bb75dcf71479f0449
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 66a0ff13edc1f4e5b36f55229559bb06ed17150b
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997686"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549307"
 ---
 # <a name="pageborderless"></a>PageBorderless
 
@@ -25,9 +25,9 @@ Décrit le moment où le contenu de l’image doit être imprimé sur les bords 
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

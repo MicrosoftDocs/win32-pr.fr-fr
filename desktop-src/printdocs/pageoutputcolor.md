@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageOutputColor. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 1afcf2e6-5d6d-4b87-a005-15d42a610f69
 title: PageOutputColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4791ca4a53b8bdcc43a32c5c7aa5a1e38bbe1e5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 79fc71f58bde44224642d3a5f6979e3aef929976
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998046"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548987"
 ---
 # <a name="pageoutputcolor"></a>PageOutputColor
 
@@ -25,9 +25,9 @@ Décrit les caractéristiques des paramètres de couleur pour la sortie.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

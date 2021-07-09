@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur les définitions d’options dans le schéma PrintCapabilities. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: e81068db-ab8e-420c-a0be-93bc92f3df6f
 title: Définitions d’options
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10016b295cc2da7ede4e6a4f8944f279a25f6f9b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: fdc7dddb4840de8bc91c7f9ab127fd31319e5399
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104211329"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549367"
 ---
 # <a name="option-definitions"></a>Définitions d’options
 

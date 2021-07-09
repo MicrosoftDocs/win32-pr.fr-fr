@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Examinez l’élément PageDeviceFontSubstitution configurable par l’utilisateur. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 741aa729-35c3-43c2-93d8-e25ed508cfa6
 title: PageDeviceFontSubstitution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f40b86d6d81603e2ff9929275571ff6be72d839b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 4dc5650c687a4c96e6c54ef7ea0631e77407e874
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995586"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549197"
 ---
 # <a name="pagedevicefontsubstitution"></a>PageDeviceFontSubstitution
 
@@ -25,9 +25,9 @@ Décrit l’état activé/désactivé de la substitution de polices de périphé
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

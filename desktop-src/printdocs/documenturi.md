@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur la propriété DocumentURI. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 7926ae9b-e195-4391-9006-1eb4cf386f88
 title: DocumentURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0d339b1b469f276492f7989b0ed7951ca1edad8
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2cb4d1572417ac85e14c25c238be1d49611ba858
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997066"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548807"
 ---
 # <a name="documenturi"></a>DocumentURI
 
@@ -25,7 +25,7 @@ Spécifie un URI (Uniform Resource Identifier) pour le document.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------|
 | Type d'élément <br/>   | Propriété<br/> |
 | Préfixe d’étendue <br/> | Document<br/> |

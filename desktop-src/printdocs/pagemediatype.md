@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur l’élément configurable par l’utilisateur PageMediaType. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 29d7ae65-9dd3-4a29-8e5e-79708638a3bb
 title: PageMediaType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3d41ed2af931068e340e9a9d0828db109594de8
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d3ca2299d9358e606648263ea5861f46c9be6419
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994516"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549077"
 ---
 # <a name="pagemediatype"></a>PageMediaType
 
@@ -25,9 +25,9 @@ Décrit les options de MediaType et les caractéristiques de chaque option.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

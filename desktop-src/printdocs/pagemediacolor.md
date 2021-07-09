@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageMediaColor. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 3e0e2cb2-cb51-446d-a6ff-f76aa8c305f6
 title: PageMediaColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60c9a314bf435664d121fd35e588b62903da323e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3041c8954048f60f52e9324f0c6565396d7fafe2
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994506"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549157"
 ---
 # <a name="pagemediacolor"></a>PageMediaColor
 
@@ -25,9 +25,9 @@ Décrit les options de couleur du média et les caractéristiques de chaque opti
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre JobErrorSheetSource. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 6de13ed8-bf15-4e2c-b42a-ea8178a6b5f9
 title: JobErrorSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c87a31e645b9ea5eedb22b48000991a99bc7e5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 656d71422c46800d6155c1dea1e221f9c6dfe021
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998156"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549387"
 ---
 # <a name="joberrorsheetsource"></a>JobErrorSheetSource
 
@@ -24,11 +24,11 @@ Spécifie la source d’une feuille d’erreur personnalisée.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                    |
 | Préfixe d’étendue <br/> | Document<br/>                        |
-| Notes <br/>          | Lié à l’élément JobErrorSheet<br/> |
+| Remarques <br/>          | Lié à l’élément JobErrorSheet<br/> |
 
 
 
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

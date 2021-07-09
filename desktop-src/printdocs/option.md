@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur l’élément option. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: Option
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379834d12cd01847c95783d727be5dcdc6c575bf
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6ac4318e6a79a3d4daa77f15901d032c66134bdd
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106525815"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549377"
 ---
 # <a name="option"></a>Option
 
@@ -46,7 +46,7 @@ Le tableau suivant répertorie les éléments qui peuvent être des parents de c
 
 | Category                   | Détails                                                                                                                                                                                                                                                                                          |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Éléments parents<br/> | Fonctionnalité <br/>                                                                                                                                                                                                                                                                              |
+| Éléments parents<br/> | Composant <br/>                                                                                                                                                                                                                                                                              |
 | Éléments enfants<br/>  | *Property* (zéro, un ou plusieurs)<br/> *ScoredProperty* (zéro ou plus pour les options avec l’attribut XML’name'; une ou plusieurs options pour les options qui n’utilisent pas l’attribut XML’name' \* )<br/> \* seules les options publiques définies dans le schéma d’impression ne peuvent pas avoir d’attribut’name', tel que DocumentNUp)<br/> |
 | Élément This<br/>    | Aucune donnée de caractères n’est autorisée.<br/> Les frères enfants en double ne sont pas autorisés.<br/>                                                                                                                                                                                                |
 
@@ -60,7 +60,7 @@ Un élément de définition d’option ne peut pas avoir de dépendances de conf
 
 ## <a name="element-usage"></a>Utilisation des éléments
 
-L’objectif de l’élément option consiste à caractériser l’un des États qu’un attribut de configuration d’appareil, représenté par un élément de fonctionnalité, peut supposer. Chaque définition d’élément option contient un ou plusieurs éléments ScoredProperty qui décrivent une caractéristique intrinsèque ou essentielle de cette option. Pour faciliter la portabilité et la préservation de l’intention, le schéma d’impression définit de nombreux éléments de fonctionnalités courants et divers éléments d’option pour chaque fonctionnalité. Il est donc important d’utiliser des éléments d’option d’impression définis par schéma, si possible, avant de créer vos propres définitions d’options. La compréhension du processus de définition des éléments d’option fournit des informations utiles sur la façon dont le document PrintCapabilities et les des PrintTicket sont utilisés dans le Microsoft .NET Framework version 3,0 et l’architecture d’impression Windows Vista.
+L’objectif de l’élément option consiste à caractériser l’un des États qu’un attribut de configuration d’appareil, représenté par un élément de fonctionnalité, peut supposer. Chaque définition d’élément option contient un ou plusieurs éléments ScoredProperty qui décrivent une caractéristique intrinsèque ou essentielle de cette option. Pour faciliter la portabilité et la préservation de l’intention, le schéma d’impression définit de nombreux éléments de fonctionnalités courants et divers éléments d’option pour chaque fonctionnalité. Il est donc important d’utiliser des éléments d’option d’impression définis par schéma, si possible, avant de créer vos propres définitions d’options. la compréhension du processus de définition des éléments d’Option fournit des insights utiles sur la façon dont le document PrintCapabilities et les des printticket sont utilisés dans les architectures d’impression Microsoft .NET Framework version 3,0 et Windows Vista.
 
 ## <a name="example"></a>Exemple
 

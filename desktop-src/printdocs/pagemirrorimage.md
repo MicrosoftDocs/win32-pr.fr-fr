@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageMirrorImage. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: a05357c0-6a82-42ff-b4f8-d3e0ee089055
 title: PageMirrorImage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61d9fe0a82ad14c149849c3bf6bf0c5de6144571
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0fe917d6973fbd074111a5da7b6fe5620e7251e9
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994466"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549090"
 ---
 # <a name="pagemirrorimage"></a>PageMirrorImage
 
@@ -25,9 +25,9 @@ Décrit le paramètre de mise en miroir de la sortie.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|--------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/> |
+| Type d'élément <br/>   | Composant<br/> |
 | Préfixe d’étendue <br/> | Page<br/>    |
 | Notes <br/>          | Aucun<br/>    |
 

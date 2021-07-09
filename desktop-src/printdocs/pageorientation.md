@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur l’élément configurable par l’utilisateur PageOrientation. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 52f02fc1-56fb-404d-8939-df3a4b21570d
 title: PageOrientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a94fb97ad1e64c7f55fd9520ed8a648a74f550
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: b6f0af08fcd29f34bb55bd16b1eac50487e96ffb
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997536"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549117"
 ---
 # <a name="pageorientation"></a>PageOrientation
 
@@ -38,11 +38,11 @@ Décrit l’orientation de la feuille de média physique.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                                                                                      |
+| Type d'élément <br/>   | Composant<br/>                                                                                                                                                                                      |
 | Préfixe d’étendue <br/> | Page<br/>                                                                                                                                                                                         |
-| Notes <br/>          | Si un périphérique d’impression ne peut prendre en charge qu’une seule direction paysage et que cette direction est dite « inversée », l’orientation de la page sera toujours considérée comme « paysage ».<br/> |
+| Remarques <br/>          | Si un périphérique d’impression ne peut prendre en charge qu’une seule direction paysage et que cette direction est dite « inversée », l’orientation de la page sera toujours considérée comme « paysage ».<br/> |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre DocumentCoverFrontSource. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: ec41d0c8-ea77-44ac-a02b-6a48237b324f
 title: DocumentCoverFrontSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b558a044716c5c13ae012665193f958f8ce6aa
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: afeb6ecb089eb271e0b8fff136e73a20194f0c8f
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997896"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548757"
 ---
 # <a name="documentcoverfrontsource"></a>DocumentCoverFrontSource
 
@@ -24,11 +24,11 @@ Spécifie la source d’une feuille de couverture avant personnalisée.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                         |
 | Préfixe d’étendue <br/> | Document<br/>                             |
-| Notes <br/>          | Lié à l’élément DocumentCoverFront<br/> |
+| Remarques <br/>          | Lié à l’élément DocumentCoverFront<br/> |
 
 
 
@@ -67,7 +67,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

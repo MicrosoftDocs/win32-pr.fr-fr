@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur l’élément configurable par l’utilisateur JobHolePunch. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 26e9e7d6-7c01-4687-aa64-7aea867b4e58
 title: JobHolePunch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56316c94dc56a2646446a8cd63885cceaa1407fa
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 7c82a36784ab6a1fb5eb0c8d682c45cce574ee9e
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999296"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549357"
 ---
 # <a name="jobholepunch"></a>JobHolePunch
 
@@ -25,11 +25,11 @@ Décrit les caractéristiques de perforation de la sortie. Tous les documents so
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| Type d'élément <br/>   | Fonctionnalité<br/>                                                                                                                              |
+| Type d'élément <br/>   | Composant<br/>                                                                                                                              |
 | Préfixe d’étendue <br/> | Travail<br/>                                                                                                                                  |
-| Notes <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize, où Left est indiqué par l’origine de l’axe x et de l’axe y.<br/> |
+| Remarques <br/>          | Haut, bas, gauche et droite sont relatifs à PageImageableSize, où Left est indiqué par l’origine de l’axe x et de l’axe y.<br/> |
 
 
 

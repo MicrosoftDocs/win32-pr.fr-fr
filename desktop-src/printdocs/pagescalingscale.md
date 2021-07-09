@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: Obtenir des informations sur le paramètre PageScalingScale. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: 49a60a94-fb65-4439-bebf-3f77ea0861fe
 title: PageScalingScale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974242cf43bae50a8e81b17bcdd13d653032c6a9
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d8c6cee5fc46568e3cf7f15ecd43c07c6584c856
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999196"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548827"
 ---
 # <a name="pagescalingscale"></a>PageScalingScale
 
@@ -24,11 +24,11 @@ Spécifie le facteur d’échelle pour la mise à l’échelle carrée personnal
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
-| Notes <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
+| Remarques <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
 
 
 
@@ -71,14 +71,14 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:integer<br/>      |
 | DefaultValue<br/> | entier<br/> | non défini<br/>       |
 | MaxValue<br/>     | entier<br/> | non défini<br/>       |
 | MinValue<br/>     | integer<br/> | 1<br/>               |
 | Obligatoire<br/>    | string<br/>  | PSK : conditionnel<br/> |
-| Plusieurs<br/>     | integer<br/> | 1<br/>               |
+| Multiple<br/>     | integer<br/> | 1<br/>               |
 | Unité<br/>     | string<br/>  | pour cent<br/>         |
 
 

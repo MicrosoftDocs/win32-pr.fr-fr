@@ -1,15 +1,15 @@
 ---
-description: Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
+description: En savoir plus sur le paramètre PageDestinationColorProfileEmbedded. Cette rubrique n’est pas à jour. Pour obtenir les informations les plus récentes, consultez la spécification du schéma d’impression.
 ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: PageDestinationColorProfileEmbedded
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7053cfaf82d7fdfccfe79cebcd76e49befeb125
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 05865636b6554873844a99b523f8c21fe2bfc1c7
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996126"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549207"
 ---
 # <a name="pagedestinationcolorprofileembedded"></a>PageDestinationColorProfileEmbedded
 
@@ -24,11 +24,11 @@ Spécifie le profil de couleurs de destination incorporé.
 
 
 
-| Nom | Value |
+| Nom | Valeur |
 |----------------------------|----------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                  |
 | Préfixe d’étendue <br/> | Page<br/>                                          |
-| Notes <br/>          | Lié à l’élément PageDestinationColorProfile<br/> |
+| Remarques <br/>          | Lié à l’élément PageDestinationColorProfile<br/> |
 
 
 
@@ -68,7 +68,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Value                      |
+| Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |
