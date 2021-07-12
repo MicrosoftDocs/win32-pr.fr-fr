@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2c8c9eeea1072c53915588ac0099998e76c0452a
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5cd065e415aafffa59dd6c31d2b9aa4f4505021d
+ms.sourcegitcommit: 7c7a05f65d2cf1ba2dadf05f63ae91a048083946
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119594"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113589586"
 ---
 # <a name="per-component-math-operations"></a>Opérations mathématiques Per-Component
 
@@ -105,7 +105,7 @@ temp = pos.xg  // NOT VALID because the position and color sets were used.
 
 
 
-La spécification d’un ou plusieurs composants vectoriels lors de la lecture des composants s’appelle swizzling. Par exemple :
+La spécification d’un ou plusieurs composants vectoriels lors de la lecture des composants s’appelle swizzling. Exemple :
 
 
 ```
@@ -428,9 +428,9 @@ Une matrice de colonne principale est présentée comme suit :
         34<br/>
     :::column-end:::
     :::column:::
-        14<br/>
-        24<br/>
-        34<br/>
+        41<br/>
+        42<br/>
+        43<br/>
         44<br/>
     :::column-end:::
 :::row-end:::

@@ -1,5 +1,5 @@
 ---
-description: Le shell Windows fournit un ensemble puissant d’objets Automation qui vous permettent de programmer l’interpréteur de commandes avec Microsoft Visual Basic et des langages de script tels que Microsoft JScript (compatible avec la spécification du langage ECMA 262) et Microsoft Visual Basic Scripting Edition (VBScript). Vous pouvez utiliser ces objets pour accéder à la plupart des fonctionnalités et boîtes de dialogue de l’interpréteur de commandes. Par exemple, vous pouvez accéder au système de fichiers, lancer des programmes et modifier les paramètres système.
+description: l’interpréteur de commandes Windows fournit un ensemble puissant d’objets automation qui vous permettent de programmer l’interpréteur de commandes avec microsoft Visual Basic et des langages de script tels que microsoft JScript (compatible avec la spécification du langage ECMA 262) et microsoft Visual Basic scripting Edition (VBScript). Vous pouvez utiliser ces objets pour accéder à la plupart des fonctionnalités et boîtes de dialogue de l’interpréteur de commandes. Par exemple, vous pouvez accéder au système de fichiers, lancer des programmes et modifier les paramètres système.
 title: Objets Shell scriptable
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4c39e7e58a9715598056fb74aa154ed8a850f523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8685b44d00d3f48e8de2a567218ef08c1cb5070
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973606"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581777"
 ---
 # <a name="scriptable-shell-objects"></a>Objets Shell scriptable
 
-Le shell Windows fournit un ensemble puissant d’objets Automation qui vous permettent de programmer l’interpréteur de commandes avec Microsoft Visual Basic et des langages de script tels que Microsoft JScript (compatible avec la spécification du langage ECMA 262) et Microsoft Visual Basic Scripting Edition (VBScript). Vous pouvez utiliser ces objets pour accéder à la plupart des fonctionnalités et boîtes de dialogue de l’interpréteur de commandes. Par exemple, vous pouvez accéder au système de fichiers, lancer des programmes et modifier les paramètres système.
+l’interpréteur de commandes Windows fournit un ensemble puissant d’objets automation qui vous permettent de programmer l’interpréteur de commandes avec microsoft Visual Basic et des langages de script tels que microsoft JScript (compatible avec la spécification du langage ECMA 262) et microsoft Visual Basic scripting Edition (VBScript). Vous pouvez utiliser ces objets pour accéder à la plupart des fonctionnalités et boîtes de dialogue de l’interpréteur de commandes. Par exemple, vous pouvez accéder au système de fichiers, lancer des programmes et modifier les paramètres système.
 
 Cette section présente les objets Shell scriptables.
 
@@ -32,13 +32,13 @@ Cette section présente les objets Shell scriptables.
 
 ## <a name="shell-versions"></a>Versions de Shell
 
-La plupart des objets Shell sont disponibles dans la [version 4,71](versions.md) de l’interpréteur de commandes. D’autres sont disponibles dans la version 5,00 et les versions ultérieures. La version 5,00 est devenue disponible avec Windows 2000. Le tableau suivant répertorie chaque objet Shell sous la version du Shell dans lequel l’objet est devenu disponible.
+La plupart des objets Shell sont disponibles dans la [version 4,71](versions.md) de l’interpréteur de commandes. D’autres sont disponibles dans la version 5,00 et les versions ultérieures. la Version 5,00 est devenue disponible avec Windows 2000. Le tableau suivant répertorie chaque objet Shell sous la version du Shell dans lequel l’objet est devenu disponible.
 
 
 
 | Version 4,71                                            | Version 5,00                                          |
 |---------------------------------------------------------|-------------------------------------------------------|
-| [**Dossier**](folder.md)                                | [**DIDiskQuotaUser**](didiskquotauser-object.md)     |
+| [**Répertoire**](folder.md)                                | [**DIDiskQuotaUser**](didiskquotauser-object.md)     |
 | [**FolderItemVerb**](folderitemverb.md)                | [**DiskQuotaControl**](diskquotacontrol-object.md)   |
 | [**FolderItemVerbs**](folderitemverbs.md)              | [**Dossier2**](folder2-object.md)                     |
 | [**Shell**](shell.md)                                  | [**FolderItem**](folderitem.md)                      |
@@ -56,14 +56,14 @@ La plupart des objets Shell sont disponibles dans la [version 4,71](versions.md)
 
 ## <a name="instantiating-shell-objects"></a>Instanciation d’objets Shell
 
-Pour instancier les objets Shell dans Visual Basic applications avec une liaison précoce, ajoutez des références aux bibliothèques suivantes dans votre projet :
+pour instancier les objets Shell dans Visual Basic applications avec une liaison précoce, ajoutez des références aux bibliothèques suivantes dans votre projet :
 
 -   Contrôles Microsoft Internet (SHDocVw)
 -   Microsoft Shell Controls and Automation (shell32)
 
 ### <a name="late-binding"></a>Liaison tardive
 
-Vous pouvez également instancier un grand nombre d’objets Shell avec une liaison tardive. Cette approche fonctionne dans les applications Visual Basic et dans le script. L’exemple suivant montre comment instancier l’objet [**Shell**](shell.md) dans JScript.
+Vous pouvez également instancier un grand nombre d’objets Shell avec une liaison tardive. cette approche fonctionne dans les applications Visual Basic et dans le script. L’exemple suivant montre comment instancier l’objet [**Shell**](shell.md) dans JScript.
 
 
 ```
@@ -112,7 +112,7 @@ Le ProgID de chacun des objets Shell est indiqué dans le tableau suivant.
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | Microsoft. DiskQuota. 1                                                                   |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | Liaison tardive impossible                                                                        |
-| [**Dossier**](folder.md)                                | Shell. Shell \_ application. Namespace ("...")                                               |
+| [**Répertoire**](folder.md)                                | Shell. Shell \_ application. Namespace ("...")                                               |
 | [**Dossier2**](folder2-object.md)                       | Shell. Shell \_ application. Namespace ("...")                                               |
 | [**FolderItem**](folderitem.md)                        | Shell. Shell \_ application. Namespace ("..."). Self ou dossier. Items. Item ou Folder. ParseName |
 | [**FolderItems**](folderitems.md)                      | Dossier. Items                                                                            |
@@ -152,11 +152,11 @@ Le tableau suivant répertorie chaque objet Shell et son CLASSID respectif.
 
 
 
-|                                                         |                                      |
-|---------------------------------------------------------|--------------------------------------|
+| Objet Shell                                           | CLASSID                              |
+|--------------------------------------------------------|--------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
-| [**Dossier**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
+| [**Répertoire**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
 | [**Dossier2**](folder2-object.md)                       | f0d2d8ef-3890-11d2-bf8b-00c04fb93661 |
 | [**FolderItem**](folderitem.md)                        | 744129E0-CBE5-11CE-8350-444553540000 |
 | [**FolderItems**](folderitems.md)                      | 744129E0-CBE5-11CE-8350-444553540000 |
@@ -263,7 +263,7 @@ Les utilisateurs sont peut-être plus familiarisés avec les commandes auxquelle
 
 ### <a name="security"></a>Sécurité
 
-En tant qu’application, une HTA s’exécute sous un modèle de sécurité différent de celui d’une page Web. Pour interagir avec une page Web qui implémente les fonctionnalités des objets Shell, les utilisateurs doivent activer l’option **initialiser et générer un script des contrôles ActiveX non marqués comme sécurisés** pour la zone de sécurité dans laquelle ils visualisent la page.
+En tant qu’application, une HTA s’exécute sous un modèle de sécurité différent de celui d’une page Web. pour interagir avec une page web qui implémente la fonctionnalité des objets Shell, les utilisateurs doivent activer les **contrôles initialize et script ActiveX qui ne sont pas marqués comme sécurisés** pour la zone de sécurité dans laquelle ils visualisent la page.
 
 ## <a name="folder-objects"></a>Objets de dossier
 
@@ -277,7 +277,7 @@ L’objet [**FolderItem**](folderitem.md) représente un élément dans un dossi
 
 L’objet [**FolderItems**](folderitems.md) représente une collection d’éléments dans un dossier shell. Ses méthodes et propriétés vous permettent de récupérer des informations sur la collection.
 
-L’exemple de Visual Basic suivant montre la relation entre plusieurs objets de dossier et comment ils peuvent être utilisés ensemble. Quand l’utilisateur clique sur le bouton de commande appelé **cmdGetPath**, le programme affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier dans **poste de travail**, où ssfDRIVES est la valeur d’énumération [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) pour **poste de travail**. Quand l’utilisateur choisit un dossier, son chemin d’accès est affiché dans la zone de texte appelée **txtPath**.
+l’exemple de Visual Basic suivant montre la relation entre plusieurs objets de dossier et comment ils peuvent être utilisés ensemble. Quand l’utilisateur clique sur le bouton de commande appelé **cmdGetPath**, le programme affiche une boîte de dialogue qui permet à l’utilisateur de sélectionner un dossier dans **poste de travail**, où ssfDRIVES est la valeur d’énumération [**ShellSpecialFolderConstants**](/windows/desktop/api/Shldisp/ne-shldisp-shellspecialfolderconstants) pour **poste de travail**. Quand l’utilisateur choisit un dossier, son chemin d’accès est affiché dans la zone de texte appelée **txtPath**.
 
 
 ```
@@ -319,7 +319,7 @@ Dans VBScript, cette fonction est légèrement différente, car les valeurs d’
 
 
 
-Dans l’exemple JScript suivant, qui est une traduction directe de l’exemple VBScript précédent, notez la manière dont les parenthèses vides « () » sont utilisées pour appeler les [**méthodes Items et**](folder-items.md) [**Item**](folderitems-item.md) .
+dans l’exemple de JScript suivant, qui est une traduction directe de l’exemple VBScript précédent, notez la manière dont les parenthèses vides « () » sont utilisées pour appeler les [**méthodes items et**](folder-items.md) [**item**](folderitems-item.md) .
 
 
 ```

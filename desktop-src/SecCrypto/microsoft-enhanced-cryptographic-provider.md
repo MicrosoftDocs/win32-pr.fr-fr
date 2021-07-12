@@ -4,12 +4,12 @@ ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Fournisseur de services de chiffrement amélioré Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cadaa0b6325dc7d855aa0b7eeb8d7ff5f114cfd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cf3b3b421e3151811da033e7536f334e3883487
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951248"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581827"
 ---
 # <a name="microsoft-enhanced-cryptographic-provider"></a>Fournisseur de services de chiffrement amélioré Microsoft
 
@@ -17,10 +17,10 @@ Le fournisseur de services de chiffrement amélioré Microsoft, appelé fourniss
 
 Pour assurer la compatibilité descendante avec les versions antérieures du fournisseur, le nom du fournisseur, tel que défini dans le fichier d’en-tête Wincrypt. h, conserve la désignation de la version 1,0. Toutefois, la version 2,0 de ce fournisseur est actuellement commercialisée. Pour déterminer la version du fournisseur en cours d’utilisation, appelez [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) avec l’argument *DwParam* défini sur **pp \_ version**. La version 2,0 est utilisée si 0x0200 est retourné.
 
-|                |                        |
-|----------------|------------------------|
-| Type de fournisseur : | **PROUVER \_ RSA \_ Full**    |
-| Nom du fournisseur : | **\_ \_ Proven avancé ms** |
+|                   | Valeur               |
+|-------------------|---------------------|
+| **Type de fournisseur** | PROUVER \_ RSA \_ Full     |
+| **Nom du fournisseur** | \_ \_ Proven avancé ms  |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: Décrit les méthodes d’ouverture d’un élément du panneau de configuration pour les systèmes Windows Vista et versions ultérieures, ainsi que la couverture des commandes du panneau de configuration héritées.
+description: décrit les méthodes d’ouverture d’un élément du panneau de configuration pour les systèmes Windows Vista et versions ultérieures, ainsi que la couverture des commandes du panneau de configuration héritées.
 ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: Exécution des éléments du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaaac4b782273e0b4444fb2b5b6d3cab0b3599ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 08cb6ae2fa08231d3876e1a5a636e404f519f4a6
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991689"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581757"
 ---
 # <a name="executing-control-panel-items"></a>Exécution des éléments du panneau de configuration
 
@@ -41,7 +41,7 @@ WinExec("c:\windows\system32\control.exe MyCpl.cpl", SW_NORMAL);
 
 
 
-Lorsqu’un élément du panneau de configuration est ouvert par le biais d’une ligne de commande, vous pouvez l’indiquer pour qu’il s’ouvre à un onglet particulier dans l’élément. En raison de l’ajout et de la suppression de certains onglets dans certains éléments du panneau de configuration de Windows Vista, la numérotation des onglets peut avoir changé par rapport à celui de Windows XP. Par exemple, l’exemple suivant lance le quatrième onglet de l’élément système sous Windows XP et le troisième onglet sur Windows Vista.
+Lorsqu’un élément du panneau de configuration est ouvert par le biais d’une ligne de commande, vous pouvez l’indiquer pour qu’il s’ouvre à un onglet particulier dans l’élément. en raison de l’ajout et de la suppression de certains onglets dans certains éléments du panneau de configuration Windows Vista, la numérotation des onglets peut avoir changé par rapport à celui de Windows XP. par exemple, l’exemple suivant lance le quatrième onglet de l’élément système sur Windows XP et le troisième onglet sur Windows Vista.
 
 
 ```
@@ -52,18 +52,18 @@ control.exe sysdm.cpl,,3
 
 Cette rubrique traite des sujets suivants :
 
--   [Noms canoniques Windows Vista](#windows-vista-canonical-names)
--   [Nouvelles commandes pour Windows Vista](#new-commands-for-windows-vista)
+-   [Windows Noms canoniques Vista](#windows-vista-canonical-names)
+-   [nouvelles commandes pour Windows Vista](#new-commands-for-windows-vista)
 -   [Commandes du panneau de configuration héritées](#legacy-control-panel-commands)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="windows-vista-canonical-names"></a>Noms canoniques Windows Vista
+## <a name="windows-vista-canonical-names"></a>Windows Noms canoniques Vista
 
-Dans Windows Vista et versions ultérieures, la méthode recommandée pour lancer un élément du panneau de configuration à partir d’une ligne de commande consiste à utiliser le nom canonique de l’élément du panneau de configuration. Un nom canonique est une chaîne non localisée que l’élément du panneau de configuration déclare dans le registre. La valeur de l’utilisation d’un nom canonique est qu’elle résume le nom de module de l’élément du panneau de configuration. Il est possible d’implémenter un élément dans un fichier. dll et de le réimplémenter ultérieurement en tant que. exe ou de modifier son nom de module. Tant que le nom canonique reste le même, tout programme qui l’ouvre à l’aide de ce nom canonique n’a pas besoin d’être mis à jour.
+dans Windows Vista et versions ultérieures, la méthode recommandée pour lancer un élément du panneau de configuration à partir d’une ligne de commande consiste à utiliser le nom canonique de l’élément du panneau de configuration. Un nom canonique est une chaîne non localisée que l’élément du panneau de configuration déclare dans le registre. La valeur de l’utilisation d’un nom canonique est qu’elle résume le nom de module de l’élément du panneau de configuration. Un élément peut être implémenté dans un .dll et ultérieurement être implémenté en tant que .exe ou modifier son nom de module. Tant que le nom canonique reste le même, tout programme qui l’ouvre à l’aide de ce nom canonique n’a pas besoin d’être mis à jour.
 
 Par Convention, le nom canonique est formé en tant que « CorporationName. ControlPanelItemName ».
 
-L’exemple suivant montre comment une application peut démarrer l’élément du panneau de configuration **Windows Update** avec [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec).
+l’exemple suivant montre comment une application peut démarrer l’élément du panneau de configuration **Windows Update** avec [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec).
 
 
 ```
@@ -80,15 +80,15 @@ Une application peut également implémenter la méthode [**IOpenControlPanel :
 
 Pour obtenir la liste complète des noms canoniques des éléments du panneau de configuration, consultez [noms canoniques des éléments du panneau de configuration](controlpanel-canonical-names.md).
 
-## <a name="new-commands-for-windows-vista"></a>Nouvelles commandes pour Windows Vista
+## <a name="new-commands-for-windows-vista"></a>nouvelles commandes pour Windows Vista
 
-Sur Windows Vista, certaines options qui étaient accessibles par un module. cpl sur Windows XP sont désormais implémentées en tant que fichiers. exe. Cela permet de renforcer la sécurité en permettant aux utilisateurs standard d’être invités à fournir des informations d’identification d’administrateur lors de la tentative de lancement des fichiers. Les options qui ne nécessitent pas de sécurité supplémentaire sont accessibles par les lignes de commande qui ont été utilisées dans Windows XP. La liste suivante répertorie les commandes utilisées dans Windows Vista pour accéder à des onglets spécifiques des éléments du panneau de configuration :
+sur Windows Vista, certaines options qui étaient accessibles par un module .cpl sur Windows XP sont désormais implémentées en tant que fichiers .exe. Cela permet de renforcer la sécurité en permettant aux utilisateurs standard d’être invités à fournir des informations d’identification d’administrateur lors de la tentative de lancement des fichiers. les Options qui ne nécessitent pas de sécurité supplémentaire sont accessibles par les lignes de commande qui ont été utilisées dans Windows XP. la liste suivante répertorie les commandes utilisées dans Windows Vista pour accéder à des onglets spécifiques des éléments du panneau de configuration :
 
-### <a name="personalization"></a>Personnalisation
+### <a name="personalization"></a>Personalization
 
 -   Taille de police et PPP :% windir% \\ system32 \\DpiScaling.exe
--   Résolution d’écran :% windir% \\ system32 \\control.exe desk.cpl, paramètres,@Settings
--   Paramètres d’affichage :% windir% \\ system32 \\control.exe desk.cpl, paramètres,@Settings
+-   résolution d’écran :% windir% \\ system32 \\control.exe desk.cpl, Paramètres,@Settings
+-   paramètres d’affichage :% windir% \\ system32 \\control.exe desk.cpl, Paramètres,@Settings
 -   Thèmes :% windir% \\ system32 \\control.exe desk.cpl, thèmes,@Themes
 -   Économiseur d’écran :% windir% \\ system32 \\control.exe desk.cpl, écran de veille,@screensaver
 -   Multi-Monitor :% windir% \\ system32 \\control.exe desk.cpl, surveiller@Monitor
@@ -111,7 +111,7 @@ Sur Windows Vista, certaines options qui étaient accessibles par un module. cpl
 ### <a name="programs-and-features"></a>Programmes et fonctionnalités
 
 -   Ajout/suppression de programmes :% windir% \\ system32 \\control.exe/name Microsoft. ProgramsAndFeatures
--   Fonctionnalités Windows :% windir% \\ system32 \\OptionalFeatures.exe
+-   fonctionnalités de Windows :% windir% \\ system32 \\OptionalFeatures.exe
 
 ### <a name="regional-and-language-options"></a>Options régionales et linguistiques
 
@@ -131,11 +131,11 @@ Sur Windows Vista, certaines options qui étaient accessibles par un module. cpl
 -   Modifier les paramètres actuels du plan :% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions des pages pagePlanSettings
 -   Paramètres système :% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions des pages pageGlobalSettings
 -   Créer un mode de gestion de l’alimentation :% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions des pages pageCreateNewPlan
--   Il n’existe aucune commande canonique pour la page Paramètres avancés, elle est accessible de la manière précédente :% windir% \\ system32 \\control.exe powercfg.cpl,, 3
+-   il n’existe aucune commande canonique pour la page de Paramètres avancée, elle est accessible de la manière précédente :% windir% \\ system32 \\control.exe powercfg.cpl,, 3
 
 ## <a name="legacy-control-panel-commands"></a>Commandes du panneau de configuration héritées
 
-Lorsque vous utilisez la fonction [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) , le système peut reconnaître des commandes spéciales du panneau de configuration. Ces commandes prédatent Windows Vista.
+Lorsque vous utilisez la fonction [**WinExec**](/windows/win32/api/winbase/nf-winbase-winexec) , le système peut reconnaître des commandes spéciales du panneau de configuration. ces commandes préWindows Vista.
 
 
 
@@ -189,15 +189,15 @@ Les éditions Starter et Basic ne prennent pas en charge cette commande.
 
  
 
-Pour les systèmes Windows 2000 et versions ultérieures :
+pour les systèmes Windows 2000 et versions ultérieures :
 
 
 
-|                            |                                                          |
+| Commande                    | Description                                              |
 |----------------------------|----------------------------------------------------------|
 | Dossiers de control.exe        | Lance la fenêtre **Options des dossiers** .                  |
 | control.exe NetWare        | Lance la fenêtre **Novell NetWare** (si installée).   |
-| Téléphonie control.exe      | Ouvre la fenêtre **options de téléphone et de modem** .         |
+| Téléphonie control.exe      | lance la fenêtre **Options de Téléphone et de Modem** .         |
 | control.exe AdminTools     | Affiche le dossier **Outils d’administration** .            |
 | control.exe schedtasks     | Affiche le dossier **tâches planifiées** .                 |
 | control.exe netconnections | Affiche le dossier **connexions réseau** .             |
@@ -236,7 +236,7 @@ Pour les systèmes Windows 2000 et versions ultérieures :
 [Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration](creating-searchable-task-links.md)
 </dt> <dt>
 
-[Accès au panneau de configuration en mode sans échec sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
+[accès au panneau de configuration en Mode Coffre sous Windows Vista](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

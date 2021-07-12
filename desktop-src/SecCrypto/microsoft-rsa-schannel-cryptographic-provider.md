@@ -4,12 +4,12 @@ ms.assetid: 34ede85a-579f-400f-a53e-e40711fcaaf3
 title: Fournisseur de services de chiffrement Microsoft RSA/Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9420849d62c0b728d8f3dbccc4210de3a1394308
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 782e1971f59911b36c3812a4508530a5e1801194
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951247"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581967"
 ---
 # <a name="microsoft-rsaschannel-cryptographic-provider"></a>Fournisseur de services de chiffrement Microsoft RSA/Schannel
 
@@ -17,10 +17,10 @@ Le fournisseur de services de chiffrement Microsoft [*RSA*](../secgloss/r-gly.md
 
 
 
-|                |                                  |
-|----------------|----------------------------------|
-| Type de fournisseur : | **PROUVER \_ RSA \_ Schannel**          |
-| Nom du fournisseur : | **MS \_ Def \_ RSA \_ Schannel \_ Prov** |
+|                   | Valeur                         |
+|-------------------|-------------------------------|
+| **Type de fournisseur** | PROUVER \_ RSA \_ Schannel           |
+| **Nom du fournisseur** | MS \_ Def \_ RSA \_ Schannel \_ Prov  |
 
 
 

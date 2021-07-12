@@ -4,16 +4,16 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: Schéma de description de la bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bebbd7ed168cd977530ccfeb0b319c33142687
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 0a6da99820e81c55e5d705c72d4d0509ea271a4a
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104973903"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581737"
 ---
 # <a name="library-description-schema"></a>Schéma de description de la bibliothèque
 
-Les fichiers de description de bibliothèque sont des fichiers XML qui définissent des bibliothèques. Les bibliothèques regroupent les éléments des emplacements de stockage locaux et distants dans une vue unique de l’Explorateur Windows. Les fichiers de description de la bibliothèque suivent le schéma de description de la bibliothèque et sont enregistrés en tant que \* fichiers. Library-ms.
+Les fichiers de description de bibliothèque sont des fichiers XML qui définissent des bibliothèques. les bibliothèques regroupent les éléments des emplacements de stockage locaux et distants dans un affichage unique dans Windows Explorer. Les fichiers de description de la bibliothèque suivent le schéma de description de la bibliothèque et sont enregistrés en tant que \* fichiers. Library-ms.
 
 Cette rubrique contient les sections suivantes :
 
@@ -24,15 +24,15 @@ Cette rubrique contient les sections suivantes :
 
 ## <a name="overview-of-the-library-description-schema"></a>Vue d’ensemble du schéma de description de la bibliothèque
 
-Les bibliothèques contiennent des fichiers stockés dans un ou plusieurs emplacements de stockage. Les bibliothèques ne stockent pas réellement ces fichiers ; au lieu de cela, ils surveillent les dossiers qui contiennent les fichiers et permettent aux utilisateurs d’accéder aux fichiers et de les organiser de différentes façons. Par exemple, un utilisateur peut avoir des fichiers musicaux dans plusieurs dossiers sur un disque dur local et également sur un disque dur externe. À l’aide de la **bibliothèque musique**, l’utilisateur peut accéder à tous ces fichiers en même temps et les trier par nom d’artiste ou titre d’album en tant que groupe unique.
+Les bibliothèques contiennent des fichiers stockés dans un ou plusieurs emplacements de stockage. Les bibliothèques ne stockent pas réellement ces fichiers ; au lieu de cela, ils surveillent les dossiers qui contiennent les fichiers et permettent aux utilisateurs d’accéder aux fichiers et de les organiser de différentes façons. Par exemple, un utilisateur peut avoir des fichiers musicaux dans plusieurs dossiers sur un disque dur local et également sur un disque dur externe. à l’aide de la **bibliothèque de Musique**, l’utilisateur peut accéder à tous ces fichiers en même temps et les trier par nom d’artiste ou titre d’album en tant que groupe unique.
 
 Le schéma de description de la bibliothèque se compose de trois parties majeures, décrites dans le tableau suivant :
 
 
 
-|                             |                                                                                                                                                            |
+| Partie                        | Description                                                                                                                                                |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Informations générales sur la bibliothèque | Les informations relatives à la bibliothèque, telles que le nom, le propriétaire, la version, l’icône, que l’Explorateur Windows peut utiliser lorsqu’il affiche la bibliothèque à un utilisateur.                   |
+| Informations générales sur la bibliothèque | informations sur la bibliothèque, telles que le nom, le propriétaire, la version, l’icône, que Windows explorateur peut utiliser lorsqu’il affiche la bibliothèque à un utilisateur.                   |
 | Propriétés de la bibliothèque          | Une ou plusieurs propriétés qui décrivent la bibliothèque. Ces propriétés personnalisées sont spécifiques à la bibliothèque.                                                     |
 | Emplacements de bibliothèque           | Un ou plusieurs connecteurs de recherche qui identifient les emplacements de stockage à inclure dans la bibliothèque. Chacun de ces emplacements peut également avoir un ensemble unique de propriétés. |
 
@@ -40,11 +40,11 @@ Le schéma de description de la bibliothèque se compose de trois parties majeur
 
  
 
-Les fichiers de bibliothèque de Windows 7 sont stockés dans le dossier connu, FOLDERID \_ Libraries. Par défaut, le \_ dossier FOLDERID Libraries se trouve dans% UserProfile% \\ AppData \\ Roaming \\ Microsoft \\ Windows \\ Libraries.
+les fichiers de bibliothèque dans Windows 7 sont stockés dans le dossier connu, FOLDERID \_ libraries. par défaut, le \_ dossier FOLDERID libraries se trouve dans% USERPROFILE% \\ AppData \\ roaming \\ Microsoft \\ Windows \\ libraries.
 
 ## <a name="namespace-versioning"></a>Contrôle de version des espaces de noms
 
-Les versions du format de fichier de description de la bibliothèque ( \* . Library-ms) sont suivies en modifiant l’espace de noms. Pour Windows 7, le format de fichier est l’espace de noms par défaut suivant : https://schemas.microsoft.com/windows/2009/library .
+Les versions du format de fichier de description de la bibliothèque ( \* . Library-ms) sont suivies en modifiant l’espace de noms. pour Windows 7, le format de fichier est l’espace de noms par défaut suivant : https://schemas.microsoft.com/windows/2009/library .
 
 Toutefois, les versions du contenu de la bibliothèque sont suivies à l’aide [<version>](schema-library-version.md) de l’élément dans un fichier de description de bibliothèque spécifique.
 

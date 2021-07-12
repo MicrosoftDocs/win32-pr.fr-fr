@@ -4,12 +4,12 @@ ms.assetid: 0361b7da-bfb3-4880-b982-85d2fe419805
 title: Comment personnaliser des dossiers avec Desktop.ini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaac3e6a96257e63b5e4210da0aa6e6e1db77eaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a671b169c4b025683cdd220ee3a920b4d592488
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560697"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581747"
 ---
 # <a name="how-to-customize-folders-with-desktopini"></a>Comment personnaliser des dossiers avec Desktop.ini
 
@@ -31,12 +31,11 @@ Les dossiers s’affichent normalement avec l’icône de dossier standard. Le f
 
 Le fichier Desktop.ini est un fichier texte qui vous permet de spécifier le mode d’affichage d’un dossier de système de fichiers. \[. \]La section ShellClassInfo vous permet de personnaliser l’affichage du dossier en affectant des valeurs à plusieurs entrées :
 
-|                   |                                                                                                                                                                                                                                                                                                                                                                                |
+| Valeur             | Description                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Entrée**         | **Valeur**                                                                                                                                                                                                                                                                                                                                                                      |
 | **ConfirmFileOp** | Affectez la valeur 0 à cette entrée pour éviter l’avertissement « vous supprimez un dossier système » lors de la suppression ou du déplacement du dossier.                                                                                                                                                                                                                                                                  |
-| **Nopartage**     | Non pris en charge sous Windows Vista ou version ultérieure. Définissez cette entrée sur 1 pour empêcher le partage du dossier.                                                                                                                                                                                                                                                                       |
-| **IconFile**      | Si vous souhaitez spécifier une icône personnalisée pour le dossier, définissez cette entrée sur le nom de fichier de l’icône. L’extension de nom de fichier. ico est préférable, mais il est également possible de spécifier des fichiers. bmp ou. exe et. dll qui contiennent des icônes. Si vous utilisez un chemin d’accès relatif, l’icône est disponible pour les personnes qui consultent le dossier sur le réseau. Vous devez également définir l’entrée **IndexIcône** . |
+| **Nopartage**     | non pris en charge sous Windows Vista ou version ultérieure. Définissez cette entrée sur 1 pour empêcher le partage du dossier.                                                                                                                                                                                                                                                                       |
+| **IconFile**      | Si vous souhaitez spécifier une icône personnalisée pour le dossier, définissez cette entrée sur le nom de fichier de l’icône. L’extension de nom de fichier. ico est préférable, mais il est également possible de spécifier des fichiers .bmp, ou .exe et les fichiers .dll qui contiennent des icônes. Si vous utilisez un chemin d’accès relatif, l’icône est disponible pour les personnes qui consultent le dossier sur le réseau. Vous devez également définir l’entrée **IndexIcône** . |
 | **IndexIcône**     | Définissez cette entrée pour spécifier l’index d’une icône personnalisée. Si le fichier affecté à **IconFile** ne contient qu’une seule icône, définissez **IndexIcône** sur 0.                                                                                                                                                                                                                               |
 | **InfoTip**       | Définissez cette entrée sur une chaîne de texte informatif. Elle s’affiche sous la forme d’une info-bulle lorsque le curseur pointe sur le dossier. Si l’utilisateur clique sur le dossier, le texte d’information s’affiche dans le bloc d’informations du dossier, sous les informations standard.                                                                                                                      |
 
@@ -44,7 +43,7 @@ Le fichier Desktop.ini est un fichier texte qui vous permet de spécifier le mod
 
  
 
-Les illustrations suivantes sont du dossier Music avec un fichier de Desktop.ini personnalisé. Le dossier maintenant :
+les illustrations suivantes se trouvent dans le dossier Musique avec un fichier Desktop.ini personnalisé. Le dossier maintenant :
 
 -   A une icône personnalisée.
 -   N’affiche pas d’avertissement « vous supprimez un dossier système » si le dossier est déplacé ou supprimé.
@@ -63,7 +62,7 @@ L’icône personnalisée remplace l’icône de dossier partout où le nom du d
 
 ![capture d’écran de l’icône personnalisée qui remplace l’icône de dossier](images/webview5.jpg)
 
-Le fichier desktop.ini suivant a été utilisé pour personnaliser le dossier musique, comme indiqué dans les illustrations précédentes.
+le fichier desktop.ini suivant a été utilisé pour personnaliser le dossier Musique, comme indiqué dans les illustrations précédentes.
 
 
 ```

@@ -4,12 +4,12 @@ ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: Objet de données de Shell
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 812e5c18f5a2120fbf22682c6e768dc005128630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69a6c411310b6c9e9f28df4de048d3b6909c44b9
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201270"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581627"
 ---
 # <a name="shell-data-object"></a>Objet de données de Shell
 
@@ -64,7 +64,7 @@ La structure [**FORMATETC**](/windows/win32/api/objidl/ns-objidl-formatetc) est 
 -   L’interpréteur de commandes utilise le membre **Lindex** avec son format [CFSTR \_ FILECONTENTS](clipboard.md) pour permettre à un objet de données de contenir plus d’un élément de données par format. Pour plus d’informations sur l’utilisation de ce format, consultez la section *utilisation du \_ format CFSTR FILECONTENTS pour extraire des données d’un fichier dans* [gestion des scénarios de Shell transfert de données](datascenarios.md).
 -   Le membre **dwAspect** est généralement défini sur le \_ contenu DVASPECT. Toutefois, il existe trois valeurs définies dans shlobj. h qui peuvent être utilisées pour le transfert de données d’interpréteur de commandes. 
 
-    |                     |                                                                                                   |
+    | Valeur               | Description                                                                                       |
     |---------------------|---------------------------------------------------------------------------------------------------|
     | \_copie DVASPECT      | Permet d’indiquer que le format représente une copie des données.                                   |
     | \_lien DVASPECT      | Permet d’indiquer que le format représente un raccourci vers les données.                               |

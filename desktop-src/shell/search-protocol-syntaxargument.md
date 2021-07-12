@@ -1,17 +1,17 @@
 ---
 description: L’argument de syntaxe vous permet d’identifier la syntaxe de votre requête. Les valeurs autorisées sont une syntaxe de requête naturelle (NQS) ou une syntaxe de requête avancée (AQS). AQS est la valeur par défaut et est toujours supposée être analysée et prise en charge.
 ms.assetid: cd439a29-4908-47af-b3f7-3794bd65db7c
-title: Argument de syntaxe (shell Windows)
+title: Argument de syntaxe (Shell Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5957dca03434d7ad2b469adfd1634a80b0155492
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cb7607718d46677284ac09eca005bb95be3525e
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991740"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581787"
 ---
-# <a name="syntax-argument-the-windows-shell"></a>Argument de syntaxe (shell Windows)
+# <a name="syntax-argument-the-windows-shell"></a>Argument de syntaxe (Shell Windows)
 
 L' `syntax` argument vous permet d’identifier la syntaxe de votre requête. Les valeurs autorisées sont une syntaxe de requête naturelle (NQS) ou une syntaxe de requête avancée (AQS). AQS est la valeur par défaut et est toujours supposée être analysée et prise en charge.
 
@@ -25,9 +25,9 @@ search:query=from:paolo&syntax=AQS
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| Système d’exploitation minimal | Windows Vista Service Pack 1 (SP1) |
+|                              | Valeur                                   |
+|------------------------------|-----------------------------------------|
+| **Système d’exploitation minimal** | Windows Vista Service Pack 1 (SP1) |
 
 
 

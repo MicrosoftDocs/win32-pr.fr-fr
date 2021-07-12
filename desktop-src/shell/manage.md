@@ -4,12 +4,12 @@ ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: Gestion du système de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 404b456ce1f26c128e6c3fc3bc9971672378a0d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0f3b47e17e691c540a9775f3b8588b311b9878
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317949"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581617"
 ---
 # <a name="managing-the-file-system"></a>Gestion du système de fichiers
 
@@ -17,7 +17,7 @@ L’interpréteur de commandes offre plusieurs moyens de gérer les systèmes de
 
 -   Les documents HTML peuvent être *connectés* à des fichiers associés, tels que des fichiers graphiques ou des feuilles de style. Lorsque le document est déplacé ou copié, les fichiers connectés sont également déplacés ou copiés automatiquement.
 -   Pour les systèmes qui sont disponibles pour plusieurs utilisateurs, les fichiers peuvent être gérés par utilisateur. Les utilisateurs ont facilement accès à leurs fichiers de données, mais pas aux fichiers appartenant à d’autres utilisateurs.
--   Si des fichiers de document sont ajoutés ou modifiés, ils peuvent être ajoutés à la liste des documents récents de l’interpréteur de commandes. Quand l’utilisateur clique sur la commande **documents** dans le menu Démarrer, une liste de liens vers les documents s’affiche.
+-   Si des fichiers de document sont ajoutés ou modifiés, ils peuvent être ajoutés à la liste des documents récents de l’interpréteur de commandes. quand l’utilisateur clique sur la commande **documents** du menu Démarrer, une liste de liens vers les documents s’affiche.
 
 Ce document décrit le fonctionnement de ces technologies de gestion de fichiers. Il décrit ensuite comment utiliser l’interpréteur de commandes pour déplacer, copier, renommer et supprimer des fichiers, et comment gérer des objets dans la corbeille.
 
@@ -31,7 +31,7 @@ Ce document décrit le fonctionnement de ces technologies de gestion de fichiers
 
 ## <a name="per-user-file-management"></a>Gestion de fichiers Per-User
 
-L’interpréteur de commandes Windows 2000 permet à des fichiers d’être associés à un utilisateur particulier, de sorte que les fichiers restent masqués pour les autres utilisateurs. En termes de système de fichiers, les fichiers sont stockés dans le dossier de profil de l’utilisateur, généralement C : \\ Documents and Settings \\ *username* \\ sur les systèmes Windows 2000. Cette fonctionnalité permet à de nombreuses personnes d’utiliser le même ordinateur, tout en préservant la confidentialité de leurs fichiers d’autres utilisateurs. Différents utilisateurs peuvent avoir différents programmes disponibles. Il offre également un moyen simple aux administrateurs et aux applications de stocker des éléments tels que les fichiers d’initialisation (. ini) ou de lien (. lnk). Les applications peuvent donc conserver un état différent pour chaque utilisateur et récupérer facilement cet état particulier en cas de besoin. Il existe également un dossier de profil pour stocker des informations qui sont communes à tous les utilisateurs.
+l’interpréteur de commandes Windows 2000 permet à des fichiers d’être associés à un utilisateur particulier, de sorte que les fichiers restent masqués pour les autres utilisateurs. en termes de système de fichiers, les fichiers sont stockés dans le dossier de profil de l’utilisateur, en général C : \\ Documents et Paramètres \\ *nom d’utilisateur* \\ sur Windows systèmes 2000. Cette fonctionnalité permet à de nombreuses personnes d’utiliser le même ordinateur, tout en préservant la confidentialité de leurs fichiers d’autres utilisateurs. Différents utilisateurs peuvent avoir différents programmes disponibles. Il offre également un moyen simple aux administrateurs et aux applications de stocker des éléments tels que les fichiers d’initialisation (.ini) ou de lien (. lnk). Les applications peuvent donc conserver un état différent pour chaque utilisateur et récupérer facilement cet état particulier en cas de besoin. Il existe également un dossier de profil pour stocker des informations qui sont communes à tous les utilisateurs.
 
 Étant donné qu’il est peu commode de déterminer quel utilisateur est connecté et où se trouvent ses fichiers, les dossiers par utilisateur standard sont des dossiers spéciaux et sont identifiés par un [**CSIDL**](csidl.md). Par exemple, le CSIDL pour le dossier Program Files par utilisateur est programmes CSIDL \_ . Si votre application appelle [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) ou [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) avec l’un des CSIDLs par utilisateur, la fonction retourne le pointeur vers une liste d’identificateurs d’éléments (PIDL) ou un chemin d’accès approprié à l’utilisateur actuellement connecté. Si votre application doit récupérer le chemin d’accès ou le PIDL du dossier du profil, son CSIDL est un **\_ Profil CSIDL**.
 
@@ -39,7 +39,7 @@ L’interpréteur de commandes Windows 2000 permet à des fichiers d’être ass
 
 L’une des icônes standard se trouvant sur le bureau est **Mes documents**. Lorsque vous ouvrez ce dossier, il contient les fichiers de document de l’utilisateur actuel. L’instance de bureau de mes documents est un dossier virtuel (un alias vers l’emplacement du système de fichiers utilisé pour stocker physiquement les documents de l’utilisateur) situé juste sous le bureau dans la hiérarchie de l’espace de noms.
 
-L’objectif des dossiers Mes documents et mes images est de fournir une méthode simple et sécurisée permettant aux utilisateurs d’accéder à leurs fichiers de documents et d’images sur un système qui peut avoir plusieurs utilisateurs. Des dossiers de système de fichiers distincts sont attribués à chaque utilisateur pour ses fichiers. Par exemple, l’emplacement du dossier Documents d’un utilisateur dans le système de fichiers est généralement semblable à C : \\ Documents and Settings \\ *username* \\ My documents. Les utilisateurs n’ont pas besoin de connaître l’emplacement physique de leurs dossiers de système de fichiers. Ils accèdent simplement à leurs fichiers via l’icône Mes documents.
+L’objectif des dossiers Mes documents et mes images est de fournir une méthode simple et sécurisée permettant aux utilisateurs d’accéder à leurs fichiers de documents et d’images sur un système qui peut avoir plusieurs utilisateurs. Des dossiers de système de fichiers distincts sont attribués à chaque utilisateur pour ses fichiers. par exemple, l’emplacement du dossier documents d’un utilisateur dans le système de fichiers est généralement le suivant : C : \\ documents et Paramètres \\ *username* \\ My documents. Les utilisateurs n’ont pas besoin de connaître l’emplacement physique de leurs dossiers de système de fichiers. Ils accèdent simplement à leurs fichiers via l’icône Mes documents.
 
 > [!Note]  
 > Mes documents permet à un utilisateur d’accéder à ses propres fichiers, mais pas à ceux d’autres utilisateurs. Si plusieurs personnes utilisent le même ordinateur, un administrateur peut verrouiller les utilisateurs de la partie du système de fichiers où sont stockés les fichiers réels. Les utilisateurs pourront ainsi travailler sur leurs propres documents par le biais du dossier Mes documents, mais pas sur des documents appartenant à d’autres utilisateurs.
@@ -66,22 +66,96 @@ Si votre application a besoin d’accéder au dossier réel du système de fichi
 
 ## <a name="connected-files"></a>Fichiers connectés
 
-Les documents HTML ont souvent plusieurs fichiers graphiques associés, un fichier de feuille de style, plusieurs fichiers Microsoft JScript (compatibles avec la spécification de langage ECMA 262), et ainsi de suite. Lorsque vous déplacez ou copiez le document HTML principal, vous souhaitez également déplacer ou copier les fichiers associés afin d’éviter de rompre les liens. Malheureusement, il n’existait aucun moyen simple de déterminer quels fichiers sont associés à un document HTML donné, à l’exception de l’analyse de leur contenu. Pour pallier ce problème, Windows 2000 fournit un moyen simple de *connecter* un document HTML primaire à son groupe de fichiers associés. Si la connexion de fichiers est activée, lorsque le document est déplacé ou copié, tous ses fichiers connectés y sont associés.
+les documents HTML ont souvent plusieurs fichiers graphiques associés, un fichier de feuille de style, plusieurs JScript Microsoft (compatibles avec les fichiers de spécification de langage ECMA 262), et ainsi de suite. Lorsque vous déplacez ou copiez le document HTML principal, vous souhaitez également déplacer ou copier les fichiers associés afin d’éviter de rompre les liens. Malheureusement, il n’existait aucun moyen simple de déterminer quels fichiers sont associés à un document HTML donné, à l’exception de l’analyse de leur contenu. pour pallier ce problème, Windows 2000 fournit un moyen simple de *connecter* un document HTML primaire à son groupe de fichiers associés. Si la connexion de fichiers est activée, lorsque le document est déplacé ou copié, tous ses fichiers connectés y sont associés.
 
-Pour créer un groupe de fichiers connectés, le document principal doit avoir une extension de nom de fichier. htm ou. html. Créez un sous-dossier du dossier parent du document principal. Le nom du sous-dossier doit être le nom du document principal, moins l’extension. htm ou. html, suivie de l’une des extensions listées ci-dessous. Les extensions les plus couramment utilisées sont « . Files » ou « \_ files ». Par exemple, si le document principal est nommé MyDoc.htm, le fait de nommer le sous-dossier « \_ fichiers MyDoc » définit le sous-dossier comme le conteneur des fichiers connectés du document. Si le document principal est déplacé ou copié, le sous-dossier et ses fichiers sont également déplacés ou copiés.
+Pour créer un groupe de fichiers connectés, le document principal doit avoir une extension de nom de fichier .htm ou .html. Créez un sous-dossier du dossier parent du document principal. Le nom du sous-dossier doit être le nom du document principal, moins le .htm ou .html extension, suivis de l’une des extensions listées ci-dessous. Les extensions les plus couramment utilisées sont « . Files » ou « \_ files ». Par exemple, si le document principal est nommé MyDoc.htm, le fait de nommer le sous-dossier « \_ fichiers MyDoc » définit le sous-dossier comme le conteneur des fichiers connectés du document. Si le document principal est déplacé ou copié, le sous-dossier et ses fichiers sont également déplacés ou copiés.
 
 Pour certaines langues, il est possible d’utiliser un équivalent localisé de « \_ files » pour créer un sous-dossier pour les fichiers connectés. Le tableau suivant répertorie les chaînes valides qui peuvent être ajoutées à un nom de document pour créer un sous-dossier de fichiers connectés. Notez que certaines de ces chaînes ont « - » comme premier caractère plutôt que « \_ » ou « . ».
 
 
 
-|              |               |                 |               |
-|--------------|---------------|-----------------|---------------|
-| « \_ Archivos » | « \_ Arquivos »  | « \_ debout »   | « \_ Bylos »     |
-| "-Dateien"   | « \_ datoteke »  | « \_ dosyalar »    | « \_ elemei »    |
-| « \_ failid »   | « \_ échec »     | « \_ fajlovi »     | « \_ ficheiros » |
-| « \_ fichier » | « -du serveur de fichiers »      | ". Files"        | « \_ fichiers »     |
-| « \_ fichier »     | « \_ fitxers »   | « \_ fitxategiak » | « \_ pliki »     |
-| « \_ Soubory »  | « \_ tiedostot » |                 |               |
+:::row:::
+   :::column span="":::
+      « \_ Archivos »
+   :::column-end:::
+   :::column span="":::
+      « \_ Arquivos »
+   :::column-end:::
+   :::column span="":::
+      « \_ debout »
+   :::column-end:::
+   :::column span="":::
+      « \_ Bylos »
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "-Dateien"
+   :::column-end:::
+   :::column span="":::
+      « \_ datoteke »
+   :::column-end:::
+   :::column span="":::
+      « \_ dosyalar »
+   :::column-end:::
+   :::column span="":::
+      « \_ elemei »
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      « \_ failid »
+   :::column-end:::
+   :::column span="":::
+      « \_ échec »
+   :::column-end:::
+   :::column span="":::
+      « \_ fajlovi »
+   :::column-end:::
+   :::column span="":::
+      « \_ ficheiros »
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      « \_ fichier »
+   :::column-end:::
+   :::column span="":::
+      « -du serveur de fichiers »
+   :::column-end:::
+   :::column span="":::
+      ". Files"
+   :::column-end:::
+   :::column span="":::
+      « \_ fichiers »
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      « \_ fichier »
+   :::column-end:::
+   :::column span="":::
+      « \_ fitxers »
+   :::column-end:::
+   :::column span="":::
+      « \_ fitxategiak »
+   :::column-end:::
+   :::column span="":::
+      « \_ pliki »
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      « \_ Soubory »
+   :::column-end:::
+   :::column span="":::
+      « \_ tiedostot »
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+:::row-end:::
 
 
 
@@ -237,9 +311,9 @@ Une fois l’énumération terminée, l’application assigne des valeurs à une
 
 ## <a name="adding-files-to-the-shells-list-of-recent-documents"></a>Ajout de fichiers à la liste des documents récents de l’interpréteur de commandes
 
-L’interpréteur de commandes gère une liste de documents récemment ajoutés ou modifiés pour chaque utilisateur. L’utilisateur peut afficher une liste de liens vers ces fichiers en cliquant sur documents dans le menu Démarrer. Comme avec mes documents, chaque utilisateur dispose d’un répertoire de système de fichiers pour stocker les liens réels. Pour récupérer le PIDL de l’annuaire récent de l’utilisateur actuel, votre application peut appeler [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) avec CSIDL \_ récent ou appeler [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) pour récupérer son chemin d’accès.
+L’interpréteur de commandes gère une liste de documents récemment ajoutés ou modifiés pour chaque utilisateur. l’utilisateur peut afficher une liste de liens vers ces fichiers en cliquant sur Documents sur le menu Démarrer. Comme avec mes documents, chaque utilisateur dispose d’un répertoire de système de fichiers pour stocker les liens réels. Pour récupérer le PIDL de l’annuaire récent de l’utilisateur actuel, votre application peut appeler [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) avec CSIDL \_ récent ou appeler [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) pour récupérer son chemin d’accès.
 
-Votre application peut énumérer le contenu du dossier récent à l’aide des techniques présentées plus haut dans ce document. Toutefois, une application ne doit pas modifier le contenu du dossier comme s’il s’agissait d’un dossier de système de fichiers normal. Si c’est le cas, la liste des documents récents de l’interpréteur de commandes ne sera pas mise à jour correctement et les modifications ne seront pas reflétées dans le menu Démarrer. Au lieu de cela, pour ajouter un lien de document au dossier récent d’un utilisateur, votre application peut appeler [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). L’interpréteur de commandes ajoutera un lien au dossier du système de fichiers approprié et mettra à jour sa liste de documents récents et le menu Démarrer. Vous pouvez également utiliser cette fonction pour effacer le dossier.
+Votre application peut énumérer le contenu du dossier récent à l’aide des techniques présentées plus haut dans ce document. Toutefois, une application ne doit pas modifier le contenu du dossier comme s’il s’agissait d’un dossier de système de fichiers normal. si c’est le cas, la liste des documents récents de l’interpréteur de commandes ne sera pas mise à jour correctement et les modifications ne seront pas reflétées dans la menu Démarrer. Au lieu de cela, pour ajouter un lien de document au dossier récent d’un utilisateur, votre application peut appeler [**SHAddToRecentDocs**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shaddtorecentdocs). l’interpréteur de commandes ajoute un lien au dossier du système de fichiers approprié et met à jour sa liste de documents récents et le menu Démarrer. Vous pouvez également utiliser cette fonction pour effacer le dossier.
 
  
 

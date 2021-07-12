@@ -1,5 +1,5 @@
 ---
-description: Les tableaux de ce document répertorient les fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows Millennium Edition (Windows Me).
+description: les tables de ce document contiennent des fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows millennium edition (Windows Me).
 title: Fonctions de wrapper SHLWAPI
 ms.topic: reference
 ms.date: 05/31/2018
@@ -83,37 +83,37 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6d928228873b893228c7fddc22fc1ca29ca511cd
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 7c166e005c9bcc9efe68fee926c9fa9c2a4f4e7e
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549751"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581767"
 ---
 # <a name="shlwapi-wrapper-functions"></a>Fonctions de wrapper SHLWAPI
 
-\[Ces fonctions sont disponibles via Windows XP Service Pack 2 (SP2) et Windows Server 2003. Ils peuvent être modifiés ou non disponibles dans les versions ultérieures de Windows.\]
+\[ces fonctions sont disponibles via Windows XP Service Pack 2 (SP2) et Windows Server 2003. Ils peuvent être modifiés ou non disponibles dans les versions ultérieures de Windows.\]
 
-Les tableaux de ce document répertorient les fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows Millennium Edition (Windows Me).
+les tables de ce document contiennent des fonctions de wrapper de Shlwapi.dll qui fournissent des fonctionnalités Unicode limitées à Windows 95, Windows 98 et Windows millennium edition (Windows Me).
 
-Windows 95, Windows 98 et Windows Millennium Edition (Windows Me) sont appelés « plateformes ANSI natives » ici. Sur les plateformes ANSI natives, ces fonctions wrapper convertissent les paramètres de chaîne d’entrée Unicode en ANSI et appellent les versions ANSI des fonctions dans la colonne **transferts vers** . Par exemple, **AppendMenuWrapW** appelle **AppendMenuA**, qui est la version ANSI de [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). Les autres fonctions suivent le même modèle. Toute chaîne retournée par la fonction ANSI est convertie en Unicode et retournée à l’application appelante. Hormis les exceptions notées dans la colonne **Remarques** , la fonction wrapper a la même syntaxe et fournit les mêmes fonctionnalités que la fonction dans la colonne **transférer vers** . Pour plus d’informations sur l’utilisation, reportez-vous à cette page de référence.
+Windows 95, Windows 98 et Windows Millennium edition (Windows Me) sont désignés ici comme « plateformes ANSI natives ». Sur les plateformes ANSI natives, ces fonctions wrapper convertissent les paramètres de chaîne d’entrée Unicode en ANSI et appellent les versions ANSI des fonctions dans la colonne **transferts vers** . Par exemple, **AppendMenuWrapW** appelle **AppendMenuA**, qui est la version ANSI de [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). Les autres fonctions suivent le même modèle. Toute chaîne retournée par la fonction ANSI est convertie en Unicode et retournée à l’application appelante. Hormis les exceptions notées dans la colonne **Remarques** , la fonction wrapper a la même syntaxe et fournit les mêmes fonctionnalités que la fonction dans la colonne **transférer vers** . Pour plus d’informations sur l’utilisation, reportez-vous à cette page de référence.
 
 **Avertissement de sécurité :** Plusieurs chaînes Unicode peuvent être converties en une même chaîne ANSI. Des collisions inattendues après la conversion peuvent entraîner un comportement inattendu. Par exemple, si **CreateEventWrapW** est utilisé pour créer deux événements de nom différent dont les noms correspondent après la conversion d’Unicode en ANSI, le deuxième appel renverra un handle au même événement que le premier appel, même si les chaînes Unicode d’origine étaient différentes.
 
-Les systèmes d’exploitation Microsoft Windows NT, Windows 2000, Windows XP, Windows Server 2003 et versions ultérieures sont appelés « plateformes Unicode natives ». Pour l’essentiel, sur les plateformes Unicode natives, ces fonctions wrapper transfèrent simplement des paramètres de chaîne d’entrée à la version Unicode de la fonction dans la colonne **forwards to** . Par exemple, **AppendMenuWrapW** est transféré à **AppendMenuW**, qui est la version Unicode de [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). Les autres fonctions suivent le même modèle. Toutes les chaînes retournées par la fonction Unicode sont retournées à l’application appelante. Hormis les exceptions notées dans la colonne **Remarques** , la fonction wrapper a la même syntaxe et fournit les mêmes fonctionnalités que la fonction dans la colonne **transférer vers** . Pour plus d’informations sur l’utilisation, reportez-vous à cette page de référence.
+les systèmes d’exploitation Microsoft Windows NT, Windows 2000, Windows XP, Windows Server 2003 et versions ultérieures sont appelés « plateformes Unicode natives ». Pour l’essentiel, sur les plateformes Unicode natives, ces fonctions wrapper transfèrent simplement des paramètres de chaîne d’entrée à la version Unicode de la fonction dans la colonne **forwards to** . Par exemple, **AppendMenuWrapW** est transféré à **AppendMenuW**, qui est la version Unicode de [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua). Les autres fonctions suivent le même modèle. Toutes les chaînes retournées par la fonction Unicode sont retournées à l’application appelante. Hormis les exceptions notées dans la colonne **Remarques** , la fonction wrapper a la même syntaxe et fournit les mêmes fonctionnalités que la fonction dans la colonne **transférer vers** . Pour plus d’informations sur l’utilisation, reportez-vous à cette page de référence.
 
 **Avertissement de sécurité :** Les problèmes de sécurité signalés pour les fonctions de la colonne **transferts vers** s’appliquent également aux fonctions wrapper correspondantes. Pour plus d’informations, consultez la documentation de référence pour la fonction dans la colonne **transfert vers** .
 
 Les fonctions wrapper dans ce tableau sont toutes contenues dans Shlwapi.dll. Pour les appeler, vous devez utiliser l’ordinal indiqué dans le tableau.
 
 > [!Note]  
-> Ces fonctions wrapper sont disponibles sur Windows XP, mais ne fournissent pas de fonctionnalité de wrapper dans Windows XP Service Pack 2 (SP2) et versions ultérieures. Ils ne fournissent pas non plus de fonctionnalité de wrapper dans Windows Server 2003. Vous devez utiliser les fonctions indiquées dans la colonne **transférer vers à** la place.
+> ces fonctions wrapper sont disponibles sur Windows xp, mais ne fournissent pas de fonctionnalité de wrapper dans Windows xp Service Pack 2 (SP2) et versions ultérieures. ils ne fournissent pas non plus de fonctionnalité de wrapper dans Windows Server 2003. Vous devez utiliser les fonctions indiquées dans la colonne **transférer vers à** la place.
 
  
 
 
 
-| Function                  | Ordinal | Transférer à                                             | DLL      | Remarques                                                                                                                             |
+| Fonction                  | Ordinal | Transférer à                                             | DLL      | Notes                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32   | [(a)](#shlwapi-wrapper-functions), [(f)](#dragqueryfile), [(menu)](#menu)                                                           |
 | CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32   | [cliqu](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,7 +187,7 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
 
 
-| Function                     | Ordinal | Transférer à                                                                     | DLL      | Remarques                                                                        |
+| Fonction                     | Ordinal | Transférer à                                                                     | DLL      | Notes                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32 | [manutention](#shlwapi-wrapper-functions)                                              |
@@ -200,7 +200,7 @@ Les fonctions wrapper dans le tableau suivant n’effectuent pas de conversion d
 
  
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 ### <a name="a"></a>un
 
@@ -212,7 +212,7 @@ La couche Microsoft pour Unicode (MSLU) recherche des erreurs lors de la convers
 
 ### <a name="b"></a>p
 
-Ces fonctions utilisent un lien à chargement différé vers la fonction appropriée. Cela signifie que la DLL qui contient la fonction dans la colonne « Forwarders to » n’est pas chargée par le Shlwapi.dll jusqu’à ce qu’une fonction de cette DLL soit appelée. L’éditeur de liens Microsoft Visual C++ prend en charge cette fonctionnalité plus généralement via l’option/DELAYLOAD.
+Ces fonctions utilisent un lien à chargement différé vers la fonction appropriée. Cela signifie que la DLL qui contient la fonction dans la colonne « Forwarders to » n’est pas chargée par le Shlwapi.dll jusqu’à ce qu’une fonction de cette DLL soit appelée. l’éditeur de liens Microsoft Visual C++ prend en charge cette fonctionnalité plus généralement via l’option/delayload.
 
 ### <a name="c"></a>secteur
 
@@ -232,7 +232,7 @@ Les implémentations Unicode complètes de ces fonctions sont disponibles sur le
 
 ### <a name="f"></a>FA
 
-Si la langue de l’interface utilisateur par défaut de l’utilisateur utilise un autre jeu de caractères que la langue de l’interface utilisateur par défaut du système, le système tente de réécrire les contrôles des modèles et des sous-classes de boîtes de dialogue et de convertir les éléments de menu en owner-draw, afin que les chaînes de la langue de l’interface utilisateur par défaut continuent à s’afficher correctement Les seuls contrôles pris en charge par les règles de réécriture du modèle de boîte de dialogue sont les contrôles static, Button, ListBox et ComboBox. Ces contrôles sont sous-classés de sorte que la fonction **SendMessageWrapW** peut obtenir la chaîne Unicode d’origine sans être traduite par le jeu de caractères ANSI. Contrairement à la plupart des autres fonctions wrapper, celles-ci sont fonctionnelles sur Microsoft Windows NT 4,0, ainsi que sur les plateformes ANSI natives. Consultez les notes dans la documentation de la fonction [**MLLoadLibrary**](./callbacks.md) pour plus d’informations sur la façon dont la langue de l’interface utilisateur par défaut de l’utilisateur et la langue de l’interface utilisateur par défaut du système sont déterminées.
+Si la langue de l’interface utilisateur par défaut de l’utilisateur utilise un autre jeu de caractères que la langue de l’interface utilisateur par défaut du système, le système tente de réécrire les contrôles des modèles et des sous-classes de boîtes de dialogue et de convertir les éléments de menu en owner-draw, afin que les chaînes de la langue de l’interface utilisateur par défaut continuent à s’afficher correctement Les seuls contrôles pris en charge par les règles de réécriture du modèle de boîte de dialogue sont les contrôles static, Button, ListBox et ComboBox. Ces contrôles sont sous-classés de sorte que la fonction **SendMessageWrapW** peut obtenir la chaîne Unicode d’origine sans être traduite par le jeu de caractères ANSI. Contrairement à la plupart des autres fonctions wrapper, celles-ci sont fonctionnelles sur Microsoft Windows NT 4,0 et les plateformes ANSI natives. Consultez les notes dans la documentation de la fonction [**MLLoadLibrary**](./callbacks.md) pour plus d’informations sur la façon dont la langue de l’interface utilisateur par défaut de l’utilisateur et la langue de l’interface utilisateur par défaut du système sont déterminées.
 
 ### <a name="g"></a>activée
 
@@ -242,7 +242,7 @@ Lors de la conversion d’ANSI en Unicode pour la sortie, si la chaîne retourn�
 
 ### <a name="h"></a>manutention
 
-Sur les systèmes antérieurs à Windows XP, ces fonctions implémentent un pool de threads simplifié et une file d’attente du minuteur. Sur Windows XP et versions ultérieures, ces fonctions utilisent le pool de threads système et la file d’attente du minuteur système. Pour les fonctions de file d’attente du minuteur, le paramètre *hQueue* doit avoir la valeur **null** pour indiquer que l’opération doit être effectuée sur la file d’attente du minuteur par défaut.
+sur les systèmes antérieurs à Windows XP, ces fonctions implémentent un pool de threads simplifié et une file d’attente du minuteur. sur Windows XP et versions ultérieures, ces fonctions utilisent le pool de threads système et la file d’attente du minuteur système. Pour les fonctions de file d’attente du minuteur, le paramètre *hQueue* doit avoir la valeur **null** pour indiquer que l’opération doit être effectuée sur la file d’attente du minuteur par défaut.
 
 ### <a name="i"></a>cliqu
 
@@ -272,7 +272,7 @@ N’oubliez pas que sur les plateformes ANSI natives, les deux chaînes sont con
 
 ### <a name="datetime"></a>(DateTime)
 
-Sur Shlwapi.dll version 5,0, fournie avec Windows 2000, la page de codes de l’identificateur de paramètres régionaux que vous transmettez comme premier paramètre de **GetDateFormatWrapW** et **GetTimeFormatWrapW** doit correspondre à la page de codes ANSI actuelle. Dans le cas contraire, la chaîne retournée peut être convertie de manière incorrecte. Cette limitation ne s’applique pas à Shlwapi.dll versions 5,5 ou ultérieures. Cela signifie que les systèmes Windows XP et versions ultérieures ne sont pas soumis à cette limitation. Le MSLU n’a pas cette limitation.
+sur Shlwapi.dll version 5,0, fournie avec Windows 2000, la page de codes de l’identificateur de paramètres régionaux que vous transmettez comme premier paramètre de **GetDateFormatWrapW** et de **GetTimeFormatWrapW** doit correspondre à la page de codes ANSI actuelle. Dans le cas contraire, la chaîne retournée peut être convertie de manière incorrecte. Cette limitation ne s’applique pas à Shlwapi.dll versions 5,5 ou ultérieures. cela signifie que les systèmes Windows XP et versions ultérieures ne sont pas soumis à cette limitation. Le MSLU n’a pas cette limitation.
 
 ### <a name="dialogboxparam"></a>(DialogBoxParam)
 
@@ -317,11 +317,11 @@ Sur les plateformes ANSI natives, les membres **lpszMenuName** et **lpszClassNam
 
 ### <a name="menu"></a>Menus
 
-Sur Shlwapi.dll version 5,0, fournie avec Windows 2000, les chaînes d’éléments de menu qui contiennent des caractères de tabulation ( \\ t) peuvent ne pas s’afficher correctement. Cette limitation ne s’applique pas à Shlwapi.dll versions 5,5 ou ultérieures. Cela signifie que les systèmes Windows XP et versions ultérieures ne sont pas soumis à cette limitation. Le MSLU n’a pas cette limitation.
+sur Shlwapi.dll version 5,0, fournie avec Windows 2000, les chaînes d’élément de menu qui contiennent des caractères de tabulation ( \\ t) peuvent ne pas s’afficher correctement. Cette limitation ne s’applique pas à Shlwapi.dll versions 5,5 ou ultérieures. cela signifie que les systèmes Windows XP et versions ultérieures ne sont pas soumis à cette limitation. Le MSLU n’a pas cette limitation.
 
 ### <a name="menuiteminfo"></a>MenuItemInfo
 
-Cette fonction ne prend en charge que la version 4,0 de Microsoft Windows NT de la structure [**MENUITEMINFOW**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) . Cette structure n’a pas de membre **hbmpItem** . En outre, la fonction ne prend pas en charge l' \_ indicateur miim bitmap. Le MSLU n’a pas ces limitations.
+Cette fonction ne prend en charge que la version Microsoft Windows NT 4,0 de la structure [**MENUITEMINFOW**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) . Cette structure n’a pas de membre **hbmpItem** . En outre, la fonction ne prend pas en charge l' \_ indicateur miim bitmap. Le MSLU n’a pas ces limitations.
 
 ### <a name="openfilename"></a>OpenFileName
 
@@ -363,7 +363,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Value      | Signification                          |
+    | Nom              | Valeur      | Signification                          |
     |-------------------|------------|----------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD.   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION. |
@@ -395,7 +395,7 @@ Le MSLU n’a pas ces limitations.
 
 
 
-|                      |                                                                                                           |
+| Message              | Description                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | $ \_ ADDSTRING        | (b) (f) (c)                                                                                               |
 | \_FindString CB       | (b) (f) (c)                                                                                               |
@@ -437,7 +437,7 @@ Le MSLU n’a pas ces limitations.
 -   (d) le handle de fenêtre spécifié doit être le handle d’un contrôle ListBox. Si la zone de liste est owner-draw et n’a pas été créée avec le style de [styles de zone de liste](../controls/list-box-styles.md) , la traduction de ce message échoue et peut même se bloquer.
 -   (e) si une conversion de chaîne est nécessaire, toutes les chaînes sont converties via la \_ page de codes CP ACP.
 
-    Lors de la conversion d’ANSI en Unicode pour la sortie, les fonctions wrapper tronquent la chaîne retournée si elle ne tient pas dans la mémoire tampon fournie. La valeur de retour pour les fonctions qui retournent le nombre de caractères copiés dans la mémoire tampon ou le nombre de caractères nécessaires pour éviter la troncation fait référence au nombre de caractères ANSI copiés dans la mémoire tampon ou requis par la fonction ANSI sous-jacente, et non au nombre de caractères Unicode copiés dans la mémoire tampon fournie par ou requis par l’application appelante appelée. Le MSLU n’a pas cette limitation. Pour plus d’informations, consultez [Microsoft Layer pour Unicode sur les systèmes Windows 95/98/me](/previous-versions/ms812865(v=msdn.10)).
+    Lors de la conversion d’ANSI en Unicode pour la sortie, les fonctions wrapper tronquent la chaîne retournée si elle ne tient pas dans la mémoire tampon fournie. La valeur de retour pour les fonctions qui retournent le nombre de caractères copiés dans la mémoire tampon ou le nombre de caractères nécessaires pour éviter la troncation fait référence au nombre de caractères ANSI copiés dans la mémoire tampon ou requis par la fonction ANSI sous-jacente, et non au nombre de caractères Unicode copiés dans la mémoire tampon fournie par ou requis par l’application appelante appelée. Le MSLU n’a pas cette limitation. pour plus d’informations, consultez [Microsoft Layer pour Unicode sur les systèmes Windows 95/98/Me](/previous-versions/ms812865(v=msdn.10)).
 
 ### <a name="settimerqueuetimer"></a>(SetTimerQueueTimer)
 
@@ -462,7 +462,7 @@ Les paramètres doivent être définis comme suit :
 
     
 
-    | Nom              | Value      | Signification                         |
+    | Nom              | Valeur      | Signification                         |
     |-------------------|------------|---------------------------------|
     | TPS \_ EXECUTEIO    | 0x00000001 | Identique à WT \_ EXECUTEINIOTHREAD   |
     | TPS \_ LONGEXECTIME | 0x00000008 | Identique à WT \_ EXECUTELONGFUNCTION |

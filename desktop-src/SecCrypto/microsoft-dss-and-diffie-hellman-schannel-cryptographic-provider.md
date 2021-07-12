@@ -4,12 +4,12 @@ ms.assetid: 9e5e8833-cb54-41ca-8101-d518ece7e17f
 title: Fournisseur de services de chiffrement Microsoft DSS et Diffie-Hellman/Schannel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f14826166306197eeb3c8f6503da909c8099fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdbe1aff9aa50a11b8855b596d20b93cd572f46f
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862833"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581877"
 ---
 # <a name="microsoft-dss-and-diffie-hellmanschannel-cryptographic-provider"></a>Fournisseur de services de chiffrement Microsoft DSS et Diffie-Hellman/Schannel
 
@@ -17,10 +17,10 @@ Le fournisseur de services de chiffrement Microsoft DSS et [*Diffie-Hellman*](..
 
 
 
-|                |                                 |
-|----------------|---------------------------------|
-| Type de fournisseur : | **PROUVER \_ DH \_ Schannel**          |
-| Nom du fournisseur : | **MS \_ Def \_ DH \_ Schannel \_ Prov** |
+|                   | Valeur                       |
+|-------------------|-----------------------------|
+| **Type de fournisseur** | PROUVER \_ DH \_ Schannel          |
+| **Nom du fournisseur** | MS \_ Def \_ DH \_ Schannel \_ Prov |
 
 
 

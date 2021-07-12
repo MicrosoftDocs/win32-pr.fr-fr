@@ -4,12 +4,12 @@ ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Fournisseur de services de chiffrement AES Microsoft
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4c774eb2cb9d01bcb3a12f5550537abe44b364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2449c53cb828a94c8dd596133c3a8c21c9b0388
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514847"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581867"
 ---
 # <a name="microsoft-aes-cryptographic-provider"></a>Fournisseur de services de chiffrement AES Microsoft
 
@@ -19,10 +19,10 @@ Le fournisseur de services de chiffrement RSA et AES amélioré de Microsoft pre
 
 Pour assurer la compatibilité descendante avec les versions antérieures du fournisseur, le nom du fournisseur, tel que défini dans le fichier d’en-tête Wincrypt. h, conserve la désignation de la version 1,0 même si des versions plus récentes de ce fournisseur ont été expédiées. Pour déterminer la version du fournisseur en cours d’utilisation, appelez [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) avec le paramètre *DWPARAM* défini sur pp \_ version. La version 2,0 est utilisée si 0x0200 est retourné.
 
-|                |                             |
-|----------------|-----------------------------|
-| Type de fournisseur : | **\_RSA \_ AES Prov.**          |
-| Nom du fournisseur : | **\_ \_ RSA \_ AES Prov ENH \_** |
+|                   | Valeur                    |
+|-------------------|--------------------------|
+| **Type de fournisseur** | \_RSA \_ AES Prov.           |
+| **Nom du fournisseur** | \_ \_ RSA \_ AES Prov ENH \_  |
 
 
 
