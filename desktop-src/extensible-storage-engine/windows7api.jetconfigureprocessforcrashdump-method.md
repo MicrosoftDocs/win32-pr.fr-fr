@@ -20,16 +20,17 @@ topic_type:
 - kbSyntax
 - apiref
 api_type:
-- Managed
+- DllExport
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
+- esent.interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3291e882ecaac97699385e9e344702ea5414bd68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecabba69d87d64995179de99e5fc4e42a93d0f3e
+ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534375"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113691668"
 ---
 # <a name="windows7apijetconfigureprocessforcrashdump-method"></a>Méthode Windows7Api. JetConfigureProcessForCrashDump
 
@@ -64,7 +65,7 @@ public static void JetConfigureProcessForCrashDump(
 
 ## <a name="see-also"></a>Voir aussi
 
-#### <a name="reference"></a>Informations de référence
+#### <a name="reference"></a>Référence
 
 [Windows7Api, classe](./windows7api-class.md)
 

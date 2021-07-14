@@ -355,13 +355,13 @@
             - name: Composants ASF de couche de pipeline
               href: pipeline-layer-asf-components.md
               items:
-                - name: Comment créer une topologie pour Two-Pass l’encodage Windows Media
+                - name: comment créer une topologie pour Two-Pass l’encodage de média Windows
                   href: how-to-create-a-topology-for-2-pass-windows-media-encoding.md
-                - name: "Didacticiel\_: encodage Windows Media à passage unique"
+                - name: "didacticiel\_: encodage de média à passe unique Windows"
                   href: tutorial--1-pass-windows-media-encoding.md
                 - name: Source de média ASF
                   href: asf-media-source.md
-                - name: Encodeurs Windows Media
+                - name: Windows Encodeurs multimédias
                   href: windows-media-encoders.md
                   items:
                     - name: Instanciation d’une table MFT d’encodeur
@@ -406,7 +406,7 @@
               items:
                 - name: "Didacticiel\_: lecture d’un fichier ASF à l’aide d’objets WMContainer"
                   href: tutorial--reading-an-asf-file.md
-                - name: "Didacticiel\_: copie de flux ASF à l’aide d’objets WMContainer"
+                - name: "didacticiel\_: copie de Flux ASF à l’aide d’objets WMContainer"
                   href: tutorial--copying-asf-streams-from-one-file-to-another.md
                 - name: "Didacticiel\_: écriture d’un fichier WMA à l’aide d’objets WMContainer"
                   href: tutorial--writing-a-wma-file-by-using-cbr-encoding.md
@@ -418,9 +418,9 @@
                   items:
                     - name: Création d’un profil ASF
                       href: creating-an-asf-profile.md
-                    - name: Création et configuration de flux ASF
+                    - name: Création et configuration d’Flux ASF
                       href: creating-and-configuring-asf-streams.md
-                    - name: Utilisation de l’exclusion mutuelle pour les flux ASF
+                    - name: Utilisation de l’exclusion mutuelle pour les Flux ASF
                       href: using-mutual-exclusion-for-asf-streams.md
                 - name: Objet ASF ContentInfo
                   href: asf-contentinfo-object.md
@@ -520,20 +520,20 @@
               href: how-to-play-protected-media-files.md
             - name: Recherche de la durée d’un fichier multimédia
               href: how-to-find-the-duration-of-a-media-file.md
-            - name: 'Recherche, avance rapide et lecture inversée'
+            - name: 'recherche, Avance rapide et la lecture inversée'
               href: seeking--fast-forward--and-reverse-play.md
             - name: Comment définir l’heure d’arrêt de la lecture
               href: how-to-set-the-playback-stop-time-.md
             - name: Convertisseur vidéo amélioré
               href: enhanced-video-renderer.md
               items:
-                - name: Utilisation du filtre DirectShow EVR
+                - name: utilisation du filtre EVR DirectShow
                   href: using-the-directshow-evr-filter.md
                 - name: Utilisation du récepteur multimédia EVR
                   href: using-the-evr-media-sink.md
                 - name: Utilisation des contrôles d’affichage vidéo
                   href: using-the-video-display-controls.md
-                - name: Utilisation des contrôles Video Mixer
+                - name: utilisation des contrôles Video Mixer
                   href: using-the-video-mixer-controls.md
                 - name: Négociation de type de média EVR
                   href: evr-media-type-negotiation.md
@@ -1851,7 +1851,7 @@
               href: shell-metadata-providers.md
             - name: Propriétés de métadonnées pour les fichiers multimédias
               href: metadata-properties-for-media-files.md
-            - name: Fournisseurs de métadonnées dans Windows Vista
+            - name: fournisseurs de métadonnées dans Windows Vista
               href: metadata-providers-in-windows-vista.md
         - name: Mise en réseau dans Media Foundation
           href: networking-in-media-foundation.md
@@ -1861,7 +1861,7 @@
             - name: Prise en charge du proxy pour les sources réseau
               href: proxy-support-for-network-sources.md
               items:
-                - name: Paramètres de configuration du localisateur de proxy
+                - name: Paramètres de Configuration du localisateur de Proxy
                   href: proxy-locator-configuration-settings.md
                 - name: Comment configurer le localisateur de proxy
                   href: how-to-configure-the-proxy-locator.md
@@ -2042,7 +2042,7 @@
         - name: Codecs Windows Media
           href: windows-media-codecs.md
           items:
-            - name: À propos des codecs Windows Media
+            - name: à propos des codecs multimédias Windows
               href: about-the-windows-media-codecs.md
             - name: Utilisation des objets codec et DSP
               href: decidinghowtousethewindowsmediaaudioandvideocodecs.md
@@ -2055,21 +2055,21 @@
             - name: Utilisation du codec DMOs
               href: workingwithcodecdmos.md
               items:
-                - name: Notions de base sur DMO
+                - name: DMO Fondamentaux
                   href: dmobasics-ebet.md
                 - name: Instanciation du codec DMOs
                   href: instantiatingcodecdmos.md
-                - name: Utilisation de mémoires tampons de média DMO
+                - name: utilisation de mémoires tampons de média DMO
                   href: workingwithmediabuffers.md
-                - name: Utilisation des types de médias DMO
+                - name: utilisation des Types de médias DMO
                   href: workingwithmediatypes.md
                 - name: Utilisation des mémoires tampons et des exemples de médias MFT
                   href: workingwithmftmediabuffersandsamples.md
                 - name: Configuration du codec DMOs
                   href: enumeratingsupportedformats.md
-                - name: Traitement de l’entrée et de la sortie du codec DMO
+                - name: traitement du Codec DMO entrée et sortie
                   href: processingsamples.md
-                - name: Utilisation des codecs multimédias Windows dans DirectShow
+                - name: Utilisation des codecs de média de fenêtre dans DirectShow
                   href: usingthecodecdmoswithdirectshow.md
             - name: Utilisation du codec MFTs
               href: workingwithcodecmfts.md
@@ -2094,11 +2094,11 @@
                   items:
                     - name: Recherche de types de sortie d’encodeur audio
                       href: findingaudioencoderoutputtypes.md
-                    - name: 'Configuration de l’encodage audio standard, Professional ou Lossless'
+                    - name: 'configuration de l’encodage Audio Standard, Professional ou sans perte'
                       href: configuring-standard--professional--or-lossless-audio-encoding.md
                     - name: Énumération des types audio pour des modes d’encodage spécifiques
                       href: enumeratingaudiotypesforspecificencodingmodes.md
-                - name: Utilisation du codec Windows Media Audio Voice
+                - name: utilisation du Codec Windows Media Audio Voice
                   href: usingthewindowsmediaaudio9voicecodec.md
                 - name: Décodage en S/PDIF
                   href: decodingtospdif.md
@@ -2119,11 +2119,11 @@
                   href: forcedkeyframeinsertion.md
                 - name: Encodage vidéo entrelacé
                   href: interlacedvideoencoding.md
-                - name: Utilisation du profil avancé Windows Media Video 9
+                - name: utilisation du profil avancé Windows Media Video 9
                   href: usingthewindowsmediavideo9advancedprofilecodec.md
-                - name: 'Utilisation du codec d’image Windows Media Video 9,1'
+                - name: 'utilisation du Codec d’Image Windows Media Video 9,1'
                   href: usingthewindowsmediavideo9imagecodec.md
-                - name: Utilisation du codec d’écran Windows Media Video 9
+                - name: utilisation du Codec d’écran Windows Media Video 9
                   href: usingthewindowsmediavideo9screencodec.md
                 - name: Utilisation de données privées de codec vidéo
                   href: usingvideocodecprivatedata.md
@@ -2281,14 +2281,14 @@
                           href: /windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-toc_pos_type
                     - name: Fonctions de l’analyseur de table des matières
                       href: toc-parser-functions.md
-            - name: FAQ sur les codecs Windows Media
+            - name: Windows FAQ sur les codecs multimédias
               href: frequentlyaskedquestions.md
               items:
                 - name: "Comment un flux vidéo encodé à l’aide de la méthode VBR basée sur la qualité a-t-il moins de frames que le flux d’origine\_?"
                   href: howcanavideostreamencodedusingqualitybasedvbrhavef.md
                 - name: "Comment faire décompresser des flux à partir d’un fichier AVI ou d’un autre fichier sur lequel je n’ai pas d’informations de format\_?"
                   href: howdoidecompresswindowsmediacontentfromanaviorothe.md
-                - name: "Je dispose d’un fichier AVI contenant un flux de Windows Media Video. Comment puis-je le convertir en fichier WMV\_?"
+                - name: "je dispose d’un fichier AVI contenant un flux de Windows Media Video. Comment puis-je le convertir en fichier WMV\_?"
                   href: ihaveanavifilecontainingawindowsmediavideostreamho.md
                 - name: "Lorsque j’utilise le VBR avec un pic restreint, le taux de bits moyen récupéré à partir de l’objet codec est plus grand que le taux binaire de pointe. Comment est-ce possible\_?"
                   href: whenusingpeakconstrainedvbrtheaveragebitrateretrie.md
@@ -2375,29 +2375,29 @@
               href: mpeg-2-video-decoder.md
             - name: Décodeur vidéo MPEG-4 part 2
               href: mpeg4part2videodecoder.md
-            - name: Décodeur Windows Media Audio
+            - name: Windows Décodeur audio multimédia
               href: windowsmediaaudiodecoder.md
-            - name: Encodeur Windows Media Audio
+            - name: Windows Encodeur audio multimédia
               href: windowsmediaaudioencoder.md
-            - name: Décodeur vocal Windows Media Audio
+            - name: Windows Décodeur de voix Media audio
               href: windowsmediaaudiovoicedecoder.md
-            - name: Encodeur vocal Windows Media Audio
+            - name: Windows Codeur Media Audio Voice
               href: windowsmediaaudiovoiceencoder.md
-            - name: Décodeur MP3 Windows Media
+            - name: Windows Décodeur MP3 multimédia
               href: windows-media-mp3-decoder.md
-            - name: Décodeur Windows Media MPEG4 v1/v2
+            - name: Windows Décodeur de média MPEG4 v1/v2
               href: windowsmediampeg4decoder.md
-            - name: Décodeur Windows Media MPEG-4 v3
+            - name: Windows Décodeur Media MPEG-4 v3
               href: windowsmediampeg4v3decoder.md
-            - name: Windows Media Video encodeur 7/8
+            - name: Windows Encodeur Video Media Video 7/8
               href: windows-media-video-7-and-8-encoders.md
-            - name: Décodeur Windows Media Video 9
+            - name: Windows Décodeur Media Video 9
               href: windowsmediavideo9decoder.md
-            - name: Encodeur Windows Media Video 9
+            - name: Windows Encodeur Media Video 9
               href: windowsmediavideo9encoder.md
-            - name: Décodeur d’écran Windows Media Video 9
+            - name: Windows Décodeur d’écran Media Video 9
               href: windowsmediavideo9screendecoder.md
-            - name: Encodeur d’écran Windows Media Video 9
+            - name: Windows Encodeur d’écran Media Video 9
               href: windowsmediavideo9screenencoder.md
         - name: Processeurs de signaux numériques
           href: windowsmediadigitalsignalprocessors.md
@@ -2541,6 +2541,8 @@
                   href: mf-capture-engine-use-video-device-only.md
                 - name: MF_CAPTURE_METADATA_DIGITALWINDOW
                   href: mf-capture-metadata-digitalwindow.md
+                - name: MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK
+                  href: mf-capture-metadata-frame-background-mask.md
                 - name: MF_CAPTURE_METADATA_FRAME_ILLUMINATION
                   href: mf-capture-metadata-frame-illumination.md
                 - name: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH
@@ -3241,6 +3243,8 @@
                   href: mf-video-processor-algorithm.md
                 - name: MF_VIDEODSP_MODE
                   href: mf-videodsp-mode.md
+                - name: MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME
+                  href: mf-virtualcamera-configuration-app-package-family-name.md
                 - name: MF_XVP_CALLER_ALLOCATES_OUTPUT
                   href: mf-xvp-caller-allocates-output.md
                 - name: MF_XVP_DISABLE_FRC
@@ -3458,11 +3462,11 @@
               href: asf-mutual-exclusion-type-guids.md
             - name: Indicateurs de protection de CGMS-A
               href: cgms-a-protection-flags.md
-            - name: Paramètres de filtre d’image DXVA
+            - name: Paramètres de filtre d’Image DXVA
               href: dxva-image-filter-settings.md
             - name: MFT_CATEGORY
               href: mft-category.md
-            - name: Paramètres de ProcAmp
+            - name: Paramètres de procamp
               href: procamp-settings.md
             - name: Indicateurs de résolveur source
               href: source-resolver-flags.md
@@ -5105,7 +5109,7 @@
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginread
                 - name: BeginWrite
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-beginwrite
-                - name: fermez
+                - name: Fermer
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-close
                 - name: EndRead
                   href: /windows/desktop/api/mfobjects/nf-mfobjects-imfbytestream-endread
@@ -6000,7 +6004,7 @@
               items:
                 - name: ClearTopologies
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-cleartopologies
-                - name: fermez
+                - name: Fermer
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-close
                 - name: GetClock
                   href: /windows/desktop/api/mfidl/nf-mfidl-imfmediasession-getclock

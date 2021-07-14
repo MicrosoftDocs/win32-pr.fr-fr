@@ -1,40 +1,40 @@
 ---
-title: Infrastructure de ruban Windows
-description: Lisez une présentation de l’infrastructure de ruban Windows, qui est une alternative moderne aux menus superposés, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles.
+title: Windows Infrastructure du ruban
+description: lisez une présentation de l’infrastructure du ruban Windows, qui est une alternative moderne aux menus en couches, aux barres d’outils et aux volets des tâches des applications Windows traditionnelles.
 ms.assetid: c6108c38-17ef-4d8a-ab32-171bc496d44c
 keywords:
-- Ruban Windows
+- Windows Dernier
 - Ruban
-- Documentation sur le ruban Windows
+- Windows Documentation ruban
 - Documentation ruban
-- API de ruban Windows
+- Windows API du ruban
 - API du ruban
-- Ruban Windows, infrastructure
+- Windows Ruban, infrastructure
 - Ruban, infrastructure
-- Ruban Windows, à propos de
+- Windows Ruban, à propos de
 - Ruban, à propos de
-- Ruban Windows, composants
+- Windows Ruban, composants
 - Ruban, composants
-- Ruban Windows, vues
+- Windows Ruban, vues
 - Ruban, vues
-- Ruban Windows, architecture
+- Windows Ruban, architecture
 - Ruban, architecture
-- Ruban Windows, API
+- Windows Ruban, API
 - Ruban, API
-- Ruban Windows, sécurité
+- Windows Ruban, sécurité
 - Ruban, sécurité
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 211e1e1cf39a547ad0edbc0c180c62e2f40e15fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.date: 07/13/2021
+ms.openlocfilehash: 98f7dbf42d604f93c76bb9897aa25918d45d126f
+ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406362"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113691648"
 ---
-# <a name="windows-ribbon-framework"></a>Infrastructure de ruban Windows
+# <a name="windows-ribbon-framework"></a>Windows Infrastructure du ruban
 
-L’infrastructure de ruban Windows est un système de présentation de commande riche qui offre une alternative moderne aux menus en couches, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles. Comme dans les fonctionnalités et l’apparence de l’interface utilisateur Fluent Microsoft Office 2007, l’infrastructure du ruban est composée d’une barre de commandes du ruban qui expose les principales fonctionnalités d’une application via une série d’onglets en haut d’une fenêtre d’application, et un système de menu contextuel.
+l’infrastructure du ruban Windows est un système de présentation de commande riche qui offre une alternative moderne aux menus en couches, aux barres d’outils et aux volets de tâches des applications Windows traditionnelles. comme dans les fonctionnalités et l’apparence de l’interface utilisateur Microsoft Office 2007 Fluent, l’infrastructure du ruban est composée d’une barre de commandes de ruban qui expose les principales fonctionnalités d’une application via une série d’onglets en haut d’une fenêtre d’application, et un système de menu contextuel.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -43,10 +43,10 @@ L’infrastructure de ruban Windows est un système de présentation de commande
 | Rubrique                                                                           | Description                                                                                                                                                                                                          |
 |---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Vues d’ensemble de Framework de ruban](windowsribbon-overviews-entry.md)<br/>      | Les rubriques contenues dans cette section explorent les notions de base de l’infrastructure du ruban. <br/>                                                                                                                   |
-| [Guides du développeur de Framework de ruban](windowsribbon-guides-entry.md)<br/>  | Les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows. <br/>                                                                                                          |
+| [Guides du développeur de Framework de ruban](windowsribbon-guides-entry.md)<br/>  | les rubriques contenues dans cette section décrivent des aspects spécifiques de l’infrastructure du ruban Windows. <br/>                                                                                                          |
 | [Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)<br/> | Les rubriques contenues dans cette section décrivent l’ensemble des contrôles inclus avec l’infrastructure du ruban. Les contrôles répertoriés ici sont les objets d’interface utilisateur d’un ruban qui exposent les fonctionnalités de commande.<br/> |
 | [Informations de référence sur l’infrastructure du ruban](windowsribbon-reference-entry.md)<br/>      | Les rubriques contenues dans cette section fournissent les spécifications de référence pour l’infrastructure du ruban.<br/>                                                                                                       |
-| [Exemples d’infrastructure de ruban](windowsribbon-samples-entry.md)<br/>          | Les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la documentation de l’infrastructure du ruban Windows. <br/>                                                                     |
+| [Exemples d’infrastructure de ruban](windowsribbon-samples-entry.md)<br/>          | les rubriques contenues dans cette section fournissent des détails sur les exemples de code qui prennent en charge la Windows documentation de l’infrastructure du ruban. <br/>                                                                     |
 | [Glossaire du Framework du ruban](windowsribbon-glossary.md)<br/>              |                                                                                                                                                                                                                      |
 
 
@@ -55,18 +55,18 @@ L’infrastructure de ruban Windows est un système de présentation de commande
 
 ## <a name="developer-audience"></a>Public de développeurs
 
-L’infrastructure de ruban Windows est conçue pour être utilisée par les développeurs C/C++ et les concepteurs d’interface utilisateur.
+l’infrastructure du ruban Windows est conçue pour être utilisée par les développeurs C/C++ et les concepteurs d’interface utilisateur.
 
 Compétences recommandées :
 
--   Programmation COM
--   Programmation d’API Windows
--   Programmation XML/XAML
+- Programmation COM
+- Windows Programmation d’API
+- Programmation XML/XAML
 
 Connaissances de base recommandées :
 
--   Concepts de programmation de l’interface utilisateur
--   Concepts généraux de l’interface utilisateur
+- Concepts de programmation de l’interface utilisateur
+- Concepts généraux de l’interface utilisateur
 
 ## <a name="minimum-requirements"></a>Configuration minimale requise
 
@@ -74,8 +74,8 @@ Connaissances de base recommandées :
 
 | Condition requise | Valeur |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge               | Windows 7<br/> Windows Vista avec Service Pack 2 (SP2) et [mise à jour de plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
-| Serveur minimal pris en charge               | Windows Server 2008 R2<br/> Windows Server 2008 avec SP2 et la [mise à jour de la plateforme pour Windows server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
+| Client minimal pris en charge               | Windows 7<br/> Windows vista avec Service Pack 2 (SP2) et [mise à jour de plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| Serveur minimal pris en charge               | Windows Server 2008 R2<br/> Windows serveur 2008 avec SP2 et [mise à jour de plateforme pour Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
 | Kit de développement logiciel Windows | 7.0                                                                                                                                                                      |
 | Fichiers d’en-tête et IDL                   | UIRibbon. h, UIRibbon. idl                                                                                                                                                 |
 
@@ -84,7 +84,7 @@ Connaissances de base recommandées :
  
 
 > [!Note]  
-> La [mise à jour de plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx) et la [mise à jour de la plateforme pour Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx) sont des ensembles de bibliothèques Runtime qui permettent aux développeurs de cibler des applications de ruban Windows vers Windows Vista et Windows Server 2008. Les mises à jour de la plateforme seront disponibles pour tous les clients Windows Vista et Windows Server 2008 via Windows Update. Les applications tierces qui requièrent une [mise à jour de plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx) ou une [mise à jour de plateforme pour Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx) peuvent avoir Windows Update détecter si la mise à jour requise est installée ; Si ce n’est pas le cas, Windows Update le télécharge et l’installe en arrière-plan.
+> la [mise à jour de la plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx) et la [mise à jour de la plateforme pour Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx) est un ensemble de bibliothèques runtime qui permettent aux développeurs de cibler Windows applications du ruban à la fois Windows Vista et Windows Server 2008. les mises à jour de la plateforme seront disponibles pour tous les clients Windows Vista et Windows Server 2008 par le biais de Windows Update. les applications tierces qui requièrent la [mise à jour de la plateforme pour Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx) ou la [mise à jour de la plateforme pour Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx) peuvent avoir Windows Update détecter si la mise à jour requise est installée ; si ce n’est pas le cas, Windows Update le télécharge et l’installe en arrière-plan.
 
  
 
