@@ -139,6 +139,8 @@
                       href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformfrommmcss
             - name: Groupes de processeurs
               href: processor-groups.md
+            - name: Qualité de service
+              href: quality-of-service.md
         - name: Threads multiples
           href: multiple-threads.md
           items:
@@ -154,7 +156,7 @@
               href: multiple-threads-and-gdi-objects.md
             - name: stockage local des threads
               href: thread-local-storage.md
-            - name: Créer des fenêtres dans les threads
+            - name: création d’Windows dans les threads
               href: creating-windows-in-threads.md
             - name: Arrêt d’un thread
               href: terminating-a-thread.md
