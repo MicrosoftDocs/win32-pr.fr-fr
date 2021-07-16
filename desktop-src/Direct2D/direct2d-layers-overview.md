@@ -7,19 +7,19 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: ac68ba25d1e8f35c5a41daec4d7a5295235a5d98
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 027be097c5c21929f3ccdbaa169a1f3dac55b394
+ms.sourcegitcommit: 698ce2d9ba2fa650f2875225d99623995fac246a
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549184"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114231606"
 ---
 # <a name="layers-overview"></a>Vue d’ensemble des couches
 
 Cette vue d’ensemble décrit les principes fondamentaux de l’utilisation des couches Direct2D. Elle contient les sections suivantes.
 
 -   [Que sont les couches ?](#what-are-layers)
--   [Couches dans Windows 8 et versions ultérieures](#layers-in-windows-8-and-later)
+-   [couches dans Windows 8 et versions ultérieures](#layers-in-windows-8-and-later)
     -   [ID2D1DeviceContext et PushLayer](#id2d1devicecontext-and-pushlayer)
     -   [Couche \_ d2d1 \_ PARAMETERS1 et d2d1 \_ couche \_ options1](/windows)
     -   [Modes de fusion](#blend-modes)
@@ -41,13 +41,13 @@ Comme les pinceaux, les couches sont des ressources dépendantes du périphériq
 
 Bien que les couches offrent une technique de rendu puissante pour produire des effets intéressants, un nombre excessif de couches dans une application peut nuire à ses performances, en raison des différents coûts associés à la gestion des couches et des ressources de couche. Par exemple, il y a un coût de remplissage ou d’effacement de la couche, puis de la fusionner de nouveau, en particulier sur du matériel de haut de gamme. Ensuite, il y a le coût de la gestion des ressources de couche. Si vous les réallouez fréquemment, les blocages résultants sur le GPU sont le problème le plus significatif. Lorsque vous concevez votre application, essayez d’optimiser la réutilisation des ressources de couche.
 
-## <a name="layers-in-windows-8-and-later"></a>Couches dans Windows 8 et versions ultérieures
+## <a name="layers-in-windows-8-and-later"></a>couches dans Windows 8 et versions ultérieures
 
-Windows 8 a introduit de nouvelles API liées à la couche qui simplifient, améliorent les performances de et ajoutent des fonctionnalités aux couches.
+Windows 8 introduit de nouvelles api liées à la couche qui simplifient, améliorent les performances de et ajoutent des fonctionnalités aux couches.
 
 ### <a name="id2d1devicecontext-and-pushlayer"></a>ID2D1DeviceContext et PushLayer
 
-L’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) est dérivée de l’interface [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et est la clé de l’affichage du contenu Direct2D dans Windows 8. pour plus d’informations sur cette interface, consultez [contextes de périphériques et](devices-and-device-contexts.md)de périphériques. Avec l’interface de contexte de périphérique, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer la valeur null à la méthode [**ID2D1DeviceContext ::P ushlayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) . Direct2D gère automatiquement la ressource de couche et peut partager des ressources entre les couches et les graphiques d’effet.
+l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) est dérivée de l’interface [**ID2D1RenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget) et est la clé de l’affichage du contenu Direct2D dans Windows 8. pour plus d’informations sur cette interface, consultez [contextes de périphériques et](devices-and-device-contexts.md)de périphériques. Avec l’interface de contexte de périphérique, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer la valeur null à la méthode [**ID2D1DeviceContext ::P ushlayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) . Direct2D gère automatiquement la ressource de couche et peut partager des ressources entre les couches et les graphiques d’effet.
 
 ### <a name="d2d1_layer_parameters1-and-d2d1_layer_options1"></a>Couche \_ d2d1 \_ PARAMETERS1 et d2d1 \_ couche \_ options1
 
@@ -61,13 +61,13 @@ La [**structure \_ \_ PARAMETERS1 de la couche d2d1**](/windows/desktop/api/d2d1
 
 ### <a name="blend-modes"></a>Modes de fusion
 
-À compter de Windows 8, le contexte de périphérique a un [**mode de fusion primitif**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) qui détermine la façon dont chaque primitive est fusionnée avec la surface cible. Ce mode s’applique également aux couches lorsque vous appelez la méthode [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) .
+à partir de Windows 8, le contexte de périphérique a un [**mode de fusion primitif**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) qui détermine la façon dont chaque primitive est fusionnée avec la surface cible. Ce mode s’applique également aux couches lorsque vous appelez la méthode [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) .
 
 Par exemple, si vous utilisez une couche pour découper des primitives avec transparence, définissez le mode de [**\_ \_ \_ copie de fusion primitif d2d1**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) sur le contexte de périphérique pour obtenir des résultats corrects. Le mode de copie fait en sorte que le contexte de l’appareil effectue l’interpolation linéaire sur les 4 canaux de couleur, y compris le canal alpha, de chaque pixel avec le contenu de la surface cible en fonction du masque géométrique de la couche.
 
 ### <a name="interoperation"></a>Interopérabilité
 
-À partir de Windows 8, Direct2D prend en charge l’interopérabilité avec Direct3D et GDI lorsqu’une couche ou un clip est poussé. Vous appelez [**ID2D1GdiInteropRenderTarget :: GetDC**](/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc) alors qu’une couche est Poussée pour interagir avec GDI. Vous appelez [**ID2D1DeviceContext :: Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) , puis le rendu sur la surface sous-jacente pour interagir avec Direct3D. Il est de votre responsabilité d’effectuer un rendu à l’intérieur de la couche ou du clip avec Direct3D ou GDI. Si vous essayez d’effectuer un rendu à l’extérieur de la couche ou de découper, les résultats ne sont pas définis.
+à partir de Windows 8, Direct2D prend en charge l’interopérabilité avec Direct3D et GDI lorsqu’une couche ou un clip est poussé. Vous appelez [**ID2D1GdiInteropRenderTarget :: GetDC**](/windows/win32/api/d2d1/nf-d2d1-id2d1gdiinteroprendertarget-getdc) alors qu’une couche est Poussée pour interagir avec GDI. Vous appelez [**ID2D1DeviceContext :: Flush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush) , puis le rendu sur la surface sous-jacente pour interagir avec Direct3D. Il est de votre responsabilité d’effectuer un rendu à l’intérieur de la couche ou du clip avec Direct3D ou GDI. Si vous essayez d’effectuer un rendu à l’extérieur de la couche ou de découper, les résultats ne sont pas définis.
 
 ## <a name="creating-layers"></a>Créer des couches
 
@@ -75,7 +75,7 @@ L’utilisation de couches nécessite une bonne connaissance des méthodes [**Cr
 
 -   Appelez la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) pour créer une ressource de couche.
     > [!Note]  
-    > À partir de Windows 8, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer NULL à la méthode [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) sur l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) . C’est plus simple et permet à Direct2D de gérer automatiquement la ressource de couche et de partager les ressources entre les couches et les graphiques d’effet.
+    > à partir de Windows 8, vous pouvez ignorer l’appel de la méthode [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer)) , puis passer NULL à la méthode [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) sur l’interface [**ID2D1DeviceContext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext) . C’est plus simple et permet à Direct2D de gérer automatiquement la ressource de couche et de partager les ressources entre les couches et les graphiques d’effet.
 
      
 
@@ -83,7 +83,7 @@ L’utilisation de couches nécessite une bonne connaissance des méthodes [**Cr
 
     | Champ                 | Description|
     |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **contentBounds**     | Limites de contenu de la couche. Le contenu en dehors de ces limites est garanti qu’il n’est pas rendu. La valeur par défaut de ce paramètre est [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). Lorsque la valeur par défaut est utilisée, les limites de contenu sont effectivement prises pour être les limites de la cible de rendu. |
+    | **contentBounds**     | Limites de contenu de la couche. Le contenu n’est pas rendu en dehors de ces limites. La valeur par défaut de ce paramètre est [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect). Lorsque la valeur par défaut est utilisée, les limites de contenu sont effectivement prises pour être les limites de la cible de rendu. |
     | **geometricMask**     | Facultatif Zone, définie par un [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry), à laquelle la couche doit être découpée. A la valeur **null** si la couche ne doit pas être découpée en géométrie. |
     | **maskAntialiasMode** | Valeur qui spécifie le mode d’anticrénelage pour le masque géométrique spécifié par le champ **geometricMask** . |
     | **maskTransform**     | Valeur qui spécifie la transformation appliquée au masque géométrique lors de la composition de la couche. Cela est relatif à la transformation universelle.  |
@@ -96,7 +96,7 @@ L’utilisation de couches nécessite une bonne connaissance des méthodes [**Cr
      
 
     > [!Note]  
-    > À partir de Windows 8, vous ne pouvez pas effectuer de rendu avec ClearType dans une couche, donc le paramètre **layerOptions** doit toujours être défini sur [**options de \_ couche d2d1 \_ \_ aucune**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options)
+    > à partir de Windows 8, vous ne pouvez pas effectuer de rendu avec ClearType dans une couche, donc le paramètre **layerOptions** doit toujours être défini sur [**OPTIONS de \_ couche D2D1 \_ \_ aucune**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options)
 
      
 
@@ -511,7 +511,7 @@ m_d2dContext->FillGeometry(
 Dans cet exemple de code, lorsque vous appelez la méthode PushLayer, vous ne transmettez pas de couche créée par une application. Direct2D crée une couche pour vous. Direct2D est en mesure de gérer l’allocation et la destruction de cette ressource sans aucune implication de l’application. Cela permet à Direct2D de réutiliser des couches en interne et d’appliquer des optimisations de gestion des ressources.
 
 > [!Note]  
-> Dans Windows 8, de nombreuses optimisations ont été apportées à l’utilisation des couches et nous vous recommandons d’essayer d’utiliser les API de couche au lieu de [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) chaque fois que cela est possible.
+> dans Windows 8 de nombreuses optimisations ont été apportées à l’utilisation des couches et nous vous recommandons d’essayer d’utiliser les api de couche au lieu de [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) chaque fois que cela est possible.
 
  
 
