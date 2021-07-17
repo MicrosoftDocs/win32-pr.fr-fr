@@ -16,12 +16,12 @@ keywords:
 - messages de caractères morts
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ad481bad6756bb374b98a5510bdc26f1cded6a
-ms.sourcegitcommit: ac62be2f60f757f61ea647a95c168c9841ffabac
+ms.openlocfilehash: 0de85794901be3fef37156bde29520039f85702b
+ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104566754"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114373202"
 ---
 # <a name="about-keyboard-input"></a>À propos de l’entrée au clavier
 
@@ -116,9 +116,32 @@ Une application peut utiliser les valeurs suivantes pour manipuler les indicateu
 | **KF \_ répéter**   | Manipule l’indicateur d’état de clé précédent.                                          |
 | **KF \_**       | Manipule l’indicateur d’état de transition.                                            |
 
+Exemple de code :
 
+```cpp
+case WM_KEYDOWN:
+case WM_KEYUP:
+case WM_SYSKEYDOWN:
+case WM_SYSKEYUP:
+{
+    WORD vkCode = LOWORD(wParam);                                       // virtual-key code
 
- 
+    BYTE scanCode = LOBYTE(HIWORD(lParam));                             // scan code
+    BOOL scanCodeE0 = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED;    // extended-key flag, 1 if scancode has 0xE0 prefix
+
+    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
+    BOOL repeatFlag = (HIWORD(lParam) & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
+    WORD repeatCount = LOWORD(lParam);                                  // repeat count, > 0 if several keydown messages was combined into one message
+
+    BOOL altDownFlag = (HIWORD(lParam) & KF_ALTDOWN) == KF_ALTDOWN;     // ALT key was pressed
+
+    BOOL dlgModeFlag = (HIWORD(lParam) & KF_DLGMODE) == KF_DLGMODE;     // dialog box is active
+    BOOL menuModeFlag = (HIWORD(lParam) & KF_MENUMODE) == KF_MENUMODE;  // menu is active
+    
+    // ...
+}
+break;
+```
 
 ### <a name="repeat-count"></a>Nombre de répétitions
 
@@ -131,6 +154,8 @@ Le code d’analyse correspond à la valeur que le matériel du clavier génère
 ### <a name="extended-key-flag"></a>Indicateur de Extended-Key
 
 L’indicateur de clé étendue indique si le message de frappe de touche provient de l’une des touches supplémentaires du clavier amélioré. Les clés étendues sont composées des touches ALT et CTRL sur le côté droit du clavier. les touches Inser, DEL, début, fin, PAGE précédente, PAGE suivante et flèche dans les clusters à gauche du pavé numérique ; touche VERR. NUM. touche arrêt (CTRL + PAUSE); touche Impr. SCRN. et les touches de division (/) et de saisie dans le pavé numérique. L’indicateur de clé étendue est défini si la clé est une clé étendue.
+
+S’il est spécifié, le code d’analyse était précédé d’un octet de préfixe ayant la valeur 0xE0 (224).
 
 ### <a name="context-code"></a>Code de contexte
 
@@ -200,11 +225,11 @@ Les applications peuvent utiliser un contrôle de touche d’accès rapide pour 
 
 ## <a name="keyboard-keys-for-browsing-and-other-functions"></a>Touches du clavier pour la navigation et d’autres fonctions
 
-Windows prend en charge les claviers avec des clés spéciales pour les fonctions de navigateur, les fonctions de support, le lancement d’applications et la gestion de l’alimentation. Le [**\_ APPCOMMAND WM**](wm-appcommand.md) prend en charge les touches de clavier supplémentaires. En outre, la fonction [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) est modifiée pour prendre en charge les touches de clavier supplémentaires.
+Windows assure la prise en charge des claviers avec des clés spéciales pour les fonctions de navigateur, les fonctions de média, le lancement d’applications et la gestion de l’alimentation. Le [**\_ APPCOMMAND WM**](wm-appcommand.md) prend en charge les touches de clavier supplémentaires. En outre, la fonction [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) est modifiée pour prendre en charge les touches de clavier supplémentaires.
 
 Il est peu probable qu’une fenêtre enfant dans une application de composant puisse implémenter directement des commandes pour ces touches de clavier supplémentaires. Ainsi, lorsque vous appuyez sur l’une de ces touches, [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) envoie un message [**WM \_ APPCOMMAND**](wm-appcommand.md) à une fenêtre. **DefWindowProc** propage également le message **WM \_ APPCOMMAND** à sa fenêtre parente. Cela est similaire à la façon dont les menus contextuels sont appelés avec le bouton droit de la souris, ce qui indique que **DefWindowProc** envoie un message [**WM \_ CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) sur un clic de bouton droit et le propage à son parent. En outre, si **DefWindowProc** reçoit un message **WM \_ APPCOMMAND** pour une fenêtre de niveau supérieur, il appellera un hook de Shell avec le code **HSHELL \_ APPCOMMAND**.
 
-Windows prend également en charge l’Explorateur Microsoft IntelliMouse, qui est une souris avec cinq boutons. Les deux boutons supplémentaires prennent en charge la navigation vers l’avant et l’arrière du navigateur. Pour plus d’informations, consultez [XBUTTONs](about-mouse-input.md).
+Windows prend également en charge l’explorateur Microsoft IntelliMouse, qui est une souris avec cinq boutons. Les deux boutons supplémentaires prennent en charge la navigation vers l’avant et l’arrière du navigateur. Pour plus d’informations, consultez [XBUTTONs](about-mouse-input.md).
 
 ## <a name="simulating-input"></a>Simulation de l’entrée
 

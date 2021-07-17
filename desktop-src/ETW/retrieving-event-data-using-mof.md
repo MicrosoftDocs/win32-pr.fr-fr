@@ -4,18 +4,18 @@ ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: Récupération de données d’événement à l’aide de MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8752d7a4dc71ddb7b5a5dbc39e93c5fe16bb652
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 2f6086c878a0e98c0451d1ba2f1e11e2cd0e9016
+ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395014"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114373138"
 ---
 # <a name="retrieving-event-data-using-mof"></a>Récupération de données d’événement à l’aide de MOF
 
 Pour utiliser des données spécifiques à un événement, le consommateur doit connaître le format des données d’événement. Si le fournisseur a utilisé MOF pour publier le format des données d’événement, vous pouvez utiliser la classe MOF pour analyser les données d’événement. Tous les événements de noyau utilisent MOF pour publier le format des données d’événement. Pour plus d’informations sur la publication d’événements, consultez [publication de votre schéma d’événement](publishing-your-event-schema.md).
 
-L’analyse des données d’événement requiert l’utilisation de l’API WMI (Windows Management Infrastructure). L’espace de noms ETW où les fournisseurs publient leur classe MOF est \\ WMI racine. L’espace de noms ETW contient trois types de classes MOF : la classe MOF du fournisseur, la classe MOF de l’événement et la classe MOF du type d’événement. La classe MOF d’événements regroupe logiquement une ou plusieurs classes MOF de type d’événement. La classe MOF du type d’événement définit les données d’événement réelles.
+l’analyse des données d’événement requiert l’utilisation de l’API Windows Management Infrastructure (WMI). L’espace de noms ETW où les fournisseurs publient leur classe MOF est \\ WMI racine. L’espace de noms ETW contient trois types de classes MOF : la classe MOF du fournisseur, la classe MOF de l’événement et la classe MOF du type d’événement. La classe MOF d’événements regroupe logiquement une ou plusieurs classes MOF de type d’événement. La classe MOF du type d’événement définit les données d’événement réelles.
 
 Une classe d’événement MOF contient un qualificateur de classe **GUID** dont la valeur doit correspondre à la valeur du membre **header. Guid** de la structure de [**\_ suivi d’événement**](/windows/win32/api/evntrace/ns-evntrace-event_trace) . Pour vous assurer que vous disposez de la version correcte de la classe, comparez également le qualificateur de la classe **EventVersion** au membre **header. class. version** de la structure de **\_ suivi d’événements** .
 
@@ -25,7 +25,7 @@ Vous pouvez ensuite utiliser l’API WMI pour énumérer les propriétés de la 
 
 Comme ETW n’impose pas d’alignement entre les valeurs de données d’événement, cast ou l’affectation de la valeur directement à partir d’une mémoire tampon peut provoquer une erreur d’alignement ; vous ne devez pas créer une structure à partir de la classe MOF et essayer de l’utiliser pour consommer des données d’événement. Par exemple, si vous avez un caractère suivi de ULONGLONG, le ULONGLONG n’est pas aligné sur une limite de 8 octets, de sorte qu’une assignation provoque une exception d’alignement. (Sur les ordinateurs 64 bits, cela se produit plus souvent.) Pour cette raison, vous devez utiliser CopyMemory pour copier les données de la mémoire tampon dans une variable locale. En outre, si l’événement est révisé ultérieurement, votre consommateur peut ne pas fonctionner si vous essayez d’utiliser une structure.
 
-À compter de Windows Vista, il est recommandé d’utiliser les fonctions d’assistance des données de trace (TDH) pour consommer les événements qui ont été publiés à l’aide de classes MOF. Pour plus d’informations, consultez [extraction de données d’événement à l’aide de Tdh](retrieving-event-data-using-tdh.md).
+à partir de Windows Vista, il est recommandé d’utiliser les fonctions d’assistance des données de suivi (TDH) pour consommer les événements qui ont été publiés à l’aide de classes MOF. Pour plus d’informations, consultez [extraction de données d’événement à l’aide de Tdh](retrieving-event-data-using-tdh.md).
 
 L’exemple suivant montre comment consommer des événements définis par une classe MOF.
 
@@ -600,7 +600,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
     // Retrieve the property names.
 
-    hr = pClass->GetNames(NULL, WBEM_FLAG_LOCAL_ONLY, NULL, &pNames);
+    hr = pClass->GetNames(NULL, WBEM_FLAG_NONSYSTEM_ONLY, NULL, &pNames);
     if (pNames)
     {
         *pPropertyCount = pNames->rgsabound->cElements;
@@ -654,6 +654,10 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
                 j = var.intVal - 1;
                 VariantClear(&var);
                 *(*ppPropertyIndex+j) = i;
+            }
+            else if (WBEM_E_NOT_FOUND == hr)
+            {
+                continue; // Ignore property without WmiDataId
             }
             else
             {
