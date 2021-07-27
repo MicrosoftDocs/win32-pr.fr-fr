@@ -3,12 +3,12 @@ description: La qualité de service indique les performances et l’efficacité 
 title: Qualité de service
 ms.topic: article
 ms.date: 07/09/2021
-ms.openlocfilehash: c506e810bafad41e9a5f14112c1398b0d6fb3ffc
-ms.sourcegitcommit: 2805e19a2738a408d3c5ab69a8d84ec92ca25e36
+ms.openlocfilehash: 98c8b8c4fc340eb49b13d7bdfd9b2a611a8f7244
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "113989790"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436289"
 ---
 # <a name="quality-of-service"></a>Qualité de service
 
@@ -22,12 +22,12 @@ Le système gère plusieurs niveaux de QoS, chacun avec des performances différ
 
 | Niveau de QoS | Description|Performances et puissance | Libérer |
 | --- | --- | --- | --- |
-| Élevé | Applications avec fenêtre qui sont au premier plan et activées, ou audibles | Haute performance standard |1709 |
-| Moyenne | Applications à fenêtres qui peuvent être visibles par l’utilisateur final, mais qui ne sont pas activées | Varie selon la plateforme, entre haut et bas | 1709 |
-| Faible | Applications à fenêtres qui ne sont pas visibles ou audibles à l’utilisateur final | Sur batterie, sélectionne la fréquence et les planifications d’UC les plus efficaces pour les cœurs efficaces. | 1709 |
-| Écologique | Applications qui balisent explicitement des processus avec [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) | Sélectionne toujours la fréquence et les planifications d’UC les plus efficaces pour les cœurs efficaces | Windows 11 |
-| Média | Threads explicitement balisés par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer la mise en mémoire tampon des lots multimédias | Fréquence UC réduite pour un traitement par lots efficace | 2004 |
-| Échéance | Threads balisés explicitement par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer que les threads audio requièrent des performances pour respecter les échéances | Hautes performances pour respecter les délais de support | 2004 |
+| Élevé | Applications avec fenêtre qui sont au premier plan et activées, ou audibles, et baliser explicitement des processus avec [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation) | Haute performance standard. |1709 |
+| Moyenne | Applications à fenêtres qui peuvent être visibles par l’utilisateur final, mais qui ne sont pas activées. | Varie selon la plateforme, entre haut et bas. | 1709 |
+| Faible | Applications à fenêtres qui ne sont pas visibles ou audibles à l’utilisateur final. | Sur batterie, sélectionne la fréquence et les planifications de l’UC les plus efficaces pour un noyau efficace. | 1709 |
+| Écologique | Applications qui balisent explicitement des processus avec des [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) ou des threads avec [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation). | Sélectionne toujours la fréquence et les planifications d’UC les plus efficaces pour des cœurs efficaces. | Windows 11 |
+| Multimédia | Threads explicitement balisés par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer la mise en mémoire tampon des lots multimédias. | Fréquence du processeur réduite pour un traitement par lots efficace. | 2004 |
+| Échéance | Les threads balisés explicitement par le [service Planificateur de classes multimédias](/windows/desktop/procthread/multimedia-class-scheduler-service) pour indiquer que les threads audio requièrent des performances pour respecter les échéances. | Hautes performances pour respecter les délais de support. | 2004 |
 
 ## <a name="quality-of-service-classification"></a>Classification de la qualité de service
 

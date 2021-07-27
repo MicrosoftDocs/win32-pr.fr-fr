@@ -1,15 +1,15 @@
 ---
-description: Découvrez comment utiliser des appareils NVMe à haut débit à partir de votre application Windows.
+description: découvrez comment utiliser des appareils NVMe à haut débit à partir de votre application Windows.
 ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: Utilisation des lecteurs NVMe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be94adf8355940bd93de137d122d91e468c2173
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 425516946d1e76e5c01f6ae5d11f104244f85ce0
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521474"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436274"
 ---
 # <a name="working-with-nvme-drives"></a>Utilisation des lecteurs NVMe
 
@@ -18,7 +18,7 @@ ms.locfileid: "106521474"
 -   Windows 10
 -   Windows Server 2016
 
-Découvrez comment utiliser des appareils NVMe à haut débit à partir de votre application Windows. L’accès aux appareils est activé via **StorNVMe.sys**, le pilote intégré introduit pour la première fois dans Windows Server 2012 R2 et Windows 8.1. Elle est également disponible pour les appareils Windows 7 via un correctif logiciel de base de connaissances. Dans Windows 10, plusieurs nouvelles fonctionnalités ont été introduites, notamment un mécanisme direct pour les commandes NVMe spécifiques au fournisseur et les mises à jour des IOCTL existants.
+découvrez comment utiliser des appareils NVMe à haut débit à partir de votre application Windows. l’accès aux appareils est activé via **StorNVMe.sys**, le pilote intégré introduit pour la première fois dans Windows Server 2012 R2 et Windows 8.1. il est également disponible pour Windows 7 appareils via un correctif logiciel de base de connaissances. dans Windows 10, plusieurs nouvelles fonctionnalités ont été introduites, notamment un mécanisme direct pour les commandes NVMe spécifiques au fournisseur et les mises à jour des ioctl existants.
 
 Cette rubrique fournit une vue d’ensemble des API d’utilisation générale que vous pouvez utiliser pour accéder aux lecteurs NVMe dans Windows 10. Elle décrit également les éléments suivants :
 
@@ -74,7 +74,7 @@ Vous pouvez utiliser les API d’utilisation générale suivantes pour accéder 
 
 Les commandes qui ne sont pas définies dans la spécification NVMe sont les plus difficiles à gérer par le système d’exploitation hôte : l’hôte n’a pas d’informations sur les effets que les commandes peuvent avoir sur l’appareil cible, l’infrastructure exposée (espaces de noms/tailles de bloc) et son comportement.
 
-Pour mieux transporter de telles commandes spécifiques à des appareils via la pile de stockage Windows, un nouveau mécanisme direct permet de transférer les commandes spécifiques au fournisseur. Ce canal direct vous aide également à développer des outils de gestion et de test. Toutefois, ce mécanisme direct nécessite l’utilisation du journal des effets de commande. En outre, StoreNVMe.sys nécessite que toutes les commandes, et non pas uniquement les commandes de transfert, soient décrites dans le journal des effets de commande.
+pour mieux transporter de telles commandes spécifiques à des appareils via la pile de stockage Windows, un nouveau mécanisme direct permet de transférer les commandes spécifiques au fournisseur. Ce canal direct vous aide également à développer des outils de gestion et de test. Toutefois, ce mécanisme direct nécessite l’utilisation du journal des effets de commande. En outre, StoreNVMe.sys nécessite que toutes les commandes, et non pas uniquement les commandes de transfert, soient décrites dans le journal des effets de commande.
 
 > [!IMPORTANT]
 > StorNVMe.sys et Storport.sys bloquent toute commande sur un appareil s’il n’est pas décrit dans le journal des effets de commande.
@@ -118,7 +118,7 @@ Dans le **cas contraire**, la commande est envoyée avec d’autres commandes en
 
 ### <a name="using-ioctl_storage_protocol_command-to-send-commands"></a>Utilisation \_ de la \_ \_ commande du protocole de stockage ioctl pour envoyer des commandes
 
-Le transfert direct peut être effectué à l’aide de la [**\_ commande de \_ protocole \_ de stockage IOCTL**](/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command), introduite dans Windows 10. Cette IOCTL a été conçue pour avoir un comportement similaire à celui des IOCTL pass-through SCSI et ATA existants, pour envoyer une commande incorporée à l’appareil cible. Via cette IOCTL, l’envoi direct peut être envoyé à un périphérique de stockage, y compris un lecteur NVMe.
+Le transfert direct peut être effectué à l’aide de la [**\_ commande du \_ protocole \_ de stockage IOCTL**](/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_protocol_command), introduite dans Windows 10. Cette IOCTL a été conçue pour avoir un comportement similaire à celui des IOCTL pass-through SCSI et ATA existants, pour envoyer une commande incorporée à l’appareil cible. Via cette IOCTL, l’envoi direct peut être envoyé à un périphérique de stockage, y compris un lecteur NVMe.
 
 Par exemple, dans NVMe, l’IOCTL autorise l’envoi des codes de commande suivants.
 
@@ -172,21 +172,21 @@ Enfin, cette IOCTL directe est destinée à l’envoi de commandes spécifiques 
 
 Les commandes de téléchargement et d’activation du microprogramme ne doivent pas être envoyées à l’aide de direct. **IOCTL \_ La \_ \_ commande de protocole de stockage** doit être utilisée uniquement pour les commandes spécifiques au fournisseur.
 
-Au lieu de cela, utilisez les opérations d’IOCTL de stockage générales suivantes (introduites dans Windows 10) pour éviter les applications directement à l’aide \_ de la version de miniport SCSI de l’IOCTL du microprogramme. Les pilotes de stockage traduisent l’IOCTL en une commande SCSI ou la \_ version de miniport SCSI de l’IOCTL sur le miniport.
+au lieu de cela, utilisez les ioctl de stockage générales suivantes (introduites dans Windows 10) pour éviter des applications directement à l’aide \_ de la version de miniport SCSI de l’IOCTL du microprogramme. Stockage pilotes traduisent l’ioctl en commande scsi ou la \_ version de miniport scsi de l’ioctl sur le miniport.
 
-Ces IOCTL sont recommandées pour développer les outils de mise à niveau de microprogramme dans Windows 10 et Windows Server 2016 :
+ces ioctl sont recommandées pour développer des outils de mise à niveau de microprogramme dans Windows 10 et Windows Server 2016 :
 
 -   [**\_informations de \_ récupération du microprogramme de stockage IOCTL \_ \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_get_info)
 -   [**\_ \_ Téléchargement du microprogramme de stockage IOCTL \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_download)
 -   [**\_ \_ activation du microprogramme de stockage IOCTL \_**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_firmware_activate)
 
-Pour obtenir des informations de stockage et mettre à jour le microprogramme, Windows prend également en charge les applets de commande PowerShell pour effectuer cette tâche rapidement :
+pour obtenir des informations de stockage et mettre à jour le microprogramme, Windows prend également en charge les applets de commande PowerShell pour effectuer cette tâche rapidement :
 
 -   `Get-StorageFirmwareInfo`
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> Pour mettre à jour le microprogramme sur NVMe dans Windows 8.1, utilisez le \_ \_ microprogramme de miniport SCSI IOCTL \_ . Cette IOCTL n’a pas été reportée vers Windows 7. Pour plus d’informations, consultez [mise à niveau du microprogramme d’un appareil NVMe dans Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
+> pour mettre à jour le microprogramme sur NVMe dans Windows 8.1, utilisez le \_ \_ microprogramme de miniport SCSI IOCTL \_ . cette IOCTL n’a pas été reportée à Windows 7. Pour plus d’informations, consultez [mise à niveau du microprogramme d’un appareil NVMe dans Windows 8.1](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device).
 
  
 
@@ -243,9 +243,9 @@ Dans cet exemple, nous nous attendons à ce que `protocolCommand->ReturnStatus =
 
 ## <a name="protocol-specific-queries"></a>Requêtes spécifiques au protocole
 
-Windows 8.1 a introduit la [**\_ propriété de \_ requête \_ de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) pour la récupération des données. Dans Windows 10, l’IOCTL a été améliorée pour prendre en charge les fonctionnalités NVMe couramment demandées, telles que les **pages de journalisation**, les **fonctionnalités d’extraction** et l' **identification**. Cela permet la récupération d’informations spécifiques à NVMe à des fins de surveillance et d’inventaire.
+Windows 8.1 a introduit la [**\_ propriété de \_ requête \_ de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) pour la récupération des données. dans Windows 10, l’IOCTL a été améliorée pour prendre en charge les fonctionnalités NVMe couramment demandées, telles que les **Pages de journalisation**, les **fonctionnalités d’extraction** et l' **identification**. Cela permet la récupération d’informations spécifiques à NVMe à des fins de surveillance et d’inventaire.
 
-La mémoire tampon d’entrée pour la [**\_ \_ requête de propriété de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) ioctl (à partir de Windows 10) est présentée ici.
+la mémoire tampon d’entrée pour la [**\_ \_ requête de propriété de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) IOCTL (Windows 10) est présentée ici.
 
 
 ```C++
@@ -268,7 +268,7 @@ Lorsque vous utilisez la [**\_ propriété de \_ requête \_ de stockage IOCTL**
 
 -   Remplissez la structure de [**\_ \_ \_ données spécifique au protocole de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) avec les valeurs souhaitées. Le début des **\_ \_ \_ données spécifiques au protocole de stockage** est le champ **AdditionalParameters** de la [**\_ \_ requête de propriété de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query).
 
-La [**structure \_ \_ des \_ données spécifiques au protocole de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) (à partir de Windows 10) est indiquée ici.
+la structure de [**\_ \_ \_ données spécifique au protocole de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) (à partir de Windows 10) est indiquée ici.
 
 
 ```C++
@@ -302,6 +302,10 @@ Pour spécifier un type d’informations propres au protocole NVMe, configurez l
     -   Utilisez **NVMeDataTypeFeature** pour récupérer les fonctionnalités du lecteur NVMe.
 
 Lorsque **ProtocolTypeNVMe** est utilisé comme le **ProtocolType**, les requêtes relatives aux informations spécifiques au protocole peuvent être récupérées en parallèle avec d’autres e/s sur le lecteur NVMe.
+
+> [!IMPORTANT]
+> Pour une [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) qui utilise une **STORAGE_PROPERTY_ID** de [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), et dont la structure [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) ou [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) a `ProtocolType=ProtocolTypeNvme` la valeur et `DataType=NVMeDataTypeLogPage` , définissez le membre ProtocolDataLength de cette même structure sur une valeur minimale de 512 (octets).
+
 
 Les exemples suivants illustrent des requêtes spécifiques au protocole NVMe.
 
@@ -419,20 +423,22 @@ Dans cet exemple, la demande d' **identification** est envoyée à un lecteur NV
             _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Identify Controller Data not valid.\n"));
             goto exit;
         } else {
-            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Identify Controller Data succeeded_*_.\n"));
+            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Identify Controller Data succeeded***.\n"));
         }
     }
 
   
 ```
 
+> [!IMPORTANT]
+> Pour une [**IOCTL_STORAGE_QUERY_PROPERTY**](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) qui utilise une **STORAGE_PROPERTY_ID** de [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id), et dont la structure [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data) ou [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext) a `ProtocolType=ProtocolTypeNvme` la valeur et `DataType=NVMeDataTypeLogPage` , définissez le membre ProtocolDataLength de cette même structure sur une valeur minimale de 512 (octets).
 
 
 Notez que l’appelant doit allouer une seule mémoire tampon contenant \_ \_ la requête de propriété de stockage et la taille des \_ données spécifiques au protocole de stockage \_ \_ . Dans cet exemple, il utilise la même mémoire tampon pour l’entrée et la sortie de la requête de propriété. C’est la raison pour laquelle la mémoire tampon qui a été allouée a une taille de « décalage de champ \_ (requête de propriété de stockage \_ \_ , AdditionalParameters) + sizeof ( \_ données spécifiques au protocole de stockage \_ \_ ) + \_ taille maximale des \_ journaux NVME \_ ». Bien qu’il soit possible d’allouer des tampons distincts à la fois pour l’entrée et la sortie, nous vous recommandons d’utiliser une seule mémoire tampon pour interroger les informations relatives à NVMe.
 
 ### <a name="example-nvme-get-log-pages-query"></a>Exemple : requête des pages du journal d’extraction NVMe
 
-Dans cet exemple, en fonction de la précédente, la requête _ *obtenir le journal des pages** est envoyée à un lecteur NVMe. Le code suivant prépare la structure des données de la requête, puis envoie la commande à l’appareil via DeviceIoControl.
+Dans cet exemple, en se basant sur la précédente, la demande **obtenir des pages de journal** est envoyée à un lecteur NVMe. Le code suivant prépare la structure des données de la requête, puis envoie la commande à l’appareil via DeviceIoControl.
 
 
 ```C++
@@ -499,7 +505,7 @@ Dans cet exemple, en fonction de la précédente, la requête _ *obtenir le jour
 
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: SMART/Health Information Log Data - Temperature %d.\n"), ((ULONG)smartInfo->Temperature[1] << 8 | smartInfo->Temperature[0]) - 273);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_SMART/Health Information Log succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***SMART/Health Information Log succeeded***.\n"));
     }
 
 ```
@@ -508,7 +514,7 @@ Dans cet exemple, en fonction de la précédente, la requête _ *obtenir le jour
 
 ### <a name="example-nvme-get-features-query"></a>Exemple : requête obtenir des fonctionnalités NVMe
 
-Dans cet exemple, en fonction de la précédente, la demande _ *obtenir des fonctionnalités** est envoyée à un lecteur NVMe. Le code suivant prépare la structure des données de la requête, puis envoie la commande à l’appareil via DeviceIoControl.
+Dans cet exemple, en fonction de la précédente, la demande **obtenir des fonctionnalités** est envoyée à un lecteur NVMe. Le code suivant prépare la structure des données de la requête, puis envoie la commande à l’appareil via DeviceIoControl.
 
 
 ```C++
@@ -568,12 +574,12 @@ Dans cet exemple, en fonction de la précédente, la demande _ *obtenir des fonc
     {
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Get Feature - Volatile Cache - %x.\n"), protocolDataDescr->ProtocolSpecificData.FixedProtocolReturnData);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Get Feature - Volatile Cache succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Get Feature - Volatile Cache succeeded***.\n"));
     }
 ```
 ## <a name="protocol-specific-set"></a>Ensemble spécifique au protocole
 
-À partir de Windows 10 19H1, le IOCTL_STORAGE_SET_PROPERTY a été amélioré pour prendre en charge les fonctionnalités Set NVMe.
+à partir de Windows 10 19H1, le IOCTL_STORAGE_SET_PROPERTY a été amélioré pour prendre en charge les fonctionnalités SET NVMe.
 
 La mémoire tampon d’entrée pour le IOCTL_STORAGE_SET_PROPERTY est présentée ici :
 
@@ -598,7 +604,7 @@ typedef struct _STORAGE_PROPERTY_SET {
 
     UCHAR AdditionalParameters[1];
 
-} STORAGE_PROPERTY_SET, _PSTORAGE_PROPERTY_SET;
+} STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET;
 ```
 
 Quand vous utilisez IOCTL_STORAGE_SET_PROPERTY pour définir la fonctionnalité NVMe, configurez la structure STORAGE_PROPERTY_SET comme suit :
@@ -696,7 +702,7 @@ Dans cet exemple, la demande Set features est envoyée à un lecteur NVMe. Le co
 
 ## <a name="temperature-queries"></a>Requêtes de température
 
-Dans Windows 10, [**la \_ \_ \_ propriété requête de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) peut également être utilisée pour interroger des données de température à partir d’appareils NVMe.
+dans Windows 10, [**la \_ \_ \_ propriété de requête de stockage IOCTL**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) peut également être utilisée pour interroger les données de température à partir d’appareils NVMe.
 
 Pour récupérer les informations de température d’un lecteur NVMe dans le [**\_ \_ \_ descripteur des données de température de stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor), configurez la structure de la [**\_ \_ requête de propriété de stockage**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) comme suit :
 
@@ -706,7 +712,7 @@ Pour récupérer les informations de température d’un lecteur NVMe dans le [*
 
 -   Définissez le champ **QueryType** sur **PropertyStandardQuery**.
 
-La structure d' [**\_ \_ informations sur la température de stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) (à partir de Windows 10) est indiquée ici.
+la structure d' [**\_ \_ informations sur la température de stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) (à partir de Windows 10) est indiquée ici.
 
 
 ```C++
@@ -732,11 +738,11 @@ typedef struct _STORAGE_TEMPERATURE_INFO {
 
 Les commandes qui manipulent les attributs de l’appareil ou qui peuvent avoir un impact sur le comportement de l’appareil sont plus difficiles à traiter par le système d’exploitation. Si les attributs de l’appareil changent au moment de l’exécution pendant le traitement des e/s, des problèmes de synchronisation ou d’intégrité des données peuvent survenir si le traitement n’est pas correct.
 
-La commande **Set-featurs** NVMe est un bon exemple de commande de changement de comportement. Il permet de modifier le mécanisme d’arbitrage et le paramétrage des seuils de température. Pour s’assurer que les données en cours ne sont pas menacées lorsque des commandes SET affectant le comportement sont envoyées, Windows suspend toutes les e/s sur l’appareil NVMe, draine les files d’attente et vide les tampons. Une fois l’exécution de la commande set terminée, l’e/s reprend (si possible). Si les e/s ne peuvent pas être reprises, une réinitialisation de l’appareil peut être nécessaire.
+La commande **Set-featurs** NVMe est un bon exemple de commande de changement de comportement. Il permet de modifier le mécanisme d’arbitrage et le paramétrage des seuils de température. pour s’assurer que les données en cours ne sont pas menacées lorsque des commandes set affectant le comportement sont envoyées, Windows suspendent toutes les e/s sur l’appareil NVMe, drainent les files d’attente et vident les mémoires tampons. Une fois l’exécution de la commande set terminée, l’e/s reprend (si possible). Si les e/s ne peuvent pas être reprises, une réinitialisation de l’appareil peut être nécessaire.
 
 ### <a name="setting-temperature-thresholds"></a>Définition des seuils de température
 
-Windows 10 a introduit le [**seuil de température du \_ jeu de stockage \_ \_ \_ IOCTL**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold), une ioctl pour l’obtention et la définition des seuils de température. Vous pouvez également l’utiliser pour récupérer la température actuelle de l’appareil. La mémoire tampon d’entrée/sortie pour cette IOCTL est la structure d' [**\_ \_ informations sur la température du stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) , à partir de la section de code précédente.
+Windows 10 introduit [**le \_ \_ seuil de \_ température \_ du jeu de stockage ioctl**](/windows/desktop/api/WinIoctl/ni-winioctl-ioctl_storage_set_temperature_threshold), une IOCTL pour l’obtention et la définition des seuils de température. Vous pouvez également l’utiliser pour récupérer la température actuelle de l’appareil. La mémoire tampon d’entrée/sortie pour cette IOCTL est la structure d' [**\_ \_ informations sur la température du stockage**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) , à partir de la section de code précédente.
 
 ### <a name="example-setting-over-threshold-temperature"></a>Exemple : définition de la température sur seuil
 
@@ -782,7 +788,7 @@ Le journal des effets de commandes n’est pas encore suffisamment granulaire po
 
 ## <a name="header-files"></a>Fichiers d’en-tête
 
-Les fichiers suivants s’appliquent au développement NVMe. Ces fichiers sont fournis avec le [Kit de développement logiciel (SDK) Microsoft Windows](https://developer.microsoft.com/windows/downloads).
+Les fichiers suivants s’appliquent au développement NVMe. ces fichiers sont fournis avec le [kit de développement logiciel (SDK) de Microsoft Windows](https://developer.microsoft.com/windows/downloads).
 
 
 

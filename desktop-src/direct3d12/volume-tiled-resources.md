@@ -5,30 +5,24 @@ ms.assetid: F670D15D-BC0F-4F90-99C1-A35192FE8980
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42679155bbd8dc2cec560d2724e430c860f54bc0
-ms.sourcegitcommit: 05e7efd3d8de6926d08802669f37e825a2fa2f46
+ms.openlocfilehash: cf5371926b38415a84803155c67ea70ed902b915
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/12/2020
-ms.locfileid: "104548504"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436304"
 ---
 # <a name="volume-tiled-resources-direct3d-12"></a>Ressources en mosaïque de volume (Direct3D 12)
 
 Les textures de volume (3D) peuvent être utilisées en tant que ressources en mosaïque, en notant que la résolution des vignettes est à trois dimensions.
 
--   [Vue d'ensemble](#overview)
--   [API de ressources en mosaïque](#tiled-resource-apis)
--   [Rubriques connexes](#related-topics)
-
 ## <a name="overview"></a>Vue d’ensemble
 
-Les ressources en mosaïque découplent un objet ressource D3D de la mémoire de stockage (les ressources du passé ont une relation 1:1 avec leur mémoire de stockage). Cela permet un large éventail de scénarios intéressants, tels que la diffusion en continu dans les données de texture et la réutilisation ou la réduction de l’utilisation de la mémoire.
+Les ressources en mosaïque découplent un objet de ressource Direct3D de sa mémoire de sauvegarde (les ressources du passé ont une relation 1:1 avec leur mémoire de stockage). Cela permet un large éventail de scénarios intéressants, tels que la diffusion en continu dans les données de texture et la réutilisation ou la réduction de l’utilisation de la mémoire.
 
-les ressources en mosaïque de texture 2D sont prises en charge dans D3D 11.2. La prise en charge facultative des textures en mosaïque 3D est disponible pour D3D12 et D3D 11,3 (reportez-vous au [**\_ niveau des \_ ressources \_ en mosaïque D3D12**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier)).
+les ressources en mosaïque de texture 2D sont prises en charge dans Direct3D 11,2. La prise en charge facultative des textures en mosaïque 3D est disponible pour Direct3D 12 et Direct3D 11,3 (reportez-vous à [**D3D12_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier)).
 
 Les dimensions de ressource typiques utilisées dans la mosaïque sont les vignettes de 4 x 4 pour les textures 2D et les vignettes 4 x 4 x 4 pour les textures 3D.
-
-
 
 | Bits/pixel (1 échantillon/pixel) | Dimensions de la mosaïque (pixels, x h x d) |
 |-----------------------------|-------------------------------------|
@@ -40,22 +34,22 @@ Les dimensions de ressource typiques utilisées dans la mosaïque sont les vigne
 | BC 1, 4                      | 128x64x16                           |
 | BC 2, 3, 5, 6, 7                | 64x64x16                            |
 
-Notez que les formats suivants ne sont pas pris en charge avec les ressources en mosaïque : formats 96bpp, formats vidéo, R1 \_ UNORM, R8G8 \_ B8G8 \_ UNORM, R8R8 G8B8 \_ \_ UNORM.
+Notez que les formats suivants ne sont pas pris en charge avec les ressources en mosaïque : les formats 96bpp, les formats vidéo, les **R1_UNORM**, les **R8G8_B8G8_UNORM** **R8R8_G8B8_UNORM**.
 
-Dans les diagrammes ci-dessous, gris foncé représente des vignettes NULL.
+Dans les diagrammes ci-dessous, le gris foncé représente des vignettes NULL.
 
--   [Mappage par défaut des ressources en mosaïque 3D de la texture (MIP le plus détaillé)](#texture-3d-tiled-resource-default-mapping-most-detailed-mip)
--   [Mappage par défaut des ressources en mosaïque 3D de la texture (deuxième MIP le plus détaillé)](#texture-3d-tiled-resource-default-mapping-second-most-detailed-mip)
--   [Ressource mosaïque 3D de texture (MIP le plus détaillé)](#texture-3d-tiled-resource-most-detailed-mip)
--   [Ressource mosaïque 3D de texture (deuxième MIP le plus détaillé)](#texture-3d-tiled-resource-second-most-detailed-mip)
--   [Ressource mosaïque 3D de texture (vignette simple)](#texture-3d-tiled-resource-single-tile)
--   [Ressource mosaïque 3D de texture (zone uniforme)](#texture-3d-tiled-resource-uniform-box)
+* [Mappage par défaut des ressources en mosaïque 3D de la texture (MIP le plus détaillé)](#texture-3d-tiled-resource-default-mapping-most-detailed-mip)
+* [Mappage par défaut des ressources en mosaïque 3D de la texture (deuxième MIP le plus détaillé)](#texture-3d-tiled-resource-default-mapping-second-most-detailed-mip)
+* [Ressource mosaïque 3D de texture (MIP le plus détaillé)](#texture-3d-tiled-resource-most-detailed-mip)
+* [Ressource mosaïque 3D de texture (deuxième MIP le plus détaillé)](#texture-3d-tiled-resource-second-most-detailed-mip)
+* [Ressource mosaïque 3D de texture (vignette simple)](#texture-3d-tiled-resource-single-tile)
+* [Ressource mosaïque 3D de texture (zone uniforme)](#texture-3d-tiled-resource-uniform-box)
 
 ### <a name="texture-3d-tiled-resource-default-mapping-most-detailed-mip"></a>Mappage par défaut des ressources en mosaïque 3D de la texture (MIP le plus détaillé)
 
-![mappage par défaut d’une ressource 3D en mosaïque](images/vtr-tex3d-default-1.png)
+![mappage par défaut d’une ressource à trois dimensions en mosaïque](images/vtr-tex3d-default-1.png)
 
-### <a name="texture-3d-tiled-resource-default-mapping-second-most-detailed-mip"></a>Mappage par défaut des ressources en mosaïque 3D de la texture (deuxième MIP le plus détaillé)
+### <a name="texture-3d-tiled-resource-default-mapping-second-most-detailed-mip"></a>Mappage par défaut des ressources en mosaïque 3D de la texture (deuxième MIP la plus détaillée)
 
 ![affiche le deuxième MIP le plus détaillé](images/vtr-tex3d-default-2.png)
 
@@ -63,25 +57,25 @@ Dans les diagrammes ci-dessous, gris foncé représente des vignettes NULL.
 
 Le code suivant configure une ressource en mosaïque 3D au MIP le plus détaillé.
 
-``` syntax
-D3D12_TILED_RESOURCE_COORDINATE trCoord;
+```cpp
+D3D12_TILED_RESOURCE_COORDINATE trCoord{};
 trCoord.X = 1;
 trCoord.Y = 0;
 trCoord.Z = 0;
 trCoord.Subresource = 0;
 
-D3D12_TILE_REGION_SIZE trSize;
+D3D12_TILE_REGION_SIZE trSize{};
 trSize.bUseBox = false;
 trSize.NumTiles = 63;
 ```
 
 ![MIP le plus détaillé pour une texture à trois dimensions](images/vtr-tex3d-default-1b.png)
 
-### <a name="texture-3d-tiled-resource-second-most-detailed-mip"></a>Ressource mosaïque 3D de texture (deuxième MIP le plus détaillé)
+### <a name="texture-3d-tiled-resource-second-most-detailed-mip"></a>Ressource mosaïque 3D de texture (deuxième MIP la plus détaillée)
 
-Le code suivant configure une ressource en mosaïque 3D et le deuxième MIP le plus détaillé :
+Le code suivant configure une ressource en mosaïque 3D et le deuxième MIP le plus détaillé.
 
-``` syntax
+```cpp
 D3D12_TILED_RESOURCE_COORDINATE trCoord;
 trCoord.X = 1;
 trCoord.Y = 0;
@@ -97,9 +91,9 @@ trSize.NumTiles = 6;
 
 ### <a name="texture-3d-tiled-resource-single-tile"></a>Ressource mosaïque 3D de texture (vignette simple)
 
-Le code suivant configure une seule ressource de mosaïque :
+Le code suivant configure une seule ressource de mosaïque.
 
-``` syntax
+```cpp
 D3D12_TILED_RESOURCE_COORDINATE trCoord;
 trCoord.X = 1;
 trCoord.Y = 1;
@@ -114,13 +108,13 @@ trSize.Height = 3;
 trSize.Depth = 3;
 ```
 
-![une seule ressource à trois dimensions en mosaïque](images/vtr-tex3d-single.png)
+![une ressource à trois dimensions en une seule mosaïque](images/vtr-tex3d-single.png)
 
 ### <a name="texture-3d-tiled-resource-uniform-box"></a>Ressource mosaïque 3D de texture (zone uniforme)
 
 Le code suivant configure une ressource de zone en mosaïque uniforme (Notez l’instruction `trSize.bUseBox = true;) :`
 
-``` syntax
+```cpp
 D3D12_TILED_RESOURCE_COORDINATE trCoord;
 trCoord.X = 0;
 trCoord.Y = 1;
@@ -139,29 +133,30 @@ trSize.Depth = 3;
 
 ## <a name="tiled-resource-apis"></a>API de ressources en mosaïque
 
-Les mêmes appels d’API sont utilisés pour les ressources en mosaïque 2D et 3D :
+Les mêmes appels d’API sont utilisés pour les ressources en mosaïque 2D et 3D.
 
 Énumérations
 
--   [**D3D12 \_ Niveau des \_ ressources \_ en mosaïque**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier) : détermine le niveau de prise en charge des ressources en mosaïque.
--   [**D3D12 \_ FORMAT \_ de format**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_format_support2) de ressource : utilisé pour tester la prise en charge des ressources en mosaïque.
--   [**D3D12 \_ \_ \_ \_ Indicateurs de niveau de qualité**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_multisample_quality_level_flags) multi-échantillonnage : détermine la prise en charge des ressources en mosaïque dans une ressource à échantillonnage multiple.
--   [**D3D12 \_ \_ \_ Indicateurs de copie de vignette**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_tile_copy_flags) : contient des indicateurs pour la copie vers et à partir de ressources en mosaïque swizzled et de mémoires tampons linéaires.
+* [**D3D12_TILED_RESOURCES_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tiled_resources_tier) : détermine le niveau de prise en charge des ressources en mosaïque.
+* [**D3D12_FORMAT_SUPPORT2**](/windows/win32/api/d3d12/ne-d3d12-d3d12_format_support2) : utilisé pour tester la prise en charge des ressources en mosaïque.
+* [**D3D12_MULTISAMPLE_QUALITY_LEVEL_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_multisample_quality_level_flags) : détermine la prise en charge des ressources en mosaïque dans une ressource à échantillonnage multiple.
+* [**D3D12_TILE_COPY_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_tile_copy_flags) : contient des indicateurs pour la copie vers et à partir de ressources en mosaïque swizzled et de mémoires tampons linéaires.
 
 Structures
 
--   [**D3D12 \_ \_ \_ Coordonnée des ressources en mosaïque**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate) : contient la référence de coordonnée x, y et z et la référence de sous-ressource. Notez qu’il existe une structure d’assistance [**: \_ \_ \_ coordonnée de ressource en mosaïque CD3DX12**](cd3dx12-tiled-resource-coordinate.md).
--   [**D3D12 \_ \_ \_ Taille**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_region_size) de la zone de vignette : spécifie la taille et le nombre de vignettes de la région en mosaïque.
--   [**D3D12 \_ \_Forme de vignette**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_tile_shape) : la forme de la vignette est une largeur, une hauteur et une profondeur dans des texels.
--   [**D3D12 \_ \_ \_ \_ Options D3D12 de données**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) de la fonctionnalité : contient le niveau de la couche de ressources de mosaïques pris en charge et un booléen, *VolumeTiledResourcesSupported*, indique si les ressources en mosaïque de volume sont prises en charge.
+* [**D3D12_TILED_RESOURCE_COORDINATE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tiled_resource_coordinate) : contient les informations de référence sur les coordonnées x, y et z, ainsi que sur les sous-ressources. Notez qu’il existe une structure d’assistance : [**CD3DX12_TILED_RESOURCE_COORDINATE**](cd3dx12-tiled-resource-coordinate.md).
+* [**D3D12_TILE_REGION_SIZE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tile_region_size) : spécifie la taille et le nombre de vignettes de la région en mosaïque.
+* [**D3D12_TILE_SHAPE**](/windows/win32/api/d3d12/ns-d3d12-d3d12_tile_shape) : la forme de la vignette est une largeur, une hauteur et une profondeur dans les texels.
+* [**D3D12_FEATURE_DATA_D3D12_OPTIONS**](/windows/win32/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options) : contient le niveau de la ressource de mosaïque pris en charge et un booléen, *VolumeTiledResourcesSupported*, indique si les ressources en mosaïque de volume sont prises en charge.
 
 Méthodes
 
--   [**ID3D12Device :: CheckFeatureSupport**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) : utilisé pour déterminer quelles fonctionnalités, et à quel niveau, sont prises en charge par le matériel actuel.
--   [**ID3D12GraphcisCommandList :: CopyTiles**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles) : copie les vignettes de la mémoire tampon vers la ressource en mosaïque, ou vice versa.
--   [**ID3D12CommandQueue :: UpdateTileMappings**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings) : met à jour les mappages des emplacements de mosaïques dans les ressources en mosaïque aux emplacements de mémoire dans un tas de ressources.
--   [**ID3D12CommandQueue :: CopyTileMappings**](/windows/desktop/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings) : copie les mappages d’une ressource en mosaïque source vers une ressource en mosaïque de destination.
--   [**ID3D12Device :: GetResourceTiling**](/windows/desktop/api/d3d12/nf-d3d12-id3d12device-getresourcetiling) : obtient des informations sur la façon dont une ressource en mosaïque est divisée en mosaïques.
+* [**ID3D12Device :: CheckFeatureSupport**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-checkfeaturesupport) : utilisé pour déterminer quelles fonctionnalités, et à quel niveau, sont prises en charge par le matériel actuel.
+* [**ID3D12GraphicsCommandList :: CopyTiles**](/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytiles) : copie les vignettes de la mémoire tampon vers la ressource en mosaïque, ou vice versa.
+* [**ID3D12CommandQueue :: UpdateTileMappings**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-updatetilemappings) : met à jour les mappages des emplacements de mosaïques dans les ressources en mosaïque aux emplacements de mémoire dans un tas de ressources.
+* [**ID3D12CommandQueue :: CopyTileMappings**](/windows/win32/api/d3d12/nf-d3d12-id3d12commandqueue-copytilemappings) : copie les mappages d’une ressource en mosaïque source vers une ressource en mosaïque de destination.
+* [**ID3D12Device :: GetResourceTiling**](/windows/win32/api/d3d12/nf-d3d12-id3d12device-getresourcetiling) : obtient des informations sur la façon dont une ressource en mosaïque est divisée en mosaïques.
 
 ## <a name="related-topics"></a>Rubriques connexes
+
 * [Liaison de ressource](resource-binding.md)

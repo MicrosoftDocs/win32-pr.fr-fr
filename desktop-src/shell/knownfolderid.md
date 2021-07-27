@@ -5,18 +5,18 @@ title: KNOWNFOLDERID (fichier KnownFolders. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 97748d074d6b0982708f51ea679f0629e8abfad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
-ms.translationtype: HT
+ms.openlocfilehash: eb4b6ef46179abbe515edfcd323a349c7d091ac9
+ms.sourcegitcommit: c8f1dc81483739b697c96ae97ca533028efc3b2c
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104982858"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "114656877"
 ---
 # <a name="knownfolderid"></a>KNOWNFOLDERID
 
-Les constantes **KNOWNFOLDERID** représentent des GUID qui identifient les dossiers standard enregistrés avec le système comme [dossiers connus](known-folders.md). Ces dossiers sont installés avec Windows Vista et les systèmes d’exploitation ultérieurs, et un ordinateur ne dispose que de dossiers appropriés. Pour obtenir une description de ces dossiers, consultez [**CSIDL**](csidl.md).
+Les constantes **KNOWNFOLDERID** représentent des GUID qui identifient les dossiers standard enregistrés avec le système comme [dossiers connus](known-folders.md). ces dossiers sont installés avec Windows Vista et les systèmes d’exploitation ultérieurs, et un ordinateur ne dispose que de dossiers appropriés. Pour obtenir une description de ces dossiers, consultez [**CSIDL**](csidl.md).
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 ```c
 HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *prf)
@@ -56,7 +56,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 ```
 
-Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) sur GitHub.
+exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) sur GitHub.
 
 ## <a name="constants"></a>Constantes
 
@@ -84,7 +84,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{008ca0b1-55b4-4c56-b8a8-4de4b299d3be}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images de compte</td>
 </tr>
 <tr class="odd">
@@ -93,7 +93,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\AccountPictures</td>
+<td>%APPDATA%\Microsoft\ Windows \AccountPictures</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -122,7 +122,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{de61d971-5ebc-4f02-a3a9-6c82895e5c04}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Télécharger des programmes</td>
 </tr>
 <tr class="odd">
@@ -135,7 +135,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -160,7 +160,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{724EF170-A42D-4FEF-9F26-B60E846FBA4F}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Outils d'administration</td>
 </tr>
 <tr class="odd">
@@ -169,7 +169,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Outils \ outils d'%APPDATA%\Microsoft\Windows\Start</td>
+<td>%APPDATA%\Microsoft\ Windows \menu démarrer \ outils \ outils</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -198,7 +198,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{B2C5E279-7ADD-439F-B28C-C41FE1BBF672}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>AppDataDesktop</td>
 </tr>
 <tr class="odd">
@@ -211,7 +211,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 10, version 1709</td>
+<td>aucun, valeur introduite dans Windows 10, version 1709</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -237,7 +237,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{7BE16610-1F7F-44AC-BFF0-83E15F2FFCA1}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>AppDataDocuments</td>
 </tr>
 <tr class="odd">
@@ -250,7 +250,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 10, version 1709</td>
+<td>aucun, valeur introduite dans Windows 10, version 1709</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -276,7 +276,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{7CFBEFBC-DE1F-45AA-B843-A542AC536CC9}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>AppDataFavorites</td>
 </tr>
 <tr class="odd">
@@ -289,7 +289,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 10, version 1709</td>
+<td>aucun, valeur introduite dans Windows 10, version 1709</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -315,7 +315,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{559D40A3-A036-40FA-AF61-84CB430A4D34}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>AppDataProgramData</td>
 </tr>
 <tr class="odd">
@@ -328,7 +328,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 10, version 1709</td>
+<td>aucun, valeur introduite dans Windows 10, version 1709</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -354,7 +354,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{A3918781-E5F2-4890-B3D9-A7E54332328C}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Raccourcis d’application</td>
 </tr>
 <tr class="odd">
@@ -363,7 +363,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Application les raccourcis</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \application, raccourcis</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -392,7 +392,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{1e87508d-89c2-42f0-8a7e-645a0f50ca58}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Applications</td>
 </tr>
 <tr class="odd">
@@ -430,7 +430,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{a305ce99-f527-492b-8b1a-7e76fa98d6e4}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Mises à jour installées</td>
 </tr>
 <tr class="odd">
@@ -443,11 +443,11 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Aucune, la valeur introduite dans Windows Vista. Dans les versions antérieures de Windows, les informations de cette page étaient incluses dans <strong>Ajout/suppression de programmes</strong> si la case à cocher <strong>afficher les mises à jour</strong> a été activée.</td>
+<td>aucune, valeur introduite dans Windows Vista. dans les versions antérieures de Windows, les informations de cette page étaient incluses dans <strong>ajout/suppression de programmes</strong> si la case à cocher <strong>afficher les mises à jour</strong> a été activée.</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
@@ -468,7 +468,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{AB5FB87B-7CE2-4F83-915D-550846C9537B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Pellicule</td>
 </tr>
 <tr class="odd">
@@ -506,7 +506,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{9E52AB10-F80D-49DF-ACB8-4330F5687855}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Dossier de gravure temporaire</td>
 </tr>
 <tr class="odd">
@@ -515,7 +515,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Burn\Burn</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Burn\Burn</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -527,7 +527,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>%USERPROFILE%\Local Settings\Application Data\Microsoft\CD, gravure</td>
+<td>%userprofile%\local Paramètres \application Data\Microsoft\CD burning</td>
 </tr>
 </tbody>
 </table>
@@ -544,7 +544,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{df7266ac-9274-4867-8d55-3bd661de872d}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Programmes et fonctionnalités</td>
 </tr>
 <tr class="odd">
@@ -557,7 +557,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -582,7 +582,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{D0384E7D-BAC3-4797-8F14-CBA229B392B5}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Outils d'administration</td>
 </tr>
 <tr class="odd">
@@ -591,7 +591,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Outils \ outils d'%ALLUSERSPROFILE%\Microsoft\Windows\Start</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \menu démarrer \ outils \ outils</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -620,7 +620,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{C1BAE2D0-10DF-4334-LITIÈRE-7AA20B227A9D}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Liens OEM</td>
 </tr>
 <tr class="odd">
@@ -658,7 +658,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{0139D44E-6AFE-49F2-8690-3DAFCAE6FFB8}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Programmes</td>
 </tr>
 <tr class="odd">
@@ -667,7 +667,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Start \</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \menu démarrer \</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -696,7 +696,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{A4115719-D62E-491D-AA7C-E74B8BE3B067}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Menu Démarrer</td>
 </tr>
 <tr class="odd">
@@ -705,7 +705,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Menu%ALLUSERSPROFILE%\Microsoft\Windows\Start</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows Menu \menu démarrer</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -734,7 +734,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{82A5EA35-D9CD-47C5-9629-E15D2F714E6E}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Démarrage</td>
 </tr>
 <tr class="odd">
@@ -743,7 +743,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\StartUp</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \menu démarrer Menu\Programs\StartUp</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -772,7 +772,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{B94237E7-57AC-4347-9151-B08C6C32D1F7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Modèles</td>
 </tr>
 <tr class="odd">
@@ -781,7 +781,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Templates</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Templates</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -810,7 +810,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{0AC0837C-BBF8-452A-850D-79D08E667CA7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Computer</td>
 </tr>
 <tr class="odd">
@@ -848,7 +848,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{4bfefb45-347d-4006-A5be-ac0cb0567192}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Conflits</td>
 </tr>
 <tr class="odd">
@@ -861,11 +861,11 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Non applicable. Ce <strong>KNOWNFOLDERID</strong> fait référence au gestionnaire de synchronisation de Windows Vista. Ce n’est pas le dossier référencé par l’ancien <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a>.</td>
+<td>Non applicable. ce <strong>KNOWNFOLDERID</strong> fait référence au gestionnaire de synchronisation Windows Vista. Ce n’est pas le dossier référencé par l’ancien <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a>.</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
@@ -886,7 +886,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{6F0CD92B-2E97-45D1-88FF-B0D186B8DEDD}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Connexions réseau</td>
 </tr>
 <tr class="odd">
@@ -924,7 +924,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{56784854-C6CB-462b-8169-88E350ACB882}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Contacts</td>
 </tr>
 <tr class="odd">
@@ -937,7 +937,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -962,7 +962,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{82A74AEB-AEB4-465C-A014-D097EE346D63}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Control panel</td>
 </tr>
 <tr class="odd">
@@ -1000,7 +1000,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{2B0F765D-C0E9-4171-908E-08A611B84FF6}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Cookies</td>
 </tr>
 <tr class="odd">
@@ -1009,7 +1009,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Cookies</td>
+<td>%APPDATA%\Microsoft\ Windows \Cookies</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -1038,7 +1038,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bureau</td>
 </tr>
 <tr class="odd">
@@ -1076,7 +1076,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{5CE4A5E9-E4EB-479D-B89F-130C02886155}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>DeviceMetadataStore</td>
 </tr>
 <tr class="odd">
@@ -1085,11 +1085,11 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\DeviceMetadataStore</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \DeviceMetadataStore</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1114,7 +1114,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{FDD39AD0-238F-46AF-ADB4-6C85480369C7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Documents</td>
 </tr>
 <tr class="odd">
@@ -1152,7 +1152,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{7B0DB17D-9CD2-4A93-9733-46CC89022E7C}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Documents</td>
 </tr>
 <tr class="odd">
@@ -1161,11 +1161,11 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Documents.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Documents.library-ms</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1190,7 +1190,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{374DE290-123F-4565-9164-39C4925E467B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Téléchargements</td>
 </tr>
 <tr class="odd">
@@ -1203,7 +1203,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1228,7 +1228,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{1777F761-68AD-4D8A-87BD-30B759FA33DD}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Favoris</td>
 </tr>
 <tr class="odd">
@@ -1266,8 +1266,8 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td>{FD228CB7-AE11-4AE3-864C-16F3910AB8FE}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
-<td>Polices</td>
+<td>Nom complet</td>
+<td>Fonts</td>
 </tr>
 <tr class="odd">
 <td>Type de dossier</td>
@@ -1283,7 +1283,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Polices</td>
+<td>Fonts</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
@@ -1299,7 +1299,7 @@ Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Wind
 <td style="text-align: left;"><div class="alert">
 <blockquote>
 [!Note]<br />
-Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérieures. Dans ces versions, elle retourne <strong>0x80070057-E_INVALIDARG</strong>
+ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérieures. Dans ces versions, elle retourne <strong>0x80070057-E_INVALIDARG</strong>
 </blockquote>
 </div>
 <div>
@@ -1313,7 +1313,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{CAC52C1A-B53D-4edc-92D7-6B2E8AC19434}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Jeux</td>
 </tr>
 <tr class="odd">
@@ -1326,7 +1326,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1351,7 +1351,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{054FAE61-4DD8-4787-80B6-090220C4B700}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>GameExplorer</td>
 </tr>
 <tr class="odd">
@@ -1360,11 +1360,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\GameExplorer</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \GameExplorer</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1389,7 +1389,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{D9DC8A3B-B784-432E-A781-5A1130A75963}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Historique</td>
 </tr>
 <tr class="odd">
@@ -1398,7 +1398,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\History</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \History</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -1410,7 +1410,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>%USERPROFILE%\Local Settings\History</td>
+<td>%userprofile%\local Paramètres \History</td>
 </tr>
 </tbody>
 </table>
@@ -1427,7 +1427,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{52528A6B-B9E3-4ADD-B60D-588C2DBA842D}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Groupement résidentiel</td>
 </tr>
 <tr class="odd">
@@ -1440,7 +1440,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1465,7 +1465,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{9B74B6A3-0DFD-4f11-9E78-5F7800F2E772}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Nom d’utilisateur de l’utilisateur (% USERNAME%)</td>
 </tr>
 <tr class="odd">
@@ -1503,7 +1503,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{BCB5256F-79F6-4CEE-B725-DC34E402FD46}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>ImplicitAppShortcuts</td>
 </tr>
 <tr class="odd">
@@ -1516,7 +1516,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1541,7 +1541,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{352481E8-33BE-4251-BA85-6007CAEDCF9D}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Fichiers Internet temporaires</td>
 </tr>
 <tr class="odd">
@@ -1550,7 +1550,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Fichiers Internet%LOCALAPPDATA%\Microsoft\Windows\Temporary</td>
+<td>fichiers Internet%LOCALAPPDATA%\Microsoft\ Windows \Temporary</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -1562,7 +1562,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>%USERPROFILE%\Local Settings\Temporary Internet Files</td>
+<td>%userprofile%\local Paramètres fichiers Internet \Temporary</td>
 </tr>
 </tbody>
 </table>
@@ -1579,7 +1579,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{4D9F7874-4E0C-4904-967B-40B0D20C3E4B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Internet</td>
 </tr>
 <tr class="odd">
@@ -1617,7 +1617,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{1B3EA5DC-B587-4786-B4EF-BD1DC332AEAE}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bibliothèques</td>
 </tr>
 <tr class="odd">
@@ -1626,11 +1626,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1655,7 +1655,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{bfb9d5e0-c6a9-404c-b2b2-ae6db6af4968}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Liens</td>
 </tr>
 <tr class="odd">
@@ -1668,7 +1668,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1693,7 +1693,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Local</td>
 </tr>
 <tr class="odd">
@@ -1714,7 +1714,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>%USERPROFILE%\Local Settings\Application Data</td>
+<td>%userprofile%\local Paramètres \application Data</td>
 </tr>
 </tbody>
 </table>
@@ -1731,7 +1731,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A520A1A4-1780-4FF6-BD18-167343C5AF16}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>LocalLow</td>
 </tr>
 <tr class="odd">
@@ -1744,7 +1744,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1769,8 +1769,8 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{2A00375E-224C-49DE-B8D1-440DF7EF3DDC}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
-<td>Aucun</td>
+<td>Nom complet</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td>Type de dossier</td>
@@ -1786,7 +1786,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
@@ -1807,7 +1807,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{4BD8D571-6D19-48D3-BE97-422220080E43}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Musique</td>
 </tr>
 <tr class="odd">
@@ -1816,7 +1816,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\Music</td>
+<td>% USERPROFILE% \ Musique</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -1824,11 +1824,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Ma musique</td>
+<td>mon Musique</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>%USERPROFILE%\My Documents\mes musique</td>
+<td>%USERPROFILE%\My documents\mes Musique</td>
 </tr>
 </tbody>
 </table>
@@ -1845,7 +1845,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{2112AB0A-C86A-4FFE-A368-0DE96E47012E}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Musique</td>
 </tr>
 <tr class="odd">
@@ -1854,11 +1854,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Music.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\ Musique. library-ms</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1883,7 +1883,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{C5ABBF53-E17F-4121-8900-86626FC2C973}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Raccourcis réseau</td>
 </tr>
 <tr class="odd">
@@ -1892,7 +1892,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Network les raccourcis</td>
+<td>%APPDATA%\Microsoft\ Windows \ raccourcis</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -1921,7 +1921,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{D20BEEC4-5CA8-4905-AE3B-BF251EA09B53}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Réseau</td>
 </tr>
 <tr class="odd">
@@ -1959,7 +1959,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{31C0DD25-9439-4F12-BF41-7FF4EDA38722}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Objets 3D</td>
 </tr>
 <tr class="odd">
@@ -1972,7 +1972,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 10, version 1703</td>
+<td>aucun, valeur introduite dans Windows 10, version 1703</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -1997,7 +1997,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{2C36C0AA-5812-4b87-BFD0-4CD0DFB19B39}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images d’origine</td>
 </tr>
 <tr class="odd">
@@ -2006,11 +2006,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Images%LOCALAPPDATA%\Microsoft\Windows photo Gallery\Original</td>
+<td>Images%LOCALAPPDATA%\Microsoft\ Windows Photo Gallery\Original</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2035,7 +2035,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{69D2CF90-FC33-4FB7-9A0C-EBB0F0FCB43C}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Diaporamas</td>
 </tr>
 <tr class="odd">
@@ -2048,7 +2048,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2073,7 +2073,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A990AE9F-A03B-4E80-94BC-9912D7504104}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images</td>
 </tr>
 <tr class="odd">
@@ -2082,11 +2082,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Pictures.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Pictures.library-ms</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2111,7 +2111,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{33E28130-4E1E-4676-835A-98395C3BC3BB}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images</td>
 </tr>
 <tr class="odd">
@@ -2149,7 +2149,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{DE92C1C7-837F-4F69-A3BB-86E631204A23}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Sélections</td>
 </tr>
 <tr class="odd">
@@ -2158,11 +2158,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\Music\Playlists</td>
+<td>% USERPROFILE% \ Musique \Playlists</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2187,7 +2187,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{76FC4E2D-D6AD-4519-A663-37BD56068185}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Imprimantes</td>
 </tr>
 <tr class="odd">
@@ -2225,7 +2225,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{9274BD8D-CFD1-41C3-B35E-B13F55A758F4}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Raccourcis de l’imprimante</td>
 </tr>
 <tr class="odd">
@@ -2234,7 +2234,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Printer les raccourcis</td>
+<td>%APPDATA%\Microsoft\ Windows les raccourcis \Printer</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -2263,7 +2263,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{5E6C858F-0E22-4760-9AFE-EA3317B67173}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Nom d’utilisateur de l’utilisateur (% USERNAME%)</td>
 </tr>
 <tr class="odd">
@@ -2284,7 +2284,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>% USERPROFILE% (%SystemDrive%\Documents and Settings \% nom_utilisateur%)</td>
+<td>% USERPROFILE% (%systemdrive%\documents and Paramètres \% nom_utilisateur%)</td>
 </tr>
 </tbody>
 </table>
@@ -2301,7 +2301,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{62AB5D82-FDC1-4DC3-A9DD-070D1D495D97}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>ProgramData</td>
 </tr>
 <tr class="odd">
@@ -2340,7 +2340,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{905e63b6-c1bf-494e-b29c-65b732d3d21a}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Program Files</td>
 </tr>
 <tr class="odd">
@@ -2379,7 +2379,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{6D809377-6AF0-444b-8957-A3773F02200E}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Program Files</td>
 </tr>
 <tr class="odd">
@@ -2392,7 +2392,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2418,7 +2418,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{7C5A40EF-A0FB-4BFC-874A-C0F2E0B9FA8E}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Program Files</td>
 </tr>
 <tr class="odd">
@@ -2457,7 +2457,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{F7F1ED05-9F6D-47A2-AAAE-29D317C6F066}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Fichiers communs</td>
 </tr>
 <tr class="odd">
@@ -2496,7 +2496,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{6365D5A7-0F0D-45E5-87F6-0DA56B6A4F7D}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Fichiers communs</td>
 </tr>
 <tr class="odd">
@@ -2509,7 +2509,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2535,7 +2535,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{DE974D24-D9C6-4D3E-BF91-F4455120B917}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Fichiers communs</td>
 </tr>
 <tr class="odd">
@@ -2573,7 +2573,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A77F5D77-2E2B-44C3-A6A2-ABA601054A51}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Programmes</td>
 </tr>
 <tr class="odd">
@@ -2582,7 +2582,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start \</td>
+<td>%APPDATA%\Microsoft\ Windows \menu démarrer \</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -2611,7 +2611,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{DFDF76A2-C82A-4D63-906A-5644AC457385}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Public</td>
 </tr>
 <tr class="odd">
@@ -2624,7 +2624,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, nouveau pour Windows Vista</td>
+<td>aucun, nouveau pour Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2649,7 +2649,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{C4AA340D-F20F-4863-AFEF-F87EF2E6BA25}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bureau public</td>
 </tr>
 <tr class="odd">
@@ -2687,7 +2687,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{ED4824AF-DCE4-45A8-81E2-FC7965083634}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Documents publics</td>
 </tr>
 <tr class="odd">
@@ -2725,7 +2725,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{3D644C9B-1FB8-4f30-9B45-F670235F79C0}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Téléchargements publics</td>
 </tr>
 <tr class="odd">
@@ -2738,7 +2738,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2763,7 +2763,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{DEBF2536-E1A8-4c59-B6A2-414586476AEA}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>GameExplorer</td>
 </tr>
 <tr class="odd">
@@ -2772,11 +2772,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\GameExplorer</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \GameExplorer</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2801,7 +2801,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{48DAF80B-E6CF-4F4E-B800-0E69D84EE384}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bibliothèques</td>
 </tr>
 <tr class="odd">
@@ -2810,11 +2810,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Libraries</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Libraries</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2839,7 +2839,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{3214FAB5-9757-4298-BB61-92A9DEAA44FF}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Musique publique</td>
 </tr>
 <tr class="odd">
@@ -2848,7 +2848,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%PUBLIC%\Music</td>
+<td>% PUBLIC% \ Musique</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -2856,11 +2856,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Musique partagée</td>
+<td>Musique partagé</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>Musique%ALLUSERSPROFILE%\Documents\My</td>
+<td>%ALLUSERSPROFILE%\Documents\My Musique</td>
 </tr>
 </tbody>
 </table>
@@ -2877,7 +2877,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{B6EBFB86-6907-413C-9AF7-4FC2ABF07CC5}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images publiques</td>
 </tr>
 <tr class="odd">
@@ -2915,7 +2915,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{E555AB60-153B-4D17-9F04-A5FE99FC15EC}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Sonneries</td>
 </tr>
 <tr class="odd">
@@ -2924,11 +2924,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Ringtones</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Ringtones</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -2953,7 +2953,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{0482af6c-08f1-4c34-8c90-e17ec98b1e17}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images de compte public</td>
 </tr>
 <tr class="odd">
@@ -2991,7 +2991,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{2400183A-6185-49FB-A2D8-4A392A602BA3}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Vidéos publiques</td>
 </tr>
 <tr class="odd">
@@ -3029,7 +3029,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{52a4f021-7b75-48a9-9f6b-4b87a210bc8f}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Lancement rapide</td>
 </tr>
 <tr class="odd">
@@ -3042,7 +3042,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3067,7 +3067,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{AE50C081-EBD2-438A-8655-8A092E34987A}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Éléments récents</td>
 </tr>
 <tr class="odd">
@@ -3076,7 +3076,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Recent</td>
+<td>%APPDATA%\Microsoft\ Windows \Recent</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3097,7 +3097,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTV"></span><span id="folderid_recordedtv"></span><span id="FOLDERID_RECORDEDTV"></span><dl> <dt><strong>FOLDERID_RecordedTV</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Non utilisé. Cette valeur n’est pas définie à partir de Windows 7.</p></td>
+<td style="text-align: left;"><p>Non utilisé. cette valeur n’est pas définie à partir de Windows 7.</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTVLibrary"></span><span id="folderid_recordedtvlibrary"></span><span id="FOLDERID_RECORDEDTVLIBRARY"></span><dl> <dt><strong>FOLDERID_RecordedTVLibrary</strong></dt> </dl></td>
@@ -3109,7 +3109,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{1A6FDBA2-F42D-4358-A798-B74D745926C5}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>TV enregistrée</td>
 </tr>
 <tr class="odd">
@@ -3122,7 +3122,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3147,7 +3147,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{B7534046-3ECB-4C18-BE4E-64CD4CB7D6AC}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Corbeille</td>
 </tr>
 <tr class="odd">
@@ -3185,7 +3185,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{8AD10C31-2ADB-4296-A8F7-E4701232C972}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Ressources</td>
 </tr>
 <tr class="odd">
@@ -3223,7 +3223,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{C870044B-F49E-4126-A9C3-B52A1FF411E8}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Sonneries</td>
 </tr>
 <tr class="odd">
@@ -3232,11 +3232,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Ringtones</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Ringtones</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3261,7 +3261,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{3EB685DB-65F9-4CF6-A03A-E3EF65729F3D}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Itinérance</td>
 </tr>
 <tr class="odd">
@@ -3299,7 +3299,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{AAA8D5A5-F1D6-4259-BAA8-78E7EF60835E}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>RoamedTileImages</td>
 </tr>
 <tr class="odd">
@@ -3308,7 +3308,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\RoamedTileImages</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \RoamedTileImages</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3337,7 +3337,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{00BCFC5A-ED94-4e48-96A1-3F6217F21990}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>RoamingTiles</td>
 </tr>
 <tr class="odd">
@@ -3346,7 +3346,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\RoamingTiles</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \RoamingTiles</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3375,8 +3375,8 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{B250C668-F57D-4EE1-A63C-290EE7D1AA1F}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
-<td>Exemple de musique</td>
+<td>Nom complet</td>
+<td>exemple de Musique</td>
 </tr>
 <tr class="odd">
 <td>Type de dossier</td>
@@ -3384,19 +3384,19 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Musique%PUBLIC%\Music\Sample</td>
+<td>% PUBLIC% \ Musique \Sample Musique</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
-<td>Exemple de musique</td>
+<td>exemple de Musique</td>
 </tr>
 <tr class="odd">
 <td>Chemin d’accès par défaut hérité</td>
-<td>Musique%ALLUSERSPROFILE%\Documents\My Music\Sample</td>
+<td>%ALLUSERSPROFILE%\Documents\My Musique \Sample Musique</td>
 </tr>
 </tbody>
 </table>
@@ -3413,7 +3413,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{C4900540-2379-4C75-844B-64E6FAF8716B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Exemples d’images</td>
 </tr>
 <tr class="odd">
@@ -3426,7 +3426,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3451,7 +3451,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{15CA69B3-30EE-49C1-ACE1-6B5EC372AFB5}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Exemples de sélections</td>
 </tr>
 <tr class="odd">
@@ -3460,11 +3460,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%PUBLIC%\Music\Sample playlists</td>
+<td>% Musique PUBLIC de playlists \Sample</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3489,7 +3489,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{859EAD94-2E85-48AD-A71A-0969CB56A6CD}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Exemples de vidéos</td>
 </tr>
 <tr class="odd">
@@ -3502,7 +3502,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3527,7 +3527,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{4C5C32FF-BB9D-43b0-B5B4-2D72E54EAAA4}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Parties enregistrées</td>
 </tr>
 <tr class="odd">
@@ -3540,7 +3540,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3565,7 +3565,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{3B193882-D3AD-4eab-965A-69829D1FB59F}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images enregistrées</td>
 </tr>
 <tr class="odd">
@@ -3578,7 +3578,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3603,7 +3603,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{E25B5812-BE88-4bd9-94B0-29233477B6C3}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bibliothèque d’images enregistrées</td>
 </tr>
 <tr class="odd">
@@ -3612,11 +3612,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATE%\Microsoft\Windows\Libraries\SavedPictures.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\SavedPictures.library-ms</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3641,7 +3641,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{7d1d3a04-debb-4115-95cf-2f29da2920da}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Recherches</td>
 </tr>
 <tr class="odd">
@@ -3654,7 +3654,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3679,8 +3679,8 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{b7bede81-df94-4682-a7d8-57a52620b86f}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
-<td>Captures d’écran.</td>
+<td>Nom complet</td>
+<td>Captures d’écran</td>
 </tr>
 <tr class="odd">
 <td>Type de dossier</td>
@@ -3717,7 +3717,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{ee32e446-31ca-4aba-814f-a5ebd2fd6d5e}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Fichiers hors connexion</td>
 </tr>
 <tr class="odd">
@@ -3730,7 +3730,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3755,7 +3755,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{0D4C3DB6-03A3-462F-A0E6-08924C41B5D4}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Historique</td>
 </tr>
 <tr class="odd">
@@ -3764,7 +3764,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\History</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \ConnectedSearch\History</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3793,7 +3793,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{190337d1-b8ca-4121-A639-6d472d16972a}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Résultats de la recherche</td>
 </tr>
 <tr class="odd">
@@ -3806,7 +3806,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3831,7 +3831,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{98ec0e18-2098-4d44-8644-66979315a281}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Microsoft Office Outlook</td>
 </tr>
 <tr class="odd">
@@ -3844,7 +3844,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3869,7 +3869,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{7E636BFE-DFA9-4D5E-B456-D7B39851D8A9}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Modèles</td>
 </tr>
 <tr class="odd">
@@ -3878,7 +3878,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\Templates</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \ConnectedSearch\Templates</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3907,7 +3907,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{8983036C-27C0-404B-8F08-102D10DCFD74}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>SendTo</td>
 </tr>
 <tr class="odd">
@@ -3916,7 +3916,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\SendTo</td>
+<td>%APPDATA%\Microsoft\ Windows \SendTo</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -3945,7 +3945,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{7B396E54-9EC5-4300-BE0A-2482EBAE1A26}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Gadgets</td>
 </tr>
 <tr class="odd">
@@ -3954,11 +3954,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ProgramFiles%\Windows Sidebar\Gadgets</td>
+<td>% ProgramFiles% \ Windows Sidebar\Gadgets</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, nouveau pour Windows 7</td>
+<td>aucun, nouveau pour Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -3983,7 +3983,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A75D362E-50FC-4fb7-AC2C-A8BEAA314493}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Gadgets</td>
 </tr>
 <tr class="odd">
@@ -3992,11 +3992,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows Sidebar\Gadgets</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows Sidebar\Gadgets</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, nouveau pour Windows 7</td>
+<td>aucun, nouveau pour Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4021,7 +4021,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A52BBA46-E9E1-435f-B3D9-28DAA648C0F6}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>OneDrive</td>
 </tr>
 <tr class="odd">
@@ -4030,7 +4030,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive</td>
+<td>% USERPROFILE% \ OneDrive</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4059,7 +4059,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{767E6811-49CB-4273-87C2-20F355E1085B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Pellicule</td>
 </tr>
 <tr class="odd">
@@ -4068,7 +4068,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Pictures\Camera Roll</td>
+<td>% USERPROFILE% \ OneDrive \Pictures\Camera Roll</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4097,7 +4097,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{24D89E24-2F19-4534-9DDE-6A6671FBB8FE}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Documents</td>
 </tr>
 <tr class="odd">
@@ -4106,7 +4106,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Documents</td>
+<td>% USERPROFILE% \ OneDrive \documents</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4135,7 +4135,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{339719B5-8C47-4894-94C2-D8F77ADD44A6}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Images</td>
 </tr>
 <tr class="odd">
@@ -4144,7 +4144,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Pictures</td>
+<td>% USERPROFILE% \ OneDrive \Pictures</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4173,7 +4173,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{625B53C3-AB48-4EC1-BA1F-A1EF4146FC19}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Menu Démarrer</td>
 </tr>
 <tr class="odd">
@@ -4182,7 +4182,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>Menu%APPDATA%\Microsoft\Windows\Start</td>
+<td>%APPDATA%\Microsoft\ Windows Menu \menu démarrer</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4211,7 +4211,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{B97D20BB-F46A-4C97-BA10-5E3608430854}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Démarrage</td>
 </tr>
 <tr class="odd">
@@ -4220,7 +4220,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start Menu\Programs\StartUp</td>
+<td>%APPDATA%\Microsoft\ Windows \menu démarrer Menu\Programs\StartUp</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4249,7 +4249,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{43668BF8-C14E-49B2-97C9-747784D784B7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Centre de synchronisation</td>
 </tr>
 <tr class="odd">
@@ -4262,7 +4262,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4287,7 +4287,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{289a9a43-be44-4057-a41b-587a76d7e7f9}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Résultats de la synchronisation</td>
 </tr>
 <tr class="odd">
@@ -4300,7 +4300,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4325,7 +4325,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{0F214138-B1D3-4a90-BBA9-27CBC0C5389A}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Configuration de la synchronisation</td>
 </tr>
 <tr class="odd">
@@ -4338,7 +4338,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows Vista</td>
+<td>aucun, valeur introduite dans Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4363,7 +4363,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{1AC14E77-02E7-4E5D-B744-2EB1AE5198B7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>System32</td>
 </tr>
 <tr class="odd">
@@ -4401,7 +4401,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{D65231B0-B2F1-4857-A4CE-A8E7C6EA7D27}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>System32</td>
 </tr>
 <tr class="odd">
@@ -4439,7 +4439,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A63293E8-664E-48DB-A079-DF759E0509F7}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Modèles</td>
 </tr>
 <tr class="odd">
@@ -4448,7 +4448,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Templates</td>
+<td>%APPDATA%\Microsoft\ Windows \Templates</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
@@ -4469,7 +4469,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_TreeProperties"></span><span id="folderid_treeproperties"></span><span id="FOLDERID_TREEPROPERTIES"></span><dl> <dt><strong>FOLDERID_TreeProperties</strong></dt> </dl></td>
-<td style="text-align: left;"><p>Non utilisé dans Windows Vista. Non pris en charge à partir de Windows 7.</p></td>
+<td style="text-align: left;"><p>non utilisé dans Windows Vista. non pris en charge à partir de Windows 7.</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_UserPinned"></span><span id="folderid_userpinned"></span><span id="FOLDERID_USERPINNED"></span><dl> <dt><strong>FOLDERID_UserPinned</strong></dt> </dl></td>
@@ -4481,7 +4481,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{9E3995AB-1F9C-4F13-B827-48B24B6C7174}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Utilisateur épinglé</td>
 </tr>
 <tr class="odd">
@@ -4494,7 +4494,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4519,7 +4519,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{0762D272-C50A-4BB0-A382-697DCD729B80}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Utilisateurs</td>
 </tr>
 <tr class="odd">
@@ -4532,7 +4532,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, nouveau pour Windows Vista</td>
+<td>aucun, nouveau pour Windows Vista</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4557,7 +4557,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{5CD7AEE2-2219-4A67-B85D-6C9CE15660CB}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Programmes</td>
 </tr>
 <tr class="odd">
@@ -4570,7 +4570,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4595,7 +4595,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{BCBD3057-CA5C-4622-B42D-BC56DB0AE516}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Programmes</td>
 </tr>
 <tr class="odd">
@@ -4608,7 +4608,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4633,7 +4633,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{f3ce0f7c-4901-4ACC-8648-d5d44b04ef8f}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Nom complet de l’utilisateur (par exemple, Jean Philippe bagel) entré lors de la création du compte d’utilisateur.</td>
 </tr>
 <tr class="odd">
@@ -4646,7 +4646,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun</td>
+<td>None</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4671,7 +4671,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{A302545D-DEFF-464b-ABE8-61C8648D939B}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Bibliothèques</td>
 </tr>
 <tr class="odd">
@@ -4684,7 +4684,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4709,7 +4709,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{18989B1D-99B5-455B-841C-AB7C74E4DDFC}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Vidéos</td>
 </tr>
 <tr class="odd">
@@ -4747,7 +4747,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{491E922F-5643-4AF4-A7EB-4E7A138D8174}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Vidéos</td>
 </tr>
 <tr class="odd">
@@ -4756,11 +4756,11 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Videos.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Videos.library-ms</td>
 </tr>
 <tr class="odd">
 <td>Effet de CSIDL</td>
-<td>Aucun, valeur introduite dans Windows 7</td>
+<td>aucun, valeur introduite dans Windows 7</td>
 </tr>
 <tr class="even">
 <td>Nom complet hérité</td>
@@ -4785,7 +4785,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 <td>{F38BF404-1D43-42F2-9305-67DE0B28FC23}</td>
 </tr>
 <tr class="even">
-<td>Nom d’affichage</td>
+<td>Nom complet</td>
 <td>Windows</td>
 </tr>
 <tr class="odd">
@@ -4818,7 +4818,7 @@ Ce FOLDERID est déconseillé dans Windows 10, version 1803 et versions ultérie
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interprétation de certaines valeurs **KNOWNFOLDERID** varie selon que le dossier fait partie d’une application 32 bits ou 64 bits et si cette application s’exécute sur un système d’exploitation 32 bits ou 64 bits. Si votre application doit faire la distinction entre, par exemple, **Program Files** et **Program Files (x86)**, vous devez utiliser le bon **KNOWNFOLDERID** pour la situation.
 
@@ -4834,7 +4834,7 @@ Les tableaux suivants résument l’utilisation de **KNOWNFOLDERID** dans ces ca
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesX64 (non pris en charge sous les systèmes d’exploitation 32 bits) | Non applicable | Non applicable |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files | \_fichiers programme \_ CSIDL |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | \_FILESX86 du programme CSIDL \_ |
-| 64 bits | 64 bits | FOLDERID \_ ProgramFilesX64 | % SystemDrive% \\ Program Files | Aucun |
+| 64 bits | 64 bits | FOLDERID \_ ProgramFilesX64 | % SystemDrive% \\ Program Files | None |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFiles | % SystemDrive% \\ Program Files (x86) | \_fichiers programme \_ CSIDL |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesX86 | % SystemDrive% \\ Program Files (x86) | \_FILESX86 du programme CSIDL \_ |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesX64 (non pris en charge pour les applications 32 bits) | Non applicable | Non applicable |
@@ -4849,10 +4849,10 @@ Les tableaux suivants résument l’utilisation de **KNOWNFOLDERID** dans ces ca
 | 32 bit | 32 bit | FOLDERID \_ ProgramFilesCommonX64 (non défini) | Non applicable | Non applicable |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommon | Fichiers communs% ProgramFiles% \\ | \_fichiers programme \_ CSIDL \_ communs |
 | 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ fichiers communs | \_Fichiers programme \_ CSIDL \_ COMMONX86 |
-| 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | Aucun |
+| 64 bits | 64 bits | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | None |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommon | % ProgramFiles (x86)% \\ fichiers communs | \_fichiers programme \_ CSIDL \_ communs |
 | 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX86 | % ProgramFiles (x86)% \\ fichiers communs | \_Fichiers programme \_ CSIDL \_ COMMONX86 |
-| 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | Aucun |
+| 64 bits | 32 bit | FOLDERID \_ ProgramFilesCommonX64 | Fichiers communs% ProgramFiles% \\ | None |
 
 
 **\_Système FOLDERID**
@@ -4867,7 +4867,7 @@ Les tableaux suivants résument l’utilisation de **KNOWNFOLDERID** dans ces ca
 | 64 bits | 32 bit | FOLDERID \_ SystemX86 | % windir% \\ SysWOW64 | CSIDL \_ SYSTEMX86 |
 
 
-Nous avons utilisé des chaînes d’environnement pour fournir des chemins d’accès génériques dans cette rubrique. Les tableaux suivants fournissent des exemples des chemins d’accès de ces chaînes d’environnement. Dans certains cas, ces chemins d’accès peuvent ne pas correspondre à ceux d’un ordinateur particulier en raison des choix effectués au cours de l’installation ou de la redirection de dossiers ultérieure. Notez que certains chemins d’accès ont été modifiés pour Windows Vista.
+Nous avons utilisé des chaînes d’environnement pour fournir des chemins d’accès génériques dans cette rubrique. Les tableaux suivants fournissent des exemples des chemins d’accès de ces chaînes d’environnement. Dans certains cas, ces chemins d’accès peuvent ne pas correspondre à ceux d’un ordinateur particulier en raison des choix effectués au cours de l’installation ou de la redirection de dossiers ultérieure. notez que certains chemins d’accès ont été modifiés pour Windows Vista.
 
 
 **Windows Vista et versions ultérieures**
@@ -4890,15 +4890,15 @@ Nous avons utilisé des chaînes d’environnement pour fournir des chemins d’
 
 | Chaîne d’environnement | Exemple de chemin |
 |--------------------|--------------|
-| ALLUSERSPROFILE | C : \\ Documents and Settings \\ All Users |
-| %APPDATA% | C : \\ Documents and Settings \\ *nom d’utilisateur* \\ informations d’application |
+| ALLUSERSPROFILE | C : \\ Documents et Paramètres \\ tous les utilisateurs |
+| %APPDATA% | C : \\ Documents et Paramètres \\ *nom d’utilisateur* des \\ données d’Application |
 | %ProgramFiles% | C : \\ Program Files |
 | %SystemDrive% | C : |
-| PROFILS | C : \\ documents et paramètres \\ *nom d’utilisateur* |
+| PROFILS | C : \\ Documents et Paramètres \\ *nom d’utilisateur* |
 | %windir% | C : \\ Windows |
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 | Condition requise | Valeur |

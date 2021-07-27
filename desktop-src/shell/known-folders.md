@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7527b7242c68f0d6c78cd0fae427626c182302f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b5fbdaf0086f88fc4eed42ce47749a99ab07b40
+ms.sourcegitcommit: 8bfe4f468ee5de7bbe096e5db81e427db53d977c
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973494"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114680312"
 ---
 # <a name="known-folders"></a>Dossiers connus
 
-Windows Vista introduit de nouveaux scénarios de stockage et un nouvel espace de noms de profil utilisateur. Pour répondre à ces nouveaux facteurs, l’ancien système de référence aux dossiers standard par une valeur [**CSIDL**](csidl.md) a été remplacé. À compter de Windows Vista, ces dossiers sont référencés par un nouvel ensemble de valeurs GUID appelé ID de dossier connu.
+Windows Vista introduit de nouveaux scénarios de stockage et un nouvel espace de noms de profil utilisateur. Pour répondre à ces nouveaux facteurs, l’ancien système de référence aux dossiers standard par une valeur [**CSIDL**](csidl.md) a été remplacé. à partir de Windows Vista, ces dossiers sont référencés par un nouvel ensemble de valeurs GUID appelé id de dossier connu.
 
 Le système de dossiers connu offre les avantages suivants :
 
@@ -56,15 +56,11 @@ Les pages de référence suivantes décrivent les API de dossiers connus COM, qu
 -   [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder)
 -   [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager)
 
-Un exemple C++ qui illustre les API de dossiers connus est inclus dans le kit de développement logiciel (SDK) Windows. Une fois que vous avez installé le SDK Windows sur votre ordinateur, l’exemple se trouve sous% ProgramFiles% \\ Microsoft SDK \\ Windows \\ v 6.0 \\ Samples \\ WinUI \\ Shell \\ AppPlatform \\ fichier KnownFolders.
+un exemple C++ qui illustre les api de dossiers connus est inclus dans le kit de développement logiciel (SDK) Windows. une fois que vous avez installé le SDK Windows sur votre ordinateur, l’exemple se trouve sous% ProgramFiles% \\ Microsoft sdk \\ Windows \\ v 6.0 \\ samples \\ WinUI \\ Shell \\ AppPlatform \\ fichier knownfolders.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Dossiers connus, exemple](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+[Dossiers connus, exemple](/windows/win32/shell/samples-knownfolders)
 </dt> </dl>
-
- 
-
- 

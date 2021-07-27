@@ -4,12 +4,12 @@ description: Le tableau suivant récapitule les procédures de programmation de 
 ms.assetid: 70c24042-bf44-4484-8e5e-d117e2ba28d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d75fa8d2ad223fbd8f71eff78c7cd232ddc492a9
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7543a0fef8fff3f2ef1672ee29d72b0f82b75af7
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103841866"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436617"
 ---
 # <a name="winsnmp-programming-tasks"></a>Tâches de programmation WinSNMP
 
@@ -90,7 +90,7 @@ Les rubriques suivantes contiennent des informations supplémentaires sur d’au
 
 
 
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Rubrique                                                              | Concepts                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Tâches de programmation générales](general-winsnmp-programming-tasks.md) | [Gestion des identificateurs d’objets libération des](managing-object-identifiers.md)[descripteurs WinSNMP](freeing-winsnmp-descriptors.md)<br/> [Définition du mode de traduction entité et contexte](setting-the-entity-and-context-translation-mode.md)<br/> [Gestion de la stratégie de retransmission](managing-the-retransmission-policy.md)<br/> [Écriture d’applications WinSNMP avec plusieurs threads](writing-winsnmp-applications-with-multiple-threads.md)<br/> [Inscription d’une application d’agent SNMP](registering-an-snmp-agent-application.md)<br/> |
 

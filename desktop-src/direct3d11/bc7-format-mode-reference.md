@@ -4,12 +4,12 @@ description: Cette documentation contient la liste des 8 modes de blocage et des
 ms.assetid: B1CEB729-6694-49BF-ACB9-FD1EFAB0B0D1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 719a223e6ac057b949d5e1222582058f637ec526
-ms.sourcegitcommit: 62e758931c610782807c7c9fad284921a6c56232
+ms.openlocfilehash: f9756582d7d5ac52d4c16b2f4734decebbd66ae8
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "104381362"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436104"
 ---
 # <a name="bc7-format-mode-reference"></a>Référence du mode de format BC7
 
@@ -128,7 +128,7 @@ Le mode BC7 7 présente les caractéristiques suivantes :
 
 ![disposition en mode 7 bits](images/bc7-mode7.png)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mode 8 (l’octet le moins significatif est défini sur 0x00) est réservé. Ne l’utilisez pas dans votre encodeur. Si vous transmettez ce mode au matériel, un bloc initialisé à tous les zéros est retourné.
 
@@ -142,7 +142,7 @@ Dans BC7, vous pouvez encoder le composant alpha de l’une des manières suivan
     -   RAB \| G : canal de couleur « vert » distinct
     -   RGA \| B : canal de couleur « bleu » distinct
 
-    Le décodeur réorganise l’ordre des canaux à la valeur RVBA après le décodage, de sorte que le format de bloc interne est invisible pour le développeur. Les noirs avec des composants alpha et de couleur distincts ont également deux jeux de données d’index : un pour l’ensemble vectorisé de canaux et un pour le canal scalaire. (Dans le cas du mode 4, ces index sont de largeur différente de \[ 2 ou 3 bits \] . Le mode 4 contient également un sélecteur 1 bit qui spécifie si le vecteur ou le canal scalaire utilise les index 3 bits.
+    Le décodeur réorganise l’ordre des canaux à la valeur RVBA après le décodage, de sorte que le format de bloc interne est invisible pour le développeur. Les blocs avec des composants alpha et de couleur distincts ont également deux jeux de données d’index : un pour l’ensemble vectorisé de canaux et un pour le canal scalaire. (Dans le cas du mode 4, ces index sont de largeur différente de \[ 2 ou 3 bits \] . Le mode 4 contient également un sélecteur 1 bit qui spécifie si le vecteur ou le canal scalaire utilise les index 3 bits.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -151,9 +151,9 @@ Dans BC7, vous pouvez encoder le composant alpha de l’une des manières suivan
 [Format BC7](bc7-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

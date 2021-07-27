@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: Compression par bloc (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fcfb4bc91256415ab23686b7333df7d21df335d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f7c3a74fba0b4c7c2adade210a9a54952b5d1269
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564502"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436545"
 ---
 # <a name="block-compression-direct3d-10"></a>Compression par bloc (Direct3D 10)
 
@@ -51,9 +51,9 @@ Les données non compressées sont disposées en mémoire de façon séquentiell
 
 ### <a name="storing-compressed-data"></a>Stockage des données compressées
 
-Maintenant que vous avez vu la quantité de mémoire utilisée par une image non compressée, consultez la quantité de mémoire enregistrée par une image compressée. Le format de compression [BC1](#bc1) stocke 2 couleurs (1 octet chacune) et des index 16 3 bits (48 bits, ou 6 octets) qui sont utilisés pour interpoler les couleurs d’origine dans la texture, comme indiqué dans l’illustration suivante.
+Maintenant que vous avez vu la quantité de mémoire utilisée par une image non compressée, consultez la quantité de mémoire enregistrée par une image compressée. Le format de compression [textures BC4](#bc4) stocke 2 couleurs (1 octet chacune) et des index 16 3 bits (48 bits, ou 6 octets) qui sont utilisés pour interpoler les couleurs d’origine dans la texture, comme indiqué dans l’illustration suivante.
 
-![illustration du format de compression BC1](images/d3d10-block-compress-3.png)
+![illustration du format de compression textures BC4](images/d3d10-block-compress-3.png)
 
 L’espace total requis pour stocker les données compressées est de 8 octets, ce qui représente une économie de mémoire de 50% par rapport à l’exemple non compressé. Les économies sont encore plus importantes lorsque plusieurs composants de couleur sont utilisés.
 

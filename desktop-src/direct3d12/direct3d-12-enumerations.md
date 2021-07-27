@@ -5,18 +5,18 @@ ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 09/19/2019
-ms.openlocfilehash: 7f34266e4afdec14e97caa81f393733f1c1ec684
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 31cac62c8dfa6b1126d8ff2a7c134490c0c58038
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "106511721"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436224"
 ---
 # <a name="core-enumerations"></a>Principales énumérations
 
 Les énumérations suivantes sont déclarées dans d3d12. h.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 | Rubrique et description |
 |-|
@@ -71,6 +71,7 @@ Les énumérations suivantes sont déclarées dans d3d12. h.
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op). Spécifie les opérations logiques à configurer pour une cible de rendu. |
 | [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action). Définit les constantes qui spécifient ce qui doit être fait avec les résultats de l’instrumentation de la charge de travail antérieure. |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool). Spécifie le pool de mémoire pour le tas. |
+| [**D3D12_MESH_SHADER_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier). Définit des constantes qui spécifient la prise en charge des nuanceurs de maillage et d’amplification. |
 | [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags). Définit des constantes qui spécifient les indicateurs d’un paramètre pour une commande méta. Les valeurs peuvent être assorties d’une opération or au niveau du bit. |
 | [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage). Définit des constantes qui spécifient l’étape d’un paramètre à une commande méta. |
 | [**D3D12_META_COMMAND_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_type). Définit des constantes qui spécifient le type de données d’un paramètre pour une commande meta. |
@@ -112,6 +113,7 @@ Les énumérations suivantes sont déclarées dans d3d12. h.
 | [**D3D12_ROOT_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_parameter_type). Spécifie le type d’emplacement de signature racine.  |
 | [**D3D12_ROOT_SIGNATURE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags). Spécifie des options pour la disposition de signature racine.  |
 | [**D3D12_RTV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension). Identifie le type de ressource à afficher en tant que cible de rendu. |
+| [**D3D12_SAMPLER_FEEDBACK_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier). Définit les constantes qui spécifient la prise en charge des commentaires de l’échantillonneur. |
 | [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags). Décrit le niveau de prise en charge de la mise en cache du nuanceur dans le pilote graphique actuel. |
 | [**D3D12_SHADER_COMPONENT_MAPPING**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping). Spécifie la façon dont la mémoire est routée par une vue de ressource de nuanceur (SRV).  |
 | [**D3D12_SHADER_MIN_PRECISION_SUPPORT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support). Décrit les options de prise en charge de la précision minimale pour les nuanceurs dans le pilote graphique actuel.  |
@@ -130,6 +132,7 @@ Les énumérations suivantes sont déclarées dans d3d12. h.
 | [**D3D12_UAV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension). Identifie les options de vue d’accès non ordonnées. |
 | [**D3D12_VIEW_INSTANCING_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags). Spécifie des options pour l’instanciation d’affichage. |
 | [**D3D12_VIEW_INSTANCING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier). Indique le niveau de niveau auquel l’instanciation de vue est prise en charge. |
+| [**D3D12_WAVE_MMA_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_wave_mma_tier). Définit des constantes qui spécifient un niveau de prise en charge pour les opérations WaveMMA (wave_matrix). |
 | [**D3D12_WRITEBUFFERIMMEDIATE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode). Spécifie le mode utilisé par une opération **WriteBufferImmediate** . |
 
 ## <a name="related-topics"></a>Rubriques connexes

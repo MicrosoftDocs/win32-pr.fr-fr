@@ -4,12 +4,12 @@ description: Cet article explique comment prendre en main l’authentification d
 ms.assetid: 0b3138ea-e4ea-57fb-756b-62fdc20cf813
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f304e6cc8e185264699709987f62dfdca17bf8b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 256b1cec0693787e76cfa479940524fca28d508e
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509862"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436454"
 ---
 # <a name="authenticode-signing-for-game-developers"></a>Signature Authenticode pour les développeurs de jeux
 
@@ -26,9 +26,9 @@ L’authentification des données est de plus en plus importante pour les dével
 -   [Plus d’informations](#more-information)
 
 > [!Note]  
-> Depuis le 1er janvier 2016, Windows 7 et les versions ultérieures n’approuvent plus de certificat de signature de code SHA-1 avec une date d’expiration du 1er janvier 2016 ou version ultérieure. Pour plus d’informations, consultez [application de la signature de code Authenticode et de l’horodatage Windows](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) .
+> depuis le 1er janvier 2016, Windows 7 et versions ultérieures n’approuvent plus de certificat de signature de code SHA-1 avec une date d’expiration du 1er janvier 2016 ou version ultérieure. pour plus d’informations, consultez [Windows l’application de la signature de Code Authenticode et](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx) de l’horodatage.
 
- 
+ 
 
 ## <a name="background"></a>Arrière-plan
 
@@ -38,20 +38,20 @@ Une fois que l’autorité de certification a décidé que vous répondez à ses
 
 Une fois que vous disposez d’une clé publique et d’une clé privée, vous pouvez commencer à distribuer le logiciel signé. Microsoft fournit des outils pour effectuer cette opération dans le SDK Windows. Les outils utilisent un hachage unidirectionnel, produisent un condensé de longueur fixe et génèrent une signature chiffrée avec une clé privée. Ils combinent ensuite cette signature chiffrée avec votre certificat et vos informations d’identification dans une structure appelée bloc de signature et l’incorpore dans le format de fichier de l’exécutable. Tout type de fichier binaire exécutable peut être signé, y compris les dll, les fichiers exécutables et les fichiers CAB.
 
-La signature peut être vérifiée de plusieurs façons. Les programmes peuvent appeler la fonction CertVerifyCertificateChainPolicy, et SignTool (signtool.exe) peut être utilisé pour vérifier une signature à partir de l’invite de ligne de commande. L’Explorateur Windows possède également un onglet signatures numériques dans Propriétés du fichier qui affiche chaque certificat d’un fichier binaire signé. (L’onglet signatures numériques s’affiche uniquement dans les propriétés de fichier des fichiers signés.) En outre, une application peut être vérifiée automatiquement à l’aide de [**CertVerifyCertificateChainPolicy**](/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy).
+La signature peut être vérifiée de plusieurs façons. Les programmes peuvent appeler la fonction CertVerifyCertificateChainPolicy, et SignTool (signtool.exe) peut être utilisé pour vérifier une signature à partir de l’invite de ligne de commande. Windows L’Explorateur possède également un onglet signatures numériques dans Propriétés du fichier qui affiche chaque certificat d’un fichier binaire signé. (L’onglet signatures numériques s’affiche uniquement dans les propriétés de fichier des fichiers signés.) En outre, une application peut être vérifiée automatiquement à l’aide de [**CertVerifyCertificateChainPolicy**](/windows/desktop/api/wincrypt/nf-wincrypt-certverifycertificatechainpolicy).
 
-La signature Authenticode est non seulement utile pour l’authentification des données par les utilisateurs finaux, mais également pour la mise à jour corrective de comptes d’utilisateurs limités et par les contrôles parentaux dans Windows Vista et Windows 7. En outre, les technologies futures dans les systèmes d’exploitation Windows peuvent également nécessiter que le code soit signé. il est donc vivement recommandé que tous les développeurs professionnels et amateurs acquièrent un certificat de signature de code d’une autorité de certification. Pour plus d’informations sur cette opération, consultez [l’article utilisation d’une autorité de certification approuvée](#using-a-trusted-certificate-authority)plus loin dans cet article.
+la signature Authenticode n’est pas seulement utile pour l’authentification des données par les utilisateurs finaux, mais elle est également nécessaire pour la mise à jour corrective de comptes d’utilisateurs limités et par les contrôles parentaux dans Windows Vista et Windows 7. en outre, les technologies futures dans Windows systèmes d’exploitation peuvent également nécessiter que le code soit signé. il est donc vivement recommandé que tous les développeurs professionnels et amateurs acquièrent un certificat de signature de code d’une autorité de certification. Pour plus d’informations sur cette opération, consultez [l’article utilisation d’une autorité de certification approuvée](#using-a-trusted-certificate-authority)plus loin dans cet article.
 
-Le code de jeu, les répartiteurs et les programmes d’installation peuvent tirer parti de la signature Authenicode en vérifiant que les fichiers sont authentiques dans le code. Cela peut être utilisé pour la sécurité réseau générale et anti-fraude. Vous trouverez un exemple de code pour vérifier si un fichier est signé ici : [exemple de programme C : la vérification de la signature d’un fichier PE](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file)et un exemple de code pour vérifier la propriété d’un certificat de signature sur un fichier signé sont disponibles ici : [obtention d’informations à partir des exécutables signés par Authenticode](https://support.microsoft.com/kb/323809).
+Le code de jeu, les répartiteurs et les programmes d’installation peuvent tirer parti de la signature Authenticode en vérifiant que les fichiers sont authentiques dans le code. Cela peut être utilisé pour la sécurité réseau générale et anti-fraude. Vous trouverez un exemple de code pour vérifier si un fichier est signé ici : [exemple de programme C : la vérification de la signature d’un fichier PE](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file)et un exemple de code pour vérifier la propriété d’un certificat de signature sur un fichier signé sont disponibles ici : [obtention d’informations à partir des exécutables signés par Authenticode](https://support.microsoft.com/kb/323809).
 
 ## <a name="getting-started"></a>Mise en route
 
-Pour commencer, Microsoft fournit des outils avec Visual Studio 2005 et Visual Studio 2008, et dans le [SDK Windows](https://msdn.microsoft.com/windowsserver/bb980924.aspx), pour vous aider à effectuer et à vérifier le processus de signature de code. Après l’installation de Visual Studio ou de l’SDK Windows, les outils décrits dans cet article technique se trouvent dans un sous-répertoire de l’installation de, qui peut inclure un ou plusieurs des éléments suivants :
+pour commencer, Microsoft fournit des outils avec Visual Studio 2005 et Visual Studio 2008, et dans le [SDK Windows](https://msdn.microsoft.com/windowsserver/bb980924.aspx), pour vous aider à effectuer et à vérifier le processus de signature de code. après l’installation de Visual Studio ou de l’SDK Windows, les outils décrits dans cet article technique se trouvent dans un sous-répertoire de l’installation de, qui peut inclure un ou plusieurs des éléments suivants :
 
--   % SystemDrive% \\ Program Files \\ Microsoft Visual Studio 8 \\ SDK \\ v 2.0 \\ bin
--   % SystemDrive% \\ Program Files \\ Microsoft Visual Studio 8 \\ VC \\ PlatformSDK \\ bin
+-   % SystemDrive% \\ Program Files \\ Microsoft Visual Studio 8 \\ SDK \\ v 2.0 \\ Bin
+-   % SystemDrive% \\ Program Files \\ Microsoft Visual Studio 8 \\ VC \\ PlatformSDK \\ Bin
 -   % SystemDrive% \\ Program Files \\ Microsoft Visual Studio 9,0 \\ SmartDevices \\ SDK \\ SDKTools\\
--   % SystemDrive% \\ Program Files \\ Microsoft SDK \\ Windows \\ v 6.0 a \\ bin\\
+-   % SystemDrive% \\ Program Files \\ Microsoft sdk \\ Windows \\ v 6.0 a \\ bin\\
 
 Les outils suivants sont les plus utiles pour la signature de code :
 
@@ -67,25 +67,25 @@ Génère un certificat X. 509 de test, sous la forme d’un fichier. cer, qui co
 <span id="pvk2pfx.exe"></span><span id="PVK2PFX.EXE"></span>pvk2pfx.exe
 </dt> <dd>
 
-Crée un fichier d’échange d’informations personnelles (. pfx) à partir d’une paire de fichiers. cer et. pvk. Le fichier. pfx contient vos clés publique et privée.
+crée un fichier de Exchange d’informations personnelles (. pfx) à partir d’une paire de fichiers. cer et. pvk. Le fichier. pfx contient vos clés publique et privée.
 
 </dd> <dt>
 
 <span id="SignTool__SignTool.exe_"></span><span id="signtool__signtool.exe_"></span><span id="SIGNTOOL__SIGNTOOL.EXE_"></span>SignTool (SignTool.exe)
 </dt> <dd>
 
-Signe le fichier à l’aide du fichier. pfx. SignTool prend en charge la signature des fichiers DLL, des fichiers exécutables, des fichiers Windows Installer (. msi) et des fichiers Cabinet (. cab).
+Signe le fichier à l’aide du fichier. pfx. SignTool prend en charge la signature des fichiers DLL, des fichiers exécutables, des fichiers Windows Installer (.msi) et des fichiers cab (.cab).
 
 </dd> </dl>
 
 > [!Note]  
 > Lors de la lecture d’une autre documentation, vous pouvez trouver des références à SignCode (SignCode.exe), mais cet outil est déconseillé et n’est plus pris en charge ; utilisez SignTool à la place.
 
- 
+ 
 
 ## <a name="using-a-trusted-certificate-authority"></a>Utilisation d’une autorité de certification approuvée
 
-Pour obtenir un certificat approuvé, vous devez appliquer à une autorité de certification, telle que VeriSign ou Thawte. Microsoft ne recommande pas d’autorité de certification sur une autre, mais si vous souhaitez intégrer le service Rapport d’erreurs Windows (WER), vous devez envisager d’utiliser VeriSign pour émettre le certificat, car l’accès à la base de données WER requiert un compte WinQual qui nécessite un ID VeriSign. Pour obtenir la liste complète des autorités de certification tierces approuvées, consultez [membres du programme de certification racine de Microsoft](/previous-versions/ms995347(v=msdn.10)). Pour plus d’informations sur l’inscription avec WER, consultez «[Présentation de rapport d’erreurs Windows](https://msdn.microsoft.com/)» dans la [zone ISV](https://msdn.microsoft.com/).
+Pour obtenir un certificat approuvé, vous devez appliquer à une autorité de certification, telle que VeriSign ou Thawte. Microsoft ne recommande pas d’autorité de certification sur une autre, mais si vous souhaitez intégrer le service Rapport d’erreurs Windows (WER), vous devez envisager d’utiliser VeriSign pour émettre le certificat, car l’accès à la base de données WER requiert un compte WinQual qui nécessite un ID VeriSign. Pour obtenir la liste complète des autorités de certification tierces approuvées, consultez [membres du programme de certification racine de Microsoft](/previous-versions/ms995347(v=msdn.10)). pour plus d’informations sur l’inscription avec WER, consultez «[présentation de Rapport d’erreurs Windows](https://msdn.microsoft.com/)» dans la [Zone ISV](https://msdn.microsoft.com/).
 
 Une fois que vous avez reçu votre certificat de l’autorité de certification, vous pouvez signer votre programme à l’aide de SignTool et publier votre programme au public. Toutefois, vous devez veiller à protéger votre clé privée, qui est contenue dans vos fichiers. pfx et. pvk. Veillez à conserver ces fichiers dans un emplacement sécurisé.
 
@@ -107,7 +107,7 @@ Dans cet exemple, un horodatage est également ajouté à la signature. Un horod
 
     
 
-2.  Créez un fichier d’échange d’informations personnelles (. pfx) à partir de votre fichier de clé privée (. pvk) et du fichier de certificat (. cer) à l’aide de pvk2pfx.exe.
+2.  créez un fichier de Exchange d’informations personnelles (. pfx) à partir de votre fichier de clé privée (. pvk) et du fichier de certificat (. cer) à l’aide de pvk2pfx.exe.
 
     Le fichier. pfx combine vos clés publiques et privées dans un fichier unique. L’exemple de ligne de commande suivant utilise les fichiers. pvk et. cer de l’étape précédente pour créer le fichier. pfx nommé MyPFX avec le mot de passe password \_ :
 
@@ -117,7 +117,7 @@ Dans cet exemple, un horodatage est également ajouté à la signature. Un horod
 
     
 
-3.  Signez votre programme avec votre fichier d’échange d’informations personnelles (. pfx) à l’aide de SignTool.
+3.  signez votre programme avec votre fichier de Exchange d’informations personnelles (. pfx) à l’aide de SignTool.
 
     Vous pouvez spécifier plusieurs options sur la ligne de commande. L’exemple de ligne de commande suivant utilise le fichier. pfx de l’étape précédente, attribue votre mot de passe \_ en tant que mot de passe, spécifie BasicHLSL comme fichier à signer et récupère un horodatage à partir d’un serveur spécifié :
 
@@ -130,7 +130,7 @@ Dans cet exemple, un horodatage est également ajouté à la signature. Un horod
     > [!Note]  
     > L’URL du service d’horodatage est fournie par l’autorité de certification et est facultative pour le test. Il est important que la signature de production inclue une autorité d’horodatage valide ou que la signature ne parvienne pas à valider quand le certificat expire.
 
-     
+     
 
 4.  Vérifiez que le programme est signé à l’aide de SignTool.
 
@@ -166,7 +166,7 @@ Pour intégrer la signature du code à un projet, vous pouvez créer un fichier 
 
 Soyez particulièrement vigilant dans votre processus de génération pour vous assurer que l’accès aux fichiers. pfx et. pvk est limité à autant d’ordinateurs et d’utilisateurs que possible. En guise de meilleure pratique, les développeurs doivent uniquement signer le code à l’aide du certificat de test jusqu’à ce qu’ils soient prêts à être expédiés. Là encore, la clé privée (. pvk) doit être conservée dans un emplacement sécurisé, comme une salle sécurisée ou verrouillée, et idéalement sur un appareil de chiffrement, comme une carte à puce.
 
-Une autre couche de protection est fournie à l’aide de Microsoft Authenticode pour signer le package Windows Installer (MSI) lui-même. Cela permet de protéger le package MSI contre la falsification et l’endommagement accidentel. Pour plus d’informations sur la façon de signer des packages avec Authenticode, reportez-vous à la documentation de votre outil de création MSI.
+une autre couche de protection est fournie à l’aide de Microsoft Authenticode pour signer le package Windows Installer (MSI) lui-même. Cela permet de protéger le package MSI contre la falsification et l’endommagement accidentel. Pour plus d’informations sur la façon de signer des packages avec Authenticode, reportez-vous à la documentation de votre outil de création MSI.
 
 ## <a name="revocation"></a>Révocation
 
@@ -174,15 +174,15 @@ Si la sécurité de la clé privée est compromise ou si un événement lié à 
 
 ## <a name="code-signing-drivers"></a>Pilotes Code-Signing
 
-Les pilotes peuvent et doivent être signés par Authenticode. Les pilotes en mode noyau ont des exigences supplémentaires : les éditions 64 bits de Windows Vista et Windows 7 empêchent l’installation de tous les pilotes non signés en mode noyau, et toutes les versions de Windows présentent un message d’avertissement lorsqu’un utilisateur tente d’installer un pilote non signé. En outre, les administrateurs peuvent définir stratégie de groupe pour empêcher l’installation de pilotes non signés sur Microsoft Windows Server 2003, Windows XP Professionnel Édition x64 et les éditions 32 bits de Windows Vista et Windows 7.
+Les pilotes peuvent et doivent être signés par Authenticode. les pilotes en mode noyau ont des exigences supplémentaires : les éditions 64 bits de Windows Vista et Windows 7 empêcheront l’installation de tous les pilotes non signés en mode noyau, et toutes les versions de Windows présenteront une invite d’avertissement lorsqu’un utilisateur tente d’installer un pilote non signé. en outre, les administrateurs peuvent définir stratégie de groupe pour empêcher l’installation de pilotes non signés sur Microsoft Windows Server 2003, Windows XP Professional édition x64 et les éditions 32 bits de Windows Vista et Windows 7.
 
-De nombreux types de pilotes peuvent être signés avec une signature approuvée par Microsoft, dans le cadre du programme de certification Windows de WHQL ( [Windows Hardware Quality Labs](https://www.microsoft.com/whdc/whql/) ) ou du [programme de signature non classifié](https://www.microsoft.com/whdc/winlogo/drvsign/dqs.mspx) (anciennement signature de fiabilité du pilote), qui permet au système de faire confiance à ces pilotes et de les installer même sans informations d’identification d’administration.
+de nombreux types de pilotes peuvent être signés avec une signature approuvée par Microsoft, dans le cadre du programme de Certification Windows de [Windows Hardware Quality Labs](https://www.microsoft.com/whdc/whql/) (WHQL) ou du [programme de signature non classifié](https://www.microsoft.com/whdc/winlogo/drvsign/dqs.mspx) (anciennement signature de fiabilité du pilote), qui permet au système de faire confiance à ces pilotes et de les installer même sans informations d’identification d’administration.
 
-Au minimum, les pilotes doivent être signés par Authenticode, car les pilotes non signés ou auto-signés (c’est-à-dire signés avec un certificat de test) ne peuvent pas être installés sur de nombreuses plateformes Windows. Pour plus d’informations sur la signature des pilotes et du code et des fonctionnalités associées, consultez [Configuration requise pour la signature des pilotes pour Windows](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) sur [Windows Hardware Developer Central](https://www.microsoft.com/whdc/).
+au minimum, les pilotes doivent être signés par Authenticode, car les pilotes non signés ou auto-signés (c’est-à-dire, signés avec un certificat de test) ne peuvent pas être installés sur de nombreuses plateformes basées sur Windows. pour plus d’informations sur la signature des pilotes et du code et des fonctionnalités associées, consultez [configuration requise pour la signature des pilotes pour Windows](https://www.microsoft.com/whdc/winlogo/drvsign/drvsign.mspx) sur [Windows Hardware developer Central](https://www.microsoft.com/whdc/).
 
 ## <a name="summary"></a>Résumé
 
-L’utilisation de Microsoft Authenticode est un processus simple. Une fois que vous avez obtenu une région d’exécution limitée et créé une clé privée, il est simple d’utiliser les outils fournis par Microsoft. Vous pouvez ensuite activer des fonctionnalités importantes dans Windows Vista et Windows 7, telles que le contrôle parental, et informer les clients que votre produit provient directement de son propriétaire légitime.
+L’utilisation de Microsoft Authenticode est un processus simple. Une fois que vous avez obtenu une région d’exécution limitée et créé une clé privée, il est simple d’utiliser les outils fournis par Microsoft. vous pouvez ensuite activer des fonctionnalités importantes dans Windows Vista et Windows 7, telles que le contrôle parental, et informer les clients que votre produit provient directement de son propriétaire légitime.
 
 ## <a name="more-information"></a>Informations complémentaires
 
@@ -195,6 +195,6 @@ Pour plus d’informations sur les outils et les processus liés à la signature
 -   [Déploiement d’Authenticode](https://www.microsoft.com/technet/security/topics/cryptographyetc/authenticodets.mspx)
 -   [Comment : créer des certificats temporaires à utiliser pendant le développement](/dotnet/framework/wcf/feature-details/how-to-create-temporary-certificates-for-use-during-development)
 
- 
+ 
 
- 
+ 

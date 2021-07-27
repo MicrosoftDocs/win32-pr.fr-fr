@@ -4,12 +4,12 @@ description: Cet article fournit une vue d’ensemble de l’utilisation optimal
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff63e2404a07a2f0ab5adcb156d83dc989b42fd4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd9935c490204736995e17e3c8013ce56f57624b
+ms.sourcegitcommit: 4c71a269e3a114c72dd9eb31ccb4948a32beaa5b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508017"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114662259"
 ---
 # <a name="debugging-with-symbols"></a>Débogage avec des symboles
 
@@ -18,7 +18,7 @@ Cet article fournit une vue d’ensemble de l’utilisation optimale des symbole
 -   [Symboles](#debugging-with-symbols)
 -   [Utilisation de symboles pour le débogage](#using-symbols-for-debugging)
 -   [Obtention des symboles dont vous avez besoin](#getting-the-symbols-you-need)
-    -   [Vérifier si une DLL ou un fichier. exe donné et PDB dans le même dossier correspondent](#check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match)
+    -   [Vérifier si une DLL ou un fichier .exe donné et PDB dans le même dossier correspondent](#check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match)
     -   [Vérifier si toutes les dll et tous les fichiers exécutables d’un ensemble de dossiers ont des pdb correspondants](#check-if-all-the-dlls-and-executable-files-in-a-set-of-folders-have-matching-pdbs)
     -   [Fonctionnement de Symchk](#how-symchk-works)
 -   [Serveurs de symboles](#symbol-servers)
@@ -70,7 +70,7 @@ kernel32.dll!@BaseThreadInitThunk@12() + 0x12 bytes
 ntdll.dll!__RtlUserThreadStart@8() + 0x27 bytes
 ```
 
-Dans de nombreux cas, il est possible de continuer le débogage sans symboles, car le problème se trouve dans un emplacement avec des symboles exacts, et vous n’avez pas besoin d’examiner les fonctions plus loin dans la pile des appels. Même si une bibliothèque qui se trouve dans votre pile des appels n’a pas de PDB disponibles, tant qu’ils ont été compilés avec des pointeurs de frame, le débogueur doit être en mesure de deviner correctement les fonctions parentes. À compter de Windows XP Service Pack 2, tous les fichiers DLL et exécutables Windows sont compilés avec FPO désactivé, car cela rend le débogage plus précis. La désactivation de FPO permet également aux profileurs d’échantillonnage de parcourir la pile pendant l’exécution, avec un impact minime sur les performances. Dans les versions de Windows antérieures à Windows XP SP2, tous les fichiers binaires du système d’exploitation nécessitent des fichiers de symboles correspondants qui contiennent des informations FPO, pour permettre un débogage et un profilage précis.
+Dans de nombreux cas, il est possible de continuer le débogage sans symboles, car le problème se trouve dans un emplacement avec des symboles exacts, et vous n’avez pas besoin d’examiner les fonctions plus loin dans la pile des appels. Même si une bibliothèque qui se trouve dans votre pile des appels n’a pas de PDB disponibles, tant qu’ils ont été compilés avec des pointeurs de frame, le débogueur doit être en mesure de deviner correctement les fonctions parentes. à compter de Windows XP Service Pack 2, tous les fichiers DLL et exécutables Windows sont compilés avec FPO désactivé, car cela rend le débogage plus précis. La désactivation de FPO permet également aux profileurs d’échantillonnage de parcourir la pile pendant l’exécution, avec un impact minime sur les performances. dans les versions de Windows antérieures à Windows XP SP2, tous les fichiers binaires du système d’exploitation nécessitent des fichiers de symboles correspondants qui contiennent des informations FPO, afin de permettre un débogage et un profilage précis.
 
 Si vous déboguez des exécutables natifs 64 bits, vous n’avez pas besoin de fichiers de symboles pour produire des traces de pile valides, car les systèmes d’exploitation et les compilateurs x64 sont conçus pour ne pas les exiger. Toutefois, vous avez toujours besoin de fichiers de symboles pour récupérer les noms de fonction, les paramètres d’appel et les variables locales.
 
@@ -80,7 +80,7 @@ Pour déboguer de manière fiable les mini-vidages qui sont générés sur un au
 
 ## <a name="getting-the-symbols-you-need"></a>Obtention des symboles dont vous avez besoin
 
-Visual Studio et d’autres débogueurs Microsoft, tels que WinDbg, sont généralement configurés pour fonctionner uniquement si vous générez une application et que vous la déboguez sur votre propre ordinateur. Si vous avez besoin de fournir votre exécutable à une autre personne, si vous avez plusieurs versions d’une DLL ou d’un fichier. exe sur votre ordinateur, ou si vous souhaitez déboguer avec précision une application qui utilise Windows ou d’autres bibliothèques, telles que DirectX, vous devez comprendre comment les débogueurs recherchent et chargent les symboles. Le débogueur utilise soit le chemin de recherche de symboles spécifié par l’utilisateur, qui se trouve dans options de \\ débogage \\ symboles dans Visual Studio, soit la \_ \_ \_ variable d’environnement chemin d’accès aux symboles NT. En règle générale, le débogueur recherche les fichiers PDB correspondants aux emplacements suivants :
+Visual Studio et d’autres débogueurs Microsoft, tels que WinDbg, sont généralement configurés pour fonctionner uniquement si vous générez une application et que vous la déboguez sur votre propre ordinateur. si vous avez besoin de fournir votre exécutable à quelqu’un d’autre, si vous avez plusieurs versions d’une DLL ou d’un fichier de .exe sur votre ordinateur, ou si vous souhaitez déboguer avec précision une application qui utilise Windows ou d’autres bibliothèques, telles que DirectX, vous devez comprendre comment les débogueurs recherchent et chargent les symboles. le débogueur utilise soit le chemin de recherche de symboles spécifié par l’utilisateur, qui se trouve dans Options de \\ débogage \\ des symboles dans Visual Studio, soit \_ la \_ \_ variable d’environnement du chemin d’accès aux symboles NT. En règle générale, le débogueur recherche les fichiers PDB correspondants aux emplacements suivants :
 
 -   Emplacement spécifié à l'intérieur de la DLL ou du fichier exécutable.
 
@@ -95,16 +95,16 @@ Pour vous assurer que vous disposez de tous les fichiers PDB dont vous avez beso
 
 symchk.exe est un outil utile qui est installé avec ce package. Il peut aider à identifier les symboles manquants ou incorrects. Cet outil comporte un grand nombre d’options de ligne de commande potentielles. Voici deux des plus utiles et les plus couramment utilisés.
 
-### <a name="check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match"></a>Vérifier si une DLL ou un fichier. exe donné et PDB dans le même dossier correspondent
+### <a name="check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match"></a>Vérifier si une DLL ou un fichier .exe donné et PDB dans le même dossier correspondent
 
 ``` syntax
-"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s
+"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s .
 
 SYMCHK: FAILED files = 0
 SYMCHK: PASSED + IGNORED files = 1
 ```
 
-L’option **/s** indique à **Symchk** de rechercher les symboles uniquement dans le dossier actif, et de ne pas consulter les serveurs de symboles.
+**/S.** l’option indique à **Symchk** de rechercher les symboles uniquement dans le dossier actif, et de ne pas consulter les serveurs de symboles.
 
 ### <a name="check-if-all-the-dlls-and-executable-files-in-a-set-of-folders-have-matching-pdbs"></a>Vérifier si toutes les dll et tous les fichiers exécutables d’un ensemble de dossiers ont des pdb correspondants
 
@@ -112,11 +112,11 @@ L’option **/s** indique à **Symchk** de rechercher les symboles uniquement da
 "c:\Program Files\Debugging Tools for Windows\symchk" *.* /r
 ```
 
-L’option **/r** définit **Symchk** pour parcourir de manière récursive les dossiers, afin de vérifier que tous les fichiers exécutables ont des fichiers PDB correspondants. Sans l’option **/s** , **Symchk** utilise le \_ \_ \_ chemin d’accès aux symboles NT en cours pour rechercher des symboles sur un serveur privé ou local, ou sur les serveurs de symboles Microsoft. L’outil **Symchk** recherche uniquement les symboles pour les fichiers exécutables (. exe,. dll et similaires). Vous ne pouvez pas utiliser des caractères génériques pour rechercher des symboles pour les fichiers non exécutables.
+L’option **/r** définit **Symchk** pour parcourir de manière récursive les dossiers, afin de vérifier que tous les fichiers exécutables ont des fichiers PDB correspondants. Sans l’option **/s** , **Symchk** utilise le \_ \_ \_ chemin d’accès aux symboles NT en cours pour rechercher des symboles sur un serveur privé ou local, ou sur les serveurs de symboles Microsoft. L’outil **Symchk** recherche uniquement les symboles pour les fichiers exécutables (.exe, .dll et similaires). Vous ne pouvez pas utiliser des caractères génériques pour rechercher des symboles pour les fichiers non exécutables.
 
 ### <a name="how-symchk-works"></a>Fonctionnement de Symchk
 
-Lorsque l’éditeur de liens génère des fichiers. dll, exécutables et PDB, il stocke des GUID identiques dans chaque fichier. Le GUID est utilisé par les outils pour déterminer si un fichier PDB donné correspond à une DLL ou à un fichier exécutable. Si vous modifiez une DLL ou un fichier exécutable (à l’aide d’un éditeur de ressources ou d’un encodage de protection de copie, ou en modifiant ses informations de version), le GUID est mis à jour et le débogueur ne peut pas charger le fichier PDB. Pour cette raison, il est très important de ne pas manipuler la DLL ou le fichier exécutable après sa création par l’éditeur de liens.
+Lorsque l’éditeur de liens génère des fichiers .dll, exécutables et PDB, il stocke des GUID identiques dans chaque fichier. Le GUID est utilisé par les outils pour déterminer si un fichier PDB donné correspond à une DLL ou à un fichier exécutable. Si vous modifiez une DLL ou un fichier exécutable (à l’aide d’un éditeur de ressources ou d’un encodage de protection de copie, ou en modifiant ses informations de version), le GUID est mis à jour et le débogueur ne peut pas charger le fichier PDB. Pour cette raison, il est très important de ne pas manipuler la DLL ou le fichier exécutable après sa création par l’éditeur de liens.
 
 Vous pouvez également utiliser l’utilitaire DUMPBIN fourni avec VS.NET pour afficher les chemins d’accès aux symboles recherchés et pour voir si des fichiers de symboles qui correspondent à une DLL ou à un fichier exécutable donné sont trouvés. Par exemple :
 
@@ -134,7 +134,7 @@ Microsoft publie tous les fichiers PDB pour tous les systèmes d’exploitation 
 
 Vous pouvez configurer votre ordinateur pour qu’il utilise le serveur de symboles Microsoft, qui vous permet d’accéder à tous les fichiers de symboles Microsoft. Vous pouvez également configurer un serveur de symboles privé pour votre entreprise, votre équipe ou votre réseau, qui peut être utilisé pour stocker plusieurs versions antérieures d’un projet sur lequel vous travaillez, ou pour fournir un cache local pour les symboles que vous utilisez à partir du serveur de symboles Microsoft.
 
-Pour utiliser un serveur de symboles, spécifiez le chemin de recherche dans une variable d’environnement appelée \_ \_ \_ chemin d’accès aux symboles NT. Les débogueurs et les outils modernes, tels que WinDbg, NTSD ou Visual Studio, utilisent automatiquement ce chemin d’accès pour rechercher des symboles.
+Pour utiliser un serveur de symboles, spécifiez le chemin de recherche dans une variable d’environnement appelée \_ \_ \_ chemin d’accès aux symboles NT. les débogueurs et les outils modernes, tels que WinDbg, NTSD ou Visual Studio, utilisent automatiquement ce chemin d’accès pour rechercher des symboles.
 
 Quand un débogueur recherche des symboles, il commence par Rechercher localement. Il recherche ensuite les serveurs de symboles. Lorsqu’il trouve un symbole correspondant, il transfère le fichier de symboles dans votre cache local. La taille des symboles d’une DLL ou d’un fichier exécutable standard est comprise entre 1 et 100 Mo. Par conséquent, si vous déboguez un processus qui comprend de nombreuses dll, il peut être nécessaire de résoudre tous les symboles et de les transférer vers un cache local.
 
@@ -144,10 +144,10 @@ Le serveur de symboles Microsoft vous permet d’obtenir tous les symboles les p
 
 Vous pouvez accéder au serveur de symboles de l’une des manières suivantes :
 
--   Entrez l’adresse du serveur directement. Dans Visual Studio, dans le menu **Outils** , choisissez **options**, puis **débogage**, puis **symboles**.
+-   Entrez l’adresse du serveur directement. dans Visual Studio, dans le menu **outils** , choisissez **Options**, puis **débogage**, puis **symboles**.
 -   Utilisez le \_ \_ chemin d’accès aux symboles NT de la variable \_ d’environnement. Nous recommandons cette méthode.
 
-    Cela est utilisé par tous les outils de débogage. Elle est également utilisée par Visual Studio et est lue et décodée quand Visual Studio s’ouvre. Par conséquent, si vous le modifiez, vous devez redémarrer Visual Studio.
+    Cela est utilisé par tous les outils de débogage. elle est également utilisée par Visual Studio, et est lue et décodée quand Visual Studio s’ouvre. Par conséquent, si vous le modifiez, vous devez redémarrer Visual Studio.
 
     Cette variable d’environnement vous permet de spécifier plusieurs serveurs de symboles, par exemple un serveur de symboles privé interne. Elle vous permet également de spécifier un répertoire de cache local pour stocker des fichiers PDB pour tous les symboles que vous recherchez à partir de serveurs de symboles, à la fois en interne et sur Internet.
 
@@ -167,7 +167,7 @@ Pour utiliser uniquement le serveur de symboles Microsoft avec un cache local de
 srv*c:\symbols*https://msdl.microsoft.com/download/symbols
 ```
 
-Vous trouverez d’autres options pour le \_ \_ \_ chemin d’accès aux symboles NT dans le fichier d’aide qui est installé avec le package outils de débogage Microsoft pour Windows.
+vous trouverez d’autres options pour le \_ \_ \_ chemin d’accès aux symboles NT dans le fichier d’aide qui est installé avec le package outils de débogage Microsoft pour Windows.
 
 Les exécutables sans symboles peuvent augmenter le temps nécessaire au lancement d’un débogueur si vous utilisez un serveur de symboles. Cela est dû au fait que le débogueur interroge le serveur de symboles chaque fois qu’il essaie de charger l’exécutable. Pour cette raison, il est préférable de toujours demander des symboles pour tous les composants.
 
@@ -177,13 +177,13 @@ Pour éviter même ce petit délai, vous pouvez exécuter le débogueur une seul
 
 ## <a name="getting-symbols-manually"></a>Obtention manuelle des symboles
 
-Si vous avez correctement configuré votre débogueur, il charge automatiquement tous les symboles nécessaires à partir de votre cache local ou d’un serveur de symboles. Si vous souhaitez obtenir les symboles d’un seul exécutable ou d’un dossier d’exécutables, vous pouvez utiliser **Symchk**. Par exemple, si vous souhaitez télécharger les symboles pour le fichier de \_30.dll d3dx9 dans le dossier système Windows dans le répertoire actif, vous pouvez utiliser la commande suivante :
+Si vous avez correctement configuré votre débogueur, il charge automatiquement tous les symboles nécessaires à partir de votre cache local ou d’un serveur de symboles. Si vous souhaitez obtenir les symboles d’un seul exécutable ou d’un dossier d’exécutables, vous pouvez utiliser **Symchk**. par exemple, si vous souhaitez télécharger les symboles pour le fichier de \_30.dll d3dx9 dans le dossier système Windows dans le répertoire actif, vous pouvez utiliser la commande suivante :
 
 ``` syntax
 "c:\Program Files\Debugging Tools for Windows\symchk" c:\Windows\System32\d3dx9_30.dll /oc \.
 ```
 
-L’outil **Symchk** a de nombreuses autres utilisations. Pour plus d’informations, consultez **Symchk/ ?**, ou consultez la documentation Microsoft débogage Tools pour Windows.
+L’outil **Symchk** a de nombreuses autres utilisations. pour plus d’informations, consultez **symchk/ ?**, ou consultez la documentation des outils de débogage Microsoft pour Windows.
 
 ## <a name="setting-up-a-symbol-server"></a>Configuration d’un serveur de symboles
 
@@ -191,9 +191,9 @@ La configuration d’un serveur de symboles est très simple. Elle est utile pou
 
 -   Pour économiser de la bande passante ou pour accélérer la résolution des symboles pour votre entreprise, votre équipe ou votre produit. Un serveur de symboles interne sur un partage de fichiers local sur votre réseau met en cache toutes les références aux serveurs de symboles externes, tels que le serveur de symboles Microsoft. Un serveur de symboles local ou interne est accessible rapidement par de nombreuses personnes. Par conséquent, elle économise la bande passante et la latence que les demandes de symboles dupliquées peuvent créer.
 -   Pour stocker des symboles pour les anciennes builds, versions ou versions externes de votre application. En stockant les symboles de ces builds sur un serveur de symboles auquel vous pouvez accéder facilement, vous pouvez déboguer des incidents et des problèmes dans ces builds sur n’importe quel ordinateur doté d’un débogueur et d’une connexion au serveur de symboles local. Cela s’avère particulièrement utile si vous déboguez des mini-vidages générés par des exécutables que vous n’avez pas créés vous-même, c’est-à-dire des builds qui ont été générées par un autre programmeur ou par un ordinateur de Build. Si les symboles de ces Builds sont stockés sur votre serveur de symboles, vous obtiendrez un débogage fiable et précis.
--   Pour tenir à jour les symboles. Lorsque les composants sont mis à jour, tels que les composants du système d’exploitation qui sont modifiés par Windows Update ou par le kit de développement logiciel (SDK) DirectX, vous pouvez toujours déboguer à l’aide de tous les symboles les plus récents.
+-   Pour tenir à jour les symboles. lorsque les composants sont mis à jour, tels que les composants du système d’exploitation qui sont modifiés par Windows Update ou par le kit de développement logiciel (SDK) DirectX, vous pouvez toujours déboguer à l’aide de tous les symboles les plus récents.
 
-La configuration d’un serveur de symboles sur votre propre réseau local est aussi simple que la création d’un partage de fichiers sur un serveur et l’octroi d’autorisations complètes aux utilisateurs pour accéder au partage, afin de créer des fichiers et des dossiers. Ce partage doit être créé sur un système d’exploitation serveur, tel que Windows Server 2003, de sorte que le nombre de personnes qui peuvent accéder simultanément au partage n’est pas limité.
+La configuration d’un serveur de symboles sur votre propre réseau local est aussi simple que la création d’un partage de fichiers sur un serveur et l’octroi d’autorisations complètes aux utilisateurs pour accéder au partage, afin de créer des fichiers et des dossiers. ce partage doit être créé sur un système d’exploitation serveur, par exemple Windows server 2003, de sorte que le nombre de personnes qui peuvent accéder simultanément au partage n’est pas limité.
 
 Par exemple, si vous configurez un partage de fichiers sur les \\ \\ \\ symboles mainserver, les membres de votre équipe définissent le \_ \_ \_ chemin d’accès aux symboles NT comme suit :
 
@@ -207,7 +207,7 @@ Il s’agit en général de tout ce qui est impliqué dans la configuration et l
 
 ## <a name="adding-symbols-to-a-symbol-server"></a>Ajout de symboles à un serveur de symboles
 
-Pour ajouter, supprimer ou modifier des fichiers sur un partage de serveur de symboles, utilisez l’outil symstore.exe. Cet outil fait partie du package outils de débogage Microsoft pour Windows. La documentation complète sur les serveurs de symboles, l’outil SymStore et les symboles d’indexation est incluse dans le package outils de débogage pour Windows.
+Pour ajouter, supprimer ou modifier des fichiers sur un partage de serveur de symboles, utilisez l’outil symstore.exe. cet outil fait partie du package outils de débogage Microsoft pour Windows. la documentation complète sur les serveurs de symboles, l’outil symstore et les symboles d’indexation est incluse dans les outils de débogage pour Windows package.
 
 Vous pouvez ajouter des symboles directement à votre propre serveur de symboles, dans le cadre d’un processus de génération, ou pour rendre les symboles disponibles pour l’ensemble de votre équipe pour les bibliothèques ou les outils tiers. Le processus d’ajout d’un symbole à un partage de fichiers de serveur de symboles est appelé « symboles d’indexation ». Il existe deux façons courantes d’indexer des symboles. Un fichier de symboles peut être copié sur le serveur de symboles. Ou bien, un pointeur vers l’emplacement du symbole peut être copié sur le serveur de symboles. Si vous disposez d’un dossier d’archive qui contient vos anciennes builds, vous pouvez indexer les pointeurs vers les fichiers PDB qui se trouvent déjà sur le partage, au lieu de dupliquer les symboles. Étant donné que la taille des symboles peut parfois être de dizaines de mégaoctets, il est judicieux de planifier à l’avance l’espace dont vous pouvez avoir besoin pour archiver toutes les builds de votre projet tout au long du développement. Si vous indexez uniquement les pointeurs vers des symboles, vous risquez de rencontrer des problèmes si vous supprimez les anciennes builds ou si vous modifiez le nom d’un partage de fichiers.
 
@@ -226,8 +226,8 @@ Le paramètre **/t "Comment"** est utilisé pour ajouter une description à la t
 -   Configurez \_ \_ \_ le chemin d’accès des symboles NT pour qu’il pointe vers un cache local, un serveur de symboles privé et le serveur de symboles Microsoft.
 -   Si un débogueur ne peut pas charger les symboles d’un composant que vous déboguez, contactez le propriétaire du composant pour demander des symboles, au moins un fichier PDB supprimé.
 -   Configurez un système de génération automatisé pour indexer les symboles sur votre serveur de symboles privé pour chaque Build produite. Assurez-vous que les builds que vous distribuez sont les builds générées par ce processus. Cela permet de s’assurer que les symboles sont toujours disponibles pour les problèmes de débogage.
--   Configurez un serveur de symboles pour permettre aux débogueurs d’accéder au code source d’un module spécifique directement à partir d’un système de contrôle de code source Visual Source Safe ou Perforce. Si les informations de fichier source et les symboles d’une version finale d’un jeu sont indexés, les développeurs qui ont accès à votre serveur de symboles peuvent avoir un débogage complet au niveau de la source des problèmes signalés, sans conserver les environnements de génération ou les anciennes versions des fichiers sources sur leurs ordinateurs de développement. Pour configurer votre serveur de symboles afin d’autoriser l’indexation d’informations sur les fichiers sources, consultez la documentation du serveur source.
+-   configurez un serveur de symboles pour permettre aux débogueurs d’accéder au code source d’un module spécifique directement à partir d’un système de contrôle de code source Coffre ou Perforce. Si les informations de fichier source et les symboles d’une version finale d’un jeu sont indexés, les développeurs qui ont accès à votre serveur de symboles peuvent avoir un débogage complet au niveau de la source des problèmes signalés, sans conserver les environnements de génération ou les anciennes versions des fichiers sources sur leurs ordinateurs de développement. Pour configurer votre serveur de symboles afin d’autoriser l’indexation d’informations sur les fichiers sources, consultez la documentation du serveur source.
 
- 
+ 
 
- 
+ 

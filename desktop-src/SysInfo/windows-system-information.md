@@ -1,17 +1,17 @@
 ---
 description: Les vues d’ensemble suivantes décrivent les types d’informations système disponibles.
 ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
-title: Informations système Windows
+title: Windows System Information
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1df90d6e7a5a90d9ee108d67e5f9182ffca59f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f7144d5be7f6ba33dc1743e57935f9bf3bbdadd
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531890"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436234"
 ---
-# <a name="windows-system-information"></a>Informations système Windows
+# <a name="windows-system-information"></a>Windows System Information
 
 Les vues d’ensemble suivantes décrivent les types d’informations système disponibles.
 
@@ -24,7 +24,7 @@ Les vues d’ensemble suivantes décrivent les types d’informations système d
 | [Informations système](system-information.md)            | Récupère ou définit la configuration système, les paramètres, la version et les métriques.                                                                                                                                                                                                                                                             |
 | [Time](time.md)                                        | Récupère ou définit l’heure système.                                                                                                                                                                                                                                                                                                  |
 | [Fournisseur de temps](time-provider.md)                      | Récupère des horodatages précis à partir du matériel ou du réseau, et fournit des horodateurs à d’autres clients sur le réseau.                                                                                                                                                                                                              |
-| [Plateforme d’évaluation WaaS](update-assessor-service.md) | La plateforme d’évaluation des mises à jour de Windows en tant que service (WaaS) fournit des informations sur les mises à jour Windows d’un appareil.                                                                                                                                                                                                                      |
+| [Plateforme d’évaluation WaaS](update-assessor-service.md) | la plateforme d’évaluation des mises à jour WaaS (Windows as a Service) fournit des informations sur les mises à jour de Windows d’un appareil.                                                                                                                                                                                                                      |
 
 
 
@@ -34,9 +34,9 @@ Les vues d’ensemble suivantes décrivent les types d’informations système d
 
 
 
-|                                                                                                                                   |                                                                                                                   |
+| Élément                                                                                                                              | Description                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [Forum sur les problèmes généraux de développement Windows](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | Discutez des informations système Windows et d’autres problèmes généraux liés au développement d’applications pour Windows.<br/> |
+| [Forum sur les problèmes généraux de développement Windows](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | discutez Windows System Information et d’autres problèmes généraux liés au développement d’applications pour Windows.<br/> |
 
 
 

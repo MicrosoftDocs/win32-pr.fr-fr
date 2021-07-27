@@ -6,18 +6,18 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 456ca501426142182d9823427c7d13599e4a92db
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b748793cfdc1d2d74111cfb48e020108f32ec07
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511093"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436434"
 ---
 # <a name="core-structures"></a>Structures de base
 
 Les structures suivantes sont déclarées dans d3d12. h.
 
-## <a name="in-this-section"></a>Dans cette section
+## <a name="in-this-section"></a>Contenu de cette section
 
 | Rubrique et description |
 |-|
@@ -62,6 +62,9 @@ Les structures suivantes sont déclarées dans d3d12. h.
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS4**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4). Indique le niveau de prise en charge des textures MSAA, du partage inter-API et des opérations de nuanceur 16 bits natifs. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS5**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5). Indique le niveau de prise en charge que l’adaptateur fournit pour les ressources en mosaïque des passes de rendu, de traçage de rayon et de vue de la ressource de nuanceur 3. |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6). Indique le niveau de prise en charge fourni par l’adaptateur pour l’ombrage à taux variable (VRS) et indique si le traitement en arrière-plan est pris en charge ou non. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS7**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7). Indique le niveau de prise en charge fourni par l’adaptateur pour les nuanceurs de maillage et d’amplification, et pour les commentaires de l’échantillonneur. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS8**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8). Indique si les textures compressées par blocs non alignées sont prises en charge. |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS9**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9). Indique si la prise en charge existe ou non pour les nuanceurs de maille, les valeurs de *SV_RenderTargetArrayIndex* qui sont supérieures ou égales à 8, les exemples d’opérations de texture de type entier 64 bits atomiques, dérivés et dérivés dépendants, ainsi que le niveau de prise en charge pour les opérations WaveMMA (wave_matrix). |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps). Utilisé pour determinine si l’adaptateur prend en charge la création de tas à partir de la mémoire système existante. Ces segments de mémoire ne sont pas destinés à un usage général, mais sont utiles à des fins de diagnostic, car ils sont assurés de persister même après l’erreur de l’adaptateur ou un événement de suppression de l’appareil. |
 | [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels). Décrit les informations sur les [niveaux de fonctionnalité](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) pris en charge par le pilote graphique actuel. |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_info). Décrit le format de données DXGI. |

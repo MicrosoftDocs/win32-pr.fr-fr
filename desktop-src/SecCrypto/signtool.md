@@ -4,21 +4,21 @@ description: SignTool est un outil en ligne de commande qui signe numériquement
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
 ms.date: 10/12/2020
-ms.openlocfilehash: 884d4c132a2877a51cef7610dd32e8ef6b9c4bc3
-ms.sourcegitcommit: 25e1fa2b3641ae13b79e0afdf9cb7a168d99e009
+ms.openlocfilehash: f738eddb6e47da12297bffd13a816398ba2c46c9
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "104383187"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436444"
 ---
 # <a name="signtool"></a>SignTool (SignTool)
 
-SignTool est un outil en ligne de commande qui signe numériquement les fichiers, vérifie les signatures dans les fichiers et les fichiers d’horodatage. Pour plus d’informations sur la raison pour laquelle la signature des fichiers est importante, consultez [Présentation de la signature de code](cryptography-tools.md). L’outil est installé dans le \\ dossier bin du chemin d’installation du kit de développement logiciel (SDK) Microsoft Windows.
+SignTool est un outil en ligne de commande qui signe numériquement les fichiers, vérifie les signatures dans les fichiers et les fichiers d’horodatage. Pour plus d’informations sur la raison pour laquelle la signature des fichiers est importante, consultez [Présentation de la signature de code](cryptography-tools.md). l’outil est installé dans le \\ dossier Bin du chemin d’installation du kit de développement logiciel (SDK) de Microsoft Windows (par exemple : C:\Program Files (x86) \ Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe).
 
 SignTool est disponible dans le cadre de la SDK Windows, que vous pouvez télécharger à partir de <https://developer.microsoft.com/windows/downloads/windows-10-sdk/> .
 
 > [!Note]  
-> Les **versions 20236 et ultérieures** du kit de développement logiciel (SDK) Windows 10, Windows 10 HLK, Windows 10 WDK et Windows 10 ADK requièrent désormais la spécification de l’algorithme Digest. La commande de signature SignTool requiert la `file digest algorithm` spécification de/FD et de l' `timestamp digest algorithm` option/TD lors de la signature et de l’horodatage, respectivement. Un avertissement (code d’erreur 0, initialement) est levé si/FD n’est pas spécifié lors de la signature et si/TD n’est pas spécifié lors de l’horodatage. Dans les versions ultérieures de SignTool, l’avertissement devient une erreur. SHA256 est recommandé et est considéré comme plus sûr que SHA1 par le secteur.  
+> le kit de développement logiciel (SDK) Windows 10, Windows 10 HLK, Windows 10 WDK et Windows 10 ADK **builds 20236 et ultérieures** requièrent désormais la spécification de l’algorithme digest. La commande de signature SignTool requiert la `file digest algorithm` spécification de/FD et de l' `timestamp digest algorithm` option/TD lors de la signature et de l’horodatage, respectivement. Un avertissement (code d’erreur 0, initialement) est levé si/FD n’est pas spécifié lors de la signature et si/TD n’est pas spécifié lors de l’horodatage. Dans les versions ultérieures de SignTool, l’avertissement devient une erreur. SHA256 est recommandé et est considéré comme plus sûr que SHA1 par le secteur.  
 
 
 ## <a name="syntax"></a>Syntaxe  
@@ -53,7 +53,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 |**/v**|Affiche la sortie des commentaires que la commande s'exécute correctement ou échoue, et affiche des messages d'avertissement.|  
 |**/Debug**|Affiche les informations de débogage.|  
 
- 
+ 
 ## <a name="catdb-command-options"></a>Options de commande CatDB  
 
  Le tableau suivant répertorie les options qui peuvent être utilisées avec la commande `Catdb`.
@@ -76,7 +76,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 |Options de la commande Sign|Description|  
 |----|----| 
 |`/a`|Sélectionne automatiquement le meilleur certificat de signature. L'outil Signature recherche tous les certificats valides qui répondent à toutes les conditions spécifiées et sélectionne celui qui est valide le plus longtemps. Si cette option n'est pas présente, l'outil Signature pense trouver un seul certificat de signature valide.|  
-|`/ac`  *fichier*|Ajoute un certificat supplémentaire à partir de *file* au bloc de signature.|  
+|`/ac`  *txt*|Ajoute un certificat supplémentaire à partir de *file* au bloc de signature.|  
 |`/as`|Ajoute cette signature. Si aucune signature principale n'est présente, cette signature est effectuée à la signature principale à la place.|  
 |`/c`  *CertTemplateName*|Spécifie le nom du modèle de certificat (une extension Microsoft) pour le certificat de signature.|  
 |`/csp`  *CSPName*|Spécifie le fournisseur de services de chiffrement (CSP) qui contient le conteneur de clés privées.|  
@@ -90,12 +90,12 @@ Les commandes suivantes sont prises en charge par SignTool.
 |`/dxml`  |Lorsqu’il est utilisé avec l’option <strong>/DG</strong> , produit un fichier XML. Le fichier de sortie est le suivant : *Path\FileName.dig.xml*.|  
 |`/f`  *SignCertFile*|Spécifie le certificat de signature dans un fichier. Si le fichier est au format PFX (Personal Information Exchange) et protégé par un mot de passe, utilisez l'option `/p` pour spécifier le mot de passe. Si le fichier ne contient aucune clé privée, utilisez les options `/csp` et `/kc` pour spécifier le nom du conteneur CSP et de clés privées.|  
 |`/fd`*ALG*|Spécifie l’algorithme de condensat de fichiers à utiliser pour créer des signatures de fichiers. </br> **Remarque :** Un avertissement est généré si l’option <strong>/FD</strong> n’est pas spécifiée lors de la signature. L’ALG par défaut est SHA1 mais SHA256 est recommandé.|
-|`/fd`  *certHash*|La spécification de la chaîne certHash aura comme valeur par défaut l’algorithme utilisé sur le certificat de signature. </br> **Remarque :** Disponible uniquement dans les versions 20236 et ultérieures du Kit Windows 10.|  
+|`/fd`  *certHash*|La spécification de la chaîne certHash aura comme valeur par défaut l’algorithme utilisé sur le certificat de signature. </br> **Remarque :** disponible uniquement dans les versions 20236 et ultérieures du kit de Windows 10.|  
 |`/i`  *IssuerName*|Spécifie le nom de l'émetteur du certificat de signature. Cette valeur peut être une sous-chaîne du nom d'émetteur entier.|  
 |`/kc`  *PrivKeyContainerName*|Spécifie le nom du conteneur de clés privées.|  
 |`/n`  *SubjectName*|Spécifie le nom de l'objet du certificat de signature. Cette valeur peut être une sous-chaîne du nom de l'objet entier.|  
 |`/nph`|En cas de prise en charge, supprime les hachages de pages pour les fichiers exécutables. La valeur par défaut est déterminée par la variable d'environnement SIGNTOOL_PAGE_HASHES et par la version de wintrust.dll. Cette option est ignorée pour les fichiers non PE.|  
-|`/p`  *Mot de passe*|Spécifie le mot de passe à utiliser lors de l'ouverture d'un fichier PFX. (Utilisez l'option `/f` pour spécifier un fichier PFX.)|  
+|`/p`  *De*|Spécifie le mot de passe à utiliser lors de l'ouverture d'un fichier PFX. (Utilisez l'option `/f` pour spécifier un fichier PFX.)|  
 |`/p7` *Chemin*|Spécifie qu'un fichier PKCS (Public Key Cryptography Standards) #7 est produit pour chaque fichier de contenu spécifié. Les fichiers de #7 PKCS sont nommés *chemin* \\ *nom_de_fichier*. P7.|  
 |`/p7ce` *Valeur*|Spécifie des options pour le contenu PKCS #7 signé. Remplacez *Value* par « Embedded » pour incorporer le contenu signé dans le fichier PKCS #7 ou par « DetachedSignedData » pour produire la partie signée des données d’un fichier PKCS #7 détaché. Si l'option `/p7ce` n'est pas utilisée, le contenu signé est incorporé par défaut.|  
 |`/p7co` *\<OID>*|Spécifie l'identificateur d'objet (OID) qui identifie le contenu PKCS #7 signé.|  
@@ -107,7 +107,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 |`/t`  *URL*|Spécifie l'URL du serveur d'horodatage. Si cette option (ou `/tr`) n'est pas présente, le fichier signé ne sera pas horodaté. Un avertissement est généré si l'horodatage échoue. Cette option ne peut pas être utilisée avec l'option `/tr`.|  
 |`/td`  *ALG*|Utilisé avec l'option `/tr` pour demander un algorithme Digest utilisé par le serveur d'horodatage RFC 3161. </br> **Remarque :** Un avertissement est généré si le commutateur <strong>/TD</strong> n’est pas fourni lors de l’horodatage. L’ALG par défaut est SHA1 mais SHA256 est recommandé. <br/> Le commutateur <strong>/TD</strong> doit être déclaré après le commutateur <strong>/TR</strong> , et non avant. Si le commutateur <strong>/TD</strong> est déclaré avant le commutateur <strong>/TR</strong> , l’horodateur retourné est issu d’un algorithme SHA1 au lieu de l’algorithme SHA256 prévu. |
 |`/tr`  *URL*|Spécifie l'URL du serveur d'horodatage RFC 3161. Si cette option (ou `/t`) n'est pas présente, le fichier signé ne sera pas horodaté. Un avertissement est généré si l'horodatage échoue. Cette option ne peut pas être utilisée avec l'option `/t`.|  
-|`/u`  *Utilisation*|Spécifie l'utilisation améliorée de la clé (EKU) qui doit être présente dans le certificat de signature. La valeur de l'utilisation peut être spécifiée par un OID ou une chaîne. L'utilisation par défaut est « Signature du code » (1.3.6.1.5.5.7.3.3).|  
+|`/u`  *Usage*|Spécifie l'utilisation améliorée de la clé (EKU) qui doit être présente dans le certificat de signature. La valeur de l'utilisation peut être spécifiée par un OID ou une chaîne. L'utilisation par défaut est « Signature du code » (1.3.6.1.5.5.7.3.3).|  
 |`/uw`|Spécifie l'utilisation « Windows System Component Verification » (1.3.6.1.4.1.311.10.3.6).|  
   
  Pour obtenir des exemples, consultez [Utilisation de SignTool pour signer un fichier](using-signtool-to-sign-a-file.md).  
@@ -130,7 +130,7 @@ Les commandes suivantes sont prises en charge par SignTool.
 
 |Option Verify|Description|
 |----|----|
-| **/a** | Spécifie que toutes les méthodes peuvent être utilisées pour vérifier le fichier. En premier lieu, une recherche est effectuée dans les bases de données de catalogue pour déterminer si le fichier est signé dans un catalogue. Si le fichier n’est signé dans aucun catalogue, SignTool tente de vérifier la signature incorporée du fichier. Cette option est recommandée lors de la vérification de fichiers qui peuvent être ou non signés dans un catalogue. Les fichiers ou pilotes Windows sont des exemples de fichiers qui peuvent être ou non signés. |
+| **/a** | Spécifie que toutes les méthodes peuvent être utilisées pour vérifier le fichier. En premier lieu, une recherche est effectuée dans les bases de données de catalogue pour déterminer si le fichier est signé dans un catalogue. Si le fichier n’est signé dans aucun catalogue, SignTool tente de vérifier la signature incorporée du fichier. Cette option est recommandée lors de la vérification de fichiers qui peuvent être ou non signés dans un catalogue. Windows des fichiers ou des pilotes sont des exemples de fichiers qui peuvent être ou non signés. |
 | **/ad** | Recherche le catalogue à l'aide de la base de données de catalogue par défaut. |
 | **All** | Vérifie toutes les signatures dans un fichier avec plusieurs signatures. |
 | **/as** | Recherche le catalogue à l'aide de la base de données de catalogue du composant système (pilote). |
@@ -141,9 +141,9 @@ Les commandes suivantes sont prises en charge par SignTool.
 | **/hash**{**SHA1** \| **SHA256**} | Spécifie un algorithme de hachage facultatif à utiliser lors de la recherche d'un fichier dans un catalogue. |
 | **/kp** | Effectue la vérification à l’aide de la stratégie de signature de pilotes en mode noyau x64. |
 | **/ms.** | Utilise plusieurs sémantiques de vérification. Il s’agit du comportement par défaut d’un appel [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) . |
-|  *version* /o | Vérifie le fichier par version du système d'exploitation. Le paramètre version se présente sous la forme suivante :<br/> *PlatformID ***:*** VerMajor ***.*** Vermine ***.*** BuildNumber*<br/> L’utilisation du commutateur */o* est recommandée. Si */o* n’est pas spécifié, SignTool peut retourner des résultats inattendus. Par exemple, si vous n’incluez pas le commutateur */o* , les catalogues système qui valident correctement sur un système d’exploitation plus ancien peuvent ne pas valider correctement sur un système d’exploitation plus récent. |
+|  *version* /o | Vérifie le fichier par version du système d'exploitation. Le paramètre version se présente sous la forme suivante :<br/> *PlatformID ***:**_VerMajor_*_._ *_Vermine_*_._ * _BuildNumber_<br/> L’utilisation du commutateur */o* est recommandée. Si */o* n’est pas spécifié, SignTool peut retourner des résultats inattendus. Par exemple, si vous n’incluez pas le commutateur */o* , les catalogues système qui valident correctement sur un système d’exploitation plus ancien peuvent ne pas valider correctement sur un système d’exploitation plus récent. |
 | **/p7** | Vérifiez les \# fichiers PKCS 7. Aucune stratégie existante n’est utilisée pour la \# validation PKCS 7. La signature est vérifiée et une chaîne est générée pour le certificat de signature. |
-| **/pa** | Spécifie que la stratégie de vérification de l’authentification par défaut est utilisée. Si l’option **/PA** n’est pas spécifiée, SignTool utilise la stratégie de vérification des pilotes Windows. Cette option ne peut pas être utilisée avec les options **CatDB** . |
+| **/pa** | Spécifie que la stratégie de vérification de l’authentification par défaut est utilisée. si l’option **/pa** n’est pas spécifiée, SignTool utilise la stratégie de vérification des pilotes Windows. Cette option ne peut pas être utilisée avec les options **CatDB** . |
 | **/PG** *PolicyGUID* | Spécifie une stratégie de vérification par **GUID**. Le **GUID** correspond à l’ActionID de la stratégie de vérification. Cette option ne peut pas être utilisée avec les options **CatDB** . |
 | **/pH** | Imprimer et vérifier les valeurs de hachage de la page.<br/> **Windows Vista et versions antérieures :** Cet indicateur n’est pas pris en charge.<br/>  |
 | **/R** *RootSubjectName* | Spécifie le nom de l'objet du certificat racine auquel le certificat de signature doit être lié. Cette valeur peut être une sous-chaîne du nom de l'objet entier du certificat racine. |
@@ -155,7 +155,7 @@ La commande SignTool **verify** détermine si le certificat de signature a été
 La commande SignTool **verify** génère l’état de la signature **incorporée** , sauf si une option est spécifiée pour rechercher un catalogue (/a,/ad,/As,/AG,/c).
 
 
-## <a name="return-value"></a>Valeur retournée  
+## <a name="return-value"></a>Valeur renvoyée  
 
  L'outil Signature retourne l'un des codes de sortie suivants lorsqu'il se termine.  
   

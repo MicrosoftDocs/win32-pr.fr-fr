@@ -4,12 +4,12 @@ ms.assetid: 6ec78ac9-c10c-4227-bead-5ddfc48ce27e
 title: Élément de remplacement (WinGDI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71eb1bc0bf74462cadecb480ceb87a0b610be876
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55dfb629aadea988a6aeec1cba1020c8ab47c994
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543955"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436604"
 ---
 # <a name="alternate-element"></a>Élément de remplacement
 
@@ -27,27 +27,27 @@ Contient une alternative à la reconnaissance pour un [**InkWord**](inkword-elem
 
 ## <a name="child-elements"></a>Éléments enfants
 
-Aucun
+Aucun.
 
 ## <a name="attributes"></a>Attributs
 
-Aucun
+Aucun.
 
 ## <a name="element-information"></a>Informations sur les éléments
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| Type d'élément | **xs:string**                              |
-| Espace de noms    | urn : schemas-microsoft-com : TabletPC : RichInk |
-| Nom du schéma  | Lecteur de journal                             |
+|                  | Valeur                                      |
+|------------------|--------------------------------------------|
+| **Type d’élément** | xs:string                                  |
+| **Espace de noms**    | urn : schemas-microsoft-com : TabletPC : RichInk |
+| **Nom du schéma**  | Lecteur de journal                             |
 
 
 
  
 
-## <a name="requirements"></a>Configuration requise
+## <a name="requirements"></a>Spécifications
 
 
 
