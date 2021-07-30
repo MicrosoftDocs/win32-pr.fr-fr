@@ -1,14 +1,14 @@
 ---
 title: IUniversalOrchestrator::WorkCompleted
 description: Appelle Universal Orchestrator pour indiquer que le travail est terminé
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 8d4a08e7f021811e59a182a8b726397476b78433
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: e36a3ba744df807abbebc6332ac8433010afd667
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106542069"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991826"
 ---
 # <a name="iuniversalorchestratorworkcompleted-method"></a>IUniversalOrchestrator :: WorkCompleted, méthode
 
@@ -35,7 +35,7 @@ Chaîne unique qui identifie tous les appels de ce client spécifique.
 
 **True** si le travail s’est terminé avec succès. Sinon, **false** si la tentative de travail a échoué et doit être retentée à l’avenir. 
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 Si cette méthode est réussie, elle retourne **S_OK**.  Sinon, elle retourne un code d’erreur **HRESULT** .
 
 ## <a name="requirements"></a>Configuration requise

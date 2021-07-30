@@ -5,12 +5,12 @@ title: Ordre de recherche de la bibliothèque Dynamic-Link
 ms.topic: article
 ms.date: 09/11/2020
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 928cf9030e24c91145ae95e1eed680017bf68533
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: 73c90e176983aa542ec524c2bfa32623821c2f21
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104520332"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991836"
 ---
 # <a name="dynamic-link-library-search-order"></a>Ordre de recherche de la bibliothèque Dynamic-Link
 
@@ -23,7 +23,7 @@ Un système peut contenir plusieurs versions de la même bibliothèque de liens 
 -   [Ordre de recherche pour les applications de bureau](#search-order-for-desktop-applications)
     -   [Ordre de recherche standard pour les applications de bureau](#standard-search-order-for-desktop-applications)
     -   [Ordre de recherche alternatif pour les applications de bureau](#alternate-search-order-for-desktop-applications)
-    -   [Ordre de recherche à l’aide des indicateurs de **\_ \_ recherche** de la bibliothèque de chargement](/windows)
+    -   [Ordre de recherche à l’aide des indicateurs de **\_ \_ recherche** de la bibliothèque de chargement](#search-order-using-load_library_search-flags)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="factors-that-affect-searching"></a>Facteurs qui affectent la recherche
@@ -31,17 +31,17 @@ Un système peut contenir plusieurs versions de la même bibliothèque de liens 
 Les facteurs suivants déterminent si le système recherche une DLL :
 
 -   Si une DLL portant le même nom de module est déjà chargée en mémoire, le système vérifie uniquement la redirection et un manifeste avant de résoudre la DLL chargée, quel que soit le répertoire dans lequel elle se trouve. Le système ne recherche pas la DLL.
--   Si la DLL se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la DLL connue (et les dll dépendantes de la DLL connue, le cas échéant) au lieu de rechercher la DLL. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
+-   si la dll se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la dll connue (et les dll dépendantes de la dll connue, le cas échéant) au lieu de rechercher la dll. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
 -   Si une DLL a des dépendances, le système recherche les dll dépendantes comme si elles étaient chargées avec uniquement leurs noms de module. Cela est vrai même si la première DLL a été chargée en spécifiant un chemin d’accès complet.
 
 ## <a name="search-order-for-uwp-apps"></a>Ordre de recherche des applications UWP
 
-Quand une application UWP pour Windows 10 (ou une application Windows Store pour Windows 8. x) charge un module empaqueté en appelant la fonction [**LoadPackagedLibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary) , celle-ci doit se trouver dans le graphique de dépendance du package du processus. Pour plus d’informations, consultez **LoadPackagedLibrary**. Quand une application UWP charge un module par d’autres moyens et ne spécifie pas de chemin d’accès complet, le système recherche la DLL et ses dépendances au moment du chargement, comme décrit dans cette section.
+quand une application UWP pour Windows 10 (ou une application de Store pour Windows 8. x) charge un module empaqueté en appelant la fonction [**LoadPackagedLibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary) , la DLL doit se trouver dans le graphique de dépendance du package du processus. Pour plus d’informations, consultez **LoadPackagedLibrary**. Quand une application UWP charge un module par d’autres moyens et ne spécifie pas de chemin d’accès complet, le système recherche la DLL et ses dépendances au moment du chargement, comme décrit dans cette section.
 
 Avant que le système ne recherche une DLL, il vérifie les éléments suivants :
 
 -   Si une DLL portant le même nom de module est déjà chargée en mémoire, le système utilise la DLL chargée, quel que soit le répertoire dans lequel elle se trouve. Le système ne recherche pas la DLL.
--   Si la DLL se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la DLL connue (et les dll dépendantes de la DLL connue, le cas échéant). Le système ne recherche pas la DLL. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
+-   si la dll se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la dll connue (et les dll dépendantes de la dll connue, le cas échéant). Le système ne recherche pas la DLL. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
 
 Si le système doit rechercher un module ou ses dépendances, il utilise toujours l’ordre de recherche des applications UWP, même si une dépendance n’est pas un code d’application UWP.
 
@@ -70,7 +70,7 @@ Les applications de bureau peuvent contrôler l’emplacement à partir duquel u
 Avant que le système ne recherche une DLL, il vérifie les éléments suivants :
 
 -   Si une DLL portant le même nom de module est déjà chargée en mémoire, le système utilise la DLL chargée, quel que soit le répertoire dans lequel elle se trouve. Le système ne recherche pas la DLL.
--   Si la DLL se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la DLL connue (et les dll dépendantes de la DLL connue, le cas échéant). Le système ne recherche pas la DLL. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
+-   si la dll se trouve dans la liste des dll connues pour la version de Windows sur laquelle l’application s’exécute, le système utilise sa copie de la dll connue (et les dll dépendantes de la dll connue, le cas échéant). Le système ne recherche pas la DLL. Pour obtenir la liste des dll connues sur le système actuel, consultez la clé de Registre suivante : **HKEY \_ local \_ machine \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**.
 
 Si une DLL a des dépendances, le système recherche les dll dépendantes comme si elles étaient chargées avec uniquement leurs noms de module. Cela est vrai même si la première DLL a été chargée en spécifiant un chemin d’accès complet.
 
@@ -79,16 +79,16 @@ Si une DLL a des dépendances, le système recherche les dll dépendantes comme 
 
 ### <a name="standard-search-order-for-desktop-applications"></a>Ordre de recherche standard pour les applications de bureau
 
-L’ordre de recherche des DLL standard utilisé par le système varie selon que le mode de recherche de DLL sécurisé est activé ou désactivé. Le mode de recherche de DLL sécurisé place le répertoire actuel de l’utilisateur plus tard dans l’ordre de recherche.
+L’ordre de recherche des DLL standard utilisé par le système varie selon que le mode de recherche de DLL sécurisé est activé ou désactivé. Coffre Le mode de recherche DLL place le répertoire actuel de l’utilisateur plus tard dans l’ordre de recherche.
 
-Le mode de recherche de DLL sécurisé est activé par défaut. Pour désactiver cette fonctionnalité, créez la valeur de Registre SafeDllSearchMode du **\_ Gestionnaire de \_ \\ \\ \\ \\ session** de la clé HKEY locale de l’ordinateur local \\  et affectez-lui la valeur 0. L’appel de la fonction [**SetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) désactive efficacement **SafeDllSearchMode** alors que le répertoire spécifié se trouve dans le chemin de recherche et modifie l’ordre de recherche comme décrit dans cette rubrique.
+Coffre Le mode de recherche DLL est activé par défaut. Pour désactiver cette fonctionnalité, créez la valeur de Registre SafeDllSearchMode du **\_ Gestionnaire de \_ \\ \\ \\ \\ session** de la clé HKEY locale de l’ordinateur local \\  et affectez-lui la valeur 0. L’appel de la fonction [**SetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) désactive efficacement **SafeDllSearchMode** alors que le répertoire spécifié se trouve dans le chemin de recherche et modifie l’ordre de recherche comme décrit dans cette rubrique.
 
 Si **SafeDllSearchMode** est activé, l’ordre de recherche est le suivant :
 
 1.  Répertoire à partir duquel l’application a été chargée.
 2.  Répertoire du système. Utilisez la fonction [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 3.  Répertoire système 16 bits. Aucune fonction n’obtient le chemin d’accès de ce répertoire, mais elle est recherchée.
-4.  Répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
+4.  répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 5.  Le répertoire actif.
 6.  Répertoires répertoriés dans la variable d’environnement PATH. Notez que cela n’inclut pas le chemin d’accès par application spécifié par la clé de Registre **App Paths** . La clé **chemins d’accès** à l’application n’est pas utilisée lors du calcul du chemin de recherche de dll.
 
@@ -98,7 +98,7 @@ Si **SafeDllSearchMode** est désactivé, l’ordre de recherche est le suivant�
 2.  Le répertoire actif.
 3.  Répertoire du système. Utilisez la fonction [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 4.  Répertoire système 16 bits. Aucune fonction n’obtient le chemin d’accès de ce répertoire, mais elle est recherchée.
-5.  Répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
+5.  répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 6.  Répertoires répertoriés dans la variable d’environnement PATH. Notez que cela n’inclut pas le chemin d’accès par application spécifié par la clé de Registre **App Paths** . La clé **chemins d’accès** à l’application n’est pas utilisée lors du calcul du chemin de recherche de dll.
 
 ### <a name="alternate-search-order-for-desktop-applications"></a>Ordre de recherche alternatif pour les applications de bureau
@@ -119,7 +119,7 @@ Si **SafeDllSearchMode** est activé, l’ordre de recherche alternatif est le s
 1.  Répertoire spécifié par *lpFileName*.
 2.  Répertoire du système. Utilisez la fonction [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 3.  Répertoire système 16 bits. Aucune fonction n’obtient le chemin d’accès de ce répertoire, mais elle est recherchée.
-4.  Répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
+4.  répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 5.  Le répertoire actif.
 6.  Répertoires répertoriés dans la variable d’environnement PATH. Notez que cela n’inclut pas le chemin d’accès par application spécifié par la clé de Registre **App Paths** . La clé **chemins d’accès** à l’application n’est pas utilisée lors du calcul du chemin de recherche de dll.
 
@@ -129,7 +129,7 @@ Si **SafeDllSearchMode** est désactivé, l’ordre de recherche alternatif est 
 2.  Le répertoire actif.
 3.  Répertoire du système. Utilisez la fonction [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 4.  Répertoire système 16 bits. Aucune fonction n’obtient le chemin d’accès de ce répertoire, mais elle est recherchée.
-5.  Répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
+5.  répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 6.  Répertoires répertoriés dans la variable d’environnement PATH. Notez que cela n’inclut pas le chemin d’accès par application spécifié par la clé de Registre **App Paths** . La clé **chemins d’accès** à l’application n’est pas utilisée lors du calcul du chemin de recherche de dll.
 
 La fonction [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya) prend en charge un ordre de recherche alternatif si le paramètre *lpPathName* spécifie un chemin d’accès. L’ordre de recherche alternatif est le suivant :
@@ -138,7 +138,7 @@ La fonction [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdll
 2.  Répertoire spécifié par le paramètre *lpPathName* de [**SetDllDirectory**](/windows/desktop/api/Winbase/nf-winbase-setdlldirectorya).
 3.  Répertoire du système. Utilisez la fonction [**GetSystemDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getsystemdirectorya) pour récupérer le chemin d’accès à ce répertoire. Le nom de ce répertoire est system32.
 4.  Répertoire système 16 bits. Aucune fonction n’obtient le chemin d’accès de ce répertoire, mais elle est recherchée. Le nom de ce répertoire est System.
-5.  Répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
+5.  répertoire Windows. Utilisez la fonction [**GetWindowsDirectory**](/windows/desktop/api/sysinfoapi/nf-sysinfoapi-getwindowsdirectorya) pour récupérer le chemin d’accès à ce répertoire.
 6.  Répertoires répertoriés dans la variable d’environnement PATH. Notez que cela n’inclut pas le chemin d’accès par application spécifié par la clé de Registre **App Paths** . La clé **chemins d’accès** à l’application n’est pas utilisée lors du calcul du chemin de recherche de dll.
 
 Si le paramètre *lpPathName* est une chaîne vide, l’appel supprime le répertoire actif de l’ordre de recherche.

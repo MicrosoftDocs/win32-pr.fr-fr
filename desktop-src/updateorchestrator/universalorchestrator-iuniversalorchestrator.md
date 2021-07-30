@@ -2,13 +2,13 @@
 title: IUniversalOrchestrator, interface
 description: Interface COM qui fournit des méthodes pour permettre à un client de communiquer avec l’Orchestrator universel.
 ms.date: 01/14/2021
-ms.topic: interface
-ms.openlocfilehash: 6fa5dfd9f7853159645fbe3b543c228450f4e1c4
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.topic: reference
+ms.openlocfilehash: 5dbbaafb38ab9d790d32beca9b014f933d5d53d5
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106535083"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991846"
 ---
 # <a name="iuniversalorchestrator-interface"></a>IUniversalOrchestrator, interface
 

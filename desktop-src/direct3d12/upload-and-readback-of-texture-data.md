@@ -5,30 +5,30 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
-ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
+ms.openlocfilehash: d8846fd5f916c440d3dbdf5d907cc7f66cc6a313
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112426963"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991806"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>Chargement de données de texture dans des mémoires tampons
 
 Le chargement de données de texture 2D ou 3D est similaire au chargement de données 1D, à ceci près que les applications doivent être plus particulièrement attentifes à l’alignement des données liées au pas à pas. Les mémoires tampons peuvent être utilisées de façon orthogonale et simultanée à partir de plusieurs parties du pipeline graphique, et sont très flexibles.
 
--   [Charger les données de texture via des tampons](#upload-texture-data-via-buffers)
+-   [Télécharger Données de texture via des mémoires tampons](#upload-texture-data-via-buffers)
 -   [Destination](#copying)
 -   [Mappage et annulation du mappage](#mapping-and-unmapping)
 -   [Alignement de la mémoire tampon](#buffer-alignment)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="upload-texture-data-via-buffers"></a>Charger les données de texture via des tampons
+## <a name="upload-texture-data-via-buffers"></a>Télécharger Données de texture via des mémoires tampons
 
 Les applications doivent charger des données via [**ID3D12GraphicsCommandList :: CopyTextureRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion) ou [**ID3D12GraphicsCommandList :: CopyBufferRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion). Les données de texture sont plus susceptibles d’être plus volumineuses, accessibles à plusieurs reprises et tirent parti de la cohérence améliorée du cache des dispositions de mémoire non linéaires par rapport aux autres données de ressources. Lorsque les mémoires tampons sont utilisées dans D3D12, les applications disposent d’un contrôle total sur l’emplacement et la disposition des données associées à la copie des données de ressources, à condition que les exigences d’alignement de la mémoire soient respectées.
 
 L’exemple met en évidence l’emplacement où l’application aplatit simplement les données 2D en 1J avant de les placer dans la mémoire tampon. Pour le scénario 2D mipmap, l’application peut aplatir chaque sous-ressource discrètement et rapidement utiliser un algorithme de sous-allocation 1D, ou utiliser une technique de sous-allocation 2D plus complexe pour réduire l’utilisation de la mémoire vidéo. La première technique est censée être utilisée plus souvent, car elle est plus simple. La deuxième technique peut être utile lors de l’empaquetage de données sur un disque ou sur un réseau. Dans les deux cas, l’application doit toujours appeler les API de copie pour chaque sous-ressource.
 
-``` syntax
+```cpp
 // Prepare a pBitmap in memory, with bitmapWidth, bitmapHeight, and pixel format of DXGI_FORMAT_B8G8R8A8_UNORM. 
 //
 // Sub-allocate from the buffer for texture data.
@@ -101,7 +101,7 @@ Les méthodes D3D12 permettent aux applications de remplacer D3D11 [**UpdateSubr
 
 Notez les deux constantes suivantes :
 
-``` syntax
+```cpp
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
@@ -138,11 +138,4 @@ Restrictions d’alignement de mémoire tampon :
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-<dl> <dt>
-
-[Sous-allocation au sein des tampons](large-buffers.md)
-</dt> </dl>
-
- 
-
- 
+* [Sous-allocation au sein des tampons](large-buffers.md)
