@@ -5,12 +5,12 @@ ms.assetid: 09C586BF-11CE-4392-9BFD-A40B05DD0624
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/19/2018
-ms.openlocfilehash: b3ff1896372719b011b283e3ff1f5426db9e13d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f82b01ba33cfa6660f266a481b2eaaab20ade236
+ms.sourcegitcommit: 60ff57d8cf94ae7a47c6046ad49f7c7256a7edb6
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103377"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "115006794"
 ---
 # <a name="what-is-direct3d-12"></a>Qu’est-ce que Direct3D 12?
 
@@ -24,7 +24,7 @@ Direct3D 12 et Direct3D 11,3 introduisent un ensemble de nouvelles fonctionnalit
 
 - [Pixellisation conservatrice](../direct3d11/conservative-rasterization.md) pour activer la détection d’accès fiable.
 - Les [ressources en mosaïque de volume](../direct3d11/volume-tiled-resources.md) pour permettre le traitement des ressources tridimensionnelles transmises en continu comme si elles étaient toutes dans la mémoire vidéo.
-- [Vues triées par le rastériseur](../direct3d11/volume-tiled-resources.md) pour activer le rendu de transparence fiable.
+- [Vues triées par le rastériseur](../direct3d11/rasterizer-order-views.md) pour activer le rendu de transparence fiable.
 - Définition de la référence de stencil dans un nuanceur pour activer l’occultation spéciale et d’autres effets.
 - Amélioration du mappage de texture et des charges de vue d’accès non ordonnées typées (UAV).
 
@@ -35,7 +35,7 @@ Direct3D 12 offre quatre principaux avantages pour les développeurs de graphiqu
 - La surcharge du processeur est considérablement réduite.
 - Réduction significative de la consommation énergétique.
 - Amélioration jusqu’à 20% de l’efficacité du GPU.
-- Développement multiplateforme pour un appareil Windows 10 (PC, tablette, console, mobile).
+- développement multiplateforme pour un appareil Windows 10 (pc, tablette, console, mobile).
 
 Direct3D 12 est conçu pour les programmeurs graphiques avancés à utiliser. Il appelle une expertise graphique importante et un niveau élevé de réglage précis. Direct3D 12 est conçu pour tirer pleinement parti de l’utilisation de plusieurs threads, de la synchronisation de l’UC/GPU, ainsi que de la transition et de la réutilisation des ressources d’un objectif à un autre. Il s’agit de techniques qui requièrent une quantité considérable de compétences en programmation au niveau de la mémoire.
 
