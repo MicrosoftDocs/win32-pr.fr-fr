@@ -4,7 +4,7 @@ description: Type de FastPath.
 ms.assetid: BD72228F-DCC0-435E-A408-BD7FB02E55E1
 keywords:
 - MP_FASTPATH_TYPE énumération des fonctionnalités d’environnement Windows héritées
-- PMP_FASTPATH_TYPE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMP_FASTPATH_TYPE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e89db79c54b166a833369ff52e47473463e0a2b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7bd9a8ce26f930a35c9c4fa547234b0d55b0b588b60881cf8aae31621e9a83a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247444"
 ---
 # <a name="mp_fastpath_type-enumeration"></a>\_ \_ Énumération de type FASTPATH MP
 
@@ -70,8 +70,8 @@ Notification de désactivation de signature.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

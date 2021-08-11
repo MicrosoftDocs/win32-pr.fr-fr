@@ -4,17 +4,17 @@ ms.assetid: bb71e792-d09c-4338-9cf4-4854e14042f9
 title: Exemple MFPlayer2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1904dcc6e64024dacb76e9109f2e785ec8d5a96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ead2df415af1584f34661a0c1d18751350d59bd1a94ac48f41d3bf9dca2070f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241729"
 ---
 # <a name="mfplayer2-sample"></a>Exemple MFPlayer2
 
 > [!IMPORTANT]
-> Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
+> Action déconseillée. Cette API peut être supprimée des futures versions de Windows. Les applications doivent utiliser la [session multimédia](media-session.md) pour la lecture.
 
  
 
@@ -56,7 +56,7 @@ Cet exemple illustre les API suivantes.
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
-Cet exemple est disponible dans le [référentiel GitHub des exemples classiques Windows](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/MFPlayer2).
+cet exemple est disponible dans [Windows le référentiel github exemples classiques](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/mediafoundation/MFPlayer2).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

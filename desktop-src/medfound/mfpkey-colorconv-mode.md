@@ -4,12 +4,12 @@ ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
 title: MFPKEY_COLORCONV_MODE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c3f2d6256c4d7a9410264fb18703eea251e9c6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9f86ed10873c1587aefba342392afa7f84f8c635788339d64deca18b76629255
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242888"
 ---
 # <a name="mfpkey_colorconv_mode-property"></a>MFPKEY \_ \_ propriété mode COLORCONV
 
@@ -31,7 +31,7 @@ Calculé par le DSP à partir de la vidéo source.
 
 -   [Convertisseur de couleurs DSP](colorconverter.md)
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Utilisez l’une des valeurs suivantes.
 
@@ -54,8 +54,8 @@ Si cette propriété n’est pas définie, le DSP utilise le type de média d’
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

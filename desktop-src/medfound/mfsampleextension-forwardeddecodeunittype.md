@@ -4,12 +4,12 @@ ms.assetid: 640CD70D-4424-407F-B801-6796199D260B
 title: Attribut MFSampleExtension_ForwardedDecodeUnitType (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afe577b9c90c6a6288c7d6de053e648ef3195b03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a639af642bc2f30896ef25ea89c22e00de96c73dcb6ace22e7ade5423ee79b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240683"
 ---
 # <a name="mfsampleextension_forwardeddecodeunittype-attribute"></a>\_Attribut MFSampleExtension ForwardedDecodeUnitType
 
@@ -29,8 +29,8 @@ La valeur de cet attribut est une valeur de l’énumération de [**\_ type d' \
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

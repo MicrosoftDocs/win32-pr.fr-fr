@@ -4,12 +4,12 @@ ms.assetid: 2d015879-58d2-4cbe-b1cc-445f2e8fd316
 title: Dessin sans le message WM_PAINT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66695e85b700de6f62366dedb6fe082f410d4385
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36ff9a18e923feceb33f961c9427852b2c2daddfcfc4e093809e24cd42f32869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118250338"
 ---
 # <a name="drawing-without-the-wm_paint-message"></a>Dessin sans le \_ message WM Paint
 

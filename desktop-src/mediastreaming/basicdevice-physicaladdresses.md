@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 698f8ac794a0a89bf8c31a6fd134cd4291c5fa6e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 93f5517008d4195dace53d77a8f9a4f6ca4f50aa704e52540ffbf2553aa76c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106511684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118236602"
 ---
 # <a name="basicdevicephysicaladdresses-property"></a>BasicDevice. PhysicalAddresses, propriété
 
@@ -33,7 +33,7 @@ Cette propriété est en lecture seule.
 
 ```C++
 HRESULT get_PhysicalAddresses(
-  [out] IVector< HSTRING > **value
+  [out] IVector< HSTRING > **value
 );
 ```
 
@@ -50,6 +50,6 @@ Collection énumérable de pointeurs vers des adresses physiques.
 [**BasicDevice**](/previous-versions/windows/desktop/legacy/hh828813(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

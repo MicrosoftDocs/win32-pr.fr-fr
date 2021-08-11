@@ -4,12 +4,12 @@ ms.assetid: 03d4bfd8-1148-4551-8e71-05cfba2e15fa
 title: Attribut MFSampleExtension_CleanPoint (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a54ea9bf4f1ca207a6ab12bac331c57db63136a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7181c08b19382a6b9d9da0475ec0a7a0522bd132dc10a2da1da4531d631d02d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241496"
 ---
 # <a name="mfsampleextension_cleanpoint-attribute"></a>\_Attribut MFSampleExtension CleanPoint
 
@@ -56,8 +56,8 @@ inline BOOL IsRandomAccessPoint(IMFSample *pSample)
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows Vista- \[ \| applications UWP\]<br/>                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ \| apps UWP\]<br/>                        |
+| Client minimal pris en charge<br/> | Windows \[Applications UWP pour applications de bureau Vista \|\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Applications de bureau du serveur 2008 \[ \| applications UWP\]<br/>                        |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

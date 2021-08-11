@@ -19,12 +19,12 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0edb6dbfbcfa9e024ba85613e3b7671e5f416397
-ms.sourcegitcommit: 47d1f3859035a69340571bf50c3d36e0abeb2126
+ms.openlocfilehash: 823aeaf5655703802f07fb238d5c6c5dc479defa12ae4a416423b4519fd2b64f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104032033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247885"
 ---
 # <a name="wm_input_device_change-message"></a>Message WM_INPUT_DEVICE_CHANGE
 
@@ -69,7 +69,7 @@ Type : **lParam**
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 

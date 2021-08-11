@@ -19,21 +19,21 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24dfecd091de027f51ed8f69c0441fbc7cbd57af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 697a3760dc3312230bb2fe755dbfc881c1fdbacd7d21c98e64d8aa83a271ecdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251371"
 ---
 # <a name="jetcommittransaction2-function"></a>JetCommitTransaction2 fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 La fonction **JetCommitTransaction2** valide les modifications apportées à l’état de la base de données pendant le point d’enregistrement en cours et les migre vers le point d’enregistrement précédent. Si le point d’enregistrement le plus à l’extérieur est validé, les modifications apportées pendant ce point d’enregistrement sont validées à l’état de la base de données et la session quitte la transaction.
 
-La fonction **JetCommitTransaction2** a été introduite dans le système d’exploitation Windows 8.
+la fonction **JetCommitTransaction2** a été introduite dans le système d’exploitation Windows 8.
 
 ``` c++
 JET_ERR JET_API JetCommitTransaction2(
@@ -77,7 +77,7 @@ Groupe de bits qui spécifient zéro, une ou plusieurs des valeurs énumérées 
 <td><p>Toutes les transactions précédemment validées par une session qui n’ont pas encore été vidées dans le fichier journal des transactions seront vidées immédiatement. Cette API attend que les transactions aient été vidées avant de retourner à l’appelant.</p>
 <p>Cette option peut être utilisée même si la session n’est pas actuellement dans une transaction.</p>
 <p>Cette option ne peut pas être utilisée conjointement avec une autre option.</p>
-<p>Cette option est disponible dans les versions du système d’exploitation Windows Server à partir de Windows Server 2003.</p></td>
+<p>cette option est disponible dans les versions du système d’exploitation Windows server à partir de Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitWaitLastLevel0Commit</p></td>
@@ -97,9 +97,9 @@ Durée de validation d’une transaction paresseuse.
 
 ID de validation associé à cet enregistrement de validation.
 
-### <a name="return-value"></a>Valeur retournée
+### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. Pour plus d’informations sur les erreurs ESE (Extensible Storage Engine) possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour énumérés dans le tableau suivant. pour plus d’informations sur les erreurs ESE (extensible Stockage engine) possibles, consultez [erreurs du moteur de Stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -124,7 +124,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p>Cette erreur est renvoyée uniquement par les versions du système d’exploitation Windows à partir de Windows XP.</p></td>
+<p>cette erreur est renvoyée uniquement par les versions du système d’exploitation Windows à partir de Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidgrbit</p></td>
@@ -150,7 +150,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>La même session ne peut pas être utilisée simultanément pour plusieurs threads.</p>
-<p>Cette erreur est renvoyée uniquement par les versions du système d’exploitation Windows à partir de Windows XP.</p></td>
+<p>cette erreur est renvoyée uniquement par les versions du système d’exploitation Windows à partir de Windows XP.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>

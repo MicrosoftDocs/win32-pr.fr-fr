@@ -4,12 +4,12 @@ ms.assetid: 2a092a6a-956b-4c1f-955f-529ec08665fe
 title: Attributs du descripteur de présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18bba97a0e0428bf2ceb91b04c79f69b557876a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beb9947a926fc6ea5e21f81219e6bd8d85a8d74bea9b9432ac497c539450b638
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238965"
 ---
 # <a name="presentation-descriptor-attributes"></a>Attributs du descripteur de présentation
 

@@ -4,12 +4,12 @@ ms.assetid: E672F53D-2083-430B-90D2-A1DA482EF9E1
 title: Attribut MFSampleExtension_Encryption_SubSampleMappingSplit (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c90fb6ae22417f059bfa3268382877363178940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19f10f845b337ab92774f36b46940fe9d5203ca3a672f573e33fbcea26e96e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240792"
 ---
 # <a name="mfsampleextension_encryption_subsamplemappingsplit-attribute"></a>\_Attribut SubSampleMappingSplit de chiffrement MFSampleExtension \_
 
@@ -46,8 +46,8 @@ m_spSample->SetBlob( MFSampleExtension_Encryption_SubSampleMappingSplit,
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

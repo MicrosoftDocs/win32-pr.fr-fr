@@ -4,12 +4,12 @@ ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: MFNETSOURCE_MAXBUFFERTIMEMS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f98cd17f33bb893dacd02b2a00669f3d2355e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d0bf07da8b931ee5487715a4b4430e5ed4384142fc69678a075275d9c7757b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243431"
 ---
 # <a name="mfnetsource_maxbuffertimems-property"></a>MFNETSOURCE \_ propriété MAXBUFFERTIMEMS
 
@@ -45,8 +45,8 @@ La valeur par défaut de cette propriété est 40 000 millisecondes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

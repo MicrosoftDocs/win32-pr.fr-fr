@@ -4,18 +4,18 @@ ms.assetid: fbbc4cca-6337-4429-b35f-ef9de951ea12
 title: LinearGradientBrush (méthodes)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03967a302c75731db2f327fc4a7cc1b63856f074
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2fe55b9506047eccc89d8e01ccedb01f77f7db0b6ba0224e3df00b0219834de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249493"
 ---
 # <a name="lineargradientbrush-methods"></a>LinearGradientBrush (méthodes)
 
 Cette rubrique répertorie les méthodes de la classe [**LinearGradientBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush) . Pour obtenir une liste complète des classes, consultez **LinearGradientBrush, classe**.
 
--   [**Clone**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
+-   [**Répliqué**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
 -   [**GetBlend**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblend)
 -   [**GetBlendCount**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblendcount)
 -   [**GetGammaCorrection**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getgammacorrection)

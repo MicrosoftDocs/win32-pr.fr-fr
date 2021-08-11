@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 05cdfe05cb9aa6dda470f4cfcef4c08240b5fe34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7c88c03b4b9f9bbbc540112589bcad233babbbb549dd19dfc92b229951ef641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118253824"
 ---
 # <a name="jet_sesidtostring-method"></a>JET_SESID. Méthode ToString
 
@@ -50,7 +50,7 @@ returnValue = instance.ToString()
 public override string ToString()
 ```
 
-#### <a name="return-value"></a>Valeur de retour
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. String](/dotnet/api/system.string)  
 Structure sous la forme d’une chaîne.  

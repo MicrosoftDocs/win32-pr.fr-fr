@@ -4,12 +4,12 @@ ms.assetid: e3410e68-6358-4f00-8039-833a4ccdf7fa
 title: MFNETSOURCE_AUTORECONNECTPROGRESS, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05ade09bd425988cb0a64b258ff0887f8e79d4c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cfbf0bac147b3608145d3ef38eb328a44de1c064899a5e7800acbadfadcf709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243873"
 ---
 # <a name="mfnetsource_autoreconnectprogress-property"></a>MFNETSOURCE \_ propriété AUTORECONNECTPROGRESS
 
@@ -43,8 +43,8 @@ Cette propriété est en lecture seule. Pour récupérer cette propriété, inte
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

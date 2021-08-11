@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf1f47258fe965c41b0a02ccbb32712b0a54c97b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 443e572afd80b3af28e2a88f84880e8679e8e462b0a7f7540e4a277cfa759941
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251768"
 ---
 # <a name="jet_threadstatssubtract-method"></a>JET_THREADSTATS. Soustraire la méthode
 
@@ -75,7 +75,7 @@ public static JET_THREADSTATS Subtract(
     
     Deuxième JET_THREADSTATS.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [Microsoft.ISAM.esent.Interop.Vista.JET_THREADSTATS](./jet-threadstats-structure2.md)  
 JET_THREADSTATS contenant la différence des statistiques entre T1 et T2.  

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2aeb09ca52438f7b2f4903e5403eeb722e5d7d7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0e7ba2d19bbab6346f7a62afe56269f762cd94f7ef1730654fb6ac1abf317e4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235738"
 ---
 # <a name="accelerators-resource"></a>Ressource ACCÉLÉRATEURs
 
@@ -53,7 +53,7 @@ Zéro, une ou plusieurs des instructions suivantes.
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -72,7 +72,7 @@ Séquence de touches à utiliser comme accélérateur. Il peut s’agir de l’u
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -99,14 +99,14 @@ options qui définissent l’accélérateur. Ce paramètre peut être une ou plu
 
 | Option                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Noinversé**                       | Spécifie qu’aucun élément de menu de niveau supérieur n’est mis en surbrillance lorsque l’accélérateur est utilisé. Cela est utile lorsque vous définissez des accélérateurs pour des actions telles que le défilement qui ne correspondent pas à un élément de menu. Si **noinversé** est omis, un élément de menu de niveau supérieur est mis en surbrillance (si possible) quand l’accélérateur est utilisé. Cet attribut est obsolète et conservé uniquement à des fins de compatibilité descendante avec les fichiers de ressources conçus pour Windows 16 bits. |
+| **Noinversé**                       | Spécifie qu’aucun élément de menu de niveau supérieur n’est mis en surbrillance lorsque l’accélérateur est utilisé. Cela est utile lorsque vous définissez des accélérateurs pour des actions telles que le défilement qui ne correspondent pas à un élément de menu. Si **noinversé** est omis, un élément de menu de niveau supérieur est mis en surbrillance (si possible) quand l’accélérateur est utilisé. Cet attribut est obsolète et conservé uniquement à des fins de compatibilité descendante avec les fichiers de ressources conçus pour une Windows 16 bits. |
 | **Alt**                            | Entraîne l’activation de l’accélérateur uniquement si la touche ALT est enfoncée. S’applique uniquement aux clés virtuelles.                                                                                                                                                                                                                                                                                                                                            |
 | **MAJUSCULE**                          | Entraîne l’activation de l’accélérateur uniquement si la touche Maj est enfoncée. S’applique uniquement aux clés virtuelles                                                                                                                                                                                                                                                                                                                                           |
 | [**RÉGULATION**](control-control.md) | Définit le caractère en tant que caractère de contrôle (l’accélérateur est activé uniquement si la touche de contrôle est enfoncée). Cela a le même effet que l’utilisation d’un signe insertion (^) avant le caractère d’accélérateur dans le paramètre d' *événement* . S’applique uniquement aux clés virtuelles                                                                                                                                                                                           |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -171,6 +171,6 @@ L’exemple suivant illustre l’utilisation de touches accélérateur.
 [**Version**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

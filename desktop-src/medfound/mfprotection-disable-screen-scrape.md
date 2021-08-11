@@ -4,12 +4,12 @@ ms.assetid: 2CA548FC-0923-4E02-BFEE-A5179C0C5110
 title: Attribut MFPROTECTION_DISABLE_SCREEN_SCRAPE (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7577e3efc9e52419ed965a4599841543d565d722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c97de33bd4ebbf7b66693881a9eedddcae7c14d9ac0d773d82ce3a23e952b832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241620"
 ---
 # <a name="mfprotection_disable_screen_scrape-attribute"></a>MFPROTECTION \_ désactiver \_ l' \_ attribut de perte d’écran
 
@@ -25,8 +25,8 @@ Spécifie la désactivation de la protection contre la perte d’écran.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

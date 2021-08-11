@@ -4,12 +4,12 @@ ms.assetid: 7F0358F1-794A-4E75-8D97-3B91955E19EE
 title: Attribut MFSampleExtension_MeanAbsoluteDifference (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4b7187b295071b8e27b68d9b5804aab6b2ddef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7908c8ea69d5d2b074fa8d2ac6b44ca0b3f40ba5b2ca72cd358350c2e749b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240636"
 ---
 # <a name="mfsampleextension_meanabsolutedifference-attribute"></a>\_Attribut MFSampleExtension MeanAbsoluteDifference
 
@@ -29,8 +29,8 @@ L’application peut demander à encodeur de définir cet attribut sur les exemp
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | \[Applications Windows 8.1 Desktop Apps \| UWP\]<br/>                                |
-| Serveur minimal pris en charge<br/> | Applications Windows Server 2012 R2 \[ Desktop Apps \| UWP\]<br/>                     |
+| Client minimal pris en charge<br/> | \[applications Windows 8.1 desktop apps \| UWP\]<br/>                                |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 Applications de \[ Bureau R2 \| applications UWP\]<br/>                     |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

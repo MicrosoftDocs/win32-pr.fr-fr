@@ -4,12 +4,12 @@ ms.assetid: 7be4c5e7-db2c-4063-8e5c-af6ffb861aa5
 title: Traitement des données dans l’encodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99b7fedef50df61851408d084b511497eacd0288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 666c2a2ff2139aadcb489022eb9b324eff1de523551244c2fd12ad0e11f68f1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238730"
 ---
 # <a name="processing-data-in-the-encoder"></a>Traitement des données dans l’encodeur
 
@@ -116,7 +116,7 @@ done:
 [Instanciation d’une table MFT d’encodeur](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Encodeurs Windows Media](windows-media-encoders.md)
+[Windows Encodeurs multimédias](windows-media-encoders.md)
 </dt> </dl>
 
  

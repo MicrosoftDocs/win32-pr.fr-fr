@@ -4,12 +4,12 @@ description: Autres moteurs de reconnaissance vocale compatibles avec Microsoft 
 ms.assetid: fa87c592-c819-4dea-a1d0-6ccb25cc0bcc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9855a0f5374d35634d02f808b46449a053cada9a
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 521a236c08904c731035b709a808dc28b31bfb8e6664c07b0e6feb395dee469f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247130"
 ---
 # <a name="other-speech-engines-compatible-with-microsoft-agent"></a>Autres moteurs de reconnaissance vocale compatibles avec Microsoft Agent
 
@@ -42,9 +42,9 @@ Le moteur de reconnaissance vocale Elan utilise la technologie de conversion de 
 
 IBM a développé plusieurs caractères Microsoft Agent pour une utilisation avec ViaVoice-bruyant. IBM ViaVoice-bruyant est une technologie de synthèse vocale et est disponible en français, allemand, italien, espagnol, anglais du Royaume-Uni et anglais des États-Unis. Lorsqu’il est associé à Microsoft Agent, vous pouvez créer des applications vivantes dans de nombreuses langues et étendre vos opportunités commerciales à de nouveaux marchés internationaux.
 
- 
+ 
 
- 
+ 
 
 
 

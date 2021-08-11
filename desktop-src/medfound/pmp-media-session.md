@@ -4,12 +4,12 @@ ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: Session média PMP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 683bc6d3dcc78bfb18daedabab614c95c33492fb7e17d48cbe7f6f08bdc766ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239203"
 ---
 # <a name="pmp-media-session"></a>Session média PMP
 
@@ -25,7 +25,7 @@ Par défaut, lorsque l’application crée une topologie, la source du média es
 
 1.  La source du média doit implémenter l’interface [**IMFPMPClient**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpclient) .
 2.  Pendant la résolution de la topologie, le proxy de session multimédia appelle la méthode [**IMFPMPClient :: SetPMPHost**](/windows/desktop/api/mfidl/nf-mfidl-imfpmpclient-setpmphost) sur la source du média.
-3.  La source multimédia appelle [**IMFPMPHost :: CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) pour créer l’objet à l’intérieur du processus PMP. L’objet doit avoir un CLSID inscrit. En outre, pour charger dans le PE, l’objet doit être approuvé et signé numériquement. Pour plus d’informations sur la signature de code des composants multimédias protégés, consultez le livre blanc [Signing Code Signing for protected Media Components in Windows Vista (en](/windows-hardware/test/hlk/) anglais)
+3.  La source multimédia appelle [**IMFPMPHost :: CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) pour créer l’objet à l’intérieur du processus PMP. L’objet doit avoir un CLSID inscrit. En outre, pour charger dans le PE, l’objet doit être approuvé et signé numériquement. pour plus d’informations sur les composants multimédias protégés par la signature de code, consultez le livre blanc [signing code for protected media components in Windows Vista](/windows-hardware/test/hlk/)
 
 L’illustration suivante montre la source de média créée dans le processus d’application.
 

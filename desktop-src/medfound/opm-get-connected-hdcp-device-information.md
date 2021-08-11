@@ -4,12 +4,12 @@ ms.assetid: 71fa9a99-83e4-4b27-9fd1-5a9dc3070820
 title: OPM_GET_CONNECTED_HDCP_DEVICE_INFORMATION (Opmapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7561a348588b1244a6763eb447affa2b330e9c51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d692680e6492a3dc5d92073baf069eefffde68841925ced9afd69dde4d5fcd97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104527885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239892"
 ---
 # <a name="opm_get_connected_hdcp_device_information"></a>\_ \_ \_ \_ informations sur l’appareil HDCP \_ connexion à OPM
 
@@ -23,7 +23,7 @@ Obtient des informations sur un appareil High-Bandwidth Digital protection du co
 | Condition requise | Valeur |
 |--------------|---------------------------------------------------------------------------------------------------------|
 | GUID de la demande | \_ \_ \_ \_ informations sur l’appareil HDCP \_ connexion à OPM                                                          |
-| Données d’entrée   | Aucun                                                                                                    |
+| Données d’entrée   | Aucune                                                                                                    |
 | Retourner les données  | Structure [**d' \_ \_ informations d' \_ appareil \_ HDCP connectée à OPM**](/windows/desktop/api/opmapi/ns-opmapi-opm_connected_hdcp_device_information) |
 
 
@@ -46,8 +46,8 @@ Cette requête est équivalente à la \_ requête DXVA COPPQueryHDCPKeyData util
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Opmapi. h</dt> </dl> |
 
 

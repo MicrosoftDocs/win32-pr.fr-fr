@@ -4,12 +4,12 @@ description: Boutons de barre d'outils
 ms.assetid: 346a55e6-b506-4fd4-9ef8-bf4fbd866dd3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ae1436222b048ad8b92c9f467bbc74068bdfe4
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 8220ee55f3a3abdfb5b9588bd2962fdabdd63491d28218314e53aa3ffb192f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104567239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245663"
 ---
 # <a name="toolbar-buttons-linguistic-information-sound-editing-tool"></a>Boutons de la barre d’outils (outil d’édition audio des informations linguistiques)
 
@@ -55,7 +55,7 @@ Enregistre le fichier audio. Si le fichier n’existe pas (n’a pas été nomm�
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**Réduis**
 </dt> <dd>
 
-Supprime le texte sélectionné de l’éditeur et le place dans le presse-papiers Windows.
+supprime le texte sélectionné de l’éditeur et le place dans le presse-papiers Windows.
 
 </dd> </dl>
 
@@ -66,7 +66,7 @@ Supprime le texte sélectionné de l’éditeur et le place dans le presse-papie
 <span id="Copy"></span><span id="copy"></span><span id="COPY"></span>**Reprographie**
 </dt> <dd>
 
-Copie le texte sélectionné dans l’éditeur dans le presse-papiers Windows.
+copie le texte sélectionné dans l’éditeur dans le presse-papiers Windows.
 
 </dd> </dl>
 
@@ -77,7 +77,7 @@ Copie le texte sélectionné dans l’éditeur dans le presse-papiers Windows.
 <span id="Paste"></span><span id="paste"></span><span id="PASTE"></span>**Insérer**
 </dt> <dd>
 
-Copie le texte du presse-papiers Windows actuel vers l’emplacement sélectionné dans la zone de texte représentation textuelle.
+copie le texte du presse-papiers Windows actuel à l’emplacement sélectionné dans la zone de texte représentation textuelle.
 
 </dd> </dl>
 

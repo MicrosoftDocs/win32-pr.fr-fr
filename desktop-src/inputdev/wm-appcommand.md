@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7f5e71f9a443e12ea56cb8ca23daea148da92aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 667b2974015edd8b8d3ac0505f4eb4d6c64d1da5b82737ec7d9bb89cc3e8776e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248003"
 ---
 # <a name="wm_appcommand-message"></a>\_Message WM APPCOMMAND
 
@@ -89,7 +89,7 @@ La commande d’application est *cmd*, qui peut prendre l’une des valeurs suiv
 | <span id="APPCOMMAND_LAUNCH_MEDIA_SELECT"></span><span id="appcommand_launch_media_select"></span><dl> <dt>**APPCOMMAND \_ DÉMARRER le \_ support \_ Sélectionner**</dt> <dt>16</dt> </dl>                                             | Accédez au mode de sélection du média.<br/>                                                                                                                                                                                                                                                        |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_DOWN"></span><span id="appcommand_media_channel_down"></span><dl> <dt>**APPCOMMAND \_ Canal de média \_ \_ vers le dessous**</dt> de <dt>52</dt> </dl>                                                | Décrémenter la valeur du canal, par exemple pour un téléviseur ou un tuner radio. <br/>                                                                                                                                                                                                             |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_UP"></span><span id="appcommand_media_channel_up"></span><dl> <dt>**APPCOMMAND \_ \_Chaîne multimédia \_ up**</dt> <dt>51</dt> </dl>                                                      | Incrémentez la valeur du canal, par exemple pour un téléviseur ou un tuner radio. <br/>                                                                                                                                                                                                             |
-| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**APPCOMMAND \_ \_ \_ Transfert rapide des médias**</dt> <dt>49</dt> </dl>                                                | Augmentez la vitesse de lecture du flux. Cela peut être implémenté de nombreuses façons, par exemple, à l’aide d’une vitesse fixe ou d’un basculement à travers une série de vitesses accrues. <br/>                                                                                                               |
+| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**APPCOMMAND \_ média \_ FAST \_ transférer**</dt> <dt>49</dt> </dl>                                                | Augmentez la vitesse de lecture du flux. Cela peut être implémenté de nombreuses façons, par exemple, à l’aide d’une vitesse fixe ou d’un basculement à travers une série de vitesses accrues. <br/>                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_NEXTTRACK"></span><span id="appcommand_media_nexttrack"></span><dl> <dt>**APPCOMMAND \_ MÉDIA \_ NEXTTRACK**</dt> <dt>11</dt> </dl>                                                          | Aller à la piste suivante.<br/>                                                                                                                                                                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_PAUSE"></span><span id="appcommand_media_pause"></span><dl> <dt>**APPCOMMAND \_ Mise en \_ pause du support**</dt> <dt>47</dt> </dl>                                                                      | Suspendre. S’il est déjà suspendu, n’effectuez aucune action supplémentaire. Il s’agit d’une commande de PAUSE directe qui n’a aucun État. S’il existe des boutons de lecture et d’interruption discrets, les applications doivent agir sur cette commande, ainsi que sur **APPCOMMAND \_ Media \_ Play \_ Pause**. <br/>                               |
 | <span id="APPCOMMAND_MEDIA_PLAY"></span><span id="appcommand_media_play"></span><dl> <dt>**APPCOMMAND \_ MEDIA \_ PLAY**</dt> <dt>46</dt> </dl>                                                                         | Début de la diffusion à la position actuelle. S’il est déjà suspendu, il reprend. Il s’agit d’une commande de lecture directe qui n’a aucun État. S’il existe des boutons de **lecture** et d' **interruption** discrets, les applications doivent agir sur cette commande, ainsi que sur **APPCOMMAND \_ Media \_ Play \_ Pause**.<br/> |
@@ -156,7 +156,7 @@ Le composant *dwKeys* indique si différentes clés virtuelles sont arrêtées e
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si une application traite ce message, elle doit retourner la **valeur true**. Pour plus d’informations sur le traitement de la valeur de retour, consultez la section Notes.
 
@@ -168,7 +168,7 @@ Si une fenêtre enfant ne traite pas ce message et appelle à la place [**DefWin
 
 Pour obtenir les coordonnées du curseur si le message a été généré par un clic de souris, l’application peut appeler [**GetMessagePos**](/windows/desktop/api/winuser/nf-winuser-getmessagepos). Une application peut tester si le message a été généré par la souris en vérifiant si *lParam* contient **FAPPCOMMAND \_ Mouse**.
 
-Contrairement à d’autres messages Windows, une application doit retourner la **valeur true** à partir de ce message si elle le traite. Cela permettra aux logiciels qui simulent ce message sur les systèmes Windows antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
+Contrairement à d’autres messages Windows, une application doit retourner la **valeur true** à partir de ce message si elle le traite. cela permettra aux logiciels qui simulent ce message sur Windows systèmes antérieurs à Windows 2000 de déterminer si la procédure de fenêtre a traité le message ou appelé [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) pour le traiter.
 
 ## <a name="requirements"></a>Configuration requise
 

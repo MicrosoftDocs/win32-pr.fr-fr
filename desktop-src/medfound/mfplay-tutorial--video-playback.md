@@ -4,12 +4,12 @@ ms.assetid: f72a7c1f-b059-474c-96f2-8fad3b1f7035
 title: 'Didacticiel MFPlay : lecture vidéo'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30bbadae22e72799c64a42d09b6eed904b56a60d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb5b98de6cc845d121928fb18a33db055154f717e8fe583bcd1ad6ef8da32deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242006"
 ---
 # <a name="mfplay-tutorial-video-playback"></a>Didacticiel MFPlay : lecture vidéo
 
@@ -19,7 +19,7 @@ Ce didacticiel présente une application complète qui lit des vidéos à l’ai
 
 Ce didacticiel contient les sections suivantes :
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Fichiers d’en-tête et de bibliothèque](#header-and-library-files)
 -   [Variables globales](#global-variables)
 -   [Déclarer la classe de rappel](#declare-the-callback-class)
@@ -228,7 +228,7 @@ HRESULT PlayMediaFile(HWND hwnd, PCWSTR pszURL)
 
 
 
-La `OnFileOpen` fonction affiche la boîte de dialogue de fichier commune, qui permet à l’utilisateur de sélectionner un fichier pour la lecture. L’interface **IFileOpenDialog** est utilisée pour afficher la boîte de dialogue de fichier commune. Cette interface fait partie des API de l’interpréteur de commandes Windows. Il a été introduit dans Windows Vista en remplacement de l’ancienne fonction **GetOpenFileName** . Une fois que l’utilisateur a sélectionné un fichier, `OnFileOpen` appelle `PlayMediaFile` pour démarrer la lecture.
+La `OnFileOpen` fonction affiche la boîte de dialogue de fichier commune, qui permet à l’utilisateur de sélectionner un fichier pour la lecture. L’interface **IFileOpenDialog** est utilisée pour afficher la boîte de dialogue de fichier commune. cette interface fait partie des api de l’interpréteur de commandes Windows. il a été introduit dans Windows Vista en remplacement de l’ancienne fonction **GetOpenFileName** . Une fois que l’utilisateur a sélectionné un fichier, `OnFileOpen` appelle `PlayMediaFile` pour démarrer la lecture.
 
 
 ```C++

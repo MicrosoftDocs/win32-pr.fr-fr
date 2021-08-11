@@ -4,12 +4,12 @@ ms.assetid: 01241090-E596-4D4C-92BE-E8D38394B8EE
 title: Attribut MFSampleExtension_Encryption_HardwareProtection (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7817c8024acf665d5666e2a0535ecae51dd8b9ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef76e0333e308193f0d8152de9310ed5d30ae84c0f509bc9d9847f7bb94937e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240949"
 ---
 # <a name="mfsampleextension_encryption_hardwareprotection-attribute"></a>\_Attribut HardwareProtection de chiffrement MFSampleExtension \_
 
@@ -29,8 +29,8 @@ La valeur 0 indique que l’exemple n’est pas protégé par un matériel. Une 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

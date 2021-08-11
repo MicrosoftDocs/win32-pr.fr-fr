@@ -4,12 +4,12 @@ description: RemoveAll, méthode
 ms.assetid: 233f8d65-36ec-4c83-8c91-59d406edd70a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e56a22536d2d481f9da0073265e529b9a73a4088
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6795201f9a37118e9def28c306cca8923d58443824a12a4883ccac3a9c307de7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246477"
 ---
 # <a name="removeall-method"></a>RemoveAll, méthode
 
@@ -27,7 +27,7 @@ Supprime tous les objets [**Command**](/windows/desktop/lwef/the-command-object)
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). Commands. RemoveAll**
+*agent ***. Caractères («**_CharacterID_*_»). Commands. RemoveAll_*
 
 </dd> </dl>
 
@@ -40,6 +40,6 @@ Lorsqu’un objet [**Command**](/windows/desktop/lwef/the-command-object) est su
 [**Remove (méthode)**](remove-method.md)
 
 
- 
+ 
 
- 
+ 

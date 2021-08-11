@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f32ca814f8a72e22d485b57528b96843067d97f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d24676244a49fd884238072bb139b1d01b7cfd8cfbbd2a464dc470de949a434f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252226"
 ---
 # <a name="jet_spacehintscontentequals-method"></a>JET_SPACEHINTS. Méthode ContentEquals
 
@@ -61,12 +61,12 @@ public bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [Microsoft.ISAM.esent.Interop.JET_SPACEHINTS](./jet-spacehints-class.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  

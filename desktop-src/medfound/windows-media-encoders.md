@@ -1,23 +1,23 @@
 ---
-description: Un encodeur convertit le contenu audio ou vidéo non compressé en paquets compressés dans le format spécifié par l’application. Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les codecs audio et vidéo Windows Media.
+description: Un encodeur convertit le contenu audio ou vidéo non compressé en paquets compressés dans le format spécifié par l’application. pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les codecs audio et vidéo Windows media.
 ms.assetid: 6dcf12d0-ea37-446b-a807-2b27fd1f6124
-title: Encodeurs Windows Media
+title: Windows Encodeurs multimédias
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a642702562cbb6a70b0380deb196c70c4f8207b6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8d79ff55e98227c63e9761a8dec5ae068c8b1786c067230548ad0028dbe301a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106524770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237288"
 ---
-# <a name="windows-media-encoders"></a>Encodeurs Windows Media
+# <a name="windows-media-encoders"></a>Windows Encodeurs multimédias
 
-Un encodeur convertit le contenu audio ou vidéo non compressé en paquets compressés dans le format spécifié par l’application. Pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les codecs audio et vidéo Windows Media.
+Un encodeur convertit le contenu audio ou vidéo non compressé en paquets compressés dans le format spécifié par l’application. pour convertir des fichiers multimédias au format ASF, vous pouvez utiliser les codecs audio et vidéo Windows media.
 
 Un encodeur est identifié par le GUID qui représente la catégorie : audio ou vidéo. Le type de sortie de l’encodeur est représenté par le principal d’un type de média et le GUID de sous-type.
 
--   Codecs audio Windows Media
+-   Windows Codecs audio de média
 
     Catégorie : **\_ \_ \_ encodeur audio de catégorie MFT**
 
@@ -25,7 +25,7 @@ Un encodeur est identifié par le GUID qui représente la catégorie : audio ou
 
     Sous-type : MFAudioFormat \_ WMAudioV9, MFAudioFormat \_ WMAudioV8, MFAudioFormat \_ WMAudio \_ Lossless, MFAudioFormat \_ WMASPDIF
 
--   Codecs Windows Media Video
+-   Windows Codecs vidéo multimédias
 
     Catégorie : **\_ \_ \_ encodeur vidéo de catégorie MFT**
 
@@ -44,8 +44,8 @@ Cette section contient les rubriques suivantes :
 | [Instanciation d’une table MFT d’encodeur](instantiating-the-encoder-mft.md)                  | Explique comment créer l’encodeur.                                                         |
 | [Propriétés d’encodage](configuring-the-encoder.md)                                 | Explique comment configurer l’encodeur en définissant les propriétés appropriées sur la MFT de l’encodeur. |
 | [Négociation de type de média sur l’encodeur](media-type-negotiation-on-the-encoder.md) | Explique comment définir les types de média d’entrée et de sortie sur l’encodeur.                            |
-| [Configuration d’un encodeur WMV](configuring-a-wmv-encoder.md)                         | Explique comment configurer un encodeur Windows Media Video (WMV).                              |
-| [Définition d’un type de sortie pour un encodeur WMA](configuring-a-wma-encoder.md)          | Explique comment définir un type de sortie sur un encodeur Windows Media Audio (WMA).                  |
+| [Configuration d’un encodeur WMV](configuring-a-wmv-encoder.md)                         | explique comment configurer un encodeur Windows Media Video (WMV).                              |
+| [Définition d’un type de sortie pour un encodeur WMA](configuring-a-wma-encoder.md)          | explique comment définir un type de sortie sur un encodeur Windows Media Audio (WMA).                  |
 
 
 

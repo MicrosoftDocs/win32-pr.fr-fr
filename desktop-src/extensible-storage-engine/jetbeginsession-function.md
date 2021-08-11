@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cfe0cf06e86b19d16284b704697c65b1f38a167c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0852de04f3969e3e30debc7ba7ff4f3aedf7ac4084b17f91feed8984fe4e1467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251613"
 ---
 # <a name="jetbeginsession-function"></a>Fonction JetBeginSession
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetbeginsession-function"></a>Fonction JetBeginSession
 
@@ -65,7 +65,7 @@ Ce paramètre est réservé.
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction permet le retour de tout [JET_ERR](./jet-err.md)s qui sont définis dans cette API. Pour plus d’informations sur les erreurs jet, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction permet le retour de tout [JET_ERR](./jet-err.md)s qui sont définis dans cette API. pour plus d’informations sur les erreurs Jet, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -90,7 +90,7 @@ Cette fonction permet le retour de tout [JET_ERR](./jet-err.md)s qui sont défin
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>Il n’est pas possible de terminer l’opération, car l’instance associée à la session a rencontré une erreur irrécupérable qui requiert que l’accès à toutes les données soit révoqué pour protéger l’intégrité de ces données.</p>
-<p>Cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
+<p>cette erreur est renvoyée uniquement par Windows XP et les versions ultérieures.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidParameter</p></td>
@@ -140,11 +140,11 @@ Le descripteur de session doit être fermé avec [JetEndSession](./jetendsession
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

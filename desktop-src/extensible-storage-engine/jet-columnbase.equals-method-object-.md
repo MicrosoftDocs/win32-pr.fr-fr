@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 63f5d17fcbd6f02c021c1604a2acab838de92b67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bff106c0988fa60b5d6d2ae45b5d132e6e4e22ff9ac387c217e192b1d9f0a0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255095"
 ---
 # <a name="jet_columnbaseequals-method-object"></a>JET_COLUMNBASE. Equals, méthode (Object)
 
@@ -62,7 +62,7 @@ public override bool Equals(
     
     Objet à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  

@@ -4,12 +4,12 @@ ms.assetid: 3f9cd762-f393-4130-ba25-d16da0642093
 title: MFNETSOURCE_ACCELERATEDSTREAMINGDURATION, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57980fbe08d3c6f48cf2638b35e88c455e566e75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ec37cfd7dd0aa8d60c3e192ae0f445f8a121e9e3cd3f85d46e8c18b21fc2b06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243863"
 ---
 # <a name="mfnetsource_acceleratedstreamingduration-property"></a>MFNETSOURCE \_ propriété ACCELERATEDSTREAMINGDURATION
 
@@ -37,7 +37,7 @@ La constante **MFNETSOURCE \_ ACCELERATEDSTREAMINGDURATION** définit le GUID de
 
 Les applications peuvent utiliser cette propriété pour configurer la source réseau. Pour définir la propriété, transmettez un objet **IPropertyStore** au programme de résolution source. Pour plus d’informations, consultez [configuration d’une source de média](configuring-a-media-source.md).
 
-Cette propriété s’applique à la fonctionnalité de démarrage rapide de Windows Media Services, qui lit rapidement le contenu sans attendre une longue mise en mémoire tampon initiale. Lorsque vous utilisez le démarrage rapide, le serveur exécutant Windows Media Services enverra des données au début du contenu à un rythme plus rapide que celui spécifié par la vitesse de transmission du contenu.
+cette propriété s’applique à la fonctionnalité de démarrage rapide de Services Windows Media, qui lit le contenu rapidement sans attendre une longue mise en mémoire tampon initiale. lorsque vous utilisez le démarrage rapide, le serveur exécutant Services Windows Media envoie des données au début du contenu à un débit plus rapide que celui spécifié par la vitesse de transmission du contenu.
 
 La valeur par défaut de cette propriété est 10 000 millisecondes.
 
@@ -47,8 +47,8 @@ La valeur par défaut de cette propriété est 10 000 millisecondes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

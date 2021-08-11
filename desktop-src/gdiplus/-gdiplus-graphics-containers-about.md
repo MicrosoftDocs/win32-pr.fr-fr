@@ -4,16 +4,16 @@ ms.assetid: 98b9fa12-02e7-42bf-9cbd-03ee696188f6
 title: Conteneurs Graphics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8bf6469d0835137be1bb76b7727fd961bba16b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26af00a17f793a1f3ce587963343556b8c4ad685f930b707bd81de1008d610ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248668"
 ---
 # <a name="graphics-containers"></a>Conteneurs Graphics
 
-L’état des graphiques (région de découpage, transformations et paramètres de qualité) est stocké dans un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Windows GDI+ vous permet de remplacer ou d’augmenter temporairement une partie de l’état d’un objet **Graphics** à l’aide d’un conteneur. Vous démarrez un conteneur en appelant la méthode [**Graphics :: BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) d’un objet **Graphics** , et vous terminez un conteneur en appelant la méthode [**Graphics :: EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer) . Entre **Graphics :: BeginContainer** et **Graphics :: EndContainer**, les modifications d’État que vous apportez à l’objet **Graphics** appartiennent au conteneur et ne remplacent pas l’état existant de l’objet **Graphics** .
+L’état des graphiques (région de découpage, transformations et paramètres de qualité) est stocké dans un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . Windows GDI+ vous permet de remplacer ou d’augmenter temporairement une partie de l’état d’un objet **graphics** à l’aide d’un conteneur. Vous démarrez un conteneur en appelant la méthode [**Graphics :: BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit)) d’un objet **Graphics** , et vous terminez un conteneur en appelant la méthode [**Graphics :: EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer) . Entre **Graphics :: BeginContainer** et **Graphics :: EndContainer**, les modifications d’État que vous apportez à l’objet **Graphics** appartiennent au conteneur et ne remplacent pas l’état existant de l’objet **Graphics** .
 
 L’exemple suivant crée un conteneur dans un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) . La transformation universelle de l’objet **Graphics** est une translation de 200 unités à droite, et la transformation universelle du conteneur est une translation de 100 unités vers le haut.
 

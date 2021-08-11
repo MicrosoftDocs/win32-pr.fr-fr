@@ -4,12 +4,12 @@ ms.assetid: DEA2B19A-CF15-4BF4-84C3-9A6417C942E2
 title: Vue d’ensemble de l’architecture Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0944eae1a74c1a5ba3dda8d94b69088128237f1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: de953d05c55c96d1affa2213e1a7f11143a71aa319b4671c159f085e65268d05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104565336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239629"
 ---
 # <a name="overview-of-the-media-foundation-architecture"></a>Vue d’ensemble de l’architecture Media Foundation
 
@@ -49,7 +49,7 @@ La [session multimédia](media-session.md) contrôle le flux de données via le 
 Le [lecteur source](source-reader.md) et le [writer du récepteur](sink-writer.md) offrent un autre moyen d’utiliser les composants de base du Media Foundation (sources de média, transformations et récepteurs multimédias). Le lecteur source héberge une source multimédia et zéro ou plusieurs décodeurs, tandis que le writer du récepteur héberge un récepteur multimédia et zéro ou plusieurs encodeurs. Vous pouvez utiliser le lecteur source pour obtenir des données compressées ou non compressées à partir d’une source multimédia, et utiliser le writer de récepteur pour encoder les données et les envoyer à un récepteur multimédia.
 
 > [!Note]  
-> Le lecteur source et le writer du récepteur sont disponibles dans Windows 7.
+> le lecteur source et le writer du récepteur sont disponibles dans Windows 7.
 
  
 

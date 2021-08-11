@@ -3,7 +3,7 @@ title: MpFreeMemory, fonction (MpClient. h)
 description: Libère de la mémoire pour le gestionnaire de protection contre les programmes malveillants.
 ms.assetid: D0B43AE5-756F-4E86-B8A5-8268A41901BC
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpFreeMemory
+- fonctionnalités d’environnement Windows hérités de la fonction MpFreeMemory
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a15a2845b034a3aa739b1ba2f33a023b742b4b22
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 806795cee45fcfe95473c0961106da074c1157b65ac5c19f5d4813c84865616a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247424"
 ---
 # <a name="mpfreememory-function"></a>MpFreeMemory fonction)
 
@@ -75,8 +75,8 @@ Pour faciliter la gestion de la mémoire pour les clients, le gestionnaire de pr
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

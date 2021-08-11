@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b8be789f4343779d315808a4fc5f203f62dd58c8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 255cbf9680e40d019a7b4fa3fda669e33e051111a975d4d63905353e81ccb53a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118236413"
 ---
 # <a name="createmediarendereroperation-class"></a>CreateMediaRendererOperation, classe
 

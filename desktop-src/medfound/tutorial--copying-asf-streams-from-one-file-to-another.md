@@ -1,17 +1,17 @@
 ---
 description: Une façon de créer un fichier ASF consiste à copier des flux ASF à partir d’un fichier existant.
 ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
-title: 'Didacticiel : copie de flux ASF à l’aide d’objets WMContainer'
+title: 'didacticiel : copie de Flux ASF à l’aide d’objets WMContainer'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44bac13626a8c80f474eeb029db4eb1351273910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2149358d216e044f3392b882a997ef4aa455ae799b6ece450bca11f0f22a6781
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237873"
 ---
-# <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>Didacticiel : copie de flux ASF à l’aide d’objets WMContainer
+# <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>didacticiel : copie de Flux ASF à l’aide d’objets WMContainer
 
 Une façon de créer un fichier ASF consiste à copier des flux ASF à partir d’un fichier existant. Pour ce faire, vous pouvez récupérer les données du média à partir du fichier source et écrire dans le fichier de sortie. Si le fichier source est un fichier ASF, vous pouvez copier des exemples de flux sans les décompresser et les recompresser.
 
@@ -19,9 +19,9 @@ Ce didacticiel présente ce scénario en extrayant le premier flux audio d’un 
 
 Ce didacticiel comprend les étapes suivantes :
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Terminologie](#terminology)
--   [1. configurer le projet](#1-set-up-the-project)
+-   [1. Configurez le Project](#1-set-up-the-project)
 -   [2. déclarer des fonctions d’assistance](#2-declare-helper-functions)
 -   [3. Ouvrez le fichier ASF d’entrée](#3-open-the-input-asf-file)
 -   [4. initialiser des objets pour le fichier d’entrée](#4-initialize-objects-for-the-input-file)
@@ -53,7 +53,7 @@ Ce didacticiel utilise les termes suivants :
 -   Paquet de données : l’exemple de support, expose l’interface [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) , généré par le multiplexeur représente un paquet de données ASF qui sera écrit dans le flux d’octets de données.
 -   Sortie d’octet de sortie : objet de flux d’octets, expose l’interface [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) , qui contient le contenu du fichier de sortie.
 
-## <a name="1-set-up-the-project"></a>1. configurer le projet
+## <a name="1-set-up-the-project"></a>1. Configurez le Project
 
 Incluez les en-têtes suivants dans votre fichier source :
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 0389ddf4ff5e7efd86fef09d428e1756eb72f161
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80203a222c2cdf1c36df47f8d95a4792a6723e9478d52c634b1a13d01d5dd436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118253225"
 ---
 # <a name="jet_signatureequals-method"></a>JET_SIGNATURE. Equals (méthode)
 

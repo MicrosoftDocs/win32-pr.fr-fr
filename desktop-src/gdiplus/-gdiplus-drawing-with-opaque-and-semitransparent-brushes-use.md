@@ -4,12 +4,12 @@ ms.assetid: 42e36c32-ed20-4c5f-bcba-004d795babe3
 title: Dessiner avec des pinceaux opaques et translucides
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 877f922fff21f964349afbe1762cc458e60391b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce5bb89c460c9769f805fb33af9eb91e9d8207448e702476aff4d25dec33a18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248873"
 ---
 # <a name="drawing-with-opaque-and-semitransparent-brushes"></a>Dessiner avec des pinceaux opaques et translucides
 

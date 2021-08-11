@@ -4,12 +4,12 @@ ms.assetid: babc89f0-aea5-4341-8cf9-40d11e73fb10
 title: Constantes d’encodeur d’image
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8130b90ad7f1d559ca480a581a0b157ff152fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 37a47f533a490fe3428964c9e469df6fbe89800f95bfe89daf7bf05d6c49a75c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248883"
 ---
 # <a name="image-encoder-constants"></a>Constantes d’encodeur d’image
 

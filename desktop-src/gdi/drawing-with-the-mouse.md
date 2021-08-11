@@ -4,12 +4,12 @@ ms.assetid: 5e8a54b6-05cc-4446-b82e-2b3e550d780a
 title: Dessin avec la souris
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ad38e7ef8af5c39918bac7231aea4dde285caa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6de7c75c768dcdd330e04a0877bacf59b63d59a6eeb9707011faff6a6b15055c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118250401"
 ---
 # <a name="drawing-with-the-mouse"></a>Dessin avec la souris
 

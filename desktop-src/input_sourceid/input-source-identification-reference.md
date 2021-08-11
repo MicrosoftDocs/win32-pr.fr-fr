@@ -4,12 +4,12 @@ ms.assetid: 1B1292B2-1BB6-4F75-8D82-CC0596B9D061
 title: Référence d’identification de la source d’entrée
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: d4bb2124cfc553b87ef9033774d14f174e0eb0fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d08a9dd410f3bafdf476b49d5a84685c361f1698e1d19fd321f337fc2e88200c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248606"
 ---
 # <a name="input-source-identification-reference"></a>Référence d’identification de la source d’entrée
 

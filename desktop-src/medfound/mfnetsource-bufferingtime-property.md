@@ -4,12 +4,12 @@ ms.assetid: 186b55fc-d1b1-4187-a748-efaee114eca9
 title: MFNETSOURCE_BUFFERINGTIME, propriété (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21c165e58ebd5f2aec0f1ca7ce38281f8c94896d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6de79344913d77a30dc05dcad4e4f8dd3608e0d35009b1d8e5254e08790993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243806"
 ---
 # <a name="mfnetsource_bufferingtime-property"></a>MFNETSOURCE \_ propriété BUFFERINGTIME
 
@@ -45,8 +45,8 @@ La valeur par défaut de cette propriété est de 5 secondes.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

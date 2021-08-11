@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf786d1f47b5eaae3f9540c8635853020f9b0521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f829e78ff54e77011346ae1bfd39f909411cbee12c18d19781f8fe5d62865097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252254"
 ---
 # <a name="jet_spacehints-structure"></a>Structure JET_SPACEHINTS
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_spacehints-structure"></a>Structure JET_SPACEHINTS
 
 La structure **JET_SPACEHINTS** contient des informations sur les modèles d’allocation d’espace quand une arborescence binaire (b-Tree) s’agrandit via les fractionnements Append ou Hotpoint. Les fractionnements d’ajout se produisent lorsque des enregistrements sont ajoutés à la fin d’un arbre b (b-Tree) et que des fractionnements Hotpoint se produisent lorsque plusieurs enregistrements sont ajoutés au même point d’insertion virtuel (par exemple, en ajoutant « Marie », « Mark », « Martin' », « Mary » au milieu d’une arborescence binaire qui est triée par ordre alphabétique).
 
-**Windows 7 :** La structure **JET_SPACEHINTS** est introduite dans Windows 7.
+**Windows 7 :** la structure **JET_SPACEHINTS** est introduite dans Windows 7.
 
 ```cpp
     typedef struct tagJET_SPACEHINTS {
@@ -148,11 +148,11 @@ Valeur maximale pour la croissance en octets. Ce cap ulGrowth.
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

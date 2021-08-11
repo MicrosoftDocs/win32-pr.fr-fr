@@ -4,7 +4,7 @@ description: Types de menaces possibles.
 ms.assetid: 56061F12-AA89-4203-BED4-99613E24002A
 keywords:
 - MPTHREAT_TYPE énumération des fonctionnalités d’environnement Windows héritées
-- PMPTHREAT_TYPE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMPTHREAT_TYPE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ed823b100c91f259252d7cad71e554099caf6a2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b858501603b67451db9b565609d0c263040d2186cf44d91646e6df6ce3871ea1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247140"
 ---
 # <a name="mpthreat_type-enumeration"></a>\_Énumération de type MPTHREAT
 
@@ -94,8 +94,8 @@ Valeur maximale possible.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

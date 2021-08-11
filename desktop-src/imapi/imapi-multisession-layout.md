@@ -4,16 +4,16 @@ description: IMAPi offre aux développeurs d’applications la possibilité de c
 ms.assetid: 691fdc3a-e762-4d6d-9980-e2d9227100a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2581672fac78d23a0d2f4e2bc36ee4227adbca1d
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 68d816d293a3474f46dc3a48577a46615672103099dc2aa561d393953f29ccf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104553981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249408"
 ---
 # <a name="imapi-multisession-layout"></a>Présentation de la multisession IMAPi
 
-IMAPi offre aux développeurs d’applications la possibilité de créer des images de système de fichiers ISO 9660 et UDF et de les graver sur CD, DVD et disques Blu-Ray™ support optique. Avec Windows 7, IMAPi offre une prise en charge supplémentaire de la gravure multisession sur un DVD et un disque Blu-Ray™ des médias réinscriptibles.
+IMAPi offre aux développeurs d’applications la possibilité de créer des images de système de fichiers ISO 9660 et UDF et de les graver sur CD, DVD et disques Blu-Ray™ support optique. avec Windows 7, imapi offre une prise en charge supplémentaire de la gravure multisession sur un DVD et un disque Blu-Ray™ des médias réinscriptibles.
 
 La documentation suivante détaille la disposition du disque que IMAPi utilise pour implémenter la multisession. Ces informations doivent être utilisées pour garantir l’interopérabilité entre IMAPi et d’autres logiciels de gravure, ainsi que pour permettre aux développeurs de ce logiciel de créer des images de disque multisession compatibles IMAPi.
 
@@ -65,7 +65,7 @@ Lors de l’ajout d’une nouvelle session logique à un disque réinscriptible,
 
 -   **Type de partition UDF**
 
-    IMAPi utilise le type de partition UDF **en lecture seule** dans son implémentation de multisession sur un média réinscriptible. Les développeurs de logiciels de gravure tiers doivent utiliser le type de partition UDF **en lecture seule** pour obtenir une compatibilité avec la gravure maître Windows via IMAPI. Si un autre type de partition UDF, tel que **réinscriptible** , est utilisé, IMAPI ne peut pas assurer la prise en charge de la maîtrise.
+    IMAPi utilise le type de partition UDF **en lecture seule** dans son implémentation de multisession sur un média réinscriptible. les développeurs de logiciels de gravure tiers doivent utiliser le type de partition UDF **en lecture seule** pour obtenir une compatibilité avec Windows la gravure maître via imapi. Si un autre type de partition UDF, tel que **réinscriptible** , est utilisé, IMAPI ne peut pas assurer la prise en charge de la maîtrise.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

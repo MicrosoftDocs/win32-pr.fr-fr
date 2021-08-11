@@ -4,12 +4,12 @@ description: Propriété SoundEffects
 ms.assetid: 39e48e5f-b24e-48ce-b5a3-85467ac252e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fca45d373d39d479c62149a131f2a6678e5ecdf5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3894782ec3a038831f7bab7d6d5fe0701936baf1c1add136ad5c2c3446f78867
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246255"
 ---
 # <a name="soundeffects-property"></a>Propriété SoundEffects
 
@@ -38,7 +38,7 @@ Retourne une valeur booléenne indiquant si les effets sonores (. WAV) configur�
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -51,9 +51,9 @@ Cette propriété reflète l’option lire les effets sonores des caractères su
 [**Événement AgentPropertyChange**](agentpropertychange-event.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

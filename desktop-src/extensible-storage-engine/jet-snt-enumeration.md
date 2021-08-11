@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f6cad661d8265c32d605bbef94d75714ccb1783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252523"
 ---
 # <a name="jet_snt-enumeration"></a>Énumération JET_SNT
 
@@ -84,7 +84,7 @@ public enum JET_SNT
 </tr>
 <tr class="even">
 <td></td>
-<td>Progress</td>
+<td>Avancement</td>
 <td>Rappel de la progression de l’opération.</td>
 </tr>
 <tr class="odd">
@@ -101,7 +101,7 @@ public enum JET_SNT
 <td></td>
 <td>RecoveryStep</td>
 <td>Rappel pour le contrôle de récupération.
-<p>Utilisé pour le traitement interne dans les versions du système d’exploitation Windows antérieures à Windows 8. Cette valeur ne s’applique pas aux versions de Windows à partir de Windows 8.</p></td>
+<p>utilisé pour le traitement interne dans les versions du système d’exploitation Windows antérieures à Windows 8. cette valeur ne s’applique pas aux versions de Windows commençant par Windows 8.</p></td>
 </tr>
 </tbody>
 </table>
