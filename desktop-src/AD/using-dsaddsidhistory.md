@@ -9,27 +9,27 @@ keywords:
 - DsAddSidHistory Active Directory, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d45792dbd8c7a2bfa2dd047111a3ed165a2011e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: afb37e09d5c7b337717f27b0e68ad17331ee27270da9e7b79a0d6bba791d2e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182523"
 ---
 # <a name="using-dsaddsidhistory"></a>Utilisation de DsAddSidHistory
 
-La fonction [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) obtient l’identificateur de sécurité (SID) du compte principal d’un principal de sécurité d’un domaine (le domaine source) et l’ajoute à l’attribut **SIDHistory** d’un principal de sécurité dans un autre domaine (de destination) d’une autre forêt. Lorsque le domaine source est en mode natif Windows 2000, cette fonction récupère également les valeurs **SIDHistory** du principal source et les ajoute au **SIDHistory** du principal de destination.
+La fonction [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) obtient l’identificateur de sécurité (SID) du compte principal d’un principal de sécurité d’un domaine (le domaine source) et l’ajoute à l’attribut **SIDHistory** d’un principal de sécurité dans un autre domaine (de destination) d’une autre forêt. lorsque le domaine source est en mode natif Windows 2000, cette fonction récupère également les valeurs **sIDHistory** du principal source et les ajoute au **sidhistory** du principal de destination.
 
 L’ajout de sid au **SIDHistory** d’un principal de sécurité est une opération sensible à la sécurité qui accorde efficacement au principal de destination l’accès à toutes les ressources accessibles au principal source, à condition que des approbations existent entre les domaines de ressources applicables et le domaine de destination.
 
-Dans un domaine Windows 2000 en mode natif, une ouverture de session utilisateur crée un jeton d’accès qui contient le SID du compte principal de l’utilisateur et les SID de groupe, ainsi que le **SIDHistory** de l’utilisateur et le **SIDHistory** des groupes dont l’utilisateur est membre. Le fait d’avoir ces anciens sid (valeurs **SIDHistory** ) dans le jeton de l’utilisateur accorde à l’utilisateur l’accès aux ressources protégées par des listes de contrôle d’accès (ACL) contenant les anciens sid.
+dans un domaine Windows 2000 en mode natif, une ouverture de session utilisateur crée un jeton d’accès qui contient le sid du compte principal de l’utilisateur et les sid de groupe, ainsi que le **sidhistory** de l’utilisateur et le **sidhistory** des groupes dont l’utilisateur est membre. Le fait d’avoir ces anciens sid (valeurs **SIDHistory** ) dans le jeton de l’utilisateur accorde à l’utilisateur l’accès aux ressources protégées par des listes de contrôle d’accès (ACL) contenant les anciens sid.
 
-Cette opération facilite certains scénarios de déploiement de Windows 2000. En particulier, il prend en charge un scénario dans lequel les comptes d’une nouvelle forêt Windows 2000 sont créés pour les utilisateurs et les groupes qui existent déjà dans un environnement de production Windows NT 4,0. En plaçant le SID de compte Windows NT 4,0 dans le compte Windows 2000 **SIDHistory**, l’accès aux ressources réseau est préservé pour que l’utilisateur se connecte à son nouveau compte Windows 2000.
+cette opération facilite certains scénarios de déploiement Windows 2000. en particulier, il prend en charge un scénario dans lequel les comptes d’une nouvelle forêt Windows 2000 sont créés pour les utilisateurs et les groupes qui existent déjà dans un environnement de production Windows NT 4,0. en plaçant le SID de compte Windows NT 4,0 dans le compte Windows **2000, l'** accès aux ressources réseau est préservé pour que l’utilisateur se connecte à son nouveau compte Windows 2000.
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) prend également en charge la migration des serveurs de ressources des contrôleurs de domaine secondaires windows NT 4,0 (ou des contrôleurs de domaine et des serveurs membres dans un domaine Windows 2000 en mode natif) vers un domaine Windows 2000 en tant que serveurs membres. Pour cette migration, vous devez créer, dans le domaine Windows 2000 de destination, les groupes locaux de domaine qui contiennent, dans leur **SIDHistory**, les SID principaux des groupes locaux définis sur le BDC (ou les groupes locaux de domaine référencés dans les listes de contrôle d’accès sur les serveurs Windows 2000) dans le domaine source. En créant un groupe local de destination contenant le **SIDHistory** et tous les membres du groupe local source, l’accès aux ressources serveur migrées, protégées par des ACL référençant le groupe local source, est conservé pour tous les membres.
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) prend également en charge la migration des serveurs de ressources des contrôleurs de domaine de sauvegarde Windows NT 4,0 (ou des contrôleurs de domaine et des serveurs membres en mode natif Windows domaine 2000) vers un domaine Windows 2000 en tant que serveurs membres. pour cette migration, vous devez créer, dans le domaine de destination Windows 2000, les groupes locaux de domaine qui contiennent, dans leur **sIDHistory**, les sid principaux des groupes locaux définis sur le BDC (ou les groupes locaux de domaine référencés dans les listes de contrôle d’accès sur les serveurs Windows 2000) dans le domaine source. En créant un groupe local de destination contenant le **SIDHistory** et tous les membres du groupe local source, l’accès aux ressources serveur migrées, protégées par des ACL référençant le groupe local source, est conservé pour tous les membres.
 
 > [!Note]  
-> L’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) nécessite une compréhension des implications administratives et de sécurité plus larges dans ces scénarios et dans d’autres scénarios. Pour plus d’informations, consultez le livre blanc « planification de la migration de Windows NT vers Microsoft Windows 2000 », fourni comme Dommig.doc dans les outils de support de Windows 2000. Cette documentation est également disponible sur le CD du produit \\ , sous \\ outils de support.
+> L’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) nécessite une compréhension des implications administratives et de sécurité plus larges dans ces scénarios et dans d’autres scénarios. pour plus d’informations, consultez le livre blanc « planification de la Migration de Windows NT vers Microsoft Windows 2000 », fourni comme Dommig.doc dans les outils de Support Windows 2000. Cette documentation est également disponible sur le CD du produit \\ , sous \\ outils de support.
 
  
 
@@ -39,7 +39,7 @@ Cette opération facilite certains scénarios de déploiement de Windows 2000. E
 
 ## <a name="domain-and-trust-requirements"></a>Exigences relatives au domaine et à la confiance
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requiert que le domaine de destination soit en mode natif Windows 2000 ou ultérieur, car seul ce type de domaine prend en charge l’attribut **SIDHistory** . Le domaine source peut être soit Windows NT 4,0, soit Windows 2000, en mode mixte ou natif. Les domaines source et de destination ne doivent pas se trouver dans la même forêt. Les domaines Windows NT 4,0 sont par définition non dans une forêt. Cette contrainte inter-forêts garantit que les SID dupliqués, qu’ils apparaissent en tant que sid primaires ou valeurs **SIDHistory** , ne sont pas créés dans la même forêt.
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requiert que le domaine de destination soit en mode natif Windows 2000 ou ultérieur, car seul ce type de domaine prend en charge l’attribut **sIDHistory** . le domaine source peut être Windows NT 4,0 ou Windows 2000, en mode mixte ou natif. Les domaines source et de destination ne doivent pas se trouver dans la même forêt. Windows Les domaines NT 4,0 sont par définition non dans une forêt. Cette contrainte inter-forêts garantit que les SID dupliqués, qu’ils apparaissent en tant que sid primaires ou valeurs **SIDHistory** , ne sont pas créés dans la même forêt.
 
 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requiert une approbation externe entre le domaine source et le domaine de destination dans les cas indiqués dans le tableau suivant.
 
@@ -47,7 +47,7 @@ Cette opération facilite certains scénarios de déploiement de Windows 2000. E
 
 | Cas                                                                             | Description                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Le domaine source est Windows 2000.<br/>                                    | L’attribut **SIDHistory** source, disponible uniquement dans les domaines sources Windows 2000, peut être en lecture seule à l’aide de LDAP, ce qui nécessite cette approbation pour la protection de l’intégrité.<br/>                                                                                             |
+| le domaine source est Windows 2000.<br/>                                    | l’attribut **sIDHistory** source, disponible uniquement dans les domaines sources Windows 2000, peut être en lecture seule à l’aide de LDAP, ce qui nécessite cette approbation pour la protection de l’intégrité.<br/>                                                                                             |
 | Le domaine source est Windows NT 4,0 et *SrcDomainCreds* a la **valeur null**.<br/> | L’emprunt d’identité, requis pour prendre en charge les opérations de domaine source à l’aide des informations d’identification de l’appelant, dépend de cette approbation. L’emprunt d’identité requiert également que le contrôleur de domaine de destination ait la valeur « approuvé pour la délégation » activée par défaut sur les contrôleurs de domaine.<br/> |
 
 
@@ -58,14 +58,14 @@ Toutefois, aucune approbation n’est requise entre les domaines source et de de
 
 ## <a name="source-domain-controller-requirements"></a>Configuration requise du contrôleur de domaine source
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requiert que le contrôleur de domaine, sélectionné comme cible pour les opérations dans le domaine source, soit le contrôleur de domaine principal dans les domaines windows NT 4,0 ou l’émulateur de contrôleur de domaine principal dans les domaines Windows 2000. L’audit du domaine source est généré par le biais d’opérations d’écriture. par conséquent, le contrôleur de domaine principal est requis dans les domaines sources Windows NT 4,0 et la restriction PDC uniquement garantit que les audits **DsAddSidHistory** sont générés sur un seul ordinateur. Cela réduit le besoin d’examiner les journaux d’audit de tous les contrôleurs de service pour surveiller l’utilisation de cette opération.
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) requiert que le contrôleur de domaine, sélectionné comme cible pour les opérations dans le domaine source, soit le contrôleur de domaine principal dans Windows domaines NT 4,0 ou le Emulator pdc dans Windows domaines 2000. L’audit du domaine source est généré par le biais d’opérations d’écriture. par conséquent, le contrôleur de domaine principal est requis dans Windows domaines source NT 4,0, et la restriction de contrôleur de domaine principal garantit que les audits **DsAddSidHistory** sont générés sur un seul ordinateur. Cela réduit le besoin d’examiner les journaux d’audit de tous les contrôleurs de service pour surveiller l’utilisation de cette opération.
 
 > [!Note]  
-> Dans les domaines source Windows NT 4,0, le contrôleur de domaine principal (Target of Operations in the source Domain) doit exécuter Service Pack 4 (SP4) et versions ultérieures pour garantir une prise en charge de l’audit appropriée.
+> Dans Windows domaines source NT 4,0, le contrôleur de domaine principal (Target of Operations in the source Domain) doit exécuter Service Pack 4 (SP4) et versions ultérieures pour garantir une prise en charge d’audit correcte.
 
  
 
-La valeur de Registre suivante doit être créée en tant que \_ valeur reg DWORD et définie sur 1 sur le contrôleur de domaine source pour les contrôleurs de domaine sources Windows NT 4,0 et windows 2000.
+la valeur de registre suivante doit être créée en tant que \_ valeur REG DWORD et définie sur 1 sur le contrôleur de domaine source pour les Windows NT 4,0 et Windows 2000 sources de contrôleurs de domaine.
 
 ```
 HKEY_LOCAL_MACHINE
@@ -87,7 +87,7 @@ Les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-ds
 Les événements d’audit « ajouter un historique des SID » uniques ne sont pas disponibles sur les systèmes Windows NT 4,0. Pour générer des événements d’audit qui reflètent sans ambiguïté l’utilisation de [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur le domaine source, il effectue des opérations sur un groupe spécial dont le nom est l’identificateur unique dans le journal d’audit. Un groupe local, « <SrcDomainName> $ $ $ », dont le nom est composé du nom NetBIOS du domaine source est ajouté avec trois signes dollar ($) (code ASCII = 0x24 et Unicode = U + 0024), doit être créé sur le contrôleur de domaine source avant d’appeler **DsAddSidHistory**. Chaque utilisateur source et groupe global qui est une cible de cette opération est ajouté à, puis supprimé de l’appartenance de ce groupe. Cela génère des événements ajouter un membre et supprimer un membre dans le domaine source, qui peuvent être analysés en recherchant des événements qui référencent le nom du groupe.
 
 > [!Note]  
-> Les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur des groupes locaux dans un domaine source en mode mixte windows NT 4,0 ou Windows 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au <SrcDomainName> groupe local « $ $ $ » spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
+> les opérations [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) sur les groupes locaux dans une Windows NT 4,0 ou Windows domaine source en mode mixte 2000 ne peuvent pas être auditées, car les groupes locaux ne peuvent pas être membres d’un autre groupe local et ne peuvent donc pas être ajoutés au <SrcDomainName> groupe local "$ $ $" spécial. Ce manque d’audit ne présente pas de problème de sécurité au domaine source, car l’accès aux ressources du domaine source n’est pas affecté par cette opération. L’ajout du SID d’un groupe local source à un groupe local de destination n’accorde pas l’accès aux ressources sources, protégées par ce groupe local, à des utilisateurs supplémentaires. L’ajout de membres au groupe local de destination ne leur accorde pas l’accès aux ressources sources. Les membres ajoutés bénéficient d’un accès uniquement aux serveurs du domaine de destination qui ont été migrés à partir du domaine source, qui peut avoir des ressources protégées par le SID du groupe local source.
 
  
 
@@ -95,7 +95,7 @@ Les événements d’audit « ajouter un historique des SID » uniques ne sont
 
 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) applique les mesures de sécurité suivantes :
 
--   Appelé à partir d’une station de travail 2000 Windows, les informations d’identification de l’appelant sont utilisées pour l’authentification et la confidentialité-protéger l’appel RPC au contrôleur de domaine de destination. Si *SrcDomainCreds* n’a pas la **valeur null**, la station de travail et le DC de destination doivent prendre en charge le chiffrement 128 bits pour la confidentialité-protéger les informations d’identification. Si le chiffrement 128 bits n’est pas disponible et que *SrcDomainCreds* est fourni, l’appel doit être effectué sur le contrôleur de l’emplacement de destination.
+-   appelé à partir d’une station de travail Windows 2000, les informations d’identification de l’appelant sont utilisées pour l’authentification et la confidentialité-protéger l’appel RPC au contrôleur de domaine de destination. Si *SrcDomainCreds* n’a pas la **valeur null**, la station de travail et le DC de destination doivent prendre en charge le chiffrement 128 bits pour la confidentialité-protéger les informations d’identification. Si le chiffrement 128 bits n’est pas disponible et que *SrcDomainCreds* est fourni, l’appel doit être effectué sur le contrôleur de l’emplacement de destination.
 -   Le contrôleur de domaine de destination communique avec le contrôleur de domaine source à l’aide de *SrcDomainCreds* ou des informations d’identification de l’appelant pour l’authentification mutuelle et l’intégrité. Protégez la lecture du SID de compte source (à l’aide d’une recherche Sam) et **SIDHistory** (à l’aide d’une lecture LDAP).
 
 ## <a name="threat-models"></a>Modèles de menace
@@ -149,7 +149,7 @@ Le tableau suivant répertorie les menaces potentielles associées à l’appel 
 <td>Les administrateurs de domaine de ressources protègent leurs ressources en configurant uniquement les relations d’approbation qui sont logiques du point de vue de la sécurité. L’utilisation de <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> est limitée, dans le domaine cible approuvé, aux membres du groupe administrateurs de domaine qui possèdent déjà des autorisations étendues dans le cadre de leurs responsabilités.<br/></td>
 </tr>
 <tr class="even">
-<td>Domaine cible non autorisé<br/> Un utilisateur non autorisé crée un domaine Windows 2000 avec un compte dont le <strong>SIDHistory</strong> contient un SID qui a été volé à partir d’un domaine source. L’utilisateur non autorisé utilise ce compte pour un accès non autorisé aux ressources.<br/></td>
+<td>Domaine cible non autorisé<br/> un utilisateur non autorisé crée un domaine Windows 2000 avec un compte dont le <strong>sIDHistory</strong> contient un SID qui a été volé à partir d’un domaine source. L’utilisateur non autorisé utilise ce compte pour un accès non autorisé aux ressources.<br/></td>
 <td>L’utilisateur non autorisé requiert des informations d’identification d’administrateur pour le domaine source afin d’utiliser <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>et laisse une piste d’audit sur le contrôleur de domaine source. Le domaine cible non autorisé bénéficie d’un accès non autorisé uniquement dans les autres domaines qui approuvent le domaine non autorisé, ce qui requiert des privilèges d’administrateur dans ces domaines de ressources.<br/></td>
 </tr>
 </tbody>
@@ -177,8 +177,8 @@ Le SID de *SrcPrincipal* ne doit pas déjà exister dans la forêt de destinatio
 
     <dl> Groupe local  
     Groupe global  
-    Groupe de domaine local (Windows 2000 en mode natif uniquement)  
-    Groupe universel (Windows 2000 en mode natif uniquement)  
+    groupe de domaine local (Windows 2000 en mode natif uniquement)  
+    groupe universel (Windows 2000 en mode natif uniquement)  
     </dl>
 
 Les types d’objets de *SrcPrincipal* et *DstPrincipal* doivent correspondre.
@@ -192,7 +192,7 @@ Les types d’objets de *SrcPrincipal* et *DstPrincipal* doivent correspondre.
 -   Ordinateur (station de travail ou contrôleur de domaine)
 -   Approbation inter-domaines
 -   Compte dupliqué temporaire (fonctionnalité presque inutilisée, ancien élément LANman)
--   Comptes avec des SID bien connus. Les SID bien connus sont identiques dans chaque domaine ; ainsi, l’ajout de ces éléments à un **SIDHistory** violerait l’exigence d’unicité des SID d’une forêt Windows 2000. Les comptes avec des SID bien connus incluent les groupes locaux suivants :
+-   Comptes avec des SID bien connus. Les SID bien connus sont identiques dans chaque domaine ; par conséquent, l’ajout de ces éléments à un **sIDHistory** violerait l’exigence d’unicité SID d’une forêt Windows 2000. Les comptes avec des SID bien connus incluent les groupes locaux suivants :
 
     <dl> Opérateurs de compte  
     Administrateurs  
@@ -226,15 +226,15 @@ La procédure suivante montre comment définir la valeur de registre TcpipClient
 
 ## <a name="enabling-auditing-of-usergroup-management-events"></a>Activation de l’audit des événements de gestion des utilisateurs/groupes
 
-La procédure suivante montre comment activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source ou de destination Windows 2000 ou Windows Server 2003.
+la procédure suivante montre comment activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine Windows 2000 ou Windows Server 2003 source ou de destination.
 
-**Pour activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source ou de destination Windows 2000 ou Windows Server 2003**
+**pour activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine Windows 2000 ou Windows Server 2003 source ou destination**
 
 1.  Dans le composant logiciel enfichable MMC utilisateurs et ordinateurs Active Directory, sélectionnez le conteneur contrôleurs de domaine de domaine de destination.
 2.  Cliquez avec le bouton droit sur **contrôleurs de domaine** , puis choisissez **Propriétés**.
 3.  Cliquez sur l’onglet **stratégie de groupe** .
 4.  Sélectionnez la **stratégie contrôleurs de domaine par défaut** et cliquez sur **modifier**.
-5.  Sous **Configuration ordinateur \\ Paramètres Windows paramètres de \\ sécurité \\ stratégies locales \\ stratégie d’audit**, double-cliquez sur **auditer la gestion des comptes**.
+5.  sous **Configuration ordinateur \\ Windows Paramètres \\ sécurité Paramètres \\ \\ stratégie d’audit stratégies locales**, double-cliquez sur **auditer la gestion des comptes**.
 6.  Dans la fenêtre **auditer la gestion des comptes** , sélectionnez audit des **réussites** et des **échecs** . Les mises à jour de stratégie prennent effet après un redémarrage ou après l’actualisation.
 7.  Vérifiez que l’audit est activé en affichant la stratégie d’audit effective dans le composant logiciel enfichable MMC stratégie de groupe.
 
@@ -246,9 +246,9 @@ La procédure suivante montre comment activer l’audit des événements de gest
 2.  Sélectionnez **auditer ces événements**.
 3.  Pour la **gestion des utilisateurs et des groupes**, vérifiez la **réussite et l’échec**.
 
-La procédure suivante montre comment activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source Windows NT 4,0, Windows 2000 ou Windows Server 2003.
+la procédure suivante montre comment activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source Windows NT 4,0, Windows 2000 ou Windows Server 2003.
 
-**Pour activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source Windows NT 4,0, Windows 2000 ou Windows Server 2003**
+**pour activer l’audit des événements de gestion des utilisateurs/groupes dans un domaine source Windows NT 4,0, Windows 2000 ou Windows Server 2003**
 
 1.  Dans le **Gestionnaire des utilisateurs pour les domaines**, cliquez sur le menu **utilisateur** , puis sélectionnez **nouveau groupe local**.
 2.  Entrez un nom de groupe composé du nom NetBIOS du domaine source, à l’aide de trois signes dollar ($), par exemple, FABRIKAM $ $ $. Le champ description doit indiquer que ce groupe est utilisé pour auditer l’utilisation des [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) ou des opérations de clonage. Assurez-vous qu’il n’y a aucun membre dans le groupe. Cliquez sur **OK**.
@@ -259,7 +259,7 @@ L’opération [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsa
 
 Si l’une des conditions suivantes est vraie, une approbation doit être établie entre le domaine source et le domaine de destination (cela doit se produire dans une autre forêt) :
 
--   Le domaine source est Windows Server 2003.
+-   le domaine source est Windows Server 2003.
 -   Le domaine source est Windows NT 4,0 et *SrcDomainCreds* a la **valeur null**.
 
  

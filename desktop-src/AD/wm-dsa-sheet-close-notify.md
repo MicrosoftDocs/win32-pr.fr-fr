@@ -13,12 +13,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f03cdb6224ae5f55bc995897d766ce61e67693
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f840790de51ce712b33fc9a9611934e8be9a76a35a0fc01a4ce0abe4ba040d2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106518079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181670"
 ---
 # <a name="wm_dsa_sheet_close_notify-message"></a>Message de fermeture de la \_ feuille du DSA WM \_ \_ \_
 
@@ -71,7 +71,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 La valeur de retour de ce message n’est pas utilisée.
 

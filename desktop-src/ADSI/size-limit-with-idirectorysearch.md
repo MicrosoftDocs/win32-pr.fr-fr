@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche, limite de taille
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25127ea945edcf669e71d7d5b3f969d9eb2cb112
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9d6ee4e23cb3014ea92e8510da88767a433b76c0fe73ccbe74bac6ba0bfc1c49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178744"
 ---
 # <a name="size-limit-with-idirectorysearch"></a>Limite de taille avec IDirectorySearch
 
@@ -35,9 +35,9 @@ SearchPref.vValue.Integer = 1000;
 
 Par Active Directory, la limite de taille spécifie le nombre maximal d’objets qui doivent être retournés par la recherche. Par ailleurs, pour Active Directory, le nombre maximal d’objets renvoyés par une recherche est de 1000 objets.
 
- 
+ 
 
- 
+ 
 
 
 

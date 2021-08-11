@@ -8,12 +8,12 @@ keywords:
 - ADSI Provider ADSI, gestion des utilisateurs, exemples, compte désactivé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e61fb65a06f4e2afb1b43595b955c577b2a6090
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: cf753da0770e19504d496be20ba350f79bd4788a797eb5241e68261df844b626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106527085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181443"
 ---
 # <a name="account-disabled-ldap-provider"></a>Compte désactivé (fournisseur LDAP)
 

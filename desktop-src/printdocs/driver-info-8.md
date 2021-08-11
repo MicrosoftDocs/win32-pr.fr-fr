@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 3cc174fdc8617a8ff59afc5a12740eaba715114f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 753b05b9d59bb98742d5c49102b604cc0a499a4dcdc6c624489d261400279297
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234838"
 ---
 # <a name="driver_info_8-structure"></a>\_Structure info \_ 8 du pilote
 
@@ -82,7 +82,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 **pEnvironment**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64.
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement pour lequel le pilote a été écrit (par exemple, Windows x86, Windows IA64 et Windows x64.
 
 </dd> <dt>
 
@@ -180,7 +180,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’
 **pszProvider**
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie le fournisseur du pilote d’imprimante (par exemple, « Microsoft Windows 2000 »).
+pointeur vers une chaîne se terminant par un caractère null qui spécifie le fournisseur du pilote d’imprimante (par exemple, « Microsoft Windows 2000 »).
 
 </dd> <dt>
 
@@ -249,14 +249,14 @@ Pointeur vers une chaîne multiple se terminant par un caractère null qui spéc
 **ftMinInboxDriverVerDate**
 </dt> <dd>
 
-La première date autorisée des pilotes fournis avec Windows et dont ce pilote dépend.
+la première date autorisée des pilotes fournis avec Windows et dont ce pilote dépend.
 
 </dd> <dt>
 
 **dwlMinInboxDriverVerVersion**
 </dt> <dd>
 
-La première version autorisée des pilotes fournis avec Windows et dont dépend ce pilote.
+la première version autorisée des pilotes fournis avec Windows et dont ce pilote dépend.
 
 </dd> </dl>
 
@@ -270,8 +270,8 @@ Les chaînes de ces membres sont contenues dans le fichier. inf qui est utilisé
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                      |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                            |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                      |
 | En-tête<br/>                   | <dl> <dt>Winspool. h (inclure Windows. h)</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **\_ \_ Informations sur \_ le pilote 8W** (Unicode) et **\_ \_ informations sur le pilote \_ 8A** (ANSI)<br/>                             |
 

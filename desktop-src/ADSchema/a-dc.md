@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a97a6958d51c6e0e29f70685b2624fb194d42e05
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fe93b6629ac176452edbe5cdf13bf35afa955890cde369273f87990034bcd3e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177767"
 ---
 # <a name="domain-component-attribute"></a>Attribut Domain-Component
 
@@ -46,7 +46,7 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,16 +58,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -79,16 +79,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -100,16 +100,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|---------------------------------------|
 | ID de lien                | \-                                    |
 | MAPI-Id                | \-                                    |
-| System-Only            | Faux                                 |
-| Est de valeur unique       | Vrai                                  |
-| Est indexé             | Faux                                 |
-| Dans le catalogue global      | Vrai                                  |
+| System-Only            | False                                 |
+| Est de valeur unique       | True                                  |
+| Est indexé             | False                                 |
+| Dans le catalogue global      | True                                  |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                          |
 | Range-Lower            | 1                                     |
 | Range-Upper            | 255                                   |
 | Search-Flags           | 0x00000000                            |
 | System-Flags           | 0x00000012                            |
-| Classes utilisées dans        | [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -121,16 +121,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -142,16 +142,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -163,16 +163,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 
@@ -184,16 +184,16 @@ Attribut de nom pour les objets Domain et DNS. Généralement affiché sous la f
 |------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                      |
 | MAPI-Id                | \-                                                                                                                      |
-| System-Only            | Faux                                                                                                                   |
-| Est de valeur unique       | Vrai                                                                                                                    |
-| Est indexé             | Faux                                                                                                                   |
-| Dans le catalogue global      | Vrai                                                                                                                    |
+| System-Only            | False                                                                                                                   |
+| Est de valeur unique       | True                                                                                                                    |
+| Est indexé             | False                                                                                                                   |
+| Dans le catalogue global      | True                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                            |
 | Range-Lower            | 1                                                                                                                       |
 | Range-Upper            | 255                                                                                                                     |
 | Search-Flags           | 0x00000000                                                                                                              |
 | System-Flags           | 0x00000012                                                                                                              |
-| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domaine**](c-domain.md)<br/> |
+| Classes utilisées dans        | [**Nœud DNS**](c-dnsnode.md)<br/> [**Zone DNS**](c-dnszone.md)<br/> [**Domain**](c-domain.md)<br/> |
 
 
 

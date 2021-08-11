@@ -7,12 +7,12 @@ keywords:
 - Active Directory du modèle de réplication, avantages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538fe291a04953d373ff3cd45cbd4693d3dafab4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79c137fadf768c97b6d8be962b22c74b45e30bc41c7dfb7e9ea67e1f145cd92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181990"
 ---
 # <a name="why-active-directory-domain-services-uses-this-replication-model"></a>Pourquoi Active Directory Domain Services utilise ce modèle de réplication
 
@@ -32,9 +32,9 @@ Les systèmes de forme libre gèrent l’incertitude en le tolérant. Un systèm
 
 Les solutions fortement couplées ont été rejetées comme inappropriées pour les Active Directory Domain Services en raison des exigences liées à l’administration locale, au fonctionnement déconnecté et à l’évolutivité vers un très grand nombre de nœuds. Le modèle faiblement couplé choisi, à compatibilité avec la cohérence multimaître avec la convergence, satisfait à toutes les exigences.
 
- 
+ 
 
- 
+ 
 
 
 

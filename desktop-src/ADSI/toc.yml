@@ -11,7 +11,7 @@
               href: getting-started-with-scripting-for-adsi.md
             - name: Prise en main avec ASP pour ADSI
               href: getting-started-with-asp-for-adsi.md
-            - name: 'Configuration de Visual Basic 6,0 pour le développement ADSI'
+            - name: 'configuration de Visual Basic 6,0 pour le développement ADSI'
               href: setting-up-visual-basic-for-adsi-development.md
             - name: 'Configuration de Visual C++ 6,0 pour le développement ADSI'
               href: setting-up-c---for-adsi-development.md
@@ -47,7 +47,7 @@
                   href: joining-heterogeneous-data.md
                 - name: Création et exécution d’une vue
                   href: creating-and-executing-a-view.md
-                - name: Création d’une jointure hétérogène entre SQL Server et Active Directory
+                - name: création d’une jointure hétérogène entre SQL Server et Active Directory
                   href: creating-a-heterogeneous-join-between-sql-server-and-active-directory.md
             - name: Rubriques avancées
               href: advanced-topics.md
@@ -58,7 +58,7 @@
                   href: delegating-organizational-units.md
                 - name: Extension d’ADSI
                   href: extending-adsi.md
-                - name: Mappage du code d’Visual Basic ADSI au code C++
+                - name: mappage du code d’Visual Basic ADSI au code C++
                   href: mapping-adsi-visual-basic-code-to-c-code.md
         - name: Scripts des interfaces de service Active Directory
           href: adsi-scripting-tutorial.md
@@ -75,7 +75,7 @@
       items:
         - name: Plusieurs services d’annuaire
           href: multiple-directory-services.md
-        - name: "Qui utilisera Active Directory interfaces de service\_?"
+        - name: "Qui Utilisera-t-il des interfaces de service Active Directory\_?"
           href: who-will-use-active-directory-service-interfaces.md
         - name: Services d’annuaire aujourd’hui
           href: directory-services-today.md
@@ -131,7 +131,7 @@
                       href: binding-with-adsopenobject-and-iadsopendsobject-opendsobject.md
                     - name: Liaison avec chiffrement
                       href: binding-with-encryption.md
-                - name: Utilisation d’un objet de données ActiveX pour la liaison aux fournisseurs ADSI
+                - name: utilisation d’un objet de données ActiveX pour la liaison aux fournisseurs ADSI
                   href: using-an-activex-data-object-to-bind-to-adsi-providers.md
             - name: Mise en cache des connexions
               href: connection-caching.md
@@ -249,7 +249,7 @@
                           items:
                             - name: Dialecte LDAP ADO
                               href: ado-ldap-ranging-dialect.md
-                            - name: Dialecte SQL ADO
+                            - name: dialecte SQL ADO
                               href: ado-sql-ranging-dialect.md
                             - name: Exemple de code pour l’utilisation de permettant de récupérer des membres d’un groupe
                               href: example-code-for-using-ranging-to-retrieve-members-of-a-group.md
@@ -273,7 +273,7 @@
                 - name: Dialect
                   href: dialect.md
                   items:
-                    - name: Dialecte SQL
+                    - name: SQL Dialecte
                       href: sql-dialect.md
                     - name: Dialecte LDAP
                       href: ldap-dialect.md
@@ -318,7 +318,7 @@
                           href: example-code-for-using-a-vlv-search.md
                     - name: Exemple de code pour l’utilisation de IDirectorySearch
                       href: example-code-for-using-idirectorysearch.md
-                - name: Rechercher à l’aide d’ActiveX Data Objects (ADO)
+                - name: rechercher à l’aide d’ActiveX Data Objects (ADO)
                   href: searching-with-activex-data-objects-ado.md
                   items:
                     - name: Modification d’un objet ADSI à partir d’ADO
@@ -335,7 +335,7 @@
         - name: Modèle de sécurité ADSI
           href: adsi-security-model.md
           items:
-            - name: Authentification
+            - name: Authentication
               href: authentication.md
               items:
                 - name: Problèmes d’authentification pour ADSI avec ASP

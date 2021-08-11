@@ -4,12 +4,12 @@ ms.assetid: fd93f915-6af3-4bde-982e-6774a1ca83af
 title: System. IsEncrypted
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05f6f1d31838f885820938e9be38ef161c168ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30d78250ac4b190e4a20d1fcbb9d59d9d65f24bd7aa58b00fe7beea0b990a930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232112"
 ---
 # <a name="systemisencrypted"></a>System. IsEncrypted
 
@@ -70,7 +70,7 @@ propertyDescription
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-Cette propriété a été introduite dans la version de Windows Search 4,0.
+cette propriété a été introduite avec la version de Windows Search 4,0.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

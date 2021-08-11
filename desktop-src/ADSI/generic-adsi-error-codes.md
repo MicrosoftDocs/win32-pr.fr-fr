@@ -5,16 +5,16 @@ ms.assetid: 193c5808-fc39-48e6-8bb8-8338e5c980ad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfbea2148ab07bcf045808ae80d14947621aac8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d82ffb20b2dbba1c6b953177eddc0dc8da95aaeb5a10e6b0c985659246906aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179817"
 ---
 # <a name="generic-adsi-error-codes"></a>Codes d’erreur ADSI génériques
 
-Ces types de codes d’erreur peuvent être renvoyés par n’importe quel fournisseur de système ADSI pour représenter des messages d’erreur spécifiques à ADSI. Ils ont le code d’installation 5 avec un bit de gravité défini sur **true** ou **false**. Lorsque le bit de gravité est défini sur **true**, les valeurs d’erreur se présente sous la forme 0x80005xxx et des messages d’erreur de la forme **E \_ ADS \_ \***. Lorsque le bit de gravité est défini sur **false**, les valeurs d’erreur se présentent sous la forme 0x00005xxx et les messages d’erreur sont du formulaire **\_ ADS \_ \*** .
+Ces types de codes d’erreur peuvent être renvoyés par n’importe quel fournisseur de système ADSI pour représenter des messages d’erreur spécifiques à ADSI. Ils ont le code d’installation 5 avec un bit de gravité défini sur **true** ou **false**. Lorsque le bit de gravité est défini sur **true**, les valeurs d’erreur se présente sous la forme 0x80005xxx et des messages d’erreur de la forme **E \_ ADS \_ \* *_. Lorsque le bit de gravité est défini sur _* false**, les valeurs d’erreur se présentent sous la forme 0x00005xxx et les messages d’erreur sont du formulaire **\_ ADS \_ \*** .
 
 Le tableau suivant répertorie les codes d’erreur ADSI génériques définis dans Adserr. h.
 
@@ -46,11 +46,11 @@ Le tableau suivant répertorie les codes d’erreur ADSI génériques définis d
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

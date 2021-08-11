@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97d4e3814662cc8acf1a987cb92a1b9579cc43a4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a32f79b8e85243ae3d69b3b024171301fe60810c4f4e530985691f1ddd39200d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178038"
 ---
 # <a name="admin-property-pages-attribute"></a>Attribut admin-Property-pages
 
@@ -45,7 +45,7 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -78,10 +78,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -99,10 +99,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -120,10 +120,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -141,10 +141,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -162,10 +162,10 @@ Le numéro d’ordre et le GUID des pages de propriétés d’un objet à affich
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |

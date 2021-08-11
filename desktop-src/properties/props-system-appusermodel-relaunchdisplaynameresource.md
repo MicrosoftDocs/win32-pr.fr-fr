@@ -4,19 +4,19 @@ ms.assetid: a149838b-83b6-44ce-b705-e2804efb3d31
 title: System. AppUserModel. RelaunchDisplayNameResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d79c22d0ccecb8bac86fe5ca3636ed10ed2ca50b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22b0af752fb345dd5dd5f1b091a22255e856031affaca266ff6307045f148cd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104202936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233021"
 ---
 # <a name="systemappusermodelrelaunchdisplaynameresource"></a>System. AppUserModel. RelaunchDisplayNameResource
 
 Spécifie le nom complet utilisé pour le raccourci créé dans la barre des tâches lorsque l’utilisateur choisit d’épingler une application à la barre des tâches ou de lancer une nouvelle instance via la liste de raccourcis de son bouton. La valeur de cette propriété doit être l’une des suivantes :
 
--   Une chaîne de ressource indirecte telle que « @% systemdir% \\ system32 \\shell32.dll,-19263 ». Notez que le caractère « @ » est requis pour distinguer une chaîne indirecte d’une chaîne de texte brut (décrite dans le paragraphe à puces suivant). Cette chaîne indirecte se compose d’un fichier binaire et d’un ID de ressource de la chaîne contenue dans ce binaire. Nous vous recommandons vivement d’utiliser ce format de chaîne indirecte, qui garantit que le nom d’affichage change de manière appropriée lorsque la langue du système est modifiée par le biais de l’interface utilisateur multilingue (MUI). Le caractère « - » avant l’ID de ressource est requis.
--   Chaîne de texte brut qui ne pointe pas vers une ressource. Cela doit être utilisé uniquement lorsque le nom complet est calculé dynamiquement ou obtenu à partir d’une source de données qui ne prend pas en charge MUI. Par exemple, la chaîne peut être le nom d’un périphérique, tel que « Microsoft Zune », dans les cas où l’application s’affiche lorsque l’appareil est connecté à l’ordinateur.
+-   Une chaîne de ressource indirecte telle que « @% systemdir% \\ system32 \\shell32.dll,-19263 ». Notez que le caractère « @ » est requis pour distinguer une chaîne indirecte d’une chaîne de texte brut (décrite dans le paragraphe à puces suivant). Cette chaîne indirecte se compose d’un fichier binaire et d’un ID de ressource de la chaîne contenue dans ce binaire. nous vous recommandons vivement d’utiliser ce format de chaîne indirecte, qui garantit que le nom d’affichage change de manière appropriée lorsque la langue du système est modifiée via le interface utilisateur multilingue (MUI). Le caractère « - » avant l’ID de ressource est requis.
+-   Chaîne de texte brut qui ne pointe pas vers une ressource. Cela doit être utilisé uniquement lorsque le nom complet est calculé dynamiquement ou obtenu à partir d’une source de données qui ne prend pas en charge MUI. par exemple, la chaîne peut être le nom d’un périphérique, tel que « Microsoft Zune », dans les cas où l’application s’affiche lorsque l’appareil est attaché à l’ordinateur.
 
 > [!Note]  
 > [System. AppUserModel. RelaunchCommand](./props-system-appusermodel-relaunchcommand.md) et [System. AppUserModel. RelaunchDisplayNameResource]() doivent toujours être définis ensemble. Si l’une de ces propriétés n’est pas définie, aucune n’est utilisée.

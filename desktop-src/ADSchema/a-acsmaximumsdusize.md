@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9fa6260b3e0370f8a3d6e0ddfdab206d41db02
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f1b4e7b59de35ee145e2fe6d47d43c99d3dbf057ee63f3cacd943f4127a738d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178413"
 ---
 # <a name="acs-maximum-sdu-size-attribute"></a>ACS-attribut de taille maximale de SDU
 
@@ -36,7 +36,7 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1314              |
 | System-ID-GUID    | 87a2d8f9-3b90-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -162,10 +162,10 @@ L’attribut **ACS-maximum-SDU-Size** est destiné à un usage interne uniquemen
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

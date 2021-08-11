@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, exemple de code C/C++, obtention des interfaces ADSI à partir de votre extension
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1eeff55f2e382ce2816f59ee53dbd78033b79c
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 41df2498bd0c25996cfd0941f823e414289c0a9fbe006df846960c6f455e4301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106509062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179729"
 ---
 # <a name="getting-adsi-interfaces-from-your-extension"></a>Obtention des interfaces ADSI à partir de votre extension
 
@@ -44,6 +44,6 @@ if ( SUCCEEDED(hr) )
 
 Vous devez libérer l’interface immédiatement après l’avoir utilisée. Si l’extension a une référence ouverte à l’agrégation, vous avez créé une référence circulaire et l’agrégation ne peut pas libérer l’extension. Par conséquent, l’agrégation ne peut pas être libérée et le résultat est une fuite de mémoire dans votre application.
 
- 
+ 
 
- 
+ 

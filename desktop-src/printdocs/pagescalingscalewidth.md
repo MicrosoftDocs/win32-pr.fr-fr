@@ -4,12 +4,12 @@ ms.assetid: 0de776f3-ae09-49f4-a829-b3c0e2ab5bbc
 title: PageScalingScaleWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b6180395eb656ee40d8558f7208fec2ad2fce8
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 4c461b8e66b38605af749546a66b31016362140365e7998dca9960e9ad61d201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234344"
 ---
 # <a name="pagescalingscalewidth"></a>PageScalingScaleWidth
 
@@ -28,7 +28,7 @@ Spécifie le facteur de mise à l’échelle dans la direction ImageableSizeWidt
 |----------------------------|---------------------------------------------------------|
 | Type d'élément <br/>   | ParameterDef<br/>                                 |
 | Préfixe d’étendue <br/> | Page<br/>                                         |
-| Remarques <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
+| Notes <br/>          | Lié à l’élément PageScaling, option personnalisée<br/> |
 
 
 
@@ -73,13 +73,13 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 | Propriété                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
-| DataType<br/>     | Chaîne<br/>  | xs:integer<br/>      |
-| DefaultValue<br/> | Entier<br/> | non défini<br/>       |
-| MaxValue<br/>     | Entier<br/> | non défini<br/>       |
+| DataType<br/>     | String<br/>  | xs:integer<br/>      |
+| DefaultValue<br/> | Integer<br/> | non défini<br/>       |
+| MaxValue<br/>     | Integer<br/> | non défini<br/>       |
 | MinValue<br/>     | Integer<br/> | 1<br/>               |
-| Obligatoire<br/>    | Chaîne<br/>  | PSK : conditionnel<br/> |
-| Multiple<br/>     | Integer<br/> | 1<br/>               |
-| Unité<br/>     | Chaîne<br/>  | microns<br/>         |
+| Obligatoire<br/>    | String<br/>  | PSK : conditionnel<br/> |
+| Plusieurs<br/>     | Integer<br/> | 1<br/>               |
+| Unité<br/>     | String<br/>  | microns<br/>         |
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, compte désactivé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a99b1fe45b71eda14547703f8721b2a13d581b8e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 1659bad4ab930615aed7d02e3c54fc3899b60eb476999676ff765fe2a2e94f87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104394035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178504"
 ---
 # <a name="account-disabled-winnt-provider"></a>Compte désactivé (fournisseur WinNT)
 
@@ -22,7 +22,7 @@ Lorsque vous utilisez le fournisseur WinNT, un compte peut être activé ou dés
 
 ## <a name="example-1"></a>Exemple 1
 
-L’exemple de code suivant montre comment désactiver un compte à l’aide de Visual Basic avec ADSI.
+l’exemple de code suivant montre comment désactiver un compte à l’aide de Visual Basic avec ADSI.
 
 
 ```VB

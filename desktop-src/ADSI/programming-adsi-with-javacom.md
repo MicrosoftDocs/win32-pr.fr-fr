@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI, exemple de code Java, liaison à un objet ADSI et appel de méthodes sur cet objet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6899804208f9899823f266bc941bcf3c2dec372
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e4778d1d1f71920f880fe38a71874283f7cd8628ae0376b3f9ce227305ab184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178973"
 ---
 # <a name="programming-adsi-with-javacom"></a>Programmation d’ADSI avec Java/COM
 
@@ -58,14 +58,14 @@ L’argument de la première instruction **Import** fait référence aux classes
 
 **Pour créer des classes wrapper et les inclure dans votre projet**
 
-1.  Dans un projet Visual J++, sélectionnez **Ajouter un wrapper com...** dans le menu **projet** .
+1.  dans un projet Visual J++, sélectionnez **ajouter un Wrapper Com...** dans le menu **Project** .
 2.  Sélectionnez Bibliothèque de types Active Directory dans les **composants installés :** dans la boîte de dialogue wrappers com. Si la bibliothèque de types n’est pas affichée dans la zone de liste, cliquez sur le bouton **Parcourir...** , accédez au répertoire où activeds. tlb est stocké, puis sélectionnez la bibliothèque de types.
 
-Visual J++ crée le package activeds pour les classes wrapper Java et inclut le package dans le chemin d’accès par défaut du projet. Pour plus d’informations, consultez le package activeds dans le volet **Explorateur de projets** de la fenêtre Visual J++.
+Visual J++ crée le package activeds pour les classes wrapper Java et inclut le package dans le chemin d’accès par défaut du projet. pour plus d’informations, consultez le package activeds dans le volet **Project explorer** de la fenêtre Visual J++.
 
 Pour obtenir un objet ADSI qui ne peut pas être cocréé, utilisez l’une des fonctions d’API ADSI exposées, par exemple [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) ou [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject), qui sont également empaquetées dans Activeds.dll. Microsoft J/direct permet d’accéder à ces API et à d’autres API natives. Cela est illustré par les deux dernières lignes de l’exemple de code ci-dessus.
 
-Lors de la compilation, assurez-vous que l’option Microsoft Language extension est activée. Pour ce faire, sélectionnez **<project> Propriétés...** dans le menu **projet** de la fenêtre de projet Visual J++. Ensuite, cliquez sur l’onglet **compiler** dans la boîte de dialogue **<project> Propriétés** . Désactivez la case à cocher **Désactiver les extensions de langage Microsoft** . Si vous compilez à partir de la ligne de commande, utilisez le commutateur « /x- », par exemple :
+Lors de la compilation, assurez-vous que l’option Microsoft Language extension est activée. pour ce faire, sélectionnez **<project> propriétés...** dans le menu **Project** de la fenêtre de projet Visual J++. Ensuite, cliquez sur l’onglet **compiler** dans la boîte de dialogue **<project> Propriétés** . Désactivez la case à cocher **Désactiver les extensions de langage Microsoft** . Si vous compilez à partir de la ligne de commande, utilisez le commutateur « /x- », par exemple :
 
 **JVC/x-SimpleADSI. Java**
 
@@ -73,9 +73,9 @@ Enfin, pour que l’ordinateur virtuel charge le composant COM, la bibliothèque
 
 **définir le chemin d’accès =% PATH%; c : \\ bibliothèque ADSI ADSI \\**
 
- 
+ 
 
- 
+ 
 
 
 

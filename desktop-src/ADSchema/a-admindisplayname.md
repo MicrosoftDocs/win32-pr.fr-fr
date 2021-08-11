@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02f8e84e0c6779e8a1a7dc25eff285cd4b13b5d8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 56c37f6d150706a9c5b8f10138bda5b604f96f5f0d2305a6b1e5d61e7f925080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178048"
 ---
 # <a name="admin-display-name-attribute"></a>Attribut admin-Display-Name
 
@@ -46,7 +46,7 @@ Nom à afficher sur les écrans d’administration.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,10 +58,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -79,10 +79,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -100,10 +100,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -121,10 +121,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -142,10 +142,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -163,10 +163,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |
@@ -184,10 +184,10 @@ Nom à afficher sur les écrans d’administration.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x804B                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Vrai                            |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | True                            |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | 1                               |
 | Range-Upper            | 256                             |

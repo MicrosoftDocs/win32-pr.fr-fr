@@ -9,12 +9,12 @@ keywords:
 - Interfaces ADSI (Active Directory Service Interfaces), à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc083b33a633335da12915257fcddff1174a6858
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8a651e3d6b4fbceb76f15038d79e4e3c2e7f143cc3ed6d35dc45d3186ecd1ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181719"
 ---
 # <a name="about-active-directory-service-interfaces"></a>À propos des interfaces de service Active Directory
 
@@ -27,7 +27,7 @@ Grâce à ADSI, les développeurs peuvent facilement « activer l’annuaire �
 Les rubriques suivantes sont traitées dans cette introduction :
 
 -   [Plusieurs services d’annuaire](multiple-directory-services.md)
--   [Qui utilisera Active Directory interfaces de service ?](who-will-use-active-directory-service-interfaces.md)
+-   [Qui Utilisera-t-il des interfaces de service Active Directory ?](who-will-use-active-directory-service-interfaces.md)
 -   [Services d’annuaire aujourd’hui](directory-services-today.md)
 -   [Avantages de l’utilisation des interfaces de service Active Directory](benefits-of-using-active-directory-service-interfaces.md)
 -   [Architecture des interfaces de service Active Directory](active-directory-service-interfaces-architecture.md)
@@ -36,7 +36,7 @@ Les rubriques suivantes sont traitées dans cette introduction :
 
 ## <a name="what-you-should-know-before-reading-this-guide"></a>Ce que vous devez savoir avant de lire ce guide
 
-Ce guide part du principe que vous êtes familiarisé avec le modèle COM (Component Object Model) et l’automatisation, et que vous savez comment programmer en Visual Basic ou en C/C++.
+ce guide part du principe que vous êtes familiarisé avec le modèle COM (component Object Model) et l’automatisation, et que vous savez comment programmer en Visual Basic ou en C/C++.
 
 Certains termes utilisés dans ce guide sont propres à ADSI ou à l’environnement des services d’annuaire. D’autres termes sont familiers, mais ils peuvent avoir une signification légèrement différente dans ces environnements.
 
@@ -46,7 +46,7 @@ Pour plus d’informations sur les interfaces de service Active Directory et sur
 
 Brockschmidt, Kraig. *Dans OLE*, 2e édition. Redmond, WA : Microsoft Press, 1995.
 
-Chappell, David. *Fonctionnement d’ActiveX et d’OLE*. Redmond, WA : Microsoft Press, 1996.
+Chappell, David. *comprendre ActiveX et OLE*. Redmond, WA : Microsoft Press, 1996.
 
 Hahn, Steven. *Guide de référence du programmeur ASP ADSI*. Wrox Appuyez sur Ltd., 1998.
 
@@ -64,9 +64,9 @@ Rogerson’s, Dale. *Dans com*. Redmond, WA : Microsoft Press, 1997.
 
 (Ces ressources peuvent ne pas être disponibles dans certaines langues et pays/régions.)
 
- 
+ 
 
- 
+ 
 
 
 

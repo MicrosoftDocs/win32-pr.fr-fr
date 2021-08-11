@@ -4,12 +4,12 @@ ms.assetid: 27e4490b-7914-4b38-9799-e9d5dc407f13
 title: System. ItemPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ddad0edbc1a77a3de1fab7956d8ce6e6f906f06
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 88a58d48740c6f7a2f9db0e496a951105c176ca7eba3dd205c2971188af7fd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118231662"
 ---
 # <a name="systemitempathdisplay"></a>System. ItemPathDisplay
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
@@ -43,7 +43,7 @@ Exemples de valeurs
 
 
 
-| Chemin d’accès                                   | ItemPathDisplay                        |
+| Chemin                                   | ItemPathDisplay                        |
 |----------------------------------------|----------------------------------------|
 | c : \\hello.txt de la \\ barre mydir \\              | c : \\hello.txt de la \\ barre mydir \\              |
 | \\\\goodnews.doc du partage de serveur \\ \\ mydir \\ | \\\\goodnews.doc du partage de serveur \\ \\ mydir \\ |

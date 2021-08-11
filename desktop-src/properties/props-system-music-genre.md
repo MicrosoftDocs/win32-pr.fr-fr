@@ -1,17 +1,17 @@
 ---
-description: System. Music. genre
+description: Requise. Musique. Styles
 ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
-title: System. Music. genre
+title: Requise. Musique. Styles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb29e6242dcdc97fe3b814a6fa571551f77e4765
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d056cda4cbd3a7de6d639eb96076ca90dfd8afa60ad15e0f7d1de34ee9ff6bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230543"
 ---
-# <a name="systemmusicgenre"></a>System. Music. genre
+# <a name="systemmusicgenre"></a>Requise. Musique. Styles
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -28,11 +28,11 @@ propertyDescription
       type = Multivalue String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-Notez que certains formats de fichier, tels qu’un fichier. mp3, ne prennent en charge qu’un seul genre. D’autres, tels que les fichiers. WMA, prennent en charge plusieurs genres. Si vous spécifiez plusieurs genres pour un format de fichier à genre unique, seul le premier genre de la liste sera reconnu.
+Notez que certains formats de fichier, tels qu’un fichier .mp3, ne prennent en charge qu’un seul genre. D’autres, tels que les fichiers. WMA, prennent en charge plusieurs genres. Si vous spécifiez plusieurs genres pour un format de fichier à genre unique, seul le premier genre de la liste sera reconnu.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

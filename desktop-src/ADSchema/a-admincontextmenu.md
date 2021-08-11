@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 955267bf1e494d6bb0c98b3f5d25832896393ff2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c217d5aa5ef94f16a250bdd5c6ec8bd506a8acd668eb3094d9e9adc35d0efccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178278"
 ---
 # <a name="admin-context-menu-attribute"></a>Attribut de menu de contexte d’administration
 
@@ -45,7 +45,7 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -78,10 +78,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -99,10 +99,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -120,10 +120,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -141,10 +141,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -162,10 +162,10 @@ Le numéro d’ordre et le GUID du menu contextuel à utiliser sur les écrans d
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |

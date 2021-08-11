@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: ab986128c9561b7b95de668367cafb0b3e6cd636
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3414d0566203aa51d78c6b7d4b0463cee5765bae8c35c083a959088b6559df1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234029"
 ---
 # <a name="setport-function"></a>SetPort fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une structure d' [**informations de port \_ \_ 3**](port-info-3.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 

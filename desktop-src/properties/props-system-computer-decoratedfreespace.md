@@ -4,12 +4,12 @@ ms.assetid: af6445d4-b91d-4999-a809-b2a3b63c67ba
 title: System. Computer. DecoratedFreeSpace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 057c4e475f48caf389c3fd03e05614dbb8651e3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d25f629526f8631ca2c1cf5c1184f2ef78ef0bdb2100b1ced04c34c6297556ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232508"
 ---
 # <a name="systemcomputerdecoratedfreespace"></a>System. Computer. DecoratedFreeSpace
 

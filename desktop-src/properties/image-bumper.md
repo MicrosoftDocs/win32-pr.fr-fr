@@ -1,15 +1,15 @@
 ---
 description: Image
 ms.assetid: 278eadc0-62ab-4b28-b238-93e96ce9da00
-title: Image (propriétés Windows)
+title: Image (propriétés de Windows)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f63e3124bced4ed723c1e9f2d1ceaa3971b25ac
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c2f2ff85ead16a2bee5ac885cfc6624b66d8ccdaa2024cedf0fb109ea9d1d3af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233462"
 ---
 # <a name="image"></a>Image
 
@@ -26,7 +26,7 @@ ms.locfileid: "108087468"
 | [System. image. CompressedBitsPerPixelNumerator](./props-system-image-compressedbitsperpixelnumerator.md)<br/>     | Numérateur de l’image de la \_ \_ CompressedBitsPerPixel.<br/>                                                                                                                                                                          |
 | [System. image. compression](./props-system-image-compression.md)<br/>                                             | Algorithme utilisé pour compresser l’image.<br/>                                                                                                                                                                                      |
 | [System. image. CompressionText](./props-system-image-compressiontext.md)<br/>                                     | Forme conviviale de System. image. compression. Non destiné à être analysé par programmation.<br/>                                                                                                                                |
-| [System. image. Dimensions](./props-system-image-dimensions.md)<br/>                                               | Dimensions de l’image sous forme de chaîne sous la forme `horizontal pixels x vertical pixels` . Par exemple : `3080x2100`.<br/>                                                                                                                      |
+| [System. image. Dimensions](./props-system-image-dimensions.md)<br/>                                               | Dimensions de l’image sous forme de chaîne sous la forme `horizontal pixels x vertical pixels` . Par exemple, `3080x2100`.<br/>                                                                                                                      |
 | [System. image. HorizontalResolution](./props-system-image-horizontalresolution.md)<br/>                           | Indique le nombre de pixels par unité de résolution dans la largeur de l’image.<br/>                                                                                                                                                         |
 | [System. image. HorizontalSize](./props-system-image-horizontalsize.md)<br/>                                       | Taille horizontale de l’image, en pixels.<br/>                                                                                                                                                                                   |
 | [System. image. ImageID](./props-system-image-imageid.md)<br/>                                                     |                                                                                                                                                                                                                                           |

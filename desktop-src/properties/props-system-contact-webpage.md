@@ -4,12 +4,12 @@ ms.assetid: 6e9a5f61-a561-4f1a-b63f-ab9162e1107e
 title: System. contact. page Web
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3595abff45fe80bab1dab8fd6a541d4806290506
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bef121f57c7bd3866b39a77b82f9506d2a6ad605f1a4345c4d8e78c76f5b6d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106543505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232343"
 ---
 # <a name="systemcontactwebpage"></a>System. contact. page Web
 

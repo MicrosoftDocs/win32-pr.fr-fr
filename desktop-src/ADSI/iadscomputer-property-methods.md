@@ -64,12 +64,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2f3c455e2e43436627b62d142781bb6a605bef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5692ffadde78c338845c497a1209cc6466923fe83e32fbf25649b4cd1d4b367d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179577"
 ---
 # <a name="iadscomputer-property-methods"></a>Méthodes de propriété IADsComputer
 
@@ -300,7 +300,7 @@ HRESULT put_NetAddresses(
 
 </dt> </dl> </dd> <dt>
 
-**OperatingSystem**
+**Exploitation**
 </dt> <dd> <dl>
 
 Le système d’exploitation utilisé sur cet ordinateur.
@@ -561,7 +561,7 @@ Pour examiner l’état d’un ordinateur ou pour effectuer l’opération d’a
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code Visual Basic suivant examine les propriétés de l’ordinateur prises en charge par le fournisseur Winnt ADSI.
+l’exemple de code Visual Basic suivant examine les propriétés de l’ordinateur prises en charge par le fournisseur winnt ADSI.
 
 
 ```VB

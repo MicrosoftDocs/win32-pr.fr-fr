@@ -9,12 +9,12 @@ keywords:
 - ADSI Provider ADSI, exemples de gestion des utilisateurs, l’utilisateur doit changer de mot de passe à la prochaine ouverture de session, modification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e1628b113c2f15278bc72e41aa79e4be03a98f2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ec664f9a79e0de4ff0b75ae31abd8dc1532cd17c0d3d35a934e094da45eb3383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179017"
 ---
 # <a name="modifying-user-cannot-change-password-ldap-provider"></a>La modification de l’utilisateur ne peut pas changer le mot de passe (fournisseur LDAP)
 
@@ -32,7 +32,7 @@ La procédure suivante décrit comment modifier ou ajouter des ACE pour cette au
     > [!Note]  
     > Les chaînes « tout le monde » et « Self de l’autorité NT \\ » sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. Pour cette raison, les chaînes ne doivent pas être utilisées directement. Les noms de comptes doivent être obtenus au moment de l’exécution en appelant la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) avec le SID pour « tout le monde » (« S-1-1-0 ») et les principaux de sécurité « NT Authority \\ Self » (« s-1-5-10 ») connus. Les exemples de fonctions **GetSidAccountName**, **GetSidAccountName \_ everyone** et **GetSidAccountName \_ Self** C++ illustrés dans lecture de l' [utilisateur ne peuvent pas changer de mot de passe (fournisseur LDAP)](reading-user-cannot-change-password-ldap-provider.md) montrent comment procéder.
 
-     
+     
 
 5.  Modifiez la propriété [**IADsAccessControlEntry. AceType**](iadsaccesscontrolentry-property-methods.md) des ACE qui ont été trouvées pour les **publicités \_ AceType \_ \_ \_ objet accès refusé** si l’utilisateur ne peut pas modifier son mot de passe ou les **publicités AceType l' \_ \_ accès aux \_ \_ objets autorisés** si l’utilisateur peut modifier son mot de passe.
 6.  Si l’ACE « tout le monde » est introuvable, créez un nouvel objet [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) qui contient les valeurs de propriété indiquées dans le tableau ci-dessous et ajoutez la nouvelle entrée à la liste de contrôle d’accès avec la méthode [**IADsAccessControlList. AddAce**](/windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-addace) .
@@ -50,14 +50,14 @@ Le tableau suivant répertorie les valeurs des propriétés de l’objet [**IADs
 | [**AccessMask**](iadsaccesscontrolentry-property-methods.md)          | **\_ \_ \_ accès au contrôle du service d’annuaire AD Right \_**                                                                                                                                   |
 | [**AceType**](iadsaccesscontrolentry-property-methods.md)             | **Annonces \_ ACETYPE \_ a \_ refusé l' \_ objet** si l’utilisateur ne peut pas modifier son mot de passe ou son **\_ objet ad ACETYPE \_ Access \_ allowed \_** si l’utilisateur peut modifier son mot de passe. |
 | [**AceFlags**](iadsaccesscontrolentry-property-methods.md)            | 0                                                                                                                                                                     |
-| [**Père**](iadsaccesscontrolentry-property-methods.md)               | **\_type d' \_ objet indicateur ADS \_ \_ présent**                                                                                                                                  |
+| [**Indicateurs**](iadsaccesscontrolentry-property-methods.md)               | **\_type d' \_ objet indicateur ADS \_ \_ présent**                                                                                                                                  |
 | [**ObjectType**](iadsaccesscontrolentry-property-methods.md)          | « {AB721A53-1E2F-11D0-9819-00AA0040529B} », qui est le GUID de modification du mot de passe sous forme de chaîne.                                                                            |
 | [**InheritedObjectType**](iadsaccesscontrolentry-property-methods.md) | Non utilisé                                                                                                                                                              |
 | [**Tiers**](iadsaccesscontrolentry-property-methods.md)             | Nom de compte pour le SID « S-1-1-0 » (tout le monde).                                                                                                                            |
 
 
 
- 
+ 
 
 ## <a name="example-code"></a>Exemple de code
 
@@ -66,7 +66,7 @@ L’exemple de code suivant montre comment obtenir une interface pour modifier u
 > [!Note]  
 > Pour utiliser le code documenté dans cet exemple, vous devez être un administrateur. Si vous n’êtes pas administrateur, vous devez ajouter du code qui utilisera une interface qui permettra à un utilisateur de modifier la façon dont le cache côté client est vidé vers le service domaine Active Directory.
 
- 
+ 
 
 
 ```C++
@@ -420,9 +420,9 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
 L’exemple de code suivant montre comment modifier l’autorisation de l’utilisateur ne peut pas modifier le mot de passe à l’aide du fournisseur LDAP.
 
 > [!Note]  
-> L’exemple ci-dessous fonctionne uniquement sur les domaines dont la langue principale est l’anglais, car les chaînes « tout le monde » et « autorisations NT » \\ sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. Il n’existe aucun moyen de Visual Basic pour obtenir les noms de compte d’une entité de sécurité connue sans appeler la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . Si vous utilisez Visual Basic, il est recommandé d’utiliser le fournisseur WinNT pour modifier l’autorisation l’utilisateur ne peut pas modifier le mot de passe, comme indiqué dans modification de l' [utilisateur ne peut pas changer de mot de passe (fournisseur WinNT)](modifying-user-cannot-change-password-winnt-provider.md).
+> L’exemple ci-dessous fonctionne uniquement sur les domaines dont la langue principale est l’anglais, car les chaînes « tout le monde » et « autorisations NT » \\ sont localisées en fonction de la langue du premier contrôleur de domaine dans le domaine. il n’existe aucun moyen de Visual Basic pour obtenir les noms de compte d’une entité de sécurité connue sans appeler la fonction [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) . si vous utilisez Visual Basic, il est recommandé d’utiliser le fournisseur winnt pour modifier l’autorisation l’utilisateur ne peut pas modifier le mot de passe, comme indiqué dans modification de l' [utilisateur ne peut pas changer de mot de passe (fournisseur winnt)](modifying-user-cannot-change-password-winnt-provider.md).
 
- 
+ 
 
 
 ```VB
@@ -507,6 +507,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

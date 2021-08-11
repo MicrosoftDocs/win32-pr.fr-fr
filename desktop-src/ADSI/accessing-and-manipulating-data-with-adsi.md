@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI, accès et manipulation des données
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3291db7490c79aae6363f619582ed24339fb83d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 03ed09c1717f4f9a9c1c75372e7efdc23d2cce1adb39242197346061ae4df00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106511713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181629"
 ---
 # <a name="accessing-and-manipulating-data-with-adsi"></a>Accès et manipulation de données avec ADSI
 
@@ -37,6 +37,6 @@ Cette section décrit les rubriques suivantes :
 -   [Accès au cache de propriété directement avec les interfaces IADsProperty](accessing-the-property-cache-directly-with-the-iadsproperty-interfaces.md)
 -   [Syntaxe d’attribut ADSI](adsi-attribute-syntax.md)
 
- 
+ 
 
- 
+ 

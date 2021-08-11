@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: e68e56f115bac8abb1d0999990f57067f791d76d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97870208508f0a0d23b1f3ee2971a3738b8e22b8d6ef7b4252dffb2a7e77289f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235226"
 ---
 # <a name="deleteprintprovidor-function"></a>DeletePrintProvidor fonction)
 
@@ -53,7 +53,7 @@ Réservé doit avoir la **valeur null**.
 *pEnvironment* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement à partir duquel le fournisseur doit être supprimé (par exemple, Windows NT x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, le fournisseur est supprimé de l’environnement actuel de l’application appelante et de l’ordinateur client (et non de l’application de destination et du serveur d’impression). La valeur **null** est recommandée, car elle offre une portabilité maximale.
+pointeur vers une chaîne se terminant par un caractère null qui spécifie l’environnement à partir duquel le fournisseur doit être supprimé (par exemple, Windows NT x86, Windows IA64 ou Windows x64). Si ce paramètre a la **valeur null**, le fournisseur est supprimé de l’environnement actuel de l’application appelante et de l’ordinateur client (et non de l’application de destination et du serveur d’impression). La valeur **null** est recommandée, car elle offre une portabilité maximale.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui spécifie le n
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si la fonction est réussie, la valeur de retour est une valeur différente de zéro.
 

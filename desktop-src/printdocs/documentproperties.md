@@ -17,12 +17,12 @@ api_location:
 - Winspool.drv
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 732cb6901b444117d0599a2899327ebcb749cf74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 349a085cc8f55f391b33dd5048d23a35fdac3c2b33b3771290bcecd9fdbcfc8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235106"
 ---
 # <a name="documentproperties-function"></a>Fonction DocumentProperties
 
@@ -104,7 +104,7 @@ Opérations exécutées par la fonction. Si ce paramètre est égal à zéro, la
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si le paramètre *fMode* est égal à zéro, la valeur de retour correspond à la taille de la mémoire tampon requise pour contenir les données d’initialisation du pilote d’imprimante. Notez que cette mémoire tampon peut être plus grande qu’une structure [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea) si le pilote d’imprimante ajoute des données privées à la structure.
 

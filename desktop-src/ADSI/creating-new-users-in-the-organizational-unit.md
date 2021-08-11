@@ -7,12 +7,12 @@ keywords:
 - Création d’utilisateurs dans l’ADSI de l’unité d’organisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c45f9dc91f1c36493a4ae8e1c9bb1a69268c9987
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b76d62c8d95e7d5e421fc562e38716477ff2dfb8f4097d4652710e2c50715487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180114"
 ---
 # <a name="creating-new-users-in-the-organizational-unit"></a>Création de nouveaux utilisateurs dans l’unité d’organisation
 
@@ -56,7 +56,7 @@ usr.SetInfo
 
 
 
-Vous vous demandez peut-être ce qui se passe si Thierry change de nom, passe à une autre organisation ou quitte l’entreprise. Qui gère ce lien de rapport direct du gestionnaire ? Pour plus d’informations et pour obtenir la solution à ce problème, consultez [réorganisation](reorganization.md). Étant donné que le schéma de Active Directory est extensible, vous pouvez modéliser vos objets de manière à inclure des relations de style gestionnaire-directe similaires.
+Vous vous demandez peut-être ce qui se passe si Thierry change de nom, passe à une autre organisation ou quitte l’entreprise. Qui gère-t-il ce lien de rapport direct ? Pour plus d’informations et pour obtenir la solution à ce problème, consultez [réorganisation](reorganization.md). Étant donné que le schéma de Active Directory est extensible, vous pouvez modéliser vos objets de manière à inclure des relations de style gestionnaire-directe similaires.
 
 Avant de passer à la tâche suivante, consultez un exemple de code qui montre comment Joe affichera les collaborateurs directs de Terry.
 
@@ -85,9 +85,9 @@ Le composant logiciel enfichable utilisateurs et ordinateurs Active Directory vo
 [Ajout d’utilisateurs à un groupe](adding-users-to-a-group.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

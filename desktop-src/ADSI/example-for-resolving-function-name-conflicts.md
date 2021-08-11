@@ -4,16 +4,16 @@ description: Cette rubrique explique comment résoudre les conflits de nom de fo
 ms.assetid: 8121f037-3845-44ba-a2cd-8d7f15e0beb2
 ms.tgt_platform: multiple
 keywords:
-- ADSI ADSI, exemple de code Visual Basic, résolution des conflits de noms de fonctions
+- adsi adsi, exemple de code Visual Basic, résolution des conflits de noms de fonctions
 - résolution des conflits de noms de fonction ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 049f9ce6447bf6d6ead783db3e34f74374333f10
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 2e6ce09251ba61b31768d973e258c568694067aff0420f0512a13913bb6fce90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179979"
 ---
 # <a name="example-for-resolving-function-name-conflicts"></a>Exemple de résolution des conflits de noms de fonctions
 
@@ -108,6 +108,6 @@ Par exemple, le DISPID de IMyInterface1 :: Y est 2 dans le fichier IMyInterface
 
 ADSI résout le premier problème en ne prenant pas en charge plusieurs interfaces avec des noms de fonctions ou de propriétés conflictuels. Il résout le deuxième problème en ajoutant un unique, qui se trouve dans le même objet d’extension, le numéro d’interface aux bits inutilisés du DISPID.
 
- 
+ 
 
- 
+ 

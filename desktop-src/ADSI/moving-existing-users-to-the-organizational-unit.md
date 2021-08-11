@@ -7,16 +7,16 @@ keywords:
 - Déplacement des utilisateurs existants vers la publicité d’unité d’organisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 535ff7110eaf956f108854e8442faa7386667346
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d26104feb5d4c8b6a1f24176ce23fcbb6ef6a965ca29c58887f02724b3ccba8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178953"
 ---
 # <a name="moving-existing-users-to-the-organizational-unit"></a>Déplacement des utilisateurs existants vers l’unité d’organisation
 
-Lorsque l’administrateur d’entreprise, Joe worden, met à niveau le domaine Windows NT 4,0 vers Active Directory, tous les utilisateurs et les groupes sont migrés vers les conteneurs utilisateurs dans le domaine fabrikam. Joe peut à présent déplacer ces utilisateurs et groupes vers les unités d’organisation appropriées. Un objet peut également être déplacé entre des domaines Windows 2000 associés à l’aide d’ADSI.
+Lorsque l’administrateur d’entreprise, Joe worden, met à niveau le domaine Windows NT 4,0 vers Active Directory, tous les utilisateurs et les groupes sont migrés vers les conteneurs utilisateurs dans le domaine fabrikam. Joe peut à présent déplacer ces utilisateurs et groupes vers les unités d’organisation appropriées. un objet peut également être déplacé entre les domaines Windows 2000 associés à l’aide d’ADSI.
 
 Dans l’exemple de code suivant, Joe déplace « JeffSmith » vers l’organisation Sales.
 
@@ -43,9 +43,9 @@ Set usr = salesOU.MoveHere("LDAP://CN=jeffsmith,CN=Users,DC=Fabrikam,DC=com", "C
 [Création de nouveaux utilisateurs dans l’unité d’organisation](creating-new-users-in-the-organizational-unit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

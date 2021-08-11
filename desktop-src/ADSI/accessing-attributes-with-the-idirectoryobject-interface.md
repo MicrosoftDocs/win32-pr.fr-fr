@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, à l’aide de, à l’aide de l’interface IDirectoryObject pour accéder aux attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da62b6a5cf7e1389276475c46faac6455672790
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1fb7f2b8302c2e92a7e604bdc85389fb78acb24a59e467ca42b8bbd3c6c004e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181538"
 ---
 # <a name="accessing-attributes-with-the-idirectoryobject-interface"></a>Accès aux attributs avec l’interface IDirectoryObject
 
@@ -29,7 +29,7 @@ L’ordre des valeurs d’attribut retournées n’est pas nécessairement le m�
 > [!Note]  
 > La [**structure \_ \_ info attr ADS**](/windows/desktop/api/Iads/ns-iads-ads_attr_info) ne retourne pas tous les attributs demandés. Seuls les attributs qui contiennent des valeurs font partie de la structure retournée.
 
- 
+ 
 
 Le nombre d’attributs retournés est déterminé par le paramètre *dwNumberAttributes* passé à la méthode [**IDirectoryObject :: GetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes) .
 
@@ -111,9 +111,9 @@ CoUninitialize();
 
 
 
- 
+ 
 
- 
+ 
 
 
 

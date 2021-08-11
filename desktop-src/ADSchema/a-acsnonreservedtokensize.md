@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90351a660cfbeafbcd468edb1e6eca8c589b5d72
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5975bf54205289a61cf50b992fe827cdd76510292ee21167785a06688c7326a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178432"
 ---
 # <a name="acs-non-reserved-token-size-attribute"></a>ACS-attribut de taille de jeton non réservé
 
@@ -36,7 +36,7 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1319              |
 | System-ID-GUID    | a916d7c9-3b90-11d2-90cc-00c04fd91ab1 |
-| Syntaxe            | [**Défini**](s-interval.md)       |
+| Syntaxe            | [**Intervalle**](s-interval.md)       |
 
 
 
@@ -45,7 +45,7 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -162,10 +162,10 @@ L’attribut **ACS-non-reserved-Token-Size** est destiné à un usage interne un
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

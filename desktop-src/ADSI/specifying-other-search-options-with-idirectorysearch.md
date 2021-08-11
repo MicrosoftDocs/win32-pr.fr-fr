@@ -8,12 +8,12 @@ keywords:
 - ADSI, recherche, IDirectorySearch, autres options de recherche
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7064a291c3a299a5435ec454a17b1a666f20d0a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67105d9716934c8c7d1d56193ca0cdfde5f6a4bc4c32605420513dc62700d8b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178764"
 ---
 # <a name="specifying-other-search-options-with-idirectorysearch"></a>Spécification d’autres options de recherche avec IDirectorySearch
 
@@ -31,9 +31,9 @@ L’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirector
 -   [Limite de temps du client avec IDirectorySearch](client-time-limit-with-idirectorysearch.md)
 -   [Retour uniquement des noms d’attributs avec IDirectorySearch](returning-only-attribute-names-with-idirectorysearch.md)
 
- 
+ 
 
- 
+ 
 
 
 

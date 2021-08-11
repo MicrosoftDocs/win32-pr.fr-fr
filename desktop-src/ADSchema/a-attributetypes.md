@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99f587f1704f7e2ea393279a8dbf0a20be10ef02
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8fc2e13bac48c208c08512b5fab2ae16523b92f763bfba18a1f474e3b7931350
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106544530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177947"
 ---
 # <a name="attribute-types-attribute"></a>Attribut Attribute-Types
 
@@ -46,7 +46,7 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,10 +58,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -79,10 +79,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -100,10 +100,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -121,10 +121,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -142,10 +142,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -163,10 +163,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |
@@ -184,10 +184,10 @@ Propriété à valeurs multiples qui contient des chaînes représentant chaque 
 |------------------------|---------------------------------------------|
 | ID de lien                | \-                                          |
 | MAPI-Id                | \-                                          |
-| System-Only            | Vrai                                        |
-| Est de valeur unique       | Faux                                       |
-| Est indexé             | Faux                                       |
-| Dans le catalogue global      | Faux                                       |
+| System-Only            | True                                        |
+| Est de valeur unique       | False                                       |
+| Est indexé             | False                                       |
+| Dans le catalogue global      | False                                       |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                |
 | Range-Lower            | \-                                          |
 | Range-Upper            | \-                                          |

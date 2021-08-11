@@ -7,12 +7,12 @@ keywords:
 - ADSI fournisseur LDAP, objet utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bcc05808f0942e95b3bf4e09251e04c6a256e9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc8115906656da4fa571fe0d27622a2d87c1aae443673fde6b95ecdca6b9672a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179358"
 ---
 # <a name="ldap-user-object"></a>Objet utilisateur LDAP
 
@@ -25,9 +25,9 @@ Les rubriques suivantes sont traitées pour l’objet utilisateur LDAP :
 
 En outre, l’objet utilisateur dans Active Directory contient beaucoup plus de propriétés que celles répertoriées dans la section [IADsUser](iadsuser-property-methods.md) . Étant donné que Active Directory schéma est extensible, les autres fournisseurs peuvent également ajouter des attributs supplémentaires à une classe.
 
- 
+ 
 
- 
+ 
 
 
 

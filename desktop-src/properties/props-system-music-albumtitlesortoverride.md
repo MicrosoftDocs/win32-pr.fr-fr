@@ -1,19 +1,19 @@
 ---
-description: Cette valeur de chaîne facultative permet de remplacer l’ordre de tri standard de System. Music. album. c’est très important pour le tri approprié des fichiers musicaux en japonais qui ne peuvent pas être correctement triés phonétiquement (ordre attendu par l’utilisateur) sans ce champ. Il peut également être utilisé pour personnaliser le tri dans les scénarios d’Extrême-Orient, par exemple pour permettre à l’utilisateur de supprimer des articles à des fins de tri.
+description: Cette valeur de chaîne facultative permet de remplacer l’ordre de tri standard du système. Musique. Album. c’est très important pour le tri approprié des fichiers musicaux en japonais qui ne peuvent pas être triés correctement phonétiquement (ordre attendu par l’utilisateur) sans ce champ. Il peut également être utilisé pour personnaliser le tri dans les scénarios d’Extrême-Orient, par exemple pour permettre à l’utilisateur de supprimer des articles à des fins de tri.
 ms.assetid: 4a47ac6f-2730-45b7-848e-6d680396f10b
-title: System. Music. AlbumTitleSortOverride
+title: Requise. Musique. AlbumTitleSortOverride
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3b71224a125138caf2c1cf2909427f0b43aad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b07311df961c2332efded24a03624422ee5c6b30d4c19ee236d74bdcb4eb2974
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230605"
 ---
-# <a name="systemmusicalbumtitlesortoverride"></a>System. Music. AlbumTitleSortOverride
+# <a name="systemmusicalbumtitlesortoverride"></a>Requise. Musique. AlbumTitleSortOverride
 
-Cette valeur de chaîne facultative permet de remplacer l’ordre de tri standard de System. Music. album. c’est très important pour le tri approprié des fichiers musicaux en japonais qui ne peuvent pas être correctement triés phonétiquement (ordre attendu par l’utilisateur) sans ce champ. Il peut également être utilisé pour personnaliser le tri dans les scénarios d’Extrême-Orient, par exemple pour permettre à l’utilisateur de supprimer des articles à des fins de tri.
+Cette valeur de chaîne facultative permet de remplacer l’ordre de tri standard du système. Musique. Album. c’est très important pour le tri approprié des fichiers musicaux en japonais qui ne peuvent pas être triés correctement phonétiquement (ordre attendu par l’utilisateur) sans ce champ. Il peut également être utilisé pour personnaliser le tri dans les scénarios d’Extrême-Orient, par exemple pour permettre à l’utilisateur de supprimer des articles à des fins de tri.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8
 

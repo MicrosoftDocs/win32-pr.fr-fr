@@ -10,12 +10,12 @@ keywords:
 - ADSI du fournisseur de services LDAP, mappage de la syntaxe ADSI à la syntaxe LDAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2272a0805ec32fd7ade9c4584feefb64fb1467f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e776c795df239c026cd47fe60042d0ccbd1ae79bee1397af1853f91d5d9aa1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179493"
 ---
 # <a name="ldap-syntax-object"></a>Objet de syntaxe LDAP
 
@@ -44,11 +44,11 @@ Le fournisseur LDAP utilise le mappage suivant entre la syntaxe LDAP et la synta
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 
