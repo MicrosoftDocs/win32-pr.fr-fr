@@ -1,22 +1,22 @@
 ---
-title: Partage de surface entre les API graphiques Windows
-description: Cette rubrique fournit une vue d’ensemble technique de l’interopérabilité à l’aide du partage de surface entre les API graphiques Windows, notamment Direct3D 11, Direct2D, DirectWrite, Direct3D 10 et Direct3D 9Ex.
+title: partage de Surface entre des api Windows graphics
+description: cette rubrique fournit une vue d’ensemble technique de l’interopérabilité à l’aide du partage de surface entre Windows api graphics, notamment direct3d 11, Direct2D, DirectWrite, direct3d 10 et direct3d 9ex.
 ms.assetid: 65abf33e-3d15-42ff-99bd-674f24da773e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1032cb1cf9b16280088f00e79e7e59bb7f1510b1
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 15a5d3e1b52691aeaee2373600dc247da679f0e452a6737741418e54df9490a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290219"
 ---
-# <a name="surface-sharing-between-windows-graphics-apis"></a>Partage de surface entre les API graphiques Windows
+# <a name="surface-sharing-between-windows-graphics-apis"></a>partage de Surface entre des api Windows graphics
 
-Cette rubrique fournit une vue d’ensemble technique de l’interopérabilité à l’aide du partage de surface entre les API graphiques Windows, notamment Direct3D 11, Direct2D, DirectWrite, Direct3D 10 et Direct3D 9Ex. Si vous avez déjà une connaissance de ces API, ce document peut vous aider à utiliser plusieurs API pour effectuer un rendu sur la même surface dans une application conçue pour les systèmes d’exploitation Windows 7 ou Windows Vista. Cette rubrique présente également les meilleures pratiques et les pointeurs vers des ressources supplémentaires.
+cette rubrique fournit une vue d’ensemble technique de l’interopérabilité à l’aide du partage de surface entre Windows api graphics, notamment direct3d 11, Direct2D, DirectWrite, direct3d 10 et direct3d 9ex. si vous avez déjà une connaissance de ces api, ce document peut vous aider à utiliser plusieurs api pour effectuer un rendu sur la même surface dans une application conçue pour les systèmes d’exploitation Windows 7 ou Windows Vista. Cette rubrique présente également les meilleures pratiques et les pointeurs vers des ressources supplémentaires.
 
 > [!Note]  
-> Pour l’interopérabilité de Direct2D et DirectWrite sur le runtime DirectX 11,1, vous pouvez utiliser des [appareils Direct2D et des contextes de périphérique](/windows/desktop/Direct2D/devices-and-device-contexts) pour effectuer un rendu direct sur les périphériques Direct3D 11.
+> pour l’interopérabilité de Direct2D et DirectWrite sur le runtime DirectX 11,1, vous pouvez utiliser des [appareils Direct2D et des contextes de périphérique](/windows/desktop/Direct2D/devices-and-device-contexts) pour effectuer un rendu direct sur des appareils Direct3D 11.
 
  
 
@@ -32,13 +32,13 @@ Cette rubrique contient les sections suivantes.
 
 ## <a name="introduction"></a>Introduction
 
-Dans ce document, l’interopérabilité des API Windows Graphics fait référence au partage de la même surface de rendu par différentes API. Ce type d’interopérabilité permet aux applications de créer des affichages attrayants en tirant parti de plusieurs API graphiques Windows et de faciliter la migration vers de nouvelles technologies en conservant la compatibilité avec les API existantes.
+dans ce document, Windows l’interopérabilité des api graphics fait référence au partage de la même surface de rendu par différentes api. ce type d’interopérabilité permet aux applications de créer des affichages attrayants en tirant parti de plusieurs api Windows graphics, et de faciliter la migration vers de nouvelles technologies en conservant la compatibilité avec les api existantes.
 
-Dans Windows 7 (et Windows Vista SP2 avec Windows 7 Interop Pack, Vista 7IP), les API de rendu graphiques sont Direct3D 11, Direct2D, Direct3D 10,1, Direct3D 10,0, Direct3D 9Ex, Direct3D 9c et les API Direct3D antérieures, ainsi que GDI et GDI+. WIC (Windows Imaging Component) et DirectWrite sont des technologies associées au traitement des images, et Direct2D effectue le rendu du texte. L’API d’accélération vidéo DirectX (DXVA), basée sur Direct3D 9c et Direct3D 9Ex, est utilisée pour le traitement vidéo.
+dans Windows 7 (et Windows vista SP2 avec Windows 7 Interop Pack, Vista 7IP), les api de rendu graphiques sont Direct3D 11, Direct2D, direct3d 10,1, direct3d 10,0, direct3d 9ex, direct3d 9c et les api direct3d antérieures, ainsi que GDI et GDI+. Windows le composant de création d’images (WIC) et les DirectWrite sont des technologies associées au traitement des images, et Direct2D effectue le rendu du texte. L’API d’accélération vidéo DirectX (DXVA), basée sur Direct3D 9c et Direct3D 9Ex, est utilisée pour le traitement vidéo.
 
-À mesure que les API graphiques Windows évoluent vers la base Direct3D, Microsoft investit plus d’efforts pour garantir l’interopérabilité entre les API. Les API Direct3D récemment développées et les API de niveau supérieur basées sur les API Direct3D prennent également en charge les cas nécessaires pour assurer la compatibilité avec les anciennes API. Pour illustrer cela, les applications Direct2D peuvent utiliser Direct3D 10,1 en partageant un appareil Direct3D 10,1. En outre, les API Direct3D 11, Direct2D et Direct3D 10,1 peuvent tous tirer parti de DirectX Graphics infrastructure (DXGI) 1,1, qui permet des surfaces partagées synchronisées qui prennent entièrement en charge l’interopérabilité entre ces API. Les API DXGI 1,1 interagissent avec GDI et avec GDI+ par Association, en obtenant le contexte de périphérique GDI à partir d’une surface DXGI 1,1. Pour plus d’informations, consultez la documentation relative à l’interopérabilité DXGI et GDI disponible sur MSDN.
+étant donné que Windows api graphics évoluent vers une interface Direct3D, Microsoft investit plus d’efforts pour garantir l’interopérabilité entre les api. Les API Direct3D récemment développées et les API de niveau supérieur basées sur les API Direct3D prennent également en charge les cas nécessaires pour assurer la compatibilité avec les anciennes API. Pour illustrer cela, les applications Direct2D peuvent utiliser Direct3D 10,1 en partageant un appareil Direct3D 10,1. En outre, les API Direct3D 11, Direct2D et Direct3D 10,1 peuvent tous tirer parti de DirectX Graphics infrastructure (DXGI) 1,1, qui permet des surfaces partagées synchronisées qui prennent entièrement en charge l’interopérabilité entre ces API. les api basées sur DXGI 1,1 interagissent avec GDI et, avec GDI+ par association, en obtenant le contexte de périphérique gdi à partir d’une surface DXGI 1,1. Pour plus d’informations, consultez la documentation relative à l’interopérabilité DXGI et GDI disponible sur MSDN.
 
-Le partage de surface non synchronisé est pris en charge par le runtime Direct3D 9Ex. Les applications vidéo DXVA peuvent utiliser l’application auxiliaire Direct3D 9Ex et DXGI Interoperability pour l’interopérabilité DXVA basée sur Direct3D 9Ex avec Direct3D 11 pour le nuanceur de calcul, ou peuvent interagir avec Direct2D pour les contrôles 2D ou le rendu de texte. WIC et DirectWrite interagissent également avec GDI, Direct2D et par Association, d’autres API Direct3D.
+Le partage de surface non synchronisé est pris en charge par le runtime Direct3D 9Ex. Les applications vidéo DXVA peuvent utiliser l’application auxiliaire Direct3D 9Ex et DXGI Interoperability pour l’interopérabilité DXVA basée sur Direct3D 9Ex avec Direct3D 11 pour le nuanceur de calcul, ou peuvent interagir avec Direct2D pour les contrôles 2D ou le rendu de texte. WIC et DirectWrite interagissent également avec GDI, Direct2D et par association, d’autres api Direct3D.
 
 Direct3D 10,0, Direct3D 9c et les runtimes Direct3D plus anciens ne prennent pas en charge les surfaces partagées. Les copies de mémoire système seront toujours utilisées pour l’interopérabilité avec les API GDI ou DXGI.
 
@@ -46,19 +46,19 @@ Notez que les scénarios d’interopérabilité dans ce document font référenc
 
 ## <a name="api-interoperability-overview"></a>Vue d’ensemble de l’interopérabilité des API
 
-L’interopérabilité du partage de surface des API graphiques Windows peut être décrite en termes de scénarios API-API et de fonctionnalités d’interopérabilité correspondantes. À compter de Windows 7 et de Windows Vista SP2 avec 7IP, les nouvelles API et les runtimes associés incluent Direct2D et les technologies associées : Direct3D 11 et DXGI 1,1. Les performances GDI ont également été améliorées dans Windows 7. Direct3D 10,1 a été introduit dans Windows Vista SP1. Le diagramme suivant illustre la prise en charge de l’interopérabilité entre les API.
+l’interopérabilité du partage de Surface des api Windows graphics peut être décrite en termes de scénarios api-api et de fonctionnalités d’interopérabilité correspondantes. depuis Windows 7 et à partir de Windows Vista SP2 avec 7IP, les nouvelles api et les runtimes associés incluent Direct2D et les technologies associées : Direct3D 11 et DXGI 1,1. les performances GDI ont également été améliorées dans Windows 7. Direct3D 10,1 a été introduit dans Windows Vista SP1. Le diagramme suivant illustre la prise en charge de l’interopérabilité entre les API.
 
 ![diagramme de prise en charge de l’interopérabilité entre les API graphiques Windows](images/surface-sharing-interoperability.png)
 
-Dans ce diagramme, les flèches indiquent les scénarios d’interopérabilité dans lesquels la même surface peut être accessible par les API connectées. Les flèches bleues indiquent les mécanismes d’interopérabilité introduits dans Windows Vista. Les flèches vertes indiquent la prise en charge de l’interopérabilité pour les nouvelles API ou les améliorations qui aident les API plus anciennes à interagir avec les API plus récentes. Par exemple, les flèches vertes représentent le partage d’appareil, la prise en charge de la surface partagée, la prise en charge de la synchronisation Direct3D 9Ex/DXGI et l’obtention d’un contexte de périphérique GDI à partir d’une surface compatible.
+Dans ce diagramme, les flèches indiquent les scénarios d’interopérabilité dans lesquels la même surface peut être accessible par les API connectées. les flèches bleues indiquent les mécanismes d’interopérabilité introduits dans Windows Vista. Les flèches vertes indiquent la prise en charge de l’interopérabilité pour les nouvelles API ou les améliorations qui aident les API plus anciennes à interagir avec les API plus récentes. Par exemple, les flèches vertes représentent le partage d’appareil, la prise en charge de la surface partagée, la prise en charge de la synchronisation Direct3D 9Ex/DXGI et l’obtention d’un contexte de périphérique GDI à partir d’une surface compatible.
 
 ## <a name="interoperability-scenarios"></a>Scénarios d’interopérabilité
 
-À compter de Windows 7 et Windows Vista 7IP, les offres standard des API graphiques Windows prennent en charge plusieurs API de rendu sur la même surface DXGI 1,1.
+à partir de Windows 7 et Windows Vista 7IP, les offres standard de Windows api graphics prennent en charge le rendu de plusieurs api sur la même surface DXGI 1,1.
 
 **Direct3D 11, Direct3D 10,1, Direct2D : interopérabilité les unes avec les autres**
 
-Les API Direct3D 11, Direct3D 10,1 et Direct2D (et les API associées telles que DirectWrite et WIC) peuvent interagir entre elles à l’aide des surfaces partagées de partage d’appareil ou de partage Direct3D 10,1.
+les api direct3d 11, direct3d 10,1 et Direct2D (et les api associées telles que DirectWrite et WIC) peuvent interagir entre elles à l’aide de la fonction de partage d’appareil direct3d 10,1 ou de surfaces partagées synchronisées.
 
 ### <a name="direct3d-101-device-sharing-with-direct2d"></a>Partage d’appareils Direct3D 10,1 avec Direct2D
 
@@ -396,7 +396,7 @@ HRESULT CreateSurfaceQueue(
 
  *pDesc* \[ dans \]  la description de la file d’attente de surface partagée à créer.  
 
- *pDevice* \[ dans \]  l’appareil qui doit être utilisé pour créer les surfaces partagées. Il s’agit d’un paramètre explicite en raison d’une fonctionnalité de Windows Vista. Pour les surfaces partagées entre Direct3D 9 et Direct3D 10, les surfaces doivent être créées avec Direct3D 9.  
+ *pDevice* \[ dans \]  l’appareil qui doit être utilisé pour créer les surfaces partagées. il s’agit d’un paramètre explicite en raison d’une fonctionnalité de Windows Vista. Pour les surfaces partagées entre Direct3D 9 et Direct3D 10, les surfaces doivent être créées avec Direct3D 9.  
 
  *ppQueue* \[ out au \]  retour, contient un pointeur vers l’objet ISurfaceQueue.  
 
@@ -540,7 +540,7 @@ Cette fonction peut retourner \_ un délai d’attente si une valeur de délai d
 
 **Remarques**
 
-Cette API peut se bloquer si la file d’attente est vide. Le paramètre *dwTimeout* fonctionne de la même façon que les API de synchronisation Windows, telles que WaitForSingleObject. Pour un comportement non bloquant, utilisez un délai d’expiration de 0.  
+Cette API peut se bloquer si la file d’attente est vide. le paramètre *dwTimeout* fonctionne de la même façon que les api de synchronisation Windows, telles que WaitForSingleObject. Pour un comportement non bloquant, utilisez un délai d’expiration de 0.  
 </dl>
 
 ### <a name="isurfaceproducer"></a>ISurfaceProducer
@@ -602,7 +602,7 @@ HRESULT Flush(
 
 
 **Paramètres**  
-*Flags* \[in\]  
+*Indicateurs* \[ dans\]  
 Le seul indicateur est l' \_ indicateur de file d’attente de surface n’est pas en attente \_ \_ \_ \_ . Consultez la section Notes. *nSurfaces* \[ out \] retourne le nombre de surfaces toujours en attente et non vidées.  
 </dl>
 
@@ -884,7 +884,7 @@ m_p11to9Queue->OpenConsumer(m_pD3D9Device, &m_pD3D9Consumer);
 
 ## <a name="conclusion"></a>Conclusion
 
-Vous pouvez créer des solutions qui utilisent l’interopérabilité pour utiliser la puissance de plusieurs API DirectX. L’interopérabilité de l’API Windows Graphics offre désormais un Common surface Management Runtime DXGI 1,1. Ce Runtime active la prise en charge de partage de surface synchronisé dans les API récemment développées, telles que Direct3D 11, Direct3D 10,1 et Direct2D. Les améliorations de l’interopérabilité entre les nouvelles API et les API existantes contribuent à la migration des applications et à la compatibilité descendante. Les API de consommateur Direct3D 9Ex et DXGI 1,1 peuvent interagir, comme le montre le mécanisme de synchronisation fourni via l’exemple de code d’assistance sur MSDN Code Gallery.
+Vous pouvez créer des solutions qui utilisent l’interopérabilité pour utiliser la puissance de plusieurs API DirectX. Windows l’interopérabilité des API graphics offre désormais un common surface management runtime DXGI 1,1. Ce Runtime active la prise en charge de partage de surface synchronisé dans les API récemment développées, telles que Direct3D 11, Direct3D 10,1 et Direct2D. Les améliorations de l’interopérabilité entre les nouvelles API et les API existantes contribuent à la migration des applications et à la compatibilité descendante. Les API de consommateur Direct3D 9Ex et DXGI 1,1 peuvent interagir, comme le montre le mécanisme de synchronisation fourni via l’exemple de code d’assistance sur MSDN Code Gallery.
 
  
 

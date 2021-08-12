@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 32bc213aa67e87eb8af0643a15f16b298cfb3204
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 082519cc70782150b7e3f43ffd0849a8606b2e0c9bb3d1a62b4a8843734ebd4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104211549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273188"
 ---
 # <a name="performservervalidation-peapextensionstype-element-v2-schema"></a>PerformServerValidation (PeapExtensionsType), élément (schéma v2)
 
@@ -41,10 +41,10 @@ L’élément **PerformServerValidation** est facultatif.
 
 
 
-| Role | Version minimale du système d’exploitation |
+| Rôle | Version minimale du système d’exploitation |
 |------|--------------------|
-| Client<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

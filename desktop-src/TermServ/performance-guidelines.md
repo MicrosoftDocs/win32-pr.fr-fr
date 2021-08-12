@@ -5,12 +5,12 @@ ms.assetid: 50f0c1f6-8046-4ceb-b2c4-6fc1ae86fd73
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea7ada6ee2b51943d47f39446d0b1bb3b7d6718
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 97a8211f12e4a89c5dfb309bb4e3c0f998159738b46185aeb5dcee7a5cd29f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118605311"
 ---
 # <a name="performance-guidelines"></a>Recommandations sur les performances
 
@@ -52,9 +52,9 @@ Vérifiez les fuites de mémoire de votre application et résolvez les problème
 
 Les animations, les grandes images, l’audio et d’autres services gourmands en bande passante doivent être configurables. Lorsque ces services ne sont pas la fonction principale, ils peuvent être désactivés par défaut pour les sessions à distance, mais activés lorsqu’une session s’exécute localement ou sur une connexion à bande passante élevée. Si l’objectif d’une application est de fournir des services à bande passante élevée, tels que des diffusions vidéo en continu, il n’est pas nécessaire que le service soit désactivé par défaut.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ keywords:
 - attributs ADSI, mappage Active Directory syntaxe à la syntaxe ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6ba332a39a5d2452925f1a8f1cc8c8ca766ca10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d04682a1e299e14c55c520310bff697ea6664d4dabe71380f7a146fd2dfff053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179277"
 ---
 # <a name="mapping-active-directory-syntax-to-adsi-syntax"></a>Mappage de Active Directory syntaxe à la syntaxe ADSI
 

@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9530be7334e1f3fefa7f73007334e448362a95ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c14f4a002a0b33e403c02dba74385edd21e211fb27bcfb144c7a9ddc080a40fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606102"
 ---
 # <a name="irdvtaskplugininitialize-method"></a>IRDVTaskPlugin :: Initialize, méthode
 
@@ -45,9 +45,9 @@ HRESULT Initialize(
 *pNotifySink* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md) \** _
+Type : **[ **IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)\***
 
-Pointeur vers une interface [_ *IRDVTaskPluginNotifySink* *](irdvtaskpluginnotifysink.md) que l’agent de tâche utilise pour communiquer avec l’agent déclencheur. Vous devez libérer cette interface lorsqu’elle n’est plus nécessaire.
+Pointeur vers une interface [**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md) que l’agent de tâche utilise pour communiquer avec l’agent déclencheur. Vous devez libérer cette interface lorsqu’elle n’est plus nécessaire.
 
 </dd> </dl>
 
@@ -63,7 +63,7 @@ Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle r
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------|
-| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
+| Client minimal pris en charge<br/> | Windows 7 Entreprise<br/>   |
 | Serveur minimal pris en charge<br/> | Windows Server 2008 R2<br/> |
 
 

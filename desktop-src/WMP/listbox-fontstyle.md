@@ -3,7 +3,7 @@ title: LISTBOX. fontStyle
 description: L’attribut fontStyle spécifie ou récupère le style de police pour le contrôle de zone de liste.
 ms.assetid: c42b80b6-0dea-4080-a06e-931fdc02fa55
 keywords:
-- LISTBOX. fontStyle lecteur Windows Media
+- LISTBOX. fontStyle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0903ac77f1fa4307dfcabad6311eb556617d8153
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 258064ca4ee97fc33bb98bf64d8e3dcf305c5d7e045282a5218a060e904aff50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106527304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575036"
 ---
 # <a name="listboxfontstyle"></a>LISTBOX. fontStyle
 

@@ -3,7 +3,7 @@ title: Authentification des messages
 description: Authentification des messages
 ms.assetid: 6cb49f6b-e303-4840-9343-9891e75e07a4
 keywords:
-- Gestionnaire de périphériques Windows Media, authentification des messages
+- Windows Gestionnaire de périphériques de média, authentification des messages
 - Gestionnaire de périphériques, authentification des messages
 - applications de bureau, authentification des messages
 - fournisseurs de services, authentification des messages
@@ -13,22 +13,22 @@ keywords:
 - MAC (code d’authentification de message)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14805e2074509e918902aae9eb9e9680ca52a6d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2921b80d42207bab608c6a8260e6756d3e9f323eab70742acc787ff731ad4b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584483"
 ---
 # <a name="message-authentication"></a>Authentification des messages
 
-L’authentification de message est un processus qui permet aux applications et aux fournisseurs de services de vérifier que les données transmises entre elles n’ont pas été falsifiées. Windows Media Gestionnaire de périphériques permet aux applications et aux fournisseurs de services d’effectuer l’authentification des messages à l’aide de codes d’authentification de message (MACs). Voici comment fonctionne l’authentification MAC :
+L’authentification de message est un processus qui permet aux applications et aux fournisseurs de services de vérifier que les données transmises entre elles n’ont pas été falsifiées. Windows Le Gestionnaire de périphériques de média permet aux applications et aux fournisseurs de services d’effectuer l’authentification des messages à l’aide de codes d’authentification de message (MACs). Voici comment fonctionne l’authentification MAC :
 
 L’expéditeur de données, généralement le fournisseur de services, passe un ou plusieurs éléments de données par le biais d’une fonction de chiffrement unidirectionnelle qui produit une signature unique, le MAC, pour toutes les données. L’expéditeur envoie ensuite tous les éléments signés de données avec le MAC au récepteur (généralement l’application). Le destinataire transmet les données via la même fonction de chiffrement pour générer un MAC et le compare au MAC qui a été envoyé. Si le MAC correspond, les données n’ont pas été modifiées.
 
 Pour effectuer l’authentification MAC, l’application ou le fournisseur de services requiert une clé de chiffrement et un certificat correspondant. Pour plus d’informations sur l’emplacement à utiliser, consultez [outils de développement](tools-for-development.md).
 
-Les étapes suivantes décrivent la manière dont les données sont signées par l’expéditeur et sont ensuite contrôlées par le destinataire. Dans Windows Media Gestionnaire de périphériques, le fournisseur de services utilise la classe [CSecureChannelServer](csecurechannelserver-class.md) pour générer des Mac, et l’application utilise la classe [CSecureChannelClient](csecurechannelclient-class.md) . Les deux classes fournissent des fonctions identiques avec des paramètres identiques, donc les étapes suivantes s’appliquent aux deux classes.
+Les étapes suivantes décrivent la manière dont les données sont signées par l’expéditeur et sont ensuite contrôlées par le destinataire. dans Windows Gestionnaire de périphériques de média, le fournisseur de services utilise la classe [CSecureChannelServer](csecurechannelserver-class.md) pour générer des mac, et l’application utilise la classe [CSecureChannelClient](csecurechannelclient-class.md) . Les deux classes fournissent des fonctions identiques avec des paramètres identiques, donc les étapes suivantes s’appliquent aux deux classes.
 
 L’expéditeur (en général, le fournisseur de services) :
 
@@ -159,9 +159,9 @@ if (hr == S_OK)
 [**Utilisation de canaux authentifiés sécurisés**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 216886DB-B206-4944-925A-C2106331F1CB
 title: Attribut MF_CAPTURE_ENGINE_RECORD_SINK_AUDIO_MAX_PROCESSED_SAMPLES (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d1ce4d649c75106545eb2ff39d4f3ea742e6a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b4478ebecfc873c612e8deb0106cba5462e77cd56d5d818b03d74e88679c8b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245037"
 ---
 # <a name="mf_capture_engine_record_sink_audio_max_processed_samples-attribute"></a>\_Attribut des \_ \_ exemples de \_ \_ données audio \_ Max \_ processed du \_ récepteur d’enregistrements du moteur de capture MF
 
@@ -31,8 +31,8 @@ La valeur maximale de cet attribut est 100.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                   |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 

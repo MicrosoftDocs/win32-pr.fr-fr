@@ -7,17 +7,17 @@ keywords:
 - DirectComposition concepts de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0550dc12cb0dcc5262701658d8e3883ee1ce8d82
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 4c2dadcea55ec18089380d7dbe17d99e5dba92b06dd15774c43cd604f28f991c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104561384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118282031"
 ---
 # <a name="basic-concepts"></a>Concepts de base
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique fournit une vue d’ensemble des concepts de base de Microsoft DirectComposition. Il contient les sections suivantes :
 
@@ -190,7 +190,7 @@ Vous pouvez valider plusieurs modifications dans le même visuel, ou plusieurs m
 -   Pour la propriété Transform, vous pouvez utiliser [**IDCompositionDevice :: CreateTransformGroup**](/windows/win32/api/dcomp/nf-dcomp-idcompositiondevice-createtransformgroup) pour créer un groupe de transformations à appliquer simultanément à un visuel. DirectComposition applique les transformations dans l’ordre que vous spécifiez.
 -   Pour la propriété Effect, vous pouvez utiliser [**IDCompositionEffectGroup**](/windows/win32/api/dcomp/nn-dcomp-idcompositioneffectgroup) pour appliquer un groupe d’effets. DirectComposition applique les effets dans l’ordre que vous spécifiez. En outre, les transformations de perspective 3D entraînent l’aplatissement de l’arborescence d’éléments visuels après que toutes les transformations 3D de l’objet visuel en cours ont été appliquées. Cela permet de s’assurer que le visuel obtenu semble le plus proche possible de la 3D.
 
-### <a name="synchronization"></a>Synchronization
+### <a name="synchronization"></a>Synchronisation
 
 Votre application peut appeler DirectComposition à partir de plusieurs threads en même temps. L’ordre d’exécution est garanti pour les appels séquentiels, mais pas pour les appels simultanés. Par exemple, si le thread A modifie un visuel et que le thread B valide le lot en même temps, il n’est pas défini si cette modification visuelle est incluse dans le lot validé ou si elle démarre un nouveau lot. En revanche, si votre application utilise d’autres mécanismes de synchronisation pour s’assurer qu’une méthode est appelée avant l’autre, DirectComposition honore l’ordre d’appel et les traite comme si les deux appels étaient émis dans cet ordre à partir d’un thread unique.
 
@@ -229,6 +229,6 @@ En règle générale, le thread d’interface utilisateur modifie uniquement les
 [Concepts DirectComposition](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

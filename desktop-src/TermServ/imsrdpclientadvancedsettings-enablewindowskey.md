@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings propriété EnableWindowsKey
-description: Spécifie si la clé Windows peut être utilisée dans la session à distance.
+description: spécifie si la clé de Windows peut être utilisée dans la session à distance.
 ms.assetid: fcf0460d-3cd1-4da4-8009-0b1256adf312
 ms.tgt_platform: multiple
 keywords:
@@ -54,16 +54,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e31571e44d6b391250c32268750b25a76105eb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16c639ee9bb31a5ef0092ec6a2aef8c0235639896a6d6934d8dc9cbadc42f40e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608599"
 ---
 # <a name="imsrdpclientadvancedsettingsenablewindowskey-property"></a>IMsRdpClientAdvancedSettings :: EnableWindowsKey, propriété
 
-Spécifie si la clé Windows peut être utilisée dans la session à distance.
+spécifie si la clé de Windows peut être utilisée dans la session à distance.
 
 Cette propriété est en lecture/écriture.
 
@@ -90,7 +90,7 @@ Affectez à ce paramètre la valeur 0 pour désactiver la fonctionnalité ou une
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

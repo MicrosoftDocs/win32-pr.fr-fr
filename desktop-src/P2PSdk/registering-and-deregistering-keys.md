@@ -4,12 +4,12 @@ ms.assetid: 90fd8df0-e2a8-4183-a50c-e6f8ea5041cc
 title: Inscription et annulation de l’inscription des clés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 009ee41e85027ff8eba3f6869359a9ba304f4242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d586fc2bf399a30b8a962611a21a4e0994d88f4513453c071b110de1d4142b92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106532137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612162"
 ---
 # <a name="registering-and-deregistering-keys"></a>Inscription et annulation de l’inscription des clés
 

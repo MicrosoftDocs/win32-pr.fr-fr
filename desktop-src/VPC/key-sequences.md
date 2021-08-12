@@ -3,19 +3,19 @@ title: Séquences de touches
 description: Une chaîne de séquence clé est un ensemble d’identificateurs de clé délimités par des virgules, qui sont utilisés pour simuler l’appui sur la touche et la séquence de mise en version d’un clavier standard de style « 101 ».
 ms.assetid: 6f5301d1-af6e-4b43-8884-c76b2300ba92
 keywords:
-- PC virtuels Windows Virtual PC, séquences de touches
+- Windows PC virtuels Virtual PC, séquences de touches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b0c973b5aafd3bf02746ac1550ffedf3d4a4c1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3b300c1d417bad30f7a0e06fd8cfb411184eb8f6b800549536c9b6452dcdfefa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591444"
 ---
 # <a name="key-sequences"></a>Séquences de touches
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Une chaîne de séquence clé est un ensemble d’identificateurs de clé délimités par des virgules, qui sont utilisés pour simuler l’appui sur la touche et la séquence de mise en version d’un clavier standard de style « 101 ».
 
@@ -120,11 +120,11 @@ La liste suivante détaille les chaînes d’identificateur de clé valides.
 | Pavé numérique \_ 3             | touche **3** du pavé numérique     |
 | Entrée du pavé numérique \_         | touche **entrée** du pavé numérique |
 | \_LeftCtrl clé         | touche **CTRL de gauche**           |
-| \_LeftWindows clé      | touche **Windows de gauche**        |
+| \_LeftWindows clé      | touche **Windows gauche**        |
 | \_LeftAlt clé          | touche **ALT de gauche**            |
 | \_Espace clé            | la touche **espace**               |
 | \_RightAlt clé         | touche **ALT de droite**           |
-| \_RightWindows clé     | touche **Windows de droite**       |
+| \_RightWindows clé     | touche de **Windows droite**       |
 | \_RightCtrl clé        | touche **CTRL de droite**          |
 | \_Application clé      | clé d' **application**         |
 | Touche \_ gauche             | la touche **gauche**                |
@@ -135,7 +135,7 @@ La liste suivante détaille les chaînes d’identificateur de clé valides.
 
 
 
- 
+ 
 
 ## <a name="key-modifiers"></a>Modificateurs de clé
 
@@ -149,7 +149,7 @@ La liste suivante répertorie les chaînes de modificateur de clé valides.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -158,6 +158,6 @@ La liste suivante répertorie les chaînes de modificateur de clé valides.
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

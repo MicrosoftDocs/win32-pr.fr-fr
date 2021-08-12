@@ -4,12 +4,12 @@ description: Détermine si cet objet adaptateur DXCore et le système d’exploi
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: b960d96515d4aee85520a6def70a8f0e9349e131
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ddee6bea5af8fb64dfa2bfc15392e92239e7326b34cbd93cbd112559a6027912
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106538598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279230"
 ---
 # <a name="idxcoreadapterispropertysupported-method"></a>IDXCoreAdapter :: IsPropertySupported, méthode
 
@@ -34,7 +34,7 @@ Type de propriété pour lequel vous effectuez une requête sur la prise en char
 
 Type : **bool**
 
-Retourne  `true`   si cet objet adaptateur dxcore et le système d’exploitation actuel prennent en charge la propriété de l’adaptateur spécifiée. Sinon, retourne  `false` .
+Retourne `true` si cet objet adaptateur dxcore et le système d’exploitation actuel prennent en charge la propriété de l’adaptateur spécifiée. Sinon, retourne `false`.
 
 ## <a name="see-also"></a>Voir aussi
 

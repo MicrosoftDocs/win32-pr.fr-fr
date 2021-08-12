@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa34ea0c9c38cd0b11f97a0bbf651f1aebf37a46
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c10e8c7b0a26ce2ca1e602478a64a888a1ad6b299f8ab7965303832bba7a3fc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106539319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604431"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih---terminalservice"></a>Méthode change de la classe Win32_Service (Mbnapi. h)-TerminalService
 
@@ -167,7 +167,7 @@ Gravité de l’erreur si ce service ne parvient pas à démarrer au démarrage.
 *StartMode* \[ dans\]
 </dt> <dd>
 
-Mode de démarrage du service de base Windows. Pour plus d'informations, consultez la section Notes.
+mode de démarrage du service de base Windows. Pour plus d'informations, consultez la section Notes.
 
 <dt>
 
@@ -460,7 +460,7 @@ Le service est actuellement mis en pause dans le système.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’un ordinateur démarre, tous les services de démarrage automatique démarrent également. Il peut arriver que l’un de ces services ne puisse pas démarrer avec l’ordinateur. Lorsqu’un service échoue pendant le démarrage du système, l’ordinateur effectue une action en fonction de la valeur du code de contrôle d’erreur du service.
 

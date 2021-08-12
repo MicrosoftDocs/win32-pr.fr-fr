@@ -3,7 +3,7 @@ title: Élément Description
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | Description, élément
 ms.assetid: 4d9ff447-e5a4-46b1-b599-87202077abfb
 keywords:
-- Élément de description du lecteur Windows Media
+- élément Description Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4318a7936f4713d3ff89a2fa73731eea0cdd97db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78c3601abaf2a039b49318772eba1ed6e95d2aed06e2a91c72aabdadc3ffebd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579599"
 ---
 # <a name="description-element"></a>Élément Description
 
@@ -27,7 +27,7 @@ ms.locfileid: "106523934"
 
  
 
-L’élément **Description** spécifie une description marketing de la boutique en ligne qui s’affiche pendant la première expérience de l’utilisateur avec une installation du lecteur Windows Media.
+l’élément **description** spécifie une description marketing de la boutique en ligne qui s’affiche pendant la première expérience de l’utilisateur avec une installation de Lecteur Windows Media.
 
 ``` syntax
 <Description>

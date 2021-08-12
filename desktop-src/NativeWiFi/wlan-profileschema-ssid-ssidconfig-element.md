@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 644a4afbd10fbfff870007befda964fc9babd593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d58ed866e79269e604fe49ad8afe65d557f27a90d0be03904b8d27da5ac5c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619056"
 ---
 # <a name="ssid-ssidconfig-element"></a>Élément SSID (SSIDConfig)
 
 L’élément SSID (SSIDConfig) contient un SSID pour un réseau local sans fil.
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Au plus un élément **SSID** peut apparaître dans un profil.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Au plus un élément **SSID** peut apparaître dans un profil.
 
 ``` syntax
 <xs:element name="SSID"
@@ -82,12 +82,12 @@ L’élément **SSID** est défini par l’élément [**SSIDConfig**](wlan-profi
 
 | Élément                                              | Type | Description                                                           |
 |------------------------------------------------------|------|-----------------------------------------------------------------------|
-| [**hex**](wlan-profileschema-hex-ssid-element.md)   |      | Contient le SSID d’un réseau local sans fil au format hexadécimal.<br/> |
+| [**séquence**](wlan-profileschema-hex-ssid-element.md)   |      | Contient le SSID d’un réseau local sans fil au format hexadécimal.<br/> |
 | [**nomme**](wlan-profileschema-name-ssid-element.md) |      | Contient le SSID d’un réseau local sans fil.<br/>                      |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que les éléments [**Hex**](wlan-profileschema-hex-ssid-element.md) et [**Name**](wlan-profileschema-name-ssid-element.md) soient facultatifs, au moins un élément **Hex** ou [**Name**](wlan-profileschema-name-ssid-element.md) doit apparaître en tant qu’enfant de l’élément **SSID** .
 
@@ -106,7 +106,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **SSID** , con
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

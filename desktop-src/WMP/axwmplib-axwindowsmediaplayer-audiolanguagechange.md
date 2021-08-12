@@ -3,7 +3,7 @@ title: Événement AudioLanguageChange de l’objet AxWindowsMediaPlayer
 description: L’événement AudioLanguageChange se produit lorsque le langage audio actuel change. | Événement AudioLanguageChange de l’objet AxWindowsMediaPlayer
 ms.assetid: 35e4ff82-fc59-4d28-b7fc-1527fb46b960
 keywords:
-- Événement AudioLanguageChange de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement AudioLanguageChange de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 354a34f30df237827e3d369721963ec2c1797e71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a40538dad18c4cb6767a034ab5d163f16d1822d9149e15c07ca1130f5eb17f30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582724"
 ---
 # <a name="audiolanguagechange-event-of-the-axwindowsmediaplayer-object"></a>Événement AudioLanguageChange de l’objet AxWindowsMediaPlayer
 
@@ -73,7 +73,7 @@ Un identificateur de paramètres régionaux (LCID) identifie de manière unique 
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPControls3. currentAudioLanguage (VB et C#)**](wmplibiwmpcontrols3-iwmpcontrols3-currentaudiolanguage--vb-and-c.md)

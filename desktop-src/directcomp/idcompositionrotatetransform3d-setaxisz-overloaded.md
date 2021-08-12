@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 386ce53ea59023448b66c0baab4e46125e507427
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6b8891df5e0b9feae51b393f4b3d3746af3e78a1525d758c1c1cb85fcc22d54a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281580"
 ---
 # <a name="idcompositionrotatetransform3dsetaxisz-methods"></a>IDCompositionRotateTransform3D :: SetAxisZ, méthodes
 
@@ -40,8 +40,8 @@ Modifie ou anime la valeur de la propriété AxisZ d’une transformation de rot
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 8 uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2012 \[ applications de bureau uniquement\]<br/>                                 |
 | En-tête<br/>                   | <dl> <dt>Dcomp. h</dt> </dl>   |
 | Bibliothèque<br/>                  | <dl> <dt>Dcomp. lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

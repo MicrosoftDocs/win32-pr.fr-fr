@@ -3,7 +3,7 @@ title: Événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPl
 description: L’événement PlaylistCollectionPlaylistAdded se produit lorsqu’une sélection est ajoutée à la collection de sélections. | Événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPlayer
 ms.assetid: 13d3bc86-6655-4536-a58f-327eabb2b8f9
 keywords:
-- Événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b019e58ae8955f6df894101956e4776c2cd71626
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4d5223d5864aa8be9019b2219ef09917a1c63cf16d87a48aef9543246d5197a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581824"
 ---
 # <a name="playlistcollectionplaylistadded-event-of-the-axwindowsmediaplayer-object"></a>Événement PlaylistCollectionPlaylistAdded de l’objet AxWindowsMediaPlayer
 
@@ -73,7 +73,7 @@ Le nom de la sélection ajoutée peut être utilisé pour récupérer la playlis
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylistCollection. getByName (VB et C#)**](wmplibiwmpplaylistcollection-iwmpplaylistcollection-getbyname--vb-and-c.md)

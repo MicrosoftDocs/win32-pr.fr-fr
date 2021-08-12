@@ -20,23 +20,23 @@ keywords:
 - VML (langage VML), JavaScript
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a370519e3f173e7418f1aa0510cac768ff46c3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96c694f87cab48a3f5da78db0e32ea576b889dbc3f6e49ba886c56d46b6ca244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600145"
 ---
 # <a name="vml-introduction"></a>Présentation de VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
-Ce document fournit une référence détaillée complète sur l’implémentation du langage VML (VML) fourni avec Microsoft Office 2000. D’autres implémentations peuvent varier. Consultez la [spécification VML](https://www.w3.org/TR/NOTE-datetime.html) pour plus d’informations sur VML comme standard.
+ce document fournit une référence détaillée complète sur l’implémentation du langage VML (VML) fourni avec Microsoft Office 2000. D’autres implémentations peuvent varier. Consultez la [spécification VML](https://www.w3.org/TR/NOTE-datetime.html) pour plus d’informations sur VML comme standard.
 
 VML est défini comme un ensemble d’éléments XML et les attributs correspondants pour chaque élément. Étant donné que l’élément **Shape** est le bloc de construction de base de VML, cliquez [ici](shape-element--vml.md) pour commencer la référence.
 
@@ -48,6 +48,6 @@ Les exemples de cette référence utilisent VBScript et JavaScript. Si vous util
 
 [Référence VML](shape-element--vml.md)
 
- 
+ 
 
- 
+ 

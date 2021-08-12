@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7b12ea3f15f1a185125da46f575d37ad97dd5622
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 41d635bf436e139e4c44db75b1057cebc3a50cfee114a35bfc75a9de84abc404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299456"
 ---
 # <a name="d3dxcomputeimtfrompervertexsignal-function"></a>D3DXComputeIMTFromPerVertexSignal fonction)
 
@@ -119,7 +119,7 @@ Pointeur vers la mémoire tampon (consultez [**ID3DXBuffer**](id3dxbuffer.md)) c
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8d2f1bf5aa2901316db380e2cfd011b11c420035
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 00269c22497d04763c349ad5d5c0106c45d8dc47a369481c48b8ab440c70f3f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274429"
 ---
 # <a name="eapmethod-eaphostusercredentials-element"></a>Élément EapMethod (EapHostUserCredentials)
 
@@ -37,10 +37,10 @@ L’élément **EapMethod** est défini par l’élément [**EapHostUserCredenti
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Rôle | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

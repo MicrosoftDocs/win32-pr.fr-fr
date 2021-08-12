@@ -13,12 +13,12 @@ api_location:
 - Dwmapi.dll
 api_name:
 - DwmDxUpdateWindowSharedSurface
-ms.openlocfilehash: 7649e96fb3a16458b518d0fc2c6dd09725a4b0ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eac390cd6ccf79ed3f916f4c9605b938ab9fd338df3643301d7f5e5c900c0d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280119"
 ---
 # <a name="dwmdxupdatewindowsharedsurface-function"></a>DwmDxUpdateWindowSharedSurface fonction)
 
@@ -58,13 +58,13 @@ Réservé.
 
 Rectangle de la fenêtre en cours de mise à jour, dans l’espace de coordonnées de la fenêtre. Un rectangle NULL indique qu’aucune région n’a été mise à jour.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 **S \_ OK** en cas de réussite, sinon un HRESULT en échec **.**
 
 ## <a name="remarks"></a>Notes
 
-Cette API est destinée à l’implémentation d’un pilote ou d’un Runtime Graphics. Une application ne peut pas appeler cette méthode. Cette documentation n’est valide que pour Windows 7, et il n’est pas garanti que cette API existe et qu’elle se comporte de manière similaire sur d’autres versions de Windows. Cette fonction n’est pas présente dans un en-tête ou une bibliothèque de liens statiques, et elle se trouve à l’ordinal 101 dans dwmapi.dll.
+Cette API est destinée à l’implémentation d’un pilote ou d’un Runtime Graphics. Une application ne peut pas appeler cette méthode. cette documentation n’est valide que pour Windows 7, et il n’est pas garanti que cette API existe et qu’elle se comporte de manière similaire sur les autres versions de Windows. Cette fonction n’est pas présente dans un en-tête ou une bibliothèque de liens statiques, et elle se trouve à l’ordinal 101 dans dwmapi.dll.
 
 Cette méthode ne doit être appelée qu’une fois que [**DwmDxGetWindowSharedSurface**](dwmdxgetwindowsharedsurface.md) a retourné la valeur **\_ OK** et qu’elle doit être appelée dans ce scénario, que la surface soit mise à jour ou non.
 
@@ -72,7 +72,7 @@ Cette méthode ne doit être appelée qu’une fois que [**DwmDxGetWindowSharedS
 
 | Condition requise | Valeur |
 |-|-|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 7 uniquement\] |
+| Client minimal pris en charge | applications de \[ bureau Windows 7 uniquement\] |
 | Serveur minimal pris en charge | Aucun pris en charge |
 | Fin de la prise en charge des clients | Windows 7 |
 | En-tête | N/A |

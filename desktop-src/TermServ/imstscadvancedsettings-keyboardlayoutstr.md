@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4d5e6703b86f5e60a50ead05f8015df61cfdc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3c87cb55b22658f704b328a51435ca2554d4c6574e25484253f9899475918642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606176"
 ---
 # <a name="imstscadvancedsettingskeyboardlayoutstr-property"></a>IMsTscAdvancedSettings :: KeyBoardLayoutStr, propriété
 
@@ -52,7 +52,7 @@ Nom de l’identificateur de paramètres régionaux d’entrée actif.
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété est un nombre hexadécimal à huit chiffres sous forme de chaîne. Les quatre chiffres inférieurs représentent l’identificateur de langue, et les quatre chiffres supérieurs représentent la variation du clavier dans cette langue. Ainsi, par exemple, « 00000409 » représente le clavier anglais américain par défaut, car « 0409 » est l’identificateur de langue Anglais (États-Unis). La variation Dvorak du clavier anglais des États-Unis a pour identificateur « 00010409 ». Vous pouvez trouver les dispositions de clavier disponibles, listées par leurs identificateurs de disposition de clavier, dans le Registre sous
 

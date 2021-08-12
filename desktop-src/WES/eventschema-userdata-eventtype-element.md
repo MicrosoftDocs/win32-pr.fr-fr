@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c9f7e5a2babe42073d4f27cfaae1d2e28dedfe35
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1042e5665bbedc4670d3615846c991bb9d6c944fca3fe90e223e4c7b6fb19420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106545235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588157"
 ---
 # <a name="userdata-eventtype-element"></a>Élément UserData (EventType)
 
@@ -36,10 +36,10 @@ L’élément **UserData** est défini par le type complexe [**eventType**](even
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

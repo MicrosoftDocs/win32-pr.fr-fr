@@ -1,23 +1,23 @@
 ---
-title: Programmabilité SQL
+title: SQL Programmabilité
 description: NPS prend en charge la journalisation SQL Server.
 ms.assetid: 55152f56-9ca4-4d0b-a0e9-223168dba83f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcc3d68519e6e260613d2729cabdb1e9991540a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 33aab125b8e4d00e0be06206dbdd855b7768638a8dd2545e71448a0e1a0f4f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618534"
 ---
-# <a name="sql-programmability"></a>Programmabilité SQL
+# <a name="sql-programmability"></a>SQL Programmabilité
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 NPS prend en charge la journalisation SQL Server.
 
@@ -26,13 +26,13 @@ Par défaut, la journalisation est désactivée pour NPS. Pour l’activer, exé
 ## <a name="sample-stored-procedure"></a>Exemple de procédure stockée
 
 > [!Note]  
-> Une procédure stockée dans la base de données SQL Server appelée par NPS doit être **nommée \_ événement de rapport** ou la journalisation du SQL Server NPS échoue.
+> une procédure stockée dans la base de données SQL Server appelée par NPS doit être **nommée \_ événement de rapport** ou la journalisation du SQL Server NPS échoue.
 
- 
+ 
 
-L’exemple suivant crée une base de données NPS au sein de l’environnement de base de données SQL Server 2000 et traite les documents XML envoyés par les serveurs NPS configurés pour se connecter à ce SQL Server.
+l’exemple suivant crée une base de données NPS au sein de l’environnement de base de données SQL Server 2000 et traite les documents XML envoyés par les serveurs NPS configurés pour se connecter à ce SQL Server.
 
-Dans cet exemple, les informations spécifiques à NAP, qui sont uniquement disponibles à partir des serveurs NPS exécutant Windows Server 2008 ou une version ultérieure, sont stockées dans la \_ colonne État de quarantaine MS \_ . L’événement de rapport de procédure stockée \_ récupère les valeurs de cette colonne à partir de l’élément XML **'./MS-Quarantine-State'**. Les valeurs autorisées pour la \_ colonne État de la quarantaine MS \_ sont 0 (accès total), 1 (en quarantaine) et 2 (essai).
+dans cet exemple, les informations spécifiques à la protection d’accès réseau, qui sont uniquement disponibles à partir des serveurs NPS exécutant sur Windows Server 2008 ou version ultérieure, sont stockées dans la \_ colonne d’état de mise en quarantaine MS \_ . L’événement de rapport de procédure stockée \_ récupère les valeurs de cette colonne à partir de l’élément XML **'./MS-Quarantine-State'**. Les valeurs autorisées pour la \_ colonne État de la quarantaine MS \_ sont 0 (accès total), 1 (en quarantaine) et 2 (essai).
 
 ``` syntax
 IF EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = N'NPSODBC')
@@ -403,6 +403,6 @@ GO
 [TechNet : concepts clés pour la journalisation des SQL Server IAS](/previous-versions/windows/it-pro/windows-server-2003/cc778830(v=ws.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

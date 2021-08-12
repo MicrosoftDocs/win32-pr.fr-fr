@@ -4,21 +4,21 @@ description: VML Extrusion, élément
 ms.assetid: d26b2451-383a-4ded-a46d-5ecca05ddb7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a6160a035853153c615576c3875ef9d90791245
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9ee19db9d933f0b6b749c3165281614d1be87b0e0828f43849f8a36a5b37067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118601339"
 ---
 # <a name="vml-extrusion-element"></a>VML Extrusion, élément
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit une extrusion pour une forme.
 
@@ -30,8 +30,8 @@ Les attributs suivants modifient une extrusion.
 |------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [AutoRotationCenter](msdn-online-vml-autorotationcenter-attribute.md) | Détermine si le centre de rotation sera le centre géométrique de l’extrusion.                |
 | [Profondeur](msdn-online-vml-backdepth-attribute.md)                   | Définit la quantité d’extrusion vers l’arrière.                                                               |
-| [Luminosité](msdn-online-vml-brightness-attribute.md)                 | Spécifie la quantité de luminosité d’une scène.                                                          |
-| [Color](color-attribute--extrusion--vml.md)                           | Définit la couleur des visages d’extrusion.                                                               |
+| [Lumineuse](msdn-online-vml-brightness-attribute.md)                 | Spécifie la quantité de luminosité d’une scène.                                                          |
+| [Couleur](color-attribute--extrusion--vml.md)                           | Définit la couleur des visages d’extrusion.                                                               |
 | [ColorMode](msdn-online-vml-colormode-attribute.md)                   | Détermine le mode de couleur de l’extrusion.                                                                 |
 | [Diffusion](msdn-online-vml-diffusity-attribute.md)                   | Définit la quantité de diffusion de la lumière réfléchie à partir d’une forme extrudée.                              |
 | [Edge](msdn-online-vml-edge-attribute.md)                             | Définit le biseau apparent des bords de l’extrusion.                                                      |
@@ -54,7 +54,7 @@ Les attributs suivants modifient une extrusion.
 | [Render](msdn-online-vml-render-attribute.md)                         | Définit le mode de rendu de l’extrusion.                                                            |
 | [RotationAngle](msdn-online-vml-rotationangle-attribute.md)           | Spécifie la rotation de l’objet sur les axes x et y.                                           |
 | [RotationCenter](msdn-online-vml-rotationcenter-attribute.md)         | Spécifie le centre de rotation d’une forme.                                                           |
-| [Éclat](msdn-online-vml-shininess-attribute.md)                   | Définit la concentration de la lumière réfléchie d’une surface d’extrusion.                                   |
+| [Brillance](msdn-online-vml-shininess-attribute.md)                   | Définit la concentration de la lumière réfléchie d’une surface d’extrusion.                                   |
 | [SkewAmt](msdn-online-vml-skewamt-attribute.md)                       | Définit le degré d’inclinaison d’une extrusion.                                                             |
 | [SkewAngle](msdn-online-vml-skewangle-attribute.md)                   | Définit l’angle d’inclinaison d’une extrusion.                                                              |
 | [Specularity](msdn-online-vml-specularity-attribute.md)               | Définit le specularity d’une forme extrudée.                                                           |
@@ -64,7 +64,7 @@ Les attributs suivants modifient une extrusion.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -88,6 +88,6 @@ Voici le code minimal nécessaire pour générer une extrusion.
 -   [Extrusion de forme simple](/previous-versions/bb229656(v=vs.85))
 -   [Extrusion de forme dynamique](/previous-versions/bb229657(v=vs.85))
 
- 
+ 
 
- 
+ 

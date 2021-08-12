@@ -3,19 +3,19 @@ title: Slider (élément)
 description: Slider (élément)
 ms.assetid: f1da8987-5430-46ef-b7d7-ac92f34a2185
 keywords:
-- Apparences du lecteur Windows Media, élément Slider
+- apparences de Lecteur Windows Media, élément slider
 - apparences, élément Slider
 - Slider (élément)
 - référence pour les habillages, élément Slider
 - éléments, curseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34607c8706fccc8f416ebc83ae483c98a784c08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 140c84f6bec826b34ff4e1c5a4a3365d44ba9aa67ca9504cea642aba25f076d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569085"
 ---
 # <a name="slider-element"></a>Slider (élément)
 
@@ -56,7 +56,7 @@ L’élément **Slider** prend en charge les attributs suivants.
 
 
 
- 
+ 
 
 L’élément **Slider** peut implémenter les gestionnaires d’événements suivants.
 
@@ -70,7 +70,7 @@ L’élément **Slider** peut implémenter les gestionnaires d’événements su
 
 
 
- 
+ 
 
 L’élément **Slider** prend en charge les attributs ambiants et peut implémenter les gestionnaires d’événements ambiants. Pour plus d’informations, consultez [attributs ambiants](ambient-attributes.md) et [gestionnaires d’événements ambiants](ambient-event-handlers.md).
 
@@ -86,7 +86,7 @@ Les curseurs prédéfinis sont des éléments de **curseur** normaux avec diffé
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -95,9 +95,9 @@ Les curseurs prédéfinis sont des éléments de **curseur** normaux avec diffé
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

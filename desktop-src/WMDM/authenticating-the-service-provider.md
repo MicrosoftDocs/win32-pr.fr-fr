@@ -3,7 +3,7 @@ title: Authentification du fournisseur de services
 description: Authentification du fournisseur de services
 ms.assetid: e48a8a7c-0277-4f0c-bad2-5bc9d0286da8
 keywords:
-- Gestionnaire de périphériques Windows Media, authentification
+- Windows Gestionnaire de périphériques de média, authentification
 - Gestionnaire de périphériques, authentification
 - Guide de programmation, authentification
 - fournisseurs de services, authentification
@@ -11,22 +11,22 @@ keywords:
 - Authentification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 271bf5594e4adaede01bb8e3795780f8f5c5177a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52d6931acb4644d4222659d428be10877deb164a184c95609663a915c12b95d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586485"
 ---
 # <a name="authenticating-the-service-provider"></a>Authentification du fournisseur de services
 
-Pour être accessible à partir de Windows Media Gestionnaire de périphériques, un fournisseur de services doit hériter et implémenter l’interface [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) .
+pour être accessible à partir de Windows Gestionnaire de périphériques de média, un fournisseur de services doit hériter et implémenter l’interface [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) .
 
 Pour s’authentifier, un fournisseur de services effectue les étapes suivantes :
 
 1.  En cas d’instanciation, elle crée un nouvel objet global [CSecureChannelServer](csecurechannelserver-class.md) et définit les valeurs de certificat et de clé à partir de son fichier de clé.
 2.  Il implémente les méthodes [**IComponentAuthenticate :: SACAuth**](/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth) et [**IComponentAuthenticate :: SACGetProtocols**](/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols) en passant simplement les paramètres dans son membre CSecureChannelServer global.
-3.  Avant de gérer les méthodes de Gestionnaire de périphériques Windows Media implémentées, le fournisseur de services doit vérifier l’authentification de l’appelant en appelant CSecureChannelServer :: fIsAuthenticated et échouer si l’appelant n’est pas authentifié.
+3.  avant de gérer les méthodes d’Gestionnaire de périphériques de média Windows implémentées, le fournisseur de services doit vérifier l’authentification de l’appelant en appelant CSecureChannelServer :: fIsAuthenticated et échouer si l’appelant n’est pas authentifié.
 
 Ces étapes sont présentées dans les exemples C++ suivants.
 
@@ -137,9 +137,9 @@ STDMETHODIMP CMyServiceProvider::GetDeviceCount(DWORD * pdwCount)
 [**Création d’un fournisseur de services**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

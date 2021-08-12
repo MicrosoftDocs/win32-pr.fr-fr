@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\d3d10_shader.htm
 title: Constantes D3D10_SHADER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16480e2aceada7f5ed05912eca59cc88886ac9b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2e965c050d3643e80b493875b27ba5a9b774b351487e191584f40297819758f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303522"
 ---
 # <a name="d3d10_shader-constants"></a>\_Constantes de nuanceur D3D10
 

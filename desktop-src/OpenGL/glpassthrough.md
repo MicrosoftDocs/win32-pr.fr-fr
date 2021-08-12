@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1174dd933d46813a89c35b781d0408c3ac5476
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5edf1b0fb2dbda1ef1e0a2c4b9ab67b8e7e6305998a8f5a6de9c461e4e148bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615416"
 ---
 # <a name="glpassthrough-function"></a>glPassThrough fonction)
 
@@ -73,7 +73,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les commentaires sont un mode de rendu OpenGL sélectionné en appelant [**glRenderMode**](glrendermode.md) avec des commentaires sur le GL \_ . Lorsque OpenGL est en mode commentaires, aucun Pixel n’est généré par pixellisation. Au lieu de cela, les informations sur les primitives qui auraient été pixellisées sont renvoyées à l’application par OpenGL. Consultez [**glFeedbackBuffer**](glfeedbackbuffer.md) pour obtenir une description de la mémoire tampon de commentaires et les valeurs qu’elle contient.
 

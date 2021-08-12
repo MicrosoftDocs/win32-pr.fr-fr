@@ -4,12 +4,12 @@ ms.assetid: e61a1d6c-52c6-4ea5-9d92-b047697de78f
 title: À propos de l’API de collaboration pair à pair
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fb88cdbe1ce2e64ea7b9ce38e044a52b0906868
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f37c0d71b31a107e630fa7f38e5a2304fff8de212163087e81bd457f2cc86fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103756609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612803"
 ---
 # <a name="about-the-peer-collaboration-api"></a>À propos de l’API de collaboration pair à pair
 
@@ -19,7 +19,7 @@ L’infrastructure de collaboration pair à pair fournit des API qui simplifient
 
 En outre, cette infrastructure permet également aux pairs de découvrir d’autres pairs sur le même sous-réseau ou réseau local et autorise l’interaction entre ces pairs.
 
-La présence sans serveur est une fonctionnalité de l’infrastructure de collaboration pair à pair disponible pour toutes les applications Windows Vista. Toute application qui utilise le composant de présence sans serveur de l’infrastructure de collaboration sera en mesure d’afficher correctement la présence de l’utilisateur sur toute application qui le regarde. Les utilisateurs ont également la possibilité de publier des informations détaillées sur leur présence et de publier des objets de données inscrits auprès de l’homologue.
+la présence sans serveur est une fonctionnalité de l’Infrastructure de Collaboration pair à pair disponible pour toutes les applications Windows Vista. Toute application qui utilise le composant de présence sans serveur de l’infrastructure de collaboration sera en mesure d’afficher correctement la présence de l’utilisateur sur toute application qui le regarde. Les utilisateurs ont également la possibilité de publier des informations détaillées sur leur présence et de publier des objets de données inscrits auprès de l’homologue.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88b20cf3a3e3b2c96a8172f53f8126815efe16d6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 349ba3407d84d66afd431d14c3fc97b151661f4f783a05734a55d9ba1dc313ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616991"
 ---
 # <a name="gldrawarrays-function"></a>glDrawArrays fonction)
 
@@ -81,7 +81,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avec **glDrawArrays**, vous pouvez spécifier plusieurs primitives géométriques à restituer. Au lieu d’appeler des fonctions OpenGL distinctes pour passer chaque vertex, normal ou couleur individuel, vous pouvez spécifier des tableaux distincts de vertex, de normales et de couleurs pour définir une séquence de primitives (le même type) avec un appel unique à **glDrawArrays**.
 

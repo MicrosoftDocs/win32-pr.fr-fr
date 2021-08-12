@@ -1,11 +1,11 @@
 ---
 title: AxWindowsMediaPlayer. stretchToFit, propriété
-description: La propriété stretchToFit obtient ou définit une valeur qui indique si la vidéo affichée par le contrôle du lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
+description: la propriété stretchToFit obtient ou définit une valeur qui indique si la vidéo affichée par le contrôle Lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
 ms.assetid: 02e2bcba-4975-4ddd-996b-9bd40774ebc1
 keywords:
-- propriété stretchToFit lecteur Windows Media
-- propriété stretchToFit lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété stretchToFit
+- Lecteur Windows Media de la propriété stretchToFit
+- Lecteur Windows Media de la propriété stretchToFit, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété stretchToFit
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd6937ffa556817a80f0b21dfaed6d270c2e351
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3090889207e0631fbc2f35613398b4c979f4c907cfe240e9f0a7374c74b00b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581509"
 ---
 # <a name="axwindowsmediaplayerstretchtofit-property"></a>AxWindowsMediaPlayer. stretchToFit, propriété
 
-La propriété stretchToFit obtient ou définit une valeur qui indique si la vidéo affichée par le contrôle du lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
+la propriété stretchToFit obtient ou définit une valeur qui indique si la vidéo affichée par le contrôle Lecteur Windows Media se redimensionne automatiquement pour s’adapter à la fenêtre vidéo, lorsque la fenêtre vidéo est plus grande que les dimensions de l’image vidéo.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,9 +50,9 @@ Valeur System. Boolean qui indique si la vidéo sera étirée pour s’ajuster �
 
 ## <a name="remarks"></a>Notes
 
-Quand **stretchToFit** a la valeur true, le contrôle du lecteur Windows Media conserve les proportions d’origine de la vidéo. Si les proportions de la vidéo ne correspondent pas aux proportions de la fenêtre vidéo, les zones de masque noires peuvent apparaître en haut et en bas, ou à gauche et à droite de l’image vidéo.
+quand **stretchToFit** a la valeur true, le contrôle Lecteur Windows Media conserve les proportions d’origine de la vidéo. Si les proportions de la vidéo ne correspondent pas aux proportions de la fenêtre vidéo, les zones de masque noires peuvent apparaître en haut et en bas, ou à gauche et à droite de l’image vidéo.
 
-Cette propriété s’applique au contrôle du lecteur Windows Media uniquement lorsqu’il est incorporé dans une page Web.
+cette propriété s’applique au contrôle Lecteur Windows Media uniquement lorsqu’il est incorporé dans une page web.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -70,7 +70,7 @@ Cette propriété s’applique au contrôle du lecteur Windows Media uniquement 
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

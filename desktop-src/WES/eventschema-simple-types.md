@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88d9bb5253c3d902f384eb1bbe8205f8479cb6c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe389bfa64032558ed7e08ace68efba78630898793a644cae96d3de6b42e7afd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118588180"
 ---
 # <a name="event-schema-simple-types"></a>Types simples de schéma d’événement
 

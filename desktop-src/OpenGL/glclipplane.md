@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33380203b30b7a3a2e37ee5d58a47fec845cbc1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb55edd88b8c8dcd6b4481e60dfc05a012bb79f4f484fde8987e9ed23239d837
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106527572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618039"
 ---
 # <a name="glclipplane-function"></a>glClipPlane fonction)
 
@@ -41,7 +41,7 @@ void WINAPI glClipPlane(
 
 <dl> <dt>
 
-*verticale* 
+*plane (avion)* 
 </dt> <dd>
 
 Plan de découpage positionné. Les noms symboliques de la forme \_ plan du clip GL \_ *i*, où *i* est un nombre entier compris entre 0 et \_ le nombre maximal \_ de clips de la comptabilité \_ -1, sont acceptés.
@@ -72,7 +72,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La géométrie est toujours découpée par rapport aux limites d’un frustum à six plans en *x*, *y* et *z*. La fonction **glClipPlane** permet de spécifier des plans supplémentaires, pas nécessairement perpendiculairement à l’axe des *x*, à l’axe *y* ou à l’axe *z*, par rapport auquel toutes les géométries sont découpées. Vous pouvez spécifier jusqu’à un \_ nombre maximal de \_ plans de captures de l’élément GL \_ , où le \_ nombre maximal \_ \_ de plans de clip GL est d’au moins six dans toutes les implémentations. Étant donné que la zone de découpage obtenue est l’intersection des demi-espaces définis, elle est toujours convexe.
 

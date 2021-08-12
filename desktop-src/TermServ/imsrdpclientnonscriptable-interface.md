@@ -1,6 +1,6 @@
 ---
 title: Interface IMsRdpClientNonScriptable
-description: Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface IMsTscNonScriptable.
+description: fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface IMsTscNonScriptable.
 ms.assetid: e449342c-b328-4659-8542-28c15bd71edf
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c82ec9c7e882f720851ef576ee77ae3d3b10f4d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 997f68164e314829a5850f5d9b6be7a42cd2cfba541f16bc12c5846f1ef7e09c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118607726"
 ---
 # <a name="imsrdpclientnonscriptable-interface"></a>Interface IMsRdpClientNonScriptable
 
-Fournit l’accès aux propriétés non scriptables de la session à distance d’un client sur le contrôle ActiveX Bureau à distance. Dérive de l’interface [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
+fournit l’accès aux propriétés qui ne sont pas scriptables de la session à distance d’un client sur le contrôle Bureau à distance ActiveX. Dérive de l’interface [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) . Les méthodes de cette interface sont accessibles uniquement par le biais de la vtable ; ils ne peuvent pas être utilisés pour des clients scriptables.
 
 ## <a name="members"></a>Membres
 
@@ -41,14 +41,14 @@ L’interface **IMsRdpClientNonScriptable** possède ces méthodes.
 
 | Méthode                                                                                     | Description                                                                                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md) | Notifie le module de redirection de périphérique du contrôle ActiveX Bureau à distance qu’une modification de périphérique s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.<br/> |
+| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md) | notifie le module de redirection de l’appareil du contrôle de Bureau à distance ActiveX qu’une modification de l’appareil s’est produite sur le système. Cette méthode passe les notifications [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) au contrôle.<br/> |
 | [**SendKeys**](imsrdpclientnonscriptable-sendkeys.md)                                     | Envoie une série de séquences de touches au contrôle. Les séquences de touches sont sous forme de code d’analyse, c’est-à-dire les données de clavier des véritables clés physiques.<br/>                                                                                |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface a été étendue par les interfaces suivantes, chaque nouvelle interface héritant de toutes les méthodes et propriétés des interfaces précédentes :
 

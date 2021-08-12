@@ -4,27 +4,27 @@ description: CoordOrigin VML (attribut)
 ms.assetid: 0630e670-6ebe-424e-a5e0-545597454283
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb08d35aac7e26cc15aa7699439ea9f7ab4dba94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf568f2c305108a651d56a891a96890154f9493cbadd80a9c5610414c88f4f03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118601941"
 ---
 # <a name="vml-coordorigin-attribute"></a>CoordOrigin VML (attribut)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Spécifie l’origine de l’unité de coordonnée du rectangle qui délimite une forme. En lecture/écriture. [IVgVector2D](msdn-online-vml-ivgvector2d-data-type.md).
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -66,6 +66,6 @@ Le centre du cadre englobant sera l’origine (0,0) du tracé de la forme. Comme
 
 [Exemple d’attribut CoordOrigin](/previous-versions/bb229664(v=vs.85)). (Nécessite Microsoft Internet Explorer 5 ou version ultérieure.)
 
- 
+ 
 
- 
+ 

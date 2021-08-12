@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 134f9da4100c9479255507d4686dd19d3d484dea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88c9a48d1c70cd156fa3d8f63bd3b70d69a99a1151a18c95ffd556b2503c9575
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106531708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619282"
 ---
 # <a name="keytype-sharedkey-element"></a>KeyType (sharedKey), élément
 
@@ -42,7 +42,7 @@ L’élément KeyType (sharedKey) indique si la clé partagée sera une clé ré
 
 L’élément est défini par l’élément [**sharedKey**](wlan-profileschema-sharedkey-security-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’élément de [**chiffrement**](wlan-profileschema-encryption-authencryption-element.md) a la valeur WEP, **KeyType** doit être défini sur **networkKey**.
 
@@ -57,7 +57,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **KeyType** , 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

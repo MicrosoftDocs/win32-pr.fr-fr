@@ -4,12 +4,12 @@ description: Objet Command
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e9e9ce22b3a1c0c2286232b5e2204e158501332
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 242a90022431b826cf877edd862cd89a39d193865ed31afc1e4ff911f4189756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106509841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245615"
 ---
 # <a name="the-command-object"></a>Objet Command
 
@@ -19,7 +19,7 @@ Un objet [**Command**](/windows/desktop/lwef/the-command-object) est un élémen
 
 -   [Propriétés de l’objet Command](command-object-properties.md)
 
-Pour accéder à la propriété d’un objet [**Command**](/windows/desktop/lwef/the-command-object) , vous le référencez dans sa collection à l’aide de sa propriété [**Name**](name-property.md) . Dans VBScript et Visual Basic vous pouvez utiliser directement la propriété **Name** :
+Pour accéder à la propriété d’un objet [**Command**](/windows/desktop/lwef/the-command-object) , vous le référencez dans sa collection à l’aide de sa propriété [**Name**](name-property.md) . dans VBScript et Visual Basic vous pouvez utiliser directement la propriété **Name** :
 
 
 ```
@@ -37,7 +37,7 @@ Pour les langages de programmation qui ne prennent pas en charge les collections
 
 
 
-Vous pouvez également référencer un objet de commande en créant une référence à celui-ci. Dans Visual Basic, déclarez une variable objet et utilisez l’instruction SET pour créer la référence :
+Vous pouvez également référencer un objet de commande en créant une référence à celui-ci. dans Visual Basic, déclarez une variable objet et utilisez l’instruction Set pour créer la référence :
 
 
 ```
@@ -50,7 +50,7 @@ Vous pouvez également référencer un objet de commande en créant une référe
 
 
 
-Dans Visual Basic 5,0, vous pouvez également déclarer l’objet comme type [**IAgentCtlCommandEx**](https://www.bing.com/search?q=**IAgentCtlCommandEx**) et créer la référence. Cette Convention permet une liaison précoce, ce qui améliore les performances :
+dans Visual Basic 5,0, vous pouvez également déclarer l’objet comme type [**IAgentCtlCommandEx**](https://www.bing.com/search?q=**IAgentCtlCommandEx**) et créer la référence. Cette Convention permet une liaison précoce, ce qui améliore les performances :
 
 
 ```
@@ -116,9 +116,9 @@ Oui
 
 Oui
 
-Vrai
+True
 
-Faux
+False
 
 Désactivé, utilisation de la [ **légende**](caption-property.md)
 
@@ -144,7 +144,7 @@ Oui
 
 Oui
 
-Faux
+False
 
 False
 
@@ -172,9 +172,9 @@ Oui
 
 Non 
 
-Vrai
+True
 
-Faux
+False
 
 Désactivé, utilisation de la [ **légende**](caption-property.md)
 
@@ -200,7 +200,7 @@ Oui
 
 Non 
 
-Faux
+False
 
 False
 
@@ -228,9 +228,9 @@ Oui
 
 Oui
 
-Vrai
+True
 
-Faux
+False
 
 N’apparaît pas
 
@@ -256,7 +256,7 @@ Oui
 
 Oui
 
-Faux
+False
 
 False
 
@@ -284,9 +284,9 @@ Oui
 
 Non 
 
-Vrai
+True
 
-Faux
+False
 
 N’apparaît pas
 
@@ -312,7 +312,7 @@ Oui
 
 Non 
 
-Faux
+False
 
 False
 
@@ -340,9 +340,9 @@ Non
 
 Oui
 
-Vrai
+True
 
-Faux
+False
 
 Désactivé, utilisation de la [ **légende**](caption-property.md)
 
@@ -368,7 +368,7 @@ Non
 
 Oui
 
-Faux
+False
 
 False
 
@@ -396,9 +396,9 @@ Non
 
 Non 
 
-Vrai
+True
 
-Faux
+False
 
 Désactivé, utilisation de la [ **légende**](caption-property.md)
 
@@ -424,7 +424,7 @@ Non
 
 Non 
 
-Faux
+False
 
 False
 
@@ -452,9 +452,9 @@ Non
 
 Oui
 
-Vrai
+True
 
-Faux
+False
 
 N’apparaît pas
 
@@ -480,7 +480,7 @@ Non
 
 Oui
 
-Faux
+False
 
 False
 
@@ -508,9 +508,9 @@ Non
 
 Non 
 
-Vrai
+True
 
-Faux
+False
 
 N’apparaît pas
 
@@ -536,7 +536,7 @@ Non
 
 Non 
 
-Faux
+False
 
 False
 

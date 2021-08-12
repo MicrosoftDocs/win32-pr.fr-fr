@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c3b06307f7c4ebc44242e02ee5ae99a182f9ab3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cee5c5cce2d915b8afb99c794b005b815e696e8488055e385cb49cdfe1ce024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106536345"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256059"
 ---
 # <a name="icontentequatabletcontentequals-method"></a>IContentEquatable \<T\> . Méthode ContentEquals
 
@@ -61,12 +61,12 @@ bool ContentEquals(
 
 #### <a name="parameters"></a>Paramètres
 
-  - autre  
+  - Autres  
     Type : [T](./icontentequatable-t-interface.md)  
     
     Instance de à comparer à cette instance.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances sont égales.  

@@ -4,27 +4,27 @@ description: VML, attribut de classe
 ms.assetid: 4030b8b7-fcc9-4153-8004-81935a347a09
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94bdc723ba9be335afc43023ab89b88834c55474
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 87ada95b56430dacd09801a9aaa200c92abab064bbbb5732b369372de63c34de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118602180"
 ---
 # <a name="vml-class-attribute"></a>VML, attribut de classe
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Fait référence à une définition d’un style CSS. En lecture/écriture. **Chaîne**.
 
 **S’applique à**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Syntaxe de balise**
 
@@ -46,7 +46,7 @@ Notez que **className** est utilisé à la place de **Class** pour les scripts. 
 
 **Voir aussi**
 
-[Graphique à base de formes](shape-element--vml.md)
+[Forme](shape-element--vml.md)
 
 **Exemple**
 
@@ -75,6 +75,6 @@ La largeur est alors référencée par l’inclusion du style. Notez que la larg
 
 Notez que la **classe** s’applique uniquement aux attributs CSS-type.
 
- 
+ 
 
- 
+ 

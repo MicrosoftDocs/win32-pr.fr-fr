@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 96c7daa6bdc72146400973d08c9e5780092b214a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4aa83aa04ce4a442351485c25fbc7f4c6d252f923f6777cfe807abf9ba527a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620216"
 ---
 # <a name="bootstrap-profile-sample"></a>Exemple de profil de démarrage
 
@@ -22,11 +22,11 @@ L’exemple de profil de démarrage peut être utilisé pour s’authentifier su
 
 Ce profil ne valide pas les certificats présentés par le serveur protocole RADIUS (Remote Authentication Dial-In User Service) (RADIUS) et ne doit pas être utilisé une fois l’ordinateur joint à un domaine.
 
-Cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode entreprise (WPA2-Entreprise). D’autres types de sécurité peuvent être utilisés tant que la méthode d’authentification est PEAP-MSCHAPv2.
+cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée s’exécutant en mode Enterprise (WPA2-Enterprise). D’autres types de sécurité peuvent être utilisés tant que la méthode d’authentification est PEAP-MSCHAPv2.
 
-**Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé :** Les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. La valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le service de réseau local sans fil installé. Le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
+**Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé :** les modifications sont implémentées sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé pour optimiser les performances de mise en réseau sans fil. Le paramètre par défaut pour [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) lorsque cet élément n’est pas défini dans un profil de réseau local sans fil a changé. la valeur par défaut est remplacée par la valeur « false » sur Windows 7 et Windows Server 2008 R2 avec le Service de réseau local sans fil installé. le paramètre par défaut était « true » sur Windows Server 2008 et Windows Vista. Pour plus d’informations, reportez-vous à la description de l’élément de schéma [**AutoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) .
 
-**Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Les enfants [**cacheUserData**](onexschema-cacheuserdata-onex-element.md), [**authmode**](onexschema-authmode-onex-element.md)et [**singleSignOn**](onexschema-singlesignon-onex-element.md) de l’élément [**Onex**](onexschema-onex-element.md) ne sont pas pris en charge et doivent être supprimés du profil avant l’utilisation.
+**Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** L’enfant de [**nom**](wlan-profileschema-name-wlanprofile-element.md) de l’élément [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) est ignoré. Le nom du profil, tel qu’il est stocké dans le magasin de profils, est dérivé de l’enfant de [**nom**](wlan-profileschema-name-ssid-element.md) de l’élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) . Les enfants [**cacheUserData**](onexschema-cacheuserdata-onex-element.md), [**authmode**](onexschema-authmode-onex-element.md)et [**singleSignOn**](onexschema-singlesignon-onex-element.md) de l’élément [**Onex**](onexschema-onex-element.md) ne sont pas pris en charge et doivent être supprimés du profil avant l’utilisation.
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -102,7 +102,7 @@ Cet exemple est configuré pour utiliser Wi-Fi la sécurité Access 2 protégée
 [Exemples de profils sans fil](wireless-profile-samples.md)
 </dt> <dt>
 
-[Joindre un client sans fil Windows Vista à un domaine](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
+[joindre un Client sans fil Windows Vista à un domaine](https://www.microsoft.com/technet/network/wifi/vista_bootstrap_wireless.mspx)
 </dt> </dl>
 
  

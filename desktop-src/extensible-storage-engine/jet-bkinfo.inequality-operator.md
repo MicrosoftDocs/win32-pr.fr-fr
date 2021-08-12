@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b8ccc18ea535f6b202c8e08976b52c090fd543cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e4279fb6dce692bdd6e5c7b73ae260521a8c1eaebebb8ea5a90671699f7eb0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255593"
 ---
 # <a name="jet_bkinfoinequality-operator"></a>JET_BKINFO. Opérateur d’inégalité
 
@@ -76,7 +76,7 @@ public static bool operator !=(
     
     Deuxième instance à comparer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Boolean](/dotnet/api/system.boolean)  
 True si les deux instances ne sont pas égales.  

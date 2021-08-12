@@ -3,9 +3,9 @@ title: Événement Player. PlayStateChange
 description: L’événement PlayStateChange se produit lorsqu’une modification est apportée à la propriété lecture.
 ms.assetid: d4c4b114-04b6-4079-b6a2-52b336fc6dc1
 keywords:
-- Événement PlayStateChange lecteur Windows Media
-- Événement PlayStateChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement PlayStateChange
+- Lecteur Windows Media d’événements PlayStateChange
+- Lecteur Windows Media d’événements PlayStateChange, classe Player
+- Lecteur Windows Media de classe Player, événement PlayStateChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e621d8698a5379b0d39a55db141fc0012f6ef969
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3995f7373984ae9e3b0e24f9f41390154326cfd87bd8589970dc76520c6efd93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572525"
 ---
 # <a name="playerplaystatechange-event"></a>Événement Player. PlayStateChange
 
@@ -49,15 +49,15 @@ Nombre (**long**) qui spécifie le nouveau **lecture**. Pour obtenir un tableau 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Notes
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
-Il n’est pas garanti que les États du lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
+il n’est pas garanti que les états de Lecteur Windows Media se produisent dans un ordre particulier. En outre, tous les États ne se produisent pas nécessairement au cours d’une séquence d’événements. Vous ne devez pas écrire du code qui s’appuie sur l’ordre de l’État.
 
 ## <a name="examples"></a>Exemples
 

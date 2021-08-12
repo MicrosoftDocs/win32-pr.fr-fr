@@ -4,16 +4,16 @@ description: L’interface IVMVirtualNetworkCollection expose les propriétés s
 ms.assetid: 4458D3E4-D239-4B79-BF11-D5C8E3E8815C
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2580da3910cdbfe7389dc1ef6925f55adb85b593
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7757d19c2d6ff545a4d3d9aa64f7f62440d8d5bc3db98835dffe63f1a6246a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118592280"
 ---
 # <a name="ivmvirtualnetworkcollection-properties"></a>Propriétés IVMVirtualNetworkCollection
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 L’interface [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md) expose les propriétés suivantes.
 
@@ -23,6 +23,6 @@ L’interface [**IVMVirtualNetworkCollection**](ivmvirtualnetworkcollection.md) 
 -   [**Count, propriété**](ivmvirtualnetworkcollection-count.md)
 -   [**Item, propriété**](ivmvirtualnetworkcollection-item.md)
 
- 
+ 
 
- 
+ 

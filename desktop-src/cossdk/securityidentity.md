@@ -11,12 +11,12 @@ api_name:
 - SecurityIdentity
 api_type:
 - COM
-ms.openlocfilehash: 6775c06bc25bfb32a1c2c247868fd2a9fbc9aade
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d16139ccf60a22ebfb4cf609e734e0b8df3285ef9ddb1804657313900a3ea05a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103761557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305475"
 ---
 # <a name="securityidentity-class"></a>SecurityIdentity, classe
 
@@ -46,7 +46,7 @@ Utilisez cette classe pour accéder aux méthodes de [**ISecurityIdentityColl**]
 
 Vous ne pouvez pas créer directement un objet **SecurityIdentity** . Pour utiliser les méthodes de [**ISecurityIdentityColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecurityidentitycoll), vous devez obtenir une référence à son implémentation en appelant [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), en fournissant IID \_ ISecurityCallContext pour le paramètre *riid* . Ensuite, appelez [**ISecurityCallContext :: obtenir l' \_ élément**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get_item) qui demande un élément de contexte d’appel de sécurité qui est une collection d’identités de sécurité (par exemple, « DirectCaller » ou « OriginalCaller »). Appelez ensuite [**ISecurityIdentityColl :: obtenir l' \_ élément**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecurityidentitycoll-get_item) pour récupérer un élément d’identité de sécurité (tel que « Name » ou « AuthenticationService »).
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des services COM+. Vous ne pouvez pas créer directement un objet SecurityIdentity. Pour utiliser ses propriétés, vous devez obtenir un référence à son implémentation à l’aide de [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext). Ensuite, récupérez la propriété Item de l’objet, en demandant un élément de contexte d’appel de sécurité qui est une collection d’identités de sécurité (telle que « DirectCaller » ou « OriginalCaller »). Ensuite, utilisez la propriété Item de l’objet SecurityIdentity pour récupérer un élément d’identité de sécurité (tel que « Name » ou « AuthenticationService »).
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Vous ne pouvez pas créer directement un objet SecurityIdentity. Pour utiliser ses propriétés, vous devez obtenir un référence à son implémentation à l’aide de [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext). Ensuite, récupérez la propriété Item de l’objet, en demandant un élément de contexte d’appel de sécurité qui est une collection d’identités de sécurité (telle que « DirectCaller » ou « OriginalCaller »). Ensuite, utilisez la propriété Item de l’objet SecurityIdentity pour récupérer un élément d’identité de sécurité (tel que « Name » ou « AuthenticationService »).
 
 ## <a name="requirements"></a>Configuration requise
 

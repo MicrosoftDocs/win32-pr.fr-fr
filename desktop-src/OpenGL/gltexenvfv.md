@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52a2b74025deee08d2d895af0012e85e19ac269b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ae06746d00584cb6df6aa06c434115d1b53daab680e7f6cad8b4f12c78dba91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106514868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118613535"
 ---
 # <a name="gltexenvfv-function"></a>glTexEnvfv fonction)
 
@@ -80,7 +80,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un environnement de texture spécifie la manière dont les valeurs de texture sont interprétées lorsqu’un fragment est texturé. Le paramètre *cible* doit être de la \_ texture GL \_ env. Le paramètre *pname* peut être le \_ mode env de la texture GL ou la \_ \_ couleur de la texture du GL \_ \_ \_ .
 

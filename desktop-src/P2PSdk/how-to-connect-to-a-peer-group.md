@@ -1,17 +1,17 @@
 ---
 description: Cette rubrique explique comment une application se connecte à un groupe homologue à l’aide des API de regroupement pair.
 ms.assetid: 56fa28d8-3b3a-4cd5-8448-c8c4ce8d0b2c
-title: Comment se connecter à un groupe homologue
+title: comment Connecter à un groupe homologue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bb3f41342573742e634a6e7ebce283188f3ffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bb1cfd08fde0fc733873648dfae1ffb4f86b713b3ed790430686b641a893d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612765"
 ---
-# <a name="how-to-connect-to-a-peer-group"></a>Comment se connecter à un groupe homologue
+# <a name="how-to-connect-to-a-peer-group"></a>comment Connecter à un groupe homologue
 
 Cette rubrique explique comment une application se connecte à un groupe homologue à l’aide des API de regroupement pair.
 
@@ -33,7 +33,7 @@ Souvent, vous souhaiterez peut-être que l’application se connecte à un group
 
 Une application hors connexion peut être mise en ligne à tout moment en appelant [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect). Une fois connecté, un groupe homologue ne peut pas passer en mode hors connexion jusqu’à ce que toutes les autres applications associées à cette identité et partageant ce groupe y aient également fermé des connexions.
 
-Un groupe homologue est une ressource partagée, avec le même groupe homologue disponible pour plusieurs applications. Si plusieurs applications pour la même identité et l’utilisateur Windows utilisent le même groupe pair, elles partagent également la même base de données sous-jacente et les mêmes connexions (voisin et direct). Si l’une de ces applications appelle [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect), toutes les autres applications pour cette identité/cet utilisateur participant au groupe se connectent également au groupe. Si un enregistrement est ajouté par une application alors que le groupe est hors connexion, d’autres applications sont également en mesure de le voir. En conséquence, une application doit être prête à se connecter à tout moment.
+Un groupe homologue est une ressource partagée, avec le même groupe homologue disponible pour plusieurs applications. si plusieurs applications pour la même identité et Windows utilisateur utilisent le même groupe pair, elles partagent également la même base de données sous-jacente et les mêmes connexions (voisin et direct). Si l’une de ces applications appelle [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect), toutes les autres applications pour cette identité/cet utilisateur participant au groupe se connectent également au groupe. Si un enregistrement est ajouté par une application alors que le groupe est hors connexion, d’autres applications sont également en mesure de le voir. En conséquence, une application doit être prête à se connecter à tout moment.
 
 ## <a name="connecting-to-a-peer-group-online"></a>Connexion à un groupe homologue (en ligne)
 

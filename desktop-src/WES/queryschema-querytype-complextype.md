@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50c0779b90a6f2e74a873b13d79c6e2083afd0ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6585b43e1e9e48bc0be69001d471c74e52506177250d66316273ca447b38084a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587624"
 ---
 # <a name="querytype-complex-type"></a>QueryType (type complexe)
 
@@ -77,9 +77,9 @@ Définit un ensemble de requêtes de sélecteur et de suppresseur utilisées pou
 | Nom | Type   | Description                                                                                                                                                                                         |
 |------|--------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Id   | long   | Identificateur qui identifie de façon unique cette requête dans votre liste de requêtes. L’identificateur est de base zéro. Vous devez spécifier un identificateur si votre liste de requêtes contient plus d’une requête.<br/> |
-| Chemin d’accès | anyURI | Nom du canal ou chemin d’accès au fichier journal qui contient les événements.<br/>                                                                                                            |
-| Chemin d’accès | anyURI | Nom du canal ou chemin d’accès au fichier journal qui contient les événements.<br/>                                                                                                            |
-| Chemin d’accès | anyURI | Non utilisé.<br/>                                                                                                                                                                                |
+| Chemin | anyURI | Nom du canal ou chemin d’accès au fichier journal qui contient les événements.<br/>                                                                                                            |
+| Chemin | anyURI | Nom du canal ou chemin d’accès au fichier journal qui contient les événements.<br/>                                                                                                            |
+| Chemin | anyURI | Non utilisé.<br/>                                                                                                                                                                                |
 
 
 
@@ -93,10 +93,10 @@ Si vous spécifiez un chemin d’accès pour l’une des requêtes de la liste d
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

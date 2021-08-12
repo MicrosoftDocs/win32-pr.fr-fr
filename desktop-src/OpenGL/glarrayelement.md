@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a20aff9fcaa5bf922bc9447f7b7022a8cd1a9c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb6fdf3b90c5145c46730e530f26ba7d4f7f3875e51cc4d510e9763d03e27207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618058"
 ---
 # <a name="glarrayelement-function"></a>glArrayElement fonction)
 
@@ -51,7 +51,7 @@ Index dans les tableaux activés.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la fonction **glArrayElement** dans les paires [**glBegin**](glbegin.md) et [**glEnd**](glend.md) pour spécifier les données de vertex et d’attribut pour les primitives de point, de ligne et de polygone. La fonction **glArrayElement** spécifie les données d’un vertex unique à l’aide de données de vertex et d’attribut situées à l' *index* des tableaux de vertex activés.
 

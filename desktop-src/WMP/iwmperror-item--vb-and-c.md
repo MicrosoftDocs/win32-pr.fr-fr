@@ -3,7 +3,7 @@ title: IWMPError. Item (VB et C)
 description: La propriété Item ( \_ méthode d’extraction d’élément dans C \) obtient une interface IWMPErrorItem à l’index spécifié dans la file d’attente d’erreurs.
 ms.assetid: acfaaaa5-eb13-4ba0-8417-4229adc62c5d
 keywords:
-- IWMPError. Item (VB et C) lecteur Windows Media
+- IWMPError. Item (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9217ec772512171c828dd0dad06ec8fe3704dba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be8d212eca9e9e54770e7e2751df345d80bbfb6bfc1b12714e811c7795990725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106536022"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575631"
 ---
 # <a name="iwmperroritem-vb-and-c"></a>IWMPError. Item (VB et C#)
 
@@ -57,7 +57,7 @@ Interface **wmplib. IWMPErrorItem** .
 
 ## <a name="remarks"></a>Notes
 
-Le lecteur Windows Media peut générer un certain nombre d’erreurs en réponse à une condition d’erreur. Cette propriété obtient une erreur spécifique dans la file d’attente à l’aide d’un numéro d’index. Les numéros d’index de la file d’attente d’erreurs commencent par zéro.
+Lecteur Windows Media pouvez générer un certain nombre d’erreurs en réponse à une condition d’erreur. Cette propriété obtient une erreur spécifique dans la file d’attente à l’aide d’un numéro d’index. Les numéros d’index de la file d’attente d’erreurs commencent par zéro.
 
 Vous devez définir **IWMPSettings. enableErrorDialogs** sur **false** si vous choisissez d’afficher des messages d’erreur personnalisés.
 

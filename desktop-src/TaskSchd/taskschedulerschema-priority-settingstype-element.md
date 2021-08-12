@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ecda59ecbbe23550363fb30706d73bca54fcd925
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11b71c88f63e7a3beb3c1c9ec8e1f3253bcd05a567ec5cd077f62175561ce2c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611891"
 ---
 # <a name="priority-settingstype-element"></a>Élément Priority (settingsType)
 
@@ -44,7 +44,7 @@ L’élément **Priority** est défini par le type complexe [**settingsType**](t
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le niveau de priorité 0 est la priorité la plus élevée et le niveau de priorité 10 est la priorité la plus basse. La valeur par défaut est 7. Les valeurs minimales et maximales sont définies par le type simple [**priorityType**](taskschedulerschema-prioritytype-simpletype.md) . Les niveaux de priorité 7 et 8 sont utilisés pour les tâches en arrière-plan, et les niveaux de priorité 4, 5 et 6 sont utilisés pour les tâches interactives.
 
@@ -80,8 +80,8 @@ Pour le développement de scripts, consultez [**TaskSettings. Priority**](taskse
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

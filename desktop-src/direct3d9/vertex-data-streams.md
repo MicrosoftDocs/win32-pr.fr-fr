@@ -1,17 +1,17 @@
 ---
 description: Les interfaces de rendu pour Direct3D consistent en des méthodes qui restituent des primitives à partir des données de vertex stockées dans une ou plusieurs mémoires tampons de données.
 ms.assetid: e89eae14-f480-470c-b301-f7ff316ad339
-title: Flux de données de vertex (Direct3D 9)
+title: Flux de données de Vertex (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efd45fc3f645de49060cd201a6a6e9e238712338
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4f154621da4ba03f78beee87767130e37da9e9ab9ba899af737b968fb20f0609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290382"
 ---
-# <a name="vertex-data-streams-direct3d-9"></a>Flux de données de vertex (Direct3D 9)
+# <a name="vertex-data-streams-direct3d-9"></a>Flux de données de Vertex (Direct3D 9)
 
 Les interfaces de rendu pour Direct3D consistent en des méthodes qui restituent des primitives à partir des données de vertex stockées dans une ou plusieurs mémoires tampons de données. Les données de vertex se composent d’éléments vertex combinés pour former des composants vertex. Les éléments vertex, la plus petite unité d’un vertex, représentent des entités telles que la position, la normale ou la couleur.
 

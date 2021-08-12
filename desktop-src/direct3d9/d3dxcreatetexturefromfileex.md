@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4dba1424f98389a9282fdebf9dae55c7e1601f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5964f7f466dac135d08958ef66c12a1dfe2e61a19180eb45072c5489f9f4a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299244"
 ---
 # <a name="d3dxcreatetexturefromfileex-function"></a>D3DXCreateTextureFromFileEx fonction)
 
@@ -179,7 +179,7 @@ Adresse d’un pointeur vers une interface [**IDirect3DTexture9**](/windows/win3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
@@ -191,7 +191,7 @@ Le paramètre du compilateur détermine également la version de la fonction. Si
 
 Utilisez [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) pour déterminer si votre appareil peut prendre en charge la texture en fonction de l’état actuel.
 
-Cette fonction prend en charge les formats de fichier suivants :. bmp,. DDS,. dib,. HDR,. jpg,. PFM,. png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
+Cette fonction prend en charge les formats de fichier suivants : .bmp,. DDS,. dib,. HDR, .jpg,. PFM, .png,. ppm et. tga. Consultez [**D3DXIMAGE \_ FILEFORMAT**](./d3dximage-fileformat.md).
 
 Les textures Mipmapped ont automatiquement chaque niveau rempli avec la texture chargée. Lors du chargement d’images dans des textures mipmapped, certains appareils ne peuvent pas accéder à une image 1x1 et cette fonction échoue. Dans ce cas, les images doivent être chargées manuellement.
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: fba878a40f510cc5e76256161255e01deaa7ee04
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 597f929a2a5f2800b1761fdba377f2ed022460e7585e1a9d0131d3e6e21127e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303494"
 ---
 # <a name="d3dx10_image_file_format-enumeration"></a>\_ \_ Énumération de format de fichier image d3dx10 \_
 
@@ -49,21 +49,21 @@ typedef enum D3DX10_IMAGE_FILE_FORMAT {
 <span id="D3DX10_IFF_BMP"></span><span id="d3dx10_iff_bmp"></span>**D3DX10 \_ IFF \_ BMP**
 </dt> <dd>
 
-Format de fichier bitmap Windows (BMP). Contient un en-tête qui décrit la résolution du périphérique sur lequel le rectangle de pixels a été créé, les dimensions du rectangle, la taille du tableau de bits, une palette logique et un tableau de bits qui définit la relation entre les pixels de l’image bitmap et les entrées de la palette logique. L’extension de fichier pour ce format est. bmp.
+format de fichier BMP (Windows bitmap). Contient un en-tête qui décrit la résolution du périphérique sur lequel le rectangle de pixels a été créé, les dimensions du rectangle, la taille du tableau de bits, une palette logique et un tableau de bits qui définit la relation entre les pixels de l’image bitmap et les entrées de la palette logique. L’extension de fichier pour ce format est .bmp.
 
 </dd> <dt>
 
 <span id="D3DX10_IFF_JPG"></span><span id="d3dx10_iff_jpg"></span>**D3DX10 \_ IFF \_ jpg**
 </dt> <dd>
 
-Format de fichier compressé JPEG (Joint Photographic Experts Group). Spécifie la compression des variables des fichiers de document image TIFF (Tagged Image File Format) de 24 bits et de 8 bits. L’extension de fichier pour ce format est. jpg.
+Format de fichier compressé JPEG (Joint Photographic Experts Group). Spécifie la compression des variables des fichiers de document image TIFF (Tagged Image File Format) de 24 bits et de 8 bits. L’extension de fichier pour ce format est .jpg.
 
 </dd> <dt>
 
 <span id="D3DX10_IFF_PNG"></span><span id="d3dx10_iff_png"></span>**\_Png d3dx10 IFF \_**
 </dt> <dd>
 
-Format de fichier PNG (Portable Network Graphics). Format bitmap non propriétaire utilisant la compression sans perte. L’extension de fichier pour ce format est. png.
+Format de fichier PNG (Portable Network Graphics). Format bitmap non propriétaire utilisant la compression sans perte. L’extension de fichier pour ce format est .png.
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ TIFF (Tagged Image File Format). Les extensions de fichier pour ce format sont. 
 <span id="D3DX10_IFF_GIF"></span><span id="d3dx10_iff_gif"></span>**\_Gif d3dx10 IFF \_**
 </dt> <dd>
 
-Format GIF (Graphics Interchange Format). L’extension de fichier pour ce format est. gif.
+Format GIF (Graphics Interchange Format). L’extension de fichier pour ce format est .gif.
 
 </dd> <dt>
 
@@ -106,9 +106,9 @@ Force cette énumération à se compiler à 32 bits de taille. Sans cette valeur
 
 ## <a name="remarks"></a>Notes
 
-Pour plus d’informations sur certains de ces formats, consultez [types de bitmaps (GDI+)](../gdiplus/-gdiplus-types-of-bitmaps-about.md) .
+pour plus d’informations sur certains de ces formats [, consultez Types de bitmaps (GDI+)](../gdiplus/-gdiplus-types-of-bitmaps-about.md) .
 
-D3DX10 utilise le composant de création d’images Windows pour implémenter la majorité des types de fichiers bitmap pris en charge. Pour plus d’informations, consultez [vue d’ensemble du composant de création d’images Windows](https://msdn.microsoft.com/library/ms737408.aspx) .
+D3DX10 utilise le composant de création d’images Windows pour implémenter la majorité des types de fichiers bitmap pris en charge. pour plus d’informations, consultez [Windows vue d’ensemble du composant de création d’images](https://msdn.microsoft.com/library/ms737408.aspx) .
 
 ## <a name="requirements"></a>Configuration requise
 

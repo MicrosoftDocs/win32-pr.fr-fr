@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 195eadfb4700a5ac9d28bb7ea1152228fae9480a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f3faf980b6e03eb75f8c64d7aaab0facf58047f188f764428d7903f75118a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620227"
 ---
 # <a name="name-lanpolicy-element"></a>Élément Name (LANPolicy)
 
@@ -31,7 +31,7 @@ L’élément Name (LANPolicy) contient le nom d’une stratégie de réseau loc
 
 L’élément **Name** est défini par l’élément [**LANPolicy**](lan-policyschema-lanpolicy-element.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms ne respectent pas la casse.
 
@@ -41,8 +41,8 @@ Les noms ne respectent pas la casse.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
