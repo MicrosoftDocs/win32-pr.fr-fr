@@ -1,9 +1,9 @@
 ---
 title: STARTTIME, élément
-description: L’élément STARTTIME définit un index de temps à partir duquel le lecteur Windows Media va commencer le rendu du flux.
+description: l’élément STARTTIME définit un index de temps à partir duquel Lecteur Windows Media démarrera le rendu du flux.
 ms.assetid: 9b0199c8-5c95-4b4e-a943-e3bd037bf0bc
 keywords:
-- STARTTIME, élément Windows Media Player
+- STARTTIME, élément Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8a882da6c07ec76a94c8e214fe1da11c71680b0c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9138b05b949098c59996c69143059de5cb5b25cafcd8da7d922de120d586b356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568791"
 ---
 # <a name="starttime-element"></a>STARTTIME, élément
 
-L’élément **StartTime** définit un index de temps à partir duquel le lecteur Windows Media va commencer le rendu du flux.
+l’élément **STARTTIME** définit un index de temps à partir duquel Lecteur Windows Media démarrera le rendu du flux.
 
 ``` syntax
 <STARTTIME
@@ -34,7 +34,7 @@ L’élément **StartTime** définit un index de temps à partir duquel le lecte
 
 **Valeur** (obligatoire)
 
-L’index de temps (en heures, minutes, secondes et centièmes de seconde) à partir duquel le lecteur Windows Media commence à lire un flux défini dans l’élément associé.
+l’index de temps (en heures, minutes, secondes et centièmes de seconde) à partir duquel Lecteur Windows Media commence à lire un flux défini dans l’élément associé.
 
 ## <a name="parentchild-elements"></a>Éléments parent/enfant
 
@@ -51,7 +51,7 @@ L’index de temps (en heures, minutes, secondes et centièmes de seconde) à pa
 
 ## <a name="remarks"></a>Notes
 
-Cet élément définit un index de temps dans le contenu où le lecteur Windows Media doit commencer le rendu du flux. Cet élément peut être utilisé uniquement avec le contenu stocké à la demande qui a été indexé.
+cet élément définit un index de temps dans le contenu où Lecteur Windows Media doit commencer le rendu du flux. Cet élément peut être utilisé uniquement avec le contenu stocké à la demande qui a été indexé.
 
 ## <a name="examples"></a>Exemples
 
@@ -76,10 +76,10 @@ Cet élément définit un index de temps dans le contenu où le lecteur Windows 
 
 <dl> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Informations de référence sur les métafichiers Windows Media**](windows-media-metafile-reference.md)
+[**Windows Référence du métafichier multimédia**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

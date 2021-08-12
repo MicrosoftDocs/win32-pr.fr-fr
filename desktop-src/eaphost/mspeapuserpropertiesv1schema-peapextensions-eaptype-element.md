@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b264bbb37d25053dadd66c7656811792432cf603
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0880c9c37015b5695598cf6b219cfe9a4857e91080dba46285170885b0317e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272807"
 ---
 # <a name="peapextensions-eaptype-element-user-properties"></a>Élément PeapExtensions (EapType) (propriétés utilisateur)
 
@@ -41,10 +41,10 @@ L’élément **PeapExtensions (EapType)** est facultatif.
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Rôle | Version minimale du système d’exploitation prise en charge |
 |------|------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

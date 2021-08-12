@@ -4,12 +4,12 @@ ms.assetid: C5F140DD-5BAF-404A-9253-611831C4D424
 title: Affichage du taux d’actualisation des variables
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da6e658d84c51a6b51bc32855226194b9c22507e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 349592ce49d1008f6337b53c7f524ac7303907f75cd99205fe79bf55988b934b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104200716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118288922"
 ---
 # <a name="variable-refresh-rate-displays"></a>Affichage du taux d’actualisation des variables
 
@@ -22,9 +22,9 @@ Le taux d’actualisation des variables indique que le *déchirement* doit être
 
 La prise en charge des taux d’actualisation des variables s’affiche en définissant certains indicateurs lors de la création et de la présentation de la chaîne de permutation.
 
-Pour utiliser cette fonctionnalité, les utilisateurs de l’application doivent se trouver sur des systèmes Windows 10 avec [KB3156421](https://support.microsoft.com/kb/3156421) ou la mise à jour anniversaire installée. La fonctionnalité fonctionne sur toutes les versions de Direct3D 11 et 12 à l’aide de l'*effet d’échange * dxgi \_ \_ \_ bascule \_ \** _ permuter les effets.
+pour utiliser cette fonctionnalité, les utilisateurs de l’application doivent se trouver sur des systèmes Windows 10 avec [KB3156421](https://support.microsoft.com/kb/3156421) ou la mise à jour anniversaire installée. La fonctionnalité fonctionne sur toutes les versions de Direct3D 11 et 12 à l’aide de l' **\_ effet d’échange dxgi \_ \_ bascule \_ \*** les effets d’échange.
 
-Pour ajouter la prise en charge de Vsync à vos applications, vous pouvez vous référer à un exemple complet d’exécution pour Direct3D 12, _ *D3D12Fullscreen** (voir les [exemples de travail](../direct3d12/working-samples.md)). Il y a également quelques points qui ne sont pas explicitement appelés dans l’exemple de code, mais vous devez faire attention à.
+Pour ajouter la prise en charge de Vsync à vos applications, vous pouvez vous référer à un exemple complet d’exécution pour Direct3D 12, **D3D12Fullscreen** (voir les [exemples de travail](../direct3d12/working-samples.md)). Il y a également quelques points qui ne sont pas explicitement appelés dans l’exemple de code, mais vous devez faire attention à.
 
 -   [**ResizeBuffers**](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-resizebuffers) (ou [**ResizeBuffers1**](/windows/desktop/api/DXGI1_4/nf-dxgi1_4-idxgiswapchain3-resizebuffers1)) doit avoir le même indicateur de création de chaîne de permutation (dxgi d’activation de l' \_ indicateur de chaîne de permutation \_ \_ \_ \_ ) passé comme [**présent**](/windows/desktop/api/DXGI/nf-dxgi-idxgiswapchain-present) (ou [**Present1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)).
 -   DXGI \_ présente \_ autoriser le \_ déchirement ne peut être utilisé qu’avec l’intervalle de synchronisation 0. Il est recommandé de toujours transmettre cet indicateur de suppression lors de l’utilisation de l’intervalle de synchronisation 0 si [**CheckFeatureSupport**](/windows/desktop/api/DXGI1_5/nf-dxgi1_5-idxgifactory5-checkfeaturesupport) signale que le déchirement est pris en charge *et* que l’application est en mode fenêtre, y compris le mode plein écran sans bordure. Pour plus d’informations, reportez-vous aux constantes [**\_ présentes dans dxgi**](dxgi-present.md) .

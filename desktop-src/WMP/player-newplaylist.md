@@ -3,9 +3,9 @@ title: Player. newPlaylist, méthode
 description: La méthode newPlaylist crée un nouvel objet playlist.
 ms.assetid: a566006e-8647-4c51-ab77-762728f25a30
 keywords:
-- méthode newPlaylist lecteur Windows Media
-- méthode newPlaylist lecteur Windows Media, classe Player
-- Classe player lecteur Windows Media, méthode newPlaylist
+- Lecteur Windows Media de la méthode newPlaylist
+- méthode newPlaylist Lecteur Windows Media, classe Player
+- Lecteur Windows Media de classe Player, méthode newPlaylist
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa65ae4b453fe919116a33c5ee86b14ba353f681
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 380d1f2751487f5c648b154852be625a5c93103851541dea7e2488ba75080ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572829"
 ---
 # <a name="playernewplaylist-method"></a>Player. newPlaylist, méthode
 
@@ -53,11 +53,11 @@ retVal = Player.newPlaylist(
 *URL* \[ dans\]
 </dt> <dd>
 
-**Chaîne** contenant l’URL de la sélection des métafichiers Windows Media pour créer l’objet de **sélection** .
+**chaîne** contenant l’URL de la sélection de métafichier multimédia Windows pour créer l’objet de **sélection** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne un objet **playlist** .
 
@@ -93,7 +93,7 @@ La nouvelle playlist créée avec cette méthode n’est pas ajoutée à la bibl
 [**PlaylistCollection. newPlaylist**](playlistcollection-newplaylist.md)
 </dt> <dt>
 
-[**Fichiers Windows Media**](windows-media-metafiles.md)
+[**Windows Fichiers multimédias**](windows-media-metafiles.md)
 </dt> </dl>
 
  

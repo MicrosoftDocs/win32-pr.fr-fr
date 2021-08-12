@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 60a700f27652bd1c522a585a989300ea8817df98
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1bc0c348b7c9b383f5e2caa0b893460b79cb622bac40c3bc57049fca1f4e9ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104102325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273402"
 ---
 # <a name="eaptlsuserpropertiesv1-schema-elements"></a>Éléments de schéma eaptlsuserpropertiesv1
 
@@ -34,9 +34,9 @@ Le schéma [eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-schema.md) est 
 [Schéma eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

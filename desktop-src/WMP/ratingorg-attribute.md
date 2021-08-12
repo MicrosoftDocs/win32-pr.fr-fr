@@ -3,7 +3,7 @@ title: Attribut RatingOrg
 description: L’attribut RatingOrg est le nom du fournisseur de la valeur d’évaluation.
 ms.assetid: 166ffd00-e814-49fd-83d9-b6e931259b41
 keywords:
-- Attribut RatingOrg lecteur Windows Media
+- Lecteur Windows Media de l’attribut RatingOrg
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28f51c06fec5e360793d5314f5fa9904c8d03850
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbeb5e83b0c572fe09cad987e63712a57fd9bde1e059e5d3aeacf1e41f4316a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570492"
 ---
 # <a name="ratingorg-attribute"></a>Attribut RatingOrg
 

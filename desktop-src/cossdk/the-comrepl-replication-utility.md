@@ -4,12 +4,12 @@ ms.assetid: 11aa7603-61f1-4af0-b6f9-81f484788052
 title: L’utilitaire de réplication COMREPL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a08ecd77a679b6fc150e7a91fc0214eb829792dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 446cfc0e627463e8c142ccab624c3773123034c2becebc402a6069f74d30ccd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305294"
 ---
 # <a name="the-comrepl-replication-utility"></a>L’utilitaire de réplication COMREPL
 

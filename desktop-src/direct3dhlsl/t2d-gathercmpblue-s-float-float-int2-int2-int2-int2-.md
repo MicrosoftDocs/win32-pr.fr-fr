@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9d66364dd1c07d692c87a9e3a05501a56a587cb3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 26638d790223f362dc2ba5d23f5f70500fe967fd6e026aef8321875b02872dbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285019"
 ---
 # <a name="texture2dgathercmpbluesfloatfloatint2int2int2int2-function"></a>Texture2D :: GatherCmpBlue (S, float, float, Int2, Int2, Int2, Int2), fonction
 
@@ -108,7 +108,7 @@ Quatrième composant de décalage appliqué aux coordonnées de texture avant l�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **TemplateType**
 
@@ -122,7 +122,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

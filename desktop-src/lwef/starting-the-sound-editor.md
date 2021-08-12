@@ -4,12 +4,12 @@ description: Démarrage de l’éditeur Sound
 ms.assetid: bf910be0-46ad-4993-95a2-26575f2e5797
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05e2da01084881ca38ce1e11e70959720ceec6c8
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 4cb10ffa266ff4a8444adc760ec819ef5d91e6c7509d175432fc962f04386f38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "106527026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246109"
 ---
 # <a name="starting-the-sound-editor"></a>Démarrage de l’éditeur Sound
 

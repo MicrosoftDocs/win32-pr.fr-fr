@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ceae33a201086d268942e47496874678ec13f459
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7139c567eab5fbb3c324916dec260d34f57429cb50bb99d199f35be8aee7a1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573214"
 ---
 # <a name="playercurrentplaylist"></a>Player. currentPlaylist
 
@@ -35,13 +35,13 @@ Cette propriété est un objet de **sélection** en lecture/écriture.
 
 ## <a name="remarks"></a>Notes
 
-Si les *paramètres*. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentPlaylist**.
+si le *Paramètres*. la propriété **AutoStart** a la valeur true, la lecture commence automatiquement chaque fois que vous définissez **currentPlaylist**.
 
 Cette propriété prend un objet playlist, qui peut être acquis de plusieurs façons, par exemple en appelant *PlaylistArray*. **Item** ou *PlaylistCollection*. **newPlaylist**. Pour charger un élément de **sélection** à l’aide d’un nom de fichier, définissez la propriété URL ou utilisez *Player*. **newPlaylist**.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant récupère la première sélection de la bibliothèque. Il utilise ensuite **currentPlaylist** pour faire de la sélection Récupérée la sélection actuelle, puis pour afficher le nom de la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant récupère la première sélection de la bibliothèque. Il utilise ensuite **currentPlaylist** pour faire de la sélection Récupérée la sélection actuelle, puis pour afficher le nom de la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

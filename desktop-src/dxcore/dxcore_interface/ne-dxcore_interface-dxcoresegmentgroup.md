@@ -4,12 +4,12 @@ description: Définit des constantes qui spécifient le regroupement des segment
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: ce94d5f806879ea84f64c88d3a62b074a5c5415b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2474f8084035ddb67f7081ea45cd1d1743c053415a7bbade68ecff3d4527636c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106536278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279621"
 ---
 # <a name="dxcoresegmentgroup-enum"></a>Énumération DXCoreSegmentGroup
 

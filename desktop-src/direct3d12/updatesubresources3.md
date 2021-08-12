@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 237e7df26b35b4cb5b1dba7b2a80c1baaac64e8c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 43ffe9dd9e519b402126976db8ceaf1aba32f6d36a73745c951bb6a8db52a7fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106525869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300444"
 ---
 # <a name="updatesubresources-stack-allocating-function"></a>Updatesubresources par (allocation de pile) (fonction)
 
@@ -110,7 +110,7 @@ Pointeur vers un tableau (de longueur *NumSubresources*) de pointeurs vers des s
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **UINT64**](/windows/desktop/WinProg/windows-data-types)**
 

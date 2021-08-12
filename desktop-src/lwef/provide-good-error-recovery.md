@@ -4,12 +4,12 @@ description: Fournir une bonne récupération d’erreur
 ms.assetid: 48e00638-9274-49db-93ec-ed444f526441
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a20a3d203ab0fcd93a6f4645be4af44b049f3cd
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 486e6db4365e9a279c844e7637ca3281a66b51a2e47d6d2d74d374ab4c55f146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246919"
 ---
 # <a name="provide-good-error-recovery"></a>Fournir une bonne récupération d’erreur
 

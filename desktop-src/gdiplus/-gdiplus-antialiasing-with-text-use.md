@@ -4,12 +4,12 @@ ms.assetid: 780d97ec-f446-4d19-837f-517a7d6dd27d
 title: Anticrénelage avec du texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c7b7c59a436db6c16251aa8e866648eed5cc51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9411206351340f58b63196ff880745743ad92325918b112ad2ddb5bcb8591e9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249923"
 ---
 # <a name="antialiasing-with-text"></a>Anticrénelage avec du texte
 

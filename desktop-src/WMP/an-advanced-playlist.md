@@ -3,22 +3,22 @@ title: Une sélection avancée
 description: Une sélection avancée
 ms.assetid: 3f27562f-bc3b-4b7f-a83b-78317d3ad612
 keywords:
-- Sélections de métafichiers Windows Media, exemples de sélection
+- Windows Sélections de métafichiers multimédias, exemples de sélection
 - sélections, exemples de sélection
 - sélections de métafichiers, exemples de sélection
-- Sélections de métafichiers Windows Media, exemples de sélections
+- Windows Sélections de métafichiers multimédia, exemples de sélections
 - sélections, exemples de sélections
 - sélections de métafichiers, exemples de sélections
-- Sélections de métafichiers Windows Media, exemples de sélections
+- Windows Sélections de métafichiers multimédias, exemples de sélections
 - sélections, exemples de sélections
 - sélections de métafichiers, exemples de sélections
-- Sélections de métafichiers Windows Media, exemple de code
+- Windows Sélections de métafichiers multimédia, exemple de code
 - sélections, exemple de code
 - sélections de métafichiers, exemple de code
-- Sélections de métafichiers Windows Media, exemple de sélection avancée
+- Windows Sélections de métafichiers multimédias, exemple de sélection avancée
 - sélections, exemple de sélection avancée
 - sélections de métafichiers, exemple de sélection avancée
-- Windows Media Player, exemples de sélection
+- Lecteur Windows Media, exemples de sélection
 - Lecteur Windows Media, exemples de sélections
 - Lecteur Windows Media, exemples de sélections
 - Lecteur Windows Media, exemple de sélection avancée
@@ -32,16 +32,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f52251fedb13d41be5c94706bee4460c3f13c1e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6573d5bef05c8af943368a12d03677526a9783915d6915b6cc5f1516bc9942f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583256"
 ---
 # <a name="an-advanced-playlist"></a>Une sélection avancée
 
-L’exemple de sélection suivant montre comment utiliser un ensemble plus complet d’éléments de sélection. Lorsque vous écrivez votre propre code, vous devez remplacer toutes les URL et tous les noms de fichiers par des noms de fichiers valides accessibles à votre lecteur Windows Media.
+L’exemple de sélection suivant montre comment utiliser un ensemble plus complet d’éléments de sélection. lorsque vous écrivez votre propre code, vous devez remplacer toutes les url et tous les noms de fichiers par des noms de fichiers valides accessibles à votre Lecteur Windows Media.
 
 Exemple de code
 
@@ -92,13 +92,13 @@ Le tableau suivant décrit la sélection avancée précédente.
 
 
 
-| Lignes                                                                                            | Description                                                                                                                                                                                                                                                                                                                             |
+| Ligne                                                                                            | Description                                                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `<ASX version = "3.0">`                                                                     | L’élément [ASX](asx-element.md) identifie pour le client (lecteur Windows Media) qu’il s’agit d’une sélection de métafichiers Windows Media. L’attribut **version** spécifie le numéro de version des éléments du métafichier.                                                                                                                    |
-| `<TITLE>Advanced Playlist Demo</TITLE>`                                               | L’élément [title](title-element--metafile.md) identifie le titre de la sélection dans son ensemble. Le lecteur Windows Media affiche ces métadonnées en tant que titre d’affichage.                                                                                                                                                                        |
+| `<ASX version = "3.0">`                                                                     | l’élément [ASX](asx-element.md) identifie pour le client (Lecteur Windows Media) qu’il s’agit d’une sélection de métafichier Windows Media. L’attribut **version** spécifie le numéro de version des éléments du métafichier.                                                                                                                    |
+| `<TITLE>Advanced Playlist Demo</TITLE>`                                               | L’élément [title](title-element--metafile.md) identifie le titre de la sélection dans son ensemble. Lecteur Windows Media affiche ces métadonnées en tant que titre d’affichage.                                                                                                                                                                        |
 | `<ABSTRACT>More Information at this Web Site< /ABSTRACT>`                             | L’élément [abstract](abstract-element.md) fournit l’info-bulle pour le titre de l’affichage.                                                                                                                                                                                                                                                   |
 | `<MOREINFO HREF ="https://www.microsoft.com/windows/windowsmedia" />`                        | L’élément [moreinfo](moreinfo-element.md) lie le titre d’affichage à une URL. La suspension du pointeur de la souris sur le titre du diaporama accède à l’info-bulle, si elle est définie. Sélectionnez l’option Afficher le titre pour ouvrir l’URL désignée.                                                                                                                |
-| `<BANNER HREF = "..\\samples\\home.gif">`                                                   | L’élément [bannière](banner-element.md) crée une bannière publicitaire dans le lecteur Windows Media. L’attribut **href** spécifie le graphique de bannière (qui doit être de 194 pixels de largeur par 32 pixels de haut).                                                                                                                                  |
+| `<BANNER HREF = "..\\samples\\home.gif">`                                                   | l’élément [banner](banner-element.md) crée une bannière publicitaire dans Lecteur Windows Media. L’attribut **href** spécifie le graphique de bannière (qui doit être de 194 pixels de largeur par 32 pixels de haut).                                                                                                                                  |
 | `<ABSTRACT>MSN website</ABSTRACT>`                                                    | L’élément [abstract](abstract-element.md) fournit l’info-bulle de la **bannière**.                                                                                                                                                                                                                                                   |
 | `<MOREINFO HREF = "https://www.msn.com" </ABSTRACT>`                                      | L’élément [moreinfo](moreinfo-element.md) lie le graphique de **bannière** à une URL. Le maintien du pointeur de la souris sur la **bannière** accède à une info-bulle, si elle est définie. La sélection de la **bannière** permet d’ouvrir l’URL désignée.                                                                                                                |
 | <PARAM name = "track" value="1"/>                                                         | L’élément [param](param-element.md) définit un paramètre personnalisé. L’attribut **Name** définit le nom du paramètre personnalisé comme « Track ». L’attribut **value** définit la valeur de « Track » sur « 1 ».                                                                                                                          |
@@ -111,9 +111,9 @@ Le tableau suivant décrit la sélection avancée précédente.
 | `<MOREINFO HREF = "https://www.msn.com" />`                                                  | Fournit un lien vers l’URL du texte du **titre** du clip.                                                                                                                                                                                                                                                                                 |
 | `<!--This is the ToolTip text for the Title text -->`                                       | Commentaire. Les [Commentaires](comments.md) ne sont visibles que lorsque le code est affiché.                                                                                                                                                                                                                                                        |
 | `<Abstract>Visit the YourImage website</abstract>`                                    | Fournit l’info-bulle pour le texte du **titre** du clip.                                                                                                                                                                                                                                                                                       |
-| `<TITLE>The first entry in an advanced playlist</TITLE>`                              | Identifie le titre du clip. Il s’agit du **titre** du clip, car il est imbriqué dans un élément d' **entrée** . Le lecteur Windows Media affiche ces métadonnées en tant que titre du clip.                                                                                                                                                             |
-| `<AUTHOR>YourImage</AUTHOR>`                                                          | Identifie l’auteur du clip multimédia. Ces métadonnées s’affichent en tant qu' **auteur** du clip par le lecteur Windows Media.                                                                                                                                                                                                                     |
-| `<COPYRIGHT>(c)2000 YourImage</COPYRIGHT>`                                            | L’élément [Copyright](copyright-element.md) spécifie les droits d’auteur associés au clip multimédia. Le lecteur Windows Media affiche ces métadonnées sous forme de COPYRIGHT.                                                                                                                                                              |
+| `<TITLE>The first entry in an advanced playlist</TITLE>`                              | Identifie le titre du clip. Il s’agit du **titre** du clip, car il est imbriqué dans un élément d' **entrée** . Lecteur Windows Media affiche ces métadonnées en tant que titre de clip.                                                                                                                                                             |
+| `<AUTHOR>YourImage</AUTHOR>`                                                          | Identifie l’auteur du clip multimédia. ces métadonnées s’affichent en tant qu' **auteur** de clip par Lecteur Windows Media.                                                                                                                                                                                                                     |
+| `<COPYRIGHT>(c)2000 YourImage</COPYRIGHT>`                                            | L’élément [Copyright](copyright-element.md) spécifie les droits d’auteur associés au clip multimédia. Lecteur Windows Media affiche ces métadonnées sous forme de COPYRIGHT du clip.                                                                                                                                                              |
 | `<!-- This is a comment. Change the following path to point to your Windows Media file -->` | Commentaire, dans le même format que les commentaires **XML** .                                                                                                                                                                                                                                                                                      |
 | `<REF HREF = "..\\media\\laure.wma" />`                                                     | URL du contenu multimédia. L’élément [ref](ref-element.md) identifie la ligne comme un pointeur vers du contenu multimédia. L’attribut **href** est l’URL du fichier. Notez l’utilisation de la fermeture de l’élément de type XML, « /> » au lieu de « &lt; /Ref &gt; ». Étant donné que cet élément n’a pas d’éléments enfants, il se ferme lui-même.<br/> |
 | `</ENTRY>`                                                                                  | Spécifie la fin du du premier élément d' **entrée** .                                                                                                                                                                                                                                                                                |
@@ -144,10 +144,10 @@ Le tableau suivant décrit la sélection avancée précédente.
 [**Sélections de métafichiers**](metafile-playlists.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de métafichier Windows Media**](windows-media-metafile-elements-reference.md)
+[**Windows Informations de référence sur les éléments de métafichier multimédia**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Guide des métafichiers Windows Media**](windows-media-metafile-guide.md)
+[**Windows Guide du métafichier multimédia**](windows-media-metafile-guide.md)
 </dt> </dl>
 
  

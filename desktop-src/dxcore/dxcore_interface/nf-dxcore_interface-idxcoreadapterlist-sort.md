@@ -4,12 +4,12 @@ description: Trie un objet de liste d’adaptateurs DXCore en fonction d’un ta
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
-ms.openlocfilehash: 6260e700053a99b531a66a5c19e15d4a32f07e46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 59580fb8b76c80a264796f829d2b0a1d2e8eabb4375896fbd27fb34a7697cf90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104102196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278870"
 ---
 # <a name="idxcoreadapterlistsort-method"></a>IDXCoreAdapterList :: sort, méthode
 

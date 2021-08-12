@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8aab23466cecf43a50a4136eb0b3d93a271dcb0e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2acca9d1b697bb9b06b47aa75948ca74ec00cc7ecb919334c01cf874293cb495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299284"
 ---
 # <a name="d3dxcreatecompressedanimationset-function"></a>D3DXCreateCompressedAnimationSet fonction)
 
@@ -109,7 +109,7 @@ Adresse d’un pointeur vers l’interface [**ID3DXCompressedAnimationSet**](id3
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

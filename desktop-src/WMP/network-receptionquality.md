@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3706ba4d953f80c4a9e799971a7e73d49553c709
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 159bcac192d5a5bd9197ecc3ea935027dd6d707dde42a54c64a318459ae00040
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574155"
 ---
 # <a name="networkreceptionquality"></a>Network. receptionQuality
 
@@ -43,7 +43,7 @@ Cette propriété retourne des informations valides uniquement au moment de l’
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise le *réseau*. **receptionQuality** pour afficher le pourcentage de paquets reçus. Les informations sont affichées dans une balise DIV HTML créée avec ID = "RQ". L’exemple utilise un minuteur avec un intervalle de 30 secondes pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise le *réseau*. **receptionQuality** pour afficher le pourcentage de paquets reçus. Les informations sont affichées dans une balise DIV HTML créée avec ID = "RQ". L’exemple utilise un minuteur avec un intervalle de 30 secondes pour mettre à jour l’affichage. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -3,19 +3,19 @@ title: Modification de la propriété Scale
 description: Modification de la propriété Scale
 ms.assetid: 32ebaa54-ed13-4b10-8876-bf8e188d7317
 keywords:
-- Plug-ins du lecteur Windows Media, exemples de propriétés Echo
+- Lecteur Windows Media les plug-ins, exemples de propriétés Echo
 - plug-ins, exemples de propriétés d’écho
 - plug-ins de traitement de signal numérique, exemples de propriétés Echo
 - Plug-ins DSP, exemples de propriétés Echo
 - Echo DSP, exemple de plug-in, propriété Scale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd91e2315db9d0d1e14d2aec55f79a8b05c442ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b10073e01213469dcb6a85ddffd378421fddb6ae8f2fd432b9822c3a5046fdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574616"
 ---
 # <a name="modifying-the-scale-property"></a>Modification de la propriété Scale
 
@@ -82,9 +82,9 @@ HRESULT put_delay([in] DWORD newVal);
 [**Exemples de propriétés Echo**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

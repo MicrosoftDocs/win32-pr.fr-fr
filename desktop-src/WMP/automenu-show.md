@@ -3,7 +3,7 @@ title: MENU automatique. afficher
 description: La méthode Show affiche le panneau d’accès rapide.
 ms.assetid: c4f2b106-180a-4526-af9b-6ce54c083578
 keywords:
-- MENU automatique. afficher le lecteur Windows Media
+- menu automatique. afficher Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cf3085065f10225c98071d5259480eb58216e75
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 48f160ca3433e42ee78c973312439b3e269fc49bf10e6dfafb93ae4e6f17e99f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582781"
 ---
 # <a name="automenushow"></a>MENU automatique. afficher
 

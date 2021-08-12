@@ -3,7 +3,7 @@ title: Inscription du fournisseur de services
 description: Inscription du fournisseur de services
 ms.assetid: 556d6519-bc24-446b-a360-e3d83b40d541
 keywords:
-- Windows Media Gestionnaire de périphériques, inscrire des fournisseurs de services
+- Windows Gestionnaire de périphériques de média, inscrire des fournisseurs de services
 - Gestionnaire de périphériques, inscrire des fournisseurs de services
 - Guide de programmation, inscrire des fournisseurs de services
 - fournisseurs de services, inscrire des fournisseurs de services
@@ -11,16 +11,16 @@ keywords:
 - inscription des fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1226b724b06990fc1e000a522e3a61672789cf3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f480fff04d34cf671bdc37e3bcded92c73f20d31d2fb67e4d6e41593a724d392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584283"
 ---
 # <a name="registering-the-service-provider"></a>Inscription du fournisseur de services
 
-En plus d’être inscrit en tant qu’objet COM, un fournisseur de services doit être inscrit en tant que plug-in pour Windows Media Gestionnaire de périphériques. Pour s’inscrire, un fournisseur de services doit créer la clé de Registre suivante :
+en plus d’être inscrit en tant qu’objet COM, un fournisseur de services doit être inscrit en tant que plug-in pour Windows Gestionnaire de périphériques de média. Pour s’inscrire, un fournisseur de services doit créer la clé de Registre suivante :
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Media Device Manager\Plugins\SP\<             `
 
@@ -35,9 +35,9 @@ L’exemple d’implémentation du fournisseur de services de DLLRegisterServer 
 [**Création d’un fournisseur de services**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

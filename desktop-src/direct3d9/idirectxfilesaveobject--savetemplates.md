@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 3c63ae2e0f211aa8e7064161d03a66cafe1e8289
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 87ec95932b26877354c22089a97b249bd542aa841552c3e3f9e4827a20f6d608
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118292220"
 ---
 # <a name="idirectxfilesaveobjectsavetemplates-method"></a>IDirectXFileSaveObject :: SaveTemplates, méthode
 
@@ -59,7 +59,7 @@ Adresse d’un pointeur vers un tableau de GUID pour tous les modèles à enregi
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

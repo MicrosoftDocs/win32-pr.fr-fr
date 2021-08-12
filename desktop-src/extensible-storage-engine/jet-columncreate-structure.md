@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ee2d9d194a03cf575eb0296163526c1c50301cf4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b14388f26e21550319b910ac01d9ee0dde4d5890336c91e1fca76bc68cce93f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254979"
 ---
 # <a name="jet_columncreate-structure"></a>Structure JET_COLUMNCREATE
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_columncreate-structure"></a>Structure JET_COLUMNCREATE
 
@@ -109,8 +109,8 @@ Groupe de bits qui contiennent les options pour cette structure, et qui incluent
 <tr class="even">
 <td><p>JET_bitColumnAutoincrement</p></td>
 <td><p>La colonne est incrémentée automatiquement. Le nombre est un nombre plus important et il est garanti qu’il est unique dans une table. Toutefois, le nombre ne peut pas être continu. Par exemple, si cinq lignes sont insérées dans une table, la colonne AutoIncrement peut contenir les valeurs {1, 2, 6, 7, 8}.</p>
-<p><strong>Windows 2000 :  </strong> Ce bit ne peut être utilisé que sur des colonnes de type <strong>JET_coltypLong</strong>.</p>
-<p><strong>Windows Server 2003 et versions ultérieures :  </strong> Ce bit ne peut être utilisé que sur des colonnes de type <strong>JET_coltypLong</strong> ou <strong>JET_coltypCurrency</strong>.</p></td>
+<p><strong>Windows 2000 :</strong> Ce bit ne peut être utilisé que sur des colonnes de type <strong>JET_coltypLong</strong>.</p>
+<p><strong>Windows Server 2003 et versions ultérieures :</strong> Ce bit ne peut être utilisé que sur des colonnes de type <strong>JET_coltypLong</strong> ou <strong>JET_coltypCurrency</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitColumnUpdatable</p></td>
@@ -209,11 +209,11 @@ Le champ **Err** contient l’état de la création de cette colonne. Pour obten
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

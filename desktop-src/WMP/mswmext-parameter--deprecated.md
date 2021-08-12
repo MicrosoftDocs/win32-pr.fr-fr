@@ -3,7 +3,7 @@ title: Paramètre MSWMExt (déconseillé)
 description: Paramètre MSWMExt (déconseillé)
 ms.assetid: cc52da1a-26d1-4321-b421-b0d6f44635cc
 keywords:
-- Fichiers Windows Media, paramètre MSWMExt
+- Windows Fichiers multimédias, paramètre MSWMExt
 - MSWMExt, paramètre
 - Paramètre MSWMExt
 ms.topic: article
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 745ecfb2cf716e973aec3d574247e3e45d8f49ff
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2ec80530f95d4429769758488e5a2b24b0268c57255248c7685a0d00125aa130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104381597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574596"
 ---
 # <a name="mswmext-parameter-deprecated"></a>Paramètre MSWMExt (déconseillé)
 
@@ -54,12 +54,12 @@ Les programmes clients utilisent parfois une extension de nom de fichier ou un t
 
 <dl> <dt>
 
-[**Versions précédentes des fichiers Windows Media (déconseillés)**](previous-versions-of-windows-media-metafiles--deprecated.md)
+[**Versions précédentes de Windows les fichiers multimédias (dépréciés)**](previous-versions-of-windows-media-metafiles--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

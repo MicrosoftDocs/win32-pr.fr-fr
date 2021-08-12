@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 5fa23684be1b63cfbd8e3d07d3578d87fdfbf46a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1eabe3a88fb3d38021eee8f186baed1d8403d18026d4d1704d520ad3c8b8f72c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303169"
 ---
 # <a name="id3dx10fontdrawtext-method"></a>ID3DX10Font ::D méthode rawText
 
@@ -120,7 +120,7 @@ Couleur du texte. Consultez [**D3DXCOLOR**](d3d10-d3dxcolor.md).
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **int**](../winprog/windows-data-types.md)**
 

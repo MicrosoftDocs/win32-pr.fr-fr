@@ -3,7 +3,7 @@ title: Message WM_COPYDATA (winuser. h)
 description: Une application envoie le \_ message WM COPYDATA pour passer des données à une autre application.
 ms.assetid: d937a260-9fd2-4450-a762-20120f589ab1
 keywords:
-- WM_COPYDATA l’échange de données de message
+- WM_COPYDATA des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8160c88b11fa109e8bbfaa06f0f6c45c9b7daed0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4eb91b2544bf0ebf0e8767a611b422de9aaaf1d73161e47c7bf27768f4acecb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304484"
 ---
 # <a name="wm_copydata-message"></a>\_Message WM COPYDATA
 
@@ -50,7 +50,7 @@ Pointeur vers une structure [**COPYDATASTRUCT**](/windows/win32/api/winuser/ns-w
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si l’application réceptrice traite ce message, elle doit retourner la **valeur true**; Sinon, elle doit retourner **false**.
 

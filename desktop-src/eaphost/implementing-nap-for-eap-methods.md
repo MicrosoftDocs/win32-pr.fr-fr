@@ -4,16 +4,16 @@ description: Découvrez comment implémenter la prise en charge de la protection
 ms.assetid: c25e4f03-759a-47a7-8b35-bbe669501c5c
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5f0bc8900ee3d9cb01edb79b64b8ef5a68df4c
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: cff84c24aeb475b83146f2c56e9e139fd930eac27656349c594f05d91c1036fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104032129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273313"
 ---
 # <a name="implementing-nap-support-for-eap-methods"></a>Implémentation de la prise en charge NAP pour les méthodes EAP
 
-Cette rubrique explique comment implémenter la protection d’accès réseau pour un demandeur EAPHost. Dans Windows Vista et Windows Server 2008, un client de contrainte de mise en conformité NAP (NAP EC) est disponible pour les connexions authentifiées [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) .
+Cette rubrique explique comment implémenter la protection d’accès réseau pour un demandeur EAPHost. dans Windows Vista et Windows Server 2008, un Client de contrainte de mise en conformité nap est disponible pour les connexions authentifiées [802.1 x](/previous-versions/windows/embedded/ms890287(v=msdn.10)) .
 
 ## <a name="implementing-network-access-protection-nap"></a>Implémentation de la protection d’accès réseau (NAP)
 
@@ -48,7 +48,7 @@ Pour obtenir des informations sur l’API EAPHost, reportez-vous aux rubriques s
 
 -   Pour obtenir la liste des ressources NAP, consultez [protection d’accès réseau](https://go.microsoft.com/fwlink/p/?linkid=84107).
 -   Pour obtenir des informations sur la déclaration d’intégrité, voir [messages de déclaration d’intégrité (SoH) de la protection d’accès réseau (NAP](https://go.microsoft.com/fwlink/p/?linkid=83918)).
--   Pour la page Web du groupe de mise en réseau d’entreprise et le blog, consultez [protection d’accès réseau (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83845).
+-   pour la page web du groupe de mise en réseau Enterprise et le blog, consultez [Protection d’accès réseau (NAP)](https://go.microsoft.com/fwlink/p/?linkid=83845).
 -   Pour obtenir des informations sur l’API NAP, consultez [protection d’accès réseau](/windows/desktop/NAP/network-access-protection-start-page).
 
 

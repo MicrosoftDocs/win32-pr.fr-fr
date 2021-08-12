@@ -1,11 +1,11 @@
 ---
-title: Settings. requestMediaAccessRights, méthode
-description: La méthode requestMediaAccessRights demande un niveau d’accès spécifié à la bibliothèque. | Settings. requestMediaAccessRights, méthode
+title: méthode Paramètres. requestMediaAccessRights
+description: La méthode requestMediaAccessRights demande un niveau d’accès spécifié à la bibliothèque. | méthode Paramètres. requestMediaAccessRights
 ms.assetid: 076b749b-9b25-483c-aa1f-60fc4367e4e0
 keywords:
-- méthode requestMediaAccessRights lecteur Windows Media
-- méthode requestMediaAccessRights lecteur Windows Media, classe de paramètres
-- Classe de paramètres lecteur Windows Media, méthode requestMediaAccessRights
+- Lecteur Windows Media de la méthode requestMediaAccessRights
+- Lecteur Windows Media de la méthode requestMediaAccessRights, classe Paramètres
+- Paramètres de la classe Lecteur Windows Media, méthode requestMediaAccessRights
 topic_type:
 - apiref
 api_name:
@@ -16,14 +16,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abfeed45666ee1f63bf995b211030b0b840c4279
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e157e7b4495c8d90964d62a9045eebb202126906f0022e97c4983220e47ac03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569310"
 ---
-# <a name="settingsrequestmediaaccessrights-method"></a>Settings. requestMediaAccessRights, méthode
+# <a name="settingsrequestmediaaccessrights-method"></a>méthode Paramètres. requestMediaAccessRights
 
 La méthode **requestMediaAccessRights** demande un niveau d’accès spécifié à la bibliothèque.
 
@@ -61,15 +61,15 @@ bRetVal = Settings.requestMediaAccessRights(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne une valeur **booléenne** indiquant si les droits d’accès demandés ont été accordés.
 
 ## <a name="remarks"></a>Notes
 
-Une page Web doit tout d’abord demander l’autorisation à l’utilisateur de lire des informations ou d’écrire des données dans la bibliothèque. L’appel de cette méthode invite l’utilisateur à utiliser une boîte de dialogue qui demande le niveau d’autorisation spécifié. Cela signifie que certaines méthodes, propriétés et événements seront inaccessibles à partir du code si les droits d’accès appropriés n’ont pas été accordés. Le niveau de droits d’accès actuel peut être récupéré à l’aide de *paramètres*. **mediaAccessRights**.
+Une page Web doit tout d’abord demander l’autorisation à l’utilisateur de lire des informations ou d’écrire des données dans la bibliothèque. L’appel de cette méthode invite l’utilisateur à utiliser une boîte de dialogue qui demande le niveau d’autorisation spécifié. Cela signifie que certaines méthodes, propriétés et événements seront inaccessibles à partir du code si les droits d’accès appropriés n’ont pas été accordés. le niveau de droits d’accès actuel peut être récupéré à l’aide de *Paramètres*. **mediaAccessRights**.
 
-**Windows Media Player 10 Mobile**: cette méthode retourne toujours **true**.
+**Lecteur Windows Media 10 Mobile**: cette méthode retourne toujours **true**.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -86,7 +86,7 @@ Une page Web doit tout d’abord demander l’autorisation à l’utilisateur de
 
 <dl> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> <dt>
 
 [**Paramètres. mediaAccessRights**](settings-mediaaccessrights.md)

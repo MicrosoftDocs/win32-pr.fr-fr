@@ -4,12 +4,12 @@ ms.assetid: 5eb9e68c-4f3b-4d57-bd51-704211d817fe
 title: Bibliothèque d’administration MTS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45e4be3cdad6b5b5f4e45c32261a7f94845839ee
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 51e449e99ef675f7f8ce893a358806926cd3d1a63ed13e5cc9fff01b97d0742d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306157"
 ---
 # <a name="mts-administration-library"></a>Bibliothèque d’administration MTS
 

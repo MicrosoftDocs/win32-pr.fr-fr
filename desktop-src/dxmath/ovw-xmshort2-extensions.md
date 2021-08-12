@@ -4,12 +4,12 @@ ms.assetid: cc0db281-e304-408a-8b3d-2d520bfa283e
 title: Extensions XMSHORT2
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4faf6327fa348681c1233aa36db772bb54fb2c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c5bad8f702a98ba8d65b4f76f2171f464ce8845fe330ddb3f60a33638825809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118277841"
 ---
 # <a name="xmshort2-extensions"></a>Extensions XMSHORT2
 

@@ -4,12 +4,12 @@ ms.assetid: ebe0afc7-6261-4c96-a54e-9b491e240c03
 title: Interfaces d’effet (Direct3D 10)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1946e7b9e3711bf2d79c0876efca1c533e0ff4ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d07e6ecf45f4ef052c7d576849a55d00ef0f877dde7c41fa5dc80b7592761325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303972"
 ---
 # <a name="effect-interfaces-direct3d-10"></a>Interfaces d’effet (Direct3D 10)
 

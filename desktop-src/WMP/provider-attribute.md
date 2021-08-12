@@ -3,7 +3,7 @@ title: Attribut provider
 description: L’attribut provider est une chaîne qui identifie le fournisseur des valeurs d’attribut.
 ms.assetid: 5e26b25e-864c-49fa-82cd-2f7fb3bb45ab
 keywords:
-- Attribut de fournisseur lecteur Windows Media
+- attribut Provider Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e16291eca203077332238a6b526d11a8bcb5b48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b885275d165cba8ab9bb1e790c6f4983579b7919c4bbefb335d5c0ddc0607f0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570690"
 ---
 # <a name="provider-attribute"></a>Attribut provider
 

@@ -4,12 +4,12 @@ ms.assetid: 2f7f80d6-3abb-462f-a571-b223a1d59da6
 title: Modèle de mémoire tampon de compartiment avec fuite (Microsoft Media Foundation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5a99932fb121808f6a49323360c47c09d0acbb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 848a0088a0e2b155deb6945e4a6532edb2677dc484341e50172f1bb1eb8187d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106520246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238049"
 ---
 # <a name="the-leaky-bucket-buffer-model-microsoft-media-foundation"></a>Modèle de mémoire tampon de compartiment avec fuite (Microsoft Media Foundation)
 
@@ -21,7 +21,7 @@ Cette rubrique décrit le modèle de « compartiment perdu » de mémoires tam
 
 -   [Le compartiment avec fuite](#the-leaky-bucket)
 -   [Le compartiment en cours d’utilisation](#the-bucket-in-use)
--   [Définition des valeurs de compartiment fuites pour les flux ASF](#setting-leaky-bucket-values-for-asf-streams)
+-   [Définition des valeurs des compartiments fuites pour les Flux ASF](#setting-leaky-bucket-values-for-asf-streams)
 -   [Valeurs de compartiment avec fuite dans le multiplexeur ASF](#leaky-bucket-values-in-the-asf-multiplexer)
 -   [Mise à jour des valeurs de compartiment avec fuite dans le récepteur de média ASF](#updating-leaky-bucket-values-in-the-asf-media-sink)
 -   [Rubriques connexes](#related-topics)
@@ -52,7 +52,7 @@ Les données de charge utile ASF peuvent entrer dans le compartiment présentant
 
 Pour la diffusion en continu sans problème sur le réseau, les flux compressés dans le contenu du média doivent conserver une vitesse de transmission constante pendant toute la durée de la lecture. Le modèle de compartiment présentant des fuites ASF garantit que les données multimédias sont envoyées sur le réseau à une vitesse de transmission constante. Les paramètres du compartiment avec fuite sont spécifiés dans l’objet de propriétés de flux étendu de l' [objet d’en-tête ASF](asf-file-structure.md). Dans Microsoft Media Foundation, ils sont définis en tant qu’attributs sur le type de média qui représente le flux.
 
-Les valeurs des compartiments de fuites sont définies dans le récepteur de fichiers ASF et l’objet multiplexeur ASF sous-jacent, et l’encodeur Windows Media. Ces valeurs peuvent être identiques ou différentes. Prenons l’exemple d’un scénario de diffusion en continu, qui requiert la livraison des échantillons audio plus tard que les exemples de vidéos afin que le fichier puisse être diffusé en continu sans latence. Pour ce faire, le compartiment fuite du flux audio dans le récepteur multimédia peut être défini sur une valeur supérieure à la valeur définie dans l’encodeur audio Windows Media.
+les valeurs des compartiments de fuites sont définies dans le récepteur de fichiers asf et l’objet multiplexeur asf sous-jacent, et l’encodeur multimédia Windows. Ces valeurs peuvent être identiques ou différentes. Prenons l’exemple d’un scénario de diffusion en continu, qui requiert la livraison des échantillons audio plus tard que les exemples de vidéos afin que le fichier puisse être diffusé en continu sans latence. pour ce faire, le compartiment perdu du flux audio dans le récepteur multimédia peut être défini sur une valeur supérieure à la valeur définie dans le Windows encodeur audio multimédia.
 
 Pour définir des valeurs B/R dans l’encodeur, l’application doit définir les propriétés [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md), [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md), [**MFPKEY \_ Rmax**](mfpkey-rmaxproperty.md)et [**MFPKEY BMAX. \_**](mfpkey-bmaxproperty.md) Pour plus d’informations sur la définition des propriétés dans l’encodeur, consultez [Propriétés de codage](configuring-the-encoder.md).
 
@@ -68,7 +68,7 @@ Jusqu’à présent, les exemples ont uniquement abordé la mémoire tampon util
 
 Prenons l’exemple suivant d’un encodeur et d’un décodeur connectés ensemble sur un réseau. Vous encodez un fichier vidéo à 30 images par seconde avec une vitesse de transmission de 6 000 bits par seconde et une fenêtre tampon de 3 secondes (taille totale de la mémoire tampon de 18 000 bits). Le premier échantillon est encodé sous la forme d’une image clé et occupe 7 000 bits. La mémoire tampon de l’encodeur contient désormais 7 000 bits. Les 29 images suivantes sont toutes des images Delta qui totalisent 3 000 bits. Par conséquent, la première seconde de contenu (30 frames) placerait la saturation de la mémoire tampon à 10 000 bits si rien ne se produisait. Nous savons que la vitesse de transmission du flux est de 6 000 bits par seconde. par conséquent, une fois que la première seconde du contenu encodé est placée dans la mémoire tampon de l’encodeur, l’intégralité chute à 4 000 bits. Dans l’application de décodage, ce flux est remis à la mémoire tampon du décodeur à 6 000 bits par seconde. Après une seconde, la mémoire tampon contient 6 000 bits. Le premier exemple contient 7 000 bits, de sorte que la mémoire tampon du décodeur doit être remplie plus avant que le décodeur commence à supprimer des échantillons.
 
-## <a name="setting-leaky-bucket-values-for-asf-streams"></a>Définition des valeurs de compartiment fuites pour les flux ASF
+## <a name="setting-leaky-bucket-values-for-asf-streams"></a>Définition des valeurs des compartiments fuites pour les Flux ASF
 
 Dans un scénario d’encodage de fichiers, une application peut définir les valeurs de compartiment avec fuites lors de la configuration des flux dans le [Profil ASF](asf-profile.md).
 
@@ -89,9 +89,9 @@ Les valeurs fournies par l’application dépendent du type d’encodage et du t
 
 Pour les modes d’encodage à 2 passes, vous devez définir ces deux attributs pour spécifier les valeurs moyennes et maximales.
 
-Pour l’encodage VBR, l’application peut interroger les valeurs de compartiment perdues utilisées par l’encodeur uniquement une fois le test d’encodage terminé. Par conséquent, lors de la configuration du récepteur multimédia, l’application peut choisir de ne pas définir les attributs ou les propriétés liés aux compartiments perdus. Après l’encodage, l’application doit interroger l’encodeur pour les propriétés [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md), [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md), [**MFPKEY \_ Rmax**](mfpkey-rmaxproperty.md)et [**MFPKEY \_**](mfpkey-bmaxproperty.md) BMAX et les définir dans le récepteur multimédia afin que les valeurs exactes soient reflétées dans l’objet d’en-tête. Pour obtenir un exemple de code sur la façon de mettre à jour les valeurs pour l’encodage VBR, consultez « mettre à jour les propriétés d’encodage dans le récepteur de fichiers » dans le [Didacticiel : 1-passer l’encodage Windows Media](tutorial--1-pass-windows-media-encoding.md).
+Pour l’encodage VBR, l’application peut interroger les valeurs de compartiment perdues utilisées par l’encodeur uniquement une fois le test d’encodage terminé. Par conséquent, lors de la configuration du récepteur multimédia, l’application peut choisir de ne pas définir les attributs ou les propriétés liés aux compartiments perdus. Après l’encodage, l’application doit interroger l’encodeur pour les propriétés [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md), [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md), [**MFPKEY \_ Rmax**](mfpkey-rmaxproperty.md)et [**MFPKEY \_**](mfpkey-bmaxproperty.md) BMAX et les définir dans le récepteur multimédia afin que les valeurs exactes soient reflétées dans l’objet d’en-tête. pour obtenir un exemple de code sur la façon de mettre à jour les valeurs pour l’encodage VBR, consultez « mettre à jour les propriétés d’encodage dans le récepteur de fichiers » dans le [didacticiel : 1-passer Windows l’encodage multimédia](tutorial--1-pass-windows-media-encoding.md).
 
-Si vous copiez du contenu Windows Media de la source vers le récepteur multimédia sans encodage, les valeurs des compartiments de fuites doivent être définies dans le récepteur multimédia.
+si vous copiez Windows contenu multimédia de la source vers le récepteur multimédia sans encodage, les valeurs des compartiments de fuites doivent être définies dans le récepteur multimédia.
 
 ## <a name="leaky-bucket-values-in-the-asf-multiplexer"></a>Valeurs de compartiment avec fuite dans le multiplexeur ASF
 
@@ -107,7 +107,7 @@ Une application peut remplacer les valeurs de compartiment avec fuite au niveau 
 
 Cette propriété doit être définie après que vous avez défini le type de sortie sur l’encodeur. En fonction de la vitesse de transmission définie dans le type de média, l’encodeur calcule la taille de la mémoire tampon pour s’assurer que les exemples de supports générés ne dépassent jamais la mémoire tampon. L’encodeur effectue des ajustements nécessaires pendant la compression pour conserver la vitesse de transmission des échantillons compressés dans les limites décrites par la vitesse de transmission et la fenêtre de mémoire tampon.
 
-À l’instar des attributs de configuration de flux pour les compartiments avec fuite, définissez la vitesse de transmission moyenne et la taille de la mémoire tampon, ainsi que la saturation de la mémoire tampon initiale dans un tableau de DWORDs. Pour plus d’informations, consultez la section « Définition des valeurs des compartiments de fuites pour les flux ASF » dans cette rubrique.
+À l’instar des attributs de configuration de flux pour les compartiments avec fuite, définissez la vitesse de transmission moyenne et la taille de la mémoire tampon, ainsi que la saturation de la mémoire tampon initiale dans un tableau de DWORDs. pour plus d’informations, consultez la section « définition des valeurs des compartiments de fuites pour les Flux ASF » dans cette rubrique.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

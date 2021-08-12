@@ -3,7 +3,7 @@ title: Exemple d’application de bureau
 description: Exemple d’application de bureau
 ms.assetid: 3736dd01-b02f-4056-b19b-0e7cc6c9aa67
 keywords:
-- Gestionnaire de périphériques Windows Media, exemples
+- Windows Gestionnaire de périphériques de média, exemples
 - Gestionnaire de périphériques, exemples
 - applications de bureau, exemples
 - Windows Media Gestionnaire de périphériques, exemple d’application de bureau
@@ -12,16 +12,16 @@ keywords:
 - exemples, applications de bureau
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f4008a25ca4448d4d4be7c9f667c5a9e4f08023
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a14e8037ccf963f26637711cd6d0e77ea7d2b4ff3cede72fcbded6600226d36c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584244"
 ---
 # <a name="sample-desktop-application"></a>Exemple d’application de bureau
 
-Le Gestionnaire de périphériques Windows Media est fourni avec un exemple d’application de bureau appelé wmdmapp. Cette application possède une interface graphique utilisateur qui vous permet de parcourir les appareils connectés, de créer des sélections sur l’appareil et de faire glisser des fichiers multimédias vers l’appareil.
+le Gestionnaire de périphériques Windows Media est livré avec un exemple d’application de bureau appelée wmdmapp. Cette application possède une interface graphique utilisateur qui vous permet de parcourir les appareils connectés, de créer des sélections sur l’appareil et de faire glisser des fichiers multimédias vers l’appareil.
 
 Cet exemple d’application se compose de deux éléments :
 
@@ -34,9 +34,9 @@ Pour compiler l’exemple d’application, vous pouvez utiliser Visual Studio. L
 
 Après avoir compilé le projet, enregistrez le fichier proghelp.dll. Pour inscrire cette DLL, ouvrez une invite de commandes et accédez au répertoire contenant cette DLL et tapez `regsvr32 proghelp.dll` .
 
- 
+ 
 
- 
+ 
 
 
 

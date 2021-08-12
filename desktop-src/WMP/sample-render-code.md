@@ -11,12 +11,12 @@ keywords:
 - exemples, fonction Render pour les visualisations
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1ee5d00bc1aed5bd8bd91880e43e2ac2d1f6bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51265191ba7fd8b5eb9e4b1140990a7713eba08356d01c58097c727ec2fe533e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569785"
 ---
 # <a name="sample-render-code"></a>Exemple de code de rendu
 
@@ -65,13 +65,13 @@ STDMETHODIMP CStock::Render(TimedLevel *pLevels, HDC hdc, RECT *prc)
 
 
 
-La fonction **Render** est l’endroit où s’effectue le travail principal de votre code. Chaque fois que le lecteur Windows Media prend un instantané de l’audio, il appellera cette fonction et votre code s’exécutera.
+La fonction **Render** est l’endroit où s’effectue le travail principal de votre code. chaque fois que Lecteur Windows Media prend un instantané de l’audio, il appellera cette fonction et votre code s’exécutera.
 
-Ce code effectue les tâches suivantes. Pour plus d’informations sur des fonctions spécifiques, consultez le kit de développement logiciel (SDK) de plate-forme Microsoft Windows pour Windows 32 bits.
+Ce code effectue les tâches suivantes. pour plus d’informations sur des fonctions spécifiques, consultez le kit de développement logiciel (SDK) de plateforme Microsoft Windows pour 32 bits Windows.
 
 ## <a name="creating-objects"></a>Création d'objets
 
-En général, vous utilisez les fonctions de dessin fournies avec l’interface GDI (Graphical Display Interface) de Microsoft Windows. Vous devez créer des stylets pour dessiner des lignes et des pinceaux pour remplir des zones.
+en général, vous utilisez les fonctions de dessin fournies avec l’Interface GDI (graphical Display Interface) de Microsoft Windows. Vous devez créer des stylets pour dessiner des lignes et des pinceaux pour remplir des zones.
 
 Un pinceau noir Uni est créé pour remplir l’arrière-plan.
 
@@ -89,7 +89,7 @@ Vous êtes maintenant prêt à dessiner. La fonction **fillRect** remplit le rec
 
 ## <a name="getting-audio-data"></a>Obtention de données audio
 
-Ensuite, le code obtient des données audio à partir du lecteur Windows Media. En utilisant le tableau de forme d’onde, vous pouvez récupérer la valeur actuelle de la puissance audio au moment où la capture instantanée a été prise. Dans ce cas, vous prenez les données audio du canal de gauche. La première valeur du tableau est le premier 1024th de l’instantané d’alimentation audio.
+ensuite, le code obtient des données audio de Lecteur Windows Media. En utilisant le tableau de forme d’onde, vous pouvez récupérer la valeur actuelle de la puissance audio au moment où la capture instantanée a été prise. Dans ce cas, vous prenez les données audio du canal de gauche. La première valeur du tableau est le premier 1024th de l’instantané d’alimentation audio.
 
 Ces informations seront utilisées pour afficher une ligne dont la hauteur correspondra à l’instantané d’alimentation audio.
 
@@ -111,7 +111,7 @@ Utilisez la technique de codage donnée dans l’exemple pour détruire vos styl
 
 -   **Important** Détruisez vos stylets et vos brosses !
 
-Une fois le nettoyage terminé, veillez à retourner S \_ OK pour que le lecteur Windows Media sache que vous avez terminé le dessin. Une fois que vous avez terminé, votre dessin sera transféré dans la fenêtre, un autre instantané sera pris, le **rendu** demandera à votre code de dessiner, et ainsi de suite.
+une fois le nettoyage terminé, veillez à retourner S \_ OK afin que Lecteur Windows Media sache que vous avez terminé le dessin. Une fois que vous avez terminé, votre dessin sera transféré dans la fenêtre, un autre instantané sera pris, le **rendu** demandera à votre code de dessiner, et ainsi de suite.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -120,9 +120,9 @@ Une fois le nettoyage terminé, veillez à retourner S \_ OK pour que le lecteur
 [**Implémentation du rendu**](implementing-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

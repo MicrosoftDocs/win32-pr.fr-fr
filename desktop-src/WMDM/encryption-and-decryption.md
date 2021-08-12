@@ -3,13 +3,13 @@ title: Chiffrement et déchiffrement
 description: Chiffrement et déchiffrement
 ms.assetid: 6aef4138-0391-4edd-b4fc-d6d0ec3c735b
 keywords:
-- Gestionnaire de périphériques Windows Media, chiffrement
+- Windows Gestionnaire de périphériques de média, chiffrement
 - Gestionnaire de périphériques, chiffrement
 - applications de bureau, chiffrement
 - fournisseurs de services, chiffrement
 - Guide de programmation, chiffrement
-- le chiffrement
-- Gestionnaire de périphériques Windows Media, déchiffrement
+- chiffrement
+- Windows Gestionnaire de périphériques de média, déchiffrement
 - Gestionnaire de périphériques, déchiffrement
 - applications de bureau, déchiffrement
 - fournisseurs de services, déchiffrement
@@ -17,12 +17,12 @@ keywords:
 - déchiffrement
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78688c1b4ca9991d8b322c6991de96a51e7e8d22
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1c154910709007e502c1505fc6fc3274665942c9eabe8e24de5b30fe932d813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584667"
 ---
 # <a name="encryption-and-decryption"></a>Chiffrement et déchiffrement
 
@@ -45,7 +45,7 @@ Les trois méthodes suivantes requièrent le chiffrement ou le déchiffrement.
 
 
 
- 
+ 
 
 Le chiffrement et le déchiffrement sont tous deux effectués par des appels de méthode uniques. Le chiffrement est effectué par [**CSecureChannelClient :: EncryptParam**](/previous-versions/bb231587(v=vs.85)) pour les applications ou par [**CSecureChannelServer :: EncryptParam**](/previous-versions/ms868509(v=msdn.10)) pour les fournisseurs de services. Le déchiffrement s’effectue par [**CSecureChannelClient ::D ecryptparam**](/previous-versions/bb231586(v=vs.85)) pour les applications ou [**CSecureChannelServer ::D ecryptparam**](/previous-versions/bb231598(v=vs.85)) pour les fournisseurs de services. Les paramètres sont identiques entre les méthodes client et serveur.
 
@@ -219,6 +219,6 @@ Error:
 [**Utilisation de canaux authentifiés sécurisés**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

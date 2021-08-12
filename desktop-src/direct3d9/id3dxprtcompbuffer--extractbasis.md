@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ebedef91c9f3d1e277a099ffd295903e9ba77ba8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 288a96a5f56bc04b245eaaf032bbcd946ed227c5b4fcad9e5d5d200dfa9903bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294032"
 ---
 # <a name="id3dxprtcompbufferextractbasis-method"></a>ID3DXPRTCompBuffer :: ExtractBasis, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers un tableau de données vectorielles de base pour le cluster. La ta
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e69c35ebfb2bf263882c6fb0337fc44c609bab3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5346aff83f9a7f56907d67025ee92ec1148cff6af3f4b3a3ee917589be721ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275177"
 ---
 # <a name="name-connection-element"></a>Élément Name (Connection)
 
@@ -39,8 +39,8 @@ L’élément **Name** est défini par l’élément [**Connection**](eapconnect
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -51,7 +51,7 @@ L’élément **Name** est défini par l’élément [**Connection**](eapconnect
 **Contexte de définition de l’élément dans le schéma**
 </dt> <dt>
 
-[**Égard**](eapconnectionpropertiesv1schema-connection-connections-element.md)
+[**Connexion**](eapconnectionpropertiesv1schema-connection-connections-element.md)
 </dt> <dt>
 
 **Élément parent immédiat possible dans l’instance de schéma**

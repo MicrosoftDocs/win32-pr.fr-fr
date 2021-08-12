@@ -4,12 +4,12 @@ description: Déclarez les pointeurs de table de fonction (interfaces). | dcl_in
 ms.assetid: 5C77EBB6-7AEC-4471-AA6E-0F6D3E215156
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f78bb0152b44f7e29b9e76221db13da0c465a434
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c4bc52dc841b2e6de3c5af9725faac2c6dc5900b95117a28f77d8bc5087248df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286051"
 ---
 # <a name="dcl_interface_dynamicindexed-sm5---asm"></a>\_dynamicindexed d’interface DCL \_ (SM5-ASM)
 
@@ -73,7 +73,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -87,14 +87,14 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
-| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
-| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
-| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |
-| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | non        |
-| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | non        |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
+| [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | Non        |
+| [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | Non        |
+| [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | Non        |
+| [Shader Model 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) | Non        |
+| [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md) | Non        |
 
 
 

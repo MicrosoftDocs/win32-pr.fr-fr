@@ -3,24 +3,24 @@ title: Activation des notifications
 description: Activation des notifications
 ms.assetid: b4fc7714-a7d0-409f-a47c-4903bab883cc
 keywords:
-- Gestionnaire de périphériques Windows Media, notifications
+- Windows Gestionnaire de périphériques de média, notifications
 - Gestionnaire de périphériques, notifications
 - Guide de programmation, notifications
 - applications de bureau, notifications
-- création d’applications Windows Media Gestionnaire de périphériques, notifications
+- création d’applications de Gestionnaire de périphériques Windows Media, notifications
 - Notifications
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618356c9d63d20a8b6b14e6c99072074cfc75073
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33ab1b71482db78571f141b7042d8abc926b0d79ca2f487ee7dc961396993b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585062"
 ---
 # <a name="enabling-notifications"></a>Activation des notifications
 
-Windows Media Gestionnaire de périphériques déclare quatre interfaces qu’une application peut implémenter dans une classe COM pour recevoir des notifications d’événements. Ces interfaces se répartissent en deux groupes, comme indiqué dans le tableau suivant.
+Windows Le Gestionnaire de périphériques de média déclare quatre interfaces qu’une application peut implémenter dans une classe COM pour recevoir des notifications d’événements. Ces interfaces se répartissent en deux groupes, comme indiqué dans le tableau suivant.
 
 
 
@@ -125,7 +125,7 @@ HRESULT CWMDMController::UnregisterForNotifications()
 
 **Utilisation de IWMDMProgress**
 
-Les Gestionnaire de périphériques Windows Media peuvent envoyer les messages d’état de votre application lorsque des actions spécifiques, telles que le transfert de contenu, l’acquisition d’horloge sécurisée et les informations de fichier DRM, se produisent. Votre application peut utiliser ces messages pour surveiller l’état de l’événement ou pour annuler un événement. Pour utiliser cette interface, implémentez [**IWMDMProgress**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress), [**IWMDMProgress2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2)ou [**IWMDMProgress3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3), puis transmettez-la en tant que paramètre à une méthode qui accepte un message de progression. Notez que **IWMDMProgress3** est l’interface supérieure, car elle fournit un GUID d’identification qui spécifie l’action faisant l’objet d’un suivi. Les méthodes d’application suivantes acceptent une interface de progression (les méthodes de fournisseur de service correspondantes doivent être en mesure d’envoyer des notifications à une interface envoyée) :
+Windows Les Gestionnaire de périphériques de média peuvent envoyer les messages d’état de votre application lorsque des actions spécifiques, telles que le transfert de contenu, l’acquisition d’horloge sécurisée et les informations de fichier DRM, se produisent. Votre application peut utiliser ces messages pour surveiller l’état de l’événement ou pour annuler un événement. Pour utiliser cette interface, implémentez [**IWMDMProgress**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress), [**IWMDMProgress2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2)ou [**IWMDMProgress3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3), puis transmettez-la en tant que paramètre à une méthode qui accepte un message de progression. Notez que **IWMDMProgress3** est l’interface supérieure, car elle fournit un GUID d’identification qui spécifie l’action faisant l’objet d’un suivi. Les méthodes d’application suivantes acceptent une interface de progression (les méthodes de fournisseur de service correspondantes doivent être en mesure d’envoyer des notifications à une interface envoyée) :
 
 [**IWMDMStorageControl ::D supprim**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete)
 
@@ -151,7 +151,7 @@ Des exemples de passage d’une interface dans une méthode sont fournis dans la
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
  

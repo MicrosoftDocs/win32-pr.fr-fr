@@ -3,9 +3,9 @@ title: Méthode IWMPEvents4 SyncEstimationComplete
 description: L’événement SyncEstimationComplete se produit lorsqu’une estimation de la taille, précédemment lancée par IWMPSyncDevice3 estimateSyncSize, est terminée.
 ms.assetid: 2fb45a13-d82b-48b6-b9bb-46409f33a33f
 keywords:
-- Méthode SyncEstimationComplete lecteur Windows Media
-- Méthode SyncEstimationComplete lecteur Windows Media, interface IWMPEvents4
-- Interface IWMPEvents4 lecteur Windows Media, méthode SyncEstimationComplete
+- Lecteur Windows Media de la méthode SyncEstimationComplete
+- méthode SyncEstimationComplete Lecteur Windows Media, interface IWMPEvents4
+- Lecteur Windows Media de l’interface IWMPEvents4, méthode SyncEstimationComplete
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 209ed2f2bd0f075dbaa8d442a276c994d50ce2e5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b3f444cdc66874c907bb4c6412fa10384fde67145563d79153c28cb675c6fc3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575604"
 ---
 # <a name="iwmpevents4syncestimationcomplete-method"></a>IWMPEvents4 :: SyncEstimationComplete, méthode
 
@@ -83,7 +83,7 @@ Taille estimée (en octets) des données à synchroniser.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 

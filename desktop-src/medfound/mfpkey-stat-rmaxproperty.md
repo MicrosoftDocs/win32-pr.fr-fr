@@ -4,12 +4,12 @@ ms.assetid: f81f8eca-d16f-4da4-b3cf-f90c1d98053f
 title: MFPKEY_STAT_RMAX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bbd5ecd4a0c642e84ab561ec338fb7375513030
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a75426934c4d08ace29e35f7ebe06e7262efd2a84638a227e36fc7bd5bcde5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242098"
 ---
 # <a name="mfpkey_stat_rmax-property"></a>MFPKEY \_ Stat \_ rmax, propriété
 

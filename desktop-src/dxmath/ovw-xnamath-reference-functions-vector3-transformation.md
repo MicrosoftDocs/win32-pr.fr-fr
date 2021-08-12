@@ -4,12 +4,12 @@ description: Répertorie les fonctions de transformation vectorielle 3D.
 ms.assetid: 148972da-e460-63b9-6b01-10201f63d157
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a592071970d69d7ef4b4db42960335c5fc771ac3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68c5d5ee6117c08516ccf88448b9c3a38246eae6391d1aa4aff10e853fea509f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276791"
 ---
 # <a name="directxmath-3d-vector-transformation-functions"></a>DirectXMath, fonctions de transformation de vecteur 3D
 
@@ -22,7 +22,7 @@ Répertorie les fonctions de transformation vectorielle 3D.
 | Rubrique                                                                               | Description                                                                                                                                      |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**XMVector3InverseRotate**](/windows/win32/api/directxmath/nf-directxmath-xmvector3inverserotate)<br/>                 | Fait pivoter un vecteur 3D à l’aide de l’inverse d’un Quaternion.<br/>                                                                                |
-| [**XMVector3Project**](/windows/win32/api/directxmath/nf-directxmath-xmvector3project)<br/>                             | Projetez un vecteur 3D à partir de l’espace d’objet dans l’espace à l’écran.<br/>                                                                              |
+| [**XMVector3Project**](/windows/win32/api/directxmath/nf-directxmath-xmvector3project)<br/>                             | Project un vecteur 3d de l’espace de l’objet dans l’espace à l’écran.<br/>                                                                              |
 | [**XMVector3ProjectStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3projectstream)<br/>                 | Projette un flux de vecteurs 3D à partir de l’espace d’objet dans l’espace à l’écran.<br/>                                                                  |
 | [**XMVector3Rotate**](/windows/win32/api/directxmath/nf-directxmath-xmvector3rotate)<br/>                               | Fait pivoter un vecteur 3D à l’aide d’un Quaternion.<br/>                                                                                               |
 | [**XMVector3Transform**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transform)<br/>                         | Transforme un vecteur 3D par une matrice.<br/>                                                                                                   |

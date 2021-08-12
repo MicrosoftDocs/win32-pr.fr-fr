@@ -3,7 +3,7 @@ title: EDITBOX. fontStyle
 description: L’attribut fontStyle spécifie ou récupère le style de police pour le contrôle zone d’édition.
 ms.assetid: bc71359d-2b75-4134-99e8-52b2ca48dcde
 keywords:
-- EDITBOX. fontStyle lecteur Windows Media
+- EDITBOX. fontStyle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4249f6224099c3d2a36a3b26244c9b804be519c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65d9dc5ac5fe3750fb3a6af8658a5ddb30274764cc891438162434a44651322a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578845"
 ---
 # <a name="editboxfontstyle"></a>EDITBOX. fontStyle
 

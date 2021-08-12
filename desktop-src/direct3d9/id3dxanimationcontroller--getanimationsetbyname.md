@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d520625e457a50fe962ae74d6e25fc17e2beb729
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b417bf9434b712903e61839807f71765b2e3c69916430f162a67febe65fc6cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106531560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297042"
 ---
 # <a name="id3dxanimationcontrollergetanimationsetbyname-method"></a>ID3DXAnimationController :: GetAnimationSetByName, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers le jeu d’animations [**ID3DXAnimationSet**](id3dxanimationset.md
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

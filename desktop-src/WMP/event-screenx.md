@@ -3,7 +3,7 @@ title: Event. screenX
 description: L’attribut screenX récupère la coordonnée x absolue du pointeur de la souris par rapport à l’écran.
 ms.assetid: 120c9247-183d-4324-8940-519d43687e9f
 keywords:
-- Lecteur Windows Media Event. screenX
+- event. screenX Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7739af64fcfb829d1df55e0bcb4b501660ae15c7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2765dba2267f8439029da9bf5dd4457779e144590e1720983f6963e7d2ca80a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576963"
 ---
 # <a name="eventscreenx"></a>Event. screenX
 

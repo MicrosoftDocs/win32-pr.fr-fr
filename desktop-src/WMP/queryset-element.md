@@ -3,7 +3,7 @@ title: Élément querySet
 description: L’élément querySet contient des éléments qui définissent les éléments multimédias qui seront sélectionnés dans la bibliothèque.
 ms.assetid: 18b5a509-a56b-4fd1-812f-60b8efd5136b
 keywords:
-- Élément querySet lecteur Windows Media
+- élément querySet Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4971c2a7f601132640d7654a95dd288f1740a467
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb157bb30c2e728b7840fe7021a2a4fcacc317b10eb6778b5702d7d2277c4a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570612"
 ---
 # <a name="queryset-element"></a>Élément querySet
 
@@ -102,7 +102,7 @@ L’élément **querySet** spécifie les éléments multimédias à sélectionne
 [**Élément sourceFilter**](sourcefilter-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

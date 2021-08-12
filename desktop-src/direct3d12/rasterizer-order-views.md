@@ -5,19 +5,19 @@ ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19988d3f3eec39e8fc298a2fc13031ecc29e3e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 214098f70608d5f20d24edb1312593c6215abea12efecfc6eea97148e8855cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300980"
 ---
 # <a name="rasterizer-ordered-views"></a>Affichages triés par rastérisation
 
 Les vues pixellisées (ROVs) autorisent le code de nuanceur de pixels à marquer des liaisons de vue d’accès non triée (UAV) avec une déclaration qui modifie les exigences normales pour l’ordre des résultats de pipeline graphique pour UAVs. Cela permet l’utilisation d’algorithmes de transparence OIT (Order-Independent transparent), ce qui donne de meilleurs résultats de rendu lorsque plusieurs objets transparents sont alignés les uns avec les autres dans une vue.
 
 -   [Vue d'ensemble](#overview)
--   [Détails de l’implémentation](#implementation-details)
+-   [Informations d’implémentation](#implementation-details)
 -   [API summary](#api-summary)
 -   [Rubriques connexes](#related-topics)
 
@@ -60,5 +60,5 @@ Les ROVs sont une construction en HLSL uniquement qui applique une sémantique d
 
 * [Pixellisation conservatrice](conservative-rasterization.md)
 * [Rendu](rendering.md)
-* [Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+* [Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 * [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)

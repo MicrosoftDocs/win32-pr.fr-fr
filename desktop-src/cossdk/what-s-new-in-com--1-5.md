@@ -4,22 +4,22 @@ ms.assetid: e7073ba5-6b19-4d94-8cc0-b4e16bb44afd
 title: Nouveautés de COM+ 1,5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994237002ea5d19c2cb00364f1064df38ed7271f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af0fd6705775e84f49d3a60afd7d89b7a5412b4a87fd5d04f202fadc77fd850d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304880"
 ---
 # <a name="whats-new-in-com-15"></a>Nouveautés de COM+ 1,5
 
 La version 1,5 de COM+ ajoute de nouvelles fonctionnalités conçues pour augmenter l’extensibilité, la disponibilité et la facilité de gestion des applications COM+ à la fois pour les développeurs et pour les administrateurs système.
 
-COM+ 1,5 est disponible à partir de Windows XP et de Windows Server 2003. Les nouvelles fonctionnalités COM+ 1,5 ne sont pas disponibles dans Windows 2000.
+COM+ 1,5 est disponible à partir de Windows XP et Windows Server 2003. les nouvelles fonctionnalités COM+ 1,5 ne sont pas disponibles dans Windows 2000.
 
 ## <a name="application-level-access-checks-enabled-by-default"></a>Contrôles d’accès Application-Level activés par défaut
 
-Dans le cadre de la sécurité améliorée du système, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Dans les versions précédentes, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant. À compter de Windows Server 2003, les contrôles d’accès sont activés par défaut au niveau de l’application et désactivés par défaut au niveau du composant. Consultez [création d’une application com+](creating-a-new-com--application.md), [activation des vérifications d’accès pour une application](enabling-access-checks-for-an-application.md)et [activation des vérifications d’accès au niveau du composant](enabling-access-checks-at-the-component-level.md) pour plus d’informations et de procédures sur la façon de modifier les paramètres par défaut.
+Dans le cadre de la sécurité améliorée du système, les vérifications d’accès sont activées par défaut lors de la création d’une application COM+. Dans les versions précédentes, les contrôles d’accès étaient désactivés par défaut au niveau de l’application et activés par défaut au niveau du composant. à compter de Windows Server 2003, les contrôles d’accès sont activés par défaut au niveau de l’application et désactivés par défaut au niveau du composant. Consultez [création d’une application com+](creating-a-new-com--application.md), [activation des vérifications d’accès pour une application](enabling-access-checks-for-an-application.md)et [activation des vérifications d’accès au niveau du composant](enabling-access-checks-at-the-component-level.md) pour plus d’informations et de procédures sur la façon de modifier les paramètres par défaut.
 
 ## <a name="application-pooling"></a>Regroupement d’applications
 
@@ -57,7 +57,7 @@ Pour faciliter l’authentification mutuelle, le DTC est limité à l’exécuti
 
 Pour la récupération avec les bases de données XA, il est recommandé que le compte NetworkService fournisse les autorisations et les rôles nécessaires pour effectuer cette récupération. La méthode exacte pour ce faire est spécifique à chaque base de données. Pour plus d’informations, consultez Désactivation des transactions distribuées natives et désactivation des transactions TIP et XA.
 
-Pour fournir un système plus sécurisé lors de l’utilisation de transactions XA, les plateformes Windows Server 2003 incluent une nouvelle entrée de Registre pour la spécification des fichiers DLL XA. Lors de la mise à niveau vers Windows Server 2003, vous pouvez utiliser des transactions XA comme avant en créant une entrée de Registre sous **HKEY \_ local \_ machine \\ Software \\ Microsoft \\ MSDTC \\ XADLL**, où le nom de la valeur est le nom de la dll (au format *DllName*. dll) et la valeur est le chemin d’accès complet du fichier dll. Vous devez créer une entrée pour chaque fichier DLL XA en cours d’utilisation. Si l’ordinateur qui exécute DTC fait partie d’un cluster, l’entrée de registre doit être effectuée pour chaque nœud du cluster. Pour plus d’informations, consultez Gestion des transactions XA.
+pour fournir un système plus sécurisé lors de l’utilisation de transactions xa, Windows plateformes du serveur 2003 incluent une nouvelle entrée de registre pour la spécification des fichiers DLL xa. lors de la mise à niveau vers Windows Server 2003, vous pouvez utiliser les transactions XA comme avant en créant une entrée de registre sous **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ MSDTC \\ XADLL**, où le nom de la valeur est le nom de la dll (au format *dllname*.dll) et la valeur est le chemin d’accès complet du fichier dll. Vous devez créer une entrée pour chaque fichier DLL XA en cours d’utilisation. Si l’ordinateur qui exécute DTC fait partie d’un cluster, l’entrée de registre doit être effectuée pour chaque nœud du cluster. Pour plus d’informations, consultez Gestion des transactions XA.
 
 ## <a name="low-memory-activation-gates"></a>Low-Memory les portes d’activation
 
@@ -69,23 +69,23 @@ Avec cette version, COM+ vous permet de déplacer et de copier vos composants. C
 
 ## <a name="network-access"></a>Accès réseau
 
-L’accès réseau COM+ est désactivé par défaut sur Windows Server 2003, ce qui signifie que COM+ ne peut être utilisé que localement par défaut. Utilisez la procédure suivante pour activer l’accès COM+ réseau.
+l’accès réseau com+ est désactivé par défaut sur le serveur Windows 2003, ce qui signifie que COM+ ne peut être utilisé que localement par défaut. Utilisez la procédure suivante pour activer l’accès COM+ réseau.
 
 **Pour activer l’accès COM+ réseau**
 
 1.  Dans le menu **Démarrer** , pointez sur **panneau de configuration**, puis sélectionnez **Ajout/suppression de programmes**.
 
-2.  Cliquez sur **Ajouter/supprimer des composants Windows**.
+2.  cliquez sur **ajouter/supprimer des composants de Windows**.
 
 3.  Sélectionnez **Serveur d'applications** et cliquez sur **Détails**.
 
 4.  Cochez la case en regard de **activer l’accès com+ réseau**, puis cliquez sur **OK**.
 
-5.  Cliquez sur **suivant** pour terminer l’Assistant Composants Windows.
+5.  cliquez sur **suivant** pour terminer l’assistant composants de Windows.
 
 6.  Cliquez sur **Terminer** pour fermer l'Assistant.
 
-L’accès aux transactions réseau DTC est désactivé par défaut sur Windows Server 2003. Sur ces plateformes, le DTC peut uniquement effectuer des transactions locales par défaut. Utilisez la procédure suivante pour activer l’accès DTC réseau.
+l’accès aux transactions réseau DTC est désactivé par défaut sur Windows Server 2003. Sur ces plateformes, le DTC peut uniquement effectuer des transactions locales par défaut. Utilisez la procédure suivante pour activer l’accès DTC réseau.
 
 > [!NOTE]
 > Vous pouvez également activer l’accès DTC réseau à l’aide de l’outil d’administration Services de composants ou par programme par le biais de la bibliothèque d’administration COM+. Pour plus d’informations sur les procédures, consultez « Configuration de la sécurité DTC » dans l’aide sur l’administration des services de composants.
@@ -94,13 +94,13 @@ L’accès aux transactions réseau DTC est désactivé par défaut sur Windows 
 
 1.  Dans le menu **Démarrer** , pointez sur **panneau de configuration**, puis sélectionnez **Ajout/suppression de programmes**.
 
-2.  Cliquez sur **Ajouter/supprimer des composants Windows**.
+2.  cliquez sur **ajouter/supprimer des composants de Windows**.
 
 3.  Sélectionnez **Serveur d'applications** et cliquez sur **Détails**.
 
 4.  Cochez la case en regard de **activer l’accès DTC réseau**, puis cliquez sur **OK**.
 
-5.  Cliquez sur **suivant** pour terminer l’Assistant Composants Windows.
+5.  cliquez sur **suivant** pour terminer l’assistant composants de Windows.
 
 6.  Cliquez sur **Terminer** pour fermer l'Assistant.
 
@@ -114,7 +114,7 @@ Il n’est pas facile de dépanner des applications dans un environnement de pro
 
 ## <a name="process-initialization"></a>Initialisation du processus
 
-De nombreuses applications serveur doivent effectuer une initialisation et un nettoyage spécifiques lorsqu’elles sont démarrées et arrêtées. Lors de l’exécution sur Windows Server 2003, vous pouvez créer une classe qui implémente l’interface [**IProcessInitializer**](/windows/desktop/api/ComSvcs/nn-comsvcs-iprocessinitializer) . Lorsque le processus démarre, il appelle [**IProcessInitializer :: Startup**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-startup) et, lors de l’arrêt, il appelle [**IProcessInitializer :: Shutdown**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown). Cela donne à votre composant la possibilité d’effectuer des tâches nécessaires, telles que l’initialisation des connexions, des fichiers et des caches.
+De nombreuses applications serveur doivent effectuer une initialisation et un nettoyage spécifiques lorsqu’elles sont démarrées et arrêtées. lors de l’exécution sur Windows Server 2003, vous pouvez créer une classe qui implémente l’interface [**IProcessInitializer**](/windows/desktop/api/ComSvcs/nn-comsvcs-iprocessinitializer) . Lorsque le processus démarre, il appelle [**IProcessInitializer :: Startup**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-startup) et, lors de l’arrêt, il appelle [**IProcessInitializer :: Shutdown**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown). Cela donne à votre composant la possibilité d’effectuer des tâches nécessaires, telles que l’initialisation des connexions, des fichiers et des caches.
 
 ## <a name="running-com-applications-as-nt-services"></a>Exécution d’applications COM+ en tant que services NT
 
@@ -122,13 +122,13 @@ Les développeurs COM+ peuvent désormais utiliser l’outil d’administration 
 
 ## <a name="side-by-side-assemblies"></a>Assemblys côte à côte
 
-Les assemblys côte à côte (SxS) permettent aux applications de spécifier la version d’une DLL système ou d’un composant COM classique à utiliser, par exemple MDAC, MFS, MSVCRT ou MSXML. Par exemple, si une application ASP s’appuie sur MSXML version 2,0, vous pouvez vous assurer que cette application utilise toujours MSXML version 2,0 même après l’application des service packs au serveur. Autrement dit, même lorsqu’une nouvelle version de MSXML est installée sur l’ordinateur, la version 2,0 reste et est utilisée par votre application.
+Les assemblys côte à côte (SxS) permettent aux applications de spécifier la version d’une DLL système ou d’un composant COM classique à utiliser, par exemple MDAC, MFS, MSVCRT ou MSXML. par exemple, si une application ASP s’appuie sur MSXML version 2,0, vous pouvez vous assurer que cette application utilise toujours MSXML version 2,0 même après l’application des service packs au serveur. autrement dit, même lorsqu’une nouvelle version de MSXML est installée sur l’ordinateur, la version 2,0 reste et est utilisée par votre application.
 
 Pour configurer des assemblys SxS, vous devez connaître le chemin d’accès à la DLL et le fichier manifeste COM+ existe dans chaque répertoire virtuel qui doit utiliser la DLL. Le manifeste COM+ est un fichier XML qui contient des informations sur l’emplacement d’installation d’une DLL. Le manifeste est utilisé pour créer un contexte d’activation pour l’application. Les contextes d’activation permettent à une application de charger une version de DLL particulière, une instance d’objet COM ou une version de fenêtre personnalisée. Vous pouvez utiliser l’outil d’administration Services de composants ou la propriété ApplicationDirectory pour entrer le chemin d’accès complet du répertoire racine de l’application qui contient un fichier manifeste de l’assembly SxS valide. Pour plus d’informations, consultez [applications isolées et assemblys côte à côte](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal).
 
 ## <a name="windows-error-reporting"></a>Rapport d’erreurs Windows
 
-COM+ 1,5 prend en charge le composant Rapport d’erreurs Windows (WER), disponible à partir de Windows XP. WER permet aux utilisateurs de signaler à Microsoft les erreurs d’application, les erreurs de noyau et les applications qui ne répondent pas. Ces notifications permettent aux équipes de support technique Microsoft de résoudre plus efficacement les problèmes techniques. En outre, le composant Rapport d’erreurs Windows permet aux développeurs COM+ de recevoir des informations qui peuvent être utilisées pour améliorer leurs applications. Pour plus d’informations, voir [Rapport d’erreurs Windows](/windows/desktop/wer/windows-error-reporting).
+COM+ 1,5 prend en charge le composant Rapport d’erreurs Windows (WER), disponible à partir de Windows XP. WER permet aux utilisateurs de signaler à Microsoft les erreurs d’application, les erreurs de noyau et les applications qui ne répondent pas. Ces notifications permettent aux équipes de support technique Microsoft de résoudre plus efficacement les problèmes techniques. en outre, le composant Rapport d’erreurs Windows permet aux développeurs COM+ de recevoir des informations qui peuvent être utilisées pour améliorer leurs applications. Pour plus d’informations, voir [Rapport d’erreurs Windows](/windows/desktop/wer/windows-error-reporting).
 
  
 

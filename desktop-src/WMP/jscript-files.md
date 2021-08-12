@@ -1,28 +1,28 @@
 ---
-title: Fichiers JScript
-description: Fichiers JScript
+title: JScript Fichiers
+description: JScript Fichiers
 ms.assetid: 5b862e52-5d49-44b4-811c-3dbca5552167
 keywords:
-- Apparences du lecteur Windows Media, fichiers JScript
-- Skins, fichiers JScript
+- Lecteur Windows Media des apparences, fichiers de JScript
+- apparences, fichiers JScript
 - fichiers pour les apparences, JScript
-- Fichiers JScript pour les apparences, à propos de
+- fichiers JScript pour les apparences, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9123ade6b715ee5302925030545140329c06770c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7eb4378130eacbbddf06da0762587fb45d3b517fc46fea4b98840bf697a6869c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575159"
 ---
-# <a name="jscript-files"></a>Fichiers JScript
+# <a name="jscript-files"></a>JScript Fichiers
 
-Les fichiers JScript sont chargés à l’aide de l’attribut **scriptFile** de l’élément **View** . Ils doivent être des fichiers texte et doivent utiliser l’extension de nom de fichier. js. Si vous avez un fichier JScript qui porte le même nom que le fichier de définition d’apparence, le fichier JScript est chargé en même temps que le fichier de définition d’apparence. Par exemple, si vous avez un fichier de définition d’apparence nommé Laure. WMS et que vous avez un fichier JScript nommé laure.js, le fichier laure.js sera chargé automatiquement.
+JScript fichiers sont chargés à l’aide de l’attribut **scriptFile** de l’élément **VIEW** . Ils doivent être des fichiers texte et doivent utiliser l’extension de nom de fichier .js. si vous avez un fichier JScript portant le même nom que le fichier de définition d’apparence, le fichier JScript sera chargé en même temps que le fichier de définition d’apparence. par exemple, si vous avez un fichier de définition d’apparence nommé laure. wms et que vous avez un fichier JScript nommé laure.js, le fichier laure.js sera chargé automatiquement.
 
-Vous pouvez utiliser JScript pour créer des fonctionnalités élaborées sous-jacentes à votre apparence. En créant des fonctions dans JScript, vous pouvez effectuer presque tout ce qui est imaginaire avec les apparences. Par exemple, vous pouvez utiliser une sélection différente pour chaque jour de la semaine, mais toujours en avoir le même le vendredi.
+vous pouvez utiliser JScript pour créer des fonctionnalités élaborées sous-jacentes à votre apparence. en créant des fonctions dans JScript, vous pouvez faire presque tout ce qui est imaginaire avec les apparences. Par exemple, vous pouvez utiliser une sélection différente pour chaque jour de la semaine, mais toujours en avoir le même le vendredi.
 
-Pour plus d’informations sur l’utilisation de JScript avec les apparences, consultez [utilisation de JScript](using-jscript.md) . Notez que Visual Basic Scripting Edition (VBScript), qui peut être utilisé lors de l’incorporation du contrôle du lecteur Windows Media dans une page Web, n’est pas pris en charge pour une utilisation avec des apparences.
+pour plus d’informations sur l’utilisation de JScript avec des apparences, consultez [utilisation de JScript](using-jscript.md) . notez que Visual Basic scripting Edition (VBScript), qui peut être utilisé lors de l’incorporation du contrôle Lecteur Windows Media dans une page web, n’est pas pris en charge pour une utilisation avec des apparences.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -31,9 +31,9 @@ Pour plus d’informations sur l’utilisation de JScript avec les apparences, c
 [**Fichiers d’apparence**](skin-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

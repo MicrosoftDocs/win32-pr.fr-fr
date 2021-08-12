@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getByAlbum
 description: La méthode GetByAlbum récupère une sélection contenant les éléments multimédias de l’album spécifié.
 ms.assetid: e7e72f0e-e0ae-4bbd-a8b7-966f0fc50059
 keywords:
-- méthode getByAlbum lecteur Windows Media
-- méthode getByAlbum lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getByAlbum
+- Lecteur Windows Media de la méthode getByAlbum
+- méthode getByAlbum Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getByAlbum
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d94cdfa880288893e9659b73b01bc754ac59bbf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c17b7113b66f49822bad5586033312c9ec50711e6290c3f655a0a1b75adc54c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574672"
 ---
 # <a name="mediacollectiongetbyalbum-method"></a>Méthode MediaCollection. getByAlbum
 
@@ -49,7 +49,7 @@ retVal = MediaCollection.getByAlbum(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne un objet **playlist** .
 

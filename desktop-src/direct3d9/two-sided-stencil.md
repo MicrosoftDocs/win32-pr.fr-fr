@@ -4,12 +4,12 @@ ms.assetid: 8b71d871-ee66-47c4-8190-5c75419b28b2
 title: Two-Sided gabarit (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b238c4b778b9894029764032e76b60c476a891a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 95bca0b960f96d1747b2b7ad51771276df2cfe1da1fa8ac9aa4d7c1ce8ea7c03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106514101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290509"
 ---
 # <a name="two-sided-stencil-direct3d-9"></a>Two-Sided gabarit (Direct3D 9)
 
@@ -53,7 +53,7 @@ Les États de rendu des stencils restants s’appliquent toujours à la fois à 
 
 D3DRS \_ deux \_ côtés \_ StencilMODE est ignoré pour les lignes et les sprites point, ce qui signifie que le comportement est identique à celui de DirectX 8. Les \_ États de rendu du stencil D3DRS CCW \_ \* sont ignorés.
 
-Un nouveau bit d’extrémité indique si l’appareil prend en charge cette fonctionnalité. Les pilotes qui ne prennent pas en charge cette fonctionnalité sont censés ignorer ces nouveaux États de rendu. Tous les autres bits d’extrémité du stencil s’appliquent aux deux modes de mise en mémoire tampon des stencils. Étant donné que \_ \_ le stencil à deux côtés implique la possibilité de dessiner avec D3DCULLMODE \_ None Set, le Cap correspondant doit être défini par le pilote s’il prend en charge ce nouveau mode de stencil. Les laboratoires WHQL (Microsoft Windows Hardware Quality Labs) doivent respecter ce point.
+Un nouveau bit d’extrémité indique si l’appareil prend en charge cette fonctionnalité. Les pilotes qui ne prennent pas en charge cette fonctionnalité sont censés ignorer ces nouveaux États de rendu. Tous les autres bits d’extrémité du stencil s’appliquent aux deux modes de mise en mémoire tampon des stencils. Étant donné que \_ \_ le stencil à deux côtés implique la possibilité de dessiner avec D3DCULLMODE \_ None Set, le Cap correspondant doit être défini par le pilote s’il prend en charge ce nouveau mode de stencil. les laboratoires WHQL (Microsoft Windows Hardware Quality Labs) doivent respecter ce point.
 
 Nouveaux États de rendu :
 

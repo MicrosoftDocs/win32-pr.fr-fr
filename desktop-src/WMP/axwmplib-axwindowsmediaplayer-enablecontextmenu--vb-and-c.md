@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. enableContextMenu, propriété
 description: La propriété enableContextMenu obtient ou définit une valeur indiquant s’il faut activer le menu contextuel qui apparaît lorsque l’utilisateur clique sur le bouton droit de la souris.
 ms.assetid: 6096cab7-c1fa-4b71-804b-e84facab2229
 keywords:
-- propriété enableContextMenu lecteur Windows Media
-- propriété enableContextMenu lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété enableContextMenu
+- Lecteur Windows Media de la propriété enableContextMenu
+- Lecteur Windows Media de la propriété enableContextMenu, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété enableContextMenu
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09c705fd45b9b994863ab4f93df1c3ae10858930
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5603762ec9823f7e9896c5c22c1dee33f2399bb02301921057f8502046bcc002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582338"
 ---
 # <a name="axwindowsmediaplayerenablecontextmenu-property"></a>AxWindowsMediaPlayer. enableContextMenu, propriété
 
@@ -50,7 +50,7 @@ Valeur System. Boolean qui indique s’il faut activer le menu contextuel. La va
 
 ## <a name="remarks"></a>Notes
 
-Pendant la lecture en plein écran, le lecteur Windows Media masque le curseur de la souris quand **enableContextMenu** est égal à false et **UIMODE** est égal à « None ».
+pendant la lecture en plein écran, Lecteur Windows Media masque le curseur de la souris quand **enableContextMenu** est égal à false et **uiMode** est égal à « none ».
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -68,7 +68,7 @@ Pendant la lecture en plein écran, le lecteur Windows Media masque le curseur d
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

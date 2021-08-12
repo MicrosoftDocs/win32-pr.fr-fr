@@ -3,9 +3,9 @@ title: Événement Player. MediaCollectionMediaRemoved
 description: L’événement MediaCollectionMediaRemoved se produit lorsqu’un élément multimédia est supprimé de la bibliothèque locale. | Événement Player. MediaCollectionMediaRemoved
 ms.assetid: a1df6faf-38dc-4f5f-8f8a-953c91ea026c
 keywords:
-- Événement MediaCollectionMediaRemoved lecteur Windows Media
-- Événement MediaCollectionMediaRemoved lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement MediaCollectionMediaRemoved
+- Lecteur Windows Media d’événements MediaCollectionMediaRemoved
+- Lecteur Windows Media d’événements MediaCollectionMediaRemoved, classe Player
+- Lecteur Windows Media de classe Player, événement MediaCollectionMediaRemoved
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72af5fe4c5e90effeb34745ea71e3edb457da357
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 009432040deace140dd3cf4d7d7da1246c0a38dbd9fc0da028832af137cefa83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572849"
 ---
 # <a name="playermediacollectionmediaremoved-event"></a>Événement Player. MediaCollectionMediaRemoved
 
@@ -49,7 +49,7 @@ Objet **multimédia** qui a été supprimé.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
