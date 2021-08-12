@@ -1,24 +1,24 @@
 ---
-description: Vue d’ensemble des exemples de code de l’interface de programmation d’applications (API) pour les sections Tablet PC et Windows Touch du SDK Windows.
+description: vue d’ensemble des exemples de code de l’interface de programmation d’applications (API) pour les sections Tablet pc et Windows Touch du SDK Windows.
 ms.assetid: 4ede7d0e-e826-4b3a-8a46-0f3162c19cb0
 title: Exemples tablette et Touch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8562dcc1baa42f44d6ca675344d658b1bf693cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1cf87ca2cc35da58fe05a72436288413af9f72ecff63a1b2418fb071ca5a025
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449782"
 ---
 # <a name="tablet-and-touch-samples"></a>Exemples tablette et Touch
 
-Cette section contient des exemples qui montrent comment les applications peuvent être développées avec C \# , Microsoft Visual Basic .net et C++ pour fonctionner avec l’entrée manuscrite et tactile.
+cette section contient des exemples qui montrent comment les applications peuvent être développées avec C \# , Microsoft Visual Basic .net et C++ pour fonctionner avec l’entrée manuscrite et tactile.
 
 Par défaut, les exemples sont installés dans <system drive> : \\ fichiers programme \\ Microsoft Tablet PC Platform SDK \\ Samples \\ lors de l’installation du kit de développement logiciel (SDK) Tablet PC.
 
 > [!Note]  
-> Lors de l’installation du SDK Windows, du kit de développement logiciel (SDK) Windows Server ou du kit de développement logiciel (SDK) .NET Framework, les exemples s’installent dans le chemin par défaut de ce kit de développement.
+> lors de l’installation du SDK Windows, du kit de développement logiciel (sdk) Windows Server ou du kit de développement logiciel (sdk) .NET Framework, les exemples s’installent dans le chemin par défaut de ce kit sdk.
 
  
 
@@ -35,9 +35,9 @@ Par défaut, les exemples sont installés dans <system drive> : \\ fichiers prog
 | [Saisie semi-automatique des caractères](character-autocomplete-sample.md)                      | Montre comment implémenter la saisie semi-automatique de caractères en japonais à l’aide des API de reconnaissance.<br/>                                                                                                                                                                                 |
 | [Exemple de blog manuscrit](ink-blog-web-sample.md)                                   | Montre comment créer un contrôle utilisateur managé qui a une fonctionnalité d’encrage et héberger ce contrôle dans Internet Explorer<br/>                                                                                                                                                         |
 | [Presse-papiers manuscrits](ink-clipboard-sample.md)                                        | Illustre l’interopérabilité de l’encre à l’aide du presse-papiers.<br/>                                                                                                                                                                                                                          |
-| [Collection d’encres](ink-collection-sample.md)                                      | Illustre une application Windows Form simple qui utilise l’objet [InkCollector](/previous-versions/ms583683(v=vs.100)) pour collecter l’encre.<br/>                                                                                                                                     |
+| [Collection d’encres](ink-collection-sample.md)                                      | illustre une application de formulaire Windows simple qui utilise l’objet [InkCollector](/previous-versions/ms583683(v=vs.100)) pour collecter l’encre.<br/>                                                                                                                                     |
 | [Diviseur d’encre](ink-divider-sample.md)                                            | Montre comment utiliser l’objet [diviseur](/previous-versions/ms839398(v=msdn.10)) pour effectuer une analyse de l’encre.<br/>                                                                                                                                                                            |
-| [Effacement d’encre](ink-erasing-sample.md)                                            | Illustre la suppression de traits d’encre dans une application Windows Form qui utilise l’objet [InkCollector](/previous-versions/ms583683(v=vs.100)) pour collecter l’encre.<br/>                                                                                                             |
+| [Effacement d’encre](ink-erasing-sample.md)                                            | illustre la suppression de traits d’encre dans une application de formulaire Windows qui utilise l’objet [InkCollector](/previous-versions/ms583683(v=vs.100)) pour collecter de l’encre.<br/>                                                                                                             |
 | [Test d’atteinte de l’encre](ink-hit-test-sample.md)                                          | Illustre deux façons d’effectuer des tests d’atteinte de l’encre.<br/>                                                                                                                                                                                                                                       |
 | [Reconnaissance de l’encre](ink-recognition-sample.md)                                    | Montre comment vous pouvez créer une application de reconnaissance de l’écriture manuscrite simple.<br/>                                                                                                                                                                                                    |
 | [Sérialisation de l’encre](ink-serialization-sample.md)                                | Montre comment sérialiser de l’encre au format ISF (Ink Serialized Format).<br/>                                                                                                                                                                                                           |
@@ -49,7 +49,7 @@ Par défaut, les exemples sont installés dans <system drive> : \\ fichiers prog
 | [Exemple de collection d’encres RealTimeStylus](realtimestylus-ink-collection-sample.md) | Illustre la collecte d’encres à l’aide du RealTimeStylus.<br/>                                                                                                                                                                                                                           |
 | [Exemple de plug-in RealTimeStylus](realtimestylus-plug-in-sample.md)               | Illustre l’utilisation d’RealTimeStylus.<br/>                                                                                                                                                                                                                                       |
 | [Exemple de formulaire papier numérisé](scanned-paper-form-sample.md)                       | Montre l’utilisation d’un formulaire analysé dans en tant que bitmap et spécifié comme image d’arrière-plan pour un contrôle [InkPicture](/previous-versions/ms583740(v=vs.100)) sur le haut d’un formulaire. Plusieurs régions ont été activées pour la collection d’encres (ou, spécifiée sous la forme « inkable »).<br/> |
-| [Exemple d’informations sur la plateforme Tablet PC](tablet-pc-platform-info-sample.md)             | Illustre l’utilisation de la fonction d’API Windows GetSystemMetrics () pour déterminer si l’application s’exécute sur un Tablet PC.<br/>                                                                                                                                             |
+| [Exemple d’informations sur la plateforme Tablet PC](tablet-pc-platform-info-sample.md)             | illustre l’utilisation de la fonction d’API GetSystemMetrics () Windows pour déterminer si l’application s’exécute sur un Tablet PC.<br/>                                                                                                                                             |
 
 
 

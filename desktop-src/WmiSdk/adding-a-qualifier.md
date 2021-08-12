@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Ajout d’un qualificateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5a6f18f2b79bcd25b2b4ca75811157c9091e6eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 333c24e89d711a8998c58c6201776d5d4c50cc1107f4c9ca4308d9cc992b44dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557822"
 ---
 # <a name="adding-a-qualifier"></a>Ajout d’un qualificateur
 

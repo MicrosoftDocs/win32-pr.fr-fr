@@ -4,12 +4,12 @@ ms.assetid: 95e49f5b-d6f0-4a5a-868b-aa0caf87c39c
 title: Collection d’encres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fcd5bf0d73f48e63366843c85c9d6dd7cd388f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e45988ea93aac5016391e22c352b9d0123a5e122f4a79c55e41e06834ed040e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452065"
 ---
 # <a name="ink-collection"></a>Collection d’encres
 

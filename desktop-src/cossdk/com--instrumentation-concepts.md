@@ -4,19 +4,19 @@ ms.assetid: 07f68734-a382-4fe5-86af-90805f61c68d
 title: Concepts d’instrumentation COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d86b5dbb7bb3f6db14d82220d88c58dbc0a8255
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 160a546c07ea4204f1f4da3ba4c56c76a6eed6b52a8d397d470d0bc34b76adc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549505"
 ---
 # <a name="com-instrumentation-concepts"></a>Concepts d’instrumentation COM+
 
-Le service d’instrumentation COM+ vous permet de créer vos propres programmes de gestion et de journalisation des événements COM+ lorsque vous souhaitez afficher diverses mesures de performances pour vos composants COM+. L’instrumentation COM+ peut également être utilisée pour configurer des événements définis par l’utilisateur et pour convertir des événements COM+ au format Visual Studio Analyzer (VSA) lors de la mise à niveau des packages MTS qui reçoivent des événements MTS.
+Le service d’instrumentation COM+ vous permet de créer vos propres programmes de gestion et de journalisation des événements COM+ lorsque vous souhaitez afficher diverses mesures de performances pour vos composants COM+. l’instrumentation com+ peut également être utilisée pour configurer des événements définis par l’utilisateur et pour convertir des événements com+ au format d’analyseur de Visual Studio (VSA) lors de la mise à niveau des packages mts qui reçoivent des événements mts.
 
 > [!Note]  
-> À partir de Windows Server 2003, seuls les administrateurs ont des privilèges d’accès en lecture aux journaux de suivi pour les événements système.
+> à partir de Windows Server 2003, seuls les administrateurs ont des privilèges d’accès en lecture aux journaux de suivi pour les événements système.
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 6ccac7b689055bfaab926a8db46b4632606811d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 385a97a71d7017cba5bbfffd0833068a74acbe9d7281f8308b003a525b3f60f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106534279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441345"
 ---
 # <a name="iwiaapperrorhandler-interface"></a>Interface IWiaAppErrorHandler
 
@@ -45,9 +45,9 @@ L’interface **IWiaAppErrorHandler** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’objet de gestion des erreurs ou de rappel qui implémente cette interface est passé dans [**IWiaTransfer ::D lécharger**](-wia-iwiatransfer-download.md) et [**IWiaTransfer :: upload**](-wia-iwiatransfer-upload.md).
+l’objet de gestion des erreurs ou de rappel qui implémente cette interface est passé dans [**IWiaTransfer ::D lécharger**](-wia-iwiatransfer-download.md) et [**IWiaTransfer :: Télécharger**](-wia-iwiatransfer-upload.md).
 
 Cette interface n’est pas conçue pour gérer les erreurs rencontrées en dehors des transferts de données d’image, par exemple, les erreurs d’obtention ou de définition des propriétés d’appareil ou les rappels non renvoyés dans un pilote.
 
@@ -63,8 +63,8 @@ Si vous souhaitez qu’un gestionnaire d’erreurs de pilote et un gestionnaire 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

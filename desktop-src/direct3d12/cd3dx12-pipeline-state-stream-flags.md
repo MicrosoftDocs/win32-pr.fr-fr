@@ -15,12 +15,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 034f4a63c774ca41f28fbe9e6c2945fddee47c4f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2d8789fb8c393ecaf83e0295654092b22aba7f497abf909c46bac422d442c6fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530708"
 ---
 # <a name="cd3dx12_pipeline_state_stream_flags-structure"></a>\_Structure d' \_ \_ indicateurs du flux d’État du pipeline CD3DX12 \_
 
@@ -72,7 +72,7 @@ Conversion implicite en une structure d' [**\_ indicateurs d' \_ état \_ de pip
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_ \_ \_ \_ Les indicateurs de flux d’état de pipeline CD3DX12 sont une spécialisation typedef du modèle de sous- [**objet de flux d' \_ \_ état \_ \_ de pipeline CD3DX12**](cd3dx12-pipeline-state-stream-subobject.md) , et sont définis comme suit :
 

@@ -4,12 +4,12 @@ ms.assetid: a03327c1-e427-4c07-b3d4-808ce81c2c96
 title: Utilisation d’un modèle d’architecture Three-Tier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e20b765a6d103f3c349ffd9a44853f495c64a070
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9bd08ee1363504c610ed650d59b3837d292fb3a1d447c882dbd39ddba6229503
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546056"
 ---
 # <a name="using-a-three-tier-architecture-model"></a>Utilisation d’un modèle d’architecture Three-Tier
 

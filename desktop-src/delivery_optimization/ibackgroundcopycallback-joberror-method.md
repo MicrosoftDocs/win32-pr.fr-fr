@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0122f5777303506be5fd81d0966b00f828bf2073
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 307ab18a0f956e5a2f4f14e9782f90b8ec6bff723da04aa9866566d95c53dca7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543131"
 ---
 # <a name="ibackgroundcopycallbackjoberror-method"></a>IBackgroundCopyCallback :: JobError, méthode
 
@@ -62,7 +62,7 @@ Contient des informations sur l’erreur, telles que le fichier en cours de trai
 
 Cette méthode doit retourner **S_OK**; dans le cas contraire, continue à appeler cette méthode jusqu’à ce que **S_OK** soit retourné. Pour des raisons de performances, vous devez limiter le nombre de fois où vous retournez une valeur autre que **S_OK** à plusieurs fois. Au lieu de retourner un code d’erreur, envisagez de retourner toujours **S_OK** et de gérer l’erreur en interne. L’intervalle auquel cette méthode est appelée est arbitraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après avoir déterminé la cause de l’erreur, effectuez l’une des options suivantes :
 
@@ -80,8 +80,8 @@ Retourne BG_ERROR_CONTEXT_REMOTE_FILE si la tâche atteint une erreur HTTP 403, 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

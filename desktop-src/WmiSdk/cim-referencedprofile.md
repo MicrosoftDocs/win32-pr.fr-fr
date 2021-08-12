@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\interop
-ms.openlocfilehash: 8fdc0d8dccd325ae7e13de971e09cce6faf93455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39cfa6dac2fd827b2ce690afa5cdd7126322c2f81182db674517c75911791a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556810"
 ---
 # <a name="cim_referencedprofile-class"></a>\_Classe CIM ReferencedProfile
 
@@ -83,7 +83,7 @@ Spécifie une instance [**\_ RegisteredProfile CIM**](/previous-versions//ee3093
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation des propriétés **Dependent** et **Antecedent** dans l’Association **CIM \_ ReferencedProfile** est définie de telle sorte que le profil référencé est l’antécédent et que le profil faisant l’objet d’un référencement soit le dépendant.
 

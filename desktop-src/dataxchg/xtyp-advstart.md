@@ -3,7 +3,7 @@ title: XTYP_ADVSTART transaction (Ddeml. h)
 description: Un client utilise la \_ transaction XTYP ADVSTART pour établir une boucle de notification avec un serveur.
 ms.assetid: 8911e722-5656-4ca6-8b0a-6bdf8281611a
 keywords:
-- Échange de données de transaction XTYP_ADVSTART
+- XTYP_ADVSTART Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 852351ad902a0552ee012d6c1e5c4d61501e6e58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb18bda3dce4db465045991e26cdc2d97ddd87ddc69c494ffaf103c566955da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544758"
 ---
 # <a name="xtyp_advstart-transaction"></a>\_Transaction ADVSTART XTYP
 
-Un client utilise la transaction **XTYP \_ ADVSTART** pour établir une boucle de notification avec un serveur. Une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_ ADVSTART** comme paramètre *wType* de la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
+Un client utilise la transaction **XTYP \_ ADVSTART** pour établir une boucle de notification avec un serveur. une fonction de rappel de serveur échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction lorsqu’un client spécifie **XTYP \_ ADVSTART** comme paramètre *wType* de la fonction [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) .
 
 
 ```C++
@@ -97,9 +97,9 @@ Non utilisé.
 
 Une fonction de rappel de serveur doit retourner **true** pour autoriser une boucle de notification sur le nom de rubrique et la paire de noms d’élément spécifiés, ou **false** pour refuser la boucle de notification. Si la fonction de rappel retourne la **valeur true**, tous les appels suivants à la fonction [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) par le serveur sur les mêmes paires nom de rubrique et nom d’élément provoquent l’envoi de transactions [**\_ ADVREQ XTYP**](xtyp-advreq.md) au serveur par le système.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si un client demande une boucle de notification sur un nom de rubrique, un nom d’élément et un format de données pour une boucle de notification déjà établie, la bibliothèque de gestion échange dynamique de données (DDEML) ne crée pas de boucle de notification en double, mais modifie à la place les indicateurs de boucle de notification (**XTYPF \_ ACKREQ** et **XTYPF \_ NoData**) pour qu’ils correspondent à la dernière requête.
+si un client demande une boucle de notification sur un nom de rubrique, un nom d’élément et un format de données pour une boucle de notification déjà établie, la bibliothèque de gestion échange dynamique de données (DDEML) ne crée pas de boucle de notification en double, mais modifie à la place les indicateurs de boucle de notification (**XTYPF \_ ACKREQ** et **XTYPF \_ nodata**) pour qu’ils correspondent à la dernière requête.
 
 Cette transaction est filtrée si l’application serveur a spécifié l’indicateur de **\_ \_ notifications d’échec CBF** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -134,7 +134,7 @@ Cette transaction est filtrée si l’application serveur a spécifié l’indic
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

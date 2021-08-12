@@ -1,19 +1,19 @@
 ---
-description: En savoir plus sur la gestion de l’index de recherche Windows avec le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de portée d’analyse.
+description: en savoir plus sur la gestion de l’index de recherche Windows avec le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de portée d’analyse.
 ms.assetid: 345d1159-aa51-4a01-9831-216075a8fb78
 title: Gestion de l’index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd59fc804b4a7c3802a921462e0579c0640bbca
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: e1d1a98dd1b0bd33e25e6966e9eb387344c0dcff25610bbd9652d9cfcff707dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463268"
 ---
 # <a name="managing-the-index"></a>Gestion de l’index
 
-Windows Search vous permet de gérer l’index de recherche Windows avec trois composants principaux : le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de l’étendue de l’analyse.
+Windows la recherche vous permet de gérer le Windows index de recherche avec trois composants principaux : le gestionnaire de recherche, le gestionnaire de catalogues et le gestionnaire de l’étendue de l’analyse.
 
 Cette section est organisée comme suit :
 
@@ -24,17 +24,17 @@ Cette section est organisée comme suit :
 
 ## <a name="additional-resources"></a>Ressources supplémentaires
 
-- Pour obtenir des forums de discussion et des questions sur les technologies de recherche prises en charge par la Communauté, consultez le [forum MSDN : développement de Windows Desktop Search](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
+- pour obtenir des forums de discussion et des questions sur les technologies de recherche prises en charge par la communauté, consultez le [Forum MSDN : Windows Desktop search Development](https://social.msdn.microsoft.com/Forums/windowsdesktopsearchdevelopment/threads).
 - Pour télécharger les exemples de code du kit de développement logiciel (SDK) Search :
-  - [Exemples de recherche Windows sur la Galerie de code](./-search-samples-ovw.md)
-- Pour télécharger les SDK Windows :
-  - Pour Windows 10 : [SDK Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
-  - Pour Windows 7 : [SDK Windows pour Windows 7 et .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
-  - Pour Windows Vista : [SDK Windows pour Windows Vista et .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950)
+  - [Windows Rechercher des exemples dans la Galerie de code](./-search-samples-ovw.md)
+- pour télécharger les SDK Windows :
+  - pour Windows 10 : [kit de développement logiciel (SDK) Windows 10](https://developer.microsoft.com/windows/downloads/windows-10-sdk)
+  - pour Windows 7 : [SDK Windows pour Windows 7 et .NET Framework](https://msdn.microsoft.com/windowsvista/bb980924.aspx)
+  - pour Windows vista : [SDK Windows pour Windows vista et .NET Framework](https://www.microsoft.com/download/details.aspx?id=31950)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-[Guide de développement de Windows Search](-search-developers-guide-entry-page.md)
+[Windows Rechercher dans le Guide de développement](-search-developers-guide-entry-page.md)
 
 [Interrogation de l’index programmatiquement](-search-3x-wds-qryidx-overview.md)
 

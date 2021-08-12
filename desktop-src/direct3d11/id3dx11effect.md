@@ -1,5 +1,5 @@
 ---
-title: Interface ID3DX11Effect (D3dx11effect. h)
+title: Interface ID3DX11Effect (D3dx11effect.h)
 description: Une interface ID3DX11Effect gère un ensemble d’objets d’État, de ressources et de nuanceurs pour l’implémentation d’un effet de rendu.
 ms.assetid: 34429d51-6b45-4a62-bce1-50c4da02edac
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c9b945f09ad0424ecd6b546aefe68bea276ffc
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 670e60cf68c812b6d8b296aac41c3000fa8c1405c909e8827532625a6cd93b0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535927"
 ---
 # <a name="id3dx11effect-interface"></a>Interface ID3DX11Effect
 
@@ -62,7 +62,7 @@ L’interface **ID3DX11Effect** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un effet est créé en appelant [**D3DX11CreateEffectFromMemory**](d3dx11createeffectfrommemory.md).
 
@@ -92,7 +92,7 @@ Le système d’effet regroupe les informations requises pour le rendu dans un e
 > </table>>
 >  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-------------|-------------------------------------------------------------------------------------------|

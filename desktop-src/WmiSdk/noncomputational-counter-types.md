@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Types de compteurs décalculés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ba2757f08dcb2256236117daf2ef3343004425
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a05da34058ceeb99ab60d8cc3d4f72cb3eec85194e48bb707a929eb2f68aa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555159"
 ---
 # <a name="noncomputational-counter-types"></a>Types de compteurs décalculés
 
@@ -18,7 +18,7 @@ Les types de compteurs non calculés n’ont pas de formule associée. La valeur
 
 La propriété **FilesToBeIndexed** de la [**classe \_ \_ \_ IndexingService Win32 PerfRawData ContentIndex**](/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data) est un exemple du type de compteur de **performance \_ \_ RAWCOUNT du compteur de performances** . Il contient le nombre de fichiers qui n’ont pas été indexés.
 
-Les types de compteurs sont désignés par la constante définie dans Winperf. h situé dans le kit de développement logiciel (SDK) Microsoft Windows. Le tableau suivant répertorie les types de compteurs décalculés qui sont fournis.
+les types de compteurs sont désignés par la constante définie dans Winperf. h situé dans le kit de développement logiciel (SDK) de Microsoft Windows. Le tableau suivant répertorie les types de compteurs décalculés qui sont fournis.
 
 
 

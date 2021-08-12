@@ -4,12 +4,12 @@ ms.assetid: c4f7744c-ff57-4d9d-8632-7e5bbb73449a
 title: Considérations sur la sécurité du service SOAP COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a238860e154e9928672a64ef44f9db37e9c8ad2c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c67e034dfeaa4ec7f8688420aafcaec434653c942665ec3e3cbaa1535b51980d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548548"
 ---
 # <a name="com-soap-service-security-considerations"></a>Considérations sur la sécurité du service SOAP COM+
 
@@ -19,9 +19,9 @@ Vous pouvez configurer IIS pour chiffrer vos communications de service Web XML a
 
 Par défaut, les communications SOAP non chiffrées sont reçues au niveau du port HTTP (80) et les communications SOAP chiffrées sont reçues au niveau du port HTTPs (443). Pour qu’un client accède correctement à un service Web XML, tous les pare-feu entre le client et le serveur doivent être configurés pour autoriser les paquets SYN TCP à atteindre le port serveur approprié. À l’inverse, pour limiter l’accès aux services Web XML, un administrateur de pare-feu peut choisir de fermer ces ports.
 
-Les paramètres de sécurité par défaut d’un composant COM exposé en tant que service Web XML diffèrent selon la version du Microsoft .NET Framework installée. Si la version 1,0 est installée, les services Web XML ne sont pas sécurisés par défaut. tous les appels sont acceptés et aucun chiffrement n’est utilisé. Si la version 1,1 ou une version ultérieure est installée, les services Web XML sont sécurisés par défaut. les appelants doivent être authentifiés et le chiffrement est requis.
+les paramètres de sécurité par défaut d’un composant COM exposé en tant que service web XML varient en fonction de la version de Microsoft .NET Framework installée. Si la version 1,0 est installée, les services Web XML ne sont pas sécurisés par défaut. tous les appels sont acceptés et aucun chiffrement n’est utilisé. Si la version 1,1 ou une version ultérieure est installée, les services Web XML sont sécurisés par défaut. les appelants doivent être authentifiés et le chiffrement est requis.
 
-Un service Web XML sécurisé ne prend pas en charge l’accès WKO via WSDL. Au lieu de cela, les clients qui ont installé la version de .NET Framework 1,1 peuvent l’appeler en mode CAO. Si des clients tiers ont besoin d’accéder à votre service Web XML via WSDL, vous devez autoriser l’accès anonyme.
+Un service Web XML sécurisé ne prend pas en charge l’accès WKO via WSDL. au lieu de cela, les clients qui ont installé la version de .NET Framework 1,1 peuvent l’appeler en mode CAO. Si des clients tiers ont besoin d’accéder à votre service Web XML via WSDL, vous devez autoriser l’accès anonyme.
 
 Un composant COM exposé en tant que service Web XML s’exécute par défaut avec les autorisations de l’utilisateur anonyme (et non avec les autorisations de son appelant). Vous pouvez configurer IIS pour exécuter le service Web XML en tant qu’autre utilisateur ; Cela peut parfois être nécessaire, car votre composant utilise des fichiers ou d’autres ressources auxquels l’utilisateur anonyme n’a pas accès. Néanmoins, vous devez toujours essayer d’exécuter votre composant avec le moins de privilèges possible, afin de limiter les dommages qu’un appelant malveillant peut causer.
 
@@ -34,7 +34,7 @@ Pour obtenir des instructions détaillées sur la configuration des paramètres 
 
 **Pour convertir une application SOAP sécurisée en application SOAP non sécurisée**
 
-1.  Ouvrez l’outil d’administration Internet Information Services (IIS).
+1.  ouvrez l’outil d’administration Internet Information Services (IIS).
 2.  Recherchez le répertoire virtuel de l’application et ouvrez la boîte de dialogue **Propriétés** .
 3.  Cochez la case **activer la page de contenu par défaut** sous l’onglet **documents** .
 4.  Dans l’onglet **sécurité de répertoire** , cliquez sur **modifier** sous **accès anonyme et contrôle d’authentification**.

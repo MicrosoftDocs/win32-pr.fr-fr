@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0d496f49851aab665e49f3aaeb51e4b941d6c183
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a7d966edb083107b80f0723bce195bfc588797efb8ad1931e0e75a468bec5a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103679242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543898"
 ---
 # <a name="idodownloadsetproperty-method"></a>IDODownload :: SetProperty, méthode
 
@@ -57,6 +57,6 @@ Si la fonction est réussie, elle retourne **S_OK**. Sinon, elle retourne un [](
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | Do. h |

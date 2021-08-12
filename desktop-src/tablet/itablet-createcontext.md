@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 9f1214f7f9e429b5f9b5b9614c2ccfc7fd1800b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b67e4c15d40f2da7a616295f10a7762b242fb40d9c0b5f42c00eb51d190cc03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118450574"
 ---
 # <a name="itabletcreatecontext-method"></a>ITablet :: CreateContext, méthode
 
@@ -123,14 +123,14 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En règle générale, une application obtient les valeurs par défaut à partir de la [**méthode ITablet :: GetDefaultContextSettings**](itablet-getdefaultcontextsettings.md), modifie les valeurs en fonction de leurs besoins, puis passe la structure des paramètres modifiés à la **méthode ITablet :: CreateContext**.
 
@@ -153,7 +153,7 @@ Le paramètre *dwOptions* est un jeu d’indicateurs binaires qui décrivent les
 | TCXO \_ POSTHOOK<br/>                | 0x00000020<br/>                                                                                                                                                                         | Posthooks obtient des paquets après des contextes de tablette normaux mais avant le contexte système. Ils obtiennent des paquets dans l’ordre inverse de leur création.<br/>                                                                                                                   |
 | TCXO ne pas \_ \_ afficher le \_ curseur<br/>      | 0x00000080<br/>                                                                                                                                                                         | Le TC ne définit pas la position du curseur.<br/>                                                                                                                                                                                                                      |
 | TCXO ne pas \_ \_ valider les \_ TCS<br/>     | 0x00000100<br/>                                                                                                                                                                         | TC ne valide pas les GUID transmis dans les paramètres de contexte de tablette par rapport aux propriétés prises en charge de l’appareil.<br/>                                                                                                                                      |
-| TCXO \_ autoriser les \_ raccourcis<br/>           | 0x00000400<br/>                                                                                                                                                                         | Le TC autorisera la détection de mouvement (par défaut, cette opération est autorisée uniquement dans les contextes système) et le client obtiendra les \_ événements de scintillement se.<br/>                                                                                                               |
+| TCXO \_ autoriser les \_ raccourcis<br/>           | 0x00000400<br/>                                                                                                                                                                         | le TC autorisera la détection de mouvement (par défaut, cette opération est autorisée uniquement dans les contextes système) et le client obtiendra SE \_ événements de raccourci.<br/>                                                                                                               |
 | TCXO \_ autoriser \_ les \_ clics de commentaires<br/>   | 0x00000800<br/>                                                                                                                                                                         | Le TC permettra d’afficher les commentaires du stylet. Par défaut, cette valeur est autorisée uniquement dans les contextes système.<br/>                                                                                                                                                              |
 | TCXO \_ autoriser les \_ Commentaires \_ Barrel<br/> | 0x00001000<br/>                                                                                                                                                                         | Le TC permettra d’afficher les commentaires du stylet. Par défaut, cette valeur est autorisée uniquement dans les contextes système.<br/>                                                                                                                                                              |
 | TCXO \_ tout<br/>                     | TCXO \_ Margin \| TCXO \_ préhook \| TCXO \_ État du curseur \_ \| TCXO \_ aucun \_ curseur vers le faible TCXO non intégré TCXO POSTHOOK TCXO ne pas \_ \| \_ afficher le \_ \| \_ \| \_ \_ \_ curseur \| TCXO \_ \_ \_ ne pas valider les TCS<br/> | Toutes les options de contexte de tablette définies.<br/>                                                                                                                                                                                                                           |
@@ -169,7 +169,7 @@ Le paramètre *dwOptions* est un jeu d’indicateurs binaires qui décrivent les
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

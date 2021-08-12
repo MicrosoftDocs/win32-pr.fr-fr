@@ -1,5 +1,5 @@
 ---
-description: 'La méthode IWiaDevMgr2 :: RegisterEventCallbackProgram inscrit une application pour recevoir des événements d’appareil. Il est principalement fourni pour la compatibilité descendante avec les applications qui n’ont pas été écrites pour l’acquisition d’images Windows (WIA) 2,0.'
+description: 'La méthode IWiaDevMgr2 :: RegisterEventCallbackProgram inscrit une application pour recevoir des événements d’appareil. il est principalement fourni pour la compatibilité descendante avec les applications qui n’ont pas été écrites pour Windows acquisition d’images (WIA) 2,0.'
 ms.assetid: 6b427f19-719b-44ce-8e2c-3c44672345c8
 title: 'IWiaDevMgr2 :: RegisterEventCallbackProgram, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 9b18b5833b7616493c24f0128caa7c910b685e37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ebc99e61bf038c8db2ea537a1f8a5933ad512d21ec05cf51f6f8b7af5ede2b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106545798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441297"
 ---
 # <a name="iwiadevmgr2registereventcallbackprogram-method"></a>IWiaDevMgr2 :: RegisterEventCallbackProgram, méthode
 
-La méthode **IWiaDevMgr2 :: RegisterEventCallbackProgram** inscrit une application pour recevoir des événements d’appareil. Il est principalement fourni pour la compatibilité descendante avec les applications qui n’ont pas été écrites pour l’acquisition d’images Windows (WIA) 2,0.
+La méthode **IWiaDevMgr2 :: RegisterEventCallbackProgram** inscrit une application pour recevoir des événements d’appareil. il est principalement fourni pour la compatibilité descendante avec les applications qui n’ont pas été écrites pour Windows acquisition d’images (WIA) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -79,13 +79,13 @@ Identificateur d’appareil. Transmettez la **valeur null** pour l’inscription
 *pEventGUID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
 Événement pour lequel l’application est inscrite. Pour obtenir la liste des GUID d’événements valides, consultez la page [identificateurs d’événements WIA](-wia-wia-event-identifiers.md).
 
 </dd> <dt>
 
-_bstrFullAppName * \[ dans\]
+*bstrFullAppName* \[ dans\]
 </dt> <dd>
 
 Type : **BSTR**
@@ -136,7 +136,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez **IWiaDevMgr2 :: RegisterEventCallbackProgram** pour vous inscrire pour les événements de périphérique matériel. Lorsqu’un événement se produit lorsqu’une application est inscrite, l’application est lancée et les informations sur l’événement sont transmises à l’application.
 
@@ -152,8 +152,8 @@ En règle générale, cette méthode est appelée par un programme d’installat
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl> |
 
 

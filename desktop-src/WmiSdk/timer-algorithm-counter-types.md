@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Types de compteurs de l’algorithme Timer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bee815e6740c8736d0a7f2194b25e521368bbe96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03e3a606babb005eca7f01f75f735cd6d6a9da29c9c1427c56614c318f9465f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554013"
 ---
 # <a name="timer-algorithm-counter-types"></a>Types de compteurs de l’algorithme Timer
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 60ec24f264b8fe0424f17fc32deaf803e55c3346
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 344b13ec05e6f1d06011b3555e5b455202e5848b5000e799540d9f7c3160653b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441234"
 ---
 # <a name="iwiadevmgr2selectdevicedlg-method"></a>IWiaDevMgr2 :: SelectDeviceDlg, méthode
 
@@ -110,7 +110,7 @@ Reçoit l’adresse d’un pointeur vers l’interface [**IWiaItem2**](-wia-iwia
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **HRESULT**
 
@@ -128,7 +128,7 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Cette méthode crée et affiche la boîte de dialogue **Sélectionner un appareil** afin que l’utilisateur puisse sélectionner un appareil WIA 2,0 pour l’acquisition d’images. Si un appareil est sélectionné avec succès, la méthode **IWiaDevMgr2 :: SelectDeviceDlg** crée une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) pour l’appareil. Elle stocke un pointeur vers l’interface **IWiaItem2** de l’élément racine dans le paramètre *ppItemRoot*.
 
@@ -147,8 +147,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

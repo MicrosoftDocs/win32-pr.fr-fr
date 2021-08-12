@@ -1,23 +1,23 @@
 ---
-description: L’interface IWiaPropertyStorage fournit des méthodes pour lire et écrire les propriétés d’un élément WIA (Windows Image Acquisition). Les propriétés d’élément incluent les commandes d’appareil, les informations de format d’élément et les informations de périphérique.
+description: l’interface IWiaPropertyStorage fournit des méthodes pour la lecture et l’écriture des propriétés d’un élément d’Acquisition d’images Windows (WIA). Les propriétés d’élément incluent les commandes d’appareil, les informations de format d’élément et les informations de périphérique.
 ms.assetid: 268d2298-bc9c-479b-b078-a8180cd38bc3
 title: Lecture et définition des propriétés WIA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51df3e8fdb4b29abb6f64743ab8f7f2dd3776358
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 607e319723023a00c4159687c3dff13fedab8275a0522fdb2254b36b8e62edb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439873"
 ---
 # <a name="reading-and-setting-wia-properties"></a>Lecture et définition des propriétés WIA
 
-L’interface [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) fournit des méthodes pour lire et écrire les propriétés d’un élément WIA (Windows Image Acquisition). Les propriétés d’élément incluent les commandes d’appareil, les informations de format d’élément et les informations de périphérique.
+l’interface [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) fournit des méthodes pour la lecture et l’écriture des propriétés d’un élément d’Acquisition d’images Windows (WIA). Les propriétés d’élément incluent les commandes d’appareil, les informations de format d’élément et les informations de périphérique.
 
 Une application peut obtenir un pointeur vers une interface [**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) d’un élément en énumérant les informations d’appareil ou les informations d’événement de l’élément en appelant [**IWiaItem :: EnumDeviceCapabilities**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumdevicecapabilities) ou [**IWiaItem :: EnumRegisterEventInfo**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-enumregistereventinfo) ou en interrogeant l’interface [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) de l’élément. (Dans WIA 2,0, faites-le en appelant [**IWiaItem2 :: EnumDeviceCapabilities**](-wia-iwiaitem2-enumdevicecapabilities.md) ou [**IWiaItem2 :: EnumRegisterEventInfo**](-wia-iwiaitem2-enumregistereventinfo.md) ou en interrogeant l’interface [**IWiaItem2**](-wia-iwiaitem2.md) de l’élément.)
 
-[**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) hérite de [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) et les méthodes héritées sont implémentées comme décrit dans la section de référence de stockage structuré dans le kit de développement logiciel (SDK) Windows.
+[**IWiaPropertyStorage**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiapropertystorage) hérite de [IPropertyStorage](/windows/win32/api/propidlbase/nn-propidlbase-ipropertystorage) et les méthodes héritées sont implémentées comme décrit dans la section référence des Stockage structurées dans le kit de développement logiciel (SDK) Windows.
 
 > [!Note]
 >

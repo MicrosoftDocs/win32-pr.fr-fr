@@ -1,9 +1,9 @@
 ---
 title: XTYP_ADVDATA transaction (Ddeml. h)
-description: Informe le client que la valeur de l’élément de données a changé. La fonction de rappel du client échange dynamique de données (DDE), DdeCallback, reçoit cette transaction après avoir établi une boucle de notification avec un serveur.
+description: Informe le client que la valeur de l’élément de données a changé. la fonction de rappel du client échange dynamique de données (DDE), DdeCallback, reçoit cette transaction après avoir établi une boucle de notification avec un serveur.
 ms.assetid: c6e61785-b98c-4ffa-9d23-339e1c66cb4d
 keywords:
-- Échange de données de transaction XTYP_ADVDATA
+- XTYP_ADVDATA Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8359e34388d185200b5f30c4554e138cc1f6b94a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d9bf3f3b94f4454547d987ab6536929d1fe2998e7dc0394564143536f1da28d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544864"
 ---
 # <a name="xtyp_advdata-transaction"></a>\_Transaction ADVDATA XTYP
 
-Informe le client que la valeur de l’élément de données a changé. La fonction de rappel du client échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction après avoir établi une boucle de notification avec un serveur.
+Informe le client que la valeur de l’élément de données a changé. la fonction de rappel du client échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit cette transaction après avoir établi une boucle de notification avec un serveur.
 
 
 ```C++
@@ -97,7 +97,7 @@ Non utilisé.
 
 Une fonction de rappel DDE doit retourner le **\_ Fack DDE** si elle traite cette transaction, **DDE \_ FBUSY** si elle est trop occupée pour traiter cette transaction, ou **DDE \_ FNOTPROCESSED** si elle rejette cette transaction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application ne doit pas libérer le descripteur de données obtenu pendant cette transaction. Toutefois, une application doit copier les données associées au descripteur de données si l’application doit traiter les données après le retour de la fonction de rappel. Une application peut utiliser la fonction [**DdeGetData**](/windows/desktop/api/Ddeml/nf-ddeml-ddegetdata) pour copier les données.
 
@@ -132,7 +132,7 @@ Une application ne doit pas libérer le descripteur de données obtenu pendant c
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

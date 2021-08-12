@@ -3,7 +3,7 @@ title: ScalingPolicy. IdealSizes, propriété
 description: Représente un conteneur de spécifications de mise à l’échelle pour le modèle SizeDefinition préféré, en fonction de la taille du ruban.
 ms.assetid: a4aa2642-160d-4d81-9df9-29277911aa5a
 keywords:
-- Ruban Windows de la propriété ScalingPolicy. IdealSizes
+- ScalingPolicy. IdealSizes, propriété Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7bf62cd0388b523f444c4a9cca226b58187212b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 500f6193411ed72b8858506816d9af4f82b1219680fa0537bf54b3daa7735211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439524"
 ---
 # <a name="scalingpolicyidealsizes-property"></a>ScalingPolicy. IdealSizes, propriété
 
 Représente un conteneur de spécifications de mise à l’échelle pour le modèle [**SizeDefinition**](windowsribbon-element-sizedefinition.md) préféré, en fonction de la taille du ruban.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ScalingPolicy.IdealSizes>
@@ -55,9 +55,9 @@ Il n’y a pas d’attributs.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md).
 
@@ -141,8 +141,8 @@ Le manifeste [**ScalingPolicy**](windowsribbon-element-scalingpolicy.md) dans ce
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

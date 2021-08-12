@@ -4,12 +4,12 @@ ms.assetid: 3fbeb81a-e3e4-495b-b891-896877fab92f
 title: Sécurité des composants en file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b51592f6216d7380e877f2cd582a277f1583b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 682a9b409df2f605c259a6af6741dcc6e59d9fc23852b950a13225b24386c010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547081"
 ---
 # <a name="queued-components-security"></a>Sécurité des composants en file d’attente
 
@@ -28,7 +28,7 @@ Lorsque l’appelant d’un composant en file d’attente interagit avec le comp
 
 Les membres du rôle d’utilisateur approuvé QC sont autorisés à spécifier une identité arbitraire, ce qui signifie qu’un membre malveillant peut exécuter un appel de composant mis en file d’attente avec des privilèges élevés. Par conséquent, il est recommandé de conserver le nombre d’utilisateurs à un minimum absolu.
 
-En raison du risque d’une attaque sophistiquée associée à un mécanisme qui propage l’identité sur un réseau, ainsi que le risque d’une attaque par déni de service simple en inondant les files d’attente avec des demandes non exécutables, il est recommandé de déployer le service composants en file d’attente COM+ uniquement sur un réseau d’hôtes approuvés, par exemple sur un réseau privé ou un réseau privé virtuel ou derrière un pare-feu configuré de manière appropriée.
+En raison du risque d’une attaque sophistiquée associée à un mécanisme qui propage l’identité sur un réseau, ainsi que le risque d’une attaque par déni de service simple en inondant les files d’attente avec des demandes non exécutables, il est recommandé de déployer le service de composants en file d’attente COM+ uniquement sur un réseau d’hôtes approuvés, par exemple,  sur un réseau privé ou un réseau privé virtuel, ou derrière un pare-feu configuré de manière appropriée.
 
 Les composants COM+ en file d’attente s’exécutent sur DCOM. vous pouvez ainsi protéger l’intégrité et le secret des appels de méthode en file d’attente en sélectionnant **confidentialité du paquet** comme **niveau d’authentification des appels** sous l’onglet **sécurité** de la feuille de **Propriétés** de votre application en file d’attente.
 

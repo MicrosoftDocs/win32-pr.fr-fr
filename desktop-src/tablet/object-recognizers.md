@@ -4,12 +4,12 @@ ms.assetid: 53b6137d-2998-4a3b-b469-3d1204ea194b
 title: Identificateurs d’objets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83a258c8486bcf773f5f94c4de51c501e107fac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aabfd44a5eb126d48df70efd1c391584d12afc94e5e21c714aa0c740a7d486f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449660"
 ---
 # <a name="object-recognizers"></a>Identificateurs d’objets
 
@@ -18,7 +18,7 @@ En plus de reconnaître du texte, les module de reconnaissance peuvent reconnaî
 -   Notes musicales
 -   Formes géométriques
 -   Équations mathématiques
--   Éléments de l’organigramme
+-   Flow les éléments de graphique
 
 En règle générale, les objets reconnus par ce module de reconnaissance sont dans une relation spatiale ou fonctionnelle à deux dimensions. Par exemple, dans les relations complexes d’une équation mathématique, un module de reconnaissance peut retourner des résultats différents pour une limite supérieure sur un entier défini, par opposition à un numérateur dans une fraction.
 

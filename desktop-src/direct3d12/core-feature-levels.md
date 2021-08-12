@@ -3,16 +3,16 @@ title: Niveau de fonctionnalité Direct3D 12 Core 1.0
 description: Le niveau de fonctionnalité principal 1,0 est un sous-ensemble de l’ensemble de fonctionnalités Direct3D 12 complet.
 ms.topic: article
 ms.date: 11/05/2019
-ms.openlocfilehash: 42d13b71c516e55ecce378cf9cb415c45e520ba9
-ms.sourcegitcommit: bba068130240d16de8a3f3468b7cd72b2cd760f6
+ms.openlocfilehash: 93eab39509074114bf2032cfb1cdea3e4e767dae9786241a34f970ca5cd51703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "106513515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530719"
 ---
 # <a name="the-direct3d-12-core-10-feature-level"></a>Niveau de fonctionnalité Direct3D 12 Core 1.0
 
-Le niveau de fonctionnalité principal 1,0 est un sous-ensemble de l’ensemble de fonctionnalités Direct3D 12 complet. Le niveau de fonctionnalité principal 1,0 peut être exposé par une catégorie d’appareils appelés *appareils de calcul uniquement*. Le modèle de pilote global pour les appareils de calcul uniquement est le modèle de pilote de calcul Microsoft (MCDM). MCDM est un homologue mis à l’échelle du modèle WDDM (Windows Device Driver Model), qui a une plus grande portée.
+Le niveau de fonctionnalité principal 1,0 est un sous-ensemble de l’ensemble de fonctionnalités Direct3D 12 complet. Le niveau de fonctionnalité principal 1,0 peut être exposé par une catégorie d’appareils appelés *appareils de calcul uniquement*. Le modèle de pilote global pour les appareils de calcul uniquement est le modèle de pilote de calcul Microsoft (MCDM). MCDM est un homologue mis à l’échelle de Windows modèle de pilote de périphérique (WDDM), qui a une plus grande portée.
 
 Un appareil qui prend *uniquement* en charge les fonctionnalités au sein d’un niveau de fonctionnalité principal est appelé *appareil principal*.
 

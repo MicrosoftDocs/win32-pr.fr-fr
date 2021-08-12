@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: b256a38d6d6ee6ecf43994c6619c369ea6ca2212
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b0e146152f88a8847b76ac9d00cf7b10c0d5ebfdafa1dc483eca4d946517fd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449299"
 ---
 # <a name="setlinerecocallback-function"></a>SetLineRecoCallback fonction)
 
@@ -72,7 +72,7 @@ Cette fonction peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Voici la syntaxe de la fonction de rappel.
 
@@ -96,7 +96,7 @@ public delegate void GetLineRecoDef(
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                         |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                         |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                             |
 | Bibliothèque<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

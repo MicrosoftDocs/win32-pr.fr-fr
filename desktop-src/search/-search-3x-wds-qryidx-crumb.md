@@ -1,19 +1,19 @@
 ---
-description: Découvrez comment utiliser l’argument de navigation dans Windows Search comme moyen de contrôler l’étendue d’une recherche.
+description: comprendre comment utiliser l’argument de navigation dans Windows recherche comme un moyen de contrôler l’étendue d’une recherche.
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
-title: Argument de navigation (Windows Search)
+title: Argument de navigation (Windows recherche)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f56287c7182c0cf370250d53075a1c951ddf28b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5ec64fdcf9b15e0b7c87ea2ff0b122e22a8f8917bbacb9d9c3c3da274123f607
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463241"
 ---
-# <a name="crumb-argument-windows-search"></a>Argument de navigation (Windows Search)
+# <a name="crumb-argument-windows-search"></a>Argument de navigation (Windows recherche)
 
-L' `crumb` argument prend en charge les instructions de syntaxe de requête avancée (AQS) complète et est particulièrement utile pour contrôler l’étendue d’une recherche. En plus de AQS ements, l' `crumb` argument peut accepter un `location` paramètre spécial sur Windows Vista et `kind` les `store` paramètres et sur XP, comme décrit plus loin dans cette rubrique.
+L' `crumb` argument prend en charge les instructions de syntaxe de requête avancée (AQS) complète et est particulièrement utile pour contrôler l’étendue d’une recherche. en plus de AQS ements, l' `crumb` argument peut accepter un `location` paramètre spécial sur Windows Vista et `kind` les `store` paramètres et sur XP, comme décrit plus loin dans cette rubrique.
 
 Cette rubrique est organisée comme suit :
 
@@ -22,7 +22,7 @@ Cette rubrique est organisée comme suit :
 -   [Utilisation de la navigation avec Vista (emplacement)](#using-crumb-with-vista-location)
     -   [Exemples Vista](#vista-examples)
     -   [Constantes pour les dossiers communs](#constants-for-common-folders)
--   [Utilisation de la navigation avec Windows XP (genre et Store)](#using-crumb-with-windows-xp-kind-and-store)
+-   [utilisation de la navigation avec Windows XP (genre et store)](#using-crumb-with-windows-xp-kind-and-store)
     -   [Exemples XP](#xp-examples)
 -   [Rubriques connexes](#related-topics)
 
@@ -56,9 +56,9 @@ crumb=location:c%3a%5cMyVacationPix,Vacation&
 
 ## <a name="using-crumb-with-vista-location"></a>Utilisation de la navigation avec Vista (emplacement)
 
-Dans le paramètre de navigation, Windows Vista prend en charge la AQS complète et également la `location` propriété, qui a une implémentation spéciale disponible uniquement sur Windows Vista. Vous pouvez utiliser une chaîne AQS ou la `location` propriété dans un seul paramètre de navigation, mais pas les deux. Si le paramètre de navigation inclut AQS, tout le reste dans ce paramètre de navigation est ignoré.
+dans le paramètre de navigation, Windows Vista prend en charge la AQS complète et également la `location` propriété, qui a une implémentation spéciale disponible uniquement sur Windows Vista. Vous pouvez utiliser une chaîne AQS ou la `location` propriété dans un seul paramètre de navigation, mais pas les deux. Si le paramètre de navigation inclut AQS, tout le reste dans ce paramètre de navigation est ignoré.
 
-La `location` propriété vous permet de spécifier un chemin d’accès à rechercher. Windows Vista peut contourner l’indexeur et traverser le répertoire directement si l’emplacement se trouve en dehors de la portée de l’analyse de l’indexeur. Par conséquent, ces recherches peuvent être plus lentes que les recherches qui utilisent l’indexeur.
+La `location` propriété vous permet de spécifier un chemin d’accès à rechercher. Windows Vista peut ignorer l’indexeur et traverser le répertoire directement si l’emplacement se trouve en dehors de la portée de l’analyse de l’indexeur. Par conséquent, ces recherches peuvent être plus lentes que les recherches qui utilisent l’indexeur.
 
 Lorsque vous spécifiez une `location` propriété, deux paramètres supplémentaires sont pris en charge et facultatifs :
 
@@ -110,7 +110,7 @@ Le troisième exemple exécute une recherche dans les documents C : \\ , limit�
 
 ### <a name="constants-for-common-folders"></a>Constantes pour les dossiers communs
 
-Windows Vista permet l’utilisation de valeurs [KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85)) qui fournissent une méthode unique indépendante du système pour identifier les dossiers spéciaux utilisés fréquemment par les applications, mais qui peuvent ne pas avoir le même nom ou emplacement sur un système donné. Par exemple, le dossier système peut être « C : \\ Windows » sur un système et « c : \\ winnt » sur un autre. Avant Windows Vista, [CSIDLs](/windows/desktop/shell/csidl) étaient utilisés.
+Windows Vista permet l’utilisation de valeurs [KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85)) qui fournissent une méthode unique indépendante du système pour identifier les dossiers spéciaux utilisés fréquemment par les applications, mais qui peuvent ne pas avoir le même nom ou emplacement sur un système donné. par exemple, le dossier système peut être « c : \\ Windows » sur un système et « c : \\ winnt » sur un autre. avant Windows Vista, [CSIDLs](/windows/desktop/shell/csidl) étaient utilisés.
 
 Utilisez ces emplacements avec la syntaxe suivante :
 
@@ -123,9 +123,9 @@ crumb=location:shell%3a<LocationName>&
 
  
 
-## <a name="using-crumb-with-windows-xp-kind-and-store"></a>Utilisation de la navigation avec Windows XP (genre et Store)
+## <a name="using-crumb-with-windows-xp-kind-and-store"></a>utilisation de la navigation avec Windows XP (genre et store)
 
-Pour Windows Search sur Windows XP (WDS 3. x), les termes de AQS « genre » et « Store » ont une implémentation spéciale. Les valeurs « Kind » sont les mêmes que [celles utilisées dans WDS 2. x](../lwef/-search-2x-wds-perceivedtype.md). Les valeurs « Store » sont les suivantes :
+par Windows recherche sur Windows XP (WDS 3. x), les termes AQS « genre » et « store » ont une implémentation spéciale. Les valeurs « Kind » sont les mêmes que [celles utilisées dans WDS 2. x](../lwef/-search-2x-wds-perceivedtype.md). Les valeurs « Store » sont les suivantes :
 
 -   Protocole
 -   fichier
@@ -142,7 +142,7 @@ search-ms:query=from:john&crumb=kind:communications&
 
 
 
-Le premier exemple retourne les e-mails Microsoft Outlook Express de John avec l’étiquette personnalisée « OE Mail ». Le deuxième exemple exécute une recherche de toutes les communications de John.
+le premier exemple retourne les e-mails Microsoft Outlook Express de John avec l’étiquette personnalisée « OE Mail ». Le deuxième exemple exécute une recherche de toutes les communications de John.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

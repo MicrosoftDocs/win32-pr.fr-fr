@@ -4,12 +4,12 @@ ms.assetid: 75002a82-5300-4758-9fe4-56537af5168c
 title: Conception d’applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a1b28aa9e8b1658855ca0ef5134722d54650962
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 307daed4b32be3b6130a11632419feb988652aac5545489adb5b14f3eaf5aad9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547998"
 ---
 # <a name="designing-com-applications"></a>Conception d’applications COM+
 
@@ -24,7 +24,7 @@ Bien qu’une analyse complète de la méthodologie pour l’utilisation de COM+
 | [Hypothèses et principes de conception de COM+](com--design-assumptions-and-principles.md)<br/>                                           | Présente les hypothèses et les principes nécessaires pour comprendre comment créer une application distribuée à l’aide de COM+.<br/> |
 | [Autres outils Microsoft pour la création d’applications distribuées](other-microsoft-tools-for-building-distributed-applications.md)<br/> | Suggère des technologies Microsoft que vous pouvez utiliser conjointement avec COM+ lors de la création d’applications distribuées.<br/>             |
 | [Conception de l’application COM+ à l’aide d’UML](designing-the-com--application-using-uml.md)<br/>                                       | Décrit la méthode de conception préférée pour la création d’applications COM+. <br/>                                                   |
-| [Conseils de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)<br/>                                                   | Présente des conseils sur la conception d’une application COM+. <br/>                                                                          |
+| [Astuces de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)<br/>                                                   | Présente des conseils sur la conception d’une application COM+. <br/>                                                                          |
 | [Optimisation des interactions avec le niveau de logique métier COM+](optimizing-interactions-with-the-com--business-logic-tier.md)<br/>     | Décrit certaines des meilleures pratiques pour la communication entre le niveau de la logique métier et les couches de présentation et données.<br/> |
 
 

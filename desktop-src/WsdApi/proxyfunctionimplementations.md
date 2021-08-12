@@ -4,12 +4,12 @@ ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: élément proxyFunctionImplementations
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e9f03834ca59ede41f2f3c3dff00d7dacdd54db
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5d64ae53d76100e5d38e1dd1a363f64a1004284b6f8a35ce5eb4e49d6d1e9a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552428"
 ---
 # <a name="proxyfunctionimplementations-element"></a>élément proxyFunctionImplementations
 
@@ -33,7 +33,7 @@ Il n’y a pas d’attributs.
 
 | Élément                                     | Description                                                                                                             |
 |---------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| [**async**](async.md)<br/>           | Spécifie si les opérations asynchrones sont incluses dans les fonctions proxy générées.<br/> <br/>         |
+| [**Suppr**](async.md)<br/>           | Spécifie si les opérations asynchrones sont incluses dans les fonctions proxy générées.<br/> <br/>         |
 | [**événements**](events.md)<br/>         | Spécifie si les événements connexes sont inclus dans les fonctions générées.<br/> <br/>                        |
 | [**faultInfo**](faultinfo.md)<br/>   | Spécifie si les paramètres utilisés pour passer les informations d’erreur sont inclus dans les fonctions générées.<br/> <br/> |
 | [**opération**](operation.md)<br/>   | Spécifie une opération pour laquelle du code doit être généré.<br/> <br/>                                        |
@@ -69,7 +69,7 @@ Il n’y a pas d’attributs.
 
 
 
-| Étiquette | Value |
+| Étiquette | Valeur |
 |-------------------------------------|---------------|
 | Système minimal pris en charge<br/> | Windows Vista |
 | Peut être vide                        | Oui           |

@@ -3,7 +3,7 @@ title: Élément SizeDefinition
 description: Représente un modèle de disposition personnalisé de contrôles de ruban.
 ms.assetid: f90bb469-aee2-4bba-9efe-142a39a8c1ae
 keywords:
-- Ruban des fenêtres d’élément SizeDefinition
+- élément SizeDefinition Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 982825649afb7640f87cb7032b000d837915c4bc9d970444da3c5cd3a5a98375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439534"
 ---
 # <a name="sizedefinition-element"></a>Élément SizeDefinition
 
 Représente un modèle de disposition personnalisé de contrôles de ruban.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <SizeDefinition
@@ -89,7 +89,7 @@ Représente un modèle de disposition personnalisé de contrôles de ruban.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément de [**groupe**](windowsribbon-element-group.md) .
 
@@ -194,7 +194,7 @@ L’exemple de code suivant illustre un modèle personnalisé de base.
 ## <a name="element-information"></a>Informations sur les éléments
 
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: non
 
 

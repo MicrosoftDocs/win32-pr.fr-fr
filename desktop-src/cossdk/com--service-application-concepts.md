@@ -4,19 +4,19 @@ ms.assetid: d6b1cf4a-ca39-4d50-a33d-aa639937ef9e
 title: Concepts des applications de service COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b24db7a031ed0520f30891d98688af67e853ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f0d0cedae4af19825e6e48a0e2aded102f96bed0c08b45c48cfb2f7e3bbd52ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548765"
 ---
 # <a name="com-service-application-concepts"></a>Concepts des applications de service COM+
 
 Vous pouvez utiliser l’outil d’administration Services de composants pour configurer une application serveur COM+ en tant qu’application de service. L’exécution d’une application serveur COM+ en tant que service offre les avantages suivants :
 
 -   Si votre application doit toujours être en cours d’exécution, les services de composants peuvent éventuellement démarrer le serveur automatiquement et redémarrer le serveur s’il expire. Par exemple, si un ordinateur exécutant les composants de l’écouteur de composants en file d’attente est redémarré, les écouteurs de composants en file d’attente peuvent être démarrés automatiquement s’ils sont configurés en tant que service.
--   Si votre application doit effectuer des opérations privilégiées, l’application peut s’exécuter en tant que compte système local. Seuls les services NT sont autorisés à s’exécuter avec ce niveau de sécurité. L’application est compatible avec Windows service de cluster, qui gère les services pendant le basculement du système.
+-   Si votre application doit effectuer des opérations privilégiées, l’application peut s’exécuter en tant que compte système local. Seuls les services NT sont autorisés à s’exécuter avec ce niveau de sécurité. l’application est compatible avec le service de cluster Windows, qui gère les services lors du basculement du système.
 -   Si d’autres services doivent être marqués comme étant dépendants, les services de composants fournissent cette option. Par exemple, si votre application utilise des fonctionnalités fournies par un autre service, le service marqué comme dépendant sera démarré avant le démarrage de votre application.
 
 ## <a name="starting-an-application-automatically"></a>Démarrage automatique d’une application

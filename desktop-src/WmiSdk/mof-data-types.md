@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Types de données MOF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86236b7747c88d4d8d023346e6132472f65291b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce2c58167833c556d29211d08b65565c7ec0db78790817e5a4b51dfbf880758
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555199"
 ---
 # <a name="mof-data-types"></a>Types de données MOF
 
@@ -22,12 +22,12 @@ Le langage MOF prend en charge les types de données et les catégories de types
 -   [boolean](boolean.md)
 -   [Date/heure](date-and-time-format.md)
 -   [Tableaux MOF](mof-arrays.md)
--   [Nombres](numbers.md)
+-   [Nombreux](numbers.md)
 -   [DESSIN](object.md)
 -   [Informations de référence](references.md)
 -   [Chaînes](strings.md)
 -   [Mappage des valeurs](value-map.md)
--   [NULLITÉ](void.md)
+-   [VOID](void.md)
 
 Pour plus d’informations sur les commandes, consultez [commandes de préprocesseur](preprocessor-commands.md).
 

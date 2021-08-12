@@ -4,18 +4,18 @@ ms.assetid: 54c84cdb-50a1-4f5e-a18f-0477d90c74d2
 title: Classement des octets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47af5ea9d22c01e6ae1ad3d78af48b4216f71ecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 554b9f00b67fcd602daee0ed33443e228e4e3976f334506d949e3af79fef7e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560179"
 ---
 # <a name="byte-ordering"></a>Classement des octets
 
-Veillez à prendre en compte toutes les différences entre l’ordonnancement d’octets utilisé pour stocker des entiers par l’architecture de l’hôte et l’ordre des octets utilisé sur le câble par les protocoles de transport individuels. Toute référence à une adresse ou à un numéro de port transmis à ou à partir d’une routine Windows Sockets doit se trouver dans l’ordre de réseau (Big-endian) pour le protocole utilisé. Dans le cas d’IP, cela comprend l’adresse IP et les paramètres de port d’une structure [**sockaddr**](sockaddr-2.md) (mais pas le paramètre de *\_ famille Sin* ).
+Veillez à prendre en compte toutes les différences entre l’ordonnancement d’octets utilisé pour stocker des entiers par l’architecture de l’hôte et l’ordre des octets utilisé sur le câble par les protocoles de transport individuels. toute référence à une adresse ou à un numéro de port transmis à ou à partir d’une routine de sockets Windows doit se trouver dans l’ordre de réseau (big-endian) pour le protocole utilisé. Dans le cas d’IP, cela comprend l’adresse IP et les paramètres de port d’une structure [**sockaddr**](sockaddr-2.md) (mais pas le paramètre de *\_ famille Sin* ).
 
-Un certain nombre de systèmes UNIX fonctionnent sur des unités centrales qui représentent des entiers dans l’ordre d’octet (Big-endian) réseau. Par conséquent, la nécessité de convertir des entiers de l’ordre d’octet de l’hôte en ordre d’octet réseau peut être ignorée sans causer de problèmes, même si cela n’est pas recommandé pour la portabilité.
+un certain nombre de UNIX systèmes fonctionnent sur des unités centrales qui représentent des entiers dans l’ordre d’octet (big-endian) réseau. Par conséquent, la nécessité de convertir des entiers de l’ordre d’octet de l’hôte en ordre d’octet réseau peut être ignorée sans causer de problèmes, même si cela n’est pas recommandé pour la portabilité.
 
 En revanche, l’ordre des octets utilisé pour représenter les entiers par la plupart des processeurs® Intel est Little-endian. Il devient donc obligatoire que les entiers soient convertis de l’ordre d’octet de l’hôte en ordre d’octet réseau, avant d’être utilisés dans les structures et les fonctions Winsock Sockets.
 

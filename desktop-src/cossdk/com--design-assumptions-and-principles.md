@@ -4,12 +4,12 @@ ms.assetid: c72bbd47-0219-40ba-a7d5-2a6b725972d0
 title: Hypothèses et principes de conception de COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7dea86c404896a3d6095d39ebd6031767f6ccdd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 28b87c5ae631cd5517b215efae3a09968649cd49ea94fe33b33d9b826082e911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549394"
 ---
 # <a name="com-design-assumptions-and-principles"></a>Hypothèses et principes de conception de COM+
 
@@ -21,8 +21,8 @@ COM+ a été développé pour faciliter la création d’applications distribué
 
 Les hypothèses sont les suivantes :
 
--   **L’application COM+ prend en charge plusieurs utilisateurs sur plusieurs serveurs.** En d’autres termes, vous créez une application distribuée, et ces utilisateurs seront sur différents ordinateurs hôtes à partir desquels le code s’exécute. Les utilisateurs vont accéder au code via Internet ou via un réseau privé. L’interface utilisateur va être présentée via un navigateur ou une application personnalisée, telle qu’une application basée sur des formulaires écrite avec Microsoft Visual Basic ou MFC. Cette interface utilisateur va se trouver sur l’ordinateur client.
--   **L’application COM+ peut être mise à l’échelle et offrir une plus grande disponibilité et fiabilité en déployant l’application sur plusieurs serveurs.** En procédant ainsi, vous pouvez équilibrer la charge de travail de l’application et fournir une tolérance de panne à l’aide du clustering Windows.
+-   **L’application COM+ prend en charge plusieurs utilisateurs sur plusieurs serveurs.** En d’autres termes, vous créez une application distribuée, et ces utilisateurs seront sur différents ordinateurs hôtes à partir desquels le code s’exécute. Les utilisateurs vont accéder au code via Internet ou via un réseau privé. l’interface utilisateur va être présentée via un navigateur ou une application personnalisée, telle qu’une application basée sur des formulaires écrite avec Microsoft Visual Basic ou MFC. Cette interface utilisateur va se trouver sur l’ordinateur client.
+-   **L’application COM+ peut être mise à l’échelle et offrir une plus grande disponibilité et fiabilité en déployant l’application sur plusieurs serveurs.** en procédant ainsi, vous pouvez équilibrer la charge de travail de l’application et fournir une tolérance de panne à l’aide du clustering de Windows.
 -   **En cas de problème, l’état des données persistantes, stockées dans une base de données, à partir d’une application COM+ sera conservé si vous utilisez des transactions.** L’état de l’application doit survivre à des accidents qui peuvent se produire, tels que des erreurs d’application, des pannes du système ou des défaillances du réseau.
 
 ## <a name="principles"></a>Principes
@@ -48,7 +48,7 @@ Outre ces trois hypothèses, les principes suivants affectent le modèle de prog
 [Conception de l’application COM+ à l’aide d’UML](designing-the-com--application-using-uml.md)
 </dt> <dt>
 
-[Conseils de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)
+[Astuces de conception générale pour l’utilisation de COM+](general-design-tips-for-using-com-.md)
 </dt> <dt>
 
 [Optimisation des interactions avec le niveau de logique métier COM+](optimizing-interactions-with-the-com--business-logic-tier.md)

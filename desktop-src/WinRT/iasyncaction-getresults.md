@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: 292c73846227f1bb8884b24b7e709bc6b2296e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62196c7f8ded67bed0ecdb3ea33420de54301bbd379615126ada158ea9e725ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561051"
 ---
 # <a name="iasyncactiongetresults-method"></a>IAsyncAction :: GetResults, méthode
 
@@ -43,7 +43,7 @@ Type : **HRESULT**
 
 Cette méthode retourne toujours **S \_ OK**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appel de la méthode **GetResults** n’a aucun effet si l’implémentation actuelle a un type dynamique [**IAsyncAction**](/windows/win32/api/windows.foundation/nn-windows-foundation-iasyncaction).
 

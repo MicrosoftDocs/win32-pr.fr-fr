@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: Opérateurs WQL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f5cc37d03884a3609abf3f76d2c78ba22b3c9f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a441afb661e4f8d92e21d944462dddd6d7390fd2dbe871512342f7c9251d6ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553086"
 ---
 # <a name="wql-operators"></a>Opérateurs WQL
 
-Le langage WQL (Windows Management Instrumentation Query Language) prend en charge un ensemble d’opérateurs standard utilisés dans la [clause WHERE](where-clause.md) d’une instruction SELECT, comme suit.
+le langage WQL (Windows Management Instrumentation Query Language) prend en charge un ensemble d’opérateurs standard utilisés dans la [clause where](where-clause.md) d’une instruction SELECT, comme suit.
 
 
 

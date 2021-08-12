@@ -4,12 +4,12 @@ ms.assetid: 17404789-7f08-4cf1-88f8-e1f70296c163
 title: Autres considérations relatives aux séparateurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6e00ebc926dd51efb592304f6015351bdc2790b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3328fd553a16aeee1e1dfa5459b78a45732a55494e0481950d730dab7ce0d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449359"
 ---
 # <a name="other-divider-considerations"></a>Autres considérations relatives aux séparateurs
 

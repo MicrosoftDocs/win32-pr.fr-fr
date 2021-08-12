@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'Exemple : obtention de données WMI à partir d’un ordinateur distant'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3375bd25073defa92358f697ee4165ddb57793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722247d9b58c9fc27c5fac63a97f86d0c155faa92e41fc68506c5d280d0b040a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556622"
 ---
 # <a name="example-getting-wmi-data-from-a-remote-computer"></a>Exemple : obtention de données WMI à partir d’un ordinateur distant
 
@@ -37,7 +37,7 @@ La procédure suivante montre comment exécuter l’application WMI. Les étapes
 
     Pour plus d’informations, consultez [création d’une connexion à un espace de noms WMI](creating-a-connection-to-a-wmi-namespace.md).
 
-4.  Obtenez un pointeur vers [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) pour l' \\ \\ \\ espace de noms CIMV2 racine sur un ordinateur distant en appelant [**IWbemLocator :: ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). Lorsque vous vous connectez à un ordinateur distant, vous devez connaître le nom de l’ordinateur, le domaine, le nom d’utilisateur et le mot de passe de l’ordinateur distant auquel vous vous connectez. Ces attributs sont tous passés dans la méthode **IWbemLocator :: ConnectServer** . Vérifiez également que le nom d’utilisateur sur l’ordinateur qui tente de se connecter à l’ordinateur distant dispose des privilèges d’accès appropriés sur l’ordinateur distant. Pour plus d’informations, consultez [connexion via le pare-feu Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Pour vous connecter à l’ordinateur local, consultez [exemple : obtention de données WMI à partir de l’ordinateur local](example--getting-wmi-data-from-the-local-computer.md) et [création d’une connexion à un espace de noms WMI](creating-a-connection-to-a-wmi-namespace.md).
+4.  Obtenez un pointeur vers [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) pour l' \\ \\ \\ espace de noms CIMV2 racine sur un ordinateur distant en appelant [**IWbemLocator :: ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). Lorsque vous vous connectez à un ordinateur distant, vous devez connaître le nom de l’ordinateur, le domaine, le nom d’utilisateur et le mot de passe de l’ordinateur distant auquel vous vous connectez. Ces attributs sont tous passés dans la méthode **IWbemLocator :: ConnectServer** . Vérifiez également que le nom d’utilisateur sur l’ordinateur qui tente de se connecter à l’ordinateur distant dispose des privilèges d’accès appropriés sur l’ordinateur distant. pour plus d’informations, consultez [connexion via un pare-feu Windows](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista). Pour vous connecter à l’ordinateur local, consultez [exemple : obtention de données WMI à partir de l’ordinateur local](example--getting-wmi-data-from-the-local-computer.md) et [création d’une connexion à un espace de noms WMI](creating-a-connection-to-a-wmi-namespace.md).
 
     Lors de la gestion des noms d’utilisateur et des mots de passe, il est recommandé que l’utilisateur soit invité à saisir les informations, à utiliser les informations, puis à supprimer les informations, afin qu’il y ait moins de risque que les informations soient interceptées par un utilisateur non autorisé. L’étape 4 de l’exemple de code ci-dessous utilise [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) pour obtenir le nom d’utilisateur et le mot de passe, puis utilise [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) pour supprimer les informations une fois qu’elles sont utilisées dans [**IWbemLocator :: ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver). Pour plus d’informations, consultez [gestion des mots de passe](/windows/desktop/SecBP/handling-passwords) et [demande d’informations d’identification à l’utilisateur](/windows/desktop/SecBP/asking-the-user-for-credentials) sur MSDN.
 

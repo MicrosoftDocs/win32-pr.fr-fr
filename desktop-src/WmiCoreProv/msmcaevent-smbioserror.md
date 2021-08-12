@@ -1,5 +1,5 @@
 ---
-description: Indique une erreur BIOS du système MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique une erreur BIOS du système MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: b451ca45-6208-4445-b9f1-b4e3174837a4
 title: Classe MSMCAEvent_SMBIOSError
 ms.topic: reference
@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 709d480e8865c5d5bde2a9f5e8de45f138e66548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fccb38a73585db71c6418929a35458f26b9749159e537de47a298d920b318e08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104209859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558394"
 ---
 # <a name="msmcaevent_smbioserror-class"></a>MSMCAEvent \_ SMBIOSError, classe
 
-La classe **MSMCAEvent \_ SMBIOSError** indique une erreur BIOS du système MCA (machine Check architecture). Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ SMBIOSError** indique une erreur BIOS du système MCA (machine Check architecture). cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -124,7 +124,7 @@ Niveau de gravité de l’erreur signalée.
 
 | Valeur                                                                                                | Signification                |
 |------------------------------------------------------------------------------------------------------|------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl> | Récupérable<br/> |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl> | Récupérable<br/> |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl> | Erreur irrécupérable<br/>       |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl> | Corrigible<br/> |
 
@@ -219,7 +219,7 @@ Type d'événement.
 
 | Valeur                                                                                                  | Signification                                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
-| <span id="0"></span><dl> <dt>**0**</dt> </dl>   | Réservé.<br/>                                                                                                        |
+| <span id="0"></span><dl> <dt>**entre**</dt> </dl>   | Réservé.<br/>                                                                                                        |
 | <span id="1"></span><dl> <dt>**1**</dt> </dl>   | Erreur de mémoire ECC sur un bit.<br/>                                                                                     |
 | <span id="2"></span><dl> <dt>**2**</dt> </dl>   | Erreur de mémoire ECC sur plusieurs bits.<br/>                                                                                   |
 | <span id="3"></span><dl> <dt>**3**</dt> </dl>   | Erreur de mémoire avec parité.<br/>                                                                                             |
@@ -259,7 +259,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Type de message du journal des événements. Ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
+Type de message du journal des événements. ces messages correspondent aux codes de message du journal des événements utilisés pour insérer des messages du journal des événements par le fournisseur de consommateur du journal des événements Windows lorsqu’il reçoit l’un des événements.
 
 </dd> <dt>
 
@@ -278,7 +278,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ SMBIOSError** est dérivée de [**WmiEvent**](wmievent.md).
 

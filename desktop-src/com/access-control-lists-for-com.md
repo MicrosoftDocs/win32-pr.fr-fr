@@ -4,16 +4,16 @@ description: Listes de Access Control pour COM
 ms.assetid: ceb37563-7e7f-4704-b671-72ed65e3e102
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 811b6cdbca36ef75bb5ee3f185b0261967d736d0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e50e1641691b1a2812e861a95c5bc0f7eac8f0f8af67d41b18287c07253b8d51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551353"
 ---
 # <a name="access-control-lists-for-com"></a>Listes de Access Control pour COM
 
-Windows Server XP Service Pack 2 (SP2) et Windows Server 2003 Service Pack 1 (SP1) présentent des améliorations en matière de sécurité pour le modèle DCOM (Distributed Component Object Model). L’une de ces améliorations est l’utilisation de droits d’accès plus spécifiques dans les listes de contrôle d’accès (ACL). Les droits d’accès sont les suivants :
+Windows server XP service pack 2 (sp2) et Windows server 2003 service pack 1 (sp 1) présentent des améliorations de sécurité pour le modèle DCOM (Distributed Component Object Model). L’une de ces améliorations est l’utilisation de droits d’accès plus spécifiques dans les listes de contrôle d’accès (ACL). Les droits d’accès sont les suivants :
 
 ``` syntax
 COM_RIGHTS_EXECUTE 1
@@ -23,12 +23,12 @@ COM_RIGHTS_ACTIVATE_LOCAL 8
 COM_RIGHTS_ACTIVATE_REMOTE 16
 ```
 
-Pour assurer la compatibilité descendante, une liste de contrôle d’accès peut exister au format utilisé avant Windows XP SP 2 et Windows Server 2003 SP 1, qui utilise uniquement les droits COM d’accès qui \_ \_ s’exécutent, ou il peut exister dans le nouveau format utilisé dans Windows XP SP 2 et windows Server 2003 SP 1, qui utilise les \_ droits com \_ s’exécutent avec une combinaison de \_ droits com exécuter en \_ \_ local, \_ droits com \_ exécuter \_ à distance, droits com \_ \_ activés en \_ local et \_ droits com \_ activés \_ à distance.
+pour assurer la compatibilité descendante, une liste de contrôle d’accès peut exister au format utilisé avant Windows XP sp 2 et Windows Server 2003 sp 1, qui utilise uniquement les droits com d’accès qui \_ \_ s’exécutent, ou il peut exister dans le nouveau format utilisé dans Windows XP sp 2 et Windows Server 2003 sp 1, qui utilise des \_ droits com \_ s’exécutent avec une combinaison de \_ droits com \_ exécuter \_ local, les \_ droits com \_ exécuter \_ à distance, les \_ droits com \_ activent \_ les droits locaux et les \_ droits com \_ activer \_ à distance.
 
 > [!Note]  
 > \_ \_ L’exécution des droits com doit toujours être présente ; l’absence de ce droit génère un descripteur de sécurité non valide.
 
- 
+ 
 
 Vous ne devez pas mélanger l’ancien format et le nouveau format dans une ACL unique. toutes les entrées de contrôle d’accès (ACE, Access Control Entry) doivent accorder uniquement le \_ \_ droit d’accès d’exécution des droits com, ou elles doivent toutes accorder des \_ droits com \_ en association avec une combinaison de \_ droits com \_ Execute \_ local, les \_ droits com \_ Execute \_ Remote, les \_ droits com \_ active \_ locale et les \_ droits com \_ Activate \_ Remote.
 
@@ -78,15 +78,15 @@ Pour corriger cela, la première entrée du contrôle d’accès doit être modi
 
 <dl> <dt>
 
-[Améliorations de la sécurité DCOM dans Windows XP Service Pack 2 et Windows Server 2003 Service Pack 1](dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md)
+[améliorations de la sécurité DCOM dans Windows XP service pack 2 et Windows Server 2003 service pack 1](dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md)
 </dt> <dt>
 
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

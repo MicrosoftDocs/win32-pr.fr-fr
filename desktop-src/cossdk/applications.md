@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 54f286ae393e67d9732e21bc40cbb0f9c46d8c63
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23ce8d7dc343e9cbca9aab642aee99424c5fffdde8ef0f15a52d2959bf492095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549423"
 ---
 # <a name="applications-collection"></a>Collection d’applications
 
@@ -64,7 +64,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 -   [AppPartitionID](#apppartitionid)
 -   [Authentification](#authenticationcapability)
 -   [AuthenticationCapability](#authenticationcapability)
--   [Modifiables](#changeable)
+-   [Modifiable](#changeable)
 -   [CommandLine](#commandline)
 -   [ConcurrentApps](#concurrentapps)
 -   [CreatedBy](#createdby)
@@ -162,7 +162,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Indique si les contrôles d’accès sont effectués pour l’application lorsque les clients y effectuent des appels. |
 | Accès         | Lecture/écriture                                                                                          |
 | Type           | Bool                                                                                               |
-| Default        | Vrai                                                                                               |
+| Default        | True                                                                                               |
 | Système minimal | Windows 2000                                                                                       |
 
 
@@ -175,7 +175,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
 | Entrée | Valeur |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Description    | Chemin d’accès complet à l’application. Ces informations sont nécessaires lorsque vous configurez des assemblys côte à côte (SxS). Les assemblys côte à côte (SxS) permettent aux applications ASP de spécifier la version d’une DLL système prise en charge par SxS à utiliser, telle que MSVCRT, MSXML, COMCTL, GDIPLUS, etc. Par exemple, si votre application ASP repose sur la version 2,0 de MSVCRT, vous pouvez vous assurer que votre application utilise toujours la version 2,0 de MSVCRT même après l’application des service packs au serveur. Toute nouvelle version de MSVCRT est toujours installée sur l’ordinateur, mais la version 2,0 reste et est utilisée par votre application. Les dll prises en charge par SxS sont stockées dans% WINDIR% \\ WinSxS. |
+| Description    | Chemin d’accès complet à l’application. Ces informations sont nécessaires lorsque vous configurez des assemblys côte à côte (SxS). les assemblys côte à côte (SxS) permettent aux applications ASP de spécifier la version d’une DLL système prise en charge par SxS à utiliser, telle que MSVCRT, MSXML, COMCTL, GDIPLUS, etc. Par exemple, si votre application ASP repose sur la version 2,0 de MSVCRT, vous pouvez vous assurer que votre application utilise toujours la version 2,0 de MSVCRT même après l’application des service packs au serveur. Toute nouvelle version de MSVCRT est toujours installée sur l’ordinateur, mais la version 2,0 reste et est utilisée par votre application. Les dll prises en charge par SxS sont stockées dans% WINDIR% \\ WinSxS. |
 | Accès         | Lecture/écriture                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Type           | String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Valeur par défaut        | ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -277,7 +277,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 
  
 
-### <a name="changeable"></a>Modifiables
+### <a name="changeable"></a>Modifiable
 
 
 
@@ -286,7 +286,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Détermine si les modifications apportées aux paramètres d’application ou à ceux de ses composants sont autorisées, par programmation ou par le biais de l’outil d’administration Services de composants. |
 | Accès         | Lecture/écriture                                                                                                                                                                     |
 | Type           | Bool                                                                                                                                                                          |
-| Default        | Vrai                                                                                                                                                                          |
+| Default        | True                                                                                                                                                                          |
 | Système minimal | Windows 2000                                                                                                                                                                  |
 
 
@@ -382,7 +382,7 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Définit si l’application peut être supprimée, soit par programme, soit par le biais de l’outil d’administration Services de composants. |
 | Accès         | Lecture/écriture                                                                                                                   |
 | Type           | Bool                                                                                                                        |
-| Default        | Vrai                                                                                                                        |
+| Default        | True                                                                                                                        |
 | Système minimal | Windows 2000                                                                                                                |
 
 
@@ -488,14 +488,14 @@ Pour plus d’informations, consultez « assemblys côte à côte » dans [mod
 | Description    | Indique si les événements sont activés pour l’application. |
 | Accès         | Lecture/écriture                                                 |
 | Type           | Bool                                                      |
-| Default        | Vrai                                                      |
+| Default        | True                                                      |
 | Système minimal | Windows 2000                                              |
 
 
 
  
 
-### <a name="id"></a>id
+### <a name="id"></a>ID
 
 
 
@@ -556,7 +556,7 @@ La propriété de mot de passe doit être définie en même temps que l’identi
 | Description    | Si l’application ou le composant COM+ est désactivé, IsEnabled a la valeur false. Si l’application ou le composant COM+ est activé, IsEnabled a la valeur true. |
 | Accès         | Lecture/écriture                                                                                                                                 |
 | Type           | Bool                                                                                                                                      |
-| Default        | Vrai                                                                                                                                      |
+| Default        | True                                                                                                                                      |
 | Système minimal | Windows XP                                                                                                                                |
 
 
@@ -792,7 +792,7 @@ Le mot de passe doit être défini en même temps que l’identité, avant d’u
 | Description    | Indique si l’application peut être répliquée. |
 | Accès         | Lecture/écriture                                            |
 | Type           | Bool                                                 |
-| Default        | Vrai                                                 |
+| Default        | True                                                 |
 | Système minimal | Windows XP                                           |
 
 

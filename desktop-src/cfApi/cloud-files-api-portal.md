@@ -5,18 +5,18 @@ title: Moteurs de synchronisation Cloud
 ms.topic: article
 ms.date: 02/06/2019
 ms.custom: project-verbatim
-ms.openlocfilehash: d40b195a442859441138ae4e61cb0eb946411623
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 39dd28779c07dfd6e44fde0e53f583e72971d5883205f42581e3b5ac4102c0eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551373"
 ---
 # <a name="cloud-sync-engines"></a>Moteurs de synchronisation Cloud
 
 Voir également [exemple Cloud Mirror](./build-a-cloud-file-sync-engine.md#cloud-mirror-sample).
 
-À compter de Windows 10, version 1709, Windows fournit l' *API de fichiers Cloud*. Cette API est constituée de plusieurs API Win32 et WinRT natives qui formalisent la prise en charge des moteurs de synchronisation Cloud et gèrent des tâches telles que la création et la gestion de fichiers et de répertoires d’espaces réservés. Les utilisateurs de cette API sont généralement des fournisseurs de synchronisation et, dans une certaine mesure, des applications Windows.
+à partir de Windows 10, la version 1709, Windows fournit l' *API de fichiers cloud*. Cette API est constituée de plusieurs API Win32 et WinRT natives qui formalisent la prise en charge des moteurs de synchronisation Cloud et gèrent des tâches telles que la création et la gestion de fichiers et de répertoires d’espaces réservés. les utilisateurs de cette API sont généralement des fournisseurs de synchronisation et, dans une certaine mesure, Windows applications.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

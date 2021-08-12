@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit l’implémentation du protocole de multidiffusion PGM (Pragmatic General Multicast) dans Windows, souvent appelée diffusion fiable. La multidiffusion fiable est implémentée via Windows Sockets dans Windows Server 2003 et versions ultérieures.
+description: cette section décrit l’implémentation du protocole de multidiffusion PGM (pragmatic general multicast) dans Windows, souvent appelée diffusion fiable. la multidiffusion fiable est implémentée par le biais de Windows sockets dans Windows Server 2003 et versions ultérieures.
 ms.assetid: 81c203ed-739f-4a06-99a1-9a99c6164edc
 title: Programmation de la multidiffusion fiable (PGM)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce57fcce7bf2faf471604bed97d345971801ca1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48c34365bdc8db553d24182fcb193dc03177627ccf9b00a03f309ab4cf7bbe01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559951"
 ---
 # <a name="reliable-multicast-programming-pgm"></a>Programmation de la multidiffusion fiable (PGM)
 
-Cette section décrit l’implémentation du protocole de multidiffusion PGM (Pragmatic General Multicast) dans Windows, souvent appelée diffusion fiable. La multidiffusion fiable est implémentée via Windows Sockets dans Windows Server 2003 et versions ultérieures.
+cette section décrit l’implémentation du protocole de multidiffusion PGM (pragmatic general multicast) dans Windows, souvent appelée diffusion fiable. la multidiffusion fiable est implémentée par le biais de Windows sockets dans Windows Server 2003 et versions ultérieures.
 
 **Windows XP :** Le PGM est pris en charge uniquement lorsque Microsoft Message Queuing (MSMQ) 3,0 est installé.
 
@@ -23,7 +23,7 @@ Le PGM est approprié pour les applications qui nécessitent la remise de donné
 
 Pour plus d’informations sur le PGM, reportez-vous à la RFC 3208 disponible sur [www.ietf.org](https://www.ietf.org/).
 
-Cette section décrit comment utiliser la multidiffusion fiable sur Windows. Les rubriques suivantes expliquent les différents aspects de la création d’une application de multidiffusion fiable à l’aide de Windows Sockets :
+Cette section décrit comment utiliser la multidiffusion fiable sur Windows. les rubriques suivantes expliquent les différents aspects de la création d’une application de multidiffusion fiable à l’aide de Windows sockets :
 
 -   [Expéditeurs et destinataires PGM](pgm-senders-and-receivers.md)
 -   [Options de l’expéditeur PGM](pgm-sender-options.md)

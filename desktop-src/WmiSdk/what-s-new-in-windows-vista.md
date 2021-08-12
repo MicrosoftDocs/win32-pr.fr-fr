@@ -1,24 +1,24 @@
 ---
-description: À compter de Windows Vista, WMI contient de nombreuses nouvelles fonctionnalités basées sur les demandes des utilisateurs WMI.
+description: à partir de Windows Vista, wmi contient de nombreuses nouvelles fonctionnalités basées sur les demandes des utilisateurs WMI.
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
 ms.tgt_platform: multiple
-title: Nouveautés de Windows Vista
+title: nouveautés de Windows Vista
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee950becb906f89445f9ddfb258f4f7a608ce1a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c47a2e63307004430099923d3d0a151ed9122b7fb96ff127c59145f1a911a1dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553265"
 ---
-# <a name="whats-new-in-windowsvista"></a>Nouveautés de Windows Vista
+# <a name="whats-new-in-windowsvista"></a>nouveautés de Windows Vista
 
-À compter de Windows Vista, WMI contient de nombreuses nouvelles fonctionnalités basées sur les demandes des utilisateurs WMI.
+à partir de Windows Vista, wmi contient de nombreuses nouvelles fonctionnalités basées sur les demandes des utilisateurs WMI.
 
 -   [Nouvel outil de dépannage](#new-troubleshooting-tool)
--   [Nouvelles fonctionnalités de sécurité dans Windows Vista](#new-security-features-in-windows-vista)
--   [Autres nouvelles fonctionnalités de Windows Vista](#other-new-features-in-windows-vista)
+-   [nouvelles fonctionnalités de sécurité dans Windows Vista](#new-security-features-in-windows-vista)
+-   [autres nouvelles fonctionnalités de Windows Vista](#other-new-features-in-windows-vista)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="new-troubleshooting-tool"></a>Nouvel outil de dépannage
@@ -30,13 +30,13 @@ Un nouvel outil de dépannage est disponible au téléchargement.
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>WMI Diagnosis Utility
 </dt> <dd>
 
-Cet utilitaire examine l’état actuel du service WMI et les composants associés, les paramètres DCOM et les paramètres du Registre sur l’ordinateur local. L’utilitaire signale des problèmes et propose des suggestions de réparation. Pour plus d’informations et pour télécharger l’utilitaire, consultez [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
+Cet utilitaire examine l’état actuel du service WMI et les composants associés, les paramètres DCOM et les paramètres du Registre sur l’ordinateur local. L’utilitaire signale des problèmes et propose des suggestions de réparation. pour plus d’informations et pour télécharger l’utilitaire, consultez [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en).
 
 </dd> </dl>
 
-## <a name="new-security-features-in-windows-vista"></a>Nouvelles fonctionnalités de sécurité dans Windows Vista
+## <a name="new-security-features-in-windows-vista"></a>nouvelles fonctionnalités de sécurité dans Windows Vista
 
-La liste suivante répertorie les nouvelles fonctionnalités de sécurité WMI disponibles dans Windows Vista.
+la liste suivante répertorie les nouvelles fonctionnalités de sécurité WMI disponibles dans Windows Vista.
 
 <dl> <dt>
 
@@ -78,13 +78,13 @@ La classe [**Win32 \_ SecurityDescriptorHelper**](/previous-versions/windows/des
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>Contrôle de compte d’utilisateur
 </dt> <dd>
 
-Le contrôle de compte d’utilisateur (UAC) affecte les données WMI retournées, l’accès à distance et la façon dont les scripts doivent être exécutés. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md). Pour plus d’informations sur UAC, consultez [prise en main avec le contrôle de compte d’utilisateur sur Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
+Le contrôle de compte d’utilisateur (UAC) affecte les données WMI retournées, l’accès à distance et la façon dont les scripts doivent être exécutés. Pour plus d’informations, consultez [contrôle de compte d’utilisateur et WMI](user-account-control-and-wmi.md). pour plus d’informations sur UAC, consultez [Prise en main avec le contrôle de compte d’utilisateur sur Windows Vista](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista).
 
 </dd> </dl>
 
-## <a name="other-new-features-in-windows-vista"></a>Autres nouvelles fonctionnalités de Windows Vista
+## <a name="other-new-features-in-windows-vista"></a>autres nouvelles fonctionnalités de Windows Vista
 
-La liste suivante répertorie les nouvelles fonctionnalités WMI disponibles dans Windows Vista.
+la liste suivante répertorie les nouvelles fonctionnalités WMI disponibles dans Windows Vista.
 
 <dl> <dt>
 
@@ -105,21 +105,21 @@ La méthode [**SWbemObject. ItemIndex**](swbemobjectset-itemindex.md) retourne l
 <span id="Support_for_IPv6_and_IPv4"></span><span id="support_for_ipv6_and_ipv4"></span><span id="SUPPORT_FOR_IPV6_AND_IPV4"></span>Prise en charge D’ipv6 et IPv4
 </dt> <dd>
 
-Le [fournisseur d’itinéraires IP](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI et les classes de réseau fournissent des données pour les adresses IPv4. À compter de Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6. Pour plus d’informations, consultez [prise en charge d’IPv6 et IPv6 dans WMI](ipv6-and-ipv4-support-in-wmi.md).
+Le [fournisseur d’itinéraires IP](/previous-versions/windows/desktop/wmiiprouteprov/ip-route-provider) WMI et les classes de réseau fournissent des données pour les adresses IPv4. depuis Windows Vista, WMI fournit également une prise en charge limitée des fonctionnalités de réseau IPv6. Pour plus d’informations, consultez [prise en charge d’IPv6 et IPv6 dans WMI](ipv6-and-ipv4-support-in-wmi.md).
 
 </dd> <dt>
 
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>Modifications apportées aux connexions à distance
 </dt> <dd>
 
-La connexion à un espace de noms WMI sur un ordinateur distant exécutant Windows Vista peut nécessiter des modifications des paramètres du [pare-feu Windows](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), du [contrôle de compte d’utilisateur](/previous-versions/aa905108(v=msdn.10))ou de DCOM. Pour plus d’informations, consultez [connexion à WMI à distance à partir de Vista](connecting-to-wmi-remotely-starting-with-vista.md).
+la connexion à un espace de noms WMI sur un ordinateur distant exécutant Windows Vista peut nécessiter des modifications des paramètres pour [Windows pare-feu](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx), [le contrôle de compte d’utilisateur](/previous-versions/aa905108(v=msdn.10))ou DCOM. Pour plus d’informations, consultez [connexion à WMI à distance à partir de Vista](connecting-to-wmi-remotely-starting-with-vista.md).
 
 </dd> <dt>
 
 <span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>Modifications apportées à [ **Win32 \_ QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)
 </dt> <dd>
 
-Pour les systèmes qui s’exécutent sur le système d’exploitation Windows Vista et versions ultérieures, cette classe retourne uniquement les mises à jour fournies par la fonction de maintenance basée sur les composants (CBS). Ces mises à jour ne sont pas répertoriées dans le registre. Les mises à jour fournies par Windows Installer (MSI) ou le [Windows Update](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us) ne sont pas retournées par [**Win32 \_ QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
+pour les systèmes qui s’exécutent sur le système d’exploitation Windows Vista et versions ultérieures, cette classe retourne uniquement les mises à jour fournies par la fonction de maintenance basée sur les composants (CBS). Ces mises à jour ne sont pas répertoriées dans le registre. les mises à jour fournies par Windows Installer (MSI) ou le [Windows Update](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us) ne sont pas retournées par [**Win32 \_ QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering).
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ Pour les systèmes qui s’exécutent sur le système d’exploitation Windows V
 
 </dd> <dt>
 
-<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Modifications du fournisseur de Windows Installer
+<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Windows Modifications du fournisseur de programme d’installation
 </dt> <dd>
 
 [**Win32 \_ Le produit**](/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)) a de nouvelles propriétés et méthodes pour fournir des données supplémentaires sur le produit.
@@ -161,7 +161,7 @@ Le [fournisseur IPMI](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) 
 <span id="Event_messages"></span><span id="event_messages"></span><span id="EVENT_MESSAGES"></span>Messages d’événement
 </dt> <dd>
 
-Windows Vista comporte de nouveaux messages d’événement. Pour plus d’informations, consultez [événements WMI](wmi-events.md).
+Windows Vista a de nouveaux messages d’événement. Pour plus d’informations, consultez [événements WMI](wmi-events.md).
 
 </dd> <dt>
 
@@ -175,7 +175,7 @@ De nombreuses classes de matériel ont subi des modifications pour améliorer l�
 <span id="New_provider_hosting_models"></span><span id="new_provider_hosting_models"></span><span id="NEW_PROVIDER_HOSTING_MODELS"></span>Nouveaux modèles d’hébergement de fournisseur
 </dt> <dd>
 
-De nouveaux modèles d’hébergement de fournisseur ont été ajoutés pour Windows Vista. Pour plus d’informations, consultez [hébergement et sécurité du fournisseur](provider-hosting-and-security.md).
+de nouveaux modèles d’hébergement de fournisseur ont été ajoutés pour Windows Vista. Pour plus d’informations, consultez [hébergement et sécurité du fournisseur](provider-hosting-and-security.md).
 
 </dd> </dl>
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: e6c5e9508185124673ca7464b31d741cdf8035c8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cda5b92170ef21f7bb66233f0748afe0c780837bbcb0eee9ef3c970880070422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106537265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527293"
 ---
 # <a name="d3dvertexelement9-structure"></a>D3DVERTEXELEMENT9, structure
 
@@ -44,7 +44,7 @@ typedef struct D3DVERTEXELEMENT9 {
 
 <dl> <dt>
 
-**Stream**
+**Train**
 </dt> <dd>
 
 Type : **[ **Word**](../winprog/windows-data-types.md)**
@@ -110,7 +110,7 @@ Modifie les données d’utilisation pour permettre à l’utilisateur de spéci
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les données de vertex sont définies à l’aide d’un tableau de structures **D3DVERTEXELEMENT9** . Utilisez [**D3DDECL \_ end**](d3ddecl-end.md) pour déclarer le dernier élément de la déclaration.
 

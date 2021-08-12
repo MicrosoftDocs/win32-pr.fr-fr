@@ -1,6 +1,6 @@
 ---
 title: D3DX11CompileFromMemory, fonction (D3DX11async. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Remarque au lieu d’utiliser cette fonction, nous vous recommandons de compiler hors connexion à l’aide du compilateur de ligne de commande Fxc.exe ou d’utiliser l’une des API de compilation HLSL, comme l’API D3DCompile. Compilez un nuanceur ou un effet qui est chargé en mémoire.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Remarque au lieu d’utiliser cette fonction, nous vous recommandons de compiler hors connexion à l’aide du compilateur de ligne de commande Fxc.exe ou d’utiliser l’une des API de compilation HLSL, comme l’API D3DCompile. Compilez un nuanceur ou un effet qui est chargé en mémoire.'
 ms.assetid: 3396560f-f411-4c66-9f22-03c0050c74b0
 keywords:
 - Fonction D3DX11CompileFromMemory Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e10590c3db458a23bf4d52b6507146884630087
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 055fa070eb698298716abef11090a8c178cb4ef85f46bc6733df037a5778e4d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536818"
 ---
 # <a name="d3dx11compilefrommemory-function"></a>D3DX11CompileFromMemory fonction)
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -95,7 +95,7 @@ Nom du fichier qui contient le code du nuanceur.
 
 Type : **const [**D3D10 \_ Shader \_ macro**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro) \***
 
-facultatif. Pointeur vers un tableau de définitions de macros (consultez la [**\_ \_ macro de nuanceur D3D10**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). La dernière structure du tableau sert de terminateur et doit avoir tous les membres définis sur 0. S’il n’est pas utilisé, affectez la valeur **null** à *pDefines* .
+Facultatif. Pointeur vers un tableau de définitions de macros (consultez la [**\_ \_ macro de nuanceur D3D10**](/windows/desktop/api/d3dcommon/ns-d3dcommon-d3d_shader_macro)). La dernière structure du tableau sert de terminateur et doit avoir tous les membres définis sur 0. S’il n’est pas utilisé, affectez la valeur **null** à *pDefines* .
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ facultatif. Pointeur vers un tableau de définitions de macros (consultez la [**
 
 Type : **[ **LPD3D10INCLUDE**](/previous-versions/windows/desktop/legacy/bb173775(v=vs.85))**
 
-facultatif. Pointeur vers une interface pour la gestion des fichiers include. Si vous affectez la **valeur null** , une erreur de compilation se produira si un nuanceur contient un \# include.
+Facultatif. Pointeur vers une interface pour la gestion des fichiers include. Si vous affectez la **valeur null** , une erreur de compilation se produira si un nuanceur contient un \# include.
 
 </dd> <dt>
 
@@ -188,7 +188,7 @@ La valeur de retour est l’une des valeurs indiquées dans les [codes de retour
 
 **D3DX11CompileFromMemory** retourne E \_ INVALIDARG si vous fournissez une valeur non **null** au paramètre *PHResult* lorsque vous fournissez la **valeur null** au paramètre *pPump* . Pour plus d’informations sur cette situation, consultez la section Notes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur **D3DX11CompileFromMemory**, consultez [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile).
 
@@ -204,7 +204,7 @@ Vous devez fournir la **valeur null** au paramètre *pHResult* si vous fournisse
 
 En outre, si vous fournissez une valeur non **null** à *pHResult* lorsque vous fournissez la valeur **null** à *pPump*, **D3DX11CompileFromMemory** retourne le code d’erreur de l’E \_ INVALIDARG.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

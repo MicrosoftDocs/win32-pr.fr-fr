@@ -1,5 +1,5 @@
 ---
-description: Utilisé pour inscrire des fournisseurs d’événements avec Windows Management Instrumentation (WMI).
+description: utilisé pour inscrire des fournisseurs d’événements avec Windows Management Instrumentation (WMI).
 ms.assetid: d87f61a8-5549-4f33-ba67-31b5d72b5282
 ms.tgt_platform: multiple
 title: Classe __EventProviderRegistration
@@ -16,16 +16,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: caaad1b4ab03cfc1b43e4239b9144d3ceeade82f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce973f05aec0a1c859598c558ef8c2cc637a8faec22fd1d7f2ad2aaf383bd201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557943"
 ---
 # <a name="__eventproviderregistration-class"></a>\_\_EventProviderRegistration, classe
 
-La classe système **\_ \_ EventProviderRegistration** est utilisée pour enregistrer des fournisseurs d’événements avec Windows Management Instrumentation (WMI).
+la classe système **\_ \_ EventProviderRegistration** est utilisée pour enregistrer des fournisseurs d’événements avec Windows Management Instrumentation (WMI).
 
 La syntaxe suivante est simplifiée à partir de code au format MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -60,7 +60,7 @@ Type de données : tableau de **chaînes**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Une ou plusieurs requêtes WQL (Windows Management Instrumentation Query Language) qui décrivent les événements pris en charge par le fournisseur d’événements.
+une ou plusieurs requêtes WQL (Windows Management Instrumentation Query Language) qui décrivent les événements pris en charge par le fournisseur d’événements.
 
 </dd> <dt>
 
@@ -77,7 +77,7 @@ Chemin d’accès de l’objet au fournisseur d’événements. Cette propriét�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Seuls les administrateurs peuvent inscrire ou supprimer un fournisseur d’événements en créant une instance de [**\_ \_ Win32Provider**](--win32provider.md) et [**\_ \_ EventProviderRegistration**](--eventconsumerproviderregistration.md). La classe **\_ \_ EventProviderRegistration** est dérivée de [**\_ \_ ProviderRegistration**](--providerregistration.md).
 

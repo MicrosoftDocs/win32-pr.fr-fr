@@ -4,12 +4,12 @@ description: Une annotation est une information définie par l’utilisateur, d�
 ms.assetid: a81198d2-c4d7-47b5-b3b8-2de11a9ee9a3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9583dafd3e1fb314ae6ac9e53d609bebc74a030
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1109695f6239708e8f241b796b888b8d494acd7ab806b98c08352dbe3aeaee3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538563"
 ---
 # <a name="annotation-syntax-direct3d-11"></a>Syntaxe d’annotation (Direct3D 11)
 
@@ -39,7 +39,7 @@ Une annotation est une information définie par l’utilisateur, déclarée avec
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez ajouter plusieurs annotations entre crochets pointus, chacune d’elles étant séparées par un point-virgule. Les API d’infrastructure d’effet reconnaissent les annotations sur les variables globales ; toutes les autres annotations sont ignorées.
 

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 27331ccdc0decb030656e5497f3458720672e507
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f21685c91dd613d7b5c066dd6fa8ea174e493dbbac07c345da6b145d410e2c69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553143"
 ---
 # <a name="wmi-command-line-tools"></a>Outils en ligne de commande WMI
 
@@ -27,7 +27,7 @@ WMI a plusieurs outils en ligne de commande utilisés par les administrateurs et
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**mofcomp**](mofcomp.md)   | Compile le code format MOF (MOF) au format binaire stocké dans l’espace de stockage WMI. À utiliser lors de la création ou de la modification du fichier MOF pour un fournisseur WMI.<br/> |
 | [**smi2smir**](smi2smir.md) | Accepte un module d’informations SNMP comme entrée et accepte tous les modules supplémentaires nécessaires à la résolution des références externes.<br/>                               |
-| [**critique**](winmgmt.md)   | Exécute le service WMI. À partir de Windows Vista, plusieurs nouveaux commutateurs ont été ajoutés.<br/>                                                                |
+| [**critique**](winmgmt.md)   | Exécute le service WMI. à partir de Windows Vista, plusieurs nouveaux commutateurs ont été ajoutés.<br/>                                                                |
 | [**wmiadap**](wmiadap.md)   | Exécute l’outil en ligne de commande ADAP pour analyser et transférer les bibliothèques de performances vers le référentiel WMI.<br/>                                                       |
 | [**wmic**](wmic.md)         | Effectue des opérations WMI à l’invite de commandes.<br/>                                                                                                               |
 

@@ -4,12 +4,12 @@ ms.assetid: 7247758e-f486-4ce2-afca-f0d10fffe626
 title: Administration de la sécurité Role-Based
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 714cede74e105a68b0a5fed2371858054add954e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c72ed2f1fdd5eb0b650b991b776364bf982c774b3ffcaff1358ea2c3ed1ee4d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547071"
 ---
 # <a name="role-based-security-administration"></a>Administration de la sécurité Role-Based
 
@@ -24,7 +24,7 @@ La sécurité basée sur les rôles est un service automatique fourni par COM+ q
 -   Vous pouvez tirer parti de la sécurité basée sur les rôles pour effectuer un audit détaillé, car vous pouvez obtenir des informations de sécurité de l’appelant pour une chaîne entière d’appels en amont.
 
 > [!Note]  
-> Les utilisateurs du rôle administrateur pour l’application système doivent être membres du groupe Administrateurs local. En outre, à compter de Windows Server 2003, la fonctionnalité d’authentification de l’application système COM+ comprend la valeur EOAC \_ Disable \_ AAA. Cette valeur, qui désactive les activations AAA (Activate-As-Activator), est utilisée dans l’appel de [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) lors du lancement de l’application système. La définition de la fonctionnalité d’authentification sur EOAC \_ Disable \_ AAA permet à une application qui s’exécute sous un compte privilégié (tel que LocalSystem) d’empêcher son identité d’être utilisée pour lancer des composants non fiables.
+> Les utilisateurs du rôle administrateur pour l’application système doivent être membres du groupe Administrateurs local. en outre, à partir de Windows Server 2003, la fonctionnalité d’authentification de l’Application système COM+ comprend la valeur EOAC \_ DISABLE \_ AAA. Cette valeur, qui désactive les activations AAA (Activate-As-Activator), est utilisée dans l’appel de [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) lors du lancement de l’application système. La définition de la fonctionnalité d’authentification sur EOAC \_ Disable \_ AAA permet à une application qui s’exécute sous un compte privilégié (tel que LocalSystem) d’empêcher son identité d’être utilisée pour lancer des composants non fiables.
 
  
 
