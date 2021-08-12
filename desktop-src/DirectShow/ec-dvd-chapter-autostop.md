@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 43e1414c0f9cee7e8daf37b87d5f0c3d0599a017
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a25c4ea621875403ad47ee6815b07b84572f939e4f2a6713d47aa53ba61f983e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652673"
 ---
 # <a name="ec_dvd_chapter_autostop"></a>\_arrêt du \_ chapitre du DVD ce \_
 
@@ -42,7 +42,7 @@ Zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement est déclenché dans le domaine de titre.
 
@@ -66,7 +66,7 @@ Cet événement est déclenché dans le domaine de titre.
 [Codes de notification des événements DVD](dvd-notification-codes.md)
 </dt> <dt>
 
-[Notification d’événement dans DirectShow](event-notification-in-directshow.md)
+[Notification d’événements dans DirectShow](event-notification-in-directshow.md)
 </dt> </dl>
 
  

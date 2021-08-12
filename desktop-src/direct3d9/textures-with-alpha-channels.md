@@ -4,12 +4,12 @@ ms.assetid: cae788f6-60f1-4987-8f06-bf4256bccd9b
 title: Textures avec canaux alpha (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2c361b0335ef4f36b4efc9c90c71270e855f5db
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 934660a62c0257de1549ccec09f9bb77e5c02c4c22baf1e1dc9cc8dffef03f4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104566774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290523"
 ---
 # <a name="textures-with-alpha-channels-direct3d-9"></a>Textures avec canaux alpha (Direct3D 9)
 

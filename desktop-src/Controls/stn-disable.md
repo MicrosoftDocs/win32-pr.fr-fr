@@ -3,7 +3,7 @@ title: STN_DISABLE le code de notification (winuser. h)
 description: Le \_ Code de notification de désactivation de STN est envoyé lorsqu’un contrôle statique est désactivé.
 ms.assetid: 7ff0c191-4ff3-4a11-a418-8f45e16d0318
 keywords:
-- Contrôles Windows de code de notification STN_DISABLE
+- STN_DISABLE les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2763fce96b043ec6aebf5339a9f93d6fdf4a8abb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 793c4faaba723955d079891458b0d1823ca4fbd9c6053083cab5c886a1acbcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670536"
 ---
 # <a name="stn_disable-notification-code"></a>STN \_ désactiver le code de notification
 
@@ -59,8 +59,8 @@ Handle vers le contrôle statique.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

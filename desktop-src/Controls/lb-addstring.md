@@ -3,7 +3,7 @@ title: Message LB_ADDSTRING (winuser. h)
 description: Ajoute une chaîne à une zone de liste. Si la zone de liste n’a pas le \_ style de tri lbs, la chaîne est ajoutée à la fin de la liste. Dans le cas contraire, la chaîne est insérée dans la liste et la liste est triée.
 ms.assetid: 924d9232-6e38-49c3-aa3e-19efd46b01ba
 keywords:
-- LB_ADDSTRING les contrôles de message Windows
+- LB_ADDSTRING les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e1c820b7a4c122012076c82ce20adc0d01e2e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 552e3c344a730ad1fc00337cafa71a19a6586b9a4c95f2ed1ebce352d9d909aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671685"
 ---
 # <a name="lb_addstring-message"></a>Message g LB \_
 
@@ -49,7 +49,7 @@ Si la zone de liste a un style owner-drawn, mais pas le style [**\_ HASSTRINGS k
 
 La valeur de retour est l’index de base zéro de la chaîne dans la zone de liste. Si une erreur se produit, la valeur de retour est LB \_ Err. Si l’espace est insuffisant pour stocker la nouvelle chaîne, la valeur de retour est LB \_ ERRSPACE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la zone de liste a un style owner-drawn et le style de [**\_ Tri lbs**](list-box-styles.md) , mais pas le style [**\_ HASSTRINGS kg**](list-box-styles.md) , le système envoie une ou plusieurs fois le message [**WM \_ COMPAREITEM**](wm-compareitem.md) au propriétaire de la zone de liste pour placer correctement le nouvel élément dans la zone de liste.
 
@@ -57,7 +57,7 @@ Le message [**lb \_ INITSTORAGE**](lb-initstorage.md) permet d’accélérer l�
 
 Si la zone de liste a le style [**WS \_ HSCROLL**](/windows/desktop/winmsg/window-styles) et que vous ajoutez une chaîne plus grande que la zone de liste, envoyez un message [**lb \_ SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) pour vous assurer que la barre de défilement horizontale s’affiche.
 
-Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de CP \_ ACP. Cela peut entraîner des problèmes. Par exemple, les caractères romains accentués dans une zone de liste non Unicode dans les fenêtres japonaises sont tronqués. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
+Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de CP \_ ACP. Cela peut entraîner des problèmes. par exemple, les caractères romains accentués dans une zone de liste non Unicode en japonais Windows sont tronqués. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -65,8 +65,8 @@ Pour une application ANSI, le système convertit le texte d’une zone de liste 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 4a55bb2c06d8b2d13491b766bf08184631fa2164
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c0f641925fbc35fba6072ee395f67fad540dcd2ec5198b945ad658a723238b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667092"
 ---
 # <a name="oropenkey-function"></a>OROpenKey fonction)
 
@@ -78,7 +78,7 @@ Si le handle à retourner est un descripteur de la clé racine de la ruche, la f
 
 Si la clé spécifiée a été marquée comme supprimée, cette fonction retourne la clé d’erreur \_ \_ supprimée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Impossible d’utiliser la fonction **OROpenKey** pour ouvrir la clé racine dans une ruche de Registre hors connexion. Pour obtenir un descripteur de la clé racine d’une ruche, utilisez la fonction [**OROpenHive**](oropenhive.md) pour charger la ruche en mémoire.
 
@@ -88,7 +88,7 @@ Impossible d’utiliser la fonction **OROpenKey** pour ouvrir la clé racine dan
 
 | Condition requise | Valeur |
 |----------------------------|---------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | Bibliothèque du Registre hors connexion Windows version 1,0 ou ultérieure<br/>                      |
+| Composant redistribuable<br/> | Windows Bibliothèque de Registre hors connexion version 1,0 ou ultérieure<br/>                      |
 | En-tête<br/>          | <dl> <dt>Offreg. h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

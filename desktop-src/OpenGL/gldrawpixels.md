@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25adc8ad28791086020a37d3a30651e169bfd07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26546b0c0d8c335f2f741f10d50a7042fffc304ad54be4ed779910fcb84246be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616541"
 ---
 # <a name="gldrawpixels-function"></a>glDrawPixels fonction)
 
@@ -150,11 +150,11 @@ Format des données de pixels. Les constantes symboliques acceptées sont les su
 </tr>
 <tr class="even">
 <td><span id="GL_BGR_EXT"></span><span id="gl_bgr_ext"></span><dl> <dt><strong>GL_BGR_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br/> GL_BGR_EXT fournit un format qui correspond à la disposition mémoire des bitmaps indépendants du périphérique Windows (DIB). Ainsi, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
+<td>Chaque pixel est un groupe de trois composants dans cet ordre : bleu, vert, rouge.<br/> GL_BGR_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). ainsi, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="GL_BGRA_EXT"></span><span id="gl_bgra_ext"></span><dl> <dt><strong>GL_BGRA_EXT</strong></dt> </dl></td>
-<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br/> GL_BGRA_EXT fournit un format qui correspond à la disposition mémoire des bitmaps indépendants du périphérique Windows (DIB). Ainsi, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
+<td>Chaque pixel est un groupe de quatre composants dans l’ordre suivant : bleu, vert, rouge, alpha.<br/> GL_BGRA_EXT fournit un format qui correspond à la disposition de la mémoire des Windows des bitmaps indépendantes du périphérique (dib). ainsi, vos applications peuvent utiliser les mêmes données avec les appels de fonction Windows et les appels de fonction de pixel OpenGL.<br/></td>
 </tr>
 </tbody>
 </table>
@@ -216,7 +216,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 | <dl> <dt>**\_opération non valide du GL \_**</dt> </dl> | La fonction a été appelée entre un appel à [**glBegin**](glbegin.md) et l’appel correspondant à [**glEnd**](glend.md).<br/>                                                        |
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glDrawPixels** lit les données de pixels de la mémoire et les écrit dans le trame par rapport à la position raster actuelle. Utilisez [**glRasterPos**](glrasterpos-functions.md) pour définir la position raster actuelle et utilisez [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) avec l’argument GL \_ Current \_ Raster \_ position pour interroger la position raster.
 

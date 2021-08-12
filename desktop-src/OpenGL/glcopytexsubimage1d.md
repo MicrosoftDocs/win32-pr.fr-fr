@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64006f9cec7e5fd2f3ca6f860249e579b16dbf10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38c35e28a37608ebbbdbaf331e2837f83022768cf4eb4033cad2a482d477b37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617134"
 ---
 # <a name="glcopytexsubimage1d-function"></a>glCopyTexSubImage1D fonction)
 
@@ -108,7 +108,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glCopyTexSubImage1D** remplace une partie d’une image de texture unidimensionnelle par des pixels du trame actuel, plutôt qu’à partir de la mémoire principale comme c’est le cas pour [**glTexSubImage1D**](gltexsubimage1d.md).
 

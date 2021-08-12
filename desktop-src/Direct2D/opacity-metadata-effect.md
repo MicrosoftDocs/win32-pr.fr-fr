@@ -4,12 +4,12 @@ description: Vous pouvez utiliser cet effet pour marquer une zone d’une image 
 ms.assetid: 25B34A31-8533-4339-BBF7-2D7E5488E301
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d84d90ba1c4b1186e3e682ec94a0c9c17bdfc73e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be14699214337dc3f8c6e9e525f128a382c14ee479af08b99ea1f9eadd00041d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118665319"
 ---
 # <a name="opacity-metadata-effect"></a>Effet de métadonnées d’opacité
 
@@ -40,8 +40,8 @@ Le CLSID de cet effet est CLSID \_ D2D1OpacityMetadata.
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

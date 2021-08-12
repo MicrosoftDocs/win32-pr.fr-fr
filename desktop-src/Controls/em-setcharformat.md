@@ -3,7 +3,7 @@ title: Message EM_SETCHARFORMAT (RichEdit. h)
 description: Définit la mise en forme des caractères dans un contrôle RichEdit.
 ms.assetid: 5e7a545d-4ca4-4dc6-badb-584c11194982
 keywords:
-- EM_SETCHARFORMAT les contrôles de message Windows
+- EM_SETCHARFORMAT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba8f37960659f29dd33d5b8f27f0b5a2e3d35eb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 100cfb1d322cde2d411a0298ee86c224899669defc585826b16bf96751bb4639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673129"
 ---
 # <a name="em_setcharformat-message"></a>\_Message SETCHARFORMAT em
 
@@ -74,7 +74,7 @@ Si l’opération a échoué, la valeur de retour est une valeur différente de 
 
 Si l’opération échoue, la valeur de retour est zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si ce message est envoyé plusieurs fois avec les mêmes paramètres, l’effet sur le texte est basculé. Autrement dit, l’envoi du message une fois produit l’effet, l’envoi du message à deux reprises annule l’effet, et ainsi de suite.
 
@@ -84,8 +84,8 @@ Si ce message est envoyé plusieurs fois avec les mêmes paramètres, l’effet 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4cf47469800a4d1ecd8abe373d6f3c1fd53ece5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6169b5d2ec71148cd868e340c5a2f4e206355044ce55e0905c20787ddb3a263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660784"
 ---
 # <a name="cbasecontrolvideosetcontrolvideopin-method"></a>Méthode CBaseControlVideo. SetControlVideoPin
 
@@ -53,7 +53,7 @@ Pointeur vers le code confidentiel avec lequel l’interface est synchronisée.
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface peut être appelée uniquement lorsque le filtre a été connecté avec succès. L’objet est passé par cette méthode au code confidentiel avec lequel il est synchronisé ; dans la plupart des cas, il détermine si le code confidentiel est connecté lorsqu’il a une méthode d’interface appelée et retourne VFW \_ E \_ non \_ connecté en cas d’échec.
 
@@ -63,7 +63,7 @@ L’interface peut être appelée uniquement lorsque le filtre a été connecté
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

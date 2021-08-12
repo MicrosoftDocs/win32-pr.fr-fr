@@ -30,12 +30,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b871d6f00174f05ab580aad54395851fa70af877
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 411500ea5f0fc3ba0f1d4067a6befe902a81af3154c91e76c36425c289616eb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620838"
 ---
 # <a name="nap-error-constants"></a>Constantes d’erreur NAP
 
@@ -267,7 +267,7 @@ Appels simultanés trop nombreux.
 La configuration SHV existe déjà.
 
 > [!Note]  
-> Pris en charge dans Windows 7 ou version ultérieure.
+> pris en charge dans Windows 7 ou version ultérieure.
 
  
 
@@ -285,7 +285,7 @@ La configuration SHV existe déjà.
 La configuration SHV est introuvable.
 
 > [!Note]  
-> Pris en charge dans Windows 7 ou version ultérieure.
+> pris en charge dans Windows 7 ou version ultérieure.
 
  
 
@@ -303,7 +303,7 @@ La configuration SHV est introuvable.
 Le SHV a expiré sur la demande.
 
 > [!Note]  
-> Pris en charge dans Windows 7 ou version ultérieure.
+> pris en charge dans Windows 7 ou version ultérieure.
 
  
 
@@ -316,8 +316,8 @@ Le SHV a expiré sur la demande.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>WinError. h</dt> </dl> |
 
 

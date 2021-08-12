@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 51ce7d0da7f72315924172651a9276acf7ab4cb4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fb839b75af14237b03d3f35ffc71b10d16617df4728b80bd8f465b24bed6b062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674999"
 ---
 # <a name="win32_pnpdevicepropertybinary-class"></a>\_Classe PnPDevicePropertyBinary Win32
 
@@ -504,7 +504,7 @@ Les valeurs possibles sont.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                          |
 | Espace de noms<br/>                | \\Cimv2 racine<br/>                                                                  |
 | MOF<br/>                      | <dl> <dt>Cimwin32. mof</dt> </dl> |

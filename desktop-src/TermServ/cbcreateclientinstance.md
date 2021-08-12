@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2b30f2d236bcc90dfa4977f54d56a5d1717d18a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59b0873fac5b33370333ec8f5774e5b8dbbcd896f6afb9777a6dd74dd6913dcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118610146"
 ---
 # <a name="cbcreateclientinstance-function"></a>CBCreateClientInstance fonction)
 

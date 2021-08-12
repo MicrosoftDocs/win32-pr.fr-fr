@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: f0cd14cd2dae7905a06d3368c7d472d7af5b9a48
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 13a287392f18117a021731deab09cf62b7cd183da7dd8e576b237976a7290fd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668818"
 ---
 # <a name="ntgdiddgetmocompformats-function"></a>NtGdiDdGetMoCompFormats fonction)
 
@@ -74,7 +74,7 @@ Pointeur vers une [**structure \_ GETMOCOMPFORMATSDATA DD**](/windows/win32/api/
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez Microsoft DirectX Video Acceleration Driver Development Kit (DDK).
 

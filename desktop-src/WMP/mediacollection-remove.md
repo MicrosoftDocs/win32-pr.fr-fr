@@ -3,9 +3,9 @@ title: MediaCollection. Remove, méthode
 description: La méthode Remove supprime un élément de la collection de supports.
 ms.assetid: 7d4c03ed-01c8-4112-90b6-5de52eacb199
 keywords:
-- Méthode Remove Windows Media Player
-- Remove, méthode lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode Remove
+- supprimer la méthode Lecteur Windows Media
+- remove, méthode Lecteur Windows Media, MediaCollection, classe
+- Lecteur Windows Media de la classe MediaCollection, remove, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6667a5b95920ac63f38d3a581e6f8e05bdf8d233
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8dd0643741a15bf114acfef63459e67c332b06b33e6284b032979d4ad15c1d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574606"
 ---
 # <a name="mediacollectionremove-method"></a>MediaCollection. Remove, méthode
 
@@ -57,7 +57,7 @@ Objet **multimédia** à supprimer.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
@@ -69,7 +69,7 @@ Pour utiliser cette méthode, l’accès complet à la bibliothèque est requis.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant, après l’invite de l’utilisateur, supprime définitivement le premier élément multimédia de la collection de supports à l’aide de *MediaCollection*. **supprimez**. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant, après l’invite de l’utilisateur, supprime définitivement le premier élément multimédia de la collection de supports à l’aide de *MediaCollection*. **supprimez**. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

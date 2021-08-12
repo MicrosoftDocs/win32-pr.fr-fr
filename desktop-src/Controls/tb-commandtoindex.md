@@ -3,7 +3,7 @@ title: Message TB_COMMANDTOINDEX (commctrl. h)
 description: Récupère l’index de base zéro pour le bouton associé à l’identificateur de commande spécifié.
 ms.assetid: vs|controls|~\controls\toolbar\messages\tb_commandtoindex.htm
 keywords:
-- TB_COMMANDTOINDEX les contrôles de message Windows
+- TB_COMMANDTOINDEX les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0257f55e01db59f1d23d59583f1ef78f44b1dac1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea21f7436745ff3b6a8d69df4c2be43e59fc82e8e4e934302cddb71c9d342e43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670392"
 ---
 # <a name="tb_commandtoindex-message"></a>TO \_ COMMANDTOINDEX message
 
@@ -49,8 +49,8 @@ Retourne l’index de base zéro pour le bouton ou-1 si l’identificateur de co
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

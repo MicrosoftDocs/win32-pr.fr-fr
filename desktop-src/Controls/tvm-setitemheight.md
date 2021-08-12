@@ -3,7 +3,7 @@ title: Message TVM_SETITEMHEIGHT (commctrl. h)
 description: Définit la hauteur des éléments de l’arborescence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SetItemHeight TreeView.
 ms.assetid: 23f6f2a4-cdd9-441d-af24-ed40513d2721
 keywords:
-- TVM_SETITEMHEIGHT les contrôles de message Windows
+- TVM_SETITEMHEIGHT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 114769f689cbf8d9475460e40d205c4282a1a787
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9afff57188a9683d18c6bff780b4a9f61479526d44ea77985742520a47e66cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669644"
 ---
 # <a name="tvm_setitemheight-message"></a>TVM \_ SETITEMHEIGHT message
 
@@ -43,7 +43,7 @@ Nouvelle hauteur de chaque élément dans l’arborescence, en pixels. Les haute
 
 Retourne la hauteur précédente des éléments, en pixels.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le contrôle Tree-View utilise cette valeur pour la hauteur de tous les éléments. Pour modifier la hauteur des éléments individuels, consultez la description du membre **iIntegral** de la structure [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) .
 
@@ -53,8 +53,8 @@ Le contrôle Tree-View utilise cette valeur pour la hauteur de tous les élémen
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

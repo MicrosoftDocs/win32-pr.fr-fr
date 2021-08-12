@@ -13,12 +13,12 @@ api_location:
 - Dwmapi.dll
 api_name:
 - DwmDxGetWindowSharedSurface
-ms.openlocfilehash: 15e7829383ce23e5bc06bb61ab9c0c224ab18182
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47f8c75ee55521c0f1da4151f5161cf44a63dc51aab5658edbca288cb8edce24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280129"
 ---
 # <a name="dwmdxgetwindowsharedsurface-function"></a>DwmDxGetWindowSharedSurface fonction)
 
@@ -73,7 +73,7 @@ En entrée, le format souhaité de la surface. Lors de la sortie, le format rée
 
 À la sortie, ID de la mise à jour.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette fonction peut retourner l’une de ces valeurs.
 
@@ -86,13 +86,13 @@ Cette fonction peut retourner l’une de ces valeurs.
 
 ## <a name="remarks"></a>Notes
 
-Cette API est destinée à l’implémentation d’un pilote ou d’un Runtime Graphics. Une application ne peut pas appeler cette méthode. Cette documentation n’est valide que pour Windows 7, et il n’est pas garanti que cette API existe et qu’elle se comporte de manière similaire sur d’autres versions de Windows. Cette fonction n’est pas présente dans un en-tête ou une bibliothèque de liens statiques, et elle se trouve à l’ordinal 100 dans dwmapi.dll.
+Cette API est destinée à l’implémentation d’un pilote ou d’un Runtime Graphics. Une application ne peut pas appeler cette méthode. cette documentation n’est valide que pour Windows 7, et il n’est pas garanti que cette API existe et qu’elle se comporte de manière similaire sur les autres versions de Windows. Cette fonction n’est pas présente dans un en-tête ou une bibliothèque de liens statiques, et elle se trouve à l’ordinal 100 dans dwmapi.dll.
 
 ## <a name="requirements"></a>Configuration requise
 
 | Condition requise | Valeur |
 |-|-|
-| Client minimal pris en charge | Applications de \[ Bureau Windows 7 uniquement\] |
+| Client minimal pris en charge | applications de \[ bureau Windows 7 uniquement\] |
 | Serveur minimal pris en charge | Aucun pris en charge |
 | Fin de la prise en charge des clients | Windows 7 |
 | En-tête | N/A |

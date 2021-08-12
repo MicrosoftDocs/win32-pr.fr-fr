@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0fd198152e7c0042a6d48cf942a48745540960d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 894d75512c6c7909f617e13999e7290efea663fa843bf64424aad8371965de75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655598"
 ---
 # <a name="cimagesamplegetdibdata-method"></a>Méthode CImageSample. GetDIBData
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne un pointeur vers une structure [**DIBDATA**](dibdata.md) .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’appelant doit initialiser la structure **DIBDATA** avant d’appeler cette méthode. Vérifiez la valeur de **CImageSample :: m \_ bInit**. Pour initialiser la structure, appelez la méthode [**CImageSample :: SetDIBData**](cimagesample-setdibdata.md) .
 
@@ -54,7 +54,7 @@ L’appelant doit initialiser la structure **DIBDATA** avant d’appeler cette m
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

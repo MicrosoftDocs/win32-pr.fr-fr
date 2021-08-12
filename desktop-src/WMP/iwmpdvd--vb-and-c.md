@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPDVD (VB et C) (WMP. h)
+title: interface IWMPDVD (VB et C) (Wmp. h)
 description: L’interface IWMPDVD fournit des propriétés et des méthodes pour travailler avec des DVD. l’interface IWMPDVD expose les propriétés suivantes.
 ms.assetid: 6bb32eed-475e-4867-8318-34578dc430a4
 keywords:
-- IWMPDVD (VB et C) interface Windows Media Player
-- Interface IWMPDVD (VB et C), le lecteur Windows Media, décrit
+- interface IWMPDVD (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPDVD (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 425c048096ad7cd65e0e48ccf2932f00a817d790
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5391a6bc2a22dfd33a7df5b8c6f40c0a441012d7fa8d16f7b54c238b7fa31baa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575882"
 ---
-# <a name="iwmpdvd-vb-and-c-interface"></a>Interface IWMPDVD (VB et C#)
+# <a name="iwmpdvd-vb-and-c-interface"></a>interface IWMPDVD (VB et C#)
 
 L’interface **IWMPDVD** fournit des propriétés et des méthodes pour travailler avec des DVD.
 
@@ -30,14 +30,14 @@ L’interface **IWMPDVD** expose les propriétés suivantes.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPDVD (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPDVD (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPDVD (VB et C#)** possède ces méthodes.
+l’interface **IWMPDVD (VB et C#)** possède ces méthodes.
 
 
 
@@ -54,7 +54,7 @@ L’interface **IWMPDVD (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPDVD (VB et C#)** a ces propriétés.
+l’interface **IWMPDVD (VB et C#)** a ces propriétés.
 
 
 
@@ -93,7 +93,7 @@ Procurez-vous une interface **IWMPDVD** à l’aide de la propriété suivante.
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

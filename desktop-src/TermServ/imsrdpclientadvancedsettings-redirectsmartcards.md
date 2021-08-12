@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ba58a492ede5371c0f43d996f46ed7a898df7f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0044ba51e9eb0b3987ec337536e288f1687e04d7838e61a9bbcbae2a2176c003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608398"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectsmartcards-property"></a>IMsRdpClientAdvancedSettings :: RedirectSmartCards, propriété
 
@@ -90,7 +90,7 @@ Affectez à ce paramètre la valeur **Variant \_ true** pour autoriser la redire
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

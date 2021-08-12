@@ -3,7 +3,7 @@ title: Message LB_DIR (winuser. h)
 description: Ajoute des noms à la liste affichée par une zone de liste. Le message ajoute les noms des répertoires et des fichiers qui correspondent à une chaîne spécifiée et un ensemble d’attributs de fichier. LB \_ dir peut également ajouter des lettres de lecteur mappées à la zone de liste.
 ms.assetid: 5ec134e9-fe42-4cc0-bdea-fa5e66c218f6
 keywords:
-- LB_DIR les contrôles de message Windows
+- LB_DIR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80abddbce13adec2e66824057fc5e873def306ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3add3c0ea14c637e0240ab296095bcc720aff9efb4c3e8e99a2f3de7019a711
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671665"
 ---
 # <a name="lb_dir-message"></a>Message du répertoire du LB \_
 
@@ -68,7 +68,7 @@ Si le message est correctement exécuté, la valeur de retour est l’index de b
 
 Si une erreur se produit, la valeur de retour est LB \_ Err. Si l’espace est insuffisant pour stocker les nouvelles chaînes, la valeur de retour est LB \_ ERRSPACE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le message [**lb \_ INITSTORAGE**](lb-initstorage.md) permet d’accélérer l’initialisation des zones de liste qui comportent un grand nombre d’éléments (plus de 100). Il réserve la quantité de mémoire spécifiée afin que les messages de **\_ Répertoire de livres** suivants prennent le plus de temps possible. Vous pouvez utiliser des estimations pour les paramètres *wParam* et *lParam* . Si vous surestime, la mémoire supplémentaire est allouée. Si vous sous-estimez, l’allocation normale est utilisée pour les éléments qui dépassent la quantité demandée.
 
@@ -76,7 +76,7 @@ Si *wParam* inclut l' \_ indicateur de répertoire DDL et que *lParam* spécifie
 
 La liste affiche les noms de fichiers longs, le cas échéant.
 
-Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de CP \_ ACP. Cela peut entraîner des problèmes. Par exemple, les caractères romains accentués dans une zone de liste non Unicode dans les fenêtres japonaises sont tronqués. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
+Pour une application ANSI, le système convertit le texte d’une zone de liste en Unicode à l’aide de CP \_ ACP. Cela peut entraîner des problèmes. par exemple, les caractères romains accentués dans une zone de liste non Unicode en japonais Windows sont tronqués. Pour résoudre ce problème, compilez l’application en Unicode ou utilisez une zone de liste owner-drawn.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -84,8 +84,8 @@ Pour une application ANSI, le système convertit le texte d’une zone de liste 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

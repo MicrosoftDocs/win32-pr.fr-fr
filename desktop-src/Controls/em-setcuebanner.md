@@ -3,7 +3,7 @@ title: Message EM_SETCUEBANNER (commctrl. h)
 description: Définit la file d’attente textuelle, ou Tip, qui est affichée par le contrôle d’édition pour inviter l’utilisateur à fournir des informations.
 ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
 keywords:
-- EM_SETCUEBANNER les contrôles de message Windows
+- EM_SETCUEBANNER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d740bf0a3a055f45c6d104d44349f078d3bf9ad2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b08694d7368a994c639f236f18537e13d81f57083521599c23671941c74889bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673102"
 ---
 # <a name="em_setcuebanner-message"></a>\_Message SETCUEBANNER em
 
@@ -47,7 +47,7 @@ Pointeur vers une chaîne Unicode qui contient le texte à afficher en tant que 
 
 Si le message est correctement exécuté, la méthode retourne la **valeur true**. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un contrôle d’édition utilisé pour commencer une recherche peut afficher « entrer la recherche ici » en texte gris comme une file d’attente textuelle. Lorsque l’utilisateur clique sur le texte, le texte disparaît et l’utilisateur peut taper.
 
@@ -64,8 +64,8 @@ Vous ne pouvez pas définir une bannière de signal sur un contrôle d’éditio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

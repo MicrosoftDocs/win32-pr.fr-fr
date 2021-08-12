@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: c7bcc211e4277a2ffee6a68258d7616cb7aa2a0c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 36bfa9df62aba2ce8fb1df637c802369ca35911bd02c9876ea6b649c66698685
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666474"
 ---
 # <a name="sdbgetindex-function"></a>SdbGetIndex fonction)
 
@@ -74,7 +74,7 @@ Ce paramètre peut être égal à 0 ou à la **\_ \_ \_ clé unique de l’index
 
 **TagId** de l’index ou **TagId \_ null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’index résultant peut être utilisé pour les opérations de lecture.
 
@@ -84,8 +84,8 @@ L’index résultant peut être utilisé pour les opérations de lecture.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                   |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

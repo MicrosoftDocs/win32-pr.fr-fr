@@ -3,7 +3,7 @@ title: Message EM_SETOPTIONS (RichEdit. h)
 description: Définit les options pour un contrôle RichEdit.
 ms.assetid: 98ef2de9-4c34-45ba-8e8a-eaf505f97f56
 keywords:
-- EM_SETOPTIONS les contrôles de message Windows
+- EM_SETOPTIONS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c43dda8268b42dc264a86600826d2a6b550e35c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5d5c4b7fd9e92261cedaf0681523ad0a3e25a37aa2814f6c00d0d9460e94bb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672608"
 ---
 # <a name="em_setoptions-message"></a>\_Message SETOPTIONS em
 
@@ -83,8 +83,8 @@ Ce message retourne les options actuelles du contrôle d’édition.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

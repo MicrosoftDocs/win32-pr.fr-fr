@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8cc578436c5d116e202911d2bb68edf7369564a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5fcafa33d9761d813b075b0f6bb56e5d940c73346bea4d4147366b5569679b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675823"
 ---
 # <a name="geteffectivepermission-method-of-the-cim_logicalfile-class"></a>Méthode GetEffectivePermission de la \_ classe CIM LogicalFile
 
@@ -212,7 +212,7 @@ Synchronise l’accès et permet à un processus d’attendre qu’un objet pass
 
 Retourne la **valeur true** si l’appel a l’autorisation nécessaire. Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cscmig.dll
-ms.openlocfilehash: 608fd7736093ae1f8d131ede777a691e467de9de
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8dd6d12c4e0267c97b93a812a4b66d3bd14a408dff0191686d4949ccbc958723
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667952"
 ---
 # <a name="cscgetspaceusagew-function"></a>CSCGetSpaceUsageW fonction)
 
@@ -108,7 +108,7 @@ Nombre total de répertoires dans le cache.
 
 Cette fonction retourne **true** si elle est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

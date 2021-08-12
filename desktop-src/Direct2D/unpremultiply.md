@@ -6,12 +6,12 @@ keywords:
 - effet unpremultiply
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5628ea646443a08abffa4549ad25147deb609acf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a152803956b9839b881404be013c521dc0f5bfc764b2f07a8462275b523ba762
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664877"
 ---
 # <a name="unpremultiply-effect"></a>Effet Unpremultiply
 
@@ -31,8 +31,8 @@ La taille de la bitmap de sortie est la même que la taille de la bitmap d’ent
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

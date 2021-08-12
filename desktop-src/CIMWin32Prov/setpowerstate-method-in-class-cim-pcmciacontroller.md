@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7d6ab0d4ca0ad2c44f6d6818888423efeff323f5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 20547a654f0f010cae315b27c921590e6e504575f33b67bf71972ea08a6e233f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675595"
 ---
 # <a name="setpowerstate-method-of-the-cim_pcmciacontroller-class"></a>Méthode SetPowerState de la \_ classe CIM PCMCIAController
 
@@ -106,7 +106,7 @@ Spécifie quand l’état d’alimentation doit être défini comme une valeur d
 
 Retourne 0 (zéro) en cas de réussite, 1 (un) si la demande *PowerState* et *Time* spécifiée n’est pas prise en charge, et une autre valeur si une autre erreur s’est produite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur. Pour les classes WMI dérivées de [**CIM \_ PCMCIAController**](cim-pcmciacontroller.md), consultez [classes Win32](win32-provider.md).
 

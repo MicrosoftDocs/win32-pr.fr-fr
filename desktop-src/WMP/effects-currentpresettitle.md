@@ -3,7 +3,7 @@ title: EFFECTs. currentPresetTitle
 description: L’attribut currentPresetTitle récupère le titre de la présélection actuelle de la visualisation actuelle.
 ms.assetid: 479968a2-fb5e-4cde-b3fb-1f940ea1078c
 keywords:
-- EFFECTs. currentPresetTitle Windows Media Player
+- effects. currentPresetTitle Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a93674b4be5e6490c846827ec7b17d496a5484b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1199b29ecc2871512e1d8dde7effda19a47998bd7bc6113ffabfa51ace07d559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578808"
 ---
 # <a name="effectscurrentpresettitle"></a>EFFECTs. currentPresetTitle
 

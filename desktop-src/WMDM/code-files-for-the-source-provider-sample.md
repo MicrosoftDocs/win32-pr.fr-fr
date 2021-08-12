@@ -3,20 +3,20 @@ title: Fichiers de code pour l’exemple de fournisseur source
 description: Fichiers de code pour l’exemple de fournisseur source
 ms.assetid: bd6bfc98-a805-4e04-8a80-7af42ed3dbef
 keywords:
-- Gestionnaire de périphériques Windows Media, exemples
+- Windows Gestionnaire de périphériques de média, exemples
 - Gestionnaire de périphériques, exemples
-- Windows Media Gestionnaire de périphériques, exemple de fournisseur de services
+- Windows Gestionnaire de périphériques de support, exemple de fournisseur de services
 - Gestionnaire de périphériques, exemple de fournisseur de services
 - fournisseurs de services, exemples
 - exemples, fournisseurs de services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b8af4b34310ae183ce55b2e52d3dd346dc6665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11c29127aebea6898868b29adb17a15c8d174e1fedfd3228bd565bf8ef4ce9c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586366"
 ---
 # <a name="code-files-for-the-source-provider-sample"></a>Fichiers de code pour l’exemple de fournisseur source
 
@@ -41,7 +41,7 @@ L’exemple de projet de fournisseur source comprend les fichiers de code source
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -50,9 +50,9 @@ L’exemple de projet de fournisseur source comprend les fichiers de code source
 [**Exemple de fournisseur de services**](sample-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

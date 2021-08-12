@@ -4,12 +4,12 @@ description: Cette section contient des informations sur les éléments de progr
 ms.assetid: 8a2bdc59-747c-47bb-b125-9b0b97af205e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a29bdc8b9687ab2f7f076999c6821b7f1f0bcc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c6a9a24bfda9156fc3e84cece4c7710ab42d9c9766578bb2c3bde6809b246292
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672104"
 ---
 # <a name="image-lists"></a>Listes d’images
 
@@ -110,10 +110,10 @@ Cette section contient des informations sur les éléments de programmation util
 
 | Rubrique                                                       | Contenu                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Complémentaires**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-add)                               | Ajoute une image ou des images à une liste d’images.<br/>                                                                                                                                                                                                                                                                |
+| [**Ajouter**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-add)                               | Ajoute une image ou des images à une liste d’images.<br/>                                                                                                                                                                                                                                                                |
 | [**AddMasked**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-addmasked)                   | Ajoute une ou des images à une liste d’images, en générant un masque à partir de l’image bitmap spécifiée. <br/>                                                                                                                                                                                                                  |
 | [**BeginDrag**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-begindrag)                   | Commence à faire glisser une image. <br/>                                                                                                                                                                                                                                                                               |
-| [**Répliqué**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-clone)                           | Clone une liste d’images existante. <br/>                                                                                                                                                                                                                                                                          |
+| [**Clone**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-clone)                           | Clone une liste d’images existante. <br/>                                                                                                                                                                                                                                                                          |
 | [**Copier**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-copy)                             | Copie les images à partir d’une liste d’images donnée. <br/>                                                                                                                                                                                                                                                                  |
 | [**DragEnter**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-dragenter)                   | Verrouille les mises à jour de la fenêtre spécifiée pendant une opération glisser et affiche l’image de glissement à la position spécifiée dans la fenêtre. <br/>                                                                                                                                                                  |
 | [**DragLeave**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-dragleave)                   | Déverrouille la fenêtre spécifiée et masque l’image du glissement, ce qui permet à la fenêtre d’être mise à jour. <br/>                                                                                                                                                                                                              |

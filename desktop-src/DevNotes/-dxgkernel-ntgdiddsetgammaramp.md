@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 0c5efba67eedbd6e70f1e0682f42c1855948cecd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 78e68a76fed6db78a2f3d247c5bec1b73f3df3b6fe204e0d09b1bc5f14a014b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668808"
 ---
 # <a name="ntgdiddsetgammaramp-function"></a>NtGdiDdSetGammaRamp fonction)
 
@@ -71,7 +71,7 @@ Pointeur vers un tableau de structures **DDGAMMARAMP** .
 
 La valeur de retour est **true** si la fonction réussit. Dans le cas contraire, la **valeur est null**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est recommandé que les applications utilisent plutôt les méthodes **IDirectDrawGammaControl :: SetGammaRamp** ou [**IDirect3DDevice9 :: SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp) , car ces méthodes offrent les mêmes fonctionnalités indépendamment du système d’exploitation.
 

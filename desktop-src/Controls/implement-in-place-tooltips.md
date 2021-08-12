@@ -4,12 +4,12 @@ description: Les info-bulles sur place sont utilisées pour afficher des chaîne
 ms.assetid: 2FE39B99-75F3-4978-B0B3-B769E2961F23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc321ecdd6df151a151e6d21c8419326edb63d38
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9dd3b01d30a20b52cbb80121cc8c1d793965acf0ea3cf4f2be1ce4553f4ccb98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671726"
 ---
 # <a name="how-to-implement-in-place-tooltips"></a>Comment implémenter des info-bulles In-Place
 
@@ -17,16 +17,16 @@ Les info-bulles sur place sont utilisées pour afficher des chaînes de texte po
 
 La différence entre les info-bulles ordinaires et sur place est le positionnement. Par défaut, lorsque le pointeur de la souris est placé sur une région à laquelle une info-bulle est associée, l’info-bulle s’affiche à côté de la zone. Toutefois, les info-bulles sont des fenêtres, et elles peuvent être positionnées partout où vous le souhaitez en appelant [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos). La création d’une info-bulle sur place consiste à positionner la fenêtre d’info-bulle afin qu’elle recouvre la chaîne de texte.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 
@@ -78,7 +78,7 @@ case TTN_SHOW:
 
 Cet exemple ne modifie pas la taille de l’info-bulle, mais simplement sa position. Les deux rectangles de texte sont alignés sur les angles supérieurs gauches, mais pas nécessairement avec les mêmes dimensions. Dans la pratique, la différence est généralement petite, et cette approche est recommandée dans la plupart des cas. Bien que vous puissiez, en principe, utiliser [**SetWindowPos**](/windows/desktop/api/winuser/nf-winuser-setwindowpos) pour redimensionner et repositionner l’info-bulle, cela peut avoir des conséquences imprévisibles.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les contrôles communs [version 5,80](common-control-versions.md) simplifient l’utilisation des info-bulles sur place par l’ajout d’un nouveau message, [**atténuation \_ ADJUSTRECT**](ttm-adjustrect.md). Envoyez ce message avec les coordonnées du rectangle de texte de l’étiquette que vous souhaitez superposer à l’info-bulle et retourne les coordonnées d’un rectangle de fenêtre d’info-bulle positionné de manière appropriée.
 

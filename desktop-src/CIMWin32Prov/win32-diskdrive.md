@@ -1,5 +1,5 @@
 ---
-description: Représente un lecteur de disque physique tel qu’il est vu par un ordinateur exécutant le système d’exploitation Windows.
+description: représente un lecteur de disque physique tel qu’il est vu par un ordinateur exécutant le système d’exploitation Windows.
 ms.assetid: c1fc6a1e-e725-484b-aacf-279f777e9b19
 ms.tgt_platform: multiple
 title: Win32_DiskDrive, classe
@@ -67,16 +67,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 751dee053574be417cb312f6b046ae6b7703d543
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 94d9afa6fb4c38c4286f705b50011f5378057004cbe7fe5a4b2b700a0385c10f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675235"
 ---
 # <a name="win32_diskdrive-class"></a>\_Classe DiskDrive Win32
 
-La [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ DiskDrive** WMI représente un lecteur de disque physique tel qu’il est vu par un ordinateur exécutant le système d’exploitation Windows.
+la [classe WMI](/windows/desktop/WmiSdk/retrieving-a-class) **\_ DiskDrive** WMI représente un lecteur de disque physique tel qu’il est vu par un ordinateur exécutant le système d’exploitation Windows.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés sont répertoriées par ordre alphabétique, et non par ordre MOF.
 
@@ -386,7 +386,7 @@ Type de données : tableau **UInt16**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Périphériques de stockage DMTF \| 001,9 "," MIF. \|Périphériques de stockage DMTF \| 001,11 "," MIF. \|Périphériques de stockage DMTF \| 001,12 "," MIF. \|Disques DMTF \| 003,7 "), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md).**CapabilityDescriptions**")
+Qualificateurs : [**arrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ("Indexed"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|appareils de Stockage DMTF \| 001,9 "," MIF. \|appareils de Stockage DMTF \| 001,11 "," MIF. \|appareils de Stockage DMTF \| 001,12 "," MIF. \|Disques DMTF \| 003,7 "), [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md).**CapabilityDescriptions**")
 </dt> </dl>
 
 Tableau de fonctionnalités de l’appareil d’accès aux médias. Par exemple, l’appareil peut prendre en charge l’accès aléatoire (3), le support amovible (7) et le nettoyage automatique (9).
@@ -598,7 +598,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Code d’erreur Windows Configuration Manager.
+Windows Code d’erreur Configuration Manager.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -657,12 +657,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -741,12 +741,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -869,7 +869,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -880,7 +880,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -935,7 +935,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -1108,7 +1108,7 @@ Type de données : **UInt32**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows 95/98 Functions de la \| carte de lecteurs \_ \_ \| btInt13Unit")
+qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32API \| Windows 95/98 functions \| lecteur \_ MAP \_ INFO \| btInt13Unit")
 </dt> </dl>
 
 Numéro de lecteur physique du lecteur donné. Cette propriété est remplie par la structure du [**\_ \_ numéro du périphérique de stockage**](/windows/desktop/api/winioctl/ns-winioctl-storage_device_number) renvoyée par le code de contrôle du numéro de l' [**\_ \_ \_ \_ appareil de stockage IOCTL**](/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number) . La valeur 0xFFFFFFFF indique que le lecteur donné n’est pas mappé à un lecteur physique.
@@ -1416,7 +1416,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1971,13 +1971,13 @@ Exemple : 64
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les lecteurs de disque dur physique sont le support de stockage principal pour les informations dans n’importe quel environnement informatique. Bien que les organisations utilisent souvent des appareils tels que des lecteurs de bande et des lecteurs de disque compact pour l’archivage des données, ces appareils ne sont pas adaptés au stockage quotidien des données utilisateur. Seuls les disques durs physiques offrent la vitesse et la facilité d’utilisation nécessaires au stockage des données et à l’exécution des applications et du système d’exploitation.
 
 Pour gérer efficacement les données, il est important de disposer d’un inventaire détaillé de tous vos disques physiques, de leurs fonctionnalités et de leurs capacités. Vous pouvez utiliser la classe **Win32 \_ DiskDrive** pour dériver ce type d’inventaire.
 
-Toute interface à un lecteur de disque physique Windows est un descendant (ou membre) de cette classe. Les fonctionnalités du lecteur de disque vu par cet objet correspondent aux caractéristiques logiques et de gestion du lecteur. Dans certains cas, cela peut ne pas refléter les caractéristiques physiques réelles de l’appareil. Tout objet basé sur un autre périphérique logique ne sera pas membre de cette classe.
+toute interface à un lecteur de disque physique Windows est un descendant (ou membre) de cette classe. Les fonctionnalités du lecteur de disque vu par cet objet correspondent aux caractéristiques logiques et de gestion du lecteur. Dans certains cas, cela peut ne pas refléter les caractéristiques physiques réelles de l’appareil. Tout objet basé sur un autre périphérique logique ne sera pas membre de cette classe.
 
 Pour des raisons de sécurité, un utilisateur qui se connecte à partir d’un ordinateur distant doit disposer du privilège de **\_ \_ connexion du gestionnaire SC** pour pouvoir énumérer cette classe. Pour plus d’informations, consultez [sécurité des services et droits d’accès](/windows/desktop/Services/service-security-and-access-rights).
 

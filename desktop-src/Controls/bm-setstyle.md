@@ -3,7 +3,7 @@ title: Message BM_SETSTYLE (winuser. h)
 description: Définit le style d’un bouton. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro Button SetStyle.
 ms.assetid: 6439e68f-87fc-4a4a-8025-facc3c0e03e2
 keywords:
-- BM_SETSTYLE les contrôles de message Windows
+- BM_SETSTYLE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c080e1098d70b17e1e68bbbcd2d5598db79ef8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17f635a70bf806c6c26f5b236ea939bc453d27bf0fe135f8e2586aeb59021b9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674417"
 ---
 # <a name="bm_setstyle-message"></a>\_Message BM SETSTYLE
 
@@ -53,8 +53,8 @@ Ce message retourne toujours la valeur zéro.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

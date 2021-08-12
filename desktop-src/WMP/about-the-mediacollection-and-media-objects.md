@@ -4,33 +4,33 @@ description: À propos des objets MediaCollection et Media
 ms.assetid: e3260efd-44cc-4b4e-9f48-3441631bfa4f
 keywords:
 - Lecteur Windows Media, objet MediaCollection
-- Modèle objet du lecteur Windows Media, objet MediaCollection
+- Lecteur Windows Media modèle objet, objet MediaCollection
 - modèle objet, objet MediaCollection
-- Contrôle ActiveX du lecteur Windows Media, objet MediaCollection
-- Contrôle ActiveX, objet MediaCollection
-- Contrôle ActiveX Windows Media Player Mobile, objet MediaCollection
-- Windows Media Player Mobile, objet MediaCollection
+- Lecteur Windows Media ActiveX contrôle, objet MediaCollection
+- contrôle ActiveX, objet MediaCollection
+- Lecteur Windows Media contrôle Mobile ActiveX, objet MediaCollection
+- Lecteur Windows Media Mobile, objet MediaCollection
 - Objet MediaCollection
 - Lecteur Windows Media, objet multimédia
-- Windows Media Player Object Model, Media Object
+- Lecteur Windows Media modèle objet, objet multimédia
 - modèle objet, objet Media
-- Contrôle ActiveX du lecteur Windows Media, objet multimédia
-- Contrôle ActiveX, objet multimédia
-- Windows Media Player Mobile contrôle ActiveX, objet multimédia
-- Windows Media Player Mobile, objet multimédia
+- Lecteur Windows Media ActiveX contrôle, objet multimédia
+- contrôle ActiveX, objet Media
+- Lecteur Windows Media contrôle Mobile ActiveX, objet Media
+- Lecteur Windows Media Mobile, objet multimédia
 - Objet Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe902fd9ed046e0197fb5c8c2d995d26befafe29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 082bea6eb3707915422a0bfa5cba63a2a999ac8df27ffa13876e74ffcfc6a882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583681"
 ---
 # <a name="about-the-mediacollection-and-media-objects"></a>À propos des objets MediaCollection et Media
 
-Les objets **MediaCollection** et **Media** gouvernent la collection de supports, qui définit l’emplacement des fichiers multimédias numériques auxquels le lecteur Windows Media peut accéder. Vous récupérez l’objet **MediaCollection** à partir de la propriété **MediaCollection** de l’objet **Player** . La propriété **mediaCollection** retourne l’objet **mediaCollection** . Vous pouvez uniquement accéder aux propriétés de l’objet **MediaCollection** après l’avoir créé. Par exemple, pour ajouter un objet **multimédia** (une chanson), utilisez le code suivant :
+les objets **MediaCollection** et **media** gouvernent la collection de supports, qui définit les emplacements des fichiers multimédias numériques auxquels Lecteur Windows Media peut accéder. Vous récupérez l’objet **MediaCollection** à partir de la propriété **MediaCollection** de l’objet **Player** . La propriété **mediaCollection** retourne l’objet **mediaCollection** . Vous pouvez uniquement accéder aux propriétés de l’objet **MediaCollection** après l’avoir créé. Par exemple, pour ajouter un objet **multimédia** (une chanson), utilisez le code suivant :
 
 
 ```C++
@@ -116,9 +116,9 @@ player.playlistCollection.getAll.item(1).item(2).duration;
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

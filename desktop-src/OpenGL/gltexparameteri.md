@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 207ac902047c5a2b6a5266d08e71f8e47f7ccb97
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3bcc269c92d2d233f8c0dae89438232830539c3f8f59c3f8e28ef2be6ba42e54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118613236"
 ---
 # <a name="gltexparameteri-function"></a>glTexParameteri fonction)
 
@@ -93,7 +93,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le mappage de texture est une technique qui applique une image sur la surface d’un objet comme si l’image était un cellophane de décalque ou de réduction. L’image est créée dans l’espace de texture, avec un système de coordonnées (*s*, *t*). Une texture est une image à une ou deux dimensions et un ensemble de paramètres qui déterminent la façon dont les échantillons sont dérivés de l’image.
 

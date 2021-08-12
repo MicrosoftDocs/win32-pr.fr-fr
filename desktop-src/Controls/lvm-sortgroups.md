@@ -3,7 +3,7 @@ title: Message LVM_SORTGROUPS (commctrl. h)
 description: Utilise une fonction de comparaison définie par l’application pour trier des groupes par ID au sein d’un contrôle List-View.
 ms.assetid: 553e96d6-a982-4482-8fba-ef11a74fb82e
 keywords:
-- LVM_SORTGROUPS les contrôles de message Windows
+- LVM_SORTGROUPS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c70fd0f343c9efe0215c87f430e5ed1c89a3aed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b1ec17d46205746495cfe95a2af83690644dd8bfced26041906bdea4f809fb36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670783"
 ---
 # <a name="lvm_sortgroups-message"></a>\_Message SORTGROUPS LVM
 
@@ -39,7 +39,7 @@ Utilise une fonction de comparaison définie par l’application pour trier des 
 
 Retourne 1 en cas de réussite, ou 0 dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Pour utiliser ce message, vous devez fournir un manifeste spécifiant Comclt32.dll version 6,0. Pour plus d’informations sur les manifestes, consultez [activation des styles visuels](cookbook-overview.md).
@@ -52,8 +52,8 @@ Retourne 1 en cas de réussite, ou 0 dans le cas contraire.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

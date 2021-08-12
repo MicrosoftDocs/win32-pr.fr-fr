@@ -3,7 +3,7 @@ title: Message EM_SETIMEMODEBIAS (RichEdit. h)
 description: Définissez le décalage du mode de l’éditeur de méthode d’entrée (IME) pour un contrôle RichEdit.
 ms.assetid: 4a3f97eb-fe80-4e84-a73e-3ed6d73644de
 keywords:
-- EM_SETIMEMODEBIAS les contrôles de message Windows
+- EM_SETIMEMODEBIAS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fbd93971a57cffa3441c2a3db0816572f761d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4812c21558fba07be2709c0fd1a011f31d79fad17e0b4146fa0c7d65843a087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672669"
 ---
 # <a name="em_setimemodebias-message"></a>\_Message SETIMEMODEBIAS em
 
@@ -58,7 +58,7 @@ Il doit s’agir de la même valeur que *wParam*.
 
 Ce message retourne le nouveau paramètre de décalage du mode IME.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque l’IME génère une liste de choix alternatifs pour un jeu de caractères, ce message définit les critères selon lesquels certains des choix s’affichent en haut de la liste.
 
@@ -73,7 +73,7 @@ L’application doit appeler [**em \_ ISIME**](em-isime.md) avant d’appeler ce
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

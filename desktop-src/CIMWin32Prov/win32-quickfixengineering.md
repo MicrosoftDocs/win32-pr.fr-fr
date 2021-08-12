@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0e9db31dd452161a31575b6f7184a34c35dea71e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15110b5801555947eed434b8148aec3cc753f6eec359f32b96cd67a5b2649f31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106540799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675011"
 ---
 # <a name="win32_quickfixengineering-class"></a>\_Classe QuickFixEngineering Win32
 
-La  [classe WMI](../wmisdk/retrieving-a-class.md) **\_ QuickFixEngineering** WMI représente une petite mise à jour à l’échelle du système, communément appelée mise à jour du correctif QFE (rapide), appliquée au système d’exploitation actuel. Cette classe retourne uniquement les mises à jour fournies par la fonction de maintenance basée sur les composants (CBS). Ces mises à jour ne sont pas répertoriées dans le registre. Les mises à jour fournies par Microsoft Windows Installer (MSI) ou le site Windows Update ( [https://update.microsoft.com](https://update.microsoft.com/) ) ne sont pas retournées par **Win32 \_ QuickFixEngineering**.
+La  [classe WMI](../wmisdk/retrieving-a-class.md) **\_ QuickFixEngineering** WMI représente une petite mise à jour à l’échelle du système, communément appelée mise à jour du correctif QFE (rapide), appliquée au système d’exploitation actuel. Cette classe retourne uniquement les mises à jour fournies par la fonction de maintenance basée sur les composants (CBS). Ces mises à jour ne sont pas répertoriées dans le registre. les mises à jour fournies par Microsoft Windows Installer (MSI) ou le site de mise à jour Windows ( [https://update.microsoft.com](https://update.microsoft.com/) ) ne sont pas retournées par **Win32 \_ QuickFixEngineering**.
 
 La syntaxe suivante est simplifiée par rapport au code MOF (Managed Object Format) et inclut toutes les propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -131,7 +131,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ HotFix »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Commentaires supplémentaires liés à la mise à jour.
@@ -147,7 +147,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Identificateur unique associé à une mise à jour particulière.
@@ -181,7 +181,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ HotFix »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Personne qui a installé la mise à jour. Si cette valeur est inconnue, la propriété est vide.
@@ -197,7 +197,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ HotFix »)
+qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Date à laquelle la mise à jour a été installée. Si cette valeur est inconnue, la propriété est vide.
@@ -236,7 +236,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| Software \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
+qualificateurs : [**clé**](../wmisdk/key-qualifier.md), [**MaxLen**](../wmisdk/standard-qualifiers.md) (260), [**MappingStrings**](../wmisdk/standard-qualifiers.md) ("Win32Registry \| SOFTWARE \\ \\ Microsoft \\ \\ Windows NT \\ \\ CurrentVersion \\ \\ Hotfix")
 </dt> </dl>
 
 Service Pack en vigueur lorsque la mise à jour a été appliquée. Si aucun Service Pack n’a été appliqué, la propriété prend la valeur SP0. S’il n’est pas possible de déterminer ce que Service Pack était en vigueur, cette propriété a la **valeur null**.
@@ -351,13 +351,13 @@ Non **récupéré** (« non récupéré »)
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ QuickFixEngineering** est dérivée de [**CIM \_ LogicalElement**](cim-logicalelement.md).
 
 Étant donné que les mises à jour sont stockées à deux emplacements, une énumération de cette classe peut entraîner des doublons.
 
-Un correctif est un correctif de système d’exploitation temporaire produit par le groupe d’ingénierie de correction rapide chez Microsoft. À l’instar des service packs, les correctifs représentent les modifications apportées à une version de Windows après la sortie du système d’exploitation.
+Un correctif est un correctif de système d’exploitation temporaire produit par le groupe d’ingénierie de correction rapide chez Microsoft. à l’instar des service packs, les correctifs représentent les modifications apportées à une version de Windows après la publication du système d’exploitation.
 
 Contrairement aux service packs, les correctifs ne sont pas destinés à une installation permanente sur tous les ordinateurs. Au lieu de cela, ils sont développés pour résoudre des problèmes très spécifiques, souvent pour des configurations d’ordinateur spécifiques.
 

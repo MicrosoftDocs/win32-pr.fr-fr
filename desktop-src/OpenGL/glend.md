@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9bb41395b3ed2e38a64094506e07e2a69ad1d52
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0817bec7874b9a3a58e28653ff10497eb1e3f5e5170c57dbe2c26a6b20b64460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106522297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616551"
 ---
 # <a name="glend-function"></a>glEnd fonction)
 
@@ -54,7 +54,7 @@ Le code d’erreur suivant peut être récupéré par la fonction [**glGetError*
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fonctions [**glBegin**](glbegin.md) et **Glend** délimitent les vertex qui définissent une primitive ou un groupe de primitives similaires. La fonction **glBegin** accepte un argument unique qui spécifie laquelle des dix primitives compose les sommets. En acceptant *n* comme nombre entier à partir de 1, et *n* comme nombre total de vertex spécifiés, les interprétations sont les suivantes :
 

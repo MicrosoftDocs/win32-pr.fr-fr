@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - wldp.dll
-ms.openlocfilehash: 4df0555f89e9c575a7d97b69a5252c17936eb3d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12643bd542acac908c560a2094fb02e69d6d1aae62308e4ca4ece3be8bb85c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666360"
 ---
 # <a name="wldpisdynamiccodepolicyenabled-function"></a>WldpIsDynamicCodePolicyEnabled fonction)
 
@@ -50,7 +50,7 @@ En cas de réussite, retourne la **valeur true** si la stratégie Device Guard a
 
 Cette méthode retourne **S \_ OK** en cas de réussite ou un code d’échec dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le code dynamique fait référence au code généré dynamiquement par la liste de révocation de certificats .NET.
 
@@ -60,8 +60,8 @@ Le code dynamique fait référence au code généré dynamiquement par la liste 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1803 \[ uniquement\]<br/>                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1803 \[ uniquement\]<br/>                           |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Wldp. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Wldp.dll</dt> </dl> |
 

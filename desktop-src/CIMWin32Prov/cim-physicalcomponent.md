@@ -32,12 +32,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4e7e1db2c1d314b2d45816801643912dcf3b31bc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2178d78b125765c68a8872a8962ae93d49faea4cbd0e94704fa3cd924c7d5cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104483521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678281"
 ---
 # <a name="cim_physicalcomponent-class"></a>\_Classe CIM PhysicalComponent
 
@@ -482,7 +482,7 @@ Cette propriété est héritée de la [**\_ PhysicalElement CIM**](cim-physicale
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **CIM \_ PhysicalComponent** est dérivée de [**CIM \_ PhysicalElement**](cim-physicalelement.md).
 

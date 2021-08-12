@@ -3,7 +3,7 @@ title: BN_UNPUSHED le code de notification (winuser. h)
 description: Envoyé lorsque l’état de transmission d’un bouton a la valeur unpushd.
 ms.assetid: 1ae7311d-f067-41fe-a117-e0c70d239e9d
 keywords:
-- Contrôles Windows de code de notification BN_UNPUSHED
+- BN_UNPUSHED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,19 +14,19 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eb8c16d8860274c070c31910254311a897c0f1d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 418cb2cacc872fd1e1dfcd86778fddf35939c8e022510a4e0df7e00cf7718bc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674113"
 ---
 # <a name="bn_unpushed-notification-code"></a>Code de notification de type de transfert de la \_ cale
 
 Envoyé lorsque l’état de transmission d’un bouton a la valeur unpushd.
 
 > [!Note]  
-> Ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton [**BS \_ OwnerDraw**](button-styles.md) et la structure [**drawitemstruct,**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) pour cette tâche.
+> ce code de notification est fourni uniquement pour la compatibilité avec les versions 16 bits de Windows antérieures à la version 3,0. Les applications doivent utiliser le style de bouton [**BS \_ OwnerDraw**](button-styles.md) et la structure [**drawitemstruct,**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) pour cette tâche.
 
  
 
@@ -60,7 +60,7 @@ Handle du bouton.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 \_La fonction de Push n’a pas été envoyée est la même que le code de notification [ \_ UNHILITE](bn-unhilite.md) .
 
@@ -70,8 +70,8 @@ Handle du bouton.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

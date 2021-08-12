@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5fffa74c69b5ecbf2823cfa79ae376fed524e8ca
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7d9cb6afe13b8c0060b26edbf5add618c776518b3b03e5abdc1f9131dbbcabde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106536435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275532"
 ---
 # <a name="eaptype-element-base-user-properties"></a>Élément EapType (propriétés de l’utilisateur de base)
 
@@ -39,10 +39,10 @@ L’élément **EapType** est abstrait ; chaque méthode doit définir et utili
 
 
 
-| Role | Version minimale du système d’exploitation prise en charge |
+| Rôle | Version minimale du système d’exploitation prise en charge |
 |-------------------------------------|------------------------------------------------------|
-| Client<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

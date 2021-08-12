@@ -3,7 +3,7 @@ title: Message TVM_SETBORDER (commctrl. h)
 description: Définit la taille de la bordure pour les éléments dans un contrôle TreeView. Vous pouvez envoyer le message explicitement ou à l’aide de la \_ macro setBorder TreeView.
 ms.assetid: 468b46ae-2ab2-4753-a0af-7c644f75ce62
 keywords:
-- TVM_SETBORDER les contrôles de message Windows
+- TVM_SETBORDER les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b4401959e2579caab7f2cb4b6eed1ea34481ffa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1c8cab133fb654e431638be96301325d68d9743109f84ed8def1ee9cc67c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843785"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669654"
 ---
 # <a name="tvm_setborder-message"></a>TVM \_ SETBORDER message
 
@@ -60,7 +60,7 @@ Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) est
 
 Retourne une valeur de **type long** qui contient la taille de la bordure précédente, en pixels. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient la taille précédente de la bordure horizontale, tandis que le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient la taille précédente de la bordure verticale.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Avertissement de sécurité :** L’utilisation de ce message peut compromettre la sécurité de votre programme.
 
@@ -80,8 +80,8 @@ Ce message n’est peut-être pas pris en charge dans les versions ultérieures 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

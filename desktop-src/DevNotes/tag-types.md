@@ -4,12 +4,12 @@ ms.assetid: 009ad522-35da-4053-a7f6-61d7d240b98c
 title: Types de BALISes
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ab53b9c3b85263ddcdbe80e3979d576685bd73
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8308f0adb9195363825a95253f1118305a88b9adeb46e9e7ce9518a6e005d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104200905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666390"
 ---
 # <a name="tag-types"></a>Types de BALISes
 
@@ -37,8 +37,8 @@ Décrit le type de données de la valeur associée à une BALIse.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

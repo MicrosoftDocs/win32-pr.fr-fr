@@ -4,12 +4,12 @@ description: Une liste d’images est une collection d’images de même taille,
 ms.assetid: vs|controls|~\controls\imagelist\imagelist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f059e89b04d16088fff1d937bd29cb23a427d4c2
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 3cbfbb55ecd972e7f7e257eebabdb94ee40846a4f1b70b2a725ae1b67c6e69e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672203"
 ---
 # <a name="about-image-lists"></a>À propos des listes d’images
 
@@ -113,7 +113,7 @@ L’image 1 est alors dessinée, puis superposée à l’image 0. Comme 3 est l�
 
 ## <a name="32-bit-antialiased-icons"></a>Icônes d’anticrénelage 32 bits
 
-L’anticrénelage est une technique d’adoucissement ou de flou des bords nets. Cela donne aux images une apparence plus naturelle. Les listes d’images dans Windows Vista et Windows 7 prennent en charge l’utilisation des bitmaps et des icônes antialias 32 bits. Les valeurs de couleur utilisent 24 bits et 8 bits sont utilisés comme canal alpha sur les icônes. Pour créer une liste d’images pouvant gérer une image 32 bits par pixel (BPP), appelez la fonction [**ImageList \_ Create**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create) , en passant un indicateur ILC \_ COLOR32.
+L’anticrénelage est une technique d’adoucissement ou de flou des bords nets. Cela donne aux images une apparence plus naturelle. les listes d’images dans Windows Vista et Windows 7 prennent en charge l’utilisation des bitmaps et des icônes antialias 32 bits. Les valeurs de couleur utilisent 24 bits et 8 bits sont utilisés comme canal alpha sur les icônes. Pour créer une liste d’images pouvant gérer une image 32 bits par pixel (BPP), appelez la fonction [**ImageList \_ Create**](/windows/desktop/api/Commctrl/nf-commctrl-imagelist_create) , en passant un indicateur ILC \_ COLOR32.
 
 Pour créer correctement des icônes 32 bits, vous devez créer plusieurs images pour chaque icône, comme indiqué dans l’illustration suivante.
 
@@ -122,14 +122,14 @@ Pour créer correctement des icônes 32 bits, vous devez créer plusieurs images
 -   Les trois premières images sont en mode 16 couleurs pour une utilisation en mode sans échec.
 -   Les trois icônes suivantes sont utilisées en mode 256 couleurs.
 -   Les trois dernières icônes ont le canal alpha et peuvent être utilisées uniquement dans les systèmes d’exploitation qui exécutent une couleur 24 bits ou supérieure.
--   L’ordre des images dans le format des icônes importe peu. Si l’ordre est incorrect, les versions antérieures de Windows fonctionnent mal lors de l’extraction des icônes. L’extraction incorrecte des icônes peut entraîner une altération de la mémoire et un rendu incorrect.
--   Les versions précédentes de Windows contenait une limite de ressources de 10 icônes.
+-   L’ordre des images dans le format des icônes importe peu. si l’ordre est incorrect, les versions antérieures de Windows fonctionnent mal lors de l’extraction des icônes. L’extraction incorrecte des icônes peut entraîner une altération de la mémoire et un rendu incorrect.
+-   les versions précédentes de Windows avaient une limite de ressources de 10 icônes.
 
 > [!Note]  
 > Vous pouvez utiliser des outils tiers pour générer des fichiers d’icône et des bitmaps qui contiennent un canal alpha. Si vous utilisez [**LoadImage**](/windows/desktop/api/winuser/nf-winuser-loadimagea) pour charger une image bitmap 32 BPP qui contient alpha, vous devez spécifier l' \_ indicateur CREATEDIBSECTION LR.
 
- 
+ 
 
- 
+ 
 
- 
+ 

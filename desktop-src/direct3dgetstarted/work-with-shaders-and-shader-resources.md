@@ -4,12 +4,12 @@ description: Il est temps d’apprendre à utiliser des nuanceurs et des ressour
 ms.assetid: 25a11983-e3f6-4bd3-86f1-d660edc4cd4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ac147971221b04b02f2a45af8e8d4f6855a5e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bbf0152ba74dcc8dd1c602b69d854634502c928a0deefe5521bcab8999954049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118288549"
 ---
 # <a name="work-with-shaders-and-shader-resources"></a>Utiliser des nuanceurs et des ressources de nuanceur
 
@@ -24,7 +24,7 @@ Cet exemple comprend des nuanceurs de sommets et de pixels très basiques qui de
 
 Les programmes de nuanceur sont écrits en HLSL (High Level Shader Language). La syntaxe HLSL ressemble beaucoup à C, mais sans les pointeurs. Les programmes de nuanceur doivent être très compacts et efficaces. Si votre nuanceur est compilé en trop d’instructions, il ne peut pas être exécuté et une erreur est retournée. (Notez que le nombre exact d’instructions autorisées fait partie du [niveau de fonctionnalité Direct3D](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro).)
 
-Dans Direct3D, les nuanceurs ne sont pas compilés au moment de l’exécution ; elles sont compilées lors de la compilation du reste du programme. Quand vous compilez votre application avec Microsoft Visual Studio 2013, les fichiers HLSL sont compilés en fichiers CSO (. CSO) que votre application doit charger et placer dans la mémoire GPU avant le dessin. Veillez à inclure ces fichiers CSO avec votre application lorsque vous l’Empaquetez ; Il s’agit de ressources, comme les maillages et les textures.
+Dans Direct3D, les nuanceurs ne sont pas compilés au moment de l’exécution ; elles sont compilées lors de la compilation du reste du programme. quand vous compilez votre application avec Microsoft Visual Studio 2013, les fichiers HLSL sont compilés en fichiers CSO (. cso) que votre application doit charger et placer dans la mémoire GPU avant le dessin. Veillez à inclure ces fichiers CSO avec votre application lorsque vous l’Empaquetez ; Il s’agit de ressources, comme les maillages et les textures.
 
 ## <a name="understand-hlsl-semantics"></a>Comprendre la sémantique HLSL
 
@@ -91,9 +91,9 @@ cbuffer ModelViewProjectionConstantBuffer : register(b0)
 
 Toutes les mémoires tampons (constante, texture, échantillonneur ou autre) doivent avoir un registre défini pour que le GPU puisse y accéder. Chaque étape de nuanceur autorise jusqu’à 15 mémoires tampons constantes, et chaque mémoire tampon peut contenir jusqu’à 4 096 variables constantes. La syntaxe de la déclaration d’utilisation des registres est la suivante :
 
--   **b * * *\#* : Registre pour une mémoire tampon constante (** CBuffer * *).
--   **t * * *\#* : Registre pour une mémoire tampon de texture (** tbuffer * *).
--   **s * \#** * : registre d’un échantillonneur. (Un échantillonneur définit le comportement de recherche des texels dans la ressource de texture.)
+-   **b** _\#_ : Registre pour une mémoire tampon constante (**CBuffer**).
+-   **t** _\#_ : Registre pour une mémoire tampon de texture (**tbuffer**).
+-   **s** _\#_ : registre d’un échantillonneur. (Un échantillonneur définit le comportement de recherche des texels dans la ressource de texture.)
 
 Par exemple, le HLSL pour un nuanceur de pixels peut prendre une texture et un échantillonneur comme entrée avec une déclaration comme celle-ci.
 
@@ -390,7 +390,7 @@ Les nuanceurs sont des outils très puissants qui peuvent être utilisés pour g
 Nous espérons que vous êtes familiarisé avec DirectX 11at ce point et que vous êtes prêt à commencer à travailler sur votre projet. Voici quelques liens pour vous aider à répondre à d’autres questions que vous pouvez vous poser concernant le développement avec DirectX et C++ :
 
 -   [Développement de jeux](/previous-versions/windows/apps/hh452744(v=win.10))
--   [Utiliser Visual Studio Tools pour la programmation de jeux DirectX](/previous-versions/windows/apps/dn166877(v=win.10))
+-   [utiliser des outils de Visual Studio pour la programmation de jeux DirectX](/previous-versions/windows/apps/dn166877(v=win.10))
 -   [Développement de jeux DirectX et exemples de procédures pas à pas](/previous-versions/windows/apps/hh465149(v=win.10))
 -   [Ressources supplémentaires pour la programmation de jeux](/previous-versions/windows/apps/dn194515(v=win.10))
 
@@ -404,6 +404,6 @@ Nous espérons que vous êtes familiarisé avec DirectX 11at ce point et que vou
 [Comprendre le pipeline de rendu Direct3D 11](understand-the-directx-11-2-graphics-pipeline.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

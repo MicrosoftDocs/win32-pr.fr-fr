@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 5bf0aad74f6992212fb3b2238b3030c68cda2fc6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9c92863adbc0865700dad272bbc299e1f1a667b2fd4afbcd75d548e3330890b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667226"
 ---
 # <a name="ntqueryperformancecounter-function"></a>NtQueryPerformanceCounter fonction)
 
@@ -60,7 +60,7 @@ Adresse d’une variable qui doit recevoir la fréquence du compteur de performa
 
 Si la fonction réussit, elle retourne la **\_ réussite** de l’état du code **NTSTATUS** ; sinon, elle retourne un code d’erreur tel que **violation d' \_ accès \_ d’État**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucun fichier d’en-tête n’est disponible pour **NtQueryPerformanceCounter**. Vous devez utiliser les autres fonctions nommées ci-dessus, bien que vous puissiez également utiliser les fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) pour établir une liaison dynamique à Ntdll.dll.
 

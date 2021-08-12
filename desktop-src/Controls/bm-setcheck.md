@@ -3,7 +3,7 @@ title: Message BM_SETCHECK (winuser. h)
 description: Définit l’état d’activation d’une case d’option ou d’une case à cocher. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro Button SetCheck.
 ms.assetid: 8294e6c4-caac-4c60-85ff-38698a1d2ae4
 keywords:
-- BM_SETCHECK les contrôles de message Windows
+- BM_SETCHECK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c298fb865fe34946bfedc9f1d6d1924f6d32202
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 171515cb3c8498537bd0f9cc6d8c06017ff9d5d00f5505e193862f6cf9ebff76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118674802"
 ---
 # <a name="bm_setcheck-message"></a>\_Message SETCHECK BM
 
@@ -59,7 +59,7 @@ Ce paramètre n'est pas utilisé.
 
 Ce message retourne toujours la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **message \_ SETCHECK BM** n’a aucun effet sur les boutons de commande.
 
@@ -69,8 +69,8 @@ Le **message \_ SETCHECK BM** n’a aucun effet sur les boutons de commande.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

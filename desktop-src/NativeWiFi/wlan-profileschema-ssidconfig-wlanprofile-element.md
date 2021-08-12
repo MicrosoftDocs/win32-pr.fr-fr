@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5665b385c3264ff9d36e79ad671c8f9e8377d4bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6df6edc3affa551d62473b616562257cd422fcc4a4021ea7e4ef05ba3c8af9dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619039"
 ---
 # <a name="ssidconfig-wlanprofile-element"></a>Élément SSIDConfig (WLANProfile)
 
@@ -98,10 +98,10 @@ L’élément **SSIDConfig** est défini par l’élément [**WLANProfile**](wla
 
 | Élément                                                                    | Type                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**hex**](wlan-profileschema-hex-ssid-element.md)                         |                                                                   | Contient le SSID d’un réseau local sans fil au format hexadécimal.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [**séquence**](wlan-profileschema-hex-ssid-element.md)                         |                                                                   | Contient le SSID d’un réseau local sans fil au format hexadécimal.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**nomme**](wlan-profileschema-name-ssid-element.md)                       |                                                                   | Contient le nom (sensible à la casse) du SSID d’un réseau local sans fil.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [**ne pas diffuser**](wlan-profileschema-nonbroadcast-ssidconfig-element.md) | [boolean](/dotnet/api/system.boolean) | Indique si le réseau diffuse son SSID.<br/> Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) est défini sur ESS, cette valeur peut être **true** ou **false**. La valeur par défaut est **true** si cet élément est absent.<br/> Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) est défini sur IBSS, cette valeur doit être **false**.<br/> **Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.<br/> |
-| [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)                 |                                                                   | Contient un SSID pour un réseau local sans fil.<br/> **Windows XP avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Au plus un élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) peut apparaître dans un profil.<br/>                                                                                                                                                                                                                                                                                                        |
+| [**ne pas diffuser**](wlan-profileschema-nonbroadcast-ssidconfig-element.md) | [boolean](/dotnet/api/system.boolean) | Indique si le réseau diffuse son SSID.<br/> Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) est défini sur ESS, cette valeur peut être **true** ou **false**. La valeur par défaut est **true** si cet élément est absent.<br/> Si [**ConnectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) est défini sur IBSS, cette valeur doit être **false**.<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Cet élément n’est pas pris en charge.<br/> |
+| [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)                 |                                                                   | Contient un SSID pour un réseau local sans fil.<br/> **Windows xp avec SP3 et l’API de réseau local sans fil pour Windows XP avec SP2 :** Au plus un élément [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) peut apparaître dans un profil.<br/>                                                                                                                                                                                                                                                                                                        |
 
 
 
@@ -116,7 +116,7 @@ Pour afficher des exemples de profils qui utilisent l’élément **SSIDConfig**
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista, Windows XP avec les \[ applications de bureau SP3 uniquement\]<br/> |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                |
 | Composant redistribuable<br/>          | API de réseau local sans fil pour Windows XP avec SP2<br/>                 |
 
 

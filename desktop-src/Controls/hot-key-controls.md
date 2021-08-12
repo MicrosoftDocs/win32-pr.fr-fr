@@ -4,12 +4,12 @@ description: Un contrôle de touche d’accès rapide est une fenêtre qui perme
 ms.assetid: 5f011459-4c30-45d4-9668-19f575b041ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d5e0c0f9a0ddec515c1732863333b7c1a878db5
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 256fcfde87a1fb6603f90e8a2a41cb4f2cc9356f9f45d861efdc6836aa5344fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672241"
 ---
 # <a name="about-hot-key-controls"></a>À propos des contrôles de touche d’accès rapide
 

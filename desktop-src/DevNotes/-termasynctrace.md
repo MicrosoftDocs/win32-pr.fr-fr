@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: c8f2ed58115130e141b5fc097965396847ebd147
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6857e8e6164392a12604779d51914d7d297ec89a3890adec000cf662019a7485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668798"
 ---
 # <a name="termasynctrace-function"></a>TermAsyncTrace fonction)
 
@@ -41,7 +41,7 @@ Cette fonction n’a pas de paramètres.
 
 Cette fonction retourne **true** si elle est réussie ; Sinon, elle retourne **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Exstrace.dll est un composant facultatif qui est installé avec le protocole SMTP (Simple Mail Transfer Protocol) et le protocole NNTP (Network News Transfer Protocol).
 

@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 490a64a21ec81c1c91cc34ec8bebd2995476db4f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e3707a4e7b59811a99cb23ca4ebdbfc8bc2d285c2e8780502241beebb2f7485d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670546"
 ---
 # <a name="syslink-control-styles"></a>Styles de contrôle SysLink
 

@@ -3,18 +3,18 @@ title: artist.csv
 description: artist.csv
 ms.assetid: 50cf2fbc-28cc-4b13-988e-4c02eb821cfd
 keywords:
-- Windows Media Player Online stores, artist.csv
+- Lecteur Windows Media des magasins en ligne, artist.csv
 - magasins en ligne, artist.csv
 - tapez 1 magasins en ligne, artist.csv
 - artist.csv
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f548c419f01d23b76172c44cd6e50263c4e9197
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4192d0817740ac872d1c08989f2f57b4715d65fea6b9a6c9a199dcdabe267e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583041"
 ---
 # <a name="artistcsv"></a>artist.csv
 

@@ -4,17 +4,17 @@ ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: Interfaces de base de diffusion multimédia
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b715a68bd65a2fa3a3923edf10f0e2d1f6c22edb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: de5268855231169c6c0a7ffab02aa5145a7c1813511421b04b2420773e1588ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103953470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662919"
 ---
 # <a name="base-multimedia-streaming-interfaces"></a>Interfaces de base de diffusion multimédia
 
 > [!Note]  
-> Ces API sont déconseillées. Les applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
+> Ces API sont déconseillées. les Applications doivent utiliser le filtre d' [**accrochage d’exemple**](sample-grabber-filter.md) ou implémenter un filtre personnalisé pour obtenir des données à partir d’un graphique de filtre DirectShow.
 
  
 

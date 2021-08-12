@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a24d15ec5a8a69b3c8c40700273ebcb6f32bcfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e40a054df2b16684840f22295f0c26de6029ef150a97ca8839c98d94713ab030
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620434"
 ---
 # <a name="copyrepairinfo-function"></a>CopyRepairInfo fonction)
 
@@ -44,16 +44,16 @@ HRESULT CopyRepairInfo(
 *Dest* \[ . à\]
 </dt> <dd>
 
-Tapez : **[**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo) \** _
+Type : **[ **RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo)\***
 
 Structure à mettre à jour.
 
 </dd> <dt>
 
-_Source * \[ dans\]
+*Source* \[ dans\]
 </dt> <dd>
 
-Type : **const [**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo) \** _
+Type : **const [**RepairInfo**](/windows/win32/api/ndattrib/ns-ndattrib-repairinfo) \***
 
 Structure existante à copier.
 
@@ -61,7 +61,7 @@ Structure existante à copier.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les éléments suivants.
 
@@ -83,8 +83,8 @@ Les valeurs de retour possibles incluent, mais ne sont pas limitées à, les él
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 

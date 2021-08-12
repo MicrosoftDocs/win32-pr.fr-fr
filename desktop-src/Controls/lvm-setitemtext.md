@@ -3,7 +3,7 @@ title: Message LVM_SETITEMTEXT (commctrl. h)
 description: Modifie le texte d’un élément ou d’un sous-élément de vue de liste. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView SetItemText.
 ms.assetid: 1a9c7e4d-78e0-44c7-bf4f-d0fc7a0049f3
 keywords:
-- LVM_SETITEMTEXT les contrôles de message Windows
+- LVM_SETITEMTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d326e48047325fc9aff2c6607da6d7d377965adf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 14eb5ddcff18a84f93febb22ef6661d8871df9b5578cc79f071b6e51b557c87b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670872"
 ---
 # <a name="lvm_setitemtext-message"></a>\_Message SETITEMTEXT LVM
 
@@ -55,8 +55,8 @@ Si vous envoyez ce message de manière explicite, il retourne **true** en cas de
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **LVM \_ SETITEMTEXTW** (Unicode) et **LVM \_ SETITEMTEXTA** (ANSI)<br/>           |
 

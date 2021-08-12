@@ -3,7 +3,7 @@ title: Controls. currentMarker
 description: La propriété currentMarker spécifie ou récupère le numéro de marqueur actuel.
 ms.assetid: 4b4eacd4-3df0-4e11-8755-1ac326fad027
 keywords:
-- Controls. currentMarker Windows Media Player
+- controls. currentMarker Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aae8af226b62550b3faae9389385d321bf10aad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcc11f79460661b6622da529b0de025672794af660aeb27bf56c7910a6d5a50b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580305"
 ---
 # <a name="controlscurrentmarker"></a>Controls. currentMarker
 
@@ -44,7 +44,7 @@ Jusqu’à ce que l’élément multimédia actuel soit défini (à l’aide de 
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise **currentMarker** pour démarrer la lecture vidéo à partir du marqueur qui correspond à la propriété **SelectedIndex** d’un élément Select HTML. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise **currentMarker** pour démarrer la lecture vidéo à partir du marqueur qui correspond à la propriété **selectedIndex** d’un élément SELECT HTML. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -3,7 +3,7 @@ title: Message TVM_SORTCHILDRENCB (commctrl. h)
 description: Trie les éléments d’arborescence à l’aide d’une fonction de rappel définie par l’application qui compare les éléments. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro SortChildrenCB TreeView.
 ms.assetid: 1669e576-5e57-49f6-8097-7d6547306014
 keywords:
-- TVM_SORTCHILDRENCB les contrôles de message Windows
+- TVM_SORTCHILDRENCB les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b1dab4abbbc019a81d7a066c81dbb3537a0d80d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45f0ec311cc5ce0f972f3363ea97cd42874ca85807bf852296de0283fccc95c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669475"
 ---
 # <a name="tvm_sortchildrencb-message"></a>TVM \_ SORTCHILDRENCB message
 
@@ -53,8 +53,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
