@@ -4,12 +4,12 @@ description: Vous pouvez rechercher des événements à partir d’un canal ou d
 ms.assetid: 929bedbf-6dce-428e-b2c0-de9dcfe4531b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6fa69f9b1308cd7ebbc4e4510692bb25ab031ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 981e4a8c39daebbce641c79e7d26331b9b36845d3c71fd1902ea667ca85c5dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587800"
 ---
 # <a name="querying-for-events"></a>Interrogation des événements
 
@@ -270,6 +270,6 @@ Pour plus d’informations sur le rendu des événements que vous obtenez à par
 
 Si vous souhaitez rechercher les événements à partir de l’endroit où vous vous êtes arrêté, créez un signet du dernier événement que vous avez lu et utilisez-le lors de la prochaine exécution de votre requête. Pour plus d’informations, consultez [signets d’événements](bookmarking-events.md).
 
- 
+ 
 
- 
+ 

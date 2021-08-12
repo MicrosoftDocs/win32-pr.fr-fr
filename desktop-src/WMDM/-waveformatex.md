@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1d0ede83e22033aee8f18d11b6230e471e0dfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e149608d740df6df40b39b64b09ac11837a721b5b4844f1a73eb52e1b5cea479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586744"
 ---
 # <a name="_waveformatex-structure"></a>\_WAVEFORMATEX, structure
 
@@ -49,7 +49,7 @@ typedef struct _tWAVEFORMATEX {
 **wFormatTag**
 </dt> <dd>
 
-Doit être défini avec un format ou des formats pris en charge par l’appareil. Notez que les versions précédentes du Windows Media Gestionnaire de périphériques recommandé d’utiliser \_ le \_ format WMDM Wave \_ tout pour indiquer la prise en charge de tous les formats. Toutefois, cela n’est plus recommandé, car les différents lecteurs multimédias interprètent cela de différentes manières, et quelques appareils peuvent véritablement lire n’importe quel format de fichier. Il est maintenant recommandé d’utiliser les valeurs valides de l’énumération WMDM d’énumération \_ \_ \_ \_ \_ n’importe quelle valeur de l’énumération des [**\_ \_ \_ \_ \_ valeurs valides**](wmdm-enum-prop-valid-values-form.md) de l’énumération WMDM, ou de mieux spécifier une plage de formats avec la structure de la [**plage des valeurs de WMDM \_ prop \_ \_**](wmdm-prop-values-range.md) .
+Doit être défini avec un format ou des formats pris en charge par l’appareil. notez que les versions précédentes du Windows Media Gestionnaire de périphériques recommandé avec WMDM \_ WAVE \_ FORMAT \_ all pour indiquer la prise en charge de tous les formats. Toutefois, cela n’est plus recommandé, car les différents lecteurs multimédias interprètent cela de différentes manières, et quelques appareils peuvent véritablement lire n’importe quel format de fichier. Il est maintenant recommandé d’utiliser les valeurs valides de l’énumération WMDM d’énumération \_ \_ \_ \_ \_ n’importe quelle valeur de l’énumération des [**\_ \_ \_ \_ \_ valeurs valides**](wmdm-enum-prop-valid-values-form.md) de l’énumération WMDM, ou de mieux spécifier une plage de formats avec la structure de la [**plage des valeurs de WMDM \_ prop \_ \_**](wmdm-prop-values-range.md) .
 
 </dd> <dt>
 

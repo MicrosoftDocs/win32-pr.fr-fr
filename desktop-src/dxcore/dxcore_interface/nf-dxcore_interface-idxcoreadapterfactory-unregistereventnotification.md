@@ -4,12 +4,12 @@ description: Annule l’inscription d’une notification que vous avez inscrite 
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 6bb12126769a914680ea17ac9e6060346001c795
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 64fb54226f1fad0d1d36f8f4260c9c9172b105dc6239ea5cb805c32b57a938ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278880"
 ---
 # <a name="idxcoreadapterfactoryunregistereventnotification-method"></a>IDXCoreAdapterFactory :: UnregisterEventNotification, méthode
 

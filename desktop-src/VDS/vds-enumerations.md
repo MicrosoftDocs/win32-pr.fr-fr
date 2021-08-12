@@ -4,16 +4,16 @@ ms.assetid: 30ee6e39-c1e5-4173-a3dd-5644632140d1
 title: Énumérations VDS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49da784104c939a99f7341e7c9d5043824c6eeaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50efb71cc74731636abeefbac955699b57c9e7fc76845931353074b2b5894a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603096"
 ---
 # <a name="vds-enumerations"></a>Énumérations VDS
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Les énumérations VDS représentent les types d’objets, les indicateurs, l’État et d’autres entités dans le modèle objet VDS. Pour plus d’informations sur les objets VDS et leurs énumérations associées, consultez [modèle objet VDS](vds-object-model.md).
 

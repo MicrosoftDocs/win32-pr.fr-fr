@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faad446749cbf3cdb75d6e8fa7469022cc004ea7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91598284d3765c5ff6de185ca0cf3b652036c226d80b0fe01a9944a9d7480b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118594179"
 ---
 # <a name="ivmguestosisheartbeating-property"></a>IVMGuestOS :: IsHeartbeating, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Détermine si l’ordinateur virtuel a une pulsation.
 
@@ -62,11 +62,11 @@ HRESULT get_IsHeartbeating(
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Lorsque les composants d’intégration sont installés dans le système d’exploitation invité, un « battement » ou une pulsation standard est envoyé de la session de l’ordinateur virtuel vers Windows Virtual PC. Si le système d’exploitation invité est lourdement chargé, il est possible que Virtual PC reçoive moins de pulsations que prévu. Si aucune pulsation n’est détectée, il est possible que le système d’exploitation invité ne réponde pas ou soit bloqué.
+lorsque les composants d’intégration sont installés dans le système d’exploitation invité, un « battement » ou une pulsation standard est envoyé de la session de l’ordinateur virtuel vers Windows virtual PC. Si le système d’exploitation invité est lourdement chargé, il est possible que Virtual PC reçoive moins de pulsations que prévu. Si aucune pulsation n’est détectée, il est possible que le système d’exploitation invité ne réponde pas ou soit bloqué.
 
-Par défaut, un ordinateur virtuel produit dix cycles de pulsations par minute. Si aucune pulsation n’est détectée pendant une minute entière, Windows Virtual PC tente de redémarrer la session de l’ordinateur virtuel une fois toutes les dix secondes pendant une durée de deux minutes maximum. Ce comportement est contrôlé par les valeurs de clé suivantes dans le fichier de configuration de la session d’ordinateur virtuel.
+Par défaut, un ordinateur virtuel produit dix cycles de pulsations par minute. si aucune graduation de pulsations n’est détectée pendant une minute entière, Windows Virtual PC tente de redémarrer la session de l’ordinateur virtuel une fois toutes les dix secondes pendant une durée de deux minutes maximum. Ce comportement est contrôlé par les valeurs de clé suivantes dans le fichier de configuration de la session d’ordinateur virtuel.
 
 
 
@@ -87,7 +87,7 @@ Par défaut, un ordinateur virtuel produit dix cycles de pulsations par minute. 
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

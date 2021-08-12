@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cbe8283c4cc756a4f88fad1240df3a757b53a2c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15c06c84762cd0d68af8af1cc9405036c5aecce317a61dbf292d3213bed351e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574145"
 ---
 # <a name="networkmaxbandwidth"></a>Network. maxBandwidth
 
@@ -35,7 +35,7 @@ Cette propriété est un **nombre** en lecture/écriture (**long**).
 
 ## <a name="remarks"></a>Notes
 
-Cette propriété n’a aucune valeur par défaut. Sa valeur peut être spécifiée pendant la lecture du lecteur Windows Media, mais la modification ne prendra effet qu’après la libération de l’élément multimédia en cours en ouvrant un autre élément ou en appelant le *lecteur*. **Fermez**. Le lecteur Windows Media tente d’obtenir la bande passante la plus élevée possible. Une réduction de la bande passante se produit uniquement dans le cas de la valeur définie.
+Cette propriété n’a aucune valeur par défaut. sa valeur peut être spécifiée pendant la lecture de Lecteur Windows Media, mais la modification ne prend pas effet tant que l’élément multimédia actuel n’est pas libéré en ouvrant un autre élément ou en appelant *Player*. **Fermez**. Lecteur Windows Media tente d’obtenir la bande passante la plus élevée possible. Une réduction de la bande passante se produit uniquement dans le cas de la valeur définie.
 
 Ce paramètre est utile pour réduire la quantité de bande passante utilisée, en particulier dans le cas d’un flux de la vitesse de transmission multiple (MBR). Un flux MBR contient plusieurs flux avec différentes vitesses de transmission. Dans certains cas, il peut être souhaitable d’utiliser un flux avec une vitesse de transmission inférieure à celle requise par le client. Dans ce cas, la définition de la propriété **maxBandwidth** sélectionnera un flux de vitesse de transmission inférieur.
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 3e8d1d72fccd5c4ad47d21d05ee46013860a7743
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 1e42eec5cc9c5c90d1fa4e26c4ad38d611dce3ce0df933d76b1eb81d2534b8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295875"
 ---
 # <a name="id3dxeffectcompilercompileshader-method"></a>ID3DXEffectCompiler :: CompileShader, méthode
 
@@ -63,7 +63,7 @@ Pointeur vers un profil de nuanceur qui détermine le jeu d’instructions du nu
 
 </dd> <dt>
 
-*Flags* \[in\]
+*Indicateurs* \[ dans\]
 </dt> <dd>
 
 Type : **[ **DWORD**](../winprog/windows-data-types.md)**
@@ -109,7 +109,7 @@ Si les arguments ne sont pas valides, la méthode retourne D3DERR \_ INVALIDCALL
 
 Si la méthode échoue, la valeur de retour est E \_ Fail.
 
-## <a name="remarks"></a>Remarques
+## <a name="remarks"></a>Notes
 
 Les cibles peuvent être spécifiées pour les nuanceurs de vertex, les nuanceurs de pixels et les fonctions de remplissage de texture.
 

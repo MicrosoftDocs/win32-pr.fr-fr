@@ -4,22 +4,22 @@ description: Récupération de l’État RIP
 ms.assetid: 9907bfdd-eae7-4ca2-b488-5a6ad11416f5
 keywords:
 - Lecteur Windows Media, extraction de CD
-- Modèle d’objet du lecteur Windows Media, extraction de CD
+- modèle d’objet Lecteur Windows Media, extraction de CD
 - modèle d’objet, extraction de CD
-- Contrôle Windows Media Player ActiveX, extraction de CD
-- Contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile, extraction de CD
+- contrôle de ActiveX Lecteur Windows Media, extraction de CD
+- contrôle de ActiveX, extraction de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, extraction de CD
+- Lecteur Windows Media Mobile, extraction de CD
 - Extraction de CD, récupération de l’État RIP
 - extraction de CD, récupération de l’État RIP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be1fce1a46f9cc2d8477cabcc12a3a1b5bd159d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a3210fa9e0db5f9260989d7bebb3650770cec7626892bc20546a6b602fb98955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570190"
 ---
 # <a name="retrieving-the-rip-status"></a>Récupération de l’État RIP
 
@@ -46,7 +46,7 @@ Les contrôles de boîte de dialogue suivants sont définis pour l’exemple de 
 
 
 
- 
+ 
 
 
 ```C++
@@ -167,9 +167,9 @@ HRESULT CMainDlg::UpdateStatus (void)
 [**Sélection d’éléments pour l’extraction**](selecting-items-for-ripping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,21 +4,21 @@ description: Élément ImageData VML
 ms.assetid: 91004646-b031-4973-a32d-7afdd10dab48
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b416a53f97efc8a1f1875eda0e842c4cfbe96bf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d3a307dd36daf0ff08d2fab7cd9086a3bc07447872cf36cb41972e4aa5a4d4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106509447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600290"
 ---
 # <a name="vml-imagedata-element"></a>Élément ImageData VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit une image pour une forme.
 
@@ -50,7 +50,7 @@ Les attributs suivants modifient une image.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -73,13 +73,13 @@ Voici le code minimal nécessaire pour générer une image.
 > [!Note]  
 > Dans les versions préliminaires de VML, cet élément était appelé **image** .
 
- 
+ 
 
 **Exemples**
 
 -   [Exemple de ImageData simple](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/image/t_image.md)
 -   [Exemple de ImageData dynamique](https://samples.msdn.microsoft.com/workshop/samples/vml/shape/image/x_image.md)
 
- 
+ 
 
- 
+ 

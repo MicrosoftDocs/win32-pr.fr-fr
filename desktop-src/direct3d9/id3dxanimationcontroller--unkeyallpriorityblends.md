@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c39ddd36843b52ca3bb7bf504d3de766f3e1be21
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 765321a2e657dcc6b3fc1e6949509cab70c968d61c22638c8e5ebb505494feff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106529639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296785"
 ---
 # <a name="id3dxanimationcontrollerunkeyallpriorityblends-method"></a>ID3DXAnimationController :: UnkeyAllPriorityBlends, méthode
 
@@ -38,7 +38,7 @@ HRESULT UnkeyAllPriorityBlends();
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

@@ -4,16 +4,16 @@ ms.assetid: 872609c8-a123-40a8-96ca-58f34d37f3d8
 title: Utilisation des outils de suivi avec les applications ASR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c13eee1c62cd6636eebe5bcfd35bd5abb119645
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e2d22dbb1488b5fd60836926d3c5ef2de5913ff1cc1529fdb278773b2ccd8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590868"
 ---
 # <a name="using-tracing-tools-with-asr-applications"></a>Utilisation des outils de suivi avec les applications ASR
 
-Vous pouvez utiliser l’outil Logman pour collecter des informations de traçage pour les applications VSS qui utilisent la [récupération automatique du système (ASR)](using-vss-automated-system-recovery-for-disaster-recovery.md). Logman (logman.exe) est un contrôleur de trace pour les événements de trace et les compteurs de performance. Il est inclus dans Windows XP et les versions ultérieures de Windows. Ou, si vous préférez, vous pouvez utiliser l’outil tracelog pour collecter les mêmes informations de suivi ASR. Tracelog est inclus dans le kit WDK (Windows Driver Kit).
+Vous pouvez utiliser l’outil Logman pour collecter des informations de traçage pour les applications VSS qui utilisent la [récupération automatique du système (ASR)](using-vss-automated-system-recovery-for-disaster-recovery.md). Logman (logman.exe) est un contrôleur de trace pour les événements de trace et les compteurs de performance. il est inclus dans Windows XP et les versions ultérieures de Windows. Ou, si vous préférez, vous pouvez utiliser l’outil tracelog pour collecter les mêmes informations de suivi ASR. Tracelog est inclus dans le Kit de pilotes Windows (WDK).
 
 Pour utiliser les outils de suivi avec VSS, consultez [utilisation des outils de suivi avec VSS](using-tracing-tools-with-vss.md).
 

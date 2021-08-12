@@ -3,22 +3,22 @@ title: À propos de l’objet contrôles
 description: À propos de l’objet contrôles
 ms.assetid: 1678c931-af47-42c9-a8a5-b6b775aebda8
 keywords:
-- Windows Media Player, objet Controls
-- Windows Media Player Object Model, Controls (objet)
+- Lecteur Windows Media, objet controls
+- Lecteur Windows Media modèle objet, objets controls
 - Object Model, Controls, objet
-- Contrôle ActiveX du lecteur Windows Media, objet contrôles
-- Contrôle ActiveX, objet Controls
-- Contrôle ActiveX mobile pour Windows Media Player, objets Controls
-- Windows Media Player Mobile, objet Controls
+- Lecteur Windows Media ActiveX contrôle, controls, objet
+- contrôle ActiveX, objet controls
+- Lecteur Windows Media contrôle Mobile ActiveX, objet controls
+- Lecteur Windows Media Mobile, objet Controls
 - Controls (objet)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f064ef65401876dedb4181ba788788f5e5d9676c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6ea914234ce4458d296a27efe7cf3a392b45b09f05e81f35bef5a355a4e12eab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583896"
 ---
 # <a name="about-the-controls-object"></a>À propos de l’objet contrôles
 
@@ -42,9 +42,9 @@ player.controls.play();
 [**Modèle objet de lecteur pour les langages de script**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

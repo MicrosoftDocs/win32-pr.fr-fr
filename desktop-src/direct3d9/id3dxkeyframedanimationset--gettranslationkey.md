@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f61d1caecb46477d16be4367588ab5609bfd6224
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6b09eac144382bb21114b1c9b3b878baca57fb134555e37bea00580a9f2bfba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106545312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294940"
 ---
 # <a name="id3dxkeyframedanimationsetgettranslationkey-method"></a>ID3DXKeyframedAnimationSet :: GetTranslationKey, méthode
 
@@ -69,7 +69,7 @@ Pointeur vers les informations de rotation. Consultez [**D3DXKEY \_ VECTOR3**](d
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

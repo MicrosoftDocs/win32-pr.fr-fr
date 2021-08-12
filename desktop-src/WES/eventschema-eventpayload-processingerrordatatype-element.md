@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4dd20f95924282ae8cb0f1b0604c0e77d07766ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 131869f9c54143f32780ff2ad1133b2c9ddf113c990b13be497a554caec30ba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589012"
 ---
 # <a name="eventpayload-processingerrordatatype-element"></a>Élément EventPayload (ProcessingErrorDataType)
 
@@ -36,10 +36,10 @@ L’élément **EventPayload** est défini par le type complexe [**ProcessingErr
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

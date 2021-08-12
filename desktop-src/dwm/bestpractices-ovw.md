@@ -16,12 +16,12 @@ keywords:
 - flou derrière l’effet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec76a4920a91f9502940e866d58641a2550d9354
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7affbbf5ebca91a4e5172e75f88da4b9fe8e33f6e1e3de1e7a735add816a313f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280272"
 ---
 # <a name="performance-considerations-and-best-practices"></a>Considérations sur les performances et meilleures pratiques
 
@@ -41,7 +41,7 @@ Avec la composition DWM activée, les applications masquées ne reçoivent plus 
 
 Les fenêtres de niveau supérieur des fenêtres [**WS \_ ex \_ transparent**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) doivent être combinées avec un style de **couche WS par \_ \_ couche** à des fins de test de positionnement. **WS \_ Par \_ exemple** , le sens classique, sans redirection, est utile pour les fenêtres enfants dans une hiérarchie de fenêtres qui appartiennent au même thread, mais n’est pas destiné aux fenêtres de niveau supérieur.
 
-Utilisez des régions ou des couches pour créer des fenêtres mises en forme ou mélangées. Notez que dans Windows Vista et les versions ultérieures de Windows, le fait de dessiner uniquement une partie d’une fenêtre de niveau supérieur ne fournit pas le contenu obsolète souhaité dans les régions non dessinées.
+Utilisez des régions ou des couches pour créer des fenêtres mises en forme ou mélangées. notez que dans Windows Vista et les versions ultérieures de Windows, le dessin personnalisé d’une seule partie d’une fenêtre de niveau supérieur ne fournira pas le contenu périmé souhaité dans les régions non dessinées.
 
 Des API telles que [**GetDCOrgEx**](/windows/desktop/api/wingdi/nf-wingdi-getdcorgex) peuvent être utilisées pour déterminer certaines valeurs réelles. Si vous avez un contexte de périphérique (DC) pour une fenêtre redirigée, l’origine retournée par **GetDCOrgEx** ne correspondra pas à l’origine de votre fenêtre à l’écran. L’origine sera à la place l’origine de la surface de la mémoire tampon d’arrière-plan pour votre fenêtre : (0,0).
 
@@ -57,9 +57,9 @@ Déterminez si votre application doit fournir sa propre double mise en mémoire 
 
 Évitez de dessiner dans la zone non cliente. Bien que cette zone soit accessible par l’application et que le dessin soit pris en charge par l’API Microsoft Win32, cela peut entraîner la perte de la bordure de la fenêtre.
 
-Évitez de mélanger Windows Graphics Device Interface (GDI) et Microsoft DirectX, sauf s’ils ne se chevauchent pas. Si la combinaison est nécessaire, dessinez le contenu GDI dans une surface DirectX et associez-le avant de le composer, ou bien dessinez-le dans des fenêtres distinctes.
+évitez de mélanger Windows Graphics Device Interface (GDI) et Microsoft DirectX, sauf s’ils ne se chevauchent pas. Si la combinaison est nécessaire, dessinez le contenu GDI dans une surface DirectX et associez-le avant de le composer, ou bien dessinez-le dans des fenêtres distinctes.
 
-Utilisez la fonction [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) ou [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) au lieu de Windows GDI+ pour présenter votre dessin en vue d’un rendu. GDI+ affiche une ligne d’analyse à la fois avec le rendu logiciel. Cela peut entraîner un scintillement dans vos applications.
+utilisez la fonction [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) ou [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) au lieu de Windows GDI+ pour présenter votre dessin en vue d’un rendu. GDI+ effectue le rendu d’une ligne d’analyse à la fois avec le rendu logiciel. Cela peut entraîner un scintillement dans vos applications.
 
 ## <a name="dwm-blur-behind-client-region"></a>DWM Blur-Behind région cliente
 
@@ -69,6 +69,6 @@ Le rendu de l’effet Flou-behind est une opération gourmande en ressources pou
 -   Quand vous vous attendez à des mises à jour importantes dans la zone cliente floue. Cela nécessitera un redessin du flou sur chaque mise à jour et consommera des ressources excessives.
 -   Si le flou est supposé couvrir une zone importante et que les mises à jour de cette zone sont également prévues, nous vous recommandons vivement de ne pas brouiller la zone cliente.
 
- 
+ 
 
- 
+ 

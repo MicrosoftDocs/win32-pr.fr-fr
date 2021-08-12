@@ -1,9 +1,9 @@
 ---
-title: Énumération des appareils Windows Media Gestionnaire de périphériques
-description: En savoir plus sur l’énumération des appareils détectés par Windows Media Gestionnaire de périphériques à l’aide d’une interface d’énumération.
+title: énumération des appareils Windows Media Gestionnaire de périphériques
+description: en savoir plus sur l’énumération des appareils détectés par Windows Media Gestionnaire de périphériques à l’aide d’une interface d’énumération.
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
-- Gestionnaire de périphériques Windows Media, énumération des appareils
+- Windows Gestionnaire de périphériques de média, énumération des appareils
 - Gestionnaire de périphériques, énumération des appareils
 - Guide de programmation, énumération des appareils
 - applications de bureau, énumération des appareils
@@ -11,16 +11,16 @@ keywords:
 - énumération des appareils
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 0009e2206bf7c97839d890d00c08a8e1806196efee9af95db72336b95d8b2cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584657"
 ---
-# <a name="enumerating-windows-media-device-manager-devices"></a>Énumération des appareils Windows Media Gestionnaire de périphériques
+# <a name="enumerating-windows-media-device-manager-devices"></a>énumération des appareils Windows Media Gestionnaire de périphériques
 
-Après l’authentification d’une application, vous pouvez commencer à énumérer les appareils détectés par les Gestionnaire de périphériques Windows Media. L’énumération est effectuée à l’aide d’une interface d’énumération, [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice), obtenue à l’aide de [**IWMDeviceManager2 :: EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2) ou [**IWMDeviceManager :: EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices). En cas de prise en charge, utilisez la méthode **EnumDevices2** , car la version antérieure retournait uniquement les interfaces héritées sur les appareils, tandis que la nouvelle version retourne à la fois les interfaces héritées et nouvelles.
+après l’authentification d’une application, vous pouvez commencer à énumérer les appareils détectés par Windows Gestionnaire de périphériques de média. L’énumération est effectuée à l’aide d’une interface d’énumération, [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice), obtenue à l’aide de [**IWMDeviceManager2 :: EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2) ou [**IWMDeviceManager :: EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices). En cas de prise en charge, utilisez la méthode **EnumDevices2** , car la version antérieure retournait uniquement les interfaces héritées sur les appareils, tandis que la nouvelle version retourne à la fois les interfaces héritées et nouvelles.
 
 Avant d’obtenir un énumérateur, vous devez décider de la vue d’énumération à utiliser. Certains appareils exposent chaque stockage sous la forme d’un autre appareil. Par exemple, deux cartes mémoire flash sur un appareil sont énumérées comme s’il s’agissait de périphériques distincts. Vous pouvez spécifier que tous les stockages sur un appareil sont énumérés comme un seul appareil. Vous ne pouvez définir cette préférence qu’une seule fois dans votre application ; Si vous souhaitez le modifier, vous devez arrêter l’application et la redémarrer. Toutefois, Notez que les appareils hérités ignorent parfois une demande d’énumération de stockages d’appareils distincts comme un seul appareil et continuent de les énumérer séparément.
 
@@ -184,7 +184,7 @@ HRESULT CWMDMController::EnumDevices()
 
 <dl> <dt>
 
-[**Création d’une application Windows Media Gestionnaire de périphériques**](creating-a-windows-media-device-manager-application.md)
+[**création d’une Application de Gestionnaire de périphériques multimédia Windows**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
  

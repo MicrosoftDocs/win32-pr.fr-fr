@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI, exemple de code C/C++, utilisant IDirectoryObject pour modifier des attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8715826d0fc835f3d9ecae914fcc51603883af5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30fa7d75d3e0dce489f676dafb36992c95a1cba2e9856bbbaf49f14806a6c1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179027"
 ---
 # <a name="modifying-attributes-with-the-idirectoryobject-interface"></a>Modification des attributs avec l’interface IDirectoryObject
 
@@ -32,7 +32,7 @@ La spécification de la [**\_ \_ mise à jour d’attr ADS**](adsi-attribute-mod
 > [!Note]  
 > À l’instar de [**IADs ::P ut**](/windows/desktop/api/Iads/nf-iads-iads-put) et [**IADs ::P Utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) avec [**IADs :: setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo), les modifications d’attribut sont entièrement validées ou ignorées dans Active Directory. Si une ou plusieurs modifications ne sont pas autorisées et ne peuvent donc pas être effectuées, aucune des modifications collectives apportées aux attributs n’est validée dans l’annuaire.
 
- 
+ 
 
 ## <a name="example"></a>Exemple
 
@@ -92,9 +92,9 @@ if(SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

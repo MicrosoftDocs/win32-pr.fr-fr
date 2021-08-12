@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3590dcc9d646d0596d611553b8fbcd374bab7bbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a70caacceb344f682acc24b0a391e2065c6ee17e712c22cc45304bad486d8e04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118271740"
 ---
 # <a name="apiretrievecolumnasint16-method-jet_sesid-jet_tableid-jet_columnid"></a>Méthode API. RetrieveColumnAsInt16 (JET_SESID, JET_TABLEID, JET_COLUMNID)
 
@@ -82,7 +82,7 @@ public static Nullable<short> RetrieveColumnAsInt16(
     
     ColumnID à récupérer.
 
-#### <a name="return-value"></a>Valeur retournée
+#### <a name="return-value"></a>Valeur renvoyée
 
 Type : [System. Nullable](/dotnet/api/system.nullable-1)\<[Int16](/dotnet/api/system.int16)\>  
 Données extraites de la colonne en tant que Short. NULL si la colonne est null.  

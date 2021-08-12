@@ -3,7 +3,7 @@ title: Event. ctrlKey
 description: L’attribut ctrlKey récupère une valeur indiquant si la touche CTRL était enfoncée lorsque l’événement s’est produit.
 ms.assetid: a96e1575-1610-4e4b-9292-d853c1a1d5bd
 keywords:
-- Lecteur Windows Media Event. ctrlKey
+- event. ctrlKey Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2365337bb1d046f72bd965f3812dd126c041db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d55221a1448b23e2ea308e0e16cd174fe4cd0d404164a01a7ff59011010075a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577243"
 ---
 # <a name="eventctrlkey"></a>Event. ctrlKey
 

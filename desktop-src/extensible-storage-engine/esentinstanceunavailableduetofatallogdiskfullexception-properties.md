@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101827
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 643bcdf23450409ec7d27d438a9e86300b24baa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba5571162ab0bbee6166bb905ab3c8312d229f60855c45fee62a9da7d9062e5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118267468"
 ---
 # <a name="esentinstanceunavailableduetofatallogdiskfullexception-properties"></a>Propriétés EsentInstanceUnavailableDueToFatalLogDiskFullException
 
@@ -49,7 +49,7 @@ Le type [EsentInstanceUnavailableDueToFatalLogDiskFullException](./esentinstance
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

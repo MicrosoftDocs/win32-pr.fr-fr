@@ -3,7 +3,7 @@ title: Event. largeur
 description: L’attribut largeur récupère la largeur de la taille d’écran disponible en pixels.
 ms.assetid: 613defdd-3644-4bf1-a0aa-93431d3bb35a
 keywords:
-- Lecteur Windows Media Event. largeur
+- event. largeur Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7d50c6c9d99b04b2562d27b7de1e82c507f2a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 885909243c35a26f05368245240b18a2a091100715a57081386414a427d51544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577022"
 ---
 # <a name="eventscreenwidth"></a>Event. largeur
 

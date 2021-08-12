@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c45073d0b84ef6fb33d378c4c18f862f55c6b84a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 235b1146cd589d09d4718f938f15e7250fdb57993295d48eaa94290abe1cd52f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118298517"
 ---
 # <a name="d3dxpreprocessshaderfromresource-function"></a>D3DXPreprocessShaderFromResource fonction)
 
@@ -104,7 +104,7 @@ Retourne une mémoire tampon qui contient une liste d’erreurs et d’avertisse
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

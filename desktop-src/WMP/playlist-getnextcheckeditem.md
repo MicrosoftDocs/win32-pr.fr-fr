@@ -3,7 +3,7 @@ title: PLAYLIST. getNextCheckedItem
 description: La méthode getNextCheckedItem récupère l’index de l’élément activé suivant dans la playlist à la suite de l’index spécifié.
 ms.assetid: 474a497d-5efe-4c95-8eb5-2ba71bd29057
 keywords:
-- Lecteur Windows Media PLAYLIST. getNextCheckedItem
+- PLAYLIST. getNextCheckedItem Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1b4a85fdccc5de227ab8aea3d0ee4f93d46eed50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54b6e598737d1aac09754b15c037c27a435deb5fff34c729aa48c51019e12982
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571449"
 ---
 # <a name="playlistgetnextcheckeditem"></a>PLAYLIST. getNextCheckedItem
 

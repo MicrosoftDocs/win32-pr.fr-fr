@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPCdromBurn (VB et C) (WMP. h)
+title: interface IWMPCdromBurn (VB et C) (Wmp. h)
 description: Fournit des propriétés et des méthodes pour gérer la création de CD audio.
 ms.assetid: d98b243d-d6c2-4d85-8d5a-de49c62d0acf
 keywords:
-- IWMPCdromBurn (VB et C) interface Windows Media Player
-- Interface IWMPCdromBurn (VB et C), le lecteur Windows Media, décrit
+- interface IWMPCdromBurn (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPCdromBurn (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,27 +15,27 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2fe21a20194f57e4a8b52a3ba05032a07cb31f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7731d5491e683c2a5d2e577c41dc96264c90f0d070538405d0fa3c3ea7283a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575957"
 ---
-# <a name="iwmpcdromburn-vb-and-c-interface"></a>Interface IWMPCdromBurn (VB et C#)
+# <a name="iwmpcdromburn-vb-and-c-interface"></a>interface IWMPCdromBurn (VB et C#)
 
 Fournit des propriétés et des méthodes pour gérer la création de CD audio.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPCdromBurn (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPCdromBurn (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPCdromBurn (VB et C#)** possède ces méthodes.
+l’interface **IWMPCdromBurn (VB et C#)** possède ces méthodes.
 
 
 
@@ -54,7 +54,7 @@ L’interface **IWMPCdromBurn (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPCdromBurn (VB et C#)** a ces propriétés.
+l’interface **IWMPCdromBurn (VB et C#)** a ces propriétés.
 
 
 
@@ -86,7 +86,7 @@ Procurez-vous une interface **IWMPCdromBurn** en effectuant un cast de l’inter
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

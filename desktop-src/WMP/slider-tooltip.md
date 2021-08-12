@@ -3,7 +3,7 @@ title: Slider. toolTip
 description: L’attribut toolTip spécifie ou récupère le texte d’info-bulle pour le contrôle Slider.
 ms.assetid: 797a88bf-06a4-44f0-b671-478149009db1
 keywords:
-- Slider. info-bulle du lecteur Windows Media
+- slider. toolTip Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fed6fc096461107884b665124a9aaaab017eb7f2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1ecb4e836599f0d1c11ea77c1dcbef4cb1b5333286466b46021a028a828e33cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532638"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568801"
 ---
 # <a name="slidertooltip"></a>Slider. toolTip
 

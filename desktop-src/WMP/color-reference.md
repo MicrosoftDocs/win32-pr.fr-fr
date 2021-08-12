@@ -1,22 +1,22 @@
 ---
-title: Référence de couleur (kit de développement logiciel Windows Media Player)
+title: référence des couleurs (kit de développement logiciel Lecteur Windows Media)
 description: Référence de couleur
 ms.assetid: 01d05d18-7b24-4237-973b-b7b84315252d
 keywords:
-- Apparences du lecteur Windows Media, référence des couleurs
+- apparences de Lecteur Windows Media, référence de couleur
 - apparences, référence de couleur
 - informations de référence sur les apparences, les couleurs
 - Référence des couleurs pour les habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 8dcea6a7f9edbfab7a0c84a5c8d6704ad8a032873c19e237a8eda95d595e3c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580636"
 ---
-# <a name="color-reference-windows-media-player-sdk"></a>Référence de couleur (kit de développement logiciel Windows Media Player)
+# <a name="color-reference-windows-media-player-sdk"></a>référence des couleurs (kit de développement logiciel Lecteur Windows Media)
 
 Les couleurs suivantes sont prises en charge pour une utilisation avec des apparences. Chaque attribut qui prend une valeur de couleur peut être spécifié à l’aide de l’un des noms de couleurs ou de valeurs hexadécimales suivants. Tout nombre hexadécimal à six chiffres peut être utilisé, mais seuls ceux sur ce graphique ont des noms valides.
 

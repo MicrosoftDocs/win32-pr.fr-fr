@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 397c3803f6d4e445f74a8b24a61e86e72e471648
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 67ee276b90629a18f93bd9a26879e8a7ad62d71ae46baf2d2c0a6bfba82a53a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118292571"
 ---
 # <a name="id3dxspritesetworldviewlh-method"></a>ID3DXSprite :: SetWorldViewLH, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers un [**D3DXMATRIX**](d3dxmatrix.md) qui contient une transformation
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

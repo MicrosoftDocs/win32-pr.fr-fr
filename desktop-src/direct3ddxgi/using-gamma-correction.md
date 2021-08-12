@@ -4,12 +4,12 @@ ms.assetid: 97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A
 title: Utilisation de la correction gamma
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c940db1a94fb41e9babecbeb3075aa9e01b3732
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5c5f5d3af8550f86280e6203858444469a5aa8caaab462f560da152caaa2a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104552579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118288962"
 ---
 # <a name="using-gamma-correction"></a>Utilisation de la correction gamma
 
@@ -45,15 +45,15 @@ Le reste de cette rubrique se concentre uniquement sur la correction gamma dans 
 
 ## <a name="background-of-gamma-on-windows"></a>Arrière-plan de gamma sur Windows
 
-Les ordinateurs Windows ont généralement une table gamma qui est une table de recherche qui accepte un triple d’octets et génère un triple d’octets. Ces triplets sont 768 (256 x 3) octets de RAM. C’est parfait lorsque votre format d’affichage contient un triple de valeurs d’octets RVB, mais n’est pas suffisamment expressif pour décrire les transformations que vous pouvez souhaiter lorsque le format d’affichage a une plage supérieure à \[ 0, \] par exemple les valeurs à virgule flottante. Les API de Windows qui contrôlent la gamma ont suivi une évolution dans la mesure où les formats d’affichage sont devenus plus complexes.
+Windows ordinateurs possèdent généralement une table gamma qui est une table de recherche qui accepte un triple d’octets et génère un triple d’octets. Ces triplets sont 768 (256 x 3) octets de RAM. C’est parfait lorsque votre format d’affichage contient un triple de valeurs d’octets RVB, mais n’est pas suffisamment expressif pour décrire les transformations que vous pouvez souhaiter lorsque le format d’affichage a une plage supérieure à \[ 0, \] par exemple les valeurs à virgule flottante. les api de Windows qui contrôlent le gamma ont suivi une évolution dans la mesure où les formats d’affichage sont devenus plus complexes.
 
-Les premières API Windows pour offrir le contrôle gamma sont [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp) et [**GetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-getdevicegammaramp)de Windows Graphics Device Interface (GDI). Ces API fonctionnent avec des tableaux de mots de 3 256 entrées, chaque mot encodant zéro, représenté par les valeurs de mot 0 et 65535. La précision supplémentaire d’un mot n’est généralement pas disponible dans les tables de recherche de matériel réelles, mais ces API ont été conçues pour être flexibles. Ces API, contrairement aux autres décrites plus loin dans cette section, n’autorisent qu’un petit écart par rapport à une fonction d’identité. En fait, toute entrée de la rampe doit être comprise entre 32768 et la valeur d’identité. Cette restriction signifie qu’aucune application ne peut activer l’affichage entièrement noir ou une autre couleur illisible.
+la première Windows api pour offrir le contrôle gamma est Windows le [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp) et le [**GetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-getdevicegammaramp)Graphics Device Interface (GDI). Ces API fonctionnent avec des tableaux de mots de 3 256 entrées, chaque mot encodant zéro, représenté par les valeurs de mot 0 et 65535. La précision supplémentaire d’un mot n’est généralement pas disponible dans les tables de recherche de matériel réelles, mais ces API ont été conçues pour être flexibles. Ces API, contrairement aux autres décrites plus loin dans cette section, n’autorisent qu’un petit écart par rapport à une fonction d’identité. En fait, toute entrée de la rampe doit être comprise entre 32768 et la valeur d’identité. Cette restriction signifie qu’aucune application ne peut activer l’affichage entièrement noir ou une autre couleur illisible.
 
 L’API suivante est [**SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp)de Microsoft Direct3D 9, qui suit les mêmes modèle et format de données que [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp). La valeur par défaut de la rampe gamma Direct3D 9 n’est pas particulièrement utile. Il s’agit d’une rampe de mots initialisée à 0-255, et non à 0-65535, même si l’API est définie en termes de 0-65535.
 
 La dernière API est [**IDXGIOutput :: SetGammaControl**](/windows/desktop/api/DXGI/nf-dxgi-idxgioutput-setgammacontrol). Cette API a un schéma plus flexible pour exprimer le contrôle gamma, tout comme l’ensemble de formats d’affichage DXGI, y compris dix bits par canal, les formats float de 16 bits et le format de \_ plage étendue XR Bias.
 
-Toutes ces API fonctionnent sur le même matériel et modifient les mêmes valeurs. Les API Direct3D 9 et DXGI sont en « écriture seule ». Vous ne pouvez pas lire la valeur du matériel, la modifier, puis la définir. Vous pouvez uniquement définir la rampe. En outre, vous pouvez uniquement définir la valeur gamma lorsque l’application est en mode plein écran. Cette restriction est un autre moyen de garantir que le bureau est toujours lisible. Autrement dit, l’application peut perturber son propre affichage, mais Windows restaurera la rampe gamma précédente lorsque l’application perdra en mode plein écran (par exemple, via ALT-TAB ou Ctrl-Alt-Del).
+Toutes ces API fonctionnent sur le même matériel et modifient les mêmes valeurs. Les API Direct3D 9 et DXGI sont en « écriture seule ». Vous ne pouvez pas lire la valeur du matériel, la modifier, puis la définir. Vous pouvez uniquement définir la rampe. En outre, vous pouvez uniquement définir la valeur gamma lorsque l’application est en mode plein écran. Cette restriction est un autre moyen de garantir que le bureau est toujours lisible. autrement dit, l’application peut perturber son propre affichage, mais Windows restaurera la rampe gamma précédente lorsque l’application perdra en mode plein écran (par exemple, via alt-tab ou ctrl-alt-del).
 
 ## <a name="evolution-of-display-hardware"></a>Évolution de l’affichage du matériel
 
@@ -92,7 +92,7 @@ Notez dans le graphique précédent que vous contrôlez maintenant le positionne
 
 ## <a name="gamma-control-practicalities"></a>Pratiques de contrôle gamma
 
-Les contrôles gamma de DXGI s’appliquent uniquement tant que l’application est en mode plein écran. Windows restaure l’état précédent de l’affichage lorsque l’application s’arrête ou retourne en mode fenêtre. Mais Windows ne restaure pas l’État gamma de votre application si l’application entre en mode plein écran. Votre application doit restaurer explicitement son état gamma lorsqu’elle revient en mode plein écran.
+Les contrôles gamma de DXGI s’appliquent uniquement tant que l’application est en mode plein écran. Windows restaure l’état précédent de l’affichage lorsque l’application s’arrête ou retourne en mode fenêtre. mais Windows ne restaure pas l’état gamma de votre application si l’application entre en mode plein écran. Votre application doit restaurer explicitement son état gamma lorsqu’elle revient en mode plein écran.
 
 Tous les adaptateurs ne prennent pas en charge le contrôle gamma. Si un adaptateur ne prend pas en charge le contrôle gamma, il ignore les appels pour définir une rampe gamma.
 

@@ -7,17 +7,17 @@ keywords:
 - Transformations 2D DirectComposition
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b52d2e0ce9fbb56547c42ea4ea18d57d173a7e40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6ef965ce98bb064eb63b34de569160c9b68932c96ce757e3e5d13450f73098b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281953"
 ---
 # <a name="how-to-apply-2d-transforms"></a>Comment appliquer des transformations 2D
 
 > [!NOTE]
-> Pour les applications sur Windows 10, nous vous recommandons d’utiliser des API Windows. UI. composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
+> pour les applications sur Windows 10, nous vous recommandons d’utiliser des api Windows. UI. Composition au lieu de DirectComposition. Pour plus d’informations, consultez [moderniser votre application de bureau à l’aide de la couche visuelle](/windows/uwp/composition/visual-layer-in-desktop-apps).
 
 Cette rubrique montre comment appliquer des transformations 2D à un visuel à l’aide de Microsoft DirectComposition. L’exemple de cette rubrique applique un groupe de transformations qui :
 
@@ -29,7 +29,7 @@ Les captures d’écran suivantes montrent le visuel avant et après l’applica
 
 ![résultat de l’application d’un groupe de transformations 2D à un visuel](images/apply2dtransform.png)
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
@@ -327,6 +327,6 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
 [Transformations](transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

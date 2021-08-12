@@ -4,12 +4,12 @@ ms.assetid: 2ba9484a-c646-4a35-8b32-268fe7a9520f
 title: Recherche d’un composant pour l’activation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80bd90068c34469d61af36e6de8c409cb02e078c
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 51badf0b33f7c133cdea1fa95c859c2f36e282bc748c75c560d57abeead802c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104551801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306216"
 ---
 # <a name="locating-a-component-for-activation"></a>Recherche d’un composant pour l’activation
 

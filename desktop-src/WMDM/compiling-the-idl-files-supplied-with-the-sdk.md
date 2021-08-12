@@ -3,7 +3,7 @@ title: Compilation des fichiers IDL fournis avec le kit de développement logici
 description: Compilation des fichiers IDL fournis avec le kit de développement logiciel (SDK)
 ms.assetid: 718528eb-6ac4-466d-8dfd-d6f2b6c30303
 keywords:
-- Windows Media Gestionnaire de périphériques, fichiers IDL
+- Windows Gestionnaire de périphériques de média, fichiers IDL
 - Gestionnaire de périphériques, fichiers IDL
 - applications de bureau, fichiers IDL
 - fournisseurs de services, fichiers IDL
@@ -11,16 +11,16 @@ keywords:
 - fichiers IDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19e3d4ecd7f4f9df7b884cf70de3ba3ad62c7939
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: d89ae614d6e20d0b05d9b7b6f054505433f4a4d33e2f9feaff60a37f7605e9ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586338"
 ---
 # <a name="compiling-the-idl-files-supplied-with-the-sdk"></a>Compilation des fichiers IDL fournis avec le kit de développement logiciel (SDK)
 
-Le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques comprend les fichiers d’en-tête et les fichiers IDL source pour la plupart de ces fichiers d’en-tête. Les fichiers d’en-tête se trouvent dans le \\ \\ dossier Inc dans le chemin d’installation du kit de développement logiciel. Les fichiers IDL se trouvent dans le \\ \\ dossier IDL.
+le kit de développement logiciel (SDK) Windows Media Gestionnaire de périphériques comprend des fichiers d’en-tête et des fichiers IDL source pour la plupart de ces fichiers d’en-tête. Les fichiers d’en-tête se trouvent dans le \\ \\ dossier Inc dans le chemin d’installation du kit de développement logiciel. Les fichiers IDL se trouvent dans le \\ \\ dossier IDL.
 
 Les en-têtes précompilés sont bien plus simples à utiliser, et plusieurs fichiers IDL sont combinés en un seul en-tête fourni. Toutefois, si vous décidez de traiter vos propres fichiers d’en-tête à partir des fichiers IDL fournis, cette rubrique décrit les fichiers IDL qui créent les fichiers d’en-tête et décrit également les dépendances de chaque fichier IDL.
 
@@ -44,7 +44,7 @@ Plusieurs des fichiers IDL fournis ont des dépendances de Build. Si vous envisa
 
 
 
-|   MIDL                      |   Dépendances                                                                   |
+|   MIDL                      |   Les dépendances                                                                   |
 |----------------------------|----------------------------------------------------------------------------------|
 | icomponentauthenticate. idl | Importez « oaidl. idl »;<br/> \#inclure « icomponentauthenticate. idl »<br/> |
 | WMDM. idl                   | Aucune dépendance externe                                                         |

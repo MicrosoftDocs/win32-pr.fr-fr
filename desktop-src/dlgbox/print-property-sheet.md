@@ -3,8 +3,8 @@ title: Imprimer la feuille de propriétés
 description: La feuille de propriétés d’impression est une interface utilisateur standard qui permet à l’utilisateur de spécifier les propriétés d’un travail d’impression particulier.
 ms.assetid: b52b71cc-a583-4a21-8a53-501ab442e6f8
 keywords:
-- Interface utilisateur Windows, entrée utilisateur
-- Interface utilisateur Windows, bibliothèque de boîtes de dialogue communes
+- Windows Interface utilisateur, entrée utilisateur
+- Windows Interface utilisateur, bibliothèque de boîtes de dialogue communes
 - entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - capture de l’entrée utilisateur, bibliothèque de boîtes de dialogue communes
 - Bibliothèque de boîtes de dialogue communes
@@ -15,16 +15,16 @@ keywords:
 - boîtes de dialogue, feuille de propriétés d’impression
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20905f76af290b3978bec828a382604147297998
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc54bc8065ada207702755e8fc0a1586620f660db9f3acf2a67e32b56e393143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280506"
 ---
 # <a name="print-property-sheet"></a>Imprimer la feuille de propriétés
 
-La feuille de propriétés d' **impression** est une interface utilisateur standard qui permet à l’utilisateur de spécifier les propriétés d’un travail d’impression particulier. La feuille de propriétés est composée d’un ensemble de pages de propriétés qui varie selon l’imprimante ou l’application. Pour un sous-ensemble de pages de propriétés Windows standard, certaines imprimantes peuvent ajouter des pages de propriétés spécifiques au pilote et certaines applications peuvent ajouter des pages de propriétés spécifiques à l’application.
+La feuille de propriétés d' **impression** est une interface utilisateur standard qui permet à l’utilisateur de spécifier les propriétés d’un travail d’impression particulier. La feuille de propriétés est composée d’un ensemble de pages de propriétés qui varie selon l’imprimante ou l’application. pour un sous-ensemble de pages de propriétés de Windows standard, certaines imprimantes peuvent ajouter des pages de propriétés spécifiques au pilote et certaines applications peuvent ajouter des pages de propriétés spécifiques à l’application.
 
 Pour créer et afficher une feuille de propriétés d' **impression** , initialisez une structure [**PRINTDLGEX**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa) et transmettez la structure à la fonction [**PRINTDLGEX**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) .
 
@@ -90,6 +90,6 @@ L’objet de rappel doit implémenter l’interface [**IPrintDialogCallback**](/
 
 L’objet de rappel doit également implémenter l’interface [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) . La fonction [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) appelle la méthode pour passer un pointeur vers une interface [**IPrintDialogServices**](/windows/win32/api/commdlg/nn-commdlg-iprintdialogservices) à une application. Les méthodes [**IPrintDialogCallback**](/windows/win32/api/commdlg/nn-commdlg-iprintdialogcallback) peuvent utiliser l’interface **IPrintDialogServices** pour récupérer des informations sur l’imprimante actuellement sélectionnée. L’interface **IPrintDialogServices** est également utile pour les applications qui créent des pages supplémentaires pour suivre la page **général** de la feuille de propriétés **Imprimer** . Les procédures de la boîte de dialogue pour les pages supplémentaires peuvent appeler des méthodes **IPrintDialogServices** .
 
- 
+ 
 
- 
+ 

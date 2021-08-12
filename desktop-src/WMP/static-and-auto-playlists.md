@@ -4,28 +4,28 @@ description: Sélections statiques et automatiques
 ms.assetid: 708c236e-8f3c-4188-aefb-eda7da598944
 keywords:
 - Lecteur Windows Media, sélections
-- Modèle objet du lecteur Windows Media, sélections
+- Lecteur Windows Media modèle objet, playlists
 - modèle objet, sélections
-- Windows Media Player Mobile, sélections
-- Contrôle ActiveX du lecteur Windows Media, sélections
-- Contrôle ActiveX mobile du lecteur Windows Media, sélections
-- Contrôle ActiveX, sélections
+- Lecteur Windows Media Mobile, sélections
+- contrôle de ActiveX Lecteur Windows Media, sélections
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections
+- contrôle de ActiveX, sélections
 - sélections, statiques
 - sélections de métafichiers, statiques
-- Sélections de métafichiers Windows Media, statiques
+- Windows Sélections de métafichiers multimédias, statiques
 - sélections statiques
 - sélections automatiques
 - sélections, auto
 - sélections de métafichiers, auto
-- Sélections de métafichiers Windows Media, auto
+- Windows Sélections de métafichiers multimédias, auto
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 083ee2029eec2cfee7510766790f4ca7eb6468e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 645b3bd9ca9ddeebcce9fd6cbb905caa54717e87876be6e449ebd4d3ab64a11a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568781"
 ---
 # <a name="static-and-auto-playlists"></a>Sélections statiques et automatiques
 
@@ -68,9 +68,9 @@ private void addStaticPlaylist()
 [**Gestion des sélections**](managing-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

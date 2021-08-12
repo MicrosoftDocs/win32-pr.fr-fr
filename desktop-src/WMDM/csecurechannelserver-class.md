@@ -3,24 +3,24 @@ title: CSecureChannelServer, classe
 description: CSecureChannelServer, classe
 ms.assetid: e6e1463a-5a26-4b83-85e0-a639d384a199
 keywords:
-- Gestionnaire de périphériques Windows Media, classe CSecureChannelServer
+- Windows Gestionnaire de périphériques de média, classe CSecureChannelServer
 - Gestionnaire de périphériques, classe CSecureChannelServer
 - fournisseurs de services, classe CSecureChannelServer
 - Référence de programmation, classe CSecureChannelServer
-- référence pour Windows Media Gestionnaire de périphériques, classe CSecureChannelServer
+- référence pour Windows Gestionnaire de périphériques de média, classe CSecureChannelServer
 - CSecureChannelServer, classe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99efdd4d4fa245000d27b5874439375d968591e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 87627fcdee6da42927ab88411dd579225dc38f025ae73bf9f4fe787c0c5e44bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585483"
 ---
 # <a name="csecurechannelserver-class"></a>CSecureChannelServer, classe
 
-La classe **CSecureChannelServer** est une classe d’assistance (pas une interface) qui permet à un fournisseur de services ou à un fournisseur de contenu sécurisé d’authentifier une application à l’aide de l’interface [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) , de chiffrer et de déchiffrer des données et de créer des signatures Mac. Le processus d’authentification nécessite que l’application crée un objet **CSecureChannelClient** et que le fournisseur de services crée un objet **CSecureChannelServer** . Les classes **CSecureChannelClient** et **CSecureChannelServer** sont déclarées dans la bibliothèque de liens statiques, Mssachlp. lib. Toutes les méthodes des interfaces du fournisseur de Gestionnaire de périphériques, du fournisseur de services et du fournisseur de contenu sécurisé de Windows Media peuvent retourner WMDM \_ E \_ NOTCERTIFIED pour indiquer que l’appelant ne s’est pas correctement authentifié.
+La classe **CSecureChannelServer** est une classe d’assistance (pas une interface) qui permet à un fournisseur de services ou à un fournisseur de contenu sécurisé d’authentifier une application à l’aide de l’interface [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) , de chiffrer et de déchiffrer des données et de créer des signatures Mac. Le processus d’authentification nécessite que l’application crée un objet **CSecureChannelClient** et que le fournisseur de services crée un objet **CSecureChannelServer** . Les classes **CSecureChannelClient** et **CSecureChannelServer** sont déclarées dans la bibliothèque de liens statiques, Mssachlp. lib. toutes les méthodes de Windows Gestionnaire de périphériques de média, le fournisseur de services et les interfaces de fournisseur de contenu sécurisées peuvent retourner WMDM \_ E \_ NOTCERTIFIED pour indiquer que l’appelant ne s’est pas correctement authentifié.
 
 La classe **CSecureChannelServer** expose les méthodes suivantes.
 
@@ -43,7 +43,7 @@ La classe **CSecureChannelServer** expose les méthodes suivantes.
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -61,6 +61,6 @@ La classe **CSecureChannelServer** expose les méthodes suivantes.
 [**Utilisation de canaux authentifiés sécurisés**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

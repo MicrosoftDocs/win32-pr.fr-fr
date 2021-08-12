@@ -3,7 +3,7 @@ title: Message WM_CUT (winuser. h)
 description: Une application envoie un \_ message de coupe WM à un contrôle d’édition ou une zone de liste déroulante pour supprimer (couper) la sélection actuelle, le cas échéant, dans le contrôle d’édition et copier le texte supprimé dans le presse-papiers au \_ format de texte cf.
 ms.assetid: 6ac45589-3e34-491c-9562-e072ddc478f9
 keywords:
-- WM_CUT l’échange de données de message
+- WM_CUT des données de message Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a63dfe85fb637636fbabbce5fa139699fd09a65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d117e0a942c0d9e24e1a9c40d3d66e605ab8d5cf26bbad0e287e9b03a9b25780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304492"
 ---
 # <a name="wm_cut-message"></a>\_Message de coupure WM
 
@@ -50,7 +50,7 @@ Ce paramètre n’est pas utilisé et doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message ne retourne pas de valeur.
 

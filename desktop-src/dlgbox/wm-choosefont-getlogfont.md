@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 696246d26c2b87e9b299844a9dc7e78d39ac632f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fb429c3cd66af28485edf2979d2efbe50b3205a2142e963c8c3bb51ef5713f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106510987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280431"
 ---
 # <a name="wm_choosefont_getlogfont-message"></a>\_ \_ Message GETLOGFONT WM CHOOSEFONT
 
@@ -51,7 +51,7 @@ Pointeur vers une structure [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-lo
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Ce message ne retourne pas de valeur.
 

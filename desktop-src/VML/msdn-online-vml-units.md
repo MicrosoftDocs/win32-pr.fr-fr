@@ -4,19 +4,19 @@ description: Cet article décrit les unités VML. VML est une fonctionnalité d�
 ms.assetid: f95e65ad-d92a-460f-baeb-30fd8a35f84e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 184d577052412bde4a97148b51cab12a87b3672e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c5c510bacd2081fb5a051637b6b577fc9415662737d384d10d7c3dd73348c694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118597380"
 ---
 # <a name="vml-units"></a>Unités VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
  
 
@@ -44,7 +44,7 @@ Cent.
 
 Unités de longueur absolue
 
-in
+commencer
 
 Pouces (1 pouce = 2,54 centimètres).
 
@@ -52,7 +52,7 @@ cm
 
 Centimètres.
 
-mm
+MM
 
 Millimètres.
 

@@ -3,7 +3,7 @@ title: NEXTBUTTON
 description: Il s’agit d’un bouton prédéfini avec les valeurs par défaut suivantes. | NEXTBUTTON
 ms.assetid: 0750966c-cc4c-4792-b350-1502788cd66b
 keywords:
-- Lecteur Windows Media NEXTBUTTON
+- NEXTBUTTON Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 92bbfef52dd5cd0d46a61b017fd90f82133a3b91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 104763690584576c04aa7be53fd6013e6dfae8a02e5830cf4703d9cbd694e725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573813"
 ---
 # <a name="nextbutton"></a>NEXTBUTTON
 
