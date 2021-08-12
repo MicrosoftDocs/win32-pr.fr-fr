@@ -21,12 +21,12 @@ keywords:
 - cartes à deux dimensions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 127ab4fcc30884750b487b6bf997b951fdc4d9e1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aca5385dbe2009089398c301981bcadad05e1d4964ac6902d2b9ea86ad7c68f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616333"
 ---
 # <a name="glevalcoord-functions"></a>glEvalCoord, fonctions
 
@@ -41,9 +41,9 @@ Ces fonctions évaluent les mappages unidimensionnels ou à deux dimensions acti
 -   [**glEvalCoord1fv**](glevalcoord1fv.md)
 -   [**glEvalCoord2fv**](glevalcoord2fv.md)
 
- 
+ 
 
- 
+ 
 
 
 
