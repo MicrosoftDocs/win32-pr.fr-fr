@@ -4,21 +4,21 @@ description: Élément TextBox VML
 ms.assetid: 3573256e-f241-4de7-8541-252c92109af7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a46ce8b6636b79099b7f7423fd8f746602a00f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 84b6ef160e975f00dd859e0f6db6f2821054a34815b3aef1ea19f520ad3d01a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118597508"
 ---
 # <a name="vml-textbox-element"></a>Élément TextBox VML
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit une zone de texte pour une forme.
 
@@ -36,7 +36,7 @@ Les attributs suivants modifient une zone de texte.
 | [MSO-direction-Alt](msdn-online-vml-mso-direction-alt-attribute.md)         | Définit d’autres directions pour le texte dans les zones de texte.        |
 | [MSO-adapter-Shape-to-Text](msdn-online-vml-mso-fit-shape-to-text-attribute.md) | Détermine si une forme sera étirée pour s’ajuster au texte.       |
 | [MSO-ajuster le texte à la forme](msdn-online-vml-mso-fit-text-to-shape-attribute.md) | Détermine si le texte est étiré pour s’ajuster à une forme.       |
-| [MSO-disposition-Flow-Alt](msdn-online-vml-mso-layout-flow-alt-attribute.md)     | Définit l’autre Flow de disposition pour le texte d’une zone de texte.   |
+| [MSO-Layout-Flow-Alt](msdn-online-vml-mso-layout-flow-alt-attribute.md)     | Définit l’autre Flow de disposition pour le texte d’une zone de texte.   |
 | [MSO-Next-TextBox](msdn-online-vml-mso-next-textbox-attribute.md)           | Spécifie la zone de texte suivante dans une série.                    |
 | [MSO-Rotate](msdn-online-vml-mso-rotate-attribute.md)                       | Détermine si le texte pivote avec une forme pivotée.      |
 | [MSO-échelle texte](msdn-online-vml-mso-text-scale-attribute.md)               | Définit le facteur d’échelle pour l’ajustement du texte à des formes.     |
@@ -45,7 +45,7 @@ Les attributs suivants modifient une zone de texte.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -69,6 +69,6 @@ Notez que le texte affiché dans la zone de texte est placé entre les balises d
 
 -   [Exemple de zone de texte simple](/previous-versions/bb264075(v=vs.85))
 
- 
+ 
 
- 
+ 

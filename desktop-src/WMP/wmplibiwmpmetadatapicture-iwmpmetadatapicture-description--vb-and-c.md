@@ -3,9 +3,9 @@ title: Propriété Description de IWMPMetadataPicture
 description: La propriété Description obtient la description de l’image représentée par l’attribut de métadonnées.
 ms.assetid: a8e0cc2b-48a5-4ade-9517-dea8dbea058b
 keywords:
-- Propriété Description lecteur Windows Media
-- Propriété Description lecteur Windows Media, interface IWMPMetadataPicture
-- Interface IWMPMetadataPicture lecteur Windows Media, propriété Description
+- propriété Description Lecteur Windows Media
+- Description, propriété Lecteur Windows Media, IWMPMetadataPicture, interface
+- Lecteur Windows Media de l’interface IWMPMetadataPicture, propriété Description
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b27b44a0646cea16970735df8f7d23f655fc4b00
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 629b66c18abcb3c75921ab252d88047a70d3dc1e3c2667ac2b1707fdbe6a58ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568724"
 ---
 # <a name="iwmpmetadatapicturedescription-property"></a>IWMPMetadataPicture ::D propriété escription
 

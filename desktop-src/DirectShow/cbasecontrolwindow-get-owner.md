@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c8f8e3d4a331dbc66397a7b0058fcefcede2cdbb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a64325fddebc410c5a75a5c2fb8811241012feb6a046b9059897f9b13e0206f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660512"
 ---
 # <a name="cbasecontrolwindowget_owner-method"></a>CBaseControlWindow. obten, \_ méthode de propriétaire
 
@@ -53,7 +53,7 @@ Pointeur vers le propriétaire de la fenêtre.
 
 Retourne une valeur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre vidéo peut être lue dans un environnement de documents. Pour ce faire, la fenêtre doit être un enfant d’une autre fenêtre (afin qu’elle soit découpée et déplacée de manière appropriée). Cette propriété permet de définir et de récupérer le propriétaire de la fenêtre. Quand la fenêtre appartient à une autre fenêtre, elle appelle simplement la fonction Microsoft Win32 **SetParent,** . Une application qui appelle cette fonction modifie les styles de fenêtre pour définir le \_ bit WS Child sur.
 
@@ -67,7 +67,7 @@ Cette fonction membre est destinée à être appelée par des objets externes pa
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

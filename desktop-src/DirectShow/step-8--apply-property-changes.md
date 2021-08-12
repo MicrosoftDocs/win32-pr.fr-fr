@@ -4,12 +4,12 @@ ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
 title: 'Étape 8 : Appliquer les modifications de propriété'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46425613b8f23981a7b288121dc1a4ab0945452e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2292d9f294711129b2edba50ef6fb623d767dfba4122295222d08eb1ad21dfb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652055"
 ---
 # <a name="step-8-apply-property-changes"></a>Étape 8 : Appliquer les modifications de propriété
 

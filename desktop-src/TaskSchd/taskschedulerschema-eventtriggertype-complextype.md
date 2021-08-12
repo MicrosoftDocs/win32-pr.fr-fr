@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 16c3d4257d89ebb8d0efb6dadcd3ac466b929c9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0acd4bafa6033e461b69180862a8302e76f363b581d7f06b0812824f2031780b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106538612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612052"
 ---
 # <a name="eventtriggertype-complex-type"></a>Type complexe eventTriggerType
 
@@ -55,13 +55,13 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 | Élément                                                                           | Type                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Retard**](taskschedulerschema-delay-eventtriggertype-element.md)               | duration                                                                | Spécifie la durée entre le moment où l’événement se produit et le moment où la tâche est démarrée.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [**Retarder**](taskschedulerschema-delay-eventtriggertype-element.md)               | duration                                                                | Spécifie la durée entre le moment où l’événement se produit et le moment où la tâche est démarrée.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**Abonnement**](taskschedulerschema-subscription-eventtriggertype-element.md) | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | Spécifie la requête XPath qui identifie l’événement qui déclenche le déclencheur.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | [**ValueQueries**](taskschedulerschema-valuequeries-eventtriggertype-element.md) | [**namedValues**](taskschedulerschema-namedvalues-complextype.md)      | Spécifie une séquence d’éléments qui contiennent chacun un nom et une valeur de requête XPath. Les requêtes sont appliquées à un événement renvoyé par l’abonnement à un événement spécifié dans l’élément [**subscription**](taskschedulerschema-subscription-eventtriggertype-element.md) . Le nom de la valeur de requête XPath peut être utilisé en tant que variable dans l’élément [**Body**](taskschedulerschema-body-showmessagetype-element.md) de la section d’action [**ShowMessage**](taskschedulerschema-showmessage-actiongroup-element.md) d’une tâche. <br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En plus de l’élément enfant défini ici, l’élément [**EventTrigger**](taskschedulerschema-eventtrigger-triggergroup-element.md) utilise également des éléments enfants définis par le type complexe [**triggerBaseType**](taskschedulerschema-triggerbasetype-complextype.md) .
 
@@ -71,8 +71,8 @@ En plus de l’élément enfant défini ici, l’élément [**EventTrigger**](ta
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

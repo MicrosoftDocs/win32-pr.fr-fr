@@ -4,12 +4,12 @@ ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: Étape 4. Définir les propriétés d’allocateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9ee7d9ecdc85b63ec6bd774a3a47e0e9399dcf3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 33376cff0e6c0674edfadcffed59d16d8d7dccb9f48384a22ec4c69fc48d8eb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652129"
 ---
 # <a name="step-4-set-allocator-properties"></a>Étape 4. Définir les propriétés d’allocateur
 
@@ -96,7 +96,7 @@ Suivant : [étape 5. Transformez l’image](step-5--transform-the-image.md).
 
 <dl> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

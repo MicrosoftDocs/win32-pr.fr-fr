@@ -1,19 +1,19 @@
 ---
-description: Référence de classe de base DirectShow
+description: DirectShow Référence de classe de base
 ms.assetid: 56f3685f-3df8-4358-b04e-3efc04b58008
-title: Référence de classe de base DirectShow
+title: DirectShow Référence de classe de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8816656f0ae87224cc95886ad32aaa1a098f177
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 950a4eff89e235194be974256492bd23701f69e5f64181a2e805cf67c1fd62f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663046"
 ---
-# <a name="directshow-base-class-reference"></a>Référence de classe de base DirectShow
+# <a name="directshow-base-class-reference"></a>DirectShow Référence de classe de base
 
-Cette section contient des entrées de référence pour toutes les [classes de base Microsoft DirectShow](directshow-base-classes.md), leurs membres de données et leurs fonctions.
+cette section contient des entrées de référence pour toutes les [Classes de Base Microsoft DirectShow](directshow-base-classes.md), leurs membres de données et leurs fonctions.
 
 
 
@@ -36,7 +36,7 @@ Cette section contient des entrées de référence pour toutes les [classes de b
 | [**CBaseInputPin**](cbaseinputpin.md)                                 | Classe de base pour les broches d’entrée.                                                                                                        |
 | [**CBaseList**](cbaselist.md)                                         | Classe de base pour les listes génériques.                                                                                                     |
 | [**CBaseMediaFilter**](cbasemediafilter.md)                           | Implémente l’interface [**IMediaFilter**](/windows/desktop/api/Strmif/nn-strmif-imediafilter) .                                                                    |
-| [**CBaseObject**](cbaseobject.md)                                     | Classe de base pour l’implémentation d’objets DirectShow.                                                                                   |
+| [**CBaseObject**](cbaseobject.md)                                     | classe de Base pour l’implémentation des objets DirectShow.                                                                                   |
 | [**CBaseOutputPin**](cbaseoutputpin.md)                               | Classe de base pour les broches de sortie.                                                                                                       |
 | [**CBasePin**](cbasepin.md)                                           | Classe de base pour les codes confidentiels.                                                                                                              |
 | [**CBasePropertyPage**](cbasepropertypage.md)                         | Classe de base pour l’implémentation des pages de propriétés.                                                                                       |
@@ -104,7 +104,7 @@ Cette section contient des entrées de référence pour toutes les [classes de b
 
 <dl> <dt>
 
-[Classes de base DirectShow](directshow-base-classes.md)
+[DirectShow Classes de base](directshow-base-classes.md)
 </dt> </dl>
 
  

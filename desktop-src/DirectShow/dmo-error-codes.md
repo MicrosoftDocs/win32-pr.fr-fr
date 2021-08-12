@@ -1,17 +1,17 @@
 ---
 description: Le tableau suivant contient les codes d’erreur spécifiques à Microsoft DirectX Media Objects (DMOs). Ces codes d’erreur sont définis dans le fichier d’en-tête Mediaerr. h.
 ms.assetid: 1ded5656-084d-4315-a414-aebf4a1820dc
-title: Codes d’erreur DMO (Mediaerr. h)
+title: DMO Codes d’erreur (Mediaerr. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d76c8cd5e7001751cd2cf9eb7da4d88b2dc100bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1aa8f45b8f9f61185adbcd79a354df8ab3e41471067b66179193b825a5e40651
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653293"
 ---
-# <a name="dmo-error-codes"></a>Codes d’erreur DMO
+# <a name="dmo-error-codes"></a>DMO Codes d’erreur
 
 Le tableau suivant contient les codes d’erreur spécifiques à Microsoft DirectX Media Objects (DMOs). Ces codes d’erreur sont définis dans le fichier d’en-tête Mediaerr. h.
 
@@ -42,7 +42,7 @@ Le tableau suivant contient les codes d’erreur spécifiques à Microsoft Direc
 
 <dl> <dt>
 
-[Constantes DMO](dmo-constants.md)
+[DMO Constantes](dmo-constants.md)
 </dt> </dl>
 
  

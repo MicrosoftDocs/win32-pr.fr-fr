@@ -3,7 +3,7 @@ title: CUSTOMSLIDER. min.
 description: L’attribut min spécifie ou récupère la valeur minimale de la plage définie par le curseur personnalisé.
 ms.assetid: a152cf9f-7383-47da-a9b2-dedd13749964
 keywords:
-- Lecteur Windows Media CUSTOMSLIDER. min.
+- CUSTOMSLIDER. min Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95fa28e010dc969a041fbe8e2e16a58f4729df4a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f324fd70aa996c593ce9a89365341919e10e9407c20326f8f9a8f9300c0dd7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579727"
 ---
 # <a name="customslidermin"></a>CUSTOMSLIDER. min.
 

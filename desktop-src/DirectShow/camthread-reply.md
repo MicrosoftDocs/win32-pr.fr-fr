@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e86e0bc0155e527aa11c26531ae5608e6828362
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9783703d711800b8002aa0372292349d83620eafb097be2256ffde6ab2c91c09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662365"
 ---
 # <a name="camthreadreply-method"></a>CAMThread. Reply, méthode
 
@@ -53,7 +53,7 @@ Valeur à retourner dans la méthode [**CAMThread :: CallWorker**](camthread-ca
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode CallWorker se bloque jusqu’à ce que cette méthode soit appelée. Le paramètre *DW* fournit la valeur de retour pour CallWorker. Appelez cette méthode dans votre procédure de thread après avoir récupéré une demande, pour libérer le thread demandeur.
 
@@ -63,7 +63,7 @@ La méthode CallWorker se bloque jusqu’à ce que cette méthode soit appelée.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

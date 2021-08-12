@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e3af4d926bd0ca8db5ef11839dd0ca84523c374
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3df1f904bb5c2acfc328e8779da6135f901de9601cea6735de21b2e76aeea9c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656790"
 ---
 # <a name="cdrawimagenotifymediatype-method"></a>Méthode CDrawImage. NotifyMediaType
 
@@ -53,7 +53,7 @@ Pointeur vers un objet [**CMediaType**](cmediatype.md) , ou **null** pour efface
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre propriétaire doit appeler cette méthode chaque fois que le type de média change. En général, cela se produit lorsque le code confidentiel se connecte pour la première fois et après une modification de format dynamique.
 
@@ -65,7 +65,7 @@ L’objet **CDrawImage** stocke le pointeur *pMediaType* dans la variable membre
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

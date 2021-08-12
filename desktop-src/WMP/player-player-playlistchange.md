@@ -3,9 +3,9 @@ title: Événement Player. PlaylistChange
 description: L’événement PlaylistChange se produit lorsqu’une sélection est modifiée. | Événement Player. PlaylistChange
 ms.assetid: 09ab0560-e18d-4ee8-a649-2b2468b40c31
 keywords:
-- Événement PlaylistChange lecteur Windows Media
-- Événement PlaylistChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement PlaylistChange
+- Lecteur Windows Media d’événements PlaylistChange
+- Lecteur Windows Media d’événements PlaylistChange, classe Player
+- Lecteur Windows Media de classe Player, événement PlaylistChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 83d371818e8166b536543246eeecf0090509e62b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ff4c45449c8de2062aa53ce9bda89c8d634dd30bc1ac8c03f091e8b97e9ce60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572802"
 ---
 # <a name="playerplaylistchange-event"></a>Événement Player. PlaylistChange
 
@@ -43,7 +43,7 @@ Player.PlaylistChange(
 
 <dl> <dt>
 
-*Playlist* 
+*Sélection* 
 </dt> <dd>
 
 Objet **playlist** modifié.
@@ -57,15 +57,15 @@ Objet **playlist** modifié.
 
 
 
-| Number | Nom          |
+| Nombre | Nom          |
 |--------|---------------|
 | 0      | Unknown       |
 | 1      | Effacer         |
 | 2      | InfoChange    |
 | 3      | Déplacer          |
-| 4      | DELETE        |
+| 4      | Supprimer        |
 | 5      | Insérer        |
-| 6      | Ajouter (Append)        |
+| 6      | Ajouter        |
 | 7      | Non pris en charge |
 | 8      | NameChange,    |
 | 9      | Non pris en charge |
@@ -79,13 +79,13 @@ La constante d’énumération de style C peut être dérivée en préfixant la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cet événement ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Notes
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 **Lecteur Windows Media 10 Mobile :** Cet événement n’est pas pris en charge.
 

@@ -3,7 +3,7 @@ title: Event. screenHeight
 description: L’attribut screenHeight récupère la hauteur de la taille d’écran disponible en pixels.
 ms.assetid: 84f5c70b-ef00-44e9-a24e-ef292936a88c
 keywords:
-- Lecteur Windows Media Event. screenHeight
+- event. screenHeight Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94f631ebce3b349ea29492376cf31e0a85c4b093
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4b16a2fefdf5cd357a319bc3a074332dfe1a0adc65e8318ab9932bf0a238553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577023"
 ---
 # <a name="eventscreenheight"></a>Event. screenHeight
 

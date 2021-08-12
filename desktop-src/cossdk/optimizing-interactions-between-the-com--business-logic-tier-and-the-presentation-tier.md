@@ -4,12 +4,12 @@ ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: Optimisation des interactions entre le niveau de logique métier COM+ et la couche présentation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3258453a16549eacf3a7ed77444674d425c85613
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 3ca519c6aa7f1585648b0def6530b7f224f12a98961193e4f6f7cc490a747b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306101"
 ---
 # <a name="optimizing-interactions-between-the-com-business-logic-tier-and-the-presentation-tier"></a>Optimisation des interactions entre le niveau de logique métier COM+ et la couche présentation
 

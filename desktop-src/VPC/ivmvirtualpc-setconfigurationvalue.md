@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb8ff3bb68829e944461cedb1c86904c7150593
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50d3ea585182794c1e96195fdbef842bc35c86342d390dd59e7077b31d4ef9a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591702"
 ---
 # <a name="ivmvirtualpcsetconfigurationvalue-method"></a>IVMVirtualPC :: SetConfigurationValue, méthode
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Définit la valeur du paramètre de configuration spécifié.
 
@@ -48,7 +48,7 @@ HRESULT SetConfigurationValue(
 *preferenceKey* \[ dans\]
 </dt> <dd>
 
-Clé utilisée pour identifier la préférence, telle qu’elle est stockée dans le fichier de configuration par utilisateur (Options.xml dans « % LocalAppData% \\ Microsoft \\ Windows Virtual PC »).
+clé utilisée pour identifier la préférence, telle qu’elle est stockée dans le fichier de configuration par utilisateur (Options.xml dans « % LocalAppData% \\ Microsoft \\ Windows Virtual PC »).
 
 > [!IMPORTANT]
 > Les modifications doivent être apportées à Options.xml uniquement à l’aide de la méthode **SetConfigurationValue** . La modification de Options.xml à l’aide d’une autre méthode n’est pas prise en charge.
@@ -64,7 +64,7 @@ Valeur de préférence. Cette valeur peut être l’un des types de **variantes*
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode peut retourner l’une de ces valeurs.
 
@@ -91,7 +91,7 @@ Les valeurs suivantes sont prises en charge pour le paramètre *preferenceKey* .
 
 | valeur *preferenceKey*      | Description                                                                                                                                                                           | Type de données            | Valeur par défaut   |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------|
-| « \_ délai d’inactivité »<br/> | Nombre de secondes pendant lesquelles vpc.exe doit attendre avant de quitter s’il n’y a pas de machines virtuelles ou d’applications actives utilisant les [interfaces de PC virtuels Windows](virtual-pc-interfaces.md).<br/> | entière<br/> | "30"<br/> |
+| « \_ délai d’inactivité »<br/> | nombre de secondes pendant lesquelles vpc.exe doit attendre avant de quitter s’il n’y a pas de machines virtuelles ou d’applications actives utilisant les [Interfaces Windows Virtual PC](virtual-pc-interfaces.md).<br/> | entière<br/> | "30"<br/> |
 
 
 
@@ -139,9 +139,9 @@ La chaîne de chemin d’accès *preferenceKey* est spécifiée comme suit :
 
 
 
-| Condition requise | Valeur |
+| Condition requise | Value |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

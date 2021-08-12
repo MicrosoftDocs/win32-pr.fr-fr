@@ -1,9 +1,9 @@
 ---
 title: External. version (type 1)
-description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. La propriété version récupère la version actuelle du lecteur Windows Media. | External. version (type 1)
+description: Remarque Cette rubrique décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. la propriété version récupère la version actuelle de Lecteur Windows Media. | External. version (type 1)
 ms.assetid: 36120a19-5322-402e-8a48-1a28eb250068
 keywords:
-- External. version (type 1) lecteur Windows Media
+- External. version (Type 1) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df2f8062f37672d76182701329f9369019583a12
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee8120c123d7c5fb52cbb5ce94cb8b326b25a41cdc46a85e06fb0d7aa3d3cb13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576820"
 ---
 # <a name="externalversion-type-1"></a>External. version (type 1)
 
@@ -28,7 +28,7 @@ ms.locfileid: "106532808"
 
  
 
-La propriété **version** récupère la version actuelle du lecteur Windows Media.
+la propriété **version** récupère la version actuelle de Lecteur Windows Media.
 
 ## <a name="syntax"></a>Syntaxe
 

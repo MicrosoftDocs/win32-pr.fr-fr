@@ -3,9 +3,9 @@ title: Controls. fastReverse, méthode
 description: La méthode fastReverse démarre une analyse rapide de l’élément multimédia dans le sens inverse.
 ms.assetid: 4fc61739-9006-4d62-b2c1-2b8e8830f2d9
 keywords:
-- méthode fastReverse lecteur Windows Media
-- méthode fastReverse lecteur Windows Media, classe de contrôles
-- Classe Controls lecteur Windows Media, méthode fastReverse
+- Lecteur Windows Media de la méthode fastReverse
+- méthode fastReverse Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, méthode fastReverse
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e5a63c4299bf08c25e36e2d61924f3fb171792
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d4643525f66102cbd7b017a4a48f1068489062ec0849f197f1f55df45fc6f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580275"
 ---
 # <a name="controlsfastreverse-method"></a>Controls. fastReverse, méthode
 
@@ -40,15 +40,15 @@ Controls.fastReverse()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Notes
 
-La méthode **fastReverse** analyse le clip en sens inverse à cinq fois la vitesse normale, en affichant uniquement les images clés s’il s’agit d’un fichier vidéo. L’appel de **fastReverse** modifie les *paramètres*. propriété **rate** sur 5,0. Si la **fréquence** est modifiée par la suite, ou si la **lecture** ou l' **arrêt** est appelé, le lecteur Windows Media arrête rapidement l’opération inverse.
+La méthode **fastReverse** analyse le clip en sens inverse à cinq fois la vitesse normale, en affichant uniquement les images clés s’il s’agit d’un fichier vidéo. l’appel de **fastReverse** modifie le *Paramètres*. propriété **rate** sur 5,0. si le **taux** est modifié par la suite, ou si la **lecture** ou l' **arrêt** est appelé, Lecteur Windows Media cessera de s’inverser rapidement.
 
-Si l’élément fait partie d’une sélection, **fastReverse** s’arrête au début de la piste actuelle. Par exemple, si Track 3 se trouve dans **fastReverse**, lorsque le début de la piste 3 est atteint, le lecteur Windows Media ne passe pas à Track 2. Le nombre de lecture n’est pas incrémenté lors de l’appel de **fastReverse**.
+Si l’élément fait partie d’une sélection, **fastReverse** s’arrête au début de la piste actuelle. par exemple, si la piste 3 se trouve dans **fastReverse**, lorsque le début de la piste 3 est atteint, Lecteur Windows Media n’accède pas à track 2. Le nombre de lecture n’est pas incrémenté lors de l’appel de **fastReverse**.
 
 Si vous appelez **fastForward** alors que **fastReverse** est en vigueur, **fastReverse** sera arrêté et **fastForward** démarrera.
 
@@ -102,7 +102,7 @@ L’exemple suivant crée un élément BUTTON HTML qui utilise **fastReverse** p
 [**Controls. Stop**](controls-stop.md)
 </dt> <dt>
 
-[**Settings. rate**](settings-rate.md)
+[**Paramètres. rate**](settings-rate.md)
 </dt> </dl>
 
  

@@ -3,7 +3,7 @@ title: IWMPPlaylist. Item (VB et C)
 description: La propriété Item ( \_ méthode d’extraction d’élément dans C \) obtient une interface vers l’élément multimédia au niveau de l’index spécifié.
 ms.assetid: 874663e2-0b89-4ef7-9d4a-3a334482b352
 keywords:
-- IWMPPlaylist. Item (VB et C) lecteur Windows Media
+- IWMPPlaylist. Item (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1318f37c3f590eec2c97252e2f484b0d1bc6d83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06b4c29b5f3821ad2ec3434fcad2defc2e4128e7f6e69c70940294ef0ff7f963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575416"
 ---
 # <a name="iwmpplaylistitem-vb-and-c"></a>IWMPPlaylist. Item (VB et C#)
 

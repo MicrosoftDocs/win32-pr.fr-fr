@@ -4,18 +4,18 @@ ms.assetid: f3cd8e90-8949-482a-8ada-47711f6c935f
 title: Filtre de wrappers ACM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8da0c1283ac6d4980f51d40001b38c719f5e31c4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c6aaa56d955fe9cf1966e17c657fbf741b4bb8694a7f18b501b148b0383ea19d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664078"
 ---
 # <a name="acm-wrapper-filter"></a>Filtre de wrappers ACM
 
 Le filtre de wrapper ACM permet aux codecs du gestionnaire de compression audio (ACM) de joindre un graphique de filtre. Il peut agir soit comme filtre de décompression, soit comme filtre de compression.
 
-En tant que filtre de décompression, le wrapper ACM apparaît dans la catégorie « filtres DirectShow » (CLSID \_ LegacyAmFilterCategory) et a un mérite de mérite \_ normal. Le type de support de connexion sur la broche d’entrée détermine le codec utilisé par le filtre. En règle générale, l’application n’a pas besoin d’ajouter le filtre au graphique de filtre ; elle est automatiquement extraite par le gestionnaire de graphique de filtre, si nécessaire. La décompression concerne uniquement les signaux audio PCM.
+en tant que filtre de décompression, le Wrapper ACM apparaît dans la catégorie « filtres de DirectShow » (CLSID \_ LegacyAmFilterCategory) et a un mérite de mérite \_ NORMAL. Le type de support de connexion sur la broche d’entrée détermine le codec utilisé par le filtre. En règle générale, l’application n’a pas besoin d’ajouter le filtre au graphique de filtre ; elle est automatiquement extraite par le gestionnaire de Graph de filtre quand cela est nécessaire. La décompression concerne uniquement les signaux audio PCM.
 
 En tant que filtre de compression, le wrapper ACM apparaît dans la catégorie « compresseurs audio » (CLSID \_ AudioCompressorCategory) et a un mérite de mérite \_ n' \_ \_ utilise pas. Chaque codec s’affiche sous la forme d’une instance distincte. Pour la compression, vous ne pouvez pas créer directement le filtre avec CoCreateInstance. Au lieu de cela, vous devez utiliser l’énumérateur du périphérique système. Pour plus d’informations, consultez [utilisation de l’énumérateur de périphérique système](using-the-system-device-enumerator.md).
 
@@ -83,7 +83,7 @@ En tant que filtre de compression, le wrapper ACM apparaît dans la catégorie �
 
 <dl> <dt>
 
-[Filtres DirectShow](directshow-filters.md)
+[DirectShow Filtres](directshow-filters.md)
 </dt> </dl>
 
  

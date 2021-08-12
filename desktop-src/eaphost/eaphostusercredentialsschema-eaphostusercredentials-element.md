@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 690770091219e51b3ebb550a1a72e50f76b20542
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a18922ef19bd828067ddb0153aa7c6369ecfeebd0446f5a6481f91fa64ca21b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274419"
 ---
 # <a name="eaphostusercredentials-element"></a>Élément EapHostUserCredentials
 
@@ -57,7 +57,7 @@ L’élément **EapHostUserCredentials** contient l’élément [**EapMethod**](
 
 | Élément                                                                                                | Type                                                                                                                | Description                                                                                      |
 |--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| [**Informations d’identification**](eaphostusercredentialsschema-credentials-eaphostusercredentials-element.md)         | [**BaseEapMethodUserCredentials**](baseeapmethodusercredentialsschema-baseeapmethodusercredentials-complextype.md) | Est utilisé lorsque la configuration de la méthode est au format texte XML au lieu d’un objet BLOB binaire.<br/>   |
+| [**Informations d'identification**](eaphostusercredentialsschema-credentials-eaphostusercredentials-element.md)         | [**BaseEapMethodUserCredentials**](baseeapmethodusercredentialsschema-baseeapmethodusercredentials-complextype.md) | Est utilisé lorsque la configuration de la méthode est au format texte XML au lieu d’un objet BLOB binaire.<br/>   |
 | [**CredentialsBlob**](eaphostusercredentialsschema-credentialsblob-eaphostusercredentials-element.md) | hexBinary                                                                                                           | Est utilisé lorsque la configuration de la méthode est un objet BLOB binaire au lieu du format texte XML.<br/> |
 | [**EapMethod**](eaphostusercredentialsschema-eapmethod-eaphostusercredentials-element.md)             | [**EapMethodType**](eapcommonschema-eapmethodtype-complextype.md)                                                  | Identifie la méthode référencée. <br/>                                             |
 
@@ -77,8 +77,8 @@ L’élément **processContents** active les futures améliorations du schéma. 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

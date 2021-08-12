@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 50fb09a4619be9c3dbcff98bc939d6f99ad33bd4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 62c70524fd1b729473c09c0ff0cb6b1c764e356069a29eb40e9cf52dfa434127
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297682"
 ---
 # <a name="d3dxvec3transformnormal-function-d3dx9mathh"></a>D3DXVec3TransformNormal, fonction (D3dx9math. h)
 
@@ -75,7 +75,7 @@ Type : **[ **D3DXVECTOR3**](d3dxvector3.md)\***
 
 Pointeur vers une structure [**D3DXVECTOR3**](d3dxvector3.md) qui est le vecteur transformé.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette fonction transforme le vecteur (*PV*->x, *PV*->y, *PV*->z, 0) par la matrice vers laquelle pointe *PM*.
 

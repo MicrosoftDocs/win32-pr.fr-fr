@@ -3,7 +3,7 @@ title: PLAYLIST. moveSelectedDown
 description: La méthode moveSelectedDown déplace l’élément sélectionné d’une position vers le dessous de la liste.
 ms.assetid: dbd2fa20-8e94-47d8-89e8-9b4677d9b825
 keywords:
-- Lecteur Windows Media PLAYLIST. moveSelectedDown
+- PLAYLIST. moveSelectedDown Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bce3a6fd2f27656684d77288cf5d3a1cdf6c36f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43124fc13044b1802b78d036700af9077ed8893bb9cc4ea0f2ad9df9a117e405
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571138"
 ---
 # <a name="playlistmoveselecteddown"></a>PLAYLIST. moveSelectedDown
 

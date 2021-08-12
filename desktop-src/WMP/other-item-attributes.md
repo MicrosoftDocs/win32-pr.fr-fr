@@ -4,22 +4,22 @@ description: Autres attributs d’élément
 ms.assetid: 18090c66-32a1-42af-b4a1-e3d539491e19
 keywords:
 - Lecteur Windows Media, autres attributs d’élément
-- Windows Media Player Mobile, autres attributs d’élément
-- Modèle objet du lecteur Windows Media, autres attributs d’élément
+- Lecteur Windows Media Mobile, autres attributs d’élément
+- Lecteur Windows Media modèle objet, autres attributs d’élément
 - modèle objet, autres attributs d’élément
-- Contrôle ActiveX, autres attributs d’élément
-- Contrôle ActiveX du lecteur Windows Media, autres attributs d’élément
-- Contrôle ActiveX Windows Media Player Mobile, autres attributs d’élément
+- contrôle ActiveX, autres attributs d’élément
+- Lecteur Windows Media ActiveX contrôle, autres attributs d’élément
+- Lecteur Windows Media contrôle de ActiveX Mobile, autres attributs d’élément
 - référence pour le modèle d’objet, autres attributs d’élément
 - attributs, autres éléments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28622c9a55091376f618874889b8d2e6897e2172
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c64a3289cec8490c801a530f001aef818498239864b34bfa7e81601b4f1d226
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573702"
 ---
 # <a name="other-item-attributes"></a>Autres attributs d’élément
 
@@ -64,9 +64,9 @@ Les attributs suivants sont disponibles pour un élément de la bibliothèque qu
 [**Référence d’attribut**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: Color, élément
 description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. | Color, élément
 ms.assetid: 36fafe16-b708-4dc1-9325-d4f39265069a
 keywords:
-- Élément de couleur lecteur Windows Media
+- élément Color Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6c73aa9fe2c7f731e872c4a2e235bf9c0e29ce05
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b8576f94c2d1aa88608f8f40cbfe32c2d1dc315e0e4578ca6554fa5fcde82c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580754"
 ---
 # <a name="color-element"></a>Color, élément
 

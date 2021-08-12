@@ -3,7 +3,7 @@ title: EFFECTs. Previous
 description: La méthode précédente affiche la présélection de visualisation précédente, en se déplaçant vers la dernière présélection de la visualisation précédente, si nécessaire.
 ms.assetid: 20ef8f8b-a308-4e79-a4a8-70d04f1f0be6
 keywords:
-- EFFETS. précédent lecteur Windows Media
+- effects. previous Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ee6bb89aab58324132a0023e843d23b840668b6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41a4a8848ebad2e1580ff0ee0a5d102f012f8a91ef36ccd11803ee8933402f33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578753"
 ---
 # <a name="effectsprevious"></a>EFFECTs. Previous
 

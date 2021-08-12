@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 22507995621d708e40437175d7004d10f68fedb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a39cef0ac5a0a7c4f186b8eae90a96a8e26fbf886f819dc7562cb7d8df4e087e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659719"
 ---
 # <a name="cbasefilterreconnectpin-method"></a>Méthode CBaseFilter. ReconnectPin
 
@@ -65,14 +65,14 @@ Retourne une valeur **HRESULT** . Les valeurs possibles sont les suivantes :
 
 | Code de retour                                                                                   | Description                                                                       |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>          | Opération réussie.<br/>                                                               |
+| <dl> <dt>**\_OK**</dt> </dl>          | Réussite.<br/>                                                               |
 | <dl> <dt>**E \_ NOinterface**</dt> </dl> | la variable de membre [**m \_ pGraph**](cbasefilter-m-pgraph.md) a la **valeur null**.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**IFilterGraph2 :: ReconnectEx**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph2-reconnectex) sur le gestionnaire de graphique de filtre. Si l’interface [**IFilterGraph2**](/windows/desktop/api/Strmif/nn-strmif-ifiltergraph2) n’est pas disponible, la méthode appelle [**IFilterGraph :: reconnect**](/windows/desktop/api/Strmif/nf-strmif-ifiltergraph-reconnect).
 
@@ -82,7 +82,7 @@ Cette méthode appelle la méthode [**IFilterGraph2 :: ReconnectEx**](/windows/
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

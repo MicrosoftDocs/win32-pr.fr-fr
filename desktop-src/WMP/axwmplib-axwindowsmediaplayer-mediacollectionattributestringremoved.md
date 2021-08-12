@@ -3,7 +3,7 @@ title: Événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsM
 description: L’événement MediaCollectionAttributeStringRemoved se produit lorsqu’une valeur d’attribut est supprimée de la bibliothèque. | Événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsMediaPlayer
 ms.assetid: 2f264416-0bc5-41d0-8863-32c284393082
 keywords:
-- Événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsMediaPlayer du lecteur Windows Media
+- événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a11b6b028a2a47585b06159ed46b986124583950
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f56a6e997ada3296a0ec1df841797c1495ccde0864495dcf77a0a0634ccde5fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582075"
 ---
 # <a name="mediacollectionattributestringremoved-event-of-the-axwindowsmediaplayer-object"></a>Événement MediaCollectionAttributeStringRemoved de l’objet AxWindowsMediaPlayer
 
@@ -47,7 +47,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
 | Propriété           | Description                                                                                                                                                                                  |
 |--------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **bstrAttribName** | System. StringSpecifies nom de l’attribut. Pour plus d’informations sur les attributs pris en charge par le lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
+| **bstrAttribName** | System. StringSpecifies nom de l’attribut. pour plus d’informations sur les attributs pris en charge par Lecteur Windows Media, consultez la [référence d’attribut](attribute-reference.md).<br/> |
 | bstrAttribVal      | System. StringSpecifies valeur de l’attribut.<br/>                                                                                                                                |
 
 
@@ -74,7 +74,7 @@ Lorsqu’un élément multimédia est supprimé de la bibliothèque, ses métado
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**AxWindowsMediaPlayer. mediaCollection (VB et C#)**](axwmplib-axwindowsmediaplayer-mediacollection--vb-and-c.md)

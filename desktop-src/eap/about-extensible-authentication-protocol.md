@@ -6,12 +6,12 @@ keywords:
 - Protocole EAP (Extensible Authentication Protocol), décrit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e631299c9e57a233794dde8bf205d98b8c91b76c
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 84866f7f550213850bf95c39a6f0847df31bed3550db66139f2ec30bf921b5a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276042"
 ---
 # <a name="about-eap"></a>À propos d’EAP
 
@@ -27,7 +27,7 @@ Les composants suivants prennent en charge le protocole EAP.
 -   Les clients LAN câblés et sans fil compatibles Microsoft IEEE 802.1 X implémentent le protocole EAP tel que défini dans la norme IEEE 802.1 X Draft.
 -   Le serveur Microsoft RADIUS, appelé service d’authentification Internet (IAS), implémente le protocole EAP tel que défini dans la [norme RFC 2865](https://go.microsoft.com/fwlink/p/?linkid=84055).
 
-Tous les composants ci-dessus prennent en charge cette architecture extensible via le kit de développement logiciel (SDK) Microsoft Windows, ce qui vous permet d’intégrer des modules d’authentification tiers. Ce mécanisme extensible peut être utilisé pour prendre en charge les cartes à jetons, Kerberos, la clé publique et les protocoles d’authentification S/Key.
+tous les composants ci-dessus prennent en charge cette architecture extensible via le kit de développement logiciel (SDK) de Microsoft Windows, ce qui vous permet d’intégrer des modules d’authentification tiers. Ce mécanisme extensible peut être utilisé pour prendre en charge les cartes à jetons, Kerberos, la clé publique et les protocoles d’authentification S/Key.
 
 ## <a name="protected-extensible-authentication-protocol"></a>Protocole EAP (Protected Extensible Authentication Protocol)
 
@@ -50,9 +50,9 @@ Grâce à PEAP, il est beaucoup plus facile d’écrire un protocole EAP, car le
 [À propos d’EAP et d’EAPHost](about-extenstible-authentication-protocol-and-eaphhost.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 610888193762618d427a0329a27d3019bd625e69
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2067c7698c1af7d7295cffed552ab4f58d0402594dd13bfd82224c81652b9aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659162"
 ---
 # <a name="cbaseinputpinnotify-method"></a>CBaseInputPin. Notify, méthode
 
@@ -57,11 +57,11 @@ Structure de [**qualité**](/windows/win32/api/strmif/ns-strmif-quality) qui con
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 En règle générale, les filtres passent des messages de contrôle qualité à une broche de sortie en amont, et non à une broche d’entrée. Par conséquent, cette méthode retourne S \_ OK sans rien faire.
 
@@ -71,7 +71,7 @@ En règle générale, les filtres passent des messages de contrôle qualité à 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

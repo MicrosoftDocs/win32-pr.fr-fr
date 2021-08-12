@@ -3,19 +3,19 @@ title: Source d’image secondaire normale
 description: Source d’image secondaire normale
 ms.assetid: fe5c0da2-0c40-456f-ab56-ac61ed69ff2d
 keywords:
-- Apparences mobiles du lecteur Windows Media, source de l’image du bouton
+- Lecteur Windows Media Skins mobiles, source d’image de bouton
 - apparences, source de l’image du bouton
 - informations de référence sur les apparences, les boutons
 - boutons dans les apparences, source d’image
 - source d’image pour les apparences, boutons
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ff828f6d0f0c8348453cb00fef04ab31718693
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7f6aeb48ceabc873d4aeb0db910db896712fe16377aa0f67b76205ad8a39c83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573729"
 ---
 # <a name="normal-secondary-image-source"></a>Source d’image secondaire normale
 
@@ -42,9 +42,9 @@ Les États secondaires ne peuvent pas avoir d’image désactivée. Les images s
 [**Boutons**](buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

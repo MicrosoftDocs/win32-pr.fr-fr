@@ -4,16 +4,16 @@ ms.assetid: E132DAF5-80B7-4C52-A760-3779CC140CE7
 title: DXGI Flip Model
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ee82febd13a3b57a06d93fd01eb8d230d6b78a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 04b4b4cf8f792a23d4d32e5cb4b4273594745283cb803a638ea3d0cf4c45977f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289438"
 ---
 # <a name="dxgi-flip-model"></a>DXGI Flip Model
 
-Windows 8 ajoute la prise en charge du modèle de retournement de présentation et de ses statistiques actuelles associées dans DXGI 1,2. Le modèle de retournement de DXGI de Windows 8 est similaire à la [Présentation du mode de basculement Direct3D 9Ex](../direct3darticles/direct3d-9ex-improvements.md)de Windows 7. Les applications de présentation basées sur la fréquence d’images ou la vidéo, comme les jeux, peuvent tirer le meilleur parti en utilisant le modèle de retournement de présentation. Les applications qui utilisent DXGI retournent le modèle de présentation réduisent la charge des ressources système et améliorent les performances. Les applications peuvent également utiliser l’amélioration de la présentation des statistiques avec la fonction retourner le modèle de présentation pour mieux contrôler le taux de présentation en fournissant des mécanismes de commentaires et de correction en temps réel.
+Windows 8 ajoute la prise en charge du modèle de retournement de présentation et de ses statistiques actuelles associées dans DXGI 1,2. le modèle de présentation DXGI retournement de Windows 8 est similaire à la [présentation du Mode de basculement Direct3D 9ex](../direct3darticles/direct3d-9ex-improvements.md)de Windows 7. Les applications de présentation basées sur la fréquence d’images ou la vidéo, comme les jeux, peuvent tirer le meilleur parti en utilisant le modèle de retournement de présentation. Les applications qui utilisent DXGI retournent le modèle de présentation réduisent la charge des ressources système et améliorent les performances. Les applications peuvent également utiliser l’amélioration de la présentation des statistiques avec la fonction retourner le modèle de présentation pour mieux contrôler le taux de présentation en fournissant des mécanismes de commentaires et de correction en temps réel.
 
 -   [Comparaison du modèle de retournement DXGI et du modèle BitBlt](#comparing-the-dxgi-flip-model-and-the-bitblt-model)
 -   [Guide pratique pour utiliser DXGI Flip Model](#how-to-use-dxgi-flip-model)
@@ -23,9 +23,9 @@ Windows 8 ajoute la prise en charge du modèle de retournement de présentation 
 
 ## <a name="comparing-the-dxgi-flip-model-and-the-bitblt-model"></a>Comparaison du modèle de retournement DXGI et du modèle BitBlt
 
-Le runtime utilise le transfert de bloc de bits (BitBlt) et retournent les modèles de présentation pour présenter le contenu graphique sur les moniteurs d’affichage. La plus grande différence entre BitBlt et retourner les modèles de présentation est la façon dont le contenu de la mémoire tampon d’arrière-plan est obtenu dans le DWM Windows 8 pour la composition. Dans le modèle BitBlt, le contenu de la mémoire tampon d’arrière-plan est copié dans la surface de redirection de chaque appel à [**IDXGISwapChain1 ::P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1). Dans le modèle de retournement, toutes les mémoires tampons d’arrière-plan sont partagées avec le Gestionnaire de fenêtrage (DWM). Par conséquent, le DWM peut composer directement à partir de ces mémoires tampons d’arrière-plan sans aucune autre opération de copie. En général, le modèle de retournement est plus efficace. Le modèle de retournement fournit également plus de fonctionnalités, telles que les statistiques actuelles améliorées.
+Le runtime utilise le transfert de bloc de bits (BitBlt) et retournent les modèles de présentation pour présenter le contenu graphique sur les moniteurs d’affichage. la plus grande différence entre le bitblt et le retour des modèles de présentation est la façon dont le contenu de la mémoire tampon d’arrière-plan est transmis au Windows 8 DWM pour la composition. Dans le modèle BitBlt, le contenu de la mémoire tampon d’arrière-plan est copié dans la surface de redirection de chaque appel à [**IDXGISwapChain1 ::P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1). Dans le modèle de retournement, toutes les mémoires tampons d’arrière-plan sont partagées avec le Gestionnaire de fenêtrage (DWM). Par conséquent, le DWM peut composer directement à partir de ces mémoires tampons d’arrière-plan sans aucune autre opération de copie. En général, le modèle de retournement est plus efficace. Le modèle de retournement fournit également plus de fonctionnalités, telles que les statistiques actuelles améliorées.
 
-Si vous avez des composants hérités qui utilisent Windows Graphics Device Interface (GDI) pour écrire directement dans un [**HWND**](../winprog/windows-data-types.md) , utilisez le modèle BitBlt.
+si vous avez des composants hérités qui utilisent Windows Graphics Device Interface (GDI) pour écrire directement dans un [**HWND**](../winprog/windows-data-types.md) , utilisez le modèle bitblt.
 
 Les améliorations des performances du modèle de basculement DXGI sont significatives quand l’application est en mode fenêtre. La séquence de ce tableau et l’illustration comparent les utilisations de la bande passante de mémoire et les lectures et écritures système des applications Windows qui choisissent le modèle Flip Model et le modèle BitBlt.
 
@@ -47,13 +47,13 @@ Flip Model réduit l’utilisation de la mémoire système en réduisant le nomb
 
 ## <a name="how-to-use-dxgi-flip-model"></a>Guide pratique pour utiliser DXGI Flip Model
 
-Les applications Direct3D 11,1 qui ciblent Windows 8 utilisent Flip Model en créant la chaîne de permutation avec l' [**effet d’échange dxgi retourner une valeur d’énumération \_ \_ \_ \_ séquentielle**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la structure DESC1 de la [**\_ \_ chaîne \_ de permutation dxgi**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) . Quand vous définissez **SwapEffect** sur **dxgi \_ swap \_ Effect, \_ retournez \_ séquentiellement**, définissez également les membres de la **chaîne de \_ permutation dxgi \_ \_ DESC1** sur les valeurs indiquées :
+les applications Direct3D 11,1 qui ciblent Windows 8 utilisent flip model en créant la chaîne de permutation avec l' [**effet d’échange DXGI retourner une valeur d’énumération \_ \_ \_ \_ séquentielle**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) définie dans le membre **SwapEffect** de la structure DESC1 de la [**\_ \_ chaîne \_ de permutation DXGI**](/windows/desktop/api/DXGI1_2/ns-dxgi1_2-dxgi_swap_chain_desc1) . Quand vous définissez **SwapEffect** sur **dxgi \_ swap \_ Effect, \_ retournez \_ séquentiellement**, définissez également les membres de la **chaîne de \_ permutation dxgi \_ \_ DESC1** sur les valeurs indiquées :
 
 -   **BufferCount** à une valeur comprise entre 2 et 16 pour empêcher une baisse des performances due à l’attente de la libération du tampon de présentation précédent par le DWM.
 -   **Formatez** -le au format dxgi \_ \_ R16G16B16A16 \_ float, DXGI \_ format \_ B8G8R8A8 \_ UNORM ou dxgi R8G8B8A8 \_ \_ \_ UNORM
 -   Membre **Count** de la structure dxgi de l' [**\_ exemple \_ desc**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc) que le membre **SampleDesc** spécifie à un et le membre **Quality** de **dxgi \_ exemple \_ desc** à zéro parce que le multiple Sample anticrénelage (MSAA) n’est pas pris en charge
 
-Si vous utilisez [**l' \_ effet d’échange dxgi, \_ \_ retournez \_ séquentiellement**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) sur le système d’exploitation Windows 7 ou antérieur, la création de l’appareil échoue. Lorsque vous utilisez Flip Model, vous pouvez utiliser les statistiques de plein écran en mode fenêtre. Le comportement de plein écran n’est pas affecté. Si vous passez la **valeur null** au paramètre *pFullscreenDesc* de [**IDXGIFactory2 :: CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd) pour une chaîne de permutation avec fenêtres et que vous définissez **SwapEffect** sur **dxgi \_ swap \_ Effect \_ Flip \_ Sequential**, le runtime crée une mémoire tampon d’arrière-plan supplémentaire et fait pivoter le handle qui appartient à la mémoire tampon qui devient la mémoire tampon d’arrière-plan au moment de la présentation.
+si vous utilisez [**DXGI \_ SWAP \_ EFFECT, \_ retournez \_ séquentiellement**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) sur Windows 7 ou un système d’exploitation antérieur, la création de l’appareil échoue. Lorsque vous utilisez Flip Model, vous pouvez utiliser les statistiques de plein écran en mode fenêtre. Le comportement de plein écran n’est pas affecté. Si vous passez la **valeur null** au paramètre *pFullscreenDesc* de [**IDXGIFactory2 :: CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd) pour une chaîne de permutation avec fenêtres et que vous définissez **SwapEffect** sur **dxgi \_ swap \_ Effect \_ Flip \_ Sequential**, le runtime crée une mémoire tampon d’arrière-plan supplémentaire et fait pivoter le handle qui appartient à la mémoire tampon qui devient la mémoire tampon d’arrière-plan au moment de la présentation.
 
 Quand vous utilisez Flip Model, tenez compte des conseils suivants :
 

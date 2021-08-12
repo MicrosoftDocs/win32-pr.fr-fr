@@ -1,32 +1,32 @@
 ---
-description: Utilisation du mélangeur de superposition dans la capture vidéo
+description: utilisation de la superposition Mixer dans la Capture vidéo
 ms.assetid: 43468fa2-6dea-439d-9e24-f47a053ad561
-title: Utilisation du mélangeur de superposition dans la capture vidéo
+title: utilisation de la superposition Mixer dans la Capture vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72bff115d566654732e80c0bcb0f554c4ad96e65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 134ada11ca55009b3ad67ba80c82575ab2d9bdf5a7329a88157ed4e003eca74c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651193"
 ---
-# <a name="using-the-overlay-mixer-in-video-capture"></a>Utilisation du mélangeur de superposition dans la capture vidéo
+# <a name="using-the-overlay-mixer-in-video-capture"></a>utilisation de la superposition Mixer dans la Capture vidéo
 
-Il existe certains genres de vidéos que le filtre de [convertisseur vidéo](video-renderer-filter.md) ne peut pas afficher par lui-même. Dans ce cas, le convertisseur vidéo doit fonctionner avec le filtre de [mixage de superposition](overlay-mixer-filter.md) . Le mélangeur de superposition gère le rendu, tandis que le convertisseur vidéo gère la fenêtre vidéo. Le mélangeur de superposition est nécessaire dans les situations suivantes :
+Il existe certains genres de vidéos que le filtre de [convertisseur vidéo](video-renderer-filter.md) ne peut pas afficher par lui-même. dans ce cas, le convertisseur vidéo doit fonctionner avec la [superposition Mixer](overlay-mixer-filter.md) filtre. le Mixer de superposition gère le rendu, tandis que le convertisseur vidéo gère la fenêtre vidéo. le Mixer de superposition est nécessaire dans les situations suivantes :
 
--   Broches du port vidéo (VP). Si le périphérique de capture utilise un port vidéo, le mélangeur de superpositions gère la superposition matérielle.
+-   Broches du port vidéo (VP). si le périphérique de capture utilise un port vidéo, le Mixer de superposition gère la superposition matérielle.
 -   Vidéo entrelacée. Pour la vidéo entrelacée, le décodeur requiert un format [**VIDEOINFOHEADER2**](/previous-versions/windows/desktop/api/dvdmedia/ns-dvdmedia-videoinfoheader2) , que le convertisseur vidéo ne prend pas en charge.
--   Sous-titres. Le texte de légende est rendu sous forme de bitmaps de 8 bits par pixel, que le mélangeur de superposition recouvre sur la vidéo.
+-   Sous-titres. le texte de légende est rendu sous forme de bitmaps de 8 bits par pixel, que la superposition Mixer recouvre sur la vidéo.
 
-La méthode **RenderStream** du générateur de graphiques de capture insère le mélangeur de superposition chaque fois que nécessaire. Toutefois, si vous générez le graphique sans utiliser le générateur de graphiques de capture, vous devez vérifier chacune de ces situations et insérer vous-même le mélangeur de superposition.
+la méthode **RenderStream** de Capture Graph du générateur insère l’Mixer de superposition chaque fois que nécessaire. toutefois, si vous générez le graphique sans utiliser le générateur de Graph de Capture, vous devez vérifier chacune de ces situations et insérer la superposition Mixer vous-même.
 
 -   \[! Précieuse\]  
-    > Si l’appareil possède un code confidentiel de VP, vous devez le connecter même si vous n’avez pas besoin de la fonctionnalité d’aperçu dans votre application. Avec un port vidéo, l’appareil de capture envoie toujours les données vidéo à la superposition matérielle, de sorte que le mélangeur de superposition est toujours nécessaire.
+    > si l’appareil possède un code confidentiel de directeur, vous devez connecter le Mixer de recouvrement, même si vous n’avez pas besoin de la fonctionnalité d’aperçu dans votre application. avec un port vidéo, l’appareil de capture envoie toujours les données vidéo à la superposition matérielle, de sorte que le Mixer de recouvrement est toujours nécessaire.
 
      
 
-Les filtres de convertisseur de mixage vidéo (VMR-7 et VMR-9) prennent tous deux en charge la vidéo entrelacée et peuvent combiner des bitmaps de sous-titres sur la vidéo principale. Si vous utilisez VMR pour ces scénarios, vous n’avez pas besoin d’utiliser le mélangeur de superposition. VMR-9 ne prend pas en charge les connexions à un pin de vice-président. VMR-7 prend en charge les connexions de vice-président via le filtre du gestionnaire de port vidéo. Toutefois, vous constaterez peut-être que certains pilotes ne fonctionnent pas correctement avec le gestionnaire de port vidéo. Pour cette raison, le mélangeur de superposition est toujours recommandé pour les broches du VP.
+Les filtres de convertisseur de mixage vidéo (VMR-7 et VMR-9) prennent tous deux en charge la vidéo entrelacée et peuvent combiner des bitmaps de sous-titres sur la vidéo principale. Si vous utilisez VMR pour ces scénarios, vous n’avez pas besoin d’utiliser la Mixer de superposition. VMR-9 ne prend pas en charge les connexions à un pin de vice-président. VMR-7 prend en charge les connexions de vice-président via le filtre du gestionnaire de port vidéo. Toutefois, vous constaterez peut-être que certains pilotes ne fonctionnent pas correctement avec le gestionnaire de port vidéo. c’est la raison pour laquelle le Mixer de superposition est toujours recommandé pour les broches du VP.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

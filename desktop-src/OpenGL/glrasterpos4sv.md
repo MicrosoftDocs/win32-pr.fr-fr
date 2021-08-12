@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfda6405daa6328067c6a2094b52009b7ef53e32
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 50d2c5e631dd50549a30a6a574b46198d367d846fe5b7ab5c50bfe949df17fb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614489"
 ---
 # <a name="glrasterpos4sv-function"></a>glRasterPos4sv fonction)
 
@@ -51,7 +51,7 @@ Pointeur vers un tableau de quatre éléments, en spécifiant les coordonnées x
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 OpenGL gère une position 3D dans les coordonnées de la fenêtre. Cette position, appelée position raster, est conservée avec la précision des sous-pixels. Il est utilisé pour positionner les opérations d’écriture de pixel et de bitmap. Consultez [**glBitmap**](glbitmap.md), [**glDrawPixels**](gldrawpixels.md)et [**glCopyPixels**](glcopypixels.md).
 

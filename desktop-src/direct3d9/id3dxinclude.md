@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d4b0a34eb5b4c3ab20a57a5089de1d6d1ebbdf51
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e48ab32894ad1bf4c2f992ab4fff5953b3d98de4afd5e044de0119e056ee8133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106520351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295179"
 ---
 # <a name="id3dxinclude-interface"></a>Interface ID3DXInclude
 
@@ -43,8 +43,8 @@ L’interface **ID3DXInclude** possède ces méthodes.
 
 | Méthode                               | Description                                                                                           |
 |:-------------------------------------|:------------------------------------------------------------------------------------------------------|
-| [**Fermer**](id3dxinclude--close.md) | Méthode implémentée par l’utilisateur pour la fermeture d’un \# fichier include de nuanceur.<br/>                             |
-| [**Afficher**](id3dxinclude--open.md)   | Méthode implémentée par l’utilisateur pour ouvrir et lire le contenu d’un \# fichier include de nuanceur.<br/> |
+| [**Plus**](id3dxinclude--close.md) | Méthode implémentée par l’utilisateur pour la fermeture d’un \# fichier include de nuanceur.<br/>                             |
+| [**Ouvrir**](id3dxinclude--open.md)   | Méthode implémentée par l’utilisateur pour ouvrir et lire le contenu d’un \# fichier include de nuanceur.<br/> |
 
 
 

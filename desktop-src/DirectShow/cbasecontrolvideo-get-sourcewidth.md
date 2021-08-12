@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60a78fe647ebf488a47907c058962f13790f2538
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79241f52f9d7b6cb32bd9022d6d022c880656780043e8c78481975c80907511d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661494"
 ---
 # <a name="cbasecontrolvideoget_sourcewidth-method"></a>Méthode CBaseControlVideo. obten \_ SourceWidth
 
@@ -60,13 +60,13 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s
 | <dl> <dt>**E \_ échec**</dt> </dl>                | Échec.<br/>                                                              |
 | <dl> <dt>**\_pointeur E**</dt> </dl>             | Argument de pointeur **null** .<br/>                                            |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Impossible d’effectuer l’opération, car les broches ne sont pas connectées.<br/> |
-| <dl> <dt>**NOERROR**</dt> </dl>                | Opération réussie.<br/>                                                              |
+| <dl> <dt>**NOERROR**</dt> </dl>                | Réussite.<br/>                                                              |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre implémente la méthode [**IBasicVideo :: obten \_ SourceWidth**](/windows/desktop/api/Control/nf-control-ibasicvideo-get_sourcewidth) .
 
@@ -78,7 +78,7 @@ Une application peut modifier les rectangles source et de destination de la vid�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

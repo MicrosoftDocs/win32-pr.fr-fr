@@ -4,12 +4,12 @@ description: Pour une texture non compressée, utilisez les \_ indicateurs RGB D
 ms.assetid: 5bf54e8d-1dc5-4782-96c1-132d258fb560
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbaa6f86dddc7e60d7f41fc34d7c9fe994d50e4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47fe1d7da71727c2c84bb3745772a10520367ac1cf6e9c4033932548d86c1302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289796"
 ---
 # <a name="dds-texture-example"></a>Exemple de texture DDS
 
@@ -43,7 +43,7 @@ Ce tableau répertorie la quantité d’espace occupé par chaque couche pour un
 
 
 
- 
+ 
 
 Ce tableau répertorie la quantité d’espace occupé par chaque couche pour la même texture à l’aide de la compression (DXT1).
 
@@ -64,7 +64,7 @@ Ce tableau répertorie la quantité d’espace occupé par chaque couche pour la
 
 
 
- 
+ 
 
 Ce tableau répertorie la quantité d’espace occupée par chaque couche pour la même texture à l’aide d’un format de compression DXGI (dans ce cas BC3 \_ UNORM) qui requiert par conséquent l’en-tête étendu :
 
@@ -86,7 +86,7 @@ Ce tableau répertorie la quantité d’espace occupée par chaque couche pour l
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -95,9 +95,9 @@ Ce tableau répertorie la quantité d’espace occupée par chaque couche pour l
 [Guide de programmation pour DDS](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

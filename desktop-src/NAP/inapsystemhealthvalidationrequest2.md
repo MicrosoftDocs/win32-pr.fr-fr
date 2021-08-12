@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12fdbfc46578a4e64a92accc46f6b910a44dd946
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2b6438394120ecd901c6de6d7a8ccac40f742d9f73d27a36682de894d9c5a7ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620848"
 ---
 # <a name="inapsystemhealthvalidationrequest2-interface"></a>Interface INapSystemHealthValidationRequest2
 
@@ -56,7 +56,7 @@ L’interface **INapSystemHealthValidationRequest2** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un SHV ne prend pas en charge [**INapComponentConfig3**](inapcomponentconfig3.md), cette interface ne s’applique pas.
 
@@ -67,7 +67,7 @@ Si un SHV ne prend pas en charge [**INapComponentConfig3**](inapcomponentconfig3
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                 |
 | En-tête<br/>                   | <dl> <dt>NapSystemHealthValidator. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>NapSystemHealthValidator. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |

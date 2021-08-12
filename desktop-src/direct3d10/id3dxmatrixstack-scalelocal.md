@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3961db0794703e3974dbd92d8eae8293173c2354
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1e48346f50310bee25c96275dda6b003bf73933ae98c7a49ac6d1dd867dd8ec3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118301577"
 ---
 # <a name="id3dxmatrixstackscalelocal-method-d3dx10h"></a>ID3DXMATRIXStack :: ScaleLocal, méthode (D3DX10. h)
 
@@ -75,7 +75,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Cette méthode multiplie la matrice actuelle par la matrice de mise à l’échelle calculée. La transformation concerne l’origine locale de l’objet.
 

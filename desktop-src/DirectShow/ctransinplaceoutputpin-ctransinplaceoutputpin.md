@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d6b63ee3aa52bc0363bcab90275be4148659b3bb
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: faf8b2cf0a4f1def8ea89ad04bd013d3867ff5a456e6c8922f72a078d860df92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654777"
 ---
 # <a name="ctransinplaceoutputpinctransinplaceoutputpin-constructor"></a>Constructeur CTransInPlaceOutputPin. CTransInPlaceOutputPin
 
@@ -73,7 +73,7 @@ Chaîne de caractères larges contenant le nom du code confidentiel.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Le paramètre *pname* spécifie le nom du code confidentiel, qui est retourné par la méthode [**IPIN :: QueryPinInfo**](/windows/desktop/api/Strmif/nf-strmif-ipin-querypininfo) . Toutefois, la chaîne n’est pas utilisée pour l’identificateur de code confidentiel. L’identificateur de code confidentiel pour cette classe est toujours « out ». Pour plus d’informations, consultez [**QueryId**](ctransforminputpin-queryid.md).
 
@@ -83,7 +83,7 @@ Le paramètre *pname* spécifie le nom du code confidentiel, qui est retourné p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

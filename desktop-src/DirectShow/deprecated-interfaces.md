@@ -4,16 +4,16 @@ ms.assetid: 5b798477-9b36-4f59-b9cc-2938b5e4009f
 title: Interfaces déconseillées
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5584d06c5976899de6a65660d7eca838a3b22cbc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 383b2d8acdef9028020a74420655454b3da4b954ed279d30e3854878a39659a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106516348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653806"
 ---
 # <a name="deprecated-interfaces"></a>Interfaces déconseillées
 
-Les interfaces DirectShow suivantes ont été dépréciées. Ils sont toujours pris en charge pour la compatibilité descendante avec les applications existantes, mais les nouvelles applications ne doivent pas les utiliser.
+les interfaces de DirectShow suivantes sont dépréciées. Ils sont toujours pris en charge pour la compatibilité descendante avec les applications existantes, mais les nouvelles applications ne doivent pas les utiliser.
 
 -   [**IAMAnalogVideoEncoder**](/windows/desktop/api/strmif/nn-strmif-iamanalogvideoencoder)
 -   [**IAMDevMemoryAllocator**](/windows/desktop/api/strmif/nn-strmif-iamdevmemoryallocator)

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c966d031bb154b59cc54ae2e5d254347aa88d2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2a6a5dbf175408ba8421a28e9ee7b7b80876849701b849935a3a4aba9b13e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617055"
 ---
 # <a name="glcopytexsubimage2d-function"></a>glCopyTexSubImage2D fonction)
 
@@ -124,7 +124,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glCopyTexSubImage2D** remplace une partie rectangulaire d’une image de texture à deux dimensions par des pixels du trame actuel, plutôt qu’à partir de la mémoire principale comme c’est le cas pour [**glTexSubImage2D**](gltexsubimage2d.md).
 

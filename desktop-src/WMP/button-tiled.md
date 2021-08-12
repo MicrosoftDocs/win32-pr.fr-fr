@@ -3,7 +3,7 @@ title: BOUTON. en mosaïque
 description: L’attribut tileed spécifie ou récupère une valeur indiquant si l’image du bouton sera affichée en mosaïque.
 ms.assetid: 5526477d-a235-4960-adef-5cf0ef9c46be
 keywords:
-- BUTTON. lecteur Windows Media en mosaïque
+- bouton. mosaïque Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c6c1316f10ce9ae3135f4ac35ab214ecdd1096d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 32f4f1dda0b5a79749cfbffaa30f29522ff318a763ad50fcd005479afa9c8997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581373"
 ---
 # <a name="buttontiled"></a>BOUTON. en mosaïque
 

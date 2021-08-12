@@ -4,12 +4,12 @@ ms.assetid: 4f6257e0-3ca9-4d10-a207-cd9600502298
 title: Propriété AVEncVideoSourceIsBW (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 874e90031968036638604fabfc2bb5a2f5d7cf42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 903decf6a976528d050a133a7c4c6c0b3931016b1743eb926aec55ddd7d8dc2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663106"
 ---
 # <a name="avencvideosourceisbw-property"></a>Propriété AVEncVideoSourceIsBW
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, la vidéo est monochrome. Dans le cas contraire, l
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

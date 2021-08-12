@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1786477c042bb1d9ecc6340056a771141d0a3c74
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff1cd8b966456df631a573ab2e8691b3be5d8bda47b21b042986204144e639b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659802"
 ---
 # <a name="cbasefilterqueryvendorinfo-method"></a>Méthode CBaseFilter. QueryVendorInfo
 
@@ -53,7 +53,7 @@ Adresse d’une variable qui reçoit un pointeur vers une chaîne de caractères
 
 Retourne E \_ NOTIMPL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour fournir des informations sur le fournisseur d’un filtre, substituez cette méthode. Si vous implémentez cette méthode, utilisez la fonction **CoTaskMemAlloc** pour allouer de la mémoire à la chaîne. L’appelant est chargé d’appeler la fonction **CoTaskMemFree** .
 
@@ -63,7 +63,7 @@ Pour fournir des informations sur le fournisseur d’un filtre, substituez cette
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

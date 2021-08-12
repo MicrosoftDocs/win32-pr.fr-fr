@@ -3,25 +3,25 @@ title: Compilation de l’exemple de fournisseur de services à l’aide de Visu
 description: Compilation de l’exemple de fournisseur de services à l’aide de Visual Studio
 ms.assetid: db0ecc18-d5b0-47d8-9b3f-3a9644343de8
 keywords:
-- Gestionnaire de périphériques Windows Media, exemples
+- Windows Gestionnaire de périphériques de média, exemples
 - Gestionnaire de périphériques, exemples
-- Windows Media Gestionnaire de périphériques, exemple de fournisseur de services
+- Windows Gestionnaire de périphériques de support, exemple de fournisseur de services
 - Gestionnaire de périphériques, exemple de fournisseur de services
 - fournisseurs de services, exemples
 - exemples, fournisseurs de services
 - exemples, compilation à l’aide de Visual Studio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abded2aa1272f2e5e14b711c0d8b0a8ec79f280
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd220e314a6de0a9c5e4cf50ccd710a0236c3b3ec469247ef99f319b553b15c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586017"
 ---
 # <a name="compiling-the-sample-service-provider-using-visual-studio"></a>Compilation de l’exemple de fournisseur de services à l’aide de Visual Studio
 
-Le kit de développement logiciel (SDK) Windows Media format n’inclut pas de fichier solution Visual Studio. Toutefois, ce document comprend deux fichiers qui vous permettent d’utiliser Visual Studio pour générer et déboguer l’exemple de fournisseur de services. Les deux fichiers fournis sont pour Visual Studio .NET 2003.
+le kit de développement logiciel (SDK) Windows Media Format n’inclut pas de Visual Studio fichier solution. toutefois, ce document comprend deux fichiers qui vous permettent d’utiliser Visual Studio pour générer et déboguer l’exemple de fournisseur de services. les deux fichiers fournis concernent Visual Studio .net 2003.
 
 -   Enregistrez le code suivant sous la forme d’un fichier texte nommé mshdsp. vcproj dans le dossier <*chemin d’installation du kit de développement logiciel (SDK)* > \\ WMFSDK \\ WMFSDK95 \\ WMDM \\ MDSP \\ mshdsp.
 
@@ -338,9 +338,9 @@ EndGlobal
 [**Exemple de fournisseur de services**](sample-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

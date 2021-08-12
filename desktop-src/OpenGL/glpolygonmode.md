@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23d133243c1655432842a939b8da0f3a981fdffd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f040b3e44ee34d819752bae5deffbf1a02f0d38ab1249f2e32de67c262bd5f2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106512211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615205"
 ---
 # <a name="glpolygonmode-function"></a>glPolygonMode fonction)
 
@@ -84,7 +84,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glPolygonMode** contrôle l’interprétation des polygones pour la pixellisation. Le paramètre *face* décrit quel *mode* Polygon s’applique à : les polygones frontaux (GL \_ frontal), les polygones d’arrière-plan (GL \_ Back) ou les deux ( \_ recto \_ et verso GL \_ ). Le mode polygone affecte uniquement la pixellisation finale des polygones. En particulier, les vertex d’un polygone sont allumés et le polygone est coupé et éventuellement Culling avant l’application de ces modes.
 

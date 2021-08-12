@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: aed7d29653b9da6f39b1ef6ec4e600c1857744f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58ce1718abe75e2a3a992ce4a215c6bad280d7bd7de5e59f4117feaa8d475383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104482576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118282828"
 ---
 # <a name="span-idvspixengineipixengine5_freetextureasync_uint_ipixengine5callbacks_ptr_dword_dwordspanipixengine5freetextureasync-method"></a><span id="vspixengine.ipixengine5_freetextureasync_uint_ipixengine5callbacks_ptr_dword_dword"></span>IPixEngine5 :: FreeTextureAsync, méthode
 
@@ -54,7 +54,7 @@ Cookie qui idenfies la demande de manière unique et qui peut être utilisé pou
 *progressIntervalMsecs*   
 Non utilisé.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

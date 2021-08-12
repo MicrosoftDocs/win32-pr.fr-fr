@@ -1,17 +1,17 @@
 ---
-description: Génération de graphiques dynamiques
+description: génération de Graph dynamique
 ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
-title: Génération de graphiques dynamiques
+title: génération de Graph dynamique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710bf5f648fc91e8db6bf62d81b41327f874ddf7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8c7296b95bc97461eb5a16ee577acb4bd267ee1a25f9be357a00fef7d4bdba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106544549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652789"
 ---
-# <a name="dynamic-graph-building"></a>Génération de graphiques dynamiques
+# <a name="dynamic-graph-building"></a>génération de Graph dynamique
 
 Si vous avez besoin de modifier un graphique de filtre existant, vous pouvez arrêter le graphique, apporter les modifications et redémarrer le graphique. Il s’agit généralement de la meilleure approche. Toutefois, dans certaines circonstances, vous souhaiterez peut-être modifier un graphique pendant qu’il est toujours en cours d’exécution. Par exemple :
 

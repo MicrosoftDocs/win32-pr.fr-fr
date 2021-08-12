@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c86ed919af270df508eb8f76e32597b410dec56b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b077548e6a427e70d098cbece93cdc033972cf48a664dd85cd0dfab747d88c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661141"
 ---
 # <a name="cbasecontrolvideogetdestinationposition-method"></a>Méthode CBaseControlVideo. GetDestinationPosition
 
@@ -84,13 +84,13 @@ Retourne une valeur **HRESULT** qui dépend de l’implémentation de. Il peut s
 | <dl> <dt>**E \_ échec**</dt> </dl>                | Échec.<br/>                                                              |
 | <dl> <dt>**\_pointeur E**</dt> </dl>             | Argument de pointeur **null** .<br/>                                            |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Impossible d’effectuer l’opération, car les broches ne sont pas connectées.<br/> |
-| <dl> <dt>**NOERROR**</dt> </dl>                | Opération réussie.<br/>                                                              |
+| <dl> <dt>**NOERROR**</dt> </dl>                | Réussite.<br/>                                                              |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction membre peut être utilisée à la place d’appels séparés aux fonctions membres [**CBaseControlVideo :: obten \_ DestinationLeft**](cbasecontrolvideo-get-destinationleft.md), [**CBaseControlVideo :: obten \_ DestinationTop**](cbasecontrolvideo-get-destinationtop.md), [**CBaseControlVideo :: obten \_ DestinationWidth**](cbasecontrolvideo-get-destinationwidth.md)et [**CBaseControlVideo :: obtient \_ DestinationHeight**](cbasecontrolvideo-get-destinationheight.md) . Une application peut modifier les rectangles source et de destination de la vidéo par le biais de l’interface [**IBasicVideo**](/windows/desktop/api/Control/nn-control-ibasicvideo) . Le rectangle source affecte la section de la source vidéo native qui s’affiche sur l’écran. le rectangle de destination affecte l’emplacement où la vidéo s’affichera lors de la lecture. Le rectangle de destination est relatif à la zone cliente de la fenêtre dans laquelle il est lu. L’angle supérieur gauche de la fenêtre est coordonnée (0,0).
 
@@ -100,7 +100,7 @@ Cette fonction membre peut être utilisée à la place d’appels séparés aux 
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Ctlutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Ctlutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
