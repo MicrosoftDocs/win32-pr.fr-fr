@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3eb5cd337108d08efee465c136adf1afb4921123
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f39135c34c07a9a20f03c9ebc979647733884b37680ef07b9bc666b882052690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284173"
 ---
 # <a name="texdepth---ps"></a>texdepth-PS
 
@@ -29,7 +29,7 @@ Calculez les valeurs de profondeur à utiliser dans le test de comparaison de m�
 
 
 
- 
+ 
 
 where
 
@@ -45,7 +45,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction utilise R5. r/R5. g dans le test de comparaison de la mémoire tampon de profondeur pour ce pixel. Les données des canaux bleu et alpha sont ignorées. Si R5. g = 0, le résultat de R5. r/R5. g = 1,0.
 
@@ -81,9 +81,9 @@ texdepth  r5         // Calculate pixel depth as r5.r / r5.g
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

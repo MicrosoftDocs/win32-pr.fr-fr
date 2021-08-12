@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a80132723be0b70f2c4afe93306d7f581b7734c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49b7f4aaac21cf6a55360e2e1b970bd9dfa62c0422241f7356871117e138d57d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528561"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654958"
 ---
 # <a name="ctransinplacefilterchecktransform-method"></a>Méthode CTransInPlaceFilter. CheckTransform
 
@@ -61,7 +61,7 @@ Pointeur vers un objet **CMediaType** qui spécifie le type de sortie.
 
 Retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le filtre **CTransInPlace** n’appelle jamais `CheckTransform` . Au lieu de cela, toute connexion de code confidentiel utilise [**CTransformFilter :: CheckInputType**](ctransformfilter-checkinputtype.md) pour vérifier le type de média, en partant du principe que les types d’entrée et de sortie correspondent toujours.
 
@@ -71,7 +71,7 @@ Le filtre **CTransInPlace** n’appelle jamais `CheckTransform` . Au lieu de cel
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Transip. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Transip. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

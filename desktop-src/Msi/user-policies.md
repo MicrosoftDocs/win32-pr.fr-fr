@@ -4,12 +4,12 @@ ms.assetid: 74e940a1-dc7c-4ea3-ab62-d118204dac3e
 title: Stratégies utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26cec4066e4d8267b2750d538e691d91382550fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31ce52f4a691729c71ed57ddba8dd80811681844e1ba6c02664ee50c11f8d0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623088"
 ---
 # <a name="user-policies"></a>Stratégies utilisateur
 
@@ -19,7 +19,7 @@ Les stratégies d’utilisateur suivantes peuvent être configurées sous
 
 
 
-| Nom de la valeur                                                            | Types de données de valeur          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Nom de valeur                                                            | Types de données de valeur          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |-----------------------------------------------------------------------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [AlwaysInstallElevated a](alwaysinstallelevated.md)<br/>         | **\_valeur DWORD reg**<br/> | Si cette valeur est définie sur « 1 » et que la valeur de l’ordinateur correspondant est également définie, le programme d’installation installe toujours avec des privilèges élevés.<br/> Dans le cas contraire, le programme d’installation utilise des privilèges élevés pour installer les applications managées et utilise le niveau de privilège de l’utilisateur actuel pour les applications non gérées.<br/>                                                                                                                                                                                                      |
 | [DisableMedia](disablemedia.md)<br/>                           | **\_valeur DWORD reg**<br/> | Si la stratégie [DisableMedia](disablemedia.md) est définie sur « 1 », les utilisateurs et les administrateurs qui exécutent une installation de maintenance d’un produit ne peuvent pas utiliser la boîte de dialogue Parcourir pour parcourir les sources de média, telles que les CD-ROM, pour les sources d’autres produits installables. La recherche d’autres produits est empêchée, que l’installation soit avec des privilèges élevés. Il est toujours possible pour l’utilisateur de réinstaller le produit à partir d’un support si celui-ci possède une source de média correctement libellée.<br/> |

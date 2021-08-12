@@ -3,7 +3,7 @@ title: Objet DVD
 description: L’objet DVD fournit des propriétés et des méthodes pour travailler avec des DVD.
 ms.assetid: 953f6ba5-637b-4f70-aeea-dfe9f52d8675
 keywords:
-- Objet DVD lecteur Windows Media
+- objet DVD Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 656b08f90f3b6878cfde2a526ddf682a82dd8498
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: e7d399a3d62eb2d37402db599bd5d3303e5e978ab6ab5fbfee4b4c8970c9e836
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104381011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579061"
 ---
 # <a name="dvd-object"></a>Objet DVD
 
@@ -35,7 +35,7 @@ L’objet **DVD** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **DVD** prend en charge les méthodes suivantes.
 
@@ -50,7 +50,7 @@ L’objet **DVD** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **DVD** est accessible par le biais de la propriété suivante.
 
@@ -62,7 +62,7 @@ L’objet **DVD** est accessible par le biais de la propriété suivante.
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -71,9 +71,9 @@ L’objet **DVD** est accessible par le biais de la propriété suivante.
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

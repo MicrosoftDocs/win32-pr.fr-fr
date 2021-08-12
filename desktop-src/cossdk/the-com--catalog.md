@@ -4,12 +4,12 @@ ms.assetid: 1838757c-aa8e-4678-8042-207498fb0bbc
 title: Le catalogue COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad869a6df6a61fc338fe07002512a1de27002788
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b345c45fddab245c1e2290dc279742ac7b3b6b25c093d677c74b232077b43ae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305266"
 ---
 # <a name="the-com-catalog"></a>Le catalogue COM+
 
@@ -18,23 +18,23 @@ Le catalogue COM+ stocke les attributs d’application COM+, les attributs de cl
 Le catalogue COM+ utilise deux magasins différents, comme suit :
 
 -   La base de données d’inscription COM+
--   Le Registre Windows (**HKEY \_ classes \_ root**)
+-   registre Windows (**racine des \_ CLASSES \_ HKEY**)
 
 Le catalogue présente une vue logique et unifiée de ces deux magasins et les expose via la bibliothèque d’administration COM+. Cette bibliothèque fournit, via un langage de script, toutes les fonctionnalités de l’outil d’administration Services de composants.
 
-Pour les composants COM existants qui ne nécessitent pas de nouveaux services COM+, la recherche s’effectue dans le Registre Windows existant. Le catalogue COM+ utilise également le Registre Windows pour la bibliothèque de types et l’inscription de proxy/stub d’interface.
+pour les composants COM existants qui ne nécessitent pas de nouveaux services COM+, la recherche s’effectue dans le registre de Windows existant. le catalogue COM+ utilise également le registre Windows pour la bibliothèque de types et l’inscription de proxy/stub d’interface.
 
 ## <a name="split-registration"></a>Fractionner l’inscription
 
-Pour les nouveaux composants qui sont déjà des composants COM existants qui sont utilisés dans l’environnement de services (par exemple, les composants MTS), l’aspect COM de base de l’inscription est stocké dans le Registre Windows et les nouveaux services et attributs (par exemple, les composants mis en file d’attente) sont stockés dans la base de données d’inscription COM+. C’est ce qu’on appelle une *inscription fractionnée*.
+pour les nouveaux composants qui sont déjà des composants com existants qui sont utilisés dans l’environnement de services (par exemple, les composants MTS), l’aspect com de base de l’inscription est stocké dans le registre Windows et les nouveaux services et attributs (par exemple, les composants mis en file d’attente) sont stockés dans la base de données d’inscription COM+. C’est ce qu’on appelle une *inscription fractionnée*.
 
-Chaque attribut est stocké dans un seul emplacement : le Registre Windows ou la base de données d’inscription COM+. Les nouveaux composants COM sont inscrits exclusivement dans la base de données d’inscription COM+, avec une certaine duplication dans le Registre Windows afin que les outils existants puissent les utiliser.
+chaque attribut est stocké dans un seul emplacement : le registre Windows ou la base de données d’inscription COM+. les nouveaux composants COM sont inscrits exclusivement dans la base de données d’inscription COM+, avec une certaine duplication dans le registre Windows pour que les outils existants puissent les utiliser.
 
 ## <a name="transactional-updates-to-the-catalog"></a>Mises à jour transactionnelles du catalogue
 
 Certaines opérations sur le catalogue sont effectuées de manière transactionnelle. Lorsque vous appelez la bibliothèque d’administration COM+ à partir d’un composant transactionnel, les mises à jour apportées à la base de données d’inscription COM+ se produisent dans la limite de transaction du composant appelant.
 
-Toutefois, il n’est pas garanti que les mises à jour qui impliquent des modifications d’autres magasins (telles que le système de fichiers et le Registre Windows) soient entièrement transactionnelles. Une transaction abandonnée peut conserver ces magasins dans un état incohérent avec les modifications apportées à l’un ou à la base de données d’inscription COM+.
+toutefois, il n’est pas garanti que les mises à jour qui impliquent des modifications d’autres magasins (telles que le système de fichiers et le registre Windows) soient entièrement transactionnelles. Une transaction abandonnée peut conserver ces magasins dans un état incohérent avec les modifications apportées à l’un ou à la base de données d’inscription COM+.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

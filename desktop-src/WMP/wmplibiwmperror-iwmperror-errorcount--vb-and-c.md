@@ -3,9 +3,9 @@ title: IWMPError propriété errorCount
 description: La propriété errorCount obtient le nombre d’erreurs dans la file d’attente d’erreurs.
 ms.assetid: a30750c8-2025-4087-bd2b-f313ccbde38c
 keywords:
-- propriété errorCount lecteur Windows Media
-- propriété errorCount lecteur Windows Media, interface IWMPError
-- Interface IWMPError lecteur Windows Media, propriété errorCount
+- Lecteur Windows Media de la propriété errorCount
+- Lecteur Windows Media de la propriété errorCount, interface IWMPError
+- Lecteur Windows Media de l’interface IWMPError, propriété errorCount
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b62c16f07260847c91f1c9f18885587444a4ceb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42d288d1476318b1cace98d4b7549b7f5755b383da19d88ce04cbcf271326ac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568771"
 ---
 # <a name="iwmperrorerrorcount-property"></a>IWMPError :: errorCount, propriété
 

@@ -4,21 +4,21 @@ ms.assetid: 2925c315-4488-4961-a8f7-77a9ac571b70
 title: Transitions et effets
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43f30d3a404993e58b859a2cacdf0bcd4718e45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f9142baf35b85a3887600abb2730b9ddbc3a16af625420ac3ef1378e8cd86df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106541818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651231"
 ---
 # <a name="transitions-and-effects"></a>Transitions et effets
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-Cette section décrit les effets et les transitions fournis avec les services d’édition DirectShow.
+cette section décrit les effets et les transitions fournis avec DirectShow Services d’édition.
 
 
 
@@ -57,7 +57,7 @@ Cette section décrit les effets et les transitions fournis avec les services d�
 
 <dl> <dt>
 
-[Référence C++ des services d’édition DirectShow](directshow-editing-services-c---reference.md)
+[DirectShow Référence C++ des services de modification](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

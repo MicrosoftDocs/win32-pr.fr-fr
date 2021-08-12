@@ -1,6 +1,6 @@
 ---
 title: Énumération D3DX11_NORMALMAP_FLAG (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Options de mappage normales. Vous pouvez combiner n’importe quel nombre de ces indicateurs à l’aide d’une opération or au niveau du bit.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Options de mappage normales. Vous pouvez combiner n’importe quel nombre de ces indicateurs à l’aide d’une opération or au niveau du bit.'
 ms.assetid: cc9c8a54-be1e-4594-8274-9955562a6fa8
 keywords:
 - Énumération D3DX11_NORMALMAP_FLAG Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37f5d9669370e6df03d783ae1cb82a5eeb5a9142
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dbea7c787ac2e2aa7d988e052e2ca548a49a338c9b9f981ce73d51c40e0b4edd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300648"
 ---
 # <a name="d3dx11_normalmap_flag-enumeration"></a>D3DX11 \_ NORMALMAP \_ Flag (énumération)
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -89,7 +89,7 @@ Calcule le terme d’occlusion par pixel et l’encode en alpha. Une valeur alph
 
 Ces indicateurs sont utilisés par [**D3DX11ComputeNormalMap**](d3dx11computenormalmap.md).
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

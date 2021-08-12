@@ -50,12 +50,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ef2e518145ae34533477bcbefb92e15d9c8d94
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e896a8ce82a6e1dee7896a242bb2dace442dba595a66a7c45a7c3baf3060dff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606130"
 ---
 # <a name="imstscadvancedsettingsplugindlls-property"></a>IMsTscAdvancedSettings ::P propriété luginDlls
 
@@ -82,11 +82,11 @@ Liste séparée par des virgules des noms des dll clientes du canal virtuel à c
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour des raisons de sécurité, si le contrôle est hébergé dans une page Web, la propriété **PluginDlls** accepte uniquement une liste nommée de dll clientes de canal virtuel. Le contrôle retourne une erreur si un système de fichiers ou un chemin d’accès UNC est spécifié.
 
-Les dll du client de canal virtuel qui seront accessibles à partir d’une page Web doivent être installées dans le répertoire « % WinDir% \\ system32 », car le contrôle ActiveX Bureau à distance accède uniquement aux fichiers dll situés à cet emplacement. Si le contrôle n’est pas hébergé dans une page Web, cette restriction de sécurité n’existe pas et des chemins d’accès complets peuvent être utilisés pour accéder et charger des dll clientes de canal virtuel situées n’importe où sur le système de fichiers.
+les dll du client de canal virtuel qui seront accessibles à partir d’une page web doivent être installées dans le répertoire « % WinDir% \\ system32 », car le contrôle de Bureau à distance ActiveX accède uniquement aux fichiers DLL situés à cet emplacement. Si le contrôle n’est pas hébergé dans une page Web, cette restriction de sécurité n’existe pas et des chemins d’accès complets peuvent être utilisés pour accéder et charger des dll clientes de canal virtuel situées n’importe où sur le système de fichiers.
 
 Pour plus d’informations sur la Connexion Bureau à distance par le Web, consultez [Requirements for connexion Bureau à distance par le Web](requirements-for-remote-desktop-web-connection.md).
 

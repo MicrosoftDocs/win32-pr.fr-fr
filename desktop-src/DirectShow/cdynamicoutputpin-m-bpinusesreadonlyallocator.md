@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ff4e7ab7dd887f7290cfc229c7af439bf8150277
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2a03816d3ad324f7f50a3edbfd1166403442afec7133d14288d0aafa3d91cd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656424"
 ---
 # <a name="cdynamicoutputpinm_bpinusesreadonlyallocator-member"></a>CDynamicOutputPin :: m \_ bPinUsesReadOnlyAllocator, membre
 
@@ -42,7 +42,7 @@ BOOL m_bPinUsesReadOnlyAllocator;
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

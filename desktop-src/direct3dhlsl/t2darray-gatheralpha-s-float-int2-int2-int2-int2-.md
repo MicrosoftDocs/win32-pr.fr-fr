@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ff6910152c9ac133c819456b9ec7aaeb2406b791
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6f60fc1ceaac93b82210442474c252acf83a10e283407693bc6c0e42820d1547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285009"
 ---
 # <a name="texture2darraygatheralphasfloatint2int2int2int2-function"></a>Texture2DArray :: GatherAlpha (S, float, Int2, Int2, Int2, Int2), fonction
 
@@ -98,7 +98,7 @@ Quatrième composant de décalage appliqué aux coordonnées de texture avant l�
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **TemplateType**
 
@@ -112,7 +112,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domain | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

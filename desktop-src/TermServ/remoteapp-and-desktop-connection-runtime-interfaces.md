@@ -7,12 +7,12 @@ keywords:
 - Services Bureau à distance Services Bureau à distance, Connexions aux programmes RemoteApp et aux services Bureau à distance référence de l’API Runtime
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b7c3c2fd3841cfe797fc559ba1aa30d3479436
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 974b68a5787a2e2e7fb0ad6e0cd653d4c1c4e583eb22f4475e749b8e03889970
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104100941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118605284"
 ---
 # <a name="remoteapp-and-desktop-connection-runtime-interfaces"></a>Interfaces d’exécution Connexions aux programmes RemoteApp et aux services Bureau à distance
 
@@ -99,9 +99,9 @@ Expose des méthodes qui gèrent les informations d’identification et les conn
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

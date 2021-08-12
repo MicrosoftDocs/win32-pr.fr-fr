@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 481c80b6d209e0da8d00ef06d88392504bcae8e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f2d0da3d05fe050f32d5a35bbbe7de558e1c4962fa84a958855b2960e343942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586883"
 ---
 # <a name="_bitmapinfoheader-structure"></a>\_BITMAPINFOHEADER, structure
 
@@ -85,7 +85,7 @@ Spécifie le nombre de bits par pixel. Le membre **biBitCount** de la structure 
 
 
 
-| Valeur | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Value | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1     | La bitmap est monochrome et le membre bmiColors contient deux entrées. Chaque bit du tableau de bitmaps représente un pixel. Si le bit est clair, le pixel est affiché avec la couleur de la première entrée dans la table bmiColors ; Si le bit est défini, le pixel a la couleur de la deuxième entrée dans la table.                                                                                                                                                                                                                                                                                                        |
 | 2     | La bitmap possède quatre valeurs de couleur possibles.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
@@ -108,10 +108,10 @@ Spécifie le type de compression d’une image bitmap ascendante compressée (le
 
 
 
-| Valeur         | Description                                                                                                                                                                                                                                                                                                        |
+| Value         | Description                                                                                                                                                                                                                                                                                                        |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \_RGB bi       | Format non compressé.                                                                                                                                                                                                                                                                                            |
-| champs de \_ passe bi | Spécifie que l’image bitmap n’est pas compressée et que la table des couleurs est composée de trois masques de couleur DWORD qui spécifient respectivement les composants rouge, vert et bleu de chaque pixel. Cela est valide lorsqu’il est utilisé avec des bitmaps 16-bpp et 32-BPP. Cette valeur est valide dans Microsoft Windows CE version 2,0 et versions ultérieures. |
+| champs de \_ passe bi | Spécifie que l’image bitmap n’est pas compressée et que la table des couleurs est composée de trois masques de couleur DWORD qui spécifient respectivement les composants rouge, vert et bleu de chaque pixel. Cela est valide lorsqu’il est utilisé avec des bitmaps 16-bpp et 32-BPP. cette valeur est valide dans Microsoft Windows CE version 2,0 et versions ultérieures. |
 
 
 

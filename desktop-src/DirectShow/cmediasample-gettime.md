@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8ff2035ede3e49feb2bc14a7aa31cfc18f2e7d23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 755965864692cf2b34ebaadc6e064a47a7514c69fe891a6a15f1bb364e5345e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655250"
 ---
 # <a name="cmediasamplegettime-method"></a>CMediaSample. GetTime, méthode
 
@@ -65,7 +65,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
 | Code de retour                                                                                                   | Description                                                 |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                          | Opération réussie.<br/>                                         |
+| <dl> <dt>**\_OK**</dt> </dl>                          | Réussite.<br/>                                         |
 | <dl> <dt>**VFW \_ S \_ sans \_ heure d’arrêt \_**</dt> </dl>         | L’exemple a une heure de début valide, mais aucune heure d’arrêt.<br/> |
 | <dl> <dt>**\_exemple de temps d’échantillonnage VFW E \_ \_ \_ non \_ défini**</dt> </dl> | L’exemple n’a pas de datage valide.<br/>          |
 
@@ -73,7 +73,7 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les variables de membre de fin [**CMediaSample :: m \_ Start**](cmediasample-m-start.md) et [**CMediaSample :: m \_**](cmediasample-m-end.md) spécifient les horodatages. La variable de membre [**CMediaSample :: m \_ dwFlags**](cmediasample-m-dwflags.md) spécifie si les horodatages sont valides.
 
@@ -85,7 +85,7 @@ Pour plus d’informations sur les horodatages, consultez [heure et horloges dan
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

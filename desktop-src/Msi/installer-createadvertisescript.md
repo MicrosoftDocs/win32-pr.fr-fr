@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 9ec4b18eee376e7bde4824a497ea14b503045f43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9416b3b503db11411db93c66242ea55587e6175344313f785c08392c72ad0991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118631955"
 ---
 # <a name="installercreateadvertisescript-method"></a>Installer :: CreateAdvertiseScript, méthode
 
@@ -47,7 +47,7 @@ La méthode **CreateAdvertiseScript** de l’objet [**installer**](installer-obj
 *packagePath* 
 </dt> <dd>
 
-Chemin d’accès complet au package de Windows Installer (. msi) à publier.
+chemin d’accès complet au package de Windows Installer (.msi) à publier.
 
 </dd> <dt>
 
@@ -114,7 +114,7 @@ Options de publication. Ce paramètre est facultatif. Ce paramètre peut prendre
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**AdvertiseProduct**](installer-advertiseproduct.md) utilise la fonction [**MsiAdvertiseProductEx**](/windows/desktop/api/Msi/nf-msi-msiadvertiseproductexa) .
 
@@ -142,7 +142,7 @@ Installer.CreateAdvertiseScript "\\products\public\orca\orca.msi", "c:\scripts\o
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 4,5 sur Windows Server 2003 et Windows XP<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 4,5 sur Windows Server 2003 et Windows XP<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                           |
 | IID<br/>     | IID \_ IInstaller est défini en tant que 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 
@@ -155,7 +155,7 @@ Installer.CreateAdvertiseScript "\\products\public\orca\orca.msi", "c:\scripts\o
 [**Programme d’installation**](installer-object.md)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
+[non pris en charge dans Windows Installer 3,1 et versions antérieures](not-supported-in-windows-installer-version-3-1.md)
 </dt> </dl>
 
  

@@ -4,17 +4,17 @@ ms.assetid: 40323e64-ad5f-4646-bad7-2a4e7d0ddcf6
 title: Élément clip
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d937f942ba7b564e65b0e37d9c11929805287da
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1b94ffdbd3d9b49d961cdefdd64de9a212858c5da4859c3beddb77db0ab732d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655513"
 ---
 # <a name="clip-element"></a>Élément clip
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

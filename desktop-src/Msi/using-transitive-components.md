@@ -4,12 +4,12 @@ ms.assetid: 73677573-945f-4646-89d8-93e28f7856fe
 title: Utilisation de composants transitifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35982aafd486a62ce8560e507b8b6caf88e32591
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 49ad6906b3e5d29ba6c0e3f8e279f4a1df2d5578f931219b6962062efaabd375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103953508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622887"
 ---
 # <a name="using-transitive-components"></a>Utilisation de composants transitifs
 
@@ -43,7 +43,7 @@ Le bit ne doit être utilisé qu’avec des conditions basées sur les États de
 > [!Note]
 > À moins que le bit transitif de la colonne attributs ne soit défini pour un composant, le composant reste activé une fois installé, même si l’instruction conditionnelle dans la colonne condition prend la valeur false lors d’une installation de maintenance ultérieure du produit.
 > 
-> Dans la plupart des cas, si une application comprend des composants transitifs, Windows Installer nécessite que la source de l’application répare ou met à niveau l’application. Dans ce cas, le CD-ROM de restauration du système fourni par un fabricant d’équipements d’origine ne fonctionne pas et une source d’installation réelle doit être fournie pour l’application.
+> dans la plupart des cas, si une application comprend des composants transitifs, Windows Installer nécessite que la source de l’application répare ou met à niveau l’application. Dans ce cas, le CD-ROM de restauration du système fourni par un fabricant d’équipements d’origine ne fonctionne pas et une source d’installation réelle doit être fournie pour l’application.
 
  
 

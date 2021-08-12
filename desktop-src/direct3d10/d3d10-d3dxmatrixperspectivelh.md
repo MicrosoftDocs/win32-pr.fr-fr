@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a0f6c976f64fe64d3ca583351ae5c7c32aa958fd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ea9b91fe926ecbab34fa65fd6c21f852501b6d515acaf8b9aaa5b8971a27c37b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108109097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304503"
 ---
 # <a name="d3dxmatrixperspectivelh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveLH, fonction (D3DX10Math. h)
 
@@ -95,7 +95,7 @@ Type : **[ **D3DXMATRIX**](../direct3d9/d3dxmatrix.md)\***
 
 Pointeur vers une structure D3DXMATRIX qui est une matrice de projection de perspective de gauche.
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Tous les paramètres de la fonction D3DXMatrixPerspectiveLH sont des distances dans l’espace de l’appareil photo. Les paramètres décrivent les dimensions du volume de la vue.
 

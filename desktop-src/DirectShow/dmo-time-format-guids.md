@@ -1,17 +1,17 @@
 ---
 description: Le tableau suivant répertorie les identificateurs globaux uniques (GUID) définis pour les formats d’heure des paramètres de média.
 ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
-title: GUID de format d’heure DMO (Medparam. h)
+title: DMO GUID de format d’heure (Medparam. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2559c702ed7310343aea017bacec28a154ab3cb9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e55c74a0c52e9af0c4536d2a6c9c45b303e0bae57b39b679aec02f0e0769624c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653049"
 ---
-# <a name="dmo-time-format-guids"></a>GUID de format d’heure DMO
+# <a name="dmo-time-format-guids"></a>DMO GUID de format d’heure
 
 Le tableau suivant répertorie les identificateurs globaux uniques (GUID) définis pour les formats d’heure des paramètres de média.
 
@@ -19,7 +19,7 @@ Le tableau suivant répertorie les identificateurs globaux uniques (GUID) défin
 
 | GUID                                                                                                                                                                             | Description                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
-| <span id="GUID_TIME_MUSIC"></span><span id="guid_time_music"></span><dl> <dt>**durée du GUID \_ \_**</dt> </dl>             | Durée de la musique, en parties par trimestre.<br/>   |
+| <span id="GUID_TIME_MUSIC"></span><span id="guid_time_music"></span><dl> <dt>**durée du GUID \_ \_**</dt> </dl>             | Musique temps, en parties par trimestre.<br/>   |
 | <span id="GUID_TIME_REFERENCE"></span><span id="guid_time_reference"></span><dl> <dt>**\_référence de temps GUID \_**</dt> </dl> | Temps de référence, en unités de 100 nanosecondes.<br/> |
 | <span id="GUID_TIME_SAMPLES"></span><span id="guid_time_samples"></span><dl> <dt>**\_exemples d’heure GUID \_**</dt> </dl>       | Échantillons par seconde.<br/>                      |
 
@@ -39,7 +39,7 @@ Le tableau suivant répertorie les identificateurs globaux uniques (GUID) défin
 
 <dl> <dt>
 
-[**Constantes DMO**](dmo-constants.md)
+[**DMO Constantes**](dmo-constants.md)
 </dt> </dl>
 
  

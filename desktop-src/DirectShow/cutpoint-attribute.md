@@ -4,17 +4,17 @@ ms.assetid: bdb0b8cd-025f-4b56-9cd4-f71c58ee809a
 title: Attribut cutpoint
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dd516bd67577906a0a06d8da692ffbd7563ce32f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7332d3ef1b608b192b18e0d32bc99bce547058754950847e0a9767eb500a1553
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654590"
 ---
 # <a name="cutpoint-attribute"></a>Attribut cutpoint
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 

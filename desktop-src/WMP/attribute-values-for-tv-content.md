@@ -3,25 +3,25 @@ title: Valeurs d’attribut pour le contenu TV
 description: Valeurs d’attribut pour le contenu TV
 ms.assetid: 70afb0fc-9eb0-4b94-a32a-f9202db94270
 keywords:
-- Lecteur Windows Media, attributs des éléments multimédias
-- Modèle objet du lecteur Windows Media, attributs des éléments multimédias
+- Lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media modèle objet, attributs pour les éléments multimédias
 - modèle objet, attributs pour les éléments multimédias
-- Windows Media Player Mobile, attributs pour les éléments multimédias
-- Contrôle ActiveX du lecteur Windows Media, attributs des éléments multimédias
-- Contrôle ActiveX Windows Media Player Mobile, attributs des éléments multimédias
-- Contrôle ActiveX, attributs pour les éléments multimédias
-- Bibliothèque du lecteur Windows Media, attributs pour les éléments multimédias
+- Lecteur Windows Media Mobile, attributs pour les éléments multimédias
+- Lecteur Windows Media ActiveX contrôle, attributs pour les éléments multimédias
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs pour les éléments multimédias
+- contrôle ActiveX, attributs pour les éléments multimédias
+- bibliothèque de Lecteur Windows Media, attributs des éléments multimédias
 - bibliothèque, attributs pour les éléments multimédias
 - attributs, contenu TV
 - Valeurs d’attribut de contenu TV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb63e872edd80944772a320da5f2094e6d8f5757
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa96f855d90fe0b65c4e9483dcb2ba4ae3ff7be049f1346f1038097789b2126c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583030"
 ---
 # <a name="attribute-values-for-tv-content"></a>Valeurs d’attribut pour le contenu TV
 
@@ -36,7 +36,7 @@ using WMPLib;
 
 
 
-Le lecteur Windows Media 10 ou une version ultérieure peut organiser le contenu TV dans la bibliothèque. Le lecteur Windows Media traite le contenu TV comme une sous-catégorie de contenu vidéo. Pour que le contenu vidéo apparaisse dans les nœuds TV de la bibliothèque, définissez les attributs **WM/MediaClassPrimaryID** et **WM/MediaClassSecondaryID** sur les valeurs du tableau suivant à l’aide du *média*. méthode **setItemInfo** :
+Lecteur Windows Media 10 ou une version ultérieure peut organiser le contenu TV dans la bibliothèque. Lecteur Windows Media traite le contenu TV comme une sous-catégorie de contenu vidéo. Pour que le contenu vidéo apparaisse dans les nœuds TV de la bibliothèque, définissez les attributs **WM/MediaClassPrimaryID** et **WM/MediaClassSecondaryID** sur les valeurs du tableau suivant à l’aide du *média*. méthode **setItemInfo** :
 
 
 
@@ -47,7 +47,7 @@ Le lecteur Windows Media 10 ou une version ultérieure peut organiser le contenu
 
 
 
- 
+ 
 
 Vous pouvez également utiliser ces valeurs pour déterminer si un élément multimédia numérique particulier contient du contenu TV à l’aide du *média*. **getItemInfo** ou *Media*. méthodes **getItemInfoByType** .
 
@@ -71,7 +71,7 @@ media.setItemInfo("WM/MediaClassSecondaryID", "BA7F258A-62F7-47A9-B21F-4651C42A0
 
 
 
-Pour plus d’informations sur les valeurs possibles pour les attributs de classe de média, consultez les [instructions d’utilisation des métadonnées Windows Media](/previous-versions/ms867702(v=msdn.10)).
+pour plus d’informations sur les valeurs possibles pour les attributs de classe de média, consultez les [instructions d’utilisation des métadonnées de média Windows](/previous-versions/ms867702(v=msdn.10)).
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -86,9 +86,9 @@ Pour plus d’informations sur les valeurs possibles pour les attributs de class
 [**Objet Media**](media-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

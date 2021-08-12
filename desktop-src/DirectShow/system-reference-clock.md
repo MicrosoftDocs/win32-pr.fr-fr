@@ -4,12 +4,12 @@ ms.assetid: 0247dcb9-64ee-4562-944a-44bcfae80f2d
 title: Horloge de référence système
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c8de8b208e32b6ea4772f3183c38a816ea43bb6
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f9b3b4fa69b2ff9b74b937dd38d8be83203d5cdd43ba9a26d2cac4077c40c811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651839"
 ---
 # <a name="system-reference-clock"></a>Horloge de référence système
 
@@ -30,7 +30,7 @@ L’objet horloge de référence système implémente une horloge de référence
 
 <dl> <dt>
 
-[Objets DirectShow](directshow-objects.md)
+[DirectShow Objets](directshow-objects.md)
 </dt> <dt>
 
 [Horloges de référence](reference-clocks.md)

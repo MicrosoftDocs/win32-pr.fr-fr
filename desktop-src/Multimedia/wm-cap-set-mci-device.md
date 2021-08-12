@@ -3,7 +3,7 @@ title: Message WM_CAP_SET_MCI_DEVICE (VFW. h)
 description: Le \_ message WM Cap \_ Set \_ MCI \_ Device spécifie le nom du périphérique vidéo MCI à utiliser pour capturer les données. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capSetMCIDeviceName.
 ms.assetid: 83fdf567-ceb2-45aa-8529-433a5c64ac0a
 keywords:
-- Message WM_CAP_SET_MCI_DEVICE Windows Multimedia
+- message WM_CAP_SET_MCI_DEVICE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86187f3357bf72866e05b497332454c10bcd2fd3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2df82b171e2353b51198fcd4a908abb586d981417c3fd14e5a81731975012aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103740053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622178"
 ---
 # <a name="wm_cap_set_mci_device-message"></a>Message de l' \_ appareil WM embout \_ Set \_ MCI \_
 
@@ -49,7 +49,7 @@ Pointeur vers une chaîne se terminant par un caractère null qui contient le no
 
 Retourne la **valeur true** en cas de réussite ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce message stocke le nom du périphérique MCI dans une structure interne. Il n’ouvre pas ou n’accède pas à l’appareil. Le nom de périphérique par défaut est **null**.
 

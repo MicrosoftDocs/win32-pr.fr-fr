@@ -4,32 +4,32 @@ description: Extraction avec IWMPPlayerServices setTaskPane
 ms.assetid: 0d3efb0e-e8f5-40e3-abb5-6ad22009a4eb
 keywords:
 - Lecteur Windows Media, extraction de CD
-- Modèle d’objet du lecteur Windows Media, extraction de CD
+- modèle d’objet Lecteur Windows Media, extraction de CD
 - modèle d’objet, extraction de CD
-- Contrôle Windows Media Player ActiveX, extraction de CD
-- Contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile contrôle ActiveX, extraction de CD
-- Windows Media Player Mobile, extraction de CD
+- contrôle de ActiveX Lecteur Windows Media, extraction de CD
+- contrôle de ActiveX, extraction de CD
+- Lecteur Windows Media contrôle de ActiveX Mobile, extraction de CD
+- Lecteur Windows Media Mobile, extraction de CD
 - Extraction de CD, interface IWMPPlayerServices setTaskPane
 - extraction de CD, interface IWMPPlayerServices setTaskPane
 - Interface IWMPPlayerServices setTaskPane
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfb1a09d67f310266ae4818bc0b594fe3b74d128
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2abf53d29284b5da629598e6f23d6dcae78c69c60c23ba07f30445d5252845e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104462778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569832"
 ---
 # <a name="ripping-by-using-iwmpplayerservicessettaskpane"></a>Extraction à l’aide de IWMPPlayerServices :: setTaskPane
 
 > [!Note]  
-> Cette section décrit une fonctionnalité des contrôles ActiveX du lecteur Windows Media série 9 et de Windows Media Player 10. Nous vous recommandons d’utiliser l’interface **IWMPCdromRip** avec les versions ultérieures. Voir [interface IWMPCdromRip](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
+> cette section documente une fonctionnalité des contrôles de la série Lecteur Windows Media 9 et Lecteur Windows Media 10 ActiveX. Nous vous recommandons d’utiliser l’interface **IWMPCdromRip** avec les versions ultérieures. Voir [interface IWMPCdromRip](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip).
 
- 
+ 
 
-Vous pouvez utiliser le contrôle Windows Media Player 9 ou une version ultérieure pour copier les pistes des CD sur l’ordinateur de l’utilisateur. Ce processus est appelé *extraction*. Pour ce faire, vous devez incorporer le contrôle du lecteur Windows Media en mode distant. Pour plus d’informations sur le mode distant, consultez communication à distance [du contrôle du lecteur Windows Media](remoting-the-windows-media-player-control.md).
+vous pouvez utiliser le contrôle Lecteur Windows Media 9 ou version ultérieure pour copier les pistes des CD sur l’ordinateur de l’utilisateur. Ce processus est appelé *extraction*. pour ce faire, vous devez incorporer le contrôle Lecteur Windows Media en mode distant. pour plus d’informations sur le mode distant, consultez communication à distance [du contrôle Lecteur Windows Media](remoting-the-windows-media-player-control.md).
 
 Pour démarrer le processus d’extraction, appelez [IWMPPlayerServices :: setTaskPane](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane), en passant le CopyFromCD ? Copie autocopie :*ID* du paramètre *bstrTaskPane* , où *ID* est l’index du lecteur de CD à partir duquel effectuer la copie. Cet index correspond à l’index d’un objet **cdrom** dans l’interface **IWMPCdromCollection** ou l’événement **CdromMediaChange** .
 
@@ -143,7 +143,7 @@ Ensuite, gérez l’événement [IWMPEvents :: MediaChange](/previous-versions/
 
 Pour détecter la piste CD en cours d’extraction, comparez le pointeur **IWMPMedia** de l’événement aux éléments multimédias de la sélection de CD en appelant [IWMPMedia :: \_ isIdentical](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-get_isidentical).
 
-Appelez [IWMPMedia :: getItemInfo](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo), en passant la chaîne « Status » comme nom d’élément. L' **État** est un attribut temporaire défini par le lecteur Windows Media sur les éléments multimédias pendant qu’ils sont extraits du CD. elle n’est pas disponible à partir de la bibliothèque.
+Appelez [IWMPMedia :: getItemInfo](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpmedia-getiteminfo), en passant la chaîne « Status » comme nom d’élément. l' **état** est un attribut temporaire défini par Lecteur Windows Media sur les éléments multimédias pendant qu’ils sont extraits du CD. elle n’est pas disponible à partir de la bibliothèque.
 
 L’exemple de code suivant montre un gestionnaire d’événements **MediaChange** .
 
@@ -268,9 +268,9 @@ void CMyApp::MediaChange(IDispatch * Item)
 [**Extraction à l’aide de l’interface IWMPCdromRip**](ripping-by-using-the-iwmpcdromrip-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

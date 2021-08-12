@@ -4,12 +4,12 @@ ms.assetid: e3e1c795-5cfa-4e4b-86aa-948dd2bf91a4
 title: Tester si un pilote graphique prend en charge COPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f98a5bfc3f577d1acb45969ec5d10503ae87b27a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22280f880ba01a8e51acda74a2a46dff595d5569f885ce1da3a3631bacd8db06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106544300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651829"
 ---
 # <a name="testing-whether-a-graphics-driver-supports-copp"></a>Tester si un pilote graphique prend en charge COPP
 
@@ -17,7 +17,7 @@ Le protocole COPP (Certified Output Protection Protocol) permet à une applicati
 
 Toutefois, vous souhaiterez peut-être vérifier si un pilote graphique prend en charge COPP, sans valider le certificat. Par exemple, lorsqu’un fournisseur de médias numériques émet une licence de gestion des droits numériques (DRM), il peut souhaiter vérifier si l’utilisateur dispose d’un pilote graphique compatible COPP. Le fournisseur n’a pas besoin d’appliquer COPP au moment où il émet la licence. il doit uniquement tester si le pilote prend en charge COPP.
 
-Le code suivant montre comment tester si un pilote prend en charge COPP. L’application doit transmettre le nom d’un fichier vidéo qui sera utilisé pour tester le pilote. Cela est nécessaire, car le filtre de convertisseur de mixage vidéo dans Microsoft® DirectShow® n’initialise pas une session COPP tant que le filtre n’est pas connecté. Cette fonction peut être incluse dans une application cliente pour vérifier si le pilote est capable d’exécuter COPP.
+Le code suivant montre comment tester si un pilote prend en charge COPP. L’application doit transmettre le nom d’un fichier vidéo qui sera utilisé pour tester le pilote. cela est nécessaire, car le filtre de convertisseur de mixage vidéo dans Microsoft® DirectShow® n’initialise pas une session COPP tant que le filtre n’est pas connecté. Cette fonction peut être incluse dans une application cliente pour vérifier si le pilote est capable d’exécuter COPP.
 
 > [!Note]  
 > Si l’ordinateur de l’utilisateur possède deux cartes graphiques, cette fonction teste le pilote de la carte graphique principale, mais pas la carte graphique secondaire.

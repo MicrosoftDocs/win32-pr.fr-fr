@@ -4,12 +4,12 @@ description: Pour les cartes d’environnement cubiques, une ou plusieurs faces 
 ms.assetid: a77234f6-ba10-40dd-902f-33e600384aa5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235749bc0cf95a2e2120f66f3bcfb8a46e158628
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 97a51526570a775eb0cff8ec5ed665ac3dc4b218a876743b29e983bd9c03e9ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289861"
 ---
 # <a name="dds-cube-map-example"></a>Exemple de mappage de cube DDS
 
@@ -36,11 +36,11 @@ Par exemple, un mappage de cube 256-par-256 avec des visages positif x, négatif
 
 
 
- 
+ 
 
 À partir de DirectX 8, un mappage de cube est stocké avec tous les visages définis.
 
-## <a name="dxgi-cube-maps"></a>Mappages de cubes DXGI
+## <a name="dxgi-cube-maps"></a>Cartes de Cube DXGI
 
 Les mappages d’environnement cubique dans Direct3D 10. x et Direct3D 11 sont équivalents à un tableau de texture 2D avec 6 images et peuvent être stockés dans des fichiers DDS en tant que tels. Avec Direct3D 10,1 et Direct3D 11, le matériel peut également prendre en charge des tableaux de cubemaps qui sont eux-mêmes des tableaux de texture 2D avec un multiple de 6 images (6, 12, 18, 24, etc.).
 
@@ -69,7 +69,7 @@ Par exemple, voici un carte cubique de 256 par 256 avec des niveaux de mipmap st
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -78,9 +78,9 @@ Par exemple, voici un carte cubique de 256 par 256 avec des niveaux de mipmap st
 [Guide de programmation pour DDS](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

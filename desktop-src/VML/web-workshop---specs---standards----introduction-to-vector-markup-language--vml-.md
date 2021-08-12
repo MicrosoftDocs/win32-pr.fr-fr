@@ -15,19 +15,19 @@ keywords:
 - VML (langage VML), avantages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4637fff0550ce9c93e295c51fc529f62c370b8aa
-ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
+ms.openlocfilehash: 6199b481c58bbc5cd769ba43e614f21ae0105b4ef703858b559cdd76ff5516bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111910260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118596065"
 ---
 # <a name="vector-markup-language-vml"></a>Langage VML (VML)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!NOTE]
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
 Langage VML (VML) est un format d’échange, de modification et de remise basé sur XML pour les graphiques vectoriels de haute qualité sur le Web, qui répond aux besoins des utilisateurs de la productivité et des professionnels de la conception graphique. XML est un langage basé sur du texte simple, flexible et ouvert qui complète HTML. (Consultez la [section XML](/documentation/?frame=true) de MSDN Library pour obtenir des informations détaillées sur XML.)
 

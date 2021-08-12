@@ -3,7 +3,7 @@ title: Message DRV_CLOSE (mmsystem. h)
 description: Indique au pilote de fermer l’instance donnée. Si aucune autre instance n’est ouverte, le pilote doit préparer la mise en version suivante à partir de la mémoire.
 ms.assetid: 98d7fe47-5194-4912-a9d6-3af3d1fa4e60
 keywords:
-- Message DRV_CLOSE Windows Multimedia
+- message DRV_CLOSE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a205b7e6edb4a427b0e80d32cc711d9bf2b052c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d89be1821b03e43fbe05b5ed2efc90e40db03e36538cf0412201baa7273e596
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622666"
 ---
 # <a name="drv_close-message"></a>Message de fermeture du DRV \_
 
@@ -69,7 +69,7 @@ Retourne une valeur différente de zéro en cas de réussite ou zéro dans le ca
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

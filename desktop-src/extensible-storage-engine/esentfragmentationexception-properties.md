@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101779
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ec1996a1eeb5268df248d085bdf4b1a3b80ea182
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cdab38f0e7c1fc91ac8f0119281e181492f7d009a98526b10a0048aec983bab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118268384"
 ---
 # <a name="esentfragmentationexception-properties"></a>Propriétés EsentFragmentationException
 
@@ -49,7 +49,7 @@ Le type [EsentFragmentationException](./esentfragmentationexception-class.md) ex
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

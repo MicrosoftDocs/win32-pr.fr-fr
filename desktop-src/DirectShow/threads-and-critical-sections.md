@@ -4,18 +4,18 @@ ms.assetid: e55acb06-03f4-4191-bffe-3196f41ef2c7
 title: Threads et sections critiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 576cb28e7e382db92328adf09980a825e71b5a3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d13473a917ae49e80ec658b0d6187fdfdff80c6e3a080a229aca7ccbbe536c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651401"
 ---
 # <a name="threads-and-critical-sections"></a>Threads et sections critiques
 
-Cette section décrit les threads dans les filtres DirectShow et les étapes à suivre pour éviter les blocages ou les blocages dans un filtre personnalisé.
+cette section décrit les threads dans les filtres de DirectShow, ainsi que les étapes à suivre pour éviter les blocages ou les blocages dans un filtre personnalisé.
 
-Les exemples de cette section utilisent un pseudocode pour illustrer le code que vous devrez écrire. Ils partent du principe qu’un filtre personnalisé utilise des classes dérivées des classes de base DirectShow, comme suit :
+Les exemples de cette section utilisent un pseudocode pour illustrer le code que vous devrez écrire. ils supposent qu’un filtre personnalisé utilise des classes dérivées des classes de base DirectShow, comme suit :
 
 -   CMyInputPin : dérivée de [**CBaseInputPin**](cbaseinputpin.md).
 -   CMyOutputPin : dérivée de [**CBaseOutputPin**](cbaseoutputpin.md).
@@ -31,17 +31,17 @@ Cette section contient les rubriques suivantes :
 -   [Vidage des données](flushing-data.md)
 -   [En cours d’arrêt](stopping.md)
 -   [Obtention de mémoires tampons](getting-buffers.md)
--   [Streaming threads et le gestionnaire de graphique de filtre](streaming-threads-and-the-filter-graph-manager.md)
+-   [Streaming threads et Filter Graph Manager](streaming-threads-and-the-filter-graph-manager.md)
 -   [Résumé du thread de filtre](summary-of-filter-threading.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
 <dl> <dt>
 
-[Transmission de données pour les développeurs de filtres](data-flow-for-filter-developers.md)
+[Flow de données pour les développeurs de filtres](data-flow-for-filter-developers.md)
 </dt> <dt>
 
-[Écriture de filtres DirectShow](writing-directshow-filters.md)
+[écriture de filtres de DirectShow](writing-directshow-filters.md)
 </dt> </dl>
 
  

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 8095e35a7e424a50448f1f0d948b9224bcdaa423
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da9c6132b79706cca2135ffcea1bff09040e15a90af5b8b3b1b7175a41229dc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118631910"
 ---
 # <a name="installercreaterecord-method"></a>Installer. CreateRecord, méthode
 
@@ -50,7 +50,7 @@ Nombre de champs requis, qui peut être égal à 0. Le nombre maximal de champs 
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le champ 0, et non l’un des champs dans *Count*, est normalement utilisé pour les éléments orientés enregistrement, tels que les chaînes de format ou les codes d’exécution.
 

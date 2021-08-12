@@ -3,9 +3,9 @@ title: AxWindowsMediaPlayer. playlistCollection, propriété
 description: La propriété playlistCollection obtient une interface IWMPPlaylistCollection.
 ms.assetid: f3c65f70-b58f-41c1-afe0-3a9d9c95561c
 keywords:
-- propriété playlistCollection lecteur Windows Media
-- propriété playlistCollection lecteur Windows Media, classe AxWindowsMediaPlayer
-- Classe AxWindowsMediaPlayer lecteur Windows Media, propriété playlistCollection
+- Lecteur Windows Media de la propriété playlistCollection
+- Lecteur Windows Media de la propriété playlistCollection, classe AxWindowsMediaPlayer
+- Lecteur Windows Media de la classe AxWindowsMediaPlayer, propriété playlistCollection
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a01ca41d194a6321e02d34280241cd5701597e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6d646bec99c61032c0347d9d21df443c890837424255ebd687c15cc9f780a1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581899"
 ---
 # <a name="axwindowsmediaplayerplaylistcollection-property"></a>AxWindowsMediaPlayer. playlistCollection, propriété
 
@@ -70,7 +70,7 @@ Pour récupérer la valeur de cette propriété, l’accès en lecture à la bib
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylistCollection (VB et C#)**](iwmpplaylistcollection--vb-and-c.md)

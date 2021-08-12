@@ -4,29 +4,29 @@ description: Détermination de l’état de synchronisation des sélections
 ms.assetid: 634b659b-c3ae-4957-b17e-18fd92e915be
 keywords:
 - Lecteur Windows Media, sélections de synchronisation
-- Modèle objet du lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media modèle objet, sélections de synchronisation
 - modèle objet, sélections de synchronisation
 - Lecteur Windows Media Mobile, sélections de synchronisation
-- Contrôle ActiveX du lecteur Windows Media, sélections de synchronisation
-- Contrôle ActiveX Windows Media Player Mobile, sélections de synchronisation
-- Contrôle ActiveX, sélections de synchronisation
+- contrôle de ActiveX Lecteur Windows Media, sélections de synchronisation
+- Lecteur Windows Media contrôle de ActiveX Mobile, sélections de synchronisation
+- contrôle de ActiveX, sélections de synchronisation
 - sélections, synchronisation
 - sélections de métafichiers, synchronisation
-- Sélections de métafichiers Windows Media, synchronisation
+- Windows Sélections de métafichiers multimédia, synchronisation
 - appareils mobiles, détermination de l’état de sélection de synchronisation
 - sélections de synchronisation, état de synchronisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9758cfbb73c698a40d6d4f48e645e57750d8a332
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a14af59f66d1b21eac00208ecc805f756761256e47a35042694bcd65e6f96558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106517993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579458"
 ---
 # <a name="determining-playlist-synchronization-state"></a>Détermination de l’état de synchronisation des sélections
 
-Le lecteur Windows Media 10 ou version ultérieure utilise l’attribut **SyncState** pour contenir des informations indiquant si un fichier multimédia numérique particulier a été copié sur un appareil mobile et, en cas de défaillance, si la copie a échoué en raison d’une insuffisance de mémoire dans l’appareil.
+Lecteur Windows Media 10 ou version ultérieure utilise l’attribut **SyncState** pour contenir des informations indiquant si un fichier multimédia numérique particulier a été copié sur un appareil mobile et, en cas de défaillance, si la copie a échoué parce que l’appareil n’a pas suffisamment de mémoire.
 
 L’exemple de code suivant crée une fonction qui récupère ces informations à partir d’un fichier multimédia numérique. La fonction accepte les paramètres suivants :
 
@@ -109,9 +109,9 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
 [**Attribut SyncState**](syncstate-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

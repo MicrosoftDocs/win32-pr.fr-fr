@@ -4,12 +4,12 @@ ms.assetid: 4e6b46b0-df9e-4458-b0ac-e237d7656337
 title: Fournisseurs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb336dbb51fcbd715ea236ecdc0c62d81daf29d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c9e098981c6246392fef75f717b1d7676df1aa134e4faef3e436ee8b3eb537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591326"
 ---
 # <a name="providers"></a>Fournisseurs
 
@@ -19,7 +19,7 @@ En réponse à une demande d’un demandeur, un fournisseur génère des événe
 
 Lorsqu’un cliché instantané est en cours d’existence, le fournisseur crée un environnement où il existe effectivement deux copies indépendantes de tout volume qui a fait l’objet de clichés instantanés : un disque en cours d’exécution utilisé et mis à jour normalement, l’autre copie qui est fixe et stable pour la sauvegarde.
 
-Même si un fournisseur par défaut est fourni avec Windows, d’autres fournisseurs sont libres de fournir leurs propres implémentations qui sont optimisées pour leur propre matériel de stockage et leurs propres offres logicielles.
+bien qu’un fournisseur par défaut soit fourni dans le cadre de Windows, d’autres fournisseurs sont libres de fournir leurs propres implémentations optimisées pour leur propre matériel de stockage et leurs propres offres logicielles.
 
 Du point de vue d’un développeur d’applications de sauvegarde/restauration ou de l’utilisateur final, tous les fournisseurs disposent de la même interface (consultez [sélection des fournisseurs](selecting-providers.md)).
 
@@ -37,7 +37,7 @@ Selon la procédure à suivre, un fournisseur peut être de l’un des trois typ
 
 ## <a name="system-provider"></a>Fournisseur système
 
-Un fournisseur de clichés instantanés, le [*fournisseur système*](vssgloss-s.md), est fourni par défaut dans le cadre de l’installation d’un système d’exploitation Windows. Actuellement, le fournisseur système est une instance particulière d’un fournisseur de logiciels. Toutefois, cela peut changer à l’avenir.
+un fournisseur de clichés instantanés, le [*fournisseur système*](vssgloss-s.md), est fourni par défaut dans une installation de système d’exploitation Windows. Actuellement, le fournisseur système est une instance particulière d’un fournisseur de logiciels. Toutefois, cela peut changer à l’avenir.
 
 Pour conserver une vue « limite dans le temps » d’un volume contenu dans le cliché instantané, le fournisseur système utilise une technique de copie sur écriture. Les copies des secteurs sur le disque qui ont été modifiés (appelées « différences ») depuis le début de la création de clichés instantanés sont stockées dans une zone de stockage de clichés instantanés.
 

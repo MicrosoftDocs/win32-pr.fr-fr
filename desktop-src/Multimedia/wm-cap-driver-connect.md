@@ -3,7 +3,7 @@ title: Message WM_CAP_DRIVER_CONNECT (VFW. h)
 description: Le \_ message WM capuchon \_ Driver \_ Connect connecte une fenêtre de capture à un pilote de capture. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro capDriverConnect.
 ms.assetid: 8804bb3c-d06c-4ddc-b116-3d292205a52d
 keywords:
-- Message WM_CAP_DRIVER_CONNECT Windows Multimedia
+- message WM_CAP_DRIVER_CONNECT Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d73fdeb89968926429f7225912e3d1b3b348e287
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8b0e54d496302488db653505321778bcd22546bd2ed9b2180aa0e15cb6969f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622628"
 ---
 # <a name="wm_cap_driver_connect-message"></a>\_Message de \_ connexion du pilote WM Cap \_
 
@@ -49,7 +49,7 @@ Index du pilote de capture. L’index peut être compris entre 0 et 9.
 
 Retourne la **valeur true** en cas de réussite ou **false** si le pilote de capture spécifié ne peut pas être connecté à la fenêtre de capture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La connexion d’un pilote de capture à une fenêtre de capture déconnecte automatiquement tout pilote de capture précédemment connecté.
 
