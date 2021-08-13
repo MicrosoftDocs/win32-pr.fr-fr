@@ -3,7 +3,7 @@ title: MpScanStart, fonction (MpClient. h)
 description: Démarre une opération d’analyse.
 ms.assetid: 3AF147C8-A41F-4193-AE28-72C1FBD18BA2
 keywords:
-- Fonctionnalités d’environnement Windows hérités de la fonction MpScanStart
+- fonctionnalités d’environnement Windows hérités de la fonction MpScanStart
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d343787edc85a18dc7471d19165999a7252d18a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 34d56f6814ecdd13b2db4f698e8cc122d4d15e325bda17d82d56a5796d8590fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450239"
 ---
 # <a name="mpscanstart-function"></a>MpScanStart fonction)
 
@@ -79,7 +79,7 @@ Spécifie différentes options pour l’opération d’analyse.
 | <span id="MPSCAN_OPTION_PROGRESS"></span><span id="mpscan_option_progress"></span><dl> <dt>**progression de l' \_ option MPSCAN \_**</dt> </dl>                   | L’appelant souhaite recevoir des informations sur la progression de l’analyse via un rappel.<br/>                                                                                                                                                                            |
 | <span id="MPSCAN_OPTION_LOWPRIORITY"></span><span id="mpscan_option_lowpriority"></span><dl> <dt>**\_option MPSCAN \_ LOWPRIORITY**</dt> </dl>          | Effectuez l’analyse avec une priorité basse. (Par défaut, l’opération d’analyse est effectuée avec une priorité normale.)<br/>                                                                                                                                                     |
 | <span id="MPSCAN_OPTION_PACKEDEXES"></span><span id="mpscan_option_packedexes"></span><dl> <dt>**\_option MPSCAN \_ PACKEDEXES**</dt> </dl>             | Analyser les exécutables empaquetés pour détecter les menaces potentielles.<br/>                                                                                                                                                                                                              |
-| <span id="MPSCAN_OPTION_ARCHIVES"></span><span id="mpscan_option_archives"></span><dl> <dt>**\_Archives des options MPSCAN \_**</dt> </dl>                   | Analyser le contenu de l’Archive pour identifier les menaces potentielles. Les archives sont des fichiers avec des extensions telles que. zip,. cab ou. tar.<br/>                                                                                                                                                |
+| <span id="MPSCAN_OPTION_ARCHIVES"></span><span id="mpscan_option_archives"></span><dl> <dt>**\_Archives des options MPSCAN \_**</dt> </dl>                   | Analyser le contenu de l’Archive pour identifier les menaces potentielles. Les archives sont des fichiers avec des extensions telles que .zip, .cab ou. tar.<br/>                                                                                                                                                |
 | <span id="MPSCAN_OPTION_HEURISTICS"></span><span id="mpscan_option_heuristics"></span><dl> <dt>**\_heuristique des options MPSCAN \_**</dt> </dl>             | Activez l’analyse heuristique. Cela permet de rechercher les menaces dont le type de détection est défini sur heuristiques.<br/>                                                                                                                                                        |
 | <span id="MPSCAN_OPTION_REPORTFRIENDLY"></span><span id="mpscan_option_reportfriendly"></span><dl> <dt>**\_option MPSCAN \_ REPORTFRIENDLY**</dt> </dl> | Signaler les éléments conviviaux dans une analyse des ressources. Cela est destiné à un usage interne uniquement.<br/>                                                                                                                                                                          |
 | <span id="MPSCAN_OPTION_REPORTUNKNOWN"></span><span id="mpscan_option_reportunknown"></span><dl> <dt>**\_option MPSCAN \_ REPORTUNKNOWN**</dt> </dl>    | Signaler les éléments inconnus dans une analyse des ressources. Cela est destiné à un usage interne uniquement.<br/>                                                                                                                                                                           |
@@ -152,8 +152,8 @@ Si la fonction échoue, la valeur de retour est un code **HRESULT** en échec. L
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getByAuthor
 description: La méthode getByAuthor récupère une sélection des éléments multimédias par l’auteur spécifié.
 ms.assetid: 8f9b3ee3-a809-4d24-81ce-adad63e5347c
 keywords:
-- méthode getByAuthor lecteur Windows Media
-- méthode getByAuthor lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getByAuthor
+- Lecteur Windows Media de la méthode getByAuthor
+- méthode getByAuthor Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getByAuthor
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7eae0928250e37e76bf3a39f38b43bef8a5691c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87989d38d49ff87ce26b7394f4ee79ef4bd7197cd0e35dcd5316797df401ba49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574626"
 ---
 # <a name="mediacollectiongetbyauthor-method"></a>Méthode MediaCollection. getByAuthor
 
@@ -49,7 +49,7 @@ retVal = MediaCollection.getByAuthor(
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode retourne un objet **playlist** .
 
@@ -59,7 +59,7 @@ Pour utiliser cette méthode, l’accès en lecture à la bibliothèque est requ
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant utilise *MediaCollection*. **getByAuthor** pour récupérer une sélection d’éléments multimédias. La sélection contient des éléments correspondant à l’auteur spécifié par l’utilisateur dans un élément d’entrée de texte HTML nommé GetAuthor. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant utilise *MediaCollection*. **getByAuthor** pour récupérer une sélection d’éléments multimédias. La sélection contient des éléments correspondant à l’auteur spécifié par l’utilisateur dans un élément d’entrée de texte HTML nommé GetAuthor. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, ScrollBar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2168401c313dd9139f44ba615de945802b307d64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a25d0398ca8e094e1dbec5e06eb725f3e9d7edbb5c193fdc3699e166b118142
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413369"
 ---
 # <a name="scrollbar-control-type"></a>ScrollBar (type de contrôle)
 
@@ -77,7 +77,7 @@ Le tableau suivant représente un contrôle classique et une vue de contenu de l
 
 
 
- 
+ 
 
 Le contrôle de barre de défilement peut avoir entre zéro et cinq enfants. Étant donné que la sous-arborescence a plusieurs contrôles bouton, l’élément doit définir une valeur [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md) spécifique à chaque élément afin de les rendre détectables pour les outils de test automatisés.
 
@@ -105,7 +105,7 @@ Pour plus d’informations sur les propriétés UI Automation, consultez [extrac
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -114,7 +114,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 > [!Note]  
 > Quand une barre de défilement est utilisée comme contrôle uniquement pour la manipulation de la souris, elle ne prend pas en charge les modèles de contrôle. S’il est utilisé comme un contrôle Slider dans une application, le type de contrôle [Slider](uiauto-supportslidercontroltype.md) doit lui être attribué.
 
- 
+ 
 
 
 
@@ -125,7 +125,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -144,7 +144,7 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -159,9 +159,9 @@ Le tableau suivant répertorie les événements UI Automation nécessaires à la
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: En mode asynchrone, une application peut exécuter n’importe quel
 ms.assetid: 4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a7e1d0cf84aa92691e1d926d771ea809d31a171
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e494b79b28b9aaf005fc6b1790d0cf84b07ceade6606f03ce03198426ac33d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562091"
 ---
 # <a name="asynchronous-operation"></a>Opération asynchrone
 
@@ -62,7 +62,7 @@ Le tableau suivant illustre ce qui se passerait si le site Fourth Coffee était 
 
 
 
- 
+ 
 
 Un autre exemple est un navigateur Web tel que Microsoft Internet Explorer. Lorsque le navigateur télécharge une page, il doit souvent Télécharger d’autres ressources, telles que des images et des fichiers audio. En mode asynchrone, la page et les ressources qui lui sont associées peuvent être demandées simultanément et téléchargées dès qu’elles sont disponibles, au lieu de demander et de télécharger la page et chaque ressource une à la fois.
 
@@ -103,13 +103,13 @@ Fonctions qui peuvent être utilisées de façon asynchrone
 > [!Note]  
 > Les fonctions [**FtpCreateDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpcreatedirectorya), [**FtpRemoveDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpremovedirectorya), [**FtpSetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya), [**FtpGetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpgetcurrentdirectorya), [**FtpDeleteFile**](/windows/desktop/api/Wininet/nf-wininet-ftpdeletefilea)et [**FtpRenameFile**](/windows/desktop/api/Wininet/nf-wininet-ftprenamefilea) utilisent la valeur de contexte fournie dans l’appel à la fonction [**internetconnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta) .
 
- 
+ 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461c15db364066d9edadb6a0c4d2c24dceab5cc9
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: acd9f15f942fb6dd7c4c831cb33552b6f59ec2cd6cf9cac9654386d6adc27649
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425739"
 ---
 # <a name="makecert"></a>MakeCert
 
@@ -18,7 +18,7 @@ ms.locfileid: "108327143"
 
  
 
-L’outil MakeCert crée un certificat [*X. 509*](../secgloss/x-gly.md) , signé par la clé racine de test ou une autre clé spécifiée, qui lie votre nom à la partie publique de la paire de clés. Le certificat est enregistré dans un fichier, un magasin de certificats système, ou les deux. L’outil est installé dans le \\ dossier bin du chemin d’installation du kit de développement logiciel (SDK) Microsoft Windows.
+L’outil MakeCert crée un certificat [*X. 509*](../secgloss/x-gly.md) , signé par la clé racine de test ou une autre clé spécifiée, qui lie votre nom à la partie publique de la paire de clés. Le certificat est enregistré dans un fichier, un magasin de certificats système, ou les deux. l’outil est installé dans le \\ dossier Bin du chemin d’installation du kit de développement logiciel (SDK) de Microsoft Windows.
 
 L’outil MakeCert utilise la syntaxe de commande suivante :
 
@@ -166,7 +166,7 @@ Pour plus d’informations, consultez la remarque qui suit ce tableau.<br/></td>
 
  
 
-Les options suivantes sont uniquement destinées aux fichiers de certificat SPC ( [*Software Publisher Certificate*](../secgloss/s-gly.md) ) et à la technologie de clé privée.
+les options suivantes sont uniquement destinées aux fichiers SPC ( [*Software Publisher certificate*](../secgloss/s-gly.md) ) et à la technologie de clé privée.
 
 
 

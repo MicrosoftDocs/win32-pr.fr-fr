@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 239d0cc6267989bfd4ae020f1f8935c0cca1c192
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54926b6a1a4f09f34034820b576e457a7484f6a3e053607e5a3eed44edbdd110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616226"
 ---
 # <a name="glevalcoord1d-function"></a>glEvalCoord1d fonction)
 
@@ -51,7 +51,7 @@ Valeur qui est la coordonnée de domaine *u* à la fonction de base définie dan
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glEvalCoord1d** évalue les mappages unidimensionnels activés au niveau de l’argument *u*. Définissez Maps avec [**glMap1**](glmap1.md). Activez ou désactivez-les avec [**glEnable**](glenable.md) et [**glDisable**](gldisable.md).
 

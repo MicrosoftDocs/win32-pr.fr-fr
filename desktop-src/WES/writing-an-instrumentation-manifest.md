@@ -4,12 +4,12 @@ description: Les applications et les DLL utilisent un manifeste d’instrumentat
 ms.assetid: eec9d129-acde-4302-9121-634b3fad8455
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cdad802526ad177eb5daa8846535c434fff32eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82b3462d6adc264fba8ba155620a2bbb402d51d5d6fc24f7dbe879b9e2a91ec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587050"
 ---
 # <a name="writing-an-instrumentation-manifest"></a>Écriture d’un manifeste d’instrumentation
 
@@ -19,7 +19,7 @@ Un fournisseur d’instrumentation est une application ou une DLL qui appelle le
 
 L’avantage de spécifier un fournisseur pour chaque DLL est que vous pouvez ensuite activer et désactiver les fournisseurs individuels et donc les événements qu’ils génèrent. Cet avantage s’applique uniquement si le fournisseur est activé par une session de suivi ETW. Tous les événements qui spécifient un canal du journal des événements sont toujours écrits sur ce canal.
 
-Le manifeste doit identifier le fournisseur et les événements qu’il écrit, mais les autres métadonnées, telles que les canaux, les niveaux et les mots clés, sont facultatives. la définition des métadonnées facultatives dépend de la personne qui utilisera les événements. Par exemple, si les administrateurs ou le personnel du support technique consomment les événements à l’aide d’un outil tel que le observateur d’événements Windows qui lit les événements à partir de canaux du journal des événements, vous devez définir les canaux sur lesquels les événements sont écrits. Toutefois, si le fournisseur est activé uniquement par une session de suivi ETW, vous n’avez pas besoin de définir de canaux.
+Le manifeste doit identifier le fournisseur et les événements qu’il écrit, mais les autres métadonnées, telles que les canaux, les niveaux et les mots clés, sont facultatives. la définition des métadonnées facultatives dépend de la personne qui utilisera les événements. par exemple, si les administrateurs ou le personnel du support technique consomment les événements à l’aide d’un outil tel que le Windows observateur d’événements qui lit les événements à partir de canaux du journal des événements, vous devez définir les canaux sur lesquels les événements sont écrits. Toutefois, si le fournisseur est activé uniquement par une session de suivi ETW, vous n’avez pas besoin de définir de canaux.
 
 Bien que les métadonnées des niveaux, des tâches, des OpCodes et des mots clés soient facultatives, vous devez les utiliser pour regrouper ou compartir les événements de manière logique. Le regroupement des événements permet aux consommateurs de consommer uniquement les événements intéressants. Par exemple, le consommateur peut interroger tous les événements où le niveau est « critique » et le mot clé « écriture », ou interroger tous les événements écrits par une tâche spécifique.
 
@@ -39,9 +39,9 @@ Les sections suivantes montrent comment définir les composants du manifeste :
 -   [Définition des modèles qui définissent les données spécifiques aux événements](defining-event-data-templates.md)
 -   [Définition des événements que le fournisseur écrit](defining-events.md)
 
-Bien que vous puissiez créer un manifeste d’instrumentation manuellement, vous devez envisager d’utiliser l’outil ECManGen.exe inclus dans le \\ dossier bin du SDK Windows. L’outil ECManGen.exe utilise une interface utilisateur graphique qui vous guide tout au long de la création d’un manifeste sans jamais avoir à utiliser des balises XML. La connaissance des informations contenues dans cette section et dans la section [schéma EventManifest](eventmanifestschema-schema.md) vous aidera lors de l’utilisation de l’outil.
+bien que vous puissiez créer un manifeste d’instrumentation manuellement, vous devez envisager d’utiliser l’outil ECManGen.exe inclus dans le \\ dossier Bin du SDK Windows. L’outil ECManGen.exe utilise une interface utilisateur graphique qui vous guide tout au long de la création d’un manifeste sans jamais avoir à utiliser des balises XML. La connaissance des informations contenues dans cette section et dans la section [schéma EventManifest](eventmanifestschema-schema.md) vous aidera lors de l’utilisation de l’outil.
 
-Si vous utilisez Visual Studio comme éditeur XML, vous pouvez ajouter le schéma [EventManifest](eventmanifestschema-schema.md) au projet (consultez le menu XML) pour tirer parti d’IntelliSense, de la validation de schéma inline et d’autres fonctionnalités pour faciliter l’écriture du manifeste.
+si vous utilisez Visual Studio comme éditeur XML, vous pouvez ajouter le schéma [EventManifest](eventmanifestschema-schema.md) au projet (consultez le menu XML) pour tirer parti d’Intellisense, de la validation de schéma inline et d’autres fonctionnalités pour faciliter l’écriture du manifeste.
 
 Après avoir écrit votre manifeste, utilisez le compilateur de message pour valider le manifeste et générer les fichiers de ressources et d’en-tête que vous incluez dans votre fournisseur. Pour plus d’informations, consultez [compilation d’un manifeste d’instrumentation](compiling-an-instrumentation-manifest.md).
 
@@ -51,8 +51,8 @@ L’exemple suivant illustre la structure d’un manifeste d’événements enti
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
@@ -113,6 +113,6 @@ L’exemple suivant illustre la structure d’un manifeste d’événements enti
 
 
 
- 
+ 
 
- 
+ 

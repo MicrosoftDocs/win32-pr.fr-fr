@@ -4,12 +4,12 @@ ms.assetid: a6cc7308-a9fa-4a84-9e7c-4d0adda28db5
 title: Outil de test
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7559c304532b337214108435b740595897694f7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5f37e8bfc224061a8205bf0759cbba4798b0d53227e4f12d89b1e9ddf629d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471149"
 ---
 # <a name="betest-tool"></a>Outil de test
 
@@ -20,11 +20,11 @@ Le test est un demandeur VSS qui teste les opérations de sauvegarde et de resta
 -   Options de restauration par progression
 
 > [!Note]  
-> Le test est inclus dans le kit de développement logiciel (SDK) Microsoft Windows pour Windows Vista et versions ultérieures. Le kit de développement logiciel (SDK) VSS 7,2 comprend une version de test qui s’exécute uniquement sur Windows Server 2003. Cette rubrique décrit la version SDK Windows de test, et non la version de Windows Server 2003 incluse dans le kit de développement logiciel (SDK) VSS 7,2. Pour plus d’informations sur le téléchargement de la SDK Windows et du kit de développement logiciel (SDK) VSS 7,2, consultez [service VSS](volume-shadow-copy-service-portal.md).
+> le test est inclus dans le kit de développement logiciel (SDK) de Microsoft Windows pour Windows Vista et versions ultérieures. le kit de développement logiciel (SDK) VSS 7,2 comprend une version de test qui s’exécute uniquement sur Windows Server 2003. cette rubrique décrit la version SDK Windows de test, et non la version Windows Server 2003 incluse dans le kit de développement logiciel (SDK) VSS 7,2. pour plus d’informations sur le téléchargement de la SDK Windows et du kit de développement logiciel (SDK) VSS 7,2, consultez [Service VSS](volume-shadow-copy-service-portal.md).
 
  
 
-Dans l’installation SDK Windows, l’outil de test est disponible dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour Windows 32 bits).
+dans l’installation SDK Windows, l’outil de test est disponible dans `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (pour les Windows 64 bits) et `%Program Files(x86)%\Windows Kits\8.1\bin\x86` (pour le Windows 32 bits).
 
 ## <a name="running-the-betest-tool"></a>Exécution de l’outil de test
 

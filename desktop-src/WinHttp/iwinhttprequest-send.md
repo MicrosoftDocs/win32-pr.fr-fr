@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 0040ed6c09814a2b2112a91173d84430b8130a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47155c946d8f49655bf6336a858d2b0752c70caa80f9dd75e0f415ce18ea94c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562939"
 ---
 # <a name="iwinhttprequestsend-method"></a>IWinHttpRequest :: Send, méthode
 
@@ -51,12 +51,12 @@ Données à envoyer au serveur.
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La demande à envoyer a été définie dans un appel antérieur à la méthode [**Open**](iwinhttprequest-open.md) . L’application appelante peut fournir des données à envoyer au serveur par le biais du paramètre *Body* . Si le [*verbe http*](glossary.md) de l' [**ouverture**](iwinhttprequest-open.md) de l’objet est « obtenir », cette méthode envoie la demande sans *corps*, même si elle est fournie par l’application appelante.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHttp.
 
  
 
@@ -191,8 +191,8 @@ WinHttpReq.Send("Post data");
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

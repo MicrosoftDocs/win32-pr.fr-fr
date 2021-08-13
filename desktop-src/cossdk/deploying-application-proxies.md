@@ -4,12 +4,12 @@ ms.assetid: 293b424c-4cd4-43a9-9b56-687c753a34f2
 title: Déploiement de proxys d’application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5e6439574602005ca53917945fa9005f8959b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e651338e4bd89cb4fe5cb77789e5e10392f62e065da0f61ec4ea19f7cca312b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547988"
 ---
 # <a name="deploying-application-proxies"></a>Déploiement de proxys d’application
 
@@ -22,7 +22,7 @@ Pour accéder à une application serveur COM+ à distance à partir d’un autre
 
  
 
-Les proxys d’application générés par COM+ sont des packages d’installation Windows Installer. Après l’installation, les proxys d’application s’affichent dans le panneau de configuration Ajout/suppression de programmes de l’ordinateur client (sauf si le fichier. msi est modifié à l’aide d’un outil de création de Windows Installer).
+les proxys d’Application générés par COM+ sont des packages d’installation Windows Installer. après l’installation, les proxys d’application s’affichent dans le panneau de configuration ajout/suppression de programmes de l’ordinateur client (sauf si le fichier .msi est modifié à l’aide d’un outil de création de Windows Installer).
 
 ## <a name="remote-access-via-application-proxies"></a>Accès à distance via des proxys d’application
 
@@ -38,10 +38,10 @@ Lors de la génération d’un proxy d’application, COM+ fournit automatiqueme
 
 ## <a name="installing-application-proxies-on-other-operating-systems"></a>Installation de proxys d’application sur d’autres systèmes d’exploitation
 
-Contrairement aux applications serveur COM+, les proxys d’application peuvent être installés sur n’importe quel système d’exploitation prenant en charge DCOM (et Windows Installer). Sur les ordinateurs qui n’exécutent pas COM+, seul le sous-ensemble d’informations requis pour la communication à distance DCOM est installé. Ces informations sont installées dans le Registre Windows (à l’aide de la \_ racine de classes HKEY \_ , des clés AppID/CLSID).
+contrairement aux applications serveur COM+, les proxys d’application peuvent être installés sur n’importe quel système d’exploitation prenant en charge DCOM (et Windows Installer). Sur les ordinateurs qui n’exécutent pas COM+, seul le sous-ensemble d’informations requis pour la communication à distance DCOM est installé. ces informations sont installées dans le registre Windows (à l’aide de la \_ racine de CLASSES HKEY \_ , des clés APPID/CLSID).
 
 > [!Note]  
-> Lors de l’installation d’un proxy d’application (fichier. msi) sur des ordinateurs qui n’exécutent pas COM+, il est nécessaire d’avoir des Windows Installer en cours d’exécution sur ces ordinateurs. Il est recommandé que les développeurs livrent le Windows Installer fichier redistribuable (instmsi.exe) ainsi que le fichier. msi de l’application. Cela permet de s’assurer que les administrateurs système disposent d’Windows Installer disponibles lors du déploiement de proxys d’application sur des clients qui n’exécutent pas COM+.
+> lors de l’installation d’un proxy d’application (fichier .msi) sur des ordinateurs qui n’exécutent pas COM+, il est nécessaire d’avoir des Windows Installer en cours d’exécution sur ces ordinateurs. il est recommandé que les développeurs livrent le Windows Installer fichier redistribuable (instmsi.exe) ainsi que le fichier .msi de l’application. cela permet de s’assurer que les administrateurs système disposent d’Windows Installer disponibles lors du déploiement de proxys d’application sur des clients qui n’exécutent pas COM+.
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 69dbef63-e272-4ad2-8d04-ae9366f79b33
 title: Vue d’ensemble de l’encodage dans Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81882bd6da43f4040614347b662d988844c7b7a6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a663260d92aad4eb23902ec35721c252f15fbba64c3404ff97bfb60f0622c674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104558640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239765"
 ---
 # <a name="overview-of-encoding-in-media-foundation"></a>Vue d’ensemble de l’encodage dans Media Foundation
 
@@ -79,7 +79,7 @@ Le diagramme suivant illustre la session de média :
 
 ![Diagramme montrant comment la session multimédia effectue le transcodage](images/encoding01.png)
 
-L' [API de transcodage](transcode-api.md) (zone ombrée bleue) est un ensemble d’API introduites dans Windows 7, ce qui facilite la configuration de la session multimédia pour l’encodage.
+l' [api de transcodage](transcode-api.md) (zone ombrée bleue) est un ensemble d’api introduites dans Windows 7, ce qui facilite la configuration de la Session multimédia pour l’encodage.
 
 Le diagramme suivant montre le lecteur source et le writer du récepteur :
 

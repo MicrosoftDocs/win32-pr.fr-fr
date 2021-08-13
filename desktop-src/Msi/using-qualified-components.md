@@ -4,12 +4,12 @@ ms.assetid: 45a05ab2-d951-415d-bdb8-cb0a73eb9967
 title: Utilisation des composants qualifiés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11233a91e8883d1a4151957d3e73d18ebdcff25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46c92d165bc06640efea4b8678eeaefa5eb04c36f1b47b6c965faeea00c66adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622945"
 ---
 # <a name="using-qualified-components"></a>Utilisation des composants qualifiés
 

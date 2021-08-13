@@ -4,12 +4,12 @@ description: Documentation de référence sur les clés de propriété pour les 
 ms.assetid: fa317765-25e2-42ef-8558-fb5ef951fc17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9aa78db8acdf7b0a1a4f994f65c08e774129f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eef0698f41e870f834ea55e97d34957edbffdf28675caac9ac0191b6299bca68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438794"
 ---
 # <a name="collection-properties"></a>Propriétés d'un regroupement
 

@@ -1,6 +1,6 @@
 ---
 title: ACS-attribut Server-List
-description: Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter les services ACS.
+description: Contient les noms DNS des serveurs Windows NT autorisés à exécuter les services ACS.
 ms.assetid: 1a26ba49-e9c9-4881-a7ce-7c91bf32875e
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74968d0c5b11502e2ba867bccfff246fb50cae80
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fff4e294a51a92e48682e1b81ed4153939ab770d118257e2aa304ec4f63e1e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689348"
 ---
 # <a name="acs-server-list-attribute"></a>ACS-attribut Server-List
 
-Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter les services ACS.
+Contient les noms DNS des serveurs Windows NT autorisés à exécuter les services ACS.
 
 
 
@@ -45,7 +45,7 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -162,10 +162,10 @@ Contient les noms DNS des serveurs Windows NT qui sont autorisés à exécuter l
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Faux                                        |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | False                                        |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

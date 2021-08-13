@@ -1,34 +1,34 @@
 ---
-title: Activation de la synchronisation avec le lecteur Windows Media
-description: Activation de la synchronisation avec le lecteur Windows Media
+title: activation de la synchronisation avec Lecteur Windows Media
+description: activation de la synchronisation avec Lecteur Windows Media
 ms.assetid: a312dfef-ac48-4c58-a59a-b277f5386419
 keywords:
-- Gestionnaire de périphériques Windows Media, synchronisation avec le lecteur Windows Media
-- Gestionnaire de périphériques, synchronisation avec le lecteur Windows Media
-- Guide de programmation, synchronisation avec le lecteur Windows Media
-- fournisseurs de services, synchronisation avec le lecteur Windows Media
-- création de fournisseurs de services, synchronisation avec le lecteur Windows Media
-- synchronisation avec le lecteur Windows Media
+- Windows Gestionnaire de périphériques de média, synchronisation avec Lecteur Windows Media
+- Gestionnaire de périphériques, synchronisation avec Lecteur Windows Media
+- guide de programmation, synchronisation avec Lecteur Windows Media
+- fournisseurs de services, synchronisation avec Lecteur Windows Media
+- création de fournisseurs de services, synchronisation avec Lecteur Windows Media
+- synchronisation avec Lecteur Windows Media
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b621be3b17d42368bc859081f47bc29bb2cfc667
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef06dd0e32e0ea95674f54b94336ecb6882e8215775c857ee0780a58b71af75c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106509005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585007"
 ---
-# <a name="enabling-synchronization-with-windows-media-player"></a>Activation de la synchronisation avec le lecteur Windows Media
+# <a name="enabling-synchronization-with-windows-media-player"></a>activation de la synchronisation avec Lecteur Windows Media
 
-Vous pouvez autoriser un appareil à participer à la synchronisation automatique avec le lecteur Windows Media. La synchronisation automatique signifie que lorsqu’un appareil synchronisé défini par l’utilisateur se connecte à l’ordinateur, le lecteur Windows Media télécharge, met à jour ou supprime automatiquement les fichiers de l’appareil sans nécessiter d’entrée d’utilisateur supplémentaire.
+vous pouvez autoriser un appareil à participer à la synchronisation automatique avec Lecteur Windows Media. la synchronisation automatique signifie que lorsqu’un appareil synchronisé défini par l’utilisateur se connecte à l’ordinateur, Lecteur Windows Media télécharge, met à jour ou supprime automatiquement des fichiers de l’appareil sans intervention supplémentaire de l’utilisateur.
 
-Par défaut, les appareils suivants sont synchronisés avec le lecteur Windows Media :
+par défaut, les appareils suivants sont synchronisés avec Lecteur Windows Media :
 
 -   Appareils MTP
 -   Périphériques de stockage de masse
--   Appareils Windows CE (Windows Media Player 10 mobile et versions ultérieures)
+-   appareils Windows CE (Lecteur Windows Media 10 Mobile et versions ultérieures)
 
-Pour qu’un autre appareil se synchronise avec le lecteur Windows Media, les conditions suivantes doivent être remplies :
+pour qu’un autre appareil se synchronise avec Lecteur Windows Media, les conditions suivantes doivent être remplies :
 
 -   L’appareil doit publier une interface d’appareil PAP qui est {F33FDC04-D1AC-4E8E-9A30-19BBD4B108AE}
 -   Les objets d’appareil retournés par le fournisseur de services doivent prendre en charge l’interface **IMDSPDevice3** .
@@ -51,9 +51,9 @@ Pour qu’un autre appareil se synchronise avec le lecteur Windows Media, les co
 [**Paramètres de l’appareil**](device-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

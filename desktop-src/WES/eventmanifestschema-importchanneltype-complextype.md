@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7500d52179c3282c7f15dcdd5dd5a32620bbc076
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66136ee767c16aa85bfcef33fd23d5d42817f844fc309f7633d2a3d2bd35f2e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471049"
 ---
 # <a name="importchanneltype-complex-type"></a>Type complexe ImportChannelType
 
@@ -61,7 +61,7 @@ Identifie un canal qui a été défini par un autre fournisseur ou dans un manif
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le manifeste qui a défini le canal importé doit être installé avant que votre fournisseur n’écrive des événements ; dans le cas contraire, les événements ne peuvent pas être écrits dans le canal (l’opération d’écriture a abouti, les événements ne sont tout simplement pas écrits sur le canal).
 
@@ -71,8 +71,8 @@ Le manifeste qui a défini le canal importé doit être installé avant que votr
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

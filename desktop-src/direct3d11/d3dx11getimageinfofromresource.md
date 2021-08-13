@@ -1,6 +1,6 @@
 ---
 title: D3DX11GetImageInfoFromResource, fonction (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Remarque au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les fonctions de ressource, puis d’utiliser la bibliothèque DirectXTex (outils), LoadFromXXXMemory (où XXX est WIC, DDS ou TGA ; WIC ne prend pas en charge DDS et TGA. D3DX 9 prenait en charge la TGA comme format de source d’art courant pour les jeux. Récupère des informations sur une image donnée dans une ressource.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Remarque au lieu d’utiliser cette fonction, nous vous recommandons d’utiliser les fonctions de ressource, puis d’utiliser la bibliothèque DirectXTex (outils), LoadFromXXXMemory (où XXX est WIC, DDS ou TGA ; WIC ne prend pas en charge DDS et TGA. D3DX 9 prenait en charge la TGA comme format de source d’art courant pour les jeux. Récupère des informations sur une image donnée dans une ressource.'
 ms.assetid: e4752eb3-38d5-4922-b3c8-5fdcd0cc0610
 keywords:
 - Fonction D3DX11GetImageInfoFromResource Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - LibDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 967a7b2c2ff03faefc12a48be18a4756e4ed3962
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6ada8118dac3e39f9f91012bb3ec681db7b156540cffae0fb7c0f1a7bc1819b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535954"
 ---
 # <a name="d3dx11getimageinfofromresource-function"></a>D3DX11GetImageInfoFromResource fonction)
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -106,11 +106,11 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être la suivante : D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le paramètre du compilateur détermine également la version de la fonction. Si Unicode est défini, l’appel de fonction est résolu en **D3DX11GetImageInfoFromResourceW**. Dans le cas contraire, l’appel de fonction est résolu en **D3DX11GetImageInfoFromResourceA** , car les chaînes ANSI sont utilisées.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

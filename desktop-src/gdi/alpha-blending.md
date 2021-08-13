@@ -1,17 +1,17 @@
 ---
 description: La fusion alpha est utilisée pour afficher une bitmap alpha, qui est une bitmap qui a des pixels transparents ou semi-transparents.
 ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
-title: Fusion alpha (Windows GDI)
+title: fusion Alpha (Windows GDI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4add2aca8ac4e2d7e1b24988eb5d40f80bac259c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4eb59f6b628236124305e4564803fa826c279bfdc2353725a62029b293cb1e90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470129"
 ---
-# <a name="alpha-blending-windows-gdi"></a>Fusion alpha (Windows GDI)
+# <a name="alpha-blending-windows-gdi"></a>fusion Alpha (Windows GDI)
 
 La *fusion alpha* est utilisée pour afficher une bitmap alpha, qui est une bitmap qui a des pixels transparents ou semi-transparents. Outre un canal de couleur rouge, vert et bleu, chaque pixel d’une bitmap Alpha possède un composant de transparence appelé « *canal alpha*». Le canal alpha contient généralement autant de bits qu’un canal de couleurs. Par exemple, un canal alpha 8 bits peut représenter 256 niveaux de transparence, à partir de 0 (la bitmap entière est transparente) à 255 (la bitmap entière est opaque).
 

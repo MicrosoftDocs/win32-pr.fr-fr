@@ -1,6 +1,6 @@
 ---
 title: Énumération D3DX11_FILTER_FLAG (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Indicateurs de filtrage de texture.'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Indicateurs de filtrage de texture.'
 ms.assetid: 083a6a19-1933-4831-9501-36d4867f3dce
 keywords:
 - Énumération D3DX11_FILTER_FLAG Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f2105970efb7f2ec07464d8a902df49d8f75bc2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b02ddbf1785d1032ab28a990d022950b2f28acc4b032ecdc9a72d5704665c03b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104982575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537000"
 ---
 # <a name="d3dx11_filter_flag-enumeration"></a>\_Énumération de l’indicateur de filtre D3DX11 \_
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -159,9 +159,9 @@ Identique à la spécification \_ de la fonction de filtre D3DX \_ sRVB \_ dans 
 
 ## <a name="remarks"></a>Notes
 
-D3DX11 effectue automatiquement une correction gamma (pour convertir les données de couleur de l’espace RVB en espace RVB standard) lors du chargement des données de texture. Cette opération est effectuée automatiquement par exemple lorsque les données RVB sont chargées à partir d’un fichier. png dans une texture sRVB. Utilisez les indicateurs de filtre sRVB pour indiquer si les données n’ont pas besoin d’être converties en espace sRVB.
+D3DX11 effectue automatiquement une correction gamma (pour convertir les données de couleur de l’espace RVB en espace RVB standard) lors du chargement des données de texture. Cette opération est effectuée automatiquement par exemple lorsque les données RVB sont chargées à partir d’un fichier de .png dans une texture sRVB. Utilisez les indicateurs de filtre sRVB pour indiquer si les données n’ont pas besoin d’être converties en espace sRVB.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

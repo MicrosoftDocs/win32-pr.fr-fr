@@ -4,12 +4,12 @@ ms.assetid: a95fa3ea-2013-45d5-bdec-61eddcefc2fa
 title: Conversion d’une image BMP en image PNG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d165809bb4cfa7f37685b8b130e2b895b35c0ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a68acc269e1fecf5e8a42a2da54a5d0d5ce89ee156d83894078392e5d5f1605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467149"
 ---
 # <a name="converting-a-bmp-image-to-a-png-image"></a>Conversion d’une image BMP en image PNG
 

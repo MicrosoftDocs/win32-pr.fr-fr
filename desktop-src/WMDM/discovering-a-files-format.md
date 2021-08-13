@@ -3,7 +3,7 @@ title: Découverte du format d’un fichier
 description: Découverte du format d’un fichier
 ms.assetid: f1b3f811-8161-41ca-a92c-2735c0bec2e8
 keywords:
-- Windows Media Gestionnaire de périphériques, formats de fichiers
+- Windows Gestionnaire de périphériques de média, formats de fichiers
 - Gestionnaire de périphériques, formats de fichiers
 - Guide de programmation, formats de fichiers
 - applications de bureau, formats de fichiers
@@ -11,27 +11,27 @@ keywords:
 - écriture de fichiers sur des appareils, formats de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b06c963b01e3b681fd078d8685e1c788c73352e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83706a3026968a694d3629551d310db9021b7f8c8118f3d98621751a95af26b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585328"
 ---
 # <a name="discovering-a-files-format"></a>Découverte du format d’un fichier
 
 Avant d’envoyer un fichier à l’appareil, une application doit déterminer si l’appareil prend en charge ce format de fichier.
 
-La découverte du format d’un fichier peut être complexe. La méthode la plus simple consiste à créer une liste d’extensions de fichier mappées à des \_ valeurs d’énumération FORMATCODE WMDM spécifiques. Toutefois, il existe quelques problèmes avec ce système : l’un est qu’un seul format peut avoir plusieurs extensions (telles que. jpg,. jpe et. jpeg pour les images JPEG). En outre, la même extension de fichier peut être utilisée par différents programmes pour différents formats.
+La découverte du format d’un fichier peut être complexe. La méthode la plus simple consiste à créer une liste d’extensions de fichier mappées à des \_ valeurs d’énumération FORMATCODE WMDM spécifiques. Toutefois, il existe quelques problèmes avec ce système : l’un est qu’un seul format peut avoir plusieurs extensions (telles que .jpg,. jpe et. jpeg pour les images JPEG). En outre, la même extension de fichier peut être utilisée par différents programmes pour différents formats.
 
-Pour surmonter les limitations d’un mappage strict, il est préférable pour une application de vérifier que le format correspond à l’extension. Le kit de développement logiciel (SDK) DirectShow fournit des outils qui permettent à une application de découvrir un ensemble limité de détails sur la plupart des types de fichiers multimédias. Le kit de développement logiciel (SDK) du format Windows Media expose un grand nombre de détails, mais uniquement des fichiers ASF. Étant donné que le code de format de tous les types de fichiers doit être vérifié si possible, il est préférable d’utiliser DirectShow pour découvrir ou vérifier le code de format de base, et utiliser le kit de développement logiciel (SDK) de format Windows Media pour découvrir les métadonnées supplémentaires souhaitées sur les fichiers ASF. DirectShow peut également être utilisé pour découvrir des métadonnées de base pour les fichiers non ASF.
+Pour surmonter les limitations d’un mappage strict, il est préférable pour une application de vérifier que le format correspond à l’extension. le kit de développement logiciel (SDK) DirectShow fournit des outils qui permettent à une application de découvrir un ensemble limité de détails sur la plupart des types de fichiers multimédias. le kit de développement logiciel (SDK) Windows Media Format expose un grand nombre de détails, mais uniquement des fichiers ASF. étant donné que le code de format de tous les types de fichiers doit être vérifié si possible, il est préférable d’utiliser DirectShow pour découvrir ou vérifier le code de format de base, et utiliser le kit de développement logiciel (SDK) Windows Media format pour découvrir les métadonnées supplémentaires souhaitées sur les fichiers ASF. DirectShow peut également être utilisé pour découvrir des métadonnées de base pour les fichiers non ASF.
 
 Voici un moyen de découvrir un format de fichier à l’aide du mappage d’extension et de DirectShow.
 
 Tout d’abord, comparez l’extension de nom de fichier à une liste d’extensions connues. Veillez à ne pas respecter la casse de la comparaison. Si l’extension n’est pas mappée, définissez le format sur WMDM \_ FORMATCODE non \_ défini.
 
 -   Si le code de format est introuvable (ou si vous souhaitez vérifier qu’un fichier est un fichier multimédia), vous pouvez effectuer les étapes suivantes :
-    1.  Créez un objet DirectShow Media Detection à l’aide de **CoCreateInstance**(CLSID \_ MediaDet) et récupérez l’interface **IMediaDet** .
+    1.  créez un objet de détecteur de média DirectShow à l’aide de **CoCreateInstance**(CLSID \_ MediaDet) et récupérez l’interface **IMediaDet** .
     2.  Ouvrez le fichier en appelant **IMediaDet ::p ut \_ nom_fichier**. Cet appel échoue si le fichier est protégé.
     3.  Obtient le type de média du flux par défaut en appelant **IMediaDet :: obten \_ StreamMediaType**, qui retourne **un \_ \_ type de média am**.
     4.  Récupérez le nombre de flux en appelant **IMediaDet :: obten \_ OutputStreams**.
@@ -41,7 +41,7 @@ Tout d’abord, comparez l’extension de nom de fichier à une liste d’extens
 
 Vous pouvez également essayer de mettre en correspondance les codecs audio ou Video à partir des membres **VIDEOINFOHEADER** ou **WAVEFORMATEX** récupérés à partir de la **\_ StreamMediaType**.
 
-La fonction C++ suivante illustre la correspondance d’extension de fichier et l’utilisation de DirectShow pour essayer d’analyser les fichiers inconnus.
+la fonction C++ suivante illustre la correspondance d’extension de fichier et l’utilisation de DirectShow pour essayer d’analyser des fichiers inconnus.
 
 
 ```C++
@@ -184,9 +184,9 @@ WMDM_FORMATCODE CWMDMController::myGetWMDM_FORMATCODE(LPCWSTR pFileName)
 [**Écriture de fichiers sur l’appareil**](writing-files-to-the-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

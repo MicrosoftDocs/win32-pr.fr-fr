@@ -16,12 +16,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7dee009521c59b606010be085fcb0447558898d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 43cd6c24447e7ba3bc22788484b2ac9e437ee947243c17a676728d2a336bd326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603885"
 ---
 # <a name="win32_tsgatewayserver-class"></a>\_Classe TSGatewayServer Win32
 
@@ -52,15 +52,15 @@ La classe **Win32 \_ TSGatewayServer** possède ces méthodes.
 |:-----------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
 | [**CreateSelfSignedCertificate**](createselfsignedcertificate-win32-tsgatewayserver.md) | Crée un certificat auto-signé avec un nom d’objet donné et retourne le hachage de certificat en tant que paramètre « out ».<br/> |
 | [**Exporter**](export-win32-tsgatewayserver.md)                                           | Retourne la configuration du serveur de passerelle Bureau à distance sous la forme d’une chaîne XML.<br/>                                                       |
-| [**Importer**](import-win32-tsgatewayserver.md)                                           | Importe une configuration donnée sur le serveur de passerelle Bureau à distance.<br/>                                                             |
+| [**Port**](import-win32-tsgatewayserver.md)                                           | Importe une configuration donnée sur le serveur de passerelle Bureau à distance.<br/>                                                             |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). les fichiers MOF ne sont pas installés dans le cadre du kit de développement logiciel (SDK) Microsoft Windows. Ils sont installés sur le serveur lorsque vous ajoutez le rôle associé à l’aide de l’Gestionnaire de serveur. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

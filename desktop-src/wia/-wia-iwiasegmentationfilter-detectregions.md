@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 94fe2f5076e9ff7cc0de0f7c916f6edacf2d03fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46496360d7b54bed837ba287d604233a9fac98ee13807744b4adbfb52e9934d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450259"
 ---
 # <a name="iwiasegmentationfilterdetectregions-method"></a>IWiaSegmentationFilter ::D méthode etectRegions
 
@@ -53,18 +53,18 @@ Actuellement inutilisé. Doit être défini sur zéro (0).
 *pInputStream* \[ dans\]
 </dt> <dd>
 
-Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+Type : **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 Spécifie un pointeur vers l’image [IStream](/windows/win32/api/objidl/nn-objidl-istream) preview.
 
 </dd> <dt>
 
-_pWiaItem2 * \[ dans\]
+*pWiaItem2* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+Type : **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-Spécifie un pointeur vers l’élément [_ *IWiaItem2* *](-wia-iwiaitem2.md) pour lequel *pInputStream* a été acquis. Le filtre de segmentation crée des éléments enfants pour cet élément.
+Spécifie un pointeur vers l’élément [**IWiaItem2**](-wia-iwiaitem2.md) pour lequel *pInputStream* a été acquis. Le filtre de segmentation crée des éléments enfants pour cet élément.
 
 </dd> </dl>
 
@@ -74,7 +74,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode détermine les sous-régions de l’image représentée par pInputStream. Pour chaque sous-région qu’il détecte, il crée un élément enfant pour l’élément [**IWiaItem2**](-wia-iwiaitem2.md) spécifié dans le paramètre *pWiaItem2* . Pour chaque élément enfant, le filtre de segmentation doit définir des valeurs pour le rectangle englobant de la zone à analyser, à l’aide des [**constantes de propriété d’élément WIA du scanneur**](-wia-wiaitempropscanneritem.md)suivantes.
 
@@ -219,8 +219,8 @@ DownloadPreviewImage(
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

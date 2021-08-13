@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5aa2229e88123cc1d52f65f1edf032c46f819229
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ce6e120361972ac1ff4dbed5d37808dffa0f010af64feda365f65aad8dd393f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106522990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118293105"
 ---
 # <a name="id3dxrendertosurfacebeginscene-method"></a>ID3DXRenderToSurface :: BeginScene, méthode
 
@@ -59,7 +59,7 @@ Pointeur vers une structure [**D3DVIEWPORT9**](d3dviewport9.md) , décrivant la 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 

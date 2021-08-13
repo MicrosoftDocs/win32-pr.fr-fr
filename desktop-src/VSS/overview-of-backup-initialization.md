@@ -4,12 +4,12 @@ ms.assetid: 1fc46062-c4a0-4aa2-ae05-3d7cded18584
 title: Vue d’ensemble de l’initialisation de la sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53fb97b43cf19ca60e3e4601899700e35bdad3aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4054dc644056100a4db28ea11b6dcaf9c358084a1b01b9ad28c13e14133fc5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106531887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591353"
 ---
 # <a name="overview-of-backup-initialization"></a>Vue d’ensemble de l’initialisation de la sauvegarde
 

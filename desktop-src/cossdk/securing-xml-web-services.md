@@ -4,19 +4,19 @@ ms.assetid: 440b0636-8afc-4fb3-a179-140958948b94
 title: Sécurisation des services Web XML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94953ce0769c44ddaeda27cacdac99ab4ff252d5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bccc49a096def7fdca3f508ca590cd23df0fbf2e92fd816ba55300931122361e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546962"
 ---
 # <a name="securing-xml-web-services"></a>Sécurisation des services Web XML
 
 L’accès aux applications COM+ exposées en tant que services Web XML est contrôlé par le serveur Web IIS, qui traite les demandes entrantes. Vous pouvez également configurer IIS pour exiger que les communications avec l’appelant s’effectuent sur un canal sécurisé établi à l’aide du protocole SSL (Secure Sockets Layer) (SSL).
 
 > [!Note]  
-> Un service Web XML sécurisé ne prend pas en charge l’accès WKO via WSDL. Au lieu de cela, les clients qui ont installé la version de .NET Framework 1,1 peuvent l’appeler en mode CAO. Si des clients tiers ont besoin d’accéder à votre service Web XML via WSDL, vous devez autoriser l’accès anonyme.
+> Un service Web XML sécurisé ne prend pas en charge l’accès WKO via WSDL. au lieu de cela, les clients qui ont installé la version de .NET Framework 1,1 peuvent l’appeler en mode CAO. Si des clients tiers ont besoin d’accéder à votre service Web XML via WSDL, vous devez autoriser l’accès anonyme.
 
  
 
@@ -38,7 +38,7 @@ Pour sélectionner le mécanisme d’authentification d’un service Web XML, pr
 4.  Dans la boîte de dialogue **méthodes d’authentification** , sous **accès authentifié**, utilisez les cases à cocher pour sélectionner les mécanismes d’authentification que vous souhaitez autoriser. Cliquez sur **OK**.
 
     > [!Note]  
-    > Vous pouvez configurer IIS pour authentifier les appelants en utilisant l’une des options suivantes dans la boîte de dialogue **méthodes d’authentification** IIS : **authentification Windows intégrée**, **authentification Digest pour les serveurs de domaine Windows**, **authentification de base (mot de passe envoyé en texte clair)** ou **authentification .NET Passport**. Vous pouvez également autoriser l’accès anonyme.
+    > vous pouvez configurer iis pour authentifier les appelants en utilisant l’une des options suivantes dans la boîte de dialogue **méthodes d’authentification** iis : **authentification Windows intégrée**, **authentification Digest pour les serveurs de domaine Windows**, **authentification de base (mot de passe envoyé en texte clair)** ou **authentification .net Passport**. Vous pouvez également autoriser l’accès anonyme.
 
      
 

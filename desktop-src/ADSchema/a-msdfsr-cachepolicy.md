@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 028803046dd34ac4a1566dd465d12bdca194e80d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2a428329c9ebf7e6e7154bc7ae30c531bbcd9f42adabd3f10259e5780434ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106536933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686055"
 ---
 # <a name="ms-dfsr-cachepolicy-attribute"></a>attribut ms-DFSR-CachePolicy
 
@@ -36,13 +36,13 @@ Options de stratégie de cache à la demande.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.6.13.3.29           |
 | System-ID-GUID    | db7a08e7-fc76-4569-a45f-f5ecb66a88b5 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Options de stratégie de cache à la demande.
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | \-                                                               |
 | Range-Upper            | \-                                                               |
@@ -75,10 +75,10 @@ Options de stratégie de cache à la demande.
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | \-                                                               |
 | Range-Upper            | \-                                                               |
@@ -96,10 +96,10 @@ Options de stratégie de cache à la demande.
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | \-                                                               |
 | Range-Upper            | \-                                                               |

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6cbf1cbb622610a01a533195752b3532b25f8959
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c50330f44fe481398ca9c831c349d3b99a33f735b13be7cc5843c566b8897a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676740"
 ---
 # <a name="copyex-method-of-the-win32_shortcutfile-class"></a>Méthode CopyEx de la \_ classe Win32 ShortcutFile
 

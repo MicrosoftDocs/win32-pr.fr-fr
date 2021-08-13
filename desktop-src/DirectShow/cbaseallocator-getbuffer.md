@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f965885d4a7a12e09c8875f71032ce2fded61bd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a183079e954b3a0d8b07fc1d7daf039db8fcc840243a6ea421b2390ce02a3625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661681"
 ---
 # <a name="cbaseallocatorgetbuffer-method"></a>Méthode CBaseAllocator. GetBuffer
 
@@ -91,7 +91,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
 | Code de retour                                                                                           | Description                             |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                     |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                     |
 | <dl> <dt>**VFW \_ E \_ non \_ validé**</dt> </dl> | Allocator n’a pas été validé.<br/> |
 | <dl> <dt>**\_ \_ délai d’expiration VFW E**</dt> </dl>        | Expiration du délai d’attente.<br/>                   |
 
@@ -99,7 +99,7 @@ Retourne l’une des valeurs **HRESULT** suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 À moins que l’appelant ne spécifie l’indicateur **am \_ GBF \_ NOWAIT** dans *dwFlags*, cette méthode se bloque jusqu’à ce que l’exemple suivant soit disponible.
 
@@ -115,7 +115,7 @@ Si la méthode doit attendre un échantillon, elle incrémente le nombre d’obj
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

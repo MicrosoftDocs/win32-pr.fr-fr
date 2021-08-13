@@ -1,9 +1,9 @@
 ---
 title: Attribut SyncState
-description: L’attribut SyncState est une représentation sous forme de chaîne d’une valeur 32 bits que le lecteur Windows Media utilise lorsqu’il synchronise des sélections avec des appareils portables.
+description: l’attribut SyncState est une représentation sous forme de chaîne d’une valeur 32 bits que Lecteur Windows Media utilise lorsqu’il synchronise des sélections avec des appareils portables.
 ms.assetid: affc3d1c-7fe6-4811-acfc-57285cb181ca
 keywords:
-- Attribut SyncState lecteur Windows Media
+- Lecteur Windows Media de l’attribut SyncState
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a948f6c649d548b375ccb676134177b0273c85c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7712a6e3bb0a01f4a713af114f91ebdcb302ef172c77e1cb64b8746f9ae0dcf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414859"
 ---
 # <a name="syncstate-attribute"></a>Attribut SyncState
 
-L’attribut **SyncState** est une représentation sous forme de chaîne d’une valeur 32 bits que le lecteur Windows Media utilise lorsqu’il synchronise des sélections avec des appareils portables.
+l’attribut **SyncState** est une représentation sous forme de chaîne d’une valeur 32 bits que Lecteur Windows Media utilise lorsqu’il synchronise des sélections avec des appareils portables.
 
 ## <a name="applies-to"></a>S'applique à
 
@@ -30,11 +30,11 @@ L’attribut **SyncState** est une représentation sous forme de chaîne d’une
 -   [Éléments de photo](photo-item-attributes.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut se compose de valeurs 16 2 bits, chacune spécifiant l’état de synchronisation d’un appareil mobile. Le bit le plus significatif (MSB) de cette valeur de 32 bits correspond à l’appareil 16. Le bit le moins significatif (LSB) correspond à l’appareil 1.
 
-L’octet de poids fort de chaque valeur de 2 bits indique si le lecteur Windows Media a synchronisé le contenu avec l’appareil correspondant. La valeur 1 indique qu’elle a été exécutée. La valeur 0 indique qu’elle ne l’a pas fait.
+l’octet de poids fort de chaque valeur de 2 bits indique si Lecteur Windows Media synchronisé le contenu avec l’appareil correspondant. La valeur 1 indique qu’elle a été exécutée. La valeur 0 indique qu’elle ne l’a pas fait.
 
 Si le MSB est 0, le LSB spécifie la raison de l’échec de la synchronisation. La valeur 1 dans le LSB indique qu’il n’y avait pas suffisamment d’espace libre pour le contenu. La valeur 0 dans le LSB indique une autre raison empêchait la synchronisation.
 

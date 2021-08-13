@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 33a62c8dad7ef6e15b9b11461303b1bced977a96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13aad8d0214c65c01237c8e74548c3915af9287c935b53e33c6d229b2da5b12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654214"
 ---
 # <a name="dbginitialise-function"></a>DbgInitialise fonction)
 
@@ -53,9 +53,9 @@ Handle de l’instance de module.
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans un fichier exécutable, appelez cette méthode avant d’utiliser les fonctionnalités de débogage DirectShow. Avant la fermeture de l’exécutable, appelez la fonction [**DbgTerminate**](dbgterminate.md) pour nettoyer la bibliothèque de débogage.
+dans un fichier exécutable, appelez cette méthode avant d’utiliser les fonctionnalités de débogage DirectShow. Avant la fermeture de l’exécutable, appelez la fonction [**DbgTerminate**](dbgterminate.md) pour nettoyer la bibliothèque de débogage.
 
 Dans une DLL qui établit un lien vers la bibliothèque de classes de base (Strmbase. lib), il n’est pas nécessaire d’appeler cette fonction. La fonction est appelée automatiquement lorsque la DLL est chargée.
 
@@ -65,7 +65,7 @@ Dans une DLL qui établit un lien vers la bibliothèque de classes de base (Strm
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

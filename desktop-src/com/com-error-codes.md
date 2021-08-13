@@ -4,12 +4,12 @@ description: Les rubriques suivantes fournissent des listes de codes d’erreur 
 ms.assetid: 373671fe-489e-4f12-afe5-b7541f32441b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8317eb9ad5281f99ccd494c228b03d2d2142c5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9743eb419c6af179d351ace4784d2cc251b12153da1edb7c3d0a743592eec150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550602"
 ---
 # <a name="com-error-codes"></a>Codes d’erreur COM
 
@@ -28,9 +28,9 @@ Les rubriques suivantes fournissent des listes de codes d’erreur utilisés par
 
 Si vous rencontrez des difficultés avec une application que vous installez ou exécutez, contactez le support technique du logiciel qui affiche le message d’erreur. Pour obtenir la prise en charge d’un produit Microsoft, accédez à [https://support.microsoft.com](https://support.microsoft.com) .
 
- 
+ 
 
- 
+ 
 
 
 

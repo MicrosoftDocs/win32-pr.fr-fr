@@ -4,18 +4,18 @@ ms.assetid: 7cb07bcd-70f4-43dd-8382-320fcff151c7
 title: Identificateurs de sécurité
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0368b2484cd8766aa7fa74c24679e82b10854e9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf6acaaeacfbc77b2dc814062c4254c5f08e58869e0b6d8b2fbb64e8511dc31e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413489"
 ---
 # <a name="security-identifiers"></a>Identificateurs de sécurité
 
-Un [*identificateur de sécurité*](/windows/desktop/SecGloss/s-gly) (SID) est une valeur unique de longueur variable utilisée pour identifier un [tiers de confiance](trustees.md). Chaque compte possède un SID unique émis par une autorité, par exemple un contrôleur de domaine Windows, et stocké dans une base de données de sécurité. Chaque fois qu’un utilisateur ouvre une session, le système récupère le SID de cet utilisateur dans la base de données et le place dans le [*jeton d’accès*](/windows/desktop/SecGloss/a-gly) de cet utilisateur. Le système utilise le SID dans le jeton d’accès pour identifier l’utilisateur dans toutes les interactions suivantes avec la sécurité Windows. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut jamais être utilisé pour identifier un autre utilisateur ou groupe.
+Un [*identificateur de sécurité*](/windows/desktop/SecGloss/s-gly) (SID) est une valeur unique de longueur variable utilisée pour identifier un [tiers de confiance](trustees.md). chaque compte possède un SID unique émis par une autorité, par exemple un contrôleur de domaine Windows, et stocké dans une base de données de sécurité. Chaque fois qu’un utilisateur ouvre une session, le système récupère le SID de cet utilisateur dans la base de données et le place dans le [*jeton d’accès*](/windows/desktop/SecGloss/a-gly) de cet utilisateur. le système utilise le SID dans le jeton d’accès pour identifier l’utilisateur dans toutes les interactions suivantes avec Windows la sécurité. Lorsqu’un SID a été utilisé en tant qu’identificateur unique pour un utilisateur ou un groupe, il ne peut jamais être utilisé pour identifier un autre utilisateur ou groupe.
 
-La sécurité Windows utilise des SID dans les éléments de sécurité suivants :
+la sécurité Windows utilise des sid dans les éléments de sécurité suivants :
 
 -   Dans les [descripteurs de sécurité](security-descriptors.md) pour identifier le propriétaire d’un objet et d’un groupe principal
 -   Dans les [entrées de contrôle d’accès](access-control-entries.md), pour identifier le tiers de confiance pour lequel l’accès est autorisé, refusé ou audité
@@ -23,7 +23,7 @@ La sécurité Windows utilise des SID dans les éléments de sécurité suivants
 
 Outre les SID spécifiques à un domaine qui sont créés de manière unique et attribués à des utilisateurs et des groupes spécifiques, des [sid connus](well-known-sids.md) identifient des groupes génériques et des utilisateurs génériques. Par exemple, les SID bien connus, tout le monde et tout le monde, identifient un groupe qui comprend tous les utilisateurs.
 
-La plupart des applications n’ont jamais besoin d’utiliser des SID. Étant donné que les noms de [sid connus](well-known-sids.md) peuvent varier, vous devez utiliser les fonctions pour générer le SID à partir de constantes prédéfinies plutôt que d’utiliser le nom du SID connu. Par exemple, la version anglaise (États-Unis) du système d’exploitation Windows possède un SID connu nommé « \\ administrateurs builtin » qui peut avoir un nom différent sur les versions internationales du système. Pour obtenir un exemple qui crée un SID bien connu, consultez [recherche d’un SID dans un jeton d’accès en C++](searching-for-a-sid-in-an-access-token-in-c--.md).
+La plupart des applications n’ont jamais besoin d’utiliser des SID. Étant donné que les noms de [sid connus](well-known-sids.md) peuvent varier, vous devez utiliser les fonctions pour générer le SID à partir de constantes prédéfinies plutôt que d’utiliser le nom du SID connu. par exemple, la version anglaise (états-unis) du système d’exploitation Windows possède un SID connu nommé « \\ administrateurs BUILTIN » qui peut avoir un nom différent sur les versions internationales du système. Pour obtenir un exemple qui crée un SID bien connu, consultez [recherche d’un SID dans un jeton d’accès en C++](searching-for-a-sid-in-an-access-token-in-c--.md).
 
 Si vous devez utiliser des SID, ne les manipulez pas directement. Au lieu de cela, utilisez les fonctions suivantes.
 

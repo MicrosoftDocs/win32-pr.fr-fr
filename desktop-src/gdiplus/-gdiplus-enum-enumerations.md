@@ -1,17 +1,17 @@
 ---
-title: Énumérations GDI+
+title: énumérations de GDI+
 description: 'Windows GDI+ définit les énumérations suivantes :'
 ms.assetid: e37295d3-9bfe-4708-94b4-b45a8da894b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 383e92efd0ed1603373b354e7f610936462d9efb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f5b3432968e61457a0ac213979f14bf4013304b1740e1aa5cd7f9712e18b204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248836"
 ---
-# <a name="gdi-enumerations"></a>Énumérations GDI+
+# <a name="gdi-enumerations"></a>énumérations de GDI+
 
 Windows GDI+ définit les énumérations suivantes :
 
@@ -67,7 +67,7 @@ Windows GDI+ définit les énumérations suivantes :
 -   [**StringFormatFlags**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-stringformatflags)
 -   [**StringTrimming**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-stringtrimming)
 -   [**TextRenderingHint**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-textrenderinghint)
--   [**Unités**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit)
+-   [**Unité**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-unit)
 -   [**WarpMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-warpmode)
 -   [**WrapMode**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-wrapmode)
 

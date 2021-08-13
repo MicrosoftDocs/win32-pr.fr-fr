@@ -4,12 +4,12 @@ description: Pour afficher un événement, vous devez appeler la fonction EvtRen
 ms.assetid: fc763669-1fbc-4183-a4ff-577a7954d1ca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d7b1b4e2cbcab564abefb628f9c58f79ade86d8
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 220c53d4df0d51bf9963e080c192d19a8a915ffbfe33cf113608c0cf6a8fcd39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104381712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587304"
 ---
 # <a name="rendering-events"></a>Événements de rendu
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - tiptsf.dll
-ms.openlocfilehash: e547376bf2e9c50c224d1917e00329e8d9555e6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4288a506e14ae8096db9be051e3282bb2ebd62522988d75574f3e56070419fc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449792"
 ---
 # <a name="itipautocompleteclientrequestshowui-method"></a>ITipAutocompleteClient :: RequestShowUI, méthode
 
@@ -62,14 +62,14 @@ Cette méthode peut retourner l’une de ces valeurs.
 
 | Code de retour                                                                            | Description                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
-| <dl> <dt>**\_OK**</dt> </dl>   | Opération réussie.<br/>                       |
+| <dl> <dt>**\_OK**</dt> </dl>   | Réussite.<br/>                       |
 | <dl> <dt>**E \_ échec**</dt> </dl> | Une erreur non spécifiée s'est produite.<br/> |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est appelée par le fournisseur de saisie semi-automatique lorsqu’il est sur le présent d’afficher l’interface utilisateur de saisie semi-automatique. Si l’état interne du client n’autorise pas le fournisseur à afficher l’interface utilisateur, *pfAllowShowing* est défini sur **false**. Par exemple, lorsque le texte est envoyé au champ à partir de l’apparence de l’écriture manuscrite dans le panneau de saisie Tablet PC et que l’utilisateur commence immédiatement l’entrée manuscrite, le client recommande de ne pas afficher l’interface utilisateur de saisie semi-automatique, afin d’éviter la destruction de l’entrée de l’utilisateur, en affectant à *pfAllowShowing* la **valeur false**.
 
@@ -81,7 +81,7 @@ Appelez **RequestShowUI** pour définir le handle de fenêtre de la liste de sai
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                                   |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                       |
 | En-tête<br/>                   | <dl> <dt>TipAutoComplete. h (nécessite également PenInputPanel \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Tiptsf.dll</dt> </dl>                                           |

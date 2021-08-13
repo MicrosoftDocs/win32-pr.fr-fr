@@ -3,7 +3,7 @@ title: Événement KeyOut de l’objet AxWindowsMediaPlayer
 description: L’événement KeyOut se produit lorsqu’une touche est enfoncée. | Événement KeyOut de l’objet AxWindowsMediaPlayer
 ms.assetid: e67b9628-6c53-4893-921a-9487ebfc1cd5
 keywords:
-- Événement KeyOut de l’objet AxWindowsMediaPlayer lecteur Windows Media
+- événement keyout de l’objet AxWindowsMediaPlayer Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc89814063e1a43badd22e658b5f19ece7abb074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 054736007219021dbc0a4c1c968f61e1bbdb285fa416aae5f3c92c3880fb55de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469719"
 ---
 # <a name="keydown-event-of-the-axwindowsmediaplayer-object"></a>Événement KeyOut de l’objet AxWindowsMediaPlayer
 
@@ -54,7 +54,7 @@ Le gestionnaire associé à cet événement est de type **AxWMPLib. \_ WMPOCXEve
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **nKeyCode** spécifie une clé physique. Les tableaux suivants indiquent les valeurs possibles pour les clés principales sur un clavier standard.
 
@@ -76,8 +76,8 @@ Valeurs pour les clés principales.
 | SPACE                   | 32      |
 | Ret.arr               | 8       |
 | ENTRÉE                   | 13      |
-| Touche de logo Windows, à gauche  | 91      |
-| Touche du logo Windows, droite | 92      |
+| touche Windows du logo, à gauche  | 91      |
+| touche Windows du logo, droite | 92      |
 | Clé de l'application         | 93      |
 
 
@@ -140,7 +140,7 @@ Valeurs des touches de navigation.
 
 <dl> <dt>
 
-[**Objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
+[**objet AxWindowsMediaPlayer (VB et C#)**](axwindowsmediaplayer-object--vb-and-c.md)
 </dt> </dl>
 
  

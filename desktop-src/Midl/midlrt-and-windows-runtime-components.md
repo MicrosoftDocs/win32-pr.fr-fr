@@ -1,26 +1,26 @@
 ---
-title: Composants MIDLRT et Windows Runtime
-description: Montre comment créer des fichiers de métadonnées (. winmd) qui représentent l’API pour les composants de Windows Runtime personnalisés.
+title: composants MIDLRT et Windows Runtime
+description: montre comment créer des fichiers de métadonnées (. winmd) qui représentent l’API pour les composants de Windows Runtime personnalisés.
 ms.assetid: 7830A5DB-9696-4A93-948B-51DA46A5143C
 keywords:
 - MIDL du compilateur MIDL
-- MIDL du compilateur MIDL, MIDL et Windows Runtime WinRT
+- midl du compilateur midl, midl et Windows Runtime winrt
 - Windows Runtime MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4edf4d40b3fc5b0a5ed8eeb9b5fd47a3b87c4543
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6f827178216bbb7e78c16f2c11fa68b29b2eb50cfc0714a0ed53b02ce5bdc4ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104508201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642903"
 ---
-# <a name="midlrt-and-windows-runtime-components"></a>Composants MIDLRT et Windows Runtime
+# <a name="midlrt-and-windows-runtime-components"></a>composants MIDLRT et Windows Runtime
 
-Montre comment créer des fichiers de métadonnées (. winmd) qui représentent l’API pour les composants de Windows Runtime personnalisés.
+montre comment créer des fichiers de métadonnées (. winmd) qui représentent l’API pour les composants de Windows Runtime personnalisés.
 
 
-Utilisez le compilateur MIDLRT pour générer des fichiers de métadonnées (. winmd) pour vos composants de Windows Runtime personnalisés.
+utilisez le compilateur MIDLRT pour générer des fichiers de métadonnées (. winmd) pour vos composants de Windows Runtime personnalisés.
 
 Lorsque vos fichiers de métadonnées sont générés, vous pouvez les composer dans un package plus efficace à l’aide de l’utilitaire MDMERGE. Pour plus d’informations, consultez [MDMERGE et fichiers de métadonnées](mdmerge-and-metadata-files.md).
 

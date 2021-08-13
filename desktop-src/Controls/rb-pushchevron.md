@@ -3,7 +3,7 @@ title: Message RB_PUSHCHEVRON (commctrl. h)
 description: Envoyé à un contrôle rebar pour pousser par programme un chevron.
 ms.assetid: 00a8ce10-1fb2-488a-a6f9-1814f73f82bd
 keywords:
-- RB_PUSHCHEVRON les contrôles de message Windows
+- RB_PUSHCHEVRON les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e09e558d5574d4fd28cf01e9794657556dda4ae8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2d095cd824970b7ea90541420274b204a1e2f63ce6e1218e62221741f572feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434969"
 ---
 # <a name="rb_pushchevron-message"></a>\_Message PUSHCHEVRON RB
 
@@ -47,7 +47,7 @@ Valeur 32 bits définie par l’application. Elle est repassée à l’applicati
 
 La valeur de retour de ce message n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque ce message est envoyé, le contrôle rebar envoie à l’application un code de notification [RBN \_ CHEVRONPUSHED](rbn-chevronpushed.md) , lui invitant à afficher le menu Chevron.
 
@@ -57,8 +57,8 @@ Lorsque ce message est envoyé, le contrôle rebar envoie à l’application un 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

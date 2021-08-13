@@ -3,7 +3,7 @@ title: IWMPDVD. isAvailable (VB et C)
 description: La propriété isAvailable (la \_ méthode obtenir IsAvailable dans C \) obtient une valeur qui indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée.
 ms.assetid: 55690783-df2f-473d-a6f2-a4907b7e8a78
 keywords:
-- Lecteur Windows Media IWMPDVD. isAvailable (VB et C)
+- IWMPDVD. isAvailable (VB et C) Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e3409da619f337b61606baaf546cebbb438087c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c78c9dda7bff764752dc55524000ccd3695863afe69dcf45c2ed971c9c0373fd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106531021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415915"
 ---
 # <a name="iwmpdvdisavailable-vb-and-c"></a>IWMPDVD. isAvailable (VB et C#)
 
@@ -72,9 +72,9 @@ System. String qui est l’une des valeurs suivantes.
 
 **System. Boolean** qui indique si un type spécifié d’informations est disponible ou si une action spécifiée peut être exécutée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Les fonctionnalités DVD du lecteur Windows Media ne fonctionneront pas sur les ordinateurs sur lesquels aucun décodeur de DVD n’est installé. Vous pouvez déterminer si un décodeur est disponible en appelant la propriété **isAvailable** (la méthode « **obtenir \_ IsAvailable** » en C#) et en passant la valeur **System. String** « dvdDecoder ».
+les fonctionnalités de dvd de Lecteur Windows Media ne fonctionnent pas sur les ordinateurs sur lesquels aucun décodeur de DVD n’est installé. Vous pouvez déterminer si un décodeur est disponible en appelant la propriété **isAvailable** (la méthode « **obtenir \_ IsAvailable** » en C#) et en passant la valeur **System. String** « dvdDecoder ».
 
 Chaque DVD est créé différemment. Les méthodes disponibles pendant la lecture et la navigation sur DVD dépendent de la façon dont le DVD est créé.
 
@@ -97,16 +97,16 @@ Chaque DVD est créé différemment. Les méthodes disponibles pendant la lectur
 [**Interface IWMPDVD (VB et C#)**](iwmpdvd--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPDVD. Back (VB et C#)**](wmplibiwmpdvd-iwmpdvd-back--vb-and-c.md)
+[**IWMPDVD. back (VB et C#)**](wmplibiwmpdvd-iwmpdvd-back--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPDVD. Resume (VB et C#)**](wmplibiwmpdvd-iwmpdvd-resume--vb-and-c.md)
+[**IWMPDVD. resume (VB et C#)**](wmplibiwmpdvd-iwmpdvd-resume--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPDVD. titleMenu (VB et C#)**](wmplibiwmpdvd-iwmpdvd-titlemenu--vb-and-c.md)
 </dt> <dt>
 
-[**Menu IWMPDVD. (VB et C#)**](wmplibiwmpdvd-iwmpdvd-topmenu--vb-and-c.md)
+[**menu IWMPDVD. (VB et C#)**](wmplibiwmpdvd-iwmpdvd-topmenu--vb-and-c.md)
 </dt> </dl>
 
  

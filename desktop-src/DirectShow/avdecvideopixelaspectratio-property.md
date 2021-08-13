@@ -4,12 +4,12 @@ ms.assetid: 07689d15-3e46-45f7-bdd5-ae51308ddbce
 title: Propriété AVDecVideoPixelAspectRatio (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19ce01fbe8d8e7992b35265a67f1833ae41bdde2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e383dd49fc9f84d59ebc0e666a14c069424d47696a4b12595072d46adfcb4eff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103950135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663420"
 ---
 # <a name="avdecvideopixelaspectratio-property"></a>Propriété AVDecVideoPixelAspectRatio
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture seule.
 
 **CODECAPI \_ AVDecVideoPixelAspectRatio**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits supérieurs de la valeur contiennent la largeur, tandis que les 16 bits inférieurs contiennent la hauteur.
 
@@ -35,8 +35,8 @@ Les 16 bits supérieurs de la valeur contiennent la largeur, tandis que les 16 b
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

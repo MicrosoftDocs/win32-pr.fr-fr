@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 928a809211288eb7f024c735ce033b819e5d49f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a67fbeed1cd7f5627ad1ab7471ace0e5af71ccb84d1119168e9c2298f450e2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439239"
 ---
 # <a name="settcpuserfc1122urgentpointer-method-of-the-win32_networkadapterconfiguration-class"></a>Méthode SetTcpUseRFC1122UrgentPointer de la \_ classe Win32 NetworkAdapterConfiguration
 
@@ -404,7 +404,7 @@ DHCP n’est pas activé sur l’adaptateur.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les RFC 1122 et BSD interprètent le pointeur urgent dans l’en-tête TCP et la longueur des données urgentes différemment. Ils ne sont pas interopérables. La valeur par défaut est le mode BSD.
 

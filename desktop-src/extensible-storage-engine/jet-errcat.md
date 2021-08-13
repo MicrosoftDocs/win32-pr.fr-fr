@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475860(v=EXCHG.10)
 ms:contentKeyID: 37033566
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: fe3f5ebad9f0838d089beb83b20b818b7faa4001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd72ecab62eeccb3ed7e586e2e793bdb9796f09a57686e70d9177eb496316760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254321"
 ---
 # <a name="jet_errcat"></a>JET_ERRCAT
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_errcat"></a>JET_ERRCAT
 
 Le **JET_ERRCAT** groupe de constantes décrit les classifications ou les catégories d’erreurs de niveau supérieur. Ce groupe de constantes permet aux applications de définir le traitement par défaut pour une classification des erreurs, au lieu de gérer chaque cas d’erreur individuellement. Elle garantit également que l’application n’a pas à gérer les nouvelles conditions d’erreur incluses dans les classifications existantes.
 
-Remarque : cette documentation est basée sur une version préliminaire du moteur de stockage extensible. Ces informations sont susceptibles d’être modifiées.
+remarque : cette documentation est basée sur une version préliminaire du moteur de Stockage Extensible. Ces informations sont susceptibles d’être modifiées.
 
 Les constantes de **JET_ERRCAT** sont organisées dans une hiérarchie spécifique de conditions et de sous-conditions, comme suit :
 
@@ -153,7 +153,7 @@ Le tableau suivant répertorie les constantes d' **JET_ERRCAT** et fournit une d
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Nécessite Windows 8 Server.</p></td>
+<td><p>requiert Windows 8 Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

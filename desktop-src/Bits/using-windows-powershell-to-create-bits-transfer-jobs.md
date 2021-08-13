@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af4879d1fc8f1b25fa0b1b51816432aad3bed8bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e939342414d62e4e1af0551318dfec0fb9a5ca59a7e310f13de7b6b67b0440cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679891"
 ---
 # <a name="using-windows-powershell-to-create-bits-transfer-jobs"></a>Utilisation de Windows PowerShell pour créer des tâches de transfert BITS
 
@@ -24,7 +24,7 @@ Tous les exemples de cette rubrique utilisent l’applet de commande [Start-Bits
 
 > [!IMPORTANT]
 >
-> Quand vous utilisez des applets de commande [ \* -BitsTransfer](/previous-versions//dd819413(v=technet.10)) à partir d’un processus qui s’exécute dans un contexte non interactif, tel qu’un service Windows, il est possible que vous ne puissiez pas ajouter de fichiers aux tâches bits, ce qui peut entraîner un état suspendu. Pour que le travail se poursuive, l’identité qui a été utilisée pour créer une tâche de transfert doit être connectée. Par exemple, lors de la création d’un travail BITS dans un script PowerShell exécuté en tant que tâche de Planificateur de tâches, le transfert BITS ne se termine pas, sauf si le paramètre de tâche de Planificateur de tâches « exécuter uniquement quand l’utilisateur est connecté » est activé.
+> quand vous utilisez des applets de commande [ \* -BitsTransfer](/previous-versions//dd819413(v=technet.10)) à partir d’un processus qui s’exécute dans un contexte non interactif, tel qu’un service Windows, vous ne pourrez peut-être pas ajouter de fichiers aux tâches BITS, ce qui peut entraîner l’état suspendu. Pour que le travail se poursuive, l’identité qui a été utilisée pour créer une tâche de transfert doit être connectée. Par exemple, lors de la création d’un travail BITS dans un script PowerShell exécuté en tant que tâche de Planificateur de tâches, le transfert BITS ne se termine pas, sauf si le paramètre de tâche de Planificateur de tâches « exécuter uniquement quand l’utilisateur est connecté » est activé.
 
  
 
@@ -53,7 +53,7 @@ Start-BitsTransfer -Source https://Server01/serverdir/testfile1.txt `
 
 Dans l’exemple précédent, les noms locaux et distants du fichier sont spécifiés respectivement dans les paramètres *source* et *destination* . L’invite de commandes réapparaît lorsque le transfert de fichiers est terminé ou lorsqu’il indique un état d’erreur.
 
-Le type de transfert par défaut est Download. Lorsque vous téléchargez des fichiers vers un emplacement HTTP, le paramètre *TransferType* doit avoir la valeur upload.
+Le type de transfert par défaut est Download. lorsque vous téléchargez des fichiers vers un emplacement HTTP, le paramètre *TransferType* doit avoir la valeur Télécharger.
 
 Étant donné que la position des paramètres est appliquée pour l’applet de commande [Start-BitsTransfer](/previous-versions//dd347701(v=technet.10)) , il n’est pas nécessaire de spécifier les noms des paramètres pour les paramètres source et destination. Par conséquent, cette commande peut être simplifiée comme suit.
 
@@ -147,13 +147,13 @@ Si $Job. JobState retourne « Error », l’objet $Job est envoyé à l’appl
 
 ## <a name="to-manage-powershell-remote-sessions"></a>Pour gérer les sessions à distance PowerShell
 
-À compter de Windows 10, version 1607, vous pouvez exécuter des applets de commande PowerShell, BITSAdmin ou d’autres applications qui utilisent les [interfaces](bits-interfaces.md) bits à partir d’une ligne de commande à distance PowerShell connectée à un autre ordinateur (physique ou virtuel). Cette fonctionnalité n’est pas disponible lors de l’utilisation d’une ligne de commande [PowerShell direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) sur un ordinateur virtuel sur la même machine physique, et elle n’est pas disponible lors de l’utilisation des applets de commande WinRM.
+à partir de Windows 10, la version 1607, vous pouvez exécuter des applets de commande powershell, BITSAdmin ou d’autres applications qui utilisent les [interfaces](bits-interfaces.md) BITS à partir d’une ligne de commande à distance powershell connectée à un autre ordinateur (physique ou virtuel). Cette fonctionnalité n’est pas disponible lors de l’utilisation d’une ligne de commande [PowerShell direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) sur un ordinateur virtuel sur la même machine physique, et elle n’est pas disponible lors de l’utilisation des applets de commande WinRM.
 
 Un travail BITS créé à partir d’une session PowerShell distante s’exécute dans le contexte du compte d’utilisateur de cette session et ne progresse que lorsqu’il existe au moins une session de connexion locale active ou une session PowerShell distante associée à ce compte d’utilisateur. Vous pouvez utiliser les sessions PSSession persistants de PowerShell pour exécuter des commandes distantes sans avoir à maintenir une fenêtre PowerShell ouverte pour chaque travail pour continuer à progresser, comme décrit dans [PowerShell Basics : Remote Management](https://techgenix.com/remote-management-powershell-part1/).
 
 -   [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession?view=powershell-7&preserve-view=true) crée une session PowerShell distante persistante. Une fois créé, les objets PSSession persistent sur l’ordinateur distant jusqu’à ce qu’il soit explicitement supprimé. Les travaux BITS initiés dans une session active feront progresser le transfert des données, même après que le client s’est déconnecté de la session.
 -   [Disconnect-PSSession](/powershell/module/microsoft.powershell.core/disconnect-pssession?view=powershell-7&preserve-view=true) déconnecte l’ordinateur client d’une session PowerShell distante et l’état de la session continue d’être maintenu par l’ordinateur distant. Plus important encore, les processus de la session distante continuent à s’exécuter, et les travaux BITS continuent à progresser. L’ordinateur client peut même redémarrer et/ou désactiver après l’appel de Disconnect-PSSession.
--   [Connect-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true) reconnecte l’ordinateur client à une session PowerShell à distance active.
+-   [Connecter-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true) reconnecte l’ordinateur client à une session PowerShell à distance active.
 -   [Remove-PSSession supprime](/powershell/module/microsoft.powershell.core/remove-pssession?view=powershell-7&preserve-view=true) une session PowerShell distante.
 
 L’exemple ci-dessous montre comment utiliser PowerShell à distance pour travailler avec des tâches de transfert BITS asynchrones d’une manière qui permet à la tâche de continuer à progresser même lorsque vous n’êtes pas activement connecté à la session à distance.

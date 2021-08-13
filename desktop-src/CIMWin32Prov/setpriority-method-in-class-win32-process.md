@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bf08057ec075448d9912e37c33b6087c381f97d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: decd5892d480e4f236ae9d7acdc1a25c018557166535c963eb35dc3f6f62ffa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675568"
 ---
 # <a name="setpriority-method-of-the-win32_process-class"></a>Méthode SetPriority de la \_ classe Process Win32
 
@@ -142,9 +142,9 @@ Retourne l’une des valeurs répertoriées dans la liste suivante, ou une valeu
 **Autre** (22 4294967295)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Pour définir la priorité en temps réel, l’appelant doit disposer de **SeIncreaseBasePriorityPrivilege** (privilège de priorité de **base de se \_ \_ \_ \_ Inc**). Sans ce privilège, la priorité la plus élevée peut être définie sur la priorité haute.
+pour définir la priorité en temps réel, l’appelant doit disposer de **SeIncreaseBasePriorityPrivilege** (**privilège de \_ priorité de \_ BASE \_ \_ SE INC**). Sans ce privilège, la priorité la plus élevée peut être définie sur la priorité haute.
 
 ## <a name="examples"></a>Exemples
 

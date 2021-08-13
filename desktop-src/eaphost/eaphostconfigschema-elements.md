@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 75a6f2e482427c8325c86f1d2091be48d767ae0b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1acfe884106414a8d9fd24d2d93e58b5766db884996b569fdd59f7aaf6fa0f74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103730341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274706"
 ---
 # <a name="eaphostconfig-schema-elements"></a>Éléments de schéma eaphostconfig
 
@@ -35,9 +35,9 @@ Le schéma [eaphostconfig](eaphostconfigschema-schema.md) est constitué des él
 [Schéma eaphostconfig](eaphostconfigschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

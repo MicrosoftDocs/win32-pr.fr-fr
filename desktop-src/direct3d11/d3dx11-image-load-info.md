@@ -1,6 +1,6 @@
 ---
 title: Structure D3DX11_IMAGE_LOAD_INFO (D3DX11tex. h)
-description: 'Remarque : la bibliothèque de l’utilitaire D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store. Fournissez éventuellement des informations sur les API de chargeur de texture pour contrôler la façon dont les textures sont chargées. | Structure D3DX11_IMAGE_LOAD_INFO (D3DX11tex. h)'
+description: 'remarque : la bibliothèque de l’utilitaire d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store. Fournissez éventuellement des informations sur les API de chargeur de texture pour contrôler la façon dont les textures sont chargées. | Structure D3DX11_IMAGE_LOAD_INFO (D3DX11tex. h)'
 ms.assetid: 6cd2f590-4e15-41e6-9f04-cd91eeb082db
 keywords:
 - Structure D3DX11_IMAGE_LOAD_INFO Direct3D 11
@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2905d135a515f4ef90557ac74c35665623462439
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: c45bc3b9ec948c869b121190f52435a257141f1e5a6e9f36c347ab29bafb5522
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104982554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536856"
 ---
 # <a name="d3dx11_image_load_info-structure"></a>\_Structure des \_ informations de chargement d’image D3DX11 \_
 
 > [!Note]  
-> La bibliothèque d’utilitaires D3DX (D3DX 9, D3DX 10 et D3DX 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications du Windows Store.
+> la bibliothèque d’utilitaires d3dx (d3dx 9, d3dx 10 et d3dx 11) est déconseillée pour Windows 8 et n’est pas prise en charge pour les applications Windows store.
 
  
 
@@ -201,7 +201,7 @@ Informations sur l’image d’origine. Consultez [**D3DX11 \_ image \_ info**](
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de l’initialisation de la structure, vous pouvez définir n’importe quel membre sur D3DX11 \_ par défaut et D3DX l’initialise avec une valeur par défaut à partir de la texture source lorsque la texture est chargée.
 
@@ -250,7 +250,7 @@ D3DX11_IMAGE_LOAD_INFO LoadInfo;
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0466af2552fbb108f31de94b3f970d6e7d5571b7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a7a558a551972bb76558dcd60223d8ddc29783aeaa23e6dbe9263f34642c1c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473329"
 ---
 # <a name="ivmdisplaythumbnail-property"></a>IVMDisplay :: Thumbnail, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
 Récupère un tableau de pixels représentant une image miniature de l’écran de l’ordinateur virtuel.
 
@@ -59,7 +59,7 @@ Variante de type VT de \_ tableau \| VT \_ contenant des entrées de type VT \_ 
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette interface retourne la miniature moins efficacement que la méthode [**\_ GenerateThumbnail**](ivmdisplay--generatethumbnail.md) , mais elle est utilisable à partir des clients de script. La miniature est toujours de 64 pixels de large de 48 pixels de haut. Chaque pixel est 32 bits. Les 64 premiers éléments du tableau sont la première ligne de pixels de la miniature, les 64 suivants étant la deuxième ligne, et ainsi de suite.
 
@@ -69,7 +69,7 @@ Cette interface retourne la miniature moins efficacement que la méthode [**\_ G
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

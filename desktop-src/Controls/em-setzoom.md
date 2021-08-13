@@ -3,7 +3,7 @@ title: Message EM_SETZOOM (RichEdit. h)
 description: Définit le facteur de zoom. Le ratio doit être une valeur comprise entre 1/64 et 64. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: 6cdec5b8-4ce7-4fd5-8083-4daa63d17f63
 keywords:
-- EM_SETZOOM les contrôles de message Windows
+- EM_SETZOOM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d38630f27afcfc0ed29e3ccc3129e2dea22d4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecf6541bc018df253a3ed45f8bced42e2f19938449d7fc35bf7f309909d53a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437179"
 ---
 # <a name="em_setzoom-message"></a>\_Message SETZOOM em
 
@@ -61,9 +61,9 @@ Si le nouveau paramètre de zoom est accepté, la valeur de retour est **true**.
 
 Si le nouveau paramètre de zoom n’est pas accepté, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-**Modifier :** Pris en charge dans Windows 10 1809 et versions ultérieures. Le contrôle d’édition doit avoir le jeu de styles étendus **es \_ ex \_ zoomable** . pour que ce message ait un effet, consultez [modifier les styles étendus de contrôle](edit-control-window-extended-styles.md). Pour plus d’informations sur le contrôle d’édition, consultez [modifier des contrôles](about-edit-controls.md).
+**Modifier :** pris en charge dans Windows 10 1809 et versions ultérieures. Le contrôle d’édition doit avoir le jeu de styles étendus **es \_ ex \_ zoomable** . pour que ce message ait un effet, consultez [modifier les styles étendus de contrôle](edit-control-window-extended-styles.md). Pour plus d’informations sur le contrôle d’édition, consultez [modifier des contrôles](about-edit-controls.md).
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -71,8 +71,8 @@ Si le nouveau paramètre de zoom n’est pas accepté, la valeur de retour est *
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | Composant redistribuable<br/>          | Édition enrichie 3,0<br/>                                                              |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h/commctrl. h</dt> </dl> |
 

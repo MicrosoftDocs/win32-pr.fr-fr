@@ -4,12 +4,12 @@ ms.assetid: 3373D767-EC21-4CA7-8FA0-03DB39224728
 title: Classes WMI Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f47315c491b06a69307dc686c728207ead93d4c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 278aded589441ddb43cc666a51e0bc1466999b27a6fa875243063a0a9482fed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644991"
 ---
 # <a name="hyper-v-wmi-classes"></a>Classes WMI Hyper-V
 
@@ -28,7 +28,7 @@ Les classes WMI Hyper-V sont les suivantes.
 | [Classes de mémoire](memory-classes.md)<br/>                                       | Les classes de mémoire modélisent la mémoire pour un ordinateur virtuel.<br/>                                                                                                                                                                                                                       |
 | [Classes de processeur](processor-classes.md)<br/>                                 | Les classes de processeur modélisent un processeur pour un ordinateur virtuel.<br/>                                                                                                                                                                                                                   |
 | [Classes d’inscription de profil](profile-registration-classes.md)<br/>           | Classes WMI de virtualisation associées à l’inscription de profil.<br/>                                                                                                                                                                                                                      |
-| [Classes Bureau à distance](remotefx-classes.md)<br/>                             | Les classes WMI de Bureau à distance Virtualization permettent de gérer les Bureau à distance et les ressources RemoteFX et les machines virtuelles.<br/>                                                                                                                                                     |
+| [Classes Bureau à distance](remotefx-classes.md)<br/>                             | les classes WMI de Bureau à distance virtualization permettent de gérer les Bureau à distance et les RemoteFX les ressources et les machines virtuelles.<br/>                                                                                                                                                     |
 | [Classes de gestion des ressources](resource-management-classes.md)<br/>             | Classes WMI de virtualisation associées à la gestion des ressources.<br/>                                                                                                                                                                                                                       |
 | [Classes d’appareils série](serial-devices-classes.md)<br/>                       | Les appareils série d’une machine virtuelle sont constitués de contrôleurs série et de ports série. Chaque ordinateur virtuel dispose d’un seul contrôleur série, et chaque contrôleur série a exactement deux ports série.<br/>                                                                         |
 | [Classes de stockage](storage-classes.md)<br/>                                     | Les objets de stockage sont répartis en trois types : contrôleurs, lecteurs et médias.<br/>                                                                                                                                                                                              |

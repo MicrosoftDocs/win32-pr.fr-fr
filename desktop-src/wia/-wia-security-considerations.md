@@ -1,19 +1,19 @@
 ---
-description: Ce document fournit des informations sur les considérations de sécurité liées à l’acquisition d’images Windows (WIA).
+description: ce document fournit des informations sur les considérations de sécurité liées à l’acquisition d’images Windows (WIA).
 ms.assetid: 35455320-7d08-49de-938d-40dc0873917b
-title: 'Considérations relatives à la sécurité : acquisition d’images Windows'
+title: 'considérations relatives à la sécurité : Windows l’Acquisition d’images'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ab080582492a0c03eab7879624bfb49a370e6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bb8f78e0f45b5b63d5d8deb8ffdd35bc64ee5566ced65ded30ecc51366c0793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439683"
 ---
-# <a name="security-considerations-windows-image-acquisition"></a>Considérations relatives à la sécurité : acquisition d’images Windows
+# <a name="security-considerations-windows-image-acquisition"></a>considérations relatives à la sécurité : Windows l’Acquisition d’images
 
-Ce document fournit des informations sur les considérations de sécurité liées à l’acquisition d’images Windows (WIA). Ce document ne fournit pas tout ce que vous devez savoir sur les problèmes de sécurité. Utilisez-le plutôt comme point de départ et référence pour ce domaine technologique.
+ce document fournit des informations sur les considérations de sécurité liées à l’acquisition d’images Windows (WIA). Ce document ne fournit pas tout ce que vous devez savoir sur les problèmes de sécurité. Utilisez-le plutôt comme point de départ et référence pour ce domaine technologique.
 
 -   [Utiliser des guillemets autour des noms de chemins](#use-quotation-marks-around-path-names)
 -   [Placer les applications inscrites dans des emplacements sécurisés](#place-registered-applications-in-secure-locations)
@@ -38,7 +38,7 @@ WIA utilise plusieurs répertoires et clés de registre en interne pour stocker 
 -   [Page d’hébergement sur la sécurité de MSDN Library](https://msdn.microsoft.com/security/default.aspx)
 -   [Ressources de procédures pour la sécurité](https://www.microsoft.com/technet/solutionaccelerators/howto/sechow.mspx)
 -   [Ressources de sécurité TechNet](https://technet.microsoft.com/security/default.aspx)
--   [Considérations sur la sécurité pour les développeurs Windows XP Embedded](/previous-versions/ms838345(v=msdn.10))
+-   [considérations sur la sécurité pour les développeurs Windows XP embedded](/previous-versions/ms838345(v=msdn.10))
 -   [Meilleures pratiques de sécurité](../secbp/best-practices-for-the-security-apis.md)
 
  

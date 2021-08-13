@@ -4,16 +4,16 @@ ms.assetid: 39c2aef4-24e3-4ea0-8b23-dff842f9ab84
 title: 'ITSdp :: get_SessionVersion, méthode (sdpblb. h)'
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3466844f3f21f54ec0ec76a3569e7af25e4b0143
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7661fb5f133d214748991510d56387991872fa69243353b5144623a1ef19f91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476589"
 ---
 # <a name="itsdpget_sessionversion-method"></a>ITSdp :: \_ SessionVersion, méthode
 
-\[ Les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne peuvent pas être utilisés dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
+\[les interfaces et les contrôles de conférence de téléphonie IP Rendezvous ne sont pas disponibles pour une utilisation dans Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. L’API cliente RTC offre des fonctionnalités similaires.\]
 
 La méthode **obtenir \_ SessionVersion** obtient 32 la valeur de protocole NTP (Network Time Protocol, ou NTP) qui sert de version de session. Bien qu’elle soit générée automatiquement lors de la création de la session, l’utilisateur est responsable de sa modification lors de la modification du SDP.
 
@@ -58,9 +58,9 @@ Cette méthode peut retourner l’une de ces valeurs.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La valeur de retour de cette méthode peut être **ULong**, mais Visual Basic ne prend pas en charge le type **ULong** . Un **double** est le plus petit type suivant qui englobe la plage entière de valeurs requises.
+la valeur de retour de cette méthode peut être **ULONG**, mais Visual Basic ne prend pas en charge le type **ulong** . Un **double** est le plus petit type suivant qui englobe la plage entière de valeurs requises.
 
 ## <a name="requirements"></a>Configuration requise
 

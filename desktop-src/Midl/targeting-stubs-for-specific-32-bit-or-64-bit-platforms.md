@@ -8,12 +8,12 @@ keywords:
 - stubs MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526265a60f8b2ef2f31d19d0356d4ec3a3ae8c8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04e0f78e47ed078bf7cd1fd78fa8730b597554a6c8ba1ed4fc5a67bc562e7d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641169"
 ---
 # <a name="targeting-stubs-for-specific-32-bit-or-64-bit-platforms"></a>Ciblage des stubs pour des plateformes 32 bits ou 64 bits spécifiques
 
@@ -53,7 +53,7 @@ Si vous savez que votre plateforme cible est correcte pour les fonctionnalités 
 [**/Robust**](-robust.md)
 </dt> <dt>
 
-[**async**](async.md)
+[**Suppr**](async.md)
 </dt> <dt>
 
 [**\_UUID asynchrone**](async-uuid.md)
@@ -74,9 +74,9 @@ Si vous savez que votre plateforme cible est correcte pour les fonctionnalités 
 [Marshaling des types de données OLE](marshaling-ole-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

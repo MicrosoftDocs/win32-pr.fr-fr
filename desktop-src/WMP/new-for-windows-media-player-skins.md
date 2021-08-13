@@ -1,39 +1,39 @@
 ---
-title: Nouveautés pour les apparences du lecteur Windows Media
-description: Nouveautés pour les apparences du lecteur Windows Media
+title: nouveautés pour les apparences de Lecteur Windows Media
+description: nouveautés pour les apparences de Lecteur Windows Media
 ms.assetid: 72ca819a-267d-4c7a-9b1e-b28c1a7a85cc
 keywords:
-- Windows Media Player, nouveautés
-- Windows Media Player, nouvelles fonctionnalités
-- Apparences du lecteur Windows Media, nouveautés
-- Apparences du lecteur Windows Media, nouvelles fonctionnalités
+- Lecteur Windows Media, nouveautés
+- Lecteur Windows Media, nouvelles fonctionnalités
+- apparences de Lecteur Windows Media, nouveautés
+- Lecteur Windows Media apparences, nouvelles fonctionnalités
 - apparences, nouveautés
 - apparences, nouvelles fonctionnalités
 - nouveautés, habillages
 - nouvelles fonctionnalités, habillages
-- versions du lecteur Windows Media, nouvelles fonctionnalités dans les habillages
+- versions de Lecteur Windows Media, nouvelles fonctionnalités dans les apparences
 - compatibilité, apparences
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 512f23c3cd4dca45ae84a2ae96a3c78c98a73268
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17a7290c42728a8e847279fc467b6f8a619ef2ff5235eb6eee2f1fa2554a9133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573785"
 ---
-# <a name="new-for-windows-media-player-skins"></a>Nouveautés pour les apparences du lecteur Windows Media
+# <a name="new-for-windows-media-player-skins"></a>nouveautés pour les apparences de Lecteur Windows Media
 
-Le lecteur Windows Media 7,0 a introduit la technologie Skin. Les éléments et attributs disponibles sont restés inchangés pour le lecteur Windows Media 7,1 et le lecteur Windows Media pour Windows XP. Le lecteur Windows Media série 9 a introduit de nouveaux éléments et attributs que vous pouvez utiliser. Le lecteur Windows Media 10 introduit un nouvel attribut.
+Lecteur Windows Media 7,0 a introduit la technologie d’apparence. les éléments et attributs disponibles sont restés inchangés pour Lecteur Windows Media 7,1 et Lecteur Windows Media pour Windows XP. Lecteur Windows Media série 9 a introduit de nouveaux éléments et attributs que vous pouvez utiliser. Lecteur Windows Media 10 introduit un nouvel attribut.
 
-Chaque rubrique de la section Référence de programmation de l’apparence comprend une section Configuration requise qui répertorie la configuration minimale requise pour l’élément, la méthode, le gestionnaire d’événements ou l’attribut individuel. La liste suivante détaille également les nouveaux éléments pour des versions particulières du lecteur Windows Media.
+Chaque rubrique de la section Référence de programmation de l’apparence comprend une section Configuration requise qui répertorie la configuration minimale requise pour l’élément, la méthode, le gestionnaire d’événements ou l’attribut individuel. la liste suivante détaille également les nouveaux éléments pour des versions particulières de Lecteur Windows Media.
 
-## <a name="added-for-windows-media-player-for-windows-xp"></a>Ajouté pour le lecteur Windows Media pour Windows XP
+## <a name="added-for-windows-media-player-for-windows-xp"></a>ajout de pour Lecteur Windows Media pour Windows XP
 
 -   [EFFECTs. effectCanGoFullScreen](effects-effectcangofullscreen.md)
 -   [EFFECTs. effectCount](effects-effectcount.md)
 
-## <a name="added-for-windows-media-player-9-series"></a>Ajouté pour le lecteur Windows Media 9
+## <a name="added-for-windows-media-player-9-series"></a>ajouté pour la série Lecteur Windows Media 9
 
 -   Attribut [AmbientAttributes. accDescription](ambientattributes-accdescription.md)
 -   Attribut [AmbientAttributes. accKeyboardShortcut](ambientattributes-acckeyboardshortcut.md)
@@ -107,7 +107,7 @@ Chaque rubrique de la section Référence de programmation de l’apparence comp
 -   [WMPEFFECTS](wmpeffects.md) Élément prédéfini
 -   [WMPVIDEO](wmpvideo.md) Élément prédéfini
 
-## <a name="added-for-windows-media-player-10"></a>Ajouté pour le lecteur Windows Media 10
+## <a name="added-for-windows-media-player-10"></a>ajouté pour Lecteur Windows Media 10
 
 -   [PLAYLIST. toolbarVisible](playlist-toolbarvisible.md)
 -   [PLAYLIST. itemSelectedBackgroundColor](playlist-itemselectedbackgroundcolor.md)
@@ -115,7 +115,7 @@ Chaque rubrique de la section Référence de programmation de l’apparence comp
 -   [PLAYLIST. itemSelectedColor](playlist-itemselectedcolor.md)
 -   [PLAYLIST. itemSelectedFocusLostColor](playlist-itemselectedfocuslostcolor.md)
 
-## <a name="added-for-windows-media-player-11"></a>Ajouté pour le lecteur Windows Media 11
+## <a name="added-for-windows-media-player-11"></a>ajouté pour le Lecteur Windows Media 11
 
 -   [AmbientAttributes. bas](ambientattributes-bottom.md)
 -   [AmbientAttributes.moveSizeTo](ambientattributes-movesizeto.md)
@@ -137,9 +137,9 @@ Chaque rubrique de la section Référence de programmation de l’apparence comp
 [Nouveautés de Windows Media Player 11](what-was-new-in-windows-media-player-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

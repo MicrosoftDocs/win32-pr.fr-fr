@@ -3,23 +3,23 @@ title: Inscription des plug-ins DSP
 description: Inscription des plug-ins DSP
 ms.assetid: af264ff7-702b-4a49-a14d-ab8563a40c4e
 keywords:
-- Plug-ins du lecteur Windows Media, entrées de Registre
+- plug-ins Lecteur Windows Media, entrées de registre
 - plug-ins, entrées de Registre
 - plug-ins de traitement de signal numérique, entrées de Registre
 - Plug-ins DSP, entrées de Registre
 - Registre, plug-ins DSP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64e7afd43cf242d57c0a9375c4cbda56e457ef1
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 7671c59dfe64094afbc5f0537bcae237b3812699f4db1a06519054b14ef295f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570379"
 ---
 # <a name="registering-dsp-plug-ins"></a>Inscription des plug-ins DSP
 
-Pour que votre plug-in DSP soit disponible dans le lecteur Windows Media, vous devez créer les sous-clés et les entrées de Registre suivantes sur l’ordinateur de l’utilisateur.
+pour rendre le plug-in DSP disponible dans Lecteur Windows Media vous devez créer les sous-clés et les entrées de registre suivantes sur l’ordinateur de l’utilisateur.
 
 
 ```C++
@@ -42,13 +42,13 @@ Dans la syntaxe précédente du Registre, les symboles en italique sont des espa
 | *PluginClsid*             | GUID qui est l’identificateur de classe de la classe principale du plug-in DSP. Il s’agit de la classe qui implémente **IMediaObject**, **IPluginEnable** et éventuellement **ISpecifyPropertyPages**. Dans un plug-in en mode double, cette classe implémente également **IMFTransform** et **IMFGetService**. Ce GUID doit être au format de Registre, avec les accolades.<br/> Format : {xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}<br/> |
 | *PluginClassFriendlyName* | Nom convivial de la classe principale du plug-in DSP. Exemple : « ProsewareDSP Class »<br/>                                                                                                                                                                                                                                                                                                                                 |
 | *PluginModuleName*        | Chemin d’accès qualifié complet à la DLL qui implémente le plug-in DSP. Exemple : « C : \\ Program Files \\ proseware \\ProsewareDsp.dll »<br/>                                                                                                                                                                                                                                                                                     |
-| *Threads*               | Chaîne qui spécifie le modèle de thread pour le plug-in. Si le plug-in va s’exécuter avec le lecteur Windows Media 11 sur Windows Vista, cette entrée de registre doit être égale à « both ». Si le plug-in va s’exécuter sur Windows XP ou des systèmes d’exploitation antérieurs, cette entrée de Registre peut être égale à « Apartment » ou « Both ».                                                                                           |
+| *Threads*               | Chaîne qui spécifie le modèle de thread pour le plug-in. si le plug-in va s’exécuter avec Lecteur Windows Media 11 sur Windows Vista, cette entrée de registre doit être égale à « Both ». si le plug-in s’exécute sur Windows XP ou des systèmes d’exploitation plus anciens, cette entrée de registre peut être égale à « Apartment » ou « Both ».                                                                                           |
 
 
 
  
 
-Si votre plug-in DSP implémente une interface personnalisée et si votre plug-in va s’exécuter dans le lecteur Windows Media 11 sur Windows Vista, vous devez créer les sous-clés et les entrées de Registre suivantes sur l’ordinateur de l’utilisateur.
+si votre plug-in DSP implémente une interface personnalisée et si votre plug-in va s’exécuter dans Lecteur Windows Media 11 sur Windows Vista, vous devez créer les sous-clés et les entrées de registre suivantes sur l’ordinateur de l’utilisateur.
 
 
 ```C++
@@ -117,15 +117,15 @@ Dans la syntaxe précédente du Registre, les symboles en italique sont des espa
 
 **Appel de IWMPPluginRegistrar**
 
-Outre les sous-clés et les entrées de Registre décrites dans les listes et les tables précédentes, vous devez créer des clés et des entrées de registre en appelant [IWMPMediaPluginRegistrar :: WMPRegisterPlayerPlugin](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin). Cette méthode effectue l’inscription nécessaire pour permettre au lecteur Windows Media de reconnaître votre plug-in et de le présenter en tant qu’option à l’utilisateur.
+Outre les sous-clés et les entrées de Registre décrites dans les listes et les tables précédentes, vous devez créer des clés et des entrées de registre en appelant [IWMPMediaPluginRegistrar :: WMPRegisterPlayerPlugin](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpregisterplayerplugin). cette méthode effectue l’inscription nécessaire pour permettre à Lecteur Windows Media de reconnaître votre plug-in et de le présenter en tant qu’option à l’utilisateur.
 
 Appelez **IWMPMediaPluginRegistrar :: WMPRegisterPlayerPlugin** dans la fonction **DllRegisterServer** de votre plug-in, puis appelez [IWMPMediaPluginRegistrar :: WMPUnRegisterPlayerPlugin](/previous-versions/windows/desktop/api/wmpservices/nf-wmpservices-iwmpmediapluginregistrar-wmpunregisterplayerplugin) dans la fonction **DllUnregisterServer** de votre plug-in. Pour obtenir un pointeur vers une interface **IWMPMediaPluginRegistrar** , appelez **CoCreateInstance**, en passant \_ le CLSID WMPMediaPluginRegistrar en tant qu’ID de classe. Le CLSID \_ de constante WMPMediaPluginRegistrar est défini dans wmpservices. h.
 
 **Inscription dans l’Assistant de plug-in DSP**
 
-L’Assistant de plug-in DSP, qui est inclus dans le SDK Windows, génère un exemple de code basé sur Active Template Library (ATL). L’exemple de fonction **DllRegisterServer** du plug-in appelle la fonction **RegisterServer** de la bibliothèque ATL, qui crée des sous-clés et des entrées de registre en fonction de deux fichiers de script du Registre dans le projet Visual Studio. Le fichier *ProjectName*. RGS contient le script d’enregistrement de la classe principale du plug-in, et le fichier *nom_projet* PropPage. RGS contient le script d’enregistrement de la classe de la page de propriétés du plug-in. L’exemple de fonction **DllRegisterServer** du plug-in appelle également **IWMPPluginRegistrar :: WMPRegisterPlayerPlugin**.
+l’assistant de plug-in DSP, qui est inclus dans le SDK Windows, génère un exemple de code basé sur Active Template Library (ATL). la fonction **DllRegisterServer** du plug-in de l’exemple appelle la fonction **RegisterServer** de ATL, qui crée des sous-clés et des entrées de registre en fonction de deux fichiers de script du registre dans le projet Visual Studio. Le fichier *ProjectName*. RGS contient le script d’enregistrement de la classe principale du plug-in, et le fichier *nom_projet* PropPage. RGS contient le script d’enregistrement de la classe de la page de propriétés du plug-in. L’exemple de fonction **DllRegisterServer** du plug-in appelle également **IWMPPluginRegistrar :: WMPRegisterPlayerPlugin**.
 
-L’Assistant de plug-in DSP génère également du code pour un composant proxy-stub qui est un fichier. dll à inscription automatique. Le code d’inscription de ce fichier se trouve dans dlldata. cpp. La macro **DLLDATA \_ routines** se développe pour inclure une implémentation de **DllRegisterServer**.
+L’Assistant de plug-in DSP génère également du code pour un composant proxy-stub qui est un fichier de .dll auto-inscrit. Le code d’inscription de ce fichier se trouve dans dlldata. cpp. La macro **DLLDATA \_ routines** se développe pour inclure une implémentation de **DllRegisterServer**.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

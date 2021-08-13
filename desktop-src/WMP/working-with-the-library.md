@@ -4,28 +4,28 @@ description: Utilisation de la bibliothèque
 ms.assetid: 78590aff-c282-4236-afc5-9bad5e1a922f
 keywords:
 - Lecteur Windows Media, bibliothèque
-- Modèle objet du lecteur Windows Media, bibliothèque
+- Lecteur Windows Media modèle objet, bibliothèque
 - modèle objet, bibliothèque
-- Windows Media Player Mobile, bibliothèque pour le modèle objet
-- Contrôle ActiveX du lecteur Windows Media, bibliothèque pour le modèle objet
-- Windows Media Player Mobile contrôle ActiveX, bibliothèque pour le modèle objet
-- Contrôle ActiveX, bibliothèque pour le modèle objet
-- Bibliothèque du lecteur Windows Media, à propos de
+- Lecteur Windows Media Mobile, bibliothèque pour le modèle objet
+- Lecteur Windows Media ActiveX contrôle, bibliothèque pour le modèle objet
+- Lecteur Windows Media contrôle Mobile ActiveX, bibliothèque pour le modèle objet
+- contrôle ActiveX, bibliothèque pour le modèle objet
+- bibliothèque de Lecteur Windows Media, à propos de
 - bibliothèque, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38bc9b732112fc0ed6b2d7c88326620219731c82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4221e7aa81b12f357ceb423085abdbc42d417a5bb1329e2a744494c4f82ce86d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414319"
 ---
 # <a name="working-with-the-library"></a>Utilisation de la bibliothèque
 
-La bibliothèque est une base de données d’informations sur le contenu multimédia qui est stocké sur l’ordinateur de l’utilisateur ou qui a été lu. Certaines des informations s’affichent dans la fonctionnalité bibliothèque du lecteur Windows Media. Une plus grande série d’informations est accessible par programme.
+La bibliothèque est une base de données d’informations sur le contenu multimédia qui est stocké sur l’ordinateur de l’utilisateur ou qui a été lu. certaines informations sont affichées dans la fonctionnalité de la bibliothèque de Lecteur Windows Media. Une plus grande série d’informations est accessible par programme.
 
-Les éléments multimédias peuvent être organisés dans des sélections. Les sélections peuvent être créées par des utilisateurs ou par le biais de code. Le modèle objet du lecteur Windows Media fournit des objets et des méthodes que vous pouvez utiliser pour manipuler des éléments multimédias et des sélections individuels.
+Les éléments multimédias peuvent être organisés dans des sélections. Les sélections peuvent être créées par des utilisateurs ou par le biais de code. le modèle objet Lecteur Windows Media fournit des objets et des méthodes que vous pouvez utiliser pour manipuler des éléments multimédias et des sélections individuels.
 
 Les sections suivantes expliquent les techniques d’utilisation de la bibliothèque :
 
@@ -41,9 +41,9 @@ Les sections suivantes expliquent les techniques d’utilisation de la biblioth�
 [**Guide de contrôle du lecteur**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

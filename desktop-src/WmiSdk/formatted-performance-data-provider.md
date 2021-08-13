@@ -2,7 +2,7 @@
 description: Fournitures calculées (&\# 0034 ;&cuit \# 0034 ;) données du compteur de performances. Fournit des données dynamiques aux classes WMI dérivées de Win32 \_ PerfFormattedData. Également connu sous le nom de fournisseur de compteurs cuit.
 ms.assetid: 59823f7c-3046-4608-99df-1f43e2934e7e
 ms.tgt_platform: multiple
-title: Fournisseur de données de performance mis en forme
+title: Fournisseur de données de Performance mis en forme
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -10,16 +10,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0db075ebdafcd31c7aa0980d191ed565873f686f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab8e931c3d03c619af5b1e37cadd8dacdccd21534513ed3a1aa1d7b9076acfb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556612"
 ---
-# <a name="formatted-performance-data-provider"></a>Fournisseur de données de performance mis en forme
+# <a name="formatted-performance-data-provider"></a>Fournisseur de données de Performance mis en forme
 
-\[Le Fournisseur de données de performance mis en forme, également connu sous le nom de « fournisseur de compteurs cuit », ne peut plus être utilisé. Au lieu de cela, utilisez le fournisseur [wmiperfinst](wmiperfinst-provider.md) .\]
+\[le Fournisseur de données de Performance mis en forme, également connu sous le nom de « fournisseur de compteurs cuit », ne peut plus être utilisé. Au lieu de cela, utilisez le fournisseur [wmiperfinst](wmiperfinst-provider.md) .\]
 
 Le fournisseur de données de performances mis en forme hautes performances fournit des données de compteur de performances (« cuites ») calculées, telles que le pourcentage de temps passé par un disque à écrire des données. Ce fournisseur fournit des données dynamiques aux classes WMI dérivées de [**Win32 \_ PerfFormattedData**](/windows/desktop/CIMWin32Prov/win32-perfformatteddata). La différence entre ce fournisseur et le [fournisseur de compteur de performance](performance-counter-provider.md) est que le fournisseur de compteurs de performance fournit des données brutes et que le fournisseur de compteurs cuit fournit des données de performances qui s’affichent exactement comme dans le [*Moniteur système*](gloss-s.md). Le nom de l’instance [**\_ \_ Win32Provider**](--win32provider.md) est « HiPerfCooker \_ v1 ».
 

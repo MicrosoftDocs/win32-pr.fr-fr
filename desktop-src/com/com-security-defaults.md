@@ -4,12 +4,12 @@ description: Vous pouvez utiliser les valeurs par défaut de sécurité COM pour
 ms.assetid: 6f1f6925-a6ab-4cfa-b0b4-b4b4012979f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cba607044d6e93c9f01243809feae6e5a600851
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db6287e00971eca3afe94e598555225943709d1c42546fccb76a442a0dfe3be4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550594"
 ---
 # <a name="com-security-defaults"></a>Valeurs par défaut de sécurité COM
 
@@ -33,9 +33,9 @@ Voici les valeurs de sécurité par défaut utilisées par COM :
 [Sécurité dans COM](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
