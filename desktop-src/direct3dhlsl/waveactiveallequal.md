@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 34745e428fcd4453ce7274fc2a5accc6185f5b10
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: f62493a1bf08b85e95acad319bac2d022c30a53d43c28a87d0f5f603e78d300f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103734797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786109"
 ---
 # <a name="waveactiveallequal-function"></a>WaveActiveAllEqual fonction)
 
@@ -50,7 +50,7 @@ Expression à évaluer.
 
 True si l’expression est la même pour chaque voie active de l’onde actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

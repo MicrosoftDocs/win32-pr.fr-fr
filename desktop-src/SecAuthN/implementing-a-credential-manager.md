@@ -4,12 +4,12 @@ ms.assetid: 8b176dd6-0e0b-4330-8889-f87384977ceb
 title: Implémentation d’un gestionnaire d’informations d’identification
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0bbd42f4ade57b754c6f7a067519d7df2711cfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1a1787fcf72d88ad809f904f9f83179ac86631b83a23314f9d24ee31ce3dec9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867862"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482659"
 ---
 # <a name="implementing-a-credential-manager"></a>Implémentation d’un gestionnaire d’informations d’identification
 

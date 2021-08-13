@@ -1,6 +1,6 @@
 ---
-title: Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour les flux arbitraires
-description: Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour les flux arbitraires
+title: Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour des Flux arbitraires
+description: Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour des Flux arbitraires
 ms.assetid: 28ba863b-9c3e-4b0e-875d-6b696600888c
 keywords:
 - flux, vitesses de transmission
@@ -9,14 +9,14 @@ keywords:
 - flux, calcul des vitesses de transmission pour les flux arbitraires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d704352d414b1fe5079fb068593c2d0d8b2f8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c86a866536bbe2565a3bc44bbe9f40743db26d948555bc6ec8a11eb60d7aa4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434483"
 ---
-# <a name="calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams"></a>Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour les flux arbitraires
+# <a name="calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams"></a>Calcul de la vitesse de transmission et des valeurs de fenêtre de mémoire tampon pour des Flux arbitraires
 
 Le calcul de la vitesse de transmission et de la fenêtre de mémoire tampon appropriées pour un type de flux arbitraire n’est pas une science exacte. Une approche simple consiste à définir la vitesse de transmission pour qu’elle corresponde à la taille du flux divisé par sa longueur, en secondes. Par exemple, un flux contenant un total de 68000 bits durables 20 secondes peut avoir un débit binaire de 3400 bits par seconde (68000 bits/20 secondes = 3400 bits par seconde).
 
@@ -34,9 +34,9 @@ Pour vérifier la fenêtre de mémoire tampon, multipliez la vitesse de transmis
 [**Configuration de types de flux arbitraires**](configuring-arbitrary-stream-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

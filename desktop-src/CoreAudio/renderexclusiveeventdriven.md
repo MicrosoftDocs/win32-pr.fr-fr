@@ -4,12 +4,12 @@ ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: RenderExclusiveEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75553496219d0a4ddaf6685089de802e034f94cb
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0c23213e1e60d0fdf77de67a91ea3bba3c928a51f9e562876dd1a4e018595dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119216549"
 ---
 # <a name="renderexclusiveeventdriven"></a>RenderExclusiveEventDriven
 
@@ -18,7 +18,7 @@ Cet exemple d’application utilise les API audio de base pour afficher les donn
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -31,7 +31,7 @@ Cet exemple illustre les fonctionnalités suivantes.
 -   [API MMDevice](mmdevice-api.md) pour l’énumération et la sélection des appareils multimédias.
 -   WASAPI pour les opérations de gestion de flux.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -50,9 +50,9 @@ Cet exemple est disponible aux emplacements suivants.
 
 
 
-| Emplacement    | Chemin d’accès/URL                                                                                                    |
+| Localisation    | Chemin d’accès/URL                                                                                                    |
 |-------------|-------------------------------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft SDK \\ Windows \\ v 7.0 \\ exemples \\ multimédia \\ audio \\ RenderExclusiveEventDriven \\ ... |
+| Kit de développement logiciel (SDK) Windows | \\Program Files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ samples \\ \\ Audio Multimedia \\ RenderExclusiveEventDriven \\ ... |
 
 
 
@@ -62,9 +62,9 @@ Cet exemple est disponible aux emplacements suivants.
 
 Pour générer l’exemple RenderExclusiveEventDriven, procédez comme suit :
 
-1.  Ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderExclusiveEventDriven.
-2.  Exécutez la commande `start WASAPIRenderExclusiveEventDriven.sln` dans le répertoire RenderExclusiveEventDriven pour ouvrir le projet WASAPIRenderExclusiveEventDriven dans la fenêtre Visual Studio.
-3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . Si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (SDK), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (SDK). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderExclusiveEventDriven. vcproj.
+1.  ouvrez l’interpréteur de commandes pour le SDK Windows et accédez au répertoire d’exemple RenderExclusiveEventDriven.
+2.  exécutez la commande `start WASAPIRenderExclusiveEventDriven.sln` dans le répertoire RenderExclusiveEventDriven pour ouvrir le projet WASAPIRenderExclusiveEventDriven dans la fenêtre Visual Studio.
+3.  À partir de la fenêtre, sélectionnez la configuration de la solution **Debug** ou **Release** , sélectionnez le menu **générer** dans la barre de menus, puis sélectionnez l’option **générer** . si vous n’ouvrez pas Visual Studio à partir du shell CMD pour le kit de développement logiciel (sdk), Visual Studio n’aura pas accès à l’environnement de génération du kit de développement logiciel (sdk). Dans ce cas, l’exemple n’est pas généré, sauf si vous définissez explicitement la variable d’environnement MSSdk, qui est utilisée dans le fichier projet, WASAPIRenderExclusiveEventDriven. vcproj.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 

@@ -1,19 +1,19 @@
 ---
-description: À compter de Windows 8, l' \_ infrastructure des DLL AppInit est désactivée lorsque le démarrage sécurisé est activé.
+description: à partir de Windows 8, l' \_ infrastructure des dll AppInit est désactivée lorsque le démarrage sécurisé est activé.
 ms.assetid: 3ADE71C7-7113-4D26-8D6D-5609CAF13397
 title: DLL AppInit et démarrage sécurisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2915dda53959f2a403a62112385fe80e735cbfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67db758eebbccd1916b5c2611c20598c3f4d25cc80cd2910be22a65b4222bbae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106528330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119256019"
 ---
 # <a name="appinit-dlls-and-secure-boot"></a>DLL AppInit et démarrage sécurisé
 
-À compter de Windows 8, l' \_ infrastructure des DLL AppInit est désactivée lorsque le démarrage sécurisé est activé.
+à partir de Windows 8, l' \_ infrastructure des dll AppInit est désactivée lorsque le démarrage sécurisé est activé.
 
 ## <a name="about-appinit_dlls"></a>À propos des \_ DLL AppInit
 
@@ -21,21 +21,21 @@ L' \_ infrastructure des DLL AppInit offre un moyen simple de raccorder les API 
 
 ## <a name="appinit_dlls-and-secure-boot"></a>\_DLL appInit et démarrage sécurisé
 
-Windows 8 a adopté UEFI et le démarrage sécurisé pour améliorer l’intégrité globale du système et offrir une protection renforcée contre les menaces sophistiquées. Lorsque le démarrage sécurisé est activé, le \_ mécanisme des DLL AppInit est désactivé dans le cadre d’une approche sans compromis pour protéger les clients contre les logiciels malveillants et les menaces.
+Windows 8 a adopté UEFI et le démarrage sécurisé pour améliorer l’intégrité globale du système et fournir une protection renforcée contre les menaces sophistiquées. Lorsque le démarrage sécurisé est activé, le \_ mécanisme des DLL AppInit est désactivé dans le cadre d’une approche sans compromis pour protéger les clients contre les logiciels malveillants et les menaces.
 
-Notez que le démarrage sécurisé est un protocole UEFI et non une fonctionnalité de Windows 8. Pour plus d’informations sur UEFI et sur la spécification du protocole de démarrage sécurisé, consultez [https://www.uefi.org](https://www.uefi.org/) .
+notez que le démarrage sécurisé est un protocole UEFI et non une fonctionnalité de Windows 8. Pour plus d’informations sur UEFI et sur la spécification du protocole de démarrage sécurisé, consultez [https://www.uefi.org](https://www.uefi.org/) .
 
-## <a name="appinit_dlls-certification-requirement-for-windows-8-desktop-apps"></a>\_Conditions de certification des DLL AppInit pour les applications de bureau Windows 8
+## <a name="appinit_dlls-certification-requirement-for-windows-8-desktop-apps"></a>\_conditions de certification des dll AppInit pour les applications de bureau Windows 8
 
-L’une des conditions de certification pour les applications de bureau Windows 8 est que l’application ne doit pas charger de dll arbitraires pour intercepter les appels d’API Win32 à l’aide du \_ mécanisme de DLL AppInit. Pour plus d’informations sur les conditions requises en matière de certification, reportez-vous à la section 1,1 des [conditions de certification pour les applications de bureau Windows 8](../win_cert/certification-requirements-for-windows-desktop-apps.md).
+l’une des conditions de certification pour les applications de bureau Windows 8 est que l’application ne doit pas charger de dll arbitraires pour intercepter les appels d’API Win32 à l’aide du \_ mécanisme de dll AppInit. pour plus d’informations sur les conditions requises en matière de certification, reportez-vous à la section 1,1 des [conditions de certification pour Windows 8 les applications de bureau](../win_cert/certification-requirements-for-windows-desktop-apps.md).
 
-## <a name="summary"></a>Résumé
+## <a name="summary"></a>Récapitulatif
 
 -   Le \_ mécanisme des DLL AppInit n’est pas une approche recommandée pour les applications légitimes, car cela peut entraîner des blocages système et des problèmes de performances.
 -   Le \_ mécanisme des DLL AppInit est désactivé par défaut lorsque le démarrage sécurisé est activé.
--   L’utilisation \_ de DLL AppInit dans une application de bureau Windows 8 est un échec de certification des applications de bureau Windows.
+-   l’utilisation \_ de dll AppInit dans une application de bureau Windows 8 est une Windows échec de la certification des applications de bureau.
 
-Consultez le livre blanc suivant pour plus d’informations sur les \_ DLL AppInit sur Windows 7 et Windows server 2008 R2 : [DLL AppInit dans Windows 7 et windows Server 2008 R2](/previous-versions/windows/hardware/download/dn550976(v=vs.85)).
+consultez le livre blanc suivant pour plus d’informations sur les \_ dll AppInit sur Windows 7 et Windows server 2008 r2 : [dll AppInit dans Windows 7 et Windows server 2008 R2](/previous-versions/windows/hardware/download/dn550976(v=vs.85)).
 
  
 

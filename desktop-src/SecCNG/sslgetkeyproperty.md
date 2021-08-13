@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 42952b76bfb46eeeb31b9f76b1f677e7b3b8e3e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b86f8a2e76573122bcfcf809d5301bc6bf70690467527f4dc69a5ec12419f56b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906117"
 ---
 # <a name="sslgetkeyproperty-function"></a>SslGetKeyProperty fonction)
 
@@ -53,7 +53,7 @@ Handle du fournisseur SSL.
 *pszProperty* \[ dans\]
 </dt> <dd>
 
-Pointeur vers une chaîne Unicode terminée par le caractère null qui contient le nom de la propriété à récupérer. Il peut s’agir de l’un des [**identificateurs de propriété de stockage de clés**](key-storage-property-identifiers.md) prédéfinis ou d’un identificateur de propriété personnalisé.
+Pointeur vers une chaîne Unicode terminée par le caractère null qui contient le nom de la propriété à récupérer. il peut s’agir de l’une des clés prédéfinies [**Stockage identificateurs de propriété**](key-storage-property-identifiers.md) ou d’un identificateur de propriété personnalisé.
 
 </dd> <dt>
 
@@ -103,8 +103,8 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

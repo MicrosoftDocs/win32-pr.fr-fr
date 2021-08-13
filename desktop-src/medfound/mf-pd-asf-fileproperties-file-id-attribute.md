@@ -4,12 +4,12 @@ ms.assetid: 096c2e1a-7fd7-49ab-aa24-7d7c779d9e79
 title: Attribut MF_PD_ASF_FILEPROPERTIES_FILE_ID (Wmcontainer. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a92d20351c11df4feebd732c670cbacabf3bd67f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 131f82e15d63cca7c398894f9dd486936b20642fad4ffb2b241ec866e6dd33d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741005"
 ---
 # <a name="mf_pd_asf_fileproperties_file_id-attribute"></a>MF \_ PD \_ ASF \_ - \_ attribut de fichier d’ID de fichier \_
 
@@ -19,7 +19,7 @@ Spécifie l’identificateur de fichier d’un fichier ASF (Advanced Systems For
 
 **GUID**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique aux descripteurs de présentation pour le contenu ASF.
 
@@ -31,8 +31,8 @@ La méthode [**IMFASFContentInfo :: GeneratePresentationDescriptor**](/windows/
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>Wmcontainer. h</dt> </dl> |
 
 

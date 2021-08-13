@@ -4,12 +4,12 @@ ms.assetid: 8c7ebba8-58c4-4733-ba59-802abf902c5e
 title: Contenu du document des composants de sauvegarde
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e12c88ebffa0037702e1f30dd818d4fd23fe4e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c844f2e9e106817c8201822d000c2f6cb94c0fa272bb5b165d98e4cc48b1c21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119248339"
 ---
 # <a name="backup-components-document-contents"></a>Contenu du document des composants de sauvegarde
 

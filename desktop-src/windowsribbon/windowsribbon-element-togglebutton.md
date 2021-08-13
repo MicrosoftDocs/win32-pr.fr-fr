@@ -3,7 +3,7 @@ title: ToggleButton, élément
 description: Représente un contrôle bouton bascule.
 ms.assetid: f26a90e6-9e9a-4fde-8753-50b8b1d09f80
 keywords:
-- Ruban Windows de l’élément ToggleButton
+- élément ToggleButton Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 652ea7b535f41cc3dbb40f25bbe49ab4fe52f5ff
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 2e17c4f9ea6aa557db6c1f9b98aca60b6da351936a70b783a0618217c03ba7b1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104314137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441589"
 ---
 # <a name="togglebutton-element"></a>ToggleButton, élément
 
 Représente un contrôle [bouton bascule](windowsribbon-controls-togglebutton.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ToggleButton
@@ -93,7 +93,7 @@ Il n’y a pas d’éléments enfants.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Facultatif ou obligatoire, en fonction de l’élément parent.
 

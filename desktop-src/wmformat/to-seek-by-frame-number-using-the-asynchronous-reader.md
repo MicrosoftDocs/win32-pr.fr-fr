@@ -12,12 +12,12 @@ keywords:
 - flux vidéo, lecteurs asynchrones
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 169f5e1ac1e6034bc1db6f610e80af50dd3a0215
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: e218384b1a27bb3240ac74ad9af6d8298945bb57dfaf635531cb4cbb9aaa9611
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104030787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118432612"
 ---
 # <a name="to-seek-by-frame-number-using-the-asynchronous-reader"></a>Pour rechercher par numéro de frame à l’aide du lecteur asynchrone
 
@@ -42,9 +42,9 @@ Pour rechercher des données dans un fichier ASF par numéro de trame à l’aid
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

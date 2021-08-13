@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - gdi32.dll
-ms.openlocfilehash: d72f3d8bbb7d3063fe6982c6d1de99b2f721f005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f62d310526d95cf4ab6d1727a3ba43eec147f320b04c0692a89d52305b7f3589
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743546"
 ---
 # <a name="configureopmprotectedoutput-function"></a>ConfigureOPMProtectedOutput fonction)
 
@@ -79,7 +79,7 @@ Pointeur vers une mémoire tampon qui contient des informations supplémentaires
 
 Si la méthode réussit, elle retourne l' **état \_ Success**. Sinon, elle retourne un code d’erreur **NTSTATUS** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les applications doivent appeler [**IOPMVideoOutput :: configure**](/windows/desktop/api/opmapi/nf-opmapi-iopmvideooutput-configure) au lieu d’appeler cette fonction.
 
@@ -91,8 +91,8 @@ Cette fonction n’a pas de bibliothèque d’importation associée. Pour appele
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                 |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                 |
 | DLL<br/>                      | <dl> <dt>Gdi32.dll</dt> </dl> |
 
 

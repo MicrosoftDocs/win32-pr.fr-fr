@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d27119a9b54e3de22fe620f556c672bd4fe1a17
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 20c76de789bd6ca88a9bbc2f3bb68381b3816524a07cbf97dc1a35b2526179a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431837"
 ---
 # <a name="wmencodingtime"></a>WM/EncodingTime
 
@@ -31,9 +31,9 @@ L’attribut **WM/EncodingTime** contient un horodatage de l’heure à laquelle
 
 **fileTime** (**\_ type WMT \_ QWord**)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cet attribut utilise une valeur FILETIME, qui est une valeur 64 bits représentant le nombre d’unités de temps de 100 nanosecondes écoulées depuis le 1er janvier 1601. Pour plus d’informations sur FILETIME, consultez la section informations système Windows du kit de développement logiciel (SDK) de plateforme.
+Cet attribut utilise une valeur FILETIME, qui est une valeur 64 bits représentant le nombre d’unités de temps de 100 nanosecondes écoulées depuis le 1er janvier 1601. pour plus d’informations sur FILETIME, consultez la section Windows System Information du kit de développement logiciel (SDK) de plateforme.
 
 Il ne s’agit pas d’un attribut codé. Vous devez la définir manuellement si vous souhaitez l’inclure dans vos fichiers.
 
@@ -44,9 +44,9 @@ Il ne s’agit pas d’un attribut codé. Vous devez la définir manuellement si
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3300fd88c0dd1e1fca55722bf58350e28f3c3b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38ddb306ee6fdcbd1eb792b2c29ca367adc0f4b88cc25dfcbdde22c2638258d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765037"
 ---
 # <a name="jet_ls"></a>JET_LS
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_ls"></a>JET_LS
 
 Le type de données **JET_LS** contient un descripteur de contexte pour le stockage local (LS). Ce handle peut être associé à un curseur ou à une table et peut faire référence à des ressources allouées dynamiquement.
 
-**Windows XP : JET_LS** est introduite dans Windows XP.
+**Windows xp : JET_LS** est introduite dans Windows xp.
 
 ```cpp
     typedef JET_API_PTR JET_LS;
@@ -43,7 +43,7 @@ JET_LS
 
 La valeur JET_LSNil indique un handle de contexte non valide.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Un descripteur de contexte est initialement associé à l' **JET_LS** type de données, à l’aide de [JetSetLS](./jetsetls-function.md). Le descripteur de contexte peut être récupéré à partir du type de données **JET_LS** à l’aide de [JetGetLS](./jetgetls-function.md).
 
@@ -93,11 +93,11 @@ Les indicateurs suivants sont associés au type de données JET_LS.
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista ou Windows XP.</p></td>
+<td><p>requiert Windows Vista ou Windows XP.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008 ou Windows Server 2003.</p></td>
+<td><p>requiert Windows server 2008 ou Windows server 2003.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

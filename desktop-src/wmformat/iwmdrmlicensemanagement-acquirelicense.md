@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 279a3d4d84617c4a4fa5454d1f39f6f78f0cf3fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ad8251650c8a7e16c6eb2fc957df5e70459239c0cd6cf1184b5209ae51b6aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701125"
 ---
 # <a name="iwmdrmlicensemanagementacquirelicense-method"></a>IWMDRMLicenseManagement :: AcquireLicense, méthode
 
@@ -107,7 +107,7 @@ Pointeur qui reçoit un pointeur vers l’interface **IUnknown** d’un objet qu
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -119,11 +119,11 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode s’exécute de façon asynchrone. Elle retourne immédiatement après l’appel de, puis génère un événement **MEWMDRMLicenseAcquisitionCompleted** lorsque le traitement est terminé. Pour les opérations d’acquisition de licence non silencieuses, la valeur de l’événement obtenu en appelant **IMFMediaEvent :: GetValue** est un pointeur **IUnknown** . Vous pouvez appeler la méthode **QueryInterface** de l’interface **IUnknown** Récupérée pour récupérer une instance de l’interface [**IWMDRMNonSilentLicenseAquisition**](iwmdrmnonsilentlicenseaquisition.md) .
 
-Pour plus d’informations sur l’utilisation des méthodes asynchrones des API étendues du client Windows Media DRM, consultez [utilisation du modèle d’événement Media Foundation](using-the-media-foundation-model.md).
+pour plus d’informations sur l’utilisation des méthodes asynchrones des api étendues du Client Media DRM Windows, consultez [utilisation du modèle d’événement Media Foundation](using-the-media-foundation-model.md).
 
 ## <a name="requirements"></a>Configuration requise
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c217be1e0c6bde740c815f5a990509a6a87ef0f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ae91ae5353aa0e9c02414e90a8364d86bdc56c0cdcc4f4586656f28f92f100ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909168"
 ---
 # <a name="winbio_unit_schema-structure"></a>Structure de schéma d' \_ unité WINBIO \_
 
@@ -109,7 +109,7 @@ Masque de réévaluation des fonctionnalités du capteur biométrique. Il peut s
 -   \_indicateur de capacité WINBIO \_
 -   \_ \_ capteur virtuel de capacité WINBIO \_
     > [!Note]  
-    > La constante de **\_ \_ \_ capteur virtuel de capacité WINBIO** s’applique uniquement à Windows 10 et versions ultérieures.
+    > la constante de **\_ \_ \_ capteur virtuel de capacité WINBIO** s’applique uniquement à Windows 10 et versions ultérieures.
 
      
 
@@ -163,8 +163,8 @@ Structure [**de \_ version de WINBIO**](winbio-version.md) qui contient les num�
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

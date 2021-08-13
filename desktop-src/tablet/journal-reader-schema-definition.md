@@ -4,12 +4,12 @@ ms.assetid: 2fa6a5d9-64d6-447f-bf2a-d3bf6ca7c093
 title: Définition du schéma du lecteur de journal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa38ae5b0bd1d635661e48aea49671182471609
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e749d6b6508fb161ec87a91e8790711f93a3e96e7d647fd314a205cafd07b9e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716365"
 ---
 # <a name="journal-reader-schema-definition"></a>Définition du schéma du lecteur de journal
 

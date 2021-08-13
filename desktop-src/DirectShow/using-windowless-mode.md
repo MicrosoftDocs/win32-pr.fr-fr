@@ -4,12 +4,12 @@ ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: Utilisation du mode sans fenêtre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 393b112c6d340c3440521876da08111dd4bb0e81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5189fb52932a328493baec9a79ccd6598a9a0659c198ee3ce3d4d157574a63c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119271249"
 ---
 # <a name="using-windowless-mode"></a>Utilisation du mode sans fenêtre
 
@@ -18,7 +18,7 @@ Le [filtre de convertisseur de mixage vidéo 7](video-mixing-renderer-filter-7.m
 Pour garantir une compatibilité descendante avec les applications existantes, VMR est par défaut en mode fenêtre. En mode fenêtre, le convertisseur crée sa propre fenêtre pour afficher la vidéo. En général, l’application définit la fenêtre vidéo en tant qu’enfant de la fenêtre d’application. L’existence d’une fenêtre vidéo distincte provoque certains problèmes, toutefois :
 
 -   Plus important encore, il existe un risque de blocages si les messages de fenêtre sont envoyés entre les threads.
--   Le gestionnaire de graphique de filtre doit transférer certains messages de fenêtre, tels que WM \_ Paint, au convertisseur vidéo. L’application doit utiliser l’implémentation de [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) par le gestionnaire de graphique de filtre (et non pas les convertisseurs vidéo), afin que le gestionnaire de graphique de filtre conserve l’état interne correct.
+-   le gestionnaire de Graph de filtre doit transférer certains messages de fenêtre, tels que WM \_ PAINT, au convertisseur vidéo. l’application doit utiliser l’implémentation de [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) du gestionnaire de Graph (et non pas le convertisseur vidéo), afin que le gestionnaire de Graph de filtre conserve l’état interne correct.
 -   Pour recevoir des événements de souris ou de clavier à partir de la fenêtre vidéo, l’application doit définir un *drain de message*, ce qui amène la fenêtre vidéo à transférer ces messages à l’application.
 -   Pour éviter les problèmes de découpage, la fenêtre vidéo doit avoir les styles de fenêtre appropriés.
 
@@ -34,7 +34,7 @@ Pour remplacer le comportement par défaut de VMR, configurez le VMR avant de g�
 
 **VMR-7**
 
-1.  Créez le gestionnaire de graphe de filtre.
+1.  créez le filtre Graph Manager.
 2.  Créez VMR-7 et ajoutez-le au graphique de filtre.
 3.  Appelez [**IVMRFilterConfig :: SetRenderingMode**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode) sur VMR-7 avec l’indicateur **\_ sans fenêtre VMRMode** .
 4.  Interrogez VMR-7 pour l’interface [**IVMRWindowlessControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol) .
@@ -42,13 +42,13 @@ Pour remplacer le comportement par défaut de VMR, configurez le VMR avant de g�
 
 **VMR-9**
 
-1.  Créez le gestionnaire de graphe de filtre.
+1.  créez le filtre Graph Manager.
 2.  Créez VMR-9 et ajoutez-le au graphique de filtre.
 3.  Appelez [**IVMRFilterConfig9 :: SetRenderingMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode) sur VMR-9 avec l’indicateur **\_ sans fenêtre VMR9Mode** .
 4.  Interrogez VMR-9 pour l’interface [**IVMRWindowlessControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) .
 5.  Appelez [**IVMRWindowlessControl9 :: SetVideoClippingWindow**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow) sur VMR-9. Spécifiez un handle vers la fenêtre dans laquelle la vidéo doit apparaître.
 
-Maintenant, générez le reste du graphique de filtre en appelant [**IGraphBuilder :: RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) ou d’autres méthodes de création de graphiques. Le gestionnaire de graphique de filtre utilise automatiquement l’instance de VMR que vous avez ajoutée au graphique. (Pour plus d’informations sur la cause de ce problème, consultez [connexion intelligente](intelligent-connect.md).)
+Maintenant, générez le reste du graphique de filtre en appelant [**IGraphBuilder :: RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) ou d’autres méthodes de création de graphiques. le gestionnaire de Graph de filtre utilise automatiquement l’instance de VMR que vous avez ajoutée au graphique. (Pour plus d’informations sur la cause de ce problème, consultez [Intelligent connecter](intelligent-connect.md).)
 
 Le code suivant illustre une fonction d’assistance qui crée VMR-7, l’ajoute au graphique et configure le mode sans fenêtre.
 

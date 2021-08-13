@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: eecbebc7090fb57d3794f3d056c24fba61fa5c61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83a24329b318ec2bb542a3bbb63a28d4db9fce877b99f75aa7091670825fa439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716937"
 ---
 # <a name="itabletcursor-interface"></a>Interface ITabletCursor
 
@@ -49,7 +49,7 @@ L’interface **ITabletCursor** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 N'utilisez pas cette interface.
 
@@ -91,7 +91,7 @@ interface ITabletCursor : IUnknown
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                          |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                          |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                              |
 | Bibliothèque<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 79eb172641cbd96e2ed0fa6631bc18718340628f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a95d57edb7992c9511e34480190580d34ad42da23c64c4297f5e4ebb75a95e73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452126"
 ---
 # <a name="shellfolderview-object"></a>Objet ShellFolderView
 
@@ -68,7 +68,7 @@ L’objet **ShellFolderView** a ces propriétés.
 
 
 
-| Propriété                                                      | Type d’accès          | Description                                                                                                  |
+| Property                                                      | Type d’accès          | Description                                                                                                  |
 |:--------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------|
 | [**Application**](shellfolderview-application.md)<br/> | Lecture seule<br/> | Contient l’objet d’application de l’objet.<br/>                                                         |
 | [**FocusedItem**](shellfolderview-focuseditem.md)<br/> | Lecture seule<br/> | Obtient un objet [**FolderItem**](folderitem.md) qui représente l’élément ayant le focus d’entrée.<br/> |
@@ -81,13 +81,13 @@ L’objet **ShellFolderView** a ces propriétés.
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

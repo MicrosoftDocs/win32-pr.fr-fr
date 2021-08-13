@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4a917f09f419ce8dd5eb59c9c277293261bffa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2671faaee7bc277f9389d7c993e4d511dac03db459755b40bf3f659ff5256a56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909577"
 ---
 # <a name="winbio_presence-structure"></a>\_Structure de présence WINBIO
 
@@ -48,7 +48,7 @@ typedef struct _WINBIO_PRESENCE {
 
 <dl> <dt>
 
-**Factor**
+**Facteur**
 </dt> <dd>
 
 Facteur biométrique utilisé pour surveiller la présence de la personne.
@@ -104,7 +104,7 @@ Informations spécifiques au facteur sur la position d’un individu.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction [**EngineAdapterIdentifyAll**](/windows/desktop/api/Winbio_adapter/nc-winbio_adapter-pibio_engine_identify_all_fn) crée un tableau de structures de **\_ présence WINBIO** et envoie ce tableau au service biométrique. Le service biométrique utilise le tableau pour mettre à jour son modèle interne d’êtres humains près de l’ordinateur.
 
@@ -191,8 +191,8 @@ Lorsqu’un individu que l’adaptateur de moteur associe à un identificateur d
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

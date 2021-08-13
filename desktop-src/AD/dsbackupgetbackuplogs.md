@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a02c5c7234810623a95dea030f0c623cca92293
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d4a240ef514fc62450a04f512f04d985380b79fa20daaee9ff4b27ccb71027a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430101"
 ---
 # <a name="dsbackupgetbackuplogs-function"></a>DsBackupGetBackupLogs fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsBackupGetBackupLogs** obtient la liste des fichiers journaux qui doivent être sauvegardés pour le contexte de sauvegarde donné.
 
@@ -101,7 +101,7 @@ Un échec d’allocation de mémoire s’est produit.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **DsBackupGetBackupLogs** fournit une liste des fichiers journaux nécessaires pour une sauvegarde. Une sauvegarde complète se compose des fichiers de base de données fournis par la fonction [**DsBackupGetDatabaseNames**](dsbackupgetdatabasenames.md) et des fichiers journaux. Les sauvegardes incrémentielles des serveurs Active Directory ne sont pas prises en charge.
 

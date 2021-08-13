@@ -4,12 +4,12 @@ ms.assetid: 0570bf7c-c38d-4ada-9593-27b9be117893
 title: À propos de la vidéo numérique dans DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f4ae0253754583bb89132289db87f0aad673d6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 061927618c1cb3340e0771376a7a1e232e078e043a554829f99580262ea29c58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104561284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664809"
 ---
 # <a name="about-digital-video-in-directshow"></a>À propos de la vidéo numérique dans DirectShow
 
@@ -24,7 +24,7 @@ La vidéo numérique (DV) peut être capturée à partir d’une caméra DV, sto
 
 DirectShow fournit les filtres DV suivants :
 
--   [Pilote MSDV](msdv-driver.md). Le pilote MSDV contrôle un périphérique DV, tel qu’un caméscope. L’appareil peut avoir une sous-unité de caméra et une sous-unité VTR. MSDV contrôle les deux sous-unités. Le pilote MSDV apparaît pour les applications sous la forme d’un filtre DirectShow.
+-   [Pilote MSDV](msdv-driver.md). Le pilote MSDV contrôle un périphérique DV, tel qu’un caméscope. L’appareil peut avoir une sous-unité de caméra et une sous-unité VTR. MSDV contrôle les deux sous-unités. le pilote MSDV apparaît pour les applications sous la forme d’un filtre DirectShow.
 -   Filtre de [séparateur DV](dv-splitter-filter.md) . Les images DV contiennent des données audio et vidéo dans le même cadre. Le filtre de séparateur DV extrait les données audio et les renvoie sous la forme d’un ou de deux flux audio. Il génère les données d’origine sous la forme d’un flux vidéo DV distinct.
 -   Filtre de [décodage vidéo DV](dv-video-decoder-filter.md) . Décode la vidéo DV en vidéo non compressée.
 -   Filtre d' [encodeur vidéo DV](dv-video-encoder-filter.md) . Encode la vidéo non compressée en vidéo encodée en DV.
@@ -42,7 +42,7 @@ L’encodeur vidéo DV et le DV du multiplexeur inversent le processus : l’en
 
 <dl> <dt>
 
-[Vidéo numérique dans DirectShow](digital-video-in-directshow.md)
+[Vidéo numérique en DirectShow](digital-video-in-directshow.md)
 </dt> </dl>
 
  

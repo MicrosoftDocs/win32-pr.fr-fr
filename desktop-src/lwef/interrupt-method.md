@@ -4,12 +4,12 @@ description: Interrupt, méthode
 ms.assetid: b8442e25-a629-47c7-acdd-1d28e74d78a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58050e181525cc4a4b9f35ec169e92d91ab28e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 05e66814963bb3de3db95d60cbc25777244626168e95ceee4bd3d8d76992dd72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104381962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749256"
 ---
 # <a name="interrupt-method"></a>Interrupt, méthode
 
@@ -27,7 +27,7 @@ Interrompt l’animation pour le caractère spécifié.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »).* *  *Demande* d’interruption
+*agent ***. Caractères («**_CharacterID_*_»)._ *  *Demande* d’interruption
 
 
 
@@ -37,11 +37,11 @@ Interrompt l’animation pour le caractère spécifié.
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez l’utiliser pour synchroniser l’animation entre les caractères. Par exemple, si un autre caractère se trouve dans une animation de bouclage, cette méthode arrête la boucle et passe à l’animation suivante dans la file d’attente du caractère. Vous ne pouvez pas interrompre une animation de caractères que vous n’utilisez pas (que vous n’avez pas chargée).
 
@@ -88,13 +88,13 @@ Si vous déclarez une référence d’objet et que vous la définissez sur cette
 > [!Note]  
 > **Interrupt** n’efface pas la file d’attente du caractère ; il arrête l’animation existante et passe à l’animation suivante dans la file d’attente du caractère. Pour arrêter et vider la file d’attente d’un caractère, utilisez la méthode [**Stop**](stop-method.md) .
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**Stop, méthode**](stop-method.md)
 
 
- 
+ 
 
- 
+ 

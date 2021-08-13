@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f7521f60f819829fc72ba907b57d4e4eb13682a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 54da854fff0aeb2001e674218a7e7868971a6cf43af7bc00606b124c3f082b9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106527118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800417"
 ---
 # <a name="id3dxspritesetworldviewrh-method"></a>ID3DXSprite :: SetWorldViewRH, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée. D3DERR \_ INVALIDCALL
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un appel à cette méthode (ou à [**ID3DXSprite :: SetWorldViewLH**](id3dxsprite--setworldviewlh.md)) est requis si le sprite est rendu avec la valeur de l’indicateur de [D3DXSprite du \_ \_ panneau](d3dxsprite.md), du D3DXSprite \_ \_ \_ \_ de profondeur de tri FRONTTOBACK ou \_ \_ de la profondeur de tri D3DXSprite BACKTOFRONT \_ \_ [**:: Begin**](id3dxsprite--begin.md).
 

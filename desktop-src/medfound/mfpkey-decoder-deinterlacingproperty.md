@@ -4,12 +4,12 @@ ms.assetid: c17d0dda-6141-46da-8921-f83ba40158e2
 title: MFPKEY_DECODER_DEINTERLACING, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1380a880430988411e54de244ca613f696f4b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19440a6eb893590bad3c2462b88075137e73c1633955841a66102c7e6faf8d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738213"
 ---
 # <a name="mfpkey_decoder_deinterlacing-property"></a>\_Propriété désentrelacer du DÉcodeur MFPKEY \_
 
@@ -33,8 +33,8 @@ Spécifie si le décodeur décode des images vidéo entrelacées à partir du fl
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

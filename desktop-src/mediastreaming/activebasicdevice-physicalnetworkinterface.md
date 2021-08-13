@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 479618ed4d22a3d78a351fb88fcb1108a27c618f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5bd9eb004607d93b92d502d22b253258bf39e501969e6b3952a58b0a03a1eec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736205"
 ---
 # <a name="activebasicdevicephysicalnetworkinterface-property"></a>ActiveBasicDevice ::P propriété hysicalNetworkInterface
 
@@ -52,7 +52,7 @@ Pointeur vers un **GUID** qui spécifie l’ID de l’interface réseau physique
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                                |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                                     |
 | En-tête<br/>                   | <dl> <dt>PlayToDevice. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>PlayToDevice. idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Playtodevice.dll</dt> </dl> |

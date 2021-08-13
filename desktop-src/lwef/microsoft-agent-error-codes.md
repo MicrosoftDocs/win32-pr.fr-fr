@@ -4,12 +4,12 @@ description: Codes d’erreur de Microsoft Agent
 ms.assetid: 39bc203a-c260-46f5-a30a-7324bae2e2cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70e675daa3167b72f711e2545e00c78633213ed5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48e483c053f1cfa4d3bb57606629885470fa28f73644c9a26cb35a76a3354b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747846"
 ---
 # <a name="microsoft-agent-error-codes"></a>Codes d’erreur de Microsoft Agent
 
@@ -55,7 +55,7 @@ Microsoft Agent renvoie les informations d’erreur suivantes :
 | -2147213044  | 0x8004210C | L’opération a été interrompue par l’application.                                                                                                                                                                                                                          |
 | -2147213043  | 0x8004210D | L’opération a été interrompue car le caractère a été masqué.                                                                                                                                                                                                            |
 | -2147213042  | 0x8004210E | La balise de parole [LST](lst-tag.md) ne peut pas être utilisée avec du texte ou une URL supplémentaire.                                                                                                                                                                                            |
-| -2147212799  | 0x80042201 | Le Fournisseur de données Microsoft Agent n’a pas pu démarrer.                                                                                                                                                                                                                   |
+| -2147212799  | 0x80042201 | le Fournisseur de données Microsoft Agent n’a pas pu démarrer.                                                                                                                                                                                                                   |
 | -2147212798  | 0x80042202 | La version du fichier de données de caractères spécifiée n’est pas prise en charge par la version installée de Microsoft Agent. Vous devez mettre à jour le caractère.<br/>                                                                                                                       |
 | -2147212797  | 0x80042203 | La version de Microsoft agent installée est antérieure au fichier de caractères spécifié. Vérifiez que la version correcte de Microsoft Agent est installée.<br/>                                                                                                     |
 | -2147212796  | 0x80042204 | Le fichier spécifié n’est pas un fichier de caractères Microsoft Agent. Vérifiez que le nom de fichier est correct.<br/>                                                                                                                                                                    |
@@ -95,7 +95,7 @@ Microsoft Agent renvoie les informations d’erreur suivantes :
 
  
 
-\* Les erreurs dont les descriptions comportent un astérisque sont des erreurs système Windows. Ils sont fournis ici, car ils peuvent généralement se produire dans des applications prenant en charge les agents. Pour plus d’informations sur les autres erreurs non incluses ici, consultez la documentation du kit de développement Platform SDK.
+\*les erreurs dont les descriptions comportent un astérisque sont Windows des erreurs système. Ils sont fournis ici, car ils peuvent généralement se produire dans des applications prenant en charge les agents. Pour plus d’informations sur les autres erreurs non incluses ici, consultez la documentation du kit de développement Platform SDK.
 
  
 

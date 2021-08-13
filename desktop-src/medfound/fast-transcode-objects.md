@@ -4,18 +4,18 @@ ms.assetid: 52b27359-b319-41a0-88e8-d23567420e92
 title: Utilisation de l’API de transcodage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb97dd61ef75e71a82b522b65b682f861022bcf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72e32ea24ebd4803319713be5fe7789cf41c3a99733338bdfe5ad69baf7396bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742477"
 ---
 # <a name="using-the-transcode-api"></a>Utilisation de l’API de transcodage
 
 Cette rubrique explique comment utiliser l’API de transcodage pour encoder un fichier multimédia.
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Création d’une source de média](#creating-a-media-source)
 -   [Création d’un profil de transcodage](#creating-a-transcode-profile)
     -   [Attributs audio](#audio-attributes)

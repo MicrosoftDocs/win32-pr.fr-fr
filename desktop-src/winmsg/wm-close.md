@@ -5,12 +5,12 @@ title: Message WM_CLOSE (winuser. h)
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f1403050cfd3c98ddf90df4399547158a583c50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebe027935391bc1e8946b8691a17f026b39b398ebefee2ea6f6e3765fcaa0c4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436352"
 ---
 # <a name="wm_close-message"></a>\_Message de fermeture WM
 
@@ -49,7 +49,7 @@ Type : **LRESULT**
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 ```cpp
 LRESULT CALLBACK WindowProc(
@@ -73,10 +73,10 @@ LRESULT CALLBACK WindowProc(
     return 0;
 }
 ```
-Exemple tiré d' [exemples classiques Windows](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/RadialController/cpp/RadialController.cpp) sur GitHub.
+exemple de [Windows exemples classiques](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/RadialController/cpp/RadialController.cpp) sur GitHub.
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application peut inviter l’utilisateur à confirmer, avant de détruire une fenêtre, en traitant le message **WM \_ Close** et en appelant la fonction [**DestroyWindow**](/windows/win32/api/winuser/nf-winuser-destroywindow) uniquement si l’utilisateur confirme le choix.
 

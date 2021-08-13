@@ -1,16 +1,16 @@
 ---
 description: Cet exemple illustre le décodage de différents frames dans un fichier GIF, la lecture des métadonnées appropriées pour chaque frame, la composition des frames et le rendu de l’animation avec Direct2D.
 ms.assetid: d71c66b5-d37c-4c8a-bfd7-b97c69c3b8e9
-title: Exemple de gif animé WIC
+title: Exemple de Gif animé WIC
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: afb0c1368e2c66d40d1be4095ec56d5daeb5ab53
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 925beb45b58bdecb7d12505a9d2067cbcb9e6fbf1867786286f18333fea986e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106528588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709599"
 ---
 # <a name="wic-animated-gif-sample"></a>Exemple de GIF animé WIC
 
@@ -23,7 +23,7 @@ Cet exemple présente les exigences suivantes.
 | Condition requise | Valeur |
 |-|-|
 | Client minimal pris en charge | Windows 7 |
-| SDK Windows minimal | [Kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx) pour Windows 7 |
+| SDK Windows minimal | [kit de développement logiciel (SDK) Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx) pour Windows 7 |
 
 ## <a name="downloading-the-sample"></a>Téléchargement de l’exemple
 
@@ -31,7 +31,7 @@ Cet exemple est disponible dans le fichier [gif animé WIC](https://github.com/m
 
 ## <a name="building-the-sample"></a>Génération de l’exemple
 
-### <a name="using-visual-studio-preferred-method"></a>Utilisation de Visual Studio (méthode recommandée)
+### <a name="using-visual-studio-preferred-method"></a>utilisation de Visual Studio (méthode recommandée)
 
 1. Ouvrez l’Explorateur Windows et accédez au répertoire.
 2. Double-cliquez sur l’icône du fichier. sln (solution) pour ouvrir le fichier dans Visual Studio.
@@ -50,7 +50,7 @@ Une fois l’application lancée, chargez un fichier image à l’aide de la com
 
 ## <a name="see-also"></a>Voir aussi
 
-[Codec d’image Microsoft Windows](-wic-lh.md)
+[Codec Microsoft Windows Imaging](-wic-lh.md)
 
 [Guide de programmation](-wic-programming-guide.md)
 

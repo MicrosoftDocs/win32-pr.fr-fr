@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e09f6833fbf07c99fdbce9c02b020bcbb5361408
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ef9ed639383b468b68f75e43f1b38b2952795ceb1990f580a766174334dadd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452825"
 ---
 # <a name="shelltrayproperties-method"></a>Shell. TrayProperties, méthode
 
@@ -47,9 +47,9 @@ Cette méthode n’a aucun paramètre.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant montre **TrayProperties** en cours d’utilisation. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant montre **TrayProperties** en cours d’utilisation. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -105,7 +105,7 @@ End Sub
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

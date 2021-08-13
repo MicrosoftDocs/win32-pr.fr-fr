@@ -7,12 +7,12 @@ keywords:
 - Active Directory des classes auxiliaires dynamiques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c13fc8231b5232b82a61b9409f1736e5bd9249
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 45ce88f525b5d72a271aab1746a0ce0d0b308cb7022c4702433b82038c101435
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429899"
 ---
 # <a name="dynamic-auxiliary-classes"></a>Classes auxiliaires dynamiques
 
@@ -20,11 +20,11 @@ ms.locfileid: "104462875"
 
 Contrairement aux classes structurelles, vous ne pouvez pas créer une instance d’une classe auxiliaire comme vous pouvez le faire avec une classe structurelle. Au lieu de cela, vous utilisez une classe auxiliaire pour étendre la liste des attributs qui est associée à une autre classe d’objets structurelle, abstraite ou auxiliaire.
 
-Dans la version initiale de Windows 2000, Active Directory Domain Services fourni la prise en charge de la liaison statique des classes auxiliaires à la définition [**classSchema**](/windows/desktop/ADSchema/c-classschema) d’une autre classe d’objets. Quand une classe auxiliaire est utilisée de cette façon, chaque instance de la classe d’objet prend en charge les attributs de la classe auxiliaire.
+dans la version initiale de Windows 2000, Active Directory Domain Services fourni la prise en charge de la liaison statique des classes auxiliaires à la définition [**classSchema**](/windows/desktop/ADSchema/c-classschema) d’une autre classe d’objets. Quand une classe auxiliaire est utilisée de cette façon, chaque instance de la classe d’objet prend en charge les attributs de la classe auxiliaire.
 
-**Windows 2000 Server et versions antérieures :** Active Directory Domain Services ne prend pas en charge la liaison dynamique des classes auxiliaires à des objets individuels, et pas seulement à des classes entières d’objets. En outre, les classes auxiliaires qui ont été attachées à une instance d’objet ne peuvent pas être supprimées par la suite de l’instance.
+**Windows serveur 2000 et versions antérieures :** Active Directory Domain Services ne prend pas en charge la liaison dynamique des classes auxiliaires à des objets individuels, et pas seulement à des classes entières d’objets. En outre, les classes auxiliaires qui ont été attachées à une instance d’objet ne peuvent pas être supprimées par la suite de l’instance.
 
-**Windows Server 2003 :** Les classes auxiliaires dynamiques sont prises en charge lorsque tous les contrôleurs de domaine de la forêt exécutent Windows Server 2003 et le mode fonctionnel de la forêt est Windows Server 2003.
+**Windows Server 2003 :** les Classes auxiliaires dynamiques sont prises en charge lorsque tous les contrôleurs de domaine de la forêt exécutent Windows server 2003 et le mode fonctionnel de la forêt est Windows Server 2003.
 
 Pour plus d’informations sur les classes auxiliaires, consultez :
 
@@ -35,6 +35,6 @@ Pour plus d’informations sur les classes auxiliaires, consultez :
 
 Pour plus d’informations sur les niveaux fonctionnels de forêt, consultez la rubrique « Comment élever Active Directory niveaux fonctionnels de domaine et de forêt » dans la base de connaissances de l’aide et du support à l’adresse [https://support/microsoft.com/kb/322692\#4](https://support.microsoft.com/kb/322692) .
 
- 
+ 
 
- 
+ 

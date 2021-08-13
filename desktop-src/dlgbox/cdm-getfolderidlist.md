@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3ffff4f80dc21ed685e589ed4780b43592c2d2
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 58f6a753cf53bdd2cde53a0e3df973457b50b8ed326a7d7ee50c05dc24f1d0a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786191"
 ---
 # <a name="cdm_getfolderidlist-message"></a>\_Message CDM GETFOLDERIDLIST
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[à partir de Windows Vista, les boîtes de dialogue **ouvrir** et **enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Récupère l’adresse de la liste d’identificateurs d’éléments correspondant au dossier qu’une boîte de dialogue **ouvrir** ou **Enregistrer sous** d’un navigateur est actuellement ouverte. La boîte de dialogue doit avoir été créée avec l’indicateur **OFN \_ Explorer** ; sinon, le message échoue.
 
@@ -54,7 +54,7 @@ Pointeur vers la mémoire tampon qui reçoit la liste d’identificateurs d’é
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Si le message est correctement exécuté, la valeur de retour est la taille, en octets, de la liste d’identificateurs d’éléments. Il s’agit du nombre d’octets copiés dans la mémoire tampon, ou de la taille de mémoire tampon requise si la mémoire tampon est trop petite.
 
@@ -68,7 +68,7 @@ La macro correspondante est la suivante :
 int CommDlg_OpenSave_GetFolderIDList(hwnd, lparam, wparam); 
 ```
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -84,7 +84,7 @@ int CommDlg_OpenSave_GetFolderIDList(hwnd, lparam, wparam);
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)

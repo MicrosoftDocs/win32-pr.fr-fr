@@ -1,5 +1,5 @@
 ---
-description: Appareils mobiles Windows prend en charge les propriétés d’appareil suivantes.
+description: Windows Les appareils mobiles prennent en charge les propriétés d’appareil suivantes.
 ms.assetid: 1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce
 title: Propriétés de l’appareil (PortableDevice. h)
 ms.topic: reference
@@ -13,23 +13,23 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 696d5fefd65d194f9bb451b0095ed87b90f8a22c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5490323e60d353fade6dfb7f517533ecb5fa26ca9e78ae221b9ff584d8c13a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430977"
 ---
 # <a name="device-properties-portabledeviceh"></a>Propriétés de l’appareil (PortableDevice. h)
 
-Appareils mobiles Windows prend en charge les propriétés d’appareil suivantes.
+Windows Les appareils mobiles prennent en charge les propriétés d’appareil suivantes.
 
 
 
 <table>
 <thead>
 <tr class="header">
-<th>Propriété</th>
+<th>Property</th>
 <th>VarType</th>
 <th>Description</th>
 </tr>

@@ -4,12 +4,12 @@ description: Identifie la \_ propriété de \_ soulignement FontProperties de l�
 ms.assetid: 88492558-ab19-4606-8fe0-5f100677b88a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 066027e5f62416667619937eea7dbe493a3ff279
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: b75142e08549c2084ebcd37e82943ed63fdfb5b278faef01c4ad79441fa36915
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706718"
 ---
 # <a name="ui_pkey_fontproperties_underline"></a>IU \_ \_ FontProperties \_ souligné
 
@@ -41,7 +41,7 @@ Le tableau suivant décrit les propriétés et le résultat de l’interface uti
 
 
 
-|      Propriété                   |       Résultat de l’interface utilisateur                                                          |
+|      Property                   |       Résultat de l’interface utilisateur                                                          |
 |---------------------------------|--------------------------------------------------------------------------|
 | `UI_FONTUNDERLINE_NOTAVAILABLE` | Le bouton **souligné** est désactivé et ne peut être défini que par l’application. |
 | `UI_FONTUNDERLINE_NOTSET`       | Le bouton **souligné** n’est pas sélectionné.                                    |

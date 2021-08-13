@@ -4,12 +4,12 @@ ms.assetid: 8ac9047d-5995-4492-aa4f-4a56a947191e
 title: System. Media. ContentID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba7b15cdbf7ef0a8943f11a076d576bfde4c2a8
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f37e5d4ca535007ec4141a627eec7d83b93338d9d91620fb82556d84512d10f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118725599"
 ---
 # <a name="systemmediacontentid"></a>System. Media. ContentID
 
@@ -28,7 +28,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5923ff0ff0545f1feb769973f2528bd82e351e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9a37c0b4314a518132d08454ef2cf7472273795cbb0b50f98d22b800e06cc1b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431643"
 ---
 # <a name="wmmediaclasssecondaryid"></a>WM/MediaClassSecondaryID
 
@@ -31,7 +31,7 @@ L’attribut **WM/MediaClassSecondaryID** contient le GUID de la classe de suppo
 
 **\_GUID du type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut doit être défini sur l’une des valeurs du tableau suivant.
 
@@ -56,7 +56,7 @@ Cet attribut doit être défini sur l’une des valeurs du tableau suivant.
 
 
 
- 
+ 
 
 Lorsque vous spécifiez un identificateur de classe secondaire, le fichier doit également contenir un attribut d’identificateur de classe primaire.
 
@@ -70,9 +70,9 @@ Lorsque vous spécifiez un identificateur de classe secondaire, le fichier doit 
 [**WM/MediaClassPrimaryID**](wm-mediaprimaryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

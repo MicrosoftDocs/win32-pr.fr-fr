@@ -4,12 +4,12 @@ ms.assetid: 2bcf5223-7bf4-420c-8f04-a972f04f262d
 title: Utilisation de l’objet DivisionResult
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0b9874f4a9d2e6bc4390d98803c2344308fc3e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b1bb001ecc57c0925253b01b129e0c6fcf0c0243c5a77f0eb697e2cc5c618d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715069"
 ---
 # <a name="working-with-the-divisionresult-object"></a>Utilisation de l’objet DivisionResult
 

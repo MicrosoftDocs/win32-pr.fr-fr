@@ -4,12 +4,12 @@ ms.assetid: 6ee6eecb-3812-45c6-8b27-7dfd6fa82758
 title: Énumération des services
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2eca8221a9a34bf9e921bcaca00eac99f2a75d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 149384f9c4ab5cf352561d08b28a961c8074cc39c018cef6b5deb64307d107ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106542024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697605"
 ---
 # <a name="enumerating-services"></a>Énumération des services
 
@@ -17,7 +17,7 @@ L’application WpdServicesApiSample comprend du code qui montre comment une app
 
 Quand l’utilisateur choisit l’option « 0 » sur la ligne de commande, l’application appelle la méthode **EnumerateContactsServices** qui se trouve dans le module ServiceEnumeration. cpp. Cette méthode affiche la liste de tous les appareils connectés qui prennent en charge le service de contacts.
 
-Par exemple, si WpdServiceSampleDriver est le seul appareil installé, l’application retourne trois champs de données : un nom convivial (« exemple d’appareil »), un fabricant (« groupe de périphériques mobiles Windows ») et une description (« contact service Device 2000 »).
+par exemple, si le WpdServiceSampleDriver est le seul appareil installé, l’application retourne trois champs de données : un nom convivial (« exemple d’appareil »), un fabricant (« Windows groupe appareils mobiles ») et une Description (« contact Service device 2000 »).
 
 La méthode **EnumerateContactsServices** effectue les tâches suivantes :
 

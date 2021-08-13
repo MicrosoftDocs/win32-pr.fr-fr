@@ -1,23 +1,23 @@
 ---
-description: Une infrastructure de clé publique (PKI) Windows enregistre des certificats sur le serveur qui héberge l’autorité de certification (CA) et sur l’ordinateur ou l’appareil local.
+description: une infrastructure à clé publique (PKI) Windows enregistre des certificats sur le serveur qui héberge l’autorité de certification (CA) et sur l’ordinateur ou l’appareil local.
 ms.assetid: b6aaafeb-30d1-453e-a70c-dcaa01fea1cf
 title: Répertoire de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee525e4d910de1c75516c6aaa27ca41a6cfa17c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b77a7c63e234460394005aac416d41ff7845470139ba2cb8b700132bea0118c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904828"
 ---
 # <a name="certificate-directory"></a>Répertoire de certificat
 
-Une infrastructure de clé publique (PKI) Windows enregistre des certificats sur le serveur qui héberge l’autorité de certification (CA) et sur l’ordinateur ou l’appareil local. Le stockage de l’autorité de certification est généralement désigné sous le nom de base de données de certificats, et le stockage local est appelé magasin de certificats.
+une infrastructure à clé publique (PKI) Windows enregistre des certificats sur le serveur qui héberge l’autorité de certification (CA) et sur l’ordinateur ou l’appareil local. Le stockage de l’autorité de certification est généralement désigné sous le nom de base de données de certificats, et le stockage local est appelé magasin de certificats.
 
 ## <a name="certificate-database"></a>Base de données de certificats
 
-Lorsque vous ajoutez des services de certificats sur un serveur Windows et configurez une autorité de certification, une base de données de certificats est créée. Par défaut, la base de données est contenue dans le dossier *% systemroot%* \\ system32 \\ Certlog, et le nom est basé sur le nom de l’autorité de certification avec une extension. edb. La base de données peut contenir les éléments suivants :
+lorsque vous ajoutez des Services de certificats sur un serveur Windows et configurez une autorité de certification, une base de données de certificats est créée. Par défaut, la base de données est contenue dans le dossier *% systemroot%* \\ system32 \\ Certlog, et le nom est basé sur le nom de l’autorité de certification avec une extension. edb. La base de données peut contenir les éléments suivants :
 
 -   Certificats émis
 -   Certificats révoqués

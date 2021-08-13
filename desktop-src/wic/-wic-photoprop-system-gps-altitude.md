@@ -4,12 +4,12 @@ ms.assetid: 63d59aa3-52a6-4b6f-b6ec-a1c4abcee83f
 title: Stratégie de métadonnées de photo System. GPS. altitude
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 003d39d135c625a01035c023b5d7dc8d890b3b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40a9209bfb0bbc1a4c6f95ce4a995d32d3f532c293dd2295c335eea61c22df89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441999"
 ---
 # <a name="systemgpsaltitude-photo-metadata-policy"></a>Stratégie de métadonnées de photo System. GPS. altitude
 
@@ -23,7 +23,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. GPS. altitu
 
 L’altitude est indiquée sous la forme d’une valeur absolue référencée en mètres.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -49,7 +49,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 6} |             |
 | 2     | /xmp/exif:GPSAltitude    |             |
@@ -62,7 +62,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                     | Format de disque |
+| Commande | Chemin                     | Format de disque |
 |-------|--------------------------|-------------|
 | 1     | /App1/IFD/GPS/{UShort = 6} |             |
 | 2     | /xmp/exif:GPSAltitude    |             |
@@ -75,7 +75,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                     |
+| Commande | Chemin                     |
 |-------|--------------------------|
 | 1     | /App1/IFD/GPS/{UShort = 6} |
 | 2     | /xmp/exif:gpsaltitude    |
@@ -90,7 +90,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 6}       |             |
 | 2     | /ifd/xmp/exif:GPSAltitude |             |
@@ -103,7 +103,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/GPS/{UShort = 6}       |             |
 | 2     | /ifd/xmp/exif:GPSAltitude |             |
@@ -116,7 +116,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
 
 
-| Commande | Chemin d’accès                      |     |
+| Commande | Chemin                      |     |
 |-------|---------------------------|-----|
 | 1     | /IFD/GPS/{UShort = 6}       |     |
 | 2     | /ifd/xmp/exif:gpsaltitude |     |
@@ -125,7 +125,7 @@ Cette valeur peut être écrite en écrivant dans System. GPS. altitude. numéra
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

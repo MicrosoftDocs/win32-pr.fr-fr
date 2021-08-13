@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e873019d6fbfb21de8be430d7960f697b39eeca7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f68dbeefefbe675199522dfbc5b1dab81b8a2840fa8b7d5189c72b811fcba7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900955"
 ---
 # <a name="qualifiers-object"></a>Qualificateurs, objet
 
@@ -46,17 +46,17 @@ L’objet **qualificateurs** possède ces propriétés.
 
 
 
-| Propriété                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
+| Property                                           | Type d’accès          | Description                                                                                                                                                                                                                     |
 |:---------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. Cette propriété est masquée dans Visual Basic Scripting Edition (VBScript).<br/> |
-| [**Saut**](qualifiers-count.md)<br/>       | Lecture seule<br/> | Récupère le nombre de qualificateurs dans la collection.<br/>                                                                                                                                                                |
+| [**\_NewEnum**](qualifiers-newenum.md)<br/> | Lecture seule<br/> | Récupère une interface [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) sur un objet qui peut être utilisé pour énumérer la collection. cette propriété est masquée dans Visual Basic scripting Edition (VBScript).<br/> |
+| [**Count**](qualifiers-count.md)<br/>       | Lecture seule<br/> | Récupère le nombre de qualificateurs dans la collection.<br/>                                                                                                                                                                |
 | [**Élément**](qualifiers-item.md)<br/>         | Lecture seule<br/> | Récupère un objet [**qualificateur**](qualifier.md) qui représente le qualificateur indexé de la collection. Il s’agit de la propriété par défaut.<br/>                                                                             |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Impossible de créer l’objet **qualificateurs** .
 
@@ -68,7 +68,7 @@ La propriété d’objet [**PolicyInformation. Qualifiers**](policyinformation-q
 
 | Condition requise | Valeur |
 |----------------------------|----------------------------------------------------------------------------------------|
-| Composant redistribuable<br/> | CAPICOM 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
+| Composant redistribuable<br/> | capicom 2,0 ou version ultérieure sur Windows Server 2003 et Windows XP<br/>                  |
 | En-tête<br/>          | <dl> <dt>IADs. h</dt> </dl>      |
 | DLL<br/>             | <dl> <dt>Capicom.dll</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 258ea139-581f-4b94-9655-43ecf1e77f10
 title: Composants WMContainer ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7d1c1b76683cfe01dc0970ab1c077580215d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c4d39edd9241a856d5ef854d91bc1198cb090ddf653960b19905407c28279a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736740"
 ---
 # <a name="wmcontainer-asf-components"></a>Composants WMContainer ASF
 
@@ -28,7 +28,7 @@ La couche WMContainer comprend les objets suivants :
 Les rubriques suivantes contiennent des instructions pas à pas sur l’utilisation de WMContainer pour lire ou écrire des fichiers ASF.
 
 -   [Didacticiel : lecture d’un fichier ASF à l’aide d’objets WMContainer](tutorial--reading-an-asf-file.md)
--   [Didacticiel : copie de flux ASF à l’aide d’objets WMContainer](tutorial--copying-asf-streams-from-one-file-to-another.md)
+-   [didacticiel : copie de Flux ASF à l’aide d’objets WMContainer](tutorial--copying-asf-streams-from-one-file-to-another.md)
 -   [Didacticiel : écriture d’un fichier WMA à l’aide d’objets WMContainer](tutorial--writing-a-wma-file-by-using-cbr-encoding.md)
 
 ## <a name="about-wm-container"></a>À propos du conteneur WM

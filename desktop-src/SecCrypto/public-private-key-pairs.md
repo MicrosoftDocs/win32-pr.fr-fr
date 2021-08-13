@@ -4,12 +4,12 @@ ms.assetid: f75e5e6c-0a84-47ac-97db-5063327f7931
 title: Clés asymétriques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73c475b1d0260bd20495d28ab542ca18c0d1cefa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 374ba5ae17610154e306f7bdafd895116e83371ea446babfa19b5c92c29a2247
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103759628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901471"
 ---
 # <a name="asymmetric-keys"></a>Clés asymétriques
 
@@ -27,7 +27,7 @@ Chaque utilisateur a généralement deux [*paires de clés publique/privée*](..
 
 Notez que bien que les conteneurs de clés créés par la plupart des [*fournisseurs de services de chiffrement*](../secgloss/c-gly.md) (CSP) contiennent deux paires de clés, ce n’est pas obligatoire. Certains fournisseurs de services de chiffrement ne stockent aucune [*paire de clés*](../secgloss/k-gly.md) , tandis que d’autres fournisseurs stockent plus de deux paires.
 
-Toutes les clés dans CryptoAPI sont stockées dans des fournisseurs de services de chiffrement. Les fournisseurs de services de chiffrement sont également chargés de créer les clés, de les détruire et de les utiliser pour effectuer diverses opérations de chiffrement. L’exportation de clés hors du CSP afin qu’elles puissent être envoyées à d’autres utilisateurs est décrite dans [stockage de clé de chiffrement et Exchange](cryptographic-key-storage-and-exchange.md).
+Toutes les clés dans CryptoAPI sont stockées dans des fournisseurs de services de chiffrement. Les fournisseurs de services de chiffrement sont également chargés de créer les clés, de les détruire et de les utiliser pour effectuer diverses opérations de chiffrement. l’exportation de clés à partir du CSP afin qu’elles puissent être envoyées à d’autres utilisateurs est décrite dans [Stockage de clé de chiffrement et Exchange](cryptographic-key-storage-and-exchange.md).
 
  
 

@@ -14,17 +14,17 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11902821ec9fdbbaa9ab8d3fda8971f42fc28c1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd98a439daeadfd2af6135c1519aea8f981f94394ac68efe142a64037e70a25f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106541503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753393"
 ---
 # <a name="previewdisplaystyle-enumeration"></a>Énumération PreviewDisplayStyle
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 Utilisé par [**IResultsViewer ::P reviewstyle**](-search-2x-iresultsviewer-previewstyle.md) pour définir ou déterminer le style d’affichage en cours d’utilisation.
 

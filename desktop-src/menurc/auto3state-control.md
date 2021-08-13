@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de184a639de7beee7ac05bdf63609ae29a0f034b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 318d43f0b6d8a16d6e76ae3d12f934e41e265197690a955cfe148dd71176f440
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735211"
 ---
 # <a name="auto3state-control"></a>Contrôle AUTO3STATE
 
@@ -62,6 +62,6 @@ Pour plus d’informations sur la syntaxe générale d’une instruction de cont
 [Styles de fenêtre](/windows/desktop/winmsg/window-styles)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
