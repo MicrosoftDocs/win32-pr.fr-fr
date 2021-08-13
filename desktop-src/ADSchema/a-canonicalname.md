@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 487476271456fa0465e8d47791f5376f33617eb9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 09d88b31dd351e255c252188388bd1ba06b3a1c073163f5cd2cc9d2deac16a74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119307189"
 ---
 # <a name="canonical-name-attribute"></a>Attribut Canonical-Name
 
@@ -48,7 +48,7 @@ Pour plus d’informations sur les formats de noms, consultez [**DsCrackNames**]
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

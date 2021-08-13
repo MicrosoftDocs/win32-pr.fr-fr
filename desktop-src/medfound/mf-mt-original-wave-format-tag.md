@@ -4,12 +4,12 @@ ms.assetid: 2b30a1c2-4a42-4b09-acb6-b76267cc7ed0
 title: Attribut MF_MT_ORIGINAL_WAVE_FORMAT_TAG (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba89171f9ae2bf3ab99df05bd3ae64b7d52be6d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a89f05086858f54c619e3896f5978cf81005e9b1e80e858bc89c71e951ab48b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106535625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741664"
 ---
 # <a name="mf_mt_original_wave_format_tag-attribute"></a>\_Attribut de \_ \_ \_ balise de format Wave d’origine MF MT \_
 
@@ -29,7 +29,7 @@ Pour définir cet attribut, appelez [**IMFAttributes :: SetUINT32**](/windows/d
 
 [**IMFMediaType**](/windows/desktop/api/mfobjects/nn-mfobjects-imfmediatype)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En fonction du fichier source, la source du média AVI peut définir cet attribut sur les types de médias qu’elle propose.
 
@@ -49,8 +49,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                            |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                         |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                            |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

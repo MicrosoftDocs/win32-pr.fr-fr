@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: cf84d2e7943dfe6da88f81ef6963190553f028e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 24526d7743b1f4939f2240c751f7da2bfecfacfe13d2ddf3cbc7fdd73c1d260e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321639"
 ---
 # <a name="cim_deviceaccessedbyfile-class"></a>\_Classe CIM DeviceAccessedByFile
 
@@ -89,7 +89,7 @@ Qualificateurs : [**Max**](/windows/desktop/WmiSdk/standard-qualifiers) (1), [*
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

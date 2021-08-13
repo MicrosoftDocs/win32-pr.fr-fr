@@ -5,12 +5,12 @@ ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 3a50a6e3ab421e2275644051ed647d5c4501f8e0
-ms.sourcegitcommit: 015fb35e736a235d3c9becff1f6832a0965b4303
+ms.openlocfilehash: 0c9223eb561ecc391014bc4a89c86a634181bec6d1e3917866aeef2723f1510a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259532"
 ---
 # <a name="how-to-create-a-linear-gradient-brush"></a>Comment créer un pinceau de dégradé linéaire
 
@@ -29,7 +29,7 @@ Le code génère la sortie illustrée dans l’illustration suivante.
 
 2.  Utilisez la méthode [**ID2D1RenderTarget :: CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection)) pour créer la collection [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) avec un tableau déclaré de structures de [**\_ \_ point de dégradé d2d1**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop) , comme indiqué dans le code suivant.
     > [!Note]  
-    > À compter de Windows 8, vous pouvez utiliser la méthode [**ID2D1DeviceContext :: CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) pour créer une collection [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) à la place. Cette interface ajoute des dégradés de haute couleur et l’interpolation des dégradés dans les couleurs droites ou prmultiplied. Pour plus d’informations, consultez la page **ID2DDeviceContext :: CreateGradientStopCollection** .
+    > à partir de Windows 8, vous pouvez utiliser la méthode [**ID2D1DeviceContext :: CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) pour créer une collection [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) à la place. Cette interface ajoute des dégradés de haute couleur et l’interpolation des dégradés dans les couleurs droites ou prmultiplied. Pour plus d’informations, consultez la page **ID2DDeviceContext :: CreateGradientStopCollection** .
 
      
 

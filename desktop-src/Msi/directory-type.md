@@ -4,18 +4,18 @@ ms.assetid: b5a0ed38-1dda-4c33-9429-0cbe87e13aef
 title: Type de répertoire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e3ba336dd5de7cd45ef9215f0397ba51ce544d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c784ea91ceb9baaeb2c97883cace0266a146d80634ec07f5e25f0b01ac057c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251799"
 ---
 # <a name="directory-type"></a>Type de répertoire
 
 Le type de répertoire de [type sémantique](semantic-types.md) est l’un des [types de format de clé](key-format-types.md), qui se compose d’une clé étrangère dans la table de [répertoires](directory-table.md) fournie par l’utilisateur.
 
-L’outil de fusion doit substituer un [identificateur](identifier.md) de Windows Installer valide pour les éléments de ce type. Mergemod.dll n’applique pas cette restriction et c’est à l’outil de fusion de s’assurer que l’utilisateur fournit une clé valide dans la table de répertoires.
+l’outil de fusion doit substituer un [identificateur](identifier.md) de Windows Installer valide pour les éléments de ce type. Mergemod.dll n’applique pas cette restriction et c’est à l’outil de fusion de s’assurer que l’utilisateur fournit une clé valide dans la table de répertoires.
 
 Un élément configurable du type de répertoire doit uniquement modifier le répertoire de destination de l’installation et ne pas modifier l’image source. Un élément configurable de ce type doit donc uniquement modifier les clés étrangères de la table de répertoires et ne pas modifier directement la table de répertoires.
 

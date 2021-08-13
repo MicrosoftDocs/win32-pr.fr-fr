@@ -4,12 +4,12 @@ description: Les fonctions de système de fichiers DFS (DFS) offrent la possibil
 ms.assetid: a29cde3e-483a-4658-94d4-27398f66abfb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73738d4f503d10e7668f0f323583f49604e3a90d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 898d44ecfaeb99145570230e49156440dc9e2aac02051baa47bb496a0f58b2b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119380579"
 ---
 # <a name="distributed-file-system-dfs-functions"></a>Fonctions de système de fichiers DFS (DFS)
 
@@ -34,6 +34,6 @@ Pour obtenir la liste des fonctions DFS, consultez [système de fichiers DFS Fun
 
 Pour obtenir la liste des structures DFS, consultez [système de fichiers DFS structures](distributed-file-system-structures.md).
 
-Les cibles sur les ordinateurs qui exécutent Microsoft Windows peuvent être publiées dans un espace de noms DFS. Vous pouvez également publier les partages non Microsoft pour lesquels les redirecteurs clients sont disponibles dans un espace de noms DFS. Toutefois, contrairement à un partage qui est publié sur un serveur qui exécute Windows Server, il ne peut pas héberger de racine DFS ou fournir des références à d’autres cibles DFS.
+les cibles sur les ordinateurs qui exécutent Microsoft Windows peuvent être publiées dans un espace de noms DFS. Vous pouvez également publier les partages non Microsoft pour lesquels les redirecteurs clients sont disponibles dans un espace de noms DFS. toutefois, contrairement à un partage qui est publié sur un serveur qui exécute Windows server, il ne peut pas héberger de racine dfs ou fournir des références à d’autres cibles dfs.
 
-DFS utilise le service de réplication de fichiers de Windows Server pour copier les modifications entre les cibles répliquées. Les utilisateurs peuvent modifier des fichiers stockés sur une cible et le service de réplication de fichiers propage les modifications vers les autres cibles désignées. Le service conserve la modification la plus récente apportée à un document ou à des fichiers.
+DFS utilise le service de réplication de fichiers Windows Server pour copier les modifications entre les cibles répliquées. Les utilisateurs peuvent modifier des fichiers stockés sur une cible et le service de réplication de fichiers propage les modifications vers les autres cibles désignées. Le service conserve la modification la plus récente apportée à un document ou à des fichiers.

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0ad8b4cefe0b368cbf81de4ddc030f32cda8fb17
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f7d3afe8155eb33a37b30abcfc96aae83c0a96461c1ee2dd6118a671701cfed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800318"
 ---
 # <a name="id3dxtexturegutterhelperresampletex-method"></a>ID3DXTextureGutterHelper :: ResampleTex, méthode
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un paramétrage dans le cas de cette fonction est un ensemble de coordonnées de texture qui mappe les triangles d’une maille aux triangles d’une texture. Le nouveau paramétrage est l’ensemble des coordonnées de texture contenues dans l’interface d’assistance de reliure, et le paramétrage d’origine est l’ensemble des coordonnées de texture contenues dans le maillage d’entrée.
 

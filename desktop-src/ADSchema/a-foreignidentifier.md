@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8feed48410e1bfbd09d0926e2a16a0fb7f94235b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f6c2c73beda34f02594bc8de770efb672772221839fe567f07651c2c42170abc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119306909"
 ---
 # <a name="foreign-identifier-attribute"></a>Attribut Foreign-Identifier
 
@@ -45,7 +45,7 @@ Propriétés de sécurité utilisées par un système étranger.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: f56419f8-7f50-4eda-bf4a-fcdbbe46e180
 title: Événement MESessionStreamSinkFormatChanged (Mfobjects. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bed59b9600cbaf8cb942a42beb6bed46d62fc15f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f08d086d5966e0fc1f6ce4b4b3d639b40d795a4e05799f3928f61afa9abddf4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268589"
 ---
 # <a name="mesessionstreamsinkformatchanged-event"></a>Événement MESessionStreamSinkFormatChanged
 
@@ -45,8 +45,8 @@ Les attributs suivants sont définis pour cet événement.
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Mfobjects. h (inclure Mfidl. h)</dt> </dl> |
 
 

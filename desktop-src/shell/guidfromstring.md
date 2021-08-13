@@ -17,12 +17,12 @@ api_location:
 - Shell32.dll
 - API-MS-Win-shlwapi-ie-l1-1-0.dll
 - shlwapi.dll
-ms.openlocfilehash: a29a2138f4bcc7435a0d7864f65dd60ab16519c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38dd6d6365c3b306e63634fee02ac7add07b1bf262598efc88ffec2595e14c82
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351059"
 ---
 # <a name="guidfromstring-function"></a>Fonction GUIDFromString
 
@@ -72,19 +72,19 @@ Type : **bool**
 
 **True** si le GUID a été créé avec succès ; Sinon, **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette fonction n’est pas déclarée dans un en-tête ou exportée par nom à partir d’un fichier. dll. Elle doit être chargée à partir de Shell32.dll en tant qu’ordinal 703 pour **GUIDFromStringA** et ordinal 704 pour **GUIDFromStringW**.
+Cette fonction n’est pas déclarée dans un en-tête ou exportée par nom à partir d’un fichier .dll. Elle doit être chargée à partir de Shell32.dll en tant qu’ordinal 703 pour **GUIDFromStringA** et ordinal 704 pour **GUIDFromStringW**.
 
 Elle est également accessible à partir de Shlwapi.dll en tant qu’ordinal 269 pour **GUIDFromStringA** et ordinal 270 pour **GUIDFromStringW**.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                            |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                            |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Shell32.dll</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **GUIDFromStringW** (Unicode) et **GUIDFromStringA** (ANSI)<br/>                |

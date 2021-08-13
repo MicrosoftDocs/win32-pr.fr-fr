@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8d6adf90de2f3b199f98737996fe732f342787b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 32b91557d812888d9bb6e970be37703537bb3d7645c8a0422df19d5d5fe37a5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401963"
 ---
 # <a name="startboundary-triggerbasetype-element"></a>Élément StartBoundary (triggerBaseType)
 
@@ -48,7 +48,7 @@ L’élément **StartBoundary** est défini par le type complexe [**triggerBaseT
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L' **<StartBoundary>** élément est un élément requis pour les déclencheurs de temps et de calendrier ( [**<TimeTrigger>**](taskschedulerschema-timetrigger-triggergroup-element.md) et [**<CalendarTrigger>**](taskschedulerschema-calendartrigger-triggergroup-element.md) ).
 
@@ -80,8 +80,8 @@ Le code XML suivant définit un élément de déclencheur de démarrage qui déf
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

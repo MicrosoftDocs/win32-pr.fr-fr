@@ -4,12 +4,12 @@ ms.assetid: 58083bc8-59cc-4503-8fae-36fcd864921a
 title: Attribut MF_SESSION_APPROX_EVENT_OCCURRENCE_TIME (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a31b1970c2c9d86384c12c50777a8cee55e3ffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce6cbaa7d12cebe14b015c4d568b36b081930ef4b302797dba76fc728e92cf01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740023"
 ---
 # <a name="mf_session_approx_event_occurrence_time-attribute"></a>\_ \_ \_ \_ \_ Attribut heure d’occurrence de l’événement de session MF
 
@@ -21,7 +21,7 @@ Heure approximative à laquelle la session multimédia a déclenché un événem
 
 Traiter en tant que valeur **LongLong** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Certains événements de la session multimédia ont cet attribut. La valeur donne l’heure de la présentation approximative lorsque l’événement a été déclenché.
 
@@ -35,8 +35,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 01d616ff-e1e4-4cad-9145-c01181e4f8b8
 title: Propriété AVEncMPVGenerateHeaderPicDispExt (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b064082895f890d2c68174f55ed7c03107f78cac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2ff031a60c9e1dfd2b6ef59da0241f14386c063104974be8b85b9b1a0e620d3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104392755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276179"
 ---
 # <a name="avencmpvgenerateheaderpicdispext-property"></a>Propriété AVEncMPVGenerateHeaderPicDispExt
 
@@ -25,7 +25,7 @@ Cette propriété est en lecture/écriture.
 
 **CODECAPI \_ AVEncMPVGenerateHeaderPicDispExt**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la valeur est **\_ true**, l’encodeur génère des en-têtes d’extension d’affichage d’image.
 
@@ -35,8 +35,8 @@ Si la valeur est **\_ true**, l’encodeur génère des en-têtes d’extension 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

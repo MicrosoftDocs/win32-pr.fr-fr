@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e36f0ea58c99930d4c6c2e0929f27a43184c6be
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 2c674791418a7668d7c7597e951e9a89613b9c8150865ff123263e9d0ef9ded2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106539172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119330439"
 ---
 # <a name="fourccmapfourccmap-constructor-fourcch---pguid-parameter"></a>FOURCCMap :: FOURCCMap, constructeur (FourCC. h)-paramètre pguid
 
@@ -49,7 +49,7 @@ Pointeur vers l’identificateur global unique (**GUID**).
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si cet objet est construit avec le code **FourCC** , un **GUID** est créé pour le faire correspondre. Si cet objet est créé avec un **GUID** existant, la valeur **FourCC** de l’objet est définie sur zéro. Par la suite, la valeur **FourCC** peut être définie ou récupérée à l’aide des fonctions membres [**SetFOURCC**](fourccmap-setfourcc.md) et [**GetFOURCC**](fourccmap-getfourcc.md) , respectivement.
 
@@ -57,7 +57,7 @@ Si cet objet est construit avec le code **FourCC** , un **GUID** est créé pour
 
 | Condition requise | Valeur |
 |-|-|
-| En-tête  | FourCC. h (include streams. h) |
+| En-tête  | Fourcc. h (inclure Flux. h) |
 | Bibliothèque | Strmbase. lib (versions commerciales); Strmbasd. lib (versions Debug) |
 
 ## <a name="see-also"></a>Voir aussi

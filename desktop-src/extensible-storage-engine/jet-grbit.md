@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b050aaa844ea814c0c24a62ccfb5ab332c611107
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 2b54ed8a95d81c148b68727384dd76fba3d2dc8b1f9d6452c2105bc45f015646
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106535846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119362279"
 ---
 # <a name="jet_grbit"></a>JET_GRBIT
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jet_grbit"></a>JET_GRBIT
 
@@ -43,7 +43,7 @@ En général, les constantes utilisées comme valeurs pour ce type de données r
 
 La valeur zéro provoque l’ignorance du paramètre.
 
-### <a name="remarks"></a>Notes
+### <a name="remarks"></a>Remarques
 
 Pour plus d’informations, consultez la fonction ou la structure spécifique. Les options sont généralement transmises sous la forme d’un ensemble d’indicateurs qui peuvent être combinés.
 
@@ -57,11 +57,11 @@ Pour plus d’informations, consultez la fonction ou la structure spécifique. L
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>

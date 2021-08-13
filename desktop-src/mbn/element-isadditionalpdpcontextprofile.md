@@ -7,12 +7,12 @@ MSHAttr:
 title: IsAdditionalPdpContextProfile
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 169aa9a34a561f65eed5dfc315e7711ef6bb9bf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a075916144971196433d1a490a9076c4d40ddb86b363d2904d1affce63a5995
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745121"
 ---
 # <a name="span-idwwan_profile_v3element_isadditionalpdpcontextprofilespanisadditionalpdpcontextprofile"></a><span id="WWAN_profile_v3.element_IsAdditionalPdpContextProfile"></span>IsAdditionalPdpContextProfile
 
@@ -43,11 +43,11 @@ Notez que si cet élément a la valeur true, les éléments suivants doivent ég
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucune.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucune.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

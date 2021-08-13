@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ksecdd.sys
 - Cng.sys
-ms.openlocfilehash: d847d34ffd11e158170f55599de0ceb3acf3c697
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eae1a46b43278c836ff6ce318dfdce7302bb0e052664a7326f9043a60eec72d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118905628"
 ---
 # <a name="systemprng-function"></a>SystemPrng fonction)
 
@@ -73,8 +73,8 @@ Retourne toujours la **valeur true**.
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows Vista avec les \[ applications de bureau SP1 uniquement\]<br/>                                                                                                                                                                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                                                                                                           |
-| DLL<br/>                      | <dl> <dt>Ksecdd.sys sur Windows Server 2008 et Windows Vista avec SP1 ; </dt> <dt>Cng.sys sur Windows 7 et Windows Server 2008 R2</dt> </dl> |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                                                                                                           |
+| DLL<br/>                      | <dl> <dt>Ksecdd.sys sur Windows Server 2008 et Windows Vista avec SP1 ;</dt> <dt>Cng.sys sur Windows 7 et Windows Server 2008 R2</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 7f8f278a-a737-4116-9938-2850dbb611fa
 title: Table RadioButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 097f8fbe3081c865e3668631ed0fa9d43a4488cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ffc91ece6b5c71cd6ba46143f33e49b90b0278139d194a218a2fddb797bb55a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381049"
 ---
 # <a name="radiobutton-table"></a>Table RadioButton
 
@@ -102,7 +102,7 @@ Chaînes d’aide utilisées avec le bouton. Le texte est facultatif et peut êt
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs entières de x, y, Width et Height se trouvent dans les [unités d’installation](installer-units.md), et non dans les unités de boîte de dialogue. Une unité d’installation est égale à 1 douzième la hauteur de la taille de police MS sans serif à 10 points. Les coordonnées des contrôles sont relatives au panneau.
 

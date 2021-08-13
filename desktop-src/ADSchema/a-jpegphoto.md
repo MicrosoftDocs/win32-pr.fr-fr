@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc8f7a9eb8ec1cee8d7ebede5d0e00dbe52e8b9b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 57ec57defb8bea779b43e27e5bd63cc03c68976b7a192e1f96d0faa5393ee93e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106509140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119303899"
 ---
 # <a name="jpegphoto-attribute"></a>attribut jpegPhoto
 
@@ -43,7 +43,7 @@ Utilisé pour stocker une ou plusieurs images d’une personne à l’aide du fo
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

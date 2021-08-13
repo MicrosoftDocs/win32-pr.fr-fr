@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 44060041bfb9368a8df0509ed72337aacfe3bc8b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3dd1c79d2b9738f5d99ec735c77a8b30b0b20b747e2604064466aff47890e892
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104394056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373159"
 ---
 # <a name="id3dxanimationcontrollergetmaxnumanimationoutputs-method"></a>ID3DXAnimationController :: GetMaxNumAnimationOutputs, méthode
 

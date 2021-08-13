@@ -5,24 +5,24 @@ ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: aeb6ba9427a04f7a251a1d59062be508e4249b41
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: e8ee83911cc7be1ab6e611a735a7a5b3a7397c472b78e3192468d2e323ed0c4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104530411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119331741"
 ---
 # <a name="block-compression"></a>Compression de blocs
 
-À partir de Windows 8.1, Direct2D prend en charge plusieurs formats de pixel compressés en bloc. En outre, Windows 8.1 contient un nouveau codec Windows Imaging Component (WIC) DDS pour permettre le chargement et le stockage d’images compressées de bloc dans le format de fichier DDS. La compression de bloc est une technique permettant de réduire la quantité de mémoire graphique consommée par le contenu de la bitmap. En utilisant la compression de bloc, votre application peut réduire la consommation de mémoire et les temps de chargement pour les mêmes images de résolution. Ou bien, votre application peut utiliser des images de résolution plus ou moins importantes tout en conservant le même encombrement mémoire GPU.
+à partir de Windows 8.1, Direct2D prend en charge plusieurs formats de pixel compressés en bloc. en outre, Windows 8.1 contient un nouveau codec DDS (Windows Imaging Component) pour permettre le chargement et le stockage d’images compressées de bloc dans le format de fichier DDS. La compression de bloc est une technique permettant de réduire la quantité de mémoire graphique consommée par le contenu de la bitmap. En utilisant la compression de bloc, votre application peut réduire la consommation de mémoire et les temps de chargement pour les mêmes images de résolution. Ou bien, votre application peut utiliser des images de résolution plus ou moins importantes tout en conservant le même encombrement mémoire GPU.
 
-La compression de bloc a été utilisée par les applications Direct3D depuis longtemps, et avec Windows 8.1 est également disponible pour les développeurs d’applications standard et Direct2D.
+la compression de bloc a été utilisée par les applications Direct3D depuis longtemps, et avec Windows 8.1 est également disponible pour les développeurs d’applications standard et Direct2D.
 
 Cette rubrique décrit le fonctionnement de la compression de bloc et comment l’utiliser dans WIC et Direct2D.
 
 ## <a name="about-block-compression"></a>À propos de la compression de bloc
 
-La [compression de bloc](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression) (BC) fait référence à une classe de techniques de compression pour réduire la taille des textures. Direct3D 11 prend en charge jusqu’à 7 formats BC différents en fonction du niveau de fonctionnalité. Dans Windows 8.1 Direct2D introduit la prise en charge des formats BC1, BC2 et BC3 qui sont disponibles dans tous les niveaux de fonctionnalité.
+La [compression de bloc](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-block-compression) (BC) fait référence à une classe de techniques de compression pour réduire la taille des textures. Direct3D 11 prend en charge jusqu’à 7 formats BC différents en fonction du niveau de fonctionnalité. dans Windows 8.1 Direct2D introduit la prise en charge des formats BC1, BC2 et BC3 qui sont disponibles dans tous les niveaux de fonctionnalité.
 
 ### <a name="how-block-compression-works"></a>Fonctionnement de la compression de bloc
 
@@ -99,7 +99,7 @@ Le format de fichier DDS a été conçu pour prendre en charge un large éventai
 
 Il existe un large éventail d’outils de création de DDS disponibles pour créer ou convertir des fichiers DDS compressés par blocs. Remarque tous les outils ne prennent pas en charge la configuration requise pour l’utilisation de fichiers DDS avec Direct2D, comme détaillé dans la section précédente.
 
-À partir de Visual Studio 2013, vous pouvez faire en sorte que Visual Studio convertisse les ressources visuelles existantes, telles que JPEG et PNG, au format compressé de bloc DDS comme faisant partie intégrante de votre processus de génération. Pour ce faire, utilisez l’étape de génération personnalisée de la tâche de contenu d’image.
+à partir de Visual Studio 2013, vous pouvez avoir des Visual Studio convertir des ressources visuelles existantes, telles que JPEG et PNG, au format compressé de bloc DDS approprié comme partie automatique de votre processus de génération. Pour ce faire, utilisez l’étape de génération personnalisée de la tâche de contenu d’image.
 
 Pour plus d’informations sur la configuration de ce pour votre projet, consultez : [Comment : exporter une texture pour une utilisation avec des applications Direct2D ou Direct2D](/previous-versions/visualstudio/visual-studio-2013/dn392693(v=vs.120)).
 
@@ -113,7 +113,7 @@ Direct2D est mis à jour dans Windows 8.1 pour prendre en charge les formats de 
 
 Pour les formats précédents, vous devez utiliser l’alpha prémultiplié. En outre, ces formats ne sont valides que pour une utilisation en tant que source, et non comme cible. Par exemple, cela signifie que vous pouvez créer un bitmap Direct2D à l’aide de BC1, mais pas d’un contexte de périphérique.
 
-Les méthodes suivantes sont mises à jour dans Windows 8.1 pour prendre en charge les formats BC :
+les méthodes suivantes sont mises à jour dans Windows 8.1 pour prendre en charge les formats BC :
 
 -   [**ID2D1DeviceContext :: IsDxgiFormatSupported**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-isdxgiformatsupported)
 -   [**ID2D1DeviceContext :: CreateBitmap**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmap(d2d1_size_u_constvoid_uint32_constd2d1_bitmap_properties1__id2d1bitmap1))
@@ -124,11 +124,11 @@ Les méthodes suivantes sont mises à jour dans Windows 8.1 pour prendre en char
 -   [**ID2D1Bitmap::CopyFromBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap)
 -   [**ID2D1Bitmap1::GetSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getsurface)
 
-Notez que [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) prend [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) en tant qu’interface ; Toutefois, dans Windows 8.1 WIC ne prend pas en charge l’obtention de données de bloc compressées à partir de **IWICBitmapSource**, et il n’existe aucun format de pixel WIC correspondant au \_ format dxgi \_ BC1 \_ UNORM, etc. Au lieu de cela, **CreateBitmapFromWicBitmap** détermine si le **IWICBITMAPSOURCE** est un DDS [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) valide et charge directement les données compressées du bloc. Vous pouvez soit spécifier explicitement le format de pixel dans le struct [**d2d1 \_ bitmap \_ PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) , soit autoriser Direct2D à déterminer automatiquement le format correct.
+Notez que [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) prend [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) en tant qu’interface ; toutefois, dans Windows 8.1 WIC ne prend pas en charge l’obtention de données de bloc compressées à partir de **IWICBitmapSource**, et il n’existe aucun format de pixel WIC correspondant au \_ format DXGI \_ BC1 \_ UNORM, etc. Au lieu de cela, **CreateBitmapFromWicBitmap** détermine si le **IWICBITMAPSOURCE** est un DDS [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) valide et charge directement les données compressées du bloc. Vous pouvez soit spécifier explicitement le format de pixel dans le struct [**d2d1 \_ bitmap \_ PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) , soit autoriser Direct2D à déterminer automatiquement le format correct.
 
-### <a name="windows-imaging-component-apis"></a>API du composant de création d’images Windows
+### <a name="windows-imaging-component-apis"></a>Windows API du composant de création d’images
 
-Le composant WIC (Windows Imaging Component) ajoute un nouveau codec DDS dans Windows 8.1. En outre, il ajoute de nouvelles interfaces qui prennent en charge l’accès aux données spécifiques à DDS, y compris les données de pixels compressées de bloc :
+le composant WIC (Windows Imaging Component) ajoute un nouveau codec DDS dans Windows 8.1. En outre, il ajoute de nouvelles interfaces qui prennent en charge l’accès aux données spécifiques à DDS, y compris les données de pixels compressées de bloc :
 
 -   [**IWICDdsDecoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicddsdecoder)
 -   [**IWICDdsEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicddsencoder)

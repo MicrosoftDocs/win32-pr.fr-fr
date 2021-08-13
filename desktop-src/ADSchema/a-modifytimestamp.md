@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c032d19c3bd2bf5a6ee0cfe038e9fa9b184d36
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dc32a0142d47f842429c3bf67d766ec708b7fc42b9f3285ee360ce3789c1a84f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103744340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300369"
 ---
 # <a name="modify-time-stamp-attribute"></a>Attribut de date et d’heure de modification
 
@@ -46,7 +46,7 @@ Attribut calculé qui représente la date de la dernière modification de cet ob
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

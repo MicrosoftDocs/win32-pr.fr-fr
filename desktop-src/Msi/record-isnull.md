@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 027d5f818b63ca1883034ae0dfc12b46ef47b005
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f2235e3ec33d62fccc385e5f0d83cf5222b031cc8fe3950269b81df669f4319
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119212089"
 ---
 # <a name="recordisnull-property"></a>Record. IsNull, propriété
 

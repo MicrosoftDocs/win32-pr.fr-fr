@@ -4,12 +4,12 @@ ms.assetid: 7667da66-261c-4627-8322-2c939738659b
 title: System. Video. TotalBitrate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89af8e54051c8c6b1c5a2a2408f7bb24a6ae2a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e02616f2961af961f44875dfa28edda9b3beb15c585908727ebebbdd5a6b7e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396621"
 ---
 # <a name="systemvideototalbitrate"></a>System. Video. TotalBitrate
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

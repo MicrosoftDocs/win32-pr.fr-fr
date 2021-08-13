@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: b091b47d14929e155548dc057ef0fdb1731133a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0736288658c57c1cfd346b8337f91353638b8326ed1d0b29687c812db72efba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350879"
 ---
 # <a name="iinkanalysisrecognizer-interface"></a>Interface IInkAnalysisRecognizer
 
@@ -49,7 +49,7 @@ L’interface **IInkAnalysisRecognizer** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un module de reconnaissance possède des attributs et des propriétés spécifiques qui lui permettent d’effectuer la reconnaissance. Les propriétés d’un module de reconnaissance doivent être déterminées avant que la reconnaissance ne se produise. Les types de propriétés qu’un module de reconnaissance prend en charge déterminent les types de reconnaissance qu’il peut effectuer. Par exemple, si un module de reconnaissance ne prend pas en charge l’écriture cursive, il renvoie des résultats inexacts lorsqu’un utilisateur écrit en cursive.
 
@@ -63,7 +63,7 @@ Le [**IInkAnalyzer**](iinkanalyzer.md) gère une liste des module de reconnaissa
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>IACom. h (nécessite également IACom \_ i. c)</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

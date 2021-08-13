@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15077dc3d24f4418085b0afe4b8ed65e727acd3d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 797fee8c35c4f5823de400fdffe096a676659118a629beff29a3e59054509fa2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301459"
 ---
 # <a name="machine-architecture-attribute"></a>Attribut Machine-Architecture
 
@@ -36,7 +36,7 @@ Contient la liste des processeurs matériels pris en charge par une application 
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.68                |
 | System-ID-GUID    | bf9679af-0de6-11d0-a285-00aa003049e2 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Contient la liste des processeurs matériels pris en charge par une application 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

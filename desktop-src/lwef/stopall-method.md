@@ -4,12 +4,12 @@ description: StopAll, méthode
 ms.assetid: 2ce32ff8-4908-45b1-9b83-4d558f67417c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76c99a687c2481d9686e84b7fa5c198e7a4273a2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b138be6ea75135d5ddefdea9e1e5cc120d875ae092478ad3147332720e5a0907
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106510253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745941"
 ---
 # <a name="stopall-method"></a>StopAll, méthode
 
@@ -27,13 +27,13 @@ Arrête toutes les demandes d’animation ou les types de demandes spécifiés p
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »). StopAll*, *  \[ *type*\]
+*agent ***. Caractères («**_CharacterID_*_»). StopAll_, *  \[ *type*\]
 
 
 
 | Partie   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |--------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Type* | Optionnel. Pour utiliser ce paramètre, vous pouvez utiliser l’une des valeurs suivantes. Vous pouvez également spécifier plusieurs types en les séparant par des virgules. <br/> «**Récupérer**» <br/> Pour arrêter toutes les demandes d' [**extraction**](get-method.md) mises en file d’attente.<br/> «**NonQueuedGet**» <br/> Pour arrêter toutes les demandes d' [**extraction**](get-method.md) non mises en file d’attente (la méthode d'**extraction** avec le paramètre de **file d’attente** a la valeur **false**).<br/> «**Déplacer**» <br/> Pour arrêter toutes les demandes [**MoveTo**](moveto-method.md) mises en file d’attente.<br/> «**Lecture**» <br/> Pour arrêter toutes les demandes de [**lecture**](play-method.md) mises en file d’attente.<br/> «**Speak**» <br/> Pour arrêter toutes les demandes [**Speak**](speak-method.md) mises en file d’attente.<br/> |
+| *Type* | Facultatif. Pour utiliser ce paramètre, vous pouvez utiliser l’une des valeurs suivantes. Vous pouvez également spécifier plusieurs types en les séparant par des virgules. <br/> «**Récupérer**» <br/> Pour arrêter toutes les demandes d' [**extraction**](get-method.md) mises en file d’attente.<br/> «**NonQueuedGet**» <br/> Pour arrêter toutes les demandes d' [**extraction**](get-method.md) non mises en file d’attente (la méthode d'**extraction** avec le paramètre de **file d’attente** a la valeur **false**).<br/> «**Déplacer**» <br/> Pour arrêter toutes les demandes [**MoveTo**](moveto-method.md) mises en file d’attente.<br/> «**Lecture**» <br/> Pour arrêter toutes les demandes de [**lecture**](play-method.md) mises en file d’attente.<br/> «**Speak**» <br/> Pour arrêter toutes les demandes [**Speak**](speak-method.md) mises en file d’attente.<br/> |
 
 
 
@@ -41,7 +41,7 @@ Arrête toutes les demandes d’animation ou les types de demandes spécifiés p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous ne définissez pas le paramètre de **type** , le serveur arrête toutes les animations pour le caractère, y compris les demandes d' [**extraction**](get-method.md) mises en file d’attente et non mises en file d’attente, et efface sa file d’attente d’animation. Elle arrête également la diffusion d’un caractère masqué ou présentant une animation.
 

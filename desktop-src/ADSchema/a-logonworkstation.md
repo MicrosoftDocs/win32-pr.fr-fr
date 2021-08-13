@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42e24af682cbf7932ed0f13e9e9748b7028c131b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ee0ccca5c8f29fe2b307429a5f3b1fbaad8961df0a5e87ea7dc44754c248390c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104393935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301549"
 ---
 # <a name="logon-workstation-attribute"></a>Attribut Logon-Workstation
 
@@ -45,7 +45,7 @@ Cet attribut n’est pas utilisé. Consultez l’attribut [**User-stations de tr
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a7a93b0a7d225a25273a2ab4f8bf1d24656b6ee1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1d6c361a7ad16216d686ab71747354a9b1ba3184d88759ed1e994c152c7b3636
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103727853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791725"
 ---
 # <a name="length"></a>length
 
@@ -56,7 +56,7 @@ Scalaire à virgule flottante qui représente la longueur du paramètre *x* .
 | Nom  | [**Type de modèle**](dx-graphics-hlsl-intrinsic-functions.md)                       | [**Type de composant**](dx-graphics-hlsl-intrinsic-functions.md) | Taille |
 |-------|-------------------------------------------------------------------------------------|----------------------------------------------------------------|------|
 | *x*   | [**graphiques**](dx-graphics-hlsl-intrinsic-functions.md) | [**dissocié**](/windows/desktop/WinProg/windows-data-types)                        | n'importe laquelle  |
-| *Av* | [**scalaire**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
+| *Av* | [**Scala**](dx-graphics-hlsl-intrinsic-functions.md) | [**float**](/windows/desktop/WinProg/windows-data-types)                        | 1    |
 
 
 
@@ -68,9 +68,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge           |
+| Modèle de nuanceur                                                                       | Pris en charge           |
 |------------------------------------------------------------------------------------|---------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                 |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                 |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Oui (vs \_ 1 \_ 1 uniquement) |
 
 

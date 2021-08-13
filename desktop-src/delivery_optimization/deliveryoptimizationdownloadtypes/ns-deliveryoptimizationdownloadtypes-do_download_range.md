@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0f328565c80350a05cbfb23f178ea3580586f326
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 39672bff2e3a7194f7d674b2184d5de8c9c3c601e4a7777ef31ace80f5f9f327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106512292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047117"
 ---
 # <a name="do_download_range-structure"></a>Structure DO_DOWNLOAD_RANGE
 
@@ -48,6 +48,6 @@ Longueur de la plage, en octets. Ne spécifiez pas de longueur de zéro octet. P
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | DeliveryOptimizationDownloadTypes. h |

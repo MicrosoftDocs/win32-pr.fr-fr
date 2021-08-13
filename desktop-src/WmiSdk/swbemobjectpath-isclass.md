@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 973fa72d3f41a5c2a762a6411d6e688459c8342b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c149084f9dbaec439432bc31997b9ebab06044cf5882734d418cb007b057c900
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103754997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383109"
 ---
 # <a name="swbemobjectpathisclass-property"></a>SWbemObjectPath. IsClass, propriété
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 93e5b967d0e2f41671f5924f7e92d06bae36ec1c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 997d6f7836b1657199b2b83e9b1ed758669dcf7264faa5b85ab3f9d999a6d741
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119341619"
 ---
 # <a name="cbasemediafiltercbasemediafilter-destructor"></a>CBaseMediaFilter. ~ CBaseMediaFilter, destructeur
 
@@ -36,7 +36,7 @@ Méthode de destructeur.
 
 
 
-## <a name="remarks"></a>Notes 
+## <a name="remarks"></a>Notes
 
 Arrêtez toujours l’objet avant de le détruire.
 
@@ -46,7 +46,7 @@ Arrêtez toujours l’objet avant de le détruire.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Amfilter. h (include streams. h)</dt> </dl>                                                                                  |
+| En-tête<br/>  | <dl> <dt>Amfilter. h (inclure Flux. h)</dt> </dl>                                                                                  |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

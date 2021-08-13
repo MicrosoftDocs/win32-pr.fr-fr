@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api_
 ms:contentKeyID: 55100778
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e1debc551dc644d71568772761cb14500d2fd546
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1740cf1402e12c8160595e3022d37850d3c5c12fab3f2afca3d56faeb46adb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784671"
 ---
 # <a name="api-members"></a>Membres d’API
 
@@ -402,7 +402,7 @@ Le type d' [API](./api-class.md) expose les membres suivants.
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn292177(v=exchg.10).md">JetGetLS</a></td>
-<td>Permet à l’application de récupérer le descripteur de contexte appelé stockage local qui est associé à un curseur ou la table associée à ce curseur. Ce descripteur de contexte doit avoir été défini précédemment à l’aide <a href="dn334015(v=exchg.10).md">de JetSetLS (JET_SESID, JET_TABLEID, JET_LS, LsGrbit)</a>. JetGetLS peut également être utilisé pour extraire simultanément le descripteur de contexte actuel d’un curseur ou d’une table et réinitialiser ce handle de contexte.</td>
+<td>permet à l’application de récupérer le descripteur de contexte connu sous le nom de Stockage Local qui est associé à un curseur ou à la table associée à ce curseur. Ce descripteur de contexte doit avoir été défini précédemment à l’aide <a href="dn334015(v=exchg.10).md">de JetSetLS (JET_SESID, JET_TABLEID, JET_LS, LsGrbit)</a>. JetGetLS peut également être utilisé pour extraire simultanément le descripteur de contexte actuel d’un curseur ou d’une table et réinitialiser ce handle de contexte.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
@@ -742,7 +742,7 @@ Le type d' [API](./api-class.md) expose les membres suivants.
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>
 <td><a href="dn334015(v=exchg.10).md">JetSetLS</a></td>
-<td>Permet à l’application d’associer un handle de contexte appelé stockage local avec un curseur ou la table associée à ce curseur. Ce descripteur de contexte peut être utilisé par l’application pour stocker les données auxiliaires associées à un curseur ou une table. L’application est notifiée ultérieurement à l’aide d’un rappel d’exécution lorsque le handle de contexte doit être libéré. Cela permet d’associer l’État alloué dynamiquement à un curseur ou une table.</td>
+<td>permet à l’application d’associer un handle de contexte appelé Stockage Local avec un curseur ou la table associée à ce curseur. Ce descripteur de contexte peut être utilisé par l’application pour stocker les données auxiliaires associées à un curseur ou une table. L’application est notifiée ultérieurement à l’aide d’un rappel d’exécution lorsque le handle de contexte doit être libéré. Cela permet d’associer l’État alloué dynamiquement à un curseur ou une table.</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="Méthode publique" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="Membre statique" alt="Static member" /></td>

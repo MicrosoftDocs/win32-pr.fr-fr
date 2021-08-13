@@ -4,12 +4,12 @@ description: La sécurité vous permet de contrôler l’accès aux objets de st
 ms.assetid: b132da61-26b7-4457-9433-4894ca0e640a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c41bfb6d7990c104b60bd9770fde3f45cee0432
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04e3b6871fe0e465b4394e871537fbb8ca07f6439577833d61a7fe0c3106685f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435994"
 ---
 # <a name="window-station-security-and-access-rights"></a>Sécurité de station Windows et droits d’accès
 
@@ -33,7 +33,7 @@ Les droits d’accès valides pour les objets de station Windows incluent les [d
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les droits d’accès spécifiques aux objets.
 
@@ -54,7 +54,7 @@ Le tableau suivant répertorie les droits d’accès spécifiques aux objets.
 
 
 
- 
+ 
 
 Vous trouverez ci-dessous les [droits d’accès génériques](/windows/desktop/SecAuthZ/generic-access-rights) pour l’objet de station Windows Interactive, qui est la station Windows affectée à la session d’ouverture de session de l’utilisateur interactif.
 
@@ -111,7 +111,7 @@ WINSTA_WRITEATTRIBUTES<br />
 
 
 
- 
+ 
 
 Vous trouverez ci-dessous les [droits d’accès génériques](/windows/desktop/SecAuthZ/generic-access-rights) pour un objet de station Windows non interactive. Le système affecte les stations Windows non interactives à toutes les sessions d’ouverture de session autres que celles de l’utilisateur interactif.
 
@@ -164,10 +164,10 @@ WINSTA_READATTRIBUTES<br />
 
 
 
- 
+ 
 
 Vous pouvez demander le \_ droit accès à la sécurité du système d’accès \_ à un objet de station Windows si vous souhaitez lire ou écrire la liste SACL de l’objet. Pour plus d’informations, consultez [listes de contrôle d’accès (ACL)](/windows/desktop/SecAuthZ/access-control-lists) et [droit d’accès SACL](/windows/desktop/SecAuthZ/sacl-access-right).
 
- 
+ 
 
- 
+ 

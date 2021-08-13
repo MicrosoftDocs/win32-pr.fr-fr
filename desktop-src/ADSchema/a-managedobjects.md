@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c7bc489d11c99f8790426a531e09a20f133476
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d78e1d706368a47c9d7761c5410042b7d9227a90dd14a6fcdb4c3777f18bca86
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119301249"
 ---
 # <a name="managed-objects-attribute"></a>Attribut Managed-Objects
 
@@ -46,7 +46,7 @@ Contient la liste des objets gérés par l’utilisateur. Les objets répertori�
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 4ac83d6d8aeea8429812d80b7bf66de7c87062a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96f1e7fa0de86439f89bf5c4c610bf5b46640533071260852c47321c5a1c6673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106533844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907086"
 ---
 # <a name="sslcreateclientauthhash-function"></a>SslCreateClientAuthHash fonction)
 
@@ -108,7 +108,7 @@ Les codes de retour possibles incluent, mais ne sont pas limités à, les élém
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **SslCreateClientAuthHash** est appelée pour les conversations TLS ( [*Transport Layer Security Protocol*](/windows/desktop/SecGloss/t-gly) ) 1,2 ou ultérieures pour créer des objets de hachage utilisés pour hacher les messages de négociation. Elle est appelée une fois pour chaque [*algorithme de hachage*](/windows/desktop/SecGloss/h-gly) possible qui peut être utilisé dans la signature d’authentification du client.
 
@@ -118,8 +118,8 @@ La fonction **SslCreateClientAuthHash** est appelée pour les conversations TLS 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Sslprovider. h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |
 

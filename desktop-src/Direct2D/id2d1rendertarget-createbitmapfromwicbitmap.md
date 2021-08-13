@@ -1,6 +1,6 @@
 ---
 title: Méthodes ID2D1RenderTarget CreateBitmapFromWicBitmap
-description: Crée un ID2D1Bitmap en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.
+description: crée un ID2D1Bitmap en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.
 ms.assetid: 463fc2f9-8ec6-47e8-8d48-a9015616e656
 keywords:
 - Méthodes CreateBitmapFromWicBitmap Direct2D
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 23ad055beab9f24c39f032a3e28456c231480c68
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d023db69afdc3cc69535d310cb21fb841c2f1bbe981df98e0aaa22074a46db0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119304339"
 ---
 # <a name="id2d1rendertargetcreatebitmapfromwicbitmap-methods"></a>ID2D1RenderTarget :: CreateBitmapFromWicBitmap, méthodes
 
-Crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.
+crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.
 
 ### <a name="overload-list"></a>Liste de surcharge
 
@@ -30,13 +30,13 @@ Crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copia
 
 | Méthode                                                                                                                                                                                                              | Description                                                                                                                         |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_id2d1bitmap))                                                       | Crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/>  |
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , d2d1 \_ \_ Propriétés bitmap&, ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1__id2d1bitmap1))  | Crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/> |
-| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , d2d1 \_ , \_ Propriétés de bitmap \* , ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) | Crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/> |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_id2d1bitmap))                                                       | crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/>  |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , d2d1 \_ \_ Propriétés bitmap&, ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties1__id2d1bitmap1))  | crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/> |
+| [**CreateBitmapFromWicBitmap (IWICBitmapSource \* , d2d1 \_ , \_ Propriétés de bitmap \* , ID2D1Bitmap \* \* )**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap)) | crée un [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) en copiant la bitmap WIC (Microsoft Windows Imaging Component) spécifiée.<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que Direct2D puisse charger une image WIC, il doit être converti en un format de pixel pris en charge et en mode Alpha. Pour obtenir la liste des formats de pixel et des modes alpha pris en charge, consultez [formats de pixel pris en charge et modes alpha](supported-pixel-formats-and-alpha-modes.md).
 

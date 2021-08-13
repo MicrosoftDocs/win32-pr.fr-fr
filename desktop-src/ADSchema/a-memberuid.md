@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa64c0f1117b06f819ee3bbb6beb43fbdc8b647a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 55bfd733eab00bd34ca1320177aa616682d1fe3161126bf95f23df211a1780d9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119300419"
 ---
 # <a name="memberuid-attribute"></a>attribut memberUid
 
@@ -42,7 +42,7 @@ Contient les noms de connexion des membres d’un groupe.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 243831a94a26b86df29d3a50413bfa9d6830a0e3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 425cfbe10ac2ee66f10e016489ff070b67b6fc243a472f95b4f5809724998a21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103748892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119279219"
 ---
 # <a name="getexceptioninformation-macro"></a>GetExceptionInformation macro)
 
@@ -48,7 +48,7 @@ Pointeur vers une structure [**de \_ pointeurs d’exception**](/windows/desktop
 -   [**Exception \_**](/windows/desktop/api/WinNT/ns-winnt-exception_record) Structure d’enregistrement qui contient une description de l’exception.
 -   Structure de [**contexte**](/windows/desktop/api/WinNT/ns-winnt-arm64_nt_context) qui contient les informations sur l’état de l’ordinateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’expression de filtre (à partir de laquelle la fonction est appelée) est évaluée si une exception se produit pendant l’exécution du bloc **\_ \_ try** et détermine si le bloc **\_ \_ except** est exécuté ou non.
 
@@ -64,8 +64,8 @@ Dans le cas de gestionnaires imbriqués, chaque expression de filtre est évalu�
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -94,7 +94,7 @@ Dans le cas de gestionnaires imbriqués, chaque expression de filtre est évalu�
 [Vue d’ensemble de la gestion structurée des exceptions](structured-exception-handling.md)
 </dt> <dt>
 
-[Activer la prise en charge de Windows pour Intel AVX](../win7appqual/enable-windows-7-support-for-intel-avx.md)
+[activer la prise en charge de Windows pour Intel AVX](../win7appqual/enable-windows-7-support-for-intel-avx.md)
 </dt> </dl>
 
  

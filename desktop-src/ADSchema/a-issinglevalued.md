@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53a1fafd047afa47b874fb0385a690e2c0d13161
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1677a5a9b412e315be8ec773f8d0b1cc54f341622d2129ca7f6f80252cc950a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119303939"
 ---
 # <a name="is-single-valued-attribute"></a>Is-attribut à valeur unique
 
@@ -46,7 +46,7 @@ Si la **valeur est true**, cet attribut ne peut stocker qu’une seule valeur.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

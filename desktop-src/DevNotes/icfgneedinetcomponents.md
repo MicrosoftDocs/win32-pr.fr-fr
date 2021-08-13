@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Icfgnt5.dll
-ms.openlocfilehash: c851ed7d5610d96af636afb60114a51be9c711f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b0d533e234986f54c6a4de668273bda08d9c810dc9f5a93acb3aaf030cea665
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390659"
 ---
 # <a name="icfgneedinetcomponents-function"></a>IcfgNeedInetComponents fonction)
 
@@ -49,7 +49,7 @@ Combinaison des indicateurs suivants qui spécifient les composants à détecter
 
 | Valeur                                                                                                                                                                                                                                  | Signification                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**ICFG \_ INSTALLMAIL**</dt> <dt>0x00000004</dt> </dl> | Exchange ou Internet Mail est-il nécessaire ?<br/> |
+| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**ICFG \_ INSTALLMAIL**</dt> <dt>0x00000004</dt> </dl> | la messagerie Internet ou Exchange est-elle nécessaire ?<br/> |
 | <span id="ICFG_INSTALLRAS"></span><span id="icfg_installras"></span><dl> <dt>**ICFG \_ INSTALLRAS**</dt> <dt>0x00000002</dt> </dl>    | RAS est-il nécessaire ?<br/>                       |
 | <span id="ICFG_INSTALLTCP"></span><span id="icfg_installtcp"></span><dl> <dt>**ICFG \_ INSTALLTCP**</dt> <dt>0x00000001</dt> </dl>    | TCP/IP est-il nécessaire ?<br/>                    |
 
@@ -70,7 +70,7 @@ Si cette valeur n’est pas **null**, elle a la valeur **true** en cas de retour
 
 Retourne une valeur **HRESULT** . Si aucune erreur ne se produit, elle retourne le code d' **erreur de \_ réussite** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction n’a pas de bibliothèque d’importation ou de fichier d’en-tête associé ; vous devez l’appeler à l’aide des fonctions [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) et [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) .
 

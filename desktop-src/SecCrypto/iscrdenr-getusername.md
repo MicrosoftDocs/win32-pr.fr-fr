@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Scrdenrl.dll
-ms.openlocfilehash: 51f551a704f3a98b932e646c95810f928e73bac7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b61dd43980049355621c2ee4085634303c55e0f9dac79db839602d07c7d61f94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409445"
 ---
 # <a name="iscrdenrgetusername-method"></a>ISCrdEnr :: getUserName, méthode
 
@@ -86,7 +86,7 @@ Si la méthode échoue, elle retourne une valeur **HRESULT** qui indique l’err
 
 Chaîne qui représente le nom de l’utilisateur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez spécifier le nom de l’utilisateur pour lequel la [*carte à puce*](../secgloss/s-gly.md) est émise en appelant [**ISCrdEnr :: setUserName**](iscrdenr-setusername.md) ou [**ISCrdEnr :: selectUserName**](iscrdenr-selectusername.md). Une fois qu’un nom d’utilisateur a été spécifié, sa valeur peut être récupérée en appelant **getUserName**.
 
@@ -97,7 +97,7 @@ Vous pouvez spécifier le nom de l’utilisateur pour lequel la [*carte à puce*
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Aucun pris en charge<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Scrdenrl.dll</dt> </dl> |
 | IID<br/>                      | IID \_ ISCrdEnr est défini en tant que 753988a1-1357-436D-9cf5-f089bdd67d64<br/>             |
 

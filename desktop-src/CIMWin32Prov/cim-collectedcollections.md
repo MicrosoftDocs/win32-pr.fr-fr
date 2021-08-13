@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e592c7799efc8c280d4cd64c2b54ed8a3ea328f6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cecac67d96aba6b8ad8c5937f098eaef312af89b80c28febaa8073c5f7be26f5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103950701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119322289"
 ---
 # <a name="cim_collectedcollections-class"></a>\_Classe CIM CollectedCollections
 
@@ -82,7 +82,7 @@ Référence à la **collection**« collectée ».
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

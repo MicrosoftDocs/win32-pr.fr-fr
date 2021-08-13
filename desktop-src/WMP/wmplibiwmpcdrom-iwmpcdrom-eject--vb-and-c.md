@@ -3,9 +3,9 @@ title: Méthode EJECT IWMPCdrom
 description: La méthode EJECT éjecte le CD ou DVD du lecteur. | Méthode EJECT IWMPCdrom
 ms.assetid: c0a69252-fd79-452c-bc61-3c3e8bcaaf48
 keywords:
-- méthode EJECT lecteur Windows Media
-- méthode EJECT lecteur Windows Media, interface IWMPCdrom
-- Interface IWMPCdrom lecteur Windows Media, méthode EJECT
+- méthode eject Lecteur Windows Media
+- eject, méthode Lecteur Windows Media, IWMPCdrom, interface
+- Lecteur Windows Media de l’interface IWMPCdrom, méthode eject
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8ca2403b86b648e98861d91a21db80ddb64aac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 00dbdf22d8eb0ba4073a1b74c25c0d610f3091477e5921dd0856fa835a9bccc1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119246759"
 ---
 # <a name="iwmpcdromeject-method"></a>IWMPCdrom :: EJECT, méthode
 
@@ -53,7 +53,7 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si le loquet du lecteur est ouvert, cette méthode ferme la porte.
 

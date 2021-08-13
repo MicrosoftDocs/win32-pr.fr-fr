@@ -4,16 +4,16 @@ ms.assetid: e55775d2-1166-4f14-9553-207c69202b69
 title: Schéma de profil de haut débit mobile v1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8f02be0cf77923b6802ea1bc58944eb26108858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b34e8e45218666cebf320a03bb3051f0f945930387c3773e2d7bc941cd31e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103751941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744611"
 ---
 # <a name="mobile-broadband-profile-schema-v1"></a>Schéma de profil de haut débit mobile v1
 
-Le schéma de profil large bande 7Mobile Windows v1 est disponible dans l’espace de noms `https://www.microsoft.com/networking/WWAN/profile/v1` .
+le schéma de profil à haut débit Windows 7Mobile v1 est disponible dans l’espace de noms `https://www.microsoft.com/networking/WWAN/profile/v1` .
 
 -   [Éléments v1 du schéma de profil haut débit mobile](schema-elements.md)
 -   [Types simples de schéma de profil haut débit v1](schema-simple-types.md)

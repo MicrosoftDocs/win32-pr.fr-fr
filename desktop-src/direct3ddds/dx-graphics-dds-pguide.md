@@ -4,12 +4,12 @@ description: Direct3D implémente le format de fichier DDS pour le stockage des 
 ms.assetid: 39f9847e-3b1c-4401-a253-74c183ffcc83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4940db5ec40e6ec0b907aa4ee7ce725cd585e961
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: c8fc1f8b9b84c2dc1f9236c79c320ae75848834ef2183db55b189f6b9d340d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796719"
 ---
 # <a name="programming-guide-for-dds"></a>Guide de programmation pour DDS
 
@@ -129,9 +129,9 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 | Format de ressource                                                                            | dwFlags        | dwRGBBitCount | dwRBitMask | dwGBitMask | dwBBitMask | dwABitMask |
 |--------------------------------------------------------------------------------------------|----------------|---------------|------------|------------|------------|------------|
 | DXGI \_ format \_ R8G8B8A8 \_ UNORM<br/> D3DFMT \_ A8B8G8R8<br/>                       | DDS \_ RVBA      | 32            | vert       | 0xff00     | 0xff0000   | 0xff000000 |
-| DXGI \_ format \_ R16G16 \_ UNORM<br/> D3DFMT \_ G16R16<br/>                           | DDS \_ RVBA      | 32            | 0xFFFF     | 0xffff0000 |            |            |
+| DXGI \_ format \_ R16G16 \_ UNORM<br/> D3DFMT \_ G16R16<br/>                           | DDS \_ RVBA      | 32            | 0xffff     | 0xffff0000 |            |            |
 | \*\*<br/> DXGI \_ format \_ R10G10B10A2 \_ UNORM<br/> D3DFMT \_ A2B10G10R10<br/> | DDS \_ RVBA      | 32            | 0x3ff      | 0xffc00    | 0x3ff00000 |            |
-| DXGI \_ format \_ R16G16 \_ UNORM<br/> D3DFMT \_ G16R16<br/>                           | DDS \_ RVB       | 32            | 0xFFFF     | 0xffff0000 |            |            |
+| DXGI \_ format \_ R16G16 \_ UNORM<br/> D3DFMT \_ G16R16<br/>                           | DDS \_ RVB       | 32            | 0xffff     | 0xffff0000 |            |            |
 | DXGI \_ format \_ B5G5R5A1 \_ UNORM<br/> D3DFMT \_ A1R5G5B5<br/>                       | DDS \_ RVBA      | 16            | 0x7c00     | 0x3e0      | 0x1F       | 0x8000     |
 | DXGI \_ format \_ B5G6R5 \_ UNORM<br/> D3FMT \_ R5G6B5<br/>                            | DDS \_ RVB       | 16            | 0xf800     | 0x7e0      | 0x1F       |            |
 | DXGI \_ a8 \_ UNORM<br/> D3DFMT \_ a8<br/>                                           | DDS \_ alpha     | 8             |            |            |            | vert       |
@@ -145,7 +145,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 | D3DFMT \_ X4R4G4B4<br/>                                                                | DDS \_ RVB       | 16            | 0xf00      | 0xf0       | 0xF        |            |
 | D3DFMT \_ A8R3G3B2<br/>                                                                | DDS \_ RVBA      | 16            | 0xe0       | 0x1c       | 0x3        | 0xff00     |
 | D3DFMT \_ A8L8<br/>                                                                    | LUMINANCE de DDS \_ | 16            | vert       |            |            | 0xff00     |
-| D3DFMT \_ L16<br/>                                                                     | LUMINANCE de DDS \_ | 16            | 0xFFFF     |            |            |            |
+| D3DFMT \_ L16<br/>                                                                     | LUMINANCE de DDS \_ | 16            | 0xffff     |            |            |            |
 | D3DFMT \_ N8<br/>                                                                      | LUMINANCE de DDS \_ | 8             | vert       |            |            |            |
 | D3DFMT \_ A4L4<br/>                                                                    | LUMINANCE de DDS \_ | 8             | 0xF        |            |            | 0xf0       |
 

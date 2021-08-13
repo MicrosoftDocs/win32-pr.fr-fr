@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 54885ccd8f31fdf55270b6c9ac2dbafa1805d866
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: caadf785617ee1e28e2bfffef4d7ccb534bff8d760b982ccc2284920475729a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789814"
 ---
 # <a name="texture2dgatherbluesfloatint-function"></a>Texture2D :: GatherBlue (S, float, int) (fonction)
 
@@ -71,7 +71,7 @@ Type : **TemplateType**
 
 Valeur à quatre composants dont le type est identique au type de modèle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les échantillons de texture peuvent être utilisés pour l’interpolation bilinéaire.
 
@@ -79,7 +79,7 @@ Cette fonction est prise en charge pour les types de nuanceurs suivants :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 318aa2ffe4ddd47bcb1472f412f85ab785c5049e
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 085d7d0131608ce70a1e023130159b270a679c968a548062645b32cd5cd10204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786139"
 ---
-# <a name="cdn_folderchange-notification-code"></a>\_Code de notification CDN FOLDERCHANGE
+# <a name="cdn_folderchange-notification-code"></a>CDN \_ Code de notification FOLDERCHANGE
 
-\[À compter de Windows Vista, les boîtes de dialogue **ouvrir** et **Enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
+\[à partir de Windows Vista, les boîtes de dialogue **ouvrir** et **enregistrer comme** courantes ont été remplacées par la [boîte de dialogue élément commun](../shell/common-file-dialog.md). Nous vous recommandons d’utiliser l’API de la boîte de dialogue élément commun au lieu de ces boîtes de dialogue à partir de la bibliothèque de boîtes de dialogue communes.\]
 
 Envoyé par une boîte de dialogue **ouvrir** ou **Enregistrer sous** d’un navigateur lors de l’ouverture d’un nouveau dossier.
 
@@ -51,11 +51,11 @@ Ce paramètre n'est pas utilisé.
 *lParam* 
 </dt> <dd>
 
-Pointeur vers une structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) . La structure **OFNOTIFY** contient une structure [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le message de notification **CDN \_ FOLDERCHANGE** .
+Pointeur vers une structure [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) . la structure **OFNOTIFY** contient une structure [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) dont le membre de **code** indique le CDN message de notification **\_ FOLDERCHANGE** .
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 La valeur de retour est ignorée.
 
@@ -65,7 +65,7 @@ Le système envoie cette notification uniquement si la boîte de dialogue a ét�
 
 Pour récupérer le chemin d’accès du dossier qui vient d’être ouvert, la procédure de raccordement peut envoyer le message [**CDM \_ GETFOLDERPATH**](cdm-getfolderpath.md) à la boîte de dialogue.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -81,7 +81,7 @@ Pour récupérer le chemin d’accès du dossier qui vient d’être ouvert, la 
 
 <dl> <dt>
 
-**Informations de référence**
+**Référence**
 </dt> <dt>
 
 [**\_GETFOLDERPATH CDM**](cdm-getfolderpath.md)

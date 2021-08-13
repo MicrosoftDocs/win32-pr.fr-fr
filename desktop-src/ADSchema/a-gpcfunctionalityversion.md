@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27df43dfc439bfd0dd5eee1c0626d987c7d19c46
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c7038d8aba24358194225bc762fb5af4e8610fbec62c4cb624044d8f1c7d01ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119323159"
 ---
 # <a name="gpc-functionality-version-attribute"></a>GPC-fonctionnalité-attribut de version
 
@@ -36,7 +36,7 @@ Version de l’éditeur de stratégie de groupe qui a créé cet objet.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.893               |
 | System-ID-GUID    | f30e3bc0-9ff0-11d1-b603-0000f80367c1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Version de l’éditeur de stratégie de groupe qui a créé cet objet.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

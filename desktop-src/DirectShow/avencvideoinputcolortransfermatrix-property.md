@@ -4,12 +4,12 @@ ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
 title: Propriété AVEncVideoInputColorTransferMatrix (Codecapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 362c73f5527f5db30e906b46e93a9e6f7c1733fb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 41927641a43b104d59248cdcba5743dda647cf24afeb3970e9a87cd87b983b54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106515319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275329"
 ---
 # <a name="avencvideoinputcolortransfermatrix-property"></a>Propriété AVEncVideoInputColorTransferMatrix
 
@@ -35,8 +35,8 @@ La valeur de cette propriété est un membre de l’énumération [**eAVEncVideo
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 2000 professionnel- \[ \| applications UWP\]<br/>                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows 2000 Server \[ apps- \| applications UWP\]<br/>                           |
+| Client minimal pris en charge<br/> | applications Windows 2000 Professional \[ desktop apps \| UWP\]<br/>                     |
+| Serveur minimal pris en charge<br/> | applications de bureau Windows 2000 Server apps-applications \[ \| UWP\]<br/>                           |
 | En-tête<br/>                   | <dl> <dt>Codecapi. h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f2da3504596c3b351318b33c929dad3b5a958165
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d58a34d4018588d5f0dfd2bfac9cb118677045e7693532008361062bcdc596b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458790"
 ---
 # <a name="folderitemparent-property"></a>FolderItem. Parent, propriété
 
@@ -41,9 +41,9 @@ Variable de type [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) qu
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation correcte du **parent** pour JScript, VBScript et Visual Basic.
+l’exemple suivant illustre l’utilisation correcte du **Parent** pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -145,13 +145,13 @@ Visual Basic :
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                         |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                           |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                           |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                         |

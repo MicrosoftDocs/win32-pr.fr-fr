@@ -4,12 +4,12 @@ ms.assetid: d925f63d-3359-4ba1-802f-0c2b11a3f973
 title: Événements de Media Foundation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a63beeb3222ffef4151f45be95d13f9cf9ff4f9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 38a922127941bd94103eac9cfb02ef33d1c0b789eb632f2689a3adc81494c377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106527261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268819"
 ---
 # <a name="media-foundation-events"></a>Événements de Media Foundation
 
@@ -18,18 +18,18 @@ ms.locfileid: "106527261"
 | Événement                                                                                        | Description                                                                                                                                              |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [MEAudioSessionDeviceRemoved](meaudiosessiondeviceremoved.md)                               | Le périphérique audio a été supprimé.                                                                                                                            |
-| [MEAudioSessionDisconnected](meaudiosessiondisconnected.md)                                 | La session audio a été déconnectée d’une session des services Terminal Server Windows                                                                              |
+| [MEAudioSessionDisconnected](meaudiosessiondisconnected.md)                                 | la session audio a été déconnectée d’une session de Services Terminal Windows                                                                              |
 | [MEAudioSessionExclusiveModeOverride](meaudiosessionexclusivemodeoverride.md)               | La session audio a été préemptée par une connexion en mode exclusif.                                                                                         |
 | [MEAudioSessionFormatChanged](meaudiosessionformatchanged.md)                               | Le format audio par défaut du périphérique audio a changé.                                                                                                   |
 | [MEAudioSessionGroupingParamChanged](meaudiosessiongroupingparamchanged.md)                 | Paramètres de regroupement modifiés pour la session audio.                                                                                                   |
 | [MEAudioSessionIconChanged](meaudiosessioniconchanged.md)                                   | L’icône de session audio a changé.                                                                                                                          |
 | [MEAudioSessionNameChanged](meaudiosessionnamechanged.md)                                   | Le nom d’affichage de la session audio a changé.                                                                                                                  |
-| [MEAudioSessionServerShutdown](meaudiosessionservershutdown.md)                             | Le système du serveur audio Windows a été arrêté.                                                                                                           |
+| [MEAudioSessionServerShutdown](meaudiosessionservershutdown.md)                             | le système du serveur audio Windows a été arrêté.                                                                                                           |
 | [MEAudioSessionVolumeChanged](meaudiosessionvolumechanged.md)                               | Le volume ou l’État muet de la session audio a changé                                                                                                    |
 | [MEBufferingStarted](mebufferingstarted.md)                                                 | Une source de média a commencé à mettre les données en mémoire tampon.                                                                                                                   |
 | [MEBufferingStopped](mebufferingstopped.md)                                                 | Une source de média A arrêté la mise en mémoire tampon des données.                                                                                                                   |
 | [MECaptureAudioSessionDeviceRemoved](mecaptureaudiosessiondeviceremoved.md)                 | L’appareil a été supprimé.                                                                                                                                  |
-| [MECaptureAudioSessionDisconnected](mecaptureaudiosessiondisconnected.md)                   | La session audio est déconnectée, car l’utilisateur s’est déconnecté d’une session Windows Terminal Services (WTS).                                            |
+| [MECaptureAudioSessionDisconnected](mecaptureaudiosessiondisconnected.md)                   | la session audio est déconnectée, car l’utilisateur s’est déconnecté d’une session des Services de Terminal Windows (WTS).                                            |
 | [MECaptureAudioSessionExclusiveModeOverride](mecaptureaudiosessionexclusivemodeoverride.md) | L’utilisateur a ouvert un flux audio en mode exclusif.                                                                                                       |
 | [MECaptureAudioSessionFormatChanged](mecaptureaudiosessionformatchanged.md)                 | Le format audio a changé.                                                                                                                                |
 | [MECaptureAudioSessionServerShutdown](mecaptureaudiosessionservershutdown.md)               | Arrêt du serveur de session audio.                                                                                                                       |

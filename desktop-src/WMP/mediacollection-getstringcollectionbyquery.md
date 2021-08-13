@@ -3,9 +3,9 @@ title: Méthode MediaCollection. getStringCollectionByQuery
 description: La méthode getStringCollectionByQuery récupère un objet StringCollection contenant toutes les chaînes qui correspondent aux conditions de la requête.
 ms.assetid: 17442151-7eb1-4256-ac5f-142b11645216
 keywords:
-- méthode getStringCollectionByQuery lecteur Windows Media
-- méthode getStringCollectionByQuery lecteur Windows Media, classe MediaCollection
-- Classe MediaCollection lecteur Windows Media, méthode getStringCollectionByQuery
+- Lecteur Windows Media de la méthode getStringCollectionByQuery
+- méthode getStringCollectionByQuery Lecteur Windows Media, classe MediaCollection
+- Lecteur Windows Media de la classe MediaCollection, méthode getStringCollectionByQuery
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf304d22cb207d8a2bfb046522e8704e900d508
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6d9e8f2eae2ce52a566d4db6b8298187df1d4d444432e99dda22d3cacc0ed3ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390109"
 ---
 # <a name="mediacollectiongetstringcollectionbyquery-method"></a>Méthode MediaCollection. getStringCollectionByQuery
 
@@ -85,7 +85,7 @@ Objet de **requête** .
 
 Cette méthode retourne un objet **StringCollection** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les requêtes composées à l’aide de la **requête** ne respectent pas la casse.
 

@@ -4,12 +4,12 @@ ms.assetid: 87d860e3-2495-4e15-bb42-341e92935e55
 title: Clé EventLog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6965c850dd31ab722786cf4da41c7d3a67f5d980
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3eed1e64d3084d6b952693957c65766b257cb552a861c9989ea0550111e9b224
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119383769"
 ---
 # <a name="eventlog-key"></a>Clé EventLog
 
@@ -71,11 +71,11 @@ Lecture (0x0001)<br />
 </tr>
 <tr class="even">
 <td><strong>DisplayNameFile</strong></td>
-<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :  </strong> Nom du fichier qui stocke le nom localisé du journal des événements. Le nom stocké dans ce fichier apparaît en tant que nom de journal dans observateur d’événements. Si cette entrée n’apparaît pas dans le registre pour un journal des événements, observateur d’événements affiche le nom de la sous-clé du Registre comme nom de journal. Cette valeur est de type REG_EXPAND_SZ. La valeur par défaut est% SystemRoot% \system32\els.dll.<br/></td>
+<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :</strong> Nom du fichier qui stocke le nom localisé du journal des événements. Le nom stocké dans ce fichier apparaît en tant que nom de journal dans observateur d’événements. Si cette entrée n’apparaît pas dans le registre pour un journal des événements, observateur d’événements affiche le nom de la sous-clé du Registre comme nom de journal. Cette valeur est de type REG_EXPAND_SZ. La valeur par défaut est% SystemRoot% \system32\els.dll.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>DisplayNameID</strong></td>
-<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :  </strong> Numéro d’identification du message de la chaîne de nom de journal. Ce nombre indique le message dans lequel s’affiche le nom complet localisé. Le message est stocké dans le fichier spécifié par la valeur <strong>DisplayNameFile</strong> . Cette valeur est de type REG_DWORD.<br/></td>
+<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :</strong> Numéro d’identification du message de la chaîne de nom de journal. Ce nombre indique le message dans lequel s’affiche le nom complet localisé. Le message est stocké dans le fichier spécifié par la valeur <strong>DisplayNameFile</strong> . Cette valeur est de type REG_DWORD.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>File</strong></td>
@@ -91,19 +91,19 @@ Lecture (0x0001)<br />
 </tr>
 <tr class="odd">
 <td><strong>Rétention</strong></td>
-<td>Cette valeur est de type REG_DWORD. La valeur par défaut est 0. Si cette valeur est 0, les enregistrements des événements sont toujours remplacés. Si cette valeur est 0xFFFFFFFF ou toute valeur différente de zéro, les enregistrements ne sont jamais remplacés. Lorsque le fichier journal atteint sa taille maximale, vous devez effacer le journal manuellement. dans le cas contraire, les nouveaux événements sont ignorés. Vous devez également effacer le journal avant de pouvoir modifier sa taille. <strong>Windows Server 2003 et Windows XP/2000 :  </strong> Cette valeur correspond à l’intervalle de temps, en secondes, pendant lequel les enregistrements des événements sont protégés contre le remplacement. Lorsque l’âge d’un événement atteint ou dépasse cette valeur, il peut être remplacé.<br/></td>
+<td>Cette valeur est de type REG_DWORD. La valeur par défaut est 0. Si cette valeur est 0, les enregistrements des événements sont toujours remplacés. Si cette valeur est 0xFFFFFFFF ou toute valeur différente de zéro, les enregistrements ne sont jamais remplacés. Lorsque le fichier journal atteint sa taille maximale, vous devez effacer le journal manuellement. dans le cas contraire, les nouveaux événements sont ignorés. Vous devez également effacer le journal avant de pouvoir modifier sa taille. <strong>Windows Server 2003 et Windows XP/2000 :</strong> Cette valeur correspond à l’intervalle de temps, en secondes, pendant lequel les enregistrements des événements sont protégés contre le remplacement. Lorsque l’âge d’un événement atteint ou dépasse cette valeur, il peut être remplacé.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>Sources</strong></td>
-<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :  </strong> Noms des applications, des services ou des groupes d’applications qui écrivent des événements dans ce journal. Cette valeur doit être lue et non modifiée. Le service journal des événements gère la liste en fonction de chaque programme répertorié dans une sous-clé sous le journal. Cette valeur est de type REG_MULTI_SZ.<br/></td>
+<td>Cette valeur n'est pas utilisée. <strong>Windows Server 2003 et Windows XP/2000 :</strong> Noms des applications, des services ou des groupes d’applications qui écrivent des événements dans ce journal. Cette valeur doit être lue et non modifiée. Le service journal des événements gère la liste en fonction de chaque programme répertorié dans une sous-clé sous le journal. Cette valeur est de type REG_MULTI_SZ.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>AutoBackupLogFiles</strong></td>
-<td>Cette valeur est de type REG_DWORD, et est utilisée par le service journal des événements pour déterminer si un journal des événements doit être enregistré automatiquement. La valeur par défaut est 0, ce qui désactive la sauvegarde automatique. Le service sauvegarde le fichier journal uniquement si la valeur de rétention est-1 (0xFFFFFFFF). Les autres valeurs sont ignorées. <strong>Windows Server 2003 :  </strong> La rétention peut être définie sur-1 (0xFFFFFFFF) ou 1 (0x00000001) pour que AutoBackupLogFiles fonctionne. Les autres valeurs sont ignorées.<br/></td>
+<td>Cette valeur est de type REG_DWORD, et est utilisée par le service journal des événements pour déterminer si un journal des événements doit être enregistré automatiquement. La valeur par défaut est 0, ce qui désactive la sauvegarde automatique. Le service sauvegarde le fichier journal uniquement si la valeur de rétention est-1 (0xFFFFFFFF). Les autres valeurs sont ignorées. <strong>Windows Server 2003 :</strong> La rétention peut être définie sur-1 (0xFFFFFFFF) ou 1 (0x00000001) pour que AutoBackupLogFiles fonctionne. Les autres valeurs sont ignorées.<br/></td>
 </tr>
 <tr class="even">
 <td><strong>RestrictGuestAccess</strong></td>
-<td>Cette valeur n'est pas utilisée. <strong>Windows XP/2000 :  </strong> Cette valeur est de type REG_DWORD, et la valeur par défaut est 1. Lorsque la valeur est définie sur 1, elle restreint l’accès du compte invité et anonyme au journal des événements, et lorsque cette valeur est 0, elle autorise l’accès du compte invité au journal des événements.<br/></td>
+<td>Cette valeur n'est pas utilisée. <strong>Windows XP/2000 :</strong> Cette valeur est de type REG_DWORD, et la valeur par défaut est 1. Lorsque la valeur est définie sur 1, elle restreint l’accès du compte invité et anonyme au journal des événements, et lorsque cette valeur est 0, elle autorise l’accès du compte invité au journal des événements.<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>Isolement</strong></td>
@@ -134,7 +134,7 @@ Les autorisations par défaut pour <strong>System</strong> sont (illustrées à 
             L&quot;(A;;0x1;;;S-1-5-3)&quot;               // BATCH LOGON              (read)
             L&quot;(A;;0x2;;;S-1-5-33)&quot;              // write restricted service (write)
             L&quot;(A;;0x1;;;S-1-5-32-573)&quot;;         // event log readers        (read)</code></pre>
-Les autorisations par défaut pour l’isolation <strong>personnalisée</strong> sont les mêmes que celles de l’application.<br/> <strong>Windows Server 2003 et Windows XP/2000 :  </strong> Cette valeur n’est pas disponible.<br/></td>
+Les autorisations par défaut pour l’isolation <strong>personnalisée</strong> sont les mêmes que celles de l’application.<br/> <strong>Windows Server 2003 et Windows XP/2000 :</strong> Cette valeur n’est pas disponible.<br/></td>
 </tr>
 </tbody>
 </table>

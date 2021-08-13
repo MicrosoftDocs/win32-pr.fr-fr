@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: ef60c3f615a704248fbcb8630322fa6b598141ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a2eed4b907f7c22414634a4b1ef49df6ca780181109a7396de2f8aa1776b7c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901208"
 ---
 # <a name="pvkprivatekeysave-function"></a>PvkPrivateKeySave fonction)
 
@@ -106,8 +106,8 @@ En cas de réussite, cette fonction retourne **true**. La fonction **PvkPrivateK
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

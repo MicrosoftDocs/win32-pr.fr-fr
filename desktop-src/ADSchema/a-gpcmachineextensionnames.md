@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc9d9c1ce435a017bfefe88d728004f619e193f9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8eb23a805131f5ed3d87aae4a55f470fd302fe9d47ffcb1a1d17e41e748987fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119305599"
 ---
 # <a name="gpc-machine-extension-names-attribute"></a>Attribut GPC-machine-extension-Names
 
@@ -45,7 +45,7 @@ Utilisé par l’objet stratégie de groupe pour les stratégies de l’ordinate
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
