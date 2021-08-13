@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 2241babae283f367a15c8f742b51af280ed1a3b1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c94a30247bbfc39675308308457c369785bd9a67413a5b0b62af143e17e2112b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632711"
 ---
 # <a name="installercomponentclients-property"></a>Installer. ComponentClients, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.ComponentClients
 
 GUID de chaîne qui représente le code de composant du composant. Les codes des composants sont spécifiés dans la colonne ComponentId de la [table des composants](component-table.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour énumérer les clients du composant, une application peut itérer au sein de l’objet [**StringList**](stringlist-object.md) à l’aide d’une construction for each. Étant donné que les clients ne sont pas triés, les nouveaux composants possèdent un index arbitraire. Cela signifie que la fonction peut retourner des clients dans n’importe quel ordre.
 

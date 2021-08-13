@@ -16,16 +16,16 @@ keywords:
 - types de contrôle, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5e6b1ba80fb2c44b8c08753fa1fb43173843eb
-ms.sourcegitcommit: b0bb3e2918aec9daae6a68bb03494f0c5cdf3902
+ms.openlocfilehash: 20a784a6537a3206f32c1299342a521de01d60fab2968294a067f8cc1f7e6dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "106511716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564380"
 ---
 # <a name="ui-automation-and-active-accessibility"></a>UI Automation et Active Accessibility
 
-Microsoft Active Accessibility est l’API héritée qui a été introduite dans Windows 95 et qui a été conçue pour rendre les applications Windows accessibles. Microsoft UI Automation est le nouveau modèle d’accessibilité pour Windows et est destiné à répondre aux besoins des produits de technologie d’assistance et des outils de test automatisés. UI Automation offre de nombreuses améliorations par rapport à Microsoft Active Accessibility. Cette rubrique explique les différences entre les deux technologies.
+Microsoft Active Accessibility est l’API héritée qui a été introduite dans Windows 95 et qui a été conçue pour rendre les applications Windows accessibles. l’automatisation d’interface utilisateur de Microsoft est le nouveau modèle d’accessibilité pour Windows et est destiné à répondre aux besoins des produits de technologie d’assistance et des outils de test automatisés. UI Automation offre de nombreuses améliorations par rapport à Microsoft Active Accessibility. Cette rubrique explique les différences entre les deux technologies.
 
 Cette rubrique contient les sections suivantes.
 
@@ -43,7 +43,7 @@ Cette rubrique contient les sections suivantes.
 
 Microsoft Active Accessibility est basé sur le modèle COM (Component Object Model) avec prise en charge des interfaces doubles et, par conséquent, est programmable en C/C++ et en langages de script.
 
-Lorsque l’automatisation d’interface utilisateur a été introduite, l’API cliente était limitée au code managé, tandis que l’API du fournisseur incluait à la fois des implémentations managées et non managées. Avec Windows 7, une nouvelle API client COM a été introduite pour faciliter le programme des applications clientes UI Automation en C/C++.
+Lorsque l’automatisation d’interface utilisateur a été introduite, l’API cliente était limitée au code managé, tandis que l’API du fournisseur incluait à la fois des implémentations managées et non managées. avec Windows 7, une nouvelle API client COM a été introduite pour faciliter le programme des applications clientes UI Automation en C/C++.
 
 ## <a name="servers-and-clients"></a>Serveurs et clients
 
@@ -107,7 +107,7 @@ Le tableau suivant mappe les[rôles d’objet](object-roles.md) Microsoft Active
 | [**barre de menus du \_ système de rôle \_**](object-roles.md)           | [MenuBar](uiauto-supportmenubarcontroltype.md)                                                |
 | [**système de rôle \_ \_ MenuItem**](object-roles.md)         | [MenuItem](uiauto-supportmenuitemcontroltype.md)                                              |
 | [**\_volet système de rôle \_**](object-roles.md)                 | [Volet](uiauto-supportpanecontroltype.md)                                                      |
-| [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | [Barre de progression](uiauto-supportprogressbarcontroltype.md)                                        |
+| [**\_PROGRESSBAR du système de rôle \_**](object-roles.md)   | [ProgressBar](uiauto-supportprogressbarcontroltype.md)                                        |
 | [**RadioButton du système de rôle \_ \_**](object-roles.md)   | [RadioButton](uiauto-supportradiobuttoncontroltype.md)                                        |
 | [**\_ScrollBar système de rôle \_**](object-roles.md)       | [ScrollBar](uiauto-supportscrollbarcontroltype.md)                                            |
 | [**\_séparateur système de rôle \_**](object-roles.md)       | [Séparateur](uiauto-supportseparatorcontroltype.md)                                            |
@@ -123,13 +123,13 @@ Le tableau suivant mappe les[rôles d’objet](object-roles.md) Microsoft Active
 | [**\_TITLEBAR système de rôle \_**](object-roles.md)         | [Spreadsheet](uiauto-supporttitlebarcontroltype.md)                                              |
 | [**\_ \_ barre d’outils système de rôle**](object-roles.md)           | [Barre](uiauto-supporttoolbarcontroltype.md)                                                |
 | [**\_ \_ info-bulle du système de rôle**](object-roles.md)           | [ToolTip](uiauto-supporttooltipcontroltype.md)                                                |
-| [**\_structure du système de rôle \_**](object-roles.md)           | [Arborescence](uiauto-supporttreecontroltype.md)                                                      |
+| [**\_structure du système de rôle \_**](object-roles.md)           | [Arbres](uiauto-supporttreecontroltype.md)                                                      |
 | [**système de rôle \_ \_ OUTLINEITEM**](object-roles.md)   | [TreeItem](uiauto-supporttreeitemcontroltype.md)                                              |
 | [**\_fenêtre système de rôle \_**](object-roles.md)             | [Window](uiauto-supportwindowcontroltype.md)                                                  |
 
 
 
- 
+ 
 
 ## <a name="states-and-properties"></a>États et propriétés
 
@@ -143,7 +143,7 @@ Le tableau suivant montre la correspondance entre certaines propriétés dans le
 
 
 
-| Accesseur de propriété Active Accessibility                                               | ID de propriété UI Automation                                                                                                                                                                                | Notes                                                                                                                                                                                                                                                                                                                                     |
+| Accesseur de propriété Active Accessibility                                               | ID de propriété UI Automation                                                                                                                                                                                | Remarques                                                                                                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Obtient \_ accKeyboardShortcut**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_acckeyboardshortcut) | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md) ou [ **UIA \_ AcceleratorKeyPropertyId**](uiauto-automation-element-propids.md) | [**UIA \_ AccessKeyPropertyId**](uiauto-automation-element-propids.md) est prioritaire si les deux sont présents.                                                                                                                                                                                                         |
 | [**Obtient \_ accName**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accname)                         | [**UIA \_ NamePropertyId**](uiauto-automation-element-propids.md)                                                                                                                      |                                                                                                                                                                                                                                                                                                                                             |
@@ -156,7 +156,7 @@ Le tableau suivant montre la correspondance entre certaines propriétés dans le
 
 
 
- 
+ 
 
 Le tableau suivant répertorie les ID de propriété UI Automation qui correspondent aux [constantes d’état d’objet](object-state-constants.md)de Microsoft Active Accessibility.
 
@@ -185,13 +185,13 @@ Le tableau suivant répertorie les ID de propriété UI Automation qui correspon
 
 
 
- 
+ 
 
 Pour obtenir la liste complète des ID de propriété, consultez [identificateurs de propriété](uiauto-entry-propids.md).
 
 ## <a name="events"></a>Événements
 
-Contrairement à Microsoft Active Accessibility, le mécanisme d’événement dans UI Automation ne repose pas sur le routage des événements Windows, qui est étroitement lié aux handles de fenêtre et ne nécessite pas que l’application cliente configure des hooks. Les abonnements aux événements peuvent être ajustés à des parties spécifiques de l’arborescence, et pas seulement à des événements particuliers. Les fournisseurs peuvent également affiner le déclenchement des événements en assurant le suivi des événements qui sont écoutés.
+contrairement à Microsoft Active Accessibility, le mécanisme d’événement dans UI Automation ne repose pas sur Windows le routage d’événements, qui est étroitement lié aux handles de fenêtre, et ne nécessite pas que l’application cliente configure des hooks. Les abonnements aux événements peuvent être ajustés à des parties spécifiques de l’arborescence, et pas seulement à des événements particuliers. Les fournisseurs peuvent également affiner le déclenchement des événements en assurant le suivi des événements qui sont écoutés.
 
 Il est également plus facile pour les clients de récupérer les éléments qui déclenchent des événements, car ils sont passés directement au rappel d’événement. Les propriétés de l’élément sont automatiquement prérécupérées, si une demande de cache a été fournie lorsque le client s’est abonné à l’événement.
 
@@ -258,7 +258,7 @@ Le tableau suivant montre la correspondance entre les [constantes d’événemen
 
 
 
- 
+ 
 
 ## <a name="accessing-active-accessibility-properties-and-objects-from-ui-automation"></a>Accès aux propriétés et objets Active Accessibility à partir d’UI Automation
 
@@ -292,6 +292,6 @@ Les modifications apportées aux propriétés d’un [**IUIAutomationLegacyIAcce
 [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

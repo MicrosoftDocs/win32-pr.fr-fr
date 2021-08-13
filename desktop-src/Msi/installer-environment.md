@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 3983eceecd8bc709bea4a094c61c9886c73def3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f24237da6c140ef0d38ff17591bf214698cfa6731bd4e8d3cfcaa613b335404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118631685"
 ---
 # <a name="installerenvironment-property"></a>Installer. Environment, propriété
 
@@ -40,7 +40,7 @@ Installer.Environment = propVal
 
 Nom de la variable d’environnement à lire ou à écrire. Cela ne tient pas compte de la casse.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La définition d’une variable d’environnement avec la propriété d' **environnement** affecte uniquement la session active. Pour apporter des modifications persistantes à une variable d’environnement, utilisez la [table d’environnement](environment-table.md).
 

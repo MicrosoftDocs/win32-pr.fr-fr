@@ -1,23 +1,23 @@
 ---
 title: Utilisation de WER
-description: À compter de Windows Vista, Windows fournit des rapports d’erreurs de panne, de non-réponse et de défaillance du noyau par défaut, sans nécessiter de modifications de votre application.
+description: à partir de Windows Vista, Windows fournit par défaut des rapports d’erreurs de panne, de non-réponse et de défaillance du noyau sans nécessiter de modifications de votre application.
 ms.assetid: c096cd89-e3a7-4959-a35f-40e6168f277e
 keywords:
-- Rapport d’erreurs Windows Rapport d’erreurs Windows, utilisation
+- Windows Rapport d’erreurs Windows de rapport d’erreurs, utilisation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 655bed6d11757d7d4e08cd00ac47479e1246f96b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 17dfa8bc2235f43770cd177ad3e5d9a7d1aacde36034152b88cb06af3879e8c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104381773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442239"
 ---
 # <a name="using-wer"></a>Utilisation de WER
 
-À compter de Windows Vista, Windows fournit des rapports d’erreurs de panne, de non-réponse et de défaillance du noyau par défaut, sans nécessiter de modifications de votre application. Le rapport inclut des informations sur le Minidump et le vidage du tas, si nécessaire. Les applications utilisent à la place l’API WER pour envoyer des rapports de problèmes spécifiques à l’application à Microsoft.
+à partir de Windows Vista, Windows fournit par défaut des rapports d’erreurs de panne, de non-réponse et de défaillance du noyau sans nécessiter de modifications de votre application. Le rapport inclut des informations sur le Minidump et le vidage du tas, si nécessaire. Les applications utilisent à la place l’API WER pour envoyer des rapports de problèmes spécifiques à l’application à Microsoft.
 
-Étant donné que Windows signale automatiquement les exceptions non gérées, l’application ne doit pas gérer les exceptions irrécupérables. Si le processus de défaillance ou de non-réponse est interactif, WER affiche une interface utilisateur qui informe l’utilisateur du problème. Une application est considérée comme ne répondant pas si elle ne répond pas aux messages Windows pendant cinq secondes alors que l’utilisateur tente d’interagir avec l’application.
+étant donné que Windows signale automatiquement les exceptions non gérées, l’application ne doit pas gérer les exceptions irrécupérables. Si le processus de défaillance ou de non-réponse est interactif, WER affiche une interface utilisateur qui informe l’utilisateur du problème. une application est considérée comme ne répondant pas si elle ne répond pas aux messages Windows pendant cinq secondes alors que l’utilisateur tente d’interagir avec l’application.
 
 ## <a name="windows-error-reporting-flow-for-crashes-non-response-and-kernel-faults"></a>Rapport d’erreurs Windows le workflow pour les pannes, les non-réponses et les défaillances du noyau
 
@@ -40,7 +40,7 @@ Les applications peuvent utiliser les fonctions suivantes pour personnaliser le 
 -   [**WerUnregisterMemoryBlock**](/windows/desktop/api/Werapi/nf-werapi-werunregistermemoryblock)
 -   [**WerGetFlags**](/windows/desktop/api/Werapi/nf-werapi-wergetflags)
 
-## <a name="windows-error-reporting-flow-for-generic-event-reporting"></a>Rapport d’erreurs Windows le Flow pour les rapports d’événements génériques
+## <a name="windows-error-reporting-flow-for-generic-event-reporting"></a>Rapport d’erreurs Windows le flow pour les rapports d’événements génériques
 
 Les étapes suivantes montrent comment les applications peuvent obtenir un rapport d’erreurs pour une condition d’erreur récupérable.
 
@@ -54,9 +54,9 @@ Les étapes suivantes montrent comment les applications peuvent obtenir un rappo
     6.  Appelez [**WerReportCloseHandle**](/windows/desktop/api/Werapi/nf-werapi-werreportclosehandle) pour libérer des ressources.
 3.  Selon les options spécifiques utilisées lors de l’appel des fonctions à l’étape 2, WER termine le rapport d’erreurs. Le rapport d’erreurs Windows garantit que la création de rapports est effectuée conformément aux stratégies définies par l’utilisateur. Par exemple, WER envoie le rapport à Microsoft, met le rapport en file d’attente et affiche les interfaces utilisateur appropriées pour l’utilisateur.
 
-## <a name="excluding-an-application-from-windows-error-reporting"></a>Exclusion d’une application de Rapport d’erreurs Windows
+## <a name="excluding-an-application-from-windows-error-reporting"></a>exclusion d’une application de Rapport d’erreurs Windows
 
-Pour exclure votre application du rapport d’erreurs Windows, utilisez la fonction [**WerAddExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-weraddexcludedapplication) . Pour restaurer les rapports d’erreurs de votre application, utilisez la fonction [**WerRemoveExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-werremoveexcludedapplication) .
+pour exclure votre application de Windows rapport d’erreurs, utilisez la fonction [**WerAddExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-weraddexcludedapplication) . Pour restaurer les rapports d’erreurs de votre application, utilisez la fonction [**WerRemoveExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-werremoveexcludedapplication) .
 
 ## <a name="automatically-recovering-data-and-restarting-a-faulted-application"></a>Récupération automatique des données et redémarrage d’une application défaillante
 
@@ -66,13 +66,13 @@ Une application peut utiliser la récupération et le redémarrage de l’applic
 
 Une application peut signaler une erreur en appelant la fonction [**ReportFault**](/windows/desktop/api/ErrorRep/nf-errorrep-reportfault) . Toutefois, vous ne devez pas utiliser la fonction **ReportFault** , sauf si vous avez une exigence très spécifique selon laquelle le comportement de rapport d’erreurs par défaut du système d’exploitation ne peut pas être respecté.
 
-Si le rapport d’erreurs est activé, le système affiche une boîte de dialogue indiquant à l’utilisateur que l’application a rencontré un problème et se ferme. Si un débogueur est configuré dans la clé **HKEY \_ \_ \\ \\ AeDebug CurrentVersion Software Software Microsoft \\ Windows \\ NT \\ CurrentVersion** , l’utilisateur a la possibilité de lancer le débogueur. L’utilisateur a également la possibilité d’envoyer un rapport à Microsoft. Si l’utilisateur envoie le rapport, le système affiche une autre boîte de dialogue en remerciant l’utilisateur pour le rapport et en fournissant un lien vers des informations supplémentaires.
+Si le rapport d’erreurs est activé, le système affiche une boîte de dialogue indiquant à l’utilisateur que l’application a rencontré un problème et se ferme. si un débogueur est configuré dans la clé **HKEY \_ \_ \\ \\ \\ \\ \\ AeDebug NT CurrentVersion du Windows logiciel de l’ordinateur LOCAL** , l’utilisateur a la possibilité de lancer le débogueur. L’utilisateur a également la possibilité d’envoyer un rapport à Microsoft. Si l’utilisateur envoie le rapport, le système affiche une autre boîte de dialogue en remerciant l’utilisateur pour le rapport et en fournissant un lien vers des informations supplémentaires.
 
 Le système de création de rapports d’erreurs prend en charge les modes d’opération suivants.
 
 
 
-| Mode d’opération          | Description                                                                                                                                                                                                                                                                                                                                  |
+| Mode de fonctionnement          | Description                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Rapport de mémoire partagée | Si le contexte de sécurité de l’application est le même que le contexte de sécurité de l’utilisateur connecté, le système de création de rapports d’erreurs utilise un bloc de mémoire partagée pour la communication. Ce mode ne peut pas être utilisé avec le mode rapport de manifeste.<br/>                                                                                               |
 | Création de rapports de manifeste      | Si le contexte de sécurité de l’application n’est pas le même que le contexte de sécurité de l’utilisateur connecté, le système de création de rapports d’erreurs utilise un fichier pour la communication. Ce mode est également utilisé pour signaler les erreurs de noyau et les applications qui ne répondent pas. Ce mode ne peut pas être utilisé avec le mode de création de rapports de la mémoire partagée.<br/>                      |

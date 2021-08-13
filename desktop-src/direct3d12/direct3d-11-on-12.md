@@ -5,12 +5,12 @@ ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62816ea0d7d7969cd56e0a9f525b2c412c8da182
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 12a67c7e0cd3592d35af80f280fc9f1893f4741fcadcc73afd3753880bccda3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530227"
 ---
 # <a name="direct3d-11-on-12"></a>Direct3D 11 sur 12
 
@@ -69,9 +69,9 @@ Toutes les autres ressources ou objets créés par D3D11On12 seront nettoyés au
 
 La couche D3D11On12 implémente un très grand sous-ensemble de l’API D3D11, mais il existe des lacunes connues (en plus des bogues dans l’implémentation qui peuvent provoquer un rendu incorrect).
 
-À partir de Windows 10, version 1809 (10,0 ; Build 17763), à condition que D3D11On12 s’exécute sur un pilote qui prend en charge le modèle de nuanceur 6,0 ou ultérieur, il peut exécuter des nuanceurs qui utilisent des interfaces. Dans les versions antérieures de Windows, la fonctionnalité d’interfaces de nuanceur n’est pas implémentée dans D3D11On12 et la tentative d’utilisation de la fonctionnalité provoquera des erreurs et des messages de débogage.
+à partir de Windows 10, version 1809 (10,0 ; Build 17763), à condition que D3D11On12 s’exécute sur un pilote qui prend en charge le modèle de nuanceur 6,0 ou ultérieur, il peut exécuter des nuanceurs qui utilisent des interfaces. dans les versions antérieures de Windows, la fonctionnalité d’interfaces de nuanceur n’est pas implémentée dans D3D11On12 et la tentative d’utilisation de la fonctionnalité provoquera des erreurs et des messages de débogage.
 
-À partir de Windows 10, version 1803 (10,0 ; Build 17134), les chaînes de permutation sont prises en charge sur les appareils D3D11On12. Dans les versions antérieures de Windows, elles ne le sont pas.
+à partir de Windows 10, version 1803 (10,0 ; Build 17134), les chaînes de permutation sont prises en charge sur les appareils D3D11On12. dans les versions antérieures de Windows, ils ne le sont pas.
 
 D3D11On12 n’a pas été optimisé pour les performances. Il y aura probablement une surcharge de processeur modérée par rapport à un pilote D3D11 standard, une surcharge de GPU minimale et une surcharge de mémoire importante est connue. Par conséquent, il n’est pas recommandé d’utiliser D3D11On12 pour les scènes 3D complexes, et c’est plutôt recommandé pour les scènes simples ou le rendu 2D.
 
@@ -86,12 +86,12 @@ Les API qui composent la couche 11on12 sont décrites dans [référence 11on12](
 [D2D à l’aide d’une procédure pas à pas D3D11on12](d2d-using-d3d11on12.md)
 </dt> <dt>
 
-[Comprendre Direct3D 12](directx-12-getting-started.md)
+[Comprendre Direct3D 12](directx-12-getting-started.md)
 </dt> <dt>
 
 [Utilisation de Direct3D 11, Direct3D 10 et Direct2D](direct3d-12-interop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

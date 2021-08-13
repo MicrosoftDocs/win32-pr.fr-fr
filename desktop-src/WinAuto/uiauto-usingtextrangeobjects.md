@@ -9,12 +9,12 @@ keywords:
 - clients, modèle de contrôle TextRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2aef7c23db6903e3492fec7c83ba7c14599c63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2c409f39d437135854463e83c361a9afd22204758c360119bd0033e4fd11416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563984"
 ---
 # <a name="using-text-ranges"></a>Utilisation de plages de texte
 
@@ -168,7 +168,7 @@ L’interface [**IUIAutomationStylesPattern**](/windows/desktop/api/uiautomation
 
 ## <a name="invoking-context-menus-from-text-ranges"></a>Appel de menus contextuels à partir de plages de texte
 
-À partir de Windows 8.1, les plages de texte peuvent prendre en charge l’interface [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2) . Cette interface prend en charge la méthode [**ShowContextMenu**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) . Vous pouvez appeler cette méthode pour appeler n’importe quel menu contextuel associé à une plage de texte. Le scénario est la correction automatique des plages de texte ou la sélection d’un candidat IME. Dans ce cas, un menu contextuel s’affiche et prend en charge l’interaction de l’utilisateur.
+à partir de Windows 8.1, les plages de texte peuvent prendre en charge l’interface [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2) . Cette interface prend en charge la méthode [**ShowContextMenu**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) . Vous pouvez appeler cette méthode pour appeler n’importe quel menu contextuel associé à une plage de texte. Le scénario est la correction automatique des plages de texte ou la sélection d’un candidat IME. Dans ce cas, un menu contextuel s’affiche et prend en charge l’interaction de l’utilisateur.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -183,6 +183,6 @@ L’interface [**IUIAutomationStylesPattern**](/windows/desktop/api/uiautomation
 [Utilisation de contrôles textuels](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

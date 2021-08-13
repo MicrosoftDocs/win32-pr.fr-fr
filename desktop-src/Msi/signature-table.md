@@ -1,19 +1,19 @@
 ---
-description: La table de signatures contient les informations qui identifient de façon unique une signature de fichier. Pour plus d’informations sur les signatures, consultez signatures numériques et Windows Installer.
+description: La table de signatures contient les informations qui identifient de façon unique une signature de fichier. pour plus d’informations sur les signatures, consultez signatures numériques et Windows Installer.
 ms.assetid: 4780356f-e02a-45d9-883c-4f84867dbdea
 title: Table de signature
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efb75155c4c7b8ddf4a82706bc38f09d0af75260
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5ddda5c501b24e12498f356c10a1aa2a3549426daca5e4cc3c19c1f62ed04cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106518763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624646"
 ---
 # <a name="signature-table"></a>Table de signature
 
-La table de signatures contient les informations qui identifient de façon unique une signature de fichier. Pour plus d’informations sur les signatures [, consultez signatures numériques et Windows Installer](digital-signatures-and-windows-installer.md).
+La table de signatures contient les informations qui identifient de façon unique une signature de fichier. pour plus d’informations sur les signatures [, consultez signatures numériques et Windows Installer](digital-signatures-and-windows-installer.md).
 
 La table de signatures contient les colonnes suivantes.
 
@@ -107,17 +107,17 @@ Langues prises en charge par le fichier.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette table est utilisée avec la [table AppSearch](appsearch-table.md).
 
 La signature est recherchée à l’aide de la [table RegLocator](reglocator-table.md), de la table [IniLocator](inilocator-table.md), de la table [CompLocator](complocator-table.md)et de la [table DrLocator](drlocator-table.md). Les colonnes de cette table ne sont généralement pas localisées. Si un auteur décide de rechercher des produits dans plusieurs langues, il peut y avoir une entrée distincte incluse dans le tableau pour chaque langue.
 
-La table de signatures suit généralement les [règles](file-versioning-rules.md)de contrôle de version de fichier Windows Installer. Les langues spécifiées dans la colonne languages de la table de signature ne sont pas évaluées à moins que les versions de fichiers soient équivalentes. La colonne languages permet de garantir qu’un fichier est d’une langue particulière s’il s’agit de la version demandée. Aucune méthode n’est disponible pour ignorer la colonne languages. Une valeur NULL entrée dans la colonne Languages est traitée comme un fichier sans langage et ne correspond pas à la signature de fichier d’un fichier dont la langue apparaît dans la table de signature. L’exemple suivant recherche une version particulière de MSI.DLL.
+la table de signatures suit généralement les [règles](file-versioning-rules.md)de contrôle de version de fichier Windows Installer. Les langues spécifiées dans la colonne languages de la table de signature ne sont pas évaluées à moins que les versions de fichiers soient équivalentes. La colonne languages permet de garantir qu’un fichier est d’une langue particulière s’il s’agit de la version demandée. Aucune méthode n’est disponible pour ignorer la colonne languages. Une valeur NULL entrée dans la colonne Languages est traitée comme un fichier sans langage et ne correspond pas à la signature de fichier d’un fichier dont la langue apparaît dans la table de signature. L’exemple suivant recherche une version particulière de MSI.DLL.
 
 [Table DrLocator](drlocator-table.md)
 
-| Signature\_ | Parent | Chemin d’accès                  | Profondeur |
+| Signature\_ | Parent | Chemin                  | Profondeur |
 |-------------|--------|-----------------------|-------|
 | MsiDll      | nul | c : \\ Windows \\ system32 | 0     |
 
@@ -149,7 +149,7 @@ Table de signature
 
  
 
-Dans ce cas, et sur Windows XP SP1, l' [action AppSearch](appsearch-action.md) définit MSIDLL sur c : \\ Windows \\ system32 \\msi.dll, car MSI.DLL est un fichier indépendant de la langue. Si la valeur de la colonne Languages est modifiée de 0 à 1033, l’action AppSearch ne parvient pas à trouver le msi.dll correspondant et la propriété MSIDLL n’est pas définie.
+dans ce cas, et sur Windows XP SP1, l' [action AppSearch](appsearch-action.md) définit MSIDLL sur c : \\ Windows \\ system32 \\msi.dll, car MSI.DLL est un fichier indépendant de la langue. Si la valeur de la colonne Languages est modifiée de 0 à 1033, l’action AppSearch ne parvient pas à trouver le msi.dll correspondant et la propriété MSIDLL n’est pas définie.
 
 Vous ne pouvez pas utiliser la table de signatures pour effectuer une requête sur des langues uniquement. Pour rechercher les différentes versions linguistiques d’un fichier, vous devez disposer d’une entrée distincte dans la table de signatures pour chaque version de langue. Si plusieurs langues sont fournies dans la colonne Languages, la recherche porte sur un fichier qui prend en charge toutes ces langues.
 

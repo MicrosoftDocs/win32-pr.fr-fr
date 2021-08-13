@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc0c049158250d0e19bfa01efb04bb583bc29f17
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: be3f4760c91ea76d4f9806a88c093bf763faab4905ecfc929eec10c6c6a01a3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516523"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687341"
 ---
 # <a name="modified-count-at-last-prom-attribute"></a>Attribut modified-Count-at-Last-Prom
 
@@ -45,7 +45,7 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |
@@ -78,10 +78,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |
@@ -99,10 +99,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |
@@ -120,10 +120,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |
@@ -141,10 +141,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |
@@ -162,10 +162,10 @@ Numéro de série du journal des modifications de l’ouverture de session au co
 |------------------------|----------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                 |
 | MAPI-Id                | \-                                                                                                 |
-| System-Only            | Faux                                                                                              |
-| Est de valeur unique       | Vrai                                                                                               |
-| Est indexé             | Faux                                                                                              |
-| Dans le catalogue global      | Faux                                                                                              |
+| System-Only            | False                                                                                              |
+| Est de valeur unique       | True                                                                                               |
+| Est indexé             | False                                                                                              |
+| Dans le catalogue global      | False                                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                       |
 | Range-Lower            | \-                                                                                                 |
 | Range-Upper            | \-                                                                                                 |

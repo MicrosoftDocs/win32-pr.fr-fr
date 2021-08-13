@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7d7c9fb1daa0934b5e6b3147f60803be5c0b5c07
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1b40230aa983154f9bfc85b3ffb0f08f713b00213259d18bb9b160374b670795
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118540345"
 ---
 # <a name="id3dx10font-interface"></a>Interface ID3DX10Font
 
@@ -53,7 +53,7 @@ L’interface **ID3DX10Font** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface ID3DX10Font est obtenue en appelant [**D3DX10CreateFont**](d3dx10createfont.md) ou [**D3DX10CreateFontIndirect**](d3dx10createfontindirect.md).
 

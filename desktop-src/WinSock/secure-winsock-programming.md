@@ -1,19 +1,19 @@
 ---
-description: Vous trouverez ci-dessous un guide de sécurisation de la programmation Windows Sockets.
+description: vous trouverez ci-dessous un guide pour sécuriser Windows la programmation de sockets.
 ms.assetid: 70210e86-ead6-4b0c-ae47-66b2ef0a8d11
 title: Programmation Winsock sécurisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70d7a0710a4446486835ec14435fa7d7ba1458c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2c3644e18a45da4a1d4fa9c20bd2d023ba41d02fed3014f2992c219601bf963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559717"
 ---
 # <a name="secure-winsock-programming"></a>Programmation Winsock sécurisée
 
-Vous trouverez ci-dessous un guide de sécurisation de la programmation Windows Sockets. Il est conçu pour fournir une compréhension de la sécurité Winsock et des options disponibles pour le développeur d’applications réseau sécurisées.
+vous trouverez ci-dessous un guide pour sécuriser Windows la programmation de sockets. Il est conçu pour fournir une compréhension de la sécurité Winsock et des options disponibles pour le développeur d’applications réseau sécurisées.
 
 -   [Utilisation \_ de so REUSEADDR et so \_ EXCLUSIVEADDRUSE](using-so-reuseaddr-and-so-exclusiveaddruse.md)
 -   [Extensions Winsock Secure Socket](winsock-secure-socket-extensions.md)

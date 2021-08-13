@@ -3,9 +3,9 @@ title: Méthode d’élément IWMPStringCollection
 description: La méthode Item retourne la chaîne à l’index spécifié.
 ms.assetid: 77546cb2-eda5-4bb8-97b9-55270461815f
 keywords:
-- Méthode Item lecteur Windows Media
-- Méthode Item lecteur Windows Media, interface IWMPStringCollection
-- Interface IWMPStringCollection lecteur Windows Media, méthode d’élément
+- méthode Item Lecteur Windows Media
+- méthode Item Lecteur Windows Media, interface IWMPStringCollection
+- Lecteur Windows Media de l’interface IWMPStringCollection, méthode Item
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f69bdc63448699a595238b9907f4b1253209ad06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47928502dce9ed4deb12461763a499de5d962aa1303b4c9cc5eacb02c7619da5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568425"
 ---
 # <a name="iwmpstringcollectionitem-method"></a>IWMPStringCollection :: Item, méthode
 
@@ -64,7 +64,7 @@ Implements IWMPStringCollection.Item
 
 **System. String** qui est la chaîne à l’index spécifié.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’interface **IWMPStringCollection** est utilisée pour récupérer l’ensemble de valeurs disponibles pour un attribut. Par exemple, la méthode **IWMPMediaCollection. getAttributeStringCollection** peut être utilisée pour récupérer une interface **IWMPStringCollection** représentant toutes les valeurs de l’attribut genre dans le type de média audio. La méthode **Item** peut ensuite être utilisée pour itérer au sein de toutes les valeurs possibles de l’attribut genre.
 

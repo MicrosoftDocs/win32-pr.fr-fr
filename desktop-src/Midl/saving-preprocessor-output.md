@@ -6,12 +6,12 @@ keywords:
 - MIDL du compilateur MIDL, enregistrement de la sortie du préprocesseur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ca1e07658fb2da525999e396b7c3da27add385
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f016885ac4d669d7b62eaf3ff1d5ee3154f03d5eae64fca5f63c6111dff4c931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641374"
 ---
 # <a name="saving-preprocessor-output"></a>Enregistrement de la sortie du préprocesseur
 
@@ -26,9 +26,9 @@ Cette directive compile stub. idl tout en préservant tous les fichiers de prép
 > [!Note]  
 > MIDL génère des exécutions distinctes du préprocesseur pour les fichiers IDL et ACF (le cas échéant), ainsi que pour chaque fichier importé.
 
- 
+ 
 
-Pour une compilation DCOM, plusieurs fichiers de préprocesseur sont généralement générés, même s’ils sont traités par MIDL comme un flux d’entrée contigu virtuel. Dans un environnement de programmation Windows classique, les fichiers temporaires se trouvent dans le répertoire Temp sous la forme de noms de fichiers tels que MID \* . tmp. En cas de préservation de la sortie du préprocesseur, il est recommandé de surveiller les fichiers récents dans le répertoire Temp pour identifier les fichiers qui sont associés à l’exécution du préprocesseur.
+Pour une compilation DCOM, plusieurs fichiers de préprocesseur sont généralement générés, même s’ils sont traités par MIDL comme un flux d’entrée contigu virtuel. dans un environnement de programmation Windows classique, les fichiers temporaires se trouvent dans le répertoire Temp sous la forme de noms de fichiers tels que MID \* . tmp. En cas de préservation de la sortie du préprocesseur, il est recommandé de surveiller les fichiers récents dans le répertoire Temp pour identifier les fichiers qui sont associés à l’exécution du préprocesseur.
 
 Dans les cas simples, par exemple lorsque le fichier IDL compilé n’importe pas d’autres fichiers directement ou indirectement, ou lorsque vous examinez le fichier de niveau supérieur, le préprocesseur peut être appelé directement. L’exécution directe du préprocesseur C/C++ peut révéler des erreurs masquées ou confuses par MIDL. Par exemple, les deux lignes de commande de préprocesseur suivantes peuvent être utilisées pour la ligne MIDL précédemment citée :
 
@@ -42,9 +42,9 @@ Le commutateur [**/CPP \_ OPT**](-cpp-opt.md) peut également être utilisé pou
 
 **MIDL-Oicf-Win32-CPP \_ OPT "/E/p-ID : \\ NT \\ public \\ SDK \\ Inc-DNTENV = 1" stub. idl**
 
- 
+ 
 
- 
+ 
 
 
 

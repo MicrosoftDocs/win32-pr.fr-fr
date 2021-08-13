@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a9e44de464f58fd1ffc0606551b9a0203ae9e9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a1e1e9cd15c1b219d07518c9630880a5010226c96c63d57539ffb66fab3a6c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643093"
 ---
 # <a name="dual-attribute"></a>dual (attribut)
 
@@ -61,7 +61,7 @@ Nom de l’interface à laquelle l’attribut **double** sera appliqué.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les interfaces identifiées par l’attribut **double** doivent être compatibles avec l’automatisation et être dérivées de [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch). Cet attribut n’est pas autorisé sur les dispinterfaces.
 
@@ -74,7 +74,7 @@ Une interface double fournit à la fois la vitesse de liaison VTBL directe et la
 > [!Note]  
 > Si votre application accède à des données d’objet en effectuant un cast du pointeur *This* dans l’appel d’interface, vous devez vérifier les pointeurs VTBL dans l’objet par rapport à vos propres pointeurs VTBL pour vous assurer que vous êtes connecté au proxy approprié.
 
- 
+ 
 
 Si vous spécifiez **double** sur une interface, cela signifie que l’interface est compatible avec Automation et, par conséquent, les \_ indicateurs TYPEFLAG FDUAL et TYPEFLAG \_ FOLEAUTOMATION sont définis.
 
@@ -123,6 +123,6 @@ interface IHello : IDispatch
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

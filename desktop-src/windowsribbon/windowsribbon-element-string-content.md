@@ -3,7 +3,7 @@ title: Propriété String. Content
 description: Représente le contenu d’une ressource de type chaîne.
 ms.assetid: 86f34cdc-1311-4f52-979f-201d71bbb9e9
 keywords:
-- Propriété String. Content du ruban Windows
+- propriété String. Content Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8912264e4f55568c190212227d2e305f9d676a1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 526062956c6ab7498caac8712ba932d6e7ac1f2dd6307359183d2529e35fc8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439504"
 ---
 # <a name="stringcontent-property"></a>Propriété String. Content
 
 Représente le contenu d’une ressource de type chaîne.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <String.Content/>
@@ -43,13 +43,13 @@ Il n’y a pas d’éléments enfants.
 
 | Élément                                                   |
 |-----------------------------------------------------------|
-| [**String**](windowsribbon-element-string.md)<br/> |
+| [**Chaîne**](windowsribbon-element-string.md)<br/> |
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Optionnel.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément de [**chaîne**](windowsribbon-element-string.md) .
 
@@ -80,8 +80,8 @@ L’exemple suivant illustre le balisage pour un élément [**Command. LabelTitl
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/> |
 
 
 

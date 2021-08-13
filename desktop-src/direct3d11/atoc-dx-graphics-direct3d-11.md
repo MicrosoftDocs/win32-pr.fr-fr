@@ -4,12 +4,12 @@ description: Graphismes Direct3D 11
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b038ecc2b1c55d1e0a2edab9dcb52065b51810
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: bd2847c271c3a5ad4ec04a7156b3ef552edea7112bdb84b8f8ba10d93f340d69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538628"
 ---
 # <a name="direct3d-11-graphics"></a>Graphismes Direct3D 11
 
@@ -23,7 +23,7 @@ Pour plus d’informations, consultez [fonctionnalités Direct3D 11](direct3d-11
 
 |                                   | Pris en charge                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| **Environnements d’exécution pris en charge**    | Windows/C++            |
+| **Environnements d’exécution pris en charge**    | Windows/C + +            |
 | **Langages de programmation recommandés** | C/C++                                                                                             |
 | **Client minimal pris en charge**          | Windows 7             |
 | **Serveur minimal pris en charge**          | Windows Server 2008 R2 |
@@ -41,9 +41,9 @@ Pour plus d’informations, consultez [fonctionnalités Direct3D 11](direct3d-11
 
  
 
-En plus de la prise en charge de Direct3D 11 par Windows 7 et versions ultérieures et Windows Server 2008 R2 et versions ultérieures, Direct3D 11 est disponible de bas niveau pour Windows Vista avec Service Pack 2 (SP2) et Windows Server 2008 en téléchargeant [kb 971644](https://support.microsoft.com/kb/971644) et [KB 971512](https://support.microsoft.com/kb/971512/).
+en plus de la prise en charge de direct3d 11 par Windows 7 et versions ultérieures et Windows server 2008 R2 et versions ultérieures, direct3d 11 est disponible de bas niveau pour Windows Vista avec Service Pack 2 (SP2) et Windows Server 2008 en téléchargeant [kb 971644](https://support.microsoft.com/kb/971644) et [kb 971512](https://support.microsoft.com/kb/971512/).
 
-Pour plus d’informations sur les nouvelles fonctionnalités Direct3D 11,1 incluses avec Windows 8, Windows Server 2012 et qui sont partiellement disponibles sur Windows 7 et Windows Server 2008 R2 via la [mise à jour de plateforme pour Windows 7](https://support.microsoft.com/kb/2670838), consultez [fonctionnalités Direct3D 11,1](direct3d-11-1-features.md) et [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7).
+pour plus d’informations sur les nouvelles fonctionnalités de direct3d 11,1 incluses dans Windows 8, Windows Server 2012 et sont partiellement disponibles sur Windows 7 et Windows Server 2008 R2 via la [mise à jour de plateforme pour Windows 7](https://support.microsoft.com/kb/2670838), consultez [fonctionnalités Direct3D 11,1](direct3d-11-1-features.md) et [mise à jour de plateforme pour Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7).
 
  
 

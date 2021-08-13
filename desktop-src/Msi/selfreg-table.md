@@ -4,12 +4,12 @@ ms.assetid: 7fe5c96e-16a4-49c9-9a93-616608aa55b2
 title: Table SelfReg
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5895b1d23369a7c121547fed841731b5d3e76ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61d00b9f18755cf3284edfd1ba9476b12ba6343c816dbafe84ac3c3676f663f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103760144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625505"
 ---
 # <a name="selfreg-table"></a>Table SelfReg
 
@@ -46,7 +46,7 @@ Coût de l’enregistrement du module en octets. Il doit s’agir d’un nombre 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les auteurs de packages d’installation sont fortement recommandés pour l’utilisation de l’inscription automatique. Au lieu de cela, ils doivent inscrire des modules en créant une ou plusieurs tables fournies par le programme d’installation à cet effet. Pour plus d’informations, consultez [Registry tables Group](registry-tables-group.md). La plupart des avantages offerts par un service d’installation central sont perdus avec l’inscription automatique, car les routines d’auto-inscription ont tendance à masquer les informations de configuration critiques. Voici quelques raisons pour lesquelles éviter l’inscription automatique :
 

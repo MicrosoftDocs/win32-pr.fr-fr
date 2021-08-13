@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0dc607dfb29f1448138d29c47ec8bd17a2fcd00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6c2f5be844bc10e76ad3bda030922a9cf905696ce67b25acbd8f558dd7e4472b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104479892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680972"
 ---
 # <a name="www-page-other-attribute"></a>Page Web-autre attribut
 
@@ -46,7 +46,7 @@ Liste de pages Web de remplacement.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,10 +58,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -79,10 +79,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -100,10 +100,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -121,10 +121,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -142,10 +142,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -163,10 +163,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -184,10 +184,10 @@ Liste de pages Web de remplacement.
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | 0x8175                          |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

@@ -3,7 +3,7 @@ title: XTYP_ADVREQ transaction (Ddeml. h)
 description: La \_ transaction XTYP ADVREQ informe le serveur qu’une transaction de notification est en suspens sur le nom de rubrique et la paire de noms d’éléments spécifiés et que les données correspondant à la paire nom de la rubrique et nom de l’élément ont changé.
 ms.assetid: 9bd43e61-cbd6-4d53-bab3-90e85819b16b
 keywords:
-- Échange de données de transaction XTYP_ADVREQ
+- XTYP_ADVREQ Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2884e838268342ab10c556c6ae3cfc8349ed5d2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 18e751f17fb8634b0a105a36af5036f07d0212532349c267e5526d5d41f09367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544884"
 ---
 # <a name="xtyp_advreq-transaction"></a>\_Transaction ADVREQ XTYP
 
-La transaction **XTYP \_ ADVREQ** informe le serveur qu’une transaction de notification est en suspens sur le nom de rubrique et la paire de noms d’éléments spécifiés et que les données correspondant à la paire nom de la rubrique et nom de l’élément ont changé. Le système envoie cette transaction à la fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), une fois que le serveur a appelé la fonction [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) .
+La transaction **XTYP \_ ADVREQ** informe le serveur qu’une transaction de notification est en suspens sur le nom de rubrique et la paire de noms d’éléments spécifiés et que les données correspondant à la paire nom de la rubrique et nom de l’élément ont changé. le système envoie cette transaction à la fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), une fois que le serveur a appelé la fonction [**DdePostAdvise**](/windows/desktop/api/Ddeml/nf-ddeml-ddepostadvise) .
 
 
 ```C++
@@ -102,7 +102,7 @@ Non utilisé.
 
 Le serveur doit d’abord appeler la fonction [**DdeCreateDataHandle**](/windows/desktop/api/Ddeml/nf-ddeml-ddecreatedatahandle) pour créer un handle de données qui identifie les données modifiées, puis retourner le descripteur. Le serveur doit retourner la **valeur null** s’il ne parvient pas à terminer la transaction.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **\_ bloc CBR** est ignoré.
 
@@ -137,7 +137,7 @@ Un serveur ne peut pas bloquer ce type de transaction ; le code de retour de **
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

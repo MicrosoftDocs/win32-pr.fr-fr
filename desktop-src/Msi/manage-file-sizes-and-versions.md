@@ -1,21 +1,21 @@
 ---
-description: Le WiFilVer.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer. L’exemple vous montre comment vous pouvez utiliser un script pour signaler ou mettre à jour la version de fichier, la taille et les informations de langue.
+description: le WiFilVer.vbs de fichiers VBScript est fourni dans les composants SDK Windows pour les développeurs Windows Installer. L’exemple vous montre comment vous pouvez utiliser un script pour signaler ou mettre à jour la version de fichier, la taille et les informations de langue.
 ms.assetid: 21550eea-c30b-4738-9201-ab500356fabf
 title: Gérer les tailles et les versions des fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426acf71956d87fe1458447119d79bc142f1ee75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79dcb5bec9b7fd24d7171efed9295479e56d979a3f7aa69352f2231d409417f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103752773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629040"
 ---
 # <a name="manage-file-sizes-and-versions"></a>Gérer les tailles et les versions des fichiers
 
-Le WiFilVer.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). L’exemple vous montre comment vous pouvez utiliser un script pour signaler ou mettre à jour la version de fichier, la taille et les informations de langue.
+le WiFilVer.vbs de fichiers VBScript est fourni dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md). L’exemple vous montre comment vous pouvez utiliser un script pour signaler ou mettre à jour la version de fichier, la taille et les informations de langue.
 
-L’exemple montre également Windows Installer actions, comment accéder à une base de données Windows Installer et utiliser les éléments suivants :
+l’exemple montre également Windows Installer actions, comment accéder à une base de données Windows Installer et utiliser les éléments suivants :
 
 -   Méthode [**installer. OpenDatabase**](installer-opendatabase.md) de l' [ **objet installer**](installer-object.md)
 -   [**Installer. FileAttributes,**](installer-fileattributes.md) propriété
@@ -31,7 +31,7 @@ L’exemple montre également Windows Installer actions, comment accéder à une
 -   [**Record. StringData,**](record-stringdata.md) propriété
 -   Propriété [**record. IntegerData**](record-integerdata.md) de l' [ **objet record**](record-object.md)
 
-L’utilisation de cet exemple nécessite la version CScript.exe ou WScript.exe de Windows Script Host. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une commande à l’invite de commandes en utilisant la syntaxe suivante :
+l’utilisation de cet exemple nécessite la version CScript.exe ou WScript.exe de Windows Script Host. Pour utiliser CScript.exe pour exécuter cet exemple, tapez une commande à l’invite de commandes en utilisant la syntaxe suivante :
 
 **cscript WiFilVer.vbs \[ chemin d’accès à la base de données \] \[ emplacements sources facultatifs\]**
 
@@ -41,7 +41,7 @@ Tenez également compte des éléments suivants :
 -   Pour rediriger la sortie vers un fichier, terminez la ligne de commande avec VBS > \[ *chemin d’accès au fichier* \] .
 -   L’exemple retourne la valeur 0 (zéro) pour Success, 1 (un) si l’aide est appelée, et 2 (deux) si le script échoue.
 
-Spécifiez la base de données Windows Installer que vous souhaitez mettre à jour, qui doit se trouver à la racine du fichier source. Toutefois, vous pouvez spécifier des sources pour la base de données à des emplacements distincts. Si la source est compressée, tous les fichiers sont ouverts à la racine.
+spécifiez la base de données Windows Installer que vous souhaitez mettre à jour, qui doit se trouver à la racine du fichier source. Toutefois, vous pouvez spécifier des sources pour la base de données à des emplacements distincts. Si la source est compressée, tous les fichiers sont ouverts à la racine.
 
 Les options suivantes peuvent être spécifiées à n’importe quel emplacement sur la ligne de commande.
 
@@ -56,7 +56,7 @@ Les options suivantes peuvent être spécifiées à n’importe quel emplacement
 
  
 
-Pour plus d’informations, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md) et [Windows Installer outils de développement](windows-installer-development-tools.md).
+pour plus d’informations, consultez [Windows Installer des exemples de scripts](windows-installer-scripting-examples.md) et [Windows Installer outils de développement](windows-installer-development-tools.md).
 
  
 

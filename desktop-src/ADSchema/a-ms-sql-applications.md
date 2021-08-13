@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-applications
+title: attribut MS-SQL-Applications
 description: Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 5.
 ms.assetid: 4907439e-8b1d-4e9e-8fce-6f4845f29c90
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD des attributs MS-SQL-applications
-- Schéma AD des attributs mS-SQL-applications
+- schéma AD de l’attribut MS-SQL-Applications
+- schéma AD de l’attribut mS-SQL-Applications
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 763f55b1e1adbe9b3fd23b43eb49948a487b18c9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 75c7ebd61f3ef75d80e22b26bb060010bd6012b57e3435b7fba0161f7d9ad4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686739"
 ---
-# <a name="ms-sql-applications-attribute"></a>Attribut MS-SQL-applications
+# <a name="ms-sql-applications-attribute"></a>attribut MS-SQL-Applications
 
 Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 5.
 
@@ -29,8 +29,8 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-applications                         |
-| LDAP-Display-Name | mS-SQL-applications                         |
+| CN                | MS-SQL-Applications                         |
+| LDAP-Display-Name | mS-SQL-Applications                         |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | \-                                          |
 | Fréquence des mises à jour  | \-                                          |
@@ -45,7 +45,7 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
@@ -78,10 +78,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
@@ -99,10 +99,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
@@ -120,10 +120,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
@@ -141,10 +141,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |
@@ -162,10 +162,10 @@ Non utilisé. La valeur par défaut est, Appl 1, Appl 2, Appl 3, Appl 4 et Appl 
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                            |
 | MAPI-Id                | \-                                                                                                                            |
-| System-Only            | Faux                                                                                                                         |
-| Est de valeur unique       | Faux                                                                                                                         |
-| Est indexé             | Faux                                                                                                                         |
-| Dans le catalogue global      | Faux                                                                                                                         |
+| System-Only            | False                                                                                                                         |
+| Est de valeur unique       | False                                                                                                                         |
+| Est indexé             | False                                                                                                                         |
+| Dans le catalogue global      | False                                                                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                  |
 | Range-Lower            | \-                                                                                                                            |
 | Range-Upper            | \-                                                                                                                            |

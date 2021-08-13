@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: baff2ba9607b5824b86ecbfbbcfcf0952cfdd39a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 499e3622394051dcb66937b276ffb65fc9ce03ca142d124d4574690e4e5b91dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685245"
 ---
 # <a name="ms-ds-az-last-imported-biz-rule-path-attribute"></a>attribut ms-DS-AZ-Last-importés-biz-Rule-Path
 
@@ -44,7 +44,7 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 |------------------------|---------------------------------------------------|
 | ID de lien                | \-                                                |
 | MAPI-Id                | \-                                                |
-| System-Only            | Faux                                             |
-| Est de valeur unique       | Vrai                                              |
-| Est indexé             | Faux                                             |
-| Dans le catalogue global      | Faux                                             |
+| System-Only            | False                                             |
+| Est de valeur unique       | True                                              |
+| Est indexé             | False                                             |
+| Dans le catalogue global      | False                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                      |
 | Range-Lower            | 0                                                 |
 | Range-Upper            | 65536                                             |
@@ -77,10 +77,10 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 |------------------------|---------------------------------------------------|
 | ID de lien                | \-                                                |
 | MAPI-Id                | \-                                                |
-| System-Only            | Faux                                             |
-| Est de valeur unique       | Vrai                                              |
-| Est indexé             | Faux                                             |
-| Dans le catalogue global      | Faux                                             |
+| System-Only            | False                                             |
+| Est de valeur unique       | True                                              |
+| Est indexé             | False                                             |
+| Dans le catalogue global      | False                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                      |
 | Range-Lower            | 0                                                 |
 | Range-Upper            | 65536                                             |
@@ -98,10 +98,10 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |
@@ -119,10 +119,10 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |
@@ -140,10 +140,10 @@ Dernier chemin d’accès à la règle d’entreprise importée.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |

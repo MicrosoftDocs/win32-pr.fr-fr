@@ -4,12 +4,12 @@ ms.assetid: 52b1c537-efb6-4bb8-9e7f-b4848be52a71
 title: Table _Validation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 666f00ccccda11706dce6a8d7e04e0efea91b7cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a42fbe2a2f8da4abceb04912eee2a12edd708ff88d979fbf45f7de8051dc80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640444"
 ---
 # <a name="_validation-table"></a>\_Tableau de validation
 
@@ -132,7 +132,7 @@ Description des données stockées dans la colonne.
 [ICE32](ice32.md)  
 </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le champ de catégorie de ce tableau s’applique uniquement aux données de chaîne. Si le champ de colonne fait référence à une colonne avec des données binaires, le type de données binaire doit être spécifié dans le champ catégorie. Les types de colonne de données Integer ignorent le champ Category pendant la validation.
 

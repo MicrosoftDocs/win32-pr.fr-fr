@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fd37ccab1b3faef6ca2c84a52c05249a52ff38a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: dc73585045701679899118f141d20575dcdf42f75c543f9a8dd1c269e4ca8dc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684264"
 ---
 # <a name="ms-ds-nc-repl-outbound-neighbors-attribute"></a>attribut ms-DS-NC-REPL-sortant-voisins
 
@@ -45,7 +45,7 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -78,10 +78,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -99,10 +99,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -120,10 +120,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -141,10 +141,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -162,10 +162,10 @@ Partenaires de réplication pour cette partition. Ce serveur envoie les données
 |------------------------|---------------------------------|
 | ID de lien                | \-                              |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

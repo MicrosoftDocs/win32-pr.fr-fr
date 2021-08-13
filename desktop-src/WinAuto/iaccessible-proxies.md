@@ -4,12 +4,12 @@ description: Les proxys IAccessible fournissent des informations d’accessibili
 ms.assetid: 236c2064-de44-4021-8825-f1519312dbfc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53dcb4cae8980e4003d9915c6783e4ddb043a8c8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c7a416c29021aca0dd99356792ae96f6a77e137e8c0ca0c884ba941229dd4b83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566054"
 ---
 # <a name="iaccessible-proxies"></a>Proxys IAccessible
 
@@ -21,7 +21,7 @@ Pour déterminer si un élément d’interface utilisateur prend en charge l’i
 
 ## <a name="what-information-is-exposed"></a>Informations exposées
 
-Oleacc.dll utilise le nom de classe Windows de l’élément d’interface utilisateur pour déterminer les informations qui doivent être exposées pour chacune de ses propriétés [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) et Comment collecter ces informations. Par exemple, Oleacc.dll appelle la fonction [**GetWindowText**](/windows/desktop/api/winuser/nf-winuser-getwindowtexta) pour récupérer la propriété [**Name**](name-property.md) d’un bouton de commande standard, mais appelle cette même fonction pour récupérer la propriété [**value**](value-property.md) d’un contrôle d’édition standard. En effet, Oleacc.dll mappe chaque méthode **IAccessible** à un appel de fonction ou de message spécifique à Microsoft Win32 ou spécifique au contrôle. En utilisant cette casse spéciale basée sur le nom de la classe, il peut retourner des informations significatives via les proxys **IAccessible** sans la prise en charge de Microsoft Active Accessibility sur le serveur.
+Oleacc.dll utilise le nom de classe de l’élément d’interface utilisateur Windows pour déterminer les informations qui doivent être exposées pour chacune de ses propriétés [**IAccessible**](/windows/desktop/api/oleacc/nn-oleacc-iaccessible) et comment collecter ces informations. Par exemple, Oleacc.dll appelle la fonction [**GetWindowText**](/windows/desktop/api/winuser/nf-winuser-getwindowtexta) pour récupérer la propriété [**Name**](name-property.md) d’un bouton de commande standard, mais appelle cette même fonction pour récupérer la propriété [**value**](value-property.md) d’un contrôle d’édition standard. En effet, Oleacc.dll mappe chaque méthode **IAccessible** à un appel de fonction ou de message spécifique à Microsoft Win32 ou spécifique au contrôle. En utilisant cette casse spéciale basée sur le nom de la classe, il peut retourner des informations significatives via les proxys **IAccessible** sans la prise en charge de Microsoft Active Accessibility sur le serveur.
 
 Les applications générées avec des éléments d’interface utilisateur standard bénéficient en général de la prise en charge complète de Microsoft Active Accessibility sans travail supplémentaire de développement. Les exceptions à cette règle sont des contrôles qui ont été sous-classés, qui ne stockent pas leurs propres chaînes (absence du style **HASSTRINGS** ) ou qui sont owner-drawn. Dans ces cas, Oleacc.dll ne peut pas collecter les informations dont il a besoin car les informations sont stockées en dehors du contrôle. Toutefois, dans la plupart de ces scénarios, les solutions de contournement établies ou l’utilisation de l’annotation dynamique permettent au serveur de coopérer avec les proxies fournis par Oleacc.dll.
 
@@ -29,6 +29,6 @@ Les applications générées avec des éléments d’interface utilisateur stand
 
 Si Oleacc.dll ne reconnaît pas le nom de classe de l’élément d’interface utilisateur, il crée un proxy générique qui expose le plus d’informations possible. Au plus, cela comprend le rectangle englobant de l’objet, l’objet parent, le nom (de [**WM \_ GETTEXT**](/windows/desktop/winmsg/wm-gettext)) et tous les enfants de la hiérarchie de la fenêtre.
 
- 
+ 
 
- 
+ 

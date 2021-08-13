@@ -1,19 +1,19 @@
 ---
-description: Cette rubrique explique comment utiliser le vérificateur de type de fichier fourni dans le kit de développement logiciel (SDK) Windows 7.
+description: cette rubrique explique comment utiliser le vérificateur de Type de fichier fourni dans le kit de développement logiciel (SDK) Windows 7.
 ms.assetid: 96FCA74B-DEB2-49D1-B670-EBD8BE0783F1
 title: Utilisation du vérificateur de type de fichier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f083897499f972f945867a0c02318df192e734d9
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 65af06de30d4fca2a9f5209d20e200153c061248576e7e94c8342cf9ae60e4f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104211139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223371"
 ---
 # <a name="how-to-use-the-file-type-verifier"></a>Utilisation du vérificateur de type de fichier
 
-Cette rubrique explique comment utiliser le vérificateur de type de fichier fourni dans le kit de [développement logiciel (SDK) Windows 7](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Si votre programme crée des types de fichiers avec lesquels les utilisateurs sont censés interagir à partir du shell Windows (généralement stocké dans le dossier connu d’un utilisateur tel que **Mes documents**), il est très important de tester votre application et de vérifier que les fichiers qu’elle crée sont correctement enregistrés et de fournir une expérience utilisateur de haute qualité lors de la navigation et de la recherche de fichiers. Cela est particulièrement important si vous prévoyez que les utilisateurs exécutent vos applications sur Windows 7, qui s’appuie sur des gestionnaires de types de fichiers de haute qualité pour la plupart des fonctionnalités de l’interpréteur de commandes.
+cette rubrique explique comment utiliser le vérificateur de Type de fichier fourni dans le kit de [développement logiciel (SDK) Windows 7](https://msdn.microsoft.com/windowsvista/bb980924.aspx). si votre programme crée des types de fichiers avec lesquels les utilisateurs sont censés interagir à partir du Shell Windows (généralement stocké dans le dossier connu d’un utilisateur tel que **mes Documents**), il est très important de tester votre application et de vérifier que les fichiers qu’elle crée sont correctement enregistrés et de fournir une expérience utilisateur de haute qualité lors de la navigation et de la recherche de fichiers. cela est particulièrement important si vous prévoyez que les utilisateurs exécutent vos applications sur Windows 7, qui s’appuie sur des gestionnaires de types de fichiers de haute qualité pour la plupart des fonctionnalités de l’interpréteur de commandes.
 
 Pour vérifier votre type de fichier à l’aide du vérificateur de type de fichier, procédez comme suit.
 
@@ -21,7 +21,7 @@ Pour vérifier votre type de fichier à l’aide du vérificateur de type de fic
 
 ### <a name="step-1"></a>Étape 1 :
 
-Installez l’application dans votre environnement de test et copiez le vérificateur de type de fichier dans cet environnement. Le vérificateur de type de fichier est disponible dans le [Kit de développement logiciel (SDK) Windows 7](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
+Installez l’application dans votre environnement de test et copiez le vérificateur de type de fichier dans cet environnement. le vérificateur de Type de fichier est disponible dans le [kit de développement logiciel (SDK) Windows 7](https://msdn.microsoft.com/windowsvista/bb980924.aspx).
 
 ### <a name="step-2"></a>Étape 2 :
 
@@ -41,7 +41,7 @@ La sélection de catégorie détermine l’ensemble des tests qui seront exécut
 
 ### <a name="step-5"></a>Étape 5 :
 
-À l’aide de l’Explorateur Windows, localisez un fichier à tester et utilisez la souris pour le faire glisser vers la cible dans le vérificateur de type de fichier, comme illustré dans la capture d’écran suivante.
+à l’aide de l’explorateur de Windows, localisez un fichier à tester et utilisez la souris pour le faire glisser vers la cible dans le vérificateur de Type de fichier, comme illustré dans la capture d’écran suivante.
 
 ![capture d’écran montrant la fonction glisser-déplacer](images/file-assoc/filetypeverifier2.png)
 

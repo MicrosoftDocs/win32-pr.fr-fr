@@ -4,12 +4,12 @@ ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: Logiciel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c124f925a1047dc7be6e8ba2882a039895801ebe
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c1d8cac8e45ee5c51ef8a49f7b212dfb4381adb760eaf3bc1d08b21b4f9c7464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463904"
 ---
 # <a name="software"></a>Logiciel
 
@@ -22,7 +22,7 @@ ms.locfileid: "108113787"
 | [System. AppUserModel. ExcludeFromShowInNewInstall](./props-system-appusermodel-excludefromshowinnewinstall.md)<br/> | Empêche une entrée de menu **Démarrer** pour un raccourci d’application récemment installé de recevoir une surbrillance.<br/>                                                                                                                                                                                                            |
 | [System.AppUserModel.ID](./props-system-appusermodel-id.md)<br/>                                                   | Un ID de modèle d’utilisateur d’application explicite (AppUserModelID) utilisé pour associer des processus, des fichiers et des fenêtres à une application particulière.<br/>                                                                                                                                                                             |
 | [System. AppUserModel. IsDestListSeparator](./props-system-appusermodel-isdestlistseparator.md)<br/>                 | Insère un séparateur dans la section **tâches** d’une liste de raccourcis.<br/>                                                                                                                                                                                                                                                      |
-| [System. AppUserModel. IsDualMode](props-system-appusermodel-isdualmode.md)<br/>                                          | Indique qu’une application prend en charge les modes immersif et double bureau. Dans Windows 8, cette propriété s’applique uniquement aux navigateurs Web.<br/>                                                                                                                                                                         |
+| [System. AppUserModel. IsDualMode](props-system-appusermodel-isdualmode.md)<br/>                                          | Indique qu’une application prend en charge les modes immersif et double bureau. dans Windows 8, cette propriété s’applique uniquement aux navigateurs web.<br/>                                                                                                                                                                         |
 | [System. AppUserModel. PreventPinning](./props-system-appusermodel-preventpinning.md)<br/>                           | Désactive la possibilité d’épingler un raccourci ou une fenêtre dans la barre des tâches ou dans le menu **Démarrer** . Cette propriété rend également l’élément inéligible pour l’inclusion dans la liste des plus fréquemment utilisés (MFU) du menu **Démarrer** .<br/>                                                                                               |
 | [System. AppUserModel. RelaunchCommand](./props-system-appusermodel-relaunchcommand.md)<br/>                         | Spécifie une commande qui peut être exécutée via [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) pour lancer une application lorsqu’elle est épinglée à la barre des tâches ou lorsqu’une nouvelle instance de l’application est lancée par le biais de la liste de raccourcis de l’application.<br/>                                                                      |
 | [System. AppUserModel. RelaunchDisplayNameResource](./props-system-appusermodel-relaunchdisplaynameresource.md)<br/> | Spécifie le nom complet utilisé pour le raccourci créé dans la barre des tâches lorsque l’utilisateur choisit d’épingler une application à la barre des tâches ou de lancer une nouvelle instance via la liste de raccourcis de son bouton.<br/>                                                                                                                       |

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 24166af15a250ec284eeb600b81bb8bb7d264369
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4a9e095c256ab920c431516f1b103ac3b7d4df4b1552f652762ea6ed06c2a3a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106519169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685694"
 ---
 # <a name="ms-ds-az-application-name-attribute"></a>ms-DS-AZ-application-name (attribut)
 
@@ -44,7 +44,7 @@ Chaîne qui identifie de façon unique un objet d’application.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Chaîne qui identifie de façon unique un objet d’application.
 |------------------------|-----------------------------------------------------------------|
 | ID de lien                | \-                                                              |
 | MAPI-Id                | \-                                                              |
-| System-Only            | Faux                                                           |
-| Est de valeur unique       | Vrai                                                            |
-| Est indexé             | Faux                                                           |
-| Dans le catalogue global      | Faux                                                           |
+| System-Only            | False                                                           |
+| Est de valeur unique       | True                                                            |
+| Est indexé             | False                                                           |
+| Dans le catalogue global      | False                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                    |
 | Range-Lower            | 0                                                               |
 | Range-Upper            | 512                                                             |
@@ -77,10 +77,10 @@ Chaîne qui identifie de façon unique un objet d’application.
 |------------------------|-----------------------------------------------------------------|
 | ID de lien                | \-                                                              |
 | MAPI-Id                | \-                                                              |
-| System-Only            | Faux                                                           |
-| Est de valeur unique       | Vrai                                                            |
-| Est indexé             | Faux                                                           |
-| Dans le catalogue global      | Faux                                                           |
+| System-Only            | False                                                           |
+| Est de valeur unique       | True                                                            |
+| Est indexé             | False                                                           |
+| Dans le catalogue global      | False                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                    |
 | Range-Lower            | 0                                                               |
 | Range-Upper            | 512                                                             |
@@ -98,10 +98,10 @@ Chaîne qui identifie de façon unique un objet d’application.
 |------------------------|-----------------------------------------------------------------|
 | ID de lien                | \-                                                              |
 | MAPI-Id                | \-                                                              |
-| System-Only            | Faux                                                           |
-| Est de valeur unique       | Vrai                                                            |
-| Est indexé             | Faux                                                           |
-| Dans le catalogue global      | Faux                                                           |
+| System-Only            | False                                                           |
+| Est de valeur unique       | True                                                            |
+| Est indexé             | False                                                           |
+| Dans le catalogue global      | False                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                    |
 | Range-Lower            | 0                                                               |
 | Range-Upper            | 512                                                             |
@@ -119,10 +119,10 @@ Chaîne qui identifie de façon unique un objet d’application.
 |------------------------|-----------------------------------------------------------------|
 | ID de lien                | \-                                                              |
 | MAPI-Id                | \-                                                              |
-| System-Only            | Faux                                                           |
-| Est de valeur unique       | Vrai                                                            |
-| Est indexé             | Faux                                                           |
-| Dans le catalogue global      | Faux                                                           |
+| System-Only            | False                                                           |
+| Est de valeur unique       | True                                                            |
+| Est indexé             | False                                                           |
+| Dans le catalogue global      | False                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                    |
 | Range-Lower            | 0                                                               |
 | Range-Upper            | 512                                                             |
@@ -140,10 +140,10 @@ Chaîne qui identifie de façon unique un objet d’application.
 |------------------------|-----------------------------------------------------------------|
 | ID de lien                | \-                                                              |
 | MAPI-Id                | \-                                                              |
-| System-Only            | Faux                                                           |
-| Est de valeur unique       | Vrai                                                            |
-| Est indexé             | Faux                                                           |
-| Dans le catalogue global      | Faux                                                           |
+| System-Only            | False                                                           |
+| Est de valeur unique       | True                                                            |
+| Est indexé             | False                                                           |
+| Dans le catalogue global      | False                                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                    |
 | Range-Lower            | 0                                                               |
 | Range-Upper            | 512                                                             |

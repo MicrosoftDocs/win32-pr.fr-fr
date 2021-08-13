@@ -15,12 +15,12 @@ keywords:
 - récupération des propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e199522dbefaa2f722a67b0ede57fe910b8ed63b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fbbe524e6f82f8c7dba018b24895ade54ced3e6a4632e1caefed410753b56fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564370"
 ---
 # <a name="retrieving-properties-from-ui-automation-elements"></a>Récupération de propriétés à partir d’éléments UI Automation
 
@@ -87,6 +87,6 @@ La différence entre [**IUIAutomationElement :: GetCurrentPropertyValue**](/win
 [Identificateurs de propriété](uiauto-entry-propids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27f2e2040acbc0e8f65c02f4f4ec7c3ad329959b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ca7dfa7e8cdc5b1df752a3a6eb442524157228d354079f262a27a5514860e335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642965"
 ---
 # <a name="max_is-attribute"></a>Max \_ is (attribut)
 
@@ -38,7 +38,7 @@ Spécifie une ou plusieurs expressions en langage C. Chaque expression prend la 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ Max \_ is \]** ne correspond pas nécessairement au nombre d’éléments du tableau. Pour un tableau de taille *n* en C, où le premier élément du tableau est l’élément numéro zéro, la valeur maximale pour un index de tableau valide est *n*– 1.
 
@@ -88,6 +88,6 @@ HRESULT Proc2(
 [**la taille \_ est**](size-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

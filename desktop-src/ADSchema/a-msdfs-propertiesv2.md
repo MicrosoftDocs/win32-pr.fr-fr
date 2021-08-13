@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cdb9592743b27ee4e63bde78693c299657716c7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a6e642dac8bbb955ff6f80eb31988c33dc47daa559e57f5ddbae2f8531a9b491
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686145"
 ---
 # <a name="ms-dfs-properties-v2-attribute"></a>MS-DFS-propriétés-attribut v2
 
@@ -42,7 +42,7 @@ Propriétés associées à la racine ou au lien DFS.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Propriétés associées à la racine ou au lien DFS.
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
-| System-Only            | Faux                                                                                                             |
-| Est de valeur unique       | Faux                                                                                                             |
-| Est indexé             | Faux                                                                                                             |
-| Dans le catalogue global      | Faux                                                                                                             |
+| System-Only            | False                                                                                                             |
+| Est de valeur unique       | False                                                                                                             |
+| Est indexé             | False                                                                                                             |
+| Dans le catalogue global      | False                                                                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                      |
 | Range-Lower            | 0                                                                                                                 |
 | Range-Upper            | 1 024                                                                                                              |
@@ -75,10 +75,10 @@ Propriétés associées à la racine ou au lien DFS.
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
-| System-Only            | Faux                                                                                                             |
-| Est de valeur unique       | Faux                                                                                                             |
-| Est indexé             | Faux                                                                                                             |
-| Dans le catalogue global      | Faux                                                                                                             |
+| System-Only            | False                                                                                                             |
+| Est de valeur unique       | False                                                                                                             |
+| Est indexé             | False                                                                                                             |
+| Dans le catalogue global      | False                                                                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                      |
 | Range-Lower            | 0                                                                                                                 |
 | Range-Upper            | 1 024                                                                                                              |
@@ -96,10 +96,10 @@ Propriétés associées à la racine ou au lien DFS.
 |------------------------|-------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                |
 | MAPI-Id                | \-                                                                                                                |
-| System-Only            | Faux                                                                                                             |
-| Est de valeur unique       | Faux                                                                                                             |
-| Est indexé             | Faux                                                                                                             |
-| Dans le catalogue global      | Faux                                                                                                             |
+| System-Only            | False                                                                                                             |
+| Est de valeur unique       | False                                                                                                             |
+| Est indexé             | False                                                                                                             |
+| Dans le catalogue global      | False                                                                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                      |
 | Range-Lower            | 0                                                                                                                 |
 | Range-Upper            | 1 024                                                                                                              |

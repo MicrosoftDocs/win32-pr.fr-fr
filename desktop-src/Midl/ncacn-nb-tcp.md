@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d59a544c592643cffcb282ba8a0f3fdab48c03fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 683be3c986c81feb270d5d502f3da0f56a65d78973c60e4b664c2e4bd75e0494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642164"
 ---
 # <a name="ncacn_nb_tcp-attribute"></a>\_ \_ attribut TCP ncacn NB
 
@@ -38,14 +38,14 @@ Spécifie une valeur 8 bits facultative comprise entre 1 et 254. Les valeurs inf
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe de la chaîne de port NetBIOS, comme toutes les chaînes de port, est définie par l’implémentation de transport et est indépendante de la spécification IDL. Le compilateur MIDL effectue une vérification de syntaxe limitée, mais ne garantit pas que la spécification du point de terminaison est correcte. Certaines classes d’erreurs peuvent être signalées au moment de l’exécution plutôt qu’au moment de la compilation.
 
 > [!Note]  
 > Cette famille de protocoles n’est pas prise en charge dans WindowsÂ XP.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -89,6 +89,6 @@ interface iface
 [**liaison de chaîne**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

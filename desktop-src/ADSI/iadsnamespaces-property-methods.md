@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b30467e931d7e8790f9a17542d5da2070525fe0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8daeed67202add437ee06b9905cbd70a0c202863c476155216f2340be1c7b70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103742693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691427"
 ---
 # <a name="iadsnamespaces-property-methods"></a>Méthodes de propriété IADsNamespaces
 
@@ -73,7 +73,7 @@ HRESULT put_DefaultContainer(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les fournisseurs doivent fournir cette propriété pour chaque utilisateur. Le conteneur par défaut est défini immédiatement après l’appel de **IADsNamespaces ::p ut \_ DefaultContainer**. L’appel de [**IADs. setinfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo) n’est pas requis. En fait, l’objet espaces de noms fourni par le système renvoie **E \_ NOTIMPL** pour la méthode **IADs. setinfo** appelée sur cet objet. Lorsqu’un conteneur est l’objet Namespaces, une opération d’énumération produit toujours une liste d’objets d’espace de noms spécifiques au fournisseur. Quand [**IADsContainer. GetObject**](/windows/desktop/api/Iads/nf-iads-iadscontainer-getobject) est utilisé pour obtenir un objet Namespace, le paramètre *bstrClass* est ignoré. Cela est dû au fait que le conteneur, autrement dit, l’objet Namespaces, contient un seul type d’objet, à savoir les objets d’espace de noms spécifiques au fournisseur.
 

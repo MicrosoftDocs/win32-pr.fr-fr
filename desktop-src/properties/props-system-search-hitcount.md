@@ -1,19 +1,19 @@
 ---
-description: Lors de l’utilisation de CONTAINs sur l’index de recherche Windows, il s’agit du nombre de correspondances du terme. S’il y a plusieurs CONTAINs, un et calcule le nombre minimal d’accès, et un ou calcule le nombre maximal d’accès.
+description: lors de l’utilisation de contains sur le Windows Index de recherche, il s’agit du nombre de correspondances du terme. S’il y a plusieurs CONTAINs, un et calcule le nombre minimal d’accès, et un ou calcule le nombre maximal d’accès.
 ms.assetid: 2f0cddba-7535-451f-9bb5-846c06c426f8
 title: System. Search. HitCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bb3954d891c1f7c913036449094c27f64cea7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3836a6548197ee8a142e3a2db973808a9295a10aef119229d8d132dd8189aac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464914"
 ---
 # <a name="systemsearchhitcount"></a>System. Search. HitCount
 
-Lors de l’utilisation de CONTAINs sur l’index de recherche Windows, il s’agit du nombre de correspondances du terme. S’il y a plusieurs CONTAINs, un et calcule le nombre minimal d’accès, et un ou calcule le nombre maximal d’accès.
+lors de l’utilisation de contains sur le Windows Index de recherche, il s’agit du nombre de correspondances du terme. S’il y a plusieurs CONTAINs, un et calcule le nombre minimal d’accès, et un ou calcule le nombre maximal d’accès.
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10, version 1703, Windows 10, version 1607, Windows 10, version 1511, Windows 10, version 1507, Windows 8.1, Windows 8, Windows 7, Windows Vista
 
@@ -31,7 +31,7 @@ propertyDescription
       IsInnate = true
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

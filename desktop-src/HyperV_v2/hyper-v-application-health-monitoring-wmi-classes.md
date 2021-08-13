@@ -4,12 +4,12 @@ ms.assetid: C9A74F6A-F3DB-46FE-A9D5-ADAC185B5995
 title: Classes WMI de surveillance de l’intégrité des applications Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7f2a203a5606399d44dca09f69326d33782bf03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78f424d85c2b3f26bb3212992ab0d64e738c101c7908c5e5c214c27d08d65bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106527413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118645496"
 ---
 # <a name="hyper-v-application-health-monitoring-wmi-classes"></a>Classes WMI de surveillance de l’intégrité des applications Hyper-V
 

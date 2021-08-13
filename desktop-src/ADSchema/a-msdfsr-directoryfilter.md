@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3d8fe6ed8c5160b771f37f76c32944ef1ed0f9f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7978db7c7dbdb478574a05c5ca3622a1043c7acd85b967ccf813a3a1b6a65899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685865"
 ---
 # <a name="ms-dfsr-directoryfilter-attribute"></a>attribut ms-DFSR-DirectoryFilter
 
@@ -43,7 +43,7 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,10 +55,10 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 |------------------------|--------------------------------------------------------------|
 | ID de lien                | \-                                                           |
 | MAPI-Id                | \-                                                           |
-| System-Only            | Faux                                                        |
-| Est de valeur unique       | Vrai                                                         |
-| Est indexé             | Faux                                                        |
-| Dans le catalogue global      | Faux                                                        |
+| System-Only            | False                                                        |
+| Est de valeur unique       | True                                                         |
+| Est indexé             | False                                                        |
+| Dans le catalogue global      | False                                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                 |
 | Range-Lower            | 0                                                            |
 | Range-Upper            | 32767                                                        |
@@ -76,10 +76,10 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                 |
+| System-Only            | False                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                  |
+| Est indexé             | False                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                          |
 | Range-Lower            | 0                                                                                                                                     |
 | Range-Upper            | 32767                                                                                                                                 |
@@ -97,10 +97,10 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                 |
+| System-Only            | False                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                  |
+| Est indexé             | False                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                          |
 | Range-Lower            | 0                                                                                                                                     |
 | Range-Upper            | 32767                                                                                                                                 |
@@ -118,10 +118,10 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                    |
 | MAPI-Id                | \-                                                                                                                                    |
-| System-Only            | Faux                                                                                                                                 |
-| Est de valeur unique       | Vrai                                                                                                                                  |
-| Est indexé             | Faux                                                                                                                                 |
-| Dans le catalogue global      | Faux                                                                                                                                 |
+| System-Only            | False                                                                                                                                 |
+| Est de valeur unique       | True                                                                                                                                  |
+| Est indexé             | False                                                                                                                                 |
+| Dans le catalogue global      | False                                                                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                          |
 | Range-Lower            | 0                                                                                                                                     |
 | Range-Upper            | 32767                                                                                                                                 |
@@ -131,7 +131,7 @@ Contient la chaîne de filtrage appliquée aux répertoires.
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-DirectoryFilter** fait partie de la prise en charge du service de réplication système de fichiers DFS (DFS).
 

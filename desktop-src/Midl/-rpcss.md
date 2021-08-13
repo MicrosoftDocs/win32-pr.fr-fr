@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dabdd6340005c4e56080dc91bdd372a858e0e7a3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3e0c3087f47bd12c852ef168b2684d5b094239cdac45933c8e7d831fc6461c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643739"
 ---
 # <a name="rpcss-switch"></a>commutateur/RPCSS
 
@@ -31,7 +31,7 @@ midl /rpcss
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 En mode par défaut, le package RpcSs est activé uniquement si la procédure ou l’interface a l’attribut [**Enable \_ allocate**](enable-allocate.md) ou si le commutateur **/RPCSS** est spécifié sur la ligne de commande. En mode **/OSF** , le stub côté serveur Active le package d’allocation rpcss.
 
@@ -55,9 +55,9 @@ En mode par défaut, le package RpcSs est activé uniquement si la procédure ou
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

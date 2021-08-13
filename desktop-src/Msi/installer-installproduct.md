@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 08bab1081aae186b40494cff777163679847b44b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1605fc0f2e955d6f0364159779ae90f8f59e9ace0f3ff14a1106f7623ab7d99d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535240"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630391"
 ---
 # <a name="installerinstallproduct-method"></a>Installer. InstallProduct, méthode
 
@@ -60,7 +60,7 @@ Pour effectuer une installation administrative, incluez ACTION = ADMIN dans *pro
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour supprimer complètement un produit, définissez REMOVE = ALL dans *propertyValues*. Pour plus d’informations, consultez [**Remove**](remove.md) Property.
 

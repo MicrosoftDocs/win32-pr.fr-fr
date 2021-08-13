@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2e09d040f9d4530bee4347528d704cfe2e9403b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b188c59be8ca6fc6c1d171c4c030fa222e0fb8d4ac22622979304d975d74a08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106523335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118646322"
 ---
 # <a name="cim_wifiendpoint-class"></a>\_Classe CIM WiFiEndpoint
 
@@ -338,14 +338,14 @@ Le type EAP (Extensible Authentication Protocol) pour le point de terminaison Wi
 
 <span id="EAP-FAST_MSCHAPv2"></span><span id="eap-fast_mschapv2"></span><span id="EAP-FAST_MSCHAPV2"></span>
 
-**EAP-FAST/MSCHAPv2** (4)
+**/MSCHAPv2 EAP-FAST** (4)
 
 
 </dt> <dd></dd> <dt>
 
 <span id="EAP-FAST_GTC"></span><span id="eap-fast_gtc"></span>
 
-**EAP-FAST/GTC** (5)
+**/GTC EAP-FAST** (5)
 
 
 </dt> <dd></dd> <dt>
@@ -380,7 +380,7 @@ Le type EAP (Extensible Authentication Protocol) pour le point de terminaison Wi
 
 <span id="EAP-FAST_TLS"></span><span id="eap-fast_tls"></span>
 
-**EAP-FAST/TLS** (10)
+**/TLS EAP-FAST** (10)
 
 
 </dt> <dd></dd> <dt>

@@ -7,12 +7,12 @@ keywords:
 - Connexion à Active Directory ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7626f01b644a0bb1a3acb39c5ef5ead70434e21e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6afd5aa0edd8a4c4a87bae7cde6a135fc3467771eed2dbc0cb7673984040832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692007"
 ---
 # <a name="connecting-to-active-directory"></a>Connexion à Active Directory
 
@@ -36,7 +36,7 @@ Set obj = GetObject("LDAP://mysrv01")
 
 
 
-Dans un autre scénario, vous pouvez uniquement connaître le nom de domaine, mais pas le nom de serveur spécifique. Là encore, ADSI vous permet de spécifier le nom de domaine. Dans Windows 2000, le nom de domaine est représenté sous la forme d’un nom DNS. Par exemple, si Joe worden, l’administrateur réseau, choisit de se connecter à l’aide du nom de domaine, il peut utiliser l’exemple de code suivant.
+Dans un autre scénario, vous pouvez uniquement connaître le nom de domaine, mais pas le nom de serveur spécifique. Là encore, ADSI vous permet de spécifier le nom de domaine. dans Windows 2000, le nom de domaine est représenté sous la forme d’un nom DNS. Par exemple, si Joe worden, l’administrateur réseau, choisit de se connecter à l’aide du nom de domaine, il peut utiliser l’exemple de code suivant.
 
 
 ```VB
@@ -54,9 +54,9 @@ ADSI se connectera à l’un des contrôleurs de domaine dans le domaine fabrika
 [Liaison à des objets Active Directory](binding-to-active-directory-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

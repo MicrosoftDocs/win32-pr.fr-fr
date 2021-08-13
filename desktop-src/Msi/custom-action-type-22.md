@@ -1,15 +1,15 @@
 ---
-description: Les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 22 quand les actions standard sont insuffisantes pour exécuter l’installation.
+description: les développeurs de packages de Windows Installer peuvent choisir d’utiliser une action personnalisée de type 22 quand les actions standard sont insuffisantes pour exécuter l’installation.
 ms.assetid: 6838f59b-e1bc-42c6-a7fe-3d32791adfac
 title: Type d’action personnalisée 22
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a00b4772b1d2532c0291223cc5c4b6a63ead9324
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fe14690ec1d966abfe1ead0b7856360270570f30e2aaf2e93ea81181962ec8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637903"
 ---
 # <a name="custom-action-type-22"></a>Type d’action personnalisée 22
 
@@ -33,7 +33,7 @@ Incluez la valeur suivante dans la colonne type de la [table CustomAction](custo
 
  
 
-Windows Installer pouvez utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
+Windows Le programme d’installation peut utiliser des actions personnalisées 64 bits sur les systèmes d’exploitation 64 bits. Une action personnalisée 64 bits basée sur des scripts doit inclure le bit **msidbCustomActionType64BitScript** dans son type numérique. Pour plus d’informations [, consultez actions personnalisées 64 bits](64-bit-custom-actions.md). Incluez la valeur suivante dans la colonne type de la [table CustomAction](customaction-table.md) pour spécifier le type numérique de base d’une action personnalisée 64 bits.
 
 
 
@@ -63,11 +63,11 @@ Incluez des bits d’indicateur facultatifs dans la colonne type de la [table Cu
 
 ## <a name="return-values"></a>Valeurs de retour
 
-Les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans les [valeurs de retour des actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
+les fonctions facultatives écrites dans le script doivent retourner l’une des valeurs décrites dans [valeurs de retour des Actions personnalisées JScript et VBScript](return-values-of-jscript-and-vbscript-custom-actions.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Une action personnalisée écrite en JScript ou VBScript requiert l' [**objet de session**](session-object.md)d’installation. Il s’agit de l' **objet de session** de type et le programme d’installation l’attache au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
+une action personnalisée écrite en JScript ou VBScript requiert l' [**objet de Session**](session-object.md)d’installation. Il s’agit de l' **objet de session** de type et le programme d’installation l’attache au script avec le nom « session ». Étant donné que l’objet **session** n’existe peut-être pas lors d’une restauration de l’installation, une action personnalisée différée écrite dans le script doit utiliser l’une des méthodes ou propriétés de l’objet **session** décrit dans la section [obtention d’informations de contexte pour les actions personnalisées d’exécution différée](obtaining-context-information-for-deferred-execution-custom-actions.md) afin d’extraire son contexte.
 
 Les actions personnalisées qui font référence à un fichier installé comme source, telles que l’action personnalisée type 22 (VBcript), doivent respecter les restrictions de séquencement suivantes :
 

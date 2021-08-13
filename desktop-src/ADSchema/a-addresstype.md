@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ece3b396d619272c616ff1a959d01efb64ccd46
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: eec2ce0ff9651350803a05b3b3bf3dda663419c9948617b706688bf78057ad72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688486"
 ---
 # <a name="address-type-attribute"></a>Attribut Address-Type
 
@@ -45,7 +45,7 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -78,10 +78,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -99,10 +99,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -120,10 +120,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -141,10 +141,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |
@@ -162,10 +162,10 @@ Chaîne de caractères qui décrit le format de l’adresse de l’utilisateur. 
 |------------------------|----------------------------------------------------------|
 | ID de lien                | \-                                                       |
 | MAPI-Id                | 0x8048                                                   |
-| System-Only            | Faux                                                    |
-| Est de valeur unique       | Vrai                                                     |
-| Est indexé             | Faux                                                    |
-| Dans le catalogue global      | Faux                                                    |
+| System-Only            | False                                                    |
+| Est de valeur unique       | True                                                     |
+| Est indexé             | False                                                    |
+| Dans le catalogue global      | False                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                             |
 | Range-Lower            | 1                                                        |
 | Range-Upper            | 32                                                       |

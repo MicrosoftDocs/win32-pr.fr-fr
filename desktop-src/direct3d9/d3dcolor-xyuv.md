@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 12d539e44528c5e54a54209763e4cbe262cd16f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: caa6bc1eb9586c1526a7af674040fd703ff0a75a5055ce42e13378206e82c879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103870086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300323"
 ---
 # <a name="d3dcolor_xyuv-macro"></a>D3DCOLOR \_ macro XYUV
 
@@ -62,7 +62,7 @@ Luminosité rouge de la couleur. Cette valeur doit être comprise entre 0 et 255
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Retourne la valeur [**D3DCOLOR**](d3dcolor.md) qui correspond aux valeurs fournies (y, u, v).
 

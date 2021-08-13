@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc43277bb3750ee0e759baa4348e85ef826ce010
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 44d145bc355693db149a98d5c38c200df2b9785dc6ad37af75c36d18e1add164
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687531"
 ---
 # <a name="min-ticket-age-attribute"></a>Attribut min-ticket-Age
 
@@ -45,7 +45,7 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -78,10 +78,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -99,10 +99,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -120,10 +120,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -141,10 +141,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |
@@ -162,10 +162,10 @@ Cet attribut détermine la période minimale, en heures, pendant laquelle le tic
 |------------------------|----------------------------------------------------|
 | ID de lien                | \-                                                 |
 | MAPI-Id                | \-                                                 |
-| System-Only            | Faux                                              |
-| Est de valeur unique       | Vrai                                               |
-| Est indexé             | Faux                                              |
-| Dans le catalogue global      | Faux                                              |
+| System-Only            | False                                              |
+| Est de valeur unique       | True                                               |
+| Est indexé             | False                                              |
+| Dans le catalogue global      | False                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                       |
 | Range-Lower            | \-                                                 |
 | Range-Upper            | \-                                                 |

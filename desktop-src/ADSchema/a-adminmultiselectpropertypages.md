@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e653568d4f8f6653e4c7dc939c91a7d3cd8b83c6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ed42d2383d194ca417a381da8ef0e849b4d4b6b93665fd7d360df2829f7e0d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106514879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688393"
 ---
 # <a name="admin-multiselect-property-pages-attribute"></a>Attribut admin-MultiSelect-Property-pages
 
@@ -33,7 +33,7 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 | LDAP-Display-Name | adminMultiselectPropertyPages                                                                                                               |
 | Taille              | 40 octets                                                                                                                                    |
 | Mettre à jour le privilège  | Administrateur de domaine                                                                                                                        |
-| Fréquence des mises à jour  | Cela sera uniquement mis à jour si un service comme Exchange ou Terminal Server est installé et implémente ses propres pages de propriétés à sélection multiple. |
+| Fréquence des mises à jour  | elle est mise à jour uniquement si un service comme Exchange ou Terminal Server est installé et implémente ses propres pages de propriétés à sélection multiple. |
 | Attribute-Id      | 1.2.840.113556.1.4.1690                                                                                                                     |
 | System-ID-GUID    | 18f9b67d-5ac6-4b3b-97db-d0a406afb7ba                                                                                                        |
 | Syntaxe            | [**String(Unicode)**](s-string-unicode.md)                                                                                                 |
@@ -44,7 +44,7 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -77,10 +77,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -98,10 +98,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -119,10 +119,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |
@@ -140,10 +140,10 @@ Il s’agit d’un attribut à valeurs multiples dont les valeurs sont un nombre
 |------------------------|------------------------------------------------------------|
 | ID de lien                | \-                                                         |
 | MAPI-Id                | \-                                                         |
-| System-Only            | Faux                                                      |
-| Est de valeur unique       | Faux                                                      |
-| Est indexé             | Faux                                                      |
-| Dans le catalogue global      | Faux                                                      |
+| System-Only            | False                                                      |
+| Est de valeur unique       | False                                                      |
+| Est indexé             | False                                                      |
+| Dans le catalogue global      | False                                                      |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                               |
 | Range-Lower            | \-                                                         |
 | Range-Upper            | \-                                                         |

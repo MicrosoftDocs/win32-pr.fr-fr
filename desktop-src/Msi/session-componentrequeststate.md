@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 17ec77c5498a808e0d7ac0f2881057979d7db0c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3cef17ab3a4781f925e92968bd50dfedddd9a0df8e1781a2f209712fc447ef10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106538122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625235"
 ---
 # <a name="sessioncomponentrequeststate-property"></a>Session. ComponentRequestState, propriété
 
@@ -39,7 +39,7 @@ propVal = Session.ComponentRequestState
 
 Nom de chaîne requis de l’élément de composant, clé primaire de la table des composants.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 

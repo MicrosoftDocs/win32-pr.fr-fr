@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 7af3c7c33b17e14c3adbdd70f3d2031e7438747a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb85466da6b7492d04bd2e69f4cd51c0c390e9595df13af8d7e6768596771822
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106545151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562592"
 ---
 # <a name="iwinhttprequestsetproxy-method"></a>IWinHttpRequest :: SetProxy, méthode
 
@@ -80,14 +80,14 @@ Défini sur une chaîne de liste de contournement de domaine lorsque *ProxySetti
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Permet à l’application appelante de spécifier l’utilisation des informations de proxy par défaut (configurées par l’outil de configuration de proxy) ou de substituer les [Proxycfg.exe](proxycfg-exe--a-proxy-configuration-tool.md). Cette méthode doit être appelée avant d’appeler la méthode [**Send**](iwinhttprequest-send.md) . Si cette méthode est appelée après la méthode [**Send**](iwinhttprequest-send.md) , elle n’a aucun effet.
 
-[**IWinHttpRequest**](iwinhttprequest-interface.md) transmet ces paramètres aux services http Microsoft Windows (WinHTTP).
+[**IWinHttpRequest**](iwinhttprequest-interface.md) transmet ces paramètres à Microsoft Windows HTTP Services (WinHTTP).
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
@@ -236,8 +236,8 @@ WScript.Echo( WinHttpReq.ResponseText);
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

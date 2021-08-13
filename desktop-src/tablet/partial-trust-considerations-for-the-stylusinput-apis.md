@@ -4,12 +4,12 @@ ms.assetid: 32c26632-03f4-4f21-8c67-ebf38b67d251
 title: Considérations relatives à la confiance partielle pour l’API StylusInput
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceda5edfb2e4133bb0fcb3d260ff1e13f9fdb521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 596e8b50692ae09e9fbaf73f9254afbec8f29d6481a2dc3e27727beb27546441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449349"
 ---
 # <a name="partial-trust-considerations-for-the-stylusinput-api"></a>Considérations relatives à la confiance partielle pour l’API StylusInput
 

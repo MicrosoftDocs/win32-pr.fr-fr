@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea3afff67c417f8bf2786421bb991f530e753b3e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 13a675561bbed7fc4fb8ebad9846d1896a3f94ddd4ed4d7d456adc40958d8418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687799"
 ---
 # <a name="meetingip-attribute"></a>attribut meetingIP
 
@@ -44,7 +44,7 @@ Adresse TCP/IP de la réunion.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |
@@ -77,10 +77,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |
@@ -98,10 +98,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |
@@ -119,10 +119,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |
@@ -140,10 +140,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |
@@ -161,10 +161,10 @@ Adresse TCP/IP de la réunion.
 |------------------------|-----------------------------------------|
 | ID de lien                | \-                                      |
 | MAPI-Id                | \-                                      |
-| System-Only            | Faux                                   |
-| Est de valeur unique       | Vrai                                    |
-| Est indexé             | Faux                                   |
-| Dans le catalogue global      | Faux                                   |
+| System-Only            | False                                   |
+| Est de valeur unique       | True                                    |
+| Est indexé             | False                                   |
+| Dans le catalogue global      | False                                   |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                            |
 | Range-Lower            | \-                                      |
 | Range-Upper            | \-                                      |

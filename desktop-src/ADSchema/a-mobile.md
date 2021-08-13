@@ -1,10 +1,10 @@
 ---
-title: Téléphone-mobile-attribut principal
+title: attribut principal Téléphone-Mobile
 description: Numéro de téléphone mobile principal.
 ms.assetid: c35fbaf1-e3f2-45df-98bd-e47ed79373ee
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD-mobile-attribut principal
+- Téléphone-Mobile-schéma AD d’attribut principal
 - Schéma AD de l’attribut mobile
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d44a6ad48ffa8a592238eca1b0aa1d8cbc873f8f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 65002852c265c53f35abd5ff42a2fb2a74d8c0eade4c96bfc72720cdf30ba2d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687493"
 ---
-# <a name="phone-mobile-primary-attribute"></a>Téléphone-mobile-attribut principal
+# <a name="phone-mobile-primary-attribute"></a>attribut principal Téléphone-Mobile
 
 Numéro de téléphone mobile principal.
 
@@ -29,7 +29,7 @@ Numéro de téléphone mobile principal.
 
 | Entrée | Valeur |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | Téléphone-mobile-principal                                                             |
+| CN                | Téléphone-Mobile-principal                                                             |
 | LDAP-Display-Name | mobile                                                                           |
 | Taille              | \-                                                                               |
 | Mettre à jour le privilège  | Administrateur de domaine ou propriétaire du compte.                                           |
@@ -45,7 +45,7 @@ Numéro de téléphone mobile principal.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Numéro de téléphone mobile principal.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x3A1C                                                             |
-| System-Only            | Faux                                                              |
-| Est de valeur unique       | Vrai                                                               |
-| Est indexé             | Faux                                                              |
-| Dans le catalogue global      | Faux                                                              |
+| System-Only            | False                                                              |
+| Est de valeur unique       | True                                                               |
+| Est indexé             | False                                                              |
+| Dans le catalogue global      | False                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |
@@ -78,10 +78,10 @@ Numéro de téléphone mobile principal.
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A1C                                                                                                                                                   |
-| System-Only            | Faux                                                                                                                                                    |
-| Est de valeur unique       | Vrai                                                                                                                                                     |
-| Est indexé             | Faux                                                                                                                                                    |
-| Dans le catalogue global      | Faux                                                                                                                                                    |
+| System-Only            | False                                                                                                                                                    |
+| Est de valeur unique       | True                                                                                                                                                     |
+| Est indexé             | False                                                                                                                                                    |
+| Dans le catalogue global      | False                                                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                             |
 | Range-Lower            | 1                                                                                                                                                        |
 | Range-Upper            | 64                                                                                                                                                       |
@@ -99,10 +99,10 @@ Numéro de téléphone mobile principal.
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A1C                                                                                                                                                   |
-| System-Only            | Faux                                                                                                                                                    |
-| Est de valeur unique       | Vrai                                                                                                                                                     |
-| Est indexé             | Faux                                                                                                                                                    |
-| Dans le catalogue global      | Faux                                                                                                                                                    |
+| System-Only            | False                                                                                                                                                    |
+| Est de valeur unique       | True                                                                                                                                                     |
+| Est indexé             | False                                                                                                                                                    |
+| Dans le catalogue global      | False                                                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                             |
 | Range-Lower            | 1                                                                                                                                                        |
 | Range-Upper            | 64                                                                                                                                                       |
@@ -120,10 +120,10 @@ Numéro de téléphone mobile principal.
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A1C                                                                                                                                                   |
-| System-Only            | Faux                                                                                                                                                    |
-| Est de valeur unique       | Vrai                                                                                                                                                     |
-| Est indexé             | Faux                                                                                                                                                    |
-| Dans le catalogue global      | Faux                                                                                                                                                    |
+| System-Only            | False                                                                                                                                                    |
+| Est de valeur unique       | True                                                                                                                                                     |
+| Est indexé             | False                                                                                                                                                    |
+| Dans le catalogue global      | False                                                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                             |
 | Range-Lower            | 1                                                                                                                                                        |
 | Range-Upper            | 64                                                                                                                                                       |
@@ -141,10 +141,10 @@ Numéro de téléphone mobile principal.
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A1C                                                                                                                                                   |
-| System-Only            | Faux                                                                                                                                                    |
-| Est de valeur unique       | Vrai                                                                                                                                                     |
-| Est indexé             | Faux                                                                                                                                                    |
-| Dans le catalogue global      | Faux                                                                                                                                                    |
+| System-Only            | False                                                                                                                                                    |
+| Est de valeur unique       | True                                                                                                                                                     |
+| Est indexé             | False                                                                                                                                                    |
+| Dans le catalogue global      | False                                                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                             |
 | Range-Lower            | 1                                                                                                                                                        |
 | Range-Upper            | 64                                                                                                                                                       |
@@ -162,10 +162,10 @@ Numéro de téléphone mobile principal.
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                       |
 | MAPI-Id                | 0x3A1C                                                                                                                                                   |
-| System-Only            | Faux                                                                                                                                                    |
-| Est de valeur unique       | Vrai                                                                                                                                                     |
-| Est indexé             | Faux                                                                                                                                                    |
-| Dans le catalogue global      | Faux                                                                                                                                                    |
+| System-Only            | False                                                                                                                                                    |
+| Est de valeur unique       | True                                                                                                                                                     |
+| Est indexé             | False                                                                                                                                                    |
+| Dans le catalogue global      | False                                                                                                                                                    |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                             |
 | Range-Lower            | 1                                                                                                                                                        |
 | Range-Upper            | 64                                                                                                                                                       |

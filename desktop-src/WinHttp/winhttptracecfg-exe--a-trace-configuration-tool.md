@@ -1,19 +1,19 @@
 ---
-description: L’outil de configuration de trace Microsoft Windows HTTP Services (WinHTTP), WinHttpTraceCfg.exe, est utilisé pour configurer les fonctionnalités de trace à des fins de débogage et de détection de paquets.
+description: l’outil de configuration de trace Microsoft Windows HTTP Services (WinHTTP), WinHttpTraceCfg.exe, est utilisé pour configurer les fonctionnalités de trace à des fins de débogage et de détection de paquets.
 ms.assetid: 744cae92-9c64-459e-96eb-eb609e62183c
 title: WinHttpTraceCfg.exe, outil de configuration de trace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6c6423c581a51f0cf6b55856f2e8cd0ea670515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7747e0b2fe023ab3c2c86d19a722059482aed19062cf2a450b8d0f237a8b3a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562411"
 ---
 # <a name="winhttptracecfgexe-a-trace-configuration-tool"></a>WinHttpTraceCfg.exe, outil de configuration de trace
 
-L’outil de configuration de trace [Microsoft Windows http services (WinHTTP)](about-winhttp.md) , WinHttpTraceCfg.exe, est utilisé pour configurer les fonctionnalités de trace à des fins de débogage et de détection de paquets. Il est important de pouvoir surveiller les fonctions WinHTTP et le trafic réseau correspondant. Le débogage des applications qui utilisent des protocoles de transmission chiffrés, tels que les SSL (Secure Sockets Layer) (SSL), empêche la détection de paquets au niveau de la couche de transport réseau et nécessite la possibilité d’intercepter le trafic entre le client et le serveur après qu’il a été déchiffré. Les services HTTP Microsoft Windows (WinHTTP) fournissent une fonctionnalité de trace qui offre un éventail de fonctionnalités pour intercepter le flux de trafic entre le client et le serveur.
+l’outil de configuration de trace [Microsoft Windows HTTP Services (WinHTTP)](about-winhttp.md) , WinHttpTraceCfg.exe, est utilisé pour configurer les fonctionnalités de trace à des fins de débogage et de détection de paquets. Il est important de pouvoir surveiller les fonctions WinHTTP et le trafic réseau correspondant. Le débogage des applications qui utilisent des protocoles de transmission chiffrés, tels que les SSL (Secure Sockets Layer) (SSL), empêche la détection de paquets au niveau de la couche de transport réseau et nécessite la possibilité d’intercepter le trafic entre le client et le serveur après qu’il a été déchiffré. Microsoft Windows HTTP Services (WinHTTP) fournit une fonctionnalité de trace qui offre un éventail de fonctionnalités pour intercepter le flux de trafic entre le client et le serveur.
 
 Cette fonctionnalité de trace peut être un outil précieux pour le débogage. Il peut être utilisé, par exemple, pour afficher les paramètres passés à différents appels de fonction, ainsi que pour afficher les données réelles envoyées et reçues par une application WinHTTP.
 
@@ -24,7 +24,7 @@ Cette fonctionnalité de trace peut être un outil précieux pour le débogage. 
 
 WinHTTP obtient des paramètres de contrôle de traçage à partir du Registre. Ces paramètres de contrôle affectent la manière dont WinHTTP produit la sortie de trace et comment cette sortie est mise en forme. Toutes les applications qui utilisent WinHTTP partagent les mêmes paramètres.
 
-Un outil de configuration de trace, WinHttpTraceCfg.exe, est disponible en téléchargement sur le site Web des [outils du kit de ressources Windows Server 2003](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) . L’outil de configuration définit ou récupère les paramètres du registre de la fonctionnalité de trace en fonction des paramètres de ligne de commande spécifiés.
+un outil de configuration de trace, WinHttpTraceCfg.exe, est disponible en téléchargement sur le site web des [outils du Kit de ressources Windows Server 2003](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) . L’outil de configuration définit ou récupère les paramètres du registre de la fonctionnalité de trace en fonction des paramètres de ligne de commande spécifiés.
 
 ``` syntax
 WinHttpTraceCfg [-e <0|1>] [-l [log-file]] [-d <0|1>] [-s <0|1|2>] 

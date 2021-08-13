@@ -1,17 +1,17 @@
 ---
 description: Pour utiliser des propriétés dans votre installation, vous pouvez récupérer et définir des valeurs de propriété à partir de programmes à l’aide de MsiGetProperty et MsiSetProperty et les inclure dans le cadre des instructions conditionnelles de la base de données d’installation.
 ms.assetid: 65fe46d7-16b6-46ef-a440-73f954b03105
-title: Obtention et définition des propriétés (Windows Installer)
+title: obtention et définition des propriétés (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0154b84af656d295b9fa84ebcca881eab1c288f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1009fc9370a870c53b3fe5ad471f52dea195648b36bab28dff76fe1271283be1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635949"
 ---
-# <a name="getting-and-setting-properties-windows-installer"></a>Obtention et définition des propriétés (Windows Installer)
+# <a name="getting-and-setting-properties-windows-installer"></a>obtention et définition des propriétés (Windows Installer)
 
 Pour utiliser des [Propriétés](properties.md) dans votre installation, vous pouvez récupérer et définir des valeurs de propriété à partir de programmes à l’aide de [**MsiGetProperty**](/windows/desktop/api/Msiquery/nf-msiquery-msigetpropertya) et [**MsiSetProperty**](/windows/desktop/api/Msiquery/nf-msiquery-msisetpropertya) et les inclure dans le cadre des instructions conditionnelles de la base de données d’installation.
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa8c9d305b7f51a012ae26d7b1a76d2e3011fd7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 37e81cb7f67f87153825db59d921b6ee9ec7df6cd334ed2228896c8dec5f9d5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641418"
 ---
 # <a name="proxy-attribute"></a>attribut de proxy
 
@@ -67,7 +67,7 @@ Spécifie le nom d’une interface à partir de laquelle cette interface dériv�
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation \[  \] de l’attribut proxy pour une interface double empêche le TLB de prendre en charge des stubs générés. Si cet attribut est spécifié, le proxy de TypeLib ne doit pas être désinscrit lorsque la TypeLib est désinscrite.
 
@@ -95,6 +95,6 @@ Les interfaces peuvent être marquées avec l' \_ indicateur de proxy TYPEFLAG p
 [**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

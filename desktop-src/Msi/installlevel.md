@@ -4,12 +4,12 @@ ms.assetid: 5051cc46-837a-4446-a54c-4bd4081a424c
 title: Propriété INSTALLLEVEL
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebc0616fdf49e2c713c65017a202320fa6ea9622
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2e349e8d92a2c480866b04a1ca57885ffa1cdb230d8346b357318fa239ead72a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629958"
 ---
 # <a name="installlevel-property"></a>Propriété INSTALLLEVEL
 
@@ -19,7 +19,7 @@ La propriété **INSTALLLEVEL** est le niveau initial auquel les fonctionnalité
 
 Si aucune valeur n’est spécifiée, le niveau d’installation par défaut est 1.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le niveau d’installation spécifié par la propriété **INSTALLLEVEL** peut être remplacé par les propriétés suivantes :
 
@@ -44,7 +44,7 @@ Un administrateur peut désactiver définitivement une fonctionnalité en appliq
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

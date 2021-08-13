@@ -4,12 +4,12 @@ ms.assetid: 8baf8ee3-b6f7-4733-9e71-52627045c874
 title: Structures RealTimeStylus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 985734bbc23d42ecd52b594a41b232872eb56987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94d9d7cccaf19129087a27d65cb8648cd264ed08769c2aa514de448190de91d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449319"
 ---
 # <a name="realtimestylus-structures"></a>Structures RealTimeStylus
 

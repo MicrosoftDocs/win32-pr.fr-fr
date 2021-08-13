@@ -4,8 +4,8 @@ description: Point de connexion RPC.
 ms.assetid: 70cb9f80-7140-4c26-a1a4-f78a60de430f
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD d’attribut multiprotocole MS-SQL
-- Schéma AD d’attribut multiprotocole mS-SQL
+- schéma AD d’attribut multiprotocole MS-SQL
+- schéma AD d’attribut multiprotocole mS-SQL
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8cdfb8e42d8e3d533090b7b0bf49dcefc5492a3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d3edc56c012b062a508c83fa18ed8c45b110d2b2d3b53ca052f357a3edabe3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106515694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686647"
 ---
 # <a name="ms-sql-multiprotocol-attribute"></a>MS-SQL-attribut multiprotocole
 
@@ -45,7 +45,7 @@ Point de connexion RPC.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -78,10 +78,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -99,10 +99,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -120,10 +120,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -141,10 +141,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -162,10 +162,10 @@ Point de connexion RPC.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |

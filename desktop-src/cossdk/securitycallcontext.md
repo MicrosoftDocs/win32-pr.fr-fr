@@ -11,12 +11,12 @@ api_name:
 - SecurityCallContext
 api_type:
 - COM
-ms.openlocfilehash: bd15b7e0317a507a2340cc148bb927bb5d94a37b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f0efa73ef704d77cc68b5a1193ccdc3de71b1ed0a5b8c730a2ea67474600bf5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106545220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546263"
 ---
 # <a name="securitycallcontext-class"></a>Classe SecurityCallContext
 
@@ -42,11 +42,11 @@ Cette classe est implémentée par COM+.
 
 Utilisez cette classe pour accéder aux méthodes de [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous ne pouvez pas créer directement un objet **SecurityCallContext** . Pour utiliser les méthodes de [**ISecurityCallContext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext), vous devez obtenir une référence à son implémentation en appelant [**CoGetCallContext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext), en fournissant IID \_ ISecurityCallContext pour le paramètre *riid* .
 
-Pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des services COM+. Un objet SecurityCallContext peut être déclaré à l’aide de « COMSVCSLib. SecurityCallContext » comme nom de classe ; elle est créée en appelant [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext).
+pour utiliser cette classe à partir de Microsoft Visual Basic, ajoutez une référence à la bibliothèque de types des Services COM+. Un objet SecurityCallContext peut être déclaré à l’aide de « COMSVCSLib. SecurityCallContext » comme nom de classe ; elle est créée en appelant [**GetSecurityCallContext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext).
 
 ## <a name="requirements"></a>Configuration requise
 

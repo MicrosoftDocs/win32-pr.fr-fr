@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4db787c0360eff64c726ec680c9fd2a18da1e8d1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c2f64ad1158724aa6e58fb30ae01770786396a8b6fd23a5aecd8f8cce0e7fa87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683256"
 ---
 # <a name="ms-ds-top-quota-usage-attribute"></a>attribut ms-DS-Top-quota-usage
 
@@ -45,7 +45,7 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -78,10 +78,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -99,10 +99,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -120,10 +120,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -141,10 +141,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -162,10 +162,10 @@ Liste des premiers utilisateurs du quota actuellement dans la base de données d
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Faux                                                             |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | False                                                             |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |

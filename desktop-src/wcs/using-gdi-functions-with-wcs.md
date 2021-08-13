@@ -3,8 +3,8 @@ title: Utilisation des fonctions GDI avec WCS
 description: Il existe différentes fonctions dans l’interface GDI (Graphics Device Interface) qui utilisent ou opèrent sur les données de couleur.
 ms.assetid: a19ec8b9-11c9-4fde-a99a-7f4a112b49e7
 keywords:
-- Système de couleurs Windows (WCS), GDI (Graphics Device Interface)
-- WCS (Windows Color System), GDI (Graphics Device Interface)
+- Windows Système de couleurs (WCS), GDI (Graphics Device Interface)
+- WCS (Windows Color System), GDI (graphics device interface)
 - gestion des couleurs des images, GDI (Graphics Device Interface)
 - gestion des couleurs, GDI (Graphics Device Interface)
 - couleurs, GDI (Graphics Device Interface)
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fad8445623efb8854e81e7e1569beab9ed4169b
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a104378ae46e6b9519d6f795d280d45c28c8fa3fdc7d1e34aae609bcdbd195d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444676"
 ---
 # <a name="using-gdi-functions-with-wcs"></a>Utilisation des fonctions GDI avec WCS
 
@@ -35,8 +35,8 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 |    Fonction                |   Description                                                                                                                                                                                                                              |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CreateCompatibleDC | Si le contexte de périphérique (DC) qui est passé à cette fonction par le biais de son paramètre HDC est activé pour ICM, alors le DC créé par la fonction est également compatible avec ICM. Les espaces de couleurs source et de destination sont spécifiés dans le DC. |
-| CreateDC           | ICM peut être activé en définissant le membre dmICMMethod de la structure DEVMODE pointée par le paramètre pInitData sur la valeur appropriée. Pour plus d’informations, consultez la documentation dans le kit de développement Platform SDK sur la structure DEVMODE.  |
+| CreateCompatibleDC | si le contexte de périphérique (DC) qui est passé à cette fonction par le biais de son paramètre hdc est activé pour ICM, le DC créé par la fonction est également ICM. Les espaces de couleurs source et de destination sont spécifiés dans le DC. |
+| CreateDC           | ICM peut être activée en définissant le membre dmICMMethod de la structure DEVMODE vers laquelle pointe le paramètre pInitData sur la valeur appropriée. Pour plus d’informations, consultez la documentation dans le kit de développement Platform SDK sur la structure DEVMODE.  |
 | ResetDC            | Le profil de couleurs du contexte de périphérique spécifié par le paramètre HDC sera réinitialisé en fonction des informations contenues dans la structure DEVMODE spécifiée par le paramètre lpInitData.                                                   |
 
 
@@ -49,9 +49,9 @@ Il existe différentes fonctions dans l’interface GDI (Graphics Device Interfa
 
 |    Fonction                |   Description                                                                                                                                                                                                                              |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| Fonctions de pinceau | Aucune gestion des couleurs n’est effectuée lors de la création du pinceau. Toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un contrôleur de périphérique compatible ICM. |
-| CreatePen       | Aucune gestion des couleurs n’est effectuée lors de la création du stylet. Toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un contrôleur de périphérique compatible ICM.   |
-| ExtCreatePen    | Aucune gestion des couleurs n’est effectuée lors de la création du stylet. Toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un contrôleur de périphérique compatible ICM.   |
+| Fonctions de pinceau | Aucune gestion des couleurs n’est effectuée lors de la création du pinceau. toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un DC ICM. |
+| CreatePen       | Aucune gestion des couleurs n’est effectuée lors de la création du stylet. toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un DC ICM.   |
+| ExtCreatePen    | Aucune gestion des couleurs n’est effectuée lors de la création du stylet. toutefois, la gestion des couleurs est effectuée lorsque le pinceau est sélectionné dans un DC ICM.   |
 | SelectObject    | Si l’objet sélectionné est un pinceau ou un stylet, la gestion des couleurs est effectuée.                                                              |
 | SetDCBrushColor | La gestion des couleurs est effectuée si WCS est activé.                                                                                              |
 | SetDCPenColor   | La gestion des couleurs est effectuée si WCS est activé.                                                                                              |

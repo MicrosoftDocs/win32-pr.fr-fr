@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f864a4bd4d5e4c7c899cda839ae39d95791c7b23
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b15ebed12b968738c1d5b26e264b88879ab61e2e6d4d587663b03365548c8b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103940483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644027"
 ---
 # <a name="newtlb-switch"></a>commutateur/newtlb
 
@@ -31,9 +31,9 @@ midl /newtlb filename
 
 Ce commutateur n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Dans les versions récentes de Windows, ce commutateur ne fait rien. Sur les versions non prises en charge de Windows, la spécification de ce commutateur dans la ligne de commande MIDL génère une erreur.
+dans les versions récentes de Windows, ce commutateur ne fait rien. sur les versions non prises en charge de Windows, la spécification de ce commutateur dans la ligne de commande MIDL génère une erreur.
 
 ## <a name="examples"></a>Exemples
 
@@ -51,9 +51,9 @@ Dans les versions récentes de Windows, ce commutateur ne fait rien. Sur les ver
 [**/oldtlb**](-oldtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

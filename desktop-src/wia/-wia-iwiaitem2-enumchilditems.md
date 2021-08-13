@@ -1,5 +1,5 @@
 ---
-description: Crée un objet énumérateur et passe un pointeur vers son interface IEnumWiaItem2 pour les dossiers contenant des éléments dans l’arborescence IWiaItem2 d’un appareil WIA (Windows Image Acquisition) 2,0.
+description: crée un objet énumérateur et passe un pointeur vers son interface IEnumWiaItem2 pour les dossiers contenant des éléments dans l’arborescence IWiaItem2 d’un appareil WIA (Windows Image Acquisition) 2,0.
 ms.assetid: 0862bb6f-0464-491a-8cad-60b92d9609f1
 title: 'IWiaItem2 :: EnumChildItems, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2de76d9bf43d10e08e5a85cd2a32d6b377680d18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 921a6b6e85f906ef62683038b2bb28dd484d58fd20600b2ff85ae594fafb3cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118440417"
 ---
 # <a name="iwiaitem2enumchilditems-method"></a>IWiaItem2 :: EnumChildItems, méthode
 
-Crée un objet énumérateur et passe un pointeur vers son interface [**IEnumWiaItem2**](-wia-ienumwiaitem2.md) pour les dossiers contenant des éléments dans l’arborescence [**IWiaItem2**](-wia-iwiaitem2.md) d’un appareil WIA (Windows Image Acquisition) 2,0.
+crée un objet énumérateur et passe un pointeur vers son interface [**IEnumWiaItem2**](-wia-ienumwiaitem2.md) pour les dossiers contenant des éléments dans l’arborescence [**IWiaItem2**](-wia-iwiaitem2.md) d’un appareil WIA (Windows Image Acquisition) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -43,9 +43,9 @@ HRESULT EnumChildItems(
 *pCategoryGUID* \[ dans\]
 </dt> <dd>
 
-Type : * #*const \* GUID* _
+Type : **const GUID \***
 
-Spécifie un pointeur vers une catégorie pour laquelle les nœuds enfants sont énumérés. Si _ * NULL * *, tous les nœuds enfants sont énumérés.
+Spécifie un pointeur vers une catégorie pour laquelle les nœuds enfants sont énumérés. Si la **valeur est null**, tous les nœuds enfants sont énumérés.
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le système d’exécution WIA 2,0 représente chaque périphérique matériel WIA 2,0 sous la forme d’une arborescence hiérarchique d’objets [**IWiaItem2**](-wia-iwiaitem2.md) . La méthode **IWiaItem2 :: EnumChildItems** permet aux applications d’énumérer les éléments enfants dans l’élément actuel. Toutefois, il ne peut être appliqué qu’aux éléments qui sont des dossiers.
 
@@ -78,8 +78,8 @@ Les applications doivent appeler la méthode [IUnknown :: Release](/windows/win
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

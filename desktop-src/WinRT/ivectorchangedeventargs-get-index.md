@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: 5c131567ec7fc2861ce11db9e5d7ec581f6f663a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72df7f0d46e1e3073262c43064daf58b1fefbf43af913bb7f1b912ed22e67a7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104033988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560645"
 ---
 # <a name="ivectorchangedeventargsget_index-method"></a>IVectorChangedEventArgs :: obtient l' \_ index, méthode
 
@@ -42,7 +42,7 @@ HRESULT get_Index(
 *valeur* \[ out, retval\]
 </dt> <dd>
 
-Tapez : **unsigned \** _
+Type : **non signé \***
 
 Position de base zéro dans le vecteur où la modification s’est produite, le cas échéant.
 
@@ -50,7 +50,7 @@ Position de base zéro dans le vecteur où la modification s’est produite, le 
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 

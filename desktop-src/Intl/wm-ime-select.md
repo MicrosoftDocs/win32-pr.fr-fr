@@ -4,12 +4,12 @@ ms.assetid: 5559b3ab-8d81-4f33-b0af-d05489371328
 title: Message WM_IME_SELECT (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 940858e12c616b1d6281c23633b2f0f5e9657a9b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 611ff30bac32fbd38c9aef00e459b49f9760d9702c619f7e6e7f55e6e3b10acb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106515865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644619"
 ---
 # <a name="wm_ime_select-message"></a>Message de sélection de l' \_ IME WM \_
 
@@ -56,7 +56,7 @@ Identificateur de paramètres régionaux d’entrée associé à l’IME.
 
 Ce message n’a pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application qui a créé une fenêtre IME doit transmettre ce message à cette fenêtre afin qu’il puisse récupérer le handle de la disposition du clavier vers l’IME nouvellement sélectionné.
 

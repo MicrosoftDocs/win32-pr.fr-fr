@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94b0412ce4068d829f7aeba73632e5004a8f5b23
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 21b36d9a7d36ec54492a20602a6f2d83e0f00caea595bcabf510e9a24ab0ee5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104520161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683439"
 ---
 # <a name="ms-ds-oidtogroup-link-bl-attribute"></a>ms-DS-OIDToGroup-Link-BL (attribut)
 
@@ -53,10 +53,10 @@ Lien vers l’arrière pour [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md
 |------------------------|---------------------------------|
 | ID de lien                | 2165                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -74,10 +74,10 @@ Lien vers l’arrière pour [**ms-DS-OIDToGroup-Link**](a-msds-oidtogrouplink.md
 |------------------------|---------------------------------|
 | ID de lien                | 2165                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

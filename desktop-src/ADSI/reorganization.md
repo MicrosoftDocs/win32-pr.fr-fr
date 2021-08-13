@@ -7,12 +7,12 @@ keywords:
 - Réorganisation de l’ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 587f3de34738814b34ad250bb00bb7b71121d65c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 368b4db1909c50242e3eda1402e46896e54785aa66739b324995b7edbdd1b007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690752"
 ---
 # <a name="reorganization"></a>Réorganisation
 
@@ -44,26 +44,26 @@ N’oubliez pas que le lien Manager-direct Report entre Julie Bankert et Chris G
 
 **Pour créer un rapport de Active Directory**
 
-1.  Ouvrez Visual Basic version 6,0 et, lorsque vous êtes invité à entrer le type de projet, sélectionnez **projet de données**.
-2.  Sur le **projet de données**, double-cliquez sur **données Environment1**.
+1.  ouvrez Visual Basic version 6,0 et, lorsque vous êtes invité à entrer le type de projet, sélectionnez **données Project**.
+2.  sur la **Project de données**, double-cliquez sur **données Environment1**.
 3.  Dans la fenêtre **environnement de données** , cliquez avec le bouton droit sur l’objet de connexion **(Connection1)** et sélectionnez **Propriétés**.
 4.  Sélectionnez **OLE DB fournisseur pour les services d’annuaire Microsoft**, puis cliquez sur **suivant**.
-5.  Sélectionnez **utiliser la sécurité intégrée de Windows NT**, puis cliquez sur **OK**. Cela crée un objet de connexion.
+5.  Sélectionnez **utiliser Windows sécurité intégrée NT**, puis cliquez sur **OK**. Cela crée un objet de connexion.
 6.  Cliquez à nouveau avec le bouton droit sur la fenêtre **environnement de données** pour sélectionner **Ajouter une commande**. Cliquez avec le bouton droit sur l’objet **Command1** et sélectionnez **Propriétés**. La boîte de dialogue **Propriétés de commande1** suivante s’affiche.
 
     ![boîte de dialogue Propriétés de commande1](images/adadsi3.png)
 
-7.  Cliquez sur la case d’option **instruction SQL** et tapez la commande suivante :
+7.  cliquez sur la case d’option **instruction SQL** et tapez la commande suivante :
 
     Sélectionnez nom, telephoneNumber à partir de « LDAP://DC = fabrikam, DC = com », où objectCategory = « Person » et objectClass = « user »
 
     L’objet **Command** est créé. Ajoutez l’objet de **commande** au rapport.
 
-8.  Double-cliquez sur **données Report1** dans la fenêtre **projet** .
+8.  Double-cliquez sur **données Report1** dans la fenêtre **Project** .
 9.  Faites glisser l’objet **Command1** de la fenêtre **DataEnvironment1** vers la section **Détails** de la fenêtre **rapport de données** .
 10. Dans **Propriétés de DataReport1**, pour **DataSource**, sélectionnez **DataEnvironment1** dans le menu déroulant, puis sélectionnez **Command1** dans le champ **DataMember** .
-11. Dans la fenêtre projet, cliquez avec le bouton droit sur **projet de données**, puis sélectionnez **Propriétés de DataProject**.
-12. Dans la fenêtre de boîte de dialogue **DataProject-propriétés du projet** , sous **objet de démarrage**, sélectionnez **DataReport1** dans le menu déroulant. Cliquez sur **OK** pour enregistrer.
+11. dans la fenêtre projet, cliquez avec le bouton droit sur **Project de données**, puis sélectionnez **propriétés de DataProject**.
+12. dans la fenêtre de boîte de dialogue **propriétés de DataProject-Project** , sous **objet de démarrage**, sélectionnez **DataReport1** dans le menu déroulant. Cliquez sur **OK** pour enregistrer.
 13. Compilation. La boîte de dialogue **DataReport1** suivante s’affiche.
 
     ![boîte de dialogue datareport1](images/adadsi4.png)
@@ -75,9 +75,9 @@ N’oubliez pas que le lien Manager-direct Report entre Julie Bankert et Chris G
 [Jointure de données hétérogènes](joining-heterogeneous-data.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

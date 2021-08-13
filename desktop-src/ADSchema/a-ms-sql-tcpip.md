@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-TCPIP
+title: attribut MS-SQL-TCPIP
 description: Point de connexion TCP.
 ms.assetid: f61f7d54-958e-4f34-852e-222338c26de0
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD d’attribut MS-SQL-TCPIP
-- Schéma AD d’attribut mS-SQL-TCPIP
+- schéma AD d’attribut MS-SQL-TCPIP
+- schéma AD d’attribut mS-SQL-TCPIP
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 098d5e7818789774b425ad9e238f8f3b3a4d5378
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5d387ff6600618330c67549133169f4f8f321a72e0ff2d64ffec4b5dbdd9cf40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686522"
 ---
-# <a name="ms-sql-tcpip-attribute"></a>Attribut MS-SQL-TCPIP
+# <a name="ms-sql-tcpip-attribute"></a>attribut MS-SQL-TCPIP
 
 Point de connexion TCP.
 
@@ -45,7 +45,7 @@ Point de connexion TCP.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -78,10 +78,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -99,10 +99,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -120,10 +120,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -141,10 +141,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -162,10 +162,10 @@ Point de connexion TCP.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |

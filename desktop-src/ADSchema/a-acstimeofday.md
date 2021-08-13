@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 212719ffa9e1aa37439def10a0991b256dd61fcb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3814b43e1f51561b5c43b959a9d4d18e7d56d02b7781692bcf46d150c925e783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689265"
 ---
 # <a name="acs-time-of-day-attribute"></a>ACS-attribut Time-of-Day
 
@@ -45,7 +45,7 @@ Heures de la journée auxquelles cette stratégie s’applique.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -78,10 +78,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -99,10 +99,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -120,10 +120,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -141,10 +141,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |
@@ -162,10 +162,10 @@ Heures de la journée auxquelles cette stratégie s’applique.
 |------------------------|----------------------------------------------|
 | ID de lien                | \-                                           |
 | MAPI-Id                | \-                                           |
-| System-Only            | Faux                                        |
-| Est de valeur unique       | Vrai                                         |
-| Est indexé             | Faux                                        |
-| Dans le catalogue global      | Faux                                        |
+| System-Only            | False                                        |
+| Est de valeur unique       | True                                         |
+| Est indexé             | False                                        |
+| Dans le catalogue global      | False                                        |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                 |
 | Range-Lower            | \-                                           |
 | Range-Upper            | \-                                           |

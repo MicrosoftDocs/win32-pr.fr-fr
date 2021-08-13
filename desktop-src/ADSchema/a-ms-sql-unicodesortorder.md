@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-UnicodeSortOrder
+title: attribut MS-SQL-UnicodeSortOrder
 description: Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 ms.assetid: c7f9d81d-a9c3-4be9-8ead-cf3d59352dbb
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-UnicodeSortOrder
-- Schéma AD de l’attribut mS-SQL-UnicodeSortOrder
+- schéma AD de l’attribut MS-SQL-UnicodeSortOrder
+- schéma AD de l’attribut mS-SQL-UnicodeSortOrder
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9240844a45e8e4ea567ff96df0eb992f316a7787
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f340541c4fddbed9671c8c7965b0d145175d8fd8c7964e779459ec7c3f79f5c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686459"
 ---
-# <a name="ms-sql-unicodesortorder-attribute"></a>Attribut MS-SQL-UnicodeSortOrder
+# <a name="ms-sql-unicodesortorder-attribute"></a>attribut MS-SQL-UnicodeSortOrder
 
 Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 
@@ -36,7 +36,7 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 | Fréquence des mises à jour  | Au démarrage du système.                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1372              |
 | System-ID-GUID    | 72dc918a-ccee-11d2-9993-0000f87a57d4 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -78,10 +78,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -99,10 +99,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -120,10 +120,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -141,10 +141,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -162,10 +162,10 @@ Ordre de tri Unicode pour l’instance actuelle de SQL Server.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |

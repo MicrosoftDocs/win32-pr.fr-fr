@@ -1,6 +1,6 @@
 ---
 title: Attribut d’adresse-livre-Roots2
-description: Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. Cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses. | Attribut d’adresse-livre-Roots2
+description: Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses. | Attribut d’adresse-livre-Roots2
 ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3283a0551ac423f836381483d30cb6bd74d946e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 73b2cea979ee8a7c60d1a29a612d60da1acce972cf07bae277219d4a81a0d954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103953549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688942"
 ---
 # <a name="address-book-roots2-attribute"></a>Attribut d’adresse-livre-Roots2
 
-Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. Cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses.
+Utilisé par Exchange. Exchange configure les arborescences des conteneurs de carnets d’adresses à afficher dans le carnet d’adresses MAPI. cet attribut sur l’objet de configuration Exchange répertorie les racines des arborescences de conteneurs du carnet d’adresses.
 
 
 
@@ -42,7 +42,7 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | Faux                                                                                |
-| Est de valeur unique       | Faux                                                                                |
-| Est indexé             | Faux                                                                                |
-| Dans le catalogue global      | Faux                                                                                |
+| System-Only            | False                                                                                |
+| Est de valeur unique       | False                                                                                |
+| Est indexé             | False                                                                                |
+| Dans le catalogue global      | False                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |
@@ -75,10 +75,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | Faux                                                                                |
-| Est de valeur unique       | Faux                                                                                |
-| Est indexé             | Faux                                                                                |
-| Dans le catalogue global      | Faux                                                                                |
+| System-Only            | False                                                                                |
+| Est de valeur unique       | False                                                                                |
+| Est indexé             | False                                                                                |
+| Dans le catalogue global      | False                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |
@@ -96,10 +96,10 @@ Utilisé par Exchange. Exchange configure les arborescences des conteneurs de ca
 |------------------------|--------------------------------------------------------------------------------------|
 | ID de lien                | 2122                                                                                 |
 | MAPI-Id                | \-                                                                                   |
-| System-Only            | Faux                                                                                |
-| Est de valeur unique       | Faux                                                                                |
-| Est indexé             | Faux                                                                                |
-| Dans le catalogue global      | Faux                                                                                |
+| System-Only            | False                                                                                |
+| Est de valeur unique       | False                                                                                |
+| Est indexé             | False                                                                                |
+| Dans le catalogue global      | False                                                                                |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                         |
 | Range-Lower            | \-                                                                                   |
 | Range-Upper            | \-                                                                                   |

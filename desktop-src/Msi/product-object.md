@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f8e9071f26da944c2c5ea206b2f70582d731ef59
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff05a2f89244da09caa6cd3b26fc4b5d9cdbec95c0fcc3098fddf0c39dc68519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627672"
 ---
 # <a name="product-object"></a>Product, objet
 
@@ -61,7 +61,7 @@ L’objet **Product** possède ces propriétés.
 | Propriété                                                      | Description                                                                                 |
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**ComponentState**](product-componentstate.md)<br/>   | État d’un composant spécifié pour cette instance de produit. <br/>                   |
-| [**Context**](product-context.md)<br/>                 | Contexte de cette instance de produit en tant que valeur MSIINSTALLCONTEXT. <br/>                 |
+| [**Contexte**](product-context.md)<br/>                 | Contexte de cette instance de produit en tant que valeur MSIINSTALLCONTEXT. <br/>                 |
 | [**FeatureState**](product-featurestate.md)<br/>       | État d’une fonctionnalité spécifiée pour cette instance de produit. <br/>                     |
 | [**InstallProperty**](product-installproperty.md)<br/> | Valeur d’une propriété spécifiée. <br/>                                              |
 | [**MediaDisks**](product-mediadisks.md)<br/>           | Énumère tous les disques multimédias pour cette instance de produit.<br/>                        |
@@ -81,7 +81,7 @@ L’objet **Product** possède ces propriétés.
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows programme d’installation 3,0 ou version ultérieure sur Windows Server 2003, Windows XP et Windows 2000<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct est défini en tant que 000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -91,7 +91,7 @@ L’objet **Product** possède ces propriétés.
 
 <dl> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI, utilisation de, à l’aide de la méthode IADs GetEx
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3a909b33664ad805b0bf483ee9f0c2b40316ec8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2e656bd6a48830feb725e927f08be1d573e7b0232cf02c16ee87bd7d6a5b2f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106508955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690148"
 ---
 # <a name="the-getex-method"></a>Méthode GetEx
 
@@ -67,9 +67,9 @@ Cleanup:
 
 Si aucune valeur n’est définie pour l’attribut, [**IADs :: GETEX**](/windows/desktop/api/Iads/nf-iads-iads-getex) retourne l’erreur « la propriété est introuvable dans le cache ».
 
- 
+ 
 
- 
+ 
 
 
 

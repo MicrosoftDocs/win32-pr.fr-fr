@@ -1,11 +1,11 @@
 ---
-title: Attribut MS-SQL-Vines
+title: attribut MS-SQL-vines
 description: Point de connexion Vines.
 ms.assetid: edb3ac70-6275-40e1-a91e-acf791c5cf23
 ms.tgt_platform: multiple
 keywords:
-- Schéma AD de l’attribut MS-SQL-Vines
-- Schéma AD de l’attribut mS-SQL-Vines
+- schéma AD de l’attribut MS-SQL-vines
+- schéma AD de l’attribut mS-SQL-vines
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 313b47714dbd8431a7552abc5ed7962e0c0a708a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 818c5e007111f3d7c44b4e8bd530b41e81a6fa98d617dda6ab7352369bfa7b52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106538617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686243"
 ---
-# <a name="ms-sql-vines-attribute"></a>Attribut MS-SQL-Vines
+# <a name="ms-sql-vines-attribute"></a>attribut MS-SQL-vines
 
 Point de connexion Vines.
 
@@ -29,8 +29,8 @@ Point de connexion Vines.
 
 | Entrée | Valeur |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-Vines                                |
-| LDAP-Display-Name | mS-SQL-Vines                                |
+| CN                | MS-SQL-vines                                |
+| LDAP-Display-Name | mS-SQL-vines                                |
 | Taille              | \-                                          |
 | Mettre à jour le privilège  | Cette valeur est définie par le système.            |
 | Fréquence des mises à jour  | Au démarrage du système.                          |
@@ -45,7 +45,7 @@ Point de connexion Vines.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -78,10 +78,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -99,10 +99,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -120,10 +120,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -141,10 +141,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |
@@ -162,10 +162,10 @@ Point de connexion Vines.
 |------------------------|-----------------------------------------------------------|
 | ID de lien                | \-                                                        |
 | MAPI-Id                | \-                                                        |
-| System-Only            | Faux                                                     |
-| Est de valeur unique       | Vrai                                                      |
-| Est indexé             | Faux                                                     |
-| Dans le catalogue global      | Faux                                                     |
+| System-Only            | False                                                     |
+| Est de valeur unique       | True                                                      |
+| Est indexé             | False                                                     |
+| Dans le catalogue global      | False                                                     |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                              |
 | Range-Lower            | \-                                                        |
 | Range-Upper            | \-                                                        |

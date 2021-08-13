@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5a609ab0ba6edc5b0e3e9bbd26bc3539858ebdee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54ecc8c0d76ae5105aec07a85adb18d93a8e7a9b75162f8124bb32fdd7f64597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632926"
 ---
 # <a name="installerclientsex-property"></a>Installer. ClientsEx, propriété
 
 Cette propriété retourne un objet [**RecordList**](recordlist-object.md) qui répertorie les produits qui utilisent un composant installé spécifié. Cette propriété appelle [**MsiEnumClientsEx**](/windows/desktop/api/Msi/nf-msi-msienumclientsexa).
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Cette propriété est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. cette propriété est disponible à partir de Windows Installer 5,0.
 
 Cette propriété est en lecture seule.
 
@@ -45,7 +45,7 @@ propVal = Installer.ClientsEx
 
 | Condition requise | Valeur |
 |--------------------|---------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7<br/> |
+| Version<br/> | Windows programme d’installation 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |
 | IID<br/>     | IID \_ IInstaller est défini en tant que 000C1090-0000-0000-C000-000000000046<br/>                           |
 

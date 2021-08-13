@@ -33,12 +33,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8dba53dfda4bb8f4dd3290cb2737cdeb4e8a6d3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 177926924d989686dae33c3403c07bfe5e69d0ba1762dd2a1a1cdee78a2175f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691610"
 ---
 # <a name="iadsadsysteminfo-property-methods"></a>Méthodes de propriété IADsADSystemInfo
 
@@ -277,7 +277,7 @@ HRESULT get_UserName(
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code C++ suivant récupère les informations système Windows. Par souci de concision, la vérification des erreurs est omise.
+l’exemple de code C++ suivant récupère les informations système de Windows. Par souci de concision, la vérification des erreurs est omise.
 
 
 ```C++
@@ -333,7 +333,7 @@ int main()
 
 
 
-L’exemple de code Visual Basic suivant récupère les informations système Windows.
+l’exemple de code Visual Basic suivant récupère les informations système Windows.
 
 
 ```VB
@@ -346,7 +346,7 @@ Debug.print "PDC Role Owner: " & sys.PDCRoleOwner
 
 
 
-L’exemple de code VBScript/ASP suivant récupère les informations système Windows.
+l’exemple de code VBScript/ASP suivant récupère les informations système de Windows.
 
 
 ```VB

@@ -4,12 +4,12 @@ description: Pour annuler une connexion à une ressource réseau, une applicatio
 ms.assetid: a1c80222-4986-4c51-86a5-a1caacb4b2fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22cc5fb9536a5d073a6c99d8b49a00e3c2771546
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cbb5c74faa1e1f8b75d0e3b604d89615c6ad1481384a661253ee204dd3ee6081
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566919"
 ---
 # <a name="canceling-a-network-connection"></a>Annulation d’une connexion réseau
 
@@ -52,10 +52,10 @@ printf("Connection closed for z: drive.\n");
 
 
 
-La fonction [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) est prise en charge pour la compatibilité avec les versions antérieures de Windows pour les groupes de travail. Pour les nouvelles applications, utilisez [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
+la fonction [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona) est prise en charge pour la compatibilité avec les versions antérieures de Windows pour les groupes de travail. Pour les nouvelles applications, utilisez [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a).
 
 Pour plus d’informations sur l’utilisation d’un gestionnaire d’erreurs défini par l’application, consultez [récupération des erreurs réseau](retrieving-network-errors.md).
 
- 
+ 
 
- 
+ 

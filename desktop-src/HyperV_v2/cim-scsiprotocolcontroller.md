@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: d6479b405d3ca499615981d62744b1eaf25c7598
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f7e3db8cb1d0aa97446d503aff876c0270ddb16e5908b3b1c53c899c7617a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647674"
 ---
 # <a name="cim_scsiprotocolcontroller-class"></a>\_Classe CIM SCSIProtocolController
 

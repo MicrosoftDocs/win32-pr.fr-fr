@@ -4,12 +4,12 @@ description: Pour déterminer l’efficacité de votre application, vous souhait
 ms.assetid: 23641bf8-3653-4cb9-8008-cd99137ca268
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ead17b8308424be8b959c4043eec606b18292708
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf9c2217f01c2c0f3a3ee1d2516b2e531cc243f5ac71c4022632d1b1c4dd4983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462977"
 ---
 # <a name="collecting-memory-usage-information-for-a-process"></a>Collecte des informations d’utilisation de la mémoire pour un processus
 
@@ -94,6 +94,6 @@ int main( void )
 
 La fonction principale obtient une liste de processus à l’aide de la fonction [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) . Pour chaque processus, main appelle la fonction PrintMemoryInfo, en passant l’identificateur de processus. PrintMemoryInfo appelle à son tour la fonction [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) pour obtenir le handle de processus. Si **OpenProcess** échoue, la sortie affiche uniquement l’identificateur de processus. Par exemple, **OpenProcess** échoue pour les processus inactifs et CSRSS, car leurs restrictions d’accès empêchent le code au niveau de l’utilisateur de les ouvrir. Enfin, PrintMemoryInfo appelle la fonction [**GetProcessMemoryInfo**](/windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo) pour obtenir les informations d’utilisation de la mémoire.
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d133275ca77032341d160b51b95b20235c8f2a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ac751e5b3bdb4a93c003e170333af8956048c9793630419fff0857d61f8c1f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641972"
 ---
 # <a name="partial_ignore-attribute"></a>\_attribut ignore partiel
 
@@ -27,7 +27,7 @@ L’attribut CCP **\[ Partial \_ ignore \]** définit une version spécialisée 
 [ [function-attribute-list <>] ] type-specifier <> [pointer- <>declarator <>] function-name <>( [ partial_ignore [ , parameter-attribute-list <> ] ] type-specifier <> [declarator <>] , ...);
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lors de la création d’une fonction, il est courant de permettre aux utilisateurs de spécifier un pointeur non **null** vers des données de retour facultatives, souvent appelées pointeur facultatif-out. La mémoire vers laquelle pointe l’utilisateur n’est généralement pas obligatoirement initialisée. Cette technique représente un problème lorsque la fonction est utilisée sur RPC.
 
@@ -51,9 +51,9 @@ void MoveLeft([in, out, unique, partial_ignore] long *pPrevPosition);
 [**unique**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

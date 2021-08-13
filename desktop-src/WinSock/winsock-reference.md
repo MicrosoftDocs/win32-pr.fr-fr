@@ -1,15 +1,15 @@
 ---
-description: Page de navigation de la section de référence de Windows Sockets (Winsock).
+description: Windows Page de navigation de la section de référence de Sockets (Winsock).
 ms.assetid: baae2bf9-f505-4365-b60e-e3247a0218c8
 title: Informations de référence sur Winsock
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef3d681d639c443182ae6d6b612dd4e2b27508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86d86e33b7399bddca65e1c50675e0a50d2c9d096be1d2d2f0f0cde4f2279b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104211066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558871"
 ---
 # <a name="winsock-reference"></a>Informations de référence sur Winsock
 
@@ -22,7 +22,7 @@ La référence Winsock est composée des sections suivantes :
 -   [Fonctions Winsock](winsock-functions.md)
 -   [Structures Winsock](winsock-structures.md)
 -   [SPI Winsock](winsock-spi.md)
--   [Codes d’erreur de Windows Sockets](windows-sockets-error-codes-2.md)
+-   [Windows Codes d’erreur des sockets](windows-sockets-error-codes-2.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 

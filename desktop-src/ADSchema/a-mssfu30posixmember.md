@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac681da2ec5c2d81646b1c40f5db52dffd557a6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 9797d51f13b37aca6b8747d61e178e707e8c77b3b43cb1a0f6daabbf826c12e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682475"
 ---
 # <a name="mssfu-30-posix-member-attribute"></a>attribut msSFU-30-POSIX-Member
 
@@ -43,7 +43,7 @@ Contient le nom complet de DN de la partie de l’utilisateur d’un groupe.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,10 +55,10 @@ Contient le nom complet de DN de la partie de l’utilisateur d’un groupe.
 |------------------------|-------------------------------------|
 | ID de lien                | 2030                                |
 | MAPI-Id                | \-                                  |
-| System-Only            | Faux                               |
-| Est de valeur unique       | Faux                               |
-| Est indexé             | Faux                               |
-| Dans le catalogue global      | Faux                               |
+| System-Only            | False                               |
+| Est de valeur unique       | False                               |
+| Est indexé             | False                               |
+| Dans le catalogue global      | False                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                        |
 | Range-Lower            | \-                                  |
 | Range-Upper            | \-                                  |
@@ -76,10 +76,10 @@ Contient le nom complet de DN de la partie de l’utilisateur d’un groupe.
 |------------------------|-------------------------------------|
 | ID de lien                | 2030                                |
 | MAPI-Id                | \-                                  |
-| System-Only            | Faux                               |
-| Est de valeur unique       | Faux                               |
-| Est indexé             | Faux                               |
-| Dans le catalogue global      | Faux                               |
+| System-Only            | False                               |
+| Est de valeur unique       | False                               |
+| Est indexé             | False                               |
+| Dans le catalogue global      | False                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                        |
 | Range-Lower            | \-                                  |
 | Range-Upper            | \-                                  |
@@ -97,10 +97,10 @@ Contient le nom complet de DN de la partie de l’utilisateur d’un groupe.
 |------------------------|-------------------------------------|
 | ID de lien                | 2030                                |
 | MAPI-Id                | \-                                  |
-| System-Only            | Faux                               |
-| Est de valeur unique       | Faux                               |
-| Est indexé             | Faux                               |
-| Dans le catalogue global      | Faux                               |
+| System-Only            | False                               |
+| Est de valeur unique       | False                               |
+| Est indexé             | False                               |
+| Dans le catalogue global      | False                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                        |
 | Range-Lower            | \-                                  |
 | Range-Upper            | \-                                  |
@@ -118,10 +118,10 @@ Contient le nom complet de DN de la partie de l’utilisateur d’un groupe.
 |------------------------|-------------------------------------|
 | ID de lien                | 2030                                |
 | MAPI-Id                | \-                                  |
-| System-Only            | Faux                               |
-| Est de valeur unique       | Faux                               |
-| Est indexé             | Faux                               |
-| Dans le catalogue global      | Faux                               |
+| System-Only            | False                               |
+| Est de valeur unique       | False                               |
+| Est indexé             | False                               |
+| Dans le catalogue global      | False                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                        |
 | Range-Lower            | \-                                  |
 | Range-Upper            | \-                                  |

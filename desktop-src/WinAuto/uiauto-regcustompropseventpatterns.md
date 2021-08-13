@@ -24,12 +24,12 @@ keywords:
 - implémentation de gestionnaires de modèles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b6b157e8f08a2c0be74af6b9f53d3578d1e4d03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7205d088f76f235b3078d5a053202f3d39b609389ef6adbc5dbdbca18d9b652b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564053"
 ---
 # <a name="register-custom-properties-events-and-control-patterns"></a>Inscrire des propriétés personnalisées, des événements et des modèles de contrôle
 
@@ -113,7 +113,7 @@ Il n’existe aucune méthode qui annule l’inscription d’une propriété ou 
 > [!IMPORTANT]
 > Si votre code est un client Microsoft Active Accessibility (MSAA), vous devez appeler la fonction [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) lorsque vous modifiez la valeur d’une propriété personnalisée.
 
- 
+ 
 
 ## <a name="implementing-custom-control-patterns"></a>Implémentation de modèles de contrôle personnalisés
 
@@ -122,7 +122,7 @@ Un modèle de contrôle personnalisé n’est pas inclus dans l’API UI Automat
 > [!Note]  
 > Les exemples des rubriques suivantes illustrent comment implémenter un modèle de contrôle personnalisé qui duplique les fonctionnalités du modèle de contrôle [value](uiauto-implementingvalue.md) existant. Ces exemples sont fournis à des fins pédagogiques uniquement. Un modèle de contrôle personnalisé réel doit fournir des fonctionnalités qui ne sont pas disponibles à partir des modèles de contrôle UI Automation Standard.
 
- 
+ 
 
 ### <a name="the-client-wrapper-and-the-pattern-handler"></a>Le wrapper client et le gestionnaire de modèle
 
@@ -534,6 +534,6 @@ HRESULT RegisterPattern()
 [Vue d'ensemble des modèles de contrôle UI Automation](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

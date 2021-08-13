@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: babf5c3c80fb5ab2b6f15789d56e2525effef1a6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f70f4cbd72d3bae66ad12f00a9fd0b01646c4a0f3838359a91823c8d49646529
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103840985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641942"
 ---
 # <a name="preprocessor-errors"></a>Erreurs de préprocesseur
 

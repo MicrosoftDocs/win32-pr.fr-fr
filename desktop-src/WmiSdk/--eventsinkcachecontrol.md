@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: 9d20e64fed1ee6ba5622d5e6a342a60485f53d36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc73e2cb740486ad08172c10233f4865709a87d9f1122f399002133687744094
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557913"
 ---
 # <a name="__eventsinkcachecontrol-class"></a>\_\_EventSinkCacheControl, classe
 
@@ -63,7 +63,7 @@ Intervalle de temps après lequel WMI libère un fournisseur d’événements. L
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ EventSinkCacheControl** est dérivée de [**\_ \_ CacheControl**](--cachecontrol.md). Pour plus d’informations sur l’utilisation de cette classe, consultez [déchargement d’un fournisseur](unloading-a-provider.md).
 

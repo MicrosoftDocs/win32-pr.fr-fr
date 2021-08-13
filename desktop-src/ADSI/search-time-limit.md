@@ -7,12 +7,12 @@ keywords:
 - Temps de recherche limité par ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e11ff9de38a17fe6ebac4ebb045e2f8b896bc764
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b666b41db67872cd418cca2d4ef2e3d766fbc1a1d1c1a2d9945eec7dfceb2429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690514"
 ---
 # <a name="search-time-limit"></a>Limite de durée de recherche
 
@@ -23,12 +23,12 @@ Certains serveurs peuvent imposer leur propre limite de temps d’administration
 Pour plus d’informations sur l’utilisation de l’option de limite de temps de recherche avec une interface de recherche spécifique, consultez :
 
 -   [Limite de temps du serveur avec IDirectorySearch](server-time-limit-with-idirectorysearch.md)
--   [Recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
+-   [recherche avec ActiveX Data Objects](searching-with-activex-data-objects-ado.md)
 -   [Recherche avec OLE DB](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 
 
 
 

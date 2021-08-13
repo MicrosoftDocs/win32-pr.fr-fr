@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 6cbe4783a9ad5b618f05941eae08af4c15be0512
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 80b0e69ec4f46541840d5b381cd25d056b25240a00a9ae84b0aaf46a79295ed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296000"
 ---
 # <a name="id3dxeffectisparameterused-method"></a>ID3DXEffect :: IsParameterUsed, méthode
 
@@ -59,7 +59,7 @@ Identificateur unique de la technique. Consultez [Handles (Direct3D 9)](handles.
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Type : **[ **bool**](../winprog/windows-data-types.md)**
 

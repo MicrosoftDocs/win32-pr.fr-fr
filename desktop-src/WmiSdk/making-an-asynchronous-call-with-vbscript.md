@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c2b3ec0c1bd771f59a4e456cb8e57c3bb3e9e394
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8c4737ff7513441532275e24f2cfe20f8e30fa2932e854cc566eb032c49d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555137"
 ---
 # <a name="making-an-asynchronous-call-with-vbscript"></a>Exécution d’un appel asynchrone avec VBScript
 
@@ -42,7 +42,7 @@ La procédure suivante décrit comment effectuer un appel asynchrone à l’aide
 
 **Pour effectuer un appel asynchrone à l’aide de VBScript**
 
-1.  Connectez-vous à WMI et récupérez un objet [**SWbemServices**](swbemservices.md) .
+1.  Connecter à WMI et récupérez un objet [**SWbemServices**](swbemservices.md) .
 
     ```VB
     Set Service = GetObject("Winmgmts:")
@@ -50,7 +50,7 @@ La procédure suivante décrit comment effectuer un appel asynchrone à l’aide
 
     
 
-2.  Créez le récepteur d’objets à l’aide de [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) ou (pour Windows Script Host 2,0 uniquement) la balise Object avec un attribut Events ayant la valeur **true**.
+2.  créez le récepteur d’objets à l’aide de [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) ou (pour Windows Script Host 2,0 uniquement) la balise object avec un attribut events ayant la valeur **TRUE**.
 
     ```VB
     Set sink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
@@ -96,7 +96,7 @@ La procédure suivante décrit comment effectuer un appel asynchrone à l’aide
 
     
 
-5.  Effectuez un appel qui empêche le script de se terminer avant la réception de tous les événements. Si votre script peut s’exécuter avec une interface d’écran, un moyen simple de le faire consiste à utiliser une commande Windows Script Host (WSH) `Echo` , qui est illustrée dans l’exemple suivant.
+5.  Effectuez un appel qui empêche le script de se terminer avant la réception de tous les événements. si votre script peut s’exécuter avec une interface d’écran, un moyen simple de le faire consiste à utiliser une commande Windows script Host (WSH) `Echo` , qui est illustrée dans l’exemple suivant.
 
     ```VB
     WScript.Echo "Waiting for instances."

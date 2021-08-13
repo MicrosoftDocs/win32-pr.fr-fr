@@ -4,12 +4,12 @@ ms.assetid: cbe7acd6-b916-45f3-b694-d2345c5a892a
 title: Table de contrôle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ced41fcaf020a043962b16cf12d9c339901b415
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e1832a2cb600e8d7a27b43bc28c94836396d74a50a90b44d0e5013bde973c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638531"
 ---
 # <a name="control-table"></a>Table de contrôle
 
@@ -21,7 +21,7 @@ La table de contrôle contient les colonnes suivantes.
 
 | Colonne        | Type                               | Clé | Nullable |
 |---------------|------------------------------------|-----|----------|
-| Dialogue\_      | [Identificateur](identifier.md)       | O   | N        |
+| Boîte de dialogue\_      | [Identificateur](identifier.md)       | O   | N        |
 | Contrôler       | [Identificateur](identifier.md)       | O   | N        |
 | Type          | [Identificateur](identifier.md)       | N   | N        |
 | X             | [Integer](integer.md)             | N   | N        |
@@ -134,7 +134,7 @@ Chaînes de texte localisables et facultatives qui sont utilisées avec le bouto
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs entières de x, y, Width et Height se trouvent dans les [unités d’installation](installer-units.md), et non dans les unités de boîte de dialogue. Une unité d’installation est égale à 1 douzième la hauteur de la taille de police MS sans serif à 10 points. Les coordonnées des contrôles sont relatives au panneau.
 

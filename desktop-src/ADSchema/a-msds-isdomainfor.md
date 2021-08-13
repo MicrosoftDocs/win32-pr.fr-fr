@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56529497eb8081f53310e26b834194cdcdc11bf5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b63b0fce03a5e978172b5790cfeac3c9c6724244ab798fef6b0ca80508c22800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106527271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685109"
 ---
 # <a name="ms-ds-is-domain-for-attribute"></a>attribut ms-DS-is-Domain-pour
 
@@ -42,7 +42,7 @@ Lien vers l’arrière pour [**ms-DS-has-Domain-NC**](a-msds-hasdomainncs.md). I
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Lien vers l’arrière pour [**ms-DS-has-Domain-NC**](a-msds-hasdomainncs.md). I
 |------------------------|---------------------------------|
 | ID de lien                | 2027                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -75,10 +75,10 @@ Lien vers l’arrière pour [**ms-DS-has-Domain-NC**](a-msds-hasdomainncs.md). I
 |------------------------|---------------------------------|
 | ID de lien                | 2027                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -96,10 +96,10 @@ Lien vers l’arrière pour [**ms-DS-has-Domain-NC**](a-msds-hasdomainncs.md). I
 |------------------------|---------------------------------|
 | ID de lien                | 2027                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
