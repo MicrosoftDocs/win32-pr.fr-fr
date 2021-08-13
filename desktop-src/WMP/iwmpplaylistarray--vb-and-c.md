@@ -1,10 +1,10 @@
 ---
-title: Interface IWMPPlaylistArray (VB et C) (WMP. h)
+title: interface IWMPPlaylistArray (VB et C) (Wmp. h)
 description: Fournit une propriété et une méthode pour accéder à une collection d’interfaces IWMPPlaylist par numéro d’index. L’interface IWMPPlaylistArray expose la propriété suivante.
 ms.assetid: 8a7477ee-58c5-41b2-9259-d1976433ae02
 keywords:
-- IWMPPlaylistArray (VB et C) interface Windows Media Player
-- Interface IWMPPlaylistArray (VB et C), le lecteur Windows Media, décrit
+- interface IWMPPlaylistArray (VB et C) Lecteur Windows Media
+- Lecteur Windows Media de l’interface IWMPPlaylistArray (VB et C), description
 topic_type:
 - apiref
 api_name:
@@ -15,14 +15,14 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3c926545635e1e83c7ba18eac99b2e96da59f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de9cd5db545e75aaf03c488608e825c92645f7cfaeaf0f645cc764fc6e886ecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106523016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468429"
 ---
-# <a name="iwmpplaylistarray-vb-and-c-interface"></a>Interface IWMPPlaylistArray (VB et C#)
+# <a name="iwmpplaylistarray-vb-and-c-interface"></a>interface IWMPPlaylistArray (VB et C#)
 
 Fournit une propriété et une méthode pour accéder à une collection d’interfaces **IWMPPlaylist** par numéro d’index.
 
@@ -30,14 +30,14 @@ L’interface **IWMPPlaylistArray** expose la propriété suivante.
 
 ## <a name="members"></a>Membres
 
-L’interface **IWMPPlaylistArray (VB et C#)** possède les types de membres suivants :
+l’interface **IWMPPlaylistArray (VB et C#)** possède les types de membres suivants :
 
 -   [Méthodes](#methods)
 -   [Propriétés](#properties)
 
 ### <a name="methods"></a>Méthodes
 
-L’interface **IWMPPlaylistArray (VB et C#)** possède ces méthodes.
+l’interface **IWMPPlaylistArray (VB et C#)** possède ces méthodes.
 
 
 
@@ -51,13 +51,13 @@ L’interface **IWMPPlaylistArray (VB et C#)** possède ces méthodes.
 
 ### <a name="properties"></a>Propriétés
 
-L’interface **IWMPPlaylistArray (VB et C#)** a ces propriétés.
+l’interface **IWMPPlaylistArray (VB et C#)** a ces propriétés.
 
 
 
 | Propriété                                                                              | Type d’accès          | Description                                                   |
 |:--------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------|
-| [**count**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre de sélections dans le tableau de sélection<br/> |
+| [**saut**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)<br/> | Lecture seule<br/> | Obtient le nombre de sélections dans le tableau de sélection<br/> |
 
 
 
@@ -89,7 +89,7 @@ Procurez-vous une interface **IWMPPlaylistArray** à l’aide des méthodes suiv
 
 <dl> <dt>
 
-[**Interfaces pour Visual Basic .NET et C #**](interfaces-for-visual-basic--net-and-c.md)
+[**Interfaces pour Visual Basic .net et C #**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**Interface IWMPPlaylist (VB et C#)**](iwmpplaylist--vb-and-c.md)

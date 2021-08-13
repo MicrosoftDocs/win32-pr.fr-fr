@@ -3,7 +3,7 @@ title: Élément meta
 description: L’élément Meta spécifie les métadonnées qui s’appliquent à la sélection entière.
 ms.assetid: 7248e1d9-ebd1-48cb-9019-89a35eac27ae
 keywords:
-- Élément méta Windows Media Player
+- élément méta Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9f3c41c25a0df0895c645c34f97495712b113ffc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2e4120b3eceea6d2a664edec9b48a46d33ad19b788bb820458a8802dccd2d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415739"
 ---
 # <a name="meta-element"></a>Élément meta
 
@@ -57,9 +57,9 @@ L’élément **meta** spécifie les métadonnées qui s’appliquent à la sél
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le créateur d’une sélection Windows Media peut définir l’attribut Name d’un élément Meta sur n’importe quelle chaîne. La liste suivante répertorie des attributs de nom standard qui se trouvent dans les listes de sélection Windows Media créées par le lecteur Windows Media et d’autres composants Microsoft.
+le créateur d’une sélection de média Windows peut définir l’attribut name d’un élément meta sur n’importe quelle chaîne. la liste suivante répertorie des attributs de nom standard qui se trouvent dans Windows les sélections de média créées par Lecteur Windows Media et d’autres composants Microsoft.
 
 -   Auteur
 -   Category
@@ -98,7 +98,7 @@ Le créateur d’une sélection Windows Media peut définir l’attribut Name d�
 [**Head, élément**](head-element.md)
 </dt> <dt>
 
-[**Informations de référence sur les éléments de sélection Windows Media**](windows-media-playlist-elements-reference.md)
+[**Windows Référence des éléments de sélection de média**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

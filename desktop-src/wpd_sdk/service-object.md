@@ -4,12 +4,12 @@ ms.assetid: 4ce4e7f7-579d-41a5-a4e1-935ba0afce83
 title: Objet de service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a3aabfc4e4366c54a5d30dbe5825f178378133d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2587ca25e1e9fc225a0b555263bf3f3f4e725c83e5f9b01e716fd6fa191fc270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119445581"
 ---
 # <a name="service-object"></a>Objet de service
 

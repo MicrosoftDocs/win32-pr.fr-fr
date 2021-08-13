@@ -4,12 +4,12 @@ description: Le masquage est une fonctionnalité de sécurité COM qui détermin
 ms.assetid: 5b97d9d6-8fa9-4da2-8351-64772227d9a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 588651cfa37def4e174ef0f2fdba9b79b0c60ca8
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 2b5d36ec4561b0cc3290f21f4c46dc338b6df455bc694464812f2274b8c1345f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "103869317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462955"
 ---
 # <a name="cloaking-com"></a>Masquage (COM)
 

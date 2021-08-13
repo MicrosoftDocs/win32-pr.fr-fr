@@ -3,7 +3,7 @@ title: Message EM_SETHYPHENATEINFO (RichEdit. h)
 description: Définit le mode de césure d’un contrôle RichEdit.
 ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
 keywords:
-- EM_SETHYPHENATEINFO les contrôles de message Windows
+- EM_SETHYPHENATEINFO les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8369d463ae03e9410347ab58a50346625e3de47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5551aace3ab054c1c6fa322242ae06386ff19f5a44775bd6dcc6887d19c65c62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437559"
 ---
 # <a name="em_sethyphenateinfo-message"></a>\_Message SETHYPHENATEINFO em
 
@@ -43,7 +43,7 @@ Non utilisé, doit être égal à zéro.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 > [!Note]  
 > Pour activer la césure, le client doit appeler [**em \_ SETTYPOGRAPHYOPTIONS**](em-settypographyoptions.md), en spécifiant à \_ ADVANCEDTYPOGRAPHY.
@@ -57,7 +57,7 @@ Non utilisé, doit être égal à zéro.
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP1 uniquement\]<br/>                                  |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>RichEdit. h</dt> </dl> |
 
 

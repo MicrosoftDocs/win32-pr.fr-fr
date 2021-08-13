@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 36b9085df8c15e765c751be8b5fcdfd4f4a02140
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f7563cabff97626ac45a150e9a763033d9ce9261e5ae528e83d174e35d4f0d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428782"
 ---
 # <a name="csourcestream-class"></a>CSourceStream, classe
 
@@ -56,8 +56,8 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 | [**OnThreadCreate**](csourcestream-onthreadcreate.md)                 | Appelé lorsque le thread de streaming est initialisé. Virtuels.                                                                         |
 | [**OnThreadDestroy**](csourcestream-onthreaddestroy.md)               | Appelé lorsque le thread de streaming est sur le point de se fermer. Virtuels.                                                                       |
 | [**OnThreadStartPlay**](csourcestream-onthreadstartplay.md)           | Appelée au début de la méthode [**CSourceStream ::D obufferprocessingloop**](csourcestream-dobufferprocessingloop.md) . Virtuels. |
-| [**Proactive**](csourcestream-active.md)                                 | Notifie le code confidentiel que le filtre est maintenant actif.                                                                                   |
-| [**Inactif**](csourcestream-inactive.md)                             | Notifie le code confidentiel que le filtre n’est plus actif.                                                                             |
+| [**Actif**](csourcestream-active.md)                                 | Notifie le code confidentiel que le filtre est maintenant actif.                                                                                   |
+| [**Inactive**](csourcestream-inactive.md)                             | Notifie le code confidentiel que le filtre n’est plus actif.                                                                             |
 | [**GetRequest**](csourcestream-getrequest.md)                         | Attend la demande de thread suivante.                                                                                                |
 | [**CheckRequest**](csourcestream-checkrequest.md)                     | Vérifie s’il existe une demande de thread, sans blocage.                                                                            |
 | [**ThreadProc**](csourcestream-threadproc.md)                         | Procédure de thread. Virtuels.                                                                                                        |
@@ -69,9 +69,9 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 | [**~ CSourceStream**](csourcestream--csourcestream.md)                | Méthode de destructeur. Virtuels.                                                                                                       |
 | [**Rein**](csourcestream-init.md)                                     | Initialise le thread de diffusion en continu.                                                                                                 |
 | [**Quitter**](csourcestream-exit.md)                                     | Signale le thread de diffusion en continu à quitter.                                                                                             |
-| [**Utilisez**](csourcestream-run.md)                                       | Signale l’exécution du thread de streaming.                                                                                              |
+| [**Exécuter**](csourcestream-run.md)                                       | Signale l’exécution du thread de streaming.                                                                                              |
 | [**Suspendre**](csourcestream-pause.md)                                   | Signale que le thread de streaming devient actif.                                                                                    |
-| [**Erreur**](csourcestream-stop.md)                                     | Signale l’arrêt du thread de streaming.                                                                                             |
+| [**Arrêter**](csourcestream-stop.md)                                     | Signale l’arrêt du thread de streaming.                                                                                             |
 | Méthodes virtuelles pures                                                   | Description                                                                                                                       |
 | [**FillBuffer**](csourcestream-fillbuffer.md)                         | Remplit un échantillon de média avec des données.                                                                                                   |
 | Méthodes IPin                                                           | Description                                                                                                                       |
@@ -87,7 +87,7 @@ Celles-ci ne font rien dans la classe de base, mais la classe dérivée peut les
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Source. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Source. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

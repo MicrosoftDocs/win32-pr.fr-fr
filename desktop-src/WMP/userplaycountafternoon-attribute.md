@@ -3,7 +3,7 @@ title: Attribut UserPlaycountAfternoon
 description: L’attribut UserPlaycountAfternoon est le nombre de fois que l’élément a été lu entre 12 00 et 17 00 heure locale.
 ms.assetid: d02ac67b-6962-452d-9046-491b452447b0
 keywords:
-- Attribut UserPlaycountAfternoon lecteur Windows Media
+- Lecteur Windows Media de l’attribut UserPlaycountAfternoon
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52ce581dc5f4f9c3142c069aca62f3e970d18add
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 329feb503f59fd60a95e2da79023f93677ef2b9643c05dfb0a42b9533a29b2e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119466279"
 ---
 # <a name="userplaycountafternoon-attribute"></a>Attribut UserPlaycountAfternoon
 
@@ -30,7 +30,7 @@ L’attribut **UserPlaycountAfternoon** est le nombre de fois que l’élément 
 -   [Sélections](playlist-attributes-ref.md)
 -   [Éléments vidéo](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est stocké uniquement dans la bibliothèque.
 

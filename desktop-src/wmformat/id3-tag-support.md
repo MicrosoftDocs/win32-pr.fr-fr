@@ -10,12 +10,12 @@ keywords:
 - Balises ID3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4f3dd91119aedf2983e654b4925231b8fd9e4b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28fd65ffadb952e9370af609e336c08fc07c9b96f50d09d95c78492bef2163db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703024"
 ---
 # <a name="id3-tag-support"></a>Prise en charge des balises ID3
 
@@ -25,13 +25,13 @@ Le tableau suivant répertorie tous les attributs qui correspondent aux balises 
 
 | Attribut                      | ID3v1. x | ID3v 2.2 | ID3v 2.3/v 2.4 |
 |--------------------------------|---------|---------|--------------|
-| **Auteur**                     | Peinture  | TP1     | TPE1         |
+| **Author**                     | Peinture  | TP1     | TPE1         |
 | **Copyright**                  |         | TCR     | TCOP         |
 | **CopyrightURL**               |         | WCP     | WCOP         |
 | **Description**                | Commentaire | COM     | COMM         |
 | **Durée**                   |         | TLE     | TLEN         |
 | **FileSize**                   |         |         | TSIZ         |
-| **Titre**                      | Intitulé   | TT2     | TIT2         |
+| **Titre**                      | Titre   | TT2     | TIT2         |
 | **WM/AlbumArtist**             |         | TP2     | TPE2         |
 | **WM/AlbumSortOrder**          |         |         | TSOA         |
 | **WM/AlbumTitle**              | Album   | A     | TALB         |
@@ -42,7 +42,7 @@ Le tableau suivant répertorie tous les attributs qui correspondent aux balises 
 | **WM/BeatsPerMinute**          |         |         | TBPM         |
 | **WM/binaire**                  |         | LOCAL     | GEOB         |
 | **WM/comments**                |         | COM     | COMM         |
-| **WM/composer**                |         | TCM     | TCOM         |
+| **WM/Composer**                |         | TCM     | TCOM         |
 | **WM/conducteur**               |         | TP3     | TPE3         |
 | **WM/ContentGroupDescription** |         | TT1     | TIT1         |
 | **WM/EncodedBy**               |         | 10MINUTES     | TENC         |
@@ -64,7 +64,7 @@ Le tableau suivant répertorie tous les attributs qui correspondent aux balises 
 | **WM/PartOfSet**               |         | TPA     | TPOS         |
 | **WM/image**                 |         | PIC     | APIC         |
 | **WM/PlaylistDelay**           |         |         | TDLY         |
-| **WM/serveur de publication**               |         | TPB     | TPUB         |
+| **WM/Publisher**               |         | TPB     | TPUB         |
 | **WM/RadioStationName**        |         | LETTRAGE     | TRSN         |
 | **WM/RadioStationOwner**       |         | TRO     | TRSO         |
 | **WM/SetSubTitle**             |         |         | TSST         |
@@ -79,7 +79,7 @@ Le tableau suivant répertorie tous les attributs qui correspondent aux balises 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -88,9 +88,9 @@ Le tableau suivant répertorie tous les attributs qui correspondent aux balises 
 [**Attributs**](attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

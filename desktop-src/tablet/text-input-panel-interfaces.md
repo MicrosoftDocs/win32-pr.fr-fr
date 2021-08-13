@@ -4,12 +4,12 @@ ms.assetid: 58f49d5b-8b38-45e7-94e1-8a4434d6e13b
 title: Interfaces du panneau de saisie de texte
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 798dc60f34171ce7254bca74c27a51fa12eaba65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f2dcffe1eb67f00b4fe4d2ed3f371af003e040a30213516ae93eab73def6ef2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715405"
 ---
 # <a name="text-input-panel-interfaces"></a>Interfaces du panneau de saisie de texte
 

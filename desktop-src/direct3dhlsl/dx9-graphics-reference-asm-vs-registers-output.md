@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e4a0b397d17b841877796bd9c33432896208ed6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: HT
+ms.openlocfilehash: 3cfa17c09315f4cdca98f5c5fc10f7ab15541eb8b774835963b06169c4afe225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457769"
 ---
 # <a name="output-registers"></a>Registres de sortie
 
@@ -38,7 +38,7 @@ oD0 est le registre de couleur diffuse. oD1 est le registre de couleurs spécula
 
 
 
- 
+ 
 
 ## <a name="fog-register---ofog"></a>Registre de brouillard-oFog
 
@@ -52,7 +52,7 @@ La valeur de brouillard de sortie est inscrite. La valeur est le facteur de brou
 
 
 
- 
+ 
 
 ## <a name="position-register---opos"></a>Registre de position-oPos
 
@@ -66,7 +66,7 @@ La position de sortie est inscrite. La valeur correspond à la position dans l�
 
 
 
- 
+ 
 
 ## <a name="point-size-register---opts"></a>Registre de la taille du point-oPts
 
@@ -80,7 +80,7 @@ Registres de taille de point de sortie. Seul le composant x scalaire de la taill
 
 
 
- 
+ 
 
 ## <a name="texture-coordinate-register---ot0-to-ot7"></a>Registre des coordonnées de texture-oT0 à oT7
 
@@ -94,7 +94,7 @@ Les coordonnées de la texture de sortie s’inscrivent. Plus précisément, il 
 
 
 
- 
+ 
 
 Lors de l’écriture dans un registre de coordonnées de texture, il est recommandé de passer uniquement les valeurs à virgule flottante en tant que dimension de la carte de texture correspondante. Contrôler les valeurs passées avec un modificateur. Par exemple, utilisez. XY pour une carte de texture 2D.
 
@@ -117,9 +117,9 @@ Si les coordonnées de texture sont lues directement dans un nuanceur de pixels 
 [Registres de nuanceur vertex](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

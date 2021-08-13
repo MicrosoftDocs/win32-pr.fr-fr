@@ -4,12 +4,12 @@ description: Accès à un moteur de reconnaissance vocale dans votre code
 ms.assetid: ddfe0552-a29e-4ce4-b608-c131efbe300b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7d81841f6f287d36a6ac01fa77294b1754eeb9b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7b9769e88437366b72fdff50dc0ab27918d1b21e4c0c317f230049a965629a03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106512724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753118"
 ---
 # <a name="accessing-a-speech-engine-in-your-code"></a>Accès à un moteur de reconnaissance vocale dans votre code
 
@@ -27,7 +27,7 @@ Pour utiliser un moteur de reconnaissance vocale particulier dans votre code, ut
 
 
 
- 
+ 
 
 Vérifiez et définissez les paramètres [**LanguageID**](https://www.bing.com/search?q=**LanguageID**) et [**SRModeID**](https://www.bing.com/search?q=**SRModeID**) du caractère dans votre code avant de tenter de définir la grammaire pour les paramètres vocaux des objets de **commande** de votre application. Pensez également à vérifier la langue du navigateur ou du système pour être certain de correspondre à la configuration de vos utilisateurs. Le moteur peut échouer si vous tentez de définir une grammaire pour une langue qui ne correspond pas au moteur.
 
@@ -85,13 +85,13 @@ Pour rechercher ou définir l’ID de mode d’un moteur, utilisez [**TTSModeID*
 
 
 
- 
+ 
 
 > [!Note]  
 > Il existe une différence entre le CLSID d’installation d’un moteur de reconnaissance vocale et son ID de mode. De même, un moteur de reconnaissance vocale a également un ID de moteur, mais cet ID n’est pas applicable dans l’API de l’agent.
 
- 
+ 
 
- 
+ 
 
- 
+ 

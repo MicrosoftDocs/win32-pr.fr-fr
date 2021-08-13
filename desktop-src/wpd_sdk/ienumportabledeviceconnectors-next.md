@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 709e938c28f9bf09e34d918eea7be3029c7a11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 868f13f220dbd5d5867e5ee2bbb54c1ef946e267d87e9ea0aa625108b945d537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697294"
 ---
 # <a name="ienumportabledeviceconnectorsnext-method"></a>IEnumPortableDeviceConnectors :: Next, méthode
 
@@ -52,7 +52,7 @@ Nombre d’appareils demandés. Cette valeur indique également le nombre d’é
 *pConnectors* \[ à\]
 </dt> <dd>
 
-Tableau de pointeurs [**IPortableDeviceConnector**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , chacun spécifiant un périphérique Bluetooth MTP couplé. L’appelant doit allouer un tableau de pointeurs **IPortableDeviceConnector** avec la longueur de tableau spécifiée par le paramètre *cRequested* . En cas de retour réussi, l’appelant doit libérer à la fois le tableau et les pointeurs retournés. Les interfaces **IPortableDeviceConnector** sont libérées en appelant la méthode **IUnknown :: Release** .
+tableau de pointeurs [**IPortableDeviceConnector**](/windows/desktop/api/portabledeviceconnectapi/nn-portabledeviceconnectapi-iportabledeviceconnector) , chacun spécifiant un appareil Bluetooth MTP jumelé. L’appelant doit allouer un tableau de pointeurs **IPortableDeviceConnector** avec la longueur de tableau spécifiée par le paramètre *cRequested* . En cas de retour réussi, l’appelant doit libérer à la fois le tableau et les pointeurs retournés. Les interfaces **IPortableDeviceConnector** sont libérées en appelant la méthode **IUnknown :: Release** .
 
 </dd> <dt>
 
@@ -65,14 +65,14 @@ Nombre d’interfaces [**IPortableDeviceConnector**](/windows/desktop/api/portab
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
 | Code de retour                                                                             | Description                                                      |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**\_OK**</dt> </dl>    | S_OK<br/>                                 |
-| <dl> <dt>**S \_ false**</dt> </dl> | Il n’y a plus d’appareils Bluetooth MTP à énumérer.<br/> |
+| <dl> <dt>**S \_ false**</dt> </dl> | il n’y a plus d’appareils de Bluetooth MTP à énumérer.<br/> |
 
 
 
@@ -80,7 +80,7 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant illustre l’utilisation de cette méthode pour énumérer des appareils MTP/Bluetooth couplés et pour envoyer une demande de connexion asynchrone à chacun.
+l’exemple suivant illustre l’utilisation de cette méthode pour énumérer les appareils MTP/Bluetooth associés et pour envoyer une demande de connexion asynchrone à chacun.
 
 
 ```C++
@@ -122,7 +122,7 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                                                                             |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                                                                             |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                                                                              |
 | En-tête<br/>                   | <dl> <dt>Devpkey. h ; </dt> <dt>PortableDeviceConnectApi. h</dt> </dl> |
 | MIDL<br/>                      | <dl> <dt>PortableDeviceConnectApi. idl</dt> </dl>                                                                |

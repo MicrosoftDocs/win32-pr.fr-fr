@@ -1,17 +1,17 @@
 ---
 description: Message WS-Transfer utilisé pour répondre à une demande de métadonnées.
 ms.assetid: aff05317-35db-4ea6-9692-1e09e4682fe7
-title: Message GetResponse (échange de métadonnées)
+title: Message GetResponse (Exchange de métadonnées)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b91546076698f17a25b8a87444ae3eca71d65a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11bc76038a32d28f4ed773a937654e6d159ab75460e8cb6d6d5af60f614fa7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552400"
 ---
-# <a name="getresponse-metadata-exchange-message"></a>Message GetResponse (échange de métadonnées)
+# <a name="getresponse-metadata-exchange-message"></a>Message GetResponse (Exchange de métadonnées)
 
 Un message GetResponse est un message WS-Transfer utilisé pour répondre à une demande de métadonnées. Pour plus d’informations sur les messages GetResponse, consultez la section 3,1 de la [spécification WS-Transfer](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf).
 
@@ -160,7 +160,7 @@ Un message GetResponse a les points de focus suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Obtenir le message.](get--metadata-exchange--http-request-and-message.md)

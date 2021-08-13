@@ -4,12 +4,12 @@ description: IAgentUserInput GetCount
 ms.assetid: 9c127387-b680-405a-9a62-ee08cc70813a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac4b597f7367eff10154bde256698ef371c3619
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9f52c296dd152fd1e31a87e21d80f8b25d52ae880b300487cdcba746e81dfa0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190682"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749516"
 ---
 # <a name="iagentuserinputgetcount"></a>IAgentUserInput :: GetCount
 
@@ -36,9 +36,9 @@ Adresse d’une variable qui reçoit le nombre d’autres [**commandes**](comman
 
 Si l’entrée vocale n’est pas la source de la commande, par exemple, si l’utilisateur a sélectionné la commande dans le menu contextuel du caractère, **GetCount** retourne 1. Si **GetCount** retourne la valeur zéro (0), le moteur de reconnaissance vocale a détecté une entrée parlée, mais a déterminé qu’il n’y avait pas de commande correspondante.
 
- 
+ 
 
- 
+ 
 
 
 

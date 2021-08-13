@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2439085c6483720e84956ef9932f4f1ab95535
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e090dfb655837ad2cf36cf45486488fde1440b499b73f16fdfbdaf2989532687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700785"
 ---
 # <a name="iwmdrmsecuritycheckcertforrevocation-method"></a>IWMDRMSecurity :: CheckCertForRevocation, méthode
 
@@ -57,7 +57,7 @@ GUID identifiant la liste de révocation à utiliser. Définissez l’une des va
 |-------------------------------|--------------------------------------------------------------------------------------------|
 | \_application REVOCATIONTYPE \_ WMDRM    | Spécifie la liste de révocation des certificats d’application.                                     |
 | \_appareil REVOCATIONTYPE \_ WMDRM | Spécifie la liste de révocation de certificats de l’appareil.                                          |
-| \_REVOCATIONTYPE WMDRM \_ CARDEA | Spécifie la liste de révocation de certificats de Microsoft Windows Media DRM pour les périphériques réseau. |
+| \_REVOCATIONTYPE WMDRM \_ CARDEA | spécifie la liste de révocation de certificats Microsoft Windows Media DRM pour les périphériques réseau. |
 
 
 
@@ -88,7 +88,7 @@ Lors de la sortie, indique si le certificat est présent dans la liste de révoc
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 

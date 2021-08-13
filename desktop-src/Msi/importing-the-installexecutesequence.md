@@ -4,18 +4,18 @@ ms.assetid: cdd4f02a-cfe6-4a23-9fc2-f4cb810379aa
 title: Importation du InstallExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e4728b0a59c92dcc0d007fc816fd298455e049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 586557130c6aa9af197d5d28f6bd750f4de736feb6982f3b7f12ce73ccf41c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430769"
 ---
 # <a name="importing-the-installexecutesequence"></a>Importation du InstallExecuteSequence
 
 Le [tableau InstallExecuteSequence](installexecutesequence-table.md) répertorie les actions qui sont exécutées lorsque le programme d’installation exécute l' [action d’installation](install-action.md)de niveau supérieur. Consultez le [groupe tables de procédures d’installation](installation-procedure-tables-group.md), [à l’aide d’une table de séquences](using-a-sequence-table.md)et de l' [exemple de table de séquence détaillé](sequence-table-detailed-example.md).
 
-Si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, les tables de séquence de votre copie de MNP2000.msi contiennent déjà les séquences d’action suggérées décrites dans [utilisation d’une table de séquences](using-a-sequence-table.md). Aucune modification de ces séquences n’est nécessaire pour créer le package d’installation du bloc-notes.
+si, dans la section, vous avez [importé une base de données vide](importing-a-blank-database.md) que vous avez utilisée uisample.msi du kit de développement logiciel (SDK) Windows Installer, les tables de séquence de votre copie de MNP2000.msi contiennent déjà les séquences d’action suggérées décrites dans [utilisation d’une Table de séquences](using-a-sequence-table.md). aucune modification de ces séquences n’est nécessaire pour créer le package d’installation Bloc-notes.
 
 Utilisez votre éditeur de base de données pour ouvrir MNP2000.msi et entrez les données suivantes dans la table InstallExecuteSequence.
 

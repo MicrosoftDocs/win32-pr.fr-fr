@@ -4,27 +4,27 @@ description: À propos de l’objet de requête
 ms.assetid: 41488036-bdcf-4fe6-8f7e-f0897157d3d9
 keywords:
 - Lecteur Windows Media, objet de requête
-- Modèle d’objet du lecteur Windows Media, objet de requête
+- Lecteur Windows Media modèle objet, Query (objet)
 - modèle objet, objet Query
-- Contrôle ActiveX du lecteur Windows Media, objet de requête
-- Contrôle ActiveX, objet de requête
-- Contrôle ActiveX Windows Media Player Mobile, Query (objet)
-- Windows Media Player Mobile, objet de requête
+- Lecteur Windows Media ActiveX contrôle, objet de requête
+- contrôle ActiveX, objet Query
+- Lecteur Windows Media contrôle Mobile ActiveX, objet Query
+- Lecteur Windows Media Mobile, objet de requête
 - Objet de requête
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a26f60c38e053b91c7e56f5cbd7ccaf2ba0fe2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13d649263f981d02e106466c6e0fcada99c316054d4bf6e0acc0faca641c75dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470399"
 ---
 # <a name="about-the-query-object"></a>À propos de l’objet de requête
 
 L’objet de **requête** représente une requête composée. Pour créer un objet de **requête** vide, appelez *mediaCollection*. **CreateQuery**. Après avoir créé un objet de **requête** , vous pouvez appeler **addCondition** pour ajouter une condition à la requête composée. Chaque appel suivant à **addCondition** ajoute une nouvelle condition à la requête existante à l’aide de et de la logique.
 
-Supposons, par exemple, que vous souhaitiez créer une requête qui représente tous les supports numériques où **WM/genre** est égal à « Jazz » et **auteur** contient « Jim ». Vous pouvez créer une requête composée pour représenter ces conditions à l’aide du code JScript suivant :
+Supposons, par exemple, que vous souhaitiez créer une requête qui représente tous les supports numériques où **WM/genre** est égal à « Jazz » et **auteur** contient « Jim ». vous pouvez créer une requête composée pour représenter ces conditions en utilisant le code JScript suivant :
 
 
 ```C++
@@ -77,9 +77,9 @@ Pour exécuter votre requête composée, appelez **MediaCollection. getPlaylistB
 [**Objet Query**](query-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

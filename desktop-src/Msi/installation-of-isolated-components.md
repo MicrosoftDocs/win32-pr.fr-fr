@@ -1,19 +1,19 @@
 ---
-description: Windows Installer effectue les actions suivantes lors de l’installation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+description: Windows Le programme d’installation effectue les actions suivantes lors de l’installation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 ms.assetid: fbc5dd86-5d38-4ce8-ab38-03c84cc77e80
 title: Installation de composants isolés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c1b9a7e21c212474701409e887d0afd5517774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f842f626775dce436abedace96549fd55079c577885aad81492df861cd1a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634124"
 ---
 # <a name="installation-of-isolated-components"></a>Installation de composants isolés
 
-Windows Installer effectue les actions suivantes lors de l’installation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
+Windows Le programme d’installation effectue les actions suivantes lors de l’installation d’une application lorsque le package contient des composants isolés. En règle générale, \_ le composant partagé est une DLL partagée par l' \_ application composant et d’autres exécutables client.
 
 ## <a name="installation"></a>Installation
 

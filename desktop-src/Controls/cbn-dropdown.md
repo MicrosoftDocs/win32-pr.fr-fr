@@ -3,7 +3,7 @@ title: CBN_DROPDOWN le code de notification (winuser. h)
 description: Envoyé lorsque la zone de liste d’une zone de liste déroulante va être affichée. La fenêtre parente de la zone de liste déroulante reçoit ce code de notification via le \_ message de commande WM.
 ms.assetid: 2ee9bb19-951b-46bb-a90d-1ade92c2d76c
 keywords:
-- Contrôles Windows de code de notification CBN_DROPDOWN
+- CBN_DROPDOWN les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 018dac2a17a656c11ac697836390ee64e55875db
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 978ac01818f3e9ed7da9f3f1decc7398ab4af32df8f884041bec327640a8014d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438299"
 ---
 # <a name="cbn_dropdown-notification-code"></a>\_Code de notification de liste déroulante CBN
 
@@ -53,7 +53,7 @@ Handle vers la zone de liste déroulante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce code de notification n’est envoyé que si la zone de liste déroulante [**SCC \_**](combo-box-styles.md) ou le style [**\_ DropDownList CBS**](combo-box-styles.md) .
 
@@ -63,8 +63,8 @@ Ce code de notification n’est envoyé que si la zone de liste déroulante [**S
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - API de mastérisation d’image IMAPi, décrite
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db1dc7846d2e47483abf2ca8856d593b874467f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccb16ab8c542e7c4686c7a3f4d027169a520495a8d3fab9927f11ed974deeef6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104569680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451902"
 ---
 # <a name="about-the-image-mastering-api"></a>À propos de l’API de mastérisation d’image
 
@@ -36,9 +36,9 @@ Les objets **MSDiscRecorderObj** sont accessibles par le biais de l’interface 
 
 Les objets restants, **MSDiscStashObj** et **MSBurnEngineObj**, sont des objets internes auxquels IMAPI accède. Ils sont mentionnés ici uniquement pour clarifier l’architecture IMAPi. Le **MSDiscStashObj** représente (via l’interface **IDiscStash** ) un fichier brut d’une taille maximale de 800 Mo utilisée par **MSDiscMasterObj** pour créer des images audio ou des disques de données à graver. La dissimulation est transmise à **MSBurnEngineObj** (via l’interface **IMSBurnEngine** ) lorsqu’une gravure est demandée à partir du moteur de niveau inférieur. L’objet **MSBurnEngineObj** s’attend à ce que le contenu de la dissimulation soit dans un format connu. À cet égard, **MSDiscMasterObj** et **MSBurnEngineObj** ont un contrat concernant le contenu de la dissimulation.
 
- 
+ 
 
- 
+ 
 
 
 

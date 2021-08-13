@@ -1,5 +1,5 @@
 ---
-description: 'Le WiaTransferParams est transmis à une application lors d’un transfert de données par le système d’exécution WIA (Windows Image Acquisition) à la méthode IWiaTransferCallback :: TransferCallback.'
+description: 'le WiaTransferParams est transmis à une application lors d’un transfert de données par le système d’exécution d’acquisition d’images Windows (WIA) à la méthode IWiaTransferCallback :: TransferCallback.'
 ms.assetid: 4f1bbacf-e9fd-4129-ab05-3edaeecfaf43
 title: WiaTransferParams, structure (WIA. h)
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Wia.h
-ms.openlocfilehash: 4c432cab14e08d89a49234dd7c6de059cc9d72c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d128a39ff5d9d29bf0766273adaace7eae86b10c9556284c1f5b6f1c9285d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449903"
 ---
 # <a name="wiatransferparams-structure"></a>WiaTransferParams, structure
 
-Le **WiaTransferParams** est transmis à une application lors d’un transfert de données par le système d’exécution WIA (Windows Image Acquisition) à la méthode [**IWiaTransferCallback :: TransferCallback**](-wia-iwiatransfercallback-transfercallback.md) .
+le **WiaTransferParams** est transmis à une application lors d’un transfert de données par le système d’exécution d’acquisition d’images Windows (WIA) à la méthode [**IWiaTransferCallback :: TransferCallback**](-wia-iwiatransfercallback-transfercallback.md) .
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -127,8 +127,8 @@ Type : **HRESULT**
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                             |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                   |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                             |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl> |
 
 

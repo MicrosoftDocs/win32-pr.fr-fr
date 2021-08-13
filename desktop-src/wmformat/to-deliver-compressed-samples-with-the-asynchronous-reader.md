@@ -14,18 +14,18 @@ keywords:
 - exemples compressés, diffusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4ce835075f5bd760014a3b1b776ba3627adb076
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: cd9199fb1deefdd3c7408bc9039639bd723b06c380c03d249c9c71a1d792c1e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699929"
 ---
 # <a name="to-deliver-compressed-samples-with-the-asynchronous-reader"></a>Pour distribuer des exemples compressés avec le lecteur asynchrone
 
 Le lecteur asynchrone peut fournir des échantillons compressés à partir de flux dans des fichiers ASF. Les applications fournissent généralement des exemples compressés lors de la copie d’un flux d’un fichier vers un autre. Il n’est pas recommandé de recompresser les données qui ont été reconstruites à partir d’un flux compressé, car les données sont perdues dans le processus d’encodage. Les médias numériques qui ont été compressés plusieurs fois auront une baisse notable de la qualité.
 
-Le kit de développement logiciel (SDK) Windows Media format ne fournit aucune méthode pour décoder les données après leur extraction à partir d’un fichier ASF. Si vous recevez des exemples compressés et que vous souhaitez les décompresser ultérieurement, vous devrez fournir votre propre code pour ce faire. Une façon de contourner cette limitation consiste à écrire les exemples compressés dans un nouveau fichier ASF, puis à les relire dans des exemples normaux et non compressés.
+le kit de développement logiciel (SDK) Windows Media Format ne fournit aucune méthode pour décoder les données après leur extraction à partir d’un fichier ASF. Si vous recevez des exemples compressés et que vous souhaitez les décompresser ultérieurement, vous devrez fournir votre propre code pour ce faire. Une façon de contourner cette limitation consiste à écrire les exemples compressés dans un nouveau fichier ASF, puis à les relire dans des exemples normaux et non compressés.
 
 Pour recevoir des exemples compressés avec le lecteur asynchrone, procédez comme suit.
 
@@ -37,7 +37,7 @@ Pour recevoir des exemples compressés avec le lecteur asynchrone, procédez com
 > [!Note]  
 > Les flux d’images ne sont pas valides pour la remise du flux compressé. Si vous copiez un flux d’image d’un fichier vers un autre, il ne fonctionnera pas dans le nouveau fichier. Pour copier un flux d’image à partir d’un fichier vers un fichier, récupérez les exemples de flux d’image par numéro de sortie et incluez-les dans le nouveau fichier comme si vous incluiez un nouveau flux d’image.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -49,9 +49,9 @@ Pour recevoir des exemples compressés avec le lecteur asynchrone, procédez com
 [**Lecture des fichiers avec le lecteur asynchrone**](reading-files-with-the-asynchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

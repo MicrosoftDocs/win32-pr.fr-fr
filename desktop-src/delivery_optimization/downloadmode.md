@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0cde44a3d211040e2cc1dd62afd54f8284f5493e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ea753ef47dc2e6655d7e707466d7b0448bee7bec1f090b1baf4de04799283d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543723"
 ---
 # <a name="downloadmode-enumeration"></a>Énumération DownloadMode
 
@@ -63,7 +63,7 @@ Ce mode de fonctionnement par défaut permet le partage entre des pairs d’un m
 <span id="DownloadMode_Group"></span><span id="downloadmode_group"></span><span id="DOWNLOADMODE_GROUP"></span>**DownloadMode_Group**
 </dt> <dd>
 
-Lorsque le mode groupe est défini, le groupe est automatiquement sélectionné en fonction du site s Active Directory Domain Services (AD DS) du périphérique (Windows 10, version 1607) ou du domaine auquel l’appareil est authentifié (Windows 10, version 1511). En mode Groupe, le peering est effectué sur des sous-réseaux internes, entre les appareils qui appartiennent au même groupe. Cela inclut les appareils situés dans des bureaux distants. Vous pouvez utiliser l’option GroupID pour créer votre propre groupe personnalisé, indépendamment des domaines et des sites AD DS. Le mode de téléchargement groupé est l’option recommandée pour la plupart des organisations qui recherchent la meilleure optimisation de la bande passante avec l’Optimisation de la distribution.
+lorsque le mode groupe est défini, le groupe est automatiquement sélectionné en fonction du site s Active Directory Domain Services (AD DS) du périphérique (Windows 10, version 1607) ou du domaine auquel l’appareil est authentifié (Windows 10, version 1511). En mode Groupe, le peering est effectué sur des sous-réseaux internes, entre les appareils qui appartiennent au même groupe. Cela inclut les appareils situés dans des bureaux distants. Vous pouvez utiliser l’option GroupID pour créer votre propre groupe personnalisé, indépendamment des domaines et des sites AD DS. Le mode de téléchargement groupé est l’option recommandée pour la plupart des organisations qui recherchent la meilleure optimisation de la bande passante avec l’Optimisation de la distribution.
 
 </dd> <dt>
 
@@ -92,6 +92,6 @@ Permet de contourner l’optimisation de la distribution et d’utiliser la fonc
 
 | Condition requise | Valeur |
 |-------------------------------|----------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>      |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>  |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>      |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>  |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>               |

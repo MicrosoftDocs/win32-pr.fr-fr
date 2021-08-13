@@ -4,16 +4,16 @@ ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: Interfaces de décodeur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef90ca2dd521c15460295505a6d5b7ea451c4dba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a52a0924f6302e45b10cb32a1d621db04967d33a3251ee39cce359e5030af5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393522"
 ---
 # <a name="decoder-interfaces"></a>Interfaces de décodeur
 
-Les tableaux suivants présentent les interfaces implémentées par les décodeurs WIC (Windows Imaging Component) et le diagramme de classes affiche la hiérarchie d’héritage.
+les tableaux suivants présentent les interfaces implémentées par les décodeurs Windows Component (WIC) et le diagramme de classes affiche la hiérarchie d’héritage.
 
 Interfaces de décodeur Container-Level
 
@@ -62,7 +62,7 @@ Interfaces de décodeur Frame-Level
 [Comment écrire un CODEC WIC-Enabled](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

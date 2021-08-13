@@ -4,12 +4,12 @@ ms.assetid: bcfd0f2b-317b-41de-88ab-acfde822e6fb
 title: System. contact. CallbackTelephone
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4321eb0224586af4daf36cfd55d48956d1c8fc8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51b95b357b97dc229a34820b25121c08b5b67442c03f52b626ad1f3635e17339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730163"
 ---
 # <a name="systemcontactcallbacktelephone"></a>System. contact. CallbackTelephone
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

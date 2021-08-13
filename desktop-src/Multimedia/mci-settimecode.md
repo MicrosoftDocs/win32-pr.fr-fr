@@ -3,7 +3,7 @@ title: Commande MCI_SETTIMECODE (mmsystem. h)
 description: La \_ commande MCI SETTIMECODE active ou désactive l’enregistrement du code temporel pour un magnétoscope. Les périphériques VCR reconnaissent cette commande.
 ms.assetid: b014fbe0-de97-4540-a5fe-b22d157361f7
 keywords:
-- Commande MCI_SETTIMECODE Windows multimédia
+- commande MCI_SETTIMECODE Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7df0727f4386bad46b3fde7f2d816ce951850b8d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4f75a1722b1e1e26ece0bc7f3eac705bdd290f770a659cfebe46b603859a3918
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430459"
 ---
 # <a name="mci_settimecode-command"></a>\_Commande MCI SETTIMECODE
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ PARMS générique MCI**](mci-generic-par
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’indicateur supplémentaire suivant s’applique aux périphériques VCR :
 
@@ -103,7 +103,7 @@ Enregistrement du code temporel désactivé.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

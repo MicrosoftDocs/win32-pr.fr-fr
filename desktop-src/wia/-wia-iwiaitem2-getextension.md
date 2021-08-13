@@ -1,5 +1,5 @@
 ---
-description: Obtient les interfaces d’extension qui peuvent être fournies avec le pilote de périphérique WIA (Windows Image Acquisition) 2,0.
+description: obtient les interfaces d’extension qui peuvent provenir d’un pilote de périphérique Windows acquisition d’images (WIA) 2,0.
 ms.assetid: 70f20f33-905c-4a88-8065-1cf876e98302
 title: 'IWiaItem2 :: GetExtension, méthode (WIA. h)'
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2fea4c4b9a2dd909b7ec49097ee94664b47f7e47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c9738afe60d79b73149c9dd7dda8c3bbd1017c3b41d023b47160b624bcd7c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450412"
 ---
 # <a name="iwiaitem2getextension-method"></a>IWiaItem2 :: GetExtension, méthode
 
-Obtient les interfaces d’extension qui peuvent être fournies avec le pilote de périphérique WIA (Windows Image Acquisition) 2,0.
+obtient les interfaces d’extension qui peuvent provenir d’un pilote de périphérique Windows acquisition d’images (WIA) 2,0.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -95,7 +95,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application appelle cette méthode pour créer un objet d’extension qui implémente l’une des interfaces d’extension de pilote WIA 2,0. **IWiaItem2 :: GetExtension** stocke l’adresse de l’interface d’extension de l’objet d’extension dans le paramètre *riidExtensionInterface* . L’application utilise ensuite le pointeur d’interface pour appeler ses méthodes.
 
@@ -156,8 +156,8 @@ CreateSegmentationFilter(
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

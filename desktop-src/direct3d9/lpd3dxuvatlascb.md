@@ -4,12 +4,12 @@ ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXUVATLASCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe073b5e6a798ccb74421d42502b089d59be11f
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d4473134d7ecf98c50d0c3a69085e7f46344d1d57ff2650c1adbc54c43dba266
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458712"
 ---
 # <a name="lpd3dxuvatlascb"></a>LPD3DXUVATLASCB
 
@@ -39,7 +39,7 @@ Cette fonction doit être implémentée pour retourner \_ OK pour continuer à e
 
 ## <a name="remarks"></a>Remarques
 
-Veillez à spécifier la Convention d’appel des [**types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
+veillez à spécifier la convention d’appel des [**Types de données Windows**](../winprog/windows-data-types.md) lors de la déclaration de la fonction de rappel. Sinon, les dépassements de capacité de la pile peuvent se produire.
 
 
 

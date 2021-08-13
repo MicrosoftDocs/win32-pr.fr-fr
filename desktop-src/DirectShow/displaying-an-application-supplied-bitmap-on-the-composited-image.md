@@ -4,16 +4,16 @@ description: Affichage d’un bitmap Application-Supplied sur l’image composit
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ecd8ac931d0a0bb83eafba09d8ca7dc8263f0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90768cc9ba9ed3a7f53336c63b0112f297e1844ba9638799e8badf28588775eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104520575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653514"
 ---
 # <a name="display-an-app-supplied-bitmap-on-the-composited-image"></a>Afficher un bitmap fourni par une application sur l’image composite
 
-Les applications peuvent utiliser le mode de mixage de VMR pour afficher des logos de canal à contrôle alpha, une interface utilisateur ou des publications, partiellement ou complètement dans le rectangle vidéo. Étant donné que la fusion est effectuée sur le matériel par le processeur graphique, l’impact est minime sur les performances de lecture du flux vidéo et il n’y a pas d’artefacts de scintillement ou de destruction détectables. Les applications peuvent modifier l’image affichée aussi souvent qu’elles le souhaitent. Notez que les modifications sont reflétées uniquement à l’écran lorsque le graphique de filtre DirectShow est à l’État en cours d’exécution.
+Les applications peuvent utiliser le mode de mixage de VMR pour afficher des logos de canal à contrôle alpha, une interface utilisateur ou des publications, partiellement ou complètement dans le rectangle vidéo. Étant donné que la fusion est effectuée sur le matériel par le processeur graphique, l’impact est minime sur les performances de lecture du flux vidéo et il n’y a pas d’artefacts de scintillement ou de destruction détectables. Les applications peuvent modifier l’image affichée aussi souvent qu’elles le souhaitent. notez que les modifications sont reflétées uniquement à l’écran lorsque le graphique de filtre DirectShow est à l’état en cours d’exécution.
 
 VMR utilise son composant mixer pour superposer l’image bitmap sur l’image composite. Avec VMR-7, l’application doit forcer VMR à charger son mélangeur, même s’il n’y a qu’un seul flux vidéo. Cela n’est pas nécessaire avec VMR-9 puisqu’il charge son mélangeur par défaut.
 

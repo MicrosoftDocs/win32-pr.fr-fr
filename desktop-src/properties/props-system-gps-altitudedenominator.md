@@ -4,12 +4,12 @@ ms.assetid: 75eaec65-d042-4873-8be4-9778e2d0a432
 title: System. GPS. AltitudeDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1f78609c1c4b9e3a98ad2b47e766a0bfd9c00a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d323e3d6ff1a18b5d804fc72c27ce04a4b58247e0bc51446345f281f0b6ce8cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727471"
 ---
 # <a name="systemgpsaltitudedenominator"></a>System. GPS. AltitudeDenominator
 
@@ -30,7 +30,7 @@ propertyDescription
       type = UInt32
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

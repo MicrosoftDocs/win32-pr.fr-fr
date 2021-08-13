@@ -3,8 +3,8 @@ title: Licences
 description: Licences
 ms.assetid: 74717519-bfd5-4a64-88eb-680d4bdfe74a
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, gestion des droits numériques (DRM)
-- Windows Media Format SDK, licences DRM
+- Windows Media Format SDK, gestion des droits numériques (DRM)
+- Windows Kit de développement logiciel (SDK) Media format, licences DRM
 - Windows Media Format SDK, licences pour DRM
 - gestion des droits numériques (DRM), licences
 - DRM (gestion des droits numériques), licences
@@ -13,12 +13,12 @@ keywords:
 - licences, DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0fbf2d7c0a25b2b19241d90743f43f46a71d7e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b899e44ffdff5d2a7f3c5fb3237b477ae0143327a331f63bd9717e3ae4320483
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700833"
 ---
 # <a name="licenses"></a>Licences
 
@@ -37,9 +37,9 @@ Plusieurs licences peuvent être émises pour le même fichier protégé. Lorsqu
 [**Concepts**](drmconcepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

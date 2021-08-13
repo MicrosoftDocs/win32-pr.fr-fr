@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - UpdateEndpointAuth.h
-ms.openlocfilehash: 942bcb5275c6a4f39d6e2828025e5b9a40e52c46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fbfd67b3009fbe904284ea7a92cdea996d0a6e23a43a17639eb567d66536917
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462909"
 ---
 # <a name="updateendpointtype-enumeration"></a>Énumération UpdateEndpointType
 
@@ -48,7 +48,7 @@ typedef enum tagEndpointType {
 <span id="uetClientServer"></span><span id="uetclientserver"></span><span id="UETCLIENTSERVER"></span>**uetClientServer**
 </dt> <dd>
 
-Point de terminaison client-serveur utilisé pour se connecter au service de mise à jour, tel que Windows Update, Microsoft Update et serveur WSUS dans un environnement d’entreprise, pour rechercher des informations sur les mises à jour qui peuvent s’appliquer à l’ordinateur.
+point de terminaison client-serveur utilisé pour se connecter au service de mise à jour, tel que Windows Update, Microsoft Update et serveur WSUS dans un environnement d’entreprise, pour rechercher des informations sur les mises à jour qui peuvent s’appliquer à l’ordinateur.
 
 Le service de mise à jour retourne des informations sur les mises à jour qui ont été publiées, révisées ou retirées depuis la dernière synchronisation avec le serveur par le client.
 
@@ -59,7 +59,7 @@ Le service de mise à jour retourne des informations sur les mises à jour qui o
 
 Point de terminaison de création de rapports utilisé lorsque le client signale les résultats des analyses, des téléchargements et des réinstallations dans le service de mise à jour.
 
-Dans le cas des services publics (Windows Update et Microsoft Update), cette opération est effectuée à des fins de surveillance de la qualité.
+dans le cas des services publics (Windows Update et Microsoft Update), cette opération est effectuée à des fins de surveillance de la qualité.
 
 Dans le cas de services privés, tels qu’un serveur WSUS d’entreprise, le type de point de terminaison thhis permet également au serveur de collecter l’inventaire et d’autres informations sur les ordinateurs clients sous gestion.
 
@@ -68,7 +68,7 @@ Dans le cas de services privés, tels qu’un serveur WSUS d’entreprise, le ty
 <span id="uetWuaSelfUpdate"></span><span id="uetwuaselfupdate"></span><span id="UETWUASELFUPDATE"></span>**uetWuaSelfUpdate**
 </dt> <dd>
 
-Point de terminaison à mise à jour automatique qui est utilisé lorsque l’ordinateur client contacte un service de mise à jour pour déterminer s’il existe une nouvelle version du logiciel client de l’agent Windows Update.
+point de terminaison à mise à jour automatique qui est utilisé lorsque l’ordinateur client contacte un service de mise à jour pour déterminer s’il existe une nouvelle version du logiciel client de l’Agent Windows Update.
 
 Le point de terminaison de mise à jour automatique utilise un protocole différent, puis le point de terminaison Client-Server pour que les mises à jour automatiques puissent être distribuées même en cas de condition d’erreur susceptible d’empêcher la synchronisation client-serveur normale de fonctionner sur un ordinateur client particulier.
 
@@ -95,14 +95,14 @@ Par exemple, l’administrateur WSUS peut créer un groupe de « test » pour 
 <span id="uetSecuredClientServer"></span><span id="uetsecuredclientserver"></span><span id="UETSECUREDCLIENTSERVER"></span>**uetSecuredClientServer**
 </dt> <dd>
 
-Point de terminaison sécurisé client-serveur qui permet à un client d’obtenir des informations sur les applications qui ont besoin d’une licence pour pouvoir les utiliser sur un ordinateur client. Cette infrastructure de licences est actuellement utilisée uniquement par Windows 8 pour déployer des applications et des mises à jour obtenues par le biais du Windows Store. Le point de terminaison sécurisé-client-serveur n’est actuellement pas utilisé par Windows Update, Microsoft Update ou WSUS.
+Point de terminaison sécurisé client-serveur qui permet à un client d’obtenir des informations sur les applications qui ont besoin d’une licence pour pouvoir les utiliser sur un ordinateur client. cette infrastructure de licences est actuellement utilisée uniquement par Windows 8 pour déployer des applications et des mises à jour obtenues via le Windows Store. le point de terminaison sécurisé-client-serveur n’est actuellement pas utilisé par Windows Update, Microsoft Update ou WSUS.
 
 </dd> <dt>
 
 <span id="uetSecondaryServiceAuth"></span><span id="uetsecondaryserviceauth"></span><span id="UETSECONDARYSERVICEAUTH"></span>**uetSecondaryServiceAuth**
 </dt> <dd>
 
-Le point de terminaison d’authentification de service secondaire est utilisé par un client pour fournir l’authentification avant d’obtenir des informations sur les applications qui ont besoin d’une licence pour pouvoir les utiliser sur un ordinateur client. Cette infrastructure de licences est actuellement utilisée uniquement par Windows 8 pour déployer des applications et des mises à jour obtenues par le biais du Windows Store. Le point de terminaison d’authentification de service secondaire n’est actuellement pas utilisé par Windows Update, Microsoft Update ou WSUS.
+Le point de terminaison d’authentification de service secondaire est utilisé par un client pour fournir l’authentification avant d’obtenir des informations sur les applications qui ont besoin d’une licence pour pouvoir les utiliser sur un ordinateur client. cette infrastructure de licences est actuellement utilisée uniquement par Windows 8 pour déployer des applications et des mises à jour obtenues via le Windows Store. le point de terminaison d’authentification de service secondaire n’est actuellement pas utilisé par Windows Update, Microsoft Update ou WSUS.
 
 </dd> </dl>
 
@@ -112,8 +112,8 @@ Le point de terminaison d’authentification de service secondaire est utilisé 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                              |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                        |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                              |
 | En-tête<br/>                   | <dl> <dt>UpdateEndpointAuth. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>UpdateEndpointAuth. idl</dt> </dl> |
 

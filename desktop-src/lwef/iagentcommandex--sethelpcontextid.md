@@ -4,12 +4,12 @@ description: IAgentCommandEx SetHelpContextID
 ms.assetid: 861d55dc-f584-495c-a148-016af8f7a3e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7539cef8e986db40ef94a8fd3d47073fbe489d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f6b876276d42ff07081b60194e90beff3ad9ef19fec383c50d70a551e1c9a5e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106518007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750188"
 ---
 # <a name="iagentcommandexsethelpcontextid"></a>IAgentCommandEx::SetHelpContextID
 
@@ -34,18 +34,18 @@ Numéro de contexte de la rubrique d’aide associée à l’objet de [**command
 
 </dd> </dl>
 
-Si vous avez créé un fichier d’aide Windows pour votre application et que vous l’avez défini dans la propriété [**HelpFile**](helpfile-property.md) du caractère. Microsoft agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur sélectionne la commande. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property-com.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour la commande.
+si vous avez créé un fichier d’aide Windows pour votre application et que vous l’avez défini dans la propriété [**HelpFile**](helpfile-property.md) du caractère. Microsoft agent appelle automatiquement l’aide lorsque [**HelpModeOn**](helpmodeon-property.md) a la valeur **true** et que l’utilisateur sélectionne la commande. S’il existe un numéro de contexte dans le [**HelpContextID**](helpcontextid-property-com.md), l’agent appelle l’aide et recherche la rubrique identifiée par le numéro de contexte actuel. Le nombre de contextes actuels est la valeur de **HelpContextID** pour la commande.
 
 > [!Note]  
-> La génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
+> la génération d’un fichier d’aide requiert le compilateur d’aide Microsoft Windows.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**IAgentCommandEx :: GetHelpContextID**](iagentcommandex--gethelpcontextid.md), [**IAgentCharacterEx :: SetHelpModeOn**](iagentcharacterex--sethelpmodeon.md), [**IAgentCharacterEx :: SetHelpFileName**](iagentcharacterex--sethelpfilename.md)
 
 
- 
+ 
 
- 
+ 

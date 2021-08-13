@@ -4,12 +4,12 @@ ms.assetid: a58b7463-3572-4ca8-8299-93d92d2f06fb
 title: Stratégie de métadonnées de la photo System. image. VerticalResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e895ef9e1181a3ec40b474940c6dfaaa3e1329
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9962a00be34d227756d295e992174d6e80b6d058fc32af29ad9cde58a04ed07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106527510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710282"
 ---
 # <a name="systemimageverticalresolution-photo-metadata-policy"></a>Stratégie de métadonnées de la photo System. image. VerticalResolution
 
@@ -19,7 +19,7 @@ Stratégie de métadonnées de la photo pour la propriété [System. image. Vert
 
 Image de l’image de la trop propre \_ \_
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 
@@ -41,7 +41,7 @@ Cette valeur est générée par le système et ne peut pas être écrite directe
 
 
 
-| Commande | Chemin d’accès                   | Format de disque |
+| Commande | Chemin                   | Format de disque |
 |-------|------------------------|-------------|
 | 1     | /App1/IFD/{UShort = 283} |             |
 | 2     | /xmp/tiff:YResolution  |             |
@@ -54,7 +54,7 @@ Cette valeur est générée par le système et ne peut pas être écrite directe
 
 
 
-| Commande | Chemin d’accès                        |
+| Commande | Chemin                        |
 |-------|-----------------------------|
 | 1     | /App1/IFD/EXIF/{UShort = 283} |
 | 2     | /xmp/tiff:yresolution       |
@@ -69,7 +69,7 @@ Cette valeur est générée par le système et ne peut pas être écrite directe
 
 
 
-| Commande | Chemin d’accès                      | Format de disque |
+| Commande | Chemin                      | Format de disque |
 |-------|---------------------------|-------------|
 | 1     | /IFD/EXIF/{UShort = 283}    |             |
 | 2     | /ifd/xmp/tiff:YResolution |             |
@@ -82,7 +82,7 @@ Cette valeur est générée par le système et ne peut pas être écrite directe
 
 
 
-| Commande | Chemin d’accès                      |
+| Commande | Chemin                      |
 |-------|---------------------------|
 | 1     | /IFD/EXIF/{UShort = 283}    |
 | 2     | /ifd/xmp/tiff:yresolution |
@@ -91,7 +91,7 @@ Cette valeur est générée par le système et ne peut pas être écrite directe
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 ## <a name="related-topics"></a>Rubriques connexes
 

@@ -1,11 +1,11 @@
 ---
-title: Formats d’entrée, paramètres d’entrée et extensions d’unité de données
-description: Formats d’entrée, paramètres d’entrée et extensions d’unité de données
+title: Formats d’entrée, Paramètres d’entrée et Extensions d’unité de données
+description: Formats d’entrée, Paramètres d’entrée et Extensions d’unité de données
 ms.assetid: 8e8a0ec8-cb7c-4483-86b0-142ea9f2b835
 keywords:
 - Windows Media Format SDK, formats d’entrée et paramètres
 - Windows Media Format SDK, Data Unit extensions
-- SDK Windows Media format, systèmes d’extension de charge utile
+- Windows Kit de développement logiciel (SDK) Media format, systèmes d’extension de charge utile
 - ASF (Advanced Systems Format), formats d’entrée et paramètres
 - ASF (format des systèmes avancés), formats d’entrée et paramètres
 - ASF (Advanced Systems Format), extensions d’unité de données
@@ -16,14 +16,14 @@ keywords:
 - systèmes d’extension de charge utile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c590895fca23a3c668a19ac4e6c5437a35ddb5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99ba5f24f0776f07d580207d769db384e97461ac89486cfc78c72822bdacc82c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103940207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702011"
 ---
-# <a name="input-formats-input-settings-and-data-unit-extensions"></a>Formats d’entrée, paramètres d’entrée et extensions d’unité de données
+# <a name="input-formats-input-settings-and-data-unit-extensions"></a>Formats d’entrée, Paramètres d’entrée et Extensions d’unité de données
 
 L’objet Writer prend en charge les paramètres d’entrée, les formats d’entrée et les extensions d’unité de données, qui vous permettent de contrôler les fonctionnalités du writer. Il n’est pas toujours évident de déterminer les méthodes à utiliser pour contrôler une fonctionnalité spécifique.
 
@@ -55,9 +55,9 @@ Les extensions d’unité de données, également appelées systèmes d’extens
 [**Utilisation des entrées**](working-with-inputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.assetid: 09F90837-D6BF-498E-8018-5C28EDD9BDC3
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b016170fbd3b675d5d5a20c1de87f24b04d4804
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: b1eaab70be1f376856991156fe520919256e8f811c32ead4a5ce937fb4abc185
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119280135"
 ---
 # <a name="indirect-drawing-and-gpu-culling"></a>Dessin indirect et élimination du GPU
 
@@ -22,7 +22,7 @@ L’exemple D3D12ExecuteIndirect montre comment utiliser des commandes indirecte
 -   [Créer les mémoires tampons de commande indirectes](#create-the-indirect-command-buffers)
 -   [Créer le calcul UAVs](#create-the-compute-uavs)
 -   [Dessin du frame](#drawing-the-frame)
--   [Exécution de l'exemple](#run-the-sample)
+-   [Exécuter l’exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 L’exemple crée une mémoire tampon de commande qui décrit 1024 appels de dessin. Chaque appel de dessin restitue un triangle avec une couleur, une position et une vélocité aléatoires. Les triangles s’animent de façon infinie sur l’écran. Cet exemple comporte deux modes. Dans le premier mode, un nuanceur de calcul inspecte les commandes indirectes et décide s’il faut ou non ajouter cette commande à une vue d’accès non ordonnée (UAV) décrivant les commandes qui doivent être exécutées. Dans le deuxième mode, toutes les commandes sont simplement exécutées. Le fait d’appuyer sur la barre d’espace permet de basculer entre les modes.
@@ -469,7 +469,7 @@ ThrowIfFailed(m_computeCommandList->Close());
 
 </tr>
 <tr class="odd">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Fermer</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Plus</strong></a></td>
 
 </tr>
 </tbody>
@@ -629,7 +629,7 @@ Ensuite, nous allons exécuter les commandes dans UAV (élimination du GPU activ
 <td><a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states"><strong>D3D12_RESOURCE_STATES</strong></a></td>
 </tr>
 <tr class="even">
-<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Fermer</strong></a></td>
+<td><a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-close"><strong>Plus</strong></a></td>
 
 </tr>
 </tbody>
@@ -687,7 +687,7 @@ L’exemple sans l’élimination de la primitive GPU.
 
 <dl> <dt>
 
-[Guide pas à pas du code D3D12](d3d12-code-walk-throughs.md)
+[Walk-Throughs de code D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
 [Didacticiels vidéo sur DirectX Advanced Learning : exécuter des éliminations de GPU indirectes et Async](https://www.youtube.com/watch?v=fKD-VKJeeds)

@@ -3,7 +3,7 @@ title: AmbientAttributes. elementType
 description: L’attribut elementType récupère le type de l’élément (par exemple, BUTTON).
 ms.assetid: afff5a23-d981-4a60-b709-a5b926ea1fc3
 keywords:
-- Lecteur Windows Media AmbientAttributes. elementType
+- AmbientAttributes. elementType Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cac3d4fa0914225d8cda540435b4ddb3a7f0691
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 580f88b92ba86d6546a538f98cd939b177644d32aa284751fe2b5a01b97c2d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106520797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470069"
 ---
 # <a name="ambientattributeselementtype"></a>AmbientAttributes. elementType
 
@@ -31,7 +31,7 @@ L’attribut **ElementType** récupère le type de l’élément (par exemple, B
 
 Cet attribut est une **chaîne** en lecture seule indiquant le nom de l’élément.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut est utile pour déterminer le type d’élément qui a déclenché un événement et l’écriture d’un gestionnaire d’événements générique pour cette classe d’éléments.
 

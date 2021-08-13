@@ -4,12 +4,12 @@ ms.assetid: 8432617a-5ae7-44cb-a5f7-f3b2d8885846
 title: Entrée, encre et reconnaissance du stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a46d865e40d1779edaa2607b1754c45659609b5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c8645a1a68499975ad3ef5cdafb8c07685e9ed9e600cdc9ca2129babaa8b953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558270"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716261"
 ---
 # <a name="pen-input-ink-and-recognition"></a>Entrée, encre et reconnaissance du stylet
 
@@ -33,7 +33,7 @@ L’API de plateforme Tablet PC est disponible dans les API gérées, ainsi que 
 -   [Données manuscrites](ink-data.md)
 -   [Reconnaissance de l’encre](ink-recognition.md)
 -   [Analyse de l’encre](ink-analysis.md)
--   [Reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2](handwriting-recognition-in-windows-server-2008-r2.md)
+-   [reconnaissance de l’écriture manuscrite dans Windows Server 2008 R2](handwriting-recognition-in-windows-server-2008-r2.md)
 
  
 

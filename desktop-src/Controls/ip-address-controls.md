@@ -4,12 +4,12 @@ description: Un contrôle d’adresse IP (Internet Protocol) permet à l’utili
 ms.assetid: cf6a59fc-661c-420a-a67f-a42619946357
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6859bd31250d30bcf26d0c5fde37afeca8cc81bd
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: ce537b3b3a92846961e95321889d106a61a81e14bfa4cbc4edd93da5c8c033ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435592"
 ---
 # <a name="about-ip-address-controls"></a>À propos des contrôles d’adresse IP
 

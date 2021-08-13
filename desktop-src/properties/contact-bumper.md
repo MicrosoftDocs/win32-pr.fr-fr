@@ -4,12 +4,12 @@ ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d170b94a8a1b6a33345ff06eb051740e179aaca
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 024f8330e2aa5402fac76192928afd8064b4ff456fd37adab5d8e0e7d3d785d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460139"
 ---
 # <a name="contact"></a>Contact
 
@@ -135,7 +135,7 @@ ms.locfileid: "108105087"
 | [System. contact. MiddleName](./props-system-contact-middlename.md)<br/>                                      | Deuxième prénom du contact.<br/>                                                                         |
 | [System. contact. MobileTelephone](./props-system-contact-mobiletelephone.md)<br/>                            | Numéro de téléphone mobile du contact.<br/>                                                             |
 | [System. contact. Nickname](./props-system-contact-nickname.md)<br/>                                          | Surnom du contact.<br/>                                                                            |
-| [System. contact. OfficeLocation](./props-system-contact-officelocation.md)<br/>                              | Emplacement du Bureau du contact.<br/>                                                                     |
+| [System. contact. OfficeLocation](./props-system-contact-officelocation.md)<br/>                              | Office emplacement du contact.<br/>                                                                     |
 | [System. contact. OtherAddress](./props-system-contact-otheraddress.md)<br/>                                  | Autre adresse du contact<br/>                                                                        |
 | [System. contact. OtherAddress1Country](props-system-contact-otheraddress1country.md)<br/>                         |                                                                                                                |
 | [System. contact. OtherAddress1Locality](props-system-contact-otheraddress1locality.md)<br/>                       |                                                                                                                |

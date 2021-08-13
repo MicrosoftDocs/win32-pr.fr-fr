@@ -1,19 +1,19 @@
 ---
-description: Les regroupements créés pour une utilisation avec Windows Vista et Windows XP Édition Tablet PC utilisent un ensemble de structures, chacune d’elles étant appelée un treillis, pour transmettre les résultats de la reconnaissance aux bibliothèques de la plateforme Tablet PC.
+description: les module de reconnaissance créés pour une utilisation avec Windows Vista et Windows XP édition Tablet PC utilisent un ensemble de structures, chacune d’elles étant appelée un treillis, pour repasser les résultats de la reconnaissance aux bibliothèques de plateformes Tablet pc.
 ms.assetid: 628ca677-31eb-47d9-bcc6-d7777f8aaf7c
 title: Structure de treillis de reconnaissance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46bbfe71674571ae0554509dfa8477569ef8b44d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc5610d60428bd3259672f43e45efa59c25f78b7ddc5909c363610eaf08520e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118716015"
 ---
 # <a name="recognizer-lattice-structure"></a>Structure de treillis de reconnaissance
 
-Les regroupements créés pour une utilisation avec Windows Vista et Windows XP Édition Tablet PC utilisent un ensemble de structures, chacune d’elles étant appelée un treillis, pour transmettre les résultats de la reconnaissance aux bibliothèques de la plateforme Tablet PC. La plateforme Tablet PC copie ensuite les informations de ces structures dans l’objet [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) , la collection [**IInkRecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) et l’objet [**IInkRecognitionAlternate**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate) .
+les module de reconnaissance créés pour une utilisation avec Windows Vista et Windows XP édition Tablet PC utilisent un ensemble de structures, chacune d’elles étant appelée un treillis, pour repasser les résultats de la reconnaissance aux bibliothèques de plateformes Tablet pc. La plateforme Tablet PC copie ensuite les informations de ces structures dans l’objet [**IInkRecognitionResult**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionresult) , la collection [**IInkRecognitionAlternates**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternates) et l’objet [**IInkRecognitionAlternate**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognitionalternate) .
 
 Un pointeur vers le treillis doit être retourné par le module de reconnaissance lorsque la plateforme appelle la fonction [**GetLatticePtr**](/windows/desktop/api/recapis/nf-recapis-getlatticeptr) sur le handle [HRECOCONTEXT](hrecocontext-handle.md) .
 

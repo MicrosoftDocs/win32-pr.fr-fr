@@ -6,12 +6,12 @@ keywords:
 - effet de vignette
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5def48ab30cadb28673179f6eec5d7ffa7e19e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0df10143a727fb8ce6585264b65b6db46d75c731070f2ea46ff8e7dffd59dd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430492"
 ---
 # <a name="tile-effect"></a>Effet de vignette
 
@@ -26,7 +26,7 @@ Le CLSID de cet effet est CLSID \_ D2D1Tile.
 | Avant                                                     |
 |------------------------------------------------------------|
 | ![image avant l’effet.](images/default-before.jpg) |
-| After                                                      |
+| Après                                                      |
 | ![image après la transformation.](images/9-tile.png)       |
 
 
@@ -73,8 +73,8 @@ Vous pouvez juxtaposer une image et générer une certaine taille sans effets su
 
 | Condition requise | Valeur |
 |--------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
-| Serveur minimal pris en charge | Windows 8 et mise à jour de plate-forme pour les applications de bureau Windows 7 \[ \| applications du Windows Store\] |
+| Client minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
+| Serveur minimal pris en charge | mise à jour Windows 8 et de plateforme pour les applications de bureau Windows 7 Windows les applications du windows \[ \| Store\] |
 | En-tête                   | d2d1effects. h                                                                      |
 | Bibliothèque                  | d2d1. lib, dxguid. lib                                                               |
 

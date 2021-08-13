@@ -3,23 +3,23 @@ title: Détection et suivi de plusieurs points tactiles
 description: Détection et suivi de plusieurs points tactiles
 ms.assetid: 7a5c7595-f341-4e11-805f-ed0b9c63cbff
 keywords:
-- Tactile Windows, points tactiles multiples
+- Windows Tactile, plusieurs points tactiles
 - détection de plusieurs points tactiles
 - suivi de plusieurs points tactiles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b9eaf665b850eea8925bd531ffd1e9ec3fcf40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a4a5b8086988dc1a87b5596d5a0ac74ec1f1df5ce4b85d928cbe306b791d17b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436045"
 ---
 # <a name="detecting-and-tracking-multiple-touch-points"></a>Détection et suivi de plusieurs points tactiles
 
-Les étapes suivantes expliquent comment suivre plusieurs points tactiles à l’aide de Windows Touch.
+les étapes suivantes expliquent comment effectuer le suivi de plusieurs points tactiles à l’aide de Windows touch.
 
-1.  Créez une application et activez la fonction tactile Windows.
+1.  créez une application et activez Windows Touch.
 2.  Ajoutez un gestionnaire pour [**WM \_ Touch**](wm-touchdown.md) et les points de suivi.
 3.  Dessinez les points.
 
@@ -27,9 +27,9 @@ Une fois que votre application est en cours d’exécution, elle affiche des cer
 
 ![capture d’écran montrant une application qui restitue des points tactiles en tant que cercles verts et jaunes](images/multitouchpoints.png)
 
-## <a name="create-an-application-and-enable-windows-touch"></a>Créer une application et activer Windows Touch
+## <a name="create-an-application-and-enable-windows-touch"></a>créer une Application et activer Windows Touch
 
-Démarrez avec une application Microsoft Win32 à l’aide de l’Assistant Microsoft Visual Studio. Une fois l’Assistant terminé, ajoutez la prise en charge des messages tactiles Windows en définissant la version de Windows dans targetver. h et en incluant Windows. h et windowsx. h dans votre application. Le code suivant montre comment définir la version de Windows dans targetver. h.
+démarrez avec une application Microsoft Win32 à l’aide de l’assistant Microsoft Visual Studio. une fois l’assistant terminé, ajoutez la prise en charge des messages Windows Touch en définissant la version Windows dans targetver. h et en incluant Windows. h et windowsx. h dans votre application. le code suivant montre comment définir la version de Windows dans targetver. h.
 
 
 ```C++
@@ -183,7 +183,7 @@ case WM_TOUCH:
 > [!Note]  
 > Pour pouvoir utiliser la fonction [**ScreenToClient**](/windows/desktop/api/winuser/nf-winuser-screentoclient) , vous devez disposer d’une prise en charge des résolutions élevées dans votre application. Pour plus d’informations sur la prise en charge de la haute résolution, consultez la section [haute résolution]( ../hidpi/high-dpi-desktop-application-development-on-windows.md) de MSDN.
 
- 
+ 
 
 Désormais, lorsqu’un utilisateur touche l’écran, les positions qu’il touche seront stockées dans le tableau points. Le membre **dwId** de la structure [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput) stocke un identificateur qui dépend du matériel.
 
@@ -277,9 +277,9 @@ Pour vous amuser, vous pouvez dessiner des lignes supplémentaires autour des po
 
 <dl> <dt>
 
-[Entrée tactile Windows](guide-multi-touch-input.md)
+[Windows Entrée tactile](guide-multi-touch-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

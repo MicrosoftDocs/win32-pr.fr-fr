@@ -4,12 +4,12 @@ description: Collection d’unités biométriques réservée pour une utilisatio
 ms.assetid: f0ccbafd-e7a8-4389-bd05-0b062dfc4dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf829290b0e412247b5e629a46e8c0efdafb4880
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 306f4e0d4e28cfb29dda694e835348721113a5c23ec51054169537282ae2c365
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104197326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480439"
 ---
 # <a name="private-sensor-pool"></a>Pool de capteurs privés
 
@@ -22,7 +22,7 @@ Un pool de capteurs privé est une collection d’unités biométriques réserv�
 
 Les pools de capteurs privés doivent être utilisés si l’application cliente :
 
--   Gère une collection d’unités biométriques dédiées qui utilisent une base de données de modèle propre à l’application. Prenons l’exemple d’une application de participation des employés dans laquelle les employés signalent leur arrivée au travail en passant leur doigt sur un lecteur d’empreintes digitales. Les employés n’ont pas de comptes Windows sur l’ordinateur qui exécute l’application. Au lieu de cela, leurs empreintes digitales sont identifiées par des GUID gérés par l’application de présence.
+-   Gère une collection d’unités biométriques dédiées qui utilisent une base de données de modèle propre à l’application. Prenons l’exemple d’une application de participation des employés dans laquelle les employés signalent leur arrivée au travail en passant leur doigt sur un lecteur d’empreintes digitales. les employés n’ont pas de comptes de Windows sur l’ordinateur qui exécute l’application. Au lieu de cela, leurs empreintes digitales sont identifiées par des GUID gérés par l’application de présence.
 -   Collecte des exemples biométriques plutôt que de mapper simplement des exemples à des SID.
 -   Place le matériel d’unités biométriques en mode de maintenance pour mettre à jour le microprogramme.
 -   Envoie des commandes de contrôle définies par le fournisseur au matériel ou au logiciel biométrique.
@@ -32,7 +32,7 @@ Les pools de capteurs privés doivent être utilisés si l’application cliente
 > [!Note]  
 > Les applications peuvent créer des pools de capteurs privés pour l’identification biométrique uniquement. Si une application tente d’en créer une pour n’importe quel autre (par exemple, face), la demande échoue.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -47,9 +47,9 @@ Les pools de capteurs privés doivent être utilisés si l’application cliente
 [Pool de capteurs système](system-sensor-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

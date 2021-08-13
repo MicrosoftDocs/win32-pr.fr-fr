@@ -1,11 +1,11 @@
 ---
 title: Player. Close, méthode
-description: La méthode Close libère les ressources du lecteur Windows Media.
+description: la méthode close libère Lecteur Windows Media ressources.
 ms.assetid: 15bd5a05-dbfa-4bea-90c2-afd9f69631e0
 keywords:
-- méthode Close lecteur Windows Media
-- méthode Close lecteur Windows Media, classe Player
-- Classe player lecteur Windows Media, méthode Close
+- fermer la méthode Lecteur Windows Media
+- close, méthode Lecteur Windows Media, classe Player
+- Player, classe Lecteur Windows Media, close, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: debc2667c42da92b3a2639e0f14c767d2b5b0651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a29e68aed11b095dff80c8c91c88410f98b9a236bbcadcbff75da0fc0de392fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467879"
 ---
 # <a name="playerclose-method"></a>Player. Close, méthode
 
-La méthode **Close** libère les ressources du lecteur Windows Media.
+la méthode **close** libère Lecteur Windows Media ressources.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -44,13 +44,13 @@ Cette méthode n’a aucun paramètre.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette méthode ferme le fichier multimédia numérique en cours, et non le lecteur Windows Media lui-même.
+cette méthode ferme le fichier multimédia numérique en cours, et non Lecteur Windows Media lui-même.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant crée un élément bouton HTML qui, lorsque vous cliquez dessus, arrête la lecture dans le lecteur Windows Media et libère les ressources en cours d’utilisation. L’objet **Player** a été créé avec ID = "Player".
+l’exemple suivant crée un élément bouton HTML qui, lorsque vous cliquez dessus, arrête la lecture dans Lecteur Windows Media et libère les ressources en cours d’utilisation. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

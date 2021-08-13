@@ -4,12 +4,12 @@ ms.assetid: 0947525E-76DD-4C30-AD56-9D98E1CA3225
 title: Attribut MF_MT_VIDEO_RENDERER_EXTENSION_PROFILE (Mfapi. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be73a4357e0625aab5bb538f64c327a189b71aad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2437216e274735af5698f32112350374184059087cb0d131972aaa130f2e7ee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741109"
 ---
 # <a name="mf_mt_video_renderer_extension_profile-attribute"></a>\_Attribut de \_ \_ profil d’extension de convertisseur vidéo \_ MF MT \_
 
@@ -25,8 +25,8 @@ Contient une chaîne qui correspond à une entrée de la liste **VideoRendererEx
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfapi. h</dt> </dl> |
 
 

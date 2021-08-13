@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 9f07bdbba9fecf48001aed1fbcd42e02abb5c5c9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a6abd02a59582a9fbbc65772d781c93ec68f7ffd29cf165cb624daf7d5c6a3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628907"
 ---
 # <a name="mergeerrors-property"></a>Merge. Errors, propriété
 
@@ -38,7 +38,7 @@ propVal = Merge.Errors
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La récupération est non destructrice. Plusieurs instances de la collection d’erreurs peuvent être récupérées en appelant à plusieurs reprises cette méthode.
 

@@ -10,12 +10,12 @@ keywords:
 - Direct2D, géométries de tracés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceb4a0e63a3274473153e1871a8a085bb04d5146
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5540d96b9befddaa8eb6eef7fcc61e3e6c7665a7319de1ea123c9ce94281f101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259249"
 ---
 # <a name="how-to-create-geometry-groups"></a>Comment créer des groupes de géométrie
 
@@ -204,6 +204,6 @@ Le code génère la sortie illustrée dans l’illustration suivante.
 
 ![illustration de deux jeux de quatre cercles concentriques, un avec les deuxième et quatrième anneaux remplis et un avec tous les anneaux remplis](images/create-geometry-group.png)
 
- 
+ 
 
- 
+ 

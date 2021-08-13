@@ -3,9 +3,9 @@ title: IWMPPlaylist insertItem, méthode
 description: La méthode insertItem insère un élément multimédia à un emplacement spécifié dans une sélection.
 ms.assetid: 6e472f0a-13df-41d9-8e6f-8430d87fe978
 keywords:
-- méthode insertItem Windows Media Player
-- méthode insertItem lecteur Windows Media, interface IWMPPlaylist
-- IWMPPlaylist interface Windows Media Player, insertItem, méthode
+- méthode insertItem Lecteur Windows Media
+- insertItem, méthode Lecteur Windows Media, IWMPPlaylist, interface
+- Lecteur Windows Media de l’interface IWMPPlaylist, méthode insertItem
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ef167a5f3931f34d4cd6fb91b3d044affb9484
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 10717c0891443aaa663b748be6a0cb57e04e58b96beb91db6b02b2f6a4b5b621
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464929"
 ---
 # <a name="iwmpplaylistinsertitem-method"></a>IWMPPlaylist :: insertItem, méthode
 
@@ -73,7 +73,7 @@ Interface **wmplib. IWMPMedia** qui représente l’élément multimédia à ins
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Tous les éléments multimédias après l’élément inséré auront leurs index augmentés d’une unité.
 

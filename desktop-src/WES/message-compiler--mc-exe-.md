@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 06/03/2020
-ms.openlocfilehash: 5eb852dcbb13800705db0a0f19d912de899f9b0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ba213a1d7047b61ba7ba875adf9c281726eaae123ae018aea9920050b201644
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104524239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470939"
 ---
 # <a name="message-compiler-mcexe"></a>Message Compiler (MC.exe)
 
@@ -130,7 +130,7 @@ Utilisez cet argument lorsque vous créez une nouvelle version de votre manifest
 
 Le compilateur ignore cet argument et valide automatiquement le manifeste.
 
-**Avant la version 1.12.7051 de MC :** Utilisez cet argument pour spécifier le dossier qui contient le fichier de schéma Eventic. xsd, que le compilateur utilise pour valider votre manifeste. Le SDK Windows inclut le fichier de schéma Eventic. xsd dans le \\ dossier include. Si vous ne spécifiez pas cet argument, le compilateur ne valide pas votre manifeste.
+**Avant la version 1.12.7051 de MC :** Utilisez cet argument pour spécifier le dossier qui contient le fichier de schéma Eventic. xsd, que le compilateur utilise pour valider votre manifeste. le SDK Windows inclut le fichier de schéma eventic. xsd dans le \\ dossier include. Si vous ne spécifiez pas cet argument, le compilateur ne valide pas votre manifeste.
 
 </dd> <dt>
 
@@ -139,13 +139,13 @@ Le compilateur ignore cet argument et valide automatiquement le manifeste.
 
 Le compilateur ignore cet argument.
 
-**Avant la version 1.12.7051 de MC :** Utilisez cet argument pour spécifier le dossier qui contient le fichier Winmeta.xml. Le fichier Winmeta.xml contient les types d’entrée et de sortie reconnus, ainsi que les canaux, niveaux et OpCodes prédéfinis. Le SDK Windows inclut le fichier Winmeta.xml dans le \\ dossier include.
+**Avant la version 1.12.7051 de MC :** Utilisez cet argument pour spécifier le dossier qui contient le fichier Winmeta.xml. Le fichier Winmeta.xml contient les types d’entrée et de sortie reconnus, ainsi que les canaux, niveaux et OpCodes prédéfinis. le SDK Windows inclut le fichier Winmeta.xml dans le \\ dossier include.
 
 </dd> </dl>
 
 ### <a name="arguments-specific-to-generating-code-that-your-provider-would-use-to-log-events"></a>Arguments spécifiques à la génération de code que votre fournisseur utiliserait pour consigner des événements
 
-Vous pouvez utiliser les arguments de compilateur suivants pour générer du code en mode noyau ou en mode utilisateur que vous pouvez utiliser pour consigner des événements. Vous pouvez également demander que le compilateur génère du code pour prendre en charge l’écriture d’événements sur les ordinateurs antérieurs à Windows Vista. Si votre application est écrite en C#, le compilateur peut générer une classe C# que vous pouvez utiliser pour consigner les événements. Ces arguments sont disponibles à partir de la version MC 1.12.7051 livrée avec la version Windows 7 du kit de développement logiciel (SDK) Windows.
+Vous pouvez utiliser les arguments de compilateur suivants pour générer du code en mode noyau ou en mode utilisateur que vous pouvez utiliser pour consigner des événements. vous pouvez également demander que le compilateur génère du code pour prendre en charge l’écriture d’événements sur les ordinateurs antérieurs à Windows Vista. Si votre application est écrite en C#, le compilateur peut générer une classe C# que vous pouvez utiliser pour consigner les événements. ces arguments sont disponibles à partir de la version MC 1.12.7051 livrée avec la version Windows 7 du kit de développement logiciel (SDK) windows.
 
 <dl> <dt>
 
@@ -201,7 +201,7 @@ Utilisez cet argument pour que le compilateur génère le code en mode noyau que
 <span id="-mof"></span><span id="-MOF"></span>**-MOF**
 </dt> <dd>
 
-Déconseillé. Utilisez cet argument pour que le compilateur génère du code que vous pouvez utiliser pour consigner les événements sur les ordinateurs antérieurs à Windows Vista. Cette option crée également un fichier MOF qui contient les classes MOF pour chaque événement défini dans le manifeste. Pour inscrire les classes dans le fichier MOF afin que les consommateurs puissent décoder les événements, utilisez le compilateur MOF (Mofcomp.exe). Pour plus d’informations sur l’utilisation du compilateur MOF, consultez [format MOF](/windows/desktop/WmiSdk/managed-object-format--mof-).
+Déconseillé. utilisez cet argument pour que le compilateur génère du code que vous pouvez utiliser pour consigner les événements sur les ordinateurs antérieurs à Windows Vista. Cette option crée également un fichier MOF qui contient les classes MOF pour chaque événement défini dans le manifeste. Pour inscrire les classes dans le fichier MOF afin que les consommateurs puissent décoder les événements, utilisez le compilateur MOF (Mofcomp.exe). Pour plus d’informations sur l’utilisation du compilateur MOF, consultez [format MOF](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 Pour utiliser ce commutateur, vous devez respecter les restrictions suivantes :
 
@@ -259,7 +259,7 @@ Le compilateur utilise le nom de base du fichier d’entrée comme nom de base d
 <span id="-a"></span><span id="-A"></span>**-a**
 </dt> <dd>
 
-Utilisez cet argument pour spécifier que le fichier d’entrée de *nom* de fichier contient du contenu dans la page de codes Windows ANSI par défaut du système (CP_ACP). Il s’agit de la valeur par défaut. Utilisez **-u** pour Unicode. Si le fichier d’entrée contient une nomenclature, cet argument est ignoré.
+utilisez cet argument pour spécifier que le fichier d’entrée de *nom* de fichier contient le contenu dans la page de codes Windows par défaut du système (CP_ACP). Il s’agit de la valeur par défaut. Utilisez **-u** pour Unicode. Si le fichier d’entrée contient une nomenclature, cet argument est ignoré.
 
 </dd> <dt>
 
@@ -326,7 +326,7 @@ Utilisez cet argument pour spécifier le dossier dans lequel vous souhaitez que 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les arguments **-A** et **-MOF** sont déconseillés et seront supprimés à l’avenir.
 
@@ -352,7 +352,7 @@ Pour les arguments qui acceptent un chemin d’accès, le chemin d’accès peut
 
 **Avant la version 1.12.7051 de MC :** Le compilateur n’autorise pas les chemins d’accès relatifs ou les variables d’environnement.
 
-Le SDK Windows comprend le compilateur (mc.exe) dans le \\ dossier bin.
+le SDK Windows comprend le compilateur (mc.exe) dans le \\ dossier Bin.
 
 ## <a name="examples"></a>Exemples
 

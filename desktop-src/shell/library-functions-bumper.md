@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: bec002a402be390f6e9f9e0be955b6a2626267e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce9fbc13531135aa5cee3b0a8d7252adeef97c9e66a3f2093dd1dbdff4b93fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104484016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720145"
 ---
 # <a name="library-functions"></a>Fonctions des bibliothèques
 
-Cette section décrit les fonctions liées aux bibliothèques Shell, introduites dans Windows 7.
+cette section décrit les fonctions liées aux bibliothèques Shell, introduites dans Windows 7.
 
 -   [**SHAddFolderPathToLibrary**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shaddfolderpathtolibrary)
 -   [**SHCreateLibrary**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-shcreatelibrary)

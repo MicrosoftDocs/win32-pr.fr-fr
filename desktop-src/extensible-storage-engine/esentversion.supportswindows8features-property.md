@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 92de5a008f8a5759865b163f53bc518d9484b60f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c7693a68c93c38a668bf637cdb428782d9bb57cfdbf1c4f048d710c9bbe5001
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104034698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119454179"
 ---
 # <a name="esentversionsupportswindows8features-property"></a>EsentVersion. SupportsWindows8Features, propriété
 
-Obtient une valeur qui indique si la version actuelle de ESENT prend en charge les fonctionnalités disponibles dans la version Windows 8 d’ESENT.
+obtient une valeur qui indique si la version actuelle de esent prend en charge les fonctionnalités disponibles dans la version Windows 8 d’esent.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

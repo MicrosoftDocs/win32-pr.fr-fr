@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4db701be363c194c75bd698062d79a0c0c407cc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: a254d06b36230bb6920f2f13d646edc5f1cdac75efe15864e0c84ba847cf50f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699985"
 ---
 # <a name="seekable"></a>Identifiable
 
@@ -31,11 +31,11 @@ L’attribut **recherché** est un attribut de niveau fichier qui spécifie si u
 
 **\_type WMT \_ bool**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit d’un attribut codé.
 
-Cet attribut ne peut pas être dupliqué au niveau du fichier. Si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) du format Windows Media.
+Cet attribut ne peut pas être dupliqué au niveau du fichier. si cet attribut est utilisé pour un flux individuel, il sera traité en tant que métadonnées personnalisées et ne transmettra pas sa signification normale aux objets du kit de développement logiciel (SDK) de Format multimédia Windows.
 
 La valeur de cet attribut pour un fichier peut varier en fonction de l’objet qui expose l’interface [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo) ou [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3) utilisée pour la récupérer. Cela est dû au fait que les objets de lecteur (à la fois synchrones et asynchrones) effectuent une vérification plus approfondie que l’objet de l’éditeur de métadonnées, pour déterminer si vous pouvez rechercher un point dans un fichier. La valeur d’attribut **recherchée** retournée par un objet lecteur est plus précise.
 
@@ -46,9 +46,9 @@ La valeur de cet attribut pour un fichier peut varier en fonction de l’objet q
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

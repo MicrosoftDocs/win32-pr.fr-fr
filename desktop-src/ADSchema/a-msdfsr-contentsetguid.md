@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8c75b055549a6c0e8d219120d2b0b3c0d0eea13
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 185711932f78356ae4fd515321008b20258f035a6a8a3cd7b03194d36c24436a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103943186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685963"
 ---
 # <a name="ms-dfsr-contentsetguid-attribute"></a>attribut ms-DFSR-ContentSetGuid
 
@@ -43,7 +43,7 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -55,10 +55,10 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 16                                                               |
 | Range-Upper            | 16                                                               |
@@ -76,10 +76,10 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 16                                                               |
 | Range-Upper            | 16                                                               |
@@ -97,10 +97,10 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 16                                                               |
 | Range-Upper            | 16                                                               |
@@ -118,10 +118,10 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 16                                                               |
 | Range-Upper            | 16                                                               |
@@ -131,7 +131,7 @@ Contient le GUID du jeu de contenu de réplication système de fichiers DFS (DFS
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **MS-DFSR-ContentSetGuid** fait partie de la prise en charge du service réplication DFS.
 

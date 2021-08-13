@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c56319210e34b580a358c7083b03a45ea01c076
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 049334091c4dc4be533e1438468561c97c383f5c9cc7c57c607512cbf09e99cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106532035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699029"
 ---
 # <a name="wmgenre"></a>WM/genre
 
@@ -31,13 +31,13 @@ L’attribut **WM/genre** contient le genre du contenu.
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il s’agit de l’attribut par défaut pour spécifier le genre de contenu.
 
 Si vous modifiez **WM/genre** ou **WM/GenreID** dans un fichier mp3, l’autre attribut sera modifié en correspondance.
 
-### <a name="example"></a>Exemple
+### <a name="example"></a> Exemple
 
 
 
@@ -48,7 +48,7 @@ Si vous modifiez **WM/genre** ou **WM/GenreID** dans un fichier mp3, l’autre a
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -57,9 +57,9 @@ Si vous modifiez **WM/genre** ou **WM/GenreID** dans un fichier mp3, l’autre a
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

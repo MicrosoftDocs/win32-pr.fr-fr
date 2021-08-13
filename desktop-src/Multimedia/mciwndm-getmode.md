@@ -3,7 +3,7 @@ title: Message MCIWNDM_GETMODE (VFW. h)
 description: Le \_ message MCIWNDM GETMODE récupère le mode d’opération actuel d’un périphérique MCI. Les périphériques MCI disposent de plusieurs modes de fonctionnement, qui sont désignés par des constantes. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndGetMode.
 ms.assetid: cc327281-434e-4047-9e15-c04a10953f47
 keywords:
-- Message MCIWNDM_GETMODE Windows Multimedia
+- message MCIWNDM_GETMODE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5daefea2c550a1d0cf807ae03840c38ae8b2567c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 645d7a660df8d22cb2adb70a775d5431eb31dc986b502bb4dbb36b1963ce06f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104102841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429269"
 ---
 # <a name="mciwndm_getmode-message"></a>\_Message MCIWNDM GETMODE
 
@@ -56,7 +56,7 @@ Pointeur vers la mémoire tampon définie par l’application utilisée pour ret
 
 Retourne un entier correspondant à la constante MCI définissant le mode.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si la chaîne se terminant par un caractère null décrivant le mode est plus longue que la mémoire tampon, elle est tronquée.
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 5e1c01daae4e86fa18c087b67bf902daaf6f8793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2672211e5c1a17fa360a6078069ae8260687dc896843ffb6bf572d9b7be8caa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442069"
 ---
 # <a name="iwiapreview-interface"></a>Interface IWiaPreview
 
@@ -38,7 +38,7 @@ L’interface **IWiaPreview** possède ces méthodes.
 
 | Méthode                                                  | Description                                                                                                                                                                                 |
 |:--------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**Effacé**](-wia-iwiapreview-clear.md)                 | Libère l’image non filtrée mise en cache par la méthode [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) . Il libère également le filtre de traitement d’image. <br/>          |
+| [**Effacer**](-wia-iwiapreview-clear.md)                 | Libère l’image non filtrée mise en cache par la méthode [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) . Il libère également le filtre de traitement d’image. <br/>          |
 | [**DetectRegions**](-wia-iwiapreview-detectregions.md) | Appelle le filtre de segmentation du pilote et passe l’image non filtrée mise en cache par la méthode [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) au filtre. <br/> |
 | [**GetNewPreview**](-wia-iwiapreview-getnewpreview.md) | Met en cache en interne l’image non filtrée retournée par le pilote. <br/>                                                                                                                |
 | [**UpdatePreview**](-wia-iwiapreview-updatepreview.md) | Obtient l’image non filtrée mise en cache par la méthode [**IWiaPreview :: GetNewPreview**](-wia-iwiapreview-getnewpreview.md) . <br/>                                                            |
@@ -47,7 +47,7 @@ L’interface **IWiaPreview** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ce filtre est appelé automatiquement par la méthode [**IWiaTransfer ::D lécharger**](-wia-iwiatransfer-download.md) .
 
@@ -71,8 +71,8 @@ L’interface **IWiaPreview** , comme toutes les interfaces COM (Component Objec
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>WIA. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>WIA. idl</dt> </dl> |
 

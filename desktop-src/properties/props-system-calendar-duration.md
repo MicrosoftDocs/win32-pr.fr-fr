@@ -4,12 +4,12 @@ ms.assetid: af76f6fc-3245-461a-9835-1f50cef4fa40
 title: System. Calendar. Duration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc88ca80fcd889e4eb2a181c6091a6c004b0c9ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad97460d96e2c2f5e3606c8c3738fae37f0b3fcd310aea2d36c95a108a1d5c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106542920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459869"
 ---
 # <a name="systemcalendarduration"></a>System. Calendar. Duration
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

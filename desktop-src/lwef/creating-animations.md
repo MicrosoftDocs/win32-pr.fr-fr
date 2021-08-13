@@ -4,12 +4,12 @@ description: Créer des animations
 ms.assetid: 6d5c3c61-b3f2-4505-aa43-b6d001c444a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16c460908e7c782054a3f62ece87d01e7c9a817
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 4ed5955e57af405451def3208902678d3d6a0ffb9857cc719bfe100dbbd2447f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104565749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118752327"
 ---
 # <a name="creating-animations"></a>Créer des animations
 
@@ -27,7 +27,7 @@ Par défaut, l’éditeur utilise la première image bitmap que vous chargez pou
 
 La palette de couleurs de votre caractère ne doit pas remapper les couleurs système standard. L’éditeur réserve automatiquement la palette de couleurs du système lors de l’affichage des images. En outre, toutes vos images d’animation doivent utiliser la même palette de couleurs et la même couleur de transparence. C’est très important. Si ce n’est pas le cas, vous pouvez voir le remappage des couleurs de vos images lorsque vous les chargez dans l’éditeur.
 
-Bien que vous puissiez définir la palette de couleurs pour le caractère, sur les systèmes Windows où les propriétés d’affichage sont définies sur une palette de couleurs 8 bits (256), la couleur du caractère sera soumise à la palette actuelle du système. Étant donné que les applications peuvent modifier la palette du système, le caractère peut ne pas s’afficher avec les paramètres de couleur appropriés. Bien qu’il n’existe aucun moyen d’éviter cela, vous pouvez réduire l’effet en limitant le nombre de couleurs que vous utilisez et en définissant la palette du caractère en fonction de la palette utilisée par l’application qui pilote le caractère. Par exemple, si vous développez un caractère à utiliser avec des pages Web, vous souhaiterez peut-être définir la palette de caractères à l’aide de la palette de demi-teintes de Microsoft Internet Explorer. Vous pouvez capturer la palette du navigateur en cliquant avec le bouton droit sur une image sur une page Web et en choisissant la commande **enregistrer l’image en tant que** et en choisissant **bitmap** dans l’option **type** de fichier, puis en cliquant sur **Enregistrer**. Pour optimiser vos fichiers image d’animation dans un fichier palette spécifique, vous pouvez utiliser un produit comme l’équilibre DeBabelizer.
+bien que vous puissiez définir la palette de couleurs pour le caractère, sur Windows systèmes où les propriétés d’affichage sont définies sur une palette de couleurs 8 bits (256), la couleur du caractère sera soumise à la palette actuelle du système. Étant donné que les applications peuvent modifier la palette du système, le caractère peut ne pas s’afficher avec les paramètres de couleur appropriés. Bien qu’il n’existe aucun moyen d’éviter cela, vous pouvez réduire l’effet en limitant le nombre de couleurs que vous utilisez et en définissant la palette du caractère en fonction de la palette utilisée par l’application qui pilote le caractère. Par exemple, si vous développez un caractère à utiliser avec des pages Web, vous souhaiterez peut-être définir la palette de caractères à l’aide de la palette de demi-teintes de Microsoft Internet Explorer. Vous pouvez capturer la palette du navigateur en cliquant avec le bouton droit sur une image sur une page Web et en choisissant la commande **enregistrer l’image en tant que** et en choisissant **bitmap** dans l’option **type** de fichier, puis en cliquant sur **Enregistrer**. Pour optimiser vos fichiers image d’animation dans un fichier palette spécifique, vous pouvez utiliser un produit comme l’équilibre DeBabelizer.
 
 ### <a name="creating-a-new-animation"></a>Création d’une animation
 
@@ -43,7 +43,7 @@ Un frame peut contenir une ou plusieurs images. Pour définir une image pour un 
 
 ![Capture d’écran montrant la sélection d’un fichier image dans l’Explorateur de fichiers.](images/f3chardialbox.gif)
 
-Sélectionnez le fichier que vous souhaitez charger, choisissez **ouvrir**, et l’image s’affiche dans l’affichage du cadre sur la page **général** . L’éditeur accepte les images stockées sous la forme d’un format bitmap 1 bit (monochrome), 4 bits ou 8 bits, ou au format GIF.
+Sélectionnez le fichier que vous souhaitez charger, choisissez **ouvrir**, et l’image s’affiche dans l’affichage du cadre sur la page **général** . l’éditeur accepte les images stockées sous forme de format bitmap 1 bit (monochrome), 4 bits ou 8 bits Windows, ou au format GIF.
 
 Vous pouvez utiliser les quatre boutons fléchés sous l’image dans la zone **position** pour ajuster l’apparence de l’image dans le cadre. Si l’image est plus grande que la taille de votre cadre, seule la partie de l’image qui apparaît dans le frame s’affiche. Si vous augmentez la taille du cadre, l’image peut être mise à l’échelle pour s’ajuster à la zone d’affichage de l’éditeur.
 

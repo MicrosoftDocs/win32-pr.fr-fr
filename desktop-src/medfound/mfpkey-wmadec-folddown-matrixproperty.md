@@ -4,12 +4,12 @@ ms.assetid: f6737c05-4b39-4209-9985-9402b28cf316
 title: MFPKEY_WMADEC_FOLDDOWN_MATRIX, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e92cb2495863d319c7f755d7d72f475ccf1eda75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb1b9eb1259c2a8c23f7b993699e1c51f17c09636afd7d19de23ce033fd269fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106524947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119463159"
 ---
 # <a name="mfpkey_wmadec_folddown_matrix-property"></a>MFPKEY \_ WMADEC \_ FOLDDOWN, propriété de la \_ matrice
 
@@ -25,11 +25,11 @@ Spécifie les coefficients de repli pour le décodage de l’audio multicanaux p
 
 **Tableau VT de \_ groupe VT \| \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un décodeur audio peut agir en tant qu’objet de média DirectX (DMO) ou en tant que transformation de Media Foundation (MFT). Pour plus d’informations sur le moment où un décodeur agit comme DMO ou MFT, consultez les pages de référence des codecs individuels sous [objets codec](codecobjects.md).
+un décodeur audio peut agir comme un objet de média DirectX (DMO) ou comme une transformation de Media Foundation (MFT). pour plus d’informations sur le moment où un décodeur agit en tant que DMO ou MFT, consultez les pages de référence du codec individuelles sous [objets de codec](codecobjects.md).
 
-Quand vous utilisez un décodeur en tant qu’DMO, le décodeur peut effectuer un repli de canal vers le dessous, et vous pouvez énumérer les types de média de sortie repliés en appelant [**IMediaObject :: GetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype).
+quand vous utilisez un décodeur en tant que DMO, le décodeur peut effectuer un repli de canal vers le dessous, et vous pouvez énumérer les types de média de sortie repliés en appelant [**IMediaObject :: GetOutputType**](/previous-versions/windows/desktop/api/mediaobj/nf-mediaobj-imediaobject-getoutputtype).
 
 Lorsque vous utilisez un décodeur en tant que MFT, le décodeur par défaut n’effectue pas de repli et n’offre pas de types de média de sortie pliés. Un décodeur agissant en tant que MFT effectue un repli uniquement si les coefficients de repli personnalisé sont définis à l’aide de la propriété de **\_ \_ \_ matrice MFPKEY WMADEC FOLDDOWN** .
 
@@ -43,7 +43,7 @@ Les coefficients sont répertoriés dans l’ordre de masque de canal, comme dé
 
 Vous devez définir cette propriété uniquement si les valeurs de repli fournies par l’auteur sont conservées avec le contenu encodé. Dans le cas contraire, laissez le décodeur effectuer ses propres calculs.
 
-Le codec Windows Media Audio 10 Professional prend actuellement en charge le repli sur deux canaux uniquement.
+le codec Windows Media Audio 10 Professional ne prend actuellement en charge que le repli sur deux canaux.
 
 Si la propriété [MFPKEY \_ WMADEC \_ SPKRCFG](mfpkey-wmadec-spkrcfgproperty.md) est définie sur **DSSPEAKER \_ surround**, le codec ignore les coefficients de repli et de repli fournis par l’auteur jusqu’à un signal à 2 canaux qui peut être traité par le décodeur de matrice du récepteur. Cela permet à l’équipement surround d’offrir quatre canaux. Ce mode est pris en charge uniquement si la source est 5,1. Le codec peut uniquement plier 8 canaux à 2 canaux.
 
@@ -53,8 +53,8 @@ Si la propriété [MFPKEY \_ WMADEC \_ SPKRCFG](mfpkey-wmadec-spkrcfgproperty.md
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

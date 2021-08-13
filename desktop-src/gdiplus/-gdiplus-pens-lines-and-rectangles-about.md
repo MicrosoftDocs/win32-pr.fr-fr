@@ -1,19 +1,19 @@
 ---
-description: Pour dessiner des lignes avec Windows GDI+, vous devez créer un objet Graphics et un objet Pen.
+description: pour dessiner des lignes avec Windows GDI+ vous devez créer un objet graphics et un objet Pen.
 ms.assetid: d91562ab-41e6-4bca-a320-74f490a4f88f
 title: Stylos, lignes et rectangles
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e9749b1c1af6ca4808e797d016267bb251e6fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: eb8ac54d1e98a617492aa6f5f1194767fc56a34ffcaaee71ba71753dda08f8bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359589"
 ---
 # <a name="pens-lines-and-rectangles"></a>Stylos, lignes et rectangles
 
-Pour dessiner des lignes avec Windows GDI+, vous devez créer un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . L’objet **Graphics** fournit les méthodes qui effectuent le dessin, et l’objet **Pen** stocke les attributs de la ligne, tels que la couleur, la largeur et le style. Pour dessiner une ligne, il suffit d’appeler la méthode [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) de l’objet **Graphics** . L’adresse de l’objet **Pen** est passée comme l’un des arguments à la méthode DrawLine. L’exemple suivant dessine une ligne à partir du point (4, 2) jusqu’au point (12, 6).
+pour dessiner des lignes avec Windows GDI+ vous devez créer un objet [**graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . L’objet **Graphics** fournit les méthodes qui effectuent le dessin, et l’objet **Pen** stocke les attributs de la ligne, tels que la couleur, la largeur et le style. Pour dessiner une ligne, il suffit d’appeler la méthode [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint)) de l’objet **Graphics** . L’adresse de l’objet **Pen** est passée comme l’un des arguments à la méthode DrawLine. L’exemple suivant dessine une ligne à partir du point (4, 2) jusqu’au point (12, 6).
 
 
 ```
@@ -57,7 +57,7 @@ Vous pouvez utiliser différentes méthodes de l’objet [**Pen**](/windows/win3
 
 ![illustration de deux lignes montrant des extrémités arrondies et circulaires, des angles arrondis et mitres, et deux styles de flèche](images/aboutgdip02-art04.png)
 
-Le dessin de rectangles avec GDI+ est semblable au dessin de lignes. Pour dessiner un rectangle, vous avez besoin d’un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . L’objet **Graphics** fournit une méthode [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) , et l’objet **Pen** stocke des attributs, tels que la largeur et la couleur de ligne. L’adresse de l’objet **Pen** est passée comme l’un des arguments à la méthode DrawRectangle. L’exemple suivant dessine un rectangle avec son angle supérieur gauche à (100, 50), une largeur de 80 et une hauteur de 40.
+le dessin de rectangles avec GDI+ est semblable au dessin de lignes. Pour dessiner un rectangle, vous avez besoin d’un objet [**Graphics**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) et d’un objet [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) . L’objet **Graphics** fournit une méthode [DrawRectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint)) , et l’objet **Pen** stocke des attributs, tels que la largeur et la couleur de ligne. L’adresse de l’objet **Pen** est passée comme l’un des arguments à la méthode DrawRectangle. L’exemple suivant dessine un rectangle avec son angle supérieur gauche à (100, 50), une largeur de 80 et une hauteur de 40.
 
 
 ```

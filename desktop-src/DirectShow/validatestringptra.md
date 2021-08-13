@@ -13,19 +13,19 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 94ce34393ec494f34cce621afc168a4d6bbe4325
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a0e000f5b2b8de645924300eb650a05a66a4b57c16c5eda3f124e7bc0903a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432099"
 ---
 # <a name="validatestringptra-macro"></a>ValidateStringPtrA macro)
 
 Vérifie que le processus appelant dispose d’un accès en lecture à une chaîne ANSI. Si ce n’est pas le cas, la macro appelle la macro [**DbgBreak**](dbgbreak.md) .
 
 > [!Note]  
-> Cette macro est déconseillée. Dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
+> Cette macro est déconseillée. dans le SDK Windows pour Windows Vista (et versions ultérieures), cette macro ne fait rien.
 
  
 
@@ -55,9 +55,9 @@ Pointeur vers une chaîne ANSI terminée par le caractère NULL.
 
 Cette macro ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsque le fichier d’en-tête de classe de base DirectShow est inclus.
+cette macro est ignorée sauf si debug, \_ debug ou VFWROBUST est défini lorsque le DirectShow fichier d’en-tête de classe de base est inclus.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -65,7 +65,7 @@ Cette macro est ignorée sauf si DEBUG, \_ Debug ou VFWROBUST est défini lorsqu
 
 | Condition requise | Valeur |
 |-------------------|----------------------------------------------------------------------------------------------------------|
-| En-tête<br/> | <dl> <dt>Wxdebug. h (include streams. h)</dt> </dl> |
+| En-tête<br/> | <dl> <dt>Wxdebug. h (inclure Flux. h)</dt> </dl> |
 
 
 

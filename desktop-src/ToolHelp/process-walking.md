@@ -9,12 +9,12 @@ keywords:
 - processus, énumération des processus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc95f0de4021ce3c355286376decbdecef2c883
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d6efa129182da256a6ce62b3754ea422df908248f7b0ecc30d3b690c29ffaf9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419659"
 ---
 # <a name="process-walking"></a>Parcours du processus
 
@@ -27,8 +27,8 @@ Vous pouvez lire la mémoire d’un processus spécifique dans une mémoire tamp
 > [!Note]  
 > Le contenu des membres **th32ProcessID** et **th32ParentProcessID** de [**PROCESSENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-processentry32) sont des identificateurs de processus et peut être utilisé par toutes les fonctions qui requièrent un identificateur de processus.
 
- 
+ 
 
- 
+ 
 
- 
+ 

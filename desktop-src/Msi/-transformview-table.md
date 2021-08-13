@@ -4,18 +4,18 @@ ms.assetid: 4763ac0e-900f-45f1-bee5-34d413c5e401
 title: Table _TransformView
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cc513b1aae388d01cda178bfbefdc88874f6d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92b3254c7419ed5d4964377a466ecd557429a22450a9ba84fdd892822fca86c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640464"
 ---
 # <a name="_transformview-table"></a>\_Table TransformView
 
 Il s’agit d’une table temporaire en lecture seule utilisée pour afficher des transformations à l’aide du mode d’affichage transformer. Cette table n’est jamais conservée par le programme d’installation.
 
-Pour appeler le mode d’affichage transformation, obtenez un handle et ouvrez la base de données de référence. Consultez [obtention d’un descripteur de base de données](obtaining-a-database-handle.md). Appelez [**MsiDatabaseApplyTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma) avec l' \_ erreur MSITRANSFORM \_ VIEWTRANSFORM. Cela arrête l’application de la transformation à la base de données et vide le contenu de la transformation dans la \_ table TransformView. Vous pouvez accéder aux données de la table à l’aide de requêtes SQL. Consultez [utilisation des requêtes](working-with-queries.md).
+Pour appeler le mode d’affichage transformation, obtenez un handle et ouvrez la base de données de référence. Consultez [obtention d’un descripteur de base de données](obtaining-a-database-handle.md). Appelez [**MsiDatabaseApplyTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabaseapplytransforma) avec l' \_ erreur MSITRANSFORM \_ VIEWTRANSFORM. Cela arrête l’application de la transformation à la base de données et vide le contenu de la transformation dans la \_ table TransformView. vous pouvez accéder aux données de la table à l’aide de SQL requêtes. Consultez [utilisation des requêtes](working-with-queries.md).
 
 La \_ table TransformView n’est pas effacée lorsqu’une autre transformation est appliquée. Le tableau reflète l’effet cumulatif des applications successives. Pour afficher les transformations séparément, vous devez libérer la table.
 
@@ -74,19 +74,19 @@ Valeur actuelle de la base de données de référence ou numéro de colonne.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Le \_ TransformView est conservé en mémoire par un nombre de verrous, qui peut être libéré avec la commande SQL suivante.
+le \_ TransformView est conservé en mémoire par un nombre de verrous, qui peut être libéré avec la commande SQL suivante.
 
 « ALTER TABLE \_ TRANSFORMVIEW Free ».
 
-Vous pouvez accéder aux données de la table à l’aide de requêtes SQL. Le langage SQL a deux divisions principales : le langage de définition de données (DDL) utilisé pour définir tous les objets dans une base de données SQL, et le langage de manipulation de données (DML) utilisé pour sélectionner, insérer, mettre à jour et supprimer des données dans les objets définis à l’aide de DDL.
+vous pouvez accéder aux données de la table à l’aide de SQL requêtes. le langage de SQL a deux divisions principales : le langage de définition de données (DDL) utilisé pour définir tous les objets d’une base de données SQL, et le langage de Manipulation de données (DML) utilisé pour sélectionner, insérer, mettre à jour et supprimer des données dans les objets définis à l’aide de DDL.
 
-Les opérations de transformation de langage de manipulation de données (DML) sont indiquées comme suit. Le langage de manipulation de données (DML) sont les instructions dans SQL qui manipulent, au lieu de définir, des données.
+Les opérations de transformation de langage de manipulation de données (DML) sont indiquées comme suit. le langage de Manipulation de données (DML) sont ces instructions dans SQL qui manipulent, au lieu de définir, des données.
 
 
 
-| Opération de transformation | Résultat SQL                                    |
+| Opération de transformation | résultat SQL                                    |
 |---------------------|-----------------------------------------------|
 | Modifier des données         | Tableau chronique haut métadonnée {valeur actuelle} |
 | Insérer une ligne          | Tableau « INSERT » {Row} NULL NULL              |
@@ -96,11 +96,11 @@ Les opérations de transformation de langage de manipulation de données (DML) s
 
  
 
-Les opérations de transformation DDL (Data Definition Language) sont indiquées comme suit. Le langage de définition de données (DDL) sont les instructions dans SQL qui définissent, par opposition à manipuler, les données.
+Les opérations de transformation DDL (Data Definition Language) sont indiquées comme suit. le langage de définition de données (DDL) sont ces instructions dans SQL qui définissent, par opposition à manipuler, les données.
 
 
 
-| Opération de transformation | Résultat SQL                                   |
+| Opération de transformation | résultat SQL                                   |
 |---------------------|----------------------------------------------|
 | Add column          | Tableau chronique NULL {defn} {numéro de colonne} |
 | Ajoute une table           | Tableau « CREATE » NULL NULL NULL              |

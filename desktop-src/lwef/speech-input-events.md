@@ -4,12 +4,12 @@ description: Événements d’entrée vocale
 ms.assetid: d7b621fe-9274-4b16-af8a-664b0b296c89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0dc75bb010286b7645c206d192913017472829d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3babdfb38f302bd2ca5934fec4d8b54a84f7452befbec0dfba45b078747f532
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746260"
 ---
 # <a name="speech-input-events"></a>Événements d’entrée vocale
 
@@ -25,9 +25,9 @@ Si un client appelle correctement la méthode [**Listen**](listen-method.md) et 
 
 Si le client d’entrée/de sortie active bascule les moteurs de reconnaissance vocale en modifiant [**SRModeID**](srmodeid-property.md) en mode d’écoute, le serveur bascule vers et active ce moteur sans redéclencher l’événement [**ListenStart**](listenstart-event.md) . Toutefois, si le moteur spécifié n’est pas disponible, l’appel échoue (génère une erreur dans le contrôle) et le serveur appelle également l’événement [**ListenComplete**](listencomplete-event.md) .
 
- 
+ 
 
- 
+ 
 
 
 

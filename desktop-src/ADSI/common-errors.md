@@ -5,12 +5,12 @@ ms.assetid: fdee4f0a-b39e-4011-af4f-9fe408f6ca6c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bd870871d7a8e2939cda546178e2f31fe92644d
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 0efcbbbce67d9928c9ecda3840f34a1cbf6faae79ca4d9fe72830a5b57881177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "104314020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692193"
 ---
 # <a name="common-errors-adsi"></a>Erreurs courantes (ADSI)
 
@@ -49,7 +49,7 @@ Consultez [codes d’erreur com génériques](generic-com-error-codes.md) pour o
 
 ## <a name="win32-errors"></a>Erreurs Win32
 
-Tout code d’erreur de forme hexadécimale 8007xxxx est un code d’erreur Win32 standard. Si vous convertissez les quatre derniers chiffres du format hexadécimal au format décimal, vous pouvez accéder à l’erreur à partir de la ligne de commande Windows 2000 :
+Tout code d’erreur de forme hexadécimale 8007xxxx est un code d’erreur Win32 standard. si vous convertissez les quatre derniers chiffres du format hexadécimal au format décimal, vous pouvez accéder à l’erreur à partir de la ligne de commande Windows 2000 :
 
 **net helpmsg <number>**
 

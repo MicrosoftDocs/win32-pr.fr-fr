@@ -1,6 +1,6 @@
 ---
 title: IVMVirtualPC SearchPaths, propriété (VPCCOMInterfaces. h)
-description: Chemins d’accès de système de fichiers utilisés pour rechercher des fichiers associés à Windows Virtual PC.
+description: chemins d’accès de système de fichiers utilisés pour rechercher des fichiers associés à Windows Virtual PC.
 ms.assetid: 2a2deee5-7e6b-4b90-8ce9-0b0dbeef0f30
 keywords:
 - SearchPaths propriété Virtual PC
@@ -18,18 +18,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 287eb07bc9205f9b6f0851bd8809f9a49dcf3242
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac4ef75bf0a696494b839f330063ca310927a0d796829d96575721f492b8b691
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103739748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471249"
 ---
 # <a name="ivmvirtualpcsearchpaths-property"></a>IVMVirtualPC :: SearchPaths, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Récupère et définit les chemins d’accès du système de fichiers qui sont utilisés pour rechercher des fichiers associés à Windows Virtual PC.
+récupère et définit les chemins d’accès du système de fichiers qui sont utilisés pour rechercher des fichiers associés à Windows Virtual PC.
 
 Cette propriété est en lecture/écriture.
 
@@ -78,7 +78,7 @@ Spécifie un SafeArray contenant un chemin d’accès au système de fichiers po
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

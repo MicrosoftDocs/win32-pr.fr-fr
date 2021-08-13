@@ -3,7 +3,7 @@ title: HDN_FILTERBTNCLICK le code de notification (commctrl. h)
 description: Notifie la fenêtre parente du contrôle header lorsque l’utilisateur clique sur le bouton de filtre ou en réponse à un \_ message HDM SETITEM. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 36b85cdc-1022-4568-8891-0c919c850fd4
 keywords:
-- Contrôles Windows de code de notification HDN_FILTERBTNCLICK
+- HDN_FILTERBTNCLICK les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3dbbdab8adf0bee400d591f3d8b4cec6fa1ea81
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 01ba216c9946854ccfc6a651db90ab1dd5ed106dfca6ddf568d485c33dae70ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119435509"
 ---
 # <a name="hdn_filterbtnclick-notification-code"></a>\_Code de notification HDN FILTERBTNCLICK
 
@@ -55,8 +55,8 @@ Si vous renvoyez la **valeur true**, un code de notification [HDN \_ FILTERCHANG
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 
