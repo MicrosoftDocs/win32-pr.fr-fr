@@ -4,12 +4,12 @@ ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: Attribut de contrôle IndirectPropertyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f4ed68b557de12620c56757a267b2737c68a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f4ab3aca3ff3ad9b7d5c311cf1a9a2d62ca69355cb7da8d83ca7ebf3408b2a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634323"
 ---
 # <a name="indirectpropertyname-control-attribute"></a>Attribut de contrôle IndirectPropertyName
 
@@ -25,7 +25,7 @@ Tous les contrôles actifs.
 
 Cet attribut n’utilise pas d’indicateurs binaires.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Consultez les [attributs de contrôle](control-attributes.md) et le contrôle que vous devez créer sous [contrôles](controls.md).
 

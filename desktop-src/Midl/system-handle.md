@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 02/05/2021
-ms.openlocfilehash: f414654cdbd2eb07837455174f6142005f56a4b5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1cc89818db201f1aca84aa63c6aa49b6b7d9f80b7b6c5e211e724004606c653e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106520236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641265"
 ---
 # <a name="system_handle-attribute"></a>system_handle, attribut
 
@@ -65,7 +65,7 @@ Des liens vers des listes de droits d’accès pour chaque type d’objet se tro
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour pouvoir utiliser cet attribut, l' `-target` indicateur doit avoir la valeur `NT100` (ou une version ultérieure) lors de l’exécution de midl.exe.
 
@@ -102,8 +102,8 @@ interface MyInterface : IUnknown
 
 | &nbsp; | &nbsp; |
 |-|-|
-| Client minimal pris en charge | Mise à jour anniversaire Windows 10 (version 1607, Build 14393) |
-| Serveur minimal pris en charge | Windows Server 2016 (Build 14393) |
+| Client minimal pris en charge | Windows 10 Mise à jour anniversaire (version 1607, Build 14393) |
+| Serveur minimal pris en charge | Windows Server 2016 (build 14393) |
 
 ## <a name="see-also"></a>Voir aussi
 

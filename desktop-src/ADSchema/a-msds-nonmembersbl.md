@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88483757e5c9f87771ce8d71f21d26ea3154f975
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 87426328f9c2c5618374ebdd9c355693e6fff3303e83a44aba55eef7a333d954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106517360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683633"
 ---
 # <a name="ms-ds-non-members-bl-attribute"></a>ms-DS-non-members-BL Attribute
 
@@ -44,7 +44,7 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -77,10 +77,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -98,10 +98,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -119,10 +119,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -140,10 +140,10 @@ Lien vers l’arrière du groupe ou de l’utilisateur non membre vers les group
 |------------------------|---------------------------------|
 | ID de lien                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Vrai                            |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | True                            |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

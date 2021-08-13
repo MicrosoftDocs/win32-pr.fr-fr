@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2630f3d7c729073051ae2a1bd363a8c36387e8fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 808c3538591af9fb13553c66d75a0a7765174d647ae6c280ee22e8ff3b4a94a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682731"
 ---
 # <a name="ms-fve-recoveryguid-attribute"></a>attribut ms-FVE-RecoveryGuid
 
@@ -42,7 +42,7 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | Faux                                                                        |
-| Est de valeur unique       | Vrai                                                                         |
-| Est indexé             | Vrai                                                                         |
-| Dans le catalogue global      | Vrai                                                                         |
+| System-Only            | False                                                                        |
+| Est de valeur unique       | True                                                                         |
+| Est indexé             | True                                                                         |
+| Dans le catalogue global      | True                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -75,10 +75,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | Faux                                                                        |
-| Est de valeur unique       | Vrai                                                                         |
-| Est indexé             | Vrai                                                                         |
-| Dans le catalogue global      | Vrai                                                                         |
+| System-Only            | False                                                                        |
+| Est de valeur unique       | True                                                                         |
+| Est indexé             | True                                                                         |
+| Dans le catalogue global      | True                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |
@@ -96,10 +96,10 @@ Contient le GUID associé à un mot de passe de récupération FVE (Full Volume 
 |------------------------|------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                           |
 | MAPI-Id                | \-                                                                           |
-| System-Only            | Faux                                                                        |
-| Est de valeur unique       | Vrai                                                                         |
-| Est indexé             | Vrai                                                                         |
-| Dans le catalogue global      | Vrai                                                                         |
+| System-Only            | False                                                                        |
+| Est de valeur unique       | True                                                                         |
+| Est indexé             | True                                                                         |
+| Dans le catalogue global      | True                                                                         |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                 |
 | Range-Lower            | \-                                                                           |
 | Range-Upper            | \-                                                                           |

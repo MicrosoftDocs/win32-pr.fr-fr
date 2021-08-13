@@ -1,21 +1,21 @@
 ---
 description: Découvrez les nouveautés des applications Desktop Win32 pour Windows 10.
-title: Nouveautés de Windows 10 pour les développeurs d’applications Desktop Win32
+title: nouveautés de Windows 10 pour les développeurs d’applications desktop Win32
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36a85d1be5c1a61087f31b084df59e0bc9c45bab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6441ec7e10aff37bd4463b20e1295765c1417b30c2f50dce81db62ee3a16af11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442183"
 ---
-# <a name="whats-new-in-windows-10-for-desktop-win32-app-developers"></a>Nouveautés de Windows 10 pour les développeurs d’applications Desktop Win32
+# <a name="whats-new-in-windows-10-for-desktop-win32-app-developers"></a>nouveautés de Windows 10 pour les développeurs d’applications desktop Win32
 
-Cet article fournit des informations sur les nouveautés pour les développeurs d’applications bureautiques Win32 à partir de Windows 10. Pour plus d’informations sur les nouveautés de la dernière version de Windows 10, consultez les ressources suivantes :  
+Cet article fournit des informations sur les nouveautés pour les développeurs d’applications bureautiques Win32 à partir de Windows 10. pour plus d’informations sur les nouveautés de la dernière version de Windows 10, consultez les ressources suivantes :  
 
 * [Nouveautés intéressantes de Windows 10](https://developer.microsoft.com/windows/windows-10-for-developers)
-* [Nouveautés de Windows 10 pour les développeurs UWP](/windows/uwp/whats-new/windows-10-version-latest)
+* [nouveautés de Windows 10 pour les développeurs UWP](/windows/uwp/whats-new/windows-10-version-latest)
 
 ## <a name="new-win32-apis-for-windows-10"></a>Nouvelles API Win32 pour Windows 10
 
@@ -31,11 +31,11 @@ Les articles suivants contiennent des informations sur les nouvelles API Win32 i
 * [Nouveautés du Wi-Fi natif](NativeWiFi/what-s-new-in-native-wifi.md)
 * [Nouveautés du suivi d’événements](ETW/what-s-new-in-event-tracing.md)
 * [Nouveautés de Planificateur de tâches](TaskSchd/what-s-new-in-task-scheduler.md)
-* [Nouveautés de Windows Imaging Component (WIC)](wic/what-s-new-in-wic-for-windows-8-1.md)
+* [nouveautés de Windows Component (WIC)](wic/what-s-new-in-wic-for-windows-8-1.md)
 
 ## <a name="related-topics"></a>Rubriques connexes
 
-* [Prise en main des applications Windows Desktop Win32](desktop-programming.md)
+* [prise en main de Win32 desktop Windows apps](desktop-programming.md)
 * [Nouveautés intéressantes de Windows 10](https://developer.microsoft.com/windows/windows-10-for-developers)
-* [Informations de référence sur l’API Windows](/windows/desktop/api/)
+* [Windows Référence d’API](/windows/desktop/api/)
 * [Index des API Windows](/windows/desktop/apiindex/api-index-portal)

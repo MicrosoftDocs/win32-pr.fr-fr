@@ -1,30 +1,30 @@
 ---
-title: Mise en réseau Windows (WNet)
-description: Les fonctions de mise en réseau Windows (WNet) vous permettent d’implémenter des fonctionnalités de mise en réseau dans votre application sans allocations pour un fournisseur réseau particulier ou une implémentation de réseau physique.
+title: Windows Mise en réseau (WNet)
+description: les fonctions de mise en réseau Windows (WNet) vous permettent d’implémenter des fonctionnalités de mise en réseau dans votre application sans allocations pour un fournisseur réseau particulier ou une implémentation de réseau physique.
 ms.assetid: 7668ac55-7104-4ddb-88eb-920cfe4e36fd
 keywords:
 - WNet réseau Windows
 - WNet WNet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d436ec5c5daec52d73a3a6f7942bcc76ef4251
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48b177a3b873584a06429b2a9a033d316851b43df7bb3af524fe393224c6b0c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566412"
 ---
-# <a name="windows-networking-wnet"></a>Mise en réseau Windows (WNet)
+# <a name="windows-networking-wnet"></a>Windows Mise en réseau (WNet)
 
-Les fonctions de mise en réseau Windows (WNet) vous permettent d’implémenter des fonctionnalités de mise en réseau dans votre application sans allocations pour un fournisseur réseau particulier ou une implémentation de réseau physique. Cela est dû au fait que les fonctions WNet sont indépendantes du réseau.
+les fonctions de mise en réseau Windows (WNet) vous permettent d’implémenter des fonctionnalités de mise en réseau dans votre application sans allocations pour un fournisseur réseau particulier ou une implémentation de réseau physique. Cela est dû au fait que les fonctions WNet sont indépendantes du réseau.
 
--   [À propos de la mise en réseau Windows](about-windows-networking.md)
--   [Utilisation de la mise en réseau Windows](using-windows-networking.md)
--   [Informations de référence sur la mise en réseau Windows](windows-networking-reference.md)
+-   [à propos de la mise en réseau Windows](about-windows-networking.md)
+-   [utilisation de la mise en réseau Windows](using-windows-networking.md)
+-   [Windows Référence de mise en réseau](windows-networking-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

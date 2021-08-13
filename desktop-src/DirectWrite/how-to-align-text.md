@@ -1,19 +1,19 @@
 ---
 title: Comment aligner du texte
-description: Vous pouvez aligner du texte DirectWrite à l’aide de la méthode SetTextAlignment de l’interface IDWriteTextFormat.
+description: vous pouvez aligner DirectWrite texte à l’aide de la méthode SetTextAlignment de l’interface IDWriteTextFormat.
 ms.assetid: 7f79dcff-11f6-4e74-b5bd-98bfebe6e393
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb765860f2fbaac94409aa9ec20c2269beb45cbb
-ms.sourcegitcommit: 3b9424e1dcd951b2a73e47de3c7f4d734de4263b
+ms.openlocfilehash: c3a9d73443577468d794e43dc62d19e7dd24a86227ba6b5e5d8c3542cdded8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106544503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650363"
 ---
 # <a name="how-to-align-text"></a>Comment aligner du texte
 
-Vous pouvez aligner le texte [DirectWrite](direct-write-portal.md) à l’aide de la méthode [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) de l’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) , comme indiqué dans le code suivant qui centre le texte.
+vous pouvez aligner [DirectWrite](direct-write-portal.md) texte à l’aide de la méthode [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment) de l’interface [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) , comme indiqué dans le code suivant qui centre le texte.
 
 
 ```C++

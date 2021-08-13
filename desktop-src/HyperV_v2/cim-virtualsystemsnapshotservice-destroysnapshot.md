@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 80d618374d2da4a12f2ce31284d7b3fa36ba65ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 986ffe6a7a5bd6ac18d47bcbebe40ac038ea86cdc096173704d30515067fcccc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104526775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118646368"
 ---
 # <a name="destroysnapshot-method-of-the-cim_virtualsystemsnapshotservice-class"></a>Méthode DestroySnapshot de la \_ classe CIM VirtualSystemSnapshotService
 

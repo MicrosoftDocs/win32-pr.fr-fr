@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d96d96157f7b1d81617be6980804fb54a6e6659f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2b1c469ca623b0c09ea2899de1867cc10c8d8cda9363994973d08ecc20ed7f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118633206"
 ---
 # <a name="installerapplymultiplepatches-method"></a>Installer. ApplyMultiplePatches, méthode
 
@@ -44,7 +44,7 @@ Installer.ApplyMultiplePatches(
 *PatchPackagesList* 
 </dt> <dd>
 
-Chaîne qui contient une liste délimitée par des points-virgules des chemins d’accès aux fichiers correctifs. Par exemple : "" c : \\ \\ cache de téléchargement sus \\ \\ Office \\ SP1. msp ; c : \\ sus \\ cache de téléchargement \\ \\ Office \\ qfe1. msp ; c : \\ sus \\ download \\ cache \\ Office \\ QFEn. msp ""
+Chaîne qui contient une liste délimitée par des points-virgules des chemins d’accès aux fichiers correctifs. par exemple : "" c : \\ \\ cache de téléchargement sus \\ \\ Office \\ sp1. msp ; c : \\ sus \\ download \\ cache \\ Office \\ QFE1. msp ; c : \\ sus \\ download \\ cache \\ Office \\ QFEn. msp ""
 
 </dd> <dt>
 
@@ -97,7 +97,7 @@ Cette méthode ne retourne pas de valeur.
 [**MsiApplyMultiplePatches**](/windows/desktop/api/Msi/nf-msi-msiapplymultiplepatchesa)
 </dt> <dt>
 
-[Non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
+[non pris en charge dans Windows Installer 2,0 et versions antérieures](not-supported-in-windows-installer-version-2-0.md)
 </dt> </dl>
 
  

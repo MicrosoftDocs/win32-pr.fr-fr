@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: b3f09887333d8ddbf83de4bea2b2e654411883e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4528b80b13fbf2667c33d9588dff2ce745d24f8575aa726ea67dc256fdebfd1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626807"
 ---
 # <a name="recordlist-object"></a>Objet RecordList
 
@@ -38,7 +38,7 @@ L’objet **RecordList** a ces propriétés.
 
 | Propriété                                     | Description                                                          |
 |:---------------------------------------------|:---------------------------------------------------------------------|
-| [**Saut**](recordlist-count.md)<br/> | Retourne le nombre d’éléments dans l’objet **RecordList** .<br/> |
+| [**Count**](recordlist-count.md)<br/> | Retourne le nombre d’éléments dans l’objet **RecordList** .<br/> |
 | [**Élément**](recordlist-item.md)<br/>   | Retourne un enregistrement dans une collection d’objets **RecordList** .<br/>   |
 
 
@@ -64,7 +64,7 @@ L’objet **RecordList** a ces propriétés.
 [**Enregistrement**](record-object.md)
 </dt> <dt>
 
-[Exemples de scripts Windows Installer](windows-installer-scripting-examples.md)
+[Windows Exemples de scripts d’installation](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

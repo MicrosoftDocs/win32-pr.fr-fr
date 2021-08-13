@@ -4,18 +4,18 @@ description: Les applications serveur et le système d’exploitation utilisent 
 ms.assetid: 43723706-a173-4ddc-b135-824a7a8e8b40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97864f2b1464718680d781ad843345f1e46fce13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87c177183fa776a6becf52d62b86fe0ae6785c5be19dd287324ba3345b586af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563510"
 ---
 # <a name="what-are-winevents"></a>Qu’est-ce que WinEvents ?
 
 Les applications serveur et le système d’exploitation utilisent WinEvents pour notifier les clients lorsqu’une modification se produit dans le système ou dans l’interface utilisateur.
 
-La prise en charge de WinEvent est une fonctionnalité du système d’exploitation Windows qui fournit les éléments suivants :
+la prise en charge de WinEvent est une fonctionnalité du système d’exploitation Windows qui fournit :
 
 -   Méthode simple permettant aux clients de s’inscrire pour recevoir des notifications d’événements.
 -   Mécanisme permettant d’injecter du code client dans des serveurs.
@@ -36,9 +36,9 @@ Pour être informé des événements, les clients inscrivent des fonctions de ra
 
 Lorsque Microsoft Active Accessibility est averti d’un événement, il appelle toutes les fonctions de raccordement qui ont été inscrites pour cet événement, en transmettant les paramètres à partir de [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent).
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d8a015998f0a673a310319f93d8f4892dd4b1c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bb3591df5dc02fdc63215ff2276202df62347ed21aef23991b4ddcadef094281
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649744"
 ---
 # <a name="idwritetextlayoutgetoverhangmetrics-method"></a>IDWriteTextLayout :: GetOverhangMetrics, méthode
 
@@ -57,7 +57,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les traits de soulignement et les strikethroughs ne contribuent pas à la détermination de la boîte noire, car ils sont réellement dessinés par le convertisseur, ce qui est autorisé à les dessiner dans n’importe quel ensemble de styles.
 

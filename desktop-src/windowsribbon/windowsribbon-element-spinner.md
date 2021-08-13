@@ -3,7 +3,7 @@ title: Élément Spinner
 description: Représente un contrôle Spinner.
 ms.assetid: 6a174ec9-0fde-4171-a363-0e330ac31a8b
 keywords:
-- Ruban des fenêtres d’élément Spinner
+- élément Spinner Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d1ec2e074271e125199ddfd4ff8fac7b2af80c33
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 847806e395998f8bc82c302f4403c5bc2b651323ec6c7089803bc66e5f18dc4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439514"
 ---
 # <a name="spinner-element"></a>Élément Spinner
 
 Représente un contrôle [Spinner](windowsribbon-controls-spinner.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <Spinner
@@ -83,7 +83,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md) ou [**Group**](windowsribbon-element-group.md) .
 
@@ -122,7 +122,7 @@ Cette section de code montre les déclarations de contrôle **Spinner** .
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-- **Système minimal pris en charge**: Windows 7 
+- **système minimal pris en charge**: Windows 7 
 - **Peut être vide**: Oui
 
 

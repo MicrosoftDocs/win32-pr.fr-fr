@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e7c55980b8b08865889f7567fa6bdb4dcf7bde1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: aa4def81aa39c9df5aaa336a05514ab4581aa14533917fad008fc9c49d32d13e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104480332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682523"
 ---
 # <a name="ms-iis-ftp-root-attribute"></a>MS-IIS-FTP-attribut racine
 
@@ -44,7 +44,7 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -77,10 +77,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -98,10 +98,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -119,10 +119,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |
@@ -140,10 +140,10 @@ Cet attribut détermine le partage de serveur de fichiers. Il est utilisé conjo
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | 1                                 |
 | Range-Upper            | 256                               |

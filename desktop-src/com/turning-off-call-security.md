@@ -4,12 +4,12 @@ description: La sécurité de l’appel détermine si un client a l’autorisati
 ms.assetid: 7ce162d0-20e0-4385-ad9f-472f2c17b060
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a838a9c7936c126a1fedeeafc977f55641b63c5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6d8d8f4a48baed00655761e89a12f0aa84846a0a2defdc0b2e444b2bee9103f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550563"
 ---
 # <a name="turning-off-call-security"></a>Désactivation de la sécurité de l’appel
 
@@ -40,7 +40,7 @@ Pour définir le niveau d’authentification sur la valeur None à l’échelle 
 > [!Note]  
 > La définition du niveau d’authentification à l’échelle de l’ordinateur sur aucun est extrêmement non sécurisée.
 
- 
+ 
 
 1.  Exécutez Dcomcnfg.exe.
 2.  Choisissez l’onglet **propriétés par défaut** .
@@ -58,9 +58,9 @@ Pour désactiver la sécurité de l’appel par programmation, le client et le s
 [Désactivation de la sécurité d’activation](turning-off-activation-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

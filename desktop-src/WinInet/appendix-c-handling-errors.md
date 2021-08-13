@@ -1,17 +1,17 @@
 ---
-title: Gestion des erreurs (Windows Internet)
+title: gestion des erreurs (Windows Internet)
 description: La fonction GetLastError récupère le dernier code d’erreur pour toutes les fonctions WinINet.
 ms.assetid: ee619803-b2a3-4a99-a3e6-120e147843f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc175c80fd8bd10b6a3807376e1a207d805aee65
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6ef5c40a2a7b018c1da25932ecbea24259f2bcdb18eff1e424500dcda60dc208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104200536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562349"
 ---
-# <a name="handling-errors-windows-internet"></a>Gestion des erreurs (Windows Internet)
+# <a name="handling-errors-windows-internet"></a>gestion des erreurs (Windows Internet)
 
 La fonction [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) récupère le dernier code d’erreur pour toutes les fonctions WinInet. Si une erreur d’erreur [**\_ \_ étendue \_ Internet**](wininet-errors.md) est retournée, il existe une chaîne ou une mémoire tampon qui contient un message d’erreur détaillé. Appelez la fonction [**InternetGetLastResponseInfo**](/windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa) pour récupérer le texte d’erreur étendu.
 
@@ -186,7 +186,7 @@ void WINAPI addLastErrorToMsg( LPTSTR szMsgBuffer, DWORD dwSize )
 
 
 > [!Note]  
-> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. Pour les implémentations de serveur ou les services, utilisez les [services http Microsoft Windows (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
+> WinINet ne prend pas en charge les implémentations de serveur. En outre, il ne doit pas être utilisé à partir d’un service. pour les implémentations de serveur ou les services [, utilisez Microsoft Windows HTTP services (WinHTTP)](/windows/desktop/WinHttp/winhttp-start-page).
 
  
 

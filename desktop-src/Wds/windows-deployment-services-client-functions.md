@@ -1,19 +1,19 @@
 ---
-title: Fonctions du client des services de déploiement Windows
-description: Les fonctions suivantes sont utilisées avec l’API client des services de déploiement Windows.
+title: Windows Fonctions du client des services de déploiement
+description: les fonctions suivantes sont utilisées avec l’API du Client Windows Deployment Services.
 ms.assetid: 4cedd8a8-7f46-4229-9d96-58965b751e43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe124c6f02d12943d40fbc98af4a687d5b892f86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c213822323405e030ba9907f692d6fcaa370356fb395a390dfa0f1fc0818244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106512274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566384"
 ---
-# <a name="windows-deployment-services-client-functions"></a>Fonctions du client des services de déploiement Windows
+# <a name="windows-deployment-services-client-functions"></a>Windows Fonctions du client des services de déploiement
 
-Les fonctions suivantes sont utilisées avec l’API client des services de déploiement Windows.
+les fonctions suivantes sont utilisées avec l’API du Client Windows Deployment Services.
 
 
 
@@ -55,22 +55,22 @@ Les fonctions suivantes sont utilisées avec l’API client des services de dép
 
 
 
- 
+ 
 
 
 
 | Fonction                                                             | Description                                                                                                                                                    |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**WdsCliGetDriverQueryXml**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetdriverqueryxml)           | Génère une chaîne XML qui peut être utilisée pour interroger un serveur WDS à la recherche de packages de pilotes. Disponible à partir de Windows 8 et de Windows Server 2012.               |
-| [**WdsCliObtainDriverPackagesEx**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscliobtaindriverpackagesex) | Obtient les packages de pilotes (fichiers INF) applicables au fichier XML de requête du pilote WDS spécifié. Disponible à partir de Windows 8 et de Windows Server 2012. |
+| [**WdsCliGetDriverQueryXml**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscligetdriverqueryxml)           | Génère une chaîne XML qui peut être utilisée pour interroger un serveur WDS à la recherche de packages de pilotes. disponible à partir de Windows 8 et Windows Server 2012.               |
+| [**WdsCliObtainDriverPackagesEx**](/windows/desktop/api/WdsClientAPI/nf-wdsclientapi-wdscliobtaindriverpackagesex) | Obtient les packages de pilotes (fichiers INF) applicables au fichier XML de requête du pilote WDS spécifié. disponible à partir de Windows 8 et Windows Server 2012. |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

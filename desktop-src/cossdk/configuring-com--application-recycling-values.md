@@ -4,19 +4,19 @@ ms.assetid: 8f6a4879-cf4c-4171-8448-bc07371e038c
 title: Configuration des valeurs de recyclage des applications COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b34c989d81f2e3486adb1d12ec76859a1d28f090
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2613fb6f063a49d53baa90fad6f7dac862b848c6abf95fddcc36ace25e3d6b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548640"
 ---
 # <a name="configuring-com-application-recycling-values"></a>Configuration des valeurs de recyclage des applications COM+
 
 Vous pouvez utiliser les méthodes suivantes pour configurer les valeurs de recyclage d’applications pour votre application COM+.
 
 > [!Note]  
-> Vous ne pouvez pas recycler une application COM+ qui a été configurée pour s’exécuter en tant que service Windows. En outre, les applications de bibliothèque disposent des propriétés de recyclage et de regroupement de leur processus hôte.
+> vous ne pouvez pas recycler une application COM+ qui a été configurée pour s’exécuter en tant que service Windows. En outre, les applications de bibliothèque disposent des propriétés de recyclage et de regroupement de leur processus hôte.
 
  
 
@@ -43,7 +43,7 @@ Pour configurer le recyclage d’applications pour une application COM+, procéd
 
 ## <a name="visual-basic"></a>Visual Basic
 
-La fonction suivante dans Microsoft Visual Basic montre comment vous pouvez définir les valeurs de recyclage d’application pour n’importe quelle application serveur COM+ que vous choisissez. Pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
+la fonction suivante dans Microsoft Visual Basic montre comment vous pouvez définir les valeurs de recyclage d’application pour n’importe quelle application serveur COM+ que vous choisissez. pour l’utiliser à partir de Visual Basic, ajoutez une référence à la bibliothèque de types d’administration COM+.
 
 
 ```VB
@@ -104,7 +104,7 @@ End Function
 
 
 
-Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’application et les valeurs entières pour les paramètres de recyclage d’application souhaités. Le code Visual Basic suivant montre comment définir la valeur **RecycleLifetimeLimit** sur 5, la valeur **RecycleMemoryLimit** sur 10, la valeur **RecycleCallLimit** sur 9, la valeur **RecycleActivationLimit** sur 100 et la valeur **RecycleExpirationTimeout** sur 15.
+Pour utiliser la fonction, fournissez une valeur de chaîne pour le nom de l’application et les valeurs entières pour les paramètres de recyclage d’application souhaités. le code Visual Basic suivant montre comment définir la valeur **RecycleLifetimeLimit** sur 5, la valeur **RecycleMemoryLimit** sur 10, la valeur **RecycleCallLimit** sur 9, la valeur **RecycleActivationLimit** sur 100 et la valeur **RecycleExpirationTimeout** sur 15.
 
 
 ```VB

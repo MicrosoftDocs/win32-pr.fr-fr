@@ -1,17 +1,17 @@
 ---
-description: Shell (système de propriétés Windows)
+description: Shell (Windows système de propriétés)
 ms.assetid: 238c95eb-951e-43d3-8125-86e849cd31d7
-title: Shell (système de propriétés Windows)
+title: Shell (Windows système de propriétés)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10f49fa956826977195c167a927da1bb25f78bd
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 75750ac7c93c7c47cff59960596a8d674c24189a7b308dd135274a87a5598b97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463894"
 ---
-# <a name="shell-windows-property-system"></a>Shell (système de propriétés Windows)
+# <a name="shell-windows-property-system"></a>Shell (Windows système de propriétés)
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -20,7 +20,7 @@ ms.locfileid: "108113817"
 | Rubrique                                                                                                  | Description                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [System. DescriptionID](./props-system-descriptionid.md)<br/>                               | Contenu d’une structure [**SHDESCRIPTIONID**](/windows/win32/api/shlobj_core/ns-shlobj_core-shdescriptionid) , représenté sous la forme d’une mémoire tampon d’octets.<br/> |
-| [System. InternalName](./props-system-internalname.md)<br/>                                 | Nom d’un fichier. exe ou. dll tel qu’il est stocké dans une section de ressource dans ce fichier.<br/>                                |
+| [System. InternalName](./props-system-internalname.md)<br/>                                 | Nom d’un fichier .exe ou .dll tel qu’il est stocké dans une section de ressource dans ce fichier.<br/>                                |
 | [System. LibraryLocationsCount](props-system-librarylocationscount.md)<br/>                      | Indique le nombre d’emplacements de bibliothèque.<br/>                                                                       |
 | [System. Link. TargetSFGAOFlagsStrings](./props-system-link-targetsfgaoflagsstrings.md)<br/> | Exprime les indicateurs SFGAO d’un lien en tant que valeurs de chaîne et est utilisé comme une optimisation de requête.<br/>                       |
 | [System. Link. TargetUrl](./props-system-link-targeturl.md)<br/>                             |                                                                                                                             |

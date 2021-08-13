@@ -3,9 +3,9 @@ title: Propriété Count IWMPStringCollection
 description: La propriété Count obtient le nombre d’éléments dans la collection de chaînes.
 ms.assetid: 0ba2d158-fa54-46a8-9124-8a412e71bd09
 keywords:
-- propriété Count Windows Media Player
-- propriété Count lecteur Windows Media, interface IWMPStringCollection
-- IWMPStringCollection interface Windows Media Player, propriété Count
+- Lecteur Windows Media de la propriété count
+- Lecteur Windows Media de la propriété count, interface IWMPStringCollection
+- Lecteur Windows Media de l’interface IWMPStringCollection, propriété count
 topic_type:
 - apiref
 api_name:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c520ab346737d1599d79d80ea3acd36c9b84fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 18e4147d1fbae6c98458c460df34d365d84fe0b2a9f23d508bff4eccb75935de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568453"
 ---
 # <a name="iwmpstringcollectioncount-property"></a>IWMPStringCollection :: Count, propriété
 
@@ -51,7 +51,7 @@ Public ReadOnly Property count As System.Int32
 
 **System. Int32** qui est le nombre d’éléments dans la collection de chaînes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant d’utiliser cette propriété, vous devez disposer d’un accès en lecture à la bibliothèque. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

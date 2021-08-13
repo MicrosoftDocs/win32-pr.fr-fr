@@ -4,12 +4,12 @@ ms.assetid: 78cec3fc-c653-487a-b41c-a43c42e3a157
 title: Propriété ADDDEFAULT
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43960b6d70d704337f373031ab4972bcb95dada7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e854df38b58a19f41f98cf1f96657dafdda0c4134c7085c50b4c9c4528b3164e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639703"
 ---
 # <a name="adddefault-property"></a>Propriété ADDDEFAULT
 
@@ -17,7 +17,7 @@ La valeur de la propriété **AddDefault** est une liste de fonctionnalités dé
 
 Une fonctionnalité indiquée dans la propriété **AddDefault** est installée dans le même état d’installation que si l’utilisateur a demandé une installation à la demande de la fonctionnalité. L’État est déterminé par les bits définis pour la fonctionnalité dans la colonne attributs de la table de [fonctionnalités](feature-table.md), et les bits définis pour les composants de la fonctionnalité dans la colonne attributs de la [table des composants](component-table.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les noms des fonctionnalités respectent la casse.
 
@@ -49,7 +49,7 @@ Le programme d’installation définit la propriété [**présélectionnée**](p
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. Pour plus d’informations sur le Service Pack Windows minimal requis par une version de Windows Installer, consultez la [Configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
+| Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP. pour plus d’informations sur la Service Pack de Windows minimale requise par une version de Windows Installer, consultez la [configuration requise pour la Windows Installer Run-Time](windows-installer-portal.md) .<br/> |
 
 
 

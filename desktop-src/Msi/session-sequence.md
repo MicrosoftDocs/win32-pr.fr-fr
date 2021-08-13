@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 18708b79bdce73b29f46b4d62a15ceb8003d9c9b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 59e9bb09e66ad9a7bff51f1ce2e7e15750749d04a4d2f2c92365b78b29b34585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625117"
 ---
 # <a name="sessionsequence-method"></a>Session. Sequence, méthode
 
@@ -50,7 +50,7 @@ Nom de chaîne requis de la table à utiliser pour le séquencement.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode est normalement appelée en interne par des actions de niveau supérieur.
 

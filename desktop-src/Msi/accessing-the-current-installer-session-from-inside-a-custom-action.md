@@ -4,12 +4,12 @@ ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: Accès à la session de programme d’installation actuelle à partir d’une action personnalisée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a870247f70742d408c0f5d1d0e67f20cef65d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3ee3214b8f8664b57f5216b28a7f5d5269d76049fe5c4dd24f7ab8d130d89a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640188"
 ---
 # <a name="accessing-the-current-installer-session-from-inside-a-custom-action"></a>Accès à la session de programme d’installation actuelle à partir d’une action personnalisée
 
@@ -32,7 +32,7 @@ Pour un accès en lecture seule à la base de données actuelle, obtenez le hand
 
 [Scripts](scripts.md)
 
-Les actions personnalisées écrites en VBScript ou JScript peuvent accéder à la session d’installation actuelle à l’aide de l' [**objet session**](session-object.md). Le programme d’installation crée un objet de **session** nommé « session » qui fait référence à l’installation actuelle. Pour un accès en lecture seule à la base de données actuelle, utilisez la propriété [**Database**](session-database.md) de l’objet **session** .
+les actions personnalisées écrites en VBScript ou JScript peuvent accéder à la session d’installation actuelle à l’aide de l' [**objet session**](session-object.md). Le programme d’installation crée un objet de **session** nommé « session » qui fait référence à l’installation actuelle. Pour un accès en lecture seule à la base de données actuelle, utilisez la propriété [**Database**](session-database.md) de l’objet **session** .
 
 Étant donné qu’un script est exécuté à partir du contexte de l’objet [**session**](session-object.md) , il n’est pas toujours nécessaire de qualifier entièrement les propriétés et les méthodes. Dans l’exemple suivant, quand vous utilisez VBScript, la référence me peut remplacer l’objet de **session** , par exemple, les trois lignes suivantes sont équivalentes.
 

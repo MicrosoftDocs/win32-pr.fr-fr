@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e2a18791f5055a7574b9e130cf10c0cd1246f6eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d273db41b832b8141fe13bdf0538b51fb221688949792e214c9f81c1e7b96e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553123"
 ---
 # <a name="wmi-tasks-for-scripts-and-applications"></a>Tâches WMI pour les scripts et les applications
 
@@ -33,7 +33,7 @@ Le tableau suivant répertorie les catégories de tâches.
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Comptes et domaines](wmi-tasks--accounts-and-domains.md)                   | Obtenir des informations telles que le domaine de l’ordinateur ou l’utilisateur actuellement connecté. La plupart des tâches liées au domaine ou au compte sont effectuées de manière optimale avec les scripts [ADSI](/windows/desktop/ADSI/active-directory-service-interfaces-adsi) . Pour obtenir des exemples, consultez le ScriptCenter TechNet à l’adresse [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) . |
 | [Matériel informatique](wmi-tasks--computer-hardware.md)                         | Obtenir des informations sur la présence, l’État ou les propriétés de composants matériels. Par exemple, vous pouvez déterminer si un ordinateur est un ordinateur de bureau ou un ordinateur portable.                                                                                                                                                                                             |
-| [Logiciel informatique](wmi-tasks--computer-software.md)                         | Obtenir des informations telles que le logiciel installé par les versions Windows Installer (MSI) et logicielles.                                                                                                                                                                                                                                              |
+| [Logiciel informatique](wmi-tasks--computer-software.md)                         | obtenir des informations telles que le logiciel installé par les versions Windows Installer (MSI) et logicielles.                                                                                                                                                                                                                                              |
 | [Connexion au service WMI](wmi-tasks--connecting-to-the-wmi-service.md) | Pour obtenir des données à partir de WMI, sur l’ordinateur local ou à partir d’un ordinateur distant, vous devez vous connecter au service WMI en vous connectant à un [*espace de noms*](gloss-n.md)spécifique. Dans la plupart des cas, utilisez soit la connexion sténographique [moniker](creating-a-wmi-script.md) , soit la connexion [**localisateur**](swbemlocator-connectserver.md) .    |
 | [Dates et heures](wmi-tasks--dates-and-times.md)                             | Il existe des classes WMI et un objet de script pour analyser ou convertir le format [DateTime CIM](date-and-time-format.md) .                                                                                                                                                                                                                                     |
 | [Gestion des postes de travail](wmi-tasks--desktop-management.md)                       | Obtenir des données à partir de ou contrôler les bureaux à distance. Par exemple, vous pouvez déterminer si l’écran de veille requiert ou non un mot de passe. WMI vous donne également la possibilité d’arrêter un ordinateur distant.                                                                                                                                                               |

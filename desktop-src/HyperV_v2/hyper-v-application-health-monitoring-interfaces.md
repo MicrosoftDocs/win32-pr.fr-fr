@@ -4,12 +4,12 @@ ms.assetid: 20765882-C82D-4CBE-AF53-B9F590B15E68
 title: Interfaces de surveillance de l’intégrité des applications Hyper-V
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eddac2e24a3cec47d52969d85147c896d7a32135
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f08288aad5c6e19dc0fe19b5a5c66a5f7f56e14114674846266167f7b35aea2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118645584"
 ---
 # <a name="hyper-v-application-health-monitoring-interfaces"></a>Interfaces de surveillance de l’intégrité des applications Hyper-V
 

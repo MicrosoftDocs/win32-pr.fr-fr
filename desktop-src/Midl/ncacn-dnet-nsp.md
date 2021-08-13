@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6312aff15d3bdef85d1e37829d669ce1faa5fbb4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c4fa7448ff9d0cf3946ad3d0293ade19a5c2c0c407ca157d79c2c425f4a8ef6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104101604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642760"
 ---
 # <a name="ncacn_dnet_nsp-attribute"></a>ncacn \_ dnet, \_ attribut NSP
 
@@ -45,14 +45,14 @@ Spécifie un nom d’objet DECnet ou un numéro d’objet. Le nom de l’objet p
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La syntaxe de la chaîne de port de transport DECnet, comme toutes les chaînes de port, est définie indépendamment de la spécification IDL. Le compilateur effectue une vérification de la syntaxe, mais ne garantit pas que la spécification du point de terminaison est correcte. Certaines erreurs peuvent être signalées au moment de l’exécution plutôt qu’au moment de la compilation.
 
 > [!Note]  
 > Cette famille de protocoles n’est pas prise en charge dans WindowsÂ XP.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -87,6 +87,6 @@ interface iface
 [**liaison de chaîne**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

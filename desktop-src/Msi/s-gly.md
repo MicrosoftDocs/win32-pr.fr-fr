@@ -1,15 +1,15 @@
 ---
-description: En savoir plus sur les concepts de Windows Installer qui commencent par la lettre S, tels que les tables de séquences et la liste source.
+description: en savoir plus sur les concepts de Windows Installer qui commencent par la lettre S, tels que les tables de séquences et la liste source.
 ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: S (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 17d0bc61230433857a903476dab7ba25e1a75e3a6c405944731b73bfbb29ad78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625549"
 ---
 # <a name="s-windows-installer"></a>S (Windows Installer)
 
@@ -34,7 +34,7 @@ Spécifie les emplacements où le programme d’installation doit rechercher les
 <span id="_msi_standard_action_gly"></span><span id="_MSI_STANDARD_ACTION_GLY"></span>**action standard**
 </dt> <dd>
 
-[*Action*](a-gly.md) intégrée du Windows Installer. Pour plus d’informations, consultez [actions standard](standard-actions.md).
+[*action*](a-gly.md) intégrée du Windows Installer. Pour plus d’informations, consultez [actions standard](standard-actions.md).
 
 </dd> <dt>
 
@@ -45,17 +45,17 @@ Utilisateur sans privilèges d’administrateur.
 
 </dd> <dt>
 
-<span id="_msi_structured_query_language_gly"></span><span id="_MSI_STRUCTURED_QUERY_LANGUAGE_GLY"></span>**Langage SQL (SQL)**
+<span id="_msi_structured_query_language_gly"></span><span id="_MSI_STRUCTURED_QUERY_LANGUAGE_GLY"></span>**langage SQL (SQL)**
 </dt> <dd>
 
-Langage utilisé pour traiter les données dans une base de données relationnelle. Vous pouvez utiliser SQL pour effectuer des requêtes dans la base de données du programme d’installation. Pour plus d’informations, consultez [utilisation des requêtes](working-with-queries.md).
+Langage utilisé pour traiter les données dans une base de données relationnelle. vous pouvez utiliser SQL pour effectuer des requêtes sur la base de données du programme d’installation. Pour plus d’informations, consultez [utilisation des requêtes](working-with-queries.md).
 
 </dd> <dt>
 
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**flux d’informations de synthèse**
 </dt> <dd>
 
-Emplacement de stockage dans le [*fichier.msi*](m-gly.md) pour obtenir des informations qui peuvent être affichées avec l’Explorateur Microsoft Windows. Pour plus d’informations, consultez [à propos du flux d’informations de synthèse](about-the-summary-information-stream.md).
+Stockage emplacement dans le [*fichier.msi*](m-gly.md) pour obtenir des informations qui peuvent être consultées avec Microsoft Windows Explorer. Pour plus d’informations, consultez [à propos du flux d’informations de synthèse](about-the-summary-information-stream.md).
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Lorsque le programme d’installation attend que le thread distinct d’une acti
 <span id="_msi_system_policy_using_windows_installer__gly"></span><span id="_MSI_SYSTEM_POLICY_USING_WINDOWS_INSTALLER__GLY"></span>**stratégie système**
 </dt> <dd>
 
-Utilisé par les administrateurs système pour contrôler les configurations des utilisateurs et des ordinateurs à partir d’un emplacement unique sur un réseau. Les stratégies système propagent les paramètres du Registre sur un grand nombre d’ordinateurs sans que l’administrateur ait une connaissance approfondie du Registre. La stratégie système du programme d’installation peut être configurée à l’aide de l’éditeur de stratégie de groupe (GPE), inclus dans Windows 2000. Pour plus d’informations, consultez [stratégie système](system-policy.md).
+Utilisé par les administrateurs système pour contrôler les configurations des utilisateurs et des ordinateurs à partir d’un emplacement unique sur un réseau. Les stratégies système propagent les paramètres du Registre sur un grand nombre d’ordinateurs sans que l’administrateur ait une connaissance approfondie du Registre. la stratégie système du programme d’installation peut être configurée à l’aide de l’éditeur de stratégie de groupe (GPE), inclus dans Windows 2000. Pour plus d’informations, consultez [stratégie système](system-policy.md).
 
 </dd> </dl>
 

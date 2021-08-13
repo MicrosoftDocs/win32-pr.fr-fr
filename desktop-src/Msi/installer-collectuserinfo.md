@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: d7286fdbc9fab6b3db6752284bf86db05f920bd7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 255f9c5bfbd9f7ed476314e8ac1c9ed58568c083b8f6ea7704bbe5cfef15b769
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106535253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632916"
 ---
 # <a name="installercollectuserinfo-method"></a>Installer. CollectUserInfo, méthode
 
@@ -50,7 +50,7 @@ Spécifie le [**Code de produit**](productcode.md) du produit.
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une application doit appeler la méthode **CollectUserInfo** la première fois qu’elle est exécutée. La méthode **CollectUserInfo** ouvre le package d’installation du produit et appelle une séquence créée de l’Assistant de l’interface utilisateur qui collecte les informations utilisateur. À la fin de la séquence de l’Assistant, les informations utilisateur collectées sont enregistrées. La propriété [**UILevel**](installer-uilevel.md) doit être définie sur msiUILevelFull, car cette API requiert une interface utilisateur créée.
 

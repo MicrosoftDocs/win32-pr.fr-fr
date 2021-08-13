@@ -4,18 +4,18 @@ ms.assetid: 1a168629-9865-4412-8317-8af8b9a7b8bd
 title: ICEM12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b37cbff2e29a85dd50ef1f044a43fdb8e48ffdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e53e6f83b9ffccf6595719815ec4bd44cc8ff3774b989b682751dd9be1bbe5f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634942"
 ---
 # <a name="icem12"></a>ICEM12
 
 ICEM12 vérifie que dans une table ModuleSequence, les actions standard ont des numéros de séquence et les actions personnalisées ont des valeurs BaseAction et after.
 
-Ce ICEM est disponible dans le fichier Mergemod. CUB fourni dans le kit de développement logiciel (SDK) Windows Installer 2,0 et versions ultérieures. Pour plus d’informations, consultez [SDK Windows Components for Windows Installer Developers](platform-sdk-components-for-windows-installer-developers.md).
+ce ICEM est disponible dans le fichier Mergemod. cub fourni dans le kit de développement logiciel (SDK) Windows Installer 2,0 et versions ultérieures. pour plus d’informations, consultez [SDK Windows components for Windows Installer developers](platform-sdk-components-for-windows-installer-developers.md).
 
 ## <a name="result"></a>Résultats
 
@@ -68,7 +68,7 @@ ModuleExecuteSequence table.
 
 
 
-| Action  | Séquence | BaseAction | After | Condition |
+| Action  | Séquence | BaseAction | Après | Condition |
 |---------|----------|------------|-------|-----------|
 | Action2 |          | Action1    | 1     | true      |
 | Action3 |          |            |       | true      |
@@ -81,7 +81,7 @@ ModuleExecuteSequence table.
 
 
 
-| Action  | Séquence | BaseAction | After | Condition |
+| Action  | Séquence | BaseAction | Après | Condition |
 |---------|----------|------------|-------|-----------|
 | Action1 | 1        |            |       | true      |
 

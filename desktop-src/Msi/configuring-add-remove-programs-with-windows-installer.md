@@ -1,19 +1,19 @@
 ---
-description: Vous pouvez fournir toutes les informations nécessaires pour configurer ajout/suppression de programmes dans le panneau de configuration en définissant les valeurs de certaines propriétés du programme d’installation dans le package Windows Installer de votre application.
+description: vous pouvez fournir toutes les informations nécessaires pour configurer ajout/suppression de programmes dans le panneau de configuration en définissant les valeurs de certaines propriétés du programme d’installation dans le package Windows Installer de votre application.
 ms.assetid: 2eb00fe5-e441-4fce-9623-81a089269a2b
-title: Configuration de l’ajout/suppression de programmes avec Windows Installer
+title: configuration de l’ajout/suppression de programmes avec Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6850163e18af94aa9cceaf6c4bb2e8059dcf2121
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 99e1393eb586cfe1067840e4622fddd777a84512f55f9e82f7c9fad3b1f5688f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106531174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638748"
 ---
-# <a name="configuring-addremove-programs-with-windows-installer"></a>Configuration de l’ajout/suppression de programmes avec Windows Installer
+# <a name="configuring-addremove-programs-with-windows-installer"></a>configuration de l’ajout/suppression de programmes avec Windows Installer
 
-Vous pouvez fournir toutes les informations nécessaires pour configurer ajout/suppression de programmes dans le panneau de configuration en définissant les valeurs de certaines propriétés du programme d’installation dans le package Windows Installer de votre application. La définition de ces propriétés écrit automatiquement les valeurs correspondantes dans le registre. Si le programme d’installation détecte que le produit est marqué pour une suppression complète, les opérations sont automatiquement ajoutées au script pour supprimer le dossier ajout/suppression de programmes dans les informations du panneau de configuration du produit.
+vous pouvez fournir toutes les informations nécessaires pour configurer ajout/suppression de programmes dans le panneau de configuration en définissant les valeurs de certaines propriétés du programme d’installation dans le package Windows Installer de votre application. La définition de ces propriétés écrit automatiquement les valeurs correspondantes dans le registre. Si le programme d’installation détecte que le produit est marqué pour une suppression complète, les opérations sont automatiquement ajoutées au script pour supprimer le dossier ajout/suppression de programmes dans les informations du panneau de configuration du produit.
 
 Si une application n’est pas inscrite, elle n’est pas répertoriée dans Ajout/suppression de programmes dans le panneau de configuration. Pour plus d’informations, consultez [Ajout et suppression d’une application et conservation d’aucune trace dans le registre](adding-and-removing-an-application-and-leaving-no-trace-in-the-registry.md).
 
@@ -63,7 +63,7 @@ Le programme d’installation utilise les [propriétés publiques](public-proper
 <td><a href="arpnomodify.md"><strong>ARPNOMODIFY</strong></a></td>
 <td>Empêche l’affichage d’un bouton modifier pour le produit dans Ajout/suppression de programmes dans le panneau de configuration.
 <blockquote>
-<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. La Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
+<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. la Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
 </blockquote>
 <br/></td>
 </tr>
@@ -71,7 +71,7 @@ Le programme d’installation utilise les [propriétés publiques](public-proper
 <td><a href="arpnoremove.md"><strong>ARPNOREMOVE</strong></a></td>
 <td>Empêche l’affichage d’un bouton Supprimer pour le produit dans Ajout/suppression de programmes dans le panneau de configuration. Le produit peut toujours être supprimé en sélectionnant le bouton modifier si le package d’installation a été créé avec une interface utilisateur qui permet de supprimer le produit en tant qu’option.
 <blockquote>
-<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. La Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
+<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. la Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
 </blockquote>
 <br/></td>
 </tr>
@@ -79,7 +79,7 @@ Le programme d’installation utilise les [propriétés publiques](public-proper
 <td><a href="arpnorepair.md"><strong>ARPNOREPAIR</strong></a></td>
 <td>Désactive le bouton réparer dans Ajout/suppression de programmes dans le panneau de configuration.
 <blockquote>
-<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. La Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
+<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. la Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
 </blockquote>
 <br/></td>
 </tr>
@@ -99,7 +99,7 @@ Le programme d’installation utilise les [propriétés publiques](public-proper
 <td><a href="arpsystemcomponent.md"><strong>ARPSYSTEMCOMPONENT</strong></a></td>
 <td>Empêche l’affichage de l’application dans la liste des programmes du panneau de configuration Ajout/suppression de programmes.
 <blockquote>
-<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. La Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
+<b>Remarque :</b> Cela affecte uniquement l’affichage dans le protocole ARP. la Windows Installer peut toujours réparer, installer à la demande et désinstaller des applications via une ligne de commande ou l’interface de programmation.
 </blockquote>
 <br/></td>
 </tr>

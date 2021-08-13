@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 65021c32aa2fef11102c4686b278b67bd0341254
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e6e2d7829609617ca507873a0b9bb9958cee017db7372b699657055b97e616ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683392"
 ---
 # <a name="ms-ds-phonetic-first-name-attribute"></a>attribut ms-DS-Phonetic-First-Name
 
@@ -42,7 +42,7 @@ Contient le nom phonétique donné ou le prénom de la personne.
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | Faux                                                              |
-| Est de valeur unique       | Vrai                                                               |
-| Est indexé             | Vrai                                                               |
-| Dans le catalogue global      | Vrai                                                               |
+| System-Only            | False                                                              |
+| Est de valeur unique       | True                                                               |
+| Est indexé             | True                                                               |
+| Dans le catalogue global      | True                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |
@@ -75,10 +75,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | Faux                                                              |
-| Est de valeur unique       | Vrai                                                               |
-| Est indexé             | Vrai                                                               |
-| Dans le catalogue global      | Vrai                                                               |
+| System-Only            | False                                                              |
+| Est de valeur unique       | True                                                               |
+| Est indexé             | True                                                               |
+| Dans le catalogue global      | True                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |
@@ -96,10 +96,10 @@ Contient le nom phonétique donné ou le prénom de la personne.
 |------------------------|--------------------------------------------------------------------|
 | ID de lien                | \-                                                                 |
 | MAPI-Id                | 0x8C8E                                                             |
-| System-Only            | Faux                                                              |
-| Est de valeur unique       | Vrai                                                               |
-| Est indexé             | Vrai                                                               |
-| Dans le catalogue global      | Vrai                                                               |
+| System-Only            | False                                                              |
+| Est de valeur unique       | True                                                               |
+| Est indexé             | True                                                               |
+| Dans le catalogue global      | True                                                               |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                       |
 | Range-Lower            | 1                                                                  |
 | Range-Upper            | 64                                                                 |

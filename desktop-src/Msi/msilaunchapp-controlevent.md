@@ -1,21 +1,21 @@
 ---
-description: Cet événement de contrôle exécute un fichier spécifié. Si le fichier n’existe pas ou si l’événement échoue, Windows Installer journalise l’erreur dans le journal détaillé sans afficher de boîte de dialogue contenant un message d’erreur.
+description: Cet événement de contrôle exécute un fichier spécifié. si le fichier n’existe pas ou si l’événement échoue, Windows Installer journalise l’erreur dans le journal détaillé sans afficher de boîte de dialogue contenant un message d’erreur.
 ms.assetid: a185c5a1-6584-4916-967a-313e6b7cf97c
 title: MsiLaunchApp ControlEvent,
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 298867868a80eb2cb831a2304325d14355adc669
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 982152d58748ba8b1b8f9d302766e1e9c55eb2ee3c9fa0ce7582507c017dc9b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627787"
 ---
 # <a name="msilaunchapp-controlevent"></a>MsiLaunchApp ControlEvent,
 
-Cet événement de contrôle exécute un fichier spécifié. Si le fichier n’existe pas ou si l’événement échoue, Windows Installer journalise l’erreur dans le journal détaillé sans afficher de boîte de dialogue contenant un message d’erreur.
+Cet événement de contrôle exécute un fichier spécifié. si le fichier n’existe pas ou si l’événement échoue, Windows Installer journalise l’erreur dans le journal détaillé sans afficher de boîte de dialogue contenant un message d’erreur.
 
-**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. Ce ControlEvent, est disponible à partir de Windows Installer 5,0.
+**[Windows Installer 4,5 ou version antérieure](not-supported-in-windows-installer-4-5.md):** Non pris en charge. ce controlevent, est disponible à partir de Windows Installer 5,0.
 
 ## <a name="published-by"></a>Publié par
 

@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a9746356744f2743a8d6656ef4c61044223be113
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04bb39e0c3ecb73facf09e962d2d189bd6ac59449908c0ed9e0214aa5551595e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104393423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644816"
 ---
 # <a name="msvm_virtualsystemcollection-class"></a>MSVM \_ VirtualSystemCollection, classe
 
@@ -107,7 +107,7 @@ Type d'accès : Lecture seule
 Type de basculement effectué pour la collection de systèmes virtuels.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -148,7 +148,7 @@ Type d'accès : Lecture seule
 Niveau de cohérence du dernier Delta appliqué.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -208,7 +208,7 @@ Type d'accès : Lecture seule
 Heure à laquelle la dernière réplication est appliquée lors de la récupération de la collection de systèmes virtuels.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -226,7 +226,7 @@ Type d'accès : Lecture seule
 Tableau d’ID d’ordinateur virtuel qui ont été correctement appliqués lors du dernier cycle d’application.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -244,7 +244,7 @@ Type d'accès : Lecture seule
 Type de réplication pour la collection de systèmes virtuels.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -292,7 +292,7 @@ Type d'accès : Lecture seule
 État de réplication pour la collection de systèmes virtuels.
 
 > [!Note]  
-> Ajouté dans Windows 10, version 1703.
+> ajouté dans Windows 10, version 1703.
 
  
 
@@ -425,7 +425,7 @@ Type d'accès : Lecture seule
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                             |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                             |
 | Serveur minimal pris en charge<br/> | Windows Server 2016<br/>                                                                          |
 | Espace de noms<br/>                | \\Virtualisation racine \\ v2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization. v2. mof</dt> </dl> |

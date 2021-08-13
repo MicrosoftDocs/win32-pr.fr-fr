@@ -1,7 +1,7 @@
 ---
 description: La propriété FileAttributes de l’objet installer retourne un nombre qui représente les attributs de fichier combinés pour le chemin d’accès désigné à un fichier ou un dossier.
 ms.assetid: a09ac346-4e4d-440f-bfbe-ff8fb3f69823
-title: Installer. FileAttributes, propriété (Windows. Storage. h)
+title: Installer. FileAttributes, propriété (Windows. storage. h)
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e9a4d2b956c7d325fabcda7d6950274249120a0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fe43028d856ca26b1c5e8fa21a88a3b77381670ccc044a79f10d3b922f38c21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630912"
 ---
 # <a name="installerfileattributes-property"></a>Installer. FileAttributes, propriété
 
@@ -39,7 +39,7 @@ propVal = Installer.FileAttributes
 
 Chemin d’accès au fichier ou dossier requis. Un chemin d’accès partiel suppose le répertoire actif.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La propriété **FileAttributes** retourne les valeurs suivantes.
 
@@ -68,7 +68,7 @@ Retourne – 1 si le fichier ou le dossier n’existe pas ou n’est pas accessi
 | Condition requise | Valeur |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Version<br/> | Windows Installer 5,0 sur Windows Server 2012, Windows 8, Windows Server 2008 R2 ou Windows 7. Windows Installer 4,0 ou Windows Installer 4,5 sur Windows Server 2008 ou Windows Vista. Windows Installer sur Windows Server 2003 ou Windows XP<br/> |
-| En-tête<br/>  | <dl> <dt>Windows. Storage. h</dt> </dl>                                                                                                                                                            |
+| En-tête<br/>  | <dl> <dt>Windows. storage. h</dt> </dl>                                                                                                                                                            |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IInstaller est défini en tant que 000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

@@ -1,19 +1,19 @@
 ---
-description: Les événements Windows offrent un moyen centralisé standard pour les applications (et le système d’exploitation) d’enregistrer des événements logiciels et matériels importants.
+description: Windows Les événements offrent un moyen centralisé et standard pour les applications (et le système d’exploitation) d’enregistrer des événements logiciels et matériels importants.
 ms.assetid: 1f28cbce-b759-4293-8af2-15f86f23228c
-title: Journalisation des événements (Windows Installer)
+title: journalisation des événements (Windows Installer)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce7fdaf29ec0c638d3c85b82c74cca2bbede63c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 08c1aa4808727a220ec104cb3e7bfdff2741dcb2366ca1468288a082baab813b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103755629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636923"
 ---
-# <a name="event-logging-windows-installer"></a>Journalisation des événements (Windows Installer)
+# <a name="event-logging-windows-installer"></a>journalisation des événements (Windows Installer)
 
-Les [événements Windows](../events/windows-events.md) offrent un moyen centralisé standard pour les applications (et le système d’exploitation) d’enregistrer des événements logiciels et matériels importants. Le service de journalisation des événements stocke les événements de diverses sources dans une collection unique appelée *Journal des événements*. Avant Windows Vista, vous utiliseriez l' [suivi d’v nements pour Windows](../etw/event-tracing-portal.md) (ETW) ou la [journalisation des événements](../eventlog/event-logging.md) pour consigner les événements. Windows Vista a introduit un nouveau modèle d’événement qui unifie à la fois ETW et l’API du [Journal des événements Windows](../wes/windows-event-log.md) .
+les [événements de Windows](../events/windows-events.md) offrent un moyen centralisé et standard pour les applications (et le système d’exploitation) d’enregistrer des événements logiciels et matériels importants. Le service de journalisation des événements stocke les événements de diverses sources dans une collection unique appelée *Journal des événements*. avant Windows Vista, vous utiliseriez [Suivi d’v nements pour Windows](../etw/event-tracing-portal.md) (ETW) ou la [journalisation des événements](../eventlog/event-logging.md) pour consigner les événements. Windows Vista a introduit un nouveau modèle d’événement qui unifie à la fois ETW et l’API du [journal des événements Windows](../wes/windows-event-log.md) .
 
 Le programme d’installation écrit également des entrées dans le journal des événements. Ces événements d’enregistrement, tels que les suivants :
 
@@ -25,7 +25,7 @@ Si une grande quantité d’informations est écrite, le fichier journal des év
 
 Le programme d’installation peut écrire les entrées suivantes dans le journal des événements. Tous les messages du journal des événements ont un ID d’événement unique. Toutes les erreurs générales créées dans la [table d’erreurs](error-table.md) et retournées pour une installation qui échouent sont consignées dans le journal des événements d’application avec un ID de message égal à l’erreur + 10 000. Par exemple, le numéro d’erreur dans la table d’erreurs pour une installation effectuée avec succès est 1707. La réussite de l’installation est consignée dans le journal des événements de l’application avec l’ID de message 11707 (1707 + 10 000).
 
-Pour plus d’informations sur l’activation de la journalisation documentée sur l’ordinateur d’un utilisateur lors de la résolution des problèmes de déploiement, consultez [Windows Installer meilleures pratiques](windows-installer-best-practices.md).
+pour plus d’informations sur l’activation de la journalisation documentée sur l’ordinateur d’un utilisateur lors de la résolution des problèmes de déploiement, consultez [Windows Installer meilleures pratiques](windows-installer-best-practices.md).
 
 
 
@@ -34,7 +34,7 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 <tr class="header">
 <th>ID de l’événement</th>
 <th>Message</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -55,7 +55,7 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="even">
 <td>1004</td>
-<td>Échec de la détection du produit « %1 », fonctionnalité « %2 », composant « %3 » <strong>. Remarque :</strong> à partir de Windows Installer version 2,0, ce message est : échec de la détection du produit « %1 », de la fonctionnalité « %2 », du composant « %3 ». La ressource' %4 'n’existe pas.<br/></td>
+<td>échec de la détection du produit « %1 », fonctionnalité « %2 », composant « %3 » <strong>. remarque :</strong> à partir de Windows Installer version 2,0, ce message est : échec de la détection du produit « %1 », de la fonctionnalité « %2 », du composant « %3 ». La ressource' %4 'n’existe pas.<br/></td>
 <td>Un message d’avertissement. Voir aussi <a href="searching-for-a-broken-feature-or-component.md">recherche d’une fonctionnalité ou d’un composant endommagé</a>.</td>
 </tr>
 <tr class="odd">
@@ -70,7 +70,7 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="odd">
 <td>1007</td>
-<td>L’installation de %1 n’est pas autorisée par la stratégie de restriction logicielle. Le Windows Installer autorise uniquement l’exécution d’éléments non restreints. Le niveau d’autorisation renvoyé par la stratégie de restriction logicielle était de %2.</td>
+<td>L’installation de %1 n’est pas autorisée par la stratégie de restriction logicielle. le Windows Installer autorise uniquement l’exécution d’éléments non restreints. Le niveau d’autorisation renvoyé par la stratégie de restriction logicielle était de %2.</td>
 <td>Message d’erreur indiquant que l’administrateur a configuré une stratégie de restriction logicielle pour interdire cette installation.</td>
 </tr>
 <tr class="even">
@@ -80,7 +80,7 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="odd">
 <td>1012</td>
-<td>Cette version de Windows ne prend pas en charge le déploiement de packages 64 bits. Le script « %1 » est destiné à un package 64 bits.</td>
+<td>cette version de Windows ne prend pas en charge le déploiement de packages 64 bits. Le script « %1 » est destiné à un package 64 bits.</td>
 <td>Message d’erreur indiquant que les scripts des packages 64 bits peuvent uniquement être exécutés sur un ordinateur 64 bits.</td>
 </tr>
 <tr class="even">
@@ -90,7 +90,7 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="odd">
 <td>1014</td>
-<td>Les informations du proxy de Windows Installer ne sont pas inscrites correctement</td>
+<td>Windows Les informations du proxy du programme d’installation ne sont pas inscrites correctement</td>
 <td>Message d’erreur indiquant que les informations de proxy n’ont pas été inscrites correctement.</td>
 </tr>
 <tr class="even">
@@ -150,18 +150,18 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="odd">
 <td>1026</td>
-<td>Windows Installer a déterminé que sa clé de registre de données de configuration n’était pas correctement sécurisée. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. La clé existante sera supprimée et recréée avec les paramètres de sécurité appropriés.</td>
+<td>Windows Le programme d’installation a déterminé que sa clé de registre de données de configuration n’était pas correctement sécurisée. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. La clé existante sera supprimée et recréée avec les paramètres de sécurité appropriés.</td>
 <td>Message d’avertissement. <strong> <a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> Non disponible.<br/></td>
 </tr>
 <tr class="even">
 <td>1027</td>
-<td>Windows Installer a déterminé qu’une sous-clé de Registre %1 dans ses données de configuration n’a pas été correctement sécurisée. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. La sous-clé existante et tout son contenu seront supprimés.</td>
+<td>Windows Le programme d’installation a déterminé qu’une sous-clé de Registre %1 dans ses données de configuration n’a pas été correctement sécurisée. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. La sous-clé existante et tout son contenu seront supprimés.</td>
 <td>Message d’avertissement. <strong> <a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> Non disponible.<br/></td>
 </tr>
 <tr class="odd">
 <td>1028</td>
-<td>Windows Installer a déterminé que son dossier de cache des données de configuration n’a pas été correctement sécurisé. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. Le dossier existant sera supprimé et recréé avec les paramètres de sécurité appropriés.</td>
-<td>Message d’avertissement<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> non disponible.<br/></td>
+<td>Windows Le programme d’installation a déterminé que son dossier de cache de données de configuration n’a pas été correctement sécurisé. Le propriétaire de la clé doit être un système local ou Builtin\administrateurs. Le dossier existant sera supprimé et recréé avec les paramètres de sécurité appropriés.</td>
+<td>message d’avertissement<strong><a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> non disponible.<br/></td>
 </tr>
 <tr class="even">
 <td>1029</td>
@@ -170,8 +170,8 @@ Pour plus d’informations sur l’activation de la journalisation documentée s
 </tr>
 <tr class="odd">
 <td>1030</td>
-<td>Produit : %1. L’application a essayé d’installer une version plus récente du fichier Windows protégé %2. Vous devrez peut-être mettre à jour votre système d’exploitation pour que cette application fonctionne correctement. (Version du package : %3, version protégée du système d’exploitation : %4).</td>
-<td>Message d’avertissement indiquant que l’installation a tenté de remplacer un fichier critique protégé par <a href="windows-resource-protection-on-windows-vista.md">protection des ressources Windows</a>. Une mise à jour du système d’exploitation peut être nécessaire pour utiliser cette application. <strong> <a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> Non disponible.<br/></td>
+<td>Produit : %1. l’application a essayé d’installer une version plus récente du fichier Windows protégé %2. Vous devrez peut-être mettre à jour votre système d’exploitation pour que cette application fonctionne correctement. (Version du package : %3, version protégée du système d’exploitation : %4).</td>
+<td>message d’avertissement indiquant que l’installation a tenté de remplacer un fichier critique protégé par <a href="windows-resource-protection-on-windows-vista.md">Protection des ressources Windows</a>. Une mise à jour du système d’exploitation peut être nécessaire pour utiliser cette application. <strong> <a href="not-supported-in-windows-installer-version-3-1.md">Windows Installer 3,1 et versions antérieures</a>:</strong> Non disponible.<br/></td>
 </tr>
 <tr class="even">
 <td>1031</td>

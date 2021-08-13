@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e09f2cf97f8edb86ad831cff35420fad9a07d76
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643777"
 ---
 # <a name="system-switch"></a>/<system> Utilisez
 
@@ -54,7 +54,7 @@ Windows 2000, Windows XP, Windows Vista, Windows 7
 
 </dt> <dd>
 
-Environnement Windows 64 bits basé sur Intel, tel que Windows 2000, Windows Server 2003, Windows XP Professionnel Édition x64, Windows Vista ou Windows 7.
+un environnement de Windows Intel 64 bits, tel que Windows 2000, Windows Server 2003, Windows XP Professional édition x64, Windows Vista ou Windows 7.
 
 </dd> <dt>
 
@@ -65,11 +65,11 @@ Environnement Windows 64 bits basé sur Intel, tel que Windows 2000, Windows Ser
 
 </dt> <dd>
 
-Un environnement Windows 64 bits basé sur des micro-appareils américain, tel que Windows 2000, Windows Server 2003, Windows XP Professionnel Édition x64, Windows Vista ou Windows 7.
+un environnement de Windows 64 bits basé sur des Micro-appareils américain, tel que Windows 2000, Windows Server 2003, Windows XP Professional édition x64, Windows Vista ou Windows 7.
 
 </dd> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le **/<system>** commutateur est fonctionnellement identique à l’option de MIDL [**/env**](-env.md) et est reconnu par le compilateur MIDL uniquement pour la compatibilité descendante avec mktyplib. Si vous générez un nouveau Makefile, utilisez le commutateur **/env** .
 
@@ -87,9 +87,9 @@ Le **/<system>** commutateur est fonctionnellement identique à l’option de MI
 [**/env**](-env.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

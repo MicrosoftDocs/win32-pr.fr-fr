@@ -4,19 +4,19 @@ description: Un contrôle Slider, également appelé contrôle TrackBar, permet 
 ms.assetid: 8df4ed1d-d63c-49d7-94f1-df2113643484
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b03c39d6638557b9dfff90740132d3e22a7e2511
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c23d92799a8a644d5e5e00c695d628cb827ba60f73cc3a0d7b7f5dc505a6c2c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564427"
 ---
 # <a name="slider-control-msaa-ui-element-reference"></a>Slider, contrôle (référence des éléments d’interface utilisateur MSAA)
 
 > [!Note]  
 > Cette rubrique décrit les objets de **contrôle Slider** à des fins de référence des éléments d’interface utilisateur MSAA. La création d’objets de **contrôle Slider** dans différentes infrastructures d’interface utilisateur n’est pas décrite ici. Consultez la documentation de référence sur les API pour l’infrastructure d’interface utilisateur que vous utilisez.
 
- 
+ 
 
 Un contrôle Slider, également appelé contrôle TrackBar, permet à un utilisateur de sélectionner une plage de valeurs en déplaçant un curseur. Les contrôles de volume dans le système d'exploitation Windows sont des contrôles Slider.
 
@@ -63,7 +63,7 @@ Un contrôle Slider prend en charge les propriétés [**IAccessible**](/windows/
 
     
 
-     
+     
 
     Les parties d’un curseur horizontal portent les noms suivants :
 
@@ -78,7 +78,7 @@ Un contrôle Slider prend en charge les propriétés [**IAccessible**](/windows/
 
     
 
-     
+     
 
 -   [**Obtient \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent): la propriété **parente** des boutons fléchés, Scroll Thumb et la zone ombrée de chaque côté du curseur de défilement est la fenêtre de curseur. La propriété **parent** de la fenêtre de curseur est une fenêtre ( [**\_ \_ fenêtre système de rôle**](object-roles.md) ) qui entoure le contrôle et qui a les mêmes nom de propriété de **nom** et de classe de fenêtre.
 -   [**Obtient \_ accRole**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accrole): la propriété **role** dépend de la partie du curseur interrogée. 
@@ -91,7 +91,7 @@ Un contrôle Slider prend en charge les propriétés [**IAccessible**](/windows/
 
     
 
-     
+     
 
 -   [**obtenir \_ accState**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accstate): les [valeurs](object-state-constants.md) de la propriété **State** dépendent de la partie du curseur interrogée. 
 
@@ -103,7 +103,7 @@ Un contrôle Slider prend en charge les propriétés [**IAccessible**](/windows/
 
     
 
-     
+     
 
 -   [**obtenir \_ accValue**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accvalue): la propriété **value** de la fenêtre Slider indique la position du curseur et est une chaîne qui contient un entier compris entre « 0 » et « 100 ».
 
@@ -117,9 +117,9 @@ Un contrôle Slider prend en charge les propriétés [**IAccessible**](/windows/
 [**Barre de défilement**](scroll-bar.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

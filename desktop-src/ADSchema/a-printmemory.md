@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 11845e36a38e453cf7db450261f8ca9d977e03fb
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: af60e9768c29a8a8e8d19d2645db2990a26ea46c1c921a4911f23ef6fd30df4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118682187"
 ---
 # <a name="print-memory-attribute"></a>Attribut Print-Memory
 
@@ -36,7 +36,7 @@ Quantité de mémoire installée dans une imprimante.
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.282               |
 | System-ID-GUID    | ba305f74-47e3-11d0-a1a6-00c04fd930c9 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -45,7 +45,7 @@ Quantité de mémoire installée dans une imprimante.
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Faux                                          |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | False                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -78,10 +78,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -99,10 +99,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -120,10 +120,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -141,10 +141,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |
@@ -162,10 +162,10 @@ Quantité de mémoire installée dans une imprimante.
 |------------------------|------------------------------------------------|
 | ID de lien                | \-                                             |
 | MAPI-Id                | \-                                             |
-| System-Only            | Faux                                          |
-| Est de valeur unique       | Vrai                                           |
-| Est indexé             | Faux                                          |
-| Dans le catalogue global      | Vrai                                           |
+| System-Only            | False                                          |
+| Est de valeur unique       | True                                           |
+| Est indexé             | False                                          |
+| Dans le catalogue global      | True                                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                   |
 | Range-Lower            | \-                                             |
 | Range-Upper            | \-                                             |

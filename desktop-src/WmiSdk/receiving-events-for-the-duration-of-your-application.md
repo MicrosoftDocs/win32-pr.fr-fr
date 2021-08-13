@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Réception d’événements pendant la durée de votre application
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fd6b9731dd662a92296a86910a6cf8cb231cca1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6815c2ddd7725ccd12dd65b0047874ddce1038b2a2c07f90a40d6f87e6af3a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554217"
 ---
 # <a name="receiving-events-for-the-duration-of-your-application"></a>Réception d’événements pendant la durée de votre application
 

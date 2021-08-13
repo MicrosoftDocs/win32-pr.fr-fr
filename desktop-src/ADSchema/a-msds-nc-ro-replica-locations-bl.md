@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a88f0d811a36d3fe81f0edc9427ef0f2263ace5d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5ce4ee6b4353893b647705f475b5375e25bcb56599230a8e294c5d2c808157fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684523"
 ---
 # <a name="ms-ds-nc-ro-replica-locations-bl-attribute"></a>attribut ms-DS-NC-RO-Replica-Locations-BL
 
@@ -42,7 +42,7 @@ Attribut de lien ascendant pour [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Attribut de lien ascendant pour [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro
 |------------------------|---------------------------------|
 | ID de lien                | 2115                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -75,10 +75,10 @@ Attribut de lien ascendant pour [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro
 |------------------------|---------------------------------|
 | ID de lien                | 2115                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |
@@ -96,10 +96,10 @@ Attribut de lien ascendant pour [**ms-DS-NC-RO-Replica-Locations**](a-msds-nc-ro
 |------------------------|---------------------------------|
 | ID de lien                | 2115                            |
 | MAPI-Id                | \-                              |
-| System-Only            | Faux                           |
-| Est de valeur unique       | Faux                           |
-| Est indexé             | Faux                           |
-| Dans le catalogue global      | Faux                           |
+| System-Only            | False                           |
+| Est de valeur unique       | False                           |
+| Est indexé             | False                           |
+| Dans le catalogue global      | False                           |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                    |
 | Range-Lower            | \-                              |
 | Range-Upper            | \-                              |

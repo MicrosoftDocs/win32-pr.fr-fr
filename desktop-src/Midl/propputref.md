@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ead5ccf7f9dc6a59580b7c3e3576f3c7503ccafc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 97e80b0baa4f78537142043b374c206ade0f3d51d7ca30c2f57e1c4ae4e9b695
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641962"
 ---
 # <a name="propputref-attribute"></a>propputref (attribut)
 
@@ -45,7 +45,7 @@ Type des données retournées par la procédure distante.
 
 </dd> <dt>
 
-*nom de fonction* 
+*function-name* 
 </dt> <dd>
 
 Nom de la procédure distante.
@@ -59,7 +59,7 @@ Zéro, un ou plusieurs paramètres à la procédure distante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fonction qui a l’attribut **\[ PROPPUTREF \]** doit également avoir, en tant que dernier paramètre, un pointeur qui a l' **\[** attribut [**in**](in.md) **\]** .
 
@@ -90,7 +90,7 @@ interface InMyFace : IDispatch
 [Génération d’une bibliothèque de types avec MIDL](generating-a-type-library-with-midl-2.md)
 </dt> <dt>
 
-[**in**](in.md)
+[**dans**](in.md)
 </dt> <dt>
 
 [Exemple de fichier ODL](/previous-versions/windows/desktop/automat/odl-file-example)
@@ -108,6 +108,6 @@ interface InMyFace : IDispatch
 [**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

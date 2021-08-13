@@ -1,5 +1,5 @@
 ---
-description: La méthode OpenModule de l’objet Merge ouvre un module de fusion Windows Installer en mode lecture seule. Vous devez ouvrir un module avant de pouvoir le fusionner avec une base de données d’installation.
+description: la méthode OpenModule de l’objet merge ouvre un module de fusion Windows Installer en mode lecture seule. Vous devez ouvrir un module avant de pouvoir le fusionner avec une base de données d’installation.
 ms.assetid: fc976899-2c39-4314-b2fb-417e0dfc53b9
 title: Merge. OpenModule, méthode (Mergemod. h)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 9d83a9331c91817f70c49ecf74c7171c5e627be6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4659fbd2c96d883b04e653fc67c6aa3017f16135405f956bf9b4eb78101bb404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106534934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628725"
 ---
 # <a name="mergeopenmodule-method"></a>Merge. OpenModule, méthode
 
-La méthode **OpenModule** de l’objet [**Merge**](merge-object.md) ouvre un module de fusion Windows Installer en mode lecture seule. Vous devez ouvrir un module avant de pouvoir le fusionner avec une base de données d’installation.
+la méthode **OpenModule** de l’objet [**merge**](merge-object.md) ouvre un module de fusion Windows Installer en mode lecture seule. Vous devez ouvrir un module avant de pouvoir le fusionner avec une base de données d’installation.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -59,7 +59,7 @@ Identificateur de langue valide (LANGID).
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction ouvre le module de fusion en mode lecture seule et exclut l’écriture d’autres programmes dans le module de fusion jusqu’à ce que la méthode [**CloseModule**](merge-closemodule.md) soit appelée.
 

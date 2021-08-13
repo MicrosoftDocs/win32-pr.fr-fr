@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f747f108bb6c7e42e90a0ff8503ec59a83c59699
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e00c3ccc43e2583ce8664e62967a22f753148cfa271dd1995e2374c2bfa53c71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106521640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658243"
 ---
 # <a name="cbasewindowactivatewindow-method"></a>Méthode CBaseWindow. ActivateWindow
 
@@ -49,13 +49,13 @@ Retourne l’une des valeurs **HRESULT** indiquées dans le tableau suivant.
 | Code de retour                                                                             | Description                              |
 |-----------------------------------------------------------------------------------------|------------------------------------------|
 | <dl> <dt>**S \_ false**</dt> </dl> | La fenêtre a déjà été activée.<br/> |
-| <dl> <dt>**\_OK**</dt> </dl>    | Opération réussie.<br/>                      |
+| <dl> <dt>**\_OK**</dt> </dl>    | Réussite.<br/>                      |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode appelle la méthode [**CBaseWindow :: GetDefaultRect**](cbasewindow-getdefaultrect.md) pour déterminer la taille de la fenêtre. La classe dérivée doit substituer **GetDefaultRect** pour retourner la taille des images qui seront affichées.
 
@@ -67,7 +67,7 @@ Si la fenêtre est déjà active, l’appel `ActivateWindow` de déplace la fen�
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Winutil. h (include streams. h)</dt> </dl>                                                                                   |
+| En-tête<br/>  | <dl> <dt>Winutil. h (inclure Flux. h)</dt> </dl>                                                                                   |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

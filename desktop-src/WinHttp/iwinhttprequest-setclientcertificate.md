@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 0b346451e87b62116d7202b476e554c84604ea48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f878b93fe0db24334f406c2a6c85663e7f37a05095998f157cbf44878b39daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562895"
 ---
 # <a name="iwinhttprequestsetclientcertificate-method"></a>IWinHttpRequest :: SetClientCertificate, méthode
 
@@ -51,7 +51,7 @@ Spécifie l’emplacement, le [*magasin de certificats*](glossary.md)et l’obje
 
 La valeur de retour est **S \_ OK** en cas de réussite ou une valeur d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La chaîne spécifiée dans le paramètre *ClientCertificate* se compose de l’emplacement du certificat, du magasin de certificats et du nom d’objet délimités par des barres obliques inverses. Pour plus d’informations sur les composants de la chaîne de certificat, consultez [certificats clients](ssl-in-winhttp.md).
 
@@ -59,16 +59,16 @@ Le nom et l’emplacement du magasin de certificats sont facultatifs. Toutefois,
 
 Appelez **SetClientCertificate** pour sélectionner un certificat avant d’appeler [**Send**](iwinhttprequest-send.md) pour envoyer la demande.
 
-Les services HTTP Microsoft Windows (WinHTTP) ne fournissent pas de certificats clients aux serveurs proxy qui demandent des certificats pour l’authentification.
+Microsoft Windows HTTP Services (WinHTTP) ne fournit pas de certificats clients aux serveurs proxy qui demandent des certificats pour l’authentification.
 
 > [!Note]  
-> Pour Windows XP et Windows 2000, consultez la section [Configuration requise](winhttp-start-page.md) pour l’exécution de la page de démarrage de WinHTTP.
+> pour Windows XP et Windows 2000, consultez la section [configuration requise](winhttp-start-page.md) pour l’exécution de la Page de démarrage de WinHTTP.
 
  
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de script suivant montre comment sélectionner un certificat client à envoyer avec une demande. Un certificat avec le sujet « My Middle-Tier Certificate » est choisi dans le magasin de certificats « personnel » dans le Registre sous **HKEY \_ local \_ machine**. Étant donné que cet exemple de code est spécifique à Microsoft JScript, qui utilise la barre oblique inverse comme caractère d’échappement, deux barres obliques inverses contiguës sont nécessaires pour délimiter les composants de la chaîne de certificat.
+L’exemple de script suivant montre comment sélectionner un certificat client à envoyer avec une demande. Un certificat avec le sujet « My Middle-Tier Certificate » est choisi dans le magasin de certificats « personnel » dans le Registre sous **HKEY \_ local \_ machine**. étant donné que cet exemple de code est spécifique à Microsoft JScript, qui utilise la barre oblique inverse comme caractère d’échappement, deux barres obliques inverses contiguës sont nécessaires pour délimiter les composants de la chaîne de certificat.
 
 
 ```JScript
@@ -94,8 +94,8 @@ HttpReq.Send();
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professionnel avec les \[ applications de bureau SP3 uniquement\]<br/>            |
-| Serveur minimal pris en charge<br/> | Windows Server 2003, Windows 2000 Server avec les \[ applications de bureau SP3 uniquement\]<br/>         |
+| Client minimal pris en charge<br/> | Windows XP, Windows 2000 Professional avec les \[ applications de bureau SP3 uniquement\]<br/>            |
+| Serveur minimal pris en charge<br/> | Windows server 2003, Windows 2000 server avec des \[ applications de bureau SP3 uniquement\]<br/>         |
 | Composant redistribuable<br/>          | WinHTTP 5,0 et Internet Explorer 5,01 ou version ultérieure sur Windows XP et Windows 2000.<br/> |
 | MIDL<br/>                      | <dl> <dt>HttpRequest. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>WinHTTP. lib</dt> </dl>     |

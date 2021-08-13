@@ -3,7 +3,7 @@ title: Message TVM_GETTEXTCOLOR (commctrl. h)
 description: Récupère la couleur de texte actuelle du contrôle. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetTextColor TreeView.
 ms.assetid: fe1aa2e8-fdf2-48d1-936b-6d6bc8e589f4
 keywords:
-- TVM_GETTEXTCOLOR les contrôles de message Windows
+- TVM_GETTEXTCOLOR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 899fc68847fea937a6f62bff6367eeac5570a5a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 65a578753b6f86d2ceaa6a664fe6e6e0ff88475dccfb953ae6c6f652bc2dffbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669710"
 ---
 # <a name="tvm_gettextcolor-message"></a>TVM \_ GETTEXTCOLOR message
 
@@ -45,8 +45,8 @@ Retourne une valeur [**COLORREF**](/windows/desktop/gdi/colorref) qui représent
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

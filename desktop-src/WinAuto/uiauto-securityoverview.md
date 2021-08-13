@@ -1,6 +1,6 @@
 ---
 title: Considérations relatives à la sécurité pour les technologies d’assistance
-description: Les technologies d’assistance sont des applications qui s’exécutent sur le bureau Windows et aident les utilisateurs à interagir avec le système d’exploitation et d’autres applications qui s’exécutent sur l’ordinateur, y compris les applications dans la nouvelle interface utilisateur Windows.
+description: les technologies d’assistance sont des applications qui s’exécutent sur le bureau Windows et aident les utilisateurs à interagir avec le système d’exploitation et d’autres applications qui s’exécutent sur l’ordinateur, y compris les applications dans la nouvelle interface utilisateur de Windows.
 ms.assetid: 0c3689e1-2124-4142-b0bd-233e95ee1285
 f1_keywords:
 - vs.debug.error.launch_elevation_requirements
@@ -19,18 +19,18 @@ keywords:
 - sécurité, balise requestedExecutionLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f2f5cf006c0adaf9b170a4ed11abd9afd52012
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: f88ba97be98795be3725efaf76cf01297d7a00a2bb0112b0211581b3e0e4035f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "106512764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563962"
 ---
 # <a name="security-considerations-for-assistive-technologies"></a>Considérations relatives à la sécurité pour les technologies d’assistance
 
-Les technologies d’assistance sont des applications qui s’exécutent sur le bureau Windows et aident les utilisateurs à interagir avec le système d’exploitation et d’autres applications qui s’exécutent sur l’ordinateur, y compris les applications dans la nouvelle interface utilisateur Windows. Les applications de technologie d’assistance fonctionnent en récupérant des informations du système d’exploitation et d’autres applications, puis en présentant les informations d’une manière accessible à l’utilisateur. Une application de technologie d’assistance peut également « piloter » par programmation le système d’exploitation et d’autres applications en fonction de l’entrée de l’utilisateur.
+les technologies d’assistance sont des applications qui s’exécutent sur le bureau Windows et aident les utilisateurs à interagir avec le système d’exploitation et d’autres applications qui s’exécutent sur l’ordinateur, y compris les applications dans la nouvelle interface utilisateur de Windows. Les applications de technologie d’assistance fonctionnent en récupérant des informations du système d’exploitation et d’autres applications, puis en présentant les informations d’une manière accessible à l’utilisateur. Une application de technologie d’assistance peut également « piloter » par programmation le système d’exploitation et d’autres applications en fonction de l’entrée de l’utilisateur.
 
-La nature des applications de technologie d’assistance exige qu’elles intertraitent les limites et qu’elles aient accès à des processus qui s’exécutent à un niveau d’intégrité plus élevé (IL). (Une application de technologie d’assistance s’exécute au moyen du langage intermédiaire.) Par exemple, quand l’utilisateur tente d’effectuer une tâche qui requiert des privilèges d’administrateur, Windows affiche une boîte de dialogue demandant à l’utilisateur de donner son consentement pour continuer. Cette boîte de dialogue s’exécute à un IL plus élevé pour le protéger de la communication entre processus, afin que les logiciels malveillants ne puissent pas simuler l’entrée utilisateur. De même, l’écran d’ouverture de session de bureau s’exécute à un IL plus élevé pour l’empêcher d’être accessible à d’autres processus.
+La nature des applications de technologie d’assistance exige qu’elles intertraitent les limites et qu’elles aient accès à des processus qui s’exécutent à un niveau d’intégrité plus élevé (IL). (Une application de technologie d’assistance s’exécute au moyen du langage intermédiaire.) par exemple, lorsque l’utilisateur tente d’effectuer une tâche qui requiert des privilèges d’administrateur, Windows présente une boîte de dialogue demandant à l’utilisateur de continuer. Cette boîte de dialogue s’exécute à un IL plus élevé pour le protéger de la communication entre processus, afin que les logiciels malveillants ne puissent pas simuler l’entrée utilisateur. De même, l’écran d’ouverture de session de bureau s’exécute à un IL plus élevé pour l’empêcher d’être accessible à d’autres processus.
 
 Les applications de technologie d’assistance doivent généralement accéder aux éléments de l’interface utilisateur du système protégé, ou à d’autres processus qui peuvent s’exécuter à un niveau de privilège plus élevé. Par conséquent, les applications de technologie d’assistance doivent être approuvées par le système et doivent s’exécuter avec des privilèges spéciaux.
 
@@ -52,7 +52,7 @@ En plus d’avoir accès à des processus IL plus élevés, une application de t
 
 ## <a name="uiaccess-requirements-for-assistive-technology-applications"></a>Exigences UIAccess pour les applications de technologie d’assistance
 
-Une application de technologie d’assistance est une application de bureau Windows Windows qui interagit avec d’autres processus en cours d’exécution sur le bureau et dans la nouvelle interface utilisateur Windows pour obtenir des informations à partir du système et des applications. L’application de technologie d’assistance peut ensuite fournir les informations aux utilisateurs d’accessibilité.
+une application de technologie d’assistance est une application de bureau Windows Windows qui interagit avec d’autres processus en cours d’exécution sur le bureau et dans la nouvelle interface utilisateur de Windows pour obtenir des informations à partir du système et des applications. L’application de technologie d’assistance peut ensuite fournir les informations aux utilisateurs d’accessibilité.
 
 Une application de technologie d’assistance obtient l’accès à d’autres processus en définissant l’indicateur UIAccess dans le manifeste de l’application. Pour utiliser l’indicateur UIAccess, une application de technologie d’assistance doit remplir les conditions suivantes.
 
@@ -69,11 +69,11 @@ L’UIAccess ne doit pas être utilisé :
 
 -   Par les applications qui ne sont pas des technologies d’assistance.
 -   Par les applications de technologie d’assistance qui affichent des informations ou une interface utilisateur qui ne s’applique pas au scénario d’accessibilité qu’ils ciblent.
--   Par les applications qui souhaitent juste apparaître au-dessus d’autres applications dans la nouvelle interface utilisateur Windows.
+-   par les applications qui souhaitent juste apparaître au-dessus d’autres applications dans la nouvelle interface utilisateur du Windows.
     > [!Note]  
-    > Les applications développées pour la nouvelle interface utilisateur Windows n’ont pas UIAccess comme option disponible.
+    > les Applications développées pour la nouvelle Windows UI n’ont pas UIAccess comme option disponible.
 
-     
+     
 
 ## <a name="setting-uiaccess-in-the-application-manifest-file"></a>Définition de l’UIAccess dans le fichier manifeste de l’application
 
@@ -98,7 +98,7 @@ La valeur de l’attribut **Level** dans ce code est un exemple uniquement.
 
 L' **UIAccess** est « false » par défaut. Si l’attribut est omis ou s’il n’existe aucun manifeste, l’application ne peut pas accéder à l’interface utilisateur protégée.
 
-Pour plus d’informations sur la sécurité Windows, sur la signature des applications et sur la création de manifestes, consultez [Windows Vista et Windows Server 2008 Developer Story : Windows Vista Application Development Requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)) sur MSDN.
+pour plus d’informations sur la sécurité des Windows, sur la signature des applications et sur la création de manifestes, consultez [les Windows vista et Windows Server 2008 developer Story : Windows vista Application Development requirements for User Account Control (UAC)](/previous-versions/aa905330(v=msdn.10)) sur MSDN.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -107,6 +107,6 @@ Pour plus d’informations sur la sécurité Windows, sur la signature des appli
 [Notions de base d’UI Automation](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

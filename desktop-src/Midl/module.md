@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1eb310c3e126caf9b25b8c015b840aea11791d8
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3a83528a1ec632fcf2309438e6228220544a32408b310ea90260b8bcfda3cb6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642807"
 ---
 # <a name="module-attribute"></a>attribut de module
 
@@ -78,7 +78,7 @@ Si \[ [](optional.md) \] cette option est utilisée, les types de ces paramètre
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La sortie du fichier d’en-tête (. h) pour les modules est une série de prototypes de fonction. Le mot clé **module** et les crochets environnants sont supprimés de la sortie du fichier d’en-tête (. h), mais un commentaire (// *modulename* du **module** ) est inséré avant les prototypes. Le mot clé **extern** est inséré avant les déclarations.
 
@@ -141,7 +141,7 @@ module somemodule
 [**propputref**](propputref.md)
 </dt> <dt>
 
-[**chaîne**](string.md)
+[**string**](string.md)
 </dt> <dt>
 
 [**TYPEFLAGS**](/windows/win32/api/oaidl/ne-oaidl-typeflags)
@@ -156,6 +156,6 @@ module somemodule
 [**Version**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: Message IPM_ISBLANK (commctrl. h)
 description: Détermine si tous les champs du contrôle d’adresse IP sont vides.
 ms.assetid: 6e35b848-943a-4475-890a-01fc3d8ed97d
 keywords:
-- IPM_ISBLANK les contrôles de message Windows
+- IPM_ISBLANK les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19f5a33ee3c35779a02cdfcb0fcb7066098f3160
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ba95002e840d70bc6375f79610f93ae94442d52f0f543db00d91db6a53783d1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671695"
 ---
 # <a name="ipm_isblank-message"></a>\_Message IsBlank IPM
 
@@ -45,8 +45,8 @@ Retourne une valeur différente de zéro si tous les champs sont vides, ou zéro
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

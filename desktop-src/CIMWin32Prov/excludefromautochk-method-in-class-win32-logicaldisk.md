@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c41d93111742e975490d97169c7e9147ba5fb1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a37171c594cb3a51b131220bb604234bcae108fa025ea6343da99fdc998a7dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106512887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676127"
 ---
 # <a name="excludefromautochk-method-of-the-win32_logicaldisk-class"></a>Méthode ExcludeFromAutochk de la \_ classe disque logique Win32
 
@@ -72,7 +72,7 @@ Retourne la valeur 0 (zéro) quand aucune erreur ne se produit. Les valeurs sont
 **Erreur : lecteur inconnu** (4)
 </dt> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 S’il n’est pas exclu, **Autochk** est exécuté sur le disque lorsque le bit d’intégrité est défini pour le disque. Notez que les appels pour exclure des disques ne sont pas cumulatifs. Si un appel est effectué pour exclure certains disques, la nouvelle liste n’est pas ajoutée à la liste des disques déjà marqués pour l’exclusion. La nouvelle liste de disques remplace la liste précédente. Cette méthode s’applique uniquement aux instances de disque logique qui représentent un disque physique de l’ordinateur. Elle ne s’applique pas aux lecteurs logiques mappés.
 

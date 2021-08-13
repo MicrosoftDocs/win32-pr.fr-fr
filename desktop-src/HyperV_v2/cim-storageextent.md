@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a3dc1b58dd97582e229497e754d10c3f307eab76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce3126cf208032e4d43e9ce1866e1cd0ab42c17930684c98d4ad351de88713b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106543116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647367"
 ---
 # <a name="cim_storageextent-class-hyper-v-management"></a>Classe CIM_StorageExtent (gestion Hyper-V)
 
@@ -144,7 +144,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bytes"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Stockage hôte DMTF \| 001,4 « , » MIB. IETF \| Host-Resources-MIB. hrStorageAllocationUnits "," MIF. \|Périphériques de stockage DMTF \| 001,5 ")
+Qualificateurs : [**Units**](/windows/desktop/WmiSdk/standard-qualifiers) ("bytes"), [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|hôte DMTF Stockage \| 001,4», «MIB. IETF \| Host-Resources-MIB. hrStorageAllocationUnits "," MIF. \|appareils Stockage DMTF \| 001,5»)
 </dt> </dl>
 
 Taille, en octets, des blocs qui forment l’extension de stockage. Si les tailles de bloc variables sont utilisées, cette propriété doit spécifier la taille de bloc maximale. Si la taille de bloc est inconnue ou si un concept de bloc n’est pas valide (par exemple, pour la **\_ AggregateExtent CIM**, la [**\_ mémoire CIM**](cim-memory.md) ou le [**\_ disque logique CIM**](cim-logicaldisk.md)), cette propriété doit être définie sur « 1 » (inconnu).
@@ -658,7 +658,7 @@ Type de données : **UInt64**
 Type d'accès : Lecture seule
 </dt> <dt>
 
-Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|Stockage hôte DMTF \| 001,5 « , » MIB. \|Hôte IETF-ressources-MIB. hrStorageSize ")
+Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("MIF. \|hôte DMTF Stockage \| 001,5», «MIB. \|Hôte IETF-ressources-MIB. hrStorageSize ")
 </dt> </dl>
 
 Nombre total de blocs contigus logiquement qui forment l’extension de stockage. La taille totale de l’extension de stockage est calculée en multipliant **BlockSize** par **NumberOfBlocks**. Si la propriété **BlockSize** a la valeur « 1 », cette propriété correspond à la taille totale de l’extension de stockage.

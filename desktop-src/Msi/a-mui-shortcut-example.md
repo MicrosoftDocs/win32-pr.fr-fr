@@ -1,25 +1,25 @@
 ---
-description: Cette section décrit comment ajouter des chaînes de ressources à la Windows Installer tableau de raccourcis pour une utilisation avec des interfaces utilisateur multilingues (MUI).
+description: cette section décrit comment ajouter des chaînes de ressources à la Windows Installer tableau de raccourcis pour une utilisation avec des Interfaces utilisateur multilingues (MUI).
 ms.assetid: f521cfb8-32a8-4b62-b258-5b99cc3e0416
 title: Exemple de raccourci MUI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0392713c1eaedabaa989baecd79478a9b329e955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b38f674a63e854fbcd4439229c5aded5b0efe6cfc17d3e475f8a52f30db949
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106537006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640286"
 ---
 # <a name="a-mui-shortcut-example"></a>Exemple de raccourci MUI
 
-Cette section décrit comment ajouter des chaînes de ressources à la Windows Installer tableau de [raccourcis](shortcut-table.md) pour une utilisation avec des interfaces utilisateur multilingues (MUI).
+cette section décrit comment ajouter des chaînes de ressources à la Windows Installer tableau de [raccourcis](shortcut-table.md) pour une utilisation avec des Interfaces utilisateur multilingues (MUI).
 
-**Windows Installer 2,0 et Windows Installer 3,0 :** Non pris en charge. Cet exemple requiert Windows Installer 4,0.
+**Windows Installer 2,0 et Windows Installer 3,0 :** Non pris en charge. cet exemple requiert Windows Installer 4,0.
 
-Reportez-vous à la documentation de l' [interface utilisateur multilingue (MUI)](/windows/desktop/Intl/multilingual-user-interface) pour plus d’informations sur le développement d’applications compatibles MUI.
+reportez-vous à la documentation du [interface utilisateur multilingue (mui)](/windows/desktop/Intl/multilingual-user-interface) pour plus d’informations sur le développement d’applications compatibles mui.
 
-Pour ajouter les chaînes de ressources utilisées par les interfaces utilisateur multilingues Windows Vista à un package Windows Installer :
+pour ajouter les chaînes de ressources utilisées par Windows les Interfaces utilisateur multilingues Vista à un package Windows Installer :
 
 1.  Ajoutez les informations de tous les fichiers de langue et de langue neutres à la [table de fichiers](file-table.md). Par exemple, les fichiers peuvent se composer d’un fichier indépendant de la langue (msimsg.dll) et de fichiers de langue pour l’anglais (msimsgen.dll. MUI), le japonais (msimsgja.dll. MUI) et le chinois (msimsgcs.dll. MUI). Chaque fichier peut appartenir à un autre composant. Chaque fichier peut avoir un nom de fichier long et un nom de fichier courts. Dans le cas de cet exemple, les informations suivantes peuvent être ajoutées à la [table file](file-table.md).
 
@@ -96,7 +96,7 @@ Pour ajouter les chaînes de ressources utilisées par les interfaces utilisateu
 
     
 
-    | Fonctionnalité               | Parent de la fonctionnalité \_       | Intitulé                 | Attributs |
+    | Fonctionnalité               | Parent de la fonctionnalité \_       | Titre                 | Attributs |
     |-----------------------|-----------------------|-----------------------|------------|
     | FeatureParent1 \_ local |                       | FeatureParent1 \_ local | 16         |
     | FeatureChild1 \_ local  | FeatureParent1 \_ local | FeatureParent1 \_ local | 0          |
@@ -120,7 +120,7 @@ Pour ajouter les chaînes de ressources utilisées par les interfaces utilisateu
 
      
 
-7.  Après avoir installé le package, effectuez un test pour vous assurer que l’interface utilisateur multilingue fonctionne comme prévu.
+7.  après avoir installé le package, effectuez un test pour vérifier que le interface utilisateur multilingue fonctionne comme prévu.
 
  
 

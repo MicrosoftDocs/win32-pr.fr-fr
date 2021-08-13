@@ -4,12 +4,12 @@ description: Cette section contient des rubriques de référence sur l’en-têt
 ms.assetid: 73b4b2ec-ce3d-47c1-9b0e-1052f390ae94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ccc2baf458fea5e20842c9bfa60028c2cb8e23
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 7cd09a0e905b85d2eae52bb267929d2e1e89e5c6c179a8d6ab4de00320e9f8f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106511519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541423"
 ---
 # <a name="cfgmgr32h"></a>Cfgmgr32.h 
 
@@ -51,7 +51,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf_ex"><strong>CM_Add_Empty_Log_Conf_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_empty_log_conf"><strong>CM_Add_Empty_Log_Conf</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Add_Empty_Log_Conf_Ex</strong> crée une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a>vide, pour un type de configuration spécifié et une instance d’appareil spécifiée, sur l’ordinateur local ou distant.<br/></td>
 </tr>
@@ -63,7 +63,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_id_exw"><strong>CM_Add_ID_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_idw"><strong>CM_Add_ID</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Add_ID_Ex</strong> ajoute un <a href="/windows-hardware/drivers/install/device-ids">ID d’appareil</a> (s’il n’est pas déjà présent) à la liste des <a href="/windows-hardware/drivers/install/hardware-ids">ID matériels</a> d’une instance d’appareil ou à une liste d' <a href="/windows-hardware/drivers/install/compatible-ids">ID compatibles</a> , sur l’ordinateur local ou distant.<br/></td>
 </tr>
@@ -75,7 +75,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des_ex"><strong>CM_Add_Res_Des_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_add_res_des"><strong>CM_Add_Res_Des</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Add_Res_Des_Ex</strong> ajoute un <a href="/windows-hardware/drivers/">descripteur de ressource</a> à une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a>. La configuration logique peut se trouver sur l’ordinateur local ou sur un ordinateur distant.<br/></td>
 </tr>
@@ -83,7 +83,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_connect_machinew"><strong>CM_Connect_Machine</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, les fonctionnalités d’accès aux ordinateurs distants ont été supprimées. Vous ne pouvez pas accéder à des ordinateurs distants lorsqu’ils sont exécutés sur ces versions de Windows.
+à partir de Windows 8, Windows Server 2012 fonctionnalité d’accès aux ordinateurs distants a été supprimée. Vous ne pouvez pas accéder à des ordinateurs distants lorsqu’ils sont exécutés sur ces versions de Windows.
 </blockquote>
 <br/> La fonction <strong>CM_Connect_Machine</strong> crée une connexion à un ordinateur distant.<br/></td>
 </tr>
@@ -99,7 +99,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exa"><strong>CM_Delete_Device_Interface_Key_ExA</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Delete_Device_Interface_Key_ExA</strong> supprime la sous-clé de Registre qui est utilisée par les applications et les pilotes pour stocker des informations spécifiques à l’interface.<br/></td>
 </tr>
@@ -107,7 +107,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_key_exw"><strong>CM_Delete_Device_Interface_Key_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_delete_device_interface_keyw"><strong>CM_Delete_Device_Interface_Key</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Delete_Device_Interface_Key_ExW</strong> supprime la sous-clé de Registre qui est utilisée par les applications et les pilotes pour stocker des informations spécifiques à l’interface.<br/></td>
 </tr>
@@ -123,7 +123,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_disconnect_machine"><strong>CM_Disconnect_Machine</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, les fonctionnalités d’accès aux ordinateurs distants ont été supprimées. Vous ne pouvez pas accéder à des ordinateurs distants lorsqu’ils sont exécutés sur ces versions de Windows.
+à partir de Windows 8, Windows Server 2012 fonctionnalité d’accès aux ordinateurs distants a été supprimée. Vous ne pouvez pas accéder à des ordinateurs distants lorsqu’ils sont exécutés sur ces versions de Windows.
 </blockquote>
 <br/> La fonction <strong>CM_Disconnect_Machine</strong> supprime une connexion à un ordinateur distant.<br/></td>
 </tr>
@@ -139,7 +139,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes_ex"><strong>CM_Enumerate_Classes_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_classes"><strong>CM_Enumerate_Classes</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Enumerate_Classes_Ex</strong> , quand elle est appelée à plusieurs reprises, énumère les <a href="/windows-hardware/drivers/">classes de périphériques</a>installés sur un ordinateur local ou distant, en fournissant le GUID de chaque classe.<br/></td>
 </tr>
@@ -151,7 +151,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumerators_exw"><strong>CM_Enumerate_Enumerators_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_enumerate_enumeratorsw"><strong>CM_Enumerate_Enumerators</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Enumerate_Enumerators_Ex</strong> énumère les énumérateurs d’appareils d’un ordinateur local ou distant, en fournissant le nom de chaque énumérateur.<br/></td>
 </tr>
@@ -163,7 +163,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf_ex"><strong>CM_Free_Log_Conf_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_log_conf"><strong>CM_Free_Log_Conf</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Free_Log_Conf_Ex</strong> supprime une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> et tous les <a href="/windows-hardware/drivers/">descripteurs de ressources</a> associés d’un ordinateur local ou distant.<br/></td>
 </tr>
@@ -179,7 +179,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des_ex"><strong>CM_Free_Res_Des_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_free_res_des"><strong>CM_Free_Res_Des</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Free_Res_Des_Ex</strong> supprime un <a href="/windows-hardware/drivers/">descripteur de ressource</a> d’une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -199,7 +199,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child_ex"><strong>CM_Get_Child_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_child"><strong>CM_Get_Child</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Child_Ex</strong> est utilisée pour récupérer un handle d’instance d’appareil vers le premier nœud enfant d’un nœud d’appareil spécifié (<a href="/windows-hardware/drivers/">devnode</a>) dans une <a href="/windows-hardware/drivers/kernel/device-tree">arborescence de périphériques</a>locale ou un ordinateur distant.<br/></td>
 </tr>
@@ -211,7 +211,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_exw"><strong>CM_Get_Class_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_propertyw"><strong>CM_Get_Class_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Class_Property_ExW</strong> récupère une propriété d’appareil définie pour une classe d' <a href="/windows-hardware/drivers/install/device-interface-classes">interface de périphérique</a> ou une <a href="/windows-hardware/drivers/install/device-setup-classes">classe d’installation de périphérique</a>.<br/></td>
 </tr>
@@ -223,7 +223,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys_ex"><strong>CM_Get_Class_Property_Keys_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_class_property_keys"><strong>CM_Get_Class_Property_Keys</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Class_Property_Keys_Ex</strong> récupère un tableau des clés de propriétés de périphérique qui représentent les propriétés de périphérique définies pour une classe d' <a href="/windows-hardware/drivers/install/device-interface-classes">interface de périphérique</a> ou une <a href="/windows-hardware/drivers/install/device-setup-classes">classe d’installation de périphérique</a>.<br/></td>
 </tr>
@@ -239,7 +239,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth_ex"><strong>CM_Get_Depth_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_depth"><strong>CM_Get_Depth</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Depth_Ex</strong> permet d’obtenir la profondeur d’un nœud d’appareil spécifié (<a href="/windows-hardware/drivers/">devnode</a>) au sein d’une <a href="/windows-hardware/drivers/kernel/device-tree">arborescence de périphériques</a>locale ou distante.<br/></td>
 </tr>
@@ -251,7 +251,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_exw"><strong>CM_Get_Device_ID_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_idw"><strong>CM_Get_Device_ID</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_ID_Ex</strong> récupère l' <a href="/windows-hardware/drivers/install/device-instance-ids">ID d’instance d’appareil</a> pour une <a href="/windows-hardware/drivers/">instance de périphérique</a> spécifiée sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -263,7 +263,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_exw"><strong>CM_Get_Device_ID_List_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_lista"><strong>CM_Get_Device_ID_List</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_ID_List_Ex</strong> récupère une liste d' <a href="/windows-hardware/drivers/install/device-instance-ids">ID d’instance d’appareil</a> pour les instances d' <a href="/windows-hardware/drivers/">appareil</a> sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -275,7 +275,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_size_exw"><strong>CM_Get_Device_ID_List_Size_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_list_sizea"><strong>CM_Get_Device_ID_List_Size</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_ID_List_Size_Ex</strong> récupère la taille de la mémoire tampon requise pour contenir une liste d' <a href="/windows-hardware/drivers/install/device-instance-ids">ID d’instance d’appareil</a> pour les instances d' <a href="/windows-hardware/drivers/">appareil</a>d’un ordinateur local ou d’une machine distante.<br/></td>
 </tr>
@@ -287,7 +287,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size_ex"><strong>CM_Get_Device_ID_Size_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_id_size"><strong>CM_Get_Device_ID_Size</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_ID_Size_Ex</strong> récupère la taille de la mémoire tampon requise pour contenir un <a href="/windows-hardware/drivers/install/device-instance-ids">ID d’instance d’appareil</a> pour une instance d' <a href="/windows-hardware/drivers/">appareil</a> sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -311,7 +311,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_exw"><strong>CM_Get_Device_Interface_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_propertyw"><strong>CM_Get_Device_Interface_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_Interface_Property_ExW</strong> récupère une propriété d’appareil définie pour une interface d’appareil.<br/></td>
 </tr>
@@ -323,7 +323,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keys_exw"><strong>CM_Get_Device_Interface_Property_Keys_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_device_interface_property_keysw"><strong>CM_Get_Device_Interface_Property_Keys</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Device_Interface_Property_Keys_ExW</strong> récupère un tableau de clés de propriété d’appareil qui représentent les propriétés de périphérique définies pour une interface d’appareil.<br/></td>
 </tr>
@@ -335,7 +335,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_exw"><strong>CM_Get_DevNode_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_propertyw"><strong>CM_Get_DevNode_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_DevNode_Property_ExW</strong> récupère une propriété d’instance d’appareil.<br/></td>
 </tr>
@@ -347,7 +347,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys_ex"><strong>CM_Get_DevNode_Property_Keys_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_property_keys"><strong>CM_Get_DevNode_Property_Keys</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_DevNode_Property_Keys_Ex</strong> récupère un tableau des clés de propriétés de périphérique qui représentent les propriétés de périphérique définies pour une instance d’appareil.<br/></td>
 </tr>
@@ -363,7 +363,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status_ex"><strong>CM_Get_DevNode_Status_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_devnode_status"><strong>CM_Get_DevNode_Status</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_DevNode_Status_Ex</strong> obtient l’état d’une instance d’appareil à partir de son nœud d’appareil (<a href="/windows-hardware/drivers/">devnode</a>) sur l' <a href="/windows-hardware/drivers/kernel/device-tree">arborescence de périphériques</a>d’un ordinateur local ou distant.<br/></td>
 </tr>
@@ -375,7 +375,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf_ex"><strong>CM_Get_First_Log_Conf_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_first_log_conf"><strong>CM_Get_First_Log_Conf</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_First_Log_Conf_Ex</strong> obtient la première <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> associée à une instance de <a href="/windows-hardware/drivers/">périphérique</a> spécifiée sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -383,7 +383,7 @@ Cette section contient des rubriques de référence sur l’en-tête cfgmgr32. h
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_hw_prof_flagsa"><strong>CM_Get_HW_Prof_Flags</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
 </blockquote>
 <br/> La fonction <strong>CM_Get_HW_Prof_Flags</strong> récupère les indicateurs de configuration spécifiques au <a href="/windows-hardware/drivers/">Profil matériel</a>pour une <a href="/windows-hardware/drivers/">instance d’appareil</a> sur un ordinateur local.<br/></td>
 </tr>
@@ -403,7 +403,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority_ex"><strong>CM_Get_Log_Conf_Priority_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_log_conf_priority"><strong>CM_Get_Log_Conf_Priority</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Log_Conf_Priority_Ex</strong> obtient la priorité de configuration d’une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> spécifiée sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -415,7 +415,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf_ex"><strong>CM_Get_Next_Log_Conf_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_log_conf"><strong>CM_Get_Next_Log_Conf</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Next_Log_Conf_Ex</strong> obtient la <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> suivante associée à une instance d' <a href="/windows-hardware/drivers/">appareil</a> spécifique sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -427,7 +427,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des_ex"><strong>CM_Get_Next_Res_Des_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_next_res_des"><strong>CM_Get_Next_Res_Des</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Next_Res_Des_Ex</strong> obtient un handle vers le <a href="/windows-hardware/drivers/">descripteur de ressource</a>suivant, d’un type de ressource spécifié, pour une <a href="/windows-hardware/drivers/kernel/hardware-resources">configuration logique</a> sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -439,7 +439,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent_ex"><strong>CM_Get_Parent_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_parent"><strong>CM_Get_Parent</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Parent_Ex</strong> obtient un handle d’instance d’appareil vers le nœud parent d’un nœud d’appareil spécifié (<a href="/windows-hardware/drivers/">devnode</a>) dans l' <a href="/windows-hardware/drivers/kernel/device-tree">arborescence de périphériques</a>d’un ordinateur local ou distant.<br/></td>
 </tr>
@@ -451,7 +451,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_ex"><strong>CM_Get_Res_Des_Data_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data"><strong>CM_Get_Res_Des_Data</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Res_Des_Data_Ex</strong> récupère les informations stockées dans un <a href="/windows-hardware/drivers/">descripteur de ressource</a> sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -463,7 +463,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size_ex"><strong>CM_Get_Res_Des_Data_Size_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_res_des_data_size"><strong>CM_Get_Res_Des_Data_Size</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Res_Des_Data_Size_Ex</strong> obtient la taille de la mémoire tampon requise pour contenir les informations contenues dans un <a href="/windows-hardware/drivers/">descripteur de ressource</a> spécifié sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -483,7 +483,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling_ex"><strong>CM_Get_Sibling_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_sibling"><strong>CM_Get_Sibling</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Sibling_Ex</strong> obtient un handle d’instance d’appareil vers le nœud frère suivant d’un nœud de périphérique spécifié, dans une <a href="/windows-hardware/drivers/kernel/device-tree">arborescence de périphériques</a>locale ou un ordinateur distant.<br/></td>
 </tr>
@@ -491,7 +491,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version"><strong>CM_Get_Version</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Version</strong> retourne la version 4,0 de la<em>Cfgmgr32.dll</em> <a href="/windows-hardware/drivers/">dll</a> de Configuration Manager plug-and-Play (PNP) pour un ordinateur local. <br/></td>
 </tr>
@@ -499,7 +499,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_get_version_ex"><strong>CM_Get_Version_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
 </blockquote>
 <br/> La fonction <strong>CM_Get_Version_Ex</strong> retourne la version 4,0 de la plug-and-Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">dll</a> (<em>Cfgmgr32.dll</em>) pour un ordinateur local ou distant. <br/></td>
 </tr>
@@ -511,7 +511,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present_ex"><strong>CM_Is_Dock_Station_Present_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_dock_station_present"><strong>CM_Is_Dock_Station_Present</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Is_Dock_Station_Present_Ex</strong> indique si une <a href="/windows-hardware/drivers/">station d’accueil</a> est présente dans un ordinateur local ou distant.<br/></td>
 </tr>
@@ -519,7 +519,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available"><strong>CM_Is_Version_Available</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
 </blockquote>
 <br/> La fonction <strong>CM_Is_Version_Available</strong> indique si une version spécifiée du plug-and-Play (PnP) Configuration Manager <a href="/windows-hardware/drivers/">dll</a> (<em>Cfgmgr32.dll</em>) est prise en charge par un ordinateur local.<br/></td>
 </tr>
@@ -527,7 +527,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_is_version_available_ex"><strong>CM_Is_Version_Available_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée et ne doit pas être utilisée.
 </blockquote>
 <br/> La fonction <strong>CM_Is_Version_Available_Ex</strong> indique si une version spécifiée du plug-and-Play (PNP) Configuration Manager <a href="/windows-hardware/drivers/">dll</a> (<em>Cfgmgr32.dll</em>) est prise en charge par un ordinateur local ou distant.<br/></td>
 </tr>
@@ -539,7 +539,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnode_exw"><strong>CM_Locate_DevNode_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_locate_devnodea"><strong>CM_Locate_DevNode</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Locate_DevNode_Ex</strong> obtient un handle d’instance d’appareil vers le nœud de périphérique associé à un <a href="/windows-hardware/drivers/install/device-instance-ids">ID d’instance de périphérique</a>spécifié, sur un ordinateur local ou sur un ordinateur distant.<br/></td>
 </tr>
@@ -555,7 +555,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des_ex"><strong>CM_Modify_Res_Des_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_modify_res_des"><strong>CM_Modify_Res_Des</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Modify_Res_Des_Ex</strong> modifie un descripteur de ressource spécifié sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -583,7 +583,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keya"><strong>CM_Open_Device_Interface_Key_ExA</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Open_Device_Interface_Key_ExA</strong> ouvre la sous-clé de Registre qui est utilisée par les applications et les pilotes pour stocker des informations spécifiques à une interface d’appareil.<br/></td>
 </tr>
@@ -591,7 +591,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_open_device_interface_key_exw"><strong>CM_Open_Device_Interface_Key_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_open_device_interface_keyw"><strong>CM_Open_Device_Interface_Key</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Open_Device_Interface_Key_ExW</strong> ouvre la sous-clé de Registre qui est utilisée par les applications et les pilotes pour stocker des informations spécifiques à une interface d’appareil.<br/></td>
 </tr>
@@ -607,7 +607,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtree_exw"><strong>CM_Query_And_Remove_SubTree_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_query_and_remove_subtreew"><strong>CM_Query_And_Remove_SubTree</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Query_And_Remove_SubTree_Ex</strong> vérifie si une instance d’appareil et ses enfants peuvent être supprimés et, le cas échéant, les supprime.<br/></td>
 </tr>
@@ -623,13 +623,13 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode_ex"><strong>CM_Reenumerate_DevNode_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_reenumerate_devnode"><strong>CM_Reenumerate_DevNode</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Reenumerate_DevNode_Ex</strong> énumère les appareils identifiés par un nœud de périphérique spécifié et tous ses enfants.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a><br/></td>
-<td>Utilisez <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a> au lieu de <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> si votre code cible Windows 7 ou des versions antérieures de Windows. Les appelants en mode noyau doivent utiliser <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> à la place.<br/> La fonction <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> inscrit une routine de rappel d’application à appeler lorsqu’un événement PNP du type spécifié se produit.<br/></td>
+<td>utilisez <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a> au lieu de <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> si votre code cible Windows 7 ou des versions antérieures de Windows. Les appelants en mode noyau doivent utiliser <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> à la place.<br/> La fonction <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> inscrit une routine de rappel d’application à appeler lorsqu’un événement PNP du type spécifié se produit.<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a><br/></td>
@@ -639,7 +639,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_eject_exw"><strong>CM_Request_Device_Eject_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Request_Device_Eject_Ex</strong> prépare une instance de périphérique locale ou distante pour une suppression en toute sécurité, si l’appareil est amovible. Si l’appareil peut être éjecté physiquement, il sera.<br/></td>
 </tr>
@@ -651,7 +651,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc_ex"><strong>CM_Request_Eject_PC_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_eject_pc"><strong>CM_Request_Eject_PC</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Request_Eject_PC_Ex</strong> demande qu’un PC portable, inséré dans une <a href="/windows-hardware/drivers/">station d’accueil</a>locale ou distante, soit éjecté.<br/></td>
 </tr>
@@ -663,7 +663,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_property_exw"><strong>CM_Set_Class_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_class_propertyw"><strong>CM_Set_Class_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Set_Class_Property_ExW</strong> définit une propriété de classe pour une classe d’installation de périphérique ou une classe d’interface d’appareil.<br/></td>
 </tr>
@@ -679,7 +679,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_property_exw"><strong>CM_Set_Device_Interface_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_device_interface_propertyw"><strong>CM_Set_Device_Interface_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Set_Device_Interface_Property_ExW</strong> définit une propriété d’appareil d’une interface d’appareil.<br/></td>
 </tr>
@@ -691,7 +691,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem_ex"><strong>CM_Set_DevNode_Problem_Ex</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_problem"><strong>CM_Set_DevNode_Problem</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Set_DevNode_Problem_Ex</strong> définit un code de problème pour un appareil installé sur un ordinateur local ou distant.<br/></td>
 </tr>
@@ -703,7 +703,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_property_exw"><strong>CM_Set_DevNode_Property_ExW</strong></a><br/></td>
 <td><blockquote>
 [!Note]<br />
-À compter de Windows 8 et de Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a> à la place.
+à partir de Windows 8 et Windows Server 2012, cette fonction est dépréciée. Utilisez <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_set_devnode_propertyw"><strong>CM_Set_DevNode_Property</strong></a> à la place.
 </blockquote>
 <br/> La fonction <strong>CM_Set_DevNode_Property_ExW</strong> définit une propriété d’instance d’appareil.<br/></td>
 </tr>
@@ -721,7 +721,7 @@ Cette fonction est dépréciée et ne doit pas être utilisée.
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a><br/></td>
-<td>Utilisez <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a> au lieu de <strong>CM_Unregister_Notification</strong> si votre code cible Windows 7 ou des versions antérieures de Windows.<br/> La fonction <strong>CM_Unregister_Notification</strong> ferme le handle HCMNOTIFICATION spécifié.<br/></td>
+<td>utilisez <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a> au lieu de <strong>CM_Unregister_Notification</strong> si votre code cible Windows 7 ou des versions antérieures de Windows.<br/> La fonction <strong>CM_Unregister_Notification</strong> ferme le handle HCMNOTIFICATION spécifié.<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents"><strong>CMP_WaitNoPendingInstallEvents</strong></a><br/></td>

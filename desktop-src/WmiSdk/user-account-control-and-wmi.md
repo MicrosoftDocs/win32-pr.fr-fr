@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 39d48abcffa537d886397092c6d4a7b558825021
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2da001117fa75ccef737647038d3e58b942f666ba40e1fd14ec98cb4ebdd44af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553315"
 ---
 # <a name="user-account-control-and-wmi"></a>Contrôle de compte d’utilisateur et WMI
 
@@ -23,7 +23,7 @@ Le contrôle de compte d’utilisateur (UAC) affecte les données WMI retournée
 
 Les sections suivantes décrivent les fonctionnalités du contrôle de compte d’utilisateur :
 
--   [Contrôle de compte d’utilisateur](#user-account-control-and-wmi)
+-   [Contrôle de compte d'utilisateur](#user-account-control-and-wmi)
 -   [Compte nécessaire pour exécuter les outils de Command-Line WMI](#account-needed-to-run-wmi-command-line-tools)
 -   [Gestion des connexions à distance sous UAC](#handling-remote-connections-under-uac)
 -   [Effet UAC sur les données WMI retournées aux scripts ou aux applications](#uac-effect-on-wmi-data-returned-to-scripts-or-applications)
@@ -41,7 +41,7 @@ Vous pouvez exécuter un script ou une application avec des droits élevés en e
 
 **Pour exécuter un script en mode élevé**
 
-1.  Ouvrez une fenêtre d’invite de commandes en cliquant avec le bouton droit sur invite de commandes dans le menu Démarrer, puis en cliquant sur **exécuter en tant qu’administrateur**.
+1.  ouvrez une fenêtre d’invite de commandes en cliquant avec le bouton droit sur invite de commandes dans le menu Démarrer puis en cliquant sur **exécuter en tant qu’administrateur**.
 2.  Planifiez l’exécution du script avec élévation de privilèges à l’aide de Planificateur de tâches. Pour plus d’informations, consultez [contextes de sécurité pour les tâches en cours d’exécution](/windows/desktop/TaskSchd/security-contexts-for-running-tasks).
 3.  Exécutez le script à l’aide du compte administrateur intégré.
 
@@ -79,7 +79,7 @@ La sécurité doit être ajustée pour pouvoir utiliser ce compte, car le compte
 
 Si vous utilisez un compte local, soit parce que vous vous trouvez dans un groupe de travail, soit parce qu’il s’agit d’un compte d’ordinateur local, vous pouvez être contraint d’attribuer des tâches spécifiques à un utilisateur local. Par exemple, vous pouvez accorder à l’utilisateur le droit d’arrêter ou de démarrer un service spécifique par le biais de la commande SC.exe, des méthodes [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service) et [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service) du [**\_ service Win32**](/windows/desktop/CIMWin32Prov/win32-service), ou via stratégie de groupe à l’aide de gpedit. msc. Certains objets sécurisables ne permettent pas à un utilisateur standard d’effectuer des tâches et n’offrent aucun moyen de modifier la sécurité par défaut. Dans ce cas, vous devrez peut-être désactiver le contrôle de compte d’utilisateur afin que le compte d’utilisateur local ne soit pas filtré et devienne un administrateur complet. N’oubliez pas que pour des raisons de sécurité, la désactivation du contrôle de compte d’utilisateur doit être un dernier recours.
 
-La désactivation du contrôle de compte d’utilisateur à distance en modifiant l’entrée de Registre qui contrôle le contrôle de compte d’utilisateur distant n’est pas recommandée, mais peut être nécessaire dans un groupe de travail. L’entrée de Registre est **HKEY \_ local \_ machine** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **Policies** \\ **System** \\ **LocalAccountTokenFilterPolicy**. Lorsque la valeur de cette entrée est égale à zéro (0), le filtrage des jetons d’accès UAC à distance est activé. Lorsque la valeur est 1, le contrôle de compte d’utilisateur distant est désactivé.
+La désactivation du contrôle de compte d’utilisateur à distance en modifiant l’entrée de Registre qui contrôle le contrôle de compte d’utilisateur distant n’est pas recommandée, mais peut être nécessaire dans un groupe de travail. l’entrée de registre est **HKEY \_ LOCAL \_ MACHINE** \\ **SOFTWARE** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **policies** \\ **system** \\ **LocalAccountTokenFilterPolicy**. Lorsque la valeur de cette entrée est égale à zéro (0), le filtrage des jetons d’accès UAC à distance est activé. Lorsque la valeur est 1, le contrôle de compte d’utilisateur distant est désactivé.
 
 ## <a name="uac-effect-on-wmi-data-returned-to-scripts-or-applications"></a>Effet UAC sur les données WMI retournées aux scripts ou aux applications
 
