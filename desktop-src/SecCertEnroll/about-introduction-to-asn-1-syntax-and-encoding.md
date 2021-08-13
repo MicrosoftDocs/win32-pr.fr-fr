@@ -4,12 +4,12 @@ ms.assetid: 970a246f-a4c3-489b-b6a4-7d3103f388cf
 title: Présentation de la syntaxe et de l’encodage ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4fe15d2fb8fba4af25b9da7c249fec3a92630e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 504f6e643d91951351eaef2c51f9cfeac01919c77718a88ce866670f22803146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103865030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904228"
 ---
 # <a name="introduction-to-asn1-syntax-and-encoding"></a>Présentation de la syntaxe et de l’encodage ASN. 1
 
@@ -36,7 +36,7 @@ AttributeTypeValue ::= SEQUENCE
 
 ## <a name="asn1-encoding-example"></a>Exemple d’encodage ASN. 1
 
-L’API d’inscription de certificats utilise [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (der) pour encoder le nom d’objet précédent. DER exige que chaque élément du nom soit représenté par un triplet TLV où T contient le numéro de balise du type ASN. 1, L contient la longueur et V contient la valeur associée. L’exemple suivant montre comment le nom de sujet TestCN. TestOrg est encodé.
+l’API d’inscription de certificats utilise [*Distinguished Encoding Rules*](/windows/desktop/SecGloss/d-gly) (DER) pour encoder le nom d’objet précédent. DER exige que chaque élément du nom soit représenté par un triplet TLV où T contient le numéro de balise du type ASN. 1, L contient la longueur et V contient la valeur associée. L’exemple suivant montre comment le nom de sujet TestCN. TestOrg est encodé.
 
 ``` syntax
 1.     30 23            ; SEQUENCE (23 Bytes)

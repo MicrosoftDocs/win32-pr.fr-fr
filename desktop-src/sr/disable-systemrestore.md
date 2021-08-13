@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19556833684aeab0cc126eff7aff0a258335c8e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41a05d53ee13e2f06c2f4765d2947f49a417ed798965406185619dfce207cf76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452920"
 ---
 # <a name="disable-method-of-the-systemrestore-class"></a>Désactivation de la méthode de la classe SystemRestore
 
@@ -83,7 +83,7 @@ End If
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                         |
 | Espace de noms<br/>                | Racine \\ par défaut<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SR. mof</dt> </dl> |

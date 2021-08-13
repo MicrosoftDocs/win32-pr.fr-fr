@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8daf3c33b43bda95bb1d54145e9e5aebc6f89c2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b55736b2efb8fd4cfbca40710caa930c200c84e1ceec9c8c4f7439468c1add1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654069"
 ---
 # <a name="dbglocktrace-function"></a>DbgLockTrace fonction)
 
@@ -61,13 +61,13 @@ Valeur spécifiant si la journalisation est activée. Utilisez **true** pour act
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez cette fonction pour tracer une section critique spécifique. Par défaut, la journalisation du débogage des sections critiques est désactivée, en raison du grand nombre de sections critiques.
 
 Pour suivre une section critique, procédez comme suit :
 
-1.  Définissez DEBUG ou \_ Debug avant d’inclure les en-têtes DirectShow.
+1.  définissez debug ou \_ debug avant d’inclure les en-têtes de DirectShow.
 2.  Activez la journalisation du débogage pour les sections critiques en appelant [**DbgSetModuleLevel**](dbgsetmodulelevel.md) avec l’indicateur de verrouillage du journal \_ .
 3.  Appelez **DbgLockTrace** sur la section critique que vous souhaitez tracer.
 
@@ -104,7 +104,7 @@ DbgTerminate();
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Wxutil. h (include streams. h)</dt> </dl>                                                                                    |
+| En-tête<br/>  | <dl> <dt>Wxutil. h (inclure Flux. h)</dt> </dl>                                                                                    |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 

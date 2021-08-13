@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 614e42512b17a0d8a6950ac96914128b8746c685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: f5aa8ab3ba61d752cfe4d9f8ecd29bf4fcd06c3dbadde94e51ac9a05a8504b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452815"
 ---
 # <a name="shellfolderitemextendedproperty-method"></a>Méthode ShellFolderItem. ExtendedProperty
 
@@ -50,15 +50,15 @@ Valeur de **chaîne** qui spécifie la propriété. Pour plus d'informations, co
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : **Variant \** _
+Type : **variante \***
 
 Lorsque cette méthode est retournée, contient la valeur de la propriété, si elle existe pour l’élément spécifié. La valeur aura un typage complet, par exemple, les dates sont retournées en tant que dates, et non en tant que chaînes.
 
 Cette méthode retourne une chaîne de longueur nulle si la propriété est valide mais n’existe pas pour l’élément spécifié, ou un code d’erreur dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Il existe deux façons de spécifier une propriété. La première consiste à affecter le nom bien connu de la propriété, tel que « Author » ou « date », à _sPropName *. Toutefois, chaque propriété est membre d’un jeu de propriétés COM (Component Object Model) et peut également être identifiée en spécifiant son ID de format (FMTID) et son ID de propriété (PID). Un [**fmtid**](../stg/structured-storage-serialized-property-set-format.md) est un GUID qui identifie le jeu de propriétés, et un [**PID**](../stg/structured-storage-serialized-property-set-format.md) est un entier qui identifie une propriété particulière dans le jeu de propriétés.
+Il existe deux façons de spécifier une propriété. La première consiste à affecter le nom bien connu de la propriété, tel que « Author » ou « date », à *sPropName*. Toutefois, chaque propriété est membre d’un jeu de propriétés COM (Component Object Model) et peut également être identifiée en spécifiant son ID de format (FMTID) et son ID de propriété (PID). Un [**fmtid**](../stg/structured-storage-serialized-property-set-format.md) est un GUID qui identifie le jeu de propriétés, et un [**PID**](../stg/structured-storage-serialized-property-set-format.md) est un entier qui identifie une propriété particulière dans le jeu de propriétés.
 
 La spécification d’une propriété par ses valeurs FMTID/PID est généralement plus efficace que l’utilisation de son nom. Pour utiliser les valeurs FMTID/PID d’une propriété avec **ExtendedProperty**, elles doivent être combinées dans un scid. Un SCID est une chaîne qui contient les valeurs FMTID/PID sous la forme «*fmtid * * PID*», où fmtid est le format de chaîne du GUID du jeu de propriétés. Par exemple, le SCID de la propriété auteur du jeu de propriétés des informations de résumé est « {F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4 ».
 
@@ -95,9 +95,9 @@ Doc_Author=fiWordDoc.ExtendedProperty(SCID_AUTHOR)
 
 
 
-Les exemples suivants illustrent l’utilisation appropriée de cette méthode pour JScript, VBScript et Visual Basic.
+les exemples suivants illustrent l’utilisation appropriée de cette méthode pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -199,7 +199,7 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

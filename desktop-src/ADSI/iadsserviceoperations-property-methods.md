@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 654a92be1052d4e4c70e0274d719a49be965d8cb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c7f60b8fe1280e257ccd33f505b2b696a0d1a16228ebfaf8b0cabf7f1319964a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427605"
 ---
 # <a name="iadsserviceoperations-property-methods"></a>Méthodes de propriété IADsServiceOperations
 
@@ -210,7 +210,7 @@ HRESULT get_Status(
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code suivant montre comment vérifier l’état d’un service Microsoft Fax s’exécutant sur Windows 2000.
+l’exemple de code suivant montre comment vérifier l’état d’un Service Microsoft Fax s’exécutant sur Windows 2000.
 
 
 ```VB
@@ -245,7 +245,7 @@ Cleanup:
 
 
 
-L’exemple de code suivant vérifie l’état d’un service Microsoft Fax s’exécutant sur Windows 2000.
+l’exemple de code suivant vérifie l’état d’un Service Microsoft Fax s’exécutant sur Windows 2000.
 
 
 ```C++

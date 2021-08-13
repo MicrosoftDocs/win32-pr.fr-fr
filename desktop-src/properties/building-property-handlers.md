@@ -4,12 +4,12 @@ ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: Implémentation de gestionnaires de propriétés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0aadfabf451d5a90ba88925d28f3f460aaeeb28f
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 5df4012168a0b6d1af5db727907e1c0fdc07231eac42abfbd3b96e8daab2f3f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469125"
 ---
 # <a name="implementing-property-handlers"></a>Implémentation de gestionnaires de propriétés
 

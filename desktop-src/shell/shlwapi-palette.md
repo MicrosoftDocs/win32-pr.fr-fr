@@ -1,5 +1,5 @@
 ---
-description: Cette section décrit les fonctions de gestion de la palette de couleurs du shell Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+description: cette section décrit les fonctions de gestion de la palette de couleurs Windows Shell. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 title: Fonctions de gestion de palette de couleurs de Shell
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: ba92dcf280b8d54b8778e276bb603d888f5991c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0ebcabb4212712b1f5acfe2cf35fa9003cfb3488fcba2d23b579354e3f33299
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104203254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452116"
 ---
 # <a name="shell-color-palette-handling-functions"></a>Fonctions de gestion de palette de couleurs de Shell
 
-Cette section décrit les fonctions de gestion de la palette de couleurs du shell Windows. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
+cette section décrit les fonctions de gestion de la palette de couleurs Windows Shell. Les éléments de programmation expliqués dans cette documentation sont exportés par Shlwapi.dll et définis dans Shlwapi. h et Shlwapi. lib.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

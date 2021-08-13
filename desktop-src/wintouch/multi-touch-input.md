@@ -1,32 +1,32 @@
 ---
-title: Entrée tactile Windows (programmation tactile Windows)
-description: Cette section contient des références de programmation pour les entrées tactiles Windows.
+title: Windows entrée tactile (programmation tactile Windows)
+description: cette section contient des références de programmation pour Windows entrée tactile.
 ms.assetid: 43f7e400-486d-4041-b78f-44655f6a6e9f
 keywords:
-- Tactile Windows, entrée
+- Windows Toucher, entrée
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b021bbe47ed6ffc1ad8cdbc4094d1d4929325325
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3f8ce384d67f9418a73c2e4a06c5749547e7a302369ddbb44f58926917466561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103739517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435352"
 ---
-# <a name="windows-touch-input-windows-touch-programming"></a>Entrée tactile Windows (programmation tactile Windows)
+# <a name="windows-touch-input-windows-touch-programming"></a>Windows entrée tactile (programmation tactile Windows)
 
-Cette section contient des références de programmation pour les entrées tactiles Windows.
+cette section contient des références de programmation pour Windows entrée tactile.
 
-Cette référence de programmation pour l’API tactile Windows contient les sections suivantes.
+cette référence de programmation pour l’API Windows Touch contient les sections suivantes.
 
 
 
 | Section                      | Description                                  |
 |------------------------------|----------------------------------------------|
-| [Fonctions](mtfunctions.md) | Contient des fonctions pour les entrées tactiles Windows.  |
-| [Macros](touch-macros.md)   | Contient des macros pour les entrées tactiles Windows.     |
-| [Messages](messages.md)     | Contient des messages pour les entrées tactiles Windows.   |
-| [Structures](structures.md) | Contient des structures pour les entrées tactiles Windows. |
+| [Fonctions](mtfunctions.md) | contient des fonctions pour Windows entrée tactile.  |
+| [Macros](touch-macros.md)   | contient des macros pour Windows entrée tactile.     |
+| [Messages](messages.md)     | contient des messages pour Windows entrée tactile.   |
+| [Structures](structures.md) | contient des structures pour Windows entrée tactile. |
 
 
 
@@ -36,7 +36,7 @@ Cette référence de programmation pour l’API tactile Windows contient les sec
 
 <dl> <dt>
 
-[Informations de référence sur la programmation tactile Windows](windows-touch-programming-reference.md)
+[Windows Référence de programmation tactile](windows-touch-programming-reference.md)
 </dt> </dl>
 
  

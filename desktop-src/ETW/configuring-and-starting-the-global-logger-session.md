@@ -4,19 +4,19 @@ ms.assetid: 1462bbef-ef32-4053-9930-5b4a0ab46b47
 title: Configuration et démarrage de la session de journalisation globale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8692e1f7321acc163e48cda7e3323f3d24adc1c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36cc15ad9fdb5150a976b9d7bccfb6315649617271c5ece2a7c676fbdb9f6f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395494"
 ---
 # <a name="configuring-and-starting-the-global-logger-session"></a>Configuration et démarrage de la session de journalisation globale
 
 La session de suivi d’événements de journalisation globale enregistre les événements qui se produisent au début du processus de démarrage du système d’exploitation. Les applications et les pilotes de périphériques peuvent utiliser la session d’enregistreur d’événements globale pour capturer des suivis avant que l’utilisateur se connecte. Notez que certains pilotes de périphérique, tels que les pilotes de périphériques de disque, ne sont pas chargés au moment où la session de journalisation globale commence.
 
 > [!Note]  
-> Si vous créez une session de journalisation globale sur Windows Vista, vous devez envisager de créer une [session de journalisation](configuring-and-starting-an-autologger-session.md) automatique à la place.
+> si vous créez une session de journalisation globale sur Windows Vista, vous devez envisager de créer une [session de journalisation](configuring-and-starting-an-autologger-session.md) automatique à la place.
 
  
 
@@ -67,7 +67,7 @@ Le tableau suivant décrit les valeurs que vous pouvez définir pour la clé **G
 <li>2 = minuterie du système</li>
 <li>3 = compteur du cycle de l’UC</li>
 </ul>
-Pour obtenir une description de chaque type d’horloge, consultez le membre <strong>ClientContext</strong> de <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> La valeur par défaut est 1 (valeur du compteur de performances) sur Windows Vista et versions ultérieures. Avant Windows Vista, la valeur par défaut est 2 (horloge système).<br/></td>
+Pour obtenir une description de chaque type d’horloge, consultez le membre <strong>ClientContext</strong> de <a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>.<br/> la valeur par défaut est 1 (valeur du compteur de performances) sur Windows Vista et versions ultérieures. avant Windows Vista, la valeur par défaut est 2 (horloge système).<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EnableKernelFlags</strong></td>
@@ -87,7 +87,7 @@ Pour obtenir une description de chaque type d’horloge, consultez le membre <st
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>Chemin complet du fichier journal. Le chemin d’accès à ce fichier doit exister. Le fichier journal est un fichier journal séquentiel. Notez que tous les fournisseurs qui écrivent des événements dans la session d’enregistreur d’événements globale écrivent des événements dans ce fichier journal. Le chemin d’accès est limité à 1024 caractères. Si <strong>filename</strong> n’est pas spécifié, les événements sont écrits dans%SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl. <strong>Avant Windows Vista :</strong> Le fichier par défaut est%SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
+<td>Chemin complet du fichier journal. Le chemin d’accès à ce fichier doit exister. Le fichier journal est un fichier journal séquentiel. Notez que tous les fournisseurs qui écrivent des événements dans la session d’enregistreur d’événements globale écrivent des événements dans ce fichier journal. Le chemin d’accès est limité à 1024 caractères. Si <strong>filename</strong> n’est pas spécifié, les événements sont écrits dans%SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl. <strong>avant Windows Vista :</strong> Le fichier par défaut est%SystemRoot%\System32\LogFiles\WMI\Trace.log.<br/> <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FlushTimer</strong></td>
@@ -97,7 +97,7 @@ Pour obtenir une description de chaque type d’horloge, consultez le membre <st
 <tr class="odd">
 <td><strong>LogFileMode</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>Spécifie les options de session de journal. Pour les valeurs, consultez <a href="logging-mode-constants.md">constantes de mode de journalisation</a>. Cette valeur est prise en charge sur Windows Vista et versions ultérieures. <br/></td>
+<td>Spécifie les options de session de journal. Pour les valeurs, consultez <a href="logging-mode-constants.md">constantes de mode de journalisation</a>. cette valeur est prise en charge sur Windows Vista et versions ultérieures. <br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaximumBuffers</strong></td>

@@ -6,12 +6,12 @@ keywords:
 - Référence de ligne de commande MIDL, syntaxe générale
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14baa145c7be03467a24bd4298cf2f502d93b6ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa3d3ded263237dffa425cebe3dea49b169e3494045cfc8b0d27cc249c5ebed1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384262"
 ---
 # <a name="general-midl-command-line-syntax"></a>Syntaxe générale de la ligne de commande MIDL
 
@@ -47,7 +47,7 @@ Spécifie le nom du fichier IDL. Ce fichier a généralement l’extension. idl,
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les listes suivantes affichent les noms par défaut des fichiers générés pour un fichier IDL nommé Name. idl. Vous pouvez utiliser des commutateurs de ligne de commande pour remplacer ces noms par défaut. Notez que le nom du fichier IDL peut avoir une extension autre que. idl ou aucune extension.
 
@@ -70,11 +70,11 @@ Le compilateur MIDL fourni avec Microsoft RPC appelle le préprocesseur C en fon
 > [!Note]  
 > Le compilateur MIDL fourni avec Microsoft RPC utilise une syntaxe de ligne de commande différente de celle du compilateur IDL DCE.
 
- 
+ 
 
 Le compilateur MIDL bascule [**/env**](-env.md), [**/Server**](-server.md), [**/sstub**](-sstub.md)et [**/out**](-out.md) sur le fichier stub du serveur.
 
-À compter de la version 6.0.359 de MIDL, l’option de ligne de commande par défaut pour le compilateur MIDL est [**/Oicf**](-oi.md)Â  [**/Robust**](-robust.md). Pour désactiver/Robust, spécifiez l’option [**/non \_ robustesse**](-no-robust.md) .
+À compter de la version 6.0.359 de MIDL, l’option de ligne de commande par défaut pour le compilateur MIDL est [**/Oicf**](-oi.md)Â [**/Robust**](-robust.md). Pour désactiver/Robust, spécifiez l’option [**/non \_ robustesse**](-no-robust.md) .
 
 ## <a name="the-header-file"></a>Fichier d’en-tête
 
@@ -82,9 +82,9 @@ Le fichier d’en-tête contient les définitions de tous les types de données 
 
 Le compilateur MIDL bascule [**/header**](-header.md) et [**/out**](-out.md) sur le fichier d’en-tête.
 
- 
+ 
 
- 
+ 
 
 
 

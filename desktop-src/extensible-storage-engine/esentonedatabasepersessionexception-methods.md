@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102413
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d85b0323d622571a421f8242b6e8bef6272eac3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22427d1dc9278a9ddf48dc4a950e5dc32b50877f6828a325eb3bd4e6b9524420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118493988"
 ---
 # <a name="esentonedatabasepersessionexception-methods"></a>Méthodes EsentOneDatabasePerSessionException
 

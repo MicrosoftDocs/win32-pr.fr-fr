@@ -4,12 +4,12 @@ ms.assetid: 8985fee5-7b63-46ab-b229-046e2f0ee004
 title: InkEdit. MouseDown, événement (Y2. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78e684fe2d75e5eaaf2b0064e8c7c78cbfe281a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a1adb35b6d431007fb4bdc259d72ddce25e3bc480a6596d2c4658cd19a3789e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103868297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717949"
 ---
 # <a name="inkeditmousedown-event"></a>InkEdit. MouseDown, événement
 
@@ -90,7 +90,7 @@ Coordonnée y actuelle, en pixels, du pointeur de la souris.
 
 Si cet événement a la valeur, il retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si un bouton de la souris est enfoncé alors que le pointeur est sur un contrôle [InkEdit](inkedit-control-reference.md) , ce contrôle capture la souris et reçoit tous les événements de la souris jusqu’au dernier événement [**MouseUp**](inkedit-mouseup.md) , y compris celui-ci. Cela implique que les coordonnées du pointeur de la souris (x, y) retournées par un événement de souris ne se trouvent pas toujours dans la zone interne de l’objet qui les reçoit.
 
@@ -104,7 +104,7 @@ Cette méthode d’événement est définie dans l’interface **\_ IInkEditEven
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                 |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                     |
 | En-tête<br/>                   | <dl> <dt>« Y2. h » (nécessite également l' \_ entrée i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

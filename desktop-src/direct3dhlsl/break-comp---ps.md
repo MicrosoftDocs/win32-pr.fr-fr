@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5088312a16102153ad78afffdcd9ea1275d34e0d
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2fa79b7aa50bc734ddc1f9fb1fd54e4130c48518dd47ed429b4177b8fb867d95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104101085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794457"
 ---
 # <a name="break_comp---ps"></a>arrêter \_ COMP-PS
 
@@ -29,7 +29,7 @@ Sortir de la boucle actuelle au [ENDLOOP-PS](endloop---ps.md) ou [endrep-PS](end
 
 
 
- 
+ 
 
 Où :
 
@@ -46,12 +46,12 @@ Où :
 
     
 
-     
+     
 
 -   src0 est un registre source. La réplication de Swizzle est requise si vous sélectionnez un seul composant.
 -   src1 est un registre source. La réplication de Swizzle est requise si vous sélectionnez un seul composant.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction est prise en charge dans les versions suivantes.
 
@@ -63,7 +63,7 @@ Cette instruction est prise en charge dans les versions suivantes.
 
 
 
- 
+ 
 
 Lorsque la comparaison a la valeur true, elle est déverrouillée de la boucle en cours, comme indiqué.
 
@@ -82,9 +82,9 @@ if (!(src0 comparison src1))
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

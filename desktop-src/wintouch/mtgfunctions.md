@@ -1,25 +1,25 @@
 ---
-title: Fonctions (gestes tactiles Windows)
-description: Cette section contient des fonctions pour les gestes tactiles Windows.
+title: fonctions (Windows les gestes tactiles)
+description: cette section contient des fonctions pour Windows les gestes tactiles.
 ms.assetid: 830031d1-eb8d-45d4-b66e-3f4fbb96ae13
 keywords:
-- Tactile Windows, fonctions
-- Tactile Windows, gestes
+- Windows Fonctions tactiles
+- Windows Toucher, mouvements
 - mouvements, fonctions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f2c8a1b1a6573cb39907c571ebc053d1efa066
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f45112d81f80b4c3acba90ee25a65263f0183f296a432d66b3e278a14ae041f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435380"
 ---
-# <a name="functions-windows-touch-gestures"></a>Fonctions (gestes tactiles Windows)
+# <a name="functions-windows-touch-gestures"></a>fonctions (Windows les gestes tactiles)
 
-Cette section contient des fonctions pour les gestes tactiles Windows.
+cette section contient des fonctions pour Windows les gestes tactiles.
 
-Les fonctions suivantes sont utilisées pour les gestes tactiles Windows.
+les fonctions suivantes sont utilisées pour Windows les gestes tactiles.
 
 
 
@@ -39,7 +39,7 @@ Les fonctions suivantes sont utilisées pour les gestes tactiles Windows.
 
 <dl> <dt>
 
-[Gestes tactiles Windows](multi-touch-gestures.md)
+[Windows Gestes tactiles](multi-touch-gestures.md)
 </dt> <dt>
 
 [Guide de programmation pour les gestes](guide-multi-touch-gestures.md)

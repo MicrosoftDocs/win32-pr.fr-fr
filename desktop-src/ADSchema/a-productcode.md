@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51dc874552fc819de4f9c58b23809b9f5662ee6e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d527263787b68fbe7ab328fa5d1e91a0b7b9dd2385b29d5e6b0bb4a9fedc0400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103942980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681747"
 ---
 # <a name="product-code-attribute"></a>Attribut Product-Code
 
@@ -45,7 +45,7 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 -   [**Windows 2000 Server**](#windows-2000-server)
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |
@@ -78,10 +78,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |
@@ -99,10 +99,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |
@@ -120,10 +120,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |
@@ -141,10 +141,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |
@@ -162,10 +162,10 @@ Cet attribut contient un identificateur unique pour une application pour une ver
 |------------------------|------------------------------------------------------------------|
 | ID de lien                | \-                                                               |
 | MAPI-Id                | \-                                                               |
-| System-Only            | Faux                                                            |
-| Est de valeur unique       | Vrai                                                             |
-| Est indexé             | Faux                                                            |
-| Dans le catalogue global      | Faux                                                            |
+| System-Only            | False                                                            |
+| Est de valeur unique       | True                                                             |
+| Est indexé             | False                                                            |
+| Dans le catalogue global      | False                                                            |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                     |
 | Range-Lower            | 0                                                                |
 | Range-Upper            | 16                                                               |

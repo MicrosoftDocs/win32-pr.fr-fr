@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681244c9d852c25d8e63ad389b03f16e6db8148c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1519e6208e8bccae0288d6e0b31d7897faba4e1c9c7add8987f5dd493f4f5f3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384488"
 ---
 # <a name="enum-attribute"></a>attribut enum
 
@@ -35,7 +35,7 @@ enum [tag ]
 
 <dl> <dt>
 
-*tag* 
+*Référence* 
 </dt> <dd>
 
 Spécifie une balise facultative pour le type énuméré.
@@ -56,7 +56,7 @@ Spécifie une valeur entière constante.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 les types **enum** peuvent apparaître en tant que spécificateurs de type dans les déclarations [**typedef**](typedef.md) , les déclarations générales et les déclarateurs de fonction (en tant que fonction-Return-type ou en tant que spécificateur de type paramètre). Pour le contexte dans lequel les spécificateurs de type s’affichent, consultez [fichier de définition d’interface (IDL)](interface-definition-idl-file.md).
 
@@ -98,9 +98,9 @@ typedef enum {Clemens=21, Palmer=22, Ryan=34} pitchers;
 [**\_enum v1**](v1-enum.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

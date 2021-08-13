@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102462
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: eaf72b3f62b8284ba1c3c14dd477412d0875cbe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 813af19ad5fa3fe1e5f1d6116022703ad2238f15fb313d30fba38a912965e791
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118492971"
 ---
 # <a name="esentoutofdbtimevaluesexception-properties"></a>Propriétés EsentOutOfDbtimeValuesException
 
@@ -49,7 +49,7 @@ Le type [EsentOutOfDbtimeValuesException](./esentoutofdbtimevaluesexception-clas
 </tr>
 <tr class="even">
 <td><img src="../images/dn292128.protproperty(exchg.10).gif" title="Propriété protégée" alt="Protected property" /></td>
-<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">HResult</a></td>
+<td><a href="/dotnet/api/system.exception.hresult#System_Exception_HResult">Signé</a></td>
 <td>(Héritée de l' <a href="/dotnet/api/system.exception">exception</a>.)</td>
 </tr>
 <tr class="odd">

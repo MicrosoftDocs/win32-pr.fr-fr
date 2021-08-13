@@ -7,12 +7,12 @@ keywords:
 - Codes d’erreur Win32 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15d8151c07fb6470d395f15e088ae5e50f3e43bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1d1986b0de2e4afeed0fccdcce62851acfaf104c3f360b7ea462410f4484f7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103939568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689889"
 ---
 # <a name="win32-error-codes"></a>Codes d’erreur Win32
 
@@ -83,11 +83,11 @@ Le tableau suivant répertorie les messages d’erreur LDAP pour ADSI.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

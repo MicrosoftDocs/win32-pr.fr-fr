@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ee3aa8d5e4f7b7cb557af5eeb4a02c9a10dafbbf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 92aeae3e9859c97a425806f9f24d23ea741d1d32132ac99cefac5fafb9fa7126
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394231"
 ---
 # <a name="registry_v0-class"></a>Classe de Registre \_ v0
 
@@ -44,8 +44,8 @@ La classe **Registry \_ v0** ne définit aucun membre.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>          |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>          |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -56,7 +56,7 @@ La classe **Registry \_ v0** ne définit aucun membre.
 [**MSNT \_ SystemTrace**](msnt-systemtrace.md)
 </dt> <dt>
 
-[**Du**](registry.md)
+[**Registre**](registry.md)
 </dt> <dt>
 
 [**Registre \_ v0 \_ TypeGroup1**](registry-v0-typegroup1.md)

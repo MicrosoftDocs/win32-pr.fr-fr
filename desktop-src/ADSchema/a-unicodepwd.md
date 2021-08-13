@@ -1,6 +1,6 @@
 ---
 title: Attribut Unicode-Pwd
-description: Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF. Cette propriété est utilisée uniquement par le système d’exploitation. Notez que vous ne pouvez pas dériver le mot de passe en clair à partir de la forme OWF du mot de passe.
+description: Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF. Cette propriété est utilisée uniquement par le système d’exploitation. Notez que vous ne pouvez pas dériver le mot de passe en clair à partir de la forme OWF du mot de passe.
 ms.assetid: 07b29a0c-aff2-4abd-8ca8-95f1ce5b566b
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d00a1df180b7a30b56bdf198a78edc77cc99755
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0e21929cf41b58688f768ada0b608ca3ef0892a4a54043c30f5cac2d5a72258b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681086"
 ---
 # <a name="unicode-pwd-attribute"></a>Attribut Unicode-Pwd
 
-Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). Windows 2000 utilise Windows NT OWF. Cette propriété est utilisée uniquement par le système d’exploitation. Notez que vous ne pouvez pas dériver le mot de passe en clair à partir de la forme OWF du mot de passe.
+Mot de passe de l’utilisateur dans Windows format à sens unique NT (OWF). Windows 2000 utilise le Windows NT OWF. Cette propriété est utilisée uniquement par le système d’exploitation. Notez que vous ne pouvez pas dériver le mot de passe en clair à partir de la forme OWF du mot de passe.
 
 
 
@@ -46,7 +46,7 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -58,10 +58,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -79,10 +79,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -100,10 +100,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-------------------------------------------------------------------|
 | ID de lien                | \-                                                                |
 | MAPI-Id                | \-                                                                |
-| System-Only            | Faux                                                             |
-| Est de valeur unique       | Vrai                                                              |
-| Est indexé             | Faux                                                             |
-| Dans le catalogue global      | Faux                                                             |
+| System-Only            | False                                                             |
+| Est de valeur unique       | True                                                              |
+| Est indexé             | False                                                             |
+| Dans le catalogue global      | False                                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                      |
 | Range-Lower            | \-                                                                |
 | Range-Upper            | \-                                                                |
@@ -121,10 +121,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -142,10 +142,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -163,10 +163,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |
@@ -184,10 +184,10 @@ Mot de passe de l’utilisateur dans le format à sens unique Windows NT (OWF). 
 |------------------------|-----------------------------------|
 | ID de lien                | \-                                |
 | MAPI-Id                | \-                                |
-| System-Only            | Faux                             |
-| Est de valeur unique       | Vrai                              |
-| Est indexé             | Faux                             |
-| Dans le catalogue global      | Faux                             |
+| System-Only            | False                             |
+| Est de valeur unique       | True                              |
+| Est indexé             | False                             |
+| Dans le catalogue global      | False                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                      |
 | Range-Lower            | \-                                |
 | Range-Upper            | \-                                |

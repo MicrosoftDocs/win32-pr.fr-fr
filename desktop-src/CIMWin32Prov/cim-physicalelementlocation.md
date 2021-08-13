@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5e47460a3563d9b7a86aa6ee65704fcb0a422c39
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4ab75b4f7bd6e7aaff262445a33d412c587c1a9ba179f873c597a4cca3485323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678180"
 ---
 # <a name="cim_physicalelementlocation-class"></a>\_Classe CIM PhysicalElementLocation
 
@@ -86,7 +86,7 @@ Référence à l’emplacement de l’élément physique.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WMI n’implémente pas cette classe.
 

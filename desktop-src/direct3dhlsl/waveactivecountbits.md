@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c4d2db55e9e3a0ad8f0a66be183d6e39d2a8b9c
-ms.sourcegitcommit: a232805e6c618673f2df904111cc4f5a33e15504
+ms.openlocfilehash: 4e1642cbd5cbdef162511185e9d2c05e849d78486b82e8219623286f33e39223
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "104316866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504934"
 ---
 # <a name="waveactivecountbits-function"></a>WaveActiveCountBits fonction)
 
@@ -50,7 +50,7 @@ Variables booléennes à évaluer. La fourniture d’une valeur booléenne True 
 
 Nombre dont la valeur est true sur tous les couloirs actifs de l’onde actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

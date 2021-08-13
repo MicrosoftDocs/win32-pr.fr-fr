@@ -4,12 +4,12 @@ ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System. ItemFolderPathDisplayNarrow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbee8a45eb6ea557e99c854464c7dc09ec5613d2
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: bb87cadc4f4f132870ea51af1bba55c992c09d3eb5a90f446a3d92810b5941d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726481"
 ---
 # <a name="systemitemfolderpathdisplaynarrow"></a>System. ItemFolderPathDisplayNarrow
 

@@ -1,5 +1,5 @@
 ---
-description: Les éléments du panneau de configuration sont des dll ou des fichiers exécutables (. exe) qui permettent aux utilisateurs de configurer l’environnement de Windows. Ils sont généralement accessibles en cliquant sur une icône dans le panneau de configuration.
+description: Les éléments du panneau de configuration sont des fichiers dll ou exécutables (.exe) qui permettent aux utilisateurs de configurer l’environnement des Windows. Ils sont généralement accessibles en cliquant sur une icône dans le panneau de configuration.
 title: Implémentation des éléments du panneau de configuration
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,18 +9,18 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 310d01f07d40cef69c6be30231bbf4780a1d8838
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fec58663459b1e71e09b98ff8b7d3899a1b41388eefb2267558d4ed83cbe9ade
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460618"
 ---
 # <a name="implementing-control-panel-items"></a>Implémentation des éléments du panneau de configuration
 
-Les éléments du panneau de configuration sont des dll ou des fichiers exécutables (. exe) qui permettent aux utilisateurs de configurer l’environnement de Windows. Ils sont généralement accessibles en cliquant sur une icône dans le panneau de configuration.
+Les éléments du panneau de configuration sont des fichiers dll ou exécutables (.exe) qui permettent aux utilisateurs de configurer l’environnement des Windows. Ils sont généralement accessibles en cliquant sur une icône dans le panneau de configuration.
 
-Cette section décrit les éléments du panneau de configuration et explique comment les créer et les inscrire pour qu’ils apparaissent correctement dans le panneau de configuration. Pour Windows Vista, vous trouverez des informations qui vous indiquent comment ajouter des liens de tâches qui s’affichent sous l’élément du panneau de configuration et dans les résultats de la recherche du panneau de configuration.
+Cette section décrit les éléments du panneau de configuration et explique comment les créer et les inscrire pour qu’ils apparaissent correctement dans le panneau de configuration. pour Windows Vista, vous trouverez des informations qui vous indiquent comment ajouter des liens de tâches qui s’affichent sous l’élément du panneau de configuration et dans les résultats de la recherche du panneau de configuration.
 
 -   [Conseils sur l’expérience utilisateur](user-experience-guidelines.md)
 -   [Inscription des éléments du panneau de configuration](registering-control-panel-items.md)
@@ -32,7 +32,7 @@ Cette section décrit les éléments du panneau de configuration et explique com
 -   [Extension des éléments du panneau de configuration système](extending-system-control-panel-items.md)
 -   [Affectation des catégories du panneau de configuration](assigning-control-panel-categories.md)
 -   [Création de liens de tâches pouvant faire l’objet d’une recherche pour un élément du panneau de configuration](creating-searchable-task-links.md)
--   [Accès au panneau de configuration en mode sans échec](accessing-the-cp-in-safe-mode-under-vista.md)
+-   [accès au panneau de configuration en Mode Coffre](accessing-the-cp-in-safe-mode-under-vista.md)
 -   [Noms canoniques des éléments du panneau de configuration](controlpanel-canonical-names.md)
 
  

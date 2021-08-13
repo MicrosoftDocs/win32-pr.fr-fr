@@ -4,17 +4,17 @@ description: Avec un contrôle spin, les utilisateurs peuvent cliquer sur les bo
 ms.assetid: 5f791fb9-1354-41b9-a9de-ddab35302d50
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 54ce622983e52d65fa58ef05aca783ff67ebce66
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b97f5acc8a3f904df3a868274356e5337f5cc9280a5eed81693d92ce9bf9a37c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118217358"
 ---
 # <a name="spin-controls"></a>Contrôles spin
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un contrôle spin, les utilisateurs peuvent cliquer sur les boutons fléchés pour modifier de manière incrémentielle la valeur dans la [zone de texte numérique](ctrl-text-boxes.md)qui lui est associée. Le terme zone de sélection numérique fait référence à la combinaison d’une zone de texte et de son contrôle spin associé.
 

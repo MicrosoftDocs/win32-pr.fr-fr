@@ -7,12 +7,12 @@ MSHAttr:
 title: SimIccID (v4)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f74a93e9fef6ad41ef4056c0a813c71d98e2ff6e
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: f8a6b80f8cbc4e4c4f60961586093535a782af4e957d2a84e2e9e37d14c78230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106535439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745314"
 ---
 # <a name="span-idwwan_profile_v4element_1_simiccidspanmodemdmconfigprofilesimiccid-v4"></a><span id="WWAN_profile_v4.element_1_SimIccID"></span>ModemDMConfigProfile \/ SimIccID (v4)
 
@@ -40,11 +40,11 @@ Numéro de identifcation SIM pour les appareils GSM. Pour plus d’informations,
 
 ### <a name="span-idattributesspanspan-idattributesspanattributes"></a><span id="attributes"></span><span id="ATTRIBUTES"></span>Attributs
 
-Aucun
+Aucune.
 
 ### <a name="span-idchild_elementsspanspan-idchild_elementsspanspan-idchild_elementsspanchild-elements"></a><span id="Child_Elements"></span><span id="child_elements"></span><span id="CHILD_ELEMENTS"></span>Éléments enfants
 
-Aucun
+Aucune.
 
 ### <a name="span-idparent_elementsspanspan-idparent_elementsspanparent-elements"></a><span id="parent_elements"></span><span id="PARENT_ELEMENTS"></span>Éléments parents
 

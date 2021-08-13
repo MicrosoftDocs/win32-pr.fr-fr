@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c8334aa54b56a9dccaa7aa0787d8c997baf0445e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be18f77c4946a5d8a79adc09e97bc9ab35782fdb837f15b82794cbf5f624d59d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546161"
 ---
 # <a name="subscriptionsforcomponent-collection"></a>Collection SubscriptionsForComponent
 
@@ -48,7 +48,7 @@ Vous pouvez accéder à cette collection à partir des regroupements suivants :
 Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalogObject**](comadmincatalogobject.md) dans la collection :
 
 -   [Description](#description)
--   [Enabled](#enabled)
+-   [Activé](#enabled)
 -   [EventClassPartitionID](#eventclasspartitionid)
 -   [EventCLSID](#eventclsid)
 -   [FilterCriteria](#filtercriteria)
@@ -89,7 +89,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 | Description    | Indique si l’abonnement est actuellement activé. |
 | Accès         | Lecture/écriture                                                |
 | Type           | Bool                                                     |
-| Default        | Vrai                                                     |
+| Default        | True                                                     |
 | Système minimal | Windows 2000                                             |
 
 
@@ -144,7 +144,7 @@ Les propriétés suivantes sont prises en charge par l’objet [**COMAdminCatalo
 
  
 
-### <a name="id"></a>id
+### <a name="id"></a>ID
 
 
 

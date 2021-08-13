@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 085304c5319811ba87979124613c7d8e83fd7479
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b52ace8ea72d78585ac0df858df1fc807fbc65ca74ace92208d2e9fc5c76861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417730"
 ---
 # <a name="win32_dcomapplicationsetting-class"></a>\_Classe DCOMApplicationSetting Win32
 
@@ -137,12 +137,12 @@ Aucun (aucune authentification n’est effectuée)
 
 <span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>
 
-<span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>**Connexion** (2)
+<span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>**Connecter** (2)
 
 
 </dt> <dd>
 
-Se connecter (l’authentification est effectuée uniquement lorsque le client établit une relation avec l’application)
+Connecter (l’authentification est effectuée uniquement lorsque le client établit une relation avec l’application)
 
 </dd> <dt>
 
@@ -317,7 +317,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ("Win32Registry \| HKEY \_ local \_ machine machine \\ \\ \\ \\ classes \\ \\ AppID \\ \\ {GUID} \[ ServiceParameters \] ")
 </dt> </dl>
 
-Paramètres de ligne de commande passés à l’application DCOM. Cela est valide uniquement si l’application est écrite en tant que service Windows.
+Paramètres de ligne de commande passés à l’application DCOM. cela est valide uniquement si l’application est écrite en tant que service Windows.
 
 </dd> <dt>
 
@@ -355,7 +355,7 @@ L’application DCOM peut être activée en tant que serveur hors processus à l
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ DCOMApplicationSetting** est dérivée de la [**\_ comdéfinition Win32**](win32-comsetting.md).
 

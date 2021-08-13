@@ -9,19 +9,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: be411ab93fa9d265963867a4a34a4f2cf567f464
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 997873d9dc7df53fdbbac042300b60458f0ad90405f974da2172fbe7cc24ca02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514137"
 ---
 # <a name="language-syntax"></a>Syntaxe du langage
 
 Les nuanceurs HLSL sont constitués de variables, et de fonctions, qui sont à leur tour constituées d’instructions. La syntaxe du langage décrit comment définir et déclarer des variables, ajouter un contrôle de Flow afin que les nuanceurs puissent prendre des décisions d’exécution en fonction des variables et écrire des fonctions personnalisées.
 
 -   [Variables](dx-graphics-hlsl-variables.md)
--   [Contrôle de Flow](dx-graphics-hlsl-flow-control.md)
+-   [Flow Régulation](dx-graphics-hlsl-flow-control.md)
 -   [Fonctions](dx-graphics-hlsl-functions.md)
 -   [Instructions](dx-graphics-hlsl-statements.md)
 -   [Sémantique](dx-graphics-hlsl-semantics.md)
@@ -33,9 +33,9 @@ Les nuanceurs HLSL sont constitués de variables, et de fonctions, qui sont à l
 [Référence pour le langage HLSL](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

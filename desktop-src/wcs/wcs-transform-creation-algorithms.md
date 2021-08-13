@@ -3,8 +3,8 @@ title: Algorithmes de création de transformation WCS
 description: Algorithmes de création de transformation WCS
 ms.assetid: 526bbbfc-fb60-415d-b4f0-6a44a5d11a55
 keywords:
-- Système de couleurs Windows (WCS), création de transformation
-- WCS (système de couleurs Windows), création de transformation
+- Windows Système de couleurs (WCS), création de transformation
+- WCS (Windows Color System), création de la transformation
 - gestion des couleurs des images, création de transformations
 - gestion des couleurs, création de transformations
 - couleurs, création de transformation
@@ -14,12 +14,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 418596c0e57571f3e504727d4606921d36ff9461
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: df199f0fa649e7ce545a7b371f1caba65686746766f5572bac8e43b47413eace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104552946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118445560"
 ---
 # <a name="wcs-transform-creation-algorithms"></a>Algorithmes de création de transformation WCS
 
@@ -47,9 +47,9 @@ ms.locfileid: "104552946"
 
 ## <a name="creation-of-transforms"></a>Création de transformations
 
-Pour expliquer correctement le fonctionnement des transformations de couleurs, il est utile d’expliquer le chemin de traitement complet via ICM 2,0 et les éléments internes de la CTE. La fonction [**CREATECOLORTRANSFORMW**](/windows/win32/api/icm/nf-icm-createcolortransformw) ICM 2,0 crée une transformation de couleur que les applications peuvent utiliser pour effectuer la gestion des couleurs. Cette fonction crée un contexte de couleur à partir du [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) et des entrées d’intention. Les intentions sont mappées à la ligne de base des algorithmes de mappage de gamme ICC. La fonction appelle ensuite la fonction ICM 2,0 [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/) pour le traitement cohérent des couleurs. La fonction **CreateColorTransform** copie généralement les données dans la structure de transformation optimisée interne.
+pour expliquer le fonctionnement des transformations de couleurs, il est utile d’expliquer le chemin de traitement complet à la fois ICM 2,0 et les éléments internes de la CTE. la fonction ICM 2,0 [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw) crée une transformation de couleur que les applications peuvent utiliser pour effectuer la gestion des couleurs. Cette fonction crée un contexte de couleur à partir du [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) et des entrées d’intention. Les intentions sont mappées à la ligne de base des algorithmes de mappage de gamme ICC. la fonction appelle ensuite la fonction ICM 2,0 [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/) pour le traitement cohérent des couleurs. La fonction **CreateColorTransform** copie généralement les données dans la structure de transformation optimisée interne.
 
-La fonction CreateMultiProfileTransform ICM 2,0 accepte un tableau de profils et un tableau d’intentions ou un profil de lien d’appareil unique et crée une transformation de couleur que les applications peuvent utiliser pour effectuer le mappage des couleurs. Il traite ces profils et intentions d’entrée pour créer des modèles d’appareil, des modèles d’apparence de couleur, des descriptions de limites de gamme et des modèles de mappage de couleurs. Voici comment procéder :
+la fonction ICM 2,0 CreateMultiProfileTransform accepte un tableau de profils et un tableau d’intentions ou un profil de lien d’appareil unique et crée une transformation de couleur que les applications peuvent utiliser pour effectuer le mappage des couleurs. Il traite ces profils et intentions d’entrée pour créer des modèles d’appareil, des modèles d’apparence de couleur, des descriptions de limites de gamme et des modèles de mappage de couleurs. Voici comment procéder :
 
 -   Les modèles d’appareil sont initialisés directement à partir de profils DM. Un modèle d’appareil est créé pour chaque profil dans l’appel à [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/).
 -   Les modèles d’apparence de couleur sont initialisés directement à partir de profils CAM. Il existe un profil CAM pour chaque profil dans l’appel à [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/). Toutefois, un même profil CAM peut être spécifié pour plusieurs profils.
@@ -85,15 +85,15 @@ Le mode doit être l’un des éléments suivants.
 
 ## <a name="transform-execution"></a>Transformation, exécution
 
-La fonction [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors) de l’API ICM 2,0 convertit un tableau de couleurs de l' [espace de couleurs](c.md) source en espace de couleur de destination, comme défini par une transformation de couleur. Cette fonction effectue une vérification interne sur un tableau de couleurs mises en cache pour permettre une correspondance immédiate des couleurs couramment transformées. Cette transformation prend en charge des tableaux d’octets par canal à 8 bits et des tableaux flottants 32 bits par canal. Tous les autres formats seront convertis avant le passage à la nouvelle CTE.
+la fonction [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors) de l’API ICM 2,0 convertit un tableau de couleurs de l' [espace de couleurs](c.md) source en espace de couleur de destination, comme défini par une transformation de couleur. Cette fonction effectue une vérification interne sur un tableau de couleurs mises en cache pour permettre une correspondance immédiate des couleurs couramment transformées. Cette transformation prend en charge des tableaux d’octets par canal à 8 bits et des tableaux flottants 32 bits par canal. Tous les autres formats seront convertis avant le passage à la nouvelle CTE.
 
-La fonction [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) de l’API ICM 2,0 traduit les couleurs d’une image bitmap ayant un format défini pour produire une autre bitmap dans un format demandé. Cette fonction effectue une vérification interne sur un tableau de couleurs mises en cache pour permettre une correspondance immédiate des couleurs couramment transformées. Pour éviter un trop grand nombre de chemins de code, de prise en charge et de test de complexité, seul un nombre limité de formats bitmap est pris en charge dans le moteur de transformation et d’interpolation. Cette fonction doit traduire les formats bitmap entrants et sortants non natifs en formats pris en charge en mode natif pour le traitement. Cette transformation prend en charge uniquement les bitmaps de 8 bits par octet de canal et les bitmaps à virgule flottante 32 bits par canal. Tous les autres formats seront convertis avant le passage à la nouvelle CTE.
+la fonction [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) de l’API ICM 2,0 traduit les couleurs d’une image bitmap ayant un format défini pour produire une autre bitmap dans un format demandé. Cette fonction effectue une vérification interne sur un tableau de couleurs mises en cache pour permettre une correspondance immédiate des couleurs couramment transformées. Pour éviter un trop grand nombre de chemins de code, de prise en charge et de test de complexité, seul un nombre limité de formats bitmap est pris en charge dans le moteur de transformation et d’interpolation. Cette fonction doit traduire les formats bitmap entrants et sortants non natifs en formats pris en charge en mode natif pour le traitement. Cette transformation prend en charge uniquement les bitmaps de 8 bits par octet de canal et les bitmaps à virgule flottante 32 bits par canal. Tous les autres formats seront convertis avant le passage à la nouvelle CTE.
 
  
 
 ### <a name="sequential-transform-execution"></a>Exécution de transformation séquentielle
 
-Si le  bit de transformation séquentiel est \_ défini pour le paramètre dwFlags lorsque les fonctions ICM [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw) ou **CreateMultiProfileTransform** sont appelées, les étapes de transformation sont exécutées de manière séquentielle. Cela signifie que le code parcourt séparément chaque modèle d’appareil, modèle d’apparence de couleur et modèle de mappage de couleurs, comme spécifié par l’appel de **CreateColorTransform** ou **CreateMultiProfileTransform** . Cela peut être utile pour déboguer des modules de plug-in, mais il est beaucoup plus lent que d’exécuter via une transformation optimisée. L’exécution en mode séquentiel n’est donc pas recommandée pour les logiciels de production. En outre, il peut y avoir de légères différences dans les résultats obtenus en mode séquentiel et en mode optimisé. Cela est dû à des variantes introduites lorsque les fonctions sont concaténées ensemble.
+si le  bit de transformation séquentiel est \_ défini pour le paramètre dwFlags lorsque les fonctions ICM [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw) ou **CreateMultiProfileTransform** sont appelées, les étapes de transformation sont exécutées de manière séquentielle. Cela signifie que le code parcourt séparément chaque modèle d’appareil, modèle d’apparence de couleur et modèle de mappage de couleurs, comme spécifié par l’appel de **CreateColorTransform** ou **CreateMultiProfileTransform** . Cela peut être utile pour déboguer des modules de plug-in, mais il est beaucoup plus lent que d’exécuter via une transformation optimisée. L’exécution en mode séquentiel n’est donc pas recommandée pour les logiciels de production. En outre, il peut y avoir de légères différences dans les résultats obtenus en mode séquentiel et en mode optimisé. Cela est dû à des variantes introduites lorsque les fonctions sont concaténées ensemble.
 
 ### <a name="creation-of-optimized-transforms"></a>Création de transformations optimisées
 
@@ -161,7 +161,7 @@ Toutes les LUTs ouvertes de la dimension *k* comporteront le même nombre d’é
 
 SAMP *i*: ![ affiche l’algorithme SAMP i.](images/transformcreation-image043.png)
 
-Enfin, spécifiez *d* et *d* (*k* ) dans le tableau suivant. Les trois modes « preuve », « normal » et « Best » sont les paramètres de qualité ICM 2,0. Dans cette implémentation, le mode de preuve a l’encombrement mémoire le plus faible et le meilleur mode a le plus grand encombrement mémoire.
+Enfin, spécifiez *d* et *d* (*k* ) dans le tableau suivant. les trois modes « preuve », « normal » et « best » correspondent aux paramètres de qualité ICM 2,0. Dans cette implémentation, le mode de preuve a l’encombrement mémoire le plus faible et le meilleur mode a le plus grand encombrement mémoire.
 
 Pour implémenter cet algorithme, vous devez appeler l’algorithme \# 2 suivant. Les utilisateurs peuvent spécifier leurs propres emplacements d’échantillonnage, en utilisant les tableaux comme guide.
 
@@ -384,7 +384,7 @@ Dans le cas des transformations HDR, les valeurs minimales et maximales de chaqu
 
 ### <a name="iccprofilefromwcsprofile"></a>ICCProfileFromWCSProfile
 
-Étant donné que l’objectif principal de cette fonctionnalité est de prendre en charge les versions antérieures à Vista de Windows, vous devez générer les profils ICC de la version 2,2 tels que définis dans la spécification ICC ICC. 1:1998-09. Dans certains cas (reportez-vous au tableau suivant « mappage de la classe de profil ICC »), vous pouvez créer un profil ICC basé sur une matrice ou un TRC à partir d’un profil WCS. Dans d’autres cas, le profil ICC est constitué de LUTs. Le processus suivant décrit comment créer les LUTs AToB et BToA. Bien entendu, les profils ICC comportent également d’autres champs. Certaines données peuvent être dérivées du profil WCS. Pour les autres données, vous devez développer des valeurs par défaut intelligentes. Les droits d’auteur seront attribués à Microsoft ; étant donné qu’il s’agit de la technologie Microsoft utilisée pour créer le LUTs.
+étant donné que l’objectif principal de cette fonctionnalité est de prendre en charge les versions antérieures à Vista de Windows, vous devez générer les profils icc de la Version 2,2 tels que définis dans la spécification icc icc. 1:1998-09. Dans certains cas (reportez-vous au tableau suivant « mappage de la classe de profil ICC »), vous pouvez créer un profil ICC basé sur une matrice ou un TRC à partir d’un profil WCS. Dans d’autres cas, le profil ICC est constitué de LUTs. Le processus suivant décrit comment créer les LUTs AToB et BToA. Bien entendu, les profils ICC comportent également d’autres champs. Certaines données peuvent être dérivées du profil WCS. Pour les autres données, vous devez développer des valeurs par défaut intelligentes. Les droits d’auteur seront attribués à Microsoft ; étant donné qu’il s’agit de la technologie Microsoft utilisée pour créer le LUTs.
 
 Cette conception doit fonctionner pour tous les types de modèles d’appareil, y compris les plug-ins. Tant que le plug-in est associé à un modèle d’appareil de base, le type d’appareil sous-jacent peut être déterminé.
 
@@ -511,7 +511,7 @@ Les deux processus précédents peuvent être utilisés pour améliorer efficace
 
 ### <a name="checkgamut"></a>CheckGamut
 
-L’ICM appelle CreateTransform et **CreateMultiProfileTransform** prend un mot de valeurs d’indicateur, dont l’une est active la vérification de la \_ gamme \_ . Lorsque cet indicateur est défini, CITE doit créer la transformation différemment. Les étapes initiales sont les mêmes : les CAM source et de destination doivent être initialisées, puis les descripteurs de la limite de la gamme source et de destination doivent être initialisés. Quelle que soit l’intention spécifiée, le MGM CheckGamut doit être utilisé. Le MGM CheckGamut doit être initialisé à l’aide des modèles d’appareil source et de destination et des descripteurs de limites de gamme. Toutefois, la transformation doit ensuite créer une transformation tronquée comprenant le modèle d’appareil source, le CAM source, tous les MGM intermédiaires et le MGM CheckGamut. Cela garantit que les valeurs Delta J, Delta C et Delta h générées par l’CheckGamut CMM deviennent les valeurs finales obtenues.
+le ICM appelle CreateTransform et **CreateMultiProfileTransform** prennent un mot de valeurs d’indicateur, dont l’une est active la vérification de la \_ gamme \_ . Lorsque cet indicateur est défini, CITE doit créer la transformation différemment. Les étapes initiales sont les mêmes : les CAM source et de destination doivent être initialisées, puis les descripteurs de la limite de la gamme source et de destination doivent être initialisés. Quelle que soit l’intention spécifiée, le MGM CheckGamut doit être utilisé. Le MGM CheckGamut doit être initialisé à l’aide des modèles d’appareil source et de destination et des descripteurs de limites de gamme. Toutefois, la transformation doit ensuite créer une transformation tronquée comprenant le modèle d’appareil source, le CAM source, tous les MGM intermédiaires et le MGM CheckGamut. Cela garantit que les valeurs Delta J, Delta C et Delta h générées par l’CheckGamut CMM deviennent les valeurs finales obtenues.
 
 La signification de CheckGamut est claire quand il n’y a que deux profils d’appareil dans la transformation. Lorsqu’il existe plus de deux profils d’appareil et plus de deux MGM, CheckGamut signale si les couleurs qui ont été transformées par le premier modèle d’appareil et tous les MGM sauf le dernier se trouvent dans la gamme du périphérique de destination.
 

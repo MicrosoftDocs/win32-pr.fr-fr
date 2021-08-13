@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: a78c94cd9d8854453517976300e12a031f65b8cb
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 32bdc7ca9a84bfe87ff453d34c4ecff57a8dabf5f67b21cc0d54ba079efd1578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106509421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543756"
 ---
 # <a name="do_download_enum_category-structure"></a>Structure DO_DOWNLOAD_ENUM_CATEGORY
 
@@ -53,6 +53,6 @@ Valeur de la propriété.
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **Client minimal pris en charge** | Windows 10, version 1809 \[ applications Win32 uniquement\] |
-| **Serveur minimal pris en charge** | Windows Server, version 1809 \[ applications Win32 uniquement\] |
+| **Client minimal pris en charge** | Windows 10, version 1809 \[ Applications Win32 uniquement\] |
+| **Serveur minimal pris en charge** | Windows Serveur, version 1809 \[ applications Win32 uniquement\] |
 | **En-tête** | Do. h |

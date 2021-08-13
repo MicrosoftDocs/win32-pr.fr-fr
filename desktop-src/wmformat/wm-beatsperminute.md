@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a0ba321fba79368460756c34e031b925d71c14f8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 691281d6ef2c3c6758ad48e23a14adaaab026fabcc732d0894250ce609a4c727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431830"
 ---
 # <a name="wmbeatsperminute"></a>WM/BeatsPerMinute
 
@@ -31,11 +31,11 @@ L’attribut **WM/BeatsPerMinute** contient les temps par minute du contenu.
 
 **\_chaîne de type WMT \_**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La valeur d’un attribut **BeatsPerMinute** est un entier stocké sous la forme d’une chaîne.
 
-### <a name="example"></a>Exemple
+### <a name="example"></a> Exemple
 
 
 
@@ -45,7 +45,7 @@ La valeur d’un attribut **BeatsPerMinute** est un entier stocké sous la forme
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -54,9 +54,9 @@ La valeur d’un attribut **BeatsPerMinute** est un entier stocké sous la forme
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

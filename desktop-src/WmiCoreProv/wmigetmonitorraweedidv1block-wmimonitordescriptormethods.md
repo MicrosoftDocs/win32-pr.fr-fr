@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 1af1ddb86a90ea9029d5cba408745fe3dafa69dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dacd0c44a6c0fa8270a65155583f8041616f98674d0798db8b13a72d13751653
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106533674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558084"
 ---
 # <a name="wmigetmonitorraweedidv1block-method-of-the-wmimonitordescriptormethods-class"></a>Méthode WmiGetMonitorRawEEdidV1Block de la classe WmiMonitorDescriptorMethods
 
@@ -60,7 +60,7 @@ Type de bloc de données. Le tableau suivant répertorie les valeurs de retour p
 | <dl> <dt>0 (0x0)</dt> </dl>    | Non initialisé(e)<br/>   |
 | <dl> <dt>1 (0x1)</dt> </dl>    | Bloc de base EDID<br/> |
 | <dl> <dt>2 (0X2)</dt> </dl>    | Carte de blocs EDID<br/>  |
-| <dl> <dt>255 (0xFF)</dt> </dl> | Autres<br/>           |
+| <dl> <dt>255 (0xFF)</dt> </dl> | Autre<br/>           |
 
 
 

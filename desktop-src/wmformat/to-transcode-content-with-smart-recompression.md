@@ -3,37 +3,37 @@ title: Pour transcoder du contenu avec la recompression intelligente
 description: Pour transcoder du contenu avec la recompression intelligente
 ms.assetid: 02398462-b0a4-4a17-84e3-4c6f9f26639f
 keywords:
-- Kit de développement logiciel (SDK) Windows Media format, transcodage de contenu
+- Windows Media Format SDK, transcodage de contenu
 - Windows Media Format SDK, recompression intelligente
 - Windows Media Format SDK, recompression
-- Windows Media Format SDK, Windows Media Audio codecs
+- Windows kit de développement logiciel (SDK) Media Format, Windows Media Audio codecs
 - ASF (Advanced Systems Format), contenu de transcodage
 - ASF (format des systèmes avancés), transcodage du contenu
 - Format de systèmes avancés (ASF), recompression intelligente
 - ASF (format de systèmes avancés), recompression intelligente
 - Format de systèmes avancés (ASF), recompression
 - ASF (format des systèmes avancés), recompression
-- Formats ASF (Advanced Systems Format), Windows Media Audio les codecs
-- ASF (format des systèmes avancés), Windows Media Audio codecs
+- formats ASF (Advanced Systems Format), Windows Media Audio les codecs
+- ASF (Format des systèmes avancés), Windows Media Audio codecs
 - contenu de transcodage
 - recompression intelligente
 - recompression
-- Codecs Windows Media Audio, contenu de transcodage
+- Windows Codecs audio multimédias, contenu de transcodage
 - codecs, Windows Media Audio les codecs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1317989ea9384d4a9747d712af1ce5c61d484c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ee1cf363e196feca81ef9757f006b211758c2ff7fbdd1f50b5136992b394f8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699090"
 ---
 # <a name="to-transcode-content-with-smart-recompression"></a>Pour transcoder du contenu avec la recompression intelligente
 
-Vous pouvez transcoder du contenu d’une vitesse de transmission à une autre à l’aide du kit de développement logiciel (SDK) Windows Media format. Normalement, cela implique simplement le décodage du contenu et son encodage à la vitesse de transmission souhaitée. Le codec Windows Media Audio 9 prend en charge la recompression intelligente, qui permet le transcodage qui atteint une qualité supérieure à la normale.
+vous pouvez transcoder du contenu d’une vitesse de transmission à une autre à l’aide du kit de développement logiciel (SDK) Windows Media Format. Normalement, cela implique simplement le décodage du contenu et son encodage à la vitesse de transmission souhaitée. le codec Windows Media Audio 9 prend en charge la recompression intelligente, qui permet le transcodage qui atteint une qualité supérieure à la normale.
 
-Pour la recompression intelligente, le flux audio d’origine doit être encodé avec le codec Windows Media Audio. Toutes les versions du codec sont prises en charge, mais les codecs audio spécialisés (Windows Media Audio 9 Professional et Windows Media Audio 9 Voice) ne le sont pas. Si l’audio d’origine a été encodé avec le codec Windows Media Audio 9 Lossless, il n’est pas nécessaire d’utiliser la recompression intelligente, car aucune information n’a été perdue dans l’encodage d’origine.
+pour la recompression intelligente, le flux audio d’origine doit être encodé avec le codec Windows Media Audio. toutes les versions du codec sont prises en charge, mais les codecs audio spécialisés (Windows Media Audio 9 Professional et Windows Media Audio 9 Voice) ne le sont pas. si l’audio d’origine a été encodé avec le codec Windows Media Audio 9 Lossless, il n’est pas nécessaire d’utiliser la recompression intelligente, car aucune information n’a été perdue dans l’encodage d’origine.
 
 Pour utiliser la recompression intelligente, procédez comme suit.
 
@@ -71,9 +71,9 @@ Pour utiliser la recompression intelligente, procédez comme suit.
 [**Interface IWMStreamConfig**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

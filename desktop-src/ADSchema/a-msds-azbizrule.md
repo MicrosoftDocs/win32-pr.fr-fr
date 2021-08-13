@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 571ab48c9742ffb93015c433685c01cb3a9666d3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 215afa79e47a1ddf508b3d9d7a3d646c3157bafec4716eac31fae6b4b733058e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685369"
 ---
 # <a name="ms-ds-az-biz-rule-attribute"></a>ms-DS-AZ-biz-Rule Attribute
 
@@ -44,7 +44,7 @@ Texte du script qui implémente la règle d’entreprise.
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -56,10 +56,10 @@ Texte du script qui implémente la règle d’entreprise.
 |------------------------|---------------------------------------------------|
 | ID de lien                | \-                                                |
 | MAPI-Id                | \-                                                |
-| System-Only            | Faux                                             |
-| Est de valeur unique       | Vrai                                              |
-| Est indexé             | Faux                                             |
-| Dans le catalogue global      | Faux                                             |
+| System-Only            | False                                             |
+| Est de valeur unique       | True                                              |
+| Est indexé             | False                                             |
+| Dans le catalogue global      | False                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                      |
 | Range-Lower            | 0                                                 |
 | Range-Upper            | 65536                                             |
@@ -77,10 +77,10 @@ Texte du script qui implémente la règle d’entreprise.
 |------------------------|---------------------------------------------------|
 | ID de lien                | \-                                                |
 | MAPI-Id                | \-                                                |
-| System-Only            | Faux                                             |
-| Est de valeur unique       | Vrai                                              |
-| Est indexé             | Faux                                             |
-| Dans le catalogue global      | Faux                                             |
+| System-Only            | False                                             |
+| Est de valeur unique       | True                                              |
+| Est indexé             | False                                             |
+| Dans le catalogue global      | False                                             |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                      |
 | Range-Lower            | 0                                                 |
 | Range-Upper            | 65536                                             |
@@ -98,10 +98,10 @@ Texte du script qui implémente la règle d’entreprise.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |
@@ -119,10 +119,10 @@ Texte du script qui implémente la règle d’entreprise.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |
@@ -140,10 +140,10 @@ Texte du script qui implémente la règle d’entreprise.
 |------------------------|---------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                    |
 | MAPI-Id                | \-                                                                                    |
-| System-Only            | Faux                                                                                 |
-| Est de valeur unique       | Vrai                                                                                  |
-| Est indexé             | Faux                                                                                 |
-| Dans le catalogue global      | Faux                                                                                 |
+| System-Only            | False                                                                                 |
+| Est de valeur unique       | True                                                                                  |
+| Est indexé             | False                                                                                 |
+| Dans le catalogue global      | False                                                                                 |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                          |
 | Range-Lower            | 0                                                                                     |
 | Range-Upper            | 65536                                                                                 |

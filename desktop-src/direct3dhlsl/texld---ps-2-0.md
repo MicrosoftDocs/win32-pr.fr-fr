@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47f47a937123ce252189aac57e922b10c2a015fc
-ms.sourcegitcommit: 8737f32d64e5f01c1d38aab92736e4088d6c446e
+ms.openlocfilehash: e718bccc05d871cf3d79ec23530c0c891f484f6980b460d497a878742e1b57c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106540738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505804"
 ---
 # <a name="texld---ps_2_0-and-up"></a>texld-PS \_ 2 \_ 0 et haut
 
@@ -56,7 +56,7 @@ Une instruction de texture dépendante d’une seconde commande est définie com
 
 src1 doit être un [échantillonneur (Direct3D 9 ASM-PS)](dx9-graphics-reference-asm-ps-registers-sampler.md) , sans \# modificateur. Swizzle est autorisé sur src0 ou src1. Le Swizzle est appliqué aux coordonnées de texture avant la recherche de texture.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction est prise en charge dans les versions suivantes :
 

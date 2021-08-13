@@ -4,12 +4,12 @@ ms.assetid: 54225481-a147-4d29-a642-24c9b59fc3ac
 title: Obtention de l’ID d’un dossier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2e62454bf27f2c203f59aecb325cefe6537d2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 67d75051d52f0dfcee54b6365a8f546d2cbda2c3b5f7c0f4b6fbbc19fa1e40c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459008"
 ---
 # <a name="getting-a-folders-id"></a>Obtention de l’ID d’un dossier
 
@@ -26,7 +26,7 @@ Pour bénéficier d’une approche plus puissante qui fonctionne avec n’import
 
 Pour permettre à l’utilisateur de naviguer dans l’espace de noms et de sélectionner un dossier, votre application peut utiliser l’interface [**IFileDialog**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ifiledialog) . L’appel de cette interface avec l’indicateur **Fos \_ PICKFOLDERS** ouvre la boîte de dialogue courante [fichiers ouverts](../dlgbox/open-and-save-as-dialog-boxes.md) en mode « choisir des dossiers ».
 
-Pour Windows Vista et versions ultérieures, il s’agit de la méthode recommandée pour sélectionner des dossiers.
+pour Windows Vista et versions ultérieures, il s’agit de la méthode recommandée pour sélectionner des dossiers.
 
 ## <a name="the-shbrowseforfolder-dialog-box"></a>Boîte de dialogue SHBrowseForFolder
 
@@ -42,7 +42,7 @@ Un exemple simple d’utilisation de [**SHBrowseForFolder**](/windows/desktop/ap
 
 Un certain nombre de dossiers couramment utilisés sont désignés comme étant *spéciaux* par le système. Ces dossiers ont un objectif bien défini, et la plupart d’entre eux sont présents sur tous les systèmes. Même s’ils ne sont pas présents au départ, leurs noms et emplacements sont toujours définis, de sorte qu’ils peuvent être ajoutés ultérieurement. La collection de dossiers spéciaux comprend tous les dossiers virtuels standard du système, tels que imprimantes, mes documents et voisinage réseau. Il comprend également un certain nombre de dossiers de système de fichiers standard, tels que Program Files et System.
 
-Même si les dossiers sont un composant standard de tous les systèmes, leur nom et leur emplacement dans l’espace de noms peuvent varier. Par exemple, le répertoire système est C : \\ winnt \\ system32 sur certains systèmes et c : \\ Windows \\ system32 sur d’autres. Dans le passé, les variables d’environnement offraient un moyen de déterminer le nom et l’emplacement d’un dossier spécial sur un système particulier. L’interpréteur de commandes offre désormais un moyen plus robuste et plus souple d’identifier les dossiers spéciaux, [**CSIDLs**](csidl.md). Vous devez généralement les utiliser à la place des variables d’environnement.
+Même si les dossiers sont un composant standard de tous les systèmes, leur nom et leur emplacement dans l’espace de noms peuvent varier. par exemple, le répertoire système est c : \\ winnt \\ system32 sur certains systèmes et c : \\ Windows \\ system32 sur d’autres. Dans le passé, les variables d’environnement offraient un moyen de déterminer le nom et l’emplacement d’un dossier spécial sur un système particulier. L’interpréteur de commandes offre désormais un moyen plus robuste et plus souple d’identifier les dossiers spéciaux, [**CSIDLs**](csidl.md). Vous devez généralement les utiliser à la place des variables d’environnement.
 
 Les CSIDLs offrent un moyen uniforme d’identifier et de localiser des dossiers spéciaux, quel que soit leur nom ou emplacement sur un système particulier. Contrairement aux variables d’environnement, CSIDLs peut être utilisé avec des dossiers virtuels et des dossiers de système de fichiers. Chaque dossier spécial est associé à un CSIDL unique. Par exemple, le dossier Program Files File System contient un CSIDL des **\_ \_ fichiers programme de CSIDL** et le dossier virtuel du voisinage réseau a un CSIDL du **\_ réseau CSIDL**.
 

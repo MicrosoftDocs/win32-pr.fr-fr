@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - wfdsink.h
-ms.openlocfilehash: c576f88a5b7f97484647c4c06f44522a5c3c379f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7066f45b714c28b53747d0d0f1851bd94ac2ac902e5b4adba1d0746e8328b3b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619974"
 ---
 # <a name="wfd_display_sink_notification_callback-callback-function"></a>\_Fonction de \_ rappel de rappel de \_ notification du récepteur d’affichage WFD \_
 
@@ -69,7 +69,7 @@ Pointeur vers un struct contenant les données que votre application peut évent
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 8.1 les \[ applications de bureau uniquement\]<br/>                                         |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 R2 \[ uniquement\]<br/>                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[Applications de bureau R2 uniquement\]<br/>                              |
 | En-tête<br/>                   | <dl> <dt>Wfdsink. h</dt> </dl> |
 
 

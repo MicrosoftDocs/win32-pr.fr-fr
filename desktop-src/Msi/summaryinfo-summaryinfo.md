@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 0e51773a930b8868e31a7e88848300a62b717912
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b8635d081b44adfad3b3e869cb7fab96ee3d81107a8d962153f1caa5a14ac72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106530499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624090"
 ---
 # <a name="summaryinfoproperty-property"></a>Propriété SummaryInfo. Property
 
@@ -39,7 +39,7 @@ propVal = SummaryInfo.Property
 
 ID de propriété requis de l’une des propriétés de résumé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **ID de propriété de résumé standard**
 

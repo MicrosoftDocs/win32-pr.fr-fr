@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, modification de l’étendue d’un groupe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 641ad43604785a6aae5bb250061ff0a3b62c294e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: edbcbfb7e665b4f569fdef6d623bd7bfb947f94ece1de26ee062a70b07757300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694542"
 ---
 # <a name="example-code-for-changing-the-scope-of-a-group"></a>Exemple de code pour la modification de l’étendue d’un groupe
 
@@ -54,7 +54,7 @@ L’exemple de code C++ suivant modifie l’étendue d’un groupe.
 
 
 
-L’exemple de code Visual Basic suivant modifie l’étendue d’un groupe.
+l’exemple de code Visual Basic suivant modifie l’étendue d’un groupe.
 
 
 ```VB
@@ -72,9 +72,9 @@ CleanUp:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

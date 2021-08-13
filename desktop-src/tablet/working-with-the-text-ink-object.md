@@ -4,12 +4,12 @@ ms.assetid: 0202e91c-c7a0-4e7b-a1c6-a2f58c11c0be
 title: Utilisation de l’objet Ink Text
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 082323f7e67e76f7ae39c6b592a86f2be0945a86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 938d7e68795147913b64cad399f70ac6c1d2fdb06edc19e6d0c0b6c64add6422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449262"
 ---
 # <a name="working-with-the-text-ink-object"></a>Utilisation de l’objet Ink Text
 
@@ -27,7 +27,7 @@ Un objet Ink Text peut être généré des manières suivantes.
 -   Quand une application copie un [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) ou un objet [InkEdit](inkedit-control-reference.md) dans le presse-papiers et que le format d' [**énumération InkClipboardFormats**](/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats) est défini, l’emplacement du presse-papiers de l’objet OLE contient un objet OLE d’encre textuelle.
 -   Le panneau de saisie Tablet PC peut générer des objets Ink Text.
 
-Par exemple, votre application peut reconnaître l’écriture manuscrite et ajouter le résultat de la reconnaissance aux traits. Ensuite, si vous copiez et collez les traits dans Microsoft Word sous la forme d’un objet d’encre texte, d’autres mots sont disponibles dans Word 2003 et versions ultérieures.
+Par exemple, votre application peut reconnaître l’écriture manuscrite et ajouter le résultat de la reconnaissance aux traits. ensuite, si vous copiez et collez les traits dans Microsoft Word sous la forme d’un objet ink text, des alternatives pour ce mot sont disponibles dans word 2003 et versions ultérieures.
 
 Pour pouvoir contenir des objets d’encre de texte, une application doit implémenter la prise en charge des conteneurs OLE pour les objets incorporés. Ensuite, pour que le conteneur prenne entièrement en charge l’encre de texte, vous devez mettre en place :
 

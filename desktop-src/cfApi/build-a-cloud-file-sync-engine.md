@@ -3,23 +3,23 @@ description: Découvrez comment créer un moteur de synchronisation de fichiers 
 title: Créer un moteur de synchronisation Cloud qui prend en charge les fichiers d’espace réservé
 ms.topic: article
 ms.date: 11/12/2020
-ms.openlocfilehash: 4f1330285d0c8ef0359639f2be84162f8bc2ef3b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d7d1efae4a56e6f52473002953730fb9f1f9459f1ed8dc82e0ba75ddebf05dc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104561505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118551572"
 ---
 # <a name="build-a-cloud-sync-engine-that-supports-placeholder-files"></a>Créer un moteur de synchronisation Cloud qui prend en charge les fichiers d’espace réservé
 
-Un moteur de synchronisation est un service qui synchronise les fichiers, généralement entre un hôte distant et un client local. Les moteurs de synchronisation sur Windows présentent souvent ces fichiers à l’utilisateur par le biais du système de fichiers Windows et de l’Explorateur de fichiers. Avant Windows 10, version 1709, la prise en charge du moteur de synchronisation dans Windows était limitée aux surfaces ad hoc indépendantes des scénarios, telles que le volet de navigation de l’Explorateur de fichiers, la barre d’état système Windows et (pour les applications plus techniques) pilotes de filtre du système de fichiers.
+Un moteur de synchronisation est un service qui synchronise les fichiers, généralement entre un hôte distant et un client local. les moteurs de synchronisation sur Windows présentent souvent ces fichiers à l’utilisateur par le biais du système de fichiers Windows et de l’explorateur de fichiers. avant Windows 10, la version 1709 de la prise en charge du moteur de synchronisation dans Windows était limitée à des surfaces ad hoc indépendantes du scénario, telles que le volet de navigation de l’explorateur de fichiers, la barre d’état système Windows et (pour les applications plus techniques) des pilotes de filtre de système de fichiers.
 
-Windows 10 version 1709 (également appelée « mise à jour des créateurs de automne ») a introduit l' *API de fichiers Cloud*. Cette API est une nouvelle plateforme qui formalise la prise en charge des moteurs de synchronisation. L’API de fichiers Cloud prend en charge les moteurs de synchronisation d’une manière qui offre de nombreux nouveaux avantages aux développeurs et aux utilisateurs finaux.
+Windows 10 version 1709 (également appelée « mise à jour des créateurs de automne ») a introduit l' *API de fichiers cloud*. Cette API est une nouvelle plateforme qui formalise la prise en charge des moteurs de synchronisation. L’API de fichiers Cloud prend en charge les moteurs de synchronisation d’une manière qui offre de nombreux nouveaux avantages aux développeurs et aux utilisateurs finaux.
 
-L’API de fichiers Cloud contient les API Win32 natives et les API Windows Runtime (WinRT) suivantes :
+l’api de fichiers cloud contient les api Win32 natives et les api Windows Runtime (WinRT) suivantes :
 
 * [API de filtre Cloud](cloud-filter-reference.md): cette API Win32 native fournit des fonctionnalités à la limite entre le mode utilisateur et le système de fichiers. Cette API gère la création et la gestion de fichiers et de répertoires d’espace réservé.
-* [Espace de noms Windows. Storage. Provider](/uwp/api/windows.storage.provider): cette API WinRT permet aux applications de configurer le fournisseur de stockage cloud et d’inscrire la racine de synchronisation auprès du système d’exploitation.
+* [Windows. Stockage. Espace de noms du fournisseur](/uwp/api/windows.storage.provider): cette API WinRT permet aux applications de configurer le fournisseur de stockage cloud et d’inscrire la racine de synchronisation auprès du système d’exploitation.
 
 > [!NOTE]
 > L’API de fichiers Cloud ne prend pas actuellement en charge l’implémentation de moteurs de synchronisation Cloud dans des applications UWP. Les moteurs de synchronisation Cloud doivent être implémentés dans les applications de bureau.
@@ -30,8 +30,8 @@ L’API de fichiers Cloud fournit les fonctionnalités suivantes pour créer des
 
 ### <a name="placeholder-files"></a>Fichiers d’espace réservé
 
-* Les moteurs de synchronisation peuvent créer des fichiers d’espace réservé qui consomment uniquement 1 Ko de stockage pour l’en-tête du système de fichiers, et qui sont automatiquement alimentés en fichiers complets dans des conditions d’utilisation normales. Fichiers d’espace réservé présents en tant que fichiers standard pour les applications et pour les utilisateurs finaux dans le shell Windows.
-* Les fichiers d’espace réservé sont intégrés verticalement à partir du noyau Windows jusqu’au shell Windows, et la compatibilité des applications avec les espaces réservés n’est généralement pas un problème. Que vous utilisiez des API de système de fichiers, l’invite de commandes ou un ordinateur de bureau ou une application UWP pour accéder à un fichier d’espace réservé, le fichier est hydraté sans modification de code supplémentaire et cette application peut utiliser le fichier normalement.
+* Les moteurs de synchronisation peuvent créer des fichiers d’espace réservé qui consomment uniquement 1 Ko de stockage pour l’en-tête du système de fichiers, et qui sont automatiquement alimentés en fichiers complets dans des conditions d’utilisation normales. fichiers d’espace réservé présents en tant que fichiers standard pour les applications et pour les utilisateurs finaux dans le Shell Windows.
+* les fichiers d’espace réservé sont intégrés verticalement à partir du noyau de Windows jusqu’au Shell Windows, et la compatibilité des applications avec les fichiers d’espace réservé n’est généralement pas un problème. Que vous utilisiez des API de système de fichiers, l’invite de commandes ou un ordinateur de bureau ou une application UWP pour accéder à un fichier d’espace réservé, le fichier est hydraté sans modification de code supplémentaire et cette application peut utiliser le fichier normalement.
 * Les fichiers peuvent exister dans trois États :
   * **Fichier d’espace réservé**: représentation vide du fichier et disponible uniquement si le service de synchronisation est disponible.
   * **Fichier complet**: le fichier a été mis en attente implicitement et peut être mis en attente par le système si de l’espace est nécessaire.
@@ -50,8 +50,8 @@ L’illustration suivante montre comment les États d’espace réservé, de rem
 ### <a name="shell-integration"></a>Intégration de Shell
 
 * Icônes d’État :
-  * L’API fichiers Cloud fournit des icônes standardisées et automatiques d’état d’hydratation affichées dans l’Explorateur de fichiers et sur le bureau Windows.
-  * Outre les icônes d’État Windows standard utilisées pour l’état d’hydratation, vous pouvez fournir des icônes d’état personnalisées pour les propriétés supplémentaires spécifiques au service.
+  * l’API fichiers cloud fournit des icônes standardisées et automatiques d’état d’hydratation affichées dans l’explorateur de fichiers et sur le bureau Windows.
+  * outre les icônes d’état de Windows standard utilisées pour l’état de l’hydratation, vous pouvez fournir des icônes d’état personnalisées pour les propriétés supplémentaires spécifiques au service.
   * Remplace les extensions d’environnement de superposition d’icône héritées.
 * Indication de la progression :
   * L’ouverture d’un fichier d’espace réservé qui prend plus de quelques secondes pour être en attente indique la progression de l’attente. La progression est affichée à quelques emplacements en fonction du contexte :
@@ -64,19 +64,19 @@ L’illustration suivante montre comment les États d’espace réservé, de rem
   * L’inscription d’une racine de synchronisation avec l’API fichiers Cloud provoque l’affichage de la racine de synchronisation (avec une icône et un nom personnalisé) dans le volet de navigation de l’Explorateur de fichiers.
 * Menus contextuels de l’Explorateur de fichiers :
   * L’inscription d’une racine de synchronisation avec l’API fichiers Cloud fournit automatiquement plusieurs verbes (entrées de menu) dans le menu contextuel de l’Explorateur de fichiers qui permettent à l’utilisateur de contrôler l’état d’hydratation de son fichier.
-  * Des verbes supplémentaires peuvent être ajoutés à cette section du menu contextuel à l’aide des API compatibles Desktop Bridge.
+  * des verbes supplémentaires peuvent être ajoutés à cette section du menu contextuel à l’aide d’api compatibles Pont du bureau.
 * Contrôle utilisateur de l’hydratation de fichiers :
   * Les utilisateurs contrôlent toujours l’hydratation des fichiers, même si les fichiers ne sont pas alimentés explicitement par l’utilisateur. Un toast interactif est affiché pour l’hydratation en arrière-plan afin d’alerter l’utilisateur et de fournir des options. L’image suivante montre une notification toast pour un fichier hydratation.
     ![Exemple d’un toast interactif affiché pour l’attente de fichiers en arrière-plan](images/file-hydration-interactive-toast.png)
-  * Si un utilisateur empêche une application d’en bloquer les fichiers par le biais d’un toast interactif, elle peut débloquer l’application dans la page de **téléchargement automatique des fichiers** dans **paramètres**.
+  * si un utilisateur empêche une application d’en bloquer les fichiers par le biais d’un toast interactif, elle peut débloquer l’application dans la page de **téléchargement automatique des fichiers** de **Paramètres**.
     ![Capture d’écran du paramètre de téléchargement automatique des fichiers](images/allow-automatic-file-downloads-setting.png)
-* Raccordement des opérations du moteur de copie (pris en charge dans Windows 10 Insider preview version 19624 et versions ultérieures) :
+* raccordement des opérations du moteur de copie (pris en charge dans Windows 10 insider preview version 19624 et versions ultérieures) :
   * Les fournisseurs de stockage cloud peuvent inscrire un hook de copie de Shell pour analyser les opérations de fichiers au sein de leur racine de synchronisation.
   * Le fournisseur inscrit son raccordement de copie en affectant à la valeur de Registre **CopyHook** sous sa clé de Registre racine de synchronisation le CLSID de l’objet serveur local com. Cet objet serveur local implémente l’interface [IStorageProviderCopyHook](../shell/nn-shobjidl-istorageprovidercopyhook.md) .
 
 ### <a name="desktop-bridge"></a>Pont du bureau
 
-* Les moteurs de synchronisation utilisant les API de fichiers Cloud sont conçus pour utiliser le [pont Desktop](/windows/uwp/porting/desktop-to-uwp-root) comme condition d’implémentation.
+* les moteurs de synchronisation utilisant les api de fichiers cloud sont conçus pour utiliser le [Pont du bureau](/windows/uwp/porting/desktop-to-uwp-root) en tant que spécification d’implémentation.
 
 ## <a name="cloud-mirror-sample"></a>Exemple de miroir Cloud
 
@@ -93,7 +93,7 @@ Lorsqu’il s’agit de la synchronisation, il s’agit des éléments qu’un f
 1. Créez deux dossiers sur votre disque dur local. L’un d’eux fera office de serveur et l’autre en tant que client.
 2. Ajoutez des fichiers au dossier serveur. Assurez-vous que le dossier client est vide.
 3. Ouvrez l’exemple de miroir Cloud dans Visual Studio. Définissez le projet **CloudMirrorPackage** comme projet de démarrage, puis générez et exécutez l’exemple. Lorsque l’exemple vous y invite, entrez les deux chemins d’accès à vos dossiers serveur et client. Après cela, vous verrez une fenêtre de console avec des informations de diagnostic.
-4. Ouvrez l’Explorateur de fichiers et vérifiez que vous voyez le nœud **TestStorageProviderDisplayName** et les espaces réservés pour tous les fichiers que vous avez copiés dans le dossier serveur. Pour simuler une application qui tente d’ouvrir des fichiers sans utiliser le sélecteur, copiez plusieurs images dans le dossier serveur. Double-cliquez sur l’un d’entre eux dans votre dossier racine de synchronisation et confirmez qu’il est en attente. Ensuite, ouvrez l’application photos. L’application préchargera les fichiers adjacents en arrière-plan pour augmenter la probabilité que l’utilisateur ne rencontre pas de retards lors de la consultation des autres images. Vous pouvez observer que la mise en attente de l’arrière-plan se produit via des toasts ou dans l’Explorateur de fichiers.
+4. Ouvrez l’Explorateur de fichiers et vérifiez que vous voyez le nœud **TestStorageProviderDisplayName** et les espaces réservés pour tous les fichiers que vous avez copiés dans le dossier serveur. Pour simuler une application qui tente d’ouvrir des fichiers sans utiliser le sélecteur, copiez plusieurs images dans le dossier serveur. Double-cliquez sur l’un d’entre eux dans votre dossier racine de synchronisation et confirmez qu’il est en attente. ensuite, ouvrez l’application Photos. L’application préchargera les fichiers adjacents en arrière-plan pour augmenter la probabilité que l’utilisateur ne rencontre pas de retards lors de la consultation des autres images. Vous pouvez observer que la mise en attente de l’arrière-plan se produit via des toasts ou dans l’Explorateur de fichiers.
 5. Cliquez avec le bouton droit sur un fichier dans l’Explorateur de fichiers pour afficher un menu contextuel et vérifiez que l’élément de menu **test** s’affiche. Cliquez sur cet élément de menu pour afficher une boîte de message.
 6. Pour arrêter l’exemple, définissez le focus sur la sortie de la console et appuyez sur **Ctrl-C**. Cela permet de nettoyer l’inscription de la racine de synchronisation afin que le fournisseur soit désinstallé. Si l’exemple se bloque, il est possible que la racine de synchronisation reste inscrite. Cela entraînera le redémarrage de l’Explorateur de fichiers chaque fois que vous cliquerez sur quoi que ce soit, et vous seriez invité à entrer les emplacements fictifs du client et du serveur. Si cela se produit, désinstallez l’exemple d’application **CloudMirrorPackage** sur votre ordinateur.
 
@@ -102,9 +102,9 @@ Lorsqu’il s’agit de la synchronisation, il s’agit des éléments qu’un f
 L’exemple est délibérément simple. Il utilise des classes statiques pour éviter de passer des pointeurs d’instance. Voici les principales classes de l’exemple :
 
 * **FakeCloudProvider**: cette classe de niveau supérieur contrôle les classes de travail suivantes :
-  * **CloudProviderRegistrar**: enregistre les informations de la racine de synchronisation avec le shell Windows.
+  * **CloudProviderRegistrar**: enregistre les informations de la racine de synchronisation avec le Shell Windows.
   * **Espaces réservés**: génère les fichiers d’espace réservé dans le chemin racine de synchronisation.
-  * **ShellServices**: construit les fournisseurs de shell Windows pour le menu contextuel, les miniatures et d’autres services.
+  * **ShellServices**: construit les fournisseurs de Shell Windows pour le menu contextuel, les miniatures et d’autres services.
   * **CloudProviderSyncRootWatcher**: instancie un DirectoryWatcher pour surveiller les modifications apportées au chemin d’accès racine de synchronisation et agir sur les modifications.
   * **FileCopierWithProgress**: copie les fichiers du dossier du serveur vers le dossier client, lentement en segments pour simuler leur téléchargement à partir d’un serveur Cloud réel. Fournit une indication de progression afin que les toasts et l’interface utilisateur de l’Explorateur de fichiers affichent l’information sur l’utilisateur.
 
@@ -122,7 +122,7 @@ Les pilotes de minifiltre du système de fichiers sont gérés et pris en charge
 
 ## <a name="hydration-policies"></a>Stratégies d’hydratation
 
-Windows prend en charge une grande variété de [stratégies d’hydratation principales](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary) et de modificateurs de [stratégie d’hydratation secondaire](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier) . Les stratégies de mise en attente principales sont les suivantes :
+Windows prend en charge une variété de [stratégies d’hydratation principales](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_primary) et de modificateurs de [stratégie d’hydratation secondaires](/windows/desktop/api/cfapi/ne-cfapi-cf_hydration_policy_modifier) . Les stratégies de mise en attente principales sont les suivantes :
 
   **Toujours plein > > progressif complet > partiel**
 

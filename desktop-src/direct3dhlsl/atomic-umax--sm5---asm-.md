@@ -4,12 +4,12 @@ description: Entier non signé atomique maximal pour la mémoire.
 ms.assetid: 7255B67A-37BE-443A-BDF2-A1D4A56C5E11
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 578a96379ad8904459cbfd47ef87ba4256e5fd8d
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3e6984a2ef2ea8ba186976670ec3b0f03446bf188de9c619301917610f4c3ecc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794857"
 ---
 # <a name="atomic_umax-sm5---asm"></a>\_Umax atomique (SM5-ASM)
 
@@ -36,7 +36,7 @@ Entier non signé atomique maximal pour la mémoire.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette instruction effectue un composant unique de l’opérande *src0* non signé 32 bits au niveau de l' *heure d’été* à 32 bits par adresse de composant *dstAddress*, exécuté atomiquement.
 
@@ -58,7 +58,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -70,7 +70,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -84,9 +84,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

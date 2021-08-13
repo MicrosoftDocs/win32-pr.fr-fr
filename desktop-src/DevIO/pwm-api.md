@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 10b1951d9d96f49a9df9a51604767dbce360f9e0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2ff257007180cf3da2b78c14415c8fa350b4bb395e0202f49d2d7ae056f025bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104523644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405193"
 ---
 # <a name="pwm-api"></a>API PWM
 
-\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft ne donne aucune garantie, expresse ou implicite, concernant les informations fournies ici.\]
+\[Certaines informations relatives aux produits précommercialisés peuvent être substantiellement modifiées avant leur commercialisation. Microsoft exclut toute garantie, expresse ou implicite, concernant les informations fournies ici.\]
 
 La modulation d’impulsions en largeur (PWM) est la technique de la génération d’une onde d’impulsion rectangulaire qui a une largeur d’impulsion modulée pour produire la variation de la valeur moyenne de la forme d’onde. Les utilisations les plus courantes incluent les moteurs d’asservissement, les voyants de gradation ou d’autres fonctions associées. Le PWM est destiné à être principalement utilisé pour les scénarios de Internet des objets.
 

@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 65b4020c42430d10e48125fa7d5f1481e7f0ee7c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2502109f3e28fedc411e69888725360632966e052c44555b25a72978f9cbbe63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106513504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701667"
 ---
 # <a name="ireferenceclockadviseperiodic-method"></a>IReferenceClock :: AdvisePeriodic, méthode
 
 Cette méthode n’est pas implémentée.
 
-Dans d’autres implémentations de l’interface **IReferenceClock** , comme dans le composant DirectShow® de Microsoft® DirectX®, la méthode **AdvisePeriodic** est utilisée pour créer une demande de notification périodique qui signale l’objet d’événement spécifié chaque fois que l’intervalle de temps spécifié est écoulé. Ce kit de développement logiciel (SDK) n’implémente pas les fonctionnalités de cette méthode, et tous les appels qui lui sont adressés génèrent une valeur de retour E \_ NOTIMPL.
+dans d’autres implémentations de l’interface **IReferenceClock** , comme dans le DirectShow composant® de Microsoft® DirectX®, la méthode **AdvisePeriodic** est utilisée pour créer une demande de notification périodique qui signale l’objet d’événement spécifié chaque fois que l’intervalle de temps spécifié est écoulé. Ce kit de développement logiciel (SDK) n’implémente pas les fonctionnalités de cette méthode, et tous les appels qui lui sont adressés génèrent une valeur de retour E \_ NOTIMPL.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -48,9 +48,9 @@ Cette méthode n’a aucun paramètre.
 [**Interface IReferenceClock**](ireferenceclock.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e1b7bda7ab06c4af43eaa40393d2c5d64b09d9f4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 795dacbec01abdfa49527e36fefc9194a6168a99c1d9ab425b30f987e5445096
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118506425"
 ---
 # <a name="texcrd---ps"></a>texcrd-PS
 
@@ -29,14 +29,14 @@ Copie les données de coordonnée de texture du registre d’itérateur de coord
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction interprète les données de coordonnée comme des données de couleur (RVBA).
 
@@ -105,6 +105,6 @@ texcrd  r(m).rg,  t(n)_dw.xyw
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

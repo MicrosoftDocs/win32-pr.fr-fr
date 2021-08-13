@@ -1,17 +1,17 @@
 ---
 description: Utilisé pour identifier une propriété de stockage de clé.
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
-title: Identificateurs de propriété de stockage de clés (ncrypt. h)
+title: identificateurs de propriété de clé Stockage (Ncrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 813a15ba106989cb558eba181bc893d75c6d1bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20b8fca27591837a555e4f75040ba16056c42e16ce488c0bb99f2d8f7de70bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907612"
 ---
-# <a name="key-storage-property-identifiers"></a>Identificateurs de propriété de stockage de clés
+# <a name="key-storage-property-identifiers"></a>identificateurs de propriété de clé Stockage
 
 Les valeurs suivantes sont utilisées pour identifier une propriété de stockage de clé.
 
@@ -95,7 +95,7 @@ L « SmartCardKeyCertificate »
 
 [*Objet BLOB*](/windows/desktop/SecGloss/b-gly) qui contient un certificat X. 509 associé à la clé.
 
-**Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** [*Objet BLOB*](/windows/desktop/SecGloss/b-gly) qui contient le [*certificat*](/windows/desktop/SecGloss/c-gly)de clé de [*carte à puce*](/windows/desktop/SecGloss/s-gly) . Cette propriété n’est pas prise en charge par le fournisseur de stockage de clés logicielles Microsoft.
+**Windows server 2008 R2, Windows 7, Windows Server 2008 et Windows Vista :** [*Objet BLOB*](/windows/desktop/SecGloss/b-gly) qui contient le [*certificat*](/windows/desktop/SecGloss/c-gly)de clé de [*carte à puce*](/windows/desktop/SecGloss/s-gly) . cette propriété n’est pas prise en charge par le fournisseur de Stockage de clés logicielles Microsoft.
 
 
 </dt> </dl> </dd> <dt>
@@ -559,8 +559,8 @@ Les valeurs suivantes sont utilisées pour définir les limites des données de 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Ncrypt. h</dt> </dl> |
 
 

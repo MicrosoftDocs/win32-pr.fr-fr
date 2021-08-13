@@ -16,12 +16,12 @@ keywords:
 - boîtes de message
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dd78713c3b87e54e8a992ea9415577c522fc9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7855ba67a04558e0df8ffad0f63d2bd78856f84829bf029fbf811a4b89eb4b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786807"
 ---
 # <a name="about-dialog-boxes"></a>à propos des boîtes de dialogue
 
@@ -125,7 +125,7 @@ Un développeur crée des ressources de modèle à l’aide d’un compilateur d
 > [!Note]  
 > Une explication de la manière de créer des ressources de modèle et de les ajouter au fichier exécutable de l’application dépasse le cadre de cette vue d’ensemble. Pour plus d’informations sur la création de ressources de modèle et leur ajout à un fichier exécutable, consultez la documentation fournie avec vos outils de développement d’applications.
 
- 
+ 
 
 Pour créer une boîte de dialogue sans utiliser de ressources de modèle, vous devez créer un modèle en mémoire et le passer à la fonction [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama) ou [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama) , ou à la macro [**CreateDialogIndirect**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirecta) ou [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta) .
 
@@ -194,7 +194,7 @@ Pour spécifier une police pour une boîte de dialogue autre que celle par défa
 
 Quand la boîte de dialogue a le style **DS \_ SetFont** ou **DS \_ SHELLFONT** , le système envoie un message [**WM \_ SetFont**](/windows/desktop/winmsg/wm-setfont) à la procédure de la boîte de dialogue et à chaque contrôle au fur et à mesure qu’il crée le contrôle. La procédure de boîte de dialogue est responsable de l’enregistrement du handle de police passé avec le message **WM \_ SetFont** et de la sélection du handle dans le contexte de périphérique d’affichage chaque fois qu’il écrit du texte dans la fenêtre. Les contrôles prédéfinis le font par défaut.
 
-La police système peut varier selon les versions de Windows. Pour que votre application utilise la police système quel que soit le système sur lequel elle s’exécute, utilisez **DS \_ SHELLFONT** avec la police MS Shell Dlg et utilisez la [ressource DIALOGEX](../menurc/dialogex-resource.md) au lieu de la [ressource de boîte de dialogue](../menurc/dialog-resource.md). Le système mappe ce caractère afin que votre boîte de dialogue utilise la police Tahoma. Notez que **le \_ SHELLFONT DS** n’a aucun effet si le type de caractères n’est pas MS Shell Dlg.
+La police système peut varier d’une version à l’autre de Windows. Pour que votre application utilise la police système quel que soit le système sur lequel elle s’exécute, utilisez **DS \_ SHELLFONT** avec la police MS Shell Dlg et utilisez la [ressource DIALOGEX](../menurc/dialogex-resource.md) au lieu de la [ressource de boîte de dialogue](../menurc/dialog-resource.md). Le système mappe ce caractère afin que votre boîte de dialogue utilise la police Tahoma. Notez que **le \_ SHELLFONT DS** n’a aucun effet si le type de caractères n’est pas MS Shell Dlg.
 
 ### <a name="templates-in-memory"></a>Modèles en mémoire
 
@@ -236,6 +236,6 @@ Dans les modèles standard et étendus, la définition de contrôle comprend les
 
 Dans un modèle étendu, la définition de contrôle spécifie également un identificateur de contexte d’aide pour le contrôle lorsque le système envoie un message [**\_ d’aide WM**](../shell/wm-help.md) .
 
- 
+ 
 
- 
+ 

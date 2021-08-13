@@ -3,7 +3,7 @@ title: Message RB_DRAGMOVE (commctrl. h)
 description: Met à jour la position de glissement dans le contrôle rebar après un \_ message RB BEGINDRAG précédent.
 ms.assetid: 0d2ce7fe-4172-45d9-932b-50f3e4cf2d8e
 keywords:
-- RB_DRAGMOVE les contrôles de message Windows
+- RB_DRAGMOVE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8657d8f8f73c798f934262804dda83b359b0c0c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a511bd1ad13442489f3f6dbf3de1b897b30e54f9d503b30b9031426b0aedcef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409721"
 ---
 # <a name="rb_dragmove-message"></a>\_Message DRAGMOVE RB
 
@@ -53,8 +53,8 @@ La valeur de retour de ce message n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

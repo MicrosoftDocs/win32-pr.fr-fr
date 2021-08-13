@@ -27,12 +27,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: e98948688b0fee37316102b2c37039de1c139310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfa2a1dcf15b65808af758820604df6aa62d7bc59d4e1c69e8d4d6e06b1d93a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103863322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555169"
 ---
 # <a name="nteventlogeventconsumer-class"></a>NTEventLogEventConsumer, classe
 
@@ -216,7 +216,7 @@ Type de données : **chaîne**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
+nom de l’ordinateur sur lequel Windows Management Instrumentation (WMI) envoie des événements.
 
 Cette propriété est héritée de [**\_ \_ EventConsumer**](--eventconsumer.md).
 
@@ -325,7 +325,7 @@ Les utilisateurs authentifiés ne peuvent pas, par défaut, consigner les évén
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **NTEventLogEventConsumer** est dérivée de la classe abstraite [**\_ \_ EventConsumer**](--eventconsumer.md) .
 

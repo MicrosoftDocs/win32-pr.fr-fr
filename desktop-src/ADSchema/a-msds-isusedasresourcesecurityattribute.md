@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d957e25974202e79a49f9f9f0d0ee38ef23c819
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 09c2226c89f1810a7dba7e24b6cb2b299d0246b985b63e9a2a584360352f9cab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104519842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425835"
 ---
 # <a name="ms-ds-is-used-as-resource-security-attribute-attribute"></a>attribut ms-DS-is-used-as-Resource-Security-Attribute
 

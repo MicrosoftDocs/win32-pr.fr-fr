@@ -4,12 +4,12 @@ description: En savoir plus sur les fonctions de configuration du demandeur EAPH
 ms.assetid: 92a1df11-10f9-4e55-a7ec-db026aaf5c24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab4580127d4c477f99e949ca1e88fe999ea2636
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e535b423f1d28afe72dbe52b0dc000d612977f85f325da8821858fe6d2326be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104031843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785496"
 ---
 # <a name="eaphost-supplicant-configuration-functions"></a>Fonctions de configuration du demandeur EAPHost
 
@@ -36,8 +36,8 @@ Les fonctions de configuration de l’API du demandeur EAP sont les suivantes.
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

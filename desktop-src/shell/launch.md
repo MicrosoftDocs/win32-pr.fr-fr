@@ -4,12 +4,12 @@ ms.assetid: d774c3b2-4caf-460a-ac32-0ed603491d5f
 title: Lancement d’applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3ae5640acdbf4d959b97607cc66a4fd8fe8ac24
-ms.sourcegitcommit: 89aa14b1f685f8d65d56ecbdb8bef12246c33cf9
+ms.openlocfilehash: 3b871e3560ce1cb0c38e91d6ea3baa7a9364c16e500be949b734f9b4b195a24e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "113508610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720217"
 ---
 # <a name="launching-applications-shellexecute-shellexecuteex-shellexecuteinfo"></a>Lancement d’applications (ShellExecute, ShellExecuteEx, SHELLEXECUTEINFO)
 

@@ -5,12 +5,12 @@ ms.assetid: 265f1346-b309-4fe3-9601-744e8a23bea9
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0f15c79d6c805e4b1e49b74543793ace32db8fa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3a869b7bcf3991961b6bff5d5c2c8245a83360cb787dc7b307a3605c8ff7350c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104309210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690138"
 ---
 # <a name="using-adsi-functions-to-bind-directly-to-an-object"></a>Utilisation de fonctions ADSI pour la liaison directe à un objet
 
@@ -20,9 +20,9 @@ La liaison directe à un objet d’annuaire avec ADSI peut s’effectuer de plus
 -   [Liaison avec ADsOpenObject et IADsOpenDSObject :: OpenDSObject](binding-with-adsopenobject-and-iadsopendsobject-opendsobject.md)
 -   [Liaison avec chiffrement](binding-with-encryption.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ keywords:
 - attributs, fichiers vidéo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd19791857d55be8017d291698a3297b395af550
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be249e28eea5370d0e29f7d744e0e2f7da4e4019db51d44b5f3fc774f1cbd6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434608"
 ---
 # <a name="attributes-for-video-files"></a>Attributs pour les fichiers vidéo
 
@@ -29,7 +29,7 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 ## <a name="primary-attributes-for-video"></a>Attributs principaux pour la vidéo
 
 -   [**Auteur**](author.md)
--   [**Intitulé**](title.md)
+-   [**Titre**](title.md)
 -   [**WM/ContentDistributor**](wm-contentdistributor.md)
 -   [**WM/DVDID**](wm-dvdid.md) (s’il est disponible ; sinon, utilisez [**WM/WMCollectionID**](wm-wmcollectionid.md), [**WM/WMCollectionGroupID**](wm-wmcollectiongroupid.md)et [**WM/WMContentID**](wm-wmcontentid.md))
 -   [**WM/genre**](wm-genre.md)
@@ -40,7 +40,7 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 ## <a name="secondary-attributes-for-video"></a>Attributs secondaires pour la vidéo
 
 -   [**copyright**](copyright.md)
--   [**WM/composer**](wm-composer.md)
+-   [**WM/Composer**](wm-composer.md)
 -   [**WM/Director**](wm-director.md)
 -   [**WM/EncodingTime**](wm-encodingtime.md)
 -   [**WM/langage**](wm-language.md)
@@ -64,7 +64,7 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 -   [**WM/PartOfSet**](wm-partofset.md)
 -   [**WM/image**](wmpicture.md)
 -   [**WM/PromotionURL**](wm-promotionurl.md)
--   [**WM/serveur de publication**](wm-publisher.md)
+-   [**WM/Publisher**](wm-publisher.md)
 -   [**WM/sous-titre**](wm-subtitle.md)
 -   [**WM/UniqueFileIdentifier**](wm-uniquefileidentifier.md)
 -   [**WM/UserWebURL**](wm-userweburl.md)
@@ -79,9 +79,9 @@ Les attributs tertiaires doivent être inclus en fonction des besoins, mais ils 
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

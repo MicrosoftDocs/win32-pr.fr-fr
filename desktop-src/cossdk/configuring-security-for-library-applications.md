@@ -4,12 +4,12 @@ ms.assetid: 1117ac64-653d-4640-97cd-f37b0949dc57
 title: Configuration de la sécurité pour les applications de bibliothèque
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 102d6a0f102bfd19da0073bca14df8a8211203b1
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 8f0d8b3993a00512c20409f1f029b7402d5f9ace97984cbe9757453b5672125f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103953304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548882"
 ---
 # <a name="configuring-security-for-library-applications"></a>Configuration de la sécurité pour les applications de bibliothèque
 
@@ -51,7 +51,7 @@ Pour mieux comprendre les implications de l’utilisation de la sécurité basé
 
     ![Diagramme illustrant la « vérification de l’appartenance à un rôle » dans une application de bibliothèque au sein d’un processus hôte.](images/e0cc604c-ba86-4087-9a74-1b6fdce8d69a.png)
 
--   **L’authentification est désactivée et la sécurité basée sur les rôles n’est pas utilisée.** Dans ce scénario, les contrôles de sécurité sont toujours effectués au niveau du processus, mais comme dans le scénario précédent, les appelants de l’application de bibliothèque réussissent toujours cette vérification de sécurité. Étant donné que la vérification des rôles est également désactivée, l’appartenance au rôle n’est pas vérifiée au niveau de l’application de la bibliothèque. Pour l’essentiel, tout le monde peut appeler l’application de bibliothèque. Ce scénario doit être choisi lorsque votre objet COM doit recevoir des rappels non authentifiés, comme cela peut être le cas avec un contrôle ActiveX hébergé par Internet Explorer et avec un composant logiciel enfichable MMC (Microsoft Management Console). Bien entendu, cet objet COM doit être approuvé pour se comporter de manière appropriée lors de la réception d’appels non authentifiés. Par exemple, il ne doit pas accéder à des fichiers arbitraires pour le compte de ses appelants.
+-   **L’authentification est désactivée et la sécurité basée sur les rôles n’est pas utilisée.** Dans ce scénario, les contrôles de sécurité sont toujours effectués au niveau du processus, mais comme dans le scénario précédent, les appelants de l’application de bibliothèque réussissent toujours cette vérification de sécurité. Étant donné que la vérification des rôles est également désactivée, l’appartenance au rôle n’est pas vérifiée au niveau de l’application de la bibliothèque. Pour l’essentiel, tout le monde peut appeler l’application de bibliothèque. ce scénario doit être choisi lorsque votre objet COM doit recevoir des rappels non authentifiés, comme cela peut être le cas avec un contrôle de ActiveX hébergé par Internet Explorer et avec un composant logiciel enfichable mmc (Microsoft Management Console). Bien entendu, cet objet COM doit être approuvé pour se comporter de manière appropriée lors de la réception d’appels non authentifiés. Par exemple, il ne doit pas accéder à des fichiers arbitraires pour le compte de ses appelants.
 
     Le scénario dans lequel l’authentification est désactivée et la vérification des rôles n’est pas utilisée est indiqué dans l’illustration suivante.
 

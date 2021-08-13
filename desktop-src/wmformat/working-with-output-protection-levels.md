@@ -3,7 +3,7 @@ title: Utilisation des niveaux de protection de sortie
 description: Utilisation des niveaux de protection de sortie
 ms.assetid: ec5982cd-0b87-4081-98e2-ab2d102a36d8
 keywords:
-- Windows Media Format SDK, niveaux de protection de sortie (OPL)
+- Windows Media Format SDK, output protection Levels (OPL)
 - Windows Media Format SDK, niveaux de protection
 - ASF (Advanced Systems Format), niveaux de protection de sortie (OPL)
 - ASF (format des systèmes avancés), niveaux de protection de la sortie (OPL)
@@ -23,16 +23,16 @@ keywords:
 - OPL (niveaux de protection de sortie)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aab7023cc8285e5f3993aac69c57deca9675d9dd
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2888891e50ec90e784bf6f4420637544854a9b600b5538e9655bc6d3028f76d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697713"
 ---
 # <a name="working-with-output-protection-levels"></a>Utilisation des niveaux de protection de sortie
 
-Les licences créées à l’aide du kit de développement logiciel (SDK) Windows Media Rights Manager 10 peuvent spécifier des restrictions d’action à l’aide des niveaux de protection de sortie (OPLs). OPLs permet à un créateur de licence d’autoriser certaines actions uniquement sur des appareils avec des technologies spécifiques. Les avantages de l’utilisation de OPLs sont que vous bénéficiez d’une plus grande flexibilité pour créer des restrictions de licence que les versions précédentes. En outre, les OPLs sont extensibles pour s’adapter aux futures technologies. Vous pouvez prendre en charge ces licences dans vos applications à l’aide des méthodes de l’interface [**IWMDRMReader2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2) .
+les licences créées à l’aide du kit de développement logiciel (SDK) Windows Media Rights Manager 10 peuvent spécifier des restrictions d’action à l’aide des niveaux de protection de sortie (OPLs). OPLs permet à un créateur de licence d’autoriser certaines actions uniquement sur des appareils avec des technologies spécifiques. Les avantages de l’utilisation de OPLs sont que vous bénéficiez d’une plus grande flexibilité pour créer des restrictions de licence que les versions précédentes. En outre, les OPLs sont extensibles pour s’adapter aux futures technologies. Vous pouvez prendre en charge ces licences dans vos applications à l’aide des méthodes de l’interface [**IWMDRMReader2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2) .
 
 Pour lire les fichiers qui sont protégés par une licence qui spécifie OPLs, vous devez vérifier la OPL de l’action souhaitée. La technologie de sortie utilisée par votre application doit être autorisée par le OPL dans la licence. Par exemple, certaines licences pour le contenu audio protégé peuvent nécessiter l’utilisation d’un chemin d’accès audio sécurisé pour le lire.
 
@@ -72,9 +72,9 @@ Dans certains cas, un fichier peut avoir une licence associée qui requiert un O
 [**Interface IWMDRMReader2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

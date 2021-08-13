@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d31eba66a1e4527a24a55a24e4623f3c49dc204
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0a71485603944dc8b7eaf1a3a773051096776e6538aecdd8fb01396a3f0ea5fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734654"
 ---
 # <a name="class-statement"></a>Instruction de classe
 
@@ -38,7 +38,7 @@ Entier non signé 16 bits ou chaîne, placé entre guillemets doubles ("), qui i
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’instruction **Class** ne doit être utilisée qu’avec des cas spéciaux, car elle remplace le traitement normal d’une boîte de dialogue. L’instruction de **classe** convertit une boîte de dialogue en une fenêtre de la classe spécifiée ; en fonction de la classe, cela peut entraîner des résultats indésirables. N’utilisez pas les noms de classe de contrôle redéfinis avec cette instruction.
 
@@ -60,6 +60,6 @@ CLASS "myclass"
 [**DIALOGUE**](dialog-resource.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

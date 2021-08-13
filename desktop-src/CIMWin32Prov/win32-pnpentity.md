@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 62eaa59944c9b71a1b8b3520969122ab23350bba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1af23a97b34bd646b608feec2898a57d8f0119bfdc5abede867d9788e1d9458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417137"
 ---
 # <a name="win32_pnpentity-class"></a>\_Classe PnPEntity Win32
 
@@ -367,7 +367,7 @@ Type de données : tableau de **chaînes**
 Type d'accès : Lecture seule
 </dt> </dl>
 
-Chaîne d’identification définie par le fournisseur que le programme d’installation utilise pour faire correspondre un appareil à un fichier INF. Une liste d’ID compatibles peut être associée à un appareil. Les ID compatibles doivent être classés par ordre décroissant d’adéquation. Si le programme d’installation ne parvient pas à localiser un fichier INF qui correspond à l’un des ID de matériel d’un appareil, il utilise des ID compatibles pour localiser un fichier INF. Un ID compatible a le même format qu’un **HardwareID**. Pour plus d’informations, consultez [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
+Chaîne d’identification définie par le fournisseur que le programme d’installation utilise pour faire correspondre un appareil à un fichier INF. Une liste d’ID compatibles peut être associée à un appareil. Les ID compatibles doivent être classés par ordre décroissant d’adéquation. Si le programme d’installation ne parvient pas à localiser un fichier INF qui correspond à l’un des ID de matériel d’un appareil, il utilise des ID compatibles pour localiser un fichier INF. Un ID compatible a le même format qu’un **HardwareID**. pour plus d’informations, consultez [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 
@@ -442,12 +442,12 @@ L’appareil ne fonctionne pas correctement. L’un de ses pilotes ou le Registr
 
 <span id="The_driver_for_this_device_needs_a_resource_that_Windows_cannot_manage."></span><span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>
 
-<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**Le pilote de cet appareil a besoin d’une ressource que Windows ne peut pas gérer.** (5)
+<span id="the_driver_for_this_device_needs_a_resource_that_windows_cannot_manage."></span><span id="THE_DRIVER_FOR_THIS_DEVICE_NEEDS_A_RESOURCE_THAT_WINDOWS_CANNOT_MANAGE."></span>**le pilote de cet appareil a besoin d’une ressource qui ne peut pas être gérée par Windows.** (5)
 
 
 </dt> <dd>
 
-Le pilote de l’appareil requiert une ressource que Windows ne peut pas gérer.
+le pilote de l’appareil requiert une ressource qui ne peut pas être gérée par Windows.
 
 </dd> <dt>
 
@@ -526,12 +526,12 @@ L’appareil ne peut pas trouver suffisamment de ressources libres à utiliser.
 
 <span id="Windows_cannot_verify_this_device_s_resources."></span><span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>
 
-<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne peut pas vérifier les ressources de cet appareil.** (13)
+<span id="windows_cannot_verify_this_device_s_resources."></span><span id="WINDOWS_CANNOT_VERIFY_THIS_DEVICE_S_RESOURCES."></span>**Windows ne pouvez pas vérifier les ressources de ce périphérique.** (13)
 
 
 </dt> <dd>
 
-Windows ne peut pas vérifier les ressources de l’appareil.
+Windows ne pouvez pas vérifier les ressources de l’appareil.
 
 </dd> <dt>
 
@@ -654,7 +654,7 @@ L’appareil n’est pas présent, ne fonctionne pas correctement ou n’a pas t
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (25)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (25)
 
 
 </dt> <dd>
@@ -665,7 +665,7 @@ Windows est toujours en cours de configuration de l’appareil.
 
 <span id="Windows_is_still_setting_up_this_device."></span><span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>
 
-<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours de configuration de cet appareil.** (26)
+<span id="windows_is_still_setting_up_this_device."></span><span id="WINDOWS_IS_STILL_SETTING_UP_THIS_DEVICE."></span>**Windows est toujours en cours d’installation sur cet appareil.** (26)
 
 
 </dt> <dd>
@@ -720,7 +720,7 @@ L’appareil utilise une ressource IRQ qu’un autre appareil utilise.
 
 <span id="This_device_is_not_working_properly_because_Windows_cannot_load_the_drivers_required_for_this_device."></span><span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>
 
-<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**Ce périphérique ne fonctionne pas correctement, car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
+<span id="this_device_is_not_working_properly_because_windows_cannot_load_the_drivers_required_for_this_device."></span><span id="THIS_DEVICE_IS_NOT_WORKING_PROPERLY_BECAUSE_WINDOWS_CANNOT_LOAD_THE_DRIVERS_REQUIRED_FOR_THIS_DEVICE."></span>**cet appareil ne fonctionne pas correctement car Windows ne peut pas charger les pilotes requis pour cet appareil.** 31
 
 
 </dt> <dd>
@@ -862,7 +862,7 @@ Voici quelques exemples d’ID de matériel :
 
 <dl> <dd>\\ \* PNPOF08 racine</dd> <dd>PC \\ VEN \_ 1000&DEV \_ 001&subsi \_ 00000000&Rev \_ 02</dd> </dl>
 
-Pour plus d’informations, consultez le [Kit de pilotes Windows](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
+pour plus d’informations, consultez le [Kit de pilotes Windows](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development).
 
 </dd> <dt>
 
@@ -954,7 +954,7 @@ Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« WM
 
 Nom du type de ce Plug-and-Play appareil.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas dans le fichier MOF.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété ne figure pas dans le fichier MOF.
 
 </dd> <dt>
 
@@ -970,7 +970,7 @@ Type d'accès : Lecture seule
 Qualificateurs : [**Schema**](../wmisdk/standard-qualifiers.md) ("Win32")
 </dt> </dl>
 
-Identificateur d’appareil Windows Plug-and-Play de l’unité logique.
+Windows Identificateur d’appareil Plug-and-Play de l’unité logique.
 
 Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 
@@ -1112,7 +1112,7 @@ Qualificateurs : [**MappingStrings**](../wmisdk/standard-qualifiers.md) (« WM
 
 Indique si ce Plug-and-Play périphérique est actuellement dans le système.
 
-**Windows server 2012 R2, Windows 8.1, Windows server 2012, Windows 8, Windows server 2008 R2, Windows 7, Windows server 2008 et Windows Vista :** Cette propriété n’est pas prise en charge.
+**Windows Server 2012 r2, Windows 8.1, Windows Server 2012, Windows 8, Windows server 2008 r2, Windows 7, Windows server 2008 et Windows Vista :** cette propriété n’est pas prise en charge.
 
 </dd> <dt>
 
@@ -1331,7 +1331,7 @@ Cette propriété est héritée de [**CIM \_ LogicalDevice**](cim-logicaldevice.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **Win32 \_ PnPEntity** est dérivée de [**CIM \_ LogicalDevice**](cim-logicaldevice.md).
 

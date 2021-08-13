@@ -4,12 +4,12 @@ description: En savoir plus sur la propriété de l’objet feuille de gauche. M
 ms.assetid: 81b90391-300f-4100-98fe-7657223e3bfd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccf1ecf1b5dfe97e66e7b6d73569c98abc8de9a4
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: da175801dcf6f6842999b2fba1285d9e0e6f5c621a12bbb387f1e95390e07b4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476357"
 ---
 # <a name="left-property-propertysheet-object"></a>Propriété Left (objet feuille)
 

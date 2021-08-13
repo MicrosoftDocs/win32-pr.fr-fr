@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 26326403abef41d131bf25acf5d5d8be7728cd0f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ddae8f913e199e0a1219e5ec36012ba3a3eaf24708ca6771ec075b497107418e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733390"
 ---
 # <a name="varfileinfo-structure"></a>VarFileInfo, structure
 
@@ -110,9 +110,9 @@ Contient généralement une liste de langues prises en charge par l’applicatio
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. Cette structure a été créée uniquement pour représenter l’Organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
+Cette structure n’est pas une véritable structure de langage C, car elle contient des membres de longueur variable. cette structure a été créée uniquement pour représenter l’organisation des données dans une ressource de version et n’apparaît pas dans les fichiers d’en-tête fournis avec le kit de développement logiciel (SDK) Windows.
 
 Le membre **Children** de la structure de [**Visual Studio \_ VERSIONINFO**](vs-versioninfo.md) peut contenir zéro ou une structure **VarFileInfo** .
 

@@ -1,19 +1,19 @@
 ---
-description: Le tableau suivant répertorie les identificateurs globaux uniques (GUID) définis pour les catégories Microsoft DirectX Media Object (DMO). Ces GUID sont définis dans le fichier d’en-tête Dmoreg. h et exportés par la bibliothèque Dmoguids. lib.
+description: le tableau suivant répertorie les identificateurs globaux uniques (guid) définis pour les catégories Microsoft DirectX Media Object (DMO). Ces GUID sont définis dans le fichier d’en-tête Dmoreg. h et exportés par la bibliothèque Dmoguids. lib.
 ms.assetid: d67debd0-8ecb-41ab-bc6c-b27cba97c65a
-title: GUID DMO (Dmoreg. h)
+title: DMO GUID (Dmoreg. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c10d5bd917d6368d398362e76ffa9ea8255933ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93db9f78a5c256d2a6703f01fa4195b1aa293ef7e79eeb6b4da59557b849c805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106539219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653107"
 ---
-# <a name="dmo-guids"></a>GUID DMO
+# <a name="dmo-guids"></a>DMO Guid
 
-Le tableau suivant répertorie les identificateurs globaux uniques (GUID) définis pour les catégories Microsoft DirectX Media Object (DMO). Ces GUID sont définis dans le fichier d’en-tête Dmoreg. h et exportés par la bibliothèque Dmoguids. lib.
+le tableau suivant répertorie les identificateurs globaux uniques (guid) définis pour les catégories Microsoft DirectX Media Object (DMO). Ces GUID sont définis dans le fichier d’en-tête Dmoreg. h et exportés par la bibliothèque Dmoguids. lib.
 
 Pour énumérer les DMOs enregistrés dans une catégorie, transmettez le GUID correspondant à la fonction [**DMOEnum**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) .
 
@@ -45,7 +45,7 @@ Pour énumérer les DMOs enregistrés dans une catégorie, transmettez le GUID c
 
 <dl> <dt>
 
-[Constantes DMO](dmo-constants.md)
+[DMO Constantes](dmo-constants.md)
 </dt> </dl>
 
  

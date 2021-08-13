@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a228b61dbed22dc8d285e0fdc833de53b16e7be7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 2a40c78fddadde5d58186f9a1ebb01f4d021620862f9d3534e535842a848a2e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104381245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787558"
 ---
 # <a name="texm3x3tex---ps"></a>texm3x3tex-PS
 
@@ -29,14 +29,14 @@ Effectue une multiplication de matrice 3x3 et utilise le résultat pour effectue
 
 
 
- 
+ 
 
 where
 
 -   l’heure d’été est le registre de destination.
 -   SRC est un registre source.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 
 
@@ -46,7 +46,7 @@ where
 
 
 
- 
+ 
 
 Cette instruction est utilisée comme dernière des trois instructions représentant une opération de multiplication de matrice 3x3, suivie d’une recherche de texture. La matrice 3x3 est composée des coordonnées de texture de la troisième étape de texture et des deux étapes de texture précédentes. Le vecteur à trois composants résultant (u, v, w) est utilisé pour échantillonner la texture à l’étape 3. Toute texture assignée aux deux étapes de texture précédentes est ignorée. La multiplication de matrice 3x3 est généralement utile pour orienter un vecteur normal vers l’espace tangent correct pour la surface rendue.
 
@@ -116,9 +116,9 @@ Cet exemple requiert la configuration de la phase de texture suivante.
 [Instructions sur le nuanceur de pixels](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

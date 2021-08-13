@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b88ddafd0420a40af8b815aab26849572cb7c019
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 66b3e66db91be28eb16d92266bc7ab4acba0de56ede57da1b6c375ee91de5adc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675760"
 ---
 # <a name="invoke-method-of-the-cim_copyfileaction-class"></a>Méthode Invoke de la \_ classe CIM CopyFileAction
 
@@ -49,7 +49,7 @@ Cette méthode n’a aucun paramètre.
 
 Retourne la valeur 0 (zéro) en cas de réussite, et tout autre nombre pour indiquer une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cette méthode n’est pas implémentée par WMI. Pour utiliser cette méthode, vous devez l’implémenter dans votre propre fournisseur.
 
