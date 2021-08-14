@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8183b8b91c4a061e6b91c67ab83bca6393751f4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4d7afb814cde879f0ada5124b1a19d8ac8b8c851deafcda7e75295a6e5338f68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382783"
 ---
 # <a name="v1_enum-attribute"></a>\_attribut enum v1
 
@@ -34,7 +34,7 @@ L’attribut **\[ \_ enum \] v1** indique que le type énuméré spécifié doit
 
 Cet attribut n’a aucun paramètre.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’utilisation de l’attribut **\[ \_ enum \] v1** pour transmettre un type énuméré en tant qu’entité 32 bits augmente l’efficacité du marshaling et du démarshaling des données lorsqu’une telle énumération est incorporée dans les structures ou les unions.
 
@@ -63,9 +63,9 @@ typedef [v1_enum] enum
 [**long**](long.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

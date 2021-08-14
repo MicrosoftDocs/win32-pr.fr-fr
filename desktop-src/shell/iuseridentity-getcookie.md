@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 96cafb13f2c90c41e4aa6dcaaa72cf052757d0ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b4abb13735b2ce370623ad8e5b79a8d9830b34a3d566fb57c0539d6f2c6095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220116"
 ---
 # <a name="iuseridentitygetcookie-method"></a>IUserIdentity :: GetCookie, méthode
 
@@ -44,9 +44,9 @@ HRESULT GetCookie(
 *puidCookie* \[ à\]
 </dt> <dd>
 
-Type : **GUID \** _
+Type : **GUID \***
 
-Pointeur vers une valeur _ *GUID** qui reçoit le cookie utilisé pour identifier de manière unique l’identité de cet utilisateur.
+Pointeur vers une valeur **GUID** qui reçoit le cookie utilisé pour identifier de manière unique l’identité de cet utilisateur.
 
 </dd> </dl>
 
@@ -56,7 +56,7 @@ Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

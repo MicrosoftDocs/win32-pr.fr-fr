@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f62fd8088ba1bc9ce502c630e1ba64d868e11798
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bd98fb94f840975c3cf2035a693f056a0bf291fdcf2d28081d96f8f4e1a407f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747645"
 ---
 # <a name="playercdromcollection"></a>Player. cdromCollection
 
@@ -33,7 +33,7 @@ La propriété cdromCollection récupère l’objet **cdromCollection** .
 
 Cette propriété est un objet **CdromCollection** en lecture seule.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour récupérer la valeur de cette propriété, l’accès en lecture à la bibliothèque est requis. Pour plus d’informations, consultez [accès à la bibliothèque](library-access.md).
 

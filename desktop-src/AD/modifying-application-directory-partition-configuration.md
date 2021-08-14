@@ -8,12 +8,12 @@ keywords:
 - Partitions de l’annuaire d’applications Active Directory, modification de la configuration
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c976c297e8491dbb87a32cf2241446ca0403e7f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cc378536a552bb7612877fc09913fdbad9daf507adbb34b5f53f8946c946e8ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186314"
 ---
 # <a name="modifying-application-directory-partition-configuration"></a>Modification de la configuration de la partition d’annuaire d’applications
 
@@ -30,8 +30,8 @@ Le tableau suivant répertorie les attributs de l’objet [**crossRef**](/window
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

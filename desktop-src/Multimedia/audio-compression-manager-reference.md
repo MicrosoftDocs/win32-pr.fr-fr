@@ -3,7 +3,7 @@ title: Référence du gestionnaire de compression audio
 description: Référence du gestionnaire de compression audio
 ms.assetid: a4e234c7-4dd3-4269-90a5-5de2c8837c0f
 keywords:
-- Windows Multimedia, référence ACM
+- Windows multimédia, référence ACM
 - multimédia, référence ACM
 - audio multimédia, référence ACM
 - audio, référence ACM)
@@ -13,12 +13,12 @@ keywords:
 - référence pour ACM, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d365b0a69ecd94a07811b24762aa4bffdc8c9f1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 29729fa19e67fb4695d8e6eca986488735d9b4529d9479615665a9ba2b5f3360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375796"
 ---
 # <a name="audio-compression-manager-reference"></a>Référence du gestionnaire de compression audio
 
@@ -91,6 +91,6 @@ Cette section décrit les fonctions, les structures et les messages associés à
 [Gestionnaire de compression audio](audio-compression-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

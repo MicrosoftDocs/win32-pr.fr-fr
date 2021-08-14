@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f14ee4785eb3819b346f1fd04d977392bf12616e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc53c5a9ff1f2e71e634c93081d183e0afbd19e46a758078881b4efb33e43689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117889286"
 ---
 # <a name="windows8grbitsindexdotnetguid-field"></a>Champ Windows8Grbits. IndexDotNetGuid
 
-Si cet indicateur est spécifié, l’ordre de tri du GUID change en .NET Framework standard.
+si cet indicateur est spécifié, l’ordre de tri du GUID change en .NET Framework standard.
 
 **Espace de noms :**  [Microsoft. ISAM. esent. Interop. Windows8](./microsoft.isam.esent.interop.windows8-namespace.md)  
 **Assembly :**  Microsoft. ISAM. esent. Interop (en Microsoft.Isam.Esent.Interop.dll)

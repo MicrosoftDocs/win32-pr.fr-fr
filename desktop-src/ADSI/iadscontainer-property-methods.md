@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5196addda0d9ff89f8a4976f3197bbeeae07044
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13515bcf90c926db839aad60d49599967ee0d24bedbe0deb4b7d1d21c3c016e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428084"
 ---
 # <a name="iadscontainer-property-methods"></a>Méthodes de propriété IADsContainer
 
@@ -121,13 +121,13 @@ HRESULT put_Hints(
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les processus d’énumération sous [**IADsContainer :: obten \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscontainer-get__newenum) et **IADsContainer :: obtient \_ Count** sont effectués sur les objets contenus dans le cache. Lorsqu’un conteneur contient un grand nombre d’objets, les performances peuvent être affectées. Pour améliorer les performances, désactivez le cache, configurez une taille de page appropriée et utilisez l’interface [**IDirectorySearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) . Pour cette raison, la propriété **obtenir le \_ nombre** n’est pas prise en charge dans le fournisseur LDAP Microsoft.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple de code Visual Basic suivant montre comment les méthodes de propriété de [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) peuvent être utilisées.
+l’exemple de code Visual Basic suivant montre comment les méthodes de propriété de [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) peuvent être utilisées.
 
 
 ```VB

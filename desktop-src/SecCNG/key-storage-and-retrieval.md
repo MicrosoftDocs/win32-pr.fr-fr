@@ -1,32 +1,32 @@
 ---
 description: CNG fournit un modèle de stockage de clés privées qui permet de s’adapter aux demandes actuelles et futures de la création d’applications qui utilisent des fonctionnalités de chiffrement, telles que le chiffrement à clé publique ou privée, ainsi que les exigences de stockage du matériel de clé.
 ms.assetid: 95e5750f-fdc5-41f3-a4ce-9593a7081e95
-title: Stockage et récupération de clés
+title: Stockage et récupération de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5abfd6319353440c580d53990075a71613a1eba9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e81b2100f005f0ff293e34a3f4c0a7460b7a4d4e9c2b15fbe0b3577b5e52394a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907683"
 ---
-# <a name="key-storage-and-retrieval"></a>Stockage et récupération de clés
+# <a name="key-storage-and-retrieval"></a>Stockage et récupération de clé
 
--   [Architecture de stockage de clés](#key-storage-architecture)
+-   [Architecture des Stockage clés](#key-storage-architecture)
 -   [Types de clés](#key-types)
 -   [Algorithmes pris en charge](#supported-algorithms)
 -   [Répertoires et fichiers de clé](#key-directories-and-files)
 
-## <a name="key-storage-architecture"></a>Architecture de stockage de clés
+## <a name="key-storage-architecture"></a>Architecture des Stockage clés
 
 CNG fournit un modèle de stockage de clés privées qui permet de s’adapter aux demandes actuelles et futures de la création d’applications qui utilisent des fonctionnalités de chiffrement, telles que le chiffrement à clé publique ou privée, ainsi que les exigences de stockage du matériel de clé. Le routeur de stockage de clés est la routine centrale de ce modèle et est implémenté dans Ncrypt.dll. Une application accède aux fournisseurs de stockage de clés (KSP) sur le système via le routeur de stockage de clés, qui masque les détails, tels que l’isolation des clés, à la fois par l’application et le fournisseur de stockage. L’illustration suivante montre la conception et la fonction de l’architecture d’isolation de clé CNG.
 
 ![fournisseur de stockage de clés CNG](images/cng-key-storage-provider.png)
 
-Pour respecter les exigences de critères communs (CC), les clés à long terme doivent être isolées afin qu’elles ne soient jamais présentes dans le processus d’application. Le CNG prend actuellement en charge le stockage des clés privées asymétriques à l’aide du logiciel Microsoft KSP inclus avec Windows Server 2008 et Windows Vista et installé par défaut.
+Pour respecter les exigences de critères communs (CC), les clés à long terme doivent être isolées afin qu’elles ne soient jamais présentes dans le processus d’application. CNG prend actuellement en charge le stockage des clés privées asymétriques à l’aide du logiciel Microsoft KSP fourni avec Windows Server 2008 et Windows Vista, et est installé par défaut.
 
-L’isolation de clé est activée par défaut dans Windows Server 2008 et Windows Vista. La fonctionnalité d’isolation de clé n’est pas disponible sur les plateformes antérieures à celles-ci. En outre, les KSP tiers ne sont pas chargés dans le service d’isolation de clé (processus LSA). Seul le KSP Microsoft est chargé dans le service d’isolation de clé.
+l’isolation de clé est activée par défaut dans Windows Server 2008 et Windows Vista. La fonctionnalité d’isolation de clé n’est pas disponible sur les plateformes antérieures à celles-ci. En outre, les KSP tiers ne sont pas chargés dans le service d’isolation de clé (processus LSA). Seul le KSP Microsoft est chargé dans le service d’isolation de clé.
 
 Le processus LSA est utilisé comme processus d’isolation de clé pour optimiser les performances. Tout accès aux clés privées passe par le routeur de stockage de clés, qui expose un ensemble complet de fonctions pour la gestion et l’utilisation des clés privées.
 
@@ -34,7 +34,7 @@ CNG stocke la partie publique de la clé stockée séparément de la partie priv
 
 Comme décrit ci-dessus, un large éventail de dispositifs de stockage matériel peut être pris en charge. Dans chaque cas, l’interface à tous ces périphériques de stockage est identique. Il comprend des fonctions permettant d’effectuer diverses opérations de clé privée, ainsi que des fonctions relatives au stockage et à la gestion des clés.
 
-CNG fournit un ensemble d’API qui permettent de créer, de stocker et de récupérer des clés de chiffrement. Pour obtenir la liste de ces API, consultez [fonctions de stockage de clés CNG](cng-key-storage-functions.md).
+CNG fournit un ensemble d’API qui permettent de créer, de stocker et de récupérer des clés de chiffrement. pour obtenir la liste de ces api, consultez [Stockage des fonctions de clé CNG](cng-key-storage-functions.md).
 
 ## <a name="key-types"></a>Types de clés
 
@@ -112,7 +112,7 @@ Lors de la persistance d’une clé, CNG peut créer deux fichiers. Le premier f
 
 Lorsqu’une application tente d’ouvrir une clé persistante existante, CNG tente d’abord d’ouvrir le fichier CNG natif. Si ce fichier n’existe pas, CNG tente de localiser une clé correspondante dans le conteneur de clé CryptoAPI hérité.
 
-Lorsque vous déplacez ou copiez des clés CryptoAPI d’un ordinateur source vers un ordinateur cible avec Outil de migration utilisateur Windows (USMT), CNG ne parvient pas à accéder aux clés sur l’ordinateur cible. Pour accéder à ces clés migrées, vous devez utiliser l’CryptoAPI.
+lorsque vous déplacez ou copiez des clés CryptoAPI d’un ordinateur source vers un ordinateur cible avec Outil de migration utilisateur Windows (USMT), CNG ne parvient pas à accéder aux clés sur l’ordinateur cible. Pour accéder à ces clés migrées, vous devez utiliser l’CryptoAPI.
 
  
 

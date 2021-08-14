@@ -5,16 +5,16 @@ ms.assetid: dd2c7ac9-76fc-4366-8654-8048e6793a16
 ms.tgt_platform: multiple
 keywords:
 - Exemple de code pour la publication du point de connexion RnR AD
-- Inscription et résolution Windows Sockets Active Directory, exemple de code, publication du point de connexion RnR
+- Windows Inscription et résolution des sockets Active Directory, exemple de code, publication du point de connexion RnR
 - Publication du point de connexion RnR AD, exemple de code
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e8f5337f80f9d05bcd1e9b25a963dadba4da21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a66581ea20acc42993451a8074e08f8b15f2244d4db1c997da2a978c717aaa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693202"
 ---
 # <a name="example-code-for-publishing-the-rnr-connection-point"></a>Exemple de code pour la publication du point de connexion RnR
 
@@ -84,9 +84,9 @@ INT serverRegister(SOCKADDR * sa,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

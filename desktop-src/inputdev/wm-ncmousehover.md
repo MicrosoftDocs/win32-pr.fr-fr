@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cde2e70b04602de5936e945789007a6c5fea8542
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 323464d32a2529475823003e51d5bbf0b15c616e32edb0622efe5be7f94dfb4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119611459"
 ---
 # <a name="wm_ncmousehover-message"></a>\_Message WM NCMOUSEHOVER
 
@@ -56,7 +56,7 @@ Structure de [**points**](/previous-versions//dd162808(v=vs.85)) qui contient le
 
 Si une application traite ce message, elle doit retourner la valeur zéro.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le suivi de survol s’arrête lorsque ce message est généré. L’application doit appeler à nouveau [**TrackMouseEvent**](/windows/win32/api/winuser/nf-winuser-trackmouseevent) si elle nécessite un suivi supplémentaire du comportement de pointage de la souris.
 

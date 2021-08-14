@@ -4,12 +4,12 @@ description: Méthodes d’objet caractère
 ms.assetid: 0f926b7b-c1cf-4bd6-ba8c-1b2877eb1d24
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bb0dbb256c99660cbce1613c9fdd27d85a92dc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 141c0fbcfe26e198984fd4a4d8c6c67858085e41178786d2cb78d2938231fdf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480313"
 ---
 # <a name="character-object-methods"></a>Méthodes d’objet caractère
 
@@ -17,12 +17,12 @@ ms.locfileid: "103940856"
 
 Le serveur expose également des méthodes pour chaque caractère dans une collection de [**caractères**](/windows/desktop/lwef/the-characters-object) . Les méthodes suivantes sont prises en charge :
 
--   [**Déclencher**](activate-method.md)
+-   [**Activer**](activate-method.md)
 -   [**GestureAt**](gestureat-method.md)
 -   [**Télécharger**](get-method.md)
 -   [**Masquer**](hide-method.md)
 -   [**Suspendre**](interrupt-method.md)
--   [**Écouter**](listen-method.md)
+-   [**Journal**](listen-method.md)
 -   [**DéplacerVers**](moveto-method.md)
 -   [**Lire**](play-method.md)
 -   [**Afficher**](show-method.md)
@@ -33,7 +33,7 @@ Le serveur expose également des méthodes pour chaque caractère dans une colle
 -   [**Réflexion**](think-method.md)
 -   [**Wait**](wait-method.md)
 
-Pour utiliser une méthode, référencez le caractère dans la collection. Dans VBScript et Visual Basic, vous pouvez le faire en spécifiant l’ID d’un caractère :
+Pour utiliser une méthode, référencez le caractère dans la collection. dans VBScript et Visual Basic, vous pouvez le faire en spécifiant l’ID d’un caractère :
 
 
 ```
@@ -52,7 +52,7 @@ Pour utiliser une méthode, référencez le caractère dans la collection. Dans 
 
 
 
-Pour simplifier la syntaxe de votre code, vous pouvez définir une variable objet et la définir pour qu’elle fasse référence à un objet caractère de la collection [**Characters**](/windows/desktop/lwef/the-characters-object) . vous pouvez ensuite utiliser votre variable pour référencer des méthodes ou des propriétés du caractère. L’exemple suivant montre comment effectuer cette opération à l’aide de l’instruction Visual Basic Set :
+Pour simplifier la syntaxe de votre code, vous pouvez définir une variable objet et la définir pour qu’elle fasse référence à un objet caractère de la collection [**Characters**](/windows/desktop/lwef/the-characters-object) . vous pouvez ensuite utiliser votre variable pour référencer des méthodes ou des propriétés du caractère. l’exemple suivant montre comment effectuer cette opération à l’aide de l’instruction Visual Basic Set :
 
 
 ```
@@ -81,7 +81,7 @@ Pour simplifier la syntaxe de votre code, vous pouvez définir une variable obje
 
 
 
-Dans Visual Basic 5,0, vous pouvez également créer votre référence en déclarant votre variable en tant qu’objet [**caractère**](/windows/desktop/lwef/the-characters-object):
+dans Visual Basic 5,0, vous pouvez également créer votre référence en déclarant votre variable en tant qu’objet [**caractère**](/windows/desktop/lwef/the-characters-object):
 
 
 ```
@@ -171,6 +171,6 @@ En outre, vous pouvez également créer une référence à l’objet [**caractè
 
 
 
- 
+ 
 
- 
+ 

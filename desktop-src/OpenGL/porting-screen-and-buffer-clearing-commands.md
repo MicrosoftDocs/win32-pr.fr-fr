@@ -20,12 +20,12 @@ keywords:
 - commandes de vidage de la mémoire tampon
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e53566c9fe14922f3965133cef9e30cbea4548b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fbff0fed3472fd4374605cb96dbae845998c0ba2d8ce488420f9b4c6895a07c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106513477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794874"
 ---
 # <a name="porting-screen-and-buffer-clearing-commands"></a>Portage de l’écran et des commandes de vidage de la mémoire tampon
 

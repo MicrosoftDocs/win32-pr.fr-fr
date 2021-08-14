@@ -4,12 +4,12 @@ ms.assetid: be50912e-b9fd-4ef7-b81a-e37617a96955
 title: Processus de fonctionnement COM+ CRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d39dba3dedcbdefebe0f62144547ebb6985fa51f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c6d294d60429faeaad7a4d58808760ecd327bcaff252f2b71070c6605f5327ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308128"
 ---
 # <a name="com-crm-operating-process"></a>Processus de fonctionnement COM+ CRM
 
@@ -35,7 +35,7 @@ L’interface [**ICrmLogControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrml
 
 Ces deux méthodes d’écriture écrivent un enregistrement de journal sur le disque, mais ne garantissent pas la durabilité de l’enregistrement. Tout en autorisant l’accumulation des écritures différées avant de forcer le disque à améliorer les performances, vous pouvez utiliser la méthode [**ICrmLogControl :: ForceLog**](/windows/desktop/api/ComSvcs/nf-comsvcs-icrmlogcontrol-forcelog) à la place pour garantir que toutes les écritures effectuées par le CRM sont durables sur le disque, ce qui est important pour la récupération en cas d’échec.
 
-Lorsque le processus de travail CRM est terminé avec ses actions et a terminé l’écriture et le forçage des enregistrements dans le journal, il doit libérer [**ICrmLogControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmlogcontrol). Une fois la transaction terminée (en général, en raison du composant d’application qui appelle [**SetComplete**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete) ou [**SetAbort**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setabort)), l’infrastructure CRM crée le composant CRM compensator, qui implémente l’interface [**ICrmCompensator**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensator) ou l’interface [**ICrmCompensatorVariants**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensatorvariants) . Ces interfaces sont utilisées pour transmettre les enregistrements non structurés (Visual C++) ou structurés (Visual Basic) au compensateur CRM avec les notifications de résultat de la transaction.
+Lorsque le processus de travail CRM est terminé avec ses actions et a terminé l’écriture et le forçage des enregistrements dans le journal, il doit libérer [**ICrmLogControl**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmlogcontrol). Une fois la transaction terminée (en général, en raison du composant d’application qui appelle [**SetComplete**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setcomplete) ou [**SetAbort**](/windows/desktop/api/ComSvcs/nf-comsvcs-iobjectcontext-setabort)), l’infrastructure CRM crée le composant CRM compensator, qui implémente l’interface [**ICrmCompensator**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensator) ou l’interface [**ICrmCompensatorVariants**](/windows/desktop/api/ComSvcs/nn-comsvcs-icrmcompensatorvariants) . ces interfaces sont utilisées pour transmettre les enregistrements non structurés (Visual C++) ou structurés (Visual Basic) au compensateur CRM avec les notifications de résultat de la transaction.
 
 Le compensateur CRM est tout d’abord notifié de la phase de préparation de l’exécution de la transaction et peut voter oui ou non pour la demande de préparation. Si le compensateur CRM vote non, il ne reçoit pas de notifications d’abandon supplémentaires. S’il vote oui pour la demande de préparation, il reçoit les notifications de validation ou d’abandon. En cas d’abandon d’un client, aucune notification de préparation n’est reçue, les notifications d’abandon sont uniquement abandonnées. Le compensateur CRM doit être prêt à gérer tous ces cas, et il doit également gérer le cas où aucun enregistrement de journal n’a été écrit avec succès par le Worker CRM. Le compensateur CRM ne doit pas supposer que la même instance CRM Compensator recevra à la fois les notifications de phase 1 (préparation) et de phase 2 (validation ou abandon), car elles pourraient être interrompues par la récupération.
 

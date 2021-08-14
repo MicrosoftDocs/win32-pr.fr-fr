@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 937e56e438feadc646329c673af4454cb39eaddd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16ab3736e3ad5b0bcf10bed1fb606d3e6283715a6b10c44dcb4923920597d5e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118910444"
 ---
 # <a name="winbio_extended_enrollment_status-structure"></a>WINBIO \_ \_ structure d’état d’inscription étendue \_
 
@@ -104,7 +104,7 @@ Meilleure estimation de l’adaptateur de moteur pour le pourcentage du modèle 
 
 </dd> <dt>
 
-**Factor**
+**Facteur**
 </dt> <dd>
 
 Type d’unité biométrique pour lequel cette structure contient des informations sur les fonctionnalités et les exigences d’inscription de l’adaptateur de moteur. Par exemple, si la valeur du membre **Factor** est **WINBIO \_ type \_ Fingerprint**, la structure [**WINBIO \_ Extended \_ Engine \_ info**](winbio-extended-engine-info.md) s’applique à un lecteur d’empreintes digitales et contient les informations pertinentes dans la structure **spécifique. Fingerprint** .
@@ -118,7 +118,7 @@ Valeur **de \_ sous- \_ type biométrique WINBIO** qui fournit des informations 
 
 </dd> <dt>
 
-**Spécifique**
+**Plus**
 </dt> <dd>
 
 Informations sur l’état d’une inscription en cours pour un facteur biométrique spécifique.
@@ -268,8 +268,8 @@ Réservé.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 10 uniquement\]<br/>                                                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2016 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 10 \[ applications de bureau uniquement\]<br/>                                                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Server 2016 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

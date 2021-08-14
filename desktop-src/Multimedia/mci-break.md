@@ -3,7 +3,7 @@ title: Commande MCI_BREAK (mmsystem. h)
 description: La \_ commande MCI Break définit une clé d’arrêt pour un appareil MCI. MCI prend en charge cette commande directement au lieu de la transmettre à l’appareil. Toute application MCI peut utiliser cette commande.
 ms.assetid: 127b5179-2838-4bde-8d0c-37a4cc87fa4d
 keywords:
-- Commande MCI_BREAK Windows multimédia
+- commande MCI_BREAK Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b17e3796192344ef974fed1af7229d41746aaf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 07006ddfb38e1a57f6e08cb73d9b33021d139b9542245aec137e0969378140e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117803968"
 ---
 # <a name="mci_break-command"></a>\_Commande MCI Break
 
@@ -68,7 +68,7 @@ Pointeur vers une structure de [**\_ \_ sauts MCI**](mci-break-parms.md) .
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devrez peut-être appuyer plusieurs fois sur la touche pause pour interrompre une opération d’attente. Le fait d’appuyer sur la touche Attn après l’annulation d’un appareil peut envoyer la pause à une application. Si une application a une action définie pour le code de clé virtuelle, elle peut répondre par inadvertance à l’arrêt. Par exemple, une application utilisant VK \_ Annuler pour une touche accélérateur peut répondre à la touche CTRL + ATTN par défaut si elle est appuyée après l’annulation d’une attente.
 
@@ -105,7 +105,7 @@ Désactive toute clé d’arrêt existante pour l’appareil indiqué.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

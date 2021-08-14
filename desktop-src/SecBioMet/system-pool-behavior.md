@@ -4,12 +4,12 @@ description: Discussion sur les actions effectuées par le pool système lorsque
 ms.assetid: cc1f8ffa-ce69-48ff-8509-81d85807d12a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a82d957b2b1b4968835eec1482662e30765e4a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 923cfff4b36bd14d100ce1f73db455be5261d75dc2c5be1eddc8f9d6af87fce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911592"
 ---
 # <a name="system-pool-behavior"></a>Comportement du pool système
 
@@ -26,22 +26,22 @@ Lorsqu’une unité biométrique génère un avis d’événement, le pool syst�
 Les événements de capture sont fournis dans l’ordre suivant :
 
 -   Si la fenêtre active active attend une opération de mise en correspondance ou d’inscription, l’exemple est traité et envoyé au client qui possède la fenêtre active active.
--   Si l’événement de capture n’est pas réclamé par la fenêtre active active et qu’un gestionnaire d’événements non réclamés a été inscrit auprès du service de biométrie Windows, l’événement de capture est envoyé à ce gestionnaire.
+-   si l’événement de capture n’est pas réclamé par la fenêtre active active et qu’un gestionnaire d’événements non réclamés a été inscrit auprès du service de biométrique Windows, l’événement de capture est envoyé à ce gestionnaire.
 -   Si l’événement reste non réclamé, il est ignoré.
 
-Si l’événement est un événement de navigation et qu’un gestionnaire d’événements de navigation a été inscrit auprès du service de biométrie Windows, l’événement de capture est envoyé à ce gestionnaire. S’il n’existe aucun gestionnaire d’événements, l’événement est ignoré.
+si l’événement est un événement de navigation et qu’un gestionnaire d’événements de navigation a été inscrit auprès du service de biométrie Windows, l’événement de capture est envoyé à ce gestionnaire. S’il n’existe aucun gestionnaire d’événements, l’événement est ignoré.
 
 ## <a name="idle-mode"></a>Mode inactif
 
 Si aucun client n’attend la fin des demandes de correspondance explicite ou d’inscription, le pool système détermine s’il faut générer automatiquement des demandes de capture répétées et envoyer l’avis d’événement résultant au gestionnaire d’événements non réclamés ou attendre les événements de navigation et les envoyer au gestionnaire d’événements de navigation.
 
-Si un gestionnaire d’événements non réclamé a été inscrit auprès du service de biométrie Windows, le pool système effectue les actions suivantes :
+si un gestionnaire d’événements non réclamé a été inscrit auprès du service de biométrique Windows, le pool système effectue les actions suivantes :
 
 -   Le mode de navigation du capteur est désactivé.
 -   Les opérations non réclamées sont envoyées au gestionnaire d’événements indépendamment du focus de la fenêtre.
 -   S’il n’y a aucune demande en suspens pour une opération biométrique, une capture automatique est effectuée.
 
-Si un gestionnaire de navigation a été inscrit auprès du service de biométrie Windows, le pool système effectue les opérations suivantes :
+si un gestionnaire de navigation a été inscrit auprès du service de biométrique Windows, le pool système effectue les opérations suivantes :
 
 -   Les unités biométriques du pool système sont placées dans un état de navigation si aucune opération biométrique n’est en attente.
 -   Les événements de navigation sont désactivés si une notification d’événement de correspondance ou d’inscription est envoyée par un client.
@@ -60,9 +60,9 @@ Si un gestionnaire de navigation a été inscrit auprès du service de biométri
 [Pool de capteurs système](system-sensor-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

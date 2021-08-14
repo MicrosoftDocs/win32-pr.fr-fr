@@ -4,12 +4,12 @@ description: Les membres de la structure RASDIALPARAMS peuvent également spéci
 ms.assetid: 95a8dd78-e424-4d0b-899a-69deb9e1b9cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea4d006cd3cb31d5dc7229043b2a8ef169c22d76
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c596dbfb160766283beb9c48a5faf4e8258dcf0361ad7a504188a29207c0500f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789930"
 ---
 # <a name="other-connection-information"></a>Autres informations de connexion
 
@@ -23,6 +23,6 @@ Pour le numéro de rappel et le domaine, les membres [**RASDIALPARAMS**](/previo
 
 Un client RAS peut utiliser le paramètre *lpRasDialExtensions* de la fonction [**rasdial**](/windows/desktop/api/Ras/nf-ras-rasdiala) pour déterminer si RAS utilise un préfixe ou un suffixe de numéro de téléphone spécifié dans une entrée d’annuaire téléphonique.
 
- 
+ 
 
- 
+ 

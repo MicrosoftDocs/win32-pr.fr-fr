@@ -1,25 +1,25 @@
 ---
-title: Flux d’images
-description: Flux d’images
+title: Image Flux
+description: Image Flux
 ms.assetid: 17a945aa-463a-4aac-82cc-68b49c720c0a
 keywords:
-- Windows Media Format SDK, flux d’images
+- Windows Media Format SDK, images flux
 - ASF (Advanced Systems Format), flux d’images
 - ASF (format des systèmes avancés), flux d’images
-- Windows Media Format SDK, flux
+- Windows Media Format SDK, Streams
 - ASF (Advanced Systems Format), flux
 - ASF (format de systèmes avancés), flux
 - flux d’images, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 280d029715a3c722d05ee335a3a88ae4632cabbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2067710e6b2be627bd16125d73e567a2f1ba1557ae01b81f55712d8c5a7b8bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104310845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702863"
 ---
-# <a name="image-streams"></a>Flux d’images
+# <a name="image-streams"></a>Image Flux
 
 Un flux d’image est un type spécial de flux qui contient des images fixes affectées aux durées de présentation. Une application peut afficher les images dans un flux d’image comme vous le souhaitez, mais l’implémentation classique consiste à afficher chaque image jusqu’à ce que l’image suivante soit remise, comme un diaporama. En règle générale, un flux d’image est encodé dans un fichier avec un flux audio pour produire une présentation simple d’images synchronisées avec de la musique ou de la parole.
 
@@ -29,7 +29,7 @@ Les flux d’images sont semblables aux flux vidéo dans la mesure où ils sont 
 
 <dl> <dt>
 
-[**Flux arbitraires**](arbitrary-streams.md)
+[**Flux arbitraire**](arbitrary-streams.md)
 </dt> <dt>
 
 [**Fonctionnalités des fichiers ASF**](asf-file-features.md)
@@ -38,12 +38,12 @@ Les flux d’images sont semblables aux flux vidéo dans la mesure où ils sont 
 [**Flux audio et vidéo**](audio-and-video-streams.md)
 </dt> <dt>
 
-[**Écriture de flux d’images**](writing-image-streams.md)
+[**Écriture d’une image Flux**](writing-image-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

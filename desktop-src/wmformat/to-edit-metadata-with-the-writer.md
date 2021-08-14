@@ -12,12 +12,12 @@ keywords:
 - métadonnées, modification avec l’enregistreur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2823b266b51da366683ac0b5cf65e10debf1ad
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 3d09db09a2cd7dbc50130243e322085ab2113e76f71d8b6760bd602d16f29d3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104381697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197069"
 ---
 # <a name="to-edit-metadata-with-the-writer"></a>Pour modifier des métadonnées avec le writer
 
@@ -28,7 +28,7 @@ Vous devez apporter toutes les modifications aux métadonnées avant d’appeler
 > [!Note]  
 > Si vous définissez des métadonnées pour un fichier, écrivez le fichier, puis préparez l’écriture d’un nouveau fichier sans libérer l’enregistreur, certaines métadonnées qui ont été définies pour le premier fichier resteront définies et seront incluses dans les fichiers suivants. Lors de l’écriture de plusieurs fichiers avec la même instance de l’objet Writer, vous avez deux options : vérifier toutes les métadonnées avant d’écrire chaque fichier, ou uniquement écrire dans les métadonnées du writer qui s’appliquent à tous les fichiers que vous écrivez.
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -37,9 +37,9 @@ Vous devez apporter toutes les modifications aux métadonnées avant d’appeler
 [**Écriture de fichiers ASF**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

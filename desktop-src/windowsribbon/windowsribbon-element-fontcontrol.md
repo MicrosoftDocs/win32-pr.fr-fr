@@ -3,7 +3,7 @@ title: Élément FontControl
 description: Représente un contrôle de police, qui est un conteneur spécialisé de contrôles individuels dédiés à la manipulation de polices.
 ms.assetid: 98eddab5-28cb-4b9d-a788-ee28dd6055b1
 keywords:
-- Ruban des fenêtres d’élément FontControl
+- élément FontControl Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42c9d900c2af4f7f8ba26f5ac8dbbdc0d055668d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7c7b068246da9b26a4b3547e27abd1a9b60c8fd70de10e4edd2438463a156633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202515"
 ---
 # <a name="fontcontrol-element"></a>Élément FontControl
 
 Représente un [contrôle de police](windowsribbon-controls-fontcontrol.md), qui est un conteneur spécialisé de contrôles individuels dédiés à la manipulation de polices.
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <FontControl
@@ -196,7 +196,7 @@ Les polices verticales sont précédées d’un symbole @ dans la liste des <str
 <dt><span></span><span></span><strong></strong> :<br/> </dt> <dd> Par défaut. Affiche les polices verticales qui sont définies pour s' <strong>Afficher</strong> dans le panneau de configuration <strong>polices</strong> . <br/> </dd> <dt><span></span><span></span><strong></strong> fausses<br/> </dt> <dd> Permet à une application qui ne prend pas en charge le texte vertical de masquer les polices verticales qui sont définies pour s' <strong>Afficher</strong> dans le panneau de configuration <strong>polices</strong> .<br/>
 <blockquote>
 [!Note]<br />
-Dans Windows Vista, le panneau de configuration des <strong>polices</strong> n’offre pas de fonctionnalité d' <strong>affichage</strong> ou de <strong>masquage</strong> . Dans ce cas, l’attribut <em>ShowVerticalFonts</em> doit avoir la valeur <code>False</code> .
+dans Windows Vista, le panneau de configuration des <strong>polices</strong> n’offre pas de fonctionnalité d' <strong>affichage</strong> ou de <strong>masquage</strong> . Dans ce cas, l’attribut <em>ShowVerticalFonts</em> doit avoir la valeur <code>False</code> .
 </blockquote>
 <br/> </dd> </dl></td>
 </tr>
@@ -223,7 +223,7 @@ Il n’y a pas d’éléments enfants.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire au plus une fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**Group**](windowsribbon-element-group.md)ou [**MenuGroup**](windowsribbon-element-menugroup.md) .
 
@@ -317,7 +317,7 @@ Cette section de code montre les déclarations de contrôle **FontControl** où 
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

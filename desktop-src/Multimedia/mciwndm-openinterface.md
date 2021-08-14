@@ -3,7 +3,7 @@ title: Message MCIWNDM_OPENINTERFACE (VFW. h)
 description: Le \_ message MCIWNDM OPENINTERFACE joint le flux de données ou le fichier associé à l’interface spécifiée à une fenêtre MCIWnd. Vous pouvez envoyer ce message explicitement ou à l’aide de la macro MCIWndOpenInterface.
 ms.assetid: 73cbd637-d315-4b39-a978-2b72aed1f303
 keywords:
-- Message MCIWNDM_OPENINTERFACE Windows Multimedia
+- message MCIWNDM_OPENINTERFACE Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c40453f4d587429508a5aae19bc432fc46088ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83097ad6301dbfdb4636a8478c2df8e544207df334efd27fe9695f15e0693533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373497"
 ---
 # <a name="mciwndm_openinterface-message"></a>\_Message MCIWNDM OPENINTERFACE
 

@@ -4,12 +4,12 @@ description: Propriété MoveCause
 ms.assetid: 8f78a6da-8498-4a39-a4b9-5ab7a43d97f5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc7f91d068befa2b919c04818c46dbc1a48faa0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aa797338e64edfd67ae2347f2983df624464df923a64883e3adc5143671b15dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883830"
 ---
 # <a name="movecause-property"></a>Propriété MoveCause
 
@@ -27,7 +27,7 @@ Retourne une valeur entière qui spécifie ce qui a provoqué le dernier déplac
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent*. **Caractères («***CharacterID***»). MoveCause**
+*agent*. **Caractères («**_CharacterID_*_»). MoveCause_*
 
 
 
@@ -41,11 +41,11 @@ Retourne une valeur entière qui spécifie ce qui a provoqué le dernier déplac
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez utiliser cette propriété pour déterminer ce qui a provoqué le déplacement du caractère, lorsque plusieurs applications partagent le même caractère. Ces valeurs sont les mêmes que celles retournées par l’événement [**Move**](move-event.md) .
 
@@ -54,9 +54,9 @@ Vous pouvez utiliser cette propriété pour déterminer ce qui a provoqué le d�
 [**Move, événement**](move-event.md), [ **méthode MoveTo**](moveto-method.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

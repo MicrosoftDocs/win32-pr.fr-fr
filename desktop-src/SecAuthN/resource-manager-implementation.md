@@ -4,12 +4,12 @@ ms.assetid: 4a62588a-14d9-43dc-9572-25a9cbcd0efd
 title: Implémentation de Gestionnaire des ressources
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ec653f999b74bb9851893b11e1fa49120a7bd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d0dfd21ed7da466f84e867a6d28b0e826fc5c4733f24d2f5e1f0562f1b4156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919148"
 ---
 # <a name="resource-manager-implementation"></a>Implémentation de Gestionnaire des ressources
 

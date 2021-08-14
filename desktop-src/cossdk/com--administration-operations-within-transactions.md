@@ -4,12 +4,12 @@ ms.assetid: 832f2e6d-26ff-416e-a92e-ebaa33d4e7e5
 title: Opérations d’administration COM+ dans les transactions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21612ffec1b9f082dc6a91861882a71f18fb07be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4182b143de38d838aea7c5aabd2d91bdb84f94480b2bed4c4441e204412ac834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308248"
 ---
 # <a name="com-administration-operations-within-transactions"></a>Opérations d’administration COM+ dans les transactions
 
@@ -43,14 +43,14 @@ Si vous effectuez de nombreuses opérations d’administration au sein d’une t
 
 ## <a name="non-transactional-com-catalog-resources"></a>Ressources de catalogue COM+ non transactionnelles
 
-Le registre, le système de fichiers et le Windows Installer (MSI) sont des ressources de catalogue COM+ qui ne sont pas transactionnelles.
+le registre, le système de fichiers et le Windows Installer (MSI) sont des ressources de catalogue COM+ qui ne sont pas transactionnelles.
 
 > [!Note]  
 > En cas d’erreur qui interrompt une transaction, les modifications apportées à ces ressources peuvent ne pas être restaurées.
 
  
 
-En cas d’erreur lors de l’installation d’une application COM+ existante à partir d’un fichier. msi, l’application n’apparaît pas dans le composant logiciel enfichable Services de composants, mais elle peut apparaître dans Ajout/suppression de programmes. dans ce cas, vous devez la supprimer manuellement.
+En cas d’erreur lors de l’installation d’une application COM+ existante à partir d’un fichier .msi, l’application n’apparaît pas dans le composant logiciel enfichable Services de composants, mais elle peut apparaître dans Ajout/suppression de programmes. dans ce cas, vous devez la supprimer manuellement.
 
 ## <a name="recovering-in-the-event-of-system-hangs"></a>Récupération en cas de blocages du système
 
@@ -58,7 +58,7 @@ Si un composant qui effectue des opérations d’administration au sein d’une 
 
 ## <a name="scripting-with-a-transactioncontext-object"></a>Écriture de scripts avec un objet TransactionContext
 
-Un moyen simple d’effectuer des opérations d’administration au sein des transactions consiste à utiliser un objet [**transactionContext**](transactioncontext.md) pour contrôler la transaction. Par exemple, le script de Visual Basic suivant montre comment ajouter de manière transactionnelle deux nouvelles applications afin que les deux applications ou aucune des applications soient créées :
+Un moyen simple d’effectuer des opérations d’administration au sein des transactions consiste à utiliser un objet [**transactionContext**](transactioncontext.md) pour contrôler la transaction. par exemple, le script de Visual Basic suivant montre comment ajouter de manière transactionnelle deux nouvelles applications afin que les deux applications ou aucune des applications soient créées :
 
 
 ```VB

@@ -10,12 +10,12 @@ keywords:
 - partage de bande passante, interface IWMProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 298c690b484a8b4b5990aacd5d525867da8923c0
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 7259ddf441a4e32eb7eb4aea19a52d633c6aacd3a27ad6d392e4fea41c3f4fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104381699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845155"
 ---
 # <a name="using-bandwidth-sharing"></a>Utilisation du partage de bande passante
 
@@ -47,9 +47,9 @@ Chaque objet de partage de bande passante est défini par deux paramètres. Tout
 [**Utilisation des profils**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

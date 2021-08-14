@@ -4,12 +4,12 @@ description: Le gestionnaire de connexions d’accès à distance continue les n
 ms.assetid: 2c3b0d03-1cb7-4fa4-a7fa-bcfe623b791f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4b949eb7dcc0f09d05d2fb272f4f3d36da40fac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ada6dcfad1ae0dfd4eefb3df00dceefce0df77d93239a6e7c2c4fa6517cac25e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791603"
 ---
 # <a name="completion-notifications"></a>Notifications de saisie semi-automatique
 
@@ -20,9 +20,9 @@ Le gestionnaire de connexions d’accès à distance continue les notifications 
 
 L’application cliente RAS ne doit pas supposer que l’opération de connexion est terminée après l’appel de [**RasHangUp**](/windows/desktop/api/Ras/nf-ras-rashangupa). Il doit attendre l’une des conditions précédentes avant de quitter.
 
- 
+ 
 
- 
+ 
 
 
 

@@ -18,12 +18,12 @@ keywords:
 - mciSendString fonction)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44538937be73c2ccfb1d30de1f1a1c729cc05095
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6f6f402e532f1bcf22a9136764647c91b1f4d54479f932c509ec172c1d973f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375156"
 ---
 # <a name="general-mci-errors"></a>Erreurs MCI générales
 
@@ -58,7 +58,7 @@ Les valeurs d’erreur suivantes peuvent être retournées par la fonction [**mc
 | MCIERR \_ Télécharger le \_ CD                  | Le fichier demandé ou le périphérique MCI est introuvable. Essayez de changer de répertoire ou de redémarrer votre système.                                                         |
 | \_matériel MCIERR                 | L’appareil spécifié présente un problème. Vérifiez que l’appareil fonctionne correctement ou contactez le fabricant de l’appareil.                                     |
 | MCIERR \_ non conforme \_ pour l' \_ \_ ouverture automatique | MCI n’exécutera pas la commande spécifiée sur un appareil automatiquement ouvert. Attendez que l’appareil soit fermé, puis essayez d’exécuter la commande.             |
-| MCIERR \_ interne                 | Un problème s’est produit lors de l’initialisation de MCI. Essayez de redémarrer le système d’exploitation Windows.                                                                        |
+| MCIERR \_ interne                 | Un problème s’est produit lors de l’initialisation de MCI. essayez de redémarrer le système d’exploitation Windows.                                                                        |
 | MCIERR \_ \_ ID d’appareil non valide \_      | ID d’appareil non valide. Utilisez l’ID donné à l’appareil lorsque l’appareil a été ouvert.                                                                               |
 | MCIERR \_ \_ nom de périphérique non valide \_    | L’appareil spécifié n’est pas ouvert ou n’est pas reconnu par MCI.                                                                                                     |
 | MCIERR \_ fichier non valide \_            | Le fichier spécifié ne peut pas être lu sur l’appareil MCI spécifié. Le fichier est peut-être endommagé ou utilise un format de fichier incorrect.                               |
@@ -80,8 +80,8 @@ Les valeurs d’erreur suivantes peuvent être retournées par la fonction [**mc
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

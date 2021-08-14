@@ -1,6 +1,6 @@
 ---
 title: Constantes WINBIO_SETTING_SOURCE ( \_ types WINBIO. h)
-description: Déterminez si la Windows Biometric Framework est actuellement activée.
+description: déterminez si la Windows Biometric Framework est actuellement activée.
 ms.assetid: d95aa6cc-ddff-40fb-ab82-eac78dc0cb6b
 topic_type:
 - apiref
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b54723612c7e0948e09baddf22ad4f4703ca5c38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2f02a5edc80d00d098a592626ad4d9f0e1030f9f6eee119bf615375680d11842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909317"
 ---
 # <a name="winbio_setting_source-constants"></a>\_Constantes de la source de paramètre WINBIO \_
 
-Les constantes suivantes sont utilisées par la fonction [**WinBioGetEnabledSetting**](/windows/desktop/api/Winbio/nf-winbio-winbiogetenabledsetting) pour déterminer si la Windows Biometric Framework est actuellement activée. Les constantes spécifient l’origine du paramètre.
+les constantes suivantes sont utilisées par la fonction [**WinBioGetEnabledSetting**](/windows/desktop/api/Winbio/nf-winbio-winbiogetenabledsetting) pour déterminer si la Windows Biometric Framework est actuellement activée. Les constantes spécifient l’origine du paramètre.
 
 
 
@@ -43,8 +43,8 @@ Les constantes suivantes sont utilisées par la fonction [**WinBioGetEnabledSett
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                                    |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                       |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                                    |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                       |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (include WinBio. h)</dt> </dl> |
 
 

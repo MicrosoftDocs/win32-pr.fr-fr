@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: aa9b986b5cb76f14cc950f522e1e289224c17b58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94d62de132a61bb357acac77aea41d2278ba1eb4453afa826ac32be90095ab25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860148"
 ---
 # <a name="folderitems2invokeverbex-method"></a>Méthode FolderItems2. InvokeVerbEx
 
@@ -58,15 +58,15 @@ Type : **variante**
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Un verbe est une chaîne utilisée pour spécifier une action particulière associée à un élément ou à une collection d’éléments. En règle générale, l’appel d’un verbe lance une application associée. Par exemple, l’appel du verbe **Open** sur un fichier. txt ouvre normalement le fichier avec un éditeur de texte, généralement Microsoft Notepad. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md).
+Un verbe est une chaîne utilisée pour spécifier une action particulière associée à un élément ou à une collection d’éléments. En règle générale, l’appel d’un verbe lance une application associée. par exemple, l’appel du verbe **open** sur un fichier .txt ouvre normalement le fichier avec un éditeur de texte, généralement Microsoft Bloc-notes. Pour plus d’informations sur les verbes, consultez [lancement d’applications](launch.md).
 
 ## <a name="examples"></a>Exemples
 
-L’exemple suivant utilise **InvokeVerbEx** pour appeler le verbe par défaut (« Open ») sur **poste de travail**. L’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
+L’exemple suivant utilise **InvokeVerbEx** pour appeler le verbe par défaut (« Open ») sur **poste de travail**. l’utilisation appropriée est indiquée pour JScript, VBScript et Visual Basic.
 
-Langage
+JScript :
 
 
 ```JScript
@@ -155,14 +155,14 @@ End Sub
 
 
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Shldisp. h</dt> </dl>                          |
 | MIDL<br/>                      | <dl> <dt>Shldisp. idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (version 5,0 ou ultérieure)</dt> </dl> |

@@ -1,19 +1,19 @@
 ---
 title: Sélecteur de couleurs Drop-Down
-description: L’infrastructure de ruban Windows fournit un contrôle de sélecteur de couleurs Drop-Down spécialisé qui expose un large éventail de paramètres de couleur via un bouton partagé et un sélecteur de couleur déroulant personnalisable.
+description: l’infrastructure du ruban Windows fournit un contrôle de sélecteur de couleurs Drop-Down spécialisé qui expose un large éventail de paramètres de couleur via un bouton partagé et un sélecteur de couleur déroulant personnalisable.
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 366cc7eadaca23271d5b2afa43ec66235839694a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 9e8104ba92d0be9d56607083508d7f30728a7f3a141839d74314561d392fb942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707659"
 ---
 # <a name="drop-down-color-picker"></a>Sélecteur de couleurs Drop-Down
 
-L’infrastructure de ruban Windows fournit un contrôle de sélecteur de couleurs Drop-Down spécialisé qui expose un large éventail de paramètres de couleur via un bouton partagé et un sélecteur de couleur déroulant personnalisable.
+l’infrastructure du ruban Windows fournit un contrôle de sélecteur de couleurs Drop-Down spécialisé qui expose un large éventail de paramètres de couleur via un bouton partagé et un sélecteur de couleur déroulant personnalisable.
 
 -   [Introduction](#introduction)
 -   [balisage](#markup)
@@ -24,7 +24,7 @@ L’infrastructure de ruban Windows fournit un contrôle de sélecteur de couleu
 
 ## <a name="introduction"></a>Introduction
 
-En émulant l’apparence et la fonctionnalité du sélecteur de couleurs Microsoft Office, l’infrastructure du ruban peut à la fois tirer parti de et contribuer à la cohérence et à la familiarité dans un large éventail d’applications.
+en émulant l’apparence et la fonctionnalité du sélecteur de couleurs Microsoft Office, l’infrastructure du ruban peut à la fois tirer parti de et contribuer à la cohérence et à la familiarité dans un large éventail d’applications.
 
 ## <a name="markup"></a>balisage
 
@@ -194,7 +194,7 @@ Le tableau suivant répertorie les clés de propriété associées au contrôle 
 <tr class="header">
 <th>Clé de propriété</th>
 <th>Description</th>
-<th>Notes</th>
+<th>Remarques</th>
 </tr>
 </thead>
 <tbody>
@@ -443,7 +443,7 @@ STDMETHODIMP DropDownColorPickerHandler::Execute(
 
 <dl> <dt>
 
-[Bibliothèque de contrôles de l’infrastructure du ruban Windows](windowsribbon-controls-entry.md)
+[Windows Bibliothèque de contrôles de Framework du ruban](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**Élément de balisage DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)

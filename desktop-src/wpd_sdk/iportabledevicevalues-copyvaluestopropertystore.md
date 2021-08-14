@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d6ab6b4614c336d3e0da50c0291b2e69a260ae1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d134cb61831426451b1c6068bde5ca787b027fbe5b153587b45d9693ef739c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697246"
 ---
 # <a name="iportabledevicevaluescopyvaluestopropertystore-method"></a>IPortableDeviceValues :: CopyValuesToPropertyStore, méthode
 
@@ -49,7 +49,7 @@ Pointeur vers un objet de magasin.
 
 ## <a name="return-value"></a>Valeur retournée
 
-La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
+Cette méthode retourne un code **HRESULT**. Les valeurs possibles sont notamment celles figurant dans le tableau suivant.
 
 
 
@@ -61,11 +61,11 @@ La méthode retourne un **HRESULT**. Les valeurs possibles sont notamment celles
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode ne convertit pas les valeurs de VT \_ LPWStr en VT \_ BSTR. De nombreuses applications ou composants externes qui communiquent avec votre application, tels que certaines applications de l’interpréteur de commandes, utilisent l’interface **IPropertyStore** . Cette méthode offre un moyen simple et rapide d’échanger des données avec ces programmes.
 
-Cette méthode est prise en charge dans Windows Vista et les versions ultérieures de Windows.
+cette méthode est prise en charge dans Windows Vista et les versions ultérieures de Windows.
 
 ## <a name="requirements"></a>Configuration requise
 

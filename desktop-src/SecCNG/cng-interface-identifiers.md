@@ -4,12 +4,12 @@ ms.assetid: 509c89ff-0c73-4e57-9c39-400522f2086e
 title: Identificateurs d’interface CNG (bcrypt. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4f75de82e198e0471b48175a080012b9b40eed9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9ebadf561df916eedde1175a39911da55628b113022378cee9e74b61d021792
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106530827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908270"
 ---
 # <a name="cng-interface-identifiers"></a>Identificateurs d’interface CNG
 
@@ -27,7 +27,7 @@ Les identificateurs suivants sont utilisés pour identifier une interface de chi
 | <span id="BCRYPT_RNG_INTERFACE"></span><span id="bcrypt_rng_interface"></span><dl> <dt>**BCRYPT \_ \_Interface RNG**</dt> <dt>0x00000006</dt> </dl>                                                        | Interface du générateur de nombres aléatoires.<br/>                                                                                                                                 |
 | <span id="NCRYPT_KEY_STORAGE_INTERFACE"></span><span id="ncrypt_key_storage_interface"></span><dl> <dt>**NCRYPT \_ \_ \_ Interface de stockage de clés**</dt> <dt>0x00010001</dt> </dl>                               | Interface de stockage de clés.<br/>                                                                                                                                             |
 | <span id="NCRYPT_SCHANNEL_INTERFACE"></span><span id="ncrypt_schannel_interface"></span><dl> <dt>**NCRYPT \_ \_Interface Schannel**</dt> <dt>0x00010002</dt> </dl>                                         | Interface de signature Schannel.<br/>                                                                                                                                      |
-| <span id="NCRYPT_SCHANNEL_SIGNATURE_INTERFACE"></span><span id="ncrypt_schannel_signature_interface"></span><dl> <dt>**NCRYPT \_ \_ \_ Interface de signature Schannel**</dt> <dt>0x00010003</dt> </dl>          | Interface de la suite de chiffrement Schannel.<br/> **Windows server 2008, Windows Vista, Windows server 2003, Windows XP et windows 2000 :** Cette valeur n’est pas prise en charge.<br/> |
+| <span id="NCRYPT_SCHANNEL_SIGNATURE_INTERFACE"></span><span id="ncrypt_schannel_signature_interface"></span><dl> <dt>**NCRYPT \_ \_ \_ Interface de signature Schannel**</dt> <dt>0x00010003</dt> </dl>          | Interface de la suite de chiffrement Schannel.<br/> **Windows server 2008, Windows Vista, Windows server 2003, Windows XP et Windows 2000 :** Cette valeur n’est pas prise en charge.<br/> |
 
 
 
@@ -37,8 +37,8 @@ Les identificateurs suivants sont utilisés pour identifier une interface de chi
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                                                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                |
 | En-tête<br/>                   | <dl> <dt>Bcrypt. h ; </dt> <dt>Ncrypt. h</dt> </dl> |
 
 

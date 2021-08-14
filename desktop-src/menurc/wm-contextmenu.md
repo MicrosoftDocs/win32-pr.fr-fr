@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff7764926709bfc8ab6aa95be330a9d45d38bc48
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c036bf0711f208bae25657d572102a7f4d82525076ee1d0b6f4ebd6598e8197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472504"
 ---
 # <a name="wm_contextmenu-message"></a>\_Message WM CONTEXTMENU
 
@@ -56,7 +56,7 @@ Le mot de poids fort spécifie la position verticale du curseur, en coordonnées
 
 Pas de valeur de retour.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une fenêtre peut traiter ce message en affichant un menu contextuel à l’aide des fonctions [**TrackPopupMenu**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenu) ou [**TrackPopupMenuEx**](/windows/desktop/api/Winuser/nf-winuser-trackpopupmenuex) . Pour obtenir les positions horizontale et verticale, utilisez le code suivant.
 

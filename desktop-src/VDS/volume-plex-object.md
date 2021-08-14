@@ -4,16 +4,16 @@ ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: Objet de plex du volume
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a858bc6ce98761bb687e8dca473b1b68879da8
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: c140cbf50e1939be7f62499aa90a299e07c157cd22b1a2e039e5e7bb2053b497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104321333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603025"
 ---
 # <a name="volume-plex-object"></a>Objet de plex du volume
 
-\[À compter de Windows 8 et de Windows Server 2012, l’interface com du [service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion de stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
+\[à partir de Windows 8 et Windows Server 2012, l’interface COM du [Service de disque virtuel](virtual-disk-service-portal.md) est remplacée par l' [API de gestion des Stockage Windows](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal).\]
 
 Un objet de plex de volume modélise un plex de volume contenu dans un volume. Seul un volume en miroir peut avoir plusieurs Plex ; tous les autres types de volumes ont un Plex. Chaque Plex contient une copie des données sur le volume. VDS prend en charge quatre types de plex de volume : simple, fractionné, agrégé par bandes et avec parité. Pour obtenir une description de chacun de ces types de volumes, consultez l' [objet volume](volume-object.md).
 

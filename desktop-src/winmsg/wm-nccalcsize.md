@@ -4,12 +4,12 @@ ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: Message WM_NCCALCSIZE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b7d63fea3ad0a80bba686d8d86aa5354f0bb45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f0a73b469a920bcba79cc19670a7b9536c1bac9e0b0ffcab7ddf5930b984dae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106529847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200075"
 ---
 # <a name="wm_nccalcsize-message"></a>\_Message WM NCCALCSIZE
 
@@ -73,13 +73,13 @@ Si *wParam* a la **valeur true** et qu’une application retourne zéro, l’anc
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fenêtre peut être redessinée, selon que le style de classe [cs \_ HREDRAW](about-window-classes.md) ou cs \_ VREDRAW est spécifié. Il s’agit du traitement par défaut à compatibilité descendante de ce message par la fonction [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) (en plus du calcul de rectangle client habituel décrit dans le tableau précédent).
 
 Lorsque *wParam* a la **valeur true**, le retour de 0 sans traitement des rectangles des [**\_ paramètres NCCALCSIZE**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params) entraîne le redimensionnement de la zone cliente jusqu’à la taille de la fenêtre, y compris le cadre de la fenêtre. Cela supprime les éléments de la fenêtre et du frame de fenêtre de votre fenêtre, ce qui laisse uniquement la zone cliente affichée.
 
-À compter de Windows Vista, la suppression du frame standard en renvoyant simplement 0 lorsque *wParam* a la **valeur true** n’affecte pas les frames qui sont étendus dans la zone cliente à l’aide de la fonction [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Seul le frame standard sera supprimé.
+à compter de Windows Vista, la suppression du frame standard en retournant simplement 0 lorsque *wParam* a la **valeur TRUE** n’affecte pas les frames qui sont étendus dans la zone cliente à l’aide de la fonction [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) . Seul le frame standard sera supprimé.
 
 ## <a name="requirements"></a>Configuration requise
 

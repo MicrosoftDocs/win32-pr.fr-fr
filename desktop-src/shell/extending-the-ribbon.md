@@ -1,5 +1,5 @@
 ---
-description: Découvrez comment étendre le ruban de l’Explorateur Windows.
+description: découvrez comment étendre le ruban de l’explorateur de Windows.
 title: Extension du ruban
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 6a0a3af3ac21e0bac0471bc9a987849536303556
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 635698461f897a08248ea99bf68d534ea8ad24763f926460d2e9ce64181ba2a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104525323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860850"
 ---
 # <a name="extending-the-ribbon"></a>Extension du ruban
 
-Dans l’Explorateur Windows, le ruban permet de rendre les activités de gestion des fichiers de l’utilisateur final courantes plus simples et plus détectables, mais il existe des modifications ouverts pour les développeurs d’applications. Par exemple, l’ancienne barre de commandes était librement extensible, mais le ruban est plus restreint pour l’instant. En outre, le ruban n’est pas affiché par défaut pour toutes les extensions d’espace de noms. vous devez donc vous abonner pour obtenir le ruban. dans le cas contraire, vous recevez l’ancienne barre de commandes.
+dans l’explorateur de Windows, le ruban permet de rendre les activités de gestion des fichiers de l’utilisateur final courantes plus simples et plus détectables, mais il existe des modifications ouverts pour les développeurs d’applications. Par exemple, l’ancienne barre de commandes était librement extensible, mais le ruban est plus restreint pour l’instant. En outre, le ruban n’est pas affiché par défaut pour toutes les extensions d’espace de noms. vous devez donc vous abonner pour obtenir le ruban. dans le cas contraire, vous recevez l’ancienne barre de commandes.
 
 Les actions disponibles pour les utilisateurs sur le ruban se répartissent en trois catégories d’extensibilité :
 

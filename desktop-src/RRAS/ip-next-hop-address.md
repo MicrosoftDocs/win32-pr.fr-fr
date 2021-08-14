@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1818a49e7977dbb4dfa31ebac1dae7651adb8d45
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94f79b850c7d5f48e5f409e5380ad7345288187b8939b752b4f282b2274a99cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790963"
 ---
 # <a name="ip_next_hop_address-structure"></a>Structure d’adresse IP de \_ \_ tronçon suivant \_
 
-\[Cette API a été remplacée par l’API du [Gestionnaire de table de routage version 2](about-routing-table-manager-version-2.md) et n’est pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
+\[cette api a été remplacée par l’api du [gestionnaire de Table de routage Version 2](about-routing-table-manager-version-2.md) et ne sera pas disponible au-delà de Windows Server 2003. Les applications doivent utiliser l’API du gestionnaire de table de routage version 2.\]
 
 La structure d' **adresse IP de \_ \_ tronçon \_ suivant** contient l’adresse du routeur de tronçon suivant pour un itinéraire IP.
 
@@ -58,7 +58,7 @@ Spécifie le masque de réseau. Appliquez ce masque à l’adresse IP afin d’e
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La structure d' **\_ \_ \_ adresse de tronçon suivant IP** est un typedef de la structure de [**\_ réseau IP**](ip-network.md) . Le typedef se trouve dans RTM. h.
 

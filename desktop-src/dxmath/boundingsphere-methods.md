@@ -4,12 +4,12 @@ ms.assetid: 902e69c1-4006-4d36-a14c-4b0b0cae8494
 title: Méthodes BoundingSphere
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa908250155a0da45dcefccbbaf7fb3c019b8624
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88b8e7963be8f1dbe984dee0b32ca795c4ee58da068de480ecb8ce5b08e7b070
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502240"
 ---
 # <a name="boundingsphere-methods"></a>Méthodes BoundingSphere
 

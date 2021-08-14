@@ -3,7 +3,7 @@ title: Code de notification NM_NCHITTEST (Rebar) (commctrl. h)
 description: Code de notification NM_NCHITTEST (Rebar)-envoyé par un contrôle rebar lorsque le contrôle reçoit un \_ message WM NCHITTEST. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: b345d83e-682d-4067-a783-689d64f9b7bc
 keywords:
-- Contrôles Windows de code de notification NM_NCHITTEST (Rebar)
+- NM_NCHITTEST (rebar) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7935f1b3e990db55518c9d22537e8fb6db97962
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b5831ca9dbeda35c7757613cae1d31db921aa80f4b749d4c9407339a2531abcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410700"
 ---
 # <a name="nm_nchittest-rebar-notification-code"></a>\_Code de notification NCHITTEST nm (Rebar)
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**NMMOUSE**](/windows/win32/api/commctrl/ns-commctr
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Retournez zéro pour permettre au Rebar d’effectuer le traitement par défaut du message de test de positionnement, ou retournez l’une des \* valeurs HT documentées sous [**WM \_ NCHITTEST**](/windows/desktop/inputdev/wm-nchittest) pour remplacer le traitement par défaut du test de positionnement.
 
@@ -55,8 +55,8 @@ Retournez zéro pour permettre au Rebar d’effectuer le traitement par défaut 
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

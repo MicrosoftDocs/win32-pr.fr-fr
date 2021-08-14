@@ -3,7 +3,7 @@ title: Objet playlist
 description: L’objet playlist offre un moyen d’organiser les éléments multimédias dans une liste pour faciliter leur manipulation à l’aide des propriétés et méthodes suivantes.
 ms.assetid: c2d2f265-b207-4b82-bb76-aee467f00659
 keywords:
-- Objet playlist lecteur Windows Media
+- objet Playlist Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d517e13f8da103b1f9cee9498cce58a62eaf6462
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0709b24779d3aac90d496b38b4654596479ad7a9122660158b53b4b2e75ba622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104030010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336717"
 ---
 # <a name="playlist-object"></a>Objet playlist
 
@@ -37,7 +37,7 @@ L’objet **playlist** prend en charge les propriétés suivantes.
 
 
 
- 
+ 
 
 L’objet **playlist** prend en charge les méthodes suivantes.
 
@@ -57,7 +57,7 @@ L’objet **playlist** prend en charge les méthodes suivantes.
 
 
 
- 
+ 
 
 L’objet **playlist** est accessible par le biais des propriétés et méthodes suivantes.
 
@@ -73,7 +73,7 @@ L’objet **playlist** est accessible par le biais des propriétés et méthodes
 
 
 
- 
+ 
 
 Parce qu’il s’agit de la méthode d’accès la plus courante, *Player*. **currentPlaylist** est utilisé à des fins d’illustration dans les sections de syntaxe de référence.
 
@@ -84,9 +84,9 @@ Parce qu’il s’agit de la méthode d’accès la plus courante, *Player*. **c
 [**Référence du modèle objet pour l’écriture de scripts**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

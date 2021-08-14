@@ -1,15 +1,15 @@
 ---
 description: Envoyé à la fenêtre la plus affectée au premier plan une fois que la langue d’entrée d’une application a été modifiée. Vous devez apporter des paramètres spécifiques à l’application et transmettre le message à la fonction DefWindowProc, qui le transmet à toutes les fenêtres enfants de premier niveau.
 ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
-title: Message WM_INPUTLANGCHANGE (winuser. h)
+title: WM_INPUTLANGCHANGE, message (Winuser.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e2ceb943290fceab13bf6f22c3d9dafbac27a8
-ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
+ms.openlocfilehash: 72f56367045fe72a8288220e1aeef662e648d702c3b48ead23bf179142dff92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/01/2021
-ms.locfileid: "108332404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436244"
 ---
 # <a name="wm_inputlangchange-message"></a>\_Message WM INPUTLANGCHANGE
 
@@ -45,7 +45,7 @@ Identificateur de paramètres régionaux d’entrée **HKL** . Pour plus d’inf
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur renvoyée
+## <a name="return-value"></a>Valeur retournée
 
 Type : **LRESULT**
 
@@ -82,6 +82,6 @@ case WM_INPUTLANGCHANGE:
 - [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
 - [**\_INPUTLANGCHANGEREQUEST WM**](wm-inputlangchangerequest.md)
 
-**Conceptuel**
+**Méthodologique**
 
 - [Windows](windows.md) 

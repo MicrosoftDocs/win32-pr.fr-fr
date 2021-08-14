@@ -4,26 +4,26 @@ ms.assetid: 3ab29ee9-42d8-498b-b507-13f8efa0b0e2
 title: Interopérabilité SSPI/Kerberos avec GSSAPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9efaae6b2433d76dff290d57e27e893885692a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5907c79fbf4ef53a40b9dc2198715f216794de5634c60c66fe3d767bfe4af026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103749597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916826"
 ---
 # <a name="sspikerberos-interoperability-with-gssapi"></a>Interopérabilité SSPI/Kerberos avec GSSAPI
 
 Une attention particulière doit être prise en compte lors de l’utilisation du fournisseur SSP ( [*Security Support Provider*](../secgloss/s-gly.md) ) [*Kerberos*](../secgloss/k-gly.md) si l’interopérabilité avec GSSAPI est requise. Les conventions de code suivantes permettent l’interopérabilité avec des applications basées sur GSSAPI :
 
--   [Noms compatibles Windows](#windows-compatible-names)
+-   [noms compatibles Windows](#windows-compatible-names)
 -   [Authentification](#authentication)
 -   [Intégrité et confidentialité des messages](#message-integrity-and-privacy)
 
-Vous trouverez des exemples de code dans le kit de développement logiciel (SDK) de la plateforme sous exemples de \\ sécurité \\ SSPI \\ GSS. En outre, l’exemple UNIX équivalent est distribué dans les distributions Kerberos MIT et heimdal, client et serveur GSS.
+Vous trouverez des exemples de code dans le kit de développement logiciel (SDK) de la plateforme sous exemples de \\ sécurité \\ SSPI \\ GSS. en outre, l’exemple équivalent UNIX est distribué dans les distributions Kerberos MIT et Heimdal, client et serveur GSS.
 
 ## <a name="windows-compatible-names"></a>Noms de Windows-Compatible
 
-Les fonctions GSSAPI utilisent un format de nom connu \_ sous \_ le nom de service GSS NT \_ , tel que spécifié dans la RFC. Par exemple, sample@host.dom.com est un nom qui peut être utilisé dans une application GSSAPI. Le système d’exploitation Windows ne reconnaît pas le \_ format de nom de service GSS NT \_ \_ , et le [*nom de principal du service*](../secgloss/s-gly.md)complet, par exemple sample/host.dom.com@REALM , doit être utilisé.
+Les fonctions GSSAPI utilisent un format de nom connu \_ sous \_ le nom de service GSS NT \_ , tel que spécifié dans la RFC. Par exemple, sample@host.dom.com est un nom qui peut être utilisé dans une application GSSAPI. le système d’exploitation Windows ne reconnaît pas le \_ format de nom de service gss nt \_ \_ , et le [*nom de principal du service*](../secgloss/s-gly.md)complet, par exemple sample/host.dom.com@REALM , doit être utilisé.
 
 ## <a name="authentication"></a>Authentification
 

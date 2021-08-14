@@ -3,7 +3,7 @@ title: Élément ComboBox
 description: Représente un contrôle de zone de liste déroulante.
 ms.assetid: d796e26b-44c2-4e11-b1a5-2ede5bcff676
 keywords:
-- Ruban des fenêtres d’élément de ComboBox
+- élément ComboBox Windows ruban
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60ad8866b655be587e0c3d0f123d8bc59b6b8a21
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 60ee7a03d25508df45469577f4d4159b5db5f5190f188ca594b71f176d037526
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851187"
 ---
 # <a name="combobox-element"></a>Élément ComboBox
 
 Représente un contrôle de [zone de liste déroulante](windowsribbon-controls-combobox.md) .
 
-## <a name="usage"></a>Utilisation
+## <a name="usage"></a>Usage
 
 ``` syntax
 <ComboBox
@@ -145,7 +145,7 @@ Windows 8 et versions ultérieures.
 
 ## <a name="remarks"></a>Remarques
 
-facultatif.
+Facultatif.
 
 Peut se produire une ou plusieurs fois pour chaque élément [**ControlGroup**](windowsribbon-element-controlgroup.md), [**DropDownButton**](windowsribbon-element-dropdownbutton.md), [**DropDownGallery**](windowsribbon-element-dropdowngallery.md), [**Group**](windowsribbon-element-group.md), [**MenuGroup**](windowsribbon-element-menugroup.md)ou [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md) .
 
@@ -191,7 +191,7 @@ Cette section de code montre les déclarations de contrôle de **zone de liste d
 
 ## <a name="element-information"></a>Informations sur les éléments
 
-* **Système minimal pris en charge**: Windows 7
+* **système minimal pris en charge**: Windows 7
 * **Peut être vide**: Oui
 
 

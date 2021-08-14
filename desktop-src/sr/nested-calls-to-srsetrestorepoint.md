@@ -4,12 +4,12 @@ description: Cette rubrique décrit la prise en charge des appels imbriqués à 
 ms.assetid: ee2dea47-f95d-4293-ac33-eff622b84db6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5654dc7bb6e42ae55cbad18fc2418df3bdd942d2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 12286a69bdb83cb5fd119280e8996c6612e359bf93b9371b6a088a98bf6fd881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857634"
 ---
 # <a name="nested-calls-to-srsetrestorepoint"></a>Appels imbriqués à SRSetRestorePoint
 
@@ -23,9 +23,9 @@ Pour le point de restauration A avec dwEventType = fin de la \_ \_ modification 
 
 Le deuxième appel ne crée pas de point de restauration, car l’appel est imbriqué.
 
- 
+ 
 
- 
+ 
 
 
 

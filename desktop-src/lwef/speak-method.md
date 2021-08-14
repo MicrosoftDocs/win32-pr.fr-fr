@@ -4,12 +4,12 @@ description: Speak, méthode
 ms.assetid: 6267e04c-feb5-4f48-8a88-4e6ca3388bf3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88792a53fac80c68154f938e91fb9bfe63b2b8e3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7c8798809dc4cdfa38438bee2fa9449f879871e4018b0e6b046d95a73583b03c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475341"
 ---
 # <a name="speak-method"></a>Speak, méthode
 
@@ -27,22 +27,22 @@ Parle le texte ou le fichier audio spécifié pour le caractère spécifié.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-*agent ***. Caractères («*** CharacterID * * * »).* *  \[ *Texte* Speak \] , \[ *URL*\]
+*agent ***. Caractères («**_CharacterID_*_»)._ *  \[ *Texte* Speak \] , \[ *URL*\]
 
 
 
 | Partie   | Description                                                                                                                                                                                                                                                  |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Text* | Optionnel. Chaîne qui spécifie ce que le caractère dit.                                                                                                                                                                                                   |
-| *Url*  | Optionnel. Expression de chaîne spécifiant l’emplacement d’un fichier audio (. WAV ou. Format LWV). L’emplacement peut être spécifié sous la forme d’un fichier (y compris une spécification de chemin d’accès UNC) ou d’une URL (lorsque les données d’animation de caractères sont également récupérées via le protocole HTTP). |
+| *Text* | Facultatif. Chaîne qui spécifie ce que le caractère dit.                                                                                                                                                                                                   |
+| *Url*  | Facultatif. Expression de chaîne spécifiant l’emplacement d’un fichier audio (. WAV ou. Format LWV). L’emplacement peut être spécifié sous la forme d’un fichier (y compris une spécification de chemin d’accès UNC) ou d’une URL (lorsque les données d’animation de caractères sont également récupérées via le protocole HTTP). |
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Bien que les paramètres *Text* et *URL* soient facultatifs, l’un d’eux doit être fourni. Pour utiliser cette méthode avec un caractère configuré pour parler uniquement dans sa bulle de mot ou à l’aide d’un moteur TTS (Text-to-Speech), fournissez simplement le paramètre *Text* . Insérez un espace entre les mots pour définir les césures lexicales appropriées dans la bulle de mot, même pour les langues qui n’incluent pas traditionnellement des espaces.
 
@@ -111,18 +111,18 @@ La césure automatique des mots de l’agent dans le mot-bulle arrête les mots 
 > [!Note]  
 > La propriété [**Enabled**](enabled-property.md) de la bulle de mot doit également avoir la **valeur true** pour que le texte s’affiche.
 
- 
+ 
 
 > [!Note]  
 > Définissez l’ID de langue du caractère (en définissant la valeur **LanguageID** du caractère avant d’utiliser la méthode **Speak** pour garantir l’affichage du texte approprié dans la bulle.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**Événement Bookmark**](bookmark-event.md), [**événement RequestStart**](requeststart-event.md), [**événement RequestComplete**](requestcomplete-event.md)
 
 
- 
+ 
 
- 
+ 

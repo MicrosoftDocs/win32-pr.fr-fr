@@ -3,7 +3,7 @@ title: Structure de MCI_VCR_SETAUDIO_PARMS (VCR. h)
 description: La \_ \_ structure SETAUDIO PARMS du magnétoscope MCI contient des \_ paramètres pour la \_ commande MCI SETAUDIO pour les enregistreurs vidéo-cassettes.
 ms.assetid: 328d8e63-7ddd-4c9b-85d6-2e56fd802dbc
 keywords:
-- Structure de MCI_VCR_SETAUDIO_PARMS Windows multimédia
+- structure MCI_VCR_SETAUDIO_PARMS Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 143345f494f381054335d2dfec3b0c10222adca4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa07d4cf8b88eb246019bf18dd1c1328413718a70b17ebb16e27606958473f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802957"
 ---
 # <a name="mci_vcr_setaudio_parms-structure"></a>MCI \_ VCR \_ SETAUDIO \_ PARMS
 
@@ -71,7 +71,7 @@ Entrée audio (du type spécifié dans le membre **dwTo** ) à utiliser.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous assignez des données aux membres de cette structure, définissez les indicateurs correspondants dans le paramètre *fdwCommand* de la fonction [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) pour valider les membres.
 

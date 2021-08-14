@@ -1,6 +1,6 @@
 ---
-title: Contrôles personnalisés de mixage audio
-description: Contrôles personnalisés de mixage audio
+title: contrôles Audio Mixer personnalisés
+description: contrôles Audio Mixer personnalisés
 ms.assetid: 6ab7a016-a4c1-4eef-ba97-7031d7425ee2
 keywords:
 - audio multimédia, contrôles de mixage
@@ -11,20 +11,20 @@ keywords:
 - mélangeurs, contrôles personnalisés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35c6b6d747009df035e3911c2823e99e9436195e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 618e6eb8109f60d83e71fa9f8bcd7ee03e275e452e8ff825ae46a19adf88c3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375688"
 ---
-# <a name="audio-mixer-custom-controls"></a>Contrôles personnalisés de mixage audio
+# <a name="audio-mixer-custom-controls"></a>contrôles Audio Mixer personnalisés
 
 Les contrôles personnalisés sont les plus génériques des contrôles de mixage. Ces contrôles permettent à un pilote de mixage de définir les caractéristiques du contrôle et, par implication, la représentation visuelle du contrôle.
 
- 
+ 
 
- 
+ 
 
 
 

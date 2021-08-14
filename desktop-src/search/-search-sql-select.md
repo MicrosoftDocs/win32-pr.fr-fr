@@ -4,12 +4,12 @@ ms.assetid: 334aa2b9-0ef2-4a4b-9352-de5ded95afa6
 title: Instruction SELECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e05832dab0184870a626fa4bce502d908c9b05f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df8cc5f4b6bab673d20c981e44386d3fdbd651b5a2753d8c965ee55023a6562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106544622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227194"
 ---
 # <a name="select-statement"></a>Instruction SELECT
 
@@ -44,7 +44,7 @@ Le ou les spécificateurs de colonne doivent être des colonnes de noms de propr
 
 Lorsque la requête retourne un document qui n’a pas la colonne demandée, la valeur de cette colonne pour le document est **null**.
 
-Vous devez fournir au moins un nom de colonne dans une instruction SELECT. Dans la requête langage SQL (SQL), vous êtes autorisé à utiliser l’astérisque ( \* ) pour spécifier que toutes les colonnes d’une table doivent être retournées. Toutefois, aucun ensemble de propriétés défini et fixe ne s’applique à tous les documents. C’est la raison pour laquelle l’astérisque SQL n’est pas autorisé dans le <columns> spécificateur de l’instruction SELECT.
+Vous devez fournir au moins un nom de colonne dans une instruction SELECT. dans la requête langage SQL (SQL), vous êtes autorisé à utiliser l’astérisque ( \* ) pour spécifier que toutes les colonnes d’une table doivent être retournées. Toutefois, aucun ensemble de propriétés défini et fixe ne s’applique à tous les documents. pour cette raison, le SQL astérisque n’est pas autorisé dans le <columns> spécificateur de l’instruction SELECT.
 
 ## <a name="getting-the-top-n-results"></a>Obtention des n premiers résultats
 

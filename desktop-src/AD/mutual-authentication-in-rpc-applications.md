@@ -8,12 +8,12 @@ keywords:
 - Active Directory, utilisation de, authentification mutuelle, RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05a8591056293c916205b5b600c1b1a061d169f0
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 75c7d5ea3632d08671861b72267419efd54c1a6a89770fbde72543596b29fa8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842058"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186054"
 ---
 # <a name="mutual-authentication-in-rpc-applications"></a>Authentification mutuelle dans les applications RPC
 
@@ -53,11 +53,11 @@ Pour plus d’informations sur l’exécution de l’authentification mutuelle d
 
 Pour plus d’informations sur l’emprunt d’identité du client RPC, consultez [emprunt d’identité du client](/windows/desktop/Rpc/client-impersonation).
 
-Pour plus d’informations, consultez :
+Pour plus d'informations, consultez les pages suivantes :
 
 -   [Publication avec le service de noms RPC (RpcNs)](publishing-with-the-rpc-name-service-rpcns.md)
 -   [Notions fondamentales de la sécurité RPC](/windows/desktop/Rpc/rpc-security-essentials)
 
- 
+ 
 
- 
+ 

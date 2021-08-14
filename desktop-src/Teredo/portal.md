@@ -4,12 +4,12 @@ description: Teredo
 ms.assetid: fc213675-dbdb-42a1-a09f-dda598b95b94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e1a2717f3732c32f2c1fe4104c8edd2f802ea0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 946932d7a699a4e9b993ed93e8d48faafbd75fbb0ec54e61b260b8a25e634ae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354462"
 ---
 # <a name="teredo"></a>Teredo
 
@@ -23,7 +23,7 @@ Teredo est conçu pour être utilisé par les développeurs C/C++ avec l’expé
 
 ## <a name="run-time-requirements"></a>Conditions d’exécution
 
-L’interface Teredo est principalement prise en charge par Windows Vista et Windows Server 2008. La fonctionnalité limitée de l’interface Teredo prise en charge par Windows XP avec Service Pack 2 (SP2) et Windows Server 2003 est détaillée dans [réception du trafic sollicité sur Teredo](receiving-solicited-traffic-over-teredo.md).
+l’interface Teredo est principalement prise en charge par Windows Vista et Windows Server 2008. la fonctionnalité limitée de l’Interface Teredo prise en charge par Windows XP avec Service Pack 2 (SP2) et Windows Server 2003 est détaillée dans [réception du trafic sollicité sur Teredo](receiving-solicited-traffic-over-teredo.md).
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

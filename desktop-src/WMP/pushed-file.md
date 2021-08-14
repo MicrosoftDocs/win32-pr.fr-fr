@@ -3,21 +3,21 @@ title: Fichier Push
 description: Fichier Push
 ms.assetid: bea803d2-1237-4983-9673-afdcddc32748
 keywords:
-- Windows Media Player Mobile Skins, fichiers art
+- Lecteur Windows Media Skins mobiles, fichiers artistiques
 - apparences, fichiers artistiques
 - fichiers pour les habillages, illustrations
 - fichiers art pour les apparences, les fichiers envoyés
-- Windows Media Player Mobile Skins, fichiers envoyés
+- Lecteur Windows Media Skins mobiles, fichiers envoyés
 - apparences, fichiers envoyés
 - Fichiers faisant l’objet d’un push dans des habillages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 071a6a4fd00eee7040d2fadb8fb80db343dc0ac6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e0526cad560abfbee3a7ec6cbaa0c355a51d93c2080d7c1ef933f7caaf867ba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570673"
 ---
 # <a name="pushed-file"></a>Fichier Push
 
@@ -38,9 +38,9 @@ Notez que l’arrière-plan de l’image de bouton correspond exactement à la z
 [**Fichiers art**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

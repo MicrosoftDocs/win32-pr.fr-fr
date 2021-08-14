@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 42dc86cb1e777f3580a7f6fb349310621b703913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2cb9a1a89f122d41066de75002ea0ed2c575a6208a06f0be99b5c7c7bfd2b97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858582"
 ---
 # <a name="common-file-dialog-sample"></a>Boîte de dialogue de fichier courante, exemple
 
@@ -22,13 +22,13 @@ Montre comment créer une boîte de dialogue Ouvrir/Enregistrer de fichier perso
 
 Cette rubrique contient les sections suivantes.
 
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
 -   [Rubriques connexes](#related-topics)
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

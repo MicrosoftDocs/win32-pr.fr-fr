@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cbcea308a8daaa8b9fdf15be765dc5d3a0df182c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f822bed433af6e3fab0250e06a04911ee10187039036211974b046b32df6b7b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823105"
 ---
 # <a name="cbasepropertypageonapplychanges-method"></a>Méthode CBasePropertyPage. OnApplyChanges
 
@@ -44,7 +44,7 @@ Cette méthode n’a aucun paramètre.
 
 L’implémentation de la classe de base retourne S \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La méthode [**CBasePropertyPage :: apply**](cbasepropertypage-apply.md) appelle `OnApplyChanges` si l’indicateur [**CBasePropertyPage :: m \_ bDirty**](cbasepropertypage-m-bdirty.md) a la **valeur true**. Remplacez `OnApplyChanges` pour traiter les modifications et réinitialisez **m \_ bDirty** sur **false**.
 
@@ -67,7 +67,7 @@ HRESULT CMyProp::OnApplyChanges(void)
 
 | Condition requise | Valeur |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| En-tête<br/>  | <dl> <dt>Cprop. h (include streams. h)</dt> </dl>                                                                                     |
+| En-tête<br/>  | <dl> <dt>Cprop. h (inclure Flux. h)</dt> </dl>                                                                                     |
 | Bibliothèque<br/> | <dl> <dt>Strmbase. lib (versions commerciales); </dt> <dt>Strmbasd. lib (versions Debug)</dt> </dl> |
 
 
