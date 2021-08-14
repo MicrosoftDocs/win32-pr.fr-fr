@@ -3,7 +3,7 @@ title: Message LVM_HITTEST (commctrl. h)
 description: Détermine l’élément de la vue de liste, le cas échéant, à une position spécifiée. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro ListView HitTest.
 ms.assetid: 81df4ed1-30bd-4b63-9cb9-5163cb7cf52c
 keywords:
-- LVM_HITTEST les contrôles de message Windows
+- LVM_HITTEST les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fb770c8f5a47f1dcbbf23a11443afa581aea2e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81308249992b134dd3fa2bd0bc43ff0074bc3bae7048072ada7d68b0a867a979
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958168"
 ---
 # <a name="lvm_hittest-message"></a>Message LVM LVM \_
 
@@ -49,8 +49,8 @@ Retourne l’index de l’élément à la position spécifiée, le cas échéant
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

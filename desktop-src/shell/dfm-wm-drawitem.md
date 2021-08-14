@@ -4,12 +4,12 @@ ms.assetid: 2515bbab-025f-4f00-8564-a732d68edea3
 title: Message DFM_WM_DRAWITEM (shlobj. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67255fea5c39bebc995e5c53d90378536b12921b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7190d445490b581967c8dda67e170eb5db5665dfa59302313d7af736b275944d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969468"
 ---
 # <a name="dfm_wm_drawitem-message"></a>\_Message DFM WM \_ DRAWITEM
 
@@ -50,20 +50,20 @@ Pointeur vers une structure [**drawitemstruct,**](/windows/win32/api/winuser/ns-
 
 Si une application traite ce message, elle doit retourner la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le membre **itemAction** de la structure [**drawitemstruct,**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) spécifie l’opération de dessin qu’une application doit effectuer.
 
 Avant de revenir au traitement de ce message, une application doit s’assurer que le contexte de périphérique identifié par le membre **HDC** de la structure [**drawitemstruct,**](/windows/win32/api/winuser/ns-winuser-drawitemstruct) est dans l’État par défaut.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                      |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                      |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                |
 | En-tête<br/>                   | <dl> <dt>Shlobj. h</dt> </dl> |
 
 

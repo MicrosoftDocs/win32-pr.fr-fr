@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 64e84cc84741a524bc6592980c5c2aba82f8be74
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8d62936d1b5dd1372e978ed1f5aa4104b44422b574bb8ee364cb7a92e11ffd7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981509"
 ---
 # <a name="shader-model-5-assembly"></a>Assembly modèle 5 du nuanceur
 
@@ -176,7 +176,7 @@ Cette section décrit les instructions prises en charge par le nuancier Model 5.
 [ld2dms](ld2dms--sm4-1---asm-.md)  
 [écart](lod--sm4-1---asm-.md)  
 [Sign](log--sm4---asm-.md)  
-[loop](loop--sm4---asm-.md)  
+[circuit](loop--sm4---asm-.md)  
 [lt](lt--sm4---asm-.md)  
 [Mad](mad--sm4---asm-.md)  
 [max](max--sm4---asm-.md)  
@@ -235,9 +235,9 @@ Cette section décrit les instructions prises en charge par le nuancier Model 5.
 [Référence du nuanceur asm](dx9-graphics-reference-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

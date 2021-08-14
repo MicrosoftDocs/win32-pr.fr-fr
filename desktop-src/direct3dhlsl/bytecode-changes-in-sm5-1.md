@@ -4,12 +4,12 @@ description: SM 5.1 change la façon dont les registres de ressources sont décl
 ms.assetid: ABECF705-67B8-4419-8D18-74B43B9DC3AF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6d66db788b0012a1c3221e37d4c2dd4e41566c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e93d7d8533bac3750e743166a9d64b687fc06f0fbf21931d44e7d83d462cf15a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118794557"
 ---
 # <a name="bytecode-changes-in-sm51"></a>Changements de bytecode dans SM 5.1
 
@@ -111,9 +111,9 @@ Un opérande de ressource pour CBVs est un opérande 3D : l’ID de littéral d
 [Modèle de nuanceur 5,1](shader-model-5-1.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: PageDestinationColorProfileEmbedded
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05865636b6554873844a99b523f8c21fe2bfc1c7
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 8f1a66daa2ed8cc4db9cbcc390030dde05b034808f9326fee73f1fe28e3d91cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113549207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118732642"
 ---
 # <a name="pagedestinationcolorprofileembedded"></a>PageDestinationColorProfileEmbedded
 
@@ -68,7 +68,7 @@ Le tableau suivant présente les caractéristiques des variables définies dans 
 
 
 
-| Propriété                | xsi:type           | Valeur                      |
+| Property                | xsi:type           | Valeur                      |
 |-------------------------|--------------------|----------------------------|
 | DataType<br/>     | string<br/>  | xs:string<br/>       |
 | DefaultValue<br/> | string<br/>  | non défini<br/>       |

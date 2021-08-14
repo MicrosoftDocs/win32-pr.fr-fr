@@ -1,17 +1,17 @@
 ---
 description: Chaque fichier ASF contient un ou plusieurs flux. L’objet profil ASF représente une collection de flux ASF. Pour l’encodage ASF, vous devez créer et configurer les flux que vous souhaitez Encoder.
 ms.assetid: cc89e8bc-58ff-48e2-9668-0dcd6cfd25e1
-title: Création et configuration de flux ASF
+title: Création et configuration d’Flux ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8eabce588022dd66947f34e4dcd9db61f26448b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c780de3fa0abb5db29e3e5e5ed049b78aca7898966e8f7e8595b504804da91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743237"
 ---
-# <a name="creating-and-configuring-asf-streams"></a>Création et configuration de flux ASF
+# <a name="creating-and-configuring-asf-streams"></a>Création et configuration d’Flux ASF
 
 Chaque fichier ASF contient un ou plusieurs flux. L’objet [Profil ASF](asf-profile.md) représente une collection de flux ASF. Pour l’encodage ASF, vous devez créer et configurer les flux que vous souhaitez Encoder.
 
@@ -47,7 +47,7 @@ Si une application crée un profil à partir d’un descripteur de présentation
 
 ## <a name="assigning-stream-numbers"></a>Affectation de numéros de flux
 
-Un numéro de flux doit être assigné aux flux de tous les types. Les numéros de flux n’ont pas besoin d’être séquentiels, mais doivent être dans la plage comprise entre 1 et 127. Pour assigner des numéros de flux, appelez [**IMFASFStreamConfig :: SetStreamNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber). Pour récupérer le numéro de flux, appelez [**IMFASFStreamConfig :: GetStreamNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamnumber).
+un numéro de flux doit être assigné à Flux de tous les types. Les numéros de flux n’ont pas besoin d’être séquentiels, mais doivent être dans la plage comprise entre 1 et 127. Pour assigner des numéros de flux, appelez [**IMFASFStreamConfig :: SetStreamNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-setstreamnumber). Pour récupérer le numéro de flux, appelez [**IMFASFStreamConfig :: GetStreamNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfstreamconfig-getstreamnumber).
 
 > [!Note]  
 > Un numéro de flux est différent d’un index de flux, que vous utilisez pour obtenir des flux dans un profil à l’aide de [**IMFASFProfile :: GetStream**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstream). L’index de flux est un nombre affecté au flux par l’objet de profil. Les index de flux sont compris entre 0 et un de moins que le nombre de flux récupérés par [**IMFASFProfile :: GetStreamCount**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreamcount). Vous pouvez également obtenir un flux à partir du profil par numéro de flux en appelant [**IMFASFProfile :: GetStreamByNumber**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfprofile-getstreambynumber).

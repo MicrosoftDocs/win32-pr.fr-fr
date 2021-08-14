@@ -4,12 +4,12 @@ ms.assetid: 81fbd968-935a-4600-9346-9c14d1eb3f12
 title: System. photo. ProgramMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2a6ba817d4722b97b28d0966233f8fdea1de7f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85651818feca3d7e3859533d9a8f30fbccc6df4e5c500ac194e5a1c979e58452
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723659"
 ---
 # <a name="systemphotoprogrammode"></a>System. photo. ProgramMode
 
@@ -130,7 +130,7 @@ propertyDescription
             defineName = PHOTO_PROGRAMMODE_LANDSCAPE
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

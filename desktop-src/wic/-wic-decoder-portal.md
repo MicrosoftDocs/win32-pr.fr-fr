@@ -1,19 +1,19 @@
 ---
-description: Cette section contient des rubriques conceptuelles et des procédures qui décrivent les décodeurs bitmap WIC (Windows Imaging Component) utilisés lors du décodage d’images numériques.
+description: cette section contient des rubriques conceptuelles et des procédures décrivant les décodeurs bitmap WIC (Windows Imaging Component) utilisés dans le décodage d’images numériques.
 ms.assetid: a5d166f1-341b-496e-b63f-ecfae89032ff
 title: Décodage d’images numériques
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1a5e83712d2163ce77f9f3b74ec3afedc46f85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a48614218d1d32c4fe2795d3115e01aa7859d8938270eaa0c11dd3d3b481e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106538375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711324"
 ---
 # <a name="decoding-digital-images"></a>Décodage d’images numériques
 
-Cette section contient des rubriques conceptuelles et des procédures qui décrivent les décodeurs bitmap WIC (Windows Imaging Component) utilisés lors du décodage d’images numériques.
+cette section contient des rubriques conceptuelles et des procédures décrivant les décodeurs bitmap WIC (Windows Imaging Component) utilisés dans le décodage d’images numériques.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 

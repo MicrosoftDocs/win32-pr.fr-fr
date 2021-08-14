@@ -3,7 +3,7 @@ title: Message LVM_GETHOTITEM (commctrl. h)
 description: Récupère l’index de l’élément réactif. Vous pouvez envoyer ce message explicitement ou utiliser la \_ macro ListView GetHotItem.
 ms.assetid: f80189da-6c8b-4faf-925a-0c33fedf8c4e
 keywords:
-- LVM_GETHOTITEM les contrôles de message Windows
+- LVM_GETHOTITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c7bbfb845518eb40b55556df5294d59cff3d7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 743bd7a80a58bec41fa5a75f24b0e333ab33ad152909adb6ea69a9c4ca0fd78b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118958398"
 ---
 # <a name="lvm_gethotitem-message"></a>\_Message GETHOTITEM LVM
 
@@ -45,8 +45,8 @@ Retourne l’index de l’élément qui est actif.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

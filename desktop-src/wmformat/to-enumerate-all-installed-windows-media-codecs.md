@@ -1,22 +1,22 @@
 ---
-title: Pour énumérer tous les codecs Windows Media installés
-description: Pour énumérer tous les codecs Windows Media installés
+title: pour énumérer tous les codecs multimédias installés Windows
+description: pour énumérer tous les codecs multimédias installés Windows
 ms.assetid: 651c8624-0b66-4d0e-a25f-6c4b1a94e849
 keywords:
-- flux, énumération des codecs Windows Media installés
+- flux, énumération des codecs de média Windows installés
 - codecs, énumérations
 - flux, index de codec
 - codecs, index
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db9a35913dde13f563ee57d54ee5e7de87d82cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b63f58f94cf36e18fcbaa31bb9cff0dd8b5ab4717cc88e6f05657c7a2c72b429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106511037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699811"
 ---
-# <a name="to-enumerate-all-installed-windows-media-codecs"></a>Pour énumérer tous les codecs Windows Media installés
+# <a name="to-enumerate-all-installed-windows-media-codecs"></a>pour énumérer tous les codecs multimédias installés Windows
 
 Les interfaces d’informations du codec utilisent toutes les index de codec pour identifier les codecs individuels. Les codecs sont indexés indépendamment pour l’audio et la vidéo. Dans un type de codec, les index sont compris entre 0 et un nombre inférieur au nombre de codecs de ce type.
 
@@ -151,9 +151,9 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
 [**Obtention d’informations de configuration de flux à partir de codecs**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

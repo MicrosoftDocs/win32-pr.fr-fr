@@ -4,18 +4,18 @@ ms.assetid: b3a0b635-49c7-4f95-b31f-6c8688466dd2
 title: Modules de fusion multilingues
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d414cce484022bf81647110ac032d0db270d383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17f32d219e1071cd431117919d3eb3f3361d30213f59a26f9ec2cdf2e81e591b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943420"
 ---
 # <a name="multiple-language-merge-modules"></a>Modules de fusion multilingues
 
 Plusieurs modules linguistiques peuvent fournir des composants avec plusieurs langues différentes en tant que fichier composé unique. La conception et les fonctionnalités des modules de fusion multilingues sont similaires aux modules de langue unique. Un module de fusion multilingue a plusieurs langues dans la propriété [**Résumé du modèle**](template-summary.md) . La base de données d’un module de fusion de plusieurs langues contient toutes les informations de configuration pour plusieurs langues. L’armoire MergeModule.CABinet à l’intérieur d’un module de fusion à plusieurs langues contient tous les fichiers de toutes les langues prises en charge.
 
-Lors de l’application d’un fichier. msm multilingue à un fichier. msi, vous devez indiquer la langue finale du package d’installation après la fusion. Dans le cas d’un module de fusion d’une seule langue, la [table de fichiers](file-table.md) du module de fusion répertorie chaque fichier présent dans le cabinet MergeModule.CABinet. Dans le cas d’un module de fusion à plusieurs langues, MergeModule.CABinet contient tous les fichiers pour chaque langue prise en charge par le module, mais seul le sous-ensemble de fichiers pour la langue finale est inséré dans la table de fichiers du module. L’outil de fusion doit s’assurer que le module fournit le sous-ensemble d’informations et de fichiers requis pour la langue finale demandée.
+Lors de l’application d’un fichier. msm multilingue à un fichier .msi, vous devez indiquer la langue finale du package d’installation après la fusion. Dans le cas d’un module de fusion d’une seule langue, la [table de fichiers](file-table.md) du module de fusion répertorie chaque fichier présent dans le cabinet MergeModule.CABinet. Dans le cas d’un module de fusion à plusieurs langues, MergeModule.CABinet contient tous les fichiers pour chaque langue prise en charge par le module, mais seul le sous-ensemble de fichiers pour la langue finale est inséré dans la table de fichiers du module. L’outil de fusion doit s’assurer que le module fournit le sous-ensemble d’informations et de fichiers requis pour la langue finale demandée.
 
 Chaque module de fusion a une langue par défaut spécifiée dans la colonne Language de la [table ModuleSignature](modulesignature-table.md). La langue par défaut d’un module de fusion est également indiquée comme étant la première ou seule langue dans la propriété [**Résumé du modèle**](template-summary.md) . Selon la langue finale demandée et la langue par défaut du module, l’outil de fusion peut appliquer des transformations de langage à un module de fusion à plusieurs langues afin qu’il puisse être ouvert dans la langue demandée, ou une approximation de la langue demandée. Les transformations de langage sont incorporées dans le module de fusion. Les outils de fusion doivent appliquer des transformations de langage en respectant les règles générales suivantes :
 

@@ -4,20 +4,20 @@ description: Windows 7 prend en charge la recherche de documents au-delà du pro
 ms.assetid: 2c682585-2c9c-4694-b743-f83a6ff5c143
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf194b87e29b4aa152fce334f2dfd6d990db200c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 26c3d60f9089efe030fd88ea029cf75a6d48d6c994ceb583aea59eeae8d38cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106511505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118708912"
 ---
 # <a name="federated-search"></a>Recherche fédérée
 
-Windows 7 prend en charge la recherche de documents au-delà du propre PC de l’utilisateur. Les développeurs et les professionnels de l’informatique peuvent effectuer des recherches dans les moteurs de recherche, les référentiels de documents, les applications Web et les magasins de données propriétaires à partir de Windows 7 sans avoir à écrire et déployer de code client. Cela permet aux utilisateurs finaux d’effectuer des recherches dans leur intranet d’entreprise ou sur le Web aussi facilement qu’ils peuvent rechercher leurs fichiers locaux, le tout à partir de la même interface Windows familière.
+Windows 7 prend en charge la recherche de documents au-delà du propre PC de l’utilisateur. les développeurs et les professionnels de l’informatique peuvent effectuer des recherches dans les moteurs de recherche, les référentiels de documents, les applications web et les magasins de données propriétaires à partir de Windows 7 sans devoir écrire et déployer du code client. cela permet aux utilisateurs finaux d’effectuer des recherches dans leur intranet d’entreprise ou sur le web aussi facilement qu’ils peuvent rechercher leurs fichiers locaux, le tout à partir de la même interface de Windows familière.
 
-La prise en charge de Windows 7 compatible *OpenSearch* peut être ajoutée par les développeurs et les professionnels de l’informatique à toute application Web pouvant faire l’objet d’une recherche en ajoutant une sortie *RSS* ou *Atom* telle que définie dans la norme [OpenSearch](http://www.opensearch.org/) publique. Les fichiers de description *OpenSearch* peuvent ensuite être créés par des développeurs et des utilisateurs avancés pour définir les paramètres de connexion qui permettent au client de bureau de créer un connecteur de recherche pour le service.
+la prise en charge des *OpenSearch* compatibles Windows 7 peut être ajoutée par les développeurs et les professionnels de l’informatique à toute application web pouvant faire l’objet d’une recherche en ajoutant une sortie *RSS* ou *ATOM* telle que définie dans la norme publique [OpenSearch](http://www.opensearch.org/) . *OpenSearch* fichiers de description peuvent ensuite être créés par les développeurs et les utilisateurs expérimentés pour définir les paramètres de connexion qui permettent au client de bureau de créer un connecteur de recherche pour le service.
 
-Le serveur de recherche SharePoint peut également interroger ces services *OpenSearch* compatibles. Cela permet également d’accéder à votre service de recherche à partir de l’interface Web du centre de recherche *SharePoint* .
+SharePoint le serveur de recherche peut également interroger ces services de *OpenSearch* compatibles. cela permet également d’accéder à votre service de recherche à partir de l’interface web du centre de recherche *SharePoint* .
 
 ![recherche SharePoint dans Windows 7](images/windows7-12.jpg)
 
@@ -30,6 +30,6 @@ Windows 7 prend en charge la recherche de documents au-delà du propre PC de l�
 [Recherche fédérée dans Windows]()
 </dt> </dl>
 
- 
+ 
 
- 
+ 

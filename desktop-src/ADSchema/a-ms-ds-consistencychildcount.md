@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b9c46d1c4519550a91d92d0a82f726a20572490
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c637ae6aabae543f31cf14292150d51e3dfe5c39f05a1533fb73f6afff9d51a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961178"
 ---
 # <a name="ms-ds-consistency-child-count-attribute"></a>MS-DS-Consistency-attribut de nombre d’enfants
 
@@ -36,7 +36,7 @@ Cet attribut est utilisé pour vérifier la cohérence entre le répertoire et u
 | Fréquence des mises à jour  | \-                                   |
 | Attribute-Id      | 1.2.840.113556.1.4.1361              |
 | System-ID-GUID    | 178b7bc2-b63a-11d2-90e1-00c04fd91ab1 |
-| Syntaxe            | [**Enumeration**](s-enumeration.md) |
+| Syntaxe            | [**Énumération**](s-enumeration.md) |
 
 
 
@@ -46,7 +46,7 @@ Cet attribut est utilisé pour vérifier la cohérence entre le répertoire et u
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

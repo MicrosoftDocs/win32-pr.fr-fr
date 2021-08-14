@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e09f914700e297839781ca49dac292f88e5945e2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4c49396ac20637815ffa3d47d62f69b215548e04f4355763e7483afcfbaa0858
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698965"
 ---
 # <a name="wminitialkey"></a>WM/InitialKey
 
@@ -31,7 +31,7 @@ L’attribut **WM/InitialKey** contient la clé initiale de la musique dans le f
 
 **\_chaîne de type WMT \_**
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 
 
@@ -41,7 +41,7 @@ L’attribut **WM/InitialKey** contient la clé initiale de la musique dans le f
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
@@ -50,9 +50,9 @@ L’attribut **WM/InitialKey** contient la clé initiale de la musique dans le f
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

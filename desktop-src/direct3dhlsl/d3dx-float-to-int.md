@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c127ef20cdd21cbc83e466f75844b4f80f47f948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fb76c5c459daaaba4dd7d038b65b9dc34e895f283b66545684ef1f5fb10c95cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104531065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118516662"
 ---
 # <a name="d3dx_float_to_int-function"></a>\_Fonction D3DX float \_ to \_ int
 
@@ -45,7 +45,7 @@ Valeur v.
 
 </dd> <dt>
 
-*\_Échelle* 
+*\_Scale* 
 </dt> <dd>
 
 Valeur de mise à l’échelle.
@@ -56,7 +56,7 @@ Valeur de mise à l’échelle.
 
 Valeur FLOAT convertie
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a96d859faa80e3e2269981d206c96e780d05c37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e2008ddabdb412c117a3cfac5f2eb5ebf1e722f5f3729fb7c8b2ee0c394c454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939046"
 ---
 # <a name="freeuiinfo-function"></a>FreeUiInfo fonction)
 
@@ -43,7 +43,7 @@ VOID FreeUiInfo(
 *pinfo* \[ dans\]
 </dt> <dd>
 
-Tapez : **[**UiInfo**](/windows/win32/api/ndattrib/ns-ndattrib-uiinfo) \** _
+Type : **[ **UiInfo**](/windows/win32/api/ndattrib/ns-ndattrib-uiinfo)\***
 
 Structure. La mémoire allouée vers laquelle pointe cette structure sera libérée.
 
@@ -59,8 +59,8 @@ Cette fonction ne retourne pas de valeur.
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                 |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                 |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Ndattributils. h</dt> </dl> |
 
 
@@ -69,7 +69,7 @@ Cette fonction ne retourne pas de valeur.
 
 <dl> <dt>
 
-[_ *UiInfo**](/windows/win32/api/ndattrib/ns-ndattrib-uiinfo)
+[**UiInfo**](/windows/win32/api/ndattrib/ns-ndattrib-uiinfo)
 </dt> <dt>
 
 [**CoTaskMemFree**](/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree)

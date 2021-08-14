@@ -4,12 +4,12 @@ description: Présentation de la gestion de la mémoire de l’appel de procédu
 ms.assetid: 3474d79c-93ef-4221-b9ea-9173978e2929
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ac4b6aecb2fd78448ebe31c72587fafb8f6fde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0a169f87bbd8a9747dd7a4983a26f1122cf575e95434ed0dd3be346bae12b9a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928928"
 ---
 # <a name="introduction-to-rpc-memory-management"></a>Présentation de la gestion de la mémoire RPC
 
@@ -27,6 +27,6 @@ Les applications RPC client/serveur partagent des données entre deux espaces m�
 
 Dans les cas tels que l’arborescence binaire représentée dans le diagramme précédent, il n’est pas suffisant de passer un pointeur vers le nœud racine à une procédure distante. Soit le programme, soit les stubs doivent transmettre l’intégralité de l’arborescence à l’espace d’adressage du serveur pour que la procédure distante fonctionne sur celle-ci.
 
- 
+ 
 
- 
+ 

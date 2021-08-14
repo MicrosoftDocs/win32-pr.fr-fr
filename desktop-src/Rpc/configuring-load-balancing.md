@@ -4,12 +4,12 @@ description: Configuration de l’équilibrage de charge
 ms.assetid: c78ffde1-1811-4065-941f-c24692eb144c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b82dbfc23e491d53a6687b50aa77b23878ce52ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3560359bd5ad064dc270e0840845674b97b093af66796dc92f31f7a15170f467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118931692"
 ---
 # <a name="configuring-load-balancing"></a>Configuration de l’équilibrage de charge
 
@@ -17,7 +17,7 @@ Chaque ordinateur proxy RPC qui doit agir en tant que service d’équilibrage d
 
 ## <a name="required-registry-keys"></a>Clés de Registre requises
 
-Plusieurs clés et valeurs de Registre sont requises pour configurer un serveur LBS. Si des clés sont manquantes ou sont entrées erronées, un événement Windows est enregistré. Pour plus d’informations sur l’événement enregistré, consultez la description de chaque clé et valeur.
+Plusieurs clés et valeurs de Registre sont requises pour configurer un serveur LBS. si des clés sont manquantes ou sont entrées erronées, un événement Windows est enregistré. Pour plus d’informations sur l’événement enregistré, consultez la description de chaque clé et valeur.
 
 Pour configurer la batterie de serveurs, vous devez créer une clé de Registre **HKLM \\ Software \\ Microsoft \\ RPC \\ RpcProxy** appelée **LBSConfiguration**. Sous la clé **LBSConfiguration** , une clé est créée pour chaque ressource de la batterie de serveurs. Le nom de clé est la représentation sous forme de chaîne du GUID de la ressource. Au moins une clé de ressource doit exister et cette ressource est identique à l' [**UUID**](./rpcdce/ns-rpcdce-uuid.md) défini par les clients sur le handle de liaison, [**\_ \_ handle de liaison RPC**](rpc-binding-handle.md), lors de la création de la liaison RPC/HTTP (pour plus d’informations, consultez [**RpcBindingSetObject**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetobject)). Sous chaque clé UUID de ressource, il doit exister une valeur DWORD nommée **configuration** , qui décrit la configuration utilisée. Il doit également exister un identificateur de serveur, délimité par des points-virgules, de **reg \_** , appelé **batterie**. Les serveurs identifiés dans la clé **batterie** sont les serveurs qui sont membres de la batterie de serveurs d’équilibrage de charge.
 
@@ -31,13 +31,13 @@ Clé de registre. La clé **LBSConfiguration** est la clé de Registre qui conti
 
 **HKLM \\ Software \\ Microsoft \\ RPC \\ RPCPROXY \\ LBSCONFIGURATION \\ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx**
 
-Clé de registre. La clé **UUID de ressource** identifie l’UUID de ressource dont la charge doit être équilibrée. Cet UUID de ressource est le même que l' [**UUID**](./rpcdce/ns-rpcdce-uuid.md) que les clients définissent sur le handle de liaison, [**\_ \_ handle de liaison RPC**](rpc-binding-handle.md). Il doit y avoir au moins un UUID de ressource dont la charge doit être équilibrée, il peut y avoir plusieurs UUID de ressource. Il ne peut y avoir qu’une seule batterie de serveurs et tous les points de terminaison doivent se trouver sur tous les serveurs de la batterie de serveurs. Si cette clé ne peut pas être analysée avec un UUID valide, l’événement **RPCPROXY \_ EventLog- \_ \_ clé non valide \_ (0xC0000006)** est enregistré dans le journal des événements Windows.
+Clé de registre. La clé **UUID de ressource** identifie l’UUID de ressource dont la charge doit être équilibrée. Cet UUID de ressource est le même que l' [**UUID**](./rpcdce/ns-rpcdce-uuid.md) que les clients définissent sur le handle de liaison, [**\_ \_ handle de liaison RPC**](rpc-binding-handle.md). Il doit y avoir au moins un UUID de ressource dont la charge doit être équilibrée, il peut y avoir plusieurs UUID de ressource. Il ne peut y avoir qu’une seule batterie de serveurs et tous les points de terminaison doivent se trouver sur tous les serveurs de la batterie de serveurs. si cette clé ne peut pas être analysée avec un UUID valide, l’événement **RPCPROXY \_ EVENTLOG- \_ \_ clé non valide \_ (0xC0000006)** est enregistré dans le journal des événements Windows.
 
 \-
 
 **HKLM \\ Software \\ Microsoft \\ RPC \\ RPCPROXY \\ LBSCONFIGURATION \\ xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx \\ Configuration**
 
-DWORD. La valeur DWORD **configuration** est stockée sous la clé **UUID de ressource** . La seule valeur autorisée est 1. Si cette valeur est différente de 1, le type d’événement **RPCPROXY \_ EventLog \_ lb \_ Unknown \_ \_ (0XC0000007)** sera enregistré dans le journal des événements Windows.
+DWORD. La valeur DWORD **configuration** est stockée sous la clé **UUID de ressource** . La seule valeur autorisée est 1. si cette valeur est différente de 1, le TYPE d’événement **RPCPROXY \_ EVENTLOG \_ LB \_ unknown \_ \_ (0xC0000007)** sera enregistré dans le journal des événements Windows.
 
 \-
 
@@ -47,7 +47,7 @@ PRIX \_ SZ La valeur de Registre **batterie** contient un point-virgule délimit
 
 «ServerID1, ServerPort1, LBSPort1, \[ LBSPort2,... LBSPortN \] ;»
 
-Plusieurs identificateurs de serveur doivent être listés dans la clé de Registre **batterie** . Ils doivent être délimités par un point-virgule. Les champs qui font partie de l’identificateur de serveur sont décrits dans le tableau suivant. Si ce champ ne peut pas être analysé correctement, l' **entrée de la \_ \_ configuration incorrecte de l’événement RPCPROXY EventLog \_ \_ \_ (0XC0000008)** sera enregistrée dans le journal des événements Windows.
+Plusieurs identificateurs de serveur doivent être listés dans la clé de Registre **batterie** . Ils doivent être délimités par un point-virgule. Les champs qui font partie de l’identificateur de serveur sont décrits dans le tableau suivant. si ce champ ne peut pas être analysé correctement, l' **entrée de la \_ \_ configuration incorrecte de l’événement RPCPROXY EVENTLOG \_ \_ \_ (0xC0000008)** sera enregistrée dans le journal des événements Windows.
 
 
 
@@ -59,7 +59,7 @@ Plusieurs identificateurs de serveur doivent être listés dans la clé de Regis
 
 
 
- 
+ 
 
 ## <a name="optional-registry-keys"></a>Clés de Registre facultatives
 
@@ -83,6 +83,6 @@ DWORD. Lorsque la valeur DWORD **AssumeResourceUUID** n’est pas présente, auc
 
 DWORD. Lorsque la valeur DWORD **NoSecurity** n’est pas présentée ou définie sur 0, tous les appels sortants effectués à lbs services disposent de la sécurité. S’il est présent et qu’il n’est pas défini sur 0, tous les appels sortants effectués à LBS services n’ont pas de sécurité. Vérifiez que ce paramètre correspond au paramètre **HKLM \\ Software \\ Microsoft \\ RPC \\ RpcProxy \\ LBSConfiguration \\ NoSecurity** .
 
- 
+ 
 
- 
+ 

@@ -20,12 +20,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d2b609a7a49a9b319c15745600aa54193350e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ca781f960f51c8f7804d56f3b2f5531517c3f16505f40dd48d442857fa58bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967988"
 ---
 # <a name="systemrestore-class"></a>SystemRestore, classe
 
@@ -60,7 +60,7 @@ La classe **SystemRestore** possède ces méthodes.
 | Méthode                                                             | Description                                                 |
 |:-------------------------------------------------------------------|:------------------------------------------------------------|
 | [**CreateRestorePoint**](createrestorepoint-systemrestore.md)     | Crée un point de restauration.<br/>                         |
-| [**Désactiver**](disable-systemrestore.md)                           | Désactive la surveillance sur un lecteur particulier.<br/>       |
+| [**Désactive**](disable-systemrestore.md)                           | Désactive la surveillance sur un lecteur particulier.<br/>       |
 | [**Activer**](enable-systemrestore.md)                             | Active la surveillance sur un lecteur particulier.<br/>        |
 | [**GetLastRestoreStatus**](getlastrestorestatus-systemrestore.md) | Récupère l’état de la dernière restauration du système.<br/> |
 | [**Restaurer**](restore-systemrestore.md)                           | Lance une restauration du système.<br/>                      |
@@ -170,7 +170,7 @@ Numéro de séquence du point de restauration.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez obtenir une liste de points de restauration à l’aide de la méthode [**SWbemServices. InstancesOf**](/windows/desktop/WmiSdk/swbemservices-instancesof) pour récupérer une collection d’objets **SystemRestore** . Vous pouvez utiliser les propriétés de la classe pour identifier le point de restauration.
 
@@ -199,7 +199,7 @@ next
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                       |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                         |
 | Espace de noms<br/>                | Racine \\ par défaut<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>SR. mof</dt> </dl> |

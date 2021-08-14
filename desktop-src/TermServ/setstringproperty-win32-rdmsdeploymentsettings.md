@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 138f6d91ed428caabf8da69e3d958675f879dd15
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1001d5c723642357263a6029c3569eaa861f7dcf3689cc7d06b42e04ef461aa2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119987499"
 ---
 # <a name="setstringproperty-method-of-the-win32_rdmsdeploymentsettings-class"></a>Méthode SetStringProperty de la \_ classe Win32 RDMSDeploymentSettings
 

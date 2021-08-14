@@ -3,7 +3,7 @@ title: RBN_ENDDRAG le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsque l’utilisateur arrête de faire glisser une bande. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 24b06144-6a4c-46a4-bef1-d6592f72a2c0
 keywords:
-- Contrôles Windows de code de notification RBN_ENDDRAG
+- RBN_ENDDRAG les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eb6c538679d793ed2407775b4238cea475ba4ef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5c09831672d61c824a1c8cea30b3ba3731d4ad589cc98c88ce3830586cb342cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104033043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985059"
 ---
 # <a name="rbn_enddrag-notification-code"></a>\_Code de notification RBN ENDDRAG
 
@@ -55,8 +55,8 @@ La valeur de retour pour ce code de notification n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

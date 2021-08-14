@@ -4,12 +4,12 @@ description: LanguageID, propriété
 ms.assetid: f57b0fa1-b3b8-49c8-b441-2a40e564d6ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a7a10e6b16f9e35b223bada728871d253685538
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13af9f7a508732444be83fd56cce2fad6c7d7a5c148e196e2c466db102d2e6e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748697"
 ---
 # <a name="languageid-property"></a>LanguageID, propriété
 
@@ -27,7 +27,7 @@ Retourne ou définit l’ID de langue pour le caractère.
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**Stockéesyntaxe**
 </dt> <dd>
 
-Caractères agent. ** ** *  * **(«***CharacterID***»).** \[  =  *LanguageID* LanguageID\]
+Caractères agent. ** ** *  * **(«**_CharacterID_*_»)._* \[  =  *LanguageID* LanguageID\]
 
 
 
@@ -37,9 +37,9 @@ Description
 
 LanguageID
 
-Entier long spécifiant l’ID de langue du caractère. L’ID de langue (LANGID) d’un caractère est une valeur de 16 bits définie par Windows, composée d’un ID de langue primaire et d’un ID de langue secondaire. Les exemples suivants sont des valeurs pour les langues prises en charge par Microsoft Agent. Pour déterminer la valeur d’autres langages, consultez la *documentation du kit de développement Platform SDK*.
+Entier long spécifiant l’ID de langue du caractère. l’id de langue (LANGID) d’un caractère est une valeur de 16 bits définie par Windows, composée d’un id de langue primaire et d’un id de langue secondaire. Les exemples suivants sont des valeurs pour les langues prises en charge par Microsoft Agent. Pour déterminer la valeur d’autres langages, consultez la *documentation du kit de développement Platform SDK*.
 
- 
+ 
 
 Arabe
 
@@ -49,7 +49,7 @@ Italien
 
 &H0410
 
- 
+ 
 
 Basque
 
@@ -59,7 +59,7 @@ Japonais
 
 &H0411
 
- 
+ 
 
 Chinois (simplifié)
 
@@ -69,7 +69,7 @@ Coréen
 
 &H0412
 
- 
+ 
 
 Chinois (traditionnel)
 
@@ -79,7 +79,7 @@ Norvégien
 
 &H0414
 
- 
+ 
 
 Croate
 
@@ -89,7 +89,7 @@ Polonais
 
 &H0415
 
- 
+ 
 
 Tchèque
 
@@ -99,7 +99,7 @@ Portugais (Portugal)
 
 &H0816
 
- 
+ 
 
 Danois
 
@@ -109,7 +109,7 @@ Portugais (Brésil)
 
 &H0416
 
- 
+ 
 
 Néerlandais
 
@@ -119,7 +119,7 @@ Roumain
 
 &H0418
 
- 
+ 
 
 Anglais (Royaume-Uni)
 
@@ -129,9 +129,9 @@ Russe
 
 &H0419
 
- 
+ 
 
-Anglais (US)
+Anglais (États-Unis)
 
 &H0409
 
@@ -139,7 +139,7 @@ Slovaque
 
 &H041B
 
- 
+ 
 
 Finnois
 
@@ -149,7 +149,7 @@ Slovène
 
 &H0424
 
- 
+ 
 
 Français
 
@@ -159,7 +159,7 @@ Espagnol
 
 &H0C0A
 
- 
+ 
 
 Allemand
 
@@ -169,7 +169,7 @@ Suédois
 
 &H041D
 
- 
+ 
 
 Grec
 
@@ -179,7 +179,7 @@ Thaï
 
 &H041E
 
- 
+ 
 
 Hébreu
 
@@ -189,23 +189,23 @@ Turc
 
 &H041F
 
- 
+ 
 
 Hongrois
 
 &H040E
 
- 
+ 
 
- 
+ 
 
 
 
- 
+ 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous ne définissez pas l' **LanguageID** pour le caractère, son ID de langue sera l’ID de langue du système actuel si la dll de langue de l’agent correspondante est installée ; sinon, la langue du caractère sera l’anglais (États-Unis).
 
@@ -220,16 +220,16 @@ Cette propriété s’applique uniquement à l’utilisation du caractère par v
 > [!Note]  
 > Si vous affectez à **LanguageID** une langue qui prend en charge le texte bidirectionnel (tel que l’arabe ou l’hébreu), mais que le système qui exécute votre application n’a pas de prise en charge bidirectionnelle, le texte de la bulle est affiché dans l’ordre logique plutôt que dans l’ordre d’affichage.
 
- 
+ 
 
 ## <a name="see-also"></a>Voir aussi
 
 [**Propriété SRModeID**](srmodeid-property.md), [ **propriété TTSModeID**](ttsmodeid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

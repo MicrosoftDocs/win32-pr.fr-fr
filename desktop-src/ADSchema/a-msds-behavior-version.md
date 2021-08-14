@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d464d6f455e04f2366cb790a962eb85dcbe5180e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4990a20ce5074b0b7e141ef23ed1a87769864172a0814e3b79d70db4aec05d4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118685255"
 ---
 # <a name="ms-ds-behavior-version-attribute"></a>attribut ms-DS-Behavior-Version
 
@@ -36,7 +36,7 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 | Fréquence des mises à jour  | \-                                             |
 | Attribute-Id      | 1.2.840.113556.1.4.1459                        |
 | System-ID-GUID    | d31a8757-2447-4545-8081-3bb610cacbf2           |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)           |
+| Syntaxe            | [**Énumération**](s-enumeration.md)           |
 
 
 
@@ -45,7 +45,7 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -57,10 +57,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |
@@ -78,10 +78,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |
@@ -99,10 +99,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |
@@ -120,10 +120,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |
@@ -141,10 +141,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |
@@ -162,10 +162,10 @@ Cet attribut est utilisé pour effectuer le suivi de la version de comportement 
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ID de lien                | \-                                                                                                                                                                                             |
 | MAPI-Id                | \-                                                                                                                                                                                             |
-| System-Only            | Vrai                                                                                                                                                                                           |
-| Est de valeur unique       | Vrai                                                                                                                                                                                           |
-| Est indexé             | Faux                                                                                                                                                                                          |
-| Dans le catalogue global      | Faux                                                                                                                                                                                          |
+| System-Only            | True                                                                                                                                                                                           |
+| Est de valeur unique       | True                                                                                                                                                                                           |
+| Est indexé             | False                                                                                                                                                                                          |
+| Dans le catalogue global      | False                                                                                                                                                                                          |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                                                                                                                                   |
 | Range-Lower            | \-                                                                                                                                                                                             |
 | Range-Upper            | \-                                                                                                                                                                                             |

@@ -1,14 +1,14 @@
 ---
 title: Amélioration de l’expérience de panoramique Single-Finger
-description: Si vous générez une application qui cible Windows Touch, elle fournit automatiquement la prise en charge de la panoramisation de base. Toutefois, vous pouvez utiliser le \_ message de mouvement WM pour fournir une prise en charge améliorée pour le panoramique à un seul doigt.
+description: si vous générez une application qui cible Windows Touch, elle fournit automatiquement la prise en charge de la panoramisation de base. Toutefois, vous pouvez utiliser le \_ message de mouvement WM pour fournir une prise en charge améliorée pour le panoramique à un seul doigt.
 ms.assetid: eb01a6df-9969-44d1-a657-4f83fb0b67cb
 keywords:
-- Tactile Windows, panoramique à un seul doigt
-- Tactile Windows, panoramique
-- Tactile Windows, barres de défilement
-- Tactile Windows, raccourcis
-- Tactile Windows, messages panoramiques de geste
-- Tactile Windows, commentaires sur les limites
+- Windows Panoramique tactile, panoramique à un seul doigt
+- Windows Toucher, panoramique
+- Windows Toucher, barres de défilement
+- Windows Toucher, raccourcis
+- Windows Touches tactiles, messages panoramiques de mouvement
+- Windows Toucher, commentaires sur les limites
 - panoramique à un seul doigt
 - panoramique, à un seul doigt
 - panoramique, commentaires sur les limites
@@ -21,16 +21,16 @@ keywords:
 - Commentaires sur les limites, panoramique à un seul doigt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9081903600918485f1e3241a02c01b5438c1aae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf740d673e8bd2d2711238902d3de6c89d21a01fe330524b910db050011872f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103728020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435442"
 ---
 # <a name="improving-the-single-finger-panning-experience"></a>Amélioration de l’expérience de panoramique Single-Finger
 
-Si vous générez une application qui cible Windows Touch, elle fournit automatiquement la prise en charge de la panoramisation de base. Toutefois, vous pouvez utiliser le message de [**\_ mouvement WM**](wm-gesture.md) pour fournir une prise en charge améliorée pour le panoramique à un seul doigt.
+si vous générez une application qui cible Windows Touch, elle fournit automatiquement la prise en charge de la panoramisation de base. Toutefois, vous pouvez utiliser le message de [**\_ mouvement WM**](wm-gesture.md) pour fournir une prise en charge améliorée pour le panoramique à un seul doigt.
 
 ## <a name="overview"></a>Vue d’ensemble
 
@@ -48,7 +48,7 @@ Avant de commencer, vous devez créer une application avec des barres de défile
 
 Pour prendre en charge les messages de panoramique de geste, vous devez les gérer dans la méthode **WndProc** . Les messages de mouvement permettent de déterminer les deltas horizontaux et verticaux pour les messages panoramiques. Les deltas sont utilisés pour mettre à jour l’objet de barre de défilement, qui met à jour l’interface utilisateur.
 
-Tout d’abord, mettez à jour les paramètres de version de Windows dans le fichier targetver. h pour activer Windows Touch. Le code suivant montre les différents paramètres de la version de Windows qui doivent les remplacer dans targetver. h.
+tout d’abord, mettez à jour les paramètres de version Windows dans le fichier targetver. h pour activer Windows Touch. le code suivant montre les différents paramètres de version de Windows qui doivent les remplacer dans targetver. h.
 
 
 ```C++
@@ -224,7 +224,7 @@ Le cas de mouvement de panoramique est mis à jour pour déclencher un feedback 
 
 <dl> <dt>
 
-[Gestes tactiles Windows](guide-multi-touch-gestures.md)
+[Windows Gestes tactiles](guide-multi-touch-gestures.md)
 </dt> <dt>
 
 [**BeginPanningFeedback**](/windows/win32/api/uxtheme/nf-uxtheme-beginpanningfeedback)
@@ -236,6 +236,6 @@ Le cas de mouvement de panoramique est mis à jour pour déclencher un feedback 
 [**UpdatePanningFeedback**](/windows/win32/api/uxtheme/nf-uxtheme-updatepanningfeedback)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

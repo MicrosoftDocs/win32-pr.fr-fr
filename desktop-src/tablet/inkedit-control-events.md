@@ -4,12 +4,12 @@ ms.assetid: 8554a1ab-3288-4bdd-866b-dd2c25842b1f
 title: Événements de contrôle InkEdit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b1547df05b438e6ade49663f5095dfd6674dbe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bfb6c572214e6fca560a6f52f87f20695df5849ae008d3690b1241f061212b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103952752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118967158"
 ---
 # <a name="inkedit-control-events"></a>Événements de contrôle InkEdit
 
@@ -19,7 +19,7 @@ Le tableau suivant décrit les threads sur lesquels les événements de contrôl
 
 | Événement                                                                          | Threads                                                          |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [**Modifiés**](inkedit-change.md)                                               | Se déclenche sur le thread d’interface utilisateur de l’application<br/> |
+| [**Modifier**](inkedit-change.md)                                               | Se déclenche sur le thread d’interface utilisateur de l’application<br/> |
 | [**Cliquez sur**](inkedit-click.md)                                                 | Se déclenche sur le thread d’interface utilisateur de l’application<br/>                  |
 | [**Double**](inkedit-dblclick.md)                                           | Se déclenche sur le thread d’interface utilisateur de l’application<br/>                  |
 | [**Mouvement**](inkedit-gesture.md)                                             | Se déclenche sur le thread d’interface utilisateur de l’application<br/>                  |

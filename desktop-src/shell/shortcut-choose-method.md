@@ -1,5 +1,5 @@
 ---
-description: Choisissez une méthode de menu contextuel statique ou dynamique quand vous implémentez un format de fichier personnalisé dans le shell Windows.
+description: choisissez une méthode de menu contextuel statique ou dynamique quand vous implémentez un format de fichier personnalisé dans le Shell Windows.
 title: Choix d’une méthode de menu contextuel statique ou dynamique
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: dfd73ee052594e1136fe2885ce92b682f229096b
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c910407dbd9de9f12853973f9891fe092a0603ca50a03e59183697b0f92b07e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968318"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>Choix d’une méthode de menu contextuel statique ou dynamique
 
@@ -81,7 +81,7 @@ Les verbes statiques sont les verbes les plus simples à implémenter, mais ils 
  
 
 > [!Note]  
-> [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) est un hybride entre un verbe statique et dynamique. **IExplorerCommand** a été déclaré dans Windows Vista, mais sa capacité à implémenter un verbe dans un menu contextuel est une nouveauté de Windows 7.
+> [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) est un hybride entre un verbe statique et dynamique. **IExplorerCommand** a été déclaré dans Windows Vista, mais sa capacité à implémenter un verbe dans un menu contextuel est une nouveauté pour Windows 7.
 
  
 
@@ -96,7 +96,7 @@ Les méthodes de verbe dynamique suivantes sont préférées :
 | Type de verbe                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Verbe statique (listé dans le tableau précédent) + syntaxe de requête avancée (AQS)                  | Ce choix obtient la visibilité des verbes dynamiques.<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Windows 7 et versions ultérieures : [ **IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)                         | Ce choix permet une implémentation courante des verbes et des commandes de l’Explorateur qui s’affichent dans le module de commande dans l’Explorateur Windows.                                                                                                                                                                                                                                                                                                                                                                                               |
+| Windows 7 et versions ultérieures : [ **IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)                         | ce choix active une implémentation courante des verbes et des commandes de l’explorateur qui s’affichent dans le module de commande dans Windows explorer.                                                                                                                                                                                                                                                                                                                                                                                               |
 | Windows 7 et versions ultérieures : [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) + verbe statique | Ce choix obtient également la visibilité des verbes dynamiques. Il s’agit d’un modèle hybride dans lequel un simple gestionnaire in-process est utilisé pour calculer si un verbe statique donné doit être affiche. Cela peut être appliqué à toutes les méthodes d’implémentation de verbe statique pour obtenir un comportement dynamique et réduire l’exposition de la logique in-process. [**IExplorerCommandState**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommandstate) présente l’avantage de s’exécuter sur un thread d’arrière-plan, ce qui évite les blocages de l’interface utilisateur. Elle est beaucoup plus simple que [**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu). |
 
 
@@ -105,7 +105,7 @@ Les méthodes de verbe dynamique suivantes sont préférées :
 
 ### <a name="discouraged-dynamic-verb-methods"></a>Méthodes de verbe dynamique déconseillées
 
-[**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) est la méthode la plus simple, mais également la plus compliquée à implémenter. Il est basé sur des objets COM in-process qui s’exécutent sur le thread de l’appelant, qui est généralement l’Explorateur Windows, mais peut être n’importe quelle application hébergeant les éléments. **IContextMenu** prend en charge la visibilité des verbes, le classement et le dessin personnalisé. Certaines de ces fonctionnalités ont été ajoutées aux fonctionnalités de verbe statique, telles qu’une icône à associer à une commande, et [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) pour gérer la visibilité.
+[**IContextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu) est la méthode la plus simple, mais également la plus compliquée à implémenter. il est basé sur des objets COM in-process qui s’exécutent sur le thread de l’appelant, qui est généralement Windows explorateur mais peut être n’importe quelle application hébergeant les éléments. **IContextMenu** prend en charge la visibilité des verbes, le classement et le dessin personnalisé. Certaines de ces fonctionnalités ont été ajoutées aux fonctionnalités de verbe statique, telles qu’une icône à associer à une commande, et [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) pour gérer la visibilité.
 
 Si vous devez étendre le menu contextuel d’un type de fichier en inscrivant un verbe dynamique pour le type de fichier, suivez les instructions fournies dans [Personnalisation d’un menu contextuel à l’aide de verbes dynamiques](shortcut-menu-using-dynamic-verbs.md).
 
@@ -119,7 +119,7 @@ La prise en charge des méthodes d’appel de verbe par système d’exploitatio
 
 
 
-| Méthode Verb          | Windows XP | Windows Vista | Windows 7 et versions ultérieures |
+| Méthode Verb          | Windows XP | Windows Vista | Windows 7 et au-delà |
 |----------------------|------------|---------------|----------------------|
 | CreateProcess        | X          | X             | X                    |
 | DDE                  | X          | X             | X                    |

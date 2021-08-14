@@ -4,29 +4,29 @@ ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: À propos de l’interface multidocument
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0397127d7ec343ebdb7696c2dd7d57204a5d5ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 071d3bebad8e6aba48b69b66fd41f9f7933c1d9785ae38512003aaf1bd9a19e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106529466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705998"
 ---
 # <a name="about-the-multiple-document-interface"></a>À propos de l’interface multidocument
 
-Chaque document d’une application d’interface multidocument (MDI) est affiché dans une fenêtre enfant distincte dans la zone cliente de la fenêtre principale de l’application. Les applications MDI classiques incluent des applications de traitement de texte qui permettent à l’utilisateur de travailler avec plusieurs documents texte et des applications de tableur qui permettent à l’utilisateur de travailler avec plusieurs graphiques et feuilles de calcul. Pour plus d'informations, consultez les rubriques ci-dessous.
+Chaque document d’une application d’interface multidocument (MDI) est affiché dans une fenêtre enfant distincte dans la zone cliente de la fenêtre principale de l’application. Les applications MDI classiques incluent des applications de traitement de texte qui permettent à l’utilisateur de travailler avec plusieurs documents texte et des applications de tableur qui permettent à l’utilisateur de travailler avec plusieurs graphiques et feuilles de calcul. Pour plus d’informations, voir les rubriques suivantes :
 
--   [Fenêtres Frame, client et enfant](#frame-client-and-child-windows)
+-   [Frame, client et enfant Windows](#frame-client-and-child-windows)
 -   [Création de fenêtre enfant](#child-window-creation)
 -   [Activation de la fenêtre enfant](#child-window-activation)
 -   [Menus à plusieurs documents](#multiple-document-menus)
 -   [Accélérateurs de documents multiples](#multiple-document-accelerators)
 -   [Taille et disposition de la fenêtre enfant](#child-window-size-and-arrangement)
--   [Fenêtres titre des icônes](#icon-title-windows)
+-   [Titre de l’icône Windows](#icon-title-windows)
 -   [Données de fenêtre enfant](#child-window-data)
     -   [Structure de la fenêtre](#window-structure)
     -   [Propriétés de la fenêtre](#window-properties)
 
-## <a name="frame-client-and-child-windows"></a>Fenêtres Frame, client et enfant
+## <a name="frame-client-and-child-windows"></a>Frame, client et enfant Windows
 
 Une application MDI comporte trois types de fenêtres : une fenêtre frame, une fenêtre cliente MDI, ainsi qu’un certain nombre de fenêtres enfants. La *fenêtre frame* est semblable à la fenêtre principale de l’application : elle a une bordure de redimensionnement, une barre de titre, un menu fenêtre, un bouton réduire et un bouton Agrandir. L’application doit inscrire une classe de fenêtre pour la fenêtre frame et fournir une procédure de fenêtre pour la prendre en charge.
 
@@ -77,7 +77,7 @@ La fenêtre frame d’une application MDI doit inclure une barre de menus avec u
 
 Chaque fois qu’une fenêtre enfant est créée, le système ajoute automatiquement un nouvel élément de menu au menu fenêtre. Le texte de l’élément de menu est le même que le texte de la barre de menus de la nouvelle fenêtre enfant. En cliquant sur l’élément de menu, l’utilisateur peut activer la fenêtre enfant correspondante. Quand une fenêtre enfant est détruite, le système supprime automatiquement l’élément de menu correspondant dans le menu fenêtre.
 
-Le système peut ajouter jusqu’à dix éléments de menu au menu fenêtre. Lorsque la dixième fenêtre enfant est créée, le système ajoute le **plus grand élément Windows** au menu fenêtre. Cliquez sur cet élément pour afficher la boîte de dialogue **Sélectionner une fenêtre** . La boîte de dialogue contient une zone de liste avec les titres de toutes les fenêtres MDI enfants actuellement disponibles. L’utilisateur peut activer une fenêtre enfant en cliquant sur son titre dans la zone de liste.
+Le système peut ajouter jusqu’à dix éléments de menu au menu fenêtre. lorsque la dixième fenêtre enfant est créée, le système ajoute l’élément **plus Windows** dans le menu fenêtre. Cliquez sur cet élément pour afficher la boîte de dialogue **Sélectionner une fenêtre** . La boîte de dialogue contient une zone de liste avec les titres de toutes les fenêtres MDI enfants actuellement disponibles. L’utilisateur peut activer une fenêtre enfant en cliquant sur son titre dans la zone de liste.
 
 Si votre application MDI prend en charge plusieurs types de fenêtres enfants, personnalisez la barre de menus pour qu’elle reflète les opérations associées à la fenêtre active. Pour ce faire, fournissez des ressources de menu distinctes pour chaque type de fenêtre enfant que l’application prend en charge. Lorsqu’un nouveau type de fenêtre enfant est activé, l’application doit envoyer un message [**WM \_ MDISETMENU**](wm-mdisetmenu.md) à la fenêtre cliente, en lui transmettant le handle vers le menu correspondant.
 
@@ -101,7 +101,7 @@ Lorsque les fenêtres enfants sont affichées en mosaïque, le système affiche 
 
 Une application MDI doit fournir une icône différente pour chaque type de fenêtre enfant qu’elle prend en charge. L’application spécifie une icône lors de l’inscription de la classe de fenêtre enfant. Le système affiche automatiquement l’icône d’une fenêtre enfant dans la partie inférieure de la fenêtre cliente lorsque la fenêtre enfant est réduite. Une application MDI indique au système d’organiser les icônes des fenêtres enfants en envoyant un message [**WM \_ MDIICONARRANGE**](wm-mdiiconarrange.md) à la fenêtre du client. En règle générale, l’application envoie ce message lorsque l’utilisateur clique sur **Réorganiser les icônes** dans le menu fenêtre.
 
-## <a name="icon-title-windows"></a>Fenêtres titre des icônes
+## <a name="icon-title-windows"></a>Titre de l’icône Windows
 
 Étant donné que les fenêtres enfants MDI peuvent être réduites, une application MDI doit éviter la manipulation des fenêtres de titre d’icône comme s’il s’agissait de fenêtres enfants MDI normales. Les fenêtres de titre d’icône s’affichent lorsque l’application énumère les fenêtres enfants de la fenêtre cliente MDI. Les fenêtres de titre d’icône diffèrent des autres fenêtres enfants, en ce qu’elles appartiennent à une fenêtre enfant MDI.
 

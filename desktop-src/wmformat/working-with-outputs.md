@@ -11,12 +11,12 @@ keywords:
 - nombres et formats de sortie, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d089a645838a295e07eb740927d75238473cc4f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 274e5b4980ef14126006d3f19fe0717aa9eb6fd5c1a8f7baaf91e35084faeacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103723458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697723"
 ---
 # <a name="working-with-outputs"></a>Utilisation des sorties
 
@@ -44,9 +44,9 @@ Les rubriques suivantes expliquent comment utiliser les sorties :
 [**Lecture des fichiers ASF**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

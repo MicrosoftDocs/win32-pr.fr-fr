@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4659ba19e9fa950a659969f2491533858f4658fb
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 5edf92b127210a5eb05e5339a1dff4cc08ce9443e638461b71d7bf7d27c7b78a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513088"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>Gather (objet texture HLSL DirectX)
 
@@ -131,7 +131,7 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 1.  TextureCubeArray est disponible dans le nuancier modèle 4,1 ou version ultérieure.
 2.  Le modèle de nuanceur 4,1 est disponible dans Direct3D 10,1 ou version ultérieure.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 
 ```

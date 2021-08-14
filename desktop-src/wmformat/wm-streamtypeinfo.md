@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c410b470e9ddb4ec874325d9c1cca2839c00b1d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6fb40926d5ecba3aea2c7f2db64850152c66a25861d4422fddf04670c76d8148
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104380694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698271"
 ---
 # <a name="wmstreamtypeinfo"></a>WM/StreamTypeInfo
 
@@ -31,7 +31,7 @@ L’attribut **WM/StreamTypeInfo** contient les informations de configuration du
 
 [**WM \_ \_ \_ informations sur le type de flux**](/previous-versions/windows/desktop/api/wmsdkidl/ns-wmsdkidl-wm_stream_type_info) (**\_ type WMT \_ binaire**)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet attribut s’applique à des flux spécifiques. Vous ne pouvez pas récupérer cet attribut pour le flux 0.
 
@@ -46,9 +46,9 @@ L’objet de l’éditeur de métadonnées peut accéder à **WM/StreamTypeInfo*
 [**Liste d’attributs**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

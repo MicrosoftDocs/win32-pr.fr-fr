@@ -4,12 +4,12 @@ ms.assetid: 17bd4f09-675f-4e3b-989b-40a0a775e6ba
 title: System. communication. PolicyTag
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fcbb9211d7a25f50170422935a0602e856b80a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 314c4e220d6a77521d5358ad14aae42ff13d51264518fef7f3937dcf2f49f7b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970748"
 ---
 # <a name="systemcommunicationpolicytag"></a>System. communication. PolicyTag
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

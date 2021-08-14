@@ -42,16 +42,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b83f32b9f98a24d0ed4d9995bf5fcb7eaa3a2b6c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b39dd6e2656ad73623df9d6a92d514e90371bc3761563e5f24c41211680c2455
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118909948"
 ---
 # <a name="winbio_operation_type-constants"></a>\_Constantes de type d’opération WINBIO \_
 
-Les constantes suivantes peuvent être retournées par l’Windows Biometric Framework dans un [**\_ \_ Résultat asynchrone WINBIO**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) pour spécifier le type d’opération asynchrone en cours d’exécution.
+les constantes suivantes peuvent être retournées par l’Windows Biometric Framework dans un [**\_ \_ résultat asynchrone WINBIO**](/windows/desktop/api/Winbio/ns-winbio-winbio_async_result) pour spécifier le type d’opération asynchrone en cours d’exécution.
 
 <dl> <dt>
 
@@ -464,8 +464,8 @@ Un individu d’un groupe de personnes qui sont représentées par des données 
 
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                                                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                                                                                                     |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                                                                                               |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                                                                                                     |
 | En-tête<br/>                   | <dl> <dt>WinBio \_ types. h (inclure WinBio. h pour les applications clientes ou les \_ cartes WinBio. h pour les adaptateurs)</dt> </dl> |
 
 

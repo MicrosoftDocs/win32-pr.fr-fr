@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 72f35df1e463ff89441938e4cae19a890821baf9
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 048b63d24e87d97f0e0223083a91694c0471b9e38ad21afbc487c02d711d720d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104032095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504675"
 ---
 # <a name="waveprefixcountbits-function"></a>WavePrefixCountBits fonction)
 
@@ -50,7 +50,7 @@ Variables booléennes spécifiées.
 
 Somme de toutes les variables booléennes spécifiées ayant la valeur true sur tous les couloirs actifs avec des index plus petits que la voie actuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette fonction est prise en charge à partir du Shader Model 6,0 dans toutes les étapes du nuanceur. 
 

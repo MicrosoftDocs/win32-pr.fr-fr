@@ -4,12 +4,12 @@ ms.assetid: 9633bc88-12bd-404a-b779-878eb1ee5699
 title: Création d’un profil ASF
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ed9553811645b8589de7fb1805f1a307c4bdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a0225a6ff17f68c5443fce15f9bdc196901313ccaaebdde2f7f34c49860538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743246"
 ---
 # <a name="creating-an-asf-profile"></a>Création d’un profil ASF
 
@@ -22,7 +22,7 @@ Cette rubrique explique comment créer en tant que profil ASF dans Microsoft Med
 
 ## <a name="create-a-new-profile"></a>Créer un nouveau profil
 
-Pour créer un profil ASF vide, appelez la fonction [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) . Cette fonction retourne un pointeur vers l’interface [**IMFASFProfile**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . L’application peut utiliser cette interface pour ajouter des flux au profil et configurer chacun des flux. Pour plus d’informations, consultez [création et configuration de flux ASF](creating-and-configuring-asf-streams.md).
+Pour créer un profil ASF vide, appelez la fonction [**MFCreateASFProfile**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofile) . Cette fonction retourne un pointeur vers l’interface [**IMFASFProfile**](/windows/desktop/api/wmcontainer/nn-wmcontainer-imfasfprofile) . L’application peut utiliser cette interface pour ajouter des flux au profil et configurer chacun des flux. Pour plus d’informations, consultez [création et configuration d’flux ASF](creating-and-configuring-asf-streams.md).
 
 L’application peut éventuellement ajouter des objets d’exclusion mutuelle à deux flux ou plus. Consultez [utilisation de l’exclusion mutuelle pour les flux ASF](using-mutual-exclusion-for-asf-streams.md).
 
@@ -34,7 +34,7 @@ Initialisez l’objet ContentInfo en analysant l’objet d’en-tête ASF du fic
 
 ## <a name="get-the-profile-from-a-presentation-descriptor"></a>Obtenir le profil à partir d’un descripteur de présentation
 
-Vous pouvez obtenir l’objet de profil d’un fichier ASF existant à partir du [descripteur de présentation](presentation-descriptors.md) pour le fichier ou à partir de l’objet [ASF ContentInfo](asf-contentinfo-object.md) . Dans ce cas, le profil est déjà configuré et contient des paramètres pour tous les flux du fichier. Cela peut être utile si vous souhaitez modifier un profil ASF existant. Par exemple, vous souhaiterez peut-être recoder un fichier de Windows Media Video à une vitesse de transmission inférieure.
+Vous pouvez obtenir l’objet de profil d’un fichier ASF existant à partir du [descripteur de présentation](presentation-descriptors.md) pour le fichier ou à partir de l’objet [ASF ContentInfo](asf-contentinfo-object.md) . Dans ce cas, le profil est déjà configuré et contient des paramètres pour tous les flux du fichier. Cela peut être utile si vous souhaitez modifier un profil ASF existant. par exemple, vous souhaiterez peut-être recoder un fichier de Windows Media Video à une vitesse de transmission inférieure.
 
 Pour récupérer le profil à partir du descripteur de présentation, appelez [**MFCreateASFProfileFromPresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreateasfprofilefrompresentationdescriptor). Cette fonction analyse le descripteur de présentation et remplit un profil ASF avec des informations sur le fichier multimédia. La fonction retourne un pointeur vers l’interface IMFASFProfile. Vous pouvez ensuite utiliser cette interface pour modifier le profil.
 

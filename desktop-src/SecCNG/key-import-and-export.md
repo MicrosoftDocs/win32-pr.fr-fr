@@ -4,12 +4,12 @@ ms.assetid: 37bda1e0-5dd2-455c-9627-4e7e1b0e04d3
 title: Importation et exportation de clé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be59cc5f5c4b3d1a98fa30cf4e967d5469d2f1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a4b6c26069911d771697bf06f7464aa14ab7f099e4a0e06991d2fd992efa44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106513343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907700"
 ---
 # <a name="key-import-and-export"></a>Importation et exportation de clé
 
@@ -21,7 +21,7 @@ Pour importer ou exporter des clés symétriques (ou de session) dans lesquelles
 
 ## <a name="asymmetric-keys"></a>Clés asymétriques
 
-Pour importer les paires de clés asymétriques (ou [*publiques/privées*](/windows/desktop/SecGloss/p-gly)) dans lesquelles une clé est utilisée pour chiffrer et l’autre est utilisée pour déchiffrer des données, vous pouvez utiliser l’une des fonctions [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) ou [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) . Un fournisseur CNG doit encoder la paire de clés à l’aide d’un type [*blob de clé*](/windows/desktop/SecGloss/k-gly) pris en charge. [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) peut être utilisé pour créer l’objet blob de clé encodé. Les [structures CNG](cng-structures.md) décrivent les types et structures blob de clé pris en charge par le fournisseur de stockage de clés Microsoft.
+Pour importer les paires de clés asymétriques (ou [*publiques/privées*](/windows/desktop/SecGloss/p-gly)) dans lesquelles une clé est utilisée pour chiffrer et l’autre est utilisée pour déchiffrer des données, vous pouvez utiliser l’une des fonctions [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) ou [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) . Un fournisseur CNG doit encoder la paire de clés à l’aide d’un type [*blob de clé*](/windows/desktop/SecGloss/k-gly) pris en charge. [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) peut être utilisé pour créer l’objet blob de clé encodé. les [structures CNG](cng-structures.md) décrivent les types et structures BLOB de clé que le fournisseur de clés Microsoft key Stockage prend en charge.
 
 Pour que [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) crée une paire de clés persistante, l’objet blob de clé d’entrée doit contenir une [*clé privée*](/windows/desktop/SecGloss/p-gly). Les [*clés publiques*](/windows/desktop/SecGloss/p-gly) ne sont pas rendues persistantes.
 

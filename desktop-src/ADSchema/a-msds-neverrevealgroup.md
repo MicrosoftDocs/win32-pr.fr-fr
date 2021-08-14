@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1308fb1bc0818601a037e66b764e607c0a32532
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5bfc5acfd6239df6369829b5ec848c41c9bcc3b212d44a9e9267aa16db42022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106529088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684156"
 ---
 # <a name="ms-ds-never-reveal-group-attribute"></a>attribut ms-DS-Never-Reveal-Group
 
@@ -42,7 +42,7 @@ Utilisé avec les RODC pour définir les utilisateurs, les ordinateurs et les gr
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 
@@ -54,10 +54,10 @@ Utilisé avec les RODC pour définir les utilisateurs, les ordinateurs et les gr
 |------------------------|------------------------------------------------------------------------------------|
 | ID de lien                | 2106                                                                               |
 | MAPI-Id                | \-                                                                                 |
-| System-Only            | Faux                                                                              |
-| Est de valeur unique       | Faux                                                                              |
-| Est indexé             | Faux                                                                              |
-| Dans le catalogue global      | Faux                                                                              |
+| System-Only            | False                                                                              |
+| Est de valeur unique       | False                                                                              |
+| Est indexé             | False                                                                              |
+| Dans le catalogue global      | False                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                       |
 | Range-Lower            | \-                                                                                 |
 | Range-Upper            | \-                                                                                 |
@@ -75,10 +75,10 @@ Utilisé avec les RODC pour définir les utilisateurs, les ordinateurs et les gr
 |------------------------|------------------------------------------------------------------------------------|
 | ID de lien                | 2106                                                                               |
 | MAPI-Id                | \-                                                                                 |
-| System-Only            | Faux                                                                              |
-| Est de valeur unique       | Faux                                                                              |
-| Est indexé             | Faux                                                                              |
-| Dans le catalogue global      | Faux                                                                              |
+| System-Only            | False                                                                              |
+| Est de valeur unique       | False                                                                              |
+| Est indexé             | False                                                                              |
+| Dans le catalogue global      | False                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                       |
 | Range-Lower            | \-                                                                                 |
 | Range-Upper            | \-                                                                                 |
@@ -96,10 +96,10 @@ Utilisé avec les RODC pour définir les utilisateurs, les ordinateurs et les gr
 |------------------------|------------------------------------------------------------------------------------|
 | ID de lien                | 2106                                                                               |
 | MAPI-Id                | \-                                                                                 |
-| System-Only            | Faux                                                                              |
-| Est de valeur unique       | Faux                                                                              |
-| Est indexé             | Faux                                                                              |
-| Dans le catalogue global      | Faux                                                                              |
+| System-Only            | False                                                                              |
+| Est de valeur unique       | False                                                                              |
+| Est indexé             | False                                                                              |
+| Dans le catalogue global      | False                                                                              |
 | Descripteur de sécurité NT | O :BAG : BAD : S :                                                                       |
 | Range-Lower            | \-                                                                                 |
 | Range-Upper            | \-                                                                                 |

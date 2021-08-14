@@ -13,12 +13,12 @@ keywords:
 - index, indexation automatique
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0235ddac8093d9b1c6d40fde341ee32d078b84b7
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 61f3b63d58b8f9a0fbbdff88369832b67abca7d9f11a39c56613c6e5d867d6a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103940691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699909"
 ---
 # <a name="to-disable-automatic-indexing"></a>Pour désactiver l’indexation automatique
 
@@ -78,9 +78,9 @@ pMySink = NULL;
 [**Utilisation des index**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

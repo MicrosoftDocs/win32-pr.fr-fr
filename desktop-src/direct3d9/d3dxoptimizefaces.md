@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6c56dec04e01b542d2c760852a58826a8186c213
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 165f81d9b829ce7a7b22ced6fb37851f926ed861f11b79feca3a63c763dabbb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106538967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525228"
 ---
 # <a name="d3dxoptimizefaces-function"></a>D3DXOptimizeFaces fonction)
 
@@ -95,7 +95,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la fonction est réussie, la valeur de retour est D3D \_ OK. Si la fonction échoue, la valeur de retour peut être l’une des suivantes : D3DERR \_ INVALIDCALL, E \_ OUTOFMEMORY.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La procédure d’optimisation de cette fonction est fonctionnellement équivalente à l’appel de [**ID3DXMesh :: Optimize**](id3dxmesh--optimize.md) avec l' \_ indicateur D3DXMESHOPT DEVICEINDEPENDENT, mais cette fonction permet une utilisation plus efficace des caches de vertex.
 

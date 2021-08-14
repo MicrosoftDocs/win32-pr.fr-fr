@@ -4,12 +4,12 @@ description: Pour un contrôle maximal sur le processus de liaison, les applicat
 ms.assetid: e711ce37-92f0-4e60-a126-148c27662c26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b391c339ac3747928e3394152e9c0de7c1c7aa0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59a6e723d8559dc5e72783412eb6250f69431f31d08a92c4984fb2e2a19b761d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106510212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930018"
 ---
 # <a name="explicit-binding-handles"></a>Handles de liaison explicites
 
@@ -35,9 +35,9 @@ interface hello
 
 Vous pouvez combiner des handles explicites et implicites dans une seule interface. Si une fonction a un handle explicite dans sa liste de paramètres, ce handle sera utilisé. Si une fonction dans une interface utilisant des handles implicites ne spécifie pas de handle explicite, le handle implicite par défaut sera utilisé.
 
- 
+ 
 
- 
+ 
 
 
 

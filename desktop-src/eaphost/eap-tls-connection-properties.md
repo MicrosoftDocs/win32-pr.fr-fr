@@ -4,12 +4,12 @@ description: En savoir plus sur les propriétés de connexion EAP-TLS. Consultez
 ms.assetid: 7d8e7771-5263-4187-bb9d-ec0d6c154b17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbda4f345c0feedf6571f9f1c58f0193a876d2d1
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 8040c8860c99fa0a144a0903bde281045657425135545491f38958c34b3af05d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103734621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785266"
 ---
 # <a name="eap-tls-connection-properties"></a>Propriétés de la connexion EAP-TLS
 
@@ -54,9 +54,9 @@ Cet exemple est une instance du schéma hérité [eaptlsconnectionpropertiesv1](
 [EAPHost et schéma hérité](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

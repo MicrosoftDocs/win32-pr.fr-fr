@@ -3,17 +3,17 @@ title: Outil du compilateur de service Web
 description: Pour prendre en charge le modèle de service, wsutil.exe génère un en-tête à utiliser à la fois côté client et côté service. Il génère un fichier proxy C pour le côté client et un fichier stub C pour le côté service, si nécessaire.
 ms.assetid: 1c73297d-0d3d-421c-9e19-44a6012a5c65
 keywords:
-- Services Web de l’outil de compilateur de service Web pour Windows
+- Services Web de l’outil du compilateur de service Web pour Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9931f228a36832fc83d84d584a151de41f5868d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e92e1195cd9d3a8e8d9fa1b7be94421d68f3cbdf2242be6fa0d05be5cc3c743f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962838"
 ---
 # <a name="web-service-compiler-tool"></a>Outil du compilateur de service Web
 
@@ -22,7 +22,7 @@ Pour prendre en charge le modèle de service, wsutil.exe génère un en-tête à
 
 Pour prendre en charge la [sérialisation](serialization.md), le compilateur génère des en-têtes pour les descriptions d’éléments pour les définitions d’éléments globaux et toutes les informations de définition de type dans le fichier proxy à consommer par le moteur de sérialisation.
 
-Utilisation
+Usage
 
 **Commutateur de commutateurs de \[ ligne de commandeWsUtil.exe \[ -options \] :\]<filename>**
 

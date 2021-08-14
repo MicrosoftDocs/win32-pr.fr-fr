@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40d973d5f818b4bd81278a1466487ae89ebf888f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a8e4f990d1fa0c6a6a22b0068ea207be61b4aece441977b976f32f82b7b75c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695504"
 ---
 # <a name="dssetauthidentity-function"></a>DsSetAuthIdentity fonction)
 
-\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. À partir de Windows Vista, utilisez [service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
+\[Cette fonction peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il sera peut-être modifié ou indisponible dans les versions ultérieures. à partir de Windows Vista, utilisez [Service VSS (VSS)](../vss/volume-shadow-copy-service-overview.md) à la place.\]
 
 La fonction **DsSetAuthIdentity** définit le contexte de sécurité sous lequel les API de sauvegarde d’annuaire sont appelées.
 
@@ -72,7 +72,7 @@ Chaîne terminée par le caractère null qui spécifie le mot de passe de l’ut
 
 En cas de réussite, retourne un code de réussite **HRESULT** standard ; dans le cas contraire, un code d’échec est retourné.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si **DsSetAuthIdentity** n’est pas appelé, le contexte de sécurité du processus actuel est supposé.
 

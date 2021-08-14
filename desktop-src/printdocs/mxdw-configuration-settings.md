@@ -1,19 +1,19 @@
 ---
-description: Microsoft XPS document Writer (MXDW) permet aux utilisateurs de créer des fichiers de document XPS en imprimant à partir de n’importe quelle application Windows.
+description: Microsoft XPS Document Writer (MXDW) permet aux utilisateurs de créer des fichiers de document xps en imprimant à partir de n’importe quelle application Windows.
 ms.assetid: 1fa50337-2df7-48d3-a179-0ca5ae3dfda3
-title: Paramètres de configuration de MXDW
+title: Paramètres de Configuration MXDW
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4026a99baa33ec50bc3ad129ef6610a428f83ab
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7a75d45ea3ad9c8c74280d1e70e418ee0bf4823d1f0332e3d5c772d29976cf2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106543553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971188"
 ---
-# <a name="mxdw-configuration-settings"></a>Paramètres de configuration de MXDW
+# <a name="mxdw-configuration-settings"></a>Paramètres de Configuration MXDW
 
-Microsoft XPS document Writer (MXDW) permet aux utilisateurs de créer des fichiers de document XPS en imprimant à partir de n’importe quelle application Windows. Les développeurs d’applications peuvent contrôler les paramètres de sortie suivants du MXDW à l’aide des parties PrintTicket et PrintCapabilities du [schéma d’impression](./printschema.md).
+Microsoft XPS Document Writer (MXDW) permet aux utilisateurs de créer des fichiers de document xps en imprimant à partir de n’importe quelle application Windows. Les développeurs d’applications peuvent contrôler les paramètres de sortie suivants du MXDW à l’aide des parties PrintTicket et PrintCapabilities du [schéma d’impression](./printschema.md).
 
 ## <a name="jobinterleaving"></a>JobInterleaving
 

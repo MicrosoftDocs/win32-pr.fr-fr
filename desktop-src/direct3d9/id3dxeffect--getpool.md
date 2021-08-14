@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 18a35e9bc0a596cb88da6d4c1faf10941fbce8a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0220b2864d6c668c2d4fbb71925da6452f6cc8661d0d931a379969418dfe7e19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103953812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118521225"
 ---
 # <a name="id3dxeffectgetpool-method"></a>ID3DXEffect :: GetPool, méthode
 
@@ -55,7 +55,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Cette méthode retourne toujours la valeur \_ OK.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les pools contiennent des paramètres partagés entre les effets. Consultez [clonage et partage (Direct3D 9)](cloning-and-sharing.md).
 

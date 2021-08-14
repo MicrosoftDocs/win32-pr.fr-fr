@@ -16,30 +16,30 @@ keywords:
 - constantes, valeurs GUID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7f42590eca079503e3205d152ec0af263a7d8bb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10564b0e845140b7c0588de0929e5f29c46fab34b5628ab3e18095d8ce6a48ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433875"
 ---
 # <a name="guid-values"></a>Valeurs GUID
 
-Les sections suivantes répertorient les valeurs GUID utilisées dans le kit de développement logiciel (SDK) Windows Media format et les constantes globales utilisées pour les représenter.
+les sections suivantes répertorient les valeurs GUID utilisées dans le kit de développement logiciel (SDK) Windows Media Format et les constantes globales utilisées pour les représenter.
 
 
 
 | Section                                                  | Description                                                                                                               |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| [Identificateurs d’interface](interface-identifiers.md)       | Répertorie les valeurs GUID et les constantes associées pour les interfaces prises en charge par le kit de développement logiciel (SDK) du format Windows Media.              |
-| [Identificateurs de type de média](media-type-identifiers.md)     | Répertorie les valeurs GUID et les constantes associées pour les types de média pris en charge par le kit de développement logiciel (SDK) du format Windows Media.             |
-| [Types d’exclusion mutuelle](mutual-exclusion-types.md)     | Répertorie les valeurs GUID et les constantes associées pour les types d’exclusion mutuelle pris en charge par le kit de développement logiciel (SDK) du format Windows Media.  |
-| [Types de partage de bande passante](bandwidth-sharing-types.md)   | Répertorie les valeurs GUID et les constantes associées pour les types de partage de bande passante pris en charge par le kit de développement logiciel (SDK) Windows Media format. |
-| [Types de catégorie de filigrane](watermark-category-types.md) | Répertorie les valeurs GUID et les constantes associées qui identifient les catégories de filigranes DMO.                                 |
+| [Identificateurs d’interface](interface-identifiers.md)       | répertorie les valeurs GUID et les constantes associées pour les interfaces prises en charge par le kit de développement logiciel (SDK) de Format multimédia Windows.              |
+| [Identificateurs de type de média](media-type-identifiers.md)     | répertorie les valeurs GUID et les constantes associées pour les types de média pris en charge par le kit de développement logiciel (SDK) de Format multimédia Windows.             |
+| [Types d’exclusion mutuelle](mutual-exclusion-types.md)     | répertorie les valeurs GUID et les constantes associées pour les types d’exclusion mutuelle pris en charge par le kit de développement logiciel (SDK) de Format multimédia Windows.  |
+| [Types de partage de bande passante](bandwidth-sharing-types.md)   | répertorie les valeurs GUID et les constantes associées pour les types de partage de bande passante pris en charge par le kit de développement logiciel (SDK) Windows Media Format. |
+| [Types de catégorie de filigrane](watermark-category-types.md) | répertorie les valeurs GUID et les constantes associées qui identifient les DMO les catégories de filigranes.                                 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -48,9 +48,9 @@ Les sections suivantes répertorient les valeurs GUID utilisées dans le kit de 
 [**Guide de référence de programmation**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

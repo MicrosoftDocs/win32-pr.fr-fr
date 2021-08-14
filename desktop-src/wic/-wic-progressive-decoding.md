@@ -4,12 +4,12 @@ ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: Vue d’ensemble du décodage progressif
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 568b9708802b082a880f358b969d9dd4beb1e481
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a409a337ecd3852a50cb5ca1a410ebd32c7f3226c79aacca20b10733e214fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710040"
 ---
 # <a name="progressive-decoding-overview"></a>Vue d’ensemble du décodage progressif
 
@@ -19,7 +19,7 @@ Cette rubrique contient les sections suivantes.
 
 -   [Introduction](#introduction)
 -   [Qu’est-ce que le décodage progressif ?](#what-is-progressive-decoding)
--   [Prise en charge du décodage progressif dans Windows 7](#progressive-decoding-support-in-windows-7)
+-   [prise en charge du décodage progressif dans Windows 7](#progressive-decoding-support-in-windows-7)
 -   [Décodage progressif JPEG](#jpeg-progressive-decoding)
 -   [Décodage progressif PNG/GIF](#pnggif-progressive-decoding)
     -   [Décodage progressif PNG](#png-progressive-decoding)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Le décodage progressif permet de décoder et de restituer de façon incrémentielle des parties d’une image avant la fin du téléchargement de l’image entière. Cette fonctionnalité améliore considérablement l’expérience de l’utilisateur lors de l’affichage d’images à partir d’Internet, car l’utilisateur n’a pas besoin d’attendre que l’intégralité de l’image soit téléchargée avant de commencer le décodage. Les utilisateurs peuvent voir une image en préversion avec des données disponibles avant le téléchargement de l’image entière. Cette fonctionnalité est essentielle pour toute application utilisée pour afficher des images à partir d’Internet ou de sources de données avec une bande passante limitée.
 
-Le composant WIC (Windows Imaging Component) de Windows 7 prend en charge le décodage progressif des formats d’image courants tels que JPEG, PNG et GIF. WIC prend également en charge tous les codecs non Microsoft compatibles WIC qui implémentent le décodage progressif. L’encodage progressif n’est pas pris en charge dans la version actuelle de WIC. Cette rubrique décrit le décodage progressif dans Windows 7 et la procédure d’activation du décodage progressif dans vos applications.
+le composant WIC (Windows Imaging Component) de Windows 7 prend en charge le décodage progressif des formats d’image populaires tels que JPEG, PNG et GIF. WIC prend également en charge tous les codecs non Microsoft compatibles WIC qui implémentent le décodage progressif. L’encodage progressif n’est pas pris en charge dans la version actuelle de WIC. cette rubrique décrit le décodage progressif dans Windows 7 et la procédure d’activation du décodage progressif dans vos applications.
 
 ## <a name="what-is-progressive-decoding"></a>Qu’est-ce que le décodage progressif ?
 
@@ -44,11 +44,11 @@ Les images doivent être codées spécifiquement pour implémenter le décodage 
 -   Le fichier image doit être encodé sous la forme d’une image progressive. Les fichiers image qui n’ont pas été créés avec l’encodage d’image progressive ne peuvent pas implémenter le décodage progressif, même si le format de fichier le prendrait autrement en charge.
 -   Un codec qui prend en charge le décodage progressif doit être disponible. Si un codec ne prend pas en charge le décodage progressif, une image encodée en tant qu’image progressive est décodée comme une image traditionnelle.
 
-## <a name="progressive-decoding-support-in-windows-7"></a>Prise en charge du décodage progressif dans Windows 7
+## <a name="progressive-decoding-support-in-windows-7"></a>prise en charge du décodage progressif dans Windows 7
 
-Windows 7 fournit des codecs intégrés qui prennent en charge le décodage progressif pour les formats d’image JPEG, PNG et GIF. Chacun de ces codecs Windows 7 effectue plusieurs passes de décodage sur une image. Chaque passe correspond à un niveau particulier et à une partie de l’image qui est décodée, ce qui finit par aboutir à une image entièrement décodée.
+Windows 7 fournit des codecs intégrés qui prennent en charge le décodage progressif pour les formats d’image JPEG, PNG et GIF. chacun de ces codecs Windows 7 effectue plusieurs passes de décodage sur une image. Chaque passe correspond à un niveau particulier et à une partie de l’image qui est décodée, ce qui finit par aboutir à une image entièrement décodée.
 
-Chaque format d’image gère le décodage progressif d’une manière différente. Le tableau suivant fournit des informations sur le nombre de niveaux progressifs et la méthode de décodage prise en charge par les formats de décodage progressif de Windows 7. 
+Chaque format d’image gère le décodage progressif d’une manière différente. le tableau suivant fournit des informations sur le nombre de niveaux progressifs et la méthode de décodage prise en charge par les formats de décodage progressifs Windows 7. 
 
 | Format d'image | Nombre de niveaux progressifs pris en charge | Méthode de décodage progressif |
 |--------------|----------------------------------------|-----------------------------|
@@ -97,9 +97,9 @@ Les fichiers image PNG proposent sept niveaux progressifs pour le décodage, com
 
  
 
-Dans le tableau ci-dessus, vous pouvez déterminer les pixels qui seront décodés à chaque passe du décodeur. Contrairement au codec GIF de Windows 7, le codec PNG Windows 7 réplique le pixel le plus à gauche sur une ligne de numérisation pour remplir les pixels vides.
+Dans le tableau ci-dessus, vous pouvez déterminer les pixels qui seront décodés à chaque passe du décodeur. contrairement au codec GIF Windows 7, le codec PNG Windows 7 réplique le pixel le plus à gauche sur une ligne de numérisation pour remplir les pixels vides.
 
-Les images suivantes montrent un exemple de codec de décodage progressif PNG Windows 7 à trois niveaux progressifs.
+les images suivantes montrent un exemple du codec de décodage progressif PNG Windows 7 à trois niveaux progressifs.
 
 ![exemples de décodage progressif png](graphics/PNG_Progressive_Comparison.jpg)
 
@@ -120,7 +120,7 @@ Les fichiers image GIF fournissent quatre niveaux progressifs pour le décodage,
 
  
 
-Bien que les codecs puissent spécifier le contenu de pixels vides à un niveau particulier, le codec GIF Windows remplit les lignes d’analyse vides en répliquant les lignes de numérisation remplies au-dessus de la ligne de numérisation vide.
+bien que les codecs puissent spécifier le contenu de pixels vides à un niveau particulier, le codec GIF Windows remplit les lignes d’analyse vides en répliquant les lignes de numérisation remplies au-dessus de la ligne de numérisation vide.
 
 ## <a name="progressive-decoding-in-applications"></a>Décodage progressif dans les applications
 
@@ -176,7 +176,7 @@ Les développeurs de codec peuvent choisir d’implémenter le [**IWICProgressiv
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 **Autres ressources**

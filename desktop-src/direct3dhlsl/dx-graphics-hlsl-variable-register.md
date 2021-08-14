@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b378cd97bc9779951d62873d393009c98d32823
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0102716529471b3e867e17b0e9b635274cdfc28ec603f239d66c76ffb0fdaa19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104381986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983209"
 ---
 # <a name="register"></a>inscription
 
@@ -26,12 +26,12 @@ Mot clé facultatif pour l’affectation d’une variable de nuanceur à un regi
 
 
 
-| : Register ( *\[ \_ profil \] de nuanceur*, *type sous- \# \[ composant \]* ) |
+| : Register ( *\[ \_ profil \] de nuanceur*, *type sous- \# \[ composant \]* ) |
 |----------------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>Paramètres
 
@@ -70,14 +70,14 @@ Déclarer le type, le nombre et la déclaration de sous-composant.
 
     
 
-     
+     
 
 -   *\#* Numéro du Registre, qui est un nombre entier.
 -   Le sous- *composant* est un nombre entier facultatif.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous pouvez ajouter une ou plusieurs assignations de Registre à la même déclaration de variable, séparées par des espaces.
 
@@ -120,6 +120,6 @@ sampler myVar : register( ps, s[2] )
 [Variables (DirectX HLSL)](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

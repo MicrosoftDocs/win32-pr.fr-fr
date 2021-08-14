@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c90efe624346e30483c42f6f8ff51cd6d3550922
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f47fef5e1481d56671cd525061f1a5fcf88481213671bac45c923cfbae0ebbd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733689"
 ---
 # <a name="normalmenuitem-structure"></a>NORMALMENUITEM, structure
 
@@ -73,7 +73,7 @@ Chaîne Unicode terminée par le caractère null qui contient le texte de cet é
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il existe une structure **NORMALMENUITEM** pour chaque élément de menu qui n’ouvre pas un menu ou un sous-menu. Indiquez le dernier élément de menu d’un menu en affectant à **resInfo** membre la valeur **MFR \_ end**.
 
