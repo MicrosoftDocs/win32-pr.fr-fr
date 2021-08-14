@@ -4,12 +4,12 @@ description: Structure des codes d’erreur COM
 ms.assetid: 97e68708-eb62-4481-af03-cf8b80304103
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb27143f50028592f6fe0aeb5cab9795dcd10d4a
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 65953582952ce076028ffcf6652e46356c4cf2afacdd088d546c2fdaafd18a33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104564031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104020"
 ---
 # <a name="structure-of-com-error-codes"></a>Structure des codes d’erreur COM
 
@@ -34,7 +34,7 @@ Les champs d’installation courants sont décrits dans le tableau suivant.
 | NULL d’installation \_<br/>     | 0<br/> | Pour les codes d’État communs largement applicables tels que S \_ OK. <br/>                                                                                                                                                                                                                                                    |
 | RPC de l’installation \_<br/>      | 1<br/> | Pour les codes d’État retournés par les appels de procédure distante. <br/>                                                                                                                                                                                                                                                       |
 | stockage des installations \_<br/>  | 3<br/> | Pour les codes d’État renvoyés par les appels de méthode [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) ou [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) relatifs au stockage structuré. Les codes d’État dont la valeur code (16 bits inférieurs) se trouvent dans la plage de codes d’erreur MS-DOS (autrement dit, inférieure à 256) ont la même signification que l’erreur MS-DOS correspondante. <br/> |
-| INSTALLATION de \_ Win32<br/>    | 7<br/> | Utilisé pour fournir un moyen de gérer les codes d’erreur des fonctions dans l’API Windows comme **HRESULT**. Les codes d’erreur dans OLE 16 bits qui dupliquaient les codes d’erreur système ont également été modifiés pour installer \_ Win32. <br/>                                                                                                 |
+| INSTALLATION de \_ Win32<br/>    | 7<br/> | utilisé pour fournir un moyen de gérer les codes d’erreur des fonctions dans l’API Windows en tant que **HRESULT**. Les codes d’erreur dans OLE 16 bits qui dupliquaient les codes d’erreur système ont également été modifiés pour installer \_ Win32. <br/>                                                                                                 |
 | fenêtres d’installation \_<br/>  | 8<br/> | Utilisé pour les codes d’erreur supplémentaires des interfaces définies par Microsoft.<br/>                                                                                                                                                                                                                                            |
 
 
@@ -56,7 +56,7 @@ Les codes d’erreur sont définis dans le contexte d’une implémentation d’
 [Gestion des erreurs dans COM](error-handling-in-com.md)
 </dt> <dt>
 
-[Protocoles Windows : HRESULT](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a)
+[Windows Protocoles : HRESULT](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a)
 </dt> </dl>
 
  

@@ -5,16 +5,16 @@ title: API DeviceTopology
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 472c02cd59ca0cadd922cbe398a768c97cfab73a
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 3b79def9f1cb1f5ec9342074b813e50993cbc37e7a7af2a9e0b577c730156247
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106538369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406754"
 ---
 # <a name="devicetopology-api"></a>API DeviceTopology
 
-Reportez-vous à l' [exemple de capture de voix haute qualité Microsoft DMO](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/audio/aecmicarray).
+consultez l' [exemple DMO de capture vocale de haute qualité de Microsoft](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/audio/aecmicarray).
 
 L’API DeviceTopology fournit aux applications clientes la possibilité de traverser les topologies de matériel fonctionnelle des appareils de rendu et de capture audio. Via les interfaces et les méthodes de l’API DeviceTopology, les clients peuvent découvrir les sous-unités fonctionnelles (par exemple, le contrôle du volume) qui se trouvent le long des chemins de données qui mènent à et à partir des [périphériques de point de terminaison audio](audio-endpoint-devices.md). Les clients peuvent traverser les topologies internes des périphériques de carte audio et des périphériques de point de terminaison audio, et effectuer un pas à pas détaillé sur les connexions qui lient un appareil à un autre. Pour plus d’informations, consultez [topologies d’appareils](device-topologies.md).
 

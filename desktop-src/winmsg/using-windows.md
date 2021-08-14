@@ -4,21 +4,21 @@ ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: Utilisation de Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54bebe537f82de65efddc086ee457e1abe47a617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75681987a4bc012618135f666b3ff973880b8129d2ad1ee896bcdbed266d179d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103867989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436965"
 ---
 # <a name="using-windows"></a>Utilisation de Windows
 
 Les exemples de cette section décrivent comment effectuer les tâches suivantes :
 
 -   [Création d’une fenêtre principale](#creating-a-main-window)
--   [Création, énumération et dimensionnement des fenêtres enfants](#creating-enumerating-and-sizing-child-windows)
+-   [Création, énumération et dimensionnement des Windows enfants](#creating-enumerating-and-sizing-child-windows)
 -   [Destruction d’une fenêtre](#destroying-a-window)
--   [Utilisation des fenêtres superposées](#using-layered-windows)
+-   [Utilisation de Windows en couches](#using-layered-windows)
 
 ## <a name="creating-a-main-window"></a>Création d’une fenêtre principale
 
@@ -66,7 +66,7 @@ UpdateWindow(hwndMain);
 
 Notez que l’exemple précédent appelle la fonction [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) après la création de la fenêtre principale. Cela est dû au fait que le système n’affiche pas automatiquement la fenêtre principale après l’avoir créée. En passant l’indicateur **SW \_ SHOWDEFAULT** à **ShowWindow**, l’application autorise le programme qui a démarré l’application à définir l’état d’affichage initial de la fenêtre principale. La fonction [**UpdateWindow**](/windows/win32/api/winuser/nf-winuser-updatewindow) envoie la fenêtre à son premier message [**WM \_ Paint**](../gdi/wm-paint.md) .
 
-## <a name="creating-enumerating-and-sizing-child-windows"></a>Création, énumération et dimensionnement des fenêtres enfants
+## <a name="creating-enumerating-and-sizing-child-windows"></a>Création, énumération et dimensionnement des Windows enfants
 
 Vous pouvez diviser la zone cliente d’une fenêtre en différentes zones fonctionnelles à l’aide de fenêtres enfants. La création d’une fenêtre enfant est semblable à la création d’une fenêtre principale : vous utilisez la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Pour créer une fenêtre d’une classe de fenêtre définie par l’application, vous devez inscrire la classe de fenêtre et fournir une procédure de fenêtre avant de créer la fenêtre enfant. Vous devez attribuer à la fenêtre enfant le style [**WS \_ Child**](window-styles.md) et spécifier une fenêtre parente pour la fenêtre enfant lorsque vous la créez.
 
@@ -187,7 +187,7 @@ case WM_DESTROY:
 
 
 
-## <a name="using-layered-windows"></a>Utilisation des fenêtres superposées
+## <a name="using-layered-windows"></a>Utilisation de Windows en couches
 
 Pour qu’une boîte de dialogue s’impose en tant que fenêtre translucide, commencez par créer la boîte de dialogue comme d’habitude. Ensuite, sur [**WM \_ INITDIALOG**](../dlgbox/wm-initdialog.md), définissez le bit de couche du style étendu de la fenêtre et appelez [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) avec la valeur alpha souhaitée. Le code peut se présenter comme suit :
 
@@ -224,7 +224,7 @@ RedrawWindow(hwnd,
 
 
 
-Pour pouvoir utiliser des fenêtres enfants superposées, l’application doit déclarer elle-même Windows 8 dans le manifeste.
+pour pouvoir utiliser des fenêtres enfants superposées, l’application doit déclarer elle-même Windows 8 prise en charge dans le manifeste.
 
  
 

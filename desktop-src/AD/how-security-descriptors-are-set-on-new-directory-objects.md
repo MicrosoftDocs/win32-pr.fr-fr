@@ -8,12 +8,12 @@ keywords:
 - descripteurs de sécurité Active Directory, comment définir sur de nouveaux objets d’annuaire
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7858d08944e93165b4a1a63ef7d845ee646dc648
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c5d2009367c4d5604d359913b0154320332cd4be58e50dc5f065c574f8ea5fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188110"
 ---
 # <a name="how-security-descriptors-are-set-on-new-directory-objects"></a>Définition des descripteurs de sécurité sur les nouveaux objets d’annuaire
 
@@ -21,7 +21,7 @@ Lorsque vous créez un objet dans Active Directory Domain Services, vous pouvez 
 
 Active Directory Domain Services Utilisez les règles suivantes pour définir la liste DACL dans le descripteur de sécurité du nouvel objet :
 
--   Si vous spécifiez explicitement un descripteur de sécurité lorsque vous créez l’objet, le système fusionne toutes les entrées de contrôle d’accès héritées de l’objet parent dans la liste DACL spécifiée, sauf si le bit **\_ \_ protégé par la liste** de contrôle d’accès discrétionnaire est défini dans les bits de contrôle du descripteur de sécurité.
+-   si vous spécifiez explicitement un descripteur de sécurité lorsque vous créez l’objet, le système fusionne toutes les entrées de contrôle d’accès (ace) pouvant être héritées de l’objet parent dans la liste dacl spécifiée, sauf si le bit **\_ \_ protégé dacl SE** est défini dans les bits de contrôle du descripteur de sécurité.
 -   Si vous ne spécifiez pas de descripteur de sécurité, le système génère la liste DACL de l’objet en fusionnant toutes les ACE pouvant être héritées de l’objet parent dans la liste DACL par défaut de l’objet **classSchema** pour la classe de l’objet.
 -   Si le schéma n’a pas de DACL par défaut, la liste DACL de l’objet est la DACL par défaut du jeton principal ou d’emprunt d’identité du créateur.
 -   S’il n’existe pas d’ACL spécifiée, héritée ou par défaut, le système crée l’objet sans DACL, ce qui permet à tout le monde d’accéder entièrement à l’objet.
@@ -39,7 +39,7 @@ Le propriétaire et le groupe principal du descripteur de sécurité du nouvel o
 
 
 
- 
+ 
 
 Pour plus d’informations sur l’héritage des entrées du contrôle d’accès, consultez [héritage et délégation de l’administration](inheritance-and-delegation-of-administration.md).
 
@@ -47,6 +47,6 @@ Pour plus d’informations sur les descripteurs de sécurité par défaut dans l
 
 Pour plus d’informations sur les objets **classSchema** , consultez [Active Directory schéma](active-directory-schema.md).
 
- 
+ 
 
- 
+ 

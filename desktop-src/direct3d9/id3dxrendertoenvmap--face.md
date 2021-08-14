@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 452933c0d85a7aad2987011796ff47eff41dc32b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1190e033f9aa83b13f327fcb8a8b530be17132bfd330c9be6b9cc6d87d5e35a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103762344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118801218"
 ---
 # <a name="id3dxrendertoenvmapface-method"></a>ID3DXRenderToEnvMap :: face, méthode
 
@@ -65,7 +65,7 @@ Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).
 
 Si la méthode est réussie, la valeur de retour est D3D \_ OK. Si la méthode échoue, la valeur de retour peut être D3DERR \_ INVALIDCALL.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée une fois pour chaque type de carte d’environnement. La seule exception est un mappage d’environnement cubique qui requiert que cette méthode soit appelée six fois, une fois pour chaque visage dans des \_ visages D3DCUBEMAP. Pour plus d’informations, consultez [mappage d’environnement (Direct3D 9)](environment-mapping.md).
 

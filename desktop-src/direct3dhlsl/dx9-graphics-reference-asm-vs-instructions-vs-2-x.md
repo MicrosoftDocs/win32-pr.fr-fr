@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9997e26625005abd0f2e38ab885b95b8f8febd0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 579e52349031545fd540a98c7ea12876ae0700f725ea81ee05ac0fed65b09a1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512275"
 ---
 # <a name="instructions---vs_2_x"></a>Instructions-vs \_ 2 \_ x
 
@@ -25,14 +25,14 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 -   Emplacements d’instruction : nombre d’emplacements d’instruction utilisés par chaque instruction.
 -   Configuration-instructions non arithmétiques. Chaque nuanceur doit avoir une instruction de version et doit être la première instruction.
 -   Arithmétique : ces instructions fournissent les opérations mathématiques dans un nuanceur.
--   Contrôle de flow : ces instructions ajoutent des fonctionnalités de contrôle de Flow, telles que [Loop-vs](loop---vs.md)... [ENDLOOP-vs](endloop---vs.md), [si bool-vs](if-bool---vs.md)... [sinon](else---vs.md)... [endif](endif---vs.md)et les appels de sous-routine.
+-   contrôle de Flow : ces instructions ajoutent des fonctionnalités de contrôle de Flow, telles que [loop-vs](loop---vs.md)... [ENDLOOP-vs](endloop---vs.md), [si bool-vs](if-bool---vs.md)... [sinon](else---vs.md)... [endif](endif---vs.md)et les appels de sous-routine.
 -   Nouveauté : ces instructions sont nouvelles dans cette version.
 
 ## <a name="instruction-set"></a>Jeu d'instructions
 
 
 
-| Nom                                                                           | Description                                                                                                                                                            | Emplacements des instructions | Programme d’installation | Arithmétique | Contrôle de flux | Nouveau |
+| Nom                                                                           | Description                                                                                                                                                            | Emplacements des instructions | Installation | Arithmétique | Contrôle de flux | Nouveau |
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-------|------------|--------------|-----|
 | [ABS-vs](abs---vs.md)                                                       | Valeur absolue                                                                                                                                                         | 1                 |       | x          |              |     |
 | [Ajouter-vs](add---vs.md)                                                       | Ajouter deux vecteurs                                                                                                                                                        | 1                 |       | x          |              |     |
@@ -72,7 +72,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [m4x3-vs](m4x3---vs.md)                                                     | 4x3 multiplier                                                                                                                                                           | 3                 |       | x          |              |     |
 | [M4X4-vs](m4x4---vs.md)                                                     | 4 x 4                                                                                                                                                           | 4                 |       | x          |              |     |
 | [Mad-vs](mad---vs.md)                                                       | Multiplier et ajouter                                                                                                                                                       | 1                 |       | x          |              |     |
-| [Max-vs](max---vs.md)                                                       | Maximale                                                                                                                                                                | 1                 |       | x          |              |     |
+| [Max-vs](max---vs.md)                                                       | Maximum                                                                                                                                                                | 1                 |       | x          |              |     |
 | [min-vs](min---vs.md)                                                       | Minimum                                                                                                                                                                | 1                 |       | x          |              |     |
 | [MOV-vs](mov---vs.md)                                                       | Déplacer                                                                                                                                                                   | 1                 |       | x          |              |     |
 | [Mova-vs](mova---vs.md)                                                     | Déplacer des données à partir d’un registre à virgule flottante vers le registre d’adresses (a0)                                                                                                  | 1                 |       | x          |              |     |
@@ -86,7 +86,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 | [rsq-vs](rsq---vs.md)                                                       | Racine carrée réciproque                                                                                                                                                 | 1                 |       | x          |              |     |
 | [\_COMP setp-vs](setp-comp---vs.md)                                          | Définir le registre de prédicat                                                                                                                                             | 1                 |       |            | x            | x   |
 | [SGE-vs](sge---vs.md)                                                       | Comparaison supérieur ou égal à                                                                                                                                          | 1                 |       | x          |              |     |
-| [SGN-vs](sgn---vs.md)                                                       | Sign (Signer)                                                                                                                                                                   | 3                 |       | x          |              |     |
+| [SGN-vs](sgn---vs.md)                                                       | Signer                                                                                                                                                                   | 3                 |       | x          |              |     |
 | [SinCos,-vs](sincos---vs.md)                                                 | Sinus et cosinus                                                                                                                                                        | 8                 |       | x          |              |     |
 | [des SLT-vs](slt---vs.md)                                                       | Inférieur à compare                                                                                                                                                      | 1                 |       | x          |              |     |
 | [sous-vs](sub---vs.md)                                                       | Soustraire                                                                                                                                                               | 1                 |       | x          |              |     |
@@ -94,7 +94,7 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -103,9 +103,9 @@ Il existe plusieurs types d’instructions de nuanceur de sommets, comme indiqu�
 [Instructions du nuanceur de sommets](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

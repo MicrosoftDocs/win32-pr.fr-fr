@@ -4,12 +4,12 @@ description: Cette section décrit les considérations relatives au transfert de
 ms.assetid: 9fba2013-17a3-499c-80dc-627e89c0edaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fc42e31f3c971c704d18f04a961fb6bd40eb91d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c1274327b53630058779bc3913ce4466394c4c4fa37ba78528d122b8d68e376e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435297"
 ---
 # <a name="sendmessage-postmessage-and-related-functions"></a>SendMessage, PostMessage et fonctions connexes
 
@@ -22,7 +22,7 @@ Une application qui reçoit des messages tactiles transmis via l’un de ces mé
 > [!Note]  
 > Les messages tactiles sont soumis aux règles de l’isolation des privilèges de l’interface utilisateur (UIPI) normales lorsqu’ils sont transférés.
 
- 
+ 
 
 ## <a name="functions-related-to-sendmessage-and-postmessage"></a>Fonctions liées à SendMessage et PostMessage
 
@@ -45,6 +45,6 @@ Les fonctions suivantes peuvent affecter l’état du handle d’entrée tactile
 [DefWindowProc](/windows/win32/api/winuser/nf-winuser-defwindowproca)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

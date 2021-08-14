@@ -4,20 +4,20 @@ ms.assetid: 18290d05-b114-476b-8365-6bbb5fe6cffc
 title: Fournir un comportement de canard personnalisé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b4051dc7b79f698f10d007beaafa97e90d79f3b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 72cf4bb254b97a6a9d6b5c9d415d48a2c95f528f20efbf2ffbe4782ae5980400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406367"
 ---
 # <a name="providing-a-custom-ducking-behavior"></a>Fournir un comportement de canard personnalisé
 
 Une application peut refuser l’expérience de l' [utilisation des canards par défaut](stream-attenuation.md) gérée par le système et la remplacer par une implémentation personnalisée.
 
-Une application peut fournir une expérience de canard personnalisée. Par exemple, le lecteur Windows Media offre sa propre expérience en matière de mise en suspens en suspendant le flux multimédia actuel pendant une session de communication et en reprenant la lecture lorsque la session est fermée. Un exemple d’application multimédia qui implémente un canard est inclus dans SDK Windows exemples ; Pour plus d’informations, consultez [DuckingMediaPlayer](duckingmediaplayer.md). Pour simuler l’expérience de l’ouverture et de la fermeture des flux de communication et la génération d’événements de canard, consultez [DuckingCaptureSample](duckingcapturesample.md), qui est également inclus avec SDK Windows exemples.
+Une application peut fournir une expérience de canard personnalisée. par exemple, Lecteur Windows Media fournit sa propre expérience en matière de mise en suspens en suspendant le flux multimédia actuel pendant une session de communication et en reprenant la lecture lorsque la session est fermée. un exemple d’application multimédia qui implémente un canard est inclus dans SDK Windows exemples ; Pour plus d’informations, consultez [DuckingMediaPlayer](duckingmediaplayer.md). pour simuler l’expérience de l’ouverture et de la fermeture des flux de communication et la génération d’événements de canard, consultez [DuckingCaptureSample](duckingcapturesample.md), qui est également inclus avec SDK Windows exemples.
 
-Une application multimédia qui lit des sons à atténuer doit être consciente des flux de communication, lorsqu’ils sont ouverts et fermés dans le système. L’implémentation personnalisée peut être fournie à l’aide de MediaFoundation, DirectShow ou DirectSound, qui utilisent les API audio de base. Un client direct WASAPI peut également remplacer la gestion par défaut s’il sait à quel moment la session de communication démarre et se termine.
+Une application multimédia qui lit des sons à atténuer doit être consciente des flux de communication, lorsqu’ils sont ouverts et fermés dans le système. l’implémentation personnalisée peut être fournie à l’aide de MediaFoundation, DirectShow ou DirectSound, qui utilisent les api Audio de base. Un client direct WASAPI peut également remplacer la gestion par défaut s’il sait à quel moment la session de communication démarre et se termine.
 
 **Pour fournir une expérience de canard personnalisée, un client WASAPI doit effectuer les tâches suivantes :**
 

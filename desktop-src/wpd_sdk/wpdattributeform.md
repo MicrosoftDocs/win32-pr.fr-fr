@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 4c70f68dc04adcb454fcc7c5ae301f0dabf60c28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8366f90fe41eaa92d826f4d761fe8cdf58304f54e1f57cb074ae94d6fd9f1ea9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696277"
 ---
 # <a name="wpdattributeform-enumeration"></a>Énumération WpdAttributeForm
 
@@ -78,7 +78,7 @@ La valeur de propriété représente un identificateur d’objet.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette énumération est utilisée par la propriété de [ \_ formulaire d' \_ attribut \_ de propriété wpd](attributes.md) pour décrire le mode de stockage des données d’une propriété.
 

@@ -29,12 +29,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ce11df170b8b0a0a9a3f58a625955cecb41973
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c508dd3007db9da47d8680b67d210d5e541351cdab7078e1ee6447b078638c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352273"
 ---
 # <a name="imsrdpclientadvancedsettings6hotkeyfocusreleaseright-property"></a>IMsRdpClientAdvancedSettings6 :: HotKeyFocusReleaseRight, propriété
 
@@ -61,7 +61,7 @@ HRESULT get_HotKeyFocusReleaseRight(
 
 Nouveau code de la clé virtuelle.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette propriété est uniquement prise en charge par les clients Connexion Bureau à distance 6,1 et 7,0.
 

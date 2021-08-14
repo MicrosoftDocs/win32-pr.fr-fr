@@ -3,7 +3,7 @@ title: Message LVM_GETEMPTYTEXT (commctrl. h)
 description: Obtient le texte à afficher lorsque le contrôle de liste s’affiche vide. Envoyez ce message explicitement ou à l’aide de la \_ macro ListView GetEmptyText.
 ms.assetid: aa6cb0ae-0c6c-42b7-80c5-c086c9579c81
 keywords:
-- LVM_GETEMPTYTEXT les contrôles de message Windows
+- LVM_GETEMPTYTEXT les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7549081ef7f158a6a6a061bcee9669ea62d52f68
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b9dd1dc1df7b0a558adda37938849b5383bbfee304d807a22a329e4f7301889b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411468"
 ---
 # <a name="lvm_getemptytext-message"></a>\_Message GETEMPTYTEXT LVM
 
@@ -53,8 +53,8 @@ Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contra
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: Gestion des durées de vie des objets via le décompte de référen
 ms.assetid: 7f9da5a9-0435-431c-8f90-56e2e489c431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aac184baea9198721e6cdf9c0444a8c6431db08
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 292f2c75352eef5680eb9a4d8367f76f88c19138dd834b71068740bee18f2315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "106510251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310559"
 ---
 # <a name="managing-object-lifetimes-through-reference-counting"></a>Gestion des durées de vie des objets via le décompte de références
 
@@ -39,9 +39,9 @@ Pour plus d'informations, voir les rubriques suivantes :
 [Utilisation et implémentation de IUnknown](using-and-implementing-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 64e828b52a4d4517e53ba1f1aaf0f687255ad02b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5416dab57fc77f7b664518afcb0f4623875fd2a660f7d1aff82ab42f2c297b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513793"
 ---
 # <a name="smoothstep"></a>smoothstep
 
@@ -51,7 +51,7 @@ Retourne une interpolation Smooth Hermite entre 0 et 1, si *x* est dans la plage
 
 Retourne 0 si *x* est inférieur à *min*; 1 si *x* est supérieur à *Max*; Sinon, une valeur comprise entre 0 et 1 si *x* est comprise dans la plage \[ *min*, *Max* \] .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez la fonction intrinsèque **SmoothStep** HLSL pour créer une transition lisse entre deux valeurs. Par exemple, vous pouvez utiliser cette fonction pour fusionner deux couleurs en douceur.
 
@@ -76,9 +76,9 @@ Cette fonction est prise en charge dans les modèles de nuanceur suivants.
 
 
 
-| Modèle de nuanceur                                                                       | Prise en charge           |
+| Modèle de nuanceur                                                                       | Pris en charge           |
 |------------------------------------------------------------------------------------|---------------------|
-| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | Oui                 |
+| [Nuancier modèle 2 (DirectX HLSL)](dx-graphics-hlsl-sm2.md) et modèles de nuanceur plus élevés | oui                 |
 | [Shader Model 1 (DirectX HLSL)](dx-graphics-hlsl-sm1.md)                          | Oui (vs \_ 1 \_ 1 uniquement) |
 
 

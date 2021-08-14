@@ -3,7 +3,7 @@ title: Message PBM_SETMARQUEE (commctrl. h)
 description: Définit la barre de progression en mode texte défilant. La barre de progression se déplace alors comme un texte défilant.
 ms.assetid: 6501bcb9-a711-470f-874f-f3484d3613b6
 keywords:
-- PBM_SETMARQUEE les contrôles de message Windows
+- PBM_SETMARQUEE les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9229291113f034924cf9ce8112c0e99376d37932
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f724f87faa6e989fddb17e8d6fb3b115dd04859ea426addb7d4c0b893aff407a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986139"
 ---
 # <a name="pbm_setmarquee-message"></a>\_Message PBM SETMARQUEE
 
@@ -43,7 +43,7 @@ Indique s’il faut activer ou désactiver le mode texte défilant.
 
 Retourne toujours la **valeur true**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Utilisez ce message lorsque vous ne connaissez pas la progression vers l’achèvement, mais que vous souhaitez indiquer la progression.
 
@@ -65,8 +65,8 @@ Envoyez le message **PBM \_ SETMARQUEE** pour démarrer ou arrêter l’animatio
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

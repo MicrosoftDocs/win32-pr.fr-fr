@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: a9ce0ff776588c06b8fddc34240e9c2170ceca69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 153d1a5768791a33fd4f7629e071a125a4ee2ee46feaae366e2c1a21d8118f01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103864797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367387"
 ---
 # <a name="compareframedestaddress-function"></a>CompareFrameDestAddress fonction)
 
@@ -60,7 +60,7 @@ Si les adresses sont identiques, la valeur de retour est **true**.
 
 Si les adresses ne sont pas les mêmes, la valeur de retour est **false**.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour que la fonction **CompareFrameDestAddress** retourne correctement, le type d’adresse de destination doit correspondre au type d’adresse spécifié dans le paramètre *lpAddress* .
 

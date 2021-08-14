@@ -3,7 +3,7 @@ title: RBN_CHEVRONPUSHED le code de notification (commctrl. h)
 description: Envoyé par un contrôle rebar lorsqu’un chevron fait l’objet d’un push. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: 58aa2c9d-8ab6-46ee-b32f-5c04fb7afa84
 keywords:
-- Contrôles Windows de code de notification RBN_CHEVRONPUSHED
+- RBN_CHEVRONPUSHED les contrôles de Windows de code de notification
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab28d992b6d4a617b7aa7ee144eb50aef3b0e834
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3f5f8d52558251524e9d978c52ae703565a9641febdd53190925cfb8b127160
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985319"
 ---
 # <a name="rbn_chevronpushed-notification-code"></a>\_Code de notification RBN CHEVRONPUSHED
 
@@ -49,7 +49,7 @@ Pointeur vers la structure [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-c
 
 La valeur de retour de cette notification n’est pas utilisée.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsqu’une application reçoit ce code de notification, il est chargé d’afficher un menu contextuel contenant des éléments pour chaque outil masqué. Utilisez le membre **RC** de la structure [**NMREBARCHEVRON**](/windows/win32/api/commctrl/ns-commctrl-nmrebarchevron) pour rechercher la position correcte du menu contextuel.
 
@@ -59,8 +59,8 @@ Lorsqu’une application reçoit ce code de notification, il est chargé d’aff
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

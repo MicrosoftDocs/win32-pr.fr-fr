@@ -9,12 +9,12 @@ keywords:
 - Référence MCIWnd, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76333f38a5dec3edaadcae69777703ebea61296f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03249d5e0f0a0f4fef8110d878021437f7aee667085a0720a86de77c8cbdfe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374358"
 ---
 # <a name="mciwnd-reference"></a>Référence MCIWnd
 
@@ -127,7 +127,7 @@ Cette section décrit les fonctions, les messages et les macros associés à la 
 -   [**MCIWndCanSave**](/windows/desktop/api/Vfw/nf-vfw-mciwndcansave)
 -   [**MCIWndCanWindow**](/windows/desktop/api/Vfw/nf-vfw-mciwndcanwindow)
 
-## <a name="mci-device-settings"></a>Paramètres du périphérique MCI
+## <a name="mci-device-settings"></a>Paramètres de l’appareil MCI
 
 -   [**MCIWndGetAlias**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetalias)
 -   [**MCIWndGetDevice**](/windows/desktop/api/Vfw/nf-vfw-mciwndgetdevice)
@@ -147,9 +147,9 @@ Cette section décrit les fonctions, les messages et les macros associés à la 
 [Classe de fenêtre MCIWnd](mciwnd-window-class.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

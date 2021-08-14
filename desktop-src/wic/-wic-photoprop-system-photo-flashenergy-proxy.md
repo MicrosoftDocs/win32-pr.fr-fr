@@ -4,12 +4,12 @@ ms.assetid: edcd9757-19a6-4398-8600-06ffc72559e9
 title: Proxy System. photo. FlashEnergy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e43c2270e1a8da72986dc3f01d4aa9871b26b558
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0f91db8408d542c0f660a4e018b1dfb28e45fdcbc9cd007c8362f604f047124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106520019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205276"
 ---
 # <a name="systemphotoflashenergy-proxy"></a>Proxy System. photo. FlashEnergy
 
@@ -19,7 +19,7 @@ Proxy de propriété pour la stratégie de métadonnées de photo System. photo.
 
 Le proxy de propriété retourne une paire rationnelle a par le biais du membre [PROPVARIANT](/windows/win32/api/propidlbase/ns-propidlbase-propvariant) uhVal.
 
-### <a name="containers"></a>Conteneurs
+### <a name="containers"></a>Containers
 
 JPEG, TIFF
 

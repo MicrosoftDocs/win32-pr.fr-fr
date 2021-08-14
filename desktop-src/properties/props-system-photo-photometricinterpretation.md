@@ -4,12 +4,12 @@ ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
 title: System. photo. PhotometricInterpretation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f6b431470780def946dbb8958e9e3eb6698322
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e1a39928483b5d60f8d5dec35af27ab231da81dd8a1b6443a7b82e53deddf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228119"
 ---
 # <a name="systemphotophotometricinterpretation"></a>System. photo. PhotometricInterpretation
 
@@ -69,11 +69,11 @@ propertyDescription
             defineName = PHOTO_PHOTOMETRIC_YCBCR
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 
-La valeur par défaut de l' `isInnate` attribut de l’élément **TypeInfo** est passée de **false** à celle de Windows Vista avec Service Pack 1 (SP1). 
+la valeur par défaut de l' `isInnate` attribut de l’élément **typeInfo** a été remplacée **par la** valeur **true** à partir de Windows Vista avec Service Pack 1 (SP1).
 
 ## <a name="related-topics"></a>Rubriques connexes
 

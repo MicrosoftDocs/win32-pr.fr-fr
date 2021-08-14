@@ -4,17 +4,17 @@ description: Avec un lien, les utilisateurs peuvent accéder à une autre page, 
 ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 161313008612d04b5009942f82f662888d1ffd35
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 985e266428a57bae88cf30090bff97f45787faa1a116993958086547339d465c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118040098"
 ---
 # <a name="links"></a>Liens
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec un *lien*, les utilisateurs peuvent accéder à une autre page, fenêtre ou rubrique d’aide. afficher une définition ; lancer une commande ; ou choisissez une option. Un lien est un texte ou un graphique qui indique qu’il est possible de cliquer, généralement en s’affichant à l’aide des [couleurs système du lien](vis-color.md)visité ou non visité. Traditionnellement, les liens sont également soulignés, mais cette approche est souvent inutile et ne présente pas de privilège pour réduire l’encombrement visuel.
 
@@ -156,7 +156,7 @@ Les liens possèdent également plusieurs modèles de présentation :
 
 ### <a name="text-with-icon-links"></a>Texte avec liens d’icône
 
--   **Utilisez l’icône de flèche uniquement pour les liens de commande.** Les liens habituels ne doivent pas utiliser l’icône en forme de flèche, sauf s’ils sont utilisés comme substituts des [liens de commande](ctrl-command-links.md) dans Windows XP.
+-   **Utilisez l’icône de flèche uniquement pour les liens de commande.** les liens habituels ne doivent pas utiliser l’icône en forme de flèche, sauf s’ils sont utilisés comme substituts des [liens de commande](ctrl-command-links.md) dans Windows XP.
 -   **Placez l’icône à gauche du texte.** L’icône doit mener dans le texte visuellement.
 
 **Correct :**
@@ -227,7 +227,7 @@ Dans l’exemple incorrect, l’icône ne mène pas au texte.
 
     ![capture d’écran de la boîte de dialogue avec commande de menu grisée ](images/ctrl-links-image15.png)
 
-    Dans cet exemple de Windows Update, une mise à jour est en cours d’exécution, la commande Rechercher les mises à jour est donc désactivée et non supprimée.
+    dans cet exemple de Windows Update, une mise à jour est en cours d’exécution, la commande rechercher les mises à jour est donc désactivée et non supprimée.
 
 ### <a name="link-infotips"></a>Lier info-bulles
 
@@ -249,7 +249,7 @@ Dans l’exemple incorrect, l’icône ne mène pas au texte.
 
     Dans cet exemple, l’info-bulle risque de gêner les utilisateurs.
 
-## <a name="text"></a>Text
+## <a name="text"></a>Texte
 
 -   N’attribuez pas de [clé d’accès](glossary.md). Les liens sont accessibles à l’aide de la touche Tab.
 -   **Utilisez des liens qui fournissent des informations descriptives spécifiques sur le résultat d’un clic sur le lien**, en utilisant autant de texte que nécessaire. Le texte du lien doit indiquer le résultat d’un clic sur le lien. **Les utilisateurs doivent être en mesure de prédire avec précision le résultat d’un lien à partir de son texte de lien et d’une info-bulle facultative.**
@@ -342,7 +342,7 @@ Dans l’exemple incorrect, l’icône ne mène pas au texte.
 
     Dans cet exemple, la page... lien de commande affiche une boîte de dialogue Imprimer pour obtenir plus d’informations.
 
-    Impression
+    Imprimer
 
     En revanche, dans cet exemple, un lien de commande d’impression imprime une seule copie d’un document sur l’imprimante par défaut sans intervention supplémentaire de l’utilisateur.
 

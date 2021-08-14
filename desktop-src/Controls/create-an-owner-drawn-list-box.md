@@ -4,12 +4,12 @@ description: Cette rubrique montre comment implémenter une zone de liste owner-
 ms.assetid: AE6E8943-DC03-4A21-9F0A-9C70C6BD7481
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81b48a56ca188fb2c277cc822dcb9a343205a331
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 2994c88aec9f3c11ae856136103cf3327d53a2b72c5b2e8903e187ece01bf0f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103941504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413197"
 ---
 # <a name="how-to-create-an-owner-drawn-list-box"></a>Comment créer une zone de liste Owner-Drawn
 
@@ -19,16 +19,16 @@ L’exemple de code C++ de cette rubrique montre comment dessiner une zone de li
 
 La zone de liste présente les styles [**\_ HASSTRINGS**](list-box-styles.md) [**\_ OWNERDRAWFIXED**](list-box-styles.md) et lbs, en plus des styles de zone de liste standard.
 
-## <a name="what-you-need-to-know"></a>Ce que vous devez savoir
+## <a name="what-you-need-to-know"></a>Bon à savoir
 
 ### <a name="technologies"></a>Technologies
 
--   [Contrôles Windows](window-controls.md)
+-   [Windows Commandes](window-controls.md)
 
 ### <a name="prerequisites"></a>Prérequis
 
 -   C/C++
--   Programmation de l’interface utilisateur Windows
+-   Windows Programmation de l’interface utilisateur
 
 ## <a name="instructions"></a>Instructions
 

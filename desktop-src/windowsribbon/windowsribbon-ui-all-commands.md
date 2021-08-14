@@ -12,18 +12,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cce287d6ee03734ecbb0dd84e020ec542a83f04b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24767f2d3839b94ee83c6a9a527b2e80dcf8c1960e877f65a0e7e96fff4e3ec4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106511936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705958"
 ---
 # <a name="ui_all_commands"></a>interface utilisateur \_ toutes les \_ commandes
 
 Spécifie une constante qui identifie la collection de commandes déclarée dans le fichier de ressources de balisage.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 **Interface utilisateur \_ Toutes les \_ commandes** sont utiles lorsqu’il est nécessaire d’accéder à des propriétés similaires dans toutes les commandes. Par exemple, **l’interface utilisateur \_ peut être \_** passée à [**IUIFramework :: InvalidateUICommand**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-invalidateuicommand) pour invalider et actualiser toutes les commandes de ruban en interrogeant l’application hôte à la recherche de nouvelles valeurs de propriété.
 
@@ -33,8 +33,8 @@ Spécifie une constante qui identifie la collection de commandes déclarée dans
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Vista \[ uniquement\]<br/>                          |
-| Serveur minimal pris en charge<br/> | Windows Server 2008 R2, Windows Server 2008 avec SP2 et mise à jour de plateforme pour les applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows 7, Windows Vista avec SP2 et la mise à jour de la plateforme pour les applications de bureau Windows vista \[ uniquement\]<br/>                          |
+| Serveur minimal pris en charge<br/> | Windows server 2008 R2, Windows server 2008 avec SP2 et mise à jour de la plateforme pour les applications de bureau Windows Server 2008 \[\]<br/> |
 | En-tête<br/>                   | <dl> <dt>UIRibbon. h</dt> </dl>                                             |
 | MIDL<br/>                      | <dl> <dt>UIRibbon. idl</dt> </dl>                                           |
 

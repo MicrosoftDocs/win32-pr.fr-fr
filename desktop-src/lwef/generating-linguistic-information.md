@@ -4,12 +4,12 @@ description: Génération d’informations linguistiques
 ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23fb99a5139e287e07e353791ce776b8a04dd8d2
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: a068153863236b7096b67a976bbcf0654af9c75df87d2f527027830a4df33eb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104567070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479283"
 ---
 # <a name="generating-linguistic-information"></a>Génération d’informations linguistiques
 
@@ -29,7 +29,7 @@ Vous pouvez modifier l’affichage des étiquettes de phonème pour afficher les
 
 ### <a name="playing-a-sound-file"></a>Exécution d’un fichier audio
 
-Vous pouvez lire des fichiers audio Windows standard ou des fichiers audio linguistiquement améliorés en choisissant la commande **lire** dans le menu **audio** ou dans la barre d’outils de l’éditeur. Les commandes **suspendre** et **arrêter** vous permettent de suspendre ou d’arrêter la diffusion du fichier son. À mesure que vous lisez le fichier, l’exemple d’image de bouche s’anime pour montrer comment les informations de synchronisation de lèvre peuvent être utilisées par un caractère Microsoft Agent.
+vous pouvez lire des fichiers audio standard Windows ou des fichiers audio linguistiquement améliorés en choisissant la commande **lire** dans le menu **Audio** ou dans la barre d’outils de l’éditeur. Les commandes **suspendre** et **arrêter** vous permettent de suspendre ou d’arrêter la diffusion du fichier son. À mesure que vous lisez le fichier, l’exemple d’image de bouche s’anime pour montrer comment les informations de synchronisation de lèvre peuvent être utilisées par un caractère Microsoft Agent.
 
 Vous pouvez également lire une partie sélectionnée d’un fichier son en faisant glisser une sélection dans la **représentation audio** ou en cliquant sur une étiquette de mot ou de phonème, puis en choisissant **lire**. Vous pouvez étendre une sélection existante en appuyant sur Maj et en cliquant, ou en appuyant sur Maj et en faisant glisser vers le nouvel emplacement dans la **représentation audio**.
 

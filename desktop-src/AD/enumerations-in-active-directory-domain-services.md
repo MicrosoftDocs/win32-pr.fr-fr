@@ -5,12 +5,12 @@ ms.assetid: eafa3285-4474-4077-a6ad-b37f8211e7e6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98fdd5cd9cc6f8908c6524b2bdccf238b4fc069a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0e409c1a7e9bbaee1306691cfe62bbe79c3698f0fd4d1987a5ee860cd988d8e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694832"
 ---
 # <a name="enumerations-in-active-directory-domain-services"></a>Énumérations dans Active Directory Domain Services
 
@@ -31,9 +31,9 @@ Les énumérations suivantes sont utilisées pour Microsoft Active Directory Dom
 -   [**\_niveau d' \_ informations du domaine principal \_ DSROLE \_**](/windows/desktop/api/Dsrole/ne-dsrole-dsrole_primary_domain_info_level)
 -   [**\_État du serveur DSROLE \_**](/windows/desktop/api/Dsrole/ne-dsrole-dsrole_server_state)
 
- 
+ 
 
- 
+ 
 
 
 

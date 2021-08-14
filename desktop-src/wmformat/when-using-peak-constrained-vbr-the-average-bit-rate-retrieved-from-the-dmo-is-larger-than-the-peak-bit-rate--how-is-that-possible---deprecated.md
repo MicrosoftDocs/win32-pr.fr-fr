@@ -1,9 +1,9 @@
 ---
-title: Lors de l’utilisation du VBR à faible limite, le taux de bits moyen récupéré à partir d’DMO est supérieur au taux binaire de pointe. Comment cela est-il possible
-description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | Lors de l’utilisation du VBR à faible limite, le taux de bits moyen récupéré à partir d’DMO est supérieur au taux binaire de pointe. Comment cela est-il possible
+title: lors de l’utilisation du VBR à faible limite, le débit binaire moyen récupéré à partir du DMO est supérieur à la vitesse de transmission des pics. Comment cela est-il possible
+description: pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez Windows Media Audio et les api de codec vidéo et DSP. | lors de l’utilisation du VBR à faible limite, le débit binaire moyen récupéré à partir du DMO est supérieur à la vitesse de transmission des pics. Comment cela est-il possible
 ms.assetid: 10754d0e-4bd0-4031-896e-e2045a383378
 keywords:
-- Lors de l’utilisation du VBR à faible limite, le taux de bits moyen récupéré à partir d’DMO est supérieur au taux binaire de pointe. Comment est-ce que le format Windows Media possible
+- lors de l’utilisation du VBR à faible limite, le débit binaire moyen récupéré à partir du DMO est supérieur à la vitesse de transmission des pics. Comment est-ce que le format Windows Media possible
 topic_type:
 - apiref
 api_name:
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15dc7816db0ca4fad6615ca3c111d5ef4133f9bc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ccff48319f67ec5e39a1fd138996e13e03a31a4a6185c9cacadbb498ea00f34b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321977"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431966"
 ---
-# <a name="when-using-peak-constrained-vbr-the-average-bit-rate-retrieved-from-the-dmo-is-larger-than-the-peak-bit-rate-how-is-that-possible"></a>Lors de l’utilisation du VBR à faible limite, le taux de bits moyen récupéré à partir d’DMO est supérieur au taux binaire de pointe. Comment est-ce possible ?
+# <a name="when-using-peak-constrained-vbr-the-average-bit-rate-retrieved-from-the-dmo-is-larger-than-the-peak-bit-rate-how-is-that-possible"></a>lors de l’utilisation du VBR à faible limite, le débit binaire moyen récupéré à partir du DMO est supérieur à la vitesse de transmission des pics. Comment est-ce possible ?
 
-Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez [Windows Media Audio et les api de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
 
  
 

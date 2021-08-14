@@ -1,17 +1,17 @@
 ---
-description: Instructions d’implémentation pour la sérialisation des paramètres IWICDevelopRaw
+description: instructions d’implémentation pour la sérialisation de IWICDevelopRaw Paramètres
 ms.assetid: 4ecff5cc-24f3-4b89-b681-85c867b053e7
-title: Instructions d’implémentation pour la sérialisation des paramètres IWICDevelopRaw
+title: instructions d’implémentation pour la sérialisation de IWICDevelopRaw Paramètres
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48cdc78f68e6d63ee7870b9296ae4cfa4f85547a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 119b6377fc8b75aa9763e8141e17ef79832a2aef5f010c2783a412cef0133788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103758295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709829"
 ---
-# <a name="implementation-guidelines-for-serializing-iwicdevelopraw-settings"></a>Instructions d’implémentation pour la sérialisation des paramètres IWICDevelopRaw
+# <a name="implementation-guidelines-for-serializing-iwicdevelopraw-settings"></a>instructions d’implémentation pour la sérialisation de IWICDevelopRaw Paramètres
 
 L’interface [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) expose les paramètres que l’application peut utiliser pour modifier le traitement de l’image brute. Les paramètres doivent pouvoir être sérialisés afin d’être conservés entre les sessions. Bien que cette opération puisse être effectuée de plusieurs façons, il est recommandé d’encoder ces données d’une manière qui est cohérente avec d’autres métadonnées.
 
@@ -49,7 +49,7 @@ Voici quelques recommandations générales en matière d’implémentation :
     -   Définissez les paramètres de l’appareil photo comme s’il s’agissait d’un paramètre automatique. Cela est utile si l’image a été capturée sur un paramètre manuel et permet à l’utilisateur de remplacer les paramètres manuels.
     -   Ne rien faire. Tous les contrôles ne doivent pas être définis lorsque l’option auto est sélectionnée et il est possible de ne pas modifier les paramètres.
 
-Les outils de la Galerie de photos Windows Vista et de la Galerie de photos Windows Live, ainsi que d’autres applications de modification, utilisent la charge de paramètre automatique [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) quand l’utilisateur sélectionne la correction automatique pour tous les réglages de contrôle de codec normaux, tels que la couleur et l’exposition, pour obtenir les meilleurs résultats.
+la galerie de photos Windows Vista et les outils d’édition Galerie de photos Windows Live et d’autres applications de modification utilisent la charge de paramètre automatique [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) quand l’utilisateur sélectionne la correction automatique pour tous les réglages de contrôle de codec normaux, tels que la couleur et l’exposition, pour obtenir les meilleurs résultats.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -58,7 +58,7 @@ Les outils de la Galerie de photos Windows Vista et de la Galerie de photos Wind
 **Méthodologique**
 </dt> <dt>
 
-[Vue d’ensemble du composant Windows Imaging](-wic-about-windows-imaging-codec.md)
+[Windows Vue d’ensemble du composant de création d’images](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [Recommandations de WIC pour les formats d’image RAW Camera](-wic-rawguidelines.md)

@@ -7,16 +7,16 @@ keywords:
 - Liaison à un objet Active Directory ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59992dbc88c00be6306dec24523ec4e030d4a516
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: bc788ed9eb124e1da6c21848f02393d46608f00dd3a9e779788fa54429922400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429131"
 ---
 # <a name="binding-to-an-active-directory-object"></a>Liaison à un objet Active Directory
 
-La méthode la plus courante pour effectuer une liaison à un objet Active Directory consiste à utiliser la fonction **GetObject** entre un client ADSI et un fournisseur ADSI. Il s’agit également du moyen le plus simple pour montrer comment le composant fournisseur reçoit les requêtes et les services. La fonction d’API ADSI [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) ou la fonction Visual Basic **GetObject** suivent les mêmes étapes pour la liaison.
+La méthode la plus courante pour effectuer une liaison à un objet Active Directory consiste à utiliser la fonction **GetObject** entre un client ADSI et un fournisseur ADSI. Il s’agit également du moyen le plus simple pour montrer comment le composant fournisseur reçoit les requêtes et les services. la fonction d’API ADSI [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) ou la fonction Visual Basic **GetObject** suivent les mêmes étapes pour la liaison.
 
 Pour cet exemple, supposons que le client ADSI est une application de la visionneuse ADSI qui a reçu l’ADsPath « Sample://Seattle/Redmond/Shelly » de son interface utilisateur (1). La figure suivante détaille la séquence d’événements en numérotant les flèches de Flow.
 
@@ -44,6 +44,6 @@ En outre, les demandes de données d’objet provenant du client prennent géné
 
 L’exemple de composant fournisseur est conçu de sorte que les appels réels au système d’exploitation soient logiquement isolés du composant fournisseur, créant ainsi un logiciel portable pour plusieurs systèmes d’exploitation (RegDSAPI. cpp).
 
- 
+ 
 
- 
+ 

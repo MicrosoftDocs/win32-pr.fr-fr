@@ -5,12 +5,12 @@ ms.assetid: d405c276-040b-4cde-aeb2-482a25e2867f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2714f3dbe7b23c8b7f04d4271018891960b87f76
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 213627facdd2dee9e4ba7cc698d2be5455424b4394d295448a07aeb52788dd42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988129"
 ---
 # <a name="session-to-session-activation-with-a-session-moniker"></a>Activation de session à session avec un moniker de session
 
@@ -34,7 +34,7 @@ Pour créer un moniker de session, vous devez composer l’ID de session de la s
 
     où *digits* représente l’ID de session de la session sur laquelle le processus serveur sera démarré, et où *Class ID* représente l’ID de classe du serveur. Notez que l’ID de session est un nombre en base 10.
 
-    Pour les ordinateurs qui exécutent Windows XP ou une version ultérieure, l’utilisation de la syntaxe suivante entraîne l’envoi par COM de l’activation à la session de console physique active, quel que soit son ID de session :
+    pour les ordinateurs qui exécutent Windows XP ou version ultérieure, l’utilisation de la syntaxe suivante entraîne l’envoi par COM de l’activation à la session de console physique active, quel que soit son ID de session :
 
     ``` syntax
     "Session:Console!clsid:[class id]"
@@ -51,8 +51,8 @@ Pour plus d’informations sur l’activation d’objets, les monikers fournis p
 > [!Note]  
 > Les processus créés entre les sessions ont une limite supérieure de la taille du bloc d’environnement. Cette limite est d’environ 4 Ko, mais elle peut être plus grande ou plus petite selon les autres informations nécessaires pour créer le processus (par exemple, les noms de fichiers, les répertoires et les paramètres pour le nouveau processus).
 
- 
+ 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3bd6ffcac01de8997f806e6aa8a8e3bd6afbb66
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0fc51a6e3e3e9f3d14534487590985197ed7c97fbca8bc1042108bfcdba97530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106522652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425825"
 ---
 # <a name="ms-ds-per-user-trust-quota-attribute"></a>Attribut de quota d’approbation MS-DS-per-utilisateur
 
@@ -36,7 +36,7 @@ Utilisé pour appliquer un quota par utilisateur pour la création de Trusted-Do
 | Fréquence des mises à jour  | À la création de la forêt et rarement après cela. |
 | Attribute-Id      | 1.2.840.113556.1.4.1788                   |
 | System-ID-GUID    | d161adf0-ca24-4993-a3aa-8b2c981302e8      |
-| Syntaxe            | [**Enumeration**](s-enumeration.md)      |
+| Syntaxe            | [**Énumération**](s-enumeration.md)      |
 
 
 
@@ -44,7 +44,7 @@ Utilisé pour appliquer un quota par utilisateur pour la création de Trusted-Do
 
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -7,12 +7,12 @@ keywords:
 - Activation du compte de service pour accéder aux propriétés SCP AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b49adcd1b4747b1c13a64a5af54c6cc6a42e6afe
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 260b08d4a7255813e2811c02ebd0e597a518f153db84f35cdb978a44369e5e8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695308"
 ---
 # <a name="enabling-service-account-to-access-scp-properties"></a>Activation du compte de service pour l’accès aux propriétés SCP
 
@@ -20,20 +20,20 @@ L’exemple de code suivant définit une paire d’entrées de Access Control (A
 
 En règle générale, un programme d’installation de service définira ces ACE après avoir créé l’objet SCP. Pour plus d’informations et pour obtenir un exemple de code qui crée un SCP et appelle cette fonction, consultez [Comment les clients recherchent et utilisent un point de connexion de service](how-clients-find-and-use-a-service-connection-point.md). Si le service est reconfiguré pour s’exécuter sous un compte différent, les ACE doivent être mises à jour. Pour s’exécuter correctement, cet exemple de code doit être exécuté dans le contexte de sécurité d’un administrateur de domaine.
 
-Le premier paramètre de l’exemple de fonction spécifie le nom du compte d’utilisateur auquel accorder l’accès. La fonction suppose que le nom est au *format ***\\*** nom d’utilisateur du domaine* . Si aucun compte n’est spécifié, la fonction suppose que le service utilise le compte LocalSystem. Cela signifie que la fonction doit accorder l’accès au compte d’ordinateur du serveur hôte sur lequel le service est en cours d’exécution. Pour ce faire, l’exemple de code appelle la fonction [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) pour obtenir le domaine et le nom d’utilisateur de l’ordinateur local.
+Le premier paramètre de l’exemple de fonction spécifie le nom du compte d’utilisateur auquel accorder l’accès. La fonction suppose que le nom est au format * domaine * **\\** _nom d’utilisateur_ . Si aucun compte n’est spécifié, la fonction suppose que le service utilise le compte LocalSystem. Cela signifie que la fonction doit accorder l’accès au compte d’ordinateur du serveur hôte sur lequel le service est en cours d’exécution. Pour ce faire, l’exemple de code appelle la fonction [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) pour obtenir le domaine et le nom d’utilisateur de l’ordinateur local.
 
 L’exemple de code suivant peut être modifié pour accorder au service un accès complet à l’objet SCP, mais la meilleure pratique consiste à accorder uniquement les droits d’accès spécifiques dont le service a besoin au moment de l’exécution. Dans ce cas, la fonction accorde l’accès à deux propriétés.
 
 
 
-| Propriété                                                              | Description                                                          |
+| Property                                                              | Description                                                          |
 |-----------------------------------------------------------------------|----------------------------------------------------------------------|
 | [**serviceDNSName**](/windows/desktop/ADSchema/a-servicednsname)                       | Nom du serveur hôte sur lequel le service est en cours d’exécution.         |
 | [**serviceBindingInformation**](/windows/desktop/ADSchema/a-servicebindinginformation) | Informations de liaison privées que le service met à jour lorsqu’il démarre. |
 
 
 
- 
+ 
 
 Chaque propriété est identifiée par le **schemaIDGUID** de la classe **attributeSchema** de la propriété. Chaque propriété du schéma a son propre **schemaIDGUID** unique. L’exemple de code suivant utilise des chaînes pour spécifier les GUID. Les chaînes GUID ont le format suivant, où chaque « X » est remplacé par un chiffre hexadécimal : {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}.
 
@@ -295,6 +295,6 @@ HRESULT AllowAccessToScpProperties(
 
 
 
- 
+ 
 
- 
+ 

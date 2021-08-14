@@ -6,12 +6,12 @@ keywords:
 - Planificateur de tâches Planificateur de tâches, nouveautés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5245ab4e681af937924cfbd217095009d80d6a11
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3592cc5efd08afe4737e9af429d52fa41216b6c756a64faeaa45f6cc5c0774b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106541178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354781"
 ---
 # <a name="whats-new-in-task-scheduler"></a>Nouveautés de Planificateur de tâches
 
@@ -21,7 +21,7 @@ Les modifications suivantes résument ce qui est nouveau dans les différentes v
 
 Les modifications de Planificateur de tâches suivantes sont introduites dans Windows 10.
 
--   Lorsque l’économiseur de batterie est activé, les tâches de Planificateur de tâches Windows sont déclenchées uniquement si la tâche est :
+-   lorsque l’économiseur de batterie est activé, Windows tâches Planificateur de tâches sont déclenchées uniquement si la tâche est :
 
     -   Non défini pour **Démarrer la tâche uniquement si l’ordinateur est inactif... (la** tâche n’utilise pas [**IdleSettings**](/windows/desktop/api/taskschd/nf-taskschd-itasksettings-get_idlesettings))
     -   Non défini pour s’exécuter pendant la maintenance automatique (la tâche n’utilise pas [**MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings))
@@ -29,13 +29,13 @@ Les modifications de Planificateur de tâches suivantes sont introduites dans Wi
 
     Tous les autres déclencheurs sont retardés jusqu’à ce que l’économiseur de batterie soit désactivé. Pour plus d’informations sur l’accès à l’état de l’économiseur de batterie dans votre application, consultez [**\_ \_ État**](/windows/desktop/api/winbase/ns-winbase-system_power_status)de l’alimentation du système. Pour obtenir des informations générales sur l’économiseur de batterie, consultez [économiseur de batterie (dans les instructions relatives aux composants matériels)](/windows-hardware/design/component-guidelines/battery-saver).
 
--   Pour des raisons de sécurité, un utilisateur non-administrateur ne peut pas afficher ni gérer une tâche de Planificateur de tâches Windows qui a été créée par un autre utilisateur.
+-   pour des raisons de sécurité, un utilisateur non-administrateur ne peut pas afficher ni gérer un Windows Planificateur de tâches tâche qui a été créée par un autre utilisateur.
 
 ## <a name="windows-8"></a>Windows 8
 
-Les modifications suivantes Planificateur de tâches 2,0 sont introduites dans Windows 8 :
+Les modifications Planificateur de tâches 2,0 suivantes sont introduites dans Windows 8 :
 
--   Prise en charge de PowerShell : les utilisateurs peuvent gérer (créer, supprimer, modifier, démarrer explicitement, arrêter, etc.) Windows Planificateur de tâches les tâches à l’aide du module PowerShell ScheduledTasks.
+-   Prise en charge de PowerShell : les utilisateurs peuvent gérer (créer, supprimer, modifier, démarrer explicitement, arrêter, etc.) Windows Planificateur de tâches des tâches à l’aide du module PowerShell ScheduledTasks.
 -   Mots de passe managés : les administrateurs peuvent utiliser les comptes de mots de passe gérés Active Directory en tant que principaux de tâche. Ces tâches ne nécessitent plus une stratégie de réinitialisation de mot de passe appliquée.
 -   Modifications de l’API : a introduit deux nouveaux paramètres de tâche avec l’interface [**ITaskSettings3**](/windows/desktop/api/taskschd/nn-taskschd-itasksettings3) .
     -   [**MaintenanceSettings**](/windows/desktop/api/Taskschd/nf-taskschd-itasksettings3-get_maintenancesettings): les tâches qui utilisent ces paramètres sont traitées comme un nouveau type de tâches planifiées qui sont appelées pendant la durée de maintenance automatique du système d’exploitation, en fonction de la périodicité et de l’échéance spécifiées.
@@ -45,13 +45,13 @@ Les modifications suivantes Planificateur de tâches 2,0 sont introduites dans W
     -   Valeurs de requête XPath pour les déclencheurs d’événements, via l’élément [**ValueQueries**](taskschedulerschema-valuequeries-eventtriggertype-element.md) .
     -   N’autorisez pas l’arrêt forcé de la tâche, via l’élément [**AllowHardTerminate**](taskschedulerschema-allowhardterminate-settingstype-element.md) .
 -   Fonctionnalités dépréciées dans cette version
-    -   Action : [**SendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (vous pouvez utiliser [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) avec l’applet de commande [Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx)[Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7&preserve-view=true) comme solution de contournement).
+    -   Action : [**sendEmail**](taskschedulerschema-sendemail-actiongroup-element.md) (vous pouvez utiliser [**IExecAction**](/windows/desktop/api/taskschd/nn-taskschd-iexecaction) avec [Windows PowerShell](https://technet.microsoft.com/library/bb978526.aspx)l’applet de commande [Send-MailMessage](/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7&preserve-view=true) comme solution de contournement).
     -   Action : [**showMessage**](taskschedulerschema-showmessage-actiongroup-element.md).
     -   Utilitaire AT.exe cmdline
 
 ## <a name="windows-7"></a>Windows 7
 
-Les modifications suivantes de l’Planificateur de tâches 2,0 sont introduites dans Windows 7 :
+les modifications suivantes Planificateur de tâches 2,0 sont introduites dans Windows 7 :
 
 -   Utilisation du moteur de planification unifié fourni par le système d’exploitation sous-jacent.
 -   Possibilité de rejeter les tâches de démarrage dans les sessions d’applications à distance intégrées (RAIL).
@@ -66,7 +66,7 @@ Les modifications suivantes de l’Planificateur de tâches 2,0 sont introduites
     -   A introduit deux nouveaux paramètres de tâche avec la nouvelle interface ITaskSettings2.
 
         -   DisallowStartOnRemoteAppSession : le nouveau paramètre DisallowStartOnRemoteAppSession peut rejeter le démarrage d’une tâche si elle est déclenchée dans des sessions [intégrées (rail) intégrées à des applications distantes](/openspecs/windows_protocols/MS-WINPROTLP/df36f95e-6a6b-48d6-a3ae-35a17674f546) .
-        -   UseUnifiedSchedulingEngine : l’utilisation du paramètre UseUnifiedSchedulingEngine fournit un comportement cohésif pour les tâches et les services Windows, car elle est gérée de façon uniforme par un moteur de planification commun à l’ensemble du système. Bien qu’il soit recommandé d’utiliser un moteur unifié, il ne prend pas en charge certaines fonctionnalités de Planificateur de tâches. Si la combinaison de propriétés n’autorise pas l’exécution de la tâche sous un moteur unifié, son enregistrement est rejeté.
+        -   UseUnifiedSchedulingEngine : l’utilisation du paramètre UseUnifiedSchedulingEngine fournit un comportement cohésif pour Windows les tâches et les Services, car elle est gérée de façon uniforme par un moteur de planification commun à l’ensemble du système. Bien qu’il soit recommandé d’utiliser un moteur unifié, il ne prend pas en charge certaines fonctionnalités de Planificateur de tâches. Si la combinaison de propriétés n’autorise pas l’exécution de la tâche sous un moteur unifié, son enregistrement est rejeté.
         -   Les fonctionnalités de tâche qui ne sont pas prises en charge par le moteur de planification unifié sont les suivantes :
 
             -   Types d’ouverture de session :
@@ -96,7 +96,7 @@ Les modifications suivantes de l’Planificateur de tâches 2,0 sont introduites
 
 ## <a name="windows-vista"></a>Windows Vista
 
-L’API Planificateur de tâches 2,0 doit être utilisée pour développer des applications qui utilisent le service Planificateur de tâches sur Windows Vista. Pour plus d’informations, consultez [Planificateur de tâches référence](task-scheduler-reference.md) et [utilisation du planificateur de tâches](using-the-task-scheduler.md).
+l’API Planificateur de tâches 2,0 doit être utilisée pour développer des applications qui utilisent le service Planificateur de tâches sur Windows Vista. Pour plus d’informations, consultez [Planificateur de tâches référence](task-scheduler-reference.md) et [utilisation du planificateur de tâches](using-the-task-scheduler.md).
 
 ## <a name="windows-2000-windows-xp-and-windows-server-2003"></a>Windows 2000, Windows XP et Windows Server 2003
 

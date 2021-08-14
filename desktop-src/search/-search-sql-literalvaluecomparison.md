@@ -4,12 +4,12 @@ ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
 title: Comparaison de valeurs littérales
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8577e5a97dcc92131658c325f175efa1d0c3fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c1e311c6f98c1114b63a1bf650d6e7be004e1e8e4cf5848b962a7cbf8049bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227174"
 ---
 # <a name="literal-value-comparison"></a>Comparaison de valeurs littérales
 
@@ -54,7 +54,7 @@ Le tableau suivant décrit les opérateurs de comparaison pris en charge.
 
  
 
-Conjointement avec l’opérateur « = », la langage SQL de recherche Windows (SQL) prend en charge l’utilisation de mots clés BEFORe et AFTER, qui spécifient si la requête doit comparer des valeurs de colonne avant ou après une valeur spécifiée, dans un ordre de tri du dictionnaire.
+conjointement avec l’opérateur « = », Windows langage SQL de recherche (SQL) prend en charge l’utilisation de mots clés before et after, qui spécifient si la requête doit comparer des valeurs de colonne avant ou après une valeur spécifiée, dans un ordre de tri du dictionnaire.
 
 
 ```

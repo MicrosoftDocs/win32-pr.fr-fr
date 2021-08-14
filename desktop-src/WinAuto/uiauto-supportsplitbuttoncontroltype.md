@@ -21,12 +21,12 @@ keywords:
 - types de contrôles, SplitButton
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c56cd6b22838dfa92ba25ce05e74d228f4173ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb04f75a075fdd10b1cf31db01d09c6a9d9fd9a5d78c7c0499d9196a9ff8a956
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825225"
 ---
 # <a name="splitbutton-control-type"></a>SplitButton (type de contrôle)
 
@@ -93,7 +93,7 @@ Le tableau suivant représente un contrôle classique et un affichage de contenu
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>Propriétés pertinentes
 
@@ -101,7 +101,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
-| Propriété UI Automation                                                                                              | Valeur           | Notes                                                                                                                                                                                                |
+| Propriété UI Automation                                                                                              | Valeur           | Remarques                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md)                 | Consultez les remarques.      | La valeur de cette propriété doit être unique parmi tous les éléments homologues de l’affichage brut de l’arborescence UI Automation.                                                                                         |
 | [**UIA \_ BoundingRectanglePropertyId**](uiauto-automation-element-propids.md)       | Consultez les remarques.      | Rectangle externe qui contient l’ensemble du contrôle.                                                                                                                                             |
@@ -117,7 +117,7 @@ Le tableau suivant répertorie les propriétés UI Automation dont la valeur ou 
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>Modèles de contrôle requis
 
@@ -132,7 +132,7 @@ Le tableau suivant répertorie les modèles de contrôle UI Automation qui doive
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>Événements obligatoires
 
@@ -140,7 +140,7 @@ Le tableau suivant répertorie les événements UI Automation qui doivent être 
 
 
 
-| Événement UI Automation                                                                                                                                                | Notes                                                                                                                      |
+| Événement UI Automation                                                                                                                                                | Remarques                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                                                   |                                                                                                                            |
 | [**UIA \_**](uiauto-automation-element-propids.md) Événement de modification de propriété BoundingRectanglePropertyId.                              |                                                                                                                            |
@@ -152,7 +152,7 @@ Le tableau suivant répertorie les événements UI Automation qui doivent être 
 
 
 
- 
+ 
 
 ## <a name="splitbutton-control-type-example"></a>Exemple de type de contrôle SplitButton
 
@@ -207,7 +207,7 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -222,9 +222,9 @@ L’image suivante illustre un contrôle qui implémente le type de contrôle **
 [Vue d'ensemble d'UI Automation](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

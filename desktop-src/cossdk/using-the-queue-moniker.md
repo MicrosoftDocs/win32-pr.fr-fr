@@ -4,12 +4,12 @@ ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: Utilisation du moniker de la file d’attente
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228964157d08aca868474167ae16590692f16ba9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8e83d720478064f1427966de69d98ef06ac82f1da98cc50aa1ec3d3b3ac4c4d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305156"
 ---
 # <a name="using-the-queue-moniker"></a>Utilisation du moniker de la file d’attente
 
@@ -57,7 +57,7 @@ Le paramètre [**CoGetObject**](https://docs.microsoft.com/windows/desktop/api/o
       NULL, IID_IShip, (void**)&pShip);
     ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le moniker de la file d’attente accepte des paramètres facultatifs qui modifient les propriétés du message envoyé à Message Queuing. Par exemple, pour faire en sorte que le message Message Queuing soit envoyé avec une priorité 6, le composant mis en file d’attente est activé comme suit :
 
@@ -96,7 +96,7 @@ Le tableau suivant répertorie les paramètres du moniker de la file d’attente
 <td>Spécifie le nom complet du chemin d’accès de la file d’attente Message Queuing. S’il n’est pas spécifié, le nom du chemin d’accès de la file d’attente Message Queuing associé à l’application configurée est utilisé. Pour remplacer le nom de destination, le chemin d’accès peut être spécifié sous la forme suivante pour une installation de Message Queuing groupe de travail :<br/> Queue :<em>pathname</em> = <em>nomordinateur</em>\private $ \ AppName/New : MyProject. CMyClass<br/>
 <blockquote>
 [!Note]<br />
-Les langages de programmation C et Microsoft Visual C++ requièrent deux barres obliques inverses pour représenter une barre oblique inverse dans les littéraux de chaîne, par exemple, Chicago \\ Payroll.
+les langages de programmation C et Microsoft Visual C++ requièrent deux barres obliques inverses pour représenter une barre oblique inverse dans les littéraux de chaîne, par exemple, chicago \\ payroll.
 </blockquote>
 <br/></td>
 </tr>

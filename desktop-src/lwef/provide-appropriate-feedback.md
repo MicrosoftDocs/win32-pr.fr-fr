@@ -4,12 +4,12 @@ description: Fournir les commentaires appropriés
 ms.assetid: e89b5f08-645e-4048-a153-4f01de8e82f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8002e79822e03c3f1044b61ec2b25ab4e807f71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d872abbd1f21d0b3a5e30797258be62216b8e9b43adc544ac9bc71790c38ee43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475381"
 ---
 # <a name="provide-appropriate-feedback"></a>Fournir les commentaires appropriés
 
@@ -23,9 +23,9 @@ Nous avons un réflexe d’orientation qui nous amène à suivre les modificatio
 
 Le placement et le déplacement du caractère doivent être appropriés à sa participation à la tâche actuelle de l’utilisateur. Si la tâche en cours implique le caractère, le caractère peut être placé au point de focus. Lorsque l’utilisateur n’interagit pas avec le caractère, déplacez-le vers un emplacement de « secours » cohérent ou n’interfère pas avec les tâches ou n’a pas de gêne avec l’utilisateur. Donnez toujours un raisonnement sur la façon dont le caractère est issu d’un emplacement à un autre. De même, les utilisateurs se sentent le plus à l’aise lorsque le caractère apparaît dans le même emplacement à l’écran que celui à partir duquel il a été fait.
 
- 
+ 
 
- 
+ 
 
 
 

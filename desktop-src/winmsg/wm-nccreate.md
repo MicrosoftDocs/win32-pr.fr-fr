@@ -4,12 +4,12 @@ ms.assetid: 5dd0eda3-83a6-4077-a7a3-e371c9413b0f
 title: Message WM_NCCREATE (winuser. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8757cbdeba49d54f6e5d842a5b40c7f7ae61cac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84fa5638ef1b97365d202f2049fc79712d0ed3eec167825110f7c7967ce4605c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106539094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200055"
 ---
 # <a name="wm_nccreate-message"></a>\_Message WM NCCREATE
 

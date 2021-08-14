@@ -4,12 +4,12 @@ ms.assetid: 3c9e186b-6844-4126-b035-a3541880e109
 title: À propos du débogage de base
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: daa3e2889d860d747978f2e8866094b0f866910c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d927deaa4120f52922e22fecc05c9cdf997eaf51355bb830a7ea1065985c593
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103860821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984509"
 ---
 # <a name="about-basic-debugging"></a>À propos du débogage de base
 

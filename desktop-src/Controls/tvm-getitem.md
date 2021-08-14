@@ -3,7 +3,7 @@ title: Message TVM_GETITEM (commctrl. h)
 description: Récupère une partie ou la totalité des attributs d’un élément d’affichage d’arborescence. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro TreeView GetItem.
 ms.assetid: e26ec000-967d-46de-8f71-6ebc36fefe5e
 keywords:
-- TVM_GETITEM les contrôles de message Windows
+- TVM_GETITEM les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dff96f4721a3c50eda54792b2b1c003cd808bf11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 425b0200df62b1cfcbc18556ad12513e43cebadf6e5742b36880464fad195fb8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984889"
 ---
 # <a name="tvm_getitem-message"></a>TVM ( \_ message GETITEM)
 
@@ -45,7 +45,7 @@ Pointeur vers une structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl
 
 Retourne la **valeur true** en cas de réussite, ou **false** dans le cas contraire.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque le message est envoyé, le membre **hitem** de la structure [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema) ou [**TVITEMEX**](/windows/win32/api/commctrl/ns-commctrl-tvitemexa) identifie l’élément sur lequel les informations doivent être récupérées, et le membre **Mask** spécifie les attributs à récupérer.
 
@@ -57,8 +57,8 @@ Si l' \_ indicateur de texte TVIF est défini dans le membre **Mask** de la stru
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 | Noms Unicode et ANSI<br/>   | **TVM \_ GETITEMW** (Unicode) et **TVM \_ GETITEMA** (ANSI)<br/>                   |
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5e5e01b29281860dff59fbcd08a3b48ec66c4a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6b335f67ed4d392d189553f66655797e03121cbdee6ce19dffbd9803199f6c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104032978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429927"
 ---
 # <a name="dsrestoreregistercomplete-function"></a>DsRestoreRegisterComplete fonction)
 
@@ -71,7 +71,7 @@ L’appelant ne dispose pas des privilèges d’accès appropriés pour appeler 
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Avant de redémarrer le contrôleur de domaine, appelez cette fonction pour indiquer l’état de l’opération de restauration. Si l’État échoue, le service d’annuaire ne démarre pas tant qu’une base de données valide n’a pas été restaurée. Cette fonction termine l’opération de restauration et permet à Active Directory Domain Services de démarrer.
 

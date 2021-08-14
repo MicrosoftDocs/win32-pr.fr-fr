@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 75d5c0fa709f549a523d628433ee2b3aa626278e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7af661ca1317f7506e5bcdbf611010b0fe4c058d5f1e3f1e5f31b917737a6e64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425429"
 ---
 # <a name="ms-ds-user-dont-expire-password-attribute"></a>attribut ms-DS-User-subout-expire-Password
 
@@ -65,7 +65,7 @@ Indique si le mot de passe du compte auquel cet attribut fait référence expire
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Dans ADAM, cet attribut remplace l’indicateur passwd des publicités qui n' [**\_ \_ \_ expirent \_**](/windows/desktop/api/iads/ne-iads-ads_user_flag_enum) pas de l’attribut [**UserAccountControl**](a-useraccountcontrol.md) .
 

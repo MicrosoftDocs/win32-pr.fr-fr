@@ -3,7 +3,7 @@ title: PLAYLIST. columnOrder
 description: L’attribut columnOrder spécifie ou récupère l’ordre des colonnes de la sélection.
 ms.assetid: 91a2e15b-1993-4666-98ef-b893df2b570c
 keywords:
-- PLAYLIST. columnOrder du lecteur Windows Media
+- PLAYLIST. columnOrder Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ab1a64f40987faa7daa43e9e371c7fa5d75f24e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e4dca1e740edc3066c82369c01ffb3313500b886d698c03ccd44d1283dc7d48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337124"
 ---
 # <a name="playlistcolumnorder"></a>PLAYLIST. columnOrder
 

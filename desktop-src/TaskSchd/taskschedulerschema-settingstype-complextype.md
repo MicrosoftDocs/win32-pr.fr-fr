@@ -1,6 +1,6 @@
 ---
 title: Type complexe settingsType
-description: Définit les éléments enfants et les informations de séquencement pour l’élément Settings (taskType).
+description: définit les éléments enfants et les informations de séquencement pour l’élément Paramètres (taskType).
 ms.assetid: dba6b82d-aaa4-4f77-aeb1-c5a8f81aec25
 keywords:
 - Planificateur de tâches de type complexe settingsType
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a3c2b3128a35ee0e46c56d19badd431400d4d862
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a48a124230a27a0c23cc9c2a9fa983b6ef3088b8ec22e8ac03fc371caadf0f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106509116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356351"
 ---
 # <a name="settingstype-complex-type"></a>Type complexe settingsType
 
-Définit les éléments enfants et les informations de séquencement pour l’élément [**Settings (TaskType)**](taskschedulerschema-settings-tasktype-element.md) .
+définit les éléments enfants et les informations de séquencement pour l’élément [**Paramètres (taskType)**](taskschedulerschema-settings-tasktype-element.md) .
 
 ``` syntax
 <xs:complexType name="settingsType">
@@ -137,9 +137,9 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 | [**DeleteExpiredTaskAfter**](taskschedulerschema-deleteexpiredtaskafter-settingstype-element.md)                   | duration                                                                                          | Spécifie la durée d’attente de la Planificateur de tâches avant la suppression de la tâche après son expiration. Si aucune valeur n’est spécifiée pour cet élément, le service Planificateur de tâches ne supprimera pas la tâche.<br/>                                                                                           |
 | [**DisallowStartIfOnBatteries**](taskschedulerschema-disallowstartifonbatteries-settingstype-element.md)           | boolean                                                                                           | Spécifie que la tâche ne sera pas démarrée si l’ordinateur fonctionne sur batterie.<br/>                                                                                                                                                                                                                 |
 | [**DisallowStartOnRemoteAppSession**](taskschedulerschema-disallowstartonremoteappsession-settingstype-element.md) | boolean                                                                                           | Spécifie que la tâche ne doit pas démarrer si la tâche est déclenchée pour s’exécuter dans une session à distance intégrée à des applications locales (RAIL).<br/>                                                                                                                                                                     |
-| [**Enabled**](taskschedulerschema-enabled-settingstype-element.md)                                                 | boolean                                                                                           | Spécifie que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la **valeur true**.<br/>                                                                                                                                                                                                        |
+| [**Activé**](taskschedulerschema-enabled-settingstype-element.md)                                                 | boolean                                                                                           | Spécifie que la tâche est activée. La tâche ne peut être exécutée que lorsque ce paramètre a la **valeur true**.<br/>                                                                                                                                                                                                        |
 | [**ExecutionTimeLimit**](taskschedulerschema-executiontimelimit-settingstype-element.md)                           | duration                                                                                          | Spécifie la durée d’exécution de la tâche.<br/>                                                                                                                                                                                                                                               |
-| [**Hidden**](taskschedulerschema-hidden-settingstype-element.md)                                                   | boolean                                                                                           | Spécifie, par défaut, que la tâche ne sera pas visible dans l’interface utilisateur.<br/>                                                                                                                                                                                                                     |
+| [**Masquer**](taskschedulerschema-hidden-settingstype-element.md)                                                   | boolean                                                                                           | Spécifie, par défaut, que la tâche ne sera pas visible dans l’interface utilisateur.<br/>                                                                                                                                                                                                                     |
 | [**IdleSettings**](taskschedulerschema-idlesettings-settingstype-element.md)                                       | [**idleSettingsType**](taskschedulerschema-idlesettingstype-complextype.md)                      | Spécifie comment l’Planificateur de tâches effectue des tâches lorsque l’ordinateur est dans un état d’inactivité.<br/>                                                                                                                                                                                                                   |
 | [**MultipleInstancesPolicy**](taskschedulerschema-multipleinstancespolicy-settingstype-element.md)                 | [**multipleInstancesPolicyType**](taskschedulerschema-multipleinstancespolicytype-simpletype.md) | Spécifie la stratégie qui définit la façon dont le Planificateur de tâches gère plusieurs instances de la tâche. <br/>                                                                                                                                                                                                     |
 | [**NetworkProfileName**](taskschedulerschema-networkprofilename-settingstype-element.md)                           | string                                                                                            | Spécifie le nom d’un profil réseau. Le service de Planificateur de tâches vérifie la disponibilité de ce réseau lorsque l’élément [**RunOnlyIfNetworkAvailable**](taskschedulerschema-runonlyifnetworkavailable-settingstype-element.md) est défini sur **true**. Le nom est utilisé à des fins d’affichage.<br/>        |
@@ -161,8 +161,8 @@ Définit les éléments enfants et les informations de séquencement pour l’é
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: Player. Settings
-description: La propriété Settings récupère l’objet Settings.
+description: la propriété settings récupère l’objet Paramètres.
 ms.assetid: 9edd7d27-893a-4a32-8aaf-5efec6c50903
 keywords:
-- Lecteur Windows Media Player. Settings
+- Player. settings Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5482574069ea94052016272ff22cde2ac563f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb14137fba6ba460dda0d3bbdc32f0b97c442d75979e603460a645241d37e84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337963"
 ---
 # <a name="playersettings"></a>Player. Settings
 
-La propriété **Settings** récupère l’objet Settings.
+la propriété **settings** récupère l’objet Paramètres.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -31,7 +31,7 @@ La propriété **Settings** récupère l’objet Settings.
 
 ## <a name="possible-values"></a>Valeurs possibles
 
-Cette propriété est un objet de paramètres en lecture seule.
+cette propriété est un objet Paramètres en lecture seule.
 
 ## <a name="requirements"></a>Configuration requise
 
@@ -51,7 +51,7 @@ Cette propriété est un objet de paramètres en lecture seule.
 [**Objet Player**](player-object.md)
 </dt> <dt>
 
-[**Settings (objet)**](settings-object.md)
+[**Paramètres Dessin**](settings-object.md)
 </dt> </dl>
 
  

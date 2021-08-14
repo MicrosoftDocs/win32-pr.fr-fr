@@ -4,17 +4,17 @@ description: Une info-bulle est une petite fenêtre contextuelle qui étiquette 
 ms.assetid: 80979281-eefb-485a-b42f-7f9e05665357
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 8911c5a008d2de6cec2bd564fd786a23c670d633
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 4df7950529b2ac78c9d9bbf51c8996f17bcd985898a286f8d58e05db3b94d27e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118041135"
 ---
 # <a name="tooltips-and-infotips"></a>Info-bulles et info-bulles
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Une info-bulle est une petite fenêtre contextuelle qui étiquette le contrôle sans étiquette désigné, par exemple les contrôles de barre d’outils sans étiquette ou les boutons de commande.
 
@@ -24,7 +24,7 @@ Info-bulle standard pour un bouton de barre d’outils.
 
 Étant donné que les info-bulles sont tellement utiles, il existe un contrôle associé appelé info-bulles, qui fournit un texte plus descriptif que celui possible avec les info-bulles.
 
-Une info-bulle est une petite fenêtre contextuelle qui décrit de façon concise l’objet désigné, par exemple les descriptions des contrôles ToolBar, les icônes, les graphiques, les liens, les objets de l’Explorateur Windows, les éléments du menu Démarrer et les boutons de la barre des tâches. Les info-bulles sont une forme de [contrôles de divulgation progressive](ctrl-progressive-disclosure-controls.md), ce qui évite d’avoir à toujours obtenir un texte descriptif à l’écran.
+une info-bulle est une petite fenêtre contextuelle qui décrit de façon concise l’objet désigné, par exemple les descriptions des contrôles toolbar, les icônes, les graphiques, les liens, les objets Windows Explorer, les éléments menu Démarrer et les boutons de la barre des tâches. Les info-bulles sont une forme de [contrôles de divulgation progressive](ctrl-progressive-disclosure-controls.md), ce qui évite d’avoir à toujours obtenir un texte descriptif à l’écran.
 
 ![capture d’écran du bouton partager avec une info-bulle ](images/ctrl-tooltips-and-infotips-image2.png)
 
@@ -32,7 +32,7 @@ Info-bulle classique.
 
 Dans le cadre de cet article, les info-bulles et les info-bulles sont appelés conseils.
 
-Les conseils aident les utilisateurs à comprendre les objets inconnus ou inconnus qui ne sont pas décrits directement dans l’interface utilisateur. Ils s’affichent automatiquement lorsque les utilisateurs pointent le pointeur sur un objet et sont supprimés lorsque les utilisateurs cliquent sur le contrôle ou déplacent la souris, ou lorsque le Conseil expire.
+Astuces aider les utilisateurs à comprendre les objets inconnus ou inconnus qui ne sont pas décrits directement dans l’interface utilisateur (iu). Ils s’affichent automatiquement lorsque les utilisateurs pointent le pointeur sur un objet et sont supprimés lorsque les utilisateurs cliquent sur le contrôle ou déplacent la souris, ou lorsque le Conseil expire.
 
 **Développeurs :** Il n’y a pas de contrôle info-bulle ; info-bulles sont implémentées avec le contrôle ToolTip. La distinction est l’utilisation, et non l’implémentation.
 
@@ -54,7 +54,7 @@ Pour vous décider, posez-vous les questions suivantes :
 
     ![capture d’écran de la bulle de commentaire ](images/ctrl-tooltips-and-infotips-image3.png)
 
-    Dans cet exemple, un champ de commentaire statique dans Microsoft Word permet aux utilisateurs d’imprimer des commentaires.
+    dans cet exemple, un champ de commentaire statique dans Microsoft Word permet aux utilisateurs d’imprimer des commentaires.
 
 -   **Le contexte est-il que les utilisateurs peuvent trouver les conseils ennuyeux ou gênants ?** Si c’est le cas, envisagez d’utiliser une autre solution, y compris ne rien faire du tout. Si vous utilisez des conseils dans de tels contextes, autorisez les utilisateurs à les désactiver.
 
@@ -62,13 +62,13 @@ Lorsqu’ils sont utilisés de manière appropriée, les conseils améliorent la
 
 ## <a name="design-concepts"></a>Principes de conception
 
-Les conseils sont un moyen puissant de simplifier une interface utilisateur. Ils fournissent les informations dont les utilisateurs ont besoin lorsqu’ils en ont besoin, avec un minimum d’effort de leur part. Les conseils peuvent vous aider à utiliser l’espace à l’écran plus efficacement et à réduire l’encombrement de l’écran. Toutefois, les conseils mal conçus peuvent être gênants, gênants, inutiles, insurmontables ou en cours. Les concepts de conception suivants sont conçus pour illustrer la différence.
+Astuces sont un moyen puissant de simplifier une interface utilisateur. Ils fournissent les informations dont les utilisateurs ont besoin lorsqu’ils en ont besoin, avec un minimum d’effort de leur part. Astuces peut vous aider à utiliser l’espace à l’écran plus efficacement et à réduire l’encombrement de l’écran. Toutefois, les conseils mal conçus peuvent être gênants, gênants, inutiles, insurmontables ou en cours. Les concepts de conception suivants sont conçus pour illustrer la différence.
 
 ### <a name="discoverability"></a>Détectabilité
 
-Les conseils s’affichent automatiquement lorsque les utilisateurs pointent le pointeur sur un objet pendant une période donnée. Ce mécanisme de délai rend les astuces très pratiques, mais réduit également leur découverte.
+Astuces afficher automatiquement quand les utilisateurs pointent le pointeur sur un objet pendant une période donnée. Ce mécanisme de délai rend les astuces très pratiques, mais réduit également leur découverte.
 
-Au fil du temps, les utilisateurs apprennent que certains objets standard, tels que les boutons de la barre d’outils, les boutons graphiques, les éléments de menu Démarrer et les icônes de la zone de notification, possèdent des conseils, ce qui vous permet de prendre leur détectabilité pour les autorisations.
+au fil du temps, les utilisateurs apprennent que certains objets standard, tels que les boutons de la barre d’outils, les boutons graphiques, les éléments de menu Démarrer et les icônes de la zone de notification, possèdent des conseils, ce qui vous permet de prendre leur détectabilité pour les autorisations.
 
 La découverte des conseils dans des emplacements non standard est plus longue pour les utilisateurs. Il n’y a pas d’indice visuel, tel qu’une zone réactive ou une modification de pointeur, qui indique qu’un objet a une info-bulle. Pire encore, certains utilisateurs déplacent leur souris autour d’un grand nombre, surtout lorsqu’ils apprennent à naviguer dans l’interface utilisateur. Les utilisateurs doivent savoir qu’un objet a une astuce, soit par le passé, soit par l’expérimentation.
 
@@ -87,7 +87,7 @@ Les informations appropriées pour les conseils ont les caractéristiques suivan
 
 ### <a name="appropriate-timeouts"></a>Délais d’expiration appropriés
 
-L’affichage et la suppression automatiques appropriés des conseils sont essentiels pour l’objectif des utilisateurs qui maintiennent le contrôle de leur environnement d’interface utilisateur. Les conseils ont trois valeurs de délai d’attente :
+L’affichage et la suppression automatiques appropriés des conseils sont essentiels pour l’objectif des utilisateurs qui maintiennent le contrôle de leur environnement d’interface utilisateur. Astuces avez trois valeurs de délai d’attente :
 
 -   **D'.** L’heure à laquelle le pointeur doit rester immobile pour que l’info-bulle s’affiche. L’heure par défaut est de 0,5 secondes.
 -   **Réafficher.** L’heure à laquelle le pointeur doit rester immobile au fur et à mesure que le pointeur se déplace d’une cible à l’autre. L’heure par défaut est de 0,1 secondes.
@@ -97,11 +97,11 @@ Si vous avez trop de valeurs initiale et de réaffichages trop courtes, vous obt
 
 ### <a name="appropriate-placement"></a>Emplacement approprié
 
-Les conseils doivent être placés près de l’objet en cours de survol, généralement à la fin ou à la tête du pointeur, si possible. Toutefois, ils ne doivent jamais être placés d’une manière qui interfère avec ce que l’utilisateur fait en masquant l’objet qui l’intéresse. Pour éviter ce problème, vous devrez peut-être déplacer le Conseil à l’extérieur du pointeur, mais à côté de l’objet. Ce n’est pas un problème tant que la relation entre l’objet et son Tip est claire. Assurez-vous que les utilisateurs ne déplacent pas le pointeur simplement pour faire disparaître les conseils de votre programme.
+Astuces doit être placé près de l’objet en cours de survol, généralement à la fin ou à la tête du pointeur, si possible. Toutefois, ils ne doivent jamais être placés d’une manière qui interfère avec ce que l’utilisateur fait en masquant l’objet qui l’intéresse. Pour éviter ce problème, vous devrez peut-être déplacer le Conseil à l’extérieur du pointeur, mais à côté de l’objet. Ce n’est pas un problème tant que la relation entre l’objet et son Tip est claire. Assurez-vous que les utilisateurs ne déplacent pas le pointeur simplement pour faire disparaître les conseils de votre programme.
 
 ### <a name="accessibility"></a>Accessibilité
 
-Les conseils ont un effet inhabituel sur l’accessibilité. Bien qu’ils soient normalement déclenchés en plaçant le pointeur sur un objet, les astuces sont gérées par les [lecteurs d’écran](inter-accessibility.md) pour les contrôles avec accès au clavier. Lorsqu’elles sont utilisées de manière appropriée pour obtenir des informations plus concises, utiles, statiques et supplémentaires, les conseils peuvent améliorer l’accessibilité globale. En fait, le modèle d’info-bulle du texte de remplacement est la meilleure façon de rendre les graphiques accessibles. Toutefois, en cas d’utilisation inappropriée, elles nuisent à l’accessibilité en rendant les informations importantes ou dynamiques plus difficiles à obtenir.
+Astuces avoir un effet inhabituel sur l’accessibilité. Bien qu’ils soient normalement déclenchés en plaçant le pointeur sur un objet, les astuces sont gérées par les [lecteurs d’écran](inter-accessibility.md) pour les contrôles avec accès au clavier. Lorsqu’elles sont utilisées de manière appropriée pour obtenir des informations plus concises, utiles, statiques et supplémentaires, les conseils peuvent améliorer l’accessibilité globale. En fait, le modèle d’info-bulle du texte de remplacement est la meilleure façon de rendre les graphiques accessibles. Toutefois, en cas d’utilisation inappropriée, elles nuisent à l’accessibilité en rendant les informations importantes ou dynamiques plus difficiles à obtenir.
 
 Fournir plusieurs méthodes pour accéder à un contrôle si ce contrôle requiert un Conseil qui n’a pas accès au clavier.
 
@@ -115,7 +115,7 @@ Concevez des conseils détectables qui affichent des informations plus précises
 
 ## <a name="usage-patterns"></a>Modèles d’usage
 
-Les conseils ont plusieurs modèles d’utilisation :
+Astuces avoir plusieurs modèles d’utilisation :
 
 
 
@@ -123,10 +123,10 @@ Les conseils ont plusieurs modèles d’utilisation :
 |---------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Info-bulles**<br/> Affichez l’étiquette d’un contrôle ou d’un glyphe sans étiquette. <br/>                                         | Comme ces conseils servent d’étiquettes, leur texte suit les indications relatives aux étiquettes pour le contrôle sous-jacent. <br/> ![capture d’écran du bouton Exporter la liste avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image5.png)<br/> dans cet exemple, l’info-bulle indique l’étiquette de la commande.<br/> ![capture d’écran du bouton fermer avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image6.png)![capture d’écran du bouton de lecture avec l’info-bulle ](images/ctrl-tooltips-and-infotips-image7.png)<br/> dans ces exemples, les info-bulles étiquettent les boutons graphiques.<br/> ![capture d’écran de l’affichage du glyphe de menu avec info-bulle ](images/ctrl-tooltips-and-infotips-image8.png)<br/> Dans cet exemple, l’info-bulle étiquette un glyphe.<br/> |
 | **Info-bulles**<br/> fournissez une description supplémentaire ou une explication d’un objet ou d’un contrôle. <br/>                  | Utilisez info-bulles pour décrire ou expliquer des objets et des contrôles tels que les contrôles ToolBar, les [icônes](vis-icons.md) (y compris les superpositions [d'](cmd-toolbars.md) icône), les [liens](ctrl-links.md), les [onglets](ctrl-tabs.md), les [contrôles de divulgation progressive](ctrl-progressive-disclosure-controls.md)et les contrôles personnalisés. <br/> ![capture d’écran du bouton courrier électronique avec une info-bulle ](images/ctrl-tooltips-and-infotips-image9.png)<br/> ![capture d’écran du bouton de gravure avec une info-bulle ](images/ctrl-tooltips-and-infotips-image10.png)<br/> Dans ces exemples, info-bulles fournit des informations supplémentaires sur les contrôles et les objets.<br/>                                                                                        |
-| **Texte de remplacement info-bulles**<br/> Décrivez un graphique pour l’accessibilité. <br/>                                              | Ce modèle est principalement destiné aux utilisateurs qui ont une forme de troubles de la vision et peut utiliser un lecteur d’écran. <br/> ![capture d’écran du bouton Démarrer de Windows avec une info-bulle ](images/ctrl-tooltips-and-infotips-image11.png)<br/> Dans cet exemple, l’info-bulle décrit le graphique du menu Démarrer.<br/>                                                                                                                                                                                                                                                                                                                                                                                                            |
-| **Miniatures**<br/> affiche une petite image d’un élément. <br/>                                                         | Les miniatures offrent une représentation graphique facilement reconnaissable d’une fenêtre ou d’un document. <br/> ![capture d’écran de la miniature des catégories du panneau de configuration ](images/ctrl-tooltips-and-infotips-image12.png)<br/> dans cet exemple, la barre des tâches Windows fournit des conseils miniatures pour ses éléments.<br/> ![capture d’écran de la miniature de photo et de ses données ](images/ctrl-tooltips-and-infotips-image13.png)<br/> Dans cet exemple, la Galerie de photos Windows fournit des conseils miniatures pour ses éléments.<br/>                                                                                                                                                                                                                      |
+| **Texte de remplacement info-bulles**<br/> Décrivez un graphique pour l’accessibilité. <br/>                                              | Ce modèle est principalement destiné aux utilisateurs qui ont une forme de troubles de la vision et peut utiliser un lecteur d’écran. <br/> ![capture d’écran du bouton Démarrer de Windows avec une info-bulle ](images/ctrl-tooltips-and-infotips-image11.png)<br/> dans cet exemple, l’info-bulle décrit le graphique menu Démarrer.<br/>                                                                                                                                                                                                                                                                                                                                                                                                            |
+| **Miniatures**<br/> affiche une petite image d’un élément. <br/>                                                         | Les miniatures offrent une représentation graphique facilement reconnaissable d’une fenêtre ou d’un document. <br/> ![capture d’écran de la miniature des catégories du panneau de configuration ](images/ctrl-tooltips-and-infotips-image12.png)<br/> dans cet exemple, la barre des tâches Windows fournit des conseils miniatures pour ses éléments.<br/> ![capture d’écran de la miniature de photo et de ses données ](images/ctrl-tooltips-and-infotips-image13.png)<br/> dans cet exemple, Windows galerie de photos fournit des conseils miniatures pour ses éléments.<br/>                                                                                                                                                                                                                      |
 | **Info-bulles détails**<br/> Affichez des informations détaillées sur un objet. <br/>                                        | Les info-bulles sont un moyen efficace d’afficher des informations détaillées sur un objet ou de fournir des données. <br/> ![capture d’écran de l’info-bulle montrant le type de fichier ](images/ctrl-tooltips-and-infotips-image14.png)![capture d’écran du graphique avec l’info-bulle détaillant les valeurs ](images/ctrl-tooltips-and-infotips-image15.png)<br/> Dans ces exemples, info-bulles fournit des informations détaillées sur un objet ou des données.<br/>                                                                                                                                                                                                                                                                                                      |
-| **Menu Démarrer info-bulles**<br/> Décrivez un élément dans le menu Démarrer. <br/>                                              | Le menu Démarrer comprend des noms de programme et des destinations Windows importantes, telles que des documents, des images et le panneau de configuration. ces conseils décrivent les éléments du menu Démarrer, en général en donnant une brève description du programme ou de la destination, ainsi que des tâches principales que les utilisateurs peuvent effectuer. ces descriptions sont également indexées par la zone de recherche du menu Démarrer, ce qui aide les utilisateurs à trouver les programmes dont ils ont besoin. <br/> ![capture d’écran de l’info-bulle du centre d’accueil ](images/ctrl-tooltips-and-infotips-image16.png)<br/> Dans cet exemple, l’info-bulle décrit ce que les utilisateurs peuvent faire avec un programme dans le menu Démarrer.<br/>                                                                                    |
+| **Menu Démarrer info-bulles**<br/> Décrivez un élément dans le menu Démarrer. <br/>                                              | Le menu Démarrer comprend des noms de programme et des destinations Windows importantes, telles que des documents, des images et le panneau de configuration. ces conseils décrivent les éléments du menu Démarrer, en général en donnant une brève description du programme ou de la destination, ainsi que des tâches principales que les utilisateurs peuvent effectuer. ces descriptions sont également indexées par la zone de recherche du menu Démarrer, ce qui aide les utilisateurs à trouver les programmes dont ils ont besoin. <br/> ![capture d’écran de l’info-bulle du centre d’accueil ](images/ctrl-tooltips-and-infotips-image16.png)<br/> dans cet exemple, l’info-bulle décrit ce que les utilisateurs peuvent faire avec un programme dans la menu Démarrer.<br/>                                                                                    |
 | **Panneau de configuration info-bulles**<br/> Décrivez une catégorie ou une tâche du panneau de configuration. <br/>                                    | Ces conseils fournissent des informations supplémentaires pour aider les utilisateurs à choisir la catégorie et l’élément appropriés du panneau de configuration. <br/> ![capture d’écran de la catégorie comptes d’utilisateur avec info-bulle ](images/ctrl-tooltips-and-infotips-image17.png)<br/> Dans cet exemple, l’info-bulle décrit la catégorie comptes d’utilisateur du panneau de configuration.<br/>                                                                                                                                                                                                                                                                                                                                                                                           |
 | **Nom complet info-bulles**<br/> affiche le nom complet d’un élément lorsque le nom est tronqué ou n’est pas entièrement visible. <br/> | Ces conseils vous permettent d’afficher des éléments dans un espace plus compact, tout en réduisant le besoin de défilement horizontal. Cela est particulièrement important lorsque la longueur du contenu est inconnue, car elle est dynamique. Contrairement aux autres modèles, lorsqu’ils sont utilisés dans des listes et des arborescences, ces conseils s’affichent directement sur l’objet source. <br/> ![capture d’écran de l’info-bulle du titre de groupe de cases d’option ](images/ctrl-tooltips-and-infotips-image18.png)<br/> Dans cet exemple, une info-bulle est utilisée pour afficher le nom complet de l’élément au pointage.<br/>                                                                                                                                                                                     |
 | **Info-bulles d’État**<br/> Affichez les informations d’État pour les icônes de la zone de notification. <br/>                              | Normalement, les conseils doivent être statiques, car les utilisateurs ne sont pas censés passer d’une instance à l’autre. les icônes de la **zone de notification font exception** au fait que ces icônes communiquent l’État et qu’aucun autre espace n’est disponible pour le texte d’État. <br/> ![capture d’écran de l’info-bulle « Messenger non connecté » ](images/ctrl-tooltips-and-infotips-image19.png)<br/> ![capture d’écran de l’info-bulle « Messenger connecté » ](images/ctrl-tooltips-and-infotips-image20.png)<br/> Dans ces exemples, info-bulles fournit des informations d’État pour les icônes de la zone de notification.<br/>                                                                                                                                  |
@@ -190,7 +190,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 -   **Utilisez des info-bulles pour fournir des étiquettes pour les contrôles sans étiquette.** Les contrôles qui ont généralement des info-bulles sont des [boutons de barre d’outils](cmd-toolbars.md), des boutons graphiques et des [contrôles de divulgation progressive](ctrl-progressive-disclosure-controls.md). Les contrôles avec des invites sont considérés comme étiquetés, tels que les [zones de texte](ctrl-text-boxes.md) et les [zones de liste modifiable](/windows/desktop/uxguide/ctrl-drop). Tous les autres contrôles doivent avoir des étiquettes explicites.
 -   Utilisez des fragments de phrase sans ponctuation finale.
 -   Utilisez les majuscules comme pour les phrases.
-    -   **Exception :** Cette recommandation est une nouveauté pour Windows Vista. Pour les applications héritées, vous pouvez utiliser la mise en majuscules de style titre si nécessaire pour éviter de mélanger les styles de mise en majuscules.
+    -   **Exception :** cette recommandation est une nouveauté pour Windows Vista. Pour les applications héritées, vous pouvez utiliser la mise en majuscules de style titre si nécessaire pour éviter de mélanger les styles de mise en majuscules.
 -   Ajoutez des [points de suspension](ctrl-command-buttons.md) si l’étiquette est destinée à une commande qui a besoin d’informations supplémentaires.
 -   Comme avec les étiquettes normales, les **info-bulles gardent** généralement cinq mots ou moins, mais préfèrent des étiquettes spécifiques sur des étiquettes vagues.
 
@@ -265,11 +265,11 @@ Les conseils ont plusieurs modèles d’utilisation :
 
 ### <a name="start-menu-infotips"></a>Menu Démarrer info-bulles
 
--   Utilisez le menu Démarrer info-bulles pour **décrire l’élément de façon concise et répertorier les principales tâches que les utilisateurs peuvent effectuer avec l’élément.**
+-   utilisez menu Démarrer info-bulles pour **décrire l’élément de façon concise et répertorier les principales tâches que les utilisateurs peuvent effectuer avec l’élément.**
 -   **Soyez utile.** Concentrez-vous sur ce que les utilisateurs peuvent faire. Ne vous contentez pas de répéter le nom de l’élément ou même de l’utiliser dans la description.
 -   **Être spécifiques.** Évitez les verbes génériques et les expressions Catch-All, comme et d’autres tâches. Si les informations sont importantes, répertoriez-les en particulier. dans le cas contraire, partez du principe que les utilisateurs comprennent que tous les éléments ne sont pas listés dans le info-bulles.
 -   **Soyez concis.** Utilisez 25 mots ou moins. Plus de info-bulles découragent la lecture.
--   **Commencez avec un verbe impératif actuel,** tel que créer, modifier, afficher et envoyer. Préférer des verbes spécifiques sur des verbes génériques tels que Manage et Open, qui s’appliquent vraiment à la plupart des éléments de menu Démarrer. Accédez directement au point.
+-   **Commencez avec un verbe impératif actuel,** tel que créer, modifier, afficher et envoyer. préférer des verbes spécifiques sur des verbes génériques tels que manage et open, qui s’appliquent vraiment à la plupart des menu Démarrer éléments. Accédez directement au point.
 
     **Incorrect :**
 
@@ -289,7 +289,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 
     Dans cet exemple, l’info-bulle ressemble à marketing.
 
--   Étant donné que ces info-bulles sont indexés pour la zone de recherche du menu Démarrer, **Décrivez les tâches importantes de votre programme à l’aide des termes pour lesquels les utilisateurs sont le plus susceptibles d’effectuer des recherches. Envisagez d’utiliser des mots clés et des synonymes courants.**
+-   étant donné que ces info-bulles sont indexés pour la zone de recherche menu Démarrer, **décrivez les tâches importantes de votre programme à l’aide des termes pour lesquels les utilisateurs sont le plus susceptibles d’effectuer des recherches. Envisagez d’utiliser des mots clés et des synonymes courants.**
 
     **Incorrect :**
 
@@ -302,7 +302,7 @@ Les conseils ont plusieurs modèles d’utilisation :
     Dans l’exemple correct, l’info-bulle a des synonymes courants.
 
 -   Utilisez les majuscules comme pour les phrases.
--   **Développeurs :** Le texte de l’info-bulle du menu Démarrer provient du champ de commentaire de l’élément.
+-   **Développeurs :** le texte de l’info-bulle menu Démarrer provient du champ de commentaire de l’élément.
 
 ### <a name="quick-launch-tooltips"></a>Info-bulles de lancement rapide
 
@@ -365,7 +365,7 @@ Les conseils ont plusieurs modèles d’utilisation :
 
 ### <a name="icons"></a>Icônes
 
-Contrairement aux versions précédentes de Windows, Windows Vista permet d’avoir des icônes.
+contrairement aux versions précédentes de Windows, Windows Vista permet d’avoir des icônes.
 
 -   Pour les info-bulles, n’utilisez pas d’icônes.
 -   Pour info-bulles, utilisez les icônes uniquement si elles facilitent la reconnaissance ou la compréhension, ou fournissent un contexte. La plupart des info-bulles ne doivent pas avoir d’icônes.

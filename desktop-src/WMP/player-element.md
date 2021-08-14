@@ -3,19 +3,19 @@ title: Élément PLAYER
 description: Élément PLAYER
 ms.assetid: 009090b3-0055-4700-9078-0749da239674
 keywords:
-- Apparences du lecteur Windows Media, élément lecteur
+- skins Lecteur Windows Media, élément Player
 - Skins, élément PLAYER
 - Élément PLAYER
 - informations de référence sur les habillages, élément PLAYER
 - éléments, joueur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a50eb4383eab279c28b75467a9ed803501e7720b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8bef2e7758a0146ae6197d17dc3790011a758f9d2fa4e3d54af9461a8b870c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338115"
 ---
 # <a name="player-element"></a>Élément PLAYER
 
@@ -31,7 +31,7 @@ L’élément **Player** prend en charge l’attribut suivant.
 
 
 
- 
+ 
 
 L’élément **Player** peut implémenter des gestionnaires d’événements pour les événements suivants déclenchés à partir de l’objet **Player** .
 
@@ -40,15 +40,15 @@ L’élément **Player** peut implémenter des gestionnaires d’événements po
 | Événement                                                                                            | Description                                                                      |
 |--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [AudioLanguageChange](player-player-audiolanguagechange.md)                                     | Se produit lorsque le langage audio actuel change.                                  |
-| [des réponses](player-player-buffering.md)                                                         | Se produit lorsque le lecteur Windows Media commence ou met fin à la mise en mémoire tampon.                       |
+| [des réponses](player-player-buffering.md)                                                         | se produit lorsque Lecteur Windows Media commence ou termine la mise en mémoire tampon.                       |
 | [CdromMediaChange](player-player-cdrommediachange.md)                                           | Se produit lorsque le support CD change.                                                |
 | [CurrentItemChange](player-player-currentitemchange.md)                                         | Se produit lorsque l’élément actuel change.                                            |
 | [CurrentMediaItemAvailable](player-player-currentmediaitemavailable.md)                         | Se produit lorsque l’élément multimédia actuel devient disponible.                            |
 | [CurrentPlaylistChange](player-player-currentplaylistchange.md)                                 | Se produit lors de la modification de la sélection actuelle.                                        |
 | [CurrentPlaylistItemAvailable](player-player-currentplaylistitemavailable.md)                   | Se produit lorsque l’élément de sélection actuel devient disponible.                         |
 | [DomainChange](player-player-domainchange.md)                                                   | Se produit lorsque le domaine DVD change.                                              |
-| [Error](player-player-error.md)                                                                 | Se produit lorsque le contrôle du lecteur Windows Media a une condition d’erreur.             |
-| [MarkerHit](player-player-markerhit.md)                                                         | Se produit lorsque le lecteur Windows Media rencontre un marqueur dans le clip.                |
+| [Error](player-player-error.md)                                                                 | se produit lorsque le contrôle de Lecteur Windows Media a une condition d’erreur.             |
+| [MarkerHit](player-player-markerhit.md)                                                         | se produit lorsque Lecteur Windows Media rencontre un marqueur dans le clip.                |
 | [MediaChange](player-player-mediachange.md)                                                     | Se produit lorsqu’un élément multimédia change.                                                |
 | [MediaCollectionAttributeStringAdded](player-player-mediacollectionattributestringadded.md)     | Se produit lorsqu’une valeur d’attribut est ajoutée à la bibliothèque.                          |
 | [MediaCollectionAttributeStringChanged](player-player-mediacollectionattributestringchanged.md) | Se produit lorsqu’une valeur d’attribut de la bibliothèque est modifiée.                        |
@@ -64,12 +64,12 @@ L’élément **Player** peut implémenter des gestionnaires d’événements po
 | [PlaylistCollectionPlaylistRemoved](player-player-playlistcollectionplaylistremoved.md)         | Se produit lorsqu’une sélection est supprimée de la collection de sélections.                  |
 | [PlayStateChange](player-player-playstatechange.md)                                             | Se produit lorsque *Player*. **lecture** change.                                      |
 | [PositionChange](player-player-positionchange.md)                                               | Se produit lorsque *Player*. *contrôles*. **CurrentPosition** change.                     |
-| [ScriptCommand](player-player-scriptcommand.md)                                                 | Se produit lorsque le lecteur Windows Media rencontre une commande de script incorporée dans un fichier. |
+| [ScriptCommand](player-player-scriptcommand.md)                                                 | se produit lorsque Lecteur Windows Media rencontre une commande de script incorporée dans un fichier. |
 | [StatusChange](player-player-statuschange.md)                                                   | Se produit lorsque la propriété **Status** change de valeur.                               |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -81,9 +81,9 @@ L’élément **Player** peut implémenter des gestionnaires d’événements po
 [**Référence de programmation de l’apparence**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
