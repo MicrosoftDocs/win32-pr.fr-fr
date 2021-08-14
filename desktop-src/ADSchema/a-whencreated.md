@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 634918e29a4c8ef9c62d2b8949d253c80fe17d67
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 385756544d398fa8720b95695a77e6d4b26869f484e3f653d9fd846a938b14a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119702419"
 ---
 # <a name="when-created-attribute"></a>Attribut When-Created
 
@@ -46,7 +46,7 @@ Date à laquelle cet objet a été créé. Cette valeur est répliquée et se tr
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

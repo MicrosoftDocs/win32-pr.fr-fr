@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 14e12ba3-8451-4a93-a555-e1c9e6040a67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 029f8d26d341a114ab7bfeae269a391f8df90423
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b4f2423b002afe055c425978a643753e029d817eee5e7eccfc4379d2410f88ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104102749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461249"
 ---
 # <a name="e-menus-and-other-resources"></a>E (menus et autres ressources)
 
@@ -21,7 +21,7 @@ ms.locfileid: "104102749"
 <span id="tools.e_1_gly"></span><span id="TOOLS.E_1_GLY"></span>**Menus vides non autorisés**
 </dt> <dd>
 
-Un mot clé **end** apparaît avant que tous les éléments de menu ne soient définis dans l’instruction de [**menu**](menu-resource.md) . Les menus vides ne sont pas autorisés par le compilateur de ressources Microsoft Windows 32 (RC). Assurez-vous que vous n’avez pas de guillemets ouvrants dans l’instruction de **menu** .
+Un mot clé **end** apparaît avant que tous les éléments de menu ne soient définis dans l’instruction de [**menu**](menu-resource.md) . les menus vides ne sont pas autorisés par le compilateur de ressources Microsoft Windows 32 (RC). Assurez-vous que vous n’avez pas de guillemets ouvrants dans l’instruction de **menu** .
 
 </dd> <dt>
 
@@ -42,14 +42,14 @@ Le mot clé **end** doit apparaître à la fin d’une instruction de [**menu**]
 <span id="tools.e_4_gly"></span><span id="TOOLS.E_4_GLY"></span>**Nom d’erreur Creatingresource**
 </dt> <dd>
 
-Le compilateur de ressources Microsoft Windows 32 (RC) n’a pas pu créer la ressource binaire spécifiée (. RES). Assurez-vous qu’il n’est pas créé sur un lecteur en lecture seule. Utilisez l’option **/v** pour déterminer si le fichier est en cours de création.
+le compilateur de ressources Microsoft Windows 32 (RC) n’a pas pu créer la ressource binaire spécifiée (. RES). Assurez-vous qu’il n’est pas créé sur un lecteur en lecture seule. Utilisez l’option **/v** pour déterminer si le fichier est en cours de création.
 
 </dd> <dt>
 
 <span id="tools.e_5_gly"></span><span id="TOOLS.E_5_GLY"></span>**Virgule attendue dans la table d’accélérateurs**
 </dt> <dd>
 
-Le compilateur de ressources Microsoft Windows 32 (RC) requiert une virgule entre les paramètres *Event* et *idValue* dans l’instruction [**Accelerators**](accelerators-resource.md) .
+le compilateur de ressources Microsoft Windows 32 (RC) requiert une virgule entre les paramètres *event* et *idvalue* dans l’instruction [**accelerators**](accelerators-resource.md) .
 
 </dd> <dt>
 
@@ -84,7 +84,7 @@ Chaque instruction [**MenuItem**](menuitem-statement.md) et [**Popup**](popup-re
 <span id="tools.e_10_gly"></span><span id="TOOLS.E_10_GLY"></span>**Valeur de commande numérique attendue**
 </dt> <dd>
 
-Le compilateur de ressources Microsoft Windows (RC) attendait un paramètre *idValue* numérique dans l’instruction [**Accelerators**](accelerators-resource.md) . Assurez-vous que vous avez utilisé une instruction de [**\# définition**](-define.md) pour spécifier la valeur et que la constante utilisée est correctement orthographiée.
+Microsoft Windows resource Compiler (RC) attendait un paramètre *idvalue* numérique dans l’instruction [**accelerators**](accelerators-resource.md) . Assurez-vous que vous avez utilisé une instruction de [**\# définition**](-define.md) pour spécifier la valeur et que la constante utilisée est correctement orthographiée.
 
 </dd> <dt>
 
@@ -119,7 +119,7 @@ Une chaîne est attendue après chaque paramètre *stringid* numérique dans une
 <span id="tools.e_15_gly"></span><span id="TOOLS.E_15_GLY"></span>**Commande d’accélérateur de constante ou de chaîne attendue**
 </dt> <dd>
 
-Le compilateur de ressources Microsoft Windows (RC) n’a pas pu déterminer la clé qui a été configurée pour l’accélérateur. Le paramètre d' *événement* de l’instruction [**Accelerators**](accelerators-resource.md) n’est peut-être pas valide.
+Microsoft Windows resource Compiler (RC) n’a pas pu déterminer la clé qui était configurée pour l’accélérateur. Le paramètre d' *événement* de l’instruction [**Accelerators**](accelerators-resource.md) n’est peut-être pas valide.
 
 </dd> <dt>
 

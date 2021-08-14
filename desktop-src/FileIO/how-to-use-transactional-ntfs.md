@@ -4,12 +4,12 @@ ms.assetid: 29879a3f-14b4-462c-a001-46c3c3eb74d1
 title: Utilisation de NTFS transactionnel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43681f0d5b27f0db03d8b6c44564b792fce4b467
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8daafd2bc2ee0e695ee3bdede4ac2f62be1000c111d0c544dec877c357f42629
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015277"
 ---
 # <a name="how-to-use-transactional-ntfs"></a>Utilisation de NTFS transactionnel
 
@@ -40,7 +40,7 @@ Le modèle de programmation TxF contient les points clés suivants que vous deve
 Les erreurs courantes suivantes peuvent se produire lors du développement d’applications transactionnelles :
 
 -   Utilisation d’un descripteur de fichier après la fin d’une transaction.
--   Échec de la fermeture des handles aux fichiers et répertoires supprimés avant la validation d’une transaction, ce qui empêchera les opérations de suppression de se produire. Cet événement doit se produire avant d’effectuer la validation pour que l’opération de suppression soit considérée comme faisant partie de la transaction. Cela est dû au fait que le système ne supprime pas réellement un fichier tant que le dernier descripteur n’est pas fermé, même lorsque l’opération n’est pas traitée, dans le cadre du sous-système d’e/s de fichier Windows.
+-   Échec de la fermeture des handles aux fichiers et répertoires supprimés avant la validation d’une transaction, ce qui empêchera les opérations de suppression de se produire. Cet événement doit se produire avant d’effectuer la validation pour que l’opération de suppression soit considérée comme faisant partie de la transaction. cela est dû au fait que le système ne supprime pas réellement un fichier tant que le dernier descripteur n’est pas fermé, même lorsque l’opération n’est pas traitée, dans le cadre du sous-système d’e/s de fichier Windows.
 -   Impossible de tenir compte des restaurations de transactions initiées par le système, qui peuvent se produire à tout moment ; par exemple, une transaction est restaurée si les ressources système sont épuisées.
 
  

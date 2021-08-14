@@ -6,12 +6,12 @@ keywords:
 - IRootStorage Strctd STG, implémentation de fichier composé
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 928f78e88ffaa526006c0a33e803076db0ec301e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c20128e749443d19c6418703bf64d93eb763ae25103d677719bb4cb4cd21349a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961197"
 ---
 # <a name="irootstorage---compound-file-implementation"></a>IRootStorage-implémentation de fichier composé
 
@@ -21,7 +21,7 @@ L’implémentation de fichier composé de COM de [**IRootStorage**](/windows/de
 
 Utilisez l’implémentation fournie par le système de [**IRootStorage**](/windows/desktop/api/Objidl/nn-objidl-irootstorage) uniquement pour prendre en charge l’enregistrement de fichiers dans des conditions de mémoire insuffisante.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Il est possible d’appeler l’implémentation COM de [**IRootStorage :: SwitchToFile**](/windows/desktop/api/Objidl/nf-objidl-irootstorage-switchtofile) pour effectuer une opération Enregistrer sous normale dans un autre fichier. Toutefois, les applications qui le font peuvent ne pas être compatibles avec les futures générations de stockage COM. Pour éviter cette éventualité, les applications effectuant une opération Enregistrer sous doivent créer manuellement le deuxième fichier composé et appeler [**IStorage :: CopyTo**](/windows/desktop/api/Objidl/nf-objidl-istorage-copyto). La méthode **IRootStorage :: SwitchToFile** doit être utilisée uniquement dans les situations d’urgence (mémoire insuffisante ou espace disque).
 
@@ -35,9 +35,9 @@ Il est possible d’appeler l’implémentation COM de [**IRootStorage :: Switc
 [**IRootStorage::SwitchToFile**](/windows/desktop/api/Objidl/nf-objidl-irootstorage-switchtofile)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

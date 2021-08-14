@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f22a3f608e5e6a8a8b2711ca552ff0238c88212c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e0ab68e4637fe83ebffc1acf0eb6f177b97324530ec7a8d7b32d14a071c5c56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117890340"
 ---
 # <a name="transactiontostring-method"></a>Transaction. ToString, méthode
 

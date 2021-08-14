@@ -4,12 +4,12 @@ ms.assetid: a64a617a-b2ae-471f-a88f-a73f0fc3a791
 title: Interface utilisateur de carte à puce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc558446516149529e9a98d28aa9fe94f80b2777
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b94a82889d196b01f8a1d1ca6af7b4788398d9508accc2d5ca245f7929d9d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917329"
 ---
 # <a name="smart-card-user-interface"></a>Interface utilisateur de carte à puce
 
@@ -28,14 +28,14 @@ Voici deux façons d’utiliser la boîte de dialogue commune. Les deux partent 
 
 1.  Déclarez une variable de type **OPENCARDNAME**.
 2.  Fournissez suffisamment d’informations dans la boîte de dialogue commune pour affiner la recherche d’une carte à puce recherchée par l’application appelante. Cela comprend la spécification de **lpstrGroupNames**, **lpstrCardNames** et **rgguidInterfaces**.
-3.  Créez les fonctions de rappel **Connect**, **Check** et **Disconnect** , puis définissez les membres de données **lpfnConnect**, **lpfnCheck** et **lpfnDisconnect** de manière appropriée.
+3.  créez les fonctions de rappel de **Connecter**, de **vérification** et de **déconnexion** , puis définissez les membres de données **lpfnConnect**, **lpfnCheck** et **lpfnDisconnect** de manière appropriée.
     > [!Note]  
     > Les trois fonctions et membres doivent être disponibles lors de l’utilisation de la boîte de dialogue commune de cette façon.
 
      
 
 4.  Appelez la fonction de boîte de dialogue commune [**GetOpenCardName**](/windows/desktop/api/Winscard/nf-winscard-getopencardnamea) .
-5.  La boîte de dialogue commune recherche les cartes demandées. Si un nom de carte ou une [*chaîne rar*](../secgloss/a-gly.md) correspondante est trouvé, les fonctions de rappel de **connexion**, de **vérification** et de **déconnexion** seront appelées dans l’ordre. Si une carte transmet la routine de **vérification** (c’est-à-dire que le rappel de **vérification** retourne la **valeur true**), cette carte est mise en surbrillance dans l’affichage de l’utilisateur.
+5.  La boîte de dialogue commune recherche les cartes demandées. si un nom de carte ou une [*chaîne rar*](../secgloss/a-gly.md) correspondante est trouvé, les fonctions de rappel de **Connecter**, de **vérification** et de **déconnexion** seront appelées dans l’ordre. Si une carte transmet la routine de **vérification** (c’est-à-dire que le rappel de **vérification** retourne la **valeur true**), cette carte est mise en surbrillance dans l’affichage de l’utilisateur.
     > [!Note]  
     > Si plusieurs noms de carte sont fournis, le premier lecteur qui contient l’une des cartes demandées et transmet la routine **Check** sera la carte sélectionnée.
 

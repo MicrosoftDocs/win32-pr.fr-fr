@@ -4,12 +4,12 @@ ms.assetid: 1699c269-d653-4f62-8cef-e1f7d9250e0c
 title: System. communication. AccountName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3587930980ea610b82850e559483db238811457
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09223f73c597592d12a69bc68af1602f1e76a1f0fbc84efed71787706714da27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459742"
 ---
 # <a name="systemcommunicationaccountname"></a>System. communication. AccountName
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les valeurs de la valeur de l’une sont définies dans propKey. h.
 

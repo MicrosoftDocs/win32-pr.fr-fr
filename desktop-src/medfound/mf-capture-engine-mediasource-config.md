@@ -4,12 +4,12 @@ ms.assetid: 9A21D21B-E77F-4C7C-B41F-361CEDA322E7
 title: Attribut MF_CAPTURE_ENGINE_MEDIASOURCE_CONFIG (Mfcaptureengine. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8afaea6e47b729e325e67135c8a1d39fa88bdc4c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a3d111aa41d423f39bb55597d75ec18cc2ee24d93a7f250074a10882c6f38f66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103869433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464369"
 ---
 # <a name="mf_capture_engine_mediasource_config-attribute"></a>Attribut de configuration de la MEDIASOURCE du moteur de \_ capture MF \_ \_ \_
 
@@ -19,7 +19,7 @@ Contient les propriétés de configuration de la source de capture.
 
 **IPropertyStore \* *_ stocké en tant que _* IUnknown\***
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Actuellement, cet attribut est ignoré. À l’avenir, il peut être utilisé pour passer des propriétés de configuration à la source du média.
 
@@ -29,8 +29,8 @@ Actuellement, cet attribut est ignoré. À l’avenir, il peut être utilisé po
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                                   |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                         |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                                   |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                         |
 | En-tête<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 

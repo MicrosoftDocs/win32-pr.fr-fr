@@ -4,12 +4,12 @@ ms.assetid: a3586e6f-a2a2-4932-8b43-a076f64c5958
 title: Attribut MF_ACTIVATE_CUSTOM_VIDEO_MIXER_CLSID (Mfidl. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cc1049fb3bc77b65fb48fe9a4c10a059b2a4651
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a110d6ef5b6cc65fcf3d81fc252737bbcc70575c2d1600751281f9222b032a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464579"
 ---
 # <a name="mf_activate_custom_video_mixer_clsid-attribute"></a>\_ \_ \_ \_ Attribut CLSID du mélangeur vidéo personnalisé MF activé \_
 
@@ -19,7 +19,7 @@ CLSID d’un mélangeur vidéo personnalisé pour le récepteur multimédia EVR 
 
 **GUID**
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous créez le EVR via un objet d’activation, vous pouvez utiliser cet attribut pour définir une console de mixage vidéo personnalisée sur EVR. Utilisez cet attribut comme suit :
 
@@ -37,8 +37,8 @@ La constante GUID de cet attribut est exportée à partir de mfuuid. lib.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                     |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                               |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                     |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                               |
 | En-tête<br/>                   | <dl> <dt>Mfidl. h</dt> </dl> |
 
 

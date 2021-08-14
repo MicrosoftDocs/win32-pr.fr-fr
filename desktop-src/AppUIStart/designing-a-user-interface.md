@@ -1,19 +1,19 @@
 ---
 title: Conception d’une interface utilisateur
-description: Cette section décrit en détail certaines des tâches associées à la conception d’une interface utilisateur pour une application Windows.
+description: cette section décrit en détail certaines des tâches associées à la conception d’une interface utilisateur pour une application Windows.
 ms.assetid: 22deda0c-bf03-4fcd-9cc9-6381b601c152
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97d5027baf7276b1353e03254478545e554daa5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 914f8a2bf2afb532e3deed8876ce0ddea0fe71a0e8ad5457e5967e5f48eeb2c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119440309"
 ---
 # <a name="designing-a-user-interface"></a>Conception d’une interface utilisateur
 
-Cette section décrit en détail certaines des tâches associées à la conception d’une interface utilisateur pour une application Windows.
+cette section décrit en détail certaines des tâches associées à la conception d’une interface utilisateur pour une application Windows.
 
 -   [Introduction](#introduction)
 -   [Spécifications fonctionnelles](#functional-requirements)
@@ -34,7 +34,7 @@ Les esthétiques décrivent comment les éléments sont affichés et présentés
 
 Les performances sont mesurées par non seulement la vitesse, mais également la fiabilité. Si une application semble intéressante, est facile à utiliser, mais se bloque de façon répétée, elle ne sera probablement pas très efficace. L’application doit fournir à l’utilisateur une confiance totale dans sa fiabilité.
 
-Voici quelques-unes des tâches de phase de conception qui peuvent contribuer à une interface utilisateur réussie pour une application Windows.
+voici quelques-unes des tâches de phase de conception qui peuvent contribuer à une interface utilisateur réussie pour une application Windows.
 
 ## <a name="functional-requirements"></a>Spécifications fonctionnelles
 
@@ -42,7 +42,7 @@ Tenez compte des suggestions suivantes au début de la phase de conception pour 
 
 -   Suivez les instructions relatives à la conception de l’interface utilisateur.
 
-    Familiarisez-vous avec les instructions d’interaction avec l' [expérience utilisateur Windows](../uxguide/guidelines.md) et reportez-vous souvent sur la conception, l’implémentation et le test de la progression de l’interface utilisateur de l’application.
+    familiarisez-vous avec les instructions d’Interaction avec l' [expérience utilisateur Windows](../uxguide/guidelines.md) et reportez-vous souvent sur la conception, l’implémentation et le test de la progression de l’interface utilisateur de l’application.
 
 -   Assurez-vous que l’interface utilisateur est accessible.
 
@@ -50,7 +50,7 @@ Tenez compte des suggestions suivantes au début de la phase de conception pour 
 
 -   Prendre en charge la place de marché internationale.
 
-    Windows comprend des technologies qui permettent de prendre en charge de nombreuses cultures et langages écrits dans une application Windows. Si l’application cible la place de marché internationale, il est important d’inclure la prise en charge de l’internationalisation dans la conception de l’interface utilisateur à partir du début du projet. Pour plus d’informations, consultez [internationalisation pour les applications Windows](../intl/international-support.md).
+    Windows comprend des technologies qui permettent de prendre en charge de nombreuses cultures et langages écrits dans une application Windows. Si l’application cible la place de marché internationale, il est important d’inclure la prise en charge de l’internationalisation dans la conception de l’interface utilisateur à partir du début du projet. pour plus d’informations, consultez [internationalisation for Windows Applications](../intl/international-support.md).
 
 ## <a name="user-analysis"></a>Analyse de l’utilisateur
 
@@ -60,7 +60,7 @@ L’approche la plus simple et la plus formelle est la communication avec les ut
 
 N’oubliez pas que vous ne devez pas poser de questions principales ou biaisées, car cela affecte directement la qualité et la validité des commentaires des utilisateurs. Gardez à l’esprit les points suivants lorsque vous composez des questions pendant cette phase :
 
--   Qui sont nos utilisateurs ? Quelles sont les compétences et les connaissances nécessaires ?
+-   Qui les utilisateurs ? Quelles sont les compétences et les connaissances nécessaires ?
 -   Quelles sont les différentes sources de données que nous pouvons utiliser pour comprendre leur expérience ?
 -   Quels sont les objectifs et les tâches qui seront utilisés par notre produit ?
 -   Quelles sont les hypothèses que nous effectuons et comment les vérifier ?
@@ -88,7 +88,7 @@ L’acte consistant à prendre une liste d’éléments et à les classer par pr
 
 La définition des priorités requiert la possibilité d’évaluer au moins trois critères : planification, équipe et entreprise. Il peut y avoir une planification prédéfinie pour le projet, qui limite la taille et l’échelle du travail qui peut être effectué. Un problème susceptible de nécessiter la réécriture de la moitié de la base de code ne doit pas être tenté durant un petit cycle de version.
 
-La composition et la nature d’une équipe définissent les genres de travail qui peuvent être effectués. Quels autres engagements l’équipe a-t-elle ? Existe-t-il un concepteur ou un ingénieur à la convivialité sur l’équipe ? Quelles sont les compétences de l’équipe en matière de conception Web ou d’interface utilisateur ? La dernière et la plus importante sont les considérations commerciales. Quels sont les objectifs de chiffre d’affaires pour ce projet ? Quels sont les concurrents ? Quels sont les avantages de la résolution de certains problèmes ? Quels sont les partenariats pouvant être falsifiés ? Toutes les autres considérations doivent également être identifiées avant de hiérarchiser la liste.
+La composition et la nature d’une équipe définissent les genres de travail qui peuvent être effectués. Quels autres engagements l’équipe a-t-elle ? Existe-t-il un concepteur ou un ingénieur à la convivialité sur l’équipe ? Quelles sont les compétences de l’équipe en matière de conception Web ou d’interface utilisateur ? La dernière et la plus importante sont les considérations commerciales. Quels sont les objectifs de chiffre d’affaires pour ce projet ? Qui les concurrents ? Quels sont les avantages de la résolution de certains problèmes ? Quels sont les partenariats pouvant être falsifiés ? Toutes les autres considérations doivent également être identifiées avant de hiérarchiser la liste.
 
 Une fois l’ordre de priorité défini, la liste des instructions à problème définit la direction du produit et s’assure que le développement est ciblé dans les domaines appropriés.
 
@@ -110,6 +110,6 @@ La phase de conception physique détermine la façon dont une conception d’int
 
 Au cours de cette phase, les limitations du matériel ou du facteur de forme peuvent entraîner des contraintes inattendues sur l’interface utilisateur qui nécessitent des améliorations significatives de la conception.
 
- 
+ 
 
- 
+ 

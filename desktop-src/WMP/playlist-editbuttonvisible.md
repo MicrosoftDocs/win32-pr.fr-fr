@@ -3,7 +3,7 @@ title: PLAYLIST. editButtonVisible
 description: L’attribut editButtonVisible spécifie ou récupère une valeur indiquant si le bouton modifier la sélection est visible.
 ms.assetid: 716e5484-b4b0-49a6-a778-ead1479fda54
 keywords:
-- Lecteur Windows Media PLAYLIST. editButtonVisible
+- PLAYLIST. editButtonVisible Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48534d9e933f5c0e304fe0bb743c048c765cc772
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8e22712e37f3fcd800677af0659673d9ca85d818b86b1efdf8f039f731b0306
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106544077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467739"
 ---
 # <a name="playlisteditbuttonvisible"></a>PLAYLIST. editButtonVisible
 
@@ -42,7 +42,7 @@ Cet attribut est une **valeur booléenne** en lecture/écriture.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Lorsque vous affectez à cet attribut la valeur true, le bouton modifier la sélection s’affiche dans le coin inférieur gauche de l’élément de **sélection** . Cliquez sur ce bouton pour afficher un menu d’options permettant à l’utilisateur de modifier, d’effacer, de trier, d’ouvrir, d’enregistrer ou de copier une sélection.
 

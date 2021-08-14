@@ -4,18 +4,18 @@ ms.assetid: d392f30c-c963-4eb3-add2-1bb986919c0b
 title: 'Étude de cas : source de média MPEG-1'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e1f72cc6ae6df119439bdae1942732bf8d2fa2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b34ca3b7471770612ba53709958ba64fcbe23b57b35d4e516864dc14516aed3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104042926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871438"
 ---
 # <a name="case-study-mpeg-1-media-source"></a>Étude de cas : source de média MPEG-1
 
 Dans Microsoft Media Foundation, l’objet qui introduit les données multimédias dans le pipeline de données est appelé une *source de média*. Cette rubrique présente en détail l’exemple du kit de développement logiciel (SDK) [source de média MPEG-1](mpeg1source-sample.md) .
 
--   [Conditions préalables](#prerequisites)
+-   [Composants requis](#prerequisites)
 -   [Classes C++ utilisées dans la source MPEG-1](#c-classes-used-in-the-mpeg-1-source)
 -   [Gestionnaire de flux d’octets](#byte-stream-handler)
 -   [Descripteur de présentation](#presentation-descriptor)
@@ -61,7 +61,7 @@ D’autres classes d’assistance diverses sont décrites plus loin dans cette r
 
 ## <a name="byte-stream-handler"></a>Gestionnaire de Byte-Stream
 
-Le gestionnaire *de flux d’octets* est l’objet qui crée la source du média. Le gestionnaire de flux d’octets est créé par le programme de résolution source ; les applications n’interagissent pas directement avec le gestionnaire de flux d’octets. Le programme de résolution source Découvre le gestionnaire de flux d’octets en recherchant dans le registre. Le gestionnaire est inscrit par une extension de nom de fichier ou un type MIME. Pour la source MPEG-1, le gestionnaire de flux d’octets est inscrit pour l’extension de nom de fichier « . mpg ».
+Le gestionnaire *de flux d’octets* est l’objet qui crée la source du média. Le gestionnaire de flux d’octets est créé par le programme de résolution source ; les applications n’interagissent pas directement avec le gestionnaire de flux d’octets. Le programme de résolution source Découvre le gestionnaire de flux d’octets en recherchant dans le registre. Le gestionnaire est inscrit par une extension de nom de fichier ou un type MIME. Pour la source MPEG-1, le gestionnaire de flux d’octets est inscrit pour l’extension de nom de fichier « .mpg ».
 
 > [!Note]  
 > Si vous souhaitez prendre en charge des schémas d’URL personnalisés, vous pouvez également écrire un *Gestionnaire de schéma*. La source MPEG-1 est conçue pour les fichiers locaux et Media Foundation fournit déjà un gestionnaire de schéma pour les URL « file:// ».
@@ -356,7 +356,7 @@ Une source de média définit les États suivants :
 
 
 
-| State    | Description                                                                                                     |
+| État    | Description                                                                                                     |
 |----------|-----------------------------------------------------------------------------------------------------------------|
 | Démarré  | La source accepte et traite les exemples de demandes.                                                               |
 | Suspendu   | La source accepte les exemples de demandes, mais ne les traite pas. Les demandes sont mises en file d’attente jusqu’au démarrage de la source. |
@@ -599,7 +599,7 @@ Si la source est arrêtée alors qu’une demande d’e/s est en cours, la requ�
 
 ## <a name="sample-requests"></a>Exemple de demande
 
-Media Foundation utiliser un modèle d' *extraction* , dans lequel le pipeline demande des exemples à partir de la source du média. Cela diffère du modèle utilisé par DirectShow, dans lequel les « push » sont des exemples.
+Media Foundation utiliser un modèle d' *extraction* , dans lequel le pipeline demande des exemples à partir de la source du média. cela diffère du modèle utilisé par DirectShow, dans lequel les exemples de « push » sources.
 
 Pour demander un nouvel exemple, le pipeline Media Foundation appelle [**IMFMediaStream :: RequestSample**](/windows/desktop/api/mfidl/nf-mfidl-imfmediastream-requestsample). Cette méthode prend un pointeur **IUnknown** qui représente un objet de *jeton* . L’implémentation de l’objet de jeton est jusqu’à l’appelant ; Il permet simplement à l’appelant de suivre les exemples de demandes. Le paramètre token peut également avoir la **valeur null**.
 

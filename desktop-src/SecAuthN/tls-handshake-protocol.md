@@ -4,12 +4,12 @@ ms.assetid: 65fb4db3-e505-457a-9159-dba0b506ea0b
 title: Protocole de négociation TLS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c7cfa9e9db54a6035abe147ce00bbde59bcc86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fe32e11127bf46088aa04e58dd6444620cea327c08d2609e01749efcb1e00df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915817"
 ---
 # <a name="tls-handshake-protocol"></a>Protocole de négociation TLS
 
@@ -27,7 +27,7 @@ Le client et le serveur effectuent un contact et choisissent la suite de chiffre
 
 Dans TLS, un serveur prouve son identité au client. Le client peut également avoir besoin de prouver son identité au serveur. L’infrastructure à clé publique, l’utilisation de [*paires de clés publiques/privées*](../secgloss/p-gly.md), est la base de cette authentification. La méthode exacte utilisée pour l’authentification est déterminée par la suite de chiffrement négociée.
 
-## <a name="key-exchange"></a>Échange de clés
+## <a name="key-exchange"></a>Exchange de clé
 
 Le client et le serveur échangent des nombres aléatoires et un numéro spécial appelé secret pré-maître. Ces nombres sont combinés à des données supplémentaires permettant au client et au serveur de créer leur secret partagé, appelé secret principal. Le secret principal est utilisé par le client et le serveur pour générer le secret d’écriture MAC, qui est la clé de session utilisée pour le [*hachage*](../secgloss/h-gly.md), et la clé d’écriture, qui est la [*clé de session*](../secgloss/s-gly.md) utilisée pour le chiffrement.
 

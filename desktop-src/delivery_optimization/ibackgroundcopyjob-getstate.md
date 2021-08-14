@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5b195377a44cab8f336bae8090bacc5ca5624d7c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 64a26d1cc301230a9bb8330b9a2b2daf3178b1538ec95f593cd5e3f4d3099d7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755299"
 ---
 # <a name="ibackgroundcopyjobgetstate-method"></a>Méthode ibackgroundcopyjob :: GetState, méthode
 
@@ -64,7 +64,7 @@ Cette méthode retourne les valeurs **HRESULT** suivantes, ainsi que d’autres.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Si vous souhaitez savoir quand un travail est en erreur ou si a transféré tous les fichiers du travail, vous pouvez utiliser cette méthode pour interroger l’état du travail ou vous pouvez vous inscrire pour recevoir une notification lorsque des événements se produisent. Pour plus d’informations sur l’inscription à la réception d’une notification d’événement, consultez l’interface [**IBackgroundCopyCallback**](ibackgroundcopycallback.md) .
 
@@ -74,8 +74,8 @@ Si vous souhaitez savoir quand un travail est en erreur ou si a transféré tous
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows 10, version 1709 \[ uniquement\]<br/>                                           |
-| Serveur minimal pris en charge<br/> | Windows Server, version 1709, \[ applications de bureau uniquement\]<br/>                                       |
+| Client minimal pris en charge<br/> | Windows 10, les applications de bureau version 1709 \[ uniquement\]<br/>                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur, version 1709 \[ applications de bureau uniquement\]<br/>                                       |
 | En-tête<br/>                   | <dl> <dt>Deliveryoptimization. h</dt> </dl>   |
 | MIDL<br/>                      | <dl> <dt>DeliveryOptimization. idl</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Dosvc. lib</dt> </dl>                |

@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Scardssp.dll
-ms.openlocfilehash: 3f5ff4cd46b2b523b0031e1389b96d9c2c3973a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f28caee7a40574bf7f31fdc4fb55ddd81ea9e22cca12f1664950c96922d50902
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482109"
 ---
 # <a name="iscardreattach-method"></a>ISCard :: Attach, méthode
 
-\[La méthode de **reconnexion** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. Il n’est pas disponible pour une utilisation dans Windows Server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
+\[La méthode de **reconnexion** peut être utilisée dans les systèmes d’exploitation spécifiés dans la section Configuration requise. elle n’est pas disponible pour une utilisation dans Windows server 2003 avec Service Pack 1 (SP1) et versions ultérieures, Windows Vista, Windows Server 2008 et les versions ultérieures du système d’exploitation. Les [modules de carte à puce](/previous-versions/windows/desktop/secsmart/smart-card-modules) offrent des fonctionnalités similaires.\]
 
 La méthode de **réassociation** réinitialise, ou réinitialise, la [*carte à puce*](../secgloss/s-gly.md).
 
@@ -70,7 +70,7 @@ Indique ce qu’il faut faire avec la carte.
 | Valeur                                                                                                                                      | Signification                                                                                                            |
 |--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | <span id="LEAVE"></span><span id="leave"></span><dl> <dt>**CONGÉ**</dt> </dl>       | Laisse la carte à puce dans l' [*État*](../secgloss/s-gly.md)actuel.<br/> |
-| <span id="RESET"></span><span id="reset"></span><dl> <dt>**INITIALISATION**</dt> </dl>       | Réinitialise la carte à puce à un état connu.<br/>                                                              |
+| <span id="RESET"></span><span id="reset"></span><dl> <dt>**RESET**</dt> </dl>       | Réinitialise la carte à puce à un état connu.<br/>                                                              |
 | <span id="UNPOWER"></span><span id="unpower"></span><dl> <dt>**Hors tension**</dt> </dl> | Supprime l’alimentation de la carte à puce.<br/>                                                                      |
 | <span id="EJECT"></span><span id="eject"></span><dl> <dt>**ÉMISSION**</dt> </dl>       | Éjecte la carte à puce si le lecteur possède des fonctionnalités d’éjection.<br/>                                             |
 
@@ -95,7 +95,7 @@ La méthode retourne l’une des valeurs possibles suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Outre les codes d’erreur COM listés ci-dessus, cette interface peut retourner un code d’erreur de carte à puce si une fonction de carte à puce a été appelée pour terminer la demande. Pour plus d’informations, consultez [valeurs de retour de carte à puce](authentication-return-values.md).
 
@@ -124,8 +124,8 @@ if (FAILED(hr))
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | Fin de la prise en charge des clients<br/>    | Windows XP<br/>                                                                   |
 | Fin de la prise en charge des serveurs<br/>    | Windows Server 2003<br/>                                                          |
 | En-tête<br/>                   | <dl> <dt>Scardmgr. h</dt> </dl>   |
@@ -145,7 +145,7 @@ if (FAILED(hr))
 [**AttachByReader**](iscard-attachbyreader.md)
 </dt> <dt>
 
-[**Dissocié**](iscard-detach.md)
+[**Detach**](iscard-detach.md)
 </dt> <dt>
 
 [**ISCard**](iscard.md)

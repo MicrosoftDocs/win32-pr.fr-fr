@@ -4,12 +4,12 @@ description: Trois types de chaînes et appel de procédure distante (RPC).
 ms.assetid: 186cabeb-ea3f-4213-ba71-53afe91e6e14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 207e20b1c343ded17b5d62db2321bee380463f20
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b15467ed5a1425443cbc5a53cf35aba71725c5db68c542c292af38eb0d238cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924835"
 ---
 # <a name="strings-rpc"></a>Chaînes (RPC)
 
@@ -25,7 +25,7 @@ Il existe trois types de chaînes dénotés par les sous-chaînes de fin suivant
 
 
 
- 
+ 
 
 ### <a name="nonconformant-strings"></a>Chaînes non conformes
 
@@ -84,6 +84,6 @@ conformance_description<>
 
 Cette dernière Description est destinée à une structure de chaîne pouvant être dimensionnée.
 
- 
+ 
 
- 
+ 

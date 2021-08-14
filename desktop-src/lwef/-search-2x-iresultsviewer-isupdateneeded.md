@@ -3,9 +3,9 @@ title: IResultsViewer IsUpdateNeeded, propriété (WdsView. h)
 description: La valeur TRUE est retournée si la requête views a été modifiée et doit être mise à jour.
 ms.assetid: 68ae1f68-0585-4bc5-bea4-eb55f3626093
 keywords:
-- Propriétés IsUpdateNeeded héritées fonctionnalités de l’environnement Windows
-- Propriété IsUpdateNeeded fonctionnalités de l’environnement Windows héritées, interface IResultsViewer
-- Interface IResultsViewer fonctionnalités d’environnement Windows héritées, propriété IsUpdateNeeded
+- propriété IsUpdateNeeded Windows héritée fonctionnalités d’environnement
+- propriété IsUpdateNeeded héritée Windows fonctionnalités d’environnement, interface IResultsViewer
+- fonctionnalités d’environnement Windows héritées de l’interface IResultsViewer, propriété IsUpdateNeeded
 topic_type:
 - apiref
 api_name:
@@ -16,17 +16,17 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cc4134780b7cca25be60da7ffccaae176c4329
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c013692509ddebe5c0f6530e9abf4b17aa2c356c6eade829bdc2dbad52465f27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118753880"
 ---
 # <a name="iresultsviewerisupdateneeded-property"></a>IResultsViewer :: IsUpdateNeeded, propriété
 
 > [!NOTE]
-> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. Dans les versions ultérieures, utilisez plutôt l' [API Windows Search](../search/-search-reference-entry-page.md) . 
+> Windows Desktop Search 2. x est une technologie obsolète qui était à l’origine disponible en tant que complément pour Windows XP et Windows Server 2003. dans les versions ultérieures, utilisez plutôt l' [API de recherche Windows](../search/-search-reference-entry-page.md) . 
 
 La valeur TRUE est retournée si la requête views a été modifiée et doit être mise à jour.
 
@@ -43,7 +43,7 @@ Quand elle est appelée, elle retourne un pointeur vers l’indicateur indiquant
 | Condition requise | Valeur |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows XP avec les \[ applications de bureau SP2 uniquement\]<br/>                                 |
-| Serveur minimal pris en charge<br/> | Windows Server 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 avec les \[ applications de bureau SP1 uniquement\]<br/>                        |
 | Composant redistribuable<br/>          | Windows Desktop Search (WDS) 2.6.5<br/>                                        |
 | En-tête<br/>                   | <dl> <dt>WdsView. h</dt> </dl> |
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 97392c9dd89502dc713f4fa7dd2c79de90360930
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbbdea76b79bf650009a7e667c4a5136697079569f6d43f9a93f11febba00369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103861937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119472859"
 ---
 # <a name="jet_tablecreatergcolumncreate-property"></a>JET_TABLECREATE. rgcolumncreate, propriété
 

@@ -1,19 +1,19 @@
 ---
-description: Cette section décrit comment utiliser l’API C/C++ pour les services HTTP Microsoft Windows (WinHTTP) et l’interface COM exposée par l’objet WinHttpRequest.
+description: cette section décrit comment utiliser l’API C/C++ pour Microsoft Windows HTTP Services (WinHTTP) et l’interface COM exposée par l’objet WinHttpRequest.
 ms.assetid: 16178bb8-5e95-46a5-825a-880edc402445
 title: Utilisation de WinHTTP
 ms.topic: article
 ms.date: 07/22/2020
-ms.openlocfilehash: cda0a7772b88dfd9c03675c522f4b7504ea00b06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65e85e0c54e6cdf1be846e98e40c6bad68e5d1bf76efa7bad4c361f58cf5f351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104485000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386559"
 ---
 # <a name="using-winhttp"></a>Utilisation de WinHTTP
 
-Cette section décrit comment utiliser l’API C/C++ pour les services HTTP Microsoft Windows (WinHTTP) et l’interface COM exposée par l’objet **WinHttpRequest** . Pour une comparaison de ces interfaces, consultez [choix d’une interface WinHTTP](choosing-a-winhttp-interface.md) . Elle explique également comment utiliser les outils d’administration inclus avec WinHTTP.
+cette section décrit comment utiliser l’API C/C++ pour Microsoft Windows HTTP Services (WinHTTP) et l’interface COM exposée par l’objet **WinHttpRequest** . Pour une comparaison de ces interfaces, consultez [choix d’une interface WinHTTP](choosing-a-winhttp-interface.md) . Elle explique également comment utiliser les outils d’administration inclus avec WinHTTP.
 
 ## <a name="how-to-topics"></a>Rubriques de procédures
 

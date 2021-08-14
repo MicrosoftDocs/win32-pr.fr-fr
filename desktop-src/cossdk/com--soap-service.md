@@ -4,12 +4,12 @@ ms.assetid: b6287cbe-9870-464e-82de-090cd16c108e
 title: Service SOAP COM+
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb6aac4cfb125a2ead955a8ab755606f81d100ef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 46fcf3ce10e98623a06072d8f86caef8de47e4e7de7b7420729e1fd5432f859a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106517194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917020"
 ---
 # <a name="com-soap-service"></a>Service SOAP COM+
 

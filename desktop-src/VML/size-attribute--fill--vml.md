@@ -4,27 +4,27 @@ description: Size, attribut (Fill) (VML)
 ms.assetid: a84d2d81-0f6f-4011-867d-516225a314aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1eea5638d619853857499cc317517dfc5ffc762
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b26568151961fb2186f8cf49ae25d9f2835665b8fd52a96a4d3a79e954c50ec6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941054"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754144"
 ---
 # <a name="size-attribute-fillvml"></a>Size, attribut (Fill) (VML)
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit la taille de l’image pour le remplissage. En lecture/écriture. [VgVector2D](msdn-online-vml-ivgvector2d-data-type.md) .
 
 **S’applique à**
 
-[Complète](msdn-online-vml-fill-element.md)
+[Remplir](msdn-online-vml-fill-element.md)
 
 **Syntaxe de balise**
 
@@ -59,6 +59,6 @@ Bien que la taille d’origine de l’image soit de 50 à 50 points, l’image e
 
 
 
- 
+ 
 
- 
+ 

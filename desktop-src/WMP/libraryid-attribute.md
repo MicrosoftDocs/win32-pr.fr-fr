@@ -3,7 +3,7 @@ title: Id_bibliothèque (attribut)
 description: L’attribut Id_bibliothèque est l’identificateur de la bibliothèque à laquelle l’élément appartient.
 ms.assetid: 680d9374-8729-4258-8672-b4b93b65e20a
 keywords:
-- Attribut Id_bibliothèque lecteur Windows Media
+- attribut id_bibliothèque Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ae9e5ad097bc188b8de1e76a09448c57aa9b83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a011db4e18509761c232bcf5439e33445128ef77c50945f84662a7b7956f607f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106545924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468219"
 ---
 # <a name="libraryid-attribute"></a>Id_bibliothèque (attribut)
 
@@ -30,7 +30,7 @@ L’attribut **ID_bibliothèque** est l’identificateur de la bibliothèque à 
 -   [**Éléments de sélection**](playlist-attributes-ref.md)
 -   [**Éléments vidéo**](video-item-attributes.md)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un élément multimédia peut appartenir à la bibliothèque locale de l’utilisateur actuel ou il peut appartenir à une bibliothèque qui a été mise à la disposition d’un autre utilisateur sur le réseau local ou sur Internet.
 

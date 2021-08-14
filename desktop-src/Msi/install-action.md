@@ -4,12 +4,12 @@ ms.assetid: bf290b59-1ecb-410f-b1f6-fdbeebebe3d3
 title: Action d’installation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04279ba66f189ff83146fc2010e6843c20b404d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b5f648084b7386465f6bb59dd6b523cb51489e4cb83677c0b5cb47fe845be42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104034348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810999"
 ---
 # <a name="install-action"></a>Action d’installation
 
@@ -23,9 +23,9 @@ Il n’existe aucune restriction de séquence.
 
 Il n’y a aucun message ActionData.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-L’action d’installation n’est pas appelée à partir de la séquence de la table d’action, elle est passée à Windows Installer quand [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) est appelé, ou l’exécutable de ligne de commande Msiexec.exe est appelé avec le commutateur de ligne de commande «**/i**», ou lorsqu’une fonction de programme d’installation est appelée et peut exécuter une tâche d’installation, telle que [**MsiConfigureFeature**](/windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea), [**MsiProvideComponent**](/windows/desktop/api/Msi/nf-msi-msiprovidecomponenta)ou [**MsiInstallMissingFile**](/windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea).
+l’action d’installation n’est pas appelée à partir de la séquence de la table d’action, elle est passée à Windows Installer quand [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) est appelé, ou l’exécutable de ligne de commande Msiexec.exe est appelé avec le commutateur de ligne de commande «**/i**», ou lorsqu’une fonction de programme d’installation est appelée et peut exécuter une tâche d’installation, telle que [**MsiConfigureFeature**](/windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea), [**MsiProvideComponent**](/windows/desktop/api/Msi/nf-msi-msiprovidecomponenta)ou [**MsiInstallMissingFile**](/windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea).
 
  
 

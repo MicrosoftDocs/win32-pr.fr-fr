@@ -4,12 +4,12 @@ description: Comme mentionné précédemment, les descripteurs de paramètre de 
 ms.assetid: c2dad284-abe5-4b38-b3a6-3c7373fc5b84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f6f8b19eb6632c4111547925151865b03b9adc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b4a13b052d49629333bd9cb121b4d1b661722cb3a7a69ad2a17d3e2740a0cd8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103729412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927548"
 ---
 # <a name="parameter-descriptors"></a>Descripteurs de paramètre
 
@@ -70,14 +70,14 @@ Où la \_ direction param<1> champ pour chacune de ces descriptions doit être l
 
 
 
- 
+ 
 
 La \_ taille de la pile<1> correspond à la taille du paramètre sur la pile, exprimée sous la forme du nombre d’entiers que le paramètre occupe sur la pile.
 
 > [!Note]  
 > Le mode [**– OI**](/windows/desktop/Midl/-oi) n’est pas pris en charge sur les plateformes 64 bits.
 
- 
+ 
 
 Le \_ champ décalage de type<2> est l’offset dans le type table de chaînes de format, indiquant le descripteur de type pour l’argument.
 
@@ -133,6 +133,6 @@ typedef struct
 -   Le bit **IsBasetype** est défini pour les types simples qui sont marshalés par la boucle de l’interpréteur main [**-**](/windows/desktop/Midl/-oi) out. En particulier, un type simple avec un attribut de plage sur celui-ci n’est pas marqué comme type de base afin de forcer le marshaling de routines de la routine de plage via la distribution à l’aide d’un \_ jeton de plage FC.
 -   Le bit **IsByValue** est défini pour les types composés qui sont envoyés par valeur, mais n’est pas défini pour les types simples, que l’argument soit ou non un pointeur. Les types composés pour lesquels il est défini sont les structures, les unions, [**les transmissions \_ en tant que**](/windows/desktop/Midl/transmit-as) [**, le \_**](/windows/desktop/Midl/represent-as) [**\_ marshaleur de câble**](/windows/desktop/Midl/wire-marshal) et SAFEARRAY. En général, le bit a été introduit pour l’avantage de la boucle de l’interpréteur principale dans l’interpréteur [**– Oicf**](/windows/desktop/Midl/-oi) , pour s’assurer que les arguments non simples (appelés arguments de type composé) sont correctement déréférencés. Ce bit n’a jamais été utilisé dans les versions précédentes de l’interpréteur.
 
- 
+ 
 
- 
+ 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dabf9e7ffa4d823fe96b0306850d1e7d54fc4a0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cbf910f6b4e80bea217901e02845cbdcdffebe215206638dce7bfdd651b0be7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106526978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980389"
 ---
 # <a name="jet_index_column-constructor"></a>Constructeur JET_INDEX_COLUMN
 

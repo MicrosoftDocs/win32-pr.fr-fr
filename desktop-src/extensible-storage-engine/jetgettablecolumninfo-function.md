@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f8c7b073ca9be90e89a1c6b99c010707e6405323
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 63e913e68a3aea8f220c713b07becdeecb785a619b73a833bb6a0e9c3c1d37a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104211987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979019"
 ---
 # <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo fonction)
 
 
-_**S’applique à :** Windows | Serveur Windows_
+_**S’applique à :** Windows | Windows Serveurs_
 
 ## <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo fonction)
 
@@ -122,25 +122,25 @@ Les options suivantes peuvent être définies pour ce paramètre :
 <tr class="even">
 <td><p>JET_ColInfoBaseByColId</p></td>
 <td><p>Comme JET_ColInfoBase, <em>pvResult</em> est interprété comme un <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a>, sauf que ce <em>InfoLevel</em> indique que la colonne demandée (<em>szColumName</em>) n’est pas le nom de la colonne de chaîne, mais un pointeur vers un <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>.</p>
-<p><strong>Windows Vista :  </strong> Cette version est disponible dans Windows Vista et versions ultérieures.</p></td>
+<p><strong>Windows Vista :</strong> cette version est disponible dans Windows Vista et versions ultérieures.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitNonDerivedColumnsOnly</p></td>
 <td><p>Retourne uniquement les colonnes non dérivées (si la table est dérivée d’un modèle).</p>
 <p>Cette valeur peut être logiquement ou en <em>InfoLevel</em>, lorsque le <em>InfoLevel</em> de base est JET_ColInfoList.</p>
-<p><strong>Windows Vista :  </strong> Cette valeur est introduite dans Windows Vista.</p></td>
+<p><strong>Windows Vista :</strong> cette valeur est introduite dans Windows Vista.</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_ColInfoGrbitMinimalInfo</p></td>
 <td><p>Retourne uniquement le nom de colonne et le ColumnID de chaque colonne.</p>
 <p>Cette valeur peut être logiquement ou en <em>InfoLevel</em>, lorsque le <em>InfoLevel</em> de base est JET_ColInfoList.</p>
-<p><strong>Windows Vista :  </strong> Cette valeur est introduite dans Windows Vista.</p></td>
+<p><strong>Windows Vista :</strong> cette valeur est introduite dans Windows Vista.</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitSortByColumnid</p></td>
 <td><p>Trie la liste des colonnes retournées par ColumnId (par défaut, trie la liste par nom de colonne).</p>
 <p>Cette valeur peut être logiquement ou en <em>InfoLevel</em>, lorsque le <em>InfoLevel</em> de base est JET_ColInfoList.</p>
-<p><strong>Windows Vista :  </strong> Cette valeur est introduite dans Windows Vista.</p></td>
+<p><strong>Windows Vista :</strong> cette valeur est introduite dans Windows Vista.</p></td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ Les options suivantes peuvent être définies pour ce paramètre :
 
 ### <a name="return-value"></a>Valeur renvoyée
 
-Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. Pour plus d’informations sur les erreurs ESE possibles, consultez [Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
+Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un des codes de retour suivants. pour plus d’informations sur les erreurs ESE possibles, consultez [erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md) et [paramètres de gestion des erreurs](./error-handling-parameters.md).
 
 <table>
 <colgroup>
@@ -195,7 +195,7 @@ Cette fonction retourne le type de données [JET_ERR](./jet-err.md) avec l’un 
 </table>
 
 
-#### <a name="remarks"></a>Notes
+#### <a name="remarks"></a>Remarques
 
 **JetGetTableColumnInfo** et [JetGetColumnInfo](./jetgetcolumninfo-function.md) récupèrent les informations sur une colonne. La différence entre les deux est la manière dont la table est identifiée :
 
@@ -215,11 +215,11 @@ Lorsque vous récupérez des données avec JET_ColInfoList, JET_ColInfoListSortC
 <tbody>
 <tr class="odd">
 <td><p><strong>Client</strong></p></td>
-<td><p>Nécessite Windows Vista, Windows XP ou Windows 2000 professionnel.</p></td>
+<td><p>requiert Windows Vista, Windows XP ou Windows 2000 Professional.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Serveur</strong></p></td>
-<td><p>Requiert Windows Server 2008, Windows Server 2003 ou Windows 2000 Server.</p></td>
+<td><p>nécessite Windows server 2008, Windows server 2003 ou Windows 2000 server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>En-tête</strong></p></td>
@@ -243,7 +243,7 @@ Lorsque vous récupérez des données avec JET_ColInfoList, JET_ColInfoListSortC
 
 #### <a name="see-also"></a>Voir aussi
 
-[Erreurs du moteur de stockage extensible](./extensible-storage-engine-errors.md)  
+[erreurs du moteur de Stockage Extensible](./extensible-storage-engine-errors.md)  
 [Paramètres de gestion des erreurs](./error-handling-parameters.md)  
 [JET_COLUMNBASE](./jet-columnbase-structure.md)  
 [JET_COLUMNDEF](./jet-columndef-structure.md)  

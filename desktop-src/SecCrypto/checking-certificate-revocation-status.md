@@ -4,16 +4,16 @@ ms.assetid: c6e2724c-1802-4bc4-a0e4-3cb85427a445
 title: Vérification de l’état de révocation de certificat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ada134bbca88b1a875ff27add7566116cf7334bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf1ce98e392da94fd800316fe63c5b79c8572a319c6db4246e7907eb80966d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104204129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769538"
 ---
 # <a name="checking-certificate-revocation-status"></a>Vérification de l’état de révocation de certificat
 
-\[CAPICOM est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. Utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
+\[capicom est un composant uniquement de 32 bits qui peut être utilisé dans les systèmes d’exploitation suivants : Windows Server 2008, Windows Vista et Windows XP. utilisez plutôt le .NET Framework pour implémenter des fonctionnalités de sécurité. Pour plus d’informations, consultez [alternatives à l’utilisation de](alternatives-to-using-capicom.md)CAPICOM.\]
 
 CAPICOM n’active pas la vérification de la révocation des certificats par défaut. Toutefois, la vérification de la révocation des certificats peut être activée par programme pour un certificat particulier via la propriété **IsValid. CheckFlag** d’un objet de certificat. Une fois la valeur appropriée de **CheckFlag** définie, l’accès à la propriété **IsValid. Result** de l’objet de certificat ou la génération du chemin de vérification du certificat à l’aide de la méthode de génération d’un objet chaîne force la vérification de la révocation.
 

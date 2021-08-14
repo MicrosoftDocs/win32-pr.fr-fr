@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01e9a4c91fac8553867536f4f5a8c3094e0f0ff9
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1e1f42a2fb643a2ce643437aad73b13c6e55d3462e92f9ce52ba208c6dc5cb68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104462542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117807882"
 ---
 # <a name="auto_handle-attribute"></a>\_attribut de descripteur automatique
 
@@ -26,7 +26,7 @@ L’attribut **\[ auto \_ handle \]** ACF indique au stub d’établir automatiq
 > [!Note]  
 > Cet attribut est obsolète et n’est plus pris en charge. L’utilisation du commutateur [**/Robust**](-robust.md) est recommandée.
 
- 
+ 
 
 ``` syntax
 [ 
@@ -63,7 +63,7 @@ Spécifie les instructions IDL qui forment la définition de l’interface.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’attribut **\[ \_ handle \] automatique** s’affiche dans l’en-tête d’interface du CCP. Elle apparaît également dans l’en-tête d’interface du fichier IDL lorsque vous spécifiez le commutateur de compilateur MIDL [**/app \_ config**](-app-config.md).
 
@@ -76,7 +76,7 @@ L’attribut de **\[ \_ handle \] automatique** peut se produire uniquement si l
 > [!Note]  
 > Vous ne pouvez pas utiliser la liaison automatique (avec l’attribut **\[ \_ handle \] automatique** ou par défaut) si vous traitez des données par le biais de canaux.
 
- 
+ 
 
 ## <a name="examples"></a>Exemples
 
@@ -123,9 +123,9 @@ interface MyInterface
 [**SansCode**](nocode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ description: L’utilisation du mappage de texture par défaut réduit la copie 
 ms.assetid: 77AF4BFA-09B5-4181-9408-002764F2A923
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f203c7590c3673d30315250b2b4ce2663e48c9c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: edc81fc1bf59a974f9bd901fc96d43afc16019edce68fbaabfbf3259c0d4a3b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104379950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119752289"
 ---
 # <a name="default-texture-mapping"></a>Mappage de texture par défaut
 
@@ -70,9 +70,9 @@ Méthodes
 [Fonctionnalités Direct3D 11,3](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

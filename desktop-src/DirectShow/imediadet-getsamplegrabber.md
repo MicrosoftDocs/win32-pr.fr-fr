@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: e83de26f1c2186293265dc39db603e0a9cf31436
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f2c3c580a44b9cff35d7ee801cfc611b5cf8a8df828f54c28b022e5c1a1b862a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106526077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819041"
 ---
 # <a name="imediadetgetsamplegrabber-method"></a>IMediaDet :: GetSampleGrabber, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -56,7 +56,7 @@ Reçoit un pointeur vers l’interface [**ISampleGrabber**](isamplegrabber.md) .
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Appelez [**IMediaDet :: EnterBitmapGrabMode**](imediadet-enterbitmapgrabmode.md) avant d’appeler cette méthode. L’interface [**ISampleGrabber**](isamplegrabber.md) vous permet de récupérer des échantillons de médias individuels à partir du flux. Si vous avez simplement besoin d’une image bitmap d’une image vidéo, appelez la méthode [**IMediaDet :: GetBitmapBits**](imediadet-getbitmapbits.md) à la place. L’interface **ISampleGrabber** est plus souple, mais elle nécessite plus de travail que l’application.
 
@@ -68,7 +68,7 @@ Si cette méthode est réussie, l’interface [**ISampleGrabber**](isamplegrabbe
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

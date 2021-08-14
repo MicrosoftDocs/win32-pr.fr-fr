@@ -1,9 +1,9 @@
 ---
 title: Élément d’installation
-description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. L’élément install spécifie les valeurs utilisées par le lecteur Windows Media pour installer un magasin en ligne.
+description: Remarque Cette section décrit les fonctionnalités conçues pour être utilisées par les magasins en ligne. L’utilisation de cette fonctionnalité en dehors du contexte d’un magasin en ligne n’est pas prise en charge. l’élément Install spécifie les valeurs utilisées par Lecteur Windows Media pour installer un magasin en ligne.
 ms.assetid: 9a5e15ee-ec36-48d3-a1c2-bf20b6d2da48
 keywords:
-- Installer l’élément Windows Media Player
+- Lecteur Windows Media d’élément d’installation
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: bba56240651f789b45c18b006b16e5e07b10676e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 05a946cbab6a6334faa7483c0f3201a98ff0abe32dca32fe1f4f7eed5d0a2408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106540195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996519"
 ---
 # <a name="install-element"></a>Élément d’installation
 
@@ -27,7 +27,7 @@ ms.locfileid: "106540195"
 
  
 
-L’élément **install** spécifie les valeurs utilisées par le lecteur Windows Media pour installer un magasin en ligne.
+l’élément **Install** spécifie les valeurs utilisées par Lecteur Windows Media pour installer un magasin en ligne.
 
 ``` syntax
 <Install
@@ -47,14 +47,14 @@ L’élément **install** spécifie les valeurs utilisées par le lecteur Window
 <span id="EULAURL__required_"></span><span id="eulaurl__required_"></span><span id="EULAURL__REQUIRED_"></span>**EULAURL** (obligatoire)
 </dt> <dd>
 
-URL complète d’un fichier dont l’extension de nom de fichier. txt est utilisée par le lecteur Windows Media pour afficher un contrat de licence utilisateur final (CLUF). Ce fichier doit être encodé au format ANSI.
+URL complète d’un fichier avec une extension de nom de fichier .txt que Lecteur Windows Media utilise pour afficher un contrat de licence utilisateur final (cluf). Ce fichier doit être encodé au format ANSI.
 
 </dd> <dt>
 
 <span id="CodeURL__required_"></span><span id="codeurl__required_"></span><span id="CODEURL__REQUIRED_"></span>**CodeURL** (obligatoire)
 </dt> <dd>
 
-URL complète d’un package, avec une extension de nom de fichier. cab, utilisée pour installer le magasin en ligne. Le package et tous les modules de code du package doivent être signés. Pour plus d’informations sur la signature de code, consultez [Introduction à la signature de code](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) dans MSDN Library.
+URL complète d’un package, avec une extension de nom de fichier .cab, utilisée pour installer le magasin en ligne. Le package et tous les modules de code du package doivent être signés. Pour plus d’informations sur la signature de code, consultez [Introduction à la signature de code](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms537361(v=vs.85)) dans MSDN Library.
 
 </dd> <dt>
 
@@ -93,15 +93,15 @@ URL complète du catalogue compilé de la boutique en ligne.
 | Hierarchy       | Élément         |
 |-----------------|-----------------|
 | Éléments parents | **ServiceInfo** |
-| Éléments enfants  | Aucune            |
+| Éléments enfants  | None            |
 
 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Si l’un des attributs requis est manquant ou n’est pas disponible, le programme d’installation du lecteur Windows Media ne tente pas de télécharger et d’installer le code du fournisseur de la Banque d’aide en ligne. Le programme d’installation configure les valeurs par défaut hors connexion comme spécifié dans le document **serviceInfo** . Vous pouvez utiliser **serviceInfo** quand vous n’êtes pas connecté à Internet en passant le nom du fournisseur par défaut et les informations **serviceInfo** en tant que paramètres de ligne de commande. Pour plus d’informations sur les options de ligne de commande, consultez [redistribution du logiciel du lecteur Windows Media](redistributing-windows-media-player-software.md) .
+si l’un des attributs requis est manquant ou n’est pas disponible, Lecteur Windows Media installation ne tente pas de télécharger et d’installer le code du fournisseur de la banque d’aide en ligne. Le programme d’installation configure les valeurs par défaut hors connexion comme spécifié dans le document **serviceInfo** . Vous pouvez utiliser **serviceInfo** quand vous n’êtes pas connecté à Internet en passant le nom du fournisseur par défaut et les informations **serviceInfo** en tant que paramètres de ligne de commande. pour plus d’informations sur les options de ligne de commande, consultez [redistribution de Lecteur Windows Media Software](redistributing-windows-media-player-software.md) .
 
 > [!Note]  
 > Pour utiliser cet élément, vous devez signer un contrat de redistribution auprès de Microsoft. Pour plus d’informations, contactez votre représentant commercial.

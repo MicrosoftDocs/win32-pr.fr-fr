@@ -6,21 +6,21 @@ keywords:
 - Direct2D, exemple de code de rectangle de dessin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa59d7da057a7a9922e270d83937307762b06a40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f9c4f7ee6ca99feb3cf7169a59ce73ff3b8f8c62c08ddad88b9e5acf5d9a814
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104101693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260064"
 ---
 # <a name="direct2d-quickstart"></a>Démarrage rapide de Direct2D
 
 Direct2D est une API en mode immédiat et en code natif pour la création de graphiques 2D. Cette rubrique montre comment utiliser Direct2D dans une application Win32 classique pour dessiner sur un **HWND**.
 
 > [!Note]  
-> Si vous souhaitez créer une application du Windows Store qui utilise Direct2D, consultez la rubrique [Direct2d QuickStart pour Windows 8](direct2d-quickstart-with-device-context.md) .
+> si vous souhaitez créer une application Windows Store qui utilise Direct2D, consultez la rubrique [démarrage rapide de direct2d pour Windows 8](direct2d-quickstart-with-device-context.md) .
 
- 
+ 
 
 Cette rubrique contient les sections suivantes :
 
@@ -244,6 +244,6 @@ Le code de cette rubrique montre les éléments de base d’une application Dire
 [Création d’une application Direct2D simple](direct2d-quickstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

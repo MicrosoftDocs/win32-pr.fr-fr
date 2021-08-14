@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfc230de8716566574dbe95b914d8ff22cbc2f75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5a995dbb885631575aceedfeeb371440034558ecd40af9a1323a6edbc51e300c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963428"
 ---
 # <a name="filerepserviceexample"></a>FileRepServiceExample
 
@@ -25,7 +25,7 @@ Il s’agit du service. L’outil en ligne de commande est disponible [ici](file
 
 Les paramètres de ligne de commande pour le mode client sont les suivants :
 
-**ClientWsFileRepService.exe** *<Service Url>* **\[ /reporting : <erreur/info/verbose>\] \[ /Encoding : <texte/Binary/MTOM>\] \[ /Connections : ***<number of connections>*** \]**
+**ClientWsFileRepService.exe** *<Service Url>* **\[ /reporting : <erreur/info/verbose>\] \[ /Encoding : <texte/Binary/MTOM>\] \[ /Connections :**_<number of connections>_*_\]_*
 
 <dl> <dt>
 
@@ -46,27 +46,27 @@ Obligatoire. Indique l’URL sur laquelle le service écoute.
 <span id="Encoding"></span><span id="encoding"></span><span id="ENCODING"></span>Coda
 </dt> <dd>
 
-Optionnel. Spécifie l’encodage utilisé lors de la communication avec l’outil en ligne de commande. Notez que l’outil actuel ne prend pas en charge la spécification d’un encodage pour ce transfert. la modification de ce paramètre entraînera probablement une erreur. Ce paramètre permet de modifier l’outil et de l’étendre indépendamment du serveur.
+Facultatif. Spécifie l’encodage utilisé lors de la communication avec l’outil en ligne de commande. Notez que l’outil actuel ne prend pas en charge la spécification d’un encodage pour ce transfert. la modification de ce paramètre entraînera probablement une erreur. Ce paramètre permet de modifier l’outil et de l’étendre indépendamment du serveur.
 
 </dd> <dt>
 
 <span id="Reporting"></span><span id="reporting"></span><span id="REPORTING"></span>Comptes
 </dt> <dd>
 
-Optionnel. Active la création de rapports d’erreur, d’informations ou de niveau détaillé. La valeur par défaut est Error. Les messages sont imprimés sur la console.
+Facultatif. Active la création de rapports d’erreur, d’informations ou de niveau détaillé. La valeur par défaut est Error. Les messages sont imprimés sur la console.
 
 </dd> <dt>
 
 <span id="Connections"></span><span id="connections"></span><span id="CONNECTIONS"></span>Connexions
 </dt> <dd>
 
-Optionnel. Spécifie le nombre maximal de demandes simultanées qui seront traitées. En cas d’omission, la valeur par défaut est 100.
+Facultatif. Spécifie le nombre maximal de demandes simultanées qui seront traitées. En cas d’omission, la valeur par défaut est 100.
 
 </dd> </dl>
 
 Les paramètres de ligne de commande pour le mode serveur sont les suivants :
 
-**Serveur** *<Service Url>* deWsFileRepService.exe **\[ /Reporting : <erreur/info/verbose>\] \[ /Encoding : <texte/Binary/MTOM>\] \[ /Connections : ***<number of connections>*** \] \[ /Chunk : ***<size of the payload per message in bytes>*** \]**
+**Serveur** *<Service Url>* deWsFileRepService.exe **\[ /Reporting : <erreur/info/verbose>\] \[ /Encoding : <texte/Binary/MTOM>\] \[ /Connections :** _<number of connections>_ *_\] \[ /Chunk :_*_<size of the payload per message in bytes>_*_\]_*
 
 <dl> <dt>
 
@@ -80,7 +80,7 @@ Obligatoire. Indique que le service s’exécute en tant que serveur de fichiers
 <span id="Chunk"></span><span id="chunk"></span><span id="CHUNK"></span>Transfert
 </dt> <dd>
 
-Optionnel. Les fichiers transférés sont décomposés en segments de la taille spécifiée. Chaque message contient un segment. La valeur par défaut est 32768 octets.
+Facultatif. Les fichiers transférés sont décomposés en segments de la taille spécifiée. Chaque message contient un segment. La valeur par défaut est 32768 octets.
 
 </dd> </dl>
 
@@ -3649,9 +3649,9 @@ WsFileRepService.exe: Service.obj CFileRep.obj CFileRepServer.obj CFileRepClient
 [FileRepToolExample](filereptoolexample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

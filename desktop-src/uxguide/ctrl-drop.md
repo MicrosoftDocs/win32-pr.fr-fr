@@ -4,17 +4,17 @@ description: Avec une liste déroulante ou une zone de liste déroulante, les ut
 ms.assetid: dbe88cf1-7946-4343-bc16-ce12be7ce205
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ce9cbcac3495022edbb398bcbd78b35ac5265150
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: e74589da084a9f4c9f950336b3093452988052b57aba42e6a7a8f449f24a254f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966273"
 ---
 # <a name="drop-down-lists--combo-boxes"></a>Listes déroulantes & zones de liste déroulante
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une liste déroulante ou une zone de liste déroulante, les utilisateurs font un choix parmi une liste de valeurs s’excluant mutuellement. Les utilisateurs peuvent choisir une seule et unique option. Avec une liste déroulante standard, les utilisateurs sont limités aux choix de la liste, mais avec une zone de liste modifiable, ils peuvent entrer un choix qui ne figure pas dans la liste.
 
@@ -109,7 +109,7 @@ Les listes déroulantes et les zones de liste déroulante ont plusieurs modèles
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **N’utilisez pas la modification d’une liste déroulante ou d’une zone de** liste déroulante pour :
     -   Exécuter des commandes.

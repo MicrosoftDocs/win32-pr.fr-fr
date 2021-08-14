@@ -4,12 +4,12 @@ description: Cet exemple crée un déclencheur inactif pour une tâche existante
 ms.assetid: 89fedc86-7abc-42ce-a497-b0b0c46896ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74f4ad6404e5028f45057dbfbba9dc15b0b55a8e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 669453f303394fc55f3e5f8677469c732bf161006aeeec222effa4202bb0db64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118859736"
 ---
 # <a name="cc-code-example-creating-an-idle-trigger"></a>Exemple de code C/C++ : création d’un déclencheur inactif
 
@@ -197,9 +197,9 @@ int main(int argc, char **argv)
 [Exemples de Planificateur de tâches 1,0](task-scheduler-1-0-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6657090b069cd536c19e1a59372ee2049123cacf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5774351263c0a470004a21f4b5ed946221cecf4aa05ab5e01a39d17ed881870f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418579"
 ---
 # <a name="ui_animation_dimension_unknown"></a>DIMENSION d’animation d’IU \_ \_ \_ inconnue
 

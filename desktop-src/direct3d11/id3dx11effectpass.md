@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a26732543d1033cfc439755df6ac397d2a28ec1b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 33b24fe0154e447cd993e8e7e939a9a023ed37183a56980dab8f5d803a0ea41e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104211896"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045973"
 ---
 # <a name="id3dx11effectpass-interface"></a>Interface ID3DX11EffectPass
 
@@ -56,7 +56,7 @@ L’interface **ID3DX11EffectPass** possède ces méthodes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une passe est un bloc de code qui définit des objets d’état de rendu et des nuanceurs. Une passe est déclarée au sein d’une technique.
 
@@ -67,7 +67,7 @@ Pour obtenir une interface Effect-Pass, appelez une méthode comme [**ID3DX11Eff
 
  
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

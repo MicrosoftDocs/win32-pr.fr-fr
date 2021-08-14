@@ -1,5 +1,5 @@
 ---
-description: 'Fonction proxy WIC (Windows Imaging Component) pour IPropertyBag2 :: Write.'
+description: 'Windows Fonction proxy WIC (Imaging Component) pour IPropertyBag2 :: Write.'
 ms.assetid: b97caba6-298a-4b36-9f39-9b5440b866c3
 title: IPropertyBag2_Write_Proxy fonction)
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c868ee748c3c2894daa63850284ae121f85975fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd2a7ca1d2d2ec0be78ebef555944c1a0760c8839cb9a785a87ad4ea3d1fe554
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668646"
 ---
 # <a name="ipropertybag2_write_proxy-function"></a>IPropertyBag2 \_ fonction de proxy d’écriture \_
 
-Fonction proxy WIC (Windows Imaging Component) pour IPropertyBag2 :: Write.
+Windows Fonction proxy WIC (Imaging Component) pour IPropertyBag2 :: Write.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -46,13 +46,13 @@ HRESULT IPropertyBag2_Write_Proxy(
 *Ce \_ PTR* \[ dans\]
 </dt> <dd>
 
-Tapez : **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) \** _
+Type : **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
 PARAMDESC
 
 </dd> <dt>
 
-_cProperties * \[ dans\]
+*cProperties* \[ dans\]
 </dt> <dd>
 
 Type : **ULong**
@@ -62,20 +62,20 @@ Type : **ULong**
 *ppropBag* \[ dans\]
 </dt> <dd>
 
-Tapez : **[PROPBAG2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85)) \** _
+Type : **[PROPBAG2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768188(v=vs.85))\***
 
 </dd> <dt>
 
-_pvarValue * \[ dans\]
+*pvarValue* \[ dans\]
 </dt> <dd>
 
-Type : **Variant \** _
+Type : **variante \***
 
 </dd> </dl>
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
@@ -87,8 +87,8 @@ Si cette fonction est correctement exécutée, elle retourne la valeur **\_ OK**
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows XP avec SP2, applications de \[ Bureau Windows Vista uniquement\]<br/>                                                                                              |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/>                                                                                                             |
+| Client minimal pris en charge<br/> | Windows XP avec SP2, Windows les \[ applications de bureau Vista uniquement\]<br/>                                                                                              |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll ; </dt> <dt>Wincodec. lib</dt> </dl> |
 
 

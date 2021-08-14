@@ -36,12 +36,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 10061d0c00d90aa5ca4e0778cba046d2e6f62f4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a18858b7dba79c8e8d0d2a6ab51783ab0a602d595214895f1798b2ef0e084731
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979260"
 ---
 # <a name="jet_snp-enumeration"></a>Énumération JET_SNP
 

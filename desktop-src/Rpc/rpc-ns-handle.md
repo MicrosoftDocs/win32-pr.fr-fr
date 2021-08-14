@@ -6,12 +6,12 @@ keywords:
 - RPC_NS_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e72ee694e08be1b30a75dc1f5b986619043d592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7612671b03f507bc2e722520fa775e0e999d0f1456ebfcefa971bba27b65dbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926283"
 ---
 # <a name="rpc_ns_handle"></a>\_descripteur NS RPC \_
 
@@ -24,7 +24,7 @@ typedef void* RPC_NS_HANDLE;
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Un descripteur de nom-service est une variable opaque contenant les informations que la bibliothèque Runtime RPC utilise pour retourner les données RPC suivantes de la base de données nom-service :
 

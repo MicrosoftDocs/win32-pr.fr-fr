@@ -1,26 +1,26 @@
 ---
 title: Comment interroger un élément virtualisé dans la vue éléments
-description: Cette rubrique explique comment utiliser l’automatisation de l’interface utilisateur de Microsoft pour récupérer des informations d’interface utilisateur sur les éléments virtualisés dans l’affichage des éléments Windows 7.
+description: cette rubrique explique comment utiliser l’automatisation de l’interface utilisateur de Microsoft pour récupérer des informations d’interface utilisateur sur les éléments virtualisés dans l’affichage Windows 7 éléments.
 ms.assetid: a0bff8a1-47b1-4750-8086-e2e65a79099e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a098635d6e1045c6ff4573de088d8455685014d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9196d62e7aa93b21aed15b76b8ced6a9520b27fb5bcee74a0e0d4ddc510c86f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759243"
 ---
 # <a name="how-to-query-a-virtualized-item-in-items-view"></a>Comment interroger un élément virtualisé dans la vue éléments
 
-Cette rubrique explique comment utiliser l’automatisation de l’interface utilisateur de Microsoft pour récupérer des informations d’interface utilisateur sur les éléments virtualisés dans l’affichage des éléments Windows 7. Cette rubrique comprend les sections suivantes.
+cette rubrique explique comment utiliser l’automatisation de l’interface utilisateur de Microsoft pour récupérer des informations d’interface utilisateur sur les éléments virtualisés dans l’affichage Windows 7 éléments. Cette rubrique comprend les sections suivantes.
 
 > [!Note]  
-> Cette rubrique s’applique uniquement à Windows 7. Sachez que les fonctionnalités d’accessibilité décrites dans cette rubrique peuvent changer dans les versions futures de Windows.
+> cette rubrique s’applique uniquement à Windows 7. Sachez que les fonctionnalités d’accessibilité décrites dans cette rubrique peuvent changer dans les versions ultérieures de Windows.
 
- 
+ 
 
--   [Vue d’ensemble](#overview)
+-   [Vue d'ensemble](#overview)
 -   [Arborescence de la vue éléments, structure](#items-view-tree-structure)
 -   [Virtualisation](#virtualization)
 -   [Obtention du décompte de tous les éléments](#obtaining-a-count-of-all-items)
@@ -31,12 +31,12 @@ Cette rubrique explique comment utiliser l’automatisation de l’interface uti
 
 ## <a name="overview"></a>Vue d’ensemble
 
-La vue éléments est un composant d’interface utilisateur qui permet aux utilisateurs d’afficher et d’interagir avec des fichiers et d’autres éléments. Dans Windows 7, la vue éléments remplace le contrôle List-View pour présenter des éléments dans la vue par défaut de l’Explorateur Windows. La vue éléments est également utilisée dans la boîte de dialogue élément commun, les résultats de la recherche dans le menu Démarrer et d’autres éléments d’interface utilisateur Windows 7 qui utilisent le contrôle navigateur de l’Explorateur. Par rapport au contrôle List-View, la vue items offre les avantages suivants aux utilisateurs :
+La vue éléments est un composant d’interface utilisateur qui permet aux utilisateurs d’afficher et d’interagir avec des fichiers et d’autres éléments. dans Windows 7, la vue éléments remplace le contrôle list-view pour présenter des éléments dans la vue par défaut de Windows Explorer. la vue éléments est également utilisée dans la boîte de dialogue élément commun, menu Démarrer les résultats de recherche et d’autres Windows 7 éléments d’interface utilisateur qui utilisent le contrôle navigateur de l’explorateur. Par rapport au contrôle List-View, la vue items offre les avantages suivants aux utilisateurs :
 
 -   La vue éléments peut présenter des éléments qui sont plus utiles, souhaitables et pertinents, ce qui permet aux utilisateurs de rechercher et d’organiser des éléments plus simplement, rapidement et facilement.
 -   La vue éléments peut afficher de grands ensembles d’éléments à partir de sources de données qui ont des caractéristiques de performances différentes, ce qui permet aux utilisateurs de parcourir et de rechercher la totalité de leur collection d’éléments dans plusieurs sources.
 
-L’illustration suivante montre la vue éléments dans l’Explorateur Windows.
+l’illustration suivante montre la vue éléments dans Windows Explorer.
 
 ![capture d’écran montrant l’Explorateur Windows avec le composant vue éléments](images/itemsview.gif)
 
@@ -50,7 +50,7 @@ Dans l’arborescence UI Automation, l’élément UI Automation de niveau supé
 
 Les éléments de groupe sont les éléments UI Automation qui contiennent tous les éléments de liste de ce groupe : leur type de contrôle est « groupe » et leurs noms varient en fonction du nom du groupe. Dans l’image précédente, le premier élément de groupe contient à la fois l’en-tête « A-H (1) » et l’élément de liste « dossier », et son nom est « A-H ».
 
-Les éléments de liste sont les éléments UI Automation qui représentent les éléments feuille de la vue : leur type de contrôle est « ListItem » et leurs noms varient en fonction du nom de l’élément. Dans l’image précédente, les éléments de liste sont les éléments feuilles tels que « Folder », « Music » et « Picture ». Ces trois éléments UI Automation sont référencés par les termes ItemsView ELEMENT, Group Element et ListItem dans le reste de ce document.
+Les éléments de liste sont les éléments UI Automation qui représentent les éléments feuille de la vue : leur type de contrôle est « ListItem » et leurs noms varient en fonction du nom de l’élément. dans l’image précédente, les éléments de liste sont les éléments feuille tels que « Folder », « Musique » et « image ». Ces trois éléments UI Automation sont référencés par les termes ItemsView ELEMENT, Group Element et ListItem dans le reste de ce document.
 
 ## <a name="virtualization"></a>Virtualisation
 
@@ -78,7 +78,7 @@ Les propriétés personnalisées de l’élément ItemsView incluent une propri�
 
     (UIAutomationType : [**UIAutomationType \_ int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype), nom de programmation : "SelectedItemCount")
 
-Ces propriétés personnalisées sont définies dans shlguid. h, qui est inclus dans le kit de développement logiciel (SDK) Windows, et ces propriétés sont inscrites via la méthode [**IUIAutomationRegistrar :: RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) . Les clients UI Automation utilisent **RegisterProperty** pour récupérer les identificateurs de propriété (connaître) pour les propriétés personnalisées.
+ces propriétés personnalisées sont définies dans Shlguid. h, qui est inclus dans le kit de développement logiciel (SDK) Windows, et ces propriétés sont inscrites via la méthode [**IUIAutomationRegistrar :: RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) . Les clients UI Automation utilisent **RegisterProperty** pour récupérer les identificateurs de propriété (connaître) pour les propriétés personnalisées.
 
 ## <a name="obtaining-an-item-index-with-respect-to-all-items"></a>Obtention d’un index d’élément par rapport à tous les éléments
 
@@ -92,7 +92,7 @@ La propriété personnalisée suivante obtient l’index d’élément d’un é
 
     (UIAutomationType : [**UIAutomationType \_ int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype), nom de programmation : "ItemIndex")
 
-Cette propriété personnalisée est définie dans shlguid. h, qui est inclus dans le SDK Windows, et est inscrite via la méthode [**IUIAutomationRegistrar :: RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) . Les clients UI Automation utilisent **RegisterProperty** pour récupérer un identificateur de propriété (connaître) pour la propriété personnalisée.
+cette propriété personnalisée est définie dans Shlguid. h, qui est inclus dans le SDK Windows, et est inscrite via la méthode [**IUIAutomationRegistrar :: RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) . Les clients UI Automation utilisent **RegisterProperty** pour récupérer un identificateur de propriété (connaître) pour la propriété personnalisée.
 
 ## <a name="obtaining-a-reference-to-a-vitualized-item"></a>Obtention d’une référence à un élément Vitualized
 
@@ -122,9 +122,9 @@ Il est également possible de déplacer des éléments dans et hors de l’affic
 [Utilisation d’éléments virtualisés](uiauto-workingwithvirtualizeditems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-description: Générateur de graphiques DVD
+description: générateur de Graph DVD
 ms.assetid: c74cf1d8-2560-4302-ba68-8a1693f7ca6f
-title: Générateur de graphiques DVD
+title: générateur de Graph DVD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f47c41494e82b69bfb5980b9c1b8ed65e981d30
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 656f77d23aa70c02bca94a6578ae84b791f54a208e3cbd01c3f16cd574d3eaca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016057"
 ---
-# <a name="dvd-graph-builder"></a>Générateur de graphiques DVD
+# <a name="dvd-graph-builder"></a>générateur de Graph DVD
 
-Le générateur de graphiques DVD est un objet d’assistance pour la création de graphiques de lecture de DVD. Les applications peuvent utiliser ce composant pour créer des graphiques de filtre pour la lecture et la navigation sur DVD. Créez cet objet en appelant **CoCreateInstance**.
+le générateur de Graph dvd est un objet d’assistance pour la création de graphiques de lecture de dvd. Les applications peuvent utiliser ce composant pour créer des graphiques de filtre pour la lecture et la navigation sur DVD. Créez cet objet en appelant **CoCreateInstance**.
 
 
 
@@ -30,7 +30,7 @@ Le générateur de graphiques DVD est un objet d’assistance pour la création 
 
 <dl> <dt>
 
-[Objets DirectShow](directshow-objects.md)
+[DirectShow Objets](directshow-objects.md)
 </dt> <dt>
 
 [Applications DVD](dvd-applications.md)

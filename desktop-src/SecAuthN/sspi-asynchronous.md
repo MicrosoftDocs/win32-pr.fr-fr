@@ -4,12 +4,12 @@ description: Vue d’ensemble de l’en-tête SSPI asynchrone.
 ms.topic: article
 ms.keywords: SSPI, Async SSPI, SSPI Async, Asynchronous SSPI, sspi,SspiAcceptSecurityContextAsync, SspiAcquireCredentialsHandleAsync, SspiAsyncContextRequiresNotify, SspiAsyncNotifyCallback, SspiCreateAsyncContext,SspiDeleteSecurityContextAsync, SspiFreeAsyncContext, SspiFreeCredentialsHandleAsync, SspiGetAsyncCallStatus, SspiInitializeSecurityContextAsync, SspiReinitAsyncContext, SspiSetAsyncNotifyCallback
 ms.date: 06/23/2020
-ms.openlocfilehash: acd1fedff605706dc5b20c3c2604a51d5cead27f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2fe4e6cc8358ec39c402bccdf8562d613ac952547687142cb3553d04c8f0ce6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917164"
 ---
 # <a name="asynchronous-sspi"></a>SSPI asynchrone
 

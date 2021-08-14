@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c118a2f7553c86de4b3c36b2904a3b7d75518a2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 2520eb57be8b14f33314192cb6347d85ca3a0ad8a1fc1818b53e5da52099d33d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119022007"
 ---
 # <a name="transport-dll-name-attribute"></a>Attribut de nom de la DLL de transport
 
@@ -46,7 +46,7 @@ Nom de la DLL qui gérera un transport.
 -   [**Windows Server 2003**](#windows-server-2003)
 -   [**ADAM**](#adam)
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

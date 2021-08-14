@@ -3,7 +3,7 @@ title: Message EM_POSFROMCHAR (winuser. h)
 description: Récupère les coordonnées de la zone cliente d’un caractère spécifié dans un contrôle d’édition. Vous pouvez envoyer ce message à un contrôle d’édition ou à un contrôle d’édition enrichi.
 ms.assetid: a32532fa-976f-4c19-ac6e-29e5614fc410
 keywords:
-- EM_POSFROMCHAR les contrôles de message Windows
+- EM_POSFROMCHAR les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d98968873ad006b2e91cf3add2429bf7630fae1c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0e1d9d2dccb6ccf1bd80b44b2221f8628f13e595ee514074956e7869447d513
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437879"
 ---
 # <a name="em_posfromchar-message"></a>\_Message POSFROMCHAR em
 
@@ -53,7 +53,7 @@ Récupère les coordonnées de la zone cliente d’un caractère spécifié dans
 
 **Edit Controls et Rich edit 2,0 :** La valeur de retour contient les coordonnées de la zone cliente du caractère. Le [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) contient la coordonnée horizontale et le [**HIWORD**](/previous-versions/windows/desktop/legacy/ms632657(v=vs.85)) contient la coordonnée verticale.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Une coordonnée retournée peut être une valeur négative si le caractère spécifié n’est pas affiché dans la zone cliente du contrôle d’édition. Les coordonnées sont tronquées en valeurs entières.
 
@@ -69,8 +69,8 @@ Si le caractère est un délimiteur de ligne, les coordonnées retournées indiq
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                                           |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                     |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                                           |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                     |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 
