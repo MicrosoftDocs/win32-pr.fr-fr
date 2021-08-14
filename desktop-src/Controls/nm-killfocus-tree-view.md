@@ -3,7 +3,7 @@ title: Code de notification NM_KILLFOCUS (arborescence) (commctrl. h)
 description: Avertit une fenêtre parente d’un contrôle Tree-View que le contrôle a perdu le focus d’entrée. Ce code de notification est envoyé sous la forme d’un \_ message WM Notify.
 ms.assetid: f6646a39-6480-4417-9c1c-ffd2417ca7dd
 keywords:
-- Contrôles Windows de code de notification NM_KILLFOCUS (arborescence)
+- NM_KILLFOCUS (arborescence) code de notification Windows les contrôles
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7123f47469a02fcec92805a27d81e173c5e1d10a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d059bf4d85285454112a1a4fa626ed6bfd46a25ab13e3bfc2e648da372f64828
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103941663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118410947"
 ---
 # <a name="nm_killfocus-tree-view-notification-code"></a>\_Code de notification KILLFOCUS nm (arborescence)
 
@@ -55,8 +55,8 @@ La valeur de retour est ignorée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

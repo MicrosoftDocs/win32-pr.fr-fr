@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a2d02a1d4ea07bd045da2850a4d7ccb0069977a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6c74602e09f7aab4909e78bcd4696a450419e929b89769b35e16f21cbcafc080
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354020"
 ---
 # <a name="dumpvminfo-method-of-the-win32_tsvm-class"></a>Méthode DumpVmInfo de la \_ classe Win32 TSVm
 

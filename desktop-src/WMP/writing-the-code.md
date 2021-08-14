@@ -3,19 +3,19 @@ title: Écriture du code
 description: Écriture du code
 ms.assetid: dd760de6-1779-4526-ad3e-9e814da8d62e
 keywords:
-- Windows Media Player Mobile Skins, écriture de code
+- Lecteur Windows Media Skins mobiles, écriture de code
 - apparences, écrire du code
 - création d’apparences, écriture de code
-- écriture de code pour les habillages, Windows Media Player Mobile
+- écriture de code pour les habillages, Lecteur Windows Media Mobile
 - écriture de code pour les habillages, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3834255bd8cb1da14c2712ab69e4da6d750c32e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bac63a871be65dd4217d65a7d9353531bc9253e1881e8ba6fedb6da94fe113e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745515"
 ---
 # <a name="writing-the-code"></a>Écriture du code
 
@@ -40,9 +40,9 @@ Pour plus d’informations sur les spécificités des fichiers de définition d�
 [**Repère d’apparence**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

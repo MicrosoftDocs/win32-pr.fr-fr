@@ -3,9 +3,9 @@ title: Événement Player. CurrentPlaylistChange
 description: L’événement CurrentPlaylistChange se produit en cas de modification de la sélection actuelle. | Événement Player. CurrentPlaylistChange
 ms.assetid: 5270373e-e401-40c6-bf8c-ef0557610372
 keywords:
-- Événement CurrentPlaylistChange lecteur Windows Media
-- Événement CurrentPlaylistChange lecteur Windows Media, classe Player
-- Classe de lecteur Windows Media Player, événement CurrentPlaylistChange
+- Lecteur Windows Media d’événements CurrentPlaylistChange
+- Lecteur Windows Media d’événements CurrentPlaylistChange, classe Player
+- Lecteur Windows Media de classe Player, événement CurrentPlaylistChange
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4722db224285587198e3ddb021022ec5d8f2cea6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 672ff739e60efe73e1d30670dec5bc956f9fdd56506464b036add6f52cc6fc34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106542511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338145"
 ---
 # <a name="playercurrentplaylistchange-event"></a>Événement Player. CurrentPlaylistChange
 
@@ -53,15 +53,15 @@ Player.CurrentPlaylistChange(
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet événement ne se produit pas lorsqu’une sélection différente devient la sélection actuelle. Il se produit uniquement lorsqu’une modification se produit dans la sélection actuelle, par exemple un élément multimédia ajouté à la sélection.
 
-La valeur des paramètres d’événement est spécifiée par le lecteur Windows Media et est accessible ou transmise à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
+la valeur des paramètres d’événement est spécifiée par Lecteur Windows Media, et est accessible ou passée à une méthode dans un fichier JScript importé à l’aide du nom de paramètre donné. Ce nom de paramètre doit être tapé exactement comme indiqué, y compris la mise en majuscules.
 
 ## <a name="examples"></a>Exemples
 
-L’exemple JScript suivant met à jour le texte d’un élément DIV HTML, nommé PlItems, pour afficher les noms des éléments multimédias dans la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
+l’exemple de JScript suivant met à jour le texte d’un élément DIV HTML, nommé PlItems, pour afficher les noms des éléments multimédias dans la sélection actuelle. L’objet **Player** a été créé avec ID = "Player".
 
 
 ```JScript

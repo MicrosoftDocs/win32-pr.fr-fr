@@ -4,33 +4,33 @@ description: Gestion des événements en C++
 ms.assetid: 5d9eb1c7-7022-4442-b67a-6a96fe5ce97f
 keywords:
 - Lecteur Windows Media, C++
-- Windows Media Player Object Model, C++
+- Lecteur Windows Media modèle objet, C++
 - modèle objet, C++
-- Windows Media Player Mobile, C++
-- Contrôle ActiveX du lecteur Windows Media, C++
-- Windows Media Player Mobile, contrôle ActiveX, C++
-- Contrôle ActiveX, C++
+- Lecteur Windows Media Mobile, C++
+- Lecteur Windows Media ActiveX contrôle, C++
+- Lecteur Windows Media contrôle Mobile ActiveX, C++
+- contrôle ActiveX, C++
 - Incorporation de programmes C++
 - incorporation, programmes C++
-- Contrôle ActiveX du lecteur Windows Media, gestion des événements
-- Windows Media Player Mobile contrôle ActiveX, gestion des événements
-- Contrôle ActiveX, gestion des événements
+- contrôle de ActiveX Lecteur Windows Media, gestion des événements
+- Lecteur Windows Media contrôle Mobile ActiveX, gestion des événements
+- contrôle de ActiveX, gestion des événements
 - événements, C++
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cbef547ab2604244c5c204707a08eb87a6b70a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf5d50be4622cee9ee455710f8b9d2e4cafc63d6560e08faf5c3deaddcdaccc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104100745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748404"
 ---
 # <a name="handling-events-in-c"></a>Gestion des événements en C++
 
-Vous pouvez recevoir des événements du lecteur Windows Media de deux manières.
+vous pouvez recevoir des événements de Lecteur Windows Media de deux manières.
 
 -   Via **IDispatch** à l’aide de l’interface **\_ WMPOCXEvents** . Il s’agit de l’interface à utiliser pour la plupart des scénarios d’incorporation.
--   Via l’interface **IWMPEvents** . Cette interface est disponible lorsque votre code est connecté au lecteur en mode complet, par exemple lors de la communication à distance du contrôle du lecteur Windows Media ou dans un plug-in d’interface utilisateur.
+-   Via l’interface **IWMPEvents** . cette interface est disponible lorsque votre code est connecté au lecteur en mode complet, par exemple lors de la communication à distance du contrôle Lecteur Windows Media ou dans un plug-in d’interface utilisateur.
 
 Dans chaque scénario, vous commencez à écouter des événements à l’aide de points de connexion COM.
 
@@ -166,13 +166,13 @@ HRESULT CMyClass::Invoke(
 
 Dans l’exemple de code précédent, chaque cas appelle simplement via le gestionnaire **IWMPEvents** pour l’événement correspondant. Si votre code gère uniquement **\_ WMPOCXEvents**, vous pouvez simplement appeler une fonction personnalisée ou gérer l’événement Inline après l’instruction **case** .
 
-## <a name="receiving-events-from-windows-media-player-10-mobile"></a>Réception d’événements du lecteur Windows Media 10 mobile
+## <a name="receiving-events-from-windows-media-player-10-mobile"></a>réception d’événements de Lecteur Windows Media 10 Mobile
 
-Le contrôle mobile du lecteur Windows Media 10 ne prend en charge que la réception de certains événements via **\_ WMPOCXEvents** et **IWMPEvents**. Pour plus d’informations, consultez la documentation de **IWMPEvents**.
+le contrôle Mobile Lecteur Windows Media 10 prend uniquement en charge la réception de certains événements via **\_ WMPOCXEvents** et **IWMPEvents**. Pour plus d’informations, consultez la documentation de **IWMPEvents**.
 
 ## <a name="samples"></a>Exemples
 
-Le package d’installation du lecteur Windows Media installe un exemple qui illustre la gestion des événements. Pour plus d’informations, consultez l’exemple WMPHost.
+le package d’installation Lecteur Windows Media installe un exemple qui illustre la gestion des événements. Pour plus d’informations, consultez l’exemple WMPHost.
 
 ## <a name="related-topics"></a>Rubriques connexes
 
@@ -181,12 +181,12 @@ Le package d’installation du lecteur Windows Media installe un exemple qui ill
 [**Exemples**](samples.md)
 </dt> <dt>
 
-[**Utilisation du contrôle du lecteur Windows Media dans un programme C++**](using-the-windows-media-player-control-in-a-c---program.md)
+[**utilisation du contrôle Lecteur Windows Media dans un programme C++**](using-the-windows-media-player-control-in-a-c---program.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

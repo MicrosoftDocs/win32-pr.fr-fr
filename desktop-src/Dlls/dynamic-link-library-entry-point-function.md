@@ -4,12 +4,12 @@ ms.assetid: ec035fc6-0a6f-4e52-a4cc-8d7a25a94366
 title: Entry-Point fonction de la bibliothèque de Dynamic-Link
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62bff557bfa2aa792b420e8fe1856bbe0726921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6289f705a11dad58eca8b047ba469ee07320dedef762024cbfa04046a0677f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103753773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815837"
 ---
 # <a name="dynamic-link-library-entry-point-function"></a>Entry-Point fonction de la bibliothèque de Dynamic-Link
 
@@ -30,7 +30,7 @@ Le système appelle la fonction de point d’entrée chaque fois que l’un des 
 
 Un seul thread à la fois peut appeler la fonction de point d’entrée.
 
-Le système appelle la fonction de point d’entrée dans le contexte du processus ou du thread qui a provoqué l’appel de la fonction. Cela permet à une DLL d’utiliser sa fonction de point d’entrée pour allouer de la mémoire dans l’espace d’adressage virtuel du processus appelant ou pour ouvrir des handles accessibles au processus. La fonction de point d’entrée peut également allouer de la mémoire qui est privée à un nouveau thread à l’aide du stockage local des threads (TLS). Pour plus d’informations sur le stockage local des threads, consultez [stockage local des threads](/windows/desktop/ProcThread/thread-local-storage).
+Le système appelle la fonction de point d’entrée dans le contexte du processus ou du thread qui a provoqué l’appel de la fonction. Cela permet à une DLL d’utiliser sa fonction de point d’entrée pour allouer de la mémoire dans l’espace d’adressage virtuel du processus appelant ou pour ouvrir des handles accessibles au processus. La fonction de point d’entrée peut également allouer de la mémoire qui est privée à un nouveau thread à l’aide du stockage local des threads (TLS). pour plus d’informations sur le stockage local des threads, consultez [thread local Stockage](/windows/desktop/ProcThread/thread-local-storage).
 
 ## <a name="entry-point-function-definition"></a>Définition de la fonction Entry-Point
 

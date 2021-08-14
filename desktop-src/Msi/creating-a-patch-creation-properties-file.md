@@ -1,19 +1,19 @@
 ---
-description: Pour reproduire l’exemple de package de correctifs, vous avez besoin d’un outil logiciel permettant de créer et de modifier un package de correctifs Windows Installer.
+description: pour reproduire l’exemple de package de correctifs, vous avez besoin d’un outil logiciel permettant de créer et de modifier un package de correctifs Windows Installer.
 ms.assetid: 0653d8f6-89b0-4c56-ae51-3c7cb7df2909
 title: Création d’un fichier de propriétés de création de correctifs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2775f8521731b43264df315ae05a874e37dd3ffc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50873fd508aa9f31435bd401284d38d13310991e150b28f4e24e5ec27f505dc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106522461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379404"
 ---
 # <a name="creating-a-patch-creation-properties-file"></a>Création d’un fichier de propriétés de création de correctifs
 
-Pour reproduire l’exemple de package de correctifs, vous avez besoin d’un outil logiciel permettant de créer et de modifier un package de correctifs Windows Installer. Plusieurs outils de création de packages de correctifs sont disponibles auprès des éditeurs de logiciels indépendants. L’exemple décrit dans les sections suivantes utilise une Windows Installer éditeur de base de données appelé Orca pour créer un fichier de propriétés de création de correctifs (extension. PCP). Le fichier. PCP peut être utilisé avec les utilitaires [Msimsp.exe](msimsp-exe.md) et [Patchwiz.dll](patchwiz-dll.md) pour générer un package de correctifs Windows Installer (extension. msp). Orca, Msimsp.exe et Patchwiz.dll sont fournis dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
+pour reproduire l’exemple de package de correctifs, vous avez besoin d’un outil logiciel permettant de créer et de modifier un package de correctifs Windows Installer. Plusieurs outils de création de packages de correctifs sont disponibles auprès des éditeurs de logiciels indépendants. l’exemple décrit dans les sections suivantes utilise une Windows Installer éditeur de base de données appelé Orca pour créer un fichier de propriétés de création de correctifs (extension. pcp). le fichier. pcp peut être utilisé avec les utilitaires [Msimsp.exe](msimsp-exe.md) et [Patchwiz.dll](patchwiz-dll.md) pour générer un package de correctifs Windows Installer (extension. msp). Orca, Msimsp.exe et Patchwiz.dll sont fournis dans les [composants SDK Windows pour les développeurs Windows Installer](platform-sdk-components-for-windows-installer-developers.md).
 
 Un fichier de propriétés de création de correctifs vide, template. PCP, est également fourni avec le kit de développement logiciel (SDK). Effectuez une copie de template. PCP et renommez cette copie MNP2000. PCP. Utilisez Orca ou un autre éditeur de base de données pour entrer les données suivantes dans la table Properties de MNP2000. PCP. La table propriétés contient des paramètres globaux pour le package correctif.
 

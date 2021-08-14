@@ -7,12 +7,12 @@ keywords:
 - Fournisseur LDAP ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8edbca53708a46c2f788c328a78bd2488973486
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d9632f352bdfab9653de5c443d750be027c3dd74140c2a017e5d12a6dc0f673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180593"
 ---
 # <a name="adsi-ldap-provider"></a>Fournisseur LDAP ADSI
 
@@ -23,11 +23,11 @@ Adsldp.dll, Adsldpc.dll, Adsmsext.dll et Activeds.dll doivent être installés s
 > [!Note]  
 > Le fournisseur LDAP ADSI par défaut ne peut pas être considéré comme entièrement thread-safe. Les rédacteurs d’applications multithread doivent coordonner correctement l’accès entre les threads via l’utilisation appropriée d’objets de synchronisation tels que les sémaphores, les mutex, les sections critiques, etc.
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,17 +4,17 @@ description: Avec une zone de liste, les utilisateurs peuvent sélectionner un e
 ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 3db0bbb07ed6cea18b7d8fb29fd4e329840590d5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8d4f30394e9704ba01832c60e7b41e3453a5c7abe1715678ca84405e73724c7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218101"
 ---
 # <a name="list-boxes"></a>Zones de liste
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une zone de liste, les utilisateurs peuvent sélectionner un ensemble de valeurs présentées dans une liste qui est toujours visible. Avec une zone de liste à sélection unique, les utilisateurs sélectionnent un élément dans une liste de valeurs s’excluant mutuellement. Avec une zone de liste à sélection multiple, les utilisateurs sélectionnent zéro, un ou plusieurs éléments dans une liste de valeurs.
 
@@ -147,7 +147,7 @@ Dans cet exemple, un grand nombre d’éléments de liste doivent être triés p
 
 **Correct :** ![ capture d’écran de la liste alphabétique ](images/ctrl-list-boxes-image12.png)
 
-Dans cet exemple, les éléments de la liste sont plus faciles à trouver, car ils sont triés par ordre alphabétique. Toutefois, l’élément « tous les produits Windows » se trouve au début de la liste, quel que soit son ordre de tri.
+Dans cet exemple, les éléments de la liste sont plus faciles à trouver, car ils sont triés par ordre alphabétique. toutefois, l’élément « tous les Windows produits » se trouve au début de la liste, quel que soit son ordre de tri.
 
 -   **Placez les options qui représentent tout ou aucune au début de la liste**, quel que soit l’ordre de tri des éléments restants.
 -   **Placez les méta-options entre parenthèses.**

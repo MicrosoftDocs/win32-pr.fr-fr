@@ -9,12 +9,12 @@ keywords:
 - AD Functions
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 364621e04d4375c091fda4335d2a33c84a7aad8a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d147b1cbc10f778d029883440f54e85adf8992fad590581f5e59e5a89792fc2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104028608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189160"
 ---
 # <a name="functions-in-active-directory-domain-services"></a>Fonctions dans Active Directory Domain Services
 
@@ -26,9 +26,9 @@ Voici les catégories de fonctions de Active Directory Domain Services :
 -   [Fonctions du service d’annuaire](directory-service-functions.md)
 -   [Fonctions de sauvegarde d’annuaire](directory-backup-functions.md)
 
- 
+ 
 
- 
+ 
 
 
 

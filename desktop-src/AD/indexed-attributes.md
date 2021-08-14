@@ -8,12 +8,12 @@ keywords:
 - Attributs AD, indexés
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c280d5390d666b6b0f95f49972e4c569f046865b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cabd205fea66b198096a9a9427822eb4ba0ccb609fb3e6fef0854fa91848371c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106511885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187583"
 ---
 # <a name="indexed-attributes-ad-ds"></a>Attributs indexés (AD DS)
 
@@ -33,16 +33,16 @@ Pour vérifier qu’un serveur utilise un index pour traiter une requête, affec
 
 ```
 HKEY_LOCAL_MACHINE
-   SYSTEM
-      Current Control Set
-         Services
-            NTDS
-               Diagnostics
-                  9 Internal Processing
+   SYSTEM
+      Current Control Set
+         Services
+            NTDS
+               Diagnostics
+                  9 Internal Processing
 ```
 
 Pour plus d’informations sur les autres bits dans la propriété [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) , consultez [caractéristiques des attributs](characteristics-of-attributes.md).
 
- 
+ 
 
- 
+ 

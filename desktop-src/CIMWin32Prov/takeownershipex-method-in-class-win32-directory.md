@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2e391e942e581d0f80d46b0f59b9b273d7bff499
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3893b7acef182005603f4a80a51caf159b54dd31cc2a966d5dc9940a5164681d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106519203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418512"
 ---
 # <a name="takeownershipex-method-of-the-win32_directory-class"></a>Méthode TakeOwnerShipEx de la \_ classe Directory Win32
 
@@ -171,7 +171,7 @@ Un paramètre spécifié n’est pas valide.
 
 ## <a name="examples"></a>Exemples
 
-L’Visual Basic Code de script suivant appelle la méthode [**TakeOwnerShipEx**](takeownershipex-method-in-class-cim-directory.md) pour prendre possession du dossier C : \\ temp.
+l’Visual Basic code de Script suivant appelle la méthode [**TakeOwnerShipEx**](takeownershipex-method-in-class-cim-directory.md) pour prendre possession du dossier C : \\ temp.
 
 
 ```VB

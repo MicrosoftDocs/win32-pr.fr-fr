@@ -1,6 +1,6 @@
 ---
 title: Énumération des utilisateurs
-description: Contrairement aux domaines Windows NT 4,0, les utilisateurs de Windows 2000 peuvent être placés dans un conteneur ou une unité d’organisation (UO) dans un domaine, ainsi que la racine du domaine.
+description: contrairement à Windows domaines NT 4,0, Windows 2000 utilisateurs peuvent être placés dans n’importe quel conteneur ou unité d’organisation (ou) dans un domaine, ainsi que la racine du domaine.
 ms.assetid: 4a35af7a-f43b-4cf9-a030-77f6c2518ae7
 ms.tgt_platform: multiple
 keywords:
@@ -9,16 +9,16 @@ keywords:
 - Active Directory, utilisation de, utilisateurs, énumération d’un utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e922d92f4313ed0238ff068f7ae1c0fbf693d497
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: aa43034c6c006c9c70531f25e2a838ecfc30520e9b42e0b9599e5714a29f225e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106545740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191339"
 ---
 # <a name="enumerating-users"></a>Énumération des utilisateurs
 
-Contrairement aux domaines Windows NT 4,0, les utilisateurs de Windows 2000 peuvent être placés dans un conteneur ou une unité d’organisation (UO) dans un domaine, ainsi que la racine du domaine. Cela signifie que les utilisateurs peuvent se trouver à de nombreux emplacements dans la hiérarchie de répertoires. Par conséquent, vous avez deux possibilités pour l’énumération des utilisateurs :
+contrairement à Windows domaines NT 4,0, Windows 2000 utilisateurs peuvent être placés dans n’importe quel conteneur ou unité d’organisation (ou) dans un domaine, ainsi que la racine du domaine. Cela signifie que les utilisateurs peuvent se trouver à de nombreux emplacements dans la hiérarchie de répertoires. Par conséquent, vous avez deux possibilités pour l’énumération des utilisateurs :
 
 -   Énumérer les utilisateurs contenus directement dans un conteneur, une unité d’organisation ou à la racine du domaine :
 
@@ -40,6 +40,6 @@ Contrairement aux domaines Windows NT 4,0, les utilisateurs de Windows 2000 peuv
 
     Seules les propriétés spécifiques sont récupérées. Vous ne pouvez pas récupérer tous les attributs sans spécifier explicitement chaque attribut possible de la classe utilisateur.
 
- 
+ 
 
- 
+ 

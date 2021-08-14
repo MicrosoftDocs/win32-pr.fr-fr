@@ -1,19 +1,19 @@
 ---
-description: Lorsque vous utilisez les boîtes de dialogue Microsoft Windows, vous devez étiqueter tous les contrôles pour faciliter la fonctionnalité vocale. La boîte de dialogue Exécuter suivante affiche une étiquette de contrôle de texte statique pour une zone de liste déroulante. Le texte statique se termine par un signe deux-points.
+description: lorsque vous utilisez les boîtes de dialogue de Windows de Microsoft, vous devez étiqueter tous les contrôles pour faciliter la fonctionnalité vocale. La boîte de dialogue Exécuter suivante affiche une étiquette de contrôle de texte statique pour une zone de liste déroulante. Le texte statique se termine par un signe deux-points.
 ms.assetid: 3b01a4d2-9deb-413f-bab8-566df86b6af9
 title: Nommer des contrôles dans les boîtes de dialogue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0f74ecb3737b422450388ee87ab4177e899aa6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c33720c08a7f5454b54d7d982b14c091fe6e1df4c18a49cd649f54690f2eb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449825"
 ---
 # <a name="naming-controls-in-dialog-boxes"></a>Nommer des contrôles dans les boîtes de dialogue
 
-Lorsque vous utilisez les boîtes de dialogue Microsoft Windows, vous devez étiqueter tous les contrôles pour faciliter la fonctionnalité vocale. La boîte de dialogue **exécuter** suivante affiche une étiquette de contrôle de texte statique pour une zone de liste déroulante. Le texte statique se termine par un signe deux-points.
+lorsque vous utilisez les boîtes de dialogue de Windows de Microsoft, vous devez étiqueter tous les contrôles pour faciliter la fonctionnalité vocale. La boîte de dialogue **exécuter** suivante affiche une étiquette de contrôle de texte statique pour une zone de liste déroulante. Le texte statique se termine par un signe deux-points.
 
 ![capture d’écran montrant la boîte de dialogue Exécuter](images/fb0bd076-e9f9-4260-a54a-9d7db93157da.jpg)
 

@@ -4,25 +4,25 @@ description: Référence des attributs de la sélection
 ms.assetid: d163b6fd-a64f-4160-95cb-6ac1153f011b
 keywords:
 - Lecteur Windows Media, attributs de sélection
-- Windows Media Player Mobile, attributs de sélection
-- Modèle d’objet du lecteur Windows Media, attributs de sélection
+- Lecteur Windows Media Mobile, attributs de sélection
+- Lecteur Windows Media modèle objet, attributs de sélection
 - modèle objet, attributs de sélection
-- Contrôle ActiveX, attributs de sélection
-- Contrôle ActiveX du lecteur Windows Media, attributs de sélection
-- Contrôle ActiveX Windows Media Player Mobile, attributs de sélection
+- contrôle de ActiveX, attributs de sélection
+- contrôle de ActiveX Lecteur Windows Media, attributs de sélection
+- Lecteur Windows Media contrôle de ActiveX Mobile, attributs de sélection
 - informations de référence sur le modèle objet, les attributs playlist
 - attributs, sélections
 - sélections, attributs
 - sélections de métafichiers, attributs
-- Sélections de métafichiers Windows Media, attributs
+- Windows Sélections de métafichiers multimédia, attributs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28bff94922356a18994f5750acd7e4201915360d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8e9d9706ed062035de3bdcde175497f0e22cd735409b6834040f3d325ef4b066
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106513571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337169"
 ---
 # <a name="playlist-attributes-reference"></a>Référence des attributs de la sélection
 

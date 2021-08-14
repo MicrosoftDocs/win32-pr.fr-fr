@@ -4,12 +4,12 @@ ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: Extension des menus contextuels
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 895550ff050d559b3523676ddaa2a58099398a97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d046805ebc787f5cad2bfaa40538c51b826c3f0541f3ec1afad508202a4a25fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460646"
 ---
 # <a name="extending-shortcut-menus"></a>Extension des menus contextuels
 
@@ -31,13 +31,13 @@ Des informations supplémentaires sont disponibles ici :
 
 ## <a name="shortcut-menus-for-file-system-objects"></a>Menus contextuels pour les objets de système de fichiers
 
-Quand un utilisateur clique avec le bouton droit sur un objet, tel qu’un fichier, qui est affiché dans l’Explorateur Windows ou sur le bureau, un menu contextuel s’affiche avec une liste de commandes. L’utilisateur peut ensuite exécuter une action sur le fichier, par exemple l’ouvrir ou le supprimer, en sélectionnant la commande appropriée.
+quand un utilisateur clique avec le bouton droit sur un objet, tel qu’un fichier, qui est affiché dans Windows Explorer ou sur le bureau, un menu contextuel s’affiche avec une liste de commandes. L’utilisateur peut ensuite exécuter une action sur le fichier, par exemple l’ouvrir ou le supprimer, en sélectionnant la commande appropriée.
 
 Comme les menus contextuels sont souvent utilisés pour la gestion des fichiers, l’interpréteur de commandes fournit un ensemble de commandes par défaut, telles que couper et copier, qui apparaissent dans le menu contextuel de n’importe quel fichier. Notez que même si Open with est une commande par défaut, il n’est pas affiché pour certains types de fichiers standard, tels que. wav. L’illustration suivante de l’exemple de répertoire My documents, également utilisé comme exemple dans personnalisation des [icônes](icon.md), affiche un menu contextuel par défaut qui s’affichait en cliquant avec le bouton droit sur MyDocs4.xyz.
 
 ![capture d’écran du menu contextuel par défaut pour les objets du système de fichiers](images/context1.jpg)
 
-La raison pour laquelle MyDocs4.xyz affiche un menu contextuel par défaut est qu’il n’est pas membre d’un [type de fichier](fa-file-types.md)inscrit. En revanche,. txt est un type de fichier inscrit. Si vous cliquez avec le bouton droit sur l’un des fichiers. txt, vous verrez à la place un menu contextuel avec deux commandes supplémentaires dans sa section supérieure : **ouvrir** et **Imprimer**.
+La raison pour laquelle MyDocs4.xyz affiche un menu contextuel par défaut est qu’il n’est pas membre d’un [type de fichier](fa-file-types.md)inscrit. En revanche, .txt est un type de fichier inscrit. Si vous cliquez avec le bouton droit sur l’un des fichiers de .txt, vous verrez à la place un menu contextuel avec deux commandes supplémentaires dans sa section supérieure : **ouvrir** et **Imprimer**.
 
 ![capture d’écran du menu contextuel personnalisé pour les objets du système de fichiers](images/context2.jpg)
 
@@ -49,7 +49,7 @@ Tout ce qui est nécessaire pour étendre le menu contextuel d’un type de fich
 
 Chaque commande du menu contextuel est identifiée dans le registre par son *verbe*. Ces verbes sont les mêmes que ceux utilisés par [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) lors du lancement d’applications par programme. Pour plus d’informations sur l’utilisation de **ShellExecuteEx**, consultez la discussion dans [lancement d’applications](launch.md).
 
-Un verbe est une chaîne de texte simple qui est utilisée par l’interpréteur de commandes pour identifier la commande associée. Chaque verbe correspond à la *chaîne de commande* utilisée pour lancer la commande dans une fenêtre de console ou un fichier de commandes (. bat). Par exemple, le verbe **Open** lance normalement un programme pour ouvrir un fichier. Sa chaîne de commande se présente généralement comme suit :
+Un verbe est une chaîne de texte simple qui est utilisée par l’interpréteur de commandes pour identifier la commande associée. Chaque verbe correspond à la *chaîne de commande* utilisée pour lancer la commande dans une fenêtre de console ou un fichier de commandes (.bat). Par exemple, le verbe **Open** lance normalement un programme pour ouvrir un fichier. Sa chaîne de commande se présente généralement comme suit :
 
 ``` syntax
 "My Program.exe" "%1"
@@ -77,8 +77,8 @@ Les verbes canoniques sont les suivants :
 | ouvert       | Ouvre le fichier ou le dossier.                                                                   |
 | opennew    | Ouvre le fichier ou le dossier dans une nouvelle fenêtre.                                                   |
 | print      | Imprime le fichier.                                                                            |
-| explorer    | Ouvre l’Explorateur Windows avec le dossier sélectionné.                                            |
-| trouver       | Ouvre la boîte de dialogue **Recherche Windows** avec le dossier défini comme emplacement de recherche par défaut. |
+| explorer    | ouvre Windows Explorer avec le dossier sélectionné.                                            |
+| trouver       | ouvre la boîte de dialogue **recherche de Windows** avec le dossier défini comme emplacement de recherche par défaut. |
 | ouvertes     | Ouvre la boîte **de dialogue Ouvrir avec** .                                                         |
 | properties | Ouvre la feuille de propriétés de l’objet.                                                          |
 
@@ -96,7 +96,7 @@ Quand l’utilisateur clique avec le bouton droit sur un objet, le menu contextu
 
 Le moyen le plus simple d’étendre le menu contextuel pour un type de fichier est d’utiliser le registre. Pour ce faire, ajoutez une sous-clé **Shell** sous la clé pour le ProgID de l’application associée au [type de fichier](fa-file-types.md). Si vous le souhaitez, vous pouvez définir un *verbe par défaut* pour le type de fichier en en faisant la valeur par défaut de la sous-clé **Shell** .
 
-Le verbe par défaut s’affiche en premier dans le menu contextuel. Son objectif est de fournir à l’interpréteur de commandes un verbe qu’il peut utiliser lorsque [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) est appelé, mais qu’aucun verbe n’est spécifié. L’interpréteur de commandes ne sélectionne pas nécessairement le verbe par défaut lorsque **ShellExecuteEx** est utilisé de cette manière. Pour les [versions](versions.md) de Shell 5,0 et ultérieures, détectées sur les systèmes Windows 2000 et versions ultérieures, l’interpréteur de commandes utilise le premier verbe disponible de la liste suivante. Si aucun n’est disponible, l’opération échoue.
+Le verbe par défaut s’affiche en premier dans le menu contextuel. Son objectif est de fournir à l’interpréteur de commandes un verbe qu’il peut utiliser lorsque [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) est appelé, mais qu’aucun verbe n’est spécifié. L’interpréteur de commandes ne sélectionne pas nécessairement le verbe par défaut lorsque **ShellExecuteEx** est utilisé de cette manière. pour les [versions](versions.md) de Shell 5,0 et ultérieures, détectées sur les systèmes Windows 2000 et versions ultérieures, l’interpréteur de commandes utilise le premier verbe disponible de la liste suivante. Si aucun n’est disponible, l’opération échoue.
 
 -   Verbe Open
 -   Le verbe par défaut
@@ -173,7 +173,7 @@ HKEY_CLASSES_ROOT
 
 ## <a name="extending-the-new-submenu"></a>Extension du nouveau sous-menu
 
-Quand un utilisateur ouvre le menu **fichier** dans l’Explorateur Windows, la première commande est **nouvelle**. La sélection de cette commande affiche un sous-menu. Par défaut, il contient deux commandes, **dossier** et **raccourci**, qui permettent aux utilisateurs de créer des sous-dossiers et des raccourcis. Ce sous-menu peut être étendu pour inclure des commandes de création de fichier pour n’importe quel type de fichier.
+quand un utilisateur ouvre le menu **fichier** dans l’explorateur de Windows, la première commande est **nouvelle**. La sélection de cette commande affiche un sous-menu. Par défaut, il contient deux commandes, **dossier** et **raccourci**, qui permettent aux utilisateurs de créer des sous-dossiers et des raccourcis. Ce sous-menu peut être étendu pour inclure des commandes de création de fichier pour n’importe quel type de fichier.
 
 Pour ajouter une commande de création de fichier au sous-menu **nouveau** , les fichiers de votre application doivent être associés à un [type de fichier](fa-file-types.md) . Incluez une sous-clé **ShellNew** sous la clé pour l’extension de nom de fichier. Lorsque la **nouvelle** commande du menu **fichier** est sélectionnée, l’interpréteur de commandes l’ajoute au **nouveau** sous-menu. La chaîne d’affichage de la commande sera la chaîne descriptive qui est assignée au ProgID du programme.
 

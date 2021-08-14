@@ -2,7 +2,7 @@
 description: VOID est un type de données qui représente l’absence d’une valeur. Utilisez VOID dans MOF uniquement pour indiquer une méthode qui n’a pas de valeur de retour.
 ms.assetid: 27dc26ba-6411-4986-99b2-9a2960824dac
 ms.tgt_platform: multiple
-title: NULLITÉ
+title: VOID
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -10,14 +10,14 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6b126603c11255377f022ef1b54713177857836d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c883e5542d80be039d55fef0cc97b77738102652b5f00b90b1ca449b742ddbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106530250"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312228"
 ---
-# <a name="void"></a>NULLITÉ
+# <a name="void"></a>VOID
 
 VOID est un type de données qui représente l’absence d’une valeur. Utilisez VOID dans MOF uniquement pour indiquer une méthode qui n’a pas de valeur de retour.
 

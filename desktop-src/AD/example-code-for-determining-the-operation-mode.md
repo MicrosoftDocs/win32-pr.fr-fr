@@ -7,12 +7,12 @@ keywords:
 - Active Directory exemples Active Directory, détermination du mode d’opération
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a059a750cf98efc066ac510c2c8acf58a65ab8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2bb4a7d00a61298ad8b9b29d9208a50023a6885360d31b14933f83a3102ab1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190772"
 ---
 # <a name="example-code-for-determining-the-operation-mode"></a>Exemple de code pour déterminer le mode d’opération
 
@@ -59,7 +59,7 @@ return hr;
 
 
 
-L’exemple de code Visual Basic suivant lit la propriété **ntMixedDomain** d’un domaine et détermine le mode d’opération.
+l’exemple de code Visual Basic suivant lit la propriété **ntMixedDomain** d’un domaine et détermine le mode d’opération.
 
 
 ```VB
@@ -142,7 +142,7 @@ End Sub
 
 
 
-L’exemple de code Visual Basic Scripting Edition suivant lit la propriété **ntMixedDomain** d’un domaine et détermine le mode d’opération.
+l’exemple de code Visual Basic scripting Edition suivant lit la propriété **ntMixedDomain** d’un domaine et détermine le mode d’opération.
 
 
 ```VB
@@ -217,9 +217,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -39,12 +39,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a00d8e3421800acab7cc4958ddc1e6a75f101958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73312c38857b57f3ffeec8fcaf8a9ea5847001393d0a03d4916da76ffcb8c0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106518394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314458"
 ---
 # <a name="swbemlasterror-object"></a>Objet SWbemLastError
 
@@ -101,7 +101,7 @@ L’objet **SWbemLastError** a ces propriétés.
 |:--------------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Dérivation\_**<br/>                                   | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
 | **Méthodes\_** <br/>                                     | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
-| [**D\_**](swbemlasterror-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/>                    |
+| [**Chemin\_**](swbemlasterror-path-.md)<br/>             | Lecture seule<br/> | Contient un objet [**SWbemObjectPath**](swbemobjectpath.md) qui représente le chemin d’accès de l’objet de la classe ou de l’instance actuelle.<br/>                    |
 | [**Propriétés\_**](swbemlasterror-properties-.md)<br/> | Lecture seule<br/> | Représente la collection de propriétés de l’objet **SWbemLastError** . Cette propriété est un objet [**SWbemPropertySet**](swbempropertyset.md) .<br/> |
 | **Qualificateurs\_**<br/>                                   | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |
 | **Sécurité\_**<br/>                                     | Lecture seule<br/> | Non utilisé. L’objet [**SWbemObject**](swbemobject.md) fournit la même méthode.<br/>                                                                  |

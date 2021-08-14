@@ -4,12 +4,12 @@ ms.assetid: 37E878DC-962F-4E30-8D11-99975BB9EBA4
 title: Identification de la source d’entrée
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: 395cfbe31a3bb66cf75facf62ac558cec2228e89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8208a79dc7c4c7e089c1d951d46b0d3aade483c8a09ba5719e62753d78b62a73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482980"
 ---
 # <a name="input-source-identification"></a>Identification de la source d’entrée
 

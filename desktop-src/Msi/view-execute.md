@@ -1,5 +1,5 @@
 ---
-description: La méthode Execute de l’objet View utilise le jeton de point d’interrogation pour représenter les paramètres dans une instruction SQL. Pour plus d’informations, consultez syntaxe SQL. Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.
+description: la méthode execute de l’objet View utilise le jeton de point d’interrogation pour représenter les paramètres dans une instruction SQL. pour plus d’informations, consultez SQL syntaxe. Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.
 ms.assetid: 4f2b2cb8-8f59-4e4a-ba09-6cb092ef81d6
 title: Méthode de View.Exe
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 939d1aa5216085d701fb728ad5e5e9aa9e07e702
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9bfd1120382ea06f6046f4435d0143024422ff6345959099326ab4a5428d26d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106525141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804027"
 ---
 # <a name="viewexecute-method"></a>Méthode de View.Exe
 
-La méthode **Execute** de l’objet [**View**](view-object.md) utilise le jeton de point d’interrogation pour représenter les paramètres dans une instruction SQL. Pour plus d’informations, consultez [syntaxe SQL](sql-syntax.md). Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.
+la méthode **execute** de l’objet [**View**](view-object.md) utilise le jeton de point d’interrogation pour représenter les paramètres dans une instruction SQL. pour plus d’informations, consultez [SQL syntaxe](sql-syntax.md). Les valeurs de ces paramètres sont transmises en tant que champs correspondants d’un enregistrement de paramètre.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -42,7 +42,7 @@ View.Execute(
 *enregistrement* 
 </dt> <dd>
 
-Objets d' [**enregistrement**](record-object.md) facultatifs qui contiennent les valeurs qui remplacent les jetons de paramètre ( ?) dans la requête SQL.
+objets d' [**enregistrement**](record-object.md) facultatifs qui contiennent les valeurs qui remplacent les jetons de paramètre ( ?) dans la requête SQL.
 
 </dd> </dl>
 
@@ -50,11 +50,11 @@ Objets d' [**enregistrement**](record-object.md) facultatifs qui contiennent les
 
 Cette méthode ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode doit être appelée avant tout appel à la méthode [**Fetch**](view-fetch.md) .
 
-Si la requête SQL spécifie des valeurs avec des marqueurs de paramètres ( ?), un enregistrement qui contient toutes les valeurs de remplacement doit être dans le même ordre et le même type de données que les marqueurs de paramètres. Lorsque cette méthode est utilisée avec les requêtes INSERT et UPDATE, les jetons de point d’interrogation doivent précéder toutes les valeurs non paramétrées.
+si la requête de SQL spécifie des valeurs avec des marqueurs de paramètres ( ?), un enregistrement qui contient toutes les valeurs de remplacement doit être dans le même ordre et le même type de données que les marqueurs de paramètres. Lorsque cette méthode est utilisée avec les requêtes INSERT et UPDATE, les jetons de point d’interrogation doivent précéder toutes les valeurs non paramétrées.
 
 Par exemple, ces requêtes sont valides :
 

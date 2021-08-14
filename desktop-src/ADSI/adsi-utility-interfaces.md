@@ -8,12 +8,12 @@ keywords:
 - interfaces d’utilitaire ADSI, à l’aide des interfaces de l’utilitaire ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5642debffd22dd58ee13c0a75f7ea40c0dd2f696
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef99a9c6b9f6709f3f957519bd6e3d87e86d4ded8ffae18c051436e32e3c4085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104190746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180556"
 ---
 # <a name="adsi-utility-interfaces"></a>Interfaces de l’utilitaire ADSI
 
@@ -24,9 +24,9 @@ ADSI fournit plusieurs interfaces utilitaires pour les objets ADSI qui peuvent v
 -   [**IADsPathname**](iadspathname-interface.md)
 -   [**IADsNameTranslate**](iadsnametranslate-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

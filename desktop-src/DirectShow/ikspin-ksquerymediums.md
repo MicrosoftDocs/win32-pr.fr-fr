@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: f037317b49bc54f5ea9db5b7a4ae039ec0a9970d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 33edb7cb2ca959080878f7ce735930ceec9d95dc2f829aef6d50f72d764f2f00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103746573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398935"
 ---
 # <a name="ikspinksquerymediums-method"></a>IKsPin :: KsQueryMediums, méthode
 
@@ -51,7 +51,7 @@ Adresse d’un pointeur vers une structure d' [**\_ élément KSMULTIPLE**](ksmu
 
 Si la méthode est réussie, elle retourne la valeur \_ OK. En cas d’échec, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette méthode retourne une structure d' [**\_ élément KSMULTIPLE**](ksmultiple-item.md) allouée par la tâche, qui est suivie par zéro ou plusieurs structures [**REGPINMEDIUM**](/windows/desktop/api/strmif/ns-strmif-regpinmedium) . Le membre **Count** de la structure de l' **\_ élément KSMULTIPLE** spécifie le nombre de structures **REGPINMEDIUM** . Chaque structure **REGPINMEDIUM** définit un support pris en charge par le code confidentiel.
 

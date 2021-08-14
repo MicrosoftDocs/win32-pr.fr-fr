@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 959e0b8f03223eb23b7a7bec69ba9b2aeea66447
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0242700b2f22050741d9de175b7dae532cc5ef4bb2097fadb23799ce3b2f82b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106513833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356341"
 ---
 # <a name="sendemailtype-complex-type"></a>Type complexe sendEmailType
 
@@ -84,14 +84,14 @@ Définit le type d’action utilisé pour spécifier qu’un courrier électroni
 |--------------------------------------------------------------------------------|------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**Pièces jointes**](taskschedulerschema-attachments-sendemailtype-element.md)   | [**attachmentsType**](taskschedulerschema-attachmentstype-complextype.md)   | Spécifie une liste de pièces jointes dans le message électronique.<br/>                                 |
 | [**Cci**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **string**                                                                   | Spécifie les adresses de messagerie utilisées sur la ligne CCI d’un message électronique.<br/>               |
-| [**body**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | Spécifie le texte dans le corps du message électronique.<br/>                                  |
+| [**Organismes**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | Spécifie le texte dans le corps du message électronique.<br/>                                  |
 | [**CC**](taskschedulerschema-cc-sendemailtype-element.md)                     | **string**                                                                   | Spécifie les adresses de messagerie utilisées sur la ligne CC d’un message électronique.<br/>                |
 | [**De**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | Spécifie l’adresse de messagerie de l’expéditeur.<br/>                                            |
 | [**HeaderFields**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**headerFieldsType**](taskschedulerschema-headerfieldstype-complextype.md) | Spécifie les champs d’en-tête et leurs valeurs utilisées dans l’en-tête du message électronique.<br/> |
 | [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **string**                                                                   | Spécifie les adresses de messagerie auxquelles il est répondu dans le message électronique.<br/>               |
 | [**Serveur**](taskschedulerschema-server-sendemailtype-element.md)             | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md)      | Spécifie le serveur de messagerie utilisé pour envoyer le message électronique. <br/>                           |
 | [**Objet**](taskschedulerschema-subject-sendemailtype-element.md)           | **string**                                                                   | Spécifie l’objet du message électronique.<br/>                                           |
-| [**Pour**](taskschedulerschema-to-sendemailtype-element.md)                     | **string**                                                                   | Spécifie les adresses de messagerie auxquelles le courrier électronique sera envoyé.<br/>                        |
+| [**À**](taskschedulerschema-to-sendemailtype-element.md)                     | **string**                                                                   | Spécifie les adresses de messagerie auxquelles le courrier électronique sera envoyé.<br/>                        |
 
 
 
@@ -101,8 +101,8 @@ Définit le type d’action utilisé pour spécifier qu’un courrier électroni
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

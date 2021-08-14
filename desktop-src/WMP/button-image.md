@@ -3,7 +3,7 @@ title: BOUTON. image
 description: L’attribut image spécifie ou récupère l’image par défaut du bouton.
 ms.assetid: d0d97f14-2c4d-4769-b45c-c6cde7282bea
 keywords:
-- BUTTON. image lecteur Windows Media
+- bouton. image Lecteur Windows Media
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d27363383d72110ebe7b3e94187013ab701a6a3c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85874c79db8f3174b70af68c3ff1e58511c3f00cc7d648389dbca971c7efd96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342907"
 ---
 # <a name="buttonimage"></a>BOUTON. image
 
@@ -31,7 +31,7 @@ L’attribut **image** spécifie ou récupère l’image par défaut du **bouton
 
 Cet attribut est une **chaîne** en lecture/écriture contenant le nom du fichier image.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les formats d’image pris en charge sont BMP, JPG, PNG et GIF (y compris les images GIF animées).
 

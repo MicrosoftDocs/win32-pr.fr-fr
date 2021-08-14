@@ -6,12 +6,12 @@ keywords:
 - ressource définie par l’utilisateur
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 909352c7f0643ed67b1d199fafba1ac8f15d2a9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b383b7c4d1f9acfc4ce6c9db24efa77f3bfed943c1f299186d42a1facee2b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104196708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472616"
 ---
 # <a name="user-defined-resource"></a>Ressource User-Defined
 
@@ -57,7 +57,7 @@ Nom du fichier qui contient les données de ressource. Le paramètre doit être 
 <span id="raw-data"></span><span id="RAW-DATA"></span>*données brutes*
 </dt> <dd>
 
-Données brutes constituées d’un ou plusieurs entiers ou chaînes de caractères. Les entiers peuvent être spécifiés au format décimal, octal ou hexadécimal. Pour être compatible avec Windows 16 bits, les entiers sont stockés sous la forme de valeurs WORD. Vous pouvez stocker un entier comme valeur DWORD en qualifiant l’entier avec le suffixe « L ».
+Données brutes constituées d’un ou plusieurs entiers ou chaînes de caractères. Les entiers peuvent être spécifiés au format décimal, octal ou hexadécimal. pour être compatible avec les Windows 16 bits, les entiers sont stockés en tant que valeurs de mot. Vous pouvez stocker un entier comme valeur DWORD en qualifiant l’entier avec le suffixe « L ».
 
 Les chaînes sont placées entre guillemets. RC n’ajoute pas automatiquement un caractère null de fin à une chaîne. Chaque chaîne est une séquence de caractères ANSI spécifiée, sauf si vous la qualifiez comme une chaîne de caractères larges avec le préfixe « L ».
 
@@ -65,7 +65,7 @@ Le bloc de données commence sur une limite **DWORD** et RC n’effectue aucun r
 
 </dd> </dl>
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple suivant illustre plusieurs instructions définies par l’utilisateur :
 
@@ -83,9 +83,9 @@ array   MYRES   data.res
 }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

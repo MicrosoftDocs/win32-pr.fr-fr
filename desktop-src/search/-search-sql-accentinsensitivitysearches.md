@@ -1,19 +1,19 @@
 ---
-description: Par défaut, le catalogue et le moteur de recherche Windows sont insensibles aux signes diacritiques, qui sont des points d’accentuation ajoutés aux lettres pour modifier la signification ou la prononciation d’un mot.
+description: par défaut, les Windows le moteur de recherche et le catalogue sont insensibles aux signes diacritiques, qui sont des points d’accentuation ajoutés aux lettres pour modifier la signification ou la prononciation d’un mot.
 ms.assetid: 71007bd4-5232-469c-982b-ff0d24bd0c1f
 title: Respect des signes diacritiques dans les recherches
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46fb68676418fc109fa24ed2d55fb9602b7ad41d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fcde4eb6cde6fe7a0b25a1d58f8026176de2fe30b6b0e2f020275821891a404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106514792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863682"
 ---
 # <a name="diacritic-sensitivity-in-searches"></a>Respect des signes diacritiques dans les recherches
 
-Par défaut, le catalogue et le moteur de recherche Windows sont insensibles aux signes diacritiques, qui sont des points d’accentuation ajoutés aux lettres pour modifier la signification ou la prononciation d’un mot. Toutefois, Windows Search vous permet de modifier cela pour votre catalogue à l’aide du [Gestionnaire de catalogue](-search-3x-wds-mngidx-catalog-manager.md) pour définir la sensibilité des signes diacritiques. Par exemple, si la sensibilité des signes diacritiques est définie sur **false**, le catalogue traiterait « Resume » et « Resumé » comme s’il s’agissait du même mot.
+par défaut, les Windows le moteur de recherche et le catalogue sont insensibles aux signes diacritiques, qui sont des points d’accentuation ajoutés aux lettres pour modifier la signification ou la prononciation d’un mot. toutefois, Windows Search vous permet de modifier cette valeur pour votre catalogue à l’aide du [gestionnaire de catalogue](-search-3x-wds-mngidx-catalog-manager.md) pour définir la sensibilité des signes diacritiques. Par exemple, si la sensibilité des signes diacritiques est définie sur **false**, le catalogue traiterait « Resume » et « Resumé » comme s’il s’agissait du même mot.
 
 Au niveau de la couche de requête, les termes de requête avec des signes diacritiques en FREETEXT et des clauses CONTAINs sont passés au moteur, puis normalisés (comme ils le seraient au moment de l’index) pour la mise en correspondance. La correspondance avec le catalogue est toujours respectée pour les signes diacritiques.
 

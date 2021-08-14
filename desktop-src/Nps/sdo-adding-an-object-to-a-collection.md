@@ -5,12 +5,12 @@ ms.assetid: fc62698d-0bb9-478c-91cf-9f8fec36dba4
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1990829e88d54838dbce2658c914ceff602d8e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a0f359df40b864c6dcbc1e251e35661b137990ebb9473a177423fbf18acb43e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106513727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362261"
 ---
 # <a name="adding-an-object-to-a-collection"></a>Ajout d’un objet à une collection
 
@@ -126,6 +126,6 @@ Le code suivant ajoute une nouvelle stratégie à la collection de stratégies I
 [**DIFFÉRENT**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

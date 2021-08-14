@@ -12,17 +12,17 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 113b128ce9b372d077056692c0956f86e1412f9e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7009c44cb91d9b0e7db6510884d56ad4a8421a1e8382eb378eb67b8cf81f95d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106517155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118399149"
 ---
 # <a name="ifindcompressorcb-interface"></a>Interface IFindCompressorCB
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -36,7 +36,7 @@ L’interface **IFindCompressorCB** hérite de l’interface [**IUnknown**](/win
 
 <dl> <dt>
 
-[Référence C++ des services d’édition DirectShow](directshow-editing-services-c---reference.md)
+[DirectShow Référence C++ des services de modification](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

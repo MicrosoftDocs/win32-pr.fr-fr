@@ -39,12 +39,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f254363968099ab73c5f3f14f1f15ab8554f62a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a3f5b5cde779cbd9b8120fa648138611236935080f3517a28a6f19dcee8864b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349307"
 ---
 # <a name="win32_tsdeploymentsettings-class"></a>\_Classe TSDeploymentSettings Win32
 
@@ -198,7 +198,7 @@ Type de données : **chaîne**
 Type d’accès : lecture/écriture
 </dt> </dl>
 
-Contenu du fichier RDP qui correspond aux paramètres RDP personnalisés dans Gestionnaire RemoteApp.
+contenu du fichier rdp qui correspond à la Paramètres rdp personnalisée dans Gestionnaire RemoteApp.
 
 </dd> <dt>
 
@@ -580,16 +580,16 @@ Indique si plusieurs analyses sont activées pour le bureau.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Vous devez être membre du groupe administrateurs pour définir des propriétés à l’aide de cette classe.
 
 Si **RequireServerAuth** a la valeur **true**, tenez compte des points suivants :
 
--   Si le programme RemoteApp est destiné à une utilisation intranet et que tous les ordinateurs clients exécutent Windows Server 2008 ou Windows Vista, vous n’avez pas besoin de configurer le serveur hôte de session Bureau à distance pour utiliser un certificat SSL. Dans ce cas, Authentification au niveau du réseau est utilisé.
+-   si le programme RemoteApp est destiné à une utilisation intranet et que tous les ordinateurs clients exécutent Windows server 2008 ou Windows Vista, vous n’avez pas besoin de configurer le serveur hôte de Session bureau à distance pour utiliser un certificat SSL. Dans ce cas, Authentification au niveau du réseau est utilisé.
 -   Vous devez spécifier le nom de domaine complet du serveur ou de la batterie de serveurs pour la valeur de la propriété **FarmName** .
 
-Pour se connecter à l’espace de noms « CIMV2 \\ licences TS », le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**, qui peut être défini à l’aide de la fonction com [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) . Pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « PktPrivacy », avec une valeur de 6. L’exemple de Visual Basic Scripting Edition suivant (VBScript) montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
+Pour se connecter à l’espace de noms « CIMV2 \\ licences TS », le niveau d’authentification doit inclure la confidentialité du paquet. Pour les appels C/C++, il s’agit d’un niveau d’authentification de la **\_ \_ \_ \_ \_ confidentialité du niveau d’authentification RPC c**, qui peut être défini à l’aide de la fonction com [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) . pour les Visual Basic et les appels de script, il s’agit d’un niveau d’authentification **WbemAuthenticationLevelPktPrivacy** ou « pktPrivacy », avec une valeur de 6. l’exemple VBScript (Visual Basic scripting Edition) suivant montre comment se connecter à un ordinateur distant avec la confidentialité du paquet.
 
 
 ```VB
@@ -600,7 +600,7 @@ Set objServices = GetObject( _
 
 
 
-Les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Ils sont installés sur l’ordinateur lorsque vous ajoutez le rôle associé. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
+les fichiers format MOF (MOF) contiennent les définitions des classes Windows Management Instrumentation (WMI). Ils sont installés sur l’ordinateur lorsque vous ajoutez le rôle associé. Pour plus d’informations sur les fichiers MOF, consultez [format MOF (MOF)](/windows/desktop/WmiSdk/managed-object-format--mof-).
 
 ## <a name="requirements"></a>Configuration requise
 

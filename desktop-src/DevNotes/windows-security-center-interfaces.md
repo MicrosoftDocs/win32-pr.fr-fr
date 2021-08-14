@@ -1,19 +1,19 @@
 ---
-description: Les interfaces suivantes sont disponibles pour une utilisation avec Windows Security Center.
+description: les interfaces suivantes peuvent être utilisées avec Sécurité Windows Center.
 ms.assetid: 41C2F4BB-9979-478B-8BC9-9DC9FBF020F9
-title: Interfaces Windows Security Center
+title: Sécurité Windows Interfaces du centre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b24bbf3f5eeb91932a00ab78e09a29ebe13f6b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 573852eea39afb1676eaa78d1f237391f6a19959e917bd969952a59a7d809f75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104522927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404105"
 ---
-# <a name="windows-security-center-interfaces"></a>Interfaces Windows Security Center
+# <a name="windows-security-center-interfaces"></a>Sécurité Windows Interfaces du centre
 
-Les interfaces suivantes sont disponibles pour une utilisation avec Windows Security Center.
+les interfaces suivantes peuvent être utilisées avec Sécurité Windows Center.
 
 ## <a name="in-this-section"></a>Contenu de cette section
 
@@ -21,7 +21,7 @@ Les interfaces suivantes sont disponibles pour une utilisation avec Windows Secu
 
 | Rubrique                                                 | Description                                                                                                                      |
 |-------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| [**IWscProduct**](/windows/desktop/api/Iwscapi/nn-iwscapi-iwscproduct)<br/>         | Fournit des méthodes pour obtenir des informations sur le produit pour qu’un fournisseur individuel interagisse avec Windows Security Center.<br/> |
+| [**IWscProduct**](/windows/desktop/api/Iwscapi/nn-iwscapi-iwscproduct)<br/>         | fournit des méthodes permettant d’obtenir des informations sur le produit pour qu’un fournisseur individuel interagisse avec Sécurité Windows Center.<br/> |
 | [**IWSCProductList**](/windows/desktop/api/iwscapi/nn-iwscapi-iwscproductlist)<br/> | Fournit des méthodes pour collecter des informations sur les produits pour le type sélectionné de fournisseurs installés sur l’ordinateur.<br/>         |
 
 

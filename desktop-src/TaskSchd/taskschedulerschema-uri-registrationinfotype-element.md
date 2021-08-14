@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: be3f5782ba5fc02bc3309abfe337c029d0341667
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1b9a2d9b8faf327f7b64be2cdd4273f2252405767004dc6e0d58b0c95b5f1910
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118355602"
 ---
 # <a name="uri-registrationinfotype-element"></a>Élément URI (registrationInfoType)
 
@@ -43,7 +43,7 @@ L’élément **URI** est défini par le type complexe [**registrationInfoType**
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour le développement de script, l’URI de la tâche est spécifié à l’aide de la propriété [**RegistrationInfo. Uri**](registrationinfo-uri.md) .
 
@@ -55,8 +55,8 @@ Pour le développement C++, l’URI de la tâche est spécifié à l’aide de l
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

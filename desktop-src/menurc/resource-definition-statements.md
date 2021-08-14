@@ -7,12 +7,12 @@ keywords:
 - Ressource TEXTINCLUDE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8887c002bc3564288eb99fdb373ac26c286d1bf7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4937eb9d5fb9bba7b174aa9543be8b3f2eb41c90c6bc20a72650114f57fb4fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103940979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869905"
 ---
 # <a name="resource-definition-statements"></a>Instructions Resource-Definition
 
@@ -21,7 +21,7 @@ Les instructions de définition de ressource définissent les ressources que le 
 Les instructions de définition de ressource peuvent être réparties dans les catégories suivantes :
 
 -   Ressources
--   Commandes
+-   Contrôles
 -   Instructions
 
 Les tableaux suivants décrivent les instructions de définition de ressource.
@@ -38,7 +38,7 @@ Les tableaux suivants décrivent les instructions de définition de ressource.
 | [**DIALOGUE**](dialog-resource.md)             | Définit un modèle qu’une application peut utiliser pour créer des boîtes de dialogue.                                                                                                          |
 | [**DIALOGEX**](dialogex-resource.md)         | Définit un modèle qu’une application peut utiliser pour créer des boîtes de dialogue.                                                                                                          |
 | [**SON**](font-resource.md)                 | Spécifie le nom d’un fichier qui contient une police.                                                                                                                              |
-| [**HTML**](html-resource.md)                 | Spécifie un fichier HTML.                                                                                                                                                         |
+| [**PAGE**](html-resource.md)                 | Spécifie un fichier HTML.                                                                                                                                                         |
 | [**SITUÉE**](icon-resource.md)                 | Définit une icône ou une icône animée en la nommant et en spécifiant le nom du fichier qui la contient. (Pour utiliser une icône particulière, l’application la demande par son nom.)            |
 | [**MENUS**](menu-resource.md)                 | Définit l’apparence et la fonction d’un menu.                                                                                                                                  |
 | [**MENUEX**](menuex-resource.md)             | Définit l’apparence et la fonction d’un menu.                                                                                                                                  |
@@ -55,11 +55,11 @@ Les tableaux suivants décrivent les instructions de définition de ressource.
 
 
 
- 
+ 
 
 Pour plus d’informations sur les ressources MFC prédéfinies, consultez [TN023](/cpp/mfc/tn023-standard-mfc-resources?view=vs-2019) et [TN024](/cpp/mfc/tn024-mfc-defined-messages-and-resources?view=vs-2019).
 
-## <a name="controls"></a>Commandes
+## <a name="controls"></a>Contrôles
 
 
 
@@ -87,7 +87,7 @@ Pour plus d’informations sur les ressources MFC prédéfinies, consultez [TN02
 
 
 
- 
+ 
 
 ## <a name="statements"></a>Instructions
 
@@ -108,8 +108,8 @@ Pour plus d’informations sur les ressources MFC prédéfinies, consultez [TN02
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

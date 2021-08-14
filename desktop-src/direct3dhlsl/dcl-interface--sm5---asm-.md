@@ -4,12 +4,12 @@ description: Déclarez les pointeurs de table de fonction (interfaces). | dcl_in
 ms.assetid: 5A4D911E-7117-409B-8FDC-9CEC2C185C15
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e61435e06d0d5b88bb82ca91f758646d7911d3bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3e739a6cb5fa41456925b80719ec35474f65d59102b9dcca0b6341fbdc86e01e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515710"
 ---
 # <a name="dcl_interface-sm5---asm"></a>\_interface DCL (SM5-ASM)
 
@@ -34,7 +34,7 @@ Déclarez les pointeurs de table de fonction (interfaces).
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Chaque interface doit être liée à partir de l’API avant que le nuanceur ne soit utilisable. La liaison fournit une référence à l’une des tables de fonctions afin que les emplacements de méthode puissent être remplis. Le compilateur ne génère pas de pointeurs pour les objets non référencés.
 
@@ -73,7 +73,7 @@ Cette instruction s’applique aux étapes suivantes du nuanceur :
 
 
 
-| Sommet | Forme | Domain | Géométrie | Pixel | Compute |
+| Sommet | Forme | Domaine | Géométrie | Pixel | Calcul |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -87,9 +87,9 @@ Cette instruction est prise en charge dans les modèles de nuanceur suivants :
 
 
 
-| Modèle de nuanceur                                              | Prise en charge |
+| Modèle de nuanceur                                              | Pris en charge |
 |-----------------------------------------------------------|-----------|
-| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | Oui       |
+| [Shader, modèle 5](d3d11-graphics-reference-sm5.md)        | oui       |
 | [Modèle de nuanceur 4,1](dx-graphics-hlsl-sm4.md)              | non        |
 | [Nuanceur modèle 4](dx-graphics-hlsl-sm4.md)                | non        |
 | [Shader Model 3 (DirectX HLSL)](dx-graphics-hlsl-sm3.md) | non        |

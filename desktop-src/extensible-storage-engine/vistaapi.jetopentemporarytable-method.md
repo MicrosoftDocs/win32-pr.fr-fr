@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0a261494cf8b12039371c445a4cf2124f3ec1c52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4693379f94e7211849c5184a10ec176e6cc916a455d61903aa35110d2cd36eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106521479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484284"
 ---
 # <a name="vistaapijetopentemporarytable-method"></a>Méthode VistaApi. JetOpenTemporaryTable
 
@@ -73,9 +73,9 @@ public static void JetOpenTemporaryTable(
     
     Description de la table temporaire à créer en entrée. Après un appel réussi, la structure contient le handle vers les identifications de la table et de la colonne temporaires. Utilisez [JetCloseTable (JET_SESID, JET_TABLEID)](./api.jetclosetable-method.md) pour libérer la table temporaire lorsque vous avez terminé.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Introduit dans Windows Vista. Utilisez [JetOpenTempTable3 (JET_SESID, \[ \] , Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[ \] )](./api.jetopentemptable3-method.md) pour les versions antérieures d’esent.
+introduite dans Windows Vista. Utilisez [JetOpenTempTable3 (JET_SESID, \[ \] , Int32, JET_UNICODEINDEX, TempTableGrbit, JET_TABLEID, \[ \] )](./api.jetopentemptable3-method.md) pour les versions antérieures d’esent.
 
 ## <a name="see-also"></a>Voir aussi
 

@@ -1,24 +1,24 @@
 ---
-description: Interfaces pour les services de modification DirectShow
+description: Interfaces pour les Services d’édition DirectShow
 ms.assetid: e7fdb387-83b3-4fa2-9608-2f5dc95975bf
-title: Interfaces pour les services de modification DirectShow
+title: Interfaces pour les Services d’édition DirectShow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dba286a340693407287ed370ed401ac6b039593c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 00e913ec6bf17a11a4b772d288b9404113cd6bdc70bf441ed20dcbc69a086f9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103747109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397590"
 ---
-# <a name="interfaces-for-directshow-editing-services"></a>Interfaces pour les services de modification DirectShow
+# <a name="interfaces-for-directshow-editing-services"></a>Interfaces pour les Services d’édition DirectShow
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
-Cette section contient des rubriques de référence pour les interfaces des [services de modification DirectShow](directshow-editing-services.md) .
+cette section contient des rubriques de référence sur les interfaces des [Services d’édition de DirectShow](directshow-editing-services.md) .
 
 
 
@@ -63,7 +63,7 @@ Cette section contient des rubriques de référence pour les interfaces des [ser
 
 <dl> <dt>
 
-[Référence C++ des services d’édition DirectShow](directshow-editing-services-c---reference.md)
+[DirectShow Référence C++ des services de modification](directshow-editing-services-c---reference.md)
 </dt> </dl>
 
  

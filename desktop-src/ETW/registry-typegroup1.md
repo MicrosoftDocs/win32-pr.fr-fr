@@ -17,12 +17,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d86412a950246bee4f9a692ab80e91b99d945c20
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7bdb280f78f0c38cbb887920425c018ded1505aa2f1e01cc0981e292f9d139a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108106247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394241"
 ---
 # <a name="registry_typegroup1-class"></a>Classe de TypeGroup1 du Registre \_
 
@@ -142,8 +142,8 @@ Valeur NTSTATUS de l’opération de registre.
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 
@@ -151,7 +151,7 @@ Valeur NTSTATUS de l’opération de registre.
 
 <dl> <dt>
 
-[**Du**](registry.md)
+[**Registre**](registry.md)
 </dt> </dl>
 
  

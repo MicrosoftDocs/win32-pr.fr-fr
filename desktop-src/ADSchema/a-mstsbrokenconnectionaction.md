@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8b48beadd31964cbfe48dbe477a9463e16db77b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c7cf31e02a31b750a5d555f3357f28059196360c6f18e25c855a69ad8974243d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103745036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424774"
 ---
 # <a name="ms-ts-broken-connection-action-attribute"></a>attribut ms-TS-Broken-Connection-action
 
@@ -42,7 +42,7 @@ Action de connexion interrompue de session des services Terminal Server spécifi
 
 ## <a name="implementations"></a>Implémentations
 
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

@@ -4,12 +4,12 @@ ms.assetid: ce775359-65fc-40d0-8725-b392cc0464a6
 title: Couleur du stylet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d831994ac444207832574dc104a9d5c2582db8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e88d73fc80f6fe02a6d9e1de1d33568c94e05768f113c8bee0754c5d8afb418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104528300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117886204"
 ---
 # <a name="pen-color"></a>Couleur du stylet
 

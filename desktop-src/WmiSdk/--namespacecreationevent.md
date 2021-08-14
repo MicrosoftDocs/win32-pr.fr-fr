@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 8432bcfb2c96c70b91a7f0d187297217082e2d28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f84e0c584d3afb63b166523a5920d4d5b3367638bc0000c33a8cfba979e64c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106534602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320723"
 ---
 # <a name="__namespacecreationevent-class"></a>\_\_NamespaceCreationEvent, classe
 
@@ -94,7 +94,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **\_ \_ NamespaceCreationEvent** est dérivée de [**\_ \_ NamespaceOperationEvent**](--namespaceoperationevent.md).
 

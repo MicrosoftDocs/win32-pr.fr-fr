@@ -3,15 +3,15 @@ title: Erreurs d’alignement
 description: Erreurs d’alignement
 ms.assetid: 16e69aec-3aec-4684-bf37-b3e5db6e4f87
 keywords:
-- Erreurs d’alignement 64-programmation Windows bits
+- erreurs d’alignement 64 bits Windows programmation)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 318a7a55010ac148354d000ece32c91a8652f821
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d813a47cb3428c57ee6235442491f26f8d126a997dd7fcfa6844d551e7958b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106510698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412909"
 ---
 # <a name="alignment-faults"></a>Erreurs d’alignement
 
@@ -21,6 +21,6 @@ Si le débogueur WinDbg a été installé en tant que débogueur système, WinDb
 
 Sur les systèmes x64 et ARM64, les erreurs d’alignement sont gérées par une combinaison de matériel et de logiciels. Pour des performances optimales, tout accès à la mémoire doit être correctement aligné. En outre, [l’accès aux variables bloquées](/windows/desktop/Sync/interlocked-variable-access) non alignées doit être évité sur ARM64, car ces opérations ne sont pas atomiques.
 
- 
+ 
 
- 
+ 

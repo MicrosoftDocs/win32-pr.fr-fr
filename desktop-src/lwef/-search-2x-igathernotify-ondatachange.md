@@ -1,11 +1,11 @@
 ---
 title: IGatherNotify OnDataChange (déprécié), méthode
-description: Cette rubrique de l’interface de recherche Windows Desktop est déconseillée et remplacée par l’API ISearchPersistentItemsChangedSink de recherche Windows dans le SDK Windows. | IGatherNotify OnDataChange (déprécié), méthode
+description: cette rubrique Windows Desktop search interface est déconseillée et remplacée par l’API ISearchPersistentItemsChangedSink de recherche Windows dans le SDK Windows. | IGatherNotify OnDataChange (déprécié), méthode
 ms.assetid: 0cbfa6b7-44f0-41f0-93a3-d5941b5822de
 keywords:
-- Méthode OnDataChange (déconseillée) fonctionnalités héritées de l’environnement Windows
-- OnDataChange (déprécié), méthode fonctionnalités d’environnement Windows héritées, interface IGatherNotify
-- Interface IGatherNotify fonctionnalités d’environnement Windows héritées, méthode OnDataChange (déconseillée)
+- méthode OnDataChange (déconseillée) fonctionnalités héritées de l’environnement Windows
+- méthode OnDataChange (déconseillée) fonctionnalités héritées de l’environnement Windows, interface IGatherNotify
+- fonctionnalités d’environnement Windows héritées de l’interface IGatherNotify, méthode OnDataChange (déconseillée)
 topic_type:
 - apiref
 api_name:
@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d41edeaa591a7f3cbc9494064906af1815597737
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 95533a7937136a0f828a292efe7e398258e3c880974e031d9d7d2797f721f2a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106532396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481593"
 ---
 # <a name="igathernotifyondatachange-deprecated-method"></a>IGatherNotify :: OnDataChange (déconseillé), méthode
 
 \[**OnDataChange** peut être modifié ou non disponible dans les versions ultérieures du système d’exploitation ou du produit.\]
 
-Cette rubrique de l’interface de recherche Windows Desktop est déconseillée et remplacée par l’API [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) de recherche Windows dans le SDK Windows.
+cette rubrique Windows Desktop search interface est déconseillée et remplacée par l’API [**ISearchPersistentItemsChangedSink**](/windows/desktop/api/searchapi/nn-searchapi-isearchpersistentitemschangedsink) de recherche Windows dans le SDK Windows.
 
 Cette méthode avertit l’indexeur des données qui ont changé. Lorsqu’il envoie la notification à l’indexeur, il comprend le type de modification, l’adresse physique et l’adresse logique.
 

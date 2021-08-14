@@ -1,24 +1,24 @@
 ---
-description: Sur Windows 2000, il est courant qu’un utilitaire d’installation vérifie la taille actuelle et la taille maximale du Registre pour déterminer s’il y a suffisamment d’espace disponible pour les nouvelles données à ajouter.
+description: sur Windows 2000, il est courant qu’un utilitaire d’installation vérifie la taille actuelle et la taille maximale du registre pour déterminer s’il y a suffisamment d’espace disponible pour les nouvelles données à ajouter.
 ms.assetid: 87e7b9de-d571-41e4-817e-29023546e9bd
 title: Détermination de la taille du Registre
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4434b519625cf21c9e0076dc7c21d71e27c01778
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88e26fbeedf13ea66c93f7a13426819fb84df6ffa3f75c908462dcef8f8dcb54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103869222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764501"
 ---
 # <a name="determining-the-registry-size"></a>Détermination de la taille du Registre
 
-Sur Windows 2000, il est courant qu’un utilitaire d’installation vérifie la taille actuelle et la taille maximale du Registre pour déterminer s’il y a suffisamment d’espace disponible pour les nouvelles données à ajouter. Cet exemple montre comment effectuer cette opération par programme à l’aide du compteur de performances « % quota du registre en cours d’utilisation » dans l’objet système.
+sur Windows 2000, il est courant qu’un utilitaire d’installation vérifie la taille actuelle et la taille maximale du registre pour déterminer s’il y a suffisamment d’espace disponible pour les nouvelles données à ajouter. Cet exemple montre comment effectuer cette opération par programme à l’aide du compteur de performances « % quota du registre en cours d’utilisation » dans l’objet système.
 
 L’exemple suivant utilise l’assistance des données de performance (PDH) pour obtenir la valeur de compteur ; elle doit être liée à PDH. lib. PDH est un ensemble d’API de haut niveau utilisé pour obtenir les données de performances.
 
 > [!Note]  
-> Il n’est pas nécessaire d’implémenter cette taille de Registre-Vérifiez sur Windows Server 2003 ou Windows XP parce qu’ils n’ont pas de limite de quota du Registre.
+> il n’est pas nécessaire d’implémenter cette taille de registre-vérifiez sur Windows Server 2003 ou Windows XP, car ils n’ont pas de limite de quota du registre.
 
  
 

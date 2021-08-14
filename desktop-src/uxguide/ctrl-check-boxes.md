@@ -4,17 +4,17 @@ description: Avec une case à cocher, les utilisateurs font une décision entre 
 ms.assetid: 7c39987d-807b-41c1-9788-65c3d468b976
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 20cf5bc4fd13b974f87fbb33a5fea9a365f99735
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 29666991d0a0659f7ff3a95f12953504b70c6dc782049ac8d93d70df73afa5d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118040610"
 ---
 # <a name="check-boxes"></a>Cases à cocher
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
 Avec une case à cocher, les utilisateurs font une décision entre deux choix manifestement opposés. L’étiquette de case à cocher indique l’état sélectionné, alors que la signification de l’État effacé doit être l’opposé non ambigu de l’état sélectionné. Par conséquent, les **cases à cocher doivent être utilisées uniquement pour activer ou désactiver une option ou pour sélectionner ou désélectionner un élément.**
 
@@ -88,7 +88,7 @@ Les cases à cocher ont plusieurs modèles d’utilisation :
 
 ## <a name="guidelines"></a>Consignes
 
-### <a name="general"></a>Généralités
+### <a name="general"></a>Général
 
 -   **Cases à cocher associées au groupe**. Combinez les options associées et séparez les options non liées en groupes de 10 ou moins, en utilisant plusieurs groupes si nécessaire.
 

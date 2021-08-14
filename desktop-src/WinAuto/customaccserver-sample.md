@@ -4,12 +4,12 @@ description: Exemple CustomAccServer
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7f8ee7d82361177af07aa7ad53a6137c39bc38
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 71ebf1ecde2821208d788b20b5cb0fc1a00403c1607fb4604eb92845daf49d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325988"
 ---
 # <a name="customaccserver-sample"></a>Exemple CustomAccServer
 
@@ -28,13 +28,13 @@ Cet exemple montre comment implémenter un serveur Microsoft Active Accessibilit
 
 ## <a name="download-information"></a>Informations sur le téléchargement
 
-L’exemple CustomAccServer est installé dans le cadre du [Kit de développement logiciel (SDK) Microsoft Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx) et est disponible à l’emplacement suivant.
+l’exemple CustomAccServer est installé dans le cadre du [kit de développement logiciel (SDK) de Microsoft Windows](https://msdn.microsoft.com/windowsvista/bb980924.aspx) et est disponible à l’emplacement suivant.
 
 
 
 | Emplacement    | Chemin d’accès/URL                                                                           |
 |-------------|------------------------------------------------------------------------------------|
-| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft SDK \\ \\ \[ numéro de version Windows exemples d' \] \\ exemples d' \\ WinUI \\ MSAA |
+| Kit de développement logiciel (SDK) Windows | % Program Files% \\ Microsoft sdk \\ Windows \\ \[ numéro de version \] \\ exemples \\ winui \\ msaa |
 
 
 
@@ -56,23 +56,23 @@ L’exemple CustomAccServer est installé dans le cadre du [Kit de développemen
 
 ## <a name="building-the-sample"></a>Génération de l'exemple
 
-Pour générer l’exemple à l’aide de Visual Studio 2008 :
+pour générer l’exemple à l’aide de Visual Studio 2008 :
 
-1.  Exécutez l’outil de configuration du kit de développement logiciel (SDK) Microsoft Windows fourni avec le kit de développement logiciel (SDK) pour ajouter des répertoires Include SDK à Visual Studio.
-2.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet.
+1.  exécutez l’outil de Configuration du kit de développement logiciel (sdk) de Microsoft Windows fourni avec le kit de développement logiciel (sdk) pour ajouter des répertoires include sdk à Visual Studio.
+2.  ouvrez Windows Explorer et accédez au répertoire du projet.
 3.  Double-cliquez sur l’icône du fichier. sln (solution) pour ouvrir le projet dans Visual Studio.
 4.  Dans le menu **générer** , sélectionnez **générer la solution** pour générer la solution. L’application sera générée dans le répertoire de \\ débogage ou de libération par défaut \\ .
 
-Pour générer l’exemple à partir de la ligne de commande, consultez génération d’exemples dans les notes de publication de SDK Windows à l’emplacement suivant :% Program Files% \\ Microsoft SDK \\ Windows \\ v 7.0 \\ReleaseNotes.htm
+pour générer l’exemple à partir de la ligne de commande, consultez génération d’exemples dans les notes de publication de SDK Windows à l’emplacement suivant :% Program Files% \\ Microsoft sdk \\ Windows \\ v 7.0 \\ReleaseNotes.htm
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
 Pour exécuter l’exemple :
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’Explorateur Windows.
-2.  Tapez AccServer.exe sur la ligne de commande ou double-cliquez sur l’icône de AccServer.exe pour le lancer à partir de l’Explorateur Windows.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’explorateur de Windows.
+2.  tapez AccServer.exe sur la ligne de commande ou double-cliquez sur l’icône de AccServer.exe pour le lancer à partir de Windows Explorer.
 
-Pour exécuter à partir de Visual Studio, appuyez sur F5 ou cliquez sur **Démarrer le débogage** dans le menu **Déboguer** .
+pour exécuter à partir de Visual Studio, appuyez sur F5 ou cliquez sur **démarrer le débogage** dans le menu **déboguer** .
 
 ## <a name="related-topics"></a>Rubriques connexes
 

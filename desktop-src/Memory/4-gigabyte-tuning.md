@@ -4,16 +4,16 @@ ms.assetid: 991eb86f-9e6f-4084-8b6f-f979e42104b5
 title: 'Réglage à 4 gigaoctets : BCDEdit et Boot.ini'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f997ae09748370d5ec8ec246da80b6440d7aaf45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c8cd7b824669abbe684af91d848f445fe287c333c04abc08c676f3e125d2b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386694"
 ---
 # <a name="4-gigabyte-tuning-bcdedit-and-bootini"></a>Réglage à 4 gigaoctets : BCDEdit et Boot.ini
 
-Sur les éditions 32 bits de Windows, 4 gigaoctets (Go) d’espace d’adressage virtuel sont disponibles pour les applications. L’espace d’adressage virtuel est divisé de manière à ce que 2 Go soient disponibles pour l’application et les 2 Go sont uniquement disponibles pour le système. La fonctionnalité de réglage à 4 gigaoctets (réglage de RAM 4GT ou 4GT), activée avec la commande *bcdedit/set increaseuserva* , augmente l’espace d’adressage virtuel disponible pour l’application jusqu’à 3 Go, et réduit la quantité disponible sur le système entre 1 et 2 Go.
+sur les éditions 32 bits de Windows, les applications disposent de 4 gigaoctets (go) d’espace d’adressage virtuel disponible. L’espace d’adressage virtuel est divisé de manière à ce que 2 Go soient disponibles pour l’application et les 2 Go sont uniquement disponibles pour le système. La fonctionnalité de réglage à 4 gigaoctets (réglage de RAM 4GT ou 4GT), activée avec la commande *bcdedit/set increaseuserva* , augmente l’espace d’adressage virtuel disponible pour l’application jusqu’à 3 Go, et réduit la quantité disponible sur le système entre 1 et 2 Go.
 
 Pour les applications gourmandes en mémoire, telles que les systèmes de gestion de base de données (SGBD), l’utilisation d’un espace d’adressage virtuel plus important peut offrir des avantages considérables en matière de performances et d’évolutivité. Toutefois, le cache de fichiers, le pool paginé et la réserve non paginée sont plus petits, ce qui peut nuire aux applications avec une mise en réseau lourde ou des e/s. Par conséquent, vous pouvez tester votre application sous charge et examiner les compteurs de performance pour déterminer si votre application tire parti de l’espace d’adressage plus grand.
 
@@ -24,13 +24,13 @@ Pour activer 4GT, utilisez la commande [bcdedit/set](/windows-hardware/drivers/d
 -   Windows Server 2003
 -   Windows XP Professionnel
 
-Le commutateur **/3GB** permet aux applications d’accéder à 3 Go d’espace d’adressage virtuel complet et réduit la quantité de mémoire disponible pour le système à 1 Go. Sur Windows Server 2003, la quantité d’espace d’adressage disponible pour les applications peut être ajustée en définissant le commutateur **/USERVA** dans Boot.ini sur une valeur comprise entre 2048 et 3072, ce qui augmente la quantité d’espace d’adressage disponible pour le système. Cela peut aider à maintenir les performances globales du système lorsque l’application nécessite plus de 2 Go mais moins de 3 Go d’espace d’adressage.
+Le commutateur **/3GB** permet aux applications d’accéder à 3 Go d’espace d’adressage virtuel complet et réduit la quantité de mémoire disponible pour le système à 1 Go. sur Windows Server 2003, la quantité d’espace d’adressage disponible pour les applications peut être ajustée en définissant le commutateur **/userva** dans Boot.ini sur une valeur comprise entre 2048 et 3072, ce qui augmente la quantité d’espace d’adressage disponible pour le système. Cela peut aider à maintenir les performances globales du système lorsque l’application nécessite plus de 2 Go mais moins de 3 Go d’espace d’adressage.
 
-Pour permettre à une application d’utiliser l’espace d’adressage le plus grand, définissez l’indicateur de prise en [**\_ \_ \_ \_ charge d’adresses volumineuses du fichier image**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) dans l’en-tête d’image. L’éditeur de liens inclus avec Microsoft Visual C++ prend en charge le commutateur **/LARGEADDRESSAWARE** pour définir cet indicateur. La définition de cet indicateur, puis l’exécution de l’application sur un système qui ne dispose pas de la prise en charge de 4GT, ne doit pas affecter l’application.
+Pour permettre à une application d’utiliser l’espace d’adressage le plus grand, définissez l’indicateur de prise en [**\_ \_ \_ \_ charge d’adresses volumineuses du fichier image**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) dans l’en-tête d’image. l’éditeur de liens inclus avec Microsoft Visual C++ prend en charge le commutateur **/largeaddressaware** pour définir cet indicateur. La définition de cet indicateur, puis l’exécution de l’application sur un système qui ne dispose pas de la prise en charge de 4GT, ne doit pas affecter l’application.
 
-Sur les éditions 64 bits de Windows, les applications 32 bits marquées avec l’indicateur de [**\_ \_ \_ \_ reconnaissance d’adresse volumineux du fichier image**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) disposent de 4 Go d’espace d’adressage disponibles.
+sur les éditions 64 bits de Windows, les applications 32 bits marquées avec l’indicateur de [**\_ \_ \_ \_ reconnaissance d’adresse volumineux du fichier IMAGE**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) disposent de 4 go d’espace d’adressage disponibles.
 
-**Éditions Itanium de Windows Server 2003 :** Avant SP1, les processus 32 bits ne disposent que de 2 Go d’espace d’adressage disponibles.
+**éditions Itanium du Windows Server 2003 :** Avant SP1, les processus 32 bits ne disposent que de 2 Go d’espace d’adressage disponibles.
 
 Utilisez les instructions suivantes pour prendre en charge 4GT dans les applications :
 
@@ -47,7 +47,7 @@ Utilisez les instructions suivantes pour prendre en charge 4GT dans les applicat
 
 <dl> <dt>
 
-[Limites de mémoire pour les versions de Windows](memory-limits-for-windows-releases.md)
+[limites de mémoire pour les versions de Windows](memory-limits-for-windows-releases.md)
 </dt> <dt>
 
 [Extension d’adresse physique](physical-address-extension.md)

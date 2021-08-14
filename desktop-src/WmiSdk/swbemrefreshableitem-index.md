@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6ef1e7f4c646337f615d435587e0ae68286a8702
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e3c2da7800b74c45c917936f1a1e1f4cbf7de92c0362e70b446b7918a0c76a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312928"
 ---
 # <a name="swbemrefreshableitemindex-property"></a>Propriété SWbemRefreshableItem. index
 

@@ -5,12 +5,12 @@ ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e41892e7deff23c8d11f8be1c38dac3fcba1de9
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: bc560a71ac602f7c78d41e4805d90cb404c2210790b462fb5353b9e5b3ad48f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529288"
 ---
 # <a name="dynamic-indexing-using-hlsl-51"></a>Indexation dynamique à l’aide de HLSL 5.1
 
@@ -19,11 +19,11 @@ L’exemple **D3D12DynamicIndexing** illustre certaines des nouvelles fonctionna
 -   [Configurer le nuanceur de pixels](#set-up-the-pixel-shader)
 -   [Configurer la signature racine](#set-up-the-root-signature)
 -   [Créer les textures](#create-the-textures)
--   [Charger les données de texture](#upload-the-texture-data)
+-   [Télécharger les données de texture](#upload-the-texture-data)
 -   [Charger la texture diffuse](#load-the-diffuse-texture)
 -   [Créer un échantillonneur](#create-a-sampler)
 -   [Modifier dynamiquement l’index du paramètre racine](#dynamically-change-the-root-parameter-index)
--   [Exécution de l'exemple](#run-the-sample)
+-   [Exécuter l’exemple](#run-the-sample)
 -   [Rubriques connexes](#related-topics)
 
 ## <a name="set-up-the-pixel-shader"></a>Configurer le nuanceur de pixels
@@ -211,7 +211,7 @@ Le contenu de `g_txMats[]` sont des textures générées par des procédures cr�
 
  
 
-## <a name="upload-the-texture-data"></a>Charger les données de texture
+## <a name="upload-the-texture-data"></a>Télécharger les données de texture
 
 Les données de texture sont téléchargées vers le GPU via un tas de chargement et les SRVs sont créés pour chaque et stockés dans un tas de descripteur SRV.
 
@@ -542,7 +542,7 @@ La valeur de la constante racine est définie dans **FrameResource ::P opulatec
 
 <dl> <dt>
 
-[Guide pas à pas du code D3D12](d3d12-code-walk-throughs.md)
+[Walk-Throughs de code D3D12](d3d12-code-walk-throughs.md)
 </dt> <dt>
 
 [Effect-Tool du compilateur](/windows/desktop/direct3dtools/fxc)
@@ -551,11 +551,11 @@ La valeur de la constante racine est définie dans **FrameResource ::P opulatec
 [Caractéristiques du modèle de nuanceur HLSL 5,1 pour Direct3D 12](/windows/desktop/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
 </dt> <dt>
 
-[Liaison de ressources en HLSL](resource-binding-in-hlsl.md)
+[Liaison de ressource dans HSL](resource-binding-in-hlsl.md)
 </dt> <dt>
 
 [Modèle de nuanceur 5,1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> <dt>
 
-[Spécification de signatures racines en langage HLSL](specifying-root-signatures-in-hlsl.md)
+[Spécification de signatures racine en langage HLSL](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>

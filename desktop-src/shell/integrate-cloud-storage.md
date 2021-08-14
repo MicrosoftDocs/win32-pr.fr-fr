@@ -1,17 +1,17 @@
 ---
 description: Montre comment s’inscrire en tant que fournisseur racine de synchronisation et intégrer un fournisseur de stockage cloud dans le niveau racine du volet de navigation.
 ms.assetid: BB177EDC-8C88-4540-B2F8-994C1C8BA91C
-title: Intégrer un fournisseur de stockage cloud
+title: intégrer un fournisseur de Stockage Cloud
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21fdc5abfbf9881bfe23b00a924fce989aec7c95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 1e218caa292e2b85e13e00374562c172158be8bb2f062f25b47979902046282c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458199"
 ---
-# <a name="integrate-a-cloud-storage-provider"></a>Intégrer un fournisseur de stockage cloud
+# <a name="integrate-a-cloud-storage-provider"></a>intégrer un fournisseur de Stockage Cloud
 
 Si vous disposez d’un fournisseur de stockage cloud, vous devez effectuer quelques étapes pour fournir une expérience cohérente et préférée pour l’utilisateur. Ces deux opérations s’inscrivent en tant que fournisseur racine de synchronisation et intègrent votre application dans le niveau racine du volet de navigation.
 
@@ -20,23 +20,23 @@ Si vous disposez d’un fournisseur de stockage cloud, vous devez effectuer quel
 
  
 
-La première chose à faire est de s’inscrire en tant que fournisseur racine de synchronisation. Cela permet à l’interpréteur de commandes Windows de connaître votre application et de faire en sorte que votre application soit responsable de la synchronisation des fichiers sous votre racine de synchronisation. Cela permettra également à d’autres applications de savoir que vous synchronisez ces fichiers pour qu’ils puissent répondre de manière appropriée. D’autres applications peuvent ensuite utiliser [**StorageFile. Provider**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) pour afficher [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) et l' [**ID**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) de votre application.
+La première chose à faire est de s’inscrire en tant que fournisseur racine de synchronisation. cela permet à l’interpréteur de commandes Windows de connaître votre application et de faire en sorte que votre application soit responsable de la synchronisation des fichiers sous votre racine de synchronisation. Cela permettra également à d’autres applications de savoir que vous synchronisez ces fichiers pour qu’ils puissent répondre de manière appropriée. D’autres applications peuvent ensuite utiliser [**StorageFile. Provider**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) pour afficher [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) et l' [**ID**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) de votre application.
 
 Pour vous inscrire en tant que fournisseur racine de synchronisation, vous devez créer plusieurs entrées de registre. Avant de fournir la liste des paires clé-valeur, voici quelques espaces réservés que vous devez remplacer par vos propres données d’application.
 
 -   *\[ ID \] du fournisseur de stockage*: nom de votre fournisseur de stockage cloud. Ce nom doit être cohérent, quelle que soit la version de votre application. OneDrive en est un exemple.
--   *\[ Sid \] Windows*: le SID Windows unique qui identifie l’utilisateur. Si votre application prend en charge plusieurs installations pour plusieurs utilisateurs sur un seul ordinateur, ce composant est nécessaire.
+-   *\[ sid \] Windows*: le sid Windows unique qui identifie l’utilisateur. Si votre application prend en charge plusieurs installations pour plusieurs utilisateurs sur un seul ordinateur, ce composant est nécessaire.
 -   *\[ ID \] de compte*: identificateur du fournisseur de services pour le compte actuel de cet utilisateur. Certains fournisseurs nécessitent la possibilité de fournir plusieurs racines de synchronisation pour un utilisateur. Un compte professionnel et un compte personnel en sont un exemple. L' *ID de compte* vous permet d’avoir plusieurs comptes inscrits pour un seul utilisateur. Si votre fournisseur prend en charge plusieurs racines de synchronisation par utilisateur, ce composant est nécessaire.
 
 Ces espaces réservés sont combinés pour former l’ID racine de synchronisation. Vous devez placer un **!** caractère entre chacun des espaces réservés lors de la formation de l’ID racine de synchronisation. Voici les paires clé-valeur qui doivent être créées.
 
--   **HKLM \\ Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ ID \] du fournisseur de stockage_*_!_* _\[ Sid \] Windows_*_!_* _\[ ID \] de compte_*_\\ DisplayNameResource_* : pointe vers la ressource dans laquelle le shell Windows ou d’autres applications peuvent obtenir un nom convivial pour votre racine de synchronisation.
--   **HKLM \\ Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ ID \] du fournisseur de stockage_*_!_* _\[ Sid \] Windows_*_!_* _\[ ID \] de compte_*_\\ IconResource_* : pointe vers la ressource dans laquelle le shell Windows ou d’autres applications peuvent obtenir une icône pour votre racine de synchronisation.
--   **HKLM \\ Logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ ID \] du fournisseur de stockage_*_!_* _\[ Sid \] Windows_*_!_* _\[ ID \] de compte_*_\\ UserSyncRoots \\_*_\[ sid \] Windows_ : emplacement sur le disque où se trouve la racine de synchronisation.
+-   **HKLM \\ logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ storage provider ID \]_*_!_* _\[ Windows SID \]_*_!_* _\[ ID \] de compte_*_\\ DisplayNameResource_* : pointe vers la ressource dans laquelle l’interpréteur de commandes Windows ou d’autres applications peuvent obtenir un nom convivial pour votre racine de synchronisation.
+-   **HKLM \\ logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ storage provider ID \]_*_!_* _\[ Windows SID \]_*_!_* _\[ ID \] de compte_*_\\ IconResource_* : pointe vers la ressource dans laquelle l’interpréteur de commandes Windows ou d’autres applications peuvent obtenir une icône pour votre racine de synchronisation.
+-   **HKLM \\ logiciel \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ SyncRootManager \\**_\[ storage provider ID \]_*_!_* _\[ Windows SID \]_*_!_* _\[ ID \] de compte_*_\\ UserSyncRoots \\_*_\[ Windows \] SID_ : emplacement sur le disque où se trouve la racine de synchronisation.
 
 En dehors de l’inscription en tant que fournisseur racine de synchronisation, vous souhaitez également que les utilisateurs aient un accès facile aux données que vous fournissez. L’espace de noms de l’Explorateur de fichiers est conçu pour offrir une méthode d’accès facile. La création d’une extension d’espace de noms pour votre fournisseur et son incorporation dans la fenêtre de l’Explorateur de fichiers permet aux utilisateurs d’interagir avec le niveau racine de vos services de la même manière qu’ils sont utilisés avec d’autres éléments de l’Explorateur de fichiers. Cette rubrique explique comment étendre l’espace de noms de l’Explorateur de fichiers afin que votre fournisseur s’affiche au niveau de la racine dans le volet de navigation.
 
-Le volet de navigation de la fenêtre de l’Explorateur de fichiers est la partie de la fenêtre affichée sur le côté gauche. Dans l’image ci-dessous, vous pouvez voir la structure de l’espace de noms pour cet utilisateur. Le niveau racine dans le volet de navigation comprend les objets pour **OneDrive**, **ce PC** et le **réseau**. La procédure suivante permet d’ajouter votre extension au même niveau.
+Le volet de navigation de la fenêtre de l’Explorateur de fichiers est la partie de la fenêtre affichée sur le côté gauche. Dans l’image ci-dessous, vous pouvez voir la structure de l’espace de noms pour cet utilisateur. le niveau racine dans le volet de Navigation comprend les objets pour **OneDrive**, **ce PC** et le **réseau**. La procédure suivante permet d’ajouter votre extension au même niveau.
 
 ![volet de navigation](images/navigationpane.png)
 
@@ -136,13 +136,13 @@ Définissez les indicateurs [**SFGAO**](sfgao.md) appropriés. Les indicateurs a
 
 Configurez l’extension d’espace de noms en tant qu’enfant du dossier Desktop.
 
-**Reg Add HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ Desktop \\ namespace \\ {0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}/ve/t reg \_ SZ/d MyCloudStorageApp/f**
+**reg add HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ Desktop \\ NameSpace \\ {0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}/ve/t REG \_ SZ/d MyCloudStorageApp/f**
 
 ### <a name="step-12-hide-your-extension-from-the-desktop"></a>Étape 12 : masquer votre extension sur le Bureau
 
 Il est important que votre extension apparaisse uniquement dans le volet de navigation de l’Explorateur de fichiers. Une extension d’espace de noms ne fonctionne pas comme un raccourci normal. Par conséquent, vous ne devez pas utiliser cette méthode pour créer un raccourci sur le bureau.
 
-**Reg Add HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ HideDesktopIcons \\ NewStartPanel/v {0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}/t reg \_ DWORD/d 0x1/f**
+**reg add HKCU \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Explorer \\ HideDesktopIcons \\ NewStartPanel/v {0672A6D1-A6E0-40FE-AB16-F25BADC6D9E3}/t REG \_ DWORD/d 0x1/f**
 
  
 
