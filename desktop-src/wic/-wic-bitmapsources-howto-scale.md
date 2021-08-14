@@ -4,12 +4,12 @@ ms.assetid: d2c65c9b-6f52-46f7-935d-0c582ca83867
 title: Mise à l’échelle d’une source bitmap
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 737f72014929065bc63ec9c6021b05e38799d06e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2771ed13c23fdb3d74cf9c24899bea7a355efefcb5e541ac21aff53f372ded0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439686"
 ---
 # <a name="how-to-scale-a-bitmap-source"></a>Mise à l’échelle d’une source bitmap
 
@@ -17,7 +17,7 @@ Cette rubrique montre comment mettre à l’échelle un [**IWICBitmapSource**](/
 
 Pour mettre à l’échelle une source bitmap
 
-1.  Créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
+1.  créez un objet [**IWICImagingFactory**](/windows/desktop/api/Wincodec/nn-wincodec-iwicimagingfactory) pour créer des objets WIC (Windows Imaging Component).
 
     ```C++
     // Create WIC factory

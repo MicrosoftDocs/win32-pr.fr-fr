@@ -4,12 +4,12 @@ ms.assetid: 59a7cb76-77f2-4698-831a-8777aa982d3f
 title: MFPKEY_AVGFRAMERATE, propriété (Wmcodecdsp. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64fd9ca79e3b9acf8872c7032d6943c3084628d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acfb50dcfb0eb08953b2569d529919df26fcd63e23fd7b6b428f4b59f1c7c530
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106524470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874053"
 ---
 # <a name="mfpkey_avgframerate-property"></a>MFPKEY \_ propriété AVGFRAMERATE
 
@@ -29,8 +29,8 @@ VT \_ R8
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows XP uniquement\]<br/>                                             |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                    |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau XP uniquement\]<br/>                                             |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                    |
 | En-tête<br/>                   | <dl> <dt>Wmcodecdsp. h</dt> </dl> |
 
 

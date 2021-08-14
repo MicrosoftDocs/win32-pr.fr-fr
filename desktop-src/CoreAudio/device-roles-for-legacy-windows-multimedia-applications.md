@@ -1,24 +1,24 @@
 ---
-description: Rôles d’appareil pour les applications multimédias Windows héritées
+description: rôles d’appareil pour les Applications multimédias héritées Windows
 ms.assetid: 54dcaa0e-2652-406d-ba24-c8885924acc6
-title: Rôles d’appareil pour les applications multimédias Windows héritées
+title: rôles d’appareil pour les Applications multimédias héritées Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a4ad6728659e4c865aed773575268844fe330e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f6b0c1c8b61da896ca8877a913ba14d5013de71ac6fd7c14bcdebfe21c4ffcb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106522888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406919"
 ---
-# <a name="device-roles-for-legacy-windows-multimedia-applications"></a>Rôles d’appareil pour les applications multimédias Windows héritées
+# <a name="device-roles-for-legacy-windows-multimedia-applications"></a>rôles d’appareil pour les Applications multimédias héritées Windows
 
 > [!Note]  
-> L’API MMDevice prend en charge les rôles d’appareil. Toutefois, l’interface utilisateur de Windows Vista n’implémente pas la prise en charge de cette fonctionnalité. La prise en charge de l’interface utilisateur pour les rôles d’appareil peut être implémentée dans une future version de Windows. Pour plus d’informations, consultez [rôles de périphérique dans Windows Vista](device-roles-in-windows-vista.md).
+> L’API MMDevice prend en charge les rôles d’appareil. toutefois, l’interface utilisateur de Windows Vista n’implémente pas la prise en charge de cette fonctionnalité. La prise en charge de l’interface utilisateur pour les rôles d’appareil peut être implémentée dans une future version de Windows. pour plus d’informations, consultez [rôles d’appareil dans Windows Vista](device-roles-in-windows-vista.md).
 
  
 
-Les fonctions **waveOutXxx** et **waveInXxx** Windows Multimedia héritées ne permettent pas à une application de sélectionner l’appareil de [point de terminaison audio](audio-endpoint-devices.md) que l’utilisateur a affecté à un [rôle d’appareil](device-roles.md)particulier. Toutefois, dans Windows Vista, les API audio de base peuvent être utilisées conjointement avec une application multimédia Windows pour activer la sélection des appareils en fonction du rôle de l’appareil. Par exemple, à l’aide de l' [API MMDevice](mmdevice-api.md), une application **waveOutXxx** peut identifier l’appareil de point de terminaison audio qui est affecté à un rôle, identifier l’appareil de sortie de forme d’onde correspondant et appeler la fonction **waveOutOpen** pour ouvrir une instance de l’appareil. Pour plus d’informations sur **waveOutXxx** et **waveInXxx**, consultez la documentation SDK Windows.
+les fonctions **waveOutXxx** et **waveInXxx** multimédias Windows héritées ne permettent pas à une application de sélectionner l’appareil de [point de terminaison audio](audio-endpoint-devices.md) que l’utilisateur a affecté à un [rôle d’appareil](device-roles.md)particulier. toutefois, dans Windows Vista, les api audio de base peuvent être utilisées conjointement avec une application multimédia Windows pour activer la sélection des appareils en fonction du rôle de l’appareil. Par exemple, à l’aide de l' [API MMDevice](mmdevice-api.md), une application **waveOutXxx** peut identifier l’appareil de point de terminaison audio qui est affecté à un rôle, identifier l’appareil de sortie de forme d’onde correspondant et appeler la fonction **waveOutOpen** pour ouvrir une instance de l’appareil. pour plus d’informations sur **waveOutXxx** et **waveInXxx**, consultez la documentation SDK Windows.
 
 L’exemple de code suivant montre comment obtenir l’ID de périphérique de la forme d’onde pour le périphérique de point de terminaison de rendu affecté à un rôle d’appareil particulier :
 
@@ -153,7 +153,7 @@ La boucle principale de l’exemple de code précédent contient deux appels à 
 
 Le deuxième appel à **waveOutMessage** envoie un \_ message QUERYFUNCTIONINSTANCEID DRV pour récupérer la chaîne d’ID d’appareil de l’appareil de sortie Waveform. L’exemple de code compare cette chaîne à la chaîne d’ID de périphérique de l’appareil de point de terminaison audio avec le rôle d’appareil spécifié. Si les chaînes correspondent, la fonction écrit l’ID de périphérique de la forme d’onde à l’emplacement désigné par le paramètre *pWaveOutId*. L’appelant peut utiliser cet ID pour ouvrir l’appareil de sortie de forme d’onde qui a le rôle d’appareil spécifié.
 
-Windows Vista prend en charge les \_ messages DRV QUERYFUNCTIONINSTANCEIDSIZE et DRV \_ QUERYFUNCTIONINSTANCEID. Ils ne sont pas pris en charge dans les versions antérieures de Windows, notamment Windows Server 2003, Windows XP et Windows 2000.
+Windows Vista prend en charge les \_ messages DRV QUERYFUNCTIONINSTANCEIDSIZE et DRV \_ QUERYFUNCTIONINSTANCEID. ils ne sont pas pris en charge dans les versions antérieures de Windows, y compris Windows Server 2003, Windows XP et Windows 2000.
 
 La fonction de l’exemple de code précédent obtient l’ID de périphérique de la forme d’onde pour un périphérique de rendu, mais, avec quelques modifications, il peut être adapté pour obtenir l’ID de périphérique de la forme d’onde pour un périphérique de capture. L’application peut ensuite appeler **waveInOpen** avec cet ID pour ouvrir l’appareil. Pour modifier l’exemple de code précédent afin d’obtenir l’ID de périphérique de la forme d’onde pour le périphérique de point de terminaison de capture audio qui est affecté à un rôle particulier, procédez comme suit :
 
@@ -161,7 +161,7 @@ La fonction de l’exemple de code précédent obtient l’ID de périphérique 
 -   Remplacez le type de handle HWAVEOUT par HWAVEIN.
 -   Remplacez la constante d’énumération [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole) ERender par eCapture.
 
-Dans Windows Vista, les fonctions **waveOutOpen** et **waveInOpen** attribuent toujours les flux audio qu’ils créent à la session par défaut : la session spécifique au processus qui est identifiée par la valeur GUID de la session GUID \_ null.
+dans Windows Vista, les fonctions **waveOutOpen** et **waveInOpen** attribuent toujours les flux audio qu’ils créent à la session par défaut : la session spécifique au processus qui est identifiée par la valeur guid de la session guid \_ NULL.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

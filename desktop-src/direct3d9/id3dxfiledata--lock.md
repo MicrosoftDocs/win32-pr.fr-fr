@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 27ef18fcb12b00f0b778ee15d582610ffe52fe54
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c052f570b3206c5a0661a4cf4ab38b259fb476f4eda1322df80e709608d09bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106532188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520706"
 ---
 # <a name="id3dxfiledatalock-method"></a>ID3DXFileData :: Lock, méthode
 
@@ -59,13 +59,13 @@ Adresse d’un pointeur pour recevoir le pointeur d’interface de l’objet de 
 
 </dd> </dl>
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur de retour
 
 Type : **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
 
 Si la méthode est réussie, la valeur de retour est S \_ OK. Si la méthode échoue, la valeur suivante est retournée : D3DXFERR \_ BADVALUE.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Le pointeur *ppData* est uniquement valide pendant un **ID3DXFileData :: Lock** ... Séquence [**ID3DXFileData :: Unlock**](id3dxfiledata--unlock.md) . Vous pouvez effectuer plusieurs appels de verrouillage. Toutefois, vous devez vous assurer que le nombre d’appels de verrous correspond au nombre d’appels de déverrouillage.
 

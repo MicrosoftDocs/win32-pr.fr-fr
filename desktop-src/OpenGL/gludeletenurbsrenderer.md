@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fb6ecf0bbb7076d4d6292676d3d358586d0986c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b114c6d67452468f3b8b92e443580d8d6f06c7df8bc1b6647916c210d204955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103741420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118613016"
 ---
 # <a name="gludeletenurbsrenderer-function"></a>gluDeleteNurbsRenderer fonction)
 
@@ -51,7 +51,7 @@ Objet NURBS à détruire (créé avec **gluNewNurbsRenderer**).
 
 Cette fonction ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **gluDeleteNurbsRenderer** détruit l’objet NURBS et libère toute mémoire qu’il utilisait. Une fois que vous avez appelé **gluDeleteNurbsRenderer**, vous ne pouvez plus utiliser *nobj* .
 

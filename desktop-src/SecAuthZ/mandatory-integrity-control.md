@@ -4,12 +4,12 @@ ms.assetid: 5923cb4c-f663-40d2-989a-07d71ac475db
 title: Contrôle d'intégrité par mandat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c184ba01da0a55309fcb27ace9b0fe156edd6425
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 5ac1a39cfc1d1ab819181e37c17328d6015a884f9ae1cce546643480351341b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106543382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781492"
 ---
 # <a name="mandatory-integrity-control"></a>Contrôle d'intégrité par mandat
 
@@ -17,7 +17,7 @@ Contrôle d’intégrité par mandat (MIC) fournit un mécanisme permettant de c
 
 MIC utilise des niveaux d’intégrité et une stratégie obligatoire pour évaluer l’accès. Les [*principaux de sécurité*](/windows/desktop/SecGloss/s-gly) et les objets sécurisables se voient affecter des niveaux d’intégrité qui déterminent leurs niveaux de protection ou d’accès. Par exemple, un principal avec un niveau d’intégrité faible ne peut pas écrire dans un objet avec un niveau d’intégrité moyen, même si la liste DACL de cet objet autorise l’accès en écriture au principal.
 
-Windows définit quatre niveaux d’intégrité : faible, moyen, élevé et système. Les utilisateurs standard reçoivent un support de réception élevé. Les processus que vous démarrez et les objets que vous créez reçoivent votre niveau d’intégrité (moyen ou élevé) ou faible si le niveau du fichier exécutable est faible ; les services système reçoivent l’intégrité du système. Les objets qui n’ont pas d’étiquette d’intégrité sont traités comme moyens par le système d’exploitation ; Cela empêche le code de faible intégrité de modifier des objets sans étiquette. En outre, Windows garantit que les processus qui s’exécutent avec un niveau d’intégrité faible ne peuvent pas obtenir l’accès à un processus associé à un conteneur d’application.
+Windows définit quatre niveaux d’intégrité : faible, moyen, élevé et système. Les utilisateurs standard reçoivent un support de réception élevé. Les processus que vous démarrez et les objets que vous créez reçoivent votre niveau d’intégrité (moyen ou élevé) ou faible si le niveau du fichier exécutable est faible ; les services système reçoivent l’intégrité du système. Les objets qui n’ont pas d’étiquette d’intégrité sont traités comme moyens par le système d’exploitation ; Cela empêche le code de faible intégrité de modifier des objets sans étiquette. en outre, Windows garantit que les processus exécutés avec un niveau d’intégrité faible ne peuvent pas obtenir l’accès à un processus associé à un conteneur d’application.
 
 ## <a name="integrity-labels"></a>Étiquettes d’intégrité
 

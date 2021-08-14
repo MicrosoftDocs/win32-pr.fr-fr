@@ -4,16 +4,16 @@ ms.assetid: 708212ca-d148-4079-8052-3bf6696a33ab
 title: Afficher les boîtes de dialogue de capture VFW
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b8b51b164630a8fa6e91b2e68ca8a9a3a875b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2713cc4d2eba52626c66974eed23f2c1752a1268fea78a30ca2bc9d7babc3a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103745652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821137"
 ---
 # <a name="display-vfw-capture-dialog-boxes"></a>Afficher les boîtes de dialogue de capture VFW
 
-Un périphérique de capture qui utilise encore un pilote de vidéo pour Windows (VFW) peut prendre en charge les trois boîtes de dialogue suivantes, qui sont utilisées pour configurer l’appareil.
+un périphérique de capture qui utilise encore un pilote de vidéo pour Windows (VFW) peut prendre en charge les trois boîtes de dialogue suivantes, qui sont utilisées pour configurer l’appareil.
 
 
 

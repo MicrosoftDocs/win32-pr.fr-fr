@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: 1f8d7e79c48e0409d8040f6d44159c473dd58ee1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 117178118f59c4f8830cab8aee6afc263d169bf58bac5ac81d3e33305b7db9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106516409"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481929"
 ---
 # <a name="nddegettrustedshare-function"></a>NDdeGetTrustedShare fonction)
 
@@ -102,7 +102,7 @@ Si la fonction est réussie, la valeur de retour est NDDE \_ aucune \_ erreur.
 
 Si la fonction échoue, la valeur de retour est un code d’erreur qui peut être traduit en message d’erreur texte en appelant [**NDdeGetErrorString**](nddegeterrorstring.md).
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 L’identificateur de modification de partage approuvé reflète la version du partage DDE dans le DSDM au moment où l’État approuvé a été initialement attribué au partage DDE. L’identificateur de modification de partage approuvé est principalement utilisé pour supprimer les partages approuvés obsolètes. Toutefois, l’utilisateur n’a pas besoin de supprimer les partages approuvés obsolètes. L’agent DDE réseau supprime les partages obsolètes au nom de l’utilisateur.
 
@@ -125,7 +125,7 @@ L’identificateur de modification de partage approuvé reflète la version du p
 
 <dl> <dt>
 
-[Présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
+[présentation du échange dynamique de données réseau](network-dynamic-data-exchange.md)
 </dt> <dt>
 
 [Fonctions DDE réseau](network-dde-functions.md)

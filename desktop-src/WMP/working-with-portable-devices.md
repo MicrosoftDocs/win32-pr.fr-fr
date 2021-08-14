@@ -4,25 +4,25 @@ description: Utilisation d’appareils mobiles
 ms.assetid: 145ede07-a23b-486b-a561-9c87a48b72a8
 keywords:
 - Lecteur Windows Media, appareils mobiles
-- Modèle objet du lecteur Windows Media, appareils mobiles
+- modèle objet Lecteur Windows Media, appareils mobiles
 - modèle objet, appareils mobiles
-- Contrôle ActiveX du lecteur Windows Media, appareils mobiles
-- Contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile contrôle ActiveX, appareils mobiles
-- Windows Media Player Mobile, appareils mobiles
+- contrôle de ActiveX Lecteur Windows Media, appareils mobiles
+- contrôle de ActiveX, appareils mobiles
+- Lecteur Windows Media contrôle Mobile ActiveX, appareils mobiles
+- Lecteur Windows Media Mobile, appareils mobiles
 - appareils mobiles, à propos de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64c6e7047864b899a2d7dca2ba4754cc7cb5dc2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34cbff16b293ac4ab438c1b018608497d2a61cdfa6fb727332d5b50a27de313c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745505"
 ---
 # <a name="working-with-portable-devices"></a>Utilisation d’appareils mobiles
 
-Cette section explique comment utiliser un contrôle ActiveX Windows Media Player distant pour travailler avec des appareils mobiles.
+cette section décrit comment utiliser un contrôle de ActiveX Lecteur Windows Media à distance pour travailler avec des appareils mobiles.
 
 Les exemples de code de cette section utilisent des classes Active Template Library (ATL), telles que **CComPtr**.
 
@@ -168,9 +168,9 @@ Les sections suivantes fournissent des explications sur l’exemple de code :
 [**Guide de contrôle du lecteur**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

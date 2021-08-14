@@ -5,12 +5,12 @@ ms.assetid: c7c6d1a3-d0c8-469e-ae1e-a848ef7fee2b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd62a50021c485c7bf51cdc9caff4360e4cc863
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: f46e4052b2c7277f49f898a290d689928b5838c0562042c0ba8937c5daf00210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362315"
 ---
 # <a name="internet-authentication-service--network-policy-server"></a>Service d’authentification Internet & le serveur NPS (Network Policy Server)
 
@@ -26,7 +26,7 @@ Pour plus d’informations sur IAS, voir [TechNet : service d’authentificatio
 
 ## <a name="network-policy-server"></a>Serveur de stratégie réseau
 
-Le serveur NPS (Network Policy Server) est l’implémentation Microsoft d’un serveur et d’un proxy RADIUS et est disponible sur les serveurs Windows à partir de Windows Server 2008.
+le serveur nps (Network Policy server) est l’implémentation Microsoft d’un serveur et d’un proxy RADIUS et est disponible sur les serveurs Windows à partir de Windows Server 2008.
 
 NPS prend en charge les deux mêmes jeux d’API que IAS : [API d’extension de serveur de stratégie réseau](ias-extensions.md) et [API d’objets de données serveur](server-data-objects.md).
 

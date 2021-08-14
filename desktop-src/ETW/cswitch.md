@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 91004ca276140271e8d73c3fc226e83c4e03d1fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09efeac38babb057621cb6f25d14d3a631c12242e91982ae3ab9e79570416be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104201705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395345"
 ---
 # <a name="cswitch-class"></a>CSwitch, classe
 
@@ -168,12 +168,12 @@ Qualificateurs : WmiDataId (9)
 |-------|-----------------------------------------------|
 | 0     | Initialized                                   |
 | 1     | Ready                                         |
-| 2     | Exécution en cours                                       |
+| 2     | En cours d’exécution                                       |
 | 3     | Standby                                       |
 | 4     | Terminé                                    |
 | 5     | En attente                                       |
 | 6     | Transition                                    |
-| 7     | DeferredReady (ajouté pour Windows Server 2003) |
+| 7     | DeferredReady (ajouté pour le serveur Windows 2003) |
 
 
 
@@ -331,18 +331,18 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Ces événements produisent un volume élevé d’événements.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
 | Condition requise | Valeur |
 |-------------------------------------|------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>       |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 \[ uniquement\]<br/> |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>       |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 \[ applications de bureau uniquement\]<br/> |
 
 
 

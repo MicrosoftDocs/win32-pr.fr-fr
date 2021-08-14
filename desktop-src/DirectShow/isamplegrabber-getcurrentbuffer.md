@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d4df4c825761b42533590f10432bf62e5e4e0298
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 88af9469a1470a02be62b7684a66990c5622820e370518ed53267bd87d981879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106543255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818048"
 ---
 # <a name="isamplegrabbergetcurrentbuffer-method"></a>ISampleGrabber :: GetCurrentBuffer, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -71,7 +71,7 @@ Retourne l’une des valeurs suivantes.
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>          | Les exemples ne sont pas mis en mémoire tampon. Appelez [**ISampleGrabber :: SetBufferSamples**](isamplegrabber-setbuffersamples.md).<br/> |
 | <dl> <dt>**\_OUTOFMEMORY E**</dt> </dl>         | La mémoire tampon spécifiée n’est pas assez grande.<br/>                                                                         |
 | <dl> <dt>**\_pointeur E**</dt> </dl>             | Argument de pointeur **null** .<br/>                                                                                        |
-| <dl> <dt>**\_OK**</dt> </dl>                  | Opération réussie.<br/>                                                                                                          |
+| <dl> <dt>**\_OK**</dt> </dl>                  | Réussite.<br/>                                                                                                          |
 | <dl> <dt>**VFW \_ E \_ non \_ connecté**</dt> </dl> | Le filtre n’est pas connecté.<br/>                                                                                      |
 | <dl> <dt>**VFW \_ E \_ état incorrect \_**</dt> </dl>   | Le filtre n’a pas encore reçu d’exemples. Pour remettre un exemple, exécutez ou suspendez le graphique.<br/>                         |
 
@@ -79,7 +79,7 @@ Retourne l’une des valeurs suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour activer la mise en mémoire tampon, appelez [**ISampleGrabber :: SetBufferSamples**](isamplegrabber-setbuffersamples.md) avec la valeur **true**.
 
@@ -97,7 +97,7 @@ Le filtre ne met pas en mémoire tampon des exemples de préroll, ou des exemple
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

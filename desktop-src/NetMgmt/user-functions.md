@@ -4,12 +4,12 @@ description: Les fonctions utilisateur de gestion de réseau contrôlent le comp
 ms.assetid: cf0e5102-3924-46c0-8124-0aa04e95f48d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a3349673d09e42fbfe7a5dc949d1bcff53b828
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 34c8d7b59ff121c0225f166888b42ef1a731336ed80799cd0593ba38b4fb04ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106544156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796815"
 ---
 # <a name="user-functions"></a>Fonctions utilisateur
 
@@ -31,9 +31,9 @@ Les fonctions utilisateur de gestion de réseau contrôlent le compte d’un uti
 
 
 
- 
+ 
 
-Chaque utilisateur ou application qui accède à des ressources réseau doit avoir un compte dans la base de données de sécurité. Les services d’annuaire utilisent ce compte pour vérifier que l’utilisateur ou l’application a l’autorisation de se connecter à une ressource. Lorsqu’un utilisateur ou une application demande l’accès à une ressource, le système de sécurité Windows recherche un compte d’utilisateur ou un compte de groupe approprié pour autoriser l’accès.
+Chaque utilisateur ou application qui accède à des ressources réseau doit avoir un compte dans la base de données de sécurité. Les services d’annuaire utilisent ce compte pour vérifier que l’utilisateur ou l’application a l’autorisation de se connecter à une ressource. lorsqu’un utilisateur ou une application demande l’accès à une ressource, le système de sécurité Windows recherche un compte d’utilisateur ou un compte de groupe approprié pour autoriser l’accès.
 
 Une fois que vous avez supprimé un compte d’utilisateur en appelant la fonction [**NetUserDel**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserdel) , l’utilisateur ne peut plus accéder au serveur, sauf en utilisant le compte invité.
 
@@ -83,10 +83,10 @@ Les fonctions suivantes permettent aux applications de vérifier la conformité 
 
 
 
- 
+ 
 
 Si vous programmez pour Active Directory, vous pouvez appeler certaines méthodes d’interface de service d’Active Directory (ADSI) pour obtenir les mêmes fonctionnalités que celles que vous pouvez obtenir en appelant les fonctions utilisateur de gestion de réseau. Pour plus d’informations, consultez [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) et [**IADsComputer**](/windows/desktop/api/iads/nn-iads-iadscomputer).
 
- 
+ 
 
- 
+ 

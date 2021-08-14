@@ -1,6 +1,6 @@
 ---
 title: Player. windowlessVideo
-description: La propriété windowlessVideo spécifie ou récupère une valeur indiquant si le contrôle du lecteur Windows Media affiche la vidéo en mode sans fenêtre.
+description: la propriété windowlessVideo spécifie ou récupère une valeur indiquant si le contrôle Lecteur Windows Media restitue la vidéo en mode sans fenêtre.
 ms.assetid: 314a75a3-d096-4cd4-a747-e31367e0e265
 keywords:
 - Lecteur Windows Media Player. windowlessVideo
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93f4a8a2b70a42cd0893d463eccca0427dde6c43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 733f8488d1d45f4c7e9794e64e2b3a70b41722048eac82d5d8eb6eb2f1d91cd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106532829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572076"
 ---
 # <a name="playerwindowlessvideo"></a>Player. windowlessVideo
 
-La propriété **windowlessVideo** spécifie ou récupère une valeur indiquant si le contrôle du lecteur Windows Media affiche la vidéo en mode sans fenêtre.
+la propriété **windowlessVideo** spécifie ou récupère une valeur indiquant si le contrôle Lecteur Windows Media restitue la vidéo en mode sans fenêtre.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -46,9 +46,9 @@ Cette propriété est une **valeur booléenne** qui est spécifiée au moment de
 
 ## <a name="remarks"></a>Notes
 
-Par défaut, un contrôle du lecteur Windows Media incorporé affiche la vidéo dans sa propre fenêtre au sein de la zone cliente. Quand **windowlessVideo** a la valeur true, le contrôle du lecteur affiche la vidéo directement dans la zone cliente, ce qui vous permet d’appliquer des effets spéciaux ou de coucher la vidéo avec du texte.
+par défaut, un contrôle de Lecteur Windows Media incorporé affiche la vidéo dans sa propre fenêtre au sein de la zone cliente. Quand **windowlessVideo** a la valeur true, le contrôle du lecteur affiche la vidéo directement dans la zone cliente, ce qui vous permet d’appliquer des effets spéciaux ou de coucher la vidéo avec du texte.
 
-Dans Windows Vista, le rendu de la vidéo en mode sans fenêtre peut dégrader les performances.
+dans Windows Vista, le rendu de la vidéo en mode sans fenêtre peut dégrader les performances.
 
 La propriété **windowlessVideo** n’est pas prise en charge pour Netscape Navigator. La définition d’une valeur pour cette propriété dans le navigateur peut donner des résultats inattendus.
 

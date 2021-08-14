@@ -1,24 +1,24 @@
 ---
 title: Stylet
-description: Toutes les applications Microsoft Windows doivent être activées pour le stylet. Et cela est plus facile que vous ne le pensez.
+description: toutes les applications Windows Microsoft doivent être activées pour le stylet. Et cela est plus facile que vous ne le pensez.
 ms.assetid: 45635d5a-c9ff-47d0-89ef-a9c48ac67594
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 35994f345306bd3a270f8d8cf9760e7d07183941
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 90c953fe1c287741bec266bfe6516a6a8922692b213292d2f17cccebf561cb0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103869382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117853374"
 ---
 # <a name="pen"></a>Stylet
 
 > [!NOTE]
-> Ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
+> ce guide de conception a été créé pour Windows 7 et n’a pas été mis à jour pour les versions plus récentes de Windows. La plupart des conseils s’appliquent toujours en principe, mais la présentation et les exemples ne reflètent pas nos [recommandations en](/windows/uwp/design/)matière de conception.
 
-Toutes les applications Microsoft Windows doivent être activées pour le stylet. Et cela est plus facile que vous ne le pensez.
+toutes les applications Windows Microsoft doivent être activées pour le stylet. Et cela est plus facile que vous ne le pensez.
 
-L’entrée PEN fait référence à la façon dont Windows vous permet d’interagir directement avec un ordinateur à l’aide d’un stylet. Un stylet peut être utilisé pour le pointage et également pour les gestes, l’entrée de texte simple et la capture de réflexions de forme libre dans l’encre numérique.
+l’entrée Pen fait référence à la façon dont Windows vous permet d’interagir directement avec un ordinateur à l’aide d’un stylet. Un stylet peut être utilisé pour le pointage et également pour les gestes, l’entrée de texte simple et la capture de réflexions de forme libre dans l’encre numérique.
 
 Le stylet utilisé pour l’entrée a un Conseil parfait et lisse qui prend en charge le pointage, l’écriture ou le dessin précis de l’encre. Le stylet peut également avoir un bouton de stylet facultatif (utilisé pour effectuer des clics droits) et gomme (utilisé pour effacer l’encre). La plupart des stylets prennent en charge le pointage.
 
@@ -32,9 +32,9 @@ Lorsque le stylet est utilisé pour l’écriture manuscrite, les traits de l’
 
 Exemple d’entrée d’encre.
 
-La plupart des programmes Windows sont déjà conviviaux dans la mesure où un stylet peut être utilisé à la place d’une souris, le stylet fonctionne sans heurts pour les tâches et interactions importantes, et le programme répond aux gestes. Un programme devient facile à écrire dans le cadre d’une saisie manuscrite de texte. Un programme prend en charge l’écriture manuscrite lorsqu’il peut gérer l’encre directement, au lieu de faire en sorte que les traits de stylet soient traduits en texte ou en mouvements de souris équivalents. Cela permet aux utilisateurs d’écrire, de dessiner et d’ajouter des commentaires dans une encre numérique de haute qualité, à l’ordre gratuit. La collecte d’encre est différente de la collecte d’événements de souris, car l’encre requiert une résolution plus élevée et une fréquence d’échantillonnage supérieure, et elle peut également ajouter des nuances avec pression et inclinaison. Pour plus d’informations sur la création de programmes compatibles avec l’écriture manuscrite et avec écriture manuscrite, consultez intégration de l’entrée [manuscrite](/previous-versions/windows/desktop/ms700674(v=vs.85)) et [texte à l’aide du stylet](/previous-versions/windows/desktop/ms695501(v=vs.85)).
+la plupart des Windows programmes sont déjà conviviaux dans la mesure où un stylet peut être utilisé à la place d’une souris, le stylet fonctionne sans heurts pour les tâches et interactions importantes, et le programme répond aux gestes. Un programme devient facile à écrire dans le cadre d’une saisie manuscrite de texte. Un programme prend en charge l’écriture manuscrite lorsqu’il peut gérer l’encre directement, au lieu de faire en sorte que les traits de stylet soient traduits en texte ou en mouvements de souris équivalents. Cela permet aux utilisateurs d’écrire, de dessiner et d’ajouter des commentaires dans une encre numérique de haute qualité, à l’ordre gratuit. La collecte d’encre est différente de la collecte d’événements de souris, car l’encre requiert une résolution plus élevée et une fréquence d’échantillonnage supérieure, et elle peut également ajouter des nuances avec pression et inclinaison. Pour plus d’informations sur la création de programmes compatibles avec l’écriture manuscrite et avec écriture manuscrite, consultez intégration de l’entrée [manuscrite](/previous-versions/windows/desktop/ms700674(v=vs.85)) et [texte à l’aide du stylet](/previous-versions/windows/desktop/ms695501(v=vs.85)).
 
-Lors du positionnement d’un stylet, il est moins nécessaire de disposer d’un curseur, car l’info-bulle se représente lui-même. Toutefois, pour le ciblage de l’assistance, Windows fournit un minuscule curseur de stylet qui indique l’emplacement actuel du stylet. Contrairement au pointeur de la souris qu’il remplace, le curseur de stylet n’est pas nécessaire, sauf si le stylet est proche de l’écran, donc il disparaît après quelques secondes d’inactivité pour permettre une vue sans obstruction des informations.
+Lors du positionnement d’un stylet, il est moins nécessaire de disposer d’un curseur, car l’info-bulle se représente lui-même. toutefois, pour le ciblage de l’assistance, Windows fournit un minuscule curseur de stylet qui indique l’emplacement actuel du stylet. Contrairement au pointeur de la souris qu’il remplace, le curseur de stylet n’est pas nécessaire, sauf si le stylet est proche de l’écran, donc il disparaît après quelques secondes d’inactivité pour permettre une vue sans obstruction des informations.
 
 La plupart des programmes compatibles avec le stylet prennent en charge les gestes. Un mouvement est un mouvement rapide du stylet sur un écran que l’ordinateur interprète comme une commande, plutôt que comme un déplacement de la souris, l’écriture ou le dessin. Un raccourci est l’un des gestes les plus rapides et les plus simples à exécuter. Un raccourci est un mouvement simple qui se traduit par une navigation ou une commande d’édition. Les raccourcis de navigation incluent glisser vers le haut, faire glisser vers le bas, déplacer vers l’arrière et avancer, tandis que les raccourcis de modification incluent copier, coller, annuler et supprimer.
 
@@ -55,7 +55,7 @@ L’utilisation d’un stylet pour l’entrée présente les caractéristiques s
 -   **Portatif.** Un ordinateur avec une fonctionnalité de stylet peut être plus compact, car la plupart des tâches peuvent être effectuées sans clavier, souris ou pavé tactile. Il peut être plus flexible, car il ne nécessite pas de surface de travail. Il permet de nouveaux emplacements et scénarios d’utilisation d’un ordinateur.
 -   **Directe et attrayante.** L’utilisation d’un stylet vous donne l’impression d’interagir directement avec les objets à l’écran, tandis que l’utilisation d’une souris ou d’un pavé tactile vous oblige toujours à coordonner les mouvements de main avec des mouvements de pointeur à l’écran distincts, ce qui est indirect par comparaison.
 
-**Tous les programmes Windows doivent avoir une bonne expérience Pen.** Les utilisateurs doivent être en mesure d’effectuer efficacement les tâches les plus importantes de votre programme à l’aide d’un stylet. Certaines tâches, telles que la saisie ou la manipulation de pixels détaillée, ne sont pas appropriées pour un stylet, mais elles doivent être au moins possibles.
+**tous les programmes Windows doivent avoir une bonne expérience pen.** Les utilisateurs doivent être en mesure d’effectuer efficacement les tâches les plus importantes de votre programme à l’aide d’un stylet. Certaines tâches, telles que la saisie ou la manipulation de pixels détaillée, ne sont pas appropriées pour un stylet, mais elles doivent être au moins possibles.
 
 Heureusement, si votre programme est déjà bien conçu et qu’il est convivial, la prise en charge d’un bon stylet est facile à faire. À cet effet, il s’agit d’un programme bien conçu :
 
@@ -73,12 +73,12 @@ Malheureusement, l’inverse est également vrai si votre programme n’est pas 
 
 ### <a name="model-for-pen-interaction"></a>Modèle d’interaction du stylet
 
-Si vous n’êtes pas familiarisé avec l’utilisation d’un stylet, la meilleure introduction consiste à apprendre. Procurez-vous un ordinateur avec stylet, mettez la souris et le clavier de côté, puis effectuez les tâches que vous utilisez normalement à l’aide d’un simple stylet. Veillez à essayer les deux programmes avec écriture manuscrite, tels que le journal Windows, et les programmes qui ne sont pas compatibles avec l’écriture manuscrite. Si vous avez un Tablet PC, expérimentez-le à des endroits différents, par exemple sur votre genoux, sur un tableau ou dans vos bras pendant que vous êtes debout. Essayez de l’utiliser en orientation portrait et paysage, en maintenant le stylet pour l’écriture et uniquement pour le pointage, à gauche et à droite.
+Si vous n’êtes pas familiarisé avec l’utilisation d’un stylet, la meilleure introduction consiste à apprendre. Procurez-vous un ordinateur avec stylet, mettez la souris et le clavier de côté, puis effectuez les tâches que vous utilisez normalement à l’aide d’un simple stylet. veillez à essayer les deux programmes avec écriture manuscrite, tels que Windows Journal, et les programmes qui ne sont pas compatibles avec l’écriture manuscrite. Si vous avez un Tablet PC, expérimentez-le à des endroits différents, par exemple sur votre genoux, sur un tableau ou dans vos bras pendant que vous êtes debout. Essayez de l’utiliser en orientation portrait et paysage, en maintenant le stylet pour l’écriture et uniquement pour le pointage, à gauche et à droite.
 
 À mesure que vous expérimentez l’utilisation d’un stylet, vous découvrirez ce qui suit :
 
 -   **Les petits contrôles sont difficiles à utiliser.** La taille des contrôles a un impact considérable sur votre capacité à interagir efficacement. Les contrôles qui sont 10x10 pixels fonctionnent raisonnablement pour un stylet, mais les contrôles les plus grands sont encore plus confortables à utiliser. Par exemple, les [contrôles spin](ctrl-spin-controls.md) (15x11 pixels) sont trop petits pour être facilement utilisés avec un stylet.
--   **La main est un facteur.** Votre main présente parfois des choses que vous pouvez souhaiter voir ou manipuler. Par exemple, pour que les menus contextuels des utilisateurs droitiers soient difficiles à utiliser s’ils apparaissent à droite du point de clic, il est préférable qu’ils apparaissent sur la gauche. Windows permet aux utilisateurs d’indiquer leur droitier dans l’élément du panneau de configuration paramètres du Tablet PC.
+-   **La main est un facteur.** Votre main présente parfois des choses que vous pouvez souhaiter voir ou manipuler. Par exemple, pour que les menus contextuels des utilisateurs droitiers soient difficiles à utiliser s’ils apparaissent à droite du point de clic, il est préférable qu’ils apparaissent sur la gauche. Windows permet aux utilisateurs d’indiquer leur droitier dans le Tablet PC Paramètres élément du panneau de configuration.
 -   **La localité des tâches aide.** Bien que vous puissiez déplacer le pointeur sur un écran de 14 pouces avec un mouvement de souris de 3 cm, l’utilisation d’un stylet vous oblige à déplacer la main sur la pleine de 14 pouces. Le déplacement répété entre des cibles éloignées peut être fastidieux, c’est pourquoi il est préférable de conserver les interactions entre les tâches dans la plage d’une main à chaque fois que cela est possible. Les menus contextuels sont pratiques, car ils ne nécessitent pas de déplacement à la main.
 -   **L’entrée et la sélection de texte sont difficiles.** Une entrée de texte longue est particulièrement difficile à utiliser un stylet, de sorte que la saisie semi-automatique et les valeurs de texte par défaut acceptables peuvent vraiment simplifier les tâches. La sélection de texte peut également être assez difficile. les tâches sont donc plus faciles quand elles n’ont pas besoin d’un positionnement de curseur précis.
 -   **Les petites cibles près du bord de l’écran peuvent être très difficiles à appuyer.** Certains panneaux d’affichage sont saillants et certaines technologies de l’écran tactile sont moins sensibles aux bords, ce qui rend les contrôles à proximité de la périphérie plus difficiles à utiliser. Par exemple, les boutons réduire, agrandir/restaurer et fermer de la barre de titre peuvent être plus difficiles à utiliser lorsqu’une fenêtre est agrandie.
@@ -91,7 +91,7 @@ La localité des tâches réduit les mouvements de l’écran répétés fastidi
 
 ![capture d’écran de la palette de couleurs séparée des outils ](images/inter-pen-image3.png)
 
-Dans cet exemple de Windows XP, la palette de couleurs est trop éloignée de l’endroit où elle est susceptible d’être utilisée.
+dans cet exemple de Windows XP, la palette de couleurs est trop éloignée de l’endroit où elle est susceptible d’être utilisée.
 
 Supposons que l’emplacement actuel de l’utilisateur est le plus proche possible, ce qui le rend facile à acquérir. Ainsi, les menus contextuels tirent pleinement parti de la [Loi de Fitts](inter-mouse.md), tout comme les mini-barres d’outils utilisées par Microsoft Office.
 
@@ -105,7 +105,7 @@ Les petites cibles près du bord d’affichage peuvent être difficiles à cible
 
 **Gestes système**
 
-Les gestes système sont définis et gérés par Windows. Par conséquent, tous les programmes Windows y ont accès. Ces gestes ont des messages de commande équivalents de souris, de clavier et d’application :
+Les gestes système sont définis et gérés par Windows. par conséquent, tous les programmes Windows y ont accès. Ces gestes ont des messages de commande équivalents de souris, de clavier et d’application :
 
 
 
@@ -129,13 +129,13 @@ Les gestes système sont définis et gérés par Windows. Par conséquent, tous 
 
 Les raccourcis sont des mouvements simples qui sont à peu près l’équivalent des raccourcis clavier. Les raccourcis de navigation incluent glisser vers le haut, glisser vers le bas, déplacer vers l’arrière et avancer. Les raccourcis de modification sont les suivants : copier, coller, annuler et supprimer. Pour utiliser les raccourcis, votre programme doit uniquement répondre aux commandes de touches associées.
 
-![Diagramme qui affiche des mouvements de raccourcis et leurs assignations par défaut dans Windows 7.](images/inter-pen-image5.png)
+![diagramme qui affiche des mouvements de raccourcis et leurs assignations par défaut dans Windows 7.](images/inter-pen-image5.png)
 
-Les huit mouvements de raccourcis et leurs affectations par défaut dans Windows 7. Les raccourcis de navigation ont été modifiés pour correspondre à la panoramisation (où l’objet se déplace avec le geste) au lieu de faire défiler (où l’objet se déplace dans la direction opposée du geste).
+les huit mouvements de raccourci et leurs assignations par défaut dans Windows 7. Les raccourcis de navigation ont été modifiés pour correspondre à la panoramisation (où l’objet se déplace avec le geste) au lieu de faire défiler (où l’objet se déplace dans la direction opposée du geste).
 
 ![Figure des mouvements de raccourci tels que le mouvement de déplacement ](images/inter-pen-image6.png)
 
-Les huit mouvements de raccourcis et leurs affectations par défaut dans Windows Vista.
+les huit mouvements de raccourci et leurs assignations par défaut dans Windows Vista.
 
 Les raccourcis de navigation ont un mappage naturel, de sorte qu’ils sont faciles à apprendre et à mémoriser. Les raccourcis de modification sont des diagonales qui requièrent plus de précision et leurs mappages ne sont pas aussi naturels (le raccourci vers la Corbeille pour la suppression, le mouvement de la flèche vers la droite pour annuler), donc ils ne sont pas activés par défaut. Toutes les actions de raccourci peuvent être personnalisées à l’aide de l’élément du panneau de configuration stylet et périphériques d’entrée.
 
@@ -143,8 +143,8 @@ Les raccourcis de navigation ont un mappage naturel, de sorte qu’ils sont faci
 
 | Raccourci                                     | Message équivalent synthétisé                                                            |
 |--------------------------------------|-------------------------------------------------------------|
-| Raccourci vers la gauche<br/>                | Commande Forward (commande back pour Windows Vista)<br/> |
-| Raccourci vers la droite<br/>               | Commande Back (commande Forward pour Windows Vista)<br/> |
+| Raccourci vers la gauche<br/>                | commande Forward (commande Back pour Windows Vista)<br/> |
+| Raccourci vers la droite<br/>               | commande Back (commande Forward pour Windows Vista)<br/> |
 | Raccourci vers le haut<br/>                  | Défilement au clavier vers le dessous<br/>                             |
 | Raccourci vers le<br/>                | Défilement du clavier vers le haut<br/>                               |
 | Panoramique vers le haut-diagonale gauche<br/>    | Suppression du clavier<br/>                                  |
@@ -178,7 +178,7 @@ Dans cet exemple, l’interface utilisateur d’entrée est zoomée sur 150 pour
 
 **Si vous ne faites que quatre choses...**
 
-1.  1. Faites de vos programmes Windows une bonne expérience PEN ! Les utilisateurs doivent être en mesure d’effectuer efficacement les tâches les plus importantes de votre programme à l’aide d’un stylet (au moins les tâches qui n’impliquent pas un grand nombre de frappes ou une manipulation de pixels détaillée).
+1.  1. faites en sorte que vos programmes Windows bénéficient d’une bonne expérience pen ! Les utilisateurs doivent être en mesure d’effectuer efficacement les tâches les plus importantes de votre programme à l’aide d’un stylet (au moins les tâches qui n’impliquent pas un grand nombre de frappes ou une manipulation de pixels détaillée).
 2.  2. Pensez à ajouter la prise en charge de l’écriture, du dessin et de l’ajout de commentaires directement à l’aide de l’encre dans les scénarios les plus pertinents.
 3.  3. Pour créer une expérience directe et attrayante, les gestes peuvent être appliqués immédiatement, conserver les points de contact avec le stylet de l’utilisateur sans heurts tout au long du mouvement et avoir l’effet de la carte de mouvement directement sur le mouvement de l’utilisateur.
 4.  4. Pour créer une expérience naturelle et intuitive, prenez en charge les gestes standard appropriés et affectez-leur les significations standard. Utilisez des mouvements personnalisés pour les interactions propres à votre programme.

@@ -4,12 +4,12 @@ ms.assetid: c0c5c3ef-35ff-4ab6-bb8a-1f0640109d50
 title: Gestionnaires de types de fichiers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cba365b6eb704def7644002b8a87c3842b62aa77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 404cfd3be4c3e8a600b2f943bda1243ca243b70af411e104000245edd13d94c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103862366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459724"
 ---
 # <a name="file-type-handlers"></a>Gestionnaires de types de fichiers
 
@@ -23,7 +23,7 @@ Cette rubrique est organisée comme suit :
 
 ## <a name="make-a-file-type-known-to-shell"></a>Rendre un type de fichier connu de l’interpréteur de commandes
 
-Dans la capture d’écran suivante de l’Explorateur Windows, le fichier image désert. connu apparaît dans la bibliothèque d' **images** de Shell et est associé uniquement à l’application Paint.
+dans la capture d’écran suivante de Windows Explorer, le fichier image désert. connu apparaît dans la bibliothèque d' **images** de Shell et est associé uniquement à l’application Paint.
 
 ![capture d’écran montrant l’Explorateur ouverture d’une image sans type de fichier](images/file-assoc/fileassoc-filetypehandler.png)
 
@@ -40,7 +40,7 @@ Le fichier désert. connu dans la capture d’écran précédente ne dispose pas
     -   Rating
 -   Indexation du texte de fichier
 
-Dans la capture d’écran suivante, le même fichier (désert. connu) a l’extension. jpg, qui est un type de fichier inscrit qui est associé à des gestionnaires de types de fichiers. ainsi, une image miniature et davantage de propriétés sont affichées.
+Dans la capture d’écran suivante, le même fichier (désert. connu) a l’extension .jpg, qui est un type de fichier inscrit qui possède des gestionnaires de types de fichiers associés. ainsi, une image miniature et davantage de propriétés sont affichées.
 
 ![image avec un type de fichier inscrit et les gestionnaires de types de fichiers associés](images/file-assoc/fileassoc-filetypehandler-2ndex.png)
 
@@ -54,8 +54,8 @@ La fonctionnalité fournie par chaque gestionnaire de type de fichier est prése
 |--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Menu contextuel](context-menu-handlers.md)                   | Un gestionnaire de menu contextuel, parfois appelé gestionnaire de menu contextuel, est un gestionnaire de type de fichier qui ajoute des commandes à un menu contextuel existant. Ces gestionnaires sont associés à un type de fichier particulier et sont appelés à chaque fois qu’un menu contextuel est affiché pour un membre du type de fichier.                                                                                                                                                                                                                                                                           |
 | [Vidéo miniature](thumbnail-providers.md)                         | Gestionnaire qui fournit une image pour représenter un élément de Shell.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| [Propriété](../properties/building-property-handlers-properties.md) | Gestionnaire de propriétés qui fournit l’accès aux propriétés de l’élément pour Windows Search, l’Explorateur Windows et d’autres applications qui ont besoin d’accéder aux propriétés.                                                                                                                                                                                                                                                                                                                                                                                                              |
-| [Préversion](preview-handlers.md)                              | Gestionnaire qui produit rapidement une vue simplifiée en lecture seule de l’élément à afficher dans le volet de visualisation de l’Explorateur Windows.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| [Propriété](../properties/building-property-handlers-properties.md) | gestionnaire de propriétés qui fournit l’accès aux propriétés de l’élément pour Windows la recherche, l’explorateur de Windows et d’autres applications qui doivent accéder aux propriétés.                                                                                                                                                                                                                                                                                                                                                                                                              |
+| [Préversion](preview-handlers.md)                              | gestionnaire qui produit rapidement une vue simplifiée en lecture seule de l’élément à afficher dans le volet de visualisation de l’explorateur de Windows.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | [Filtres](../search/-search-3x-wds-extidx-filters.md)              | Un filtre, une implémentation de l’interface [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) , qui analyse des documents pour le texte et les propriétés (également appelés attributs). Il extrait des segments de texte à partir de ces documents, en filtrant la mise en forme incorporée et en conservant les informations relatives à la position du texte. Il extrait également des blocs de valeurs, qui sont des propriétés d’un document entier ou de parties bien définies d’un document. **IFilter** fournit la base pour la création d’applications de niveau supérieur, telles que les indexeurs de documents et les visionneuses indépendantes des applications. |
 
 

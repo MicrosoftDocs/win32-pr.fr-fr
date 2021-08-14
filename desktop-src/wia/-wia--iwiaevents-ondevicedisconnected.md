@@ -1,5 +1,5 @@
 ---
-description: Événement qui se produit lorsqu’un nouveau périphérique matériel WIA (Windows Image Acquisition) est déconnecté.
+description: événement qui se produit lorsqu’un nouveau périphérique matériel WIA (Windows Image Acquisition) est déconnecté.
 ms.assetid: 9c3ccdba-288c-4bdd-b257-b03999bc6fd9
 title: Événement WIA. OnDeviceDisconnected
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 45652f3c447c1dd0f59b0470823782c6ba635cb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d61d196e3a9a7471b9a1fb1ab86c3ba918427ccc5dd5060ffaabdf28f80871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104202898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442155"
 ---
 # <a name="wiaondevicedisconnected-event"></a>Événement WIA. OnDeviceDisconnected
 
-Événement qui se produit lorsqu’un nouveau périphérique matériel WIA (Windows Image Acquisition) est déconnecté.
+événement qui se produit lorsqu’un nouveau périphérique matériel WIA (Windows Image Acquisition) est déconnecté.
 
 ## <a name="syntax"></a>Syntaxe
 
@@ -50,7 +50,7 @@ Chaîne qui contient l’ID de l’appareil connecté.
 
 Cet événement ne retourne pas de valeur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 WIA notifie le script ou l’application chaque fois qu’un périphérique matériel est déconnecté de l’ordinateur. Implémentez la sous-routine **objWia** \_ **OnDeviceDisconnected ()** pour permettre au script ou à l’application de répondre à la déconnexion de l’appareil.
 
@@ -62,8 +62,8 @@ Par exemple, vous souhaiterez peut-être qu’un script actualise le regroupemen
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Windows 2000 professionnel, applications de \[ Bureau Windows XP uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                                          |
+| Client minimal pris en charge<br/> | Windows 2000 Professional, Windows XP \[ desktop apps uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (version 4,90 ou ultérieure)</dt> </dl> |
 
 

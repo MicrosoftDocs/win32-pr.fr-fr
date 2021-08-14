@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a12112eb2a18d38993e905f8d36175f1ab15f58a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efe7ca9b9ed68f3327779177e706ee5a943c9e6580e2b789e2b96e74ee9f0b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353038"
 ---
 # <a name="imsrdpclientadvancedsettingsloadbalanceinfo-property"></a>IMsRdpClientAdvancedSettings :: LoadBalanceInfo, propriété
 
@@ -90,7 +90,7 @@ Pointeur vers le nouveau cookie. Pour plus d’informations, consultez la sectio
 
 Retourne **S \_ OK** en cas de réussite.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les informations d’équilibrage de charge sont utilisées par les routeurs d’équilibrage de charge pour choisir le meilleur serveur pour le client lors de l’utilisation de batteries de serveurs hôtes de session Bureau à distance. Le serveur hôte de session Bureau à distance n’utilise pas ces informations et l’ignore.
 

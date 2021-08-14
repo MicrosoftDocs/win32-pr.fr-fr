@@ -3,7 +3,7 @@ title: commande Set
 description: La commande Set établit les paramètres de contrôle de l’appareil. Les périphériques CD audio, numérique-vidéo, MIDI Sequencer, VCR, videodisc, vidéo-overlay et Waveform-Audio reconnaissent cette commande.
 ms.assetid: 1ec4d84e-372a-4b6d-b694-f5afb41f90b2
 keywords:
-- commande Set Windows Multimedia
+- définir la commande Windows multimédia
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 914743db038b0cae32b53fa79b7696ddba1ad05b
-ms.sourcegitcommit: 8276af9231bdbf5a7334299f0d13fc8ff069a065
+ms.openlocfilehash: 75f407a1e360cfbd6407f7ada29192addece7f7a968a2437326dc091fe0d9522
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "106531234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371011"
 ---
 # <a name="set-command"></a>commande Set
 
@@ -544,7 +544,7 @@ Peut être « Wait », « Notify », ou les deux. Pour les appareils vidéo 
 
 Retourne zéro en cas de réussite ou une erreur.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Plusieurs propriétés des données Waveform-Audio sont définies lors de la création du fichier de stockage des données. Ces propriétés décrivent comment les données sont structurées dans le fichier et ne peuvent pas être modifiées une fois l’enregistrement commencé. La liste suivante identifie ces propriétés :
 

@@ -4,12 +4,12 @@ ms.assetid: 68f755a1-586b-4c5b-b8e8-c8b40eb71685
 title: Constantes LINECALLCOMPLMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 373a66b6ce13b7bfba00303bea824f542bf0016a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d43f76c9b8012f9ecb60c6b0ffd787d5a0bad87794eb833cc4095c276ba983f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761753"
 ---
 # <a name="linecallcomplmode_-constants"></a>\_Constantes LINECALLCOMPLMODE
 
@@ -57,7 +57,7 @@ Conserve un bref message prédéfini pour la station appelée (laisser le mot ap
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Aucune extensibilité. Tous les 32 bits sont réservés.
 

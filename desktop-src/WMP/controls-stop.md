@@ -3,9 +3,9 @@ title: Controls. Stop, méthode
 description: La méthode Stop arrête la lecture de l’élément multimédia. | Controls. Stop, méthode
 ms.assetid: ace95fde-9c94-4737-88f2-94321cbc687c
 keywords:
-- méthode Stop lecteur Windows Media
-- méthode Stop lecteur Windows Media, classe Controls
-- Controls, classe Windows Media Player, stop, méthode
+- stop, méthode Lecteur Windows Media
+- stop, méthode Lecteur Windows Media, classe controls
+- controls, classe Lecteur Windows Media, stop, méthode
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e1ffc581fffbce0a341559e82c6bd196f712149
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b882f462903c2c5f75a3655cd26b927e7439043828dad41fcce7d0e64e4ce812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106533039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580158"
 ---
 # <a name="controlsstop-method"></a>Controls. Stop, méthode
 
@@ -40,13 +40,13 @@ Controls.stop()
 
 Cette méthode n’a aucun paramètre.
 
-## <a name="return-value"></a>Valeur retournée
+## <a name="return-value"></a>Valeur renvoyée
 
 Cette méthode ne retourne pas de valeur.
 
 ## <a name="remarks"></a>Notes
 
-Cette méthode force le lecteur Windows Media à libérer toutes les ressources système qu’il utilise, telles que le périphérique audio. Toutefois, l’élément multimédia actuel n’est pas libéré.
+cette méthode oblige Lecteur Windows Media à libérer toutes les ressources système qu’il utilise, telles que le périphérique audio. Toutefois, l’élément multimédia actuel n’est pas libéré.
 
 Lorsque le joueur est arrêté, le suivi se rembobine au début. L' **appel de la lecture commence** ensuite la lecture du clip à partir du début. Pour arrêter une opération de lecture sans modifier la position actuelle, utilisez la méthode **Pause** .
 

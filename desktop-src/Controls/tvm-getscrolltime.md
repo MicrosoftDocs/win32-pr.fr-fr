@@ -3,7 +3,7 @@ title: Message TVM_GETSCROLLTIME (commctrl. h)
 description: Récupère la durée maximale de défilement pour le contrôle Tree-View. Vous pouvez envoyer ce message explicitement ou à l’aide de la \_ macro GetScrollTime TreeView.
 ms.assetid: 992d1906-cda3-4ac7-ba90-c681c551ac2e
 keywords:
-- TVM_GETSCROLLTIME les contrôles de message Windows
+- TVM_GETSCROLLTIME les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f0bacc6c12dd7f54f20d882faf738c11848d59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e026a463476d5625f7632d7b6679ce94ca2c8ab6d8c6a050d8938bd46d9858b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408496"
 ---
 # <a name="tvm_getscrolltime-message"></a>TVM \_ GETSCROLLTIME message
 
@@ -39,7 +39,7 @@ Récupère la durée maximale de défilement pour le contrôle Tree-View. Vous p
 
 Retourne la durée maximale de défilement, en millisecondes.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La durée maximale de défilement est la durée la plus longue qu’une opération de défilement peut prendre. Le défilement est ajusté afin que le défilement s’effectue dans le délai de défilement maximal. Une opération de défilement peut prendre moins de temps que la valeur maximale.
 
@@ -49,8 +49,8 @@ La durée maximale de défilement est la durée la plus longue qu’une opérati
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

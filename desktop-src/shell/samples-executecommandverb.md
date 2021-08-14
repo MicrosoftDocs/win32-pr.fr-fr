@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 2deeb63fc6648d07b3d870888d6d2eabc6fb0490
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e32b472d63b9d2d779c97b64833f354e7d4d2eaed034d3a213ae4e101f7beb3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858268"
 ---
 # <a name="execute-command-verb-sample"></a>ExecuteCommand, exemple de verbe
 
@@ -23,7 +23,7 @@ Montre comment implémenter un verbe de Shell à l’aide de la méthode Execute
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -32,7 +32,7 @@ Cette rubrique contient les sections suivantes.
 
 Cette méthode est préférable pour les implémentations de verbe, car elle offre la plus grande souplesse, est simple et prend en charge l’activation hors processus. Cet exemple implémente un objet COM (Component Object Model) de serveur local autonome, mais il est supposé que l’implémentation du verbe sera intégrée aux applications existantes. Pour ce faire, votre objet d’application principal doit inscrire une fabrique de classe pour elle-même. Cet objet implémente [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) pour les verbes de votre application. Notez que COM lance votre application si elle n’est pas déjà en cours d’exécution, mais se connecte à une instance en cours d’exécution de votre application, le cas échéant.
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -58,16 +58,16 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **ExecuteCommandVerb** .
 2.  Entrez `msbuild ExecuteCommand.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **ExecuteCommandVerb** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **ExecuteCommandVerb** .
 2.  Double-cliquez sur l’icône du fichier ExecuteCommand. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’Explorateur Windows.
-2.  Sur la ligne de commande, entrez `ExecuteCommand.exe` . Vous pouvez également, à partir de l’Explorateur Windows, double-cliquer sur l’icône de ExecuteCommand.exe.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable à l’aide de l’invite de commandes ou de l’explorateur de Windows.
+2.  Sur la ligne de commande, entrez `ExecuteCommand.exe` . vous pouvez également, à partir de Windows Explorer, double-cliquer sur l’icône de ExecuteCommand.exe.
 3.  Suivez les instructions de la boîte de dialogue qui s’affiche
 
  

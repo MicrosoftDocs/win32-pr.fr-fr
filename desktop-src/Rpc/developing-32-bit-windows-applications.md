@@ -1,17 +1,17 @@
 ---
-title: Développement d’applications Windows RPC
+title: développement d’Applications Windows RPC
 description: Lorsque vous installez le kit de développement logiciel (SDK) de la plateforme, l’environnement de développement RPC, les bibliothèques d’exécution et les outils suivants sont installés automatiquement
 ms.assetid: d5da3bca-5251-4ba4-b873-0817fe0f298d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b418358649d0cf7205b9a3bde236cf66d3ce81e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 31ddb48a38faadb8235064fa735fa8a75a80a62308990373ab1971d4a6cd9ecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104031747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930794"
 ---
-# <a name="developing-rpc-windows-applications"></a>Développement d’applications Windows RPC
+# <a name="developing-rpc-windows-applications"></a>développement d’Applications Windows RPC
 
 Lorsque vous installez le kit de développement logiciel (SDK) de la plateforme, l’environnement de développement RPC suivant, les bibliothèques Runtime et les outils sont automatiquement installés :
 
@@ -21,7 +21,7 @@ Lorsque vous installez le kit de développement logiciel (SDK) de la plateforme,
 -   Fichiers d’aide de référence RPC
 -   Utilitaire **uuidgen**
 
-Lorsque vous installez Windows, les éléments suivants sont installés :
+lorsque vous installez Windows, les éléments suivants sont installés :
 
 -   Dll Runtime RPC
 -   Microsoft Locator (non pris en charge sur Windows Vista et versions ultérieures)
@@ -34,16 +34,16 @@ Bibliothèques d’importation RPC suivantes.
 | Importer la bibliothèque | Description                |
 |----------------|----------------------------|
 | Rpcns4. lib     | Fonctions Name-Service     |
-| Rpcrt4. lib     | Fonctions runtime Windows |
+| Rpcrt4. lib     | Windows les fonctions runtime |
 
 
 
- 
+ 
 
 > [!Note]  
 > Rpcns4. lib est obsolète et n’est plus pris en charge.
 
- 
+ 
 
 Les bibliothèques RPC suivantes sont incluses pour la prise en charge de niveau de service.
 
@@ -59,17 +59,17 @@ Les bibliothèques RPC suivantes sont incluses pour la prise en charge de niveau
 | Rpclts5.dll          | Transport NetBIOS du serveur    | Windows NT, Windows 98, Windows 95 |
 | Rpcltc6.dll          | Transport SPX client        | Windows NT, Windows 98, Windows 95 |
 | Rpclts6.dll          | Transport du serveur SPX        | Windows NT, Windows 98, Windows 95 |
-| Rpcdgc6.dll          | Transport IPX du client        | Windows NT                         |
-| Rpcdgs6.dll          | Transport IPX du serveur        | Windows NT                         |
-| Rpcdgc3.dll          | Transport UDP du client        | Windows NT                         |
-| Rpcdgs3.dll          | Transport UDP du serveur        | Windows NT                         |
+| Rpcdgc6.dll          | Transport IPX du client        | Windows NT                         |
+| Rpcdgs6.dll          | Transport IPX du serveur        | Windows NT                         |
+| Rpcdgc3.dll          | Transport UDP du client        | Windows NT                         |
+| Rpcdgs3.dll          | Transport UDP du serveur        | Windows NT                         |
 
 
 
- 
+ 
 
 Vous aurez également besoin du compilateur Microsoft Interface Definition Language (MIDL). Pour plus d’informations, consultez [utilisation du compilateur MIDL](/windows/desktop/Midl/using-the-midl-compiler-2).
 
- 
+ 
 
- 
+ 

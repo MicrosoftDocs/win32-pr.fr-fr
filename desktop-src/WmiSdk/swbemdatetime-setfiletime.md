@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: ca3e36a284e3700e166e86f6786218bada8f369e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 138685ba4d6b63591bf460da3cdba219685f015d54789ca60a52660845b2e41a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114878"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739456"
 ---
 # <a name="swbemdatetimesetfiletime-method"></a>Méthode SWbemDateTime. SetFileTime
 
 La méthode **SetFileTime** de l’objet [**SWbemDateTime**](swbemdatetime.md) convertit une date au format **fileTime** de chaîne au format [DateTime CIM](date-and-time-format.md) .
 
-Le format **fileTime** est une structure datetime de 64 bits qui représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. Windows Management Instrumentation (WMI) traite les valeurs **fileTime** comme des représentations sous forme de chaîne de nombres 64 bits non signés.
+Le format **fileTime** est une structure datetime de 64 bits qui représente le nombre d’unités de 100 nanosecondes depuis le début du 1er janvier 1601. Windows WMI (Management Instrumentation) traite les valeurs **fileTime** comme des représentations sous forme de chaîne de nombres 64 bits non signés.
 
 Pour plus d’explications sur la syntaxe, consultez [conventions de document pour l’API de script](document-conventions-for-the-scripting-api.md).
 
@@ -78,7 +78,7 @@ Le format de *strFileTime* n’est pas valide.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Après un appel réussi à **SetFileTime**, la valeur [**DateTime**](datetime.md) est toujours interprétée comme une valeur absolue (**DateTime**) et [**IsInterval**](swbemdatetime-isinterval.md) est défini sur **false**.
 

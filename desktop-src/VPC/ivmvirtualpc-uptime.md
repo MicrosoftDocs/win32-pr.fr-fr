@@ -1,6 +1,6 @@
 ---
 title: Propriété IVMVirtualPC UpTime (VPCCOMInterfaces. h)
-description: Récupère le nombre de secondes d’exécution de l’application Windows Virtual PC.
+description: récupère le nombre de secondes d’exécution de l’application Windows Virtual PC.
 ms.assetid: 3007a961-2e8c-4674-aab6-4424d0d73eca
 keywords:
 - Virtual PC de la propriété UpTime
@@ -17,18 +17,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab07128380a097677e0ad8acca5208e5cef11da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ff1d71777db92ba84905fd1908d0c0334d098479ce4210c7407ee129c609ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103743437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117752008"
 ---
 # <a name="ivmvirtualpcuptime-property"></a>IVMVirtualPC :: UpTime, propriété
 
-\[Windows Virtual PC n’est plus disponible pour une utilisation à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
+\[Windows Virtual PC ne peut plus être utilisé à partir de Windows 8. Au lieu de cela, utilisez le [fournisseur WMI Hyper-V (v2)](/windows/desktop/HyperV_v2/windows-virtualization-portal).\]
 
-Récupère le nombre de secondes d’exécution de l’application Windows Virtual PC.
+récupère le nombre de secondes d’exécution de l’application Windows Virtual PC.
 
 Cette propriété est en lecture seule.
 
@@ -45,7 +45,7 @@ HRESULT get_UpTime(
 
 ## <a name="property-value"></a>Valeur de la propriété
 
-Nombre de secondes d’exécution de l’application Windows Virtual PC.
+nombre de secondes d’exécution de l’application Windows Virtual PC.
 
 ## <a name="error-codes"></a>Codes d’erreur
 
@@ -66,7 +66,7 @@ Nombre de secondes d’exécution de l’application Windows Virtual PC.
 
 | Condition requise | Valeur |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                    |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                    |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                     |
 | Fin de la prise en charge des clients<br/>    | Windows 7<br/>                                                                          |
 | Produit<br/>                  | Windows Virtual PC<br/>                                                                 |

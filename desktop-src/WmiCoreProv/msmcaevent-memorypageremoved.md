@@ -1,5 +1,5 @@
 ---
-description: Indique qu’une page de mémoire a été supprimée de l’utilisation du système en raison d’erreurs de vérification et de correction d’erreurs matérielles (ECC) excessives. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+description: Indique qu’une page de mémoire a été supprimée de l’utilisation du système en raison d’erreurs de vérification et de correction d’erreurs matérielles (ECC) excessives. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 ms.assetid: 364a2520-8d7c-44f2-95f6-eea9a5531975
 title: Classe MSMCAEvent_MemoryPageRemoved
 ms.topic: reference
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: dc29c5b51531e204ab50f062dd08ef8d5abf1bbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8229848cf1113736e3b9a4e37cd9493b8c724c58c384387536cded4742ca3c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106521124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558466"
 ---
 # <a name="msmcaevent_memorypageremoved-class"></a>MSMCAEvent \_ MemoryPageRemoved, classe
 
-La classe **MSMCAEvent \_ MemoryPageRemoved** indique qu’une page de mémoire a été supprimée de l’utilisation du système en raison d’erreurs de vérification et de correction d’erreurs matérielles (ECC) excessives. Cette classe est disponible uniquement dans les systèmes Windows 64 bits.
+La classe **MSMCAEvent \_ MemoryPageRemoved** indique qu’une page de mémoire a été supprimée de l’utilisation du système en raison d’erreurs de vérification et de correction d’erreurs matérielles (ECC) excessives. cette classe est disponible uniquement dans les systèmes Windowss 64 bits.
 
 La syntaxe suivante est simplifiée du code format MOF (MOF) et comprend toutes ses propriétés héritées. Les propriétés et les méthodes sont classées par ordre alphabétique, et non par ordre MOF.
 
@@ -96,7 +96,7 @@ Pour plus d’informations sur l’utilisation des valeurs **UInt64** dans les s
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La classe **MSMCAEvent \_ MemoryPageRemoved** est dérivée de [**WmiEvent**](wmievent.md).
 

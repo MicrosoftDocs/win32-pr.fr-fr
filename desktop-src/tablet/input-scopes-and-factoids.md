@@ -4,12 +4,12 @@ ms.assetid: 9faf6d22-b80d-4020-ac74-ee40b31ae9d4
 title: Étendues d’entrée et Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bbb46e21a0524f806daa4eed789fde31e285109
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 881ebd26cbfb70cb215103b9a6face356af078e47b74a2e9140886f81f457eef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104210622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118450969"
 ---
 # <a name="input-scopes-and-factoids"></a>Étendues d’entrée et Factoids
 
@@ -20,7 +20,7 @@ Une étendue d’entrée est un ensemble de mots, de chiffres, de signes de ponc
 
  
 
-Les versions précédentes de l’API de technologie Tablet PC utilisaient Factoids pour définir le contexte. Pour des raisons pratiques, un Factoid est la même chose qu’une étendue d’entrée. La version de l’une des plateformes du kit de développement logiciel (SDK) Tablet PC a défini un ensemble de valeurs Factoid dans l’objet [**Factoid**](factoid-constants.md) . Ces valeurs ont été utilisées pour définir le contexte et influencer les résultats de la reconnaissance lors de l’utilisation de l’objet [**RecognizerContext**](inkrecognizercontext-class.md) pour la reconnaissance. Pour les identifiants du script latin commençant par Windows XP Édition Tablet PC 2005, vous utilisez toujours la propriété [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) de l’objet **RecognizerContext** pour définir le contexte, mais vous devez transmettre une étendue d’entrée, une liste d’expressions ou une valeur d’expression régulière d’écriture manuscrite au lieu de l’une des valeurs Factoid de la version. Les Microsoft Recognizers de caractères d’Extrême-Orient ne prennent pas en charge l’utilisation des valeurs énumérées de l’étendue d’entrée. Vous devez continuer à utiliser des valeurs Factoid pour les identificateurs de caractères d’Extrême-Orient.
+Les versions précédentes de l’API de technologie Tablet PC utilisaient Factoids pour définir le contexte. Pour des raisons pratiques, un Factoid est la même chose qu’une étendue d’entrée. La version de l’une des plateformes du kit de développement logiciel (SDK) Tablet PC a défini un ensemble de valeurs Factoid dans l’objet [**Factoid**](factoid-constants.md) . Ces valeurs ont été utilisées pour définir le contexte et influencer les résultats de la reconnaissance lors de l’utilisation de l’objet [**RecognizerContext**](inkrecognizercontext-class.md) pour la reconnaissance. pour les identifiants du script Latin commençant par Windows XP édition Tablet PC 2005, vous utilisez toujours la propriété [**Factoid**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid) de l’objet **RecognizerContext** pour définir le contexte, mais vous devez passer une étendue d’entrée, une liste d’expressions ou une valeur d’expression régulière d’écriture manuscrite au lieu de l’une des valeurs Factoid de la version. Les Microsoft Recognizers de caractères d’Extrême-Orient ne prennent pas en charge l’utilisation des valeurs énumérées de l’étendue d’entrée. Vous devez continuer à utiliser des valeurs Factoid pour les identificateurs de caractères d’Extrême-Orient.
 
 Les étendues d’entrée et les Factoids sont des restrictions sur les alternatives au niveau du mot ; les caractères alternatifs peuvent se trouver en dehors de l’étendue d’entrée spécifiée, même lorsque l’indicateur de **forçage** est défini.
 

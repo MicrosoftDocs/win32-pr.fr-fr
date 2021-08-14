@@ -4,19 +4,19 @@ description: Communication entre le client NAP et le composant côté serveur
 ms.assetid: 7658cf0c-607b-44ba-b579-72082d0d1f51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07597ac80a1e02c4f8528b3c99050aefb5963988
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f2d3c390aa8bdc8cc80eec8834dd1c250d523737d63963b4b9370877ffa46329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104380290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799072"
 ---
 # <a name="nap-client-and-server-side-component-communication"></a>Communication entre le client NAP et le composant côté serveur
 
 > [!Note]  
 > La plate-forme de protection d’accès réseau n’est pas disponible à partir de Windows 10
 
- 
+ 
 
 Le composant agent NAP peut communiquer avec le composant serveur d’administration NAP par le biais du processus suivant :
 
@@ -57,9 +57,9 @@ La figure ci-dessous illustre le processus de communication entre les composants
 
 ![architecture des communications de serveur à client dans la plateforme NAP](images/nap-server-to-client-comm.png)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e61208f15772a43138e6cd7a38fd6327445bdfa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd16ee40bfb480b3e7eacef2bc4681e61fdb24ace1ac68985e2016ce11b7c0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219628"
 ---
 # <a name="taskbar-thumbnail-toolbar-sample"></a>Barre d’outils de miniatures de barre des tâches, exemple
 
@@ -23,7 +23,7 @@ Illustre une barre d’outils miniatures, un contrôle de barre d’outils actif
 Cette rubrique contient les sections suivantes.
 
 -   [Description](#description)
--   [Configuration requise](#requirements)
+-   [Requirements](#requirements)
 -   [Téléchargement de l’exemple](#downloading-the-sample)
 -   [Génération de l'exemple](#building-the-sample)
 -   [Exécution de l’exemple](#running-the-sample)
@@ -37,7 +37,7 @@ Cet exemple montre comment fournir une barre d’outils simple à un aperçu min
 -   [**ITaskbarList3 :: ThumbBarSetImageList**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-itaskbarlist3-thumbbarsetimagelist)
 -   [**ThumbButton**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-thumbbutton) , structure
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 
@@ -63,18 +63,18 @@ Pour générer l’exemple à partir de l’invite de commandes :
 1.  Ouvrez la fenêtre d’invite de commandes et accédez au répertoire du projet **TaskbarThumbnailToolbar** .
 2.  Entrez `msbuild ThumbnailToolbar.sln`.
 
-Pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
+pour générer l’exemple à l’aide de Microsoft Visual Studio (par défaut) :
 
-1.  Ouvrez l’Explorateur Windows et accédez au répertoire du projet **TaskbarThumbnailToolbar** .
+1.  ouvrez Windows Explorer et accédez au répertoire du projet **TaskbarThumbnailToolbar** .
 2.  Double-cliquez sur l’icône du fichier ThumbnailToolbar. sln pour ouvrir le projet dans Visual Studio.
-3.  Dans le menu **générer** , sélectionnez **générer la solution**.
+3.  Dans le menu **Générer**, sélectionnez **Générer la solution**.
 
 ## <a name="running-the-sample"></a>Exécution de l'exemple
 
-1.  Accédez au répertoire qui contient le nouveau fichier exécutable (par exemple,) à l' `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar\Debug` aide de l’invite de commandes ou de l’Explorateur Windows.
+1.  accédez au répertoire qui contient le nouveau fichier exécutable (par exemple,) à l' `C:\Program Files\Microsoft SDKs\Windows\v7.0\Samples\WinUI\Shell\AppShellIntegration\TaskbarThumbnailToolbar\Debug` aide de l’invite de commandes ou de l’explorateur de Windows.
 
     -   Si vous utilisez la ligne de commande, entrez `ThumbnailToolbar.exe` .
-    -   Si vous utilisez l’Explorateur Windows, double-cliquez sur l’icône de ThumbnailToolbar.exe.
+    -   si vous utilisez l’explorateur de Windows, double-cliquez sur l’icône correspondant à ThumbnailToolbar.exe.
 
     Une nouvelle fenêtre s’ouvre, avec un bouton de barre des tâches associé.
 

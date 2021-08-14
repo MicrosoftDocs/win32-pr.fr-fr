@@ -4,12 +4,12 @@ description: Attributs de champ (attributs appliqués aux champs d’un tableau,
 ms.assetid: 4508479d-ff0a-4698-94aa-588837032067
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b9421ddf4ea7e7bc4c70af0ecd826e2681875d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e6d14bab0cf14710e91fceb466111c4af32d3d2828e4b7bdacc9494fa27b7d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929998"
 ---
 # <a name="field-attributes"></a>Attributs de champ
 
@@ -40,6 +40,6 @@ L' **\[** attribut de champ de [**chaîne**](/windows/desktop/Midl/string) **\]*
 
 Pour plus d’informations sur le contexte dans lequel les attributs de champ s’affichent, consultez [tableaux MIDL](/windows/desktop/Midl/midl-arrays), [structures MIDL](/windows/desktop/Midl/midl-structures)et [unions MIDL](/windows/desktop/Midl/midl-unions).
 
- 
+ 
 
- 
+ 

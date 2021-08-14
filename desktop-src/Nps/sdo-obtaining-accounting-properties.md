@@ -5,23 +5,23 @@ ms.assetid: eb5c8606-d3f0-4c33-9035-7b7b1369cb0d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9911397c1de3521ccb5a275405416d8b88c1fa6f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 77390a6aa67e946de6d69dd3d1bc28a76907b7ad31b497d4921c7a2d7493c328
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361727"
 ---
 # <a name="obtaining-accounting-properties"></a>Obtention des propriétés de gestion des comptes
 
 > [!Note]  
-> Le service d’authentification Internet (IAS) a été renommé serveur NPS (Network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
+> le Service d’authentification Internet (IAS) a été renommé serveur nps (network Policy Server) à partir de Windows Server 2008. Le contenu de cette rubrique s’applique à IAS et à NPS. Dans le texte, NPS est utilisé pour faire référence à toutes les versions du service, y compris les versions initialement appelées IAS.
 
- 
+ 
 
 L’objet Accounting est l’un des objets de la collection de gestionnaires de demandes. La valeur d’énumération pour la collection de gestionnaires de demandes est la propriété de la **\_ \_ \_ collection REQUESTHANDLERS IAS**. Le nom du gestionnaire de l’objet de gestion des comptes est « Microsoft Accounting ».
 
-Le code Visual Basic suivant accède aux propriétés disponibles à partir du gestionnaire d’objets de comptabilité.
+le code Visual Basic suivant accède aux propriétés disponibles à partir du gestionnaire d’objets de comptabilité.
 
 
 ```VB
@@ -65,6 +65,6 @@ Une fois que vous disposez de l’objet Microsoft Accounting, obtenez une interf
 [**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

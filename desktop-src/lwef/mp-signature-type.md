@@ -4,7 +4,7 @@ description: Types de signature possibles.
 ms.assetid: 44B195A8-866D-4B87-9576-54E00658F9B3
 keywords:
 - MP_SIGNATURE_TYPE énumération des fonctionnalités d’environnement Windows héritées
-- PMP_SIGNATURE_TYPE des fonctionnalités d’environnement Windows héritées d’un pointeur d’énumération
+- PMP_SIGNATURE_TYPE de l’héritage des Windows fonctionnalités d’environnement du pointeur d’énumération
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b99f7140706e9a6d3fa32e7eb346ef6478f3f26
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3289f0cbc3eeb85f553adf97078b7d3c5c53a686e914f86a4edb80c5244f72af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883712"
 ---
 # <a name="mp_signature_type-enumeration"></a>\_Énumération du type de signature MP \_
 
@@ -82,8 +82,8 @@ Signatures NIS.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 8 uniquement\]<br/>                                            |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2012 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows 8 \[ applications de bureau uniquement\]<br/>                                            |
+| Serveur minimal pris en charge<br/> | Windows Server 2012 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>MpClient. h</dt> </dl> |
 
 

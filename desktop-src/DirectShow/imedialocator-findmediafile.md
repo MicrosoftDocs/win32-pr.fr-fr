@@ -14,17 +14,17 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3561b77873c90b2d4bd0202bed8e2da822a0362f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc1acda4a3bc6e2d93ae8b7024ef34f759c11c5c4d487a09d3be3a3542e0c445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106528018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818936"
 ---
 # <a name="imedialocatorfindmediafile-method"></a>IMediaLocator :: FindMediaFile, méthode
 
 > [!Note]  
-> \[Action déconseillée. Cette API peut être supprimée dans les versions futures de Windows.\]
+> \[Action déconseillée. Cette API peut être supprimée des futures versions de Windows.\]
 
  
 
@@ -48,7 +48,7 @@ HRESULT FindMediaFile(
 
 <dl> <dt>
 
-*Entrée* 
+*Input* 
 </dt> <dd>
 
 Nom du fichier, y compris le chemin d’accès, où le fichier a été connu pour la dernière fois. Pour les objets source de la chronologie, utilisez le nom du support actuel.
@@ -80,9 +80,9 @@ Combinaison d’opérations de bits de zéro ou plusieurs indicateurs. Pour obte
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-La chaîne de filtre de la boîte de dialogue d’ouverture de fichier, qui est spécifiée par le paramètre *FilterString* , contient des caractères null internes. Par exemple, Video \\ 0 \* . avi \\ 0 \\ 0 est une chaîne de filtre valide. Vous ne pouvez pas utiliser la fonction **SysAllocStr** pour allouer le BSTR, car cette fonction attend une chaîne terminée par le caractère null et va tronquer la chaîne au premier caractère null. Par conséquent, utilisez une fonction telle que **SysAllocStringLen**, qui comprend un paramètre explicite pour la longueur :
+La chaîne de filtre de la boîte de dialogue d’ouverture de fichier, qui est spécifiée par le paramètre *FilterString* , contient des caractères null internes. Par exemple, \\ la vidéo 0 \*.avi\\ 0 \\ 0 est une chaîne de filtre valide. Vous ne pouvez pas utiliser la fonction **SysAllocStr** pour allouer le BSTR, car cette fonction attend une chaîne terminée par le caractère null et va tronquer la chaîne au premier caractère null. Par conséquent, utilisez une fonction telle que **SysAllocStringLen**, qui comprend un paramètre explicite pour la longueur :
 
 
 ```C++
@@ -102,7 +102,7 @@ La méthode alloue de la mémoire pour le **BSTR** dans *pOutput*. L’applicati
  
 
 > [!Note]  
-> Pour obtenir qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
+> pour obtenir Qedit. h, téléchargez la [mise à jour Microsoft Windows SDK pour Windows Vista et .NET Framework 3,0](https://msdn.microsoft.com/windowsvista/bb980924.aspx). Qedit. h n’est pas disponible dans le Microsoft Windows SDK pour Windows 7 et .NET Framework 3,5 Service Pack 1.
 
  
 

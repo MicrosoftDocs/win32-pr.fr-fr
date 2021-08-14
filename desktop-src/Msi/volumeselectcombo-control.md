@@ -4,12 +4,12 @@ ms.assetid: 5d486ca8-4c8a-4a15-9d38-7430d0a169ed
 title: Contrôle VolumeSelectCombo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed67391d77259cb4306de09ce92464fe6fcffa92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebaed2e7aa4445c7a147cad359a1d7b8a9985939c61ee49e8bde832c1764a95f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103866277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375851"
 ---
 # <a name="volumeselectcombo-control"></a>Contrôle VolumeSelectCombo
 
@@ -31,7 +31,7 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 | [PropertyValue](propertyvalue-control-attribute.md)               |                                  | Valeur actuelle de la propriété affichée ou modifiée par ce contrôle. Si le bit d’attribut indirect n’est pas défini, il s’agit de la valeur de PropertyName. Si le bit d’attribut indirect est défini, il s’agit de la valeur de IndirectPropertyName. Si l’attribut change, le contrôle reflète la nouvelle valeur.                                                                                      |
 | [Text](text-control-attribute.md)                                 |                                  | Pour définir la police et le style de police d’une chaîne de texte, ajoutez le préfixe { \\ style} ou {&style} à la chaîne de caractères affichés. Où style est un identificateur figurant dans la colonne TextStyle de la [table TextStyle](textstyle-table.md). Si aucun de ces deux n’est présent, mais que la propriété [**DefaultUIFont**](defaultuifont.md) est définie comme un style de texte valide, cette police sera utilisée. |
 | [Visible](visible-control-attribute.md)                           | 0x00000000 0x00000001<br/> | Contrôle masqué. Contrôle visible.<br/> Incluez ce bit dans le mot de bits de la colonne d’attributs dans la [table de contrôle](control-table.md) pour rendre le contrôle visible ou masqué lors de sa création.<br/> Vous pouvez également masquer ou afficher un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                                |
-| [Enabled](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                              |
+| [Activé](enabled-control-attribute.md)                           | 0x00000000 0x00000002<br/> | Contrôle dans un état désactivé. Contrôle dans un état activé.<br/> Incluez ce bit dans le mot de bits dans la colonne attributs du [contrôle](control-table.md) pour activer le contrôle lors de la création.<br/> Vous pouvez également activer ou désactiver un contrôle à l’aide de la [table ControlCondition](controlcondition-table.md).<br/>                                              |
 | [Sunken](sunken-control-attribute.md)                             | 0x00000000 0x00000004<br/> | Affiche le style visuel par défaut. Affiche le contrôle avec une apparence enfoncée, 3D et un look.<br/> Incluez ces bits dans le mot de bits dans la colonne attributs de la [table de contrôle](control-table.md).<br/>                                                                                                                                                                       |
 | [Indirect](indirect-control-attribute.md)                         | 0x00000000 0x00000008<br/> | Le contrôle affiche ou modifie la valeur de la propriété dans la colonne propriété de la [table de contrôle](control-table.md). Le contrôle affiche ou modifie la valeur de la propriété qui a l’identificateur figurant dans la colonne propriété de la table de contrôle.<br/> Détermine si la propriété associée à ce contrôle est référencée indirectement.<br/>            |
 | [RTLRO](rtlro-control-attribute.md)                               | 0x00000000 0x00000020<br/> | Le texte du contrôle est affiché dans l’ordre de lecture de gauche à droite. Le texte du contrôle est affiché dans l’ordre de lecture de droite à gauche.<br/>                                                                                                                                                                                                                                         |
@@ -49,9 +49,9 @@ Vous pouvez utiliser les attributs suivants avec ce contrôle. Pour modifier la 
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
-Ce contrôle peut être créé à partir de la classe COMBOBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles de **\_ Tri** **CBS \_ DropDownList**, **CBS \_ OWNERDRAWFIXED**, **CBS \_ HASSTRINGS**, **WS \_ VSCROLL**, **WS \_ Child**, **WS \_ Group**, **WS \_ TABSTOP** et CBS. Pour plus d’informations sur le développement d’une interface utilisateur avec Windows, consultez [conception et développement de l’interface utilisateur](/previous-versions/aa286531(v=msdn.10)).
+Ce contrôle peut être créé à partir de la classe COMBOBOX à l’aide de la fonction [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) . Il possède les styles de **\_ Tri** **CBS \_ DropDownList**, **CBS \_ OWNERDRAWFIXED**, **CBS \_ HASSTRINGS**, **WS \_ VSCROLL**, **WS \_ Child**, **WS \_ Group**, **WS \_ TABSTOP** et CBS. pour plus d’informations sur le développement d’une interface utilisateur avec Windows, consultez [conception et développement de l’interface utilisateur](/previous-versions/aa286531(v=msdn.10)).
 
 Pour la compatibilité avec les lecteurs d’écran, lors de la création d’une boîte de dialogue avec un contrôle VolumeSelectCombo comme premier contrôle actif, vous devez faire en sorte que le champ de texte appartenant au champ d’édition soit le premier contrôle actif de la [table de boîtes de dialogue](dialog-table.md). Étant donné que le texte statique ne peut pas prendre le focus, lorsque la boîte de dialogue est créée, le champ d’édition a le focus initialement comme prévu. Cela permet de s’assurer que les lecteurs d’écran affichent les informations correctes.
 

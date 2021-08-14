@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43844b0d61d0688a09270d6c6f4e35a9933c70dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 85bc29d0cdcfc7f17d66eada77a2361471bafa4546ea459ec0ba1b569b17c8b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106516725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424979"
 ---
 # <a name="mssfu-30-aliases-attribute"></a>msSFU-30-attribut aliases
 
@@ -43,7 +43,7 @@ Contient une partie de la carte de messagerie NIS.
 ## <a name="implementations"></a>Implémentations
 
 -   [**Windows Server 2003 R2**](#windows-server-2003-r2)
--   [**Windows Server 2008**](#windows-server-2008)
+-   [**Windows Server 2008**](#windows-server-2008)
 -   [**Windows Server 2008 R2**](#windows-server-2008-r2)
 -   [**Windows Server 2012**](#windows-server-2012)
 

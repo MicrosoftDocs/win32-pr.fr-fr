@@ -4,12 +4,12 @@ ms.assetid: a7402e02-9bdc-49ec-ba93-8a32f55b9dd8
 title: Message de salutation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6504f25d360de055d7c0715266472e212540a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526b51576b36f143a932a757c70d0df19ddf9cc5efad3e51c4f7802003e6565e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552440"
 ---
 # <a name="hello-message"></a>Message de salutation
 
@@ -115,7 +115,7 @@ Un message Hello a les points de focalisation suivants.
 
 <dl> <dt>
 
-[Détection et messages d’échange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
+[détection et Messages de Exchange de métadonnées](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [Message Bye](bye-message.md)

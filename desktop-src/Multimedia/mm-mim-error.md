@@ -1,9 +1,9 @@
 ---
 title: Message MM_MIM_ERROR (mmsystem. h)
-description: Le \_ \_ message d’erreur de mm MIM est envoyé à une fenêtre lorsqu’un message MIDI non valide est reçu.
+description: le \_ \_ message d’erreur MM MIM est envoyé à une fenêtre lorsqu’un message MIDI non valide est reçu.
 ms.assetid: 03760bfc-a4ef-48cd-97a9-1b93b56fc641
 keywords:
-- Message MM_MIM_ERROR Windows Multimedia
+- message MM_MIM_ERROR Windows Multimedia
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b45988259601b40a804f9eb8acfbb085bddcda
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15b2f615434d47a60297991e170a27acd2c6fabefcb5fed0b71624d373a35ed5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802417"
 ---
-# <a name="mm_mim_error-message"></a>MM \_ \_ message d’erreur MIM
+# <a name="mm_mim_error-message"></a>MM \_ MIM \_ message d’erreur
 
-Le message d' **\_ \_ erreur de mm MIM** est envoyé à une fenêtre lorsqu’un message MIDI non valide est reçu.
+le message d' **\_ \_ erreur MM MIM** est envoyé à une fenêtre lorsqu’un message MIDI non valide est reçu.
 
 
 ```C++
@@ -64,7 +64,7 @@ Ce message ne retourne pas de valeur.
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | Client minimal pris en charge<br/> | Windows 2000 Professionnel - \[Applications de bureau uniquement\]<br/>                                                |
 | Serveur minimal pris en charge<br/> | Windows 2000 Server - \[Applications de bureau uniquement\]<br/>                                                      |
-| En-tête<br/>                   | <dl> <dt>MMSYSTEM. h (inclure Windows. h)</dt> </dl> |
+| En-tête<br/>                   | <dl> <dt>Mmsystem. h (inclure Windows. h)</dt> </dl> |
 
 
 

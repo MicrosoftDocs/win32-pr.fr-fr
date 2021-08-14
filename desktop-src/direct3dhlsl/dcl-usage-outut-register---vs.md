@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 314c9c9a9a9e62915e9224b3cf165bc54d09a516
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9ee5f444cbf145957ad93db00160d812e75e4a624019ad9f578b5dc960e84f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726716"
 ---
 # <a name="dcl_usage-output-sm1-sm2-sm3---vs-asm"></a>sortie d’utilisation de DCL \_ (SM1, SM2, SM3-vs ASM)
 
@@ -24,7 +24,7 @@ Les registres de sortie requièrent des déclarations qui incluent une sémantiq
 
 Parmi les douze registres de sortie, les dix (pas nécessairement o0 à O9) comportent quatre composants (XYZW), un autre doit être déclaré comme position (et doit également inclure les quatre composants) et, éventuellement, une taille de point scalaire.
 
-## <a name="syntax"></a>Syntax
+## <a name="syntax"></a>Syntaxe
 
 La syntaxe de déclaration des registres de sortie est similaire aux déclarations du registre d’entrée :
 

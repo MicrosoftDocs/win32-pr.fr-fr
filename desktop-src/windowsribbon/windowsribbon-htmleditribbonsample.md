@@ -4,12 +4,12 @@ description: cet exemple de code montre le balisage et le code requis pour migre
 ms.assetid: 1505aaea-76d2-47bc-bdc9-12e761da93f9
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: cfe75d13a69e0122766e51a00bcb1b15d52eab4e
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 0f1299bdc20b1b94a5113d3cfcdda205b6ad8e513a59706d708362fbc8383bd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202117"
 ---
 # <a name="htmleditribbon-sample"></a>Exemple HTMLEditRibbon
 
@@ -22,7 +22,7 @@ cet exemple de code montre le balisage et le code requis pour migrer une applica
 - [Support technique](#support)
 - [Configuration minimale requise](#minimum-requirements)
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Pour l’exemple MFC, consultez [HtmlEdit, exemple : encapsule le contrôle d’édition MSHTML d’Internet Explorer](https://msdn.microsoft.com/library/ea8hhwb6(VS.80).aspx).
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf13485ab75f51298ef273c7e02ea0253e4244d2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3bf846779f2fba5c2b2ac85d806c794d3e88aa6dcac0ce906ad82332e2ca2bee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720706"
 ---
 # <a name="wm_psd_envstamprect-message"></a>\_ \_ Message ENVSTAMPRECT WM
 
@@ -57,7 +57,7 @@ Si la procédure de raccordement retourne la **valeur true**, la boîte de dialo
 
 Si la procédure de raccordement retourne la **valeur false**, la boîte de dialogue dessine la partie de l’horodatage de la page d’exemple.
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La boîte de dialogue **mise en page** comprend une image d’un exemple de page qui montre comment les sélections de l’utilisateur affectent l’apparence de la sortie imprimée. Quand vous appelez la fonction [**PageSetupDlg**](/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)) , vous pouvez fournir une procédure de hook [*PagePaintHook*](/windows/win32/api/commdlg/nc-commdlg-lppagepainthook) pour personnaliser l’apparence de la page d’exemple. Chaque fois que la boîte de dialogue est sur le paragraphe pour dessiner le contenu de la page d’exemple, la boîte de dialogue envoie une séquence de messages à la procédure de raccordement.
 

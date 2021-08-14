@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 0b0fd06ef4b582987e41c2343f2d4596db6b8528
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32c375f37fbc0bc6352a79c9eb37be56578b236f6131c4ead1ea721cc53ce5e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220071"
 ---
 # <a name="iuseridentity2setname-method"></a>IUserIdentity2 :: SetName, méthode
 
@@ -44,7 +44,7 @@ HRESULT SetName(
 *pszName* \[ dans\]
 </dt> <dd>
 
-Type : **WCHAR \** _
+Type : **WCHAR \***
 
 Chaîne de caractères larges qui contient le nouveau nom de l’identité.
 
@@ -52,11 +52,11 @@ Chaîne de caractères larges qui contient le nouveau nom de l’identité.
 
 ## <a name="return-value"></a>Valeur retournée
 
-Type : _ *HRESULT**
+Type : **HRESULT**
 
 Si cette méthode est réussie, elle retourne la valeur **\_ OK**. Sinon, elle retourne un code d’erreur **HRESULT** .
 
-## <a name="requirements"></a>Spécifications
+## <a name="requirements"></a>Configuration requise
 
 
 

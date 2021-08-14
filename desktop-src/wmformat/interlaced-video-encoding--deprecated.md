@@ -1,6 +1,6 @@
 ---
-title: Encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media format 11)
-description: Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez Windows Media Audio et les API de codec vidéo et DSP. | Encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media format 11)
+title: encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media Format 11)
+description: pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez Windows Media Audio et les api de codec vidéo et DSP. | encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media Format 11)
 ms.assetid: f9015e77-02b1-494f-af54-e27901511236
 keywords:
 - Encodage vidéo entrelacée format Windows Media
@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7140bbffbebd493ac832ab463d9646a056aac5cd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3a57a3b38f19df9df75df81b2d9c92e77dcdd3d630c86ca44f170f91f6f7fb48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106545249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433648"
 ---
-# <a name="interlaced-video-encoding-windows-media-format-11-sdk"></a>Encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media format 11)
+# <a name="interlaced-video-encoding-windows-media-format-11-sdk"></a>encodage vidéo entrelacé (kit de développement logiciel (SDK) Windows Media Format 11)
 
-Pour obtenir la documentation actuelle sur les codecs Windows Media et les processeurs de signaux numériques, consultez [Windows Media audio et les API de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
+pour obtenir la documentation actuelle sur Windows les codecs multimédias et les processeurs de signaux numériques, consultez [Windows Media Audio et les api de codec vidéo et DSP.](/previous-versions//dd464626(v=vs.85))
 
  
 

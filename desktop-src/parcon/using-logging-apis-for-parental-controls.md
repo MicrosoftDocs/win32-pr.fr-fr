@@ -4,12 +4,12 @@ ms.assetid: 6c38a634-53ba-4e76-83bf-1a3f36efb0bc
 title: Utilisation des API de journalisation pour les contrôles parentaux
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d1cedb9ff02856be6ea1ae2069d8635b980681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 571a24f8bdbf687f8c1975cfc29057035ac56747edc0459682512531194c55a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103865569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869061"
 ---
 # <a name="using-logging-apis-for-parental-controls"></a>Utilisation des API de journalisation pour les contrôles parentaux
 
@@ -96,13 +96,13 @@ Le canal de journalisation WPC est contrôlé par la [*liste de contrôle d’ac
 
 ### <a name="parental-controls-logging-provider-details"></a>Détails du fournisseur de journalisation des contrôles parentaux
 
-Le fournisseur WPC est nommé Microsoft.com/Windows/ParentalControls avec le GUID {01090065-B467-4503-9B28-533766761087}. Le canal de journalisation local par défaut est Microsoft.com/Windows/ParentalControls/LocalEvents.
+le fournisseur WPC est nommé Microsoft.com/Windows/ParentalControls avec le GUID {01090065-B467-4503-9B28-533766761087}. le canal de journalisation local par défaut est Microsoft.com/Windows/ParentalControls/LocalEvents.
 
-Les fichiers journaux sont stockés dans le \\ dossier Windows system32 \\ WPC \\ logs.
+les fichiers journaux sont stockés dans le \\ dossier Windows System32 \\ Wpc \\ Logs.
 
 ### <a name="notification-of-impending-time-limits-logout"></a>Notification de déconnexion de limites de temps imminentes
 
-Le système de contrôle parental déclenche un événement d’avertissement à 15 minutes, puis à une minute avant la déconnexion d’un utilisateur contrôlé en fonction de restrictions de temps. Les applications peuvent s’abonner à ces événements, en particulier lorsqu’elles s’exécutent en mode plein écran DirectX dans lequel les notifications Windows standard ne sont pas affichées. Un exemple de code qui montre comment s’abonner aux événements, inscrire une fonction de rappel et recevoir les événements est fourni.
+Le système de contrôle parental déclenche un événement d’avertissement à 15 minutes, puis à une minute avant la déconnexion d’un utilisateur contrôlé en fonction de restrictions de temps. les Applications peuvent s’abonner à ces événements, en particulier lorsqu’elles s’exécutent en mode plein écran DirectX, où les notifications de Windows standard ne sont pas affichées. Un exemple de code qui montre comment s’abonner aux événements, inscrire une fonction de rappel et recevoir les événements est fourni.
 
 ## <a name="related-topics"></a>Rubriques connexes
 

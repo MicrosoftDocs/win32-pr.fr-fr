@@ -4,12 +4,12 @@ description: 'En ce qui concerne les modifications incompatibles, la règle de p
 ms.assetid: 5b893d79-b81d-4ede-8d49-71d85219c497
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9498e5c71c7ce9690da0969f234fbb9d094eca50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0a8736093e8189570026489bc1753145b941b7429b704e2c9c68783ddefef0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104029365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930038"
 ---
 # <a name="examples-of-incompatible-changes"></a>Exemples de modifications incompatibles
 
@@ -27,9 +27,9 @@ Il se peut que des modifications insidieux ou des incompatibilités involontaire
 -   Modification d’un type importé. Le type peut provenir d’un autre composant qui n’est pas directement distant, par conséquent, la modification a été jugée compatible.
 -   L’utilisation \# de ifdef dans un fichier IDL est une mauvaise idée pour les définitions de type ifdef dans un fichier IDL. il s’agit d’un incident qui se produit. Inévitablement, en raison de la génération ou d’autres problèmes, un client est compilé avec un ensemble différent de définitions que le serveur et il finit par être incompatible.
 
- 
+ 
 
- 
+ 
 
 
 

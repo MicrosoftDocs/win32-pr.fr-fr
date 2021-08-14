@@ -3,7 +3,7 @@ title: Message RB_GETBANDBORDERS (commctrl. h)
 description: Récupère les bordures d’une bande. Le résultat de ce message peut être utilisé pour calculer la zone utilisable dans une bande.
 ms.assetid: 45f2ae7e-636e-474b-a0d0-5235c6401e6a
 keywords:
-- RB_GETBANDBORDERS les contrôles de message Windows
+- RB_GETBANDBORDERS les contrôles de Windows de message
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 521dfecaf5e2573b30f606b7b4d7ecdec9bd896d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6b07303c10ef6f466907b11cf0e100927f63480690e77ac3dcbe80df80af97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118409711"
 ---
 # <a name="rb_getbandborders-message"></a>\_Message GETBANDBORDERS RB
 
@@ -53,8 +53,8 @@ La valeur de retour n’est pas utilisée.
 
 | Condition requise | Valeur |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows Vista uniquement\]<br/>                                        |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2003 \[ uniquement\]<br/>                                  |
+| Client minimal pris en charge<br/> | Windows \[Applications de bureau Vista uniquement\]<br/>                                        |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2003 \[ applications de bureau uniquement\]<br/>                                  |
 | En-tête<br/>                   | <dl> <dt>Commctrl. h</dt> </dl> |
 
 

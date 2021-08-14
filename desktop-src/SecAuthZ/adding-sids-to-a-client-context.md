@@ -4,12 +4,12 @@ ms.assetid: d49ce47b-e91a-452b-b423-07e8d282d28a
 title: Ajout de sid à un contexte client
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a601f485110ddacea0fdb54cb7dcef587a25cb9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f07805031d299efc400c491c7fff1c43653e90b53f6c753c81a8676d4b0941b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104529728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784921"
 ---
 # <a name="adding-sids-to-a-client-context"></a>Ajout de sid à un contexte client
 
@@ -19,7 +19,7 @@ Le système utilise la liste des SID restreints lorsqu’il vérifie l’accès 
 
 Les variables d’attribut doivent être sous la forme d’une expression lorsqu’elles sont utilisées avec des opérateurs logiques ; dans le cas contraire, elles sont évaluées comme étant inconnues.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 L’exemple suivant ajoute un SID et un SID restreint au contexte client créé par l’exemple dans [initialisation d’un contexte client](initializing-a-client-context.md).
 

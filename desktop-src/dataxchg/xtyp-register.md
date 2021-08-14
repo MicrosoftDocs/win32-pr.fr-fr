@@ -1,9 +1,9 @@
 ---
 title: XTYP_REGISTER transaction (Ddeml. h)
-description: Une fonction de rappel échange dynamique de données (DDE), DdeCallback, reçoit le \_ type de transaction XTYP Register chaque fois qu’une application serveur de bibliothèque de gestion des échange dynamique de données (Ddeml) utilise la fonction DdeNameService pour inscrire un nom de service, ou chaque fois qu’une application non Ddeml qui prend en charge la rubrique système est démarrée.
+description: une fonction de rappel échange dynamique de données (DDE), DdeCallback, reçoit le \_ type de transaction XTYP REGISTER chaque fois qu’une application serveur de bibliothèque de gestion des échange dynamique de données (DDEML) utilise la fonction DdeNameService pour inscrire un nom de service, ou chaque fois qu’une application non DDEML qui prend en charge la rubrique système est démarrée.
 ms.assetid: 465e9c10-1526-4e2a-8a46-5984043f5a93
 keywords:
-- Échange de données de transaction XTYP_REGISTER
+- XTYP_REGISTER Exchange de données de transaction
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd56bf4f5ac2b4eb0f714e5348174942f685c2ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79c4ffdb48b7a69109659e65d816b4ab146a1f38bde976e7f8330746f564bc64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544748"
 ---
 # <a name="xtyp_register-transaction"></a>\_Transaction Register XTYP
 
-Une fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit le type de transaction **XTYP \_ Register** chaque fois qu’une application serveur de bibliothèque de gestion des échange dynamique de données (Ddeml) utilise la fonction [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice) pour inscrire un nom de service, ou chaque fois qu’une application non Ddeml qui prend en charge la rubrique système est démarrée.
+une fonction de rappel échange dynamique de données (DDE), [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback), reçoit le type de transaction **XTYP \_ REGISTER** chaque fois qu’une application serveur de bibliothèque de gestion des échange dynamique de données (DDEML) utilise la fonction [**DdeNameService**](/windows/desktop/api/Ddeml/nf-ddeml-ddenameservice) pour inscrire un nom de service, ou chaque fois qu’une application non DDEML qui prend en charge la rubrique système est démarrée.
 
 
 ```C++
@@ -94,7 +94,7 @@ Non utilisé.
 
 </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cette transaction est filtrée si l’application a spécifié l’indicateur **\_ \_ d’omission des inscriptions CBF** dans la fonction [**DdeInitialize**](/windows/desktop/api/Ddeml/nf-ddeml-ddeinitializea) .
 
@@ -130,7 +130,7 @@ Une application doit utiliser le paramètre *HSZ1* pour ajouter le nom du servic
 **Méthodologique**
 </dt> <dt>
 
-[Bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
+[bibliothèque de gestion des échange dynamique de données](dynamic-data-exchange-management-library.md)
 </dt> </dl>
 
  

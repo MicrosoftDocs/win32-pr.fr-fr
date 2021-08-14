@@ -1,6 +1,6 @@
 ---
-title: Constantes de mouvements tactiles Windows (winuser. h)
-description: Cette section répertorie les constantes utilisées pour les gestes tactiles Windows.
+title: Windows Constantes de mouvements tactiles (winuser. h)
+description: cette section répertorie les constantes utilisées pour Windows les gestes tactiles.
 ms.assetid: C5C3C533-A781-47EF-8209-2D94A94C9097
 topic_type:
 - apiref
@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/18/2020
-ms.openlocfilehash: be1d8fe9354c7160643dcefb2d35938453ad5b07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e980619a4f0f2a0df83ebfbe2fb8e8a767ef5f988e2bb3b769bde64e714eb80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103942173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435225"
 ---
-# <a name="windows-touch-gestures-constants"></a>Constantes de mouvements tactiles Windows
+# <a name="windows-touch-gestures-constants"></a>Windows Constantes de mouvements tactiles
 
-Cette section répertorie les constantes utilisées pour les gestes tactiles Windows.
+cette section répertorie les constantes utilisées pour Windows les gestes tactiles.
 
 <dl> <dt>
 
@@ -39,10 +39,10 @@ Définit le nombre maximal de configurations de mouvement qui peuvent être incl
 
 | Condition requise | Valeur |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de \[ Bureau Windows 7 uniquement\]<br/>                                                               |
-| Serveur minimal pris en charge<br/> | Applications de bureau Windows Server 2008 R2 \[ uniquement\]<br/>                                                  |
+| Client minimal pris en charge<br/> | applications de \[ bureau Windows 7 uniquement\]<br/>                                                               |
+| Serveur minimal pris en charge<br/> | Windows Serveur 2008 R2, \[ applications de bureau uniquement\]<br/>                                                  |
 | En-tête<br/>                   | <dl> <dt>Winuser. h (inclure Windows. h)</dt> </dl> |
 
 ## <a name="see-also"></a>Voir aussi
 
-[**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig), [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig), [entrées tactiles Windows](multi-touch-gestures.md)
+[**GetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-getgestureconfig), [**SetGestureConfig**](/windows/desktop/api/winuser/nf-winuser-setgestureconfig), [Windows les gestes tactiles](multi-touch-gestures.md)

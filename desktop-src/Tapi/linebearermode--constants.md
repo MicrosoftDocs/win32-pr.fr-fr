@@ -4,12 +4,12 @@ ms.assetid: 87e46ec9-ed5f-4ff5-a382-34eb164f4e66
 title: Constantes LINEBEARERMODE_ (TAPI. h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dc7d48689dd435e0a07e1ce9fa5a2a9915b1bf69
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 87bb03664b6e904cbce7e376eb111675430ea86b8e6880211d76d5b364467097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106537884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761763"
 ---
 # <a name="linebearermode_-constants"></a>\_Constantes LINEBEARERMODE
 
@@ -97,7 +97,7 @@ Il s’agit d’un service de support analogique de niveau vocal 3,1 kHz standar
 
 </dt> </dl> </dd> </dl>
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Les 16 bits de poids fort peuvent être affectés pour les extensions spécifiques à l’appareil. Les 16 bits de poids faible sont réservés.
 

@@ -4,12 +4,12 @@ ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Fonctions Wait
 ms.topic: article
 ms.date: 06/25/2020
-ms.openlocfilehash: f5a21b0d95a316b926fcaad037004edc8c418246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15bfc37dcd8fe541c14b9a0693c7b743cae6ed3e548c418baf0585f078e6d59a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106519456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764963"
 ---
 # <a name="wait-functions"></a>Fonctions Wait
 
@@ -22,7 +22,7 @@ Les *fonctions Wait* permettent à un thread de bloquer sa propre exécution. Le
 -   [En attente d’une adresse](#waiting-on-an-address)
 -   [Fonctions Wait et intervalles de délai d’attente](#wait-functions-and-time-out-intervals)
 -   [Fonctions Wait et objets de synchronisation](#wait-functions-and-synchronization-objects)
--   [Fonctions Wait et création de fenêtres](#wait-functions-and-creating-windows)
+-   [Fonctions Wait et création de Windows](#wait-functions-and-creating-windows)
 
 ## <a name="single-object-wait-functions"></a>Fonctions d’attente d’objet unique
 
@@ -79,7 +79,7 @@ Les fonctions Wait peuvent modifier les États de certains types d' [objets de s
 -   L’état d’un minuteur de synchronisation est défini sur non signalé.
 -   Les États de l’événement de réinitialisation manuelle, du minuteur de réinitialisation manuelle, du processus, du thread et des objets d’entrée de la console ne sont pas affectés par une fonction d’attente.
 
-## <a name="wait-functions-and-creating-windows"></a>Fonctions Wait et création de fenêtres
+## <a name="wait-functions-and-creating-windows"></a>Fonctions Wait et création de Windows
 
 Vous devez être prudent lorsque vous utilisez les fonctions Wait et le code qui crée directement ou indirectement des fenêtres. Si un thread crée des fenêtres, il doit traiter les messages. Les diffusions de messages sont envoyées à toutes les fenêtres du système. Si vous disposez d’un thread qui utilise une fonction Wait sans délai d’expiration, le système se bloque. Les deux exemples de code qui crée indirectement des fenêtres sont DDE et la fonction **CoInitialize** . Par conséquent, si vous disposez d’un thread qui crée des fenêtres, utilisez [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects) ou [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex), plutôt que les autres fonctions d’attente.
 

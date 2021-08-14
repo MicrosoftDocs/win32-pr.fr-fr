@@ -5,12 +5,12 @@ ms.assetid: 35a3b261-d499-4154-a022-1e33a9ef7ba8
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d687bbbfadb4d1ccb789e9d5f1051ebfbb4484d7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5d0d22098b0a6b823aa5b7db50c20b5a5e2c80c7e540ffdb95e4e2f73c2550fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187387"
 ---
 # <a name="installing-a-service-on-a-host-computer"></a>Installation d’un service sur un ordinateur hôte
 
@@ -22,7 +22,7 @@ L’exemple de code suivant montre les étapes de base de l’installation d’u
 4.  Appelle la sous-routine **SpnCompose** du service qui utilise la chaîne de classe du service et le nom unique du SCP pour composer un nom de principal du service (SPN). Pour plus d’informations, consultez [composition des noms de principal du service pour un service avec SCP](composing-the-spns-for-a-service-with-an-scp.md). Le SPN identifie de manière unique cette instance du service.
 5.  Appelle la sous-routine **SpnRegister** du service qui inscrit le SPN sur l’objet de compte associé au compte d’ouverture de session du service. Pour plus d’informations, consultez [enregistrement des noms de principal du service pour un service](registering-the-spns-for-a-service.md). L’inscription du SPN permet aux applications clientes d’authentifier le service.
 
-Cet exemple de code fonctionne correctement, que le compte d’ouverture de session soit un compte d’utilisateur local ou de domaine ou le compte LocalSystem. Pour un compte d’utilisateur de domaine, le paramètre *szServiceAccountSAM* contient le nom d’utilisateur de *domaine ***\\**** du compte et le paramètre *szServiceAccountDN* contient le nom unique de l’objet de compte d’utilisateur dans l’annuaire. Pour le compte LocalSystem, *szServiceAccountSAM* et *szPassword* sont **null**, et *szServiceAccountSN* est le nom unique de l’objet compte de l’ordinateur local dans l’annuaire. Si *szServiceAccountSAM* spécifie un compte d’utilisateur local (le format du nom est «». \\ *Nom d'* utilisateur»), l’exemple de code ignore l’inscription du nom de principal du service, car l’authentification mutuelle n’est pas prise en charge pour les comptes d’utilisateurs locaux.
+Cet exemple de code fonctionne correctement, que le compte d’ouverture de session soit un compte d’utilisateur local ou de domaine ou le compte LocalSystem. Pour un compte d’utilisateur de domaine, le paramètre *szServiceAccountSAM* contient le *nom de domaine * nom d’utilisateur **\\**  du compte, tandis que le paramètre *szServiceAccountDN* contient le nom unique de l’objet de compte d’utilisateur dans l’annuaire. Pour le compte LocalSystem, *szServiceAccountSAM* et *szPassword* sont **null**, et *szServiceAccountSN* est le nom unique de l’objet compte de l’ordinateur local dans l’annuaire. Si *szServiceAccountSAM* spécifie un compte d’utilisateur local (le format du \\ nom est «».* UserName * "), l’exemple de code ignore l’inscription du nom de principal du service, car l’authentification mutuelle n’est pas prise en charge pour les comptes d’utilisateurs locaux.
 
 N’oubliez pas que la configuration de sécurité par défaut autorise uniquement les administrateurs de domaine à exécuter ce code.
 
@@ -150,6 +150,6 @@ return;
 
 Pour plus d’informations sur l’exemple de code précédent, consultez [composition des noms de principal du service pour un service avec un SCP](composing-the-spns-for-a-service-with-an-scp.md) et [enregistrement des noms de principal du service pour un service](registering-the-spns-for-a-service.md).
 
- 
+ 
 
- 
+ 

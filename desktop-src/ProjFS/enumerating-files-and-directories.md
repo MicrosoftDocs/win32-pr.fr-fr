@@ -4,12 +4,12 @@ description: Décrit comment un fournisseur ProjFS participe à l’énumératio
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/25/2018
 ms.topic: article
-ms.openlocfilehash: e0712ceb927388b090a84a89f80f0e2d3a1befbb
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: 606b379e206cdbc64726e0ea97aed34e00f5253ecbffb7f8b7d42469b0cbb5fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "103723993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792812"
 ---
 # <a name="enumerating-files-and-directories"></a>Énumération de fichiers et de répertoires
 
@@ -51,7 +51,7 @@ Pour participer à l’énumération de répertoires, le fournisseur doit implé
 
     > Si le magasin de stockage prend en charge les liens symboliques, le fournisseur doit utiliser **[PrjFillDirEntryBuffer2](/windows/win32/api/projectedfslib/nf-projectedfslib-prjfilldirentrybuffer2)** pour remplir la mémoire tampon fournie par le paramètre _dirEntryBufferHandle_ du rappel.  **PrjFillDirEntryBuffer2** prend en charge une entrée de mémoire tampon supplémentaire qui permet au fournisseur de spécifier que l’entrée d’énumération est un lien symbolique et quelle est sa cible.  Elle se comporte autrement comme décrit ci-dessus pour **PrjFillDirEntryBuffer**.  L’exemple suivant utilise **PrjFillDirEntryBuffer2** pour illustrer la prise en charge des liens symboliques.
     >
-    > Notez que **PrjFillDirEntryBuffer2** est pris en charge à partir de Windows 10, version 2004.  Un fournisseur doit détecter l’existence de **PrjFillDirEntryBuffer2**, par exemple à l’aide de **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
+    > notez que **PrjFillDirEntryBuffer2** est pris en charge à partir de Windows 10, version 2004.  Un fournisseur doit détecter l’existence de **PrjFillDirEntryBuffer2**, par exemple à l’aide de **[GetProcAddress](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress)**.
 
     ```C++
     typedef struct MY_ENUM_ENTRY MY_ENUM_ENTRY;

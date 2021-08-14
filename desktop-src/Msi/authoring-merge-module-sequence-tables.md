@@ -1,23 +1,23 @@
 ---
-description: Incluez les tables MergeModuleSequence dans le fichier. msm si le module de fusion doit modifier les tables de séquences d’action du fichier. msi cible. La fusion n’ajoute pas ces tables au fichier. msi. Ces tables se trouvent uniquement dans les modules de fusion.
+description: Incluez les tables MergeModuleSequence dans le fichier. msm si le module de fusion doit modifier les tables de séquences d’action du fichier .msi cible. La fusion n’ajoute pas ces tables au fichier .msi. Ces tables se trouvent uniquement dans les modules de fusion.
 ms.assetid: 9efb75d2-43f9-404c-8e7f-918d056190cf
 title: Création de tables de séquence de module de fusion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b21780601e626c006967cefa0dcff5700bdec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f45e4cf86c846030854054d7ab700e34210d4e27367cd31d606c78c24f2a9a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103951762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381184"
 ---
 # <a name="authoring-merge-module-sequence-tables"></a>Création de tables de séquence de module de fusion
 
-Incluez les tables MergeModuleSequence dans le fichier. msm si le module de fusion doit modifier les [*tables de séquences*](s-gly.md) d’action du fichier. msi cible. La fusion n’ajoute pas ces tables au fichier. msi. Ces tables se trouvent uniquement dans les modules de fusion.
+Incluez les tables MergeModuleSequence dans le fichier. msm si le module de fusion doit modifier les [*tables de séquences*](s-gly.md) d’action du fichier .msi cible. La fusion n’ajoute pas ces tables au fichier .msi. Ces tables se trouvent uniquement dans les modules de fusion.
 
 Si l’une des tables ModuleSequence est présente dans un fichier. msm, une copie vide de la table de séquences du programme d’installation correspondante doit également être créée dans le module de fusion. Par exemple, si un module de fusion contient une table ModuleAdminExecuteSequence, le module de fusion doit également inclure une table AdminExecuteSequence vide. Pendant une fusion, ces tables vides fournissent l’outil de fusion avec les instructions de schéma nécessaires.
 
-Lors de l’utilisation d' [actions standard](standard-actions.md) dans les tables de séquence de module de fusion, la valeur de la colonne Sequence doit être le numéro de séquence d’action recommandé pour l’action standard. Consultez les séquences d’actions suggérées ci-dessous pour connaître les numéros de séquence recommandés dans chaque table de séquences. Si le numéro de séquence dans la table de séquence de module de fusion diffère du numéro de séquence pour la même action dans le fichier. msi, l’outil de fusion utilise le numéro de séquence dans le fichier. msi pendant la fusion.
+Lors de l’utilisation d' [actions standard](standard-actions.md) dans les tables de séquence de module de fusion, la valeur de la colonne Sequence doit être le numéro de séquence d’action recommandé pour l’action standard. Consultez les séquences d’actions suggérées ci-dessous pour connaître les numéros de séquence recommandés dans chaque table de séquences. Si le numéro de séquence dans la table de séquence de module de fusion diffère du numéro de séquence pour la même action dans le fichier .msi, l’outil de fusion utilise le numéro de séquence dans le fichier .msi lors de la fusion.
 
 
 
@@ -53,7 +53,7 @@ Si une action qui retourne un indicateur d’arrêt est entrée dans la colonne 
 
  
 
-La colonne BaseAction peut contenir une action standard, une action personnalisée spécifiée dans la table d’actions personnalisée du module de fusion ou une boîte de dialogue spécifiée dans la table de boîte de dialogue du module. La colonne BaseAction est une clé dans la colonne action de ce tableau. Il ne peut pas s’agir d’une clé étrangère dans une autre table ou table de fusion du fichier. msi. Cela signifie que chaque action standard, action personnalisée ou boîte de dialogue figurant dans la colonne BaseAction doit également figurer dans la colonne action d’un autre enregistrement dans ce tableau.
+La colonne BaseAction peut contenir une action standard, une action personnalisée spécifiée dans la table d’actions personnalisée du module de fusion ou une boîte de dialogue spécifiée dans la table de boîte de dialogue du module. La colonne BaseAction est une clé dans la colonne action de ce tableau. Il ne peut pas s’agir d’une clé étrangère dans une autre table de fusion ou table dans le fichier .msi. Cela signifie que chaque action standard, action personnalisée ou boîte de dialogue figurant dans la colonne BaseAction doit également figurer dans la colonne action d’un autre enregistrement dans ce tableau.
 
  
 

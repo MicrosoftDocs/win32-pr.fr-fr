@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f09e1a315d4929ebb92f3b0e59ed6762a7fe4b35
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: df6babcac908d59c5a5a51b0a23736b760ed25ec542f58339182d3a7536050be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106525830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360073"
 ---
 # <a name="glgetmaterialiv-function"></a>glGetMaterialiv fonction)
 
@@ -95,7 +95,7 @@ Les codes d’erreur suivants peuvent être récupérés par la fonction [**glGe
 
 
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 La fonction **glGetMaterial** *retourne dans les paramètres la* valeur ou les valeurs du paramètre *pname* de la *facette* matérielle.
 

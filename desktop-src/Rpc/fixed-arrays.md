@@ -4,12 +4,12 @@ description: Si votre interface spécifie un tableau avec un nombre spécifique 
 ms.assetid: b9a2fa0b-1386-43e1-ab55-0a57cd8d1f18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb3a620e86bff47e04afb5078dff50faee9fef0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1040e417cc896b9f4bd2271dc69e23033332354357b2aad32053724d94b79035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929978"
 ---
 # <a name="fixed-arrays"></a>Tableaux fixes
 
@@ -35,9 +35,9 @@ Lorsqu’un programme client transmet un tableau fixe à un programme serveur, l
 
 Lorsque la procédure distante se termine, le stub serveur renvoie le contenu du tableau au client. Le stub client copie les données qu’il a reçues du stub serveur dans le tableau d’origine. Le programme client peut ensuite utiliser les données comme si elles avaient reçu les données d’un appel de procédure local.
 
- 
+ 
 
- 
+ 
 
 
 

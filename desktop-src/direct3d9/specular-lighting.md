@@ -4,12 +4,12 @@ ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: Éclairage spéculaire (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b16d71bd8d814e104cf8a90d1d1fe9b15ba10f3
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 84597b63ebd064fbe27ae90b673e9c91166be96f6f45b039ba29a16de9011054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520156"
 ---
 # <a name="specular-lighting-direct3d-9"></a>Éclairage spéculaire (Direct3D 9)
 
@@ -81,7 +81,7 @@ Le vecteur à mi-chemin (H) existe à mi-chemin entre deux vecteurs : le vecteu
 
 | Paramètre       | Valeur par défaut | Type      | Description                                                  |
 |-----------------|---------------|-----------|--------------------------------------------------------------|
-| CP              | N/A           | D3DVECTOR | Position de la caméra.                                             |
+| CP              | N/A           | D3DVECTOR | Position de l'appareil photo.                                             |
 | VP              | N/A           | D3DVECTOR | Position du vertex.                                             |
 | <sub>Rép</sub> . | N/A           | D3DVECTOR | Vecteur de direction de la position du vertex à la position de la lumière. |
 
@@ -99,7 +99,7 @@ La détermination du vecteur à mi-chemin de cette manière peut nécessiter de 
 
 Ce paramètre est moins gourmand en calculs, mais beaucoup moins précis. il est donc mieux utilisé par les applications qui utilisent la projection orthogonale.
 
-## <a name="example"></a>Exemple
+## <a name="example"></a> Exemple
 
 Dans cet exemple, l’objet est coloré à l’aide de la couleur de la lumière spéculaire et d’une couleur spéculaire. Le code est illustré ci-dessous.
 

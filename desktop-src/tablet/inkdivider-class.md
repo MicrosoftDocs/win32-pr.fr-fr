@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Inkdiv.dll
 - Inkdiv.dll.dll
-ms.openlocfilehash: c0658504303968803bd2abff063694701d121390
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7dd98aaef627bac6a26340464c14c4e46c07d6a23f32c2664651503b5d79014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106536401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220830"
 ---
 # <a name="inkdivider-class"></a>InkDivider, classe
 
@@ -76,7 +76,7 @@ La classe **InkDivider** possède les propriétés suivantes.
 
  
 
-## <a name="remarks"></a>Notes
+## <a name="remarks"></a>Remarques
 
 Cet objet peut être instancié en appelant la méthode [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) en C++.
 
@@ -106,7 +106,7 @@ Le **InkDivider** ne prend pas actuellement en charge les langues verticales. Po
 
 | Condition requise | Valeur |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| Client minimal pris en charge<br/> | Applications de bureau Windows XP Édition Tablet PC \[ uniquement\]<br/>                                                           |
+| Client minimal pris en charge<br/> | Windows Applications de bureau XP Édition Tablet PC \[ uniquement\]<br/>                                                           |
 | Serveur minimal pris en charge<br/> | Aucun pris en charge<br/>                                                                                               |
 | En-tête<br/>                   | <dl> <dt>Msinkaut15. h (nécessite également Msinkaut15 \_ i. c)</dt> </dl> |
 | Bibliothèque<br/>                  | <dl> <dt>Inkdiv.dll</dt> </dl>                                   |

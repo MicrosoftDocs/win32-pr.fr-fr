@@ -4,21 +4,21 @@ description: VML Fill, élément
 ms.assetid: ea790017-5aaa-4e75-8fc7-77fc94fd1d1e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc7205baa9db0eaa7d84d4022057f81804ea790
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b314e2d735b8b7800321eacffbd63c686b17e870fd136e086c52231ad801456e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: fr-FR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103941343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118346623"
 ---
 # <a name="vml-fill-element"></a>VML Fill, élément
 
-Cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
+cette rubrique décrit VML, une fonctionnalité déconseillée à partir de Windows Internet Explorer 9. Les pages Web et les applications qui reposent sur VML doivent être migrées vers SVG ou d’autres normes largement prises en charge.
 
 > [!Note]  
-> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). Pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows Internet Explorer, consultez le [Centre de développement Internet Explorer](https://msdn.microsoft.com/ie/).
+> Depuis le 2011 décembre, cette rubrique a été archivée. Par conséquent, il n’est plus activement conservé. Pour plus d’informations, consultez [contenu archivé](/previous-versions/windows/internet-explorer/ie-developer/). pour obtenir des informations, des recommandations et des conseils relatifs à la version actuelle de Windows internet explorer, consultez le [centre de développement internet explorer](https://msdn.microsoft.com/ie/).
 
- 
+ 
 
 Définit un remplissage pour une forme.
 
@@ -32,7 +32,7 @@ Les attributs suivants modifient un remplissage.
 | [AltHRef](althref-attribute--fill--vml.md)                        | Spécifie une autre référence pour une image.         |
 | [Angle](angle-attribute--fill--vml.md)                            | Définit l’angle d’un dégradé.                  |
 | [Aspect](msdn-online-vml-aspect-attribute.md)                     | Spécifie la manière dont l’aspect de l’image de remplissage sera préservé. |
-| [Color](color-attribute--fill--vml.md)                            | Définit la couleur d’un remplissage.                           |
+| [Couleur](color-attribute--fill--vml.md)                            | Définit la couleur d’un remplissage.                           |
 | [Couleur2](color2-attribute--fill--vml.md)                          | Définit la deuxième couleur d’un remplissage.                   |
 | [Couleurs](msdn-online-vml-colors-attribute.md)                     | Définit plusieurs couleurs pour un remplissage dégradé.           |
 | [DetectMouseClick](detectmouseclick-attribute--fill--vml.md)      | Détermine si un clic de souris est détecté.          |
@@ -54,7 +54,7 @@ Les attributs suivants modifient un remplissage.
 
 
 
- 
+ 
 
 **Remarques**
 
@@ -78,6 +78,6 @@ Le code suivant illustre un remplissage dégradé simple pour une forme.
 -   [Remplissage dégradé simple](/previous-versions/bb229620(v=vs.85))
 -   [Exemple de remplissage dynamique](/previous-versions/bb229621(v=vs.85))
 
- 
+ 
 
- 
+ 
